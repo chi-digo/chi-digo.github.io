@@ -52,26 +52,135 @@ function ChidigoLogo() {
 
 export default function Home() {
   return (
-    <main className={styles.hero}>
-      <div className={styles.bandTop} />
-      <div className={styles.bandBottom} />
+    <>
+      {/* ===== Hero ===== */}
+      <section className={styles.hero}>
+        <div className={styles.bandTop} />
+        <div className={styles.bandBottom} />
 
-      <div className={styles.backgroundImage} />
-      <div className={styles.gradient} />
+        <div className={styles.backgroundImage} />
+        <div className={styles.gradient} />
 
-      <div className={styles.content}>
-        <h1 className={styles.title}>Chi-digo</h1>
-        <p className={styles.proverb} lang="dig">
-          {content.proverb_digo}
-        </p>
-        <p className={styles.gloss} lang="en">
-          {content.proverb_gloss}
-        </p>
-      </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Chi-digo</h1>
+          <p className={styles.proverb} lang="dig">
+            {content.proverb_digo}
+          </p>
+          <p className={styles.gloss} lang="en">
+            {content.proverb_gloss}
+          </p>
+        </div>
 
-      <div className={styles.logo}>
-        <ChidigoLogo />
-      </div>
-    </main>
+        <div className={styles.logo}>
+          <ChidigoLogo />
+        </div>
+      </section>
+
+      {/* ===== What is Digo ===== */}
+      <section className={`${styles.section} ${styles.whatIsDigo}`}>
+        <div className={styles.sectionInner}>
+          <p className={styles.eyebrow}>What is Digo</p>
+          <h2 className={styles.sectionHeading}>
+            Chidigo is a Bantu language of the Mijikenda family, spoken on the
+            Kenya–Tanzania coast.
+          </h2>
+          <div className={styles.twoColumns}>
+            <div>
+              <div className={styles.factLabel}>Geography</div>
+              <p className={styles.bodyText}>
+                South of Mombasa down to Tanga. Heartland in Kwale County, the
+                village of Kinondo (home to the primary Digo kaya), and the
+                coastal hinterland.
+              </p>
+
+              <div className={styles.factLabel}>Family</div>
+              <p className={styles.bodyText}>
+                Guthrie code <strong>E.73</strong>, North-East Coast branch.
+                Sister to Giryama, Duruma, Chonyi and other Mijikenda languages.
+              </p>
+
+              <div className={styles.factLabel}>Numbers</div>
+              <p className={styles.bodyText}>
+                ~360,000 speakers (Mgombato 2004). Pan-Mijikenda: ~2.4M.
+              </p>
+            </div>
+            <div className={styles.culturalAnchorsCard}>
+              <div className={styles.factLabel}>Cultural anchors</div>
+              <p className={styles.bodyText}>
+                <strong>The kayas</strong> — sacred Mijikenda forests, UNESCO
+                World Heritage, with Kaya Kinondo as the primary Digo site.
+              </p>
+              <p className={styles.bodyText}>
+                <strong>Coastal life</strong> — fishing, palm-wine tapping,
+                coconut and cassava farming, mangrove and reef.
+              </p>
+              <p className={styles.bodyText}>
+                <strong>Music</strong> — chakacha, sengenya, mwanzele.
+              </p>
+              <p className={styles.bodyText}>
+                <strong>Dress</strong> — the{" "}
+                <em lang="dig">hando</em> in white, red, blue; the kaya elder{" "}
+                <em lang="dig">kitambi</em> in indigo with red bands.
+              </p>
+              <p className={styles.bodyText}>
+                <strong>Faith</strong> — ~99% Muslim, layered over an older
+                Mijikenda spirit world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== The Problem ===== */}
+      <section className={`${styles.section} ${styles.theProblem}`}>
+        <div className={styles.sectionInner}>
+          <p className={styles.eyebrow}>The Problem</p>
+          <blockquote className={styles.pullQuote}>
+            &ldquo;My parents understand Digo when their grandmother speaks.
+            They reply in Swahili. My children don&rsquo;t understand at
+            all.&rdquo;
+          </blockquote>
+          <p className={styles.bodyText}>
+            This pattern — passive parents, peer-only transmission, screen lives
+            in Swahili and English — is{" "}
+            <strong className={styles.cliffHighlight}>a cliff</strong>, not a
+            slope.
+          </p>
+          <p className={styles.bodyText}>
+            Linguists call it the <em>missing transmission generation</em>: when
+            parents stop speaking the language <em>to</em> their children, the
+            language collapses in two generations even with hundreds of thousands
+            of nominal speakers.
+          </p>
+        </div>
+      </section>
+
+      {/* ===== Our Mission ===== */}
+      <section className={`${styles.section} ${styles.ourMission}`}>
+        <div className={styles.sectionInner}>
+          <p className={styles.eyebrow}>Our Mission</p>
+          <p className={styles.missionStatement}>
+            To make Chidigo a language children grow up speaking, by giving the
+            Digo community the tools, content, and platforms it needs to{" "}
+            <span className={styles.missionHighlight}>
+              transmit, evolve, and celebrate
+            </span>{" "}
+            its language and culture.
+          </p>
+        </div>
+      </section>
+
+      {/* ===== Footer ===== */}
+      <footer className={styles.footer}>
+        <div className={styles.footerInner}>
+          <div className={styles.footerLogo}>
+            <ChidigoLogo />
+          </div>
+          <p className={styles.footerCopy}>
+            &copy; {new Date().getFullYear()} Chi-digo
+          </p>
+        </div>
+      </footer>
+    </>
   );
 }

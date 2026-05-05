@@ -110,3 +110,210 @@
   height: auto;
   color: var(--color-hando-white);
 }
+
+/* ===== Shared section styles ===== */
+
+.section {
+  width: 100%;
+  padding: clamp(3rem, 8vw, 6rem) 0;
+}
+
+.sectionInner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.eyebrow {
+  font-family: var(--font-inter), Inter, sans-serif;
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.sectionHeading {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  line-height: 1.2;
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.bodyText {
+  font-family: var(--font-source-serif), 'Source Serif 4', serif;
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.65;
+}
+
+/* ===== Section 2 — What is Digo ===== */
+
+.whatIsDigo {
+  background-color: var(--color-hando-white);
+  color: var(--color-vigango-black);
+}
+
+.whatIsDigo .eyebrow {
+  color: var(--color-kaya-indigo);
+}
+
+.whatIsDigo .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.factLabel {
+  font-family: var(--font-inter), Inter, sans-serif;
+  font-size: clamp(0.65rem, 0.9vw, 0.75rem);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.factLabel:first-child {
+  margin-top: 0;
+}
+
+.culturalAnchorsCard {
+  background-color: var(--color-coral-lime-sand);
+  border-radius: 8px;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.culturalAnchorsCard .factLabel {
+  color: var(--color-ngundu-red);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.culturalAnchorsCard .bodyText {
+  margin-bottom: 0.5rem;
+}
+
+.culturalAnchorsCard .bodyText:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== Section 3 — The Problem ===== */
+
+.theProblem {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-white);
+}
+
+.theProblem .eyebrow {
+  color: var(--color-coral-lime-sand);
+}
+
+.pullQuote {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(1.4rem, 3.2vw, 2rem);
+  line-height: 1.3;
+  color: var(--color-hando-white);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  max-width: 42em;
+}
+
+.theProblem .bodyText {
+  color: var(--color-coral-lime-sand);
+  max-width: 38em;
+}
+
+.theProblem .bodyText + .bodyText {
+  margin-top: 0.75rem;
+}
+
+.cliffHighlight {
+  color: var(--color-mnazi-gold);
+  font-weight: 700;
+}
+
+/* ===== Section 4 — Our Mission ===== */
+
+.ourMission {
+  background-color: var(--color-hando-white);
+  color: var(--color-vigango-black);
+}
+
+.ourMission .eyebrow {
+  color: var(--color-mnazi-gold);
+}
+
+.missionStatement {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 400;
+  font-size: clamp(1.3rem, 3vw, 2.2rem);
+  line-height: 1.25;
+  color: var(--color-kaya-deep);
+  max-width: 42em;
+}
+
+.missionHighlight {
+  color: var(--color-mnazi-gold);
+  font-style: italic;
+}
+
+/* ===== Footer ===== */
+
+.footer {
+  background-color: var(--color-kaya-deep);
+  border-top: 1px solid rgba(242, 234, 215, 0.12);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.footerInner {
+  width: 100%;
+  padding: 0 5.25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerLogo svg {
+  width: 64px;
+  height: auto;
+  color: var(--color-hando-white);
+  opacity: 0.6;
+}
+
+.footerCopy {
+  font-family: var(--font-source-serif), 'Source Serif 4', serif;
+  font-size: 0.7rem;
+  color: rgba(242, 234, 215, 0.4);
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 767px) {
+  .twoColumns {
+    grid-template-columns: 1fr;
+  }
+
+  .proverb {
+    max-width: 90%;
+  }
+
+  .content {
+    left: 5.25%;
+    right: 5.25%;
+  }
+}
+
+@media (max-width: 479px) {
+  .proverb {
+    max-width: 100%;
+  }
+}

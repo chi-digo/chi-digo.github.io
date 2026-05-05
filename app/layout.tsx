@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Source_Serif_4 } from "next/font/google";
+import { Fraunces, Source_Serif_4, Inter } from "next/font/google";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -14,6 +14,12 @@ const sourceSerif = Source_Serif_4({
   subsets: ["latin", "latin-ext"],
   style: ["normal"],
   variable: "--font-source-serif",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -43,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`}>
       <body>{children}</body>
     </html>
   );
