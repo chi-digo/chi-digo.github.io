@@ -18,13 +18,13 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Chi-digo — Where Digo Lives Online",
+  title: "Chi-digo — Building the transmission tools for the Digo language",
   description:
-    "The Chi-digo language preservation initiative: dictionary, proverbs, audio, and cultural resources for the Digo language of the Kenya–Tanzania coast.",
+    "Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 360,000 speakers on the Kenya–Tanzania coast.",
   openGraph: {
     title: "Chi-digo",
     description:
-      "Where Digo lives online — dictionary, proverbs, audio, and cultural resources for the Digo language.",
+      "Building the transmission tools for the Digo language.",
     siteName: "Chi-digo",
     locale: "en_US",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chi-digo",
     description:
-      "Where Digo lives online — dictionary, proverbs, audio, and cultural resources for the Digo language.",
+      "Building the transmission tools for the Digo language.",
   },
 };
 
