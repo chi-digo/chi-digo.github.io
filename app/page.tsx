@@ -55,7 +55,6 @@ export default function Home() {
     <>
       {/* ===== Hero ===== */}
       <section className={styles.hero}>
-        <div className={styles.bandTop} />
         <div className={styles.bandBottom} />
 
         <div className={styles.backgroundImage} />
@@ -101,7 +100,7 @@ export default function Home() {
 
               <div className={styles.factLabel}>Numbers</div>
               <p className={styles.bodyText}>
-                ~360,000 speakers (Mgombato 2004). Pan-Mijikenda: ~2.4M.
+                ~600,000 ethnic Digo (Kenya and Tanzania). Pan-Mijikenda: ~2.5M (2019 census).
               </p>
             </div>
             <div className={styles.culturalAnchorsCard}>
@@ -122,10 +121,6 @@ export default function Home() {
                 <em lang="dig">hando</em> in white, red, blue; the kaya elder{" "}
                 <em lang="dig">kitambi</em> in indigo with red bands.
               </p>
-              <p className={styles.bodyText}>
-                <strong>Faith</strong> — ~99% Muslim, layered over an older
-                Mijikenda spirit world.
-              </p>
             </div>
           </div>
         </div>
@@ -133,6 +128,7 @@ export default function Home() {
 
       {/* ===== The Problem ===== */}
       <section className={`${styles.section} ${styles.theProblem}`}>
+        <div className={styles.pindoMotif} />
         <div className={styles.sectionInner}>
           <p className={styles.eyebrow}>The Problem</p>
           <blockquote className={styles.pullQuote}>

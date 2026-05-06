@@ -206,8 +206,21 @@
 /* ===== Section 3 — The Problem ===== */
 
 .theProblem {
+  position: relative;
   background-color: var(--color-kaya-deep);
   color: var(--color-hando-white);
+}
+
+.pindoMotif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background-image: url('/pindo-diamond-chain.svg');
+  background-repeat: repeat-x;
+  background-size: 240px 24px;
+  background-position: center top;
 }
 
 .theProblem .eyebrow {
