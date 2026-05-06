@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Source_Serif_4, Inter } from "next/font/google";
+import { ClientShell } from "@/components/ClientShell";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -8,6 +9,7 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
   display: "swap",
   axes: ["opsz", "SOFT", "WONK"],
+  adjustFontFallback: false,
 });
 
 const sourceSerif = Source_Serif_4({
@@ -15,12 +17,14 @@ const sourceSerif = Source_Serif_4({
   style: ["normal"],
   variable: "--font-source-serif",
   display: "swap",
+  adjustFontFallback: false,
 });
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
   variable: "--font-inter",
   display: "swap",
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
@@ -48,9 +52,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const blockingScript = `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})();`;
+
   return (
-    <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: blockingScript }} />
+      </head>
+      <body>
+        <ClientShell>{children}</ClientShell>
+      </body>
     </html>
   );
 }

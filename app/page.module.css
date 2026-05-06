@@ -63,30 +63,30 @@
 }
 
 .title {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(3rem, 13.5vw, 130pt);
   line-height: 0.95;
   letter-spacing: -0.04em;
   color: var(--color-hando-white);
-  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 1;
   margin: 0;
 }
 
 .proverb {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 300;
   font-style: italic;
   font-size: clamp(1rem, 2.3vw, 22pt);
   line-height: 1.25;
   color: var(--color-hando-white);
-  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 22, 'SOFT' 0, 'WONK' 1;
   margin: 0.3in 0 0 0;
   max-width: 60%;
 }
 
 .gloss {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 300;
   font-style: normal;
   font-size: clamp(0.75rem, 1.35vw, 13pt);
@@ -125,7 +125,7 @@
 }
 
 .eyebrow {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(0.65rem, 1vw, 0.8rem);
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -134,7 +134,7 @@
 }
 
 .sectionHeading {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   font-size: clamp(1.5rem, 3.5vw, 2.5rem);
   line-height: 1.2;
@@ -142,7 +142,7 @@
 }
 
 .bodyText {
-  font-family: var(--font-source-serif), 'Source Serif 4', serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
   line-height: 1.65;
 }
@@ -169,7 +169,7 @@
 }
 
 .factLabel {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(0.65rem, 0.9vw, 0.75rem);
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -228,7 +228,7 @@
 }
 
 .pullQuote {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 300;
   font-style: italic;
   font-size: clamp(1.4rem, 3.2vw, 2rem);
@@ -264,7 +264,7 @@
 }
 
 .missionStatement {
-  font-family: var(--font-fraunces), serif;
+  font-family: 'Fraunces', serif;
   font-weight: 400;
   font-size: clamp(1.3rem, 3vw, 2.2rem);
   line-height: 1.25;
@@ -303,7 +303,7 @@
 }
 
 .footerCopy {
-  font-family: var(--font-source-serif), 'Source Serif 4', serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 0.7rem;
   color: rgba(242, 234, 215, 0.4);
 }
@@ -313,6 +313,10 @@
 @media (max-width: 767px) {
   .twoColumns {
     grid-template-columns: 1fr;
+  }
+
+  .backgroundImage {
+    background-position: 72% center;
   }
 
   .proverb {
@@ -328,5 +332,11 @@
 @media (max-width: 479px) {
   .proverb {
     max-width: 100%;
+  }
+}
+
+@media (max-height: 500px) {
+  .content {
+    top: max(25.3%, 60px);
   }
 }

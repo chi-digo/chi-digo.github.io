@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Chi-digo — Building the transmission tools for the Digo language",
+    "description": "Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
+    "og_title": "Chi-digo",
+    "og_description": "Building the transmission tools for the Digo language.",
+    "og_locale": "en_US",
+    "twitter_title": "Chi-digo",
+    "twitter_description": "Building the transmission tools for the Digo language."
+  },
+  "nav": {
+    "language_selector_label": "Choose language",
+    "language_name": "English"
+  },
+  "hero": {
+    "title": "Chi-digo",
+    "proverb_digo": "Mvula igodzwa na utseru.",
+    "proverb_gloss": "The rain is waited for with a cleared plot."
+  },
+  "what_is_digo": {
+    "eyebrow": "What is Digo",
+    "heading": "Chidigo is a Bantu language of the Mijikenda family, spoken on the Kenya–Tanzania coast.",
+    "geography_label": "Geography",
+    "geography_text": "South of Mombasa down to Tanga. Heartland in Kwale County, the village of Kinondo (home to the primary Digo {dig:kaya}), and the coastal hinterland.",
+    "family_label": "Family",
+    "family_text": "Guthrie code E.73, North-East Coast branch. Sister to Giryama, Duruma, Chonyi and other Mijikenda languages.",
+    "numbers_label": "Numbers",
+    "numbers_text": "~600,000 ethnic Digo (Kenya and Tanzania). Pan-Mijikenda: ~2.5M (2019 census).",
+    "cultural_anchors_label": "Cultural anchors",
+    "kayas_text": "The {dig:kaya}s — sacred Mijikenda forests, UNESCO World Heritage, with Kaya Kinondo as the primary Digo site.",
+    "coastal_life_text": "Coastal life — fishing, palm-wine tapping, coconut and cassava farming, mangrove and reef.",
+    "music_text": "Music — {dig:chakacha}, {dig:sengenya}, {dig:mwanzele}.",
+    "dress_text": "Dress — the {dig:hando} in white, red, blue; the {dig:kaya} elder {dig:kitambi} in indigo with red bands."
+  },
+  "the_problem": {
+    "eyebrow": "The Problem",
+    "pull_quote": "\u201cMy parents understand Digo when their grandmother speaks. They reply in Swahili. My children don\u2019t understand at all.\u201d",
+    "body_1": "This pattern — passive parents, peer-only transmission, screen lives in Swahili and English — is {cliff}, not a slope.",
+    "body_1_cliff": "a cliff",
+    "body_2": "Linguists call it the missing transmission generation: when parents stop speaking the language to their children, the language collapses in two generations even with hundreds of thousands of nominal speakers."
+  },
+  "our_mission": {
+    "eyebrow": "Our Mission",
+    "statement": "To make Chidigo a language children grow up speaking, by giving the Digo community the tools, content, and platforms it needs to {highlight} its language and culture.",
+    "statement_highlight": "transmit, evolve, and celebrate"
+  },
+  "footer": {
+    "copyright": "Chi-digo"
+  }
+}
