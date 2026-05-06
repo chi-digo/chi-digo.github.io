@@ -232,6 +232,90 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uchimbaji ulithibitisha vipengele kadhaa vya mapokeo ya mdomo: makaya yalikuwa makazi ya kale, yaliyoimarishwa, yenye ushahidi wa maisha ya jamii yaliyopangwa. Lakini ushahidi wa tarehe unapinga masimulizi ya kawaida ya uhamiaji, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya watu inayobadilika mahali badala ya kuwasili ghafla."
+            },
+            {
+              "type": "heading",
+              "text": "Mpangilio wa Makazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mpangilio wa kimwili wa maeneo ya makaya, unaoonekana katika rekodi ya kiakiolojia na katika makaya hai yanayodumishwa mfululizo, unafuata muundo ambao ni thabiti kwa ajabu kote kwa makundi yote ya Mijikenda. Msitu mnene wa kinga unazunguka makazi, ukipitishwa na njia mbili zinazoongoza kupitia malango yaliyoimarishwa. Kiwanja cha kati kina miundo ya sherehe na utawala — kuba la mkutano la *moroni*, miti mitakatifu, na eneo ambapo hirizi za kinga za *fingo* zinahifadhiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utafiti wa kiakiolojia wa maeneo ya makaya umefunua kwamba mpangilio huu si wa kimila tu bali ni wa kazi. Msitu wa kinga ulitoa ngome ya asili, ukifanya makaya kuwa ya kulindwa dhidi ya mashambulizi. Mfumo wa malango mawili ulidhibiti ufikiaji na kuruhusu ufuatiliaji wa milango yote ya kuingia na kutoka. Uwekaji wa makazi juu ya vilima ulitoa mwinuko na uwezo wa kuona wa asili. Makaya yalikuwa, kwa maneno ya kijeshi, nafasi bora za ulinzi — na uthabiti wa muundo wao katika maeneo mengi unapendekeza mwili wa pamoja wa maarifa kuhusu upangaji wa makazi uliosambazwa kote ulimwenguni mwa Mijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uthabiti huu wa kiujenzi unauliza swali la kuvutia kuhusu mjadala wa uhamiaji. Ikiwa Mijikenda walifika kutoka Singwaya kwa nyakati tofauti na kukaa katika maeneo tofauti, walipataje wote muundo ule ule wa makazi? Uwezekano mmoja ni kwamba muundo huo ulikuwa sehemu ya mfuko wa kitamaduni walioubeba kutoka Singwaya. Mwingine ni kwamba ulibadilika ndani na kuenezwa kupitia mawasiliano ya makaya. Uwezekano wa tatu — unaofanana na nadharia ya Walsh ya mahali pale pale — ni kwamba ulikua kwa karne nyingi za uzoefu wa pamoja wa ndani."
+            },
+            {
+              "type": "heading",
+              "text": "Ushahidi wa Tarehe na Athari Zake"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa tarehe kutoka uchimbaji wa Mutoro umekuwa miongoni mwa mambo yaliyojadiliwa zaidi ya kazi yake. Ufinyanzi wa karne ya kumi kutoka Kaya Singwaya, na pendekezo la wanaakiolojia wengine kwamba makaya yanaweza kuanzishwa mapema karne ya tisa, vina athari kubwa kwa kila nadharia ya asili ya Mijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikiwa makaya yalianzishwa katika karne ya tisa au kumi, yanawezekana kutangulia miji ya mawe ya Kiswahili — makazi ya miji ya pwani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi yamechukuliwa kama jamii za kwanza ngumu za pwani ya Afrika Mashariki. Hii ingebadilisha dhana ya kudumu ya enzi ya kikoloni: kwamba miji ya pwani ilikuwa vituo vya ustaarabu huku watu wa bara wakiwa \"Nyika\" — wakazi wa nyikani, wa pembeni, wasio na maendeleo. Tarehe za Mutoro zinapendekeza kwamba makazi ya misitu ya bara yalikuwa ya wakati mmoja na au hata ya mapema zaidi kuliko miji ya mawe ya pwani. Mijikenda hawakuwa waliochelewa. Walikuwa, labda, waanzilishi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa mjadala wa uhamiaji hasa, kuanzishwa kwa makaya katika karne ya tisa ni vigumu kupatanisha na uhamiaji uliosababishwa na uvamizi wa Waoromo unaotarishwa karne ya kumi na mbili hadi kumi na saba. Ikiwa makaya ni ya zamani hivyo, ama uhamiaji ulitokea mapema zaidi kuliko mapokeo ya mdomo yanavyodai, au makaya yalianzishwa na idadi ya watu iliyokuwa tayari katika eneo hilo."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano na Akiolojia ya Pwani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Mutoro haikuwepo peke yake. Inakaa ndani ya mapokeo mapana ya akiolojia ya pwani ya Afrika Mashariki ambayo polepole yamekuwa yakikusanya picha ya historia ya eneo hilo kutoka mabaki ya kimwili. Uchimbaji katika maeneo ya Kiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ya maisha ya miji ya pwani, kutoka makazi ya mapema ya uvuvi na kilimo ya milenia ya kwanza AD hadi miji ya biashara ya mawe ya karne ya kumi na moja kuendelea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano wa ufinyanzi wa makaya na keramiki za mapema za pwani unapendekeza kwamba jamii za makaya na jamii za proto-Kiswahili zilikuwa sehemu ya ulimwengu ule ule wa kitamaduni wakati wa milenia ya kwanza AD. Walishiriki mila za keramiki, ambayo inamaanisha maarifa ya pamoja, biashara, au nasaba ya pamoja. Mgawanyo wa kawaida wa watu wa \"pwani\" na \"bara\" unaweza kuwa maendeleo ya baadaye — artifact ya uwezo wa kuonekana wa miji ya mawe badala ya kuonyesha umbali wa kweli wa kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii ina athari kwa kuelewa Wadigo hasa. Wadigo walikaa katika eneo la mpito kati ya pwani na bara, wakidumisha uhusiano wa biashara na jamii za pwani za Kiswahili na makundi ya ndani. Utamaduni wao wa kimwili, kama unavyofunuliwa na akiolojia, unaonyesha nafasi hii ya kati. Hawakuwa wa pwani tu wala wa bara tu. Walikuwa, na ni, watu wa makutano — hatua ambapo ulimwengu wa biashara ya Bahari ya Hindi unakutana na bara la Afrika Mashariki."
+            },
+            {
+              "type": "heading",
+              "text": "Kile Akiolojia Inathibitisha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa Mutoro ulithibitisha vipengele kadhaa vya mapokeo ya mdomo. Makaya yalikuwa kweli makazi ya zamani, si ujenzi wa hivi karibuni. Yalikuwa nafasi zilizoimarishwa, zinazolindwa — yanayolingana na mapokeo ya migogoro na uhamisho. Yalikuwa na ushahidi wa maisha ya jamii yaliyopangwa, miundo ya utawala, na shughuli za kiuchumi. Picha ya jumla ya makaya kama viti vya ustaarabu, si sehemu za kujificha tu, inasaidiwa na rekodi ya kimwili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa kiakiolojia pia unathibitisha usimamizi wa kiikolojia ulioelezwa katika mapokeo ya mdomo. Misitu ya makaya, iliyohifadhiwa na karne za mwiko dhidi ya kukata miti, ina baadhi ya mabaki ya mwisho ya msitu wa kale wa pwani ya Afrika Mashariki. Kazi ya Mutoro ilirekodia uhusiano kati ya amana za kiakiolojia na msitu unaozunguka — ikionyesha kwamba uhifadhi wa msitu haukuwa wa bahati nasibu bali muhimu kwa mfumo wa kaya. Mababu waliishi msituni. Huwezi kukata nyumba ya mababu. Kanuni hii, iliyothibitishwa katika mapokeo ya mdomo, inathibitishwa na ukweli wa kimwili wa misitu ambayo imesimama, ikilindwa, kwa miaka elfu moja."
+            },
+            {
+              "type": "heading",
+              "text": "Kile Akiolojia Inapinga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini uchimbaji pia ulipinga vipengele vya masimulizi ya jadi. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikiwa makaya ni misingi ya karne ya tisa, uhamiaji wa karne ya kumi na sita kutoka Singwaya hauwezi kuyaanzisha. Ama uhamiaji ulitokea mapema zaidi, au makaya yalianzishwa na idadi ya watu iliyokuwepo tayari ambayo baadaye ilijumuishwa katika mfumo wa Mijikenda, au masimulizi ya uhamiaji si ya kihistoria kihalisi bali ni hati inayopanga mahusiano ya kijamii bila kuelezea tukio moja la kihistoria."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwendelezo wa rekodi ya keramiki pia unagumu hadithi ya uhamiaji. Kufika kwa ghafla kwa watu wapya — wakimbizi kutoka Singwaya — kungetarajiwa kutoa mapumziko yanayoonekana katika mfuatano wa ufinyanzi: mitindo mipya ikionekana ghafla, ikibadilisha au kufunika ya zamani. Mutoro hakuripoti mapumziko kama hayo. Ufinyanzi unaonyesha mageuzi ya taratibu, si ubadilishaji wa ghafla. Hii inapatana zaidi na idadi ya watu inayobadilika mahali kuliko na idadi ya watu inayofika kutoka mahali pengine."
+            },
+            {
+              "type": "heading",
+              "text": "Uchimbaji Unaoendelea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa Mutoro ulikuwa wa upainia lakini si wa kina kamili. Maeneo manane, hata yaliyochimbwa kwa uangalifu, hayawezi kusuluhisha maswali kuhusu ustaarabu uliojumuisha makaya zaidi ya sitini katika mamia ya kilomita za pwani. Mengi yanabaki kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo katika maeneo mengine ya makaya — hasa makaya makuu ya Wadigo ya Kwale na Kinondo — yanaweza kusafisha au kurekebisha picha ambayo Mutoro alianzisha. Maendeleo ya teknolojia ya tarehe yanaweza kupunguza vipindi vya kronolojia ambavyo vinasalia kuwa vipana kwa njia ya kukatisha tamaa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachoeleweka tayari, hata hivyo, ni kwamba makaya si mambo ya pembeni yasiyofaa. Ni maeneo ya kati katika historia ya pwani ya Afrika Mashariki — mahali ambapo baadhi ya jamii za mapema zaidi zilizokaa katika eneo hilo zilijenga maisha, kujitawala, kufanya biashara na majirani zao, kuyeyusha chuma, kutengeneza ufinyanzi, kulea watoto, kuzika wafu wao, na kudumisha misitu ambayo bado inasimama leo. Akiolojia ya makaya si nukta ya chini katika historia ya pwani ya Kiswahili. Ni sura muhimu — moja ambayo bado inaandikwa."
             }
           ],
           "dig": [
@@ -282,6 +366,90 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uchimbaji urithibitisha vipengele kadhaa vya mapokeo ga mdomo: makaya gakala makazi ga kare, garigoimarishwa, genye ushahidi wa maisha ga jamii garigopangwa. Ela ushahidi wa tarehe unapinga masimulizi ga kawaida ga uhamisho, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya atu inayobadilika phatu badala ya kuwasili gafla."
+            },
+            {
+              "type": "heading",
+              "text": "Mpangilio wa Makazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mpangilio wa chimwili wa maeneo ga makaya, unaoonekana kpwa rekodi ya chiakiolojia na kpwa makaya ga uhai ganago dumishwa mfululizo, unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda. Msitu mnene wa kinga unadzikiriya makazi, ukipishishwa ni njira mbiri zinazoongoza kupitshi malango garigoimarishwa. Kiwanja cha kahi china miundo ya sherehe na utawala — kuba ra mkutano ra *moroni*, miri mitakatifu, na eneo ambapho hirizi za kinga za *fingo* zinahifadhiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utafiti wa chiakiolojia wa maeneo ga makaya umefunula kukala mpangilio uwo si wa chimila tu ela ni wa kazi. Msitu wa kinga uritoa ngome ya asili, ukihenda makaya gakale ga kulindwa dhidi ya mashambulizi. Mfumo wa malango mairi uridhibiti ufikiaji na kuruhusu ufuatiliaji wa milango yosi ya kuinjira na kutoka. Uwekaji wa makazi dzulu ya virima uritoa mwinuko na uwezo wa kuona wa asili. Makaya gakala, kpwa maneno ga chiashi, nafasi bora za ulinzi — na uthabiti wa muundo gao kpwa maeneo manji unapendekeza mwiri wa phamwenga wa marifwa kuhusu upangaji wa makazi urioenezwa kosi kpwa ulimwengu wa Amijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uthabiti uwo wa chiujenzi unauliza swali ra kuvutia kuhusu mjadala wa uhamisho. Ikala Amijikenda arifika kula Singwaya kpwa nyakati tofauti na kukala kpwa maeneo tofauti, aripata vihi osi muundo uwo uwo wa makazi? Uwezekano mmwenga ni kukala muundo uwo ukala sehemu ya mfuko wa chimila arioutsukula kula Singwaya. Mwinjine ni kukala uribadilika phatu na kuenezwa kupitshi mawasiliano ga makaya. Uwezekano wa hahu — unaofanana na nadharia ya Walsh ya phatu phapho — ni kukala urikula kpwa karne nyinji za uzoefu wa phamwenga wa phatu phapho."
+            },
+            {
+              "type": "heading",
+              "text": "Ushahidi wa Tarehe na Athari Zakpwe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa tarehe kula uchimbaji wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjine kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya pwani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za pwani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya pwani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuliko midzi ya mawe ya pwani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga zamani hivyo, ama uhamisho uritokea mapema zaidi kuliko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano na Akiolojia ya Pwani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Mutoro taikala peke yakpwe. Inakala ndani ya chimila phana ya akiolojia ya pwani ya Afrika Mashariki ambayo pore-pore imekala ikikusanya picha ya historia ya eneo riro kula mabaki ga chimwili. Uchimbaji kpwa maeneo ga Chiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ga maisha ga midzi ya pwani, kula makazi ga mapema ga uvuvi na ukulima ga milenia ya kpwandza AD hadi midzi ya chibiashara ya mawe ya karne ya kumi na mwenga kuenderera."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano wa ufinyanzi wa makaya na keramiki za mapema za pwani unapendekeza kukala jamii za makaya na jamii za proto-Chiswahili zakala sehemu ya ulimwengu uwo uwo wa chimila wakati wa milenia ya kpwandza AD. Ashiriki chimila za keramiki, ambayo inamaanisha marifwa ga phamwenga, chibiashara, au nasaba ya phamwenga. Mgawanyo wa kawaida wa atu a \"pwani\" na \"bara\" unaweza kukala maendeleo ga badaye — chitu cha uwezo wa kuonekana wa midzi ya mawe badala ya kuonyesha umbali wa kpweli wa chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri rina athari kpwa kuelewa Adigo hasa. Adigo akala kpwa eneo ra mphito kahi ya pwani na bara, akidumisha uhusiano wa chibiashara na jamii za pwani za Chiswahili na makundi ga ndani. Utamaduni wao wa chimwili, dza unavyofunuliwa ni akiolojia, unaonyesha nafasi iyo ya kahi. Taakala a pwani tu wala a bara tu. Akala, na ni, atu a makutano — hatua ambapho ulimwengu wa chibiashara wa Bahari ya Hindi unakutana na bara ra Afrika Mashariki."
+            },
+            {
+              "type": "heading",
+              "text": "Gago Akiolojia Inathibitisha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa Mutoro urithibitisha vipengele kadhaa vya mapokeo ga mdomo. Makaya gakala kpweli makazi ga zamani, si ujenzi wa phivi phivi. Gakala nafasi zirizoimarishwa, zinazolindwa — ganago lingana na mapokeo ga migogoro na uhamisho. Gakala na ushahidi wa maisha ga jamii garigopangwa, miundo ya utawala, na shughuli za chiuchumi. Picha ya jumla ya makaya dza viti vya ustaarabu, si sehemu za kudzificha tu, inasaidiwa ni rekodi ya chimwili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa chiakiolojia piya unathibitisha usimamizi wa kiikolojia urioelezwa kpwa mapokeo ga mdomo. Misitu ya makaya, iriyohifadhiwa ni karne za mwiko dhidi ya kukata miri, ina bazi ya mabaki ga mwisho ga msitu wa kare wa pwani ya Afrika Mashariki. Kazi ya Mutoro irirekodia uhusiano kahi ya amana za chiakiolojia na msitu unaodzikiriya — ikionyesha kukala uhifadhi wa msitu taukala wa bahati nasibu ela muhimu kpwa mfumo wa kaya. Akare aishi msituni. Taukata nyumba ya akare. Kanuni iyo, iriyothibitishwa kpwa mapokeo ga mdomo, inathibitishwa ni ukpweli wa chimwili wa misitu ambayo imesimama, ikilindwa, kpwa miaka elfu mwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Gago Akiolojia Inapinga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela uchimbaji piya uripinga vipengele vya masimulizi ga chimila. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikala makaya ni misingi ya karne ya tisa, uhamisho wa karne ya kumi na sita kula Singwaya tauweza kugaanzisha. Ama uhamisho uritokea mapema zaidi, au makaya garianzishwa ni idadi ya atu iriyokala tayari ambayo badaye irijumuishwa kpwa mfumo wa Amijikenda, au masimulizi ga uhamisho si ga chihistoria kihalisi ela ni hati inayopanga mahusiano ga chijamii bila kuelezea dzambo mwenga ra chihistoria."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya zamani. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuliko na idadi ya atu inayofika kula phatu phanjina."
+            },
+            {
+              "type": "heading",
+              "text": "Uchimbaji Unaoenderera"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za pwani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Kinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chirichoelewa tayari, hata hivyo, ni kukala makaya si mambo ga pembeni gasigofaa. Ni maeneo ga kahi kpwa historia ya pwani ya Afrika Mashariki — phatu ambapho bazi ya jamii za mapema zaidi zirizokala kpwa eneo riro zaridzenga maisha, kudzitawala, kuhenda chibiashara na ajirani ao, kuyeyusha chuma, kutengeneza ufinyanzi, kurera ana, kuzika afu ao, na kudumisha misitu ambayo bado inasimama rero. Akiolojia ya makaya si nukta ya chini kpwa historia ya pwani ya Chiswahili. Ni sura muhimu — mwenga ambayo bado inaandikwa."
             }
           ]
         }
@@ -469,6 +637,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufahamu muhimu kutoka mjadala wa kitaaluma ni kutambua kwamba mapokeo ya mdomo si kumbukumbu thabiti. Ni mifumo hai ya maarifa inayojibu hali zinazobadilika. Mvutano kati ya ukweli wa kihistoria na hati ya kijamii unabaki katika kiini cha mjadala."
+            },
+            {
+              "type": "heading",
+              "text": "Martin Walsh na Nadharia ya Mahali Pale Pale"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda tathmini kali zaidi ya asili ya Mijikenda imetoka kwa Martin Walsh, ambaye alihitimisha \"that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kwa mtazamo wa Walsh, Mijikenda hawakuja kutoka Singwaya. Walikua katika bara ya pwani ya Kenya, wakiendeleza tamaduni zao tofauti, lugha, na shirika la kijamii la makaya katika eneo lile lile wanalokaa sasa. Wanaweza kuwa walipitisha masimulizi ya Singwaya baadaye, wakiikopa kutoka watu wa jirani au kuijenga kwa pamoja kama njia ya kuunda utambulisho wa pamoja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Walsh kuhusu watu wa Segeju iliimarisha hoja hii kwa kuonyesha uhusiano wa kilugha usiotarajiwa. Katika \"The Segeju Complex?\" alionyesha kwamba kamusi ya Kimijikenda \"replete with loanwords from a Central Kenya Bantu language once spoken by the Segeju/Daiso.\" Maneno haya yaliyokopwa si madogo — yanashughulikia ufugaji wa mifugo, biashara ya masafa marefu, shirika la kijeshi na kisiasa, na mfumo wa rika, ikiwa ni pamoja na neno la msingi *rika* lenyewe. Ikiwa msamiati wa msingi wa maisha ya kisiasa na kiuchumi ya Kimijikenda ulikopwa kutoka kwa Segeju, basi utambulisho wa Kimijikenda unaweza kuwa mchanganyiko — uliokusanywa kutoka vyanzo vingi, si kutoka asili moja."
+            },
+            {
+              "type": "heading",
+              "text": "Henry Mutoro na Ushahidi wa Kiakiolojia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati mjadala kuhusu Singwaya ulikuwa umefanywa kupitia mapokeo ya mdomo, kumbukumbu za kikoloni, na ujenzi wa kilugha, Henry Mutoro alianzisha aina mpya ya ushahidi: akiolojia. Katika uchimbaji uliofanywa mwaka 1987 na 1994 katika makaya manane, Mutoro alichimba mabaki ya kimwili ambayo yalitatiza kila msimamo uliokuwepo. Katika Kaya Singwaya, uchimbaji wake \"ulizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ya mapema ya pwani ya bahari ya milenia ya kwanza baadaye.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa tarehe ni muhimu. Ikiwa maeneo ya makaya yalikaliwa mapema karne ya tisa au kumi, yanawezekana kutangulia makazi ya pwani ya Kiswahili — miji ya mawe ya Mombasa, Malindi, na Lamu — ambayo kawaida inachukuliwa kuwa vituo vya kwanza vya miji ya pwani ya Afrika Mashariki. Hii inamaanisha Mijikenda hawakuwa waliochelewa bali wakazi wa mapema ambao makazi yao ya misitu yalitangulia au yaliendelea sambamba na miji ya pwani. Inapinga masimulizi ya kawaida ya uhamiaji na dhana ya enzi ya kikoloni kwamba Mijikenda walikuwa \"watu wa nyikani\" wasio na umuhimu kwa ustaarabu wa kisasa wa pwani."
+            },
+            {
+              "type": "heading",
+              "text": "Utata wa Tarehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Swali la lini makaya yalianzishwa linabaki kuwa moja ya masuala yanayopingwa zaidi katika uwanja huu. Upana wa tarehe zinazopendekezwa ni wa kushangaza: wasomi wengine wanaweka kuanzishwa kwa makaya katika karne ya kumi na sita, kulingana na uhamiaji wa kipindi cha mwisho kutoka Singwaya, wakati ushahidi wa kiakiolojia wa Mutoro unasukuma tarehe nyuma hadi angalau karne ya tisa au kumi. Pengo hili la karne sita au saba si tofauti ndogo. Ikiwa makaya ni misingi ya karne ya kumi na sita, masimulizi ya kawaida ya uhamiaji yanawezekana. Ikiwa ni misingi ya karne ya tisa, masimulizi ya kuruka ghafla kusini kutokana na uvamizi wa Waoromo yanakuwa vigumu kudumisha."
+            },
+            {
+              "type": "heading",
+              "text": "Mapokeo ya Mdomo kama Maarifa Yanayobadilika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Moja ya ufahamu muhimu zaidi kutoka mjadala wa kitaaluma ni kutambua kwamba mapokeo ya mdomo si kumbukumbu thabiti. Ni mifumo hai ya maarifa inayojibu hali zinazobadilika. Thomas Spear mwenyewe alitambua hili katika kazi yake, hata alipokuwa akitetea kiini cha kihistoria cha mapokeo ya Singwaya. Morton alionyesha kwa kuonyesha jinsi mapokeo hayo yanaweza kuingia katika fasihi ya mdomo ya Kimijikenda kwa wakati maalum wa kihistoria. Walsh alipeleka hoja mbali zaidi kwa kupendekeza kwamba mapokeo hayo yanaweza kuwa masimulizi yaliyopitishwa kabisa — hadithi iliyokopwa kutumikia mahitaji ya kisasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hakuna kitu kati ya haya kinachopunguza thamani ya mapokeo ya mdomo. Inamaanisha kwamba mapokeo ya mdomo lazima yasomwe kwa usahihi ule ule wa kina unaotumika kwa chanzo chochote cha kihistoria. Hati ya kikoloni haichukuliwi kwa thamani ya uso; inachunguzwa kwa upendeleo wake, muktadha wake, na madhumuni yake. Mapokeo ya mdomo yanastahili heshima ile ile — na uchunguzi ule ule. Yanabeba habari za kweli za kihistoria, lakini habari hiyo imefungwa katika tabaka za tafsiri, mabadiliko, na madhumuni ya kitamaduni ambayo lazima yatenganishwe kwa uangalifu."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano Kati ya Ukweli na Hati"
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika moyo wa mjadala wa kitaaluma kuna mvutano wa msingi kati ya njia mbili za kuelewa masimulizi ya Singwaya. Je, ni akaunti ya kihistoria — maelezo ya mambo yaliyotokea kweli — au ni hati — masimulizi yaliyoundwa kuelezea na kuhalalisha mpangilio wa sasa wa kijamii? Jibu, karibu hakika, ni kwamba ni vyote viwili. Matukio ya kihistoria — uhamisho, migogoro, uanzishwaji wa makazi — yamefumwa katika muundo wa masimulizi unaotumikia madhumuni ya kijamii na kisiasa yanayoendelea. Mpangilio wa kuondoka kutoka Singwaya unaanzisha daraja miongoni mwa makundi ya Kimijikenda. Madai ya kipaumbele cha Wadigo yanaanzisha hadhi yao tofauti. Kuingizwa kwa motifs za Kiislamu kunaonyesha ukweli wa ubadilishaji wa karne ya kumi na tisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wasomi wataendelea kutokubaliana kuhusu usawa upo wapi — kiasi gani ni historia inayoweza kupatikana tena, kiasi gani ni ujenzi wa baadaye. Lakini mjadala wenyewe ni wenye tija. Kila mchango mpya — iwe kutoka akiolojia, lugha, au kusomwa upya kwa uangalifu kwa mapokeo ya mdomo — unaongeza tabaka nyingine ya uelewa kwa swali linalogusa masuala ya kina zaidi katika historia ya Afrika: jinsi watu wanavyoundwa, jinsi utambulisho unavyojengwa, jinsi zamani zinavyotumiwa kuelewa sasa, na jinsi mapokeo yanayoonekana ya zamani yanaweza kuwa ya vijana kwa kushangaza, wakati mengine yanayoonekana rahisi yanaweza kuwa ya zamani kwa kushangaza."
             }
           ],
           "dig": [
@@ -527,6 +751,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufahamu muhimu kula mjadala wa chitaaluma ni kutambua kukala mapokeo ga mdomo si kumbukumbu thabiti. Ni mifumo ya uhai ya maarifa inayodzibu hali zinazobadilika. Mvutano kahi ya ukpweli wa chihistoria na hati ya chijamii unasala kpwa chiini cha mjadala."
+            },
+            {
+              "type": "heading",
+              "text": "Martin Walsh na Nadharia ya Phatu Phapho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda tathmini kali zaidi ya asili ya Amijikenda imetoka kpwa Martin Walsh, ariyehitimisha \"that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kpwa mtazamo wa Walsh, Amijikenda taatoka Singwaya. Arikula kpwa bara ya pwani ya Kenya, akiendereza chimila zao tofauti, lugha, na shirika ra chijamii ra makaya kpwa eneo rire rire anaphokala rero. Anaweza kukala aripishisha masimulizi ga Singwaya badaye, akiikopa kula atu a phephi au kuijenga kpwa phamwenga dza njira ya kuunda utambulisho wa phamwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Walsh kuhusu atu a Segeju irimarisha hoja iyo kpwa kuonyesha uhusiano wa chilugha usiokuwa unatarajiwa. Kpwa \"The Segeju Complex?\" arionyesha kukala kamusi ya Chimijikenda ni \"replete with loanwords from a Central Kenya Bantu language once spoken by the Segeju/Daiso.\" Maneno gago garigokopwa si madogo — ganashughulikia ufugaji wa mifugo, chibiashara ya masafa mare, shirika ra chiashi na chisiasa, na mfumo wa rika, kujumuisha neno ra msingi *rika* renye. Ikala msamiati wa msingi wa maisha ga chisiasa na chiuchumi ga Chimijikenda urikopwa kula kpwa Asegeju, phapho utambulisho wa Chimijikenda unaweza kukala mchanganyiko — uriokusanywa kula vyanzo vinji, si kula asili mwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Henry Mutoro na Ushahidi wa Chiakiolojia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati mjadala kuhusu Singwaya ukala umehendwa kupitshi mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha, Henry Mutoro arianzisha aina mpya ya ushahidi: chiakiolojia. Kpwa uchimbaji uriohendwa mwaka 1987 na 1994 kpwa makaya manane, Mutoro arichimba mabaki ga chimwili ambago garitatiza chila msimamo uriokuwepo. Kpwa Kaya Singwaya, uchimbaji wakpwe \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga pwani ya bahari ya milenia ya kpwandza badaye.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushahidi wa tarehe ni muhimu. Ikala maeneo ga makaya garikaliwa mapema karne ya tisa au kumi, ganawezekana kutangulia makazi ga pwani ya Chiswahili — midzi ya mawe ya Mombasa, Malindi, na Lamu — ambayo kawaida inachukuliwa dza vituo vya kpwandza vya midzi ya pwani ya Afrika Mashariki. Hiri rinamaanisha Amijikenda taakala ariochelewa ela akazi a mapema ambao makazi gao ga misitu garitangulia au garienderera sambamba na midzi ya pwani. Inapinga masimulizi ga kawaida ga uhamisho na dhana ya enzi ya chikoloni kukala Amijikenda akala \"atu a nyikani\" asio na umuhimu kpwa ustaarabu wa kisasa wa pwani."
+            },
+            {
+              "type": "heading",
+              "text": "Utata wa Tarehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Swali ra rini makaya garianzishwa rinasala kukala mwenga wa mambo ganago pingwa zaidi kpwa uwanja uwo. Uphana wa tarehe zinazopendekezwa ni wa kushangaza: asomi anjine anaweka kuanzishwa kpwa makaya kpwa karne ya kumi na sita, kulingana na uhamisho wa kipindi cha mwisho kula Singwaya, wakati ushahidi wa chiakiolojia wa Mutoro unasukuma tarehe nyuma hadi angalau karne ya tisa au kumi. Pengo riro ra karne sita au saba si tofauti ndogo. Ikala makaya ni misingi ya karne ya kumi na sita, masimulizi ga kawaida ga uhamisho ganawezekana. Ikala ni misingi ya karne ya tisa, masimulizi ga kuruka gafla kusini kutokana na uvamizi wa Aoromo ganakala vigumu kudumisha."
+            },
+            {
+              "type": "heading",
+              "text": "Mapokeo ga Mdomo Dza Marifwa Ganagobadilika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwenga wa ufahamu muhimu zaidi kula mjadala wa chitaaluma ni kutambua kukala mapokeo ga mdomo si kumbukumbu thabiti. Ni mifumo ya uhai ya marifwa inayodzibu hali zinazobadilika. Thomas Spear mwenye aritambua hiri kpwa kazi yakpwe, hata ariphokuwa akitetea chiini cha chihistoria cha mapokeo ga Singwaya. Morton arionyesha kpwa kuonyesha jinsi mapokeo gago ganaweza kuinjira kpwa fasihi ya mdomo ya Chimijikenda kpwa wakati maalum wa chihistoria. Walsh aripeleka hoja mbali zaidi kpwa kupendekeza kukala mapokeo gago ganaweza kukala masimulizi garigopishishwa kabisa — hadithi iriyokopwa kutumikia mahitaji ga kisasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Takuna chitu kahi ya higa chinachopunguza thamani ya mapokeo ga mdomo. Inamaanisha kukala mapokeo ga mdomo lazima gasomwe kpwa usahihi uwo uwo wa china unaohumika kpwa chanzo chochosi cha chihistoria. Hati ya chikoloni taichukuliwa kpwa thamani ya uso; inachunguzwa kpwa upendeleo wakpwe, muktadha wakpwe, na madhumuni gakpwe. Mapokeo ga mdomo ganastahili ishima iyo iyo — na uchunguzi uwo uwo. Ganatsukula habari za kpweli za chihistoria, ela habari iyo imefungwa kpwa tabaka za tafsiri, mabadiliko, na madhumuni ga chimila ambago lazima gatenganishwe kpwa uangalifu."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano Kahi ya Ukpweli na Hati"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa moyo wa mjadala wa chitaaluma kuna mvutano wa msingi kahi ya njira mbiri za kuelewa masimulizi ga Singwaya. Dze, ni akaunti ya chihistoria — maelezo ga mambo garigohenderera kpweli — au ni hati — masimulizi garigoundwa kuelezea na kuhalalisha mpangilio wa rero wa chijamii? Dzibu, phephi na hakika, ni kukala ni gosi mairi. Matukio ga chihistoria — uhamisho, migogoro, uanzishwaji wa makazi — gamefumwa kpwa muundo wa masimulizi unaohumikia madhumuni ga chijamii na chisiasa ganago enderera. Mpangilio wa kuuka kula Singwaya unaanzisha daraja kahi ya makundi ga Chimijikenda. Madai ga uphephi ga Adigo ganaanzisha hadhi yao tofauti. Kuingizwa kpwa motifs za Chiislamu kunaonyesha ukpweli wa kubadilika kpwa karne ya kumi na tisiya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Asomi andaenderera kutokubaliana kuhusu usawa upo aphi — kiasi gani ni historia inayoweza kupatikana luphya, kiasi gani ni ujenzi wa badaye. Ela mjadala wenye ni wenye tija. Chila mchango mpya — ikale kula chiakiolojia, chilugha, au kusomwa luphya kpwa uangalifu kpwa mapokeo ga mdomo — unaongeza tabaka yanjina ya uelewa kpwa swali rinago gusa mambo ga china zaidi kpwa historia ya Afrika: jinsi atu anavyoundwa, jinsi utambulisho unavyojengwa, jinsi zamani zinavyohumika kuelewa rero, na jinsi mapokeo ganago onekana ga zamani ganaweza kukala ga avyanache kpwa kushangaza, wakati ganjina ganago onekana rahisi ganaweza kukala ga kare kpwa kushangaza."
             }
           ]
         }
@@ -706,6 +986,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Masimulizi ya Singwaya si visukuku. Yanaendelea kubadilika, yanaendelea kusimuliwa, yanaendelea kufanya kazi ya kitamaduni katika jamii za Adigo na Amijikenda. Kwa Adigo, masimulizi hayo si hasa dhana ya kihistoria ya kupimwa. Ni hati hai — hadithi inayoelezea wao ni nani na walikotoka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Swali la iwapo Singwaya ilikuwa mahali halisi, na iwapo uhamisho ulitokea kweli, limejadiliwa na wasomi kwa zaidi ya karne moja. Thomas T. Spear, katika kazi yake ya 1978 *The Kaya Complex*, alitoa utetezi wa kina zaidi wa mtazamo wa kawaida: kwamba ingawa baadhi ya tafsiri za mapema hazikuweza kudumishwa, mapokeo ya Singwaya ni \"nevertheless valid for the Mijikenda, Pokomo, Swahili, Taita, and Segeju, where such evidence supports its basic veracity.\" Spear aliichukulia mapokeo kama ya kihistoria kwa kiasi kikubwa — uhamisho wa kweli kutoka mahali halisi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rodger F. Morton alipinga msimamo huu mwaka 1972, akisema katika *International Journal of African Historical Studies* kwamba Shungwaya \"is actually an appended myth.\" Utafiti wa Morton ulipendekeza kwamba \"coastal traditions recorded prior to 1897 indicate that the Shungwaya tradition entered Miji Kenda oral literature only after this date\" — ikimaanisha mapokeo yanaweza kuwa na umri wa karne moja tu, yakiibuka karibu 1897 yakihusiana na kuongezeka kwa fahamu ya kikabila. Ikiwa Morton yuko sahihi, masimulizi ya Singwaya si kumbukumbu ya zamani bali ujenzi wa hivi karibuni, uliopitishwa na Wamijikenda walipokuwa wakiunda utambulisho wa pamoja katika kipindi cha mwisho cha ukoloni."
+            },
+            {
+              "type": "heading",
+              "text": "Ushahidi wa Kilugha na Mipaka Yake"
+            },
+            {
+              "type": "paragraph",
+              "text": "Derek Nurse na Thomas Hinnebusch walileta uchambuzi wa kilugha kwenye swali hili katika kazi yao ya 1993 *Swahili and Sabaki: A Linguistic History*. Walipendekeza kwamba mababu wa Proto-Northeast-Coastal Bantu walionekana kati ya mito ya Wami na Rufiji karibu milenia ya kwanza AD, na kwamba wazungumzaji wa Proto-Sabaki baadaye \"migrated northwards across the Juba River to a location associated with the legendary Shungwaya,\" ambapo walitofautiana na kuwa jamii za Kiswahili, Kimijikenda, Kipokomo, Kielwana, na Kicomorian. Ujenzi huu wa kilugha unaunga mkono kwa sehemu masimulizi ya uhamisho — unaweka wazungumzaji wa Kisabaki wa zamani katika eneo la kaskazini kabla ya kutawanyika kusini — huku ukitatiza ratiba kwa kiasi kikubwa. Hinnebusch mwenyewe alikuwa amekosoa mapema matumizi ya Spear ya data za kilugha, akibainisha kwamba Spear \"could not confirm Shungwaya as a linguistic homeland because he misunderstood the data.\""
+            },
+            {
+              "type": "heading",
+              "text": "Nadharia Mbadala"
+            },
+            {
+              "type": "paragraph",
+              "text": "Martin Walsh alitoa labda tathmini kali zaidi, \"concluding that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kwa mtazamo wa Walsh, Mijikenda hawakuhama kutoka Singwaya hata kidogo. Walikua mahali pale pale, katika bara ya pwani ya Kenya, na kupitisha masimulizi ya Singwaya baadaye kama njia ya kuunda utambulisho wa pamoja wa kikabila — hati iliyokopwa badala ya kurithiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Walsh kuhusu Segeju iliongeza tabaka nyingine ya ugumu. Alionyesha kwamba kamusi ya Kimijikenda ina maneno mengi yaliyokopwa kutoka lugha ya Kibantu ya Kati ya Kenya iliyozungumzwa na Segeju au Daiso. Maneno haya yaliyokopwa yanashughulikia ufugaji wa mifugo, biashara ya masafa marefu, shirika la kijeshi na kisiasa, na mfumo wa rika — ikiwa ni pamoja na neno *rika* lenyewe. Hii inapendekeza Segeju \"left a legacy of political organization and ritual practice that contributed significantly to the precolonial making of the Mijikenda.\" Mpangilio wa kijamii wa Kimijikenda, kwa maneno mengine, unaweza kuwa na deni kubwa kwa Segeju kama inavyokuwa na Singwaya."
+            },
+            {
+              "type": "heading",
+              "text": "Akiolojia Inasema Nini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa kiakiolojia wa Henry Mutoro katika maeneo ya makaya mwaka 1987 na 1994 ulianzisha ushahidi wa kimwili katika mjadala uliokuwa ukifanywa karibu kabisa kupitia mapokeo ya mdomo na uchambuzi wa kilugha. Katika Kaya Singwaya — eneo ambalo jina lake lenyewe linaiita masimulizi ya asili — uchimbaji wa Mutoro \"ulizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ya mapema ya pwani ya bahari ya milenia ya kwanza baadaye.\" Wanaakiolojia wengine wamependekeza kwamba makaya yanaweza kuanzishwa mapema karne ya tisa, yakiwezekana kutangulia makazi ya pwani ya Kiswahili. Ikiwa makaya ni ya zamani hivyo, masimulizi rahisi ya uhamisho — kuruka kwa ghafla kutoka Singwaya, mwanzo mpya katika milima — yanakuwa magumu kudumisha. Haya hayakuwa kambi za wakimbizi. Yalikuwa makazi yaliyoanzishwa, yaliyokaliwa kwa muda mrefu yenye utamaduni wao wa kimwili."
+            },
+            {
+              "type": "heading",
+              "text": "Mapokeo Hai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Masimulizi ya Singwaya si visukuku. Yanaendelea kubadilika, yanaendelea kusimuliwa, yanaendelea kufanya kazi ya kitamaduni katika jamii za Wadigo na Wamijikenda. Kila kusimulia upya kunabadilisha msisitizo — wakati mwingine kukisisitiza umoja wa watu tisa, wakati mwingine kukisisitiza kipaumbele cha Wadigo, wakati mwingine kuingiza heshima ya Kiislamu, wakati mwingine kupinga dhidi yake. Wasomi wataendelea kujadili iwapo Singwaya ilikuwa mji halisi, jina la eneo, au uvumbuzi wa nyuma. Lakini kwa Wadigo, masimulizi hayo si hasa dhana ya kihistoria ya kupimwa. Ni hati hai — hadithi inayoelezea wao ni nani, walikotoka, kwa nini wana haki na wajibu walizo nazo, na jinsi wanavyohusiana na watu wao nane wa ndugu kando ya pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachobaki thabiti katika matoleo yote ya mapokeo, ya kitaaluma na ya kawaida, ni picha ya kuondoka — watu wanaoondoka mahali ambapo hawezi tena kuwashikilia, wakitembea kusini kupitia eneo la adui, wakibeba nawo maarifa ya jinsi ya kujenga nyumba mpya katika msitu mpya juu ya kilima kipya. Picha hiyo ndiyo moyo wa masimulizi ya Singwaya, na hakuna kiasi cha mjadala wa kitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yake."
             }
           ],
           "dig": [
@@ -764,6 +1092,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Masimulizi ga Singwaya si visukuku. Ganaendelea kubadilika, ganaendelea kusimuliwa, ganaendelea kuhenda kazi ya chimila kpwa jamii za Adigo na Amijikenda. Kpwa Adigo, masimulizi gago si hasa dhana ya chihistoria ya kupimwa. Ni hati ya uhai — hadithi inayoelezea ao ni ani na arikokula."
+            },
+            {
+              "type": "paragraph",
+              "text": "Swali ra iwapo Singwaya yakala phatu pha kpweli, na iwapo uhamisho uritokea kpweli, rimejadiliwa ni asomi kpwa zaidi ya karne mwenga. Thomas T. Spear, kpwa kazi yakpwe ya 1978 *The Kaya Complex*, aritoa utetezi wa china zaidi wa mtazamo wa kawaida: kukala ingawa bazi ya tafsiri za mapema taziwezekuwa kudumishwa, mapokeo ga Singwaya ni \"nevertheless valid for the Mijikenda, Pokomo, Swahili, Taita, and Segeju, where such evidence supports its basic veracity.\" Spear ariichukulia mapokeo dza ga chihistoria kpwa kiasi kikulu — uhamisho wa kpweli kula phatu pha kpweli."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rodger F. Morton aripinga msimamo uwo mwaka 1972, akiamba kpwa *International Journal of African Historical Studies* kukala Shungwaya \"is actually an appended myth.\" Utafiti wa Morton uripendekeza kukala \"coastal traditions recorded prior to 1897 indicate that the Shungwaya tradition entered Miji Kenda oral literature only after this date\" — ikimaanisha mapokeo ganaweza kukala na umri wa karne mwenga tu, gakiibuka phephi na 1897 gakihusiana na kuongezeka kpwa fahamu ya chikabila. Ikala Morton a sawa, masimulizi ga Singwaya si kumbukumbu ya zamani ela ujenzi wa phivi phivi, uriopishishwa ni Amijikenda ariphokuwa anaiunda utambulisho wa phamwenga kpwa kipindi cha mwisho cha ukoloni."
+            },
+            {
+              "type": "heading",
+              "text": "Ushahidi wa Chilugha na Miphaka Yakpwe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Derek Nurse na Thomas Hinnebusch areha uchambuzi wa chilugha kpwa swali riri kpwa kazi yao ya 1993 *Swahili and Sabaki: A Linguistic History*. Aripendekeza kukala akare a Proto-Northeast-Coastal Bantu arionekana kahi ya miho ya Wami na Rufiji phephi na milenia ya kpwandza AD, na kukala azungumzaji a Proto-Sabaki badaye \"migrated northwards across the Juba River to a location associated with the legendary Shungwaya,\" ambapho aritofautiana na kukala jamii za Chiswahili, Chimijikenda, Chipokomo, Chielwana, na Chicomorian. Ujenzi uwo wa chilugha unaunga mkono kpwa sehemu masimulizi ga uhamisho — unaweka azungumzaji a Chisabaki a zamani kpwa eneo ra kaskazini kabila ya kutawanyika kusini — huku ukitatiza ratiba kpwa kiasi kikulu. Hinnebusch mwenye arikala amekosoa mapema mahumizi ga Spear ga data za chilugha, akibainisha kukala Spear \"could not confirm Shungwaya as a linguistic homeland because he misunderstood the data.\""
+            },
+            {
+              "type": "heading",
+              "text": "Nadharia Mbadala"
+            },
+            {
+              "type": "paragraph",
+              "text": "Martin Walsh aritoa labda tathmini kali zaidi, \"concluding that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kpwa mtazamo wa Walsh, Amijikenda taarihamia kula Singwaya hata chidogo. Arikula phatu phapho, kpwa bara ya pwani ya Kenya, na kupishisha masimulizi ga Singwaya badaye dza njira ya kuunda utambulisho wa phamwenga wa chikabila — hati iriyokopwa badala ya kurithiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Walsh kuhusu Asegeju iriongeza tabaka yanjina ya ugumu. Arionyesha kukala kamusi ya Chimijikenda ina maneno manji garigokopwa kula lugha ya Chibantu ya Kahi ya Kenya iriyozungumzwa ni Asegeju au Adaiso. Maneno gago garigokopwa ganashughulikia ufugaji wa mifugo, chibiashara ya masafa mare, shirika ra chiashi na chisiasa, na mfumo wa rika — kujumuisha neno *rika* renye. Hiri rinapendekeza Asegeju \"left a legacy of political organization and ritual practice that contributed significantly to the precolonial making of the Mijikenda.\" Mpangilio wa chijamii wa Chimijikenda, kpwa maneno ganjina, unaweza kukala na deni kulu kpwa Asegeju dza unavyokuwa na Singwaya."
+            },
+            {
+              "type": "heading",
+              "text": "Chiakiolojia Chinaamba Nini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchimbaji wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwili kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — uchimbaji wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga pwani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga pwani ya Chiswahili. Ikala makaya ni ga zamani hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa milima — ganakala magumu kudumisha. Gaga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwili."
+            },
+            {
+              "type": "heading",
+              "text": "Mapokeo ga Uhai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Masimulizi ga Singwaya si visukuku. Ganaendelea kubadilika, ganaendelea kusimuliwa, ganaendelea kuhenda kazi ya chimila kpwa jamii za Adigo na Amijikenda. Chila kusimulia luphya kunabadilisha msisitizo — wakati mwinjine kukisisitiza umoja wa atu tisa, wakati mwinjine kukisisitiza uphephi wa Adigo, wakati mwinjine kuingiza ishima ya Chiislamu, wakati mwinjine kupinga dhidi yakpwe. Asomi andaenderera kujadili iwapo Singwaya yakala mudzi wa kpweli, dzina ra eneo, au uvumbuzi wa nyuma. Ela kpwa Adigo, masimulizi gago si hasa dhana ya chihistoria ya kupimwa. Ni hati ya uhai — hadithi inayoelezea ao ni ani, arikokula, kpwa nini ana haki na uwajibikaji garigonago, na jinsi anavyohusiana na atu ao anane a ndugu kando ya pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chirichotsala thabiti kpwa matoleo gosi ga mapokeo, ga chitaaluma na ga kawaida, ni picha ya kuuka — atu anaouka phatu ambapo phaweza tena kuashikilia, akitembea kusini kupitshi eneo ra adui, akitsukula nao marifwa ga jinsi ya kudzenga nyumba mpya kpwa msitu mpya dzulu ya chirima chipya. Picha iyo ndiyo moyo wa masimulizi ga Singwaya, na takuna kiasi cha mjadala wa chitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yakpwe."
             }
           ]
         }
@@ -904,6 +1280,30 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uhusiano kati ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi pamoja kwa wasiwasi. Wazee wa kaya pia wamevutwa katika siasa za kisasa — baadhi wameidhinisha wagombeaji wa kisiasa, wakitumia mamlaka yao ya kiroho kwa madhumuni ya kilimwengu. Changamoto ya kina ni ya kizazi. Idadi ya wazee walioingizwa inapungua kadri vijana wa Wadigo wanavyohamia Mombasa kwa kazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya kazi muhimu zaidi za utawala wa kaya ni usuluhishi wa migogoro, hasa kupitia *kurya chiraho* — kula kiapo katika kaya. Wakati mgogoro hauwezi kusuluhishwa kwa upatanishi wa kawaida, pande zinaweza kuletwa kaya kula kiapo mbele ya mababu. Imani ni kwamba kiapo cha uongo kilicholapwa katika kaya kitaleta kisasi cha kisicho cha kawaida — ugonjwa, msiba, au kifo — kwa mwongo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si ya mfano tu. Katika jamii ambapo imani katika nguvu ya mababu inashikiliwa kwa kina, kiapo cha kaya ni utaratibu wa hukumu wenye nguvu sana. Migogoro mingi husuluhishwa kabla kiapo hakijachukuliwa kweli, kwa sababu pande zinaogopa matokeo ya kuapa kwa uongo. Tishio la kiapo linafanya kazi; kiapo lenyewe ni la mwisho. Mfumo huu unafanya kazi sambamba na wakati mwingine kwa mvutano na mahakama rasmi ya Kenya. Wazee wa kaya hawana mamlaka ya kisheria katika mfumo wa serikali, lakini mamlaka yao ya maadili na kiroho yanabaki na nguvu katika jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kati ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi pamoja kwa wasiwasi. Maafisa wa serikali ya kaunti na ya kitaifa wanatambua rasmi umuhimu wa kitamaduni wa makaya, na wazee wa kaya wakati mwingine wanashauriwa kuhusu mambo ya urithi na ustawi wa jamii. Lakini maeneo ya mamlaka yanaingiliana bila mipaka wazi. Mgogoro wa ardhi unaweza kuhukumiwa na hakimu katika mji wa Kwale na wakati huo huo na kambi katika Kaya Kinondo, huku hukumu mbili zikiweza kupingana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wazee wa kaya pia wamevutwa katika siasa za kisasa — baadhi wameidhinisha wagombeaji wa kisiasa, kutumia mamlaka yao ya kiroho kwa madhumuni ya kilimwengu, au wamechukuliwa na wanasiasa wanaotafuta uhalali ambao idhini ya wazee inawapatia. Kuingizwa huku kwa siasa kunawatia wasiwasi wengi katika jamii ambao wanaona nguvu ya mfumo wa kaya iko katika kujitenga kwake na siasa za vyama. Mamlaka ya wazee ni ya kiroho na maadili. Yanapogeuka kuwa ya kisiasa, yanapungua."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya kina zaidi ni ya kizazi. Idadi ya wazee walioingizwa inapungua kadri vijana wa Wadigo wanavyohamia Mombasa kwa kazi, kupitisha maisha ya mijini, na kupoteza uhusiano na mfumo wa kaya. Ngazi kumi na moja za daraja la Ngambi zinahitaji miongo ya kujitolea. Ikiwa mfereji wa vijana wanaoingizwa unakauka, muundo wa utawala uliodumisha makaya kwa karne nyingi utaondoka ndani — msitu unaweza kubaki, lakini taasisi iliyoupa maana itakuwa imekwisha."
             }
           ],
           "dig": [
@@ -946,6 +1346,30 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uhusiano kahi ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi phamwenga kpwa wasiwasi. Idadi ya avyere ariokala aingizwa inapunguka wakati avulana na asichana a Adigo anaphosafiri Mombasa kpwa kazi. Ngazi kumi na mwenga za Ngambi zinahitaji miaka minji ya kudzitolea. Msitu unaweza kusala, ela taasisi iriyoupha maana indakala imekpwisha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwenga wa kazi muhimu zaidi za utawala wa kaya ni usuluhishi wa malongo, hasa kupitshi *kurya chiraho* — kurya chiraho kpwa kaya. Wakati lungo tariweza kusuluhishwa kpwa upatanishi wa kawaida, pande zinaweza kurehwa kaya kurya chiraho mbere ya avyere a kare. Imani ni kukala chiraho cha uongo chirichoriwa kpwa kaya chindareha kisasi cha chisichokuwa cha kawaida — ugonjwa, msiba, au chifo — kpwa mutu wa uongo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri si ra mfwano tu. Kpwa jamii ambapho imani kpwa nguvu ya avyere a kare inashikiliwa kpwa china, chiraho cha kaya ni utaratibu wa hukumu wenye nguvu sana. Malongo manji gasuluhishwa kabila chiraho hachijachukuliwa kpweli, kpwa sababu pande zinaogopa matokeo ga kuapa kpwa uongo. Tishio ra chiraho rinahenda kazi; chiraho chenye ni cha mwisho. Mfumo uwo unahenda kazi sambamba na wakati mwinjine kpwa mvutano na mahakama rasmi ya Kenya. Avyere a kaya tagana mamlaka ga kisheria kpwa mfumo wa serikali, ela mamlaka gao ga maadili na chiroho ganasala na nguvu kpwa jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kahi ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi phamwenga kpwa wasiwasi. Maafisa a serikali ya kaunti na ya chitaifa anatambua rasmi umuhimu wa chimila wa makaya, na avyere a kaya wakati mwinjine anashauriwa kuhusu mambo ga urithi na ustawi wa jamii. Ela maeneo ga mamlaka ganainjiliana bila miphaka wazi. Lungo ra ardhi rinaweza kuhukumiwa ni hakimu kpwa mudzi wa Kwale na wakati uwo uwo ni kambi kpwa Kaya Kinondo, huku hukumu mbiri zikiweza kupingana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Avyere a kaya piya amevutwa kpwa siasa za kisasa — bazi ameidhinisha agombeaji a chisiasa, kuhumira mamlaka gao ga chiroho kpwa madhumuni ga chilimwengu, au amechukuliwa ni anashiasa anao tafuta uhalali ambao idhini ya avyere inaapha. Kuingizwa kuno kpwa siasa kunaapha wasiwasi anji kpwa jamii ambao anaona nguvu ya mfumo wa kaya iko kpwa kudzitenga kwakpwe na siasa za vyama. Mamlaka ga avyere ni ga chiroho na maadili. Ganaphogeuka kukala ga chisiasa, ganapunguka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya china zaidi ni ya chizazi. Idadi ya avyere ariokala aingizwa inapunguka wakati avulana na asichana a Adigo anaphosafiri Mombasa kpwa kazi, kupishisha maisha ga midzi mikulu, na kupoteza uhusiano na mfumo wa kaya. Ngazi kumi na mwenga za daraja ra Ngambi zinahitaji miaka mirongo ya kudzitolea. Ikala mfereji wa avyanache anao ingizwa unakauka, muundo wa utawala uriodumisha makaya kpwa karne nyinji undauka ndani — msitu unaweza kusala, ela taasisi iriyoupha maana indakala imekpwisha."
             }
           ]
         }
@@ -1065,6 +1489,26 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mwaka 2001, kwa msaada wa Ford Foundation, WWF, na Makumbusho ya Kitaifa ya Kenya, Kaya Kinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka 2001, kwa msaada wa Ford Foundation, Shirika la Wanyamapori Duniani, na Makumbusho ya Kitaifa ya Kenya, Kaya Kinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii kote Afrika Mashariki. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu. Wanaongozwa na wazee wanaoelezea umuhimu wa kiroho na kiikolojia wa msitu. Wanaulizwa kuvua viatu katika sehemu fulani. Wanaambiwa wapi wanaweza kutembea na wapi hawawezi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si njia ya asili. Ni mkutano unaodhibitiwa na eneo takatifu hai, unaosimamiwa na watu ambao kwao ni takatifu. Mapato kutoka ada za wageni yanasaidia ustawi wa wazee, utunzaji wa msitu, na maendeleo ya jamii. Programu inaonyesha kanuni ambayo mashirika ya uhifadhi yanazidi kuitambua: kwamba walindaji bora wa eneo la asili ni jamii zinazolichukulia kuwa takatifu, mradi wanapewa rasilimali na mamlaka ya kulisimamia kwa masharti yao wenyewe."
+            },
+            {
+              "type": "heading",
+              "text": "Pekee Iliyofunguliwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kaya Kinondo ni msitu pekee mtakatifu wa Kimijikenda uliofunguliwa kwa wageni. Tofauti hii ni muhimu. Makaya mengine — Kaya Gandini, Kaya Dzombo, Kaya Kwale — yanabaki yamefungwa kwa wageni, maeneo yao ya ndani yanapatikana tu kwa wazee walioingizwa. Uwazi wa Kaya Kinondo ni chaguo la kimkakati la makusudi: kwa kuwaalika ulimwengu wa nje ndani chini ya masharti yaliyodhibitiwa, uongozi wa kaya umeunda washirika, kuzalisha mapato, na kujenga umma wa uhifadhi. Kuonekana kunakokuja na kuwa maeneo ya utalii pia kumefanya iwe vigumu kwa waendelezaji kuingilia kwa kimya — ulimwengu unaangalia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini mkakati huu una hatari. Utalii hubadilisha tabia ya mahali, hata unaposimamiwa kwa heshima. Usawa kati ya upatikanaji na utakatifu, kati ya uendelevu wa kiuchumi na uadilifu wa kiroho, ni ambao baraza la Ngambi linaendelea kunavigati kila wakati. Ni mvutano usio na suluhisho la kudumu — ni mazungumzo yanayoendelea tu, yanayoongozwa na wazee wanaojua kwamba kuishi wakati mwingine kunahitaji maelewano."
             }
           ],
           "dig": [
@@ -1107,6 +1551,26 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mwaka 2001, kpwa msaada wa Ford Foundation, WWF, na Makumbusho ga Chitaifa ga Kenya, Kaya Kinondo yakala yaandza mpango wa utalii wa kiikolojia ambao umekala kielelezo cha uhifadhi wa maeneo matakatifu ganago simamiwa ni jamii. Ageni anakaribishwa — ela kpwa masharti ga kaya. Anahitajika kuvala *kanga* nyeusi dza ishara ya ishima kpwa avyere a kare."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka 2001, kpwa msaada wa Ford Foundation, Shirika ra Anyamapori Duniani, na Makumbusho ga Chitaifa ga Kenya, Kaya Kinondo yaandza mpango wa utalii wa kiikolojia ambao umekala kielelezo cha uhifadhi wa maeneo matakatifu ganago simamiwa ni jamii kosi Afrika Mashariki. Ageni anakaribishwa — ela kpwa masharti ga kaya. Anahitajika kuvala *kanga* nyeusi dza ishara ya ishima kpwa avyere a kare. Anaongozwa ni avyere anao elezea umuhimu wa chiroho na kiikolojia wa msitu. Anaulizwa kuvula viatu kpwa sehemu fulani. Anaambiwa aphi anaweza kutembea na aphi taanaweza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri si njira ya asili. Ni mkutano unaodhibitiwa na eneo takatifu ra uhai, unaousimamiwa ni atu ambao kpwao ni ratakatifu. Mapato kula ada za ageni ganasaidia ustawi wa avyere, utunzaji wa msitu, na maendeleo ga jamii. Mpango unaonyesha kanuni ambayo mashirika ga uhifadhi ganazidi kuitambua: kukala alinzi bora a eneo ra asili ni jamii zinazorichukulia kukala ratakatifu, mradi anaphewa rasilimali na mamlaka ga kurisimamia kpwa masharti gao enye."
+            },
+            {
+              "type": "heading",
+              "text": "Pekee Iriyofunguliwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kaya Kinondo ni msitu pekee mtakatifu wa Chimijikenda uriofunguliwa kpwa ageni. Tofauti iyo ni muhimu. Makaya ganjina — Kaya Gandini, Kaya Dzombo, Kaya Kwale — ganasala gamefungwa kpwa ageni, maeneo gao ga ndani ganapatikana tu kpwa avyere ariokala aingizwa. Uwazi wa Kaya Kinondo ni chaguo ra chimkakati ra makusudi: kpwa kuaalika ulimwengu wa ndze ndani chini ya masharti garigodhibitiwa, uongozi wa kaya umeunda ashirika, kuzalisha mapato, na kudzenga umma wa uhifadhi. Kuonekana kunakokpwedza na kukala eneo ra utalii piya kumehenda ikale vigumu kpwa aendelezaji kuinjilia kpwa chimya — ulimwengu unaangalia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela mkakati uwo una hatari. Utalii unabadilisha tabia ya phatu, hata unaphosimamiwa kpwa ishima. Usawa kahi ya upatikanaji na utakatifu, kahi ya uendelevu wa chiuchumi na uadilifu wa chiroho, ni ambao baraza ra Ngambi rinaenderera kunavigati chila wakati. Ni mvutano usio na suluhisho ra kudumu — ni mazungumzo ganagoenderera tu, ganagoongozwa ni avyere anao manya kukala kuishi wakati mwinjine kunahitaji maelewano."
             }
           ]
         }
@@ -1246,6 +1710,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hatari isiyoweza kurudishwa zaidi inaweza kuwa ile ambayo haifanyi kelele yoyote: kupotea kwa polepole kwa maarifa ya wazee. Msitu unaweza kubaki umesimama. Lakini kaya bila wazee wake ni msitu bila maana yake — wenye thamani ya kiikolojia, labda, lakini tupu kiroho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si mgongano wa upole. Ni mgongano wa moja kwa moja kati ya mantiki ya sekta ya uchimbaji — ambayo inaona kilima kama rasilimali ya kuchimbwa — na mantiki ya heshima ya mababu — ambayo inaona kilima kile kile kama makazi ya roho ambazo zimelinda jamii kwa zaidi ya milenia. Hakuna msimamo wa maelewano unaoweza kutosheleza zote mbili. Huwezi kuchimba nusu ya kilima takatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kesi ya Kaya Mrima imevutia umakini kutoka mashirika ya urithi, makundi ya mazingira, na vyombo vya habari vya kimataifa. Pia imeonyesha mipaka ya ulinzi wa urithi nchini Kenya. Kaya imeorodheshwa kama Mnara wa Kitaifa. Lakini kuorodheshwa hakuzuii serikali kutoa leseni ya uchimbaji, hasa wakati hatari za kiuchumi zinafikia mabilioni. Mamlaka ya wazee ni ya kiroho. Mamlaka ya kampuni ya uchimbaji ni ya kifedha. Katika ushindani kati ya hizo mbili, matokeo hayaamuliwi mapema — lakini nafasi si sawa."
+            },
+            {
+              "type": "heading",
+              "text": "Base Titanium — Masomo Kutoka Kwale"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uzoefu wa operesheni ya uchimbaji ya Base Titanium katika Kaunti ya Kwale — iliyoanza mwaka 2013 hadi kufungwa kwake Desemba 2024 — inatoa mfano halisi wa athari za sekta ya uchimbaji kwa jamii za Wadigo. Mgodi ulizalisha takriban dola milioni 279 za Kimarekani kwa mwaka na kuajiri wafanyakazi wa ndani. Pia ulihamisha wakazi zaidi ya elfu tatu, kuharibu mashamba ya nazi, korosho, na embe, na kuacha jamii ikidai fidia, mifumo ya uhamishaji, na ulinzi wa kitamaduni ambao haukutolewa vya kutosha kamwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufungwa kwa Base Titanium kumeacha mandhari ya udongo mwekundu, maeneo ya ukarabati yenye upandaji mchanga, na malipo ya mrahaba ambayo hayajalipwa yanayokadiriwa kuwa shilingi milioni 900 za Kenya. Ukweli wa baada ya uchimbaji — ardhi iliyoharibika, maisha yaliyovurugwa, ahadi zilizovunjwa — unasimama kama onyo la kile kinachoweza kutokea katika Kaya Mrima kwa kiwango kikubwa zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ya Hali ya Hewa — Hatari Isiyoonekana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Isiyo ya wazi kama maendeleo na uchimbaji, lakini inayoweza kuwa yenye uharibifu zaidi kwa muda mrefu, ni athari za mabadiliko ya hali ya hewa kwenye misitu ya makaya. Mifumo ya mvua iliyobadilishwa inabadilisha usawa wa maji unaodumisha dari ya msitu. Mito mingi iliyowahi kulisha misitu ya makaya imekauka au imekuwa ya msimu. Mawimbi ya joto ya mara kwa mara na makali zaidi yanasisitiza miti, hasa miti ya zamani zaidi — miti ile ile inayobeba umuhimu mkubwa wa kiikolojia na kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mawimbi ya dhoruba yanaingia kwenye makaya ya pwani. Misimu mirefu ya kiangazi inafanya misitu kuwa hatarini zaidi kwa moto — tishio ambalo kihistoria halikufahamika katika ukanda wa msitu wa pwani wenye unyevu. Makaya yalikua chini ya hali mahususi za hewa. Hali hizo zinapobadilika, misitu itabadilika — na si aina zote zitanusurika mpito huo."
+            },
+            {
+              "type": "heading",
+              "text": "Pengo la Maarifa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hatari isiyoweza kurudishwa zaidi inaweza kuwa ile ambayo haifanyi kelele yoyote: kupotea kwa polepole kwa maarifa ya wazee. Kadri wazee walioingizwa wanavyokufa na vijana wa Wadigo wanavyohamia Mombasa, Nairobi, au mbali zaidi, maarifa maalum ya sherehe yanayohusiana na kila kaya — sala zipi za kusoma, mimea ipi ya kutumia, njia zipi za kufuata, roho zipi za kushughulikia — yanapungua. Ngazi kumi na moja za daraja la Ngambi zinahitaji miongo ya kuanzishwa. Ikiwa mfereji wa vijana wanaoingizwa unakauka, muundo wa utawala uliowahifadhi makaya kwa karne nyingi utaondoka ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Msitu unaweza kubaki umesimama. Bati la UNESCO linaweza kubaki likimetameta. Lakini kaya bila wazee wake ni msitu bila maana yake — wenye thamani ya kiikolojia, labda, lakini tupu kiroho. Na ni thamani ya kiroho ambayo imehifadhi thamani ya kiikolojia kwa karne hizi zote. Ondoa moja na nyingine inabaki wazi."
+            },
+            {
+              "type": "heading",
+              "text": "Uhifadhi — Kinachofanywa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Picha si ya giza kabisa. Makumbusho ya Kitaifa ya Kenya yanasimamia makaya yaliyoorodheshwa kama Minara ya Kitaifa. Vyama vya Wazee wa Makaya ya Kimijikenda vinatetea ulinzi katika vikao vya sera na kushiriki katika michakato ya usimamizi wa urithi wa UNESCO. Mfano wa utalii wa kiikolojia wa Kaya Kinondo unaonyesha kwamba uhifadhi unaosimamiwa na jamii unaweza kufanya kazi — kwamba mapato kutoka wageni yanaweza kusaidia ustawi wa wazee na utunzaji wa msitu. WWF na mashirika mengine ya uhifadhi yanatoa msaada wa kiufundi na wa kifedha kwa uwekaji mipaka, ushirikishwaji wa jamii, na upangaji wa matumizi endelevu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini juhudi za uhifadhi zinabaki na fedha kidogo, zisizoratibiwa vya kutosha, na zisizoweza kushughulikia shinikizo za kimfumo — maendeleo ya kiuchumi, ongezeko la idadi ya watu, mabadiliko ya hali ya hewa — zinazoendesha hatari. Makaya yanahitaji zaidi ya ulinzi. Yanahitaji ulimwengu ambapo kizazi kijacho cha vijana wa Wadigo kinaona hadhi ya uzee si kama kitu cha zamani bali kama lengo — ambapo kaya si masalia ya zamani bali taasisi hai inayostahili kuingia, kuhudumu, na kulinda."
             }
           ],
           "dig": [
@@ -1280,6 +1800,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hatari isiyoweza kurudhishwa zaidi inaweza kukala ire ambayo taihenda kelele yoyosi: kupotea kpwa pore-pore kpwa marifwa ga avyere. Msitu unaweza kusala umesimama. Bati ra UNESCO rinaweza kusala rikimeta-meta. Ela kaya bila avyere akpwe ni msitu bila maana yakpwe — wenye thamani ya kiikolojia, labda, ela tupu chiroho. Na ni thamani ya chiroho ambayo imehifadhi thamani ya kiikolojia kpwa karne hizi zosi. Undoa mwenga na yanjina inakala wazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri si mgongano wa upole. Ni mgongano wa moja kpwa moja kahi ya mantiki ya sekta ya uchimbaji — ambayo inaona chirima dza rasilimali ya kuchimbwa — na mantiki ya ishima ya avyere a kare — ambayo inaona chirima chire chire dza makazi ga roho ambazo zimelinda jamii kpwa zaidi ya milenia. Takuna msimamo wa maelewano unaoweza kutosheleza zosi mbiri. Tauweza kuchimba nusu ya chirima chitakatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kesi ya Kaya Mrima imevutia umakini kula mashirika ga urithi, makundi ga mazingira, na vyombo vya habari vya chimataifa. Piya imeonyesha miphaka ya ulinzi wa urithi kpwa Kenya. Kaya imeorodheshwa dza Mnara wa Chitaifa. Ela kuorodheshwa takuzuiyi serikali kutoa leseni ya uchimbaji, hasa wakati hatari za chiuchumi zinafikia mabilioni. Mamlaka ga avyere ni ga chiroho. Mamlaka ga kampuni ya uchimbaji ni ga chifedha. Kpwa ushindani kahi ya izo mbiri, matokeo tagaamuliwi mapema — ela nafasi si sawa."
+            },
+            {
+              "type": "heading",
+              "text": "Base Titanium — Masomo Kula Kwale"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uzoefu wa operesheni ya uchimbaji ya Base Titanium kpwa Kaunti ya Kwale — iriyoandza mwaka 2013 hadi kufungwa kwakpwe Desemba 2024 — inatoa mfwano halisi wa athari za sekta ya uchimbaji kpwa jamii za Adigo. Mgodi urizalisha takriban dola milioni 279 za Kimarekani kpwa mwaka na kuajiri ahendadzi-kazi a phephi. Piya urihamisha akazi zaidi ya elfu hahu, kuharibu mashamba ga nazi, korosho, na maembe, na kusaza jamii ikidai fidia, mifumo ya uhamisho, na ulinzi wa chimila ambao taukutolewa vya kutosha kamwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufungwa kpwa Base Titanium kumesaza mandhari ya udongo mwekundu, maeneo ga ukarabati genye upandaji mutsanga, na malipo ga mrahaba ambago tagalipwa ganagokadiriwa kukala shilingi milioni 900 za Kenya. Ukpweli wa bada ya uchimbaji — ardhi iriyoharibika, maisha garigoendekezwa, ahadi zirizovunjwa — unasimama dza onyo ra chirichoweza kutokea kpwa Kaya Mrima kpwa kiwango kikulu zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ga Hali ya Hewa — Hatari Isiyoonekana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Isiyoonekana dza maendeleo na uchimbaji, ela inayoweza kukala yenye uharibifu zaidi kpwa muda mure, ni athari za mabadiliko ga hali ya hewa kpwa misitu ya makaya. Mifumo ya mvula iriyobadilishwa inabadilisha usawa wa madzi unaodumisha dari ya msitu. Miho minji iriyokuwa inalisha misitu ya makaya imekauka au imekala ya musimu. Mawimbi ga dzoto ga mara kpwa mara na makali zaidi ganasisitiza miri, hasa miri ya zamani zaidi — miri ire ire inayotsukula umuhimu mukulu wa kiikolojia na chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mawimbi ga dhoruba ganainjira kpwa makaya ga pwani. Misimu mire ya chiangazi inahenda misitu kukala hatarini zaidi kpwa moho — hatari ambayo chihistoria taikufahamika kpwa ukanda wa msitu wa pwani wenye unyevu. Makaya garikula chini ya hali mahususi za hewa. Hali hizo zinapho badilika, misitu indabadilika — na si aina zosi zindanusuru mphito uwo."
+            },
+            {
+              "type": "heading",
+              "text": "Pengo ra Marifwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hatari isiyoweza kurudhishwa zaidi inaweza kukala ire ambayo taihenda kelele yoyosi: kupotea kpwa pore-pore kpwa marifwa ga avyere. Wakati avyere ariokala aingizwa anakufa na avyanache a Adigo anasafiri Mombasa, Nairobi, au kure zaidi, marifwa maalum ga sherehe ganagohusiana na chila kaya — swala zihi za kusoma, mimea ihi ya kuhumira, njira zihi za kufuata, roho zihi za kushughulikia — ganapunguka. Ngazi kumi na mwenga za daraja ra Ngambi zinahitaji miaka mirongo ya kuanzishwa. Ikala mfereji wa avyanache anao ingizwa unakauka, muundo wa utawala uriohifadhi makaya kpwa karne nyinji undauka ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Msitu unaweza kusala umesimama. Bati ra UNESCO rinaweza kusala rikimeta-meta. Ela kaya bila avyere akpwe ni msitu bila maana yakpwe — wenye thamani ya kiikolojia, labda, ela tupu chiroho. Na ni thamani ya chiroho ambayo imehifadhi thamani ya kiikolojia kpwa karne hizi zosi. Undoa mwenga na yanjina inakala wazi."
+            },
+            {
+              "type": "heading",
+              "text": "Uhifadhi — Chirichohendwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Picha si ya giza kabisa. Makumbusho ga Chitaifa ga Kenya ganasimamia makaya garigoorodheshwa dza Minara ya Chitaifa. Vyama vya Avyere a Makaya ya Chimijikenda vinatetea ulinzi kpwa vikao vya sera na kushiriki kpwa michakato ya usimamizi wa urithi wa UNESCO. Mfwano wa utalii wa kiikolojia wa Kaya Kinondo unaonyesha kukala uhifadhi unaosimamiwa ni jamii unaweza kuhenda kazi — kukala mapato kula ageni ganaweza kusaidia ustawi wa avyere na utunzaji wa msitu. WWF na mashirika ganjina ga uhifadhi ganatoa msaada wa chiufundi na chifedha kpwa uwekaji miphaka, ushirikishaji wa jamii, na upangaji wa mahumizi endelevu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela juhudi za uhifadhi zinasala na fedha chache, zisizoratibiwa vya kutosha, na zisizoweza kushughulikia mashinikizo ga chimfumo — maendeleo ga chiuchumi, ongezeko ra idadi ya atu, mabadiliko ga hali ya hewa — ganago endesha hatari. Makaya ganahitaji zaidi ya ulinzi. Ganahitaji ulimwengu ambapho chizazi chijacho cha avyanache a Adigo chinaona hadhi ya uvyere si dza chitu cha zamani ela dza lengo — ambapho kaya si masalia ga zamani ela taasisi ya uhai inayostahili kuinjira, kuhumikia, na kulinda."
             }
           ]
         }
@@ -1371,6 +1947,30 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mwaka 2008, misitu kumi na moja ya makaya ya Mijikenda iliorodheshwa kama Eneo la Urithi wa Dunia wa UNESCO. Kutambuliwa huku — kwa mambo yanayoonekana (misitu yenyewe) na yasiyoonekana (mifumo ya kiroho na utawala wanayodumisha) — kunafanya makaya kuwa mojawapo ya maeneo ya urithi yenye tabaka nyingi zaidi barani Afrika."
+            },
+            {
+              "type": "heading",
+              "text": "Kutambuliwa na UNESCO"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka 2008, misitu kumi na moja ya makaya ya Kimijikenda iliorodheshwa kama Eneo la Urithi wa Dunia la UNESCO chini ya vigezo vitatu. Kigezo (iii): \"bear unique testimony to a cultural tradition.\" Kigezo (v): ni \"outstanding example of traditional human settlement.\" Kigezo (vi): \"directly associated with living traditions, beliefs, and artistic works of outstanding universal significance.\" Makaya pia yako kwenye orodha ya Urithi wa Kitamaduni Usioshikika wa UNESCO kwa mapokeo na mazoezi yanayohusiana nayo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutambuliwa huku maradufu — kwa mambo yanayoonekana (misitu yenyewe) na yasiyoonekana (mifumo ya kiroho na utawala inayodumisha) — kunafanya makaya kuwa mojawapo ya maeneo ya urithi yenye tabaka nyingi za kitamaduni barani Afrika. Msitu si mazingira tu ya utamaduni. Msitu *ndio* utamaduni. Ondoa miti na hupotezi tu makazi. Unapoteza usanifu wa kimwili ambao ndani yake maisha yote ya kiroho ya ustaarabu mzima yanafanywa."
+            },
+            {
+              "type": "heading",
+              "text": "Maeneo Zaidi ya Sitini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maeneo zaidi ya sitini ya makaya yamerekodiwa kando ya pwani ya Kenya, yakienea kutoka Kaunti ya Kilifi kaskazini hadi Kaunti ya Kwale kusini. Thelathini na tisa yameorodheshwa kama Minara ya Kitaifa chini ya Makumbusho ya Kitaifa ya Kenya. Maeneo yanajumuisha kutoka hekta thelathini hadi mia tatu — kutoka viwanja vidogo vya vilele vya milima hadi misitu mikubwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kila kaya ina historia yake, masimulizi yake ya kuanzishwa, baraza lake la wazee, na mazoezi yake maalum ya sherehe. Makaya si yanayobadilishana. Kaya Kinondo si Kaya Kwale si Kaya Gandini. Kila moja inabeba kumbukumbu ya ukoo au nasaba fulani iliyoianzisha, na mamlaka ya wazee wa kila kaya yanaenea tu ndani ya eneo lake lenyewe. Utawala huu uliosambazwa — msitu mmoja, baraza moja, jamii moja — ni mojawapo ya sifa tofauti zaidi za mfumo wa kisiasa wa Kimijikenda."
             }
           ],
           "dig": [
@@ -1397,6 +1997,30 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mwaka 2008, misitu kumi na mwenga ya makaya ya Amijikenda yaliorodheshwa dza Eneo ra Urithi wa Dunia wa UNESCO. Kutambuliwa kuno — kpwa mambo ganago onekana (misitu yenyewe) na gasigo onekana (mifumo ya chiroho na utawala ganago dumisha) — kunahenda makaya kukala mwenga wa maeneo ga urithi genye tabaka nyinji zaidi barani Afrika."
+            },
+            {
+              "type": "heading",
+              "text": "Kutambuliwa ni UNESCO"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka 2008, misitu kumi na mwenga ya makaya ya Chimijikenda yaliorodheshwa dza Eneo ra Urithi wa Dunia ra UNESCO chini ya vigezo vihahu. Chigezo (iii): \"bear unique testimony to a cultural tradition.\" Chigezo (v): ni \"outstanding example of traditional human settlement.\" Chigezo (vi): \"directly associated with living traditions, beliefs, and artistic works of outstanding universal significance.\" Makaya piya gapo kpwa orodha ya Urithi wa Chimila Usioshikika wa UNESCO kpwa mapokeo na mazoezi ganago husiana nago."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutambuliwa kuno maradufu — kpwa mambo ganago onekana (misitu yenyewe) na gasigo onekana (mifumo ya chiroho na utawala inayodumisha) — kunahenda makaya kukala mwenga wa maeneo ga urithi genye tabaka nyinji za chimila zaidi barani Afrika. Msitu si mazingira tu ga utamaduni. Msitu *ndio* utamaduni. Undoa miri na taupotezi tu makazi. Unapoteza usanifu wa chimwili ambao ndani yakpwe maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
+            },
+            {
+              "type": "heading",
+              "text": "Maeneo Zaidi ya Sitini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maeneo zaidi ya sitini ga makaya gamerekodiwa kando ya pwani ya Kenya, gakienea kula Kaunti ya Kilifi kaskazini hadi Kaunti ya Kwale kusini. Mirongo mihahu na tisa gameorodheshwa dza Minara ya Chitaifa chini ya Makumbusho ga Chitaifa ga Kenya. Maeneo ganajumuisha kula hekta thelathini hadi mia hahu — kula viwanja vidogo vya vilele vya milima hadi misitu mikulu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chila kaya ina historia yakpwe, masimulizi gakpwe ga kuanzishwa, baraza rakpwe ra avyere, na mazoezi gakpwe maalum ga sherehe. Makaya si ganago badilishana. Kaya Kinondo si Kaya Kwale si Kaya Gandini. Chila mwenga inatsukula kumbukumbu ya ukoo au nasaba fulani iriyoianzisha, na mamlaka ga avyere a chila kaya ganaenea tu ndani ya eneo rakpwe renye. Utawala uwo uriosambazwa — msitu mmwenga, baraza rimwenga, jamii mwenga — ni mwenga wa sifa tofauti zaidi za mfumo wa chisiasa wa Chimijikenda."
             }
           ]
         }
@@ -1573,6 +2197,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Changamoto ya Uislamu wa mageuzi inazidi — wahubiri waliofunzwa Madina na kufadhiliwa na taasisi za Ghuba wanataka mazoezi yaliyotakaswa bila vipengele vya kabla ya Uislamu. Wanachukulia sherehe za kaya, taratibu za kumilikiwa na roho, na mashauriano na *mganga* kuwa *shirk*. Changamoto hii inaonyeshwa katika mistari ya kizazi — vijana wa Kidigo waliofunzwa katika taasisi za mageuzi wanaweza kurudi jamii zao wakikataa kile babu zao walichozoea. Lakini uzito wa karne nyingi hauwezi kuondolewa kwa urahisi. Mababu hawapotezi mamlaka yao kwa sababu mhubiri mdogo anasema hivyo. Makaya hayaachwi kwa sababu theolojia mpya inayatangaza kuwa hayana umuhimu. Wadigo walikubali Uislamu kwa masharti yao wenyewe, na kilichojengwa kwa karne nyingi si maelewano au kushindwa kwa kitheolojia — ni mafanikio ya ubunifu: usanifu wa kiroho unaoheshimu Kurani na mababu, msikiti na kaya, imamu na *mganga*."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ya Vitendo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuishi pamoja kwa Uislamu na mazoezi ya jadi kunahitaji mazungumzo ya mara kwa mara, kawaida yasiyosemwa. Fikiria kuzaliwa kwa mtoto. *Mganga* anafika kwanza — kabla ya imamu, kabla ya sherehe ya kumpa jina ya Kiislamu — kulinda mtoto dhidi ya jicho baya kwa njia za jadi: hirizi, maandalizi ya mitishamba, na vitendo maalum vya kitaratibu. Tu baada ya ulinzi huu kuwa umewekwa ndipo imamu anambariki mtoto kwa sala za Kiislamu, anamnong'oneza *adhan* sikioni mwa mtoto mchanga, na kufanya sherehe ya kumpa jina. Mpangilio si wa nasibu. Unaonyesha daraja ya haraka: hatari ya kiroho inashughulikiwa kwanza kupitia njia za jadi za haraka zaidi; utambulisho wa kidini wa jamii unaanzishwa pili kupitia taratibu rasmi zaidi za Kiislamu. Zote mbili zinachukuliwa kuwa muhimu. Hakuna mzazi angependa kuruka hatua yoyote."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndoa inafuata muundo sawa wa tabaka. *Nikah* ya Kiislamu ndiyo sherehe rasmi, inayobana kisheria ambayo inatoa uhalali wa kidini kwa muungano. Inazungukwa na tabaka za mazungumzo ya jadi kati ya familia, ubadilishanaji wa zawadi unaofanywa kulingana na desturi ya Kidigo badala ya sheria ya Kiislamu, na sherehe zinazojumuisha muziki, ngoma, na mazoezi ya kijamii yenye mizizi katika mapokeo ya kabla ya Uislamu. *Nikah* inatoa mfumo wa kisheria na kidini. Vipengele vya jadi vinatoa mfumo wa kijamii. Pamoja, vinakamilisha ndoa kamili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kifo kinawasilisha labda mazungumzo magumu zaidi. Mwili huoshwa, kufungwa sanda, na kuzikwa kulingana na taratibu za Kiislamu, na sala zinaongozwa na imamu. Hii haijadiliki — kila Mdigo anapokea mazishi ya Kiislamu. Lakini kipindi cha maombolezo kinachofuata, na usimamizi wa urithi wa kiroho wa marehemu, kinaweza kujumuisha mazoezi ya jadi ambayo imamu haasimamii na huenda haaidhinishi. Kuhakikisha kwamba *koma* ya marehemu imekaa vizuri — kwamba haitarudi kusumbua walio hai — kunaweza kuhitaji sadaka, sherehe, na mashauriano na *mganga* ambayo yanafanyika kwa kimya, ndani ya familia, mbali na mamlaka ya msikiti."
+            },
+            {
+              "type": "heading",
+              "text": "Hirizi: Muunganiko kwa Ufupi"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Hirizi* — hirizi ya kinga iliyoandikwa aya za Kurani — ni labda mfano mmoja wenye ufasaha zaidi wa jinsi Wadigo wanavyounganisha mifumo yao miwili ya kiroho kuwa mazoezi moja. *Hirizi* ni ya Kiislamu kwa maudhui: aya zilizo juu yake ni za Kurani. Lakini ni ya jadi kwa kazi: inatumika kama ulinzi wa kiroho wa kubeba dhidi ya jicho baya, uchawi, na roho mbaya — hatari zile zile ambazo mazoezi ya jadi ya Kidigo yalikuwa yakishughulikia daima. *Mganga* anaweza kuandaa *hirizi* kwa kutumia maandishi ya Kurani na maandalizi ya mitishamba ya jadi, akiunda kitu kinachomilikiwa na mifumo yote miwili kwa wakati mmoja. Mtu anayeivaa hatafikirii ni ya \"Kiislamu\" au \"ya jadi.\" Ni tu ulinzi — wenye ufanisi, unaoshikika, na wenye mamlaka ya kiroho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vivyo hivyo, *mganga* anayeendesha sherehe ya uponyaji anaweza kuomba jina la Allah na kusoma aya za Kurani pamoja na nyimbo za jadi za Kidigo na matibabu ya mitishamba. Sherehe ya Kayamba iliyorekodiwa Golini, Kaunti ya Kwale, kwa wazi inaunganisha dua za Kiarabu na nyimbo za Kidigo, marejeleo ya Kiislamu na mazungumzo ya jadi na roho. Hii si mkanganyiko. Ni ukamilifu — matumizi ya kila rasilimali ya kiroho inayopatikana dhidi ya tishio lililo mbele."
+            },
+            {
+              "type": "heading",
+              "text": "Mpaka wa Kizazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuishi pamoja ambako Wadigo wamedumisha kwa vizazi si bila mvutano, na mvutano umekuwa mkali katika miongo ya hivi karibuni. Uislamu wa mageuzi — unaoenezwa na wahubiri waliofunzwa Medina na kuungwa mkono na taasisi zinazofadhiliwa na Ghuba — unadai mazoezi yaliyotakaswa yasiyo na vipengele vyote vya kabla ya Uislamu. Wanamageuzi wanachukulia sherehe za kaya, taratibu za kumilikiwa na roho, mashauriano na *mganga*, na sadaka za damu kuwa *shirk* — dhambi isiyosameheka ya kumshirikisha Mungu na wengine. Kwa mwanamageuzi, hakuna \"mazoezi mawili\" halali. Kuna Uislamu, na kuna ushirikina. Wadigo lazima wachague."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto hii inaonyeshwa katika mistari ya kizazi. Vijana wa Wadigo ambao wamesoma katika taasisi za mageuzi au kutumia media za mageuzi wanaweza kurudi katika jamii zao na hisi iliyokali zaidi ya usahihi na kukataliwa kwa mazoezi ya mchanganyiko ya babu zao. Matokeo yanaweza kuwa yenye maumivu. Mjukuu anakataa kuhudhuria sherehe ya kaya ambayo babu yake anayochukulia kuwa muhimu kwa ustawi wa familia. Imamu mdogo anahubiri dhidi ya *mganga* ambaye kizazi cha zamani kinamwamini kabisa. Mgawanyiko si kuhusu theolojia tu. Unagusa maswali ya kina zaidi ya utambulisho wa Kidigo: Ina maana gani kuwa Mdigo? Je, utambulisho wa Kidigo hauwezi kutenganishwa na mababu na makaya, au Mdigo anaweza kuwa Mdigo kamili huku akifanya Uislamu \"uliotakaswa\" unaokata uhusiano huo?"
+            },
+            {
+              "type": "heading",
+              "text": "Uzito wa Karne Nyingi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya mageuzi ni ya kweli, na ushawishi wake unakua. Lakini uzito wa karne nyingi — mazoezi yaliyokusanywa, imani, na muundo wa kitaasisi wa vizazi — hauwezi kuondolewa kwa urahisi. Mababu hawapotezi mamlaka yao kwa sababu mhubiri mdogo anasema wanapaswa. *Mganga* hafungi boma lake kwa sababu kijitabu cha mageuzi kinaita mazoezi yake *shirk*. Makaya hayatupwi kwa sababu theolojia mpya inayatangaza kuwa hayana umuhimu. Wadigo walipitisha Uislamu kwa kipindi cha zaidi ya karne moja, na walipitisha kwa masharti yao wenyewe — wakibaki katika vijiji vyao, wakidumisha mitandao yao ya undugu, wakihifadhi mazoezi yao ya kiroho, na kuunganisha imani mpya katika mfumo uliokuwepo badala ya kubadilisha mfumo huo kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachojengwa na Wadigo si maelewano au kushindwa kwa kitheolojia. Ni mafanikio ya ubunifu: usanifu wa kiroho unaoheshimu Kurani na mababu, msikiti na kaya, imamu na *mganga*, ufunuo ulioandikwa na mapokeo ya mdomo. Inashughulikia upana kamili wa mahitaji ya kiroho ya binadamu — kutoka maswali ya ulimwengu ya uumbaji na hukumu hadi mizozo ya karibu, ya haraka ya ugonjwa, msiba, na wafu wasio na raha. Iwapo usanifu huu unaweza kustahimili shinikizo za mageuzi, ukisasa, na mabadiliko ya kizazi ni swali la siku zijazo. Lakini muundo wenyewe — uliojengwa kwa karne nyingi na watu waliokataa kuchagua kati ya zamani zao na imani yao — unastahili kueleweka si kama mkanganyiko bali kama hekima."
             }
           ],
           "dig": [
@@ -1615,6 +2291,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Changamoto ya Uislamu wa mageuzi inazidi — wahubiri ariofunzwa Madina anahitaji mazoezi garigotakaswa bila vipengele vya kabila ya Uislamu. Ela uzito wa karne nyinji tauwezi kuondolewa kpwa urahisi. Avyere a kare taakupoteza mamlaka gao kpwa sababu muhubiri mdide anaamba ni hivyo. *Mganga* taarifunga muhala wakpwe kpwa sababu kijitabu cha mageuzi chinaamba mazoezi gakpwe ni *shirk*. Makaya tagahendwa bure kpwa sababu theolojia mpya inagatangaza tagana umuhimu. Adigo akubali Uislamu kpwa kipindi cha zaidi ya karne mwenga, na akukubali kpwa masharti gao enye — aendelea kukala kpwa vidzi vyao, ahifadhi mazoezi gao ga chiroho, na aunganisha imani mpya kpwa mfumo uriokuwepo badala ya kuubadilisha kpwa ukamilifu. Chirichojengwa kpwa karne nyinji si maelewano au kushindwa kpwa kitheolojia — ni mafanikio ga ubunifu: usanifu wa chiroho unaoheshimu Kurani na avyere a kare, msikiti na kaya, imamu na *mganga*."
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo anadumisha mifumo yosi miiri kpwa sababu mifumo yosi miiri inahenda kazi — au, kpwa usahihi zaidi, kpwa sababu chila mfumo unahenda kazi kpwa eneo rakpwe. Msikiti unahenda kazi kpwa chirichohenda msikiti. *Mganga* anahenda kazi kpwa chirichohenda *mganga*. Kuacha mwenga kungesaza pengo kpwa ulinzi wa chiroho wa jamii ambaro mwinjine tauweza kujaza."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ga Chitendo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuishi phamwenga kpwa Uislamu na mazoezi ga chimila kunahitaji mazungumzo ga mara kpwa mara, kawaida gasigo semwa. Fikiria kuzawa kpwa mwana. *Mganga* anafika kpwandza — kabila ya imamu, kabila ya sherehe ya kumpha dzina ya Chiislamu — kulinda mwana dhidi ya litso bii kpwa njira za chimila: hirizi, maandalizi ga mitishamba, na vitendo maalum vya taratibu. Tu bada ya ulinzi uwo kukala umewekwa ndipho imamu anambariki mwana kpwa swala za Chiislamu, anamnong'oneza *adhan* sikioni mwa mwana mutsanga, na kuhenda sherehe ya kumpha dzina. Mpangilio si wa nasibu. Unaonyesha daraja ya haraka: hatari ya chiroho inashughulikiwa kpwandza kupitshi njira za chimila za haraka zaidi; utambulisho wa chidini wa jamii unaanzishwa phiri kupitshi taratibu rasmi zaidi za Chiislamu. Zosi mbiri zinachukuliwa kukala muhimu. Takuna muzhee angeruka hatua yoyosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndoa inafuata muundo sawa wa tabaka. *Nikah* ya Chiislamu ndiyo sherehe rasmi, inayobana kisheria ambayo inatoa uhalali wa chidini kpwa muungano. Inadzikiiriywa ni tabaka za mazungumzo ga chimila kahi ya mbari, ubadilishanaji wa zawaadi unaohendwa kulingana na desturi ya Chidigo badala ya sheria ya Chiislamu, na sherehe zinazojumuisha muziki, ngoma, na mazoezi ga chijamii genye midzi kpwa mapokeo ga kabila ya Uislamu. *Nikah* inatoa mfumo wa kisheria na chidini. Vipengele vya chimila vinatoa mfumo wa chijamii. Phamwenga, vinakamilisha ndoa kamili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chifo chinawasilisha labda mazungumzo magumu zaidi. Mwiri unaoshwa, kufungwa sanda, na kuzikwa kulingana na taratibu za Chiislamu, na swala zinaongozwa ni imamu. Hiri tarijadiliki — chila Mudigo anapokea mazishi ga Chiislamu. Ela kipindi cha maombolezo kinachofuata, na usimamizi wa urithi wa chiroho wa marehemu, kinaweza kujumuisha mazoezi ga chimila ambago imamu taasimamii na ganawezekana taaidhinishi. Kuhakikisha kukala *koma* ya marehemu imekala vizuri — kukala tainarudi kusumbua ario moyo — kunaweza kuhitajia sadaka, sherehe, na mashauriano na *mganga* ganago hendwa kpwa chimya, ndani ya mbari, kure na mamlaka ga msikiti."
+            },
+            {
+              "type": "heading",
+              "text": "Hirizi: Muunganiko kpwa Ufupi"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Hirizi* — hirizi ya kinga iriyoandikwa aya za Kurani — ni labda mfwano mmwenga wenye ufasaha zaidi wa jinsi Adigo anavyounganisha mifumo yao miiri ya chiroho kukala mazoezi mwenga. *Hirizi* ni ya Chiislamu kpwa maudhui: aya zirizo dzulu yakpwe ni za Kurani. Ela ni ya chimila kpwa kazi: inahumika dza ulinzi wa chiroho wa kutsukula dhidi ya litso bii, ulozi, na roho mbii — hatari zire zire ambazo mazoezi ga chimila ga Chidigo gakala ganashughulikia kare kare. *Mganga* anaweza kuandaa *hirizi* kpwa kuhumira maandishi ga Kurani na maandalizi ga mitishamba ya chimila, akiunda chitu chinachomilikiwa ni mifumo yosi miiri kpwa wakati mmwenga. Mutu anayeivala taafikiiri ni ya \"Chiislamu\" au \"ya chimila.\" Ni tu ulinzi — wenye ufanisi, unaoshikika, na wenye mamlaka ya chiroho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vivyo hivyo, *mganga* anayeendesha sherehe ya uphonyaji anaweza kuomba dzina ra Allah na kusoma aya za Kurani phamwenga na nyimbo za chimila za Chidigo na matibabu ga mitishamba. Sherehe ya Kayamba iriyorekodiwa Golini, Kaunti ya Kwale, kpwa wazi inaunganisha dua za Chiarabu na nyimbo za Chidigo, marejeleo ga Chiislamu na mazungumzo ga chimila na roho. Hiri si mkanganyiko. Ni ukamilifu — mahumizi ga chila rasilimali ya chiroho inayopatikana dhidi ya hatari iriyokala mbere."
+            },
+            {
+              "type": "heading",
+              "text": "Mphaka wa Chizazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuishi phamwenga ambako Adigo amedumisha kpwa vizazi si bila mvutano, na mvutano umekala mkali kpwa miaka mirongo ya phivi phivi. Uislamu wa mageuzi — unaoenezwa ni wahubiri ariofunzwa Madina na kuungwa mkono ni taasisi zinazofadhiliwa ni Ghuba — unadai mazoezi garigotakaswa gasigo na vipengele vyosi vya kabila ya Uislamu. Anamageuzi anachukukulia sherehe za kaya, taratibu za kumilikiwa ni roho, mashauriano na *mganga*, na sadaka za damu kukala *shirk* — dhambi isiyosameheka ya kumshirikisha Mulungu na anjine. Kpwa mwanamageuzi, takuna \"mazoezi mairi\" halali. Kuna Uislamu, na kuna ushirikina. Adigo lazima achague."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto iyo inaonyeshwa kpwa mistari ya chizazi. Avyanache a Adigo ambao amesoma kpwa taasisi za mageuzi au kuhumira media za mageuzi anaweza kurudi kpwa jamii zao na hisi iriyokali zaidi ya usahihi na kukataliwa kpwa mazoezi ga mchanganyiko ga babu zao. Matokeo ganaweza kukala genye maumivu. Mjukuu anakatala kuhudhuria sherehe ya kaya ambayo babu yakpwe anayochukulia kukala muhimu kpwa ustawi wa mbari. Imamu mdide anahubiri dhidi ya *mganga* ambaye chizazi cha kare chinamwamini kabisa. Mgawanyiko si kuhusu theolojia tu. Unagusa maswali ga china zaidi ga utambulisho wa Chidigo: Ina maana gani kukala Mudigo? Dze, utambulisho wa Chidigo tauwezi kutenganishwa na avyere a kare na makaya, au Mudigo anaweza kukala Mudigo kamili huku akihenda Uislamu \"uriotakaswa\" unaokata uhusiano uwo?"
+            },
+            {
+              "type": "heading",
+              "text": "Uzito wa Karne Nyinji"
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya mageuzi ni ya kpweli, na ushawishi wakpwe unakula. Ela uzito wa karne nyinji — mazoezi garigokusanywa, imani, na muundo wa chitaasisi wa vizazi — tauwezi kuondolewa kpwa urahisi. Avyere a kare taakupoteza mamlaka gao kpwa sababu muhubiri mdide anaamba anapaswa. *Mganga* taarifunga muhala wakpwe kpwa sababu kijitabu cha mageuzi chinaiha mazoezi gakpwe *shirk*. Makaya tagahendwa bure kpwa sababu theolojia mpya inagatangaza tagana umuhimu. Adigo aripishisha Uislamu kpwa kipindi cha zaidi ya karne mwenga, na aripishisha kpwa masharti gao enye — akisala kpwa vidzi vyao, akidumisha mitandao yao ya undugu, akihifadhi mazoezi gao ga chiroho, na kuunganisha imani mpya kpwa mfumo uriokuwepo badala ya kubadilisha mfumo uwo kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chirichojengwa ni Adigo si maelewano au kushindwa kpwa kitheolojia. Ni mafanikio ga ubunifu: usanifu wa chiroho unaoheshimu Kurani na avyere a kare, msikiti na kaya, imamu na *mganga*, ufunuo urioandikwa na mapokeo ga mdomo. Unashughulikia uphana kamili wa mahitaji ga chiroho ga binadamu — kula maswali ga ulimwengu ga uumbaji na hukumu hadi mizozo ya phephi, ya haraka ya ukongo, msiba, na afu asio na raha. Iwapo usanifu uwo unaweza kustahimili mashinikizo ga mageuzi, ukisasa, na mabadiliko ga chizazi ni swali ra siku zijazo. Ela muundo wenye — uriojengwa kpwa karne nyinji ni atu ariopuza kuchagua kahi ya zamani zao na imani yao — unastahili kueleweka si dza mkanganyiko ela dza hekima."
             }
           ]
         }
@@ -1810,6 +2542,102 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Tangu mwishoni mwa karne ya 20, Uislamu wa mageuzi umesimamisha changamoto inayozidi kuwa kali kwa Uislamu wa Kidigo. Msimamo wa mageuzi ni wazi kiteolojia: tawhidi hairuhusu maelewano. Mgawanyiko mara nyingi unafuata mistari ya kizazi — Wadigo vijana walio na elimu rasmi ya Kiislamu wana uwezekano mkubwa wa kuchukua msimamo wa mageuzi. Wadigo wakubwa, hasa wale wenye uhusiano wa karibu na utawala wa kaya, wanatetea mila ya mchanganyiko kama usemi halisi wa utambulisho wa Wadigo Waislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lugha ya Chidigo yenyewe inarekodia historia ya mchanganyiko wa kidini katika msamiati wake. Maneno ya Kiislamu yamechukuliwa moja kwa moja: *swala* (sala, kutoka Kiarabu *salat*), *msikiti* (kutoka Kiarabu *masjid*), *hirizi* (hirizi, kutoka Kiarabu *hirz*). Lakini msamiati wa kiroho wa jadi haujaondolewa. Neno *koma* kwa roho ya mababu halina mbadala wa Kiislamu. *Uganga* kwa mazoezi ya uponyaji, *pepo* kwa roho ya kumilikiwa, *chiraho* kwa kiapo kitakatifu — maneno haya yanabaki katika matumizi ya kila siku, hayajatafsiriwa na hayawezi kutafsiriwa katika msamiati wa Kiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Msamiati huu maradufu si wa kilugha tu. Unaonyesha ulimwengu maradufu wa kidhana. Mzungumzaji wa Kidigo anapotumia neno *swala*, anafanya kazi katika eneo la Kiislamu — sala inayoelekezwa kwa Allah, inayofanywa kwa Kiarabu, ikifuata aina zilizowekwa. Mzungumzaji yule yule anapotumia neno *koma*, amebadili kwenda eneo la jadi — ulimwengu wa roho za mababu zinazodai uangalifu kwa Kidigo, kupitia taratibu zinazotangulia Mtume kwa milenia. Ukweli kwamba mzungumzaji mmoja anasogea kwa ufasaha kati ya msamiati huu katika mazungumzo moja — wakati mwingine katika sentensi moja — ni ushahidi wa wazi zaidi wa jinsi mifumo hiyo miwili ilivyounganishwa kwa kina."
+            },
+            {
+              "type": "heading",
+              "text": "Taratibu za Mzunguko wa Maisha: Athari ya Tabaka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Asili ya mchanganyiko ya Uislamu wa Kidigo inaonekana zaidi katika taratibu za mzunguko wa maisha, ambapo vipengele vya Kiislamu na vya jadi vinawekwa tabaka juu ya nyingine kwa mpangilio ambao jamii imesafisha kwa vizazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mtoto anapozaliwa, kitendo cha kwanza cha ulinzi ni cha jadi: *mganga* anafanya taratibu za kumlinda mtoto kutokana na jicho baya na roho mbaya. Kisha kinakuja tabaka la Kiislamu: *imam* anasoma *adhan* (wito wa sala) sikioni mwa mtoto mchanga, na mtoto anapewa jina la Kiislamu. Ulinzi wote unachukuliwa kuwa muhimu. Wala moja peke yake haitoshi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika ndoa, sherehe ya *nikah* ya Kiislamu — mkataba rasmi wa ndoa, unaoshuhudiwa na kusajiliwa — inatoa mfumo wa kisheria na kidini. Lakini vipengele vya jadi vinadumu: mazungumzo ya mahari, baraka za wazee wa kaya, vyakula na ngoma maalum zinazofanya harusi ya Kidigo kuwa ya Kidigo badala ya Kiislamu kwa ujumla. Nikah inatoa, kama mwanaetnografia mmoja alivyobainisha, \"the highest prestige on women,\" lakini haibadilishi wajibu wa jadi wa undugu na jamii zinazozunguka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika kifo, mazoezi ya mazishi ya Kiislamu yanatawala: mwili huoshwa, kufungwa katika kitambaa cheupe, na kuzikwa kuelekea Mecca, kawaida ndani ya masaa 24. Lakini kipindi cha maombolezo na wajibu kwa marehemu vinategemea mapokeo yote mawili. Roho ya marehemu — *koma* — lazima ishughulikiwe kupitia mazoezi ambayo hayana msingi katika theolojia ya Kiislamu lakini ambayo jamii inachukulia kuwa muhimu kwa ustawi wa walio hai na wa wafu."
+            },
+            {
+              "type": "heading",
+              "text": "Sadaka ya Damu na Mstari wa Mageuzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda hatua kali zaidi ya mvutano kati ya Uislamu wa Kidigo na mazoezi ya kawaida ni swali la sadaka ya damu. Hali ya kiroho ya jadi ya Kidigo inahitaji sadaka ya wanyama katika sherehe za kaya, wakati wa kufukuza roho, katika taratibu za kusafisha za msimu (*matambiko*), na wakati muhimu wa maisha ya jamii. Mbuzi au kuku anachinjwa, damu yake inatolewa kwa roho, na nyama yake inagawanywa miongoni mwa washiriki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Waislamu wa mageuzi wanalaani mazoezi haya bila shaka kama *shirk* — dhambi isiyosameheka ya kumshirikisha Mungu na wengine. Kutoa sadaka ya mnyama kwa roho au babu badala ya kwa Allah ni, kwa msomaji wao, ukiukaji wa msingi wa *tawhid*. Watendaji wa jadi wanajibu kwamba sadaka si ibada ya roho bali njia ya mawasiliano — sadaka inayodumisha uhusiano kati ya walio hai na wasioonekana. Roho si miungu; ni nguvu ambazo lazima zisimamiwe, na sadaka ni teknolojia ya usimamizi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutokubaliana huku si dhahania. Katika vijiji kote Kaunti ya Kwale na eneo la mpaka wa Tanzania, familia zinagawanyika kuhusu iwapo kushiriki katika sherehe za kaya zinazojumuisha sadaka ya damu. Swali linagusa kiini cha maana ya kuwa Mdigo na Mwislamu kwa wakati mmoja."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe ya Uponyaji ya Kayamba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya uponyaji ya Kayamba, iliyorekodiwa Golini katika Kaunti ya Kwale, ni mfano mkuu wa Uislamu wa Kidigo katika mazoezi. Sherehe inashughulikia kumilikiwa na roho — *mashetani* — kwa kutumia mchanganyiko wa vipengele vya jadi na Kiislamu ambavyo haviwezi kueleweka katika mapokeo yoyote peke yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* anaongoza sherehe, akitumia kayamba na ngoma kuvuta na kuwasiliana na roho inayomiliki. Roho tofauti zinajibu nyimbo tofauti — \"finding the right chant is like unlocking a hidden door,\" kama mtendaji mmoja alivyoelezea. Baadhi ya roho zinaaminika kutoka ulimwengu wa Kiarabu (*Mwarabu*), nyingine kutoka jamii za Kiafrika za jirani, na mbinu ya muziki na taratibu lazima irekebishwe kulingana na asili ya roho. Dua za Kiarabu zinakaa pamoja na nyimbo za Kidigo. Aya za Kurani zinasomwa katika sherehe ile ile ambayo ina ngoma na hali za ndoto ambazo Uislamu wa mageuzi ungezilani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe inawakilisha kile watendaji wanachoita \"a dialogue between the living and the unseen\" — mazungumzo yanayofanywa katika lugha nyingi za kiroho kwa wakati mmoja. Ni, kwa ufupi, mfumo mzima wa kidini wa Kidigo: wa Kiislamu na wa jadi, wa Kiarabu na wa Kidigo, msikiti na kaya, yanafanya kazi pamoja katika mazoezi moja yaliyounganishwa."
+            },
+            {
+              "type": "heading",
+              "text": "Maulidi: Uislamu kwa Lafudhi ya Kidigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya Maulidi — kuzaliwa kwa Mtume Muhammad — inafunua jinsi Wadigo walivyofanya mazoezi ya Kiislamu kuwa yao. Kando ya pwani ya Kenya, Maulidi inaadhimishwa kwa sherehe za siku nyingi zenye *kasida* (nyimbo za ibada), mashairi ya kidini, maandamano, karamu za jamii, na mafundisho ya kidini. Wadigo wanashiriki katika sherehe hizi za pwani, lakini uchunguzi wao una vipengele tofauti vya Kidigo: vyakula maalum, mitindo maalum ya muziki, na joto la jamii linaloonyesha thamani za kijamii za Kidigo kama ilivyo ibada ya Kiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maulidi yenyewe ni hatua ya mgogoro na Uislamu wa mageuzi. Wahubiri wa Kisalafi wanalaani sherehe hiyo kama *bid'ah* — uvumbuzi usio na msingi katika mazoezi ya Mtume mwenyewe au katika Kurani. Kwa Waislamu wa jadi wa Kidigo, laana hii inagusa kitu cha kibinafsi sana: Maulidi si tu ibada ya kidini bali sherehe ya jamii, mkutano unaoimarisha uhusiano wa kijamii na kuonyesha utambulisho wa pamoja. Kuondoa Maulidi ni, kwa muktadha wa Kidigo, kupunguza mwelekeo wa jumuia wa imani — kufanya Uislamu kuwa jambo la uchamungu wa mtu binafsi badala ya furaha ya pamoja."
+            },
+            {
+              "type": "heading",
+              "text": "Changamoto ya Mageuzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tangu mwishoni mwa karne ya 20, Uislamu wa mageuzi — unaoenezwa na wahubiri waliofunzwa Medina, kufadhiliwa na taasisi za Ghuba, na kuongezwa na televisheni ya satelaiti na mitandao ya kijamii — umesimamisha changamoto inayozidi kuwa kali kwa Uislamu wa Kidigo. Msimamo wa mageuzi ni wazi kiteolojia: *tawhid* hairuhusu maelewano. Imani za roho ni ushirikina. Mazoezi ya mganga ni ulaghai au, mbaya zaidi, *shirk*. Sherehe za kaya ni masalio ya kipagani. Maulidi ni uvumbuzi. Uislamu pekee halisi ni Uislamu wa Kurani na Sunna, ulioondolewa uchafu wa kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgawanyiko mara nyingi unafuata mistari ya kizazi. Vijana wa Wadigo ambao wamepokea elimu rasmi ya Kiislamu, kusafiri hadi Mombasa au Nairobi, au kuathiriwa na uhubiri unaoshawishiwa na Ghuba wana uwezekano mkubwa zaidi wa kupitisha misimamo ya mageuzi. Wadigo wakubwa, hasa wale wenye uhusiano wa karibu na utawala wa kaya, wanatetea mapokeo ya mchanganyiko kama usemi halisi wa utambulisho wa Wadigo Waislamu. Mvutano si wa kitheolojia tu bali wa kisiasa: unagusa maswali ya mamlaka — nani anazungumza kwa niaba ya jamii? Imamu aliyefunzwa Medina, au mzee wa kaya aliyerithi nafasi yake kupitia nasaba ya mababu?"
+            },
+            {
+              "type": "heading",
+              "text": "Si Mgongano Wala Mkanganyiko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa waangalizi wa nje — iwe Waislamu wa mageuzi, wamisionari wa Kikristo, au wasomi wa Magharibi — Uislamu wa Kidigo unaweza kuonekana kupingana. Mtu anawezaje kuamini umoja kamili wa Mungu na pia kuamini roho za mababu? Jamii inawezaje kufuata Kurani na pia kufanya sadaka za damu katika vichaka vitakatifu? Jibu la Wadigo, linalojumuishwa katika mazoezi yao ingawa si daima linaloelezwa katika theolojia yao, ni kwamba hizi si kupingana bali nyanja zinazokamilishana za ukweli mmoja. Allah anatawala ulimwengu. Roho zinaishi katika mazingira ya karibu. Kurani inazungumza na roho ya milele. Mganga anashughulikia mwili ulioathirika. Msikiti ni wa Ijumaa. Kaya ni ya wakati mvua zinaposhindwa na jamii inahitaji kitu cha zamani zaidi kuliko kitabu chochote."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si mkanganyiko. Ni mafanikio ya kitamaduni ya kisasa — mfumo wa kidini uliojengwa kwa karibu karne mbili za mazungumzo ya uangalifu kati ya mapokeo mawili yenye nguvu. Uislamu wa Kidigo si kushindwa kuwa Mwislamu wa kweli. Ni njia ya Kidigo ya kuwa Mwislamu, na imesaidia jamii kupitia utawala wa kikoloni, uhuru, kisasa, na shinikizo zisizo na mwisho za karne ya 21."
             }
           ],
           "dig": [
@@ -1856,6 +2684,98 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uislamu wa Chidigo si kushindwa kukala Muislamu wa kpweli. Ni njira ya Adigo ya kukala Muislamu, na imesaidia jamii kupitsha utawala wa chikoloni, uhuru, kisasa, na mashinikizo ga karne ya ishirini na mwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Msamiati uwo maradufu si wa chilugha tu. Unaonyesha ulimwengu maradufu wa kidhana. Mzungumzaji wa Chidigo anaphohumira neno *swala*, anahenda kazi kpwa eneo ra Chiislamu — swala inayoelekezwa kpwa Allah, inayohendwa kpwa Chiarabu, ikifuata aina zirizowekwa. Mzungumzaji uwo uwo anaphohumira neno *koma*, amebadili kwenda eneo ra chimila — ulimwengu wa roho za avyere a kare zinazodai uangalifu kpwa Chidigo, kupitshi taratibu zinazotangulia Mtume kpwa milenia. Ukpweli kukala mzungumzaji mmwenga anasogea kpwa ufasaha kahi ya msamiati uwo kpwa mazungumzo mwenga — wakati mwinjine kpwa sentensi mwenga — ni ushahidi wa wazi zaidi wa jinsi mifumo iyo miiri irivyounganishwa kpwa china."
+            },
+            {
+              "type": "heading",
+              "text": "Taratibu za Mzunguko wa Maisha: Athari ya Tabaka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Asili ya mchanganyiko ya Uislamu wa Chidigo inaonekana zaidi kpwa taratibu za mzunguko wa maisha, ambapho vipengele vya Chiislamu na vya chimila vinawekwa tabaka dzulu ya nyinjina kpwa mpangilio ambao jamii imesafisha kpwa vizazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mtoto anaphovyalwa, chitendo cha kpwandza cha ulinzi ni cha chimila: *mganga* anahumira taratibu za kumlinda mtoto kutokana na litso bii na roho mbii. Phapho chinakpwedza chitabaka cha Chiislamu: *imam* anasoma *adhan* sikioni mwa mtoto mutsanga, na mtoto anaphewa dzina ra Chiislamu. Ulinzi wosi unachukuliwa kukala muhimu. Wala mwenga peke yakpwe taitoshi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa ndoa, sherehe ya *nikah* ya Chiislamu — mkataba rasmi wa ndoa, unaoshuhudiya na kusajiliwa — unatoa mfumo wa kisheria na chidini. Ela vipengele vya chimila vinadumu: mazungumzo ga mahari, baraka za avyere a kaya, vyakula na ngoma maalum zinazo henda harusi ya Chidigo kukala ya Chidigo badala ya Chiislamu kpwa ujumla. Nikah inatoa, dza mwanaetnografia mmwenga arivyobainisha, \"the highest prestige on women,\" ela taibadilishi uwajibikaji wa chimila wa undugu na jamii zinazodzikiiiya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa chifo, mazoezi ga mazishi ga Chiislamu ganatawala: mwiri unaoshwa, kufungwa kpwa chitambaa cheupe, na kuzikwa kuelekea Mecca, kawaida ndani ya masaa 24. Ela kipindi cha maombolezo na uwajibikaji kpwa marehemu vinategemea mapokeo gosi mairi. Roho ya marehemu — *koma* — lazima ishughulikiwe kupitshi mazoezi ambago tagana msingi kpwa theolojia ya Chiislamu ela ambago jamii inachukulia kukala muhimu kpwa ustawi wa ario moyo na afu."
+            },
+            {
+              "type": "heading",
+              "text": "Sadaka ya Damu na Mstari wa Mageuzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda hatua kali zaidi ya mvutano kahi ya Uislamu wa Chidigo na mazoezi ga kawaida ni swali ra sadaka ya damu. Hali ya chiroho ya chimila ya Chidigo inahitaji sadaka ya anyama kpwa sherehe za kaya, wakati wa kufukuza roho, kpwa taratibu za kusafisha za musimu (*matambiko*), na wakati muhimu wa maisha ga jamii. Mbuzi au kuku anachinjwa, damu yakpwe inatolewa kpwa roho, na nyama yakpwe inagawanywa kahi ya ashiriki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aislamu a mageuzi analaani mazoezi gaga bila shaka dza *shirk* — dhambi isiyosameheka ya kumshirikisha Mulungu na anjine. Kutoa sadaka ya nyama kpwa roho au mvyere badala ya kpwa Allah ni, kpwa msomaji ao, ukiukaji wa msingi wa *tawhid*. Atendaji a chimila anadzibu kukala sadaka si ibada ya roho ela njira ya mawasiliano — sadaka inayodumisha uhusiano kahi ya ario moyo na asio onekana. Roho si miungu; ni nguvu ambazo lazima zisimamiwe, na sadaka ni teknolojia ya usimamizi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutokubaliana kuno si dhahania. Kpwa vidzi kosi Kaunti ya Kwale na eneo ra mphaka wa Tanzania, mbari zinagawanyika kuhusu iwapo kushiriki kpwa sherehe za kaya zinazojumuisha sadaka ya damu. Swali rinagusa chiini cha maana ya kukala Mudigo na Muislamu kpwa wakati mmwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe ya Uphonyaji ya Kayamba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya uphonyaji ya Kayamba, iriyorekodiwa Golini kpwa Kaunti ya Kwale, ni mfwano mkulu wa Uislamu wa Chidigo kpwa mazoezi. Sherehe inashughulikia kumilikiwa ni roho — *mashetani* — kpwa kuhumira mchanganyiko wa vipengele vya chimila na Chiislamu ambavyo taviwezi kueleweka kpwa mapokeo yoyosi peke yakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* anaongoza sherehe, akihumira kayamba na ngoma kuvuta na kuwasiliana na roho inayomiliki. Roho tofauti zinadzibu nyimbo tofauti — \"finding the right chant is like unlocking a hidden door,\" dza mtendaji mmwenga arivyoelezea. Bazi ya roho zinaaminika kutoka ulimwengu wa Chiarabu (*Mwarabu*), zinjine kula jamii za Chiafrika za phephi, na mbinu ya muziki na taratibu lazima irekebishwe kulingana na asili ya roho. Dua za Chiarabu zinakala phamwenga na nyimbo za Chidigo. Aya za Kurani zinasomwa kpwa sherehe ire ire ambayo ina ngoma na hali za ndoto ambazo Uislamu wa mageuzi ungezilani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe inawakilisha chirichohiwa ni atendaji \"a dialogue between the living and the unseen\" — mazungumzo ganago hendwa kpwa lugha nyinji za chiroho kpwa wakati mmwenga. Ni, kpwa ufupi, mfumo mzima wa chidini wa Chidigo: wa Chiislamu na wa chimila, wa Chiarabu na wa Chidigo, msikiti na kaya, ganahenda kazi phamwenga kpwa mazoezi mwenga garigounganishwa."
+            },
+            {
+              "type": "heading",
+              "text": "Maulidi: Uislamu kpwa Lafudhi ya Chidigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya Maulidi — kuzawa kpwa Mtume Muhammad — inafunula jinsi Adigo arivyohenda mazoezi ga Chiislamu kukala gao. Kando ya pwani ya Kenya, Maulidi inaadhimishwa kpwa sherehe za siku nyinji zenye *kasida* (nyimbo za ibada), mashairi ga chidini, maandamano, karamu za jamii, na mafundisho ga chidini. Adigo anashiriki kpwa sherehe izo za pwani, ela uchunguzi wao una vipengele tofauti vya Chidigo: vyakula maalum, mitindo maalum ya muziki, na dzoto ra jamii rinaloonyesha thamani za chijamii za Chidigo dza irivyo ibada ya Chiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maulidi yenye ni hatua ya mgogoro na Uislamu wa mageuzi. Wahubiri wa Chisalafi analaani sherehe iyo dza *bid'ah* — uvumbuzi usio na msingi kpwa mazoezi ga Mtume mwenye au kpwa Kurani. Kpwa Aislamu a chimila a Chidigo, laana iyo inagusa chitu cha kibinafsi sana: Maulidi si tu ibada ya chidini ela sherehe ya jamii, mkutano unaomarimisha uhusiano wa chijamii na kuonyesha utambulisho wa phamwenga. Kuondoa Maulidi ni, kpwa muktadha wa Chidigo, kupunguza mwelekeo wa jumuia wa imani — kuhenda Uislamu kukala dzambo ra uchamungu wa mutu binafsi badala ya furaha ya phamwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Changamoto ya Mageuzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hangu mwisho wa karne ya ishirini, Uislamu wa mageuzi — unaoenezwa ni wahubiri ariofunzwa Madina, kufadhiliwa ni taasisi za Ghuba, na kuongezwa ni televisheni ya satelaiti na mitandao ya chijamii — usimamisha changamoto inayozidi kukala kali kpwa Uislamu wa Chidigo. Msimamo wa mageuzi ni wazi chitheolojia: *tawhid* tairuhusiye maelewano. Imani za roho ni ushirikina. Mazoezi ga mganga ni ulaghai au, mbaya zaidi, *shirk*. Sherehe za kaya ni masalio ga chipagani. Maulidi ni uvumbuzi. Uislamu pekee halisi ni Uislamu wa Kurani na Sunna, uriondolewa uchafu wa chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgawanyiko mara nyinji unafuata mistari ya chizazi. Avyanache a Adigo ambao amepokea elimu rasmi ya Chiislamu, kusafiri hadi Mombasa au Nairobi, au kuathiriwa ni uhubiri unaoushawishiwa ni Ghuba ana uwezekano mukulu zaidi wa kupishisha misimamo ya mageuzi. Adigo avyere, hasa ario na uhusiano wa phephi na utawala wa kaya, anatetea mapokeo ga mchanganyiko dza usemi halisi wa utambulisho wa Adigo Aislamu. Mvutano si wa chitheolojia tu ela wa chisiasa: unagusa maswali ga mamlaka — ani anazungumza kpwa niaba ya jamii? Imamu ariyefunzwa Madina, au mvyere wa kaya ariyerithi nafasi yakpwe kupitshi nasaba ya avyere a kare?"
+            },
+            {
+              "type": "heading",
+              "text": "Si Mgongano Wala Mkanganyiko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa aangalizi a ndze — ikale Aislamu a mageuzi, amisionari a Chikristo, au asomi a Chimagharibi — Uislamu wa Chidigo unaweza kuonekana kupingana. Mutu anawezadze kuamini umoja kamili wa Mulungu na piya kuamini roho za avyere a kare? Jamii inawezadze kufuata Kurani na piya kuhenda sadaka za damu kpwa vichaka vitakatifu? Dzibu ra Adigo, rinajumuishwa kpwa mazoezi gao ingawa si kare kare rinaelezwa kpwa theolojia yao, ni kukala hizi si kupingana ela nyanja zinazokamilishana za ukpweli mmwenga. Allah anatawala ulimwengu. Roho zinaishi kpwa mazingira ga phephi. Kurani inazungumza na roho ya milele. Mganga anashughulikia mwiri urioathirika. Msikiti ni wa Ijumaa. Kaya ni ya wakati mvula zinapho shindwa na jamii inahitaji chitu cha zamani zaidi kuliko chitabu chochosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri si mkanganyiko. Ni mafanikio ga chimila ga kisasa — mfumo wa chidini uriojengwa kpwa phephi karne mbiri za mazungumzo ga uangalifu kahi ya mapokeo mairi genye nguvu. Uislamu wa Chidigo si kushindwa kukala Muislamu wa kpweli. Ni njira ya Chidigo ya kukala Muislamu, na imesaidia jamii kupitsha utawala wa chikoloni, uhuru, kisasa, na mashinikizo gasigo na mwisho ga karne ya ishirini na mwenga."
             }
           ]
         }
@@ -2027,6 +2947,78 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uislamu wa Wadigo haukuwa mapumziko safi na zamani wala kupitishwa kwa juu juu kwa lebo mpya. Ilikuwa mchakato wa kina wa mazungumzo ya kitamaduni ambapo Wadigo walichukua mazoezi ya Kiislamu huku wakihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa mababu. Roho za koma hazikutoweka kwa sababu Wadigo walianza kumwomba Allah. Mganga hakufunga kazi yake kwa sababu imam alifungua msikiti. Kaya haikupoteza nguvu yake takatifu kwa sababu mnara uliinuka karibu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya vichocheo vyenye nguvu zaidi vya ubadilishaji ilikuwa mganga wa Kiislamu. Wadigo tayari walikuwa wanaelewa ugonjwa kama wenye mwelekeo wa kimwili na wa kiroho, na mapokeo ya *mganga* yalitoa mfumo wa utambuzi na matibabu ya kiroho. Waganga wa Kiislamu walipofika wakitoa *dua* (sala za dua) na *hirizi* (hirizi za kinga zilizo na aya za Kurani), hawakuanzisha dhana ya kigeni. Walikuwa wanatoa teknolojia shindani ndani ya dhana inayofahamika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvuto ulikuwa wa kimatendo. Ikiwa familia ya Kidigo ilikuwa imejaribu dawa za jadi kwa ugonjwa wa mtoto bila mafanikio, sala na hirizi za mganga wa Kiislamu zilitoa mbadala — moja iliyoungwa mkono na heshima ya kusoma na kuandika, mamlaka ya maandiko yaliyoandikwa, na nguvu inayochukuliwa ya Kiarabu kama lugha takatifu. Ubadilishaji mara nyingi ulifuata uponyaji uliofanikiwa. Mganga akawa mwalimu, mgonjwa akawa mwanafunzi, na familia polepole ilipitisha mazoezi ya Kiislamu. Ubadilishaji huu wa chini kwenda juu, unaoendeshwa na waganga, ulikuwa na ufanisi zaidi kuliko kampeni yoyote ya kimisheni ya juu kwenda chini na unaelezea kwa nini Uislamu ulienea kwa kina katika maisha ya kila siku ya Kidigo badala ya kubaki uhusiano wa kisiasa wa juu."
+            },
+            {
+              "type": "heading",
+              "text": "Kinga Dhidi ya Uchawi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Inayohusiana kwa karibu na mienendo ya uponyaji ilikuwa nguvu ya Uislamu inayochukuliwa dhidi ya uchawi. Hofu ya uchawi — *uchawi* — ilikuwa na inabaki kuwa wasiwasi ulioenea katika maisha ya Wadigo. Imani kwamba watu waovu wanaweza kusababisha ugonjwa, kifo, au msiba kupitia njia za kiroho imejikita kwa kina katika kosmolojia ya Kidigo. Kinga ya jadi dhidi ya uchawi ilihusisha *mganga*, lakini *mwalimu* (mwalimu/mganga) wa Kiislamu alitoa chanzo mbadala cha kinga: hirizi za Kurani, sala, na mamlaka ya kiroho ya Mungu mmoja ambaye nguvu yake iliaminika kuzidi ile ya roho za ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa Wadigo wengi, kubadilika kuwa Mwislamu haikuwa hasa kuhusu imani ya kitheolojia. Ilikuwa kuhusu kupata njia yenye nguvu zaidi ya kinga ya kiroho. Kurani ilionekana kama maandishi yenye nguvu kubwa sana — si tu kwa sababu ya maudhui yake bali kwa sababu ya kitendo chenyewe cha kuandika, ambacho kilipata heshima kubwa katika utamaduni uliokuwa wa mdomo hasa. Aya ya Kurani iliyoandikwa kwenye karatasi, kuoshwa na maji, na kunywa kama dawa iliunganisha teknolojia za kusoma na kuandika, sala ya Kiislamu, na uponyaji wa jadi katika kitendo kimoja."
+            },
+            {
+              "type": "heading",
+              "text": "Wanawake na Haki za Mali"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ratiba ya Uislamu wa Wadigo inafunua pengo muhimu la kijinsia. Hadi 1920, ripoti ya kikoloni ilibainisha kwamba \"few Digo women were Muslim.\" Wanaume walikuwa wamebadilika kwa wingi kupitia mitandao ya biashara na uhusiano na waganga, lakini ubadilishaji wa wanawake ulichelewa kwa miongo kadhaa. Hatua ya mabadiliko ilikuja katikati ya karne ya 20, ikiendeshwa kwa kiasi kikubwa na masharti ya sheria ya Kiislamu kuhusu urithi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chini ya sheria ya kimila ya Kidigo, haki za mali za wanawake zilikuwa chache na zilipatanishwa kupitia jamaa wa kiume. Sheria ya *sharia* ya Kiislamu, hata ikitumika kwa njia isiyo kamili, ilitoa sehemu maalum za urithi kwa wanawake — mke hupokea moja ya nane ya mali ya mume wake, binti nusu ya sehemu ya mtoto wa kiume. Kwa wanawake wa Kidigo, hasa wajane na mabinti katika migogoro kuhusu ardhi na mali, kubadilika kuwa Mwislamu ilikuwa mkakati wa kisheria kama ilivyokuwa chaguo la kiroho. Kwa kudai utambulisho wa Kiislamu, mwanamke angeweza kuomba mamlaka ya mahakama ya *kadhi* na kupata haki za urithi ambazo sheria ya kimila ilimzuilia. Ubadilishaji wa wingi wa wanawake wa Kidigo kuanzia miaka ya 1940 kuendelea ulikamilisha Uislamu wa jamii na kufanya Uislamu kuwa utambulisho wa kweli wa kila Mdigo badala ya uhusiano wa wanaume tu wa mjini."
+            },
+            {
+              "type": "heading",
+              "text": "Kutoka Utumwa wa Deni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kichocheo kingine cha ubadilishaji, kisichojadiliwa sana lakini muhimu kihistoria, kilikuwa mfumo wa *kore* wa utumwa wa deni. Katika uchumi wa Kidigo wa kabla na wakati wa ukoloni, watu walioanguka katika deni wangeweza kuwa wafungwa kwa wadeni wao, wakikaa katika hali kati ya mtu huru na mtumwa. Kubadilika kuwa Mwislamu kulitoa njia ya kutoka katika mfumo huu. Jamii za Kiislamu zilitarajiwa kuwachukulia waumini wenzao kwa wajibu wa udugu wa kidini, na uhusiano wa *kore* ulikuwa mgumu kudumishwa wakati pande zote mbili zilikuwa Waislamu. Kwa baadhi ya Wadigo, Uislamu ulikuwa kweli kweli theolojia ya ukombozi — si kwa maana ya kitaaluma ya kidhana, bali kwa ukweli halisi wa kutoka utumwani."
+            },
+            {
+              "type": "heading",
+              "text": "Kujenga Misikiti: Mwishoni mwa Karne ya 19"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufikia mwishoni mwa karne ya 19, Wadigo walikuwa wamehamia kutoka kuwa wapokeaji wa ushawishi wa Kiislamu kwenda kuwa mawakala hai wa kuenezwa kwake. Jamii za Wadigo zilikuwa zinajenga misikiti yao wenyewe — si katika miji ya pwani bali katika vijiji vyao vya nyumbani. Hii ilikuwa maendeleo ya ajabu. Msikiti ulibadilisha kaya kama kituo cha mkutano wa jamii, ingawa makaya yalihifadhi umuhimu wao wa kiroho. Waislamu wa Kidigo pia walikuwa wakiwahubiri makundi jirani ya Kimijikenda, wakiwafanya kuwa watu pekee wa Kimijikenda walioeneza Uislamu kwa ndugu zao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ujenzi wa misikiti ya vijiji ulikuwa hatua ambapo Uislamu uliacha kuwa bidhaa ya kigeni na kuwa taasisi ya asili ya Kidigo. Imamu alikuwa mtu wa Kidigo, si Mwarabu au Mswahili wa nje. Hotuba zilisomwa kwa Kidigo, si Kiarabu. Mdundo wa mazoezi ya Kiislamu — sala tano za kila siku, mkutano wa Ijumaa, mfungo wa Ramadhani — ulisukwa katika kalenda ya kilimo na uvuvi ambayo ilikuwa ikiongoza maisha ya Wadigo daima."
+            },
+            {
+              "type": "heading",
+              "text": "Kufuatwa na Karibu Wote: Miaka ya 1940 Kuendelea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufikia miaka ya 1940, Wadigo wengi walikuwa Waislamu, na kufikia katikati ya karne ya 20, takwimu ilikaribia ulimwengu wote. Waliobaki mwisho kwa kawaida walikuwa wanawake wazee katika vijiji vya mbali waliotunza mazoezi ya jadi, na hata wengi wa hawa walikuwa na utambulisho wa Kiislamu wa jina. Ukristo, licha ya juhudi za mfululizo za kimisheni tangu Johann Ludwig Krapf alipoanzisha misheni ya CMS huko Rabai mwaka 1844, hakupata nguvu kubwa. Sababu zilikuwa nyingi: Uislamu ulikuwa umefika kwanza na kuenea kwa njia ya asili kupitia biashara na uponyaji; wamisionari wa Kikristo walihusishwa na ukoloni; na muundo wa kijamii wa Kidigo, ambapo utambulisho wa pamoja ulikuwa muhimu zaidi kuliko chaguo la mtu binafsi, ulimaanisha kwamba mara wingi muhimu ulibadilika, shinikizo la kijamii liliendesha waliobaki."
+            },
+            {
+              "type": "heading",
+              "text": "Kilichopatikana na Kilichohifadhiwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uislamu wa Wadigo haukuwa mapumziko safi na zamani wala kupitishwa kwa juu juu kwa lebo mpya. Ilikuwa mchakato wa kina, wa karne moja, wa mazungumzo ya kitamaduni ambapo Wadigo walichukua mazoezi ya Kiislamu, msamiati, mifumo ya kisheria, na dhana za kiroho huku wakihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa mababu. Roho za koma hazikutoweka kwa sababu Wadigo walianza kumwomba Allah. Mganga hakufunga kazi yake kwa sababu imamu alifungua msikiti. Kaya haikupoteza nguvu yake takatifu kwa sababu mnara uliinuka karibu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kilichoibuka kilikuwa kitu kipya — si Kiislamu tu wala si kimila tu, bali ni cha Kidigo kwa njia ya kipekee. Ratiba ya Uislamu si tu masimulizi ya kihistoria. Ni hadithi ya asili ya mfumo wa kidini unaofafanua maisha ya Kidigo leo: mfumo ambapo mtu mmoja anaweza kuwa, bila kupingana, Mwislamu mwaminifu na mwaminiano wa roho za mababu, mwenda msikitini na mteja wa mganga, msomaji wa Kurani na mshiriki wa sherehe za kaya. Kuelewa jinsi mfumo huu ulivyokuja kuwa ni muhimu kuelewa ni nini."
             }
           ],
           "dig": [
@@ -2069,6 +3061,78 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uislamu wa Adigo taukala mapumziko masafi na zamani wala kupitishwa kpwa dzulu dzulu kpwa lebo mpya. Ukala mchakato wa kina wa mazungumzo ga chimila ambapo Adigo achukua mazoezi ga Kiislamu huku anahifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa avyere a kare. Roho za koma tazizatoweka kpwa sababu Adigo aandza kumwomba Allah. Mganga kayafunga kazi yakpwe kpwa sababu imam afungula msikiti. Kaya taiyapoteza nguvu yakpwe takatifu kpwa sababu mnara uinuka phephi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwenga wa vichocheo vyenye nguvu zaidi vya kubadilika ukala mganga wa Chiislamu. Adigo tayari akala anaelewa ukongo dza wenye mwelekeo wa chimwili na wa chiroho, na chimila za *mganga* zitoa mfumo wa utambuzi na matibabu ga chiroho. Aganga a Chiislamu ariphofika akitoa *dua* (swala za dua) na *hirizi* (hirizi za kinga zenye aya za Kurani), taarianzisha dhana ya chijeni. Akala anatoa teknolojia shindani ndani ya dhana inayofahamika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvuto ukala wa chitendo. Ikala mbari ya Chidigo irikala imejaribu dawa za chimila kpwa ukongo wa mtoto bila mafanikio, swala na hirizi za mganga wa Chiislamu zitoa mbadala — mwenga urioungwa mkono ni ishima ya kusoma na kuandika, mamlaka ya maandishi gariyoandikwa, na nguvu inayochukuliwa ya Chiarabu dza lugha takatifu. Kubadilika mara nyinji kurifuata uphonyaji uriofanikiwa. Mganga akala mwalimu, mugonjwa akala mwanafunzi, na mbari pore-pore iripishisha mazoezi ga Chiislamu. Kubadilika kuno kpwa chini kwenda dzulu, kunakoendeshwa ni aganga, kukala kpwa ufanisi zaidi kuliko kampeni yoyosi ya chimisheni ya dzulu kwenda chini na kunaelezea kpwa nini Uislamu urienea kpwa china kpwa maisha ga chila siku ga Chidigo badala ya kusala uhusiano wa chisiasa wa dzulu."
+            },
+            {
+              "type": "heading",
+              "text": "Kinga Dhidi ya Uchawi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Inayohusiana kpwa phephi na mienendo ya uphonyaji yakala nguvu ya Uislamu inayochukuliwa dhidi ya uchawi. Uoga wa uchawi — *uchawi* — ukala na unasala kukala wasiwasi urioenea kpwa maisha ga Adigo. Imani kukala atu abaya anaweza kusababisha ukongo, chifo, au msiba kupitshi njira za chiroho imedzikita kpwa china kpwa kosmolojia ya Chidigo. Kinga ya chimila dhidi ya uchawi irihusisha *mganga*, ela *mwalimu* (mwalimu/mganga) wa Chiislamu aritoa chanzo mbadala cha kinga: hirizi za Kurani, swala, na mamlaka ya chiroho ya Mulungu mmwenga ambaye nguvu yakpwe iriaminika kuzidi ire ya roho za phephi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa Adigo anji, kubadilika kukala Muislamu taikala hasa kuhusu imani ya chitheolojia. Yakala kuhusu kupata njira yenye nguvu zaidi ya kinga ya chiroho. Kurani yonekana dza maandishi genye nguvu kulu sana — si tu kpwa sababu ya maudhui gakpwe ela kpwa sababu ya chitendo chenyewe cha kuandika, ambacho chiripata ishima kulu kpwa utamaduni uriokuwa wa mdomo hasa. Aya ya Kurani iriyoandikwa kpwa karatasi, kuoshwa na madzi, na kunywewa dza dawa irunganisha teknolojia za kusoma na kuandika, swala ya Chiislamu, na uphonyaji wa chimila kpwa chitendo chimwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Achetu na Haki za Mali"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ratiba ya Uislamu wa Adigo inafunula pengo muhimu ra kijinsia. Hadi 1920, ripoti ya chikoloni iribainisha kukala \"few Digo women were Muslim.\" Alume akala amebadilika kpwa unji kupitshi mitandao ya chibiashara na uhusiano na aganga, ela kubadilika kpwa achetu kurichelewa kpwa miaka mirongo kadhaa. Hatua ya mabadiliko yakpwedza katikati ya karne ya ishirini, ikiendeshwa kpwa kiasi kikulu ni masharti ga sheria ya Chiislamu kuhusu urithi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chini ya sheria ya chimila ya Chidigo, haki za mali za achetu zakala chache na zipatanishwa kupitshi jamaa a chilume. Sheria ya *sharia* ya Chiislamu, hata ikitumika kpwa njira isiyo kamili, iritoa sehemu maalum za urithi kpwa achetu — muche anapokea mwenga wa manane ya mali ya mulume wakpwe, binti nusu ya sehemu ya mwana a chilume. Kpwa achetu a Chidigo, hasa ajane na ana a chichetu kpwa malongo kuhusu ardhi na mali, kubadilika kukala Muislamu yakala mkakati wa kisheria dza irivyokala chaguo ra chiroho. Kpwa kudai utambulisho wa Chiislamu, mche angeweza kuomba mamlaka ya mahakama ya *kadhi* na kupata haki za urithi ambazo sheria ya chimila yazimzuiya. Kubadilika kpwa unji kpwa achetu a Chidigo kuandza miaka ya 1940 kuenderera kurikamilisha Uislamu wa jamii na kuhenda Uislamu kukala utambulisho wa kpweli wa chila Mudigo badala ya uhusiano wa alume tu a mudzini."
+            },
+            {
+              "type": "heading",
+              "text": "Kutoka Utumwa wa Deni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kichocheo chinjina cha kubadilika, chisichojadiliwa sana ela muhimu chihistoria, chirikala mfumo wa *kore* wa utumwa wa deni. Kpwa uchumi wa Chidigo wa kabila na wakati wa ukoloni, atu arioangu kpwa deni angeweza kukala afungwa kpwa wadeni ao, akikala kpwa hali kahi ya mutu huru na mtumwa. Kubadilika kukala Muislamu kuritoa njira ya kutoka kpwa mfumo uwo. Jamii za Chiislamu ziritarajiwa kuachukukulia aumini enzi ao kpwa uwajibikaji wa undugu wa chidini, na uhusiano wa *kore* ukala mgumu kudumisha wakati pande zosi mbiri zakala Aislamu. Kpwa bazi ya Adigo, Uislamu ukala kpweli kpweli theolojia ya ukombozi — si kpwa maana ya chitaaluma ya kidhana, ela kpwa ukpweli halisi wa kutoka utumwani."
+            },
+            {
+              "type": "heading",
+              "text": "Kudzenga Misikiti: Mwisho wa Karne ya Kumi na Tisiya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufika mwisho wa karne ya kumi na tisiya, Adigo akala amehamia kula kukala apokeaji a ushawishi wa Chiislamu kwenda kukala mawakala a uhai a kuenezwa kwakpwe. Jamii za Adigo zakala zinadzenga misikiti yao enye — si kpwa midzi ya pwani ela kpwa vidzi vyao vya kaya. Hiri ririkala maendeleo ga ajabu. Msikiti uribadilisha kaya dza chituo cha mkutano wa jamii, ingawa makaya gahifadhi umuhimu wao wa chiroho. Aislamu a Chidigo piya akala anahubiri makundi ga phephi ga Chimijikenda, akiahenda kukala atu pekee a Chimijikenda arioeneza Uislamu kpwa ndugu zao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ujenzi wa misikiti ya vidzi ukala hatua ambapho Uislamu uriacha kukala bidhaa ya chijeni na kukala taasisi ya asili ya Chidigo. Imamu akala mutu wa Chidigo, si Mwarabu au Mswahili wa ndze. Hotuba zisomwa kpwa Chidigo, si Chiarabu. Mdundo wa mazoezi ga Chiislamu — swala tsano za chila siku, mkutano wa Ijumaa, mfungo wa Ramadhani — urisukwa kpwa kalenda ya ukulima na uvuvi ambayo yakala ikiongoza maisha ga Adigo kare kare."
+            },
+            {
+              "type": "heading",
+              "text": "Kufuatwa ni Phephi Osi: Miaka ya 1940 Kuenderera"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufika miaka ya 1940, Adigo anji akala Aislamu, na kufika katikati ya karne ya ishirini, takwimu yafika phephi na osi. Ariobaki mwisho kpwa kawaida akala achetu avyere kpwa vidzi vya kure ariotunza mazoezi ga chimila, na hata anji a hawa akala na utambulisho wa Chiislamu wa dzina. Ukristo, licha ya juhudi za mfululizo za chimisheni hangu Johann Ludwig Krapf ariphokianzisha misheni ya CMS kuko Rabai mwaka 1844, tairipata nguvu kulu. Sababu zakala nyinji: Uislamu urikala umefika kpwandza na kuenea kpwa njira ya asili kupitshi chibiashara na uphonyaji; amishionari a Chikristo arihusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga ukala muhimu zaidi kuliko chaguo ra mutu binafsi, urimaanisha kukala mara unji muhimu uribadilika, mashinikizo ga chijamii gariendesha ariobaki."
+            },
+            {
+              "type": "heading",
+              "text": "Chirichopatikana na Chirichohifadhiwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uislamu wa Adigo taukala mapumziko masafi na zamani wala kupitishwa kpwa dzulu dzulu kpwa lebo mpya. Ukala mchakato wa china, wa karne mwenga, wa mazungumzo ga chimila ambapho Adigo achukua mazoezi ga Chiislamu, msamiati, mifumo ya kisheria, na dhana za chiroho huku akihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa avyere a kare. Roho za koma tazizatoweka kpwa sababu Adigo aandza kumwomba Allah. Mganga kayafunga kazi yakpwe kpwa sababu imam afungula msikiti. Kaya taiyapoteza nguvu yakpwe takatifu kpwa sababu mnara uinuka phephi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chirichoibuka chirikala chitu chipya — si Chiislamu tu wala si chimila tu, ela ni cha Chidigo kpwa njira ya chipekee. Ratiba ya Uislamu si tu masimulizi ga chihistoria. Ni hadithi ya asili ya mfumo wa chidini unaofafanua maisha ga Chidigo rero: mfumo ambapho mutu mmwenga anaweza kukala, bila kupingana, Muislamu mwaminifu na mwaminiano wa roho za avyere a kare, mwenda msikitini na mteja wa mganga, msomaji wa Kurani na mshiriki wa sherehe za kaya. Kuelewa jinsi mfumo uwo urivyokpwedza kukala ni muhimu kuelewa ni nini."
             }
           ]
         }
@@ -2228,6 +3292,82 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "*Mganga* ndiye mtu mkuu katika ulimwengu wa roho wa Wadigo — mtaalamu anayetambua matatizo ya kiroho, anayeagiza tiba za mitishamba na taratibu, na anayepatanisha kati ya wateja wa binadamu na viumbe vya kiroho. *Mganga* anafanya kazi ndani ya mfumo ambapo ugonjwa unaweza kuwa na sababu za kimwili na za kiroho, na matibabu yenye ufanisi lazima yashughulikie pande zote mbili. Ulimwengu wa roho wa Wadigo haukuanguka Kurani ilipofika. Ulijirekebisha. *Majini* walipata mfano wao katika *jinn* wa Kiislamu. *Mganga* alianza kuingiza aya za Kurani katika mazoezi ya jadi. Lakini *koma* walihifadhi utambulisho wao wa Kidigo, na *mizimu* walihifadhi nafasi zao katika mandhari. Ulimwengu wa roho unabaki, kama ulivyokuwa daima, eneo ambapo Wadigo wanapiga hesabu na mashaka na siri ambazo dini rasmi haiwezi kushughulikia kikamilifu."
+            },
+            {
+              "type": "heading",
+              "text": "Mizimu: Roho za Mahali"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti na *koma* ni *mizimu* — roho za asili zinazohusishwa na maeneo maalum katika mandhari. Mti fulani, muundo wa mwamba, chemchemi, sehemu ya pwani, pango — mojawapo ya hivi inaweza kuwa makazi ya *mizimu* ambayo uwepo wake lazima utambuliwe na eneo lake lazima liheshimiwe. *Mizimu* si roho za wanadamu waliokufa. Ni roho za mahali — viumbe vinavyomilikiwa na ardhi yenyewe na ambavyo vilikusudia kabla ya makazi ya binadamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kukutana na *mizimu* kwa kawaida kunatokea mtu anapovuka eneo lao bila kujua au kusumbua makazi yao. Matokeo yanaweza kuanzia kuchanganyikiwa kidogo hadi ugonjwa mkubwa. Wakulima wanaosafisha ardhi mpya, wajenzi wanaovunja ardhi kwa nyumba, au wasafiri wanaopita katika eneo lisilojulikana wanaweza wote kuvutia umakini wa *mizimu*. Jibu sahihi, *mizimu* inaposhukiwa kusababisha taabu, ni kutoa sadaka kwenye eneo hilo — chakula, kinywaji, au sadaka ndogo ya mnyama — na kushauriana na *mganga* ambaye anaweza kuwasiliana na roho na kujadili masharti ya kuishi pamoja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makaya yenyewe ni maeneo muhimu zaidi ya *mizimu*, lakini si pekee. Mandhari ya Wadigo imefumwa na maeneo matakatifu — vijisitu, chemchemi, na maeneo ya pwani — ambapo ulimwengu wa asili na wa kiroho unaeleweka kuwa karibu sana. Maeneo hayo yanaweka wajibu. Miti kwenye eneo la *mizimu* haipaswi kukatwa. Maji kutoka chemchemi takatifu lazima yachotwe kwa heshima. Ardhi karibu na makazi ya *mizimu* haipaswi kulimwa bila sherehe sahihi. Wajibu hizi zinajumuisha mfumo usio rasmi wa uhifadhi wa mazingira, unaolinda maeneo yenye umuhimu wa kiikolojia kupitia vikwazo vya kiroho."
+            },
+            {
+              "type": "heading",
+              "text": "Majini: Roho za Bahari"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Majini* — roho za bahari, zinazohusiana na *jinn* wa Kiarabu — wanashikilia nafasi ya kipekee katika uainishaji wa roho za Wadigo kwa sababu wanaiunganisha ulimwengu wa kabla ya Uislamu na wa Kiislamu. Pwani ya Wadigo, ikienea kutoka sehemu za kusini za Kaunti ya Mombasa kupitia Kwale hadi kaskazini mwa Tanzania, ni mandhari inayoundwa na Bahari ya Hindi. Bahari inatoa chakula, kubeba biashara, na kuzalisha hali ya hewa. Pia inaeleweka kuwa na roho zenye nguvu — *majini* — ambazo zinaweza kutoka majini kuwasiliana na, na wakati mwingine kumiliki, binadamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uislamu ulipofika pwani ya Wadigo, dhana yake ya *jinn* — viumbe vilivyoumbwa kutoka moto usio na moshi ambavyo vipo sambamba na binadamu na vinaweza kuwa vya heri au shari — ililandana na dhana iliyokuwepo ya Kidigo ya *majini* kwa usahihi wa kushangaza. Aina za Kiarabu na Kidigo ziliimarisha kila moja. Leo, uelewa wa Wadigo wa *majini* unateka kutoka mapokeo yote mawili: ni roho za bahari kwa maana ya Kidigo na *jinn* kwa maana ya Kiislamu. Baadhi wanaaminiwa kuwa Waislamu wenyewe. Baadhi wanaaminiwa kutoka ulimwengu wa Kiarabu — roho za *Mwarabu* zilizorekodiwa katika sherehe za Kayamba za Golini, Kaunti ya Kwale. Mchanganyiko huu wa aina za roho za Kiislamu na za kabla ya Kiislamu ni moja ya mifano wazi zaidi ya kile wasomi wanamaanisha wanapozungumza kuhusu mchanganyiko wa Kidigo."
+            },
+            {
+              "type": "heading",
+              "text": "Nyoka: Roho za Nyoka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miongoni mwa watu wa Kimijikenda, roho za nyoka zinashikilia umuhimu maalum. *Nyoka* — roho za nyoka zinazohusishwa na makaya na nasaba maalum — zinaeleweka kuwa walinzi wa maeneo matakatifu na wabebaji wa nguvu ya mababu. Nyoka kubwa inayokutana karibu na kaya si nyoka tu. Inaweza kuwa roho ya *nyoka*, udhihirisho wa uwepo wa mababu unaodai heshima na usiopaswi kudhuru. Kuonekana kwa roho ya nyoka kunaweza kuwa ishara — onyo, baraka, au ujumbe kutoka kwa mababu unaohitaji tafsiri ya mzee wa kaya au *mganga*."
+            },
+            {
+              "type": "heading",
+              "text": "Pepo: Roho Zinazoingia"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Pepo* — roho za kumilikiwa — zinawakilisha makutano ya kuvutia zaidi na yanayoonekana kati ya ulimwengu wa roho na maisha ya kila siku. Mtu aliyemilikiwa na *pepo* hupitia mabadiliko ambayo yanaeleweka si kama ugonjwa wa akili bali kama uvamizi wa kiroho. *Pepo* anaingia mwilini na kuchukua udhibiti, akisababisha mwenyeji kuzungumza kwa sauti zisizojulikana, kutenda kwa njia isiyo ya kawaida, kuanguka katika mazingira ya ndoto, au kupata ugonjwa mbaya ambao haujibu dawa ya kawaida. Kumilikiwa si kwa bahati nasibu. Watu fulani wanaeleweka kuwa na uwezekano mkubwa zaidi, na roho zenyewe zina mapendekezo na madai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matibabu ya kumilikiwa na *pepo* ni mojawapo ya wajibu muhimu zaidi na ngumu zaidi wa *mganga*. Inahitaji si kufukuza roho kwa nguvu bali mazungumzo — mazungumzo kati ya mganga na kiumbe kinachomiliki ambapo utambulisho wa roho unaanzishwa, madai yake yanasikika, na masharti ya kuishi pamoja au kuondoka yanapangwa. Sherehe ya Kayamba, iliyorekodiwa Golini, Kaunti ya Kwale, ni mfano mkuu. *Mganga* hutumia muziki — kayamba, ngoma, na nyimbo — kuvuta roho na kuitambua. \"Each spirit responds to different songs,\" watendaji wanaelezea, \"and finding the right chant is like unlocking a hidden door.\" Roho zingine zinadai sadaka maalum. Zingine zinadai mwenyeji awe na mwiko fulani. Nyingine bado lazima zishawishiwe kuondoka kupitia taratibu za muda mrefu za vikao vingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya Kayamba yenyewe ni artifact yenye tabaka ya mchanganyiko wa Kidigo. Inaunganisha mazoezi ya jadi ya Kidigo — muziki, ngoma, maandalizi ya mitishamba, na mazungumzo na roho — na vipengele vya Kiislamu, ikiwa ni pamoja na dua za Kiarabu pamoja na nyimbo za Kidigo. Sherehe inawakilisha, kwa maneno ya akaunti moja, \"a dialogue between the living and the unseen.\" Si ya jadi tu wala ya Kiislamu tu. Ni ya Kidigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mganga: Mganga, Mbashiri, Mpatanishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* (wingi *waganga*) ndiye mtu mkuu katika ulimwengu wa roho wa Wadigo — mtaalamu wa binadamu anayemiliki maarifa, mafunzo, na mamlaka ya kiroho ya kupita mpaka kati ya ulimwengu unaoonekana na usioonekana. *Mganga* si kuhani. Haongozi ibada ya jumuia wala kusimamia sakramenti. *Mganga* ni mtendaji — mganga anayetambua matatizo ya kiroho, mbashiri anayetambua roho zipi zinasababisha taabu, na mpatanishi anayepatanisha kati ya wateja wa binadamu na viumbe vya kiroho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mazoezi ya *uganga* — uchawi wa uponyaji — yanaunganisha mawasiliano na roho, dawa za mitishamba, na taratibu. *Mganga* anaweza kuvaa hirizi, shanga, na vifungo vya kinga vinavyoashiria ofisi yao na kutoa ulinzi wa kibinafsi dhidi ya nguvu za kiroho wanazoshirikiana nazo mara kwa mara. Mamlaka yao ya kijamii ni makubwa, wakati mwingine yakishindana au kukamilisha yale ya imamu na wazee wa kaya. Katika masuala ya msiba wa kiroho — ugonjwa usiojibu matibabu, msiba wa kudumu, uchawi unaoshukiwa, au kumilikiwa na roho — *mganga* ndiye mamlaka ya kwanza na mara nyingi inayoaminiwa zaidi inayoshauriwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* anafanya kazi ndani ya mfumo ambapo ugonjwa unaweza kuwa na sababu za kimwili na za kiroho, na matibabu yenye ufanisi lazima yashughulikie mwelekeo wote. Mtu anaweza kuwa mgonjwa kwa sababu ya bakteria, lakini sababu bakteria ilimpiga *mtu huyu* kwa *wakati huu* inaweza kuwa ya kiroho — babu aliyetelekezwa, *mizimu* iliyosumbuliwa, kitendo cha uchawi kibaya. *Mganga* anashughulikia sababu ya kiroho; dawa ya kawaida inashughulikia ya kimwili. Hizo mbili si washindani bali vinakamilishana, kila moja ikishughulikia tabaka tofauti ya taabu ile ile."
+            },
+            {
+              "type": "heading",
+              "text": "Kuishi Pamoja na Uislamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulimwengu wa roho wa Wadigo haukuanguka Kurani ilipofika. Ulijirekebisha. *Majini* walipata mfano wao katika *jinn* wa Kiislamu. *Mganga* alianza kuingiza aya za Kurani na dua za Kiarabu katika mazoezi ya jadi. Dhana ya kinga ya kiroho — daima ya kati kwa maisha ya Wadigo — ilipata teknolojia mpya katika *hirizi*, hirizi ya kinga iliyoandikwa maandishi ya Kurani. Lakini *koma* walihifadhi utambulisho wao wa Kidigo. *Mizimu* walihifadhi nafasi zao katika mandhari. *Pepo* waliendelea kumiliki na walihitajika kujadiliwa nao kwa masharti yao wenyewe. Uislamu ulitoa msamiati mpya na mfumo mpya wa jumla, lakini haukubadilisha sarufi ya msingi ya uzoefu wa kiroho wa Kidigo. Ulimwengu wa roho unabaki, kama ulivyokuwa daima, eneo ambapo Wadigo wanapiga hesabu na mashaka, hatari, na siri ambazo dini rasmi — dini yoyote rasmi — haiwezi kushughulikia kikamilifu."
             }
           ],
           "dig": [
@@ -2262,6 +3402,82 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "*Mganga* ndiye mutu mkulu kpwa ulimwengu wa roho wa Adigo — mtaalamu anayetambula matatizo ga chiroho, anayeagiza tiba za mitishamba na taratibu, na anayepatanisha kahi ya ario moyo na ulimwengu usio onekana. Ulimwengu wa roho wa Adigo taukuanguka Kurani iriphofika. Wadzijrekebisha. *Majini* apata mfwano wao kpwa *jinn* wa Chiislamu. *Mganga* aandza kuingiza aya za Kurani kpwa mazoezi ga kare. Ela *koma* ahifadhi utambulisho wao wa Chidigo, na *mizimu* ahifadhi phatu phao kpwa mandhari. Ulimwengu wa roho unaishi, dza urivyokuwa kare kare, eneo ambamo Adigo anaphatanisha mashaka, hatari, na siri ambazo dini rasmi — dini yoyosi rasmi — taiwezi kushughulikia kpwa ukamilifu."
+            },
+            {
+              "type": "heading",
+              "text": "Mizimu: Roho za Phatu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti na *koma* ni *mizimu* — roho za asili zinazohusishwa na phatu maalum kpwa mandhari. Muhi fulani, muundo wa mwamba, chemchemi, sehemu ya pwani, pango — mwenga wa hivi inaweza kukala makazi ga *mizimu* ambago upho wakpwe lazima utambuliwe na eneo rakpwe lazima riheshimiwe. *Mizimu* si roho za binadamu ariokufa. Ni roho za phatu — viumbe vinavyomilikiwa ni ardhi yenye na ambavyo virikala kabila ya makazi ga binadamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kukutana na *mizimu* kpwa kawaida kunatokea mutu anaphovuka eneo rao bila kumanya au kusumbua makazi gao. Matokeo ganaweza kuandza kuchanganyikiwa kidogo hadi ukongo mukulu. Akulima anao safisha ardhi mpya, adzengi anao vunja ardhi kpwa nyumba, au asafiri anao pisha kpwa eneo risiro julikana anaweza osi kuvutia umakini wa *mizimu*. Dzibu sahihi, *mizimu* inapho shukiwa kusababisha taabu, ni kutoa sadaka kpwa eneo riro — vyakula, kinywaji, au sadaka ndogo ya nyama — na kushauriana na *mganga* ambaye anaweza kuwasiliana na roho na kujadili masharti ga kuishi phamwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makaya genye ni maeneo muhimu zaidi ga *mizimu*, ela si pekee. Mandhari ya Adigo imefumwa na maeneo matakatifu — vijisitu, chemchemi, na maeneo ga pwani — ambapho ulimwengu wa asili na wa chiroho unaeleweka kukala phephi sana. Maeneo gago ganaweka uwajibikaji. Miri kpwa eneo ra *mizimu* taipaswa kukatwa. Madzi kula chemchemi takatifu lazima gachotwe kpwa ishima. Ardhi phephi na makazi ga *mizimu* taipaswa kulimwa bila sherehe sahihi. Uwajibikaji uwo unajumuisha mfumo usio rasmi wa uhifadhi wa mazingira, unaolinda maeneo genye umuhimu wa kiikolojia kupitshi vikwazo vya chiroho."
+            },
+            {
+              "type": "heading",
+              "text": "Majini: Roho za Bahari"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Majini* — roho za bahari, zinazohusiana na *jinn* wa Chiarabu — anashikilia nafasi ya chipekee kpwa uainishaji wa roho za Adigo kpwa sababu anaunganisha ulimwengu wa kabila ya Uislamu na wa Chiislamu. Pwani ya Adigo, ikienea kula sehemu za kusini za Kaunti ya Mombasa kupitshi Kwale hadi kaskazini ya Tanzania, ni mandhari inayoundwa ni Bahari ya Hindi. Bahari inatoa vyakula, kutsukula chibiashara, na kuzalisha hali ya hewa. Piya inaeleweka kukala na roho zenye nguvu — *majini* — ambazo zinaweza kutoka madzini kuwasiliana na, na wakati mwinjine kumiliki, binadamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uislamu uriphofika pwani ya Adigo, dhana yakpwe ya *jinn* — viumbe virivyoumbwa kula moho usio na moshi ambavyo vipo sambamba na binadamu na vinaweza kukala vya heri au shari — irilandana na dhana iriyokuwepo ya Chidigo ya *majini* kpwa usahihi wa kushangaza. Aina za Chiarabu na Chidigo zirimarimisha chila mwenga. Rero, uelewa wa Adigo wa *majini* unateka kula mapokeo gosi mairi: ni roho za bahari kpwa maana ya Chidigo na *jinn* kpwa maana ya Chiislamu. Bazi anaaminiwa kukala Aislamu ao enye. Bazi anaaminiwa kutoka ulimwengu wa Chiarabu — roho za *Mwarabu* zirizorekodiwa kpwa sherehe za Kayamba za Golini, Kaunti ya Kwale. Mchanganyiko uwo wa aina za roho za Chiislamu na za kabila ya Uislamu ni mwenga wa mifwano wazi zaidi wa chirichoomba ni asomi anapha amba mchanganyiko wa Chidigo."
+            },
+            {
+              "type": "heading",
+              "text": "Nyoka: Roho za Nyoka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya atu a Chimijikenda, roho za nyoka zinashikilia umuhimu maalum. *Nyoka* — roho za nyoka zinazohusishwa na makaya na nasaba maalum — zinaeleweka kukala alinzi a maeneo matakatifu na atsukuli a nguvu ya avyere a kare. Nyoka kulu inayokutana phephi na kaya si nyoka tu. Inaweza kukala roho ya *nyoka*, udhihirisho wa upho wa avyere a kare unaodai ishima na usiopaswa kudhuru. Kuonekana kpwa roho ya nyoka kunaweza kukala ishara — onyo, baraka, au ujumbe kula kpwa avyere a kare unaohitaji tafsiri ya mvyere wa kaya au *mganga*."
+            },
+            {
+              "type": "heading",
+              "text": "Pepo: Roho Zinazoinjira"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Pepo* — roho za kumilikiwa — zinawakilisha makutano ga kuvutia zaidi na ganago onekana kahi ya ulimwengu wa roho na maisha ga chila siku. Mutu ariyemilikiwa ni *pepo* anapisha mabadiliko ambago ganaeleweka si dza ukongo wa achili ela dza uvamizi wa chiroho. *Pepo* anainjira mwirini na kuchukua udhibiti, akisababisha mwenye kutsukula kuzungumza kpwa sauti zisizojulikana, kutenda kpwa njira isiyo ya kawaida, kuanguka kpwa mazingira ga ndoto, au kupata ukongo mbaya ambao taudzibu dawa ya kawaida. Kumilikiwa si kpwa bahati nasibu. Atu fulani anaeleweka kukala na uwezekano mukulu zaidi, na roho zenye zina mapendekezo na madai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matibabu ga kumilikiwa ni *pepo* ni mwenga wa uwajibikaji muhimu zaidi na ugumu zaidi wa *mganga*. Ganahitajia si kufukuza roho kpwa nguvu ela mazungumzo — mazungumzo kahi ya mganga na chiumbe kinachomiliki ambapho utambulisho wa roho unaanzishwa, madai gakpwe ganasikika, na masharti ga kuishi phamwenga au kuuka ganapangwa. Sherehe ya Kayamba, iriyorekodiwa Golini, Kaunti ya Kwale, ni mfwano mkulu. *Mganga* anahumira muziki — kayamba, ngoma, na nyimbo — kuvuta roho na kuitambula. \"Each spirit responds to different songs,\" atendaji anaelezea, \"and finding the right chant is like unlocking a hidden door.\" Roho zinjine zinadai sadaka maalum. Zinjine zinadai mwenye akale na mwiko fulani. Zinjine bado lazima zishawishiwe kuuka kupitshi taratibu za muda mure za vikao vinji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya Kayamba yenye ni artifact yenye tabaka ya mchanganyiko wa Chidigo. Inaunganisha mazoezi ga chimila ga Chidigo — muziki, ngoma, maandalizi ga mitishamba, na mazungumzo na roho — na vipengele vya Chiislamu, kujumuisha dua za Chiarabu phamwenga na nyimbo za Chidigo. Sherehe inawakilisha, kpwa maneno ga akaunti mwenga, \"a dialogue between the living and the unseen.\" Si ya chimila tu wala ya Chiislamu tu. Ni ya Chidigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mganga: Mganga, Mbashiri, Mpatanishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* (unji *aganga*) ndiye mutu mkulu kpwa ulimwengu wa roho wa Adigo — mtaalamu wa binadamu anayemiliki marifwa, mafunzo, na mamlaka ya chiroho ya kupisha mphaka kahi ya ulimwengu unaoonekana na usio onekana. *Mganga* si kuhani. Taongozi ibada ya jumuia wala kusimamia sakramenti. *Mganga* ni mtendaji — mganga anayetambula matatizo ga chiroho, mbashiri anayetambula roho zihi zinasababisha taabu, na mpatanishi anayepatanisha kahi ya ateja a binadamu na viumbe vya chiroho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mazoezi ga *uganga* — uchawi wa uphonyaji — ganaunganisha mawasiliano na roho, dawa za mitishamba, na taratibu. *Mganga* anaweza kuvala hirizi, shanga, na vifungo vya kinga vinavyo ashiria ofisi yakpwe na kutoa ulinzi wa kibinafsi dhidi ya nguvu za chiroho anazoshirikiana nazo mara kpwa mara. Mamlaka gao ga chijamii ni makulu, wakati mwinjine gakishindana au kukamilisha gare ga imamu na avyere a kaya. Kpwa mambo ga msiba wa chiroho — ukongo usiodzibu matibabu, msiba wa kudumu, uchawi unaoushukiwa, au kumilikiwa ni roho — *mganga* ndiye mamlaka ya kpwandza na mara nyinji inayoaminiwa zaidi inayoshauriwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* anahenda kazi ndani ya mfumo ambapho ukongo unaweza kukala na sababu za chimwili na za chiroho, na matibabu genye ufanisi lazima gashughulikie mwelekeo wosi. Mutu anaweza kukala mugonjwa kpwa sababu ya bakteria, ela sababu bakteria irimupiga *mutu uhu* kpwa *wakati uhu* inaweza kukala ya chiroho — mvyere ariyetelekezwa, *mizimu* iriyosumbuliwa, chitendo cha uchawi chibaya. *Mganga* anashughulikia sababu ya chiroho; dawa ya kawaida inashughulikia ya chimwili. Izo mbiri si ashindani ela vinakamilishana, chila mwenga ikishughulikia tabaka tofauti ya taabu ire ire."
+            },
+            {
+              "type": "heading",
+              "text": "Kuishi Phamwenga na Uislamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulimwengu wa roho wa Adigo taukuanguka Kurani iriphofika. Wadzijrekebisha. *Majini* apata mfwano wao kpwa *jinn* wa Chiislamu. *Mganga* aandza kuingiza aya za Kurani na dua za Chiarabu kpwa mazoezi ga chimila. Dhana ya kinga ya chiroho — kare kare ya kahi kpwa maisha ga Adigo — iripata teknolojia mpya kpwa *hirizi*, hirizi ya kinga iriyoandikwa maandishi ga Kurani. Ela *koma* ahifadhi utambulisho wao wa Chidigo. *Mizimu* ahifadhi phatu phao kpwa mandhari. *Pepo* aenderera kumiliki na ahitajika kujadiliwa nao kpwa masharti gao enye. Uislamu uritoa msamiati mpya na mfumo mpya wa jumla, ela tauribadilisha sarufi ya msingi ya uzoefu wa chiroho wa Chidigo. Ulimwengu wa roho unasala, dza urivyokuwa kare kare, eneo ambamo Adigo anaphatanisha mashaka, hatari, na siri ambazo dini rasmi — dini yoyosi rasmi — taiwezi kushughulikia kpwa ukamilifu."
             }
           ]
         }
@@ -2410,6 +3626,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Wadigo wanadumisha mila kali ya *kasida* — muziki wa ibada ya Kiislamu. Kasida inaimbwa wakati wa sherehe za *mawlid*, harusi, mikutano ya kidini, na vikao vya Sufi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfuatano huu huanza wiki kadhaa kabla ya sherehe yenyewe, wakati wa kipindi cha maandalizi ya bibi arusi kinachosimamiwa na *somo* (mshauri wa bibi arusi) na *kungwi* (mwalimu wa ndoa). Wakati huu, wanawake wanaomzunguka bibi arusi huimba nyimbo za *vugo* — mila ya wanawake pekee. Nyimbo za vugo ni za kufundisha, za kusherehekea, za utani, za upole, na wakati mwingine kali. Zinafundisha bibi arusi kuhusu maisha ya ndoa. Zinasherehekea uzuri wake. Zinamchokoza kuhusu usiku wa harusi. Zinamonya kuhusu wakwe. Zinambariki kwa dua za uzazi na furaha. Wanaume hawapo wakati wa nyimbo hizi. Maudhui hayo ni maarifa ya wanawake, yanayopitishwa kupitia utendaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika harusi yenyewe, *chakacha* hutawala sherehe. Wanawake waliovaa kanga za rangi angavu hucheza kwa kutikisa viuno kwa namna inayoifafanua sanaa hii, njuga za miguuni zikidakia mwanga wa moto, watazamaji wanaopiga makofi wakiunda duara. Mtindo wa *mserego* wa sengenya — unaohifadhiwa kwa harusi pekee — unafanywa. Na katika harusi za kisasa, *bango* hutoa muziki wa wakati huu. Msemo wa pwani unauthibitisha umuhimu wake: *\"Harusi bila bango si harusi.\"*"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi anapoondoka nyumbani kwa familia yake, familia zote mbili huimba nyimbo za kuaga. Maandishi ya kiethnografia yanaandika kwamba \"familia zote mbili hulia na kuimba kwa wakati mmoja\" — familia ya bibi arusi ikiimba kuhusu kupoteza na baraka, familia ya bwana arusi ikiimba kuhusu kukaribisha na ahadi. Hizi ni miongoni mwa nyakati zenye hisia kali zaidi katika hazina ya muziki wa Wadigo."
+            },
+            {
+              "type": "heading",
+              "text": "Muziki wa Ibada ya Kiislamu — Kasida"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kama kundi pekee la Mijikenda lenye Waislamu wengi, Wadigo wanadumisha mila imara ya *kasida* — muziki wa ibada ya Kiislamu unaotumia mtindo wa kishairi wa Kiarabu *qasida*. Kasida huimbwa na kusomwa wakati wa sherehe za *mawlid* zinazoadhimisha siku ya kuzaliwa kwa Mtume, katika sherehe za ndoa, katika mikutano ya kidini, na wakati wa vikao vya ibada za Kisufi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utendaji wa kasida unawaunganisha Wadigo na ulimwengu mpana wa muziki wa Kiislamu wa Bahari ya Hindi — mitindo hiyo hiyo ya kishairi inafanywa Oman, Yemen, Komoro, na Zanzibar. Hata hivyo, kasida ya Wadigo ina tabia yake yenyewe: midundo inabeba alama za msingi wa muziki wa Kiafrika, mitindo ya sauti inachanganya desturi za nyimbo za Kiarabu na mifumo ya toni za Kibantu, na muktadha wa utendaji umeingizwa katika maisha ya jumuiya ya Kidigo hasa. Kama vile \"Uislamu uliotiwa Udigo\" wenyewe, kasida ya Wadigo ni ya Kiislamu kwa uhakika na ya kipekee kimtaa."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe za Jamii — Beni na Zaidi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kabla ya katikati ya karne ya ishirini, matukio ya muziki ya kuvutia zaidi katika pwani ya Kenya yalikuwa mashindano ya *beni ngoma*. Beni — kutoka neno la Kiingereza \"band\" — iliibuka katika miaka ya 1890 wakati jamii za Kiswahili za mijini zilipounda aina ya ngoma ya mashindano iliyoiga mazoezi ya kijeshi yakifuatana na muziki wa bendi za tarumbeta. Timu za mtaa zilitunganyimbo za asili, zilitengeneza mavazi na magari ya mapambo ya kisanaa, na zilishindana mbele ya maelfu ya watazamaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Karibu kila nyumba ya pwani ilikuwa na mwanachama katika chama cha muziki au ngoma. Mashindano ya beni ya wikendi yalikuwa kilele cha maisha ya kijamii ya pwani ya mijini. Wakati aina hii ilipokuwa ikibadilika kuwa ya kienyeji, tarumbeta za mbao zilichukua nafasi ya vyombo vya shaba na midundo ya Kiafrika ilichukua nafasi ya mpigo wa maandamano ya Kizungu, na kutokeza aina ya utendaji ya Kiafrika Mashariki ya kipekee."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mrithi wa moja kwa moja wa beni ni *bango*, ulioanzishwa mwaka wa 1987 na Joseph Katana Ngala — anayejulikana kama \"Mzee Bango\" — kutoka Freretown, Mombasa. Bango unachanganya jazz, rhumba, na muziki wa jadi wa Mijikenda (mwanzele, chakacha, brasso) kuwa sauti ya kisasa ya pwani. Nyimbo nyingi ni kwa Kiswahili, na matumizi yanayoongezeka ya lugha za Mijikenda ikiwa ni pamoja na Kidigo. Ubunifu wa kisasa wenye kuvutia zaidi labda ni \"Kaya hip-hop\" ya Katoi Wa Tabaka — muungano wa makusudi wa vipengele vya muziki wa jadi wa Mijikenda na soul, blues, jazz, na hip-hop ambao unawakilisha jitihada kubwa zaidi ya kuunda lugha ya kisasa iliyojikita katika utamaduni wa mababu."
+            },
+            {
+              "type": "heading",
+              "text": "Mwendelezo Ulio Chini ya Mabadiliko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachounganisha muktadha hizi zote — mazishi, harusi, msikiti, mashindano, studio — ni kanuni moja: muziki miongoni mwa Wadigo ni wa jamii, una kazi, na ni hai. Unatumikia madhumuni zaidi ya burudani. Unabeba ujumbe zaidi ya starehe. Unaunda vifungo kati ya walio hai, kati ya walio hai na wafu, kati ya mtu binafsi na jamii, kati ya sasa na zamani. Vyombo vinabadilika, midundo inabadilika, lugha zinahamia — lakini kanuni inashikilia. Muziki si kitu ambacho Wadigo wanasikiliza. Ni kitu wanachokifanya."
             }
           ],
           "dig": [
@@ -2444,6 +3708,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Adigo anadumisha mila kali ya *kasida* — nyimbo za ibada ya Chiislamu. Kasida inaimbwa wakati wa sherehe za *mawlid*, harusi, mikutano ya kidini, na vikao vya Sufi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfuatano uhu unaandza wiki nyinji kabila ya sherehe yenye, wakati wa kipindi cha kutayarishwa kpwa bibi arusi kinacholongozwa ni *somo* (mfundishaye bibi arusi) na *kungwi* (mwalimu wa ndoa). Wakati uhu, achetu anaomzunguluka bibi arusi anaimba nyimbo za *vugo* — mila ya achetu bahi. Nyimbo za vugo ni za kufundisha, za kusherehekea, za kuhenda utani, za pole, na wakati wanjine kali. Zinafundisha bibi arusi kuhusu maisha ga ndoa. Zinasherehekea uzuri wakpwe. Zinamchokoza kuhusu usiku wa harusi. Zinamuonya kuhusu avyala. Zinambariki na mavoyo ga uzazi na raha. Alume taapho wakati wa nyimbo zizi. Vira ni maarifa ga achetu, ganapishwago kpwa njira ya kuimba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa harusi yenye, *chakacha* ndiyo inatawala sherehe. Achetu ambao avwala kanga za rangi zinazomeka-meka anavina kpwa kutikisa nyonga kpwa namuna inayoifafanua sanaa ihi, njuga za maguluni zikidakia mwanga wa moho, atu anaopiga makofi anatengeneza duara. Mtindo wa *mserego* wa sengenya — unaohifadhiwa kpwa harusi bahi — unafanywa. Na kpwa harusi za vivi ivi, *bango* unalavya muziki wa wakati uhu. Msemo wa ph'wani unauthibitisha umuhimu wakpwe: *\"Harusi bila bango si harusi.\"*"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi anaphouka nyumbani kpwa familiye, famili zosi mbiri zinaimba nyimbo za kuaga. Maandishi ga kiethnografia ganaandika kukala \"famili zosi mbiri zinarira na kuimba kpwa wakati mmwenga\" — famili ya bibi arusi inaimba kuhusu kupoteza na baraka, famili ya bwana arusi inaimba kuhusu kukaribisha na ahadi. Zizi ni kahi ya nyakati zenye hisia kali zaidi kpwa hazina ya muziki ya Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Muziki wa Ibada ya Chiislamu — Kasida"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dza kundi bahi ra Amijikenda renye Aislamu anji, Adigo anadumisha mila imara ya *kasida* — muziki wa ibada ya Chiislamu unaotumira mtindo wa ushairi wa Chiarabu *qasida*. Kasida inaimbiwa na kusomwa wakati wa sherehe za *mawlid* zinazoadhimisha sikukuu ya kuzalwa kpwa Mtume, kpwa sherehe za ndoa, kpwa mikutano ya kidini, na wakati wa vikao vya ibada za Chisufi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuimba kasida kunaunganisha Adigo na ulimwengu mkpwulu wa muziki wa Chiislamu wa Bahari ya Hindi — mitindo iyo-iyo ya ushairi inafanywa Oman, Yemen, Komoro, na Zanzibar. Hata hivyo, kasida ya Adigo ina tabia yakpwe yenye: midundo inatsukula alama za msingi wa muziki wa Chiafrika, mitindo ya sauti inachanganya desturi za kuimba za Chiarabu na mifumo ya toni za Chibantu, na muktadha wa kuimba umeingizwa kpwa maisha ga jamii ya Chidigo hasa. Dza vira \"Uislamu uchiohendwa wa Chidigo\" wenye, kasida ya Adigo ni ya Chiislamu kpwa kpweli na ya kipekee kpwa phatu."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe za Jamii — Beni na Zaidi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kabila ya kahi-kahi ya karne ya mirongo miri, matukio ga muziki ga kuvutiya zaidi kpwa ph'wani ya Kenya gakala mashindano ga *beni ngoma*. Beni — kula kpwa neno ra Chiingereza \"band\" — yaibuka kpwa miaka ya 1890 wakati jamii za Chiswahili za midzini ziriphoumba aina ya ngoma ya mashindano iriyoiga mazoezi ga chijeshi gakifuatana na muziki wa bendi za tarumbeta. Timu za mtaa zatunganyimbo za asili, zatengeneza mavazi na magari ga mapambo ga kisanaa, na zashindana mbere za maelfu ga atazamaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Phephi kpwa kila nyumba ya ph'wani yakala na mutu kpwa chama cha muziki au ngoma. Mashindano ga beni ga wiki mwisho gakala kilele cha maisha ga kijamii ga ph'wani ya midzini. Wakati aina ihi iriphokala inachigeuzwa kukala ya chienyeji, tarumbeta za mihi zachukula nafasi ya vyombo vya shaba na midundo ya Chiafrika yachukula nafasi ya mpigo wa maandamano ga Chizungu, na kutengeza aina ya kuimba ya Chiafrika Mashariki ya kipekee."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mrithi wa moja kpwa moja wa beni ni *bango*, urioandzishwa mwaka wa 1987 ni Joseph Katana Ngala — anayemanyikana dza \"Mzee Bango\" — kula Freretown, Mombasa. Bango unachanganya jazz, rhumba, na muziki wa jadi wa Amijikenda (mwanzele, chakacha, brasso) kukala sauti ya kisasa ya ph'wani. Nyimbo nyinji ni za Chiswahili, na matumizi ganagoendelea ga luga za Amijikenda phamwenga na Chidigo. Ubunifu wa kisasa wa kuvutiya zaidi labda ni \"Kaya hip-hop\" ya Katoi Wa Tabaka — muungano wa makusudi wa vipengele vya muziki wa jadi wa Amijikenda na soul, blues, jazz, na hip-hop ambao unawakilisha jitihada kulu zaidi ya kuumba luga ya kisasa iriyojikita kpwa utamaduni wa akare."
+            },
+            {
+              "type": "heading",
+              "text": "Kuenderera Kpwa Ndani ya Mabadiliko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chinachounganisha muktadha zizi zosi — mazishi, harusi, msikiti, mashindano, studio — ni kanuni mwenga: muziki kahi ya Adigo ni wa jamii, una kazi, na u moyo. Unatumikira madhumuni zaidi ya burudani. Unatsukula ujumbe zaidi ya starehe. Unaumba vifungo kahi ya ario moyo, kahi ya ario moyo na ariokufa, kahi ya mutu na jamii, kahi ya vivi na kare. Vyombo vinabadilika, midundo inabadilika, luga zinagaluka — ela kanuni inashikilia. Muziki si chitu ambacho Adigo anaaphundza. Ni chitu ambacho anahenda."
             }
           ]
         }
@@ -2615,6 +3927,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Chakacha inadumu kwa sababu inatimiza kazi ambayo aina nyingine yoyote ya kitamaduni haiwezi kuchukua nafasi yake. Ni sauti ya sherehe, mwendo wa furaha, usemi wa kimwili wa vifungo vya jamii. Changamoto ya siku zijazo ni kubadilika bila kupoteza kiini — wakati ambapo wanawake wa jamii wanakuja pamoja, wanafunga kengele zao, wanafunga kanga zao, na kucheza. Wakati huo ndio moyo usiogawanyika wa chakacha."
+            },
+            {
+              "type": "heading",
+              "text": "Tofauti za Kimaeneo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa chakacha inachezwa katika pwani yote ya Kiswahili, ngoma hii si ya aina moja. Mila tofauti za kimaeneo zimeibuka, kila moja ikibeba mwelekeo maalum wa kitamaduni wa jamii yake. Miongoni mwa Wadigo na mila pana ya Kwale, chakacha inadumisha tabia yake ya jadi zaidi. Hapa, ngoma inabaki ikiwa na uhusiano wa karibu na sherehe za harusi na mikutano ya jamii, vyombo vya muziki vinashikilia msingi wa kikundi kinachoongozwa na ngoma, na mienendo ya kucheza inadumisha aina ambazo zimepitishwa kizazi hadi kizazi bila mabadiliko mengi. Hii ndiyo chakacha katika hali yake ya kisherehe zaidi, iliyojiunganisha kwa makusudi na desturi za mababu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mjini Mombasa, mazingira ya mjini yametengeneza mila tofauti. Ulimwengu mpana wa jiji — kufichuliwa kwake kwa muziki wa taarab kutoka Zanzibar, sauti za filamu za Bollywood, na muziki wa pop wa kimataifa — umeiathiri chakacha ya Mombasa kwa mvuto mpana wa kimuziki. Mila ya taarab, na vyombo vyake vya okestra na msisitizo wake wa kishairi juu ya mapenzi, imekuwa na ushawishi mkubwa, ikiipatia chakacha ya Mombasa utajiri wa nyimbo na upana wa hisia ambao mila ya Kwale yenye midundo zaidi haisistizi. Matokeo yake si kupungua bali ni mageuzi: aina ambayo inabaki ikitambulika kama chakacha huku ikizungumza kwa sauti ya kipekee ya mjini."
+            },
+            {
+              "type": "heading",
+              "text": "Muungano wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mabadiliko makubwa zaidi ya chakacha yamekuja kupitia kukutana kwake na muziki maarufu. Kuanzia miaka ya 1970 na kuendelea, wanamuziki wa pwani walianza kuingiza midundo ya chakacha na mienendo ya kucheza katika rekodi za kibiashara, wakiunda muungano uliouleta aina hii ya ngoma kwa watazamaji zaidi ya muktadha wake wa jadi. Mombasa Roots, Safari Sound Band, na Them Mushrooms — vikundi vikuu vya pop vya pwani vya mwishoni mwa karne ya ishirini — vyote vilitegemea chakacha kama msingi wa sauti zao, vikibadilisha midundo yake kwa gitaa za umeme, besi, na kibodi huku vikidumisha mienendo ya viuno iliyoifanya itambulike katika kila uwanja wa kuchezea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchakato huu wa muungano umesherehekewa na kujadiliwa ndani ya jamii ya Wadigo na pwani pana ya Kiswahili. Kusherehekea ni wazi: midundo ya chakacha katika muziki maarufu imeipa mila hii umaarufu na nguvu, ikiiwajulisha vijana ambao labda hawangewahi kuhudhuria utendaji wa harusi ya jadi. Mjadala unazingatia kile kinachopotea katika tafsiri — tabia ya kike pekee ya ngoma hii, muktadha wa kisherehe unaoyipa maana, tofauti ndogo za mbinu zinazomtofautisha mtendaji stadi na yule anayejitahidi tu. Chakacha inapokuwa mdundo wa pop, je inabaki chakacha, au inakuwa kitu kingine kabisa?"
+            },
+            {
+              "type": "heading",
+              "text": "Nguvu ya Kike na Jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuelewa chakacha kikamilifu, ni lazima uelewemachakacha inawasilisha kuhusu nafasi ya wanawake katika jamii ya Wadigo. Ngoma hii si utendaji wa kuwaburudisha wanaume, ingawa wanaume wanaweza kutazama na kuithamini. Ni utendaji wa wanawake kwa wanawake — na, kupitia wanawake, kwa jamii nzima. Ustadi wa mchezaji hauonyeshi yeye mwenyewe tu bali pia wanawake waliomfundisha, familia iliyomlea, na jamii iliyounda uelewa wake wa kile ambacho mwili wa mwanamke unaweza kudhihirisha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndio maana tabia ya kike pekee ya chakacha ya jadi ina umuhimu. Inaunda nafasi inayomilikiwa na wanawake kabisa, eneo ambalo ustadi wa kike ndio kipimo pekee kinachohesabiwa. Wanawake wakubwa wanaotazama na kutathmini ngoma si watazamaji watulivu. Wao ni walinzi wa sanaa, walezi wa kiwango, na walimu ambao kibali chao kinaashiria kwamba mchezaji kijana amefikia kitu cha kweli. Katika jamii ambapo nafasi nyingi za umma zinashirikiwa au kutawaliwa na wanaume, chakacha inachonga eneo ambalo maarifa ya wanawake, miili ya wanawake, na hukumu ya wanawake ndio yenye mamlaka."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Hai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chakacha inadumu kwa sababu inatumikia kazi ambayo hakuna aina nyingine ya kitamaduni inayoweza kuichukua. Ni sauti ya sherehe, mwendo wa furaha, udhihirisho wa kimwili wa vifungo vya jamii ambavyo maneno pekee hayawezi kufikisha. Katika kila harusi ya Wadigo, ngoma zinapoanza na wanawake wanaposimama kucheza, chakacha inathibitisha kwamba si masalia ya zamani bali ni desturi hai — iliyobadilishwa, inayoendelea kubadilika, lakini kimsingi haijabadilika katika nguvu yake ya kuwaunganisha wanawake na kuashiria nyakati muhimu zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya siku za usoni ni changamoto inayokabili mila zote hai: kubadilika bila kupoteza kiini. Mila ya Kwale inadumisha mizizi ya kisherehe. Mila ya Mombasa inaonyesha uwezo wa kubadilika katika mazingira ya mjini. Muungano wa pop unathibitisha kwamba midundo ya chakacha inaweza kufikia watazamaji wapya bila kupoteza tabia yake ya kipekee. Kinachobaki muhimu ni kile ambacho hakiwezi kurekodiwa au kuuzwa — wakati wanawake wa jamii wanakutana, wanafunga njuga zao, wanajifunga kanga zao, na kucheza. Wakati huo ndio moyo usiogawanyika wa chakacha, na maadamu unaendelea, mila inaishi."
             }
           ],
           "dig": [
@@ -2673,6 +4033,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Chakacha inadumu kpwa sababu inatimiza kazi ambayo aina yoyosi ya chimila taiweza kuchukula phatu phakpwe. Ni sauti ya sherehe, mwendo wa furaha, usemi wa kimwiri wa vifungo vya jamii. Changamoto ya siku zidzadzo ni kubadilika bila kupoteza kiini — wakati ambapo achetu a jamii anakpwedza phamwenga, anafunga kengele zao, anafunga kanga zao, na kucheza. Wakati uwo ndio moyo usigogawanyika wa chakacha, na kpwa wakati uwo unaphoendelea, chimila chinaishi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa chakacha inavinwa kpwa ph'wani yosi ya Chiswahili, ngoma ihi si ya aina mwenga. Mila tofauti-tofauti za kimaeneo zimekula, kila mwenga ikitsukula mwelekeo maalum wa chitamaduni wa jamii yayo. Kahi ya Adigo na mila pana ya Kwale, chakacha inadumisha tabia yakpwe ya jadi zaidi. Mumo, ngoma inasala ikiungana phephi na sherehe za harusi na mikutano ya jamii, vyombo vya muziki vinashikilia msingi wa kikundi kinacholongozwa ni ngoma, na miendo ya kuvina inadumisha aina ambayo imepishwa chivyazi hadi chivyazi bila mabadiliko manji. Ihi ndiyo chakacha kpwa hali yakpwe ya kisherehe zaidi, iriyojiunganisha kpwa makusudi na desturi za akare."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa Mombasa, mazingira ga mudzi mkpwulu gatengeneza mila tofauti. Ulimwengu mkpwulu wa mudzi — kufichuliwa kpwakpwe kpwa muziki wa taarab kula Zanzibar, sauti za filamu za Bollywood, na muziki wa pop wa kimataifa — umeiathiri chakacha ya Mombasa na mvuto mkpwulu wa kimuziki. Mila ya taarab, na vyombo vyakpwe vya okestra na msisitizo wakpwe wa kishairi dzulu ya mapenzi, imekala na ushawishi mkpwulu, ikiyipha chakacha ya Mombasa utajiri wa nyimbo na upana wa hisia ambao mila ya Kwale yenye midundo zaidi taisisitizi. Masiho si kupunguka ela ni mageuzi: aina ambayo inasala ikitambulikana dza chakacha hata ingikala inagomba kpwa sauti ya kipekee ya midzini."
+            },
+            {
+              "type": "heading",
+              "text": "Muungano wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mabadiliko makulu zaidi ga chakacha gakpwedza kpwa njira ya kukutana kpwakpwe na muziki maarufu. Kula miaka ya 1970 na kuenderera, anamuziki a ph'wani aandza kuingiza midundo ya chakacha na miendo ya kuvina kpwa rekodi za kuuza, achiumba muungano urioihika aina ihi ya ngoma kpwa atazamaji zaidi ya muktadha wakpwe wa jadi. Mombasa Roots, Safari Sound Band, na Them Mushrooms — vikundi vikulu vya pop vya ph'wani vya mwisho wa karne ya mirongo miri — vyosi vyategemea chakacha dza msingi wa sauti zao, vikibadilisha midundo yakpwe kpwa gitaa za umeme, besi, na kibodi huku vikidumisha miendo ya nyonga iriyoihenda itambulikane kpwa kila uwanja wa kuvinia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchakato uhu wa muungano umesherehekewa na kujadiliwa ndani ya jamii ya Adigo na ph'wani pana ya Chiswahili. Kusherehekea ni wazi: midundo ya chakacha kpwa muziki maarufu imeipha mila ihi umaarufu na nguvu, ikiamanyisha avulana na asichana ambao labda taangewahi kuhudhuria utendaji wa harusi ya jadi. Mjadala unazingatiya chirichopotezwa kpwa tafsiri — tabia ya achetu bahi ya ngoma ihi, muktadha wa kisherehe unaoyipha mana, tofauti ndide za mbinu zinazomtofautisha mtendaji stadi na yuya anayejitahidi bahi. Chakacha inaphotukuka mdundo wa pop, je inasala chakacha, au inakala chitu chanjine kabisa?"
+            },
+            {
+              "type": "heading",
+              "text": "Nguvu ya Uche na Jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuelewa chakacha kabisa, ni lazima uelewemachakacha inawasilisha kuhusu nafasi ya achetu kpwa jamii ya Adigo. Ngoma ihi si utendaji wa kuaburudisha alume, ingawa alume anaweza kutazama na kuithamini. Ni utendaji wa achetu kpwa achetu — na, kpwa njira ya achetu, kpwa jamii yosi. Ustadi wa mvhinaji tauonyeshi iye mwenye bahi ela piya achetu ariomfundisha, famili iriyomrera, na jamii iriyoumba uelewano wakpwe wa chicho ambacho mwiri wa mchetu unaweza kuonyesa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndiyo mana tabia ya uche bahi ya chakacha ya jadi ina umuhimu. Inaumba nafasi inayomilikiwa ni achetu kabisa, eneo ambaro ustadi wa uche ndio chipimo bahi chinachohesabiwa. Achetu akulu anaotazama na kutathmini ngoma si atazamaji atulivu. Ao ni alinzi a sanaa, alezi a chipimo, na alimu ambao chipho chao chinaashiria kukala mvhinaji mdide akafika chitu cha kpweli. Kpwa jamii ambayo nafasi nyinji za wazi zinashirikiwa au kutawaliwa ni alume, chakacha inachonga eneo ambaro maarifa ga achetu, miri ya achetu, na hukumu ya achetu ndio yenye mamlaka."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Iriyo Moyo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chakacha inadumu kpwa sababu inatumikira kazi ambayo takuna aina yanjine ya chitamaduni inayoweza kuihika. Ni sauti ya sherehe, mwendo wa raha, uonyesho wa chimwiri wa vifungo vya jamii ambavyo maneno bahi tagaweza kufikisha. Kpwa kila harusi ya Adigo, ngoma zinaphoandza na achetu anaphoima kuvina, chakacha inathibitisha kukala si masalia ga kare ela ni desturi iriyo moyo — iriyobadilishwa, inayoendelea kubadilika, ela kpwa msingi taiyabadilika kpwa nguvu yakpwe ya kuaunganisha achetu na kuashiria nyakati muhimu zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya siku za mbere ni changamoto inayoikabili mila zosi zirizomoyo: kubadilika bila kupoteza chiini. Mila ya Kwale inadumisha mizizi ya kisherehe. Mila ya Mombasa inaonyesa uwezo wa kubadilika kpwa mazingira ga midzini. Muungano wa pop unathibitisha kukala midundo ya chakacha inaweza kuafikira atazamaji apya bila kupoteza tabia yakpwe ya kipekee. Chinachosala muhimu ni chicho ambacho tachiweza kurekodiwa au kuuzwa — wakati achetu a jamii anakutana, anafunga njuga zao, anajifunga kanga zao, na kuvina. Wakati uwo ndio moyo usiogawanyika wa chakacha, na maadamu unaenderera, mila inaishi."
             }
           ]
         }
@@ -2876,6 +4280,70 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Vyombo vya Wadigo vinadumu kwa sababu vinabeba kitu ambacho vibadala vyake haviwezi kuiga. Chivoti inayopiga alfajiri haitoi tu sauti — inatoa sauti maalum inayoambia jamii ya Wadigo kwamba sherehe inaanza. Hizi ni maana zinazokaa katika vitu vya kimwili vyenyewe — na zitadumu kwa muda mrefu kama kuna mafundi wa Wadigo walio tayari kuvitengeneza na wanamuziki wa Wadigo walio tayari kuvipiga."
+            },
+            {
+              "type": "heading",
+              "text": "Kayamba: Kumbukumbu ya Shungwaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kayamba ni aina ya mtikiso wa mianzi — fremu bapa ya mstatili iliyotengenezwa kwa mianzi iliyofumwa, yenye mbegu au kokoto ndogo zilizofungwa kati ya tabaka mbili zinazotoa sauti ya kung'aa inayoendelea wakati chombo kinapotikiswa. Inapatikana si miongoni mwa Wadigo pekee bali kote kwa jamii za Mijikenda na zaidi, na usambazaji wake unabeba hoja ya kihistoria: uwepo wa kayamba miongoni mwa makundi yanayoshiriki mila ya asili ya Shungwaya unaonyesha kwamba ni mojawapo ya vyombo ambavyo Wamijikenda walivibeba wakati wa uhamiaji wao kutoka kaskazini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikiwa tafsiri hii ni sahihi, kayamba ni miongoni mwa vyombo vya zamani zaidi katika hazina ya muziki wa Wadigo — si kwa maana kwamba kayamba yoyote binafsi imenusurika tangu kipindi cha Shungwaya, bali kwa maana kwamba aina ya chombo, mbinu yake ya utengenezaji, na jukumu lake la kisherehe vimepitishwa kwa mfululizo tangu enzi ya uhamiaji. Kayamba ni kiungo cha kimwili na Shungwaya, kitu halisi kinachounganisha desturi ya muziki ya Wadigo ya sasa na nchi ya asili ambayo makundi yote ya Mijikenda wanaikumbuka kama mahali pao pa asili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sauti ya kayamba ni ya kipekee: mlio unaoendelea, wenye muundo unaojaza nafasi ya sauti kati ya mapigo ya ngoma, ukiongeza tabaka ya sauti ya juu ya midundo inayolainisha athari ya ngoma na kuunda mazingira ya sauti yenye utata zaidi, yenye kuzunguka zaidi. Katika kucheza pamoja, kayamba inafanya kazi kama kipengele cha kuunganisha, sauti yake inayoendelea ikijaza mapengo kati ya mapigo ya ngoma na kutoa rejea ya kudumu ya midundo inayoishikilia pamoja."
+            },
+            {
+              "type": "heading",
+              "text": "Zeze: Nyuzi Moja"
+            },
+            {
+              "type": "paragraph",
+              "text": "Zeze ni chombo cha nyuzi moja kinachopigwa kwa upinde — chombo chenye nyuzi moja na kibuyu cha kupaza sauti — kinachopatikana kote katika pwani ya Afrika Mashariki na kuenea hadi bara. Ni miongoni mwa vyombo vilivyoenea zaidi katika eneo hili, lakini urahisi wake unadanganya. Mpiga zeze stadi anaweza kutoa anuwai ya ajabu ya usemi kutoka kwa nyuzi moja, akitumia mabadiliko ya shinikizo la upinde, nafasi ya vidole, na mwangwi wa kibuyu kuunda nyimbo zenye kustaajabisha kwa uwazi wake na hisia zake za moja kwa moja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jukumu la zeze katika muziki wa Wadigo ni la karibu zaidi kuliko la ngoma au nzumari. Si chombo cha kisherehe kwa maana ile ile — hakiiti jamii wala haiendelezi ngoma kubwa. Badala yake, kinaandamana na kuimba peke yake, kinatoa uandamano wa nyimbo kwa kusimulia hadithi, na kinatumika kama chombo cha kibinafsi kwa udhihirisho wa mtu mmoja. Katika utamaduni wa muziki unaotawaliwa na utendaji wa pamoja na ngoma ya jamii, zeze inawakilisha upande wa faragha — sauti ya mtu mmoja, nyuzi moja, kibuyu kimoja, na sauti."
+            },
+            {
+              "type": "heading",
+              "text": "Filimbi, Njuga, na Vyombo Vidogo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Zaidi ya vyombo vikubwa, desturi ya muziki wa Wadigo inatumia aina mbalimbali za vyombo vidogo vinavyochangia mandhari kamili ya sauti. Filimbi — firimbi au fluti ndogo — hutoa noti za juu zinazochoma zinazopita katika vikundi vya ngoma na kuashiria mabadiliko katika utendaji. Njuga — kengele za miguu zinazofungwa kwenye vifundo vya miguu ya wachezaji — zinaongeza tabaka ya midundo inayotengenezwa na ngoma yenyewe, na kuufanya mwili wa mchezaji kuwa chombo kinachochangia muziki wakati unapoitikia. Katika chakacha, njuga (au kengele zinazohusiana za *kioo*) ni muhimu: sauti ya kung'aa ya kengele zinazoitikia mienendo ya viuno ni sehemu ya muziki kama vile ngoma zenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo hivi vidogo kwa pamoja vinadhihirisha kanuni ya muziki wa Wadigo: kwamba mpaka kati ya mwanamuziki na mchezaji, kati ya chombo na mwili, kati ya mtoa sauti na mwitikiaji wa sauti, haujawekwa kwa ukali. Mchezaji aliyevaa njuga wakati huo huo ni mtendaji wa mienendo na mpiga midundo. Jamii inayopiga makofi kwa mdundo ni watazamaji na wanakikundi kwa pamoja. Muziki, katika desturi ya Wadigo, si kitu ambacho wataalam wachache wanazalisha na kila mtu mwingine anapokea tu. Ni shughuli ya jamii ambapo mipaka kati ya mtendaji na mshiriki inafifia kwa makusudi na kwa tija."
+            },
+            {
+              "type": "heading",
+              "text": "Rekodi za Singing Wells"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka wa 2011, Mradi wa Singing Wells ulifanya rekodi za shambani za utendaji wa muziki wa Wadigo, ukikamata muziki wa vyombo na sauti katika muktadha wake wa kisherehe. Rekodi hizi zinawakilisha mojawapo ya jitihada muhimu zaidi za hivi karibuni za kuandika mila za muziki za Wadigo kama desturi hai badala ya sanaa ya kihistoria. Mbinu ya mradi — kurekodi shambani, katika mazingira ya jamii, wakati wa matukio halisi au yaliyojengwa upya ya kisherehe — ilihifadhi si sauti za vyombo pekee bali pia mazingira ya sauti ambapo husikiwa: hewa ya wazi, sauti za mazingira za pwani, michango ya jamii kama watazamaji na washiriki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pamoja na rekodi za Singing Wells, maandishi ya kitaaluma na wasomi wakiwemo Darkwa na Njoora na Mtawali (yaliyochapishwa katika Jarida la ILAM) yametoa mifumo ya uchambuzi wa kuelewa vyombo vya Wadigo ndani ya muktadha mpana wa muzikografia ya Afrika Mashariki na pwani. Wasomi hawa wameainisha vyombo, wameeleza utengenezaji na mbinu za kuvipiga, na wameviweka ndani ya mifumo ya kiaina inayotumiwa na wanamuzikografia wa kilinganishi ulimwenguni kote."
+            },
+            {
+              "type": "heading",
+              "text": "Mustakabali wa Sauti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo vya Wadigo vinakabili changamoto ile ile kama mila za muziki vinavyozitumikia: shinikizo la kisasa, ushindani wa muziki wa elektroniki na uliorekodiwa, ugumu wa kudumisha mila za ufundi wakati motisha za kiuchumi zinapendelea mbadala zinazozalishwa kwa wingi. Chivoti kinahitaji ustadi na muda kutengeneza. Rikoda ya plastiki haihitaji vyote viwili. Ngoma ya msondo inahitaji ngozi maalum, mbao maalum, mbinu maalum za kushona zinazopitishwa kutoka fundi hadi fundi. Mashine ya ngoma ya elektroniki inahitaji umeme tu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo vyombo vinadumu, kwa sababu vinabeba kitu ambacho vibadala vyake haviwezi kuiga. Chivoti kinapolia alfajiri hakitoi noti tu — kinatoa sauti maalum, yenye uzito wa kitamaduni inayoiambia jamii ya Wadigo kwamba sherehe inaanza. Nzumari haipigi wimbo tu — inatoa mwaliko unaobeba uzito wa mila nyuma yake. Kayamba haitoi mdundo tu — inabeba kumbukumbu ya Shungwaya katika sauti yake. Hizi si sifa zinazoweza kubadilishwa kuwa dijitali. Ni maana zinazokaa katika vitu halisi vyenyewe, katika malighafi yake, ufundi wake, na mikono inayovipiga — na vitadumu maadamu kuna mafundi wa Wadigo walio tayari kuvitengeneza na wanamuziki wa Wadigo walio tayari kuvipiga."
             }
           ],
           "dig": [
@@ -2970,6 +4438,38 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Vyombo vya Adigo vinadumu kpwa sababu vinabeba chitu ambacho vibadala vyakpwe taviwezi kuiga. Chivoti inayopiga alfajiri taizalishi tu sauti — inazalisha sauti maalumu, iriyosheheni chimila, inayoambira jamii ya Adigo kukala sherehe inaandza. Nzumari taipigi tu nyimbo — inatoa mwaliko unaobeba uzito wa chimila nyuma yakpwe. Kayamba taizalishi tu midundo — inabeba kumbukumbu ya Shungwaya kpwa sauti yakpwe. Hizi si sifa zinazoweza kurekodishwa. Ni maana zinazokala kpwa vitu vya kimwiri vyenyewe, kpwa vitu vyakpwe, ufundi wakpwe, na mikono inayovipiga — na vitadumu kpwa muda mrefu kama kuna mafundi a Adigo ario tayari kuvidzengera na anyimbo a Adigo ario tayari kuvipiga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Zaidi ya vyombo vikulu, desturi ya muziki ya Adigo inatumira aina nyinji za vyombo vidide vinavyochangia mandhari yosi ya sauti. Filimbi — firimbi au fluti ndide — inatoa noti za dzulu zinazochoma zinaphotsupa kpwa vikundi vya ngoma na kuashiria mabadiliko kpwa utendaji. Njuga — kengele za magulu zinazofungwa kpwa vifundo vya magulu ga avhinaji — zinaongeza tabaka ya midundo inayotengenezwa ni ngoma yenye, na kuuhenda mwiri wa mvhinaji ukale chombo kinachochangia muziki wakati unaphoitikira. Kpwa chakacha, njuga (au kengele zinazohusiana za *kioo*) ni muhimu: sauti ya kung'aa ya kengele zinazoitikira miendo ya nyonga ni sehemu ya muziki dza vira ngoma zenye."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo hivi vidide kpwa phamwenga vinaonyesa kanuni ya muziki wa Adigo: kukala mpaka kahi ya mwanamuziki na mvhinaji, kahi ya chombo na mwiri, kahi ya ariye anatoa sauti na ariye anaitikira sauti, tauikpwe kpwa ukali. Mvhinaji ariyevwala njuga wakati uwo-uwo ni mtendaji wa miendo na mpigi midundo. Jamii inayopiga makofi kpwa mdundo ni atazamaji na anachama a kikundi kpwa phamwenga. Muziki, kpwa desturi ya Adigo, si chitu ambacho ataalam achache adzitengezao na kila mutu mwanjine anapokera bahi. Ni shughuli ya jamii ambayo mipaka kahi ya mtendaji na mshiriki inafitishwa kpwa makusudi na kpwa faidha."
+            },
+            {
+              "type": "heading",
+              "text": "Rekodi za Singing Wells"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwaka wa 2011, Mradi wa Singing Wells wahenda rekodi za mundani za utendaji wa muziki wa Adigo, achikamata muziki wa vyombo na sauti kpwa muktadha wakpwe wa kisherehe. Rekodi zizi zinawakilisha mwenga wa jitihada muhimu zaidi za vivi karibuni za kuandika mila za muziki za Adigo dza desturi iriyo moyo badala ya sanaa ya kihistoria. Njira ya mradi — kurekodi mundani, kpwa mazingira ga jamii, wakati wa matukio ga kpweli au garigojengwa luphya ga kisherehe — yahifadhi si sauti za vyombo bahi ela piya mazingira ga sauti ambago gasikiwago: hewa ya wazi, sauti za mazingira ga ph'wani, michango ya jamii dza atazamaji na ashiriki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Phamwenga na rekodi za Singing Wells, maandishi ga chitaaluma ga asomi akiwemo Darkwa na Njoora na Mtawali (garigochapishwa kpwa Jarida ra ILAM) gakahika mifumo ya uchambuzi wa kuelewa vyombo vya Adigo ndani ya muktadha mkpwulu wa muzikografia ya Afrika Mashariki na ph'wani. Asomi aha akaainisha vyombo, akaeleza utengenezaji na mbinu za kuvipiga, na akaviwika ndani ya mifumo ya chiaina inayotumirwa ni anamuzikografia a chilinganishi ulimwenguni kosi."
+            },
+            {
+              "type": "heading",
+              "text": "Siku za Mbere za Sauti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo vya Adigo vinakabili changamoto iyo-iyo dza mila za muziki vinavyozitumikira: shinikizo ra kisasa, ushindani wa muziki wa elektroniki na uriorekodwa, ugumu wa kudumisha mila za ufundi wakati motisha za chiuchumi zinaphopendelea vibadala vinavyotengenezwa kpwa unji. Chivoti chinahitaji ustadi na wakati kutengeneza. Rikoda ya plastiki taihitaji vyosi hivyo. Ngoma ya msondo inahitaji ngozi maalum, mihi maalum, mbinu maalum za kushona zinazopishwa kula fundi hadi fundi. Mashine ya ngoma ya elektroniki inahitaji umeme bahi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo vyombo vinadumu, kpwa sababu vinatsukula chitu ambacho vibadala vyakpwe taviweza kuiga. Chivoti chinapholira ligundzu tachitoa noti bahi — chinatoa sauti maalum, yenye uzito wa chitamaduni inayoiambira jamii ya Adigo kukala sherehe inaandza. Nzumari taipiga wimbo bahi — inatoa mwaliko unaobeba uzito wa mila nyuma yakpwe. Kayamba taitoa mdundo bahi — inatsukula kumbukumbu ya Shungwaya kpwa sauti yakpwe. Zizi si sifa zinazoweza kubadilishwa kukala dijitali. Ni mana zinazosagala kpwa vitu vyenye, kpwa malighafi yakpwe, ufundi wakpwe, na mikono inayovipiga — na vindadumu maadamu kuna mafundi a Adigo ario tayari kuvitengeneza na anamuziki a Adigo ario tayari kuvipiga."
             }
           ]
         }
@@ -3169,6 +4669,98 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Wachezaji wa sengenya wanajiandaa katika taasisi rasmi zenye maafisa, sheria, na kanuni za uanachama — kutambua kwamba kitu chenye thamani hii hakiwezi kuachwa kwa bahati nasibu bali lazima kilindwe na kupitishwa na jamii kwa makusudi."
+            },
+            {
+              "type": "heading",
+              "text": "Ngoma Sita, Mifumo Miwili"
+            },
+            {
+              "type": "paragraph",
+              "text": "Msingi wa midundo ya sengenya unaundwa na kikundi cha ngoma sita, zilizopangwa katika jozi tatu, kila jozi ikitoa ubora tofauti wa sauti. Kwa pamoja, ngoma hizi sita zinazalisha mifumo miwili ya midundo inayoingiliana na kuunda muundo changamano wa midundo nyingi unaotambulisha sengenya. Hii si suala rahisi la kupiga muda. Mifumo hiyo miwili inajikunja kuzunguka nyingine, ikiunda nyakati za kukutana na kutengana ambazo wasikilizaji stadi wanaweza kufuatilia na ambazo wachezaji wanatumia kama ishara za kubadilisha mitindo ya mienendo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ngoma zenyewe ni vitu vya uzuri wa kuonekana. Ushonaji unaoshikilia vichwa vya ngoma umepangwa katika mifumo ya umbo la Y na umbo la W — si kwa sababu za kimuundo pekee, bali kama uchaguzi wa makusudi wa kisanaa unaofanya kila ngoma kuwa sanaa iliyopambwa. Muungano wa sanaa ya kuonekana na ya sauti unaonyesha kanuni ya kitamaduni ya Wadigo: kwamba sherehe inastahili uzuri katika kila kipimo, na kwamba vyombo vya ibada na sherehe vinapaswa kustahili matukio vinavyoyatumikia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chini ya ngoma, na kupenyeza katika mifumo yake, kuna patsu — pia inaitwa ukaya — sahani ya chuma inayotumika kama idiofoni, inayopigwa kutoa sauti kali, nyangavu inayopita katika toni nzito za ngoma. Patsu inatoa sehemu ya kushikilia midundo, rejea ya kudumu inayoshikilia muundo changamano wa midundo nyingi pamoja na kuwapa wachezaji mpigo wa kuaminika wa kufuata hata mifumo ya ngoma inapobadilika na kubadilika."
+            },
+            {
+              "type": "heading",
+              "text": "Mzunguko wa Utendaji"
+            },
+            {
+              "type": "paragraph",
+              "text": "Utendaji wa sengenya unafuata mzunguko wa makusudi kutoka utulivu hadi ukali. Chivoti inalialfajiri, ikianzisha muktadha wa kisherehe. Nzumari inaingia, toni zake zinazoendelea zikijenga matarajio na kuwaita washiriki. Ngoma zinaanza polepole, karibu kwa kusita, zikianzisha mifumo yake kabla ya polepole kuongeza sauti na utata. Kucheza kunafuata njia hiyo hiyo: kuanzia mienendo ya upole, ya kipimo na kuendelea hadi udhihirisho wenye nguvu, wenye kutaka mwili ambao unaweza kudumu kwa masaa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mzunguko huu si wa bahati mbaya. Unaonyesha uelewa wa Wadigo wa jinsi nguvu ya kisherehe inapaswa kusimamiwa — si kuachiliwa mara moja, bali kulimwa kwa uangalifu, kuiruhusu jamii kuingia katika nafasi ya ibada polepole na kujenga kuelekea kilele cha kihisia cha pamoja ambacho kina nguvu zaidi kwa kuwa kimefikiwa kwa subira. Utendaji wa sengenya unafundisha washiriki wake kitu kuhusu wakati wenyewe: kwamba nyakati muhimu zaidi si zile zinazofika ghafla bali zile zinazotayarishwa, zinazotarajiwa, na zinazopatikana kwa jitihada."
+            },
+            {
+              "type": "heading",
+              "text": "Goma: Kucheza na Mababu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndani ya sengenya, aina ndogo tofauti zinaendana na muktadha maalum wa kisherehe, na ya heshima zaidi ni *goma*. Mwendo wa goma una nguvu — unaoelezwa na watazamaji kama wenye nguvu kama ya \"fahali\" — na unafanywa hasa kama kitendo cha heshima kwa mababu. Katika mazishi, mwendo wa goma unabadilisha sengenya kutoka ngoma hadi ibada ya mawasiliano kati ya walio hai na wafu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Madhumuni ya goma katika mazishi ni mahususi na ya uzito mkubwa: inafahamika kama \"kupitisha chakula na muziki kwa waliokufa,\" kitendo kinachowasaidia marehemu kujiunga na mababu. Hii si ya kiishara. Katika uelewa wa Wadigo, mwendo wa goma kwa kweli unalisha wafu, ukiwapa riziki — ya kimwili na ya kiroho — wanayoihitaji kukamilisha mpito wao kutoka ulimwengu wa walio hai hadi ulimwengu wa mababu. Nguvu ya kucheza yenyewe ni aina ya sadaka: jamii inavyocheza kwa bidii zaidi, ndivyo inavyowatumikia kwa ufanisi zaidi waliondoka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uelewa huu unaweka goma katika makutano ya muziki, dini, na wajibu wa kijamii. Kucheza goma katika mazishi si hiari au mapambo. Ni wajibu — jukumu ambalo walio hai wanadaiwa na wafu, na ambalo jamii inadaiwa na yenyewe, kwa sababu kushughulika vizuri na wafu kunakahakikisha kuendelea kwa wema wa mababu kwa walio hai."
+            },
+            {
+              "type": "heading",
+              "text": "Zandale na Mserego"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aina ndogo nyingine za sengenya zinaendana na muktadha tofauti za kisherehe. *Zandale* ni mila ya mienendo inayoshirikiwa na Waduruma na Wagiriama — mojawapo ya sehemu za kuingiliana kati ya sengenya na utamaduni mpana wa muziki wa Mijikenda. Tabia yake ya kushirikiwa inaonyesha uhusiano wa kihistoria kati ya jamii hizi, urithi wa pamoja unaotegemeza utambulisho wao tofauti."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mserego*, kwa upande mwingine, unahusishwa na harusi pekee. Pale ambapo goma ni ya kifo, mserego ni ya mwanzo wa maisha mapya — muungano wa familia, sherehe ya uzazi, uwekezaji wa jamii katika mustakabali wake. Msamiati wa mienendo wa mserego unatofautiana na nguvu ya goma: ni wa kusherehekea badala ya wa heshima, wa furaha badala ya wa ukali, unaelekea siku za usoni badala ya zamani. Hata hivyo, aina ndogo zote mbili zinashiriki kikundi kimoja cha vyombo, miundo ile ile ya msingi ya midundo, na uelewa ule ule kwamba mabadiliko muhimu ya maisha yanastahili uzito kamili wa udhihirisho wa muziki wa jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Taasisi Rasmi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya mambo ya kipekee zaidi ya sengenya ni kiwango ambacho watendaji wake wamepangwa rasmi. Watendaji wa sengenya hawakusanyiki tu kwa njia isiyo rasmi kucheza. Wanapangwa katika taasisi rasmi zenye maafisa walioteuliwa, sheria zilizoandikwa, kanuni za uanachama, na mifumo ya utawala inayosimamia kila kitu kutoka kwa nani anaweza kuimba hadi jinsi vyombo vinavyohifadhiwa na kutunzwa. Taasisi hizi zinafanya kazi kama mashirika ya uhifadhi wa kitamaduni, yakihakikisha kwamba viwango vya utendaji vinadumishwa, watendaji wapya wanafunzwa ipasavyo, na mila inapitishwa salama kutoka kizazi kimoja hadi kingine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo huu wa kitaasisi unaonyesha uzito ambao Wadigo wanaona sengenya. Si burudani ya kawaida. Ni desturi ya kitamaduni ya umuhimu wa kutosha kustahili utawala rasmi — kutambua kwamba kitu chenye thamani hivi hakiwezi kuachwa kwa bahati nasibu au shauku ya mtu mmoja bali lazima kisimamiwe, kilindwe, na kiendelezwe na jamii yote kwa pamoja."
+            },
+            {
+              "type": "heading",
+              "text": "Vyombo kama Sanaa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuona kikundi cha sengenya kikiwa kimekusanyika kwa utendaji ni kuona mkusanyiko wa vitu ambavyo wakati huo huo ni vyombo vya muziki na kazi za sanaa ya kuonekana. Chivoti imepambwa kwa shanga. Nzumari inabeba michoro ya kijiometri iliyochongwa kwenye kengele zake. Ngoma zinaonyesha mifumo yake ya ushonaji ya umbo la Y na umbo la W. Hata sahani ya chuma ya patsu, chombo cha kawaida zaidi katika kikundi, inachukua umuhimu wa kisherehe unaokiinua juu ya kazi yake ya kila siku ya nyumbani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuzingatia huku kipimo cha kuonekana cha vyombo vya muziki ni tabia ya hisia za kisanaa za Wadigo. Chombo kinachosikika kwa uzuri kinapaswa pia kuonekana kwa uzuri. Sherehe inayowaheshimu mababu au kusherehekea ndoa inastahili vyombo ambavyo vyenyewe vinastahili heshima. Kupamba vyombo vya sengenya si kiburi. Ni heshima — kwa muziki, kwa sherehe, kwa jamii, na kwa mila ya kitamaduni inayoviunganisha vyote hivi."
+            },
+            {
+              "type": "heading",
+              "text": "Uandishi na Mwendelezo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uandishi wa kitaaluma wa sengenya — hasa na Njoora na Mtawali katika Jarida la ILAM, na kupitia rekodi za shambani za Mradi wa Singing Wells mwaka wa 2011 — umeunda kumbukumbu muhimu ya mila kama ilivyokuwa katika miongo ya hivi karibuni. Rekodi na uchambuzi hizi zinahifadhi utendaji maalum, mbinu maalum za vyombo, na taarifa maalum za muktadha ambazo vinginevyo zingeweza kupotea watendaji wakubwa wanapokufa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini uandishi, hata ukiwa na thamani, si sawa na desturi hai. Mila ya sengenya inadumu si katika hifadhi bali katika jamii ambapo inafanywa — katika mazishi ambapo goma inalisha mababu, katika harusi ambapo mserego inasherehekea mwanzo mpya, katika matukio ya kisherehe ambapo chivoti inalialfajiri na nzumari inawaita wachezaji. Mustakabali wa sengenya hautegemei wasomi bali jamii za Wadigo zinazotambua kuwa ni yao — zinazosikia chivoti alfajiri na kujua, bila kuambiwa, kwamba sauti hiyo ni yao."
             }
           ],
           "dig": [
@@ -3251,6 +4843,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kuandikwa kpwa kitaalamu kpwa sengenya — hasa ni Njoora na Mtawali kpwa ILAM Journal, na kupishira marekodi ga Singing Wells Project mwaka wa 2011 — kumeumba rekodi ya thamani ya chimila dza chirivyokala kpwa miaka ya hivi karibuni. Ela kuandikwa, ingawa kwa thamani, si sawa na chimila chirichohai. Chimila cha sengenya chinasala si kpwa makavazi ela kpwa jamii ambazo chinahendwa — kpwa mazishi ambapo goma inalisha avyere a kare, kpwa harusi ambapo mserego inasherehekea mwandzo muphya, kpwa sherehe ambapo chivoti inapiga alfajiri na nzumari inaiha acheza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Madhumuni ga goma kpwa mazishi ni mahususi na ga uzito mkpwulu: inaeleweka dza \"kupisha chakurya na muziki kpwa ariokofa,\" chitendo chinachosaidiya marehemu kujiunga na akare. Ihi si ya chiishara. Kpwa uelewano wa Adigo, mwendo wa goma kpwa kpweli unaarisa ariokufa, ukiapha riziki — ya chimwiri na ya chiroho — anayoihitaji kukamilisha mpito wao kula ulimwengu wa ario moyo hadi ulimwengu wa akare. Nguvu ya kuvina yenye ni aina ya sadaka: jamii inavyovina kpwa bidii zaidi, ndivyo inavyoatumikira kpwa ufanisi zaidi ariotoka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uelewano uhu unawika goma kpwa makutano ga muziki, dini, na wajibu wa kijamii. Kuvina goma kpwa mazishi si hiari au mapambo. Ni wajibu — jukumu ambaro ario moyo anadaiwa ni ariokufa, na ambaro jamii inadaiwa ni yenye, kpwa sababu kushughulika vinono na ariokufa kunakahakikisha kuenderera kpwa wema wa akare kpwa ario moyo."
+            },
+            {
+              "type": "heading",
+              "text": "Zandale na Mserego"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aina ndide zanjine za sengenya zinaendana na muktadha tofauti za kisherehe. *Zandale* ni mila ya miendo inayoshirikiwa na Aduruma na Agiriama — mwenga wa sehemu za kuingiliana kahi ya sengenya na utamaduni mkpwulu wa muziki wa Amijikenda. Tabia yakpwe ya kushirikiwa inaonyesa uhusiano wa kihistoria kahi ya jamii zizi, urithi wa phamwenga unaotegemeza utambuzi wao tofauti."
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mserego*, kpwa upande wanjine, unahusishwa na harusi bahi. Phatu ambapho goma ni ya chifo, mserego ni ya mwandzo wa maisha mapya — muungano wa famili, sherehe ya uzazi, uwekezaji wa jamii kpwa siku zakpwe za mbere. Msamiati wa miendo wa mserego unatofautiana na nguvu ya goma: ni wa kusherehekea badala ya wa heshima, wa raha badala ya wa ukali, unaelekea siku za mbere badala ya kare. Hata hivyo, aina ndide zosi mbiri zinashiriki kikundi chimwenga cha vyombo, miundo iyo-iyo ya msingi ya midundo, na uelewano ule-ule kukala mabadiliko muhimu ga maisha ganastahili uzito kamili wa uonyesho wa muziki wa jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Taasisi Rasmi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwenga wa mambo ga kipekee zaidi ga sengenya ni chipimo ambacho atendaji akpwe akakpwanganywa rasmi. Atendaji a sengenya taakusanyika bahi kpwa njira isiyo rasmi kuvina. Anakpwanganywa kpwa taasisi rasmi zenye maafisa arioteuliwa, shariya zirizoandikwa, kanuni za uanachama, na mifumo ya utawala inayosimamia kila chitu kula ani anaweza kuimba hadi vyombo vinavyohifadhiwa na kutunzwa vihaje. Taasisi zizi zinafanya kazi dza mashirika ga uhifadhi wa chitamaduni, gakihakikisha kukala vipimo vya utendaji vinadumishwa, atendaji apya anafundzwa ipasavyo, na mila inapishwa salama kula chivyazi chimwenga hadi chanjine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo uhu wa chitaasisi unaonyesa uzito ambao Adigo anaona sengenya. Si burudani ya kawaida. Ni desturi ya chitamaduni ya umuhimu wa kutosha kustahili utawala rasmi — kutambua kukala chitu chenye thamani hivi tachiweza kurichwa kpwa bahati nasibu au shauku ya mutu mmwenga ela lazima chisimamiwe, chilindwe, na chiendelezewe ni jamii yosi kpwa phamwenga."
+            },
+            {
+              "type": "heading",
+              "text": "Vyombo dza Sanaa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuona kikundi cha sengenya chikiwa chimekusanywa kpwa utendaji ni kuona mkusanyiko wa vitu ambavyo wakati uwo-uwo ni vyombo vya muziki na kazi za sanaa ya kuonekana. Chivoti chimepambwa kpwa shanga. Nzumari inatsukula michoro ya kijiometri iriyochongwa kpwa kengele zakpwe. Ngoma zinaonyesa mifumo yakpwe ya ushonaji ya umbo ra Y na umbo ra W. Hata sahani ya chuma ya patsu, chombo cha kawaida zaidi kpwa kikundi, inachukula umuhimu wa kisherehe unachiinula dzulu ya kazi yakpwe ya kila sikukpwe ya nyumbani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuzingatiya kuhu chipimo cha kuonekana cha vyombo vya muziki ni tabia ya hisia za kisanaa za Adigo. Chombo chinachosikika kpwa uzuri chinapaswa piya kuonekana kpwa uzuri. Sherehe inayoaheshimu akare au kusherehekea ndoa inastahili vyombo ambavyo vyenye vinastahili heshima. Kupamba vyombo vya sengenya si kiburi. Ni heshima — kpwa muziki, kpwa sherehe, kpwa jamii, na kpwa mila ya chitamaduni inayoviunganisha vyosi hivi."
+            },
+            {
+              "type": "heading",
+              "text": "Uandishi na Kuenderera"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uandishi wa chitaaluma wa sengenya — hasa ni Njoora na Mtawali kpwa Jarida ra ILAM, na kpwa njira ya rekodi za mundani za Mradi wa Singing Wells mwaka wa 2011 — umekumba kumbukumbu muhimu ya mila dza irivyokala kpwa miongo ya vivi karibuni. Rekodi na uchambuzi zizi zinahifadhi utendaji maalum, mbinu maalum za vyombo, na taarifa maalum za muktadha ambazo kpwa njira yanjine zingeweza kupotea atendaji akulu anaphokofa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela uandishi, hata ukikala na thamani, si sawa na desturi iriyo moyo. Mila ya sengenya inadumu si kpwa hifadhi ela kpwa jamii ambazo inafanywa — kpwa mazishi ambako goma inarisa akare, kpwa harusi ambako mserego inasherehekea mwandzo muphya, kpwa matukio ga kisherehe ambako chivoti chinalira ligundzu na nzumari inaaita avhinaji. Siku za mbere za sengenya taizitegemei asomi ela jamii za Adigo zinazotambua kukala ni yao — zinazosikira chivoti ligundzu na kumanya, bila kuambirwa, kukala sauti iyo ni yao."
             }
           ]
         }
@@ -3407,6 +5055,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Vyakula vya chumvi — viazi karai, samosa, bajia, na mahindi choma — vinakamilisha ofa. Utamaduni wa vyakula vya mitaani ni taasisi ya kijamii na fursa muhimu ya kiuchumi kwa wanawake wa Wadigo, ukitoa uhuru na uwezo wa kupata mapato ndani ya jamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mahamri daima huandamana na mbaazi za nazi — kunde zilizochemshwa katika tui — na mchanganyiko huu ndio kiamsha kinywa cha asili cha pwani. Utamu wa mahamri unachezana na ladha ya chumvi ya mbaazi zenye mafuta ya nazi, ukung'aru wa sehemu ya nje iliyokaangwa unatoa nafasi kwa sehemu ya ndani laini, na harufu ya iliki inachanganyika na nazi na manjano ya kunde. Ni mchanganyiko ambao umeboreshwa kwa vizazi ili kufikia usawa unaohisi kuwa wa lazima, kana kwamba vyakula hivi viwili vilikusudiwa kila wakati kuliwa pamoja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutengeneza mahamri mazuri ni suala la fahari miongoni mwa wanawake wa Kidigo. Ubora wa unga — wepesi wake, nguvu ya iliki yake, uwezo wake wa kuvimba vizuri katika mafuta — ni kipimo cha ustadi wa kupika kinachochukuliwa kwa uzito. Muuzaji anayejulikana kwa mahamri bora atakuwa na wateja waaminifu, wateja wanaopita vibanda vingine kumfikia, na sifa yake katika jamii itaonyesha ubora wa ufundi wake. Mahamri si chakula tu. Ni utendaji wa kila siku wa ustadi wa upishi."
+            },
+            {
+              "type": "heading",
+              "text": "Chapati: Urithi wa Bahari ya Hindi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chapati ilifika pwani ya Afrika Mashariki kupitia karne nyingi za mawasiliano na bara la Hindi ambalo liliumba sehemu kubwa ya utamaduni wa pwani. Mkate huu tambarare usio na chachu, unaotengenezwa kwa unga wa ngano, maji, mafuta, na chumvi, unasukwa nyembamba, unakunjwa, unasukwa tena kuunda tabaka zinazomeguka, na kupikwa kwenye kikaango tambarare na mafuta hadi kuwa na rangi ya dhahabu na kukakamaa kidogo. Mbinu hii inatambulikana kuwa ya asili ya Kihindi, lakini toleo la pwani limeendeleza tabia yake yenyewe — nene kidogo kuliko babu yake wa Asia ya Kusini, lina mafuta zaidi, na mara nyingi linahudumiwa katika muktadha ambao ungekuwa wa kushangaza India."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika pwani ya Wadigo, chapati hutumika kama mwandamano wa mchuzi na kitoweo, mbadala wa wali au ugali ambao ni maarufu hasa wakati wa chakula cha jioni. Inararuliwa kwa mkono na kutumika kuchota mchuzi wa nazi, vipande vya nyama iliyotokoswa, na mchuzi unaotoa ladha ya moyo wa mlo. Chapati pia ni mkate wa sherehe, unaoandaliwa kwa wingi kwa harusi na mikusanyiko ya Idi, ambapo uwepo wake mezani unaashiria wingi na ukarimu. Ustadi wa kutengeneza chapati kamili — kufikia tabaka zinazomeguka, rangi ya dhahabu, na utamu wa kutafuna — ni alama nyingine ya ustadi wa nyumbani katika nyumba za Wadigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mkate wa Kumimina: Mkate Unaomiminiwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkate wa kumimina — kwa maana halisi \"mkate unaomiminiwa,\" pia unajulikana kama mkate wa sinia — ni mojawapo ya bidhaa za kuoka za kipekee zaidi za pwani ya Kiswahili. Ni maandalizi yasiyo na gluteni kiasili yanayotengenezwa kwa unga wa mchele, tui, sukari, hamira, na iliki, yaliyochanganywa kuwa uji mwembamba unaomiminiwa kwenye sinia ya moto iliyopakwa mafuta na kuokwa hadi uimae. Jina linaeleza mbinu: uji ni wa majimaji mno kushikiliwa kwa mkono, kwa hivyo unamiminiwa — kumimina — katika chombo chake, ambapo unabadilika katika joto kuwa mkate wa sifongo, tamu kidogo, wenye uso wa dhahabu na ndani laini yenye unyevu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkate wa kumimina unashika nafasi ya kitamaduni ya kuvutia. Una sherehe ya kutosha kuonekana katika maadhimisho na matukio maalum — harusi, Idi, mikusanyiko ya jamii — lakini ni rahisi wa kutosha kuandaliwa nyumbani kama vitamu vya kila siku. Msingi wake wa unga wa mchele unaunganisha na mila za nafaka za pwani, huku tui na iliki yake ikiunganisha na paleti pana ya ladha inayofafanua uokaji wa Kidigo. Mkate huu kwa kawaida hukatwa katika vipande vya pembetatu au vinne na kuhudumiwa pamoja na chai, ingawa pia huliwa peke yake kama vitafunio."
+            },
+            {
+              "type": "heading",
+              "text": "Vitumbua: Maandazi ya Mchele"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vitumbua ni maandazi madogo, ya mviringo ya mchele yanayopikwa katika kalimba maalum ya chuma ya kutupwa yenye mashimo ya nusu duara — chombo cha kipekee kiasi kwamba chenyewe ni alama ya jikoni ya pwani. Uji unatengenezwa kwa mchele uliosagwa, tui, sukari, na hamira, ukichachishwa hadi kutoa viputo na kuwa na ladha ya siki kidogo, kisha ukishukuliwa kwa kijiko katika mashimo yaliyopakwa mafuta ya kalimba ya moto. Vitumbua vinapikwa hadi kuwa na rangi ya dhahabu chini, kisha vinageuzwa kumalizika upande mwingine, na kutoa keki ndogo nene ambazo ni kakamavu nje na laini na ladha ya siki kidogo ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vitumbua ni vitafunio vya alasiri na jioni, mara nyingi vinauzwa pamoja na vyakula vingine vya mitaani alasiri wakati joto la mchana linapoanza kupungua. Ni rahisi zaidi na havitamu kama mahamri, ni vitafunio vya kawaida zaidi kuliko kiamsha kinywa kikubwa, lakini ladha yake ya nazi-mchele na muundo wake wa kipekee vimevipa nafasi ya kudumu katika orodha ya vitafunio vya pwani. Kama mahamri, vinahitaji tui safi ambao ni msingi wa uokaji wa pwani, na ubora wake unategemea ustadi wa kuchachisha uji na kusimamia kalimba."
+            },
+            {
+              "type": "heading",
+              "text": "Kashata na Mila ya Utamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kashata — pipi ya nazi — inawakilisha upande wa utamu wa aina za vyakula vya mitaani vya Wadigo. Inatengenezwa kwa nazi iliyokunwa ikipikwa na sukari hadi mchanganyiko unakaramelika na kuwa mgumu, kashata inauzwa katika vipande vidogo vilivyofungwa kwa karatasi au plastiki, tamu ya kubebeka ambayo watoto wananunua kwa pesa ya mfukoni na watu wazima wanafurahia kama kitamu cha baada ya mlo. Urahisi wa mapishi — kimsingi nazi na sukari tu — unaficha ustadi unaohitajika kuipika vizuri: ukaramelishaji lazima upelekwe mbali ya kutosha kutoa ukakamavu wa kuridhisha bila kuunguza nazi, pengo finyu linalotenganisha mafanikio na kushindwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila pana ya utamu ya pwani ya Wadigo inaonyesha urithi wa kitamaduni wa Kiislamu wa jamii. Kaimati — vidonge vitamu vinavyokaangwa na kulowekwa katika sharubati ya sukari — ni muhimu kwa sherehe za Idi. Visheti, keki laini za Idi, zinahitaji maandalizi ya uvumilivu na mbinu ya ustadi. Halwa, utamu wa harufu nzuri wa asili ya Kiarabu unaotengenezwa kwa sukari, siagi, na viungo, unaonekana katika matukio rasmi zaidi. Tambi — tambi iliyopikwa na iliki na sukari — hutumika kama kitindamlo katika sherehe. Vitamu hivi vinawaunganisha Wadigo na ulimwengu mpana wa Kiislamu wa Bahari ya Hindi, undugu wa upishi unaoenea kutoka pwani ya Afrika Mashariki hadi Nchi za Ghuba na zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Viazi Karai na Upande wa Chumvi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakula vyote vya mitaani si vitamu. Viazi karai — viazi vilivyochovywa katika uji wa unga wa dengu wenye viungo na kukaangwa kwa mafuta mengi — ni mojawapo ya vitafunio maarufu zaidi vya chumvi katika miji ya pwani. Vipande vya viazi vinachovywa katika uji wa unga wa dengu wenye viungo na kukaangwa hadi kuwa na rangi ya dhahabu na kukakamaa, na kutoa kitafunio ambacho kwa wakati mmoja ni kakamavu, laini, na chenye viungo vya joto. Samosa, keki za pembetatu zilizojazwa viazi vyenye viungo, mbaazi, au nyama iliyosagwa, zinapatikana kila mahali — zinauzwa kila duka la soko na kila kona ya barabara, zinaliwa wakati wowote wa siku. Bajia, vidonge vya dengu vyenye viungo, na mahindi choma, mahindi ya kubanika yanayotiwa ndimu na pilipili, vinakamilisha ofa za chumvi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakula hivi vya mitaani vya chumvi vinashiriki tabia moja: ni rahisi bei, vinabebeka, na vinaridhisha sana. Ni chakula cha soko na kituo cha basi, kitu cha kuamsha alasiri na kitafunio cha usiku. Ni vya kidemokrasia kwa maana halisi — vinapatikana kwa kila mtu, vinafurahiwa na kila mtu, na vinahukumiwa si kwa ustaarabu wake bali kwa utekelezaji wake. Viazi karai vilivyokaangwa vizuri kutoka kwa muuzaji anayeaminika ni raha ndogo inayogharimu karibu kitu na kutoa karibu kila kitu."
+            },
+            {
+              "type": "heading",
+              "text": "Utamaduni wa Mitaani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Utamaduni wa vyakula vya mitaani katika pwani ya Wadigo ni zaidi ya shughuli ya kiuchumi au urahisi. Ni taasisi ya kijamii, sehemu ya kukusanyika ya kila siku ambapo maisha ya jamii yanafanywa na kuhuishwa upya. Muuzaji wa mahamri wa asubuhi anajua wateja wake kwa jina, anajua mapendekezo yao, anajua midundo ya maisha yao. Muuzaji wa viazi karai wa alasiri ni sehemu ya kudumu ya mtaa, uwepo wa kuaminika ambao moto wake wa mkaa na mafuta yanayochachacha yanaashiria kupita kwa alasiri. Wauzaji hawa si watoa kalori wasiojulikana. Ni wanajamii, vibanda vyao ni sehemu zisizo rasmi za kukutana, na kitendo cha kununua na kula vyakula vya mitaani chenyewe ni aina ya kushiriki kijamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila ya vyakula vya mitaani pia inawakilisha mojawapo ya fursa muhimu zaidi za kiuchumi zinazopatikana kwa wanawake wa Kidigo. Katika jamii ambapo fursa rasmi za ajira kwa wanawake ni chache, kuuza vyakula vya mitaani kunatoa uhuru, kubadilika, na uwezo wa kupata kipato huku ukibaki umeshikamana na jamii. Ustadi unaohitajika — ujuzi wa mapishi, umilisi wa mbinu za kupika, uelewa wa mapendekezo ya wateja, usimamizi wa bidhaa na fedha — unaunda aina ya utaalamu wa ujasiriamali unaopitishwa kutoka mama hadi binti, kutoka muuzaji mwenye uzoefu hadi mwanafunzi, katika mfumo usio rasmi lakini wenye ufanisi wa elimu ya kiuchumi."
             }
           ],
           "dig": [
@@ -3429,6 +5157,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Vyakurya vya munyu — viazi karai, samosa, bajia, na mahindi choma — vinakamilisha ofa. Chimila cha vyakurya vya mitaani ni taasisi ya kijamii na fursa muhimu ya kiuchumi kpwa achetu a Adigo, ukipha uhuru na uwezo wa kupata mapato ndani ya jamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mahamri chikala gaandamana na mbaazi za nazi — kunde zirizochemshwa kpwa tui — na mchanganyiko uhu ndio kiamsha kinywa cha asili cha ph'wani. Utamu wa mahamri unachezana na ladha ya chumvi ya mbaazi zenye mafuta ga nazi, ukung'aru wa sehemu ya ndze iriyokalangwa unatoa nafasi kpwa sehemu ya ndani laini, na harufu ya iliki inachanganyika na nazi na manjano ya kunde. Ni mchanganyiko ambao umeboreshwa kpwa vivyazi ili kufikira usawa unaohisika kukala ni wa lazima, kana kwamba vyakurya hivi viiri vikakusudiwa kila wakati kuriwa phamwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutengeneza mahamri manono ni suala ra fahari kahi ya achetu a Chidigo. Ubora wa unga — wepesi wakpwe, nguvu ya iliki yakpwe, uwezo wakpwe wa kuvimba vinono kpwa mafuta — ni chipimo cha ustadi wa kupika chinachochukuliwa kpwa uzito. Muuzaji anayemanyikana kpwa mahamri manono andakala na ateja aaminifu, ateja anaotsupa vibanda vyanjine kumfikira, na sifa yakpwe kpwa jamii indaonyesa ubora wa ufundi wakpwe. Mahamri si chakurya bahi. Ni utendaji wa kila siku wa ustadi wa upishi."
+            },
+            {
+              "type": "heading",
+              "text": "Chapati: Urithi wa Bahari ya Hindi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chapati yakpwedza ph'wani ya Afrika Mashariki kpwa njira ya karne nyinji za mawasiliano na bara ra Hindi ambaro raiumba sehemu kulu ya utamaduni wa ph'wani. Mkate uhu tambarare usio na hamira, unaotengenezwa kpwa unga wa ngano, madzi, mafuta, na chumvi, unasukwa nyembamba, unakunjwa, unasukwa luphya kuumba tabaka zinazomeguka, na kupikwa kpwa chikaango tambarare na mafuta hadi kukala na rangi ya dhahabu na kukakamaa chidide. Mbinu ihi inatambulikana kukala ya asili ya Chihindi, ela toleo ra ph'wani rimeendeleza tabia yakpwe yenye — nene chidide kuriko babu yakpwe ya Asia ya Kusini, rina mafuta zaidi, na mara nyinji rinahudumiwa kpwa muktadha ambao ungekala wa kushangaza India."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa ph'wani ya Adigo, chapati inatumika dza mwandamano wa mchuzi na chitoweo, mbadala wa wali au ugali ambao ni maarufu hasa wakati wa chakurya cha dziloni. Inararuliwa kpwa mkono na kutumika kuchola mchuzi wa nazi, vipande vya nyama iriyotokoswa, na mchuzi unaopha ladha ya moyo wa mlo. Chapati piya ni mkate wa sherehe, unaoandalishwa kpwa unji kpwa harusi na mikutano ya Idi, ambapho uwepo wakpwe mezani unaashiria unji na ukarimu. Ustadi wa kutengeneza chapati kamili — kufikira tabaka zinazomeguka, rangi ya dhahabu, na utamu wa kutafuna — ni alama yanjine ya ustadi wa nyumbani kpwa nyumba za Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mkate wa Kumimina: Mkate Unaomiminiwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkate wa kumimina — kpwa mana halisi \"mkate unaomiminiwa,\" piya unamanyikana dza mkate wa sinia — ni mwenga wa bidhaa za kuoka za kipekee zaidi za ph'wani ya Chiswahili. Ni maandalizi gasiyo na gluteni chiasili ganagotengezwa kpwa unga wa mchele, tui, sukari, hamira, na iliki, garigochanganywa kukala uji mwembamba unaomiminiwa kpwa sinia ya moho iriyopakwa mafuta na kuokwa hadi uimae. Dzina rinaeleza mbinu: uji ni wa madzimadzi mno kushikiliwa kpwa mkono, kpwa hivyo unamiminiwa — kumimina — kpwa chombo chakpwe, ambako unabadilika kpwa moho kukala mkate wa sifongo, tamu chidide, wenye uso wa dhahabu na ndani laini yenye unyevu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkate wa kumimina unashika nafasi ya chitamaduni ya kuvutiya. Una sherehe ya kutosha kuonekana kpwa maadhimisho na matukio maalum — harusi, Idi, mikutano ya jamii — ela ni rahisi wa kutosha kuandalishwa nyumbani dza vitamu vya kila siku. Msingi wakpwe wa unga wa mchele unaunganisha na mila za nafaka za ph'wani, huku tui na iliki yakpwe ikiunganisha na paleti pana ya ladha inayofafanua uokaji wa Chidigo. Mkate uhu kpwa kawaida unakatwa kpwa vipande vya pembetatu au vinne na kuhudumiwa phamwenga na chai, ingawa piya unariwa peke yakpwe dza chitafunio."
+            },
+            {
+              "type": "heading",
+              "text": "Vitumbua: Maandazi ga Mchele"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vitumbua ni maandazi madide, ga mviringo ga mchele ganapikwa kpwa kalimba maalum ya chuma ya kutupwa yenye mashimo ga nusu duara — chombo cha kipekee chiasi ambacho chenye ni alama ya dziko ra ph'wani. Uji unatengenezwa kpwa mchele uryosagwa, tui, sukari, na hamira, ukichachishwa hadi kutoa viputo na kukala na ladha ya siki chidide, halafu ukishukuliwa kpwa kijiko kpwa mashimo garigopakwa mafuta ga kalimba ya moho. Vitumbua vinapikwa hadi kukala na rangi ya dhahabu kpwa ndani, halafu vinageuzwa kumalizika upande wanjine, na kutoa keki ndide nene ambazo ni kakamavu ndze na laini na ladha ya siki chidide ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vitumbua ni vitafunio vya muhidogo na dziloni, mara nyinji vinauzwa phamwenga na vyakurya vyanjine vya njira muhidogo wakati moho wa mutsi unaphoandza kupunguka. Ni rahisi zaidi na tavitamu dza mahamri, ni vitafunio vya kawaida zaidi kuriko kiamsha kinywa kikulu, ela ladha yakpwe ya nazi-mchele na muundo wakpwe wa kipekee vimevipa nafasi ya kudumu kpwa orodha ya vitafunio vya ph'wani. Dza mahamri, vinahitaji tui swafi ambao ni msingi wa uokaji wa ph'wani, na ubora wakpwe unategemea ustadi wa kuchachisha uji na kusimamia kalimba."
+            },
+            {
+              "type": "heading",
+              "text": "Kashata na Mila ya Utamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kashata — pipi ya nazi — inawakilisha upande wa utamu wa aina za vyakurya vya njira vya Adigo. Inatengenezwa kpwa nazi iriyokunwa ikipikwa na sukari hadi mchanganyiko unakaramelika na kukala mgumu, kashata inauzwa kpwa vipande vidide virivyofungwa kpwa karatasi au plastiki, tamu ya kubebeka ambayo ana ananunua kpwa pesa ya mfukoni na atu akulu anafurahiya dza chitamu cha bada ya mlo. Urahisi wa mapishi — kpwa msingi nazi na sukari bahi — unaficha ustadi unaohitajika kuipika vinono: ukaramelishaji lazima upelekwe mbali ya kutosha kutoa ukakamavu wa kuridhisha bila kuunguza nazi, pengo finyu rinarodenganisha mafanikio na kushindwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila pana ya utamu ya ph'wani ya Adigo inaonyesa urithi wa chitamaduni wa Chiislamu wa jamii. Kaimati — vidonge vitamu vinavyokalangwa na kulowekwa kpwa sharubati ya sukari — ni muhimu kpwa sherehe za Idi. Visheti, keki laini za Idi, zinahitaji maandalizi ga uvumilivu na mbinu ya ustadi. Halwa, utamu wa harufu nono wa asili ya Chiarabu unaotengenezwa kpwa sukari, siagi, na viungo, unaonekana kpwa matukio rasmi zaidi. Tambi — tambi iriyopikwa na iliki na sukari — inatumika dza chitindamlo kpwa sherehe. Vitamu hivi vinaunganisha Adigo na ulimwengu mkpwulu wa Chiislamu wa Bahari ya Hindi, undugu wa upishi unaoenea kula ph'wani ya Afrika Mashariki hadi Nchi za Ghuba na zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Viazi Karai na Upande wa Chumvi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakurya vyosi vya njira si vitamu. Viazi karai — viazi virivyochovywa kpwa uji wa unga wa dengu wenye viungo na kukalangwa kpwa mafuta manji — ni chimwenga cha vitafunio maarufu zaidi vya chumvi kpwa midzi ya ph'wani. Vipande vya viazi vinachovywa kpwa uji wa unga wa dengu wenye viungo na kukalangwa hadi kukala na rangi ya dhahabu na kukakamaa, na kutoa chitafunio ambacho kpwa wakati mmwenga ni kakamavu, laini, na chenye viungo vya moho. Samosa, keki za pembetatu zirizojazwa viazi vyenye viungo, mbaazi, au nyama iriyosagwa, zinapatikana kila phatu — zinauzwa kila duka ra soko na kila kona ya njira, zinariwa wakati wowose wa siku. Bajia, vidonge vya dengu vyenye viungo, na mahindi choma, mahindi ga kubanika ganagotiwa ndimu na pilipili, vinakamilisha ofa za chumvi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakurya hivi vya njira vya chumvi vinashiriki tabia mwenga: ni rahisi bei, vinabebeka, na vinaridhisha sana. Ni chakurya cha soko na chituo cha basi, chitu cha kuamsha muhidogo na chitafunio cha usiku. Ni vya kidemokrasia kpwa mana halisi — vinapatikana kpwa kila mutu, vinafurahiwa ni kila mutu, na vinahukumiwa si kpwa ustaarabu wakpwe ela kpwa utekelezaji wakpwe. Viazi karai virivyokalangwa vinono kula kpwa muuzaji anayeaminika ni raha ndide inayogharimu phephi kpwa chitu na kutoa phephi kpwa kila chitu."
+            },
+            {
+              "type": "heading",
+              "text": "Utamaduni wa Njira"
+            },
+            {
+              "type": "paragraph",
+              "text": "Utamaduni wa vyakurya vya njira kpwa ph'wani ya Adigo ni zaidi ya shughuli ya chiuchumi au urahisi. Ni taasisi ya kijamii, sehemu ya kukusanyika ya kila siku ambapho maisha ga jamii ganafanywa na kuhuishwa luphya. Muuzaji wa mahamri wa ligundzu anamanya ateja akpwe kpwa dzina, anamanya mapendekezo gao, anamanya midundo ya maisha gao. Muuzaji wa viazi karai wa muhidogo ni sehemu ya kudumu ya mtaa, uwepo wa kuaminika ambao moho wakpwe wa makala na mafuta ganagochachacha ganaashiria kutsupa kpwa muhidogo. Auza haha si atoa kalori asiomanyikana. Ni anajamii, vibanda vyao ni sehemu zisizo rasmi za kukutana, na chitendo cha kunula na kurya vyakurya vya njira chenye ni aina ya kushiriki kijamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila ya vyakurya vya njira piya inawakilisha mwenga wa fursa muhimu zaidi za chiuchumi zinazopatikana kpwa achetu a Chidigo. Kpwa jamii ambayo fursa rasmi za kazi kpwa achetu ni chache, kuuza vyakurya vya njira kunatoa uhuru, kubadilika, na uwezo wa kupata chipato huku ukisala umeshikamana na jamii. Ustadi unaohitajika — umanyifu wa mapishi, umilisi wa mbinu za kupika, uelewano wa mapendekezo ga ateja, usimamizi wa bidhaa na pesa — unaumba aina ya utaalamu wa ujasiriamali unaopishwa kula mayo hadi mwana mchetu, kula muuzaji mwenye uzoefu hidi mwanafundzi, kpwa mfumo usio rasmi ela wenye ufanisi wa elimu ya chiuchumi."
             }
           ]
         }
@@ -3576,6 +5384,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Umuhimu wa nazi katika maisha ya Wadigo unaenea zaidi ya kupikia — mafuta ya ngozi, makuti ya paa, kamba za nyuzi, na tembo ya mnazi. Mnazi unakabiliwa na vitisho vinavyohatarisha si chanzo cha chakula tu bali njia nzima ya maisha."
+            },
+            {
+              "type": "heading",
+              "text": "Mbaazi za Nazi: Kunde katika Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikiwa wali wa nazi ndio kitovu, mbaazi za nazi ndio mwandamano wake mwaminifu zaidi. Kunde — jamii ndogo, za mviringo za mikunde ambazo ni zao kuu la pwani ya Afrika Mashariki — zinachemswa polepole katika tui na manjano, ambayo inaipatia sahani rangi yake ya kipekee ya dhahabu, na kukamilishwa kwa kukamuliwa ndimu safi. Matokeo yake ni bakuli la mikunde yenye mafuta, yenye viungo kidogo ambayo wakati huo huo ni ya kujaza na laini, udongo wa kunde ukiwa umelainishwa na kutajirishwa na nazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mbaazi za nazi ni sahani muhimu ya kiamsha kinywa ya pwani ya Wadigo. Inahudumiwa katika bakuli bapa pamoja na mahamri ya pembetatu — unga uliokaangwa wa iliki na nazi ambao ni jibu la pwani kwa doughnut — inaunda mlo unaoanzisha siku kwa mamilioni ya watu wa pwani ya Afrika Mashariki. Mchanganyiko huu unahusishwa sana na utambulisho wa pwani hivi kwamba unafanya kazi karibu kama alama ya kitamaduni: kula mbaazi za nazi na mahamri kwa kiamsha kinywa ni kujitangaza kuwa mtu wa pwani. Sahani hii pia inahudumiwa katika milo mingine na inaonekana mara kwa mara katika sherehe na mikusanyiko ya jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Mchuzi wa Nazi: Mchuzi wa Kitoweo cha Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchuzi wa nazi si sahani moja bali ni mbinu, kiolezo kinachoweza kubeba karibu protini au mboga yoyote ambayo mpishi anayo. Msingi ni wa kudumu: vitunguu na kitunguu saumu vinalainishwa katika mafuta, nyanya zinaongezwa na kupikwa, viungo vinaingizwa — kwa kawaida manjano, jira, giligilani, na pilipili — na kisha tui inamiminiwa kuunda mchuzi. Katika kioevu hiki chenye harufu nzuri, chenye rangi ya dhahabu, huenda kiungo kikuu: samaki, kuku, nyama ya ng'ombe, viazi, mchicha, maharagwe, au mchanganyiko wowote wa hayo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ubadilifu wa mchuzi wa nazi ndio ustadi wake. Ni suluhisho la kila siku la swali la kupika nini, linabadilika kulingana na soko linapotoa au bustani inapozalisha. Mchuzi wa samaki una ladha tofauti kabisa na mchuzi wa viazi, hata hivyo vyote vinatambulikakuwa sahani ile ile — nazi ikiviunganisha katika familia moja ya upishi. Ubadilifu huu umefanya mchuzi wa nazi kuwa farasi wa kazi wa kupika nyumbani kwa Wadigo, sahani inayoonekana mara nyingi zaidi mezani ya kila siku na ambayo kila mpishi wa Kidigo anaimiliki kabla ya kujaribu kitu chochote changamano zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Samaki wa Kupaka: Samaki Aliyepakwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miongoni mwa maandalizi mengi ya nazi ya pwani, samaki wa kupaka anashikilia nafasi maalum kama sahani inayoonyesha vyema zaidi ndoa ya samaki na nazi inayofafanua upishi wa pwani. Jina lenyewe linasimulia hadithi: kupaka maana yake ni kupiga rangi au kupaka, na sahani inahusisha kuchoma samaki — kwa kawaida changu au nguru — juu ya makaa hadi ngozi iwe kakamavu na yenye moshi, kisha kupaka kwa ukarimu mchuzi wa tui, manjano, maji ya ndimu, kitunguu saumu, na pilipili. Samaki kisha anarudishwa kwa muda mfupi kwenye joto ili mchuzi uimae na kuwa gamba la dhahabu lenye harufu nzuri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matokeo yake ni sahani ya utata wa ajabu iliyojengwa kutoka vipengele rahisi: mkaa na moshi wa kuchomea, utajiri wa nazi, mng'ao wa ndimu, joto la manjano, na ladha safi ya samaki mbichi. Samaki wa kupaka anahudumiwa katika sherehe na milo maalum, ingawa si wa kifahari kiasi kwamba hawezi kuonekana katika chakula cha kawaida cha jioni samaki wazuri wanapopatikana. Ni sahani ambayo wapishi wa pwani wanaijivunia zaidi, ile inayoweza kutayarishwa zaidi wageni wanapofika, na maandalizi yanayowakilisha vyema zaidi imani ya Wadigo kwamba nazi inafanya kila kitu kuwa bora."
+            },
+            {
+              "type": "heading",
+              "text": "Zaidi ya Jikoni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa nazi katika maisha ya Wadigo unaenea zaidi ya kupika. Mafuta ya nazi yanatumika kwa utunzaji wa ngozi na nywele. Makuti ya nazi yanafumwa kuwa vikapu, mikeka, na vipepeo. Shina linatoa mbao za kujenga. Maganda yanatoa nyuzi za makumbi kwa kamba na fagio. Makuti — makuti ya nazi yanayoshonwa juu ya fito kwa uzi wa katani — ni nyenzo za jadi za kuezekea, zinazowekwa tabaka kutoka chini hadi juu na pengo la inchi nne linalomwaga mvua kwa ufanisi. Na utomvu wa mnazi unatiwa ili kuzalisha mnazi, pombe ya mitende ambayo ni kitovu cha maisha ya kijamii ya Wadigo na mojawapo ya mazungumzo yake changamano zaidi ya kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mnazi unakabili vitisho vinavyohatarisha si chanzo cha chakula tu bali njia nzima ya maisha. Ugonjwa wa manjano ya kuua, uvamizi wa mende wa faru, uharibifu wa mashamba ya minazi kwa shughuli za uchimbaji madini, na kuzeeka kwa hifadhi ya miti iliyopo bila kupanda upya wa kutosha vyote vinachangia kupungua taratibu kwa uchumi wa nazi. Kwa watu ambao upishi wao, riziki zao, mila zao za ujenzi, na mikusanyiko yao ya kijamii yote yanategemea mnazi, vitisho hivi vinabeba athari zinazofika kwa kina zaidi kuliko kilimo peke yake. Mustakabali wa nazi katika nchi ya Wadigo ni, kwa maana halisi, mustakabali wa utamaduni wa Wadigo wenyewe."
             }
           ],
           "dig": [
@@ -3618,6 +5474,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Umuhimu wa nazi kpwa maisha ga Adigo unaenea zaidi ya kupikia — mafuta ga ngozi, makuti ga paa, kamba za nyuzi, na tembo ya mnazi. Mnazi unakabiliwa ni vitisho vinavyohatarisha si chanzo cha chakurya tu ela njira ndzima ya maisha."
+            },
+            {
+              "type": "heading",
+              "text": "Mbaazi za Nazi: Kunde kpwa Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ichikala wali wa nazi ndio chitovu, mbaazi za nazi ndio mwandamano wakpwe muaminifu zaidi. Kunde — jamii ndide, za mviringo za mikunde ambazo ni zao kulu ra ph'wani ya Afrika Mashariki — zinachemswa pole-pole kpwa tui na manjano, ambayo inaipa sahani rangi yakpwe ya kipekee ya dhahabu, na kukamilishwa kpwa kukamuriwa ndimu swafi. Masiho ni bakuli ra mikunde yenye mafuta, yenye viungo chidide ambayo kpwa wakati mmwenga ni ya kujaza na laini, udongo wa kunde ukikala umelainishwa na kutajirishwa ni nazi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mbaazi za nazi ni sahani muhimu ya kiamsha kinywa ya ph'wani ya Adigo. Inahudumiwa kpwa bakuli bapa phamwenga na mahamri ga pembetatu — unga uriokalangwa wa iliki na nazi ambao ni jibu ra ph'wani kpwa doughnut — inaumba mlo unaoandzisha siku kpwa mamilioni ga atu a ph'wani ya Afrika Mashariki. Mchanganyiko uhu unahusishwa sana na utambuzi wa ph'wani hivi kukala unafanya kazi phephi dza alama ya chitamaduni: kurya mbaazi za nazi na mahamri kpwa kiamsha kinywa ni kujitangaza kukala u mutu wa ph'wani. Sahani ihi piya inahudumiwa kpwa milo minjine na inaonekana mara kpwa mara kpwa sherehe na mikutano ya jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Mchuzi wa Nazi: Chitoweo cha Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchuzi wa nazi si sahani mwenga ela ni mbinu, chiolezo chinachoweza kubeba phephi protini au mboga yoyose ambayo mpishi anayo. Msingi ni wa kudumu: vitunguu na chitunguu saumu vinalainishwa kpwa mafuta, nyanya zinaongezwa na kupikwa, viungo vinaingizwa — kpwa kawaida manjano, jira, giligilani, na pilipili — na halafu tui inamiminiwa kuumba mchuzi. Kpwa chioevu chihi chenye harufu nono, chenye rangi ya dhahabu, huenda chiungo chikulu: nguro, kuku, nyama ya ng'ombe, viazi, mchicha, maharagwe, au mchanganyiko wowose wa hivyo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ubadilifu wa mchuzi wa nazi ndio ustadi wakpwe. Ni suluhisho ra kila siku ra swali ra kupika ani, rinabadilika kulingana na soko rinaphotoa au mundani unaphovuna. Mchuzi wa nguro una ladha tofauti kabisa na mchuzi wa viazi, hata hivyo vyosi vinatambulikana kukala sahani iyo-iyo — nazi ikiviunganisha kpwa famili mwenga ya upishi. Ubadilifu uhu umehenda mchuzi wa nazi kukala farasi wa kazi wa kupika nyumbani kpwa Adigo, sahani inayoonekana mara nyinji zaidi mezani ya kila siku na ambayo kila mpishi wa Chidigo anamiliki kabila ya kujaribu chitu chochosi changamano zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Samaki wa Kupaka: Nguro Ariyepakwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya maandalizi manji ga nazi ga ph'wani, samaki wa kupaka anashikilia nafasi maalum dza sahani inayoonyesa vinono zaidi ndoa ya nguro na nazi inayofafanua upishi wa ph'wani. Dzina renye rinasimulia hadithi: kupaka mana yakpwe ni kupiga rangi au kupaka, na sahani inahusisha kuchoma nguro — kpwa kawaida changu au nguru — dzulu ya makala hadi ngozi ikale kakamavu na yenye mosi, halafu kupaka kpwa ukarimu mchuzi wa tui, manjano, madzi ga ndimu, chitunguu saumu, na pilipili. Nguro halafu anarudishwa kpwa wakati mfupi kpwa moho ili mchuzi uimae na kukala gamba ra dhahabu renye harufu nono."
+            },
+            {
+              "type": "paragraph",
+              "text": "Masiho ni sahani ya utata wa ajabu iriyojengwa kula vipengele rahisi: mkaa na mosi wa kuchomea, utajiri wa nazi, mng'ao wa ndimu, moho wa manjano, na ladha swafi ya nguro mbichi. Samaki wa kupaka anahudumiwa kpwa sherehe na milo maalum, ingawa si wa chifahari chiasi ambacho kaweza kuonekana kpwa chakurya cha kawaida cha dziloni nguro anono anaphopatikana. Ni sahani ambayo apishi a ph'wani anajivunia zaidi, iyo inayoweza kutayarishwa zaidi ajeni anaphotsoloka, na maandalizi ganagoyawakilisha vinono zaidi imani ya Adigo kukala nazi inahenda kila chitu kukala chinono zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Zaidi ya Dziko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa nazi kpwa maisha ga Adigo unaenea zaidi ya kupika. Mafuta ga nazi ganatumika kpwa utunzaji wa ngozi na nyere. Makuti ga nazi ganafumwa kukala vikapu, mikeka, na vipepeo. Shina rinatoa mihi ya kudzenga. Maganda ganatoa nyuzi za makumbi kpwa kamba na fagio. Makuti — makuti ga nazi ganagoshonwa dzulu ya fito kpwa uzi wa katani — ni nyenzo za jadi za kuezekea, zinazowekwa tabaka kula kpwa ndani hadi dzulu na pengo ra inchi ne rinarodenganisha mvula kpwa ufanisi. Na utomvu wa munazi unatiwa ili kutengeza mnazi, pombe ya mitende ambayo ni chitovu cha maisha ga kijamii ga Adigo na mwenga wa mazungumzo gakpwe changamano zaidi ga chitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Munazi unakabili vitisho vinavyohatarisha si chanzo cha chakurya bahi ela njira yosi ya maisha. Ugonjwa wa manjano ya kuolaga, uvamizi wa mende wa faru, uharibifu wa mashamba ga minazi kpwa shughuli za uchimbaji madini, na kuzeeka kpwa hifadhi ya mihi iriyo hipho bila kupanda luphya kpwa kutosha vyosi vinachangia kupunguka taratibu kpwa uchumi wa nazi. Kpwa atu ambao upishi wao, riziki zao, mila zao za udzengo, na mikutano yao ya kijamii yosi ganategemea munazi, vitisho hivi vinatsukula athari zinazofika kpwa kina zaidi kuriko urimi peke yakpwe. Siku za mbere za nazi kpwa tsi ya Adigo ni, kpwa mana halisi, siku za mbere za utamaduni wa Adigo wenye."
             }
           ]
         }
@@ -3761,6 +5665,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Licha ya changamoto hizi, samaki unabaki katikati ya utambulisho wa pwani wa Wadigo — alama ya kitamaduni inayofafanua maana ya kuishi pwanini. Uhifadhi wa mazoea endelevu ya uvuvi ni jambo la kitamaduni — kuhakikisha vizazi vijavyo vya watoto wa Wadigo wanakua wakijua ladha ya samaki safi aliyepakwa nazi na limau."
+            },
+            {
+              "type": "heading",
+              "text": "Samaki Wanaovuliwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maji ya pwani ya Wadigo yanatoa aina nyingi tofauti za samaki. Changu labda ndio anayethaminiwa zaidi, nyama yake nyeupe imara ikiwa bora kwa kuchoma na kwa mchuzi wa nazi unaofafanua upishi wa pwani. Nguru, na nyama yake nzito yenye unene, ndio chaguo linalopendelewa kwa samaki wa kupaka. Pono, mkunga, na wahoo ni samaki wa kawaida. Jodari wa mapezi ya manjano, anapokaribia ufukoni, anatoa zawadi isiyotarajiwa inayoihuisha soko. Kamba kochi, kamba, na kaa wanavunwa kwa kiasi kidogo lakini wanaamuru bei za juu. Pweza, anayechomwa au kupikwa kitoweo, ni sifa ya kipekee ya lishe ya pwani inayoitofautisha na mila za chakula za bara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Soko la samaki — liwe jengo rasmi au mkusanyiko usio rasmi katika ufuko wa kutua — ni mojawapo ya nafasi za kijamii zenye uchangamfu zaidi katika jamii ya Wadigo ya pwani. Kurudi kwa boti asubuhi kunasababisha mlipuko wa shughuli za biashara: wavuvi wakipanga samaki wao, wanunuzi wakikagua na kujadiliana, wanawake wakinunua samaki kwa kuuza tena au kuandaa nyumbani. Soko ndipo bei inapowekwa, ubora unapokaguliwa, habari zinapobadilishwa, na kitambaa cha kijamii cha jamii ya uvuvi kinapofumwa upya kila wakati. Harufu ya samaki safi, miito ya wauzaji, mng'ao wa magamba ya fedha kwenye jua — hizi ni alama za hisi za soko la pwani."
+            },
+            {
+              "type": "heading",
+              "text": "Maandalizi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Samaki katika upishi wa Wadigo hupikwa kwa njia kadhaa za kipekee, zote zikionyesha kujitolea kwa pwani kwa urahisi, uswafi, na nazi. Samaki wa kuchoma — samaki aliyechomwa kwa makaa — ni maandalizi ya msingi zaidi. Samaki mzima, aliyeondolewa magamba na utumbo lakini bila mapambo mengine, anachomwa moja kwa moja juu ya makaa ya moto hadi ngozi inapovimba na kuungua na nyama inapokuwa na moshi na laini. Mwandamano pekee unaohitajika ni kukamuliwa ndimu na labda kutawanyiwa chumvi na pilipili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Samaki wa kukaanga unahusisha kupaka samaki kwa uji wa viungo wa manjano, kitunguu saumu, tangawizi, na pilipili, kisha kukaanga kwa mafuta mengi hadi sehemu ya nje iwe na rangi ya dhahabu na kukakamaa huku sehemu ya ndani ikibaki na unyevu. Haya ni maandalizi ya kila siku, samaki anayeonekana mara nyingi zaidi mezani ya nyumba, akihudumiwa pamoja na wali wa nazi na kitoweo cha mboga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kilele cha upishi wa samaki wa Wadigo ni samaki wa kupaka, \"samaki aliyepakwa\" ambao ni sahani inayoadhimishwa zaidi ya pwani. Samaki mzima — bora zaidi changu au nguru — anachomwa juu ya makaa hadi kuiva kabisa, kisha anapakwa mchuzi tajiri wa tui, manjano, maji ya ndimu, kitunguu saumu, na pilipili. Samaki aliyepakwa mchuzi anarudishwa kwa muda mfupi kwenye joto ili upako uimae, na kuunda tabaka ya dhahabu yenye harufu nzuri inayounganisha ladha ya moshi ya kuchomea na utajiri wa nazi. Ni sahani inayolipa subira na viungo vizuri, na ni maandalizi ambayo wapishi wa pwani wanayafikia matukio yanapohitaji kitu cha kukumbukwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kamba wanachemswa katika mchuzi wa nazi, utamu wao ukiwa mshirika wa kiasili wa utajiri wa tui. Pweza anachomwa — miguu yake ikiungua juu ya makaa — au kupikwa polepole katika mchuzi wa nyanya na nazi hadi kuwa laini. Vyote viwili ni vyakula vya anasa vinavyoamuru bei za juu kuliko samaki wa kila siku na kuonekana mara nyingi zaidi katika sherehe au samaki wanapovuliwa vizuri hasa."
+            },
+            {
+              "type": "heading",
+              "text": "Kupungua"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa uvuvi wa pwani ya Wadigo uko katika mgogoro. Viwango vya samaki wanaovuliwa vimepungua mara nne tangu katikati ya miaka ya 1980, vikishuka kutoka wastani wa kilo 13.7 kwa mvuvi kwa safari hadi kilo 3.2 tu. Kuanguka huku kunasababishwa na mambo mengi: uvuvi kupita kiasi kadri ongezeko la watu linavyoongeza shinikizo kwa rasilimali za baharini zenye kikomo, matumizi ya mbinu za uvuvi za uharibifu ikiwa ni pamoja na baruti na nyavu za matundu madogo zinazoharibu makazi ya miamba na kukamata samaki wadogo, na uharibifu wa mazingira kutokana na maendeleo ya pwani, uchafuzi, na mabadiliko ya hali ya hewa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matokeo yanazidi uchumi. Samaki wanapopungua, wavuvi lazima waende mbali zaidi na ufuko na kukaa muda mrefu zaidi baharini, na kuongeza hatari za kazi ambayo tayari ni ya hatari kimwili. Ushindani wa rasilimali zinazopungua unasababisha migogoro kati ya wavuvi wa jadi na meli za kibiashara, kati ya jamii za mtaa na waendeshaji wa nje. Vijana, wakiona mapato yanayopungua kutoka uvuvi, hawako tayari sana kujifunza biashara hiyo, na kutishia upitishaji wa maarifa ya jadi ya baharini kutoka kizazi kimoja hadi kingine."
+            },
+            {
+              "type": "heading",
+              "text": "Samaki na Utambulisho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Licha ya changamoto hizi, samaki anabaki kuwa wa kati katika utambulisho wa Wadigo wa pwani. Kijiji cha uvuvi, soko la asubuhi, harufu ya samaki wa kuchoma juu ya makaa, kuona ngalawa zikitovuka maji ya alasiri — hizi si shughuli za kiuchumi tu bali ni alama za kitamaduni zinazofafanua maana ya kuishi pwani. Wadigo ni watu wa ardhi na bahari wakati huo huo, na upishi wao unaonyesha utambulisho huu wa pande mbili kwa kila sahani ya wali wa nazi inayohudumiwa pamoja na samaki aliyechomwa. Uhifadhi wa desturi endelevu za uvuvi kwa hivyo si suala la mazingira au uchumi pekee bali ni amri ya kitamaduni — suala la kuhakikisha kwamba vizazi vijavyo vya watoto wa Wadigo wanakua wakijua ladha ya samaki safi aliyepakwa nazi na ndimu."
             }
           ],
           "dig": [
@@ -3799,6 +5755,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hata dzagbwe na changamoto zino, samaki unasala kahi-kahi ya utambulisho wa pwani wa Adigo — alama ya kichimila inayofafanua maana ya kuishi pwanini. Uhifadhi wa mazoea enderevhu ya uvuvi ni jambo ra kichimila — kuhakikisha vizazi vidzadzo vya ana a Adigo anakula akidzua ladha ya samaki safi ariyepakwa nazi na limau."
+            },
+            {
+              "type": "heading",
+              "text": "Nguro Anavuliwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Madzi ga ph'wani ya Adigo ganatoa aina nyinji tofauti za nguro. Changu labda ndiye anayethaminiwa zaidi, nyama yakpwe nyeupe imara ikikala bora kpwa kuchoma na kpwa mchuzi wa nazi unaofafanua upishi wa ph'wani. Nguru, na nyama yakpwe nzito yenye unene, ndio chaguo rinarodendelewa kpwa samaki wa kupaka. Pono, mkunga, na wahoo ni nguro a kawaida. Jodari wa mapezi ga manjano, anaphokaribiya ufukoni, anatoa zawadi isiyotarajiwa inayoihuisha soko. Kamba kochi, kamba, na kaa anavunwa kpwa chiasi chidide ela anaamuru bei za dzulu. Pweza, anayechomwa au kupikwa chitoweo, ni sifa ya kipekee ya lishe ya ph'wani inayoitofautisha na mila za chakurya za bara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Soko ra nguro — rikale jengo rasmi au mkusanyiko usio rasmi kpwa ufuko wa kutua — ni mwenga wa nafasi za kijamii zenye uchangamfu zaidi kpwa jamii ya Adigo ya ph'wani. Kurudi kpwa boti ligundzu kunasababisha mlipuko wa shughuli za kuuza: avuvi akipanga nguro ao, anunuzi akikagua na kujadiliana, achetu akinula nguro kpwa kuuza luphya au kuandaa nyumbani. Soko ndipho bei inaphoikpwa, ubora unaphotathminiwa, habari zinaphobanduliwa, na chitambaa cha kijamii cha jamii ya uvuvi chinaphotukwa luphya kila wakati. Harufu ya nguro swafi, miito ya auza, mng'ao wa magamba ga feza kpwa dzuwa — zizi ni alama za hisi za soko ra ph'wani."
+            },
+            {
+              "type": "heading",
+              "text": "Maandalizi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nguro kpwa upishi wa Adigo anapikwa kpwa njira kadhaa za kipekee, zosi zikionyesa kujitolea kpwa ph'wani kpwa urahisi, uswafi, na nazi. Samaki wa kuchoma — nguro ariyechomwa kpwa makala — ni maandalizi ga msingi zaidi. Nguro mzima, ariyeondolewa magamba na utumbo ela bila mapambo ganjine, anachomwa moja kpwa moja dzulu ya makala ga moho hidi ngozi inaphovimba na kuungua na nyama ikakala yenye mosi na laini. Mwandamano bahi unaohitajika ni kukamuriwa ndimu na labda kutawanyiwa chumvi na pilipili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Samaki wa kukalanga unahusisha kupaka nguro kpwa uji wa viungo wa manjano, chitunguu saumu, tangawizi, na pilipili, halafu kukalanga kpwa mafuta manji hidi sehemu ya ndze ikale na rangi ya dhahabu na kukakamaa huku sehemu ya ndani ikisala na unyevu. Gaga ni maandalizi ga kila siku, nguro anayeonekana mara nyinji zaidi mezani ya nyumba, akihudumiwa phamwenga na wali wa nazi na chitoweo cha mboga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kilele cha upishi wa nguro wa Adigo ni samaki wa kupaka, \"nguro ariyepakwa\" ambaye ni sahani inayoadhimishwa zaidi ya ph'wani. Nguro mzima — vinono zaidi changu au nguru — anachomwa dzulu ya makala hidi kuiva kabisa, halafu anapakwa mchuzi tajiri wa tui, manjano, madzi ga ndimu, chitunguu saumu, na pilipili. Nguro ariyepakwa mchuzi anarudishwa kpwa wakati mfupi kpwa moho ili upako uimae, na kuumba tabaka ya dhahabu yenye harufu nono inayounganisha ladha ya mosi ya kuchomea na utajiri wa nazi. Ni sahani inayolipa subira na viungo vinono, na ni maandalizi ambago apishi a ph'wani anagifia matukio ganapohitaji chitu cha kukumbukwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kamba anachemswa kpwa mchuzi wa nazi, utamu wao ukukala mshirika wa chiasili wa utajiri wa tui. Pweza anachomwa — migulu yakpwe ikiungua dzulu ya makala — au kupikwa pole-pole kpwa mchuzi wa nyanya na nazi hidi kukala laini. Vyosi viiri ni vyakurya vya anasa vinavyoamuru bei za dzulu kuriko nguro wa kila siku na kuonekana mara nyinji zaidi kpwa sherehe au nguro anaphovuliwa vinono hasa."
+            },
+            {
+              "type": "heading",
+              "text": "Kupunguka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa uvuvi wa ph'wani ya Adigo u kpwa mgogoro. Vipimo vya nguro anavovuliwa vimepunguka mara ne kula kahi-kahi ya miaka ya 1980, vikishuka kula wastani wa kilo 13.7 kpwa mvuvi kpwa safari hidi kilo 3.2 bahi. Kuanguka kuhu kunasababishwa ni mambo manji: uvuvi kutsupa chipimo kadri ongezeko ra atu rinavyoongeza shinikizo kpwa rasilimali za baharini zenye chipimo, matumizi ga mbinu za uvuvi za uharibifu phamwenga na baruti na nyavu za matundu madide zinazoharibu makazi ga miamba na kukamata nguro adide, na uharibifu wa mazingira kula maendeleo ga ph'wani, uchafuzi, na mabadiliko ga hali ya hewa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Masiho ganaenea zaidi ya chiuchumi. Nguro anapopunguka, avuvi lazima aende mbali zaidi na ufuko na kukala wakati munji zaidi baharini, na kuongeza hatari za kazi ambayo tayari ni ya hatari chimwiri. Ushindani wa rasilimali zinazo punguka unasababisha migogoro kahi ya avuvi a jadi na meli za chibiashara, kahi ya jamii za phatu na aendeshaji a ndze. Avulana, achiona mapato ganapopunguka kula uvuvi, taako tayari sana kujifundza biashara iyo, na kutishia kupishwa kpwa maarifa ga jadi ga baharini kula chivyazi chimwenga hidi chanjine."
+            },
+            {
+              "type": "heading",
+              "text": "Nguro na Utambuzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa na changamoto zizi, nguro anasala kukala wa kahi kpwa utambuzi wa Adigo wa ph'wani. Kijiji cha uvuvi, soko ra ligundzu, harufu ya samaki wa kuchoma dzulu ya makala, kuona ngalawa zikirudi kpwa madzi ga muhidogo — zizi si shughuli za chiuchumi bahi ela ni alama za chitamaduni zinazofafanua mana ya kuishi ph'wani. Adigo ni atu a tsi na bahari kpwa wakati mmwenga, na upishi wao unaonyesa utambuzi uhu wa pande mbiri kpwa kila sahani ya wali wa nazi inayohudumiwa phamwenga na nguro ariyechomwa. Uhifadhi wa desturi endelevu za uvuvi kpwa hivyo si suala ra mazingira au chiuchumi bahi ela ni amri ya chitamaduni — suala ra kuhakikisha kukala vivyazi vijavyo vya ana a Adigo anakula achimanya ladha ya nguro swafi ariyepakwa nazi na ndimu."
             }
           ]
         }
@@ -3922,6 +5930,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mnazi unasimama peke yake kati ya vyakula vinne vya msingi kwa sababu si chanzo cha chakula tu bali ni mfumo kamili wa kiuchumi na kitamaduni. Kwale na Kilifi zinachukua zaidi ya asilimia tisini ya minazi ya Kenya. Kutoka kwa nazi zinakuja tui, nazi mbichi, mafuta, na vinywaji. Mnazi unakabiliwa na vitisho vikubwa — magonjwa, wadudu, uchimbaji madini, na miti ya kuzee bila kupanda mipya."
+            },
+            {
+              "type": "heading",
+              "text": "Mahindi: Chakula Kikuu cha Wote"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mahindi ni zao linalowaunganisha Wadigo na mfumo mpana wa chakula wa Afrika Mashariki. Ingawa mchele ndio unaopendwa pwani na muhogo ndio msaada wa kuaminika, mahindi ni kiungo kinachozalisha ugali — uji mgumu ambao ni chakula kikuu cha wote cha Afrika Mashariki, kinachodiwa kutoka fukwe za Ziwa Victoria hadi pwani ya Bahari ya Hindi. Unga wa mahindi unachanganywa na maji ya moto na kukorogwa bila kusimama hadi unaunda misa nzito, laini inayohudumiwa kama kilima pamoja na vitoweo, mboga, na mchuzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa Wadigo, ugali unashikilia nafasi tofauti ya kitamaduni kuliko inavyokuwa kwa jamii za bara. Si kitovu cha mlo kwa jinsi ambayo mchele ni, bali ni mbadala, mwandamano, au ulazima mchele unapoisha au kuwa ghali mno. Ugali unaotengenezwa kwa unga wa mahindi ni mnene zaidi na wenye kujaza zaidi kuliko mchele, na kuifanya kuwa chaguo la vitendo kwa kazi ngumu za kimwili — kilimo, uvuvi, ujenzi. Mahindi choma, mahindi yaliyobanikwa, ni chakula cha mitaani kinachopendwa, kinachouuzwa na wauzaji wanaochoma masuke juu ya makaa na kuyatiia maji ya ndimu na unga wa pilipili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kilimo cha mahindi katika Kaunti ya Kwale kinakabili changamoto ya kudumu ya hali ya ukame nusu katika maeneo ya magharibi karibu na Kinango, ambapo uhaba wa chakula wa kudumu ni hali halisi kwa familia nyingi. Zao hili linahitaji mvua ya kuaminika zaidi kuliko muhogo, na kulifanya kuwa hatarini kwa ukame unaoathiri eneo hilo mara kwa mara. Licha ya changamoto hizi, mahindi yanabaki kuwa chakula cha kudumu, kikinunuliwa sokoni kisipoweza kupandwa nyumbani."
+            },
+            {
+              "type": "heading",
+              "text": "Nazi: Mti Usioweza Kukosekana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mnazi unajitenga na mazao mengine matatu kuu kwa sababu si chanzo cha chakula tu bali ni mfumo kamili wa kiuchumi na kitamaduni. Unajulikana kama mnazi, mti wa nazi labda ni mmea muhimu zaidi katika maisha ya Wadigo. Kaunti za Kwale na Kilifi zinachukua zaidi ya asilimia tisini ya miti ya nazi ya Kenya, na kilimo cha nazi ni riziki kuu kwa maelfu ya familia za Wadigo. Methali \"Mnazi mmoja una uchi gani?\" inaencodia umuhimu wa mti na uelewa kwamba ustawi unahitaji wingi, si uhaba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutoka kwa nazi vinatoka bidhaa nyingi za chakula, kila moja ikiwa na jukumu lake jikoni. Tui ni kioevu kizito kinachotolewa kutoka nyama ya nazi iliyokomaa iliyokunwa ikichanganywa na maji — msingi wa karibu upishi wote wa Wadigo. Mafuta ya nazi ni ukamuaji wa kwanza tajiri zaidi, unaohifadhiwa kwa vitoweo na sahani maalum. Nyama safi ya nazi kutoka nazi changa, inayojulikana kama madafu, inaliwa kama kitafunio na maji yake yanakunywa kama kinywaji cha kuburudisha. Mafuta ya nazi, yanayotolewa kutoka kopra iliyokaushwa, yanatumika kama mafuta ya kupikia na vipodozi. Kila sehemu ya mti ina matumizi: shina linatoa mbao za kujenga, makuti yanashonwa kuwa paa za nyasi, maganda yanatoa nyuzi za makumbi kwa kamba na fagio, na utomvu unatiwa kwa pombe ya mitende."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mnazi unakabili vitisho vikubwa katika enzi ya kisasa. Ugonjwa wa manjano ya kuua na mende wa faru wanashambulia mashamba ya minazi. Shughuli za uchimbaji madini, hasa za Base Titanium, zimeharibu mashamba ya minazi katika sehemu za Kaunti ya Kwale. Kuzeeka kwa miti iliyopo na upandaji upya usiotosheleza kunamaanisha kwamba uchumi wa nazi unapungua taratibu hata ukibaki kuwa muhimu kitamaduni. Mustakabali wa mnazi katika nchi ya Wadigo ni mojawapo ya mgogoro wa kimya wa eneo hili — si wa kushangaza wa kutosha kupata umakini wa kitaifa, lakini wenye matokeo ya kutosha kubadilisha maisha ya maelfu ya familia ikiwa hautashughulikiwa."
+            },
+            {
+              "type": "heading",
+              "text": "Vyote Vinne Pamoja"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakula hivi vinne vikuu — mchele, muhogo, mahindi, na nazi — vinaunda msingi wa lishe na kitamaduni wa maisha ya Wadigo. Havibadilishani. Kila kimoja kinashikilia nafasi yake katika daraja la mlo na kalenda ya mwaka wa kilimo. Mchele ni tamaa, nafaka ya sherehe na faraja ya kila siku. Muhogo ni bima, zao linalostahimili wengine wanaposhindwa. Mahindi ni kiunganishi, kikiunganisha pwani na mila za chakula za bara la Afrika Mashariki. Na nazi ni njia ambayo vingine vyote vinabadilishwa — maziwa yanayoufanya mchele kuwa wali wa nazi, mafuta yanayoutajirisha mchuzi wa majani ya muhogo, mafuta yanayokaanga keki ya mahindi. Bila nazi, chakula cha Wadigo kingekuwa bado chakula. Lakini kisingekuwa cha Kidigo."
             }
           ],
           "dig": [
@@ -3956,6 +6004,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mnazi unasimama peke yakpwe kahi ya vyakurya vine vya musingi kpwa sababu si chanzo cha chakurya tu ela ni mfumo kamili wa kiuchumi na kichimila. Kwale na Kilifi zinachukula zaidi ya asilimiя tisini ya minazi ya Kenya. Kula kpwa nazi zinakpwedza tui, nazi mbichi, mafuta, na vinywaji. Mnazi unakabiliwa ni vitisho vikpwulu — magonjwa, wadudu, uchimbaji madini, na mihi ya kuzee bila kupanda miphya."
+            },
+            {
+              "type": "heading",
+              "text": "Mahindi: Chakurya Chikulu cha Osi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mahindi ni zao rinarodenganisha Adigo na mfumo mkpwulu wa chakurya wa Afrika Mashariki. Ingawa mchele ndio unaopendwa ph'wani na muhogo ndio msaada wa kuaminika, mahindi ni chiungo chinachotengeza ugali — uji mgumu ambao ni chakurya chikulu cha osi cha Afrika Mashariki, chinachoriwa kula fukpwe za Ziwa Victoria hidi ph'wani ya Bahari ya Hindi. Unga wa mahindi unachanganywa na madzi ga moho na kukorogwa bila kusimama hidi unapoumba misa nzito, laini inayohudumiwa dza kilima phamwenga na vitoweo, mboga, na mchuzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa Adigo, ugali unashikilia nafasi tofauti ya chitamaduni kuriko inavyokala kpwa jamii za bara. Si chitovu cha mlo kpwa njira ambayo mchele ni, ela ni mbadala, mwandamano, au ulazima mchele unaphoisha au kukala ghali mno. Ugali unaotengenezwa kpwa unga wa mahindi ni mnene zaidi na wenye kujaza zaidi kuriko mchele, na kuihenda kukala chaguo ra chitendo kpwa kazi ngumu za chimwiri — urimi, uvuvi, udzengo. Mahindi choma, mahindi garigobakwa, ni chakurya cha njira chinachopendwa, chinachouuzwa ni auza anaochoma masuke dzulu ya makala na kugatiira madzi ga ndimu na unga wa pilipili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Urimi wa mahindi kpwa Kaunti ya Kwale unakabili changamoto ya kudumu ya hali ya ukame nusu kpwa maeneo ga magharibi phephi na Kinango, ambako uhaba wa chakurya wa kudumu ni hali halisi kpwa famili nyinji. Zao rihi rinahitaji mvula ya kuaminika zaidi kuriko muhogo, na kuriihenda kukala hatarini kpwa ukame unaogahenda eneo rihi mara kpwa mara. Ingawa na changamoto zizi, mahindi ganasala kukala chakurya cha kudumu, gakinuliwa sokoni gasiphoweza kupandwa nyumbani."
+            },
+            {
+              "type": "heading",
+              "text": "Nazi: Muhi Usioweza Kukosekana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Munazi unajitenga na mazao ganjine madahu makulu kpwa sababu si chanzo cha chakurya bahi ela ni mfumo kamili wa chiuchumi na chitamaduni. Unamanyikana dza mnazi, munazi labda ni muhi muhimu zaidi kpwa maisha ga Adigo. Kaunti za Kwale na Kilifi zinachukula zaidi ya asilimia tisini ya mihi ya nazi ya Kenya, na urimi wa nazi ni riziki kulu kpwa maelfu ga famili za Adigo. Ndarira \"Mnazi mmwenga una uchi wani?\" inaencodia umuhimu wa muhi na uelewano kukala ustawi unahitaji unji, si uhaba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kula kpwa nazi vinatoka bidhaa nyinji za chakurya, kila mwenga ikiwa na jukumu rakpwe dzikoni. Tui ni chioevu chizito chinachotolewa kula nyama ya nazi iriyokomala iriyokunwa ikichanganywa na madzi — msingi wa phephi upishi wosi wa Adigo. Mafuta ga nazi ni ukamuo wa kpwandza tajiri zaidi, unaohifadhiwa kpwa vitoweo na sahani maalum. Nyama swafi ya nazi kula nazi changa, inayomanyikana dza madafu, inariwa dza chitafunio na madzi gakpwe ganakunywa dza chinywaji cha kuburudisha. Mafuta ga nazi, ganagotolewa kula kopra iriyokaukwa, ganatumika dza mafuta ga kupikira na vipodozi. Kila sehemu ya muhi ina matumizi: shina rinatoa mihi ya kudzenga, makuti ganashonwa kukala paa za nyasi, maganda ganatoa nyuzi za makumbi kpwa kamba na fagio, na utomvu unatiwa kpwa pombe ya mitende."
+            },
+            {
+              "type": "paragraph",
+              "text": "Munazi unakabili vitisho vikulu kpwa enzi ya kisasa. Ugonjwa wa manjano ya kuolaga na mende wa faru ganashambulia mashamba ga minazi. Shughuli za uchimbaji madini, hasa za Base Titanium, zimeharibu mashamba ga minazi kpwa sehemu za Kaunti ya Kwale. Kuzeeka kpwa mihi iriyo hipho na kupanda luphya kusikotosheleza kunamana kukala uchumi wa nazi unapunguka taratibu hata ukisala kukala muhimu chitamaduni. Siku za mbere za munazi kpwa tsi ya Adigo ni mwenga wa mgogoro wa chinyamala wa eneo rihi — si wa kushangaza wa kutosha kupata umakini wa chitaifa, ela wenye masiho ga kutosha kubadilisha maisha ga maelfu ga famili ichikala taugashughulikiwa."
+            },
+            {
+              "type": "heading",
+              "text": "Vyosi Vine Phamwenga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyakurya hivi vine vikulu — mchele, muhogo, mahindi, na nazi — vinaumba msingi wa lishe na chitamaduni wa maisha ga Adigo. Tavibadilishani. Kila chimwenga chinashikilia nafasi yakpwe kpwa daraja ra mlo na kalenda ya mwaka wa urimi. Mchele ni tamaa, nafaka ya sherehe na faraja ya kila siku. Muhogo ni bima, zao rinarostahimili wanjine wanaposhindwa. Mahindi ni chiunganishi, chikiunganisha ph'wani na mila za chakurya za bara ra Afrika Mashariki. Na nazi ni njira ambayo vyanjine vyosi vinabadilishwa — madziya ganagouihenda mchele kukala wali wa nazi, mafuta ganagoutajirisha mchuzi wa madongo ga muhogo, mafuta ganagoyokalanga keki ya mahindi. Bila nazi, chakurya cha Adigo chingekala bado chakurya. Ela tachingevokala cha Chidigo."
             }
           ]
         }
@@ -4116,6 +6204,74 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Msamiati wa rangi unaenea zaidi ya mavazi hadi ushanga. Tunda — nyuzi za shanga za rangi zinazovaliwa kiunoni — zinatumia nyekundu, njano, na nyeupe katika mchanganyiko unaobeba maana maalum. Mfumo huu unaendelea pale ambapo ni muhimu zaidi: katika harusi, sherehe za kaya, na ibada. Rangi inabaki, kwa wale wanaoweza kuisoma, lugha yenye ufasaha kama lugha yoyote inayozungumzwa pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyekundu ni rangi yenye nguvu zaidi ya kiroho katika mfumo wa rangi za Wadigo. Ni rangi ya pepo — kupagawa na roho — na mwanamke anayevaa hando nyekundu anafahamika mara moja kuwa anaonyesha uhusiano wake na ulimwengu wa roho. Hii si mavazi ya kujifanya wala kujionyesha. Ni ukiri wa hadharani wa uzoefu wa kiroho ambao jamii inauchukua kwa uzito mkubwa. Mwanamke aliyevaa nyekundu amepitia au anapitia makutano na nguvu za kiroho ambazo zimembadilisha, na rangi hiyo inatangaza mabadiliko haya kwa kila mtu anayemwona."
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa kiroho wa rangi nyekundu unaenea zaidi ya pepo. Shanga nyekundu zinazovaliwa kiunoni — tunda — zinabeba maana ya kiroho pamoja na kazi yake ya mapambo. Kanga ya Kishutu, yenye nakshi za rangi nyeusi, nyekundu, na nyeupe, inaaminika kuzuia uovu na kuleta uponyaji, na rangi nyekundu ndani ya nakshi hii ndiyo inayohusishwa zaidi na nguvu ya kiroho ya kinga. Nyekundu katika sherehe — hasa nyekundu inayoonekana katika mipaka ya kitambi, nguo ya sherehe ya mzee wa kaya — inaashiria uwepo wa nguvu kubwa kuliko za kibinadamu tu. Ni rangi inayodai usikivu na heshima, ikiweka mpaka kati ya mambo ya kawaida na matakatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika muktadha wa uzazi na sherehe, nyekundu inapata maana ya joto zaidi. Katika hatua fulani za maandalizi ya harusi, vipengele vyekundu vinaonekana katika mapambo ya bibi arusi — katika shanga, katika nakshi za hina mikononi na miguuni mwake, katika nguo zinazomzunguka wakati wa kipindi cha maandalizi. Hapa, nyekundu inazungumza juu ya nguvu ya uhai, juu ya nguvu ya maisha ambayo ndoa itaielekeza katika uumbaji mpya. Uhusiano wa rangi hiyo na damu — ya hedhi, ya kuzaliwa, ya dhabihu — unaipa uzito wa asili unaounganisha sherehe ya harusi na ukweli wa kina zaidi wa kibiolojia na kiroho wa kuendelea kwa binadamu."
+            },
+            {
+              "type": "heading",
+              "text": "Buluu: Ukomavu na Hekima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Buluu ni rangi ya mwanamke mzee. Mwanamke Mdigo mwenye umri mkubwa anapovaa hando la buluu, hachagui tu rangi inayompendeza. Anadai hadhi ambayo jamii inaitambua na kuiheshimu: hadhi ya mtu aliyeishi kwa muda mrefu wa kutosha kukusanya hekima, aliyepitia hatua za ubikira, uke, uzazi, na unyanya, na ambaye sasa anabeba ndani yake maarifa ya safari hizo zote. Buluu inapatikana kwa kustahili, si kwa kuchagua. Msichana kijana anayevaa buluu angefahamika kuwa anadai kitu ambacho bado hajastahili kudai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buluu ya kitambi cha mzee wa kaya — nili ya kina inayoelekea weusi — inawakilisha usemi mkubwa zaidi wa uhusiano huu kati ya buluu na mamlaka. Nili ya kitambi si buluu ya kawaida bali ni rangi maalum, iliyozalishwa kwa makusudi kupitia mbinu za jadi za kupaka rangi ambazo zenyewe ni aina ya ujuzi maalum. Kina cha nili kinaashiria kina cha utawala wa mzee katika miundo ya uongozi ya kaya. Kuvaa buluu hii maalum ni kudai mamlaka ya juu zaidi ya jadi ambayo jamii ya Wadigo inatoa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano wa buluu na bahari si wa bahati mbaya. Wadigo wanaishi pwanini, na upeo wa macho wa bahari uliopo daima ndio kipengele kinachoelezea mazingira yao. Bahari ni ya subira, ya kina, na yenye nguvu — sifa ambazo Wadigo wanahusisha na utu uzima wa kike na na wazee wanaoongoza jamii. Mwanamke mzee anapojifunga buluu, anajifunga katika sifa za bahari yenyewe: kina, ustahimilivu, na mamlaka ya kimya isiyotikisika."
+            },
+            {
+              "type": "heading",
+              "text": "Nyeusi: Heshima na Mababu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyeusi katika mavazi ya Kidigo inafanya kazi katika rejista mbili tofauti lakini zinazohusiana. Katika rejista ya jadi, nyeusi inaunganisha na mababu, na ardhi ambayo wamepumzika ndani yake, na nyakati za heshima ambapo walio hai wanashirikiana na wafu. Ziara za kaya, ibada za mababu, nyakati za kuzingatia kwa kina utamaduni — hizi ni mazingira ambapo nyeusi inabeba uzito wa heshima kwa wale waliotangulia. Si nyeusi ya maombolezo ya Kimagharibi, ingawa kuna mwingiliano. Ni nyeusi ya uhusiano, ya kukiri kwamba jamii ya walio hai ipo ndani ya mfuatano unaojumuisha wafu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika rejista ya Kiislamu ya pwani, nyeusi inachukua umbo la buibui — joho refu ambalo wanawake wengi Wadigo wa Kiislamu wanavaa hadharani. Hapa, nyeusi inaashiria haya, heshima, na aina maalum ya hadhi ya kike ambayo mila ya pwani ya Kiislamu inashikilia. Baadhi ya wanawake wanahusisha maana ya kidini tu na weusi wa buibui. Wengine wanaielezea kwa maneno ya kitamaduni — kuvaa nyeusi \"kuonyesha heshima kwa waume wao\" — ambayo inaunganisha rangi na mahusiano ya kijamii badala ya ibada ya kidini pekee. Nyeusi ya buibui ni, kwa wanawake wengi Wadigo, ya kidini na kitamaduni kwa wakati mmoja, rangi inayozungumza kwa lugha mbili mara moja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makutano ya rejista hizi mbili — ya jadi na ya Kiislamu — yanazalisha uelewa wenye tabaka nyingi wa nyeusi ambao ni wa kipekee wa Kidigo. Mwanamke anayevaa buibui sokoni na kubadilisha mavazi meusi ya jadi kwa sherehe ya kaya hapingani na yeye mwenyewe. Anasogea kati ya mifumo miwili ya kitamaduni, kila mmoja ukipa maana yake kwa rangi ile ile, na ufasaha wake katika mifumo yote miwili ni yenyewe aina ya ustadi wa kitamaduni."
+            },
+            {
+              "type": "heading",
+              "text": "Rangi katika Ushanga na Mapambo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa rangi unaenea zaidi ya mavazi hadi kwenye ushanga wa sanaa ambao ni alama ya utamaduni wa kimali wa Wadigo. Tunda — nyuzi za shanga zenye rangi zinazovaliwa kiunoni — zinatumia nyekundu, njano, na nyeupe katika mchanganyiko unaobeba maana maalum. Shanga nyekundu zinaashiria umuhimu wa kiroho. Shanga nyeupe zinazungumza juu ya usafi. Shanga za njano zinahusishwa na sherehe na furaha. Mchanganyiko na mpangilio maalum wa rangi katika shanga za kiuno za mwanamke unawasilisha hadhi yake na tukio kwa wale wanaoelewa msimbo huo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Waganga — watibabu wa jadi — wanavaa mchanganyiko maalum wa hirizi, shanga, na vitu vya kinga ambavyo rangi zake zinaonyesha jukumu lao ndani ya jamii. Chaguo za rangi za mapambo ya mganga si mapendeleo ya uzuri bali ni ishara za kiutendaji, zinazowasilisha utaalamu wa mganga na mamlaka yake ya kiroho kwa wale wanaotafuta huduma zake. Rangi, katika muktadha huu, ni kitambulisho cha kitaaluma kama vile ni usemi wa kitamaduni."
+            },
+            {
+              "type": "heading",
+              "text": "Kudumu kwa Maana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika enzi ambapo mitindo ya kimataifa ya mavazi inafika hata vijiji vya mbali vya pwani kupitia mitandao ya kijamii, mfumo wa rangi za Wadigo unakabiliwa na shinikizo. Vijana wanaweza kuvaa rangi bila kufahamu maana zake za jadi. Kanga na leso za kibiashara zinakuja kwa kila rangi inayoweza kufikirika, zikichaguliwa kwa mvuto wa uzuri badala ya umuhimu wa kitamaduni. Mwenendo wa rangi kuwa mapambo tu — ikiondolewa kazi yake ya mawasiliano — ni aina ya kimya ya mmomonyoko wa kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo, mfumo huu unaendelea pale ambapo ni muhimu zaidi. Katika harusi, nyeupe bado inatawala. Katika sherehe za kaya, rangi bado zinabeba uzito wao wa jadi. Hando la buluu bado linaashiria mamlaka ya mwanamke mzee. Nyekundu bado inaweka mpaka wa kiroho. Maana hizi zinadumu kwa sababu zimejikita si katika mitindo bali katika miundo ya ndani zaidi ya maisha ya kijamii na kiroho ya Wadigo — miundo ambayo, licha ya shinikizo la kisasa, inaendelea kuumba jinsi jamii inavyojielewa yenyewe. Rangi inabaki, kwa wale wanaoweza kuisoma, lugha yenye ufasaha kama lugha yoyote inayozungumzwa pwanini."
             }
           ],
           "dig": [
@@ -4146,6 +6302,74 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Msamiati wa rangi unaenea zaidi ya mavazi hadi ushanga. Tunda — nyuzi za shanga za rangi zinavaliwazo kiunoni — zinatumia nyekundu, njano, na nyerupe kpwa mchanganyiko unaobeba maana maalum. Mfumo huno unaendelea phatu ambapo ni muhimu zaidi: kpwa harusi, sherehe za kaya, na ibada. Rangi inasala, kpwa hara anaoweza kuisoma, lugha yenye ufasaha dza lugha yoyosi inayoambwa pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kundu ni rangi yenye nguvu zaidi ya chiroho kahi ya rangi za Adigo. Ni rangi ya pepo — kupagalwa ni roho — na mchetu ariyevala hando kundu anafahamika phapho kala anaonyesa uhusiano wakpwe na ulumwengu wa roho. Hino siyo nguo ya kujihenda wala kujitiya. Ni ukiri wa wazi wa uzoefu wa chiroho ambao mudzima-Digo unauphokera kpwa uzito mkpwulu. Mchetu ariyevala kundu akakala akaphita au anapita makutano na nguvu za chiroho ambazo zimembadilisha, na rangi iyo inatangaza mabadiliko higa kpwa chila mutu amwonaye."
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa chiroho wa rangi ya kundu unaenderera zaidi ya pepo. Ushanga wa kundu unaovalwa chibiruni — tunda — unatsukula maana ya chiroho phamwenga na kazi yakpwe ya mapambo. Kanga ya Kishutu, yenye nakshi za nyiru, kundu, na nyerupe, inaaminiwa kuzuwiya uyi na kureha uphonyaji, na kundu ndani ya nakshi iyo ndiyo inayohusishwa zaidi na nguvu ya chiroho ya kujikinga. Kundu kahi ya sherehe — hasa kundu inayoonekana kahi ya miphaka ya kitambi, nguwo ya sherehe ya muhere wa kaya — inaashiriya uwepo wa nguvu kulu kuriko za chibinadamu bahi. Ni rangi inayolonda usikivu na ishima, ikibeka mphaka kahi ya mambo ga kawaida na ga utakatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya mambo ga uzazi na sherehe, kundu inapata maana ya moho zaidi. Kahi ya hatua fulani za maandazi ga harusi, vitu vya kundu vinaonekana kahi ya mapambo ga bibi arusi — kahi ya ushanga, kahi ya nakshi za hina mikononi na maguluni mwakpwe, kahi ya nguo zinazomzunguka wakati wa chipindi cha maandazi. Hano, kundu inagomba kuhusu nguvu ya uhai, kuhusu nguvu ya maisha ambayo ndowa indaielekeza kahi ya uumbadzi muphya. Uhusiano wa rangi iyo na milatso — ya mwezi, ya kuvyalwa, ya sadaka — unaipha uzito wa mwandzo unaounganisha sherehe ya harusi na ukpweli wa ndani zaidi wa chibiolojia na chiroho wa kuenderera kpwa binadamu."
+            },
+            {
+              "type": "heading",
+              "text": "Buluu: Ukulu na Ikima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Buluu ni rangi ya mchetu muhere. Mchetu Mdigo wa miaka minji anaphovala hando ra buluu, kagula bahi rangi inayomphendeza. Anadai hadhi ambayo mudzima-Digo unaitambua na kuiishimu: hadhi ya mutu ariyeishi kpwa muda murefu wa kutosha kukusanya ikima, ariyephita hatua za umuiri, ukpwe, uvyazi, na ujuwe, na ambaye vivi anatsukula ndani yakpwe maarifo ga safari zizo zosi. Buluu inapatikana kpwa kustahili, siyo kpwa kugula. Msichana mdide ariyevala buluu angefahamika kukala anadai chitu ambacho kadzangbwe astahili kudai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buluu ya kitambi cha muhere wa kaya — nili ya ndani inayoelekera nyiru — inawakilisha usemi mkpwulu zaidi wa uhusiano huno kahi ya buluu na uwezo. Nili ya kitambi siyo buluu ya kawaida ela ni rangi maalumu, iriyozalishwa kpwa makusudi kuphitiya njira za chijadi za kupaka rangi ambazo zenyewe ni aina ya ujuzi maalumu. Undani wa nili unaashiriya undani wa utawala wa muhere kahi ya miundo ya uongozi ya kaya. Kuvala buluu hino maalumu ni kudai uwezo wa dzulu zaidi wa chijadi ambao mudzima wa Chidigo unaupha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano wa buluu na bahari siwo wa bahati mbaya. Adigo anaishi ph'wani, na upeo wa matso wa bahari urio hipho sikuzosi ndio chitu chinachoeleza mazingira gao. Bahari ina subira, ina undani, na ina nguvu — sifa ambazo Adigo anahusisha na uchetu wa ukulu na ahere anaoongoza mudzima. Mchetu muhere anaphodzikunga buluu, anadzikunga kahi ya sifa za bahari yenyewe: undani, kuvumirira, na uwezo wa chimya usiodika."
+            },
+            {
+              "type": "heading",
+              "text": "Nyiru: Ishima na Akare"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyiru kahi ya nguo za Chidigo inafanya kazi kahi ya rejista mbiri tofauti ela zinazohusiana. Kahi ya rejista ya chijadi, nyiru inaunganisha na akare, na tsi ambayo akaphumzika ndani yakpwe, na nyakati za ishima ambazo ario moyo anashirikiana na ariofwa. Kutembelea kaya, ibada za akare, nyakati za kuzingatira kpwa ndani mila — hizi ni mazingira ambamo nyiru inatsukula uzito wa ishima kpwa ariotangulia. Siyo nyiru ya kuombolezerwa kpwa chizungu, ingawa kuna mwingiliano. Ni nyiru ya uhusiano, ya kukubali kukala mudzima wa ario moyo upo ndani ya mfuatano unaojumuisha ariofwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya rejista ya Chisilamu ya ph'wani, nyiru inakpwedza kpwa umbo ra buibui — joho refhu ambaro achetu anji Adigo a Chisilamu anavala phendereni. Hano, nyiru inaashiriya haya, ishima, na aina maalumu ya hadhi ya chichetu ambayo mila ya ph'wani ya Chisilamu inashikilia. Achetu anjine anahusisha maana ya chidini bahi na nyiru ya buibui. Anjine anaielezera kpwa maneno ga chimila — kuvala nyiru \"kuonyesa ishima kpwa alume ao\" — ambayo inaunganisha rangi na mahusiano ga chimudzima badala ya ibada ya chidini bahi. Nyiru ya buibui ni, kpwa achetu anji Adigo, ya chidini na chimila kpwa wakati mmwenga, rangi inayogomba kpwa luga mbiri mara mwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makutano ga rejista hizi mbiri — ya chijadi na ya Chisilamu — ganazalisha uelewano wenye tabaka nyinji wa nyiru ambao ni wa chipekee wa Chidigo. Mchetu anayevala buibui sokoni na kubadilisha nguo nyiru za chijadi kpwa sherehe ya kaya kapingani na ye mwenyewe. Anasogera kahi ya mifumo miri ya chimila, chila mwenga ikipha maana yakpwe kpwa rangi iyo-iyo, na ufasaha wakpwe kahi ya mifumo yosi miri ni wenyewe aina ya ustadi wa chimila."
+            },
+            {
+              "type": "heading",
+              "text": "Rangi kahi ya Ushanga na Mapambo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa rangi unaenderera zaidi ya nguo hadi kahi ya ushanga wa sanaa ambao ni alama ya utamaduni wa vitu vya Adigo. Tunda — nyuzi za ushanga wenye rangi unaovalwa chibiruni — unatumira kundu, manjano, na nyerupe kahi ya mchanganyiko unaosukula maana maalumu. Ushanga wa kundu unaashiriya umuhimu wa chiroho. Ushanga wa nyerupe unagomba kuhusu usafi. Ushanga wa manjano unahusishwa na sherehe na raha. Mchanganyiko na mphangilio maalumu wa rangi kahi ya ushanga wa chibiru wa mchetu unawasilisha hadhi yakpwe na tukio kpwa aho anaoelewa msimbo uwo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aganga — atibabu a chijadi — anavala mchanganyiko maalumu wa hirizi, ushanga, na vitu vya kujikinga ambavyo rangi zavyo zinaonyesa kazi yao ndani ya mudzima. Chaguo za rangi za mapambo ga mganga sizo mapendeleo ga urembo ela ni ishara za chikazi, zinazowasilisha utaalamu wa mganga na uwezo wakpwe wa chiroho kpwa aho anaolonda huduma zakpwe. Rangi, kahi ya hiri, ni chitambuzi cha chikazi dza vyovyo ni usemi wa chimila."
+            },
+            {
+              "type": "heading",
+              "text": "Kudumu kpwa Maana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya wakati ambao mitindo ya chimataifa ya nguo inafika hata vidzidzi vya kure vya ph'wani kuphitiya mitandao ya chimudzima, mfumo wa rangi za Adigo unakutana na mashindano. Avulana na asichana anaweza kuvala rangi bila kufahamu maana zake za chijadi. Kanga na leso za chibiashara zinakpwedza kpwa chila rangi inayoweza kufikirika, zikigulwa kpwa urembo badala ya umuhimu wa chimila. Mwenendo wa rangi kukala mapambo bahi — ikiuswa kazi yakpwe ya mawasiliano — ni aina ya chimya ya kumomonyoka kpwa chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela phahi, mfumo huno unaenderera phatu ambapho ni muhimu zaidi. Kahi ya harusi, nyerupe bado inatawala. Kahi ya sherehe za kaya, rangi bado zinatsukula uzito wao wa chijadi. Hando ra buluu bado rinaashiriya uwezo wa mchetu muhere. Kundu bado inabeka mphaka wa chiroho. Maana hizi zinadumu kpwa sababu zimejikita si kahi ya mitindo ela kahi ya miundo ya ndani zaidi ya maisha ga chimudzima na chiroho ga Adigo — miundo ambayo, ingawa kuna mashindano ga chisasa, inaenderera kuumba vyere mudzima unavyodzifahamu wenyewe. Rangi inasala, kpwa aho anaoweza kuisoma, luga yenye ufasaha dza luga yoyosi inayogombwa ph'wani."
             }
           ]
         }
@@ -4293,6 +6517,94 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufufuaji wa kisasa miongoni mwa Wadigo ni, katika kiwango chake cha kina zaidi, mazungumzo kuhusu utambulisho katika ulimwengu unaounganishwa. Swali si kama Wadigo watavaa nguo za Kimagharibi — tayari wanafanya hivyo. Swali ni kama msamiati wa jadi wa nguo — mikunjo ya hando, methali za kanga, indigo ya kitambi — utaendelea kuishi pamoja na mavazi ya kisasa kama rasilimali hai ya kitamaduni. Mila ya nguo ya Wadigo imevuka karne za mabadiliko — kuwasili kwa Uislamu, ukoloni, uhuru, utandawazi — ikibadilika kila hatua bila kupoteza tabia yake ya kipekee."
+            },
+            {
+              "type": "heading",
+              "text": "Edna Dhahabu na Ufufuo wa Ubunifu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu linaloonekana zaidi kwa changamoto hii limetoka katika ulimwengu wa ubunifu wa mitindo. Edna Dhahabu, mbunifu kutoka Rabai katika Kaunti ya Kilifi, amekuwa uso wa hadhara wa harakati ya kufikiria upya vitambaa vya jadi vya Mijikenda kwa mavazi ya kisasa. Mtazamo wake si wa kuhifadhi wala kuacha bali wa kubadilisha: anachukua hando ya jadi kama hatua yake ya kwanza na kuifikiria upya kupitia lenzi ya ubunifu wa mitindo ya kisasa, akiunda mavazi yanayoheshimu urithi wao huku yakifanya kazi kama nguo za kisasa ambazo mwanamke kijana mtaalamu anaweza kuchagua kuvaa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Dhahabu inajumuisha nakshi za jadi za ufumaji — muundo na midundo inayoelezea uzuri wa vitambaa vya Mijikenda — pamoja na mapambo yanayotokana na utamaduni wa kimali wa pwani: shanga, makombeo, na kete zilizopangwa kwa nakshi zinazorejelea ushanga wa jadi bila kuiga kabisa. Maumbo ya mavazi ni ya kisasa, yaliyoundwa kwa ajili ya mwendo na kwa muktadha wa maisha ya kisasa — ofisini, matukio, mitaani — badala ya muktadha wa sherehe ambapo hando ya jadi iko nyumbani zaidi. Matokeo ni aina mpya ya mavazi yanayoishi kati ya mila na usasa, yakidai yote mawili huku hayawezi kupunguzwa kuwa moja tu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warsha yake huko Rabai inaajiri watu kumi na saba — wafumaji, mafundi wa shanga, washonaji, na wakamilishaji — ikiunda mfano wa kiuchumi unaoweka uhifadhi wa utamaduni ndani ya uundaji wa riziki. Hii si mradi wa makumbusho au mpango wa ruzuku ya serikali. Ni biashara inayofanya kazi, na uwezo wake wa kibiashara wenyewe ni aina ya hoja ya kitamaduni: uzuri wa jadi wa Mijikenda, ukitafsiriwa vizuri, una thamani ya soko. Maagizo ya kimataifa kwenda Dubai na Marekani yanathibitisha kuwa thamani hii inaenea mbali zaidi ya jamii ya karibu."
+            },
+            {
+              "type": "heading",
+              "text": "Maonyesho ya Mitindo na Uwasilishaji wa Kitamaduni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maonyesho ya mitindo yamejitokeza kama jukwaa muhimu kwa ufufuo wa mavazi ya kisasa. Wabunifu wanaofanya kazi na vitambaa vya jadi vya Mijikenda wametumia maonyesho ya njia ya mitindo — Mombasa, Nairobi, na kwa kuongezeka katika matukio ya kimataifa — kuweka upya muktadha wa mavazi ya jadi kwa hadhira mpya. Muundo wa maonyesho ya mitindo, uliokopwa kutoka utamaduni wa mitindo wa Magharibi, unakuwa fremu ambayo vitambaa vya jadi vinaweza kuonekana kwa macho mapya: si kama vitu vya ajabu vya ethnografia au kumbukumbu za nostalgia, bali kama rasilimali za ubunifu zenye nguvu halisi ya uzuri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maonyesho haya yanatumika kwa njia mbili. Kwa hadhira ya nje — waandishi wa habari za mitindo, wanunuzi, watalii wa kitamaduni — yanaanzisha mila za vitambaa vya Kidigo kama mfumo hai wa ubunifu badala ya tanbihi ya kihistoria. Kwa hadhira ya ndani — vijana wa Kidigo na Mijikenda ambao wanaweza kuona mavazi ya jadi kama ya kizamani — yanaonyesha kuwa urithi na mtindo si vitu vinavyopingana. Kuona vitambaa na mbinu za jadi kwenye njia ya mitindo, vikitolewa kwa ubora na tamaa ya ubunifu sawa na mkusanyiko mwingine wowote wa mitindo, kunaweza kubadilisha uhusiano wa kijana na urithi wake wa kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano katika mkakati huu unakubaliwa na wabunifu wenyewe. Maonyesho ya mitindo yanafanya mavazi ya jadi kuwa ya uzuri tu, yakiyaondoa kutoka muktadha wake wa sherehe na kuyaweka ndani ya mfumo wa kibiashara unaofanya kazi kwa sheria tofauti. Hando kwenye njia ya mitindo si hando katika sherehe ya kaya. Ushanga kwenye mfano si vivorodete kwenye mkono wa mwanamke aliyeolewa. Kitu fulani lazima kitafsiriwe — na tafsiri daima inahusisha faida na hasara. Faida ni kuonekana, thamani ya kiuchumi, na kiburi cha kitamaduni. Hasara, huenda, ni kina cha maana kinachotegemea uhusiano wa nguo na muktadha maalum wa kijamii na kiroho."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano Kati ya Rejista"
+            },
+            {
+              "type": "paragraph",
+              "text": "Utamaduni wa mavazi ya Kidigo wa kisasa unafahamika vyema zaidi kama mfumo wa rejista — njia tofauti za kuvaa zinazohusiana na muktadha tofauti wa kijamii na ambazo mtu mmoja anaweza kusogea kati yake katika mwendo wa siku. Rejista ya jadi inajumuisha hando, kitambi, na mfumo kamili wa mavazi ya sherehe na mapambo. Rejista ya Kiislamu ya pwani inazingatia buibui na hijab. Rejista ya kisasa inajumuisha mavazi ya Kimagharibi na mitindo ya kisasa ya Kiafrika. Kila rejista inabeba sheria zake, mfumo wake wa rangi, na viwango vyake vya kufaa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulaini wa kusogea kati ya rejista hizi wenyewe ni aina ya ustadi wa kitamaduni. Mwanamke Mdigo anayevaa buibui kwa swala ya Ijumaa, anabadilisha kanga kwa kupika chakula cha mchana, anavaa mavazi ya ofisi ya Kimagharibi kwa mkutano wa alasiri, na kisha anajifunga hando kwa sherehe ya wikendi hapitii mkanganyiko wa utambulisho. Anaonyesha ustadi wa mazingira magumu ya kitamaduni yanayohitaji uwasilishaji tofauti wa nafsi katika muktadha tofauti. Uwezo wa kusogea kati ya rejista — kujua kila muktadha unahitaji nini na kujionyesha ipasavyo — ni ujuzi, si dalili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo wa kisasa unatafuta kuunda madaraja kati ya rejista hizi badala ya kuziunganisha kuwa moja. Mbunifu anapoundavazi la kisasa linalojumuisha nakshi za ufumaji wa jadi, anajenga nguo inayoweza kusogea kati ya rejista za jadi na za kisasa, ikibeba vipengele vya moja ndani ya nyingine. Uchavushaji huu unaboresha rejista zote mbili bila kuyeyusha mipaka inayoipa kila moja maana yake."
+            },
+            {
+              "type": "heading",
+              "text": "Hando katika Muktadha wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando yenyewe imeanza kuonekana katika muktadha ambao ungeweza kufikirika kizazi kilichopita. Wanawake vijana wanavaa vifuniko vilivyoongozwa na hando katika matukio ya kitamaduni ya vyuo vikuu, wakidai urithi wao katika mazingira ya elimu yanayotawaliwa na kanuni za Kimagharibi. Vipengele vya hando vinaonekana katika upigaji picha wa harusi — picha zilizopangwa ambazo zinachanganya mavazi ya jadi na uzuri wa kisasa, zikiunda picha zinazosambaa kwenye mitandao ya kijamii na kuanzisha upya nguo hiyo kwa hadhira ambayo huenda kamwe haitahudhuria sherehe ya jadi. Tamasha za kitamaduni kando ya pwani zinaonyesha hando, mashindano ya mitindo, na maonyesho ya mbinu za jadi za kufunga, zikiunda nyakati za makusudi za kufundisha ambamo maarifa ya jadi yanasambazwa kwa hadhira mpya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muktadha hizi mpya hazichukui nafasi ya zile za jadi. Sherehe ya kaya bado inahitaji hando ivaliwayo kwa njia ya jadi. Harusi bado inaita hando nyeupe ya bibi arusi, iliyofungwa na kukunjwa na mikono yenye uzoefu. Wanawake wazee bado wanavaa vifuniko vyao vya buluu kama alama za mamlaka na hekima. Muktadha mpya zinachotoa ni maana ya nyongeza — fursa zaidi kwa hando kuonekana, kuvaliwa, kujadiliwa, na kuthaminiwa, ikipanua alama ya kitamaduni ya nguo hiyo zaidi ya eneo linalopungua la sherehe za jadi hadi eneo linaloongezeka la usemi wa kitamaduni wa kisasa."
+            },
+            {
+              "type": "heading",
+              "text": "Ushanga na Uchumi wa Mafundi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo unaenea zaidi ya mavazi hadi utamaduni mpana wa kimali wa mavazi ya Kidigo, hasa ushanga. Vikundi vya wanawake na mafundi binafsi kando ya pwani ya kusini wametambua kuwa ujuzi wa ushanga wa jadi — uundaji wa vivorodete, tunda, na mapambo mengine — unaweza kutumika kama msingi wa mazoezi ya vito vya kisasa. Kwa kubadilisha mbinu za jadi na mifumo ya rangi kulingana na aina za vito vya kisasa, mafundi hawa wanaunda bidhaa zinazobeba maana ya kitamaduni huku zikifanya kazi katika soko la kibiashara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi huu wa mafundi unakabiliwa na changamoto halisi. Ujuzi unaohitajika kwa ushanga wa jadi unahitaji kazi nyingi na muda mwingi, na kufanya iwe vigumu kushindana kwa bei na vipambo vinavyotengenezwa kwa wingi. Maarifa ya kitamaduni yanayoelekeza chaguo za rangi za jadi na maana za nakshi si daima yanathaminiwa na wateja wa nje ambao wanaweza kupenda uzuri bila kuelewa umuhimu wake. Na soko la bidhaa maalum za kitamaduni ni dogo kwa asili ikilinganishwa na soko la vipambo vya mitindo vya kawaida. Hata hivyo, kudumu kwa mazoezi haya ya mafundi — kukataa kwao kutoweka licha ya shinikizo la kiuchumi — kunazungumza juu ya kujitolea kwa kuendelea kwa utamaduni kunakopita mantiki rahisi ya soko."
+            },
+            {
+              "type": "heading",
+              "text": "Kilichohatarini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo wa mavazi ya kisasa miongoni mwa Wadigo ni, kwa kina chake, mazungumzo kuhusu utambulisho katika ulimwengu unaounganishwa. Swali si kama Wadigo watavaa nguo za Kimagharibi — tayari wanavaa, na wataendelea kufanya hivyo. Swali ni kama mfumo wa vitambaa vya jadi — mikunjo ya hando, methali za kanga, nili ya kitambi, rangi za ushanga — utaendelea kuishi pamoja na mavazi ya kisasa kama rasilimali hai ya kitamaduni, au kama utafifia na kuingia katika kundi la maonyesho ya urithi, yanayotolewa kwa watalii na tamasha za kitamaduni lakini hayapo katika muundo wa maisha ya kila siku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu bado halijaamuliwa, na litaundwa na chaguo za wabunifu binafsi, mafundi, watetezi wa kitamaduni, na watu wa kawaida wanaoamua kila asubuhi nini wavae mwilini mwao. Kila msichana kijana anayejifunza kufunga hando, kila fundi anayepiga shanga za jadi kuwa mkufu wa kisasa, kila mbunifu anayejumuisha mbinu za vitambaa vya pwani katika nguo ya kisasa — kila chaguo hizi zinasukuma matokeo upande mmoja. Chaguo kinyume — kitanda kilichoachwa, mkunjo uliosauhiliwa, maarifa ya jadi yanayokufa na mtendaji wake wa mwisho — zinasukuma upande mwingine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo unaonyesha kuwa matokeo si ya lazima. Mabadiliko ya kitamaduni si lazima yamaanishe upotevu wa kitamaduni. Mila ya vitambaa ya Wadigo imenusurika karne za mabadiliko — ujio wa Uislamu, ukoloni wa Kireno, utawala wa Kiingereza, uhuru wa Kenya, utandawazi — ikibadilika katika kila hatua bila kupoteza tabia yake ya kipekee. Wakati wa sasa ni hatua nyingine kama hiyo, na ubunifu, nguvu, na azimio la watu wanaofanya kazi kubeba mila mbele yanaonyesha kuwa njia ya Kidigo ya kuzungumza kupitia nguo ina sura bado za kuandikwa."
             }
           ],
           "dig": [
@@ -4315,6 +6627,94 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufufuaji wa kisasa kahi ya Adigo ni, kpwa kiwango chakpwe cha kina zaidi, mazungumzo kuhusu utambulisho kpwa ulimwengu unaounganishwa. Swali si kukala Adigo andavala nguwo za Kimagharibi — tayari anafanya hivyo. Swali ni kukala msamiati wa jadi wa nguwo — mikunjo ya hando, methali za kanga, indigo ya kitambi — undaendelea kuishi phamwenga na mavazi ga kisasa kukala rasilimali hai ya chimila. Chimila cha nguwo cha Adigo chimevuka karne za mabadiliko — kuwasili kpwa Uislamu, akoloni, uhuru, utandawazi — chikibadilika chila hatua bila kupoteza tabia yakpwe ya chipekee."
+            },
+            {
+              "type": "heading",
+              "text": "Edna Dhahabu na Ufufuo wa Ubunifu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu riniroonekana zaidi kpwa changamoto hino rikatoka kahi ya ulumwengu wa ubunifu wa mitindo. Edna Dhahabu, mubunifu kula Rabai kahi ya Kaunti ya Kilifi, akakala uso wa wazi wa harakati ya kufikiria luphya vitambaa vya chijadi vya Amijikenda kpwa nguo za vivi. Njira yakpwe siyo ya kuhifadhi wala kuricha ela ya kubadilisha: anatsukula hando ra chijadi kama hatua yakpwe ya kpwandza na kurifikiria luphya kuphitiya lenzi ya ubunifu wa mitindo ya vivi, akiunda nguo zinazoishimu urithi wao huku zikifanya kazi kama nguo za vivi ambazo mchetu mdide mtaalamu anaweza kugula kuvala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya Dhahabu inajumuisha nakshi za chijadi za ufumaji — muundo na midundo inayoelezera urembo wa vitambaa vya Amijikenda — phamwenga na mapambo ganagotokana na utamaduni wa vitu vya ph'wani: ushanga, makombeo, na kete zilizophangwa kpwa nakshi zinazorejelea ushanga wa chijadi bila kuiga kabisa. Maumbo ga nguo ni ga vivi, garigoundwa kpwa ajili ya mwendo na kpwa mazingira ga maisha ga vivi — ofisini, matukio, mitaani — badala ya mazingira ga sherehe ambamo hando ra chijadi riko nyumbani zaidi. Matokeo ni aina muphya ya nguo iriyopo kahi ya mila na usasa, ikidai zosi mbiri huku haiwezi kupunguzwa kukala mwenga bahi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warsha yakpwe kuko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ikiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayofanya kazi, na uwezo wakpwe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, ukitafsiriwa vinono, una thamani ya soko. Maagizo ga chimataifa kpwendayo Dubai na Marekani ganathibitisha kukala thamani hino inaenderera kure zaidi ya mudzima wa phephi."
+            },
+            {
+              "type": "heading",
+              "text": "Maonyesho ga Mitindo na Uonyeshaji wa Chimila"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maonyesho ga mitindo gakakala jukwaa muhimu kpwa ufufuo wa nguo za vivi. Abunifu anaofanya kazi na vitambaa vya chijadi vya Amijikenda akatumira maonyesho ga njia ya mitindo — Mombasa, Nairobi, na kpwa kuenjerezeka kahi ya matukio ga chimataifa — kubeka luphya muktadha wa nguo za chijadi kpwa aogalana nao muphya. Mfumo wa maonyesho ga mitindo, uriokopwa kula utamaduni wa mitindo wa Chizungu, unakala fremu ambayo vitambaa vya chijadi vinaweza kuonekana na matso maphya: si kama vitu vya ajabu vya chiuthnogirafiya au vya kare vya nostalgia, ela kama rasilimali za ubunifu zenye nguvu ya kpweli ya urembo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maonyesho higa ganatumika kpwa njira mbiri. Kpwa aogalana nao a kondze — aandishi a habari za mitindo, anunuzi, ajeni a chimila — ganaanzisha mila za vitambaa vya Chidigo kama mfumo hai wa ubunifu badala ya tanbihi ya chihistoria. Kpwa aogalana nao a ndani — avulana na asichana a Chidigo na Amijikenda ambao anaweza kuona nguo za chijadi kama za kare — ganaonyesa kukala urithi na mtindo si vitu vinavyopingana. Kuona vitambaa na mbinu za chijadi kpwa njia ya mitindo, vikitolwa kpwa ubora na tamaa ya ubunifu sawa na mkusanyiko wowosi wa mitindo, kunaweza kubadilisha uhusiano wa mvulana au msichana na urithi wakpwe wa chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kahi ya mkakati huno unakubaliwa ni abunifu enye. Maonyesho ga mitindo ganafanya nguo za chijadi kukala za urembo bahi, gakiziusa kula muktadha wao wa sherehe na kuzibeka ndani ya mfumo wa chibiashara unaofanya kazi kpwa sheria tofauti. Hando kpwa njia ya mitindo si hando kahi ya sherehe ya kaya. Ushanga kpwa mfano si vivorodete kpwa mkono wa mchetu ariyeolwa. Chitu fulani ni lazima chitafsiriwe — na kutafsiri sikuzosi kunahusisha faida na hasara. Faida ni kuonekana, thamani ya chiuchumi, na ngòho ya chimila. Hasara, ikiwezekana, ni undani wa maana unaotegemera uhusiano wa nguo na muktadha maalumu wa chimudzima na chiroho."
+            },
+            {
+              "type": "heading",
+              "text": "Mvutano kahi ya Rejista"
+            },
+            {
+              "type": "paragraph",
+              "text": "Utamaduni wa nguo za Chidigo wa vivi unafahamika vinono zaidi kama mfumo wa rejista — njira tofauti za kuvala zinazohusiana na mazingira tofauti ga chimudzima na ambazo mutu mmwenga anaweza kusogera kahi yazo kahi ya mwendo wa siku. Rejista ya chijadi inajumuisha hando, kitambi, na mfumo kamili wa nguo za sherehe na mapambo. Rejista ya Chisilamu ya ph'wani inazingatira buibui na hijab. Rejista ya vivi inajumuisha nguo za Chizungu na mitindo ya vivi ya Chiafrika. Chila rejista inatsukula sheria zakpwe, mfumo wakpwe wa rangi, na viwango vyakpwe vya kufwaha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulaini wa kusogera kahi ya rejista hizi wenyewe ni aina ya ustadi wa chimila. Mchetu Mdigo anayevala buibui kpwa swala ya Ijumaa, anabadilisha kanga kpwa kuphika chakurya cha mutana, anavala nguo za ofisi za Chizungu kpwa mkutano wa dziloni, na phapho anadzikunga hando kpwa sherehe ya jumamosi kaphitiye mkanganyiko wa kutambulika. Anaonyesa ustadi wa mazingira magumu ga chimila ganagolonda uonyeshaji tofauti wa mutu kahi ya muktadha tofauti. Uwezo wa kusogera kahi ya rejista — kumaniya chila muktadha unalonda mini na kudzionyesa vinono — ni ujuzi, siyo dalili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo wa vivi unalonda kuunda madaraja kahi ya rejista hizi badala ya kuziunganisha kukala mwenga. Mubunifu anaphoundanguo ya vivi inayojumuisha nakshi za ufumaji wa chijadi, anaunda nguo inayoweza kusogera kahi ya rejista za chijadi na za vivi, ikitsukula vipengele vya mwenga ndani ya yanjine. Uchavushaji huno unaboresha rejista zosi mbiri bila kuyeyusha miphaka inayoipha chila mwenga maana yakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Hando kahi ya Mazingira ga Vivi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando renyewe rikandza kuonekana kahi ya mazingira ambago gangekala gagafikirika kizazi kirichophita. Asichana adide anavala vifuniko virivyoongozwa ni hando kahi ya matukio ga chimila ga vyuo vikulu, akidai urithi wao kahi ya mazingira ga elimu ganagotawalwa ni kanuni za Chizungu. Vipengele vya hando vinaonekana kahi ya kuphiga picha za harusi — picha zilizophangwa ambazo zinachanganya nguo za chijadi na urembo wa vivi, zikiunda picha zinazotsambalwa kpwa mitandao ya chimudzima na kuanzisha luphya nguo iyo kpwa atu ambao ikiwezekana takpwe phata kuphiya sherehe ya chijadi. Tamasha za chimila kanda ya ph'wani zinaonyesa hando, mashindano ga mitindo, na maonyesho ga mbinu za chijadi za kukunga, zikiunda nyakati za makusudi za kufundisha ambamo maarifo ga chijadi ganasambazwa kpwa aogalana nao muphya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mazingira higa maphya tagatsukula nafasi ya ga chijadi. Sherehe ya kaya bado inalonda hando rivalwavyo kpwa njira ya chijadi. Harusi bado inaiha hando nyerupe ra bibi arusi, ririkungwa na kukunjwa ni mikono yenye uzoefu. Achetu ahere bado anavala vifuniko vyao vya buluu kama alama za uwezo na ikima. Mazingira maphya ganagotolea ni maana ya nyongeza — fursa zaidi kpwa hando kuonekana, kuvalwa, kujadiliwa, na kuthaminiwa, ikipanula alama ya chimila ya nguo iyo zaidi ya eneo rinarodziha ra sherehe za chijadi hadi eneo rinagoenderera kukula ra usemi wa chimila wa vivi."
+            },
+            {
+              "type": "heading",
+              "text": "Ushanga na Uchumi wa Amafundi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo unaenderera zaidi ya nguo hadi utamaduni mphana wa vitu vya nguo za Chidigo, hasa ushanga. Vikundi vya achetu na amafundi binafsi kanda ya ph'wani ya kusini akatambua kukala ujuzi wa ushanga wa chijadi — uundadzi wa vivorodete, tunda, na mapambo ganjine — unaweza kutumika kama msingi wa mazoezi ga vitu vya kudzirembesha ga vivi. Kpwa kubadilisha mbinu za chijadi na mifumo ya rangi kulingana na aina za vitu vya kudzirembesha ga vivi, amafundi hawa anaunda bidhaa zinazosukula maana ya chimila huku zikifanya kazi kahi ya soko ra chibiashara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi huno wa amafundi unakutana na changamoto za kpweli. Ujuzi unaolondwa kpwa ushanga wa chijadi unalonda kazi nyinji na wakati munji, na kufanya ikale vigumu kushindana kpwa bei na vipambo vinavyoundwa kpwa unji. Maarifo ga chimila ganagolongoza chaguo za rangi za chijadi na maana za nakshi si sikuzosi ganathaminiwa ni atu a kondze ambao anaweza kuhenda urembo bila kuelewa umuhimu wakpwe. Na soko ra bidhaa maalumu za chimila ni dide kpwa asili ikilinganishwa na soko ra vipambo vya mitindo vya kawaida. Ela phahi kudumu kpwa mazoezi higa ga amafundi — kukatala kwao kutoweka ingawa kuna shinikizo ra chiuchumi — kunagomba kuhusu kudzitolea kpwa kuenderera kpwa chimila kunagophita mantiki rahisi ya soko."
+            },
+            {
+              "type": "heading",
+              "text": "Chiricho Hatarini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo wa nguo za vivi kahi ya Adigo ni, kpwa undani wakpwe, mazungumzo kuhusu kutambulika kahi ya ulumwengu unaounganishwa. Swali si kama Adigo andavala nguo za Chizungu — kare anavala, na andaenderera kuhenda hivyo. Swali ni kama mfumo wa vitambaa vya chijadi — mikunjo ya hando, methali za kanga, nili ya kitambi, rangi za ushanga — undaenderera kuishi phamwenga na nguo za vivi kama rasilimali hai ya chimila, au kama undafifia na kuinjira kahi ya kundi ra maonyesho ga urithi, ganagotolwa kpwa ajeni na tamasha za chimila ela gasiho kahi ya muundo wa maisha ga chila siku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu bado tariamuliwa, na rindaundwa ni chaguo za abunifu binafsi, amafundi, ateezi a chimila, na atu a kawaida anaoamua chila ligundzu ni mini avale mwirini mwao. Chila msichana mdide anayefundza kukunga hando, chila mfundi anayesuka ushanga wa chijadi kukala mkufu wa vivi, chila mubunifu anayejumuisha mbinu za vitambaa vya ph'wani kahi ya nguo ya vivi — chila chaguo hizi zinasukuma matokeo upande mmwenga. Chaguo za kinyume — chitanda chirichorichwa, mkunjo urioyayalwa, maarifo ga chijadi ganagofwa na mtendaji wakpwe wa mwisho — zinasukuma upande wanjine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufufuo unaonyesa kukala matokeo si ga lazima. Mabadiliko ga chimila si lazima gamaanishe kupoteza chimila. Mila ya vitambaa ya Adigo ikaishi karne za mabadiliko — kpwedza kpwa Usilamu, ukoloni wa Chireno, utawala wa Chingereza, uhuru wa Kenya, utandawazi — ikibadilika kahi ya chila hatua bila kupoteza tabia yakpwe ya chipekee. Wakati wa vivi ni hatua yanjine dza iyo, na ubunifu, nguvu, na azimio ra atu anaofanya kazi kutsukula mila mbere yanaonyesa kukala njira ya Chidigo ya kugomba kuphitiya nguo ina sura bado za kuandikwa."
             }
           ]
         }
@@ -4474,6 +6874,74 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mustakabali wa hando unashughulikiwa na kizazi kipya cha wabunifu. Edna Dhahabu kutoka Rabai amejitokeza kama mtu mashuhuri zaidi katika ufufuaji huu, akichukua hando ya jadi kama hatua ya kwanza na kuifikiria upya kwa mavazi ya kisasa. Warsha yake inaajiri watu kumi na saba, na maagizo ya kimataifa yanafika Dubai na Marekani. Mvutano kati ya kisasa na jadi ni wa kweli — lakini mila inayojadiliwa ni mila ambayo watu bado wanaijali."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buluu ni ya wanawake wazee. Ni rangi ya ukomavu, ya hekima iliyokusanywa kupitia miongo ya maisha, ya mamlaka ya kimya inayokuja na umri katika jamii inayoheshimu wazee wake. Mwanamke anayevaa hando la buluu amestahili haki yake kupitia miaka ya kuishi, na rangi yenyewe ni aina ya anwani — tamko la kuonekana linalodai heshima inayostahili ukubwa wake. Hando la buluu labda ndilo lenye heshima zaidi kati ya tofauti zote, rangi yake ya upole ikizungumza kwa ufasaha zaidi kuliko rangi yoyote angavu ingeweza."
+            },
+            {
+              "type": "heading",
+              "text": "Umuhimu wa Kisherehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maana ya kina zaidi ya hando inajitokeza katika muktadha wa sherehe. Katika harusi, sherehe za kutoa jina, na ibada za mababu, hando linabadilika kutoka nguo kuwa ishara — uzi unaoonekana unaounganisha wakati wa sasa na zamani za mbali za mila ya Mijikenda. Wanawake wanapokusanyika katika mavazi yao ya hando kwa sherehe katika kaya, hawavai tu ipasavyo. Wanabeba mwendelezo ambao maneno hayawezi kueleza kikamilifu, wakijifunga kihalisi katika kitambaa cha urithi wao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando la bibi arusi linastahili umakini wa pekee. Hando nyeupe linalovaliwa na bibi arusi wa Kidigo siku ya harusi yake ni kitovu cha maandalizi makubwa ambayo yanaweza kuwa yameanza miezi kadhaa mapema. Bibi arusi amekuwa amejitenga, ametibiwa kwa manjano na msandali, mikono na miguu yake imechorwa kwa hina kwa nakshi zilizochukua masaa kumi na mawili. Anapotokea hatimaye katika hando lake nyeupe, akiwa amezungukwa na mapambo ya shanga na wasaidizi wake, athari ni ya kubadilisha. Yeye si tena msichana tu. Ameundwa upya — na mikono ya somo wake, shangazi zake, jamii yake — kuwa kitu chenye mng'ao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika mazishi na mikutano ya kuomboleza, hando linachukua jukumu la huzuni zaidi. Rangi zilizochaguliwa, urahisi wa mpangilio, kutokuwepo kwa mikunjo ya sherehe — yote yanawasilia huzuni na heshima kwa aliyeondoka. Hando katika mazishi ni nguo ya mshikamano, inavaliwa na wanawake walioungana kuomboleza, urahisi wake wenyewe ukiwa tamko la upotevu."
+            },
+            {
+              "type": "heading",
+              "text": "Hando na Kaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kati ya hando na kaya — makazi ya msitu mtakatifu ambayo ni moyo wa kiroho na kihistoria wa ustaarabu wa Mijikenda — ni wa kina. Kaya ni mahali ambapo itifaki za jadi zinafuatwa kwa ukali wa pekee, na mavazi si ubaguzi. Wanawake wanaotembelea kaya wanavaa hando kama alama ya heshima kwa mababu na wazee wanaolinda nafasi takatifu. Rangi maalum zinazoruhusiwa ndani ya eneo la kaya zinaonyesha uzito wa kiroho wa mahali hapo: hii si nafasi ya mavazi ya kawaida au nguo za kisasa. Hando, katika muktadha huu, linakuwa aina ya maandalizi ya ibada — kuvaa nguo yenyewe ni kitendo cha kuingia katika hali sahihi ya kiroho kwa kushirikiana na matakatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kitambi, nguo ya sherehe ya nili ya kina yenye mipaka myekundu inayovaliwa na wazee wa kaya, ipo katika uhusiano na hando. Pamoja, mavazi haya yanaunda lugha ya kuonekana ya mamlaka ya jadi: kitambi kwa wazee wa kiume wanaoongoza kaya, hando kwa wanawake wanaoshiriki katika maisha yake ya kisherehe. Mavazi yote mawili yanafahamika kama alama za kuwa na haki halali — kuvaa ni kudai, kwa kuonekana na hadharani, nafasi ya mtu ndani ya mfumo wa jadi."
+            },
+            {
+              "type": "heading",
+              "text": "Vifaa na Ufundi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kihistoria, hando lilifumwa kutokana na pamba iliyozalishwa ndani, kitambaa kilichoundwa kwenye vitanda rahisi na mafundi walioelewa uzito maalum, uangukaji, na muundo ambao nguo ilihitaji. Ufumaji haukuwa wa kiutendaji tu — ulikuwa sanaa, na ubora wa kitambaa ulioonyesha ujuzi wa mfumaji na hadhi ya mwanamke ambaye angevaa. Ufumaji mzuri ulihifadhiwa kwa sherehe; vitambaa vya kigumu zaidi na vya kudumu vilivitumika kwa matumizi ya kila siku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Leo, hando linaundwa zaidi kutokana na pamba inayozalishwa kibiashara, ingawa kanuni za kuchagua zinabaki sawa. Kitambaa lazima kiwe na uzito sahihi kushikilia mikunjo yake, muundo sahihi kushika kiunoni, na uangukaji sahihi kuunda umbo linaloelezea nguo. Wanawake wanaojua hando vizuri wanaweza kutathmini kipande cha kitambaa mara moja, wakikataa nyenzo ambayo ni nyepesi sana, ngumu sana, au ya kuteleza sana kutumikia mahitaji ya nguo."
+            },
+            {
+              "type": "heading",
+              "text": "Ufufuo wa Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mustakabali wa hando unaunidwa na kizazi kipya cha wabunifu na watetezi wa kitamaduni ambao wanaona katika nguo hiyo si kitu cha kale bali rasilimali. Edna Dhahabu, mbunifu kutoka Rabai katika Kaunti ya Kilifi, amejitokeza kama mtu mashuhuri zaidi katika ufufuo huu. Kazi yake inachukua hando ya jadi kama hatua ya kuanzia na kuifikiria upya kwa mavazi ya kisasa: ikijumuisha nakshi za ufumaji wa jadi pamoja na shanga, makombeo, na mapambo ya kete, ikiunda maumbo yanayoheshimu urithi wa nguo huku yakizungumza kwa hisi za uzuri wa kisasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warsha ya Dhahabu inaajiri watu kumi na saba — wafumaji, mafundi wa shanga, na washonaji — ikiunda mfumo wa kiuchumi uliojengwa juu ya maarifa ya jadi. Maagizo yake ya kimataifa, yanayofika Dubai na Marekani, yanaonyesha kuwa uzuri wa hando una mwangwi mbali zaidi ya pwani ya kusini ya Kenya. Hii si kupora utamaduni bali ni kuusambaza utamaduni: mwanamke wa Mijikenda anachukua nguo ya Mijikenda na kuiweka kwenye jukwaa la kimataifa, kwa masharti yake mwenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano katika ufufuo huu ni wa kweli na unastahili kukubaliwa. Baadhi ya wazee wanaona kisasa cha hando kwa msimamo wa kati, wakiwa na wasiwasi kuwa kubadilisha nguo kwa mitindo ya kisasa kunaweza kuiondolea maana yake ya kisherehe. Wengine wanaona ufufuo kama hasa kitu ambacho mila inahitaji — njia ya kuweka hando hai katika ulimwengu ambapo wanawake vijana wanaweza kuiacha kabisa kwa mavazi ya Kimagharibi. Mitazamo yote miwili ina sifa, na mazungumzo kati yao ni yenyewe aina ya nguvu ya kitamaduni. Mila inayojadiliwa ni mila ambayo watu bado wanaijali."
+            },
+            {
+              "type": "heading",
+              "text": "Hando Linabeba Nini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando ni, mwishowe, zaidi ya nguo. Ni taasisi ya kitamaduni inayobebeka — kipande cha kitambaa kinachobeba ndani ya mikunjo yake mfumo kamili wa maana: utambulisho, hadhi, hali ya kiroho, kuwa sehemu ya jamii, mafanikio ya uzuri, na mwendelezo wa kina wa mila ambayo imeokoka usumbufu wa kikoloni, mabadiliko ya kidini, na shinikizo la daima la usasa. Mwanamke Mdigo anapofunga hando lake na kupanga mikunjo yake kwa uangalifu na usahihi ambao nguo inadai, anafanya kitendo cha uthibitisho wa kitamaduni ambacho ni cha kawaida kabisa na cha kina kimya. Anavaa. Pia anatangaza yeye ni nani."
             }
           ],
           "dig": [
@@ -4516,6 +6984,70 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mustakabali wa hando unashughulikiwa ni kizazi chipha cha abunifu. Edna Dhahabu kula Rabai akadzitokeeza kukala mutu mashuhuri zaidi kpwa ufufuaji huno, akichukula hando ya jadi kukala hatua ya kpwandza na kuifikiria upha kpwa mavazi ga kisasa. Warsha yakpwe inaajiri atu kumi na saba, na maagizo ga kimataifa ganafikira Dubai na Marekani. Mvutano kahi ya kisasa na jadi ni wa kpweli — ela chimila chinachojadiliwa ni chimila ambacho atu bado anachijali."
+            },
+            {
+              "type": "heading",
+              "text": "Umuhimu wa Chisherehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maana ya ndani zaidi ya hando inajitokeza kahi ya mazingira ga sherehe. Kahi ya harusi, sherehe za kupha dzina, na ibada za akare, hando rinabadilika kula nguo kukala ishara — uzi unaoonekana unaounganisha wakati wa vivi na kare za kure za mila ya Amijikenda. Achetu anaphotsembeka kahi ya nguo zao za hando kpwa sherehe kahi ya kaya, taavala tu vinono. Anatsukula mwenderezo ambao maneno tagaweza kuelezera kabisa, akidzikunga kihalisi kahi ya chitambaa cha urithi wao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando ra bibi arusi rinastahili umakini wa chipekee. Hando nyerupe rinavalwa ni bibi arusi wa Chidigo siku ya harusi yakpwe ni chitovu cha maandazi makulu ambago gangaweza kukala gandza miezi kadhahi kare. Bibi arusi akakala akajitenga, akatibiwa kpwa manjano na msandali, mikono na magulu gakpwe gakachorwa kpwa hina kpwa nakshi zirizohala masaa kumi na mairi. Anaphoonekana mwisho kahi ya hando rakpwe nyerupe, akiwa adzizungushiza mapambo ga ushanga na asaidizi akpwe, maadhiri ni ga kubadilisha. Kaye tena msichana bahi. Akeundwa luphya — ni mikono ya somo wakpwe, adzomba akpwe, mudzima wakpwe — kukala chitu chenye kung'ala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya mazishi na makusanyo ga kuomboleza, hando rinatsukula kazi ya unyongo zaidi. Rangi zirizogulwa, urahisi wa mphangilio, kutokuwepo kpwa mikunjo ya sherehe — gosi ganawasilisha chiriro na ishima kpwa ariyeuka. Hando kahi ya mazishi ni nguo ya umwenga, inavalwa ni achetu ariotiya phamwenga kuomboleza, urahisi wakpwe wenyewe uchikala tamko ra kupoteza."
+            },
+            {
+              "type": "heading",
+              "text": "Hando na Kaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kahi ya hando na kaya — makazi ga tsaka takatifu ambago ni moyo wa chiroho na chihistoria wa ustaarabu wa Amijikenda — ni wa ndani. Kaya ni phatu ambapho itifaki za chijadi zinafuatwa kpwa ukali wa chipekee, na nguo si chipingamizi. Achetu anaotembelea kaya anavala hando kama alama ya ishima kpwa akare na ahere analinda nafasi takatifu. Rangi maalumu zinazoruhusiwa ndani ya eneo ra kaya zinaonyesa uzito wa chiroho wa phatu hipho: hiphano si phatu pha nguo za kawaida au za chisasa. Hando, kahi ya hiri, rinakala aina ya maandazi ga ibada — kuvala nguo renyewe ni kitendo cha kuinjira kahi ya hali sahihi ya chiroho kpwa kushirikiana na chitakatifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kitambi, nguo ya sherehe ya nili ya ndani yenye miphaka myekundu inavalwa ni ahere a kaya, ipo kahi ya uhusiano na hando. Phamwenga, nguo hizi zinaunda luga ya kuonekana ya uwezo wa chijadi: kitambi kpwa ahere a chilume anaoongoza kaya, hando kpwa achetu anaoshiriki kahi ya maisha gakpwe ga chisherehe. Nguo zosi mbiri zinafahamika kama alama za kukala na haki ya kpweli — kuzivala ni kudai, kpwa kuonekana na kpwa wazi, nafasi ya mutu ndani ya mfumo wa chijadi."
+            },
+            {
+              "type": "heading",
+              "text": "Vifaa na Ufundi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chihistoria, hando rafumwa kula pamba iriyozalishwa haphano, chitambaa chirichoumbwa kpwa vitanda rahisi ni amafundi ariomanya uzito maalumu, uangukaji, na muundo ambao nguo yalonda. Ufumaji kuyakala wa chiutendaji bahi — yakala sanaa, na ubora wa chitambaa ulionyesa ujuzi wa mfumaji na hadhi ya mchetu ambaye andaivala. Ufumaji mnono uliihifadhiwa kpwa sherehe; vitambaa vya kigumu zaidi na vya kudumu vilitumika kpwa matumizi ga chila siku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rero, hando rinaundwa zaidi kula pamba inayozalishwa chibiashara, ingawa kanuni za kugula zinasala zizo-zizo. Chitambaa ni lazima chikale na uzito sahihi kushikilia mikunjo yakpwe, muundo sahihi kushika chibiruni, na uangukaji sahihi kuunda umbo rinagoelezera nguo. Achetu anaomanya hando vinono anaweza kutathmini chipande cha chitambaa phapho, akikatala nyenzo ambayo ni nyephesi sana, ngumu sana, au ya kuteleza sana kutumikiya malondo ga nguo."
+            },
+            {
+              "type": "heading",
+              "text": "Ufufuo wa Chisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Baadaye ya hando rinaundwa ni kizazi chimuphya cha abunifu na ateezi a chimila anaoona kahi ya nguo iyo si chitu cha kare ela rasilimali. Edna Dhahabu, mubunifu kula Rabai kahi ya Kaunti ya Kilifi, akajitokeza kama mutu mashuhuri zaidi kahi ya ufufuo huno. Kazi yakpwe inatsukula hando ra chijadi kama hatua ya kuandzira na kurifikiria luphya kpwa nguo za vivi: ikijumuisha nakshi za ufumaji wa chijadi phamwenga na ushanga, makombeo, na mapambo ga kete, ikiunda maumbo ganagoishinmu urithi wa nguo huku gakigomba kpwa hisi za urembo wa vivi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warsha ya Dhahabu inaajiri atu kumi na saba — afumaji, amafundi a ushanga, na ashonaji — ikiunda mfumo wa chiuchumi uriojengwa dzulu ya maarifo ga chijadi. Maagizo gakpwe ga chimataifa, ganagofika Dubai na Marekani, ganaonyesa kukala urembo wa hando una mwangwi kure zaidi ya ph'wani ya kusini ya Kenya. Hino siyo kupora chimila ela ni kusambaza chimila: mchetu wa Chimijikenda anatsukula nguo ya Chimijikenda na kuibeka kpwa jukwaa ra chimataifa, kpwa masharti gakpwe mwenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kahi ya ufufuo huno ni wa kpweli na unastahili kukubaliwa. Ahere anjine anaona chisasa cha hando kpwa msimamo wa kahi-kahi, akiwa na wasiwasi kukala kubadilisha nguo kpwa mitindo ya vivi kunaweza kuriusira maana yakpwe ya chisherehe. Anjine anaona ufufuo kama hasa chitu ambacho mila inalonda — njira ya kubeka hando hai kahi ya ulumwengu ambamo asichana adide anaweza kuricha kabisa kpwa nguo za Chizungu. Mitazamo yosi miri ina sifa, na mazungumzo kahi yao ni yenyewe aina ya nguvu ya chimila. Mila inayojadiliwa ni mila ambayo atu bado anaijali."
+            },
+            {
+              "type": "heading",
+              "text": "Hando Rinatsukula Mini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hando ni, mwishowe, zaidi ya nguo. Ni taasisi ya chimila inayotsukurwa — chipande cha chitambaa chinachosukula ndani ya mikunjo yakpwe mfumo kamili wa maana: kutambulika, hadhi, hali ya chiroho, kukala seemu ya mudzima, mafanikio ga urembo, na mwenderezo wa ndani wa mila ambayo ikaishi usumbufu wa chikoloni, mabadiliko ga chidini, na mashindano ga daima ga chisasa. Mchetu Mdigo anaphokunga hando rakpwe na kuphanga mikunjo yakpwe kpwa uangalifu na usahihi ambao nguo inalonda, anafanya kitendo cha uthbitisho wa chimila ambacho ni cha kawaida kabisa na cha ndani chimya. Anavala. Phahi anatangaza ye ni ani."
             }
           ]
         }
@@ -4667,6 +7199,90 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kanga inamsindikiza mwanamke wa Kidigo kutoka wakati wa kwanza wa maisha hadi wa mwisho. Mtoto mchanga anafungwa kanga. Katika ujana, msichana anaanza kuchagua kanga zake mwenyewe. Katika ndoa, kanga zinabadilishwa na kutumwa kama mawasiliano. Na katika kifo, kanga inajiunga na sanda, ikifunga mwili kwa safari yake ya mwisho. Kanga inadumu kwa sababu imefumwa, kwa maana halisi na ya kina zaidi, ndani ya maisha yenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desturi ya kuongeza maandishi kwenye kanga ilianza miaka ya 1930, wakati watengenezaji huko Mombasa na Zanzibar waligundua kuwa maandishi yaliongeza mauzo kwa kiasi kikubwa. Wanawake walitaka nguo zilizosema kitu — zilizowapa sauti wanayoweza kuvaa. Mila hiyo ilijikita kwa kasi ya ajabu na haijapungua kamwe. Leo, kanga jina ni mojawapo ya aina hai zaidi za fasihi ya watu katika Afrika Mashariki, mkusanyiko unaoendelea kubadilika wa methali, misemo, na maoni makali yanayoonyesha wasiwasi, thamani, na akili ya wanawake wanaonunua na kuvaa nguo hizi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maandishi yanatofautiana kutoka ya kifalsafa hadi ya vitendo, kutoka ya upole hadi ya kuangamiza. \"Dunia inazunguka, lakini Mungu anabaki\" inazungumza juu ya imani na ustahimilivu. Ujumbe wa mapenzi uliofungwa kiunoni unatangaza upendo bila mzungumzaji kufungua kinywa chake. Ukosoaji mkali ulioelekezwa kwa mpinzani au mume wa kukatisha tamaa unafika si kwa makabiliano bali kupitia kitambaa — unaoonekana kwa kila mtu, unaoweza kukanushwa na mvaaji, na wenye nguvu katika ujumbe wake usio wa moja kwa moja. \"Sijasema chochote,\" mwanamke anaweza kupinga anapohojiwa kuhusu ujumbe wa kanga yake. \"Ni nguo tu.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Ujumbe huu usio wa moja kwa moja ndio akili ya pekee ya kanga kama chombo cha mawasiliano. Katika muktadha wa kijamii ambapo makabiliano ya moja kwa moja — hasa na wanawake — yanabeba gharama kubwa ya kijamii, kanga inatoa njia mbadala. Mwanamke anaweza \"kusema\" kupitia nguo yake kile ambacho huenda asiseme kamwe kwa sauti yake. Anaweza kueleza tamaa, kukatishwa tamaa, wivu, kiburi, ujitoaji, na dharau — yote huku akidumisha mwonekano wa kuvaa tu nguo nzuri. Ujumbe ni wa hadharani lakini unaweza kukanushwa, unaoonekana lakini kiufundi haujasemwa. Ni mawasiliano yenye mlango wa kutoroka uliojengwa ndani, na wanawake Wadigo wa pwani wameimudu sanaa hii kwa vizazi."
+            },
+            {
+              "type": "heading",
+              "text": "Methali za Kanga za Kidigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa kanga jina nyingi zimeandikwa kwa Kiswahili sanifu, mila tofauti ya methali za kanga za lugha ya Kidigo ipo pamoja na mkusanyiko mkuu. Maandishi haya ya Chidigo yanawakilisha kitu muhimu: mila ya kifasihi iliyojikita katika utamaduni wa kimali, aina ya Kidigo kilichoandikwa kinachotangulia juhudi nyingi rasmi za kusoma na kuandika na kinachofikia hadhira pana zaidi kuliko kitabu au gazeti lolote. Methali ya kanga ya Kidigo ni wakati huo huo kitambaa, kipande cha nguo, kazi ya sanaa, na maandishi — ikiangusha mipaka kati ya fasihi na maisha ya kila siku kwa njia ambayo aina chache za kitamaduni zinafanikiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Methali za kanga za Kidigo zinatoka katika mila ya mdomo ya jamii — kisima kile kile cha hekima kinacholisha hadithi, maneno ya nyimbo, na hotuba za wazee — lakini chombo cha kitambaa kinaweka nidhamu yake yenyewe. Jina lazima iwe fupi, ya kukumbukwa, na yenye utata wa kutosha kutumika katika hali nyingi huku ikiwa maalum ya kutosha kubeba maana halisi. Methali bora za kanga zinafanikiwa kupata uwiano huu kwa uchumi wa ushairi: maneno machache yanayofunguka kuwa uwanja mpana wa tafsiri, yakizungumza tofauti kwa kila mwanamke anayeisoma kulingana na hali yake."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga ya Kishutu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miongoni mwa aina nyingi za kanga, moja ina umuhimu maalum wa kiroho kwa Wadigo: kanga ya Kishutu. Hizi zinajulikana kwa mpango wao wa rangi — nyeusi, nyekundu, na nyeupe katika nakshi za jadi za ujasiri — na kwa sifa za kiroho zinazohusishwa nazo. Kanga ya Kishutu inaaminika kuzuia uovu na kuleta uponyaji, na inashikilia nafasi katika mazoezi ya kiroho ya Wadigo ambayo kanga za kawaida hazishikili. Haivaliwi tu kwa mtindo au mawasiliano. Inavaliwa kwa kinga, inatumika katika ibada za uponyaji, na inaheshimiwa kwa heshima inayoonyesha uhusiano wake unaoonekana na nguvu za zaidi ya kimali."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jina Kishutu linaunganisha na nyanda za milima ya Shimba — mazingira yanayounda eneo la mababu la Wadigo — na uhusiano wa kiroho wa kanga unaweza kuonyesha mila za zamani za vitambaa zinazotangulia sekta ya kanga ya kibiashara. Katika kanga ya Kishutu, ya kibiashara na takatifu zinakutana: kitambaa kilichotengenezwa kwa wingi kinakuwa kitu cha kiroho, nguvu yake ikiwa si katika muundo wake wa kimali bali katika ubunifu wake, rangi zake, na imani ya jamii katika ufanisi wake. Makutano haya ni sifa ya utamaduni wa Kidigo, ambao kwa uthabiti umepata njia za kuingiza vitu vya kibiashara na vya kisasa na maana ya kiroho ya jadi."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga katika Maisha ya Kila Siku"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa wanawake Wadigo, kanga ni nguo yenye matumizi mengi zaidi katika kabati lao. Ikifungwa kama sketi, inafunika mwili wa chini kwa kazi za kila siku. Ikiwekwa mabegani, inatoa joto asubuhi za baridi za pwani na kinga kutoka jua la alasiri. Ikifungwa kichwani, inakuwa kifuniko cha kichwa kinachofaa kwa msikiti, soko, au jikoni. Ikifungwa kwa mpangilio maalum kuzunguka mwili, inaunda kibeba salama cha kubeba mtoto mgongoni au kiunoni — kazi muhimu sana hivi kwamba wanawake wengi Wadigo hawawezi kufikiria utunzaji wa watoto wachanga bila kanga. Nguo ile ile inayobeba methali na muundo uliochapwa inatumikia, katika kazi yake rahisi zaidi, kama kipande cha kitambaa cha vitendo zaidi katika maisha ya mwanamke."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jikoni, kanga zinatumika kama epuroni, vishikio vya sufuria, na vifuniko vya uso. Kanga zilizochakaa zinakuwa vitambaa vya kusafisha, viraka, na vipande kwa matumizi mengine. Mzunguko wa maisha wa kanga — kutoka kununua hadi kuvaa kila siku hadi matumizi ya nyumbani hadi kutupwa mwishoni — unaonyesha mtazamo wa Kidigo kwa utamaduni wa kimali kwa ujumla: hakuna kinachopotea, kila kitu kinapata matumizi, na mpaka kati ya uzuri na vitendo ni wa kupenyeka."
+            },
+            {
+              "type": "heading",
+              "text": "Utamaduni wa Soko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kununua kanga ni yenyewe desturi ya kijamii yenye ibada na raha zake. Vibanda vya kanga katika masoko ya Mombasa, Ukunda, Likoni, Msambweni — hizi ni nafasi ambapo wanawake hukutana, kutazama, kulinganisha, kujadiliana, na kushirikiana. Kuchagua kanga mara chache ni kitendo cha faragha. Wanawake hununua pamoja, wakishauriana kuhusu nakshi na rangi, wakijadili faida za jina tofauti, na wakati mwingine wakimwelekeza rafiki mbali na ujumbe ambao unaweza kuleta shida. Muamala wa soko umejikita katika mtandao wa mahusiano ya kijamii yanayoenea mbali zaidi ya ubadilishanaji wa pesa kwa nguo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutoa zawadi ya kanga kunabeba maana yake ya kijamii ya kina. Kumpa mwanamke mwingine kanga kunaweza kuashiria urafiki, shukrani, mshikamano, au msamaha. Chaguo la nakshi na ujumbe ni yenyewe mawasiliano — mtoaji anachagua nguo ambayo jina yake inasema kitu anachotaka mpokeaji asikie. Katika harusi, kanga zinatolewa kwa wingi, zikichangia mahari ya bibi arusi na kuanzisha mtandao wa wajibu wa kurudishiana unaodumisha mahusiano ya jamii. Katika mazishi, kanga zinaandamana na mwili — zikitumika pamoja na nguo nyeupe ya mazishi, zikimunganisha marehemu na mila za vitambaa zilizoshekla maisha yake ya kuishi."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga kama Maoni ya Kijamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda kazi yenye nguvu zaidi ya kanga ni kama chombo cha maoni ya kijamii. Mkusanyiko wa jina unajumuisha maandishi yanayotoa maoni kuhusu mienendo ya ndoa, mahusiano ya kijinsia, ukosefu wa usawa wa kiuchumi, na siasa za jamii kwa uwazi unaopinga chombo kinachoonekana kuwa cha kawaida cha nguo iliyochapwa. Mwanamke anayevaa kanga inayosoma \"Subira ni fadhila, lakini yangu ina mipaka\" anatoa tamko la hadharani kuhusu hali yake — tamko ambalo kila mtu anaweza kusoma lakini hakuna anayeweza kumhusisha rasmi, kwani yeye, baada ya yote, anavaa tu nguo aliyonunua sokoni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya maoni ya kijamii ina nguvu hasa katika mienendo kati ya wake wenza, kati ya mke na wakwe zake, na kati ya wanawake wanaoshindania hadhi ya kijamii ndani ya jamii. Kanga inakuwa silaha ya dhaifu — njia ya wanawake ambao wanaweza kuwa na nguvu rasmi ndogo kutumia ushawishi, kueleza kutoridhika, na kushiriki katika mazungumzo ya kijamii kupitia chombo wanachokidhibiti. Wanaume wa pwani wanafahamu vizuri kazi hii. \"Soma kanga yake kabla hujamhukumu hali yake\" ni ushauri ambao mume yeyote mwenye uzoefu wa pwani ya Kenya angeweza kutoa."
+            },
+            {
+              "type": "heading",
+              "text": "Tangu Kuzaliwa hadi Kufa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kanga inamsindikiza mwanamke Mdigo tangu wakati wa kwanza wa maisha hadi wa mwisho. Mtoto mchanga anafungwa kanga — pamba laini dhidi ya ngozi mpya, mstari wa methali labda ukibeba baraka ambayo mtoto bado hawezi kusoma lakini ambayo mama alichagua kwa uangalifu. Katika utoto wote, kanga inatumika kama nguo ya kubeba, blanketi, na kivuli. Katika ujana, msichana anaanza kuchagua kanga zake mwenyewe, akijifunza sanaa ya kuchagua ujumbe itakayomtumikia katika utu uzima. Katika ndoa, kanga zinabadilishwa, zinatolewa zawadi, zinaonyeshwa, na zinatumika katika mawasiliano magumu ya maisha ya nyumbani. Katika uzee, kanga ambazo mwanamke amekusanya katika maisha yake yote zinakuwa hifadhi ya kitambaa ya uzoefu wake, kila nguo ikihusishwa na kumbukumbu, ujumbe, wakati. Na katika kifo, kanga inajiunga na nguo ya mazishi, ikifunga mwili kwa safari yake ya mwisho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uwepo huu tangu utotoni hadi kaburini unafanya kanga kuwa kitu zaidi ya nguo au chombo cha mawasiliano. Ni mwandamani — uwepo wa kudumu kupitia hatua zote za maisha ya mwanamke Mdigo, ikibadilisha kazi yake kwa kila hitaji jipya huku ikidumisha mwendelezo wa uwepo wake wa kimali. Kanga inadumu kwa sababu ni, kwa maana halisi zaidi na ya kina zaidi, imefumwa ndani ya maisha yenyewe."
             }
           ],
           "dig": [
@@ -4693,6 +7309,90 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kanga inamusindikiza mchetu wa Chidigo kula wakati wa kpwandza wa maisha hadi wa mwisho. Mwana muchanga anafungwa kanga. Kpwa ujana, msichana anaandza kuchagua kanga zakpwe mwenyewe. Kpwa ndoa, kanga zinabadilishwa na kutumwa kukala mawasiliano. Na kpwa chifo, kanga inajiunga na sanda, ikifunga mwiri kpwa safari yakpwe ya mwisho. Kanga inadumu kpwa sababu imefumwa, kpwa maana ya kpweli na ya kina zaidi, ndani ya maisha genyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desturi ya kuenjerera maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji kuko Mombasa na Unguja agagundua kukala maandishi gaenjerera mauzo kpwa unji. Achetu alonda nguo zirizogomba chitu — zirizoapha sauti anayoweza kuvala. Mila iyo yajikita kpwa upesi wa ajabu na taiphungue katu. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Shariki, mkusanyiko unaoenderera kubadilika wa methali, misemo, na maoni makali ganagonyesa wasiwasi, thamani, na akili ya achetu anagogula na kuvala nguo hizi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maandishi ganatofautiana kula ga chifalsafa hadi ga chivitendo, kula ga upole hadi ga kuangamiza. \"Dunia inazunguka, ela Mlungu anasala\" inagomba kuhusu imani na kuvumirira. Ujumbe wa mahaba uriokungwa chibiruni unatangaza mendzwa bila mgombi kufungula kanwa yakpwe. Ukosoaji mkali urio elekezwa kpwa mphingani au mlume wa kukatisha tamaa unafika si kpwa makabiliano ela kuphitiya chitambaa — chinaonekana ni chila mutu, chinaweza kukanushwa ni mvalaji, na chenye nguvu kahi ya ujumbe wakpwe usio wa moja kpwa moja. \"Sigagomba chitu,\" mchetu anaweza kupinga anaphohojiwa kuhusu ujumbe wa kanga yakpwe. \"Ni nguo bahi.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Ujumbe huno usio wa moja kpwa moja ndio akili ya chipekee ya kanga kama chombo cha mawasiliano. Kahi ya mazingira ga chimudzima ambamo makabiliano ga moja kpwa moja — hasa ni achetu — ganatsukula gharama kulu ya chimudzima, kanga inatolea njira yanjine. Mchetu anaweza \"kugomba\" kuphitiya nguo yakpwe chiricho asingegomba katu kpwa sauti yakpwe. Anaweza kuelezera tamaa, kukatishwa tamaa, wivu, ngòho, kudzitolea, na kudharau — gosi huku akidumisha mwonekano wa kuvala bahi nguo nono. Ujumbe ni wa wazi ela unaweza kukanushwa, unaoonekana ela kiufundi tagugombwa. Ni mawasiliano yenye murango wa kutoroka uriojengwa ndani, na achetu Adigo a ph'wani akaimudu sanaa hino kpwa vizazi."
+            },
+            {
+              "type": "heading",
+              "text": "Methali za Kanga za Chidigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa kanga jina nyinji zimeandikwa kpwa Chiswahili sanifu, mila tofauti ya methali za kanga za luga ya Chidigo ipo phamwenga na mkusanyiko mkpwulu. Maandishi higa ga Chidigo ganawakilisha chitu muhimu: mila ya chifasihi iriyojikita kahi ya utamaduni wa vitu, aina ya Chidigo chirichoandikwa chinachotangulia juhudi nyinji rasmi za kusoma na kuandika na chinachofikia aogalana nao anji zaidi kuriko chitabu au gazeti rorosi. Methali ya kanga ya Chidigo ni wakati uwo-uwo chitambaa, chipande cha nguo, kazi ya sanaa, na maandishi — ikigabusha miphaka kahi ya fasihi na maisha ga chila siku kpwa njira ambayo aina chache za chimila zinafanikiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Methali za kanga za Chidigo zinatoka kahi ya mila ya kanwa ya mudzima — chisima chicho-chicho cha ikima chinachololera hadisi, maneno ga nyimbo, na hotuba za ahere — ela chombo cha chitambaa chinabeka nidhamu yakpwe yenyewe. Jina ni lazima ikale fupi, ya kukumbukwa, na yenye utata wa kutosha kutumika kahi ya hali nyinji huku ikiwa maalumu ya kutosha kusukula maana ya kpweli. Methali bora za kanga zinafanikiwa kupata uwiano huno kpwa uchumi wa ushairi: maneno machache ganagofungukirwa kukala uwanja mphana wa kutafsiri, gakigomba tofauti kpwa chila mchetu anayegasoma kulingana na hali yakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga ya Kishutu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya aina nyinji za kanga, mwenga ina umuhimu maalumu wa chiroho kpwa Adigo: kanga ya Kishutu. Hizi zinajulikana kpwa mphango wao wa rangi — nyiru, kundu, na nyerupe kahi ya nakshi za chijadi za ujasiri — na kpwa sifa za chiroho zinazohusishwa nazo. Kanga ya Kishutu inaaminiwa kuzuwiya uyi na kureha uphonyaji, na inashikilia nafasi kahi ya mazoezi ga chiroho ga Adigo ambayo kanga za kawaida tazishikili. Taivalwa bahi kpwa mtindo au mawasiliano. Inavalwa kpwa kujikinga, inatumika kahi ya ibada za kuphoza, na inaishimiwa kpwa ishima inayoonyesa uhusiano wakpwe unaoonekana na nguvu za zaidi ya za chivitu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dzina Kishutu rinaunganisha na nyanda za myango ya Shimba — mazingira ganagoundaugbwe ra kare ra Adigo — na uhusiano wa chiroho wa kanga unaweza kuonyesa mila za kare za vitambaa zinazotangulia sekta ya kanga ya chibiashara. Kahi ya kanga ya Kishutu, chibiashara na chitakatifu zinakutana: chitambaa chirichotengenezwa kpwa unji chinakala chitu cha chiroho, nguvu yakpwe ichikala si kahi ya muundo wakpwe wa chivitu ela kahi ya ubunifu wakpwe, rangi zakpwe, na imani ya mudzima kahi ya ufanisi wakpwe. Makutano higa ni sifa ya chimila cha Chidigo, ambacho kpwa uthabiti chimepata njira za kuingiza vitu vya chibiashara na vya chisasa na maana ya chiroho ya chijadi."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga kahi ya Maisha ga Chila Siku"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa achetu Adigo, kanga ni nguo yenye matumizi manji zaidi kahi ya kabati rao. Ikikungwa kama sketi, inafunika mwiri wa tsini kpwa kazi za chila siku. Ikibekwa mafugani, inatolea moho ligundzu ra baridi ra ph'wani na kinga kula dzuwa ra dziloni. Ikikungwa chitswani, inakala chifuniko cha chitswa chinachofwaha kpwa msikiti, soko, au dzikoni. Ikikungwa kpwa mphangilio maalumu kuzunguka mwiri, inaumba kibeba salama cha kutsukula mwana chibironi au chiruni — kazi muhimu sana hivi achetu anji Adigo taaweza kufikiria utunzaji wa ana adide bila kanga. Nguo iyo-iyo inayotsukula methali na muundo uriochapwa inatumikiya, kahi ya kazi yakpwe rahisi zaidi, kama chipande cha chitambaa cha chivitendo zaidi kahi ya maisha ga mchetu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dzikoni, kanga zinatumika kama epuroni, vishikio vya nyungu, na vifuniko vya dzulu. Kanga zirizochakala zinakala vitambaa vya kusafisha, viraka, na vipande kpwa matumizi ganjine. Mzunguko wa maisha wa kanga — kula kugula hadi kuvala chila siku hadi matumizi ga nyumbani hadi kutupwa mwishoni — unaonyesa mtazamo wa Chidigo kpwa utamaduni wa vitu kpwa ujumla: takuna chinachopoteza, chila chitu chinapata matumizi, na mphaka kahi ya urembo na chivitendo ni wa kupenyeka."
+            },
+            {
+              "type": "heading",
+              "text": "Utamaduni wa Soko"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kugula kanga ni yenyewe desturi ya chimudzima yenye ibada na raha zakpwe. Vibanda vya kanga kahi ya masoko ga Mombasa, Ukunda, Likoni, Msambweni — hizi ni nafasi ambamo achetu anakutana, analola, analinganisha, anajadiliana, na anashirikiana. Kugula kanga mara chache ni kitendo cha phakpwe yakpwe. Achetu anagula phamwenga, akishauriana kuhusu nakshi na rangi, akijadili faida za jina tofauti, na wakati wanjine akimwongoza myangu mbali na ujumbe ambao unaweza kureha tabu. Muamala wa soko umejikita kahi ya utandawazi wa mahusiano ga chimudzima ganagoendelea kure zaidi ya kubadilishana pesa kpwa nguo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupha zawadi ya kanga kunatsukula maana yakpwe ya chimudzima ya ndani. Kumupha mchetu munjine kanga kunaweza kuashiriya umyangu, shukrani, umwenga, au msamaha. Chaguo ra nakshi na ujumbe ni renyewe mawasiliano — muphaji anagula nguo ambayo jina yakpwe inagomba chitu anacholonda mphokezi asikire. Kahi ya harusi, kanga zinaphiwa kpwa unji, zikichangiya mahari ga bibi arusi na kuanzisha mtandao wa wajibu wa kurudishiana unaodumisha mahusiano ga mudzima. Kahi ya mazishi, kanga zinaandamana na mwiri — zikitumika phamwenga na nguo nyerupe ya mazishi, zikimunganisha marehemu na mila za vitambaa zirizoshekla maisha gakpwe ga kuishi."
+            },
+            {
+              "type": "heading",
+              "text": "Kanga kama Maoni ga Chimudzima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikiwezekana kazi yenye nguvu zaidi ya kanga ni kama chombo cha maoni ga chimudzima. Mkusanyiko wa jina unajumuisha maandishi ganagotolea maoni kuhusu mienendo ya ndowa, mahusiano ga chilume na chichetu, ukosefu wa usawa wa chiuchumi, na siasa za mudzima kpwa uwazi unaopinga chombo chinachoonekana kukala cha kawaida cha nguo iriyochapwa. Mchetu anayevala kanga inayosoma \"Kuvumirira ni fadhila, ela yangu ina miphaka\" anatoa tamko ra wazi kuhusu hali yakpwe — tamko ambaro chila mutu anaweza kusoma ela takuna anayeweza kumhusisha rasmi, kpwa sababu ye, bada ya gosi, anavala bahi nguo ariyogula sokoni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya maoni ga chimudzima ina nguvu hasa kahi ya mienendo kahi ya achetu-enza, kahi ya mkpwaza na akwe akpwe, na kahi ya achetu anaoshindania hadhi ya chimudzima ndani ya mudzima. Kanga inakala silaha ya dhaifu — njira ya achetu ambao anaweza kukala na nguvu rasmi ndide kutumira ushawishi, kuelezera kutoridhika, na kushiriki kahi ya mazungumzo ga chimudzima kuphitiya chombo anachodidhibiti. Alume a ph'wani anafahamu vinono kazi hino. \"Soma kanga yakpwe kabla hujamhukumu hali yakpwe\" ni ushauri ambao mlume yeyosi mwenye uzoevu wa ph'wani ya Kenya angeweza kupha."
+            },
+            {
+              "type": "heading",
+              "text": "Hangu Kuvyalwa hadi Kufwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kanga inaandamana na mchetu Mdigo hangu wakati wa kpwandza wa maisha hadi wa mwisho. Mwana muphya anakungwa kanga — pamba laini kpwa ngozi muphya, mstari wa methali ikiwezekana ukitsukula baraka ambayo mwana bado kaweza kusoma ela ambayo nine akagula kpwa uangalifu. Kahi ya udide wosi, kanga inatumika kama nguo ya kutsukula, blanketi, na chivuri. Kahi ya ujana, msichana anaandza kugula kanga zakpwe mwenyewe, akifundza sanaa ya kugula ujumbe indakayomtumikiya kahi ya ukulu. Kahi ya ndowa, kanga zinabadilishwa, zinaphiwa zawadi, zinaonyeshwa, na zinatumika kahi ya mawasiliano magumu ga maisha ga nyumbani. Kahi ya uzere, kanga ambazo mchetu akakusanya kahi ya maisha gakpwe gosi zinakala hifadhi ya chitambaa ya uzoevu wakpwe, chila nguo ikihusishwa na kumbukumbu, ujumbe, wakati. Na kahi ya chifo, kanga inajiunga na nguo ya mazishi, ikikunga mwiri kpwa safari yakpwe ya mwisho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uwepo huno hangu udide hadi kaburini unafanya kanga kukala chitu zaidi ya nguo au chombo cha mawasiliano. Ni mwandamani — uwepo wa kudumu kuphitiya hatua zosi za maisha ga mchetu Mdigo, ikibadilisha kazi yakpwe kpwa chila londo riphya huku ikidumisha mwenderezo wa uwepo wakpwe wa chivitu. Kanga inadumu kpwa sababu ni, kpwa maana ya kpweli zaidi na ya ndani zaidi, imefumwa ndani ya maisha genyewe."
             }
           ]
         }
@@ -4869,6 +7569,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufinyazi wa Wadigo unapungua. Vyombo vya plastiki ni nafuu na vyepesi. Sufuria za chuma zinapasha joto haraka. Idadi ndogo ya wafinyazi — wawili au watatu kwa kila eneo — inamaanisha kwamba kupoteza mfinyanzi mmoja kunaweza kuzima mila katika eneo zima. Wafinyazi wachache wanaobaki wanaendelea na kazi yao si kwa sababu ni ya kiuchumi bali kwa sababu ni sehemu ya wao wenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wafinyazi wa Wadigo wanazalisha aina mbalimbali za vyombo, kila kimoja kimebuniwa kwa matumizi mahususi jikoni na nyumbani. Sufuria za kupikia ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene vilivyoundwa kustahimili moto wa moja kwa moja na msongo wa joto wa kupashwa na kupoa mara kwa mara. Sufuria hizi zinatumika kupika vyakula mahususi vya pwani: samaki waliotokoswa katika tui, mboga zilizopikwa polepole na viungo, mikate ya mchele iliyotiwa mvuke katika tui. Sufuria ya udongo haiwezi kubadilishwa na mbadala wa chuma au plastiki. Inatoa ladha ya kipekee ya kiardhi kwa vyakula vilivyopikwa polepole na inasambaza joto kwa usawa zaidi kuliko chuma, ikizalisha ubora wa kupikia ambao wafuasi wa mila wanauona kuwa hauna mbadala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo vya kuhifadhi maji ni vikubwa zaidi, vyenye midomo mipana vilivyoundwa kuweka maji baridi kupitia uvukizi kutoka kwa kuta za udongo wenye matundu. Katika joto la pwani, chombo cha maji cha udongo kinaweza kupunguza joto la yaliyomo ndani kwa nyuzi kadhaa — teknolojia ya asili ya kupoeza iliyotangulia jokofu kwa maelfu ya miaka. Vyombo vya ibada, vidogo na wakati mwingine vilivyomalizwa kwa uangalifu zaidi, vinatumikia kazi za sherehe — kushikilia sadaka, dawa za kienyeji, au vitu vitakatifu vinavyotumika katika uponyaji wa kimila na ibada ya kidini."
+            },
+            {
+              "type": "heading",
+              "text": "Kukauka na Kuchomwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Baada ya kuumbwa, chombo lazima kikauke polepole na kwa usawa. Kukausha kwa haraka kunasababisha kusinyaa kwa usawa, jambo linaloongoza kwenye kupasuka — mharibifu wa ufinyazi. Wafinyazi wa Wadigo wanakausha vyombo vyao juani kwa siku kadhaa, wakivigeuza mara kwa mara kuhakikisha upotevu sawa wa unyevu na kuvilinda dhidi ya jua kali la moja kwa moja ambalo linaweza kukausha uso haraka kuliko ndani. Subira hii si hiari. Chombo kilichopasuka kinawakilisha si tu muda uliopotea bali nyenzo zilizopotea na juhudi zilizopotea katika kila hatua kutoka kuchagua udongo hadi kusawazisha mwisho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuchomwa kunafanyika katika shimo wazi — shimo la kina kifupi ardhini lililojazwa kuni. Vyombo vinapangwa katika shimo, vinazungukwa na kufunikwa na kuni, na moto unawashwa. Kuchomwa kwa shimo wazi hakufikii joto la juu linalodhibitiwa la tanuru, lakini kunatosha kubadilisha udongo uliokauka kuwa kauri ngumu na ya kudumu. Joto la kuchomwa, muda, aina ya kuni inayotumika, na mpangilio wa vyombo vyote vinaathiri matokeo ya mwisho — rangi, ugumu, upofu, na uadilifu wa muundo. Kudhibiti vigeuzi hivi bila vyombo au vipimo, kwa kutegemea kabisa uzoefu na uchunguzi, labda ni ustadi unaohitajika zaidi katika mchakato mzima wa ufinyazi."
+            },
+            {
+              "type": "heading",
+              "text": "Mapambo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufinyazi wa Wadigo ni wa matumizi kwanza, lakini si bila kuzingatia uzuri. Vyombo vinaweza kupambwa kwa mistari iliyochongwa, mifumo iliyobandikwa, au vipande vya udongo vilivyowekwa vinavyounda nakshi za kijiometri juu ya uso. Mapambo haya kwa kawaida ni rahisi — bendi za mistari iliyovuka, safu za alama za ncha za vidole, au mistari iliyochorwa inayonasa mwanga na kuunda mwonekano wa kimwili. Uzuri huu ni wa kiasi badala ya kupindukia, kwa mujibu wa mtazamo wa Wadigo kwa utamaduni wa kimali kwa upana zaidi: uzuri unatoka katika ubora wa utengenezaji, si katika kuongeza mapambo."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Inayopungua"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufinyazi wa Wadigo unapungua. Hii si suala la kukisia bali la ukweli unaoonekana. Vyombo vya plastiki ni nafuu, vyepesi, na havivunjiki. Sufuria za kupikia za chuma zinapasha joto haraka na ni rahisi kusafisha. Mantiki ya kiuchumi ni kubwa sana, na kwa kila kizazi, wasichana wachache wanajifunza ufundi kutoka kwa mama zao. Idadi ndogo ya wafinyazi — wawili au watatu kwa kila eneo — inamaanisha kwamba kupoteza mfinyanzi mmoja kunaweza kuzima mila katika eneo zima."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachopotea ufinyazi unapotoweka ni zaidi ya ufundi. Ni mwili wa ujuzi wa mazingira — kujua udongo upi wa kuchimba na wapi kuupata. Ni mwili wa ujuzi wa kitaalamu — kujua jinsi ya kuumba, kukausha, na kuchoma chombo bila vyombo au maelekezo ya maandishi. Ni mila ya kijamii — uhusiano kati ya mama na binti, mwalimu na mwanafunzi, ambao ndio njia pekee ya upitishaji wa ufundi huu. Na ni mila ya upishi — ladha mahususi na sifa za kupikia ambazo chombo cha udongo pekee kinaweza kutoa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wafinyazi wachache wa Wadigo wanaobaki wanaendelea na kazi yao si kwa sababu ni ya busara kiuchumi bali kwa sababu ni sehemu ya wao wenyewe. Ni viungo vya mwisho katika mnyororo unaonyooka nyuma hadi jamii za kwanza za binadamu katika pwani hii. Wakati mfinyanzi wa mwisho atakapoweka mbegu yake ya embe chini na asiiokote tena, aina ya ujuzi iliyochukua karne kuendelezwa itatoweka katika kizazi kimoja."
             }
           ],
           "dig": [
@@ -4919,6 +7663,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ufinyazi wa Adigo unapungua. Vyombo vya plastiki ni nafuu na vyepesi. Sufuria za chuma zinapasha dzoho kpwa upesi. Idadi ndogo ya afinyazi — airi au ahahu kpwa chila eneo — inamanisha kukala kupoteza mfinyanzi mmwenga kunaweza kuzimisha chimila kpwa eneo rosi. Afinyazi achache anaotsala anaendelea na kazi yao si kpwa sababu ni ya kiuchumi ela kpwa sababu ni sehemu ya ao enye. Ni vifungo vya mwisho kpwa mnyororo unaofika nyuma hadi jamii za kare zaidi za binadamu kpwa pwani hino."
+            },
+            {
+              "type": "paragraph",
+              "text": "Afinyazi a Adigo anazalisha aina nyinji za vyombo, chila chimwenga chimeundwa kpwa matumizi mahususi dzikoni na nyumbani. Sufuria za kupika ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene virivyoundwa kustahimili moho wa moja kpwa moja na msongo wa dzoho wa kupashwa na kupola mara kpwa mara. Sufuria hizi zinatumika kupika vyakurya mahususi vya ph'wani: samaki ariohotokoswa kpwa tui, mboga zirizopikwa polepole na viungo, mikate ya mchele iriyotiwa mvuke kpwa tui. Sufuria ya udongo taiweza kubadilishwa na mbadala wa chuma au plastiki. Inapha ladha ya chipekee ya kiardhi kpwa vyakurya virivyopikwa polepole na inasambaza dzoho kpwa usawa zaidi kuriko chuma, ikizalisha ubora wa kupikia ambao ahendzi a chimila anauona kukala tauna mbadala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vyombo vya kuhifadhi madzi ni vikulu zaidi, vyenye midomo mipana virivyoundwa kuikira madzi baridi kupishira uvukizi kula kpwa kuta za udongo za upofu. Kpwa dzoho ra ph'wani, chombo cha madzi cha udongo chinaweza kupunguza dzoho ra virivyomo ndani kpwa nyuzi kadhaa — teknolojia ya asili ya kupoeza iriyohangulia jokofu kpwa miaka elufu nyinji. Vyombo vya ibada, vidogo na wakati wangine virivyomalizwa kpwa uangalifu zaidi, vinatumikira kazi za sherehe — kushikilia sadaka, dawa za chimila, au vitu vitakatifu vinavyotumika kpwa uponyaji wa chimila na ibada ya kidini."
+            },
+            {
+              "type": "heading",
+              "text": "Kukauka na Kuchomwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bada ya kuumbwa, chombo ni lazima rikauke polepole na kpwa usawa. Kukausha kpwa upesi kunasababisha kusinyaa kpwa usawa, dzambo rinarodzongoza kpwa kupasuka — mharibifu wa ufinyazi. Afinyazi a Adigo anakausha vyombo vyao dzuwani kpwa siku kadhaa, akivigaluza mara kpwa mara kuhakikisha upotevu sawa wa unyevu na kuvirinda kpwa dzuwa kali ra moja kpwa moja ambaro rinaweza kukausha uso kpwa upesi kuriko ndani. Kuvumirira hiku si hiyari. Chombo chirichopasuka chinawakilisha si tu muda urioangamia ela nyenzo zirizoangamia na juhudi zirizoangamia kpwa chila hatua kula kuchagula udongo hadi kusawazisha mwisho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuchomwa kunafanyika kpwa shimo wazi — shimo ra kina kifupi tsini ririzojazwa kuni. Vyombo vinapangwa kpwa shimo, vinazungukwa na kufunikwa ni kuni, na moho unawashwa. Kuchomwa kpwa shimo wazi takufikii dzoho ra dzulu rinadhibitiwa ra tanuru, ela kunatosha kubadilisha udongo uriokauka kukala kauri ngumu na ya kudumu. Dzoho ra kuchomwa, muda, aina ya kuni inayotumika, na mpangilio wa vyombo vyosi vinaathiri matokeo ya mwisho — rangi, ugumu, upofu, na uadilifu wa muundo. Kudhibiti vigeuzi hivi bila vyombo au vipimo, kpwa kuhegemea kabisa uzoefu na uchunguzi, labda ni ustadi unaohitajika zaidi kpwa mchakato wosi wa ufinyazi."
+            },
+            {
+              "type": "heading",
+              "text": "Mapambo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufinyazi wa Adigo ni wa matumizi kpwandza, ela si bila kuzingatia uzuri. Vyombo vinaweza kupambwa kpwa mistari iriyochongwa, mifumo iriyobandikwa, au vipande vya udongo virivyowekwa vinavyounda nakshi za kijiometri dzulu ya uso. Mapambo higa kpwa kawaida ni rahisi — bendi za mistari iriyovuka, safu za alama za ncha za vidole, au mistari iriyochorwa inayonasa mwanga na kuunda mwonekano wa kimwili. Uzuri huu ni wa kiasi badala ya kupindukirwa, kpwa mujibu wa mwelekeo wa Adigo kpwa utamaduni wa mali kpwa upana zaidi: uzuri unaula kpwa ubora wa kutengeneza, si kpwa kuengereza mapambo."
+            },
+            {
+              "type": "heading",
+              "text": "Chimila Chinachodhoofika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ufinyazi wa Adigo unapungua. Hino si dzambo ra kukisia ela ra ukpweli unaoonekana. Vyombo vya plastiki ni nafuu, vyepesi, na tavivunjiki. Sufuria za kupikia za chuma zinapasha dzoho kpwa upesi na ni rahisi kusafisha. Mantiki ya kiuchumi ni kulu sana, na kpwa chila chizazi, asichana achache anadzifundza ufundi kula kpwa anina ao. Idadi ndogo ya afinyazi — airi au ahahu kpwa chila eneo — inamanisha kukala kupoteza mfinyanzi mmwenga kunaweza kuzimisha chimila kpwa eneo rosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachopotea ufinyazi unapohenduka ni zaidi ya ufundi. Ni mwiri wa ujuzi wa mazingira — kumanya udongo upi wa kuchimba na kuphi kuupata. Ni mwiri wa ujuzi wa kitaalamu — kumanya njira ya kuumba, kukausha, na kuchoma chombo bila vyombo au mwongozo wa maandishi. Ni chimila cha kijamii — uhusiano kahi ya nine na mwana, mwalimu na mwanafunzi, ambao ndio njira pekee ya kupitisha ufundi huu. Na ni chimila cha kupikia — ladha mahususi na sifa za kupikia ambazo chombo cha udongo pekee chinaweza kupha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Afinyazi achache a Adigo anaotsala anaendelea na kazi yao si kpwa sababu ni ya busara kiuchumi ela kpwa sababu ni sehemu ya ao enye. Ni vifungo vya mwisho kpwa mnyororo unaofika nyuma hadi jamii za kare zaidi za binadamu kpwa ph'wani hino. Wakati mfinyanzi wa mwisho ndiphowika mbegu yakpwe ya embe tsini na asiiokote tsena, aina ya ujuzi iriyohala karne kuendelezwa indaangamia kpwa chizazi chimwenga."
             }
           ]
         }
@@ -5066,6 +7854,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jiografia hii mbili — kijiji cha kila siku na kaya takatifu — ni msingi wa kuelewa makazi ya Wadigo. Wadigo hawaishi tu mahali wanapoishi. Wanaishi kwa uhusiano na kaya, wakielekea kwake kiroho na kijamii hata wakiwa mbali kimwili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Minazi inayozunguka kila makazi ya Wadigo inatumikia madhumuni mawili katika suala hili. Inatoa malighafi ya ujenzi — makuti ya kuezekea, kamba za nazi, mbao za miundo ya ziada — huku mashina yake marefu, membamba na mataji yake ya manyoya yanachuja jua kali la ikweta bila kuzuia upepo. Kijiji cha Wadigo chini ya minazi yake kipo katika eneo la kivuli cha madoido na hewa inayosogea ambayo ni baridi zaidi na ya starehe zaidi kuliko ardhi wazi ya mbali."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Kaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata baada ya kutawanyika kwenda tambarare, kaya iliendelea kuwa kitovu cha utambulisho na mpangilio wa kijamii wa Wadigo. Wazee wa kaya — Kambi — waliendelea kutumia mamlaka ya kiroho na kimahakama juu ya jamii zilizotawanyika. Migogoro muhimu iliamuliwa kayani. Sherehe kuu — jando, ibada za kuomba mvua, kusimikwa kwa viongozi — zilifanyika ndani ya msitu mtakatifu. Kurudi kwa kila mwaka kayani kwa ibada za pamoja kuliimarisha vifungo kati ya makazi yaliyotawanyika na kukumbusha watu waliotawanyika asili yao ya pamoja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jiografia hii mbili — kijiji cha kila siku na kaya takatifu — ni ya msingi katika kuelewa makazi ya Wadigo. Wadigo hawaishi tu mahali wanapoishi. Wanaishi kwa uhusiano na kaya, wakielekea kwake kiroho na kijamii hata wakiwa mbali kimwili. Boma linaelekea bustani. Kijiji kinaelekea pwani. Lakini jamii, kwa maana yake ya ndani kabisa, inaelekea kaya."
+            },
+            {
+              "type": "heading",
+              "text": "Maji na Makazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Upatikanaji wa maji umeshawishi kila wakati mahali ambapo Wadigo wanachagua kuishi. Tambarare za pwani zinatolewa na mito ya msimu, visima vifupi, na — katika baadhi ya maeneo — chemchemi za asili zinazotokea pale ambapo kiwango cha maji kinakutana na uso. Makazi yanakusanyika umbali unaofaa wa kutembea kutoka vyanzo vya maji vinavyotegemeka, na mahali pa visima na chemchemi mara nyingi huamua kitovu cha kijiji. Wanawake na watoto wanabeba maji kila siku, na umbali kati ya mudzi na chanzo cha maji ni kizuizi cha vitendo kinachoweka mpaka wa nje wa jinsi makazi yanavyoweza kuenea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mzunguko wa msimu wa mvua pia unaathiri mantiki ya makazi. Wakati wa mvua ndefu za Aprili na Mei, maji ni mengi na mandhari inakuwa ya kijani. Wakati wa miezi ya ukame, hesabu inakaza. Vijiji vilivyo karibu na vyanzo vya maji vya kudumu vinadumisha wakazi wao mwaka mzima, wakati makazi ya pembezoni yanaweza kuona uhamiaji wa muda familia zinaposogea karibu na vyanzo vinavyotegemeka wakati wa ukame. Uhusiano huu wa maji na makazi ni nguvu moja isiyoonekana sana lakini yenye nguvu zaidi inayounda jiografia ya makazi ya Wadigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mpito kwa Makazi ya Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karne ya ishirini ilileta mabadiliko yaliyoharakisha mabadiliko ya mifumo ya makazi ya Wadigo. Sera za ardhi za kikoloni, ukuaji wa Mombasa kama kituo cha mijini, upanuzi wa tasnia ya utalii kando ya pwani ya Diani, na maendeleo ya mitandao ya usafiri wa kisasa vyote vilishawishi upya mahali na jinsi Wadigo wanavyoishi. Baadhi ya familia za Wadigo zilihamia maeneo ya mijini kwa ajili ya ajira. Nyingine ziliona ardhi yao ya jadi ikiingizwa katika maendeleo ya utalii au kilimo cha kibiashara. Muundo wa kijiji kilichotawanyika unaendelea katika Kaunti ya Kwale ya vijijini, lakini upo pamoja na mifumo mipya — makazi ya karibu na miji, nyumba zilizopangwa, na makazi yasiyo rasmi yanayozunguka miji inayokua."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupitia mabadiliko haya yote, dhana ya mudzi inaendelea. Hata katika mazingira ya mijini au karibu na miji, familia za Wadigo zinajielekeza kupanga nafasi zao za kuishi kulingana na mantiki ya boma — boma la familia kubwa lenye daraja lake la kimya, nafasi zake za pamoja, na mwelekeo wake kuelekea kituo cha pamoja. Umbo la kimwili linaweza kubadilika, lakini usanifu wa kijamii unaendelea. Mudzi si njia ya kujenga tu. Ni njia ya kuwa familia."
             }
           ],
           "dig": [
@@ -5112,6 +7940,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jiografia hino mbiri — kijiji cha chila siku na kaya takatifu — ni musingi wa kuelewa makalo ga Adigo. Adigo taishi tu phatu anaphoishi. Anaishi kpwa uhusiano na kaya, akielekea kpwakpwe kiroho na kijamii hata achikala kure chimwiri. Mudzi si njira ya kudzenga tu. Ni njira ya kukala familia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Minazi inayozunguka chila makalo ga Adigo inatumikira madhumuni mairi kpwa dzambo hiri. Inapha malighafi ya kudzenga — makuti ga kuezekea, kamba za nazi, mbao za miundo ya ziada — wakati mashina gakpwe marere, membamba na mataji gakpwe ga manyoya ganachuja dzuwa kali ra ikweta bila kuzuia phepho. Kijiji cha Adigo tsini ya minazi yakpwe chipo kpwa eneo ra kivuli cha madoido na hewa inayosogea ambayo ni baridi zaidi na ya starehe zaidi kuriko tsi wazi ya kure."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Kaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata bada ya kutawanyika kuphiya tsi za tsini, kaya yaendelea kukala chitovu cha utambulisho na mpangilio wa kijamii wa Adigo. Avyere a kaya — Kambi — aendelea kutumia mamlaka ya kiroho na kimahakama dzulu ya jamii zirizotawanyika. Migogoro muhimu yamuriwa kayani. Sherehe kulu — jando, ibada za kuomba mvula, kusimikwa kwa vilongozi — zirifanyika ndani ya msitu mtakatifu. Kuuya kpwa chila mwaka kayani kpwa ibada za phamwenga kuriimarisha vifungo kahi ya makalo garigotawanyika na kukumbusa atu ariotawanyika asili yao ya phamwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jiografia hino mbiri — kijiji cha chila siku na kaya takatifu — ni ya musingi kpwa kuelewa makalo ga Adigo. Adigo taishi tu phatu anaphoishi. Anaishi kpwa uhusiano na kaya, akielekea kpwakpwe kiroho na kijamii hata achikala kure chimwiri. Mudzi unaelekea bustani. Kijiji chinaelekea ph'wani. Ela jamii, kpwa manaye ya ndani kabisa, inaelekea kaya."
+            },
+            {
+              "type": "heading",
+              "text": "Madzi na Makalo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupatikana kwa madzi kumeshawishi chila wakati phatu ambapo Adigo anachagua kuishi. Tambarare za ph'wani zinatoriwa ni miho ya msimu, visima vifupi, na — kpwa baadhi ya maeneo — chemchemi za asili zinazohenda phatu ambapo chiwango cha madzi chinakutana na uso. Makalo ganakusanyika umbali unaofaa wa kutembea kula vyanzo vya madzi vinavyotegemeka, na phatu pha visima na chemchemi mara nyinji phinaamua chitovu cha kijiji. Achetu na ana anabeba madzi chila siku, na umbali kahi ya mudzi na chanzo cha madzi ni chizuizi cha vitendo chinachowika mphaka wa ndze wa jinsi makalo ganavyoweza kuenea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mzunguko wa msimu wa mvula piya unaathiri mantiki ya makalo. Wakati wa mvula ndere za Aprili na Mei, madzi ni manji na mandhari inakala ya kijani. Wakati wa miezi ya ukame, hesabu inakaza. Vijiji virivyo jirani na vyanzo vya madzi vya kudumu vinadumisha atu ao mwaka mzima, wakati makalo ga pembezoni ganaweza kuona uhamiaji wa muda familia zinaphosogelea jirani na vyanzo vinavyotegemeka wakati wa ukame. Uhusiano huu wa madzi na makalo ni nguvu mwenga isiyoonekana sana ela yenye nguvu zaidi inayounda jiografia ya makalo ga Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Kupita kpwa Makalo ga Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karne ya mirongo miiri yarehera mabadiliko garigopheperusha mabadiliko ga mifumo ya makalo ga Adigo. Sera za ardhi za kikoloni, ukuaji wa Mombasa kukala chituo cha midzi mikulu, kupanuka kwa tasnia ya utalii kanda ya ph'wani ya Diani, na maendeleo ga mitandao ya usafiri wa kisasa vyosi virishawishi luphya phatu na njira Adigo anavyoishi. Baadhi ya familia za Adigo zirihamia maeneo ga midzi mikulu kpwa ajili ya kazi. Zingine ziriona tsi yao ya chimila ikiingizwa kpwa maendeleo ga utalii au urimi wa kibiashara. Muundo wa kijiji chirichotawanyika unaendelea kpwa Kaunti ya Kwale ya vijiji, ela upo phamwenga na mifumo miphya — makalo ga jirani na midzi mikulu, nyumba zirizopangwa, na makalo gasigorasmi ganayozunguka midzi inayokula."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupishira mabadiliko higa gosi, dhana ya mudzi inaendelea. Hata kpwa mazingira ga midzi mikulu au jirani na midzi mikulu, familia za Adigo zinadzielekeza kupanga nafasi zao za kuishi kulingana na mantiki ya boma — boma ra familia kulu renye daraja rakpwe ra kimya, nafasi zakpwe za phamwenga, na mwelekeo wakpwe kuelekea chituo cha phamwenga. Umbo ra chimwiri rinaweza kubadilika, ela usanifu wa kijamii unaendelea. Mudzi si njira ya kudzenga tu. Ni njira ya kukala familia."
             }
           ]
         }
@@ -5251,6 +8119,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo la kushangaza zaidi kuhusu jibu la Wadigo kwa ushawishi wa Kiswahili ni uchaguzi wake. Wadigo hawakuacha mila yao ya ujenzi kwa ajili ya muundo wa Kiswahili. Walichukua kilichokuwa na manufaa — matumbawe, plasta ya chokaa, mlango uliochongwa — na kuunganisha vipengele hivi katika mila ya ujenzi iliyobaki kuwa yao wenyewe kimsingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuta za rangi nyepesi, zenye mwonekano wa kimwili wa pwani ya Kiswahili zinaundwa na mbinu ya kumalizia ambayo Wadigo waliichukua kwa baadhi ya miundo yao wenyewe: plasta ya matumbawe-chokaa. Matumbawe yaliyosagwa yanachanganywa na chokaa — yenyewe inazalishwa kwa kuchoma matumbawe au magamba ya bahari — kuunda plasta inayoweza kupakwa juu ya kuta za tope au matumbawe. Ikiwa mpya, ni nyeupe sana. Inapochakaa, inakuza mwonekano wa joto, wenye madoido — rangi ya meno ikielekea kijivu, imechomwa na kuendelezwa na mvua na jua — ambao ni mojawapo ya alama za kuona zinazovutia zaidi za pwani ya Afrika Mashariki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uzuri huu ni zaidi ya mapambo. Plasta ya chokaa inalinda kuta za tope dhidi ya mmomonyoko wa mvua, ikiongeza maisha ya jengo kwa kiasi kikubwa. Pia inaakisi jua, ikipunguza ufyonzaji wa joto na kuweka ndani kuwa baridi zaidi. Miongoni mwa Wadigo, plasta ya chokaa kawaida ilihifadhiwa kwa miundo muhimu zaidi — msikiti, nyumba ya mzee, au makao makuu ya familia tajiri. Matumizi yake yaliashiria ustadi wa vitendo na uhusiano wa kitamaduni na ulimwengu mpana wa pwani ya Kiswahili."
+            },
+            {
+              "type": "heading",
+              "text": "Mila ya Ujenzi Iliyoathiriwa na Waarabu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyuma ya mtindo wa ujenzi wa Kiswahili iko historia ndefu ya ushirikiano wa Waarabu na pwani ya Afrika Mashariki. Wafanyabiashara na wakaaji wa Kiomani, Kiyemeni, na Kiajemi walileta mila za ujenzi kutoka Bara Arabu na Ghuba — matumizi ya plasta iliyochongwa, nyumba ya ua iliyofungwa, mnara wa kunasa upepo, msisitizo wa mapambo ya ndani badala ya maonyesho ya nje. Vipengele hivi vilijiunga na desturi za ujenzi za Kiafrika na nyenzo za mahali hapo kuunda msamiati wa kipekee wa ujenzi wa Kiswahili ambao, kwa upande wake, uliwashawishi jamii kama Wadigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushawishi wa Kiarabu unaonekana si tu katika mbinu mahususi bali katika dhana za nafasi. Nyumba ya Kiswahili, yenye tofauti kati ya maeneo ya mapokezi ya umma na makazi ya faragha ya familia, inaonyesha msisitizo wa ujenzi wa nyumbani wa Kiarabu juu ya kutenganisha nafasi ya umma na ya faragha. Ingawa boma la Kidigo linapanga nafasi kwa njia tofauti — kuzunguka uwazi wa mudzi badala ya ndani ya ua uliofungwa — kanuni ya daraja la nafasi, kwamba nafasi fulani ni za umma zaidi au za faragha zaidi kuliko nyingine, ni dhana ya pamoja inayounganisha ujenzi wa nyumbani wa Kidigo na Kiswahili katika kiwango cha kidhana."
+            },
+            {
+              "type": "heading",
+              "text": "Kuchukua Bila Kujisalimisha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jambo la kushangaza zaidi kuhusu jibu la Wadigo kwa ushawishi wa ujenzi wa Kiswahili ni uchaguzi wake. Wadigo hawakuacha mila yao ya ujenzi kwa ajili ya muundo wa Kiswahili. Hawakujenga nyumba za mji au miundo ya matumbawe ya ghorofa nyingi. Hawakuchukua ua uliofungwa au mnara wa upepo. Walichukua kilichokuwa na manufaa — matumbawe kama nyenzo ya ziada ya ujenzi, plasta ya chokaa kama malizia ya kinga, mlango uliochongwa kama kipengele cha utambulisho wa kuona — na kuunganisha vipengele hivi katika mila ya ujenzi iliyobaki kuwa yao wenyewe kimsingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo huu wa kuchukua kwa uchaguzi ni sifa ya utamaduni wa Wadigo kwa upana zaidi. Katika lugha, dini, mavazi, na ujenzi, Wadigo wameonyesha kwa mfululizo uwezo wa kushirikiana na ushawishi mkubwa wa kitamaduni wa pwani ya Kiswahili bila kumezwa nao. Ujenzi wa Wadigo ni rahisi kuliko ujenzi wa mji wa Kiswahili, karibu zaidi na ardhi, na umeundwa moja kwa moja zaidi na mahitaji ya maisha ya kilimo. Lakini si duni au wa kunakili. Ni mila ya sambamba ambayo imekopa kwa uhuru huku ikidumisha mantiki yake yenyewe, uzuri wake yenyewe, na uhusiano wake na mazingira."
+            },
+            {
+              "type": "heading",
+              "text": "Urithi Hai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Leo, urithi wa ujenzi wa Kiswahili wa pwani unatambuliwa kama hazina ya kitamaduni. Miji ya kale ya Lamu na Mombasa ni maeneo ya urithi yanayotambuliwa na UNESCO. Juhudi za uhifadhi zinafanya kazi kuhifadhi milango iliyochongwa, majengo ya matumbawe, na ujuzi wa ujenzi wa kimila ulioyaumba. Miongoni mwa Wadigo, urithi wa ujenzi si wa kifahari lakini si wa umuhimu mdogo. Boma la tope-na-makuti lenye kuta zake za plasta ya chokaa na mlango wake wa mbao uliochongwa ni jengo la kawaida, lakini linajumuisha historia ile ile ya kubadilishana na kubadilika iliyozalisha nyumba kuu za mji wa Kiswahili. Vyote ni bidhaa za pwani — moja ya mji, moja ya kijiji; moja kubwa, moja ya kawaida; lakini vyote vimeundwa na nyenzo zile zile, hali ya hewa ile ile, na karne zile zile za mazungumzo ya kitamaduni kupitia Bahari ya Hindi."
             }
           ],
           "dig": [
@@ -5293,6 +8201,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo ra kushangaza zaidi kuhusu jibu ra Adigo kpwa ushawishi wa Chiswahili ni uchaguzi wakpwe. Adigo taachire chimila chao cha kudzenga kpwa ajili ya muundo wa Chiswahili. Achukula chirichokala na manufaa — matumbawe, plasta ya chokaa, mulango uriochongwa — na kuunganisha vipengele hivi kpwa chimila cha kudzenga chirichosala kukala chao enye kpwa musingi. Chimila cha kudzenga cha Adigo ni rahisi kuriko kudzenga kwa Chiswahili kpwa mudzi mkpwulu, ela si cha chisiri au cha kunakili. Ni chimila cha phamwenga ambacho chimekopa kpwa uhuru wakati kuhifadhi mantiki yakpwe yenyewe, urembo wakpwe yenyewe, na uhusiano wakpwe na mazingira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuta za rangi nyepesi, zenye mwonekano wa chimwiri wa ph'wani ya Chiswahili zinaundwa ni mbinu ya kumalizisha ambayo Adigo aichukula kpwa baadhi ya miundo yao enye: plasta ya matumbawe-chokaa. Matumbawe garigosagwa ganachanganywa na chokaa — yenyewe inazalishwa kpwa kuchoma matumbawe au magamba ga bahari — kuunda plasta inayoweza kupakwa dzulu ya kuta za tope au matumbawe. Ichikala mphya, ni nyerupe sana. Inapochakaa, inakuza mwonekano wa dzoho, wenye madoido — rangi ya meno ikielekea chijivu, imechomwa na kuendelezwa ni mvula na dzuwa — ambao ni mojawapo ya alama za kuona zinazovutia zaidi za ph'wani ya Afrika Mashariki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Urembo huu ni zaidi ya mapambo. Plasta ya chokaa inarinda kuta za tope kpwa mmomonyoko wa mvula, ikiongeza maisha ga dzengo kpwa kiasi kikulu. Piya inaakisi dzuwa, ikipunguza ufyonzaji wa dzoho na kuikira ndani kukala baridi zaidi. Kahi ya Adigo, plasta ya chokaa kawaida irahifadhiwa kpwa miundo muhimu zaidi — msikiti, nyumba ya mvyere, au makalo makulu ga familia tajiri. Matumizi gakpwe gaashiria ustadi wa vitendo na uhusiano wa chitamaduni na ulimwengu mphana wa ph'wani ya Chiswahili."
+            },
+            {
+              "type": "heading",
+              "text": "Chimila cha Kudzenga Chirichoathiriwa ni Aarabu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyuma ya mtindo wa kudzenga wa Chiswahili iko historia ndere ya ushirikiano wa Aarabu na ph'wani ya Afrika Mashariki. Afanyabiashara na akaaji a Kiomani, Kiyemeni, na Kiajemi arehera mila za kudzenga kula Bara Arabu na Ghuba — matumizi ga plasta iriyochongwa, nyumba ya ua iriyofungwa, mnara wa kunasa phepho, msisitizo wa mapambo ga ndani badala ya maonyesho ga ndze. Vipengele hivi virijiunga na desturi za kudzenga za Chiafrika na nyenzo za phatu hapha kuunda msamiati wa chipekee wa kudzenga wa Chiswahili ambao, kpwa upande wakpwe, waashawishi jamii dza Adigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushawishi wa Chiarabu unaonekana si tu kpwa mbinu mahususi ela kpwa dhana za nafasi. Nyumba ya Chiswahili, yenye tofauti kahi ya maeneo ga mapokezi ga umma na makalo ga faragha ga familia, inaonyesa msisitizo wa kudzenga kwa nyumbani wa Chiarabu dzulu ya kutenga nafasi ya umma na ya faragha. Ingawa boma ra Chidigo rinapanga nafasi kpwa njira tofauti — kuzunguka uwazi wa mudzi badala ya ndani ya ua uriofungwa — kanuni ya daraja ra nafasi, kukala nafasi fulani ni za umma zaidi au za faragha zaidi kuriko zingine, ni dhana ya phamwenga inayounganisha kudzenga kwa nyumbani kwa Chidigo na Chiswahili kpwa chiwango cha kidhana."
+            },
+            {
+              "type": "heading",
+              "text": "Kuchukula Bila Kudzisalimisha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jambo ra kushangaza zaidi kuhusu jibu ra Adigo kpwa ushawishi wa kudzenga wa Chiswahili ni uchaguzi wakpwe. Adigo taachire chimila chao cha kudzenga kpwa ajili ya muundo wa Chiswahili. Taadzengire nyumba za mudzi mkpwulu au miundo ya matumbawe ya ghorofa nyinji. Taachukurire ua uriofungwa au mnara wa phepho. Achukula chirichokala na manufaa — matumbawe kukala nyenzo ya ziada ya kudzenga, plasta ya chokaa kukala malizia ya chirindo, mulango uriochongwa kukala chipengele cha utambulisho wa kuona — na kuunganisha vipengele hivi kpwa chimila cha kudzenga chirichosala kukala chao enye kpwa musingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo huu wa kuchukula kpwa uchaguzi ni sifa ya chitamaduni cha Adigo kpwa upana zaidi. Kpwa luga, dini, mavazi, na kudzenga, Adigo aonyesa kpwa mfururizo uwezo wa kushirikiana na ushawishi mkpwulu wa chitamaduni wa ph'wani ya Chiswahili bila kumezwa nao. Kudzenga kwa Adigo ni rahisi kuriko kudzenga kwa mudzi mkpwulu wa Chiswahili, jirani zaidi na tsi, na kumeundwa moja kpwa moja zaidi na mahitaji ga maisha ga urimi. Ela si cha chisiri au cha kunakili. Ni chimila cha phamwenga ambacho chimekopa kpwa uhuru wakati kuhifadhi mantiki yakpwe yenyewe, urembo wakpwe yenyewe, na uhusiano wakpwe na mazingira."
+            },
+            {
+              "type": "heading",
+              "text": "Urithi Urio Hai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rero, urithi wa kudzenga wa Chiswahili wa ph'wani unatambuliwa kukala hazina ya chitamaduni. Midzi ya kare ya Lamu na Mombasa ni maeneo ga urithi ganayotambuliwa ni UNESCO. Juhudi za uhifadhi zinafanya kazi kuhifadhi milango iriyochongwa, madzengo ga matumbawe, na ujuzi wa kudzenga wa chimila urigoyaumba. Kahi ya Adigo, urithi wa kudzenga si wa kifahari ela si wa umuhimu mdogo. Boma ra tope-na-makuti renye kuta zakpwe za plasta ya chokaa na mulango wakpwe wa mbao uriochongwa ni dzengo ra kawaida, ela rinajumuisha historia ira ira ya kubadilishana na kubadilika iriyozalisha nyumba kulu za mudzi mkpwulu wa Chiswahili. Vyosi ni vya ph'wani — chimwenga cha mudzi mkpwulu, chimwenga cha kijiji; chimwenga chikulu, chimwenga cha kawaida; ela vyosi vimeundwa ni nyenzo zira zira, hali ya hewa ira ira, na karne zira zira za mazungumzo ga chitamaduni kupishira Bahari ya Hindi."
             }
           ]
         }
@@ -5440,6 +8388,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Leo, ujenzi wa jadi unakabiliwa na shinikizo za kisasa. Matofali ya zege, paa za bati, na sakafu za simenti zinachukua nafasi ya vifaa vya jadi. Lakini makuti yanasalia — katika maeneo ya vijijini na katika hoteli za pwani zinazotumia vifaa vya jadi kwa makusudi kutambua uzuri wa ujenzi wa jadi wa pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Paa la nyumba ya Kidigo linafunikwa kwa makuti — paneli zilizofanywa kutoka kwa makuti ya mnazi ambazo ni miongoni mwa nyenzo bora zaidi za paa za asili katika nchi za tropiki. Kutengeneza makuti ni ufundi wa ustadi. Makuti ya mnazi yanakatwa, yanakaushwa juani, na kisha kugawanywa kando ya uti wa kati. Vijani vya mmoja mmoja vinapindwa juu ya fimbo nyembamba, takriban futi tatu urefu, na kushonwa mahali pake kwa uzi wa katani. Matokeo ni paneli nene, yenye tabaka ambayo inamwaga maji kwa ufanisi inapowekwa vizuri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwenye mfumo wa paa, paneli za makuti zinawekwa kutoka chini kwenda juu, kila safu ikifunika ile ya chini kwa takriban inchi nne. Mpangilio huu wa kufunikana unaelekeza maji ya mvua chini ya uso wa makuti bila kuruhusu kupenya ndani. Paa la makuti lililofanywa vizuri linaweza kudumu miaka saba hadi kumi kabla ya kuhitaji kubadilishwa — umri wa ajabu kwa nyenzo ya paa ya asili katika hali ya hewa inayoleta jua kali la ikweta na mvua nzito za msimu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makuti ya paa yanatoa insulation bora, yakiweka ndani baridi mchana huku yakiruhusu hewa ya joto kutoroka juu kupitia makuti yaliyoundwa kwa ulegelevu. Uingizaji hewa ni wa asili lakini wenye ufanisi — nyumba yenye paa la makuti inapumua kwa njia ambayo paa la bati haliwezi kuiga. Hii ndiyo sababu wakazi wengi wa zamani wa pwani wanapendelea makuti kuliko nyenzo za paa za kisasa, licha ya matengenezo yanayohitajika: starehe ni bora zaidi tu."
+            },
+            {
+              "type": "heading",
+              "text": "Kamba za Nyuzi za Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika ujenzi wa jadi wa Wadigo, viungo vya muundo vinaunganishwa si kwa misumari au vifunguo vya chuma bali kwa kamba zilizofanywa kutoka kwa makumbi ya nazi — nyenzo ya nyuzi inayotolewa kutoka maganda ya nazi. Kamba ya makumbi inafaa kipekee kwa ujenzi wa pwani. Inastahimili maji ya chumvi, ina unyumbufu wa kutosha kufyonza mwendo unaosababishwa na upepo na upanuzi wa joto, na ni ya kudumu kwa ajabu. Kamba nzuri ya makumbi inaweza kushikilia mfumo wa paa pamoja kwa miaka, ikinyumbuka na muundo badala ya kulegea kama vifunguo vya chuma vigumu vinavyoelekea kufanya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchakato wa kutengeneza kamba ya makumbi unahitaji kazi nyingi. Maganda ya nazi yanatiwa ndani ya maji kwa siku au wiki kulainisha nyuzi, kisha kupigwa kuzitenganisha. Nyuzi huru zinakaushwa, kuchanwa, na kusokotwa kwa mkono kuwa kamba za unene tofauti, kutoka uzi mwembamba wa kufunga hadi kamba nzito ya muundo. Mila hii ya kutengeneza kamba ni mojawapo ya ufundi usio wa kuona sana lakini muhimu unaounga mkono ujenzi wa Wadigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mviringo na Mstatili: Umbo Kama Lugha ya Kijamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Makazi ya jadi ya Wadigo yanatumia umbo la ujenzi kuwasilisha muundo wa kijamii. Kibanda cha mzee ni cha mviringo — makao ya duara yanayoashiria mamlaka na hadhi ndani ya boma. Nyumba nyingine za familia ni za mstatili, zilizojengwa kwa nyenzo na mbinu zile zile lakini katika umbo tofauti lenye maana tofauti ya kijamii. Tofauti hii kati ya mviringo na mstatili si ya bahati mbaya au ya mapambo. Ni msamiati wa nafasi unaomwambia kila mgeni, kwa mtazamo mmoja, jiografia ya kijamii ya boma."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kibanda cha mviringo ni umbo la zamani zaidi, linalohusishwa na makazi ya kwanza ya Wadigo na mila ya kaya. Nyumba ya mstatili inaonyesha ushawishi wa baadaye, ikiwa ni pamoja na mawasiliano na mila ya ujenzi wa pwani ya Kiswahili. Kwamba maumbo yote mawili yanaendelea bega kwa bega ndani ya boma moja kunazungumza juu ya uwezo wa Wadigo wa kuingiza maumbo mapya bila kutupa ya zamani — muundo unaoonekana katika utamaduni wao wa mali kwa upana."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Chini ya Shinikizo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Leo, ujenzi wa jadi wa Wadigo unakabiliwa na shinikizo zinazokabili mila za ujenzi wa kienyeji duniani kote. Kuta za matofali ya zege ni za haraka zaidi kujenga na zinahitaji kazi ndogo ya ustadi. Paa za bati ni nafuu zaidi kuweka na zinadumu zaidi bila matengenezo. Sakafu za simenti ni rahisi kusafisha kuliko ardhi iliyoshindiliwa. Uchumi unapendelea nyenzo za kisasa, na kwa kila kizazi, vijana wachache wanajifunza ujuzi wa zamani wa ujenzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo makuti yanasalia. Katika maeneo ya vijijini, yanabaki nyenzo ya paa inayopendelewa kwa jiko na miundo ya ziada. Kando ya pwani ya utalii, hoteli na mikahawa yanatumia makuti kwa makusudi, yakitambua kwamba mwonekano wake wa joto, wenye mwili unaibua uzuri wa ujenzi wa jadi wa pwani kwa njia ambayo nyenzo yoyote ya kisasa haiwezi kulinganisha. Juhudi fulani za uhifadhi zinalenga kudumisha ujuzi wa ujenzi wa jadi, zikitambua kwamba maarifa ya jinsi ya kuchagua nguzo ya boriti, kuchanganya ukuta wa tope, au kushona paneli ya makuti yanawakilisha karne za akili ya mazingira iliyokusanywa ambayo, ikipotea, haiwezi kurejeshwa kutoka kitabu chochote."
             }
           ],
           "dig": [
@@ -5490,6 +8486,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Rero, kudzenga kwa jadi kunakabilana na shinikizo za kisasa. Matofali ga zege, paa za bati, na sakafu za simenti zinachukula phatu pha vifwa vya jadi. Ela makuti ganasala — kpwa maeneo ga vijijini na kpwa hoteli za pwani zinazotumia vifwa vya jadi kpwa makusudi kutambua urembo wa kudzenga kwa jadi kwa pwani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makuti ga paa ganapha insulation nono, gakiikira ndani baridi mtsana wakati gakiruhusu hewa ya dzoho kutoroka dzulu kupishira makuti garigoundwa kpwa ulegelevu. Uingizaji hewa ni wa asili ela wenye ufanisi — nyumba yenye paa ra makuti inapumua kpwa njira ambayo paa ra bati tariweza kuiga. Hino ndiyo sababu akaaji anji a kare a pwani anapenda makuti kuriko nyenzo za paa za kisasa, ingawa matengenezo ganahitajika: starehe ni nono zaidi tu."
+            },
+            {
+              "type": "heading",
+              "text": "Kamba za Nyuzi za Nazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa kudzenga kwa jadi kwa Adigo, viungo vya muundo vinaunganishwa si kpwa misumari au vifunguo vya chuma ela kpwa kamba zirizofanywa kula kpwa makumbi ga nazi — nyenzo ya nyuzi inayotolerwa kula maganda ga nazi. Kamba ya makumbi inafaa chipekee kpwa kudzenga kwa pwani. Inastahimili madzi ga munyu, ina unyumbufu wa kutosha kufyonza mwendo unaosababishwa ni phepho na kupanuka kwa dzoho, na ni ya kudumu kpwa ajabu. Kamba nono ya makumbi inaweza kushikilia mfumo wa paa phamwenga kpwa miaka, ikinyumbuka na muundo badala ya kulegea dza vifunguo vya chuma vigumu vinavyoelekea kuhenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mchakato wa kutengeneza kamba ya makumbi unahitaji kazi nyinji. Maganda ga nazi ganatiwa ndani ya madzi kpwa siku au wiki kulainisha nyuzi, kisha kupigwa kuzitenganisha. Nyuzi huru zinakaushwa, kuchanwa, na kusokotwa kpwa mkono kukala kamba za unene tofauti, kula uzi mwembamba wa kufunga hadi kamba nzito ya muundo. Chimila hichi cha kutengeneza kamba ni mojawapo ya ufundi usio wa kuona sana ela muhimu unaounga mkono kudzenga kwa Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mviringo na Mstatili: Umbo Kukala Lugha ya Kijamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Makalo ga jadi ga Adigo ganatumia umbo ra kudzenga kuwasilisha muundo wa kijamii. Chibanda cha mvyere ni cha mviringo — makalo ga duara ganayoashiria mamlaka na hadhi kahi ya mudzi. Nyumba zingine za familia ni za mstatili, zirizodzengwa kpwa nyenzo na mbinu zira zira ela kpwa umbo tofauti renye maana tofauti ya kijamii. Tofauti hino kahi ya mviringo na mstatili si ya bahati mbaya au ya mapambo. Ni msamiati wa nafasi unaoambira chila mgeni, kpwa mtsamiyo mmwenga, jiografia ya kijamii ya mudzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chibanda cha mviringo ni umbo ra kare zaidi, rinahusishwa na makalo ga kpwandza ga Adigo na chimila cha kaya. Nyumba ya mstatili inaonyesa ushawishi wa bada yakpwe, phamwenga na mawasiliano na chimila cha kudzenga cha ph'wani ya Chiswahili. Kukala maumbo gosi mairi ganaendelea bega kpwa bega ndani ya mudzi mmwenga kunazungumza dzulu ya uwezo wa Adigo wa kuingiza maumbo maphya bila kutsupha ga kare — muundo unaoonekana kpwa chitamaduni chao cha mali kpwa upana."
+            },
+            {
+              "type": "heading",
+              "text": "Chimila Tsini ya Shinikizo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rero, kudzenga kwa jadi kwa Adigo kunakabilana na shinikizo zinazokabili mila za kudzenga za chienyeji duniani kosi. Kuta za matofali ga zege ni za upesi zaidi kudzenga na zinahitaji kazi ndogo ya ustadi. Paa za bati ni nafuu zaidi kuika na zinadumu zaidi bila matengenezo. Sakafu za simenti ni rahisi kusafisha kuriko tsi iriyoshindiriwa. Uchumi unapenda nyenzo za kisasa, na kpwa chila chizazi, avulana na asichana achache anadzifundza ujuzi wa kare wa kudzenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela makuti ganasala. Kpwa maeneo ga vijijini, ganasala kukala nyenzo ya paa inayopendwa kpwa dziko na miundo ya ziada. Kanda ya ph'wani ya utalii, hoteli na mikahawa yanatumia makuti kpwa makusudi, yakitambua kukala mwonekano wakpwe wa dzoho, wenye chimwiri unavyoibua urembo wa kudzenga kwa jadi kwa ph'wani kpwa njira ambayo nyenzo yoyosi ya kisasa taiweza kulinganisha. Juhudi fulani za uhifadhi zinalenga kudumisha ujuzi wa kudzenga wa jadi, zikitambua kukala marifwa ga jinsi ya kuchagula nguzo ya boriti, kuchanganya ukuta wa tope, au kushona paneli ya makuti ganawakilisha karne za akili ya mazingira iriyokusanywa ambayo, ikipotea, taiweza kurejeshwa kula chitabu chochosi."
             }
           ]
         }
@@ -5634,6 +8670,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mfumo wa fuko haujapotea chini ya shinikizo za Uislamu, ukuaji wa miji, na kupitishwa kwa kanuni za urithi wa baba. Umebadilika. Fuko linabaki kuwa jibu la swali linaloumia zaidi: *Wa atu ani?*"
+            },
+            {
+              "type": "heading",
+              "text": "Fuko Linapita Jiografia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti na mbari (kitengo cha familia ya upande wa baba), ambayo kawaida ipo katika eneo maalum la boma au shamba, fuko halina mpaka wa kijiografia. Wanachama wa fuko moja wanaweza kuishi katika vijiji tofauti, kaunti tofauti, nchi tofauti. Mtu wa Kidigo huko Kwale na mtu wa Kidigo huko Tanga, Tanzania, wanaweza kugundua kupitia mazungumzo ya \"Wa atu ani?\" kwamba wanashiriki fuko — na kwa ugunduzi huo kunakuja mfumo wa haraka wa wajibu wa pande zote, ukarimu, na uaminifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufikia huku kwa kijiografia kulifanya fuko kuwa taasisi ya kijamii yenye nguvu katika enzi ambapo Wadigo waliishi katika ukanda mpana wa pwani unaopita mpaka wa Kenya na Tanzania. Iliunda mitandao ya msaada iliyovuka mipaka ya vijiji vya mmoja mmoja. Msafiri aliyefika katika mji usiojulikana angeweza kutaja utambulisho wake wa fuko na kutarajia kupokelewa na wanaukoo kama ndugu, si mgeni. Fuko lilikuwa — na kwa njia nyingi linabaki — wavu wa usalama wa kijamii uliosukwa katika mandhari yote."
+            },
+            {
+              "type": "heading",
+              "text": "Makabila Yasiyotajwa Majina"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya mapengo yanayoshangaza zaidi katika rekodi ya kitaaluma inayopatikana ni kutokuwepo kwa orodha kamili ya majina ya mafuko ya Wadigo. Tofauti na Wagikuyu, ambao makabila yao tisa ya *muhiriga* yameandikwa kwa upana, au Waluo, ambao *dhoudi* zao zimeorodheshwa katika ethinografia za kawaida, majina mahususi ya mafuko ya Wadigo yanabaki kuwa maarifa ya kitamaduni yanayohifadhiwa kwa karibu. Hii si ajali ya kutojali kwa wasomi. Majina ya mafuko yana uzito wa kiroho — yanahusishwa na historia za mababu, na maeneo mahususi ya kaya, na simulizi za asili zinazopitishwa ndani ya ukoo badala ya kuchapishwa kwa watu wa nje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengo la utafiti ni kubwa. Ethinografia maalum za kitaaluma — na wasomi kama David Sperling, aliyesomea mabadiliko ya kidini ya Wadigo, au Diane Ciekawy, aliyeandika imani za uchawi na utawala — zinaweza kuwa na orodha za sehemu. Lakini katalogi kamili na inayopatikana kwa umma ya mafuko ya Wadigo haionekani kuwepo, na jamii inaweza kuwa na sababu nzuri za kuiweka hivyo."
+            },
+            {
+              "type": "heading",
+              "text": "Fuko Leo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa fuko haujapotea chini ya shinikizo za Uislamu, ukuaji wa miji, na kupitishwa kwa kanuni za urithi wa upande wa baba. Umebadilika. Katika Mombasa ya mji, vijana wa Wadigo wanaweza wasijue historia kamili ya fuko lao, lakini wanajua jina lake. Wanajua fuko la mama yao na la bibi yao. Wanaweza wasirithi ardhi kupitia mfumo wa upande wa mama — mahakama za Kiislamu na sheria za kiraia za Kenya zimechukua nafasi yake kwa kiasi kikubwa — lakini mfumo wa utambulisho unaendelea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fuko linabaki kuwa jibu la swali linaloumia zaidi: *Wa atu ani?* Katika ulimwengu wa utambulisho unaoshindana — wa kitaifa, wa kikabila, wa kidini, wa kitaaluma — fuko linatoa kitu ambacho hakuna kategoria yoyote nyingine inayoweza: uhusiano mahususi, wa kibinafsi, uliorithiwa na jamii inayofika nyuma zaidi ya kumbukumbu na mbele zaidi ya maisha ya mtu mmoja. Ni uzi unaofanya mtu wa Kidigo kuwa Mdigo — si kwa maana ya kidhahania ya kuwa sehemu ya kabila, bali kwa maana halisi ya kuwa wa watu *hawa*, kupitia mama *huyu*, katika ukoo *huu*."
             }
           ],
           "dig": [
@@ -5672,6 +8744,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mfumo wa fuko taujapotea chini ya shinikizo za Chiislamu, ukuaji wa midzi mikulu, na kupishishwa kpwa kanuni za urithi wa ise. Umebadilika. Fuko rinasala kukala jibu ra swali rinaro umia zaidi: *Wa atu ani?*"
+            },
+            {
+              "type": "heading",
+              "text": "Fuko Rinapisha Jiografia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti na mbari (chitengo cha familia ya uphande wa ise), ambayo kawaida ipo kpwa eneo maalum ra boma au shamba, fuko tarina mphaka wa kijiografia. Anachama a fuko mwenga anaweza kuishi kpwa vijiji tofauti, kaunti tofauti, tsi tofauti. Mudigo wa Kwale na Mudigo wa Tanga, Tanzania, anaweza kugundua kupitshi mazungumzo ga \"Wa atu ani?\" kukala anashiriki fuko — na kpwa ugunduzi hinyo kunakudza mfumo wa upesi wa wajibu wa pande zosi, ukarimu, na uaminifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufikira huku kwa kijiografia kurahenda fuko kukala taasisi ya kijamii yenye nguvu kpwa enzi ambapo Adigo ariishi kpwa ukanda mphana wa pwani unaopisha mphaka wa Kenya na Tanzania. Iraunda mitandao ya msaada iriyovuka miphaka ya vijiji vya mmwenga mmwenga. Msafiri ariyefika kpwa mudzi usiomanyikana angeweza kutaja utambulisho wakpwe wa fuko na kutarajia kupokelerwa ni anaukoo dza ndugu, si mgeni. Fuko ririkala — na kpwa njira nyinji rinasala — wavu wa usalama wa kijamii uriosukwa kpwa mandhari yosi."
+            },
+            {
+              "type": "heading",
+              "text": "Mafuko Gasigotajwa Madzina"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya mapengo ganayoshangaza zaidi kpwa rekodi ya chitaaluma inayopatikana ni kutokukala na orodha kamili ya madzina ga mafuko ga Adigo. Tofauti na Agikuyu, ambao makabila gao tisa ga *muhiriga* gameandikwa kpwa upana, au Aluo, ambao *dhoudi* zao zimeorodheshwa kpwa ethinografia za kawaida, madzina mahususi ga mafuko ga Adigo ganasala kukala marifwa ga chitamaduni ganayohifadhiwa kpwa jirani. Hino si ajali ya kutojali kpwa asomi. Madzina ga mafuko gana uzito wa kiroho — ganahusishwa na historia za akare, na maeneo mahususi ga kaya, na simulizi za asili zinazopitishwa ndani ya ukoo badala ya kuchapishwa kpwa atu a ndze."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengo ra utafiti ni kulu. Ethinografia maalum za chitaaluma — na asomi dza David Sperling, ariyesomera mabadiliko ga kidini ga Adigo, au Diane Ciekawy, ariyeandika imani za uchawi na utawala — zinaweza kukala na orodha za sehemu. Ela katalogi kamili na inayopatikana kpwa umma ya mafuko ga Adigo taionekani kukala ipo, na jamii inaweza kukala na sababu nono za kuiika hivyo."
+            },
+            {
+              "type": "heading",
+              "text": "Fuko Rero"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa fuko taujapotea chini ya shinikizo za Chiislamu, ukuaji wa midzi mikulu, na kupishishwa kpwa kanuni za urithi wa uphande wa ise. Umebadilika. Kpwa Mombasa ya mudzi mkpwulu, avulana na asichana a Adigo anaweza asimanyire historia kamili ya fuko rao, ela anamanya dzina rakpwe. Anamanya fuko ra nine wao na ra kuku wao. Anaweza asirithi tsi kupitshi mfumo wa uphande wa nine — mahakama za Chiislamu na sheria za kiraia za Kenya zimechukula phatu phakpwe kpwa kiasi kikulu — ela mfumo wa utambulisho unaendelea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fuko rinasala kukala jibu ra swali rinaro umia zaidi: *Wa atu ani?* Kpwa ulimwengu wa utambulisho unaoshindana — wa chitaifa, wa chikabila, wa kidini, wa chitaaluma — fuko rinapha chitu ambacho taphana kategoria yoyosi ingine inayoweza: uhusiano mahususi, wa chibinafsi, uriorithi na jamii inayofika nyuma zaidi ya kukumbuka na mbere zaidi ya maisha ga mutu mmwenga. Ni uzi unaohenda Mudigo kukala Mudigo — si kpwa maana ya kidhahania ya kukala sehemu ya kabila, ela kpwa maana ya kpweli ya kukala wa atu *hano*, kupitshi nine *yuyu*, kpwa ukoo *huu*."
             }
           ]
         }
@@ -5831,6 +8939,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Leo, familia ya Wadigo inayoshughulika na mgogoro wa urithi inasogea angalau ndani ya mifumo mitatu ya kisheria kwa wakati mmoja: sheria ya kiraia ya Kenya, sheria ya Kiislamu, na desturi ya upande wa mama. Suluhisho la kawaida zaidi ni la kiutendaji badala ya kanuni: familia zinatoa kutoka kwa mfumo wowote unaohudumia hitaji la karibu."
+            },
+            {
+              "type": "heading",
+              "text": "Jibu la Kimkakati la Wanawake"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu la wanawake wa Wadigo kwa mmomonyoko huu linaonyesha uelewa wa hali ya juu wa mkakati wa kisheria. Baadhi ya wanawake waligeuka Uislamu kwa makusudi ili kupata haki za urithi. Hii haikuwa uamuzi wa kiroho — au si uamuzi wa kiroho pekee. Ilikuwa uamuzi wa kisheria. Sheria ya urithi ya Kiislamu, ingawa ni ya upande wa baba, ilihakikishia wanawake sehemu mahususi: binti alipokea nusu ya sehemu ya mwana, mke alipokea moja ya nane ya mali ya mumewe. Sehemu hizi ziliwekwa sheria, zinazotekelezeka katika mahakama za Kadhi, na zilizounga mkono na mamlaka ya sheria ya Kiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa wanawake ambao haki zao za kimila za upande wa mama zilikuwa zikimomonyolewa na mahakama za kikoloni zilizokataa kuzitambua, kugeuka Uislamu kulitoa nafasi inayoweza kutetewa zaidi. Upingano ulikuwa mkali: wanawake walihamia kutoka mfumo wa kimila ambao uliwapa zaidi (udhibiti kamili wa ardhi ya konho) kwenda mfumo wa kidini ambao uliwapa kidogo (sehemu za sehemu zilizowekwa) — kwa sababu kiasi kidogo kilikuwa kinatekelezeka na kiasi kikubwa hakikuwa."
+            },
+            {
+              "type": "heading",
+              "text": "Jukumu la Kadhi Mkuu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kati ya desturi ya upande wa mama na sheria ya Kiislamu ulikuwa mkubwa wa kutosha kuhitaji kuingilia kati rasmi katika kiwango cha juu zaidi cha mahakama ya Kiislamu ya Kenya. Kadhi Mkuu aliingilia kati ili kuanzisha mifumo ya urithi kwa watoto wa ndoa za imani mchanganyiko — kesi ambapo mzazi mmoja alifuata desturi ya upande wa mama na mwingine alifuata sheria ya Kiislamu, ambapo swali la mfumo upi unaotumika lilikuwa haliko wazi kweli."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuingilia kati huku kuliunda mifumo ya mseto iliyojaribu kusawazisha kanuni za urithi wa Kiislamu na ukweli wa jamii ambayo vifungo vya upande wa mama viliendelea kuwa vya lazima kitamaduni hata pale vilipopoteza nguvu ya kisheria. Maamuzi ya Kadhi Mkuu yalitambua kile ambacho jamii tayari ilijua: kwamba Wadigo hawangeweza tu kuchagua mfumo mmoja na kuacha mwingine. Mila ya upande wa mama ilikuwa imeingizwa kwa kina sana katika utambulisho ili kubatilishwa kwa amri, na sheria ya Kiislamu ilikuwa ya kati sana kwa imani ili kupuuzwa."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ya Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Leo, familia ya Wadigo inayoshughulika na mgogoro wa urithi inasogea angalau ndani ya mifumo mitatu ya kisheria kwa wakati mmoja. Sheria ya kiraia ya Kenya — hasa Sheria ya Urithi — inatoa mfumo wa serikali. Sheria ya Kiislamu, inayosimamiwa kupitia mahakama za Kadhi, inatoa mfumo wa kidini. Na desturi ya upande wa mama, inayotekelezwa kupitia matarajio ya jamii na mamlaka ya wazee badala ya mahakama rasmi, inatoa mfumo wa kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa vitendo, matokeo mara nyingi yanategemea baraza lipi mgogoro unafikia. Kesi inayoenda mahakama ya hakimu itaamuliwa chini ya Sheria ya Urithi. Kesi inayoenda mahakama ya Kadhi itaamuliwa chini ya Sharia. Kesi inayotatuliwa ndani ya jamii — kupitia upatanishi wa wazee, kuingilia kati kwa mjomba anayeheshimika, ugawaji kimya wa mali ya familia kabla mtu yeyote hajafikiria kwenda mahakamani — inaweza kufuata desturi ya upande wa mama kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Suluhisho la kawaida zaidi ni la kiutendaji badala ya kanuni. Familia zinatoa kutoka kwa mfumo wowote unaohudumia hitaji la karibu. Baba anaweza kufuata urithi wa Kiislamu kwa mali zake rasmi — nyumba yake, akaunti yake ya benki, ardhi yake iliyosajiliwa — huku akiruhusu desturi ya upande wa mama kusimamia ugawaji wa mali ya jadi ya familia. Mama anaweza kutumia haki yake ya Kiislamu ya sehemu mahususi ya mali ya mumewe huku wakati huo huo akihakikisha kwamba ardhi yake ya konho inapita kwa binti zake kulingana na mila ya upande wa mama."
+            },
+            {
+              "type": "heading",
+              "text": "Kile Ambacho Mfumo Wowote Haushiki"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ukweli wa ndani zaidi ni kwamba sheria ya Kiislamu wala desturi ya upande wa mama, zikichukuliwa peke yake, hazishiki ukweli kamili wa maisha ya familia ya Wadigo. Wadigo hawapitii mfumo wao wa urithi kama mgogoro kati ya misimbo miwili migumu. Wanaupitia kama seti ya wajibu, uaminifu, na matarajio yanayoingiliana ambayo lazima yasawazishwe katika kila kesi mahususi. Fuko linavuta upande mmoja. Msikiti unavuta upande mwingine. Mahakama ya kaunti inavuta wa tatu. Na familia — watu mahususi wanaohusika, na uhusiano wao mahususi, malalamiko, na mahitaji — inapata njia yake kupitia katikati."
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyumbufu huu wa kiutendaji si kushindwa kwa mfumo wowote. Ni mafanikio ya kipekee ya mpangilio wa kijamii wa Wadigo — uwezo wa kushikilia mifumo miwili inayopingana kwa wakati mmoja na kupata suluhisho zinazofanya kazi ndani ya mvutano. Ni ya ovyo, isiyo thabiti, na wakati mwingine isiyo ya haki. Lakini imewasaidia Wadigo kupitia karne za mabadiliko ya kisheria na kidini bila kuharibu mila ya upande wa mama wala imani ya Kiislamu ambayo imekuwa ya kati kwa utambulisho wa Wadigo."
             }
           ],
           "dig": [
@@ -5877,6 +9037,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Rero, familia ya Adigo inayoshughulika na lungo ra urithi inasogea angalau ndani ya mifumo mihahu ya kisheria kpwa wakati mmwenga: sheria ya kiraia ya Kenya, sheria ya Chiislamu, na desturi ya uphande wa nine. Suluhisho ra kawaida zaidi ni ra chiutendaji badala ya kanuni: familia zinatoa kula kpwa mfumo wowosi unaohudumia hitaji ra phephi."
+            },
+            {
+              "type": "heading",
+              "text": "Jibu ra Chimkakati ra Achetu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu ra achetu a Adigo kpwa mmomonyoko huu rinaonyesa uelewa wa hali ya dzulu wa mkakati wa kisheria. Baadhi ya achetu arigeuka Chiislamu kpwa makusudi ili kupata haki za urithi. Hino tairikala uamuzi wa kiroho — au si uamuzi wa kiroho pekee. Irikala uamuzi wa kisheria. Sheria ya urithi ya Chiislamu, ingawa ni ya uphande wa ise, irahakikishia achetu sehemu mahususi: mwana mchetu aripokera nusu ya sehemu ya mwana mulume, muche aripokera mwenga wa nane wa mali ya mulumewakpwe. Sehemu hizi ziraikwa sheria, zinazotekelezeka kpwa mahakama za Kadhi, na zirizounga mkono ni mamlaka ya sheria ya Chiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa achetu ambao haki zao za chimila za uphande wa nine zirikala zikimomonyolewa ni mahakama za chikoloni zirizokatala kuzitambua, kugeuka Chiislamu kurapha nafasi inayoweza kutetewa zaidi. Upingano urikala mkali: achetu arihamia kula mfumo wa chimila ambao uriwapha zaidi (udhibiti kamili wa tsi ya konho) kuphiya mfumo wa kidini ambao uriwapha chidogo (sehemu za sehemu zirizowekwa) — kpwa sababu kiasi chidogo chirikala chinatekelezeka na kiasi kikulu tachirikala."
+            },
+            {
+              "type": "heading",
+              "text": "Kazi ya Kadhi Mkulu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kahi ya desturi ya uphande wa nine na sheria ya Chiislamu urikala mkulu wa kutosha kuhitaji kuingilia kahi rasmi kpwa chiwango cha dzulu zaidi cha mahakama ya Chiislamu ya Kenya. Kadhi Mkulu ariingilia kahi ili kuanzisha mifumo ya urithi kpwa ana a ndoa za imani mchanganyiko — kesi ambapo mzazi mmwenga arifuata desturi ya uphande wa nine na mwingine arifuata sheria ya Chiislamu, ambapo swali ra mfumo upi unaotumika ririkala tariro wazi kpweli."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuingilia kahi huku kuraunda mifumo ya mseto iriyojaribu kusawazisha kanuni za urithi wa Chiislamu na ukpweli wa jamii ambayo vifungo vya uphande wa nine virienderera kukala vya lazima chitamaduni hata phatu viripho poteza nguvu ya kisheria. Maamuzi ga Kadhi Mkulu garitambua chira ambacho jamii tayari irimanya: kukala Adigo taawezire tu kuchagula mfumo mmwenga na kuacha mwingine. Chimila cha uphande wa nine chirikala chimeingizwa kpwa kina sana kpwa utambulisho ili kubatilishwa kpwa amri, na sheria ya Chiislamu irikala ya kahi sana kpwa imani ili kupuzwa."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ga Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rero, familia ya Adigo inayoshughulika na lungo ra urithi inasogea angalau ndani ya mifumo mihahu ya kisheria kpwa wakati mmwenga. Sheria ya kiraia ya Kenya — hasa Sheria ya Urithi — inapha mfumo wa serikali. Sheria ya Chiislamu, inayosimamiwa kupitshi mahakama za Kadhi, inapha mfumo wa kidini. Na desturi ya uphande wa nine, inayotekelezwa kupitshi matarajio ga jamii na mamlaka ya avyere badala ya mahakama rasmi, inapha mfumo wa chitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa vitendo, matokeo mara nyinji ganategemea baraza ripi lungo rinafikira. Kesi inayophiya mahakama ya hakimu indaamuriwa chini ya Sheria ya Urithi. Kesi inayophiya mahakama ya Kadhi indaamuriwa chini ya Sharia. Kesi inayotatuliwa ndani ya jamii — kupitshi upatanishi wa avyere, kuingilia kahi kwa mjomba anayeheshimika, ugawaji wa kimya wa mali ya familia kabla mutu yeyosi hajafikiria kuphiya mahakamani — inaweza kufuata desturi ya uphande wa nine kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Suluhisho ra kawaida zaidi ni ra chiutendaji badala ya kanuni. Familia zinatoa kula kpwa mfumo wowosi unaohudumia hitaji ra phephi. Ise anaweza kufuata urithi wa Chiislamu kpwa mali zakpwe rasmi — nyumba yakpwe, akaunti yakpwe ya benki, tsi yakpwe iriyosajiliwa — wakati akiruhusu desturi ya uphande wa nine kusimamia ugawaji wa mali ya jadi ya familia. Nine anaweza kutumia haki yakpwe ya Chiislamu ya sehemu mahususi ya mali ya mulumewakpwe wakati hinyo hinyo akihakikisha kukala tsi yakpwe ya konho inapisha kpwa asichana akpwe kulingana na chimila cha uphande wa nine."
+            },
+            {
+              "type": "heading",
+              "text": "Chira Ambacho Mfumo Wowosi Taushiki"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ukpweli wa ndani zaidi ni kukala sheria ya Chiislamu wala desturi ya uphande wa nine, zikichukuliwa pekee yao, tazishiki ukpweli kamili wa maisha ga familia ya Adigo. Adigo taapishiri mfumo wao wa urithi dza lungo kahi ya misimbo miiri migumu. Anaupishira dza seti ya wajibu, uaminifu, na matarajio ganayoingiliana ambago ni lazima gasawazishwe kpwa chila kesi mahususi. Fuko rinavuta uphande mmwenga. Msikiti unavuta uphande mwingine. Mahakama ya kaunti inavuta wa wahahu. Na familia — atu mahususi anaohusika, na uhusiano wao mahususi, malalamiko, na mahitaji — inapata njira yakpwe kupitshi kahi-kahi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyumbufu huu wa chiutendaji si kushindwa kwa mfumo wowosi. Ni mafanikio ga chipekee ga mpangilio wa kijamii wa Adigo — uwezo wa kushikilia mifumo miiri inayopingana kpwa wakati mmwenga na kupata suluhisho zinazofanya kazi ndani ya mvutano. Ni ya ovyo, isiyo thabiti, na wakati wangine isiyo ya haki. Ela imewasaidia Adigo kupitshi karne za mabadiliko ga kisheria na kidini bila kuharibu chimila cha uphande wa nine wala imani ya Chiislamu ambayo imekala ya kahi kpwa utambulisho wa Adigo."
             }
           ]
         }
@@ -6020,6 +9232,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Taratibu rasmi za urithi wa upande wa mama zimebadilishwa sana na sheria ya Kiislamu na ya kiraia katika mahakama za Kenya. Lakini maadili ya msingi hayajapotea. Mama bado wanapitisha mali kwa watoto wao kwa njia isiyo rasmi. Mjomba bado anachangia ustawi wa wajukuu zake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uislamu ulifika pwani ya Wadigo kupitia mawasiliano ya biashara na mitandao ya Kisufi kuanzia karne ya kumi na saba na kuendelea, na ukawa imani kuu kufikia karne ya ishirini. Pamoja nayo zilikuja sheria za urithi za Sharia ambazo ni za upande wa baba kimsingi: mali ya mtu inapita hasa kwa wanawe na binti zake (wana wakipokea mara mbili ya sehemu ya binti), mke wake anapokea sehemu iliyowekwa, na ukoo wa mama hauna nafasi yoyote."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hili liliunda mgongano wa moja kwa moja na mfumo wa fuko. Chini ya desturi ya upande wa mama, watoto wa mtu hawakurithi kutoka kwake — walirithi kutoka upande wa mama yao. Chini ya sheria ya Kiislamu, walikuwa warithi wake wakuu. Chini ya desturi ya upande wa mama, watoto wa dada ya mtu walikuwa warithi wake wa asili. Chini ya sheria ya Kiislamu, hawakuwa na dai la urithi kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgongano haukuzalisha ushindi safi kwa mfumo wowote. Badala yake, ulizalisha kuishi pamoja kwa mazungumzo ambako kunatofautiana kutoka familia hadi familia, kutoka kijiji hadi kijiji, na kutoka kizazi hadi kizazi. Baadhi ya familia zinafuata urithi wa Kiislamu kwa ukali. Baadhi zinafuata desturi ya upande wa mama. Nyingi zinafanya kazi katika kiwango cha kati cha kiutendaji: sheria ya Kiislamu inasimamia ugawaji rasmi wa mali, hasa wakati mali inapita kupitia mahakama, wakati matarajio ya upande wa mama yanasimamia uhamisho usio rasmi, upatikanaji wa ardhi ya familia, na ugawaji wa mali inayohamishika."
+            },
+            {
+              "type": "heading",
+              "text": "Ubadilishaji wa Kimkakati wa Wanawake"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya mienendo inayofunua zaidi katika mgongano kati ya urithi wa upande wa mama na Kiislamu ilikuwa ubadilishaji wa kimkakati wa wanawake kuwa Waislamu. Katika mfumo wa upande wa mama, wanawake walikuwa na haki muhimu za mali kupitia ardhi ya konho na nafasi yao ndani ya fuko. Lakini haki hizi zilikuwa za kimila — hazikuwa na nafasi katika mahakama za kikoloni au baada ya ukoloni. Sheria ya Kiislamu, ingawa ya upande wa baba, ilihakikishia wanawake sehemu mahususi za urithi: binti alipokea nusu ya sehemu ya mwana, mke alipokea moja ya nane ya mali ya mumewe (kama kulikuwa na watoto)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa wanawake ambao haki zao za urithi wa upande wa mama zilikuwa zikimomonyolewa na mahakama za kikoloni zilizotambua madai ya upande wa baba pekee, kubadilika kuwa Mwislamu kunaweza kuwa kitendo cha kimkakati cha kujilinda. Kwa kubadilika, mwanamke alipata ufikiaji wa mfumo wa kisheria uliowekwa ambao, ingawa si mkarimu kama mfumo wa upande wa mama katika hali yake bora, ulikuwa unatekelezeka zaidi kuliko madai ya kimila katika mahakama rasmi. Wanawake walibadilika kuwa Waislamu kwa sehemu ili \"kupata haki zao za urithi\" — si kwa sababu Uislamu ulitoa zaidi, bali kwa sababu ulitoa kitu ambacho mfumo wa kimila unaopungua haukuweza tena kuhakikisha."
+            },
+            {
+              "type": "heading",
+              "text": "Kuingilia Kati kwa Kadhi Mkuu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kati ya mifumo miwili ya urithi ulikuwa mkubwa wa kutosha kuhitaji kuingilia kati rasmi. Kadhi Mkuu — mamlaka ya juu zaidi ya kimahakama ya Kiislamu ya Kenya — aliingilia kati kuanzisha haki za urithi kwa watoto wa ndoa za imani mchanganyiko, kuunda mfumo wa mseto uliojaribu kusawazisha kanuni za urithi wa Kiislamu na ukweli wa jamii ambayo vifungo vya upande wa mama viliendelea kuwa vya lazima kitamaduni hata pale vilipopoteza nguvu ya kisheria."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachobaki"
+            },
+            {
+              "type": "paragraph",
+              "text": "Taratibu rasmi za urithi wa upande wa mama zimebadilishwa kwa kiasi kikubwa na sheria ya Kiislamu na ya kiraia katika mahakama za Kenya. Mgogoro wa urithi wa Wadigo leo utaamuliwa kulingana na Sharia au Sheria ya Urithi, si kulingana na desturi ya fuko. Lakini maadili ya msingi hayajapotea. Mama bado wanapitisha mali kwa watoto wao kwa njia isiyo rasmi. Mjomba bado wanachangia ustawi wa wapwa wao. Matarajio kwamba wajibu wa ndani zaidi wa mtu yanafuata upande wa mama yanaendelea katika maisha ya kila siku hata pale hapoambapo hayashikilii tena kisheria."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa urithi wa pande mbili — mashamba ya mafuko pamoja na mashamba ya mbari, konho pamoja na dzumbe — huenda usifanye kazi tena kama mfumo rasmi wa kisheria. Lakini unabaki umeingizwa katika uelewa wa Wadigo wa ardhi inamaanisha nini, nani ni wa nani, na wajibu gani familia inaiwekea. Dai la fuko juu ya mali linaweza kuwa limedhoofika. Dai lake juu ya utambulisho halijadhoofika."
             }
           ],
           "dig": [
@@ -6054,6 +9310,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Taratibu rasmi za urithi wa uphande wa nine zimebadilishwa sana ni sheria ya Chiislamu na ya kiraia kpwa mahakama za Kenya. Ela maadili ga musingi tagajapotea. Nine bado anapisha mali kpwa ana ao kpwa njira isiyo rasmi. Mjomba bado anachangia ustawi wa awa akpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo urikala na mantiki ya ndani iriyolipa uwekezaji wa ukoo. Mulume ariyewekeza kazi na rasilimali kpwa ana a lumbwe akpwe — ariyetumika dza mjomba wa kuaminika — arikala anawekeza kpwa atu ambao angerithi mali yakpwe yenyewe. Ana a lumbwe akpwe arikala na manufaa ya moja kpwa moja ya mali ya kuendelea na uhusiano na mjomba wao. Mfumo wa urithi wa uphande wa nine taurikala tu kanuni ya ani anapata tsi. Irikala injini ya kiuchumi iriyoendesha uhusiano wa mjomba-mphwa, ambao unaweza kusemwa kukala ni kifungo cha ukoo muhimu zaidi kpwa jamii ya chimila ya Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Changamoto ya Chiislamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chiislamu charifika ph'wani ya Adigo kupitshi mawasiliano ga biashara na mitandao ya Chisufi kuandza karne ya kumi na saba na kuenderera, na chikakala imani kulu kufikira karne ya mirongo miiri. Phamwenga na icho zirikudza sheria za urithi za Sharia ambazo ni za uphande wa ise kpwa musingi: mali ya mutu inapisha hasa kpwa ana akpwe alume na achetu (alume akipokera mara mbiri ya sehemu ya achetu), muche akpwe anapokera sehemu iriyowekwa, na ukoo wa nine tauna nafasi yoyosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri riraunda mgongano wa moja kpwa moja na mfumo wa fuko. Chini ya desturi ya uphande wa nine, ana a mutu taari rithi kula kpwakpwe — aririthi kula uphande wa nine wao. Chini ya sheria ya Chiislamu, arikala arithi akpwe akulu. Chini ya desturi ya uphande wa nine, ana a lumbwe a mutu arikala arithi akpwe a asili. Chini ya sheria ya Chiislamu, taari kala na dai ra urithi kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgongano tauriri zalisha ushindi safi kpwa mfumo wowosi. Badala yakpwe, urizalisha kuishi phamwenga kpwa mazungumzo ambako kunatofautiana kula familia hadi familia, kula kijiji hadi kijiji, na kula chizazi hidi chizazi. Baadhi ya familia zinafuata urithi wa Chiislamu kpwa ukali. Baadhi zinafuata desturi ya uphande wa nine. Nyinji zinahenda kazi kpwa chiwango cha kahi cha chiutendaji: sheria ya Chiislamu inasimamia ugawaji rasmi wa mali, hasa wakati mali inapisha kupitshi mahakama, wakati matarajio ga uphande wa nine ganasimamia uhamisho usio rasmi, upatikanaji wa tsi ya familia, na ugawaji wa mali inayohamishika."
+            },
+            {
+              "type": "heading",
+              "text": "Kubadilishwa kwa Chimkakati kwa Achetu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya mienendo inayofunua zaidi kpwa mgongano kahi ya urithi wa uphande wa nine na Chiislamu irikala kubadilishwa kwa chimkakati kwa achetu kukala Aislamu. Kpwa mfumo wa uphande wa nine, achetu arikala na haki muhimu za mali kupitshi tsi ya konho na nafasi yao ndani ya fuko. Ela haki hizi zirikala za chimila — tazirikala na nafasi kpwa mahakama za chikoloni au bada ya ukoloni. Sheria ya Chiislamu, ingawa ya uphande wa ise, irahakikishia achetu sehemu mahususi za urithi: mwana mchetu aripokera nusu ya sehemu ya mwana mulume, muche aripokera mwenga wa nane wa mali ya mulumewakpwe (achikala kuna ana)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa achetu ambao haki zao za urithi wa uphande wa nine zirikala zikimomonyolewa ni mahakama za chikoloni zirizoitambua madai ya uphande wa ise pekee, kubadilika kukala Mwislamu kunaweza kukala chitendo cha chimkakati cha kudzirinda. Kpwa kubadilika, muchetu aripata ufikiaji wa mfumo wa kisheria uriowekwa ambao, ingawa si mkarimu dza mfumo wa uphande wa nine kpwa hali yakpwe nono, urikala unatekelezeka zaidi kuriko madai ga chimila kpwa mahakama rasmi. Achetu aribadilika kukala Aislamu kpwa sehemu ili \"kupata haki zao za urithi\" — si kpwa sababu Chiislamu charitoa zaidi, ela kpwa sababu charitoa chitu ambacho mfumo wa chimila unaopungua taurikala unaweza tsena kuhakikisha."
+            },
+            {
+              "type": "heading",
+              "text": "Kuingilia Kahi kwa Kadhi Mkulu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mvutano kahi ya mifumo miiri ya urithi urikala mkulu wa kutosha kuhitaji kuingilia kahi rasmi. Kadhi Mkulu — mamlaka ya dzulu zaidi ya chimahakama ya Chiislamu ya Kenya — ariingilia kahi kuanzisha haki za urithi kpwa ana a ndoa za imani mchanganyiko, kuunda mfumo wa mseto uriojaribu kusawazisha kanuni za urithi wa Chiislamu na ukpweli wa jamii ambayo vifungo vya uphande wa nine virienderera kukala vya lazima chitamaduni hata phatu viripho poteza nguvu ya kisheria."
+            },
+            {
+              "type": "heading",
+              "text": "Chinachosala"
+            },
+            {
+              "type": "paragraph",
+              "text": "Taratibu rasmi za urithi wa uphande wa nine zimebadilishwa kpwa kiasi kikulu ni sheria ya Chiislamu na ya kiraia kpwa mahakama za Kenya. Lungo ra urithi ra Adigo rero rindaamuriwa kulingana na Sharia au Sheria ya Urithi, si kulingana na desturi ya fuko. Ela maadili ga musingi tagajapotea. Anina bado anapishisha mali kpwa ana ao kpwa njira isiyo rasmi. Mjomba bado anachangia ustawi wa awa akpwe. Matarajio kukala wajibu wa ndani zaidi wa mutu ganafuata uphande wa nine ganaendelea kpwa maisha ga chila siku hata phatu ambapo tagashikilii tsena kisheria."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa urithi wa pande mbiri — mashamba ga mafuko phamwenga na mashamba ga mbari, konho phamwenga na dzumbe — unaweza usihende kazi tsena dza mfumo rasmi wa kisheria. Ela unasala umeingizwa kpwa uelewa wa Adigo wa tsi inamanisha utu, ani ni wa ani, na wajibu gani familia inaiikira. Dai ra fuko dzulu ya mali rinaweza kukala rimedhoofika. Dai rakpwe dzulu ya utambulisho tariradhoofika."
             }
           ]
         }
@@ -6197,6 +9505,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Lakini mjomba hajapotea. Ameshughulikiwa upya. Katika jamii ya kisasa ya Wadigo, mjomba bado anatoa mahari kwa wajukuu wasio na baba. Bado anashikilia mamlaka ya kimaadili juu ya watoto wa dada yake. Mtoto wa Kidigo bado anamjua mjomba wake, bado anamtembelea, bado anaheshimu ushauri wake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda usemi mkubwa zaidi wa mamlaka ya mjomba ulikuwa jukumu lake katika mazungumzo ya ndoa. Katika jamii nyingi za Wadigo, mjomba — si baba — ndiye aliyeshikilia uwezo wa kumtoa mpwa wake kwa ndoa. Mazungumzo ya mahari yalihusisha mjomba kama upande mkuu. Idhini ya mjomba ilihitajika ndoa iendelee. Na ndoa iliposhindwa, mjomba ndiye aliyesimamia taratibu za talaka na kuhakikisha kwamba masharti yalikuwa ya haki kwa mpwa wake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hili liliunda mienendo ya kipekee katika ndoa ya Wadigo. Mchumba hakuhitaji tu kumridhisha baba wa bibi arusi. Alihitaji kumridhisha mjomba wake — mtu aliyemjua bibi arusi tangu kuzaliwa, aliyeshikilia maslahi ya fuko lake moyoni, na ambaye angebaki na jukumu la ustawi wake hata baada ya ndoa. Ushiriki wa mjomba ulimaanisha kwamba mwanamke wa Kidigo aliyeingia ndoa alikuwa na mtetezi wa kiume mwenye nguvu ambaye uaminifu wake ulikuwa kwa upande wake wa mama, si kwa familia ya bwana arusi."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ya Baba na Mjomba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kati ya baba wa mtoto na mjomba wao haukuwa lazima wa uadui, lakini ulikuwa wa changamoto kwa asili. Baba alilisha, akapanga makazi, na akamlea mtoto kila siku. Mjomba alishikilia mamlaka ya mwisho juu ya ndoa ya mtoto, urithi, na utambulisho wa ukoo. Wanaume wote wawili walikuwa na madai halali juu ya uaminifu na utiifu wa mtoto. Uwezekano wa mgogoro ulikuwa umejengwa ndani ya muundo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa vitendo, familia nyingi zilipitia uwili huu kupitia mazungumzo na heshima ya pande zote. Mamlaka ya baba yalitambuliwa katika eneo la nyumbani. Mamlaka ya mjomba yalitambuliwa katika masuala ya umuhimu wa ukoo. Lakini maeneo mawili yalipogongana — baba alipotaka mtoto wake aoe mtu mmoja na mjomba akapendelea mwingine, au urithi ulipobishaniwa — suluhisho lilitegemea heshima, utajiri, na uwezo wa kushawishi wa wanaume hao wawili, pamoja na nguvu ya mila ya upande wa mama katika jamii yao mahususi."
+            },
+            {
+              "type": "heading",
+              "text": "Uislamu na Kupanda kwa Baba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufika na kuenea kwa Uislamu miongoni mwa Wadigo kuanzia karne ya kumi na saba na kuendelea kulileta muundo shindani wa mamlaka ya kibaba. Sheria ya familia ya Kiislamu inaweka baba katikati ya muundo wa familia. Mamlaka ya baba juu ya watoto wake ni kamili katika masuala ya ndoa, urithi, na elimu ya kidini. Mjomba hana nafasi rasmi katika mfumo wa kisheria wa Kiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupitia Uislamu na mageuzi ya kisheria ya kikoloni, baba polepole alizingatia kazi nyingi za jadi za mjomba. Baba walianza kujadiliana ndoa za watoto wao wenyewe. Sheria ya urithi wa Kiislamu ilielekeza mali kwa watoto badala ya watoto wa dada. Mamlaka rasmi ambayo hapo awali yalikuwa kwa mjomba yalihamia — polepole, kwa njia isiyo sawa, na kamwe si kabisa — kwa baba."
+            },
+            {
+              "type": "heading",
+              "text": "Mjomba Anabaki Nini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini mjomba hajapotea. Ameshughulikiwa upya. Katika jamii ya kisasa ya Wadigo, mjomba bado anatoa mahari kwa wapwa wasio na baba — kazi ambayo hakuna mtu mwingine aliyeingilia kuijaza. Mjomba bado anashikilia mamlaka ya kimaadili juu ya watoto wa dada yake, hata pale mamlaka yake ya kisheria yamezidiwa na ya baba. Mtoto wa Kidigo bado anamjua mjomba wake, bado anamtembelea, bado anaheshimu ushauri wake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jukumu la mjomba limepungua kutoka mamlaka kamili ya mfumo wa jadi kwenda kazi maalum zaidi: yeye ni mlinzi wa uhusiano wa upande wa mama, mwakilishi hai wa fuko katika maisha ya mtoto. Huenda hasimamii tena ndoa ya mpwa wake. Lakini bado ni mtu ambaye mpwa wake anaelekea kwake swali linapotokea: *\"Wa atu ani?\"* Mjomba anajua jibu, kwa sababu jibu ni jina la fuko lake mwenyewe — fuko ambalo yeye na mpwa wake wanashiriki kupitia mama anayewaunganisha."
             }
           ],
           "dig": [
@@ -6239,6 +9591,50 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ela mjomba tajapotea. Ameshughulikiwa tsona. Kpwa jamii ya kisasa ya Adigo, mjomba bado anatoa mahari kpwa awa asio na ise. Bado anashikilia mamlaka ga kimaadili dzulu ya ana a lumbwe akpwe. Mwana wa Chidigo bado anamanya mjomba wakpwe, bado anamtembelera, bado anaheshimu ushauri wakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda usemi mkulu zaidi wa mamlaka ga mjomba urikala jukumu rakpwe kpwa mazungumzo ga ndoa. Kpwa jamii nyinji za Adigo, mjomba — si ise — ndiye ariye shikilia uwezo wa kumutoa mwawa wakpwe kpwa ndoa. Mazungumzo ga mahari garimuhusisha mjomba dza uphande mkulu. Idhini ya mjomba irihitajika ndoa iendelee. Na ndoa iriphoshindwa, mjomba ndiye ariyesimamia taratibu za talaka na kuhakikisha kukala masharti garikala ga haki kpwa mwawa wakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hiri riraunda mienendo ya chipekee kpwa ndoa ya Adigo. Mchumba tahitajire tu kumridhisha ise wa bibi arusi. Arihitaji kumridhisha mjomba wakpwe — mutu ariyemumanya bibi arusi hangu kuzalwa, ariyeshikilia maslahi ga fuko rakpwe moyoni, na ambaye angesala na jukumu ra ustawi wakpwe hata bada ya ndoa. Ushiriki wa mjomba urimanisha kukala muchetu wa Chidigo ariyeingira ndoa arikala na mtetezi wa chilume mwenye nguvu ambaye uaminifu wakpwe urikala kpwa uphande wakpwe wa nine, si kpwa familia ya bwana arusi."
+            },
+            {
+              "type": "heading",
+              "text": "Mazungumzo ga Ise na Mjomba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kahi ya ise wa mwana na mjomba wao taurikala lazima wa uadui, ela urikala wa changamoto kpwa asili. Ise aririsha, aripanga makalo, na arimrera mwana chila siku. Mjomba arishikilia mamlaka ga mwisho dzulu ya ndoa ya mwana, urithi, na utambulisho wa ukoo. Alume osi airi arikala na madai halali dzulu ya uaminifu na utiifu wa mwana. Uwezekano wa lungo urikala umedzengwa ndani ya muundo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa vitendo, familia nyinji ziripitshia uwili huu kupitshi mazungumzo na heshima ya pande zosi. Mamlaka ga ise garitambuliwa kpwa eneo ra nyumbani. Mamlaka ga mjomba garitambuliwa kpwa masuala ga umuhimu wa ukoo. Ela maeneo mairi gariphogongana — ise ariphohenda mwana wakpwe alole mutu mmwenga na mjomba achipenda mwingine, au urithi uriphobishaniwa — suluhisho riritegema heshima, utajiri, na uwezo wa kushawishi wa alume hano airi, phamwenga na nguvu ya chimila cha uphande wa nine kpwa jamii yao mahususi."
+            },
+            {
+              "type": "heading",
+              "text": "Chiislamu na Kupanda kpwa Ise"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufika na kuenea kwa Chiislamu kahi ya Adigo kuandza karne ya kumi na saba na kuenderera kurarehera muundo shindani wa mamlaka ya ise. Sheria ya familia ya Chiislamu inaika ise kahi-kahi ya muundo wa familia. Mamlaka ga ise dzulu ya ana akpwe ni kamili kpwa masuala ga ndoa, urithi, na elimu ya kidini. Mjomba tauna nafasi rasmi kpwa mfumo wa kisheria wa Chiislamu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupitshi Chiislamu na mageuzi ga kisheria ga chikoloni, ise pore-pore arizingatia kazi nyinji za jadi za mjomba. Aise ariandza kujadiliana ndoa za ana ao enye. Sheria ya urithi wa Chiislamu irielekeza mali kpwa ana badala ya ana a alumbwe. Mamlaka rasmi ambago hapo kpwandza garikala kpwa mjomba garihamia — pore-pore, kpwa njira isiyo sawa, na kamwe si kabisa — kpwa ise."
+            },
+            {
+              "type": "heading",
+              "text": "Mjomba Anasala Utu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela mjomba tajapotea. Ameshughulikiwa tsona. Kpwa jamii ya kisasa ya Adigo, mjomba bado anatoa mahari kpwa awa asio na ise — kazi ambayo taphana mutu mwingine ariyeingilia kuijaza. Mjomba bado anashikilia mamlaka ga kimaadili dzulu ya ana a lumbwe akpwe, hata phatu mamlaka gakpwe ga kisheria gamezidiwa ni ga ise. Mwana wa Chidigo bado anamanya mjomba wakpwe, bado anamtembelera, bado anaheshimu ushauri wakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jukumu ra mjomba rimepungua kula mamlaka kamili ya mfumo wa jadi kuphiya kazi maalum zaidi: iye ni mrinzi wa uhusiano wa uphande wa nine, mwakilishi hai wa fuko kpwa maisha ga mwana. Anaweza asisimamiire tsena ndoa ya mwawa wakpwe. Ela bado ni mutu ambaye mwawa wakpwe anaelekea kpwakpwe swali rinaphotokea: *\"Wa atu ani?\"* Mjomba anamanya jibu, kpwa sababu jibu ni dzina ra fuko rakpwe mwenye — fuko amabro iye na mwawa wakpwe anashiriki kupitshi nine anayeaunganisha."
             }
           ]
         }
@@ -6439,6 +9835,66 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kuzaliwa kwa Wadigo wa kisasa kunafanyika zaidi katika hospitali. Sherehe za kupewa jina zinaweza kuwa rahisi zaidi kuliko zamani. Lakini msingi wa desturi hizi unaendelea. Watoto bado wanabarikiwa na mganga na imamu. Majina bado yanachaguliwa kwa uangalifu. Aqeeqa bado inafanywa. Na imani ya msingi kwamba kufika kwa mtoto ni tukio la kijamii — si utaratibu wa kibinafsi wa hospitali — inabaki hai katika maisha ya Wadigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya kumpa jina inajumuisha baraka kutoka kwa wazee wa jamii. Katika familia zingine, wazee hunyunyiza maji au tembo ya jadi kama baraka juu ya mtoto. Mtoto mchanga anaweza kupokea shanga za ziada za kinga au kikuku — tabaka lingine la silaha ya kiroho kwa safari iliyoko mbele. Maombi yanatolewa kwa afya ya mtoto, ustawi, na mustakabali, yakisemwa na sauti zinazobeba uzito wa umri na uzoefu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Baraka hizi ni matendo ya jamii. Mtoto habarikiwi na mtu mmoja bali na jamii iliyokusanyika, kila mzee akiongeza sauti yake na mamlaka yake kwenye maombi. Ujumbe uko wazi: mtoto huyu si wa wazazi wake peke yao. Ni wa jamii, na jamii inakubali wajibu wa ustawi wake."
+            },
+            {
+              "type": "heading",
+              "text": "Uzito wa Hasara"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wadigo pia wana mazoea mahususi kwa kuzaliwa kwa huzuni zaidi — kule kunakokamilika kwa kifo. Desturi hizi zinaonyesha jinsi jamii inavyofikiria kwa undani kuhusu mpaka kati ya walio hai na wafu, na jinsi wanavyowahudumia kwa uangalifu wale wanaovuka mapema sana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Watoto wanaozaliwa wakiwa wamekufa huzikwa karibu na vyanzo vya maji. Hii si ya bahati nasibu. Maji, katika mandhari ya kiroho ya Wadigo, ni mahali pa kupita na kufanywa upya, na mtoto aliyezaliwa akiwa amekufa — aliyefika kwenye kizingiti cha maisha lakini hakukivuka — anarudishwa mahali pa kuvuka. Watoto wachanga walionyonya, walioionja maziwa ya mama yao na kuanza kazi ya kuishi, huzikwa kwenye kizingiti cha mlango wa mzazi. Wanabaki karibu na nyumba waliyoijua kwa muda mfupi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desturi ya kusikitisha zaidi inahusu wanawake wajawazito wanaokufa kabla ya kujifungua. Kijusi kinaondolewa na kuwekwa juu ya kifua cha mama kwa mazishi. Mama na mtoto ambaye hajazaliwa hawagatanishwi, hata katika kifo. Wanazikwa pamoja, mtoto akipumzika juu ya mwili uliyojaribu kumleta ulimwenguni. Mazoea haya yanazungumza juu ya upole unaoenea zaidi ya mfumo wowote wa kitheolojia — ni tu kile ambacho upendo unahitaji wakati jambo baya zaidi limetokea."
+            },
+            {
+              "type": "heading",
+              "text": "Udhaifu wa Kiroho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyuma ya mazoea yote haya ya kuzaliwa kuna uelewa wa Wadigo wa udhaifu wa kiroho. Mtoto mchanga bado hajalindwa kikamilifu. Mpaka kati ya ulimwengu unaoonekana na ulimwengu usioonekana ni mwembamba karibu na maisha mapya, na nguvu mbaya — roho mbaya, jicho baya, wivu wa wengine — zinaweza kufikia kupitia uwembamba huo kudhuru mtoto. Kila hatua ya kinga, kutoka shanga za mganga hadi maombi ya imamu hadi kipindi cha kujitenga ndani ya nyumba, inashughulikia udhaifu huu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si mtazamo wa ulimwengu ambao usasa umeubadilisha kabisa. Hata familia zinazozalisha watoto wao hospitalini bado zinaweza kumwita mganga na imamu baadaye. Hata wazazi wenye elimu ya chuo kikuu bado wanaweza kufunga shanga za kinga kwenye mkono wa mtoto wao mchanga. Mazoea yanabadilika, lakini imani ya msingi — kwamba maisha mapya ni matakatifu, dhaifu, na yanahitaji kila kinga ambayo jamii inaweza kutoa — inaendelea."
+            },
+            {
+              "type": "heading",
+              "text": "Siku Arobaini za Kwanza"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kipindi kinachofuata kuzaliwa, kilichoenea hadi siku arobaini, kinatambuliwa kama wakati wa utunzaji maalum kwa mama na mtoto. Mama anachukuliwa kuwa katika hali ya kupona na mpito wa kiroho. Anaweza kufuata mazoea mahususi ya lishe, kupumzika chini ya utunzaji wa ndugu wa kike, na polepole kuanza tena shughuli zake za kawaida kadri nguvu zake zinavyorudi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati wa kipindi hiki, umakini wa jamii kwa familia mpya unaendelea na ni wa vitendo. Majirani wanaleta chakula. Ndugu wanasaidia na kazi za nyumbani. Baba, ingawa ni muhimu kwa maisha ya familia, mara nyingi anakubali mamlaka ya wanawake wakubwa wakati huu — hii ni eneo lao, na utaalamu wao haulizwi maswali."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachoendelea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuzaliwa kwa Wadigo wa kisasa kunazidi kutokea hospitalini na kliniki, kukihudumiwa na wataalamu wa matibabu waliofunzwa badala ya wakunga wa jadi. Sherehe za kumpa jina zinaweza kuwa mambo rahisi zaidi kuliko zilivyokuwa zamani. Kipindi cha siku arobaini cha mama kujitenga kimefupishwa katika familia nyingi, kikishinikizwa na mahitaji ya kazi na maisha ya mjini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini kiini cha mazoea haya kinaendelea. Watoto bado wanabarikiwa na mganga na imamu katika familia nyingi. Majina bado yanachaguliwa kwa uangalifu na maana. Aqeeqa bado inazingatiwa, mbuzi bado wanachinjwa, nyama bado inagawanywa. Na imani ya msingi kwamba kuwasili kwa mtoto ni tukio la jamii — si utaratibu wa kibinafsi wa kimatibabu bali wakati ambapo jamii yote inakusanyika kukaribisha, kulinda, na kumiliki mwanachama mpya zaidi — inabaki hai katika maisha ya Wadigo. Mzingo wa wanawake unaweza kuwa umehamia kutoka chumba cha kuzaliwa hadi eneo la kusubiri hospitalini, lakini haujavunjika."
             }
           ],
           "dig": [
@@ -6493,6 +9949,66 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kuvyalwa kpwa Adigo wa vivi sambi kunahendeka zaidi kpwa hospitali. Sherehe za kuphewe dzina zinaweza kukala rahisi zaidi kuriko zamani. Ela msingi wa desturi zino unaenderera. Ana bado anabarikirwa ni mganga na imamu. Madzina bado ganachagulwa kpwa uangalifu. Aqeeqa bado inahendwa. Na imani ya msingi kpwamba kufika kpwa mwana ni chitu cha jamii — si utaratibu wa chipeke-peke wa hospitali — inabaki hai kpwa maisha ga Adigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya kupha dzina inajumuisha baraka kula kpwa akare a jamii. Kpwenye nyumba zengine, akare anamimina madzi au tembo ya kare kama baraka dzulu ya mwana. Mwana mudide anaweza kuphokera ushanga wa ziada wa chirindzi au chikuku — tabaka ringine ra silaha ya chiroho kpwa safari iriyoko mbere. Maombi ganatoewa kpwa afya ya mwana, ustawi, na mustakabali, gakigombwa ni sauti zinazotsukula uzito wa umri na uzoefu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Baraka zino ni matendo ga jamii. Mwana tabarikiwi ni mutu mmwenga ela ni jamii iriyokusanyika, chila mkare akiongeza sauti yakpwe na mamlaka gakpwe kpwenye maombi. Ujumbe u phahala pa kuonekana: mwana huno si wa avyazi akpwe bahi. Ni wa jamii, na jamii inakubali wajibu wa ustawi wakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Uzito wa Kuphoteya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo pia ana mazoea mahususi kpwa kuzaliwa kpwa huzuni zaidi — kura kunakokamilika ni chifo. Desturi zino zinaonyesa jinsi jamii inavyofikiria kpwa undani kuhusu mphaka kahi ya ario hai na ariofariki, na jinsi wanavyoahudumia kpwa uangalifu rao anaouvuka mapho sana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ana anaozaliwa akikala amekufa anazikwa phephi na vyanzo vya madzi. Hino si ya bahati nasibu. Madzi, kpwenye mandhari ya chiroho ya Adigo, ni phatu pha kupita na kufanywa uphya, na mwana ariyezaliwa akikala amekufa — ariyefika kpwenye chizingiti cha maisha ela takuchivuka — anauyishwa phatu pha kuvuka. Ana adide arionyonya, arioyaonja maziva ga mayo yao na kuandza kazi ya kuishi, anazikwa kpwenye chizingiti cha mryango wa mvyazi. Anasala phephi na nyumba ariyoimanya kpwa wakati mfupi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desturi ya kusikitisha zaidi inahusu achetu enye mimba anaokufa kabila ya kudzivugula. Chijusi chinaondolewa na kuikpwa dzulu ya chifuwa cha mayo kpwa mazishi. Mayo na mwana ambaye kadzangwe azaliwa tagatenganishwa, hata kpwenye chifo. Anazikwa phamwenga, mwana akiphumzika dzulu ya mwiri uriojeza kumureha ulimwenguni. Mazoea gano ganagomba kuhusu upole unaoenea zaidi ya mfumo wowosi wa chitheolojia — ni bahi chira ambacho mahaba ganahitadzi wakati dzambo baya zaidi rimetokea."
+            },
+            {
+              "type": "heading",
+              "text": "Udhaifu wa Chiroho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyuma ya mazoea gano gosi ga kuzaliwa kuna uelewa wa Adigo wa udhaifu wa chiroho. Mwana mudide bado kadzangwe alindwe kikamilifu. Mphaka kahi ya ulimwengu unaoonekana na ulimwengu usioonekana u mwembamba phephi na maisha maphya, na nguvu mbaya — roho mbaya, dzitso baya, wivu wa angine — zinaweza kufikiya kupitira uwembamba huo kudhuru mwana. Chila hatua ya chirindzi, kula ushanga wa mganga hadi maombi ga imamu hadi chipindi cha kudzitenga ndani ya nyumba, inashughulikia udhaifu huno."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hino si mtazamo wa ulimwengu ambao usasa umeubadilisha kabisa. Hata nyumba zinazozalisha ana ao hospitalini bado zinaweza kumwira mganga na imamu bada. Hata avyazi ario na elimu ya chuo kikulu bado anaweza kufunga ushanga wa chirindzi kpwenye mkono wa mwana wao mudide. Mazoea ganabadilika, ela imani ya msingi — kukala maisha maphya ni matakatifu, dhaifu, na ganahitadzi chila chirindzi ambacho jamii inaweza kupha — inaenderera."
+            },
+            {
+              "type": "heading",
+              "text": "Siku Mirongo Mine za Kpwandza"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chipindi chinachofuata kuzaliwa, chinachoenea hadi siku mirongo mine, chinatambuliwa kama wakati wa utunzaji maalum kpwa mayo na mwana. Mayo anachukuliwa kukala kpwenye hali ya kupona na mpito wa chiroho. Anaweza kufuata mazoea mahususi ga lishe, kuphumzika tsini ya utunzaji wa ndugu achetu, na pole-pole kuandza tsena shughuli zakpwe za kawaida wakati nguvu zakpwe zinauyira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati wa chipindi chino, umakini wa jamii kpwa nyumba mphya unaenderera na ni wa vitendo. Ajirani anareha chakurya. Ndugu anasaidiya na kazi za nyumbani. Baba, ingawhe ni muhimu kpwa maisha ga nyumba, mara nyinji anakubali mamlaka ga achetu akulu wakati huno — hino ni seemu yao, na utaalamu wao taulizwi maswali."
+            },
+            {
+              "type": "heading",
+              "text": "Chira Chinachoenderera"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuzaliwa kpwa Adigo a sambi kunazidi kutokea hospitalini na kliniki, kukihudumiwa ni ataalamu a matibabu ariofundzwa badala ya akunga a kare. Sherehe za kupha dzina zinaweza kukala mambo rahisi zaidi kuriko zirivyokala kare. Chipindi cha siku mirongo mine cha mayo kudzitenga chimefuphishwa kpwenye nyumba nyinji, chikishinikizwa ni mahitadzi ga kazi na maisha ga mudzini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela chiini cha mazoea gano chinaenderera. Ana bado anabarikiwa ni mganga na imamu kpwenye nyumba nyinji. Madzina bado ganachaguliwa kpwa uangalifu na mana. Aqeeqa bado inazingatiwa, mbuzi bado anachinjwa, nyama bado inagawanywa. Na imani ya msingi kukala kufika kpwa mwana ni tukio ra jamii — si utaratibu wa chibinafsi wa chimatibabu ela wakati ambapho jamii yosi inakusanyika kukaribisha, kulinda, na kumiriiki mwanachama muphya zaidi — inasala hai kpwenye maisha ga Adigo. Mzingo wa achetu unaweza kukala umehamira kula chumba cha kuzaliwa hadi seemu ya kusubiri hospitalini, ela tauvundzike."
             }
           ]
         }
@@ -6680,6 +10196,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Changamoto kwa jamii ya Wadigo ni kama maana ya tohara inaweza kuishi baada ya kupoteza aina zake za jadi. Kama mvulana bado anaweza kuwa mwanaume, kwa maana kamili ya Kidigo, kupitia utaratibu wa hospitali unaochukua dakika ishirini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pia walijifunza ujuzi wa vitendo. Kulingana na enzi na jamii mahususi, hizi zingeweza kujumuisha maarifa ya kilimo, ufugaji, au ujuzi unaohitajika kwa biashara na ushirikiano wa kibiashara. Lakini msisitizo ulikuwa daima juu ya kuunda tabia — ukuzaji wa sifa ambazo Wadigo walizichukulia kuwa muhimu kwa uume. Mtu aliyepitia jando alitarajiwa kuwa tofauti na mvulana aliyeingia ndani yake. Si aliyetiwa alama kimwili tu, bali aliyebadilishwa ndani."
+            },
+            {
+              "type": "heading",
+              "text": "Kurejea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kipindi cha kujitenga kilimalizika kwa kurudi rasmi katika jamii. Hii ilikuwa wakati wa sherehe — mvulana aliyeondoka alikuwa anarudi kama kijana, akibeba hadhi mpya na majukumu mapya. Jamii ilikusanyika kukaribisha wanaoanzishwa kurudi, na kurudi huko kuliashiriwa na karamu, kuimba, na kutambuliwa hadharani kwa utambulisho mpya wa kila mvulana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuanzia hatua hii kuendelea, kijana aliyetahiriwa alishika nafasi tofauti katika jamii ya Wadigo. Sasa angeweza kutafuta ndoa. Angeweza kushiriki katika maamuzi ya jamii kwa njia ambazo zilikuwa zimefungwa kwake kama mtoto. Alikuwa wa kundi lake la umri, na kuwa kwake kulibeba heshima na wajibu. Wenzake wa umri wangekuwa washirika wake, mtandao wake wa msaada, na wenzi wake wa uwajibikaji kwa maisha yake yote."
+            },
+            {
+              "type": "heading",
+              "text": "Kifungo cha Kundi la Umri"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kifungo kati ya wenzake wa umri — wanaume waliotahiriwa pamoja — kilikuwa mojawapo ya vifungo vikali zaidi vya kijamii katika maisha ya Wadigo. Hawa hawakuwa marafiki au wafahamiana tu. Walikuwa ndugu wa wembe, wanaume walioshiriki uzoefu mkali zaidi wa maisha yao ya ujana na ambao wangebeba uzoefu huo wa pamoja kama alama ya kudumu ya utambulisho. Kundi dogo la rika liliendelea kupitia mfumo wa rika pamoja, hatimaye kufikia hadhi ya wazee kama kundi. Wenzake wa umri wa mtu walitarajiwa kusimama naye katika migogoro, kuchangia mahari yake, kumsaidia wakati wa shida, na kumshikilia katika viwango vya tabia ambavyo jamii ilitarajia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo huu uliunda mtandao wa mlalo wa mshikamano ambao ulikamilisha vifungo vya wima vya familia na ukoo. Mtu hakuwa wa ukoo wa baba yake tu bali pia wa kundi lake la umri, na ushirikiano wote uliunda maisha yake kwa njia za kina."
+            },
+            {
+              "type": "heading",
+              "text": "Tohara ya Kiislamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sambamba na jando ya jadi ilikuwa mazoea ya Kiislamu ya *khitan* — tohara kama wajibu wa kidini. Kwa familia za Wadigo Waislamu, tohara ilibeba umuhimu wa maradufu: ilikuwa rite ya kupitia jadi ya Wadigo na pia utimilifu wa mafundisho ya Kiislamu. Katika familia zingine, mila mbili ziliunganika bila mshono, huku jando ikijumuisha maombi na mafundisho ya Kiislamu pamoja na mafunzo ya jadi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika visa vingine, tohara ya Kiislamu ilifuata ratiba tofauti. Khitan kwa kawaida hufanywa mapema zaidi kuliko umri wa jadi wa Wadigo — wakati mwingine katika utoto mchanga au utoto wa mapema — ambayo ilimaanisha kwamba wavulana wengine walifika katika umri wa jando wakiwa tayari wametahiriwa. Katika hali kama hizo, vipengele vya sherehe na elimu vya jando vingeweza kuendelea, lakini kitendo cha kimwili chenyewe kilikuwa tayari kimekamilika."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ya Wakati Huu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mazoea ya jadi ya jando yamebadilika kwa kiasi kikubwa katika enzi ya kisasa. Tohara ya kimatibabu katika mazingira ya hospitali kwa kiasi kikubwa imechukua nafasi ya wembe wa jadi, na familia nyingi sasa zinachagua utaratibu ufanywe na wataalamu wa kimatibabu waliofunzwa katika mazingira ya kliniki. Faida za usalama na afya za njia hii ziko wazi, na familia chache zinapinga dhidi yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini kinachopatiwa katika usalama mara nyingi kimepotea katika maana. Wakati tohara inakuwa utaratibu wa kimatibabu — unaofanywa hospitalini, kwa ganzi, mbele ya madaktari badala ya wazee — usanifu wa sherehe uliokuwa unaizunguka unaanguka. Hakuna kujitenga, hakuna mafunzo, hakuna kuunganika kwa kundi la umri, hakuna sherehe ya jamii ya kurudi. Kitendo cha kimwili kinahifadhiwa, lakini vipengele vya kijamii na kiroho vilivyoifanya kuwa ibada ya kupitia badala ya upasuaji tu vinapungua."
+            },
+            {
+              "type": "paragraph",
+              "text": "Familia zingine zinafanya kazi kudumisha vipengele vya sherehe hata wakati tohara yenyewe ni ya kimatibabu. Wanaweza kushika mkutano kabla au baada ya utaratibu wa hospitali, kuwaalika wazee kutoa mafunzo na baraka, na kuashiria tukio hilo kwa karamu ya jamii na sherehe iliyokuwa inaandamana na ibada ya jadi. Marekebisho haya yanawakilisha juhudi ya kuheshimu maana ya jando hata wakati umbo lake linabadilika."
+            },
+            {
+              "type": "heading",
+              "text": "Kudhoofika kwa Rika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa makundi ya umri wenyewe umedhoofika chini ya shinikizo la usasa, ukuaji wa miji, na miundo ya kijamii inayobadilika. Katika maeneo ya mijini, vijana wachache wa Wadigo wanapitia kuingia rasmi katika kundi dogo la rika, na vifungo vya maisha vyote vya mshikamano wa kundi la umri vimebadilishwa na aina nyingine za uhusiano wa kijamii — urafiki wa shuleni, mitandao ya kitaalamu, jamii za kidini. Mfumo wa rika unaendelea kwa nguvu zaidi katika maeneo ya mashambani, lakini hata huko, nguvu yake ya kitaasisi imepungua."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si suala tu la desturi ya zamani kupotea. Mfumo wa rika ulihudumia kazi halisi za kijamii — uliunda mshikamano kuvuka mistari ya ukoo, ulitoa miundo ya msaada wa pamoja na uwajibikaji, na ulipa wanaume utambulisho wa pamoja uliokamilisha utambulisho wao binafsi na wa kifamilia. Kadri kazi hizi zinapopotea, hakuna kitu chenye kina sawa ambacho kimeibuka kukichukua nafasi."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachobaki"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tohara yenyewe inaendelea kama mazoea ya karibu ya kila mtu miongoni mwa wanaume wa Wadigo, ikisukumwa na mila ya kitamaduni na wajibu wa kidini wa Kiislamu. Kitendo cha kimwili kinaendelea. Kilichobadilika ni usanifu wa sherehe na kijamii uliokuwa unaizunguka — mila ya jando, kujitenga, mafundisho, kuunganika kwa kundi la umri, sherehe ya jamii. Vipengele hivi vinaendelea katika familia na jamii zingine, lakini si tena umbo la kutawala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto kwa jamii ya Wadigo, kama ilivyo na ibada nyingi za kupitia kwao, ni kama maana ya tohara inaweza kuishi kupotea kwa maumbo yake ya jadi. Kama mvulana bado anaweza kuwa mtu mzima, kwa maana kamili ya Wadigo, kupitia utaratibu wa hospitali unaochukua dakika ishirini na hauachi kovu kwenye kalenda. Kama thamani ambazo jando ilizipanda zamani — ujasiri, nidhamu ya kibinafsi, mshikamano, heshima — zinaweza kupata vyombo vipya kuzibeba katika maisha ya vijana wa Wadigo ambao kamwe hawatapitia kambi ya porini, mafunzo ya mzee, au kifungo cha mwenzake wa umri."
             }
           ],
           "dig": [
@@ -6726,6 +10322,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Changamoto kpwa jamii ya Adigo ni kama maana ya tohara inaweza kuishi bada ya kupoteza aina zakpwe za jadi. Kama mvulana bado anaweza kukala mulume, kpwa maana kamili ya Chidigo, kupitira utaratibu wa hospitali unaochukua dakika ishirini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pia aridzifundza ujuzi wa vitendo. Kulengana na wakati na jamii mahususi, hizi zingekala ni pamwenga na maarifa ga kilimo, ufugaji, au ujuzi unaohitadziwa kpwa biashara na ushirikiano wa chibiashara. Ela msisitizo urikala daima kpwenye kuunda tabia — ukuzaji wa sifa ambazo Adigo arizichukuliya kukala ni muhimu kpwa uulume. Mutu ariyepitira jando aritarajiwa kukala tofauti na mvulana ariyeingira ndani yakpwe. Si ariyeikpwa alama chimwiri bahi, ela ariyebadilishwa ndani."
+            },
+            {
+              "type": "heading",
+              "text": "Kuuya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chipindi cha kudzitenga chirimala na kuuya rasmi kpwenye jamii. Hino irikala wakati wa sherehe — mvulana ariyeuka arikala anauya kama mdide mulume, akitsukula hadhi mphya na wajibu muphya. Jamii irikukusanyika kukaribisha anaoanzishwa auye, na kuuya kuko kuriashiriwa ni karamu, kuimba, na kutambuliwa hadharani kpwa utambulisho muphya wa chila mvulana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kula hatua hino kuenderera, mdide mulume ariyetahiriwa arishika nafasi tofauti kpwenye jamii ya Adigo. Sambi angeweza kuendzera harusi. Angeweza kushiriki kpwenye maamuzi ga jamii kpwa njira ambazo zirikala zimefungwa kpwakpwe akikala mwana. Arikala wa kundi rakpwe ra umri, na kukala kwakpwe kurikala na heshima na wajibu. Enza akpwe a umri angekala washirika akpwe, mtandao wakpwe wa msaada, na enzi akpwe a uwajibikaji kpwa maisha gakpwe gosi."
+            },
+            {
+              "type": "heading",
+              "text": "Chifungo cha Rika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chifungo kahi ya enza a umri — alume ariotahiriwa phamwenga — chirikala mwenga wa vifungo vikali zaidi vya chijamii kpwenye maisha ga Adigo. Hawa taakala arafiki au afahamiana bahi. Arikala ndugu a wembe, alume arioshiriki uzoefu mkali zaidi wa maisha gao ga udide na ambao angetsukula uzoefu huo wa phamwenga kama alama ya kudumu ya utambulisho. Kundi dide ra rika rikaenderera kupitira mfumo wa rika phamwenga, hatimaye kufikiya hadhi ya ukare kama kundi. Enza a umri a mutu aritarajiwa kusimama naye kpwenye migogoro, kuchangia mahari yakpwe, kumsaidiya wakati wa shida, na kumshikilia kpwenye viwango vya tabia ambavyo jamii iritarajia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo huno uriunda mtandao wa mlalo wa mshikamano ambao urikamilisha vifungo vya wima vya nyumba na ukoo. Mutu tarikala wa ukoo wa baba yakpwe bahi ela pia wa kundi rakpwe ra umri, na ushirikiano wosi uriunda maisha gakpwe kpwa njira za chitsina."
+            },
+            {
+              "type": "heading",
+              "text": "Tohara ya Chiislamu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sambamba na jando ya kare irikala mazoea ga Chiislamu ga *khitan* — tohara kama wajibu wa chidini. Kpwa nyumba za Adigo Aislamu, tohara iritsukula umuhimu wa maradufu: irikala rite ya kupitira ya kare ya Adigo na pia utimilifu wa mafundzo ga Chiislamu. Kpwenye nyumba zengine, mila mbiri zikaungana bila mshono, na jando ikijumuisha maombi na mafundzo ga Chiislamu phamwenga na mafundzo ga kare."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwenye visa vingine, tohara ya Chiislamu irifuata ratiba tofauti. Khitan kpwa kawaida inafanywa mapho zaidi kuriko umri wa kare wa Adigo — wakati mwengine kpwenye utoto mudide au utoto wa mapho — ambayo iriamba kukala avulana angine arifika kpwenye umri wa jando akikala tayari ametahiriwa. Kpwenye hali dza hizo, vipengele vya sherehe na elimu vya jando vingeweza kuenderera, ela chitendo cha chimwiri chenyewe chirikala tayari chimekamilika."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ga Wakati Huno"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mazoea ga kare ga jando gamebadilika kpwa kiasi kikulu kpwenye enzi ya kisasa. Tohara ya chimatibabu kpwenye mazingira ga hospitali kpwa kiasi kikulu imetsukula nafasi ya wembe wa kare, na nyumba nyinji sambi zinachagua utaratibu ufanywe ni ataalamu a chimatibabu ariofundzwa kpwenye mazingira ga kliniki. Faida za usalama na afya za njira hino zi phahala pa kuonekana, na nyumba chache zinapinga dhidi yakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela chira chinachopatiwa kpwenye usalama mara nyinji chimephoteka kpwenye mana. Wakati tohara inakukala utaratibu wa chimatibabu — unaofanywa hospitalini, na ganzi, mbere ya madaktari badala ya akare — usanifu wa sherehe uriokuwa unaizunguka unaanguka. Takuna kudzitenga, takuna mafundzo, takuna kuunganika kpwa rika, takuna sherehe ya jamii ya kuuya. Chitendo cha chimwiri chinahifadhiwa, ela vipengele vya chijamii na chiroho virivyoifanya kukala ibada ya kupitira badala ya upasuaji bahi vinapunguka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyumba zengine zinafanya kazi kudumisha vipengele vya sherehe hata wakati tohara yenyewe ni ya chimatibabu. Anaweza kushika mkutano kabila au bada ya utaratibu wa hospitali, kuariki akare aaphe mafundzo na baraka, na kuashiria tukio riro na karamu ya jamii na sherehe iriyokuwa inaandamana na ibada ya kare. Marekebisho gano ganawakilisha juhudi ya kuheshimu mana ya jando hata wakati umbo rakpwe rinabadilika."
+            },
+            {
+              "type": "heading",
+              "text": "Kudhoofika kpwa Rika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa makundi ga umri wenyewe umedhoofika tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayobadilika. Kpwenye seemu za midzini, adide alume a Adigo achache anapitira kuingia rasmi kpwenye kundi dide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vimebadilishwa ni aina zingine za uhusiano wa chijamii — urafiki wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata kuko, nguvu yakpwe ya chitaasisi imephunguka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hino si suala bahi ra desturi ya kare kuphoteka. Mfumo wa rika urishughulikiya kazi za kpweli za chijamii — uriunda mshikamano kuvuka mistari ya ukoo, uripha miundo ya msaada wa phamwenga na uwajibikaji, na uripha alume utambulisho wa phamwenga uriokamilisha utambulisho wao wa chibinafsi na wa chinyumba. Wakati kazi zino zinapopotea, takuna chitu chenye chitsina sawa ambacho chimeibuka kukitsukula nafasi."
+            },
+            {
+              "type": "heading",
+              "text": "Chira Chinachosala"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tohara yenyewe inaenderera kama mazoea ga kama chila mutu miongoni mwa alume a Adigo, ikisukumwa ni mila ya chitamaduni na wajibu wa chidini wa Chiislamu. Chitendo cha chimwiri chinaenderera. Chirichobadilika ni usanifu wa sherehe na chijamii uriokuwa unaizunguka — mila ya jando, kudzitenga, mafundzo, kuunganika kpwa rika, sherehe ya jamii. Vipengele hivi vinaenderera kpwenye nyumba zengine na jamii zengine, ela si tsena umbo ra kutawala."
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto kpwa jamii ya Adigo, kama irivyo na ibada nyinji za kupitira kwao, ni kama mana ya tohara inaweza kuishi kuphoteka kpwa maumbo gakpwe ga kare. Kama mvulana bado anaweza kukala mutu mukulu, kpwa mana kamili ya Chidigo, kupitira utaratibu wa hospitali unaatsukula dakika mirongo miiri na tauricha kovu kpwenye kalenda. Kama thamani ambazo jando irizipanda kare — ujasiri, nidhamu ya chibinafsi, mshikamano, heshima — zinaweza kupata vyombo viphya kuzitsukula kpwenye maisha ga adide alume a Adigo ambao katu taandapitira kambi ya tsaka, mafundzo ga mkare, au chifungo cha mwenza wa umri."
             }
           ]
         }
@@ -6953,6 +10629,110 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Labda kipengele muhimu zaidi cha desturi za kifo za Wadigo ni kile zinachofunua kuhusu kujielewa kwa jamii. Kifo si tukio la kibinafsi. Ni wajibu wa kijamii. Mtu anapokufa, jamii inatarajiwa kujibu — kutembelea, kuleta chakula, kuomba, kuomboleza, kusaidia. Jina la marehemu na matendo yake yanasomwa na kuheshimiwa katika dua za ukumbusho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si desturi tu. Inaonyesha uelewa wa vitendo kwamba kifo cha mwenza ni miongoni mwa matukio yanayovuruga zaidi maishani mwa mtu, na kwamba mjane anahitaji muda, nafasi, na msaada wa jamii ili kupitia mpito kutoka mke hadi mjane — mpito ambao huathiri si maisha yake ya kihisia tu bali pia hadhi yake ya kijamii, hali yake ya kiuchumi, na uhusiano wake na familia ya mumewe."
+            },
+            {
+              "type": "heading",
+              "text": "Mazishi Kulingana na Hadhi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa desturi za mazishi za Kiislamu zinawatendea wafu wote kwa usawa kimsingi, mila za jadi za Kidigo zinaingiza tofauti kulingana na hadhi ya kijamii ya marehemu. Tofauti hizi zinafichua tabaka la zamani la desturi za kifo zilizotangulia Uislamu ambazo zinaendelea kuathiri jinsi baadhi ya familia zinavyoshughulikia wafu wao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wazee wa *Gohu* — wanachama wa chama chenye nguvu zaidi cha jadi — hupokea mazishi yenye heshima maalum. Miili yao inaweza kufungwa kwa ngozi za wanyama badala ya kitambaa rahisi cheupe, na wanaweza kuwekwa katika masanduku ya mbao badala ya kuzikwa moja kwa moja ardhini. Waombolezaji wa kitaalamu wanaweza kuajiriwa kuashiria umuhimu wa kifo hicho. Tofauti hizi zinatambua maisha yote ya huduma na mamlaka ya mzee, zikiheshimu katika kifo hadhi aliyoishikilia maishani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wanajamii wa kawaida hupokea alama fupi za ukumbusho — *koma* — katika makaburi yao. Alama hizi hutumika kama sehemu halisi za ukumbusho, mahali ambapo walio hai wanaweza kurudi kuheshimu wafu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wazee wa *Kaya* — wale walioshikilia mamlaka ndani ya misitu takatifu — wanaweza kuzikwa ndani au karibu na kaya yenyewe. Hii ni heshima ya hali ya juu zaidi, ikirudisha mwili wa mzee mahali paliposhikilia umuhimu mkubwa wa kiroho wa jamii. Kuzikwa katika kaya ni kuwa sehemu ya jiografia takatifu, kujiunga na mababu wanaoishi mahali hapo na ambao uwepo wao unaipa kaya nguvu yake."
+            },
+            {
+              "type": "heading",
+              "text": "Kifo kwa Ukatili"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wadigo wana desturi maalum kwa vifo vinavyotokea kupitia ukatili. Mtu aliyeuawa kwa ukatili huzikwa mahali alipoanguka — mahali alipopigwa na kuuawa. Hii si uzembe. Ni utambuzi kwamba kifo cha ukatili kina uzito wake wa kiroho, na kwamba mahali pa kifo pameashiriwa na tukio kwa njia ambazo haziwezi kutendulishwa kwa kuhamisha mwili mahali pengine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Familia ya mtu anayekufa kwa ukatili hupitia dhabihu ya utakaso — utakaso wa kitamaduni unaoshughulikia uchafuzi wa kiroho wa kifo cha ukatili. Desturi hii inaonyesha uelewa wa Kidigo kwamba ukatili unavuruga mpangilio wa kiroho, na kwamba uvurugaji huo lazima ushughulikiwe kupitia matendo ya kitamaduni, si tu kuvumiliwa."
+            },
+            {
+              "type": "heading",
+              "text": "Kifo cha Mganga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mganga wa jadi anapokufa, jamii huadhimisha kipindi cha kawaida cha maombolezo cha siku arobaini lakini huongeza kipengele cha pekee mwishoni mwake. Baada ya siku arobaini kupita, wazee wa jamii hukusanyika na kucheza usiku kucha — kesha la mwendo na muziki linaloheshimu maisha ya mganga na kuandaa jamii kwa uchaguzi wa mrithi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ngoma ya usiku kucha ni maombolezo na mpito kwa wakati mmoja. Inaashiria mwisho wa kipindi cha maombolezo na mwanzo wa mchakato ambao jamii itatambua na kusimika mganga mpya. Maarifa na mamlaka ya kiroho ya mganga hayafi pamoja naye — lazima yapitishwe, na jamii inachukua jukumu la kuhakikisha kwamba upitishaji huu unafanyika. Ngoma ni daraja kati ya hasara na upya."
+            },
+            {
+              "type": "heading",
+              "text": "Vifo vya Watoto"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wadigo wana desturi maalum za mazishi kwa watoto, zinazotofautishwa kwa umri wa mtoto na uhusiano wake na ulimwengu wa walio hai. Kama ilivyo na desturi za kuzaliwa, mila hizi zinaonyesha jinsi Wadigo wanavyofikiri kwa makini kuhusu mpaka kati ya kuwepo na kutokuwepo, na jinsi wanavyowahudumia kwa upole wale wanaovuka mpaka huo kwa upande wowote."
+            },
+            {
+              "type": "paragraph",
+              "text": "Watoto waliozaliwa wakiwa wamekufa — wale waliofika kwenye kizingiti cha uhai lakini hawakukivuka — huzikwa karibu na vyanzo vya maji, mahali pa kupitia na upya katika mandhari ya kiroho ya Kidigo. Watoto wachanga walionyonya — walioionja maziwa ya mama yao na kuanza kazi ya kuishi — huzikwa kwenye kizingiti cha mlango wa wazazi, wakiwekwa karibu na nyumba waliyoijua kwa muda mfupi. Tofauti hizi si za kiholela. Zinaonyesha uelewa wa hatua kwa hatua wa jinsi mtoto alivyoingia ulimwenguni kikamilifu, na zinahakikisha kwamba mazishi yanatambua asili maalum ya kila hasara."
+            },
+            {
+              "type": "heading",
+              "text": "Mwendo wa Goma na Sengenya ya Mazishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kifo miongoni mwa Wadigo hakishughulikiwa kwa ukimya. *Sengenya* — ngoma kuu ya sherehe ya Kidigo — inachukua umbo maalum katika mazishi, mienendo yake na nyimbo zake zikibadilishwa kubeba uzito wa huzuni na ujumbe wa walio hai kwa wafu. Mwendo wa *goma* katika mazishi una madhumuni maalum: unafahamika kama njia ya kulisha mababu, ya kuwasiliana na wafu, ya kudumisha uhusiano kati ya ulimwengu wa walio hai na ulimwengu wa wale waliotangulia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sengenya ya mazishi si burudani. Ni mawasiliano — mazungumzo yanayofanywa kupitia mdundo, mwendo, na wimbo kati ya jamii ya walio hai na ulimwengu wa mababu. Ngoma zinazungumza. Wachezaji wanasogea. Nyimbo zinabeba ujumbe wa huzuni, wa heshima, wa kuagana, na wa uhusiano unaoendelea kati ya wafu na walio hai. Katika mwendo wa goma, jamii inatekeleza imani yake kwamba kifo si kukatika bali mabadiliko — kwamba wafu hawajapotea bali wamehamia mahali ambapo bado wanaweza kusikia, bado kupokea, bado kuathiri maisha ya wale waliowaacha nyuma."
+            },
+            {
+              "type": "heading",
+              "text": "Swali la Vigango"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miongoni mwa jamii nyingi za Mijikenda, *vigango* — nguzo ndefu za mbao za ukumbusho zilizochongwa kwa umbo la kibinadamu — husimamishwa kuheshimu watu muhimu waliokufa. Miongoni mwa Wadigo walioislamu, hata hivyo, desturi hii kwa ujumla haifanyiki. Marufuku ya Kiislamu dhidi ya sanamu za uwakilishi kwa kiasi kikubwa imeikandamiza mila ya vigango miongoni mwa Wadigo, ambao wameyapokea mafundisho ya Kiislamu kwa undani zaidi kuliko baadhi ya majirani wao wa Mijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini wasomi wanaona kwamba hii si picha kamili. \"Uhusiano na mila za jadi kama vile uhuishaji na ibada ya mababu bado una ushawishi mkubwa zaidi kwa jamii ya Wadigo kuliko Uislamu,\" mtafiti mmoja anaona. Wadigo wengi wenye umri wa zaidi ya miaka arobaini wanafanya kile wasomi wanachokielezea kama \"Uislamu wa kienyeji\" — aina ya imani inayojumuisha heshima kwa mababu, desturi za uponyaji wa jadi, na imani za kiroho zilizotangulia Uislamu pamoja na ibada rasmi ya Kiislamu. Desturi za kifo ni mojawapo ya maeneo ambapo tabaka hili linaonekana zaidi — ibada za mazishi za Kiislamu juu ya uso, ufahamu wa mababu ukiendelea chini."
+            },
+            {
+              "type": "heading",
+              "text": "Wajibu wa Jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda kipengele muhimu zaidi cha desturi za kifo za Kidigo ni kile zinachofichua kuhusu uelewa wa jamii kuhusu yenyewe. Kifo si tukio la faragha. Ni wajibu wa jamii. Mtu anapokufa, jamii inatarajiwa kuitikia — kutembelea, kuleta chakula, kuomba, kuomboleza, kusaidia. Matarajio haya si ya hiari. Mtu anayeshindwa kuhudhuria mazishi ya jirani, ambaye haleti chakula kwa familia iliyofiwa, ambaye hatoi dua kwa marehemu — mtu kama huyo ameshindwa katika wajibu wake wa msingi wa kijamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wajibu huu unaenea zaidi ya kipindi cha maombolezo ya mwanzo. Jina na matendo ya marehemu hukaririwa na kuheshimiwa katika sala za ukumbusho. Familia inaendelea kupokea ziara na msaada. Kumbukumbu ya jamii kuhusu wafu inadumishwa kikamilifu, si kupitia makaburi au rekodi zilizoandikwa bali kupitia neno linalosemwa — kupitia majina yanayorudiwa, hadithi zinazosemwa, dua zinazotolewa siku saba, siku arobaini, na kila maadhimisho baada ya hapo."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachofichuka Kupitia Kifo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwishowe, jinsi jamii inavyoshughulikia kifo inafichua kile inachoamini kwa undani zaidi kuhusu maisha. Desturi za Wadigo — mazishi ya haraka, ulishaji wa pamoja, maombolezo ya siku arobaini, dua, sengenya, goma, uangalifu wa makini kuhusu jinsi na mahali wanachama tofauti wanavyozikwa — zinafichua jamii inayoamini kwamba hakuna mtu aliye peke yake kweli kweli. Kwamba mpaka kati ya walio hai na wafu si ukuta bali ni utando. Kwamba wajibu wa jamii hauishii kaburini. Na kwamba kila uhai wa binadamu, tangu pumzi yake ya kwanza hadi ya mwisho na zaidi, si wa mtu binafsi peke yake bali wa watu waliokusanyika kuukaribisha, kuulea, kusherehekea mipito yake, na hatimaye, kuubeba hadi nyumbani."
             }
           ],
           "dig": [
@@ -7011,6 +10791,106 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kpwa mwisho, njira ambayo jamii inashughulikia chifo inafunula chicho inachoamini zaidi kuhusu maisha. Desturi za Adigo zinafunula jamii inayoamini kpwamba tapho mutu ariye macheye kpwa kpweli. Kpwamba mpaka kahi ya ario hai na afwe si ukuta ela ni ngozi nyembamba. Kpwamba wajibu wa jamii tausire kpwa kaburi. Na kpwamba chila maisha ga mutu, kula kpwa pumzi yakpwe ya kpwandza hadi ya mwisho na zaidi, ganakala si ga mutu macheye ela ga atu ario kusanyika kumkaribisha, kumlea, kusherehekea mabadiliko gakpwe, na hatimaye, kumphirika kaya."
+            },
+            {
+              "type": "heading",
+              "text": "Mazishi kpwa Kulandana na Hadhi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa mila za mazishi za Chiislamu zinaatendera afu osi kpwa usawa, mila za chizamani za Chidigo zinaingiza tofauti kpwa kulandana na hadhi ya mufu kpwenye jamii. Tofauti hizi zinaonyesa tabaka ra kare ra mila za chifo ambazo zatangulia Uislamu na ambazo zinaenderera kuathiri vira nyumba zingine zinavyoshughulikia afu ao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Akare a *Gohu* — atu a chama chenye nguvu zaidi cha chizamani — anaphokerera mazishi ga heshima maalum. Miri yao inaweza kufungbwa kpwa ngozi za nyama badala ya nguwo nyerupe rahisi, na anaweza kuikpwa kpwenye masanduku ga mbao badala ya kuzikpwa moja kpwa moja muhalani. Aombolezaji a kitaalamu anaweza kuajiriwa kuonyesa uzito wa chifo hicho. Tofauti hizi zinatambua maisha gosi ga huduma na uwezo wa mzee, zikiheshimu kpwenye chifo hadhi ariyoishikira maishani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Atu a kawaida a jamii anaphokerera alama fupi za ukumbusho — *koma* — kpwenye makaburi gao. Alama hizi zinahenderwa dza sehemu halisi za ukumbusho, mahali ambapo ario moyo anaweza kuuya kuheshimu afu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Akare a *Kaya* — atu arioishikira uwezo ndani ya matsaka matakatifu — anaweza kuzikpwa ndani au phephi na kaya yenyewe. Hii ni heshima ya hali ya dzulu zaidi, ikirudisha mwiri wa mzee kpwenye mahali pheriphoshikira umuhimu mkpwulu wa kiroho wa jamii. Kuzikpwa kpwenye kaya ni kukala sehemu ya jiografia takatifu, kuhangana na akareni anaoishi mahali hipho na ambao kukalapho kpwao kunaipha kaya nguvu yake."
+            },
+            {
+              "type": "heading",
+              "text": "Chifo kpwa Ukatili"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo ana mila maalum kpwa vifo vinavyohendeka kpwa ukatili. Mutu ariyeolagbwa kpwa ukatili anazikpwa mahali ariphoanguka — mahali ariphodumulwa. Hii siyo uzembe. Ni kutambua kukala chifo cha ukatili china uzito wakpwe wa kiroho, na kukala mahali pha chifo phameashiriwa ni ro dzambo kpwa njia ambazo taziweza kutendulishwa kpwa kuhamisha mwiri mahali phengine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyumba ya mutu anayefwa kpwa ukatili inapishira sadaka ya utakaso — utakaso wa chimila unaoshughulikia uchafuzi wa kiroho wa chifo cha ukatili. Mila hii inaonyesa uelewano wa Chidigo kukala ukatili unavundza mpangilio wa kiroho, na kukala uvundzaji uwo ni lazima ushughulikiwe kpwa matendo ga chimila, si kuvumiriwa tu."
+            },
+            {
+              "type": "heading",
+              "text": "Chifo cha Mganga"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Mganga* wa chimila anaphofa, jamii inaadhimisha chipindi cha kawaida cha maombolezo cha siku mirongo mine ela inaongeza chitu cha pekee mwishowe. Bada ya siku mirongo mine kupishira, akare a jamii anakusanyika na kuvina usiku kucha — kesha ra mwendo na muziki rinarodza heshima kpwa maisha ga mganga na kuandaa jamii kpwa uchaguzi wa mutu wa kutsirira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuvina kpwa usiku kucha ni maombolezo na mpito kpwa wakati mmwenga. Kunaashiria mwisho wa chipindi cha maombolezo na mwanzo wa njia ambayo jamii indatambua na kusimika mganga muphya. Maarifa na uwezo wa kiroho wa mganga tavifa phamwenga naye — ni lazima vipishirwe, na jamii inatsukula jukumu ra kuhakikisha kukala kupishira kukpwu kunahendeka. Kuvina ni daraja kahi ya hasara na mwanzo muphya."
+            },
+            {
+              "type": "heading",
+              "text": "Vifo vya Ana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo ana mila maalum za mazishi kpwa ana, zinazotofautishwa kpwa umiri wa mwana na uhusiano wakpwe na ulimwengu wa ario moyo. Dza virivyo na mila za kuvyalwa, mila hizi zinaonyesa vira Adigo anavyofikiri kpwa makini kuhusu mphaka kahi ya kuishi na kutokuishi, na vira anavyoashughulikira kpwa upole atu anaotsupa mphaka uwo kpwa upande wowosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ana ariozalwa akiwa akafwa — ario arifikira kpwenye kizingiti cha uhai ela taakitsupa — anazikpwa phephi na phatupho madzi, mahali pha kupishira na kuandzwa upya kpwenye mandhari ya kiroho ya Chidigo. Ana adide arionyonya — ariondzwa maziva ga nine yao na kuandza kazi ya kuishi — anazikpwa kpwenye kizingiti cha mryango wa azazi, akiikpwa phephi na nyumba ariyoimanya kpwa muda mfupi. Tofauti hizi si za kiholela. Zinaonyesa uelewano wa hatua kpwa hatua wa vira mwana arivyoindzira ulimwenguni, na zinahakikisha kukala mazishi ganatambua asili maalum ya kila hasara."
+            },
+            {
+              "type": "heading",
+              "text": "Mwendo wa Goma na Sengenya ya Mazishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chifo kahi ya Adigo tachishughulikiwa kpwa unyamala. *Sengenya* — ngoma kulu ya sherehe ya Chidigo — inatsukula umbo maalum kpwenye mazishi, mienendo yake na nyimbo zake zikibadilishwa kubeba uzito wa sonono na ujumbe wa ario moyo kpwa afu. Mwendo wa *goma* kpwenye mazishi una madhumuni maalum: unafahamika kukala ni njia ya kurisa akareni, ya kuongoza na afu, ya kudumisha uhusiano kahi ya ulimwengu wa ario moyo na ulimwengu wa ario atangulia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sengenya ya mazishi si burudani. Ni mawasiliano — mazungumzo ganagohendwa kpwa mdundo, mwendo, na wimbo kahi ya jamii ya ario moyo na ulimwengu wa akareni. Ngoma zinagomba. Avini anasogea. Nyimbo zinabeba ujumbe wa sonono, wa heshima, wa kuagana, na wa uhusiano unaoenderera kahi ya afu na ario moyo. Kpwenye mwendo wa goma, jamii inatekeleza imani yake kukala chifo si kukatika ela mabadiliko — kukala afu taapotere ela ahamire mahali ambapo bado anaweza kusikira, bado kuphokerera, bado kuathiri maisha ga ario arichire nyuma."
+            },
+            {
+              "type": "heading",
+              "text": "Swali ra Vigango"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahi ya jamii nyinji za Amijikenda, *vigango* — nguzo ndefu za mbao za ukumbusho zirizochongolwa kpwa umbo ra chibinadamu — zinasimamishwa kuheshimu atu muhimu ariofwa. Kahi ya Adigo arioislamu, ela, mila hii kpwa kawaida taihendeki. Marufuku ya Chiislamu dhidi ya sanamu za uwakilishi kpwa chipimo chikulu imekandamiza mila ya vigango kahi ya Adigo, ambao ameyaphokerera mafundzo ya Chiislamu kpwa undani zaidi kuriko majirani ao angine a Amijikenda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela wasomi anaona kukala hii si picha kamili. \"Uhusiano na mila za chizamani dza uhuishaji na kuabudu akareni bado una ushawishi mkpwulu zaidi kpwa jamii ya Adigo kuriko Uislamu,\" mtafiti mmwenga anaona. Adigo anji ario na umiri wa zaidi ya miaka mirongo mine anahenda chira wasomi anachokieleza kukala \"Uislamu wa kienyeji\" — aina ya imani inayojumuisha heshima kpwa akareni, mila za uganga wa chimila, na imani za kiroho zirizotangulia Uislamu phamwenga na ibada rasmi ya Chiislamu. Mila za chifo ni mojawapo ya sehemu ambazo tabaka hiri rinaonekana zaidi — ibada za mazishi za Chiislamu dzulu ya uso, ufahamu wa akareni ukienderera tsini."
+            },
+            {
+              "type": "heading",
+              "text": "Wajibu wa Jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofichua kuhusu uelewano wa jamii kuhusu yenyewe. Chifo si dzambo ra faragha. Ni wajibu wa jamii. Mutu anaphofa, jamii inatarajiwa kuitikia — kutembelera, kurehera chakurya, kuvoyo, kuomboleza, kusaidia. Mataradzio higa si ga hiari. Mutu anayeshindwa kuhudhuria mazishi ga jirani, ambaye karehera chakurya kpwa nyumba iriyofiwa, ambaye kavoyo kpwa mufu — mutu dza uyu akashindwa kpwenye wajibu wakpwe wa msingi wa kijamii."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ya mwandzo. Dzina na matendo ga mufu ganakaririwa na kuheshimiwa kpwenye mavoyo ga ukumbusho. Nyumba inaenderera kuphokerera vitemberero na msada. Kumbukumbu ya jamii kuhusu afu inadumishwa, si kpwa makaburi au maandishi ela kpwa neno rinagogombwa — kpwa madzina ganagokudiwa, hadisi zinazogombwa, mavoyo ganagotolwa siku sabaa, siku mirongo mine, na kila maadhimisho bada ya hipho."
+            },
+            {
+              "type": "heading",
+              "text": "Chifo Chinachofichua Chitu Gani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwishowe, vira jamii inavyoshughulikia chifo vinafichua chira inachoamini kpwa undani zaidi kuhusu maisha. Mila za Adigo — mazishi ga phapho hipho, kurisa kpwa phamwenga, maombolezo ga siku mirongo mine, mavoyo, sengenya, goma, kuangaliya kpwa makini vira na mahali atu a tofauti anavyozikpwa — zinafichua jamii inayoamini kukala kahana mutu ariye mwenye-yakpwe kpweli kpweli. Kukala mphaka kahi ya ario moyo na afu si ukuta ela ni utando. Kukala wajibu wa jamii tauishira kaburini. Na kukala kila uhai wa mutu, kula kpwa pumuzi yake ya kpwandza hadi ya mwisho na zaidi, si wa mutu mwenye-yakpwe ela wa atu ariokusanyika kuukaribisha, kuurera, kusherehekea mipito yake, na mwishowe, kuubeba hadi kaya."
             }
           ]
         }
@@ -7266,6 +11146,122 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Harusi za Wadigo wa kisasa zinabadilika. Maandalizi ya bibi arusi yamefupishwa. Mazungumzo ya mahari yanaweza kufanywa haraka zaidi. Lakini muundo wa kina unadumu. Familia bado zinachunguza. Nyimbo za kuaga bado zinaleta machozi. Karamu ya pamoja bado inaleta furaha. Na imani ya msingi kwamba ndoa ni jambo la familia, tukio la jamii, na kazi ya kiroho inabaki katika moyo wa maisha ya ndoa ya Wadigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mjomba: Mlezi wa Maslahi ya Bibi Arusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hakuna mazungumzo ya ndoa ya Kidigo yanayokamilika bila *mjomba* — mjomba wa upande wa mama. Katika undugu wa Kidigo, mjomba si mtu wa pembeni anayesimama kando ya mambo. Yeye ni wa kati — mara nyingi akiwa na mamlaka zaidi juu ya ndoa ya mpwa wake kuliko baba yake mwenyewe. Hii inaweza kuwashangaza wageni waliozoea dhana za ukoo wa baba, lakini inaonyesha mkondo wa ukoo wa mama unaopita katika jamii ya Wadigo hata chini ya uso wake wa ukoo wa baba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mjomba lazima akubali mchumba. Bila ridhaa yake, ndoa haiwezi kuendelea. Anajadili kwa niaba ya ukoo wa mama wa bibi arusi, akihakikisha kwamba heshima na maslahi ya familia yake yanalindwa. Anachunguza familia ya bwana arusi, anapinga mahari duni, na anasisitiza masharti yanayoonyesha thamani ya mpwa wake. Kutoridhika kwake kunaweza kusimamisha mambo kabisa, na familia zinajua vyema zaidi kuliko kuendelea bila kupata baraka yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mamlaka haya yanatokana na uelewa wa Kidigo kwamba uhusiano wa kina zaidi wa kifamilia wa mwanamke unapita kupitia mama yake. Mjomba ni mlinzi wa kiume wa ukoo huo wa mama — mlezi wa uhusiano wa damu ambao bibi arusi anaubeba mbele katika nyumba yake mpya. Anaposema katika mazungumzo ya ndoa, anasema si kwa niaba yake mwenyewe tu bali kwa ukoo mzima wa upande wa mama, kwa bibi aliyemlea bibi arusi na nyanya ambaye jina lake bibi arusi anaweza kulibeba. Jukumu lake linahakikisha kwamba ndoa ya Kidigo si kamwe muamala rahisi kati ya baba na bwana arusi, bali ni mazungumzo ambapo familia ya mama inashikilia nguvu halisi na inayotekelezeka."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Tatu, Harusi Moja"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndoa za Wadigo za kisasa mara nyingi zinaunganisha mila tatu tofauti katika sherehe moja, kila moja ikibeba umuhimu wake na heshima yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Harusi ya Kidigo — sherehe ya jadi — inafuata sheria za kimila na inasisitiza mazungumzo ya ukoo, baraka za mababu, na sherehe ya jadi. Ina mizizi katika desturi zilizotangulia Uislamu, ingawa imeyapokea mambo ya Kiislamu kwa karne nyingi. Harusi ya Ng'ombe, ya jadi zaidi na ya vijijini zaidi, inajikita katika mahari ya ng'ombe na mila za ufugaji wa urithi wa Kidigo. Na Harusi ya Kiswahili/Kiislamu inaonyesha *nikah* ya Kiislamu — mkataba wa ndoa — ambao, kwa maneno ya mtafiti mmoja, \"unatoa heshima ya juu zaidi kwa wanawake.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Familia inayoweza kumudu inaweza kujumuisha zote tatu: *kuhaswa* ya jadi (uchumba), nikah ya Kiislamu, na usajili wa kiraia na serikali. Uwekaji tabaka huu unaonyesha msukumo ule ule unaoonekana katika maisha yote ya kiroho ya Wadigo — imani kwamba zaidi ni bora, kwamba kila mila inayopatikana inaongeza nguvu na uhalali, na kwamba ndoa iliyobarikiwa na mababu, na Mungu, na serikali inasimama kwenye msingi imara zaidi iwezekanavyo."
+            },
+            {
+              "type": "heading",
+              "text": "Somo na Kungwi: Kuandaa Bibi Arusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Katika wiki au miezi kabla ya harusi, bibi arusi hupitia maandalizi makali chini ya uongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — anashughulikia mabadiliko yake ya kimwili: matibabu ya ngozi kwa liwa na manjano, kuoga kwa manjano, manukato ya msandali, kuogeshwa kwa uvumba, na mapambo ya hina yenye ustadi ambayo yanaweza kuchukua masaa kumi na mawili au zaidi kupakwa, yakijengwa katika tabaka tano au sita za muundo wa ustadi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kungwi — mwalimu wa ndoa — anaandaa akili yake. Anafundisha maarifa ya ndani ya maisha ya ndoa: jinsi ya kutunza mwili wake, jinsi ya kushirikiana na mumewe kimwili na kihisia, jinsi ya kusimamia nyumba, jinsi ya kupitia mtandao changamano wa uhusiano na wakwe ambao utafafanua sehemu kubwa ya ulimwengu wake wa kijamii baada ya ndoa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo za *vugo* zinaambatana na maandalizi ya bibi arusi, maneno yake yakibeba mafundisho, baraka, na sherehe. Nyimbo za vugo ni za ndani — zinaimbwa na wanawake kwa wanawake, zikizungumza wazi kuhusu uhalisia wa maisha ambayo bibi arusi anakaribia kuingia. Zinachanganya furaha na uzito kwa wakati mmoja, zikisherehekea uzuri na utayari wa msichana huku zikimandaa kwa uzito wa kinachomngojea."
+            },
+            {
+              "type": "heading",
+              "text": "Siku ya Harusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Siku ya harusi yenyewe ni tamasha la hisia, muziki, na ushiriki wa jamii. Kijiji kizima au mtaa unahusika — si kama watazamaji bali kama washiriki, kila mtu akicheza jukumu katika mchezo wa mpito."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kabla bibi arusi hajaondoka nyumba ya familia yake, mzee anatoa *voya* — dua ya baraka ya mababu. Huu ni wakati wa heshima, unaounganisha ndoa na mnyororo wa mababu waliotangulia na ambao kibali chao kinatafutwa kwa muungano huo. Dua inaitisha ulinzi, uzazi, ustawi, na amani — kila kitu ambacho wanandoa watahitaji kwa maisha wanayokaribia kujenga pamoja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuagana labda ndio wakati wenye hisia zaidi wa harusi yoyote ya Kidigo. Bibi arusi anapojitayarisha kuondoka, familia zote mbili zinalia na kuimba kwa wakati mmoja. Nyimbo ni nyimbo za hasara na furaha zilizochanganyika — familia ya bibi arusi ikiombolezea binti anayeondoka, familia ya bwana arusi ikisherehekea mke anayekuja. Machozi ni ya kweli. Kuimba ni kwa kweli. Hisia hizo mbili ziko pamoja, si zikipingana bali zikikamilishana. Ndoa inayoanza bila machozi, Wadigo wanaonekana kuelewa, ni ndoa ambayo haijahesabu kikamilifu kinachogharimika."
+            },
+            {
+              "type": "heading",
+              "text": "Matendo ya Kitamaduni na Baraka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya harusi inajumuisha matendo maalum ya kitamaduni yanayobeba uzito mkubwa wa ishara. Wakwe wanapuliza maji kifuani mwa wanandoa kama baraka — tendo la kimwili la baraka linalowaashiria wanandoa kwa kibali na ulinzi wa familia. Bwana arusi anaambiwa, wazi wazi na mbele ya jamii: \"Bibi arusi si mpira wa yeye kupiga.\" Hii si utaratibu wa kawaida tu. Ni tamko la hadharani la matarajio ya jamii kwamba mume atamtendea mke wake kwa heshima na upole."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi anafanya matendo ya huduma anapofika nyumba yake mpya — kutoa chakula, kubeba maji, kusaga mahindi. Haya si matendo ya utiifu. Ni maonyesho ya utayari wake na nia yake ya kuchangia nyumba anayoijiunga, na yanashuhudiwa na jamii kama ushahidi kwamba ndoa imeanzishwa ipasavyo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mbuzi anachinjwa kwa pamoja, na jamii inakusanyika kwa karamu ya pilau, biriani, na tembo. Mlo wa pamoja wenyewe ni ibada — tendo la ushirika linalounganisha familia mbili na jamii zao pamoja kupitia uzoefu wa pamoja wa kula."
+            },
+            {
+              "type": "heading",
+              "text": "Muziki wa Harusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Muziki si mandharinyuma katika harusi ya Kidigo. Ni moyo unaopiga wa harusi. *Sengenya*, ngoma kuu ya sherehe ya Kidigo, inachukua umbo lake la hali ya juu zaidi katika harusi, ambapo mwendo wa *mserego* — unaofanywa tu katika harusi — unageuza ngoma kuwa kitu cha kipekee kwa tukio hilo. *Chakacha*, ngoma ya wanawake, inajaza hewa kwa sherehe ya kike. *Mabumbumbu* — nyimbo za harusi — zinabeba nyimbo na maneno maalum yanayomilikiwa na sherehe hii na si nyingine. Na kupiga *ngoma* kunatoa msingi wa mdundo ambao kila kitu kingine kinajengwa juu yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muziki haufanywi na wataalamu kwa hadhira isiyoshiriki. Unashirikiwa na jamii, kila mtu akichangia sauti yake, mwendo wake, nguvu zake katika sherehe ya pamoja. Harusi si kitu unachotazama. Ni kitu unachofanya."
+            },
+            {
+              "type": "heading",
+              "text": "Uhamisho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Moyoni mwake, sherehe ya harusi ya Kidigo inatekeleza uhamisho — wa bibi arusi kutoka familia moja hadi nyingine, kutoka nyumba moja hadi nyingine, kutoka awamu moja ya maisha hadi nyingine. Uhamisho huu hauchukuliwi kwa wepesi. Unaashiriwa katika kila hatua kwa dua, wimbo, machozi, baraka, chakula, na uwepo wa jamii iliyokusanyika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi hahamii tu kutoka nyumba moja hadi nyingine. Anavuka kizingiti kutoka utambulisho mmoja hadi mwingine — kutoka binti hadi mke, kutoka msichana hadi mwanamke, kutoka jukumu la familia moja hadi la nyingine. Na jamii inavuka kizingiti hicho pamoja naye, ikihakikisha kwamba hafanyi safari peke yake."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ya Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Harusi za Wadigo za kisasa zinabadilika. Maandalizi ya bibi arusi ya miezi mingi yamefupishwa. Mazungumzo ya mahari, ingawa bado ni muhimu, yanaweza kufanywa haraka zaidi na kwa sherehe kidogo kuliko zamani. Wanandoa wachanga wengine wanachagua harusi za kiraia au za Kiislamu bila sherehe kamili ya jadi. Harusi za mjini zinaweza kuwa na mfumo wa DJ pamoja na ngoma za jadi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini muundo wa kina unadumu. Familia bado zinachunguza. Mazungumzo bado yanaendelea kupitia mfuatano uliowekwa wa malipo. Somo na kungwi, ingawa majukumu yao yanaweza kubanwa, hawajapotea. Nyimbo za kuagana bado zinaleta machozi. Karamu ya pamoja bado inaleta furaha. Na imani ya msingi kwamba ndoa ni jambo la familia, tukio la jamii, na jitihada ya kiroho — si tu mkataba wa kisheria kati ya watu wawili — inabaki moyoni mwa maisha ya ndoa ya Wadigo."
             }
           ],
           "dig": [
@@ -7328,6 +11324,122 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Harusi za Adigo wa vivi sambi zinabadilika. Maandalizi ga bibi arusi gamefupishwa. Mazungumzo ga mahari ganaweza kuhendwa haraka zaidi. Ela muundo wa kina unadumu. Familia bado zinachunguza. Nyimbo za kuaga bado zinareha matsozi. Karamu ya phamwenga bado inareha furaha. Na imani ya msingi kpwamba ndoa ni dzambo ra familia, chitu cha jamii, na kazi ya chiroho inabaki kpwa moyo wa maisha ga ndoa ga Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Mjomba: Mrindzi wa Maslahi ga Bibi Arusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kahana mazungumzo ga ndoa ga Chidigo ganagokamilika bila *mjomba* — mjomba wa uphande wa nine. Kpwenye undugu wa Chidigo, mjomba si mutu wa pembeni asimamaye kanda ya mambo. Iye ni wa kahi-kahi — mara nyinji akiwa na uwezo zaidi dzulu ya ndoa ya mwiphwa wakpwe kuriko ise mwenye. Hichi chinaweza kuashangaza atu a kondze ariozoera dhana za ukoo wa ise, ela chinaonyesa mkondo wa ukoo wa nine unaopishira kpwenye jamii ya Adigo hata tsini ya uso wakpwe wa ukoo wa ise."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mjomba ni lazima akubali mchumba. Bila ridhaa yakpwe, ndoa taiweza kuenderera. Anajadili kpwa niaba ya ukoo wa nine wa bibi arusi, akihakikisha kukala heshima na maslahi ga nyumba yakpwe ganalindwa. Anachunguza nyumba ya bwana arusi, anapinga mahari duni, na anasisitiza masharti ganagonyesa thamani ya mwiphwa wakpwe. Kutoridhika kwakpwe kunaweza kusimamisha mambo kabisa, na nyumba zinamanya vizuri kukala tazienderera bila kupata baraka yakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uwezo uhu unatokana na uelewano wa Chidigo kukala uhusiano wa ndani zaidi wa kifamilia wa mchetu unapishira kpwa nine yakpwe. Mjomba ni mrindzi wa chilume wa ukoo uwo wa nine — mrindzi wa uhusiano wa milatso ambao bibi arusi anaubeba mbere kpwenye nyumba yakpwe mphya. Anapho-gomba kpwenye mazungumzo ga ndoa, anagomba si kpwa niaba yakpwe mwenye tu ela kpwa ukoo wosi wa uphande wa nine, kpwa bibi ariyemrera bibi arusi na bibi-mkulu ambaye dzina rakpwe bibi arusi anaweza kuribeba. Jukumu rakpwe rinahakikisha kukala ndoa ya Chidigo si kamwe muamala rahisi kahi ya ise na bwana arusi, ela ni mazungumzo ambago nyumba ya nine inashikira nguvu halisi na inayotekelezeka."
+            },
+            {
+              "type": "heading",
+              "text": "Mila Tahu, Harusi Mwenga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndoa za Adigo za vivi ivi mara nyinji zinaunganisha mila tahu tofauti kpwenye sherehe mwenga, chila mwenga ikibeba umuhimu wakpwe na heshima yakpwe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Harusi ya Chidigo — sherehe ya chimila — inafuata shariya za chimila na inasisitiza mazungumzo ga ukoo, baraka za akareni, na sherehe ya chimila. Ina mizizi kpwenye mila zirizotangulia Uislamu, ingawa imeyaphokerera mambo ga Chiislamu kpwa karne nyinji. Harusi ya Ng'ombe, ya chimila zaidi na ya kpwisimani zaidi, inajikita kpwenye mahari ya ng'ombe na mila za ufugaji wa urisi wa Chidigo. Na Harusi ya Chiswahili/Chiislamu inaonyesa *nikah* ya Chiislamu — mkataba wa ndoa — ambao, kpwa maneno ga mtafiti mmwenga, \"unapha heshima ya dzulu zaidi kpwa achetu.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyumba inayoweza kumudu inaweza kujumuisha zosi tahu: *kuhaswa* ya chimila (uchumba), nikah ya Chiislamu, na usajili wa kiraia na serikali. Kuwekpwa tabaka kukpwu kunaonyesa msukumo ule ule unaoonekana kpwenye maisha gosi ga kiroho ga Adigo — imani kukala zaidi ni bora, kukala kila mila inayophatiwa inaongeza nguvu na uhalali, na kukala ndoa iriyobarikiwa ni akareni, ni Mlungu, na ni serikali inasimama kpwenye msingi imara zaidi iwezekanavyo."
+            },
+            {
+              "type": "heading",
+              "text": "Somo na Kungwi: Kuandaa Bibi Arusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwenye wiki au miezi kabila ya harusi, bibi arusi anapishira maandalizi makali tsini ya uongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — anashughulikia mabadiliko yakpwe ga chimwiri: matibabu ga ngozi kpwa liwa na manjano, kuoga kpwa manjano, manukato ya msandali, kuogeshwa kpwa ubani, na mapambo ga hina genye ustadi ambago ganaweza kutsukula masaa kumi na mairi au zaidi kuphakpwa, gakijengbwa kpwenye tabaka tsano au sita za muundo wa ustadi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kungwi — mwalimu wa ndoa — anaandaa achili yakpwe. Anafundza maarifa ga ndani ga maisha ga ndoa: vira kuritunza mwiri wakpwe, vira kushirikiana na mulumewe chimwiri na chihisia, vira kusimamia nyumba, vira kupishira mtandao changamano wa uhusiano na akpwe ambao undafafanua sehemu kulu ya ulimwengu wakpwe wa kijamii bada ya ndoa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo za *vugo* zinaambatana na maandalizi ga bibi arusi, maneno gake gakibeba mafundzo, baraka, na sherehe. Nyimbo za vugo ni za ndani — zinaimbwa ni achetu kpwa achetu, zikigomba wazi kuhusu uhalisia wa maisha ambago bibi arusi anakaribia kuindzira. Zinachanganya furaha na uzito kpwa wakati mmwenga, zikisherehekea uzuri na utayari wa mwari huku zikimuandaa kpwa uzito wa chinachomgodza."
+            },
+            {
+              "type": "heading",
+              "text": "Siku ya Harusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Siku ya harusi yenyewe ni tamasha ra hisia, muziki, na ushiriki wa jamii. Mudzi wosi au mtaa unahusika — si dza atazamaji ela dza ashiriki, chila mutu akivina jukumu kpwenye mchezo wa mpito."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kabila bibi arusi kadzangbwe kuuka nyumba ya nyumba yakpwe, mzee anatoa *voya* — dua ya baraka ya akareni. Uhu ni wakati wa heshima, unaounganisha ndoa na mnyororo wa akareni ariotangulia na ambao kibali chao chinatafutwa kpwa muungano uwo. Dua inaitisha urindzi, uzazi, ustawi, na amani — chila chitu ambacho ahadi andachihitaji kpwa maisha anagokaribia kudzenga phamwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuagana pengine ndio wakati wenye hisia zaidi wa harusi yoyosi ya Chidigo. Bibi arusi anaphodziandaa kuuka, nyumba zosi mbiri zinarira na kuimba kpwa wakati mmwenga. Nyimbo ni nyimbo za hasara na furaha zirizounganishwa — nyumba ya bibi arusi ikiombolezea mwana muche anayeuka, nyumba ya bwana arusi ikisherehekea mkpwaza anayekudza. Matsozi ni ga kpweli. Kuimba ni kpwa kpweli. Hisia zizo mbiri ziko phamwenga, si zikipingana ela zikikamilishana. Ndoa inayoandza bila matsozi, Adigo anaonekana kuelewa, ni ndoa ambayo taiyahesabu vikamilifu vinachogharimika."
+            },
+            {
+              "type": "heading",
+              "text": "Matendo ga Chimila na Baraka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya harusi inajumuisha matendo maalum ga chimila ganagobeba uzito mkpwulu wa ishara. Akpwe anapuliza madzi vifuani mwa ahadi dza baraka — tendo ra chimwiri ra baraka rinagoaashiria ahadi kpwa kibali na urindzi wa nyumba. Bwana arusi anaambirwa, wazi wazi na mbere ya jamii: \"Bibi arusi si mpira wa iye kupiga.\" Hii si utaratibu wa kawaida tu. Ni tamko ra hadharani ra mataradzio ga jamii kukala mulume andamtendera mkpwazaye kpwa heshima na upole."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi anahenda matendo ga huduma anaphofikira nyumba yakpwe mphya — kupha chakurya, kubeba madzi, kusaga muhogo. Higa si matendo ga utiifu. Ni maonyesho ga utayari wakpwe na nia yakpwe ya kuchangia nyumba anayoijiunga, na ganashuhudiwa ni jamii dza ushahidi kukala ndoa imeanzishwa iphasavyo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mbuzi anatsinjbwa kpwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na tembo. Chakurya cha phamwenga chenyewe ni ibada — tendo ra ushirika rinaounganisha nyumba mbiri na jamii zao phamwenga kpwa kupishira uzoefu wa phamwenga wa kurya."
+            },
+            {
+              "type": "heading",
+              "text": "Muziki wa Harusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Muziki si mandharinyuma kpwenye harusi ya Chidigo. Ni moyo unaopiga wa harusi. *Sengenya*, ngoma kulu ya sherehe ya Chidigo, inatsukula umbo rake ra hali ya dzulu zaidi kpwenye harusi, ambapo mwendo wa *mserego* — unaohendwa tu kpwenye harusi — unagaluza ngoma kukala chitu cha chipekee kpwa tukio hiro. *Chakacha*, ngoma ya achetu, inajaza hewa kpwa sherehe ya chiche. *Mabumbumbu* — nyimbo za harusi — zinabeba nyimbo na maneno maalum ganagomilikiwa ni sherehe hii na si nyingine. Na kupiga *ngoma* kunapha msingi wa mdundo ambao chila chitu chingine chinajengbwa dzulu yake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muziki tauhendwa ni ataalamu kpwa atu asioshariki. Unashirikiwa ni jamii, chila mutu akichangia sauti yakpwe, mwendo wakpwe, nguvu zakpwe kpwenye sherehe ya phamwenga. Harusi si chitu unachotazama. Ni chitu unachohenda."
+            },
+            {
+              "type": "heading",
+              "text": "Uhamisho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Moyoni mwakpwe, sherehe ya harusi ya Chidigo inatekeleza uhamisho — wa bibi arusi kula nyumba mwenga hadi nyingine, kula kaya mwenga hadi nyingine, kula awamu mwenga ya maisha hadi nyingine. Uhamisho uhu tautsukurwa kpwa urahisi. Unaashiriwa kpwenye chila hatua kpwa dua, wimbo, matsozi, baraka, chakurya, na uwepo wa jamii iriyokusanyika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bibi arusi kahamira tu kula nyumba mwenga hadi nyingine. Anatsupa kizingiti kula utambulisho mmwenga hadi mwingine — kula mwana-muche hadi mkpwaza, kula mwari hadi mchetu, kula jukumu ra nyumba mwenga hadi ra nyingine. Na jamii inatsupa kizingiti hicho phamwenga naye, ikihakikisha kukala kahenda safari mwenye-yakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ga Vivi Ivi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Harusi za Adigo za vivi ivi zinabadilika. Maandalizi ga bibi arusi ga miezi minji gamefuphishwa. Mazungumzo ga mahari, ingawa bado ni muhimu, ganaweza kuhendwa kpwa upesi zaidi na kpwa sherehe chache kuriko kare. Ahadi adide anatsagula harusi za kiraia au za Chiislamu bila sherehe kamili ya chimila. Harusi za mudzini zinaweza kukala na mfumo wa DJ phamwenga na ngoma za chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela muundo wa ndani unadumu. Nyumba bado zinachunguza. Mazungumzo bado ganaenderera kpwa kupishira mfuatano urioikpwa wa malipo. Somo na kungwi, ingawa majukumu gao ganaweza kubanbwa, taapotere. Nyimbo za kuagana bado zinareha matsozi. Karamu ya phamwenga bado inareha furaha. Na imani ya msingi kukala ndoa ni dzambo ra nyumba, tukio ra jamii, na jitihada ya kiroho — si tu mkataba wa kishariya kahi ya atu airi — inasala moyoni mwa maisha ga ndoa ga Adigo."
             }
           ]
         }
@@ -7543,6 +11655,98 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kisichobadilika ni imani ya msingi kwamba vijana wanahitaji kuandaliwa kwa utu uzima — kwamba mpito kutoka mtoto hadi mtu mzima ni muhimu sana kuachiwa bahati, na kwamba jamii ina jukumu la kuwapa vijana wake maarifa, ujuzi, na utambulisho wanaohitaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mafundisho haya hayakuchukuliwa kuwa ya aibu au yasiyofaa. Yalichukuliwa kuwa ya lazima. Mwanamke aliyeingia ndoa bila maarifa haya alionekana kuwa hajajitayarisha, na familia yake ingechukuliwa kuwa imetelekezwa kwa kushindwa kutoa. Mafunzo ya kungwi yalikuwa zawadi — maarifa yaliyopitishwa mwanamke hadi mwanamke, hekima ya bibi iliyotolewa kupitia sauti ya mzee anayeaminiwa."
+            },
+            {
+              "type": "heading",
+              "text": "Mafundisho ya Bibi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sambamba na somo na kungwi, bibi wa msichana mwenyewe (au ndugu wa kike mkubwa anayejaza nafasi hiyo) alitoa uzi wa tatu wa mafundisho. Ambapo somo ililenga mwili na kungwi ililenga kitanda cha ndoa, bibi alifundisha sanaa za vitendo za kuendesha nyumba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupika kulikuwa muhimu zaidi — si tu taratibu za kuandaa chakula, bali vipengele vya kijamii vya kulisha familia, kukaribisha wageni, na kutumia chakula kama usemi wa utunzaji na hadhi. Utunzaji wa nyumba, usimamizi wa rasilimali, na mpangilio wa maisha ya nyumbani — yote yalikuwa sehemu ya mtaala. Bibi pia alifundisha heshima — jinsi ya kuishi kuelekea wazee, jinsi ya kuhusiana na wakwe, jinsi ya kubeba heshima inayotarajiwa ya mwanamke wa Wadigo aliyeolewa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fundisho moja mahususi linastahili kutajwa: *twahara* — sanaa ya kuvaa chumba cha kulala, au jinsi ya kujionyesha kwa mume. Hii ilifundishwa na bibi, ikiiweka katika muktadha wa uzoefu mrefu wa ndoa badala ya mapenzi ya ujana. Ilikuwa maarifa ya vitendo, yaliyotolewa bila aibu, yaliyoeleweka kama mojawapo ya ujuzi mwingi ambao mwanamke alihitaji kudumisha ndoa yenye mafanikio."
+            },
+            {
+              "type": "heading",
+              "text": "Nyimbo na Mafundisho"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyago haukufanywa kwa kimya. Nyimbo ziliandamana na kila hatua ya mchakato — nyimbo za mafunzo, nyimbo za sherehe, nyimbo za onyo, nyimbo za baraka. Hizi hazikuwa burudani ya kawaida. Zilikuwa zana za kufundishia, midundo na nyimbo zao zikisimba masomo ambayo wasichana walihitaji kuyaingiza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo zilishughulikia mahusiano ya ndoa, zikisema wazi kuhusu furaha na ugumu wa maisha ya ndoa. Zilishughulikia usafi na kanuni za kingono, zikianzisha matarajio ambayo jamii iliyashikilia kwa wasichana. Zilishughulikia matarajio ya kijamii — tabia na mitazamo ambayo ingemtambulisha mwanamke kama mheshimiwa, mwenye wajibu, na anayestahili kiburi cha familia yake. Na zilishughulikia wajibu wa utu uzima kwa upana zaidi, zikiandaa wasichana kwa nafasi zao si kama wake tu bali kama mama, wanachama wa jamii, na hatimaye kama wazee wao wenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ngoma iliandamana na nyimbo. *Chakacha*, ngoma ya wanawake, ilikuwa sherehe na mafunzo yote, mienendo yake ikibeba maana ambazo waliofunzwa walielewa. Msamiati wa kimwili wa ngoma uliwasilisha mambo ambayo maneno peke yake hayakuweza — neema, ujasiri, uanawake, nguvu."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe ya Vugo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya *vugo*, inayoshirikiwa na jamii za pwani za Kiswahili, ilitumika kama sherehe ya kilele ndani ya mchakato wa kuanzishwa kwa wanawake. Vugo ilisherehekea na kuthibitisha ubikira wa bi harusi — suala la heshima ya familia katika jamii ya jadi ya Wadigo. Sherehe hiyo ilihusisha nyimbo, ngoma ya chakacha, na uthibitisho wa kitamaduni, vyote vikifanywa katika ushirika wa wanawake walioshuhudia na kuthibitisha mpito wa msichana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vugo haikuwa mtihani au ukaguzi tu. Ilikuwa sherehe — wakati ambapo jamii ya wanawake ilikusanyika kumheshimu mmoja wao alipovuka kizingiti kuingia maisha ya utu uzima. Nyimbo zilikuwa za furaha, ngoma ilikuwa na nguvu, na hali ilikuwa ya mshikamano na kiburi."
+            },
+            {
+              "type": "heading",
+              "text": "Jando: Upande wa Wanaume"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati unyago uliandaa wasichana kwa uanawake, *jando* ilitumika kama kuanzishwa kwa wanaume — iliyojikita katika tohara lakini ikijumuisha kipindi kipana zaidi cha mafunzo na mabadiliko. Mila ya jando ilijumuisha nyimbo zake na ngoma za ishara, zikibeba ujumbe kuhusu wajibu wa utu uzima, matarajio ya jamii, na thamani zilizofafanua uume wa Wadigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mifanano kati ya unyago na jando ilikuwa ya kweli lakini si halisi kabisa. Zote zilihusisha kujitenga kutoka maisha ya kawaida. Zote zilijumuisha mafundisho makali na wazee wenye uzoefu. Zote zilitumia nyimbo na utendaji wa kimwili kama zana za kufundishia. Zote zilifikia kilele kwa kurudi rasmi katika jamii na hadhi mpya na utambulisho mpya. Lakini yaliyomo ya mafundisho yalitofautiana, yakionyesha nafasi tofauti ambazo jamii ya Wadigo iliwagawia wanaume na wanawake — ingawa nafasi zote zilichukuliwa kuwa muhimu, na hakuna iliyokuwa kamili bila nyingine."
+            },
+            {
+              "type": "heading",
+              "text": "Jinsi Unyago na Jando Zinavyotofautiana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti inayoonekana zaidi ilikuwa ya kimwili. Jando ilijikita katika tohara — mabadiliko ya kudumu ya kimwili yaliyotumika kama alama isiyorudi ya kuanzishwa. Unyago hauhusishi hatua ya kimwili inayolinganishwa. Mabadiliko iliyofanya yalikuwa ya ndani — mabadiliko ya maarifa, mtazamo, na utambulisho wa kijamii badala ya mabadiliko ya mwili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miundo ya kijamii inayozunguka hizo mbili pia ilitofautiana. Jando ilianzisha wavulana katika *rika* — mfumo wa kundi la umri ambao ungeufafanua utambulisho wao wa kijamii wa kiume kwa maisha yote. Unyago haukuunda kundi sawa la umri la kike. Badala yake, iliandaa kila msichana binafsi (au katika makundi madogo) kwa ndoa mahususi iliyokuwa mbele yake. Kuanzishwa kwa wanaume kulikuwa kwa pamoja na kitaasisi; kuanzishwa kwa wanawake kulikuwa binafsi na kuhusiano."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muda pia ulitofautiana. Kipindi cha kujitenga cha jando, ingawa muhimu, kwa kawaida kilikuwa kifupi kuliko maandalizi ya miezi ya somo kwa bi harusi. Kuanzishwa kwa wanawake kulikuwa taratibu zaidi, wa karibu zaidi, na kulilenga zaidi uhusiano mahususi — ndoa — ambayo ingeufafanua awamu inayofuata ya maisha ya msichana."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ya Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyago na jando zote zimepitia mabadiliko makubwa katika enzi ya kisasa. Kujitenga kwa miezi ya somo kumeshinikizwa katika familia nyingi, kumepunguzwa hadi wiki au hata siku na mahitaji ya shule, kazi, na maisha ya mjini. Mafundisho ya kungwi, yaliyotolewa zamani kwa kipindi kirefu, sasa yanaweza kufupishwa katika vipindi vifupi. Matibabu ya uzuri ya kisanaa ya somo yameongezewa au kubadilishwa na huduma za kibiashara za urembo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila ya jando imeshinikizwa vivyo hivyo, huku tohara ya kimatibabu ikibadilisha mazoea ya jadi na mfumo wa kundi la umri ukipoteza mengi ya nguvu yake ya kitaasisi. Nyimbo na ngoma za mila zote zinaendelea katika jamii zingine, lakini si tena uzoefu wa wote kama zilivyokuwa zamani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kisichobadilika ni imani ya msingi kwamba vijana wanahitaji kutayarishwa kwa utu uzima — kwamba mpito kutoka mtoto hadi mtu mzima ni muhimu sana kuacha kwa bahati nasibu, na kwamba jamii ina wajibu wa kuwapa vijana wake maarifa, ujuzi, na utambulisho watakaouhitaji. Maumbo yanaweza kubadilika, lakini msukumo unaendelea: hakuna mtu anayepaswa kukabiliana na kizingiti cha maisha ya utu uzima bila hekima ya wale waliokivuka kabla yake."
             }
           ],
           "dig": [
@@ -7597,6 +11801,98 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kisichobadilika ni imani ya msingi kpwamba avulana na asichana anahitaji kuandaliwa kpwa utu uzima — kpwamba kupita kula kpwa utoto hadi utu uzima ni muhimu sana kuachirwa bahati, na kpwamba jamii ina jukumu ra kuapha vijana ao marifwa, ujuzi, na utambulisho wanagohitaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mafundzo gano tagachukuliwa kukala ga haya au gasiyofaa. Gachukuliwa kukala ga lazima. Muchetu ariyeingira harusi bila maarifa gano aonekana kukala kadzangwe adzitayarishe, na nyumba yakpwe ingechukuliwa kukala imetelekezwa kpwa kushindwa kupha. Mafundzo ga kungwi garikala zawadi — maarifa garigopitishwa muchetu hadi muchetu, hekima ya bibi iriyotolewa kupitira sauti ya mkare anayeaminika."
+            },
+            {
+              "type": "heading",
+              "text": "Mafundzo ga Bibi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Phamwenga na somo na kungwi, bibi wa msichana mwenyewe (au ndugu muchetu mkulu anayejaza nafasi iyo) aripha uzi wa hahu wa mafundzo. Ambapho somo irilenga mwiri na kungwi irilenga chitanda cha harusi, bibi arifundza sanaa za vitendo za kuendesha nyumba."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuphika kurikala muhimu zaidi — si taratibu za kuandaa chakurya bahi, ela vipengele vya chijamii vya kulisha nyumba, kukaribisha ajeni, na kutumira chakurya kama usemi wa utunzaji na hadhi. Utunzaji wa nyumba, usimamizi wa rasilimali, na mpangilio wa maisha ga nyumbani — gosi garikala sehemu ya mtaala. Bibi pia arifundza heshima — jinsi ya kuishi kuelekea akare, jinsi ya kuhusiana na akwe, jinsi ya kudzitsukula na heshima inayotarajiwa ya muchetu wa Mudigo ariyeolewa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fundzo mwenga mahususi rinastahili kutajwa: *twahara* — sanaa ya kuvwala chumba cha kulala, au jinsi ya kudzionyesa kpwa mulume. Hino irifundzwa ni bibi, ikiikpwa kpwenye muktadha wa uzoefu mure wa harusi badala ya mahaba ga udide. Irikala maarifa ga vitendo, garigotolewa bila haya, garigoeleweka kama mwenga wa ujuzi munji ambao muchetu arihitadzi kudumisha harusi yenye mafanikio."
+            },
+            {
+              "type": "heading",
+              "text": "Nyimbo na Mafundzo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyago taurifanywa kpwa chinyamala. Nyimbo zikaandamana na chila hatua ya mchakato — nyimbo za mafundzo, nyimbo za sherehe, nyimbo za onyo, nyimbo za baraka. Hizi tazirikala burudani ya kawaida. Zirikala zana za kufundzira, midundo na nyimbo zao zikisimba masomo ambago asichana arihitadzi kugaingiza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo zirishughulikiya mahusiano ga harusi, zikigomba phahala pa kuonekana kuhusu furaha na ugumu wa maisha ga harusi. Zirishughulikiya usafi na kanuni za chingono, zikianzisha matarajio ambago jamii irigashikilia kpwa asichana. Zirishughulikiya matarajio ga chijamii — tabia na mitazamo ambayo ingemtambulisha muchetu kukala mheshimiwa, mwenye wajibu, na anayestahili kiburi cha nyumba yakpwe. Na zirishughulikiya wajibu wa ukulu kpwa upana zaidi, zikiandaa asichana kpwa nafasi zao si kama ache bahi ela kama amayo, anachama a jamii, na hatimaye kama akare ao enye wenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ngoma iriandamana na nyimbo. *Chakacha*, ngoma ya achetu, irikala sherehe na mafundzo gosi, mienendo yakpwe ikitsukula mana ambazo ariofundzwa arielewa. Msamiati wa chimwiri wa ngoma uriwasilisha mambo ambago maneno pheke yake tagaweze — neema, ujasiri, uchetu, nguvu."
+            },
+            {
+              "type": "heading",
+              "text": "Sherehe ya Vugo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe ya *vugo*, inayoshirikiwa na jamii za ph'wani za Chiswahili, iritumika kama sherehe ya chilelе ndani ya mchakato wa kuanzishwa kpwa achetu. Vugo irisherehekea na kuthibitisha ubikira wa bi harusi — suala ra heshima ya nyumba kpwenye jamii ya kare ya Adigo. Sherehe hiyo irihusisha nyimbo, ngoma ya chakacha, na uthibitisho wa chimila, vyosi vikifanywa kpwenye ushirika wa achetu arioshuhudia na kuthibitisha mpito wa msichana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vugo tarikala mtihani au ukaguzi bahi. Irikala sherehe — wakati ambapho jamii ya achetu irikukusanyika kumheshimu mmwenga wao ariphovuka chizingiti kuingira maisha ga ukulu. Nyimbo zirikala za furaha, ngoma irikala na nguvu, na hali irikala ya mshikamano na kiburi."
+            },
+            {
+              "type": "heading",
+              "text": "Jando: Upande wa Alume"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wakati unyago uriandaa asichana kpwa uchetu, *jando* iritumika kama kuanzishwa kpwa alume — iriyojikita kpwenye tohara ela ikijumuisha chipindi chipana zaidi cha mafundzo na mabadiliko. Mila ya jando irijumuisha nyimbo zakpwe na ngoma za ishara, zikitsukula ujumbe kuhusu wajibu wa ukulu, matarajio ga jamii, na thamani zirizofasiria uulume wa Adigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mifanano kahi ya unyago na jando irikala ya kpweli ela si halisi kabisa. Zosi zikaihusisha kudzitenga kula maisha ga kawaida. Zosi zirikala na mafundzo makali ni akare ario na uzoefu. Zosi ziritumira nyimbo na utendaji wa chimwiri kama zana za kufundzira. Zosi zirifika chilelе kpwa kuuya rasmi kpwenye jamii na hadhi mphya na utambulisho muphya. Ela gariyomo ga mafundzo garitofautiana, gakionyesa nafasi tofauti ambazo jamii ya Adigo irigaawiya alume na achetu — ingawhe nafasi zosi zirichukuliwa kukala muhimu, na takuna iriyokala kamili bila nyingine."
+            },
+            {
+              "type": "heading",
+              "text": "Jinsi Unyago na Jando Zinavyotofautiana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti inayoonekana zaidi irikala ya chimwiri. Jando irijikita kpwenye tohara — mabadiliko ga kudumu ga chimwiri garigotumika kama alama isiyouya ya kuanzishwa. Unyago tarihusisha hatua ya chimwiri inayolinganishwa. Mabadiliko irigofanya garikala ga ndani — mabadiliko ga maarifa, mtazamo, na utambulisho wa chijamii badala ya mabadiliko ga mwiri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miundo ya chijamii inayozunguka hizo mbiri pia iritofautiana. Jando irianzisha avulana kpwenye *rika* — mfumo wa kundi ra umri ambao ungeufasiria utambulisho wao wa chijamii wa chiulume kpwa maisha gosi. Unyago tariumbe kundi sawa ra umri ra chichetu. Badala yakpwe, iriandaa chila msichana chibinafsi (au kpwenye makundi madide) kpwa harusi mahususi iriyokala mbere yakpwe. Kuanzishwa kpwa alume kurikala kpwa phamwenga na chitaasisi; kuanzishwa kpwa achetu kurikala chibinafsi na chihusiano."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muda pia uritofautiana. Chipindi cha kudzitenga cha jando, ingawhe muhimu, kpwa kawaida chirikala chifupi kuriko maandalizi ga miezi ga somo kpwa bi harusi. Kuanzishwa kpwa achetu kurikala taratibu zaidi, kpwa phephi zaidi, na kurilenga zaidi uhusiano mahususi — harusi — ambao ungeufasiria awamu inayofuata ya maisha ga msichana."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ga Kisasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unyago na jando zosi zimepitira mabadiliko makulu kpwenye enzi ya kisasa. Kudzitenga kpwa miezi kpwa somo kumeshinikizwa kpwenye nyumba nyinji, kumephunguzwa hadi wiki au hata siku ni mahitadzi ga shule, kazi, na maisha ga mudzini. Mafundzo ga kungwi, garigotolewa kare kpwa chipindi chire, sambi ganaweza kufuphishwa kpwenye vipindi vifupi. Matibabu ga uzuri ga chisanaa ga somo gameongezewa au kubadilishwa ni huduma za chibiashara za urembo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mila ya jando imeshinikizwa vivyo hivyo, na tohara ya chimatibabu ikibadilisha mazoea ga kare na mfumo wa rika ukiphoteza mengi ga nguvu yakpwe ya chitaasisi. Nyimbo na ngoma za mila zosi zinaenderera kpwenye jamii zengine, ela si tsena uzoefu wa osi kama zirivyokala kare."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chisichobadilika ni imani ya msingi kukala adide anahitadzi kutayarishwa kpwa ukulu — kukala mpito kula mwana hadi mutu mukulu ni muhimu sana kuricha kpwa bahati nasibu, na kukala jamii ina wajibu wa kuapha adide akpwe maarifa, ujuzi, na utambulisho andaohitadzi. Maumbo ganaweza kubadilika, ela msukumo unaenderera: takuna mutu anayepaswa kukabiliana na chizingiti cha maisha ga ukulu bila hekima ya rao ariochivuka kabila yakpwe."
             }
           ]
         }
@@ -7749,6 +12045,26 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hasara si tu nostalgia ya kitamaduni. Kila hadithi inabeba maarifa mahususi: jinsi ya kusoma mawimbi, mimea gani ni ya dawa, jinsi ya kuishi na wakwe, mababu walivyothamini nini. Changamoto si tu kurekodi hadithi kabla wasimuliaji wao hawajafa. Ni kuunda ulimwengu ambamo vijana wa Wadigo wanataka kuzisikia — na hatimaye, kuzisimulia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utamaduni wa ushairi unaingiliana na ule wa muziki. Nyimbo za *sengenya* hubeba hadithi za kihistoria. Nyimbo za *vugo* katika harusi hubeba mafundisho na baraka. Mwendo wa *goma* katika mazishi hubeba ujumbe wa walio hai kwa wafu. Katika kila hali, hadithi, wimbo, na uigizaji haviwezi kutenganishwa — maana iko katika mchanganyiko, si katika kipengele kimoja peke yake."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachopotea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Watafiti wanaosoma mapokeo ya simulizi ya Kidigo wameandika \"kupungua hivi karibuni kwa usimulizi wa hadithi, huku vijana wa Kidigo wakivutwa zaidi na zaidi kwenye ustaarabu.\" Neno \"ustaarabu\" katika muktadha huu si la watafiti — ni neno la jamii yenyewe kwa ulimwengu wa televisheni, simu za mkononi, mitandao ya kijamii, na burudani za Kiswahili ambayo inashindana na vikao vya usimulizi wa hadithi vya jioni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Upotevu huu si huzuni ya kitamaduni tu. Kila hadithi hubeba maarifa maalum: jinsi ya kusoma mawimbi, mimea ipi ni dawa, jinsi ya kuishi na wakwe, mambo ambayo mababu waliyathamini. Wakati vikao vya usimulizi wa hadithi vya jioni vinapobadilishwa na televisheni, maarifa haya hayahamii kwenye njia mpya. Yanapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa kimwili, mwingiliano na hadhira — haiwezi kuigwa katika maandishi. Inaweza kuhifadhiwa tu kupitia kurekodi, na kupitia kuunda mazingira mapya ambapo hadithi za Kidigo zinasimuliwa, zinasikika, na zinathaminiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Daidey Maingi katika Chuo Kikuu cha Nairobi, akifanya kazi chini ya Profesa Peter Wasamba, ni miongoni mwa wasomi wanaofanya utafiti na kuandika hadithi za simulizi za Kidigo. Lakini uandikaji wa kitaaluma, ingawa una thamani, si sawa na mazoea hai. Changamoto si tu kurekodi hadithi kabla wasimulizi wao hawajafariki. Ni kuunda ulimwengu ambao vijana wa Kidigo wanataka kuzisikia — na hatimaye, kuzisimulia."
             }
           ],
           "dig": [
@@ -7795,6 +12111,30 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Atafiti anao soma mila za mdomo za Adigo amerekodiwa \"kushuka kpwa usimulizi wa hadisi, avulana na asichana a Adigo akivutwa zaidi na zaidi kpwa ustaarabu.\" Kpwa chila hadisi iriyo na marifwa mahususi: jinsi ya kusoma maimbi, mimea gani ni ya dawa, jinsi ya kuishi na akwe. Changamoto si tu kurekodi hadisi kabila ahadisi ao takabanike. Ni kuumba ulimwengu ambamo avulana na asichana a Adigo anamendza kuzisikira — na hatimaye, kuzihadisi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Si hadithi zosi za simulizi ni za nadhiri. Adigo piya anariko na mapokeo ga ushairi kpwenye usimulizi wao. Mohammed Kirungu Said, mshairi wa Chidigo, waandika \"Idhilali na Kifo\" (\"Mateso na Chifo\"), shairi ririrotumira muundo wa *Tathlitha* — mishororo mine yenye kiitikio chirichorudiwa — kuonya vijana kuhusu fujo. Muundo wa shairi sio wa mapambo tu; muundo wa *Tathlitha* unaunda mdundo wa kuvutiya ambao unahifadhi onyo mo achilini kpwa njira nono zaidi kuriko somo rorosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mapokeo ga ushairi ganaingiliana na ga muziki. Nyimbo za *sengenya* zinahala hadithi za historia. Nyimbo za *vugo* kpwenye arusi zinahala mafundzo na baraka. Mtsindziro wa *goma* kpwenye mazishi unahala ujumbe wa ario moyo kpwa ariofariki. Kpwa chila hali, hadithi, wimbo, na uonyesho taviweza kutenganishwa — maana iko kpwenye mchanganyiko, si kpwenye kitu chimwenga tu."
+            },
+            {
+              "type": "heading",
+              "text": "Garigopotea"
+            },
+            {
+              "type": "paragraph",
+              "text": "Atafiti anaosoma mapokeo ga simulizi ga Adigo gaandika \"kupunguka kpwa usimulizi wa hadithi hivi karibuni, na vijana a Chidigo anavutwa zaidi na zaidi kpwenye ustaarabu.\" Neno \"ustaarabu\" kpwa muktadha uhu si ra atafiti — ni neno ra jamii yenyewe kpwa ulimwengu wa televisheni, simu za mkononi, mitandao ya kijamii, na burudani za Chiswahili ambayo inashindana na vikao vya usimulizi wa hadithi vya usiku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupotea kuku si huzuni ya chikale tu. Chila hadithi inahala maarifa maalumu: vira vya kusoma maimbi, mimea iphi ni dawa, vira vya kuishi na akwe, mambo ambago akare arigogathaminiya. Vikao vya usimulizi wa hadithi vya usiku vinaphotsukizwa ni televisheni, maarifa gaga tagahamiya kpwenye njira nyiphya. Ganapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa mwiri, kuchangamana na asirikizadzi — taiweza kuigwa kpwenye maandishi. Inaweza kuhifadhiwa tu kpwa kurekodi, na kpwa kuumba mazingira maphya ambamo hadithi za Chidigo zinasimulwa, zinasikiwa, na zinathaminiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Daidey Maingi kpwenye Chuo Chikulu cha Nairobi, anayehenda kazi tsini ya Profesa Peter Wasamba, ni kahi ya asomi ambao anahenda utafiti na kuandika hadithi za simulizi za Adigo. Ela kuandika kpwa kitaaluma, ingawa kuna thamani, si sawa na mazoea ga moyo. Changamoto si tu kurekodi hadithi kabla asimulizi aho taajafariki. Ni kuumba ulimwengu ambamo vijana a Chidigo analonda kuzisikira — na mwisho, kuzisimulira."
             }
           ]
         }
@@ -7926,6 +12266,14 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kila mzee anayefariki bila kupitisha maarifa yake kwa mrithi anawakilisha hasara isiyoweza kurudishwa. Hii si hasara ya kumbukumbu za mtu mmoja. Ni hasara ya kiungo katika mnyororo ambao unaweza kuwa hauvunjiki kwa karne nyingi. Ukivunjika, mnyororo hauwezi kurekebishwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kila mzee anayefariki bila kupitisha maarifa yake kwa mrithi anawakilisha hasara isiyoweza kurudishwa. Hii si upotevu wa kumbukumbu za mtu mmoja. Ni upotevu wa kiungo katika mnyororo ambao huenda haukuvunjika kwa karne nyingi. Ukishavunjika, mnyororo hauwezi kurekebishwa. Maarifa ambayo mzee huyo alikuwa nayo — nasaba maalum, mfuatano sahihi wa matukio, maana za kina za tafsiri — yamepotea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hifadhi ya historia simulizi ya mpango wa Chi-digo inalenga kurekodi na kuhifadhi sauti hizi: saa 100 za historia simulizi iliyorekodiwa, iliyoandikwa, na yenye ridhaa ifikapo Mwaka wa 3, ikipanda hadi saa 500 ifikapo Mwaka wa 5. Lakini kurekodi ni hatua ya kwanza tu. Changamoto kubwa zaidi ni kuunda ulimwengu ambao vijana wa Kidigo wanajiiona kama warithi wa maarifa haya — si kama watumiaji wa kawaida wa rekodi zilizohifadhiwa, bali kama kiungo kinachofuata katika mnyororo ambao haupaswi kuvunjika."
             }
           ],
           "dig": [
@@ -7976,6 +12324,18 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Chila mvyere anayefariki bila kupisha marifwa gakpwe kpwa mrithi anawakilisha hasara isiyoweza kurudhishwa. Hino si hasara ya kumbukumbu za mutu mmwenga. Ni hasara ya kiungo kpwa mnyororo ambao unaweza kukala taukuvundzika kpwa karne nyinji. Ukivundzika, mnyororo taweza kurekebishwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uharaka wa kuandika historia ya simulizi ya Adigo tauweza kupunguzwa. Akare ambao anariko na maarifa ga kpweli-kpweli ga historia anakala akare. Mfumo wa rika ambao kare wahakikisha kupishira kpwa utaratibu kula kizazi chimwenga cha akare hadi chanjce ukadzidhoofika. Makaya ambago gahifadhi kumbukumbu za historia gako hatarini. Na ana achanga ambao kala anafwaha kudzifundza historia ihi anadzitenga zaidi na zaidi na mazingira ga jadi — kambi, kaya, kikao cha usiku — ambamo kupishira kpwa kawaida kurahendeka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chila mkare ambaye anafwa bila kupishira maarifa gakpwe kpwa mutu wa kumuhala nafasi yakpwe ni hasara isiyoweza kuuyizwa. Ihi siye kupoteza kumbukumbu za mutu mmwenga. Ni kupoteza kiungo kpwenye mnyororo ambao unaweza kukala tauvundzwire kpwa miaka mia nyinji. Ukishavundzika, mnyororo tauweza kurekebishwa. Maarifa ambago mkare yuya kala anago — nasaba maalumu, mfuatano sahihi wa mambo garigohendeka, maana za ndani za tafsiri — gakapotea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hifadhi ya historia simulizi ya mpango wa Chi-digo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa gaga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
             }
           ]
         }
@@ -8127,6 +12487,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Ushairi wa kazi — nyimbo za uvuvi, za kilimo, za kupanda mnazi — ni aina ya kila siku zaidi ya ushairi wa mdomo wa Wadigo. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno yanaweza kubeba maana zaidi ya kazi ya papo hapo: wimbo wa uvuvi unaweza kujumuisha sala ya usalama, maoni kuhusu hali ya hewa, au utani unaodumisha morale wakati wa kazi ya kuchoka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe za unyago kwa jinsia zote mbili — *jando* kwa wavulana, *unyago* kwa wasichana — zinahusisha nyimbo ambazo zenyewe ni aina ya ushairi. Nyimbo hizi za unyago zinashughulikia:"
+            },
+            {
+              "type": "paragraph",
+              "text": "- Mahusiano ya ndoa na kanuni za kingono - Usafi wa maadili na matarajio ya kimaadili - Majukumu ya kijamii ya utu uzima - Uhusiano kati ya mtu binafsi na jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo hizo huimbwa katika mazingira ambayo yenyewe ni ya mpito — mvulana anayetoka katika kutengwa kwa tohara, msichana anayejiandaa kwa ndoa — na ushairi huashiria mpito huo. Maneno si ya bahati mbaya; ni njia ambayo jamii inampa mtu mchanga hadhi ya utu uzima. Kusikia nyimbo hizi, kuzielewa, na kuziendeleza ni kukubali majukumu ya utu uzima."
+            },
+            {
+              "type": "heading",
+              "text": "Nyimbo za Kazi na Vilio"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hazijandikwa sana lakini ni muhimu vivyo hivyo ni nyimbo zinazoambatana na kazi. Vilio vya uvuvi — kelele na nyimbo za mdundo zinazoratibu kuvuta nyavu au kupiga makasia ya mitumbwi ya ngalawa — ni aina ya ushairi wa simulizi ulioundwa na hitaji la kimwili. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno yanaweza kubeba maana zaidi ya kazi ya haraka: kilio cha uvuvi kinaweza kujumuisha dua ya usalama, maoni kuhusu hali ya hewa, au mzaha unaoweka moyo juu wakati wa kazi ngumu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo za kilimo zinaambatana na upanzi na mavuno. Wapiga tembo wana hazina yao ya nyimbo, zinazoimbwa wakati wa kupanda mti mrefu wa mnazi wenye hatari. Nyimbo za sokoni zinatangaza bidhaa. Nyimbo hizi za kazi ni aina ya kila siku zaidi ya ushairi wa simulizi wa Kidigo, na kwa sababu ni za kila siku, ndizo zilizo hatarini zaidi kupotea kadri kazi za jadi zinavyobadilishwa na njia za kisasa na mazingira ambayo zilikuwa zikiimbwa yanapotoweka."
+            },
+            {
+              "type": "heading",
+              "text": "Muundo wa Tathlitha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Washairi wa Kidigo wamechukua na kubadilisha muundo wa *Tathlitha* — ubeti wa mistari minne wenye kiitikio kinachorudiwa, uliochukuliwa kutoka mapokeo ya ushairi wa Kiarabu kupitia uhusiano wa muda mrefu wa pwani ya Kiswahili na ulimwengu wa Kiarabu. \"Idhilali na Kifo\" (\"Mateso na Kifo\") ya Mohammed Kirungu Said unatumia muundo huu kuonya vijana dhidi ya vurugu. Kurudia kwa Tathlitha kunakoshawishi kunaweka ujumbe akilini, na kuifanya kuwa njia bora ya mafundisho ya kimaadili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kubadilishwa huku kwa muundo wa Kiarabu katika muktadha wa Kidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Kidigo hauko peke yake. Unakopa kutoka Kiswahili, Kiarabu, na mapokeo mapana ya Afrika Mashariki, ukifyonza miundo ya nje na kuijaza maudhui ya Kidigo. Matokeo ni mapokeo ambayo ni ya kipekee ya Kidigo na sehemu ya ulimwengu mkubwa wa fasihi ya pwani."
             }
           ],
           "dig": [
@@ -8177,6 +12573,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Nyimbo za kazi — nyimbo za uvuvi, za ulimi, za kupanda mnazi — ni aina ya chila siku zaidi ya ushairi wa mdomo wa Adigo. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno ganaweza kubeba maana zaidi ya kazi ya pho hapo: wimbo wa uvuvi unaweza kujumuisha sala ya usalama au utani unaodumisha moyo wakati wa kazi ya kuchoshe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sherehe za jando na unyago kpwa jinsia zosi mbiri — *jando* kpwa avulana, *unyago* kpwa asichana — zinahusisha nyimbo ambazo zenyewe ni aina ya ushairi. Nyimbo zizi za jando na unyago zinagomba kuhusu:"
+            },
+            {
+              "type": "paragraph",
+              "text": "- Mahusiano ga ndoa na kanuni za chingono - Usafi wa maadili na matarajio ga kimaadili - Majukumu ga kijamii ga utu uzima - Uhusiano kahi ya mutu na jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo zizo zinaimbiwa kpwenye mazingira ambago genyewe ni ga mpito — mvulana anayetuluza kpwa kutengwa kpwa tohara, msichana anayedziandaa kpwa arusi — na ushairi unaonyesa mpito uwo. Maneno si ga bahati mbii; ni njira ambayo jamii inamupha kijana hadhi ya utu uzima. Kusikira nyimbo zizi, kuzimanya, na kuziendza mbere ni kukubali majukumu ga utu uzima."
+            },
+            {
+              "type": "heading",
+              "text": "Nyimbo za Kazi na Vilio"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tazikaandikwa sana ela ni muhimu vivyo hivyo ni nyimbo zinazoambatana na kazi. Vilio vya uvuvi — kelele na nyimbo za mdundo zinazoratibisha kuvuta nyavu au kupiga makasia ga mitumbwi ya ngalawa — ni aina ya ushairi wa simulizi uriyoumbwa ni hitaji ra chimwiri. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno ganaweza kukala na maana zaidi ya kazi ya sambi: kilio cha uvuvi chinaweza kuhusisha dua ya usalama, maneno kuhusu hali ya hewa, au mzaha unaoweka moyo dzulu wakati wa kazi ngumu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyimbo za ulimi zinaambatana na kupanda na kuvuna. Apiga tembo ana hazina yao ya nyimbo, zinazoimbwa wakati wa kupanda mnazi mure wenye hatari. Nyimbo za sokoni zinatangaza vidzitu. Nyimbo zizi za kazi ni aina ya chila siku zaidi ya ushairi wa simulizi wa Chidigo, na kpwa sababu ni za chila siku, ndizo zirizo hatarini zaidi kupotea wakati kazi za kare zinaphotsukizwa ni njira za kisasa na mazingira ambamo zirikala zinaimbwa ganaphotoweka."
+            },
+            {
+              "type": "heading",
+              "text": "Muundo wa Tathlitha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ashairi a Chidigo ahala na kubadilisha muundo wa *Tathlitha* — ubeti wa mishororo mine wenye kiitikio chirichorudiwa, uriohewa kula kpwa mapokeo ga ushairi wa Chiarabu kupitishira uhusiano wa muda mure wa pwani ya Chiswahili na ulimwengu wa Chiarabu. \"Idhilali na Kifo\" (\"Mateso na Chifo\") ya Mohammed Kirungu Said unatumira muundo uhu kuonya vijana kuhusu fujo. Kurudia kpwa Tathlitha kunakoshawishi kunaika ujumbe achilini, na kuihenda kukala njira nono ya mafundzo ga kimaadili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kubadilishwa kuku kpwa muundo wa Chiarabu kpwenye muktadha wa Chidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Chidigo taukoko peke yakpwe. Unakopa kula kpwa Chiswahili, Chiarabu, na mapokeo mapana ga Afrika ya Mashariki, ukimiza miundo ya kudze na kuiodzaza maudhui ga Chidigo. Maokeo ni mapokeo ambago ni ga chipekee ga Chidigo na sehemu ya ulimwengu mkulu wa fasihi ya pwani."
             }
           ]
         }
@@ -8685,6 +13117,10 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kubadilishwa kwa vikao vya vitendawili vya jioni na burudani ya skrini kunamaanisha kwamba utaratibu wa usambazaji unazidi kudhoofika. Watoto wanajifunza vitendawili vya Kiswahili shuleni — sehemu ya mtaala wa kitaifa wa fasihi ya mdomo — lakini vitendawili vya Kidigo kwa lugha ya Kidigo si sehemu ya programu yoyote ya shule. Vinaishi tu katika nyumba ambazo babu na bibi bado wanakusanya watoto baada ya chakula cha jioni na kutoa changamoto: *\"Kitendawili!\"*"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kupotea kwa vikao vya vitendawili vya jioni kwa sababu ya burudani za skrini kunamaanisha kwamba njia ya kueneza maarifa inazidi kudhoofika. Watoto hujifunza vitendawili vya Kiswahili shuleni — sehemu ya somo la fasihi simulizi katika mtaala wa kitaifa — lakini vitendawili vya Kidigo katika lugha ya Kidigo haviko katika programu yoyote ya shule. Vinasalia tu katika nyumba ambapo babu na bibi bado huwakusanya watoto baada ya chakula cha jioni na kutoa changamoto: *\"Kitendawili!\"*"
             }
           ],
           "dig": [
@@ -8739,6 +13175,10 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kubadilishwa kpwa vikao vya vimbunga vya dziloni na burudani ya skrini kunamanisha kukala utaratibu wa kupisha unazidi kudhoofika. Ana anajifundza vimbunga vya Chiswahili shuleni ela vimbunga vya Chidigo kpwa luga ya Chidigo si sehemu ya mpango wowosi wa shule. Vinaishi tu kpwa nyumba ambazo akuku bado anakusanya ana bada ya chakurya cha dziloni na kutoa changamoto: *\"Kitendawili!\"*"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutsukirwa kpwa vikao vya vitendawili vya usiku ni vyombo vya kuonyesa kunaamba njia ya kupishira maarifa inazidi kudhoofika. Ana anadzifundza vitendawili vya Chiswahili shuleni — sehemu ya somo ra fasihi simulizi kpwenye mtaala wa kitaifa — ela vitendawili vya Chidigo kpwa luga ya Chidigo taviko kpwenye programu yoyosi ya shule. Vinasala tu kpwenye nyumba ambazo akare bado anakusanya ana bada ya chakurya cha usiku na kuatsuphiya changamoto: *\"Kitendawili!\"*"
             }
           ]
         }
@@ -8898,6 +13338,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mpito kutoka mdomo hadi maandishi si kifo cha mila ya mdomo. Ni upanuzi wake katika chombo kipya. Vikao vya kusimulia hadithi jioni havihitaji kuisha ili riwaya ya Kidigo ianze. Vyote vinaweza kuishi pamoja — na kwa kweli, fasihi bora ya maandishi ya Kidigo itapata nguvu yake kutoka katika midundo, picha, na akili ya kimaadili ya mila ya mdomo iliyoitangulia kwa karne nyingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makusanyo haya yanaanza kuziba pengo kati ya mapokeo ya simulizi na ya maandishi, lakini yanashughulikia methali kama vielelezo vya kukusanywa badala ya vipengele hai vya utamaduni wa kifasihi. Hatua inayofuata — na hii ndiyo programu ya uzalishaji wa kitamaduni ya Chi-digo inavyotazamia — ni kuunda mazingira ambapo methali zinaonekana si katika kamusi bali katika hadithi, si katika maelezo ya kitaaluma bali katika mashairi, si kama vielelezo vilivyohifadhiwa bali kama vipengele hai vya fasihi ya Kidigo iliyoandikwa ambayo bado haipo."
+            },
+            {
+              "type": "heading",
+              "text": "Lahaja Nne, Kiwango Kimoja cha Maandishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya kuunda fasihi ya Kidigo iliyoandikwa inazidishwa na tofauti za lahaja. Lahaja nne za Chidigo zimeandikwa:"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Chinondo** — lahaja ya kaskazini. **Ungu** — inayozungumzwa kutoka Msambweni hadi mpaka wa Tanzania. **Ts'imba** — lahaja ya Milima ya Shimba. **Tsw'aka** (pia Chwaka) — inayozungumzwa katika eneo la Shimoni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiwango cha maandishi kinategemea hasa aina ya pwani ya Kenya — iliyoandikwa zaidi na yenye umuhimu mkubwa kwa jumuiya ya wasemaji. Lakini fasihi yoyote ya Kidigo iliyoandikwa lazima ishughulikie ukweli kwamba wasemaji katika maeneo tofauti wanaweza kuona kiwango rasmi kuwa kigeni katika mambo fulani. Njia iliyochukuliwa na kamusi ya Mgombato — kuandika aina tofauti bila kupendelea moja kama \"sahihi\" — inatoa mfano: fasihi ya maandishi inayokubali tofauti badala ya kuizuia."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachohitajika Kufanywa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengo kati ya mapokeo ya simulizi ya Kidigo na fasihi hai ya Kidigo iliyoandikwa ndilo pengo muhimu zaidi la kitamaduni ambalo mpango huu unalenga kuziba. Mapokeo ya simulizi yanatoa malighafi: methali, hadithi, miundo ya kishairi, hadithi za kihistoria, msamiati wa kimaadili. Kinachohitajika ni kizazi cha waandishi wa Kidigo ambao wanaweza kuchukua malighafi hii na kuibadilisha — si kunakili tu, bali kuibuni upya katika miundo ya maandishi ambayo inavutia kwenye ukurasa kama vile asili za simulizi zinavyovutia katika uigizaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii inamaanisha kuagiza hadithi fupi zilizoandikwa kwa Kidigo. Inamaanisha kuchapisha novela fupi — novela ya kwanza ya Kidigo iliyoagizwa, inayolengwa kwa Mwaka wa 3 wa mpango, itakuwa alama muhimu. Inamaanisha kuunda mkusanyo wa mashairi ya Kidigo. Inamaanisha kuanzisha tuzo ya uandishi inayowaambia wasemaji wa Kidigo: lugha yenu inastahili kuandikiwa, hadithi zenu zinastahili kusimuliwa kwa maandishi, na kuna hadhira inayosubiri kusoma mnachokiandika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mpito kutoka simulizi hadi maandishi si kifo cha mapokeo ya simulizi. Ni upanuzi wake katika njia mpya. Kikao cha usimulizi wa hadithi cha jioni hakihitaji kuisha ili riwaya ya Kidigo ianze. Vyote vinaweza kuishi pamoja — na kwa kweli, fasihi bora ya Kidigo iliyoandikwa itapata nguvu yake kutoka katika midundo, picha, na akili ya kimaadili ya mapokeo ya simulizi yaliyoitangulia kwa karne nyingi."
             }
           ],
           "dig": [
@@ -8952,6 +13428,42 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kupisha kula mdomo hadi maandishi si chifo cha mila ya mdomo. Ni kupanuka kwakpwe kpwa chombo chiphya. Vikao vya kuhadisi hadisi dziloni tavihitaji kuisha ili riwaya ya Chidigo iandze. Vyosi vinaweza kuishi phamwenga — na kpwa kpweli, fasihi bora ya maandishi ya Chidigo indapata nguvu yakpwe kula kpwa midundo, picha, na achili ya kimaadili ya mila ya mdomo iriyoitanguliya kpwa karne nyinji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makusanyo gaga ganaandza kuziba pengo kahi ya mapokeo ga simulizi na ga maandishi, ela ganashughulika misemo kukala vielelezo vya kukusanywa badala ya vipengele vya moyo vya utamaduni wa chifasihi. Hathwa inayolunga — na ihi ndiyo programu ya uzalishaji wa chitamaduni ya Chi-digo inavyotazamiya — ni kuumba mazingira ambamo misemo inaonekana si kpwenye kamusi ela kpwenye hadithi, si kpwenye maelezo ga chitaaluma ela kpwenye mashairi, si kukala vielelezo virivyohifadhiwa ela kukala vipengele vya moyo vya fasihi ya Chidigo iriyoandikwa ambayo bado taipo."
+            },
+            {
+              "type": "heading",
+              "text": "Lahaja Nye, Kiwango Chimwenga cha Maandishi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya kuumba fasihi ya Chidigo iriyoandikwa inazidishwa ni tofauti za lahaja. Lahaja nye za Chidigo zikaandikwa:"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Chinondo** — lahaja ya kaskazini. **Ungu** — inayogombwa kula Msambweni hadi mpaka wa Tanzania. **Ts'imba** — lahaja ya Myango ya Shimba. **Tsw'aka** (piya Chwaka) — inayogombwa kpwenye eneo ra Shimoni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiwango cha maandishi chinategemea zaidi aina ya pwani ya Kenya — iriyoandikwa zaidi na yenye umuhimu mkulu kpwa jamii ya agombi. Ela fasihi yoyosi ya Chidigo iriyoandikwa ni lazima ishughulikie ukpweli kukala agombi kpwenye maeneo tofauti anaweza kuona kiwango rasmi kukala chigeni kpwenye mambo fulani. Njira iriyohalwa ni kamusi ya Mgombato — kuandika aina tofauti bila kupendeleza mwenga kukala \"sahihi\" — inapha mfano: fasihi ya maandishi inayokubali tofauti badala ya kuizuwiya."
+            },
+            {
+              "type": "heading",
+              "text": "Garigolondeka Kuhendwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengo kahi ya mapokeo ga simulizi ga Adigo na fasihi ya moyo ya Chidigo iriyoandikwa ndiro pengo muhimu zaidi ra chitamaduni ambaro mpango uhu unalenga kuziba. Mapokeo ga simulizi ganapha malighafi: misemo, hadithi, miundo ya chishairi, hadithi za chihistoria, msamiati wa chimaadili. Garigolondeka ni chizazi cha aandishi a Chidigo ambao anaweza kuhala malighafi ihi na kuibadilisha — si kunakili tu, ela kuibuni luphya kpwenye miundo ya maandishi ambayo inavutiya kpwenye ukurasa dza asili za simulizi zinavyovutiya kpwenye uonyesho."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ihi inaamba kuagiza hadithi fupi zirizoandikwa kpwa Chidigo. Inaamba kuchapisha novela fupi — novela ya kpwandza ya Chidigo iriyoagizwa, inayolengwa kpwa Mwaka wa 3 wa mpango, indakala alama muhimu. Inaamba kuumba mkusanyo wa mashairi ga Chidigo. Inaamba kuandza tuzo ya uandishi inayoambira agombi a Chidigo: luga yenu inastahili kuandikiwa, hadithi zenu zinastahili kugombwa kpwa maandishi, na kuna asirikizadzi anaosubiri kusoma mrigochochiandika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mpito kula kpwa simulizi hadi maandishi si chifo cha mapokeo ga simulizi. Ni kupanuka kpwakpwe kpwenye njira nyiphya. Kikao cha usimulizi wa hadithi cha usiku tachilondeki kuisha ili riwaya ya Chidigo iandze. Vyosi vinaweza kuishi phamwenga — na kpwa kpweli, fasihi nono zaidi ya Chidigo iriyoandikwa indahala nguvu yakpwe kula kpwa midundo, picha, na achili ya chimaadili ya mapokeo ga simulizi garigoitangulia kpwa miaka mia minji."
             }
           ]
         }
@@ -9100,6 +13612,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uhusiano kati ya ulinzi wa kiroho na matokeo ya ikolojia unaonyesha ukweli wa kina: uhifadhi unaofaa unahitaji umiliki wa jamii, maana ya kitamaduni, na imani ya kweli katika thamani ya kitu kinachohifadhiwa. Kayas zinajumuisha asilimia 10 ya msitu wa pwani uliobaki nchini Kenya. Baadhi ya aina zipo peke yake ndani ya misitu ya kaya. Misitu mitakatifu ya Wadigo si masalia ya kizamani — ni mafanikio ya uhifadhi ya daraja la kwanza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa kaya una faida kadhaa ambazo uhifadhi wa kisasa unashindwa kuiga. Kwanza, utekelezaji ni wa kudumu na hauhitaji wafanyakazi wanaolipwa. Miiko hiyo imejikita ndani ya wanajamii tangu utotoni. Mtu aliyelelewa kuamini kwamba kukata mti wa kaya kutaleta msiba kwa familia yake hahitaji askari wa msitu kumzuia kufanya hivyo. Pili, mfumo huu unajiendesha wenyewe kifedha. Hauhitaji bajeti ya nje, mgawo wa serikali, wala msaada wa wafadhili. Tatu, unazalisha ushiriki wa kweli wa jamii badala ya utiifu wa kulazimishwa. Watu wanalinda kaya si kwa sababu watatozwa faini bali kwa sababu wanaamini msitu una umuhimu — kiroho, kitamaduni, na kivitendo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mapungufu yake pia ni makubwa. Mfumo wa miiko unategemea imani, na imani inaweza kudhoofishwa. Miji, elimu, kubadili dini, na kufahamiana na mitazamo mingine ya ulimwengu — yote haya yamedhoofisha nguvu ya imani za kiroho za jadi miongoni mwa vijana wa Kidigo. Kijana ambaye haogoopi tena hasira ya mababu anaweza kuona mti wa kaya kama mbao tu badala ya kitu kitakatifu. Mfumo huu pia hauna uwezo wa kutosha kupinga vitisho vya nje — kampuni ya uchimbaji madini yenye kibali cha serikali haizuiliwi na vikwazo vya kiroho, na mjenzi mwenye hati miliki hatazuiwa na marufuku ya mzee wa kaya. Historia ya Kaya Diani, iliyopunguzwa kutoka hekta 20 hadi vipande vidogo kwa sababu ya ujenzi wa hoteli, inaonyesha udhaifu huu kwa uwazi mkubwa."
+            },
+            {
+              "type": "heading",
+              "text": "Mgogoro wa Misitu ya Pwani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa kiikolojia wa kaya unaweza kueleweka tu kwa kuzingatia mgogoro mpana wa misitu ya pwani. Msitu wa pwani ya Afrika Mashariki ulikuwa ukanda unaoendelea kando ya Bahari ya Hindi, mojawapo ya maeneo yanayotambuliwa duniani kwa bioanuwai kubwa. Karne nyingi za shughuli za binadamu zimeupunguza hadi vipande vilivyotawanyika — sehemu za msitu zilizotenganishwa na mashamba, makazi, na vichaka. Kaya ni miongoni mwa vipande vikubwa na vilivyohifadhiwa vizuri zaidi, lakini bado ni vipande tu, na kutengana kwake kunaleta changamoto za kiikolojia ambazo hata mfumo bora wa miiko hauwezi kushughulikia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nadharia ya biojiografia ya visiwa inatabiri kwamba vipande vilivyotengwa vya makazi vitapoteza spishi polepole kadri muda unavyopita, hata kama makazi yenyewe yanabaki salama. Misitu midogo iliyotengwa haiwezi kusaidia idadi ya kutosha ya spishi zinazohitaji maeneo makubwa. Inaathiriwa na athari za pembezoni — mabadiliko ya mwanga, upepo, na unyevu kwenye mpaka wa msitu yanayobadilisha hali ya ndani. Haiwezi kujazwa tena na spishi zilizopotea kwa matukio ya bahati nasibu kwa sababu hakuna chanzo cha karibu cha idadi ya wanyama. Kaya zinakabiliwa na shinikizo hizi zote, na ukubwa wao mdogo — nyingi zinapimwa kwa hekta, si kilomita za mraba — zinazifanya ziwe hatarini zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndiyo maana usajili wa UNESCO wa Urithi wa Dunia wa Misitu Mitakatifu ya Kaya ya Mijikenda mwaka 2008 una umuhimu zaidi ya ishara. Unaleta umakini wa kimataifa, uwezekano wa ufadhili, na mfumo wa mipango ya usimamizi unaoweza kushughulikia changamoto ambazo mfumo wa jadi wa miiko peke yake hauwezi kukabiliana nazo. Kuteuliwa kwa Shimba Hills pamoja na Msitu wa Arabuko Sokoke kwa utambuzi kama huo kunaonyesha ufahamu unaokua wa kimataifa kwamba misitu ya pwani ya Afrika Mashariki haibadilishwi na iko hatarini sana."
+            },
+            {
+              "type": "heading",
+              "text": "Ulinzi wa Kiroho, Matokeo ya Kiikolojia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kati ya ulinzi wa kiroho na matokeo ya kiikolojia katika kaya si wa bahati nasibu tu. Unaonyesha ukweli wa kina kuhusu uhusiano kati ya utamaduni na mazingira ambao uhifadhi wa kisasa unaanza tu kuuthamini. Adigo hawakuanzisha miiko ya kaya kuhifadhi bioanuwai — walianzisha miiko hiyo kulinda nafasi takatifu, kuheshimu mababu, na kudumisha uadilifu wa kiroho wa jamii yao. Lakini kwa kufanya hivyo, waliunda mfumo wa uhifadhi ambao umedumu zaidi ya idara za misitu za kikoloni, huduma za wanyamapori baada ya uhuru, na programu nyingi za uhifadhi za kimataifa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Somo si kwamba imani ya kiroho ni mbadala wa uhifadhi wa kisayansi. Ni kwamba uhifadhi wenye ufanisi unahitaji umiliki wa jamii, maana ya kitamaduni, na imani ya kweli katika thamani ya kile kinachohifadhiwa. Misitu ya kaya inaonyesha kwamba jamii inapoamini msitu una umuhimu — umuhimu wa kweli, si kama jambo la mazingira lisilo na umbo bali kama uwepo hai unaounganishwa na utambulisho wao — watauilinda kwa ufanisi ambao hakuna mamlaka ya nje inayoweza kuufikia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kaya zinaunda takriban asilimia 10 ya msitu wa pwani uliobaki nchini Kenya. Baadhi ya spishi zipo tu ndani ya misitu ya kaya — spishi ambazo zingetoweka duniani kama vichaka hivi vingeondolewa. Misitu mitakatifu ya Adigo si kumbukumbu ya kale ya mawazo ya zamani. Ni mafanikio ya uhifadhi ya kiwango cha juu, na kuendelea kuwepo kwake ni suala la umuhimu wa kiikolojia wa kimataifa."
             }
           ],
           "dig": [
@@ -9138,6 +13690,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uhusiano kahi ya ulinzi wa kiroho na matokeo ga ikolojia unaonyesha ukpweli wa kina: uhifadhi unaofaa unahitaji umiliki wa jamii, maana ya chimila, na imani ya kpweli kpwa thamani ya chitu chinachohifadhiwa. Kayas zinajumuisha asilimia 10 ya msitu wa pwani uriosala nchini Kenya. Baadhi ya aina zipo peke yakpwe ndani ya misitu ya kaya. Misitu mihakatifu ya Adigo si masalia ga kizamani — ni mafanikio ga uhifadhi ga daraja ra kpwandza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mfumo wa kaya una manufaa manji ambago uhifadhi wa vivi sambi unahinywa kugaigaiza. Kpwa kpwandza, utekelezaji ni wa kuenderera na tauhitaji ahendadzi arioripishwa. Miiko yo yadziikira ndani ya atu a mudhini kula kare anakala adide. Mutu ariyekulizwa kukala kukata muhi wa kaya kundalehera msanga nyumbaye tahendahitaji murinzi kumzuwiya. Kpwa hiri, mfumo uno unadziendesha mwenye kpwa pesa. Tauhitaji bajeti ya ndze, mgawo wa serikali, wala msada wa afadhili. Kpwa hahu, unazalisha ushiriki wa kpweli wa mudhini badala ya kulunga kpwa kulazimishwa. Atu anarinda kaya si kpwa kukala andaripiwa faini ela kpwa kukala anaamini tsakani ina mana — chiroho, chimila, na chihenzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mapungufu ga mfumo uno nago ni makulu. Mfumo wa miiko unategemea imani, na imani inaweza kudhoofishwa. Midzi mikulu, elimu, kubadilisha dini, na kumanya mitazamo miphya ya dunia — gosi gaga gadhoofisha nguvu ya imani za chiroho za chimila kpwa avulana na asichana adide a Chidigo. Mulume mdide ambaye kaogopha tsona tsukizi za akare anaweza kuona muhi wa kaya dza mbao bahi badala ya chitu chitakatifu. Mfumo uno piya tauna uwezo wa kuzuwiya vitisho vya ndze — kampuni ya uchimbadzi madini yenye ruhusa ya serikali taizuwiywa ni miiko ya chiroho, na mdzendzi mwenye hati miliki kandazuwiywa ni mzee wa kaya kumukataza. Historia ya Kaya Diani, iriyophunguzwa kula hekta 20 hadi vipande vidide kpwa sababu ya kudzenga hoteli, inaonyesa udhaifu uno kpwa uwazi munji."
+            },
+            {
+              "type": "heading",
+              "text": "Kugaya kpwa Matsakani ga Ph'wani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Umuhimu wa chimaumbile wa kaya unaweza kumanywa bahi wakati unaangaliya kugaya kpwa matsakani ga ph'wani kpwa upana. Tsakani ya ph'wani ya Afrika ya Mmashariki kare yakala ni mkanda urioenderera kanda-kanda ya Bahari ya Kihindi, mwefo mmwenga wa dunia unaotambuliwa kpwa viumbe vinji tofauti-tofauti. Karne nyinji za shughuli za anadamu zigapunguza hadi vipande virivyotawanyika — sehemu za tsakani zirizotenganishwa ni mashamba, makazi, na vichaka. Kaya ni kahi ya vipande vikulu na virivyohifadhiwa vinono, ela ni vipande bahi, na kutengana kpwakpwe kunalehera matatizo ga chimaumbile ambago hata mfumo mnono wa miiko tauweza kushughulika nago."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nadharia ya biojiografia ya visiwa inatabiri kukala vipande virivyotengwa vya makazi vindarasa viumbe kadiri wakati unaenderera, hata makazi genye ganasala salama. Matsakani madide garigotengwa tagaweza kuterya idadi ya kutosha ya viumbe vinahitajiravyo maeneo makulu. Ganaathiriwa ni athari za mphaka — mabadiliko ga mwanga, phepho, na unyese kpwenye mphaka wa tsakani ganagobadilisha hali ya ndani. Tagaweza kudzazwa tsona ni viumbe virivyoangamizwa kpwa sababu ya kuhendeka kpwa bahati kpwa kukala taphana chanzo cha phephi cha idadi ya viumbe. Kaya zinakabiliana na mashinikizo gosi gaga, na ukubwa wadzo mdide — nyinji zinapimwa kpwa hekta, si kilomita za mraba — zinazihenda ziwe hatarini zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ndiyo mana usajili wa UNESCO wa Urithi wa Dunia wa Matsakani Matakatifu ga Kaya ga Amijikenda mwaka wa 2008 una mana zaidi ya ishara. Unalehera umakini wa kimataifa, uwezekano wa msada wa pesa, na mfumo wa mipango ya usimamizi unaoweza kushughulika na matatizo ambago mfumo wa chimila wa miiko bahi tauweza kukabiliana nago. Kuteuliwa kpwa Myango ya Shimba phamwenga na Tsakani ya Arabuko Sokoke kpwa utambuzi dza uwo kunaonyesa umanyisho unaokula wa kimataifa kukala matsakani ga ph'wani ya Afrika ya Mmashariki tagabadilishwa na gako hatarini sana."
+            },
+            {
+              "type": "heading",
+              "text": "Urindzi wa Chiroho, Matokeo ga Chimaumbile"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kahi ya urindzi wa chiroho na matokeo ga chimaumbile kahi ya kaya si wa bahati bahi. Unaonyesa ukpweli wa ndani kuhusu uhusiano wa chimila na mazingira ambao uhifadhi wa vivi sambi unaandza bahi kuuthamini. Adigo taadzaanzisha miiko ya kaya kuhifadhi viumbe — achianzisha kuhifadhi nafasi takatifu, kuheshimu akare, na kudumisha uadilifu wa chiroho wa mudhini wao. Ela kpwa kuhenda hivyo, achiunda mfumo wa uhifadhi ambao umedumu zaidi ya idara za matsakani za chikoloni, huduma za wanyama baada ya uhuru, na programu nyinji za uhifadhi za kimataifa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Somo si kukala imani ya chiroho ni mbadala wa uhifadhi wa chisayansi. Ni kukala uhifadhi wenye ufanisi unahitaji umiliki wa mudhini, mana ya chimila, na imani ya kpweli kahi ya thamani ya chire chinachohifadhiwa. Matsakani ga kaya ganaonyesa kukala mudhini unapoamini tsakani ina mana — mana ya kpweli, si dza jambo ra mazingira risiro na umbo ela dza uwepo wa uzima uriounganishwa na utambuzi wao — andairinda kpwa ufanisi ambao taphana mamlaka ya ndze inayoweza kuufikira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kaya zinaunda takribani asilimia kumi ya tsakani ya ph'wani iriyosala nchini Kenya. Viumbe vingine viko bahi ndani ya matsakani ga kaya — viumbe ambavyo vingaangamika duniani kaya zizi kala zitangolwa. Matsakani matakatifu ga Adigo si kumbukumbu ya kare ya mawazo ga kare. Ni mafanikio ga uhifadhi ga kiwango cha dza kpwa dza, na kuenderera kuwepo kpwakpwe ni dzambo ra umuhimu wa chimaumbile wa dunia yosi."
             }
           ]
         }
@@ -9285,6 +13877,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mifumo ya monsuni inayoendelea kwa karne inakuwa isiyotegemewa. Misimu inafika kuchelewa au haikuja kabisa. Mvua wakati mwingine inanyesha kwa nguvu ya uharibifu. Mawimbi ya joto ni marefu zaidi. Mito mingi ya msimu imekauka kabisa. Kupanda kwa kina cha bahari kunaongeza chumvi katika visima vya maji safi. Kwa Wadigo, mabadiliko ya hali ya hewa si tishio la siku zijazo — ni ukweli wa sasa unaopitwa katika mavuno yaliyoshindwa na visima vilivyokauka."
+            },
+            {
+              "type": "heading",
+              "text": "Uhaba wa Maji"
+            },
+            {
+              "type": "paragraph",
+              "text": "Takwimu zinaeleza hali ngumu. Mahitaji ya maji ya kila siku ya Kaunti ya Kwale ni takriban mita za ujazo 220,000. Ugavi unafikia mita za ujazo 30,000 hadi 35,000 peke yake — takriban asilimia 15 ya kinachohitajika. Upungufu huu si nadharia tupu. Unamaanisha wanawake na wasichana kutembea masaa mengi kukusanya maji. Unamaanisha mifugo inakufa miaka ya ukame. Unamaanisha mazao yanashindwa si kwa sababu udongo ni mbaya au mkulima hana ujuzi, bali kwa sababu hakuna maji ya kutosha kuyahifadhi. Unamaanisha kwamba chemichemi za maji chini ya ardhi ya ukanda wa pwani, ambazo zingeweza kupunguza pengo hilo kwa kiasi, zinazidi kupungua kwa sababu ya hoteli za watalii ambazo mabwawa yao ya kuogelea na bustani zao za umwagiliaji zinatumia maji ambayo jamii zinahitaji sana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhaba wa maji unaathiri kila kitu: afya, elimu, uhusiano wa kijinsia, fursa za kiuchumi. Katika maeneo makavu zaidi, kutafuta maji kunatawala maisha ya kila siku hadi hakuna nafasi ya kitu kingine. Hii ndiyo muktadha ambao mito ya kudumu — Marere, Mwaluganje, Ramisi — inapata umuhimu wake. Si vijito tu. Ni tofauti kati ya kuishi na kuachwa kwa jamii zilizo kando ya kingo zake."
+            },
+            {
+              "type": "heading",
+              "text": "Hali ya Hewa na Kilimo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kilimo cha Kidigo kimerekebishwa kulingana na mzunguko wa monsuni kwa karne nyingi. Kilimo cha jadi kinafuata kalenda za msimu zinazounganisha mifumo ya mvua na ratiba za kupanda, uchaguzi wa mazao, na wakati wa mavuno. Mazao makuu ya chakula — maharagwe, muhogo, mahindi, na kunde — yanachaguliwa kwa sehemu kwa uwezo wao wa kukomaa ndani ya mipaka ya dirisha la mvua lililopatikana. Nazi, ambazo hazihitaji wakati sahihi, zinatawala ukanda wa pwani. Mazao ya biashara ikiwa ni pamoja na korosho, miwa, pamba, na ufuta yanasaidia mapato ya kaya lakini yako hatarini kwa kutobadilika kwa mvua."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utabiri wa hali ya hewa wa jadi unatokana na maarifa makubwa ya uchunguzi: miundo ya mawingu, mwelekeo na nguvu ya upepo, tabia za wanyama kama mifumo ya uhamaji wa ndege na shughuli za wadudu, fenolojia ya mimea ikiwa ni pamoja na mizunguko ya maua na matunda, na awamu za mwezi. Maarifa haya, yanayopitishwa kupitia mapokeo ya mdomo, yanawakilisha vizazi vya uchunguzi uliokusanywa. Si ushirikina bali ni sayansi ya uzoefu — utambuzi wa mifumo ulioendelezwa kwa karne nyingi za umakini wa karibu kwa ulimwengu wa asili. Wakulima wa Kidigo hawakuhitaji vituo vya hali ya hewa kujua kwamba ndege fulani walipoonekana, mvua ilikuwa inakuja, au kwamba miti fulani ilipochanua mapema, msimu ungekuwa mfupi."
+            },
+            {
+              "type": "heading",
+              "text": "Hali ya Hewa na Sherehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mzunguko wa monsuni hautawali kilimo tu. Unapanga kalenda ya sherehe, mdundo wa maisha ya kijamii, na wakati wa shughuli za pamoja. Ibada fulani zinahusishwa na kuja kwa mvua — sala za msimu mzuri, sadaka katika maeneo matakatifu, mikutano ya jamii inayoashiria mabadiliko kutoka ukavu hadi mvua. Kipindi cha mavuno kinaleta sherehe zake, shukrani zake, na wajibu wake wa kijamii. Hata uvunaji wa tembo — desturi hiyo ya kipekee ya Kidigo — unafuata midundo ya msimu, ambapo mazao ya utomvu yanabadilika kulingana na mvua na joto. Ukame unapunguza mtiririko wa utomvu, kupunguza si kinywaji tu bali taasisi ya kijamii, kwa kuwa mikutano ya tembo ni miongoni mwa maeneo makuu ya ujamii wa wanaume wa Kidigo na majadiliano ya jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Mabadiliko ya Tabianchi: Mfumo Unaovunjika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mifumo ya monsuni iliyodumisha maisha ya Kidigo kwa karne nyingi inakuwa isiyotegemewa. Mabadiliko ya tabianchi yanabadilisha wakati, muda, na ukali wa mvua kwa njia ambazo maarifa ya jadi hayawezi kutabiri kikamilifu. Misimu inafika kuchelewa au haifiki kabisa. Mvua inapokuja, wakati mwingine inanyesha kwa nguvu za uharibifu — kufurika mashamba, kumomonyoa udongo wa juu, kuosha virutubishi vinavyofanya ardhi kuwa yenye tija. Mawimbi ya joto ni marefu na ya mara kwa mara zaidi, yanayoathiri mazao, mifugo, na watu. Mito mingi ya msimu ambayo ilikuwa inatiririsha wakati wa mvua imekauka kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matokeo yanasambaa kupitia kila nyanja ya maisha. Kilimo kinakuwa kamari badala ya riziki. Bei za chakula zinapanda wakati wa misimu iliyoshindwa. Vijana wanaondoka maeneo ya mashambani kwenda Mombasa na mbali zaidi, kutafuta njia mbadala za kilimo. Mifumo ya utabiri wa hali ya hewa ya jadi inapoteza uaminifu kadri mifumo waliyojengwa kuisoma haishiki tena. Mmomonyoko wa pwani unakua kasi kadri dhoruba za bahari zinavyokuwa za mara kwa mara na zenye nguvu zaidi. Kupanda kwa usawa wa bahari kunaongeza chumvi katika chemichemi za pwani, kuchafua maji safi ambayo jamii za pwani zinayategemea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa Adigo, mabadiliko ya tabianchi si tishio la siku zijazo linalojadiliwa katika mikutano ya kimataifa. Ni ukweli wa sasa unaoonekana katika mavuno yaliyoshindwa, visima vilivyokauka, na umbali unaokua kati ya ulimwengu ambao babu zao waliujua na ule wanaoishi ndani yake sasa. Pepo za monsuni bado zinavuma. Lakini hazibeba tena ahadi ile ile."
             }
           ],
           "dig": [
@@ -9327,6 +13967,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mifumo ya monsuni inayoendelea kpwa karne inakala isiyotegemewa. Misimu inafika kuchelewa au taifika kabisa. Mvua wakati mwingine inanyesha kpwa nguvu ya uharibifu. Mawimbi ga dzoho ni mare zaidi. Miho minji ya msimu imekauka kabisa. Kupanda kpwa china cha bahari kunaongeza chumvi kpwa visima vya madzi maphya. Kpwa Adigo, mabadiliko ga hali ya hewa si tishio ra siku zidzadzo — ni ukpweli wa sambi unaopishirwa kpwa mavuno garigoshindwa na visima virivyokauka."
+            },
+            {
+              "type": "heading",
+              "text": "Upungufu wa Madzi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Idadi zinaeleza hali ngumu. Mahitaji ga madzi ga chila siku ga Kaunti ya Kwale ni takribani mita za ujazo 220,000. Ugavi unafikira mita za ujazo 30,000 hadi 35,000 bahi — takribani asilimia 15 ya garigohitajika. Upungufu uno si nadharia bahi. Unamanisha achetu na asichana kutembea masaa manji kukusanya madzi. Unamanisha mifugo inafwa miaka ya jua kali. Unamanisha mimera inashindwa si kpwa sababu muongo ni mui au murimi kana ujuzi, ela kpwa kukala taphana madzi ga kutosha kuyaterya. Unamanisha kukala chemichemi za madzi za tsini ya muongo wa ukanda wa ph'wani, ambazo zingeweza kupunguza pengo riro kpwa chidide, zinazidi kupunguzwa ni hoteli za agenyi ambazo mabwawa gao ga kuogerea na bustani zao za kumwagiriya zinatumira madzi ambago midhini inahitaji sana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Upungufu wa madzi unaathiri chila chitu: afya, elimu, uhusiano wa achetu na alume, nafasi za chiuchumi. Kahi ya maeneo makavu zaidi, kutafuta madzi kunatawala maisha ga chila siku hadi taphana nafasi ya chitu chingine. Uno ndio muktadha ambamo miho ya kudumu — Marere, Mwaluganje, Ramisi — inapata umuhimu wakpwe. Si miho bahi. Ni tofauti kahi ya kuishi na kurichwa kpwa midhini iriyo kanda-kanda ya kingo zakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Hali ya Hewa na Ulimi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulimi wa Adigo umerekebishwa kulingana na mzunguko wa monsuni kpwa karne nyinji. Ulimi wa chimila unalungira kalenda za msimu zinazounganiha mifumo ya mvula na ratiba za kupanda, uchaguzi wa mimera, na wakati wa mavuno. Mimera mikulu ya chakula — maharagwe, muhogo, mahindi, na kunde — inatsagulwa kpwa sehemu kpwa uwezo wakpwe wa kukomaa ndani ya miphaka ya dirisha ra mvula riropatikana. Nazi, ambazo tazihitaji wakati sahihi, zinatawala ukanda wa ph'wani. Mimera ya biashara ikiwemo korosho, miwa, pamba, na ufuta inasaidiya mapato ga nyumba ela iko hatarini kpwa kubadilika kpwa mvula."
+            },
+            {
+              "type": "paragraph",
+              "text": "Utabiri wa hali ya hewa wa chimila unatokana na maarifa makulu ga uchunguzi: miundo ya maingu, mwelekeo na nguvu ya phepho, tabia za nyama dza mifumo ya uhamaji wa nyuni na shughuli za wadudu, fenolojia ya mimera ikiwemo mizunguko ya maridza na matunda, na awamu za mwezi. Maarifa gaga, ganagophishwa kupitira mapokeo ga kanwa, ganawakilisha vizazi vya uchunguzi uriokusanywa. Si ushirikina ela ni sayansi ya uzoefu — utambuzi wa mifumo urioendezwa kpwa karne nyinji za umakini wa phephi kpwa ulimwengu wa asili. Arimi a Chidigo taahitaji vituo vya hali ya hewa kumanya kukala nyuni fulani ariphoonewa, mvula yakala inakudza, au kukala mihi fulani iriphocheza maridza mapema, msimu ungakala mfupi."
+            },
+            {
+              "type": "heading",
+              "text": "Hali ya Hewa na Sherehe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mzunguko wa monsuni tautawala ulimi bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kudza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya mudhini inayoashiriya kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinalehera sherehe zakpwe, shukrani zakpwe, na wajibu wakpwe wa chidzamii. Hata uvunaji wa tembo — desturi iyo ya chipekee ya Chidigo — unalungira midundo ya msimu, ambapho mazao ga utomvu ganabadilika kulingana na mvula na dzoho. Jua kali rinapunguza mtiririko wa utomvu, kupunguza si chinywadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya tembo ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga mudhini."
+            },
+            {
+              "type": "heading",
+              "text": "Kubadilika kpwa Hali ya Hewa: Mfumo Unavundzika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mifumo ya monsuni iriyodumisha maisha ga Adigo kpwa karne nyinji inakala isiyotegemewa. Kubadilika kpwa hali ya hewa kunabadilisha wakati, muda, na ukali wa mvula kpwa njira ambazo maarifa ga chimila tagaweza kutabiri kabisa. Misimu inafika kuchelewa au taifika kabisa. Mvula inaphodza, wakati wingine inanyesha kpwa nguvu za uharibifu — kufurisha mashamba, kumomonyoa muongo wa dzulu, kuosha virutubishi vinavyohenda tsi kukala yenye tija. Mawimbi ga dzoho ni mare na ga kpwangera zaidi, ganaathiri mimera, mifugo, na atu. Miho minji ya msimu ambayo kare yakala inaendesha wakati wa mvula ikauma kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Matokeo ganasambaa kupitira chila nyanja ya maisha. Ulimi unakala kamari badala ya riziki. Bei za chakula zinapanda wakati wa misimu iriyoshindwa. Avulana na asichana anauka maeneo ga mashambani kuphiya Mombasa na kure zaidi, kutafuta njira mbadala za ulimi. Mifumo ya utabiri wa hali ya hewa ya chimila inaangamiza uaminifu kadiri mifumo iriyodzengwa kuisoma taishiki tsona. Kumomonyoka kpwa ph'wani kunakula kasi kadiri dhoruba za bahari zinavyokala za kpwangera na zenye nguvu zaidi. Kupanda kpwa usawa wa bahari kunaenjereza chumvi kahi ya chemichemi za ph'wani, kuchafuwa madzi ga baridi ambago midhini ya ph'wani inagategemea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa Adigo, kubadilika kpwa hali ya hewa si chitisho cha siku zidzo chinachojadiliwa kahi ya mikutano ya kimataifa. Ni ukpweli wa vivi sambi unaoonewa kahi ya mavuno garigoshindwa, visima virivyouma, na umbali unaokula kahi ya dunia ambayo akare ao amanya na iyo anaishi ndaniye sambi. Phepho za monsuni bado zinavuma. Ela tazitsukula tsona ahadi iyo-iyo."
             }
           ]
         }
@@ -9466,6 +14154,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hifadhi ya Tembo ya Mwaluganje inatoa mfano mmoja wa suluhu — umiliki wa jamii, ambapo wamiliki wa ardhi 260 wanakodisha mashamba yao kwa hifadhi na kupokea mapato ya utalii yanayozidi mapato ya kilimo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vilima vya Shimba ni makazi ya kundi la mwisho la kuzaliana la paa mweusi wa Roosevelt nchini Kenya — takriban wanyama 100 wanaowakilisha idadi yote inayowezekana ya nchi ya spishi ndogo hii. Paa mweusi ni miongoni mwa mamalia wakubwa wa kuvutia zaidi wa Afrika: mnyama mwenye nguvu aliye na pembe ndefu zilizopinda na muundo mweusi-na-mweupe wa uso ambao umeufanya kuwa ishara ya picha za wanyamapori wa Afrika. Spishi ndogo ya Roosevelt, asilia ya pwani ya Afrika Mashariki, imeondolewa kutoka sehemu kubwa ya eneo lake la kihistoria kwa kupoteza makazi na uwindaji. Idadi ya Shimba Hills ni masalia, na kuishi kwake kunategemea kabisa uadilifu unaoendelea wa mchanganyiko wa nyika na msitu wa hifadhi."
+            },
+            {
+              "type": "heading",
+              "text": "Tembo wa Vilimani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hifadhi hii inasaidia moja ya idadi kubwa zaidi ya tembo nchini Kenya — zaidi ya wanyama 500 wanaoishi katika eneo dogo kiasi. Mkusanyiko huu, ingawa ni mafanikio ya uhifadhi kwa upande mmoja, unaleta changamoto kubwa. Eneo la tembo linaenea nje ya mipaka ya hifadhi, kuwaleta katika mguso — na mgogoro — na jamii za wakulima wa Kidigo. Kabla ya kuanzishwa kwa Hifadhi ya Tembo ya Mwaluganje mwaka 1995, mashambulizi ya tembo kwa mazao yalikuwa chanzo cha kudumu cha mvutano. Tembo wangeshuka kutoka vilimani usiku, kuharibu kwa masaa yale ambayo familia ilikuwa imepalilia kwa miezi. Hifadhi hiyo, iliyoundwa kama ukanda wa kuunganisha kati ya Hifadhi ya Msitu wa Mwaluganje na Vilima vya Shimba, iliwapa tembo njia ya uhamaji na kupunguza — ingawa haikuondoa kabisa — mgogoro huo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Idadi ya tembo pia inaumba msitu wenyewe. Tembo ni wahandisi wa mfumo wa ikolojia, wanaofungua maeneo ya wazi, kutawanya mbegu, na kudumisha mchanganyiko wa nyika na msitu unaosaidia bioanuwai ya hifadhi. Kulisha kwao kunazuia msitu kufungwa kabisa, kuunda makazi ya pembezoni ambapo spishi nyingi zinastawi. Mfumo wa ikolojia wa Shimba Hills ni, kwa maana halisi, mandhari iliyoundwa na tembo."
+            },
+            {
+              "type": "heading",
+              "text": "Anga Lililojaa Ndege"
+            },
+            {
+              "type": "paragraph",
+              "text": "Spishi zaidi ya 100 za ndege zimerekodiwa katika Vilima vya Shimba, ikiwa ni pamoja na 22 ambazo ni za kipekee au karibu za kipekee kwa misitu ya pwani ya Afrika Mashariki. Hifadhi hii ni mahali pa kuvutia wataalam wa ndege na watazamaji wa ndege wanaovutiwa na spishi ambazo haziwezi kuonekana kwa uhakika mahali pengine nchini Kenya. Dari ya msitu, maeneo ya wazi ya nyika, na maeneo ya mpito kati yao yanaunda aina mbalimbali za makazi yanayosaidia ndege wenye aina nyingi sawa. Kwa Adigo, ndege kijadi wamehudumia majukumu ya kivitendo na ya uzuri — mifumo yao ya uhamaji na mabadiliko ya tabia ni miongoni mwa viashiria vya jadi vinavyotumiwa kutabiri hali ya hewa na wakati wa mvua za monsuni."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Kidigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano kati ya Adigo na Vilima vya Shimba ni wa kale na mgumu, na kuanzishwa kwa hifadhi ya kitaifa katika karne ya ishirini kuliongeza safu ya mvutano inayoendelea hadi leo. Mpaka wa hifadhi unachora mstari kupitia eneo ambalo Adigo wametumia kwa karne nyingi — kukusanya mimea ya dawa, kupata udongo wa ufinyazi, kukusanya bidhaa za msitu, na kufikia misitu mitakatifu ya kaya ndani ya vilima. Kanuni za uhifadhi zinazuia shughuli hizi kwa viwango tofauti, kuunda mgogoro kati ya mahitaji ya ulinzi wa bioanuwai na haki za kimila za jamii ambazo mababu zao waliishi vilimani muda mrefu kabla ya serikali yoyote kuchora ramani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mashapo ya udongo katika Vilima vya Shimba yana umuhimu maalum wa kitamaduni. Ufinyazi wa Kidigo — vyombo vya matumizi ya kupikia, kuhifadhi, na maji — umekuwa ukitengenezwa kwa udongo wa Shimba Hills kwa vizazi vingi. Maarifa ya wapi kupata udongo sahihi, jinsi ya kuushughulikia, na jinsi ya kuuchomea ni ujuzi maalum unaopitishwa kutoka fundi hadi fundi. Vizuizi vya kukusanya udongo ndani ya hifadhi vinatishia si riziki tu bali pia desturi ya ufundi iliyojikita katika mandhari."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kukusanya mimea ya dawa kunaonyesha mvutano kama huo. Misitu ya Vilima vya Shimba inafanya kazi kama kile mtaalamu mmoja wa mimea ya kikabila aliita \"duka la dawa hai\" — chanzo cha majani ya antibiotic, mizizi ya antihistamini, na utomvu wa dawa ambao waganga wa Kidigo wameitegemea kwa karne nyingi. Utafiti wa Mohamed Pakia wa mimea ya kikabila uliandika takriban majina 500 ya mimea katika lugha ya Kidigo na kutambua maarifa mengi maalum miongoni mwa waganga. Maarifa haya yanalenga mazoezi na yanategemea eneo — yanategemea kuendelea kufikia misitu ambapo mimea hii inakua."
+            },
+            {
+              "type": "heading",
+              "text": "Uhifadhi na Jamii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Changamoto ya Shimba Hills ni changamoto inayokabili maeneo yaliyolindwa kote katika nchi zinazoendelea: jinsi ya kuoanisha nia ya kimataifa ya uhifadhi wa bioanuwai na hali halisi ya ndani ya jamii ambazo riziki na desturi zao za kitamaduni zinategemea kufikia rasilimali sawa ambazo uhifadhi unataka kulinda. Hifadhi ya Tembo ya Mwaluganje inatoa mfano mmoja — umiliki wa jamii, ambapo takriban wamiliki 260 wa ardhi wanakodisha mashamba yao kwa hifadhi na kupokea mapato ya utalii yanayozidi yale ardhi iliyozalisha kupitia kilimo. Lakini swali pana la jinsi Adigo wanavyohusiana na hifadhi ya kitaifa iliyochongwa kutoka eneo lao la mababu linabaki bila jibu, mazungumzo yanayoendelea kizazi baada ya kizazi kati ya madai ya ikolojia na madai ya utamaduni."
             }
           ],
           "dig": [
@@ -9504,6 +14240,54 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Hifadhi ya Ndzovu ya Mwaluganje inatoa mfano mmwenga wa suluhu — umiliki wa jamii, ambapho amiliki wa ardhi 260 anakodisha mashamba gao kpwa hifadhi na kupokea mapato ga utalii ganagozidi mapato ga ulimi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Myango ya Shimba ni makazi ga kundi ra mwisho ra kuzalishana ra palahala (paa mweusi) wa Roosevelt nchini Kenya — takribani nyama 100 anaowakilisha idadi yosi inayowezekana ya tsi iyo ya aina ndide iyi. Palahala ni kahi ya nyama akulu a kuvutiya zaidi a Afrika: nyama mwenye nguvu ariye na pembe ndere zirizo pinda na muundo mweusi-na-mwereru wa uso ambao umuhenize kukala ishara ya vipishi vya nyama a tsakani a Afrika. Aina ndide ya Roosevelt, asilia ya ph'wani ya Afrika ya Mmashariki, imetoswa kula sehemu kulu ya eneo rakpwe ra kare kpwa kupoteza makazi na kuwindwa. Idadi ya Myango ya Shimba ni masalia, na kuishi kpwakpwe kunategemea kabisa uadilifu wa kuenderera wa mchanganyiko wa nyika na tsakani wa hifadhi."
+            },
+            {
+              "type": "heading",
+              "text": "Ndzovu a Myangoni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hifadhi iyo inaterya mwefo mmwenga wa idadi kulu zaidi ya ndzovu nchini Kenya — zaidi ya nyama 500 anaoishi kahi ya eneo dide chiasi. Mkusanyiko uno, ingawa ni mafanikio ga uhifadhi kpwa upande mumwenga, unalehera matatizo makulu. Eneo ra ndzovu rinaenderera ndze ya miphaka ya hifadhi, kuwalehera kahi ya mguso — na mgogoro — na midhini ya arimi a Chidigo. Kabila ya kuanzishwa kpwa Hifadhi ya Ndzovu ya Mwaluganje mwaka wa 1995, mashambulio ga ndzovu kpwa mimera gakala ni chanzo cha kudumu cha mvutano. Ndzovu angeshuka kula myangoni usiku, kuharibu kpwa masaa gare ambago nyumba yakala ikarimira kpwa miezi. Hifadhi iyo, iriyoundwa dza ukanda wa kuunganisha kahi ya Hifadhi ya Tsakani ya Mwaluganje na Myango ya Shimba, yapha ndzovu njira ya uhamaji na kupunguza — ingawa taiyatosa kabisa — mgogoro uwo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Idadi ya ndzovu piya inaunda tsakani yenye. Ndzovu ni ahandisi a mfumo wa chimaumbile, anafungula maeneo ga wazi, kutawanya mbeyu, na kudumisha mchanganyiko wa nyika na tsakani unaosaidiya viumbe vinji vya hifadhi. Kurisha kpwao kunazuwiya tsakani kufungwa kabisa, kuunda makazi ga miphaka ambapho viumbe vinji vinastawi. Mfumo wa chimaumbile wa Myango ya Shimba ni, kpwa mana ya kpweli, mandhari iriyoundwa ni ndzovu."
+            },
+            {
+              "type": "heading",
+              "text": "Mlunguni Murioodzala Nyuni"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aina zaidi ya 100 za nyuni zikarekodiwa kahi ya Myango ya Shimba, ikiwemo 22 ambazo ni za chipekee au phephi na chipekee kpwa matsakani ga ph'wani ya Afrika ya Mmashariki. Hifadhi iyo ni phatu pha kuvutiya ataalamu a nyuni na aangalizi a nyuni anaovutiywa ni aina ambazo taziweza kuonewa kpwa uhakika phatu phengine nchini Kenya. Dari ya tsakani, maeneo ga wazi ga nyika, na maeneo ga kuphishana kahi yao ganaunda aina nyinji za makazi zinazosaidiya nyuni a aina nyinji sawa. Kpwa Adigo, nyuni kare ahudumiya majukumu ga chihenzi na piya ga uzuri — mifumo yao ya uhamaji na mabadiliko ga tabia ni kahi ya viashiriya vya chimila vinavyohumirwa kutabiri hali ya hewa na wakati wa mvula za monsuni."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Adigo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uhusiano wa Adigo na Myango ya Shimba ni wa kare na wa ngumu, na kuanzishwa kpwa hifadhi ya chitaifa kahi ya karne ya mirongo miiri kuchiendjereza chitabaka cha mvutano chinachoendesha hadi rero. Mphaka wa hifadhi unachora mstari kupitira eneo ambaro Adigo aritumire kpwa karne nyinji — kukusanya mimera ya dawa, kupata udongo wa ufinyazi, kukusanya vitu vya tsakani, na kufikira matsakani matakatifu ga kaya ndani ya myango. Kanuni za uhifadhi zinazuwiya shughuli zizi kpwa viwango tofauti, kuunda mgogoro kahi ya mahitaji ga urindzi wa viumbe na haki za chimila za midhini ambayo akare ao adzisagala myangoni muda mure kabila ya serikali yoyosi kuchora ramani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mashapo ga udongo kahi ya Myango ya Shimba gana umuhimu maalumu wa chimila. Ufinyazi wa Chidigo — vyombo vya kuhumirwa vya kupikira, kuhifadhi, na madzi — ukakala ukitengezwa kpwa udongo wa Myango ya Shimba kpwa vizazi vinji. Kumanya kpwa phatu pha kupata udongo mnono, njira ya kuushughulika, na njira ya kuuochera ni ujuzi maalumu unaophishwa kula fundi hadi fundi. Vizuizi vya kukusanya udongo ndani ya hifadhi vinatishiya si riziki bahi ela piya desturi ya ufundi iriyodzikira kahi ya mandhari."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kukusanya mimera ya dawa kunaonyesa mvutano dza uwo. Matsakani ga Myango ya Shimba ganahenda kazi dza chire mtaalamu mmwenga wa mimera ya chimila achichiha \"duka ra dawa hai\" — chanzo cha makodza ga antibiotic, mizizi ya antihistamini, na utomvu wa dawa ambao aganga a Chidigo autegemee kpwa karne nyinji. Utafiti wa Mohamed Pakia wa mimera ya chimila waandika takribani madina 500 ga mimera kpwa luga ya Chidigo na kutambua maarifa manji maalumu kahi ya aganga. Maarifa gaga ganalenga mazoezi na ganategemea eneo — ganategemea kuenderera kufikira matsakani ambamo mimera iyi inakula."
+            },
+            {
+              "type": "heading",
+              "text": "Uhifadhi na Mudhini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tatizo ra Myango ya Shimba ni tatizo rinaro hifadhi zirizorindwa kosi duniani kahi ya tsi zinazoenderera: njira ya kupatanisha nia ya kimataifa ya uhifadhi wa viumbe na hali ya kpweli ya midhini ambayo riziki na desturi zao za chimila zinategemea kufikira rasilimali zizo-zizo ambazo uhifadhi unataka kurinda. Hifadhi ya Ndzovu ya Mwaluganje inapha mfano mumwenga — umiliki wa mudhini, ambapho takribani enye tsi 260 anakodisha mashamba gao kpwa hifadhi na kupokera mapato ga ugenyi ganagozidi gare tsi iriyozalisha kupitira ulimi. Ela swali pana ra njira Adigo anavyohusiana na hifadhi ya chitaifa iriyotsongwa kula eneo rao ra akare rinasala bila jibu, mazungumzo ganaenderera kizazi baada ya kizazi kahi ya madai ga chimaumbile na madai ga chimila."
             }
           ]
         }
@@ -9635,6 +14419,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo la ajabu kuhusu Wadigo ni jinsi utambulisho mmoja wa kitamaduni ulivyodumishwa katika mandhari ambayo yanahitaji njia tofauti za maisha. Mvuvi wa Msambweni, mkulima wa nazi, mganga anayekusanya mimea milimani, na mfugaji wa Nyika wote wanashiriki lugha, mfumo wa ukoo, na jiografia ya kiroho inayoelekezwa na misitu ya kaya."
+            },
+            {
+              "type": "heading",
+              "text": "Uwanda wa Chini wa Vilima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ukipanda hadi kati ya mita 60 na 135 juu ya usawa wa bahari, uwanda wa chini wa vilima ni eneo la mpito kati ya pwani na vilima. Hapa ndipo kilimo kingi cha makazi cha kaunti kinafanyika — udongo ni bora kuliko mchanga wa pwani, mwinuko unatoa faraja kidogo kutoka joto la pwani, na mvua inatosha kwa kilimo cha kujikimu miaka mingi. Muhogo, mahindi, maharagwe, na kunde ni mazao makuu. Korosho, ufuta, na pamba hutumika kama mazao ya biashara, ingawa mavuno yake si thabiti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uwanda wa chini wa vilima ndipo ambapo idadi kubwa ya watu wa Kwale wanaishi na kulima. Ni eneo la mkulima mdogo, shamba la familia, mdundo wa msimu wa kupanda na kuvuna unaofuata mvua za monsuni. Maisha hapa yanaundwa na mvua ndefu kuanzia Machi hadi Juni na mvua fupi kuanzia Oktoba hadi Desemba. Kati ya misimu hii, ardhi inakauka, mito inapungua, na swali la kama mvua ijayo itakuja kwa wakati linakuwa wasiwasi mkubwa wa maisha ya kila siku. Kilimo kinachangia takriban asilimia 80 ya mapato ya kaya katika Kaunti ya Kwale, na ni katika uwanda wa chini wa vilima ambapo takwimu hii inapata maana yake ya kibinadamu — familia ambazo riziki yao yote inategemea mifumo ya mvua ambayo mabadiliko ya tabianchi yanafanya isiwe na uhakika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maarifa ya udongo ya wakulima wa uwanda wa chini ni mapana na sahihi. Wanatofautisha kati ya aina za udongo kwa rangi, muundo, na uhifadhi wa unyevu, wakichagua mazao ipasavyo. Utabiri wa hali ya hewa wa jadi unatokana na miundo ya mawingu, mwelekeo wa upepo, mifumo ya uhamaji wa ndege, na fenolojia ya mimea — mwili wa maarifa ya uzoefu ulioendelezwa kwa karne nyingi za uchunguzi wa karibu. Hapa ndipo utambulisho wa kilimo wa Kidigo ulipo na mizizi yake kwa undani zaidi, na ambapo mmomonyoko wa maarifa ya kilimo cha jadi mbele ya usumbufu wa hali ya hewa unahisiwa zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Vilima vya Shimba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eneo la tatu ni la kushangaza zaidi. Vilima vya Shimba vinapanda kwa kasi kutoka uwanda wa chini hadi kilele cha mita 462 kwenye Dzombo, kuunda alama kuu ya kaunti inayoonekana. Vilima hivi vina moja ya misitu mikubwa ya mvua ya pwani ya Afrika Mashariki na ni makazi ya Hifadhi ya Kitaifa ya Shimba Hills. Mimea ni minene, yenye tabaka, na yenye bioanuwai ya ajabu — spishi zaidi ya 1,100 za mimea zimerekodiwa, ikiwa ni pamoja na 280 ambazo ni za kipekee kwa misitu ya pwani na spishi 19 za miti iliyoko hatarini. Mvua hapa inafikia kiwango cha juu cha kaunti cha milimita 1,680 kwa mwaka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vilima vya Shimba vina nafasi ya kipekee katika maisha ya Kidigo. Ni eneo la Kaya Kwale, msitu wa kwanza mtakatifu ulioundwa baada ya uhamiaji kutoka Singwaya, kuzifanya kuwa sehemu ya kijiografia ya asili ya makazi ya Kidigo kwenye pwani ya Kenya. Udongo wa ufinyazi wa jadi unapatikana kutoka vilima. Mimea ya dawa inakusanywa kutoka misitu yake, kwa viwango tofauti vya ruhusa rasmi. Vilima ni mnara wa maji wa kaunti — mito ya kudumu inayodumisha maeneo ya chini inatoka katika nyanda hizi za juu. Mtu wa Kidigo anapozungumza kuhusu Vilima vya Shimba, anazungumza kitu zaidi ya jiografia. Anazungumza kuhusu nyumbani kwa maana ya kina zaidi: mahali ambapo mababu walichagua kwanza kukaa, msitu ambao bado unatoa, na alama inayoelekeza kila safari."
+            },
+            {
+              "type": "heading",
+              "text": "Uwanda wa Nyika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eneo la nne ni kubwa zaidi na kali zaidi. Uwanda wa Nyika unafunika zaidi ya nusu ya Kaunti ya Kwale — eneo kubwa la nusu-jangwa linaloenea kuelekea magharibi hadi mpaka wa Taita-Taveta. Mvua inapungua hadi milimita 400 tu kwa mwaka. Udongo una rutuba ya chini. Mimea inapungua hadi vichaka na msitu mkavu, mandhari ambayo haifanani na pwani yenye majani mengi umbali wa kilomita 50 tu mashariki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii ni eneo la ukosefu wa uhakika wa chakula, la uhaba wa maji kama hali ya kila siku badala ya msimu, la jamii ambazo umbali wao kutoka pwani unamaanisha umbali kutoka miundombinu, huduma, na shughuli za kiuchumi zinazojikita kando ya ufukwe. Kiwango cha umaskini cha Kaunti ya Kwale cha asilimia 74.9 — miongoni mwa vya juu zaidi nchini Kenya — kinasababishwa kwa kiasi kikubwa na hali katika Uwanda wa Nyika. Ufugaji unachukua nafasi ya kilimo cha mimea kama riziki kuu, lakini hata malisho ni hatarishi mvua zinaposhindwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyika pia ni ambapo uchimbaji madini umeacha alama yake inayoonekana zaidi. Base Titanium ilifanya kazi katika Kaunti ya Kwale kuanzia 2013 hadi 2024, kuhama zaidi ya wakazi 3,000 na kuharibu miti ya nazi, korosho, na embe. Ahadi ya kiuchumi ya uchimbaji — ajira, mrabaha, miundombinu — iligongana na hali halisi ya kiikolojia ya uchimbaji, kuacha jamii kukabiliana na ardhi iliyoharibika na ukarabati usio na uhakika. Nyika haionekani katika vipeperushi vya watalii. Haionekani katika maelezo ya kimapenzi ya pwani ya Kiswahili. Lakini ndipo ambapo eneo kubwa la ardhi ya Kwale lipo, na hali yake haiwezi kutenganishwa na hadithi ya Kidigo."
+            },
+            {
+              "type": "heading",
+              "text": "Atu Amwenga, Mandhari Inne"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachoshangaza kuhusu Adigo si kwamba wanaishi katika maeneo manne tofauti ya kiikolojia — watu wengi hufanya hivyo. Kinachoshangaza ni kiwango ambacho utambulisho mmoja wa kitamaduni umedumishwa katika mandhari zinazohitaji njia tofauti kabisa za maisha. Mvuvi wa Msambweni, mkulima wa nazi wa uwanda wa chini, mganga anayekusanya mimea katika Vilima vya Shimba, na mfugaji wa ng'ombe wa Nyika wanashiriki lugha, mfumo wa ukoo, jiografia ya kiroho inayozingatia misitu ya kaya, na historia ya uhamiaji kutoka Singwaya. Ardhi inabadilika. Utamaduni unashikilia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si kupamba hali hiyo. Mteremko wa kiikolojia kutoka pwani hadi uwanda unalingana karibu kikamilifu na mteremko wa kiuchumi kutoka fursa za kiasi hadi umaskini mkubwa. Changamoto zinazokabili jamii za Nyika si sawa na zile zinazokabili ukanda wa pwani, na masuluhisho yanayofanya kazi katika eneo moja yanaweza kuwa hayana umuhimu katika lingine. Lakini umoja wa utambulisho wa Kidigo katika maeneo haya ni mafanikio ya kitamaduni yanayostahili kutambuliwa — ushahidi wa nguvu ya lugha ya pamoja, ibada ya pamoja, na kumbukumbu ya pamoja katika kushikilia watu pamoja katika mandhari ambayo vinginevyo ingeweza kuwatenganisha."
             }
           ],
           "dig": [
@@ -9665,6 +14505,62 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo ra ajabu kuhusu Adigo ni njira ambayo utambulisho mmwenga wa chimila urivyodumishwa kpwa mandhari ambago ganahitaji njira tofauti za maisha. Mvuvi wa Msambweni, mukulima wa mnazi, muganga anayekusanya mimea myangoni, na mfugaji wa Nyika osi anashiriki lugha, mfumo wa ukoo, na jiografia ya kiroho inayoelekezwa ni misitu ya kaya."
+            },
+            {
+              "type": "heading",
+              "text": "Uwanda wa Tsini wa Myango"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unapanda hadi kahi ya mita 60 na 135 dzulu ya usawa wa bahari, uwanda wa tsini wa myango ni eneo ra kuphishana kahi ya ph'wani na myango. Phano ndipho ulimi munji wa makazi wa kaunti unahendwa — muongo ni mnono zaidi ya mtsanga wa ph'wani, mwinuko unapha faraja chidide kula dzoho ya ph'wani, na mvula inatosha kpwa ulimi wa kudzikimu miaka minji. Muhogo, mahindi, maharagwe, na kunde ni mimera mikulu. Korosho, ufuta, na pamba ni mimera ya biashara, ingawa mavuno gakpwe si ga kutegemewa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uwanda wa tsini wa myango ndipho ambapho atu anji a Kwale anaishi na kurimira. Ni eneo ra murimi mdide, shamba ra nyumba, mdundo wa msimu wa kupanda na kuvuna unaolungira mvula za monsuni. Maisha phano ganaundwa ni mvula ndere kula Machi hadi Juni na mvula fupi kula Okitoba hadi Desemba. Kahi ya misimu iyi, tsi inauma, miho inapunguka, na swali ra kpwamba mvula idzo indakudza kpwa wakati rinakala wasiwasi mkulu wa maisha ga chila siku. Ulimi unachangiya takribani asilimia 80 ya mapato ga nyumba kahi ya Kaunti ya Kwale, na ni kahi ya uwanda wa tsini wa myango ambapho takwimu iyo inapata mana yakpwe ya chibinadamu — nyumba ambazo riziki yao yosi inategemea mifumo ya mvula ambayo kubadilika kpwa hali ya hewa kunaihenda isikale na uhakika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maarifa ga muongo ga arimi a uwanda wa tsini ni mapana na sahihi. Anatofautisha kahi ya aina za muongo kpwa rangi, muundo, na uhifadhi wa unyese, kutsagula mimera kpwa kufuatana. Utabiri wa hali ya hewa wa chimila unatokana na miundo ya maingu, mwelekeo wa phepho, mifumo ya uhamaji wa nyuni, na fenolojia ya mimera — mwiri wa maarifa ga uzoefu urioendelezwa kpwa karne nyinji za uchunguzi wa phephi. Phano ndipho utambuzi wa ulimi wa Adigo uriko na mizizi yakpwe kpwa undani zaidi, na ambapho kumomonyoka kpwa maarifa ga ulimi wa chimila mbere ya usumbufu wa hali ya hewa unahisika zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Myango ya Shimba"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eneo ra hahu ni ra kushangaza zaidi. Myango ya Shimba inapanda kpwa kasi kula uwanda wa tsini hadi chirere cha mita 462 kpwa Dzombo, kuunda alama kulu ya kaunti inayoonewa. Myango iyi ina mwefo mmwenga wa matsakani makulu ga mvula ga ph'wani ya Afrika ya Mmashariki na ni makazi ga Hifadhi ya Chitaifa ya Shimba Hills. Mimera ni minene, yenye tabaka, na yenye viumbe vinji vya ajabu — aina zaidi ya 1,100 za mimera zikarekodiwa, ikiwemo 280 ambazo ni za chipekee kpwa matsakani ga ph'wani na aina 19 za mihi iriyo hatarini. Mvula phano inafikira kiwango cha dzulu cha kaunti cha milimita 1,680 kpwa mwaka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Myango ya Shimba ina nafasi ya chipekee kahi ya maisha ga Adigo. Ni eneo ra Kaya Kwale, tsakani ya kpwandza takatifu iriyoanzishwa baada ya uhamaji kula Singwaya, kuihenda kukala sehemu ya chijiografia ya asili ya makazi ga Adigo kpwa ph'wani ya Kenya. Udongo wa ufinyazi wa chimila unapatikana kula myangoni. Mimera ya dawa inakusanywa kula matsakani gakpwe, kpwa viwango tofauti vya ruhusa rasmi. Myango ni mnara wa madzi wa kaunti — miho ya kudumu inayodumisha maeneo ga tsini inatokera kahi ya nyanda zizi za dzulu. Mudigo anaphozungumza kuhusu Myango ya Shimba, anazungumza chitu zaidi ya chijiografia. Anazungumza kuhusu kaya kpwa mana ya undani zaidi: phatu ambapho akare atsagula kpwandza kusagala, tsakani ambayo bado inapha, na alama inayoelekeza chila safari."
+            },
+            {
+              "type": "heading",
+              "text": "Uwanda wa Nyika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eneo ra inne ni kulu zaidi na kali zaidi. Uwanda wa Nyika unafunika zaidi ya nusu ya Kaunti ya Kwale — eneo kulu ra nusu-jangwa rinaenderera kuelekea mtswerero wa dzuwa hadi mphaka wa Taita-Taveta. Mvula inapunguka hadi milimita 400 bahi kpwa mwaka. Muongo una rutuba ya tsini. Mimera inapunguka hadi vichaka na tsakani kavu, mandhari ambayo taifanana na ph'wani yenye makodza manji umbali wa kilomita 50 bahi mmashariki."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rino ni eneo ra kukosa uhakika wa chakula, ra upungufu wa madzi dza hali ya chila siku badala ya msimu, ra midhini ambayo umbali wao kula ph'wani unamanisha umbali kula miundombinu, huduma, na shughuli za chiuchumi zinazodziika kanda-kanda ya ufukwe. Kiwango cha uchiya cha Kaunti ya Kwale cha asilimia 74.9 — kahi ya vya dzulu zaidi nchini Kenya — chinasababishwa kpwa kiasi kikulu ni hali kahi ya Uwanda wa Nyika. Ufugaji unatsukula nafasi ya ulimi wa mimera dza riziki kulu, ela hata malisho ni ga hatari mvula zinaposhindwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nyika piya ni ambapho uchimbadzi wa madini uricha alama yakpwe inayooneka zaidi. Base Titanium yahenda kazi kahi ya Kaunti ya Kwale kula 2013 hadi 2024, kuhamisha zaidi ya atu 3,000 na kuharibu mihi ya nazi, korosho, na embe. Ahadi ya chiuchumi ya uchimbadzi — kazi, mrabaha, miundombinu — yagongana na hali ya kpweli ya chimaumbile ya uchimbadzi, kuricha midhini kukabilana na tsi iriyoharibika na ukarabati usio na uhakika. Nyika taioneka kahi ya vipeperushi vya agenyi. Taioneka kahi ya maelezo ga chimapenzi ga ph'wani ya Chiswahili. Ela ndipho ambapho eneo kulu ra tsi ya Kwale riko, na hali yakpwe taiweza kutenganishwa na hadithi ya Adigo."
+            },
+            {
+              "type": "heading",
+              "text": "Atu Amwenga, Mandhari Inne"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chinachoshangaza kuhusu Adigo si kukala anaishi kahi ya maeneo manne tofauti ga chimaumbile — makabila manji ganahenda hivyo. Chinachoshangaza ni kiwango ambacho utambuzi mumwenga wa chimila umedumishwa kahi ya mandhari zinazoahitaji njira tofauti kabisa za maisha. Mvuvi wa Msambweni, murimi wa nazi wa uwanda wa tsini, mganga anayekusanya mimera kahi ya Myango ya Shimba, na mfugaji wa ng'ombe wa Nyika anashirikiya luga, mfumo wa fuko, chijiografia ya chiroho inayodzikira kahi ya matsakani ga kaya, na historia ya uhamaji kula Singwaya. Tsi inabadilika. Chimila chinashikira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ihi si kupamba hali iyo. Mteremko wa chimaumbile kula ph'wani hadi uwanda unalingana phephi kabisa na mteremko wa chiuchumi kula nafasi za chiasi hadi uchiya mkulu. Matatizo ganagokabilana na midhini ya Nyika si sawa na gare ganagokabilana na ukanda wa ph'wani, na masuluhisho ganagohenda kazi kahi ya eneo rimwenga ganaweza kukala tagana umuhimu kahi ya ringine. Ela umwenga wa utambuzi wa Adigo kahi ya maeneo gaga ni mafanikio ga chimila ganagostahili kutambuliwa — ushahidi wa nguvu ya luga ya phamwenga, ibada ya phamwenga, na kumbukumbu ya phamwenga kahi ya kushikira atu phamwenga kahi ya mandhari ambayo kpwa njira nyingine ingaweza kuatenganisha."
             }
           ]
         }
@@ -9841,6 +14737,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mgawanyiko wa kizazi ndio mstari muhimu zaidi wa kidemografia. Wadigo wa zamani wanazungumza Chidigo kwa ufasaha na kushiriki sherehe za kaya. Vijana wanakimbilia Kiswahili, Kiingereza, na Sheng. Mfumo wa afya unaonyesha umaskini wa kaunti — malaria, kuharisha, na utapiamlo mkubwa vinasalia kuwa changamoto kuu."
+            },
+            {
+              "type": "heading",
+              "text": "Elimu: Upatikanaji Bila Ubora"
+            },
+            {
+              "type": "paragraph",
+              "text": "Picha ya elimu ni ya maendeleo ya nusu. Uandikishaji wa shule za msingi unavutia kwenye karatasi — kiwango cha jumla cha uandikishaji cha asilimia 99.7 katika shule 415 za msingi — lakini takwimu hizo huficha matatizo makubwa. Ubora wa ufundishaji hauko sawa. Viwango vya uhifadhi wa wanafunzi ni duni, huku wasichana wakiacha shule kwa wingi kutokana na ndoa za mapema na mimba. Hakuna chuo kikuu katika Kaunti ya Kwale; taasisi za karibu zaidi za elimu ya juu ni Chuo Kikuu cha Pwani huko Kilifi na vyuo mbalimbali Mombasa. Hii ina maana kwamba kijana yeyote anayetafuta elimu ya juu lazima aondoke kabisa kaunti hiyo, jambo ambalo ni haliwezekani kifedha kwa familia nyingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maendeleo muhimu katika elimu ni utekelezaji wa ufundishaji kwa lugha mama ya Kidigo kwa madarasa ya awali chini ya Mtaala wa Umahiri wa Kenya. Maafisa wa elimu wapatao 60 na walimu takriban 100 wamefunzwa kutoa ufundishaji kwa Chidigo kwa darasa la kwanza hadi la tatu. Nyenzo zimeandaliwa kupitia ushirikiano na shirika la Bible Translation and Literacy. Hata hivyo, programu hiyo inakabiliwa na vikwazo: walimu wachache wanaweza kuandika Kidigo kwa ufasaha, ufundishaji kwa njia ya Chidigo hauendelei zaidi ya darasa la tatu, na Kiswahili na Kiingereza hutawala kuanzia darasa la nne na kuendelea. Matokeo yake ni kwamba watoto wanaanza elimu yao kwa lugha mama yao kisha kubadilika ghafla kwa lugha ambazo wengi bado hawajazijua."
+            },
+            {
+              "type": "heading",
+              "text": "Ukuaji wa Miji na Uhamaji"
+            },
+            {
+              "type": "paragraph",
+              "text": "Wadigo si watu wa mashambani peke yake, ingawa tabia ya vijijini ya Kaunti ya Kwale ndiyo inayotawala. Ukuaji wa Ukunda hadi wakazi karibu 78,000 unaonyesha mwenendo halisi wa ukuaji wa miji, unaosukumwa na uchumi wa huduma unaozunguka utalii wa Diani Beach. Mombasa inachukua wafanyakazi wa Kidigo wanaotafuta ajira katika bandari, viwanda, na sekta za huduma. Nairobi inavutia waliosoma zaidi na wenye tamaa. Fedha zinazotumwa na wahamaji hawa wa mijini ni mkondo muhimu wa mapato kwa familia za mashambani, ingawa ni vigumu kupima kiasi chake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo wa ukuaji wa miji huzalisha mienendo yake ya kitamaduni. Wadigo wa mijini, hasa vijana, wana uwezekano mkubwa zaidi wa kuzungumza Kiswahili kama lugha yao kuu, kukubali utambulisho wa kitaifa badala ya kikabila, na kudumisha uhusiano wa sherehe tu na mfumo wa kaya na miundo ya utawala wa jadi. Hii si ya kipekee kwa Wadigo — ni muundo wa kawaida wa ukuaji wa miji kote Kenya — lakini ina uzito wa pekee kwa jamii ambayo utambulisho wake wa kitamaduni umejikita sana katika maeneo mahususi, misitu, na maeneo ya mababu."
+            },
+            {
+              "type": "heading",
+              "text": "Afya: Mzigo wa Umaskini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hali ya afya ya Kaunti ya Kwale inaakisi umaskini wake. Sababu kuu za ugonjwa na kifo ni malaria, magonjwa ya kuhara, maambukizi ya njia ya hewa, na mafua — magonjwa ambayo kwa kiasi kikubwa yanaweza kuzuiwa kwa lishe bora, maji safi, na huduma za msingi za afya. Utapiamlo mkubwa umeenea: asilimia 35 ya watoto wamedumaa na asilimia 21 hawana uzito wa kutosha, takwimu zinazowakilisha si visa vya peke yake bali kushindwa kwa mfumo mzima kulisha kizazi kwa kutosha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miundombinu ya afya imepanuka kwa kiasi kikubwa tangu ugatuzi uanze mwaka 2013, huku vituo vikikua kutoka 65 hadi zaidi ya 170 kote kaunti. Hospitali ya Rufaa ya Msambweni imekarabatiwa na inatumika kama hospitali kuu ya kaunti. Lakini umbali wa vituo bado ni kikwazo katika maeneo ya mashambani, huduma za kitaalamu zinahitaji safari hadi Mombasa, na uwiano wa wafanyakazi wa afya kwa idadi ya watu bado uko chini sana ya viwango vya kitaifa. Dawa za jadi zinaendelea kuwa na nafasi muhimu: *mganga* — tabibu wa jadi anayechanganya maarifa ya mitishamba na mazoea ya kiroho ya Kiislamu — mara nyingi ndiye wa kwanza kuonwa wakati wa ugonjwa, na ziara hospitalini zinaweza kukamilisha badala ya kuchukua nafasi ya uponyaji wa jadi."
+            },
+            {
+              "type": "heading",
+              "text": "Jamii ya Mpakani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mpaka wa kimataifa kati ya Kenya na Tanzania unagawanya eneo la Wadigo katika Lunga Lunga-Horohoro, lakini haujawahi kugawanya utambulisho wa Wadigo. Familia zinadumisha mahusiano kuvuka mpaka. Uhusiano wa ndoa ni wa kawaida. Lugha ya Chidigo inazungumzwa pande zote mbili bila tofauti kubwa za lahaja, ingawa Wadigo wa Tanzania wanafanya kazi ndani ya mfumo tofauti wa kitaifa — ambapo Kiswahili kina utawala mkubwa zaidi na ambapo miundo ya kisiasa na kiuchumi inatofautiana sana na mfumo wa ugatuzi wa kaunti wa Kenya. Kivuko cha mpaka katika Lunga Lunga kina shughuli nyingi za biashara rasmi na pia harakati zisizo rasmi za watu wanaochukulia mpaka kuwa usumbufu wa kiutawala badala ya mgawanyo wenye maana wa jamii yao."
+            },
+            {
+              "type": "heading",
+              "text": "Mgawanyiko wa Vizazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa karibu wanne kati ya watano wakazi walio chini ya miaka 34, mgawanyiko wa vizazi ndio mstari muhimu zaidi wa mivutano katika idadi ya watu wa Wadigo. Wadigo wakubwa huzungumza Chidigo kama lugha yao kuu, hushiriki katika sherehe za kaya, na kudumisha desturi za ukoo wa mama na mazoea ya jadi ambayo yamefafanua jamii kwa karne nyingi. Wadigo vijana wanavutiwa na Kiswahili, Kiingereza, na Sheng — lugha ya mtaani ambayo ni lugha ya kawaida ya vijana wa Kenya. Mazoea ya jadi kama mila ya *sengenya* ya kubalehe hayajulikani sana kwa vijana. Maisha ya kidijitali — WhatsApp, Facebook, TikTok — ndiyo aina kuu ya ushiriki wa kitamaduni kwa vijana waliounganishwa, ingawa ufikiaji wa intaneti mashambani bado ni mdogo sana kwa takriban asilimia 13.7. Swali la kama vijana watabeba mbele utambulisho wa kitamaduni ambao wazee wao wanashikilia si la kubembeleza. Ni ukweli wa idadi ya watu ambao utaamua mustakabali wa Wadigo kama watu tofauti."
             }
           ],
           "dig": [
@@ -9887,6 +14835,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Mgawanyiko wa chizazi ndio mstari muhimu zaidi wa kidemografia. Adigo a kare anagomba Chidigo kpwa ufasaha na kushiriki sherehe za kaya. Avulana anakimbilia Chiswahili, Chiingereza, na Sheng. Mfumo wa afya unaonyesha umaskini wa kaunti — malaria, kuharisha, na utapiamlo mkpwulu vinasala kukala changamoto kulu."
+            },
+            {
+              "type": "heading",
+              "text": "Elimu: Kupata Bila Ubora"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hali ya elimu ni ya maendeleo ga nusu. Kuandikishwa kpwa shule za msingi kunavutiya kpwenye karatasi — kiwango cha jumla cha kuandikishwa cha asilimia 99.7 kpwenye shule 415 za msingi — ela takwimu zizo zinafwitsa matatizo makulu. Ubora wa kufundzwa taulingane. Viwango vya kuhifadhi anafundzi ni vibaya, huku asichana anarichira shule kpwa unji kpwa sababu ya harusi za mapho na mimba. Takuna chuo kikulu kpwenye Kaunti ya Kwale; vitsuo vya phephi vyosi vya elimu ya dzulu ni Chuo Kikulu cha Ph'wani ko Kilifi na vyuo mbali-mbali Mombasa. Hino inaamba kukala mutu mdide yeyosi aendzaye elimu ya dzulu ni lazima auke kaunti yosi, dzambo ambiriro tariwezekana kpwa fedha kpwa nyumba nyinji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dzambo kulu kpwenye elimu ni kuikpwa kpwa kufundza kpwa luga ya mayo ya Chidigo kpwa madarasa ga mwandzo kpwenye Mtaala wa Umahiri wa Kenya. Maofisa a elimu kama 60 na alimu kama 100 amefundzwa kupha mafundzo ga Chidigo kpwa darasa ra kpwandza hadi ra hahu. Vitu vya kufundzira vimetengezwa kpwa kushirikiana na shirika ra Bible Translation and Literacy. Hata hivyo, programu ino inakutana na vikwazo: alimu achache anaweza kuandika Chidigo kpwa ufasaha, kufundzwa kpwa njira ya Chidigo takuenderera zaidi ya darasa ra hahu, na Chiswahili na Chiingereza vinatawala kula kpwa darasa ra ne na kuenderera. Matokeo ga higo ni kukala ana anaandza elimu yao kpwa luga yao ya mayo kisha anagaluka gafula kpwa luga ambazo anji taadzangwe kuzimanya."
+            },
+            {
+              "type": "heading",
+              "text": "Kukula kpwa Midzi na Kuhama"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo sio atu a kpwisharoni bahi, ingawhe tabia ya vitsijini ya Kaunti ya Kwale ndiyo inayotawala. Kukula kpwa Ukunda hadi atu kama 78,000 kunaonyesa mwendo wa kpweli wa kukula kpwa midzi, unaosukumwa ni uchumi wa huduma unaozunguka utalii wa Diani Beach. Mombasa inatsukula afanyikazi Adigo anaoendzera kazi kpwenye bandari, viwanda, na sekta za huduma. Nairobi inavutiya ariosoma zaidi na ario na tamaa. Fedha zinazohumwa ni ahama hawa a midzini ni mkpwondo muhimu wa mapato kpwa nyumba za kpwisharoni, ingawhe ni vigumu kupima kiasi chake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Muundo wa kukula kpwa midzi unazalisha mienendo yakpwe ya kitamaduni. Adigo a midzini, haswa adide, ana uwezekano mkulu zaidi wa kugomba Chiswahili kama luga yao ya kpwandza, kukubali utambulisho wa kitaifa badala ya chikabila, na kudumisha uhusiano wa sherehe bahi na mfumo wa kaya na miundo ya utawala wa kare. Hino si ya chipekee kpwa Adigo — ni muundo wa kawaida wa kukula kpwa midzi kosi Kenya — ela ina uzito wa chipekee kpwa jamii ambayo utambulisho wake wa kitamaduni umejikita sana kpwenye seemu mahususi, matsaka, na seemu za akare."
+            },
+            {
+              "type": "heading",
+              "text": "Afya: Mzigo wa Uchiya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hali ya afya ya Kaunti ya Kwale inaonyesa uchiya wake. Sababu kulu za ukongo na chifo ni malaria, makongo ga kuhara, maambukizi ga njira ya hewa, na mafua — makongo ambago kpwa kiasi kikulu ganaweza kuzuiwa ni lishe nono, madzi masafi, na huduma za msingi za afya. Utapiamlo mkulu umeenea: asilimia 35 ya ana amedumaa na asilimia 21 taana uzito wa kutosha, takwimu zinazoonyesa si visa vya pheke yake ela kushindwa kpwa mfumo mzima kulisha chizazi kpwa kutosha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miundombinu ya afya imekula kpwa kiasi kikulu hangu ugatuzi uandze mwaka wa 2013, na vitsuo vikakula kula kpwa 65 hadi zaidi ya 170 kosi kaunti. Hospitali ya Rufaa ya Msambweni imetengezwa tsena na inatumika kama hospitali kulu ya kaunti. Ela umbali wa vitsuo bado ni chikwazo kpwenye seemu za kpwisharoni, huduma za chitaalamu zinahitadzi safari hadi Mombasa, na uwiano wa afanyikazi a afya kpwa idadi ya atu bado u tsini sana ya viwango vya kitaifa. Dawa za kare zinaenderera kukala na nafasi muhimu: *mganga* — muphozi wa kare ambaye anaganya maarifa ga mitishamba na mazoea ga chiroho ga Chiislamu — mara nyinji ndiye wa kpwandza kuonwa wakati wa ukongo, na kwenda hospitalini kunaweza kukamilisha badala ya kutsukula nafasi ya uphozaji wa kare."
+            },
+            {
+              "type": "heading",
+              "text": "Jamii ya Mphakani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mphaka wa kimataifa kahi ya Kenya na Tanzania unaganya seemu ya Adigo ko Lunga Lunga-Horohoro, ela tauyaganyire utambulisho wa Adigo katu. Nyumba zinadumisha mahusiano kuvuka mphaka. Uhusiano wa harusi ni wa kawaida. Luga ya Chidigo inagombwa kosi pande zosi mbiri bila tofauti kulu za lahaja, ingawhe Adigo a Tanzania anafanya kazi ndani ya mfumo tofauti wa kitaifa — ambapho Chiswahili china utawala mkulu zaidi na ambapho miundo ya chisiasa na chiuchumi inatofautiana sana na mfumo wa ugatuzi wa kaunti wa Kenya. Chivuko cha mphaka ko Lunga Lunga china shughuli nyinji za biashara rasmi na pia mwendo usio rasmi wa atu anaoona mphaka kukala usumbufu wa chiutawala badala ya mgawanyo wenye mana wa jamii yao."
+            },
+            {
+              "type": "heading",
+              "text": "Mgawanyo wa Vizazi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Na kama atu ane kahi ya atsano wakazi ario tsini ya miaka 34, mgawanyo wa vizazi ndio mstari muhimu zaidi wa mivutano kpwenye idadi ya atu a Adigo. Adigo akulu anagomba Chidigo kama luga yao ya kpwandza, anashiriki kpwenye sherehe za kaya, na anadumisha desturi za ukoo wa mayo na mazoea ga kare ambago gametengeza jamii kpwa karne nyinji. Adigo adide anavutiwa ni Chiswahili, Chiingereza, na Sheng — luga ya mjini ambayo ni luga ya kawaida ya adide a Kenya. Mazoea ga kare dza mila ya *sengenya* ya kufikiya ukulu tagamanyikana sana ni adide. Maisha ga kidijitali — WhatsApp, Facebook, TikTok — ndiyo njira kulu ya kushiriki kpwa kitamaduni kpwa adide ariounganishwa, ingawhe kupata intaneti kpwisharoni bado ni kuchache sana kpwa takriban asilimia 13.7. Swali ra kama adide andatsukula mbere utambulisho wa kitamaduni ambao akare ao anashikilia si ra kubembeleza. Ni ukpweli wa idadi ya atu ambao undaamua mustakabali wa Adigo kama atu tofauti."
             }
           ]
         }
@@ -10014,6 +15014,74 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "**Msambweni** ni mji wa tulivu zaidi unaohifadhi tabia ya jadi ya makazi ya Wadigo, na hospitali ya rufaa na jamii za uvuvi hai. **Kwale** ni makao makuu ya kaunti — mahali ambapo mustakabali wa kisiasa wa Wadigo unajadiliwa. **Shimoni** inajulikana kwa mapango yake ya watumwa na kama sehemu ya kuondoka kwenda Kisite-Mpunguti Marine Park. **Lunga Lunga** inastawi kwa biashara ya mpakani na Tanzania, ikiunganisha jamii za Wadigo pande zote mbili za mpaka."
+            },
+            {
+              "type": "heading",
+              "text": "Diani: Uchumi wa Utalii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Diani Beach iko kusini tu ya Ukunda, na kwa njia nyingi miji hiyo miwili inaishi katika uhusiano wa kutegemezana na ukosefu mkubwa wa usawa. Diani ni mojawapo ya vivutio bora vya fukwe katika Afrika Mashariki — kilometa za mchanga mweupe, maji ya joto ya Bahari ya Hindi, na ukanda wa hoteli za kifahari, mapumziko, na nyumba za wageni zinazohudumia watalii wa kimataifa na wa ndani. Uchumi wa utalii ndio mwajiri mkubwa zaidi katika pwani ya kusini, na Diani ndiyo kitovu chake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini hadithi ya Diani pia ni hadithi ya kunyang'anywa. Wadigo hapo zamani walimiliki ukanda huu wote wa pwani. Leo, wanadhibiti takriban asilimia 20 ya ardhi waliyokuwa wanaishi katika eneo la Diani. Kati ya 1962 na 2002, hati miliki takriban 200,000 haramu za ardhi ziliundwa kupitia ugawaji wa udanganyifu, zikibadilisha ardhi ya mababu ya Wadigo kwa wageni — wanasiasa, wafanyabiashara, na waendelezaji kutoka bara na nje ya nchi. Hoteli na mapumziko yalijengwa kwenye ardhi iliyochukuliwa kutoka kwa familia za Wadigo, ambao wengi hawakupokea fidia yoyote. Changamoto za kisheria zinaendelea, lakini haki inakwenda polepole, na ukweli wa msingi unabaki: Wadigo wanafanya kazi katika hoteli za Diani kama wasafishaji, wakulima wa bustani, na walinzi, wakati nyadhifa za umiliki na usimamizi zinashikiliwa karibu kabisa na watu wa nje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Athari za kijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa kingono wa watoto umeandikwa katika eneo hili, huku ripoti za UNICEF na serikali zikionyesha kuwa msichana mmoja kati ya watatu wenye umri wa miaka 12 hadi 18 katika maeneo ya pwani amehusika katika kazi ya ngono ya kawaida. Maeneo matakatifu, ikiwa ni pamoja na masalia ya msitu wa Kaya Diani, yamepunguzwa kuwa vipande vidogo na ujenzi. Upatikanaji wa pombe na dawa za kulevya unaongezeka karibu na maeneo ya watalii. Jamii ya Wadigo imejibu kwa miradi kama Mradi wa Utalii wa Kiikolojia wa Kaya Kinondo, ambapo wazee wanaongoza ziara za msitu mtakatifu na mapato yanasaidia uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni halisi wa Wadigo kupitia mashindano ya mitumbwi ya jadi na masoko ya sanaa zinazosaidia wanawake mafundi zaidi ya 200."
+            },
+            {
+              "type": "heading",
+              "text": "Msambweni: Makao Makuu ya Kaunti Ndogo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Msambweni iko kusini ya Diani kando ya barabara ya pwani, mji tulivu zaidi ambao unadumisha zaidi tabia ya jadi ya makazi ya Wadigo. Ni makao makuu ya kaunti ndogo, makao ya Hospitali ya Rufaa ya Msambweni — ambayo imekarabatiwa katika miaka ya hivi karibuni lakini bado ina vikwazo vya uwezo — na mkusanyiko wa jamii za uvuvi hai ambazo bado zinafanya uvuvi wa kijadi kutoka ufukweni na kutoka kwa boti ndogo. Ujenzi hapa una mitindo zaidi ya jadi kuliko upanuzi wa zege wa Ukunda, na kasi ya maisha ni polepole zaidi kwa kuona."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamii za uvuvi za Msambweni zinawakilisha njia ya maisha ambayo iko chini ya shinikizo kali. Viwango vya samaki vilivyovuliwa vimepungua mara nne tangu miaka ya 1980 kutokana na uvuvi kupita kiasi, uharibifu wa mazingira, na ongezeko la joto la maji ya Bahari ya Hindi. Serikali ya kaunti imegawa boti za kisasa kwa jamii za uvuvi na kusaidia kuundwa kwa vikundi vya kilimo cha mwani — vikundi 21 katika vijiji 14 — lakini mpito kutoka uvuvi wa jadi wenye wingi hadi usimamizi wa rasilimali za baharini ni mgumu na haujakamilika. Msambweni pia unakua kama kituo cha biashara, huku maduka na huduma mpya zikionekana kando ya barabara kuu, lakini utambulisho wake bado umefungamana na bahari kwa njia ambayo wa Ukunda hauko tena."
+            },
+            {
+              "type": "heading",
+              "text": "Kwale: Makao Makuu ya Kaunti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mji wa Kwale uko ndani kutoka pwani, umeinuka juu ya kilima ambacho kinakipa joto baridi zaidi na mandhari tofauti na ukanda wa pwani wenye unyevunyevu. Kama makao makuu ya kaunti, ndipo penye kiti cha serikali — eneo la bunge la kaunti, ofisi za gavana, na mashine ya utawala ya serikali iliyogatuliwa. Gavana Fatuma Achani, aliyechaguliwa mwaka 2022 kama gavana wa kwanza mwanamke wa Kwale katika kaunti ya kihafidhina, yenye Waislamu wengi, anasimamia shughuli kutoka hapa, akielekeza ukarabati wa vituo vya afya, ujenzi wa barabara, na miradi ya maji kote kaunti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mji wenyewe ni wa kawaida. Hauna nguvu ya kibiashara ya Ukunda au miundombinu ya utalii ya Diani. Umuhimu wake ni wa kiutawala na wa ishara: ni mahali ambapo mustakabali wa kisiasa wa Wadigo unajadiliwa, ambapo bajeti zinagawanywa, na ambapo mvutano kati ya mahitaji ya ndani na vipaumbele vya kitaifa unachezwa katika vyumba na korido za serikali ya kaunti. Kwa Wadigo wengi wa mashambani, mji wa Kwale ni mahali unapoenda unapohitaji kitu kutoka serikalini — hati ya ardhi, kibali, kusikilizwa — na hii inakipa tabia ya pekee, nusu ya kiutawala na nusu ya kijamii, inayokitofautisha na miji ya pwani inayoendeshwa na biashara."
+            },
+            {
+              "type": "heading",
+              "text": "Shimoni: Bandari ya Kihistoria"
+            },
+            {
+              "type": "paragraph",
+              "text": "Shimoni inashika nafasi ya kipekee katika jiografia ya Wadigo. Mji huu mdogo kwenye ncha ya kusini ya pwani ya Kenya unajulikana zaidi kwa mapango yake ya watumwa — mapango ya mawe ya chokaa ambapo watu waliokuwa watumwa walishikiliwa kabla ya kusafirishwa kuvuka Bahari ya Hindi wakati wa biashara ya watumwa ya Kiarabu. Leo, Shimoni inafanya kazi hasa kama sehemu ya kuondokea kwa boti kwenda Kisiwa cha Wasini na Hifadhi ya Kitaifa ya Bahari ya Kisite-Mpunguti, mojawapo ya maeneo muhimu zaidi ya hifadhi ya bahari nchini Kenya. Mji ni mdogo na tulivu, uchumi wake unategemea watalii wachache wanaokwenda hifadhi ya bahari, lakini uzito wake wa kihistoria ni mkubwa sana. Kwa Wadigo, Shimoni ni ukumbusho wa sura za giza za biashara ya Bahari ya Hindi — biashara ambayo ilileta utajiri na utamaduni pwani lakini pia ilileta mateso makubwa."
+            },
+            {
+              "type": "heading",
+              "text": "Lunga Lunga: Mji wa Mpakani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lunga Lunga iko kwenye mpaka wa Kenya na Tanzania, na tabia yake imefafanuliwa kabisa na eneo hilo. Kivuko cha mpaka cha Lunga Lunga-Horohoro ni kiungo kikuu kati ya jamii za Wadigo wa Kenya na Tanzania, na mji unastawi kwa biashara ya kuvuka mpaka inayopita ndani yake — mazao ya kilimo, bidhaa za walaji, vifaa vya ujenzi, na biashara ya kila siku ya watu wanaochukulia mpaka kuwa usumbufu badala ya kizuizi. Biashara na Mkoa wa Tanga wa Tanzania ndiyo uti wa mgongo wa kiuchumi wa mji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lunga Lunga pia ni jimbo lake lenyewe, na eneo lake la mpakani linakipa tabia ya kipekee ya kitamaduni. Wadigo wa Tanzania wanavuka kwenda masoko ya Kenya; Wadigo wa Kenya wanadumisha uhusiano wa kifamilia Tanzania. Chidigo kinachozungumzwa pande zote mbili za mpaka kinaeleweka kwa pande zote bila tofauti kubwa za lahaja. Kwa maana hii, Lunga Lunga si mji wa mpakani zaidi bali ni mji wa daraja — mahali ambapo mgawanyo bandia wa jamii ya Wadigo unajadiliwa na, katika midundo ya kila siku ya biashara na maisha ya kifamilia, unapotezwa kwa ufanisi."
+            },
+            {
+              "type": "heading",
+              "text": "Kinango: Sehemu ya Ndani ya Moyo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawa si mji wa Wadigo peke yake — Kinango ni eneo kuu la Waduruma, jamaa wa karibu zaidi wa Wadigo katika Mijikenda — unastahili kutajwa kwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao miji ya pwani haiuwakilishi. Kinango ni nusu kame, mashambani zaidi, na umepangwa karibu na uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakula wa muda mrefu ndio changamoto kuu hapa. Umbali wa jimbo kutoka pwani unamaanisha upatikanaji mdogo wa mapato ya utalii, uwekezaji mdogo wa miundombinu, na njia ya maisha ya jadi zaidi. Kwa Wadigo wanaoishi katika miji ya pwani, Kinango ni sehemu ya nyuma — mahali ambapo njia za zamani zinaendelea kuonekana zaidi, na ambapo umaskini wa Kaunti ya Kwale unahisika zaidi."
             }
           ],
           "dig": [
@@ -10036,6 +15104,74 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "**Msambweni** ni mudzi wa kutulia zaidi unaohifadhi tabia ya jadi ya makazi ga Adigo, na hospitali ya rufaa na jamii za uvuvi zirio hai. **Kwale** ni makao makpwulu ga kaunti — phatu ambapho mustakabali wa kisiasa wa Adigo unajadiliwa. **Shimoni** inajulikana kpwa mapango gakpwe ga atumwa na kukala sehemu ya kuondoka kuphiya Kisite-Mpunguti Marine Park. **Lunga Lunga** inastawi kpwa biashara ya mpakani na Tanzania, ikiunganisha jamii za Adigo pande zosi mbiri za mpaka."
+            },
+            {
+              "type": "heading",
+              "text": "Diani: Uchumi wa Utalii"
+            },
+            {
+              "type": "paragraph",
+              "text": "Diani Beach i kusini bahi ya Ukunda, na kpwa njira nyinji midzi iyo miiri inaishi kpwenye uhusiano wa kutegemezana na ukosefu mkulu wa usawa. Diani ni mwenga wa vivutio vinono vya ph'wani kpwenye Afrika ya Mashiriki — kilometa za mtsanga mweru, madzi ga moho ga Bahari ya Hindi, na ukanda wa hoteli za chifahari, maphumziko, na nyumba za ajeni zinazohudumia atalii a kimataifa na a ndani. Uchumi wa utalii ndio muajiri mkulu zaidi kpwenye ph'wani ya kusini, na Diani ndiyo chitovu chake."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela hadithi ya Diani pia ni hadithi ya kunyang'anywa. Adigo kare arimiriiki ukanda huno wosi wa ph'wani. Rero, anadhibiti kama asilimia 20 ya ardhi ariyokala anaishi kpwenye seemu ya Diani. Kahi ya 1962 na 2002, hati miliki kama 200,000 zisizo halali za ardhi zitengezwa kpwa ugawaji wa udanganyifu, zikibadilisha ardhi ya akare a Adigo kpwa atu a kondze — anasiasa, afanyibiashara, na aendelezaji kula kpwa bara na kondze ya tsi. Hoteli na maphumziko gadzengwa kpwenye ardhi iriyotsukurwa kula kpwa nyumba za Adigo, ambao anji taaphokere fidia yoyosi. Changamoto za chisheria zinaenderera, ela haki inakwenda pole-pole, na ukpweli wa msingi unasala: Adigo anafanya kazi kpwenye hoteli za Diani kama asafishaji, akulima a bustani, na alinzi, wakati nyadhifa za umiliki na usimamizi zinashikiliwa kama kabisa ni atu a kondze."
+            },
+            {
+              "type": "paragraph",
+              "text": "Athari za chijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa chingono wa ana umeandikpwa kpwenye seemu hino, na ripoti za UNICEF na serikali zinaonyesa kukala msichana mmwenga kahi ya ahahu ario na umri wa miaka 12 hadi 18 kpwenye seemu za ph'wani akahusika kpwenye kazi ya ngono ya kawaida. Seemu takatifu, phamwenga na masalia ga tsaka ra Kaya Diani, gaphunguzwa kukala vipande vidide ni ujenzi. Kupata pombe na dawa za kulevya kunazidi kuphephi na seemu za atalii. Jamii ya Adigo ikadzibu na miradi dza Mradi wa Utalii wa Kiikolojia wa Kaya Kinondo, ambapho akare anaongoza ziara za tsaka takatifu na mapato ganasaidiya uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni wa kpweli wa Adigo kpwa mashindano ga mitumbwi ya kare na masoko ga sanaa ganayosaidiya achetu mafundi zaidi ya 200."
+            },
+            {
+              "type": "heading",
+              "text": "Msambweni: Makao Makulu ga Kaunti Ndide"
+            },
+            {
+              "type": "paragraph",
+              "text": "Msambweni i kusini ya Diani kanda ya barabara ya ph'wani, mudzi wa kutulia zaidi ambao unadumisha zaidi tabia ya kare ya makazi ga Adigo. Ni makao makulu ga kaunti ndide, makao ga Hospitali ya Rufaa ya Msambweni — ambayo imetengezwa tsena miaka ya sambi ela bado ina vikwazo vya uwezo — na mkusanyo wa jamii za uvuvi hai ambazo bado zinafanya uvuvi wa kijadi kula ph'wanini na kula kpwa miyadiya midide. Ujenzi haha una mitindo zaidi ya kare kuriko upanuzi wa zege wa Ukunda, na kasi ya maisha ni pole-pole zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamii za uvuvi za Msambweni zinawakilisha njira ya maisha ambayo i tsini ya shinikizo kali. Viwango vya samaki ariovuliwa vimephunguka mara ne hangu miaka ya 1980 kpwa sababu ya uvuvi kupita kiasi, uharibifu wa mazingira, na kupiga dzuwa kpwa madzi ga Bahari ya Hindi. Serikali ya kaunti imegawa miyadiya ya kisasa kpwa jamii za uvuvi na kusaidiya kutengezwa kpwa vikundi vya kilimo cha mwani — vikundi 21 kpwenye vitsijini 14 — ela kupita kula kpwa uvuvi wa kare wenye winji hadi usimamizi wa rasilimali za baharini ni vigumu na tauyakamilika. Msambweni pia unakula kama chituo cha biashara, na maduka na huduma mphya zinaonekana kanda ya barabara kulu, ela utambulisho wake bado umefungamana na bahari kpwa njira ambayo wa Ukunda tauko tsena."
+            },
+            {
+              "type": "heading",
+              "text": "Kwale: Makao Makulu ga Kaunti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mudzi wa Kwale u ndani kula ph'wanini, umeinuka dzulu ya chirima ambacho chinachipha joto baridi zaidi na mandhari tofauti na ukanda wa ph'wani wenye unyevu-nyevu. Kama makao makulu ga kaunti, ndipho phenye chiti cha serikali — seemu ya bunge ra kaunti, ofisi za gavana, na mashine ya utawala wa serikali iriyogatuliwa. Gavana Fatuma Achani, ariyechaguliwa mwaka wa 2022 kama gavana wa kpwandza muchetu wa Kwale kpwenye kaunti ya chihafidhina, yenye Aislamu anji, anasimamia shughuli kula haha, akielekeza ukarabati wa vitsuo vya afya, ujenzi wa barabara, na miradi ya madzi kosi kaunti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mudzi wenye wenyewe ni wa kawaida. Tauna nguvu ya chibiashara ya Ukunda au miundombinu ya utalii ya Diani. Umuhimu wake ni wa chiutawala na wa ishara: ni seemu ambapho mustakabali wa chisiasa wa Adigo unajadiriwa, ambapho bajeti zinagawanywa, na ambapho mvutano kahi ya mahitadzi ga ndani na vipaumbele vya kitaifa unachezwa kpwenye vyumba na korido za serikali ya kaunti. Kpwa Adigo anji a kpwisharoni, mudzi wa Kwale ni seemu unakoenda unapohitadzi chitu kula kpwa serikali — hati ya ardhi, kibali, kusikilizwa — na hino inaupha tabia ya chipekee, nusu ya chiutawala na nusu ya chijamii, inayoutofautisha na midzi ya ph'wani inayoendeshwa ni biashara."
+            },
+            {
+              "type": "heading",
+              "text": "Shimoni: Bandari ya Chihistoria"
+            },
+            {
+              "type": "paragraph",
+              "text": "Shimoni inashika nafasi ya chipekee kpwenye jiografia ya Adigo. Mudzi huno mudide kpwenye ntsa ya kusini ya ph'wani ya Kenya unamanyikana zaidi kpwa mapango gakpwe ga atumwa — mapango ga mawe ga chokaa ambago atu ariokala atumwa arishikiliwa kabila ya kusafirishwa kuvuka Bahari ya Hindi wakati wa biashara ya atumwa ya Chiarabu. Rero, Shimoni inafanya kazi haswa kama seemu ya kuondokera kpwa miyadiya kwenda Chisiwa cha Wasini na Hifadhi ya Kitaifa ya Bahari ya Kisite-Mpunguti, mwenga wa seemu muhimu zaidi za hifadhi ya bahari kpwenye Kenya. Mudzi ni mudide na wa kutulia, uchumi wake unategemea atalii achache anaokwenda hifadhi ya bahari, ela uzito wake wa chihistoria ni mkulu sana. Kpwa Adigo, Shimoni ni chikumbusha cha sura za jiza za biashara ya Bahari ya Hindi — biashara iriyoreha utajiri na utamaduni ph'wanini ela pia iriyoreha mateso makulu."
+            },
+            {
+              "type": "heading",
+              "text": "Lunga Lunga: Mudzi wa Mphakani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lunga Lunga i kpwenye mphaka wa Kenya na Tanzania, na tabia yakpwe imefafanuliwa kabisa ni seemu iyo. Chivuko cha mphaka cha Lunga Lunga-Horohoro ni chiungo chikulu kahi ya jamii za Adigo a Kenya na Tanzania, na mudzi unastawi ni biashara ya kuvuka mphaka inayopita ndani yakpwe — mazao ga kilimo, bidhaa za araji, vifaa vya ujenzi, na biashara ya chila sikukuu ya atu anaoona mphaka kukala usumbufu badala ya chizuizi. Biashara na Mkoa wa Tanga wa Tanzania ndiyo uti wa mgongo wa chiuchumi wa mudzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lunga Lunga pia ni jimbo rakpwe renyewe, na seemu yakpwe ya mphakani inaripha tabia ya chipekee ya chitamaduni. Adigo a Tanzania anavuka kwenda masoko ga Kenya; Adigo a Kenya anadumisha uhusiano wa chinyumba Tanzania. Chidigo chinachogombwa kosi pande zosi mbiri za mphaka chinaeleweka kpwa pande zosi mbiri bila tofauti kulu za lahaja. Kpwa mana hino, Lunga Lunga si mudzi wa mphakani zaidi ela ni mudzi wa daraja — seemu ambapho mgawanyo wa kutengenezwa wa jamii ya Adigo unajadiriwa na, kpwenye midundo ya chila sikukuu ya biashara na maisha ga chinyumba, unaphotezwa kpwa ufanisi."
+            },
+            {
+              "type": "heading",
+              "text": "Kinango: Seemu ya Ndani ya Moyo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ingawhe si mudzi wa Adigo bahi — Kinango ni seemu kulu ya Aduruma, ndugu a phephi zaidi a Adigo kpwenye Amijikenda — unastahili kutajwa kpwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao midzi ya ph'wani tauwakilishi. Kinango ni nusu kame, kpwisharoni zaidi, na umepangwa kuzunguka uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa ph'wani. Uhaba wa chakurya wa wakati mure ndio changamoto kulu haha. Umbali wa jimbo kula ph'wanini unaamba kupata machache mapato ga utalii, uwekezaji mdide wa miundombinu, na njira ya maisha ya kare zaidi. Kpwa Adigo anaoishi kpwenye midzi ya ph'wani, Kinango ni seemu ya nyuma — seemu ambapho njira za kare zinaenderera kuonekana zaidi, na ambapho uchiya wa Kaunti ya Kwale unahisika zaidi."
             }
           ]
         }
@@ -10183,6 +15319,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Pesa zinazotumwa kutoka mijini — kupitia M-Pesa na njia nyingine — zinasaidia ada za shule, gharama za matibabu, na matengenezo ya kaya za mashambani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikiwa nazi ni msingi, korosho ni ndoto. Korosho ndiyo zao kuu la biashara la Kaunti ya Kwale, likisaidia ajira takriban 4,000 za moja kwa moja na ajira 50,000 zisizo za moja kwa moja katika mnyororo wa uzalishaji, usindikaji, na biashara. Uzalishaji wa korosho wa kaunti umekua katika miaka ya hivi karibuni, ukisaidiwa na ugawaji wa serikali wa miche bora na mafunzo katika mazoea ya kisasa ya kilimo. Mashamba ya korosho yanatapakaa mandhari ya kaunti ndogo za pwani, mataji yake yanayoenea yakiwa kipengele cha kipekee cha mashambani ya Wadigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa korosho unaonyesha uwezo na kukatisha tamaa kwa sekta ya kilimo ya Kwale. Uwezo uko wazi: mahitaji ya ulimwengu ya korosho ni makubwa, zao hilo linafaa kwa hali ya hewa ya kaunti, na mnyororo wa thamani kutoka kokwa mbichi hadi punje iliyosindikwa unatoa sehemu nyingi ambapo thamani inaweza kuongezwa ndani ya nchi. Kukatisha tamaa pia ni wazi: korosho nyingi za Kwale bado zinouzwa mbichi au na usindikaji mdogo, ikimaanisha kuwa hatua zenye thamani kubwa zaidi za mnyororo wa thamani — kukaanga, kuweka ladha, kufungasha kwa masoko ya rejareja — hutokea mahali pengine. Kuanzishwa kwa viwanda vya usindikaji wa ndani kumekuwa lengo la kudumu la mipango ya maendeleo ya kaunti, lakini maendeleo yamekuwa polepole."
+            },
+            {
+              "type": "heading",
+              "text": "Uvuvi: Mila Chini ya Shinikizo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamii za uvuvi za Wadigo, zilizojikita kando ya pwani kutoka Shimoni hadi Msambweni na kwenye visiwa vya eneo la bahari la Kisite-Mpunguti, zinafanya mila ya ufundi ambayo inaenea nyuma kwa karne nyingi. Wavuvi hutumia ndoano za mkono, nyavu za gill, na mitego ya jadi, wakifanya kazi kutoka kwa boti ndogo za mbao — mitumbwi ya ngalawa miongoni mwayo — ambayo yenyewe ni vizalia vya utamaduni wa baharini wa Bahari ya Hindi. Samaki wanaovuliwa ni pamoja na samaki wa miamba, pweza, kamba, na aina mbalimbali za samaki wa bahari kuu ambazo zinouzwa mbichi katika masoko ya ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini uchumi wa uvuvi uko katika kushuka kwa hatari. Viwango vya samaki wanaovuliwa vimeshuka mara nne tangu miaka ya 1980, vikisukumwa na uvuvi kupita kiasi, uharibifu wa makazi ya miamba ya matumbawe, na mabadiliko ya joto la bahari na mikondo. Wavuvi ambao zamani walileta nyumbani kwa uhakika chakula cha kutosha kulisha familia zao na kuuza ziada sasa mara nyingi wanarudi na samaki ambao hawatoshi kugharamia mafuta na chambo. Serikali ya kaunti imejibu kwa kugawa boti 60 za kisasa kwa jamii za uvuvi, lakini tatizo la msingi — kupungua kwa samaki katika maji ya karibu na ufuko — haliwezi kutatuliwa kwa boti bora peke yake."
+            },
+            {
+              "type": "heading",
+              "text": "Kilimo cha Mwani: Mtangulizi wa Uchumi wa Bluu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mojawapo ya maendeleo ya kuahidi zaidi katika njia za maisha za pwani za Wadigo ni kuibuka kwa kilimo cha mwani. Vikundi 21 vya kilimo cha mwani vimeanzishwa katika vijiji 14 kando ya pwani ya Kwale, vikikuza aina za mwani zinazovunwa, kukaushwa, na kuuzwa kwa matumizi katika usindikaji wa chakula, vipodozi, na bidhaa za dawa. Kazi hiyo inahitaji nguvu kazi nyingi lakini inahitaji uwekezaji wa mtaji wa chini kwa kiasi, na kuifanya ipatikane kwa jamii ambazo hazina rasilimali za biashara zinazohitaji mtaji mkubwa zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushirika wa Mwani wa Kibuyuni unajitokeza kama mfano wa kile ambacho biashara ya pwani inayotegemea jamii inaweza kufanikiwa. Ulianzishwa mwaka 2010 na wanachama 113, takriban asilimia 75 wao wakiwa wanawake, ushirika umekua hadi wanachama 414 chini ya uongozi wa Mama Fatuma Usi. Kiasi cha mavuno kiliongezeka mara mbili kati ya 2012 na 2018. Ushirika unatoa si mapato tu bali pia usalama wa chakula — mwani unaliwa na una lishe — na kipimo cha hadhi ya jamii kwa wanawake ambao vinginevyo wangekosa upatikanaji wa ushiriki rasmi wa kiuchumi. Unaonyesha kuwa uchumi wa bluu, ambao mara nyingi hujadiliwa kwa maneno ya kisera, unaweza kubadilishwa kuwa maboresho yanayoonekana katika maisha ya jamii za pwani."
+            },
+            {
+              "type": "heading",
+              "text": "Ajira ya Utalii: Fursa na Ukosefu wa Usawa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa utalii unaojikita Diani Beach ndio mwajiri mkubwa zaidi katika pwani ya kusini, lakini masharti ya ushiriki wa Wadigo katika uchumi huo hayana usawa mkubwa. Hoteli na mapumziko yanaajiri wafanyakazi wa Wadigo wa ndani hasa katika usafishaji, upandaji bustani, ufuaji nguo, na ulinzi — nyadhifa za malipo ya chini zaidi na ujuzi mdogo zaidi katika sekta ya ukarimu. Nyadhifa za usimamizi, hisa za umiliki, na nafasi za mapato ya juu katika utalii — waongoza watalii, wakufunzi wa kupiga mbizi, wasimamizi wa ukarimu — zinashikiliwa kwa wingi na watu wa nje, iwe kutoka bara ya Kenya au kutoka nje ya nchi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi usio rasmi wa utalii unatoa njia ya maisha sambamba lakini isiyo na uhakika. Wavulana wa ufukweni — vijana wanaofanya biashara kwenye ufukwe, wakitoa ziara, usafiri, na huduma mbalimbali kwa watalii — wanawakilisha nguvu kazi inayoonekana lakini hatarini. Mapato yao si ya kawaida, hadhi yao ya kisheria haijulikani wazi, na kukabiliwa kwao na matatizo ya kijamii ya utalii — matumizi mabaya ya dawa, unyanyasaji wa kingono — ni kubwa. Kwa vijana wa Wadigo wenye elimu ndogo na fursa chache za ajira rasmi, uchumi wa ufukweni mara nyingi ndio mwajiri wa mwisho."
+            },
+            {
+              "type": "heading",
+              "text": "Boda-Boda: Uchumi wa Vijana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Boda-boda — teksi ya pikipiki — imekuwa labda njia moja muhimu zaidi ya maisha kwa vijana wa Wadigo. Kote Kaunti ya Kwale, makundi ya waendesha boda-boda yanasubiri katika kila njia panda, soko, na lango la shule, yakitoa usafiri wa bei nafuu wa sehemu moja hadi nyingine katika eneo ambapo usafiri wa umma ni haba na mtandao wa barabara, ingawa unapanuka, bado unaacha jamii nyingi bila kuunganishwa vizuri. Kijana mwenye upatikanaji wa pikipiki — iwe anamiliki, amekodisha, au anaiendesha kwa kamisheni kwa mmiliki — ana mali ya kuzalisha mapato mara moja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa boda-boda ni dalili ya ajira rasmi ndogo na pia uvumbuzi halisi wa kiuchumi. Unajaza pengo halisi la usafiri, unatoa ajira inayobadilika, na unaunda mtandao wa shughuli za kiuchumi unaogusa kila kona ya kaunti. Lakini pia ni hatari — ajali za pikipiki ni sababu kuu ya majeraha na vifo miongoni mwa vijana — na mapato, ingawa ya papo hapo, mara chache yanatosheleza kujenga usalama wa kiuchumi wa muda mrefu."
+            },
+            {
+              "type": "heading",
+              "text": "Mashirika ya Kiuchumi ya Wanawake"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mashirika ya kiuchumi ya wanawake yanawakilisha baadhi ya shughuli za kiuchumi zenye nguvu na ubunifu zaidi katika jamii ya Wadigo ya sasa. *Chama* — kikundi cha akiba kinachozunguka au mzunguko — kiko kila mahali. Wanawake wanakusanya kiasi kidogo cha pesa kila wiki au mwezi na kugawanya jumla iliyokusanywa kwa mwanachama mmoja kwa wakati mmoja, kutoa upatikanaji wa mtaji wa jumla ambao usingekuwa rahisi kuhifadhi mmoja mmoja na ambao taasisi rasmi za benki mara chache huwapatia wanawake wa mashambani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Zaidi ya vyama, mashirika ya wanawake yenye muundo zaidi yameibuka. Kikundi cha Wanawake cha Munje Tunusuru kinachanganya urejesho wa mikoko na ufugaji nyuki, ufumaji vikapu, na kilimo hai — mkusanyiko wa shughuli ulioanuka ambao unatoa mikondo mingi ya mapato huku ukichangia uhifadhi wa mazingira. Mashirika haya ni muhimu si kwa pato lao la kiuchumi tu bali kwa kazi yao ya kijamii: yanaunda nafasi ambapo wanawake wanafanya uongozi, kufanya maamuzi ya pamoja, na kujenga aina ya mtaji wa kijamii unaobadilishwa kuwa sauti ya kisiasa na ushawishi katika jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Fedha za Kutumwa na Uhamaji wa Mijini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkondo muhimu lakini ugumu kupima wa mapato kwa familia za Wadigo wa mashambani unatoka kwa fedha zinazotumwa na wanafamilia wanaofanya kazi katika maeneo ya mijini. Mombasa, kama jiji kubwa la karibu zaidi, inachukua idadi kubwa zaidi ya wafanyakazi wa Wadigo, wanaopata ajira katika bandari, katika viwanda, katika ujenzi, na katika sekta ya huduma. Nairobi inavutia waliosoma zaidi. Nchi za Ghuba na maeneo mengine ya kimataifa yanavutia mkondo mdogo lakini wenye umuhimu wa kiuchumi wa wahamaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pesa zinazotumwa nyumbani — kupitia jukwaa za pesa za simu kama M-Pesa, ambayo imebadilisha upatikanaji wa kifedha kote Kenya — zinasaidia ada za shule, gharama za matibabu, gharama za mazishi, na matunzo ya kawaida ya nyumba za mashambani. Uhamaji wa mijini pia huunda umbali wa kitamaduni: kijana wa Kidigo anayefanya kazi Mombasa au Nairobi anaweza kuzungumza Kiswahili kama lugha yake kuu, kudumisha mawasiliano ya mara kwa mara tu na mfumo wa kaya, na kujitambulisha na jamii yake ya mjini kama anavyojitambulisha na kijiji chake cha mababu. Faida ya kiuchumi ya uhamaji ni halisi; gharama ya kitamaduni ni vigumu kupima lakini si ndogo."
             }
           ],
           "dig": [
@@ -10209,6 +15425,86 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Pesa zinazohumwa kula midzini — kupishira M-Pesa na njira nyinji — zinasaidia ada za shule, gharama za uganga, na matengenezo ga makaya ga mashambani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kama nazi ni msingi, korosho ni ndoso. Korosho ndiyo zao kulu ra biashara ra Kaunti ya Kwale, rikisaidiya kazi kama 4,000 za mwenga kpwa mwenga na kazi 50,000 zisizo za mwenga kpwa mwenga kpwenye mnyororo wa uzalishaji, usindikaji, na biashara. Uzalishaji wa korosho wa kaunti umekula miaka ya sambi, ukisaidiwa ni ugawaji wa serikali wa miche minono na mafundzo ga mazoea ga kisasa ga kilimo. Mashamba ga korosho ganatapakaa mandhari ya kaunti ndide za ph'wani, mataji gakpwe ganayoenea gakikala chipengele cha chipekee cha kpwisharoni kpwa Adigo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa korosho unaonyesa uwezo na kutsukiza tamaa kpwa sekta ya kilimo ya Kwale. Uwezo u phahala pa kuonekana: mahitadzi ga ulimwengu ga korosho ni makulu, zao riro rinafaa kpwa hali ya hewa ya kaunti, na mnyororo wa thamani kula kokwa mbichi hadi punje iriyosindikwa unapha seemu nyinji ambapho thamani inaweza kuongezwa ndani ya tsi. Kutsukiza tamaa pia ku phahala pa kuonekana: korosho nyinji za Kwale bado zinauzwa mbichi au na usindikaji mdide, kunaamba kukala hatua zenye thamani kulu zaidi za mnyororo wa thamani — kukaanga, kuikpwa ladha, kufungasha kpwa masoko ga rejareja — hutokea mahali phengine. Kuanzishwa kpwa viwanda vya usindikaji wa ndani kumekala lengo ra kudumu ra mipango ya maendeleo ya kaunti, ela maendeleo gamekala pole-pole."
+            },
+            {
+              "type": "heading",
+              "text": "Uvuvi: Mila Tsini ya Shinikizo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamii za uvuvi za Adigo, zilizojikita kanda ya ph'wani kula Shimoni hadi Msambweni na kpwenye visiwa vya seemu ya bahari ya Kisite-Mpunguti, zinafanya mila ya ufundi ambayo inaenea nyuma kpwa karne nyinji. Avuvi anahutumira ndoano za mkono, nyavu za gill, na mitego ya kare, anafanya kazi kula kpwa miyadiya midide ya mbao — mitumbwi ya ngalawa miongoni mwayo — ambayo yenyewe ni vizalwa vya utamaduni wa baharini wa Bahari ya Hindi. Samaki anaovuliwa ni phamwenga na samaki a miamba, ph'weza, kamba, na aina mbali-mbali za samaki a bahari kulu ambazo zinauzwa mbichi kpwenye masoko ga ndani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela uchumi wa uvuvi u kpwenye kushuka kpwa hatari. Viwango vya samaki ariovuliwa vimegwa tsini mara ne hangu miaka ya 1980, vikisukumwa ni uvuvi kupita kiasi, uharibifu wa makazi ga miamba ya matumbawe, na mabadiliko ga joto ra bahari na mikondo. Avuvi ambao kare arireha nyumbani kpwa uhakika chakurya cha kutosha kulisha nyumba zao na kuuza ziada sambi mara nyinji anauya na samaki ambao taatosha kugharamia mafuta na chambo. Serikali ya kaunti ikadzibu kpwa kugawa miyadiya 60 ya kisasa kpwa jamii za uvuvi, ela tatizo ra msingi — kuphunguka kpwa samaki kpwenye madzi ga phephi na ufuko — tariweza kutatuliwa ni miyadiya minono bahi."
+            },
+            {
+              "type": "heading",
+              "text": "Kilimo cha Mwani: Mtangulizi wa Uchumi wa Bluu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mwenga wa maendeleo ganayoahidi zaidi kpwenye njira za maisha za ph'wani za Adigo ni kuibuka kpwa kilimo cha mwani. Vikundi 21 vya kilimo cha mwani vimeanzishwa kpwenye vitsijini 14 kanda ya ph'wani ya Kwale, vikikusanya aina za mwani zinazovunwa, kukaushwa, na kuuzwa kpwa matumizi kpwenye usindikaji wa chakurya, vipodozi, na bidhaa za dawa. Kazi iyo inahitadzi nguvu kazi nyinji ela inahitadzi uwekezaji wa mtaji wa tsini kpwa kiasi, na kuifanya ipatikane kpwa jamii ambazo tazina rasilimali za biashara zinazohitadzi mtaji mkulu zaidi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ushirika wa Mwani wa Kibuyuni unadzitokeza kama mfano wa chira ambacho biashara ya ph'wani inayotegemea jamii inaweza kufanikiwa. Urianzishwa mwaka wa 2010 na anachama 113, kama asilimia 75 ao achetu, ushirika umekula hadi anachama 414 tsini ya uongozi wa Mama Fatuma Usi. Kiasi cha mavuno chikaongezeka mara mbiri kahi ya 2012 na 2018. Ushirika unapha si mapato bahi ela pia usalama wa chakurya — mwani unariwa na una lishe — na chipimo cha hadhi ya jamii kpwa achetu ambao vinginefo angekosa kupata ushiriki rasmi wa chiuchumi. Unaonyesa kukala uchumi wa bluu, ambao mara nyinji unajadiriwa kpwa maneno ga chisera, unaweza kubadilishwa kukala maboresho ganayoonekana kpwenye maisha ga jamii za ph'wani."
+            },
+            {
+              "type": "heading",
+              "text": "Kazi ya Utalii: Fursa na Ukosefu wa Usawa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa utalii unaojikita Diani Beach ndio muajiri mkulu zaidi kpwenye ph'wani ya kusini, ela masharti ga kushiriki kpwa Adigo kpwenye uchumi huo tagana usawa mkulu. Hoteli na maphumziko ganaajiri afanyikazi Adigo a ndani haswa kpwenye usafishaji, upandaji bustani, ufuaji nguwo, na ulinzi — nyadhifa za malipo ya tsini zaidi na ujuzi mdide zaidi kpwenye sekta ya ukarimu. Nyadhifa za usimamizi, hisa za umiliki, na nafasi za mapato ga dzulu kpwenye utalii — aongoza atalii, akufundzi a kupiga mbizi, asimamizi a ukarimu — zinashikiliwa kpwa unji ni atu a kondze, kpwa kukala kula bara ya Kenya au kula kondze ya tsi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi usio rasmi wa utalii unapha njira ya maisha sambamba ela isiyo na uhakika. Avulana a ph'wanini — adide anaofanya biashara kpwenye ufuko, anaopha ziara, usafiri, na huduma mbali-mbali kpwa atalii — anawakilisha nguvu kazi inayoonekana ela hatarini. Mapato gao si ga kawaida, hadhi yao ya chisheria taijulikane, na kukabiliana kwao na matatizo ga chijamii ga utalii — kutumira vibaya dawa, unyanyasaji wa chingono — ni kukulu. Kpwa adide a Adigo alume ario na elimu ndide na fursa chache za kazi rasmi, uchumi wa ph'wanini mara nyinji ndio muajiri wa mwisho."
+            },
+            {
+              "type": "heading",
+              "text": "Boda-Boda: Uchumi wa Adide"
+            },
+            {
+              "type": "paragraph",
+              "text": "Boda-boda — teksi ya pikipiki — imekala labda njira mwenga muhimu zaidi ya maisha kpwa adide alume a Adigo. Kosi Kaunti ya Kwale, makundi ga aendesha boda-boda ganasubiri kpwenye chila njira panda, soko, na lango ra shule, gakipha usafiri wa bei nafuu wa seemu mwenga hadi nyingine kpwenye seemu ambapho usafiri wa umma ni haba na mtandao wa barabara, ingawhe unapanuka, bado unaricha jamii nyinji bila kuunganishwa vinono. Mdide mulume ariye na kupata pikipiki — kpwa kukala anamiriiki, akakodisha, au anaiendeshera kamisheni kpwa mmiriiki — ana mali ya kuzalisha mapato kpwa wakati mmwenga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa boda-boda ni dalili ya kazi rasmi ndide na pia uvumbuzi wa kpweli wa chiuchumi. Unajaza pengo ra kpweli ra usafiri, unapha kazi inayobadilika, na unaunda mtandao wa shughuli za chiuchumi unaogusa chila kona ya kaunti. Ela pia ni wa hatari — ajali za pikipiki ni sababu kulu ya majeraha na vifo miongoni mwa adide alume — na mapato, ingawhe ga phapho hapha, mara chache ganatosha kudzenga usalama wa chiuchumi wa wakati mure."
+            },
+            {
+              "type": "heading",
+              "text": "Mashirika ga Chiuchumi ga Achetu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mashirika ga chiuchumi ga achetu ganawakilisha shughuli za chiuchumi zenye nguvu na ubunifu zaidi kpwenye jamii ya Adigo ya sambi. *Chama* — chikundi cha akiba chinachozunguka au mzunguko — chiko chila phatu. Achetu anakusanya kiasi chidide cha fedha chila wiki au mwezi na kugawanya jumla iriyokusanywa kpwa mwanachama mmwenga kpwa wakati mmwenga, kupha kupata mtaji wa jumla ambao usingekala rahisi kuhifadhi mmwenga-mmwenga na ambao taasisi rasmi za benki mara chache huapha achetu a kpwisharoni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Zaidi ya vyama, mashirika ga achetu genye muundo zaidi gameibuka. Chikundi cha Achetu cha Munje Tunusuru chinaganya urejesho wa mikoko na ufugaji nyuchi, ufumaji vikapu, na kilimo hai — mkusanyo wa shughuli urioanuka ambao unapha mikondo minji ya mapato huku ukichangia uhifadhi wa mazingira. Mashirika gano ni muhimu si kpwa pato rao ra chiuchumi bahi ela kpwa kazi yao ya chijamii: gananda seemu ambapho achetu anafanya uongozi, kufanya maamuzi ga phamwenga, na kudzenga aina ya mtaji wa chijamii unaobadilishwa kukala sauti ya chisiasa na ushawishi kpwenye jamii."
+            },
+            {
+              "type": "heading",
+              "text": "Fedha za Kuhumwa na Kuhama kpwa Midzini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mkpwondo muhimu ela ugumu kupima wa mapato kpwa nyumba za Adigo za kpwisharoni unatoka kpwa fedha zinazohumwa ni ananyumba anaofanya kazi kpwenye seemu za midzini. Mombasa, kama mudzi mkulu wa phephi zaidi, inatsukula idadi kulu zaidi ya afanyikazi Adigo, anaopata kazi kpwenye bandari, kpwenye viwanda, kpwenye ujenzi, na kpwenye sekta ya huduma. Nairobi inavutiya ariosoma zaidi. Tsi za Ghuba na seemu zingine za kimataifa zinavutiya mkpwondo mdide ela wenye umuhimu wa chiuchumi wa ahama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fedha zinazohumwa nyumbani — kupitira jukwaa za fedha za simu dza M-Pesa, ambayo imebadilisha kupata fedha kosi Kenya — zinasaidiya ada za shule, gharama za kuphozwa, gharama za mazishi, na matunzo ga kawaida ga nyumba za kpwisharoni. Kuhama kpwa midzini pia kunanda umbali wa chitamaduni: mdide wa Chidigo mulume au muchetu anayefanya kazi Mombasa au Nairobi anaweza kugomba Chiswahili kama luga yakpwe ya kpwandza, kudumisha mawasiliano ga mara kpwa mara bahi na mfumo wa kaya, na kudzitambulisha na jamii yakpwe ya mudzini kama anavyodzidzitambulisha na chitsijini chakpwe cha akare. Faida ya chiuchumi ya kuhama ni ya kpweli; gharama ya chitamaduni ni vigumu kupima ela si ndide."
             }
           ]
         }
@@ -10360,6 +15656,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uzoefu wa Base Titanium unabeba uzito maalum kwa sababu ya kile kinachoweza kuja. Kaya Mrima, mojawapo ya misitu ya kaya takatifu zaidi katika eneo la Wadigo, inakalia amana muhimu za madini ya nadra. Kielelezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, ada zisizolipwa — ndio hadithi ya tahadhari ambayo wapinzani wa uchimbaji wa Kaya Mrima wananukuu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Labda urithi wenye utata mkubwa zaidi wa kisiasa wa Base Titanium ni swali la malipo ya urahisi ambayo hayakulipwa. Kulingana na hesabu za serikali ya kaunti na ripoti za bunge, kampuni iliondoka ikiwa na takriban KSh milioni 900 — takriban dola za Marekani milioni 7 — katika malipo ya urahisi na faida za jamii ambayo hayakulipwa. Hizi zilikuwa fedha ambazo zilipaswa kutiririka kwa Kaunti ya Kwale na kwa jamii zilizoathirika kama fidia ya uchimbaji wa utajiri wao wa madini. Kutolipwa huko kulikuwa suala kubwa la kisiasa, lililoinuliwa mara kwa mara katika bunge la kaunti na katika bunge la kitaifa, na lilifafanua malalamiko mapana zaidi: kwamba Wadigo walikuwa wameangalia rasilimali yao ya asili yenye thamani kubwa zaidi ikichimbwa, kusindikwa, na kusafirishwa nje ya nchi huku faida zilizoahidiwa zikishindwa kupatikana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgogoro wa malipo ya urahisi si kuhusu pesa tu. Ni kuhusu masharti ya msingi ambayo viwanda vya uchimbaji vinafanya kazi katika jamii zilizotengwa. Sheria ya uchimbaji madini ya Kenya imefanyiwa marekebisho tangu Base Titanium ilipoanza shughuli, huku Sheria ya Madini ya 2016 ikianzisha mfumo wa wazi zaidi wa malipo ya urahisi, lakini uzoefu wa Kwale ulionyesha kwamba sheria peke yake haidhamini matokeo ya haki wakati usawa wa nguvu kati ya kampuni ya kimataifa na jamii ya mashambani ni wa kina sana."
+            },
+            {
+              "type": "heading",
+              "text": "Pengo la Baada ya Kufungwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufungwa kwa mgodi mwezi Desemba 2024 kuliunda mtikiso wa haraka wa kiuchumi. Takriban wafanyakazi 1,600 wa moja kwa moja walipoteza kazi zao. Kazi 2,800 zisizo za moja kwa moja zilizotegemea shughuli za mgodi — madereva wa malori, wauzaji chakula, wasambazaji mafuta, watoa malazi — zilianza kutoweka. Mapato ya kodi kwa serikali ya kaunti yalipungua. Biashara katika Ukunda na Msambweni ambazo zilikuwa zimekua kuhudumia wafanyakazi wa migodini zilikabiliwa na kushuka kwa ghafla kwa mahitaji."
+            },
+            {
+              "type": "paragraph",
+              "text": "Serikali ya kaunti na wapangaji wa kiuchumi wa kitaifa wamebainisha sekta tatu kujaza pengo hilo: kilimo, utalii, na uchumi wa bluu — uvuvi, kilimo cha mwani, na usimamizi wa rasilimali za bahari. Lakini mpito huo si rahisi wala wa haraka. Ardhi ya kilimo iliyoharibiwa na uchimbaji inahitaji miaka ya ukarabati kabla ya kurudi kwenye uzalishaji. Miundombinu ya utalii inahitaji uwekezaji wa mtaji ambao kaunti haina. Uchumi wa bluu una ahadi lakini ni wa kiwango kidogo. Pengo kati ya kufungwa kwa mgodi na kukomaa kwa shughuli mbadala za kiuchumi ni kipindi cha taabu ya kweli kwa jamii zilizokuwa zinategemea, moja kwa moja au la, uchumi wa uchimbaji."
+            },
+            {
+              "type": "heading",
+              "text": "Ukarabati: Ahadi na Ukweli"
+            },
+            {
+              "type": "paragraph",
+              "text": "Base Titanium ilijitolea kwa programu ya ukarabati wa ardhi kama sehemu ya masharti ya leseni yake ya uchimbaji. Mchakato huo unahusisha kubadilisha udongo wa juu, kupanda mimea upya, na kurejesha maeneo yaliyochimbwa kwa hali inayoweza kusaidia aina fulani ya matumizi ya uzalishaji. Kampuni imeripoti maendeleo katika ukarabati wa sehemu za uchimbaji zilizokamilika, na baadhi ya maeneo yamepandwa upya na aina za miti zinazokua haraka na kifuniko cha ardhini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini ukarabati wa ardhi iliyochimbwa si sawa na urejesho. Mandhari ya awali — minazi iliyokomaa, mashamba yaliyoimarika ya korosho, mifumo tata ya mizizi iliyojengwa kwa miongo — haiwezi kuundwa upya katika kipindi cha miaka michache. Kinachotolewa na ukarabati ni mandhari tofauti: changa zaidi, isiyo na utofauti, na isiyo na tija kuliko ilivyokuwepo awali. Kwa familia zilizohamisihwa, swali si kama ardhi itasaidia hatimaye mimea fulani, bali kama itasaidia tena njia mahususi za maisha ya kilimo zilizofafanua maisha yao kabla ya mgodi kufika."
+            },
+            {
+              "type": "heading",
+              "text": "Onyo la Kaya Mrima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uzoefu wa Base Titanium una uzito wa pekee kwa sababu ya kile kinachoweza kuja baadaye. Kaya Mrima, mojawapo ya misitu mitakatifu zaidi ya kaya katika eneo la Wadigo, iko juu ya mashapo makubwa ya madini adimu ya ardhi. Maslahi ya uchimbaji yamechunguza mara kwa mara uwezekano wa kuchimba madini hayo, na uwezekano huo umezalisha upinzani mkali kutoka kwa wazee wa Wadigo, mashirika ya mazingira, na watetezi wa uhifadhi wa kitamaduni. Kaya Mrima si msitu tu. Ni eneo la kitamaduni linalotambuliwa na UNESCO, mahali pa roho za mababu, utawala wa jadi, na umuhimu wa kiikolojia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kielelezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ya urahisi ambayo hayakulipwa, na pengo la kiuchumi baada ya kufungwa — ni hasa hadithi ya tahadhari ambayo wapinzani wa uchimbaji wa Kaya Mrima wananukuu. Ikiwa eneo la kilimo la kawaida lingeweza kusumbuliwa sana hivyo, uchimbaji ungefanya nini kwa msitu mtakatifu? Swali si la nadharia. Ni uamuzi muhimu zaidi wa matumizi ya ardhi unaokabili jamii ya Wadigo leo, na jibu litaundwa kwa kiasi kikubwa na masomo — mazuri na mabaya — ya uzoefu wa Base Titanium."
+            },
+            {
+              "type": "heading",
+              "text": "Kile Ambacho Mgodi Ulifundisha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miaka kumi na moja ya uendeshaji wa Base Titanium katika Kaunti ya Kwale ilifundisha jamii ya Wadigo, na Kenya kwa ujumla, masomo magumu kadhaa. Kwanza, kwamba utajiri wa madini haubadilishwi moja kwa moja kuwa faida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya kisiasa ya kujadili masharti ya haki. Pili, kwamba ukarabati wa mazingira si urejesho wa mazingira — kile kilichoharibiwa katika muongo wa uchimbaji hakiwezi kujengwa upya katika muongo wa kupanda miti. Tatu, kwamba utegemezi wa kiuchumi juu ya operesheni moja ya uchimbaji huunda hatari ambayo inaonekana kikamilifu tu wakati wa kufungwa. Na nne, kwamba swali la nani anafaidika na rasilimali za asili za jamii si swali la kiuchumi tu kamwe. Ni swali la haki, la uhuru juu ya ardhi ya mababu, na la haki ya watu kuamua masharti ambayo urithi wao unatumiwa."
             }
           ],
           "dig": [
@@ -10402,6 +15750,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Uzoefu wa Base Titanium unabeba uzito maalum kpwa sababu ya chicho chinachoweza kukpwedza. Kaya Mrima, mwenga wa misitu ya kaya mitakatifu zaidi kpwa eneo ra Adigo, inakalia amana muhimu za madini ga nadra. Mfwano wa Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, ada zisizolipwa — ndio hadithi ya tahadhari ambayo apinzani wa uchimbaji wa Kaya Mrima ananukuu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengine urithi wenye utata mkulu zaidi wa chisiasa wa Base Titanium ni swali ra malipo ga urahisi ambago tagaripiwe. Kulengana na hesabu za serikali ya kaunti na ripoti za bunge, kampuni iriuka yenye kama KSh milioni 900 — kama dola za Marekani milioni 7 — kpwenye malipo ga urahisi na faida za jamii ambago tagaripiwe. Hizi zikala fedha ambazo ziripaswa kutiririka kpwa Kaunti ya Kwale na kpwa jamii zirizoathirika kama fidia ya kuchimbwa kpwa utajiri wao wa madini. Kutolipwa kuko kukakala suala kulu ra chisiasa, rikarinuliwa mara kpwa mara kpwenye bunge ra kaunti na kpwenye bunge ra kitaifa, na rikafasiria malalamiko mapana zaidi: kukala Adigo arikala ameangalira rasilimali yao ya asili yenye thamani kulu zaidi ikichimbwa, kusindikwa, na kusafirishwa kondze ya tsi huku faida zirizoahidiwa zikashindwa kupatikana."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mgogoro wa malipo ga urahisi si kuhusu fedha bahi. Ni kuhusu masharti ga msingi ambago viwanda vya uchimbaji vinafanya kazi kpwenye jamii zilizotengwa. Sheria ya uchimbaji madini ya Kenya imefanyirwa marekebisho hangu Base Titanium iripoandza shughuli, na Sheria ya Madini ya 2016 ikianzisha mfumo wa phahala pa kuonekana zaidi wa malipo ga urahisi, ela uzoefu wa Kwale urionyesa kukala sheria pheke yake taidhamini matokeo ga haki wakati usawa wa nguvu kahi ya kampuni ya kimataifa na jamii ya kpwisharoni u wa chitsina sana."
+            },
+            {
+              "type": "heading",
+              "text": "Pengo ra Bada ya Kufungwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kufungwa kpwa mgodi mwezi wa Desemba 2024 kuriunda mtikiso wa haraka wa chiuchumi. Kama afanyikazi 1,600 a mwenga kpwa mwenga ariphoteza kazi zao. Kazi 2,800 zisizo za mwenga kpwa mwenga zirizotegemea shughuli za mgodi — adereva a malori, auzaji chakurya, asambazaji mafuta, apha malazi — ziriandza kutoweka. Mapato ga kodi kpwa serikali ya kaunti gariphunguka. Biashara kpwenye Ukunda na Msambweni ambazo zirikala zimekula kuhudumia afanyikazi a migodini zirikabiliana na kushuka kpwa gafula kpwa mahitadzi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Serikali ya kaunti na apangaji a chiuchumi a kitaifa amebainisha sekta hahu kujaza pengo riro: kilimo, utalii, na uchumi wa bluu — uvuvi, kilimo cha mwani, na usimamizi wa rasilimali za bahari. Ela mpito huo si rahisi wala wa haraka. Ardhi ya kilimo iriyoharibiwa ni uchimbaji inahitadzi miaka ya ukarabati kabila ya kuuya kpwenye uzalishaji. Miundombinu ya utalii inahitadzi uwekezaji wa mtaji ambao kaunti taunawo. Uchumi wa bluu una ahadi ela ni wa kiwango chidide. Pengo kahi ya kufungwa kpwa mgodi na kukomaa kpwa shughuli mbadala za chiuchumi ni chipindi cha taabu ya kpweli kpwa jamii zirizokala zinategemea, mwenga kpwa mwenga au la, uchumi wa uchimbaji."
+            },
+            {
+              "type": "heading",
+              "text": "Ukarabati: Ahadi na Ukpweli"
+            },
+            {
+              "type": "paragraph",
+              "text": "Base Titanium iridzitorea kpwa programu ya ukarabati wa ardhi kama sehemu ya masharti ga leseni yakpwe ya uchimbaji. Mchakato huo unahusisha kubadilisha udongo wa dzulu, kupanda mimea uphya, na kurejesha seemu zirizochimbwa kpwa hali inayoweza kusaidiya aina fulani ya matumizi ga uzalishaji. Kampuni imeripoti maendeleo kpwenye ukarabati wa sehemu za uchimbaji zirizokamilika, na seemu zengine zimepandwa uphya na aina za mihi inayokula haraka na chifuniko cha ardhini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela ukarabati wa ardhi iriyochimbwa si sawa na urejesho. Mandhari ya kpwandza — minazi iriyokomaa, mashamba gariyoimarika ga korosho, mifumo migumu ya mizi iriyodzengwa kpwa miongo — taiweza kuundwa uphya kpwenye chipindi cha miaka michache. Kinachotolewa ni ukarabati ni mandhari tofauti: changa zaidi, isiyo na utofauti, na isiyo na tija kuriko iriyokuweko kare. Kpwa nyumba zirizohamisishwa, swali si kama ardhi indasaidiya hatimaye mimea fulani, ela kama indasaidiya tsena njira mahususi za maisha ga kilimo zirizofasiria maisha gao kabila ya mgodi kufika."
+            },
+            {
+              "type": "heading",
+              "text": "Onyo ra Kaya Mrima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Uzoefu wa Base Titanium una uzito wa chipekee kpwa sababu ya chira chinachoweza kudza bada. Kaya Mrima, mwenga wa matsaka matakatifu zaidi ga kaya kpwenye seemu ya Adigo, i dzulu ya mashapo makulu ga madini adimu ga ardhi. Maslahi ga uchimbaji gamechunguza mara kpwa mara uwezekano wa kuchimba madini gago, na uwezekano huo ukazalisha upinzani mkali kula kpwa akare a Adigo, mashirika ga mazingira, na atetezi a uhifadhi wa chitamaduni. Kaya Mrima si tsaka bahi. Ni seemu ya chitamaduni inayotambuliwa ni UNESCO, phatu pha roho za akare, utawala wa kare, na umuhimu wa chikolojia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chielezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ga urahisi ambago tagaripiwe, na pengo ra chiuchumi bada ya kufungwa — ni haswa hadithi ya tahadhari ambayo apinzani a uchimbaji wa Kaya Mrima ananukuu. Kama seemu ya kilimo ya kawaida ingeweza kusumbuliwa sana hivyo, uchimbaji ungefanya uhi kpwa tsaka takatifu? Swali si ra nadharia. Ni uamuzi muhimu zaidi wa matumizi ga ardhi unaokabili jamii ya Adigo rero, na dzibu rindaundwa kpwa kiasi kikulu ni masomo — manono na mabaya — ga uzoefu wa Base Titanium."
+            },
+            {
+              "type": "heading",
+              "text": "Chira Ambacho Mgodi Urifundza"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miaka kumi na mwenga ya uendeshaji wa Base Titanium kpwenye Kaunti ya Kwale irifundza jamii ya Adigo, na Kenya kpwa ujumla, masomo magumu mangaphi. Kpwandza, kukala utajiri wa madini taubadilishwi mwenga kpwa mwenga kukala faida ya jamii — unahitadzi utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya chisiasa ya kujadilira masharti ga haki. Phiri, kukala ukarabati wa mazingira si urejesho wa mazingira — chira chinachoharibiwa kpwenye muongo wa uchimbaji tachiweza kudzengwa uphya kpwenye muongo wa kupanda mihi. Hahu, kukala kutegemea chiuchumi kpwenye operesheni mwenga ya uchimbaji kunanda hatari ambayo inaonekana kikamilifu bahi wakati wa kufungwa. Na ne, kukala swali ra ani anayefaidika na rasilimali za asili za jamii si swali ra chiuchumi bahi katu. Ni swali ra haki, ra uhuru dzulu ya ardhi ya akare, na ra haki ya atu kuamua masharti ambago urithi wao unahumiwa."
             }
           ]
         }
@@ -10554,6 +15954,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Kinachoendelea ni chenye nguvu zaidi kuliko kilichobadilika. Lugha ya Chidigo, Uislamu, vyakula vya nazi, mila za sherehe — hizi ni vitu visivyobadilika ambavyo hakuna mpaka wa kisiasa na hakuna itikadi ya kitaifa imeweza kubadilisha. Wadigo wanabaki watu mmoja wanaoishi matoleo mawili ya maisha sawa ya kitamaduni."
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo wa Kenya hawakupitia usumbufu wa aina hiyo. Serikali ya Kenya baada ya uhuru chini ya Jomo Kenyatta ilifuata mfumo wa maendeleo ya kibepari ambao, ingawa ulibadilisha mambo mengi, haukulenga moja kwa moja shirika la kijamii la ukoo. Makabila ya Kenya, kwa namna fulani, yalihimizwa kudumisha utambulisho wao tofauti — ukabila ukawa kanuni kuu ya kuandaa siasa za Kenya, kwa bora na kwa mbaya. Mfumo wa uzazi wa upande wa mama uliendelea kuishi Kwale kwa sababu hakuna kitu kilichotokea kukiangamiza. Nchini Tanzania, kitu fulani kilitokea."
+            },
+            {
+              "type": "heading",
+              "text": "Lahaja na Lugha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chidigo kinachozungumzwa Kenya na Chidigo kinachozungumzwa Tanzania bado vinaelewana — Mdigo kutoka upande wowote wa mpaka anaweza kumwelewa Mdigo kutoka upande mwingine bila ugumu. Lakini miongo kadhaa ya kutengana imetoa tofauti za kilahaja ambazo msemaji yeyote ataona. Msamiati umetofautiana ambapo jamii hizi mbili zimechukua maneno tofauti ya kukopwa: Adigo wa Kenya wanakopa kwa uhuru zaidi kutoka Kiingereza, wakati Adigo wa Tanzania wanategemea zaidi Kiswahili sanifu. Mifumo ya matamshi inaonyesha tofauti ndogo. Miundo fulani ya kisarufi ambayo ni ya kawaida upande mmoja inaweza kuwa ya nadra au kunyumbulishwa tofauti upande mwingine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti hizi zinaimarishwa na sera tofauti za lugha za nchi hizo mbili. Nchini Tanzania, Kiswahili ni lugha ya taifa isiyopingwa na ni lugha ya kufundishia katika shule za msingi. Hii inaleta shinikizo kubwa kuelekea utawala wa Kiswahili, na Chidigo, kama lugha nyingine za wachache nchini Tanzania, kinafanya kazi chini ya kivuli cha lugha ya taifa inayoamuru heshima na msaada wa kitaasisi mkubwa zaidi. Nchini Kenya, ingawa Kiswahili pia ni lugha ya taifa, Kiingereza kina jukumu kubwa zaidi katika elimu na maisha ya umma, na uhusiano kati ya Chidigo na lugha zinazotawala umepangwa tofauti. Matokeo yake ni kwamba Adigo wa Tanzania wanaweza kuwa, kwa wastani, wenye ujuzi zaidi wa lugha mbili katika Kiswahili, wakati Adigo wa Kenya wanapitia mandhari ngumu zaidi ya lugha tatu ya Chidigo, Kiswahili, na Kiingereza."
+            },
+            {
+              "type": "heading",
+              "text": "Mazoezi ya Kidini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo wa Kenya na Tanzania wote ni Waislamu kwa wingi, na Uislamu unatumika kama nguvu kubwa ya kuunganisha kuvuka mpaka. Imani ya pamoja inatoa kalenda ya pamoja, kanuni za pamoja za maadili, na msamiati wa pamoja wa kujadili maswali ya maadili, familia, na maisha ya jamii. Sherehe za Idi, matukio ya Maulidi, na mdundo wa kila siku wa sala tano vinaunda maisha pande zote mbili kwa njia zinazofanana kimsingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo mazoezi ya kidini si sawa kabisa kuvuka mpaka. Mila ya serikali ya kilimwengu ya Tanzania, iliyojikita katika maono ya Nyerere ya taifa lisilo la kidhehebu, imeunda muktadha ambapo utambulisho wa kidini, kama utambulisho wa kikabila, unaonyeshwa kwa namna tofauti kidogo kuliko Kenya. Mandhari ya kisiasa ya Kenya yenye wingi zaidi imeruhusu madai ya kidini yanayoonekana zaidi — mashirika ya kisiasa ya Kiislamu, taasisi za elimu ya Kiislamu, na mazungumzo ya umma yenye rangi ya kidini ni sifa zinazojulikana zaidi za maisha ya pwani ya Kenya kuliko za Tanzania. Dini ni iyo hiyo, lakini mazingira ya kisiasa ambayo inatekelezwa ndani yake yanaumba jinsi inavyojidhihirisha katika maisha ya umma."
+            },
+            {
+              "type": "heading",
+              "text": "Mitazamo Kuvuka Mpaka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo wa Kenya na Tanzania wanaonana vipi? Swali hilo ni la hila, na jumla ni ya hatari, lakini mifumo fulani inaibuka kutoka mwingiliano wa kuvuka mpaka ambao ni sifa ya kudumu ya maisha ya Kidigo. Adigo wa Kenya wakati mwingine wanawaona wenzao wa Tanzania kuwa wa kimapokeo zaidi, wasio na ushawishi mkubwa wa kisasa cha haraka ambacho kimebadilisha Kaunti ya Kwale kupitia maendeleo ya utalii na ukaribu na Mombasa. Adigo wa Tanzania wanaweza kuwaona Adigo wa Kenya kuwa wenye ujasiri zaidi katika utambulisho wao wa kikabila, wenye nia zaidi ya kudai Udigo kama alama ya kisiasa na kitamaduni — mwelekeo ambao mfumo wa kisiasa wa Kenya, na hesabu yake ya kikabila, unautunza kikamilifu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamii zote mbili zinakuwa na mshangao kwa kiasi gani wanashiriki licha ya miongo ya kutengana. Utambuzi ni wa papo hapo na wa kweli — lugha ya pamoja, chakula cha pamoja, imani ya pamoja vinazalisha uhusiano wa papo hapo unaopita tofauti zilizoundwa na muktadha wa kitaifa. Harusi ya Kidigo huko Mkinga ingetambuliwa na mgeni kutoka Msambweni: ngoma ya chakacha, wali wa nazi, sala za Kiislamu, mazungumzo magumu kati ya familia — yote haya yangekuwa ya kawaida, hata kama maelezo fulani yanatofautiana."
+            },
+            {
+              "type": "heading",
+              "text": "Kinachoendelea Kudumu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti kati ya Adigo wa Kenya na Tanzania ni za kweli na hazipaswi kupunguzwa. Kubadilika kutoka urithi wa upande wa mama hadi upande wa pande mbili si marekebisho madogo — kunabadilisha muundo wa familia, mifumo ya urithi, uhusiano wa kijinsia, na swali la msingi la mahali ambapo mtu anamilikiwa. Tofauti za kilahaja, ingawa si vikwazo vya mawasiliano, vinaweka jamii hizo mbili kama toleo tofauti za mila ya pamoja. Mazingira tofauti ya kisiasa yametoa mikakati tofauti ya kudumisha utambulisho wa kikabila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini kinachoendelea kudumu kina nguvu zaidi ya kilichobadilika. Lugha ya Chidigo, kwa mabadiliko yake yote, inabaki kuwa lugha mama ya jamii zote mbili. Uislamu unatoa mfumo wa pamoja wa kiroho. Vyakula vya nazi, mila za sherehe, kushikamana na mandhari ya pwani — hizi ni vitu vya kudumu ambavyo hakuna mpaka wa kisiasa wala itikadi ya kitaifa iliyoweza kubadilisha. Adigo wanabaki watu wamoja wanaoishi toleo mbili za maisha sawa ya kitamaduni, na tofauti zao, kama tofauti kati ya ndugu waliolelewa katika nyumba tofauti, zinasisitiza tu ufanano wa kifamilia unaowafanya watambulike, bila kubadilika, kuwa watu wale wale."
             }
           ],
           "dig": [
@@ -10588,6 +16040,58 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Chinachoendelea ni chenye nguvu zaidi kuriko chirichobadilika. Luga ya Chidigo, Uislamu, vyakurya vya nazi, mila za sherehe — hizi ni vitu visivyobadilika ambavyo taphana mpaka wa kisiasa na taphana itikadi ya chitaifa iriyoweza kubadilisha. Adigo anasala atu amwenga anaoishi matoleo mairi ga maisha sawa ga chimila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo a Kenya taapitira usumbufu wa aina iyo. Serikali ya Kenya baada ya uhuru tsini ya Jomo Kenyatta yalungira mfumo wa maendeleo ga chibepari ambao, ingawa wabadilisha mambo manji, taulengere moja kpwa moja shirika ra chidzamii ra fuko. Makabila ga Kenya, kpwa namna fulani, gahimizwa kudumisha utambuzi wao tofauti — ukabila ukakala kanuni kulu ya kuandaa siasa za Kenya, kpwa bora na kpwa mbaya. Mfumo wa uzazi wa upande wa mayo wasala uzima kpwa Kwale kpwa sababu taphana chitu chirichotokera kukiangamiza. Nchini Tanzania, chitu fulani chatokera."
+            },
+            {
+              "type": "heading",
+              "text": "Lahaja na Luga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chidigo chinachozungumzwa Kenya na Chidigo chinachozungumzwa Tanzania bado vinaelewana — Mudigo kula upande wowosi wa mphaka anaweza kumwelewa Mudigo kula upande wanjhe bila ugumu. Ela miongo kadhaa ya kutengana ikalehera tofauti za chilahaja ambazo msemadzi yoyosi andaona. Msamiati ukabadilika ambapho midhini iyi miiri ichitsukula maneno tofauti ga kukopwa: Adigo a Kenya anakopa kpwa uhuru zaidi kula Chiingereza, wakati Adigo a Tanzania anategemea zaidi Chiswahili sanifu. Mifumo ya matamshi inaonyesa tofauti ndide. Miundo fulani ya chisarufi ambayo ni ya kawaida upande mumwenga inaweza kukala ya nadra au kunyumbulishwa tofauti upande wanjhe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti zizi zinaimizwa ni sera tofauti za luga za tsi zizo mbiri. Nchini Tanzania, Chiswahili ni luga ya chitaifa isiyopingwa na ni luga ya kufundzira kahi ya shule za msingi. Iyi inalehera mashinikizo makulu kuelekea utawala wa Chiswahili, na Chidigo, dza luga zingine za achache nchini Tanzania, chinahenda kazi tsini ya kivuli cha luga ya chitaifa inayoamuru heshima na msada wa chitaasisi mukulu zaidi. Nchini Kenya, ingawa Chiswahili piya ni luga ya chitaifa, Chiingereza china jukumu kulu zaidi kahi ya elimu na maisha ga uma, na uhusiano wa Chidigo na luga zinazotawala umepangwa tofauti. Matokeo gakpwe ni kukala Adigo a Tanzania anaweza kukala, kpwa wastani, enye ujuzi zaidi wa luga mbiri kahi ya Chiswahili, wakati Adigo a Kenya anapitira mandhari ngumu zaidi ya luga tahu ya Chidigo, Chiswahili, na Chiingereza."
+            },
+            {
+              "type": "heading",
+              "text": "Mazoezi ga Chidini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo a Kenya na Tanzania osi ni Aislamu kpwa unji, na Uislamu unahudumiya dza nguvu kulu ya kuunganiha kuvuka mphaka. Imani ya phamwenga inapha kalenda ya phamwenga, kanuni za phamwenga za maadili, na msamiati wa phamwenga wa kujadiliya maswali ga maadili, nyumba, na maisha ga mudhini. Sherehe za Idi, matukio ga Maulidi, na mdundo wa chila siku wa swala tsano vinaunda maisha pande zosi mbiri kpwa njira zinazofanana chiasili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela mazoezi ga chidini si sawa kabisa kuvuka mphaka. Mila ya serikali ya chilimwengu ya Tanzania, iriyodzikira kahi ya maono ga Nyerere ga taifa risiro ra chidhehebu, ikaunda muktadha ambamo utambuzi wa chidini, dza utambuzi wa chikabila, unaonyeshwa kpwa namna tofauti chidide kula Kenya. Mandhari ya chisiasa ya Kenya yenye unji zaidi ikaruhusu madai ga chidini ganagoonewa zaidi — mashirika ga chisiasa ga Chiislamu, taasisi za elimu ya Chiislamu, na mazungumzo ga uma genye rangi ya chidini ni sifa zinazomanyika zaidi za maisha ga ph'wani ya Kenya kula za Tanzania. Dini ni iyo-iyo, ela mazingira ga chisiasa ambago inatekelezwa ndaniye ganaunda njira inavyodzionyesa kahi ya maisha ga uma."
+            },
+            {
+              "type": "heading",
+              "text": "Mitazamo Kuvuka Mphaka"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo a Kenya na Tanzania anaonana viphi? Swali riro ni ra hila, na jumla ni ya hatari, ela mifumo fulani inadzionesa kula mwingiliano wa kuvuka mphaka ambao ni sifa ya kudumu ya maisha ga Adigo. Adigo a Kenya wakati wingine anaona adzao a Tanzania kukala a chimapokeo zaidi, wasio na ushawishi mkulu wa chisasa cha haraka ambacho chimebadilisha Kaunti ya Kwale kupitira maendeleo ga ugenyi na uphephi na Mombasa. Adigo a Tanzania anaweza kuona Adigo a Kenya kukala enye ujasiri zaidi kahi ya utambuzi wao wa chikabila, enye nia zaidi ya kudai Udigo dza alama ya chisiasa na chimila — mwelekeo ambao mfumo wa chisiasa wa Kenya, na hesabu yakpwe ya chikabila, unautunza kpwa nguvu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Midhini yosi miiri inakala na mshangao kpwa kiasi gani anashirikiya ingawa miongo ya kutengana. Utambuzi ni wa pho-pho na wa kpweli — luga ya phamwenga, chakula cha phamwenga, imani ya phamwenga vinazalisha uhusiano wa pho-pho unavyopita tofauti zirizoundwa ni muktadha wa chitaifa. Arusi ya Chidigo kpwa Mkinga ingatambuliwa ni mgenyi kula Msambweni: ngoma ya chakacha, wali wa nazi, swala za Chiislamu, mazungumzo magumu kahi ya nyumba — gosi gaga gangakala ga kawaida, hata maelezo fulani ganatofautiana."
+            },
+            {
+              "type": "heading",
+              "text": "Chirienderera Kudumu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tofauti kahi ya Adigo a Kenya na Tanzania ni za kpweli na tazifwehe kupunguzwa. Kubadilika kula urithi wa upande wa mayo hadi upande wa pande mbiri si marekebisho madide — kunabadilisha muundo wa nyumba, mifumo ya urithi, uhusiano wa achetu na alume, na swali ra msingi ra phatu ambapho mutu anamilikiwa. Tofauti za chilahaja, ingawa si vizuizi vya mawasiliano, vinaikira midhini iyo miiri dza toleo tofauti za mila ya phamwenga. Mazingira tofauti ga chisiasa galehera mikakati tofauti ya kudumisha utambuzi wa chikabila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela chirienderera kudumu china nguvu zaidi ya chirichobadilika. Luga ya Chidigo, kpwa mabadiliko gakpwe gosi, inasala kukala luga ya mayo ya midhini yosi miiri. Uislamu unapha mfumo wa phamwenga wa chiroho. Vyakula vya nazi, mila za sherehe, kushikamana na mandhari ya ph'wani — zizi ni vitu vya kudumu ambavyo taphana mphaka wa chisiasa wala itikadi ya chitaifa iriyoweza kubadilisha. Adigo anasala atu amwenga anaoishi toleo mbiri za maisha sawa ga chimila, na tofauti zao, dza tofauti kahi ya ndugu ariorerezwa kahi ya nyumba tofauti, zinasisitiza bahi ufanano wa chinyumba unaowahenda atambulike, bila kubadilika, kukala atu aho-aho."
             }
           ]
         }
@@ -10711,6 +16215,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo la kushangaza zaidi kuhusu Lunga Lunga ni linalofunua kuhusu asili ya mipaka yenyewe. Kwa Lunga Lunga, mpaka unafanya kazi sawa kama sehemu ya kukutana. Ni mahali ambapo nusu mbili za jamii ya Wadigo zinakuja pamoja. Wadigo si watenganishi. Ni raia waaminifu wa nchi zao. Lakini pia ni wanachama wa jamii inayotangulia nchi hizo na inayokataa kukubali mpaka kama neno la mwisho kuhusu wao ni nani na wanamilikiwa na nani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisha ya kidini yanapita mpaka kwa urahisi kama huo. Jamii za misikiti pande zote mbili zinashiriki waumini, na matukio ya kidini — sala za Ijumaa, sherehe za Idi, matukio ya Maulidi — yanawaleta waabudu bila kujali uraia. Imamu anayejulikana kwa elimu yake upande mmoja wa mpaka anaweza kuvutia wanafunzi kutoka upande mwingine. Mitandao ya kidini imehudumia, kwa miongo kadhaa, kama njia zisizo rasmi za mawasiliano ya kuvuka mpaka na msaada wa pande zote, kubeba habari, kudumisha uhusiano, na kuimarisha utambulisho wa pamoja wa Kiislamu unaowaunganisha Adigo wa Kenya na Tanzania."
+            },
+            {
+              "type": "heading",
+              "text": "Uchumi Usio Rasmi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pamoja na biashara rasmi inayopitia forodha, uchumi mpana usio rasmi unafanya kazi katika eneo la mpaka. Hili si la kipekee kwa Lunga Lunga — kila kivuko cha mpaka Afrika Mashariki kina njia zake zisizo rasmi — lakini muktadha wa Kidigo unalipa tabia ya pekee. Wakati watu pande zote za mpaka ni watu wale wale, wanaozungumza lugha iyo hiyo na wanaofungwa na wajibu sawa wa ukoo, tofauti kati ya \"magendo\" na \"kushirikiana\" inakuwa hafifu. Mwanamke anayeleta sukari kwa dada yake ng'ambo ya mpaka kwa ufundi ni mfanyabiashara asiye rasmi. Mwanaume anayebeba vifaa vya ujenzi kusaidia kujenga nyumba ya ndugu yake kwa ufundi anakwepa ushuru wa forodha. Uchumi wa maadili wa eneo la mpaka unafanya kazi kwa kanuni ambazo ni za zamani zaidi na, kwa washiriki wake, halali zaidi kuliko kanuni za serikali yoyote."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si kupamba magendo, ambayo kwa kiwango chake kikubwa yanajumuisha biashara ya uhalifu halisi na kupoteza mapato kwa serikali zote mbili. Lakini katika ngazi ya jamii, uchumi usio rasmi wa ukanda wa Lunga Lunga hauwezi kutenganishwa na uchumi wa kijamii wa watu waliogawanywa wanaofanya kile ambacho watu waliogawanywa kila mahali hufanya: kudumisha uhusiano kuvuka mistari ambayo hawakuichora, kwa njia yoyote inayopatikana."
+            },
+            {
+              "type": "heading",
+              "text": "Kituo cha Mpaka cha Hatua Moja"
+            },
+            {
+              "type": "paragraph",
+              "text": "Serikali za Kenya na Tanzania, zikitambua kutofanya kazi vizuri na gharama ya kiuchumi ya vivuko vya mpaka vya hatua mbili za jadi, zimeanza kuendeleza kituo cha mpaka cha hatua moja huko Lunga Lunga-Horohoro. Dhana ni rahisi: badala ya kusimama mara mbili — mara moja kwenye kituo cha kutoka cha nchi unayoondoka na mara moja kwenye kituo cha kuingia cha nchi unayofika — wasafiri na bidhaa wangeshughulikiwa katika kituo kimoja chenye maafisa kutoka mataifa yote mawili."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kwa jamii ya Kidigo, maendeleo haya yana umuhimu wa kivitendo unaoenea zaidi ya kupunguza muda wa kuvuka. Kila urahisishaji wa mchakato wa mpaka ni, kwa kweli, uponyaji wa sehemu wa jeraha ambalo ugawaji wa kikoloni ulisababisha. Kuvuka kwa urahisi zaidi kunamaanisha ziara za familia za mara kwa mara zaidi, biashara yenye ufanisi zaidi, harakati za kutiririsha zaidi kwa madhumuni ya kidini na kisherehe. Haikufuti mpaka — mstari unabaki, nyaraka bado zinahitajika, mataifa yote mawili yanabaki na uhuru wao — lakini inapunguza uzito wa mpaka, msuguano wake, uwezo wake wa kuzuia maisha ya jamii iliyopo pande zote."
+            },
+            {
+              "type": "heading",
+              "text": "Mpaka kama Sehemu ya Kukutania"
+            },
+            {
+              "type": "paragraph",
+              "text": "Huenda jambo la kushangaza zaidi kuhusu Lunga Lunga ni kinachofichua kuhusu asili ya mipaka yenyewe. Mpaka ni, kwa ufafanuzi, mstari wa kutenganisha — mahali ambapo mamlaka moja inaisha na nyingine inaanza. Lakini huko Lunga Lunga, mpaka unafanya kazi sawa kama sehemu ya kukutania. Ni ambapo nusu mbili za jamii ya Kidigo zinakutana, ambapo uhusiano ambao ugawaji wa kikoloni ulijaribu kukata unaonekana, kila siku, kwa ukaidi unadumishwa. Wafanyabiashara sokoni, familia zinazovuka kwa harusi, waabudu wanaokwenda msikitini upande mwingine — wote wanabadilisha mpaka kutoka mstari wa mgawanyiko kuwa mshono wa uhusiano."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hii si taarifa ya kisiasa. Adigo si watengaji wala wanaodai maeneo. Wao ni raia waaminifu wa nchi zao husika. Lakini pia ni, wakati huo huo, wanachama wa jamii inayotangulia nchi hizo na inayokataa kukubali mpaka kuwa neno la mwisho kuhusu wao ni nani na wanamilikiwa na nani. Huko Lunga Lunga, kila kuvuka ni kitendo kidogo cha kudumu kwa utamaduni — kusisitiza kwa utulivu kwamba ukoo, lugha, na mila ya pamoja vina umuhimu zaidi kuliko mistari kwenye ramani iliyochorwa na wageni katika mji wa mbali, karne moja na nusu iliyopita."
             }
           ],
           "dig": [
@@ -10745,6 +16289,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Jambo ra kushangaza zaidi kuhusu Lunga Lunga ni rinarofunula kuhusu asili ya mipaka yenyewe. Kpwa Lunga Lunga, mpaka unafanya kazi sawa kukala sehemu ya kukutana. Ni phatu ambapho nusu mbiri za jamii ya Adigo zinakpwedza phamwenga. Adigo si atenganishi. Ni raia aaminifu a nchi zao. Ela piya ni anachama a jamii inayotangulia nchi hizo na inayokatala kukubali mpaka kukala neno ra mwisho kuhusu ao ni ani na anamilikiwa ni ani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisha ga chidini ganapita mphaka kpwa urahisi dza uwo. Midhini ya misikiti pande zosi mbiri inashirikiya aabudu, na matukio ga chidini — swala za Ijumaa, sherehe za Idi, matukio ga Maulidi — ganalehera aabudu bila kuangaliya uraia. Imamu anayemanyika kpwa elimu yakpwe upande mumwenga wa mphaka anaweza kuvutiya anafunzi kula upande wanjhe. Mitandao ya chidini ihudumiye, kpwa miongo kadhaa, dza njira zisizo rasmi za mawasiliano ga kuvuka mphaka na msada wa pande zosi, kutsukula habari, kudumisha uhusiano, na kuimarisha utambuzi wa phamwenga wa Chiislamu unaounganisha Adigo a Kenya na Tanzania."
+            },
+            {
+              "type": "heading",
+              "text": "Uchumi Usio Rasmi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Phamwenga na biashara rasmi inayopitira forodha, uchumi mpana usio rasmi unahenda kazi kahi ya eneo ra mphaka. Riri si ra chipekee kpwa Lunga Lunga — chila chivuko cha mphaka Afrika ya Mmashariki china njira zakpwe zisizo rasmi — ela muktadha wa Adigo unaripha tabia ya phakpwe. Atu a pande zosi za mphaka anaphokala ni atu aho-aho, anazungumza luga iyo-iyo na anafungwa ni wajibu sawa wa ujamaa, tofauti kahi ya \"magendo\" na \"kushirikiya\" inakala hafifu. Mchetu anayelehera sukari mwanao dzago ndze ya mphaka kpwa chiufundi ni mfanyibiashara asiye rasmi. Mulume anayetsukula vifaa vya kudzenga kusaidiya kudzenga nyumba ya nduguye kpwa chiufundi anakwepa ushuru wa forodha. Uchumi wa maadili wa eneo ra mphaka unahenda kazi kpwa kanuni ambazo ni za kare zaidi na, kpwa ashiriki akpwe, halali zaidi kula kanuni za serikali yoyosi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ihi si kupamba magendo, ambago kpwa kiwango chakpwe kikulu ganajumuisha biashara ya uhalifu wa kpweli na kupoteza mapato kpwa serikali zosi mbiri. Ela kahi ya ngazi ya mudhini, uchumi usio rasmi wa ukanda wa Lunga Lunga tauweza kutenganishwa na uchumi wa chidzamii wa atu ariogawanywa anahenda chire ambacho atu ariogawanywa chila phatu anahenda: kudumisha uhusiano kuvuka mistari ambayo taachora, kpwa njira yoyosi inayopatikana."
+            },
+            {
+              "type": "heading",
+              "text": "Chituo cha Mphaka cha Hatua Mwenga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Serikali za Kenya na Tanzania, zikitambua kutohenda kazi vinono na gharama ya chiuchumi ya vivuko vya mphaka vya hatua mbiri za chimila, zichiandza kuendeleza chituo cha mphaka cha hatua mwenga kpwa Lunga Lunga-Horohoro. Dhana ni rahisi: badala ya kusimama kano mbiri — kano mwenga kpwa chituo cha kutoka cha tsi unayouka na kano mwenga kpwa chituo cha kuingira cha tsi unayofika — asafiri na mizigo yangeshughulikiwa kahi ya chituo chimwenga chenye maafisa kula mataifa gosi mairi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kpwa mudhini wa Adigo, maendeleo gaga gana umuhimu wa chihenzi unaoendesha zaidi ya kupunguza wakati wa kuvuka. Chila urahisishaji wa mchakato wa mphaka ni, kpwa kpweli, uponyaji wa sehemu wa jeraha ambaro ugawaji wa chikoloni urisababisha. Kuvuka kpwa urahisi zaidi kunamanisha kutembelea nyumba kpwa kpwangera zaidi, biashara yenye ufanisi zaidi, maendzi ga kutiririsha zaidi kpwa madhumuni ga chidini na chisherehe. Takufuta mphaka — mstari unasala, nyaraka bado zinahitajika, mataifa gosi mairi ganasala na uhuru wao — ela inapunguza uzito wa mphaka, msuguano wakpwe, uwezo wakpwe wa kuzuwiya maisha ga mudhini uriko pande zosi."
+            },
+            {
+              "type": "heading",
+              "text": "Mphaka dza Phatu pha Kukutanira"
+            },
+            {
+              "type": "paragraph",
+              "text": "Huenda dzambo ra kushangaza zaidi kuhusu Lunga Lunga ni rinaro fichua kuhusu asili ya miphaka yenye. Mphaka ni, kpwa ufafanuzi, mstari wa kutenganisha — phatu ambapho mamlaka mwenga inaisha na nyingine inaandza. Ela kpwa Lunga Lunga, mphaka unahenda kazi sawa dza phatu pha kukutanira. Ni ambapho nusu mbiri za mudhini wa Adigo zinakutana, ambapho uhusiano ambao ugawaji wa chikoloni wajeza kukata unaonewa, chila siku, kpwa ukaidi unadumishwa. Afanyibiashara sokoni, nyumba zinazovuka kpwa arusi, aabudu anaophiya msikitini upande wanjhe — osi anabadilisha mphaka kula mstari wa mgawanyo hadi mshono wa uhusiano."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ihi si taarifa ya chisiasa. Adigo si atengaji wala anaodai maeneo. Ni raia aaminifu a tsi zao. Ela piya ni, wakati uwo-uwo, anachama a mudhini unaotangulia tsi zizo na unaokahala kukubali mphaka kukala neno ra mwisho kuhusu ao ni ani na anamilikiwa ni ani. Kpwa Lunga Lunga, chila kuvuka ni chitendo chidide cha kudumu kpwa chimila — kusisitiza kpwa utulivu kukala ujamaa, luga, na mila ya phamwenga vina mana zaidi kula mistari kpwa ramani iriyochorwa ni agenyi kahi ya mudzi wa kure, karne mwenga na nusu iriyopita."
             }
           ]
         }
@@ -10888,6 +16472,66 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Wadigo wanaoondoka — iwe Mombasa, Nairobi, London, au Dubai — hawaacha kuwa Wadigo. Utambulisho unafuata mhamiaji. Wajibu wa kurudi kwa harusi na mazishi unahisiwa kwa kina. Changamoto ya siku zijazo ni kama uhusiano huu unaweza kudumishwa kati ya umbali unaokua. Kwa sasa, jibu ni kwamba uhusiano unashikilia — umebadilishwa, lakini haujavunjwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa utalii kando ya ukanda wa Diani Beach umeunda mfumo wa kipekee wa uhamaji ambao si wa mashambani kabisa wala si wa mjini kabisa. Hoteli, mapumziko, na biashara za huduma zinazopanga pwani kuanzia Ukunda kuelekea kusini zinaajiri idadi kubwa ya Adigo wa eneo kama wafanyakazi — katika ukarimu, kama viongozi wa watalii, katika ujenzi, katika minyororo ya ugavi inayoandalia tasnia ya utalii. Ajira hii inavuta watu kutoka ndani ya Kwale kuelekea ukanda wa pwani, kuunda mabadiliko ya idadi ya watu ndani ya kaunti yenyewe."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa utalii ni, kwa njia nyingi, upanga wenye makali pande mbili kwa jamii ya Kidigo. Unatoa ajira na mapato ya fedha katika eneo ambapo vyote viwili ni haba. Unaunda mahitaji ya bidhaa na huduma za ndani. Unaleta ulimwengu wa nje Kwale kwa njia zinazopanua upeo na kuunda fursa. Lakini pia unasababisha ubidhaaishaji wa ardhi — viwanja vya pwani ambavyo hapo awali viliwadumisha familia za Kidigo kupitia kilimo cha kujikimu vinauzwa kwa waendelezaji kwa bei zinazoonekana nzuri hadi fedha zinapoisha na ardhi imeenda milele. Uhusiano kati ya jamii ya Kidigo na uchumi wa utalii ni moja ya migogoro inayofafanua Kwale ya kisasa."
+            },
+            {
+              "type": "heading",
+              "text": "Nairobi na Zaidi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Idadi ndogo lakini muhimu ya Adigo ipo Nairobi, mji mkuu na kituo cha kiuchumi cha Kenya. Adigo wa Nairobi ni, kama kundi, wenye elimu zaidi na wenye mwelekeo wa kitaaluma zaidi kuliko wale wanaohama kwenda Mombasa. Wamekuja kwa elimu ya chuo kikuu, kwa ajira ya serikali, kwa kazi katika sheria, tiba, biashara, na utumishi wa umma. Wao ni, katika visa vingi, hadithi za mafanikio za jamii — uthibitisho kwamba mtoto wa Kidigo kutoka Kwale anaweza kushindana na kufanikiwa katika uwanja wa kitaifa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lakini gharama ya kitamaduni ya Nairobi ni kubwa zaidi kuliko gharama ya kitamaduni ya Mombasa. Nairobi, Adigo ni wachache katika mji unaotawaliwa na makabila ya bara — Wakikuyu, Waluo, Waluhya, Wakamba — ambao uwepo wao wa kitamaduni ni mkubwa sana. Hakuna jirani ya Kidigo, hakuna jamii ya msikiti ya Kidigo kubwa ya kutosha kudumisha miundombinu ya kijamii ya utambulisho. Lugha inafifia haraka zaidi. Watoto wanajua kidogo zaidi. Umbali kutoka Kwale — wa kimwili na wa kisaikolojia — ni mkubwa zaidi. Adigo wa Nairobi wanadumisha utambulisho wao kwa juhudi za makusudi: mikutano ya wikendi, safari za likizo kwenda nyumbani, vikundi vya WhatsApp vinavyosambaza habari kutoka Kwale, azimio la kuzungumza Chidigo na watoto wao hata watoto wanapopenda Kiswahili au Kiingereza zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Kijiji Kinapoteza Nini"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kila kijana anayeondoka ni hasara kwa kijiji. Hii si hisia za huruma — ni hali halisi ya kimuundo yenye matokeo ya kweli. Wazee wanaoshikilia maarifa ya jadi — mimea ya dawa ya misitu ya kaya, nasaba zinazopanga uanachama wa ukoo, nyimbo na hadithi zinazobeba historia ya kitamaduni — wanazeeka. Wakati vijana ambao wanapaswa kujifunza kutoka kwao wako Mombasa au Nairobi, mnyororo wa upitishaji unadhoofishwa. Maarifa ambayo yalipitishwa kutoka bibi hadi mjukuu wa kike kupitia ukaribu wa kila siku lazima sasa yabanishwe katika ziara za likizo, kama yanapitishwa kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya kilimo inapungua kadri vijana wanavyoondoka. Mashamba ambayo hapo awali yalitoa chakula kwa familia pana yanashughulikiwa na wazazi wanaozeeka au kuachwa bila kulimwa. Uchumi wa nazi, ambao umedumisha jamii za Kidigo kwa karne nyingi, unateseka kutokana na matunzo yanayopungua — minazi inahitaji umakini wa mara kwa mara, na mikono ya vijana inapokuwa mahali pengine, uzalishaji unapungua. Uchumi wa kijiji unapungua, ambao unasukuma vijana wengi zaidi kuondoka, ambao unapunguza uchumi zaidi — mzunguko ambao ni wa kawaida kote mashambani Afrika Mashariki lakini si wa madhara kidogo kwa kawaida yake."
+            },
+            {
+              "type": "heading",
+              "text": "Uchumi wa Fedha za Kutumwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kinachotiririsha nyuma, kama fidia ya sehemu, ni fedha. Uchumi wa fedha za kutumwa — mtiririko wa pesa kutoka wafanyakazi wa mjini hadi familia za mashambani — umekuwa sababu muhimu katika maisha ya kiuchumi ya vijiji vya Kwale. Mwana wa kiume huko Mombasa anatuma pesa kwa bili za matibabu ya mama yake. Binti huko Nairobi analipa ada za shule za ndugu zake wadogo. Mfanyakazi katika nchi za Ghuba — kwa sababu diaspora ya Kidigo inaenea, kupitia mitandao ya kazi ya Kiislamu, hadi Qatar, Oman, na Dubai — anatuma nyuma pesa za kutosha kujenga nyumba au kuanzisha biashara ndogo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hakuna data ya fedha za kutumwa mahususi ya Kidigo. Kitaifa, Kenya ilipokea zaidi ya dola bilioni tano za Marekani katika fedha za kutumwa za diaspora mwaka 2024, lakini sehemu ya jamii za pwani ya takwimu hii haijarekodiwa. Kinachoonekana katika ngazi ya kijiji ni ushahidi unaoonekana wa mapato ya fedha za kutumwa: nyumba mpya zilizojengwa kwa matofali ya simiti ambapo udongo-na-makuti viliwahi kusimama, pikipiki zinazochukua nafasi ya baiskeli, watoto katika sare za shule wanaosoma shule za sekondari ambazo kizazi cha wazazi wao wasingeweza kumudu. Fedha zinafanya tofauti. Je, zinalipia kilichopotea — uwepo, maarifa, kuendelea kwa maisha ya kila siku — ni swali ambalo kila familia inajibu tofauti."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Diaspora na Nyumbani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo wanaoondoka — iwe kwenda Mombasa, Nairobi, London, au Dubai — hawaachi kuwa Adigo. Hii labda ni jambo muhimu zaidi la kuelewa kuhusu uhamaji wa Kidigo. Utambulisho unafuata mhamiaji. Wajibu wa kurudi kwa harusi na mazishi unahisiwa kwa undani na kuheshimiwa kwa upana. Matarajio kwamba mafanikio ya mjini yatatafsiriwa kuwa msaada kwa ndugu wa mashambani si matumaini tu bali ni mkataba wa kijamii, unaotekelezwa na aibu inayowaangukia wale wanaosahau watu wao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hata hivyo uhusiano na nyumbani hakika unagawanywa na umbali na muda. Mhamiaji anayerudi kwa likizo anaona kijiji kwa macho tofauti kuliko ndugu ambaye hakuondoka kamwe. Watoto waliolelewa mjini wanaweza kuzungumza Chidigo kwa upungufu au la kabisa. Desturi za kitamaduni zinazofafanua utambulisho wa Kidigo — mfumo wa ukoo wa upande wa mama, mila za kaya, maisha ya kisherehe — zinakuwa, kwa diaspora, vitu vya nostalgia badala ya mazoezi ya kila siku. Changamoto ya siku zijazo ni kama uhusiano huu unaweza kudumishwa kuvuka umbali unaokua kati ya maisha ya Kidigo ya mjini na mashambani, au kama mvuto wa mji hatimaye utaudhoofisha zaidi ya kutambulika."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu, kwa sasa, ni kwamba uhusiano unashikilia. Unapigwa, unabadilika, unahitaji juhudi za makusudi zaidi kuliko hapo awali. Lakini unashikilia. Mdigo anayeondoka Kwale anabeba Kwale naye — katika lugha, katika ladha ya wali wa nazi, katika silika ya kuelekea Makka mara tano kwa siku, katika maarifa ya ukoo gani wanahusika na mstari wa bibi yupi wanaubeba. Uhamaji unabadilisha ulimwengu wa Kidigo, lakini bado haujauangusha."
             }
           ],
           "dig": [
@@ -10922,6 +16566,66 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Adigo anaoondoka — ikale Mombasa, Nairobi, London, au Dubai — taacha kukala Adigo. Utambulisho unafuata mhamiaji. Wajibu wa kurudi kpwa harusi na mazishi unahisika kpwa kina. Changamoto ya siku zidzadzo ni kama uhusiano uno unaweza kudumishwa kahi ya umbali unaokula. Kpwa sambi, jibu ni kukala uhusiano unaishikira — umebadilishwa, ela tauvunjwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa ugenyi kanda-kanda ya ukanda wa Diani Beach ukaunda mfumo wa chipekee wa uhamaji ambao si wa mashambani kabisa wala si wa mudzini kabisa. Hoteli, maphumziko, na biashara za huduma zinazoika ph'wani kula Ukunda kuelekea mwakani zinaajiri idadi kulu ya Adigo a eneo dza ahendadzi — kahi ya ukarimu, dza viongozi a agenyi, kahi ya kudzenga, kahi ya minyororo ya ugavi inayoandalia tasnia ya ugenyi. Kazi iyi inavuta atu kula ndani ya Kwale kuelekea ukanda wa ph'wani, kuunda mabadiliko ga idadi ya atu ndani ya kaunti yenye."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uchumi wa ugenyi ni, kpwa njira nyinji, upanga wenye makali pande mbiri kpwa mudhini wa Adigo. Unapha kazi na mapato ga pesa kahi ya eneo ambaro vyosi viiri ni haba. Unaunda mahitaji ga vizure na huduma za phano. Unalehera dunia ya ndze Kwale kpwa njira zinazopanua upeo na kuunda nafasi. Ela piya unasababisha kuuzishwa kpwa tsi — viwanja vya ph'wani ambavyo kare vidumisha nyumba za Adigo kupitira ulimi wa kudzikimu vinauzwa kpwa adzendzi kpwa bei zinazooneka nono hadi pesa zinaphoisha na tsi ikaenda kpwa kpweli. Uhusiano wa mudhini wa Adigo na uchumi wa ugenyi ni mmwenga wa migogoro inayofafanua Kwale ya vivi sambi."
+            },
+            {
+              "type": "heading",
+              "text": "Nairobi na Zaidi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Idadi ndide ela ya muhimu ya Adigo iko Nairobi, mudzi mkulu na chituo cha chiuchumi cha Kenya. Adigo a Nairobi ni, dza kundi, enye elimu zaidi na enye mwelekeo wa chitaaluma zaidi kula aho anahama kuphiya Mombasa. Akudza kpwa elimu ya chuo kikulu, kpwa kazi ya serikali, kpwa kazi za sheria, uganga, biashara, na utumishi wa uma. Ni, kahi ya visa vinji, hadithi za mafanikio za mudhini — ushahidi kukala mwana wa Chidigo kula Kwale anaweza kushindana na kufanikiwa kahi ya uwanja wa chitaifa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela gharama ya chimila ya Nairobi ni kulu zaidi kula gharama ya chimila ya Mombasa. Nairobi, Adigo ni achache kahi ya mudzi unaotawaliwa ni makabila ga bara — Akikuyu, Aluo, Aluhya, Akamba — ambao uwepo wao wa chimila ni mukulu sana. Taphana jirani ya Chidigo, taphana mudhini wa msikiti wa Chidigo mukulu wa kutosha kudumisha miundombinu ya chidzamii ya utambuzi. Luga inafifia haraka zaidi. Ana anamanya chidide zaidi. Umbali kula Kwale — wa chimwiri na wa chisaikolojia — ni mukulu zaidi. Adigo a Nairobi anadumisha utambuzi wao kpwa juhudi za makusudi: mikutano ya mwisho wa wiki, safari za likizo kuphiya kaya, vikundi vya WhatsApp vinavyosambaza habari kula Kwale, azimio ra kuzungumza Chidigo na ana ao hata ana anaphopendelea Chiswahili au Chiingereza zaidi."
+            },
+            {
+              "type": "heading",
+              "text": "Mudzi Unapoteza Chitu Gani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chila mvulana au msichana mdide anayeuka ni hasara kpwa mudzi. Ihi si hisia za huruma — ni hali ya kpweli ya chimuundo yenye matokeo ga kpweli. Azee anao shikira maarifa ga chimila — mimera ya dawa ya matsakani ga kaya, nasaba zinazopanga uanachama wa fuko, nyimbo na hadithi zinazobeba historia ya chimila — anazeeka. Adide ambao anafwehe kufundza kula kpwao anaphokala Mombasa au Nairobi, mnyororo wa kuphisha unadhoofishwa. Maarifa ambago gaphishwa kula bibi hadi mdzukulu wa chichetu kupitira uphephi wa chila siku lazima sambi gabanishwe kahi ya ziara za likizo, kpwamba ganapishwa kabisa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kazi ya ulimi inapunguka adide anaphuka. Mashamba ambago kare galehera chakula kpwa nyumba pana ganashughulikiwa ni azee au kurichwa bila kurimwa. Uchumi wa nazi, ambao udumisha midhini ya Adigo kpwa karne nyinji, unateseka kula matunzo ganagopunguka — mihi ya nazi inahitaji umakini wa kpwangera, na mikono ya adide inapho kala phatu phengine, uzalishaji unapunguka. Uchumi wa mudzi unapunguka, ambao unasukuma adide anji zaidi kuuka, ambao unapunguza uchumi zaidi — mzunguko ambao ni wa kawaida kosi mashambani Afrika ya Mmashariki ela si wa madhara machache kpwa kawaida yakpwe."
+            },
+            {
+              "type": "heading",
+              "text": "Uchumi wa Pesa za Kutumwa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Chinachotiririsha nyuma, dza fidia ya sehemu, ni pesa. Uchumi wa pesa za kutumwa — mtiririko wa pesa kula ahendadzi a mudzini hadi nyumba za mashambani — ukakala sababu muhimu kahi ya maisha ga chiuchumi ga vidzi vya Kwale. Mwana wa chilume kpwa Mombasa anatuma pesa za bili za uganga za mayaye. Mwana wa chichetu kpwa Nairobi anaripa ada za shule za ndugu zakpwe adide. Muhendadzi kahi ya tsi za Ghuba — kpwa kukala diaspora ya Adigo inaenderera, kupitira mitandao ya kazi ya Chiislamu, hadi Qatar, Oman, na Dubai — anatuma nyuma pesa za kutosha kudzenga nyumba au kuandza biashara ndide."
+            },
+            {
+              "type": "paragraph",
+              "text": "Taphana data ya pesa za kutumwa mahususi ya Adigo. Chitaifa, Kenya yapokera zaidi ya dola bilioni tsano za Marekani kahi ya pesa za kutumwa za diaspora mwaka wa 2024, ela sehemu ya midhini ya ph'wani ya takwimu iyo tairekodiwa. Chinachoonewa kahi ya ngazi ya mudzi ni ushahidi unaoonewa wa mapato ga pesa za kutumwa: nyumba mphya zirizodzengwa kpwa matofali ga simiti ambapho udongo-na-makuti vikala phakpwe, pikipiki zinazotsukula nafasi ya baiskeli, ana kahi ya sare za shule anaosome shule za sekondari ambazo kizazi cha azazi ao tachangeweza kumudu. Pesa zinahenda tofauti. Kpwamba zinaripia chirichopotea — uwepo, maarifa, kuenderera kpwa maisha ga chila siku — ni swali ambaro chila nyumba inajibu tofauti."
+            },
+            {
+              "type": "heading",
+              "text": "Uhusiano wa Diaspora na Kaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo anauka — ikale kuphiya Mombasa, Nairobi, London, au Dubai — taacha kukala Adigo. Iyi huenda ni dzambo muhimu zaidi ra kumanya kuhusu uhamaji wa Adigo. Utambuzi unalungira mhamiaji. Wajibu wa kuuya kpwa arusi na mazishi unahisika kpwa undani na kuheshimiwa kpwa upana. Matarajio kukala mafanikio ga mudzini gandatafsiriwa kukala msada kpwa ndugu a mashambani si matumaini bahi ela ni mkataba wa chidzamii, unaotekelezwa ni haya inayowaangukiya aho anao sahau atu ao."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela uhusiano na kaya hakika unagawanywa ni umbali na wakati. Mhamiaji anayeuya kpwa likizo anaona mudzi kpwa matso tofauti kula ndugu ambaye kuuka. Aho ana ariorererwa mudzini anaweza kuzungumza Chidigo kpwa upungufu au la kabisa. Desturi za chimila zinazofafanua utambuzi wa Adigo — mfumo wa fuko wa upande wa mayo, mila za kaya, maisha ga chisherehe — zinakala, kpwa diaspora, vitu vya nostalgia badala ya mazoezi ga chila siku. Tatizo ra siku zidzo ni kpwamba uhusiano uno unaweza kudumishwa kuvuka umbali unaokula kahi ya maisha ga Adigo ga mudzini na mashambani, au kpwamba mvuto wa mudzi hatimaye undaudhoofisha zaidi ya kutambuliwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jibu, kpwa vivi sambi, ni kukala uhusiano unashikira. Unapigwa, unabadilika, unahitaji juhudi za makusudi zaidi kula hipho kare. Ela unashikira. Mudigo anayeuka Kwale anatsukula Kwale naye — kahi ya luga, kahi ya ladha ya wali wa nazi, kahi ya silika ya kuelekea Makka kano tsano chila siku, kahi ya kumanya fuko gani anahusika naro na mstari wa bibi yupi anautsukula. Uhamaji unabadilisha dunia ya Adigo, ela bado tauyaungusha."
             }
           ]
         }
@@ -11053,6 +16757,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Wadigo hawakuchagua kuwa watu wa mpakani. Lakini wamezoea ukweli huu kwa ustahimilivu unaozungumza kuhusu kina cha vifungo vyao vya kitamaduni. Mpaka unaweza kugawa maeneo, lakini hauwezi kukata vifungo vya lugha, ukoo, na mila zinazoshirikiwa ambazo zinafanya watu kuwa watu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chakula ni kimoja. Vyakula vya nazi vinavyofafanua upishi wa Kidigo — matumizi ya tui katika wali, katika mchuzi, katika kuandaa samaki na mboga — ni sawa pande zote. Mazao ni yaleyale: nazi, muhogo, mahindi, maembe, korosho. Kalenda ya kilimo inafuata misimu sawa inayoendeshwa na monsuni. Jiko la Kidigo huko Msambweni na jiko la Kidigo huko Mkinga vingekuwa, kwa mgeni yeyote, visivyotofautika."
+            },
+            {
+              "type": "heading",
+              "text": "Hali Halisi ya Kisheria"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuendelea kwa kitamaduni, hata hivyo, hakuwezi kufuta hali halisi ya kisheria ya mpaka. Adigo wa Kenya na Tanzania ni raia wa nchi huru tofauti, na hii inaleta changamoto za kweli zinazoathiri maisha ya kila siku. Ndoa ya kuvuka mpaka — na ndoa kama hizo bado ni za kawaida — inaunda familia ambayo lazima ipitie mifumo miwili ya kisheria. Migogoro ya urithi inakuwa ngumu mmoja aliyefariki alipomiliki ardhi upande mmoja na kuwa na warithi upande mwingine. Watoto waliozaliwa na wanandoa wa kuvuka mpaka wanaweza kukabiliwa na maswali ya utaifa na uraia. Upatikanaji wa huduma za afya, elimu, na huduma za kijamii umefungwa na utambulisho wa kitaifa, si utambulisho wa kikabila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jumuiya ya Afrika Mashariki (EAC), ambayo Kenya na Tanzania zote zipo, imefanya maendeleo katika kurahisisha harakati za kuvuka mpaka. Pasipoti za Afrika Mashariki na vitambulisho vya kitaifa vinaruhusu raia wa nchi wanachama kuvuka mipaka kwa urahisi wa kiasi. Lakini \"urahisi wa kiasi\" si sawa na uhuru wa harakati, na mpaka unabaki kuwa mahali ambapo nyaraka zinakaguliwa, maswali yanaulizwa, na mstari wa kiholela uliochorwa mwaka 1886 unathibitisha tena mamlaka yake juu ya watu ambao hawakuwahi kuukubali kuwa halali."
+            },
+            {
+              "type": "heading",
+              "text": "Miundombinu ya Kuunganisha Tena"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miradi kadhaa ya miundombinu inabeba ahadi ya kuimarisha uhusiano kati ya jamii za Kidigo za Kenya na Tanzania. Kivuko cha mpaka cha hatua moja kinaendelezwa huko Lunga Lunga-Horohoro, ambacho kingerahisisha mchakato wa kibiashara na kupunguza muda wa kuvuka. Barabara kuu ya pwani ya Malindi-Bagamoyo iliyopangwa ingeunda barabara ya lami inayoendelea kando ya pwani, kuunganisha maeneo ya Kidigo ya nchi zote mbili ndani ya ukanda mmoja wa usafiri. Ujumuishaji wa reli unaoungana na ukanda wa Tanga-Taveta-Kilimanjaro ungeweza kupunguza zaidi umbali wa kiuchumi na kisaikolojia kati ya idadi hizo mbili za watu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miradi hii haijaundwa mahususi kwa Adigo — inahudumia malengo mapana ya kiuchumi ya kitaifa na kikanda. Lakini athari yake kwa jamii ya Kidigo ingekuwa kubwa kwa kiasi kisicholingana. Kila uboreshaji wa miundombinu ya kuvuka mpaka ni, kwa Adigo, uboreshaji wa uwezo wa kudumisha uhusiano wa kifamilia, mahusiano ya kibiashara, na kubadilishana kitamaduni ambayo mpaka umeyafanya kuwa magumu lakini kamwe haukuweza kuyaharibu."
+            },
+            {
+              "type": "heading",
+              "text": "Watu Wamoja, Mataifa Mawili"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo hawakuchagua kuwa watu wa kuvuka mpaka. Utambulisho huo uliwekwa juu yao na nguvu za Ulaya zilizofuatia nia za kimkakati ambazo hazikuwa na uhusiano na ustawi wa jamii za pwani ya Afrika Mashariki. Lakini Adigo wamezoea hali hii kwa ustahimilivu unaozungumza kuhusu kina cha vifungo vyao vya kitamaduni. Mitandao ya ukoo inaenea kuvuka mpaka. Ndoa za kuvuka mpaka zinaendelea. Lugha inadumu pande zote. Chakula, imani, muziki, sherehe — zote zinaendelea kutiririka kuvuka mpaka ambao kamwe haujafanikiwa kuwa kizuizi cha kitamaduni, hata inavyofanya kazi kwa ufanisi kama kizuizi cha kisiasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hadithi ya Adigo kama watu wa kuvuka mpaka ni, kwa maana hii, hadithi kuhusu mipaka ya nguvu ya serikali juu ya utambulisho wa kitamaduni. Mipaka inaweza kugawanya maeneo. Inaweza kufanya maisha kuwa magumu. Inaweza kuleta ndoto mbaya za kibiashara kwa familia ambazo kosa lao pekee ni kuwa na uhusiano na watu upande mwingine. Lakini haiwezi, kwa zaidi ya karne moja, kukata vifungo vya lugha, ukoo, na mila ya pamoja vinavyofanya watu kuwa watu. Adigo wanabaki wamoja, hata wanapobeba bendera mbili."
             }
           ],
           "dig": [
@@ -11091,6 +16835,46 @@ export const domains: CultureDomain[] =
             {
               "type": "paragraph",
               "text": "Adigo taachagua kukala atu a mpakani. Ela azoea ukpweli uno kpwa ustahimilivu unaozungumza kuhusu kina cha vifungo vyao vya chimila. Mpaka unaweza kugawa maeneo, ela tauweza kukata vifungo vya luga, ukoo, na mila zinazoshirikiwa ambazo zinafanya atu kukala atu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Chakula ni chimwenga. Vyakula vya nazi vinavyofafanua upishi wa Chidigo — kuhumira tui kahi ya wali, kahi ya mchuzi, kahi ya kuandaa samaki na mboga — ni sawa pande zosi. Mimera ni iyo-iyo: nazi, muhogo, mahindi, maembe, korosho. Kalenda ya ulimi inalungira misimu iyo-iyo inayoendeshwa ni monsuni. Jiko ra Chidigo kpwa Msambweni na jiko ra Chidigo kpwa Mkinga ringakala, kpwa mgenyi yoyosi, visivyotofautika."
+            },
+            {
+              "type": "heading",
+              "text": "Hali ya Kpweli ya Chisheria"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kuenderera kpwa chimila, ela, takuweza kufuta hali ya kpweli ya chisheria ya mphaka. Adigo a Kenya na Tanzania ni raia a tsi huru tofauti, na ihi inalehera matatizo ga kpweli ganago athiri maisha ga chila siku. Arusi ya kuvuka mphaka — na arusi dza zizo bado ni za kawaida — inaunda nyumba ambayo lazima ipitire mifumo miiri ya chisheria. Migogoro ya urithi inakala ngumu mutu ariyefwa anaphokala anamiriki tsi upande mumwenga na kukala na arithi upande wanjhe. Ana ariozalwa ni anyumba a kuvuka mphaka anaweza kukabilana na maswali ga utaifa na uraia. Kufikira huduma za afya, elimu, na huduma za chidzamii kumefungwa na utambuzi wa chitaifa, si utambuzi wa chikabila."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jumuiya ya Afrika ya Mmashariki (EAC), ambayo Kenya na Tanzania zosi ziko, ikahenda maendeleo kahi ya kurahisisha maendzi ga kuvuka mphaka. Pasipoti za Afrika ya Mmashariki na vitambuzi vya chitaifa vinaruhusu raia a tsi wanachama kuvuka miphaka kpwa urahisi wa chiasi. Ela \"urahisi wa chiasi\" si sawa na uhuru wa maendzi, na mphaka unasala kukala phatu ambapho nyaraka zinakagulwa, maswali ganaulizwa, na mstari wa chiholela uriochorwa mwaka wa 1886 unathibitisha tsona mamlaka yakpwe dzulu ya atu ambao taakuwahi kuukubali kukala halali."
+            },
+            {
+              "type": "heading",
+              "text": "Miundombinu ya Kuunganisha Tsona"
+            },
+            {
+              "type": "paragraph",
+              "text": "Miradi kadhaa ya miundombinu inatsukula ahadi ya kuimarisha uhusiano kahi ya midhini ya Adigo ya Kenya na Tanzania. Chivuko cha mphaka cha hatua mwenga chinaendelezwa kpwa Lunga Lunga-Horohoro, ambacho chingerahisisha mchakato wa chibiashara na kupunguza wakati wa kuvuka. Barabara kulu ya ph'wani ya Malindi-Bagamoyo iriyopangwa ingaunda barabara ya lami inayoenderera kanda-kanda ya ph'wani, kuunganisha maeneo ga Adigo ga tsi zosi mbiri ndani ya ukanda mumwenga wa usafiri. Ujumuishaji wa reli unaounganisha ukanda wa Tanga-Taveta-Kilimanjaro ungaweza kupunguza zaidi umbali wa chiuchumi na chisaikolojia kahi ya idadi zizo mbiri za atu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Miradi iyi taiyaundwa mahususi kpwa Adigo — inahudumiya malengo mapana ga chiuchumi ga chitaifa na chikanda. Ela athari yakpwe kpwa mudhini wa Adigo ingakala kulu kpwa chiasi chisicholingana. Chila uboreshaji wa miundombinu ya kuvuka mphaka ni, kpwa Adigo, uboreshaji wa uwezo wa kudumisha uhusiano wa chinyumba, mahusiano ga chibiashara, na kubadilishana chimila ambacho mphaka uchihenize kukala chigumu ela kamwe taukuweza kukuharibu."
+            },
+            {
+              "type": "heading",
+              "text": "Atu Amwenga, Mataifa Mairi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Adigo taatsagula kukala atu a kuvuka mphaka. Utambuzi uwo waikwa dzulu yao ni nguvu za Chizungu zirizolungira nia za chimkakati ambazo tazikala na uhusiano na ustawi wa midhini ya ph'wani ya Afrika ya Mmashariki. Ela Adigo amezoea hali iyi kpwa ustahimilivu unaozungumza kuhusu undani wa vifungo vyao vya chimila. Mitandao ya ujamaa inaenderera kuvuka mphaka. Arusi za kuvuka mphaka zinaenderera. Luga inadumu pande zosi. Chakula, imani, muziki, sherehe — zosi zinaenderera kutiririsha kuvuka mphaka ambao kamwe taufanikiwa kukala chizuizi cha chimila, hata inavyohenda kazi kpwa ufanisi dza chizuizi cha chisiasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hadithi ya Adigo dza atu a kuvuka mphaka ni, kpwa mana iyi, hadithi kuhusu miphaka ya nguvu ya serikali dzulu ya utambuzi wa chimila. Miphaka inaweza kugawanya maeneo. Inaweza kuhenda maisha kukala magumu. Inaweza kulehera ndoto mbii za chibiashara kpwa nyumba ambazo kosa rao phakpwe ni kukala na uhusiano na atu upande wanjhe. Ela taiweza, kpwa zaidi ya karne mwenga, kukata vifungo vya luga, ujamaa, na mila ya phamwenga vinavyohenda atu kukala atu. Adigo anasala amwenga, hata anapotsukula bendera mbiri."
             }
           ]
         }
@@ -11099,14 +16883,14 @@ export const domains: CultureDomain[] =
   }
 ];
 
-export function getDomain(slug: string): CultureDomain | undefined {
-  return domains.find(d => d.slug === slug);
+export function getDomain(slug: string) {
+  return domains.find((d) => d.slug === slug);
 }
 
-export function getTopic(domainSlug: string, topicSlug: string): { domain: CultureDomain; topic: Topic } | undefined {
+export function getTopic(domainSlug: string, topicSlug: string) {
   const domain = getDomain(domainSlug);
-  if (!domain) return undefined;
-  const topic = domain.topics.find(t => t.slug === topicSlug);
-  if (!topic) return undefined;
+  if (!domain) return null;
+  const topic = domain.topics.find((t) => t.slug === topicSlug);
+  if (!topic) return null;
   return { domain, topic };
 }
