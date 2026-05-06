@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  transpilePackages: ["@chi-digo/design-system"],
+  turbopack: {},
 };
 
 export default nextConfig;

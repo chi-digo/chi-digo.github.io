@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@chi-digo/design-system": "file:../design-system",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"

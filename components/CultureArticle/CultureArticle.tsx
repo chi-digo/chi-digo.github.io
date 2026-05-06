@@ -3,6 +3,7 @@
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { getTopic, type ContentBlock } from '@/lib/culture/content';
+import { Heading, Text, Stack, Card, Link, Divider } from '@chi-digo/design-system';
 import styles from './CultureArticle.module.css';
 
 function Footer() {
@@ -10,7 +11,9 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
-        <span className={styles.footerCopy}>{t.footer.copyright}</span>
+        <Text style={{ fontSize: 'var(--text-xs)', color: 'rgba(242, 234, 215, 0.4)' }}>
+          {t.footer.copyright}
+        </Text>
       </div>
     </footer>
   );
@@ -18,19 +21,19 @@ function Footer() {
 
 function ArticleBody({ body }: { body: ContentBlock[] }) {
   return (
-    <div className={styles.articleBody}>
+    <Stack gap="var(--space-0)" className={styles.articleBody}>
       {body.map((block, i) =>
         block.type === 'heading' ? (
-          <h3 key={i} className={styles.articleHeading}>
+          <Heading key={i} level={3} className={styles.articleHeading}>
             {block.text}
-          </h3>
+          </Heading>
         ) : (
-          <p key={i} className={styles.bodyText}>
+          <Text key={i} className={styles.bodyText}>
             {block.text}
-          </p>
+          </Text>
         ),
       )}
-    </div>
+    </Stack>
   );
 }
 
@@ -71,38 +74,48 @@ export function TopicArticle({
 
       <section className={styles.navSection}>
         <div className={styles.navInner}>
-          <a
+          <Divider style={{ marginBottom: 'var(--space-3)', opacity: 0.08 }} />
+          <Link
             href={`/culture/${domain.slug}`}
             className={styles.backLink}
           >
             {t.culture.back_to_domain}
-          </a>
+          </Link>
         </div>
       </section>
 
       {domain.topics.length > 1 && (
         <section className={styles.relatedSection}>
           <div className={styles.relatedInner}>
-            <h2 className={styles.relatedHeading}>
+            <Heading level={2} className={styles.relatedHeading}>
               {t.culture.related_topics}
-            </h2>
+            </Heading>
             <div className={styles.relatedGrid}>
               {domain.topics
                 .filter((tp) => tp.slug !== topicSlug)
                 .slice(0, 3)
                 .map((tp) => (
-                  <a
+                  <Card
                     key={tp.slug}
-                    href={`/culture/${domain.slug}/${tp.slug}`}
-                    className={styles.relatedCard}
+                    padding="none"
+                    style={{
+                      background: 'rgba(242, 234, 215, 0.08)',
+                      border: '1px solid rgba(242, 234, 215, 0.12)',
+                      cursor: 'pointer',
+                    }}
                   >
-                    <h3 className={styles.relatedTitle}>
-                      {tp.title[locale]}
-                    </h3>
-                    <p className={styles.relatedIntro}>
-                      {tp.intro[locale]}
-                    </p>
-                  </a>
+                    <a
+                      href={`/culture/${domain.slug}/${tp.slug}`}
+                      className={styles.relatedCard}
+                    >
+                      <Heading level={3} className={styles.relatedTitle}>
+                        {tp.title[locale]}
+                      </Heading>
+                      <Text className={styles.relatedIntro}>
+                        {tp.intro[locale]}
+                      </Text>
+                    </a>
+                  </Card>
                 ))}
             </div>
           </div>
