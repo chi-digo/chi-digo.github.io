@@ -10,7 +10,15 @@
   },
   "nav": {
     "language_selector_label": "Tsagula luga",
-    "language_name": "Chidigo"
+    "language_name": "Chidigo",
+    "culture_link": "Chimila"
+  },
+  "culture": {
+    "overview_eyebrow": "Chimila cha Adigo",
+    "overview_title": "Urithi Urio Moyo",
+    "back_to_culture": "← Chimila",
+    "back_to_domain": "← Nyuma",
+    "related_topics": "Mada Zinazohusiana"
   },
   "hero": {
     "title": "Chi-digo",

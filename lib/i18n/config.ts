@@ -20,6 +20,14 @@ export interface Messages {
   nav: {
     language_selector_label: string;
     language_name: string;
+    culture_link: string;
+  };
+  culture: {
+    overview_eyebrow: string;
+    overview_title: string;
+    back_to_culture: string;
+    back_to_domain: string;
+    related_topics: string;
   };
   hero: {
     title: string;

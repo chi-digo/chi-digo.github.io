@@ -42,6 +42,27 @@
   color: currentColor;
 }
 
+.navLink {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+
+.navLink:hover {
+  background-color: rgba(242, 234, 215, 0.1);
+}
+
+.navLink:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
 .centre {
   flex: 1;
 }

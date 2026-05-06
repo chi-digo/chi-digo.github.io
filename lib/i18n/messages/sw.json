@@ -10,7 +10,15 @@
   },
   "nav": {
     "language_selector_label": "Chagua lugha",
-    "language_name": "Kiswahili"
+    "language_name": "Kiswahili",
+    "culture_link": "Utamaduni"
+  },
+  "culture": {
+    "overview_eyebrow": "Utamaduni wa Wadigo",
+    "overview_title": "Urithi Hai",
+    "back_to_culture": "← Utamaduni",
+    "back_to_domain": "← Nyuma",
+    "related_topics": "Mada Zinazohusiana"
   },
   "hero": {
     "title": "Chi-digo",
