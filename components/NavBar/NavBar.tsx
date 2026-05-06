@@ -172,6 +172,10 @@ export function NavBar() {
         <VigangoMark />
       </a>
 
+      <a href="/culture" className={styles.navLink}>
+        {t.nav.culture_link}
+      </a>
+
       <div className={styles.centre} />
 
       <div className={styles.selector} ref={dropdownRef} onBlur={handleFocusOut}>

@@ -1,0 +1,189 @@
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 45vh;
+  background-color: var(--color-kaya-deep);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: clamp(2rem, 5vw, 4rem);
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+  padding-top: calc(var(--nav-height, 48px) + 2rem);
+}
+
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-coral-lime-sand);
+  margin-bottom: 0.75rem;
+}
+
+.heroTitle {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  color: var(--color-hando-white);
+  margin: 0;
+}
+
+.proverb {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(0.95rem, 1.8vw, 1.25rem);
+  line-height: 1.3;
+  color: var(--color-hando-white);
+  margin: 1rem 0 0 0;
+  max-width: 60%;
+}
+
+.gloss {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-size: clamp(0.75rem, 1.2vw, 0.9rem);
+  line-height: 1.3;
+  color: var(--color-coral-lime-sand);
+  margin: 0.25rem 0 0 0;
+}
+
+/* ===== Sections ===== */
+
+.section {
+  width: 100%;
+  padding: clamp(2rem, 5vw, 4rem) 0;
+}
+
+.sectionInner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.bodyText {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.65;
+  color: var(--color-vigango-black);
+}
+
+/* ===== Card grid ===== */
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.card {
+  display: block;
+  background-color: var(--color-coral-lime-sand);
+  border-radius: 8px;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  text-decoration: none;
+  color: var(--color-vigango-black);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.cardTitle {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  line-height: 1.25;
+  color: var(--color-kaya-deep);
+  margin: 0 0 0.5rem 0;
+}
+
+.cardIntro {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: clamp(0.8rem, 1.2vw, 0.9rem);
+  line-height: 1.5;
+  color: var(--color-vigango-black);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Back link ===== */
+
+.backLink {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.8rem, 1.2vw, 0.9rem);
+  font-weight: 500;
+  color: var(--color-kaya-indigo);
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.backLink:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ===== Footer ===== */
+
+.footer {
+  background-color: var(--color-kaya-deep);
+  border-top: 1px solid rgba(242, 234, 215, 0.12);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.footerInner {
+  width: 100%;
+  padding: 0 5.25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerCopy {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 0.7rem;
+  color: rgba(242, 234, 215, 0.4);
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 35vh;
+  }
+
+  .heroContent {
+    padding-top: calc(var(--nav-height-mobile, 44px) + 1.5rem);
+  }
+
+  .proverb {
+    max-width: 90%;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}

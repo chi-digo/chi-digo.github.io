@@ -10,7 +10,15 @@
   },
   "nav": {
     "language_selector_label": "Choose language",
-    "language_name": "English"
+    "language_name": "English",
+    "culture_link": "Culture"
+  },
+  "culture": {
+    "overview_eyebrow": "Digo Culture",
+    "overview_title": "A Living Heritage",
+    "back_to_culture": "← Culture",
+    "back_to_domain": "← Back",
+    "related_topics": "Related Topics"
   },
   "hero": {
     "title": "Chi-digo",
