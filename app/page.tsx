@@ -1,9 +1,8 @@
-import styles from "./page.module.css";
+'use client';
 
-const content = {
-  proverb_digo: "Mvula igodzwa na utseru.",
-  proverb_gloss: "The rain is waited for with a cleared plot.",
-};
+import { useTranslations } from '@/lib/i18n/context';
+import { useLocale } from '@/lib/i18n/context';
+import styles from "./page.module.css";
 
 function ChidigoLogo() {
   return (
@@ -50,7 +49,55 @@ function ChidigoLogo() {
   );
 }
 
+function interpolate(
+  template: string,
+  marker: string,
+  replacement: string,
+  wrapper: (text: string) => React.ReactNode,
+): React.ReactNode[] {
+  const placeholder = `{${marker}}`;
+  const index = template.indexOf(placeholder);
+  if (index === -1) return [template];
+
+  return [
+    template.slice(0, index),
+    wrapper(replacement),
+    template.slice(index + placeholder.length),
+  ];
+}
+
+function renderDigoTerms(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  let remaining = text;
+  let key = 0;
+
+  while (remaining.length > 0) {
+    const start = remaining.indexOf('{dig:');
+    if (start === -1) {
+      parts.push(remaining);
+      break;
+    }
+    const end = remaining.indexOf('}', start);
+    if (end === -1) {
+      parts.push(remaining);
+      break;
+    }
+
+    if (start > 0) {
+      parts.push(remaining.slice(0, start));
+    }
+    const term = remaining.slice(start + 5, end);
+    parts.push(<em key={key++} lang="dig">{term}</em>);
+    remaining = remaining.slice(end + 1);
+  }
+
+  return parts;
+}
+
 export default function Home() {
+  const t = useTranslations();
+  const { locale } = useLocale();
+
   return (
     <>
       {/* ===== Hero ===== */}
@@ -61,12 +108,12 @@ export default function Home() {
         <div className={styles.gradient} />
 
         <div className={styles.content}>
-          <h1 className={styles.title}>Chi-digo</h1>
+          <h1 className={styles.title}>{t.hero.title}</h1>
           <p className={styles.proverb} lang="dig">
-            {content.proverb_digo}
+            {t.hero.proverb_digo}
           </p>
-          <p className={styles.gloss} lang="en">
-            {content.proverb_gloss}
+          <p className={styles.gloss} lang={locale}>
+            {t.hero.proverb_gloss}
           </p>
         </div>
 
@@ -78,48 +125,48 @@ export default function Home() {
       {/* ===== What is Digo ===== */}
       <section className={`${styles.section} ${styles.whatIsDigo}`}>
         <div className={styles.sectionInner}>
-          <p className={styles.eyebrow}>What is Digo</p>
+          <p className={styles.eyebrow}>{t.what_is_digo.eyebrow}</p>
           <h2 className={styles.sectionHeading}>
-            Chidigo is a Bantu language of the Mijikenda family, spoken on the
-            Kenya–Tanzania coast.
+            {t.what_is_digo.heading}
           </h2>
           <div className={styles.twoColumns}>
             <div>
-              <div className={styles.factLabel}>Geography</div>
+              <div className={styles.factLabel}>
+                {t.what_is_digo.geography_label}
+              </div>
               <p className={styles.bodyText}>
-                South of Mombasa down to Tanga. Heartland in Kwale County, the
-                village of Kinondo (home to the primary Digo kaya), and the
-                coastal hinterland.
+                {renderDigoTerms(t.what_is_digo.geography_text)}
               </p>
 
-              <div className={styles.factLabel}>Family</div>
+              <div className={styles.factLabel}>
+                {t.what_is_digo.family_label}
+              </div>
               <p className={styles.bodyText}>
-                Guthrie code <strong>E.73</strong>, North-East Coast branch.
-                Sister to Giryama, Duruma, Chonyi and other Mijikenda languages.
+                {t.what_is_digo.family_text}
               </p>
 
-              <div className={styles.factLabel}>Numbers</div>
+              <div className={styles.factLabel}>
+                {t.what_is_digo.numbers_label}
+              </div>
               <p className={styles.bodyText}>
-                ~600,000 ethnic Digo (Kenya and Tanzania). Pan-Mijikenda: ~2.5M (2019 census).
+                {t.what_is_digo.numbers_text}
               </p>
             </div>
             <div className={styles.culturalAnchorsCard}>
-              <div className={styles.factLabel}>Cultural anchors</div>
+              <div className={styles.factLabel}>
+                {t.what_is_digo.cultural_anchors_label}
+              </div>
               <p className={styles.bodyText}>
-                <strong>The kayas</strong> — sacred Mijikenda forests, UNESCO
-                World Heritage, with Kaya Kinondo as the primary Digo site.
+                {renderDigoTerms(t.what_is_digo.kayas_text)}
               </p>
               <p className={styles.bodyText}>
-                <strong>Coastal life</strong> — fishing, palm-wine tapping,
-                coconut and cassava farming, mangrove and reef.
+                {renderDigoTerms(t.what_is_digo.coastal_life_text)}
               </p>
               <p className={styles.bodyText}>
-                <strong>Music</strong> — chakacha, sengenya, mwanzele.
+                {renderDigoTerms(t.what_is_digo.music_text)}
               </p>
               <p className={styles.bodyText}>
-                <strong>Dress</strong> — the{" "}
-                <em lang="dig">hando</em> in white, red, blue; the kaya elder{" "}
-                <em lang="dig">kitambi</em> in indigo with red bands.
+                {renderDigoTerms(t.what_is_digo.dress_text)}
               </p>
             </div>
           </div>
@@ -130,23 +177,24 @@ export default function Home() {
       <section className={`${styles.section} ${styles.theProblem}`}>
         <div className={styles.pindoMotif} />
         <div className={styles.sectionInner}>
-          <p className={styles.eyebrow}>The Problem</p>
+          <p className={styles.eyebrow}>{t.the_problem.eyebrow}</p>
           <blockquote className={styles.pullQuote}>
-            &ldquo;My parents understand Digo when their grandmother speaks.
-            They reply in Swahili. My children don&rsquo;t understand at
-            all.&rdquo;
+            {t.the_problem.pull_quote}
           </blockquote>
           <p className={styles.bodyText}>
-            This pattern — passive parents, peer-only transmission, screen lives
-            in Swahili and English — is{" "}
-            <strong className={styles.cliffHighlight}>a cliff</strong>, not a
-            slope.
+            {interpolate(
+              t.the_problem.body_1,
+              'cliff',
+              t.the_problem.body_1_cliff,
+              (text) => (
+                <strong key="cliff" className={styles.cliffHighlight}>
+                  {text}
+                </strong>
+              ),
+            )}
           </p>
           <p className={styles.bodyText}>
-            Linguists call it the <em>missing transmission generation</em>: when
-            parents stop speaking the language <em>to</em> their children, the
-            language collapses in two generations even with hundreds of thousands
-            of nominal speakers.
+            {t.the_problem.body_2}
           </p>
         </div>
       </section>
@@ -154,14 +202,18 @@ export default function Home() {
       {/* ===== Our Mission ===== */}
       <section className={`${styles.section} ${styles.ourMission}`}>
         <div className={styles.sectionInner}>
-          <p className={styles.eyebrow}>Our Mission</p>
+          <p className={styles.eyebrow}>{t.our_mission.eyebrow}</p>
           <p className={styles.missionStatement}>
-            To make Chidigo a language children grow up speaking, by giving the
-            Digo community the tools, content, and platforms it needs to{" "}
-            <span className={styles.missionHighlight}>
-              transmit, evolve, and celebrate
-            </span>{" "}
-            its language and culture.
+            {interpolate(
+              t.our_mission.statement,
+              'highlight',
+              t.our_mission.statement_highlight,
+              (text) => (
+                <span key="highlight" className={styles.missionHighlight}>
+                  {text}
+                </span>
+              ),
+            )}
           </p>
         </div>
       </section>
@@ -173,7 +225,7 @@ export default function Home() {
             <ChidigoLogo />
           </div>
           <p className={styles.footerCopy}>
-            &copy; {new Date().getFullYear()} Chi-digo
+            &copy; {new Date().getFullYear()} {t.footer.copyright}
           </p>
         </div>
       </footer>

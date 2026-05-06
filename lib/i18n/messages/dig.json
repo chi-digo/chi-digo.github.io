@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Chi-digo — Kudzenga vyombo vya kueneza luga ya Chidigo",
+    "description": "Kudzenga vyombo vya kueneza luga ya Chidigo — kamusi, misemo, sauti, na maliasili za chisomo kwa azungumzadzi 600,000 pwani ya Kenya na Tanzania.",
+    "og_title": "Chi-digo",
+    "og_description": "Kudzenga vyombo vya kueneza luga ya Chidigo.",
+    "og_locale": "dig",
+    "twitter_title": "Chi-digo",
+    "twitter_description": "Kudzenga vyombo vya kueneza luga ya Chidigo."
+  },
+  "nav": {
+    "language_selector_label": "Tsagula luga",
+    "language_name": "Chidigo"
+  },
+  "hero": {
+    "title": "Chi-digo",
+    "proverb_digo": "Mvula igodzwa na utseru.",
+    "proverb_gloss": "Mvula igodzwa na muundu ariye na mundawe urio tayari."
+  },
+  "what_is_digo": {
+    "eyebrow": "Chidigo ni chichi",
+    "heading": "Chidigo ni luga ya Chibantu ya mbari ya Amijikenda, inayozungumzwa pwani ya Kenya na Tanzania.",
+    "geography_label": "Mahali",
+    "geography_text": "Kusi kwa Mombasa hadi Tanga. Seemu kulu ni Kwale County, mudzi wa Kinondo (makalo ga {dig:kaya} kulu ya Adigo), na seemu za pwani ya bara.",
+    "family_label": "Mbari",
+    "family_text": "Msimbo wa Guthrie E.73, tawi ra Pwani ya Kaskazi-Mashariki. Dada na Chigiryama, Chiduruma, Chichonyi na luga zinyizhe za Amijikenda.",
+    "numbers_label": "Isabu",
+    "numbers_text": "Adigo ~600,000 (Kenya na Tanzania). Amijikenda osi: ~milioni 2.5 (sensa 2019).",
+    "cultural_anchors_label": "Nguzo za chisomo",
+    "kayas_text": "{dig:Kaya} — misitu mitakatifu ya Amijikenda, Urithi wa Dunia wa UNESCO, ambapo Kaya Kinondo ni seemu kulu ya Adigo.",
+    "coastal_life_text": "Maisha ga pwani — uvuvi, kutema {dig:mnazi}, kulima nazi na muhogo, mikoko na miamba.",
+    "music_text": "Nyimbo — {dig:chakacha}, {dig:sengenya}, {dig:mwanzele}.",
+    "dress_text": "Nguwo — {dig:hando} nyereru, kundu, buluu; {dig:kitambi} ya mzehe wa {dig:kaya} ya rangi ya nili na miphaka mikundu."
+  },
+  "the_problem": {
+    "eyebrow": "Tatatizo",
+    "pull_quote": "“Avyazi angu anaelewa Chidigo bibi yao anapozungumza. Anajibu kwa Chiswahili. Ana angu taaelewa kabisa.”",
+    "body_1": "Njira iyi — avyazi asiozungumza luga, mawasiliano ga rika bahi, maisha ga skrini kwa Chiswahili na Chiingereza — ni {cliff}, si mteremko.",
+    "body_1_cliff": "mwamba",
+    "body_2": "Anahisabu wa luga anaiha chizazi chirichopotea cha kueneza: avyazi anaporicha kuzungumza luga na ana ao, luga inaanguka kahi za vizazi viiri hata kama kuna mamia ga maelfu ga azungumzadzi."
+  },
+  "our_mission": {
+    "eyebrow": "Lengo rehu",
+    "statement": "Kuhenda Chidigo kuwa luga ambayo ana anakula anayizungumza, kwa kuapha jamii ya Adigo vyombo, maudhui, na majukwaa inavyohitaji ili {highlight} luga na chisomo chake.",
+    "statement_highlight": "kueneza, kubadilisha, na kusherehekea"
+  },
+  "footer": {
+    "copyright": "Chi-digo"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Chi-digo — Kujenga zana za kuendeleza lugha ya Kidigo",
+    "description": "Kujenga zana za kuendeleza lugha ya Kidigo — kamusi, methali, sauti, na maliasili za kitamaduni kwa wazungumzaji 600,000 pwani ya Kenya na Tanzania.",
+    "og_title": "Chi-digo",
+    "og_description": "Kujenga zana za kuendeleza lugha ya Kidigo.",
+    "og_locale": "sw_KE",
+    "twitter_title": "Chi-digo",
+    "twitter_description": "Kujenga zana za kuendeleza lugha ya Kidigo."
+  },
+  "nav": {
+    "language_selector_label": "Chagua lugha",
+    "language_name": "Kiswahili"
+  },
+  "hero": {
+    "title": "Chi-digo",
+    "proverb_digo": "Mvula igodzwa na utseru.",
+    "proverb_gloss": "Mvua inasubiriwa na shamba lililosafishwa."
+  },
+  "what_is_digo": {
+    "eyebrow": "Kidigo ni nini",
+    "heading": "Chidigo ni lugha ya Kibantu ya familia ya Mijikenda, inayozungumzwa pwani ya Kenya na Tanzania.",
+    "geography_label": "Jiografia",
+    "geography_text": "Kusini mwa Mombasa hadi Tanga. Sehemu kuu ni Kwale County, kijiji cha Kinondo (makao ya {dig:kaya} kuu ya Wadigo), na maeneo ya pwani ya bara.",
+    "family_label": "Familia",
+    "family_text": "Msimbo wa Guthrie E.73, tawi la Pwani ya Kaskazini-Mashariki. Dada na Kigiryama, Kiduruma, Kichonyi na lugha nyingine za Mijikenda.",
+    "numbers_label": "Idadi",
+    "numbers_text": "Wadigo ~600,000 (Kenya na Tanzania). Wamijikenda wote: ~milioni 2.5 (sensa 2019).",
+    "cultural_anchors_label": "Nguzo za kitamaduni",
+    "kayas_text": "{dig:Kaya} — misitu mitakatifu ya Mijikenda, Urithi wa Dunia wa UNESCO, ambapo Kaya Kinondo ni eneo kuu la Wadigo.",
+    "coastal_life_text": "Maisha ya pwani — uvuvi, uchomaji pombe ya mnazi, kilimo cha nazi na muhogo, mikoko na miamba.",
+    "music_text": "Muziki — {dig:chakacha}, {dig:sengenya}, {dig:mwanzele}.",
+    "dress_text": "Mavazi — {dig:hando} nyeupe, nyekundu, buluu; {dig:kitambi} ya mzee wa {dig:kaya} ya rangi ya nili na mipaka myekundu."
+  },
+  "the_problem": {
+    "eyebrow": "Tatizo",
+    "pull_quote": "“Wazazi wangu wanaelewa Kidigo bibi yao anapozungumza. Wanajibu kwa Kiswahili. Watoto wangu hawaelewi kabisa.”",
+    "body_1": "Mfumo huu — wazazi wasiosema lugha, mawasiliano ya rika pekee, maisha ya skrini kwa Kiswahili na Kiingereza — ni {cliff}, si mteremko.",
+    "body_1_cliff": "mwamba",
+    "body_2": "Wanaisimu wanaiita kizazi kilichopotea cha uendelezaji: wazazi wanapoacha kuzungumza lugha na watoto wao, lugha inaanguka katika vizazi viwili hata kama kuna mamia ya maelfu ya wazungumzaji."
+  },
+  "our_mission": {
+    "eyebrow": "Dhamira yetu",
+    "statement": "Kufanya Chidigo kuwa lugha ambayo watoto wanakua wakiizungumza, kwa kuwapa jamii ya Wadigo zana, maudhui, na majukwaa inayohitaji ili {highlight} lugha na utamaduni wake.",
+    "statement_highlight": "kuendeleza, kubadilisha, na kusherehekea"
+  },
+  "footer": {
+    "copyright": "Chi-digo"
+  }
+}

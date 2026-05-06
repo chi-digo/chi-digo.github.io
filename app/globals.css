@@ -23,13 +23,28 @@
   /* Accent */
   --color-kanga-orange: #E8761B;
   --color-kanga-yellow: #F2C12E;
+
+  /* Nav bar */
+  --nav-height: 48px;
+  --nav-height-mobile: 44px;
+}
+
+html {
+  scroll-padding-top: var(--nav-height);
 }
 
 html,
 body {
   height: 100%;
+  font-family: 'Source Serif 4', Georgia, serif;
   background-color: var(--color-kaya-deep);
   color: var(--color-hando-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: var(--nav-height-mobile);
+  }
 }
