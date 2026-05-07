@@ -63,6 +63,14 @@ export function Breadcrumb() {
         items.push({ label: result.topic.title[locale] });
       }
     }
+  } else if (segments[0] === 'about') {
+    items.push({ label: t.breadcrumb.about });
+  } else if (segments[0] === 'mission') {
+    items.push({ label: t.breadcrumb.mission });
+  } else if (segments[0] === 'vision') {
+    items.push({ label: t.breadcrumb.vision });
+  } else if (segments[0] === 'contact') {
+    items.push({ label: t.breadcrumb.contact });
   } else if (segments[0] === 'dictionary') {
     items.push({
       label: t.breadcrumb.dictionary,

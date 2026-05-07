@@ -39,11 +39,6 @@ export function generateStaticParams() {
   ];
 }
 
-export default async function DictionaryPage({
-  params,
-}: {
-  params: Promise<{ slug?: string[] }>;
-}) {
-  const { slug } = await params;
-  return <DictionaryClient slug={slug ?? []} />;
+export default function DictionaryPage() {
+  return <DictionaryClient />;
 }

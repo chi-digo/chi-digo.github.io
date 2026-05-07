@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
@@ -181,62 +182,30 @@ export default function Home() {
       {/* ===== The Dictionary (search + word of the day) ===== */}
       <DictionarySection />
 
-      {/* ===== The Problem ===== */}
-      <section className={`${styles.section} ${styles.theProblem}`}>
-        <div className={styles.pindoMotif} />
+      {/* ===== Discover More ===== */}
+      <section className={`${styles.section} ${styles.ctaSection}`}>
         <div className={styles.sectionInner}>
-          <p className={styles.eyebrow}>{t.the_problem.eyebrow}</p>
-          <blockquote className={styles.pullQuote}>
-            {t.the_problem.pull_quote}
-          </blockquote>
-          <p className={styles.bodyText}>
-            {interpolate(
-              t.the_problem.body_1,
-              'cliff',
-              t.the_problem.body_1_cliff,
-              (text) => (
-                <strong key="cliff" className={styles.cliffHighlight}>
-                  {text}
-                </strong>
-              ),
-            )}
-          </p>
-          <p className={styles.bodyText}>
-            {t.the_problem.body_2}
-          </p>
-        </div>
-      </section>
-
-      {/* ===== Our Mission ===== */}
-      <section className={`${styles.section} ${styles.ourMission}`}>
-        <div className={styles.sectionInner}>
-          <p className={styles.eyebrow}>{t.our_mission.eyebrow}</p>
-          <p className={styles.missionStatement}>
-            {interpolate(
-              t.our_mission.statement,
-              'highlight',
-              t.our_mission.statement_highlight,
-              (text) => (
-                <span key="highlight" className={styles.missionHighlight}>
-                  {text}
-                </span>
-              ),
-            )}
-          </p>
-        </div>
-      </section>
-
-      {/* ===== Footer ===== */}
-      <footer className={styles.footer}>
-        <div className={styles.footerInner}>
-          <div className={styles.footerLogo}>
-            <ChidigoLogo />
+          <p className={styles.eyebrow}>{t.cta.section_eyebrow}</p>
+          <div className={styles.ctaGrid}>
+            <Link href="/about" className={styles.ctaCard}>
+              <span className={styles.ctaTitle}>{t.cta.about_title}</span>
+              <span className={styles.ctaBody}>{t.cta.about_body}</span>
+            </Link>
+            <Link href="/mission" className={styles.ctaCard}>
+              <span className={styles.ctaTitle}>{t.cta.mission_title}</span>
+              <span className={styles.ctaBody}>{t.cta.mission_body}</span>
+            </Link>
+            <Link href="/vision" className={styles.ctaCard}>
+              <span className={styles.ctaTitle}>{t.cta.vision_title}</span>
+              <span className={styles.ctaBody}>{t.cta.vision_body}</span>
+            </Link>
+            <Link href="/contact" className={styles.ctaCard}>
+              <span className={styles.ctaTitle}>{t.cta.contact_title}</span>
+              <span className={styles.ctaBody}>{t.cta.contact_body}</span>
+            </Link>
           </div>
-          <p className={styles.footerCopy}>
-            &copy; {new Date().getFullYear()} {t.footer.copyright}
-          </p>
         </div>
-      </footer>
+      </section>
     </>
   );
 }

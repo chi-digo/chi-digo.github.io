@@ -1,0 +1,248 @@
+.hero {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  padding: calc(var(--nav-height, 48px) + 3rem) 0 3rem;
+}
+
+.heroInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.eyebrow {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-coral-lime-sand);
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  line-height: 1.15;
+  max-width: 20em;
+}
+
+.section {
+  padding: clamp(3rem, 6vw, 5rem) 0;
+}
+
+.sectionInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.sectionHeading {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.bodyText {
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  line-height: 1.7;
+  max-width: 42em;
+}
+
+/* Contact form */
+.formSection {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 520px;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.label {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-kaya-deep);
+}
+
+.input,
+.textarea {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid rgba(14, 26, 42, 0.2);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--color-vigango-black);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--color-mnazi-gold);
+  box-shadow: 0 0 0 2px rgba(196, 155, 60, 0.15);
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submitButton {
+  align-self: flex-start;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.7rem 1.75rem;
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.submitButton:hover {
+  opacity: 0.9;
+}
+
+.submitButton:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.formMessage {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.formSuccess {
+  background: rgba(30, 181, 58, 0.1);
+  color: #166b23;
+  border: 1px solid rgba(30, 181, 58, 0.2);
+}
+
+.formError {
+  background: rgba(187, 0, 0, 0.08);
+  color: #8b0000;
+  border: 1px solid rgba(187, 0, 0, 0.15);
+}
+
+.location {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: rgba(14, 26, 42, 0.6);
+  margin-top: 2rem;
+}
+
+/* Get involved */
+.getInvolved {
+  background-color: var(--color-coral-lime-sand);
+  color: var(--color-vigango-black);
+}
+
+.getInvolved .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+.getInvolvedIntro {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.6;
+  color: var(--color-kaya-deep);
+  margin-bottom: 1.5rem;
+  max-width: 42em;
+}
+
+.roleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.roleCard {
+  padding: clamp(1.2rem, 2vw, 1.75rem);
+  background: #fff;
+  border: 1px solid rgba(14, 26, 42, 0.08);
+  border-radius: 8px;
+}
+
+.roleTitle {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--color-kaya-deep);
+  margin-bottom: 0.5rem;
+}
+
+.roleCard .bodyText {
+  font-size: 0.9rem;
+}
+
+/* Partners */
+.partners {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+}
+
+.partners .sectionHeading {
+  color: var(--color-hando-cream);
+}
+
+.partners .bodyText {
+  color: var(--color-coral-lime-sand);
+}
+
+.partnerLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.partnerLink {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-mnazi-gold);
+  text-decoration: none;
+}
+
+.partnerLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: calc(var(--nav-height-mobile, 44px) + 2rem);
+  }
+
+  .roleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .partnerLinks {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,172 @@
+.hero {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  padding: calc(var(--nav-height, 48px) + 3rem) 0 3rem;
+}
+
+.heroInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.eyebrow {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-coral-lime-sand);
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  line-height: 1.15;
+  max-width: 20em;
+}
+
+.section {
+  padding: clamp(3rem, 6vw, 5rem) 0;
+}
+
+.sectionInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.sectionHeading {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.bodyText {
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  line-height: 1.7;
+  max-width: 42em;
+}
+
+/* 2040 picture */
+.picture {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.picture .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+.visionQuote {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  line-height: 1.35;
+  color: var(--color-kaya-deep);
+  max-width: 42em;
+}
+
+/* Four-tier model */
+.tiers {
+  background-color: var(--color-coral-lime-sand);
+  color: var(--color-vigango-black);
+}
+
+.tiers .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+.tierGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.tierCard {
+  padding: clamp(1.2rem, 2vw, 1.75rem);
+  background: #fff;
+  border: 1px solid rgba(14, 26, 42, 0.08);
+  border-radius: 8px;
+}
+
+.tierName {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-kaya-deep);
+  margin-bottom: 0.25rem;
+}
+
+.tierSubtitle {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-mnazi-gold);
+  margin-bottom: 0.75rem;
+}
+
+.tierCard .bodyText {
+  font-size: 0.9rem;
+}
+
+/* Roadmap */
+.roadmap {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+}
+
+.roadmap .eyebrow {
+  color: var(--color-coral-lime-sand);
+}
+
+.roadmap .sectionHeading {
+  color: var(--color-hando-cream);
+}
+
+.yearList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 42em;
+}
+
+.yearItem {
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  line-height: 1.6;
+  color: var(--color-coral-lime-sand);
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-mnazi-gold);
+}
+
+/* Theory of change */
+.theory {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.theory .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: calc(var(--nav-height-mobile, 44px) + 2rem);
+  }
+
+  .tierGrid {
+    grid-template-columns: 1fr;
+  }
+}

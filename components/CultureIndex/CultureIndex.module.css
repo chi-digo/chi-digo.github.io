@@ -35,6 +35,16 @@
   margin: 0;
 }
 
+.heroIntro {
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.55;
+  color: var(--color-hando-cream);
+  opacity: 0.75;
+  margin: 1rem 0 0 0;
+  max-width: 65%;
+}
+
 .proverb {
   font-family: var(--font-display);
   font-weight: 300;
@@ -292,6 +302,10 @@
 
   .heroContent {
     padding-top: calc(var(--header-height-mobile) + 1.5rem);
+  }
+
+  .heroIntro {
+    max-width: 100%;
   }
 
   .proverb {

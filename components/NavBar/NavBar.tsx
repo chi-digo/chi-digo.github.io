@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
@@ -183,23 +184,23 @@ export function NavBar() {
       className={styles.navbar}
       aria-label="Site navigation"
     >
-      <a href="/" className={styles.homeLink} aria-label="Chi-digo home">
+      <Link href="/" className={styles.homeLink} aria-label="Chi-digo home">
         <VigangoMark />
-      </a>
+      </Link>
 
       <div className={styles.desktopLinks}>
-        <a href="/" className={linkClass('/')}>
+        <Link href="/" className={linkClass('/')}>
           {t.nav.home_link}
-        </a>
-        <a href="/history" className={linkClass('/history')}>
+        </Link>
+        <Link href="/history" className={linkClass('/history')}>
           {t.nav.history_link}
-        </a>
-        <a href="/culture" className={linkClass('/culture')}>
+        </Link>
+        <Link href="/culture" className={linkClass('/culture')}>
           {t.nav.culture_link}
-        </a>
-        <a href="/language" className={linkClass('/language')}>
+        </Link>
+        <Link href="/language" className={linkClass('/language')}>
           {t.nav.language_link}
-        </a>
+        </Link>
       </div>
 
       <div className={styles.centre} />
@@ -269,18 +270,18 @@ export function NavBar() {
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className={styles.drawer} ref={drawerRef}>
-          <a href="/" className={linkClass('/', true)} onClick={() => setMobileOpen(false)}>
+          <Link href="/" className={linkClass('/', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.home_link}
-          </a>
-          <a href="/history" className={linkClass('/history', true)} onClick={() => setMobileOpen(false)}>
+          </Link>
+          <Link href="/history" className={linkClass('/history', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.history_link}
-          </a>
-          <a href="/culture" className={linkClass('/culture', true)} onClick={() => setMobileOpen(false)}>
+          </Link>
+          <Link href="/culture" className={linkClass('/culture', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.culture_link}
-          </a>
-          <a href="/language" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
+          </Link>
+          <Link href="/language" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.language_link}
-          </a>
+          </Link>
 
           <div className={styles.drawerDivider} />
 

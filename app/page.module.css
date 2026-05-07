@@ -203,109 +203,59 @@
   margin-bottom: 0;
 }
 
-/* ===== Section 3 — The Problem ===== */
+/* ===== CTA Cards ===== */
 
-.theProblem {
-  position: relative;
-  background-color: var(--color-kaya-deep);
-  color: var(--color-hando-cream);
-}
-
-.pindoMotif {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 24px;
-  background-image: url('/pindo-diamond-chain.svg');
-  background-repeat: repeat-x;
-  background-size: 240px 24px;
-  background-position: center top;
-}
-
-.theProblem .eyebrow {
-  color: var(--color-coral-lime-sand);
-}
-
-.pullQuote {
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-style: italic;
-  font-size: clamp(1.4rem, 3.2vw, 2rem);
-  line-height: 1.3;
-  color: var(--color-hando-cream);
-  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
-  max-width: 42em;
-}
-
-.theProblem .bodyText {
-  color: var(--color-coral-lime-sand);
-  max-width: 38em;
-}
-
-.theProblem .bodyText + .bodyText {
-  margin-top: 0.75rem;
-}
-
-.cliffHighlight {
-  color: var(--color-mnazi-gold);
-  font-weight: 700;
-}
-
-/* ===== Section 4 — Our Mission ===== */
-
-.ourMission {
+.ctaSection {
   background-color: var(--color-hando-cream);
   color: var(--color-vigango-black);
 }
 
-.ourMission .eyebrow {
+.ctaSection .eyebrow {
   color: var(--color-mnazi-gold);
 }
 
-.missionStatement {
+.ctaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-top: 1.5rem;
+}
+
+.ctaCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: clamp(1.2rem, 2vw, 1.75rem);
+  background: #fff;
+  border: 1px solid rgba(14, 26, 42, 0.08);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ctaCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(14, 26, 42, 0.1);
+}
+
+.ctaCard:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.ctaTitle {
   font-family: var(--font-display);
-  font-weight: 400;
-  font-size: clamp(1.3rem, 3vw, 2.2rem);
-  line-height: 1.25;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--color-kaya-deep);
-  max-width: 42em;
 }
 
-.missionHighlight {
-  color: var(--color-mnazi-gold);
-  font-style: italic;
-}
-
-/* ===== Footer ===== */
-
-.footer {
-  background-color: var(--color-kaya-deep);
-  border-top: 1px solid rgba(242, 234, 215, 0.12);
-  height: 3rem;
-  display: flex;
-  align-items: center;
-}
-
-.footerInner {
-  width: 100%;
-  padding: 0 5.25%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footerLogo svg {
-  width: 64px;
-  height: auto;
-  color: var(--color-hando-cream);
-  opacity: 0.6;
-}
-
-.footerCopy {
+.ctaBody {
   font-family: var(--font-serif);
-  font-size: 0.7rem;
-  color: rgba(242, 234, 215, 0.4);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(14, 26, 42, 0.7);
 }
 
 /* ===== Responsive ===== */

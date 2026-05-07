@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useCallback, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
@@ -31,16 +31,18 @@ function cleanHeadword(raw: string): string {
   return raw.replace(/[\d;]+$/, '').replace(/\.\d+$/, '');
 }
 
-function goToWord(headword: string) {
-  window.location.href = `/dictionary/word/${encodeURIComponent(cleanHeadword(headword))}`;
+type Navigate = (path: string) => void;
+
+function goToWord(nav: Navigate, headword: string) {
+  nav(`/dictionary/word/${encodeURIComponent(cleanHeadword(headword))}`);
 }
 
-function goToLetter(letter: string) {
-  window.location.href = `/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`;
+function goToLetter(nav: Navigate, letter: string) {
+  nav(`/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`);
 }
 
-function goToSearch(q: string) {
-  window.location.href = `/dictionary?q=${encodeURIComponent(q)}`;
+function goToSearch(nav: Navigate, q: string) {
+  nav(`/dictionary?q=${encodeURIComponent(q)}`);
 }
 
 /* ===== Search dropdown (shared) ===== */
@@ -90,7 +92,7 @@ function SearchDropdown({
 
 /* ===== Search bar (shared) ===== */
 
-function DictionarySearchBar() {
+function DictionarySearchBar({ nav }: { nav: Navigate }) {
   const t = useTranslations();
   const { query, setQuery, results, isLoading } = useSearch();
   const [isFocused, setIsFocused] = useState(false);
@@ -99,9 +101,9 @@ function DictionarySearchBar() {
     (result: SearchResult) => {
       setIsFocused(false);
       setQuery('');
-      goToWord(result.headword);
+      goToWord(nav, result.headword);
     },
-    [setQuery],
+    [setQuery, nav],
   );
 
   const handleSubmit = useCallback(
@@ -109,10 +111,10 @@ function DictionarySearchBar() {
       e.preventDefault();
       if (query.trim()) {
         setIsFocused(false);
-        goToSearch(query.trim());
+        goToSearch(nav, query.trim());
       }
     },
-    [query],
+    [query, nav],
   );
 
   return (
@@ -159,7 +161,7 @@ function DictionarySearchBar() {
 
 /* ===== Word of the Day card ===== */
 
-function WordOfTheDayCard() {
+function WordOfTheDayCard({ nav }: { nav: Navigate }) {
   const t = useTranslations();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
@@ -171,11 +173,16 @@ function WordOfTheDayCard() {
     const dayOfYear = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
     const word = CURATED_WORDS[dayOfYear % CURATED_WORDS.length];
 
-    loadEntriesByHeadword(word).then((entries) => {
-      if (cancelled) return;
-      setEntry(entries[0] ?? null);
-      setLoading(false);
-    });
+    loadEntriesByHeadword(word)
+      .then((entries) => {
+        if (cancelled) return;
+        setEntry(entries[0] ?? null);
+        setLoading(false);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setLoading(false);
+      });
 
     return () => { cancelled = true; };
   }, []);
@@ -197,7 +204,7 @@ function WordOfTheDayCard() {
     <button
       type="button"
       className={styles.wotdCard}
-      onClick={() => goToWord(entry.headword)}
+      onClick={() => goToWord(nav, entry.headword)}
     >
       <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
@@ -216,9 +223,11 @@ function WordOfTheDayCard() {
 function EntrySection({
   entry,
   isHomonym,
+  nav,
 }: {
   entry: DictionaryEntry;
   isHomonym: boolean;
+  nav: Navigate;
 }) {
   const t = useTranslations();
 
@@ -242,7 +251,7 @@ function EntrySection({
           <button
             type="button"
             className={styles.redirectLink}
-            onClick={() => goToWord(entry.redirect_target!)}
+            onClick={() => goToWord(nav, entry.redirect_target!)}
           >
             {cleanHeadword(entry.redirect_target)}
           </button>
@@ -275,7 +284,7 @@ function EntrySection({
                   <button
                     type="button"
                     className={styles.synonymLink}
-                    onClick={() => goToWord(syn)}
+                    onClick={() => goToWord(nav, syn)}
                   >
                     {syn}
                   </button>
@@ -321,17 +330,22 @@ function EntrySection({
   );
 }
 
-function WordView({ headword }: { headword: string }) {
+function WordView({ headword, nav }: { headword: string; nav: Navigate }) {
   const t = useTranslations();
   const [entries, setEntries] = useState<DictionaryEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
-    loadEntriesByHeadword(headword).then((found) => {
-      setEntries(found);
-      setLoading(false);
-    });
+    loadEntriesByHeadword(headword)
+      .then((found) => {
+        setEntries(found);
+        setLoading(false);
+      })
+      .catch(() => {
+        setEntries([]);
+        setLoading(false);
+      });
   }, [headword]);
 
   const mainEntries = entries.filter((e) => !e.is_redirect);
@@ -341,7 +355,7 @@ function WordView({ headword }: { headword: string }) {
 
   return (
     <>
-      <DictionarySearchBar />
+      <DictionarySearchBar nav={nav} />
 
       {loading && <p className={styles.loading}>{t.dictionary.searching}</p>}
 
@@ -368,11 +382,11 @@ function WordView({ headword }: { headword: string }) {
           </header>
 
           {mainEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} nav={nav} />
           ))}
 
           {redirectEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={false} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} />
           ))}
         </article>
       )}
@@ -382,13 +396,13 @@ function WordView({ headword }: { headword: string }) {
 
 /* ===== Search results view ===== */
 
-function ResultCard({ result }: { result: SearchResult }) {
+function ResultCard({ result, nav }: { result: SearchResult; nav: Navigate }) {
   const pos = POS_ABBREVIATIONS[result.pos] || result.pos;
   return (
     <button
       type="button"
       className={styles.resultCard}
-      onClick={() => goToWord(result.headword)}
+      onClick={() => goToWord(nav, result.headword)}
     >
       <div className={styles.resultCardHeader}>
         <span className={styles.resultCardWord}>{result.headword}</span>
@@ -399,19 +413,19 @@ function ResultCard({ result }: { result: SearchResult }) {
   );
 }
 
-function ResultGroup({ lang, results }: { lang: 'dg' | 'sw' | 'en'; results: SearchResult[] }) {
+function ResultGroup({ lang, results, nav }: { lang: 'dg' | 'sw' | 'en'; results: SearchResult[]; nav: Navigate }) {
   if (results.length === 0) return null;
   return (
     <div className={styles.resultGroup}>
       <p className={styles.resultGroupLabel}>{LANG_LABELS[lang]}</p>
       {results.map((result) => (
-        <ResultCard key={result.id + '-' + lang} result={result} />
+        <ResultCard key={result.id + '-' + lang} result={result} nav={nav} />
       ))}
     </div>
   );
 }
 
-function LetterView({ letter }: { letter: string }) {
+function LetterView({ letter, nav }: { letter: string; nav: Navigate }) {
   const t = useTranslations();
   const [results, setResults] = useState<GroupedSearchResults | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -419,17 +433,22 @@ function LetterView({ letter }: { letter: string }) {
   useEffect(() => {
     if (!letter) return;
     setIsLoading(true);
-    searchAll(letter).then((r) => {
-      setResults(r);
-      setIsLoading(false);
-    });
+    searchAll(letter)
+      .then((r) => {
+        setResults(r);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        setResults({ dg: [], sw: [], en: [], total: 0 });
+        setIsLoading(false);
+      });
   }, [letter]);
 
   const displayLetter = letter.charAt(0).toUpperCase() + letter.slice(1);
 
   return (
     <>
-      <DictionarySearchBar />
+      <DictionarySearchBar nav={nav} />
 
       <p className={styles.resultsInfo}>
         {isLoading
@@ -452,16 +471,16 @@ function LetterView({ letter }: { letter: string }) {
 
       {results && results.total > 0 && (
         <div>
-          <ResultGroup lang="dg" results={results.dg} />
-          <ResultGroup lang="sw" results={results.sw} />
-          <ResultGroup lang="en" results={results.en} />
+          <ResultGroup lang="dg" results={results.dg} nav={nav} />
+          <ResultGroup lang="sw" results={results.sw} nav={nav} />
+          <ResultGroup lang="en" results={results.en} nav={nav} />
         </div>
       )}
     </>
   );
 }
 
-function SearchView({ q }: { q: string }) {
+function SearchView({ q, nav }: { q: string; nav: Navigate }) {
   const t = useTranslations();
   const [results, setResults] = useState<GroupedSearchResults | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -469,15 +488,20 @@ function SearchView({ q }: { q: string }) {
   useEffect(() => {
     if (!q) return;
     setIsLoading(true);
-    searchAll(q).then((r) => {
-      setResults(r);
-      setIsLoading(false);
-    });
+    searchAll(q)
+      .then((r) => {
+        setResults(r);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        setResults({ dg: [], sw: [], en: [], total: 0 });
+        setIsLoading(false);
+      });
   }, [q]);
 
   return (
     <>
-      <DictionarySearchBar />
+      <DictionarySearchBar nav={nav} />
 
       {q && (
         <p className={styles.resultsInfo}>
@@ -502,9 +526,9 @@ function SearchView({ q }: { q: string }) {
 
       {results && results.total > 0 && (
         <div>
-          <ResultGroup lang="dg" results={results.dg} />
-          <ResultGroup lang="sw" results={results.sw} />
-          <ResultGroup lang="en" results={results.en} />
+          <ResultGroup lang="dg" results={results.dg} nav={nav} />
+          <ResultGroup lang="sw" results={results.sw} nav={nav} />
+          <ResultGroup lang="en" results={results.en} nav={nav} />
         </div>
       )}
     </>
@@ -513,16 +537,16 @@ function SearchView({ q }: { q: string }) {
 
 /* ===== Home view ===== */
 
-function HomeView() {
+function HomeView({ nav }: { nav: Navigate }) {
   const t = useTranslations();
 
   return (
     <>
-      <DictionarySearchBar />
+      <DictionarySearchBar nav={nav} />
 
       <section className={styles.mt4}>
         <p className={styles.sectionLabel}>{t.dictionary.word_of_the_day}</p>
-        <WordOfTheDayCard />
+        <WordOfTheDayCard nav={nav} />
       </section>
 
       <section className={styles.mt6}>
@@ -533,7 +557,7 @@ function HomeView() {
               key={letter}
               type="button"
               className={styles.letterCard}
-              onClick={() => goToLetter(letter)}
+              onClick={() => goToLetter(nav, letter)}
             >
               {letter}
             </button>
@@ -546,20 +570,31 @@ function HomeView() {
 
 /* ===== Router ===== */
 
-function DictionaryRouter({ slug }: { slug: string[] }) {
+function DictionaryRouter() {
+  const pathname = usePathname();
   const searchParams = useSearchParams();
+  const router = useRouter();
   const q = searchParams.get('q');
   const t = useTranslations();
+  const nav: Navigate = useCallback((path: string) => router.push(path), [router]);
+
+  const slug = useMemo(() => {
+    const prefix = '/dictionary';
+    if (!pathname.startsWith(prefix)) return [];
+    const rest = pathname.slice(prefix.length).replace(/^\//, '');
+    if (!rest) return [];
+    return rest.split('/').map(decodeURIComponent);
+  }, [pathname]);
 
   let view: React.ReactNode;
   if (slug[0] === 'word' && slug[1]) {
-    view = <WordView headword={cleanHeadword(decodeURIComponent(slug[1]))} />;
+    view = <WordView headword={cleanHeadword(slug[1])} nav={nav} />;
   } else if (slug[0] === 'letter' && slug[1]) {
-    view = <LetterView letter={decodeURIComponent(slug[1])} />;
+    view = <LetterView letter={slug[1]} nav={nav} />;
   } else if (q) {
-    view = <SearchView q={q} />;
+    view = <SearchView q={q} nav={nav} />;
   } else {
-    view = <HomeView />;
+    view = <HomeView nav={nav} />;
   }
 
   return (
@@ -567,21 +602,14 @@ function DictionaryRouter({ slug }: { slug: string[] }) {
       <main className={styles.main}>
         {view}
       </main>
-      <footer className={styles.footer}>
-        <div className={styles.footerInner}>
-          <p className={styles.footerCopy}>
-            &copy; {new Date().getFullYear()} {t.footer.copyright}
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
 
-export function DictionaryClient({ slug }: { slug: string[] }) {
+export function DictionaryClient() {
   return (
     <Suspense>
-      <DictionaryRouter slug={slug} />
+      <DictionaryRouter />
     </Suspense>
   );
 }
