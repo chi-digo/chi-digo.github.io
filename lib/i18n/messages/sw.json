@@ -79,7 +79,14 @@
     "mature_content": "Methali hii ina maudhui ya watu wazima.",
     "ai_assisted": "Maoni yamesaidiwa na AI na kukaguliwa na wazungumzaji asili.",
     "contribute": "Unajua lahaja au muktadha? Tusaidie kuboresha neno hili.",
-    "see_all": "Ona zote"
+    "see_all": "Ona zote",
+    "searching": "Inatafuta...",
+    "results_for": "Matokeo {count} kwa \"{query}\"",
+    "back_to_proverbs": "← Methali",
+    "literal_translation": "Tafsiri halisi",
+    "idiomatic_translation": "Maana ya nahau",
+    "try_different_search": "Jaribu neno tofauti la kutafuta.",
+    "swahili_translation": "Tafsiri ya Kiswahili"
   },
   "hero": {
     "title": "Chi-digo",

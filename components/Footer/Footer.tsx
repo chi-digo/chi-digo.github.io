@@ -58,6 +58,7 @@ export function Footer() {
               <li><TrackedLink href="/culture" source="footer" className={styles.columnLink}>{t.nav.culture_link}</TrackedLink></li>
               <li><TrackedLink href="/language" source="footer" className={styles.columnLink}>{t.nav.language_link}</TrackedLink></li>
               <li><TrackedLink href="/dictionary" source="footer" className={styles.columnLink}>{t.dictionary.section_title}</TrackedLink></li>
+              <li><TrackedLink href="/proverbs" source="footer" className={styles.columnLink}>{t.proverbs.title}</TrackedLink></li>
               <li><TrackedLink href="/history" source="footer" className={styles.columnLink}>{t.nav.history_link}</TrackedLink></li>
             </ul>
           </div>

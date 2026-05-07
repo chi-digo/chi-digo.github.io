@@ -79,7 +79,14 @@
     "mature_content": "Ndarira iyi ina maudhui ga avyere.",
     "ai_assisted": "Madzo gasaidywa ni AI na kukaguliwa ni azungumzadzi asili.",
     "contribute": "Unamanya lahaja au muktadha? Husaidye kuboresha ndarira iyi.",
-    "see_all": "Lola zosi"
+    "see_all": "Lola zosi",
+    "searching": "Inatafuta...",
+    "results_for": "Matokeo {count} kwa \"{query}\"",
+    "back_to_proverbs": "← Ndarira",
+    "literal_translation": "Tafsiri halisi",
+    "idiomatic_translation": "Mana ya nahau",
+    "try_different_search": "Jaribu dzina rinjine ra kutafuta.",
+    "swahili_translation": "Tafsiri ya Chiswahili"
   },
   "hero": {
     "title": "Chi-digo",

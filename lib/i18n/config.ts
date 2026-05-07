@@ -90,6 +90,13 @@ export interface Messages {
     ai_assisted: string;
     contribute: string;
     see_all: string;
+    searching: string;
+    results_for: string;
+    back_to_proverbs: string;
+    literal_translation: string;
+    idiomatic_translation: string;
+    try_different_search: string;
+    swahili_translation: string;
   };
   hero: {
     title: string;

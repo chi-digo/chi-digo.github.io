@@ -79,7 +79,14 @@
     "mature_content": "This proverb contains mature content.",
     "ai_assisted": "Commentary assisted by AI and reviewed by native speakers.",
     "contribute": "Know a variant or context? Help us improve this entry.",
-    "see_all": "See all"
+    "see_all": "See all",
+    "searching": "Searching...",
+    "results_for": "{count} results for \"{query}\"",
+    "back_to_proverbs": "← Proverbs",
+    "literal_translation": "Literal translation",
+    "idiomatic_translation": "Idiomatic meaning",
+    "try_different_search": "Try a different search term.",
+    "swahili_translation": "Swahili translation"
   },
   "hero": {
     "title": "Chi-digo",

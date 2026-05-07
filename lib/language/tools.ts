@@ -32,9 +32,9 @@ export const languageTools: LanguageTool[] = [
       dig: 'Ndarira',
     },
     description: {
-      en: '349 Digo proverbs with translations, cultural commentary, and thematic browsing. Search in Chidigo, Swahili, or English.',
-      sw: 'Methali 349 za Kidigo zenye tafsiri, maoni ya kitamaduni, na kuvinjari kwa mada. Tafuta kwa Kidigo, Kiswahili, au Kiingereza.',
-      dig: 'Ndarira 349 za Chidigo na tafsiri, madzo ga chisomo, na kuhakiki kwa mada. Tafuta kwa Chidigo, Chiswahili, au Chiingereza.',
+      en: '378 Digo proverbs with translations, cultural commentary, and thematic browsing. Search in Chidigo, Swahili, or English.',
+      sw: 'Methali 378 za Kidigo zenye tafsiri, maoni ya kitamaduni, na kuvinjari kwa mada. Tafuta kwa Kidigo, Kiswahili, au Kiingereza.',
+      dig: 'Ndarira 378 za Chidigo na tafsiri, madzo ga chisomo, na kuhakiki kwa mada. Tafuta kwa Chidigo, Chiswahili, au Chiingereza.',
     },
     href: '/proverbs',
     available: true,
