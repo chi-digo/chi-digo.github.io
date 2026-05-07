@@ -6,6 +6,9 @@ import Link from 'next/link';
 
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
+import { TrackedLink } from '@/components/Analytics/TrackedLink';
+import { trackLocaleSwitch } from '@/lib/analytics/track';
+import { track } from '@/lib/analytics/track';
 // import { LocaleFlag } from './Flags';
 import styles from './NavBar.module.css';
 
@@ -158,12 +161,15 @@ export function NavBar() {
   }, [open]);
 
   const handleSelect = useCallback(
-    (newLocale: Locale) => {
+    (newLocale: Locale, source: string) => {
+      if (newLocale !== locale) {
+        trackLocaleSwitch(locale, newLocale, source);
+      }
       setLocale(newLocale);
       setOpen(false);
       buttonRef.current?.focus();
     },
-    [setLocale],
+    [setLocale, locale],
   );
 
   const currentConfig = locales.find((l) => l.code === locale)!;
@@ -189,18 +195,18 @@ export function NavBar() {
       </Link>
 
       <div className={styles.desktopLinks}>
-        <Link href="/" className={linkClass('/')}>
+        <TrackedLink href="/" source="navbar" className={linkClass('/')}>
           {t.nav.home_link}
-        </Link>
-        <Link href="/history" className={linkClass('/history')}>
+        </TrackedLink>
+        <TrackedLink href="/history" source="navbar" className={linkClass('/history')}>
           {t.nav.history_link}
-        </Link>
-        <Link href="/culture" className={linkClass('/culture')}>
+        </TrackedLink>
+        <TrackedLink href="/culture" source="navbar" className={linkClass('/culture')}>
           {t.nav.culture_link}
-        </Link>
-        <Link href="/language" className={linkClass('/language')}>
+        </TrackedLink>
+        <TrackedLink href="/language" source="navbar" className={linkClass('/language')}>
           {t.nav.language_link}
-        </Link>
+        </TrackedLink>
       </div>
 
       <div className={styles.centre} />
@@ -236,11 +242,11 @@ export function NavBar() {
                 aria-checked={loc.code === locale}
                 tabIndex={-1}
                 className={`${styles.dropdownItem} ${loc.code === locale ? styles.dropdownItemActive : ''}`}
-                onClick={() => handleSelect(loc.code)}
+                onClick={() => handleSelect(loc.code, 'navbar_desktop')}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
-                    handleSelect(loc.code);
+                    handleSelect(loc.code, 'navbar_desktop');
                   }
                 }}
               >
@@ -258,7 +264,11 @@ export function NavBar() {
       <button
         type="button"
         className={styles.hamburger}
-        onClick={() => setMobileOpen((prev) => !prev)}
+        onClick={() => {
+          const next = !mobileOpen;
+          setMobileOpen(next);
+          track('orientation', 'navbar', next ? 'menu_open' : 'menu_close', { device: 'mobile' });
+        }}
         aria-expanded={mobileOpen}
         aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
       >
@@ -270,18 +280,18 @@ export function NavBar() {
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className={styles.drawer} ref={drawerRef}>
-          <Link href="/" className={linkClass('/', true)} onClick={() => setMobileOpen(false)}>
+          <TrackedLink href="/" source="navbar_mobile" className={linkClass('/', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.home_link}
-          </Link>
-          <Link href="/history" className={linkClass('/history', true)} onClick={() => setMobileOpen(false)}>
+          </TrackedLink>
+          <TrackedLink href="/history" source="navbar_mobile" className={linkClass('/history', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.history_link}
-          </Link>
-          <Link href="/culture" className={linkClass('/culture', true)} onClick={() => setMobileOpen(false)}>
+          </TrackedLink>
+          <TrackedLink href="/culture" source="navbar_mobile" className={linkClass('/culture', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.culture_link}
-          </Link>
-          <Link href="/language" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
+          </TrackedLink>
+          <TrackedLink href="/language" source="navbar_mobile" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.language_link}
-          </Link>
+          </TrackedLink>
 
           <div className={styles.drawerDivider} />
 
@@ -292,6 +302,9 @@ export function NavBar() {
                 type="button"
                 className={`${styles.drawerLocaleBtn} ${loc.code === locale ? styles.drawerLocaleBtnActive : ''}`}
                 onClick={() => {
+                  if (loc.code !== locale) {
+                    trackLocaleSwitch(locale, loc.code, 'navbar_mobile');
+                  }
                   setLocale(loc.code);
                   setMobileOpen(false);
                 }}

@@ -1,15 +1,26 @@
 'use client';
 
+import { useRef } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { oralTraditionsDomain } from '@/lib/language/content';
 import { dialects } from '@/lib/language/dialects';
 import { languageTools } from '@/lib/language/tools';
+import { trackNavClick } from '@/lib/analytics/track';
+import { useTrackView } from '@/hooks/useTrackView';
 import styles from './LanguageIndex.module.css';
 
 
 export function LanguageIndex() {
   const t = useTranslations();
   const { locale } = useLocale();
+
+  const dialectRef = useRef<HTMLElement>(null);
+  const toolsRef = useRef<HTMLElement>(null);
+  const topicsRef = useRef<HTMLElement>(null);
+
+  useTrackView(dialectRef, 'language', 'dialects');
+  useTrackView(toolsRef, 'language', 'tools');
+  useTrackView(topicsRef, 'language', 'oral_traditions');
 
   return (
     <>
@@ -27,7 +38,7 @@ export function LanguageIndex() {
       </section>
 
       {/* Dialects */}
-      <section className={`${styles.section} ${styles.sectionCream}`}>
+      <section ref={dialectRef} className={`${styles.section} ${styles.sectionCream}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
             {t.language.dialects_heading}
@@ -59,7 +70,7 @@ export function LanguageIndex() {
       </section>
 
       {/* Tools */}
-      <section className={`${styles.section} ${styles.sectionSand}`}>
+      <section ref={toolsRef} className={`${styles.section} ${styles.sectionSand}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
             {t.language.tools_heading}
@@ -83,6 +94,7 @@ export function LanguageIndex() {
                   key={tool.slug}
                   href={tool.href}
                   className={styles.toolCard}
+                  onClick={() => trackNavClick('language_tools', tool.href)}
                 >
                   {inner}
                 </a>
@@ -100,7 +112,7 @@ export function LanguageIndex() {
       </section>
 
       {/* Oral tradition topic cards */}
-      <section className={`${styles.section} ${styles.sectionDark}`}>
+      <section ref={topicsRef} className={`${styles.section} ${styles.sectionDark}`}>
         <div className={styles.sectionInner}>
           <h2
             className={`${styles.sectionHeading} ${styles.sectionHeadingLight}`}
@@ -113,6 +125,7 @@ export function LanguageIndex() {
                 key={topic.slug}
                 href={`/language/${topic.slug}`}
                 className={styles.topicCard}
+                onClick={() => trackNavClick('language_topics', `/language/${topic.slug}`)}
               >
                 <h3 className={styles.topicTitle}>{topic.title[locale]}</h3>
                 <p className={styles.topicIntro}>{topic.intro[locale]}</p>

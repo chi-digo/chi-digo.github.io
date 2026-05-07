@@ -1,7 +1,10 @@
 'use client';
 
+import { useRef, useMemo } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getHistoryTopic, type ContentBlock } from '@/lib/history/content';
+import { track } from '@/lib/analytics/track';
+import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
 import styles from './HistoryArticle.module.css';
 
 function renderInlineMarkdown(text: string): React.ReactNode[] {
@@ -58,6 +61,13 @@ export function HistoryTopicArticle({ topicSlug }: { topicSlug: string }) {
   const { domain, topic } = result;
   const body = topic.body[locale];
 
+  const bottomRef = useRef<HTMLDivElement>(null);
+  const readParams = useMemo(() => ({
+    topic: topicSlug,
+    content_language: locale,
+  }), [topicSlug, locale]);
+  useTrackReadComplete(bottomRef, 'history', 'article', readParams);
+
   return (
     <>
       <section className={styles.hero}>
@@ -74,6 +84,7 @@ export function HistoryTopicArticle({ topicSlug }: { topicSlug: string }) {
       <article className={styles.article}>
         <div className={styles.articleInner}>
           <ArticleBody body={body} />
+          <div ref={bottomRef} />
         </div>
       </article>
 
@@ -92,6 +103,7 @@ export function HistoryTopicArticle({ topicSlug }: { topicSlug: string }) {
                     key={tp.slug}
                     href={`/history/${tp.slug}`}
                     className={styles.relatedCard}
+                    onClick={() => track('history', 'article', 'click_related', { topic: tp.slug })}
                   >
                     <h3 className={styles.relatedTitle}>
                       {tp.title[locale]}
