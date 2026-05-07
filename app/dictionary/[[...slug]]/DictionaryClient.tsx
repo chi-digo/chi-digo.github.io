@@ -1,6 +1,6 @@
 'use client';
 
-import React, { Component, useState, useCallback, useEffect, useMemo, Suspense } from 'react';
+import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
@@ -9,39 +9,6 @@ import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/d
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from '../dictionary.module.css';
-
-/* ===== Debug error boundary ===== */
-
-class DictErrorBoundary extends Component<
-  { children: React.ReactNode },
-  { error: Error | null }
-> {
-  constructor(props: { children: React.ReactNode }) {
-    super(props);
-    this.state = { error: null };
-  }
-  static getDerivedStateFromError(error: Error) {
-    return { error };
-  }
-  componentDidCatch(error: Error, info: React.ErrorInfo) {
-    console.error('[DICT-DEBUG] ErrorBoundary caught:', error, info.componentStack);
-  }
-  render() {
-    if (this.state.error) {
-      return (
-        <div style={{ padding: 24, background: '#fee', border: '2px solid red', borderRadius: 8, margin: 16 }}>
-          <h2 style={{ color: 'red', margin: 0 }}>Dictionary Error (debug)</h2>
-          <pre style={{ whiteSpace: 'pre-wrap', fontSize: 13, marginTop: 8 }}>
-            {this.state.error.message}
-            {'\n'}
-            {this.state.error.stack}
-          </pre>
-        </div>
-      );
-    }
-    return this.props.children;
-  }
-}
 
 const LANG_LABELS: Record<string, string> = {
   dg: 'Chidigo',
@@ -572,11 +539,6 @@ function SearchView({ q, nav }: { q: string; nav: Navigate }) {
 function HomeView({ nav }: { nav: Navigate }) {
   const t = useTranslations();
 
-  useEffect(() => {
-    console.debug('[DICT-DEBUG] HomeView MOUNTED');
-    return () => { console.debug('[DICT-DEBUG] HomeView UNMOUNTED'); };
-  }, []);
-
   return (
     <>
       <DictionarySearchBar nav={nav} />
@@ -613,19 +575,7 @@ function DictionaryRouter() {
   const router = useRouter();
   const q = searchParams.get('q');
   const t = useTranslations();
-  const nav: Navigate = useCallback((path: string) => {
-    console.debug(`[DICT-DEBUG] nav() called: ${path}`);
-    router.push(path);
-  }, [router]);
-
-  useEffect(() => {
-    console.debug('[DICT-DEBUG] DictionaryRouter MOUNTED');
-    return () => { console.debug('[DICT-DEBUG] DictionaryRouter UNMOUNTED'); };
-  }, []);
-
-  useEffect(() => {
-    console.debug(`[DICT-DEBUG] DictionaryRouter pathname changed: "${pathname}"`);
-  }, [pathname]);
+  const nav: Navigate = useCallback((path: string) => router.push(path), [router]);
 
   const slug = useMemo(() => {
     const prefix = '/dictionary';
@@ -635,23 +585,16 @@ function DictionaryRouter() {
     return rest.split('/').map(decodeURIComponent);
   }, [pathname]);
 
-  let viewName: string;
   let view: React.ReactNode;
   if (slug[0] === 'word' && slug[1]) {
-    viewName = `WordView(${slug[1]})`;
     view = <WordView headword={cleanHeadword(slug[1])} nav={nav} />;
   } else if (slug[0] === 'letter' && slug[1]) {
-    viewName = `LetterView(${slug[1]})`;
     view = <LetterView letter={slug[1]} nav={nav} />;
   } else if (q) {
-    viewName = `SearchView(${q})`;
     view = <SearchView q={q} nav={nav} />;
   } else {
-    viewName = 'HomeView';
     view = <HomeView nav={nav} />;
   }
-
-  console.debug(`[DICT-DEBUG] DictionaryRouter render: pathname="${pathname}", slug=[${slug.join(',')}], q=${q}, view=${viewName}`);
 
   return (
     <div className={styles.page}>
@@ -664,10 +607,8 @@ function DictionaryRouter() {
 
 export function DictionaryClient() {
   return (
-    <DictErrorBoundary>
-      <Suspense fallback={<div style={{ padding: 24 }}>[DICT-DEBUG] Suspense fallback showing...</div>}>
-        <DictionaryRouter />
-      </Suspense>
-    </DictErrorBoundary>
+    <Suspense>
+      <DictionaryRouter />
+    </Suspense>
   );
 }
