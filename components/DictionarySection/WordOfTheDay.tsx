@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { POS_ABBREVIATIONS } from '@/lib/constants';
+import { track } from '@/lib/analytics/track';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from './DictionarySection.module.css';
 
@@ -74,7 +75,10 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
       <button
         type="button"
         className={styles.wotdButton}
-        onClick={() => onWordClick(entry.headword)}
+        onClick={() => {
+          track('dictionary', 'featured', 'click', { headword: entry.headword, source: 'homepage' });
+          onWordClick(entry.headword);
+        }}
       >
         {t.dictionary.see_also} →
       </button>

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
+import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import styles from './Footer.module.css';
 
 function VigangoMark() {
@@ -45,26 +46,26 @@ export function Footer() {
           <div>
             <h3 className={styles.columnHeading}>{t.footer.about_heading}</h3>
             <ul className={styles.columnList}>
-              <li><Link href="/about" className={styles.columnLink}>{t.footer.about_link}</Link></li>
-              <li><Link href="/mission" className={styles.columnLink}>{t.footer.mission_link}</Link></li>
-              <li><Link href="/vision" className={styles.columnLink}>{t.footer.vision_link}</Link></li>
+              <li><TrackedLink href="/about" source="footer" className={styles.columnLink}>{t.footer.about_link}</TrackedLink></li>
+              <li><TrackedLink href="/mission" source="footer" className={styles.columnLink}>{t.footer.mission_link}</TrackedLink></li>
+              <li><TrackedLink href="/vision" source="footer" className={styles.columnLink}>{t.footer.vision_link}</TrackedLink></li>
             </ul>
           </div>
 
           <div>
             <h3 className={styles.columnHeading}>{t.footer.explore_heading}</h3>
             <ul className={styles.columnList}>
-              <li><Link href="/culture" className={styles.columnLink}>{t.nav.culture_link}</Link></li>
-              <li><Link href="/language" className={styles.columnLink}>{t.nav.language_link}</Link></li>
-              <li><Link href="/dictionary" className={styles.columnLink}>{t.dictionary.section_title}</Link></li>
-              <li><Link href="/history" className={styles.columnLink}>{t.nav.history_link}</Link></li>
+              <li><TrackedLink href="/culture" source="footer" className={styles.columnLink}>{t.nav.culture_link}</TrackedLink></li>
+              <li><TrackedLink href="/language" source="footer" className={styles.columnLink}>{t.nav.language_link}</TrackedLink></li>
+              <li><TrackedLink href="/dictionary" source="footer" className={styles.columnLink}>{t.dictionary.section_title}</TrackedLink></li>
+              <li><TrackedLink href="/history" source="footer" className={styles.columnLink}>{t.nav.history_link}</TrackedLink></li>
             </ul>
           </div>
 
           <div>
             <h3 className={styles.columnHeading}>{t.footer.connect_heading}</h3>
             <ul className={styles.columnList}>
-              <li><Link href="/contact" className={styles.columnLink}>{t.footer.contact_link}</Link></li>
+              <li><TrackedLink href="/contact" source="footer" className={styles.columnLink}>{t.footer.contact_link}</TrackedLink></li>
             </ul>
           </div>
         </div>

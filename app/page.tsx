@@ -1,10 +1,13 @@
 'use client';
 
+import { useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
 import { DictionarySection } from '@/components/DictionarySection/DictionarySection';
+import { TrackedLink } from '@/components/Analytics/TrackedLink';
+import { useTrackView } from '@/hooks/useTrackView';
 import styles from "./page.module.css";
 
 function ChidigoLogo() {
@@ -101,10 +104,18 @@ export default function Home() {
   const t = useTranslations();
   const { locale } = useLocale();
 
+  const heroRef = useRef<HTMLElement>(null);
+  const whatIsDigoRef = useRef<HTMLElement>(null);
+  const ctaRef = useRef<HTMLElement>(null);
+
+  useTrackView(heroRef, 'orientation', 'hero');
+  useTrackView(whatIsDigoRef, 'orientation', 'what_is_digo');
+  useTrackView(ctaRef, 'orientation', 'cta');
+
   return (
     <>
       {/* ===== Hero ===== */}
-      <section className={styles.hero}>
+      <section ref={heroRef} className={styles.hero}>
         <div className={styles.bandBottom} />
 
         <div className={styles.backgroundImage} />
@@ -126,7 +137,7 @@ export default function Home() {
       </section>
 
       {/* ===== What is Digo ===== */}
-      <section className={`${styles.section} ${styles.whatIsDigo}`}>
+      <section ref={whatIsDigoRef} className={`${styles.section} ${styles.whatIsDigo}`}>
         <div className={styles.sectionInner}>
           <p className={styles.eyebrow}>{t.what_is_digo.eyebrow}</p>
           <h2 className={styles.sectionHeading}>
@@ -183,26 +194,26 @@ export default function Home() {
       <DictionarySection />
 
       {/* ===== Discover More ===== */}
-      <section className={`${styles.section} ${styles.ctaSection}`}>
+      <section ref={ctaRef} className={`${styles.section} ${styles.ctaSection}`}>
         <div className={styles.sectionInner}>
           <p className={styles.eyebrow}>{t.cta.section_eyebrow}</p>
           <div className={styles.ctaGrid}>
-            <Link href="/about" className={styles.ctaCard}>
+            <TrackedLink href="/about" source="cta" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.about_title}</span>
               <span className={styles.ctaBody}>{t.cta.about_body}</span>
-            </Link>
-            <Link href="/mission" className={styles.ctaCard}>
+            </TrackedLink>
+            <TrackedLink href="/mission" source="cta" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.mission_title}</span>
               <span className={styles.ctaBody}>{t.cta.mission_body}</span>
-            </Link>
-            <Link href="/vision" className={styles.ctaCard}>
+            </TrackedLink>
+            <TrackedLink href="/vision" source="cta" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.vision_title}</span>
               <span className={styles.ctaBody}>{t.cta.vision_body}</span>
-            </Link>
-            <Link href="/contact" className={styles.ctaCard}>
+            </TrackedLink>
+            <TrackedLink href="/contact" source="cta" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.contact_title}</span>
               <span className={styles.ctaBody}>{t.cta.contact_body}</span>
-            </Link>
+            </TrackedLink>
           </div>
         </div>
       </section>

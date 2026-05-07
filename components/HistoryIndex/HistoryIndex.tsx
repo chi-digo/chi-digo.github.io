@@ -1,9 +1,12 @@
 'use client';
 
+import { useRef } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { historyDomain } from '@/lib/history/content';
 import { figures } from '@/lib/history/figures';
 import { timelineEvents, eraLabels, eraColors, type Era } from '@/lib/history/timeline';
+import { trackNavClick } from '@/lib/analytics/track';
+import { useTrackView } from '@/hooks/useTrackView';
 import styles from './HistoryIndex.module.css';
 
 const eras: Era[] = ['origins', 'kaya', 'colonial', 'modern'];
@@ -18,6 +21,14 @@ const eraPeriods: Record<Era, string> = {
 export function HistoryIndex() {
   const t = useTranslations();
   const { locale } = useLocale();
+
+  const timelineRef = useRef<HTMLElement>(null);
+  const figuresRef = useRef<HTMLElement>(null);
+  const topicsRef = useRef<HTMLElement>(null);
+
+  useTrackView(timelineRef, 'history', 'timeline');
+  useTrackView(figuresRef, 'history', 'figures');
+  useTrackView(topicsRef, 'history', 'topics');
 
   return (
     <>
@@ -35,7 +46,7 @@ export function HistoryIndex() {
       </section>
 
       {/* Timeline */}
-      <section className={`${styles.section} ${styles.sectionCream}`}>
+      <section ref={timelineRef} className={`${styles.section} ${styles.sectionCream}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
             {t.history.timeline_heading}
@@ -87,7 +98,7 @@ export function HistoryIndex() {
       </section>
 
       {/* Notable figures */}
-      <section className={`${styles.section} ${styles.sectionSand}`}>
+      <section ref={figuresRef} className={`${styles.section} ${styles.sectionSand}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
             {t.history.figures_heading}
@@ -109,7 +120,7 @@ export function HistoryIndex() {
       </section>
 
       {/* Deep dive topic cards */}
-      <section className={`${styles.section} ${styles.sectionDark}`}>
+      <section ref={topicsRef} className={`${styles.section} ${styles.sectionDark}`}>
         <div className={styles.sectionInner}>
           <h2 className={`${styles.sectionHeading} ${styles.sectionHeadingLight}`}>
             {t.history.topics_heading}
@@ -120,6 +131,7 @@ export function HistoryIndex() {
                 key={topic.slug}
                 href={`/history/${topic.slug}`}
                 className={styles.topicCard}
+                onClick={() => trackNavClick('history_topics', `/history/${topic.slug}`)}
               >
                 <h3 className={styles.topicTitle}>{topic.title[locale]}</h3>
                 <p className={styles.topicIntro}>{topic.intro[locale]}</p>

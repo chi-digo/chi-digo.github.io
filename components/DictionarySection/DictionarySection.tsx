@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
+import { track } from '@/lib/analytics/track';
 import type { SearchResult } from '@/lib/dictionary/search';
 import { WordOfTheDayCard } from './WordOfTheDay';
 import styles from './DictionarySection.module.css';
@@ -58,22 +59,25 @@ function SearchDropdown({
 
 export function DictionarySection() {
   const t = useTranslations();
-  const { query, setQuery, results, isLoading } = useSearch();
+  const { query, setQuery, results, isLoading } = useSearch('homepage');
   const [isFocused, setIsFocused] = useState(false);
+  const focusTracked = useRef(false);
 
   const handleSelect = useCallback(
     (result: SearchResult) => {
+      track('dictionary', 'search', 'select_result', { headword: result.headword, query, source: 'homepage' });
       setIsFocused(false);
       setQuery('');
       window.location.href = `/dictionary/word/${encodeURIComponent(result.headword)}`;
     },
-    [setQuery],
+    [setQuery, query],
   );
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
       e.preventDefault();
       if (query.trim()) {
+        track('dictionary', 'search', 'submit', { query: query.trim(), source: 'homepage' });
         setIsFocused(false);
         window.location.href = `/dictionary?q=${encodeURIComponent(query.trim())}`;
       }
@@ -101,7 +105,13 @@ export function DictionarySection() {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => setIsFocused(true)}
+              onFocus={() => {
+                setIsFocused(true);
+                if (!focusTracked.current) {
+                  focusTracked.current = true;
+                  track('dictionary', 'search', 'focus', { source: 'homepage' });
+                }
+              }}
               onBlur={() => setTimeout(() => setIsFocused(false), 200)}
               placeholder={t.dictionary.search_placeholder}
               autoComplete="off"
@@ -112,7 +122,10 @@ export function DictionarySection() {
             {query && (
               <button
                 type="button"
-                onClick={() => setQuery('')}
+                onClick={() => {
+                  track('dictionary', 'search', 'clear', { source: 'homepage' });
+                  setQuery('');
+                }}
                 className={styles.clearBtn}
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

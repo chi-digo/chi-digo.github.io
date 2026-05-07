@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, type FormEvent } from 'react';
+import { useState, useRef, type FormEvent } from 'react';
 import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
+import { track } from '@/lib/analytics/track';
 import styles from './ContactPage.module.css';
 
 const GOOGLE_FORM_URL =
@@ -15,10 +16,12 @@ const FIELD_MESSAGE = 'entry.1971610996';
 export function ContactPage() {
   const t = useTranslations();
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const formStarted = useRef(false);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
+    track('contact', 'form', 'submit');
 
     const form = e.currentTarget;
     const data = new FormData(form);
@@ -35,9 +38,18 @@ export function ContactPage() {
         body: body.toString(),
       });
       setStatus('success');
+      track('contact', 'form', 'submit_success');
       form.reset();
     } catch {
       setStatus('error');
+      track('contact', 'form', 'submit_error');
+    }
+  }
+
+  function handleFieldFocus() {
+    if (!formStarted.current) {
+      formStarted.current = true;
+      track('contact', 'form', 'start');
     }
   }
 
@@ -64,6 +76,7 @@ export function ContactPage() {
                 required
                 className={styles.input}
                 placeholder={t.contact.form_name_placeholder}
+                onFocus={handleFieldFocus}
               />
             </div>
 
@@ -78,6 +91,7 @@ export function ContactPage() {
                 required
                 className={styles.input}
                 placeholder={t.contact.form_email_placeholder}
+                onFocus={handleFieldFocus}
               />
             </div>
 
@@ -91,6 +105,7 @@ export function ContactPage() {
                 required
                 className={styles.textarea}
                 placeholder={t.contact.form_message_placeholder}
+                onFocus={handleFieldFocus}
               />
             </div>
 

@@ -1,14 +1,18 @@
 'use client';
 
-import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
+import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
+import { track } from '@/lib/analytics/track';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from '../dictionary.module.css';
+
+// Module-level counter for words viewed in a session
+let sessionWordCount = 0;
 
 const LANG_LABELS: Record<string, string> = {
   dg: 'Chidigo',
@@ -90,22 +94,25 @@ function SearchDropdown({
 
 function DictionarySearchBar({ nav }: { nav: Navigate }) {
   const t = useTranslations();
-  const { query, setQuery, results, isLoading } = useSearch();
+  const { query, setQuery, results, isLoading } = useSearch('dictionary');
   const [isFocused, setIsFocused] = useState(false);
+  const focusTracked = useRef(false);
 
   const handleSelect = useCallback(
     (result: SearchResult) => {
+      track('dictionary', 'search', 'select_result', { headword: result.headword, query });
       setIsFocused(false);
       setQuery('');
       goToWord(nav, result.headword);
     },
-    [setQuery, nav],
+    [setQuery, nav, query],
   );
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
       e.preventDefault();
       if (query.trim()) {
+        track('dictionary', 'search', 'submit', { query: query.trim() });
         setIsFocused(false);
         goToSearch(nav, query.trim());
       }
@@ -124,7 +131,13 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => setIsFocused(true)}
+          onFocus={() => {
+            setIsFocused(true);
+            if (!focusTracked.current) {
+              focusTracked.current = true;
+              track('dictionary', 'search', 'focus');
+            }
+          }}
           onBlur={() => setTimeout(() => setIsFocused(false), 200)}
           placeholder={t.dictionary.search_placeholder}
           autoComplete="off"
@@ -135,7 +148,10 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
         {query && (
           <button
             type="button"
-            onClick={() => setQuery('')}
+            onClick={() => {
+              track('dictionary', 'search', 'clear');
+              setQuery('');
+            }}
             className={styles.clearBtn}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -203,7 +219,10 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
     <button
       type="button"
       className={styles.wotdCard}
-      onClick={() => goToWord(nav, entry.headword)}
+      onClick={() => {
+        track('dictionary', 'featured', 'click', { headword: entry.headword });
+        goToWord(nav, entry.headword);
+      }}
     >
       <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
@@ -250,7 +269,10 @@ function EntrySection({
           <button
             type="button"
             className={styles.redirectLink}
-            onClick={() => goToWord(nav, entry.redirect_target!)}
+            onClick={() => {
+              track('dictionary', 'word', 'click_redirect', { target: cleanHeadword(entry.redirect_target!) });
+              goToWord(nav, entry.redirect_target!);
+            }}
           >
             {cleanHeadword(entry.redirect_target)}
           </button>
@@ -283,7 +305,10 @@ function EntrySection({
                   <button
                     type="button"
                     className={styles.synonymLink}
-                    onClick={() => goToWord(nav, syn)}
+                    onClick={() => {
+                      track('dictionary', 'word', 'click_synonym', { synonym: syn });
+                      goToWord(nav, syn);
+                    }}
                   >
                     {syn}
                   </button>
@@ -329,23 +354,42 @@ function EntrySection({
   );
 }
 
-function WordView({ headword, nav }: { headword: string; nav: Navigate }) {
+function WordView({ headword, nav, query }: { headword: string; nav: Navigate; query?: string }) {
   const t = useTranslations();
   const [entries, setEntries] = useState<DictionaryEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const viewTracked = useRef(false);
 
   useEffect(() => {
+    viewTracked.current = false;
     setLoading(true);
     loadEntriesByHeadword(headword)
       .then((found) => {
         setEntries(found);
         setLoading(false);
+        if (!viewTracked.current) {
+          viewTracked.current = true;
+          if (found.length > 0) {
+            sessionWordCount++;
+            track('dictionary', 'word', 'view', {
+              headword,
+              session_word_count: sessionWordCount,
+              ...(query ? { query } : {}),
+            });
+          } else {
+            track('dictionary', 'word', 'not_found', { headword });
+          }
+        }
       })
       .catch(() => {
         setEntries([]);
         setLoading(false);
+        if (!viewTracked.current) {
+          viewTracked.current = true;
+          track('dictionary', 'word', 'not_found', { headword });
+        }
       });
-  }, [headword]);
+  }, [headword, query]);
 
   const mainEntries = entries.filter((e) => !e.is_redirect);
   const redirectEntries = entries.filter((e) => e.is_redirect);
@@ -491,6 +535,9 @@ function SearchView({ q, nav }: { q: string; nav: Navigate }) {
       .then((r) => {
         setResults(r);
         setIsLoading(false);
+        if (r.total === 0) {
+          track('dictionary', 'search', 'no_results', { query: q });
+        }
       })
       .catch(() => {
         setResults({ dg: [], sw: [], en: [], total: 0 });
@@ -556,7 +603,10 @@ function HomeView({ nav }: { nav: Navigate }) {
               key={letter}
               type="button"
               className={styles.letterCard}
-              onClick={() => goToLetter(nav, letter)}
+              onClick={() => {
+                track('dictionary', 'browse', 'click_letter', { letter });
+                goToLetter(nav, letter);
+              }}
             >
               {letter}
             </button>
@@ -587,7 +637,7 @@ function DictionaryRouter() {
 
   let view: React.ReactNode;
   if (slug[0] === 'word' && slug[1]) {
-    view = <WordView headword={cleanHeadword(slug[1])} nav={nav} />;
+    view = <WordView headword={cleanHeadword(slug[1])} nav={nav} query={q || undefined} />;
   } else if (slug[0] === 'letter' && slug[1]) {
     view = <LetterView letter={slug[1]} nav={nav} />;
   } else if (q) {

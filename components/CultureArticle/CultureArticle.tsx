@@ -1,8 +1,11 @@
 'use client';
 
+import { useRef, useMemo } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { getTopic, type ContentBlock } from '@/lib/culture/content';
+import { track } from '@/lib/analytics/track';
+import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
 import styles from './CultureArticle.module.css';
 
 function renderInlineMarkdown(text: string): React.ReactNode[] {
@@ -65,6 +68,14 @@ export function TopicArticle({
   const { domain, topic } = result;
   const body = topic.body[locale];
 
+  const bottomRef = useRef<HTMLDivElement>(null);
+  const readParams = useMemo(() => ({
+    topic: topicSlug,
+    domain: domainSlug,
+    content_language: locale,
+  }), [topicSlug, domainSlug, locale]);
+  useTrackReadComplete(bottomRef, 'culture', 'article', readParams);
+
   return (
     <>
       <section className={styles.hero}>
@@ -81,6 +92,7 @@ export function TopicArticle({
       <article className={styles.article}>
         <div className={styles.articleInner}>
           <ArticleBody body={body} />
+          <div ref={bottomRef} />
         </div>
       </article>
 
@@ -99,6 +111,7 @@ export function TopicArticle({
                     key={tp.slug}
                     href={`/culture/${domain.slug}/${tp.slug}`}
                     className={styles.relatedCard}
+                    onClick={() => track('culture', 'article', 'click_related', { topic: tp.slug })}
                   >
                     <h3 className={styles.relatedTitle}>
                       {tp.title[locale]}

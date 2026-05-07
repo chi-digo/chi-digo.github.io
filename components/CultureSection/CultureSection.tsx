@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { domains } from '@/lib/culture/content';
+import { trackNavClick } from '@/lib/analytics/track';
 import styles from './CultureSection.module.css';
 
 export function CultureSection() {
@@ -20,6 +21,7 @@ export function CultureSection() {
               key={domain.slug}
               href={`/culture/${domain.slug}`}
               className={styles.card}
+              onClick={() => trackNavClick('culture_section', `/culture/${domain.slug}`)}
             >
               <h3 className={styles.cardTitle}>{domain.title[locale]}</h3>
               <p className={styles.cardIntro}>{domain.intro[locale]}</p>

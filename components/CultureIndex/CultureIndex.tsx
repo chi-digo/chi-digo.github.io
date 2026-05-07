@@ -1,11 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { domains, getDomain, type CultureDomain, type Topic } from '@/lib/culture/content';
 import { fukoCards } from '@/lib/culture/fuko';
+import { trackNavClick } from '@/lib/analytics/track';
+import { useTrackView } from '@/hooks/useTrackView';
 import type { Locale } from '@/lib/i18n/config';
 import styles from './CultureIndex.module.css';
 
@@ -59,6 +61,14 @@ export function CultureOverview() {
   const { locale } = useLocale();
   const [settlements, setSettlements] = useState<Settlement[]>([]);
 
+  const mapRef = useRef<HTMLElement>(null);
+  const fukoRef = useRef<HTMLElement>(null);
+  const deepDiveRef = useRef<HTMLElement>(null);
+
+  useTrackView(mapRef, 'culture', 'map');
+  useTrackView(fukoRef, 'culture', 'fuko');
+  useTrackView(deepDiveRef, 'culture', 'deep_dive');
+
   useEffect(() => {
     fetch('/data/digo-settlements.json')
       .then((r) => r.json())
@@ -99,7 +109,7 @@ export function CultureOverview() {
       />
 
       {/* Interactive map */}
-      <section className={`${styles.section} ${styles.sectionCream}`}>
+      <section ref={mapRef} className={`${styles.section} ${styles.sectionCream}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>{t.culture.map_heading}</h2>
           <DigoMap settlements={settlements} />
@@ -107,7 +117,7 @@ export function CultureOverview() {
       </section>
 
       {/* Fuko system cards */}
-      <section className={`${styles.section} ${styles.sectionSand}`}>
+      <section ref={fukoRef} className={`${styles.section} ${styles.sectionSand}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>{t.culture.fuko_heading}</h2>
           <div className={styles.fukoGrid}>
@@ -127,7 +137,7 @@ export function CultureOverview() {
       </section>
 
       {/* Deep dive topic cards */}
-      <section className={`${styles.section} ${styles.sectionDark}`}>
+      <section ref={deepDiveRef} className={`${styles.section} ${styles.sectionDark}`}>
         <div className={styles.sectionInner}>
           <h2
             className={`${styles.sectionHeading} ${styles.sectionHeadingLight}`}
@@ -140,6 +150,7 @@ export function CultureOverview() {
                 key={d.slug}
                 href={`/culture/${d.slug}`}
                 className={styles.topicCard}
+                onClick={() => trackNavClick('culture_overview', `/culture/${d.slug}`)}
               >
                 <h3 className={styles.topicTitle}>{d.title[locale]}</h3>
                 <p className={styles.topicIntro}>{d.intro[locale]}</p>

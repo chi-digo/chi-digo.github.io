@@ -6,10 +6,11 @@ import {
   searchAll,
   type GroupedSearchResults,
 } from "@/lib/dictionary/search";
+import { track } from "@/lib/analytics/track";
 
 const EMPTY: GroupedSearchResults = { dg: [], sw: [], en: [], total: 0 };
 
-export function useSearch(debounceMs: number = 150) {
+export function useSearch(source?: string, debounceMs: number = 150) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<GroupedSearchResults>(EMPTY);
   const [isLoading, setIsLoading] = useState(false);
@@ -29,6 +30,11 @@ export function useSearch(debounceMs: number = 150) {
     const id = ++abortRef.current;
 
     timerRef.current = setTimeout(async () => {
+      track('dictionary', 'search', 'type', {
+        query,
+        query_length: query.length,
+        ...(source ? { source } : {}),
+      });
       try {
         const r = await searchDropdown(query);
         if (abortRef.current === id) {

@@ -1,10 +1,12 @@
 'use client';
 
+import { type ReactNode, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
 import { getLanguageTopic } from '@/lib/language/content';
+import { trackNavClick } from '@/lib/analytics/track';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
 export function Breadcrumb() {
@@ -85,11 +87,21 @@ export function Breadcrumb() {
     }
   }
 
+  const renderLink = useCallback((href: string, children: ReactNode) => (
+    <a
+      href={href}
+      onClick={() => trackNavClick('breadcrumb', href)}
+    >
+      {children}
+    </a>
+  ), []);
+
   if (items.length <= 1) return null;
 
   return (
     <BreadcrumbDS
       items={items}
+      renderLink={renderLink}
       style={{
         position: 'fixed',
         top: 'var(--nav-height, 48px)',
