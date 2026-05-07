@@ -2,6 +2,8 @@
 
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
+import { CultureSection } from '@/components/CultureSection/CultureSection';
+import { DictionarySection } from '@/components/DictionarySection/DictionarySection';
 import styles from "./page.module.css";
 
 function ChidigoLogo() {
@@ -172,6 +174,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ===== Culture ===== */}
+      <CultureSection />
+
+      {/* ===== The Dictionary (search + word of the day) ===== */}
+      <DictionarySection />
 
       {/* ===== The Problem ===== */}
       <section className={`${styles.section} ${styles.theProblem}`}>

@@ -1,0 +1,529 @@
+/* ===== Section wrapper ===== */
+
+.section {
+  width: 100%;
+  padding: clamp(3rem, 8vw, 6rem) 0;
+  background-color: var(--color-hando-cream);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  line-height: 1.2;
+  color: var(--color-kaya-deep);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* ===== Word of the Day (full-width, below search) ===== */
+
+.wotdCard {
+  margin-top: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* ===== Search bar ===== */
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border: 1.5px solid var(--color-vigango-black, #1a1a1a);
+  border-radius: 8px;
+  padding: 0.625rem 0.875rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.searchBar:focus-within {
+  border-color: var(--color-kaya-indigo);
+  box-shadow: 0 0 0 3px rgba(45, 55, 120, 0.1);
+}
+
+.searchIcon {
+  flex-shrink: 0;
+  color: var(--color-vigango-black);
+  opacity: 0.45;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-serif);
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  color: var(--color-vigango-black);
+}
+
+.searchInput::placeholder {
+  color: var(--color-vigango-black);
+  opacity: 0.4;
+}
+
+.clearBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  color: var(--color-vigango-black);
+  opacity: 0.45;
+  transition: opacity 0.15s;
+}
+
+.clearBtn:hover {
+  opacity: 0.8;
+}
+
+/* ===== Dropdown ===== */
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.dropdownLoading {
+  padding: 0.75rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-vigango-black);
+  opacity: 0.5;
+}
+
+.dropdownLang {
+  padding: 0.5rem 1rem 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.dropdownItem:hover {
+  background: var(--color-coral-lime-sand);
+}
+
+.dropdownHeadword {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-kaya-deep);
+}
+
+.dropdownEquiv {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: var(--color-vigango-black);
+  opacity: 0.6;
+}
+
+/* ===== Entry display ===== */
+
+.entry {
+  margin-top: 1.5rem;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.entryHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.entryHeadword {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+  color: var(--color-kaya-deep);
+  margin: 0;
+}
+
+.entryIpa {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-vigango-black);
+  opacity: 0.5;
+}
+
+.entryPos {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  background: rgba(45, 55, 120, 0.08);
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+}
+
+.entryNounClass {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-vigango-black);
+  opacity: 0.5;
+}
+
+/* ===== Entry body ===== */
+
+.entryBody {
+  margin-top: 0.75rem;
+}
+
+.entryBody:first-child {
+  margin-top: 0;
+}
+
+.homonymLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.homonymIndex {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-kaya-deep);
+}
+
+/* ===== Redirect ===== */
+
+.redirect {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--color-vigango-black);
+}
+
+.redirectLink {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-kaya-indigo);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s;
+}
+
+.redirectLink:hover {
+  text-decoration-color: currentColor;
+}
+
+/* ===== Senses ===== */
+
+.sense {
+  margin-bottom: 0.75rem;
+}
+
+.sense:last-child {
+  margin-bottom: 0;
+}
+
+.senseNum {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--color-kaya-indigo);
+  margin-right: 0.35rem;
+}
+
+.defDg {
+  font-family: var(--font-serif);
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  line-height: 1.55;
+  color: var(--color-vigango-black);
+  margin: 0.2rem 0;
+}
+
+.defEn {
+  font-family: var(--font-serif);
+  font-size: clamp(0.8rem, 1.1vw, 0.9rem);
+  line-height: 1.5;
+  color: var(--color-vigango-black);
+  opacity: 0.65;
+  margin: 0.15rem 0;
+}
+
+/* ===== Examples ===== */
+
+.examples {
+  margin: 0.5rem 0 0.5rem 1rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--color-coral-lime-sand);
+}
+
+.example {
+  margin-bottom: 0.4rem;
+}
+
+.example:last-child {
+  margin-bottom: 0;
+}
+
+.exDg {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--color-vigango-black);
+  margin: 0;
+}
+
+.exEn {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--color-vigango-black);
+  opacity: 0.55;
+  margin: 0;
+}
+
+/* ===== Synonyms ===== */
+
+.synonyms {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--color-vigango-black);
+  margin: 0.3rem 0;
+}
+
+.synonymLabel {
+  font-weight: 600;
+  color: var(--color-kaya-indigo);
+}
+
+/* ===== Equivalents ===== */
+
+.equivalents {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--color-vigango-black);
+}
+
+.equivalents p {
+  margin: 0.15rem 0;
+}
+
+.equivLabel {
+  font-weight: 600;
+  color: var(--color-kaya-indigo);
+}
+
+/* ===== Sub-entries ===== */
+
+.subEntries {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.subEntriesLabel {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  margin-bottom: 0.4rem;
+}
+
+.subEntry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+}
+
+.subForm {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-kaya-deep);
+}
+
+.subPos {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  opacity: 0.7;
+}
+
+.subDef {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: var(--color-vigango-black);
+  opacity: 0.65;
+}
+
+/* ===== Status messages ===== */
+
+.noResults {
+  margin-top: 1.5rem;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--color-vigango-black);
+  opacity: 0.6;
+}
+
+.loading {
+  margin-top: 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-vigango-black);
+  opacity: 0.5;
+}
+
+/* ===== Word of the Day card ===== */
+
+.wotdCard {
+  background: var(--color-kaya-deep);
+  border-radius: 8px;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  color: var(--color-hando-cream);
+}
+
+.wotdLabel {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-coral-lime-sand);
+  margin-bottom: 0.75rem;
+}
+
+.wotdHeadword {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+  line-height: 1.2;
+  color: var(--color-hando-cream);
+  margin-bottom: 0.25rem;
+}
+
+.wotdIpa {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-hando-cream);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.wotdPos {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-mnazi-gold);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.wotdDef {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-hando-cream);
+  margin-bottom: 0.25rem;
+}
+
+.wotdDefEn {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-hando-cream);
+  opacity: 0.6;
+}
+
+.wotdButton {
+  display: inline-block;
+  margin-top: 0.75rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-mnazi-gold);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s;
+}
+
+.wotdButton:hover {
+  text-decoration-color: currentColor;
+}
+
+.wotdLoading {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-hando-cream);
+  opacity: 0.5;
+}
+

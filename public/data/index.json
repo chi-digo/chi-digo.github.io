@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-06T04:32:25.640691+00:00",
+  "total_entries": 5212,
+  "letters": {
+    "a": {
+      "count": 131,
+      "first": "a",
+      "last": "azo"
+    },
+    "b": {
+      "count": 208,
+      "first": "baada",
+      "last": "bwiningiza"
+    },
+    "ch": {
+      "count": 525,
+      "first": "cha",
+      "last": "chuwo"
+    },
+    "d": {
+      "count": 121,
+      "first": "daba",
+      "last": "dyahula"
+    },
+    "dz": {
+      "count": 89,
+      "first": "dz",
+      "last": "dzwidzwidzwi"
+    },
+    "e": {
+      "count": 46,
+      "first": "-e",
+      "last": "ezeka"
+    },
+    "f": {
+      "count": 154,
+      "first": "faa",
+      "last": "fyusa"
+    },
+    "g": {
+      "count": 117,
+      "first": "gachiandikpwa",
+      "last": "guza"
+    },
+    "gbw": {
+      "count": 29,
+      "first": "gbw",
+      "last": "gbwuu"
+    },
+    "h": {
+      "count": 163,
+      "first": "h",
+      "last": "hwa"
+    },
+    "i": {
+      "count": 83,
+      "first": "-i",
+      "last": "izu"
+    },
+    "j": {
+      "count": 69,
+      "first": "jaba",
+      "last": "juujuu"
+    },
+    "k": {
+      "count": 333,
+      "first": "k",
+      "last": "kwana"
+    },
+    "kpw": {
+      "count": 44,
+      "first": "kpw",
+      "last": "kpwiru"
+    },
+    "l": {
+      "count": 213,
+      "first": "la",
+      "last": "lóla"
+    },
+    "m": {
+      "count": 954,
+      "first": "m’",
+      "last": "mzuzu"
+    },
+    "m'": {
+      "count": 12,
+      "first": "m'balazi",
+      "last": "m'buni"
+    },
+    "n": {
+      "count": 211,
+      "first": "na",
+      "last": "nywa"
+    },
+    "ndz": {
+      "count": 20,
+      "first": "ndzagamba",
+      "last": "ndzuzi"
+    },
+    "ng": {
+      "count": 64,
+      "first": "ngai",
+      "last": "ngó"
+    },
+    "ng'": {
+      "count": 16,
+      "first": "ng'ala",
+      "last": "ng'oo"
+    },
+    "o": {
+      "count": 59,
+      "first": "o",
+      "last": "oza"
+    },
+    "p": {
+      "count": 154,
+      "first": "pafu",
+      "last": "pyia"
+    },
+    "ph": {
+      "count": 108,
+      "first": "ph",
+      "last": "phyurira"
+    },
+    "r": {
+      "count": 135,
+      "first": "ra",
+      "last": "ryango"
+    },
+    "s": {
+      "count": 212,
+      "first": "saa",
+      "last": "swiswi"
+    },
+    "sh": {
+      "count": 57,
+      "first": "shaba",
+      "last": "shuwari"
+    },
+    "t": {
+      "count": 224,
+      "first": "taa",
+      "last": "tya"
+    },
+    "ts": {
+      "count": 182,
+      "first": "ts",
+      "last": "tswesa"
+    },
+    "u": {
+      "count": 202,
+      "first": "u",
+      "last": "uzuzu"
+    },
+    "v": {
+      "count": 103,
+      "first": "valavala",
+      "last": "vyoni"
+    },
+    "w": {
+      "count": 56,
+      "first": "waaa",
+      "last": "wuongo"
+    },
+    "y": {
+      "count": 38,
+      "first": "ya",
+      "last": "yuyu"
+    },
+    "z": {
+      "count": 76,
+      "first": "zaburi",
+      "last": "-zuzu"
+    }
+  },
+  "digo_alphabet": [
+    "a",
+    "b",
+    "ch",
+    "d",
+    "dz",
+    "e",
+    "f",
+    "g",
+    "gbw",
+    "h",
+    "i",
+    "j",
+    "k",
+    "kpw",
+    "l",
+    "m",
+    "m'",
+    "n",
+    "ndz",
+    "ng",
+    "ng'",
+    "o",
+    "p",
+    "ph",
+    "r",
+    "s",
+    "sh",
+    "t",
+    "ts",
+    "u",
+    "v",
+    "w",
+    "y",
+    "z"
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "metadata": {
+    "title": "Digo (Wadigo/Adigo) Settlements and Areas",
+    "description": "Comprehensive data on Digo towns, settlements, and culturally significant areas in Kenya and Tanzania for an interactive map",
+    "lastUpdated": "2026-05-07",
+    "totalDigoPopulation": {
+      "estimated": 500000,
+      "kenya2019Census": 409595,
+      "tanzaniaEstimate": 289000,
+      "note": "Kenya figure from 2019 KPHC; Tanzania figure is a projection from older census data"
+    }
+  },
+
+  "regions": [
+    {
+      "id": "kwale-county",
+      "name": "Kwale County",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.167, "lng": 39.45 },
+      "area_km2": 8270.3,
+      "population2019": 866820,
+      "description": "Primary homeland of the Digo people in Kenya. The Digo are the majority ethnic group in Msambweni, Lunga Lunga, and Matuga sub-counties.",
+      "subCounties": [
+        {
+          "name": "Matuga",
+          "population2019": 194252,
+          "digoMajority": true,
+          "wards": ["Tsimba Golini", "Waa", "Tiwi", "Kubo South", "Mkongani"]
+        },
+        {
+          "name": "Msambweni",
+          "population2019": 177690,
+          "digoMajority": true,
+          "wards": ["Gombato Bongwe", "Ukunda", "Kinondo", "Ramisi", "Chengoni/Samburu"]
+        },
+        {
+          "name": "Lunga Lunga",
+          "population2019": 198423,
+          "digoMajority": true,
+          "wards": ["Mwereni", "Vanga", "Pongwe/Kikoneni", "Dzombo", "Shimoni"]
+        },
+        {
+          "name": "Kinango",
+          "population2019": 94220,
+          "digoMajority": false,
+          "note": "Duruma majority; Digo present in eastern parts",
+          "wards": ["Ndavaya", "Puma", "Kinango", "Mackinnon Road", "Chengoni", "Mwavumbo", "Kasemeni"]
+        }
+      ]
+    },
+    {
+      "id": "mombasa-likoni",
+      "name": "Mombasa County (Likoni)",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.0929, "lng": 39.6614 },
+      "description": "Likoni sub-county in Mombasa is historically a Digo heartland, though now ethnically diverse."
+    },
+    {
+      "id": "mkinga-district",
+      "name": "Mkinga District",
+      "country": "Tanzania",
+      "region": "Tanga",
+      "coordinates": { "lat": -4.7351, "lng": 38.9344 },
+      "area_km2": 2712,
+      "population2022": 146802,
+      "description": "Primary Digo homeland in Tanzania. Digo and Segeju are the native ethnic groups, comprising the majority of the population alongside Sambaa settlers.",
+      "capital": "Parungu Kasera",
+      "wards": ["Boma", "Doda", "Gombero", "Daluni", "Kwale", "Manza", "Maramba", "Mayomboni", "Moa", "Mnyenzani", "Mwakijembe", "Parungu Kasera", "Sigaya", "Others"]
+    },
+    {
+      "id": "tanga-outskirts",
+      "name": "Tanga City Outskirts",
+      "country": "Tanzania",
+      "region": "Tanga",
+      "coordinates": { "lat": -5.067, "lng": 39.1 },
+      "population2022": 393429,
+      "description": "Digo and Segeju were the original settlers of the area now comprising Tanga City. Small Digo communities persist in peri-urban wards."
+    }
+  ],
+
+  "settlements": [
+    {
+      "id": "kwale-town",
+      "name": "Kwale",
+      "nameLocal": "Kwale",
+      "type": "town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Matuga",
+      "coordinates": { "lat": -4.1744, "lng": 39.4521 },
+      "population": {
+        "urban2019": 10063,
+        "subLocation": 14074,
+        "source": "2019 KPHC"
+      },
+      "elevation_m": 350,
+      "economicActivities": ["county administration", "agriculture", "small-scale trade", "education"],
+      "notable": "County headquarters of Kwale County; gateway to Shimba Hills National Reserve. Administrative center for the Digo and Duruma communities. Site of county government offices, courts, and educational institutions.",
+      "landmarks": ["Kwale County Government offices", "Shimba Hills gate (nearby)"],
+      "digoSignificance": "Main administrative town for the Digo people; Kwale is the primary town of the Digo and Duruma peoples"
+    },
+    {
+      "id": "ukunda",
+      "name": "Ukunda",
+      "nameLocal": "Ukunda",
+      "type": "town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.2875, "lng": 39.5661 },
+      "population": {
+        "urban2019": 77686,
+        "estimate": "~100000 (metro area with Diani)",
+        "source": "2019 KPHC"
+      },
+      "economicActivities": ["tourism services", "retail/commerce", "transport", "hospitality", "aviation"],
+      "notable": "Largest town in Kwale County. Serves as the commercial 'back office' for Diani Beach tourism. Home to Diani Airport (Ukunda Airstrip) with runway expansion completed 2025. Major retail chains, banks, and shopping centres have established presence. Main transport hub for south coast Kenya.",
+      "landmarks": ["Diani Airport (Ukunda Airstrip)", "Ukunda Market"],
+      "digoSignificance": "Major Digo population center; gateway between Digo hinterland and coast"
+    },
+    {
+      "id": "diani",
+      "name": "Diani Beach",
+      "nameLocal": "Diani",
+      "type": "beach-town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.3222, "lng": 39.575 },
+      "population": {
+        "note": "Part of wider Ukunda-Diani urban area (~100,000)"
+      },
+      "economicActivities": ["tourism", "hospitality", "water sports", "real estate", "artisan crafts"],
+      "notable": "Voted Africa's leading beach destination multiple times. 10km stretch of white sand beach, 30km south of Mombasa. Home to luxury resorts, boutique hotels, and diving centres. Protected by a coral reef providing calm waters.",
+      "landmarks": ["Diani Beach", "Coral reefs", "Kongo Mosque (nearby)"],
+      "digoSignificance": "Traditional Digo coastal territory; name derives from the Digo heritage of the area"
+    },
+    {
+      "id": "msambweni",
+      "name": "Msambweni",
+      "nameLocal": "Msambweni",
+      "type": "town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.4653, "lng": 39.4769 },
+      "population": {
+        "town2009": 11985,
+        "source": "2009 KPHC"
+      },
+      "economicActivities": ["fishing", "coconut farming", "cashew nuts", "silica mining", "tourism", "seaweed farming", "beekeeping"],
+      "notable": "Fishing town with one of the world's largest continuous fringing reefs stretching north to Malindi. Home to Msambweni Level 5 Hospital (one of the best on the coast) and KMTC campus. Silica sand mined here is transported to Nairobi for glass production. Scenic beaches with fossilized coral formations and baobab trees.",
+      "landmarks": ["Msambweni Level 5 Hospital", "KMTC Msambweni Campus", "Msambweni Beach"],
+      "digoSignificance": "Heart of Digo fishing culture on the south coast"
+    },
+    {
+      "id": "lunga-lunga",
+      "name": "Lunga Lunga",
+      "nameLocal": "Lunga Lunga",
+      "type": "border-town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Lunga Lunga",
+      "coordinates": { "lat": -4.5535, "lng": 39.1284 },
+      "population": {
+        "municipality": 54000,
+        "source": "Kwale County Government"
+      },
+      "area_km2": 284.1,
+      "economicActivities": ["cross-border trade", "agriculture", "transport/logistics", "customs services"],
+      "notable": "Kenya-Tanzania One-Stop Border Post, operational 24 hours. Located 102km south of Mombasa. Key trade corridor connecting Mombasa to Tanga and Dar es Salaam. The 6.5km gap between Lunga Lunga (Kenya) and Horohoro (Tanzania) border posts passes through lush tropical vegetation.",
+      "landmarks": ["Lunga Lunga One-Stop Border Post", "Kenya-Tanzania highway corridor"],
+      "digoSignificance": "Critical link between Kenya and Tanzania Digo communities; Digo people live on both sides of this border"
+    },
+    {
+      "id": "shimba-hills",
+      "name": "Shimba Hills",
+      "nameLocal": "Shimba Hills",
+      "type": "reserve-area",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Matuga/Kinango",
+      "coordinates": { "lat": -4.2167, "lng": 39.4167 },
+      "population": {
+        "note": "National reserve; surrounding communities estimated at several thousand"
+      },
+      "area_km2": 300,
+      "economicActivities": ["wildlife conservation", "eco-tourism", "community forestry", "honey production"],
+      "notable": "300 km2 coastal rainforest reserve managed by KWS, 33km from Mombasa. Contains Kenya's only population of sable antelope and ~700 elephants. Over 50% of Kenya's 159 rare plant species are found here, including endangered cycads and orchids. Features Sheldrick Falls. Adjacent to Kwale town.",
+      "landmarks": ["Shimba Hills National Reserve", "Sheldrick Falls", "Shimba Hills Lodge"],
+      "digoSignificance": "Sacred hills in Digo cosmology; several Kaya sacred forests are located within and around the Shimba Hills range"
+    },
+    {
+      "id": "kinondo",
+      "name": "Kinondo",
+      "nameLocal": "Kinondo",
+      "type": "village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.3833, "lng": 39.55 },
+      "population": {
+        "note": "Small village; part of wider Galu-Kinondo area"
+      },
+      "elevation_m": 10,
+      "economicActivities": ["eco-tourism", "fishing", "subsistence farming", "cultural tourism"],
+      "notable": "Location of Kaya Kinondo, the primary sacred forest of the Digo people and a UNESCO World Heritage Site. The 30-acre ancient forest contains trees over 1,000 years old and 190+ tree species (140 classified as rare). Only Kaya forest open to visitors.",
+      "landmarks": ["Kaya Kinondo Sacred Forest"],
+      "digoSignificance": "Regarded as the original settlement (kaya) of the Digo people when they arrived at the coast ~600 years ago. Spiritual homeland of the Digo; also known as Kaya Ngalaani"
+    },
+    {
+      "id": "gazi",
+      "name": "Gazi",
+      "nameLocal": "Gazi",
+      "type": "village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.4241, "lng": 39.5016 },
+      "population": {
+        "estimate": 3000,
+        "source": "Community estimates"
+      },
+      "economicActivities": ["fishing", "mangrove conservation", "carbon trading", "eco-tourism", "subsistence farming"],
+      "notable": "Home to Mikoko Pamoja, the world's first community-based mangrove carbon credit project, winner of the 2017 Equator Prize. Gazi Bay is a critical mangrove ecosystem. About 90% of the population depends on fishing sustained by mangrove nurseries. Located 55km from Mombasa.",
+      "landmarks": ["Gazi Bay mangroves", "Mikoko Pamoja boardwalk", "Gazi Women's mangrove project"],
+      "digoSignificance": "Traditional Digo fishing village; pioneering community-led conservation by Digo women"
+    },
+    {
+      "id": "tiwi",
+      "name": "Tiwi",
+      "nameLocal": "Tiwi",
+      "type": "beach-village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Matuga",
+      "coordinates": { "lat": -4.2333, "lng": 39.5833 },
+      "population": {
+        "note": "Small settlement; specific census data not separately enumerated"
+      },
+      "economicActivities": ["beach tourism", "fishing", "subsistence farming", "small-scale hospitality"],
+      "notable": "Quiet beach village 17km south of Mombasa, protected by coral reef with calm shallow waters. Less developed than Diani, retaining a secluded character. Part of Matuga Constituency. Has a sacred Kaya (Kaya Tiwi) nearby.",
+      "landmarks": ["Tiwi Beach", "Kaya Tiwi (sacred forest)"],
+      "digoSignificance": "Traditional Digo coastal settlement; site of Kaya Tiwi sacred forest"
+    },
+    {
+      "id": "shimoni",
+      "name": "Shimoni",
+      "nameLocal": "Shimoni",
+      "type": "village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Lunga Lunga",
+      "coordinates": { "lat": -4.6476, "lng": 39.3818 },
+      "population": {
+        "estimate": 5000,
+        "source": "Local estimates"
+      },
+      "economicActivities": ["fishing", "tourism", "subsistence farming", "charcoal production", "dhow trade"],
+      "notable": "Historic slave-holding port from the 1750s-1870s. Natural cave systems (Shimoni Caves) were used to hold enslaved people before transport. The British Imperial East Africa Company established its first headquarters here in the 1880s, building Kenya's first colonial prison. Today a tourist destination for cave tours, scuba diving, dolphin watching, and sport fishing in the Pemba Channel. Port of clearance for ocean-going dhows from the Persian Gulf and Zanzibar.",
+      "landmarks": ["Shimoni Caves (slave caves)", "First colonial prison ruins", "Shimoni Jetty (to Wasini Island)", "Pemba Channel diving"],
+      "digoSignificance": "Important port in Digo territory; mixed Digo-Swahili fishing community"
+    },
+    {
+      "id": "vanga",
+      "name": "Vanga",
+      "nameLocal": "Vanga",
+      "type": "town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Lunga Lunga",
+      "coordinates": { "lat": -4.6607, "lng": 39.2194 },
+      "population": {
+        "estimate": 10000,
+        "source": "Media reports"
+      },
+      "economicActivities": ["fishing", "subsistence farming", "small-scale trade"],
+      "notable": "Known as 'Kenya's last town' -- the southernmost coastal settlement before Tanzania. Famously has no bank, no church, no bar, and no guest house. A strategic fishing port with dozens of boats. 17km from Lunga Lunga border. Has deep historical ties to Arab and Shirazi traders. In the 19th century, Vanga's Muslim traders influenced Digo communities along the Umba River.",
+      "landmarks": ["Old Town Vanga", "Vanga fishing port"],
+      "digoSignificance": "Historic Digo trading center; Digo, Segeju, and Shirazi communities intermingled here for centuries. Key site in the Islamization of the Digo people"
+    },
+    {
+      "id": "matuga",
+      "name": "Matuga",
+      "nameLocal": "Matuga",
+      "type": "administrative-center",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Matuga",
+      "coordinates": { "lat": -4.1667, "lng": 39.5667 },
+      "population": {
+        "subCounty2019": 194252,
+        "note": "Sub-county total; town itself is smaller"
+      },
+      "economicActivities": ["agriculture", "administration", "small-scale trade", "education"],
+      "notable": "Administrative center of Matuga sub-county. Located near Kwale town and Shimba Hills. The Digo are the majority ethnic group in this sub-county. Near Kaya Bombo sacred forest.",
+      "landmarks": ["Matuga administrative offices", "Kaya Bombo (nearby)"],
+      "digoSignificance": "Digo-majority sub-county center"
+    },
+    {
+      "id": "golini",
+      "name": "Golini",
+      "nameLocal": "Golini",
+      "type": "village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Matuga",
+      "coordinates": { "lat": -4.1574, "lng": 39.4668 },
+      "population": {
+        "subLocation": 14074,
+        "source": "2019 KPHC"
+      },
+      "economicActivities": ["small-scale farming", "trade", "administration"],
+      "notable": "Highland village near Kwale town with views of Mombasa due to its elevated position. Important agricultural trading area for inland Digo farmers. Kwale town partially overlaps Golini sub-location.",
+      "landmarks": [],
+      "digoSignificance": "Inland Digo farming community"
+    },
+    {
+      "id": "bongwe",
+      "name": "Bongwe",
+      "nameLocal": "Bongwe",
+      "type": "village",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.2875, "lng": 39.5531 },
+      "population": {
+        "note": "Small village near Ukunda"
+      },
+      "elevation_m": 46,
+      "economicActivities": ["subsistence farming", "fishing", "small-scale trade"],
+      "notable": "Small Digo village near Ukunda. Situated along the road between Ukunda and Diani Beach area.",
+      "landmarks": [],
+      "digoSignificance": "Traditional Digo village community near the coast"
+    },
+    {
+      "id": "ramisi",
+      "name": "Ramisi",
+      "nameLocal": "Ramisi",
+      "type": "town",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Msambweni",
+      "coordinates": { "lat": -4.5205, "lng": 39.4094 },
+      "population": {
+        "note": "Small town; specific census figure not separately available"
+      },
+      "economicActivities": ["sugar production", "agriculture", "fishing"],
+      "notable": "Site of Kenya's second sugar factory (established 1927), now the Kwale International Sugar Company. The Ramisi River flows nearby. Important agricultural area with sugar cane plantations in Digo territory. Historical center of sugar industry on the Kenya coast.",
+      "landmarks": ["Kwale International Sugar Company", "Ramisi River"],
+      "digoSignificance": "Major Digo agricultural area; sugar industry historically provided employment for Digo communities"
+    },
+    {
+      "id": "likoni",
+      "name": "Likoni",
+      "nameLocal": "Likoni",
+      "type": "urban-area",
+      "country": "Kenya",
+      "region": "mombasa-likoni",
+      "subCounty": "Likoni (Mombasa County)",
+      "coordinates": { "lat": -4.0929, "lng": 39.6614 },
+      "population": {
+        "subCounty2019": 228472,
+        "source": "2019 KPHC"
+      },
+      "economicActivities": ["ferry transport", "fishing", "tourism (historical)", "trade", "stone quarrying"],
+      "notable": "Historically the home of the Digo community in Mombasa, now a cosmopolitan melting pot. Connected to Mombasa Island by the Likoni Ferry. Home to Shelly Beach, the second-largest public beach in Kenya. Was a vibrant tourism and entertainment hub before security challenges. Gateway to Kwale County and the entire south coast.",
+      "landmarks": ["Likoni Ferry", "Shelly Beach", "Likoni Bridge (under construction)"],
+      "digoSignificance": "Northern boundary of traditional Digo territory; historically a Digo community before urbanization brought diverse settlers. The Digo name 'Likoni' persists"
+    },
+    {
+      "id": "wasini-island",
+      "name": "Wasini Island",
+      "nameLocal": "Wasini",
+      "type": "island",
+      "country": "Kenya",
+      "region": "kwale-county",
+      "subCounty": "Lunga Lunga",
+      "coordinates": { "lat": -4.6667, "lng": 39.3833 },
+      "population": {
+        "estimate": 3000,
+        "source": "Wikipedia"
+      },
+      "area_km2": 21,
+      "economicActivities": ["tourism", "fishing", "small-scale trade"],
+      "notable": "Island 3km off the coast opposite Shimoni, approximately 7km long and 3km wide. Two villages: Wasini and Mkwiro. Tourism is the main income source (50% of Wasini village depends on it), followed by fishing. Part of Kisite-Mpunguti Marine National Park area. Accessible by boat from Shimoni.",
+      "landmarks": ["Kisite-Mpunguti Marine Park (nearby)", "Wasini village", "Mkwiro village", "Coral gardens"],
+      "digoSignificance": "Digo-Swahili island community; traditional fishing grounds of Digo fishermen"
+    },
+
+    {
+      "id": "horohoro",
+      "name": "Horohoro",
+      "nameLocal": "Horohoro",
+      "type": "border-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.6072, "lng": 39.1028 },
+      "population": {
+        "note": "Small border settlement"
+      },
+      "economicActivities": ["cross-border trade", "customs services", "agriculture"],
+      "notable": "Tanzanian side of the Lunga Lunga-Horohoro One-Stop Border Post. Located on trunk road T13 connecting Tanga to the Kenyan border. 6.5km from the Kenyan border post at Lunga Lunga. Key crossing point for Digo communities moving between Kenya and Tanzania.",
+      "landmarks": ["Horohoro Border Post"],
+      "digoSignificance": "Border crossing linking Digo communities in both countries; Digo on the Tanzanian side transition into Mkinga District"
+    },
+    {
+      "id": "moa",
+      "name": "Moa",
+      "nameLocal": "Moa",
+      "type": "ward-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.7685, "lng": 39.1724 },
+      "population": {
+        "ward2012": 4339,
+        "source": "2012 Tanzania Census"
+      },
+      "area_km2": 26.1,
+      "economicActivities": ["fishing", "subsistence farming", "small-scale trade"],
+      "notable": "Ancestral home of the Digo and Segeju peoples on the Tanzanian coast. Ward in Mkinga District comprising 16 neighborhoods. Has a police station, health center (Moa Health Center), and several schools. Located on the Pemba Channel coast.",
+      "landmarks": ["Moa Health Center", "Moa Primary School"],
+      "digoSignificance": "Described as 'the ancestral home of the Digo people' on the Tanzanian side"
+    },
+    {
+      "id": "boma-mkinga",
+      "name": "Boma",
+      "nameLocal": "Boma",
+      "type": "ward-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.8782, "lng": 39.2007 },
+      "population": {
+        "ward2012": 2587,
+        "source": "2012 Tanzania Census"
+      },
+      "economicActivities": ["fishing", "agriculture", "small-scale trade"],
+      "notable": "Small Digo ward south of Moa in Mkinga District.",
+      "landmarks": [],
+      "digoSignificance": "Traditional Digo fishing community"
+    },
+    {
+      "id": "mayomboni",
+      "name": "Mayomboni",
+      "nameLocal": "Mayomboni",
+      "type": "ward-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.73, "lng": 39.15 },
+      "population": {
+        "note": "Part of Mkinga District's 21 fishing communities"
+      },
+      "economicActivities": ["fishing", "agriculture"],
+      "notable": "Fishing community ward in Mkinga District, north of Moa.",
+      "landmarks": [],
+      "digoSignificance": "Digo fishing ward"
+    },
+    {
+      "id": "kwale-tz",
+      "name": "Kwale (Tanzania)",
+      "nameLocal": "Kwale",
+      "type": "ward-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.9632, "lng": 39.1397 },
+      "population": {
+        "note": "Ward in Mkinga District; not to be confused with Kwale County, Kenya"
+      },
+      "economicActivities": ["agriculture", "fishing"],
+      "notable": "Shares the same name as Kwale County in Kenya, reflecting shared Digo heritage across the border.",
+      "landmarks": [],
+      "digoSignificance": "The shared name 'Kwale' on both sides of the border reflects the unity of the Digo people"
+    },
+    {
+      "id": "manza",
+      "name": "Manza",
+      "nameLocal": "Manza",
+      "type": "ward-town",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.8403, "lng": 39.1382 },
+      "population": {
+        "note": "Fishing community ward in Mkinga District"
+      },
+      "economicActivities": ["fishing", "agriculture"],
+      "notable": "Coastal fishing community south of Moa.",
+      "landmarks": [],
+      "digoSignificance": "Digo-Segeju fishing community"
+    },
+    {
+      "id": "tongoni",
+      "name": "Tongoni (Mtangata)",
+      "nameLocal": "Tongoni",
+      "type": "historical-village",
+      "country": "Tanzania",
+      "region": "tanga-outskirts",
+      "district": "Tanga City",
+      "coordinates": { "lat": -5.2164, "lng": 39.0633 },
+      "population": {
+        "estimate": 3500,
+        "source": "Academic studies"
+      },
+      "economicActivities": ["cassava farming", "coconut farming", "fishing", "historical tourism"],
+      "notable": "Site of the Tongoni Ruins, featuring ~40 standing tombs and a Friday mosque from the Swahili 'Golden Age' (1250-1550 CE). Vasco da Gama visited in April 1498. Located 21km south of Tanga City along the Tanga-Pangani route, overlooking Mtangata Bay. Mangrove-lined shore. Residents include Digo, Zigua, and Nyamwezi peoples.",
+      "landmarks": ["Tongoni Ruins", "Mtangata Bay"],
+      "digoSignificance": "Historical Digo and Swahili settlement; Digo residents continue traditional fishing and farming"
+    },
+    {
+      "id": "parungu-kasera",
+      "name": "Parungu Kasera",
+      "nameLocal": "Parungu Kasera",
+      "type": "district-capital",
+      "country": "Tanzania",
+      "region": "mkinga-district",
+      "district": "Mkinga",
+      "coordinates": { "lat": -4.7351, "lng": 38.9344 },
+      "population": {
+        "note": "Administrative capital of Mkinga District"
+      },
+      "economicActivities": ["administration", "agriculture", "trade"],
+      "notable": "Administrative capital of Mkinga District. Located inland from the coast, serving as the government center for the predominantly Digo-Segeju district.",
+      "landmarks": ["Mkinga District Council offices"],
+      "digoSignificance": "Administrative center governing Tanzania's main Digo homeland"
+    }
+  ],
+
+  "landmarks": [
+    {
+      "id": "kaya-kinondo",
+      "name": "Kaya Kinondo",
+      "altNames": ["Kaya Ngalaani"],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.3935, "lng": 39.5445 },
+      "nearestSettlement": "Kinondo",
+      "area_acres": 30,
+      "unescoWorldHeritage": true,
+      "description": "The primary Kaya of the Digo people and a UNESCO World Heritage Site. Contains trees over 1,000 years old, 190+ tree species (140 rare), and 5 possible endemic species. Active sacred site (mafingo) with 4 traditional paths, an old water hole, and a central clearing used for ceremonies. The only Kaya open to visitors as an eco-tourism site.",
+      "digoSignificance": "Spiritual homeland; believed to be the original fortified settlement of the Digo when they arrived at the coast ~600 years ago"
+    },
+    {
+      "id": "kaya-bombo",
+      "name": "Kaya Bombo",
+      "altNames": ["Kaya Waa Bombo"],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.1333, "lng": 39.5833 },
+      "nearestSettlement": "Matuga/Waa",
+      "elevation_m": 67,
+      "unescoWorldHeritage": false,
+      "description": "Secondary Kaya of the Digo Community. Located near Tangila and Manjera areas in the coastal hinterland. Part of over 50 identified makaya in Kwale County.",
+      "digoSignificance": "Sacred grove maintained by Digo elders; used for traditional ceremonies and spiritual practices"
+    },
+    {
+      "id": "kaya-kwale",
+      "name": "Kaya Kwale",
+      "altNames": [],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.18, "lng": 39.46 },
+      "nearestSettlement": "Kwale town",
+      "unescoWorldHeritage": false,
+      "description": "Sacred Kaya forest near Kwale town, part of the network of over 50 makaya identified in Kwale County. Associated with the Digo and Duruma Mijikenda sub-groups.",
+      "digoSignificance": "Part of the sacred landscape of the Shimba Hills hinterland"
+    },
+    {
+      "id": "kaya-diani",
+      "name": "Kaya Diani",
+      "altNames": [],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.31, "lng": 39.56 },
+      "nearestSettlement": "Diani",
+      "unescoWorldHeritage": false,
+      "description": "Sacred Kaya near Diani Beach area. One of the secondary Kayas of the Digo Community.",
+      "digoSignificance": "Sacred forest in the Diani beach hinterland"
+    },
+    {
+      "id": "kaya-tiwi",
+      "name": "Kaya Tiwi",
+      "altNames": [],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.23, "lng": 39.57 },
+      "nearestSettlement": "Tiwi",
+      "unescoWorldHeritage": false,
+      "description": "Sacred Kaya forest near Tiwi village, part of the Kwale County network of sacred groves.",
+      "digoSignificance": "Traditional sacred site for Tiwi-area Digo communities"
+    },
+    {
+      "id": "kaya-galu",
+      "name": "Kaya Galu",
+      "altNames": [],
+      "type": "sacred-forest",
+      "category": "kaya",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.37, "lng": 39.56 },
+      "nearestSettlement": "Galu/Kinondo",
+      "unescoWorldHeritage": false,
+      "description": "Sacred Kaya near Galu beach area south of Diani.",
+      "digoSignificance": "Part of the Digo sacred landscape between Diani and Kinondo"
+    },
+    {
+      "id": "kongo-mosque",
+      "name": "Kongo Mosque",
+      "altNames": ["Diani Persian Masjid", "Tiwi Mosque"],
+      "type": "historic-mosque",
+      "category": "landmark",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.2602, "lng": 39.5981 },
+      "nearestSettlement": "Diani/Ukunda",
+      "description": "One of the oldest mosques on the entire East African coastline, dating to the 13th-14th century (some sources say 16th century). Built with local coral rag stone in traditional Swahili coastal architecture. Features barrel vaults and an early classic mihrab style. Nestled among ancient baobab trees near the Kongo River estuary. Originally known as the Diani Persian Masjid. Named after Swaddiq Kongo, buried at the site. One of a handful of coral mosques still in use in Kenya.",
+      "digoSignificance": "Testifies to early Islamic influence among coastal Digo communities; Arab and Persian traders interacted with Digo people here for centuries"
+    },
+    {
+      "id": "shimoni-caves",
+      "name": "Shimoni Caves",
+      "altNames": ["Shimoni Slave Caves"],
+      "type": "historical-caves",
+      "category": "landmark",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.6476, "lng": 39.3818 },
+      "nearestSettlement": "Shimoni",
+      "description": "Natural coral limestone cave system used as a slave holding port from the 1750s to 1870s. Enslaved people from the East African interior were held in these caves before being shipped to Zanzibar and beyond. Now a museum and tourist site managed by the National Museums of Kenya.",
+      "digoSignificance": "Located in Digo territory; Digo people were among those affected by the East African slave trade"
+    },
+    {
+      "id": "fort-jesus",
+      "name": "Fort Jesus",
+      "altNames": [],
+      "type": "historic-fort",
+      "category": "landmark",
+      "country": "Kenya",
+      "coordinates": { "lat": -4.0627, "lng": 39.6796 },
+      "nearestSettlement": "Mombasa (Old Town)",
+      "description": "Portuguese fort built 1593-1596 on Mombasa Island. UNESCO World Heritage Site. Located on Digo Road in Mombasa's Old Town. While primarily associated with Swahili-Portuguese-Omani history, the fort sits at the northern edge of Digo territory and the Digo were among the coastal peoples who interacted with successive colonial powers at Mombasa.",
+      "digoSignificance": "Northern boundary marker of Digo territory; Digo Road in Mombasa is named after the Digo people"
+    },
+    {
+      "id": "lunga-lunga-horohoro-border",
+      "name": "Lunga Lunga - Horohoro Border Crossing",
+      "altNames": ["Kenya-Tanzania South Coast Border"],
+      "type": "border-crossing",
+      "category": "landmark",
+      "country": "Kenya/Tanzania",
+      "coordinates": { "lat": -4.5534, "lng": 39.1284 },
+      "coordinatesHorohoro": { "lat": -4.6072, "lng": 39.1028 },
+      "description": "Modern One-Stop Border Post connecting Kenya's Kwale County to Tanzania's Mkinga District. Open 24 hours. The 6.5km stretch between the two border posts passes through lush tropical landscape with coconut palms and small Digo villages. Critical infrastructure for cross-border trade between Mombasa and Tanga/Dar es Salaam.",
+      "digoSignificance": "The colonial border divided Digo territory in 1886 (Anglo-German Agreement). This crossing is the primary link allowing Digo families and communities to maintain connections across the international boundary."
+    }
+  ],
+
+  "additionalKayaSites": [
+    { "name": "Kaya Gandini", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Mtswakara", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Chitanze", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Lunguma", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Kiteje", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Teleza", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Miyani", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Chale", "nearestSettlement": "Chale Island/Gazi area", "coordinates": null },
+    { "name": "Kaya Sega", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Jeggo", "nearestSettlement": "Kwale area", "coordinates": null },
+    { "name": "Kaya Muhaka", "nearestSettlement": "South of Diani", "coordinates": null },
+    { "name": "Kaya Likunda", "nearestSettlement": "Near Ukunda", "coordinates": null },
+    { "name": "Kaya Waa", "nearestSettlement": "Waa area", "coordinates": null }
+  ],
+
+  "economicSummary": {
+    "kenya": {
+      "primaryActivities": ["tourism", "fishing", "agriculture (coconut, cashew, mango, cassava)", "sugar production", "mining (titanium at Kwale, silica at Msambweni)", "trade"],
+      "majorEmployers": ["Beach hotels and resorts (Diani/Ukunda)", "Kwale International Sugar Company (Ramisi)", "Base Titanium (Kwale mineral sands)", "Kenya Wildlife Service (Shimba Hills)", "County government"],
+      "emergingSectors": ["carbon credit trading (Gazi mangroves)", "eco-tourism", "seaweed farming", "real estate development"]
+    },
+    "tanzania": {
+      "primaryActivities": ["subsistence farming", "fishing", "small-scale trade"],
+      "majorProducts": ["Cassava", "coconuts", "maize", "fish"],
+      "historicalIndustry": "Sisal estates dominated the Mkinga economy until collapse in the 1970s",
+      "uniqueResource": "Umba sapphires (world's only source) found in the Umba Game Controlled Area within Mkinga District"
+    }
+  },
+
+  "sources": [
+    "Kenya Population and Housing Census 2019 (KNBS)",
+    "Tanzania National Census 2022",
+    "UNESCO World Heritage Centre - Sacred Mijikenda Kaya Forests",
+    "Wikipedia - Kwale County, Mkinga District, Shimoni, Wasini Island, Digo people",
+    "Joshua Project - Digo people profiles",
+    "CityPopulation.de - Kenya/Tanzania administrative data",
+    "Mapcarta, GeoNames, GetAMap - geographic coordinates",
+    "The East African, Daily Nation - Vanga reporting",
+    "Mikoko Pamoja / Equator Initiative - Gazi Bay conservation",
+    "Kenya Wildlife Service - Shimba Hills National Reserve"
+  ]
+}

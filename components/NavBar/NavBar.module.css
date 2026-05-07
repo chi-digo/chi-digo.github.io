@@ -10,15 +10,9 @@
   align-items: center;
   padding: 0 5.25%;
 
-  background-color: transparent;
-  color: var(--color-hando-white);
-
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-.navbar.scrolled {
   background-color: var(--color-kaya-deep);
-  text-shadow: none;
+  color: var(--color-hando-cream);
+  border-bottom: 1px solid rgba(242, 234, 215, 0.08);
 }
 
 .homeLink {
@@ -43,10 +37,11 @@
 }
 
 .navLink {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
   color: inherit;
   text-decoration: none;
   padding: 6px 8px;
@@ -58,13 +53,143 @@
   background-color: rgba(242, 234, 215, 0.1);
 }
 
+.navLinkActive {
+  background-color: rgba(242, 234, 215, 0.12);
+  color: var(--color-mnazi-gold);
+}
+
 .navLink:focus-visible {
   outline: 2px solid var(--color-mnazi-gold);
   outline-offset: 2px;
 }
 
+/* ===== Desktop links wrapper ===== */
+
+.desktopLinks {
+  display: flex;
+  align-items: center;
+}
+
 .centre {
   flex: 1;
+}
+
+/* ===== Hamburger ===== */
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  margin-left: auto;
+  border-radius: 4px;
+  color: inherit;
+}
+
+.hamburger:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.hamburgerBar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hamburgerBarTop {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.hamburgerBarMid {
+  opacity: 0;
+}
+
+.hamburgerBarBot {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* ===== Mobile drawer ===== */
+
+.drawer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-kaya-deep);
+  border-top: 1px solid rgba(242, 234, 215, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawerLink {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-hando-cream);
+  text-decoration: none;
+  padding: 12px 5.25%;
+}
+
+.drawerLink:hover {
+  background-color: rgba(242, 234, 215, 0.08);
+}
+
+.drawerLinkActive {
+  color: var(--color-mnazi-gold);
+  background-color: rgba(242, 234, 215, 0.06);
+}
+
+.drawerDivider {
+  height: 1px;
+  background: rgba(242, 234, 215, 0.1);
+  margin: 6px 5.25%;
+}
+
+.drawerLocale {
+  display: flex;
+  gap: 4px;
+  padding: 8px 5.25% 12px;
+}
+
+.drawerLocaleBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid rgba(242, 234, 215, 0.15);
+  border-radius: 6px;
+  color: var(--color-hando-cream);
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.drawerLocaleBtn:hover {
+  background-color: rgba(242, 234, 215, 0.08);
+}
+
+.drawerLocaleBtnActive {
+  font-weight: 600;
+  border-color: var(--color-mnazi-gold);
+  color: var(--color-mnazi-gold);
+}
+
+.desktopOnly {
+  /* visible by default, hidden on mobile */
 }
 
 .selector {
@@ -81,7 +206,7 @@
   cursor: pointer;
   color: inherit;
 
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -99,6 +224,24 @@
 .selectorButton:focus-visible {
   outline: 2px solid var(--color-mnazi-gold);
   outline-offset: 2px;
+}
+
+.flag {
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.drawerFlag {
+  width: 18px;
+  height: 13px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.selectorLabel {
+  /* hidden on mobile via media query */
 }
 
 .selectorChevron {
@@ -133,10 +276,10 @@
   padding: 8px 12px;
   cursor: pointer;
 
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--color-hando-white);
+  color: var(--color-hando-cream);
 
   outline: none;
 }
@@ -172,9 +315,20 @@
     height: 20px;
   }
 
-  .selectorButton {
-    font-size: 0.75rem;
-    padding: 5px 6px;
+  .desktopLinks {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .centre {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
 

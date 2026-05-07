@@ -1,8 +1,11 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { usePathname } from 'next/navigation';
+
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
+// import { LocaleFlag } from './Flags';
 import styles from './NavBar.module.css';
 
 function VigangoMark() {
@@ -35,32 +38,12 @@ export function NavBar() {
   const { locale, setLocale } = useLocale();
   const t = useTranslations();
 
-  const [scrolled, setScrolled] = useState(false);
-  const heroRef = useRef<Element | null>(null);
-
-  useEffect(() => {
-    const hero = document.querySelector('section');
-    if (!hero) return;
-    heroRef.current = hero;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setScrolled(!entry.isIntersecting);
-      },
-      {
-        rootMargin: '-48px 0px 0px 0px',
-        threshold: 0,
-      },
-    );
-
-    observer.observe(hero);
-    return () => observer.disconnect();
-  }, []);
-
   const [open, setOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const menuRef = useRef<HTMLUListElement>(null);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -79,18 +62,39 @@ export function NavBar() {
   }, [open]);
 
   useEffect(() => {
-    if (!open) return;
+    if (!mobileOpen) return;
+
+    function handlePointerDown(e: PointerEvent) {
+      if (
+        drawerRef.current &&
+        !drawerRef.current.contains(e.target as Node)
+      ) {
+        setMobileOpen(false);
+      }
+    }
+
+    document.addEventListener('pointerdown', handlePointerDown);
+    return () => document.removeEventListener('pointerdown', handlePointerDown);
+  }, [mobileOpen]);
+
+  useEffect(() => {
+    if (!open && !mobileOpen) return;
 
     function handleKeyDown(e: KeyboardEvent) {
       if (e.key === 'Escape') {
-        setOpen(false);
-        buttonRef.current?.focus();
+        if (open) {
+          setOpen(false);
+          buttonRef.current?.focus();
+        }
+        if (mobileOpen) {
+          setMobileOpen(false);
+        }
       }
     }
 
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [open]);
+  }, [open, mobileOpen]);
 
   const handleFocusOut = useCallback(
     (e: React.FocusEvent<HTMLDivElement>) => {
@@ -162,23 +166,45 @@ export function NavBar() {
   );
 
   const currentConfig = locales.find((l) => l.code === locale)!;
+  const pathname = usePathname();
+
+  function linkClass(href: string, mobile?: boolean) {
+    const active =
+      href === '/'
+        ? pathname === '/'
+        : pathname.startsWith(href);
+    const base = mobile ? styles.drawerLink : styles.navLink;
+    const activeClass = mobile ? styles.drawerLinkActive : styles.navLinkActive;
+    return active ? `${base} ${activeClass}` : base;
+  }
 
   return (
     <nav
-      className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}
+      className={styles.navbar}
       aria-label="Site navigation"
     >
       <a href="/" className={styles.homeLink} aria-label="Chi-digo home">
         <VigangoMark />
       </a>
 
-      <a href="/culture" className={styles.navLink}>
-        {t.nav.culture_link}
-      </a>
+      <div className={styles.desktopLinks}>
+        <a href="/" className={linkClass('/')}>
+          {t.nav.home_link}
+        </a>
+        <a href="/history" className={linkClass('/history')}>
+          {t.nav.history_link}
+        </a>
+        <a href="/culture" className={linkClass('/culture')}>
+          {t.nav.culture_link}
+        </a>
+        <a href="/language" className={linkClass('/language')}>
+          {t.nav.language_link}
+        </a>
+      </div>
 
       <div className={styles.centre} />
 
-      <div className={styles.selector} ref={dropdownRef} onBlur={handleFocusOut}>
+      <div className={`${styles.selector} ${styles.desktopOnly}`} ref={dropdownRef} onBlur={handleFocusOut}>
         <button
           ref={buttonRef}
           type="button"
@@ -188,7 +214,7 @@ export function NavBar() {
           aria-expanded={open}
           aria-label={t.nav.language_selector_label}
         >
-          {currentConfig.name}
+          <span className={styles.selectorLabel}>{currentConfig.shortName}</span>
           <span className={styles.selectorChevron} aria-hidden="true">
             ▾
           </span>
@@ -220,12 +246,62 @@ export function NavBar() {
                 <span className={styles.checkMark} aria-hidden="true">
                   {loc.code === locale ? '✓' : ''}
                 </span>
-                {loc.name}
+                {loc.shortName}
               </li>
             ))}
           </ul>
         )}
       </div>
+
+      {/* Mobile hamburger */}
+      <button
+        type="button"
+        className={styles.hamburger}
+        onClick={() => setMobileOpen((prev) => !prev)}
+        aria-expanded={mobileOpen}
+        aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+      >
+        <span className={`${styles.hamburgerBar} ${mobileOpen ? styles.hamburgerBarTop : ''}`} />
+        <span className={`${styles.hamburgerBar} ${mobileOpen ? styles.hamburgerBarMid : ''}`} />
+        <span className={`${styles.hamburgerBar} ${mobileOpen ? styles.hamburgerBarBot : ''}`} />
+      </button>
+
+      {/* Mobile drawer */}
+      {mobileOpen && (
+        <div className={styles.drawer} ref={drawerRef}>
+          <a href="/" className={linkClass('/', true)} onClick={() => setMobileOpen(false)}>
+            {t.nav.home_link}
+          </a>
+          <a href="/history" className={linkClass('/history', true)} onClick={() => setMobileOpen(false)}>
+            {t.nav.history_link}
+          </a>
+          <a href="/culture" className={linkClass('/culture', true)} onClick={() => setMobileOpen(false)}>
+            {t.nav.culture_link}
+          </a>
+          <a href="/language" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
+            {t.nav.language_link}
+          </a>
+
+          <div className={styles.drawerDivider} />
+
+          <div className={styles.drawerLocale}>
+            {locales.map((loc) => (
+              <button
+                key={loc.code}
+                type="button"
+                className={`${styles.drawerLocaleBtn} ${loc.code === locale ? styles.drawerLocaleBtnActive : ''}`}
+                onClick={() => {
+                  setLocale(loc.code);
+                  setMobileOpen(false);
+                }}
+                aria-label={loc.name}
+              >
+                {loc.shortName}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

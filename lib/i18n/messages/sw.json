@@ -11,14 +11,50 @@
   "nav": {
     "language_selector_label": "Chagua lugha",
     "language_name": "Kiswahili",
-    "culture_link": "Utamaduni"
+    "home_link": "Nyumbani",
+    "culture_link": "Utamaduni",
+    "language_link": "Lugha",
+    "history_link": "Historia"
   },
   "culture": {
     "overview_eyebrow": "Utamaduni wa Wadigo",
     "overview_title": "Urithi Hai",
+    "section_title": "Utamaduni",
+    "section_subtitle": "Gundua urithi, mila, na desturi hai za Wadigo.",
     "back_to_culture": "← Utamaduni",
     "back_to_domain": "← Nyuma",
+    "related_topics": "Mada Zinazohusiana",
+    "map_heading": "Nchi ya Wadigo",
+    "fuko_heading": "Mfumo wa Fuko",
+    "topics_heading": "Soma Zaidi"
+  },
+  "language": {
+    "eyebrow": "Lugha ya Kidigo",
+    "title": "Lugha — Lugha Hai",
+    "intro": "Chidigo ni lugha ya Kibantu ya familia ya Mijikenda, inayozungumzwa na watu zaidi ya 600,000 pwani ya Kenya na Tanzania. Lahaja nne, utamaduni tajiri wa mdomo, na fasihi iliyoishi midomoni mwa wazee kabla ya kuandikwa.",
+    "dialects_heading": "Lahaja",
+    "tools_heading": "Zana",
+    "topics_heading": "Mila za Kusimulia",
+    "back_to_language": "← Lugha",
     "related_topics": "Mada Zinazohusiana"
+  },
+  "dictionary": {
+    "section_title": "Kamusi",
+    "section_subtitle": "Maneno zaidi ya 5,200 yenye maana kwa Kidigo, Kiswahili, na Kiingereza.",
+    "search_placeholder": "Tafuta neno...",
+    "word_of_the_day": "Neno la Siku",
+    "no_results": "Hakuna matokeo kwa \"{query}\"",
+    "searching": "Inatafuta...",
+    "results_for": "Matokeo {count} kwa \"{query}\"",
+    "entry_not_found": "Neno halipatikani.",
+    "equivalents_en": "Kwa Kiingereza",
+    "equivalents_sw": "Kwa Kiswahili",
+    "sub_entries": "Maneno yanayotokana",
+    "synonyms": "Visawe",
+    "see_also": "Angalia",
+    "browse_letters": "Vinjari kwa herufi",
+    "back_to_dictionary": "← Kamusi",
+    "try_different_word": "Jaribu kutafuta neno lingine."
   },
   "hero": {
     "title": "Chi-digo",
@@ -51,6 +87,22 @@
     "eyebrow": "Dhamira yetu",
     "statement": "Kufanya Chidigo kuwa lugha ambayo watoto wanakua wakiizungumza, kwa kuwapa jamii ya Wadigo zana, maudhui, na majukwaa inayohitaji ili {highlight} lugha na utamaduni wake.",
     "statement_highlight": "kuendeleza, kubadilisha, na kusherehekea"
+  },
+  "history": {
+    "eyebrow": "Historia Yetu",
+    "title": "Historia ya Wadigo",
+    "intro": "Kutoka makazi ya Singwaya hadi makaya yaliyoorodheshwa na UNESCO — hadithi ya Wadigo kwa miaka elfu moja.",
+    "timeline_heading": "Ratiba ya Matukio",
+    "figures_heading": "Watu Mashuhuri",
+    "topics_heading": "Soma Zaidi",
+    "back_to_history": "← Historia"
+  },
+  "breadcrumb": {
+    "home": "Chi-digo",
+    "culture": "Utamaduni",
+    "language": "Lugha",
+    "dictionary": "Kamusi",
+    "history": "Historia"
   },
   "footer": {
     "copyright": "Chi-digo"

@@ -1,24 +1,60 @@
 {
   "meta": {
-    "title": "Chi-digo — Building the transmission tools for the Digo language",
-    "description": "Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
+    "title": "Chi-digo — Building the transmission tools for the Chidigo language",
+    "description": "Building the transmission tools for the Chidigo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
     "og_title": "Chi-digo",
-    "og_description": "Building the transmission tools for the Digo language.",
+    "og_description": "Building the transmission tools for the Chidigo language.",
     "og_locale": "en_US",
     "twitter_title": "Chi-digo",
-    "twitter_description": "Building the transmission tools for the Digo language."
+    "twitter_description": "Building the transmission tools for the Chidigo language."
   },
   "nav": {
     "language_selector_label": "Choose language",
     "language_name": "English",
-    "culture_link": "Culture"
+    "home_link": "Home",
+    "culture_link": "Culture",
+    "language_link": "Language",
+    "history_link": "History"
   },
   "culture": {
     "overview_eyebrow": "Digo Culture",
     "overview_title": "A Living Heritage",
+    "section_title": "Culture",
+    "section_subtitle": "Explore the heritage, traditions, and living practices of the Digo people.",
     "back_to_culture": "← Culture",
     "back_to_domain": "← Back",
+    "related_topics": "Related Topics",
+    "map_heading": "The Digo Homeland",
+    "fuko_heading": "The Fuko System",
+    "topics_heading": "Deep Dives"
+  },
+  "language": {
+    "eyebrow": "Chidigo Language",
+    "title": "Lugha — The Living Language",
+    "intro": "Chidigo is a Bantu language of the Mijikenda family, spoken by over 600,000 people on the Kenya–Tanzania coast. Four dialects, a rich oral tradition, and a literature that lived in the mouths of elders long before it was written down.",
+    "dialects_heading": "Dialects",
+    "tools_heading": "Tools",
+    "topics_heading": "Oral Traditions",
+    "back_to_language": "← Language",
     "related_topics": "Related Topics"
+  },
+  "dictionary": {
+    "section_title": "Dictionary",
+    "section_subtitle": "5,200+ words with definitions in Chidigo, Swahili, and English.",
+    "search_placeholder": "Search for a word...",
+    "word_of_the_day": "Word of the Day",
+    "no_results": "No results found for \"{query}\"",
+    "searching": "Searching...",
+    "results_for": "{count} results for \"{query}\"",
+    "entry_not_found": "Entry not found.",
+    "equivalents_en": "In English",
+    "equivalents_sw": "In Swahili",
+    "sub_entries": "Derived words",
+    "synonyms": "Synonyms",
+    "see_also": "See",
+    "browse_letters": "Browse by letter",
+    "back_to_dictionary": "← Dictionary",
+    "try_different_word": "Try searching for a different word."
   },
   "hero": {
     "title": "Chi-digo",
@@ -26,7 +62,7 @@
     "proverb_gloss": "The rain is waited for with a cleared plot."
   },
   "what_is_digo": {
-    "eyebrow": "What is Digo",
+    "eyebrow": "What is Chidigo",
     "heading": "Chidigo is a Bantu language of the Mijikenda family, spoken on the Kenya–Tanzania coast.",
     "geography_label": "Geography",
     "geography_text": "South of Mombasa down to Tanga. Heartland in Kwale County, the village of Kinondo (home to the primary Digo {dig:kaya}), and the coastal hinterland.",
@@ -42,7 +78,7 @@
   },
   "the_problem": {
     "eyebrow": "The Problem",
-    "pull_quote": "\u201cMy parents understand Digo when their grandmother speaks. They reply in Swahili. My children don\u2019t understand at all.\u201d",
+    "pull_quote": "\u201cMy parents understand Chidigo when their grandmother speaks. They reply in Swahili. My children don\u2019t understand at all.\u201d",
     "body_1": "This pattern — passive parents, peer-only transmission, screen lives in Swahili and English — is {cliff}, not a slope.",
     "body_1_cliff": "a cliff",
     "body_2": "Linguists call it the missing transmission generation: when parents stop speaking the language to their children, the language collapses in two generations even with hundreds of thousands of nominal speakers."
@@ -51,6 +87,22 @@
     "eyebrow": "Our Mission",
     "statement": "To make Chidigo a language children grow up speaking, by giving the Digo community the tools, content, and platforms it needs to {highlight} its language and culture.",
     "statement_highlight": "transmit, evolve, and celebrate"
+  },
+  "history": {
+    "eyebrow": "Our History",
+    "title": "The History of the Digo",
+    "intro": "From the Singwaya settlement to the UNESCO-inscribed kayas — the story of the Digo people across a thousand years.",
+    "timeline_heading": "Timeline",
+    "figures_heading": "Notable Figures",
+    "topics_heading": "Deep Dives",
+    "back_to_history": "← History"
+  },
+  "breadcrumb": {
+    "home": "Chi-digo",
+    "culture": "Culture",
+    "language": "Language",
+    "dictionary": "Dictionary",
+    "history": "History"
   },
   "footer": {
     "copyright": "Chi-digo"

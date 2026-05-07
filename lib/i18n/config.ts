@@ -3,6 +3,7 @@ export type Locale = 'en' | 'sw' | 'dig';
 export interface LocaleConfig {
   code: Locale;
   name: string;
+  shortName: string;
   htmlLang: string;
   ogLocale: string;
 }
@@ -20,14 +21,50 @@ export interface Messages {
   nav: {
     language_selector_label: string;
     language_name: string;
+    home_link: string;
     culture_link: string;
+    language_link: string;
+    history_link: string;
   };
   culture: {
     overview_eyebrow: string;
     overview_title: string;
+    section_title: string;
+    section_subtitle: string;
     back_to_culture: string;
     back_to_domain: string;
     related_topics: string;
+    map_heading: string;
+    fuko_heading: string;
+    topics_heading: string;
+  };
+  language: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    dialects_heading: string;
+    tools_heading: string;
+    topics_heading: string;
+    back_to_language: string;
+    related_topics: string;
+  };
+  dictionary: {
+    section_title: string;
+    section_subtitle: string;
+    search_placeholder: string;
+    word_of_the_day: string;
+    no_results: string;
+    searching: string;
+    results_for: string;
+    entry_not_found: string;
+    equivalents_en: string;
+    equivalents_sw: string;
+    sub_entries: string;
+    synonyms: string;
+    see_also: string;
+    browse_letters: string;
+    back_to_dictionary: string;
+    try_different_word: string;
   };
   hero: {
     title: string;
@@ -61,15 +98,31 @@ export interface Messages {
     statement: string;
     statement_highlight: string;
   };
+  history: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    timeline_heading: string;
+    figures_heading: string;
+    topics_heading: string;
+    back_to_history: string;
+  };
+  breadcrumb: {
+    home: string;
+    culture: string;
+    language: string;
+    dictionary: string;
+    history: string;
+  };
   footer: {
     copyright: string;
   };
 }
 
 export const locales: LocaleConfig[] = [
-  { code: 'en', name: 'English', htmlLang: 'en', ogLocale: 'en_US' },
-  { code: 'sw', name: 'Kiswahili', htmlLang: 'sw', ogLocale: 'sw_KE' },
-  { code: 'dig', name: 'Chidigo', htmlLang: 'dig', ogLocale: 'dig' },
+  { code: 'en', name: 'English', shortName: 'ENG', htmlLang: 'en', ogLocale: 'en_US' },
+  { code: 'sw', name: 'Kiswahili', shortName: 'SWA', htmlLang: 'sw', ogLocale: 'sw_KE' },
+  { code: 'dig', name: 'Chidigo', shortName: 'DIG', htmlLang: 'dig', ogLocale: 'dig' },
 ];
 
 export const defaultLocale: Locale = 'en';

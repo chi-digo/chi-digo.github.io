@@ -3,6 +3,7 @@
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { getTopic, type ContentBlock } from '@/lib/culture/content';
+import { Text } from '@chi-digo/design-system';
 import styles from './CultureArticle.module.css';
 
 function Footer() {
@@ -10,10 +11,38 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
-        <span className={styles.footerCopy}>{t.footer.copyright}</span>
+        <Text style={{ fontSize: 'var(--text-xs)', color: 'rgba(242, 234, 215, 0.4)' }}>
+          {t.footer.copyright}
+        </Text>
       </div>
     </footer>
   );
+}
+
+function renderInlineMarkdown(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const regex = /(\*\*(.+?)\*\*|\*(.+?)\*)/g;
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    if (match[2]) {
+      parts.push(<strong key={key++}>{match[2]}</strong>);
+    } else if (match[3]) {
+      parts.push(<em key={key++}>{match[3]}</em>);
+    }
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts;
 }
 
 function ArticleBody({ body }: { body: ContentBlock[] }) {
@@ -26,7 +55,7 @@ function ArticleBody({ body }: { body: ContentBlock[] }) {
           </h3>
         ) : (
           <p key={i} className={styles.bodyText}>
-            {block.text}
+            {renderInlineMarkdown(block.text)}
           </p>
         ),
       )}
@@ -69,23 +98,12 @@ export function TopicArticle({
         </div>
       </article>
 
-      <section className={styles.navSection}>
-        <div className={styles.navInner}>
-          <a
-            href={`/culture/${domain.slug}`}
-            className={styles.backLink}
-          >
-            {t.culture.back_to_domain}
-          </a>
-        </div>
-      </section>
-
       {domain.topics.length > 1 && (
         <section className={styles.relatedSection}>
           <div className={styles.relatedInner}>
-            <h2 className={styles.relatedHeading}>
+            <p className={styles.relatedHeading}>
               {t.culture.related_topics}
-            </h2>
+            </p>
             <div className={styles.relatedGrid}>
               {domain.topics
                 .filter((tp) => tp.slug !== topicSlug)
