@@ -7,7 +7,9 @@
     "preseo": "tsx scripts/generate-seo.ts",
     "build": "npm run preseo && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "npx --yes tsx --test test/**/*.test.ts",
+    "test:coverage": "npx --yes tsx --test --experimental-test-coverage test/**/*.test.ts"
   },
   "dependencies": {
     "@chi-digo/design-system": "^0.1.1",
