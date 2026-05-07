@@ -157,6 +157,9 @@ export function NavBar() {
       <a href="/dictionary" className={styles.navLink}>
         {t.nav.dictionary_link}
       </a>
+      <a href="/history" className={styles.navLink}>
+        {t.nav.history_link}
+      </a>
 
       <div className={styles.centre} />
 
