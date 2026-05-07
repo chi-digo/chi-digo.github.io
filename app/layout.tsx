@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Fraunces, Source_Serif_4, Inter } from "next/font/google";
 import { ClientShell } from "@/components/ClientShell";
+import { JsonLd } from "@/components/JsonLd";
+import { websiteJsonLd } from "@/lib/seo/jsonld";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -29,6 +31,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://chidigo.org"),
   title: "Chi-digo — Building the transmission tools for the Digo language",
   description:
     "Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
@@ -65,6 +68,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <JsonLd data={websiteJsonLd()} />
         <ClientShell>{children}</ClientShell>
       </body>
     </html>
