@@ -3,21 +3,7 @@
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { getTopic, type ContentBlock } from '@/lib/culture/content';
-import { Text } from '@chi-digo/design-system';
 import styles from './CultureArticle.module.css';
-
-function Footer() {
-  const t = useTranslations();
-  return (
-    <footer className={styles.footer}>
-      <div className={styles.footerInner}>
-        <Text style={{ fontSize: 'var(--text-xs)', color: 'rgba(242, 234, 215, 0.4)' }}>
-          {t.footer.copyright}
-        </Text>
-      </div>
-    </footer>
-  );
-}
 
 function renderInlineMarkdown(text: string): React.ReactNode[] {
   const parts: React.ReactNode[] = [];
@@ -127,7 +113,6 @@ export function TopicArticle({
         </section>
       )}
 
-      <Footer />
     </>
   );
 }

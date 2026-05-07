@@ -27,11 +27,13 @@ type Settlement = {
 function Hero({
   eyebrow,
   title,
+  intro,
   proverb,
   proverbGloss,
 }: {
   eyebrow: string;
   title: string;
+  intro?: string;
   proverb?: string;
   proverbGloss?: string;
 }) {
@@ -40,6 +42,7 @@ function Hero({
       <div className={styles.heroContent}>
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h1 className={styles.heroTitle}>{title}</h1>
+        {intro && <p className={styles.heroIntro}>{intro}</p>}
         {proverb && (
           <p className={styles.proverb} lang="dig">
             <em>{proverb}</em>
@@ -90,6 +93,9 @@ export function CultureOverview() {
       <Hero
         eyebrow={t.culture.overview_eyebrow}
         title={t.culture.overview_title}
+        intro={t.culture.overview_intro}
+        proverb={t.culture.overview_proverb}
+        proverbGloss={t.culture.overview_proverb_gloss}
       />
 
       {/* Interactive map */}

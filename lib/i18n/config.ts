@@ -29,6 +29,9 @@ export interface Messages {
   culture: {
     overview_eyebrow: string;
     overview_title: string;
+    overview_intro: string;
+    overview_proverb: string;
+    overview_proverb_gloss: string;
     section_title: string;
     section_subtitle: string;
     back_to_culture: string;
