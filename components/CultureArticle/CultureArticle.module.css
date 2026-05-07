@@ -13,7 +13,7 @@
   max-width: 740px;
   margin: 0 auto;
   padding: 0 5.25%;
-  padding-top: calc(var(--nav-height, 48px) + 2rem);
+  padding-top: calc(var(--header-height) + 2rem);
 }
 
 .eyebrow {
@@ -80,7 +80,7 @@
   font-size: clamp(1.2rem, 2.5vw, 1.6rem);
   line-height: 1.25;
   color: var(--color-kaya-deep);
-  margin: 2.5rem 0 0.75rem 0;
+  margin: 2.5rem 0 1rem 0;
 }
 
 .articleHeading:first-child {
@@ -164,8 +164,8 @@
 
 .relatedCard {
   display: block;
-  background-color: rgba(242, 234, 215, 0.08);
-  border: 1px solid rgba(242, 234, 215, 0.12);
+  background-color: rgba(242, 234, 215, 0.06);
+  border: 1px solid rgba(242, 234, 215, 0.18);
   border-radius: 8px;
   padding: clamp(1rem, 2vw, 1.5rem);
   text-decoration: none;
@@ -183,10 +183,10 @@
 
 .relatedTitle {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 600;
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
   line-height: 1.25;
-  color: var(--color-hando-cream);
+  color: #f2ead7;
   margin: 0 0 0.4rem 0;
 }
 
@@ -194,7 +194,7 @@
   font-family: var(--font-serif);
   font-size: clamp(0.75rem, 1.1vw, 0.85rem);
   line-height: 1.5;
-  color: var(--color-coral-lime-sand);
+  color: rgba(242, 234, 215, 0.75);
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -234,7 +234,7 @@
   }
 
   .heroContent {
-    padding-top: calc(var(--nav-height-mobile, 44px) + 1.5rem);
+    padding-top: calc(var(--header-height-mobile) + 1.5rem);
   }
 
   .proverb {

@@ -11,14 +11,35 @@
   "nav": {
     "language_selector_label": "Tsagula luga",
     "language_name": "Chidigo",
-    "culture_link": "Chimila"
+    "culture_link": "Chimila",
+    "dictionary_link": "Kamusi"
   },
   "culture": {
     "overview_eyebrow": "Chimila cha Adigo",
     "overview_title": "Urithi Urio Moyo",
+    "section_title": "Chimila",
+    "section_subtitle": "Gundua urithi, mila, na desturi za Adigo zirio hai.",
     "back_to_culture": "← Chimila",
     "back_to_domain": "← Nyuma",
     "related_topics": "Mada Zinazohusiana"
+  },
+  "dictionary": {
+    "section_title": "Kamusi",
+    "section_subtitle": "Maneno zaidi ya 5,200 na madzo ga Chidigo, Chiswahili, na Chiingereza.",
+    "search_placeholder": "Tafuta neno...",
+    "word_of_the_day": "Neno ra Siku",
+    "no_results": "Haripatikane matokeo kwa \"{query}\"",
+    "searching": "Inatafuta...",
+    "results_for": "Matokeo {count} kwa \"{query}\"",
+    "entry_not_found": "Neno hiri haripatikane.",
+    "equivalents_en": "Kwa Chiingereza",
+    "equivalents_sw": "Kwa Chiswahili",
+    "sub_entries": "Maneno garigo ndani",
+    "synonyms": "Visawe",
+    "see_also": "Lola",
+    "browse_letters": "Hakiki kwa herufi",
+    "back_to_dictionary": "← Kamusi",
+    "try_different_word": "Jeza kutafuta kwa neno ranjine."
   },
   "hero": {
     "title": "Chi-digo",
@@ -51,6 +72,11 @@
     "eyebrow": "Lengo rehu",
     "statement": "Kuhenda Chidigo kuwa luga ambayo ana anakula anayizungumza, kwa kuapha jamii ya Adigo vyombo, maudhui, na majukwaa inavyohitaji ili {highlight} luga na chisomo chake.",
     "statement_highlight": "kueneza, kubadilisha, na kusherehekea"
+  },
+  "breadcrumb": {
+    "home": "Chi-digo",
+    "culture": "Chimila",
+    "dictionary": "Kamusi"
   },
   "footer": {
     "copyright": "Chi-digo"

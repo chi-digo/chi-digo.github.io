@@ -11,14 +11,35 @@
   "nav": {
     "language_selector_label": "Chagua lugha",
     "language_name": "Kiswahili",
-    "culture_link": "Utamaduni"
+    "culture_link": "Utamaduni",
+    "dictionary_link": "Kamusi"
   },
   "culture": {
     "overview_eyebrow": "Utamaduni wa Wadigo",
     "overview_title": "Urithi Hai",
+    "section_title": "Utamaduni",
+    "section_subtitle": "Gundua urithi, mila, na desturi hai za Wadigo.",
     "back_to_culture": "← Utamaduni",
     "back_to_domain": "← Nyuma",
     "related_topics": "Mada Zinazohusiana"
+  },
+  "dictionary": {
+    "section_title": "Kamusi",
+    "section_subtitle": "Maneno zaidi ya 5,200 yenye maana kwa Kidigo, Kiswahili, na Kiingereza.",
+    "search_placeholder": "Tafuta neno...",
+    "word_of_the_day": "Neno la Siku",
+    "no_results": "Hakuna matokeo kwa \"{query}\"",
+    "searching": "Inatafuta...",
+    "results_for": "Matokeo {count} kwa \"{query}\"",
+    "entry_not_found": "Neno halipatikani.",
+    "equivalents_en": "Kwa Kiingereza",
+    "equivalents_sw": "Kwa Kiswahili",
+    "sub_entries": "Maneno yanayotokana",
+    "synonyms": "Visawe",
+    "see_also": "Angalia",
+    "browse_letters": "Vinjari kwa herufi",
+    "back_to_dictionary": "← Kamusi",
+    "try_different_word": "Jaribu kutafuta neno lingine."
   },
   "hero": {
     "title": "Chi-digo",
@@ -51,6 +72,11 @@
     "eyebrow": "Dhamira yetu",
     "statement": "Kufanya Chidigo kuwa lugha ambayo watoto wanakua wakiizungumza, kwa kuwapa jamii ya Wadigo zana, maudhui, na majukwaa inayohitaji ili {highlight} lugha na utamaduni wake.",
     "statement_highlight": "kuendeleza, kubadilisha, na kusherehekea"
+  },
+  "breadcrumb": {
+    "home": "Chi-digo",
+    "culture": "Utamaduni",
+    "dictionary": "Kamusi"
   },
   "footer": {
     "copyright": "Chi-digo"

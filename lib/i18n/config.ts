@@ -21,13 +21,34 @@ export interface Messages {
     language_selector_label: string;
     language_name: string;
     culture_link: string;
+    dictionary_link: string;
   };
   culture: {
     overview_eyebrow: string;
     overview_title: string;
+    section_title: string;
+    section_subtitle: string;
     back_to_culture: string;
     back_to_domain: string;
     related_topics: string;
+  };
+  dictionary: {
+    section_title: string;
+    section_subtitle: string;
+    search_placeholder: string;
+    word_of_the_day: string;
+    no_results: string;
+    searching: string;
+    results_for: string;
+    entry_not_found: string;
+    equivalents_en: string;
+    equivalents_sw: string;
+    sub_entries: string;
+    synonyms: string;
+    see_also: string;
+    browse_letters: string;
+    back_to_dictionary: string;
+    try_different_word: string;
   };
   hero: {
     title: string;
@@ -60,6 +81,11 @@ export interface Messages {
     eyebrow: string;
     statement: string;
     statement_highlight: string;
+  };
+  breadcrumb: {
+    home: string;
+    culture: string;
+    dictionary: string;
   };
   footer: {
     copyright: string;

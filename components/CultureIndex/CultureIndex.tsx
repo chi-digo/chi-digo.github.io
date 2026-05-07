@@ -114,13 +114,6 @@ export function DomainIndex({ domainSlug }: { domainSlug: string }) {
         </div>
       </section>
       <CardGrid cards={cards} />
-      <section className={styles.section}>
-        <div className={styles.sectionInner}>
-          <a href="/culture" className={styles.backLink}>
-            {t.culture.back_to_culture}
-          </a>
-        </div>
-      </section>
       <Footer />
     </>
   );

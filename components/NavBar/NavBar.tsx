@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
 import styles from './NavBar.module.css';
@@ -34,28 +35,6 @@ function VigangoMark() {
 export function NavBar() {
   const { locale, setLocale } = useLocale();
   const t = useTranslations();
-
-  const [scrolled, setScrolled] = useState(false);
-  const heroRef = useRef<Element | null>(null);
-
-  useEffect(() => {
-    const hero = document.querySelector('section');
-    if (!hero) return;
-    heroRef.current = hero;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setScrolled(!entry.isIntersecting);
-      },
-      {
-        rootMargin: '-48px 0px 0px 0px',
-        threshold: 0,
-      },
-    );
-
-    observer.observe(hero);
-    return () => observer.disconnect();
-  }, []);
 
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -165,7 +144,7 @@ export function NavBar() {
 
   return (
     <nav
-      className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}
+      className={styles.navbar}
       aria-label="Site navigation"
     >
       <a href="/" className={styles.homeLink} aria-label="Chi-digo home">
@@ -174,6 +153,9 @@ export function NavBar() {
 
       <a href="/culture" className={styles.navLink}>
         {t.nav.culture_link}
+      </a>
+      <a href="/dictionary" className={styles.navLink}>
+        {t.nav.dictionary_link}
       </a>
 
       <div className={styles.centre} />

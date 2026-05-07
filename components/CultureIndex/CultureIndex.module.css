@@ -13,7 +13,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 0 5.25%;
-  padding-top: calc(var(--nav-height, 48px) + 2rem);
+  padding-top: calc(var(--header-height) + 2rem);
 }
 
 .eyebrow {
@@ -176,7 +176,7 @@
   }
 
   .heroContent {
-    padding-top: calc(var(--nav-height-mobile, 44px) + 1.5rem);
+    padding-top: calc(var(--header-height-mobile) + 1.5rem);
   }
 
   .proverb {

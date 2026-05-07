@@ -19,10 +19,13 @@
 
   --nav-height: 48px;
   --nav-height-mobile: 44px;
+  --breadcrumb-height: 28px;
+  --header-height: calc(var(--nav-height) + var(--breadcrumb-height));
+  --header-height-mobile: calc(var(--nav-height-mobile) + var(--breadcrumb-height));
 }
 
 html {
-  scroll-padding-top: var(--nav-height);
+  scroll-padding-top: var(--header-height);
 }
 
 html,
@@ -37,6 +40,6 @@ body {
 
 @media (max-width: 767px) {
   html {
-    scroll-padding-top: var(--nav-height-mobile);
+    scroll-padding-top: var(--header-height-mobile);
   }
 }
