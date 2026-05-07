@@ -16,15 +16,11 @@ const LANG_LABELS: Record<string, string> = {
   en: 'Chiingereza',
 };
 
-const CURATED_WORDS = [
-  'mnazi', 'moyo', 'baraka', 'pembe', 'mbuzi', 'ngano', 'dzino', 'makuti',
-  'mutu', 'kuku', 'damu', 'mviringo', 'phanga', 'unga', 'chapati',
-  'mkpwono', 'tsongo', 'gulu', 'simba', 'tembo', 'ngalawa', 'meli',
-  'kazi', 'fungu', 'tanga', 'shule', 'msikiti', 'sindano', 'pingu',
-  'nguwo', 'dzuwa', 'luga', 'nyuni', 'matso', 'mgongo', 'baba',
-  'mwana', 'bibi', 'ndugu', 'munda', 'mudzi', 'nyama', 'nazi',
-  'hando', 'sengenya', 'muhi', 'chirimo', 'kusi', 'laga', 'hepa',
-  'henda', 'rima', 'risa', 'dzenga',
+const IDX_FILES = [
+  'a','b','ch','d','dz','e','f','g','gbw','h',
+  'i','j','k','kpw','l','m','m_','n','ndz','ng',
+  'ng_','o','p','ph','r','s','sh','t','ts','u',
+  'v','w','y','z',
 ];
 
 function cleanHeadword(raw: string): string {
@@ -159,24 +155,27 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
   );
 }
 
-/* ===== Word of the Day card ===== */
+/* ===== Featured Word card ===== */
 
-function WordOfTheDayCard({ nav }: { nav: Navigate }) {
+function FeaturedWordCard({ nav }: { nav: Navigate }) {
   const t = useTranslations();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
-    const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 0);
-    const dayOfYear = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-    const word = CURATED_WORDS[dayOfYear % CURATED_WORDS.length];
+    const file = IDX_FILES[Math.floor(Math.random() * IDX_FILES.length)];
 
-    loadEntriesByHeadword(word)
+    fetch(`/data/${file}.idx.json`)
+      .then((r) => r.json())
+      .then((idx: { hw: string }[]) => {
+        if (cancelled || idx.length === 0) return;
+        const pick = idx[Math.floor(Math.random() * idx.length)];
+        return loadEntriesByHeadword(cleanHeadword(pick.hw));
+      })
       .then((entries) => {
         if (cancelled) return;
-        setEntry(entries[0] ?? null);
+        setEntry(entries?.[0] ?? null);
         setLoading(false);
       })
       .catch(() => {
@@ -190,7 +189,7 @@ function WordOfTheDayCard({ nav }: { nav: Navigate }) {
   if (loading) {
     return (
       <div className={styles.wotdCard}>
-        <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+        <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
         <p className={styles.wotdLoading}>{t.dictionary.searching}</p>
       </div>
     );
@@ -206,7 +205,7 @@ function WordOfTheDayCard({ nav }: { nav: Navigate }) {
       className={styles.wotdCard}
       onClick={() => goToWord(nav, entry.headword)}
     >
-      <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+      <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
       {entry.ipa && <p className={styles.wotdIpa}>/{entry.ipa}/</p>}
       <span className={styles.wotdPos}>
@@ -545,8 +544,8 @@ function HomeView({ nav }: { nav: Navigate }) {
       <DictionarySearchBar nav={nav} />
 
       <section className={styles.mt4}>
-        <p className={styles.sectionLabel}>{t.dictionary.word_of_the_day}</p>
-        <WordOfTheDayCard nav={nav} />
+        <p className={styles.sectionLabel}>{t.dictionary.featured_word}</p>
+        <FeaturedWordCard nav={nav} />
       </section>
 
       <section className={styles.mt6}>

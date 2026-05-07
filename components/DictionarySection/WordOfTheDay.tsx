@@ -47,7 +47,7 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
   if (loading) {
     return (
       <div className={styles.wotdCard}>
-        <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+        <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
         <p className={styles.wotdLoading}>{t.dictionary.searching}</p>
       </div>
     );
@@ -59,7 +59,7 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
 
   return (
     <div className={styles.wotdCard}>
-      <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+      <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
       {entry.ipa && <p className={styles.wotdIpa}>/{entry.ipa}/</p>}
       <span className={styles.wotdPos}>
