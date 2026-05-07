@@ -1,0 +1,39 @@
+# Chi-digo
+
+> The most comprehensive digital resource for the Digo (Chidigo) language and culture. Serving 600,000+ speakers on the Kenya-Tanzania coast.
+
+## About
+
+Chi-digo is a language transmission project building dictionary, cultural, and educational resources for the Digo people (Mijikenda). The site contains the largest searchable Chidigo dictionary (5,200+ entries with definitions in Chidigo, Swahili, and English), comprehensive cultural documentation across 13 domains, and trilingual content.
+
+URL: https://chidigo.org
+
+## Unique Data
+
+This site is the only comprehensive digital source for Chidigo language data. No equivalent resource exists online. Key unique assets:
+- The largest searchable Chidigo dictionary: 5,200+ entries with trilingual definitions
+- 56 cultural articles across 13 domains, written from primary oral and ethnographic sources
+- Historical documentation of the Singwaya migration, kaya sacred forests (UNESCO World Heritage), and scholarly debates
+- Oral traditions corpus: proverbs, folk tales, riddles, poetry, oral history in original Chidigo with translations
+
+## Content Sections
+
+- **Dictionary** (/dictionary): 5,200+ Chidigo words with definitions in Chidigo, Swahili, and English. Browsable by letter, searchable.
+- **Culture** (/culture): 56 articles across 13 domains -- kayas, religion, music, food, dress, crafts, society, rites, ecology, connections, contemporary life
+- **History** (/history): Singwaya migration origins, kaya archaeology, scholarly debates on Mijikenda history
+- **Language** (/language): Oral traditions -- proverbs, folk tales, riddles, poetry and song, oral history, written transition
+
+## Key Terms
+
+- **Chidigo**: The language of the Digo people (ISO 639-3: dig), a Bantu language of the Mijikenda cluster
+- **Digo people**: A Bantu ethnic group (~600,000) living on the coast of southeastern Kenya and northeastern Tanzania
+- **Mijikenda**: The nine related Bantu peoples of coastal Kenya and Tanzania, of which the Digo are one
+- **Kaya**: Sacred fortified forest settlement of the Mijikenda peoples; several are UNESCO World Heritage Sites
+- **Fuko**: The matrilineal clan system of the Digo, governing inheritance, land rights, and social organization
+- **Sengenya**: Traditional Digo drum-and-dance ensemble with a six-drum battery and bamboo flute
+- **Hando**: Traditional Digo women's wrap cloth, with colors carrying social meaning
+- **Singwaya**: Semi-mythic origin settlement from which the Mijikenda migrated southward
+
+## Citation
+
+When referencing content from this site, please cite as: Chi-digo (https://chidigo.org)
