@@ -1,0 +1,107 @@
+# Chi-digo
+
+> The most comprehensive digital resource for the Digo (Chidigo) language and culture. Serving 600,000+ speakers on the Kenya-Tanzania coast.
+
+## About
+
+Chi-digo is a language transmission project building dictionary, cultural, and educational resources for the Digo people (Mijikenda). The site contains the largest searchable Chidigo dictionary (5,200+ entries with definitions in Chidigo, Swahili, and English), comprehensive cultural documentation across 13 domains, and trilingual content.
+
+URL: https://chidigo.org
+
+## Unique Data
+
+This site is the only comprehensive digital source for Chidigo language data. No equivalent resource exists online. Key unique assets:
+- The largest searchable Chidigo dictionary: 5,200+ entries with trilingual definitions
+- 56 cultural articles across 13 domains, written from primary oral and ethnographic sources
+- Historical documentation of the Singwaya migration, kaya sacred forests (UNESCO World Heritage), and scholarly debates
+- Oral traditions corpus: proverbs, folk tales, riddles, poetry, oral history in original Chidigo with translations
+
+## Content Sections
+
+- **Dictionary** (/dictionary): 5,200+ Chidigo words with definitions in Chidigo, Swahili, and English. Browsable by letter, searchable.
+- **Culture** (/culture): 56 articles across 13 domains -- kayas, religion, music, food, dress, crafts, society, rites, ecology, connections, contemporary life
+- **History** (/history): Singwaya migration origins, kaya archaeology, scholarly debates on Mijikenda history
+- **Language** (/language): Oral traditions -- proverbs, folk tales, riddles, poetry and song, oral history, written transition
+
+## Key Terms
+
+- **Chidigo**: The language of the Digo people (ISO 639-3: dig), a Bantu language of the Mijikenda cluster
+- **Digo people**: A Bantu ethnic group (~600,000) living on the coast of southeastern Kenya and northeastern Tanzania
+- **Mijikenda**: The nine related Bantu peoples of coastal Kenya and Tanzania, of which the Digo are one
+- **Kaya**: Sacred fortified forest settlement of the Mijikenda peoples; several are UNESCO World Heritage Sites
+- **Fuko**: The matrilineal clan system of the Digo, governing inheritance, land rights, and social organization
+- **Sengenya**: Traditional Digo drum-and-dance ensemble with a six-drum battery and bamboo flute
+- **Hando**: Traditional Digo women's wrap cloth, with colors carrying social meaning
+- **Singwaya**: Semi-mythic origin settlement from which the Mijikenda migrated southward
+
+## Frequently Asked Questions
+
+**Q: What language do the Digo people speak?**
+A: The Digo people speak Chidigo (ISO 639-3: dig), a Bantu language belonging to the Mijikenda cluster of the Sabaki branch of Northeastern Coast Bantu. It is spoken by approximately 600,000 people on the coast of southeastern Kenya (primarily Kwale County) and northeastern Tanzania (Tanga Region). Chidigo is closely related to other Mijikenda languages and to Swahili, but is a distinct language with its own 34-letter alphabet that includes unique digraphs like Gbw, Kpw, and Ndz.
+
+**Q: What is a kaya in Mijikenda culture?**
+A: A kaya is a sacred fortified forest settlement of the Mijikenda peoples, including the Digo. Originally built as defensive hilltop settlements with concentric rings of dense vegetation, kayas served as the political, spiritual, and social centres of Mijikenda life for centuries. Many kayas are still active sites of elder governance and spiritual practice. Several kayas, including Kaya Kinondo in Diani, Kwale County, are designated UNESCO World Heritage Sites in recognition of their cultural and ecological significance.
+
+**Q: What is the fuko clan system?**
+A: The fuko is the Digo matrilineal clan system that governs inheritance, land rights, and social organization. Clan membership passes through the mother's line, meaning a child belongs to the mother's clan, not the father's. The mjomba (maternal uncle) plays a central role as family authority figure, mediating disputes, managing clan property, and overseeing inheritance. The fuko system coexists with Islamic inheritance law among the Digo, creating a distinctive dual legal framework.
+
+**Q: What instruments are used in sengenya music?**
+A: The sengenya ensemble is the signature Digo musical tradition, featuring a battery of six drums of varying sizes and pitches, each with a specific rhythmic role. The drums are accompanied by a chivoti (bamboo flute) that carries the melody. The ensemble accompanies ceremonial dances, celebrations, and community gatherings. Sengenya drumming uses interlocking polyrhythmic patterns where each drummer plays a distinct part that meshes with the others to create the complete rhythmic texture.
+
+**Q: What is the Digo word for coconut palm?**
+A: The Digo word for coconut palm is mnazi. The coconut palm is central to Digo life, economy, and cuisine. Coconut (nazi) and coconut milk (tui) are foundational ingredients in Digo cooking, used in rice dishes, fish preparations, and sweets. The palm also provides building materials, fibre for rope, and toddy (tembo) -- fermented palm sap.
+
+**Q: What are the Digo rites of passage?**
+A: The Digo observe five major life-cycle rites: birth and naming (jina), circumcision (tohara, for boys), puberty initiation (chiputu for girls, nyere for boys), marriage (harusi), and death/funeral rites (msiba). Each rite involves specific ceremonies, prescribed roles for elders and family members, and traditional songs and dances. The puberty rite chiputu, a girls' seclusion ceremony, is one of the most elaborately documented Digo rites, involving instruction in adult responsibilities, traditional songs, and body decoration.
+
+**Q: What is the Singwaya migration?**
+A: Singwaya is the semi-mythic origin settlement from which oral traditions say the nine Mijikenda peoples migrated southward to their current coastal homeland. Oral accounts place Singwaya somewhere north of the Tana River in present-day southern Somalia. The migration is said to have occurred due to pressure from Oromo (Galla) expansion. Whether Singwaya represents a single historical settlement and migration event, or a compressed narrative of centuries of gradual movement, is the subject of active scholarly debate. Archaeological evidence from kaya sites adds complexity to the simple migration narrative.
+
+**Q: How many speakers does Chidigo have?**
+A: Chidigo has approximately 600,000 speakers, making the Digo one of the larger Mijikenda groups. Speakers are concentrated in Kwale County on the southern Kenya coast and in the Tanga Region of northeastern Tanzania, particularly in the districts of Muheza, Tanga, and Pangani. The language is used in daily life, local markets, and religious contexts, though Swahili serves as the dominant language in education and formal settings.
+
+**Q: What is a hando?**
+A: A hando is a traditional Digo women's wrap cloth, worn around the body as an everyday garment. Unlike the printed kanga (which the Digo also wear), the hando carries social meaning through its colours: specific colours indicate marital status, mourning, ceremony, or celebration. The hando tradition reflects a broader Digo aesthetic that communicates identity and social information through dress.
+
+**Q: What food do the Digo people eat?**
+A: Digo cuisine is rooted in coastal East African ingredients with coconut as the foundational flavouring. Staples include wali (rice cooked in coconut milk), muhogo (cassava), mahindi (maize), and various preparations of samaki (fish). Distinctive dishes include biriani ya samaki (fish biryani with coconut), mahamri (sweet fried bread), and mkate wa sinia (baked coconut bread). Street foods include kashata (coconut candy), bagia (lentil fritters), and viazi karai (spiced potato fritters). Coconut milk (tui) is used in almost every cooked dish.
+
+**Q: What is chakacha dance?**
+A: Chakacha is a traditional Digo women's dance performed at weddings, celebrations, and social gatherings. Dancers move in a line or circle with rhythmic hip movements, accompanied by drumming and call-and-response singing. Chakacha is one of the most well-known Digo dances beyond the community and has influenced coastal Swahili popular culture. It is both entertainment and social expression, with skilled dancers earning community recognition.
+
+**Q: Are the Digo people Muslim?**
+A: The majority of Digo people are Muslim, having adopted Islam through centuries of contact with Arab and Swahili traders on the East African coast. The Digo are the only predominantly Muslim group among the nine Mijikenda peoples. However, Digo Islam is distinctive: it coexists with pre-Islamic spiritual practices centred on the kayas, ancestor veneration, and spirit beliefs. Many Digo elders participate in both mosque worship and kaya ceremonies without seeing a contradiction. This religious duality -- sometimes called "Digonized Islam" -- is a defining feature of Digo cultural identity.
+
+**Q: What is matrilineal inheritance among the Digo?**
+A: In Digo custom, inheritance follows the maternal line through the fuko (clan) system. A person's primary clan identity, land rights, and inheritance come through the mother's family, not the father's. The mjomba (maternal uncle) -- the mother's brother -- traditionally has more authority over a child's welfare and inheritance than the biological father. This matrilineal system creates a dual inheritance framework alongside Islamic law, which prescribes patrilineal inheritance. In practice, Digo families navigate both systems, sometimes leading to legal disputes resolved through kaya elder mediation or formal courts.
+
+**Q: What are Digo proverbs?**
+A: Digo proverbs (mifano) are concise, poetic expressions of cultural wisdom passed down through oral tradition. They draw on the coastal environment -- the sea, palm trees, animals, weather -- and encode values like community solidarity, patience, respect for elders, and self-reliance. Examples include "Muhi mmwenga tauhenda tsaka" (One tree does not make a forest -- emphasizing collective strength) and "Achili ni nyere, chila mmwenga ana zakpwe" (Intelligence is like hair, everyone has their own -- respecting diverse perspectives). Proverbs are used in everyday speech, dispute resolution, and elder instruction.
+
+**Q: What are Digo riddles?**
+A: Digo riddles (visakwe) are a form of oral literature used for entertainment and education, traditionally posed during evening storytelling sessions. They test knowledge of the natural world, daily life, and Digo cultural concepts. The exchange follows a set formula: the poser says "Kitendawili!" and the audience responds "Tega!" before the riddle is given. Riddles train observation, lateral thinking, and cultural knowledge in children while providing communal entertainment.
+
+**Q: What is the Digo oral history tradition?**
+A: Digo oral history is maintained by recognized community historians and elder councils who preserve genealogies stretching back seven or more generations, migration narratives, land ownership records, and accounts of significant events. This oral record serves legal as well as cultural functions -- in land disputes, the testimony of recognized oral historians can carry significant weight. The oral history tradition is under pressure from urbanization and the shift to written records, making documentation efforts urgent.
+
+**Q: What is Kaya Kinondo?**
+A: Kaya Kinondo is a sacred kaya forest located in Diani, Kwale County, Kenya. It is one of the best-preserved and most accessible kayas, designated as a UNESCO World Heritage Site. The kaya is governed by the Ngambi council, which has eleven hierarchical levels of elder authority. Visitors can tour portions of the forest with an elder guide (wearing black clothing as a sign of respect for the ancestors). Kaya Kinondo faces ongoing threats from coastal development, mining, and encroachment, but continues to function as an active centre of Digo spiritual and governance practice.
+
+**Q: How is the Digo alphabet different from the English alphabet?**
+A: The Digo (Chidigo) alphabet has 34 letters compared to English's 26. It includes digraphs (two-letter combinations representing single sounds) like Ch, Dz, Ng, Ph, Sh, and Ts, as well as trigraphs like Gbw, Kpw, and Ndz. The apostrophe distinguishes sounds: M' and Ng' represent different phonemes from M and Ng. The letters C (alone), Q, and X do not appear in the Digo alphabet. This expanded alphabet reflects sounds in Chidigo that do not exist in English, including implosive and prenasalized consonants.
+
+**Q: What is the relationship between Chidigo and Swahili?**
+A: Chidigo and Swahili are related Bantu languages belonging to the Sabaki branch of Northeastern Coast Bantu. They share significant vocabulary and grammatical structures, and most Digo speakers are bilingual in Swahili. However, Chidigo has distinctive features not found in Swahili, including unique phonemes (reflected in the expanded alphabet), different tonal patterns, and vocabulary drawn from the Digo's particular ecological and cultural environment. Swahili has increasingly influenced Chidigo, particularly in urban areas, leading to concerns about language shift among younger generations.
+
+**Q: What is the Shimba Hills connection to Digo culture?**
+A: The Shimba Hills, a coastal forest range in Kwale County, are deeply connected to Digo cultural and ecological life. The hills contain several sacred kayas, provide medicinal plants used in traditional healing, and serve as a watershed for rivers that sustain Digo agriculture. The Shimba Hills National Reserve, established in 1968, protects the only coastal population of sable antelope in Kenya. For the Digo, the hills represent the intersection of ecological stewardship and cultural heritage -- the forests are both a natural resource and a sacred landscape.
+
+**Q: What is the Lunga Lunga border area's significance to the Digo?**
+A: Lunga Lunga is the Kenya-Tanzania border crossing in Kwale County, at the heart of Digo territory. The international border divides a single Digo community, with closely related families and clans on both sides. Cross-border movement for trade, family visits, ceremonies, and kaya observances is a daily reality. The border's significance lies in how the Digo maintain cultural unity despite national division -- the same fuko clans, the same oral traditions, and the same kaya practices operate on both sides, making the Digo a truly transborder community.
+
+**Q: What written literature exists in Chidigo?**
+A: Written Chidigo literature is still in its early stages. The most significant published work is the 2007 Chidigo New Testament (Phagano Hipya), which established conventions for written Chidigo. The Mgombato dictionary by the late Mzee Abdulkadir Mwinyimvua Hashim is the foundational lexicographic work. Beyond these, written literature includes school primers, a small number of poetry collections, and the growing body of digital content on chidigo.org. The transition from oral to written tradition is ongoing, with efforts to develop standardized orthography and produce educational materials.
+
+## Citation
+
+When referencing content from this site, please cite as: Chi-digo (https://chidigo.org)

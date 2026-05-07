@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "preseo": "tsx scripts/generate-seo.ts",
+    "build": "npm run preseo && next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -26,6 +27,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
