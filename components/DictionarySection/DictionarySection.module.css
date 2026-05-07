@@ -7,7 +7,7 @@
 }
 
 .inner {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 5.25%;
 }
@@ -31,21 +31,10 @@
   margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-/* ===== Two-column layout ===== */
+/* ===== Word of the Day (full-width, below search) ===== */
 
-.content {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: clamp(1.5rem, 4vw, 3rem);
-  align-items: start;
-}
-
-.searchColumn {
-  min-width: 0;
-}
-
-.sideColumn {
-  min-width: 0;
+.wotdCard {
+  margin-top: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 /* ===== Search bar ===== */
@@ -538,14 +527,3 @@
   opacity: 0.5;
 }
 
-/* ===== Responsive ===== */
-
-@media (max-width: 767px) {
-  .content {
-    grid-template-columns: 1fr;
-  }
-
-  .sideColumn {
-    order: -1;
-  }
-}

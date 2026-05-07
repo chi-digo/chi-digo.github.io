@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getDomain, getTopic } from '@/lib/culture/content';
+import { getHistoryTopic, historyDomain } from '@/lib/history/content';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
 export function Breadcrumb() {
@@ -35,6 +36,18 @@ export function Breadcrumb() {
         if (result) {
           items.push({ label: result.topic.title[locale] });
         }
+      }
+    }
+  } else if (segments[0] === 'history') {
+    items.push({
+      label: t.breadcrumb.history,
+      href: segments.length > 1 ? '/history' : undefined,
+    });
+
+    if (segments[1]) {
+      const result = getHistoryTopic(segments[1]);
+      if (result) {
+        items.push({ label: result.topic.title[locale] });
       }
     }
   } else if (segments[0] === 'dictionary') {

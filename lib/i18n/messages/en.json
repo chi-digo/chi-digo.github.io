@@ -12,7 +12,8 @@
     "language_selector_label": "Choose language",
     "language_name": "English",
     "culture_link": "Culture",
-    "dictionary_link": "Dictionary"
+    "dictionary_link": "Dictionary",
+    "history_link": "History"
   },
   "culture": {
     "overview_eyebrow": "Digo Culture",
@@ -73,10 +74,20 @@
     "statement": "To make Chidigo a language children grow up speaking, by giving the Digo community the tools, content, and platforms it needs to {highlight} its language and culture.",
     "statement_highlight": "transmit, evolve, and celebrate"
   },
+  "history": {
+    "eyebrow": "Our History",
+    "title": "The History of the Digo",
+    "intro": "From the Singwaya settlement to the UNESCO-inscribed kayas — the story of the Digo people across a thousand years.",
+    "timeline_heading": "Timeline",
+    "figures_heading": "Notable Figures",
+    "topics_heading": "Deep Dives",
+    "back_to_history": "← History"
+  },
   "breadcrumb": {
     "home": "Chi-digo",
     "culture": "Culture",
-    "dictionary": "Dictionary"
+    "dictionary": "Dictionary",
+    "history": "History"
   },
   "footer": {
     "copyright": "Chi-digo"

@@ -22,6 +22,7 @@ export interface Messages {
     language_name: string;
     culture_link: string;
     dictionary_link: string;
+    history_link: string;
   };
   culture: {
     overview_eyebrow: string;
@@ -82,10 +83,20 @@ export interface Messages {
     statement: string;
     statement_highlight: string;
   };
+  history: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    timeline_heading: string;
+    figures_heading: string;
+    topics_heading: string;
+    back_to_history: string;
+  };
   breadcrumb: {
     home: string;
     culture: string;
     dictionary: string;
+    history: string;
   };
   footer: {
     copyright: string;

@@ -12,7 +12,8 @@
     "language_selector_label": "Tsagula luga",
     "language_name": "Chidigo",
     "culture_link": "Chimila",
-    "dictionary_link": "Kamusi"
+    "dictionary_link": "Kamusi",
+    "history_link": "Historia"
   },
   "culture": {
     "overview_eyebrow": "Chimila cha Adigo",
@@ -73,10 +74,20 @@
     "statement": "Kuhenda Chidigo kuwa luga ambayo ana anakula anayizungumza, kwa kuapha jamii ya Adigo vyombo, maudhui, na majukwaa inavyohitaji ili {highlight} luga na chisomo chake.",
     "statement_highlight": "kueneza, kubadilisha, na kusherehekea"
   },
+  "history": {
+    "eyebrow": "Historia Yehu",
+    "title": "Historia ya Adigo",
+    "intro": "Kula makalo ga Singwaya hadi makaya garigoorodheshwa ni UNESCO — hadithi ya Adigo kpwa miaka elfu mwenga.",
+    "timeline_heading": "Ratiba ya Madzo",
+    "figures_heading": "Atu Mashuhuri",
+    "topics_heading": "Soma Zaidi",
+    "back_to_history": "← Historia"
+  },
   "breadcrumb": {
     "home": "Chi-digo",
     "culture": "Chimila",
-    "dictionary": "Kamusi"
+    "dictionary": "Kamusi",
+    "history": "Historia"
   },
   "footer": {
     "copyright": "Chi-digo"
