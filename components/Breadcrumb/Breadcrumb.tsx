@@ -91,6 +91,7 @@ export function Breadcrumb() {
     <a
       href={href}
       onClick={() => trackNavClick('breadcrumb', href)}
+      style={{ color: 'var(--fg-muted)', textDecoration: 'none' }}
     >
       {children}
     </a>
