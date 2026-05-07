@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import styles from './Footer.module.css';
 
@@ -35,35 +36,35 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <a href="/" aria-label="Chi-digo home">
+          <Link href="/" aria-label="Chi-digo home">
             <VigangoMark />
-          </a>
+          </Link>
         </div>
 
         <div className={styles.columns}>
           <div>
             <h3 className={styles.columnHeading}>{t.footer.about_heading}</h3>
             <ul className={styles.columnList}>
-              <li><a href="/about" className={styles.columnLink}>{t.footer.about_link}</a></li>
-              <li><a href="/mission" className={styles.columnLink}>{t.footer.mission_link}</a></li>
-              <li><a href="/vision" className={styles.columnLink}>{t.footer.vision_link}</a></li>
+              <li><Link href="/about" className={styles.columnLink}>{t.footer.about_link}</Link></li>
+              <li><Link href="/mission" className={styles.columnLink}>{t.footer.mission_link}</Link></li>
+              <li><Link href="/vision" className={styles.columnLink}>{t.footer.vision_link}</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className={styles.columnHeading}>{t.footer.explore_heading}</h3>
             <ul className={styles.columnList}>
-              <li><a href="/culture" className={styles.columnLink}>{t.nav.culture_link}</a></li>
-              <li><a href="/language" className={styles.columnLink}>{t.nav.language_link}</a></li>
-              <li><a href="/dictionary" className={styles.columnLink}>{t.dictionary.section_title}</a></li>
-              <li><a href="/history" className={styles.columnLink}>{t.nav.history_link}</a></li>
+              <li><Link href="/culture" className={styles.columnLink}>{t.nav.culture_link}</Link></li>
+              <li><Link href="/language" className={styles.columnLink}>{t.nav.language_link}</Link></li>
+              <li><Link href="/dictionary" className={styles.columnLink}>{t.dictionary.section_title}</Link></li>
+              <li><Link href="/history" className={styles.columnLink}>{t.nav.history_link}</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className={styles.columnHeading}>{t.footer.connect_heading}</h3>
             <ul className={styles.columnList}>
-              <li><a href="/contact" className={styles.columnLink}>{t.footer.contact_link}</a></li>
+              <li><Link href="/contact" className={styles.columnLink}>{t.footer.contact_link}</Link></li>
             </ul>
           </div>
         </div>

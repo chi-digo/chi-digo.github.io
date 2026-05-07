@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
@@ -186,22 +187,22 @@ export default function Home() {
         <div className={styles.sectionInner}>
           <p className={styles.eyebrow}>{t.cta.section_eyebrow}</p>
           <div className={styles.ctaGrid}>
-            <a href="/about" className={styles.ctaCard}>
+            <Link href="/about" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.about_title}</span>
               <span className={styles.ctaBody}>{t.cta.about_body}</span>
-            </a>
-            <a href="/mission" className={styles.ctaCard}>
+            </Link>
+            <Link href="/mission" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.mission_title}</span>
               <span className={styles.ctaBody}>{t.cta.mission_body}</span>
-            </a>
-            <a href="/vision" className={styles.ctaCard}>
+            </Link>
+            <Link href="/vision" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.vision_title}</span>
               <span className={styles.ctaBody}>{t.cta.vision_body}</span>
-            </a>
-            <a href="/contact" className={styles.ctaCard}>
+            </Link>
+            <Link href="/contact" className={styles.ctaCard}>
               <span className={styles.ctaTitle}>{t.cta.contact_title}</span>
               <span className={styles.ctaBody}>{t.cta.contact_body}</span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

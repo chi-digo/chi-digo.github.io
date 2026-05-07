@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import styles from './ContactPage.module.css';
 
@@ -147,8 +148,8 @@ export function ContactPage() {
           <h2 className={styles.sectionHeading}>{t.contact.partners_heading}</h2>
           <p className={styles.bodyText}>{t.contact.partners_body}</p>
           <div className={styles.partnerLinks}>
-            <a href="/mission" className={styles.partnerLink}>{t.footer.mission_link} →</a>
-            <a href="/vision" className={styles.partnerLink}>{t.footer.vision_link} →</a>
+            <Link href="/mission" className={styles.partnerLink}>{t.footer.mission_link} →</Link>
+            <Link href="/vision" className={styles.partnerLink}>{t.footer.vision_link} →</Link>
           </div>
         </div>
       </section>
