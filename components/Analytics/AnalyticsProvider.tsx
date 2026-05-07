@@ -25,6 +25,10 @@ function getPageView(pathname: string): { journey: Journey; stage: string } | nu
   if (pathname.startsWith('/dictionary/word/')) return { journey: 'dictionary', stage: 'word' };
   if (pathname.startsWith('/dictionary/letter/')) return { journey: 'dictionary', stage: 'browse' };
   if (pathname.startsWith('/dictionary')) return { journey: 'dictionary', stage: 'search' };
+  if (pathname === '/proverbs') return { journey: 'proverbs', stage: 'home' };
+  if (pathname.startsWith('/proverbs/theme/')) return { journey: 'proverbs', stage: 'theme' };
+  if (pathname.startsWith('/proverbs/letter/')) return { journey: 'proverbs', stage: 'browse' };
+  if (pathname.startsWith('/proverbs/p-')) return { journey: 'proverbs', stage: 'detail' };
   return null;
 }
 
@@ -74,6 +78,15 @@ export function AnalyticsProvider() {
       }
       if (segments[0] === 'dictionary' && segments[1] === 'letter' && segments[2]) {
         params.letter = decodeURIComponent(segments[2]);
+      }
+      if (segments[0] === 'proverbs' && segments[1] === 'theme' && segments[2]) {
+        params.theme = decodeURIComponent(segments[2]);
+      }
+      if (segments[0] === 'proverbs' && segments[1] === 'letter' && segments[2]) {
+        params.letter = decodeURIComponent(segments[2]);
+      }
+      if (segments[0] === 'proverbs' && segments[1]?.startsWith('p-')) {
+        params.proverb_slug = decodeURIComponent(segments[1]);
       }
 
       track(

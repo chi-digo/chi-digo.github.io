@@ -69,6 +69,28 @@ export interface Messages {
     back_to_dictionary: string;
     try_different_word: string;
   };
+  proverbs: {
+    title: string;
+    search_placeholder: string;
+    browse_by_theme: string;
+    browse_by_letter: string;
+    proverb_of_the_day: string;
+    discover_another: string;
+    related: string;
+    when_to_use: string;
+    share: string;
+    english_equivalent: string;
+    swahili_cognate: string;
+    swahili_parallel: string;
+    no_results: string;
+    cultural_context: string;
+    all_themes: string;
+    count: string;
+    mature_content: string;
+    ai_assisted: string;
+    contribute: string;
+    see_all: string;
+  };
   hero: {
     title: string;
     proverb_digo: string;
@@ -115,6 +137,7 @@ export interface Messages {
     culture: string;
     language: string;
     dictionary: string;
+    proverbs: string;
     history: string;
     about: string;
     mission: string;
