@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
+import { getLanguageTopic } from '@/lib/language/content';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
 export function Breadcrumb() {
@@ -46,6 +47,18 @@ export function Breadcrumb() {
 
     if (segments[1]) {
       const result = getHistoryTopic(segments[1]);
+      if (result) {
+        items.push({ label: result.topic.title[locale] });
+      }
+    }
+  } else if (segments[0] === 'language') {
+    items.push({
+      label: t.breadcrumb.language,
+      href: segments.length > 1 ? '/language' : undefined,
+    });
+
+    if (segments[1]) {
+      const result = getLanguageTopic(segments[1]);
       if (result) {
         items.push({ label: result.topic.title[locale] });
       }

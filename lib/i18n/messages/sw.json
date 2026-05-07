@@ -13,7 +13,7 @@
     "language_name": "Kiswahili",
     "home_link": "Nyumbani",
     "culture_link": "Utamaduni",
-    "dictionary_link": "Kamusi",
+    "language_link": "Lugha",
     "history_link": "Historia"
   },
   "culture": {
@@ -23,6 +23,19 @@
     "section_subtitle": "Gundua urithi, mila, na desturi hai za Wadigo.",
     "back_to_culture": "← Utamaduni",
     "back_to_domain": "← Nyuma",
+    "related_topics": "Mada Zinazohusiana",
+    "map_heading": "Nchi ya Wadigo",
+    "fuko_heading": "Mfumo wa Fuko",
+    "topics_heading": "Soma Zaidi"
+  },
+  "language": {
+    "eyebrow": "Lugha ya Kidigo",
+    "title": "Lugha — Lugha Hai",
+    "intro": "Chidigo ni lugha ya Kibantu ya familia ya Mijikenda, inayozungumzwa na watu zaidi ya 600,000 pwani ya Kenya na Tanzania. Lahaja nne, utamaduni tajiri wa mdomo, na fasihi iliyoishi midomoni mwa wazee kabla ya kuandikwa.",
+    "dialects_heading": "Lahaja",
+    "tools_heading": "Zana",
+    "topics_heading": "Mila za Kusimulia",
+    "back_to_language": "← Lugha",
     "related_topics": "Mada Zinazohusiana"
   },
   "dictionary": {
@@ -87,6 +100,7 @@
   "breadcrumb": {
     "home": "Chi-digo",
     "culture": "Utamaduni",
+    "language": "Lugha",
     "dictionary": "Kamusi",
     "history": "Historia"
   },

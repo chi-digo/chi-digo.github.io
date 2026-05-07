@@ -13,7 +13,7 @@
     "language_name": "English",
     "home_link": "Home",
     "culture_link": "Culture",
-    "dictionary_link": "Dictionary",
+    "language_link": "Language",
     "history_link": "History"
   },
   "culture": {
@@ -23,6 +23,19 @@
     "section_subtitle": "Explore the heritage, traditions, and living practices of the Digo people.",
     "back_to_culture": "← Culture",
     "back_to_domain": "← Back",
+    "related_topics": "Related Topics",
+    "map_heading": "The Digo Homeland",
+    "fuko_heading": "The Fuko System",
+    "topics_heading": "Deep Dives"
+  },
+  "language": {
+    "eyebrow": "Chidigo Language",
+    "title": "Lugha — The Living Language",
+    "intro": "Chidigo is a Bantu language of the Mijikenda family, spoken by over 600,000 people on the Kenya–Tanzania coast. Four dialects, a rich oral tradition, and a literature that lived in the mouths of elders long before it was written down.",
+    "dialects_heading": "Dialects",
+    "tools_heading": "Tools",
+    "topics_heading": "Oral Traditions",
+    "back_to_language": "← Language",
     "related_topics": "Related Topics"
   },
   "dictionary": {
@@ -87,6 +100,7 @@
   "breadcrumb": {
     "home": "Chi-digo",
     "culture": "Culture",
+    "language": "Language",
     "dictionary": "Dictionary",
     "history": "History"
   },

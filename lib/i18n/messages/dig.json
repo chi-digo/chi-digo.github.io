@@ -13,7 +13,7 @@
     "language_name": "Chidigo",
     "home_link": "Kaya",
     "culture_link": "Chimila",
-    "dictionary_link": "Kamusi",
+    "language_link": "Luga",
     "history_link": "Historia"
   },
   "culture": {
@@ -23,6 +23,19 @@
     "section_subtitle": "Gundua urithi, mila, na desturi za Adigo zirio hai.",
     "back_to_culture": "← Chimila",
     "back_to_domain": "← Nyuma",
+    "related_topics": "Mada Zinazohusiana",
+    "map_heading": "Tsi ya Adigo",
+    "fuko_heading": "Mfumo wa Fuko",
+    "topics_heading": "Soma Zaidi"
+  },
+  "language": {
+    "eyebrow": "Luga ya Chidigo",
+    "title": "Lugha — Luga Irio Moyo",
+    "intro": "Chidigo ni luga ya Chibantu ya mbari ya Amijikenda, inayozungumzwa ni atu zaidi ya 600,000 ph'wani ya Kenya na Tanzania. Lahaja ne, chimila chitajiri cha mdomo, na fasihi iriyokala miromoni mwa avyere kabila kuandikwa.",
+    "dialects_heading": "Lahaja",
+    "tools_heading": "Vyombo",
+    "topics_heading": "Mila za Kuhadisi",
+    "back_to_language": "← Luga",
     "related_topics": "Mada Zinazohusiana"
   },
   "dictionary": {
@@ -87,6 +100,7 @@
   "breadcrumb": {
     "home": "Chi-digo",
     "culture": "Chimila",
+    "language": "Luga",
     "dictionary": "Kamusi",
     "history": "Historia"
   },

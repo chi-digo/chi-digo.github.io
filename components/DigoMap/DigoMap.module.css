@@ -1,0 +1,53 @@
+.mapContainer {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+}
+
+/* ===== Popup ===== */
+
+.popup {
+  min-width: 160px;
+}
+
+.popupName {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-kaya-deep);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.popupCountry {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  margin: 0.1rem 0 0 0;
+}
+
+.popupSignificance {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--color-vigango-black);
+  margin: 0.3rem 0 0 0;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 767px) {
+  .map {
+    height: 380px;
+  }
+}
