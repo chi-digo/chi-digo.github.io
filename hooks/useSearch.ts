@@ -29,10 +29,17 @@ export function useSearch(debounceMs: number = 150) {
     const id = ++abortRef.current;
 
     timerRef.current = setTimeout(async () => {
-      const r = await searchDropdown(query);
-      if (abortRef.current === id) {
-        setResults(r);
-        setIsLoading(false);
+      try {
+        const r = await searchDropdown(query);
+        if (abortRef.current === id) {
+          setResults(r);
+          setIsLoading(false);
+        }
+      } catch {
+        if (abortRef.current === id) {
+          setResults(EMPTY);
+          setIsLoading(false);
+        }
       }
     }, debounceMs);
 
@@ -48,12 +55,20 @@ export function useSearch(debounceMs: number = 150) {
     }
     setIsLoading(true);
     const id = ++abortRef.current;
-    const r = await searchAll(q);
-    if (abortRef.current === id) {
-      setResults(r);
-      setIsLoading(false);
+    try {
+      const r = await searchAll(q);
+      if (abortRef.current === id) {
+        setResults(r);
+        setIsLoading(false);
+      }
+      return r;
+    } catch {
+      if (abortRef.current === id) {
+        setResults(EMPTY);
+        setIsLoading(false);
+      }
+      return EMPTY;
     }
-    return r;
   }, []);
 
   const clear = useCallback(() => {

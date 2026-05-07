@@ -1,0 +1,171 @@
+.hero {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  padding: calc(var(--nav-height, 48px) + 3rem) 0 3rem;
+}
+
+.heroInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.eyebrow {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-coral-lime-sand);
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  line-height: 1.15;
+  max-width: 20em;
+}
+
+.section {
+  padding: clamp(3rem, 6vw, 5rem) 0;
+}
+
+.sectionInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.sectionHeading {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.bodyText {
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  line-height: 1.7;
+  max-width: 42em;
+}
+
+.bodyText + .bodyText {
+  margin-top: 0.75rem;
+}
+
+/* Who we are */
+.whoWeAre {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.whoWeAre .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+/* The problem */
+.problem {
+  background-color: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  position: relative;
+}
+
+.pindoMotif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background-image: url('/pindo-diamond-chain.svg');
+  background-repeat: repeat-x;
+  background-size: 240px 24px;
+  background-position: center top;
+}
+
+.problem .eyebrow {
+  color: var(--color-coral-lime-sand);
+}
+
+.problem .sectionHeading {
+  color: var(--color-hando-cream);
+}
+
+.pullQuote {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(1.4rem, 3.2vw, 2rem);
+  line-height: 1.3;
+  color: var(--color-hando-cream);
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  max-width: 42em;
+}
+
+.problem .bodyText {
+  color: var(--color-coral-lime-sand);
+}
+
+.cliffHighlight {
+  color: var(--color-mnazi-gold);
+  font-weight: 700;
+}
+
+/* Approach */
+.approach {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.approach .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+.pillarGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-top: 1.5rem;
+}
+
+.pillarCard {
+  padding: clamp(1.2rem, 2vw, 1.75rem);
+  background: #fff;
+  border: 1px solid rgba(14, 26, 42, 0.08);
+  border-radius: 8px;
+}
+
+.pillarCard .pillarTitle {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--color-kaya-deep);
+  margin-bottom: 0.6rem;
+}
+
+.pillarCard .bodyText {
+  font-size: 0.9rem;
+}
+
+/* Why now */
+.whyNow {
+  background-color: var(--color-coral-lime-sand);
+  color: var(--color-vigango-black);
+}
+
+.whyNow .sectionHeading {
+  color: var(--color-kaya-deep);
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: calc(var(--nav-height-mobile, 44px) + 2rem);
+  }
+
+  .pillarGrid {
+    grid-template-columns: 1fr;
+  }
+}

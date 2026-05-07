@@ -23,16 +23,6 @@ type Settlement = {
   type?: string;
 };
 
-function Footer() {
-  const t = useTranslations();
-  return (
-    <footer className={styles.footer}>
-      <div className={styles.footerInner}>
-        <span className={styles.footerCopy}>{t.footer.copyright}</span>
-      </div>
-    </footer>
-  );
-}
 
 function Hero({
   eyebrow,
@@ -153,7 +143,6 @@ export function CultureOverview() {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 }
@@ -196,7 +185,6 @@ export function DomainIndex({ domainSlug }: { domainSlug: string }) {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

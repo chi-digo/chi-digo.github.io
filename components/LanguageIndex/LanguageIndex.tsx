@@ -6,16 +6,6 @@ import { dialects } from '@/lib/language/dialects';
 import { languageTools } from '@/lib/language/tools';
 import styles from './LanguageIndex.module.css';
 
-function Footer() {
-  const t = useTranslations();
-  return (
-    <footer className={styles.footer}>
-      <div className={styles.footerInner}>
-        <span className={styles.footerCopy}>{t.footer.copyright}</span>
-      </div>
-    </footer>
-  );
-}
 
 export function LanguageIndex() {
   const t = useTranslations();
@@ -132,7 +122,6 @@ export function LanguageIndex() {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 }

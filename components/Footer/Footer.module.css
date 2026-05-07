@@ -1,0 +1,109 @@
+.footer {
+  background-color: var(--color-kaya-deep);
+  border-top: 1px solid rgba(242, 234, 215, 0.12);
+  padding: clamp(2.5rem, 5vw, 4rem) 0 0;
+}
+
+.footerInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5.25%;
+}
+
+.logo {
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.logo a {
+  display: inline-block;
+  color: var(--color-hando-cream);
+  text-decoration: none;
+}
+
+.logo svg {
+  height: 24px;
+  width: auto;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.columnHeading {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-mnazi-gold);
+  margin: 0 0 1rem;
+}
+
+.columnList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.columnLink {
+  font-family: 'Source Serif 4', var(--font-serif), Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--color-hando-cream);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+
+.columnLink:hover {
+  opacity: 1;
+}
+
+.columnLink:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.bottomBar {
+  border-top: 1px solid rgba(242, 234, 215, 0.1);
+  padding: 1.25rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.copyright {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.7rem;
+  color: var(--color-hando-cream);
+  opacity: 0.5;
+  margin: 0;
+}
+
+.license {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.7rem;
+  color: var(--color-hando-cream);
+  opacity: 0.5;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

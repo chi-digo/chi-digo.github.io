@@ -14,16 +14,6 @@ const eraPeriods: Record<Era, string> = {
   modern: '1963–present',
 };
 
-function Footer() {
-  const t = useTranslations();
-  return (
-    <footer className={styles.footer}>
-      <div className={styles.footerInner}>
-        <span className={styles.footerCopy}>{t.footer.copyright}</span>
-      </div>
-    </footer>
-  );
-}
 
 export function HistoryIndex() {
   const t = useTranslations();
@@ -139,7 +129,6 @@ export function HistoryIndex() {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 }
