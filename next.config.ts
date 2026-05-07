@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import path from "path";
 
 const nextConfig: NextConfig = {
   output: "export",
@@ -7,9 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   transpilePackages: ["@chi-digo/design-system"],
-  turbopack: {
-    root: path.resolve(__dirname, ".."),
-  },
+  turbopack: {},
 };
 
 export default nextConfig;
