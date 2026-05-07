@@ -11,7 +11,7 @@
   padding: 0 5.25%;
 
   background-color: transparent;
-  color: var(--color-hando-white);
+  color: var(--color-hando-cream);
 
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
@@ -43,7 +43,7 @@
 }
 
 .navLink {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -81,7 +81,7 @@
   cursor: pointer;
   color: inherit;
 
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -133,10 +133,10 @@
   padding: 8px 12px;
   cursor: pointer;
 
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--color-hando-white);
+  color: var(--color-hando-cream);
 
   outline: none;
 }

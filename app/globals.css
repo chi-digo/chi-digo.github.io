@@ -1,4 +1,6 @@
-@import "../node_modules/@chi-digo/design-system/dist/tokens/index.css";
+@import "../node_modules/@chi-digo/design-system/dist/tokens/primitives.css";
+@import "../node_modules/@chi-digo/design-system/dist/tokens/semantic-light.css";
+@import "../node_modules/@chi-digo/design-system/dist/tokens/semantic-dark.css";
 
 *,
 *::before,
@@ -9,24 +11,12 @@
 }
 
 :root {
-  /* Primary */
-  --color-hando-white: #F2EAD7;
-  --color-ngundu-red: #B5261D;
-  --color-kaya-indigo: #1F3A5F;
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-serif: var(--font-source-serif), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
   --color-kaya-deep: #0E1A2A;
-  --color-vigango-black: #1A1A1A;
 
-  /* Secondary */
-  --color-coral-lime-sand: #E8DCC2;
-  --color-mangrove-green: #2E4A2C;
-  --color-palm-frond-green: #7A8C3C;
-  --color-mnazi-gold: #C99846;
-
-  /* Accent */
-  --color-kanga-orange: #E8761B;
-  --color-kanga-yellow: #F2C12E;
-
-  /* Nav bar */
   --nav-height: 48px;
   --nav-height-mobile: 44px;
 }
@@ -38,9 +28,9 @@ html {
 html,
 body {
   height: 100%;
-  font-family: 'Source Serif 4', Georgia, serif;
+  font-family: var(--font-serif);
   background-color: var(--color-kaya-deep);
-  color: var(--color-hando-white);
+  color: var(--color-hando-cream);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
