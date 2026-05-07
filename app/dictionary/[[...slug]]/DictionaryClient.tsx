@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
+import React, { Component, useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
@@ -10,21 +10,50 @@ import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from '../dictionary.module.css';
 
+/* ===== Debug error boundary ===== */
+
+class DictErrorBoundary extends Component<
+  { children: React.ReactNode },
+  { error: Error | null }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { error: null };
+  }
+  static getDerivedStateFromError(error: Error) {
+    return { error };
+  }
+  componentDidCatch(error: Error, info: React.ErrorInfo) {
+    console.error('[DICT-DEBUG] ErrorBoundary caught:', error, info.componentStack);
+  }
+  render() {
+    if (this.state.error) {
+      return (
+        <div style={{ padding: 24, background: '#fee', border: '2px solid red', borderRadius: 8, margin: 16 }}>
+          <h2 style={{ color: 'red', margin: 0 }}>Dictionary Error (debug)</h2>
+          <pre style={{ whiteSpace: 'pre-wrap', fontSize: 13, marginTop: 8 }}>
+            {this.state.error.message}
+            {'\n'}
+            {this.state.error.stack}
+          </pre>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 const LANG_LABELS: Record<string, string> = {
   dg: 'Chidigo',
   sw: 'Chiswahili',
   en: 'Chiingereza',
 };
 
-const CURATED_WORDS = [
-  'mnazi', 'moyo', 'baraka', 'pembe', 'mbuzi', 'ngano', 'dzino', 'makuti',
-  'mutu', 'kuku', 'damu', 'mviringo', 'phanga', 'unga', 'chapati',
-  'mkpwono', 'tsongo', 'gulu', 'simba', 'tembo', 'ngalawa', 'meli',
-  'kazi', 'fungu', 'tanga', 'shule', 'msikiti', 'sindano', 'pingu',
-  'nguwo', 'dzuwa', 'luga', 'nyuni', 'matso', 'mgongo', 'baba',
-  'mwana', 'bibi', 'ndugu', 'munda', 'mudzi', 'nyama', 'nazi',
-  'hando', 'sengenya', 'muhi', 'chirimo', 'kusi', 'laga', 'hepa',
-  'henda', 'rima', 'risa', 'dzenga',
+const IDX_FILES = [
+  'a','b','ch','d','dz','e','f','g','gbw','h',
+  'i','j','k','kpw','l','m','m_','n','ndz','ng',
+  'ng_','o','p','ph','r','s','sh','t','ts','u',
+  'v','w','y','z',
 ];
 
 function cleanHeadword(raw: string): string {
@@ -159,24 +188,27 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
   );
 }
 
-/* ===== Word of the Day card ===== */
+/* ===== Featured Word card ===== */
 
-function WordOfTheDayCard({ nav }: { nav: Navigate }) {
+function FeaturedWordCard({ nav }: { nav: Navigate }) {
   const t = useTranslations();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
-    const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 0);
-    const dayOfYear = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-    const word = CURATED_WORDS[dayOfYear % CURATED_WORDS.length];
+    const file = IDX_FILES[Math.floor(Math.random() * IDX_FILES.length)];
 
-    loadEntriesByHeadword(word)
+    fetch(`/data/${file}.idx.json`)
+      .then((r) => r.json())
+      .then((idx: { hw: string }[]) => {
+        if (cancelled || idx.length === 0) return;
+        const pick = idx[Math.floor(Math.random() * idx.length)];
+        return loadEntriesByHeadword(cleanHeadword(pick.hw));
+      })
       .then((entries) => {
         if (cancelled) return;
-        setEntry(entries[0] ?? null);
+        setEntry(entries?.[0] ?? null);
         setLoading(false);
       })
       .catch(() => {
@@ -190,7 +222,7 @@ function WordOfTheDayCard({ nav }: { nav: Navigate }) {
   if (loading) {
     return (
       <div className={styles.wotdCard}>
-        <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+        <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
         <p className={styles.wotdLoading}>{t.dictionary.searching}</p>
       </div>
     );
@@ -206,7 +238,7 @@ function WordOfTheDayCard({ nav }: { nav: Navigate }) {
       className={styles.wotdCard}
       onClick={() => goToWord(nav, entry.headword)}
     >
-      <p className={styles.wotdLabel}>{t.dictionary.word_of_the_day}</p>
+      <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
       {entry.ipa && <p className={styles.wotdIpa}>/{entry.ipa}/</p>}
       <span className={styles.wotdPos}>
@@ -540,13 +572,18 @@ function SearchView({ q, nav }: { q: string; nav: Navigate }) {
 function HomeView({ nav }: { nav: Navigate }) {
   const t = useTranslations();
 
+  useEffect(() => {
+    console.debug('[DICT-DEBUG] HomeView MOUNTED');
+    return () => { console.debug('[DICT-DEBUG] HomeView UNMOUNTED'); };
+  }, []);
+
   return (
     <>
       <DictionarySearchBar nav={nav} />
 
       <section className={styles.mt4}>
-        <p className={styles.sectionLabel}>{t.dictionary.word_of_the_day}</p>
-        <WordOfTheDayCard nav={nav} />
+        <p className={styles.sectionLabel}>{t.dictionary.featured_word}</p>
+        <FeaturedWordCard nav={nav} />
       </section>
 
       <section className={styles.mt6}>
@@ -576,7 +613,19 @@ function DictionaryRouter() {
   const router = useRouter();
   const q = searchParams.get('q');
   const t = useTranslations();
-  const nav: Navigate = useCallback((path: string) => router.push(path), [router]);
+  const nav: Navigate = useCallback((path: string) => {
+    console.debug(`[DICT-DEBUG] nav() called: ${path}`);
+    router.push(path);
+  }, [router]);
+
+  useEffect(() => {
+    console.debug('[DICT-DEBUG] DictionaryRouter MOUNTED');
+    return () => { console.debug('[DICT-DEBUG] DictionaryRouter UNMOUNTED'); };
+  }, []);
+
+  useEffect(() => {
+    console.debug(`[DICT-DEBUG] DictionaryRouter pathname changed: "${pathname}"`);
+  }, [pathname]);
 
   const slug = useMemo(() => {
     const prefix = '/dictionary';
@@ -586,16 +635,23 @@ function DictionaryRouter() {
     return rest.split('/').map(decodeURIComponent);
   }, [pathname]);
 
+  let viewName: string;
   let view: React.ReactNode;
   if (slug[0] === 'word' && slug[1]) {
+    viewName = `WordView(${slug[1]})`;
     view = <WordView headword={cleanHeadword(slug[1])} nav={nav} />;
   } else if (slug[0] === 'letter' && slug[1]) {
+    viewName = `LetterView(${slug[1]})`;
     view = <LetterView letter={slug[1]} nav={nav} />;
   } else if (q) {
+    viewName = `SearchView(${q})`;
     view = <SearchView q={q} nav={nav} />;
   } else {
+    viewName = 'HomeView';
     view = <HomeView nav={nav} />;
   }
+
+  console.debug(`[DICT-DEBUG] DictionaryRouter render: pathname="${pathname}", slug=[${slug.join(',')}], q=${q}, view=${viewName}`);
 
   return (
     <div className={styles.page}>
@@ -608,8 +664,10 @@ function DictionaryRouter() {
 
 export function DictionaryClient() {
   return (
-    <Suspense>
-      <DictionaryRouter />
-    </Suspense>
+    <DictErrorBoundary>
+      <Suspense fallback={<div style={{ padding: 24 }}>[DICT-DEBUG] Suspense fallback showing...</div>}>
+        <DictionaryRouter />
+      </Suspense>
+    </DictErrorBoundary>
   );
 }

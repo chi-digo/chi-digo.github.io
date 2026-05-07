@@ -55,7 +55,7 @@ export interface Messages {
     section_title: string;
     section_subtitle: string;
     search_placeholder: string;
-    word_of_the_day: string;
+    featured_word: string;
     no_results: string;
     searching: string;
     results_for: string;

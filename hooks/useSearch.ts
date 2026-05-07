@@ -27,15 +27,21 @@ export function useSearch(debounceMs: number = 150) {
 
     setIsLoading(true);
     const id = ++abortRef.current;
+    console.debug(`[DICT-DEBUG] useSearch effect: query="${query}", id=${id}`);
 
     timerRef.current = setTimeout(async () => {
       try {
+        console.debug(`[DICT-DEBUG] useSearch debounce fired: query="${query}", id=${id}, current=${abortRef.current}`);
         const r = await searchDropdown(query);
         if (abortRef.current === id) {
+          console.debug(`[DICT-DEBUG] useSearch results applied: total=${r.total}`);
           setResults(r);
           setIsLoading(false);
+        } else {
+          console.debug(`[DICT-DEBUG] useSearch results STALE: id=${id} vs current=${abortRef.current}`);
         }
-      } catch {
+      } catch (err) {
+        console.error(`[DICT-DEBUG] useSearch error:`, err);
         if (abortRef.current === id) {
           setResults(EMPTY);
           setIsLoading(false);

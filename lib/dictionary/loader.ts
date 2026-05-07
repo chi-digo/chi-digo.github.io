@@ -27,12 +27,18 @@ function digoLetterFile(letter: string): string {
 
 async function fetchJson<T>(path: string): Promise<T> {
   const cached = cache.get(path);
-  if (cached) return cached as T;
+  if (cached) {
+    console.debug(`[DICT-DEBUG] fetchJson cache HIT: ${path}`);
+    return cached as T;
+  }
 
+  console.debug(`[DICT-DEBUG] fetchJson cache MISS, fetching: ${path}`);
   const res = await fetch(path);
+  console.debug(`[DICT-DEBUG] fetchJson response: ${path} → status=${res.status}, type=${res.headers.get('content-type')}`);
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   const data: T = await res.json();
   cache.set(path, data);
+  console.debug(`[DICT-DEBUG] fetchJson cached OK: ${path}`);
   return data;
 }
 
