@@ -3,9 +3,16 @@
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { historyDomain } from '@/lib/history/content';
 import { figures } from '@/lib/history/figures';
-import { timelineEvents } from '@/lib/history/timeline';
-import { Timeline, type TimelineItem } from '@chi-digo/design-system';
+import { timelineEvents, eraLabels, eraColors, type Era } from '@/lib/history/timeline';
 import styles from './HistoryIndex.module.css';
+
+const eras: Era[] = ['origins', 'kaya', 'colonial', 'modern'];
+const eraPeriods: Record<Era, string> = {
+  origins: 'pre-1500s',
+  kaya: '1500s–1900s',
+  colonial: '1886–1963',
+  modern: '1963–present',
+};
 
 function Footer() {
   const t = useTranslations();
@@ -21,12 +28,6 @@ function Footer() {
 export function HistoryIndex() {
   const t = useTranslations();
   const { locale } = useLocale();
-
-  const tlItems: TimelineItem[] = timelineEvents.map((ev) => ({
-    date: ev.date,
-    title: ev.title[locale],
-    description: ev.description[locale],
-  }));
 
   return (
     <>
@@ -49,8 +50,48 @@ export function HistoryIndex() {
           <h2 className={styles.sectionHeading}>
             {t.history.timeline_heading}
           </h2>
-          <div className={styles.timelineWrap}>
-            <Timeline items={tlItems} />
+
+          {/* Sticky legend */}
+          <div className={styles.legend}>
+            {eras.map((era) => (
+              <div key={era} className={styles.legendItem}>
+                <span
+                  className={styles.legendDot}
+                  style={{ background: eraColors[era] }}
+                />
+                <span className={styles.legendLabel}>
+                  {eraLabels[era][locale]}
+                </span>
+                <span className={styles.legendPeriod}>
+                  {eraPeriods[era]}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {/* Custom era-colored timeline */}
+          <div className={styles.timeline}>
+            {timelineEvents.map((ev, i) => (
+              <div key={i} className={styles.tlEvent}>
+                <div className={styles.tlTrack}>
+                  <div
+                    className={styles.tlDot}
+                    style={{ background: eraColors[ev.era] }}
+                  />
+                  {i < timelineEvents.length - 1 && (
+                    <div
+                      className={styles.tlLine}
+                      style={{ background: eraColors[ev.era] }}
+                    />
+                  )}
+                </div>
+                <div className={styles.tlBody}>
+                  <span className={styles.tlDate}>{ev.date}</span>
+                  <h3 className={styles.tlTitle}>{ev.title[locale]}</h3>
+                  <p className={styles.tlDesc}>{ev.description[locale]}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -1,14 +1,48 @@
 import type { Locale } from '@/lib/i18n/config';
 
+export type Era = 'origins' | 'kaya' | 'colonial' | 'modern';
+
 export type TimelineEvent = {
+  era: Era;
   date: string;
   title: Record<Locale, string>;
   description: Record<Locale, string>;
 };
 
+export const eraLabels: Record<Era, Record<Locale, string>> = {
+  origins: {
+    en: 'Origins & Settlement',
+    sw: 'Asili na Makazi',
+    dig: 'Asili na Makalo',
+  },
+  kaya: {
+    en: 'The Kaya Period',
+    sw: 'Kipindi cha Makaya',
+    dig: 'Chipindi cha Makaya',
+  },
+  colonial: {
+    en: 'Colonial Period',
+    sw: 'Kipindi cha Ukoloni',
+    dig: 'Chipindi cha Ukoloni',
+  },
+  modern: {
+    en: 'Independence & Modern Era',
+    sw: 'Uhuru na Enzi ya Kisasa',
+    dig: 'Uhuru na Enzi ya Chisambi',
+  },
+};
+
+export const eraColors: Record<Era, string> = {
+  origins: 'var(--color-mnazi-gold)',
+  kaya: 'var(--color-kaya-indigo)',
+  colonial: 'var(--color-ngundu-red)',
+  modern: 'var(--color-mangrove-green)',
+};
+
 export const timelineEvents: TimelineEvent[] = [
   // Era 1: Origins & Settlement (pre-1500s)
   {
+    era: 'origins',
     date: 'c. 100 CE+',
     title: {
       en: 'Early Bantu settlement',
@@ -22,6 +56,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'origins',
     date: 'c. 1050–1150',
     title: {
       en: 'First contact with Muslims',
@@ -35,6 +70,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'origins',
     date: 'c. 1200s–1300s',
     title: {
       en: 'Kongo Mosque built',
@@ -48,6 +84,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'origins',
     date: 'c. 1400s–1500s',
     title: {
       en: 'Digo settle in present homeland',
@@ -63,6 +100,7 @@ export const timelineEvents: TimelineEvent[] = [
 
   // Era 2: The Kaya Period (1500s-1900s)
   {
+    era: 'kaya',
     date: 'c. 1500s–1600s',
     title: {
       en: 'Kaya settlements established',
@@ -76,6 +114,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'kaya',
     date: '1500–1698',
     title: {
       en: 'Portuguese domination',
@@ -89,6 +128,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'kaya',
     date: '1698',
     title: {
       en: 'Omani capture Fort Jesus',
@@ -102,6 +142,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'kaya',
     date: '1840s–1850s',
     title: {
       en: 'First Digo convert to Islam',
@@ -115,6 +156,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'kaya',
     date: '1875–1884',
     title: {
       en: 'Peak of coastal slave trade',
@@ -130,6 +172,7 @@ export const timelineEvents: TimelineEvent[] = [
 
   // Era 3: Colonial Period (1886-1963)
   {
+    era: 'colonial',
     date: '1886',
     title: {
       en: 'Anglo-German Treaty',
@@ -143,6 +186,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1888–1889',
     title: {
       en: 'Abushiri Revolt',
@@ -156,6 +200,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1897–1900',
     title: {
       en: 'Great Famine and smallpox',
@@ -169,6 +214,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1905–1907',
     title: {
       en: 'Maji Maji Rebellion',
@@ -182,6 +228,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1913–1914',
     title: {
       en: 'Giriama Uprising',
@@ -195,6 +242,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1920s',
     title: {
       en: 'Digo become majority Muslim',
@@ -208,6 +256,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1940s',
     title: {
       en: 'Last kayas abandoned',
@@ -221,6 +270,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'colonial',
     date: '1948',
     title: {
       en: 'Digo District renamed Kwale',
@@ -236,6 +286,7 @@ export const timelineEvents: TimelineEvent[] = [
 
   // Era 4: Independence & Modern Era (1963-present)
   {
+    era: 'modern',
     date: '1961–1963',
     title: {
       en: 'Independence',
@@ -249,6 +300,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'modern',
     date: '1983',
     title: {
       en: 'Kongo Mosque gazetted',
@@ -262,6 +314,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'modern',
     date: '1987–1994',
     title: {
       en: 'Mutoro\'s kaya excavations',
@@ -275,6 +328,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'modern',
     date: '1997',
     title: {
       en: 'Likoni clashes',
@@ -288,6 +342,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'modern',
     date: '2008',
     title: {
       en: 'UNESCO World Heritage inscription',
@@ -301,6 +356,7 @@ export const timelineEvents: TimelineEvent[] = [
     },
   },
   {
+    era: 'modern',
     date: '2014–present',
     title: {
       en: 'Kwale titanium mining',

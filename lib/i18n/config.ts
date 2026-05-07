@@ -20,6 +20,7 @@ export interface Messages {
   nav: {
     language_selector_label: string;
     language_name: string;
+    home_link: string;
     culture_link: string;
     dictionary_link: string;
     history_link: string;

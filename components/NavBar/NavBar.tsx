@@ -151,6 +151,9 @@ export function NavBar() {
         <VigangoMark />
       </a>
 
+      <a href="/" className={styles.navLink}>
+        {t.nav.home_link}
+      </a>
       <a href="/history" className={styles.navLink}>
         {t.nav.history_link}
       </a>
