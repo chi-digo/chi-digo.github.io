@@ -75,9 +75,10 @@ export function Breadcrumb() {
   } else if (segments[0] === 'contact') {
     items.push({ label: t.breadcrumb.contact });
   } else if (segments[0] === 'proverbs') {
+    items.push({ label: t.breadcrumb.language, href: '/language' });
     items.push({
       label: t.breadcrumb.proverbs,
-      href: segments.length > 0 ? '/proverbs' : undefined,
+      href: segments.length > 1 ? '/proverbs' : undefined,
     });
 
     if (segments[1] === 'theme' && segments[2]) {
@@ -95,6 +96,7 @@ export function Breadcrumb() {
       items.push({ label });
     }
   } else if (segments[0] === 'dictionary') {
+    items.push({ label: t.breadcrumb.language, href: '/language' });
     items.push({
       label: t.breadcrumb.dictionary,
       href: segments.length > 1 ? '/dictionary' : undefined,
