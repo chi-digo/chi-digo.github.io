@@ -2,7 +2,8 @@
 
 import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
-import { useTranslations } from '@/lib/i18n/context';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
+import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
@@ -47,16 +48,24 @@ function goToSearch(nav: Navigate, q: string) {
 
 /* ===== Search dropdown (shared) ===== */
 
+function getEquivByLocale(result: SearchResult, locale: Locale): string {
+  if (locale === 'sw') return result.equivalent_sw || result.equivalent;
+  if (locale === 'dig') return result.equivalent_dg || result.equivalent;
+  return result.equivalent;
+}
+
 function SearchDropdown({
   results,
   visible,
   isLoading,
   onSelect,
+  locale,
 }: {
   results: { dg: SearchResult[]; sw: SearchResult[]; en: SearchResult[]; total: number };
   visible: boolean;
   isLoading: boolean;
   onSelect: (result: SearchResult) => void;
+  locale: Locale;
 }) {
   const t = useTranslations();
   if (!visible || (results.total === 0 && !isLoading)) return null;
@@ -80,7 +89,7 @@ function SearchDropdown({
                 type="button"
               >
                 <span className={styles.dropdownHeadword}>{result.headword}</span>
-                <span className={styles.dropdownEquiv}>{result.equivalent}</span>
+                <span className={styles.dropdownEquiv}>{getEquivByLocale(result, locale)}</span>
               </button>
             ))}
           </div>
@@ -94,6 +103,7 @@ function SearchDropdown({
 
 function DictionarySearchBar({ nav }: { nav: Navigate }) {
   const t = useTranslations();
+  const { locale } = useLocale();
   const { query, setQuery, results, isLoading } = useSearch('dictionary');
   const [isFocused, setIsFocused] = useState(false);
   const focusTracked = useRef(false);
@@ -166,6 +176,7 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
         visible={isFocused && query.length >= 2}
         isLoading={isLoading}
         onSelect={handleSelect}
+        locale={locale}
       />
     </form>
   );

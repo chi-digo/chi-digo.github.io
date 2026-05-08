@@ -40,16 +40,24 @@ function goToSearch(nav: Navigate, q: string) {
 
 /* ===== Search dropdown ===== */
 
+function getProverbGloss(proverb: Proverb, locale: Locale): string {
+  if (locale === 'sw') return proverb.literal_sw || proverb.idiomatic_sw;
+  if (locale === 'dig') return proverb.idiomatic_dg || '';
+  return proverb.literal_en || proverb.idiomatic_en;
+}
+
 function SearchDropdown({
   results,
   visible,
   isLoading,
   onSelect,
+  locale,
 }: {
   results: GroupedProverbResults;
   visible: boolean;
   isLoading: boolean;
   onSelect: (proverb: Proverb) => void;
+  locale: Locale;
 }) {
   const t = useTranslations();
   if (!visible || (results.total === 0 && !isLoading)) return null;
@@ -74,7 +82,7 @@ function SearchDropdown({
               >
                 <span className={styles.dropdownDigo}>{proverb.digo}</span>
                 <span className={styles.dropdownGloss}>
-                  {proverb.literal_en || proverb.idiomatic_en}
+                  {getProverbGloss(proverb, locale)}
                 </span>
               </button>
             ))}
@@ -87,7 +95,7 @@ function SearchDropdown({
 
 /* ===== Search bar ===== */
 
-function ProverbSearchBar({ nav }: { nav: Navigate }) {
+function ProverbSearchBar({ nav, locale }: { nav: Navigate; locale: Locale }) {
   const t = useTranslations();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<GroupedProverbResults>({ dg: [], en: [], sw: [], total: 0 });
@@ -180,6 +188,7 @@ function ProverbSearchBar({ nav }: { nav: Navigate }) {
         visible={isFocused && query.length >= 2}
         isLoading={isLoading}
         onSelect={handleSelect}
+        locale={locale}
       />
     </form>
   );
@@ -296,7 +305,7 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
 
   return (
     <>
-      <ProverbSearchBar nav={nav} />
+      <ProverbSearchBar nav={nav} locale={locale} />
 
       <section className={styles.mt4}>
         <p className={styles.sectionLabel}>{t.proverbs.proverb_of_the_day}</p>
@@ -408,7 +417,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   if (!proverb) {
     return (
       <>
-        <ProverbSearchBar nav={nav} />
+        <ProverbSearchBar nav={nav} locale={locale} />
         <div className={styles.emptyState}>
           <p className={styles.emptyTitle}>{t.proverbs.no_results.replace('{query}', slug)}</p>
           <p className={styles.emptyBody}>{t.proverbs.try_different_search}</p>
@@ -587,7 +596,7 @@ function ThemeView({ themeSlug, nav, locale }: { themeSlug: string; nav: Navigat
 
   return (
     <>
-      <ProverbSearchBar nav={nav} />
+      <ProverbSearchBar nav={nav} locale={locale} />
 
       <div className={styles.themeHeader}>
         <h1 className={styles.themeHeaderTitle}>
@@ -638,7 +647,7 @@ function LetterView({ letter, nav, locale }: { letter: string; nav: Navigate; lo
 
   return (
     <>
-      <ProverbSearchBar nav={nav} />
+      <ProverbSearchBar nav={nav} locale={locale} />
 
       <p className={styles.resultsInfo}>
         {loading
@@ -689,7 +698,7 @@ function SearchResultsView({ q, nav, locale }: { q: string; nav: Navigate; local
 
   return (
     <>
-      <ProverbSearchBar nav={nav} />
+      <ProverbSearchBar nav={nav} locale={locale} />
 
       {q && (
         <p className={styles.resultsInfo}>

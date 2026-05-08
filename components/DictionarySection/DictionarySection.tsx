@@ -1,23 +1,32 @@
 'use client';
 
 import { useState, useCallback, useRef } from 'react';
-import { useTranslations } from '@/lib/i18n/context';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useSearch } from '@/hooks/useSearch';
 import { track } from '@/lib/analytics/track';
 import type { SearchResult } from '@/lib/dictionary/search';
+import type { Locale } from '@/lib/i18n/config';
 import { WordOfTheDayCard } from './WordOfTheDay';
 import styles from './DictionarySection.module.css';
+
+function getEquivByLocale(result: SearchResult, locale: Locale): string {
+  if (locale === 'sw') return result.equivalent_sw || result.equivalent;
+  if (locale === 'dig') return result.equivalent_dg || result.equivalent;
+  return result.equivalent;
+}
 
 function SearchDropdown({
   results,
   visible,
   isLoading,
   onSelect,
+  locale,
 }: {
   results: { dg: SearchResult[]; sw: SearchResult[]; en: SearchResult[]; total: number };
   visible: boolean;
   isLoading: boolean;
   onSelect: (result: SearchResult) => void;
+  locale: Locale;
 }) {
   const t = useTranslations();
   const LANG_LABELS: Record<string, string> = {
@@ -47,7 +56,7 @@ function SearchDropdown({
                 type="button"
               >
                 <span className={styles.dropdownHeadword}>{result.headword}</span>
-                <span className={styles.dropdownEquiv}>{result.equivalent}</span>
+                <span className={styles.dropdownEquiv}>{getEquivByLocale(result, locale)}</span>
               </button>
             ))}
           </div>
@@ -59,6 +68,7 @@ function SearchDropdown({
 
 export function DictionarySection() {
   const t = useTranslations();
+  const { locale } = useLocale();
   const { query, setQuery, results, isLoading } = useSearch('homepage');
   const [isFocused, setIsFocused] = useState(false);
   const focusTracked = useRef(false);
@@ -140,6 +150,7 @@ export function DictionarySection() {
             visible={isFocused && query.length >= 2}
             isLoading={isLoading}
             onSelect={handleSelect}
+            locale={locale}
           />
         </form>
 
