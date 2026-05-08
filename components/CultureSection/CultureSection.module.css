@@ -76,6 +76,23 @@
   overflow: hidden;
 }
 
+.seeAll {
+  margin-top: clamp(1.5rem, 3vw, 2rem);
+  text-align: center;
+}
+
+.seeAllLink {
+  font-family: var(--font-sans);
+  font-size: clamp(0.85rem, 1.2vw, 0.95rem);
+  font-weight: 500;
+  color: var(--color-kaya-indigo);
+  text-decoration: none;
+}
+
+.seeAllLink:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 767px) {
   .cardGrid {
     grid-template-columns: 1fr;

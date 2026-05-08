@@ -58,7 +58,7 @@
   position: absolute;
   left: 5.25%;
   right: 5.25%;
-  top: 25.3%;
+  top: 22%;
   z-index: 2;
 }
 
@@ -73,6 +73,23 @@
   margin: 0;
 }
 
+.subtitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  line-height: 1.4;
+  color: var(--color-hando-cream);
+  opacity: 0.75;
+  margin: 0.5rem 0 0 0;
+  max-width: 50%;
+}
+
+/* ===== Daily proverb ===== */
+
+.dailyProverb {
+  margin-top: 1.5rem;
+}
+
 .proverb {
   font-family: var(--font-display);
   font-weight: 300;
@@ -81,7 +98,7 @@
   line-height: 1.25;
   color: var(--color-hando-cream);
   font-variation-settings: 'opsz' 22, 'SOFT' 0, 'WONK' 1;
-  margin: 0.3in 0 0 0;
+  margin: 0;
   max-width: 60%;
 }
 
@@ -94,6 +111,41 @@
   letter-spacing: 0.01em;
   color: var(--color-coral-lime-sand);
   margin: 0.12in 0 0 0;
+}
+
+/* ===== Quick-access pills ===== */
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  font-family: var(--font-sans);
+  font-size: clamp(0.7rem, 1vw, 0.8rem);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-hando-cream);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.pill:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.pill:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
 }
 
 /* ===== Logo ===== */
@@ -112,11 +164,6 @@
 }
 
 /* ===== Shared section styles ===== */
-
-.section {
-  width: 100%;
-  padding: clamp(3rem, 8vw, 6rem) 0;
-}
 
 .sectionInner {
   max-width: 1100px;
@@ -141,91 +188,36 @@
   margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-.bodyText {
-  font-family: var(--font-serif);
-  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  line-height: 1.65;
-}
+/* ===== Explore section ===== */
 
-/* ===== Section 2 — What is Digo ===== */
-
-.whatIsDigo {
+.exploreSection {
+  width: 100%;
+  padding: clamp(3rem, 8vw, 6rem) 0;
   background-color: var(--color-hando-cream);
   color: var(--color-vigango-black);
 }
 
-.whatIsDigo .eyebrow {
+.exploreSection .eyebrow {
   color: var(--color-kaya-indigo);
 }
 
-.whatIsDigo .sectionHeading {
+.exploreSection .sectionHeading {
   color: var(--color-kaya-deep);
 }
 
-.twoColumns {
+.exploreGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(1.5rem, 4vw, 3rem);
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1rem, 2vw, 1.25rem);
 }
 
-.factLabel {
-  font-family: var(--font-sans);
-  font-size: clamp(0.65rem, 0.9vw, 0.75rem);
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-kaya-indigo);
-  margin-top: 1.5rem;
-  margin-bottom: 0.4rem;
-}
+/* ===== Feature cards ===== */
 
-.factLabel:first-child {
-  margin-top: 0;
-}
-
-.culturalAnchorsCard {
-  background-color: var(--color-coral-lime-sand);
-  border-radius: 8px;
-  padding: clamp(1.25rem, 2.5vw, 2rem);
-}
-
-.culturalAnchorsCard .factLabel {
-  color: var(--color-ngundu-red);
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-}
-
-.culturalAnchorsCard .bodyText {
-  margin-bottom: 0.5rem;
-}
-
-.culturalAnchorsCard .bodyText:last-child {
-  margin-bottom: 0;
-}
-
-/* ===== CTA Cards ===== */
-
-.ctaSection {
-  background-color: var(--color-hando-cream);
-  color: var(--color-vigango-black);
-}
-
-.ctaSection .eyebrow {
-  color: var(--color-mnazi-gold);
-}
-
-.ctaGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: clamp(1rem, 2vw, 1.5rem);
-  margin-top: 1.5rem;
-}
-
-.ctaCard {
+.featureCard {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: clamp(1.2rem, 2vw, 1.75rem);
+  gap: 0.4rem;
+  padding: clamp(1.2rem, 2vw, 1.5rem);
   background: #fff;
   border: 1px solid rgba(14, 26, 42, 0.08);
   border-radius: 8px;
@@ -234,48 +226,131 @@
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.ctaCard:hover {
+.featureCard:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(14, 26, 42, 0.1);
 }
 
-.ctaCard:focus-visible {
+.featureCard:focus-visible {
   outline: 2px solid var(--color-mnazi-gold);
   outline-offset: 2px;
 }
 
-.ctaTitle {
+.featureCardHighlight {
+  background: var(--color-coral-lime-sand);
+  border-color: transparent;
+}
+
+.featureCardDisabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.featureCardDisabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.featureStat {
+  font-family: var(--font-sans);
+  font-size: clamp(0.6rem, 0.85vw, 0.72rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+}
+
+.featureTitle {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--color-kaya-deep);
 }
 
-.ctaBody {
+.featureDesc {
   font-family: var(--font-serif);
-  font-size: 0.9rem;
+  font-size: clamp(0.78rem, 1vw, 0.85rem);
   line-height: 1.5;
   color: rgba(14, 26, 42, 0.7);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.featureBadge {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: clamp(0.58rem, 0.8vw, 0.65rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-vigango-black);
+  background: var(--color-mnazi-gold);
+  padding: 2px 8px;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+.featureBadgeSoon {
+  composes: featureBadge;
+  background: rgba(14, 26, 42, 0.1);
+  color: var(--color-vigango-black);
+}
+
+/* ===== Word of the Day card extras ===== */
+
+.featureWotdWord {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: var(--color-kaya-deep);
+  line-height: 1.1;
+}
+
+.featureWotdMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.featureWotdIpa {
+  font-family: var(--font-mono, monospace);
+  font-size: clamp(0.7rem, 0.9vw, 0.8rem);
+  color: var(--color-kaya-indigo);
+}
+
+.featureWotdPos {
+  font-family: var(--font-sans);
+  font-size: clamp(0.65rem, 0.85vw, 0.72rem);
+  font-style: italic;
+  color: rgba(14, 26, 42, 0.6);
 }
 
 /* ===== Responsive ===== */
 
-@media (max-width: 767px) {
-  .twoColumns {
-    grid-template-columns: 1fr;
+@media (max-width: 1023px) {
+  .exploreGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
+@media (max-width: 767px) {
   .backgroundImage {
     background-position: 72% center;
+  }
+
+  .subtitle {
+    max-width: 90%;
   }
 
   .proverb {
     max-width: 90%;
   }
 
-  .content {
-    left: 5.25%;
-    right: 5.25%;
+  .exploreGrid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -283,10 +358,14 @@
   .proverb {
     max-width: 100%;
   }
+
+  .subtitle {
+    max-width: 100%;
+  }
 }
 
 @media (max-height: 500px) {
   .content {
-    top: max(25.3%, 60px);
+    top: max(22%, 60px);
   }
 }

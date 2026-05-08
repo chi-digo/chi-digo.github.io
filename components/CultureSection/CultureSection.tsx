@@ -5,9 +5,16 @@ import { domains } from '@/lib/culture/content';
 import { trackNavClick } from '@/lib/analytics/track';
 import styles from './CultureSection.module.css';
 
-export function CultureSection() {
+interface CultureSectionProps {
+  limit?: number;
+  showSeeAll?: boolean;
+}
+
+export function CultureSection({ limit, showSeeAll = false }: CultureSectionProps) {
   const t = useTranslations();
   const { locale } = useLocale();
+
+  const visibleDomains = limit ? domains.slice(0, limit) : domains;
 
   return (
     <section id="culture" className={styles.section}>
@@ -16,7 +23,7 @@ export function CultureSection() {
         <h2 className={styles.heading}>{t.culture.section_subtitle}</h2>
 
         <div className={styles.cardGrid}>
-          {domains.map((domain) => (
+          {visibleDomains.map((domain) => (
             <a
               key={domain.slug}
               href={`/culture/${domain.slug}`}
@@ -28,6 +35,18 @@ export function CultureSection() {
             </a>
           ))}
         </div>
+
+        {showSeeAll && limit && limit < domains.length && (
+          <div className={styles.seeAll}>
+            <a href="/culture" className={styles.seeAllLink}>
+              {locale === 'sw'
+                ? `Angalia vikoa vyote ${domains.length} →`
+                : locale === 'dig'
+                  ? `Lola vikoa vyosi ${domains.length} →`
+                  : `See all ${domains.length} culture domains →`}
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
