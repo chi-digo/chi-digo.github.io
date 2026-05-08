@@ -435,7 +435,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
         {proverb.ipa && <p className={styles.detailIpa}>/{proverb.ipa}/</p>}
 
         {proverb.content_flag === 'mature' && (
-          <p className={styles.matureWarning}>{t.proverbs.mature_content}</p>
+          <Alert variant="warning" style={{ marginBottom: '1rem' }}>{t.proverbs.mature_content}</Alert>
         )}
 
         {/* Literal translation — English and Swahili only, not Digo (proverb IS Digo) */}
