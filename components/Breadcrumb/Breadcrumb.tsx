@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
 import { getLanguageTopic } from '@/lib/language/content';
+import { getTheme } from '@/lib/proverbs/themes';
 import { trackNavClick } from '@/lib/analytics/track';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
@@ -73,6 +74,26 @@ export function Breadcrumb() {
     items.push({ label: t.breadcrumb.vision });
   } else if (segments[0] === 'contact') {
     items.push({ label: t.breadcrumb.contact });
+  } else if (segments[0] === 'proverbs') {
+    items.push({
+      label: t.breadcrumb.proverbs,
+      href: segments.length > 0 ? '/proverbs' : undefined,
+    });
+
+    if (segments[1] === 'theme' && segments[2]) {
+      const theme = getTheme(segments[2]);
+      if (theme) {
+        items.push({ label: theme.title[locale] });
+      }
+    } else if (segments[1] === 'letter' && segments[2]) {
+      const letter = decodeURIComponent(segments[2]);
+      items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
+    } else if (segments[1] && segments[1].startsWith('p-')) {
+      const slug = decodeURIComponent(segments[1]);
+      const digoText = slug.replace(/^p-\d+-/, '').replace(/-/g, ' ');
+      const label = digoText.charAt(0).toUpperCase() + digoText.slice(1);
+      items.push({ label });
+    }
   } else if (segments[0] === 'dictionary') {
     items.push({
       label: t.breadcrumb.dictionary,
