@@ -1,0 +1,97 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: calc(var(--nav-height, 48px) + var(--space-12, 48px)) 5.25% var(--space-12, 48px);
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.mark {
+  width: 48px;
+  height: 48px;
+  color: var(--color-kaya-indigo, #1F3A5F);
+  opacity: 0.25;
+}
+
+.code {
+  font-family: var(--font-display, 'Fraunces'), Georgia, serif;
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--color-kaya-indigo, #1F3A5F);
+  opacity: 0.2;
+  letter-spacing: -0.02em;
+  margin-top: var(--space-4, 16px);
+}
+
+.heading {
+  font-family: var(--font-display, 'Fraunces'), Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--fg-heading, #1F3A5F);
+  margin-top: var(--space-4, 16px);
+}
+
+.description {
+  font-family: var(--font-serif, 'Source Serif 4'), Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--fg-muted, rgba(26, 26, 26, 0.6));
+  max-width: 420px;
+  margin-top: var(--space-3, 12px);
+}
+
+.proverbCard {
+  margin-top: var(--space-8, 32px);
+  padding: var(--space-4, 16px) var(--space-6, 24px);
+  border-left: 3px solid var(--color-mnazi-gold, #C99846);
+  text-align: left;
+  max-width: 480px;
+  min-height: 80px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.proverbCardVisible {
+  opacity: 1;
+}
+
+.proverbDigo {
+  font-family: var(--font-serif, 'Source Serif 4'), Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--fg-default, #1A1A1A);
+  margin: 0;
+}
+
+.proverbGloss {
+  font-family: var(--font-serif, 'Source Serif 4'), Georgia, serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--fg-muted, rgba(26, 26, 26, 0.6));
+  margin: var(--space-2, 8px) 0 0;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-3, 12px);
+  margin-top: var(--space-8, 32px);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 479px) {
+  .actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+  }
+}

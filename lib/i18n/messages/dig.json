@@ -248,6 +248,12 @@
     "partners_heading": "Kwa ashirika na afadhili",
     "partners_body": "Chi-digo ni mradi wa kufufua luga unaoongozwa na lengo. Maudhui gosi ga rejea ganachapishwa kahi za CC-BY-SA 4.0. Ukirishiriki imani yehu kukala Chidigo chinastahili wakati ujao urio moyo, hungependa mazungumzo."
   },
+  "not_found": {
+    "title": "Ukurasa tauyaoneka",
+    "description": "Njira uriyoilungiya taiendze phatu — ela kuna vinji vya kuchunguza.",
+    "back_home": "Uya kaya",
+    "search": "Tafuta"
+  },
   "cta": {
     "section_eyebrow": "Gundua zaidi",
     "about_title": "Swi ni ani",
