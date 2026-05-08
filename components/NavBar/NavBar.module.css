@@ -36,6 +36,10 @@
   color: currentColor;
 }
 
+.brandName {
+  display: none;
+}
+
 .navLink {
   font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
@@ -329,6 +333,14 @@
 
   .hamburger {
     display: flex;
+  }
+
+  .brandName {
+    display: inline;
+    font-family: var(--font-display, 'Fraunces'), Georgia, serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    margin-left: 8px;
   }
 }
 
