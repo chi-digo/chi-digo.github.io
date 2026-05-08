@@ -199,7 +199,9 @@ function ProverbCard({ proverb, nav, locale }: { proverb: Proverb; nav: Navigate
     >
       <p className={styles.proverbCardDigo}>{proverb.digo}</p>
       <p className={styles.proverbCardGloss}>
-        {proverb.idiomatic_en || proverb.literal_en}
+        {locale === 'sw' ? (proverb.idiomatic_sw || proverb.literal_sw) :
+         locale === 'dig' ? proverb.idiomatic_dg :
+         (proverb.idiomatic_en || proverb.literal_en)}
       </p>
       {proverb.themes.length > 0 && (
         <div className={styles.proverbCardThemes}>
@@ -261,8 +263,10 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
     >
       <p className={styles.featuredLabel}>{t.proverbs.proverb_of_the_day}</p>
       <p className={styles.featuredDigo}>{proverb.digo}</p>
-      <p className={styles.featuredEnglish}>
-        {proverb.idiomatic_en || proverb.literal_en}
+      <p className={styles.featuredGloss}>
+        {locale === 'sw' ? (proverb.idiomatic_sw || proverb.literal_sw) :
+         locale === 'dig' ? proverb.idiomatic_dg :
+         (proverb.idiomatic_en || proverb.literal_en)}
       </p>
       {proverb.themes.length > 0 && (
         <div className={styles.featuredThemes}>
