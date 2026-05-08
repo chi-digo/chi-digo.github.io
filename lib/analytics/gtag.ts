@@ -12,7 +12,7 @@ export const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '';
 
 /** Bootstrap Consent Mode with analytics_storage denied by default. */
 export function initConsent(): void {
-  if (typeof window === 'undefined' || !GA_ID) return;
+  if (typeof window === 'undefined' || !GA_ID || process.env.NODE_ENV !== 'production') return;
   window.dataLayer = window.dataLayer || [];
   // eslint-disable-next-line prefer-rest-params
   window.gtag = function gtag() { window.dataLayer.push(arguments); };
