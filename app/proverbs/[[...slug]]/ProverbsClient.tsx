@@ -8,6 +8,7 @@ import { loadProverbs, getProverbBySlug, getProverbsByTheme, getProverbsByLetter
 import { searchProverbs, searchProverbsDropdown } from '@/lib/proverbs/search';
 import { getFeaturedProverb, getRandomProverb } from '@/lib/proverbs/featured';
 import { PROVERB_THEMES, PROVERB_FUNCTIONS, getTheme, getFunction } from '@/lib/proverbs/themes';
+import { Alert } from '@chi-digo/design-system';
 import { DIGO_ALPHABET } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
 import type { Proverb, GroupedProverbResults } from '@/lib/proverbs/types';
@@ -440,14 +441,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
         {/* Literal translation — English and Swahili only, not Digo (proverb IS Digo) */}
         {locale !== 'dig' && (() => {
           const literalText = locale === 'sw' ? proverb.literal_sw : proverb.literal_en;
-          const literalField = locale === 'sw' ? 'literal_sw' : 'literal_en';
-          const isAiDraft = proverb.field_sources?.[literalField] === 'ai-draft';
           if (!literalText) return null;
           return (
             <div className={styles.translationSection}>
               <p className={styles.translationLabel}>{t.proverbs.literal_translation}</p>
               <p className={styles.translationText}>{literalText}</p>
-              {isAiDraft && <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>}
             </div>
           );
         })()}
@@ -458,17 +456,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             locale === 'sw' ? proverb.idiomatic_sw :
             locale === 'dig' ? proverb.idiomatic_dg :
             proverb.idiomatic_en;
-          const idiomaticField =
-            locale === 'sw' ? 'idiomatic_sw' :
-            locale === 'dig' ? 'idiomatic_dg' :
-            'idiomatic_en';
-          const isAiDraft = proverb.field_sources?.[idiomaticField] === 'ai-draft';
           if (!idiomaticText) return null;
           return (
             <div className={styles.translationSection}>
               <p className={styles.translationLabel}>{t.proverbs.idiomatic_translation}</p>
               <p className={styles.translationTextSecondary}>{idiomaticText}</p>
-              {isAiDraft && <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>}
             </div>
           );
         })()}
@@ -487,20 +479,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             locale === 'sw' ? proverb.commentary_sw :
             locale === 'dig' ? proverb.commentary_dg :
             proverb.commentary_en;
-          const commentaryField =
-            locale === 'sw' ? 'commentary_sw' :
-            locale === 'dig' ? 'commentary_dg' :
-            'commentary_en';
-          const isAiDraft = proverb.field_sources?.[commentaryField] === 'ai-draft';
-
           if (!commentaryText) return null;
           return (
             <div className={styles.commentarySection}>
               <p className={styles.commentaryLabel}>{t.proverbs.cultural_context}</p>
               <p className={styles.commentaryText}>{commentaryText}</p>
-              {isAiDraft && (
-                <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>
-              )}
             </div>
           );
         })()}
@@ -569,6 +552,12 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
               <ProverbCard key={rel.id} proverb={rel} nav={nav} locale={locale} />
             ))}
           </div>
+        )}
+
+        {Object.values(proverb.field_sources || {}).some((s) => s === 'ai-draft') && (
+          <Alert variant="info" style={{ marginTop: '1.5rem' }}>
+            {t.proverbs.ai_assisted}
+          </Alert>
         )}
 
         <button type="button" className={styles.discoverBtn} onClick={handleDiscover}>
