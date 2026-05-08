@@ -23,6 +23,8 @@ function matchesEnglish(proverb: Proverb, query: string): boolean {
 
 function matchesSwahili(proverb: Proverb, query: string): boolean {
   if (normalize(proverb.swahili).includes(query)) return true;
+  if (normalize(proverb.idiomatic_sw).includes(query)) return true;
+  if (normalize(proverb.commentary_sw).includes(query)) return true;
   if (normalize(proverb.swahili_equivalent).includes(query)) return true;
   if (proverb.keywords_sw.some((k) => normalize(k).includes(query))) return true;
   return false;

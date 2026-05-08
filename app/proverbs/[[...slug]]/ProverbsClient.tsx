@@ -428,6 +428,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           <p className={styles.matureWarning}>{t.proverbs.mature_content}</p>
         )}
 
+        {/* Literal translation — always English since the Digo original IS the literal Digo */}
         {proverb.literal_en && (
           <div className={styles.translationSection}>
             <p className={styles.translationLabel}>{t.proverbs.literal_translation}</p>
@@ -435,13 +436,20 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
-        {proverb.idiomatic_en && (
+        {/* Idiomatic meaning — locale-aware */}
+        {(locale === 'sw' ? (proverb.idiomatic_sw || proverb.idiomatic_en) : proverb.idiomatic_en) && (
           <div className={styles.translationSection}>
             <p className={styles.translationLabel}>{t.proverbs.idiomatic_translation}</p>
-            <p className={styles.translationTextSecondary}>{proverb.idiomatic_en}</p>
+            <p className={styles.translationTextSecondary}>
+              {locale === 'sw' ? (proverb.idiomatic_sw || proverb.idiomatic_en) : proverb.idiomatic_en}
+            </p>
+            {locale === 'sw' && proverb.idiomatic_sw && proverb.idiomatic_en && (
+              <p className={styles.translationFallback}>{proverb.idiomatic_en}</p>
+            )}
           </div>
         )}
 
+        {/* Swahili text — always shown as a translation reference */}
         {proverb.swahili && (
           <div className={styles.translationSection}>
             <p className={styles.translationLabel}>
@@ -451,15 +459,29 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
-        {proverb.commentary_en && (
-          <div className={styles.commentarySection}>
-            <p className={styles.commentaryLabel}>{t.proverbs.cultural_context}</p>
-            <p className={styles.commentaryText}>{proverb.commentary_en}</p>
-            {proverb.commentary_source !== 'original' && (
-              <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>
-            )}
-          </div>
-        )}
+        {/* Commentary — locale-aware with fallback */}
+        {(() => {
+          const commentaryText =
+            locale === 'sw' ? (proverb.commentary_sw || proverb.commentary_en) :
+            locale === 'dig' ? (proverb.commentary_dg || proverb.commentary_en) :
+            proverb.commentary_en;
+          const commentaryField =
+            locale === 'sw' && proverb.commentary_sw ? 'commentary_sw' :
+            locale === 'dig' && proverb.commentary_dg ? 'commentary_dg' :
+            'commentary_en';
+          const isAiDraft = proverb.field_sources?.[commentaryField] === 'ai-draft';
+
+          if (!commentaryText) return null;
+          return (
+            <div className={styles.commentarySection}>
+              <p className={styles.commentaryLabel}>{t.proverbs.cultural_context}</p>
+              <p className={styles.commentaryText}>{commentaryText}</p>
+              {isAiDraft && (
+                <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>
+              )}
+            </div>
+          );
+        })()}
 
         <div className={styles.detailMeta}>
           {proverb.english_equivalent && (
