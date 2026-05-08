@@ -8,6 +8,7 @@ export interface Proverb {
   ipa: string;
   audio: { file: string; voice: string }[];
   literal_en: string;
+  literal_sw: string;
   idiomatic_en: string;
   idiomatic_sw: string;
   swahili: string;

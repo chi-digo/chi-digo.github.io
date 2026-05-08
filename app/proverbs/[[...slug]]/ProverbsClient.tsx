@@ -428,46 +428,53 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           <p className={styles.matureWarning}>{t.proverbs.mature_content}</p>
         )}
 
-        {/* Literal translation — always English since the Digo original IS the literal Digo */}
-        {proverb.literal_en && (
-          <div className={styles.translationSection}>
-            <p className={styles.translationLabel}>{t.proverbs.literal_translation}</p>
-            <p className={styles.translationText}>{proverb.literal_en}</p>
-          </div>
-        )}
+        {/* Literal translation — English and Swahili only, not Digo (proverb IS Digo) */}
+        {locale !== 'dig' && (() => {
+          const literalText = locale === 'sw' ? proverb.literal_sw : proverb.literal_en;
+          const literalField = locale === 'sw' ? 'literal_sw' : 'literal_en';
+          const isAiDraft = proverb.field_sources?.[literalField] === 'ai-draft';
+          if (!literalText) return null;
+          return (
+            <div className={styles.translationSection}>
+              <p className={styles.translationLabel}>{t.proverbs.literal_translation}</p>
+              <p className={styles.translationText}>{literalText}</p>
+              {isAiDraft && <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>}
+            </div>
+          );
+        })()}
 
-        {/* Idiomatic meaning — locale-aware */}
-        {(locale === 'sw' ? (proverb.idiomatic_sw || proverb.idiomatic_en) : proverb.idiomatic_en) && (
-          <div className={styles.translationSection}>
-            <p className={styles.translationLabel}>{t.proverbs.idiomatic_translation}</p>
-            <p className={styles.translationTextSecondary}>
-              {locale === 'sw' ? (proverb.idiomatic_sw || proverb.idiomatic_en) : proverb.idiomatic_en}
-            </p>
-            {locale === 'sw' && proverb.idiomatic_sw && proverb.idiomatic_en && (
-              <p className={styles.translationFallback}>{proverb.idiomatic_en}</p>
-            )}
-          </div>
-        )}
+        {/* Idiomatic meaning — English and Swahili only */}
+        {locale !== 'dig' && (() => {
+          const idiomaticText = locale === 'sw' ? proverb.idiomatic_sw : proverb.idiomatic_en;
+          const idiomaticField = locale === 'sw' ? 'idiomatic_sw' : 'idiomatic_en';
+          const isAiDraft = proverb.field_sources?.[idiomaticField] === 'ai-draft';
+          if (!idiomaticText) return null;
+          return (
+            <div className={styles.translationSection}>
+              <p className={styles.translationLabel}>{t.proverbs.idiomatic_translation}</p>
+              <p className={styles.translationTextSecondary}>{idiomaticText}</p>
+              {isAiDraft && <p className={styles.commentarySource}>{t.proverbs.ai_assisted}</p>}
+            </div>
+          );
+        })()}
 
-        {/* Swahili text — always shown as a translation reference */}
-        {proverb.swahili && (
+        {/* Swahili proverb form — Swahili locale only */}
+        {locale === 'sw' && proverb.swahili && (
           <div className={styles.translationSection}>
-            <p className={styles.translationLabel}>
-              {swRelLabel}
-            </p>
+            <p className={styles.translationLabel}>{swRelLabel}</p>
             <p className={styles.translationText}>{proverb.swahili}</p>
           </div>
         )}
 
-        {/* Commentary — locale-aware with fallback */}
+        {/* Cultural context — each locale gets its own language */}
         {(() => {
           const commentaryText =
-            locale === 'sw' ? (proverb.commentary_sw || proverb.commentary_en) :
-            locale === 'dig' ? (proverb.commentary_dg || proverb.commentary_en) :
+            locale === 'sw' ? proverb.commentary_sw :
+            locale === 'dig' ? proverb.commentary_dg :
             proverb.commentary_en;
           const commentaryField =
-            locale === 'sw' && proverb.commentary_sw ? 'commentary_sw' :
-            locale === 'dig' && proverb.commentary_dg ? 'commentary_dg' :
+            locale === 'sw' ? 'commentary_sw' :
+            locale === 'dig' ? 'commentary_dg' :
             'commentary_en';
           const isAiDraft = proverb.field_sources?.[commentaryField] === 'ai-draft';
 

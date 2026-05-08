@@ -49,8 +49,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Akili ni kama nywele, kila mmoja ana zake"
   },
   {
     "id": "p-002",
@@ -102,8 +104,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyeshiba hamjui mwenye njaa"
   },
   {
     "id": "p-003",
@@ -151,8 +155,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyekupita mbele si mwenzako/rafiki yako"
   },
   {
     "id": "p-004",
@@ -201,8 +207,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyefiwa ndiye aliyekuliwa"
   },
   {
     "id": "p-005",
@@ -252,8 +260,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Amekuwa (kama) mamba anavutia (mawindo) kwenye kina kirefu"
   },
   {
     "id": "p-006",
@@ -302,8 +312,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Amejifutia kwenye mgomba na anaenda na mavi yake"
   },
   {
     "id": "p-007",
@@ -354,8 +366,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Akiba si mbaya"
   },
   {
     "id": "p-008",
@@ -406,8 +420,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Akiba haiozi"
   },
   {
     "id": "p-009",
@@ -456,8 +472,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyekosa leo ni mume wa kesho"
   },
   {
     "id": "p-010",
@@ -506,8 +524,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyekupiga kofi anakufundisha kupigana"
   },
   {
     "id": "p-011",
@@ -555,8 +575,10 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
-    }
+      "idiomatic_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Anayejamiiana kwa vidole, kucha zake zitaoga katika maji ya uke"
   },
   {
     "id": "p-012",
@@ -605,8 +627,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wanaume mbele, wanaume nyuma"
   },
   {
     "id": "p-013",
@@ -654,8 +678,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Watoto hawabebani mgongoni"
   },
   {
     "id": "p-014",
@@ -705,8 +731,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Watoto wa nguruwe hunyonyeshana midomo"
   },
   {
     "id": "p-015",
@@ -756,8 +784,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu aendaye kuzimu harudi"
   },
   {
     "id": "p-016",
@@ -806,8 +836,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliye juu, mngojee chini"
   },
   {
     "id": "p-017",
@@ -855,8 +887,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu asiye na haya huficha aibu yake"
   },
   {
     "id": "p-018",
@@ -904,8 +938,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Alaye jasho lake hana ugomvi na mtu yeyote"
   },
   {
     "id": "p-019",
@@ -956,8 +992,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu asiye na mtoto hajui uchungu wake"
   },
   {
     "id": "p-020",
@@ -1007,8 +1045,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Asiye na wa kwake na amwombe Mungu"
   },
   {
     "id": "p-021",
@@ -1056,8 +1096,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Asiyejua kuugua hajapata kuumwa bado"
   },
   {
     "id": "p-022",
@@ -1106,8 +1148,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Asiyejua nyama, usimpeleke sokoni"
   },
   {
     "id": "p-023",
@@ -1155,8 +1199,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Badala ya Hassan ni Hussein"
   },
   {
     "id": "p-024",
@@ -1205,8 +1251,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Bahari haina rafiki"
   },
   {
     "id": "p-025",
@@ -1258,8 +1306,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Pata, kula kidogo, weka kando sehemu kubwa"
   },
   {
     "id": "p-026",
@@ -1309,8 +1359,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidogo kidogo kumaliza kuchanja gogo"
   },
   {
     "id": "p-027",
@@ -1358,8 +1410,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Bure hailiwa, jana si leo"
   },
   {
     "id": "p-028",
@@ -1407,8 +1461,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba tupu haiwezi kuombwa moto"
   },
   {
     "id": "p-029",
@@ -1456,8 +1512,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kilichopewa hakina ukoko/mabaki"
   },
   {
     "id": "p-030",
@@ -1507,8 +1565,10 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha maskini hakiozi"
   },
   {
     "id": "p-031",
@@ -1558,8 +1618,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha maskini hakizai ndama"
   },
   {
     "id": "p-032",
@@ -1607,8 +1669,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha mfupi kinaliwa na cha mrefu"
   },
   {
     "id": "p-033",
@@ -1657,8 +1721,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha mlevi kinaliwa na mtapaji"
   },
   {
     "id": "p-034",
@@ -1705,8 +1771,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha mnyonge kinaharibwa na upepo"
   },
   {
     "id": "p-035",
@@ -1751,8 +1819,10 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu cha mpumbavu kinaliwa bure"
   },
   {
     "id": "p-036",
@@ -1798,8 +1868,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidole kitupu hakilambwi"
   },
   {
     "id": "p-037",
@@ -1845,8 +1917,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidole kimoja hakibani chawa"
   },
   {
     "id": "p-038",
@@ -1893,8 +1967,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidole kizuri kimefungwa pete"
   },
   {
     "id": "p-039",
@@ -1940,8 +2016,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidole hakionyeshi msitu"
   },
   {
     "id": "p-040",
@@ -1988,8 +2066,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Safari ya kesho hutayarishwa leo"
   },
   {
     "id": "p-041",
@@ -2038,8 +2118,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mshindano ukikushinda umesimama, huwezi (kushinda) umeketi pia"
   },
   {
     "id": "p-042",
@@ -2085,8 +2167,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Chelewa utafika"
   },
   {
     "id": "p-043",
@@ -2132,8 +2216,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Soko limeangukia nyoka"
   },
   {
     "id": "p-044",
@@ -2180,8 +2266,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kibaya ni chako, kizuri ni cha mama yako"
   },
   {
     "id": "p-045",
@@ -2228,8 +2316,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mbuzi wa mbele mbele amevunjika pembe"
   },
   {
     "id": "p-046",
@@ -2276,8 +2366,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu unachoshikilia kina kilio chake na kitu unachoacha kina kilio chake"
   },
   {
     "id": "p-047",
@@ -2326,8 +2418,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Chochote kinachopendwa na Mwanasiti, Chamkwaya hana hiari yake"
   },
   {
     "id": "p-048",
@@ -2372,8 +2466,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Chidau (nchi ya Wadigo) kilinibeba (hadi) Pemba"
   },
   {
     "id": "p-049",
@@ -2418,8 +2514,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu kitamu kwa nguruwe, kwa Mdigo ni uchungu"
   },
   {
     "id": "p-050",
@@ -2467,8 +2565,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fimbo ya maskini inaharibwa na upepo"
   },
   {
     "id": "p-051",
@@ -2515,8 +2615,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fimbo mpya inaharibu ya zamani ?Fimbo ya zamani inaharibu mpya?"
   },
   {
     "id": "p-052",
@@ -2562,8 +2664,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mguu unasogea, makalio hayasogei"
   },
   {
     "id": "p-053",
@@ -2612,8 +2716,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kiko (cha tumbaku) kinafaa mtu mwenye heshima"
   },
   {
     "id": "p-054",
@@ -2658,8 +2764,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kinachokula ni kitu kilicho tumboni mwako"
   },
   {
     "id": "p-055",
@@ -2706,8 +2814,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kila mmoja ana msiba wake, chura anauawa na jembe"
   },
   {
     "id": "p-056",
@@ -2753,8 +2863,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kila nyumba ina mshindo/kilio chake"
   },
   {
     "id": "p-057",
@@ -2801,8 +2913,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uume ni ukaidi na ujasiri"
   },
   {
     "id": "p-058",
@@ -2847,8 +2961,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wanaojua maji huondoka na maji"
   },
   {
     "id": "p-059",
@@ -2893,8 +3009,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kilichomwagika hakijirudi kamili"
   },
   {
     "id": "p-060",
@@ -2940,8 +3058,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uzuri haukosi kasoro"
   },
   {
     "id": "p-061",
@@ -2991,8 +3111,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Paa akikata kamba haimaanishi mkonge umeisha"
   },
   {
     "id": "p-062",
@@ -3040,8 +3162,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aendaye kwa mganga harudi"
   },
   {
     "id": "p-063",
@@ -3087,8 +3211,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kilima cha Beng'anya si kama cha Meng'anya"
   },
   {
     "id": "p-064",
@@ -3136,8 +3262,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Maombolezo huanza kwa jirani naye ameshasikia"
   },
   {
     "id": "p-065",
@@ -3182,8 +3310,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kisicho dhambi usikililie dhambi"
   },
   {
     "id": "p-066",
@@ -3228,8 +3358,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitanda ni ndugu"
   },
   {
     "id": "p-067",
@@ -3278,8 +3410,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kichwa cha kondoo kinasikia ndani ya chungu kidogo"
   },
   {
     "id": "p-068",
@@ -3325,8 +3459,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kitu kinachotoka ndani mwako ni moto/kali"
   },
   {
     "id": "p-069",
@@ -3372,8 +3508,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Dalili ya mvua ni mawingu"
   },
   {
     "id": "p-070",
@@ -3419,8 +3557,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Dawa ya nyenze ni nyenze"
   },
   {
     "id": "p-071",
@@ -3467,8 +3607,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Dawa ya deni ni kulipwa"
   },
   {
     "id": "p-072",
@@ -3513,8 +3655,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kidogo kidogo kumaliza kikapu"
   },
   {
     "id": "p-073",
@@ -3560,8 +3704,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Donge lililoanguka ni mungu wa mbwa"
   },
   {
     "id": "p-074",
@@ -3610,8 +3756,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Dunia ni mdomo wa mbwa, huwezi kuchungulia ndani (pia)"
   },
   {
     "id": "p-075",
@@ -3658,8 +3806,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jambo husemwa, lakini lisifanywe"
   },
   {
     "id": "p-076",
@@ -3704,8 +3854,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jicho ni la kuona si la kula"
   },
   {
     "id": "p-077",
@@ -3750,8 +3902,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jicho la mtu mwenye jicho moja"
   },
   {
     "id": "p-078",
@@ -3795,8 +3949,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jicho halina pazia"
   },
   {
     "id": "p-079",
@@ -3845,8 +4001,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jogoo kuwika si dawa ya alfajiri"
   },
   {
     "id": "p-080",
@@ -3891,8 +4049,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Siku moja ndovu kuoza"
   },
   {
     "id": "p-081",
@@ -3942,8 +4102,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fisi akimla mgonjwa, mzima afunge mlango"
   },
   {
     "id": "p-082",
@@ -3991,8 +4153,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fundi halali mahali pazuri"
   },
   {
     "id": "p-083",
@@ -4041,8 +4205,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kufunga vizuri hakuumizi mkono"
   },
   {
     "id": "p-084",
@@ -4087,8 +4253,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fungo unalokula ndilo litakalokutoka"
   },
   {
     "id": "p-085",
@@ -4133,8 +4301,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Fungo la) mti fundo lake ni (katika) utomvu wake"
   },
   {
     "id": "p-086",
@@ -4180,8 +4350,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kufa peke yako"
   },
   {
     "id": "p-087",
@@ -4228,8 +4400,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fimbo ya mbali hauui nyoka"
   },
   {
     "id": "p-088",
@@ -4278,8 +4452,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fimbo ya mganga ni ndefu na fupi"
   },
   {
     "id": "p-089",
@@ -4324,8 +4500,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vitu vya zamani havinuki"
   },
   {
     "id": "p-090",
@@ -4373,8 +4551,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mambo ya ngoma hayasemwi yote"
   },
   {
     "id": "p-091",
@@ -4424,8 +4604,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Matibabu ya mganga yanampa mgonjwa matumaini"
   },
   {
     "id": "p-092",
@@ -4471,8 +4653,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ghafla ni ..., jogoo alikimbia ..."
   },
   {
     "id": "p-093",
@@ -4521,8 +4705,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Visivyoanguka (matunda) vitatikiswa (kutoka mtini)"
   },
   {
     "id": "p-094",
@@ -4573,8 +4759,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wasiojua ubamba wanashikwa wawili wawili"
   },
   {
     "id": "p-095",
@@ -4620,8 +4808,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Gogo la nyumbani halikojolei"
   },
   {
     "id": "p-096",
@@ -4667,8 +4857,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jongoo na kijiti chake/kipande cha mkindu"
   },
   {
     "id": "p-097",
@@ -4716,8 +4908,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Pembe ya mtu dhaifu ni gamba la konokono"
   },
   {
     "id": "p-098",
@@ -4762,8 +4956,10 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Haki ya mtu haizami"
   },
   {
     "id": "p-099",
@@ -4809,8 +5005,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Matako ya mama yananunua shamba"
   },
   {
     "id": "p-100",
@@ -4855,8 +5053,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "swahili": "ai-draft"
-    }
+      "swahili": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Bahati iko (katika) tumbo"
   },
   {
     "id": "p-101",
@@ -4901,8 +5101,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uongo unasafiri haraka"
   },
   {
     "id": "p-102",
@@ -4952,8 +5154,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Siku 3 za maombolezo hazifiki hadi wakati uliowekwa"
   },
   {
     "id": "p-103",
@@ -5004,8 +5208,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wimbo wa mtema mnazi, kila mmoja ana kibuyu chake"
   },
   {
     "id": "p-104",
@@ -5050,8 +5256,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kelele kelele ndiyo kukua"
   },
   {
     "id": "p-105",
@@ -5098,8 +5306,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kelele kelele ndiyo uwindaji unapigwa lakini una kichwa"
   },
   {
     "id": "p-107",
@@ -5148,8 +5358,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Kutoka) Majivu usipolala unapigania mbali mbwa"
   },
   {
     "id": "p-108",
@@ -5197,8 +5409,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jasho la mtu haliliwi wala haliliwi"
   },
   {
     "id": "p-109",
@@ -5244,8 +5458,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jasho la mtu haliliwi"
   },
   {
     "id": "p-110",
@@ -5290,8 +5506,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kujaribu ndiyo mji (halisi)"
   },
   {
     "id": "p-111",
@@ -5337,8 +5555,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuwa mdudu ili utembee na nyumba yako"
   },
   {
     "id": "p-112",
@@ -5385,8 +5605,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuwa naye utajua tabia zake"
   },
   {
     "id": "p-113",
@@ -5434,8 +5656,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kanga ya jicho moja anachimbia (mzima) aliye mzima"
   },
   {
     "id": "p-114",
@@ -5481,8 +5705,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mlilie mama yako, usimlilie kifaranga"
   },
   {
     "id": "p-115",
@@ -5527,8 +5753,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kata pua yako ili uifanye nzuri"
   },
   {
     "id": "p-116",
@@ -5575,8 +5803,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba hairudishi maiti"
   },
   {
     "id": "p-117",
@@ -5622,8 +5852,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kazi hailiwi na mchwa"
   },
   {
     "id": "p-118",
@@ -5669,8 +5901,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kofi moja, mbuzi na kikombe cha pombe"
   },
   {
     "id": "p-119",
@@ -5719,8 +5953,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vita vya ndugu, jirani asiingie"
   },
   {
     "id": "p-120",
@@ -5765,8 +6001,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vita vya mdomo vinanyooshwa na mdomo"
   },
   {
     "id": "p-121",
@@ -5811,8 +6049,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vita vya rafiki yako vinakuua"
   },
   {
     "id": "p-122",
@@ -5860,8 +6100,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Unachukua hatua kuufanya ukoo wako usimame wima"
   },
   {
     "id": "p-124",
@@ -5908,8 +6150,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuambiana kuko lakini kusikilizana hakuna"
   },
   {
     "id": "p-125",
@@ -5955,8 +6199,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kupotea porini ndiko kujua pori"
   },
   {
     "id": "p-126",
@@ -6001,8 +6247,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kufa ni kusaidiana"
   },
   {
     "id": "p-127",
@@ -6050,8 +6298,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuingia ni mara moja, lakini kutoka ni pole pole"
   },
   {
     "id": "p-128",
@@ -6097,8 +6347,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kukua ni kusubirana"
   },
   {
     "id": "p-129",
@@ -6143,8 +6395,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kueni halafu njoo muone"
   },
   {
     "id": "p-130",
@@ -6190,8 +6444,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuumia sana si kufa"
   },
   {
     "id": "p-131",
@@ -6239,8 +6495,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kulungu mwoga amekimbiza pembe zake"
   },
   {
     "id": "p-132",
@@ -6284,8 +6542,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kupokea ni kupokea"
   },
   {
     "id": "p-133",
@@ -6332,8 +6592,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Palipo na ng'ombe hakuna wachunga"
   },
   {
     "id": "p-134",
@@ -6378,8 +6640,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kulima ni kushindana, kupata ni kwa Mungu"
   },
   {
     "id": "p-135",
@@ -6427,8 +6691,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Ku)kua juu, chini kuna moto"
   },
   {
     "id": "p-136",
@@ -6480,8 +6746,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kutazama-tazama kwa siri ni kujiweka tayari"
   },
   {
     "id": "p-137",
@@ -6526,8 +6794,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kukaa bure si kama kutembea bure"
   },
   {
     "id": "p-138",
@@ -6573,8 +6843,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kushindwa na pombe ni aibu"
   },
   {
     "id": "p-139",
@@ -6620,8 +6892,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kujifanya hakulaguliki"
   },
   {
     "id": "p-140",
@@ -6669,8 +6943,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kutengana na nzi maana yake kidonda kinapona"
   },
   {
     "id": "p-141",
@@ -6717,8 +6993,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kutengana na ulinzi ni kuua tumbili mzee"
   },
   {
     "id": "p-142",
@@ -6766,8 +7044,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kusaidia hakupotei"
   },
   {
     "id": "p-144",
@@ -6812,8 +7092,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuamuru si ulinzi"
   },
   {
     "id": "p-145",
@@ -6860,8 +7142,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Kifo) kiko Longo na kiko kwetu Wadigo"
   },
   {
     "id": "p-146",
@@ -6906,8 +7190,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Miguu ni watembezaji"
   },
   {
     "id": "p-147",
@@ -6952,8 +7238,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mbili mbili Mwatunya amekimbiwa na gari"
   },
   {
     "id": "p-148",
@@ -7001,8 +7289,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Manyoya ya simba, nyani wanayagaagaa"
   },
   {
     "id": "p-149",
@@ -7048,8 +7338,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mambo mazuri ni njia"
   },
   {
     "id": "p-150",
@@ -7095,8 +7387,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Maskini hana masikio"
   },
   {
     "id": "p-151",
@@ -7142,8 +7436,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Masikitiko yanaondolewa moja moja"
   },
   {
     "id": "p-152",
@@ -7188,8 +7484,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Macho hayana ua/mpaka"
   },
   {
     "id": "p-153",
@@ -7238,8 +7536,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Machozi matupu hayarudishi mtu aliyetumwa kulipia mauaji"
   },
   {
     "id": "p-154",
@@ -7284,8 +7584,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mama wa rafiki yako ni mama yako pia"
   },
   {
     "id": "p-155",
@@ -7330,8 +7632,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Michango ya mazishi haiozi"
   },
   {
     "id": "p-156",
@@ -7377,8 +7681,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kwa nini unanikunja-kunja kama ngozi ya mbega?"
   },
   {
     "id": "p-157",
@@ -7424,8 +7730,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mbuzi ya rafiki yako ni nyama"
   },
   {
     "id": "p-158",
@@ -7471,8 +7779,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwanamke hashawishiwi kwa kulia"
   },
   {
     "id": "p-159",
@@ -7523,8 +7833,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mkia wa kondoo unaliwa na mbweha"
   },
   {
     "id": "p-161",
@@ -7572,8 +7884,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mdigo hapendi mwenzake azae mapacha"
   },
   {
     "id": "p-162",
@@ -7622,8 +7936,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mfupa ukimshinda fisi mbwa hauwezi (pia)"
   },
   {
     "id": "p-163",
@@ -7669,8 +7985,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgala umuue lakini vya kwake umpe"
   },
   {
     "id": "p-164",
@@ -7715,8 +8033,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Yule) majivuno aliyeendelea alikula wali tupu"
   },
   {
     "id": "p-165",
@@ -7763,8 +8083,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mganga hajilagui mwenyewe"
   },
   {
     "id": "p-166",
@@ -7811,8 +8133,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgawaji bado yuko mahali pa kugawia"
   },
   {
     "id": "p-167",
@@ -7857,8 +8181,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Miji haichukiani"
   },
   {
     "id": "p-168",
@@ -7907,8 +8233,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtema mnazi akisifilwa pombe hutiwa maji"
   },
   {
     "id": "p-169",
@@ -7956,8 +8284,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgeni anapokelewa fimbo, lakini macho bado anayo mwenyewe"
   },
   {
     "id": "p-170",
@@ -8006,8 +8336,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgeni aje, mwenyeji apone"
   },
   {
     "id": "p-171",
@@ -8052,8 +8384,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgeni ni mvua"
   },
   {
     "id": "p-172",
@@ -8103,8 +8437,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwindaji hachoki, akichoka anaoka"
   },
   {
     "id": "p-173",
@@ -8149,8 +8485,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Alaye kwanza ndiye alaye mwisho"
   },
   {
     "id": "p-174",
@@ -8195,8 +8533,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mti mbaya utapata tumbili wake"
   },
   {
     "id": "p-175",
@@ -8247,8 +8587,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mke wa mganga hakondi"
   },
   {
     "id": "p-177",
@@ -8296,8 +8638,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mgonjwa ni ghala la waganga"
   },
   {
     "id": "p-178",
@@ -8343,8 +8687,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mkono mtupu haulambiliwi"
   },
   {
     "id": "p-179",
@@ -8391,8 +8737,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukindu mrefu haufungi kuni"
   },
   {
     "id": "p-180",
@@ -8438,8 +8786,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Alalaye na 'ngoyo', anapoomka anaifanya"
   },
   {
     "id": "p-181",
@@ -8487,8 +8837,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Alambaye asali halamba mara moja tu"
   },
   {
     "id": "p-182",
@@ -8536,8 +8888,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ndege akiungua anaoka 'rambo'"
   },
   {
     "id": "p-183",
@@ -8584,8 +8938,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Damu haikimbirani wala haiachani"
   },
   {
     "id": "p-184",
@@ -8634,8 +8990,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mume wangu ameokea mbuyu ili ale uyoga wake"
   },
   {
     "id": "p-185",
@@ -8680,8 +9038,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mungu analala peke yake"
   },
   {
     "id": "p-186",
@@ -8727,8 +9087,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mungu hakupi kisha akakuondolea"
   },
   {
     "id": "p-187",
@@ -8773,8 +9135,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mungu hampigi mtumishi wake"
   },
   {
     "id": "p-188",
@@ -8819,8 +9183,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Papai linalooza mbegu zake hazipandwi"
   },
   {
     "id": "p-189",
@@ -8868,8 +9234,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mnazi mmoja una pombe gani?"
   },
   {
     "id": "p-190",
@@ -8918,8 +9286,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mnazi wa mwanamke haupandwi kwa furaha"
   },
   {
     "id": "p-191",
@@ -8966,8 +9336,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye njaa hana wafuasi; Mwenye njaa hana masikio"
   },
   {
     "id": "p-192",
@@ -9016,8 +9388,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye njaa hawezi kumzika mama yake"
   },
   {
     "id": "p-193",
@@ -9062,8 +9436,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Aliye)umwa na nyoka anaogopa (hata) mzabibu"
   },
   {
     "id": "p-194",
@@ -9112,8 +9488,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Moto hauzai moto"
   },
   {
     "id": "p-196",
@@ -9161,8 +9539,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mpumbavu hanyooki"
   },
   {
     "id": "p-197",
@@ -9212,8 +9592,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mchezaji wa tsetse anaanza na vipande vyake mwenyewe"
   },
   {
     "id": "p-198",
@@ -9259,8 +9641,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Atembeavyo pole hajikwai"
   },
   {
     "id": "p-199",
@@ -9305,8 +9689,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mkataji wa wengi ni msaliti"
   },
   {
     "id": "p-200",
@@ -9351,8 +9737,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Alaye chakula chake kimya hana ugomvi na mtu yeyote"
   },
   {
     "id": "p-201",
@@ -9399,8 +9787,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu anayeishi maisha mabaya haigwi"
   },
   {
     "id": "p-202",
@@ -9445,8 +9835,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Msemaji wa ukweli si mkosaji"
   },
   {
     "id": "p-203",
@@ -9494,8 +9886,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ashonaye nguo ajaribu kiuno chake mwenyewe"
   },
   {
     "id": "p-204",
@@ -9540,8 +9934,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtazamaji anapigwa mnnadani"
   },
   {
     "id": "p-205",
@@ -9588,8 +9984,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Furahi kwa mzoga, usifurahi kwa nyayo"
   },
   {
     "id": "p-206",
@@ -9638,8 +10036,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mchimbaji wa kaburi naye pia anataka achimbiwe kaburi (yaani azikwe vizuri)"
   },
   {
     "id": "p-207",
@@ -9687,8 +10087,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Atokaye kumpokea mgeni hawezi kupuuzwa"
   },
   {
     "id": "p-208",
@@ -9738,8 +10140,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mlishi hafi, mtumwa hauawi"
   },
   {
     "id": "p-209",
@@ -9784,8 +10188,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mlishi hauawi wala hafi"
   },
   {
     "id": "p-210",
@@ -9830,8 +10236,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mlishi na mali yake, mnyonge ana yake mwenyewe"
   },
   {
     "id": "p-211",
@@ -9878,8 +10286,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mchuzi wa beberu (mbuzi dume mzee) unanywiwa/unaliwa ukiwa moto"
   },
   {
     "id": "p-212",
@@ -9924,8 +10334,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Utamu wa chai ni sukari"
   },
   {
     "id": "p-213",
@@ -9972,8 +10384,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aambiaye (jambo) mazungumzoni ana yake mwenyewe ya kusema"
   },
   {
     "id": "p-214",
@@ -10021,8 +10435,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtego ukisimama ni kupumzisha mgongo wake"
   },
   {
     "id": "p-215",
@@ -10068,8 +10484,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Atendaye mema analiwa na watu wabaya"
   },
   {
     "id": "p-216",
@@ -10118,8 +10536,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mti ukimshinda nyani, tumbili hauwezi (pia)"
   },
   {
     "id": "p-217",
@@ -10166,8 +10586,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mti unaangukia walio karibu"
   },
   {
     "id": "p-218",
@@ -10212,8 +10634,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mjumbe hauawi"
   },
   {
     "id": "p-219",
@@ -10259,8 +10683,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwizi, mkamate na suke (la mahindi)"
   },
   {
     "id": "p-220",
@@ -10307,8 +10733,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aonaye kenge ndiye mtegaji"
   },
   {
     "id": "p-221",
@@ -10356,8 +10784,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aozeshaye nyama ni mwenye mtego"
   },
   {
     "id": "p-222",
@@ -10406,8 +10836,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu anaambiwa akirudi, haambiwa akienda"
   },
   {
     "id": "p-223",
@@ -10454,8 +10886,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu anaambiwa hilo, haambiwa hili"
   },
   {
     "id": "p-224",
@@ -10500,8 +10934,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu anaokolewa na chake mwenyewe"
   },
   {
     "id": "p-225",
@@ -10546,8 +10982,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu wa kichaa haigwi"
   },
   {
     "id": "p-226",
@@ -10593,8 +11031,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mbuyu unafunikwa na vichaka"
   },
   {
     "id": "p-227",
@@ -10641,8 +11081,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mvua inangojewa na shamba lililosafishwa"
   },
   {
     "id": "p-228",
@@ -10688,8 +11130,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mvumilivu anasubiri lake mwenyewe"
   },
   {
     "id": "p-229",
@@ -10736,8 +11180,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mharibifu wa nchi ni mwananchi"
   },
   {
     "id": "p-230",
@@ -10784,8 +11230,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwimbaji haimbirwi"
   },
   {
     "id": "p-231",
@@ -10832,8 +11280,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mzazi hali hadi ashibe"
   },
   {
     "id": "p-232",
@@ -10878,8 +11328,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mzazi (ana) taabu, tasa (ana) taabu"
   },
   {
     "id": "p-233",
@@ -10927,8 +11379,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mzee unaweza kumpita mbio, lakini huwezi kumshinda hekima"
   },
   {
     "id": "p-234",
@@ -10977,8 +11431,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jitahidi mwenyewe, umma hautamfanyia mtu chochote"
   },
   {
     "id": "p-235",
@@ -11023,8 +11479,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Mwadziko', kesho vivyo hivyo"
   },
   {
     "id": "p-236",
@@ -11070,8 +11528,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Mwaligulu', shauri la mwenyewe"
   },
   {
     "id": "p-237",
@@ -11116,8 +11576,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aambiaye habari ana zake mwenyewe"
   },
   {
     "id": "p-238",
@@ -11166,8 +11628,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwana-mbuzi anafagia kwake kwanza ndipo anakula kwa jirani yake"
   },
   {
     "id": "p-239",
@@ -11214,8 +11678,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto mwenye kasoro hawezi kufichwa"
   },
   {
     "id": "p-240",
@@ -11264,8 +11730,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto akikulowesha paja usilikate"
   },
   {
     "id": "p-241",
@@ -11311,8 +11779,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto anayelelewa vizuri hakosi (chochote)"
   },
   {
     "id": "p-242",
@@ -11360,8 +11830,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto asikiaye haambiwa (mara) nyingi"
   },
   {
     "id": "p-243",
@@ -11410,8 +11882,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto anayekubali kutumwa ana mavi mengi"
   },
   {
     "id": "p-244",
@@ -11457,8 +11931,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto ni kitu cha kukopea"
   },
   {
     "id": "p-245",
@@ -11505,8 +11981,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto wa pembeni hana mlezi"
   },
   {
     "id": "p-246",
@@ -11556,8 +12034,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto wa kucheka-cheka anamkatalia baba nyama"
   },
   {
     "id": "p-247",
@@ -11604,8 +12084,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto wa mwenzako ana baridi"
   },
   {
     "id": "p-248",
@@ -11652,8 +12134,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto wa nyoka ni nyoka"
   },
   {
     "id": "p-249",
@@ -11700,8 +12184,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kifaranga cha paka ni kitambaa, kifaranga cha mbwa ni cha kamba"
   },
   {
     "id": "p-250",
@@ -11748,8 +12234,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwanzo wa kidonda ni kuwashwa kidogo"
   },
   {
     "id": "p-251",
@@ -11795,8 +12283,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nne nne inamaliza nyoka"
   },
   {
     "id": "p-252",
@@ -11846,8 +12336,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Msagaji nguruwe, kazi tuliyokuja kufanya ndiyo tunayoifanya"
   },
   {
     "id": "p-253",
@@ -11892,8 +12384,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aendaye kuzimu hasengenywi"
   },
   {
     "id": "p-254",
@@ -11938,8 +12432,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye ng'ombe ana milango mingi"
   },
   {
     "id": "p-255",
@@ -11986,8 +12482,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwili hauna upande (unaopendwa) wa kunya"
   },
   {
     "id": "p-256",
@@ -12032,8 +12530,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwiba wa kujidunga haumizi"
   },
   {
     "id": "p-257",
@@ -12081,8 +12581,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenzako akimwaga mchuzi wewe weka mchanga kwenye ugali"
   },
   {
     "id": "p-258",
@@ -12129,8 +12631,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenzako akijikwaa mwambie pole"
   },
   {
     "id": "p-259",
@@ -12179,8 +12683,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Aliyezungukwa hajui, lakini wenyeji wa mji wanajua"
   },
   {
     "id": "p-260",
@@ -12227,8 +12733,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Afukuzaye wengi hapuuzwi"
   },
   {
     "id": "p-261",
@@ -12275,8 +12783,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ubivu wa mtini, ndani una mabuu"
   },
   {
     "id": "p-262",
@@ -12327,8 +12837,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Naona makuzi wakifukuzana, lakini sijui dume ni lipi wala jike ni lipi"
   },
   {
     "id": "p-263",
@@ -12377,8 +12889,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uonevu wa pamoja hauwezi kumweka mtu chini"
   },
   {
     "id": "p-264",
@@ -12425,8 +12939,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Nimle nani' si sawa na 'nile nini'"
   },
   {
     "id": "p-265",
@@ -12474,8 +12990,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wivu/husuda unamfaa mtu tasa"
   },
   {
     "id": "p-266",
@@ -12523,8 +13041,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Tembo hauawi kwa bua la mahindi kavu"
   },
   {
     "id": "p-267",
@@ -12570,8 +13090,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Tembo hashindwi na mkonga wake"
   },
   {
     "id": "p-268",
@@ -12617,8 +13139,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kuchukua 'Ng'andu' ni kwenda"
   },
   {
     "id": "p-269",
@@ -12665,8 +13189,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ng'ombe anauawa na kidole cha mwenyewe"
   },
   {
     "id": "p-270",
@@ -12712,8 +13238,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ng'ombe mkali ana mkamuzi wake mwenyewe"
   },
   {
     "id": "p-271",
@@ -12763,8 +13291,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kondoo akipiga hatua nyuma, si kukimbia vita, bali ni kufikiri mashambulizi"
   },
   {
     "id": "p-272",
@@ -12810,8 +13340,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Kondoo anatazama nyuma"
   },
   {
     "id": "p-273",
@@ -12857,8 +13389,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakimu ni mguu"
   },
   {
     "id": "p-274",
@@ -12904,8 +13438,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nguvu za maji ni mawe"
   },
   {
     "id": "p-275",
@@ -12951,8 +13487,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Njia mbili zinamshinda fisi"
   },
   {
     "id": "p-276",
@@ -12998,8 +13536,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Nile nini?' si sawa na 'nile na nini?'"
   },
   {
     "id": "p-277",
@@ -13049,8 +13589,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyani akipiga magoti kawaida mbwa yuko mbali Nyasi zina mimba, usiseme yote"
   },
   {
     "id": "p-279",
@@ -13095,8 +13637,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyasi zina mimba"
   },
   {
     "id": "p-280",
@@ -13141,8 +13685,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Kidoledole' ni ugonjwa"
   },
   {
     "id": "p-281",
@@ -13191,8 +13737,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyoka akifa mjusi mwenye mkia mwekundu anauma watu"
   },
   {
     "id": "p-282",
@@ -13237,8 +13785,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mambo ya ana kwa ana ni ya kukutana (uso kwa uso)"
   },
   {
     "id": "p-283",
@@ -13289,8 +13839,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba aliyofia mtu usisikilize waombolezaji wake"
   },
   {
     "id": "p-284",
@@ -13337,8 +13889,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba ni matatizo, imejengwa kwa vipande vingi"
   },
   {
     "id": "p-285",
@@ -13384,8 +13938,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba ni pembe nne"
   },
   {
     "id": "p-286",
@@ -13433,8 +13989,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mnyama pekee ndiye alalaye nyumba ya mnyama"
   },
   {
     "id": "p-287",
@@ -13481,8 +14039,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nyumba ya mtu peke yake hakuna maombolezo"
   },
   {
     "id": "p-288",
@@ -13527,8 +14087,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Oho!' haivunji mshipa"
   },
   {
     "id": "p-289",
@@ -13575,8 +14137,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Pepo dhaifu anachezewe pembeni"
   },
   {
     "id": "p-290",
@@ -13623,8 +14187,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Pesa ni (kama) uchi, hazionyeshwi"
   },
   {
     "id": "p-291",
@@ -13672,8 +14238,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mahali unavyovuna ndipo unapokula"
   },
   {
     "id": "p-292",
@@ -13723,8 +14291,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Palipo na moshi hapakosi ndege 'rongwe' Kichaka kikiteketea ndege huyu anakusanyika kula"
   },
   {
     "id": "p-293",
@@ -13771,8 +14341,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Palipo na tai pana mzoga"
   },
   {
     "id": "p-294",
@@ -13818,8 +14390,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Palipo na utelezi usijisifu"
   },
   {
     "id": "p-295",
@@ -13866,8 +14440,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Pasipo na mlima usifanye mlima"
   },
   {
     "id": "p-296",
@@ -13914,8 +14490,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mahali penye wazee hapasumbuliwi na mambo"
   },
   {
     "id": "p-297",
@@ -13964,8 +14542,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Penye moshi hapakosi moto"
   },
   {
     "id": "p-298",
@@ -14013,8 +14593,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Leo ni macho, kesho ni macho makubwa zaidi"
   },
   {
     "id": "p-299",
@@ -14062,8 +14644,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ikifa vizuri (jongoo) inaonekana kama mvua"
   },
   {
     "id": "p-300",
@@ -14109,8 +14693,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Roho ilidanganya bwana wake"
   },
   {
     "id": "p-301",
@@ -14157,8 +14743,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Safari ya kesho inafungwa leo"
   },
   {
     "id": "p-302",
@@ -14208,8 +14796,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Sikio lililokufa halisikii dawa"
   },
   {
     "id": "p-303",
@@ -14255,8 +14845,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Sikio halipiti kichwa"
   },
   {
     "id": "p-304",
@@ -14305,8 +14897,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Simba anayetembea pole ndiye anayekula nyama."
   },
   {
     "id": "p-305",
@@ -14351,8 +14945,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Shingo ya kuku inavunjwa na kamba"
   },
   {
     "id": "p-306",
@@ -14399,8 +14995,10 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "swahili": "original"
-    }
+      "swahili": "original",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna dawa ya tabia"
   },
   {
     "id": "p-307",
@@ -14449,8 +15047,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna mtu mdogo asiye na ukoo wake."
   },
   {
     "id": "p-308",
@@ -14496,8 +15096,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna soko lisilo na miadi"
   },
   {
     "id": "p-309",
@@ -14546,8 +15148,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna kanga mzee na moto"
   },
   {
     "id": "p-310",
@@ -14593,8 +15197,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna utani wa koo"
   },
   {
     "id": "p-311",
@@ -14639,8 +15245,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna anayezeeka safarini"
   },
   {
     "id": "p-312",
@@ -14688,8 +15296,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna mtu mrefu kiasi cha kulala vitanda viwili"
   },
   {
     "id": "p-313",
@@ -14738,8 +15348,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Haviwezi kutwangwa kama mchi haujakaa wima"
   },
   {
     "id": "p-314",
@@ -14787,8 +15399,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hakuna ndani, hakuna ndani maana yake vimo ndani"
   },
   {
     "id": "p-315",
@@ -14834,8 +15448,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wingi hauchunguliwi"
   },
   {
     "id": "p-316",
@@ -14880,8 +15496,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Anayeshika) tumboni ndiye anayekula"
   },
   {
     "id": "p-317",
@@ -14928,8 +15546,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mchango wa Mdigo ni fitina"
   },
   {
     "id": "p-318",
@@ -14974,8 +15594,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uchokozi wenu (kwa kila mmoja), mtang'oana macho"
   },
   {
     "id": "p-319",
@@ -15020,8 +15642,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uchokozi wenu, mtachokoza garege (kiumbe hatari)"
   },
   {
     "id": "p-320",
@@ -15069,8 +15693,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Hasira ya pweza ni furaha ya mvuvi"
   },
   {
     "id": "p-321",
@@ -15116,8 +15742,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Tumbaku mbaya huanza kwenye shina"
   },
   {
     "id": "p-322",
@@ -15162,8 +15790,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Asili ni (kutoka) Mwabajiro"
   },
   {
     "id": "p-323",
@@ -15210,8 +15840,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukificha ugonjwa utasemwa kwenye maombolezo"
   },
   {
     "id": "p-324",
@@ -15256,8 +15888,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukimlea kanga kupitia kiu, utakula maembe mbivu"
   },
   {
     "id": "p-325",
@@ -15302,8 +15936,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukishughulika na mwerevu, mwache ajitoe mwenyewe"
   },
   {
     "id": "p-326",
@@ -15351,8 +15987,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukikosa zizini/boma, isubiri sufuriani"
   },
   {
     "id": "p-327",
@@ -15398,8 +16036,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukifuata ngoma, cheza ngoma"
   },
   {
     "id": "p-328",
@@ -15445,8 +16085,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukijua hiki, rafiki yako anajua kile"
   },
   {
     "id": "p-329",
@@ -15493,8 +16135,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Unapokwenda windoni usichague mnyama"
   },
   {
     "id": "p-330",
@@ -15539,8 +16183,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukila kuku wa jirani (wako), manyoya yatakuja kwako"
   },
   {
     "id": "p-331",
@@ -15590,8 +16236,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Unapokula na kipofu, usimshike mkono Unapokula, kula hadi ushibe, bakisha kwa kesho"
   },
   {
     "id": "p-333",
@@ -15640,8 +16288,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukitaka kitu kutoka chini ya kitu lazima uiname"
   },
   {
     "id": "p-334",
@@ -15691,8 +16341,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukicheka dalili za kwanza za ukoma utakuwa na ukoma"
   },
   {
     "id": "p-335",
@@ -15739,8 +16391,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukuu wa ndege huja na kwenda"
   },
   {
     "id": "p-336",
@@ -15786,8 +16440,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Upinde umekaza, uzi umekaza"
   },
   {
     "id": "p-337",
@@ -15838,8 +16494,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ujinga unazaa, werevu hauzai"
   },
   {
     "id": "p-338",
@@ -15888,8 +16546,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ulidanganywa na giza, ukakojoa uani"
   },
   {
     "id": "p-339",
@@ -15936,8 +16596,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ulilala motoni ukachoma nywele za siri"
   },
   {
     "id": "p-340",
@@ -15982,8 +16644,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye kelele hauui"
   },
   {
     "id": "p-341",
@@ -16029,8 +16693,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mkaidi hauui"
   },
   {
     "id": "p-342",
@@ -16076,8 +16742,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye nyoka ni asubuhi"
   },
   {
     "id": "p-343",
@@ -16124,8 +16792,10 @@
       "swahili": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ugonjwa unaongezeka usiku"
   },
   {
     "id": "p-344",
@@ -16173,8 +16843,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukweli wa mtoto ni usumbufu"
   },
   {
     "id": "p-345",
@@ -16219,8 +16891,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Jua watu wako, (nawe utajua) unapokwenda"
   },
   {
     "id": "p-346",
@@ -16265,8 +16939,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "(Yule) unayesema ni yeye, si yeye"
   },
   {
     "id": "p-347",
@@ -16314,8 +16990,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Utapitaje mahali penye mbwa za Tiwi?"
   },
   {
     "id": "p-348",
@@ -16360,8 +17038,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wingi ni mchi"
   },
   {
     "id": "p-349",
@@ -16412,8 +17092,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usidharau ngoma ya ngorowa, kwa sababu ndiyo ngoma (ya kweli)"
   },
   {
     "id": "p-350",
@@ -16460,8 +17142,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usinunue makopa na kucheza"
   },
   {
     "id": "p-351",
@@ -16510,8 +17194,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usiuze vya kapuni wakati bado una marundo (ya mboga)"
   },
   {
     "id": "p-352",
@@ -16558,8 +17244,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usiwe kama anayeomba kondoo"
   },
   {
     "id": "p-353",
@@ -16606,8 +17294,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Nguo hazishonwi gizani usiku"
   },
   {
     "id": "p-354",
@@ -16656,8 +17346,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usidharau harufu mbaya, ukiichoma ni mboga"
   },
   {
     "id": "p-355",
@@ -16706,8 +17398,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Usicheze na magonjwa ya ngozi, yakipasuka yanakuwa ukoma"
   },
   {
     "id": "p-356",
@@ -16756,8 +17450,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mahali unapopita pole ndipo siku za usoni utakapopita ukikimbia"
   },
   {
     "id": "p-357",
@@ -16804,8 +17500,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ukicheka ugonjwa wa ngozi utapata ukoma"
   },
   {
     "id": "p-358",
@@ -16854,8 +17552,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Umma ni (kama) mchi, haupindiki Huwezi kudhibiti umma"
   },
   {
     "id": "p-359",
@@ -16905,8 +17605,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uchungu wa mtoto unajulikana na mzazi (aliyemzaa)"
   },
   {
     "id": "p-360",
@@ -16951,8 +17653,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Unapozaliwa hakuna kuchagua"
   },
   {
     "id": "p-361",
@@ -16997,8 +17701,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Unavyozaliwa si unavyozeeka"
   },
   {
     "id": "p-362",
@@ -17042,8 +17748,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uzee ni jaa"
   },
   {
     "id": "p-363",
@@ -17087,8 +17795,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uzee unachosha"
   },
   {
     "id": "p-364",
@@ -17136,8 +17846,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Fukuzeni wanaokula mahindi"
   },
   {
     "id": "p-365",
@@ -17182,8 +17894,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vitu vinavyoonekana (vikija) haviui"
   },
   {
     "id": "p-366",
@@ -17230,8 +17944,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Uzuri unakula mti wa matunda"
   },
   {
     "id": "p-367",
@@ -17280,8 +17996,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vitu vizuri vinapita kwenye chuo cha maskini"
   },
   {
     "id": "p-368",
@@ -17326,8 +18044,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Vuta vuta inaleta mkato"
   },
   {
     "id": "p-369",
@@ -17375,8 +18095,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mbele ya goti halisalimii nyuma ya goti, na nyuma ya goti halisalimii mbele ya goti"
   },
   {
     "id": "p-370",
@@ -17422,8 +18144,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtoto mtundu ni mtundu wako"
   },
   {
     "id": "p-371",
@@ -17469,8 +18193,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye jicho haangaliziwi taa"
   },
   {
     "id": "p-372",
@@ -17516,8 +18242,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwendawazimu hafukuzwi uchi"
   },
   {
     "id": "p-373",
@@ -17562,8 +18290,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwendawazimu ni wako"
   },
   {
     "id": "p-374",
@@ -17609,8 +18339,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye tamaa kubwa haivi"
   },
   {
     "id": "p-375",
@@ -17659,8 +18391,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mtu anayenuka hajijui mwenyewe"
   },
   {
     "id": "p-376",
@@ -17708,8 +18442,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye tamaa ya mwili haambiwa ainame"
   },
   {
     "id": "p-377",
@@ -17756,8 +18492,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye mapendo (meno yaliyoisha) hawezi kuwasha moto"
   },
   {
     "id": "p-378",
@@ -17804,8 +18542,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Mwenye kitu kimoja hawezi kuibiwa viwili"
   },
   {
     "id": "p-379",
@@ -17854,8 +18594,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ulikuwa (kama) kanga yenye jicho moja inayofukua kwa (zile) zenye macho"
   },
   {
     "id": "p-380",
@@ -17901,8 +18643,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Ulikula bombo, utalipa bombo"
   },
   {
     "id": "p-381",
@@ -17947,8 +18691,10 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Werevu hauli peke yake"
   },
   {
     "id": "p-382",
@@ -17995,8 +18741,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wimbo mbaya hautumiwi kumtuliza mtoto"
   },
   {
     "id": "p-383",
@@ -18047,8 +18795,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Wivu ni kidonda, ukishiriki utadhoofika"
   },
   {
     "id": "p-385",
@@ -18095,8 +18845,10 @@
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Yule ni mmoja, hawa ni wengi"
   },
   {
     "id": "p-386",
@@ -18144,8 +18896,10 @@
       "literal_en": "original",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
-    }
+      "commentary_dg": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "'Inachoma! Inachoma!' maana yake karibu imeiva"
   },
   {
     "id": "p-387",
@@ -18190,7 +18944,9 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_en": "ai-draft"
-    }
+      "literal_en": "ai-draft",
+      "literal_sw": "ai-draft"
+    },
+    "literal_sw": "Zungukazunguka (kama) chupa, panda (kama) chupa"
   }
 ]
