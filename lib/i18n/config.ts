@@ -247,6 +247,12 @@ export interface Messages {
     partners_heading: string;
     partners_body: string;
   };
+  not_found: {
+    title: string;
+    description: string;
+    back_home: string;
+    search: string;
+  };
   cta: {
     section_eyebrow: string;
     about_title: string;

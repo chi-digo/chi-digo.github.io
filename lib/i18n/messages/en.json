@@ -248,6 +248,12 @@
     "partners_heading": "For partners and funders",
     "partners_body": "Chi-digo is a mission-led language revitalisation initiative. All reference content is published under CC-BY-SA 4.0. If you share our belief that Chidigo deserves a living future, we’d welcome a conversation."
   },
+  "not_found": {
+    "title": "Page not found",
+    "description": "The path you followed doesn’t lead anywhere — but there’s plenty to explore.",
+    "back_home": "Back to home",
+    "search": "Search"
+  },
   "cta": {
     "section_eyebrow": "Discover more",
     "about_title": "Who we are",

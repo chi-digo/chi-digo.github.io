@@ -248,6 +248,12 @@
     "partners_heading": "Kwa washirika na wafadhili",
     "partners_body": "Chi-digo ni mradi wa kufufua lugha unaongozwa na dhamira. Maudhui yote ya rejea yanachapishwa chini ya CC-BY-SA 4.0. Ikiwa unashiriki imani yetu kwamba Chidigo kinastahili mustakabali hai, tungependa mazungumzo."
   },
+  "not_found": {
+    "title": "Ukurasa haujapatikana",
+    "description": "Njia uliyofuata haipeleki popote — lakini kuna mengi ya kuchunguza.",
+    "back_home": "Rudi nyumbani",
+    "search": "Tafuta"
+  },
   "cta": {
     "section_eyebrow": "Gundua zaidi",
     "about_title": "Sisi ni nani",
