@@ -8,6 +8,8 @@ export interface SearchResult {
   headword: string;
   pos: string;
   equivalent: string;
+  equivalent_sw: string;
+  equivalent_dg: string;
   letter: string;
   language: "dg" | "sw" | "en";
 }
@@ -86,6 +88,8 @@ function toSearchResult(
     headword: cleanHw(entry.hw),
     pos: entry.pos,
     equivalent: entry.eq,
+    equivalent_sw: entry.eq_sw || '',
+    equivalent_dg: entry.eq_dg || '',
     letter: entry.id.charAt(0),
     language,
   };
@@ -145,6 +149,8 @@ async function searchReverse(
           headword: cleanHw(id.replace(/\.\d+$/, "")),
           pos: "",
           equivalent: term,
+          equivalent_sw: '',
+          equivalent_dg: '',
           letter,
           language: lang === "sw" ? "sw" : "en",
         });

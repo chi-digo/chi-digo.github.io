@@ -78,6 +78,8 @@ export interface SearchIndexEntry {
   id: string;
   pos: string;
   eq: string;
+  eq_sw?: string;
+  eq_dg?: string;
 }
 
 export interface IndexMetadata {

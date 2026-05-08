@@ -192,6 +192,7 @@ export function NavBar() {
     >
       <Link href="/" className={styles.homeLink} aria-label="Chi-digo home">
         <VigangoMark />
+        <span className={styles.brandName}>Chidigo</span>
       </Link>
 
       <div className={styles.desktopLinks}>

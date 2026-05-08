@@ -2,7 +2,8 @@
 
 import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
-import { useTranslations } from '@/lib/i18n/context';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
+import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
@@ -47,16 +48,24 @@ function goToSearch(nav: Navigate, q: string) {
 
 /* ===== Search dropdown (shared) ===== */
 
+function getEquivByLocale(result: SearchResult, locale: Locale): string {
+  if (locale === 'sw') return result.equivalent_sw || result.equivalent;
+  if (locale === 'dig') return result.equivalent_dg || result.equivalent;
+  return result.equivalent;
+}
+
 function SearchDropdown({
   results,
   visible,
   isLoading,
   onSelect,
+  locale,
 }: {
   results: { dg: SearchResult[]; sw: SearchResult[]; en: SearchResult[]; total: number };
   visible: boolean;
   isLoading: boolean;
   onSelect: (result: SearchResult) => void;
+  locale: Locale;
 }) {
   const t = useTranslations();
   if (!visible || (results.total === 0 && !isLoading)) return null;
@@ -80,7 +89,7 @@ function SearchDropdown({
                 type="button"
               >
                 <span className={styles.dropdownHeadword}>{result.headword}</span>
-                <span className={styles.dropdownEquiv}>{result.equivalent}</span>
+                <span className={styles.dropdownEquiv}>{getEquivByLocale(result, locale)}</span>
               </button>
             ))}
           </div>
@@ -94,6 +103,7 @@ function SearchDropdown({
 
 function DictionarySearchBar({ nav }: { nav: Navigate }) {
   const t = useTranslations();
+  const { locale } = useLocale();
   const { query, setQuery, results, isLoading } = useSearch('dictionary');
   const [isFocused, setIsFocused] = useState(false);
   const focusTracked = useRef(false);
@@ -166,6 +176,7 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
         visible={isFocused && query.length >= 2}
         isLoading={isLoading}
         onSelect={handleSelect}
+        locale={locale}
       />
     </form>
   );
@@ -175,6 +186,7 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
 
 function FeaturedWordCard({ nav }: { nav: Navigate }) {
   const t = useTranslations();
+  const { locale } = useLocale();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -230,8 +242,18 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
       <span className={styles.wotdPos}>
         {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
       </span>
-      {firstDef?.definition_dg && <p className={styles.wotdDef}>{firstDef.definition_dg}</p>}
-      {firstDef?.definition_en && <p className={styles.wotdDefEn}>{firstDef.definition_en}</p>}
+      {(() => {
+        const primary = locale === 'sw' ? firstDef?.definition_sw
+          : locale === 'dig' ? firstDef?.definition_dg
+          : firstDef?.definition_en;
+        const secondary = locale === 'dig' ? null : firstDef?.definition_dg;
+        return (
+          <>
+            {primary && <p className={styles.wotdDef}>{primary}</p>}
+            {secondary && secondary !== primary && <p className={styles.wotdDefEn}>{secondary}</p>}
+          </>
+        );
+      })()}
     </button>
   );
 }
@@ -248,6 +270,7 @@ function EntrySection({
   nav: Navigate;
 }) {
   const t = useTranslations();
+  const { locale } = useLocale();
 
   return (
     <div className={styles.entryBody}>
@@ -284,16 +307,30 @@ function EntrySection({
           {entry.senses.length > 1 && (
             <span className={styles.senseNum}>{sense.sense_id}.</span>
           )}
-          {sense.definition_dg && <p className={styles.defDg}>{sense.definition_dg}</p>}
-          {sense.definition_en && <p className={styles.defEn}>{sense.definition_en}</p>}
+          {(() => {
+            const primary = locale === 'sw' ? sense.definition_sw
+              : locale === 'dig' ? sense.definition_dg
+              : sense.definition_en;
+            const secondary = locale === 'dig' ? null
+              : (sense.definition_dg && sense.definition_dg !== primary ? sense.definition_dg : null);
+            return (
+              <>
+                {primary && <p className={styles.defDg}>{primary}</p>}
+                {secondary && <p className={styles.defEn}>{secondary}</p>}
+              </>
+            );
+          })()}
           {sense.examples.length > 0 && (
             <div className={styles.examples}>
-              {sense.examples.map((ex, i) => (
-                <div key={i} className={styles.example}>
-                  <p className={styles.exDg}>{ex.dg}</p>
-                  {ex.en && <p className={styles.exEn}>{ex.en}</p>}
-                </div>
-              ))}
+              {sense.examples.map((ex, i) => {
+                const translation = locale === 'sw' ? ex.sw : locale === 'dig' ? null : ex.en;
+                return (
+                  <div key={i} className={styles.example}>
+                    <p className={styles.exDg}>{ex.dg}</p>
+                    {translation && <p className={styles.exEn}>{translation}</p>}
+                  </div>
+                );
+              })}
             </div>
           )}
           {sense.synonyms_dg.length > 0 && (
@@ -319,22 +356,27 @@ function EntrySection({
         </div>
       ))}
 
-      {(entry.equivalents_en.length > 0 || entry.equivalents_sw.length > 0) && (
-        <div className={styles.equivalents}>
-          {entry.equivalents_en.length > 0 && (
-            <p>
-              <span className={styles.equivLabel}>{t.dictionary.equivalents_en}:</span>{' '}
-              {entry.equivalents_en.join(', ')}
-            </p>
-          )}
-          {entry.equivalents_sw.length > 0 && (
-            <p>
-              <span className={styles.equivLabel}>{t.dictionary.equivalents_sw}:</span>{' '}
-              {entry.equivalents_sw.join(', ')}
-            </p>
-          )}
-        </div>
-      )}
+      {(() => {
+        const showEn = locale !== 'en' && entry.equivalents_en.length > 0;
+        const showSw = locale !== 'sw' && entry.equivalents_sw.length > 0;
+        if (!showEn && !showSw) return null;
+        return (
+          <div className={styles.equivalents}>
+            {showEn && (
+              <p>
+                <span className={styles.equivLabel}>{t.dictionary.equivalents_en}:</span>{' '}
+                {entry.equivalents_en.join(', ')}
+              </p>
+            )}
+            {showSw && (
+              <p>
+                <span className={styles.equivLabel}>{t.dictionary.equivalents_sw}:</span>{' '}
+                {entry.equivalents_sw.join(', ')}
+              </p>
+            )}
+          </div>
+        );
+      })()}
 
       {entry.sub_entries.length > 0 && (
         <div className={styles.subEntries}>
@@ -345,7 +387,12 @@ function EntrySection({
               <span className={styles.subPos}>
                 {POS_ABBREVIATIONS[sub.pos] || sub.pos_en}
               </span>
-              {sub.definition_en && <span className={styles.subDef}>{sub.definition_en}</span>}
+              {(() => {
+                const def = locale === 'sw' ? (sub.definition_sw || sub.definition_en)
+                  : locale === 'dig' ? (sub.definition_dg || sub.definition_en)
+                  : sub.definition_en;
+                return def ? <span className={styles.subDef}>{def}</span> : null;
+              })()}
             </div>
           ))}
         </div>
@@ -440,6 +487,7 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
 /* ===== Search results view ===== */
 
 function ResultCard({ result, nav }: { result: SearchResult; nav: Navigate }) {
+  const { locale } = useLocale();
   const pos = POS_ABBREVIATIONS[result.pos] || result.pos;
   return (
     <button
@@ -451,7 +499,7 @@ function ResultCard({ result, nav }: { result: SearchResult; nav: Navigate }) {
         <span className={styles.resultCardWord}>{result.headword}</span>
         {pos && <span className={styles.resultCardPos}>{pos}</span>}
       </div>
-      <p className={styles.resultCardEquiv}>{result.equivalent}</p>
+      <p className={styles.resultCardEquiv}>{getEquivByLocale(result, locale)}</p>
     </button>
   );
 }

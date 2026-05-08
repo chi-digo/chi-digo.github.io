@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useTranslations } from '@/lib/i18n/context';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { POS_ABBREVIATIONS } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
@@ -29,6 +29,7 @@ function getWordForDate(): string {
 
 export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) => void }) {
   const t = useTranslations();
+  const { locale } = useLocale();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -66,12 +67,18 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
       <span className={styles.wotdPos}>
         {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
       </span>
-      {firstDef?.definition_dg && (
-        <p className={styles.wotdDef}>{firstDef.definition_dg}</p>
-      )}
-      {firstDef?.definition_en && (
-        <p className={styles.wotdDefEn}>{firstDef.definition_en}</p>
-      )}
+      {(() => {
+        const primary = locale === 'sw' ? firstDef?.definition_sw
+          : locale === 'dig' ? firstDef?.definition_dg
+          : firstDef?.definition_en;
+        const secondary = locale === 'dig' ? null : firstDef?.definition_dg;
+        return (
+          <>
+            {primary && <p className={styles.wotdDef}>{primary}</p>}
+            {secondary && secondary !== primary && <p className={styles.wotdDefEn}>{secondary}</p>}
+          </>
+        );
+      })()}
       <button
         type="button"
         className={styles.wotdButton}

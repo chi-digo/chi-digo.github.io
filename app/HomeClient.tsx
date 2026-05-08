@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
-import { DictionarySection } from '@/components/DictionarySection/DictionarySection';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { useTrackView } from '@/hooks/useTrackView';
 import styles from "./page.module.css";
@@ -171,9 +170,6 @@ export default function HomeClient() {
 
       {/* ===== Culture ===== */}
       <CultureSection />
-
-      {/* ===== The Dictionary (search + word of the day) ===== */}
-      <DictionarySection />
 
       {/* ===== Discover More ===== */}
       <section ref={ctaRef} className={`${styles.section} ${styles.ctaSection}`}>

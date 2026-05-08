@@ -75,6 +75,13 @@
   color: var(--color-vigango-black);
 }
 
+.searchInput::-webkit-search-cancel-button,
+.searchInput::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
 .searchInput::placeholder {
   color: var(--color-vigango-black);
   opacity: 0.4;
