@@ -415,10 +415,6 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
 
   return (
     <>
-      <button type="button" className={styles.backLink} onClick={() => nav('/proverbs')}>
-        {t.proverbs.back_to_proverbs}
-      </button>
-
       <article className={styles.detailArticle}>
         <h1 className={styles.detailDigo}>{proverb.digo}</h1>
 
@@ -587,10 +583,6 @@ function ThemeView({ themeSlug, nav, locale }: { themeSlug: string; nav: Navigat
 
   return (
     <>
-      <button type="button" className={styles.backLink} onClick={() => nav('/proverbs')}>
-        {t.proverbs.back_to_proverbs}
-      </button>
-
       <ProverbSearchBar nav={nav} />
 
       <div className={styles.themeHeader}>
@@ -642,10 +634,6 @@ function LetterView({ letter, nav, locale }: { letter: string; nav: Navigate; lo
 
   return (
     <>
-      <button type="button" className={styles.backLink} onClick={() => nav('/proverbs')}>
-        {t.proverbs.back_to_proverbs}
-      </button>
-
       <ProverbSearchBar nav={nav} />
 
       <p className={styles.resultsInfo}>

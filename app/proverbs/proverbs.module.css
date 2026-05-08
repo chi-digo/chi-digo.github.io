@@ -391,7 +391,7 @@
 }
 
 .detailArticle {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .detailDigo {
@@ -646,6 +646,7 @@
 /* ===== Theme header ===== */
 
 .themeHeader {
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
