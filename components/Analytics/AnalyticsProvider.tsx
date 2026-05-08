@@ -91,7 +91,7 @@ export function AnalyticsProvider() {
     setUserProperties({ preferred_locale: locale });
   }, [locale]);
 
-  if (!GA_ID) return null;
+  if (!GA_ID || process.env.NODE_ENV !== 'production') return null;
 
   return (
     <Script
