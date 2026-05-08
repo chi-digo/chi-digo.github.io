@@ -1715,7 +1715,7 @@
     "digo": "Cha mzuzu, chiriwa bure",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) thing of a fool is eaten for free",
     "idiomatic_en": "A fool's possessions are consumed for free",
     "swahili": "Cha mzuzu huliwa bure",
     "swahili_relationship": "translation",
@@ -1750,7 +1750,8 @@
       "idiomatic_sw": "ai-draft",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
+      "commentary_dg": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -2335,9 +2336,9 @@
     "digo": "Chidau niphirika Pemba",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Chidau (the Digo homeland) carried me (to) Pemba",
     "idiomatic_en": "The coastal Digo world and the islands are bound by ties that run deeper than the sea between them.",
-    "swahili": "",
+    "swahili": "Chidau kilinipeleka Pemba",
     "swahili_relationship": "translation",
     "commentary_en": "An obscure proverb referencing the connection between the Digo coast and the island of Pemba. It likely speaks to trade, migration, or cultural ties between mainland coastal communities and the islands of the Swahili world.",
     "commentary_dg": "Ndarira ambayo taimanyikana vinono inayoeleza uhusiano wa kahi-kahi ya pwani ya Adigo na chisiwa cha Pemba. Inaelekea kuonesa biashara, uhamisho, au mahusiano ga kitamaduni kahi-kahi ya atu a pwani na visiwa vya dunia ya Chiswahili.",
@@ -2369,7 +2370,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -2379,9 +2382,9 @@
     "digo": "Chigumba kpwa nguluwe kpwa Mdigo chi utsungu",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "A sweet thing for a pig, for a Digo (person) is bitterness",
     "idiomatic_en": "What a pig finds sweet, a Digo person finds bitter — what suits one may not suit another.",
-    "swahili": "",
+    "swahili": "Kitamu kwa nguruwe, kwa Mdigo ni uchungu",
     "swahili_relationship": "translation",
     "commentary_en": "What is palatable or tolerable for one creature may be bitter for another. Among the Digo, this proverb draws a distinction between the pig — which eats anything — and the Digo person, for whom the same thing may be unacceptable or painful.",
     "commentary_dg": "Chinachofaa au kuvumilika kpwa chiumbe chimwenga chinaweza kukala chi utsungu kpwa chinjine. Kpwa Adigo, ndarira ihi inaonesa tofauti kahi-kahi ya nguluwe — ariyerya chila chitu — na Mdigo, ambaye chitu hicho-hicho chinaweza kukala chisichokubalika au chenye utsungu.",
@@ -2413,7 +2416,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -2617,10 +2622,10 @@
     "digo": "Chikuryacho chi mwako bindoni",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "What eats you is in your belly",
     "idiomatic_en": "What eats at you lives inside your own belly — the greatest threats come from within.",
-    "swahili": "",
-    "swahili_relationship": "translation",
+    "swahili": "Kikulacho ki nguoni mwako",
+    "swahili_relationship": "cognate",
     "commentary_en": "A warning that the thing which harms you is often already inside you — in your own stomach, household, or heart. External enemies are less dangerous than the threats that come from within.",
     "commentary_dg": "Onyo kpwamba chitu chinachokurya mara nyinji tayari chi mwako ndani — bindoni mwako, nyumbani kwako, au moyoni mwako. Maadui a kondze ni hatari chidide kuriko vitisho vinavyokpwedza ndani.",
     "commentary_source": "expanded",
@@ -2651,7 +2656,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -2804,9 +2811,9 @@
     "digo": "Chimanyi wa madzi wauka na madzi",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Those who know water leave with (the) water",
     "idiomatic_en": "Those who know water are carried away by it — deep familiarity with something binds you to its fate.",
-    "swahili": "",
+    "swahili": "Wajuao maji huondoka na maji",
     "swahili_relationship": "translation",
     "commentary_en": "Those who understand water eventually depart with the water — meaning expertise comes from deep immersion, and the knowledgeable are shaped by and ultimately bound to their domain. One can also read it as a warning: those who play with water will be carried away by it.",
     "commentary_dg": "Atu amanyao madzi mwishowe ganauka na madzi — maana ujuzi unarehe kpwa kuzama ndani, na mwenye maarifa anaumba ni na mwishowe anafungamana na uwanja wakpwe. Inaweza piya kukala onyo: achezaye na madzi andatsukurwa nago.",
@@ -2838,7 +2845,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -2848,10 +2857,10 @@
     "digo": "Chimwagikacho, tachiuya tele",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "What is spilled does not come back fully",
     "idiomatic_en": "What is spilled cannot be fully gathered again — some losses can never be undone.",
-    "swahili": "",
-    "swahili_relationship": "translation",
+    "swahili": "Kilichomwagika hakikusanywi tena",
+    "swahili_relationship": "parallel",
     "commentary_en": "Once something is spilled, it cannot be fully recovered. This proverb counsels care and caution — whether with words, relationships, or resources — because some losses are irreversible.",
     "commentary_dg": "Chitu chimwagikecho tachiweza kukusanywa tele kaheri. Ndarira ihi inashauri uangalifu — ikale ni maneno, mahusiano, au mali — kpwa sababu hasara zinjine tazikuuya.",
     "commentary_source": "expanded",
@@ -2882,7 +2891,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -3844,9 +3855,9 @@
     "digo": "Dzuwa mwenga ndzovu kuola",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(In) one day an elephant (can) rot",
     "idiomatic_en": "Even an elephant can rot in a single day — no matter how great, ruin can come swiftly.",
-    "swahili": "",
+    "swahili": "Siku moja tembo kuoza",
     "swahili_relationship": "translation",
     "commentary_en": "In a single day, even an elephant can begin to rot. Great things can be destroyed in a very short time. Used to warn against complacency and to remind people that ruin can come swiftly, no matter how strong or established something seems.",
     "commentary_dg": "Kpwa dzuwa mwenga tu, hata ndzovu inaweza kuandza kuola. Vitu vikulu vinaweza kuharibiwa kpwa muda mfupi sana. Inaambwa kpwa kuonya kpwa kukahaza kudziridhisha na kukumbusa atu kpwamba uharibifu unaweza kukpwedza haraka, kutsojali chitu chinaonekana imara viyanivi.",
@@ -3878,7 +3889,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -4084,9 +4097,9 @@
     "digo": "Fungo muche ni tsui",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) knot of a tree is (in its) sap",
     "idiomatic_en": "The knot of the tree is in its sap — every living thing holds its truth within.",
-    "swahili": "",
+    "swahili": "Fungo la mti ni utomvu wake",
     "swahili_relationship": "translation",
     "commentary_en": "An obscure proverb whose exact meaning is uncertain. 'Fungo' may refer to a knot or bundle, 'muche' to a tree or wife, and 'tsui' to juice or sap. It likely speaks to a traditional domestic or agricultural truth known to Digo elders.",
     "commentary_dg": "Ndarira ambayo maana yakpwe kamili taimanyikana vinono. 'Fungo' inaweza kumanisha fundo au furushi, 'muche' muhi au mche, na 'tsui' utomvu au madzi ga muhi. Inaelekea kuonesa ukpweli wa chijadi wa nyumbani au ulimizi unaomanyikana ni azehe a Chidigo.",
@@ -4118,7 +4131,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -4421,7 +4436,7 @@
     "audio": [],
     "literal_en": "Suddenly is ..., the cockrel ran ...",
     "idiomatic_en": "Danger strikes without warning, and everyone scrambles to save themselves.",
-    "swahili": "",
+    "swahili": "Ghafla ni mbaya, jogoo akakimbia ghala",
     "swahili_relationship": "translation",
     "commentary_en": "Warns that danger strikes without warning. Just as a cockerel bolts at a sudden noise, people must always be prepared for the unexpected. Said when misfortune arrives with no prior sign.",
     "commentary_dg": "Inaonyesha kukala hatari indakpwedza bila tahadhari. Dza vira dzogolo rinachimbira kpwa sauti ya gafula, atu ni lazima akale tayari kpwa mambo gasigotarajiwa. Husemwa msiba uchikpwedza bila ishara.",
@@ -4455,7 +4470,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -4710,7 +4726,7 @@
     "digo": "Haki ya mutu taizama",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) right of a person does not sink",
     "idiomatic_en": "A person's right does not vanish",
     "swahili": "Haki ya mtu haipotei",
     "swahili_relationship": "cognate",
@@ -4745,7 +4761,8 @@
       "idiomatic_sw": "ai-draft",
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
-      "commentary_dg": "ai-draft"
+      "commentary_dg": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -4802,9 +4819,9 @@
     "digo": "Hamadi chi bindoni",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Fortune is in (the) belly",
     "idiomatic_en": "A person's true worth or fate is hidden within and cannot be judged from the outside.",
-    "swahili": "",
+    "swahili": "Hamadi imo tumboni",
     "swahili_relationship": "translation",
     "commentary_en": "Suggests that a person's true character or destiny is hidden within them, not visible on the surface. Used to caution against judging people by outward appearance, since what matters lies within.",
     "commentary_dg": "Inaonyesha kukala tabiya ya kpweli au hatima ya mutu imefichika ndani yakpwe, taionekana kunze. Husemwa kuonya kukala mutu asihukumiwe kpwa sura ya kunze, mana muhimu ni chiricho ndani.",
@@ -4836,7 +4853,9 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft",
+      "swahili": "ai-draft"
     }
   },
   {
@@ -5235,7 +5254,7 @@
     "digo": "Jeza ndiyo mudzi",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Trying is the (real) village",
     "idiomatic_en": "Trying is the foundation of all knowledge and success.",
     "swahili": "Jaribu ndio msingi",
     "swahili_relationship": "translation",
@@ -5270,7 +5289,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -5424,7 +5444,7 @@
     "digo": "Kanira yayi usikanire mwana kuku",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Cry for (your) mother, do not cry for a chick",
     "idiomatic_en": "Reserve your tears for what truly matters, not for trivial losses.",
     "swahili": "Mlia mama usimlie mwana kuku",
     "swahili_relationship": "translation",
@@ -5460,7 +5480,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -7658,7 +7679,7 @@
     "digo": "Mgala-gala na pwa karya wari muhuphu",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) boaster who keeps on ate rice plain",
     "idiomatic_en": "The braggart who boasts endlessly ends up with nothing to show for it.",
     "swahili": "Mgala-gala na pwa kala wali muhuphu",
     "swahili_relationship": "translation",
@@ -7693,7 +7714,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -8091,7 +8113,7 @@
     "digo": "Mkala mmbere ndiye mkala nyuma",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) one who eats first is the one who eats last",
     "idiomatic_en": "The one who leads today will follow tomorrow; fortune is always turning.",
     "swahili": "Aliye mbele ndiye aliye nyuma",
     "swahili_relationship": "translation",
@@ -8126,7 +8148,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -8136,7 +8159,7 @@
     "digo": "Mkpwadzu mui undaphaha tumbiriwe",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(An) ugly tree will get its monkey",
     "idiomatic_en": "Even the most undesirable person will find someone who accepts them.",
     "swahili": "Mti mbaya utapata tumbiri wake",
     "swahili_relationship": "translation",
@@ -8171,7 +8194,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -8713,7 +8737,7 @@
     "digo": "Mlungu katsupha mujawe",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "God does not strike His servant",
     "idiomatic_en": "God does not harm His own faithful servant.",
     "swahili": "Mungu hampigi mja wake",
     "swahili_relationship": "translation",
@@ -8748,7 +8772,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -8758,7 +8783,7 @@
     "digo": "Mnaphaya-phaya makopa tagaikpwa mbeyu",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(A) rotting papaya('s) seeds are not (fit to be) planted",
     "idiomatic_en": "What is already ruined cannot serve as the seed for something new.",
     "swahili": "Mpapai unaoharibika makopa yake hayapandwi",
     "swahili_relationship": "translation",
@@ -8793,7 +8818,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9000,7 +9026,7 @@
     "digo": "Mng’atwa ni nyoka nkudziondoka ling’ongo",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(One) bitten by a snake fears (even) a vine",
     "idiomatic_en": "Once bitten by a snake, a person fears even a harmless rope.",
     "swahili": "Aliyeumwa na nyoka huogopa kamba",
     "swahili_relationship": "parallel",
@@ -9035,7 +9061,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9144,7 +9171,7 @@
     "digo": "Mphakusa tsetse aandza yakpwe",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) player of tsetse begins with his own (pieces)",
     "idiomatic_en": "Put your own house in order before meddling in the affairs of others.",
     "swahili": "Mcheza tsetse huanza na zake",
     "swahili_relationship": "translation",
@@ -9184,7 +9211,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9241,7 +9269,7 @@
     "digo": "Mrema wa anji ni mtsai",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(A) cutter of many is a traitor",
     "idiomatic_en": "One who habitually betrays others reveals themselves to be a traitor.",
     "swahili": "Mkataji wa wengi ni msaliti",
     "swahili_relationship": "translation",
@@ -9276,7 +9304,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9286,7 +9315,7 @@
     "digo": "Mrya chakpwe chitsanga kana kondo na mutu",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(One who) eats his own (food) quietly has no quarrel with anyone",
     "idiomatic_en": "One who quietly earns their own living has no quarrel with anyone.",
     "swahili": "Mlaji chake chitsanga hana ugomvi na mtu",
     "swahili_relationship": "translation",
@@ -9321,7 +9350,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9379,7 +9409,7 @@
     "digo": "Msema ngambi siye mngambi",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) speaker of truth is not (the) wrongdoer",
     "idiomatic_en": "Speaking the truth does not make you guilty of the wrong you name.",
     "swahili": "Msema haki si mhalifu",
     "swahili_relationship": "parallel",
@@ -9414,7 +9444,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9473,7 +9504,7 @@
     "digo": "Mtsedza apigbwa dzengoni",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) onlooker is struck at (the) auction",
     "idiomatic_en": "Even a bystander can get caught in the crossfire.",
     "swahili": "Mtazamaji anapigwa darazani",
     "swahili_relationship": "translation",
@@ -9508,7 +9539,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -9762,7 +9794,7 @@
     "digo": "Mtsumi na maliye mnyonge anahe",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) provider with his wealth, (the) lowly one (has) his own",
     "idiomatic_en": "The rich and the poor alike each carry their own burdens.",
     "swahili": "Mlishi na mali yake, mnyonge naye ana yake",
     "swahili_relationship": "translation",
@@ -9797,7 +9829,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -10809,7 +10842,7 @@
     "digo": "Mvyazi kondo mgumba kondo",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) parent (has) hardship, (the) barren one (has) hardship",
     "idiomatic_en": "Both parents and the childless bear their own hardships; no life is free from struggle.",
     "swahili": "Mzazi kondo, tasa kondo",
     "swahili_relationship": "translation",
@@ -10844,7 +10877,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -11046,7 +11080,7 @@
     "digo": "Mwambirwa ng’andzi ana zakpwe",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(One) told news has his own (news)",
     "idiomatic_en": "Everyone you share news with already has a story of their own to tell.",
     "swahili": "Mwambiwa habari ana zake",
     "swahili_relationship": "parallel",
@@ -11081,7 +11115,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -11821,7 +11856,7 @@
     "digo": "Mwenda kuzimu kasengenywa",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(One) going to the underworld is not gossiped about",
     "idiomatic_en": "There is no use gossiping about someone who has already departed this world.",
     "swahili": "Mwenda kuzimu hasengenyewi",
     "swahili_relationship": "parallel",
@@ -11856,7 +11891,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -11866,7 +11902,7 @@
     "digo": "Mwenye ng’ombe kana milozi mii",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) owner of cattle has many doors",
     "idiomatic_en": "A person of wealth never lacks for visitors at their door.",
     "swahili": "Mwenye ng'ombe hana milango mibaya",
     "swahili_relationship": "translation",
@@ -11901,7 +11937,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -11959,7 +11996,7 @@
     "digo": "Mwiya wa kudzidunga taulumiza",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(A) thorn of self-pricking does not hurt",
     "idiomatic_en": "A thorn you step on yourself hurts less than one pushed by another.",
     "swahili": "Mwiba wa kujichoma hauumizi",
     "swahili_relationship": "parallel",
@@ -11994,7 +12031,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -13163,7 +13201,7 @@
     "digo": "Nyoko nyoko ni ya kuonana",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Face to face (matters) are for meeting (in person)",
     "idiomatic_en": "A real confrontation must be settled face to face, not through go-betweens.",
     "swahili": "Nyoko nyoko ni ya kuonana",
     "swahili_relationship": "translation",
@@ -13198,7 +13236,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -13452,7 +13491,7 @@
     "digo": "Oho taivundza msipha",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "'Oh!' does not break a vein",
     "idiomatic_en": "Words and exclamations alone cannot break you; do not overreact to mere noise.",
     "swahili": "Oho haivunji mshipa",
     "swahili_relationship": "translation",
@@ -13487,7 +13526,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -14275,7 +14315,7 @@
     "digo": "Singo ya kuku i vundzirwa kanda",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) neck of a chicken is broken by a cord",
     "idiomatic_en": "Even a small force can overcome someone who appears strong but has a hidden weakness.",
     "swahili": "Shingo ya kuku huvunjwa kamba",
     "swahili_relationship": "translation",
@@ -14310,7 +14350,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -14803,7 +14844,7 @@
     "digo": "Tsaha wa bindoni ndiye akuryaye",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The one who) holds (it) in (the) belly is the one who eats it",
     "idiomatic_en": "Those who do the actual work are the ones who reap the reward.",
     "swahili": "Mshika punda ndiye mla nyama yake",
     "swahili_relationship": "translation",
@@ -14838,7 +14879,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -14896,7 +14938,7 @@
     "digo": "Tsoko-tsoko yenu mndaombolana matso",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(Your) provocations (of each other), you will gouge out each other's eyes",
     "idiomatic_en": "Persistent provocation between people will eventually escalate into irreparable harm.",
     "swahili": "Choko choko yenu mtaombolezana macho",
     "swahili_relationship": "translation",
@@ -14931,7 +14973,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -14941,7 +14984,7 @@
     "digo": "Tsoko-tsoko yenu mndatsokola garerego",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(Your) provocations, you will provoke (the) garege (a dangerous creature)",
     "idiomatic_en": "If you keep provoking others recklessly, you will eventually stir up a force you cannot control.",
     "swahili": "Choko choko yenu mtachokoza garege",
     "swahili_relationship": "translation",
@@ -14976,7 +15019,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -15082,7 +15126,7 @@
     "digo": "Umbwaro u naro Mwabajiro",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The) origin is (from) Mwabajiro",
     "idiomatic_en": "Every problem has a known origin that cannot be concealed.",
     "swahili": "Ubwaro wa naro Mwabajiro",
     "swahili_relationship": "translation",
@@ -15117,7 +15161,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -15175,7 +15220,7 @@
     "digo": "Uchihega kanga na kpwiru undarya manga mhuphu",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "If you tend (to the) guinea fowl through thirst, you will eat ripe mangoes",
     "idiomatic_en": "Patient nurturing through hardship eventually yields sweet rewards.",
     "swahili": "Ukimhega kanga kwa kiu utakula manga mbivu",
     "swahili_relationship": "translation",
@@ -15210,7 +15255,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -15220,7 +15266,7 @@
     "digo": "Uchihega na mwerevu mriche akaondze iye",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "If you deal with a clever one, leave him (to) remove (it) himself",
     "idiomatic_en": "A clever person does not need your help to solve their own problems — step aside and let them handle it.",
     "swahili": "Ukihega na mwerevu mwache akaondoe mwenyewe",
     "swahili_relationship": "translation",
@@ -15255,7 +15301,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -15456,7 +15503,7 @@
     "digo": "Uchirya kuku wa myao marondo galola kpwako",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "If you eat (the) chicken of (your) neighbour, (the) feathers will come to your (place)",
     "idiomatic_en": "If you wrong your neighbour, the evidence will inevitably lead back to your door.",
     "swahili": "Ukila kuku wa mwenzako, marondo yataleta kwako",
     "swahili_relationship": "translation",
@@ -15491,7 +15538,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -16135,7 +16183,7 @@
     "digo": "Umanya wako kumanya uphiyako",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Know your own (people), (and you will) know where you are going",
     "idiomatic_en": "Know where you come from so you can understand where you are going.",
     "swahili": "Ujuao wako kumjua uendako",
     "swahili_relationship": "translation",
@@ -16170,7 +16218,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -16180,7 +16229,7 @@
     "digo": "Umuambaye ndiye, siye",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "(The one) you say is him, is not him",
     "idiomatic_en": "The person you assume someone to be is often not who they truly are.",
     "swahili": "Umuambaye ndiye, si yeye",
     "swahili_relationship": "translation",
@@ -16215,7 +16264,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -16865,7 +16915,7 @@
     "digo": "Uvyalwako takuna rikaro",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Where you are born there is no choosing",
     "idiomatic_en": "No one chooses the circumstances of their birth, so do not judge others for theirs.",
     "swahili": "Uzalwapo hakuna uchaguzi",
     "swahili_relationship": "translation",
@@ -16900,7 +16950,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -17095,7 +17146,7 @@
     "digo": "Vichionererwa taviolaga",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Things that are seen (coming) do not kill",
     "idiomatic_en": "The danger you can see will not destroy you; it is the hidden threat that kills.",
     "swahili": "Vinavyoonekana haviui",
     "swahili_relationship": "translation",
@@ -17130,7 +17181,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -17859,7 +17911,7 @@
     "digo": "Werevu taurya chete",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Cleverness does not eat on its own",
     "idiomatic_en": "Cleverness alone does not feed you — without honest work, cunning produces nothing.",
     "swahili": "Werevu hauishi sokoni",
     "swahili_relationship": "translation",
@@ -17894,7 +17946,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   },
   {
@@ -18101,7 +18154,7 @@
     "digo": "Zula mwachupa uphande mwachupa",
     "ipa": "",
     "audio": [],
-    "literal_en": "",
+    "literal_en": "Wander (like) a bottle, plant (like) a bottle",
     "idiomatic_en": "Your habits and actions take root wherever you go — you cannot outrun their consequences.",
     "swahili": "Zula mwachupa, upande mwachupa",
     "swahili_relationship": "translation",
@@ -18136,7 +18189,8 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "idiomatic_en": "ai-draft"
+      "idiomatic_en": "ai-draft",
+      "literal_en": "ai-draft"
     }
   }
 ]
