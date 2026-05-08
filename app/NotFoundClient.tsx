@@ -122,9 +122,6 @@ export default function NotFoundClient() {
         <Button variant="primary" onClick={() => router.push('/')}>
           {t.not_found.back_home}
         </Button>
-        <Button variant="secondary" onClick={() => router.push('/dictionary')}>
-          {t.not_found.search}
-        </Button>
       </div>
     </div>
   );
