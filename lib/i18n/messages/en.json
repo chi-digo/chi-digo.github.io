@@ -141,6 +141,38 @@
     "vision": "Vision",
     "contact": "Contact"
   },
+  "quiz": {
+    "title": "Jaribu — Test Yourself",
+    "loading": "Preparing your quiz...",
+    "loadingProgress": "Loading quiz data ({progress}%)",
+    "loadError": "Could not load quiz data",
+    "retry": "Tap to retry",
+    "questionOf": "Question {current} of {total}",
+    "correct": "Correct!",
+    "incorrect": "Not quite",
+    "continue": "Continue",
+    "explanation": "The answer is:",
+    "results": {
+      "title": "Round Complete!",
+      "perfect": "Perfect score! You're a Digo master!",
+      "great": "Great job!",
+      "good": "Good effort!",
+      "tryAgain": "Keep practicing!",
+      "score": "{score} out of {total}",
+      "playAgain": "Play Again",
+      "backToTools": "Back to Tools"
+    },
+    "categories": {
+      "vocabulary": "Vocabulary",
+      "proverbs": "Proverbs",
+      "riddles": "Riddles"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
   "footer": {
     "copyright": "Chi-digo",
     "about_heading": "About",

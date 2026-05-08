@@ -141,6 +141,38 @@
     "vision": "Maono",
     "contact": "Wasiliana"
   },
+  "quiz": {
+    "title": "Jaribu — Jijaribu",
+    "loading": "Kuandaa jaribio lako...",
+    "loadingProgress": "Kupakia data ya jaribio ({progress}%)",
+    "loadError": "Haikuweza kupakia data ya jaribio",
+    "retry": "Gusa ili ujaribu tena",
+    "questionOf": "Swali {current} kati ya {total}",
+    "correct": "Sahihi!",
+    "incorrect": "Si sahihi",
+    "continue": "Endelea",
+    "explanation": "Jibu sahihi ni:",
+    "results": {
+      "title": "Duru Imekamilika!",
+      "perfect": "Alama kamili! Wewe ni bingwa wa Kidigo!",
+      "great": "Vizuri sana!",
+      "good": "Juhudi nzuri!",
+      "tryAgain": "Endelea kujaribu!",
+      "score": "{score} kati ya {total}",
+      "playAgain": "Cheza Tena",
+      "backToTools": "Rudi kwa Zana"
+    },
+    "categories": {
+      "vocabulary": "Msamiati",
+      "proverbs": "Methali",
+      "riddles": "Vitendawili"
+    },
+    "difficulty": {
+      "easy": "Rahisi",
+      "medium": "Wastani",
+      "hard": "Ngumu"
+    }
+  },
   "footer": {
     "copyright": "Chi-digo",
     "about_heading": "Kuhusu",

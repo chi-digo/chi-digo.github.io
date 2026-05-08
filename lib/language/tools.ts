@@ -52,6 +52,6 @@ export const languageTools: LanguageTool[] = [
       dig: 'Maswali ga maingiliano ganagoshughulika na historia, chimila, luga, na jiografia. Changamoto za chila siku, mazoezi ga kategoria, na vimbunga.',
     },
     href: '/language/quiz',
-    available: false,
+    available: true,
   },
 ];
