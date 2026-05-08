@@ -50,9 +50,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Akili ni kama nywele, kila mmoja ana zake"
+    "literal_sw": "Akili ni kama nywele, kila mmoja ana zake",
+    "idiomatic_dg": "Chila mutu ana aina yakpwe ya achili na uwezo, hata ichikala inaonekana kpwa njira tofauti."
   },
   {
     "id": "p-002",
@@ -105,9 +107,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyeshiba hamjui mwenye njaa"
+    "literal_sw": "Aliyeshiba hamjui mwenye njaa",
+    "idiomatic_dg": "Mutu ariyeneemeka kaweza kumanya mateso ga mutu ariye na ndzala."
   },
   {
     "id": "p-003",
@@ -156,9 +160,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyekupita mbele si mwenzako/rafiki yako"
+    "literal_sw": "Aliyekupita mbele si mwenzako/rafiki yako",
+    "idiomatic_dg": "Mutu achikutsupa kpwa uwezo, kana kpwamba a muyangu kaheri."
   },
   {
     "id": "p-004",
@@ -208,9 +214,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyefiwa ndiye aliyekuliwa"
+    "literal_sw": "Aliyefiwa ndiye aliyekuliwa",
+    "idiomatic_dg": "Mutu achiyefwererwa ndiye anayetsukula mzigo wa kurisha ajeni, hata ye mwenye ana utsungu."
   },
   {
     "id": "p-005",
@@ -261,9 +269,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Amekuwa (kama) mamba anavutia (mawindo) kwenye kina kirefu"
+    "literal_sw": "Amekuwa (kama) mamba anavutia (mawindo) kwenye kina kirefu",
+    "idiomatic_dg": "Mutu mdanganyifu anavwehera atu kpwa hila ili awaangamize."
   },
   {
     "id": "p-006",
@@ -313,9 +323,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Amejifutia kwenye mgomba na anaenda na mavi yake"
+    "literal_sw": "Amejifutia kwenye mgomba na anaenda na mavi yake",
+    "idiomatic_dg": "Mutu anayejeza kudanganya atu anjina ela ujanja wakpwe unaonekana wazi."
   },
   {
     "id": "p-007",
@@ -367,9 +379,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Akiba si mbaya"
+    "literal_sw": "Akiba si mbaya",
+    "idiomatic_dg": "Kuika akiba, hata chidide, ni jambo dzema siku zosi."
   },
   {
     "id": "p-008",
@@ -421,9 +435,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Akiba haiozi"
+    "literal_sw": "Akiba haiozi",
+    "idiomatic_dg": "Chitu chirichoikwa kanda chinadumu thamani yakpwe na tachiphoteha."
   },
   {
     "id": "p-009",
@@ -473,9 +489,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyekosa leo ni mume wa kesho"
+    "literal_sw": "Aliyekosa leo ni mume wa kesho",
+    "idiomatic_dg": "Mutu anayekosa rero anaweza kudzifundza na kukala mutu mnono muhondo."
   },
   {
     "id": "p-010",
@@ -525,9 +543,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyekupiga kofi anakufundisha kupigana"
+    "literal_sw": "Aliyekupiga kofi anakufundisha kupigana",
+    "idiomatic_dg": "Mutu anayekuhenda vibaya anakufundza kudzilinda na kukala makini."
   },
   {
     "id": "p-011",
@@ -576,9 +596,11 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Anayejamiiana kwa vidole, kucha zake zitaoga katika maji ya uke"
+    "literal_sw": "Anayejamiiana kwa vidole, kucha zake zitaoga katika maji ya uke",
+    "idiomatic_dg": "Mahendo ga kizuzu kpwa mambo ga siri ganarehe matokeo ga haya kpwa mutu mwenye kuhenda."
   },
   {
     "id": "p-012",
@@ -628,9 +650,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wanaume mbele, wanaume nyuma"
+    "literal_sw": "Wanaume mbele, wanaume nyuma",
+    "idiomatic_dg": "Chilongozi achikala kayuko, alume anjina ni lazima asimame kuhenda garigolondwa."
   },
   {
     "id": "p-013",
@@ -679,9 +703,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Watoto hawabebani mgongoni"
+    "literal_sw": "Watoto hawabebani mgongoni",
+    "idiomatic_dg": "Mutu asiye na uzoefu kaweza kumuhimira mutu myawe asiye na uzoefu."
   },
   {
     "id": "p-014",
@@ -732,9 +758,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Watoto wa nguruwe hunyonyeshana midomo"
+    "literal_sw": "Watoto wa nguruwe hunyonyeshana midomo",
+    "idiomatic_dg": "Atu ni lazima asaidiane, mana hata nyama adzo anadzisaidiya."
   },
   {
     "id": "p-015",
@@ -785,9 +813,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu aendaye kuzimu harudi"
+    "literal_sw": "Mtu aendaye kuzimu harudi",
+    "idiomatic_dg": "Chifo ni charo chisichokuwa na kuuya, kpwa hivyo thamini maisha wakati achere moyo."
   },
   {
     "id": "p-016",
@@ -837,9 +867,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliye juu, mngojee chini"
+    "literal_sw": "Aliye juu, mngojee chini",
+    "idiomatic_dg": "Mutu ariye dzulu kana kpwamba andaishi hipho siku zosi — siku yakpwe ya kutserera indakpwedza."
   },
   {
     "id": "p-017",
@@ -888,9 +920,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu asiye na haya huficha aibu yake"
+    "literal_sw": "Mtu asiye na haya huficha aibu yake",
+    "idiomatic_dg": "Mutu asiye na haya husema maneno ambago atu anjina angeona haya kugasema."
   },
   {
     "id": "p-018",
@@ -939,9 +973,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Alaye jasho lake hana ugomvi na mtu yeyote"
+    "literal_sw": "Alaye jasho lake hana ugomvi na mtu yeyote",
+    "idiomatic_dg": "Mutu anayedziphatira riziki kpwa jasho rakpwe mwenye kana kondo na mutu yeyosi."
   },
   {
     "id": "p-019",
@@ -993,9 +1029,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu asiye na mtoto hajui uchungu wake"
+    "literal_sw": "Mtu asiye na mtoto hajui uchungu wake",
+    "idiomatic_dg": "Ni mzazi peke yakpwe ndiye amanyaye utsungu wa kuvyala na kumrera mwana."
   },
   {
     "id": "p-020",
@@ -1046,9 +1084,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Asiye na wa kwake na amwombe Mungu"
+    "literal_sw": "Asiye na wa kwake na amwombe Mungu",
+    "idiomatic_dg": "Mutu asiye na ukoo wa kumtegemea, njira yakpwe ya mwisho ni kumuarira Mlungu."
   },
   {
     "id": "p-021",
@@ -1097,9 +1137,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Asiyejua kuugua hajapata kuumwa bado"
+    "literal_sw": "Asiyejua kuugua hajapata kuumwa bado",
+    "idiomatic_dg": "Mutu ambaye kadzangbwe kupata tabu kamanya maana ya kuhula."
   },
   {
     "id": "p-022",
@@ -1149,9 +1191,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Asiyejua nyama, usimpeleke sokoni"
+    "literal_sw": "Asiyejua nyama, usimpeleke sokoni",
+    "idiomatic_dg": "Usimuike mutu asiye na uzoefu kpwa hali inayolonda utaalamu, mana andashindwa."
   },
   {
     "id": "p-023",
@@ -1200,9 +1244,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Badala ya Hassan ni Hussein"
+    "literal_sw": "Badala ya Hassan ni Hussein",
+    "idiomatic_dg": "Kubadilisha mutu mmwenga na mutu wa aina iyo-iyo si kubadilika kpwa kpweli."
   },
   {
     "id": "p-024",
@@ -1252,9 +1298,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Bahari haina rafiki"
+    "literal_sw": "Bahari haina rafiki",
+    "idiomatic_dg": "Bahari ina hatari na taina huruma — taimanya mutu wa kumuonera pole."
   },
   {
     "id": "p-025",
@@ -1307,9 +1355,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Pata, kula kidogo, weka kando sehemu kubwa"
+    "literal_sw": "Pata, kula kidogo, weka kando sehemu kubwa",
+    "idiomatic_dg": "Ukiphaha mapesa, usiyamale gosi — tika rya chidide na uiche chinji."
   },
   {
     "id": "p-026",
@@ -1360,9 +1410,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidogo kidogo kumaliza kuchanja gogo"
+    "literal_sw": "Kidogo kidogo kumaliza kuchanja gogo",
+    "idiomatic_dg": "Kazi kulu inaweza kumala kpwa juhudi ndide za kudumu na uvumilivu."
   },
   {
     "id": "p-027",
@@ -1411,9 +1463,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Bure hailiwa, jana si leo"
+    "literal_sw": "Bure hailiwa, jana si leo",
+    "idiomatic_dg": "Usitarajie kupewa bure rero kpwa sababu ukaphewa bure dzana — dzana ni dzana, rero ni rero."
   },
   {
     "id": "p-028",
@@ -1462,9 +1516,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba tupu haiwezi kuombwa moto"
+    "literal_sw": "Nyumba tupu haiwezi kuombwa moto",
+    "idiomatic_dg": "Huwezi kumuvoya chitu mutu ambaye kana chochosi cha kukupha."
   },
   {
     "id": "p-029",
@@ -1513,9 +1569,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kilichopewa hakina ukoko/mabaki"
+    "literal_sw": "Kilichopewa hakina ukoko/mabaki",
+    "idiomatic_dg": "Ukihewa chitu, usitarajie kupata zaidi ya urichophewa."
   },
   {
     "id": "p-030",
@@ -1566,9 +1624,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha maskini hakiozi"
+    "literal_sw": "Kitu cha maskini hakiozi",
+    "idiomatic_dg": "Mchiya hutumia arichonacho mara mwenga kpwa sababu kana uwezo wa kuika akiba."
   },
   {
     "id": "p-031",
@@ -1619,9 +1679,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha maskini hakizai ndama"
+    "literal_sw": "Kitu cha maskini hakizai ndama",
+    "idiomatic_dg": "Mali ya mchiya taikula wala kuzvyala faida dza ya mutu ariyeneemeka."
   },
   {
     "id": "p-032",
@@ -1670,9 +1732,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha mfupi kinaliwa na cha mrefu"
+    "literal_sw": "Kitu cha mfupi kinaliwa na cha mrefu",
+    "idiomatic_dg": "Mutu asiye na achili ya mbere ndashindwa ni mutu mwerevu anayeona kure."
   },
   {
     "id": "p-033",
@@ -1722,9 +1786,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha mlevi kinaliwa na mtapaji"
+    "literal_sw": "Kitu cha mlevi kinaliwa na mtapaji",
+    "idiomatic_dg": "Mapato ga mlevi mwishowe gosi ganamfikira muuzaji wa pombe."
   },
   {
     "id": "p-034",
@@ -1772,9 +1838,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha mnyonge kinaharibwa na upepo"
+    "literal_sw": "Kitu cha mnyonge kinaharibwa na upepo",
+    "idiomatic_dg": "Juhudi za mutu mnyonje zinaweza kuangamizwa kpwa urahisi ni mutu mwenye nguvu."
   },
   {
     "id": "p-035",
@@ -1820,9 +1888,11 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu cha mpumbavu kinaliwa bure"
+    "literal_sw": "Kitu cha mpumbavu kinaliwa bure",
+    "idiomatic_dg": "Mali ya mzuzu inatumika bure ni atu anjina kpwa sababu kana busara ya kuilinda."
   },
   {
     "id": "p-036",
@@ -1869,9 +1939,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidole kitupu hakilambwi"
+    "literal_sw": "Kidole kitupu hakilambwi",
+    "idiomatic_dg": "Takuna mutu ndayemlonda mutu ambaye kana chochosi cha kulavya."
   },
   {
     "id": "p-037",
@@ -1918,9 +1990,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidole kimoja hakibani chawa"
+    "literal_sw": "Kidole kimoja hakibani chawa",
+    "idiomatic_dg": "Mutu mmwenga macheye kaweza kufanikiwa — ni lazima uhendere kazi na atu anjina."
   },
   {
     "id": "p-038",
@@ -1968,9 +2042,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidole kizuri kimefungwa pete"
+    "literal_sw": "Kidole kizuri kimefungwa pete",
+    "idiomatic_dg": "Sifa nono za mutu zinaweza kumufunga kpwa matarajio na majukumu manji."
   },
   {
     "id": "p-039",
@@ -2017,9 +2093,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidole hakionyeshi msitu"
+    "literal_sw": "Kidole hakionyeshi msitu",
+    "idiomatic_dg": "Usidze kudzihendera ngulu kpwa chitu ambacho kudzangbwe ukihenda."
   },
   {
     "id": "p-040",
@@ -2067,9 +2145,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Safari ya kesho hutayarishwa leo"
+    "literal_sw": "Safari ya kesho hutayarishwa leo",
+    "idiomatic_dg": "Chochosi unachopanga kuhenda muhondo ni lazima ukitengeze rero."
   },
   {
     "id": "p-041",
@@ -2119,9 +2199,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mshindano ukikushinda umesimama, huwezi (kushinda) umeketi pia"
+    "literal_sw": "Mshindano ukikushinda umesimama, huwezi (kushinda) umeketi pia",
+    "idiomatic_dg": "Ukishindwa ni mambo wakati una nguvu, ndashindwa zaidi nguvu zako zichimala."
   },
   {
     "id": "p-042",
@@ -2168,9 +2250,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Chelewa utafika"
+    "literal_sw": "Chelewa utafika",
+    "idiomatic_dg": "Ni bora kufika kpwa kuchelewa kuriko kutsokufika kabisa."
   },
   {
     "id": "p-043",
@@ -2217,9 +2301,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Soko limeangukia nyoka"
+    "literal_sw": "Soko limeangukia nyoka",
+    "idiomatic_dg": "Hatari ichidzitokeza gafula, atu anachimbira chila uphande bila utaratibu."
   },
   {
     "id": "p-044",
@@ -2267,9 +2353,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kibaya ni chako, kizuri ni cha mama yako"
+    "literal_sw": "Kibaya ni chako, kizuri ni cha mama yako",
+    "idiomatic_dg": "Mambo gachihenda vinono atu ganadai sifa, ela gachihenda vibaya malaumo ni gako macheyo."
   },
   {
     "id": "p-045",
@@ -2317,9 +2405,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mbuzi wa mbele mbele amevunjika pembe"
+    "literal_sw": "Mbuzi wa mbele mbele amevunjika pembe",
+    "idiomatic_dg": "Mutu anayeharakisha kupita mbere ndiye wa kpwandza kudzikpwazula."
   },
   {
     "id": "p-046",
@@ -2367,9 +2457,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu unachoshikilia kina kilio chake na kitu unachoacha kina kilio chake"
+    "literal_sw": "Kitu unachoshikilia kina kilio chake na kitu unachoacha kina kilio chake",
+    "idiomatic_dg": "Chila uamuzi una matokeo gakpwe — huwezi kushinda kpwa njira yoyosi."
   },
   {
     "id": "p-047",
@@ -2419,9 +2511,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Chochote kinachopendwa na Mwanasiti, Chamkwaya hana hiari yake"
+    "literal_sw": "Chochote kinachopendwa na Mwanasiti, Chamkwaya hana hiari yake",
+    "idiomatic_dg": "Mlume achimendza mkpwaziwe, chochosi achimendza ndachimgulira kpwa moyo."
   },
   {
     "id": "p-048",
@@ -2467,9 +2561,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Chidau (nchi ya Wadigo) kilinibeba (hadi) Pemba"
+    "literal_sw": "Chidau (nchi ya Wadigo) kilinibeba (hadi) Pemba",
+    "idiomatic_dg": "Mahusiano ga Adigo a pwani na visiwa ga Pemba ni makulu na ga zamani."
   },
   {
     "id": "p-049",
@@ -2515,9 +2611,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu kitamu kwa nguruwe, kwa Mdigo ni uchungu"
+    "literal_sw": "Kitu kitamu kwa nguruwe, kwa Mdigo ni uchungu",
+    "idiomatic_dg": "Chinachofaa kpwa chiumbe chimwenga chinaweza kukala utsungu kpwa chinjine — atu si sawa."
   },
   {
     "id": "p-050",
@@ -2566,9 +2664,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fimbo ya maskini inaharibwa na upepo"
+    "literal_sw": "Fimbo ya maskini inaharibwa na upepo",
+    "idiomatic_dg": "Mchiya ili afanikiwe anahitaji ulinzi wa mutu mwenye nguvu, au mambo gakpwe gandaangamizwa."
   },
   {
     "id": "p-051",
@@ -2616,9 +2716,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fimbo mpya inaharibu ya zamani ?Fimbo ya zamani inaharibu mpya?"
+    "literal_sw": "Fimbo mpya inaharibu ya zamani ?Fimbo ya zamani inaharibu mpya?",
+    "idiomatic_dg": "Ana a mutu huathiriwa ni mahendo mabaya ga avyazi ao, na atu andaahukumu kpwa hivyo."
   },
   {
     "id": "p-052",
@@ -2665,9 +2767,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mguu unasogea, makalio hayasogei"
+    "literal_sw": "Mguu unasogea, makalio hayasogei",
+    "idiomatic_dg": "Ni lazima usimame na uhendere juhudi ili uphate chitu — ukisagala tu hutaphaha chochosi."
   },
   {
     "id": "p-053",
@@ -2717,9 +2821,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kiko (cha tumbaku) kinafaa mtu mwenye heshima"
+    "literal_sw": "Kiko (cha tumbaku) kinafaa mtu mwenye heshima",
+    "idiomatic_dg": "Vitu vinono vinadzifwaha kumilikiwa ni atu anaostahili."
   },
   {
     "id": "p-054",
@@ -2765,9 +2871,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kinachokula ni kitu kilicho tumboni mwako"
+    "literal_sw": "Kinachokula ni kitu kilicho tumboni mwako",
+    "idiomatic_dg": "Chitu chinachokudhuru zaidi mara nyinji ni chitu chirichokala ndani mwako mwenye."
   },
   {
     "id": "p-055",
@@ -2815,9 +2923,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kila mmoja ana msiba wake, chura anauawa na jembe"
+    "literal_sw": "Kila mmoja ana msiba wake, chura anauawa na jembe",
+    "idiomatic_dg": "Chila mutu ana fungo rakpwe — takuna mutu ndayeikimbia hatima yakpwe."
   },
   {
     "id": "p-056",
@@ -2864,9 +2974,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kila nyumba ina mshindo/kilio chake"
+    "literal_sw": "Kila nyumba ina mshindo/kilio chake",
+    "idiomatic_dg": "Chila nyumba ina sheria zakpwe na njira zakpwe za kuhenda mambo."
   },
   {
     "id": "p-057",
@@ -2914,9 +3026,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uume ni ukaidi na ujasiri"
+    "literal_sw": "Uume ni ukaidi na ujasiri",
+    "idiomatic_dg": "Kulume kpwa kpweli kunalonda ujasiri, ugumu, na kutokuogopha."
   },
   {
     "id": "p-058",
@@ -2962,9 +3076,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wanaojua maji huondoka na maji"
+    "literal_sw": "Wanaojua maji huondoka na maji",
+    "idiomatic_dg": "Mutu amanyaye chitu vinono mwishowe anafungamana nacho — ujuzi unamfunga kpwa uwanja wakpwe."
   },
   {
     "id": "p-059",
@@ -3010,9 +3126,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kilichomwagika hakijirudi kamili"
+    "literal_sw": "Kilichomwagika hakijirudi kamili",
+    "idiomatic_dg": "Chitu chimwagikecho tachiweza kukusanywa tele kaheri — hasara zinjine tazikuuya."
   },
   {
     "id": "p-060",
@@ -3059,9 +3177,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uzuri haukosi kasoro"
+    "literal_sw": "Uzuri haukosi kasoro",
+    "idiomatic_dg": "Takuna chitu chinono duniani ambacho tachina ila fulani — ukamilifu taupo."
   },
   {
     "id": "p-061",
@@ -3112,9 +3232,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Paa akikata kamba haimaanishi mkonge umeisha"
+    "literal_sw": "Paa akikata kamba haimaanishi mkonge umeisha",
+    "idiomatic_dg": "Kushindwa mara mwenga taimaanishe kpwamba kpwosi kukamala — usikate tamaa."
   },
   {
     "id": "p-062",
@@ -3163,9 +3285,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aendaye kwa mganga harudi"
+    "literal_sw": "Aendaye kwa mganga harudi",
+    "idiomatic_dg": "Mutu achiphiya kpwa mganga ndautumia kpwosi arichonacho — mapesa gakpwe gandamala haho."
   },
   {
     "id": "p-063",
@@ -3212,9 +3336,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kilima cha Beng'anya si kama cha Meng'anya"
+    "literal_sw": "Kilima cha Beng'anya si kama cha Meng'anya",
+    "idiomatic_dg": "Matatizo ga mutu mmwenga si sawa na ga mutu munji — chila mutu ana ugumu wakpwe."
   },
   {
     "id": "p-064",
@@ -3263,9 +3389,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Maombolezo huanza kwa jirani naye ameshasikia"
+    "literal_sw": "Maombolezo huanza kwa jirani naye ameshasikia",
+    "idiomatic_dg": "Msiba uchiandza kpwa jirani, uka makini mana unaweza kukufikira nawe."
   },
   {
     "id": "p-065",
@@ -3311,9 +3439,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kisicho dhambi usikililie dhambi"
+    "literal_sw": "Kisicho dhambi usikililie dhambi",
+    "idiomatic_dg": "Usimuhendere ubaya mutu ambaye kadzangbwe kukuhendere ubaya."
   },
   {
     "id": "p-066",
@@ -3359,9 +3489,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitanda ni ndugu"
+    "literal_sw": "Kitanda ni ndugu",
+    "idiomatic_dg": "Chitanda ni phatu pha kpwa karibu zaidi unapholaza huzuni na ukongo wako."
   },
   {
     "id": "p-067",
@@ -3411,9 +3543,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kichwa cha kondoo kinasikia ndani ya chungu kidogo"
+    "literal_sw": "Kichwa cha kondoo kinasikia ndani ya chungu kidogo",
+    "idiomatic_dg": "Mutu anayekatala ushauri mwishowe ndapatwa ni matatizo ambago kala angeweza kugatserera."
   },
   {
     "id": "p-068",
@@ -3460,9 +3594,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kitu kinachotoka ndani mwako ni moto/kali"
+    "literal_sw": "Kitu kinachotoka ndani mwako ni moto/kali",
+    "idiomatic_dg": "Maumivu ganayohusu mutu ariyekula ndanini mwako ni makali zaidi kuriko gosi."
   },
   {
     "id": "p-069",
@@ -3509,9 +3645,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Dalili ya mvua ni mawingu"
+    "literal_sw": "Dalili ya mvua ni mawingu",
+    "idiomatic_dg": "Ishara za kare zinakuonya kuhusu chitu chinachokpwedza — uka makini na uzionese."
   },
   {
     "id": "p-070",
@@ -3558,9 +3696,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Dawa ya nyenze ni nyenze"
+    "literal_sw": "Dawa ya nyenze ni nyenze",
+    "idiomatic_dg": "Adhabu inafwaha kulingana na kosa — dzitso kpwa dzitso, dzino kpwa dzino."
   },
   {
     "id": "p-071",
@@ -3608,9 +3748,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Dawa ya deni ni kulipwa"
+    "literal_sw": "Dawa ya deni ni kulipwa",
+    "idiomatic_dg": "Njira pekee ya kumala deni ni kuripha — takuna njira yanjine."
   },
   {
     "id": "p-072",
@@ -3656,9 +3798,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kidogo kidogo kumaliza kikapu"
+    "literal_sw": "Kidogo kidogo kumaliza kikapu",
+    "idiomatic_dg": "Ukienderera kuhala chidide-chidide, hata chitu chinji chindamala."
   },
   {
     "id": "p-073",
@@ -3705,9 +3849,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Donge lililoanguka ni mungu wa mbwa"
+    "literal_sw": "Donge lililoanguka ni mungu wa mbwa",
+    "idiomatic_dg": "Hasara ya mutu mmwenga inaweza kukala baraka kpwa mutu munji."
   },
   {
     "id": "p-074",
@@ -3757,9 +3903,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Dunia ni mdomo wa mbwa, huwezi kuchungulia ndani (pia)"
+    "literal_sw": "Dunia ni mdomo wa mbwa, huwezi kuchungulia ndani (pia)",
+    "idiomatic_dg": "Dunia ina siri nyinji ambazo mutu kaweza kuzimanya — mambo gake taga kubashirika."
   },
   {
     "id": "p-075",
@@ -3807,9 +3955,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jambo husemwa, lakini lisifanywe"
+    "literal_sw": "Jambo husemwa, lakini lisifanywe",
+    "idiomatic_dg": "Mambo ganjine ganaambwa ela tagafwaha kuhendwa — usihendere kpwa haraka chitu urichosikira."
   },
   {
     "id": "p-076",
@@ -3855,9 +4005,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jicho ni la kuona si la kula"
+    "literal_sw": "Jicho ni la kuona si la kula",
+    "idiomatic_dg": "Kuona chitu si sawa na kukimiliki — dzitso rinarya ela mkpwono taufikire."
   },
   {
     "id": "p-077",
@@ -3903,9 +4055,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jicho la mtu mwenye jicho moja"
+    "literal_sw": "Jicho la mtu mwenye jicho moja",
+    "idiomatic_dg": "Linda kpwa makini chitu chako cha thamani ambacho tachiweza kubadilishwa."
   },
   {
     "id": "p-078",
@@ -3950,9 +4104,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jicho halina pazia"
+    "literal_sw": "Jicho halina pazia",
+    "idiomatic_dg": "Chitu chirichoonekana wazi tachiweza kufitswa — ushahidi wa matso tauwezekana kukanushwa."
   },
   {
     "id": "p-079",
@@ -4002,9 +4158,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jogoo kuwika si dawa ya alfajiri"
+    "literal_sw": "Jogoo kuwika si dawa ya alfajiri",
+    "idiomatic_dg": "Chitu chinachopaswa kukala chindakala, hata bila ishara au mutu wa kukitangazia."
   },
   {
     "id": "p-080",
@@ -4050,9 +4208,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Siku moja ndovu kuoza"
+    "literal_sw": "Siku moja ndovu kuoza",
+    "idiomatic_dg": "Chitu chikulu chinaweza kuangamizwa kpwa muda mfupi — usidzitiye moyo kpwa ukulu wako."
   },
   {
     "id": "p-081",
@@ -4103,9 +4263,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fisi akimla mgonjwa, mzima afunge mlango"
+    "literal_sw": "Fisi akimla mgonjwa, mzima afunge mlango",
+    "idiomatic_dg": "Hatari ichimpata mutu mnyonje, mwenye nguvu ni lazima ahendere hatua za kudzilinda."
   },
   {
     "id": "p-082",
@@ -4154,9 +4316,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fundi halali mahali pazuri"
+    "literal_sw": "Fundi halali mahali pazuri",
+    "idiomatic_dg": "Fundi anayeahendezera atu anjina vinono mara nyinji hudzisahau mwenye."
   },
   {
     "id": "p-083",
@@ -4206,9 +4370,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kufunga vizuri hakuumizi mkono"
+    "literal_sw": "Kufunga vizuri hakuumizi mkono",
+    "idiomatic_dg": "Kutunza mali yako vizuri takukudhuru — badala yakpwe kunakurinda na hasara."
   },
   {
     "id": "p-084",
@@ -4254,9 +4420,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fungo unalokula ndilo litakalokutoka"
+    "literal_sw": "Fungo unalokula ndilo litakalokutoka",
+    "idiomatic_dg": "Unavyophanda ndicho unavyovuna — mahendo gako ganakuuyira."
   },
   {
     "id": "p-085",
@@ -4302,9 +4470,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Fungo la) mti fundo lake ni (katika) utomvu wake"
+    "literal_sw": "(Fungo la) mti fundo lake ni (katika) utomvu wake",
+    "idiomatic_dg": "Chila chitu chenye uhai china siri yakpwe ndani — kpweli yakpwe i ndanini."
   },
   {
     "id": "p-086",
@@ -4351,9 +4521,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kufa peke yako"
+    "literal_sw": "Kufa peke yako",
+    "idiomatic_dg": "Ni laana ya kutengwa kabisa — usikale na mutu wa kukuarira wala kukusaidia."
   },
   {
     "id": "p-087",
@@ -4401,9 +4573,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fimbo ya mbali hauui nyoka"
+    "literal_sw": "Fimbo ya mbali hauui nyoka",
+    "idiomatic_dg": "Msada wa kure taufai wakati hatari i phephi — londa msada wa kpwa phephi."
   },
   {
     "id": "p-088",
@@ -4453,9 +4627,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fimbo ya mganga ni ndefu na fupi"
+    "literal_sw": "Fimbo ya mganga ni ndefu na fupi",
+    "idiomatic_dg": "Mdanganyifu anabadilisha ujanja wakpwe kulingana na hali ili aphahe arichorilonda."
   },
   {
     "id": "p-089",
@@ -4501,9 +4677,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vitu vya zamani havinuki"
+    "literal_sw": "Vitu vya zamani havinuki",
+    "idiomatic_dg": "Chitu chirichodumu kpwa muda mure chinaonesa thamani yakpwe — ga kare gana heshima."
   },
   {
     "id": "p-090",
@@ -4552,9 +4730,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mambo ya ngoma hayasemwi yote"
+    "literal_sw": "Mambo ya ngoma hayasemwi yote",
+    "idiomatic_dg": "Si kpwosi kunaweza kuambwa — siri zinjine ni lazima zisale ndani."
   },
   {
     "id": "p-091",
@@ -4605,9 +4785,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Matibabu ya mganga yanampa mgonjwa matumaini"
+    "literal_sw": "Matibabu ya mganga yanampa mgonjwa matumaini",
+    "idiomatic_dg": "Hata matumaini madide kula kpwa mganga ganampha mkpwongo nguvu ya kuvumilira."
   },
   {
     "id": "p-092",
@@ -4654,9 +4836,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ghafla ni ..., jogoo alikimbia ..."
+    "literal_sw": "Ghafla ni ..., jogoo alikimbia ...",
+    "idiomatic_dg": "Hatari inakpwedza gafula bila onyo — ni lazima ukale tayari siku zosi."
   },
   {
     "id": "p-093",
@@ -4706,9 +4890,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Visivyoanguka (matunda) vitatikiswa (kutoka mtini)"
+    "literal_sw": "Visivyoanguka (matunda) vitatikiswa (kutoka mtini)",
+    "idiomatic_dg": "Mutu asiyehenda kpwa hiyari andahendezwa kpwa nguvu."
   },
   {
     "id": "p-094",
@@ -4760,9 +4946,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wasiojua ubamba wanashikwa wawili wawili"
+    "literal_sw": "Wasiojua ubamba wanashikwa wawili wawili",
+    "idiomatic_dg": "Atu azuzu husaidiana kpwa ujinga na kunaswa phamwenga kpwa kosa mwenga."
   },
   {
     "id": "p-095",
@@ -4809,9 +4997,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Gogo la nyumbani halikojolei"
+    "literal_sw": "Gogo la nyumbani halikojolei",
+    "idiomatic_dg": "Heshimu azee na mila za kaya yako, mana ndio msingi wa maisha gako."
   },
   {
     "id": "p-096",
@@ -4858,9 +5048,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jongoo na kijiti chake/kipande cha mkindu"
+    "literal_sw": "Jongoo na kijiti chake/kipande cha mkindu",
+    "idiomatic_dg": "Uchimendzera kumaliza tatizo, riuse phamwenga na mzizi wakpwe."
   },
   {
     "id": "p-097",
@@ -4909,9 +5101,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Pembe ya mtu dhaifu ni gamba la konokono"
+    "literal_sw": "Pembe ya mtu dhaifu ni gamba la konokono",
+    "idiomatic_dg": "Silaha ya mutu mnyonje taina nguvu yoyosi."
   },
   {
     "id": "p-098",
@@ -4957,9 +5151,11 @@
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Haki ya mtu haizami"
+    "literal_sw": "Haki ya mtu haizami",
+    "idiomatic_dg": "Haki ya mutu taiweza kuphoteya hata siku mwenga."
   },
   {
     "id": "p-099",
@@ -5006,9 +5202,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Matako ya mama yananunua shamba"
+    "literal_sw": "Matako ya mama yananunua shamba",
+    "idiomatic_dg": "Mlume anayemendza mchetu kana chipimo cha arichomuhendera."
   },
   {
     "id": "p-100",
@@ -5054,9 +5252,11 @@
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
       "swahili": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Bahati iko (katika) tumbo"
+    "literal_sw": "Bahati iko (katika) tumbo",
+    "idiomatic_dg": "Sifa za kpweli za mutu zikafwitswa ndani, tazionekana kpwa kudze."
   },
   {
     "id": "p-101",
@@ -5102,9 +5302,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uongo unasafiri haraka"
+    "literal_sw": "Uongo unasafiri haraka",
+    "idiomatic_dg": "Handzo rinanyendeka haraka kuriko ukpweli."
   },
   {
     "id": "p-102",
@@ -5155,9 +5357,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Siku 3 za maombolezo hazifiki hadi wakati uliowekwa"
+    "literal_sw": "Siku 3 za maombolezo hazifiki hadi wakati uliowekwa",
+    "idiomatic_dg": "Usitayarishe mambo ambago tagadzangbwe kuhendeka."
   },
   {
     "id": "p-103",
@@ -5209,9 +5413,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wimbo wa mtema mnazi, kila mmoja ana kibuyu chake"
+    "literal_sw": "Wimbo wa mtema mnazi, kila mmoja ana kibuyu chake",
+    "idiomatic_dg": "Chila mutu ana kazi yakpwe na njira yakpwe ya kuihenda."
   },
   {
     "id": "p-104",
@@ -5257,9 +5463,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kelele kelele ndiyo kukua"
+    "literal_sw": "Kelele kelele ndiyo kukua",
+    "idiomatic_dg": "Maendeleo ganatuluka kpwa bidii na juhudi za chila siku."
   },
   {
     "id": "p-105",
@@ -5307,9 +5515,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kelele kelele ndiyo uwindaji unapigwa lakini una kichwa"
+    "literal_sw": "Kelele kelele ndiyo uwindaji unapigwa lakini una kichwa",
+    "idiomatic_dg": "Chila mazungumzo ni lazima gakale na lengo."
   },
   {
     "id": "p-107",
@@ -5359,9 +5569,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Kutoka) Majivu usipolala unapigania mbali mbwa"
+    "literal_sw": "(Kutoka) Majivu usipolala unapigania mbali mbwa",
+    "idiomatic_dg": "Usimzuiye mutu kutumia chitu ambacho uwe mwenye kuchitaki."
   },
   {
     "id": "p-108",
@@ -5410,9 +5622,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jasho la mtu haliliwi wala haliliwi"
+    "literal_sw": "Jasho la mtu haliliwi wala haliliwi",
+    "idiomatic_dg": "Usimudhulumu mutu matunda ga kazi yakpwe."
   },
   {
     "id": "p-109",
@@ -5459,9 +5673,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jasho la mtu haliliwi"
+    "literal_sw": "Jasho la mtu haliliwi",
+    "idiomatic_dg": "Mutu asirye jasho ra mutu wanjine."
   },
   {
     "id": "p-110",
@@ -5507,9 +5723,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kujaribu ndiyo mji (halisi)"
+    "literal_sw": "Kujaribu ndiyo mji (halisi)",
+    "idiomatic_dg": "Kujeza ndiyo mwanzo wa kumanya na kufanikiwa."
   },
   {
     "id": "p-111",
@@ -5556,9 +5774,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuwa mdudu ili utembee na nyumba yako"
+    "literal_sw": "Kuwa mdudu ili utembee na nyumba yako",
+    "idiomatic_dg": "Dzitegemeye mwenye, usitarajiye atu anjine."
   },
   {
     "id": "p-112",
@@ -5606,9 +5826,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuwa naye utajua tabia zake"
+    "literal_sw": "Kuwa naye utajua tabia zake",
+    "idiomatic_dg": "Kumanya mutu kpwa kpweli ni kuishi naye."
   },
   {
     "id": "p-113",
@@ -5657,9 +5879,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kanga ya jicho moja anachimbia (mzima) aliye mzima"
+    "literal_sw": "Kanga ya jicho moja anachimbia (mzima) aliye mzima",
+    "idiomatic_dg": "Mutu asiye na uwezo asidzijeze kuaongoza enye uwezo."
   },
   {
     "id": "p-114",
@@ -5706,9 +5930,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mlilie mama yako, usimlilie kifaranga"
+    "literal_sw": "Mlilie mama yako, usimlilie kifaranga",
+    "idiomatic_dg": "Heshimu mambo ga muhimu, usirire mambo madide."
   },
   {
     "id": "p-115",
@@ -5754,9 +5980,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kata pua yako ili uifanye nzuri"
+    "literal_sw": "Kata pua yako ili uifanye nzuri",
+    "idiomatic_dg": "Wakati mwingine ni lazima udzitoe chidide ili kulinda uhusiano wako."
   },
   {
     "id": "p-116",
@@ -5804,9 +6032,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba hairudishi maiti"
+    "literal_sw": "Nyumba hairudishi maiti",
+    "idiomatic_dg": "Chifo tachina kuuywa, mufu kauya kare."
   },
   {
     "id": "p-117",
@@ -5853,9 +6083,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kazi hailiwi na mchwa"
+    "literal_sw": "Kazi hailiwi na mchwa",
+    "idiomatic_dg": "Bidii ya mutu taiphotea bure — ndayonufaika nayo."
   },
   {
     "id": "p-118",
@@ -5902,9 +6134,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kofi moja, mbuzi na kikombe cha pombe"
+    "literal_sw": "Kofi moja, mbuzi na kikombe cha pombe",
+    "idiomatic_dg": "Chila tendo rina matokeo gakpwe ambago ni lazima gakabiliwe."
   },
   {
     "id": "p-119",
@@ -5954,9 +6188,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vita vya ndugu, jirani asiingie"
+    "literal_sw": "Vita vya ndugu, jirani asiingie",
+    "idiomatic_dg": "Jirani asidze kuinjira ugomvi wa ndugu."
   },
   {
     "id": "p-120",
@@ -6002,9 +6238,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vita vya mdomo vinanyooshwa na mdomo"
+    "literal_sw": "Vita vya mdomo vinanyooshwa na mdomo",
+    "idiomatic_dg": "Ugomvi wa maneno ugololwe kpwa maneno, si kpwa kupigana."
   },
   {
     "id": "p-121",
@@ -6050,9 +6288,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vita vya rafiki yako vinakuua"
+    "literal_sw": "Vita vya rafiki yako vinakuua",
+    "idiomatic_dg": "Usidzitiye kpwa ugomvi wa atu anjine, mana uwe ndiwe ndayeolagwa."
   },
   {
     "id": "p-122",
@@ -6101,9 +6341,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Unachukua hatua kuufanya ukoo wako usimame wima"
+    "literal_sw": "Unachukua hatua kuufanya ukoo wako usimame wima",
+    "idiomatic_dg": "Ichikala nduguo ana shida, ni lazima uhende chochosi kumterya."
   },
   {
     "id": "p-124",
@@ -6151,9 +6393,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuambiana kuko lakini kusikilizana hakuna"
+    "literal_sw": "Kuambiana kuko lakini kusikilizana hakuna",
+    "idiomatic_dg": "Atu ganashauriwa ela tagahenda garigoyoambwa."
   },
   {
     "id": "p-125",
@@ -6200,9 +6444,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kupotea porini ndiko kujua pori"
+    "literal_sw": "Kupotea porini ndiko kujua pori",
+    "idiomatic_dg": "Kukosa ndiko kpweli kpwa kudzifundza."
   },
   {
     "id": "p-126",
@@ -6248,9 +6494,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kufa ni kusaidiana"
+    "literal_sw": "Kufa ni kusaidiana",
+    "idiomatic_dg": "Maisha ni kusaidiana — mimi nakuterya, nawe uniterye."
   },
   {
     "id": "p-127",
@@ -6299,9 +6547,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuingia ni mara moja, lakini kutoka ni pole pole"
+    "literal_sw": "Kuingia ni mara moja, lakini kutoka ni pole pole",
+    "idiomatic_dg": "Ni rahisi kuinjira matatizoni ela kutuluka ni pole pole."
   },
   {
     "id": "p-128",
@@ -6348,9 +6598,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kukua ni kusubirana"
+    "literal_sw": "Kukua ni kusubirana",
+    "idiomatic_dg": "Kukula ni kpwa kugodzana na kuvumiliana."
   },
   {
     "id": "p-129",
@@ -6396,9 +6648,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kueni halafu njoo muone"
+    "literal_sw": "Kueni halafu njoo muone",
+    "idiomatic_dg": "Avyere ndiyo ganamanya uzito wa maisha, adide tagadzangbwe kugaona."
   },
   {
     "id": "p-130",
@@ -6445,9 +6699,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuumia sana si kufa"
+    "literal_sw": "Kuumia sana si kufa",
+    "idiomatic_dg": "Kuumwa sana si kufwa — vumirira, undaphola."
   },
   {
     "id": "p-131",
@@ -6496,9 +6752,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kulungu mwoga amekimbiza pembe zake"
+    "literal_sw": "Kulungu mwoga amekimbiza pembe zake",
+    "idiomatic_dg": "Wakati mwingine kuchimbira kunaweza kukuokola."
   },
   {
     "id": "p-132",
@@ -6543,9 +6801,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kupokea ni kupokea"
+    "literal_sw": "Kupokea ni kupokea",
+    "idiomatic_dg": "Chochosi uchophaha, ritsike na moyo mzima."
   },
   {
     "id": "p-133",
@@ -6593,9 +6853,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Palipo na ng'ombe hakuna wachunga"
+    "literal_sw": "Palipo na ng'ombe hakuna wachunga",
+    "idiomatic_dg": "Phatu phenye utajiri, takuna mutu ariye tayari kuhenda kazi ngumu."
   },
   {
     "id": "p-134",
@@ -6641,9 +6903,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kulima ni kushindana, kupata ni kwa Mungu"
+    "literal_sw": "Kulima ni kushindana, kupata ni kwa Mungu",
+    "idiomatic_dg": "Mutu anarima kpwa nguvu zakpwe, ela matokeo ni ga Mlungu."
   },
   {
     "id": "p-135",
@@ -6692,9 +6956,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Ku)kua juu, chini kuna moto"
+    "literal_sw": "(Ku)kua juu, chini kuna moto",
+    "idiomatic_dg": "Baraka kpwa mwana — ukule na kupata manono."
   },
   {
     "id": "p-136",
@@ -6747,9 +7013,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kutazama-tazama kwa siri ni kujiweka tayari"
+    "literal_sw": "Kutazama-tazama kwa siri ni kujiweka tayari",
+    "idiomatic_dg": "Kukala makini na kudzimanyirira ndiko kudzilinda."
   },
   {
     "id": "p-137",
@@ -6795,9 +7063,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kukaa bure si kama kutembea bure"
+    "literal_sw": "Kukaa bure si kama kutembea bure",
+    "idiomatic_dg": "Ni bora kunyendeka bure kuriko kusagala bure."
   },
   {
     "id": "p-138",
@@ -6844,9 +7114,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kushindwa na pombe ni aibu"
+    "literal_sw": "Kushindwa na pombe ni aibu",
+    "idiomatic_dg": "Kushindwa ni uchi ni chinemi — mutu ni lazima adzizuiye."
   },
   {
     "id": "p-139",
@@ -6893,9 +7165,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kujifanya hakulaguliki"
+    "literal_sw": "Kujifanya hakulaguliki",
+    "idiomatic_dg": "Mutu anayedzihenda mkpwongo kana dawa ya kumphoza."
   },
   {
     "id": "p-140",
@@ -6944,9 +7218,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kutengana na nzi maana yake kidonda kinapona"
+    "literal_sw": "Kutengana na nzi maana yake kidonda kinapona",
+    "idiomatic_dg": "Indzi zichituluka, chironda chinaphola — mateso gachiphunguka, hali inanona."
   },
   {
     "id": "p-141",
@@ -6994,9 +7270,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kutengana na ulinzi ni kuua tumbili mzee"
+    "literal_sw": "Kutengana na ulinzi ni kuua tumbili mzee",
+    "idiomatic_dg": "Ukiusa ariyekurinda, uwe mwenye ndiwe ndayephoteza."
   },
   {
     "id": "p-142",
@@ -7045,9 +7323,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kusaidia hakupotei"
+    "literal_sw": "Kusaidia hakupotei",
+    "idiomatic_dg": "Kuterya mutu takuphotea — kudauyizwa siku mwenga."
   },
   {
     "id": "p-144",
@@ -7093,9 +7373,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuamuru si ulinzi"
+    "literal_sw": "Kuamuru si ulinzi",
+    "idiomatic_dg": "Kulagiza si sawa na kurinda kpwa kpweli."
   },
   {
     "id": "p-145",
@@ -7143,9 +7425,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Kifo) kiko Longo na kiko kwetu Wadigo"
+    "literal_sw": "(Kifo) kiko Longo na kiko kwetu Wadigo",
+    "idiomatic_dg": "Chifo chiko chila phatu, takuna mutu wala phatu phanapoepuka."
   },
   {
     "id": "p-146",
@@ -7191,9 +7475,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Miguu ni watembezaji"
+    "literal_sw": "Miguu ni watembezaji",
+    "idiomatic_dg": "Magulu gako ndiyo ganakuphirika phophosi unachodza."
   },
   {
     "id": "p-147",
@@ -7239,9 +7525,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mbili mbili Mwatunya amekimbiwa na gari"
+    "literal_sw": "Mbili mbili Mwatunya amekimbiwa na gari",
+    "idiomatic_dg": "Ukijeza kuhenda mambo mairi kpwa wakati mmwenga, undaphoteza mwenga."
   },
   {
     "id": "p-148",
@@ -7290,9 +7578,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Manyoya ya simba, nyani wanayagaagaa"
+    "literal_sw": "Manyoya ya simba, nyani wanayagaagaa",
+    "idiomatic_dg": "Hata mutu mkali anaweza kukala mpole kpwa atu akpwe."
   },
   {
     "id": "p-149",
@@ -7339,9 +7629,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mambo mazuri ni njia"
+    "literal_sw": "Mambo mazuri ni njia",
+    "idiomatic_dg": "Matendo manono ndiyo ganagokulongoza njira ya mbere."
   },
   {
     "id": "p-150",
@@ -7388,9 +7680,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Maskini hana masikio"
+    "literal_sw": "Maskini hana masikio",
+    "idiomatic_dg": "Maneno ga mchiya tagasikirwa ni mutu."
   },
   {
     "id": "p-151",
@@ -7437,9 +7731,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Masikitiko yanaondolewa moja moja"
+    "literal_sw": "Masikitiko yanaondolewa moja moja",
+    "idiomatic_dg": "Masono ganamalwa mwenga-mwenga, si gosi kpwa wakati mmwenga."
   },
   {
     "id": "p-152",
@@ -7485,9 +7781,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Macho hayana ua/mpaka"
+    "literal_sw": "Macho hayana ua/mpaka",
+    "idiomatic_dg": "Matso ga mutu tagaweza kuzuiywa — ganaona chochosi."
   },
   {
     "id": "p-153",
@@ -7537,9 +7835,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Machozi matupu hayarudishi mtu aliyetumwa kulipia mauaji"
+    "literal_sw": "Machozi matupu hayarudishi mtu aliyetumwa kulipia mauaji",
+    "idiomatic_dg": "Kurira bure takuuyiza chirichokala chikahendeka."
   },
   {
     "id": "p-154",
@@ -7585,9 +7885,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mama wa rafiki yako ni mama yako pia"
+    "literal_sw": "Mama wa rafiki yako ni mama yako pia",
+    "idiomatic_dg": "Mayo wa myao umuheshimu dza mayoo mwenye."
   },
   {
     "id": "p-155",
@@ -7633,9 +7935,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Michango ya mazishi haiozi"
+    "literal_sw": "Michango ya mazishi haiozi",
+    "idiomatic_dg": "Unono unaohenda wakati wa msiba undauyizwa kpwako siku ya shida yako."
   },
   {
     "id": "p-156",
@@ -7682,9 +7986,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kwa nini unanikunja-kunja kama ngozi ya mbega?"
+    "literal_sw": "Kwa nini unanikunja-kunja kama ngozi ya mbega?",
+    "idiomatic_dg": "Kpwa utu-utu unaenderera kunidanganya na kunihendza chochosi urichocho?"
   },
   {
     "id": "p-157",
@@ -7731,9 +8037,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mbuzi ya rafiki yako ni nyama"
+    "literal_sw": "Mbuzi ya rafiki yako ni nyama",
+    "idiomatic_dg": "Mali ya mutu wanjine taikuumiza — kana uhusiano nayo."
   },
   {
     "id": "p-158",
@@ -7780,9 +8088,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwanamke hashawishiwi kwa kulia"
+    "literal_sw": "Mwanamke hashawishiwi kwa kulia",
+    "idiomatic_dg": "Mlume anayerira kana heshima mbere za mchetu."
   },
   {
     "id": "p-159",
@@ -7834,9 +8144,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mkia wa kondoo unaliwa na mbweha"
+    "literal_sw": "Mkia wa kondoo unaliwa na mbweha",
+    "idiomatic_dg": "Chitu chizuri mara nyinji chinaphotezwa kpwa mutu asiyechifwaha."
   },
   {
     "id": "p-161",
@@ -7885,9 +8197,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mdigo hapendi mwenzake azae mapacha"
+    "literal_sw": "Mdigo hapendi mwenzake azae mapacha",
+    "idiomatic_dg": "Atu gana wivu jirani yao achiphaha baraka zaidi yao."
   },
   {
     "id": "p-162",
@@ -7937,9 +8251,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mfupa ukimshinda fisi mbwa hauwezi (pia)"
+    "literal_sw": "Mfupa ukimshinda fisi mbwa hauwezi (pia)",
+    "idiomatic_dg": "Ichikala mwenye nguvu kashindwa, mnyonje zaidi kandaweza."
   },
   {
     "id": "p-163",
@@ -7986,9 +8302,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgala umuue lakini vya kwake umpe"
+    "literal_sw": "Mgala umuue lakini vya kwake umpe",
+    "idiomatic_dg": "Hata ukimtsukirirwa mutu, muphe haki yakpwe."
   },
   {
     "id": "p-164",
@@ -8034,9 +8352,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Yule) majivuno aliyeendelea alikula wali tupu"
+    "literal_sw": "(Yule) majivuno aliyeendelea alikula wali tupu",
+    "idiomatic_dg": "Mutu anayedzisifu sana mwishowe anaonera haya — kana chochosi cha kuonesa."
   },
   {
     "id": "p-165",
@@ -8084,9 +8404,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mganga hajilagui mwenyewe"
+    "literal_sw": "Mganga hajilagui mwenyewe",
+    "idiomatic_dg": "Hata mganga mwenye ni lazima aterywe ni mutu wanjine."
   },
   {
     "id": "p-166",
@@ -8134,9 +8456,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgawaji bado yuko mahali pa kugawia"
+    "literal_sw": "Mgawaji bado yuko mahali pa kugawia",
+    "idiomatic_dg": "Mlungu achere anaganya — godza, zamu yako indakpwedza."
   },
   {
     "id": "p-167",
@@ -8182,9 +8506,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Miji haichukiani"
+    "literal_sw": "Miji haichukiani",
+    "idiomatic_dg": "Atu ni lazima gaishi kpwa amani na kuphendzana."
   },
   {
     "id": "p-168",
@@ -8234,9 +8560,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtema mnazi akisifilwa pombe hutiwa maji"
+    "literal_sw": "Mtema mnazi akisifilwa pombe hutiwa maji",
+    "idiomatic_dg": "Sifa nyinji zinaweza kumuhenda mutu aharibu chitu chakpwe mwenye."
   },
   {
     "id": "p-169",
@@ -8285,9 +8613,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgeni anapokelewa fimbo, lakini macho bado anayo mwenyewe"
+    "literal_sw": "Mgeni anapokelewa fimbo, lakini macho bado anayo mwenyewe",
+    "idiomatic_dg": "Mjeni anaweza kuphokerwa vinono, ela matso gakpwe ganaona chila chitu."
   },
   {
     "id": "p-170",
@@ -8337,9 +8667,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgeni aje, mwenyeji apone"
+    "literal_sw": "Mgeni aje, mwenyeji apone",
+    "idiomatic_dg": "Mjeni achikpwedza, nyumba yosi inanufaika."
   },
   {
     "id": "p-171",
@@ -8385,9 +8717,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgeni ni mvua"
+    "literal_sw": "Mgeni ni mvua",
+    "idiomatic_dg": "Mjeni ni dza mvula — anahenda muda uchituluka."
   },
   {
     "id": "p-172",
@@ -8438,9 +8772,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwindaji hachoki, akichoka anaoka"
+    "literal_sw": "Mwindaji hachoki, akichoka anaoka",
+    "idiomatic_dg": "Usiriiche kazi hadi uiishe — pumuzika uchikala ukaphaha urichorilonda."
   },
   {
     "id": "p-173",
@@ -8486,9 +8822,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Alaye kwanza ndiye alaye mwisho"
+    "literal_sw": "Alaye kwanza ndiye alaye mwisho",
+    "idiomatic_dg": "Bahati inagaluka — ariye mbere rero, nkaa nyuma mutondo."
   },
   {
     "id": "p-174",
@@ -8534,9 +8872,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mti mbaya utapata tumbili wake"
+    "literal_sw": "Mti mbaya utapata tumbili wake",
+    "idiomatic_dg": "Hata mutu asiyehendzwa ndaphaha mutu wa kumkubali."
   },
   {
     "id": "p-175",
@@ -8588,9 +8928,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mke wa mganga hakondi"
+    "literal_sw": "Mke wa mganga hakondi",
+    "idiomatic_dg": "Mkpwaza mganga kana kuonda mana mlumee anamphahira vinono."
   },
   {
     "id": "p-177",
@@ -8639,9 +8981,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mgonjwa ni ghala la waganga"
+    "literal_sw": "Mgonjwa ni ghala la waganga",
+    "idiomatic_dg": "Aganga gananufaika kpwa akpwongo — ukpwongo wa mutu ni mapato gao."
   },
   {
     "id": "p-178",
@@ -8688,9 +9032,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mkono mtupu haulambiliwi"
+    "literal_sw": "Mkono mtupu haulambiliwi",
+    "idiomatic_dg": "Mutu asiye na chochosi cha kulavya kaheshimiwa ni mutu."
   },
   {
     "id": "p-179",
@@ -8738,9 +9084,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukindu mrefu haufungi kuni"
+    "literal_sw": "Ukindu mrefu haufungi kuni",
+    "idiomatic_dg": "Kurikana kunji na vitu takuhakikishiya kpwamba kazi indamala — uwezo na utaalamu ndiyo ganagolondeka."
   },
   {
     "id": "p-180",
@@ -8787,9 +9135,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Alalaye na 'ngoyo', anapoomka anaifanya"
+    "literal_sw": "Alalaye na 'ngoyo', anapoomka anaifanya",
+    "idiomatic_dg": "Mutu ariye na ngoyo ndaihenda mara tu achiamukiraye."
   },
   {
     "id": "p-181",
@@ -8838,9 +9188,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Alambaye asali halamba mara moja tu"
+    "literal_sw": "Alambaye asali halamba mara moja tu",
+    "idiomatic_dg": "Mutu achionya chitu chizuri, andauywa-uywa chila wakati."
   },
   {
     "id": "p-182",
@@ -8889,9 +9241,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ndege akiungua anaoka 'rambo'"
+    "literal_sw": "Ndege akiungua anaoka 'rambo'",
+    "idiomatic_dg": "Hata chitu kibaya chinaweza kuonekana china thamani kpwa hali fulani."
   },
   {
     "id": "p-183",
@@ -8939,9 +9293,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Damu haikimbirani wala haiachani"
+    "literal_sw": "Damu haikimbirani wala haiachani",
+    "idiomatic_dg": "Uhusiano wa mlatso taukatika — ndugu ni ndugu hata kare."
   },
   {
     "id": "p-184",
@@ -8991,9 +9347,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mume wangu ameokea mbuyu ili ale uyoga wake"
+    "literal_sw": "Mume wangu ameokea mbuyu ili ale uyoga wake",
+    "idiomatic_dg": "Mutu anahenda unono kpwa kutarajia kunufaika naye."
   },
   {
     "id": "p-185",
@@ -9039,9 +9397,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mungu analala peke yake"
+    "literal_sw": "Mungu analala peke yake",
+    "idiomatic_dg": "Njira za Mlungu tazieleweki ni mutu yeyosi."
   },
   {
     "id": "p-186",
@@ -9088,9 +9448,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mungu hakupi kisha akakuondolea"
+    "literal_sw": "Mungu hakupi kisha akakuondolea",
+    "idiomatic_dg": "Mlungu achikupha chitu, kachiuyiza kare."
   },
   {
     "id": "p-187",
@@ -9136,9 +9498,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mungu hampigi mtumishi wake"
+    "literal_sw": "Mungu hampigi mtumishi wake",
+    "idiomatic_dg": "Mlungu kamdhuru mujakpwe — anamrinda na kumuhifadhi."
   },
   {
     "id": "p-188",
@@ -9184,9 +9548,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Papai linalooza mbegu zake hazipandwi"
+    "literal_sw": "Papai linalooza mbegu zake hazipandwi",
+    "idiomatic_dg": "Chitu chirichoharibika tachifwa kpwa kuandza chitu chisha."
   },
   {
     "id": "p-189",
@@ -9235,9 +9601,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mnazi mmoja una pombe gani?"
+    "literal_sw": "Mnazi mmoja una pombe gani?",
+    "idiomatic_dg": "Mutu mmwenga macheyakpwe kandaweza kutimiza vinji — ushirikiano unalondeka."
   },
   {
     "id": "p-190",
@@ -9287,9 +9655,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mnazi wa mwanamke haupandwi kwa furaha"
+    "literal_sw": "Mnazi wa mwanamke haupandwi kwa furaha",
+    "idiomatic_dg": "Ukitumia mali ya mchetu, dzitayarishe kuiriphwa — andaidai."
   },
   {
     "id": "p-191",
@@ -9337,9 +9707,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye njaa hana wafuasi; Mwenye njaa hana masikio"
+    "literal_sw": "Mwenye njaa hana wafuasi; Mwenye njaa hana masikio",
+    "idiomatic_dg": "Mutu ariye na ndzala kana masikiro ga kusikira chochosi chanjine."
   },
   {
     "id": "p-192",
@@ -9389,9 +9761,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye njaa hawezi kumzika mama yake"
+    "literal_sw": "Mwenye njaa hawezi kumzika mama yake",
+    "idiomatic_dg": "Ndzala inamzuiya mutu kupanga mambo ga mbere — anarya gosi aricho nago."
   },
   {
     "id": "p-193",
@@ -9437,9 +9811,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Aliye)umwa na nyoka anaogopa (hata) mzabibu"
+    "literal_sw": "(Aliye)umwa na nyoka anaogopa (hata) mzabibu",
+    "idiomatic_dg": "Mutu achiumwa kala, anaogophya hata chitu chisichokala na hatari."
   },
   {
     "id": "p-194",
@@ -9489,9 +9865,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Moto hauzai moto"
+    "literal_sw": "Moto hauzai moto",
+    "idiomatic_dg": "Moho tauandza chitu — unabomola tu."
   },
   {
     "id": "p-196",
@@ -9540,9 +9918,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mpumbavu hanyooki"
+    "literal_sw": "Mpumbavu hanyooki",
+    "idiomatic_dg": "Mpamba ni mkpwidi — katabadilika wala kubadilishwa."
   },
   {
     "id": "p-197",
@@ -9593,9 +9973,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mchezaji wa tsetse anaanza na vipande vyake mwenyewe"
+    "literal_sw": "Mchezaji wa tsetse anaanza na vipande vyake mwenyewe",
+    "idiomatic_dg": "Mutu ni lazima aandze na mambo gakpwe kpwandza, kabila ya kudziingiza kpwa mambo ga atu anjine."
   },
   {
     "id": "p-198",
@@ -9642,9 +10024,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Atembeavyo pole hajikwai"
+    "literal_sw": "Atembeavyo pole hajikwai",
+    "idiomatic_dg": "Mutu achihenda makini kpwa chila chitu, kandakosera kpwa urahisi."
   },
   {
     "id": "p-199",
@@ -9690,9 +10074,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mkataji wa wengi ni msaliti"
+    "literal_sw": "Mkataji wa wengi ni msaliti",
+    "idiomatic_dg": "Mutu ambaye anavundza uhusiano na atu anji, anaonyesa kalaiye ni msaliti [?] wa kpweli."
   },
   {
     "id": "p-200",
@@ -9738,9 +10124,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Alaye chakula chake kimya hana ugomvi na mtu yeyote"
+    "literal_sw": "Alaye chakula chake kimya hana ugomvi na mtu yeyote",
+    "idiomatic_dg": "Mutu achirya chakpwe chitsanga-tsanga, kana kondo na mutu yeyosi."
   },
   {
     "id": "p-201",
@@ -9788,9 +10176,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu anayeishi maisha mabaya haigwi"
+    "literal_sw": "Mtu anayeishi maisha mabaya haigwi",
+    "idiomatic_dg": "Mutu aishiye maisha mabaya kafuatwa ni mutu, kpwa sababu atu anaona na anadzitenga."
   },
   {
     "id": "p-202",
@@ -9836,9 +10226,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Msemaji wa ukweli si mkosaji"
+    "literal_sw": "Msemaji wa ukweli si mkosaji",
+    "idiomatic_dg": "Mutu agombaye makpweli kasiye na makosa, kpwa sababu kusema ukpweli siyo kuhenda kosa."
   },
   {
     "id": "p-203",
@@ -9887,9 +10279,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ashonaye nguo ajaribu kiuno chake mwenyewe"
+    "literal_sw": "Ashonaye nguo ajaribu kiuno chake mwenyewe",
+    "idiomatic_dg": "Kabila ya kumuhukumu mutu wanjine, dzijeze we mwenye kpwandza."
   },
   {
     "id": "p-204",
@@ -9935,9 +10329,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtazamaji anapigwa mnnadani"
+    "literal_sw": "Mtazamaji anapigwa mnnadani",
+    "idiomatic_dg": "Hata mutu asiyedziingiza kpwa mambo ga atu anjine anaweza kuphahwa ni shida."
   },
   {
     "id": "p-205",
@@ -9985,9 +10381,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Furahi kwa mzoga, usifurahi kwa nyayo"
+    "literal_sw": "Furahi kwa mzoga, usifurahi kwa nyayo",
+    "idiomatic_dg": "Usisherehekee kabila dzambo rikamala kpwa kpweli."
   },
   {
     "id": "p-206",
@@ -10037,9 +10435,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mchimbaji wa kaburi naye pia anataka achimbiwe kaburi (yaani azikwe vizuri)"
+    "literal_sw": "Mchimbaji wa kaburi naye pia anataka achimbiwe kaburi (yaani azikwe vizuri)",
+    "idiomatic_dg": "Mutu achihudumia atu anjine, naye piya anadzia ahudumirwe wakati wakpwe."
   },
   {
     "id": "p-207",
@@ -10088,9 +10488,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Atokaye kumpokea mgeni hawezi kupuuzwa"
+    "literal_sw": "Atokaye kumpokea mgeni hawezi kupuuzwa",
+    "idiomatic_dg": "Mutu achikuphokera kpwa moyo mnono, usimubere wala kumpuuza."
   },
   {
     "id": "p-208",
@@ -10141,9 +10543,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mlishi hafi, mtumwa hauawi"
+    "literal_sw": "Mlishi hafi, mtumwa hauawi",
+    "idiomatic_dg": "Mutu anayerisa atu akpwe ni lazima adzilinde kpwandza, ili akale na nguvu za kuatereza."
   },
   {
     "id": "p-209",
@@ -10189,9 +10593,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mlishi hauawi wala hafi"
+    "literal_sw": "Mlishi hauawi wala hafi",
+    "idiomatic_dg": "Mutu anayeatereza atu akpwe ni lazima alindwe, kpwa sababu achiphoteya, osi andatesa."
   },
   {
     "id": "p-210",
@@ -10237,9 +10643,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mlishi na mali yake, mnyonge ana yake mwenyewe"
+    "literal_sw": "Mlishi na mali yake, mnyonge ana yake mwenyewe",
+    "idiomatic_dg": "Chila mutu ana mzigo wakpwe, akale ni tajiri hebu ni mnyonge."
   },
   {
     "id": "p-211",
@@ -10287,9 +10695,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mchuzi wa beberu (mbuzi dume mzee) unanywiwa/unaliwa ukiwa moto"
+    "literal_sw": "Mchuzi wa beberu (mbuzi dume mzee) unanywiwa/unaliwa ukiwa moto",
+    "idiomatic_dg": "Dzambo ra muhimu rishughulikiwe phapho hipho, risirichwe rikaharibiwa."
   },
   {
     "id": "p-212",
@@ -10335,9 +10745,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Utamu wa chai ni sukari"
+    "literal_sw": "Utamu wa chai ni sukari",
+    "idiomatic_dg": "Chila chitu chizuri china siri yakpwe ambayo inahenda chikale bora."
   },
   {
     "id": "p-213",
@@ -10385,9 +10797,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aambiaye (jambo) mazungumzoni ana yake mwenyewe ya kusema"
+    "literal_sw": "Aambiaye (jambo) mazungumzoni ana yake mwenyewe ya kusema",
+    "idiomatic_dg": "Chila mutu umuambiyaye habari ana ra kwakpwe ra kugomba piya."
   },
   {
     "id": "p-214",
@@ -10436,9 +10850,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtego ukisimama ni kupumzisha mgongo wake"
+    "literal_sw": "Mtego ukisimama ni kupumzisha mgongo wake",
+    "idiomatic_dg": "Wakati mwanjine kuphoteya mzigo ni kuoya, si tabiya mbii kpweli."
   },
   {
     "id": "p-215",
@@ -10485,9 +10901,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Atendaye mema analiwa na watu wabaya"
+    "literal_sw": "Atendaye mema analiwa na watu wabaya",
+    "idiomatic_dg": "Mutu muhenda manono anariywa ni atu abaya, kpwa sababu ukarimu wakpwe unagaluzwa vibaya."
   },
   {
     "id": "p-216",
@@ -10537,9 +10955,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mti ukimshinda nyani, tumbili hauwezi (pia)"
+    "literal_sw": "Mti ukimshinda nyani, tumbili hauwezi (pia)",
+    "idiomatic_dg": "Mutu ahiyeweza kuhenda chitu, usimgodzere mutu mnyonje akale na uwezo wa kukihenda."
   },
   {
     "id": "p-217",
@@ -10587,9 +11007,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mti unaangukia walio karibu"
+    "literal_sw": "Mti unaangukia walio karibu",
+    "idiomatic_dg": "Shida ichidzangira [?], atu a phephi-phephi ndiyo anaophahwa zaidi."
   },
   {
     "id": "p-218",
@@ -10635,9 +11057,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mjumbe hauawi"
+    "literal_sw": "Mjumbe hauawi",
+    "idiomatic_dg": "Muhumwa kaadhimishwe [?] kpwa habari arizoreha, kpwa sababu ye ni mphishi tu."
   },
   {
     "id": "p-219",
@@ -10684,9 +11108,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwizi, mkamate na suke (la mahindi)"
+    "literal_sw": "Mwizi, mkamate na suke (la mahindi)",
+    "idiomatic_dg": "Usimshitaki mutu kala ni muivi kabila ya kumgbwira na ushahidi mikononi."
   },
   {
     "id": "p-220",
@@ -10734,9 +11160,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aonaye kenge ndiye mtegaji"
+    "literal_sw": "Aonaye kenge ndiye mtegaji",
+    "idiomatic_dg": "Mutu achiona tatizo ndiyo ariye bora wa kurisuluhisha, kpwa sababu anarimanya vinono."
   },
   {
     "id": "p-221",
@@ -10785,9 +11213,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aozeshaye nyama ni mwenye mtego"
+    "literal_sw": "Aozeshaye nyama ni mwenye mtego",
+    "idiomatic_dg": "Mutu asiyetundza mali yakpwe ndiyo mwenye kuiphoteya."
   },
   {
     "id": "p-222",
@@ -10837,9 +11267,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu anaambiwa akirudi, haambiwa akienda"
+    "literal_sw": "Mtu anaambiwa akirudi, haambiwa akienda",
+    "idiomatic_dg": "Mutu kasikira ushauri hadi akale kagbwa na kuona shida mwenye."
   },
   {
     "id": "p-223",
@@ -10887,9 +11319,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu anaambiwa hilo, haambiwa hili"
+    "literal_sw": "Mtu anaambiwa hilo, haambiwa hili",
+    "idiomatic_dg": "Kuna mambo ambago ganagombwa na ganjine gaganyamalirwa, hekima ni kumanya tofauti."
   },
   {
     "id": "p-224",
@@ -10935,9 +11369,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu anaokolewa na chake mwenyewe"
+    "literal_sw": "Mtu anaokolewa na chake mwenyewe",
+    "idiomatic_dg": "Mutu mwisho-mwisho anaokolwa ni juhudi zakpwe mwenye."
   },
   {
     "id": "p-225",
@@ -10983,9 +11419,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu wa kichaa haigwi"
+    "literal_sw": "Mtu wa kichaa haigwi",
+    "idiomatic_dg": "Usifuate mfano [?] mubaya wa mutu yeyosi, kpwa sababu undalavya shida."
   },
   {
     "id": "p-226",
@@ -11032,9 +11470,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mbuyu unafunikwa na vichaka"
+    "literal_sw": "Mbuyu unafunikwa na vichaka",
+    "idiomatic_dg": "Mutu mkpwulu anahitaji atu akpwe a kumuzunguluka ili hadhi yakpwe idumu."
   },
   {
     "id": "p-227",
@@ -11082,9 +11522,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mvua inangojewa na shamba lililosafishwa"
+    "literal_sw": "Mvua inangojewa na shamba lililosafishwa",
+    "idiomatic_dg": "Mutu ni lazima adzitayarishe kpwandza, ili achikudza nafasi akale tayari kuiphaha."
   },
   {
     "id": "p-228",
@@ -11131,9 +11573,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mvumilivu anasubiri lake mwenyewe"
+    "literal_sw": "Mvumilivu anasubiri lake mwenyewe",
+    "idiomatic_dg": "Ukale makini unavyomfariji mutu, kpwa sababu nawe unaweza kuphahwa ni hali iyo-iyo siku moja."
   },
   {
     "id": "p-229",
@@ -11181,9 +11625,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mharibifu wa nchi ni mwananchi"
+    "literal_sw": "Mharibifu wa nchi ni mwananchi",
+    "idiomatic_dg": "Tsi inaharibiwa ni ana-tsi enye, sio atu a kure."
   },
   {
     "id": "p-230",
@@ -11231,9 +11677,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwimbaji haimbirwi"
+    "literal_sw": "Mwimbaji haimbirwi",
+    "idiomatic_dg": "Kuweza kumshinda mutu kpwa fani yakpwe mwenye ni chitu chisichowezekana."
   },
   {
     "id": "p-231",
@@ -11281,9 +11729,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mzazi hali hadi ashibe"
+    "literal_sw": "Mzazi hali hadi ashibe",
+    "idiomatic_dg": "Mvyazi mnono anarya achivuna, kpwa sababu anahika mahitaji ga anae kpwandza."
   },
   {
     "id": "p-232",
@@ -11329,9 +11779,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mzazi (ana) taabu, tasa (ana) taabu"
+    "literal_sw": "Mzazi (ana) taabu, tasa (ana) taabu",
+    "idiomatic_dg": "Mvyazi na mgumba osi ana shida zao, maisha ga mutu yeyosi tagana urahisi."
   },
   {
     "id": "p-233",
@@ -11380,9 +11832,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mzee unaweza kumpita mbio, lakini huwezi kumshinda hekima"
+    "literal_sw": "Mzee unaweza kumpita mbio, lakini huwezi kumshinda hekima",
+    "idiomatic_dg": "Kijana anaweza kumshinda mvyere mairo, ela hekima ya mvyere taiwezekana kushindwa."
   },
   {
     "id": "p-234",
@@ -11432,9 +11886,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jitahidi mwenyewe, umma hautamfanyia mtu chochote"
+    "literal_sw": "Jitahidi mwenyewe, umma hautamfanyia mtu chochote",
+    "idiomatic_dg": "Henda kazi kpwa bidii mwenye, kpwa sababu atu tao kutenderera."
   },
   {
     "id": "p-235",
@@ -11480,9 +11936,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Mwadziko', kesho vivyo hivyo"
+    "literal_sw": "'Mwadziko', kesho vivyo hivyo",
+    "idiomatic_dg": "Baraka za rero na zidze tena muhondo, na chila siku ikale dza vivyo."
   },
   {
     "id": "p-236",
@@ -11529,9 +11987,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Mwaligulu', shauri la mwenyewe"
+    "literal_sw": "'Mwaligulu', shauri la mwenyewe",
+    "idiomatic_dg": "Mwenye kazi ni lazima ahende bidii zaidi kpwa kula mutu amutereze."
   },
   {
     "id": "p-237",
@@ -11577,9 +12037,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aambiaye habari ana zake mwenyewe"
+    "literal_sw": "Aambiaye habari ana zake mwenyewe",
+    "idiomatic_dg": "Chila mutu umuambiyaye habari ana dzambo rakpwe ra kugomba piya."
   },
   {
     "id": "p-238",
@@ -11629,9 +12091,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwana-mbuzi anafagia kwake kwanza ndipo anakula kwa jirani yake"
+    "literal_sw": "Mwana-mbuzi anafagia kwake kwanza ndipo anakula kwa jirani yake",
+    "idiomatic_dg": "Timiza mambo gako ga nyumbani kpwandza, ndipho ukaenda kutafuta kpwa atu anjine."
   },
   {
     "id": "p-239",
@@ -11679,9 +12143,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto mwenye kasoro hawezi kufichwa"
+    "literal_sw": "Mtoto mwenye kasoro hawezi kufichwa",
+    "idiomatic_dg": "Kuna mambo ambago tagawezekana kufwitsika hata udzezedze, ganadzioneka tu."
   },
   {
     "id": "p-240",
@@ -11731,9 +12197,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto akikulowesha paja usilikate"
+    "literal_sw": "Mtoto akikulowesha paja usilikate",
+    "idiomatic_dg": "Usihende makosa ga mutu madide gakale makubwa, dzifundze kuswamehe."
   },
   {
     "id": "p-241",
@@ -11780,9 +12248,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto anayelelewa vizuri hakosi (chochote)"
+    "literal_sw": "Mtoto anayelelewa vizuri hakosi (chochote)",
+    "idiomatic_dg": "Mwana arerewe vinono kandakosa chitu muhimu maishani."
   },
   {
     "id": "p-242",
@@ -11831,9 +12301,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto asikiaye haambiwa (mara) nyingi"
+    "literal_sw": "Mtoto asikiaye haambiwa (mara) nyingi",
+    "idiomatic_dg": "Mwana msikizi kaambirwa kano nyinji, mara mwenga inatosha."
   },
   {
     "id": "p-243",
@@ -11883,9 +12355,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto anayekubali kutumwa ana mavi mengi"
+    "literal_sw": "Mtoto anayekubali kutumwa ana mavi mengi",
+    "idiomatic_dg": "Mwana ambaye anadzitola kuhudumia anapata malipo manono, kpwa sababu atu anamridhia."
   },
   {
     "id": "p-244",
@@ -11932,9 +12406,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto ni kitu cha kukopea"
+    "literal_sw": "Mtoto ni kitu cha kukopea",
+    "idiomatic_dg": "Mwana anaweza kuhumikpwa kpwa kuomba msada kpwa atu, kpwa sababu analavya huruma."
   },
   {
     "id": "p-245",
@@ -11982,9 +12458,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto wa pembeni hana mlezi"
+    "literal_sw": "Mtoto wa pembeni hana mlezi",
+    "idiomatic_dg": "Mwana asiye na uhusiano wa phephi na mutu kandatundzwa sawa-sawa na mwana wa phephi."
   },
   {
     "id": "p-246",
@@ -12035,9 +12513,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto wa kucheka-cheka anamkatalia baba nyama"
+    "literal_sw": "Mtoto wa kucheka-cheka anamkatalia baba nyama",
+    "idiomatic_dg": "Uso wa kutseka-tseka unaweza kufwitsa ukaidi wa ndani, mwana mwenye ujanja si msada kpwa avyaze."
   },
   {
     "id": "p-247",
@@ -12085,9 +12565,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto wa mwenzako ana baridi"
+    "literal_sw": "Mtoto wa mwenzako ana baridi",
+    "idiomatic_dg": "Atu anavithamini vitu vyao zaidi kuriko vya atu anjine, ndiyo tabiya ya binadamu."
   },
   {
     "id": "p-248",
@@ -12135,9 +12617,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto wa nyoka ni nyoka"
+    "literal_sw": "Mtoto wa nyoka ni nyoka",
+    "idiomatic_dg": "Mwana anafuata tabiya za avyaze, kpwa sababu anavyererwa ndivyo anavyokala."
   },
   {
     "id": "p-249",
@@ -12185,9 +12669,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kifaranga cha paka ni kitambaa, kifaranga cha mbwa ni cha kamba"
+    "literal_sw": "Kifaranga cha paka ni kitambaa, kifaranga cha mbwa ni cha kamba",
+    "idiomatic_dg": "Atu anatendezerwa kpwa upendeleo [?], si kpwa haki, kulingana na arivyo."
   },
   {
     "id": "p-250",
@@ -12235,9 +12721,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwanzo wa kidonda ni kuwashwa kidogo"
+    "literal_sw": "Mwanzo wa kidonda ni kuwashwa kidogo",
+    "idiomatic_dg": "Matatizo makpwulu mara nyinji ganaandza na chitu kidide sana."
   },
   {
     "id": "p-251",
@@ -12284,9 +12772,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nne nne inamaliza nyoka"
+    "literal_sw": "Nne nne inamaliza nyoka",
+    "idiomatic_dg": "Bidii ya kudumu na juhudi za chidide-chidide zindamala hata kazi ngumu zaidi."
   },
   {
     "id": "p-252",
@@ -12337,9 +12827,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Msagaji nguruwe, kazi tuliyokuja kufanya ndiyo tunayoifanya"
+    "literal_sw": "Msagaji nguruwe, kazi tuliyokuja kufanya ndiyo tunayoifanya",
+    "idiomatic_dg": "Usiphoteye wakati kpwa mambo ga bure, amba ukale unahenda kazi iriyoko mbere yako."
   },
   {
     "id": "p-253",
@@ -12385,9 +12877,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aendaye kuzimu hasengenywi"
+    "literal_sw": "Aendaye kuzimu hasengenywi",
+    "idiomatic_dg": "Mutu achikala kakpwenda, kana sababu ya kumsengenyera tse kpwa sababu kagona kuphiya."
   },
   {
     "id": "p-254",
@@ -12433,9 +12927,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye ng'ombe ana milango mingi"
+    "literal_sw": "Mwenye ng'ombe ana milango mingi",
+    "idiomatic_dg": "Mutu mwenye mali atu anji andamwendzera, kpwa sababu utajiri unavutia atu."
   },
   {
     "id": "p-255",
@@ -12483,9 +12979,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwili hauna upande (unaopendwa) wa kunya"
+    "literal_sw": "Mwili hauna upande (unaopendwa) wa kunya",
+    "idiomatic_dg": "Shida taichagula mutu wala uphande, inaweza kumphaha mutu yeyosi wakati wowosi."
   },
   {
     "id": "p-256",
@@ -12531,9 +13029,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwiba wa kujidunga haumizi"
+    "literal_sw": "Mwiba wa kujidunga haumizi",
+    "idiomatic_dg": "Shida udzirehereye mwenye taikuumiza dza iriyorehwa ni mutu mwanjine."
   },
   {
     "id": "p-257",
@@ -12582,9 +13082,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenzako akimwaga mchuzi wewe weka mchanga kwenye ugali"
+    "literal_sw": "Mwenzako akimwaga mchuzi wewe weka mchanga kwenye ugali",
+    "idiomatic_dg": "Arafiki achigombana, osi airi anadhirika, kpwa sababu chila mutu anadziumiza."
   },
   {
     "id": "p-258",
@@ -12632,9 +13134,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenzako akijikwaa mwambie pole"
+    "literal_sw": "Mwenzako akijikwaa mwambie pole",
+    "idiomatic_dg": "Rafiki yako achikala kpwa shida, muonyese huruma na umfariji."
   },
   {
     "id": "p-259",
@@ -12684,9 +13188,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Aliyezungukwa hajui, lakini wenyeji wa mji wanajua"
+    "literal_sw": "Aliyezungukwa hajui, lakini wenyeji wa mji wanajua",
+    "idiomatic_dg": "Mutu ariye kpwa tatizo ndiye wa mwisho kurimanya, ela atu anjine osi anamanya."
   },
   {
     "id": "p-260",
@@ -12734,9 +13240,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Afukuzaye wengi hapuuzwi"
+    "literal_sw": "Afukuzaye wengi hapuuzwi",
+    "idiomatic_dg": "Mutu ambaye anahenda mambo manji kawezekana kupuuzwa, kpwa sababu uwepo wakpwe unaonekana chila phatu."
   },
   {
     "id": "p-261",
@@ -12784,9 +13292,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ubivu wa mtini, ndani una mabuu"
+    "literal_sw": "Ubivu wa mtini, ndani una mabuu",
+    "idiomatic_dg": "Chitu chichionekana chizuri kpwa ndze chinaweza kukala chibaya ndani, kpwa hivyo usihukumu kpwa sura ya ndze."
   },
   {
     "id": "p-262",
@@ -12838,9 +13348,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Naona makuzi wakifukuzana, lakini sijui dume ni lipi wala jike ni lipi"
+    "literal_sw": "Naona makuzi wakifukuzana, lakini sijui dume ni lipi wala jike ni lipi",
+    "idiomatic_dg": "Kuona mutu kpwa ndze kukakuambia hali yakpwe ya kpweli, kpwa sababu atu a aina-aina anafanana kpwa ndze."
   },
   {
     "id": "p-263",
@@ -12890,9 +13402,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uonevu wa pamoja hauwezi kumweka mtu chini"
+    "literal_sw": "Uonevu wa pamoja hauwezi kumweka mtu chini",
+    "idiomatic_dg": "Atu achimkera mutu osi kpwa pamoja, hata mutu hodari andashindwa na kuuka."
   },
   {
     "id": "p-264",
@@ -12940,9 +13454,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Nimle nani' si sawa na 'nile nini'"
+    "literal_sw": "'Nimle nani' si sawa na 'nile nini'",
+    "idiomatic_dg": "Kukosa mutu wa kushirikiana naye ni tofauti na kukosa chakurya, mambo osi gakutesa ela kpwa njira tofauti."
   },
   {
     "id": "p-265",
@@ -12991,9 +13507,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wivu/husuda unamfaa mtu tasa"
+    "literal_sw": "Wivu/husuda unamfaa mtu tasa",
+    "idiomatic_dg": "Mutu asiye nacho atu anjine anacho, anakala na wivu kpwa tabiya."
   },
   {
     "id": "p-266",
@@ -13042,9 +13560,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Tembo hauawi kwa bua la mahindi kavu"
+    "literal_sw": "Tembo hauawi kwa bua la mahindi kavu",
+    "idiomatic_dg": "Kuweza kumshinda adui mkpwulu kpwa silaha dide ni chitu chisichowezekana."
   },
   {
     "id": "p-267",
@@ -13091,9 +13611,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Tembo hashindwi na mkonga wake"
+    "literal_sw": "Tembo hashindwi na mkonga wake",
+    "idiomatic_dg": "Mutu mkpwulu kashindwa ni atu ario chini yakpwe, kpwa sababu ye ndiyo anayeaongoza."
   },
   {
     "id": "p-268",
@@ -13140,9 +13662,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kuchukua 'Ng'andu' ni kwenda"
+    "literal_sw": "Kuchukua 'Ng'andu' ni kwenda",
+    "idiomatic_dg": "Kuhala chitu bila ya kuomba ruhusa ni sawa-sawa na kuiya."
   },
   {
     "id": "p-269",
@@ -13190,9 +13714,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ng'ombe anauawa na kidole cha mwenyewe"
+    "literal_sw": "Ng'ombe anauawa na kidole cha mwenyewe",
+    "idiomatic_dg": "Mutu mwenye mamlaka ndiyo anayeamua hatima ya atu ario chini yakpwe."
   },
   {
     "id": "p-270",
@@ -13239,9 +13765,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ng'ombe mkali ana mkamuzi wake mwenyewe"
+    "literal_sw": "Ng'ombe mkali ana mkamuzi wake mwenyewe",
+    "idiomatic_dg": "Hata mutu mgumu zaidi ana mutu amanyaye jinsi ya kumushughulikia na kumuhurumisha."
   },
   {
     "id": "p-271",
@@ -13292,9 +13820,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kondoo akipiga hatua nyuma, si kukimbia vita, bali ni kufikiri mashambulizi"
+    "literal_sw": "Kondoo akipiga hatua nyuma, si kukimbia vita, bali ni kufikiri mashambulizi",
+    "idiomatic_dg": "Usidanganywe ni adui achikuonyesa nyuma, anaweza kukala anaaza njira ya kukupiga zaidi."
   },
   {
     "id": "p-272",
@@ -13341,9 +13871,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Kondoo anatazama nyuma"
+    "literal_sw": "Kondoo anatazama nyuma",
+    "idiomatic_dg": "Mutu mwenye hekima anaangaliya mambo garigophiya na kunadzifundza kpwa go."
   },
   {
     "id": "p-273",
@@ -13390,9 +13922,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakimu ni mguu"
+    "literal_sw": "Hakimu ni mguu",
+    "idiomatic_dg": "Mutu ni lazima ahende juhudi kpwandza ndipho aphahe malipo, kpwa sababu kuika tu hakupha chitu."
   },
   {
     "id": "p-274",
@@ -13439,9 +13973,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nguvu za maji ni mawe"
+    "literal_sw": "Nguvu za maji ni mawe",
+    "idiomatic_dg": "Nguvu za mutu zinaonekana kpweli-kpweli achikutana na vizuizi [?] na upinzani [?]."
   },
   {
     "id": "p-275",
@@ -13488,9 +14024,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Njia mbili zinamshinda fisi"
+    "literal_sw": "Njia mbili zinamshinda fisi",
+    "idiomatic_dg": "Mutu achisita kahi ya njira mbiri andashindwa zosi, ni bora kuchagula mwenga na kuiishira."
   },
   {
     "id": "p-276",
@@ -13537,9 +14075,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Nile nini?' si sawa na 'nile na nini?'"
+    "literal_sw": "'Nile nini?' si sawa na 'nile na nini?'",
+    "idiomatic_dg": "Kukala na chakurya ela ukakosa mutu wa kurya naye ni tofauti na kukosa chakurya kabisa."
   },
   {
     "id": "p-277",
@@ -13590,9 +14130,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyani akipiga magoti kawaida mbwa yuko mbali Nyasi zina mimba, usiseme yote"
+    "literal_sw": "Nyani akipiga magoti kawaida mbwa yuko mbali Nyasi zina mimba, usiseme yote",
+    "idiomatic_dg": "Diya ikakala kure, nyani andahenda anavyohenda; na uwe makini ugombapho kpwa wazi kpwa sababu atu anaweza kukala anaphikira."
   },
   {
     "id": "p-279",
@@ -13638,9 +14180,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyasi zina mimba"
+    "literal_sw": "Nyasi zina mimba",
+    "idiomatic_dg": "Ukale makini unavyogomba hata phatu phanaonekana pha fwitsi, kpwa sababu mutu anaweza kukala anaphikira."
   },
   {
     "id": "p-280",
@@ -13686,9 +14230,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Kidoledole' ni ugonjwa"
+    "literal_sw": "'Kidoledole' ni ugonjwa",
+    "idiomatic_dg": "Usipuuze ukongo mudide, kpwa sababu unaweza kukala mkpwulu na kukuolaga."
   },
   {
     "id": "p-281",
@@ -13738,9 +14284,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyoka akifa mjusi mwenye mkia mwekundu anauma watu"
+    "literal_sw": "Nyoka akifa mjusi mwenye mkia mwekundu anauma watu",
+    "idiomatic_dg": "Atu enye nguvu achikpwenda, anyonge ndiyo anaoandza kudziona na kudzikarya."
   },
   {
     "id": "p-282",
@@ -13786,9 +14334,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mambo ya ana kwa ana ni ya kukutana (uso kwa uso)"
+    "literal_sw": "Mambo ya ana kwa ana ni ya kukutana (uso kwa uso)",
+    "idiomatic_dg": "Kondo ni ya kuonana uso kpwa uso, si ya kupishana na nyuma."
   },
   {
     "id": "p-283",
@@ -13840,9 +14390,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba aliyofia mtu usisikilize waombolezaji wake"
+    "literal_sw": "Nyumba aliyofia mtu usisikilize waombolezaji wake",
+    "idiomatic_dg": "Usiamini chila chinachogombwa nyumbani ya msiba, kpwa sababu atu a chiriro anagomba mambo manji gasigo ga kpweli."
   },
   {
     "id": "p-284",
@@ -13890,9 +14442,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba ni matatizo, imejengwa kwa vipande vingi"
+    "literal_sw": "Nyumba ni matatizo, imejengwa kwa vipande vingi",
+    "idiomatic_dg": "Chila nyumba ina shida zakpwe, kana nyumba isiyokala na kunga."
   },
   {
     "id": "p-285",
@@ -13939,9 +14493,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba ni pembe nne"
+    "literal_sw": "Nyumba ni pembe nne",
+    "idiomatic_dg": "Nyumba nono inahitaji msingi imara na usawa uphande wosi."
   },
   {
     "id": "p-286",
@@ -13990,9 +14546,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mnyama pekee ndiye alalaye nyumba ya mnyama"
+    "literal_sw": "Mnyama pekee ndiye alalaye nyumba ya mnyama",
+    "idiomatic_dg": "Atu a aina mwenga tu ndiyo anavyoweza kuishi phamwenga na kuvumiriana."
   },
   {
     "id": "p-287",
@@ -14040,9 +14598,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nyumba ya mtu peke yake hakuna maombolezo"
+    "literal_sw": "Nyumba ya mtu peke yake hakuna maombolezo",
+    "idiomatic_dg": "Mutu aishiye mwenye kandakala na mutu wa kumurira achifwa, kpwa hivyo usiishi upweke."
   },
   {
     "id": "p-288",
@@ -14088,9 +14648,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Oho!' haivunji mshipa"
+    "literal_sw": "'Oho!' haivunji mshipa",
+    "idiomatic_dg": "Maneno tu tagavundza mutu, kpwa hivyo usikale na wasiwasi wa maneno ga atu."
   },
   {
     "id": "p-289",
@@ -14138,9 +14700,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Pepo dhaifu anachezewe pembeni"
+    "literal_sw": "Pepo dhaifu anachezewe pembeni",
+    "idiomatic_dg": "Mutu mnyonge kana anayemuheshimu wala kumuchukuliya kpwa uzito."
   },
   {
     "id": "p-290",
@@ -14188,9 +14752,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Pesa ni (kama) uchi, hazionyeshwi"
+    "literal_sw": "Pesa ni (kama) uchi, hazionyeshwi",
+    "idiomatic_dg": "Usionyese atu mali yako, fwitsa pesa zako kpwa sababu ni siri yako."
   },
   {
     "id": "p-291",
@@ -14239,9 +14805,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mahali unavyovuna ndipo unapokula"
+    "literal_sw": "Mahali unavyovuna ndipo unapokula",
+    "idiomatic_dg": "Mutu anavuna phatu aripholima, baraka zinakudza kpwa phatu uriphoika juhudi."
   },
   {
     "id": "p-292",
@@ -14292,9 +14860,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Palipo na moshi hapakosi ndege 'rongwe' Kichaka kikiteketea ndege huyu anakusanyika kula"
+    "literal_sw": "Palipo na moshi hapakosi ndege 'rongwe' Kichaka kikiteketea ndege huyu anakusanyika kula",
+    "idiomatic_dg": "Phatu phenye shughuli, ndipho atu aendako kutafuta mafaidha gao."
   },
   {
     "id": "p-293",
@@ -14342,9 +14912,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Palipo na tai pana mzoga"
+    "literal_sw": "Palipo na tai pana mzoga",
+    "idiomatic_dg": "Dalili za konze zinaonyesha ukpweli wa ndani ambao taufwa kupuuzwa."
   },
   {
     "id": "p-294",
@@ -14391,9 +14963,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Palipo na utelezi usijisifu"
+    "literal_sw": "Palipo na utelezi usijisifu",
+    "idiomatic_dg": "Usidzeenge uchere phatu pha hatari, mana unaweza kugbwa wakati wowosi."
   },
   {
     "id": "p-295",
@@ -14441,9 +15015,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Pasipo na mlima usifanye mlima"
+    "literal_sw": "Pasipo na mlima usifanye mlima",
+    "idiomatic_dg": "Usihende tatizo kulu kula kpwa dzambo ambaro tarikuko."
   },
   {
     "id": "p-296",
@@ -14491,9 +15067,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mahali penye wazee hapasumbuliwi na mambo"
+    "literal_sw": "Mahali penye wazee hapasumbuliwi na mambo",
+    "idiomatic_dg": "Avyere achikala phatu, takuna tatizo ambaro tariweza kutatsulwa."
   },
   {
     "id": "p-297",
@@ -14543,9 +15121,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Penye moshi hapakosi moto"
+    "literal_sw": "Penye moshi hapakosi moto",
+    "idiomatic_dg": "Chila dalili ina chanzo chakpwe; takuna uvumi bila ukpweli nyuma yakpwe."
   },
   {
     "id": "p-298",
@@ -14594,9 +15174,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Leo ni macho, kesho ni macho makubwa zaidi"
+    "literal_sw": "Leo ni macho, kesho ni macho makubwa zaidi",
+    "idiomatic_dg": "Sikira onyo ra rero, au machero undakabiriwa ni mambo makulu zaidi."
   },
   {
     "id": "p-299",
@@ -14645,9 +15227,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ikifa vizuri (jongoo) inaonekana kama mvua"
+    "literal_sw": "Ikifa vizuri (jongoo) inaonekana kama mvua",
+    "idiomatic_dg": "Dzambo richisuluhishwa vizuri, taphana haja ya kurihangaikira tsona."
   },
   {
     "id": "p-300",
@@ -14694,9 +15278,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Roho ilidanganya bwana wake"
+    "literal_sw": "Roho ilidanganya bwana wake",
+    "idiomatic_dg": "Wakati munjina tamaa zako mwenye zinakupoteza na kukuhendesa maamuzi mabaya."
   },
   {
     "id": "p-301",
@@ -14744,9 +15330,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Safari ya kesho inafungwa leo"
+    "literal_sw": "Safari ya kesho inafungwa leo",
+    "idiomatic_dg": "Tayarisha rero kpwa mambo ga machero, usikpwedze ni wakati kudzitayarisha."
   },
   {
     "id": "p-302",
@@ -14797,9 +15385,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Sikio lililokufa halisikii dawa"
+    "literal_sw": "Sikio lililokufa halisikii dawa",
+    "idiomatic_dg": "Mutu anayekatala kusikiriza ushauri kaweza kusaidiywa ni mutu yeyosi."
   },
   {
     "id": "p-303",
@@ -14846,9 +15436,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Sikio halipiti kichwa"
+    "literal_sw": "Sikio halipiti kichwa",
+    "idiomatic_dg": "Mwana kandatsupa ise; mdide ni lazima aishimu mkulu."
   },
   {
     "id": "p-304",
@@ -14898,9 +15490,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Simba anayetembea pole ndiye anayekula nyama."
+    "literal_sw": "Simba anayetembea pole ndiye anayekula nyama.",
+    "idiomatic_dg": "Mutu ahendaye kazi kpwa utulivu ndiye anayefanikiwa kuriko mwenye kudzenga."
   },
   {
     "id": "p-305",
@@ -14946,9 +15540,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Shingo ya kuku inavunjwa na kamba"
+    "literal_sw": "Shingo ya kuku inavunjwa na kamba",
+    "idiomatic_dg": "Hata chitu chidide chinaweza kumshinda mutu mwenye unyonje uriofisirwa."
   },
   {
     "id": "p-306",
@@ -14996,9 +15592,11 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "swahili": "original",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna dawa ya tabia"
+    "literal_sw": "Hakuna dawa ya tabia",
+    "idiomatic_dg": "Tabiya ya mutu taibadilika kpwa dawa yoyosi; mutu arivyo ndivyo arizo."
   },
   {
     "id": "p-307",
@@ -15048,9 +15646,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna mtu mdogo asiye na ukoo wake."
+    "literal_sw": "Hakuna mtu mdogo asiye na ukoo wake.",
+    "idiomatic_dg": "Chila mutu, hata mdide kiasi gani, ana ukoo na atu akpwe."
   },
   {
     "id": "p-308",
@@ -15097,9 +15697,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna soko lisilo na miadi"
+    "literal_sw": "Hakuna soko lisilo na miadi",
+    "idiomatic_dg": "Chila dzambo ni lazima ripangbwe mapema ili rifanikiwe."
   },
   {
     "id": "p-309",
@@ -15149,9 +15751,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna kanga mzee na moto"
+    "literal_sw": "Hakuna kanga mzee na moto",
+    "idiomatic_dg": "Hata mutu mvyere anaweza kuhenda makosa dza mutu mdide achikala hajali."
   },
   {
     "id": "p-310",
@@ -15198,9 +15802,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna utani wa koo"
+    "literal_sw": "Hakuna utani wa koo",
+    "idiomatic_dg": "Mutu achikushitaki kpwa umiro, manya kala hana machani — ana nia ya kpweli."
   },
   {
     "id": "p-311",
@@ -15246,9 +15852,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna anayezeeka safarini"
+    "literal_sw": "Hakuna anayezeeka safarini",
+    "idiomatic_dg": "Mlungu andakuruzuku poposi uendapho; tausakale safarini."
   },
   {
     "id": "p-312",
@@ -15297,9 +15905,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna mtu mrefu kiasi cha kulala vitanda viwili"
+    "literal_sw": "Hakuna mtu mrefu kiasi cha kulala vitanda viwili",
+    "idiomatic_dg": "Hata mutu mkulu kiasi gani, mahitaji gakpwe tagatsupa ga mutu yeyosi munjina."
   },
   {
     "id": "p-313",
@@ -15349,9 +15959,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Haviwezi kutwangwa kama mchi haujakaa wima"
+    "literal_sw": "Haviwezi kutwangwa kama mchi haujakaa wima",
+    "idiomatic_dg": "Mashtaka ga uongo ganaweza kudzithibitisha kpwa wakati, kpwa sababu mutsi wa kupondwa kala ushashimamishwa."
   },
   {
     "id": "p-314",
@@ -15400,9 +16012,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hakuna ndani, hakuna ndani maana yake vimo ndani"
+    "literal_sw": "Hakuna ndani, hakuna ndani maana yake vimo ndani",
+    "idiomatic_dg": "Mutu anayeshindilia kukala takuna chirichofisirwa, mara nyinji ndiye mwenye kufisira."
   },
   {
     "id": "p-315",
@@ -15449,9 +16063,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wingi hauchunguliwi"
+    "literal_sw": "Wingi hauchunguliwi",
+    "idiomatic_dg": "Utajiri wa kpweli tautsungurirwa wala kuthibitishwa — unaonekana wazi."
   },
   {
     "id": "p-316",
@@ -15497,9 +16113,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Anayeshika) tumboni ndiye anayekula"
+    "literal_sw": "(Anayeshika) tumboni ndiye anayekula",
+    "idiomatic_dg": "Mutu ahendaye kazi kpwa kpweli ndiye anayestahili kuphaha malipo."
   },
   {
     "id": "p-317",
@@ -15547,9 +16165,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mchango wa Mdigo ni fitina"
+    "literal_sw": "Mchango wa Mdigo ni fitina",
+    "idiomatic_dg": "Adigo anji anadzisengenyeza kpwa faidha yao enye badala ya kusaidirana."
   },
   {
     "id": "p-318",
@@ -15595,9 +16215,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uchokozi wenu (kwa kila mmoja), mtang'oana macho"
+    "literal_sw": "Uchokozi wenu (kwa kila mmoja), mtang'oana macho",
+    "idiomatic_dg": "Uchiendelea kutsokozana, mwisho lungo rindakula hadi risiweze kutatsulwa."
   },
   {
     "id": "p-319",
@@ -15643,9 +16265,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uchokozi wenu, mtachokoza garege (kiumbe hatari)"
+    "literal_sw": "Uchokozi wenu, mtachokoza garege (kiumbe hatari)",
+    "idiomatic_dg": "Uchiendelea kutsokola bila kujali, mwisho undaamsha chitu chenye nguvu zaidi ya uwezo wako."
   },
   {
     "id": "p-320",
@@ -15694,9 +16318,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Hasira ya pweza ni furaha ya mvuvi"
+    "literal_sw": "Hasira ya pweza ni furaha ya mvuvi",
+    "idiomatic_dg": "Tsukizi za mutu mmwenga zinaweza kumfaidisha adui wakpwe."
   },
   {
     "id": "p-321",
@@ -15743,9 +16369,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Tumbaku mbaya huanza kwenye shina"
+    "literal_sw": "Tumbaku mbaya huanza kwenye shina",
+    "idiomatic_dg": "Matokeo mabaya ganaandza mwandzo mubaya; kasoro ya mzizi ndiyo inayoharibu yosi."
   },
   {
     "id": "p-322",
@@ -15791,9 +16419,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Asili ni (kutoka) Mwabajiro"
+    "literal_sw": "Asili ni (kutoka) Mwabajiro",
+    "idiomatic_dg": "Chila dzambo rina chanzo chakpwe ambacho chinajulikana na tachiweza kufisirwa."
   },
   {
     "id": "p-323",
@@ -15841,9 +16471,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukificha ugonjwa utasemwa kwenye maombolezo"
+    "literal_sw": "Ukificha ugonjwa utasemwa kwenye maombolezo",
+    "idiomatic_dg": "Tatizo uchirifwitsa rindakula hadi riksemwe kpwa chiriro badala ya dawa."
   },
   {
     "id": "p-324",
@@ -15889,9 +16521,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukimlea kanga kupitia kiu, utakula maembe mbivu"
+    "literal_sw": "Ukimlea kanga kupitia kiu, utakula maembe mbivu",
+    "idiomatic_dg": "Kuvumirira kpwa kurera kpwa nyakati ngumu kunareha matunda manono hatimaye."
   },
   {
     "id": "p-325",
@@ -15937,9 +16571,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukishughulika na mwerevu, mwache ajitoe mwenyewe"
+    "literal_sw": "Ukishughulika na mwerevu, mwache ajitoe mwenyewe",
+    "idiomatic_dg": "Mutu mwerevu mriche aondze matatizo gakpwe mwenye; kahitaji msada wako."
   },
   {
     "id": "p-326",
@@ -15988,9 +16624,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukikosa zizini/boma, isubiri sufuriani"
+    "literal_sw": "Ukikosa zizini/boma, isubiri sufuriani",
+    "idiomatic_dg": "Uchikosa nafasi rero, godza kpwa uvumirivu mana indakpwedza kpwa njira yanjina."
   },
   {
     "id": "p-327",
@@ -16037,9 +16675,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukifuata ngoma, cheza ngoma"
+    "literal_sw": "Ukifuata ngoma, cheza ngoma",
+    "idiomatic_dg": "Dzambo urirokpwedza kuhenda, rihende kpwa moyo wako wosi bila kusumbuliwa ni ganjina."
   },
   {
     "id": "p-328",
@@ -16086,9 +16726,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukijua hiki, rafiki yako anajua kile"
+    "literal_sw": "Ukijua hiki, rafiki yako anajua kile",
+    "idiomatic_dg": "Takuna mutu anayemanya chila chitu; chila mutu ana umanyi wakpwe ambao munjina kana."
   },
   {
     "id": "p-329",
@@ -16136,9 +16778,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Unapokwenda windoni usichague mnyama"
+    "literal_sw": "Unapokwenda windoni usichague mnyama",
+    "idiomatic_dg": "Uchiphiya kpwa shughuli, hala fursa yoyosi indayokpwedza bila kutsambula sana."
   },
   {
     "id": "p-330",
@@ -16184,9 +16828,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukila kuku wa jirani (wako), manyoya yatakuja kwako"
+    "literal_sw": "Ukila kuku wa jirani (wako), manyoya yatakuja kwako",
+    "idiomatic_dg": "Uchimuhendere vibaya myao, ushahidi undafuatirwa hadi kpwako mwenye."
   },
   {
     "id": "p-331",
@@ -16237,9 +16883,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Unapokula na kipofu, usimshike mkono Unapokula, kula hadi ushibe, bakisha kwa kesho"
+    "literal_sw": "Unapokula na kipofu, usimshike mkono Unapokula, kula hadi ushibe, bakisha kwa kesho",
+    "idiomatic_dg": "Usimuhendere vibaya mutu asiyeona, na urye kpwa kiasi — ubakize cha machero."
   },
   {
     "id": "p-333",
@@ -16289,9 +16937,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukitaka kitu kutoka chini ya kitu lazima uiname"
+    "literal_sw": "Ukitaka kitu kutoka chini ya kitu lazima uiname",
+    "idiomatic_dg": "Uchilonda chitu chenye thamani, ni lazima udzinyenyekeze kuphaha."
   },
   {
     "id": "p-334",
@@ -16342,9 +16992,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukicheka dalili za kwanza za ukoma utakuwa na ukoma"
+    "literal_sw": "Ukicheka dalili za kwanza za ukoma utakuwa na ukoma",
+    "idiomatic_dg": "Dalili za mwandzo za ukongo uchizipuza, zindakukpwedzera mambo makulu zaidi."
   },
   {
     "id": "p-335",
@@ -16392,9 +17044,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukuu wa ndege huja na kwenda"
+    "literal_sw": "Ukuu wa ndege huja na kwenda",
+    "idiomatic_dg": "Ukulu na umaarufu tawidumu; hukpwedza na kuphiya dza mlamba."
   },
   {
     "id": "p-336",
@@ -16441,9 +17095,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Upinde umekaza, uzi umekaza"
+    "literal_sw": "Upinde umekaza, uzi umekaza",
+    "idiomatic_dg": "Vitu vyosi vichitayarishwa vizuri, matokeo gandakala manono."
   },
   {
     "id": "p-337",
@@ -16495,9 +17151,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ujinga unazaa, werevu hauzai"
+    "literal_sw": "Ujinga unazaa, werevu hauzai",
+    "idiomatic_dg": "Mutu mnyenyekevu hufanikiwa kuriko mwerevu anayedzihendera upweke kpwa ujanja wakpwe."
   },
   {
     "id": "p-338",
@@ -16547,9 +17205,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ulidanganywa na giza, ukakojoa uani"
+    "literal_sw": "Ulidanganywa na giza, ukakojoa uani",
+    "idiomatic_dg": "Usidhani giza rindakufwitsa; makosa gako gandamanyikana ni atu."
   },
   {
     "id": "p-339",
@@ -16597,9 +17257,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ulilala motoni ukachoma nywele za siri"
+    "literal_sw": "Ulilala motoni ukachoma nywele za siri",
+    "idiomatic_dg": "Tabiya ya hovyo kpwa mazingira ga hatari inareha matokeo genye utsungu."
   },
   {
     "id": "p-340",
@@ -16645,9 +17307,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye kelele hauui"
+    "literal_sw": "Mwenye kelele hauui",
+    "idiomatic_dg": "Mutu ahendaye hoyo sana katafanikiwa; utulivu ndio una nguvu."
   },
   {
     "id": "p-341",
@@ -16694,9 +17358,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mkaidi hauui"
+    "literal_sw": "Mkaidi hauui",
+    "idiomatic_dg": "Mutu mkaidi asiphoshirikiana na ayae katafanikiwa kpwa dzambo rorosi."
   },
   {
     "id": "p-342",
@@ -16743,9 +17409,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye nyoka ni asubuhi"
+    "literal_sw": "Mwenye nyoka ni asubuhi",
+    "idiomatic_dg": "Uchilonda kuhenda dzambo, andza mapema mana ligundzu ndipho wakati bora."
   },
   {
     "id": "p-343",
@@ -16793,9 +17461,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ugonjwa unaongezeka usiku"
+    "literal_sw": "Ugonjwa unaongezeka usiku",
+    "idiomatic_dg": "Mateso na ukongo nkuzidi usiku mutu achikala peke yakpwe kpwa gizani."
   },
   {
     "id": "p-344",
@@ -16844,9 +17514,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukweli wa mtoto ni usumbufu"
+    "literal_sw": "Ukweli wa mtoto ni usumbufu",
+    "idiomatic_dg": "Maneno ga anache taasikirwa ni avyere mana kpwao taphana ikima ya muhimu."
   },
   {
     "id": "p-345",
@@ -16892,9 +17564,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Jua watu wako, (nawe utajua) unapokwenda"
+    "literal_sw": "Jua watu wako, (nawe utajua) unapokwenda",
+    "idiomatic_dg": "Manya asili yako na atu ako, ili uweze kuelewa uphiyako maishani."
   },
   {
     "id": "p-346",
@@ -16940,9 +17614,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "(Yule) unayesema ni yeye, si yeye"
+    "literal_sw": "(Yule) unayesema ni yeye, si yeye",
+    "idiomatic_dg": "Mutu unaiyemdhania taakala unavyomfikira; usihukumu kpwa sura au uvumi."
   },
   {
     "id": "p-347",
@@ -16991,9 +17667,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Utapitaje mahali penye mbwa za Tiwi?"
+    "literal_sw": "Utapitaje mahali penye mbwa za Tiwi?",
+    "idiomatic_dg": "Vikpwazo vinjina ni vikulu sana hata usiweze kuvishinda peke yako."
   },
   {
     "id": "p-348",
@@ -17039,9 +17717,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wingi ni mchi"
+    "literal_sw": "Wingi ni mchi",
+    "idiomatic_dg": "Unji ni nguvu; atu anji achikala phamwenga taashindika."
   },
   {
     "id": "p-349",
@@ -17093,9 +17773,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usidharau ngoma ya ngorowa, kwa sababu ndiyo ngoma (ya kweli)"
+    "literal_sw": "Usidharau ngoma ya ngorowa, kwa sababu ndiyo ngoma (ya kweli)",
+    "idiomatic_dg": "Usidharau chako hata chikale cha kawaida, mana ni chako cha kpweli."
   },
   {
     "id": "p-350",
@@ -17143,9 +17825,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usinunue makopa na kucheza"
+    "literal_sw": "Usinunue makopa na kucheza",
+    "idiomatic_dg": "Usifurahi kabila hudzamanya ichikala matokeo ni manono kpwa kpweli."
   },
   {
     "id": "p-351",
@@ -17195,9 +17879,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usiuze vya kapuni wakati bado una marundo (ya mboga)"
+    "literal_sw": "Usiuze vya kapuni wakati bado una marundo (ya mboga)",
+    "idiomatic_dg": "Marizira dzambo uriho naro mwandzo, kisha ukashughulikie mambo ganjina."
   },
   {
     "id": "p-352",
@@ -17245,9 +17931,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usiwe kama anayeomba kondoo"
+    "literal_sw": "Usiwe kama anayeomba kondoo",
+    "idiomatic_dg": "Uchilonda chitu, chivoye moja kpwa moja; uchizungukazunguka undaikosa nafasi."
   },
   {
     "id": "p-353",
@@ -17295,9 +17983,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Nguo hazishonwi gizani usiku"
+    "literal_sw": "Nguo hazishonwi gizani usiku",
+    "idiomatic_dg": "Tawezi kuhenda kazi nzuri bila mazingira ganagofaa; godza wakati ufwahao."
   },
   {
     "id": "p-354",
@@ -17347,9 +18037,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usidharau harufu mbaya, ukiichoma ni mboga"
+    "literal_sw": "Usidharau harufu mbaya, ukiichoma ni mboga",
+    "idiomatic_dg": "Usihukumu chitu kpwa kuonekana kpwakpwe; chinaweza kukala chenye thamani ndani."
   },
   {
     "id": "p-355",
@@ -17399,9 +18091,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Usicheze na magonjwa ya ngozi, yakipasuka yanakuwa ukoma"
+    "literal_sw": "Usicheze na magonjwa ya ngozi, yakipasuka yanakuwa ukoma",
+    "idiomatic_dg": "Usipuze magonjwa madide; gachipuuzwa ganaweza kukala makulu na ga hatari."
   },
   {
     "id": "p-356",
@@ -17451,9 +18145,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mahali unapopita pole ndipo siku za usoni utakapopita ukikimbia"
+    "literal_sw": "Mahali unapopita pole ndipo siku za usoni utakapopita ukikimbia",
+    "idiomatic_dg": "Phatu uphatsapapho pore ukilonda msada, ndipho undaphatsapa mairo uchilonda kuripha."
   },
   {
     "id": "p-357",
@@ -17501,9 +18197,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ukicheka ugonjwa wa ngozi utapata ukoma"
+    "literal_sw": "Ukicheka ugonjwa wa ngozi utapata ukoma",
+    "idiomatic_dg": "Usitsekere msiba wa munjina, mana dzambo baya zaidi rinaweza kukutimukira uwe mwenye."
   },
   {
     "id": "p-358",
@@ -17553,9 +18251,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Umma ni (kama) mchi, haupindiki Huwezi kudhibiti umma"
+    "literal_sw": "Umma ni (kama) mchi, haupindiki Huwezi kudhibiti umma",
+    "idiomatic_dg": "Maoni ga atu anji ni imara dza mutsi; tagapindika kpwa mutu yeyosi."
   },
   {
     "id": "p-359",
@@ -17606,9 +18306,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uchungu wa mtoto unajulikana na mzazi (aliyemzaa)"
+    "literal_sw": "Uchungu wa mtoto unajulikana na mzazi (aliyemzaa)",
+    "idiomatic_dg": "Ni mvyazi peke yakpwe anayemanya kpwa kpweli utsungu wa mwanae."
   },
   {
     "id": "p-360",
@@ -17654,9 +18356,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Unapozaliwa hakuna kuchagua"
+    "literal_sw": "Unapozaliwa hakuna kuchagua",
+    "idiomatic_dg": "Takuna mutu anayerikula phatu au mazingira ga kuvyalwa kpwakpwe; kubali urivyo."
   },
   {
     "id": "p-361",
@@ -17702,9 +18406,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Unavyozaliwa si unavyozeeka"
+    "literal_sw": "Unavyozaliwa si unavyozeeka",
+    "idiomatic_dg": "Maisha ganakubadilisha; unavyovyalwa si unavyotsaparisha maisha."
   },
   {
     "id": "p-362",
@@ -17749,9 +18455,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uzee ni jaa"
+    "literal_sw": "Uzee ni jaa",
+    "idiomatic_dg": "Uvyere unakulethera mambo manono na mabaya gosi — ni lazima ugaphokerere gosi."
   },
   {
     "id": "p-363",
@@ -17796,9 +18504,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uzee unachosha"
+    "literal_sw": "Uzee unachosha",
+    "idiomatic_dg": "Uvyere ni mzigo mzito; mwiri unaphodhoofika chila kazi inakala ndzito."
   },
   {
     "id": "p-364",
@@ -17847,9 +18557,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Fukuzeni wanaokula mahindi"
+    "literal_sw": "Fukuzeni wanaokula mahindi",
+    "idiomatic_dg": "Shughulikia tatizo riro mbere yako kpwandzo kabila hudzashughulika ni ganjina."
   },
   {
     "id": "p-365",
@@ -17895,9 +18607,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vitu vinavyoonekana (vikija) haviui"
+    "literal_sw": "Vitu vinavyoonekana (vikija) haviui",
+    "idiomatic_dg": "Hatari unayoiona haikuolage; ni iriyofisirwa ndiyo inayoangamiza."
   },
   {
     "id": "p-366",
@@ -17945,9 +18659,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Uzuri unakula mti wa matunda"
+    "literal_sw": "Uzuri unakula mti wa matunda",
+    "idiomatic_dg": "Wema wa mutu unaweza kumuharibu mwenye, mana atu andamtumira hadi aishiwe."
   },
   {
     "id": "p-367",
@@ -17997,9 +18713,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vitu vizuri vinapita kwenye chuo cha maskini"
+    "literal_sw": "Vitu vizuri vinapita kwenye chuo cha maskini",
+    "idiomatic_dg": "Vinono mara nyinji vinapishira achiya bila kuanufaisha; tabiya isiyo na haki."
   },
   {
     "id": "p-368",
@@ -18045,9 +18763,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Vuta vuta inaleta mkato"
+    "literal_sw": "Vuta vuta inaleta mkato",
+    "idiomatic_dg": "Mvwehano wa kpwenderera kahi ya atu unareha uharibifu kpwa pande zosi."
   },
   {
     "id": "p-369",
@@ -18096,9 +18816,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mbele ya goti halisalimii nyuma ya goti, na nyuma ya goti halisalimii mbele ya goti"
+    "literal_sw": "Mbele ya goti halisalimii nyuma ya goti, na nyuma ya goti halisalimii mbele ya goti",
+    "idiomatic_dg": "Vitu vinjina viko phephi sana ela taviweza kukutana wala kuelewana kamwe."
   },
   {
     "id": "p-370",
@@ -18145,9 +18867,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtoto mtundu ni mtundu wako"
+    "literal_sw": "Mtoto mtundu ni mtundu wako",
+    "idiomatic_dg": "Hata mwana akale vyoni, bado ni wako na ni lazima umkubali."
   },
   {
     "id": "p-371",
@@ -18194,9 +18918,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye jicho haangaliziwi taa"
+    "literal_sw": "Mwenye jicho haangaliziwi taa",
+    "idiomatic_dg": "Mutu mwenye ufahamu kahitaji kuonyeshwa njira; anaona mwenye."
   },
   {
     "id": "p-372",
@@ -18243,9 +18969,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwendawazimu hafukuzwi uchi"
+    "literal_sw": "Mwendawazimu hafukuzwi uchi",
+    "idiomatic_dg": "Usihendere dza mutu wa koma uchimshughulika; rinda heshima yako mwenye."
   },
   {
     "id": "p-373",
@@ -18291,9 +19019,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwendawazimu ni wako"
+    "literal_sw": "Mwendawazimu ni wako",
+    "idiomatic_dg": "Hata mutu wa mbari yako achikala na koma, bado ni wako na jukumu rako."
   },
   {
     "id": "p-374",
@@ -18340,9 +19070,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye tamaa kubwa haivi"
+    "literal_sw": "Mwenye tamaa kubwa haivi",
+    "idiomatic_dg": "Mutu wa kpwiru sana anaharibu matokeo gakpwe mwenye kpwa kukosa kuvumirira."
   },
   {
     "id": "p-375",
@@ -18392,9 +19124,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mtu anayenuka hajijui mwenyewe"
+    "literal_sw": "Mtu anayenuka hajijui mwenyewe",
+    "idiomatic_dg": "Mutu kadzimanya makosa gakpwe mwenye; ni atu anjina ndiyo anaogaona."
   },
   {
     "id": "p-376",
@@ -18443,9 +19177,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye tamaa ya mwili haambiwa ainame"
+    "literal_sw": "Mwenye tamaa ya mwili haambiwa ainame",
+    "idiomatic_dg": "Mutu ariye tayari kahitaji kushawishiwa; anahendesa mwenye bila kuambwa."
   },
   {
     "id": "p-377",
@@ -18493,9 +19229,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye mapendo (meno yaliyoisha) hawezi kuwasha moto"
+    "literal_sw": "Mwenye mapendo (meno yaliyoisha) hawezi kuwasha moto",
+    "idiomatic_dg": "Usiphokala na vifaa vya kufwaha, hata kazi nyepesi nayo indakushinda."
   },
   {
     "id": "p-378",
@@ -18543,9 +19281,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Mwenye kitu kimoja hawezi kuibiwa viwili"
+    "literal_sw": "Mwenye kitu kimoja hawezi kuibiwa viwili",
+    "idiomatic_dg": "Tauweza kumuuywa mutu zaidi ya aricho nacho; usidai usichoweza kuphaha."
   },
   {
     "id": "p-379",
@@ -18595,9 +19335,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ulikuwa (kama) kanga yenye jicho moja inayofukua kwa (zile) zenye macho"
+    "literal_sw": "Ulikuwa (kama) kanga yenye jicho moja inayofukua kwa (zile) zenye macho",
+    "idiomatic_dg": "Mutu ahendaye kazi kpwa nguvu ela kaona vinono, faida yakpwe nkuphiya kpwa atu anjina."
   },
   {
     "id": "p-380",
@@ -18644,9 +19386,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Ulikula bombo, utalipa bombo"
+    "literal_sw": "Ulikula bombo, utalipa bombo",
+    "idiomatic_dg": "Uchitumira chitu vibaya, ni lazima uriphe bei yakpwe; takuna bure duniani."
   },
   {
     "id": "p-381",
@@ -18692,9 +19436,11 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Werevu hauli peke yake"
+    "literal_sw": "Werevu hauli peke yake",
+    "idiomatic_dg": "Ujanja peke yakpwe taukulethera riziki; ni lazima uhendere kazi kpwa mikono yako."
   },
   {
     "id": "p-382",
@@ -18742,9 +19488,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wimbo mbaya hautumiwi kumtuliza mtoto"
+    "literal_sw": "Wimbo mbaya hautumiwi kumtuliza mtoto",
+    "idiomatic_dg": "Ushawishi mubaya usikale phephi na anache; maisha gao ganaumbwa ni wanavyophokera uchere wadide."
   },
   {
     "id": "p-383",
@@ -18796,9 +19544,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Wivu ni kidonda, ukishiriki utadhoofika"
+    "literal_sw": "Wivu ni kidonda, ukishiriki utadhoofika",
+    "idiomatic_dg": "Wivu ni chironda; uchishiriki nacho chindakurya hadi uishe."
   },
   {
     "id": "p-385",
@@ -18846,9 +19596,11 @@
       "literal_en": "original",
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Yule ni mmoja, hawa ni wengi"
+    "literal_sw": "Yule ni mmoja, hawa ni wengi",
+    "idiomatic_dg": "Mwana mmwenga tu si wa kutosha; ana anji ndiyo usalama wa siku za mbere."
   },
   {
     "id": "p-386",
@@ -18897,9 +19649,11 @@
       "commentary_en": "ai-draft",
       "commentary_sw": "ai-draft",
       "commentary_dg": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "'Inachoma! Inachoma!' maana yake karibu imeiva"
+    "literal_sw": "'Inachoma! Inachoma!' maana yake karibu imeiva",
+    "idiomatic_dg": "Mambo gachikuonekana ganakuharibikira, inaweza kukala mafanikio gako ga phephi."
   },
   {
     "id": "p-387",
@@ -18945,8 +19699,10 @@
       "commentary_dg": "ai-draft",
       "idiomatic_en": "ai-draft",
       "literal_en": "ai-draft",
-      "literal_sw": "ai-draft"
+      "literal_sw": "ai-draft",
+      "idiomatic_dg": "ai-draft"
     },
-    "literal_sw": "Zungukazunguka (kama) chupa, panda (kama) chupa"
+    "literal_sw": "Zungukazunguka (kama) chupa, panda (kama) chupa",
+    "idiomatic_dg": "Matendo gako ganakufuata phophosi uendapho; tauweza kukimbira matokeo ga tabiya zako."
   }
 ]

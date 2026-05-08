@@ -11,6 +11,7 @@ export interface Proverb {
   literal_sw: string;
   idiomatic_en: string;
   idiomatic_sw: string;
+  idiomatic_dg: string;
   swahili: string;
   swahili_relationship: 'cognate' | 'parallel' | 'translation';
   commentary_en: string;

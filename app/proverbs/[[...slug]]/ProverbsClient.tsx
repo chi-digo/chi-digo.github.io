@@ -443,10 +443,16 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           );
         })()}
 
-        {/* Idiomatic meaning — English and Swahili only */}
-        {locale !== 'dig' && (() => {
-          const idiomaticText = locale === 'sw' ? proverb.idiomatic_sw : proverb.idiomatic_en;
-          const idiomaticField = locale === 'sw' ? 'idiomatic_sw' : 'idiomatic_en';
+        {/* Idiomatic meaning — all locales */}
+        {(() => {
+          const idiomaticText =
+            locale === 'sw' ? proverb.idiomatic_sw :
+            locale === 'dig' ? proverb.idiomatic_dg :
+            proverb.idiomatic_en;
+          const idiomaticField =
+            locale === 'sw' ? 'idiomatic_sw' :
+            locale === 'dig' ? 'idiomatic_dg' :
+            'idiomatic_en';
           const isAiDraft = proverb.field_sources?.[idiomaticField] === 'ai-draft';
           if (!idiomaticText) return null;
           return (

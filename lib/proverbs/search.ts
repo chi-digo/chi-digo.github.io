@@ -9,7 +9,10 @@ function normalize(text: string): string {
 }
 
 function matchesDigo(proverb: Proverb, query: string): boolean {
-  return normalize(proverb.digo).includes(query);
+  if (normalize(proverb.digo).includes(query)) return true;
+  if (normalize(proverb.idiomatic_dg).includes(query)) return true;
+  if (normalize(proverb.commentary_dg).includes(query)) return true;
+  return false;
 }
 
 function matchesEnglish(proverb: Proverb, query: string): boolean {
