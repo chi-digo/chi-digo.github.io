@@ -62,7 +62,7 @@ export function useShareCard() {
     setIsGenerating(true);
     try {
       const blob = await renderProverbCard(proverb, lang);
-      const url = `https://chidigo.org/proverbs/${encodeURIComponent(proverb.slug || proverb.digo)}`;
+      const url = `https://chidigo.org/language/proverbs/${encodeURIComponent(proverb.slug || proverb.digo)}`;
       const result = await shareImage(
         blob,
         'chidigo-proverb.png',
@@ -87,7 +87,7 @@ export function useShareCard() {
     setIsGenerating(true);
     try {
       const blob = await renderWordCard(entry, locale);
-      const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(entry.headword)}`;
+      const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
       const result = await shareImage(
         blob,
         `chidigo-${entry.headword}.png`,
