@@ -26,6 +26,7 @@ function getPageView(pathname: string): { journey: Journey; stage: string } | nu
   if (pathname.startsWith('/language/proverbs/theme/')) return { journey: 'proverbs', stage: 'theme' };
   if (pathname.startsWith('/language/proverbs/letter/')) return { journey: 'proverbs', stage: 'browse' };
   if (pathname.startsWith('/language/proverbs/p-')) return { journey: 'proverbs', stage: 'detail' };
+  if (pathname === '/language/quiz') return { journey: 'language', stage: 'quiz' };
   if (pathname.startsWith('/language/')) return { journey: 'language', stage: 'article' };
   if (pathname === '/history') return { journey: 'history', stage: 'overview' };
   if (pathname.startsWith('/history/')) return { journey: 'history', stage: 'article' };
