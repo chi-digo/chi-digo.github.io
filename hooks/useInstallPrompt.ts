@@ -40,11 +40,12 @@ export function useInstallPrompt() {
     };
   }, []);
 
-  const install = useCallback(async () => {
-    if (!promptEvent) return;
+  const install = useCallback(async (): Promise<'accepted' | 'dismissed' | null> => {
+    if (!promptEvent) return null;
     promptEvent.prompt();
-    await promptEvent.userChoice;
+    const { outcome } = await promptEvent.userChoice;
     setPromptEvent(null);
+    return outcome;
   }, [promptEvent]);
 
   const dismiss = useCallback(() => {

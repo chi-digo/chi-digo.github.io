@@ -330,6 +330,14 @@
     "offline_dict": "Fungua Kamusi",
     "offline_proverbs": "Vinjari Misemo",
     "offline_quiz": "Cheza Mchezo",
-    "update_toast": "Maneno na misemo mapya yanapatikana — bonyeza kusasisha"
+    "update_toast": "Maneno na misemo mapya yanapatikana — bonyeza kusasisha",
+    "feature_dict_title": "Maneno 5,200+",
+    "feature_dict_desc": "Kamusi kamili ya Kidigo",
+    "feature_proverbs_title": "Misemo 378",
+    "feature_proverbs_desc": "Hekima ya kitamaduni na tafsiri",
+    "feature_quiz_title": "Mchezo wa lugha",
+    "feature_quiz_desc": "Jaribu ujuzi wako wa Kidigo",
+    "feature_offline_title": "Inafanya kazi bila mtandao",
+    "feature_offline_desc": "Huhitaji mtandao baada ya kusakinisha"
   }
 }
