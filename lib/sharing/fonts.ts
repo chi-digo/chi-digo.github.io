@@ -1,8 +1,11 @@
 const SHARE_FONTS = [
   '500 48px Fraunces',
+  '600 24px Fraunces',
   'italic 400 24px "Source Serif 4"',
   '400 14px Inter',
+  '400 16px Inter',
   '500 18px Inter',
+  '600 36px Inter',
 ];
 
 export async function loadShareFonts(): Promise<boolean> {

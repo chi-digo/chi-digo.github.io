@@ -4,32 +4,17 @@ import type { Locale } from '@/lib/i18n/config';
 import { drawMikekaTile, drawDoorFrameTile, createMotifPattern } from './motifs';
 import { fitFontSize, wrapText } from './text';
 import { loadShareFonts } from './fonts';
-import { drawBrandFooter } from './brand';
+import { drawBrandFooter, drawBrandBar } from './brand';
 
 const SIZE = 1080;
 const PADDING = 80;
 const CONTENT_W = SIZE - PADDING * 2;
-const RADIUS = 24;
 
 const COLORS = {
   cream: '#F2EAD7',
   indigo: '#1F3A5F',
   gold: '#C99846',
 };
-
-function roundedRect(ctx: CanvasRenderingContext2D, w: number, h: number, r: number) {
-  ctx.beginPath();
-  ctx.moveTo(r, 0);
-  ctx.lineTo(w - r, 0);
-  ctx.arcTo(w, 0, w, r, r);
-  ctx.lineTo(w, h - r);
-  ctx.arcTo(w, h, w - r, h, r);
-  ctx.lineTo(r, h);
-  ctx.arcTo(0, h, 0, h - r, r);
-  ctx.lineTo(0, r);
-  ctx.arcTo(0, 0, r, 0, r);
-  ctx.closePath();
-}
 
 function getProverbText(proverb: Proverb, lang: 'dg' | 'sw'): string {
   if (lang === 'sw') return proverb.swahili || proverb.digo;
@@ -55,11 +40,7 @@ export async function renderProverbCard(
   canvas.height = SIZE;
   const ctx = canvas.getContext('2d')!;
 
-  // Clip to rounded rect
-  roundedRect(ctx, SIZE, SIZE, RADIUS);
-  ctx.clip();
-
-  // Background
+  // Background (full bleed, no rounded corners)
   ctx.fillStyle = COLORS.cream;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
@@ -84,16 +65,20 @@ export async function renderProverbCard(
   }
   ctx.globalAlpha = 1;
 
-  // Text area
+  // Brand bar (centered, above bottom motif)
+  const brandY = bandY2 - 40;
+  drawBrandBar(ctx, SIZE / 2, brandY, COLORS.indigo, 'rgba(31,58,95,0.5)');
+
+  // Text area (between top motif and brand bar)
   const textTop = bandY1 + bandH + 20;
-  const textBottom = bandY2 - 20;
+  const textBottom = brandY - 30;
   const textH = textBottom - textTop;
 
   const text = getProverbText(proverb, lang);
   const { fontSize, lines } = fitFontSize(
     ctx, text, CONTENT_W, textH,
     'Fraunces, serif', '500',
-    [48, 42, 36, 30, 24]
+    [72, 63, 54, 45, 36]
   );
 
   ctx.fillStyle = COLORS.indigo;
@@ -108,9 +93,6 @@ export async function renderProverbCard(
   for (let i = 0; i < lines.length; i++) {
     ctx.fillText(lines[i], SIZE / 2, startY + i * lineH);
   }
-
-  // Brand footer
-  drawBrandFooter(ctx, SIZE, COLORS.indigo, 0.4);
 
   return new Promise<Blob>((resolve, reject) => {
     canvas.toBlob(
@@ -131,11 +113,7 @@ export async function renderWordCard(
   canvas.height = SIZE;
   const ctx = canvas.getContext('2d')!;
 
-  // Clip to rounded rect
-  roundedRect(ctx, SIZE, SIZE, RADIUS);
-  ctx.clip();
-
-  // Background
+  // Background (full bleed, no rounded corners)
   ctx.fillStyle = COLORS.indigo;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
@@ -155,40 +133,40 @@ export async function renderWordCard(
   const contentMaxW = SIZE - contentX - PADDING;
 
   // Headword
-  const headwordSize = entry.headword.length > 15 ? 44 : 56;
+  const headwordSize = entry.headword.length > 15 ? 96 : 120;
   ctx.fillStyle = COLORS.cream;
   ctx.font = `500 ${headwordSize}px Fraunces, serif`;
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
 
-  const headwordY = SIZE * 0.3;
+  const headwordY = SIZE * 0.22;
   ctx.fillText(entry.headword, contentX, headwordY);
 
   // Part of speech
-  const posY = headwordY + headwordSize + 16;
+  const posY = headwordY + headwordSize + 18;
   ctx.fillStyle = COLORS.gold;
-  ctx.font = '500 18px Inter, sans-serif';
+  ctx.font = '600 36px Inter, sans-serif';
   ctx.fillText(entry.pos_en || entry.pos, contentX, posY);
 
   // Definition
-  const defY = posY + 36;
+  const defY = posY + 60;
   const defText = getDefinition(entry, locale);
   ctx.fillStyle = COLORS.cream;
-  ctx.globalAlpha = 0.7;
-  ctx.font = '400 24px "Source Serif 4", serif';
+  ctx.globalAlpha = 0.75;
+  ctx.font = '400 48px "Source Serif 4", serif';
   const defLines = wrapText(ctx, defText, contentMaxW);
-  const maxDefLines = Math.min(defLines.length, 3);
+  const maxDefLines = Math.min(defLines.length, 4);
   for (let i = 0; i < maxDefLines; i++) {
     let line = defLines[i];
-    if (i === maxDefLines - 1 && defLines.length > 3) {
+    if (i === maxDefLines - 1 && defLines.length > maxDefLines) {
       line = line.replace(/\s+\S*$/, '…');
     }
-    ctx.fillText(line, contentX, defY + i * 36);
+    ctx.fillText(line, contentX, defY + i * 66);
   }
   ctx.globalAlpha = 1;
 
-  // Brand footer
-  drawBrandFooter(ctx, SIZE, COLORS.cream, 0.3);
+  // Brand bar (bottom, centered)
+  drawBrandBar(ctx, SIZE / 2, SIZE - 70, COLORS.cream, 'rgba(242,234,215,0.5)');
 
   return new Promise<Blob>((resolve, reject) => {
     canvas.toBlob(
@@ -206,9 +184,6 @@ export function renderProverbCardSync(
   canvas.width = SIZE;
   canvas.height = SIZE;
   const ctx = canvas.getContext('2d')!;
-
-  roundedRect(ctx, SIZE, SIZE, RADIUS);
-  ctx.clip();
 
   ctx.fillStyle = COLORS.cream;
   ctx.fillRect(0, 0, SIZE, SIZE);
@@ -232,14 +207,17 @@ export function renderProverbCardSync(
   }
   ctx.globalAlpha = 1;
 
+  const brandY = bandY2 - 40;
+  drawBrandBar(ctx, SIZE / 2, brandY, COLORS.indigo, 'rgba(31,58,95,0.5)');
+
   const textTop = bandY1 + bandH + 20;
-  const textBottom = bandY2 - 20;
+  const textBottom = brandY - 30;
   const textH = textBottom - textTop;
   const text = getProverbText(proverb, lang);
   const { fontSize, lines } = fitFontSize(
     ctx, text, CONTENT_W, textH,
     'Fraunces, serif', '500',
-    [48, 42, 36, 30, 24]
+    [72, 63, 54, 45, 36]
   );
 
   ctx.fillStyle = COLORS.indigo;
@@ -252,8 +230,6 @@ export function renderProverbCardSync(
   for (let i = 0; i < lines.length; i++) {
     ctx.fillText(lines[i], SIZE / 2, startY + i * lineH);
   }
-
-  drawBrandFooter(ctx, SIZE, COLORS.indigo, 0.4);
 
   const dataUrl = canvas.toDataURL('image/png');
   const binary = atob(dataUrl.split(',')[1]);

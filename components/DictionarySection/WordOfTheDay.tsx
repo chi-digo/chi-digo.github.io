@@ -70,7 +70,7 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
           onMenuOpen={() => prerenderWord(entry, locale)}
           onShareImage={() => {
             const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(entry.headword)}`;
-            sharePrerendered('word', entry.headword, `Chi-digo: ${entry.headword}`, entry.headword, url);
+            sharePrerendered('word', entry.headword, `Chidigo: ${entry.headword}`, entry.headword, url);
           }}
           onCopyLink={() => {
             const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(entry.headword)}`;

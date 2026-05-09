@@ -66,3 +66,39 @@ export function drawBrandFooter(
   );
   ctx.restore();
 }
+
+export function drawBrandBar(
+  ctx: CanvasRenderingContext2D,
+  centerX: number,
+  centerY: number,
+  color: string,
+  secondaryColor: string
+) {
+  const markSize = 40;
+  const gap = 14;
+  const nameFont = '600 24px Fraunces, serif';
+  const urlFont = '400 16px Inter, sans-serif';
+
+  ctx.save();
+
+  ctx.font = nameFont;
+  const nameW = ctx.measureText('Chidigo').width;
+  const totalW = markSize + gap + nameW;
+  const startX = centerX - totalW / 2;
+
+  drawBrandMark(ctx, startX, centerY - markSize / 2, markSize, color, 1);
+
+  const textX = startX + markSize + gap;
+
+  ctx.fillStyle = color;
+  ctx.font = nameFont;
+  ctx.textBaseline = 'bottom';
+  ctx.fillText('Chidigo', textX, centerY - 1);
+
+  ctx.fillStyle = secondaryColor;
+  ctx.font = urlFont;
+  ctx.textBaseline = 'top';
+  ctx.fillText('chidigo.org', textX, centerY + 7);
+
+  ctx.restore();
+}
