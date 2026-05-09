@@ -207,15 +207,15 @@ export function InstallCard() {
           <div className={styles.iosSteps}>
             <div className={styles.step}>
               <span className={styles.stepIcon}><ShareIcon /></span>
-              <Text variant="body-sm">{t.install.ios_step_1}</Text>
+              <Text variant="body-sm" className={styles.stepText}>{t.install.ios_step_1}</Text>
             </div>
             <div className={styles.step}>
               <span className={styles.stepIcon}><PlusSquareIcon /></span>
-              <Text variant="body-sm">{t.install.ios_step_2}</Text>
+              <Text variant="body-sm" className={styles.stepText}>{t.install.ios_step_2}</Text>
             </div>
             <div className={styles.step}>
               <span className={styles.stepNum}>3</span>
-              <Text variant="body-sm">{t.install.ios_step_3}</Text>
+              <Text variant="body-sm" className={styles.stepText}>{t.install.ios_step_3}</Text>
             </div>
           </div>
         )}
