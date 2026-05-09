@@ -36,10 +36,6 @@
   color: currentColor;
 }
 
-.brandName {
-  display: none;
-}
-
 .navLink {
   font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
@@ -310,10 +306,10 @@
   font-size: 0.75rem;
 }
 
-/* ===== Search ===== */
+/* ===== Search (mobile only — desktop search is in the hero) ===== */
 
 .searchBtn {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background: none;
@@ -334,39 +330,9 @@
   outline-offset: 2px;
 }
 
-.searchBtnHidden {
-  display: none;
-}
-
 .searchIcon {
   width: 18px;
   height: 18px;
-}
-
-.searchInline {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex: 1;
-  max-width: 420px;
-}
-
-.searchClose {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--color-hando-cream);
-  font-size: 0.9rem;
-  padding: 4px 6px;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-.searchClose:hover {
-  background-color: rgba(242, 234, 215, 0.1);
 }
 
 /* Mobile search overlay */
@@ -430,19 +396,8 @@
     display: flex;
   }
 
-  .brandName {
-    display: inline;
-    font-family: var(--font-display, 'Fraunces'), Georgia, serif;
-    font-size: 0.9375rem;
-    font-weight: 600;
-    margin-left: 8px;
-  }
-
-  .searchInline {
-    display: none;
-  }
-
   .searchBtn {
+    display: flex;
     margin-left: auto;
     margin-right: 4px;
   }

@@ -1,0 +1,135 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-surface, #fff);
+  border: var(--border-width-thin, 1px) solid var(--border-default, rgba(0, 0, 0, 0.15));
+  border-radius: var(--radius-full, 14px);
+  padding: 10px 16px;
+  transition: border-color 0.15s ease;
+}
+
+.inputWrapper:focus-within {
+  border-color: var(--border-focus, var(--color-mnazi-gold, #d4a853));
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--fg-muted, rgba(0, 0, 0, 0.4));
+}
+
+.input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.95rem;
+  color: var(--fg-default, inherit);
+}
+
+.input::placeholder {
+  color: var(--fg-muted, rgba(0, 0, 0, 0.4));
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--fg-muted, rgba(0, 0, 0, 0.2));
+  border-top-color: var(--fg-default, currentColor);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.listbox {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--bg-surface, #fff);
+  border: 1px solid var(--border-default, rgba(0, 0, 0, 0.1));
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: var(--shadow-lg, 0 10px 30px rgba(0, 0, 0, 0.15));
+  z-index: 50;
+  padding: 4px 0;
+}
+
+.group {
+  padding: 4px 0;
+}
+
+.group + .group {
+  border-top: 1px solid var(--bg-surface-muted, rgba(0, 0, 0, 0.06));
+}
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px 4px;
+}
+
+.groupLabel {
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-muted, rgba(0, 0, 0, 0.5));
+}
+
+.groupCount {
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--fg-muted, rgba(0, 0, 0, 0.4));
+  background: var(--bg-surface-muted, rgba(0, 0, 0, 0.06));
+  padding: 1px 6px;
+  border-radius: 100px;
+}
+
+.option {
+  padding: 8px 14px;
+  cursor: pointer;
+  color: var(--fg-default, inherit);
+}
+
+.option:hover,
+.optionActive {
+  background: var(--bg-surface-muted, rgba(0, 0, 0, 0.04));
+}
+
+.seeAll {
+  display: block;
+  padding: 6px 14px;
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--fg-muted, rgba(0, 0, 0, 0.5));
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.seeAll:hover {
+  color: var(--fg-default, inherit);
+}
+
+.empty {
+  padding: 16px 14px;
+}

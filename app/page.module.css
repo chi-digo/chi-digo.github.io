@@ -4,7 +4,7 @@
   height: 100vh;
   height: 100dvh;
   background-color: var(--color-kaya-deep);
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* ===== Red bands ===== */
@@ -41,14 +41,9 @@
 .gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to right,
-    var(--color-kaya-deep) 0%,
-    var(--color-kaya-deep) 30%,
-    rgba(14, 26, 42, 0.85) 50%,
-    rgba(14, 26, 42, 0.4) 70%,
-    rgba(14, 26, 42, 0.15) 100%
-  );
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(14, 26, 42, 0.45) 0%, rgba(14, 26, 42, 0.75) 100%),
+    rgba(14, 26, 42, 0.5);
   z-index: 1;
 }
 
@@ -56,21 +51,28 @@
 
 .content {
   position: absolute;
-  left: 5.25%;
-  right: 5.25%;
-  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
   z-index: 2;
+  width: 90%;
+  max-width: 640px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: clamp(3rem, 13.5vw, 130pt);
+  font-size: clamp(3rem, 10vw, 90pt);
   line-height: 0.95;
   letter-spacing: -0.04em;
   color: var(--color-hando-cream);
   font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 1;
   margin: 0;
+  text-align: center;
 }
 
 .subtitle {
@@ -81,13 +83,15 @@
   color: var(--color-hando-cream);
   opacity: 0.75;
   margin: 0.5rem 0 0 0;
-  max-width: 50%;
+  max-width: 100%;
+  text-align: center;
 }
 
 /* ===== Daily proverb ===== */
 
 .dailyProverb {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
+  text-align: center;
 }
 
 .proverb {
@@ -99,7 +103,8 @@
   color: var(--color-hando-cream);
   font-variation-settings: 'opsz' 22, 'SOFT' 0, 'WONK' 1;
   margin: 0;
-  max-width: 60%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .gloss {
@@ -111,6 +116,7 @@
   letter-spacing: 0.01em;
   color: var(--color-coral-lime-sand);
   margin: 0.12in 0 0 0;
+  text-align: center;
 }
 
 /* ===== Quick-access pills ===== */
@@ -119,7 +125,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
+  justify-content: center;
 }
 
 .pill {
@@ -148,19 +155,33 @@
   outline-offset: 2px;
 }
 
-/* ===== Logo ===== */
+/* ===== Hero search bar ===== */
 
-.logo {
-  position: absolute;
-  bottom: 7.3%;
-  left: 5.25%;
-  z-index: 2;
+.heroSearch {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 1.5rem;
+  position: relative;
+
+  --bg-surface: rgba(255, 255, 255, 0.12);
+  --bg-surface-muted: rgba(255, 255, 255, 0.10);
+  --border-default: rgba(255, 255, 255, 0.25);
+  --border-width-thin: 1px;
+  --fg-default: var(--color-hando-cream);
+  --fg-muted: rgba(242, 234, 215, 0.60);
+  --fg-heading: var(--color-hando-cream);
+  --radius-full: 14px;
+  --radius-lg: 12px;
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
-.logo svg {
-  width: clamp(100px, 15vw, 2in);
-  height: auto;
-  color: var(--color-hando-cream);
+.heroSearch:focus-within {
+  --border-default: var(--color-mnazi-gold);
+}
+
+.heroSearch [role="listbox"] {
+  --bg-surface: rgba(14, 26, 42, 0.96);
+  --bg-surface-muted: rgba(242, 234, 215, 0.08);
 }
 
 /* ===== Shared section styles ===== */
@@ -341,12 +362,13 @@
     background-position: 72% center;
   }
 
-  .subtitle {
-    max-width: 90%;
+  .content {
+    top: 20%;
+    max-width: 92%;
   }
 
-  .proverb {
-    max-width: 90%;
+  .heroSearch {
+    display: none;
   }
 
   .exploreGrid {
@@ -354,18 +376,16 @@
   }
 }
 
-@media (max-width: 479px) {
-  .proverb {
-    max-width: 100%;
-  }
-
-  .subtitle {
-    max-width: 100%;
-  }
-}
-
 @media (max-height: 500px) {
   .content {
-    top: max(22%, 60px);
+    top: max(20%, 60px);
+  }
+
+  .heroSearch {
+    margin-top: 0.75rem;
+  }
+
+  .dailyProverb {
+    display: none;
   }
 }

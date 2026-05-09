@@ -1,11 +1,15 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
+import { SearchCombobox } from '@/components/SearchCombobox';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { useTrackView } from '@/hooks/useTrackView';
+import { useUniversalSearch, buildSearchGroups } from '@/hooks/useUniversalSearch';
+import { track } from '@/lib/analytics/track';
 import { loadProverbs } from '@/lib/proverbs/loader';
 import { getFeaturedProverb } from '@/lib/proverbs/featured';
 import { getFeaturedArticle } from '@/lib/home/featured';
@@ -35,43 +39,6 @@ function getWordForDate(): string {
   return CURATED_WORDS[dayOfYear % CURATED_WORDS.length];
 }
 
-function ChidigoLogo() {
-  return (
-    <svg
-      viewBox="0 0 480 160"
-      role="img"
-      aria-label="Chi-digo"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g transform="translate(56, 20)">
-        <circle cx="40" cy="16" r="14" fill="currentColor" />
-        <rect x="22" y="38" width="36" height="84" fill="none" stroke="currentColor" strokeWidth="1.5" />
-        <g fill="currentColor">
-          <polygon points="22,38 58,38 40,56" />
-          <polygon points="22,74 58,74 40,56" />
-          <polygon points="22,74 58,74 40,92" />
-          <polygon points="22,110 58,110 40,92" />
-          <polygon points="22,110 58,110 40,122" />
-        </g>
-      </g>
-      <g transform="translate(160, 0)">
-        <text
-          x="0"
-          y="100"
-          fontFamily="var(--font-fraunces), Fraunces, serif"
-          fontSize="76"
-          fontWeight="500"
-          letterSpacing="-1"
-          fill="currentColor"
-        >
-          Chi-digo
-        </text>
-      </g>
-    </svg>
-  );
-}
-
 const QUICK_LINKS = [
   { label: 'Dictionary', labelSw: 'Kamusi', labelDig: 'Kamusi', href: '/dictionary' },
   { label: 'Proverbs', labelSw: 'Methali', labelDig: 'Ndarira', href: '/proverbs' },
@@ -89,11 +56,27 @@ export default function HomeClient() {
   const t = useTranslations();
   const { locale } = useLocale();
 
+  const router = useRouter();
   const heroRef = useRef<HTMLElement>(null);
   const exploreRef = useRef<HTMLElement>(null);
 
   useTrackView(heroRef, 'orientation', 'hero');
   useTrackView(exploreRef, 'orientation', 'explore');
+
+  const { query, setQuery, results, loading } = useUniversalSearch(locale);
+  const searchGroups = buildSearchGroups(results, locale, query);
+
+  const handleSearchSelect = useCallback((href: string) => {
+    router.push(href);
+    setQuery('');
+    track('orientation', 'search', 'select_result', { href });
+  }, [router, setQuery]);
+
+  const handleSearchSubmit = useCallback((q: string) => {
+    router.push(`/search?q=${encodeURIComponent(q)}`);
+    setQuery('');
+    track('orientation', 'search', 'submit', { query: q });
+  }, [router, setQuery]);
 
   const [dailyProverb, setDailyProverb] = useState<Proverb | null>(null);
   const [wotdEntry, setWotdEntry] = useState<DictionaryEntry | null>(null);
@@ -125,6 +108,30 @@ export default function HomeClient() {
 
         <div className={styles.content}>
           <h1 className={styles.title}>{t.hero.title}</h1>
+
+          <div className={styles.heroSearch}>
+            <SearchCombobox
+              value={query}
+              onChange={setQuery}
+              groups={searchGroups}
+              loading={loading}
+              onSelect={handleSearchSelect}
+              onSubmit={handleSearchSubmit}
+              placeholder={
+                locale === 'sw' ? 'Tafuta maneno, methali, makala…'
+                  : locale === 'dig' ? 'Tafuta maneno, ndarira, makala…'
+                    : 'Search words, proverbs, articles…'
+              }
+              emptyState={
+                query.trim().length >= 2 ? (
+                  <p style={{ textAlign: 'center', color: 'var(--fg-muted)', fontSize: '0.85rem', margin: 0 }}>
+                    {locale === 'sw' ? 'Hakuna matokeo' : locale === 'dig' ? 'Takuna matokeo' : 'No results found'}
+                  </p>
+                ) : undefined
+              }
+            />
+          </div>
+
           <p className={styles.subtitle}>
             {locale === 'sw'
               ? 'Chunguza lugha, utamaduni, na historia ya Kidigo'
@@ -160,10 +167,6 @@ export default function HomeClient() {
               </TrackedLink>
             ))}
           </div>
-        </div>
-
-        <div className={styles.logo}>
-          <ChidigoLogo />
         </div>
       </section>
 
@@ -283,7 +286,7 @@ export default function HomeClient() {
       </section>
 
       {/* ===== Culture Domains ===== */}
-      <CultureSection limit={6} showSeeAll />
+      <CultureSection />
     </>
   );
 }
