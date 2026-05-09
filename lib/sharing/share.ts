@@ -27,7 +27,7 @@ export async function shareImage(
 
     if (canShareFiles()) {
       try {
-        await navigator.share({ files: [file], title });
+        await navigator.share({ files: [file], title, url });
         return 'shared';
       } catch (e) {
         if (e instanceof DOMException && e.name === 'AbortError') return 'cancelled';
