@@ -175,6 +175,13 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
+.featuredTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
 .featuredLabel {
   font-family: var(--font-sans);
   font-size: 0.65rem;
@@ -182,7 +189,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-coral-lime-sand);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
 }
 
 .featuredDigo {
@@ -399,6 +406,13 @@
 
 .detailArticle {
   margin-top: 1rem;
+}
+
+.detailHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
 }
 
 .detailDigo {

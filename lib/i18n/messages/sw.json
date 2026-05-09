@@ -296,5 +296,13 @@
     "vision_body": "Mfumo wa ngazi nne kutoka rejea hadi kuendeleza — na picha ya 2040.",
     "contact_title": "Shiriki juhudi",
     "contact_body": "Tuma neno. Kagua tafsiri. Shiriki methali. Rekodi sauti yako."
+  },
+  "share": {
+    "button_label": "Shiriki",
+    "share_image": "Shiriki Picha",
+    "copy_link": "Nakili Kiungo",
+    "link_copied": "Kiungo kimenakiliwa!",
+    "image_saved": "Picha imehifadhiwa",
+    "generating": "Inaunda picha…"
   }
 }

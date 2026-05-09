@@ -175,6 +175,13 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
+.wotdTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
 .wotdLabel {
   font-family: var(--font-sans);
   font-size: 0.65rem;
@@ -182,7 +189,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-coral-lime-sand);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
 }
 
 .wotdHeadword {
@@ -305,10 +312,18 @@
 
 .entryHeader {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.entryHeaderLeft {
+  display: flex;
   align-items: baseline;
   gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  flex: 1;
 }
 
 .entryHeadword {

@@ -5,6 +5,8 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { POS_ABBREVIATIONS } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
+import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
+import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from './DictionarySection.module.css';
 
@@ -32,6 +34,7 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
   const { locale } = useLocale();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
+  const { prerenderWord, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     let cancelled = false;
@@ -61,7 +64,21 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
 
   return (
     <div className={styles.wotdCard}>
-      <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
+      <div className={styles.wotdTop}>
+        <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
+        <ShareMenu
+          onMenuOpen={() => prerenderWord(entry, locale)}
+          onShareImage={() => {
+            const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(entry.headword)}`;
+            sharePrerendered('word', entry.headword, `Chidigo: ${entry.headword}`, entry.headword, url);
+          }}
+          onCopyLink={() => {
+            const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(entry.headword)}`;
+            copyLink(url);
+          }}
+          isGenerating={isGenerating}
+        />
+      </div>
       <p className={styles.wotdHeadword}>{entry.headword}</p>
       {entry.ipa && <p className={styles.wotdIpa}>/{entry.ipa}/</p>}
       <span className={styles.wotdPos}>
