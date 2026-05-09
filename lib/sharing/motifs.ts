@@ -67,8 +67,26 @@ export function drawVigangoTile(
   height: number,
   color: string
 ) {
+  const pad = 2;
+  const cx = width / 2;
+
   ctx.fillStyle = color;
-  ctx.fillRect(0, 0, width, height * 0.75);
+
+  // Left triangle (pointing right)
+  ctx.beginPath();
+  ctx.moveTo(pad, pad);
+  ctx.lineTo(cx, height / 2);
+  ctx.lineTo(pad, height - pad);
+  ctx.closePath();
+  ctx.fill();
+
+  // Right triangle (pointing left)
+  ctx.beginPath();
+  ctx.moveTo(width - pad, pad);
+  ctx.lineTo(cx, height / 2);
+  ctx.lineTo(width - pad, height - pad);
+  ctx.closePath();
+  ctx.fill();
 }
 
 export function createMotifPattern(
