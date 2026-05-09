@@ -60,7 +60,39 @@ export function Breadcrumb() {
       href: segments.length > 1 ? '/language' : undefined,
     });
 
-    if (segments[1]) {
+    if (segments[1] === 'quiz') {
+      items.push({ label: t.quiz?.title ?? 'Jaribu' });
+    } else if (segments[1] === 'dictionary') {
+      items.push({
+        label: t.breadcrumb.dictionary,
+        href: segments.length > 2 ? '/language/dictionary' : undefined,
+      });
+      if (segments[2] === 'word' && segments[3]) {
+        items.push({ label: decodeURIComponent(segments[3]) });
+      } else if (segments[2] === 'letter' && segments[3]) {
+        const letter = decodeURIComponent(segments[3]);
+        items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
+      }
+    } else if (segments[1] === 'proverbs') {
+      items.push({
+        label: t.breadcrumb.proverbs,
+        href: segments.length > 2 ? '/language/proverbs' : undefined,
+      });
+      if (segments[2] === 'theme' && segments[3]) {
+        const theme = getTheme(segments[3]);
+        if (theme) {
+          items.push({ label: theme.title[locale] });
+        }
+      } else if (segments[2] === 'letter' && segments[3]) {
+        const letter = decodeURIComponent(segments[3]);
+        items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
+      } else if (segments[2] && segments[2].startsWith('p-')) {
+        const slug = decodeURIComponent(segments[2]);
+        const digoText = slug.replace(/^p-\d+-/, '').replace(/-/g, ' ');
+        const label = digoText.charAt(0).toUpperCase() + digoText.slice(1);
+        items.push({ label });
+      }
+    } else if (segments[1]) {
       const result = getLanguageTopic(segments[1]);
       if (result) {
         items.push({ label: result.topic.title[locale] });
@@ -74,40 +106,6 @@ export function Breadcrumb() {
     items.push({ label: t.breadcrumb.vision });
   } else if (segments[0] === 'contact') {
     items.push({ label: t.breadcrumb.contact });
-  } else if (segments[0] === 'proverbs') {
-    items.push({ label: t.breadcrumb.language, href: '/language' });
-    items.push({
-      label: t.breadcrumb.proverbs,
-      href: segments.length > 1 ? '/proverbs' : undefined,
-    });
-
-    if (segments[1] === 'theme' && segments[2]) {
-      const theme = getTheme(segments[2]);
-      if (theme) {
-        items.push({ label: theme.title[locale] });
-      }
-    } else if (segments[1] === 'letter' && segments[2]) {
-      const letter = decodeURIComponent(segments[2]);
-      items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
-    } else if (segments[1] && segments[1].startsWith('p-')) {
-      const slug = decodeURIComponent(segments[1]);
-      const digoText = slug.replace(/^p-\d+-/, '').replace(/-/g, ' ');
-      const label = digoText.charAt(0).toUpperCase() + digoText.slice(1);
-      items.push({ label });
-    }
-  } else if (segments[0] === 'dictionary') {
-    items.push({ label: t.breadcrumb.language, href: '/language' });
-    items.push({
-      label: t.breadcrumb.dictionary,
-      href: segments.length > 1 ? '/dictionary' : undefined,
-    });
-
-    if (segments[1] === 'word' && segments[2]) {
-      items.push({ label: decodeURIComponent(segments[2]) });
-    } else if (segments[1] === 'letter' && segments[2]) {
-      const letter = decodeURIComponent(segments[2]);
-      items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
-    }
   }
 
   const renderLink = useCallback((href: string, children: ReactNode) => (

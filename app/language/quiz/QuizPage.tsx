@@ -1,7 +1,7 @@
 'use client';
 
 import { useReducer, useEffect, useRef, useCallback } from 'react';
-import { useTranslations } from '@/lib/i18n/context';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { track } from '@/lib/analytics/track';
 import {
   QuizOption,
@@ -17,12 +17,14 @@ import styles from './QuizPage.module.css';
 
 // ── Types ──
 
+type TriText = { e: string; s: string; d: string };
+
 interface Question {
   id: string;
-  q: string;
-  opts: string[];
+  q: TriText;
+  opts: { e: string[]; s: string[]; d: string[] };
   ans: number;
-  exp: string;
+  exp: TriText;
   cat: 'vocabulary' | 'proverbs' | 'riddles';
   dif: 'easy' | 'medium' | 'hard';
 }
@@ -47,6 +49,10 @@ interface Answer {
   timeMs: number;
 }
 
+type LocaleKey = 'e' | 's' | 'd';
+
+const LOCALE_MAP: Record<string, LocaleKey> = { en: 'e', sw: 's', dig: 'd' };
+
 type GamePhase =
   | { type: 'loading'; progress: number }
   | { type: 'error'; message: string }
@@ -64,17 +70,8 @@ type GameAction =
 
 const QUESTIONS_PER_ROUND = 10;
 const AUTO_ADVANCE_MS = 1200;
-const IDB_NAME = 'chidigo-quiz';
-const IDB_STORE = 'data';
-const IDB_KEY = 'quiz-bank';
 
 const OPTION_LABELS = ['A', 'B', 'C', 'D'];
-
-const CATEGORY_LABELS: Record<string, string> = {
-  vocabulary: 'Vocabulary',
-  proverbs: 'Proverbs',
-  riddles: 'Riddles',
-};
 
 // ── Question Selection ──
 
@@ -188,41 +185,6 @@ function incrementRound() {
   } catch {}
 }
 
-// ── IndexedDB ──
-
-function openDB(): Promise<IDBDatabase> {
-  return new Promise((resolve, reject) => {
-    const req = indexedDB.open(IDB_NAME, 1);
-    req.onupgradeneeded = () => {
-      req.result.createObjectStore(IDB_STORE);
-    };
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-async function getCached(): Promise<QuizBank | null> {
-  try {
-    const db = await openDB();
-    return new Promise((resolve) => {
-      const tx = db.transaction(IDB_STORE, 'readonly');
-      const req = tx.objectStore(IDB_STORE).get(IDB_KEY);
-      req.onsuccess = () => resolve(req.result || null);
-      req.onerror = () => resolve(null);
-    });
-  } catch {
-    return null;
-  }
-}
-
-async function setCache(data: QuizBank): Promise<void> {
-  try {
-    const db = await openDB();
-    const tx = db.transaction(IDB_STORE, 'readwrite');
-    tx.objectStore(IDB_STORE).put(data, IDB_KEY);
-  } catch {}
-}
-
 // ── Reducer ──
 
 function reducer(state: GamePhase, action: GameAction): GamePhase {
@@ -321,55 +283,32 @@ const LOADING_PROVERBS = [
 
 export function QuizPage() {
   const t = useTranslations();
+  const { locale } = useLocale();
+  const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
   const [state, dispatch] = useReducer(reducer, { type: 'loading', progress: 0 });
   const bankRef = useRef<QuizBank | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const gameStartRef = useRef<number>(0);
 
-  const loadData = useCallback(async (signal: AbortSignal) => {
-    const cached = await getCached();
-    if (cached) {
-      bankRef.current = cached;
-      dispatch({ type: 'LOAD_SUCCESS', bank: cached });
-      return;
-    }
+  const categoryLabels: Record<string, string> = {
+    vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
+    proverbs: t.quiz?.categories?.proverbs ?? 'Proverbs',
+    riddles: t.quiz?.categories?.riddles ?? 'Riddles',
+  };
 
+  const loadData = useCallback(async (signal: AbortSignal) => {
     try {
+      dispatch({ type: 'LOAD_PROGRESS', progress: 20 });
       const res = await fetch('/data/quiz/quiz-bank.json', { signal });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-      const reader = res.body?.getReader();
-      const contentLength = parseInt(res.headers.get('content-length') || '0', 10);
-
-      if (reader && contentLength > 0) {
-        let received = 0;
-        const chunks: Uint8Array[] = [];
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          chunks.push(value);
-          received += value.length;
-          dispatch({ type: 'LOAD_PROGRESS', progress: Math.round((received / contentLength) * 100) });
-        }
-        const blob = new Blob(chunks as BlobPart[]);
-        const text = await blob.text();
-        const data: QuizBank = JSON.parse(text);
-        if (!signal.aborted) {
-          await setCache(data);
-          bankRef.current = data;
-          dispatch({ type: 'LOAD_SUCCESS', bank: data });
-        }
-      } else {
-        dispatch({ type: 'LOAD_PROGRESS', progress: 50 });
-        const data: QuizBank = await res.json();
-        if (!signal.aborted) {
-          await setCache(data);
-          bankRef.current = data;
-          dispatch({ type: 'LOAD_SUCCESS', bank: data });
-        }
-      }
+      dispatch({ type: 'LOAD_PROGRESS', progress: 60 });
+      const data: QuizBank = await res.json();
+      if (signal.aborted) return;
+      bankRef.current = data;
+      dispatch({ type: 'LOAD_SUCCESS', bank: data });
     } catch (err: unknown) {
       if (err instanceof Error && err.name === 'AbortError') return;
+      console.error('[Quiz] Load error:', err);
       dispatch({ type: 'LOAD_ERROR', message: err instanceof Error ? err.message : 'Failed to load quiz data' });
     }
   }, []);
@@ -380,7 +319,6 @@ export function QuizPage() {
     return () => controller.abort();
   }, [loadData]);
 
-  // Auto-advance on correct answer
   useEffect(() => {
     if (state.type === 'answered' && state.correct) {
       timerRef.current = setTimeout(() => {
@@ -392,7 +330,6 @@ export function QuizPage() {
     }
   }, [state]);
 
-  // Analytics: quiz_start
   useEffect(() => {
     if (state.type === 'playing' && state.qi === 0 && state.answers.length === 0) {
       gameStartRef.current = Date.now();
@@ -400,7 +337,6 @@ export function QuizPage() {
     }
   }, [state]);
 
-  // Analytics: quiz_answer
   useEffect(() => {
     if (state.type === 'answered') {
       const q = state.questions[state.qi];
@@ -415,7 +351,6 @@ export function QuizPage() {
     }
   }, [state]);
 
-  // Analytics: quiz_complete
   useEffect(() => {
     if (state.type === 'results') {
       track('language', 'quiz', 'complete', {
@@ -449,10 +384,12 @@ export function QuizPage() {
     loadData(controller.signal);
   }, [loadData]);
 
-  // ── Render ──
+  // ── Render inner content by phase ──
+
+  let content: React.ReactNode;
 
   if (state.type === 'loading') {
-    return (
+    content = (
       <div className={styles.container}>
         <div className={styles.loadingView}>
           <KayambaLoader size="lg" />
@@ -469,28 +406,25 @@ export function QuizPage() {
         </div>
       </div>
     );
-  }
-
-  if (state.type === 'error') {
-    return (
+  } else if (state.type === 'error') {
+    content = (
       <div className={styles.container}>
         <EmptyState
           title={t.quiz?.loadError ?? 'Could not load quiz data'}
           description={state.message}
-        >
-          <Button onClick={handleRetry}>
-            {t.quiz?.retry ?? 'Tap to retry'}
-          </Button>
-        </EmptyState>
+          action={
+            <Button onClick={handleRetry}>
+              {t.quiz?.retry ?? 'Tap to retry'}
+            </Button>
+          }
+        />
       </div>
     );
-  }
-
-  if (state.type === 'results') {
+  } else if (state.type === 'results') {
     const breakdown = (['vocabulary', 'proverbs', 'riddles'] as const).map((cat) => {
       const catQs = state.questions.filter((q) => q.cat === cat);
       const catCorrect = state.answers.filter((a, i) => state.questions[i].cat === cat && a.correct).length;
-      return { category: CATEGORY_LABELS[cat], correct: catCorrect, total: catQs.length };
+      return { category: categoryLabels[cat], correct: catCorrect, total: catQs.length };
     }).filter((b) => b.total > 0);
 
     const message =
@@ -502,7 +436,7 @@ export function QuizPage() {
             ? (t.quiz?.results?.good ?? 'Good effort!')
             : (t.quiz?.results?.tryAgain ?? 'Keep practicing!');
 
-    return (
+    content = (
       <div className={styles.container}>
         <Confetti fire={state.score === QUESTIONS_PER_ROUND} />
         <ScoreCard
@@ -510,6 +444,7 @@ export function QuizPage() {
           total={QUESTIONS_PER_ROUND}
           breakdown={breakdown}
           message={message}
+          style={{ width: '100%' }}
           actions={
             <>
               <Button onClick={handleRestart}>
@@ -523,77 +458,87 @@ export function QuizPage() {
         />
       </div>
     );
+  } else {
+    const currentQ = state.questions[state.qi];
+    const isAnswered = state.type === 'answered';
+    const completedCount = isAnswered ? state.qi + 1 : state.qi;
+    const qText = currentQ.q[lk];
+    const opts = currentQ.opts[lk];
+    const expText = currentQ.exp[lk];
+
+    content = (
+      <div className={styles.container}>
+        <div className={styles.gameHeader}>
+          <ProgressBar value={completedCount} max={QUESTIONS_PER_ROUND} />
+          <div className={styles.questionInfo}>
+            <span className={styles.questionCounter}>
+              {(t.quiz?.questionOf ?? 'Question {current} of {total}')
+                .replace('{current}', String(state.qi + 1))
+                .replace('{total}', String(QUESTIONS_PER_ROUND))}
+            </span>
+            <Badge>{categoryLabels[currentQ.cat]}</Badge>
+          </div>
+        </div>
+
+        <div className={styles.questionCard}>
+          <p className={styles.questionText}>{qText}</p>
+
+          <div className={styles.optionsGrid}>
+            {opts.map((opt, idx) => {
+              let optState: 'default' | 'selected' | 'correct' | 'incorrect' | 'disabled' = 'default';
+
+              if (isAnswered) {
+                if (idx === currentQ.ans) {
+                  optState = 'correct';
+                } else if (idx === state.selected) {
+                  optState = 'incorrect';
+                } else {
+                  optState = 'disabled';
+                }
+              }
+
+              return (
+                <QuizOption
+                  key={idx}
+                  label={OPTION_LABELS[idx]}
+                  text={opt}
+                  state={optState}
+                  onClick={() => handleSelectAnswer(idx)}
+                  disabled={isAnswered}
+                />
+              );
+            })}
+          </div>
+
+          {isAnswered && !state.correct && (
+            <div className={styles.explanationPanel}>
+              <p className={styles.explanationLabel}>
+                {t.quiz?.explanation ?? 'The answer is:'}
+              </p>
+              <p className={styles.explanationText}>{expText}</p>
+              <Button onClick={handleContinue} style={{ marginTop: 'var(--space-3)' }}>
+                {t.quiz?.continue ?? 'Continue'}
+              </Button>
+            </div>
+          )}
+
+          {isAnswered && state.correct && (
+            <div className={styles.correctFeedback}>
+              <p className={styles.correctLabel}>
+                {t.quiz?.correct ?? 'Correct!'}
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+    );
   }
 
-  // Playing or Answered
-  const currentQ = state.questions[state.qi];
-  const isAnswered = state.type === 'answered';
-  const completedCount = state.type === 'answered' ? state.qi + 1 : state.qi;
-
   return (
-    <div className={styles.container}>
-      <div className={styles.gameHeader}>
-        <ProgressBar value={completedCount} max={QUESTIONS_PER_ROUND} />
-        <div className={styles.questionInfo}>
-          <span className={styles.questionCounter}>
-            {(t.quiz?.questionOf ?? 'Question {current} of {total}')
-              .replace('{current}', String(state.qi + 1))
-              .replace('{total}', String(QUESTIONS_PER_ROUND))}
-          </span>
-          <Badge>{CATEGORY_LABELS[currentQ.cat]}</Badge>
-        </div>
-      </div>
-
-      <div className={styles.questionCard}>
-        <p className={styles.questionText}>{currentQ.q}</p>
-
-        <div className={styles.optionsGrid}>
-          {currentQ.opts.map((opt, idx) => {
-            let optState: 'default' | 'selected' | 'correct' | 'incorrect' | 'disabled' = 'default';
-
-            if (isAnswered) {
-              if (idx === currentQ.ans) {
-                optState = 'correct';
-              } else if (idx === state.selected) {
-                optState = 'incorrect';
-              } else {
-                optState = 'disabled';
-              }
-            }
-
-            return (
-              <QuizOption
-                key={idx}
-                label={OPTION_LABELS[idx]}
-                text={opt}
-                state={optState}
-                onClick={() => handleSelectAnswer(idx)}
-                disabled={isAnswered}
-              />
-            );
-          })}
-        </div>
-
-        {isAnswered && !state.correct && (
-          <div className={styles.explanationPanel}>
-            <p className={styles.explanationLabel}>
-              {t.quiz?.explanation ?? 'The answer is:'}
-            </p>
-            <p className={styles.explanationText}>{currentQ.exp}</p>
-            <Button onClick={handleContinue} style={{ marginTop: 'var(--space-3)' }}>
-              {t.quiz?.continue ?? 'Continue'}
-            </Button>
-          </div>
-        )}
-
-        {isAnswered && state.correct && (
-          <div className={styles.correctFeedback}>
-            <p className={styles.correctLabel}>
-              {t.quiz?.correct ?? 'Correct!'}
-            </p>
-          </div>
-        )}
-      </div>
+    <div className={styles.page}>
+      <main className={styles.main}>
+        {content}
+      </main>
     </div>
   );
 }

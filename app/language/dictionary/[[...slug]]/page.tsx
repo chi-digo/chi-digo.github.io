@@ -83,7 +83,7 @@ export async function generateMetadata({
       title: 'Chidigo Dictionary',
       description:
         'The largest searchable Chidigo dictionary — 5,200+ entries with definitions in Chidigo, Swahili, and English. Browse by letter or search.',
-      path: '/dictionary',
+      path: '/language/dictionary',
     });
   }
 
@@ -93,7 +93,7 @@ export async function generateMetadata({
     return buildMetadata({
       title: `${letter} — Chidigo Dictionary`,
       description: `Browse Chidigo dictionary words starting with "${letter}" — definitions in Chidigo, Swahili, and English.`,
-      path: `/dictionary/letter/${slug[1]}`,
+      path: `/language/dictionary/letter/${slug[1]}`,
     });
   }
 
@@ -106,18 +106,18 @@ export async function generateMetadata({
       return buildMetadata({
         title: `${headword} — Chidigo Dictionary`,
         description: `${headword} (${entry.pos_en}): ${firstDef}. Trilingual Chidigo dictionary entry with definitions in Chidigo, Swahili, and English.`,
-        path: `/dictionary/word/${encodeURIComponent(headword)}`,
+        path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
       });
     }
     return buildMetadata({
       title: `${headword} — Chidigo Dictionary`,
-      path: `/dictionary/word/${encodeURIComponent(headword)}`,
+      path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
     });
   }
 
   return buildMetadata({
     title: 'Chidigo Dictionary',
-    path: '/dictionary',
+    path: '/language/dictionary',
   });
 }
 
@@ -170,14 +170,14 @@ export default async function Page({
               term: headword,
               definition: firstDef,
               pos: entry.pos_en,
-              path: `/dictionary/word/${encodeURIComponent(headword)}`,
+              path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
             })}
           />
           <JsonLd
             data={breadcrumbJsonLd([
               { name: 'Home', href: '/' },
-              { name: 'Dictionary', href: '/dictionary' },
-              { name: headword, href: `/dictionary/word/${encodeURIComponent(headword)}` },
+              { name: 'Dictionary', href: '/language/dictionary' },
+              { name: headword, href: `/language/dictionary/word/${encodeURIComponent(headword)}` },
             ])}
           />
           <DictionaryClient />

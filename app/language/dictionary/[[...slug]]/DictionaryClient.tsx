@@ -35,15 +35,15 @@ function cleanHeadword(raw: string): string {
 type Navigate = (path: string) => void;
 
 function goToWord(nav: Navigate, headword: string) {
-  nav(`/dictionary/word/${encodeURIComponent(cleanHeadword(headword))}`);
+  nav(`/language/dictionary/word/${encodeURIComponent(cleanHeadword(headword))}`);
 }
 
 function goToLetter(nav: Navigate, letter: string) {
-  nav(`/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`);
+  nav(`/language/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`);
 }
 
 function goToSearch(nav: Navigate, q: string) {
-  nav(`/dictionary?q=${encodeURIComponent(q)}`);
+  nav(`/language/dictionary?q=${encodeURIComponent(q)}`);
 }
 
 /* ===== Search dropdown (shared) ===== */

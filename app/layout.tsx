@@ -60,10 +60,14 @@ export default function RootLayout({
     <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <Script
-          id="locale-blocking"
+          id="init-scripts"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})();`,
+            __html: [
+              `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})()`,
+              `window.addEventListener('pageshow',function(e){if(e.persisted)window.location.reload()})`,
+              `window.addEventListener('popstate',function(){window.location.reload()})`,
+            ].join(';'),
           }}
         />
       </head>

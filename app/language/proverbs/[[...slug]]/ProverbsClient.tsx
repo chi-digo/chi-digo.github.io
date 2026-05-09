@@ -24,19 +24,19 @@ const LANG_LABELS: Record<string, string> = {
 };
 
 function goToProverb(nav: Navigate, slug: string) {
-  nav(`/proverbs/${encodeURIComponent(slug)}`);
+  nav(`/language/proverbs/${encodeURIComponent(slug)}`);
 }
 
 function goToTheme(nav: Navigate, theme: string) {
-  nav(`/proverbs/theme/${encodeURIComponent(theme)}`);
+  nav(`/language/proverbs/theme/${encodeURIComponent(theme)}`);
 }
 
 function goToLetter(nav: Navigate, letter: string) {
-  nav(`/proverbs/letter/${encodeURIComponent(letter.toLowerCase())}`);
+  nav(`/language/proverbs/letter/${encodeURIComponent(letter.toLowerCase())}`);
 }
 
 function goToSearch(nav: Navigate, q: string) {
-  nav(`/proverbs?q=${encodeURIComponent(q)}`);
+  nav(`/language/proverbs?q=${encodeURIComponent(q)}`);
 }
 
 /* ===== Search dropdown ===== */

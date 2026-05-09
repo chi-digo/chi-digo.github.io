@@ -21,7 +21,7 @@ export const languageTools: LanguageTool[] = [
       sw: 'Maneno zaidi ya 5,200 yenye maana kwa Kidigo, Kiswahili, na Kiingereza. Tafuta, vinjari kwa herufi, na gundua maneno yanayotokana.',
       dig: 'Maneno zaidi ya 5,200 na madzo ga Chidigo, Chiswahili, na Chiingereza. Tafuta, hakiki kwa herufi, na gundua maneno garigo ndani.',
     },
-    href: '/dictionary',
+    href: '/language/dictionary',
     available: true,
   },
   {
@@ -36,7 +36,7 @@ export const languageTools: LanguageTool[] = [
       sw: 'Methali 378 za Kidigo zenye tafsiri, maoni ya kitamaduni, na kuvinjari kwa mada. Tafuta kwa Kidigo, Kiswahili, au Kiingereza.',
       dig: 'Ndarira 378 za Chidigo na tafsiri, madzo ga chisomo, na kuhakiki kwa mada. Tafuta kwa Chidigo, Chiswahili, au Chiingereza.',
     },
-    href: '/proverbs',
+    href: '/language/proverbs',
     available: true,
   },
   {

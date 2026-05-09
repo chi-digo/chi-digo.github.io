@@ -49,7 +49,7 @@ export async function generateMetadata({
       title: 'Chidigo Proverbs',
       description:
         '378 Digo proverbs with translations in Chidigo, Swahili, and English. Browse by theme, search, and explore cultural commentary.',
-      path: '/proverbs',
+      path: '/language/proverbs',
     });
   }
 
@@ -59,7 +59,7 @@ export async function generateMetadata({
     return buildMetadata({
       title: `${label} — Chidigo Proverbs`,
       description: `Digo proverbs about ${theme} — with translations and cultural commentary in Chidigo, Swahili, and English.`,
-      path: `/proverbs/theme/${slug[1]}`,
+      path: `/language/proverbs/theme/${slug[1]}`,
     });
   }
 
@@ -68,7 +68,7 @@ export async function generateMetadata({
     return buildMetadata({
       title: `${letter} — Chidigo Proverbs`,
       description: `Digo proverbs starting with "${letter}" — with translations and cultural commentary.`,
-      path: `/proverbs/letter/${slug[1]}`,
+      path: `/language/proverbs/letter/${slug[1]}`,
     });
   }
 
@@ -83,13 +83,13 @@ export async function generateMetadata({
     return buildMetadata({
       title: `${title} — Chidigo Proverbs`,
       description: desc,
-      path: `/proverbs/${proverbSlug}`,
+      path: `/language/proverbs/${proverbSlug}`,
     });
   }
 
   return buildMetadata({
     title: 'Chidigo Proverbs',
-    path: '/proverbs',
+    path: '/language/proverbs',
   });
 }
 
