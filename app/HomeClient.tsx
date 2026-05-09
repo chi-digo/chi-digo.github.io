@@ -256,16 +256,13 @@ export default function HomeClient() {
               </span>
             </TrackedLink>
 
-            {/* 6. Quiz (Coming Soon) */}
-            <div className={`${styles.featureCard} ${styles.featureCardDisabled}`}>
-              <span className={styles.featureBadgeSoon}>
-                {locale === 'sw' ? 'Inakuja hivi karibuni' : locale === 'dig' ? 'Inakpwedza vi karibuni' : 'Coming soon'}
-              </span>
+            {/* 6. Quiz */}
+            <TrackedLink href="/language/quiz" source="explore_grid" className={styles.featureCard}>
               <span className={styles.featureTitle}>{quiz.title[locale]}</span>
               <span className={styles.featureDesc}>
                 {quiz.description[locale]?.split('.')[0]}.
               </span>
-            </div>
+            </TrackedLink>
           </div>
         </div>
       </section>
