@@ -265,11 +265,11 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   ctx.fillStyle = COLORS.indigo;
   ctx.globalAlpha = 0.5;
   ctx.textAlign = 'center';
-  ctx.fillText('chidigo.org/language/quiz', SIZE / 2, bandY2 - 80);
+  ctx.fillText('https://chidigo.org/language/quiz', SIZE / 2, bandY2 - 110);
   ctx.globalAlpha = 1;
 
-  // Brand bar (centered, above bottom motif — matching proverb card)
-  const brandY = bandY2 - 40;
+  // Brand bar (centered, above bottom motif)
+  const brandY = bandY2 - 55;
   drawBrandBar(ctx, SIZE / 2, brandY, COLORS.indigo, 'rgba(31,58,95,0.5)');
 
   return new Promise<Blob>((resolve, reject) => {
