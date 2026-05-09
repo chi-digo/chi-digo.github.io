@@ -332,7 +332,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "The Chi-digo initiative's oral history archive aims to record and preserve these voices: 100 hours of recorded, transcribed, consented oral history by Year 3, rising to 500 hours by Year 5. But recording is only the first step. The deeper challenge is creating a world in which young Digo people see themselves as inheritors of this knowledge — not as passive consumers of archived recordings, but as the next link in a chain that must not break."
+            "text": "The Chidigo initiative's oral history archive aims to record and preserve these voices: 100 hours of recorded, transcribed, consented oral history by Year 3, rising to 500 hours by Year 5. But recording is only the first step. The deeper challenge is creating a world in which young Digo people see themselves as inheritors of this knowledge — not as passive consumers of archived recordings, but as the next link in a chain that must not break."
           }
         ],
         "sw": [
@@ -394,7 +394,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Hifadhi ya historia simulizi ya mpango wa Chi-digo inalenga kurekodi na kuhifadhi sauti hizi: saa 100 za historia simulizi iliyorekodiwa, iliyoandikwa, na yenye ridhaa ifikapo Mwaka wa 3, ikipanda hadi saa 500 ifikapo Mwaka wa 5. Lakini kurekodi ni hatua ya kwanza tu. Changamoto kubwa zaidi ni kuunda ulimwengu ambao vijana wa Kidigo wanajiiona kama warithi wa maarifa haya — si kama watumiaji wa kawaida wa rekodi zilizohifadhiwa, bali kama kiungo kinachofuata katika mnyororo ambao haupaswi kuvunjika."
+            "text": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti hizi: saa 100 za historia simulizi iliyorekodiwa, iliyoandikwa, na yenye ridhaa ifikapo Mwaka wa 3, ikipanda hadi saa 500 ifikapo Mwaka wa 5. Lakini kurekodi ni hatua ya kwanza tu. Changamoto kubwa zaidi ni kuunda ulimwengu ambao vijana wa Kidigo wanajiiona kama warithi wa maarifa haya — si kama watumiaji wa kawaida wa rekodi zilizohifadhiwa, bali kama kiungo kinachofuata katika mnyororo ambao haupaswi kuvunjika."
           }
         ],
         "dig": [
@@ -456,7 +456,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Hifadhi ya historia simulizi ya mpango wa Chi-digo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa gaga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
+            "text": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa gaga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
           }
         ]
       }
@@ -1356,7 +1356,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "*Mgombato: Digo-English-Swahili Dictionary*, compiled by Mwalonya, Nicolle, Nicolle, and Zimbu and published in 2004, is the definitive dictionary. It documents Digo vocabulary through English and Swahili equivalents — a valuable resource, but one that defines Digo in terms of other languages rather than in its own terms. The Chi-digo initiative's monolingual dictionary project aims to address this: definitions written in Digo, for Digo speakers, using Digo concepts."
+            "text": "*Mgombato: Digo-English-Swahili Dictionary*, compiled by Mwalonya, Nicolle, Nicolle, and Zimbu and published in 2004, is the definitive dictionary. It documents Digo vocabulary through English and Swahili equivalents — a valuable resource, but one that defines Digo in terms of other languages rather than in its own terms. The Chidigo initiative's monolingual dictionary project aims to address this: definitions written in Digo, for Digo speakers, using Digo concepts."
           },
           {
             "type": "paragraph",
@@ -1372,7 +1372,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "These collections begin to bridge the gap between oral and written tradition, but they treat proverbs as specimens to be catalogued rather than as living elements of a literary culture. The next step — and this is what the Chi-digo cultural production programme envisions — is to create contexts where proverbs appear not in dictionaries but in stories, not in scholarly annotations but in poems, not as archived specimens but as active elements of a written Digo literature that does not yet exist."
+            "text": "These collections begin to bridge the gap between oral and written tradition, but they treat proverbs as specimens to be catalogued rather than as living elements of a literary culture. The next step — and this is what the Chidigo cultural production programme envisions — is to create contexts where proverbs appear not in dictionaries but in stories, not in scholarly annotations but in poems, not as archived specimens but as active elements of a written Digo literature that does not yet exist."
           },
           {
             "type": "heading",
@@ -1462,7 +1462,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Makusanyo haya yanaanza kuziba pengo kati ya mapokeo ya simulizi na ya maandishi, lakini yanashughulikia methali kama vielelezo vya kukusanywa badala ya vipengele hai vya utamaduni wa kifasihi. Hatua inayofuata — na hii ndiyo programu ya uzalishaji wa kitamaduni ya Chi-digo inavyotazamia — ni kuunda mazingira ambapo methali zinaonekana si katika kamusi bali katika hadithi, si katika maelezo ya kitaaluma bali katika mashairi, si kama vielelezo vilivyohifadhiwa bali kama vipengele hai vya fasihi ya Kidigo iliyoandikwa ambayo bado haipo."
+            "text": "Makusanyo haya yanaanza kuziba pengo kati ya mapokeo ya simulizi na ya maandishi, lakini yanashughulikia methali kama vielelezo vya kukusanywa badala ya vipengele hai vya utamaduni wa kifasihi. Hatua inayofuata — na hii ndiyo programu ya uzalishaji wa kitamaduni ya Chidigo inavyotazamia — ni kuunda mazingira ambapo methali zinaonekana si katika kamusi bali katika hadithi, si katika maelezo ya kitaaluma bali katika mashairi, si kama vielelezo vilivyohifadhiwa bali kama vipengele hai vya fasihi ya Kidigo iliyoandikwa ambayo bado haipo."
           },
           {
             "type": "heading",
@@ -1552,7 +1552,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Makusanyo gaga ganaandza kuziba pengo kahi ya mapokeo ga simulizi na ga maandishi, ela ganashughulika misemo kukala vielelezo vya kukusanywa badala ya vipengele vya moyo vya utamaduni wa chifasihi. Hathwa inayolunga — na ihi ndiyo programu ya uzalishaji wa chitamaduni ya Chi-digo inavyotazamiya — ni kuumba mazingira ambamo misemo inaonekana si kpwenye kamusi ela kpwenye hadithi, si kpwenye maelezo ga chitaaluma ela kpwenye mashairi, si kukala vielelezo virivyohifadhiwa ela kukala vipengele vya moyo vya fasihi ya Chidigo iriyoandikwa ambayo bado taipo."
+            "text": "Makusanyo gaga ganaandza kuziba pengo kahi ya mapokeo ga simulizi na ga maandishi, ela ganashughulika misemo kukala vielelezo vya kukusanywa badala ya vipengele vya moyo vya utamaduni wa chifasihi. Hathwa inayolunga — na ihi ndiyo programu ya uzalishaji wa chitamaduni ya Chidigo inavyotazamiya — ni kuumba mazingira ambamo misemo inaonekana si kpwenye kamusi ela kpwenye hadithi, si kpwenye maelezo ga chitaaluma ela kpwenye mashairi, si kukala vielelezo virivyohifadhiwa ela kukala vipengele vya moyo vya fasihi ya Chidigo iriyoandikwa ambayo bado taipo."
           },
           {
             "type": "heading",

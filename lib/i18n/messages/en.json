@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Chi-digo — Building the transmission tools for the Chidigo language",
+    "title": "Chidigo — Building the transmission tools for the Chidigo language",
     "description": "Building the transmission tools for the Chidigo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
-    "og_title": "Chi-digo",
+    "og_title": "Chidigo",
     "og_description": "Building the transmission tools for the Chidigo language.",
     "og_locale": "en_US",
-    "twitter_title": "Chi-digo",
+    "twitter_title": "Chidigo",
     "twitter_description": "Building the transmission tools for the Chidigo language."
   },
   "nav": {
@@ -130,7 +130,7 @@
     "back_to_history": "← History"
   },
   "breadcrumb": {
-    "home": "Chi-digo",
+    "home": "Chidigo",
     "culture": "Culture",
     "language": "Language",
     "dictionary": "Dictionary",
@@ -174,21 +174,21 @@
     }
   },
   "footer": {
-    "copyright": "Chi-digo",
+    "copyright": "Chidigo",
     "about_heading": "About",
     "explore_heading": "Explore",
     "connect_heading": "Connect",
-    "about_link": "About Chi-digo",
+    "about_link": "About Chidigo",
     "mission_link": "Our Mission",
     "vision_link": "Our Vision",
     "contact_link": "Contact",
     "license": "Content licensed under CC-BY-SA 4.0"
   },
   "about": {
-    "eyebrow": "About Chi-digo",
+    "eyebrow": "About Chidigo",
     "title": "Building the tools a language needs to survive.",
     "who_we_are_heading": "Who we are",
-    "who_we_are_body": "Chi-digo is a language revitalisation initiative for Chidigo, the Bantu language of the Digo people of coastal Kenya and Tanzania. We build reference works, digital platforms, cultural content, and transmission tools — everything the Digo community needs to keep its language alive for the next generation.",
+    "who_we_are_body": "Chidigo is a language revitalisation initiative for Chidigo, the Bantu language of the Digo people of coastal Kenya and Tanzania. We build reference works, digital platforms, cultural content, and transmission tools — everything the Digo community needs to keep its language alive for the next generation.",
     "problem_heading": "The problem we solve",
     "problem_quote": "“My parents understand Chidigo when their grandmother speaks. They reply in Swahili. My children don’t understand at all.”",
     "problem_body_1": "This pattern — passive parents, peer-only transmission, screen lives in Swahili and English — is {cliff}, not a slope.",
@@ -278,7 +278,7 @@
     "role_audio_title": "Record audio",
     "role_audio_body": "The dictionary needs a voice for every entry. Native speakers can contribute recordings — one word at a time, from any phone.",
     "partners_heading": "For partners and funders",
-    "partners_body": "Chi-digo is a mission-led language revitalisation initiative. All reference content is published under CC-BY-SA 4.0. If you share our belief that Chidigo deserves a living future, we’d welcome a conversation."
+    "partners_body": "Chidigo is a mission-led language revitalisation initiative. All reference content is published under CC-BY-SA 4.0. If you share our belief that Chidigo deserves a living future, we’d welcome a conversation."
   },
   "not_found": {
     "title": "Page not found",

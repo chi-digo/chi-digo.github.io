@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Chi-digo — Kudzenga vyombo vya kueneza luga ya Chidigo",
+    "title": "Chidigo — Kudzenga vyombo vya kueneza luga ya Chidigo",
     "description": "Kudzenga vyombo vya kueneza luga ya Chidigo — kamusi, misemo, sauti, na maliasili za chisomo kwa azungumzadzi 600,000 pwani ya Kenya na Tanzania.",
-    "og_title": "Chi-digo",
+    "og_title": "Chidigo",
     "og_description": "Kudzenga vyombo vya kueneza luga ya Chidigo.",
     "og_locale": "dig",
-    "twitter_title": "Chi-digo",
+    "twitter_title": "Chidigo",
     "twitter_description": "Kudzenga vyombo vya kueneza luga ya Chidigo."
   },
   "nav": {
@@ -130,7 +130,7 @@
     "back_to_history": "← Historia"
   },
   "breadcrumb": {
-    "home": "Chi-digo",
+    "home": "Chidigo",
     "culture": "Chimila",
     "language": "Luga",
     "dictionary": "Kamusi",
@@ -174,21 +174,21 @@
     }
   },
   "footer": {
-    "copyright": "Chi-digo",
+    "copyright": "Chidigo",
     "about_heading": "Kuhusu",
     "explore_heading": "Gundua",
     "connect_heading": "Wasiliana",
-    "about_link": "Kuhusu Chi-digo",
+    "about_link": "Kuhusu Chidigo",
     "mission_link": "Lengo Rehu",
     "vision_link": "Maono Gehu",
     "contact_link": "Wasiliana Naswi",
     "license": "Maudhui gaidhinishwa kahi za CC-BY-SA 4.0"
   },
   "about": {
-    "eyebrow": "Kuhusu Chi-digo",
+    "eyebrow": "Kuhusu Chidigo",
     "title": "Kudzenga vyombo ambavyo luga inahitaji ili kuishi.",
     "who_we_are_heading": "Swi ni ani",
-    "who_we_are_body": "Chi-digo ni mradi wa kufufua luga ya Chidigo, luga ya Chibantu ya Adigo a pwani ya Kenya na Tanzania. Hunadzenga vitabu vya rejea, majukwaa ga kidijitali, maudhui ga chisomo, na vyombo vya kueneza — chila chitu ambacho jamii ya Adigo inahitaji ili kudumisha luga yake kwa chizazi chijacho.",
+    "who_we_are_body": "Chidigo ni mradi wa kufufua luga ya Chidigo, luga ya Chibantu ya Adigo a pwani ya Kenya na Tanzania. Hunadzenga vitabu vya rejea, majukwaa ga kidijitali, maudhui ga chisomo, na vyombo vya kueneza — chila chitu ambacho jamii ya Adigo inahitaji ili kudumisha luga yake kwa chizazi chijacho.",
     "problem_heading": "Tatatizo hunarotatua",
     "problem_quote": "“Avyazi angu anaelewa Chidigo bibi yao anapozungumza. Anajibu kwa Chiswahili. Ana angu taaelewa kabisa.”",
     "problem_body_1": "Njira iyi — avyazi asiozungumza luga, mawasiliano ga rika bahi, maisha ga skrini kwa Chiswahili na Chiingereza — ni {cliff}, si mteremko.",
@@ -278,7 +278,7 @@
     "role_audio_title": "Rekodi sauti",
     "role_audio_body": "Kamusi inahitaji sauti kwa kila neno. Azungumzadzi asili anaweza kuchangia rekodi — neno mwenga kwa wakati, kula simu yoyote.",
     "partners_heading": "Kwa ashirika na afadhili",
-    "partners_body": "Chi-digo ni mradi wa kufufua luga unaoongozwa na lengo. Maudhui gosi ga rejea ganachapishwa kahi za CC-BY-SA 4.0. Ukirishiriki imani yehu kukala Chidigo chinastahili wakati ujao urio moyo, hungependa mazungumzo."
+    "partners_body": "Chidigo ni mradi wa kufufua luga unaoongozwa na lengo. Maudhui gosi ga rejea ganachapishwa kahi za CC-BY-SA 4.0. Ukirishiriki imani yehu kukala Chidigo chinastahili wakati ujao urio moyo, hungependa mazungumzo."
   },
   "not_found": {
     "title": "Ukurasa tauyaoneka",

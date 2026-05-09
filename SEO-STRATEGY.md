@@ -1,4 +1,4 @@
-# Chi-digo SEO Strategy
+# Chidigo SEO Strategy
 
 ## Overview
 

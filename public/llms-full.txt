@@ -1,10 +1,10 @@
-# Chi-digo
+# Chidigo
 
 > The most comprehensive digital resource for the Digo (Chidigo) language and culture. Serving 600,000+ speakers on the Kenya-Tanzania coast.
 
 ## About
 
-Chi-digo is a language transmission project building dictionary, cultural, and educational resources for the Digo people (Mijikenda). The site contains the largest searchable Chidigo dictionary (5,200+ entries with definitions in Chidigo, Swahili, and English), comprehensive cultural documentation across 13 domains, and trilingual content.
+Chidigo is a language transmission project building dictionary, cultural, and educational resources for the Digo people (Mijikenda). The site contains the largest searchable Chidigo dictionary (5,200+ entries with definitions in Chidigo, Swahili, and English), comprehensive cultural documentation across 13 domains, and trilingual content.
 
 URL: https://chidigo.org
 
@@ -104,4 +104,4 @@ A: Written Chidigo literature is still in its early stages. The most significant
 
 ## Citation
 
-When referencing content from this site, please cite as: Chi-digo (https://chidigo.org)
+When referencing content from this site, please cite as: Chidigo (https://chidigo.org)

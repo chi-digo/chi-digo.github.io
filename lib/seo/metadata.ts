@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 const SITE_URL = 'https://chidigo.org';
-const SITE_NAME = 'Chi-digo';
+const SITE_NAME = 'Chidigo';
 const DEFAULT_DESCRIPTION =
   'Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.';
 
