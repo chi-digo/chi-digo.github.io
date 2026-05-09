@@ -51,6 +51,7 @@ export function NavBar() {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const menuRef = useRef<HTMLUListElement>(null);
   const drawerRef = useRef<HTMLDivElement>(null);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
   const searchBtnRef = useRef<HTMLButtonElement>(null);
 
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
@@ -94,9 +95,11 @@ export function NavBar() {
     if (!mobileOpen) return;
 
     function handlePointerDown(e: PointerEvent) {
+      const target = e.target as Node;
       if (
         drawerRef.current &&
-        !drawerRef.current.contains(e.target as Node)
+        !drawerRef.current.contains(target) &&
+        !hamburgerRef.current?.contains(target)
       ) {
         setMobileOpen(false);
       }
@@ -307,6 +310,7 @@ export function NavBar() {
 
       {/* Mobile hamburger */}
       <button
+        ref={hamburgerRef}
         type="button"
         className={styles.hamburger}
         onClick={() => {

@@ -1,8 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
-  height: 100dvh;
+  min-height: 0;
   background-color: var(--color-kaya-deep);
   overflow: visible;
 }
@@ -50,13 +49,12 @@
 /* ===== Content ===== */
 
 .content {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 25%;
+  position: relative;
   z-index: 2;
   width: 90%;
-  max-width: 640px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: clamp(6rem, 15vw, 10rem) 0 clamp(4rem, 10vw, 7rem);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -82,7 +80,7 @@
   line-height: 1.4;
   color: var(--color-hando-cream);
   opacity: 0.75;
-  margin: 0.5rem 0 0 0;
+  margin: 1.25rem 0 0 0;
   max-width: 100%;
   text-align: center;
 }
@@ -160,7 +158,7 @@
 .heroSearch {
   width: 100%;
   max-width: 520px;
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
   position: relative;
 
   --bg-surface: rgba(255, 255, 255, 0.12);
@@ -180,8 +178,11 @@
 }
 
 .heroSearch [role="listbox"] {
-  --bg-surface: rgba(14, 26, 42, 0.96);
-  --bg-surface-muted: rgba(242, 234, 215, 0.08);
+  --bg-surface: var(--color-hando-cream);
+  --bg-surface-muted: rgba(14, 26, 42, 0.06);
+  --fg-default: var(--color-kaya-deep);
+  --fg-muted: rgba(14, 26, 42, 0.6);
+  --fg-heading: var(--color-kaya-deep);
 }
 
 /* ===== Shared section styles ===== */
@@ -363,13 +364,9 @@
   }
 
   .content {
-    top: 20%;
     max-width: 92%;
   }
 
-  .heroSearch {
-    display: none;
-  }
 
   .exploreGrid {
     grid-template-columns: 1fr;
@@ -377,10 +374,6 @@
 }
 
 @media (max-height: 500px) {
-  .content {
-    top: max(20%, 60px);
-  }
-
   .heroSearch {
     margin-top: 0.75rem;
   }

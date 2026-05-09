@@ -397,9 +397,7 @@
   }
 
   .searchBtn {
-    display: flex;
-    margin-left: auto;
-    margin-right: 4px;
+    display: none;
   }
 }
 

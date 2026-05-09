@@ -10,13 +10,10 @@ import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { useTrackView } from '@/hooks/useTrackView';
 import { useUniversalSearch, buildSearchGroups } from '@/hooks/useUniversalSearch';
 import { track } from '@/lib/analytics/track';
-import { loadProverbs } from '@/lib/proverbs/loader';
-import { getFeaturedProverb } from '@/lib/proverbs/featured';
 import { getFeaturedArticle } from '@/lib/home/featured';
 import { languageTools } from '@/lib/language/tools';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { POS_ABBREVIATIONS } from '@/lib/constants';
-import type { Proverb } from '@/lib/proverbs/types';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from './page.module.css';
 
@@ -42,6 +39,7 @@ function getWordForDate(): string {
 const QUICK_LINKS = [
   { label: 'Dictionary', labelSw: 'Kamusi', labelDig: 'Kamusi', href: '/dictionary' },
   { label: 'Proverbs', labelSw: 'Methali', labelDig: 'Ndarira', href: '/proverbs' },
+  { label: 'Games', labelSw: 'Michezo', labelDig: 'Michezo', href: '/language/quiz' },
   { label: 'Culture', labelSw: 'Utamaduni', labelDig: 'Chimila', href: '/culture' },
   { label: 'History', labelSw: 'Historia', labelDig: 'Historia', href: '/history' },
 ] as const;
@@ -78,14 +76,9 @@ export default function HomeClient() {
     track('orientation', 'search', 'submit', { query: q });
   }, [router, setQuery]);
 
-  const [dailyProverb, setDailyProverb] = useState<Proverb | null>(null);
   const [wotdEntry, setWotdEntry] = useState<DictionaryEntry | null>(null);
 
   useEffect(() => {
-    loadProverbs().then((proverbs) => {
-      setDailyProverb(getFeaturedProverb(proverbs));
-    });
-
     const word = getWordForDate();
     loadEntriesByHeadword(word).then((entries) => {
       setWotdEntry(entries[0] ?? null);
@@ -108,6 +101,14 @@ export default function HomeClient() {
 
         <div className={styles.content}>
           <h1 className={styles.title}>{t.hero.title}</h1>
+
+          <p className={styles.subtitle}>
+            {locale === 'sw'
+              ? 'Chunguza lugha, utamaduni, na historia ya Kidigo'
+              : locale === 'dig'
+                ? 'Chunguza luga, chimila, na historia ya Chidigo'
+                : 'Explore the Digo language, culture, and history'}
+          </p>
 
           <div className={styles.heroSearch}>
             <SearchCombobox
@@ -132,29 +133,6 @@ export default function HomeClient() {
             />
           </div>
 
-          <p className={styles.subtitle}>
-            {locale === 'sw'
-              ? 'Chunguza lugha, utamaduni, na historia ya Kidigo'
-              : locale === 'dig'
-                ? 'Chunguza luga, chimila, na historia ya Chidigo'
-                : 'Explore the Digo language, culture, and history'}
-          </p>
-
-          {dailyProverb && (
-            <div className={styles.dailyProverb}>
-              <p className={styles.proverb} lang="dig">
-                {dailyProverb.digo}
-              </p>
-              <p className={styles.gloss} lang={locale}>
-                {locale === 'sw'
-                  ? dailyProverb.idiomatic_sw || dailyProverb.literal_sw
-                  : locale === 'dig'
-                    ? dailyProverb.idiomatic_dg
-                    : dailyProverb.idiomatic_en || dailyProverb.literal_en}
-              </p>
-            </div>
-          )}
-
           <div className={styles.pills}>
             {QUICK_LINKS.map((link) => (
               <TrackedLink
@@ -167,6 +145,7 @@ export default function HomeClient() {
               </TrackedLink>
             ))}
           </div>
+
         </div>
       </section>
 
