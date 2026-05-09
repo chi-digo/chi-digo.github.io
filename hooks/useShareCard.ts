@@ -47,13 +47,11 @@ export function useShareCard() {
     text: string,
     url: string
   ): Promise<ShareResult> => {
-    let blob = blobRef.current;
-    if (!blob) {
-      return 'cancelled';
-    }
+    const blob = blobRef.current;
+    if (!blob) return 'cancelled';
+    blobRef.current = null;
     const result = await shareImage(blob, `chidigo-${contentType}.png`, title, text, url);
     trackShare(contentType, result);
-    blobRef.current = null;
     return result;
   }, []);
 

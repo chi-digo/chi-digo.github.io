@@ -10,6 +10,8 @@ export function canShareFiles(): boolean {
   }
 }
 
+let shareInProgress = false;
+
 export async function shareImage(
   blob: Blob,
   filename: string,
@@ -17,29 +19,38 @@ export async function shareImage(
   text: string,
   url: string
 ): Promise<ShareResult> {
-  const file = new File([blob], filename, { type: 'image/png' });
+  if (shareInProgress) return 'cancelled';
+  shareInProgress = true;
 
-  if (canShareFiles()) {
-    try {
-      await navigator.share({ files: [file], title, text });
-      return 'shared';
-    } catch (e) {
-      if (e instanceof DOMException && e.name === 'AbortError') return 'cancelled';
+  try {
+    const file = new File([blob], filename, { type: 'image/png' });
+
+    if (canShareFiles()) {
+      try {
+        await navigator.share({ files: [file], title });
+        return 'shared';
+      } catch (e) {
+        if (e instanceof DOMException && e.name === 'AbortError') return 'cancelled';
+        return 'shared';
+      }
     }
-  }
 
-  if (navigator.share) {
-    try {
-      await navigator.share({ title, text, url });
-      return 'url_only';
-    } catch (e) {
-      if (e instanceof DOMException && e.name === 'AbortError') return 'cancelled';
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, text, url });
+        return 'url_only';
+      } catch (e) {
+        if (e instanceof DOMException && e.name === 'AbortError') return 'cancelled';
+        return 'cancelled';
+      }
     }
-  }
 
-  downloadBlob(blob, filename);
-  await copyToClipboard(url);
-  return 'downloaded';
+    downloadBlob(blob, filename);
+    await copyToClipboard(url);
+    return 'downloaded';
+  } finally {
+    shareInProgress = false;
+  }
 }
 
 export async function copyToClipboard(text: string): Promise<boolean> {
