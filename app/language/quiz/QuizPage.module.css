@@ -135,3 +135,29 @@
   color: var(--color-success-green);
   margin: 0;
 }
+
+/* Score card overrides */
+.scoreCard > div:first-child {
+  width: 160px !important;
+  height: 160px !important;
+}
+
+.scoreCard > div:first-child svg {
+  width: 160px !important;
+  height: 160px !important;
+}
+
+.scoreCard > div:first-child span {
+  font-size: var(--text-2xl) !important;
+}
+
+.shareButton {
+  background-color: var(--color-mnazi-gold, #C99846) !important;
+  border-color: var(--color-mnazi-gold, #C99846) !important;
+  color: white !important;
+}
+
+.shareButton:hover {
+  background-color: var(--color-mnazi-gold-dark, #b08738) !important;
+  border-color: var(--color-mnazi-gold-dark, #b08738) !important;
+}

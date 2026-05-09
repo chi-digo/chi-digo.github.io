@@ -280,6 +280,36 @@ const LOADING_PROVERBS = [
   'Mwenye kuishi maishani lazima ajifunze',
 ];
 
+// ── Icons ──
+
+function ShareIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+      <polyline points="16 6 12 2 8 6" />
+      <line x1="12" y1="2" x2="12" y2="15" />
+    </svg>
+  );
+}
+
+function ReplayIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <polyline points="1 4 1 10 7 10" />
+      <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+    </svg>
+  );
+}
+
+function BackIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="19" y1="12" x2="5" y2="12" />
+      <polyline points="12 19 5 12 12 5" />
+    </svg>
+  );
+}
+
 // ── Component ──
 
 export function QuizPage() {
@@ -446,22 +476,24 @@ export function QuizPage() {
           total={QUESTIONS_PER_ROUND}
           breakdown={breakdown}
           message={message}
+          className={styles.scoreCard}
           style={{ width: '100%' }}
           actions={
             <>
               <Button
-                variant="secondary"
+                className={styles.shareButton}
                 disabled={isGenerating}
                 onClick={() => shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown })}
+                iconLeft={<ShareIcon />}
               >
                 {isGenerating
                   ? (t.quiz?.results?.sharing ?? 'Sharing...')
                   : (t.quiz?.results?.share ?? 'Share Score')}
               </Button>
-              <Button onClick={handleRestart}>
+              <Button onClick={handleRestart} iconLeft={<ReplayIcon />}>
                 {t.quiz?.results?.playAgain ?? 'Play Again'}
               </Button>
-              <Button variant="secondary" onClick={() => window.history.back()}>
+              <Button variant="ghost" onClick={() => window.history.back()} iconLeft={<BackIcon />}>
                 {t.quiz?.results?.backToTools ?? 'Back to Tools'}
               </Button>
             </>
