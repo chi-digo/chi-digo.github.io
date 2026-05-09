@@ -37,8 +37,8 @@ function getWordForDate(): string {
 }
 
 const QUICK_LINKS = [
-  { label: 'Dictionary', labelSw: 'Kamusi', labelDig: 'Kamusi', href: '/dictionary' },
-  { label: 'Proverbs', labelSw: 'Methali', labelDig: 'Ndarira', href: '/proverbs' },
+  { label: 'Dictionary', labelSw: 'Kamusi', labelDig: 'Kamusi', href: '/language/dictionary' },
+  { label: 'Proverbs', labelSw: 'Methali', labelDig: 'Ndarira', href: '/language/proverbs' },
   { label: 'Games', labelSw: 'Michezo', labelDig: 'Michezo', href: '/language/quiz' },
   { label: 'Culture', labelSw: 'Utamaduni', labelDig: 'Chimila', href: '/culture' },
   { label: 'History', labelSw: 'Historia', labelDig: 'Historia', href: '/history' },
@@ -171,7 +171,7 @@ export default function HomeClient() {
 
           <div className={styles.exploreGrid}>
             {/* 1. Dictionary */}
-            <TrackedLink href="/dictionary" source="explore_grid" className={styles.featureCard}>
+            <TrackedLink href="/language/dictionary" source="explore_grid" className={styles.featureCard}>
               <span className={styles.featureStat}>{dictionary.description[locale]?.split('.')[0]}</span>
               <span className={styles.featureTitle}>{dictionary.title[locale]}</span>
               <span className={styles.featureDesc}>
@@ -185,7 +185,7 @@ export default function HomeClient() {
 
             {/* 2. Word of the Day */}
             <TrackedLink
-              href={wotdEntry ? `/dictionary/word/${encodeURIComponent(wotdEntry.headword)}` : '/dictionary'}
+              href={wotdEntry ? `/language/dictionary/word/${encodeURIComponent(wotdEntry.headword)}` : '/language/dictionary'}
               source="explore_grid"
               className={`${styles.featureCard} ${styles.featureCardHighlight}`}
             >
@@ -217,7 +217,7 @@ export default function HomeClient() {
             </TrackedLink>
 
             {/* 3. Proverbs */}
-            <TrackedLink href="/proverbs" source="explore_grid" className={styles.featureCard}>
+            <TrackedLink href="/language/proverbs" source="explore_grid" className={styles.featureCard}>
               <span className={styles.featureStat}>{proverbs.description[locale]?.split('.')[0]}</span>
               <span className={styles.featureTitle}>{proverbs.title[locale]}</span>
               <span className={styles.featureDesc}>
