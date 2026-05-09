@@ -720,7 +720,7 @@ function DictionaryRouter() {
   const nav: Navigate = useCallback((path: string) => router.push(path), [router]);
 
   const slug = useMemo(() => {
-    const prefix = '/dictionary';
+    const prefix = '/language/dictionary';
     if (!pathname.startsWith(prefix)) return [];
     const rest = pathname.slice(prefix.length).replace(/^\//, '');
     if (!rest) return [];
