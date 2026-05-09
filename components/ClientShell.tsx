@@ -9,6 +9,8 @@ import { Breadcrumb } from '@/components/Breadcrumb/Breadcrumb';
 import { Footer } from '@/components/Footer/Footer';
 import { AnalyticsProvider } from '@/components/Analytics/AnalyticsProvider';
 import { ConsentBanner } from '@/components/Analytics/ConsentBanner';
+import { UpdateToast } from '@/components/UpdateToast/UpdateToast';
+import { useServiceWorker } from '@/hooks/useServiceWorker';
 
 const Agentation = dynamic(
   () => import('agentation').then((mod) => mod.Agentation),
@@ -20,6 +22,8 @@ interface ClientShellProps {
 }
 
 export function ClientShell({ children }: ClientShellProps) {
+  const { updateAvailable, applyUpdate, dismissUpdate } = useServiceWorker();
+
   return (
     <LocaleProvider>
       <AnalyticsProvider />
@@ -29,6 +33,9 @@ export function ClientShell({ children }: ClientShellProps) {
       {children}
       <Footer />
       <ConsentBanner />
+      {updateAvailable && (
+        <UpdateToast onRefresh={applyUpdate} onDismiss={dismissUpdate} />
+      )}
       {process.env.NODE_ENV === 'development' && <Agentation />}
     </LocaleProvider>
   );

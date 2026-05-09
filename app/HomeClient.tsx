@@ -6,6 +6,7 @@ import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
 import { SearchCombobox } from '@/components/SearchCombobox';
 import { CultureSection } from '@/components/CultureSection/CultureSection';
+import { InstallCard } from '@/components/InstallCard/InstallCard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { useTrackView } from '@/hooks/useTrackView';
 import { useUniversalSearch, buildSearchGroups } from '@/hooks/useUniversalSearch';
@@ -271,6 +272,9 @@ export default function HomeClient() {
       <div ref={discoverRef}>
         <CultureSection />
       </div>
+
+      {/* ===== Install ===== */}
+      <InstallCard />
     </>
   );
 }

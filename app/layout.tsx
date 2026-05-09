@@ -1,32 +1,35 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Fraunces, Source_Serif_4, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { ClientShell } from "@/components/ClientShell";
 import { JsonLd } from "@/components/JsonLd";
 import { websiteJsonLd } from "@/lib/seo/jsonld";
 import "./globals.css";
 
-const fraunces = Fraunces({
-  subsets: ["latin", "latin-ext"],
-  style: ["normal", "italic"],
+const fraunces = localFont({
+  src: [
+    { path: "../public/fonts/fraunces-variable-latin.woff2", style: "normal" },
+    { path: "../public/fonts/fraunces-italic-variable-latin.woff2", style: "italic" },
+  ],
   variable: "--font-fraunces",
   display: "swap",
-  axes: ["opsz", "SOFT", "WONK"],
+  weight: "100 900",
   adjustFontFallback: false,
 });
 
-const sourceSerif = Source_Serif_4({
-  subsets: ["latin", "latin-ext"],
-  style: ["normal"],
+const sourceSerif = localFont({
+  src: "../public/fonts/source-serif-4-variable-latin.woff2",
   variable: "--font-source-serif",
   display: "swap",
+  weight: "200 900",
   adjustFontFallback: false,
 });
 
-const inter = Inter({
-  subsets: ["latin", "latin-ext"],
+const inter = localFont({
+  src: "../public/fonts/inter-variable-latin.woff2",
   variable: "--font-inter",
   display: "swap",
+  weight: "100 900",
   adjustFontFallback: false,
 });
 
@@ -59,14 +62,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0E1A2A" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <Script
           id="init-scripts"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: [
               `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})()`,
-              `window.addEventListener('pageshow',function(e){if(e.persisted)window.location.reload()})`,
-              `window.addEventListener('popstate',function(){window.location.reload()})`,
             ].join(';'),
           }}
         />
