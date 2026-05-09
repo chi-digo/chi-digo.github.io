@@ -90,6 +90,8 @@ export function drawBrandBar(
 
   const textX = startX + markSize + gap;
 
+  ctx.textAlign = 'left';
+
   ctx.fillStyle = color;
   ctx.font = nameFont;
   ctx.textBaseline = 'bottom';
