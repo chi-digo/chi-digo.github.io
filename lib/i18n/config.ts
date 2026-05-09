@@ -316,6 +316,7 @@ export interface Messages {
     link_copied: string;
     image_saved: string;
     generating: string;
+    meaning: string;
   };
 }
 

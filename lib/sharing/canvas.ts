@@ -23,8 +23,8 @@ function getProverbText(proverb: Proverb, lang: 'dg' | 'sw'): string {
   return proverb.digo;
 }
 
-function getDefinition(entry: DictionaryEntry, locale: Locale): string {
-  const sense = entry.senses?.[0];
+function getDefinition(entry: DictionaryEntry, locale: Locale, senseIndex = 0): string {
+  const sense = entry.senses?.[senseIndex] ?? entry.senses?.[0];
   if (!sense) return entry.equivalents_en?.[0] || '';
   if (locale === 'sw') return sense.definition_sw || sense.definition_en || '';
   if (locale === 'dig') return sense.definition_dg || sense.definition_en || '';
@@ -106,7 +106,8 @@ export async function renderProverbCard(
 
 export async function renderWordCard(
   entry: DictionaryEntry,
-  locale: Locale
+  locale: Locale,
+  senseIndex = 0
 ): Promise<Blob> {
   await loadShareFonts();
 
@@ -150,9 +151,16 @@ export async function renderWordCard(
   ctx.font = '600 36px Inter, sans-serif';
   ctx.fillText(entry.pos_en || entry.pos, contentX, posY);
 
+  // Sense number (for multi-sense entries)
+  if (entry.senses.length > 1) {
+    ctx.fillStyle = COLORS.gold;
+    ctx.font = '600 36px Inter, sans-serif';
+    ctx.fillText(`${senseIndex + 1}.`, contentX, posY + 50);
+  }
+
   // Definition
-  const defY = posY + 60;
-  const defText = getDefinition(entry, locale);
+  const defY = posY + (entry.senses.length > 1 ? 100 : 60);
+  const defText = getDefinition(entry, locale, senseIndex);
   ctx.fillStyle = COLORS.cream;
   ctx.globalAlpha = 0.75;
   ctx.font = '400 48px "Source Serif 4", serif';

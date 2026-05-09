@@ -14,6 +14,13 @@ interface ShareMenuProps {
     lang: 'dg' | 'sw';
     onToggle: (lang: 'dg' | 'sw') => void;
   };
+  /** For multi-sense dictionary words: show sense picker */
+  sensePicker?: {
+    count: number;
+    selected: number;
+    onSelect: (index: number) => void;
+    getLabel: (index: number) => string;
+  };
 }
 
 function ShareIcon() {
@@ -51,6 +58,7 @@ export function ShareMenu({
   onCopyLink,
   isGenerating,
   proverbLangToggle,
+  sensePicker,
 }: ShareMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -120,6 +128,29 @@ export function ShareMenu({
               >
                 Kiswahili
               </button>
+            </div>
+          )}
+
+          {sensePicker && sensePicker.count > 1 && (
+            <div className={styles.sensePicker}>
+              <span className={styles.senseLabel}>{t.share.meaning}</span>
+              <div className={styles.sensePills} role="radiogroup" aria-label={t.share.meaning}>
+                {Array.from({ length: sensePicker.count }, (_, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    role="radio"
+                    aria-checked={sensePicker.selected === i}
+                    className={`${styles.sensePill} ${sensePicker.selected === i ? styles.sensePillActive : ''}`}
+                    onClick={() => sensePicker.onSelect(i)}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+              </div>
+              <p className={styles.sensePreview} aria-live="polite">
+                {sensePicker.getLabel(sensePicker.selected)}
+              </p>
             </div>
           )}
 

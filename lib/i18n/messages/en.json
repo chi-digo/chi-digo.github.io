@@ -305,6 +305,7 @@
     "copy_link": "Copy Link",
     "link_copied": "Link copied!",
     "image_saved": "Image saved",
-    "generating": "Creating image…"
+    "generating": "Creating image…",
+    "meaning": "Meaning"
   }
 }

@@ -184,6 +184,16 @@ function DictionarySearchBar({ nav }: { nav: Navigate }) {
   );
 }
 
+function getSenseLabel(entry: DictionaryEntry, index: number, locale: Locale): string {
+  const sense = entry.senses[index];
+  if (!sense) return '';
+  const def = locale === 'sw' ? (sense.definition_sw || sense.definition_en)
+    : locale === 'dig' ? (sense.definition_dg || sense.definition_en)
+    : sense.definition_en;
+  if (!def) return entry.equivalents_en?.[0] || '';
+  return def.length > 40 ? def.slice(0, 40) + '…' : def;
+}
+
 /* ===== Featured Word card ===== */
 
 function FeaturedWordCard({ nav }: { nav: Navigate }) {
@@ -191,6 +201,7 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
   const { locale } = useLocale();
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
   const [loading, setLoading] = useState(true);
+  const [shareSense, setShareSense] = useState(0);
   const { prerenderWord, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
@@ -252,7 +263,7 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
         {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
         <div onClick={(e) => e.stopPropagation()}>
           <ShareMenu
-            onMenuOpen={() => prerenderWord(entry, locale)}
+            onMenuOpen={() => prerenderWord(entry, locale, shareSense)}
             onShareImage={() => {
               const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
               sharePrerendered('word', entry.headword, `Chidigo: ${entry.headword}`, entry.headword, url);
@@ -262,6 +273,12 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
               copyLink(url);
             }}
             isGenerating={isGenerating}
+            sensePicker={entry.senses.length > 1 ? {
+              count: entry.senses.length,
+              selected: shareSense,
+              onSelect: (i) => { setShareSense(i); prerenderWord(entry, locale, i); },
+              getLabel: (i) => getSenseLabel(entry, i, locale),
+            } : undefined}
           />
         </div>
       </div>
@@ -434,12 +451,14 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
   const { locale } = useLocale();
   const [entries, setEntries] = useState<DictionaryEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [shareSense, setShareSense] = useState(0);
   const viewTracked = useRef(false);
   const { prerenderWord, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     viewTracked.current = false;
     setLoading(true);
+    setShareSense(0);
     loadEntriesByHeadword(headword)
       .then((found) => {
         setEntries(found);
@@ -502,7 +521,7 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
               )}
             </div>
             <ShareMenu
-              onMenuOpen={() => prerenderWord(primary, locale)}
+              onMenuOpen={() => prerenderWord(primary, locale, shareSense)}
               onShareImage={() => {
                 const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
                 sharePrerendered('word', primary.headword, `Chidigo: ${primary.headword}`, primary.headword, url);
@@ -512,6 +531,12 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
                 copyLink(url);
               }}
               isGenerating={isGenerating}
+              sensePicker={primary.senses.length > 1 ? {
+                count: primary.senses.length,
+                selected: shareSense,
+                onSelect: (i) => { setShareSense(i); prerenderWord(primary, locale, i); },
+                getLabel: (i) => getSenseLabel(primary, i, locale),
+              } : undefined}
             />
           </header>
 

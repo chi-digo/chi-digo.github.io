@@ -29,10 +29,10 @@ export function useShareCard() {
     }
   }, []);
 
-  const prerenderWord = useCallback(async (entry: DictionaryEntry, locale: Locale) => {
+  const prerenderWord = useCallback(async (entry: DictionaryEntry, locale: Locale, senseIndex = 0) => {
     setIsGenerating(true);
     try {
-      blobRef.current = await renderWordCard(entry, locale);
+      blobRef.current = await renderWordCard(entry, locale, senseIndex);
     } catch {
       blobRef.current = null;
     } finally {
