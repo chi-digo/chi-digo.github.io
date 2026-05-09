@@ -8,8 +8,8 @@ import "./globals.css";
 
 const fraunces = localFont({
   src: [
-    { path: "../public/fonts/fraunces-variable-latin.woff2", style: "normal" },
-    { path: "../public/fonts/fraunces-italic-variable-latin.woff2", style: "italic" },
+    { path: "../public/fonts/fraunces-italic-variable-latin.woff2", style: "normal" },
+    { path: "../public/fonts/fraunces-variable-latin.woff2", style: "italic" },
   ],
   variable: "--font-fraunces",
   display: "swap",
