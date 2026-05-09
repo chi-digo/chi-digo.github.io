@@ -18,17 +18,18 @@ function getPageView(pathname: string): { journey: Journey; stage: string } | nu
   if (pathname.startsWith('/culture/') && pathname.split('/').length === 3) return { journey: 'culture', stage: 'domain' };
   if (pathname.startsWith('/culture/') && pathname.split('/').length === 4) return { journey: 'culture', stage: 'article' };
   if (pathname === '/language') return { journey: 'language', stage: 'overview' };
+  if (pathname === '/language/dictionary') return { journey: 'dictionary', stage: 'home' };
+  if (pathname.startsWith('/language/dictionary/word/')) return { journey: 'dictionary', stage: 'word' };
+  if (pathname.startsWith('/language/dictionary/letter/')) return { journey: 'dictionary', stage: 'browse' };
+  if (pathname.startsWith('/language/dictionary')) return { journey: 'dictionary', stage: 'search' };
+  if (pathname === '/language/proverbs') return { journey: 'proverbs', stage: 'home' };
+  if (pathname.startsWith('/language/proverbs/theme/')) return { journey: 'proverbs', stage: 'theme' };
+  if (pathname.startsWith('/language/proverbs/letter/')) return { journey: 'proverbs', stage: 'browse' };
+  if (pathname.startsWith('/language/proverbs/p-')) return { journey: 'proverbs', stage: 'detail' };
+  if (pathname === '/language/quiz') return { journey: 'language', stage: 'quiz' };
   if (pathname.startsWith('/language/')) return { journey: 'language', stage: 'article' };
   if (pathname === '/history') return { journey: 'history', stage: 'overview' };
   if (pathname.startsWith('/history/')) return { journey: 'history', stage: 'article' };
-  if (pathname === '/dictionary') return { journey: 'dictionary', stage: 'home' };
-  if (pathname.startsWith('/dictionary/word/')) return { journey: 'dictionary', stage: 'word' };
-  if (pathname.startsWith('/dictionary/letter/')) return { journey: 'dictionary', stage: 'browse' };
-  if (pathname.startsWith('/dictionary')) return { journey: 'dictionary', stage: 'search' };
-  if (pathname === '/proverbs') return { journey: 'proverbs', stage: 'home' };
-  if (pathname.startsWith('/proverbs/theme/')) return { journey: 'proverbs', stage: 'theme' };
-  if (pathname.startsWith('/proverbs/letter/')) return { journey: 'proverbs', stage: 'browse' };
-  if (pathname.startsWith('/proverbs/p-')) return { journey: 'proverbs', stage: 'detail' };
   return null;
 }
 

@@ -78,7 +78,7 @@ export function DictionarySection() {
       track('dictionary', 'search', 'select_result', { headword: result.headword, query, source: 'homepage' });
       setIsFocused(false);
       setQuery('');
-      window.location.href = `/dictionary/word/${encodeURIComponent(result.headword)}`;
+      window.location.href = `/language/dictionary/word/${encodeURIComponent(result.headword)}`;
     },
     [setQuery, query],
   );
@@ -89,14 +89,14 @@ export function DictionarySection() {
       if (query.trim()) {
         track('dictionary', 'search', 'submit', { query: query.trim(), source: 'homepage' });
         setIsFocused(false);
-        window.location.href = `/dictionary?q=${encodeURIComponent(query.trim())}`;
+        window.location.href = `/language/dictionary?q=${encodeURIComponent(query.trim())}`;
       }
     },
     [query],
   );
 
   const handleWordClick = useCallback((headword: string) => {
-    window.location.href = `/dictionary/word/${encodeURIComponent(headword)}`;
+    window.location.href = `/language/dictionary/word/${encodeURIComponent(headword)}`;
   }, []);
 
   return (

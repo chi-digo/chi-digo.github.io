@@ -264,6 +264,38 @@ export interface Messages {
     contact_title: string;
     contact_body: string;
   };
+  quiz: {
+    title: string;
+    loading: string;
+    loadingProgress: string;
+    loadError: string;
+    retry: string;
+    questionOf: string;
+    correct: string;
+    incorrect: string;
+    continue: string;
+    explanation: string;
+    results: {
+      title: string;
+      perfect: string;
+      great: string;
+      good: string;
+      tryAgain: string;
+      score: string;
+      playAgain: string;
+      backToTools: string;
+    };
+    categories: {
+      vocabulary: string;
+      proverbs: string;
+      riddles: string;
+    };
+    difficulty: {
+      easy: string;
+      medium: string;
+      hard: string;
+    };
+  };
   footer: {
     copyright: string;
     about_heading: string;

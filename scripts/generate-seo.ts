@@ -130,9 +130,9 @@ async function main() {
   }
 
   // Dictionary home + letter indexes
-  urls.push(xmlUrl('/dictionary', 0.8, 'weekly'));
+  urls.push(xmlUrl('/language/dictionary', 0.8, 'weekly'));
   for (const letter of dictIndex.digo_alphabet) {
-    urls.push(xmlUrl(`/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`, 0.7, 'weekly'));
+    urls.push(xmlUrl(`/language/dictionary/letter/${encodeURIComponent(letter.toLowerCase())}`, 0.7, 'weekly'));
   }
 
   const sitemapXml = wrapUrlset(urls);
@@ -142,7 +142,7 @@ async function main() {
   // ===== dictionary-sitemap.xml =====
   const dictUrls: string[] = [];
   for (const hw of headwords) {
-    dictUrls.push(xmlUrl(`/dictionary/word/${encodeURIComponent(hw)}`, 0.5, 'monthly'));
+    dictUrls.push(xmlUrl(`/language/dictionary/word/${encodeURIComponent(hw)}`, 0.5, 'monthly'));
   }
 
   const dictSitemapXml = wrapUrlset(dictUrls);

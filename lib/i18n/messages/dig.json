@@ -141,6 +141,38 @@
     "vision": "Maono",
     "contact": "Wasiliana"
   },
+  "quiz": {
+    "title": "Jaribu — Dzijeze",
+    "loading": "Kuandaa jaribu rako...",
+    "loadingProgress": "Kupakiza data ya jaribu ({progress}%)",
+    "loadError": "Kayaweza kupakiza data ya jaribu",
+    "retry": "Gusa ili ujeze tsona",
+    "questionOf": "Swali {current} kahi ya {total}",
+    "correct": "Ni sawa!",
+    "incorrect": "Si sawa",
+    "continue": "Enderera",
+    "explanation": "Jibu ra sawa ni:",
+    "results": {
+      "title": "Duru Ikamala!",
+      "perfect": "Alama kamili! Uwe ni bingwa wa Chidigo!",
+      "great": "Vizuri sana!",
+      "good": "Juhudi nono!",
+      "tryAgain": "Enderera kujeza!",
+      "score": "{score} kahi ya {total}",
+      "playAgain": "Cheza Tsona",
+      "backToTools": "Uya kpwa Zana"
+    },
+    "categories": {
+      "vocabulary": "Maneno",
+      "proverbs": "Ndarira",
+      "riddles": "Vimbunga"
+    },
+    "difficulty": {
+      "easy": "Rahisi",
+      "medium": "Kahi-kahi",
+      "hard": "Ngumu"
+    }
+  },
   "footer": {
     "copyright": "Chi-digo",
     "about_heading": "Kuhusu",
