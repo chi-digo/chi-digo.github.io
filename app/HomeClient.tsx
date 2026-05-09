@@ -57,9 +57,11 @@ export default function HomeClient() {
   const router = useRouter();
   const heroRef = useRef<HTMLElement>(null);
   const exploreRef = useRef<HTMLElement>(null);
+  const discoverRef = useRef<HTMLElement>(null);
 
   useTrackView(heroRef, 'orientation', 'hero');
   useTrackView(exploreRef, 'orientation', 'explore');
+  useTrackView(discoverRef, 'orientation', 'discover');
 
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
   const searchGroups = buildSearchGroups(results, locale, query);
@@ -264,8 +266,10 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* ===== Culture Domains ===== */}
-      <CultureSection />
+      {/* ===== Discover ===== */}
+      <div ref={discoverRef}>
+        <CultureSection />
+      </div>
     </>
   );
 }

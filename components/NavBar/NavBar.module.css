@@ -36,6 +36,16 @@
   color: currentColor;
 }
 
+.brandName {
+  display: none;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: var(--color-hando-cream);
+  margin-left: 6px;
+}
+
 .navLink {
   font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
   font-size: 0.8rem;
@@ -390,6 +400,10 @@
 
   .centre {
     display: none;
+  }
+
+  .brandName {
+    display: inline;
   }
 
   .hamburger {

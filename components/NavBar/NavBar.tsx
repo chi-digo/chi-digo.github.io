@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import Link from 'next/link';
 
 import { SearchCombobox } from '@/components/SearchCombobox';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
@@ -222,9 +221,10 @@ export function NavBar() {
       className={styles.navbar}
       aria-label="Site navigation"
     >
-      <Link href="/" className={styles.homeLink} aria-label="Chi-digo home">
+      <TrackedLink href="/" source="navbar_logo" className={styles.homeLink} aria-label="Chidigo home">
         <VigangoMark />
-      </Link>
+        <span className={styles.brandName}>Chidigo</span>
+      </TrackedLink>
 
       <div className={styles.desktopLinks}>
         <TrackedLink href="/" source="navbar" className={linkClass('/')}>
