@@ -16,7 +16,7 @@ type SectionType = 'words' | 'proverbs' | 'articles';
 function WordResultRow({ result, locale }: { result: SearchResult; locale: string }) {
   return (
     <TrackedLink
-      href={`/dictionary/word/${encodeURIComponent(result.headword)}`}
+      href={`/language/dictionary/word/${encodeURIComponent(result.headword)}`}
       source="search_results"
       className={styles.resultRow}
     >
@@ -34,7 +34,7 @@ function WordResultRow({ result, locale }: { result: SearchResult; locale: strin
 function ProverbResultRow({ proverb, locale }: { proverb: Proverb; locale: string }) {
   return (
     <TrackedLink
-      href={`/proverbs/${proverb.slug}`}
+      href={`/language/proverbs/${proverb.slug}`}
       source="search_results"
       className={styles.resultRow}
     >

@@ -50,7 +50,7 @@ export function buildSearchGroups(
       count: results.words.length,
       results: results.words.map((w) => ({
         id: `w-${w.id}`,
-        href: `/dictionary/word/${encodeURIComponent(w.headword)}`,
+        href: `/language/dictionary/word/${encodeURIComponent(w.headword)}`,
         node: (
           <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
             <span style={{ fontWeight: 600, fontFamily: 'var(--font-display)' }}>{w.headword}</span>
@@ -73,7 +73,7 @@ export function buildSearchGroups(
       count: results.proverbs.length,
       results: results.proverbs.map((p) => ({
         id: `p-${p.id}`,
-        href: `/proverbs/${p.slug}`,
+        href: `/language/proverbs/${p.slug}`,
         node: (
           <div>
             <div style={{ fontWeight: 500, fontFamily: 'var(--font-display)', fontSize: '0.85rem' }} lang="dig">{p.digo}</div>
