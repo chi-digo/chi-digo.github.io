@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { buildMetadata } from '@/lib/seo/metadata';
 import SearchResultsClient from './SearchResultsClient';
 
@@ -8,5 +9,9 @@ export const metadata = buildMetadata({
 });
 
 export default function SearchPage() {
-  return <SearchResultsClient />;
+  return (
+    <Suspense>
+      <SearchResultsClient />
+    </Suspense>
+  );
 }
