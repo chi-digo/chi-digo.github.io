@@ -13,6 +13,7 @@ import {
   KayambaLoader,
   EmptyState,
 } from '@chi-digo/design-system';
+import { useShareCard } from '@/hooks/useShareCard';
 import styles from './QuizPage.module.css';
 
 // ── Types ──
@@ -289,6 +290,7 @@ export function QuizPage() {
   const bankRef = useRef<QuizBank | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const gameStartRef = useRef<number>(0);
+  const { shareQuizScore, isGenerating } = useShareCard();
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
@@ -447,6 +449,15 @@ export function QuizPage() {
           style={{ width: '100%' }}
           actions={
             <>
+              <Button
+                variant="secondary"
+                disabled={isGenerating}
+                onClick={() => shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown })}
+              >
+                {isGenerating
+                  ? (t.quiz?.results?.sharing ?? 'Sharing...')
+                  : (t.quiz?.results?.share ?? 'Share Score')}
+              </Button>
               <Button onClick={handleRestart}>
                 {t.quiz?.results?.playAgain ?? 'Play Again'}
               </Button>
