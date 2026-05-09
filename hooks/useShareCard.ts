@@ -66,7 +66,7 @@ export function useShareCard() {
       const result = await shareImage(
         blob,
         'chidigo-proverb.png',
-        'Chi-digo',
+        'Chidigo',
         proverb.digo,
         url
       );
@@ -91,7 +91,7 @@ export function useShareCard() {
       const result = await shareImage(
         blob,
         `chidigo-${entry.headword}.png`,
-        `Chi-digo: ${entry.headword}`,
+        `Chidigo: ${entry.headword}`,
         entry.headword,
         url
       );

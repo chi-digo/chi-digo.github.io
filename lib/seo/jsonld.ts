@@ -1,5 +1,5 @@
 const SITE_URL = 'https://chidigo.org';
-const SITE_NAME = 'Chi-digo';
+const SITE_NAME = 'Chidigo';
 const PUBLISHER = {
   '@type': 'EducationalOrganization' as const,
   name: SITE_NAME,

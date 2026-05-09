@@ -125,7 +125,7 @@ const dictionaryFaq = faqJsonLd([
   {
     question: 'How many words are in the Chidigo dictionary?',
     answer:
-      'The Chi-digo dictionary contains over 5,200 entries, making it the largest searchable digital dictionary for the Chidigo (Digo) language. Each entry includes definitions in three languages: Chidigo, Swahili, and English.',
+      'The Chidigo dictionary contains over 5,200 entries, making it the largest searchable digital dictionary for the Chidigo (Digo) language. Each entry includes definitions in three languages: Chidigo, Swahili, and English.',
   },
   {
     question: 'What languages are the dictionary definitions in?',

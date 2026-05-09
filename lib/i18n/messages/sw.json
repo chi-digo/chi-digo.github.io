@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Chi-digo — Kujenga zana za kuendeleza lugha ya Kidigo",
+    "title": "Chidigo — Kujenga zana za kuendeleza lugha ya Kidigo",
     "description": "Kujenga zana za kuendeleza lugha ya Kidigo — kamusi, methali, sauti, na maliasili za kitamaduni kwa wazungumzaji 600,000 pwani ya Kenya na Tanzania.",
-    "og_title": "Chi-digo",
+    "og_title": "Chidigo",
     "og_description": "Kujenga zana za kuendeleza lugha ya Kidigo.",
     "og_locale": "sw_KE",
-    "twitter_title": "Chi-digo",
+    "twitter_title": "Chidigo",
     "twitter_description": "Kujenga zana za kuendeleza lugha ya Kidigo."
   },
   "nav": {
@@ -130,7 +130,7 @@
     "back_to_history": "← Historia"
   },
   "breadcrumb": {
-    "home": "Chi-digo",
+    "home": "Chidigo",
     "culture": "Utamaduni",
     "language": "Lugha",
     "dictionary": "Kamusi",
@@ -174,21 +174,21 @@
     }
   },
   "footer": {
-    "copyright": "Chi-digo",
+    "copyright": "Chidigo",
     "about_heading": "Kuhusu",
     "explore_heading": "Gundua",
     "connect_heading": "Wasiliana",
-    "about_link": "Kuhusu Chi-digo",
+    "about_link": "Kuhusu Chidigo",
     "mission_link": "Dhamira Yetu",
     "vision_link": "Maono Yetu",
     "contact_link": "Wasiliana Nasi",
     "license": "Maudhui yameidhinishwa chini ya CC-BY-SA 4.0"
   },
   "about": {
-    "eyebrow": "Kuhusu Chi-digo",
+    "eyebrow": "Kuhusu Chidigo",
     "title": "Kujenga zana ambazo lugha inahitaji ili kuendelea kuishi.",
     "who_we_are_heading": "Sisi ni nani",
-    "who_we_are_body": "Chi-digo ni mradi wa kufufua lugha ya Kidigo, lugha ya Kibantu ya Wadigo wa pwani ya Kenya na Tanzania. Tunajenga vitabu vya rejea, majukwaa ya kidijitali, maudhui ya kitamaduni, na zana za kuendeleza — kila kitu ambacho jamii ya Wadigo inahitaji ili kudumisha lugha yake kwa kizazi kijacho.",
+    "who_we_are_body": "Chidigo ni mradi wa kufufua lugha ya Kidigo, lugha ya Kibantu ya Wadigo wa pwani ya Kenya na Tanzania. Tunajenga vitabu vya rejea, majukwaa ya kidijitali, maudhui ya kitamaduni, na zana za kuendeleza — kila kitu ambacho jamii ya Wadigo inahitaji ili kudumisha lugha yake kwa kizazi kijacho.",
     "problem_heading": "Tatizo tunalotatua",
     "problem_quote": "“Wazazi wangu wanaelewa Kidigo bibi yao anapozungumza. Wanajibu kwa Kiswahili. Watoto wangu hawaelewi kabisa.”",
     "problem_body_1": "Mfumo huu — wazazi wasiosema lugha, mawasiliano ya rika pekee, maisha ya skrini kwa Kiswahili na Kiingereza — ni {cliff}, si mteremko.",
@@ -278,7 +278,7 @@
     "role_audio_title": "Rekodi sauti",
     "role_audio_body": "Kamusi inahitaji sauti kwa kila neno. Wazungumzaji asili wanaweza kuchangia rekodi — neno moja kwa wakati, kutoka simu yoyote.",
     "partners_heading": "Kwa washirika na wafadhili",
-    "partners_body": "Chi-digo ni mradi wa kufufua lugha unaongozwa na dhamira. Maudhui yote ya rejea yanachapishwa chini ya CC-BY-SA 4.0. Ikiwa unashiriki imani yetu kwamba Chidigo kinastahili mustakabali hai, tungependa mazungumzo."
+    "partners_body": "Chidigo ni mradi wa kufufua lugha unaongozwa na dhamira. Maudhui yote ya rejea yanachapishwa chini ya CC-BY-SA 4.0. Ikiwa unashiriki imani yetu kwamba Chidigo kinastahili mustakabali hai, tungependa mazungumzo."
   },
   "not_found": {
     "title": "Ukurasa haujapatikana",

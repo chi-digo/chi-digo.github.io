@@ -32,20 +32,20 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://chidigo.org"),
-  title: "Chi-digo — Building the transmission tools for the Digo language",
+  title: "Chidigo — Building the transmission tools for the Digo language",
   description:
     "Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.",
   openGraph: {
-    title: "Chi-digo",
+    title: "Chidigo",
     description:
       "Building the transmission tools for the Digo language.",
-    siteName: "Chi-digo",
+    siteName: "Chidigo",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chi-digo",
+    title: "Chidigo",
     description:
       "Building the transmission tools for the Digo language.",
   },

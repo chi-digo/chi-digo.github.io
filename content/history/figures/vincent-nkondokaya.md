@@ -58,4 +58,4 @@ By writing from the Tanzanian side — from Tanga rather than Kwale — Nkondoka
 
 ## Legacy
 
-Vincent Nkondokaya embodies a tradition of local intellectual enterprise that is easily overlooked in favour of university-based, English-language scholarship. Working from Tanga, writing in Swahili, publishing through a regional project with minimal institutional backing, he has produced the most comprehensive written record of Wadigo origins that exists. For the Chi-digo project — and for any future effort to tell the Digo story in full — his books are foundational sources.
+Vincent Nkondokaya embodies a tradition of local intellectual enterprise that is easily overlooked in favour of university-based, English-language scholarship. Working from Tanga, writing in Swahili, publishing through a regional project with minimal institutional backing, he has produced the most comprehensive written record of Wadigo origins that exists. For the Chidigo project — and for any future effort to tell the Digo story in full — his books are foundational sources.

@@ -290,7 +290,7 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
             onMenuOpen={() => prerenderFeatured(proverb, featShareLang)}
             onShareImage={() => {
               const url = `https://chidigo.org/language/proverbs/${encodeURIComponent(proverb.slug)}`;
-              shareFeatured('proverb', proverb.slug, 'Chi-digo', proverb.digo, url);
+              shareFeatured('proverb', proverb.slug, 'Chidigo', proverb.digo, url);
             }}
             onCopyLink={() => {
               const url = `${window.location.origin}/language/proverbs/${encodeURIComponent(proverb.slug)}`;
@@ -473,7 +473,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             onMenuOpen={() => prerenderProverb(proverb, shareLang)}
             onShareImage={() => {
               const url = `https://chidigo.org/language/proverbs/${encodeURIComponent(proverb.slug)}`;
-              sharePrerendered('proverb', proverb.slug, 'Chi-digo', proverb.digo, url);
+              sharePrerendered('proverb', proverb.slug, 'Chidigo', proverb.digo, url);
             }}
             onCopyLink={() => {
               const url = `${window.location.origin}/language/proverbs/${encodeURIComponent(proverb.slug)}`;

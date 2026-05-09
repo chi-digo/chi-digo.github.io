@@ -155,7 +155,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* ===== Explore Chi-digo ===== */}
+      {/* ===== Explore Chidigo ===== */}
       <section ref={exploreRef} className={styles.exploreSection}>
         <div className={styles.sectionInner}>
           <p className={styles.eyebrow}>

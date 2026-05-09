@@ -37,7 +37,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <Link href="/" aria-label="Chi-digo home">
+          <Link href="/" aria-label="Chidigo home">
             <VigangoMark />
           </Link>
         </div>
