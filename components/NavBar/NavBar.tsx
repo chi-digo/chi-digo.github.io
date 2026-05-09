@@ -1,15 +1,15 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 
+import { SearchCombobox } from '@/components/SearchCombobox';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { trackLocaleSwitch } from '@/lib/analytics/track';
 import { track } from '@/lib/analytics/track';
-// import { LocaleFlag } from './Flags';
+import { useUniversalSearch, buildSearchGroups, SearchIcon } from '@/hooks/useUniversalSearch';
 import styles from './NavBar.module.css';
 
 function VigangoMark() {
@@ -41,13 +41,43 @@ function VigangoMark() {
 export function NavBar() {
   const { locale, setLocale } = useLocale();
   const t = useTranslations();
+  const router = useRouter();
 
   const [open, setOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const menuRef = useRef<HTMLUListElement>(null);
   const drawerRef = useRef<HTMLDivElement>(null);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
+  const searchBtnRef = useRef<HTMLButtonElement>(null);
+
+  const { query, setQuery, results, loading } = useUniversalSearch(locale);
+  const searchGroups = buildSearchGroups(results, locale, query);
+
+  const closeSearch = useCallback(() => {
+    setMobileSearchOpen(false);
+    setQuery('');
+    searchBtnRef.current?.focus();
+  }, [setQuery]);
+
+  const handleSearchSelect = useCallback((href: string, meta: { group: string; seeAll: boolean }) => {
+    router.push(href);
+    closeSearch();
+    track('orientation', 'search', meta.seeAll ? 'see_all' : 'select_result', {
+      href,
+      result_type: meta.group,
+      query,
+      device: 'mobile',
+    });
+  }, [router, closeSearch, query]);
+
+  const handleSearchSubmit = useCallback((q: string) => {
+    router.push(`/search?q=${encodeURIComponent(q)}`);
+    closeSearch();
+    track('orientation', 'search', 'submit', { query: q });
+  }, [router, closeSearch]);
 
   useEffect(() => {
     if (!open) return;
@@ -69,9 +99,11 @@ export function NavBar() {
     if (!mobileOpen) return;
 
     function handlePointerDown(e: PointerEvent) {
+      const target = e.target as Node;
       if (
         drawerRef.current &&
-        !drawerRef.current.contains(e.target as Node)
+        !drawerRef.current.contains(target) &&
+        !hamburgerRef.current?.contains(target)
       ) {
         setMobileOpen(false);
       }
@@ -82,10 +114,14 @@ export function NavBar() {
   }, [mobileOpen]);
 
   useEffect(() => {
-    if (!open && !mobileOpen) return;
+    if (!open && !mobileOpen && !mobileSearchOpen) return;
 
     function handleKeyDown(e: KeyboardEvent) {
       if (e.key === 'Escape') {
+        if (mobileSearchOpen) {
+          closeSearch();
+          return;
+        }
         if (open) {
           setOpen(false);
           buttonRef.current?.focus();
@@ -98,7 +134,7 @@ export function NavBar() {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [open, mobileOpen]);
+  }, [open, mobileOpen, mobileSearchOpen, closeSearch]);
 
   const handleFocusOut = useCallback(
     (e: React.FocusEvent<HTMLDivElement>) => {
@@ -190,10 +226,10 @@ export function NavBar() {
       className={styles.navbar}
       aria-label="Site navigation"
     >
-      <Link href="/" className={styles.homeLink} aria-label="Chi-digo home">
+      <TrackedLink href="/" source="navbar_logo" className={styles.homeLink} aria-label="Chidigo home">
         <VigangoMark />
         <span className={styles.brandName}>Chidigo</span>
-      </Link>
+      </TrackedLink>
 
       <div className={styles.desktopLinks}>
         <TrackedLink href="/" source="navbar" className={linkClass('/')}>
@@ -211,6 +247,22 @@ export function NavBar() {
       </div>
 
       <div className={styles.centre} />
+
+      {/* Search icon button (mobile only, hidden on desktop via CSS) */}
+      <button
+        ref={searchBtnRef}
+        type="button"
+        className={styles.searchBtn}
+        onClick={() => {
+          if (mobileSearchOpen) return;
+          setMobileSearchOpen(true);
+          setMobileOpen(false);
+          track('orientation', 'search', 'open', { device: 'mobile' });
+        }}
+        aria-label={locale === 'sw' ? 'Tafuta' : locale === 'dig' ? 'Tafuta' : 'Search'}
+      >
+        <SearchIcon className={styles.searchIcon} />
+      </button>
 
       <div className={`${styles.selector} ${styles.desktopOnly}`} ref={dropdownRef} onBlur={handleFocusOut}>
         <button
@@ -263,6 +315,7 @@ export function NavBar() {
 
       {/* Mobile hamburger */}
       <button
+        ref={hamburgerRef}
         type="button"
         className={styles.hamburger}
         onClick={() => {
@@ -314,6 +367,43 @@ export function NavBar() {
                 {loc.shortName}
               </button>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Mobile full-screen search overlay */}
+      {mobileSearchOpen && (
+        <div className={styles.mobileSearchOverlay}>
+          <div className={styles.mobileSearchHeader}>
+            <SearchCombobox
+              value={query}
+              onChange={setQuery}
+              groups={searchGroups}
+              loading={loading}
+              onSelect={handleSearchSelect}
+              onSubmit={handleSearchSubmit}
+              autoFocus
+              placeholder={
+                locale === 'sw' ? 'Tafuta…'
+                  : locale === 'dig' ? 'Tafuta…'
+                    : 'Search…'
+              }
+              emptyState={
+                query.trim().length >= 2 ? (
+                  <p style={{ textAlign: 'center', color: 'var(--fg-muted)', fontSize: '0.85rem', margin: 0 }}>
+                    {locale === 'sw' ? 'Hakuna matokeo' : locale === 'dig' ? 'Takuna matokeo' : 'No results found'}
+                  </p>
+                ) : undefined
+              }
+            />
+            <button
+              type="button"
+              className={styles.mobileSearchClose}
+              onClick={closeSearch}
+              aria-label="Close search"
+            >
+              {locale === 'sw' ? 'Ghairi' : locale === 'dig' ? 'Ghairi' : 'Cancel'}
+            </button>
           </div>
         </div>
       )}

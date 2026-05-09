@@ -15,6 +15,16 @@ export function Breadcrumb() {
   const t = useTranslations();
   const { locale } = useLocale();
 
+  const renderLink = useCallback((href: string, children: ReactNode) => (
+    <a
+      href={href}
+      onClick={() => trackNavClick('breadcrumb', href)}
+      style={{ color: 'var(--fg-muted)', textDecoration: 'none' }}
+    >
+      {children}
+    </a>
+  ), []);
+
   if (pathname === '/') return null;
 
   const segments = pathname.split('/').filter(Boolean);
@@ -107,16 +117,6 @@ export function Breadcrumb() {
   } else if (segments[0] === 'contact') {
     items.push({ label: t.breadcrumb.contact });
   }
-
-  const renderLink = useCallback((href: string, children: ReactNode) => (
-    <a
-      href={href}
-      onClick={() => trackNavClick('breadcrumb', href)}
-      style={{ color: 'var(--fg-muted)', textDecoration: 'none' }}
-    >
-      {children}
-    </a>
-  ), []);
 
   if (items.length <= 1) return null;
 
