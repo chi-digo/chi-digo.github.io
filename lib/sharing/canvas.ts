@@ -1,7 +1,7 @@
 import type { Proverb } from '@/lib/proverbs/types';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import type { Locale } from '@/lib/i18n/config';
-import { drawMikekaTile, drawDoorFrameTile, createMotifPattern } from './motifs';
+import { drawMikekaTile, drawDoorFrameTile, drawWaveTile, createMotifPattern } from './motifs';
 import { fitFontSize, wrapText } from './text';
 import { loadShareFonts } from './fonts';
 import { drawBrandFooter, drawBrandBar } from './brand';
@@ -14,6 +14,8 @@ const COLORS = {
   cream: '#F2EAD7',
   indigo: '#1F3A5F',
   gold: '#C99846',
+  mangrove: '#2E4A2C',
+  sand: '#E8DCC2',
 };
 
 function getProverbText(proverb: Proverb, lang: 'dg' | 'sw'): string {
@@ -191,15 +193,15 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   canvas.height = SIZE;
   const ctx = canvas.getContext('2d')!;
 
-  ctx.fillStyle = COLORS.indigo;
+  ctx.fillStyle = COLORS.sand;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
-  // Motif bands (matching proverb card)
+  // Motif bands (wave pattern, unique to quiz)
   const bandH = 80;
   const bandY1 = 40;
   const bandY2 = SIZE - 40 - bandH;
-  ctx.globalAlpha = 0.3;
-  const pattern = createMotifPattern(ctx, drawMikekaTile, 40, 40, COLORS.cream);
+  ctx.globalAlpha = 0.25;
+  const pattern = createMotifPattern(ctx, drawWaveTile, 48, 36, COLORS.mangrove);
   ctx.fillStyle = pattern;
   ctx.fillRect(PADDING, bandY1, CONTENT_W, bandH);
   ctx.fillRect(PADDING, bandY2, CONTENT_W, bandH);
@@ -210,7 +212,7 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   const circleR = 140;
   ctx.beginPath();
   ctx.arc(SIZE / 2, circleY, circleR, 0, Math.PI * 2);
-  ctx.fillStyle = 'rgba(242,234,215,0.1)';
+  ctx.fillStyle = 'rgba(46,74,44,0.06)';
   ctx.fill();
   ctx.lineWidth = 6;
   ctx.strokeStyle = COLORS.gold;
@@ -221,11 +223,11 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   ctx.beginPath();
   ctx.arc(SIZE / 2, circleY, circleR, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * pct);
   ctx.lineWidth = 8;
-  ctx.strokeStyle = COLORS.cream;
+  ctx.strokeStyle = COLORS.mangrove;
   ctx.stroke();
 
   // Score text
-  ctx.fillStyle = COLORS.cream;
+  ctx.fillStyle = COLORS.mangrove;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   ctx.font = '500 96px Fraunces, serif';
@@ -240,8 +242,8 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   if (data.breakdown.length > 0) {
     const breakdownY = circleY + circleR + 140;
     ctx.font = '400 32px Inter, sans-serif';
-    ctx.fillStyle = COLORS.cream;
-    ctx.globalAlpha = 0.7;
+    ctx.fillStyle = COLORS.mangrove;
+    ctx.globalAlpha = 0.6;
     const rowH = 48;
     for (let i = 0; i < data.breakdown.length; i++) {
       const b = data.breakdown[i];
@@ -252,7 +254,7 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
 
   // Brand bar (centered, above bottom motif — matching proverb card)
   const brandY = bandY2 - 40;
-  drawBrandBar(ctx, SIZE / 2, brandY, COLORS.cream, 'rgba(242,234,215,0.5)');
+  drawBrandBar(ctx, SIZE / 2, brandY, COLORS.mangrove, 'rgba(46,74,44,0.5)');
 
   return new Promise<Blob>((resolve, reject) => {
     canvas.toBlob(

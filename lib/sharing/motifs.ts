@@ -61,6 +61,43 @@ export function drawDoorFrameTile(
   ctx.fill();
 }
 
+export function drawWaveTile(
+  ctx: CanvasRenderingContext2D,
+  width: number,
+  height: number,
+  color: string
+) {
+  const hw = width / 2;
+  const hh = height / 2;
+  const amp = height * 0.3;
+
+  ctx.strokeStyle = color;
+  ctx.fillStyle = color;
+  ctx.lineWidth = 2;
+
+  // Upper sine wave
+  ctx.beginPath();
+  ctx.moveTo(0, hh - amp);
+  ctx.bezierCurveTo(hw * 0.5, hh - amp * 2.5, hw * 1.5, hh + amp * 0.5, width, hh - amp);
+  ctx.stroke();
+
+  // Lower sine wave
+  ctx.beginPath();
+  ctx.moveTo(0, hh + amp);
+  ctx.bezierCurveTo(hw * 0.5, hh + amp * 2.5, hw * 1.5, hh - amp * 0.5, width, hh + amp);
+  ctx.stroke();
+
+  // Center diamond
+  const ds = 4;
+  ctx.beginPath();
+  ctx.moveTo(hw, hh - ds);
+  ctx.lineTo(hw + ds, hh);
+  ctx.lineTo(hw, hh + ds);
+  ctx.lineTo(hw - ds, hh);
+  ctx.closePath();
+  ctx.fill();
+}
+
 export function createMotifPattern(
   ctx: CanvasRenderingContext2D,
   drawTile: (tileCtx: CanvasRenderingContext2D, w: number, h: number, color: string) => void,
