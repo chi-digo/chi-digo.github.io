@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Proverb } from '@/lib/proverbs/types';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import type { Locale } from '@/lib/i18n/config';
-import { renderProverbCard, renderWordCard, renderProverbCardSync } from '@/lib/sharing/canvas';
+import { renderProverbCard, renderWordCard, renderProverbCardSync, renderQuizScoreCard, type QuizScoreData } from '@/lib/sharing/canvas';
 import { shareImage, copyToClipboard, type ShareResult } from '@/lib/sharing/share';
 import { trackShare } from '@/lib/analytics/track';
 
@@ -105,6 +105,28 @@ export function useShareCard() {
     }
   }, []);
 
+  const shareQuizScore = useCallback(async (data: QuizScoreData): Promise<ShareResult> => {
+    setIsGenerating(true);
+    try {
+      const blob = await renderQuizScoreCard(data);
+      const url = 'https://chidigo.org/language/quiz';
+      const result = await shareImage(
+        blob,
+        'chidigo-quiz-score.png',
+        `Chidigo Quiz: ${data.score}/${data.total}`,
+        `I scored ${data.score}/${data.total} on the Chidigo language quiz!`,
+        url
+      );
+      trackShare('quiz', result);
+      return result;
+    } catch {
+      trackShare('quiz', 'cancelled');
+      return 'cancelled';
+    } finally {
+      if (mountedRef.current) setIsGenerating(false);
+    }
+  }, []);
+
   const copyLink = useCallback(async (url: string) => {
     const ok = await copyToClipboard(url);
     return ok;
@@ -116,6 +138,7 @@ export function useShareCard() {
     sharePrerendered,
     shareProverbDirect,
     shareWordDirect,
+    shareQuizScore,
     copyLink,
     isGenerating,
     hasPrenderedBlob: () => blobRef.current !== null,

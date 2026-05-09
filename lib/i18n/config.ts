@@ -282,6 +282,8 @@ export interface Messages {
       good: string;
       tryAgain: string;
       score: string;
+      share: string;
+      sharing: string;
       playAgain: string;
       backToTools: string;
     };

@@ -159,6 +159,8 @@
       "good": "Good effort!",
       "tryAgain": "Keep practicing!",
       "score": "{score} out of {total}",
+      "share": "Share Score",
+      "sharing": "Sharing...",
       "playAgain": "Play Again",
       "backToTools": "Back to Tools"
     },

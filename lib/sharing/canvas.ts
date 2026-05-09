@@ -176,6 +176,91 @@ export async function renderWordCard(
   });
 }
 
+export interface QuizScoreData {
+  score: number;
+  total: number;
+  message: string;
+  breakdown: { category: string; correct: number; total: number }[];
+}
+
+export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
+  await loadShareFonts();
+
+  const canvas = document.createElement('canvas');
+  canvas.width = SIZE;
+  canvas.height = SIZE;
+  const ctx = canvas.getContext('2d')!;
+
+  ctx.fillStyle = COLORS.indigo;
+  ctx.fillRect(0, 0, SIZE, SIZE);
+
+  // Motif bands
+  const bandH = 60;
+  const bandY1 = 40;
+  const bandY2 = SIZE - 40 - bandH;
+  ctx.globalAlpha = 0.3;
+  const pattern = createMotifPattern(ctx, drawMikekaTile, 40, 40, COLORS.cream);
+  ctx.fillStyle = pattern;
+  ctx.fillRect(PADDING, bandY1, CONTENT_W, bandH);
+  ctx.fillRect(PADDING, bandY2, CONTENT_W, bandH);
+  ctx.globalAlpha = 1;
+
+  // Score circle
+  const circleY = 320;
+  const circleR = 140;
+  ctx.beginPath();
+  ctx.arc(SIZE / 2, circleY, circleR, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(242,234,215,0.1)';
+  ctx.fill();
+  ctx.lineWidth = 6;
+  ctx.strokeStyle = COLORS.gold;
+  ctx.stroke();
+
+  // Score arc (progress)
+  const pct = data.score / data.total;
+  ctx.beginPath();
+  ctx.arc(SIZE / 2, circleY, circleR, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * pct);
+  ctx.lineWidth = 8;
+  ctx.strokeStyle = COLORS.cream;
+  ctx.stroke();
+
+  // Score text
+  ctx.fillStyle = COLORS.cream;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.font = '500 96px Fraunces, serif';
+  ctx.fillText(`${data.score}/${data.total}`, SIZE / 2, circleY);
+
+  // Message
+  ctx.font = '500 42px Fraunces, serif';
+  ctx.fillStyle = COLORS.gold;
+  ctx.fillText(data.message, SIZE / 2, circleY + circleR + 70);
+
+  // Breakdown
+  if (data.breakdown.length > 0) {
+    const breakdownY = circleY + circleR + 140;
+    ctx.font = '400 32px Inter, sans-serif';
+    ctx.fillStyle = COLORS.cream;
+    ctx.globalAlpha = 0.7;
+    const rowH = 48;
+    for (let i = 0; i < data.breakdown.length; i++) {
+      const b = data.breakdown[i];
+      ctx.fillText(`${b.category}: ${b.correct}/${b.total}`, SIZE / 2, breakdownY + i * rowH);
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // Brand bar
+  drawBrandBar(ctx, SIZE / 2, bandY2 - 30, COLORS.cream, 'rgba(242,234,215,0.5)');
+
+  return new Promise<Blob>((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => (blob ? resolve(blob) : reject(new Error('Canvas toBlob failed'))),
+      'image/png'
+    );
+  });
+}
+
 export function renderProverbCardSync(
   proverb: Proverb,
   lang: 'dg' | 'sw' = 'dg'
