@@ -312,5 +312,24 @@
     "image_saved": "Picha imehifadhiwa",
     "generating": "Inaunda picha…",
     "meaning": "Maana"
+  },
+  "install": {
+    "eyebrow": "CHUKUA DIGO NAWE",
+    "body": "Weka Chidigo kwenye simu yako — maneno 5,200+, misemo 378, na mchezo vinafanya kazi hata bila mtandao.",
+    "cta": "Weka kwenye simu yako",
+    "dismiss": "Baadaye",
+    "ios_dismiss": "Sawa",
+    "ios_step_1": "Bonyeza kitufe cha Kushiriki katika Safari",
+    "ios_step_2": "Sogeza chini na ubonyeze \"Add to Home Screen\"",
+    "ios_step_3": "Bonyeza \"Add\" kuthibitisha",
+    "webview_hint": "Fungua kwenye Chrome kusakinisha",
+    "ios_chrome_hint": "Fungua ukurasa huu kwenye Safari kusakinisha",
+    "download_all": "Pakua yote kwa matumizi ya nje ya mtandao",
+    "offline_title": "Huna mtandao",
+    "offline_body": "Kamusi, misemo, na mchezo bado vinapatikana.",
+    "offline_dict": "Fungua Kamusi",
+    "offline_proverbs": "Vinjari Misemo",
+    "offline_quiz": "Cheza Mchezo",
+    "update_toast": "Maneno na misemo mapya yanapatikana — bonyeza kusasisha"
   }
 }

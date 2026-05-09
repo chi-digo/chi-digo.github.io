@@ -323,6 +323,25 @@ export interface Messages {
     generating: string;
     meaning: string;
   };
+  install: {
+    eyebrow: string;
+    body: string;
+    cta: string;
+    dismiss: string;
+    ios_dismiss: string;
+    ios_step_1: string;
+    ios_step_2: string;
+    ios_step_3: string;
+    webview_hint: string;
+    ios_chrome_hint: string;
+    download_all: string;
+    offline_title: string;
+    offline_body: string;
+    offline_dict: string;
+    offline_proverbs: string;
+    offline_quiz: string;
+    update_toast: string;
+  };
 }
 
 export const locales: LocaleConfig[] = [

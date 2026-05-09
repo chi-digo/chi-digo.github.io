@@ -312,5 +312,24 @@
     "image_saved": "Picha yatsirizwa",
     "generating": "Inaunda picha…",
     "meaning": "Mana"
+  },
+  "install": {
+    "eyebrow": "HALA CHIDIGO NAWE",
+    "body": "Ika Chidigo kpwenye simu yako — maneno 5,200+, misemo 378, na mchezo vinafanya kazi hata bila mtandao.",
+    "cta": "Ika kpwenye simu yako",
+    "dismiss": "Bada ya phale",
+    "ios_dismiss": "Ni sawa",
+    "ios_step_1": "Bonyeza kitufe cha Kushiriki kahi-kahi ya Safari",
+    "ios_step_2": "Sogeza photsi na ubonyeze \"Add to Home Screen\"",
+    "ios_step_3": "Bonyeza \"Add\" kuhakikisha",
+    "webview_hint": "Vugula kpwenye Chrome ku-install",
+    "ios_chrome_hint": "Vugula ukurasa uno kpwenye Safari ku-install",
+    "download_all": "Pakuwa vyosi kpwa matumizi ga nje ya mtandao",
+    "offline_title": "Kuhana mtandao",
+    "offline_body": "Kamusi, misemo, na mchezo bado vinapatikana.",
+    "offline_dict": "Vugula Kamusi",
+    "offline_proverbs": "Lola Misemo",
+    "offline_quiz": "Henya Mchezo",
+    "update_toast": "Maneno na misemo maphya ganapatikana — bonyeza kusasisha"
   }
 }

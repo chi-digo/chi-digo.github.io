@@ -1,7 +1,7 @@
 import { GA_ID } from './gtag';
 
 /** The six user journeys across the site. */
-export type Journey = 'orientation' | 'culture' | 'language' | 'history' | 'dictionary' | 'proverbs' | 'contact' | 'sharing';
+export type Journey = 'orientation' | 'culture' | 'language' | 'history' | 'dictionary' | 'proverbs' | 'contact' | 'sharing' | 'install';
 
 export type TrackParams = Record<string, string | number | boolean>;
 

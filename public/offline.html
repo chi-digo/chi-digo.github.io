@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline — Chidigo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0E1A2A;
+      color: #F2EAD7;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      text-align: center;
+      max-width: 400px;
+    }
+    .mark {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 1.5rem;
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .body {
+      font-size: 1rem;
+      opacity: 0.75;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .links a {
+      display: block;
+      padding: 0.875rem 1.5rem;
+      background: #C9A84C;
+      color: #0E1A2A;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: opacity 0.15s;
+    }
+    .links a:hover { opacity: 0.9; }
+    [data-lang] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="mark" viewBox="0 0 32 32" role="img">
+      <rect x="0" y="0" width="32" height="32" rx="6" fill="#F2EAD7"/>
+      <g fill="#1F3A5F">
+        <circle cx="16" cy="9" r="4"/>
+        <rect x="13" y="15" width="6" height="14" fill="none" stroke="#1F3A5F" stroke-width="1.2"/>
+        <polygon points="13,15 19,15 16,22"/>
+        <polygon points="13,29 19,29 16,22"/>
+      </g>
+    </svg>
+
+    <!-- English -->
+    <div data-lang="en">
+      <h1 class="title">You're offline</h1>
+      <p class="body">The dictionary, proverbs, and quiz are still available.</p>
+      <div class="links">
+        <a href="/language/dictionary">Open Dictionary</a>
+        <a href="/language/proverbs">Browse Proverbs</a>
+        <a href="/language/quiz">Play the Quiz</a>
+      </div>
+    </div>
+
+    <!-- Swahili -->
+    <div data-lang="sw">
+      <h1 class="title">Huna mtandao</h1>
+      <p class="body">Kamusi, misemo, na mchezo bado vinapatikana.</p>
+      <div class="links">
+        <a href="/language/dictionary">Fungua Kamusi</a>
+        <a href="/language/proverbs">Vinjari Misemo</a>
+        <a href="/language/quiz">Cheza Mchezo</a>
+      </div>
+    </div>
+
+    <!-- Chidigo -->
+    <div data-lang="dig">
+      <h1 class="title">Kuhana mtandao</h1>
+      <p class="body">Kamusi, misemo, na mchezo bado vinapatikana.</p>
+      <div class="links">
+        <a href="/language/dictionary">Vugula Kamusi</a>
+        <a href="/language/proverbs">Lola Misemo</a>
+        <a href="/language/quiz">Henya Mchezo</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var lang = 'en';
+      try { lang = localStorage.getItem('chidigo-lang') || 'en'; } catch(e) {}
+      if (lang !== 'en' && lang !== 'sw' && lang !== 'dig') lang = 'en';
+      var el = document.querySelector('[data-lang="' + lang + '"]');
+      if (el) el.style.display = 'block';
+      else document.querySelector('[data-lang="en"]').style.display = 'block';
+    })();
+  </script>
+</body>
+</html>

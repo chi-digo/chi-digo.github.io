@@ -312,5 +312,24 @@
     "image_saved": "Image saved",
     "generating": "Creating image…",
     "meaning": "Meaning"
+  },
+  "install": {
+    "eyebrow": "TAKE DIGO WITH YOU",
+    "body": "Add Chidigo to your phone — 5,200+ words, 378 proverbs, and the quiz work even offline.",
+    "cta": "Add to Home Screen",
+    "dismiss": "Maybe later",
+    "ios_dismiss": "Got it",
+    "ios_step_1": "Tap the Share button in Safari",
+    "ios_step_2": "Scroll down and tap \"Add to Home Screen\"",
+    "ios_step_3": "Tap \"Add\" to confirm",
+    "webview_hint": "Open in Chrome to install",
+    "ios_chrome_hint": "Open this page in Safari to install",
+    "download_all": "Download all for offline",
+    "offline_title": "You're offline",
+    "offline_body": "The dictionary, proverbs, and quiz are still available.",
+    "offline_dict": "Open Dictionary",
+    "offline_proverbs": "Browse Proverbs",
+    "offline_quiz": "Play the Quiz",
+    "update_toast": "New words and proverbs available — tap to refresh"
   }
 }
