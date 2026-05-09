@@ -50,7 +50,7 @@
 
 .content {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
@@ -160,6 +160,7 @@
   max-width: 520px;
   margin-top: 0.75rem;
   position: relative;
+  z-index: 4;
 
   --bg-surface: rgba(255, 255, 255, 0.12);
   --bg-surface-muted: rgba(255, 255, 255, 0.10);
