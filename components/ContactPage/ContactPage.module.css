@@ -201,6 +201,57 @@
   font-size: 0.9rem;
 }
 
+/* Find us online */
+.findUs {
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--color-kaya-deep);
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(14, 26, 42, 0.12);
+  border-radius: 8px;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.socialLink:hover {
+  border-color: rgba(14, 26, 42, 0.3);
+  background-color: rgba(14, 26, 42, 0.03);
+}
+
+.socialLink:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.socialSvg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.socialPlatform {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.socialHandle {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: rgba(14, 26, 42, 0.5);
+}
+
 /* Partners */
 .partners {
   background-color: var(--color-kaya-deep);
@@ -244,5 +295,10 @@
 
   .partnerLinks {
     flex-direction: column;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+    gap: 1rem;
   }
 }

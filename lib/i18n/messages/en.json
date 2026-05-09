@@ -175,6 +175,11 @@
       "hard": "Hard"
     }
   },
+  "social": {
+    "find_us": "Find us online",
+    "instagram_label": "Chidigo on Instagram",
+    "facebook_label": "Chidigo on Facebook"
+  },
   "footer": {
     "copyright": "Chidigo",
     "about_heading": "About",

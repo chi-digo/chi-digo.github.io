@@ -175,6 +175,11 @@
       "hard": "Ngumu"
     }
   },
+  "social": {
+    "find_us": "Tupate mtandaoni",
+    "instagram_label": "Chidigo kwenye Instagram",
+    "facebook_label": "Chidigo kwenye Facebook"
+  },
   "footer": {
     "copyright": "Chidigo",
     "about_heading": "Kuhusu",

@@ -6,6 +6,29 @@ import { useTranslations } from '@/lib/i18n/context';
 import { track } from '@/lib/analytics/track';
 import styles from './ContactPage.module.css';
 
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className={styles.socialSvg}>
+      <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="17.5" cy="6.5" r="1.25" fill="currentColor" />
+    </svg>
+  );
+}
+
+function FacebookIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className={styles.socialSvg}>
+      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+    </svg>
+  );
+}
+
+const SOCIAL_LINKS = [
+  { platform: 'instagram', handle: '@chidigo_org', href: 'https://instagram.com/chidigo_org', Icon: InstagramIcon },
+  { platform: 'facebook', handle: 'chidigo.org', href: 'https://facebook.com/chidigo.org', Icon: FacebookIcon },
+] as const;
+
 const GOOGLE_FORM_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSdqHC_Hw3HVJ-fgSfCOok-Bh_jGraMpGI39SW3WXrjLHnRKAQ/formResponse';
 
@@ -154,6 +177,29 @@ export function ContactPage() {
               <div className={styles.roleTitle}>{t.contact.role_audio_title}</div>
               <p className={styles.bodyText}>{t.contact.role_audio_body}</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.section} ${styles.findUs}`}>
+        <div className={styles.sectionInner}>
+          <h2 className={styles.sectionHeading}>{t.social.find_us}</h2>
+          <div className={styles.socialLinks}>
+            {SOCIAL_LINKS.map(({ platform, handle, href, Icon }) => (
+              <a
+                key={platform}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+                aria-label={t.social[`${platform}_label` as keyof typeof t.social]}
+                onClick={() => track('contact', 'social', 'click', { platform, href })}
+              >
+                <Icon />
+                <span className={styles.socialPlatform}>{platform.charAt(0).toUpperCase() + platform.slice(1)}</span>
+                <span className={styles.socialHandle}>{handle}</span>
+              </a>
+            ))}
           </div>
         </div>
       </section>

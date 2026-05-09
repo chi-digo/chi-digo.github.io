@@ -70,6 +70,39 @@
   border-radius: 2px;
 }
 
+.socialRow {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  color: var(--color-hando-cream);
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+  border-radius: 6px;
+}
+
+.socialIcon:hover {
+  opacity: 1;
+}
+
+.socialIcon:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.socialIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
 .bottomBar {
   border-top: 1px solid rgba(242, 234, 215, 0.1);
   padding: 1.25rem 0;

@@ -298,6 +298,11 @@ export interface Messages {
       hard: string;
     };
   };
+  social: {
+    find_us: string;
+    instagram_label: string;
+    facebook_label: string;
+  };
   footer: {
     copyright: string;
     about_heading: string;

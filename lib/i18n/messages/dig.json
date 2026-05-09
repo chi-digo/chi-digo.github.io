@@ -175,6 +175,11 @@
       "hard": "Ngumu"
     }
   },
+  "social": {
+    "find_us": "Hutuphahe mtandaoni",
+    "instagram_label": "Chidigo kpwa Instagram",
+    "facebook_label": "Chidigo kpwa Facebook"
+  },
   "footer": {
     "copyright": "Chidigo",
     "about_heading": "Kuhusu",
