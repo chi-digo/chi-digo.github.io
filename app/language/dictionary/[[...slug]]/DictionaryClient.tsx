@@ -254,11 +254,11 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
           <ShareMenu
             onMenuOpen={() => prerenderWord(entry, locale)}
             onShareImage={() => {
-              const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(entry.headword)}`;
+              const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
               sharePrerendered('word', entry.headword, `Chidigo: ${entry.headword}`, entry.headword, url);
             }}
             onCopyLink={() => {
-              const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(entry.headword)}`;
+              const url = `${window.location.origin}/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
               copyLink(url);
             }}
             isGenerating={isGenerating}
@@ -504,11 +504,11 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
             <ShareMenu
               onMenuOpen={() => prerenderWord(primary, locale)}
               onShareImage={() => {
-                const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
                 sharePrerendered('word', primary.headword, `Chidigo: ${primary.headword}`, primary.headword, url);
               }}
               onCopyLink={() => {
-                const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                const url = `${window.location.origin}/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
                 copyLink(url);
               }}
               isGenerating={isGenerating}

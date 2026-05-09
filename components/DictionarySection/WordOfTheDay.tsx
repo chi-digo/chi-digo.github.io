@@ -69,11 +69,11 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
         <ShareMenu
           onMenuOpen={() => prerenderWord(entry, locale)}
           onShareImage={() => {
-            const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(entry.headword)}`;
+            const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
             sharePrerendered('word', entry.headword, `Chidigo: ${entry.headword}`, entry.headword, url);
           }}
           onCopyLink={() => {
-            const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(entry.headword)}`;
+            const url = `${window.location.origin}/language/dictionary/word/${encodeURIComponent(entry.headword)}`;
             copyLink(url);
           }}
           isGenerating={isGenerating}
