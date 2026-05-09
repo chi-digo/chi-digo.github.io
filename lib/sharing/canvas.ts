@@ -194,8 +194,8 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   ctx.fillStyle = COLORS.indigo;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
-  // Motif bands
-  const bandH = 60;
+  // Motif bands (matching proverb card)
+  const bandH = 80;
   const bandY1 = 40;
   const bandY2 = SIZE - 40 - bandH;
   ctx.globalAlpha = 0.3;
@@ -206,7 +206,7 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   ctx.globalAlpha = 1;
 
   // Score circle
-  const circleY = 320;
+  const circleY = 330;
   const circleR = 140;
   ctx.beginPath();
   ctx.arc(SIZE / 2, circleY, circleR, 0, Math.PI * 2);
@@ -250,8 +250,9 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
     ctx.globalAlpha = 1;
   }
 
-  // Brand bar
-  drawBrandBar(ctx, SIZE / 2, bandY2 - 30, COLORS.cream, 'rgba(242,234,215,0.5)');
+  // Brand bar (centered, above bottom motif — matching proverb card)
+  const brandY = bandY2 - 40;
+  drawBrandBar(ctx, SIZE / 2, brandY, COLORS.cream, 'rgba(242,234,215,0.5)');
 
   return new Promise<Blob>((resolve, reject) => {
     canvas.toBlob(
