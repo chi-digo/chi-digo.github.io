@@ -196,16 +196,24 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
   ctx.fillStyle = COLORS.sand;
   ctx.fillRect(0, 0, SIZE, SIZE);
 
-  // Motif bands (vigango stripe pattern, unique to quiz)
+  // Motif bands (vigango bowtie pattern, unique to quiz)
   const bandH = 80;
   const bandY1 = 40;
   const bandY2 = SIZE - 40 - bandH;
-  ctx.globalAlpha = 0.15;
-  const pattern = createMotifPattern(ctx, drawVigangoTile, 16, 16, COLORS.indigo);
+  const pattern = createMotifPattern(ctx, drawVigangoTile, 60, 60, COLORS.indigo);
   ctx.fillStyle = pattern;
   ctx.fillRect(PADDING, bandY1, CONTENT_W, bandH);
   ctx.fillRect(PADDING, bandY2, CONTENT_W, bandH);
-  ctx.globalAlpha = 1;
+
+  // Border rules around motif bands
+  ctx.strokeStyle = COLORS.indigo;
+  ctx.lineWidth = 2;
+  for (const y of [bandY1, bandY1 + bandH, bandY2, bandY2 + bandH]) {
+    ctx.beginPath();
+    ctx.moveTo(PADDING, y);
+    ctx.lineTo(SIZE - PADDING, y);
+    ctx.stroke();
+  }
 
   // Score circle
   const circleY = 330;
@@ -251,6 +259,14 @@ export async function renderQuizScoreCard(data: QuizScoreData): Promise<Blob> {
     }
     ctx.globalAlpha = 1;
   }
+
+  // Quiz link
+  ctx.font = '400 28px Inter, sans-serif';
+  ctx.fillStyle = COLORS.indigo;
+  ctx.globalAlpha = 0.5;
+  ctx.textAlign = 'center';
+  ctx.fillText('chidigo.org/language/quiz', SIZE / 2, bandY2 - 80);
+  ctx.globalAlpha = 1;
 
   // Brand bar (centered, above bottom motif — matching proverb card)
   const brandY = bandY2 - 40;
