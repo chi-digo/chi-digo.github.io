@@ -97,7 +97,7 @@
 .pullQuote {
   font-family: var(--font-display);
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
   font-size: clamp(1.4rem, 3.2vw, 2rem);
   line-height: 1.3;
   color: var(--color-hando-cream);
