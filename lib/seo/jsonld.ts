@@ -1,9 +1,15 @@
 const SITE_URL = 'https://chidigo.org';
 const SITE_NAME = 'Chidigo';
+const SOCIAL_PROFILES = [
+  'https://instagram.com/chidigo_org',
+  'https://facebook.com/chidigo.org',
+];
+
 const PUBLISHER = {
   '@type': 'EducationalOrganization' as const,
   name: SITE_NAME,
   url: SITE_URL,
+  sameAs: SOCIAL_PROFILES,
 };
 
 export function websiteJsonLd() {
