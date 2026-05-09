@@ -57,7 +57,7 @@ export default function HomeClient() {
   const router = useRouter();
   const heroRef = useRef<HTMLElement>(null);
   const exploreRef = useRef<HTMLElement>(null);
-  const discoverRef = useRef<HTMLElement>(null);
+  const discoverRef = useRef<HTMLDivElement>(null);
 
   useTrackView(heroRef, 'orientation', 'hero');
   useTrackView(exploreRef, 'orientation', 'explore');
