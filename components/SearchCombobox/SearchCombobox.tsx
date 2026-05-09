@@ -26,12 +26,17 @@ export interface ResultGroup {
   seeAllLabel?: string;
 }
 
+export interface SelectMeta {
+  group: string;
+  seeAll: boolean;
+}
+
 export interface SearchComboboxProps {
   value: string;
   onChange: (value: string) => void;
   groups: ResultGroup[];
   loading?: boolean;
-  onSelect: (href: string) => void;
+  onSelect: (href: string, meta: SelectMeta) => void;
   onSubmit?: (query: string) => void;
   placeholder?: string;
   emptyState?: ReactNode;
@@ -69,6 +74,18 @@ export const SearchCombobox = forwardRef<HTMLInputElement, SearchComboboxProps>(
       return () => document.removeEventListener('pointerdown', handlePointerDown);
     }, [open]);
 
+    const findGroupForIndex = useCallback(
+      (index: number): string => {
+        let offset = 0;
+        for (const g of groups) {
+          if (index < offset + g.results.length) return g.key;
+          offset += g.results.length;
+        }
+        return '';
+      },
+      [groups],
+    );
+
     const handleKeyDown = useCallback(
       (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'ArrowDown') {
@@ -81,7 +98,7 @@ export const SearchCombobox = forwardRef<HTMLInputElement, SearchComboboxProps>(
         } else if (e.key === 'Enter') {
           e.preventDefault();
           if (activeIndex >= 0 && activeIndex < allItems.length) {
-            onSelect(allItems[activeIndex].href);
+            onSelect(allItems[activeIndex].href, { group: findGroupForIndex(activeIndex), seeAll: false });
             setOpen(false);
           } else if (onSubmit && value.trim()) {
             onSubmit(value.trim());
@@ -92,7 +109,7 @@ export const SearchCombobox = forwardRef<HTMLInputElement, SearchComboboxProps>(
           inputRef.current?.blur();
         }
       },
-      [activeIndex, allItems, onSelect, onSubmit, value, inputRef],
+      [activeIndex, allItems, onSelect, onSubmit, value, inputRef, findGroupForIndex],
     );
 
     useEffect(() => {
@@ -164,7 +181,7 @@ export const SearchCombobox = forwardRef<HTMLInputElement, SearchComboboxProps>(
                         className={`${styles.option} ${flatIndex === activeIndex ? styles.optionActive : ''}`}
                         onPointerDown={(e) => {
                           e.preventDefault();
-                          onSelect(item.href);
+                          onSelect(item.href, { group: group.key, seeAll: false });
                           setOpen(false);
                         }}
                         onPointerEnter={() => setActiveIndex(flatIndex)}
@@ -179,7 +196,7 @@ export const SearchCombobox = forwardRef<HTMLInputElement, SearchComboboxProps>(
                       className={styles.seeAll}
                       onPointerDown={(e) => {
                         e.preventDefault();
-                        onSelect(group.seeAllHref!);
+                        onSelect(group.seeAllHref!, { group: group.key, seeAll: true });
                         setOpen(false);
                       }}
                     >

@@ -66,11 +66,15 @@ export default function HomeClient() {
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
   const searchGroups = buildSearchGroups(results, locale, query);
 
-  const handleSearchSelect = useCallback((href: string) => {
+  const handleSearchSelect = useCallback((href: string, meta: { group: string; seeAll: boolean }) => {
     router.push(href);
     setQuery('');
-    track('orientation', 'search', 'select_result', { href });
-  }, [router, setQuery]);
+    track('orientation', 'search', meta.seeAll ? 'see_all' : 'select_result', {
+      href,
+      result_type: meta.group,
+      query,
+    });
+  }, [router, setQuery, query]);
 
   const handleSearchSubmit = useCallback((q: string) => {
     router.push(`/search?q=${encodeURIComponent(q)}`);

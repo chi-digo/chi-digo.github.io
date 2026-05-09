@@ -62,11 +62,16 @@ export function NavBar() {
     searchBtnRef.current?.focus();
   }, [setQuery]);
 
-  const handleSearchSelect = useCallback((href: string) => {
+  const handleSearchSelect = useCallback((href: string, meta: { group: string; seeAll: boolean }) => {
     router.push(href);
     closeSearch();
-    track('orientation', 'search', 'select_result', { href });
-  }, [router, closeSearch]);
+    track('orientation', 'search', meta.seeAll ? 'see_all' : 'select_result', {
+      href,
+      result_type: meta.group,
+      query,
+      device: 'mobile',
+    });
+  }, [router, closeSearch, query]);
 
   const handleSearchSubmit = useCallback((q: string) => {
     router.push(`/search?q=${encodeURIComponent(q)}`);
