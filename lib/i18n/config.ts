@@ -341,6 +341,14 @@ export interface Messages {
     offline_proverbs: string;
     offline_quiz: string;
     update_toast: string;
+    feature_dict_title: string;
+    feature_dict_desc: string;
+    feature_proverbs_title: string;
+    feature_proverbs_desc: string;
+    feature_quiz_title: string;
+    feature_quiz_desc: string;
+    feature_offline_title: string;
+    feature_offline_desc: string;
   };
 }
 

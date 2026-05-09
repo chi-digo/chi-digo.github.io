@@ -14,8 +14,10 @@
   margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-.logo a {
-  display: inline-block;
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--color-hando-cream);
   text-decoration: none;
 }
@@ -23,6 +25,12 @@
 .logo svg {
   height: 24px;
   width: auto;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .columns {

@@ -330,6 +330,14 @@
     "offline_dict": "Open Dictionary",
     "offline_proverbs": "Browse Proverbs",
     "offline_quiz": "Play the Quiz",
-    "update_toast": "New words and proverbs available — tap to refresh"
+    "update_toast": "New words and proverbs available — tap to refresh",
+    "feature_dict_title": "5,200+ words",
+    "feature_dict_desc": "Full Digo dictionary",
+    "feature_proverbs_title": "378 proverbs",
+    "feature_proverbs_desc": "Cultural wisdom with translations",
+    "feature_quiz_title": "Language quiz",
+    "feature_quiz_desc": "Test your Digo knowledge",
+    "feature_offline_title": "Works offline",
+    "feature_offline_desc": "No internet needed after install"
   }
 }

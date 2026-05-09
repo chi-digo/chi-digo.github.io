@@ -315,8 +315,8 @@
   },
   "install": {
     "eyebrow": "HALA CHIDIGO NAWE",
-    "body": "Ika Chidigo kpwenye simu yako — maneno 5,200+, misemo 378, na mchezo vinafanya kazi hata bila mtandao.",
-    "cta": "Ika kpwenye simu yako",
+    "body": "Ika Chidigo kpwenye simu yako — maneno 5,200+, misemo 378, na mchezo vinaenda kazi hata bila mtandao.",
+    "cta": "Ika kpwenye simu yo",
     "dismiss": "Bada ya phale",
     "ios_dismiss": "Ni sawa",
     "ios_step_1": "Bonyeza kitufe cha Kushiriki kahi-kahi ya Safari",
@@ -330,6 +330,14 @@
     "offline_dict": "Vugula Kamusi",
     "offline_proverbs": "Lola Misemo",
     "offline_quiz": "Henya Mchezo",
-    "update_toast": "Maneno na misemo maphya ganapatikana — bonyeza kusasisha"
+    "update_toast": "Maneno na misemo maphya ganapatikana — bonyeza kusasisha",
+    "feature_dict_title": "Maneno 5,200+",
+    "feature_dict_desc": "Kamusi kamili ya Chidigo",
+    "feature_proverbs_title": "Misemo 378",
+    "feature_proverbs_desc": "Busara za chimila na tafsiri",
+    "feature_quiz_title": "Mchezo wa luga",
+    "feature_quiz_desc": "Jeza ujuzi wako wa Chidigo",
+    "feature_offline_title": "Inafanya kazi bila mtandao",
+    "feature_offline_desc": "Kuhitaji mtandao bada ya ku-install"
   }
 }

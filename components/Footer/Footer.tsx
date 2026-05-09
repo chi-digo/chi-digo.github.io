@@ -61,8 +61,9 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <Link href="/" aria-label="Chidigo home">
+          <Link href="/" aria-label="Chidigo home" className={styles.logoLink}>
             <VigangoMark />
+            <span className={styles.brandName}>Chidigo</span>
           </Link>
         </div>
 
