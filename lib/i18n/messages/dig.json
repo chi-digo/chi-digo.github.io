@@ -296,5 +296,13 @@
     "vision_body": "Mfumo wa ngazi ne kula rejea hadi kueneza — na picha ya 2040.",
     "contact_title": "Shiriki juhudi",
     "contact_body": "Tuma neno. Kagua tafsiri. Shiriki msemo. Rekodi sauti yako."
+  },
+  "share": {
+    "button_label": "Shiriki",
+    "share_image": "Shiriki Picha",
+    "copy_link": "Nakili Kiungo",
+    "link_copied": "Kiungo chimenakiliwa!",
+    "image_saved": "Picha yatsirizwa",
+    "generating": "Inaunda picha…"
   }
 }

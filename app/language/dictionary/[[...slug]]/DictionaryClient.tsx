@@ -9,6 +9,8 @@ import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
+import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
+import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import styles from '../dictionary.module.css';
 
@@ -403,9 +405,11 @@ function EntrySection({
 
 function WordView({ headword, nav, query }: { headword: string; nav: Navigate; query?: string }) {
   const t = useTranslations();
+  const { locale } = useLocale();
   const [entries, setEntries] = useState<DictionaryEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const viewTracked = useRef(false);
+  const { prerenderWord, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     viewTracked.current = false;
@@ -459,16 +463,30 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
       {!loading && primary && (
         <article className={styles.entry}>
           <header className={styles.entryHeader}>
-            <h1 className={styles.entryHeadword}>{cleanHeadword(primary.headword)}</h1>
-            {primary.ipa && <span className={styles.entryIpa}>/{primary.ipa}/</span>}
-            {!isHomonym && (
-              <span className={styles.entryPos}>
-                {POS_ABBREVIATIONS[primary.pos] || primary.pos_en}
-              </span>
-            )}
-            {!isHomonym && primary.noun_class && (
-              <span className={styles.entryNounClass}>cl. {primary.noun_class}</span>
-            )}
+            <div className={styles.entryHeaderLeft}>
+              <h1 className={styles.entryHeadword}>{cleanHeadword(primary.headword)}</h1>
+              {primary.ipa && <span className={styles.entryIpa}>/{primary.ipa}/</span>}
+              {!isHomonym && (
+                <span className={styles.entryPos}>
+                  {POS_ABBREVIATIONS[primary.pos] || primary.pos_en}
+                </span>
+              )}
+              {!isHomonym && primary.noun_class && (
+                <span className={styles.entryNounClass}>cl. {primary.noun_class}</span>
+              )}
+            </div>
+            <ShareMenu
+              onMenuOpen={() => prerenderWord(primary, locale)}
+              onShareImage={() => {
+                const url = `https://chidigo.org/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                sharePrerendered('word', primary.headword, `Chi-digo: ${primary.headword}`, primary.headword, url);
+              }}
+              onCopyLink={() => {
+                const url = `${window.location.origin}/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                copyLink(url);
+              }}
+              isGenerating={isGenerating}
+            />
           </header>
 
           {mainEntries.map((entry) => (

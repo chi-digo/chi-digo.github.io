@@ -11,6 +11,8 @@ import { PROVERB_THEMES, PROVERB_FUNCTIONS, getTheme, getFunction } from '@/lib/
 import { Alert } from '@chi-digo/design-system';
 import { DIGO_ALPHABET } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
+import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
+import { useShareCard } from '@/hooks/useShareCard';
 import type { Proverb, GroupedProverbResults } from '@/lib/proverbs/types';
 import type { Locale } from '@/lib/i18n/config';
 import styles from '../proverbs.module.css';
@@ -235,6 +237,8 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
   const t = useTranslations();
   const [proverb, setProverb] = useState<Proverb | null>(null);
   const [loading, setLoading] = useState(true);
+  const [featShareLang, setFeatShareLang] = useState<'dg' | 'sw'>('dg');
+  const { prerenderProverb: prerenderFeatured, sharePrerendered: shareFeatured, copyLink: copyFeatLink, isGenerating: featGenerating } = useShareCard();
 
   useEffect(() => {
     let cancelled = false;
@@ -263,15 +267,46 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
   if (!proverb) return null;
 
   return (
-    <button
-      type="button"
+    <div
       className={styles.featuredCard}
       onClick={() => {
         track('proverbs', 'featured', 'click', { slug: proverb.slug });
         goToProverb(nav, proverb.slug);
       }}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          track('proverbs', 'featured', 'click', { slug: proverb.slug });
+          goToProverb(nav, proverb.slug);
+        }
+      }}
     >
-      <p className={styles.featuredLabel}>{t.proverbs.proverb_of_the_day}</p>
+      <div className={styles.featuredTop}>
+        <p className={styles.featuredLabel}>{t.proverbs.proverb_of_the_day}</p>
+        <div onClick={(e) => e.stopPropagation()}>
+          <ShareMenu
+            onMenuOpen={() => prerenderFeatured(proverb, featShareLang)}
+            onShareImage={() => {
+              const url = `https://chidigo.org/proverbs/${encodeURIComponent(proverb.slug)}`;
+              shareFeatured('proverb', proverb.slug, 'Chi-digo', proverb.digo, url);
+            }}
+            onCopyLink={() => {
+              const url = `${window.location.origin}/proverbs/${encodeURIComponent(proverb.slug)}`;
+              copyFeatLink(url);
+            }}
+            isGenerating={featGenerating}
+            proverbLangToggle={{
+              lang: featShareLang,
+              onToggle: (lang) => {
+                setFeatShareLang(lang);
+                prerenderFeatured(proverb, lang);
+              },
+            }}
+          />
+        </div>
+      </div>
       <p className={styles.featuredDigo}>{proverb.digo}</p>
       <p className={styles.featuredGloss}>
         {locale === 'sw' ? (proverb.idiomatic_sw || proverb.literal_sw) :
@@ -290,7 +325,7 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
           })}
         </div>
       )}
-    </button>
+    </div>
   );
 }
 
@@ -367,6 +402,8 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   const [related, setRelated] = useState<Proverb[]>([]);
   const [loading, setLoading] = useState(true);
   const viewTracked = useRef(false);
+  const [shareLang, setShareLang] = useState<'dg' | 'sw'>('dg');
+  const { prerenderProverb, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     viewTracked.current = false;
@@ -430,7 +467,28 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   return (
     <>
       <article className={styles.detailArticle}>
-        <h1 className={styles.detailDigo}>{proverb.digo}</h1>
+        <div className={styles.detailHeader}>
+          <h1 className={styles.detailDigo}>{proverb.digo}</h1>
+          <ShareMenu
+            onMenuOpen={() => prerenderProverb(proverb, shareLang)}
+            onShareImage={() => {
+              const url = `https://chidigo.org/proverbs/${encodeURIComponent(proverb.slug)}`;
+              sharePrerendered('proverb', proverb.slug, 'Chi-digo', proverb.digo, url);
+            }}
+            onCopyLink={() => {
+              const url = `${window.location.origin}/proverbs/${encodeURIComponent(proverb.slug)}`;
+              copyLink(url);
+            }}
+            isGenerating={isGenerating}
+            proverbLangToggle={{
+              lang: shareLang,
+              onToggle: (lang) => {
+                setShareLang(lang);
+                prerenderProverb(proverb, lang);
+              },
+            }}
+          />
+        </div>
 
         {proverb.ipa && <p className={styles.detailIpa}>/{proverb.ipa}/</p>}
 

@@ -110,7 +110,7 @@
   },
   "the_problem": {
     "eyebrow": "The Problem",
-    "pull_quote": "\u201cMy parents understand Chidigo when their grandmother speaks. They reply in Swahili. My children don\u2019t understand at all.\u201d",
+    "pull_quote": "“My parents understand Chidigo when their grandmother speaks. They reply in Swahili. My children don’t understand at all.”",
     "body_1": "This pattern — passive parents, peer-only transmission, screen lives in Swahili and English — is {cliff}, not a slope.",
     "body_1_cliff": "a cliff",
     "body_2": "Linguists call it the missing transmission generation: when parents stop speaking the language to their children, the language collapses in two generations even with hundreds of thousands of nominal speakers."
@@ -296,5 +296,13 @@
     "vision_body": "The four-tier model from reference to transmission — and the 2040 picture.",
     "contact_title": "Join the effort",
     "contact_body": "Submit a word. Review a translation. Share a proverb. Record your voice."
+  },
+  "share": {
+    "button_label": "Share",
+    "share_image": "Share Image",
+    "copy_link": "Copy Link",
+    "link_copied": "Link copied!",
+    "image_saved": "Image saved",
+    "generating": "Creating image…"
   }
 }

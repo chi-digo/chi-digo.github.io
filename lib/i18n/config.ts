@@ -307,6 +307,14 @@ export interface Messages {
     contact_link: string;
     license: string;
   };
+  share: {
+    button_label: string;
+    share_image: string;
+    copy_link: string;
+    link_copied: string;
+    image_saved: string;
+    generating: string;
+  };
 }
 
 export const locales: LocaleConfig[] = [

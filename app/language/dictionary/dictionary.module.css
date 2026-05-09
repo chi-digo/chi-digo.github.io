@@ -305,10 +305,18 @@
 
 .entryHeader {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.entryHeaderLeft {
+  display: flex;
   align-items: baseline;
   gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  flex: 1;
 }
 
 .entryHeadword {

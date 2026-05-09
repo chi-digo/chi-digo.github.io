@@ -1,7 +1,7 @@
 import { GA_ID } from './gtag';
 
 /** The six user journeys across the site. */
-export type Journey = 'orientation' | 'culture' | 'language' | 'history' | 'dictionary' | 'proverbs' | 'contact';
+export type Journey = 'orientation' | 'culture' | 'language' | 'history' | 'dictionary' | 'proverbs' | 'contact' | 'sharing';
 
 export type TrackParams = Record<string, string | number | boolean>;
 
@@ -46,6 +46,11 @@ export function trackNavClick(source: string, destination: string): void {
   }
 
   window.gtag('event', eventName, { source, destination });
+}
+
+/** Track a share action (image share, link copy, fallback). */
+export function trackShare(contentType: string, result: string): void {
+  track('sharing' as Journey, 'action', result, { content_type: contentType });
 }
 
 /** Track when the user switches between locales. */
