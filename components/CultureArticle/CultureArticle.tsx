@@ -79,7 +79,7 @@ export function TopicArticle({
 
   return (
     <>
-      <section className={styles.hero} style={getHeroStyle(domainSlug)}>
+      <section className={styles.hero} style={getHeroStyle(`${domainSlug}/${topicSlug}`)}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
           <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>

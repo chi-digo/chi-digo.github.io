@@ -71,7 +71,7 @@ export function LanguageTopicArticle({ topicSlug }: { topicSlug: string }) {
 
   return (
     <>
-      <section className={styles.hero} style={getHeroStyle('oral-traditions')}>
+      <section className={styles.hero} style={getHeroStyle(`lang/${topicSlug}`)}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
           <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>

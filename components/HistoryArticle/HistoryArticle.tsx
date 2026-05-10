@@ -71,7 +71,7 @@ export function HistoryTopicArticle({ topicSlug }: { topicSlug: string }) {
 
   return (
     <>
-      <section className={styles.hero} style={getHeroStyle('history')}>
+      <section className={styles.hero} style={getHeroStyle(`hist/${topicSlug}`)}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
           <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>
