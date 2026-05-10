@@ -28,12 +28,15 @@ export function ClientShell({ children }: ClientShellProps) {
     const splash = document.getElementById('splash');
     if (!splash) return;
     splash.classList.add('fade-out');
-    const onEnd = () => splash.remove();
-    splash.addEventListener('transitionend', onEnd);
-    const fallback = setTimeout(onEnd, 500);
+    const hide = () => {
+      splash.style.display = 'none';
+      splash.setAttribute('aria-hidden', 'true');
+    };
+    splash.addEventListener('transitionend', hide);
+    const fallback = setTimeout(hide, 500);
     return () => {
       clearTimeout(fallback);
-      splash.removeEventListener('transitionend', onEnd);
+      splash.removeEventListener('transitionend', hide);
     };
   }, []);
 

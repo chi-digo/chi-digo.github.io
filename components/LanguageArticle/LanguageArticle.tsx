@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getLanguageTopic, type ContentBlock } from '@/lib/language/content';
 import { track } from '@/lib/analytics/track';
 import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
+import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './LanguageArticle.module.css';
 
 function renderInlineMarkdown(text: string): React.ReactNode[] {
@@ -70,7 +71,7 @@ export function LanguageTopicArticle({ topicSlug }: { topicSlug: string }) {
 
   return (
     <>
-      <section className={styles.hero}>
+      <section className={styles.hero} style={getHeroStyle('oral-traditions')}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
           <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>
