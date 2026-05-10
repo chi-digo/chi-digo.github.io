@@ -8,6 +8,7 @@ import { NavBar } from '@/components/NavBar/NavBar';
 import { Breadcrumb } from '@/components/Breadcrumb/Breadcrumb';
 import { Footer } from '@/components/Footer/Footer';
 import { AnalyticsProvider } from '@/components/Analytics/AnalyticsProvider';
+import { SentryContext } from '@/components/SentryContext';
 import { ConsentBanner } from '@/components/Analytics/ConsentBanner';
 import { UpdateToast } from '@/components/UpdateToast/UpdateToast';
 import { useServiceWorker } from '@/hooks/useServiceWorker';
@@ -42,6 +43,7 @@ export function ClientShell({ children }: ClientShellProps) {
 
   return (
     <LocaleProvider>
+      <SentryContext />
       <AnalyticsProvider />
       <MetadataUpdater />
       <NavBar />

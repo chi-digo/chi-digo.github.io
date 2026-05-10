@@ -31,6 +31,17 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_SENTRY_DSN: ${{ vars.NEXT_PUBLIC_SENTRY_DSN }}
+          NEXT_PUBLIC_SENTRY_RELEASE: ${{ github.sha }}
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: ${{ vars.SENTRY_ORG }}
+          SENTRY_PROJECT: ${{ vars.SENTRY_PROJECT }}
+      - name: Remove source maps
+        run: |
+          find out -name '*.map' -delete
+          if find out -name '*.map' | grep -q .; then
+            echo "::error::Source maps still present in out/" && exit 1
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
