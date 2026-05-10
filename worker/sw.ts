@@ -24,8 +24,30 @@ const CACHE_PAGES = 'chidigo-pages';
 const CACHE_META = 'chidigo-meta';
 const DATA_VERSION_URL = '/data/data-version.json';
 
+const manifest = self.__SW_MANIFEST ?? [];
+const htmlEntries = manifest.filter((entry) => {
+  const url = typeof entry === 'string' ? entry : entry.url;
+  return url.endsWith('.html') || (!url.includes('.') && url !== '/');
+});
+const nonHtmlEntries = manifest.filter((entry) => {
+  const url = typeof entry === 'string' ? entry : entry.url;
+  return !url.endsWith('.html') && (url.includes('.') || url === '/');
+});
+
+// Pre-populate the pages cache with HTML from the precache manifest so they're
+// available offline, but served via NetworkFirst (not precache-first).
+self.addEventListener('install', (event) => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_PAGES);
+    for (const entry of htmlEntries) {
+      const url = typeof entry === 'string' ? entry : entry.url;
+      try { await cache.add(url); } catch { /* skip */ }
+    }
+  })());
+});
+
 const serwist = new Serwist({
-  precacheEntries: self.__SW_MANIFEST,
+  precacheEntries: nonHtmlEntries,
   precacheOptions: {
     cleanURLs: true,
   },
@@ -33,6 +55,13 @@ const serwist = new Serwist({
   clientsClaim: true,
   navigationPreload: false,
   runtimeCaching: [
+    {
+      matcher: ({ request }) => request.mode === 'navigate',
+      handler: new NetworkFirst({
+        cacheName: CACHE_PAGES,
+        plugins: [new ExpirationPlugin({ maxEntries: 60 })],
+      }),
+    },
     {
       matcher: ({ url }) => /^\/data\/proverbs\/.*\.json$/.test(url.pathname),
       handler: new StaleWhileRevalidate({ cacheName: CACHE_PROVERBS }),
@@ -51,14 +80,6 @@ const serwist = new Serwist({
         /^\/data\/.*\.json$/.test(url.pathname) &&
         url.pathname !== DATA_VERSION_URL,
       handler: new StaleWhileRevalidate({ cacheName: CACHE_DICT }),
-    },
-    {
-      matcher: ({ url }) =>
-        /^\/(culture|history|language|about|mission|vision|contact)(\/|$)/.test(url.pathname),
-      handler: new NetworkFirst({
-        cacheName: CACHE_PAGES,
-        plugins: [new ExpirationPlugin({ maxEntries: 30 })],
-      }),
     },
     {
       matcher: ({ url }) => /^\/fonts\/.*\.woff2$/.test(url.pathname),
@@ -229,9 +250,16 @@ self.addEventListener('activate', (event) => {
       }
 
       await storeVersion(remote);
-    } catch {
-      // Offline during activation — still try background fetch from cache
+    } catch (err) {
       await backgroundFetchData();
+
+      const clients = await self.clients.matchAll();
+      for (const client of clients) {
+        client.postMessage({
+          type: "SW_ERROR",
+          error: err instanceof Error ? { message: err.message, stack: err.stack } : String(err),
+        });
+      }
     }
 
     await self.clients.claim();
