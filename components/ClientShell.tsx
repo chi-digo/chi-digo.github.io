@@ -1,6 +1,6 @@
 'use client';
 
-import { type ReactNode } from 'react';
+import { type ReactNode, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { LocaleProvider } from '@/lib/i18n/context';
 import { MetadataUpdater } from '@/lib/i18n/useMetadata';
@@ -23,6 +23,19 @@ interface ClientShellProps {
 
 export function ClientShell({ children }: ClientShellProps) {
   const { updateAvailable, applyUpdate, dismissUpdate } = useServiceWorker();
+
+  useEffect(() => {
+    const splash = document.getElementById('splash');
+    if (!splash) return;
+    splash.classList.add('fade-out');
+    const onEnd = () => splash.remove();
+    splash.addEventListener('transitionend', onEnd);
+    const fallback = setTimeout(onEnd, 500);
+    return () => {
+      clearTimeout(fallback);
+      splash.removeEventListener('transitionend', onEnd);
+    };
+  }, []);
 
   return (
     <LocaleProvider>
