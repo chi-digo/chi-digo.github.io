@@ -7,6 +7,7 @@ import { figures } from '@/lib/history/figures';
 import { timelineEvents, eraLabels, eraColors, type Era } from '@/lib/history/timeline';
 import { trackNavClick } from '@/lib/analytics/track';
 import { useTrackView } from '@/hooks/useTrackView';
+import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './HistoryIndex.module.css';
 
 const eras: Era[] = ['origins', 'kaya', 'colonial', 'modern'];
@@ -33,7 +34,7 @@ export function HistoryIndex() {
   return (
     <>
       {/* Hero */}
-      <section className={styles.hero}>
+      <section className={styles.hero} style={getHeroStyle('history-index')}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{t.history.eyebrow}</p>
           <h1 className={styles.heroTitle}>{t.history.title}</h1>

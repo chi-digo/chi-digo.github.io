@@ -3,6 +3,8 @@
   width: 100%;
   min-height: 40vh;
   background-color: var(--color-kaya-deep);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   padding-bottom: clamp(2rem, 5vw, 3.5rem);

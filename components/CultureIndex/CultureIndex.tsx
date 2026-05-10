@@ -8,6 +8,7 @@ import { domains, getDomain, type CultureDomain, type Topic } from '@/lib/cultur
 import { fukoCards } from '@/lib/culture/fuko';
 import { trackNavClick } from '@/lib/analytics/track';
 import { useTrackView } from '@/hooks/useTrackView';
+import { getHeroStyle } from '@/lib/images/hero-images';
 import type { Locale } from '@/lib/i18n/config';
 import styles from './CultureIndex.module.css';
 
@@ -32,15 +33,18 @@ function Hero({
   intro,
   proverb,
   proverbGloss,
+  heroImageKey,
 }: {
   eyebrow: string;
   title: string;
   intro?: string;
   proverb?: string;
   proverbGloss?: string;
+  heroImageKey?: string;
 }) {
+  const heroStyle = heroImageKey ? getHeroStyle(heroImageKey) : undefined;
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} style={heroStyle}>
       <div className={styles.heroContent}>
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h1 className={styles.heroTitle}>{title}</h1>
@@ -106,6 +110,7 @@ export function CultureOverview() {
         intro={t.culture.overview_intro}
         proverb={t.culture.overview_proverb}
         proverbGloss={t.culture.overview_proverb_gloss}
+        heroImageKey="culture-index"
       />
 
       {/* Interactive map */}
@@ -184,6 +189,7 @@ export function DomainIndex({ domainSlug }: { domainSlug: string }) {
         title={domain.title[locale]}
         proverb={domain.proverb}
         proverbGloss={domain.proverbGloss}
+        heroImageKey={domainSlug}
       />
       <section className={styles.section}>
         <div className={styles.sectionInner}>

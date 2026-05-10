@@ -7,6 +7,7 @@ import { dialects } from '@/lib/language/dialects';
 import { languageTools } from '@/lib/language/tools';
 import { trackNavClick } from '@/lib/analytics/track';
 import { useTrackView } from '@/hooks/useTrackView';
+import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './LanguageIndex.module.css';
 
 
@@ -25,7 +26,7 @@ export function LanguageIndex() {
   return (
     <>
       {/* Hero */}
-      <section className={styles.hero}>
+      <section className={styles.hero} style={getHeroStyle('language-index')}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{t.language.eyebrow}</p>
           <h1 className={styles.heroTitle}>{t.language.title}</h1>
