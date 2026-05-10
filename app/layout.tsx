@@ -76,6 +76,20 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <div id="splash" role="status" aria-label="Loading Chidigo">
+          <style dangerouslySetInnerHTML={{ __html: `#splash{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#0E1A2A;animation:splash-auto-hide 5s ease-out forwards}#splash svg{width:80px;height:auto}#splash.fade-out{opacity:0;transition:opacity 400ms ease-out;animation:none;pointer-events:none}@keyframes splash-auto-hide{0%,90%{opacity:1}100%{opacity:0;visibility:hidden}}@media(max-width:399px){#splash svg{width:64px}}@media(prefers-reduced-motion:reduce){#splash{animation:none}#splash.fade-out{transition:none;opacity:0;visibility:hidden}}` }} />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 144" aria-hidden="true">
+            <circle cx="40" cy="16" r="14" fill="#F2EAD7"/>
+            <rect x="22" y="38" width="36" height="84" fill="none" stroke="#F2EAD7" strokeWidth="1.5"/>
+            <g fill="#F2EAD7">
+              <polygon points="22,38 58,38 40,56"/>
+              <polygon points="22,74 58,74 40,56"/>
+              <polygon points="22,74 58,74 40,92"/>
+              <polygon points="22,110 58,110 40,92"/>
+              <polygon points="22,110 58,110 40,122"/>
+            </g>
+          </svg>
+        </div>
         <JsonLd data={websiteJsonLd()} />
         <ClientShell>{children}</ClientShell>
       </body>
