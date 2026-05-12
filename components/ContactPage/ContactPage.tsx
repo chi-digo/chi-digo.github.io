@@ -87,7 +87,7 @@ export function ContactPage() {
 
       <section className={`${styles.section} ${styles.formSection}`}>
         <div className={styles.sectionInner}>
-          <form className={styles.form} onSubmit={handleSubmit}>
+          <form className={styles.form} onSubmit={handleSubmit} data-clarity-mask>
             <div className={styles.fieldGroup}>
               <label htmlFor="contact-name" className={styles.label}>
                 {t.contact.form_name_label}

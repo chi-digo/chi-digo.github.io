@@ -29,7 +29,7 @@ export function ConsentBanner() {
   return (
     <div className={styles.banner}>
       <p className={styles.text}>
-        We use cookies to understand how visitors use this site and improve the experience.
+        We use cookies and session recordings to understand how visitors interact with this site and improve the experience.
       </p>
       <div className={styles.buttons}>
         <button type="button" className={styles.decline} onClick={handleDecline}>
