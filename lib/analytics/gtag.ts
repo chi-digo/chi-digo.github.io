@@ -28,6 +28,7 @@ export function grantConsent(): void {
   if (typeof window === 'undefined' || !window.gtag) return;
   window.gtag('consent', 'update', { analytics_storage: 'granted' });
   localStorage.setItem('chidigo-consent', 'granted');
+  window.dispatchEvent(new Event('consent-granted'));
 }
 
 /** True when user previously accepted analytics. */
