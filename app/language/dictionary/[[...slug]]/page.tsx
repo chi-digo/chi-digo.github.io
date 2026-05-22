@@ -56,6 +56,8 @@ function findEntry(headword: string) {
   return null;
 }
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   const headwords = getAllHeadwords();
 

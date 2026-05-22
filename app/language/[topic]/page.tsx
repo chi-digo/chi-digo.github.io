@@ -5,6 +5,8 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/components/JsonLd';
 import { articleJsonLd, breadcrumbJsonLd } from '@/lib/seo/jsonld';
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   return oralTraditionsDomain.topics.map((t) => ({ topic: t.slug }));
 }
