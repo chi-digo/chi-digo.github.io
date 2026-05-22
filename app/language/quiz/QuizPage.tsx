@@ -1,7 +1,9 @@
 'use client';
 
 import { useReducer, useEffect, useRef, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
+import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
 import {
   QuizOption,
@@ -186,6 +188,89 @@ function incrementRound() {
   } catch {}
 }
 
+function hasFreeRoundBeenPlayed(): boolean {
+  try {
+    return sessionStorage.getItem('quiz_free_round_played') === 'true';
+  } catch {
+    return false;
+  }
+}
+
+function markFreeRoundPlayed() {
+  try {
+    sessionStorage.setItem('quiz_free_round_played', 'true');
+  } catch {}
+}
+
+function buildRoundPayload(
+  questions: Question[],
+  answers: Answer[],
+  score: number,
+  totalTimeMs: number,
+  lk: LocaleKey,
+) {
+  const diffCounts: Record<string, number> = {};
+  const catBreakdown: Record<string, { correct: number; total: number }> = {};
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    diffCounts[q.dif] = (diffCounts[q.dif] || 0) + 1;
+    if (!catBreakdown[q.cat]) catBreakdown[q.cat] = { correct: 0, total: 0 };
+    catBreakdown[q.cat].total++;
+    if (answers[i]?.correct) catBreakdown[q.cat].correct++;
+  }
+
+  return {
+    score,
+    total: QUESTIONS_PER_ROUND,
+    time_taken_ms: totalTimeMs,
+    difficulty_distribution: diffCounts,
+    category_breakdown: catBreakdown,
+    answers: questions.map((q, i) => ({
+      question_index: i,
+      question_id: q.id,
+      category: q.cat,
+      difficulty: q.dif,
+      question_text: q.q[lk],
+      options: q.opts[lk].map((text, idx) => ({ id: String(idx), text })),
+      selected_option_id: String(answers[i]?.selectedOption ?? 0),
+      correct_option_id: String(q.ans),
+      is_correct: answers[i]?.correct ?? false,
+      time_to_answer_ms: answers[i]?.timeMs ?? 0,
+      explanation: q.exp[lk],
+    })),
+  };
+}
+
+async function saveRoundToApi(payload: ReturnType<typeof buildRoundPayload>) {
+  try {
+    const res = await fetch('/api/quiz/rounds', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function migrateLocalScore() {
+  try {
+    const raw = localStorage.getItem('chidigo_last_quiz_score');
+    if (!raw) return;
+    const payload = JSON.parse(raw);
+    const res = await fetch('/api/quiz/rounds', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (res.ok) {
+      localStorage.removeItem('chidigo_last_quiz_score');
+    }
+  } catch {}
+}
+
 // ── Reducer ──
 
 function reducer(state: GamePhase, action: GameAction): GamePhase {
@@ -316,11 +401,24 @@ export function QuizPage() {
   const t = useTranslations();
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
+  const { user, loading: authLoading } = useAuth();
+  const router = useRouter();
   const [state, dispatch] = useReducer(reducer, { type: 'loading', progress: 0 });
   const bankRef = useRef<QuizBank | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const gameStartRef = useRef<number>(0);
   const { shareQuizScore, isGenerating } = useShareCard();
+
+  useEffect(() => {
+    if (authLoading) return;
+    if (!user && hasFreeRoundBeenPlayed()) {
+      router.replace('/sign-in?returnTo=/language/quiz');
+    }
+  }, [authLoading, user, router]);
+
+  useEffect(() => {
+    if (user) migrateLocalScore();
+  }, [user]);
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
@@ -385,14 +483,28 @@ export function QuizPage() {
 
   useEffect(() => {
     if (state.type === 'results') {
+      const totalTimeMs = Date.now() - gameStartRef.current;
       track('language', 'quiz', 'complete', {
         score: state.score,
         total: QUESTIONS_PER_ROUND,
         round_number: getRoundNumber() - 1,
-        time_total_ms: Date.now() - gameStartRef.current,
+        time_total_ms: totalTimeMs,
       });
+
+      const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
+
+      if (user) {
+        saveRoundToApi(payload).then((ok) => {
+          if (ok) track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
+        });
+      } else {
+        markFreeRoundPlayed();
+        try {
+          localStorage.setItem('chidigo_last_quiz_score', JSON.stringify(payload));
+        } catch {}
+      }
     }
-  }, [state]);
+  }, [state, user, lk]);
 
   const handleSelectAnswer = useCallback((idx: number) => {
     dispatch({ type: 'SELECT_ANSWER', optionIndex: idx });
@@ -404,11 +516,15 @@ export function QuizPage() {
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
+    if (!user) {
+      router.push('/sign-in?returnTo=/language/quiz');
+      return;
+    }
     track('language', 'quiz', 'restart', {
       previous_score: state.type === 'results' ? state.score : 0,
     });
     dispatch({ type: 'RESTART', bank: bankRef.current });
-  }, [state]);
+  }, [state, user, router]);
 
   const handleRetry = useCallback(() => {
     dispatch({ type: 'LOAD_PROGRESS', progress: 0 });
@@ -493,6 +609,11 @@ export function QuizPage() {
               <Button onClick={handleRestart} iconLeft={<ReplayIcon />}>
                 {t.quiz?.results?.playAgain ?? 'Play Again'}
               </Button>
+              {!user && (
+                <p className={styles.signInNudge}>
+                  {t.auth?.sign_in_to_save_scores ?? 'Sign in to save your scores'}
+                </p>
+              )}
               <Button variant="ghost" onClick={() => window.history.back()} iconLeft={<BackIcon />}>
                 {t.quiz?.results?.backToTools ?? 'Back to Tools'}
               </Button>

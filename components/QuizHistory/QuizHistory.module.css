@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-8) 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+@media (max-width: 480px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sparklineWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.roundList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.roundItem {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.roundLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-2);
+  text-decoration: none;
+  color: var(--fg-default);
+  border-radius: var(--radius-sm);
+}
+
+.roundLink:hover {
+  background: var(--bg-hover, rgba(0, 0, 0, 0.03));
+}
+
+.roundInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.roundScore {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.roundDate {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+}
+
+.roundArrow {
+  font-size: 1.2rem;
+  color: var(--fg-muted);
+}

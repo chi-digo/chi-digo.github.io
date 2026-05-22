@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-8) 0;
+}
+
+.error {
+  text-align: center;
+  color: var(--fg-muted);
+  padding: var(--space-8) 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.score {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--fg-heading);
+  margin: 0;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  margin: var(--space-1) 0 0;
+}
+
+.questionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.questionItem {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-surface);
+}
+
+.questionItem.correct {
+  border-left: 3px solid var(--color-success, #2e7d32);
+}
+
+.questionItem.incorrect {
+  border-left: 3px solid var(--color-error, #d32f2f);
+}
+
+.questionHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.questionNumber {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+
+.resultIcon {
+  margin-left: auto;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.correct .resultIcon {
+  color: var(--color-success, #2e7d32);
+}
+
+.incorrect .resultIcon {
+  color: var(--color-error, #d32f2f);
+}
+
+.questionText {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0 0 var(--space-3);
+}
+
+.optionsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.option {
+  font-size: 0.85rem;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+}
+
+.optionCorrect {
+  background: rgba(46, 125, 50, 0.1);
+  font-weight: 600;
+}
+
+.optionWrong {
+  background: rgba(211, 47, 47, 0.1);
+}
+
+.selectedMark {
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  font-style: italic;
+}
+
+.explanation {
+  margin: var(--space-2) 0 0;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  font-style: italic;
+}

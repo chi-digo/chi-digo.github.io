@@ -161,3 +161,10 @@
   background-color: var(--color-mnazi-gold-dark, #b08738) !important;
   border-color: var(--color-mnazi-gold-dark, #b08738) !important;
 }
+
+.signInNudge {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  text-align: center;
+  margin: 0;
+}
