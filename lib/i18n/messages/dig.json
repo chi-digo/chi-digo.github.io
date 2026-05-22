@@ -348,7 +348,10 @@
     "sign_in_to_play": "Injira uenderere kucheza",
     "sign_in_to_save_scores": "Injira uhifadhi alama zako",
     "score_saved": "Alama ikahifadhiwa",
-    "error_generic": "Kuna tatizo — jeza tsona"
+    "error_generic": "Kuna tatizo — jeza tsona",
+    "benefit_favourites": "Hifadhi maneno na misemo unayopenda",
+    "benefit_quiz": "Fuatilia alama zako za mchezo",
+    "benefit_sync": "Enderera urikoishira, kifaa chochosi"
   },
   "profile": {
     "title": "Wasifu",

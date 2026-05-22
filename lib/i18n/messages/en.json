@@ -348,7 +348,10 @@
     "sign_in_to_play": "Sign in to keep playing",
     "sign_in_to_save_scores": "Sign in to save your scores",
     "score_saved": "Score saved",
-    "error_generic": "Something went wrong — please try again"
+    "error_generic": "Something went wrong — please try again",
+    "benefit_favourites": "Save your favourite words and proverbs",
+    "benefit_quiz": "Track your quiz scores over time",
+    "benefit_sync": "Pick up where you left off, any device"
   },
   "profile": {
     "title": "Profile",

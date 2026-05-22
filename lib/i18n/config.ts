@@ -359,6 +359,9 @@ export interface Messages {
     sign_in_to_save_scores: string;
     score_saved: string;
     error_generic: string;
+    benefit_favourites: string;
+    benefit_quiz: string;
+    benefit_sync: string;
   };
   profile: {
     title: string;
