@@ -1,0 +1,112 @@
+.container {
+  position: relative;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.trigger:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarFallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-kaya-indigo, #3b4f7a);
+  color: var(--color-hando-cream);
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 200px;
+  background: var(--color-kaya-deep);
+  border: 1px solid rgba(242, 234, 215, 0.15);
+  border-radius: 8px;
+  padding: 4px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+.header {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.name {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-hando-cream);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.email {
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(242, 234, 215, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(242, 234, 215, 0.1);
+  margin: 4px 0;
+}
+
+.menuItem {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-hando-cream);
+  text-decoration: none;
+}
+
+.menuItem:hover,
+.menuItem:focus-visible {
+  background: rgba(242, 234, 215, 0.1);
+}
+
+.menuItem:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: -2px;
+  border-radius: 4px;
+}

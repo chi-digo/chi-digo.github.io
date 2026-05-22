@@ -3,6 +3,7 @@
 import { type ReactNode, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { LocaleProvider } from '@/lib/i18n/context';
+import { AuthProvider } from '@/lib/auth/context';
 import { MetadataUpdater } from '@/lib/i18n/useMetadata';
 import { NavBar } from '@/components/NavBar/NavBar';
 import { Breadcrumb } from '@/components/Breadcrumb/Breadcrumb';
@@ -44,19 +45,21 @@ export function ClientShell({ children }: ClientShellProps) {
 
   return (
     <LocaleProvider>
-      <SentryContext />
-      <AnalyticsProvider />
-      <ClarityProvider />
-      <MetadataUpdater />
-      <NavBar />
-      <Breadcrumb />
-      {children}
-      <Footer />
-      <ConsentBanner />
-      {updateAvailable && (
-        <UpdateToast onRefresh={applyUpdate} onDismiss={dismissUpdate} />
-      )}
-      {process.env.NODE_ENV === 'development' && <Agentation />}
+      <AuthProvider>
+        <SentryContext />
+        <AnalyticsProvider />
+        <ClarityProvider />
+        <MetadataUpdater />
+        <NavBar />
+        <Breadcrumb />
+        {children}
+        <Footer />
+        <ConsentBanner />
+        {updateAvailable && (
+          <UpdateToast onRefresh={applyUpdate} onDismiss={dismissUpdate} />
+        )}
+        {process.env.NODE_ENV === 'development' && <Agentation />}
+      </AuthProvider>
     </LocaleProvider>
   );
 }

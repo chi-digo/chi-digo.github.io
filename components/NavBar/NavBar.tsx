@@ -10,6 +10,8 @@ import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { trackLocaleSwitch } from '@/lib/analytics/track';
 import { track } from '@/lib/analytics/track';
 import { useUniversalSearch, buildSearchGroups, SearchIcon } from '@/hooks/useUniversalSearch';
+import { useAuth } from '@/lib/auth/context';
+import { UserMenu } from '@/components/UserMenu/UserMenu';
 import styles from './NavBar.module.css';
 
 function VigangoMark() {
@@ -53,6 +55,7 @@ export function NavBar() {
   const hamburgerRef = useRef<HTMLButtonElement>(null);
   const searchBtnRef = useRef<HTMLButtonElement>(null);
 
+  const { user, loading: authLoading } = useAuth();
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
   const searchGroups = buildSearchGroups(results, locale, query);
 
@@ -264,6 +267,23 @@ export function NavBar() {
         <SearchIcon className={styles.searchIcon} />
       </button>
 
+      {/* Desktop auth: user menu or sign-in link */}
+      <div className={styles.desktopOnly}>
+        {!authLoading && (
+          user ? (
+            <UserMenu />
+          ) : (
+            <TrackedLink
+              href="/sign-in"
+              source="navbar"
+              className={styles.navLink}
+            >
+              {t.auth.sign_in}
+            </TrackedLink>
+          )
+        )}
+      </div>
+
       <div className={`${styles.selector} ${styles.desktopOnly}`} ref={dropdownRef} onBlur={handleFocusOut}>
         <button
           ref={buttonRef}
@@ -368,6 +388,33 @@ export function NavBar() {
               </button>
             ))}
           </div>
+
+          {!authLoading && (
+            <>
+              <div className={styles.drawerDivider} />
+              {user ? (
+                <>
+                  <TrackedLink
+                    href="/profile"
+                    source="navbar_mobile"
+                    className={styles.drawerLink}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {t.profile.title}
+                  </TrackedLink>
+                </>
+              ) : (
+                <TrackedLink
+                  href="/sign-in"
+                  source="navbar_mobile"
+                  className={styles.drawerLink}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {t.auth.sign_in}
+                </TrackedLink>
+              )}
+            </>
+          )}
         </div>
       )}
 

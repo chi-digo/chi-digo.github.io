@@ -339,5 +339,34 @@
     "feature_quiz_desc": "Jeza ujuzi wako wa Chidigo",
     "feature_offline_title": "Inafanya kazi bila mtandao",
     "feature_offline_desc": "Kuhitaji mtandao bada ya ku-install"
+  },
+  "auth": {
+    "sign_in": "Injira",
+    "sign_out": "Uka",
+    "google_sign_in": "Enderera na Google",
+    "sign_in_to_save": "Injira uhifadhi vipendwa",
+    "sign_in_to_play": "Injira uenderere kucheza",
+    "sign_in_to_save_scores": "Injira uhifadhi alama zako",
+    "score_saved": "Alama ikahifadhiwa",
+    "error_generic": "Kuna tatizo — jeza tsona"
+  },
+  "profile": {
+    "title": "Wasifu",
+    "favourites": "Vipendwa",
+    "quiz_history": "Historia ya Mchezo",
+    "member_since": "Mwanachama kula {date}",
+    "edit_name": "Hariri dzina ra kuonyesa",
+    "export_data": "Pakula data yangu",
+    "delete_account": "Futa akaunti",
+    "delete_confirm": "Hino indafuta akaunti yako na data yosi. Huweza kurudisha.",
+    "delete_confirm_button": "Ee, futa akaunti yangu",
+    "no_favourites": "Takuna vipendwa bado",
+    "no_favourites_hint": "Anza kuchunguza kamusi na misemo",
+    "no_quiz_history": "Takuna historia ya mchezo bado",
+    "no_quiz_history_hint": "Cheza raundi ya Jaribu ili uone historia yako hano",
+    "total_rounds": "Raundi zilizochezwa",
+    "average_score": "Alama ya wastani",
+    "best_score": "Alama bora",
+    "view_details": "Lola maelezo"
   }
 }

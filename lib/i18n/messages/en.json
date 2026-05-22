@@ -339,5 +339,34 @@
     "feature_quiz_desc": "Test your Digo knowledge",
     "feature_offline_title": "Works offline",
     "feature_offline_desc": "No internet needed after install"
+  },
+  "auth": {
+    "sign_in": "Sign in",
+    "sign_out": "Sign out",
+    "google_sign_in": "Continue with Google",
+    "sign_in_to_save": "Sign in to save favourites",
+    "sign_in_to_play": "Sign in to keep playing",
+    "sign_in_to_save_scores": "Sign in to save your scores",
+    "score_saved": "Score saved",
+    "error_generic": "Something went wrong — please try again"
+  },
+  "profile": {
+    "title": "Profile",
+    "favourites": "Favourites",
+    "quiz_history": "Quiz History",
+    "member_since": "Member since {date}",
+    "edit_name": "Edit display name",
+    "export_data": "Export my data",
+    "delete_account": "Delete account",
+    "delete_confirm": "This will permanently delete your account and all data. This cannot be undone.",
+    "delete_confirm_button": "Yes, delete my account",
+    "no_favourites": "No favourites yet",
+    "no_favourites_hint": "Start exploring the dictionary and proverbs",
+    "no_quiz_history": "No quiz history yet",
+    "no_quiz_history_hint": "Play a round of Jaribu to see your history here",
+    "total_rounds": "Rounds played",
+    "average_score": "Average score",
+    "best_score": "Best score",
+    "view_details": "View details"
   }
 }

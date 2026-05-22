@@ -350,6 +350,35 @@ export interface Messages {
     feature_offline_title: string;
     feature_offline_desc: string;
   };
+  auth: {
+    sign_in: string;
+    sign_out: string;
+    google_sign_in: string;
+    sign_in_to_save: string;
+    sign_in_to_play: string;
+    sign_in_to_save_scores: string;
+    score_saved: string;
+    error_generic: string;
+  };
+  profile: {
+    title: string;
+    favourites: string;
+    quiz_history: string;
+    member_since: string;
+    edit_name: string;
+    export_data: string;
+    delete_account: string;
+    delete_confirm: string;
+    delete_confirm_button: string;
+    no_favourites: string;
+    no_favourites_hint: string;
+    no_quiz_history: string;
+    no_quiz_history_hint: string;
+    total_rounds: string;
+    average_score: string;
+    best_score: string;
+    view_details: string;
+  };
 }
 
 export const locales: LocaleConfig[] = [
