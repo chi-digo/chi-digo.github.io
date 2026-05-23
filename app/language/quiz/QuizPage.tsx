@@ -1,8 +1,10 @@
 'use client';
 
-import { useReducer, useEffect, useRef, useCallback } from 'react';
+import { useReducer, useEffect, useRef, useCallback, useState } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
+import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
+import { SignInSheet } from '@/components/SignInSheet/SignInSheet';
 import {
   QuizOption,
   ScoreCard,
@@ -10,7 +12,7 @@ import {
   Button,
   Badge,
   ProgressBar,
-  KayambaLoader,
+  Skeleton,
   EmptyState,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
@@ -186,6 +188,89 @@ function incrementRound() {
   } catch {}
 }
 
+function hasFreeRoundBeenPlayed(): boolean {
+  try {
+    return sessionStorage.getItem('quiz_free_round_played') === 'true';
+  } catch {
+    return false;
+  }
+}
+
+function markFreeRoundPlayed() {
+  try {
+    sessionStorage.setItem('quiz_free_round_played', 'true');
+  } catch {}
+}
+
+function buildRoundPayload(
+  questions: Question[],
+  answers: Answer[],
+  score: number,
+  totalTimeMs: number,
+  lk: LocaleKey,
+) {
+  const diffCounts: Record<string, number> = {};
+  const catBreakdown: Record<string, { correct: number; total: number }> = {};
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    diffCounts[q.dif] = (diffCounts[q.dif] || 0) + 1;
+    if (!catBreakdown[q.cat]) catBreakdown[q.cat] = { correct: 0, total: 0 };
+    catBreakdown[q.cat].total++;
+    if (answers[i]?.correct) catBreakdown[q.cat].correct++;
+  }
+
+  return {
+    score,
+    total: QUESTIONS_PER_ROUND,
+    time_taken_ms: totalTimeMs,
+    difficulty_distribution: diffCounts,
+    category_breakdown: catBreakdown,
+    answers: questions.map((q, i) => ({
+      question_index: i,
+      question_id: q.id,
+      category: q.cat,
+      difficulty: q.dif,
+      question_text: q.q[lk],
+      options: q.opts[lk].map((text, idx) => ({ id: String(idx), text })),
+      selected_option_id: String(answers[i]?.selectedOption ?? 0),
+      correct_option_id: String(q.ans),
+      is_correct: answers[i]?.correct ?? false,
+      time_to_answer_ms: answers[i]?.timeMs ?? 0,
+      explanation: q.exp[lk],
+    })),
+  };
+}
+
+async function saveRoundToApi(payload: ReturnType<typeof buildRoundPayload>) {
+  try {
+    const res = await fetch('/api/quiz/rounds', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function migrateLocalScore() {
+  try {
+    const raw = localStorage.getItem('chidigo_last_quiz_score');
+    if (!raw) return;
+    const payload = JSON.parse(raw);
+    const res = await fetch('/api/quiz/rounds', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (res.ok) {
+      localStorage.removeItem('chidigo_last_quiz_score');
+    }
+  } catch {}
+}
+
 // ── Reducer ──
 
 function reducer(state: GamePhase, action: GameAction): GamePhase {
@@ -316,11 +401,17 @@ export function QuizPage() {
   const t = useTranslations();
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
+  const { user } = useAuth();
   const [state, dispatch] = useReducer(reducer, { type: 'loading', progress: 0 });
   const bankRef = useRef<QuizBank | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const gameStartRef = useRef<number>(0);
   const { shareQuizScore, isGenerating } = useShareCard();
+  const [sheetOpen, setSheetOpen] = useState(false);
+
+  useEffect(() => {
+    if (user) migrateLocalScore();
+  }, [user]);
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
@@ -385,32 +476,58 @@ export function QuizPage() {
 
   useEffect(() => {
     if (state.type === 'results') {
+      const totalTimeMs = Date.now() - gameStartRef.current;
       track('language', 'quiz', 'complete', {
         score: state.score,
         total: QUESTIONS_PER_ROUND,
         round_number: getRoundNumber() - 1,
-        time_total_ms: Date.now() - gameStartRef.current,
+        time_total_ms: totalTimeMs,
       });
+
+      const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
+
+      if (user) {
+        saveRoundToApi(payload).then((ok) => {
+          if (ok) {
+            track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
+          } else {
+            track('language', 'quiz', 'score_save_failed', { score: state.score, round_number: getRoundNumber() - 1 });
+          }
+        });
+      } else {
+        markFreeRoundPlayed();
+        try {
+          localStorage.setItem('chidigo_last_quiz_score', JSON.stringify(payload));
+        } catch {}
+      }
     }
-  }, [state]);
+  }, [state, user, lk]);
 
   const handleSelectAnswer = useCallback((idx: number) => {
     dispatch({ type: 'SELECT_ANSWER', optionIndex: idx });
   }, []);
 
   const handleContinue = useCallback(() => {
+    track('language', 'quiz', 'continue', {});
     dispatch({ type: 'NEXT_QUESTION' });
   }, []);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
+    if (!user && hasFreeRoundBeenPlayed()) {
+      track('language', 'quiz', 'sign_in_sheet_open', { source: 'play_again' });
+      setSheetOpen(true);
+      return;
+    }
+    if (!user) markFreeRoundPlayed();
     track('language', 'quiz', 'restart', {
       previous_score: state.type === 'results' ? state.score : 0,
     });
     dispatch({ type: 'RESTART', bank: bankRef.current });
-  }, [state]);
+  }, [state, user]);
 
   const handleRetry = useCallback(() => {
+    track('language', 'quiz', 'retry', {});
     dispatch({ type: 'LOAD_PROGRESS', progress: 0 });
     const controller = new AbortController();
     loadData(controller.signal);
@@ -424,7 +541,23 @@ export function QuizPage() {
     content = (
       <div className={styles.container}>
         <div className={styles.loadingView}>
-          <KayambaLoader size="lg" />
+          <div className={styles.skeletonQuiz}>
+            <Skeleton width="100%" height={8} />
+            <div className={styles.skeletonQuizHeader}>
+              <Skeleton width={140} height={14} />
+              <Skeleton width={72} height={22} />
+            </div>
+            <div className={styles.skeletonQuizCard}>
+              <Skeleton width="90%" height={16} />
+              <Skeleton width="65%" height={16} />
+              <div className={styles.skeletonQuizOptions}>
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+              </div>
+            </div>
+          </div>
           <ProgressBar value={state.progress} max={100} />
           <p className={styles.loadingText}>
             {state.progress > 0
@@ -483,7 +616,7 @@ export function QuizPage() {
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
-                onClick={() => shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown })}
+                onClick={() => { track('language', 'quiz', 'share_click', { score: state.score, total: QUESTIONS_PER_ROUND }); shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown }); }}
                 iconLeft={<ShareIcon />}
               >
                 {isGenerating
@@ -493,7 +626,7 @@ export function QuizPage() {
               <Button onClick={handleRestart} iconLeft={<ReplayIcon />}>
                 {t.quiz?.results?.playAgain ?? 'Play Again'}
               </Button>
-              <Button variant="ghost" onClick={() => window.history.back()} iconLeft={<BackIcon />}>
+              <Button variant="ghost" onClick={() => { track('language', 'quiz', 'back_to_tools', { score: state.score }); window.history.back(); }} iconLeft={<BackIcon />}>
                 {t.quiz?.results?.backToTools ?? 'Back to Tools'}
               </Button>
             </>
@@ -582,6 +715,11 @@ export function QuizPage() {
       <main className={styles.main}>
         {content}
       </main>
+      <SignInSheet
+        open={sheetOpen}
+        onClose={() => setSheetOpen(false)}
+        title={t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
+      />
     </div>
   );
 }

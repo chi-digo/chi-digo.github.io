@@ -182,6 +182,12 @@
   margin-bottom: 0.75rem;
 }
 
+.wotdActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
 .wotdLabel {
   font-family: var(--font-sans);
   font-size: 0.65rem;

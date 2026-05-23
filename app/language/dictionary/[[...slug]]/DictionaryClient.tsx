@@ -8,6 +8,7 @@ import { useSearch } from '@/hooks/useSearch';
 import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
+import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
 import { track } from '@/lib/analytics/track';
 import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
@@ -261,7 +262,15 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
       <div className={styles.wotdTop}>
         <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
         {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
-        <div onClick={(e) => e.stopPropagation()}>
+        <div className={styles.wotdActions} onClick={(e) => e.stopPropagation()}>
+          <AppFavouriteButton
+            entryType="word"
+            entryId={entry.headword}
+            entryLabel={entry.headword}
+            journey="dictionary"
+            size="sm"
+            inverted
+          />
           <ShareMenu
             onMenuOpen={() => prerenderWord(entry, locale, shareSense)}
             onShareImage={() => {
@@ -273,6 +282,7 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
               copyLink(url);
             }}
             isGenerating={isGenerating}
+            tracking={{ journey: 'dictionary', stage: 'featured', contentId: entry.headword }}
             sensePicker={entry.senses.length > 1 ? {
               count: entry.senses.length,
               selected: shareSense,
@@ -520,24 +530,34 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
                 <span className={styles.entryNounClass}>cl. {primary.noun_class}</span>
               )}
             </div>
-            <ShareMenu
-              onMenuOpen={() => prerenderWord(primary, locale, shareSense)}
-              onShareImage={() => {
-                const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
-                sharePrerendered('word', primary.headword, `Chidigo: ${primary.headword}`, primary.headword, url);
-              }}
-              onCopyLink={() => {
-                const url = `${window.location.origin}/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
-                copyLink(url);
-              }}
-              isGenerating={isGenerating}
-              sensePicker={primary.senses.length > 1 ? {
-                count: primary.senses.length,
-                selected: shareSense,
-                onSelect: (i) => { setShareSense(i); prerenderWord(primary, locale, i); },
-                getLabel: (i) => getSenseLabel(primary, i, locale),
-              } : undefined}
-            />
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
+              <AppFavouriteButton
+                entryType="word"
+                entryId={primary.headword}
+                entryLabel={primary.headword}
+                journey="dictionary"
+                size="sm"
+              />
+              <ShareMenu
+                onMenuOpen={() => prerenderWord(primary, locale, shareSense)}
+                onShareImage={() => {
+                  const url = `https://chidigo.org/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                  sharePrerendered('word', primary.headword, `Chidigo: ${primary.headword}`, primary.headword, url);
+                }}
+                onCopyLink={() => {
+                  const url = `${window.location.origin}/language/dictionary/word/${encodeURIComponent(primary.headword)}`;
+                  copyLink(url);
+                }}
+                isGenerating={isGenerating}
+                tracking={{ journey: 'dictionary', stage: 'word', contentId: primary.headword }}
+                sensePicker={primary.senses.length > 1 ? {
+                  count: primary.senses.length,
+                  selected: shareSense,
+                  onSelect: (i) => { setShareSense(i); prerenderWord(primary, locale, i); },
+                  getLabel: (i) => getSenseLabel(primary, i, locale),
+                } : undefined}
+              />
+            </div>
           </header>
 
           {mainEntries.map((entry) => (

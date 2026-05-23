@@ -150,6 +150,8 @@ export interface Messages {
     mission: string;
     vision: string;
     contact: string;
+    profile: string;
+    manage: string;
   };
   about: {
     eyebrow: string;
@@ -349,6 +351,55 @@ export interface Messages {
     feature_quiz_desc: string;
     feature_offline_title: string;
     feature_offline_desc: string;
+  };
+  auth: {
+    sign_in: string;
+    sign_in_tagline: string;
+    sign_out: string;
+    google_sign_in: string;
+    sign_in_to_save: string;
+    sign_in_to_play: string;
+    sign_in_to_save_scores: string;
+    score_saved: string;
+    error_generic: string;
+    benefit_favourites: string;
+    benefit_quiz: string;
+    benefit_sync: string;
+  };
+  profile: {
+    title: string;
+    favourites: string;
+    quiz_history: string;
+    member_since: string;
+    edit_name: string;
+    manage_profile: string;
+    export_data: string;
+    delete_account: string;
+    delete_confirm: string;
+    delete_confirm_button: string;
+    no_favourites: string;
+    no_favourites_hint: string;
+    no_quiz_history: string;
+    no_quiz_history_hint: string;
+    total_rounds: string;
+    average_score: string;
+    best_score: string;
+    view_details: string;
+    back_to_profile: string;
+    manage_title: string;
+    export_title: string;
+    export_description: string;
+    export_button: string;
+    export_error: string;
+    delete_title: string;
+    delete_description: string;
+    delete_warning: string;
+    delete_button: string;
+    delete_dialog_title: string;
+    delete_dialog_description: string;
+    delete_type_prompt: string;
+    delete_cancel: string;
+    delete_error: string;
   };
 }
 

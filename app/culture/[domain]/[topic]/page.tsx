@@ -5,6 +5,8 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/components/JsonLd';
 import { articleJsonLd, breadcrumbJsonLd } from '@/lib/seo/jsonld';
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   return domains.flatMap((d) =>
     d.topics.map((t) => ({ domain: d.slug, topic: t.slug })),

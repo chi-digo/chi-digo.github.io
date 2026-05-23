@@ -3,6 +3,8 @@ import { DomainIndex } from '@/components/CultureIndex/CultureIndex';
 import { domains } from '@/lib/culture/content';
 import { buildMetadata } from '@/lib/seo/metadata';
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   return domains.map((d) => ({ domain: d.slug }));
 }

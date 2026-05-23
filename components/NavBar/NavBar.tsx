@@ -10,6 +10,8 @@ import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { trackLocaleSwitch } from '@/lib/analytics/track';
 import { track } from '@/lib/analytics/track';
 import { useUniversalSearch, buildSearchGroups, SearchIcon } from '@/hooks/useUniversalSearch';
+import { useAuth } from '@/lib/auth/context';
+import { UserMenu } from '@/components/UserMenu/UserMenu';
 import styles from './NavBar.module.css';
 
 function VigangoMark() {
@@ -53,10 +55,12 @@ export function NavBar() {
   const hamburgerRef = useRef<HTMLButtonElement>(null);
   const searchBtnRef = useRef<HTMLButtonElement>(null);
 
+  const { user, loading: authLoading } = useAuth();
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
   const searchGroups = buildSearchGroups(results, locale, query);
 
   const closeSearch = useCallback(() => {
+    track('orientation', 'search', 'close', { device: 'mobile' });
     setMobileSearchOpen(false);
     setQuery('');
     searchBtnRef.current?.focus();
@@ -269,7 +273,7 @@ export function NavBar() {
           ref={buttonRef}
           type="button"
           className={styles.selectorButton}
-          onClick={() => setOpen((prev) => !prev)}
+          onClick={() => { const next = !open; if (next) track('orientation', 'navbar', 'locale_selector_open', {}); setOpen(next); }}
           aria-haspopup="true"
           aria-expanded={open}
           aria-label={t.nav.language_selector_label}
@@ -310,6 +314,23 @@ export function NavBar() {
               </li>
             ))}
           </ul>
+        )}
+      </div>
+
+      {/* Desktop auth: user menu or sign-in link */}
+      <div className={styles.desktopOnly}>
+        {!authLoading && (
+          user ? (
+            <UserMenu />
+          ) : (
+            <TrackedLink
+              href="/sign-in"
+              source="navbar"
+              className={styles.navLink}
+            >
+              {t.auth.sign_in}
+            </TrackedLink>
+          )
         )}
       </div>
 
@@ -368,6 +389,33 @@ export function NavBar() {
               </button>
             ))}
           </div>
+
+          {!authLoading && (
+            <>
+              <div className={styles.drawerDivider} />
+              {user ? (
+                <>
+                  <TrackedLink
+                    href="/profile"
+                    source="navbar_mobile"
+                    className={styles.drawerLink}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {t.profile.title}
+                  </TrackedLink>
+                </>
+              ) : (
+                <TrackedLink
+                  href="/sign-in"
+                  source="navbar_mobile"
+                  className={styles.drawerLink}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {t.auth.sign_in}
+                </TrackedLink>
+              )}
+            </>
+          )}
         </div>
       )}
 

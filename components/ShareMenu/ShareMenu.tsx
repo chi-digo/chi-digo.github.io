@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
+import { track, type Journey } from '@/lib/analytics/track';
 import styles from './ShareMenu.module.css';
 
 interface ShareMenuProps {
@@ -9,6 +10,8 @@ interface ShareMenuProps {
   onShareImage: () => void;
   onCopyLink: () => void;
   isGenerating: boolean;
+  /** Analytics context for tracking share actions */
+  tracking?: { journey: Journey; stage: string; contentId: string };
   /** For proverbs: show language toggle */
   proverbLangToggle?: {
     lang: 'dg' | 'sw';
@@ -57,6 +60,7 @@ export function ShareMenu({
   onShareImage,
   onCopyLink,
   isGenerating,
+  tracking,
   proverbLangToggle,
   sensePicker,
 }: ShareMenuProps) {
@@ -68,8 +72,9 @@ export function ShareMenu({
   const open = useCallback(() => {
     setIsOpen(true);
     setCopied(false);
+    if (tracking) track(tracking.journey, tracking.stage, 'share_menu_open', { content_id: tracking.contentId });
     onMenuOpen();
-  }, [onMenuOpen]);
+  }, [onMenuOpen, tracking]);
 
   const close = useCallback(() => {
     setIsOpen(false);
@@ -88,11 +93,13 @@ export function ShareMenu({
   }, [isOpen, close]);
 
   const handleShareImage = () => {
+    if (tracking) track(tracking.journey, tracking.stage, 'share_image', { content_id: tracking.contentId });
     onShareImage();
     close();
   };
 
   const handleCopyLink = () => {
+    if (tracking) track(tracking.journey, tracking.stage, 'copy_link', { content_id: tracking.contentId });
     onCopyLink();
     setCopied(true);
     setTimeout(() => close(), 1200);
@@ -117,14 +124,14 @@ export function ShareMenu({
               <button
                 type="button"
                 className={`${styles.langBtn} ${proverbLangToggle.lang === 'dg' ? styles.langActive : ''}`}
-                onClick={() => proverbLangToggle.onToggle('dg')}
+                onClick={() => { if (tracking) track(tracking.journey, tracking.stage, 'share_lang_toggle', { content_id: tracking.contentId, lang: 'dg' }); proverbLangToggle.onToggle('dg'); }}
               >
                 Chidigo
               </button>
               <button
                 type="button"
                 className={`${styles.langBtn} ${proverbLangToggle.lang === 'sw' ? styles.langActive : ''}`}
-                onClick={() => proverbLangToggle.onToggle('sw')}
+                onClick={() => { if (tracking) track(tracking.journey, tracking.stage, 'share_lang_toggle', { content_id: tracking.contentId, lang: 'sw' }); proverbLangToggle.onToggle('sw'); }}
               >
                 Kiswahili
               </button>
@@ -142,7 +149,7 @@ export function ShareMenu({
                     role="radio"
                     aria-checked={sensePicker.selected === i}
                     className={`${styles.sensePill} ${sensePicker.selected === i ? styles.sensePillActive : ''}`}
-                    onClick={() => sensePicker.onSelect(i)}
+                    onClick={() => { if (tracking) track(tracking.journey, tracking.stage, 'share_sense_select', { content_id: tracking.contentId, sense_index: i }); sensePicker.onSelect(i); }}
                   >
                     {i + 1}
                   </button>

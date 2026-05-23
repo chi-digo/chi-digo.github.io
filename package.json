@@ -11,8 +11,10 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@chi-digo/design-system": "^0.1.1",
+    "@chi-digo/design-system": "file:../../../../../../tmp/chi-digo-design-system-0.3.4.tgz",
     "@sentry/nextjs": "^10.52.0",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.106.1",
     "canvas-confetti": "^1.9.4",
     "leaflet": "^1.9.4",
     "next": "16.2.4",

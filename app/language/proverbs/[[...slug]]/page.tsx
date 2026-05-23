@@ -26,6 +26,8 @@ function loadProverbSlugs(): string[] {
   return loadProverbStubs().map((p) => p.slug);
 }
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   const slugs = loadProverbSlugs();
 
