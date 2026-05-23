@@ -70,6 +70,7 @@ function ProfileContent() {
 
   return (
     <main className={styles.page}>
+      <div className={styles.content}>
       <div className={styles.header}>
         <h1 className={styles.title}>{t.profile.title}</h1>
         <div className={styles.userInfo}>
@@ -157,6 +158,7 @@ function ProfileContent() {
           </div>
         </Dialog>
       )}
+      </div>
     </main>
   );
 }
