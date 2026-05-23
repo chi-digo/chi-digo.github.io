@@ -267,9 +267,9 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
             entryType="word"
             entryId={entry.headword}
             entryLabel={entry.headword}
-            entryGloss={entry.senses[0]?.equivalents_en?.[0]}
             journey="dictionary"
             size="sm"
+            inverted
           />
           <ShareMenu
             onMenuOpen={() => prerenderWord(entry, locale, shareSense)}
@@ -282,6 +282,7 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
               copyLink(url);
             }}
             isGenerating={isGenerating}
+            tracking={{ journey: 'dictionary', stage: 'featured', contentId: entry.headword }}
             sensePicker={entry.senses.length > 1 ? {
               count: entry.senses.length,
               selected: shareSense,
@@ -534,7 +535,6 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
                 entryType="word"
                 entryId={primary.headword}
                 entryLabel={primary.headword}
-                entryGloss={primary.equivalents_en?.join(', ')}
                 journey="dictionary"
                 size="sm"
               />
@@ -549,6 +549,7 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
                   copyLink(url);
                 }}
                 isGenerating={isGenerating}
+                tracking={{ journey: 'dictionary', stage: 'word', contentId: primary.headword }}
                 sensePicker={primary.senses.length > 1 ? {
                   count: primary.senses.length,
                   selected: shareSense,

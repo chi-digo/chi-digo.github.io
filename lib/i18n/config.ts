@@ -150,6 +150,8 @@ export interface Messages {
     mission: string;
     vision: string;
     contact: string;
+    profile: string;
+    manage: string;
   };
   about: {
     eyebrow: string;
@@ -370,6 +372,7 @@ export interface Messages {
     quiz_history: string;
     member_since: string;
     edit_name: string;
+    manage_profile: string;
     export_data: string;
     delete_account: string;
     delete_confirm: string;
@@ -382,6 +385,21 @@ export interface Messages {
     average_score: string;
     best_score: string;
     view_details: string;
+    back_to_profile: string;
+    manage_title: string;
+    export_title: string;
+    export_description: string;
+    export_button: string;
+    export_error: string;
+    delete_title: string;
+    delete_description: string;
+    delete_warning: string;
+    delete_button: string;
+    delete_dialog_title: string;
+    delete_dialog_description: string;
+    delete_type_prompt: string;
+    delete_cancel: string;
+    delete_error: string;
   };
 }
 

@@ -291,9 +291,9 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
             entryType="proverb"
             entryId={proverb.slug}
             entryLabel={proverb.digo}
-            entryGloss={proverb.literal_en}
             journey="proverbs"
             size="sm"
+            inverted
           />
           <ShareMenu
             onMenuOpen={() => prerenderFeatured(proverb, featShareLang)}
@@ -306,6 +306,7 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
               copyFeatLink(url);
             }}
             isGenerating={featGenerating}
+            tracking={{ journey: 'proverbs', stage: 'featured', contentId: proverb.slug }}
             proverbLangToggle={{
               lang: featShareLang,
               onToggle: (lang) => {
@@ -483,7 +484,6 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
               entryType="proverb"
               entryId={proverb.slug}
               entryLabel={proverb.digo}
-              entryGloss={proverb.idiomatic_en}
               journey="proverbs"
               size="sm"
             />
@@ -498,6 +498,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
                 copyLink(url);
               }}
               isGenerating={isGenerating}
+              tracking={{ journey: 'proverbs', stage: 'detail', contentId: proverb.slug }}
               proverbLangToggle={{
                 lang: shareLang,
                 onToggle: (lang) => {

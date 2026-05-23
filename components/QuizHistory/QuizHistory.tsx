@@ -1,9 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
-import { StatCard, Sparkline, EmptyState, KayambaLoader } from '@chi-digo/design-system';
+import { StatCard, Sparkline, EmptyState, Skeleton } from '@chi-digo/design-system';
+import { track } from '@/lib/analytics/track';
 import styles from './QuizHistory.module.css';
 
 interface QuizRound {
@@ -15,12 +16,41 @@ interface QuizRound {
   category_breakdown: Record<string, { correct: number; total: number }> | null;
 }
 
+function QuizSkeleton() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.stats}>
+        <Skeleton variant="rectangular" height={72} />
+        <Skeleton variant="rectangular" height={72} />
+        <Skeleton variant="rectangular" height={72} />
+      </div>
+      <div className={styles.sparklineWrapper}>
+        <Skeleton variant="rectangular" width={280} height={48} />
+      </div>
+      <ul className={styles.roundList}>
+        {[1, 2, 3, 4].map((i) => (
+          <li key={i} className={styles.skeletonRound}>
+            <div className={styles.skeletonRoundInfo}>
+              <Skeleton width={48} height={15} />
+              <Skeleton width={100} height={13} />
+            </div>
+            <Skeleton width={10} height={19} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export function QuizHistory() {
   const t = useTranslations();
-  const [rounds, setRounds] = useState<QuizRound[]>([]);
+  const [rounds, setRounds] = useState<QuizRound[] | null>(null);
   const [loading, setLoading] = useState(true);
+  const fetchedRef = useRef(false);
 
   useEffect(() => {
+    if (fetchedRef.current) return;
+    fetchedRef.current = true;
     fetch('/api/quiz/rounds')
       .then((res) => (res.ok ? res.json() : []))
       .then((data: QuizRound[]) => setRounds(data))
@@ -29,14 +59,10 @@ export function QuizHistory() {
   }, []);
 
   if (loading) {
-    return (
-      <div className={styles.loading}>
-        <KayambaLoader size="md" />
-      </div>
-    );
+    return <QuizSkeleton />;
   }
 
-  if (rounds.length === 0) {
+  if (!rounds || rounds.length === 0) {
     return (
       <EmptyState
         title={t.profile.no_quiz_history}
@@ -74,7 +100,11 @@ export function QuizHistory() {
       <ul className={styles.roundList}>
         {rounds.map((round) => (
           <li key={round.id} className={styles.roundItem}>
-            <Link href={`/profile/quiz/${round.id}`} className={styles.roundLink}>
+            <Link
+              href={`/profile/quiz/${round.id}`}
+              className={styles.roundLink}
+              onClick={() => track('orientation', 'quiz_history', 'round_click', { round_id: round.id, score: round.score })}
+            >
               <div className={styles.roundInfo}>
                 <span className={styles.roundScore}>
                   {round.score}/{round.total}

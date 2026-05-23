@@ -139,7 +139,9 @@
     "about": "About",
     "mission": "Mission",
     "vision": "Vision",
-    "contact": "Contact"
+    "contact": "Contact",
+    "profile": "Profile",
+    "manage": "Manage Profile"
   },
   "quiz": {
     "title": "Jaribu — Test Yourself",
@@ -360,6 +362,7 @@
     "quiz_history": "Quiz History",
     "member_since": "Member since {date}",
     "edit_name": "Edit display name",
+    "manage_profile": "Manage profile",
     "export_data": "Export my data",
     "delete_account": "Delete account",
     "delete_confirm": "This will permanently delete your account and all data. This cannot be undone.",
@@ -371,6 +374,21 @@
     "total_rounds": "Rounds played",
     "average_score": "Average score",
     "best_score": "Best score",
-    "view_details": "View details"
+    "view_details": "View details",
+    "back_to_profile": "Back to profile",
+    "manage_title": "Manage Profile",
+    "export_title": "Export Your Data",
+    "export_description": "Download a copy of everything you've saved on Chidigo: your favourited words and proverbs, your complete quiz history including scores and answers from every round, your display name, and your account details. The export is a single JSON file.",
+    "export_button": "Download data",
+    "export_error": "Something went wrong. Please try again.",
+    "delete_title": "Delete Your Account",
+    "delete_description": "Deleting your account will permanently remove all of your data from Chidigo — your favourited words and proverbs, every quiz score and answer, your display name, and your profile. None of this data can be recovered.",
+    "delete_warning": "This action cannot be undone.",
+    "delete_button": "Delete account",
+    "delete_dialog_title": "Delete your account?",
+    "delete_dialog_description": "All of your data will be permanently deleted. This cannot be reversed.",
+    "delete_type_prompt": "Type {word} below to confirm",
+    "delete_cancel": "Cancel",
+    "delete_error": "Something went wrong. Please try again."
   }
 }

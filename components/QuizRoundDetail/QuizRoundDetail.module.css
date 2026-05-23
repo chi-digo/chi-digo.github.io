@@ -4,10 +4,47 @@
   gap: var(--space-6);
 }
 
-.loading {
+.skeletonHeader {
   display: flex;
-  justify-content: center;
-  padding: var(--space-8) 0;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.skeletonList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.skeletonQuestion {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--border-default);
+  background: var(--bg-surface);
+  display: flex;
+  flex-direction: column;
+}
+
+.skeletonQuestionHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.skeletonQuestionText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: var(--space-3);
+}
+
+.skeletonOptions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
 }
 
 .error {

@@ -2,20 +2,20 @@
 
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/lib/auth/context';
+import { track } from '@/lib/analytics/track';
 
 interface Favourite {
   id: string;
   entry_type: 'word' | 'proverb';
   entry_id: string;
   entry_label: string;
-  entry_gloss?: string | null;
 }
 
 interface FavouritesContextValue {
   favourites: Favourite[];
   loading: boolean;
   isFavourite: (type: string, id: string) => boolean;
-  toggleFavourite: (type: 'word' | 'proverb', id: string, label: string, gloss?: string) => Promise<void>;
+  toggleFavourite: (type: 'word' | 'proverb', id: string, label: string) => Promise<void>;
 }
 
 const FavouritesContext = createContext<FavouritesContextValue>({
@@ -54,7 +54,7 @@ export function FavouritesProvider({ children }: { children: React.ReactNode }) 
   );
 
   const toggleFavourite = useCallback(
-    async (type: 'word' | 'proverb', id: string, label: string, gloss?: string) => {
+    async (type: 'word' | 'proverb', id: string, label: string) => {
       const existing = favourites.find((f) => f.entry_type === type && f.entry_id === id);
       const key = `${type}:${id}`;
 
@@ -63,9 +63,11 @@ export function FavouritesProvider({ children }: { children: React.ReactNode }) 
         try {
           const res = await fetch(`/api/favourites/${existing.id}`, { method: 'DELETE' });
           if (!res.ok) {
+            track('orientation', 'favourites', 'remove_error', { entry_type: type, entry_id: id });
             setFavourites((prev) => [...prev, existing]);
           }
         } catch {
+          track('orientation', 'favourites', 'remove_error', { entry_type: type, entry_id: id });
           setFavourites((prev) => [...prev, existing]);
         }
       } else {
@@ -74,11 +76,10 @@ export function FavouritesProvider({ children }: { children: React.ReactNode }) 
           entry_type: type,
           entry_id: id,
           entry_label: label,
-          entry_gloss: gloss || null,
         };
         setFavourites((prev) => [optimistic, ...prev]);
 
-        const payload = { entry_type: type, entry_id: id, entry_label: label, entry_gloss: gloss };
+        const payload = { entry_type: type, entry_id: id, entry_label: label };
 
         const attempt = async (retries: number): Promise<void> => {
           try {
@@ -98,6 +99,7 @@ export function FavouritesProvider({ children }: { children: React.ReactNode }) 
             } else if (retries < MAX_RETRIES) {
               pendingRef.current.set(key, { retries: retries + 1, payload });
             } else {
+              track('orientation', 'favourites', 'add_error', { entry_type: type, entry_id: id, retries });
               setFavourites((prev) => prev.filter((f) => f.id !== optimistic.id));
               pendingRef.current.delete(key);
             }
@@ -105,6 +107,7 @@ export function FavouritesProvider({ children }: { children: React.ReactNode }) 
             if (retries < MAX_RETRIES) {
               pendingRef.current.set(key, { retries: retries + 1, payload });
             } else {
+              track('orientation', 'favourites', 'add_error', { entry_type: type, entry_id: id, retries });
               setFavourites((prev) => prev.filter((f) => f.id !== optimistic.id));
               pendingRef.current.delete(key);
             }

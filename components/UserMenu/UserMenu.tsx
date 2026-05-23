@@ -78,7 +78,11 @@ export function UserMenu() {
         ref={buttonRef}
         type="button"
         className={styles.trigger}
-        onClick={() => setOpen((prev) => !prev)}
+        onClick={() => {
+          const next = !open;
+          if (next) track('orientation', 'profile', 'user_menu_open', {});
+          setOpen(next);
+        }}
         aria-haspopup="true"
         aria-expanded={open}
         aria-label={displayName || t.profile.title}

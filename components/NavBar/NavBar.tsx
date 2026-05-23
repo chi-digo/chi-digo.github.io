@@ -60,6 +60,7 @@ export function NavBar() {
   const searchGroups = buildSearchGroups(results, locale, query);
 
   const closeSearch = useCallback(() => {
+    track('orientation', 'search', 'close', { device: 'mobile' });
     setMobileSearchOpen(false);
     setQuery('');
     searchBtnRef.current?.focus();
@@ -267,29 +268,12 @@ export function NavBar() {
         <SearchIcon className={styles.searchIcon} />
       </button>
 
-      {/* Desktop auth: user menu or sign-in link */}
-      <div className={styles.desktopOnly}>
-        {!authLoading && (
-          user ? (
-            <UserMenu />
-          ) : (
-            <TrackedLink
-              href="/sign-in"
-              source="navbar"
-              className={styles.navLink}
-            >
-              {t.auth.sign_in}
-            </TrackedLink>
-          )
-        )}
-      </div>
-
       <div className={`${styles.selector} ${styles.desktopOnly}`} ref={dropdownRef} onBlur={handleFocusOut}>
         <button
           ref={buttonRef}
           type="button"
           className={styles.selectorButton}
-          onClick={() => setOpen((prev) => !prev)}
+          onClick={() => { const next = !open; if (next) track('orientation', 'navbar', 'locale_selector_open', {}); setOpen(next); }}
           aria-haspopup="true"
           aria-expanded={open}
           aria-label={t.nav.language_selector_label}
@@ -330,6 +314,23 @@ export function NavBar() {
               </li>
             ))}
           </ul>
+        )}
+      </div>
+
+      {/* Desktop auth: user menu or sign-in link */}
+      <div className={styles.desktopOnly}>
+        {!authLoading && (
+          user ? (
+            <UserMenu />
+          ) : (
+            <TrackedLink
+              href="/sign-in"
+              source="navbar"
+              className={styles.navLink}
+            >
+              {t.auth.sign_in}
+            </TrackedLink>
+          )
         )}
       </div>
 

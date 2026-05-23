@@ -4,10 +4,18 @@
   gap: var(--space-6);
 }
 
-.loading {
+.skeletonRound {
+  padding: var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
   display: flex;
-  justify-content: center;
-  padding: var(--space-8) 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skeletonRoundInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .stats {

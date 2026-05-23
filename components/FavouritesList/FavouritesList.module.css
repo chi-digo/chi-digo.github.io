@@ -4,18 +4,20 @@
   gap: var(--space-6);
 }
 
-.loading {
+.skeletonItem {
   display: flex;
-  justify-content: center;
-  padding: var(--space-8) 0;
+  align-items: center;
+  gap: var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: var(--space-2) 0;
 }
 
-.sectionTitle {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--fg-heading);
-  margin: 0 0 var(--space-3);
+.skeletonText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-1) 0;
 }
 
 .list {
@@ -45,6 +47,13 @@
 
 .itemLink:hover {
   color: var(--fg-heading);
+  background: var(--bg-hover, rgba(0, 0, 0, 0.03));
+}
+
+.itemTop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 .itemLabel {

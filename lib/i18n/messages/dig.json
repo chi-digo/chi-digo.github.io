@@ -139,7 +139,9 @@
     "about": "Kuhusu",
     "mission": "Lengo",
     "vision": "Maono",
-    "contact": "Wasiliana"
+    "contact": "Wasiliana",
+    "profile": "Wasifu",
+    "manage": "Simamia Wasifu"
   },
   "quiz": {
     "title": "Jaribu — Dzijeze",
@@ -360,6 +362,7 @@
     "quiz_history": "Historia ya Mchezo",
     "member_since": "Mwanachama kula {date}",
     "edit_name": "Hariri dzina ra kuonyesa",
+    "manage_profile": "Simamia wasifu",
     "export_data": "Pakula data yangu",
     "delete_account": "Futa akaunti",
     "delete_confirm": "Hino indafuta akaunti yako na data yosi. Huweza kurudisha.",
@@ -371,6 +374,21 @@
     "total_rounds": "Raundi zilizochezwa",
     "average_score": "Alama ya wastani",
     "best_score": "Alama bora",
-    "view_details": "Lola maelezo"
+    "view_details": "Lola maelezo",
+    "back_to_profile": "Uya kwa wasifu",
+    "manage_title": "Simamia Wasifu",
+    "export_title": "Pakula Data Yako",
+    "export_description": "Pakula nakala ya chila chitu urichohifadhi kwenye Chidigo: maneno na misemo uriyoyapenda, historia yako yosi ya mchezo phamwenga na alama na majibu ya chila raundi, dzina rako ra kuonyesa, na maelezo ga akaunti yako. Pakula kama faili mwenga ya JSON.",
+    "export_button": "Pakula data yangu",
+    "export_error": "Kuna tatizo. Tafadhali jaribu kaheri.",
+    "delete_title": "Futa Akaunti Yako",
+    "delete_description": "Kufuta akaunti yako kundaondoa data yako yosi kwenye Chidigo — maneno na misemo uriyoyapenda, alama zosi za mchezo na majibu, dzina rako ra kuonyesa, na wasifu wako. Data hino taiweza kurudishwa.",
+    "delete_warning": "Kitendo hichi hakiweza kutenguliwa.",
+    "delete_button": "Futa akaunti yangu",
+    "delete_dialog_title": "Futa akaunti yako?",
+    "delete_dialog_description": "Data yako yosi indafutwa kabisa. Hino taiweza kurudishwa.",
+    "delete_type_prompt": "Handika {word} hano tsini kuthibitisha",
+    "delete_cancel": "Richa",
+    "delete_error": "Kuna tatizo. Tafadhali jaribu kaheri."
   }
 }

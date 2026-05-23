@@ -10,6 +10,7 @@ import styles from './SignInSheet.module.css';
 interface SignInSheetProps {
   open: boolean;
   onClose: () => void;
+  title?: string;
 }
 
 function GoogleIcon() {
@@ -23,7 +24,7 @@ function GoogleIcon() {
   );
 }
 
-export function SignInSheet({ open, onClose }: SignInSheetProps) {
+export function SignInSheet({ open, onClose, title: customTitle }: SignInSheetProps) {
   const t = useTranslations();
   const supabase = useMemo(() => createClient(), []);
   const [loading, setLoading] = useState(false);
@@ -39,7 +40,7 @@ export function SignInSheet({ open, onClose }: SignInSheetProps) {
   }, [supabase]);
 
   return (
-    <BottomSheet open={open} onClose={onClose} title={t.auth.sign_in_to_save}>
+    <BottomSheet open={open} onClose={() => { track('orientation', 'auth', 'sheet_close', {}); onClose(); }} title={customTitle ?? t.auth.sign_in_to_save}>
       <ul className={styles.benefits}>
         <li className={styles.benefit}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

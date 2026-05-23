@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { KayambaLoader, Badge } from '@chi-digo/design-system';
+import { Skeleton, Badge } from '@chi-digo/design-system';
 import styles from './QuizRoundDetail.module.css';
 
 interface QuizAnswer {
@@ -40,8 +40,32 @@ export function QuizRoundDetail({ roundId }: { roundId: string }) {
 
   if (loading) {
     return (
-      <div className={styles.loading}>
-        <KayambaLoader size="md" />
+      <div className={styles.container}>
+        <div className={styles.skeletonHeader}>
+          <Skeleton width={80} height={32} />
+          <Skeleton width={180} height={14} />
+        </div>
+        <div className={styles.skeletonList}>
+          {[1, 2, 3, 4].map((i) => (
+            <div key={i} className={styles.skeletonQuestion}>
+              <div className={styles.skeletonQuestionHeader}>
+                <Skeleton width={20} height={14} />
+                <Skeleton variant="rectangular" width={64} height={22} />
+                <Skeleton width={16} height={16} style={{ marginLeft: 'auto' }} />
+              </div>
+              <div className={styles.skeletonQuestionText}>
+                <Skeleton width="95%" height={15} />
+                <Skeleton width="60%" height={15} />
+              </div>
+              <div className={styles.skeletonOptions}>
+                <Skeleton width="70%" height={22} />
+                <Skeleton width="55%" height={22} />
+                <Skeleton width="65%" height={22} />
+                <Skeleton width="50%" height={22} />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }

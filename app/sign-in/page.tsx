@@ -62,6 +62,12 @@ function SignInContent() {
     });
   };
 
+  useEffect(() => {
+    if (error) {
+      track('orientation', 'auth', 'sign_in_error', { error });
+    }
+  }, [error]);
+
   if (loading || user) {
     return null;
   }

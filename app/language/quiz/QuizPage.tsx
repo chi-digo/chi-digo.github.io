@@ -1,10 +1,10 @@
 'use client';
 
-import { useReducer, useEffect, useRef, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { useReducer, useEffect, useRef, useCallback, useState } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
+import { SignInSheet } from '@/components/SignInSheet/SignInSheet';
 import {
   QuizOption,
   ScoreCard,
@@ -12,7 +12,7 @@ import {
   Button,
   Badge,
   ProgressBar,
-  KayambaLoader,
+  Skeleton,
   EmptyState,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
@@ -401,20 +401,13 @@ export function QuizPage() {
   const t = useTranslations();
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
-  const { user, loading: authLoading } = useAuth();
-  const router = useRouter();
+  const { user } = useAuth();
   const [state, dispatch] = useReducer(reducer, { type: 'loading', progress: 0 });
   const bankRef = useRef<QuizBank | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const gameStartRef = useRef<number>(0);
   const { shareQuizScore, isGenerating } = useShareCard();
-
-  useEffect(() => {
-    if (authLoading) return;
-    if (!user && hasFreeRoundBeenPlayed()) {
-      router.replace('/sign-in?returnTo=/language/quiz');
-    }
-  }, [authLoading, user, router]);
+  const [sheetOpen, setSheetOpen] = useState(false);
 
   useEffect(() => {
     if (user) migrateLocalScore();
@@ -495,7 +488,11 @@ export function QuizPage() {
 
       if (user) {
         saveRoundToApi(payload).then((ok) => {
-          if (ok) track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
+          if (ok) {
+            track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
+          } else {
+            track('language', 'quiz', 'score_save_failed', { score: state.score, round_number: getRoundNumber() - 1 });
+          }
         });
       } else {
         markFreeRoundPlayed();
@@ -511,22 +508,26 @@ export function QuizPage() {
   }, []);
 
   const handleContinue = useCallback(() => {
+    track('language', 'quiz', 'continue', {});
     dispatch({ type: 'NEXT_QUESTION' });
   }, []);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
-    if (!user) {
-      router.push('/sign-in?returnTo=/language/quiz');
+    if (!user && hasFreeRoundBeenPlayed()) {
+      track('language', 'quiz', 'sign_in_sheet_open', { source: 'play_again' });
+      setSheetOpen(true);
       return;
     }
+    if (!user) markFreeRoundPlayed();
     track('language', 'quiz', 'restart', {
       previous_score: state.type === 'results' ? state.score : 0,
     });
     dispatch({ type: 'RESTART', bank: bankRef.current });
-  }, [state, user, router]);
+  }, [state, user]);
 
   const handleRetry = useCallback(() => {
+    track('language', 'quiz', 'retry', {});
     dispatch({ type: 'LOAD_PROGRESS', progress: 0 });
     const controller = new AbortController();
     loadData(controller.signal);
@@ -540,7 +541,23 @@ export function QuizPage() {
     content = (
       <div className={styles.container}>
         <div className={styles.loadingView}>
-          <KayambaLoader size="lg" />
+          <div className={styles.skeletonQuiz}>
+            <Skeleton width="100%" height={8} />
+            <div className={styles.skeletonQuizHeader}>
+              <Skeleton width={140} height={14} />
+              <Skeleton width={72} height={22} />
+            </div>
+            <div className={styles.skeletonQuizCard}>
+              <Skeleton width="90%" height={16} />
+              <Skeleton width="65%" height={16} />
+              <div className={styles.skeletonQuizOptions}>
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+                <Skeleton variant="rectangular" width="100%" height={52} />
+              </div>
+            </div>
+          </div>
           <ProgressBar value={state.progress} max={100} />
           <p className={styles.loadingText}>
             {state.progress > 0
@@ -599,7 +616,7 @@ export function QuizPage() {
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
-                onClick={() => shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown })}
+                onClick={() => { track('language', 'quiz', 'share_click', { score: state.score, total: QUESTIONS_PER_ROUND }); shareQuizScore({ score: state.score, total: QUESTIONS_PER_ROUND, message, breakdown }); }}
                 iconLeft={<ShareIcon />}
               >
                 {isGenerating
@@ -609,12 +626,7 @@ export function QuizPage() {
               <Button onClick={handleRestart} iconLeft={<ReplayIcon />}>
                 {t.quiz?.results?.playAgain ?? 'Play Again'}
               </Button>
-              {!user && (
-                <p className={styles.signInNudge}>
-                  {t.auth?.sign_in_to_save_scores ?? 'Sign in to save your scores'}
-                </p>
-              )}
-              <Button variant="ghost" onClick={() => window.history.back()} iconLeft={<BackIcon />}>
+              <Button variant="ghost" onClick={() => { track('language', 'quiz', 'back_to_tools', { score: state.score }); window.history.back(); }} iconLeft={<BackIcon />}>
                 {t.quiz?.results?.backToTools ?? 'Back to Tools'}
               </Button>
             </>
@@ -703,6 +715,11 @@ export function QuizPage() {
       <main className={styles.main}>
         {content}
       </main>
+      <SignInSheet
+        open={sheetOpen}
+        onClose={() => setSheetOpen(false)}
+        title={t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
+      />
     </div>
   );
 }

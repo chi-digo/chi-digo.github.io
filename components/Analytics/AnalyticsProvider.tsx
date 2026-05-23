@@ -30,6 +30,11 @@ function getPageView(pathname: string): { journey: Journey; stage: string } | nu
   if (pathname.startsWith('/language/')) return { journey: 'language', stage: 'article' };
   if (pathname === '/history') return { journey: 'history', stage: 'overview' };
   if (pathname.startsWith('/history/')) return { journey: 'history', stage: 'article' };
+  if (pathname === '/sign-in') return { journey: 'orientation', stage: 'sign_in' };
+  if (pathname === '/profile') return { journey: 'orientation', stage: 'profile' };
+  if (pathname === '/profile/manage') return { journey: 'orientation', stage: 'manage_profile' };
+  if (pathname.startsWith('/profile/quiz/')) return { journey: 'orientation', stage: 'quiz_detail' };
+  if (pathname === '/search') return { journey: 'orientation', stage: 'search' };
   return null;
 }
 

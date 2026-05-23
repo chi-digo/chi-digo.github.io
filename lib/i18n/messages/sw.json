@@ -139,7 +139,9 @@
     "about": "Kuhusu",
     "mission": "Dhamira",
     "vision": "Maono",
-    "contact": "Wasiliana"
+    "contact": "Wasiliana",
+    "profile": "Wasifu",
+    "manage": "Simamia Wasifu"
   },
   "quiz": {
     "title": "Jaribu — Jijaribu",
@@ -360,6 +362,7 @@
     "quiz_history": "Historia ya Mchezo",
     "member_since": "Mwanachama tangu {date}",
     "edit_name": "Hariri jina la kuonyesha",
+    "manage_profile": "Simamia wasifu",
     "export_data": "Pakua data yangu",
     "delete_account": "Futa akaunti",
     "delete_confirm": "Hii itafuta akaunti yako na data yote kabisa. Huwezi kurudisha.",
@@ -371,6 +374,21 @@
     "total_rounds": "Raundi zilizochezwa",
     "average_score": "Alama ya wastani",
     "best_score": "Alama bora",
-    "view_details": "Angalia maelezo"
+    "view_details": "Angalia maelezo",
+    "back_to_profile": "Rudi kwenye wasifu",
+    "manage_title": "Simamia Wasifu",
+    "export_title": "Pakua Data Yako",
+    "export_description": "Pakua nakala ya kila kitu ulichohifadhi kwenye Chidigo: maneno na misemo unayopenda, historia yako yote ya mchezo ikiwa ni pamoja na alama na majibu ya kila raundi, jina lako la kuonyesha, na maelezo ya akaunti yako. Pakua kama faili moja ya JSON.",
+    "export_button": "Pakua data yangu",
+    "export_error": "Kuna tatizo. Tafadhali jaribu tena.",
+    "delete_title": "Futa Akaunti Yako",
+    "delete_description": "Kufuta akaunti yako kutaondoa data yako yote kwenye Chidigo kabisa — maneno na misemo unayopenda, alama zote za mchezo na majibu, jina lako la kuonyesha, na wasifu wako. Data hii haiwezi kurudishwa.",
+    "delete_warning": "Kitendo hiki hakiwezi kutenguliwa.",
+    "delete_button": "Futa akaunti yangu",
+    "delete_dialog_title": "Futa akaunti yako?",
+    "delete_dialog_description": "Data yako yote itafutwa kabisa. Hii haiwezi kurudishwa.",
+    "delete_type_prompt": "Andika {word} hapa chini kuthibitisha",
+    "delete_cancel": "Ghairi",
+    "delete_error": "Kuna tatizo. Tafadhali jaribu tena."
   }
 }

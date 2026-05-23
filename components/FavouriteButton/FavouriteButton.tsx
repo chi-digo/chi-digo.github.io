@@ -13,18 +13,18 @@ interface AppFavouriteButtonProps {
   entryType: 'word' | 'proverb';
   entryId: string;
   entryLabel: string;
-  entryGloss?: string;
   journey: Journey;
   size?: 'sm' | 'md' | 'lg';
+  inverted?: boolean;
 }
 
 export function AppFavouriteButton({
   entryType,
   entryId,
   entryLabel,
-  entryGloss,
   journey,
   size = 'md',
+  inverted,
 }: AppFavouriteButtonProps) {
   const { user } = useAuth();
   const { isFavourite, toggleFavourite } = useFavourites();
@@ -42,8 +42,8 @@ export function AppFavouriteButton({
 
     const action = filled ? 'favourite_remove' : 'favourite_add';
     track(journey, entryType, action, { entry_id: entryId, entry_label: entryLabel });
-    toggleFavourite(entryType, entryId, entryLabel, entryGloss);
-  }, [user, filled, journey, entryType, entryId, entryLabel, entryGloss, toggleFavourite]);
+    toggleFavourite(entryType, entryId, entryLabel);
+  }, [user, filled, journey, entryType, entryId, entryLabel, toggleFavourite]);
 
   return (
     <>
@@ -52,6 +52,7 @@ export function AppFavouriteButton({
         onToggle={handleToggle}
         label={t.profile.favourites}
         size={size}
+        style={inverted && !filled ? { color: 'rgba(255,255,255,0.7)' } : undefined}
       />
       <SignInSheet open={sheetOpen} onClose={() => setSheetOpen(false)} />
     </>

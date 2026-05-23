@@ -108,6 +108,15 @@ export function Breadcrumb() {
         items.push({ label: result.topic.title[locale] });
       }
     }
+  } else if (segments[0] === 'profile') {
+    items.push({
+      label: t.breadcrumb.profile,
+      href: segments.length > 1 ? '/profile' : undefined,
+    });
+
+    if (segments[1] === 'manage') {
+      items.push({ label: t.breadcrumb.manage });
+    }
   } else if (segments[0] === 'about') {
     items.push({ label: t.breadcrumb.about });
   } else if (segments[0] === 'mission') {
