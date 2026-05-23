@@ -342,6 +342,7 @@
   },
   "auth": {
     "sign_in": "Ingia",
+    "sign_in_tagline": "Kujenga zana za usambazaji wa lugha ya Chidigo",
     "sign_out": "Ondoka",
     "google_sign_in": "Endelea na Google",
     "sign_in_to_save": "Ingia ili uhifadhi vipendwa",

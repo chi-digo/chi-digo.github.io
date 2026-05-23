@@ -8,6 +8,24 @@ import { createClient } from '@/lib/supabase/client';
 import { track } from '@/lib/analytics/track';
 import styles from './sign-in.module.css';
 
+function VigangoMark() {
+  return (
+    <svg
+      viewBox="0 0 32 32"
+      aria-hidden="true"
+      className={styles.mark}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g fill="currentColor">
+        <circle cx="16" cy="9" r="4" />
+        <rect x="13" y="15" width="6" height="14" fill="none" stroke="currentColor" strokeWidth="1.2" />
+        <polygon points="13,15 19,15 16,22" />
+        <polygon points="13,29 19,29 16,22" />
+      </g>
+    </svg>
+  );
+}
+
 function GoogleIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
@@ -50,42 +68,64 @@ function SignInContent() {
 
   return (
     <main className={styles.page}>
-      <div className={styles.card}>
-        <h1 className={styles.title}>{t.auth.sign_in}</h1>
+      <div className={styles.brand}>
+        <div className={styles.brandContent}>
+          <VigangoMark />
+          <span className={styles.brandName}>Chidigo</span>
+          <p className={styles.tagline}>{t.auth.sign_in_tagline}</p>
+        </div>
+        <svg className={styles.kangaPattern} aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="kanga" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+              <rect x="22" y="2" width="4" height="4" rx="1" />
+              <rect x="2" y="22" width="4" height="4" rx="1" />
+              <rect x="42" y="22" width="4" height="4" rx="1" />
+              <rect x="22" y="42" width="4" height="4" rx="1" />
+              <path d="M12 12l4 4M32 12l-4 4M12 36l4-4M32 36l-4 4" strokeWidth="1" stroke="currentColor" fill="none" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#kanga)" />
+        </svg>
+      </div>
 
-        <ul className={styles.benefits}>
-          <li className={styles.benefit}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-            </svg>
-            {t.auth.benefit_favourites}
-          </li>
-          <li className={styles.benefit}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
-            </svg>
-            {t.auth.benefit_quiz}
-          </li>
-          <li className={styles.benefit}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9" />
-            </svg>
-            {t.auth.benefit_sync}
-          </li>
-        </ul>
+      <div className={styles.formZone}>
+        <div className={styles.formContent}>
+          <h1 className={styles.title}>{t.auth.sign_in}</h1>
 
-        {error && (
-          <p className={styles.error} role="alert">{t.auth.error_generic}</p>
-        )}
+          <ul className={styles.benefits}>
+            <li className={styles.benefit}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+              {t.auth.benefit_favourites}
+            </li>
+            <li className={styles.benefit}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+              {t.auth.benefit_quiz}
+            </li>
+            <li className={styles.benefit}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9" />
+              </svg>
+              {t.auth.benefit_sync}
+            </li>
+          </ul>
 
-        <button
-          type="button"
-          className={styles.googleBtn}
-          onClick={handleGoogleSignIn}
-        >
-          <GoogleIcon />
-          {t.auth.google_sign_in}
-        </button>
+          {error && (
+            <p className={styles.error} role="alert">{t.auth.error_generic}</p>
+          )}
+
+          <button
+            type="button"
+            className={styles.googleBtn}
+            onClick={handleGoogleSignIn}
+          >
+            <GoogleIcon />
+            {t.auth.google_sign_in}
+          </button>
+        </div>
       </div>
     </main>
   );

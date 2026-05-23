@@ -1,22 +1,81 @@
 .page {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-  padding: var(--space-8) var(--space-4);
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.card {
+/* --- Brand zone --- */
+
+.brand {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8) var(--space-4);
+  background: var(--color-kaya-deep);
+  color: var(--color-hando-cream);
+  overflow: hidden;
+}
+
+.kangaPattern {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--color-hando-cream);
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.brandContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  z-index: 1;
+}
+
+.mark {
+  width: 48px;
+  height: 48px;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tagline {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--color-mnazi-gold);
+  margin: 0;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+/* --- Form zone --- */
+
+.formZone {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8) var(--space-4);
+  background: var(--bg-surface);
+}
+
+.formContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-6);
   width: 100%;
   max-width: 360px;
-  padding: var(--space-8);
-  border-radius: var(--radius-lg);
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
 }
 
 .title {
@@ -88,4 +147,36 @@
 .googleBtn:focus-visible {
   outline: 2px solid var(--color-mnazi-gold);
   outline-offset: 2px;
+}
+
+/* --- Desktop: side-by-side --- */
+
+@media (min-width: 1024px) {
+  .page {
+    flex-direction: row;
+  }
+
+  .brand {
+    width: 40%;
+    min-height: 100vh;
+    padding: var(--space-8);
+  }
+
+  .mark {
+    width: 64px;
+    height: 64px;
+  }
+
+  .brandName {
+    font-size: 2.25rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    max-width: 320px;
+  }
+
+  .formZone {
+    width: 60%;
+  }
 }

@@ -342,6 +342,7 @@
   },
   "auth": {
     "sign_in": "Sign in",
+    "sign_in_tagline": "Building the transmission tools for the Chidigo language",
     "sign_out": "Sign out",
     "google_sign_in": "Continue with Google",
     "sign_in_to_save": "Sign in to save favourites",

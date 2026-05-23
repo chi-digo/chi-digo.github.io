@@ -342,6 +342,7 @@
   },
   "auth": {
     "sign_in": "Injira",
+    "sign_in_tagline": "Kudzenga vifaa vya kupitisha luga ya Chidigo",
     "sign_out": "Uka",
     "google_sign_in": "Enderera na Google",
     "sign_in_to_save": "Injira uhifadhi vipendwa",

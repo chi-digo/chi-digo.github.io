@@ -352,6 +352,7 @@ export interface Messages {
   };
   auth: {
     sign_in: string;
+    sign_in_tagline: string;
     sign_out: string;
     google_sign_in: string;
     sign_in_to_save: string;
