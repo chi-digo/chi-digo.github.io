@@ -262,7 +262,15 @@ function FeaturedWordCard({ nav }: { nav: Navigate }) {
       <div className={styles.wotdTop}>
         <p className={styles.wotdLabel}>{t.dictionary.featured_word}</p>
         {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
-        <div onClick={(e) => e.stopPropagation()}>
+        <div className={styles.wotdActions} onClick={(e) => e.stopPropagation()}>
+          <AppFavouriteButton
+            entryType="word"
+            entryId={entry.headword}
+            entryLabel={entry.headword}
+            entryGloss={entry.senses[0]?.equivalents_en?.[0]}
+            journey="dictionary"
+            size="sm"
+          />
           <ShareMenu
             onMenuOpen={() => prerenderWord(entry, locale, shareSense)}
             onShareImage={() => {

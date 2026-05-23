@@ -286,7 +286,15 @@ function FeaturedProverbCard({ nav, locale }: { nav: Navigate; locale: Locale })
     >
       <div className={styles.featuredTop}>
         <p className={styles.featuredLabel}>{t.proverbs.proverb_of_the_day}</p>
-        <div onClick={(e) => e.stopPropagation()}>
+        <div className={styles.featuredActions} onClick={(e) => e.stopPropagation()}>
+          <AppFavouriteButton
+            entryType="proverb"
+            entryId={proverb.slug}
+            entryLabel={proverb.digo}
+            entryGloss={proverb.literal_en}
+            journey="proverbs"
+            size="sm"
+          />
           <ShareMenu
             onMenuOpen={() => prerenderFeatured(proverb, featShareLang)}
             onShareImage={() => {
