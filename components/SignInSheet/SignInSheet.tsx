@@ -1,0 +1,79 @@
+'use client';
+
+import { useState, useMemo, useCallback } from 'react';
+import { BottomSheet } from '@chi-digo/design-system';
+import { createClient } from '@/lib/supabase/client';
+import { useTranslations } from '@/lib/i18n/context';
+import { track } from '@/lib/analytics/track';
+import styles from './SignInSheet.module.css';
+
+interface SignInSheetProps {
+  open: boolean;
+  onClose: () => void;
+}
+
+function GoogleIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+      <path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615Z" fill="#4285F4" />
+      <path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18Z" fill="#34A853" />
+      <path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.997 8.997 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332Z" fill="#FBBC05" />
+      <path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58Z" fill="#EA4335" />
+    </svg>
+  );
+}
+
+export function SignInSheet({ open, onClose }: SignInSheetProps) {
+  const t = useTranslations();
+  const supabase = useMemo(() => createClient(), []);
+  const [loading, setLoading] = useState(false);
+
+  const handleGoogleSignIn = useCallback(async () => {
+    setLoading(true);
+    track('orientation', 'auth', 'sign_in_tap', { source: 'bottom_sheet' });
+    const redirectTo = `${window.location.origin}/auth/callback?next=${encodeURIComponent(window.location.pathname)}`;
+    await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo },
+    });
+  }, [supabase]);
+
+  return (
+    <BottomSheet open={open} onClose={onClose} title={t.auth.sign_in_to_save}>
+      <ul className={styles.benefits}>
+        <li className={styles.benefit}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+          {t.auth.benefit_favourites}
+        </li>
+        <li className={styles.benefit}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+          </svg>
+          {t.auth.benefit_quiz}
+        </li>
+        <li className={styles.benefit}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9" />
+          </svg>
+          {t.auth.benefit_sync}
+        </li>
+      </ul>
+
+      <button
+        type="button"
+        className={styles.googleBtn}
+        onClick={handleGoogleSignIn}
+        disabled={loading}
+      >
+        {loading ? (
+          <span className={styles.spinner} />
+        ) : (
+          <GoogleIcon />
+        )}
+        {t.auth.google_sign_in}
+      </button>
+    </BottomSheet>
+  );
+}
