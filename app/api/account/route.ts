@@ -10,7 +10,17 @@ export async function DELETE() {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const { error: updateError } = await supabase
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!serviceRoleKey) {
+    return NextResponse.json({ error: 'Server misconfigured' }, { status: 500 });
+  }
+
+  const adminClient = createAdminClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    serviceRoleKey,
+  );
+
+  const { error: updateError } = await adminClient
     .from('profiles')
     .update({ deleted_at: new Date().toISOString() })
     .eq('id', user.id);
@@ -19,14 +29,7 @@ export async function DELETE() {
     return NextResponse.json({ error: updateError.message }, { status: 500 });
   }
 
-  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (serviceRoleKey) {
-    const adminClient = createAdminClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      serviceRoleKey,
-    );
-    await adminClient.auth.admin.signOut(user.id, 'global');
-  }
+  await adminClient.auth.admin.signOut(user.id, 'global');
 
   return NextResponse.json({ success: true });
 }
