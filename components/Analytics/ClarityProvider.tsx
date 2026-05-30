@@ -2,10 +2,8 @@
 
 import Script from 'next/script';
 import { useState, useEffect } from 'react';
-import { hasConsent } from '@/lib/analytics/gtag';
+import { hasConsent, CLARITY_ID } from '@/lib/analytics/gtag';
 import { useAuth } from '@/lib/auth/context';
-
-const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || '';
 
 function isSlowConnection(): boolean {
   const conn = (navigator as any).connection;

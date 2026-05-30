@@ -1,14 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { hasConsent, grantConsent, GA_ID } from '@/lib/analytics/gtag';
+import { hasConsent, grantConsent, TELEMETRY_CONSENT_ENABLED } from '@/lib/analytics/gtag';
 import styles from './ConsentBanner.module.css';
 
 export function ConsentBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (!GA_ID) return;
+    if (!TELEMETRY_CONSENT_ENABLED) return;
     if (!hasConsent() && localStorage.getItem('chidigo-consent') !== 'denied') {
       setVisible(true);
     }

@@ -8,7 +8,20 @@ declare global {
   }
 }
 
-export const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '';
+export const GA_ID = (
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+  || process.env.NEXT_PUBLIC_GA_ID
+  || process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+  || ''
+).trim();
+
+export const CLARITY_ID = (
+  process.env.NEXT_PUBLIC_CLARITY_ID
+  || process.env.NEXT_PUBLIC_MICROSOFT_CLARITY_ID
+  || ''
+).trim();
+
+export const TELEMETRY_CONSENT_ENABLED = Boolean(GA_ID || CLARITY_ID);
 
 /** Bootstrap Consent Mode with analytics_storage denied by default. */
 export function initConsent(): void {
@@ -25,8 +38,10 @@ export function initConsent(): void {
 
 /** Flip consent to granted and persist the decision. */
 export function grantConsent(): void {
-  if (typeof window === 'undefined' || !window.gtag) return;
-  window.gtag('consent', 'update', { analytics_storage: 'granted' });
+  if (typeof window === 'undefined') return;
+  if (window.gtag) {
+    window.gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
   localStorage.setItem('chidigo-consent', 'granted');
   window.dispatchEvent(new Event('consent-granted'));
 }
