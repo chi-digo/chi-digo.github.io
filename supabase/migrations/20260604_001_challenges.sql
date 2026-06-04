@@ -71,7 +71,9 @@ create policy "Anyone can read completions"
 create policy "Authenticated users can insert own completions"
   on public.challenge_completions for insert with check (auth.uid() = user_id);
 
--- 4. Expiry cron (requires pg_cron extension enabled in Supabase)
+-- 4. Expiry cron
+
+create extension if not exists pg_cron with schema extensions;
 
 select cron.schedule(
   'expire-challenges',
