@@ -13,7 +13,7 @@ import {
   Skeleton,
   EmptyState,
 } from '@chi-digo/design-system';
-import type { ChallengeQuestionPublic, ChallengeQuestionFull, CompletionAnswer } from '@/lib/challenge/types';
+import type { ChallengeQuestionFull, CompletionAnswer } from '@/lib/challenge/types';
 import styles from './ChallengePage.module.css';
 
 // ── Types ──
@@ -52,16 +52,16 @@ type Phase =
   | { type: 'loading' }
   | { type: 'error'; message: string }
   | { type: 'landing'; meta: ChallengeMetadata }
-  | { type: 'playing'; qi: number; questions: ChallengeQuestionPublic[]; answers: Answer[]; startedAt: number; meta: ChallengeMetadata }
-  | { type: 'answered'; qi: number; questions: ChallengeQuestionPublic[]; answers: Answer[]; selected: number; correct: boolean; startedAt: number; meta: ChallengeMetadata }
-  | { type: 'submitting'; questions: ChallengeQuestionPublic[]; answers: Answer[]; meta: ChallengeMetadata }
+  | { type: 'playing'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; startedAt: number; meta: ChallengeMetadata }
+  | { type: 'answered'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; selected: number; correct: boolean; startedAt: number; meta: ChallengeMetadata }
+  | { type: 'submitting'; questions: ChallengeQuestionFull[]; answers: Answer[]; meta: ChallengeMetadata }
   | { type: 'results'; questions: ChallengeQuestionFull[]; myAnswers: Answer[]; challenger: ChallengerResult; score: number; total: number; completionsCount: number; meta: ChallengeMetadata };
 
 type Action =
   | { type: 'LOAD_META'; meta: ChallengeMetadata }
   | { type: 'ERROR'; message: string }
-  | { type: 'START_PLAY'; questions: ChallengeQuestionPublic[] }
-  | { type: 'SELECT_ANSWER'; optionIndex: number; correctIndex: number }
+  | { type: 'START_PLAY'; questions: ChallengeQuestionFull[] }
+  | { type: 'SELECT_ANSWER'; optionIndex: number }
   | { type: 'NEXT_QUESTION' }
   | { type: 'SUBMITTING' }
   | { type: 'SHOW_RESULTS'; questions: ChallengeQuestionFull[]; challenger: ChallengerResult; score: number; completionsCount: number };
@@ -79,7 +79,7 @@ function reducer(state: Phase, action: Action): Phase {
     case 'SELECT_ANSWER': {
       if (state.type !== 'playing') return state;
       const q = state.questions[state.qi];
-      const correct = action.optionIndex === action.correctIndex;
+      const correct = action.optionIndex === q.correct_answer_index;
       const timeMs = Date.now() - state.startedAt;
       const answer: Answer = { questionId: q.source_question_id, selectedOption: action.optionIndex, correct, timeMs };
       return { ...state, type: 'answered', selected: action.optionIndex, correct, answers: [...state.answers, answer] };
@@ -140,7 +140,6 @@ export function ChallengePage({ code }: { code: string }) {
   const { user } = useAuth();
   const [state, dispatch] = useReducer(reducer, { type: 'loading' });
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const questionsAnswersRef = useRef<Record<string, number>>({});
   const [sheetOpen, setSheetOpen] = useState(false);
   const [detailOpen, setDetailOpen] = useState(false);
 
@@ -173,7 +172,7 @@ export function ChallengePage({ code }: { code: string }) {
   }, [code, t.challenge?.not_found]);
 
   useEffect(() => {
-    if (state.type === 'answered') {
+    if (state.type === 'answered' && state.correct) {
       timerRef.current = setTimeout(() => dispatch({ type: 'NEXT_QUESTION' }), AUTO_ADVANCE_MS);
       return () => { if (timerRef.current) clearTimeout(timerRef.current); };
     }
@@ -241,8 +240,7 @@ export function ChallengePage({ code }: { code: string }) {
         throw new Error('Failed to load questions');
       }
       const data = await res.json();
-      const questions = data.questions as ChallengeQuestionPublic[];
-      questionsAnswersRef.current = {};
+      const questions = data.questions as ChallengeQuestionFull[];
       dispatch({ type: 'START_PLAY', questions });
       track('language', 'challenge', 'accept', { challenge_id: state.meta.id, is_new_user: !user });
     } catch {
@@ -251,7 +249,7 @@ export function ChallengePage({ code }: { code: string }) {
   }, [state, code, user, t.challenge?.expired]);
 
   const handleSelectAnswer = useCallback((optionIndex: number) => {
-    dispatch({ type: 'SELECT_ANSWER', optionIndex, correctIndex: -1 });
+    dispatch({ type: 'SELECT_ANSWER', optionIndex });
   }, []);
 
   const handleContinue = useCallback(() => {
@@ -340,6 +338,7 @@ export function ChallengePage({ code }: { code: string }) {
     const completedCount = isAnswered ? state.qi + 1 : state.qi;
     const qText = currentQ.question_text[lk];
     const opts = currentQ.options[lk];
+    const expText = currentQ.explanation?.[lk] ?? '';
     const challengerName = state.meta.challenger.display_name ?? 'Mtu wa Chidigo';
 
     content = (
@@ -367,8 +366,10 @@ export function ChallengePage({ code }: { code: string }) {
             {opts.map((opt, idx) => {
               let optState: 'default' | 'selected' | 'correct' | 'incorrect' | 'disabled' = 'default';
               if (isAnswered) {
-                if (idx === state.selected) {
-                  optState = 'selected';
+                if (idx === currentQ.correct_answer_index) {
+                  optState = 'correct';
+                } else if (idx === state.selected) {
+                  optState = 'incorrect';
                 } else {
                   optState = 'disabled';
                 }
@@ -387,13 +388,23 @@ export function ChallengePage({ code }: { code: string }) {
             })}
           </div>
 
-          {isAnswered && (
-            <div className={styles.nextPanel}>
+          {isAnswered && !state.correct && (
+            <div className={styles.explanationPanel}>
+              <p className={styles.explanationLabel}>
+                {t.quiz?.explanation ?? 'The answer is:'}
+              </p>
+              <p className={styles.explanationText}>{expText}</p>
               <Button onClick={handleContinue} style={{ marginTop: 'var(--space-3)' }}>
-                {state.qi + 1 < QUESTIONS_PER_ROUND
-                  ? (t.quiz?.continue ?? 'Continue')
-                  : (t.challenge?.submitting ?? 'Submitting answers…')}
+                {t.quiz?.continue ?? 'Continue'}
               </Button>
+            </div>
+          )}
+
+          {isAnswered && state.correct && (
+            <div className={styles.correctFeedback}>
+              <p className={styles.correctLabel}>
+                {t.quiz?.correct ?? 'Correct!'}
+              </p>
             </div>
           )}
         </div>

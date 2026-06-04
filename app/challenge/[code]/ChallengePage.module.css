@@ -208,6 +208,46 @@
   text-align: center;
 }
 
+.explanationPanel {
+  background: var(--bg-surface-muted);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+}
+
+.explanationLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--fg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 var(--space-2);
+}
+
+.explanationText {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--fg-default);
+  margin: 0;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.correctFeedback {
+  text-align: center;
+  padding: var(--space-3);
+}
+
+.correctLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-success-green, #2e7d32);
+  margin: 0;
+}
+
 /* Results */
 .resultsCard {
   width: 100%;

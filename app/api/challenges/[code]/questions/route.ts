@@ -3,6 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
+import type { ChallengeQuestionPublic, ChallengeQuestionAnswers } from '@/lib/challenge/types';
 
 export async function GET(
   _request: Request,
@@ -33,15 +34,24 @@ export async function GET(
   }
 
   const service = createServiceClient();
-  const { data: questions, error: qError } = await service
+  const { data: questionsRow, error: qError } = await service
     .from('challenge_questions')
-    .select('questions_public')
+    .select('questions_public, questions_answers')
     .eq('challenge_id', challenge.id)
     .single();
 
-  if (qError || !questions) {
+  if (qError || !questionsRow) {
     return NextResponse.json({ error: 'Questions not found' }, { status: 404 });
   }
 
-  return NextResponse.json({ questions: questions.questions_public });
+  const questionsPublic = questionsRow.questions_public as ChallengeQuestionPublic[];
+  const questionsAnswers = questionsRow.questions_answers as ChallengeQuestionAnswers;
+
+  const questions = questionsPublic.map((q) => ({
+    ...q,
+    correct_answer_index: questionsAnswers[q.source_question_id]?.correct_answer_index,
+    explanation: questionsAnswers[q.source_question_id]?.explanation,
+  }));
+
+  return NextResponse.json({ questions });
 }
