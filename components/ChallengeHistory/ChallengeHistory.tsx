@@ -70,7 +70,7 @@ export function ChallengeHistory() {
         {challenges.map((c) => (
           <li key={c.id} className={styles.item}>
             <Link
-              href={`/challenge/${c.short_code}`}
+              href={`/challenge/${c.short_code}/leaderboard`}
               className={styles.link}
               onClick={() => track('orientation', 'challenge_history', 'challenge_click', { challenge_id: c.id })}
             >

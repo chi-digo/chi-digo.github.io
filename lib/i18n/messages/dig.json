@@ -211,7 +211,11 @@
     "anon_limit": "Ukafika kikomo cha majibu bila akaunti. Ingia ili kuhifadhi matokeo yako na kuendelea kucheza.",
     "rate_limit": "Majibu manji sana. Tafadhali subiri kidogo ujaribu tsona.",
     "submit_failed": "Kuna tatizo ra kutuma majibu yako. Tafadhali jaribu tsona.",
-    "expired_label": "Imeisha"
+    "expired_label": "Imeisha",
+    "your_challenge": "Changamoto Yako",
+    "share_button": "Shiriki Changamoto",
+    "leaderboard": "Majibu",
+    "no_responses": "Takuna mutu ariyecheza changamoto hino bado. Shiriki kiunganishi!"
   },
   "social": {
     "find_us": "Hutuphahe mtandaoni",

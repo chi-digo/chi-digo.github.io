@@ -1,6 +1,7 @@
 'use client';
 
 import { useReducer, useEffect, useRef, useCallback, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
@@ -34,7 +35,9 @@ interface ChallengeMetadata {
   difficulty_distribution: Record<string, number> | null;
   time_taken_ms: number | null;
   status: 'active' | 'expired';
+  created_at: string;
   completions_count: number;
+  is_owner: boolean;
 }
 
 interface ChallengerResult {
@@ -150,6 +153,7 @@ export function ChallengePage({ code }: { code: string }) {
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
   const { user } = useAuth();
+  const router = useRouter();
   const [state, dispatch] = useReducer(reducer, { type: 'loading' });
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
@@ -187,6 +191,10 @@ export function ChallengePage({ code }: { code: string }) {
         }
         const meta = await res.json();
         if (!cancelled) {
+          if (meta.is_owner) {
+            router.replace(`/challenge/${code}/leaderboard`);
+            return;
+          }
           dispatch({ type: 'LOAD_META', meta });
           track('language', 'challenge', 'link_open', {
             challenge_id: meta.id,

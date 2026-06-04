@@ -335,6 +335,10 @@ export interface Messages {
     rate_limit: string;
     submit_failed: string;
     expired_label: string;
+    your_challenge: string;
+    share_button: string;
+    leaderboard: string;
+    no_responses: string;
   };
   social: {
     find_us: string;

@@ -211,7 +211,11 @@
     "anon_limit": "You've reached the limit for anonymous submissions. Sign in to save your results and keep playing.",
     "rate_limit": "Too many submissions. Please wait a moment and try again.",
     "submit_failed": "Something went wrong submitting your answers. Please try again.",
-    "expired_label": "Expired"
+    "expired_label": "Expired",
+    "your_challenge": "Your Challenge",
+    "share_button": "Share Challenge",
+    "leaderboard": "Responses",
+    "no_responses": "No one has taken this challenge yet. Share the link!"
   },
   "social": {
     "find_us": "Find us online",

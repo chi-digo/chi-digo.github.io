@@ -47,6 +47,8 @@ export async function GET(
     challenger = await resolveChallengerIdentity(service, challenge.challenger_id);
   }
 
+  const { data: { user } } = await supabase.auth.getUser();
+
   const { count } = await supabase
     .from('challenge_completions')
     .select('*', { count: 'exact', head: true })
@@ -64,5 +66,6 @@ export async function GET(
     status: challenge.status,
     created_at: challenge.created_at,
     completions_count: count ?? 0,
+    is_owner: user?.id === challenge.challenger_id,
   });
 }
