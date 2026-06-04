@@ -61,8 +61,10 @@ export function LeaderboardPage({ code }: { code: string }) {
       <div className={styles.page}>
         <main className={styles.main}>
           <div className={styles.card}>
-            <Skeleton width="60%" height={24} />
-            <Skeleton width="40%" height={48} />
+            <div className={styles.header}>
+              <Skeleton width="60%" height={24} />
+              <Skeleton width="40%" height={48} />
+            </div>
             <Skeleton width="100%" height={200} />
           </div>
         </main>
