@@ -233,6 +233,7 @@ export function ChallengePage({ code }: { code: string }) {
         if (!res.ok) {
           if (!cancelled) {
             if (res.status === 429 && !user) {
+              track('language', 'challenge', 'anon_limit_view', { challenge_id: state.meta.id });
               dispatch({ type: 'ERROR', message: t.challenge?.anon_limit ?? 'Anonymous submission limit reached. Sign in to save your results.', kind: 'anon_limit' });
             } else if (res.status === 429) {
               dispatch({ type: 'ERROR', message: t.challenge?.rate_limit ?? 'Too many submissions. Please wait a moment and try again.' });
