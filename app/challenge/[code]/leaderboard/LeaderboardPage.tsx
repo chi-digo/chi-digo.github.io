@@ -71,10 +71,14 @@ export function LeaderboardPage({ code }: { code: string }) {
             </div>
             <div className={styles.leaderboardSection}>
               <Skeleton width={130} height={22} />
-              <Skeleton width="100%" height={44} />
-              <Skeleton width="100%" height={44} />
+              <div className={styles.row}>
+                <Skeleton width={16} height={14} />
+                <Skeleton width={140} height={16} />
+                <Skeleton width={40} height={16} />
+                <Skeleton width={28} height={14} />
+              </div>
             </div>
-            <Skeleton width={100} height={14} />
+            <Skeleton width={105} height={14} style={{ alignSelf: 'center' }} />
           </div>
         </main>
       </div>
