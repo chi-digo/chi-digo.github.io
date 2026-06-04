@@ -202,7 +202,9 @@
     "your_score": "Alama yako",
     "time_taken": "Muda: {time}",
     "play_again": "Cheza Tena",
-    "category_score": "{category}: Wewe {yours}/{total}, {name} {theirs}/{total}"
+    "category_score": "{category}: Wewe {yours}/{total}, {name} {theirs}/{total}",
+    "tone_competitive": "Kushindana",
+    "tone_collaborative": "Kushirikiana"
   },
   "social": {
     "find_us": "Tupate mtandaoni",

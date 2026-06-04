@@ -31,6 +31,8 @@ interface ChallengeMetadata {
   score: number;
   total: number;
   category_breakdown: Record<string, { total: number; correct: number }> | null;
+  difficulty_distribution: Record<string, number> | null;
+  time_taken_ms: number | null;
   status: 'active' | 'expired';
   completions_count: number;
 }
@@ -38,6 +40,7 @@ interface ChallengeMetadata {
 interface ChallengerResult {
   display_name: string | null;
   score: number;
+  time_taken_ms: number | null;
   answers: Array<CompletionAnswer & { is_correct: boolean }>;
 }
 
@@ -55,7 +58,7 @@ type Phase =
   | { type: 'playing'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; startedAt: number; meta: ChallengeMetadata }
   | { type: 'answered'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; selected: number; correct: boolean; startedAt: number; meta: ChallengeMetadata }
   | { type: 'submitting'; questions: ChallengeQuestionFull[]; answers: Answer[]; meta: ChallengeMetadata }
-  | { type: 'results'; questions: ChallengeQuestionFull[]; myAnswers: Answer[]; challenger: ChallengerResult; score: number; total: number; completionsCount: number; meta: ChallengeMetadata };
+  | { type: 'results'; questions: ChallengeQuestionFull[]; myAnswers: Answer[]; myTimeTakenMs: number; challenger: ChallengerResult; score: number; total: number; completionsCount: number; meta: ChallengeMetadata };
 
 type Action =
   | { type: 'LOAD_META'; meta: ChallengeMetadata }
@@ -64,7 +67,7 @@ type Action =
   | { type: 'SELECT_ANSWER'; optionIndex: number }
   | { type: 'NEXT_QUESTION' }
   | { type: 'SUBMITTING' }
-  | { type: 'SHOW_RESULTS'; questions: ChallengeQuestionFull[]; challenger: ChallengerResult; score: number; completionsCount: number };
+  | { type: 'SHOW_RESULTS'; questions: ChallengeQuestionFull[]; challenger: ChallengerResult; score: number; myTimeTakenMs: number; completionsCount: number };
 
 function reducer(state: Phase, action: Action): Phase {
   switch (action.type) {
@@ -102,6 +105,7 @@ function reducer(state: Phase, action: Action): Phase {
         type: 'results',
         questions: action.questions,
         myAnswers: state.answers,
+        myTimeTakenMs: action.myTimeTakenMs,
         challenger: action.challenger,
         score: action.score,
         total: state.meta.total,
@@ -142,11 +146,18 @@ export function ChallengePage({ code }: { code: string }) {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [detailOpen, setDetailOpen] = useState(false);
+  const [shareTone, setShareTone] = useState<'competitive' | 'collaborative'>('competitive');
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
     proverbs: t.quiz?.categories?.proverbs ?? 'Proverbs',
     riddles: t.quiz?.categories?.riddles ?? 'Riddles',
+  };
+
+  const difficultyLabels: Record<string, string> = {
+    easy: t.quiz?.difficulty?.easy ?? 'Easy',
+    medium: t.quiz?.difficulty?.medium ?? 'Medium',
+    hard: t.quiz?.difficulty?.hard ?? 'Hard',
   };
 
   // ── Load challenge metadata ──
@@ -162,7 +173,7 @@ export function ChallengePage({ code }: { code: string }) {
         const meta = await res.json();
         if (!cancelled) {
           dispatch({ type: 'LOAD_META', meta });
-          track('orientation', 'challenge', 'link_open', { challenge_id: meta.id });
+          track('language', 'challenge', 'link_open', { challenge_id: meta.id });
         }
       } catch {
         if (!cancelled) dispatch({ type: 'ERROR', message: 'Failed to load challenge' });
@@ -210,12 +221,14 @@ export function ChallengePage({ code }: { code: string }) {
             questions: data.questions,
             challenger: data.challenger,
             score: data.score,
+            myTimeTakenMs: totalTimeMs,
             completionsCount: data.completions_count,
           });
           track('language', 'challenge', 'complete', {
             challenge_id: state.meta.id,
-            score: data.score,
+            challengee_score: data.score,
             challenger_score: data.challenger.score,
+            completer_number: data.completions_count,
           });
         }
       } catch {
@@ -310,6 +323,14 @@ export function ChallengePage({ code }: { code: string }) {
             <div className={styles.categoryTags}>
               {Object.entries(meta.category_breakdown).map(([cat, data]) => (
                 <Badge key={cat}>{(data as { total: number }).total} {categoryLabels[cat]?.toLowerCase()}</Badge>
+              ))}
+            </div>
+          )}
+
+          {meta.difficulty_distribution && (
+            <div className={styles.categoryTags}>
+              {Object.entries(meta.difficulty_distribution).map(([dif, count]) => (
+                <Badge key={dif}>{count} {difficultyLabels[dif]?.toLowerCase()}</Badge>
               ))}
             </div>
           )}
@@ -463,6 +484,17 @@ export function ChallengePage({ code }: { code: string }) {
             </div>
           </div>
 
+          {(state.myTimeTakenMs > 0 || state.challenger.time_taken_ms) && (
+            <div className={styles.timeRow}>
+              <span className={styles.timeLabel}>{(t.challenge?.time_taken ?? 'Time: {time}').replace(': {time}', '')}</span>
+              <div className={styles.scoresRow}>
+                <span className={styles.timeValue}>{state.myTimeTakenMs > 0 ? formatTime(state.myTimeTakenMs) : '—'}</span>
+                <span className={styles.vs}>vs</span>
+                <span className={styles.timeValue}>{state.challenger.time_taken_ms ? formatTime(state.challenger.time_taken_ms) : '—'}</span>
+              </div>
+            </div>
+          )}
+
           <div className={styles.catBreakdown}>
             {catBreakdown.map((cb) => (
               <div key={cb.category} className={styles.catRow}>
@@ -476,7 +508,10 @@ export function ChallengePage({ code }: { code: string }) {
           <button
             type="button"
             className={styles.detailToggle}
-            onClick={() => setDetailOpen(!detailOpen)}
+            onClick={() => {
+              if (!detailOpen) track('language', 'challenge', 'detail_expand', { challenge_id: state.meta.id });
+              setDetailOpen(!detailOpen);
+            }}
           >
             {t.challenge?.see_questions ?? 'See all questions'} {detailOpen ? '▲' : '▼'}
           </button>
@@ -516,14 +551,34 @@ export function ChallengePage({ code }: { code: string }) {
           )}
 
           <div className={styles.resultActions}>
+            <div className={styles.shareToneToggle}>
+              <button
+                type="button"
+                className={`${styles.toneButton} ${shareTone === 'competitive' ? styles.toneActive : ''}`}
+                onClick={() => setShareTone('competitive')}
+              >
+                {t.challenge?.tone_competitive ?? 'Competitive'}
+              </button>
+              <button
+                type="button"
+                className={`${styles.toneButton} ${shareTone === 'collaborative' ? styles.toneActive : ''}`}
+                onClick={() => setShareTone('collaborative')}
+              >
+                {t.challenge?.tone_collaborative ?? 'Collaborative'}
+              </button>
+            </div>
             <Button
               onClick={() => {
                 const baseUrl = window.location.origin;
                 const url = `${baseUrl}/challenge/${code}`;
-                const text = (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
-                  .replace('{n}', String(state.score))
-                  .replace('{total}', String(state.total))
-                  .replace('{link}', url);
+                const text = shareTone === 'competitive'
+                  ? (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
+                      .replace('{n}', String(state.score))
+                      .replace('{total}', String(state.total))
+                      .replace('{link}', url)
+                  : (t.challenge?.share_collaborative ?? 'Come take this Digo quiz with me! {link}')
+                      .replace('{link}', url);
+                track('language', 'challenge', 'share_back', { challenge_id: state.meta.id, action: 'reshare', message_tone: shareTone });
                 if (navigator.share) {
                   navigator.share({ title: 'Chidigo Quiz Challenge', text, url }).catch(() => {});
                 } else {
@@ -541,7 +596,10 @@ export function ChallengePage({ code }: { code: string }) {
           {!user && (
             <div className={styles.signupPrompt}>
               <p>{t.challenge?.signup_prompt ?? 'Sign up to save your results and challenge others'}</p>
-              <Button variant="ghost" onClick={() => setSheetOpen(true)}>
+              <Button variant="ghost" onClick={() => {
+                track('language', 'challenge', 'signup_prompt', { challenge_id: state.meta.id, result: 'opened' });
+                setSheetOpen(true);
+              }}>
                 {t.auth?.sign_in ?? 'Sign in'}
               </Button>
             </div>

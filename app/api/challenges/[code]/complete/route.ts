@@ -45,9 +45,13 @@ export async function POST(
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
+  if (!user && !rateLimit(`anon:${ip}`, 3)) {
+    return NextResponse.json({ error: 'Too many anonymous submissions' }, { status: 429 });
+  }
+
   const { data: challenge, error: challengeError } = await supabase
     .from('challenges')
-    .select('id, challenger_id, score, total, status, round_id')
+    .select('id, challenger_id, score, total, status, round_id, time_taken_ms')
     .eq('short_code', code)
     .single();
 
@@ -132,8 +136,7 @@ export async function POST(
     return NextResponse.json({ error: 'Failed to save completion' }, { status: 500 });
   }
 
-  // If authenticated user had a previous anonymous completion, clean it up
-  if (user && body.anonymous_id) {
+  if (user && typeof body.anonymous_id === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(body.anonymous_id)) {
     await service
       .from('challenge_completions')
       .delete()
@@ -195,6 +198,7 @@ export async function POST(
     challenger: {
       display_name: challengerName,
       score: challenge.score,
+      time_taken_ms: challenge.time_taken_ms,
       answers: challengerAnswers,
     },
     questions: questionsWithAnswers,

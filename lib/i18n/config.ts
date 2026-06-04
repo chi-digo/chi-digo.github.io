@@ -326,6 +326,8 @@ export interface Messages {
     time_taken: string;
     play_again: string;
     category_score: string;
+    tone_competitive: string;
+    tone_collaborative: string;
   };
   social: {
     find_us: string;

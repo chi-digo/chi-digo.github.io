@@ -202,7 +202,9 @@
     "your_score": "Your score",
     "time_taken": "Time: {time}",
     "play_again": "Play Again",
-    "category_score": "{category}: You {yours}/{total}, {name} {theirs}/{total}"
+    "category_score": "{category}: You {yours}/{total}, {name} {theirs}/{total}",
+    "tone_competitive": "Competitive",
+    "tone_collaborative": "Collaborative"
   },
   "social": {
     "find_us": "Find us online",
