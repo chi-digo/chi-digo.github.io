@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-2);
+  text-decoration: none;
+  color: var(--fg-default);
+  border-radius: var(--radius-sm);
+}
+
+.link:hover {
+  background: var(--bg-hover, rgba(0, 0, 0, 0.03));
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.score {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.date {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+}
+
+.completions {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+}
+
+.completions::before {
+  content: '·';
+  margin-right: var(--space-2);
+}
+
+.arrow {
+  font-size: 1.2rem;
+  color: var(--fg-muted);
+}
+
+.skeletonItem {
+  padding: var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skeletonInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

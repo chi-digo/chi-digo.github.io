@@ -210,7 +210,8 @@
     "time_label": "Muda",
     "anon_limit": "Ukafika kikomo cha majibu bila akaunti. Ingia ili kuhifadhi matokeo yako na kuendelea kucheza.",
     "rate_limit": "Majibu manji sana. Tafadhali subiri kidogo ujaribu tsona.",
-    "submit_failed": "Kuna tatizo ra kutuma majibu yako. Tafadhali jaribu tsona."
+    "submit_failed": "Kuna tatizo ra kutuma majibu yako. Tafadhali jaribu tsona.",
+    "expired_label": "Imeisha"
   },
   "social": {
     "find_us": "Hutuphahe mtandaoni",
@@ -406,6 +407,11 @@
     "no_favourites_hint": "Anza kuchunguza kamusi na misemo",
     "no_quiz_history": "Takuna historia ya mchezo bado",
     "no_quiz_history_hint": "Cheza raundi ya Jaribu ili uone historia yako hano",
+    "challenges": "Changamoto",
+    "no_challenges": "Takuna changamoto bado",
+    "no_challenges_hint": "Cheza raundi ya Jaribu na utume changamoto kwa mswahaba ili uone changamoto zako hano.",
+    "challenge_completer_one": "Jibu 1",
+    "challenge_completers": "Majibu {n}",
     "total_rounds": "Raundi zilizochezwa",
     "average_score": "Alama ya wastani",
     "best_score": "Alama bora",

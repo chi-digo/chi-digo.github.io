@@ -334,6 +334,7 @@ export interface Messages {
     anon_limit: string;
     rate_limit: string;
     submit_failed: string;
+    expired_label: string;
   };
   social: {
     find_us: string;
@@ -420,6 +421,11 @@ export interface Messages {
     average_score: string;
     best_score: string;
     view_details: string;
+    challenges: string;
+    no_challenges: string;
+    no_challenges_hint: string;
+    challenge_completer_one: string;
+    challenge_completers: string;
     back_to_profile: string;
     manage_title: string;
     export_title: string;

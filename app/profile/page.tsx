@@ -6,6 +6,7 @@ import { useTranslations } from '@/lib/i18n/context';
 import { AuthGuard } from '@/components/AuthGuard';
 import { FavouritesList } from '@/components/FavouritesList/FavouritesList';
 import { QuizHistory } from '@/components/QuizHistory/QuizHistory';
+import { ChallengeHistory } from '@/components/ChallengeHistory/ChallengeHistory';
 import { Avatar, Tabs } from '@chi-digo/design-system';
 import { track } from '@/lib/analytics/track';
 import styles from './profile.module.css';
@@ -45,6 +46,11 @@ function ProfileContent() {
       id: 'quiz',
       label: t.profile.quiz_history,
       content: <QuizHistory />,
+    },
+    {
+      id: 'challenges',
+      label: t.profile.challenges ?? 'Challenges',
+      content: <ChallengeHistory />,
     },
   ];
 

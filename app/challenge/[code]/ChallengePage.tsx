@@ -616,6 +616,10 @@ export function ChallengePage({ code }: { code: string }) {
           <div className={styles.resultActions}>
             <Button
               onClick={() => {
+                if (!user) {
+                  setSheetOpen(true);
+                  return;
+                }
                 const baseUrl = window.location.origin;
                 const url = `${baseUrl}/challenge/${code}`;
                 const text = (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
@@ -633,6 +637,10 @@ export function ChallengePage({ code }: { code: string }) {
               {t.challenge?.challenge_button ?? 'Challenge a Friend'}
             </Button>
             <Button variant="ghost" onClick={() => {
+              if (!user) {
+                setSheetOpen(true);
+                return;
+              }
               track('language', 'challenge', 'share_back', { challenge_id: state.meta.id, action: 'new_challenge' });
               window.location.href = '/language/quiz';
             }}>
