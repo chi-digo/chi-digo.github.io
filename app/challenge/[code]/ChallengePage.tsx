@@ -307,7 +307,6 @@ export function ChallengePage({ code }: { code: string }) {
           <Skeleton width="100%" height={200} />
           <Skeleton width="100%" height={48} />
         </div>
-        <p className={styles.loadingText}>{t.challenge?.loading ?? 'Loading challenge…'}</p>
       </div>
     );
   } else if (state.type === 'error') {
