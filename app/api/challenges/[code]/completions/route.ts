@@ -35,7 +35,8 @@ export async function GET(
   };
 
   if (challenge.challenger_id) {
-    const { data: profile } = await supabase
+    const service = createServiceClient();
+    const { data: profile } = await service
       .from('profiles')
       .select('display_name')
       .eq('id', challenge.challenger_id)

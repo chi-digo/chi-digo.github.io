@@ -179,10 +179,9 @@ export async function POST(
     .select('*', { count: 'exact', head: true })
     .eq('challenge_id', challenge.id);
 
-  // Get challenger display name
   let challengerName: string | null = null;
   if (challenge.challenger_id) {
-    const { data: challengerProfile } = await supabase
+    const { data: challengerProfile } = await service
       .from('profiles')
       .select('display_name')
       .eq('id', challenge.challenger_id)

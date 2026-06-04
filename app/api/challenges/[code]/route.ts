@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
+import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
 
@@ -44,7 +45,8 @@ export async function GET(
   };
 
   if (challenge.challenger_id) {
-    const { data: profile } = await supabase
+    const service = createServiceClient();
+    const { data: profile } = await service
       .from('profiles')
       .select('display_name')
       .eq('id', challenge.challenger_id)

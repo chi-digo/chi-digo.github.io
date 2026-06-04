@@ -80,7 +80,7 @@ export async function GET(
 
   let challengerName: string | null = null;
   if (challenge.challenger_id) {
-    const { data: profile } = await supabase
+    const { data: profile } = await service
       .from('profiles')
       .select('display_name')
       .eq('id', challenge.challenger_id)
