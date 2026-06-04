@@ -204,7 +204,10 @@
     "play_again": "Cheza Tsona",
     "category_score": "{category}: Uwe {yours}/{total}, {name} {theirs}/{total}",
     "tone_competitive": "Kushindana",
-    "tone_collaborative": "Kushirikiana"
+    "tone_collaborative": "Kushirikiana",
+    "you": "Uwe",
+    "score_label": "Alama",
+    "time_label": "Muda"
   },
   "social": {
     "find_us": "Hutuphahe mtandaoni",

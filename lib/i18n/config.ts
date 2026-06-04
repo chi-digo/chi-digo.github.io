@@ -328,6 +328,9 @@ export interface Messages {
     category_score: string;
     tone_competitive: string;
     tone_collaborative: string;
+    you: string;
+    score_label: string;
+    time_label: string;
   };
   social: {
     find_us: string;

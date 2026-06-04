@@ -501,39 +501,37 @@ export function ChallengePage({ code }: { code: string }) {
         <div className={styles.resultsCard}>
           <h1 className={styles.verdict}>{verdict}</h1>
 
-          <div className={styles.scoresRow}>
-            <div className={styles.scoreColumn}>
-              <span className={styles.scoreLabel}>{t.challenge?.your_score ?? 'Your score'}</span>
-              <span className={styles.scoreBig}>{state.score}/{state.total}</span>
-            </div>
-            <span className={styles.vs}>vs</span>
-            <div className={styles.scoreColumn}>
-              <span className={styles.scoreLabel}>{challengerName}</span>
-              <span className={styles.scoreBig}>{state.challenger.score}/{state.total}</span>
-            </div>
-          </div>
+          <table className={styles.comparisonTable}>
+            <thead>
+              <tr>
+                <th />
+                <th>{t.challenge?.you ?? 'You'}</th>
+                <th>{challengerName}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className={styles.rowLabel}>{t.challenge?.score_label ?? 'Score'}</td>
+                <td className={styles.cellValue}>{state.score}/{state.total}</td>
+                <td className={styles.cellValue}>{state.challenger.score}/{state.total}</td>
+              </tr>
+              {(state.myTimeTakenMs > 0 || state.challenger.time_taken_ms) && (
+                <tr>
+                  <td className={styles.rowLabel}>{t.challenge?.time_label ?? 'Time'}</td>
+                  <td className={styles.cellValue}>{state.myTimeTakenMs > 0 ? formatTime(state.myTimeTakenMs) : '—'}</td>
+                  <td className={styles.cellValue}>{state.challenger.time_taken_ms ? formatTime(state.challenger.time_taken_ms) : '—'}</td>
+                </tr>
+              )}
+              {catBreakdown.map((cb) => (
+                <tr key={cb.category}>
+                  <td className={styles.rowLabel}>{cb.label}</td>
+                  <td className={styles.cellValue}>{cb.mine}/{cb.total}</td>
+                  <td className={styles.cellValue}>{cb.theirs}/{cb.total}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
 
-          {(state.myTimeTakenMs > 0 || state.challenger.time_taken_ms) && (
-            <div className={styles.timeRow}>
-              <span className={styles.timeLabel}>{(t.challenge?.time_taken ?? 'Time: {time}').replace(': {time}', '')}</span>
-              <div className={styles.scoresRow}>
-                <span className={styles.timeValue}>{state.myTimeTakenMs > 0 ? formatTime(state.myTimeTakenMs) : '—'}</span>
-                <span className={styles.vs}>vs</span>
-                <span className={styles.timeValue}>{state.challenger.time_taken_ms ? formatTime(state.challenger.time_taken_ms) : '—'}</span>
-              </div>
-            </div>
-          )}
-
-          <div className={styles.catBreakdown}>
-            {catBreakdown.map((cb) => (
-              <div key={cb.category} className={styles.catRow}>
-                <Badge>{cb.label}</Badge>
-                <span>You {cb.mine}/{cb.total}, {challengerName} {cb.theirs}/{cb.total}</span>
-              </div>
-            ))}
-          </div>
-
-          {/* Expandable per-question detail */}
           <button
             type="button"
             className={styles.detailToggle}
@@ -546,7 +544,7 @@ export function ChallengePage({ code }: { code: string }) {
           </button>
 
           {detailOpen && (
-            <div className={styles.questionDetail}>
+            <ol className={styles.questionList}>
               {state.questions.map((q, i) => {
                 const myAnswer = state.myAnswers.find((a) => a.questionId === q.source_question_id);
                 const challengerAnswer = state.challenger.answers.find((a) => a.source_question_id === q.source_question_id);
@@ -554,29 +552,43 @@ export function ChallengePage({ code }: { code: string }) {
                 const opts = q.options[lk];
 
                 return (
-                  <div key={q.source_question_id} className={styles.questionRow}>
-                    <p className={styles.qNum}>Q{i + 1}</p>
-                    <p className={styles.qText}>{q.question_text[lk]}</p>
-                    <p className={styles.correctAnswer}>
-                      ✓ {opts[q.correct_answer_index]}
-                    </p>
-                    <div className={styles.playerAnswers}>
-                      <span className={myCorrect ? styles.answerCorrect : styles.answerWrong}>
-                        You: {myAnswer ? opts[myAnswer.selectedOption] : '—'}
-                        {myCorrect ? ' ✓' : ' –'}
-                      </span>
-                      <span className={challengerAnswer?.is_correct ? styles.answerCorrect : styles.answerWrong}>
-                        {challengerName}: {challengerAnswer ? opts[challengerAnswer.selected_answer_index] : '—'}
-                        {challengerAnswer?.is_correct ? ' ✓' : ' –'}
+                  <li
+                    key={q.source_question_id}
+                    className={`${styles.questionItem} ${myCorrect ? styles.qCorrect : styles.qIncorrect}`}
+                  >
+                    <div className={styles.questionItemHeader}>
+                      <span className={styles.qNum}>Q{i + 1}</span>
+                      <Badge>{categoryLabels[q.category]}</Badge>
+                      <span className={styles.resultIcon} aria-hidden="true">
+                        {myCorrect ? '✓' : '✗'}
                       </span>
                     </div>
+                    <p className={styles.qText}>{q.question_text[lk]}</p>
+                    <ul className={styles.optionsList}>
+                      {opts.map((opt, idx) => {
+                        const isMySelection = myAnswer?.selectedOption === idx;
+                        const isChallengerSelection = challengerAnswer?.selected_answer_index === idx;
+                        const isCorrectOpt = idx === q.correct_answer_index;
+                        let cls = styles.optItem;
+                        if (isCorrectOpt) cls += ` ${styles.optCorrect}`;
+                        else if (isMySelection && !myCorrect) cls += ` ${styles.optWrong}`;
+
+                        return (
+                          <li key={idx} className={cls}>
+                            {opt}
+                            {isMySelection && <span className={styles.selectedMark}> ← you</span>}
+                            {isChallengerSelection && <span className={styles.selectedMark}> ← {challengerName}</span>}
+                          </li>
+                        );
+                      })}
+                    </ul>
                     {!myCorrect && q.explanation && (
-                      <p className={styles.explanation}>{q.explanation[lk]}</p>
+                      <p className={styles.qExplanation}>{q.explanation[lk]}</p>
                     )}
-                  </div>
+                  </li>
                 );
               })}
-            </div>
+            </ol>
           )}
 
           <div className={styles.resultActions}>

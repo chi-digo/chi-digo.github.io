@@ -204,7 +204,10 @@
     "play_again": "Play Again",
     "category_score": "{category}: You {yours}/{total}, {name} {theirs}/{total}",
     "tone_competitive": "Competitive",
-    "tone_collaborative": "Collaborative"
+    "tone_collaborative": "Collaborative",
+    "you": "You",
+    "score_label": "Score",
+    "time_label": "Time"
   },
   "social": {
     "find_us": "Find us online",
