@@ -151,7 +151,6 @@ export function ChallengePage({ code }: { code: string }) {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [detailOpen, setDetailOpen] = useState(false);
-  const [shareTone, setShareTone] = useState<'competitive' | 'collaborative'>('competitive');
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
@@ -592,34 +591,15 @@ export function ChallengePage({ code }: { code: string }) {
           )}
 
           <div className={styles.resultActions}>
-            <div className={styles.shareToneToggle}>
-              <button
-                type="button"
-                className={`${styles.toneButton} ${shareTone === 'competitive' ? styles.toneActive : ''}`}
-                onClick={() => setShareTone('competitive')}
-              >
-                {t.challenge?.tone_competitive ?? 'Competitive'}
-              </button>
-              <button
-                type="button"
-                className={`${styles.toneButton} ${shareTone === 'collaborative' ? styles.toneActive : ''}`}
-                onClick={() => setShareTone('collaborative')}
-              >
-                {t.challenge?.tone_collaborative ?? 'Collaborative'}
-              </button>
-            </div>
             <Button
               onClick={() => {
                 const baseUrl = window.location.origin;
                 const url = `${baseUrl}/challenge/${code}`;
-                const text = shareTone === 'competitive'
-                  ? (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
-                      .replace('{n}', String(state.score))
-                      .replace('{total}', String(state.total))
-                      .replace('{link}', url)
-                  : (t.challenge?.share_collaborative ?? 'Come take this Digo quiz with me! {link}')
-                      .replace('{link}', url);
-                track('language', 'challenge', 'share_back', { challenge_id: state.meta.id, action: 'reshare', message_tone: shareTone });
+                const text = (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
+                  .replace('{n}', String(state.score))
+                  .replace('{total}', String(state.total))
+                  .replace('{link}', url);
+                track('language', 'challenge', 'share_back', { challenge_id: state.meta.id, action: 'reshare', message_tone: 'competitive' });
                 if (navigator.share) {
                   navigator.share({ title: 'Chidigo Quiz Challenge', text, url }).catch(() => {});
                 } else {
