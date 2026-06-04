@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
+import { resolveChallengerIdentity } from '@/lib/challenge/resolve-identity';
 import { headers } from 'next/headers';
 
 export async function GET(
@@ -28,22 +29,12 @@ export async function GET(
     return NextResponse.json({ error: 'Challenge not found' }, { status: 404 });
   }
 
-  let challenger: { display_name: string | null; avatar_url: string | null; score: number } = {
-    display_name: null,
-    avatar_url: null,
-    score: challenge.score,
-  };
+  let challenger = { display_name: null as string | null, avatar_url: null as string | null, score: challenge.score };
 
   if (challenge.challenger_id) {
     const service = createServiceClient();
-    const { data: profile } = await service
-      .from('profiles')
-      .select('display_name')
-      .eq('id', challenge.challenger_id)
-      .single();
-    if (profile) {
-      challenger = { display_name: profile.display_name, avatar_url: null, score: challenge.score };
-    }
+    const identity = await resolveChallengerIdentity(service, challenge.challenger_id);
+    challenger = { ...identity, score: challenge.score };
   }
 
   const url = new URL(request.url);

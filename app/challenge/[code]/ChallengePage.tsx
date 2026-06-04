@@ -39,6 +39,7 @@ interface ChallengeMetadata {
 
 interface ChallengerResult {
   display_name: string | null;
+  avatar_url?: string | null;
   score: number;
   time_taken_ms: number | null;
   answers: Array<CompletionAnswer & { is_correct: boolean }>;
@@ -327,7 +328,11 @@ export function ChallengePage({ code }: { code: string }) {
       <div className={styles.container}>
         <div className={styles.landingCard}>
           <div className={styles.challengerInfo}>
-            <div className={styles.avatar}>{challengerName[0]?.toUpperCase()}</div>
+            {meta.challenger.avatar_url ? (
+              <img src={meta.challenger.avatar_url} alt="" className={styles.avatarImg} referrerPolicy="no-referrer" />
+            ) : (
+              <div className={styles.avatar}>{challengerName[0]?.toUpperCase()}</div>
+            )}
             <h1 className={styles.challengerName}>
               {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace('{name}', challengerName)}
             </h1>

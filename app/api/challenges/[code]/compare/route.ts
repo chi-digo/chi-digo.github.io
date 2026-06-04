@@ -3,6 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
+import { resolveChallengerIdentity } from '@/lib/challenge/resolve-identity';
 import type { ChallengeQuestionPublic, ChallengeQuestionAnswers, CompletionAnswer } from '@/lib/challenge/types';
 
 export async function GET(
@@ -78,20 +79,15 @@ export async function GET(
     .eq('round_id', challenge.round_id)
     .order('question_index', { ascending: true });
 
-  let challengerName: string | null = null;
+  let challengerIdentity = { display_name: null as string | null, avatar_url: null as string | null };
   if (challenge.challenger_id) {
-    const { data: profile } = await service
-      .from('profiles')
-      .select('display_name')
-      .eq('id', challenge.challenger_id)
-      .single();
-    challengerName = profile?.display_name ?? null;
+    challengerIdentity = await resolveChallengerIdentity(service, challenge.challenger_id);
   }
 
   return NextResponse.json({
     questions: questionsWithAnswers,
     player_a: {
-      display_name: challengerName,
+      display_name: challengerIdentity.display_name,
       answers: (challengerAnswersRaw ?? []).map((a) => {
         const idx = Number(a.selected_option_id);
         const answer = questionsAnswers[a.question_id];

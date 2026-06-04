@@ -3,6 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
+import { resolveChallengerIdentity } from '@/lib/challenge/resolve-identity';
 import type { CompletionAnswer, ChallengeQuestionAnswers, ChallengeQuestionPublic } from '@/lib/challenge/types';
 
 function validateAnswers(
@@ -179,14 +180,9 @@ export async function POST(
     .select('*', { count: 'exact', head: true })
     .eq('challenge_id', challenge.id);
 
-  let challengerName: string | null = null;
+  let challengerIdentity = { display_name: null as string | null, avatar_url: null as string | null };
   if (challenge.challenger_id) {
-    const { data: challengerProfile } = await service
-      .from('profiles')
-      .select('display_name')
-      .eq('id', challenge.challenger_id)
-      .single();
-    challengerName = challengerProfile?.display_name ?? null;
+    challengerIdentity = await resolveChallengerIdentity(service, challenge.challenger_id);
   }
 
   return NextResponse.json({
@@ -195,7 +191,8 @@ export async function POST(
     total: challenge.total,
     time_taken_ms: timeTakenMs,
     challenger: {
-      display_name: challengerName,
+      display_name: challengerIdentity.display_name,
+      avatar_url: challengerIdentity.avatar_url,
       score: challenge.score,
       time_taken_ms: challenge.time_taken_ms,
       answers: challengerAnswers,
