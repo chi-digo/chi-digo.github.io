@@ -160,6 +160,14 @@ export function ChallengePage({ code }: { code: string }) {
     hard: t.quiz?.difficulty?.hard ?? 'Hard',
   };
 
+  const prevUserRef = useRef(user);
+  useEffect(() => {
+    if (!prevUserRef.current && user && state.type === 'results') {
+      track('language', 'challenge', 'signup_prompt', { challenge_id: state.meta.id, result: 'signed_up' });
+    }
+    prevUserRef.current = user;
+  }, [user, state]);
+
   // ── Load challenge metadata ──
   useEffect(() => {
     let cancelled = false;
@@ -173,7 +181,10 @@ export function ChallengePage({ code }: { code: string }) {
         const meta = await res.json();
         if (!cancelled) {
           dispatch({ type: 'LOAD_META', meta });
-          track('language', 'challenge', 'link_open', { challenge_id: meta.id });
+          track('language', 'challenge', 'link_open', {
+            challenge_id: meta.id,
+            referrer: typeof document !== 'undefined' ? document.referrer || 'direct' : 'direct',
+          });
         }
       } catch {
         if (!cancelled) dispatch({ type: 'ERROR', message: 'Failed to load challenge' });
@@ -228,7 +239,12 @@ export function ChallengePage({ code }: { code: string }) {
             challenge_id: state.meta.id,
             challengee_score: data.score,
             challenger_score: data.challenger.score,
+            time_delta: data.challenger.time_taken_ms != null ? totalTimeMs - data.challenger.time_taken_ms : 0,
             completer_number: data.completions_count,
+          });
+          track('language', 'challenge', 'comparison_view', {
+            challenge_id: state.meta.id,
+            viewer_role: user ? 'challengee' : 'anonymous',
           });
         }
       } catch {
@@ -255,7 +271,11 @@ export function ChallengePage({ code }: { code: string }) {
       const data = await res.json();
       const questions = data.questions as ChallengeQuestionFull[];
       dispatch({ type: 'START_PLAY', questions });
-      track('language', 'challenge', 'accept', { challenge_id: state.meta.id, is_new_user: !user });
+      track('language', 'challenge', 'accept', {
+        challenge_id: state.meta.id,
+        is_new_user: !user,
+        completer_number: state.meta.completions_count + 1,
+      });
     } catch {
       dispatch({ type: 'ERROR', message: 'Failed to load questions' });
     }
@@ -588,7 +608,10 @@ export function ChallengePage({ code }: { code: string }) {
             >
               {t.challenge?.challenge_button ?? 'Challenge a Friend'}
             </Button>
-            <Button variant="ghost" onClick={() => { window.location.href = '/language/quiz'; }}>
+            <Button variant="ghost" onClick={() => {
+              track('language', 'challenge', 'share_back', { challenge_id: state.meta.id, action: 'new_challenge' });
+              window.location.href = '/language/quiz';
+            }}>
               {t.challenge?.play_again ?? 'Play Again'}
             </Button>
           </div>
@@ -616,7 +639,12 @@ export function ChallengePage({ code }: { code: string }) {
       </main>
       <SignInSheet
         open={sheetOpen}
-        onClose={() => setSheetOpen(false)}
+        onClose={() => {
+          if (state.type === 'results' && !user) {
+            track('language', 'challenge', 'signup_prompt', { challenge_id: state.meta.id, result: 'dismissed' });
+          }
+          setSheetOpen(false);
+        }}
         title={t.auth?.sign_in_to_save ?? 'Sign in to save favourites'}
       />
     </div>

@@ -542,7 +542,13 @@ export function QuizPage() {
       });
       if (!res.ok) throw new Error('Failed to create challenge');
       const challenge = await res.json();
-      track('language', 'quiz', 'challenge_create', { challenge_id: challenge.id, score: challenge.score });
+      const shareMethod = typeof navigator.share === 'function' ? 'native_share' : 'clipboard';
+      track('language', 'challenge', 'create', {
+        challenge_id: challenge.id,
+        round_id: roundIdRef.current ?? '',
+        share_method: shareMethod,
+        message_tone: 'competitive',
+      });
       const text = (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
         .replace('{n}', String(challenge.score))
         .replace('{total}', String(challenge.total))
