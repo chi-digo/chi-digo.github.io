@@ -177,6 +177,33 @@
       "hard": "Ngumu"
     }
   },
+  "challenge": {
+    "challenge_button": "Alika Msena",
+    "accept_button": "Pokera Aliko",
+    "banner": "Unatsomana na {name}",
+    "won": "Umeshinda!",
+    "draw": "Sare!",
+    "lost": "{name} ameshinda!",
+    "see_questions": "Ona maswali gose",
+    "completers": "{n} atu ametsomana",
+    "signup_prompt": "Jiandikishe uhifadhi matokeo yako",
+    "share_competitive": "Naphaha {n}/{total} kpwa Chidigo quiz. Unaweza kunishinda? {link}",
+    "share_collaborative": "Haya cheza namangu Chidigo quiz! {link}",
+    "explainer": "Chidigo ni programu ya bure ya kujifunza na kusherehekea lugha ya Chidigo",
+    "categories_label": "{vocabulary} msamiati, {proverbs} misemo, {riddles} vitendawili",
+    "people_took": "{n} atu amecheza changamoto hino",
+    "expired": "Changamoto hino ikaisha",
+    "not_found": "Changamoto haijapatikana",
+    "loading": "Inapakia changamoto…",
+    "submitting": "Inatuma majibu…",
+    "view_blade": "Ona atsomani osi",
+    "challenge_by": "Changamoto ya {name}",
+    "score_to_beat": "Alama ya kushinda",
+    "your_score": "Alama yako",
+    "time_taken": "Muda: {time}",
+    "play_again": "Cheza Tsona",
+    "category_score": "{category}: Uwe {yours}/{total}, {name} {theirs}/{total}"
+  },
   "social": {
     "find_us": "Hutuphahe mtandaoni",
     "instagram_label": "Chidigo kpwa Instagram",
