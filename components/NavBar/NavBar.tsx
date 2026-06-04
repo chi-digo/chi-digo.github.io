@@ -55,7 +55,7 @@ export function NavBar() {
   const hamburgerRef = useRef<HTMLButtonElement>(null);
   const searchBtnRef = useRef<HTMLButtonElement>(null);
 
-  const { user, loading: authLoading } = useAuth();
+  const { user, signOut, loading: authLoading } = useAuth();
   const { query, setQuery, results, loading } = useUniversalSearch(locale);
   const searchGroups = buildSearchGroups(results, locale, query);
 
@@ -403,6 +403,17 @@ export function NavBar() {
                   >
                     {t.profile.title}
                   </TrackedLink>
+                  <button
+                    type="button"
+                    className={styles.drawerLink}
+                    onClick={async () => {
+                      track('orientation', 'auth', 'sign_out', { source: 'navbar_mobile' });
+                      setMobileOpen(false);
+                      await signOut();
+                    }}
+                  >
+                    {t.auth.sign_out}
+                  </button>
                 </>
               ) : (
                 <TrackedLink

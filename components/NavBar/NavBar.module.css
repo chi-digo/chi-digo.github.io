@@ -150,6 +150,12 @@
   color: var(--color-hando-cream);
   text-decoration: none;
   padding: 12px 5.25%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  display: block;
 }
 
 .drawerLink:hover {
