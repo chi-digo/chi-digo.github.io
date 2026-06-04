@@ -300,6 +300,35 @@ export interface Messages {
       hard: string;
     };
   };
+  challenge: {
+    challenge_button: string;
+    accept_button: string;
+    banner: string;
+    won: string;
+    draw: string;
+    lost: string;
+    see_questions: string;
+    completers: string;
+    signup_prompt: string;
+    share_competitive: string;
+    share_collaborative: string;
+    explainer: string;
+    categories_label: string;
+    people_took: string;
+    expired: string;
+    not_found: string;
+    loading: string;
+    submitting: string;
+    view_blade: string;
+    challenge_by: string;
+    score_to_beat: string;
+    your_score: string;
+    time_taken: string;
+    play_again: string;
+    category_score: string;
+    tone_competitive: string;
+    tone_collaborative: string;
+  };
   social: {
     find_us: string;
     instagram_label: string;
