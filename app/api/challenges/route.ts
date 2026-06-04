@@ -2,9 +2,19 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { generateShortCode } from '@/lib/challenge/shortcode';
+import { getQuizBankMap } from '@/lib/challenge/quiz-bank';
+import { rateLimit } from '@/lib/challenge/rate-limit';
+import { headers } from 'next/headers';
 import type { ChallengeQuestionPublic, ChallengeQuestionAnswers } from '@/lib/challenge/types';
 
 export async function POST(request: Request) {
+  const headersList = await headers();
+  const ip = headersList.get('x-forwarded-for') ?? 'unknown';
+
+  if (!rateLimit(ip, 5)) {
+    return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
+  }
+
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -31,7 +41,7 @@ export async function POST(request: Request) {
 
   const { data: answers, error: answersError } = await supabase
     .from('quiz_answers')
-    .select('*')
+    .select('question_id, question_index, category, difficulty, correct_option_id')
     .eq('round_id', roundId)
     .eq('user_id', user.id)
     .order('question_index', { ascending: true });
@@ -40,33 +50,36 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'No answers found for round' }, { status: 404 });
   }
 
-  const questionsPublic: ChallengeQuestionPublic[] = answers.map((a) => ({
-    source_question_id: a.question_id,
-    question_index: a.question_index,
-    category: a.category as ChallengeQuestionPublic['category'],
-    difficulty: a.difficulty as ChallengeQuestionPublic['difficulty'],
-    question_text: typeof a.question_text === 'string'
-      ? { e: a.question_text, s: a.question_text, d: a.question_text }
-      : a.question_text,
-    options: a.options,
-  }));
+  const quizBank = await getQuizBankMap();
 
+  const questionsPublic: ChallengeQuestionPublic[] = [];
   const questionsAnswers: ChallengeQuestionAnswers = {};
+
   for (const a of answers) {
-    questionsAnswers[a.question_id] = {
-      correct_answer_index: Number(a.correct_option_id),
-      explanation: typeof a.explanation === 'string'
-        ? { e: a.explanation, s: a.explanation, d: a.explanation }
-        : a.explanation ?? undefined,
+    const bankQ = quizBank.get(a.question_id);
+    if (!bankQ) {
+      return NextResponse.json({ error: `Question ${a.question_id} not found in quiz bank` }, { status: 500 });
+    }
+
+    questionsPublic.push({
+      source_question_id: bankQ.id,
+      question_index: a.question_index,
+      category: bankQ.cat,
+      difficulty: bankQ.dif,
+      question_text: bankQ.q,
+      options: bankQ.opts,
+    });
+
+    questionsAnswers[bankQ.id] = {
+      correct_answer_index: bankQ.ans,
+      explanation: bankQ.exp,
     };
   }
 
   const service = createServiceClient();
-  let shortCode = '';
-  let challengeId = '';
 
   for (let attempt = 0; attempt < 3; attempt++) {
-    shortCode = generateShortCode();
+    const shortCode = generateShortCode();
     const { data: challenge, error: insertError } = await service
       .from('challenges')
       .insert({
@@ -83,28 +96,26 @@ export async function POST(request: Request) {
       .single();
 
     if (insertError) {
-      if (insertError.code === '23505' && attempt < 2) continue; // unique violation, retry
+      if (insertError.code === '23505' && attempt < 2) continue;
       return NextResponse.json({ error: 'Failed to create challenge' }, { status: 500 });
     }
-
-    challengeId = challenge.id;
 
     const { error: questionsError } = await service
       .from('challenge_questions')
       .insert({
-        challenge_id: challengeId,
+        challenge_id: challenge.id,
         questions_public: questionsPublic,
         questions_answers: questionsAnswers,
       });
 
     if (questionsError) {
-      await service.from('challenges').delete().eq('id', challengeId);
+      await service.from('challenges').delete().eq('id', challenge.id);
       return NextResponse.json({ error: 'Failed to save questions' }, { status: 500 });
     }
 
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chidigo.org';
     return NextResponse.json({
-      id: challengeId,
+      id: challenge.id,
       short_code: shortCode,
       url: `${baseUrl}/challenge/${shortCode}`,
       score: round.score,

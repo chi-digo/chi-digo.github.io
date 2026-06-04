@@ -47,7 +47,7 @@ export async function POST(
 
   const { data: challenge, error: challengeError } = await supabase
     .from('challenges')
-    .select('id, challenger_id, score, total, status')
+    .select('id, challenger_id, score, total, status, round_id')
     .eq('short_code', code)
     .single();
 
@@ -148,17 +148,18 @@ export async function POST(
     const { data: cAnswers } = await service
       .from('quiz_answers')
       .select('question_id, selected_option_id')
-      .eq('round_id', (await service.from('challenges').select('round_id').eq('id', challenge.id).single()).data?.round_id)
+      .eq('round_id', challenge.round_id)
       .order('question_index', { ascending: true });
 
     if (cAnswers) {
       challengerAnswers = cAnswers.map((a) => {
         const idx = Number(a.selected_option_id);
+        const safeIdx = Number.isFinite(idx) ? idx : 0;
         const answer = questionsAnswers[a.question_id];
         return {
           source_question_id: a.question_id,
-          selected_answer_index: idx,
-          is_correct: answer ? idx === answer.correct_answer_index : false,
+          selected_answer_index: safeIdx,
+          is_correct: answer ? safeIdx === answer.correct_answer_index : false,
         };
       });
     }

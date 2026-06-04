@@ -172,9 +172,8 @@ export function ChallengePage({ code }: { code: string }) {
     return () => { cancelled = true; };
   }, [code, t.challenge?.not_found]);
 
-  // ── Auto-advance after correct answer ──
   useEffect(() => {
-    if (state.type === 'answered' && state.correct) {
+    if (state.type === 'answered') {
       timerRef.current = setTimeout(() => dispatch({ type: 'NEXT_QUESTION' }), AUTO_ADVANCE_MS);
       return () => { if (timerRef.current) clearTimeout(timerRef.current); };
     }
@@ -243,13 +242,7 @@ export function ChallengePage({ code }: { code: string }) {
       }
       const data = await res.json();
       const questions = data.questions as ChallengeQuestionPublic[];
-
-      // We don't have correct answers yet — they come after submission
-      // But we need them for the SELECT_ANSWER action to compute correctness
-      // The complete endpoint does server-side scoring, so we can skip client scoring
-      // Store a placeholder — correctness is determined server-side
       questionsAnswersRef.current = {};
-
       dispatch({ type: 'START_PLAY', questions });
       track('language', 'challenge', 'accept', { challenge_id: state.meta.id, is_new_user: !user });
     } catch {
@@ -258,8 +251,6 @@ export function ChallengePage({ code }: { code: string }) {
   }, [state, code, user, t.challenge?.expired]);
 
   const handleSelectAnswer = useCallback((optionIndex: number) => {
-    // Client doesn't know correct answer — pass -1 so correct is always false client-side
-    // Server-side scoring happens on submit
     dispatch({ type: 'SELECT_ANSWER', optionIndex, correctIndex: -1 });
   }, []);
 

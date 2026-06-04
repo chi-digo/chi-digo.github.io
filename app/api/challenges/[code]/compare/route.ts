@@ -26,6 +26,10 @@ export async function GET(
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
+  if (!user) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
   const { data: challenge, error } = await supabase
     .from('challenges')
     .select('id, challenger_id, score, round_id')
@@ -36,18 +40,19 @@ export async function GET(
     return NextResponse.json({ error: 'Challenge not found' }, { status: 404 });
   }
 
-  const { data: completion, error: cError } = await supabase
+  const service = createServiceClient();
+
+  const { data: completion } = await service
     .from('challenge_completions')
     .select('id, display_name, score, time_taken_ms, answers')
     .eq('id', completionId)
     .eq('challenge_id', challenge.id)
     .single();
 
-  if (cError || !completion) {
+  if (!completion) {
     return NextResponse.json({ error: 'Completion not found' }, { status: 404 });
   }
 
-  const service = createServiceClient();
   const { data: questionsRow } = await service
     .from('challenge_questions')
     .select('questions_public, questions_answers')
@@ -67,7 +72,6 @@ export async function GET(
     explanation: questionsAnswers[q.source_question_id]?.explanation,
   }));
 
-  // Always compare: player_a = challenger, player_b = the specified completion
   const { data: challengerAnswersRaw } = await service
     .from('quiz_answers')
     .select('question_id, selected_option_id')
@@ -93,7 +97,7 @@ export async function GET(
         const answer = questionsAnswers[a.question_id];
         return {
           source_question_id: a.question_id,
-          selected_answer_index: idx,
+          selected_answer_index: Number.isFinite(idx) ? idx : 0,
           is_correct: answer ? idx === answer.correct_answer_index : false,
         };
       }),
