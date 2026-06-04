@@ -75,6 +75,7 @@ type Action =
 function reducer(state: Phase, action: Action): Phase {
   switch (action.type) {
     case 'LOAD_META':
+      if (state.type !== 'loading') return state;
       return { type: 'landing', meta: action.meta };
     case 'ERROR':
       return { type: 'error', message: action.message, kind: action.kind ?? 'generic' };
@@ -197,7 +198,7 @@ export function ChallengePage({ code }: { code: string }) {
       }
     })();
     return () => { cancelled = true; };
-  }, [code, t.challenge?.not_found]);
+  }, [code]);
 
   useEffect(() => {
     if (state.type === 'answered' && state.correct) {
