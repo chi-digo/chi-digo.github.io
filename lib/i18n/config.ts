@@ -331,6 +331,9 @@ export interface Messages {
     you: string;
     score_label: string;
     time_label: string;
+    anon_limit: string;
+    rate_limit: string;
+    submit_failed: string;
   };
   social: {
     find_us: string;

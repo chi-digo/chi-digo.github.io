@@ -207,7 +207,10 @@
     "tone_collaborative": "Kushirikiana",
     "you": "Uwe",
     "score_label": "Alama",
-    "time_label": "Muda"
+    "time_label": "Muda",
+    "anon_limit": "Ukafika kikomo cha majibu bila akaunti. Ingia ili kuhifadhi matokeo yako na kuendelea kucheza.",
+    "rate_limit": "Majibu manji sana. Tafadhali subiri kidogo ujaribu tsona.",
+    "submit_failed": "Kuna tatizo ra kutuma majibu yako. Tafadhali jaribu tsona."
   },
   "social": {
     "find_us": "Hutuphahe mtandaoni",

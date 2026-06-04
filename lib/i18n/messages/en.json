@@ -207,7 +207,10 @@
     "tone_collaborative": "Collaborative",
     "you": "You",
     "score_label": "Score",
-    "time_label": "Time"
+    "time_label": "Time",
+    "anon_limit": "You've reached the limit for anonymous submissions. Sign in to save your results and keep playing.",
+    "rate_limit": "Too many submissions. Please wait a moment and try again.",
+    "submit_failed": "Something went wrong submitting your answers. Please try again."
   },
   "social": {
     "find_us": "Find us online",

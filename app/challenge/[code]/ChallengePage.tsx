@@ -52,9 +52,11 @@ interface Answer {
   timeMs: number;
 }
 
+type ErrorKind = 'generic' | 'anon_limit';
+
 type Phase =
   | { type: 'loading' }
-  | { type: 'error'; message: string }
+  | { type: 'error'; message: string; kind: ErrorKind }
   | { type: 'landing'; meta: ChallengeMetadata }
   | { type: 'playing'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; startedAt: number; meta: ChallengeMetadata }
   | { type: 'answered'; qi: number; questions: ChallengeQuestionFull[]; answers: Answer[]; selected: number; correct: boolean; startedAt: number; meta: ChallengeMetadata }
@@ -63,7 +65,7 @@ type Phase =
 
 type Action =
   | { type: 'LOAD_META'; meta: ChallengeMetadata }
-  | { type: 'ERROR'; message: string }
+  | { type: 'ERROR'; message: string; kind?: ErrorKind }
   | { type: 'START_PLAY'; questions: ChallengeQuestionFull[] }
   | { type: 'SELECT_ANSWER'; optionIndex: number }
   | { type: 'NEXT_QUESTION' }
@@ -75,7 +77,7 @@ function reducer(state: Phase, action: Action): Phase {
     case 'LOAD_META':
       return { type: 'landing', meta: action.meta };
     case 'ERROR':
-      return { type: 'error', message: action.message };
+      return { type: 'error', message: action.message, kind: action.kind ?? 'generic' };
     case 'START_PLAY': {
       if (state.type !== 'landing') return state;
       return { type: 'playing', qi: 0, questions: action.questions, answers: [], startedAt: Date.now(), meta: state.meta };
@@ -228,7 +230,18 @@ export function ChallengePage({ code }: { code: string }) {
           body: JSON.stringify(body),
         });
 
-        if (!res.ok) throw new Error('Failed to submit');
+        if (!res.ok) {
+          if (!cancelled) {
+            if (res.status === 429 && !user) {
+              dispatch({ type: 'ERROR', message: t.challenge?.anon_limit ?? 'Anonymous submission limit reached. Sign in to save your results.', kind: 'anon_limit' });
+            } else if (res.status === 429) {
+              dispatch({ type: 'ERROR', message: t.challenge?.rate_limit ?? 'Too many submissions. Please wait a moment and try again.' });
+            } else {
+              dispatch({ type: 'ERROR', message: t.challenge?.submit_failed ?? 'Something went wrong submitting your answers. Please try again.' });
+            }
+          }
+          return;
+        }
         const data = await res.json();
         if (!cancelled) {
           dispatch({
@@ -252,7 +265,7 @@ export function ChallengePage({ code }: { code: string }) {
           });
         }
       } catch {
-        if (!cancelled) dispatch({ type: 'ERROR', message: 'Failed to submit answers' });
+        if (!cancelled) dispatch({ type: 'ERROR', message: t.challenge?.submit_failed ?? 'Something went wrong submitting your answers. Please try again.' });
       }
     })();
 
@@ -315,9 +328,18 @@ export function ChallengePage({ code }: { code: string }) {
         <EmptyState
           title={state.message}
           action={
-            <Button onClick={() => window.location.reload()}>
-              {t.quiz?.retry ?? 'Tap to retry'}
-            </Button>
+            state.kind === 'anon_limit' ? (
+              <Button onClick={() => {
+                track('language', 'challenge', 'anon_limit_signin', {});
+                setSheetOpen(true);
+              }}>
+                {t.auth?.sign_in ?? 'Sign in'}
+              </Button>
+            ) : (
+              <Button onClick={() => window.location.reload()}>
+                {t.quiz?.retry ?? 'Tap to retry'}
+              </Button>
+            )
           }
         />
       </div>

@@ -207,7 +207,10 @@
     "tone_collaborative": "Kushirikiana",
     "you": "Wewe",
     "score_label": "Alama",
-    "time_label": "Muda"
+    "time_label": "Muda",
+    "anon_limit": "Umefika kikomo cha majibu bila akaunti. Ingia ili kuhifadhi matokeo yako na kuendelea kucheza.",
+    "rate_limit": "Majibu mengi sana. Tafadhali subiri kidogo ujaribu tena.",
+    "submit_failed": "Kuna tatizo la kutuma majibu yako. Tafadhali jaribu tena."
   },
   "social": {
     "find_us": "Tupate mtandaoni",
