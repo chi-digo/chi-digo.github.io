@@ -129,6 +129,10 @@ function getAnonymousId(): string {
   return id;
 }
 
+function firstName(name: string): string {
+  return name.split(/\s+/)[0];
+}
+
 function formatTime(ms: number): string {
   const seconds = Math.floor(ms / 1000);
   const minutes = Math.floor(seconds / 60);
@@ -322,7 +326,7 @@ export function ChallengePage({ code }: { code: string }) {
     );
   } else if (state.type === 'landing') {
     const meta = state.meta;
-    const challengerName = meta.challenger.display_name ?? 'Mtu wa Chidigo';
+    const challengerName = firstName(meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -385,7 +389,7 @@ export function ChallengePage({ code }: { code: string }) {
     const qText = currentQ.question_text[lk];
     const opts = currentQ.options[lk];
     const expText = currentQ.explanation?.[lk] ?? '';
-    const challengerName = state.meta.challenger.display_name ?? 'Mtu wa Chidigo';
+    const challengerName = firstName(state.meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -466,7 +470,7 @@ export function ChallengePage({ code }: { code: string }) {
       </div>
     );
   } else if (state.type === 'results') {
-    const challengerName = state.challenger.display_name ?? 'Mtu wa Chidigo';
+    const challengerName = firstName(state.challenger.display_name ?? 'Mtu wa Chidigo');
     const iWon = state.score > state.challenger.score;
     const isDraw = state.score === state.challenger.score;
 
