@@ -497,9 +497,39 @@ export function ChallengePage({ code }: { code: string }) {
   } else if (state.type === 'submitting') {
     content = (
       <div className={styles.container}>
-        <div className={styles.loadingView}>
-          <Skeleton width="100%" height={200} />
-          <p className={styles.loadingText}>{t.challenge?.submitting ?? 'Submitting answers…'}</p>
+        <div className={styles.resultsCard}>
+          <Skeleton width={200} height={32} style={{ alignSelf: 'center' }} />
+
+          <table className={styles.comparisonTable}>
+            <thead>
+              <tr>
+                <th />
+                <th><Skeleton width={30} height={12} /></th>
+                <th><Skeleton width={60} height={12} /></th>
+              </tr>
+            </thead>
+            <tbody>
+              {[1, 2, 3, 4, 5].map((i) => (
+                <tr key={i}>
+                  <td className={styles.rowLabel}><Skeleton width={70} height={14} /></td>
+                  <td><Skeleton width={40} height={20} /></td>
+                  <td><Skeleton width={40} height={20} /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <Skeleton width={140} height={16} style={{ alignSelf: 'center' }} />
+
+          <div className={styles.resultActions}>
+            <Skeleton width={200} height={44} variant="rectangular" />
+            <Skeleton width={100} height={20} />
+          </div>
+
+          <div className={styles.signupPrompt}>
+            <Skeleton width={280} height={14} />
+            <Skeleton width={60} height={20} />
+          </div>
         </div>
       </div>
     );
@@ -650,7 +680,7 @@ export function ChallengePage({ code }: { code: string }) {
             >
               {t.challenge?.challenge_button ?? 'Challenge a Friend'}
             </Button>
-            <Button variant="ghost" onClick={() => {
+            <Button variant="secondary" onClick={() => {
               if (!user) {
                 track('language', 'challenge', 'sign_in_sheet_open', { source: 'play_again' });
                 setSheetTitle(t.auth?.sign_in_to_play ?? 'Sign in to keep playing');
@@ -667,7 +697,7 @@ export function ChallengePage({ code }: { code: string }) {
           {!user && (
             <div className={styles.signupPrompt}>
               <p>{t.challenge?.signup_prompt ?? 'Sign up to save your results and challenge others'}</p>
-              <Button variant="ghost" onClick={() => {
+              <Button variant="secondary" onClick={() => {
                 track('language', 'challenge', 'sign_in_sheet_open', { source: 'signup_prompt' });
                 setSheetTitle(t.auth?.sign_in_to_save_scores ?? 'Sign in to save your scores');
                 setSheetOpen(true);
