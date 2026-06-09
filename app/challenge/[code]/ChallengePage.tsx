@@ -24,6 +24,11 @@ const LOCALE_MAP: Record<string, LocaleKey> = { en: 'e', sw: 's', dig: 'd' };
 const OPTION_LABELS = ['A', 'B', 'C', 'D'];
 const QUESTIONS_PER_ROUND = 10;
 const AUTO_ADVANCE_MS = 1200;
+const CHALLENGE_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
+function isChallengeExpired(createdAt: string): boolean {
+  return Date.now() - new Date(createdAt).getTime() > CHALLENGE_TTL_MS;
+}
 
 interface ChallengeMetadata {
   id: string;
@@ -34,7 +39,6 @@ interface ChallengeMetadata {
   category_breakdown: Record<string, { total: number; correct: number }> | null;
   difficulty_distribution: Record<string, number> | null;
   time_taken_ms: number | null;
-  status: 'active' | 'expired';
   created_at: string;
   completions_count: number;
   is_owner: boolean;
@@ -406,7 +410,7 @@ export function ChallengePage({ code }: { code: string }) {
 
           <p className={styles.explainer}>{t.challenge?.explainer ?? 'Chidigo is a free app to learn and celebrate the Digo language'}</p>
 
-          {meta.status === 'expired' ? (
+          {isChallengeExpired(meta.created_at) ? (
             <p className={styles.expiredNotice}>{t.challenge?.expired ?? 'This challenge has expired'}</p>
           ) : (
             <Button className={styles.acceptButton} onClick={handleAccept}>

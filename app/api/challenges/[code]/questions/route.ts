@@ -19,9 +19,11 @@ export async function GET(
 
   const supabase = await createClient();
 
+  const CHALLENGE_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
   const { data: challenge, error } = await supabase
     .from('challenges')
-    .select('id, status')
+    .select('id, created_at')
     .eq('short_code', code)
     .single();
 
@@ -29,7 +31,7 @@ export async function GET(
     return NextResponse.json({ error: 'Challenge not found' }, { status: 404 });
   }
 
-  if (challenge.status === 'expired') {
+  if (Date.now() - new Date(challenge.created_at).getTime() > CHALLENGE_TTL_MS) {
     return NextResponse.json({ error: 'Challenge has expired' }, { status: 410 });
   }
 

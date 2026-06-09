@@ -23,7 +23,6 @@ interface ChallengeData {
   total: number;
   created_at: string;
   completions_count: number;
-  status: string;
 }
 
 function formatTime(ms: number): string {
@@ -108,7 +107,7 @@ export function LeaderboardPage({ code }: { code: string }) {
             <p className={styles.date}>
               {new Date(challenge.created_at).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
             </p>
-            {challenge.status === 'expired' && (
+            {Date.now() - new Date(challenge.created_at).getTime() > 7 * 24 * 60 * 60 * 1000 && (
               <Badge>{t.challenge?.expired_label ?? 'Expired'}</Badge>
             )}
           </div>

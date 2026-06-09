@@ -21,7 +21,7 @@ export async function GET(
 
   const { data: challenge, error } = await supabase
     .from('challenges')
-    .select('id, challenger_id, score, total, status, created_at')
+    .select('id, challenger_id, score, total, created_at')
     .eq('short_code', code)
     .single();
 
@@ -66,7 +66,6 @@ export async function GET(
       total: challenge.total,
       created_at: challenge.created_at,
       completions_count: totalCount,
-      status: challenge.status,
     },
     completions: completions ?? [],
     has_more: totalCount > from + pageSize,

@@ -4,6 +4,7 @@ import { createServiceClient } from '@/lib/supabase/service';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
 import { resolveChallengerIdentity } from '@/lib/challenge/resolve-identity';
+import { anonymousDisplayName } from '@/lib/challenge/anonymous-name';
 import type { CompletionAnswer, ChallengeQuestionAnswers, ChallengeQuestionPublic } from '@/lib/challenge/types';
 
 function validateAnswers(
@@ -50,9 +51,11 @@ export async function POST(
     return NextResponse.json({ error: 'Too many anonymous submissions' }, { status: 429 });
   }
 
+  const CHALLENGE_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
   const { data: challenge, error: challengeError } = await supabase
     .from('challenges')
-    .select('id, challenger_id, score, total, status, round_id, time_taken_ms')
+    .select('id, challenger_id, score, total, created_at, round_id, time_taken_ms')
     .eq('short_code', code)
     .single();
 
@@ -60,7 +63,7 @@ export async function POST(
     return NextResponse.json({ error: 'Challenge not found' }, { status: 404 });
   }
 
-  if (challenge.status === 'expired') {
+  if (Date.now() - new Date(challenge.created_at).getTime() > CHALLENGE_TTL_MS) {
     return NextResponse.json({ error: 'Challenge has expired' }, { status: 410 });
   }
 
@@ -103,10 +106,12 @@ export async function POST(
     }
   }
 
-  let displayName: string | null = null;
+  let displayName: string;
   if (user) {
     const identity = await resolveChallengerIdentity(service, user.id);
-    displayName = identity.display_name;
+    displayName = identity.display_name ?? 'Mtu wa Chidigo';
+  } else {
+    displayName = anonymousDisplayName(ip);
   }
 
   const completionData = {
@@ -114,7 +119,7 @@ export async function POST(
     challenger_id: challenge.challenger_id,
     ...(user ? { user_id: user.id } : {}),
     ...(anonymousId ? { anonymous_id: anonymousId } : {}),
-    display_name: displayName ?? 'Mtu wa Chidigo',
+    display_name: displayName,
     score,
     total: challenge.total,
     time_taken_ms: timeTakenMs,

@@ -30,7 +30,6 @@ export async function GET(
       category_breakdown,
       difficulty_distribution,
       time_taken_ms,
-      status,
       created_at
     `)
     .eq('short_code', code)
@@ -63,7 +62,6 @@ export async function GET(
     category_breakdown: challenge.category_breakdown,
     difficulty_distribution: challenge.difficulty_distribution,
     time_taken_ms: challenge.time_taken_ms,
-    status: challenge.status,
     created_at: challenge.created_at,
     completions_count: count ?? 0,
     is_owner: user?.id === challenge.challenger_id,
