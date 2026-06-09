@@ -537,13 +537,20 @@ export function QuizPage() {
       setSheetOpen(true);
       return;
     }
-    if (!roundIdRef.current && savePromiseRef.current) {
-      setChallengeLoading(true);
-      await savePromiseRef.current;
-      setChallengeLoading(false);
-    }
-    if (!roundIdRef.current) return;
     setChallengeLoading(true);
+    if (!roundIdRef.current && savePromiseRef.current) {
+      await savePromiseRef.current;
+    }
+    if (!roundIdRef.current && state.type === 'results') {
+      const totalTimeMs = Date.now() - gameStartRef.current;
+      const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
+      const result = await saveRoundToApi(payload);
+      if (result.ok) roundIdRef.current = result.roundId ?? null;
+    }
+    if (!roundIdRef.current) {
+      setChallengeLoading(false);
+      return;
+    }
     try {
       const res = await fetch('/api/challenges', {
         method: 'POST',
@@ -573,7 +580,7 @@ export function QuizPage() {
     } finally {
       setChallengeLoading(false);
     }
-  }, [user, t.challenge?.share_competitive]);
+  }, [user, state, lk, t.challenge?.share_competitive]);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
