@@ -423,6 +423,7 @@ export function QuizPage() {
   const [sheetOpen, setSheetOpen] = useState(false);
   const [sheetTitle, setSheetTitle] = useState<string | undefined>(undefined);
   const roundIdRef = useRef<string | null>(null);
+  const savePromiseRef = useRef<Promise<void> | null>(null);
   const [challengeLoading, setChallengeLoading] = useState(false);
 
   useEffect(() => {
@@ -503,7 +504,7 @@ export function QuizPage() {
       const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
 
       if (user) {
-        saveRoundToApi(payload).then((result) => {
+        savePromiseRef.current = saveRoundToApi(payload).then((result) => {
           if (result.ok) {
             roundIdRef.current = result.roundId ?? null;
             track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
@@ -535,6 +536,11 @@ export function QuizPage() {
       setSheetTitle(t.auth?.sign_in_to_challenge ?? 'Sign in to challenge a friend');
       setSheetOpen(true);
       return;
+    }
+    if (!roundIdRef.current && savePromiseRef.current) {
+      setChallengeLoading(true);
+      await savePromiseRef.current;
+      setChallengeLoading(false);
     }
     if (!roundIdRef.current) return;
     setChallengeLoading(true);
