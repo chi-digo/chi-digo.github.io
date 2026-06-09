@@ -687,7 +687,7 @@ export function QuizPage() {
               <Button
                 disabled={challengeLoading}
                 onClick={handleChallenge}
-                iconLeft={challengeLoading ? <KayambaLoader size="sm" /> : <ChallengeIcon />}
+                iconLeft={challengeLoading ? <KayambaLoader size="sm" style={{ width: 16, height: 16, overflow: 'hidden' }} /> : <ChallengeIcon />}
               >
                 {t.challenge?.challenge_button ?? 'Challenge a Friend'}
               </Button>
