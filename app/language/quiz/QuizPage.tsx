@@ -14,6 +14,7 @@ import {
   ProgressBar,
   Skeleton,
   EmptyState,
+  Toast,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
 import styles from './QuizPage.module.css';
@@ -691,7 +692,7 @@ export function QuizPage() {
                   ? '…'
                   : (t.challenge?.challenge_button ?? 'Challenge a Friend')}
               </Button>
-              {challengeError && <p style={{ color: 'var(--color-error, #d32f2f)', fontSize: 'var(--text-xs)', margin: 0 }}>{challengeError}</p>}
+              {challengeError && <Toast message={challengeError} variant="error" onDismiss={() => setChallengeError(null)} />}
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
