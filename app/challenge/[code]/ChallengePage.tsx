@@ -157,6 +157,7 @@ export function ChallengePage({ code }: { code: string }) {
   const [state, dispatch] = useReducer(reducer, { type: 'loading' });
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [sheetTitle, setSheetTitle] = useState<string | undefined>(undefined);
   const [detailOpen, setDetailOpen] = useState(false);
 
   const categoryLabels: Record<string, string> = {
@@ -335,23 +336,26 @@ export function ChallengePage({ code }: { code: string }) {
   } else if (state.type === 'error') {
     content = (
       <div className={styles.container}>
-        <EmptyState
-          title={state.message}
-          action={
-            state.kind === 'anon_limit' ? (
-              <Button onClick={() => {
-                track('language', 'challenge', 'anon_limit_signin', {});
-                setSheetOpen(true);
-              }}>
-                {t.auth?.sign_in ?? 'Sign in'}
-              </Button>
-            ) : (
-              <Button onClick={() => window.location.reload()}>
-                {t.quiz?.retry ?? 'Tap to retry'}
-              </Button>
-            )
-          }
-        />
+        <div className={styles.landingCard}>
+          <EmptyState
+            title={state.message}
+            action={
+              state.kind === 'anon_limit' ? (
+                <Button onClick={() => {
+                  track('language', 'challenge', 'sign_in_sheet_open', { source: 'anon_limit' });
+                  setSheetTitle(t.auth?.sign_in_to_play ?? 'Sign in to keep playing');
+                  setSheetOpen(true);
+                }}>
+                  {t.auth?.sign_in ?? 'Sign in'}
+                </Button>
+              ) : (
+                <Button onClick={() => window.location.reload()}>
+                  {t.quiz?.retry ?? 'Tap to retry'}
+                </Button>
+              )
+            }
+          />
+        </div>
       </div>
     );
   } else if (state.type === 'landing') {
@@ -625,6 +629,8 @@ export function ChallengePage({ code }: { code: string }) {
             <Button
               onClick={() => {
                 if (!user) {
+                  track('language', 'challenge', 'sign_in_sheet_open', { source: 'challenge_friend' });
+                  setSheetTitle(t.auth?.sign_in_to_challenge ?? 'Sign in to challenge a friend');
                   setSheetOpen(true);
                   return;
                 }
@@ -646,6 +652,8 @@ export function ChallengePage({ code }: { code: string }) {
             </Button>
             <Button variant="ghost" onClick={() => {
               if (!user) {
+                track('language', 'challenge', 'sign_in_sheet_open', { source: 'play_again' });
+                setSheetTitle(t.auth?.sign_in_to_play ?? 'Sign in to keep playing');
                 setSheetOpen(true);
                 return;
               }
@@ -660,7 +668,8 @@ export function ChallengePage({ code }: { code: string }) {
             <div className={styles.signupPrompt}>
               <p>{t.challenge?.signup_prompt ?? 'Sign up to save your results and challenge others'}</p>
               <Button variant="ghost" onClick={() => {
-                track('language', 'challenge', 'signup_prompt', { challenge_id: state.meta.id, result: 'opened' });
+                track('language', 'challenge', 'sign_in_sheet_open', { source: 'signup_prompt' });
+                setSheetTitle(t.auth?.sign_in_to_save_scores ?? 'Sign in to save your scores');
                 setSheetOpen(true);
               }}>
                 {t.auth?.sign_in ?? 'Sign in'}
@@ -684,8 +693,9 @@ export function ChallengePage({ code }: { code: string }) {
             track('language', 'challenge', 'signup_prompt', { challenge_id: state.meta.id, result: 'dismissed' });
           }
           setSheetOpen(false);
+          setSheetTitle(undefined);
         }}
-        title={t.auth?.sign_in_to_save ?? 'Sign in to save favourites'}
+        title={sheetTitle ?? t.auth?.sign_in_to_save ?? 'Sign in to save favourites'}
       />
     </div>
   );

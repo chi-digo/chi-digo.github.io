@@ -105,12 +105,8 @@ export async function POST(
 
   let displayName: string | null = null;
   if (user) {
-    const { data: profile } = await supabase
-      .from('profiles')
-      .select('display_name')
-      .eq('id', user.id)
-      .single();
-    displayName = profile?.display_name ?? null;
+    const identity = await resolveChallengerIdentity(service, user.id);
+    displayName = identity.display_name;
   }
 
   const completionData = {

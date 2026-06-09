@@ -399,9 +399,11 @@ export interface Messages {
     google_sign_in: string;
     sign_in_to_save: string;
     sign_in_to_play: string;
+    sign_in_to_challenge: string;
     sign_in_to_save_scores: string;
     score_saved: string;
     error_generic: string;
+    benefit_challenge: string;
     benefit_favourites: string;
     benefit_quiz: string;
     benefit_sync: string;

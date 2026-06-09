@@ -421,6 +421,7 @@ export function QuizPage() {
   const gameStartRef = useRef<number>(0);
   const { shareQuizScore, isGenerating } = useShareCard();
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [sheetTitle, setSheetTitle] = useState<string | undefined>(undefined);
   const roundIdRef = useRef<string | null>(null);
   const [challengeLoading, setChallengeLoading] = useState(false);
 
@@ -530,6 +531,8 @@ export function QuizPage() {
 
   const handleChallenge = useCallback(async () => {
     if (!user || !roundIdRef.current) {
+      track('language', 'quiz', 'sign_in_sheet_open', { source: 'challenge_friend' });
+      setSheetTitle(t.auth?.sign_in_to_challenge ?? 'Sign in to challenge a friend');
       setSheetOpen(true);
       return;
     }
@@ -779,8 +782,8 @@ export function QuizPage() {
       </main>
       <SignInSheet
         open={sheetOpen}
-        onClose={() => setSheetOpen(false)}
-        title={t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
+        onClose={() => { setSheetOpen(false); setSheetTitle(undefined); }}
+        title={sheetTitle ?? t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
       />
     </div>
   );
