@@ -692,7 +692,6 @@ export function QuizPage() {
                   ? '…'
                   : (t.challenge?.challenge_button ?? 'Challenge a Friend')}
               </Button>
-              {challengeError && <Toast message={challengeError} variant="error" onDismiss={() => setChallengeError(null)} />}
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
@@ -800,6 +799,11 @@ export function QuizPage() {
         onClose={() => { setSheetOpen(false); setSheetTitle(undefined); }}
         title={sheetTitle ?? t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
       />
+      {challengeError && (
+        <div style={{ position: 'fixed', bottom: 'var(--space-4)', left: '50%', transform: 'translateX(-50%)', zIndex: 50 }}>
+          <Toast message={challengeError} variant="error" onDismiss={() => setChallengeError(null)} />
+        </div>
+      )}
     </div>
   );
 }
