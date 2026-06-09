@@ -530,12 +530,13 @@ export function QuizPage() {
   }, []);
 
   const handleChallenge = useCallback(async () => {
-    if (!user || !roundIdRef.current) {
+    if (!user) {
       track('language', 'quiz', 'sign_in_sheet_open', { source: 'challenge_friend' });
       setSheetTitle(t.auth?.sign_in_to_challenge ?? 'Sign in to challenge a friend');
       setSheetOpen(true);
       return;
     }
+    if (!roundIdRef.current) return;
     setChallengeLoading(true);
     try {
       const res = await fetch('/api/challenges', {
