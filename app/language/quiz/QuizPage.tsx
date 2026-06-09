@@ -15,6 +15,7 @@ import {
   Skeleton,
   EmptyState,
   Toast,
+  KayambaLoader,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
 import styles from './QuizPage.module.css';
@@ -686,11 +687,9 @@ export function QuizPage() {
               <Button
                 disabled={challengeLoading}
                 onClick={handleChallenge}
-                iconLeft={<ChallengeIcon />}
+                iconLeft={challengeLoading ? <KayambaLoader size="sm" /> : <ChallengeIcon />}
               >
-                {challengeLoading
-                  ? '…'
-                  : (t.challenge?.challenge_button ?? 'Challenge a Friend')}
+                {t.challenge?.challenge_button ?? 'Challenge a Friend'}
               </Button>
               <Button
                 className={styles.shareButton}
