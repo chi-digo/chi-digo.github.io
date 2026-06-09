@@ -1,11 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth/context';
 import { useTranslations } from '@/lib/i18n/context';
 import { AuthGuard } from '@/components/AuthGuard';
 import { FavouritesList } from '@/components/FavouritesList/FavouritesList';
 import { QuizHistory } from '@/components/QuizHistory/QuizHistory';
+import { ChallengeHistory } from '@/components/ChallengeHistory/ChallengeHistory';
 import { Avatar, Tabs } from '@chi-digo/design-system';
 import { track } from '@/lib/analytics/track';
 import styles from './profile.module.css';
@@ -19,9 +21,16 @@ function GearIcon() {
   );
 }
 
+const TAB_IDS = ['favourites', 'quiz', 'challenges'] as const;
+
 function ProfileContent() {
   const { user } = useAuth();
   const t = useTranslations();
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const tabParam = searchParams.get('tab');
+  const defaultTabIndex = Math.max(0, TAB_IDS.indexOf(tabParam as typeof TAB_IDS[number]));
 
   const name = user?.user_metadata?.full_name || user?.user_metadata?.display_name || user?.email || '';
   const avatarUrl = user?.user_metadata?.avatar_url || user?.user_metadata?.picture || '';
@@ -45,6 +54,11 @@ function ProfileContent() {
       id: 'quiz',
       label: t.profile.quiz_history,
       content: <QuizHistory />,
+    },
+    {
+      id: 'challenges',
+      label: t.profile.challenges ?? 'Challenges',
+      content: <ChallengeHistory />,
     },
   ];
 
@@ -80,9 +94,16 @@ function ProfileContent() {
         </div>
 
         <Tabs
+          key={defaultTabIndex}
           items={tabItems}
+          defaultIndex={defaultTabIndex}
           onTabChange={(_index, item) => {
-            if (item.id) track('orientation', 'profile', 'tab_switch', { tab: item.id });
+            if (item.id) {
+              track('orientation', 'profile', 'tab_switch', { tab: item.id });
+              const params = new URLSearchParams(searchParams.toString());
+              params.set('tab', item.id);
+              router.replace(`/profile?${params.toString()}`, { scroll: false });
+            }
           }}
         />
       </div>

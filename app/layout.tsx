@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import localFont from "next/font/local";
 import { ClientShell } from "@/components/ClientShell";
 import { JsonLd } from "@/components/JsonLd";
@@ -65,13 +64,9 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0E1A2A" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <Script
-          id="init-scripts"
-          strategy="beforeInteractive"
+        <script
           dangerouslySetInnerHTML={{
-            __html: [
-              `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})()`,
-            ].join(';'),
+            __html: `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})()`,
           }}
         />
       </head>

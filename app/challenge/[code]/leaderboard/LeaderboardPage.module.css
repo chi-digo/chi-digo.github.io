@@ -1,0 +1,162 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--color-hando-cream);
+  color: var(--color-vigango-black);
+}
+
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: calc(var(--header-height) + 1.5rem) 5.25% 4rem;
+}
+
+.card {
+  width: 100%;
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  border: var(--border-width-thin) solid var(--border-default);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--fg-heading);
+  margin: 0;
+}
+
+.scoreBadge {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.scoreNumber {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--color-kaya-indigo);
+}
+
+.scoreTotal {
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  color: var(--fg-muted);
+}
+
+.date {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  margin: 0;
+}
+
+.shareRow {
+  display: flex;
+  justify-content: center;
+}
+
+.leaderboardSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  border-top: var(--border-width-thin) solid var(--border-default);
+  padding-top: var(--space-4);
+}
+
+.leaderboardTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--fg-heading);
+  margin: 0;
+}
+
+.count {
+  font-weight: 400;
+  color: var(--fg-muted);
+}
+
+.empty {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  text-align: center;
+  margin: 0;
+  padding: var(--space-4) 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--border-subtle, var(--border-default));
+}
+
+.rank {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.name {
+  flex: 1;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.score {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  min-width: 3rem;
+  text-align: right;
+}
+
+.notFound {
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  color: var(--fg-muted);
+  padding: var(--space-8) 0;
+}
+
+.backLink {
+  display: block;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-kaya-indigo);
+  text-decoration: none;
+  padding-top: var(--space-2);
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}

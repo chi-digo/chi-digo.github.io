@@ -21,6 +21,11 @@ const Agentation = dynamic(
   { ssr: false },
 );
 
+const ChallengeNotifications = dynamic(
+  () => import('@/components/ChallengeNotifications/ChallengeNotifications').then((mod) => mod.ChallengeNotifications),
+  { ssr: false },
+);
+
 interface ClientShellProps {
   children: ReactNode;
 }
@@ -60,6 +65,7 @@ export function ClientShell({ children }: ClientShellProps) {
           {updateAvailable && (
             <UpdateToast onRefresh={applyUpdate} onDismiss={dismissUpdate} />
           )}
+          <ChallengeNotifications />
           {process.env.NODE_ENV === 'development' && <Agentation />}
         </FavouritesProvider>
       </AuthProvider>

@@ -14,6 +14,8 @@ import {
   ProgressBar,
   Skeleton,
   EmptyState,
+  Toast,
+  KayambaLoader,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
 import styles from './QuizPage.module.css';
@@ -242,16 +244,18 @@ function buildRoundPayload(
   };
 }
 
-async function saveRoundToApi(payload: ReturnType<typeof buildRoundPayload>) {
+async function saveRoundToApi(payload: ReturnType<typeof buildRoundPayload>): Promise<{ ok: boolean; roundId?: string }> {
   try {
     const res = await fetch('/api/quiz/rounds', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
     });
-    return res.ok;
+    if (!res.ok) return { ok: false };
+    const data = await res.json();
+    return { ok: true, roundId: data.id };
   } catch {
-    return false;
+    return { ok: false };
   }
 }
 
@@ -367,6 +371,17 @@ const LOADING_PROVERBS = [
 
 // ── Icons ──
 
+function ChallengeIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" />
+      <line x1="19" y1="8" x2="19" y2="14" />
+      <line x1="22" y1="11" x2="16" y2="11" />
+    </svg>
+  );
+}
+
 function ShareIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -408,6 +423,11 @@ export function QuizPage() {
   const gameStartRef = useRef<number>(0);
   const { shareQuizScore, isGenerating } = useShareCard();
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [sheetTitle, setSheetTitle] = useState<string | undefined>(undefined);
+  const roundIdRef = useRef<string | null>(null);
+  const savePromiseRef = useRef<Promise<void> | null>(null);
+  const [challengeLoading, setChallengeLoading] = useState(false);
+  const [challengeError, setChallengeError] = useState<string | null>(null);
 
   useEffect(() => {
     if (user) migrateLocalScore();
@@ -487,8 +507,9 @@ export function QuizPage() {
       const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
 
       if (user) {
-        saveRoundToApi(payload).then((ok) => {
-          if (ok) {
+        savePromiseRef.current = saveRoundToApi(payload).then((result) => {
+          if (result.ok) {
+            roundIdRef.current = result.roundId ?? null;
             track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
           } else {
             track('language', 'quiz', 'score_save_failed', { score: state.score, round_number: getRoundNumber() - 1 });
@@ -511,6 +532,56 @@ export function QuizPage() {
     track('language', 'quiz', 'continue', {});
     dispatch({ type: 'NEXT_QUESTION' });
   }, []);
+
+  const handleChallenge = useCallback(async () => {
+    if (!user) {
+      track('language', 'quiz', 'sign_in_sheet_open', { source: 'challenge_friend' });
+      setSheetTitle(t.auth?.sign_in_to_challenge ?? 'Sign in to challenge a friend');
+      setSheetOpen(true);
+      return;
+    }
+    setChallengeLoading(true);
+    setChallengeError(null);
+    if (!roundIdRef.current && savePromiseRef.current) {
+      await savePromiseRef.current;
+    }
+    if (!roundIdRef.current) {
+      setChallengeLoading(false);
+      setChallengeError('Round not saved — please try again');
+      track('language', 'quiz', 'challenge_create_failed', { reason: 'no_round_id' });
+      return;
+    }
+    try {
+      const res = await fetch('/api/challenges', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ round_id: roundIdRef.current }),
+      });
+      if (!res.ok) throw new Error('Failed to create challenge');
+      const challenge = await res.json();
+      const shareMethod = typeof navigator.share === 'function' ? 'native_share' : 'clipboard';
+      track('language', 'challenge', 'create', {
+        challenge_id: challenge.id,
+        round_id: roundIdRef.current ?? '',
+        share_method: shareMethod,
+        message_tone: 'competitive',
+      });
+      const text = (t.challenge?.share_competitive ?? 'I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}')
+        .replace('{n}', String(challenge.score))
+        .replace('{total}', String(challenge.total))
+        .replace('{link}', challenge.url);
+      if (navigator.share) {
+        await navigator.share({ title: 'Chidigo Quiz Challenge', text, url: challenge.url }).catch(() => {});
+      } else {
+        await navigator.clipboard?.writeText(text);
+      }
+    } catch {
+      setChallengeError('Failed to create challenge');
+      track('language', 'quiz', 'challenge_create_failed', { reason: 'api_error' });
+    } finally {
+      setChallengeLoading(false);
+    }
+  }, [user, t.challenge?.share_competitive]);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
@@ -613,6 +684,13 @@ export function QuizPage() {
           style={{ width: '100%' }}
           actions={
             <>
+              <Button
+                disabled={challengeLoading}
+                onClick={handleChallenge}
+                iconLeft={challengeLoading ? <KayambaLoader size="sm" style={{ width: 16, height: 16, overflow: 'hidden' }} /> : <ChallengeIcon />}
+              >
+                {t.challenge?.challenge_button ?? 'Challenge a Friend'}
+              </Button>
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
@@ -717,9 +795,14 @@ export function QuizPage() {
       </main>
       <SignInSheet
         open={sheetOpen}
-        onClose={() => setSheetOpen(false)}
-        title={t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
+        onClose={() => { setSheetOpen(false); setSheetTitle(undefined); }}
+        title={sheetTitle ?? t.auth?.sign_in_to_play ?? 'Sign in to keep playing'}
       />
+      {challengeError && (
+        <div style={{ position: 'fixed', bottom: 'var(--space-4)', left: '50%', transform: 'translateX(-50%)', zIndex: 50 }}>
+          <Toast message={challengeError} variant="error" onDismiss={() => setChallengeError(null)} />
+        </div>
+      )}
     </div>
   );
 }

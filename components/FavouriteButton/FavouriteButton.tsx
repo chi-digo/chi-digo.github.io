@@ -35,7 +35,7 @@ export function AppFavouriteButton({
 
   const handleToggle = useCallback(() => {
     if (!user) {
-      track(journey, 'auth', 'sheet_open', { entry_type: entryType, entry_id: entryId });
+      track(journey, 'auth', 'sign_in_sheet_open', { source: 'favourite', entry_type: entryType, entry_id: entryId });
       setSheetOpen(true);
       return;
     }
