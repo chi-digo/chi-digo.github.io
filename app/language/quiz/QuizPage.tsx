@@ -425,6 +425,7 @@ export function QuizPage() {
   const roundIdRef = useRef<string | null>(null);
   const savePromiseRef = useRef<Promise<void> | null>(null);
   const [challengeLoading, setChallengeLoading] = useState(false);
+  const [challengeError, setChallengeError] = useState<string | null>(null);
 
   useEffect(() => {
     if (user) migrateLocalScore();
@@ -538,17 +539,14 @@ export function QuizPage() {
       return;
     }
     setChallengeLoading(true);
+    setChallengeError(null);
     if (!roundIdRef.current && savePromiseRef.current) {
       await savePromiseRef.current;
     }
-    if (!roundIdRef.current && state.type === 'results') {
-      const totalTimeMs = Date.now() - gameStartRef.current;
-      const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
-      const result = await saveRoundToApi(payload);
-      if (result.ok) roundIdRef.current = result.roundId ?? null;
-    }
     if (!roundIdRef.current) {
       setChallengeLoading(false);
+      setChallengeError('Round not saved — please try again');
+      track('language', 'quiz', 'challenge_create_failed', { reason: 'no_round_id' });
       return;
     }
     try {
@@ -576,11 +574,12 @@ export function QuizPage() {
         await navigator.clipboard?.writeText(text);
       }
     } catch {
-      track('language', 'quiz', 'challenge_create_failed', {});
+      setChallengeError('Failed to create challenge');
+      track('language', 'quiz', 'challenge_create_failed', { reason: 'api_error' });
     } finally {
       setChallengeLoading(false);
     }
-  }, [user, state, lk, t.challenge?.share_competitive]);
+  }, [user, t.challenge?.share_competitive]);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
@@ -692,6 +691,7 @@ export function QuizPage() {
                   ? '…'
                   : (t.challenge?.challenge_button ?? 'Challenge a Friend')}
               </Button>
+              {challengeError && <p style={{ color: 'var(--color-error, #d32f2f)', fontSize: 'var(--text-xs)', margin: 0 }}>{challengeError}</p>}
               <Button
                 className={styles.shareButton}
                 disabled={isGenerating}
