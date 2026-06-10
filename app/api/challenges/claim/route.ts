@@ -26,20 +26,39 @@ export async function POST(request: Request) {
   const identity = await resolveChallengerIdentity(service, user.id);
   const displayName = identity.display_name ?? 'Mtu wa Chidigo';
 
-  const { data: claimed, error } = await service
-    .from('challenge_completions')
-    .update({
-      user_id: user.id,
-      display_name: displayName,
-      anonymous_id: null,
-    })
-    .eq('anonymous_id', anonymousId)
-    .is('user_id', null)
-    .select('id');
+  const [completionsResult, roundsResult] = await Promise.all([
+    service
+      .from('challenge_completions')
+      .update({
+        user_id: user.id,
+        display_name: displayName,
+        anonymous_id: null,
+      })
+      .eq('anonymous_id', anonymousId)
+      .is('user_id', null)
+      .select('id'),
+    service
+      .from('quiz_rounds')
+      .update({
+        user_id: user.id,
+        anonymous_id: null,
+      })
+      .eq('anonymous_id', anonymousId)
+      .is('user_id', null)
+      .select('id'),
+  ]);
 
-  if (error) {
-    return NextResponse.json({ error: 'Failed to claim completions' }, { status: 500 });
+  const claimedRoundIds = (roundsResult.data ?? []).map((r) => r.id);
+  if (claimedRoundIds.length > 0) {
+    await service
+      .from('quiz_answers')
+      .update({ user_id: user.id })
+      .in('round_id', claimedRoundIds)
+      .is('user_id', null);
   }
 
-  return NextResponse.json({ claimed: claimed?.length ?? 0 });
+  return NextResponse.json({
+    claimed_completions: completionsResult.data?.length ?? 0,
+    claimed_rounds: claimedRoundIds.length,
+  });
 }

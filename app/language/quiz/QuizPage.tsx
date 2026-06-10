@@ -18,6 +18,7 @@ import {
   KayambaLoader,
 } from '@chi-digo/design-system';
 import { useShareCard } from '@/hooks/useShareCard';
+import { getAnonymousId } from '@/lib/anonymous-id';
 import styles from './QuizPage.module.css';
 
 // ── Types ──
@@ -259,21 +260,6 @@ async function saveRoundToApi(payload: ReturnType<typeof buildRoundPayload>): Pr
   }
 }
 
-async function migrateLocalScore() {
-  try {
-    const raw = localStorage.getItem('chidigo_last_quiz_score');
-    if (!raw) return;
-    const payload = JSON.parse(raw);
-    const res = await fetch('/api/quiz/rounds', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    if (res.ok) {
-      localStorage.removeItem('chidigo_last_quiz_score');
-    }
-  } catch {}
-}
 
 // ── Reducer ──
 
@@ -429,9 +415,6 @@ export function QuizPage() {
   const [challengeLoading, setChallengeLoading] = useState(false);
   const [challengeError, setChallengeError] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (user) migrateLocalScore();
-  }, [user]);
 
   const categoryLabels: Record<string, string> = {
     vocabulary: t.quiz?.categories?.vocabulary ?? 'Vocabulary',
@@ -506,21 +489,16 @@ export function QuizPage() {
 
       const payload = buildRoundPayload(state.questions, state.answers, state.score, totalTimeMs, lk);
 
-      if (user) {
-        savePromiseRef.current = saveRoundToApi(payload).then((result) => {
-          if (result.ok) {
-            roundIdRef.current = result.roundId ?? null;
-            track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
-          } else {
-            track('language', 'quiz', 'score_save_failed', { score: state.score, round_number: getRoundNumber() - 1 });
-          }
-        });
-      } else {
-        markFreeRoundPlayed();
-        try {
-          localStorage.setItem('chidigo_last_quiz_score', JSON.stringify(payload));
-        } catch {}
-      }
+      const savePayload = user ? payload : { ...payload, anonymous_id: getAnonymousId() };
+      savePromiseRef.current = saveRoundToApi(savePayload).then((result) => {
+        if (result.ok) {
+          roundIdRef.current = result.roundId ?? null;
+          track('language', 'quiz', 'score_saved', { score: state.score, round_number: getRoundNumber() - 1 });
+        } else {
+          track('language', 'quiz', 'score_save_failed', { score: state.score, round_number: getRoundNumber() - 1 });
+        }
+      });
+      if (!user) markFreeRoundPlayed();
     }
   }, [state, user, lk]);
 

@@ -15,6 +15,7 @@ import {
   EmptyState,
 } from '@chi-digo/design-system';
 import type { ChallengeQuestionFull, CompletionAnswer } from '@/lib/challenge/types';
+import { getAnonymousId } from '@/lib/anonymous-id';
 import styles from './ChallengePage.module.css';
 
 // ── Types ──
@@ -127,16 +128,6 @@ function reducer(state: Phase, action: Action): Phase {
     default:
       return state;
   }
-}
-
-function getAnonymousId(): string {
-  if (typeof window === 'undefined') return '';
-  let id = localStorage.getItem('chidigo-anonymous-id');
-  if (!id) {
-    id = crypto.randomUUID();
-    localStorage.setItem('chidigo-anonymous-id', id);
-  }
-  return id;
 }
 
 function firstName(name: string): string {

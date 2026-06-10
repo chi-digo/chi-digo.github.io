@@ -14,14 +14,23 @@ drop policy if exists "Anyone can read completions" on public.challenge_completi
 -- will still return all columns. To truly hide answers, we use security definer
 -- functions in the API. For now, restrict SELECT to participants only.
 
-create policy "Participants can read completions"
-  on public.challenge_completions for select using (
-    auth.uid() = user_id
-    or auth.uid() = challenger_id
-    or auth.uid() in (
-      select challenger_id from public.challenges where id = challenge_id
-    )
-  );
+do $$
+begin
+  if not exists (
+    select 1 from pg_policies
+    where policyname = 'Participants can read completions'
+    and tablename = 'challenge_completions'
+  ) then
+    create policy "Participants can read completions"
+      on public.challenge_completions for select using (
+        auth.uid() = user_id
+        or auth.uid() = challenger_id
+        or auth.uid() in (
+          select challenger_id from public.challenges where id = challenge_id
+        )
+      );
+  end if;
+end $$;
 
 -- Allow anonymous read for leaderboard display (without answers) via service role.
 -- The completions endpoint already uses the regular supabase client with specific
