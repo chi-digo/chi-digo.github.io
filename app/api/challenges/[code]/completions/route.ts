@@ -61,6 +61,7 @@ export async function GET(
   return NextResponse.json({
     challenge: {
       id: challenge.id,
+      challenger_id: challenge.challenger_id,
       challenger,
       score: challenge.score,
       total: challenge.total,

@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
+import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
 import { Button, Badge, Skeleton } from '@chi-digo/design-system';
 import styles from './LeaderboardPage.module.css';
@@ -18,6 +18,7 @@ interface Completion {
 
 interface ChallengeData {
   id: string;
+  challenger_id: string;
   challenger: { display_name: string | null; avatar_url: string | null; score: number; time_taken_ms: number | null };
   score: number;
   total: number;
@@ -45,6 +46,7 @@ function formatTime(ms: number): string {
 
 export function LeaderboardPage({ code }: { code: string }) {
   const t = useTranslations();
+  const { user } = useAuth();
   const [challenge, setChallenge] = useState<ChallengeData | null>(null);
   const [completions, setCompletions] = useState<Completion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -110,7 +112,19 @@ export function LeaderboardPage({ code }: { code: string }) {
       <main className={styles.main}>
         <div className={styles.card}>
           <div className={styles.header}>
-            <h1 className={styles.title}>{t.challenge?.your_challenge ?? 'Your Challenge'}</h1>
+            {challenge.challenger.avatar_url && (
+              <img
+                src={challenge.challenger.avatar_url}
+                alt=""
+                className={styles.challengerAvatar}
+              />
+            )}
+            <h1 className={styles.title}>
+              {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace(
+                '{name}',
+                shortName(challenge.challenger.display_name ?? 'Mtu wa Chidigo'),
+              )}
+            </h1>
             <div className={styles.scoreBadge}>
               <span className={styles.scoreNumber}>{challenge.score}</span>
               <span className={styles.scoreTotal}>/{challenge.total}</span>
@@ -191,9 +205,6 @@ export function LeaderboardPage({ code }: { code: string }) {
             })()}
           </div>
 
-          <Link href="/profile?tab=challenges" className={styles.backLink}>
-            {t.profile?.back_to_profile ?? 'Back to profile'}
-          </Link>
         </div>
       </main>
     </div>

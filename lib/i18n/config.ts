@@ -336,6 +336,7 @@ export interface Messages {
     submit_failed: string;
     expired_label: string;
     your_challenge: string;
+    challenge_title: string;
     share_button: string;
     leaderboard: string;
     participants: string;

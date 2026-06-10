@@ -130,8 +130,15 @@ function reducer(state: Phase, action: Action): Phase {
   }
 }
 
-function firstName(name: string): string {
-  return name.split(/\s+/)[0];
+function capitalize(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function shortName(fullName: string): string {
+  const parts = fullName.trim().split(/\s+/);
+  if (parts.length <= 1) return capitalize(fullName);
+  const last = parts[parts.length - 1];
+  return `${capitalize(parts[0])} ${last[0].toUpperCase()}.`;
 }
 
 function formatTime(ms: number): string {
@@ -357,7 +364,7 @@ export function ChallengePage({ code }: { code: string }) {
     );
   } else if (state.type === 'landing') {
     const meta = state.meta;
-    const challengerName = firstName(meta.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -420,7 +427,7 @@ export function ChallengePage({ code }: { code: string }) {
     const qText = currentQ.question_text[lk];
     const opts = currentQ.options[lk];
     const expText = currentQ.explanation?.[lk] ?? '';
-    const challengerName = firstName(state.meta.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(state.meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -531,7 +538,7 @@ export function ChallengePage({ code }: { code: string }) {
       </div>
     );
   } else if (state.type === 'results') {
-    const challengerName = firstName(state.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(state.challenger.display_name ?? 'Mtu wa Chidigo');
     const iWon = state.score > state.challenger.score;
     const isDraw = state.score === state.challenger.score;
 

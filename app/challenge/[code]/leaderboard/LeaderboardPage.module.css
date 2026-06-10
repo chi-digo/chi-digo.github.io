@@ -37,6 +37,13 @@
   margin: 0;
 }
 
+.challengerAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+}
+
 .scoreBadge {
   display: flex;
   align-items: baseline;
@@ -150,16 +157,3 @@
   padding: var(--space-8) 0;
 }
 
-.backLink {
-  display: block;
-  text-align: center;
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-kaya-indigo);
-  text-decoration: none;
-  padding-top: var(--space-2);
-}
-
-.backLink:hover {
-  text-decoration: underline;
-}
