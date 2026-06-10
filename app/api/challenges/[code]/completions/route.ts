@@ -21,7 +21,7 @@ export async function GET(
 
   const { data: challenge, error } = await supabase
     .from('challenges')
-    .select('id, challenger_id, score, total, created_at')
+    .select('id, challenger_id, score, total, time_taken_ms, created_at')
     .eq('short_code', code)
     .single();
 
@@ -29,12 +29,12 @@ export async function GET(
     return NextResponse.json({ error: 'Challenge not found' }, { status: 404 });
   }
 
-  let challenger = { display_name: null as string | null, avatar_url: null as string | null, score: challenge.score };
+  let challenger = { display_name: null as string | null, avatar_url: null as string | null, score: challenge.score, time_taken_ms: challenge.time_taken_ms as number | null };
 
   if (challenge.challenger_id) {
     const service = createServiceClient();
     const identity = await resolveChallengerIdentity(service, challenge.challenger_id);
-    challenger = { ...identity, score: challenge.score };
+    challenger = { ...identity, score: challenge.score, time_taken_ms: challenge.time_taken_ms };
   }
 
   const url = new URL(request.url);

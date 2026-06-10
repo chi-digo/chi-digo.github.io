@@ -338,6 +338,8 @@ export interface Messages {
     your_challenge: string;
     share_button: string;
     leaderboard: string;
+    participants: string;
+    challenger_label: string;
     no_responses: string;
   };
   social: {
