@@ -189,7 +189,7 @@
     "signup_prompt": "Sign in to save your results and challenge others",
     "share_competitive": "I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}",
     "share_collaborative": "Come take this Digo quiz with me! {link}",
-    "explainer": "Chidigo is a free app to learn and celebrate the Digo language",
+    "explainer": "Chidigo is a free app to learn and celebrate the Digo language, history and culture",
     "categories_label": "{vocabulary} vocabulary, {proverbs} proverbs, {riddles} riddles",
     "people_took": "{n} people have taken this challenge",
     "expired": "This challenge has expired",

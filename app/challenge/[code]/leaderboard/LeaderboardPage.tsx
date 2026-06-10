@@ -111,33 +111,34 @@ export function LeaderboardPage({ code }: { code: string }) {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.card}>
-          <div className={styles.header}>
-            {challenge.challenger.avatar_url && (
-              <img
-                src={challenge.challenger.avatar_url}
-                alt=""
-                className={styles.challengerAvatar}
-              />
-            )}
-            <h1 className={styles.title}>
-              {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace(
-                '{name}',
-                shortName(challenge.challenger.display_name ?? 'Mtu wa Chidigo'),
+          <div className={styles.heroSection}>
+            <div className={styles.header}>
+              {challenge.challenger.avatar_url && (
+                <img
+                  src={challenge.challenger.avatar_url}
+                  alt=""
+                  className={styles.challengerAvatar}
+                />
               )}
-            </h1>
-            <div className={styles.scoreBadge}>
-              <span className={styles.scoreNumber}>{challenge.score}</span>
-              <span className={styles.scoreTotal}>/{challenge.total}</span>
+              <h1 className={styles.title}>
+                {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace(
+                  '{name}',
+                  shortName(challenge.challenger.display_name ?? 'Mtu wa Chidigo'),
+                )}
+              </h1>
+              <div className={styles.scoreBadge}>
+                <span className={styles.scoreNumber}>{challenge.score}</span>
+                <span className={styles.scoreTotal}>/{challenge.total}</span>
+              </div>
+              <p className={styles.date}>
+                {new Date(challenge.created_at).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
+              </p>
+              {Date.now() - new Date(challenge.created_at).getTime() > 7 * 24 * 60 * 60 * 1000 && (
+                <Badge>{t.challenge?.expired_label ?? 'Expired'}</Badge>
+              )}
             </div>
-            <p className={styles.date}>
-              {new Date(challenge.created_at).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
-            </p>
-            {Date.now() - new Date(challenge.created_at).getTime() > 7 * 24 * 60 * 60 * 1000 && (
-              <Badge>{t.challenge?.expired_label ?? 'Expired'}</Badge>
-            )}
-          </div>
 
-          <div className={styles.shareRow}>
+            <div className={styles.shareRow}>
             <Button
               onClick={() => {
                 const baseUrl = window.location.origin;
@@ -156,6 +157,7 @@ export function LeaderboardPage({ code }: { code: string }) {
             >
               {t.challenge?.share_button ?? 'Share Challenge'}
             </Button>
+            </div>
           </div>
 
           <div className={styles.leaderboardSection}>
@@ -188,11 +190,20 @@ export function LeaderboardPage({ code }: { code: string }) {
                   <ol className={styles.list}>
                     {allParticipants.map((p, i) => (
                       <li key={p.id} className={styles.row}>
-                        <span className={styles.rank}>{i + 1}</span>
+                        <span className={styles.rank}>
+                          {i <= 2 ? (
+                            <svg aria-label={['Winner', '2nd place', '3rd place'][i]} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={['var(--color-mnazi-gold)', '#A0A0A0', '#CD7F32'][i]} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                              <path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                              <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                              <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                            </svg>
+                          ) : (i + 1)}
+                        </span>
                         <span className={styles.name}>
                           {shortName(p.display_name)}
-                          {p.isChallenger && <Badge>{t.challenge?.challenger_label ?? 'Challenger'}</Badge>}
                         </span>
+                        {p.isChallenger && <Badge>{t.challenge?.challenger_label ?? 'Challenger'}</Badge>}
                         <span className={styles.score}>{p.score}/{challenge.total}</span>
                         {p.time_taken_ms != null && (
                           <span className={styles.time}>{formatTime(p.time_taken_ms)}</span>

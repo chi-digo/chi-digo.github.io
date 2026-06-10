@@ -378,13 +378,12 @@ export function ChallengePage({ code }: { code: string }) {
             <h1 className={styles.challengerName}>
               {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace('{name}', challengerName)}
             </h1>
+            <div className={styles.scoreBadge}>
+              <span className={styles.scoreNumber}>{meta.score}</span>
+              <span className={styles.scoreTotal}>/{meta.total}</span>
+            </div>
+            <p className={styles.scoreBeatLabel}>{t.challenge?.score_to_beat ?? 'Score to beat'}</p>
           </div>
-
-          <div className={styles.scoreBadge}>
-            <span className={styles.scoreNumber}>{meta.score}</span>
-            <span className={styles.scoreTotal}>/{meta.total}</span>
-          </div>
-          <p className={styles.scoreBeatLabel}>{t.challenge?.score_to_beat ?? 'Score to beat'}</p>
 
           {meta.category_breakdown && (
             <div className={styles.categoryTags}>
