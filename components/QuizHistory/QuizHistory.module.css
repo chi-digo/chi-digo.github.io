@@ -72,15 +72,15 @@
   font-size: 0.95rem;
 }
 
-.roundMeta {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-}
-
 .roundDate {
   font-size: 0.8rem;
   color: var(--fg-muted);
+}
+
+.roundEnd {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 .roundArrow {

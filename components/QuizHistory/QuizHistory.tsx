@@ -16,6 +16,7 @@ interface QuizRound {
   category_breakdown: Record<string, { correct: number; total: number }> | null;
   type?: 'quiz' | 'challenge';
   short_code?: string | null;
+  spawned_challenge?: string | null;
 }
 
 function QuizSkeleton() {
@@ -102,9 +103,12 @@ export function QuizHistory() {
       <ul className={styles.roundList}>
         {rounds.map((round) => {
           const isChallenge = round.type === 'challenge';
+          const hasSpawnedChallenge = !isChallenge && !!round.spawned_challenge;
           const href = isChallenge && round.short_code
             ? `/challenge/${round.short_code}/leaderboard`
-            : `/profile/quiz/${round.id}`;
+            : hasSpawnedChallenge
+              ? `/challenge/${round.spawned_challenge}/leaderboard`
+              : `/profile/quiz/${round.id}`;
 
           return (
             <li key={round.id} className={styles.roundItem}>
@@ -117,18 +121,19 @@ export function QuizHistory() {
                   <span className={styles.roundScore}>
                     {round.score}/{round.total}
                   </span>
-                  <span className={styles.roundMeta}>
-                    <span className={styles.roundDate}>
-                      {new Date(round.played_at).toLocaleDateString(undefined, {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric',
-                      })}
-                    </span>
-                    {isChallenge && <Badge>{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
+                  <span className={styles.roundDate}>
+                    {new Date(round.played_at).toLocaleDateString(undefined, {
+                      month: 'short',
+                      day: 'numeric',
+                      year: 'numeric',
+                    })}
                   </span>
                 </div>
-                <span className={styles.roundArrow} aria-hidden="true">›</span>
+                <span className={styles.roundEnd}>
+                  {isChallenge && <Badge>{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
+                  {hasSpawnedChallenge && <Badge variant="editorial">{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
+                  <span className={styles.roundArrow} aria-hidden="true">›</span>
+                </span>
               </Link>
             </li>
           );

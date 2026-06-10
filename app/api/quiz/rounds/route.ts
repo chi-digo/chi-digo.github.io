@@ -15,7 +15,7 @@ export async function GET() {
   const [roundsResult, completionsResult] = await Promise.all([
     supabase
       .from('quiz_rounds')
-      .select('*')
+      .select('*, challenges(short_code)')
       .eq('user_id', user.id)
       .order('played_at', { ascending: false })
       .limit(50),
@@ -31,11 +31,19 @@ export async function GET() {
     return NextResponse.json({ error: roundsResult.error.message }, { status: 500 });
   }
 
-  const rounds = (roundsResult.data ?? []).map((r) => ({
-    ...r,
-    played_at: r.played_at as string,
-    type: 'quiz' as const,
-  }));
+  const rounds = (roundsResult.data ?? []).map((r) => {
+    const challenge = (r as Record<string, unknown>).challenges as
+      | { short_code: string }[]
+      | null;
+    const challengeCode = challenge?.[0]?.short_code ?? null;
+    const { challenges: _, ...rest } = r as Record<string, unknown>;
+    return {
+      ...rest,
+      played_at: r.played_at as string,
+      type: 'quiz' as const,
+      ...(challengeCode ? { spawned_challenge: challengeCode } : {}),
+    };
+  });
   const completions = (completionsResult.data ?? []).map((c) => {
     const joined = c.challenges as unknown as { short_code: string } | null;
     return {
