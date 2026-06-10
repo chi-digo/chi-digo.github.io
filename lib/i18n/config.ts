@@ -308,6 +308,7 @@ export interface Messages {
     draw: string;
     lost: string;
     see_questions: string;
+    view_leaderboard: string;
     completers: string;
     signup_prompt: string;
     share_competitive: string;
@@ -336,8 +337,11 @@ export interface Messages {
     submit_failed: string;
     expired_label: string;
     your_challenge: string;
+    challenge_title: string;
     share_button: string;
     leaderboard: string;
+    participants: string;
+    challenger_label: string;
     no_responses: string;
   };
   social: {
@@ -423,6 +427,7 @@ export interface Messages {
     no_favourites_hint: string;
     no_quiz_history: string;
     no_quiz_history_hint: string;
+    challenge_badge: string;
     total_rounds: string;
     average_score: string;
     best_score: string;

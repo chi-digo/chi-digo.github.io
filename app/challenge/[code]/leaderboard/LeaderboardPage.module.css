@@ -21,6 +21,34 @@
   gap: var(--space-4);
 }
 
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  margin: calc(-1 * var(--space-6));
+  margin-bottom: 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-bottom: var(--border-width-thin) solid var(--border-default);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-kaya-indigo) 0px,
+    var(--color-kaya-indigo) 2px,
+    transparent 2px,
+    transparent 8px
+  );
+  opacity: 0.06;
+  pointer-events: none;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -35,6 +63,13 @@
   font-weight: 600;
   color: var(--fg-heading);
   margin: 0;
+}
+
+.challengerAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
 }
 
 .scoreBadge {
@@ -71,7 +106,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
-  border-top: var(--border-width-thin) solid var(--border-default);
   padding-top: var(--space-4);
 }
 
@@ -113,17 +147,22 @@
 }
 
 .rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 0.85rem;
   color: var(--fg-muted);
   min-width: 1.5rem;
-  text-align: center;
 }
 
 .name {
   flex: 1;
   font-size: 0.95rem;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 .score {
@@ -147,16 +186,3 @@
   padding: var(--space-8) 0;
 }
 
-.backLink {
-  display: block;
-  text-align: center;
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-kaya-indigo);
-  text-decoration: none;
-  padding-top: var(--space-2);
-}
-
-.backLink:hover {
-  text-decoration: underline;
-}

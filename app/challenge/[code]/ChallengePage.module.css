@@ -54,7 +54,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: stretch;
   gap: var(--space-3);
+  padding: var(--space-6);
+  margin: calc(-1 * var(--space-6));
+  margin-bottom: 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-bottom: var(--border-width-thin) solid var(--border-default);
+  position: relative;
+  overflow: hidden;
+}
+
+.challengerInfo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-kaya-indigo) 0px,
+    var(--color-kaya-indigo) 2px,
+    transparent 2px,
+    transparent 8px
+  );
+  opacity: 0.06;
+  pointer-events: none;
 }
 
 .avatar {

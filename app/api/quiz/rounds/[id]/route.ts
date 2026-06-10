@@ -15,7 +15,7 @@ export async function GET(
 
   const { data: round, error: roundError } = await supabase
     .from('quiz_rounds')
-    .select('*')
+    .select('*, challenges(short_code)')
     .eq('id', id)
     .eq('user_id', user.id)
     .single();
@@ -35,5 +35,11 @@ export async function GET(
     return NextResponse.json({ error: answersError.message }, { status: 500 });
   }
 
-  return NextResponse.json({ ...round, answers });
+  const challenge = (round as Record<string, unknown>).challenges as
+    | { short_code: string }[]
+    | null;
+  const challengeCode = challenge?.[0]?.short_code ?? null;
+  const { challenges: _, ...roundData } = round as Record<string, unknown>;
+
+  return NextResponse.json({ ...roundData, answers, challenge_code: challengeCode });
 }

@@ -15,6 +15,7 @@ import {
   EmptyState,
 } from '@chi-digo/design-system';
 import type { ChallengeQuestionFull, CompletionAnswer } from '@/lib/challenge/types';
+import { getAnonymousId } from '@/lib/anonymous-id';
 import styles from './ChallengePage.module.css';
 
 // ── Types ──
@@ -129,18 +130,15 @@ function reducer(state: Phase, action: Action): Phase {
   }
 }
 
-function getAnonymousId(): string {
-  if (typeof window === 'undefined') return '';
-  let id = localStorage.getItem('chidigo-anonymous-id');
-  if (!id) {
-    id = crypto.randomUUID();
-    localStorage.setItem('chidigo-anonymous-id', id);
-  }
-  return id;
+function capitalize(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-function firstName(name: string): string {
-  return name.split(/\s+/)[0];
+function shortName(fullName: string): string {
+  const parts = fullName.trim().split(/\s+/);
+  if (parts.length <= 1) return capitalize(fullName);
+  const last = parts[parts.length - 1];
+  return `${capitalize(parts[0])} ${last[0].toUpperCase()}.`;
 }
 
 function formatTime(ms: number): string {
@@ -189,14 +187,16 @@ export function ChallengePage({ code }: { code: string }) {
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`/api/challenges/${code}`);
+        const anonId = !user ? getAnonymousId() : '';
+        const qs = anonId ? `?anonymous_id=${encodeURIComponent(anonId)}` : '';
+        const res = await fetch(`/api/challenges/${code}${qs}`);
         if (!res.ok) {
           dispatch({ type: 'ERROR', message: res.status === 404 ? (t.challenge?.not_found ?? 'Challenge not found') : 'Failed to load challenge' });
           return;
         }
         const meta = await res.json();
         if (!cancelled) {
-          if (meta.is_owner) {
+          if (meta.is_owner || meta.has_completed) {
             router.replace(`/challenge/${code}/leaderboard`);
             return;
           }
@@ -364,7 +364,7 @@ export function ChallengePage({ code }: { code: string }) {
     );
   } else if (state.type === 'landing') {
     const meta = state.meta;
-    const challengerName = firstName(meta.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -378,13 +378,12 @@ export function ChallengePage({ code }: { code: string }) {
             <h1 className={styles.challengerName}>
               {(t.challenge?.challenge_by ?? 'Challenge by {name}').replace('{name}', challengerName)}
             </h1>
+            <div className={styles.scoreBadge}>
+              <span className={styles.scoreNumber}>{meta.score}</span>
+              <span className={styles.scoreTotal}>/{meta.total}</span>
+            </div>
+            <p className={styles.scoreBeatLabel}>{t.challenge?.score_to_beat ?? 'Score to beat'}</p>
           </div>
-
-          <div className={styles.scoreBadge}>
-            <span className={styles.scoreNumber}>{meta.score}</span>
-            <span className={styles.scoreTotal}>/{meta.total}</span>
-          </div>
-          <p className={styles.scoreBeatLabel}>{t.challenge?.score_to_beat ?? 'Score to beat'}</p>
 
           {meta.category_breakdown && (
             <div className={styles.categoryTags}>
@@ -427,7 +426,7 @@ export function ChallengePage({ code }: { code: string }) {
     const qText = currentQ.question_text[lk];
     const opts = currentQ.options[lk];
     const expText = currentQ.explanation?.[lk] ?? '';
-    const challengerName = firstName(state.meta.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(state.meta.challenger.display_name ?? 'Mtu wa Chidigo');
 
     content = (
       <div className={styles.container}>
@@ -538,7 +537,7 @@ export function ChallengePage({ code }: { code: string }) {
       </div>
     );
   } else if (state.type === 'results') {
-    const challengerName = firstName(state.challenger.display_name ?? 'Mtu wa Chidigo');
+    const challengerName = shortName(state.challenger.display_name ?? 'Mtu wa Chidigo');
     const iWon = state.score > state.challenger.score;
     const isDraw = state.score === state.challenger.score;
 

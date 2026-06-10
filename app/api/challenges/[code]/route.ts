@@ -5,11 +5,15 @@ import { rateLimit } from '@/lib/challenge/rate-limit';
 import { resolveChallengerIdentity } from '@/lib/challenge/resolve-identity';
 import { headers } from 'next/headers';
 
+const ANON_ID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
 export async function GET(
-  _request: Request,
+  request: Request,
   { params }: { params: Promise<{ code: string }> },
 ) {
   const { code } = await params;
+  const url = new URL(request.url);
+  const anonymousId = url.searchParams.get('anonymous_id');
   const headersList = await headers();
   const ip = headersList.get('x-forwarded-for') ?? 'unknown';
 
@@ -53,6 +57,24 @@ export async function GET(
     .select('*', { count: 'exact', head: true })
     .eq('challenge_id', challenge.id);
 
+  let hasCompleted = false;
+  if (user) {
+    const { count: myCount } = await supabase
+      .from('challenge_completions')
+      .select('*', { count: 'exact', head: true })
+      .eq('challenge_id', challenge.id)
+      .eq('user_id', user.id);
+    hasCompleted = (myCount ?? 0) > 0;
+  } else if (anonymousId && ANON_ID_RE.test(anonymousId)) {
+    const service = createServiceClient();
+    const { count: anonCount } = await service
+      .from('challenge_completions')
+      .select('*', { count: 'exact', head: true })
+      .eq('challenge_id', challenge.id)
+      .eq('anonymous_id', anonymousId);
+    hasCompleted = (anonCount ?? 0) > 0;
+  }
+
   return NextResponse.json({
     id: challenge.id,
     short_code: challenge.short_code,
@@ -65,5 +87,6 @@ export async function GET(
     created_at: challenge.created_at,
     completions_count: count ?? 0,
     is_owner: user?.id === challenge.challenger_id,
+    has_completed: hasCompleted,
   });
 }
