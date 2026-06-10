@@ -32,9 +32,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     });
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (_event, session) => {
+      (event, session) => {
         setSession(session);
         setUser(session?.user ?? null);
+
+        if (event === 'SIGNED_IN' && session?.user) {
+          const anonId = localStorage.getItem('chidigo-anonymous-id');
+          if (anonId) {
+            fetch('/api/challenges/claim', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ anonymous_id: anonId }),
+            }).catch(() => {});
+          }
+        }
       },
     );
 

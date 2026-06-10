@@ -25,11 +25,15 @@ interface ChallengeData {
   completions_count: number;
 }
 
+function capitalize(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
 function shortName(fullName: string): string {
   const parts = fullName.trim().split(/\s+/);
-  if (parts.length <= 1) return fullName;
+  if (parts.length <= 1) return capitalize(fullName);
   const last = parts[parts.length - 1];
-  return `${parts[0]} ${last[0].toUpperCase()}.`;
+  return `${capitalize(parts[0])} ${last[0].toUpperCase()}.`;
 }
 
 function formatTime(ms: number): string {
@@ -169,7 +173,7 @@ export function LeaderboardPage({ code }: { code: string }) {
                   </h2>
                   <ol className={styles.list}>
                     {allParticipants.map((p, i) => (
-                      <li key={p.id} className={`${styles.row} ${p.isChallenger ? styles.challengerRow : ''}`}>
+                      <li key={p.id} className={styles.row}>
                         <span className={styles.rank}>{i + 1}</span>
                         <span className={styles.name}>
                           {shortName(p.display_name)}

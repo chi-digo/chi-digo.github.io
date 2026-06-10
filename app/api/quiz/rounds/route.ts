@@ -9,18 +9,49 @@ export async function GET() {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const { data, error } = await supabase
-    .from('quiz_rounds')
-    .select('*')
-    .eq('user_id', user.id)
-    .order('played_at', { ascending: false })
-    .limit(50);
+  const [roundsResult, completionsResult] = await Promise.all([
+    supabase
+      .from('quiz_rounds')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('played_at', { ascending: false })
+      .limit(50),
+    supabase
+      .from('challenge_completions')
+      .select('id, challenge_id, score, total, time_taken_ms, completed_at, challenges(short_code)')
+      .eq('user_id', user.id)
+      .order('completed_at', { ascending: false })
+      .limit(50),
+  ]);
 
-  if (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  if (roundsResult.error) {
+    return NextResponse.json({ error: roundsResult.error.message }, { status: 500 });
   }
 
-  return NextResponse.json(data);
+  const rounds = (roundsResult.data ?? []).map((r) => ({
+    ...r,
+    played_at: r.played_at as string,
+    type: 'quiz' as const,
+  }));
+  const completions = (completionsResult.data ?? []).map((c) => {
+    const joined = c.challenges as unknown as { short_code: string } | null;
+    return {
+      id: c.id,
+      challenge_id: c.challenge_id,
+      short_code: joined?.short_code ?? null,
+      score: c.score,
+      total: c.total,
+      time_taken_ms: c.time_taken_ms,
+      played_at: c.completed_at,
+      type: 'challenge' as const,
+    };
+  });
+
+  const merged = [...rounds, ...completions].sort(
+    (a, b) => new Date(String(b.played_at)).getTime() - new Date(String(a.played_at)).getTime(),
+  ).slice(0, 50);
+
+  return NextResponse.json(merged);
 }
 
 export async function POST(request: Request) {

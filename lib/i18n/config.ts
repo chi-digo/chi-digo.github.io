@@ -425,6 +425,7 @@ export interface Messages {
     no_favourites_hint: string;
     no_quiz_history: string;
     no_quiz_history_hint: string;
+    challenge_badge: string;
     total_rounds: string;
     average_score: string;
     best_score: string;

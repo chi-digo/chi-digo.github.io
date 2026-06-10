@@ -3,7 +3,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
-import { StatCard, Sparkline, EmptyState, Skeleton } from '@chi-digo/design-system';
+import { StatCard, Sparkline, EmptyState, Skeleton, Badge } from '@chi-digo/design-system';
 import { track } from '@/lib/analytics/track';
 import styles from './QuizHistory.module.css';
 
@@ -14,6 +14,8 @@ interface QuizRound {
   total: number;
   time_taken_ms: number | null;
   category_breakdown: Record<string, { correct: number; total: number }> | null;
+  type?: 'quiz' | 'challenge';
+  short_code?: string | null;
 }
 
 function QuizSkeleton() {
@@ -98,29 +100,39 @@ export function QuizHistory() {
       )}
 
       <ul className={styles.roundList}>
-        {rounds.map((round) => (
-          <li key={round.id} className={styles.roundItem}>
-            <Link
-              href={`/profile/quiz/${round.id}`}
-              className={styles.roundLink}
-              onClick={() => track('orientation', 'quiz_history', 'round_click', { round_id: round.id, score: round.score })}
-            >
-              <div className={styles.roundInfo}>
-                <span className={styles.roundScore}>
-                  {round.score}/{round.total}
-                </span>
-                <span className={styles.roundDate}>
-                  {new Date(round.played_at).toLocaleDateString(undefined, {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric',
-                  })}
-                </span>
-              </div>
-              <span className={styles.roundArrow} aria-hidden="true">›</span>
-            </Link>
-          </li>
-        ))}
+        {rounds.map((round) => {
+          const isChallenge = round.type === 'challenge';
+          const href = isChallenge && round.short_code
+            ? `/challenge/${round.short_code}/leaderboard`
+            : `/profile/quiz/${round.id}`;
+
+          return (
+            <li key={round.id} className={styles.roundItem}>
+              <Link
+                href={href}
+                className={styles.roundLink}
+                onClick={() => track('orientation', 'quiz_history', 'round_click', { round_id: round.id, score: round.score, type: round.type ?? 'quiz' })}
+              >
+                <div className={styles.roundInfo}>
+                  <span className={styles.roundScore}>
+                    {round.score}/{round.total}
+                  </span>
+                  <span className={styles.roundMeta}>
+                    <span className={styles.roundDate}>
+                      {new Date(round.played_at).toLocaleDateString(undefined, {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                      })}
+                    </span>
+                    {isChallenge && <Badge>{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
+                  </span>
+                </div>
+                <span className={styles.roundArrow} aria-hidden="true">›</span>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

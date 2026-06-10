@@ -189,14 +189,16 @@ export function ChallengePage({ code }: { code: string }) {
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`/api/challenges/${code}`);
+        const anonId = !user ? getAnonymousId() : '';
+        const qs = anonId ? `?anonymous_id=${encodeURIComponent(anonId)}` : '';
+        const res = await fetch(`/api/challenges/${code}${qs}`);
         if (!res.ok) {
           dispatch({ type: 'ERROR', message: res.status === 404 ? (t.challenge?.not_found ?? 'Challenge not found') : 'Failed to load challenge' });
           return;
         }
         const meta = await res.json();
         if (!cancelled) {
-          if (meta.is_owner) {
+          if (meta.is_owner || meta.has_completed) {
             router.replace(`/challenge/${code}/leaderboard`);
             return;
           }
