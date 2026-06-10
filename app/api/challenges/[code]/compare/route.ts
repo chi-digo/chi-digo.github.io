@@ -45,7 +45,7 @@ export async function GET(
 
   const { data: completion } = await service
     .from('challenge_completions')
-    .select('id, display_name, score, time_taken_ms, answers')
+    .select('id, display_name, score, time_taken_ms, completed_at, answers')
     .eq('id', completionId)
     .eq('challenge_id', challenge.id)
     .single();
@@ -88,6 +88,7 @@ export async function GET(
     questions: questionsWithAnswers,
     player_a: {
       display_name: challengerIdentity.display_name,
+      avatar_url: challengerIdentity.avatar_url,
       answers: (challengerAnswersRaw ?? []).map((a) => {
         const idx = Number(a.selected_option_id);
         const answer = questionsAnswers[a.question_id];
@@ -110,6 +111,7 @@ export async function GET(
       })),
       score: completion.score,
       time_taken_ms: completion.time_taken_ms,
+      completed_at: completion.completed_at,
     },
   });
 }

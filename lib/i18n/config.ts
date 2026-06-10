@@ -308,6 +308,7 @@ export interface Messages {
     draw: string;
     lost: string;
     see_questions: string;
+    view_leaderboard: string;
     completers: string;
     signup_prompt: string;
     share_competitive: string;

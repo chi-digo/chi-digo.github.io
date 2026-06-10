@@ -185,6 +185,7 @@
     "draw": "It's a draw!",
     "lost": "{name} won!",
     "see_questions": "See all questions",
+    "view_leaderboard": "View leaderboard",
     "completers": "{n} people took this challenge",
     "signup_prompt": "Sign in to save your results and challenge others",
     "share_competitive": "I scored {n}/{total} on the Chidigo quiz. Think you can beat me? {link}",

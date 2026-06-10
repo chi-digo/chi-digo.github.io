@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useTranslations } from '@/lib/i18n/context';
 import { Skeleton, Badge } from '@chi-digo/design-system';
 import styles from './QuizRoundDetail.module.css';
 
@@ -24,9 +26,11 @@ interface RoundWithAnswers {
   total: number;
   time_taken_ms: number | null;
   answers: QuizAnswer[];
+  challenge_code: string | null;
 }
 
 export function QuizRoundDetail({ roundId }: { roundId: string }) {
+  const t = useTranslations();
   const [round, setRound] = useState<RoundWithAnswers | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -86,6 +90,11 @@ export function QuizRoundDetail({ roundId }: { roundId: string }) {
             year: 'numeric',
           })}
         </p>
+        {round.challenge_code && (
+          <Link href={`/challenge/${round.challenge_code}/leaderboard`} className={styles.leaderboardLink}>
+            {t.challenge?.view_leaderboard ?? 'View leaderboard'} →
+          </Link>
+        )}
       </div>
 
       <ol className={styles.questionList}>

@@ -105,10 +105,8 @@ export function QuizHistory() {
           const isChallenge = round.type === 'challenge';
           const hasSpawnedChallenge = !isChallenge && !!round.spawned_challenge;
           const href = isChallenge && round.short_code
-            ? `/challenge/${round.short_code}/leaderboard`
-            : hasSpawnedChallenge
-              ? `/challenge/${round.spawned_challenge}/leaderboard`
-              : `/profile/quiz/${round.id}`;
+            ? `/profile/challenge/${round.short_code}/${round.id}`
+            : `/profile/quiz/${round.id}`;
 
           return (
             <li key={round.id} className={styles.roundItem}>

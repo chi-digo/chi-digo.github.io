@@ -57,18 +57,59 @@
   text-align: center;
 }
 
-.score {
+.scoreCompare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+}
+
+.playerScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+}
+
+.avatarFallback {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface-muted);
+  color: var(--fg-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+}
+
+.playerValue {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 700;
   color: var(--fg-heading);
-  margin: 0;
+}
+
+.vs {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--fg-muted);
 }
 
 .date {
   font-size: 0.85rem;
   color: var(--fg-muted);
-  margin: var(--space-1) 0 0;
+  margin: var(--space-2) 0 0;
 }
 
 .leaderboardLink {

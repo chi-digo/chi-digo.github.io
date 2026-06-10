@@ -185,6 +185,7 @@
     "draw": "Sare!",
     "lost": "{name} ameshinda!",
     "see_questions": "Ona maswali yote",
+    "view_leaderboard": "Ona orodha ya washindani",
     "completers": "{n} watu wameshindana",
     "signup_prompt": "Ingia uhifadhi matokeo yako na kualika wengine",
     "share_competitive": "Nimepata {n}/{total} kwenye Chidigo quiz. Unaweza kunishinda? {link}",
