@@ -437,6 +437,8 @@ export interface Messages {
     no_challenges_hint: string;
     challenge_completer_one: string;
     challenge_completers: string;
+    challenge_sent: string;
+    challenge_received: string;
     back_to_profile: string;
     manage_title: string;
     export_title: string;

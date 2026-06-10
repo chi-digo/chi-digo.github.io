@@ -128,8 +128,8 @@ export function QuizHistory() {
                   </span>
                 </div>
                 <span className={styles.roundEnd}>
-                  {isChallenge && <Badge>{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
-                  {hasSpawnedChallenge && <Badge variant="editorial">{t.profile?.challenge_badge ?? 'Challenge'}</Badge>}
+                  {isChallenge && <Badge>{t.profile?.challenge_received ?? 'Challenge received'}</Badge>}
+                  {hasSpawnedChallenge && <Badge variant="editorial">{t.profile?.challenge_sent ?? 'Challenge sent'}</Badge>}
                   <span className={styles.roundArrow} aria-hidden="true">›</span>
                 </span>
               </Link>

@@ -89,8 +89,8 @@ export function ChallengeHistory() {
                   </span>
                   <span className={styles.completions}>
                     {c.completions_count === 1
-                      ? (t.profile?.challenge_completer_one ?? '1 response')
-                      : (t.profile?.challenge_completers ?? '{n} responses').replace('{n}', String(c.completions_count))}
+                      ? (t.profile?.challenge_completer_one ?? '1 participant')
+                      : (t.profile?.challenge_completers ?? '{n} participants').replace('{n}', String(c.completions_count))}
                   </span>
                 </div>
               </div>
