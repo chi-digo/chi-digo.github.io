@@ -24,6 +24,7 @@ function entry(
         en: `${SITE_URL}${path}`,
         sw: `${SITE_URL}${localePath(path, 'sw')}`,
         dg: `${SITE_URL}${localePath(path, 'dg')}`,
+        'x-default': `${SITE_URL}${path}`,
       } as Record<string, string>,
     },
   };

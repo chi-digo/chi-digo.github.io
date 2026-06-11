@@ -44,6 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     ...base,
+    robots: { index: false, follow: false },
     openGraph: {
       ...base.openGraph,
       images: [`${baseUrl}/api/og/challenge/${code}`],
