@@ -31,7 +31,7 @@ function scoreEntry(entry: ContentIndexEntry, query: string, locale: Locale): nu
   const titleLocal = entry.title[locale]?.toLowerCase() ?? '';
   const titleEn = entry.title.en?.toLowerCase() ?? '';
   const titleSw = entry.title.sw?.toLowerCase() ?? '';
-  const titleDig = entry.title.dig?.toLowerCase() ?? '';
+  const titleDig = entry.title.dg?.toLowerCase() ?? '';
 
   if (titleLocal === q || titleEn === q || titleSw === q || titleDig === q) {
     score = 100;

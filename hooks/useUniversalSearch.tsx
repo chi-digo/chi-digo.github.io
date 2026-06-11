@@ -46,7 +46,7 @@ export function buildSearchGroups(
   if (results.words.length > 0) {
     groups.push({
       key: 'words',
-      label: locale === 'sw' ? 'Maneno' : locale === 'dig' ? 'Maneno' : 'Words',
+      label: locale === 'sw' ? 'Maneno' : locale === 'dg' ? 'Maneno' : 'Words',
       count: results.words.length,
       results: results.words.map((w) => ({
         id: `w-${w.id}`,
@@ -56,31 +56,31 @@ export function buildSearchGroups(
             <span style={{ fontWeight: 600, fontFamily: 'var(--font-display)' }}>{w.headword}</span>
             <span style={{ fontSize: '0.75rem', color: 'var(--fg-muted)', fontStyle: 'italic' }}>{w.pos}</span>
             <span style={{ fontSize: '0.8rem', color: 'var(--fg-default)' }}>
-              {locale === 'sw' ? w.equivalent_sw : locale === 'dig' ? w.equivalent_dg : w.equivalent}
+              {locale === 'sw' ? w.equivalent_sw : locale === 'dg' ? w.equivalent_dg : w.equivalent}
             </span>
           </div>
         ),
       })),
       seeAllHref: `/search?q=${encodeURIComponent(query)}&type=words`,
-      seeAllLabel: locale === 'sw' ? 'Angalia maneno yote →' : locale === 'dig' ? 'Lola maneno gosi →' : 'See all words →',
+      seeAllLabel: locale === 'sw' ? 'Angalia maneno yote →' : locale === 'dg' ? 'Lola maneno gosi →' : 'See all words →',
     });
   }
 
   if (results.proverbs.length > 0) {
     groups.push({
       key: 'proverbs',
-      label: locale === 'sw' ? 'Methali' : locale === 'dig' ? 'Ndarira' : 'Proverbs',
+      label: locale === 'sw' ? 'Methali' : locale === 'dg' ? 'Ndarira' : 'Proverbs',
       count: results.proverbs.length,
       results: results.proverbs.map((p) => ({
         id: `p-${p.id}`,
         href: `/language/proverbs/${p.slug}`,
         node: (
           <div>
-            <div style={{ fontWeight: 500, fontFamily: 'var(--font-display)', fontSize: '0.85rem' }} lang="dig">{p.digo}</div>
+            <div style={{ fontWeight: 500, fontFamily: 'var(--font-display)', fontSize: '0.85rem' }} lang="dg">{p.digo}</div>
             <div style={{ fontSize: '0.75rem', color: 'var(--fg-muted)' }}>
               {locale === 'sw'
                 ? (p.idiomatic_sw || p.literal_sw)
-                : locale === 'dig'
+                : locale === 'dg'
                   ? p.idiomatic_dg
                   : (p.idiomatic_en || p.literal_en)}
             </div>
@@ -88,14 +88,14 @@ export function buildSearchGroups(
         ),
       })),
       seeAllHref: `/search?q=${encodeURIComponent(query)}&type=proverbs`,
-      seeAllLabel: locale === 'sw' ? 'Angalia methali zote →' : locale === 'dig' ? 'Lola ndarira zosi →' : 'See all proverbs →',
+      seeAllLabel: locale === 'sw' ? 'Angalia methali zote →' : locale === 'dg' ? 'Lola ndarira zosi →' : 'See all proverbs →',
     });
   }
 
   if (results.articles.length > 0) {
     groups.push({
       key: 'articles',
-      label: locale === 'sw' ? 'Makala' : locale === 'dig' ? 'Makala' : 'Articles',
+      label: locale === 'sw' ? 'Makala' : locale === 'dg' ? 'Makala' : 'Articles',
       count: results.articles.length,
       results: results.articles.map((a) => ({
         id: `a-${a.slug}`,
@@ -110,7 +110,7 @@ export function buildSearchGroups(
         ),
       })),
       seeAllHref: `/search?q=${encodeURIComponent(query)}&type=articles`,
-      seeAllLabel: locale === 'sw' ? 'Angalia makala yote →' : locale === 'dig' ? 'Lola makala gosi →' : 'See all articles →',
+      seeAllLabel: locale === 'sw' ? 'Angalia makala yote →' : locale === 'dg' ? 'Lola makala gosi →' : 'See all articles →',
     });
   }
 

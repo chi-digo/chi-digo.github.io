@@ -31,7 +31,7 @@ export function LanguageIndex() {
           <p className={styles.eyebrow}>{t.language.eyebrow}</p>
           <h1 className={styles.heroTitle}>{t.language.title}</h1>
           <p className={styles.heroIntro}>{t.language.intro}</p>
-          <p className={styles.proverb} lang="dig">
+          <p className={styles.proverb} lang="dg">
             <em>{oralTraditionsDomain.proverb}</em>
           </p>
           <p className={styles.gloss}>{oralTraditionsDomain.proverbGloss}</p>

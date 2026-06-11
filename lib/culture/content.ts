@@ -27,12 +27,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Sacred Kayas",
       "sw": "Makaya Matakatifu",
-      "dig": "Makaya Matakatifu"
+      "dg": "Makaya Matakatifu"
     },
     "intro": {
       "en": "The kayas are the heart of Mijikenda civilisation. For centuries, these sacred forest clearings in the hills and ridges of the Kenya coast served as fortified settlements, spiritual sanctuaries, and…",
       "sw": "Makaya ni moyo wa ustaarabu wa Mijikenda. Kwa karne nyingi, viwanja hivi vya misitu mitakatifu katika milima na miinuko ya pwani ya Kenya vilitumika kama makazi yenye ngome, hifadhi za kiroho, na…",
-      "dig": "Makaya ni moyo wa ustaarabu wa Amijikenda. Kpwa karne nyinji, viwanja hivi vya misitu mitakatifu kpwa myango na miinuko ya ph'wani ya Kenya vilikala vinahumika dza makalo genye ngome, hifadhi za…"
+      "dg": "Makaya ni moyo wa ustaarabu wa Amijikenda. Kpwa karne nyinji, viwanja hivi vya misitu mitakatifu kpwa myango na miinuko ya ph'wani ya Kenya vilikala vinahumika dza makalo genye ngome, hifadhi za…"
     },
     "proverb": "Muhi mmwenga tauhenda tsaka",
     "proverbGloss": "One tree does not make a forest",
@@ -42,12 +42,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Kaya Governance",
           "sw": "Utawala wa Kaya",
-          "dig": "Utawala wa Kaya"
+          "dg": "Utawala wa Kaya"
         },
         "intro": {
           "en": "In the world of the kaya, authority is not inherited, elected, or appointed. It is earned — through a lifetime of service, through the progressive stages of the age-set system, through the literal and…",
           "sw": "Katika ulimwengu wa kaya, mamlaka hayarithi, hayachaguliwi, wala hayateuliwi. Yanapatikana — kupitia maisha ya huduma, kupitia hatua za maendeleo za mfumo wa rika, kupitia uwekezaji halisi na wa…",
-          "dig": "Kpwa ulimwengu wa kaya, mamlaka tagarihi, tagachaguliwa, wala tagateuliwa. Ganapatikana — kupitshi maisha ga huduma, kupitshi hatua za maendeleo za mfumo wa rika, kupitshi uwekezaji wa kpweli na wa…"
+          "dg": "Kpwa ulimwengu wa kaya, mamlaka tagarihi, tagachaguliwa, wala tagateuliwa. Ganapatikana — kupitshi maisha ga huduma, kupitshi hatua za maendeleo za mfumo wa rika, kupitshi uwekezaji wa kpweli na wa…"
         },
         "body": {
           "en": [
@@ -182,7 +182,7 @@ export const domains: CultureDomain[] =
               "text": "Changamoto ya kina zaidi ni ya kizazi. Idadi ya wazee walioingizwa inapungua kadri vijana wa Wadigo wanavyohamia Mombasa kwa kazi, kupitisha maisha ya mijini, na kupoteza uhusiano na mfumo wa kaya. Ngazi kumi na moja za daraja la Ngambi zinahitaji miongo ya kujitolea. Ikiwa mfereji wa vijana wanaoingizwa unakauka, muundo wa utawala uliodumisha makaya kwa karne nyingi utaondoka ndani — msitu unaweza kubaki, lakini taasisi iliyoupa maana itakuwa imekwisha."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mamlaka Ganago patikana, Si Ganago teuliwa"
@@ -255,12 +255,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Kaya Kinondo",
           "sw": "The Primary Digo Kaya",
-          "dig": "Kaya Kinondo"
+          "dg": "Kaya Kinondo"
         },
         "intro": {
           "en": "Kaya Kinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty…",
           "sw": "Kaya Kinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach.…",
-          "dig": "Kaya Kinondo iko kilomita thelathini na tsano kusini kpwa Mombasa, kipande cha msitu wa kare wa ph'wani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera ya njira ya utalii ya Diani…"
+          "dg": "Kaya Kinondo iko kilomita thelathini na tsano kusini kpwa Mombasa, kipande cha msitu wa kare wa ph'wani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera ya njira ya utalii ya Diani…"
         },
         "body": {
           "en": [
@@ -387,7 +387,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini mkakati huu una hatari. Utalii hubadilisha tabia ya mahali, hata unaposimamiwa kwa heshima. Usawa kati ya upatikanaji na utakatifu, kati ya uendelevu wa kiuchumi na uadilifu wa kiroho, ni ambao baraza la Ngambi linaendelea kunavigati kila wakati. Ni mvutano usio na suluhisho la kudumu — ni mazungumzo yanayoendelea tu, yanayoongozwa na wazee wanaojua kwamba kuishi wakati mwingine kunahitaji maelewano."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Hekta Thelathini Kahi ya Ph'wani na Milele"
@@ -456,12 +456,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Threats to the Kayas",
           "sw": "Hatari kwa Makaya",
-          "dig": "Hatari kpwa Makaya"
+          "dg": "Hatari kpwa Makaya"
         },
         "intro": {
           "en": "The sacred kayas have survived centuries of war, migration, and colonial disruption. What they may not survive is the twenty-first century. The threats converging on the Mijikenda kaya forests — and…",
           "sw": "Makaya matakatifu yamenusurika karne za vita, uhamisho, na usumbufu wa kikoloni. Kinachoweza kusababisha uharibifu wao ni karne ya ishirini na moja. Hatari zinazokusanyika kwenye misitu ya makaya ya…",
-          "dig": "Makaya matakatifu gamenusuru karne za vita, uhamisho, na usumbufu wa kikoloni. Kinachoweza kusababisha uharibifu gao ni karne ya ishirini na mwenga. Hatari zinazokusanyika kpwa misitu ya makaya ya…"
+          "dg": "Makaya matakatifu gamenusuru karne za vita, uhamisho, na usumbufu wa kikoloni. Kinachoweza kusababisha uharibifu gao ni karne ya ishirini na mwenga. Hatari zinazokusanyika kpwa misitu ya makaya ya…"
         },
         "body": {
           "en": [
@@ -644,7 +644,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini juhudi za uhifadhi zinabaki na fedha kidogo, zisizoratibiwa vya kutosha, na zisizoweza kushughulikia shinikizo za kimfumo — maendeleo ya kiuchumi, ongezeko la idadi ya watu, mabadiliko ya hali ya hewa — zinazoendesha hatari. Makaya yanahitaji zaidi ya ulinzi. Yanahitaji ulimwengu ambapo kizazi kijacho cha vijana wa Wadigo kinaona hadhi ya uzee si kama kitu cha zamani bali kama lengo — ambapo kaya si masalia ya zamani bali taasisi hai inayostahili kuingia, kuhudumu, na kulinda."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Kuzingirwa Kula Chila Uphande"
@@ -741,12 +741,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "What Is a Kaya",
           "sw": "Kaya ni Nini",
-          "dig": "Kaya ni Chichi"
+          "dg": "Kaya ni Chichi"
         },
         "intro": {
           "en": "To call a kaya a \"sacred forest\" is accurate but incomplete. A kaya is a forest that was once a city — and in spiritual terms, still is. When the Mijikenda peoples migrated south from Singwaya…",
           "sw": "Kuita kaya \"msitu mtakatifu\" ni sahihi lakini si kamili. Kaya ni msitu ambao uliwahi kuwa mji — na kwa maana ya kiroho, bado ni. Wakati watu wa Mijikenda walipohamia kusini kutoka Singwaya kati ya…",
-          "dig": "Kuiha kaya \"msitu mtakatifu\" ni kpwa sawa ela si kamili. Kaya ni msitu ambao urikala mudzi — na kpwa maana ya chiroho, bado ni. Wakati atu a Amijikenda ariposafiri kusini kula Singwaya kahi ya karne…"
+          "dg": "Kuiha kaya \"msitu mtakatifu\" ni kpwa sawa ela si kamili. Kaya ni msitu ambao urikala mudzi — na kpwa maana ya chiroho, bado ni. Wakati atu a Amijikenda ariposafiri kusini kula Singwaya kahi ya karne…"
         },
         "body": {
           "en": [
@@ -849,7 +849,7 @@ export const domains: CultureDomain[] =
               "text": "Kila kaya ina historia yake, masimulizi yake ya kuanzishwa, baraza lake la wazee, na mazoezi yake maalum ya sherehe. Makaya si yanayobadilishana. Kaya Kinondo si Kaya Kwale si Kaya Gandini. Kila moja inabeba kumbukumbu ya ukoo au nasaba fulani iliyoianzisha, na mamlaka ya wazee wa kila kaya yanaenea tu ndani ya eneo lake lenyewe. Utawala huu uliosambazwa — msitu mmoja, baraza moja, jamii moja — ni mojawapo ya sifa tofauti zaidi za mfumo wa kisiasa wa Kimijikenda."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Msitu Ambao ni Mudzi"
@@ -908,12 +908,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Religion and Spirituality",
       "sw": "Dini na Mambo ya Kiroho",
-      "dig": "Dini na Mambo ga Chiroho"
+      "dg": "Dini na Mambo ga Chiroho"
     },
     "intro": {
       "en": "Among the nine Mijikenda peoples of the Kenya coast, the Digo occupy a singular religious position. They are the only predominantly Muslim group — approximately 99 percent of the Digo identify as…",
       "sw": "Miongoni mwa makabila tisa ya Wamijikenda wa pwani ya Kenya, Wadigo wanashikilia nafasi ya kipekee ya kidini. Wao ndio kundi pekee lenye Waislamu wengi — takriban asilimia 99 ya Wadigo…",
-      "dig": "Kahi ya makabila tisiya ga Amijikenda ga ph'wani ya Kenya, Adigo ganashikilia nafasi ya kipekee ya kidini. Ao ndio kundi peke yao renye Aislamu anji — takribani asilimia tisini na tisiya ya Adigo…"
+      "dg": "Kahi ya makabila tisiya ga Amijikenda ga ph'wani ya Kenya, Adigo ganashikilia nafasi ya kipekee ya kidini. Ao ndio kundi peke yao renye Aislamu anji — takribani asilimia tisini na tisiya ya Adigo…"
     },
     "proverb": "Mulungu kamanyika kwa macho, anamanyika kwa mahendo",
     "proverbGloss": "God is not known by sight, but by deeds",
@@ -923,12 +923,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Coexistence: Two Systems, One People",
           "sw": "Kuishi Pamoja: Mifumo Miwili, Watu Mmoja",
-          "dig": "Kuishi Phamwenga: Mifumo Miiri, Atu Amwenga"
+          "dg": "Kuishi Phamwenga: Mifumo Miiri, Atu Amwenga"
         },
         "intro": {
           "en": "In Digo communities across Kwale County and the coastal strip extending into northern Tanzania, there is a question that outsiders frequently ask but that most Digo themselves regard as meaningless:…",
           "sw": "Katika jamii za Wadigo kote Kaunti ya Kwale, kuna swali ambalo wageni mara nyingi huuliza lakini ambalo Wadigo wengi wanaona halina maana: \"Wewe ni Mwislamu, au unafuata imani za jadi?\" Swali…",
-          "dig": "Kpwa jamii za Adigo kosi Kaunti ya Kwale, kuna swali ambaro ajeni mara nyinji anauliza ela ambaro Adigo anji anaona tarina maana: \"Uwe u Muislamu, au unafuata imani za kare?\" Swali rinachukulia kukala…"
+          "dg": "Kpwa jamii za Adigo kosi Kaunti ya Kwale, kuna swali ambaro ajeni mara nyinji anauliza ela ambaro Adigo anji anaona tarina maana: \"Uwe u Muislamu, au unafuata imani za kare?\" Swali rinachukulia kukala…"
         },
         "body": {
           "en": [
@@ -1127,7 +1127,7 @@ export const domains: CultureDomain[] =
               "text": "Kinachojengwa na Wadigo si maelewano au kushindwa kwa kitheolojia. Ni mafanikio ya ubunifu: usanifu wa kiroho unaoheshimu Kurani na mababu, msikiti na kaya, imamu na *mganga*, ufunuo ulioandikwa na mapokeo ya mdomo. Inashughulikia upana kamili wa mahitaji ya kiroho ya binadamu — kutoka maswali ya ulimwengu ya uumbaji na hukumu hadi mizozo ya karibu, ya haraka ya ugonjwa, msiba, na wafu wasio na raha. Iwapo usanifu huu unaweza kustahimili shinikizo za mageuzi, ukisasa, na mabadiliko ya kizazi ni swali la siku zijazo. Lakini muundo wenyewe — uliojengwa kwa karne nyingi na watu waliokataa kuchagua kati ya zamani zao na imani yao — unastahili kueleweka si kama mkanganyiko bali kama hekima."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Swali Ambaro Takuna Mutu Anauliza"
@@ -1232,12 +1232,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Digonized Islam",
           "sw": "Uislamu wa Kidigo",
-          "dig": "Uislamu wa Chidigo"
+          "dg": "Uislamu wa Chidigo"
         },
         "intro": {
           "en": "The term \"Digonized Islam\" was coined by scholars attempting to describe something that resists easy categorization. The Digo are not Muslims who secretly practice traditional religion. Nor are they…",
           "sw": "Neno \"Uislamu wa Kidigo\" lilibuniwa na wasomi wanaojaribu kuelezea kitu kinachopinga uainishaji rahisi. Wadigo si Waislamu wanaofanya mila za jadi kwa siri. Wala si wafuasi wa mila za jadi ambao…",
-          "dig": "Neno \"Uislamu wa Chidigo\" ribuniwa ni asomi anaoendza kuelezea chitu chinachopinga uainishaji rahisi. Adigo si Aislamu anaohumira chimila za kare kpwa siri. Wala si afuasi wa chimila za kare ambao…"
+          "dg": "Neno \"Uislamu wa Chidigo\" ribuniwa ni asomi anaoendza kuelezea chitu chinachopinga uainishaji rahisi. Adigo si Aislamu anaohumira chimila za kare kpwa siri. Wala si afuasi wa chimila za kare ambao…"
         },
         "body": {
           "en": [
@@ -1516,7 +1516,7 @@ export const domains: CultureDomain[] =
               "text": "Hii si mkanganyiko. Ni mafanikio ya kitamaduni ya kisasa — mfumo wa kidini uliojengwa kwa karibu karne mbili za mazungumzo ya uangalifu kati ya mapokeo mawili yenye nguvu. Uislamu wa Kidigo si kushindwa kuwa Mwislamu wa kweli. Ni njia ya Kidigo ya kuwa Mwislamu, na imesaidia jamii kupitia utawala wa kikoloni, uhuru, kisasa, na shinikizo zisizo na mwisho za karne ya 21."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Dini Iriyoundwa Luphya"
@@ -1661,12 +1661,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Islamization of the Digo",
           "sw": "Uislamu wa Wadigo",
-          "dig": "Uislamu wa Adigo"
+          "dg": "Uislamu wa Adigo"
         },
         "intro": {
           "en": "Before the first Muslim traders arrived on the southern Kenya coast, the Digo possessed a fully formed spiritual system. At its center stood Mulungu — the distant, omnipotent creator God who was not…",
           "sw": "Kabla ya wafanyabiashara wa kwanza wa Kiislamu kufika pwani ya kusini ya Kenya, Wadigo walikuwa na mfumo kamili wa kiroho. Katikati yake alisimama Mulungu — Mungu muumbaji aliye mbali, mwenye nguvu…",
-          "dig": "Kabila ya afanyabiashara a kpwandza a Chiislamu kufika ph'wani ya kusini ya Kenya, Adigo akala na mfumo kamili wa chiroho. Katikati yakpwe wasimama Mulungu — Mulungu muumba ariye mbali, mwenye nguvu zosi…"
+          "dg": "Kabila ya afanyabiashara a kpwandza a Chiislamu kufika ph'wani ya kusini ya Kenya, Adigo akala na mfumo kamili wa chiroho. Katikati yakpwe wasimama Mulungu — Mulungu muumba ariye mbali, mwenye nguvu zosi…"
         },
         "body": {
           "en": [
@@ -1897,7 +1897,7 @@ export const domains: CultureDomain[] =
               "text": "Kilichoibuka kilikuwa kitu kipya — si Kiislamu tu wala si kimila tu, bali ni cha Kidigo kwa njia ya kipekee. Ratiba ya Uislamu si tu masimulizi ya kihistoria. Ni hadithi ya asili ya mfumo wa kidini unaofafanua maisha ya Kidigo leo: mfumo ambapo mtu mmoja anaweza kuwa, bila kupingana, Mwislamu mwaminifu na mwaminiano wa roho za mababu, mwenda msikitini na mteja wa mganga, msomaji wa Kurani na mshiriki wa sherehe za kaya. Kuelewa jinsi mfumo huu ulivyokuja kuwa ni muhimu kuelewa ni nini."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Kabila ya Uislamu: Ulimwengu Adigo Ariokala Nao"
@@ -2018,12 +2018,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Digo Spirit World",
           "sw": "Ulimwengu wa Roho wa Wadigo",
-          "dig": "Ulimwengu wa Roho wa Adigo"
+          "dg": "Ulimwengu wa Roho wa Adigo"
         },
         "intro": {
           "en": "To understand Digo spirituality, one must first accept a premise that Western materialism has spent centuries trying to discard: that the visible world is not the only world. Behind every illness,…",
           "sw": "Kuelewa hali ya kiroho ya Wadigo, mtu lazima akubali kwamba ulimwengu unaoonekana si ulimwengu pekee. Nyuma ya kila ugonjwa, kila bahati, kila tukio lisiloeleweka, kuna eneo sambamba la roho, mababu,…",
-          "dig": "Kuelewa hali ya chiroho ya Adigo, mutu lazima akubali kukala ulimwengu unaoonekana si ulimwengu peke yakpwe. Nyuma ya chila ukongo, chila bahati, chila likalo risiroeleweka, kuna eneo sambamba ra…"
+          "dg": "Kuelewa hali ya chiroho ya Adigo, mutu lazima akubali kukala ulimwengu unaoonekana si ulimwengu peke yakpwe. Nyuma ya chila ukongo, chila bahati, chila likalo risiroeleweka, kuna eneo sambamba ra…"
         },
         "body": {
           "en": [
@@ -2246,7 +2246,7 @@ export const domains: CultureDomain[] =
               "text": "Ulimwengu wa roho wa Wadigo haukuanguka Kurani ilipofika. Ulijirekebisha. *Majini* walipata mfano wao katika *jinn* wa Kiislamu. *Mganga* alianza kuingiza aya za Kurani na dua za Kiarabu katika mazoezi ya jadi. Dhana ya kinga ya kiroho — daima ya kati kwa maisha ya Wadigo — ilipata teknolojia mpya katika *hirizi*, hirizi ya kinga iliyoandikwa maandishi ya Kurani. Lakini *koma* walihifadhi utambulisho wao wa Kidigo. *Mizimu* walihifadhi nafasi zao katika mandhari. *Pepo* waliendelea kumiliki na walihitajika kujadiliwa nao kwa masharti yao wenyewe. Uislamu ulitoa msamiati mpya na mfumo mpya wa jumla, lakini haukubadilisha sarufi ya msingi ya uzoefu wa kiroho wa Kidigo. Ulimwengu wa roho unabaki, kama ulivyokuwa daima, eneo ambapo Wadigo wanapiga hesabu na mashaka, hatari, na siri ambazo dini rasmi — dini yoyote rasmi — haiwezi kushughulikia kikamilifu."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Ulimwengu Nyuma ya Ulimwengu"
@@ -2365,12 +2365,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Music and Dance",
       "sw": "Muziki na Ngoma",
-      "dig": "Nyimbo na Ngoma"
+      "dg": "Nyimbo na Ngoma"
     },
     "intro": {
       "en": "Music among the Digo is not entertainment set apart from life. It is life's accompaniment at every threshold — the drum that summons the community to ceremony, the flute that sounds at dawn to…",
       "sw": "Muziki miongoni mwa Wadigo si burudani iliyotengwa na maisha. Ni mwandamizi wa maisha katika kila kizingiti — ngoma inayoita jamii kwa sherehe, filimbi inayopigwa alfajiri kutangaza kwamba kitu…",
-      "dig": "Nyimbo kahi ya Adigo si burudani iriyotengwa na maisha. Ni mwandamizi wa maisha kpwa chila kizingiti — ngoma inayoiha jamii kpwa sherehe, filimbi inayopigwa alfajiri kutangaza kukala chitu chitakatifu…"
+      "dg": "Nyimbo kahi ya Adigo si burudani iriyotengwa na maisha. Ni mwandamizi wa maisha kpwa chila kizingiti — ngoma inayoiha jamii kpwa sherehe, filimbi inayopigwa alfajiri kutangaza kukala chitu chitakatifu…"
     },
     "proverb": "Ngoma ikipigwa, magulu ganadzimanya",
     "proverbGloss": "When the drum is beaten, the feet know themselves",
@@ -2380,12 +2380,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Ceremonial Contexts",
           "sw": "Muktadha wa Sherehe",
-          "dig": "Muktadha wa Sherehe"
+          "dg": "Muktadha wa Sherehe"
         },
         "intro": {
           "en": "In Digo culture, music does not accompany ceremony — it *is* ceremony. The drum beat is not background to the funeral rite; it is the mechanism by which the living communicate with the dead. The…",
           "sw": "Katika utamaduni wa Wadigo, muziki hauandamani na sherehe — ni sherehe yenyewe. Mdundo wa ngoma si mandharinyuma ya ibada ya mazishi; ni njia ambayo walio hai wanawasiliana na wafu. Wimbo wa harusi si…",
-          "dig": "Kpwa chimila cha Adigo, nyimbo taziandekezani na sherehe — ni sherehe yenyewe. Mdundo wa ngoma si mandharinyuma ya ibada ya mazishi; ni njira ambayo ario moyo anawasiliana na ario kufa."
+          "dg": "Kpwa chimila cha Adigo, nyimbo taziandekezani na sherehe — ni sherehe yenyewe. Mdundo wa ngoma si mandharinyuma ya ibada ya mazishi; ni njira ambayo ario moyo anawasiliana na ario kufa."
         },
         "body": {
           "en": [
@@ -2552,7 +2552,7 @@ export const domains: CultureDomain[] =
               "text": "Kinachounganisha muktadha hizi zote — mazishi, harusi, msikiti, mashindano, studio — ni kanuni moja: muziki miongoni mwa Wadigo ni wa jamii, una kazi, na ni hai. Unatumikia madhumuni zaidi ya burudani. Unabeba ujumbe zaidi ya starehe. Unaunda vifungo kati ya walio hai, kati ya walio hai na wafu, kati ya mtu binafsi na jamii, kati ya sasa na zamani. Vyombo vinabadilika, midundo inabadilika, lugha zinahamia — lakini kanuni inashikilia. Muziki si kitu ambacho Wadigo wanasikiliza. Ni kitu wanachokifanya."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Nyimbo Dza Kazi ya Ibada"
@@ -2641,12 +2641,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Chakacha",
           "sw": "Chakacha",
-          "dig": "Chakacha"
+          "dg": "Chakacha"
         },
         "intro": {
           "en": "Chakacha is one of the oldest dance forms on the East African coast, a living record of the centuries-long encounter between African and Arabian cultures along the Indian Ocean littoral. Its roots…",
           "sw": "Chakacha ni mojawapo ya ngoma za zamani zaidi katika pwani ya Afrika Mashariki, kumbukumbu hai ya mkutano wa karne nyingi kati ya tamaduni za Kiafrika na za Kiarabu kando ya bahari ya Hindi. Mizizi…",
-          "dig": "Chakacha ni mwenga wa ngoma za kare zaidi kpwa ph'wani ya Afrika ya Mashariki, kumbukumbu ya hai ya mkutano wa miaka mingi kahi ya chimila cha Chiafrika na cha Chiarabu kanda-kanda ya bahari ya Hindi.…"
+          "dg": "Chakacha ni mwenga wa ngoma za kare zaidi kpwa ph'wani ya Afrika ya Mashariki, kumbukumbu ya hai ya mkutano wa miaka mingi kahi ya chimila cha Chiafrika na cha Chiarabu kanda-kanda ya bahari ya Hindi.…"
         },
         "body": {
           "en": [
@@ -2853,7 +2853,7 @@ export const domains: CultureDomain[] =
               "text": "Changamoto ya siku za usoni ni changamoto inayokabili mila zote hai: kubadilika bila kupoteza kiini. Mila ya Kwale inadumisha mizizi ya kisherehe. Mila ya Mombasa inaonyesha uwezo wa kubadilika katika mazingira ya mjini. Muungano wa pop unathibitisha kwamba midundo ya chakacha inaweza kufikia watazamaji wapya bila kupoteza tabia yake ya kipekee. Kinachobaki muhimu ni kile ambacho hakiwezi kurekodiwa au kuuzwa — wakati wanawake wa jamii wanakutana, wanafunga njuga zao, wanajifunga kanga zao, na kucheza. Wakati huo ndio moyo usiogawanyika wa chakacha, na maadamu unaendelea, mila inaishi."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Asili Kpwa Njira Panda"
@@ -2962,12 +2962,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Instruments of the Coast",
           "sw": "Vyombo vya Muziki vya Pwani",
-          "dig": "Vyombo vya Nyimbo vya Pwani"
+          "dg": "Vyombo vya Nyimbo vya Pwani"
         },
         "intro": {
           "en": "The musical instruments of the Digo are not mere tools for producing sound. They are cultural objects that carry history, identity, and aesthetic intention in their physical form as much as in the…",
           "sw": "Vyombo vya muziki vya Wadigo si zana tu za kutoa sauti. Ni vitu vya kitamaduni vinavyobeba historia, utambulisho, na nia ya kisanaa katika umbo lao la kimwili kama vile katika sauti wanazozitoa.…",
-          "dig": "Vyombo vya nyimbo vya Adigo si zana tu za kutoa sauti. Ni vitu vya chimila vinavyobeba historia, utambulisho, na nia ya kisanaa kpwa umbo rao ra kimwiri dza vira kpwa sauti zinavyozitoa. Chivoti ya…"
+          "dg": "Vyombo vya nyimbo vya Adigo si zana tu za kutoa sauti. Ni vitu vya chimila vinavyobeba historia, utambulisho, na nia ya kisanaa kpwa umbo rao ra kimwiri dza vira kpwa sauti zinavyozitoa. Chivoti ya…"
         },
         "body": {
           "en": [
@@ -3222,7 +3222,7 @@ export const domains: CultureDomain[] =
               "text": "Hata hivyo vyombo vinadumu, kwa sababu vinabeba kitu ambacho vibadala vyake haviwezi kuiga. Chivoti kinapolia alfajiri hakitoi noti tu — kinatoa sauti maalum, yenye uzito wa kitamaduni inayoiambia jamii ya Wadigo kwamba sherehe inaanza. Nzumari haipigi wimbo tu — inatoa mwaliko unaobeba uzito wa mila nyuma yake. Kayamba haitoi mdundo tu — inabeba kumbukumbu ya Shungwaya katika sauti yake. Hizi si sifa zinazoweza kubadilishwa kuwa dijitali. Ni maana zinazokaa katika vitu halisi vyenyewe, katika malighafi yake, ufundi wake, na mikono inayovipiga — na vitadumu maadamu kuna mafundi wa Wadigo walio tayari kuvitengeneza na wanamuziki wa Wadigo walio tayari kuvipiga."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Zana za Sauti, Kazi za Sanaa"
@@ -3355,12 +3355,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Sengenya",
           "sw": "Sengenya",
-          "dig": "Sengenya"
+          "dg": "Sengenya"
         },
         "intro": {
           "en": "Of all the musical forms practised along the Swahili coast, sengenya is the one that belongs most distinctly to the Digo. Chakacha is shared with every coastal community from Lamu to Kilwa. Taarab…",
           "sw": "Miongoni mwa aina zote za kimuziki zinazofanywa kando ya pwani ya Kiswahili, sengenya ndiyo inayomilikiwa zaidi na Wadigo. Chakacha inashirikiwa na kila jamii ya pwani. Taarab ni ya Zanzibar. Lakini…",
-          "dig": "Kahi ya aina zosi za kinyimbo zinazohendwa kanda-kanda ya ph'wani ya Chiswahili, sengenya ndiyo inayomilikiwa zaidi ni Adigo. Chakacha inashirikiwa na chila jamii ya ph'wani. Taarab ni ya Zanzibar. Ela…"
+          "dg": "Kahi ya aina zosi za kinyimbo zinazohendwa kanda-kanda ya ph'wani ya Chiswahili, sengenya ndiyo inayomilikiwa zaidi ni Adigo. Chakacha inashirikiwa na chila jamii ya ph'wani. Taarab ni ya Zanzibar. Ela…"
         },
         "body": {
           "en": [
@@ -3639,7 +3639,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini uandishi, hata ukiwa na thamani, si sawa na desturi hai. Mila ya sengenya inadumu si katika hifadhi bali katika jamii ambapo inafanywa — katika mazishi ambapo goma inalisha mababu, katika harusi ambapo mserego inasherehekea mwanzo mpya, katika matukio ya kisherehe ambapo chivoti inalialfajiri na nzumari inawaita wachezaji. Mustakabali wa sengenya hautegemei wasomi bali jamii za Wadigo zinazotambua kuwa ni yao — zinazosikia chivoti alfajiri na kujua, bila kuambiwa, kwamba sauti hiyo ni yao."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Sauti Inayomilikiwa ni Adigo"
@@ -3786,12 +3786,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Food and Cuisine",
       "sw": "Chakula na Mapishi",
-      "dig": "Chakurya na Mapishi"
+      "dg": "Chakurya na Mapishi"
     },
     "intro": {
       "en": "The cuisine of the Digo people is one of the most distinctive on the East African coast, shaped by centuries of interaction between Bantu agricultural traditions, Arab and Persian spice routes, and…",
       "sw": "Mapishi ya Wadigo ni moja ya mapishi ya kipekee zaidi katika pwani ya Afrika Mashariki, yaliyoundwa na karne za mwingiliano kati ya mila za kilimo za Kibantu, njia za viungo za Kiarabu na Kiajemi, na…",
-      "dig": "Mapishi ga Adigo ni mamwenga ga mapishi ga kipekee zaidi kpwa ph'wani ya Afrika ya Mashariki, garigoundwa ni miaka mingi ya mwingiliano kahi ya mila za ukulima za Chibantu, njira za viungo za Chiarabu,…"
+      "dg": "Mapishi ga Adigo ni mamwenga ga mapishi ga kipekee zaidi kpwa ph'wani ya Afrika ya Mashariki, garigoundwa ni miaka mingi ya mwingiliano kahi ya mila za ukulima za Chibantu, njira za viungo za Chiarabu,…"
     },
     "proverb": "Mvula igodzwa na utseru",
     "proverbGloss": "The rain is waited for with a cleared plot",
@@ -3801,12 +3801,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Breads and Street Food",
           "sw": "Mikate na Vyakula vya Mitaani",
-          "dig": "Mikate na Vyakurya vya Mitaani"
+          "dg": "Mikate na Vyakurya vya Mitaani"
         },
         "intro": {
           "en": "The day on the Digo coast begins with fried dough and simmered legumes. Before the heat of the tropical sun has fully asserted itself, before the fishermen have returned with their catch, before the…",
           "sw": "Siku katika pwani ya Wadigo inaanza na mikate ya kukaanga na kunde zilizochemshwa. Kabla jua la kitropiki halijajiimarisha, wauza vyakula vya mitaani tayari wanafanya kazi. Moto wao wa makaa umewashwa…",
-          "dig": "Siku kpwa ph'wani ya Adigo inaandza na mikate ya kukaanga na kunde zirizochemshwa. Kabila dzuwa ra chitropiki taridza kudziimarisha, auza vyakurya vya mitaani kare anafanya kazi. Moho wao wa makaa…"
+          "dg": "Siku kpwa ph'wani ya Adigo inaandza na mikate ya kukaanga na kunde zirizochemshwa. Kabila dzuwa ra chitropiki taridza kudziimarisha, auza vyakurya vya mitaani kare anafanya kazi. Moho wao wa makaa…"
         },
         "body": {
           "en": [
@@ -4013,7 +4013,7 @@ export const domains: CultureDomain[] =
               "text": "Mila ya vyakula vya mitaani pia inawakilisha mojawapo ya fursa muhimu zaidi za kiuchumi zinazopatikana kwa wanawake wa Kidigo. Katika jamii ambapo fursa rasmi za ajira kwa wanawake ni chache, kuuza vyakula vya mitaani kunatoa uhuru, kubadilika, na uwezo wa kupata kipato huku ukibaki umeshikamana na jamii. Ustadi unaohitajika — ujuzi wa mapishi, umilisi wa mbinu za kupika, uelewa wa mapendekezo ya wateja, usimamizi wa bidhaa na fedha — unaunda aina ya utaalamu wa ujasiriamali unaopitishwa kutoka mama hadi binti, kutoka muuzaji mwenye uzoefu hadi mwanafunzi, katika mfumo usio rasmi lakini wenye ufanisi wa elimu ya kiuchumi."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Ligundzu ra Ph'wani"
@@ -4122,12 +4122,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Coconut in Digo Cuisine",
           "sw": "Nazi Katika Mapishi ya Wadigo",
-          "dig": "Nazi Kpwa Mapishi ga Adigo"
+          "dg": "Nazi Kpwa Mapishi ga Adigo"
         },
         "intro": {
           "en": "If there is a single ingredient that defines Digo cuisine and distinguishes it from the food traditions of inland Kenya, it is the coconut. The coconut palm — mnazi — provides the milk, cream, oil,…",
           "sw": "Ikiwa kuna kiungo kimoja kinachofafanua mapishi ya Wadigo na kuyatofautisha na mila za chakula za bara ya Kenya, ni nazi. Mnazi hutoa tui, mafuta, na nazi ya kuparua ambayo ni msingi wa karibu kila…",
-          "dig": "Ichikala kuna chiungo chimwenga chinachofafanua mapishi ga Adigo na kugatofautisha na mila za chakurya za bara ya Kenya, ni nazi. Mnazi unalavya tui, mafuta, na nazi ya kuparua ambayo ni musingi wa…"
+          "dg": "Ichikala kuna chiungo chimwenga chinachofafanua mapishi ga Adigo na kugatofautisha na mila za chakurya za bara ya Kenya, ni nazi. Mnazi unalavya tui, mafuta, na nazi ya kuparua ambayo ni musingi wa…"
         },
         "body": {
           "en": [
@@ -4310,7 +4310,7 @@ export const domains: CultureDomain[] =
               "text": "Mnazi unakabili vitisho vinavyohatarisha si chanzo cha chakula tu bali njia nzima ya maisha. Ugonjwa wa manjano ya kuua, uvamizi wa mende wa faru, uharibifu wa mashamba ya minazi kwa shughuli za uchimbaji madini, na kuzeeka kwa hifadhi ya miti iliyopo bila kupanda upya wa kutosha vyote vinachangia kupungua taratibu kwa uchumi wa nazi. Kwa watu ambao upishi wao, riziki zao, mila zao za ujenzi, na mikusanyiko yao ya kijamii yote yanategemea mnazi, vitisho hivi vinabeba athari zinazofika kwa kina zaidi kuliko kilimo peke yake. Mustakabali wa nazi katika nchi ya Wadigo ni, kwa maana halisi, mustakabali wa utamaduni wa Wadigo wenyewe."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Chiungo Chisichoweza Kukosekana"
@@ -4407,12 +4407,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Coastal Fishing and Seafood",
           "sw": "Uvuvi wa Pwani na Vyakula vya Baharini",
-          "dig": "Uvuvi wa Pwani na Vyakurya vya Baharini"
+          "dg": "Uvuvi wa Pwani na Vyakurya vya Baharini"
         },
         "intro": {
           "en": "The Indian Ocean has fed the Digo people for as long as they have inhabited the coast. Long before the spice trade brought cardamom and turmeric to their kitchens, before rice cultivation transformed…",
           "sw": "Bahari ya Hindi imelisha Wadigo kwa muda mrefu kama walivyoishi pwanini. Uvuvi wa kienyeji unabaki chanzo kikuu cha protini ya baharini kwa jamii za pwani za Wadigo. Uhusiano kati ya mvuvi, chombo…",
-          "dig": "Bahari ya Hindi imerisha Adigo kpwa muda mure dza arivyoishi pwanini. Uvuvi wa kienyeji unasala chanzo chikulu cha protini ya baharini kpwa jamii za ph'wani za Adigo. Uhusiano kahi ya mvuvi, chombo…"
+          "dg": "Bahari ya Hindi imerisha Adigo kpwa muda mure dza arivyoishi pwanini. Uvuvi wa kienyeji unasala chanzo chikulu cha protini ya baharini kpwa jamii za ph'wani za Adigo. Uhusiano kahi ya mvuvi, chombo…"
         },
         "body": {
           "en": [
@@ -4595,7 +4595,7 @@ export const domains: CultureDomain[] =
               "text": "Licha ya changamoto hizi, samaki anabaki kuwa wa kati katika utambulisho wa Wadigo wa pwani. Kijiji cha uvuvi, soko la asubuhi, harufu ya samaki wa kuchoma juu ya makaa, kuona ngalawa zikitovuka maji ya alasiri — hizi si shughuli za kiuchumi tu bali ni alama za kitamaduni zinazofafanua maana ya kuishi pwani. Wadigo ni watu wa ardhi na bahari wakati huo huo, na upishi wao unaonyesha utambulisho huu wa pande mbili kwa kila sahani ya wali wa nazi inayohudumiwa pamoja na samaki aliyechomwa. Uhifadhi wa desturi endelevu za uvuvi kwa hivyo si suala la mazingira au uchumi pekee bali ni amri ya kitamaduni — suala la kuhakikisha kwamba vizazi vijavyo vya watoto wa Wadigo wanakua wakijua ladha ya samaki safi aliyepakwa nazi na ndimu."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Riziki ya Bahari"
@@ -4692,12 +4692,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Four Staples",
           "sw": "Vyakula vya Msingi",
-          "dig": "Vyakurya vya Musingi"
+          "dg": "Vyakurya vya Musingi"
         },
         "intro": {
           "en": "Rice is the primary grain of the Digo people and the foundation upon which the coastal meal is built. Known as mpunga when raw and wali when cooked, rice arrived on the East African coast through the…",
           "sw": "Mpunga ndio nafaka ya msingi ya Wadigo na msingi ambao mlo wa pwani unajengwa. Tofauti na jamii za bara ambapo ugali wa mahindi unatawala meza, Wadigo wanaelekeza mapishi yao kuzunguka wali.…",
-          "dig": "Mpunga ndio nafaka ya musingi ya Adigo na musingi ambao mulo wa ph'wani unadzengwa. Tofauti na jamii za bara ambapo ugali wa mahindi unatawala meza, Adigo anaelekeza mapishi gao kuzunguka wali.…"
+          "dg": "Mpunga ndio nafaka ya musingi ya Adigo na musingi ambao mulo wa ph'wani unadzengwa. Tofauti na jamii za bara ambapo ugali wa mahindi unatawala meza, Adigo anaelekeza mapishi gao kuzunguka wali.…"
         },
         "body": {
           "en": [
@@ -4848,7 +4848,7 @@ export const domains: CultureDomain[] =
               "text": "Vyakula hivi vinne vikuu — mchele, muhogo, mahindi, na nazi — vinaunda msingi wa lishe na kitamaduni wa maisha ya Wadigo. Havibadilishani. Kila kimoja kinashikilia nafasi yake katika daraja la mlo na kalenda ya mwaka wa kilimo. Mchele ni tamaa, nafaka ya sherehe na faraja ya kila siku. Muhogo ni bima, zao linalostahimili wengine wanaposhindwa. Mahindi ni kiunganishi, kikiunganisha pwani na mila za chakula za bara la Afrika Mashariki. Na nazi ni njia ambayo vingine vyote vinabadilishwa — maziwa yanayoufanya mchele kuwa wali wa nazi, mafuta yanayoutajirisha mchuzi wa majani ya muhogo, mafuta yanayokaanga keki ya mahindi. Bila nazi, chakula cha Wadigo kingekuwa bado chakula. Lakini kisingekuwa cha Kidigo."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mpunga: Nafaka ya Ph'wani"
@@ -4931,12 +4931,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Dress and Textiles",
       "sw": "Mavazi na Vitambaa",
-      "dig": "Mavazi na Vitambaa"
+      "dg": "Mavazi na Vitambaa"
     },
     "intro": {
       "en": "Digo dress is not merely clothing. It is a language spoken through fabric, color, and adornment — a system of visual communication that marks identity, status, spiritual state, and the passage through…",
       "sw": "Mavazi ya Wadigo si nguo tu. Ni lugha inayozungumzwa kupitia kitambaa, rangi, na mapambo — mfumo wa mawasiliano ya kuona unaotambulisha utambulisho, hadhi, hali ya kiroho, na kupita kwa hatua za…",
-      "dig": "Mavazi ga Adigo si nguwo tu. Ni lugha inayoambwa kupishira chitambaa, rangi, na mapambo — mfumo wa mawasiliano ga kuona unaotambulisha utambulisho, hadhi, hali ya kiroho, na kupishira kpwa hatua za…"
+      "dg": "Mavazi ga Adigo si nguwo tu. Ni lugha inayoambwa kupishira chitambaa, rangi, na mapambo — mfumo wa mawasiliano ga kuona unaotambulisha utambulisho, hadhi, hali ya kiroho, na kupishira kpwa hatua za…"
     },
     "proverb": "Mutu ni nguwo",
     "proverbGloss": "A person is their clothing",
@@ -4946,12 +4946,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Color and Meaning",
           "sw": "Rangi na Maana",
-          "dig": "Rangi na Maana"
+          "dg": "Rangi na Maana"
         },
         "intro": {
           "en": "In Digo dress culture, color is not decoration. It is language. Every hue worn on the body carries a specific meaning, understood by the community and calibrated to the occasion, the wearer's life…",
           "sw": "Katika utamaduni wa mavazi ya Wadigo, rangi si mapambo. Ni lugha. Kila rangi inayovaliwa mwilini inabeba maana maalum, inayoeleweka na jamii na iliyopimwa kulingana na tukio, hatua ya maisha ya…",
-          "dig": "Kpwa chimila cha mavazi ga Adigo, rangi si mapambo. Ni lugha. Chila rangi inayovaliwa mwirini inabeba maana maalum, inayoeleweka ni jamii na iriyopimwa kulingana na tukio, hatua ya maisha ya mvaliaji,…"
+          "dg": "Kpwa chimila cha mavazi ga Adigo, rangi si mapambo. Ni lugha. Chila rangi inayovaliwa mwirini inabeba maana maalum, inayoeleweka ni jamii na iriyopimwa kulingana na tukio, hatua ya maisha ya mvaliaji,…"
         },
         "body": {
           "en": [
@@ -5150,7 +5150,7 @@ export const domains: CultureDomain[] =
               "text": "Hata hivyo, mfumo huu unaendelea pale ambapo ni muhimu zaidi. Katika harusi, nyeupe bado inatawala. Katika sherehe za kaya, rangi bado zinabeba uzito wao wa jadi. Hando la buluu bado linaashiria mamlaka ya mwanamke mzee. Nyekundu bado inaweka mpaka wa kiroho. Maana hizi zinadumu kwa sababu zimejikita si katika mitindo bali katika miundo ya ndani zaidi ya maisha ya kijamii na kiroho ya Wadigo — miundo ambayo, licha ya shinikizo la kisasa, inaendelea kuumba jinsi jamii inavyojielewa yenyewe. Rangi inabaki, kwa wale wanaoweza kuisoma, lugha yenye ufasaha kama lugha yoyote inayozungumzwa pwanini."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Msamiati wa Rangi"
@@ -5255,12 +5255,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Contemporary Revival",
           "sw": "Ufufuaji wa Kisasa",
-          "dig": "Ufufuaji wa Kisasa"
+          "dg": "Ufufuaji wa Kisasa"
         },
         "intro": {
           "en": "For the Digo of Kenya's south coast, the question of what to wear has become, in the twenty-first century, a question of who to be. The forces that have shaped dress choices across the developing…",
           "sw": "Kwa Wadigo wa pwani ya kusini ya Kenya, swali la kuvaa nini limekuwa, katika karne ya ishirini na moja, swali la kuwa nani. Nguvu zilizoshawishi uchaguzi wa mavazi kote ulimwenguni — ukuaji wa miji,…",
-          "dig": "Kpwa Adigo a ph'wani ya kusini ya Kenya, swali ra kuvala nini rimekala, kpwa karne ya mirongo miiri na mwenga, swali ra kukala ani. Nguvu zirizoshawishi uchaguzi wa mavazi kosi duniani — ukuaji wa midzi…"
+          "dg": "Kpwa Adigo a ph'wani ya kusini ya Kenya, swali ra kuvala nini rimekala, kpwa karne ya mirongo miiri na mwenga, swali ra kukala ani. Nguvu zirizoshawishi uchaguzi wa mavazi kosi duniani — ukuaji wa midzi…"
         },
         "body": {
           "en": [
@@ -5483,7 +5483,7 @@ export const domains: CultureDomain[] =
               "text": "Ufufuo unaonyesha kuwa matokeo si ya lazima. Mabadiliko ya kitamaduni si lazima yamaanishe upotevu wa kitamaduni. Mila ya vitambaa ya Wadigo imenusurika karne za mabadiliko — ujio wa Uislamu, ukoloni wa Kireno, utawala wa Kiingereza, uhuru wa Kenya, utandawazi — ikibadilika katika kila hatua bila kupoteza tabia yake ya kipekee. Wakati wa sasa ni hatua nyingine kama hiyo, na ubunifu, nguvu, na azimio la watu wanaofanya kazi kubeba mila mbele yanaonyesha kuwa njia ya Kidigo ya kuzungumza kupitia nguo ina sura bado za kuandikwa."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Swali ra Kuvala Nini"
@@ -5600,12 +5600,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Hando",
           "sw": "Hando",
-          "dig": "Hando"
+          "dg": "Hando"
         },
         "intro": {
           "en": "Among the Digo and the wider Mijikenda peoples of the Kenyan south coast, one garment stands above all others as a marker of feminine identity and cultural belonging: the hando. It is a long cotton…",
           "sw": "Miongoni mwa Wadigo na watu wa Mijikenda kwa upana, vazi moja linasimama juu ya yote kama alama ya utambulisho wa kike na kuwa sehemu ya utamaduni: hando. Ni kitambaa kirefu cha pamba, kinachokusanywa…",
-          "dig": "Kahi ya Adigo na atu a Amijikenda kpwa upana, vazi mwenga rinasimama dzulu ya gosi kukala alama ya utambulisho wa chichetu na kukala sehemu ya chimila: hando. Ni chitambaa chirefu cha pamba,…"
+          "dg": "Kahi ya Adigo na atu a Amijikenda kpwa upana, vazi mwenga rinasimama dzulu ya gosi kukala alama ya utambulisho wa chichetu na kukala sehemu ya chimila: hando. Ni chitambaa chirefu cha pamba,…"
         },
         "body": {
           "en": [
@@ -5820,7 +5820,7 @@ export const domains: CultureDomain[] =
               "text": "Hando ni, mwishowe, zaidi ya nguo. Ni taasisi ya kitamaduni inayobebeka — kipande cha kitambaa kinachobeba ndani ya mikunjo yake mfumo kamili wa maana: utambulisho, hadhi, hali ya kiroho, kuwa sehemu ya jamii, mafanikio ya uzuri, na mwendelezo wa kina wa mila ambayo imeokoka usumbufu wa kikoloni, mabadiliko ya kidini, na shinikizo la daima la usasa. Mwanamke Mdigo anapofunga hando lake na kupanga mikunjo yake kwa uangalifu na usahihi ambao nguo inadai, anafanya kitendo cha uthibitisho wa kitamaduni ambacho ni cha kawaida kabisa na cha kina kimya. Anavaa. Pia anatangaza yeye ni nani."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Vazi Rinaroamba"
@@ -5933,12 +5933,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Kanga",
           "sw": "Kanga",
-          "dig": "Kanga"
+          "dg": "Kanga"
         },
         "intro": {
           "en": "The kanga is, by any measure, one of the most remarkable textiles in the world. It is a rectangular piece of printed cotton, roughly one meter by one and a half, sold in pairs across East Africa —…",
           "sw": "Kanga ni mojawapo ya nguo za ajabu zaidi duniani. Ni kipande cha pamba kilichochapishwa, kinachouzwa kwa jozi kote Afrika Mashariki. Kinatumika kama sketi, kitambaa cha kichwa, mtandio wa kubebea…",
-          "dig": "Kanga ni mwenga wa nguwo za ajabu zaidi duniani. Ni chipande cha pamba chirichochapishwa, chinachouzwa kpwa jozi kosi Afrika ya Mashariki. Chinatumika kukala sketi, chitambaa cha kichwa, mtandio wa…"
+          "dg": "Kanga ni mwenga wa nguwo za ajabu zaidi duniani. Ni chipande cha pamba chirichochapishwa, chinachouzwa kpwa jozi kosi Afrika ya Mashariki. Chinatumika kukala sketi, chitambaa cha kichwa, mtandio wa…"
         },
         "body": {
           "en": [
@@ -6161,7 +6161,7 @@ export const domains: CultureDomain[] =
               "text": "Uwepo huu tangu utotoni hadi kaburini unafanya kanga kuwa kitu zaidi ya nguo au chombo cha mawasiliano. Ni mwandamani — uwepo wa kudumu kupitia hatua zote za maisha ya mwanamke Mdigo, ikibadilisha kazi yake kwa kila hitaji jipya huku ikidumisha mwendelezo wa uwepo wake wa kimali. Kanga inadumu kwa sababu ni, kwa maana halisi zaidi na ya kina zaidi, imefumwa ndani ya maisha yenyewe."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Chitambaa Chinachoamba"
@@ -6280,12 +6280,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Crafts & Architecture",
       "sw": "Ufundi na Ujenzi",
-      "dig": "Ufundi na Kudzenga"
+      "dg": "Ufundi na Kudzenga"
     },
     "intro": {
       "en": "The material culture of the Digo people is shaped by the same forces that have defined their history: the coastal environment that provides their raw materials, the centuries of Indian Ocean trade…",
       "sw": "Utamaduni wa mali ya Wadigo umeundwa na nguvu zile zile zilizofafanua historia yao: mazingira ya pwani yanayotoa malighafi, karne za biashara ya Bahari ya Hindi zilizoleta mbinu na urembo mpya, na…",
-      "dig": "Chimila cha mali ya Adigo chimeundwa ni nguvu zizo zizofafanua historia yao: mazingira ga ph'wani ganagolera mifwa, miaka mingi ya biashara ya Bahari ya Hindi iriyolera mbinu na urembo muphya, na miundo…"
+      "dg": "Chimila cha mali ya Adigo chimeundwa ni nguvu zizo zizofafanua historia yao: mazingira ga ph'wani ganagolera mifwa, miaka mingi ya biashara ya Bahari ya Hindi iriyolera mbinu na urembo muphya, na miundo…"
     },
     "proverb": "Fundi ni kazi yakpwe",
     "proverbGloss": "A craftsman is known by their work",
@@ -6295,12 +6295,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Pottery",
           "sw": "Ufinyazi",
-          "dig": "Ufinyazi"
+          "dg": "Ufinyazi"
         },
         "intro": {
           "en": "Of all the crafts practiced by the Digo, pottery may be the oldest. Long before mangrove poles were cut for house frames and coral was quarried for walls, human hands were shaping clay into vessels…",
           "sw": "Miongoni mwa ufundi wote unaofanywa na Wadigo, ufinyazi unaweza kuwa wa zamani zaidi. Mila ya ufinyazi ya Wadigo inabeba tabia yake ya kipekee — imeundwa na udongo maalum wa Milima ya Shimba, vyakula…",
-          "dig": "Kahi ya ufundi wosi unaofanywa ni Adigo, ufinyazi unaweza kukala wa kare zaidi. Chimila cha ufinyazi cha Adigo chinabeba tabia yakpwe ya chipekee — chimeundwa ni udongo maalum wa Myango ya Shimba,…"
+          "dg": "Kahi ya ufundi wosi unaofanywa ni Adigo, ufinyazi unaweza kukala wa kare zaidi. Chimila cha ufinyazi cha Adigo chinabeba tabia yakpwe ya chipekee — chimeundwa ni udongo maalum wa Myango ya Shimba,…"
         },
         "body": {
           "en": [
@@ -6491,7 +6491,7 @@ export const domains: CultureDomain[] =
               "text": "Wafinyazi wachache wa Wadigo wanaobaki wanaendelea na kazi yao si kwa sababu ni ya busara kiuchumi bali kwa sababu ni sehemu ya wao wenyewe. Ni viungo vya mwisho katika mnyororo unaonyooka nyuma hadi jamii za kwanza za binadamu katika pwani hii. Wakati mfinyanzi wa mwisho atakapoweka mbegu yake ya embe chini na asiiokote tena, aina ya ujuzi iliyochukua karne kuendelezwa itatoweka katika kizazi kimoja."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Tsi Kukala Chombo"
@@ -6592,12 +6592,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Settlement Patterns",
           "sw": "Mifumo ya Makazi",
-          "dig": "Mifumo ya Makalo"
+          "dg": "Mifumo ya Makalo"
         },
         "intro": {
           "en": "The story of Digo settlement is a story of migration — not across vast distances, but downhill. The Digo originally lived in fortified kayas, hilltop forest settlements in the Shimba Hills and along…",
           "sw": "Hadithi ya makazi ya Wadigo ni hadithi ya uhamiaji — si katika umbali mkubwa, bali kushuka mlimani. Wadigo awali waliishi katika kaya zilizoimarishwa, makazi ya msitu wa kilimani katika Milima ya…",
-          "dig": "Hadithi ya makalo ga Adigo ni hadithi ya uhamiaji — si kpwa umbali mkpwulu, ela kushuka mwangoni. Adigo kpwandza ariishi kpwa kaya zirizoimarishwa, makalo ga msitu wa mwangoni kpwa Myango ya Shimba.…"
+          "dg": "Hadithi ya makalo ga Adigo ni hadithi ya uhamiaji — si kpwa umbali mkpwulu, ela kushuka mwangoni. Adigo kpwandza ariishi kpwa kaya zirizoimarishwa, makalo ga msitu wa mwangoni kpwa Myango ya Shimba.…"
         },
         "body": {
           "en": [
@@ -6772,7 +6772,7 @@ export const domains: CultureDomain[] =
               "text": "Kupitia mabadiliko haya yote, dhana ya mudzi inaendelea. Hata katika mazingira ya mijini au karibu na miji, familia za Wadigo zinajielekeza kupanga nafasi zao za kuishi kulingana na mantiki ya boma — boma la familia kubwa lenye daraja lake la kimya, nafasi zake za pamoja, na mwelekeo wake kuelekea kituo cha pamoja. Umbo la kimwili linaweza kubadilika, lakini usanifu wa kijamii unaendelea. Mudzi si njia ya kujenga tu. Ni njia ya kuwa familia."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Kula Mwangoni hadi Tsi ya Tsini"
@@ -6865,12 +6865,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Swahili Architectural Influences",
           "sw": "Ushawishi wa Ujenzi wa Kiswahili",
-          "dig": "Ushawishi wa Kudzenga kwa Chiswahili"
+          "dg": "Ushawishi wa Kudzenga kwa Chiswahili"
         },
         "intro": {
           "en": "To walk the Kenya coast from Shimba Hills to the shoreline is to move between two architectural worlds. Inland, the Digo homestead sits among its coconut palms — mud walls, makuti thatch, the round…",
           "sw": "Kutembea pwani ya Kenya kutoka Milima ya Shimba hadi ufukoni ni kusogea kati ya ulimwengu mbili wa ujenzi. Bara, boma la Kidigo linakaa kati ya minazi yake — kuta za tope, makuti, kibanda cha mzee cha…",
-          "dig": "Kutembea ph'wani ya Kenya kula Myango ya Shimba hadi ufukoni ni kusogea kahi ya ulimwengu mbiri wa kudzenga. Bara, boma ra Chidigo rinakala kahi ya minazi yakpwe — kuta za tope, makuti, chibanda cha…"
+          "dg": "Kutembea ph'wani ya Kenya kula Myango ya Shimba hadi ufukoni ni kusogea kahi ya ulimwengu mbiri wa kudzenga. Bara, boma ra Chidigo rinakala kahi ya minazi yakpwe — kuta za tope, makuti, chibanda cha…"
         },
         "body": {
           "en": [
@@ -7037,7 +7037,7 @@ export const domains: CultureDomain[] =
               "text": "Leo, urithi wa ujenzi wa Kiswahili wa pwani unatambuliwa kama hazina ya kitamaduni. Miji ya kale ya Lamu na Mombasa ni maeneo ya urithi yanayotambuliwa na UNESCO. Juhudi za uhifadhi zinafanya kazi kuhifadhi milango iliyochongwa, majengo ya matumbawe, na ujuzi wa ujenzi wa kimila ulioyaumba. Miongoni mwa Wadigo, urithi wa ujenzi si wa kifahari lakini si wa umuhimu mdogo. Boma la tope-na-makuti lenye kuta zake za plasta ya chokaa na mlango wake wa mbao uliochongwa ni jengo la kawaida, lakini linajumuisha historia ile ile ya kubadilishana na kubadilika iliyozalisha nyumba kuu za mji wa Kiswahili. Vyote ni bidhaa za pwani — moja ya mji, moja ya kijiji; moja kubwa, moja ya kawaida; lakini vyote vimeundwa na nyenzo zile zile, hali ya hewa ile ile, na karne zile zile za mazungumzo ya kitamaduni kupitia Bahari ya Hindi."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mila Mbiri za Kudzenga"
@@ -7126,12 +7126,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Traditional Construction",
           "sw": "Ujenzi wa Jadi",
-          "dig": "Kudzenga kwa Jadi"
+          "dg": "Kudzenga kwa Jadi"
         },
         "intro": {
           "en": "The traditional Digo house is a masterwork of environmental adaptation. Every material comes from the immediate landscape — the mangrove swamps that line the creeks and inlets, the coconut palms that…",
           "sw": "Nyumba ya jadi ya Kidigo ni kazi bora ya kubadilika na mazingira. Kila kifaa kinatoka kwa mandhari ya karibu — mikoko, minazi, na ardhi yenyewe. Nyumba ya Kidigo imejengwa, kwa maana halisi, kutoka…",
-          "dig": "Nyumba ya jadi ya Chidigo ni kazi nono ya kubadilika na mazingira. Chila chifwa chinatoka kpwa mandhari ya jirani — mikoko, minazi, na tsi yenyewe. Nyumba ya Chidigo imedzengwa, kpwa maana ya kpweli,…"
+          "dg": "Nyumba ya jadi ya Chidigo ni kazi nono ya kubadilika na mazingira. Chila chifwa chinatoka kpwa mandhari ya jirani — mikoko, minazi, na tsi yenyewe. Nyumba ya Chidigo imedzengwa, kpwa maana ya kpweli,…"
         },
         "body": {
           "en": [
@@ -7314,7 +7314,7 @@ export const domains: CultureDomain[] =
               "text": "Hata hivyo makuti yanasalia. Katika maeneo ya vijijini, yanabaki nyenzo ya paa inayopendelewa kwa jiko na miundo ya ziada. Kando ya pwani ya utalii, hoteli na mikahawa yanatumia makuti kwa makusudi, yakitambua kwamba mwonekano wake wa joto, wenye mwili unaibua uzuri wa ujenzi wa jadi wa pwani kwa njia ambayo nyenzo yoyote ya kisasa haiwezi kulinganisha. Juhudi fulani za uhifadhi zinalenga kudumisha ujuzi wa ujenzi wa jadi, zikitambua kwamba maarifa ya jinsi ya kuchagua nguzo ya boriti, kuchanganya ukuta wa tope, au kushona paneli ya makuti yanawakilisha karne za akili ya mazingira iliyokusanywa ambayo, ikipotea, haiwezi kurejeshwa kutoka kitabu chochote."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Kudzenga Kula kpwa Tsi"
@@ -7413,12 +7413,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Social Organization",
       "sw": "Mpangilio wa Kijamii",
-      "dig": "Mpangilio wa Kijamii"
+      "dg": "Mpangilio wa Kijamii"
     },
     "intro": {
       "en": "The Digo organise their world through a system of overlapping loyalties — to clan, to family, to age-set, to kaya, and to faith — that produces a social architecture unlike any other on the East…",
       "sw": "Wadigo wanapanga ulimwengu wao kupitia mfumo wa uaminifu unaoingiliana — kwa ukoo, kwa familia, kwa rika, kwa kaya, na kwa imani — unaozalisha muundo wa kijamii tofauti na wowote mwingine kwenye pwani…",
-      "dig": "Adigo anapanga ulimwengu wao kupitshi mfumo wa uaminifu unaoingiliana — kpwa ukoo, kpwa familia, kpwa rika, kpwa kaya, na kpwa imani — unaozalisha muundo wa kijamii tofauti na wowosi munjina kpwa…"
+      "dg": "Adigo anapanga ulimwengu wao kupitshi mfumo wa uaminifu unaoingiliana — kpwa ukoo, kpwa familia, kpwa rika, kpwa kaya, na kpwa imani — unaozalisha muundo wa kijamii tofauti na wowosi munjina kpwa…"
     },
     "proverb": "Mlatso tauchimbirana wala taurichana",
     "proverbGloss": "Blood does not run from itself nor forsake itself",
@@ -7428,12 +7428,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Fuko System",
           "sw": "Mfumo wa Fuko",
-          "dig": "Mfumo wa Fuko"
+          "dg": "Mfumo wa Fuko"
         },
         "intro": {
           "en": "When two Digo people meet for the first time, the conversation follows a predictable path to a single question: *\"Wa atu ani?\"* — \"Whose people are you?\" The answer is not a family name in the Western…",
           "sw": "Watu wawili wa Kidigo wanapokutana kwa mara ya kwanza, mazungumzo yanafuata njia inayotabirika hadi swali moja: *\"Wa atu ani?\"* — \"Wewe ni wa watu gani?\" Jibu si jina la familia kwa maana ya…",
-          "dig": "Atu airi a Chidigo anapho kutana kpwa mara ya kpwandza, mazungumzo ganafuata njira inayo tabirika hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra familia kpwa maana ya…"
+          "dg": "Atu airi a Chidigo anapho kutana kpwa mara ya kpwandza, mazungumzo ganafuata njira inayo tabirika hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra familia kpwa maana ya…"
         },
         "body": {
           "en": [
@@ -7584,7 +7584,7 @@ export const domains: CultureDomain[] =
               "text": "Fuko linabaki kuwa jibu la swali linaloumia zaidi: *Wa atu ani?* Katika ulimwengu wa utambulisho unaoshindana — wa kitaifa, wa kikabila, wa kidini, wa kitaaluma — fuko linatoa kitu ambacho hakuna kategoria yoyote nyingine inayoweza: uhusiano mahususi, wa kibinafsi, uliorithiwa na jamii inayofika nyuma zaidi ya kumbukumbu na mbele zaidi ya maisha ya mtu mmoja. Ni uzi unaofanya mtu wa Kidigo kuwa Mdigo — si kwa maana ya kidhahania ya kuwa sehemu ya kabila, bali kwa maana halisi ya kuwa wa watu *hawa*, kupitia mama *huyu*, katika ukoo *huu*."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Swali Rinakuro fafanula"
@@ -7665,12 +7665,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Islamic Law and Matrilineal Tensions",
           "sw": "Sheria ya Kiislamu na Mvutano wa Ukoo wa Mama",
-          "dig": "Sheria ya Chiislamu na Mvutano wa Ukoo wa Nine"
+          "dg": "Sheria ya Chiislamu na Mvutano wa Ukoo wa Nine"
         },
         "intro": {
           "en": "The Digo are the only predominantly Muslim group among the nine Mijikenda peoples. They are also the group with the strongest matrilineal traditions. These two facts create a tension that has shaped…",
           "sw": "Wadigo ndio kundi pekee lenye Waislamu wengi miongoni mwa watu tisa wa Mijikenda. Pia ndio kundi lenye mila kali zaidi za upande wa mama. Ukweli huu mbili unaunda mvutano ambao umeshughulisha jamii ya…",
-          "dig": "Adigo ndio kundi pekee renye Aislamu anji kahi ya atu tisa a Amijikenda. Piya ndio kundi renye mila kali zaidi za uphande wa nine. Ukpweli huno mbiri unaunda mvutano ambao umeshughulisha jamii ya…"
+          "dg": "Adigo ndio kundi pekee renye Aislamu anji kahi ya atu tisa a Amijikenda. Piya ndio kundi renye mila kali zaidi za uphande wa nine. Ukpweli huno mbiri unaunda mvutano ambao umeshughulisha jamii ya…"
         },
         "body": {
           "en": [
@@ -7869,7 +7869,7 @@ export const domains: CultureDomain[] =
               "text": "Unyumbufu huu wa kiutendaji si kushindwa kwa mfumo wowote. Ni mafanikio ya kipekee ya mpangilio wa kijamii wa Wadigo — uwezo wa kushikilia mifumo miwili inayopingana kwa wakati mmoja na kupata suluhisho zinazofanya kazi ndani ya mvutano. Ni ya ovyo, isiyo thabiti, na wakati mwingine isiyo ya haki. Lakini imewasaidia Wadigo kupitia karne za mabadiliko ya kisheria na kidini bila kuharibu mila ya upande wa mama wala imani ya Kiislamu ambayo imekuwa ya kati kwa utambulisho wa Wadigo."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Ulimwengu Mbiri za Kisheria kpwa Jamii Mwenga"
@@ -7974,12 +7974,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Matrilineal Inheritance",
           "sw": "Urithi wa Upande wa Mama",
-          "dig": "Urithi wa Uphande wa Nine"
+          "dg": "Urithi wa Uphande wa Nine"
         },
         "intro": {
           "en": "The Digo inheritance system is built on a principle that confounds outsiders accustomed to single-track descent: a person inherits through both their mother and their father, but from different…",
           "sw": "Mfumo wa urithi wa Wadigo umejengwa juu ya kanuni inayochanganya wageni: mtu anarithi kupitia mama na baba, lakini kutoka kwa aina tofauti za mali na chini ya sheria tofauti. *Mashamba ya mafuko* —…",
-          "dig": "Mfumo wa urithi wa Adigo umejengwa dzulu ya kanuni inayochanganya ageni: mutu anarithi kupitshi nine na ise, ela kula kpwa aina tofauti za mali na chini ya sheria tofauti. *Mashamba ga mafuko* —…"
+          "dg": "Mfumo wa urithi wa Adigo umejengwa dzulu ya kanuni inayochanganya ageni: mutu anarithi kupitshi nine na ise, ela kula kpwa aina tofauti za mali na chini ya sheria tofauti. *Mashamba ga mafuko* —…"
         },
         "body": {
           "en": [
@@ -8154,7 +8154,7 @@ export const domains: CultureDomain[] =
               "text": "Mfumo wa urithi wa pande mbili — mashamba ya mafuko pamoja na mashamba ya mbari, konho pamoja na dzumbe — huenda usifanye kazi tena kama mfumo rasmi wa kisheria. Lakini unabaki umeingizwa katika uelewa wa Wadigo wa ardhi inamaanisha nini, nani ni wa nani, na wajibu gani familia inaiwekea. Dai la fuko juu ya mali linaweza kuwa limedhoofika. Dai lake juu ya utambulisho halijadhoofika."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mifumo Miiri, Familia Mwenga"
@@ -8247,12 +8247,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Mjomba",
           "sw": "Maternal Uncle",
-          "dig": "Mjomba"
+          "dg": "Mjomba"
         },
         "intro": {
           "en": "In many societies, the father is the primary male authority in a child's life. Among the Digo, that role belongs — or belonged — to a different man entirely: the *mjomba*, the mother's brother. The…",
           "sw": "Katika jamii nyingi, baba ndiye mamlaka kuu ya kiume katika maisha ya mtoto. Miongoni mwa Wadigo, nafasi hiyo ni ya mtu tofauti kabisa: *mjomba*, kaka wa mama. Mjomba ni daraja kati ya mtoto na fuko…",
-          "dig": "Kpwa jamii nyinji, ise ndiye mamlaka kulu ya chilume kpwa maisha ga mwana. Kahi ya Adigo, nafasi hiyo ni ya mutu tofauti kabisa: *mjomba*, ndugu mulume wa nine. Mjomba ni daraja kahi ya mwana na fuko…"
+          "dg": "Kpwa jamii nyinji, ise ndiye mamlaka kulu ya chilume kpwa maisha ga mwana. Kahi ya Adigo, nafasi hiyo ni ya mutu tofauti kabisa: *mjomba*, ndugu mulume wa nine. Mjomba ni daraja kahi ya mwana na fuko…"
         },
         "body": {
           "en": [
@@ -8427,7 +8427,7 @@ export const domains: CultureDomain[] =
               "text": "Jukumu la mjomba limepungua kutoka mamlaka kamili ya mfumo wa jadi kwenda kazi maalum zaidi: yeye ni mlinzi wa uhusiano wa upande wa mama, mwakilishi hai wa fuko katika maisha ya mtoto. Huenda hasimamii tena ndoa ya mpwa wake. Lakini bado ni mtu ambaye mpwa wake anaelekea kwake swali linapotokea: *\"Wa atu ani?\"* Mjomba anajua jibu, kwa sababu jibu ni jina la fuko lake mwenyewe — fuko ambalo yeye na mpwa wake wanashiriki kupitia mama anayewaunganisha."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mutu Muhimu Zaidi kpwa Maisha ga Mwana"
@@ -8522,12 +8522,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Rites of Passage",
       "sw": "Mila za Kupita",
-      "dig": "Chimila za Kuphiya"
+      "dg": "Chimila za Kuphiya"
     },
     "intro": {
       "en": "Among the Digo, no life passes unmarked. From the first breath to the last, the community gathers around its members at every threshold — birth, naming, initiation, marriage, death — weaving each…",
       "sw": "Miongoni mwa Wadigo, hakuna maisha yanayopita bila kutambuliwa. Tangu pumzi ya kwanza hadi ya mwisho, jamii inakusanyika kuzunguka wanachama wake katika kila kizingiti — kuzaliwa, kupewa jina,…",
-      "dig": "Kahi ya Adigo, tapho maisha ganagophiya bila kutambuliwa. Kula kpwa pumzi ya kpwandza hadi ya mwisho, jamii inakusanyika kuzunguka atu ao kpwa chila kizingiti — kuvyalwa, kuphewe dzina, kutahiriwa,…"
+      "dg": "Kahi ya Adigo, tapho maisha ganagophiya bila kutambuliwa. Kula kpwa pumzi ya kpwandza hadi ya mwisho, jamii inakusanyika kuzunguka atu ao kpwa chila kizingiti — kuvyalwa, kuphewe dzina, kutahiriwa,…"
     },
     "proverb": "Mwana asiyefundzwa ni adui wa nine",
     "proverbGloss": "An untaught child is their mother's enemy",
@@ -8537,12 +8537,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Birth and Naming",
           "sw": "Kuzaliwa na Kupewa Jina",
-          "dig": "Kuvyalwa na Kuphewe Dzina"
+          "dg": "Kuvyalwa na Kuphewe Dzina"
         },
         "intro": {
           "en": "A Digo child enters the world surrounded by women. When labour begins, the experienced elderly women of the family — traditional birth attendants who have delivered dozens of children across their…",
           "sw": "Mtoto wa Kidigo anaingia ulimwenguni akizungukwa na wanawake. Wakati uchungu unapoanza, wanawake wazee wenye uzoefu wa familia — wakunga wa jadi ambao wamezalisha watoto wengi katika maisha yao —…",
-          "dig": "Mwana wa Chidigo anangira ulimwenguni akizungukwa ni achetu. Wakati uchungu unaphoandza, achetu avyere enye uzoefu wa familia — akunga a jadi ambao amevyarisa ana anji kpwa maisha gao — ganakusanyika…"
+          "dg": "Mwana wa Chidigo anangira ulimwenguni akizungukwa ni achetu. Wakati uchungu unaphoandza, achetu avyere enye uzoefu wa familia — akunga a jadi ambao amevyarisa ana anji kpwa maisha gao — ganakusanyika…"
         },
         "body": {
           "en": [
@@ -8773,7 +8773,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini kiini cha mazoea haya kinaendelea. Watoto bado wanabarikiwa na mganga na imamu katika familia nyingi. Majina bado yanachaguliwa kwa uangalifu na maana. Aqeeqa bado inazingatiwa, mbuzi bado wanachinjwa, nyama bado inagawanywa. Na imani ya msingi kwamba kuwasili kwa mtoto ni tukio la jamii — si utaratibu wa kibinafsi wa kimatibabu bali wakati ambapo jamii yote inakusanyika kukaribisha, kulinda, na kumiliki mwanachama mpya zaidi — inabaki hai katika maisha ya Wadigo. Mzingo wa wanawake unaweza kuwa umehamia kutoka chumba cha kuzaliwa hadi eneo la kusubiri hospitalini, lakini haujavunjika."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mzunguko wa Achetu"
@@ -8894,12 +8894,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Circumcision",
           "sw": "Tohara",
-          "dig": "Tohara"
+          "dg": "Tohara"
         },
         "intro": {
           "en": "For a Digo boy, there was once a single, irreversible moment that separated childhood from adulthood. It was not his first day of work, not his first act of courage, not a gradual accumulation of…",
           "sw": "Kwa mvulana wa Kidigo, kulikuwa na wakati mmoja usioweza kurudishwa uliotenganisha utoto na utu uzima. Ilikuwa tohara — na hadi alipokuwa amepita katika hilo, alibaki mtoto machoni pa jamii yake.…",
-          "dig": "Kpwa mvulana wa Chidigo, kurikala na wakati mmwenga usigorudishwa uriotenganisha utoto na utu uzima. Irikala tohara — na hadi ariphokala amephita kpwa riro, wabaki mwana matsoni pha jamii yakpwe.…"
+          "dg": "Kpwa mvulana wa Chidigo, kurikala na wakati mmwenga usigorudishwa uriotenganisha utoto na utu uzima. Irikala tohara — na hadi ariphokala amephita kpwa riro, wabaki mwana matsoni pha jamii yakpwe.…"
         },
         "body": {
           "en": [
@@ -9154,7 +9154,7 @@ export const domains: CultureDomain[] =
               "text": "Changamoto kwa jamii ya Wadigo, kama ilivyo na ibada nyingi za kupitia kwao, ni kama maana ya tohara inaweza kuishi kupotea kwa maumbo yake ya jadi. Kama mvulana bado anaweza kuwa mtu mzima, kwa maana kamili ya Wadigo, kupitia utaratibu wa hospitali unaochukua dakika ishirini na hauachi kovu kwenye kalenda. Kama thamani ambazo jando ilizipanda zamani — ujasiri, nidhamu ya kibinafsi, mshikamano, heshima — zinaweza kupata vyombo vipya kuzibeba katika maisha ya vijana wa Wadigo ambao kamwe hawatapitia kambi ya porini, mafunzo ya mzee, au kifungo cha mwenzake wa umri."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Kizingiti cha Ulume"
@@ -9287,12 +9287,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Death and Burial",
           "sw": "Kifo na Mazishi",
-          "dig": "Chifo na Mazishi"
+          "dg": "Chifo na Mazishi"
         },
         "intro": {
           "en": "Among the Digo, death is met neither with silence nor with solitude. When a member of the community dies, the response is immediate, collective, and layered with both Islamic faith and older…",
           "sw": "Miongoni mwa Wadigo, kifo kinakutana si kwa ukimya wala upweke. Mtu wa jamii anapokufa, jibu ni la haraka, la pamoja, na lenye tabaka za imani ya Kiislamu na mila za zamani zinazoendelea chini yake.…",
-          "dig": "Kahi ya Adigo, chifo chinakutana si kpwa kunyamala wala upweke. Mutu wa jamii anaphovwa, jibu ni ra haraka, ra phamwenga, na renye tabaka za imani ya Chiislamu na chimila za kare zinagoenderera tsini…"
+          "dg": "Kahi ya Adigo, chifo chinakutana si kpwa kunyamala wala upweke. Mutu wa jamii anaphovwa, jibu ni ra haraka, ra phamwenga, na renye tabaka za imani ya Chiislamu na chimila za kare zinagoenderera tsini…"
         },
         "body": {
           "en": [
@@ -9611,7 +9611,7 @@ export const domains: CultureDomain[] =
               "text": "Mwishowe, jinsi jamii inavyoshughulikia kifo inafichua kile inachoamini kwa undani zaidi kuhusu maisha. Desturi za Wadigo — mazishi ya haraka, ulishaji wa pamoja, maombolezo ya siku arobaini, dua, sengenya, goma, uangalifu wa makini kuhusu jinsi na mahali wanachama tofauti wanavyozikwa — zinafichua jamii inayoamini kwamba hakuna mtu aliye peke yake kweli kweli. Kwamba mpaka kati ya walio hai na wafu si ukuta bali ni utando. Kwamba wajibu wa jamii hauishii kaburini. Na kwamba kila uhai wa binadamu, tangu pumzi yake ya kwanza hadi ya mwisho na zaidi, si wa mtu binafsi peke yake bali wa watu waliokusanyika kuukaribisha, kuulea, kusherehekea mipito yake, na hatimaye, kuubeba hadi nyumbani."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Chifo Chinaphovika"
@@ -9776,12 +9776,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Marriage",
           "sw": "Ndoa",
-          "dig": "Ndoa"
+          "dg": "Ndoa"
         },
         "intro": {
           "en": "A Digo marriage is never simply about two individuals who wish to share a life. It is about two families, two lineages, two *fuko* — clans — entering into a relationship that will bind them for…",
           "sw": "Ndoa ya Kidigo si kuhusu watu wawili wanaotaka kushiriki maisha tu. Ni kuhusu familia mbili, ukoo mbili, *fuko* mbili zinazoingia katika uhusiano utakaozifunga kwa vizazi. Kila hatua ya mchakato wa…",
-          "dig": "Ndoa ya Chidigo taipho ikale kuhusu atu airi anagomendza kushiriki maisha tu. Ni kuhusu familia mbiri, ukoo mbiri, *fuko* mbiri zinagoingira kpwa uhusiano utakaozifunga kpwa vizazi. Chila hatua ya…"
+          "dg": "Ndoa ya Chidigo taipho ikale kuhusu atu airi anagomendza kushiriki maisha tu. Ni kuhusu familia mbiri, ukoo mbiri, *fuko* mbiri zinagoingira kpwa uhusiano utakaozifunga kpwa vizazi. Chila hatua ya…"
         },
         "body": {
           "en": [
@@ -10140,7 +10140,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini muundo wa kina unadumu. Familia bado zinachunguza. Mazungumzo bado yanaendelea kupitia mfuatano uliowekwa wa malipo. Somo na kungwi, ingawa majukumu yao yanaweza kubanwa, hawajapotea. Nyimbo za kuagana bado zinaleta machozi. Karamu ya pamoja bado inaleta furaha. Na imani ya msingi kwamba ndoa ni jambo la familia, tukio la jamii, na jitihada ya kiroho — si tu mkataba wa kisheria kati ya watu wawili — inabaki moyoni mwa maisha ya ndoa ya Wadigo."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Si Atu Airi Ela Familia Mbiri"
@@ -10325,12 +10325,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Puberty Rites",
           "sw": "Mila za Kubalehe",
-          "dig": "Chimila za Kubalehe"
+          "dg": "Chimila za Kubalehe"
         },
         "intro": {
           "en": "The Digo recognise that boys and girls do not become adults in the same way. The challenges they will face are different, the knowledge they need is different, and the ceremonies that carry them…",
           "sw": "Wadigo wanatambua kwamba wavulana na wasichana hawawi watu wazima kwa njia moja. Kutahiriwa kwa wanaume — *jando* — kunaandaa wavulana kwa ulimwengu wa wanaume kupitia nidhamu ya tohara na mshikamano…",
-          "dig": "Adigo anatambua kpwamba avulana na asichana tahawi atu avyere kpwa njira moja. Kutahiriwa kpwa alume — *jando* — kunaandaa avulana kpwa ulimwengu wa alume kupitira nidhamu ya tohara na mshikamano wa…"
+          "dg": "Adigo anatambua kpwamba avulana na asichana tahawi atu avyere kpwa njira moja. Kutahiriwa kpwa alume — *jando* — kunaandaa avulana kpwa ulimwengu wa alume kupitira nidhamu ya tohara na mshikamano wa…"
         },
         "body": {
           "en": [
@@ -10625,7 +10625,7 @@ export const domains: CultureDomain[] =
               "text": "Kisichobadilika ni imani ya msingi kwamba vijana wanahitaji kutayarishwa kwa utu uzima — kwamba mpito kutoka mtoto hadi mtu mzima ni muhimu sana kuacha kwa bahati nasibu, na kwamba jamii ina wajibu wa kuwapa vijana wake maarifa, ujuzi, na utambulisho watakaouhitaji. Maumbo yanaweza kubadilika, lakini msukumo unaendelea: hakuna mtu anayepaswa kukabiliana na kizingiti cha maisha ya utu uzima bila hekima ya wale waliokivuka kabla yake."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Njira Mbiri za Utu Uzima"
@@ -10781,12 +10781,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Ecology and Environment",
       "sw": "Ikolojia na Mazingira",
-      "dig": "Ikolojia na Mazingira"
+      "dg": "Ikolojia na Mazingira"
     },
     "intro": {
       "en": "The Digo homeland occupies the southernmost tip of Kenya's coast, a territory of dramatic ecological variety compressed into a single county. Kwale County covers 8,270 square kilometres and holds…",
       "sw": "Nchi ya Wadigo inashika ncha ya kusini kabisa ya pwani ya Kenya, eneo lenye aina nyingi za ikolojia zilizosongwa katika kaunti moja. Kaunti ya Kwale inafunika kilometa za mraba 8,270 na inashikilia…",
-      "dig": "Tsi ya Adigo inashika ncha ya kusini kabisa ya ph'wani ya Kenya, eneo renye aina nyinji za ikolojia zirizosongwa kpwa kaunti mwenga. Kaunti ya Kwale inafunika kilometa za mraba 8,270 na inashikilia…"
+      "dg": "Tsi ya Adigo inashika ncha ya kusini kabisa ya ph'wani ya Kenya, eneo renye aina nyinji za ikolojia zirizosongwa kpwa kaunti mwenga. Kaunti ya Kwale inafunika kilometa za mraba 8,270 na inashikilia…"
     },
     "proverb": "Bahari taina msena",
     "proverbGloss": "The ocean has no friend",
@@ -10796,12 +10796,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Kaya Forests as Ecological Reserves",
           "sw": "Misitu ya Kaya kama Hifadhi za Ikolojia",
-          "dig": "Misitu ya Kaya Kukala Hifadhi za Ikolojia"
+          "dg": "Misitu ya Kaya Kukala Hifadhi za Ikolojia"
         },
         "intro": {
           "en": "The kaya forests of the Digo and the broader Mijikenda peoples are among the most remarkable examples on earth of spiritual practice producing ecological outcomes. For centuries, these sacred groves —…",
           "sw": "Misitu ya kaya ya Wadigo na Wamijikenda kwa jumla ni miongoni mwa mifano ya ajabu zaidi duniani ya mazoea ya kiroho yanayozalisha matokeo ya kiikolojia. Kwa karne nyingi, vijiti hivi vitakatifu…",
-          "dig": "Misitu ya kaya ya Adigo na Amijikenda kpwa jumla ni kahi ya mifano ya ajabu zaidi duniani ya mazoea ga kiroho ganagozalisha matokeo ga kiikolojia. Kpwa karne nyinji, vijiti hivi vihakatifu vimelindwa…"
+          "dg": "Misitu ya kaya ya Adigo na Amijikenda kpwa jumla ni kahi ya mifano ya ajabu zaidi duniani ya mazoea ga kiroho ganagozalisha matokeo ga kiikolojia. Kpwa karne nyinji, vijiti hivi vihakatifu vimelindwa…"
         },
         "body": {
           "en": [
@@ -10960,7 +10960,7 @@ export const domains: CultureDomain[] =
               "text": "Kaya zinaunda takriban asilimia 10 ya msitu wa pwani uliobaki nchini Kenya. Baadhi ya spishi zipo tu ndani ya misitu ya kaya — spishi ambazo zingetoweka duniani kama vichaka hivi vingeondolewa. Misitu mitakatifu ya Adigo si kumbukumbu ya kale ya mawazo ya zamani. Ni mafanikio ya uhifadhi ya kiwango cha juu, na kuendelea kuwepo kwake ni suala la umuhimu wa kiikolojia wa kimataifa."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Misitu Mihakatifu, Hifadhi Zirichohai"
@@ -11045,12 +11045,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Rivers and Monsoon Climate",
           "sw": "Mito na Hali ya Hewa ya Monsuni",
-          "dig": "Miho na Hali ya Hewa ya Monsuni"
+          "dg": "Miho na Hali ya Hewa ya Monsuni"
         },
         "intro": {
           "en": "The Digo coast belongs to the monsoon world — that vast climatic system stretching from the Arabian Sea to the shores of East Africa, driven by the seasonal reversal of winds that has shaped human…",
           "sw": "Pwani ya Wadigo ni sehemu ya ulimwengu wa monsuni — mfumo mkubwa wa hali ya hewa unaoenea kutoka Bahari ya Arabia hadi pwani ya Afrika Mashariki. Pepo hizo hizo zilizoleta wafanyabiashara wa Omani…",
-          "dig": "Ph'wani ya Adigo ni sehemu ya ulimwengu wa monsuni — mfumo mkpwulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi ph'wani ya Afrika ya Mashariki. Pepo zizo zizo zirizorehera afanyabiashara a Omani…"
+          "dg": "Ph'wani ya Adigo ni sehemu ya ulimwengu wa monsuni — mfumo mkpwulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi ph'wani ya Afrika ya Mashariki. Pepo zizo zizo zirizorehera afanyabiashara a Omani…"
         },
         "body": {
           "en": [
@@ -11233,7 +11233,7 @@ export const domains: CultureDomain[] =
               "text": "Kwa Adigo, mabadiliko ya tabianchi si tishio la siku zijazo linalojadiliwa katika mikutano ya kimataifa. Ni ukweli wa sasa unaoonekana katika mavuno yaliyoshindwa, visima vilivyokauka, na umbali unaokua kati ya ulimwengu ambao babu zao waliujua na ule wanaoishi ndani yake sasa. Pepo za monsuni bado zinavuma. Lakini hazibeba tena ahadi ile ile."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Ulimwengu wa Monsuni"
@@ -11330,12 +11330,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Shimba Hills",
           "sw": "Milima ya Shimba",
-          "dig": "Myango ya Shimba"
+          "dg": "Myango ya Shimba"
         },
         "intro": {
           "en": "Thirty-three kilometres south of Mombasa, the Shimba Hills rise from the coastal lowlands like a green wall, climbing steeply to 462 metres at Dzombo peak. They are visible from much of Kwale County —…",
           "sw": "Kilometa 33 kusini mwa Mombasa, Milima ya Shimba inainuka kutoka maeneo ya chini ya pwani hadi mita 462 kwenye kilele cha Dzombo. Kwa Wadigo, milima hii ni zaidi ya kipengele cha ardhi — ni chanzo cha…",
-          "dig": "Kilometa 33 kusini mwa Mombasa, Myango ya Shimba inainuka kula maeneo ga tsini ga ph'wani hadi mita 462 kpwa chilele cha Dzombo. Kpwa Adigo, myango hino ni zaidi ya chipengele cha ardhi — ni tsandzo ra…"
+          "dg": "Kilometa 33 kusini mwa Mombasa, Myango ya Shimba inainuka kula maeneo ga tsini ga ph'wani hadi mita 462 kpwa chilele cha Dzombo. Kpwa Adigo, myango hino ni zaidi ya chipengele cha ardhi — ni tsandzo ra…"
         },
         "body": {
           "en": [
@@ -11510,7 +11510,7 @@ export const domains: CultureDomain[] =
               "text": "Changamoto ya Shimba Hills ni changamoto inayokabili maeneo yaliyolindwa kote katika nchi zinazoendelea: jinsi ya kuoanisha nia ya kimataifa ya uhifadhi wa bioanuwai na hali halisi ya ndani ya jamii ambazo riziki na desturi zao za kitamaduni zinategemea kufikia rasilimali sawa ambazo uhifadhi unataka kulinda. Hifadhi ya Tembo ya Mwaluganje inatoa mfano mmoja — umiliki wa jamii, ambapo takriban wamiliki 260 wa ardhi wanakodisha mashamba yao kwa hifadhi na kupokea mapato ya utalii yanayozidi yale ardhi iliyozalisha kupitia kilimo. Lakini swali pana la jinsi Adigo wanavyohusiana na hifadhi ya kitaifa iliyochongwa kutoka eneo lao la mababu linabaki bila jibu, mazungumzo yanayoendelea kizazi baada ya kizazi kati ya madai ya ikolojia na madai ya utamaduni."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Alama ya Kaunti"
@@ -11603,12 +11603,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Four Zones of Digo Territory",
           "sw": "Maeneo Manne ya Nchi ya Wadigo",
-          "dig": "Maeneo Mane ga Tsi ya Adigo"
+          "dg": "Maeneo Mane ga Tsi ya Adigo"
         },
         "intro": {
           "en": "Kwale County, the heartland of the Digo people, contains within its 8,270 square kilometres a degree of ecological diversity that defies its modest size. The county stretches from the Indian Ocean…",
           "sw": "Kaunti ya Kwale, moyo wa nchi ya Wadigo, inashikilia ndani ya kilometa zake za mraba 8,270 aina ya utofauti wa kiikolojia inayopinga ukubwa wake mdogo. Kaunti inasogea kutoka ufukweni mwa Bahari ya…",
-          "dig": "Kaunti ya Kwale, moyo wa tsi ya Adigo, inashikilia ndani ya kilometa zakpwe za mraba 8,270 aina ya utofauti wa kiikolojia inayopinga ukpwulu wakpwe mudogo. Kaunti inasogea kula ufukweni mwa Bahari ya…"
+          "dg": "Kaunti ya Kwale, moyo wa tsi ya Adigo, inashikilia ndani ya kilometa zakpwe za mraba 8,270 aina ya utofauti wa kiikolojia inayopinga ukpwulu wakpwe mudogo. Kaunti inasogea kula ufukweni mwa Bahari ya…"
         },
         "body": {
           "en": [
@@ -11783,7 +11783,7 @@ export const domains: CultureDomain[] =
               "text": "Hii si kupamba hali hiyo. Mteremko wa kiikolojia kutoka pwani hadi uwanda unalingana karibu kikamilifu na mteremko wa kiuchumi kutoka fursa za kiasi hadi umaskini mkubwa. Changamoto zinazokabili jamii za Nyika si sawa na zile zinazokabili ukanda wa pwani, na masuluhisho yanayofanya kazi katika eneo moja yanaweza kuwa hayana umuhimu katika lingine. Lakini umoja wa utambulisho wa Kidigo katika maeneo haya ni mafanikio ya kitamaduni yanayostahili kutambuliwa — ushahidi wa nguvu ya lugha ya pamoja, ibada ya pamoja, na kumbukumbu ya pamoja katika kushikilia watu pamoja katika mandhari ambayo vinginevyo ingeweza kuwatenganisha."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Tsi ya Tofauti"
@@ -11878,12 +11878,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Contemporary Digo Life",
       "sw": "Maisha ya Wadigo Leo",
-      "dig": "Maisha ga Adigo Rero"
+      "dg": "Maisha ga Adigo Rero"
     },
     "intro": {
       "en": "The Digo people stand at a defining crossroads. With approximately 640,000 members in Kenya according to the 2019 census and a significant additional population in the Tanga Region of Tanzania, the…",
       "sw": "Wadigo wanasimama katika njia panda ya kipekee. Kwa idadi ya takriban 640,000 nchini Kenya kulingana na sensa ya 2019, na wengine wengi katika mkoa wa Tanga nchini Tanzania, Wadigo ni kabila kuu…",
-      "dig": "Adigo anasimama kpwa njira panda ya kipekee. Kpwa idadi ya kama 640,000 nchini Kenya kulingana na sensa ya 2019, na anjinji kpwa mkowa wa Tanga nchini Tanzania, Adigo ni kabila kulu kpwa Kaunti ya…"
+      "dg": "Adigo anasimama kpwa njira panda ya kipekee. Kpwa idadi ya kama 640,000 nchini Kenya kulingana na sensa ya 2019, na anjinji kpwa mkowa wa Tanga nchini Tanzania, Adigo ni kabila kulu kpwa Kaunti ya…"
     },
     "proverb": "Bandu-bandu yamala gogo",
     "proverbGloss": "Persistent effort accomplishes large tasks",
@@ -11893,12 +11893,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Digo Demographics",
           "sw": "Idadi ya Wadigo",
-          "dig": "Idadi ya Adigo"
+          "dg": "Idadi ya Adigo"
         },
         "intro": {
           "en": "The Digo are one of the nine Mijikenda peoples of the Kenyan coast, and among the Mijikenda they hold a distinctive position: they are the southernmost group, the one whose territory straddles an…",
           "sw": "Wadigo ni mojawapo ya makabila tisa ya Mijikenda ya pwani ya Kenya, na kati ya Mijikenda wanashikilia nafasi ya kipekee: ni kundi la kusini zaidi, lile ambalo eneo lake linapita mpaka wa kimataifa.…",
-          "dig": "Adigo ni mwenga wa makabila tisa ga Amijikenda ga ph'wani ya Kenya, na kahi ya Amijikenda anashikilia nafasi ya kipekee: ni kundi ra kusini zaidi, riro ambaro eneo rakpwe rinapishira mpaka wa kimataifa.…"
+          "dg": "Adigo ni mwenga wa makabila tisa ga Amijikenda ga ph'wani ya Kenya, na kahi ya Amijikenda anashikilia nafasi ya kipekee: ni kundi ra kusini zaidi, riro ambaro eneo rakpwe rinapishira mpaka wa kimataifa.…"
         },
         "body": {
           "en": [
@@ -12097,7 +12097,7 @@ export const domains: CultureDomain[] =
               "text": "Kwa karibu wanne kati ya watano wakazi walio chini ya miaka 34, mgawanyiko wa vizazi ndio mstari muhimu zaidi wa mivutano katika idadi ya watu wa Wadigo. Wadigo wakubwa huzungumza Chidigo kama lugha yao kuu, hushiriki katika sherehe za kaya, na kudumisha desturi za ukoo wa mama na mazoea ya jadi ambayo yamefafanua jamii kwa karne nyingi. Wadigo vijana wanavutiwa na Kiswahili, Kiingereza, na Sheng — lugha ya mtaani ambayo ni lugha ya kawaida ya vijana wa Kenya. Mazoea ya jadi kama mila ya *sengenya* ya kubalehe hayajulikani sana kwa vijana. Maisha ya kidijitali — WhatsApp, Facebook, TikTok — ndiyo aina kuu ya ushiriki wa kitamaduni kwa vijana waliounganishwa, ingawa ufikiaji wa intaneti mashambani bado ni mdogo sana kwa takriban asilimia 13.7. Swali la kama vijana watabeba mbele utambulisho wa kitamaduni ambao wazee wao wanashikilia si la kubembeleza. Ni ukweli wa idadi ya watu ambao utaamua mustakabali wa Wadigo kama watu tofauti."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Atu a Ph'wani ya Kusini"
@@ -12202,12 +12202,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Key Digo Towns",
           "sw": "Miji Muhimu ya Wadigo",
-          "dig": "Midzi Mihimu ya Adigo"
+          "dg": "Midzi Mihimu ya Adigo"
         },
         "intro": {
           "en": "The towns of the Digo coast are not ancient cities. They are settlements that have grown, some of them explosively, within living memory — shaped by colonial administration, post-independence…",
           "sw": "Miji ya pwani ya Wadigo si miji ya zamani. Ni makazi yaliyokua, baadhi kwa kasi ya ajabu, ndani ya kumbukumbu ya watu walio hai. Kila mji unashikilia nafasi maalum katika uchumi na utamaduni wa Kaunti…",
-          "dig": "Midzi ya ph'wani ya Adigo si midzi ya kare. Ni makazi garigokula, mangi kpwa kasi ya ajabu, ndani ya kumbukumbu ya atu ario hai. Chila mudzi unashikilia nafasi maalum kpwa uchumi na chimila cha Kaunti…"
+          "dg": "Midzi ya ph'wani ya Adigo si midzi ya kare. Ni makazi garigokula, mangi kpwa kasi ya ajabu, ndani ya kumbukumbu ya atu ario hai. Chila mudzi unashikilia nafasi maalum kpwa uchumi na chimila cha Kaunti…"
         },
         "body": {
           "en": [
@@ -12390,7 +12390,7 @@ export const domains: CultureDomain[] =
               "text": "Ingawa si mji wa Wadigo peke yake — Kinango ni eneo kuu la Waduruma, jamaa wa karibu zaidi wa Wadigo katika Mijikenda — unastahili kutajwa kwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao miji ya pwani haiuwakilishi. Kinango ni nusu kame, mashambani zaidi, na umepangwa karibu na uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakula wa muda mrefu ndio changamoto kuu hapa. Umbali wa jimbo kutoka pwani unamaanisha upatikanaji mdogo wa mapato ya utalii, uwekezaji mdogo wa miundombinu, na njia ya maisha ya jadi zaidi. Kwa Wadigo wanaoishi katika miji ya pwani, Kinango ni sehemu ya nyuma — mahali ambapo njia za zamani zinaendelea kuonekana zaidi, na ambapo umaskini wa Kaunti ya Kwale unahisika zaidi."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Jiografia ya Mabadiliko"
@@ -12487,12 +12487,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Digo Livelihoods",
           "sw": "Riziki za Wadigo",
-          "dig": "Riziki za Adigo"
+          "dg": "Riziki za Adigo"
         },
         "intro": {
           "en": "The Digo have always been a people defined by their relationship to two landscapes: the coastal lowland with its coconut palms, cashew trees, and fertile red soil, and the Indian Ocean with its fish,…",
           "sw": "Riziki za Wadigo bado zinaendelezwa na mazingira mawili: ardhi ya pwani yenye minazi na mikorosho, na Bahari ya Hindi yenye samaki na njia za biashara. Kilimo kinachukua takriban asilimia 80 ya mapato…",
-          "dig": "Riziki za Adigo bado zinaendezwa ni mazingira mambiri: ardhi ya ph'wani yenye minazi na mikorosho, na Bahari ya Hindi yenye ngʼonda na njira za biashara. Urimi unachukula kama asilimia 80 ya mapato ga…"
+          "dg": "Riziki za Adigo bado zinaendezwa ni mazingira mambiri: ardhi ya ph'wani yenye minazi na mikorosho, na Bahari ya Hindi yenye ngʼonda na njira za biashara. Urimi unachukula kama asilimia 80 ya mapato ga…"
         },
         "body": {
           "en": [
@@ -12707,7 +12707,7 @@ export const domains: CultureDomain[] =
               "text": "Pesa zinazotumwa nyumbani — kupitia jukwaa za pesa za simu kama M-Pesa, ambayo imebadilisha upatikanaji wa kifedha kote Kenya — zinasaidia ada za shule, gharama za matibabu, gharama za mazishi, na matunzo ya kawaida ya nyumba za mashambani. Uhamaji wa mijini pia huunda umbali wa kitamaduni: kijana wa Kidigo anayefanya kazi Mombasa au Nairobi anaweza kuzungumza Kiswahili kama lugha yake kuu, kudumisha mawasiliano ya mara kwa mara tu na mfumo wa kaya, na kujitambulisha na jamii yake ya mjini kama anavyojitambulisha na kijiji chake cha mababu. Faida ya kiuchumi ya uhamaji ni halisi; gharama ya kitamaduni ni vigumu kupima lakini si ndogo."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Uchumi Wenye Mizizi kpwa Ardhi na Bahari"
@@ -12820,12 +12820,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Post-Mining Landscape",
           "sw": "Mazingira Baada ya Uchimbaji",
-          "dig": "Mazingira Bada ya Uchimbaji"
+          "dg": "Mazingira Bada ya Uchimbaji"
         },
         "intro": {
           "en": "On a stretch of land in Kwale County's Msambweni sub-county, where coconut palms and cashew trees once stood in the red laterite soil, Base Titanium Limited operated what became Kenya's largest mining…",
           "sw": "Katika eneo la ardhi katika Kaunti ya Kwale, Base Titanium Limited iliendeshea uchimbaji mkubwa zaidi wa madini nchini Kenya kutoka 2013 hadi Desemba 2024. Kampuni ya Australia ilichimba madini ya…",
-          "dig": "Kpwa eneo ra ardhi kpwa Kaunti ya Kwale, Base Titanium Limited yaendeshea uchimbaji mkpwulu zaidi wa madini nchini Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yachimba madini ya titanium…"
+          "dg": "Kpwa eneo ra ardhi kpwa Kaunti ya Kwale, Base Titanium Limited yaendeshea uchimbaji mkpwulu zaidi wa madini nchini Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yachimba madini ya titanium…"
         },
         "body": {
           "en": [
@@ -13016,7 +13016,7 @@ export const domains: CultureDomain[] =
               "text": "Miaka kumi na moja ya uendeshaji wa Base Titanium katika Kaunti ya Kwale ilifundisha jamii ya Wadigo, na Kenya kwa ujumla, masomo magumu kadhaa. Kwanza, kwamba utajiri wa madini haubadilishwi moja kwa moja kuwa faida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya kisiasa ya kujadili masharti ya haki. Pili, kwamba ukarabati wa mazingira si urejesho wa mazingira — kile kilichoharibiwa katika muongo wa uchimbaji hakiwezi kujengwa upya katika muongo wa kupanda miti. Tatu, kwamba utegemezi wa kiuchumi juu ya operesheni moja ya uchimbaji huunda hatari ambayo inaonekana kikamilifu tu wakati wa kufungwa. Na nne, kwamba swali la nani anafaidika na rasilimali za asili za jamii si swali la kiuchumi tu kamwe. Ni swali la haki, la uhuru juu ya ardhi ya mababu, na la haki ya watu kuamua masharti ambayo urithi wao unatumiwa."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mgodi Uriobadilisha Chila Chitu"
@@ -13119,12 +13119,12 @@ export const domains: CultureDomain[] =
     "title": {
       "en": "Diaspora and Connections",
       "sw": "Ugeni na Mahusiano",
-      "dig": "Ugeni na Mahusiano"
+      "dg": "Ugeni na Mahusiano"
     },
     "intro": {
       "en": "The Digo world does not end at the borders of Kwale County, and it never has. Long before European cartographers drew lines across East Africa, the Digo inhabited a continuous stretch of the Indian…",
       "sw": "Ulimwengu wa Wadigo hauishii mipakani mwa Kaunti ya Kwale, wala haujawahi kuisha hapo. Kabla ya wakoloni kuchora mipaka katika Afrika ya Mashariki, Wadigo waliishi eneo linaloendelea la pwani ya…",
-      "dig": "Ulimwengu wa Adigo tauishira mipakanini mwa Kaunti ya Kwale, wala taujawahi kuishira hipho. Kabila ya akoloni kuchora mipaka kpwa Afrika ya Mashariki, Adigo aishi eneo rinaroendelea ra ph'wani ya Bahari…"
+      "dg": "Ulimwengu wa Adigo tauishira mipakanini mwa Kaunti ya Kwale, wala taujawahi kuishira hipho. Kabila ya akoloni kuchora mipaka kpwa Afrika ya Mashariki, Adigo aishi eneo rinaroendelea ra ph'wani ya Bahari…"
     },
     "proverb": "Mnazi mmwenga una uchi wani?",
     "proverbGloss": "What wine from one palm tree?",
@@ -13134,12 +13134,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Kenyan and Tanzanian Digo",
           "sw": "Wadigo wa Kenya na Tanzania",
-          "dig": "Adigo a Kenya na Tanzania"
+          "dg": "Adigo a Kenya na Tanzania"
         },
         "intro": {
           "en": "When the colonial border divided the Digo in 1886, it set two halves of a single community on divergent historical paths. For over a century, Kenyan Digo and Tanzanian Digo have lived under different…",
           "sw": "Mpaka wa kikoloni ulipogawa Wadigo mwaka 1886, uliweka nusu mbili za jamii moja kwenye njia tofauti za kihistoria. Kwa zaidi ya karne moja, Wadigo wa Kenya na Wadigo wa Tanzania wameishi chini ya…",
-          "dig": "Mpaka wa kikoloni uriphogawa Adigo mwaka 1886, waika nusu mbiri za jamii mwenga kpwa njira tofauti za kihistoria. Kpwa zaidi ya miaka mia mwenga, Adigo a Kenya na Adigo a Tanzania aishi photsi pha…"
+          "dg": "Mpaka wa kikoloni uriphogawa Adigo mwaka 1886, waika nusu mbiri za jamii mwenga kpwa njira tofauti za kihistoria. Kpwa zaidi ya miaka mia mwenga, Adigo a Kenya na Adigo a Tanzania aishi photsi pha…"
         },
         "body": {
           "en": [
@@ -13314,7 +13314,7 @@ export const domains: CultureDomain[] =
               "text": "Lakini kinachoendelea kudumu kina nguvu zaidi ya kilichobadilika. Lugha ya Chidigo, kwa mabadiliko yake yote, inabaki kuwa lugha mama ya jamii zote mbili. Uislamu unatoa mfumo wa pamoja wa kiroho. Vyakula vya nazi, mila za sherehe, kushikamana na mandhari ya pwani — hizi ni vitu vya kudumu ambavyo hakuna mpaka wa kisiasa wala itikadi ya kitaifa iliyoweza kubadilisha. Adigo wanabaki watu wamoja wanaoishi toleo mbili za maisha sawa ya kitamaduni, na tofauti zao, kama tofauti kati ya ndugu waliolelewa katika nyumba tofauti, zinasisitiza tu ufanano wa kifamilia unaowafanya watambulike, bila kubadilika, kuwa watu wale wale."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Atu Amwenga, Njira Mbiri"
@@ -13407,12 +13407,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Lunga Lunga-Horohoro Border Crossing",
           "sw": "Kivuko cha Mpaka wa Lunga Lunga-Horohoro",
-          "dig": "Kivuko cha Mpaka wa Lunga Lunga-Horohoro"
+          "dg": "Kivuko cha Mpaka wa Lunga Lunga-Horohoro"
         },
         "intro": {
           "en": "The tarmac road from Mombasa runs south through Kwale County, past Ukunda and Diani Beach, past the sisal estates and cashew plantations, past the small trading centres where women sell coconuts and…",
           "sw": "Barabara ya lami kutoka Mombasa inaendesha kusini kupitia Kaunti ya Kwale hadi inafika Lunga Lunga — mji wa mwisho nchini Kenya kabla ya Tanzania. Hapa, barabara inakutana na mpaka. Upande wa…",
-          "dig": "Barabara ya lami kula Mombasa inaendza kusini kupishira Kaunti ya Kwale hadi inafikira Lunga Lunga — mudzi wa mwisho kpwa Kenya kabila ya Tanzania. Hiphano, barabara inakutana na mpaka. Upande wa…"
+          "dg": "Barabara ya lami kula Mombasa inaendza kusini kupishira Kaunti ya Kwale hadi inafikira Lunga Lunga — mudzi wa mwisho kpwa Kenya kabila ya Tanzania. Hiphano, barabara inakutana na mpaka. Upande wa…"
         },
         "body": {
           "en": [
@@ -13563,7 +13563,7 @@ export const domains: CultureDomain[] =
               "text": "Hii si taarifa ya kisiasa. Adigo si watengaji wala wanaodai maeneo. Wao ni raia waaminifu wa nchi zao husika. Lakini pia ni, wakati huo huo, wanachama wa jamii inayotangulia nchi hizo na inayokataa kukubali mpaka kuwa neno la mwisho kuhusu wao ni nani na wanamilikiwa na nani. Huko Lunga Lunga, kila kuvuka ni kitendo kidogo cha kudumu kwa utamaduni — kusisitiza kwa utulivu kwamba ukoo, lugha, na mila ya pamoja vina umuhimu zaidi kuliko mistari kwenye ramani iliyochorwa na wageni katika mji wa mbali, karne moja na nusu iliyopita."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Phatu Ambapho Barabara Inagawanyika"
@@ -13644,12 +13644,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "Digo Migration",
           "sw": "Uhamiaji wa Wadigo",
-          "dig": "Uhamiaji wa Adigo"
+          "dg": "Uhamiaji wa Adigo"
         },
         "intro": {
           "en": "For generations, to be Digo was to be of the coast — rooted in the coconut groves and cashew plantations of Kwale, anchored to the rhythm of the monsoon seasons, defined by the proximity of the Indian…",
           "sw": "Kwa vizazi vingi, kuwa Mdigo ilikuwa kuwa wa pwani — wenye mizizi katika mashamba ya nazi ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano huo haujaachwa, lakini umechanganyikiwa.…",
-          "dig": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa ph'wani — wenye mizizi kpwa mashamba ga nazi ga Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano uwo taujalaviwa, ela umechanganyikiwa.…"
+          "dg": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa ph'wani — wenye mizizi kpwa mashamba ga nazi ga Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano uwo taujalaviwa, ela umechanganyikiwa.…"
         },
         "body": {
           "en": [
@@ -13840,7 +13840,7 @@ export const domains: CultureDomain[] =
               "text": "Jibu, kwa sasa, ni kwamba uhusiano unashikilia. Unapigwa, unabadilika, unahitaji juhudi za makusudi zaidi kuliko hapo awali. Lakini unashikilia. Mdigo anayeondoka Kwale anabeba Kwale naye — katika lugha, katika ladha ya wali wa nazi, katika silika ya kuelekea Makka mara tano kwa siku, katika maarifa ya ukoo gani wanahusika na mstari wa bibi yupi wanaubeba. Uhamaji unabadilisha ulimwengu wa Kidigo, lakini bado haujauangusha."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mvuto wa Mudzi Mkpwulu"
@@ -13941,12 +13941,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Digo as a Transborder People",
           "sw": "Wadigo Kama Watu wa Mpakani",
-          "dig": "Adigo Kukala Atu a Mpakani"
+          "dg": "Adigo Kukala Atu a Mpakani"
         },
         "intro": {
           "en": "In November 1886, representatives of the British and German empires sat in a room in Berlin and drew a line across a map of East Africa. The line began at the mouth of the Umba River on the Indian…",
           "sw": "Mnamo Novemba 1886, wawakilishi wa milki za Uingereza na Ujerumani waliketi Berlin na kuchora mstari kwenye ramani ya Afrika ya Mashariki, ukigawa maeneo ambayo yangekuwa Kenya na Tanzania. Wajadili…",
-          "dig": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani aketi Berlin na kuchora musitari kpwa ramani ya Afrika ya Mashariki, ukigawa maeneo ambago gangekala Kenya na Tanzania.…"
+          "dg": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani aketi Berlin na kuchora musitari kpwa ramani ya Afrika ya Mashariki, ukigawa maeneo ambago gangekala Kenya na Tanzania.…"
         },
         "body": {
           "en": [
@@ -14105,7 +14105,7 @@ export const domains: CultureDomain[] =
               "text": "Hadithi ya Adigo kama watu wa kuvuka mpaka ni, kwa maana hii, hadithi kuhusu mipaka ya nguvu ya serikali juu ya utambulisho wa kitamaduni. Mipaka inaweza kugawanya maeneo. Inaweza kufanya maisha kuwa magumu. Inaweza kuleta ndoto mbaya za kibiashara kwa familia ambazo kosa lao pekee ni kuwa na uhusiano na watu upande mwingine. Lakini haiwezi, kwa zaidi ya karne moja, kukata vifungo vya lugha, ukoo, na mila ya pamoja vinavyofanya watu kuwa watu. Adigo wanabaki wamoja, hata wanapobeba bendera mbili."
             }
           ],
-          "dig": [
+          "dg": [
             {
               "type": "heading",
               "text": "Mpaka Ambao Taauuchora"

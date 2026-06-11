@@ -39,7 +39,7 @@ export function HistoryIndex() {
           <p className={styles.eyebrow}>{t.history.eyebrow}</p>
           <h1 className={styles.heroTitle}>{t.history.title}</h1>
           <p className={styles.heroIntro}>{t.history.intro}</p>
-          <p className={styles.proverb} lang="dig">
+          <p className={styles.proverb} lang="dg">
             <em>{historyDomain.proverb}</em>
           </p>
           <p className={styles.gloss}>{historyDomain.proverbGloss}</p>

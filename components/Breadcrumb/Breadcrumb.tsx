@@ -3,6 +3,7 @@
 import { type ReactNode, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
+import { pathnameWithoutLocale, localePath } from '@/lib/i18n/locale-path';
 import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
 import { getLanguageTopic } from '@/lib/language/content';
@@ -11,9 +12,12 @@ import { trackNavClick } from '@/lib/analytics/track';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
 export function Breadcrumb() {
-  const pathname = usePathname();
+  const rawPathname = usePathname();
   const t = useTranslations();
   const { locale } = useLocale();
+  const pathname = pathnameWithoutLocale(rawPathname);
+
+  const lp = useCallback((path: string) => localePath(path, locale), [locale]);
 
   const renderLink = useCallback((href: string, children: ReactNode) => (
     <a
@@ -28,12 +32,12 @@ export function Breadcrumb() {
   if (pathname === '/') return null;
 
   const segments = pathname.split('/').filter(Boolean);
-  const items: BreadcrumbItem[] = [{ label: t.breadcrumb.home, href: '/' }];
+  const items: BreadcrumbItem[] = [{ label: t.breadcrumb.home, href: lp('/') }];
 
   if (segments[0] === 'culture') {
     items.push({
       label: t.breadcrumb.culture,
-      href: segments.length > 1 ? '/culture' : undefined,
+      href: segments.length > 1 ? lp('/culture') : undefined,
     });
 
     if (segments[1]) {
@@ -41,7 +45,7 @@ export function Breadcrumb() {
       if (domain) {
         items.push({
           label: domain.title[locale],
-          href: segments[2] ? `/culture/${segments[1]}` : undefined,
+          href: segments[2] ? lp(`/culture/${segments[1]}`) : undefined,
         });
       }
 
@@ -55,7 +59,7 @@ export function Breadcrumb() {
   } else if (segments[0] === 'history') {
     items.push({
       label: t.breadcrumb.history,
-      href: segments.length > 1 ? '/history' : undefined,
+      href: segments.length > 1 ? lp('/history') : undefined,
     });
 
     if (segments[1]) {
@@ -67,7 +71,7 @@ export function Breadcrumb() {
   } else if (segments[0] === 'language') {
     items.push({
       label: t.breadcrumb.language,
-      href: segments.length > 1 ? '/language' : undefined,
+      href: segments.length > 1 ? lp('/language') : undefined,
     });
 
     if (segments[1] === 'quiz') {
@@ -75,7 +79,7 @@ export function Breadcrumb() {
     } else if (segments[1] === 'dictionary') {
       items.push({
         label: t.breadcrumb.dictionary,
-        href: segments.length > 2 ? '/language/dictionary' : undefined,
+        href: segments.length > 2 ? lp('/language/dictionary') : undefined,
       });
       if (segments[2] === 'word' && segments[3]) {
         items.push({ label: decodeURIComponent(segments[3]) });
@@ -86,7 +90,7 @@ export function Breadcrumb() {
     } else if (segments[1] === 'proverbs') {
       items.push({
         label: t.breadcrumb.proverbs,
-        href: segments.length > 2 ? '/language/proverbs' : undefined,
+        href: segments.length > 2 ? lp('/language/proverbs') : undefined,
       });
       if (segments[2] === 'theme' && segments[3]) {
         const theme = getTheme(segments[3]);
@@ -111,7 +115,7 @@ export function Breadcrumb() {
   } else if (segments[0] === 'profile') {
     items.push({
       label: t.breadcrumb.profile,
-      href: segments.length > 1 ? '/profile' : undefined,
+      href: segments.length > 1 ? lp('/profile') : undefined,
     });
 
     if (segments[1] === 'manage') {

@@ -1,4 +1,4 @@
-export type Locale = 'en' | 'sw' | 'dig';
+export type Locale = 'en' | 'sw' | 'dg';
 
 export interface LocaleConfig {
   code: Locale;
@@ -460,15 +460,17 @@ export interface Messages {
 export const locales: LocaleConfig[] = [
   { code: 'en', name: 'English', shortName: 'ENG', htmlLang: 'en', ogLocale: 'en_US' },
   { code: 'sw', name: 'Kiswahili', shortName: 'SWA', htmlLang: 'sw', ogLocale: 'sw_KE' },
-  { code: 'dig', name: 'Chidigo', shortName: 'DIG', htmlLang: 'dig', ogLocale: 'dig' },
+  { code: 'dg', name: 'Chidigo', shortName: 'DIG', htmlLang: 'dg', ogLocale: 'dg_KE' },
 ];
 
 export const defaultLocale: Locale = 'en';
 
+export const NON_DEFAULT_LOCALES = ['sw', 'dg'] as const;
+
 export const STORAGE_KEY = 'chidigo-lang';
 
 export function isLocale(value: unknown): value is Locale {
-  return value === 'en' || value === 'sw' || value === 'dig';
+  return value === 'en' || value === 'sw' || value === 'dg';
 }
 
 export function getLocaleConfig(locale: Locale): LocaleConfig {

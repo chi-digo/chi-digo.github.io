@@ -15,7 +15,7 @@ type ContentIndexEntry = {
   digo_terms: string[];
 };
 
-const DIGO_TERM_RE = /\{dig:([^}]+)\}/g;
+const DIGO_TERM_RE = /\{dg:([^}]+)\}/g;
 
 function extractDigoTerms(blocks: { type: string; text: string }[]): string[] {
   const terms = new Set<string>();
@@ -41,16 +41,16 @@ for (const domain of domains) {
     const digoTerms = [
       ...extractDigoTerms(topic.body.en || []),
       ...extractDigoTerms(topic.body.sw || []),
-      ...extractDigoTerms(topic.body.dig || []),
+      ...extractDigoTerms(topic.body.dg || []),
     ];
 
     const keywords = [
       domain.title.en.toLowerCase(),
       domain.title.sw.toLowerCase(),
-      domain.title.dig.toLowerCase(),
+      domain.title.dg.toLowerCase(),
       topic.title.en.toLowerCase(),
       topic.title.sw.toLowerCase(),
-      topic.title.dig.toLowerCase(),
+      topic.title.dg.toLowerCase(),
     ];
 
     entries.push({
@@ -61,7 +61,7 @@ for (const domain of domains) {
       intro: {
         en: truncate(topic.intro.en, 200),
         sw: truncate(topic.intro.sw, 200),
-        dig: truncate(topic.intro.dig, 200),
+        dg: truncate(topic.intro.dg, 200),
       },
       keywords: [...new Set(keywords)],
       digo_terms: [...new Set(digoTerms)],
@@ -73,7 +73,7 @@ for (const topic of historyDomain.topics) {
   const digoTerms = [
     ...extractDigoTerms(topic.body.en || []),
     ...extractDigoTerms(topic.body.sw || []),
-    ...extractDigoTerms(topic.body.dig || []),
+    ...extractDigoTerms(topic.body.dg || []),
   ];
 
   entries.push({
@@ -83,13 +83,13 @@ for (const topic of historyDomain.topics) {
     intro: {
       en: truncate(topic.intro.en, 200),
       sw: truncate(topic.intro.sw, 200),
-      dig: truncate(topic.intro.dig, 200),
+      dg: truncate(topic.intro.dg, 200),
     },
     keywords: [
       historyDomain.title.en.toLowerCase(),
       topic.title.en.toLowerCase(),
       topic.title.sw.toLowerCase(),
-      topic.title.dig.toLowerCase(),
+      topic.title.dg.toLowerCase(),
     ],
     digo_terms: [...new Set(digoTerms)],
   });
@@ -99,7 +99,7 @@ for (const topic of oralTraditionsDomain.topics) {
   const digoTerms = [
     ...extractDigoTerms(topic.body.en || []),
     ...extractDigoTerms(topic.body.sw || []),
-    ...extractDigoTerms(topic.body.dig || []),
+    ...extractDigoTerms(topic.body.dg || []),
   ];
 
   entries.push({
@@ -109,13 +109,13 @@ for (const topic of oralTraditionsDomain.topics) {
     intro: {
       en: truncate(topic.intro.en, 200),
       sw: truncate(topic.intro.sw, 200),
-      dig: truncate(topic.intro.dig, 200),
+      dg: truncate(topic.intro.dg, 200),
     },
     keywords: [
       oralTraditionsDomain.title.en.toLowerCase(),
       topic.title.en.toLowerCase(),
       topic.title.sw.toLowerCase(),
-      topic.title.dig.toLowerCase(),
+      topic.title.dg.toLowerCase(),
     ],
     digo_terms: [...new Set(digoTerms)],
   });

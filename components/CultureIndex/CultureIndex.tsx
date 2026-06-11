@@ -50,7 +50,7 @@ function Hero({
         <h1 className={styles.heroTitle}>{title}</h1>
         {intro && <p className={styles.heroIntro}>{intro}</p>}
         {proverb && (
-          <p className={styles.proverb} lang="dig">
+          <p className={styles.proverb} lang="dg">
             <em>{proverb}</em>
           </p>
         )}

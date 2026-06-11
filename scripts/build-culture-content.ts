@@ -12,7 +12,7 @@ import { join, basename } from 'path';
 const CONTENT_DIR = join(__dirname, '..', 'context', 'culture-content');
 const OUTPUT_FILE = join(__dirname, '..', 'landing', 'lib', 'culture', 'content.ts');
 
-type Locale = 'en' | 'sw' | 'dig';
+type Locale = 'en' | 'sw' | 'dg';
 
 type ContentBlock =
   | { type: 'heading'; text: string }
@@ -62,12 +62,12 @@ function parseTitle(line: string): Record<Locale, string> {
   return {
     en: (parts[0] || cleaned).trim(),
     sw: (parts[1] || parts[0] || cleaned).trim(),
-    dig: (parts[2] || parts[1] || parts[0] || cleaned).trim(),
+    dg: (parts[2] || parts[1] || parts[0] || cleaned).trim(),
   };
 }
 
 function splitLocales(content: string): Record<Locale, string> {
-  const result: Record<Locale, string> = { en: '', sw: '', dig: '' };
+  const result: Record<Locale, string> = { en: '', sw: '', dg: '' };
 
   const enMatch = content.indexOf('## English');
   const swMatch = content.indexOf('## Kiswahili');
@@ -84,7 +84,7 @@ function splitLocales(content: string): Record<Locale, string> {
   }
 
   if (digMatch !== -1) {
-    result.dig = content.slice(digMatch + '## Chidigo'.length).trim();
+    result.dg = content.slice(digMatch + '## Chidigo'.length).trim();
   }
 
   return result;
@@ -155,7 +155,7 @@ function processFile(filePath: string): { title: Record<Locale, string>; localeB
   const localeBlocks: Record<Locale, ContentBlock[]> = {
     en: parseBlocks(localeTexts.en),
     sw: parseBlocks(localeTexts.sw),
-    dig: parseBlocks(localeTexts.dig),
+    dg: parseBlocks(localeTexts.dg),
   };
 
   return { title, localeBlocks };
@@ -170,7 +170,7 @@ function buildDomain(domainSlug: string): CultureDomain {
   const domainIntro: Record<Locale, string> = {
     en: extractIntro(indexBlocks.en),
     sw: extractIntro(indexBlocks.sw),
-    dig: extractIntro(indexBlocks.dig),
+    dg: extractIntro(indexBlocks.dg),
   };
 
   // Parse topic files
@@ -188,7 +188,7 @@ function buildDomain(domainSlug: string): CultureDomain {
       intro: {
         en: extractIntro(localeBlocks.en),
         sw: extractIntro(localeBlocks.sw),
-        dig: extractIntro(localeBlocks.dig),
+        dg: extractIntro(localeBlocks.dg),
       },
       body: localeBlocks,
     };

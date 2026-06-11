@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { useTranslations } from '@/lib/i18n/context';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { track } from '@/lib/analytics/track';
@@ -61,10 +60,10 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <Link href="/" aria-label="Chidigo home" className={styles.logoLink}>
+          <TrackedLink href="/" source="footer_logo" aria-label="Chidigo home" className={styles.logoLink}>
             <VigangoMark />
             <span className={styles.brandName}>Chidigo</span>
-          </Link>
+          </TrackedLink>
         </div>
 
         <div className={styles.columns}>

@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useRef } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
+import { localePath } from '@/lib/i18n/locale-path';
 import { useSearch } from '@/hooks/useSearch';
 import { track } from '@/lib/analytics/track';
 import type { SearchResult } from '@/lib/dictionary/search';
@@ -11,7 +12,7 @@ import styles from './DictionarySection.module.css';
 
 function getEquivByLocale(result: SearchResult, locale: Locale): string {
   if (locale === 'sw') return result.equivalent_sw || result.equivalent;
-  if (locale === 'dig') return result.equivalent_dg || result.equivalent;
+  if (locale === 'dg') return result.equivalent_dg || result.equivalent;
   return result.equivalent;
 }
 
@@ -78,9 +79,9 @@ export function DictionarySection() {
       track('dictionary', 'search', 'select_result', { headword: result.headword, query, source: 'homepage' });
       setIsFocused(false);
       setQuery('');
-      window.location.href = `/language/dictionary/word/${encodeURIComponent(result.headword)}`;
+      window.location.href = localePath(`/language/dictionary/word/${encodeURIComponent(result.headword)}`, locale);
     },
-    [setQuery, query],
+    [setQuery, query, locale],
   );
 
   const handleSubmit = useCallback(
@@ -89,15 +90,15 @@ export function DictionarySection() {
       if (query.trim()) {
         track('dictionary', 'search', 'submit', { query: query.trim(), source: 'homepage' });
         setIsFocused(false);
-        window.location.href = `/language/dictionary?q=${encodeURIComponent(query.trim())}`;
+        window.location.href = localePath(`/language/dictionary?q=${encodeURIComponent(query.trim())}`, locale);
       }
     },
-    [query],
+    [query, locale],
   );
 
   const handleWordClick = useCallback((headword: string) => {
-    window.location.href = `/language/dictionary/word/${encodeURIComponent(headword)}`;
-  }, []);
+    window.location.href = localePath(`/language/dictionary/word/${encodeURIComponent(headword)}`, locale);
+  }, [locale]);
 
   return (
     <section id="dictionary" className={styles.section}>

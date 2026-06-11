@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import localFont from "next/font/local";
-import { ClientShell } from "@/components/ClientShell";
+import { isLocale, getLocaleConfig, defaultLocale } from "@/lib/i18n/config";
 import { JsonLd } from "@/components/JsonLd";
 import { websiteJsonLd } from "@/lib/seo/jsonld";
 import "./globals.css";
@@ -53,22 +54,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = await headers();
+  const rawLocale = headersList.get("x-locale") ?? defaultLocale;
+  const htmlLang = isLocale(rawLocale) ? getLocaleConfig(rawLocale).htmlLang : "en";
+
   return (
-    <html lang="en" className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang={htmlLang} className={`${fraunces.variable} ${sourceSerif.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0E1A2A" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('chidigo-lang');if(s==='sw'||s==='dig'){document.documentElement.lang=s;document.documentElement.classList.add('lang-'+s)}}catch(e){}})()`,
-          }}
-        />
       </head>
       <body>
         <div id="splash" role="status" aria-label="Loading Chidigo">
@@ -86,7 +86,7 @@ export default function RootLayout({
           </svg>
         </div>
         <JsonLd data={websiteJsonLd()} />
-        <ClientShell>{children}</ClientShell>
+        {children}
       </body>
     </html>
   );
