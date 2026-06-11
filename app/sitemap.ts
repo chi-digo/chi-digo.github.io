@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { domains } from '@/lib/culture/content';
 import { historyDomain } from '@/lib/history/content';
 import { oralTraditionsDomain } from '@/lib/language/content';
+import { localePath } from '@/lib/i18n/locale-path';
 import { DIGO_ALPHABET } from '@/lib/constants';
 
 const SITE_URL = 'https://chidigo.org';
@@ -21,8 +22,9 @@ function entry(
     alternates: {
       languages: {
         en: `${SITE_URL}${path}`,
-        sw: `${SITE_URL}/sw${path === '/' ? '' : path}`,
-      },
+        sw: `${SITE_URL}${localePath(path, 'sw')}`,
+        dg: `${SITE_URL}${localePath(path, 'dg')}`,
+      } as Record<string, string>,
     },
   };
 }

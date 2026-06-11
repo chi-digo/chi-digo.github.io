@@ -25,8 +25,8 @@ export function buildMetadata(opts: {
 
   const languages: Record<string, string> = {
     en: `${SITE_URL}${path}`,
-    sw: `${SITE_URL}/sw${path === '/' ? '' : path}`,
-    dg: `${SITE_URL}/dg${path === '/' ? '' : path}`,
+    sw: `${SITE_URL}${localePath(path, 'sw')}`,
+    dg: `${SITE_URL}${localePath(path, 'dg')}`,
     'x-default': `${SITE_URL}${path}`,
   };
 
