@@ -79,6 +79,7 @@ export function definedTermJsonLd(opts: {
   path: string;
   locale?: Locale;
 }) {
+  const lang = opts.locale ? (LOCALE_TO_LANGUAGE[opts.locale] ?? 'en') : 'en';
   const url = opts.locale ? localePath(opts.path, opts.locale) : opts.path;
   return {
     '@context': 'https://schema.org',
@@ -92,6 +93,7 @@ export function definedTermJsonLd(opts: {
     },
     termCode: opts.pos,
     url: `${SITE_URL}${url}`,
+    inLanguage: lang,
   };
 }
 
