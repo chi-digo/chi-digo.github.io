@@ -394,7 +394,7 @@ export function NavBar() {
             <>
               <div className={styles.drawerDivider} />
               {user ? (
-                <>
+                <div className={styles.drawerAuthRow}>
                   <TrackedLink
                     href="/profile"
                     source="navbar_mobile"
@@ -405,16 +405,19 @@ export function NavBar() {
                   </TrackedLink>
                   <button
                     type="button"
-                    className={styles.drawerLink}
+                    className={styles.drawerSignOut}
+                    aria-label={t.auth.sign_out}
                     onClick={async () => {
                       track('orientation', 'auth', 'sign_out', { source: 'navbar_mobile' });
                       setMobileOpen(false);
                       await signOut();
                     }}
                   >
-                    {t.auth.sign_out}
+                    <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                      <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3M11 11l3-3-3-3M14 8H6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                   </button>
-                </>
+                </div>
               ) : (
                 <TrackedLink
                   href="/sign-in"
