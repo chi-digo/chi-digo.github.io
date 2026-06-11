@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (profile?.display_name) name = profile.display_name;
   }
 
-  const title = `${name} akukualika kpwa Chidigo quiz!`;
-  const description = `Amephaha ${challenge.score}/${challenge.total}. Unaweza kumshinda?`;
+  const title = `${name} challenged you to a Chidigo quiz!`;
+  const description = `They scored ${challenge.score}/${challenge.total}. Can you beat them?`;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chidigo.org';
 
   return {
