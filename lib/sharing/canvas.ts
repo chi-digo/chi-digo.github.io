@@ -27,7 +27,7 @@ function getDefinition(entry: DictionaryEntry, locale: Locale, senseIndex = 0): 
   const sense = entry.senses?.[senseIndex] ?? entry.senses?.[0];
   if (!sense) return entry.equivalents_en?.[0] || '';
   if (locale === 'sw') return sense.definition_sw || sense.definition_en || '';
-  if (locale === 'dig') return sense.definition_dg || sense.definition_en || '';
+  if (locale === 'dg') return sense.definition_dg || sense.definition_en || '';
   return sense.definition_en || '';
 }
 

@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { SearchCombobox } from '@/components/SearchCombobox';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { locales, type Locale } from '@/lib/i18n/config';
+import { pathnameWithoutLocale, localePath } from '@/lib/i18n/locale-path';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { trackLocaleSwitch } from '@/lib/analytics/track';
 import { track } from '@/lib/analytics/track';
@@ -67,7 +68,7 @@ export function NavBar() {
   }, [setQuery]);
 
   const handleSearchSelect = useCallback((href: string, meta: { group: string; seeAll: boolean }) => {
-    router.push(href);
+    router.push(localePath(href, locale));
     closeSearch();
     track('orientation', 'search', meta.seeAll ? 'see_all' : 'select_result', {
       href,
@@ -75,13 +76,13 @@ export function NavBar() {
       query,
       device: 'mobile',
     });
-  }, [router, closeSearch, query]);
+  }, [router, closeSearch, query, locale]);
 
   const handleSearchSubmit = useCallback((q: string) => {
-    router.push(`/search?q=${encodeURIComponent(q)}`);
+    router.push(localePath(`/search?q=${encodeURIComponent(q)}`, locale));
     closeSearch();
     track('orientation', 'search', 'submit', { query: q });
-  }, [router, closeSearch]);
+  }, [router, closeSearch, locale]);
 
   useEffect(() => {
     if (!open) return;
@@ -213,7 +214,8 @@ export function NavBar() {
   );
 
   const currentConfig = locales.find((l) => l.code === locale)!;
-  const pathname = usePathname();
+  const rawPathname = usePathname();
+  const pathname = pathnameWithoutLocale(rawPathname);
 
   function linkClass(href: string, mobile?: boolean) {
     const active =
@@ -263,7 +265,7 @@ export function NavBar() {
           setMobileOpen(false);
           track('orientation', 'search', 'open', { device: 'mobile' });
         }}
-        aria-label={locale === 'sw' ? 'Tafuta' : locale === 'dig' ? 'Tafuta' : 'Search'}
+        aria-label={locale === 'sw' ? 'Tafuta' : locale === 'dg' ? 'Tafuta' : 'Search'}
       >
         <SearchIcon className={styles.searchIcon} />
       </button>
@@ -447,13 +449,13 @@ export function NavBar() {
               autoFocus
               placeholder={
                 locale === 'sw' ? 'Tafuta…'
-                  : locale === 'dig' ? 'Tafuta…'
+                  : locale === 'dg' ? 'Tafuta…'
                     : 'Search…'
               }
               emptyState={
                 query.trim().length >= 2 ? (
                   <p style={{ textAlign: 'center', color: 'var(--fg-muted)', fontSize: '0.85rem', margin: 0 }}>
-                    {locale === 'sw' ? 'Hakuna matokeo' : locale === 'dig' ? 'Takuna matokeo' : 'No results found'}
+                    {locale === 'sw' ? 'Hakuna matokeo' : locale === 'dg' ? 'Takuna matokeo' : 'No results found'}
                   </p>
                 ) : undefined
               }
@@ -464,7 +466,7 @@ export function NavBar() {
               onClick={closeSearch}
               aria-label="Close search"
             >
-              {locale === 'sw' ? 'Ghairi' : locale === 'dig' ? 'Ghairi' : 'Cancel'}
+              {locale === 'sw' ? 'Ghairi' : locale === 'dg' ? 'Ghairi' : 'Cancel'}
             </button>
           </div>
         </div>

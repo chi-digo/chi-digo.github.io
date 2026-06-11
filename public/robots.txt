@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chidigo.org/sitemap-index.xml
+Sitemap: https://chidigo.org/sitemap.xml
+Sitemap: https://chidigo.org/dictionary-sitemap.xml
