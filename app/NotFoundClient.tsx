@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
+import { localePath } from '@/lib/i18n/locale-path';
 import { Button } from '@chi-digo/design-system';
 import styles from './not-found.module.css';
 
@@ -119,7 +120,7 @@ export default function NotFoundClient() {
       </div>
 
       <div className={styles.actions}>
-        <Button variant="primary" onClick={() => router.push('/')}>
+        <Button variant="primary" onClick={() => router.push(localePath('/', locale))}>
           {t.not_found.back_home}
         </Button>
       </div>

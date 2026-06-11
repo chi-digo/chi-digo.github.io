@@ -460,7 +460,7 @@ export interface Messages {
 export const locales: LocaleConfig[] = [
   { code: 'en', name: 'English', shortName: 'ENG', htmlLang: 'en', ogLocale: 'en_US' },
   { code: 'sw', name: 'Kiswahili', shortName: 'SWA', htmlLang: 'sw', ogLocale: 'sw_KE' },
-  { code: 'dg', name: 'Chidigo', shortName: 'DIG', htmlLang: 'dg', ogLocale: 'dg' },
+  { code: 'dg', name: 'Chidigo', shortName: 'DIG', htmlLang: 'dg', ogLocale: 'dg_KE' },
 ];
 
 export const defaultLocale: Locale = 'en';

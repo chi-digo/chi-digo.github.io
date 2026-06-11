@@ -559,7 +559,7 @@ export function QuizPage() {
     } finally {
       setChallengeLoading(false);
     }
-  }, [user, t.challenge?.share_competitive]);
+  }, [user, t.auth?.sign_in_to_challenge, t.challenge?.share_competitive]);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
