@@ -3,6 +3,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 import { ProverbsClient } from './ProverbsClient';
 import { buildMetadata } from '@/lib/seo/metadata';
+import type { Locale } from '@/lib/i18n/config';
 import { PROVERB_THEMES } from '@/lib/proverbs/themes';
 import { DIGO_ALPHABET } from '@/lib/constants';
 
@@ -40,9 +41,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug?: string[] }>;
+  params: Promise<{ locale: string; slug?: string[] }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  const loc = locale as Locale;
 
   if (!slug || slug.length === 0) {
     return buildMetadata({
@@ -50,6 +52,7 @@ export async function generateMetadata({
       description:
         '378 Digo proverbs with translations in Chidigo, Swahili, and English. Browse by theme, search, and explore cultural commentary.',
       path: '/language/proverbs',
+      locale: loc,
     });
   }
 
@@ -60,6 +63,7 @@ export async function generateMetadata({
       title: `${label} — Chidigo Proverbs`,
       description: `Digo proverbs about ${theme} — with translations and cultural commentary in Chidigo, Swahili, and English.`,
       path: `/language/proverbs/theme/${slug[1]}`,
+      locale: loc,
     });
   }
 
@@ -69,6 +73,7 @@ export async function generateMetadata({
       title: `${letter} — Chidigo Proverbs`,
       description: `Digo proverbs starting with "${letter}" — with translations and cultural commentary.`,
       path: `/language/proverbs/letter/${slug[1]}`,
+      locale: loc,
     });
   }
 
@@ -84,12 +89,14 @@ export async function generateMetadata({
       title: `${title} — Chidigo Proverbs`,
       description: desc,
       path: `/language/proverbs/${proverbSlug}`,
+      locale: loc,
     });
   }
 
   return buildMetadata({
     title: 'Chidigo Proverbs',
     path: '/language/proverbs',
+    locale: loc,
   });
 }
 

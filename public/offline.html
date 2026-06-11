@@ -84,29 +84,33 @@
       <h1 class="title">Huna mtandao</h1>
       <p class="body">Kamusi, misemo, na mchezo bado vinapatikana.</p>
       <div class="links">
-        <a href="/language/dictionary">Fungua Kamusi</a>
-        <a href="/language/proverbs">Vinjari Misemo</a>
-        <a href="/language/quiz">Cheza Mchezo</a>
+        <a href="/sw/language/dictionary">Fungua Kamusi</a>
+        <a href="/sw/language/proverbs">Vinjari Misemo</a>
+        <a href="/sw/language/quiz">Cheza Mchezo</a>
       </div>
     </div>
 
     <!-- Chidigo -->
-    <div data-lang="dig">
+    <div data-lang="dg">
       <h1 class="title">Kuhana mtandao</h1>
       <p class="body">Kamusi, misemo, na mchezo bado vinapatikana.</p>
       <div class="links">
-        <a href="/language/dictionary">Vugula Kamusi</a>
-        <a href="/language/proverbs">Lola Misemo</a>
-        <a href="/language/quiz">Henya Mchezo</a>
+        <a href="/dg/language/dictionary">Vugula Kamusi</a>
+        <a href="/dg/language/proverbs">Lola Misemo</a>
+        <a href="/dg/language/quiz">Henya Mchezo</a>
       </div>
     </div>
   </div>
 
   <script>
     (function() {
+      var p = location.pathname;
       var lang = 'en';
-      try { lang = localStorage.getItem('chidigo-lang') || 'en'; } catch(e) {}
-      if (lang !== 'en' && lang !== 'sw' && lang !== 'dig') lang = 'en';
+      if (p.indexOf('/sw/') === 0 || p === '/sw') lang = 'sw';
+      else if (p.indexOf('/dg/') === 0 || p === '/dg') lang = 'dg';
+      else { try { lang = localStorage.getItem('chidigo-lang') || 'en'; } catch(e) {} }
+      if (lang !== 'en' && lang !== 'sw' && lang !== 'dg') lang = 'en';
+      document.documentElement.lang = lang;
       var el = document.querySelector('[data-lang="' + lang + '"]');
       if (el) el.style.display = 'block';
       else document.querySelector('[data-lang="en"]').style.display = 'block';

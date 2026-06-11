@@ -7,6 +7,7 @@ import type { Locale } from '@/lib/i18n/config';
 import { AuthProvider } from '@/lib/auth/context';
 import { FavouritesProvider } from '@/lib/favourites/context';
 import { MetadataUpdater } from '@/lib/i18n/useMetadata';
+import { LocaleMigration } from '@/lib/i18n/LocaleMigration';
 import { NavBar } from '@/components/NavBar/NavBar';
 import { Breadcrumb } from '@/components/Breadcrumb/Breadcrumb';
 import { Footer } from '@/components/Footer/Footer';
@@ -59,6 +60,7 @@ export function ClientShell({ children, initialLocale }: ClientShellProps) {
           <AnalyticsProvider />
           <ClarityProvider />
           <MetadataUpdater />
+          <LocaleMigration />
           <NavBar />
           <Breadcrumb />
           {children}

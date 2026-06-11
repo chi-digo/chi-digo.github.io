@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { DIGO_ALPHABET } from '@/lib/constants';
 import { DictionaryClient } from './DictionaryClient';
 import { buildMetadata } from '@/lib/seo/metadata';
+import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
 import {
   definedTermJsonLd,
@@ -75,31 +76,31 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug?: string[] }>;
+  params: Promise<{ locale: string; slug?: string[] }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  const loc = locale as Locale;
 
-  // Dictionary home
   if (!slug || slug.length === 0) {
     return buildMetadata({
       title: 'Chidigo Dictionary',
       description:
         'The largest searchable Chidigo dictionary — 5,200+ entries with definitions in Chidigo, Swahili, and English. Browse by letter or search.',
       path: '/language/dictionary',
+      locale: loc,
     });
   }
 
-  // Letter page: /dictionary/letter/a
   if (slug[0] === 'letter' && slug[1]) {
     const letter = decodeURIComponent(slug[1]).toUpperCase();
     return buildMetadata({
       title: `${letter} — Chidigo Dictionary`,
       description: `Browse Chidigo dictionary words starting with "${letter}" — definitions in Chidigo, Swahili, and English.`,
       path: `/language/dictionary/letter/${slug[1]}`,
+      locale: loc,
     });
   }
 
-  // Word page: /dictionary/word/mnazi
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
     const entry = findEntry(headword);
@@ -109,17 +110,20 @@ export async function generateMetadata({
         title: `${headword} — Chidigo Dictionary`,
         description: `${headword} (${entry.pos_en}): ${firstDef}. Trilingual Chidigo dictionary entry with definitions in Chidigo, Swahili, and English.`,
         path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
+        locale: loc,
       });
     }
     return buildMetadata({
       title: `${headword} — Chidigo Dictionary`,
       path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
+      locale: loc,
     });
   }
 
   return buildMetadata({
     title: 'Chidigo Dictionary',
     path: '/language/dictionary',
+    locale: loc,
   });
 }
 

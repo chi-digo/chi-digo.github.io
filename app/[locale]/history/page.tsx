@@ -1,14 +1,24 @@
+import type { Metadata } from 'next';
 import { HistoryIndex } from '@/components/HistoryIndex/HistoryIndex';
 import { buildMetadata } from '@/lib/seo/metadata';
+import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
 import { faqJsonLd } from '@/lib/seo/jsonld';
 
-export const metadata = buildMetadata({
-  title: 'Digo History — Origins, Migration & Heritage',
-  description:
-    'Explore the history of the Digo people — the Singwaya migration, kaya sacred forest settlements, archaeological evidence, and scholarly debates on Mijikenda origins.',
-  path: '/history',
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return buildMetadata({
+    title: 'Digo History — Origins, Migration & Heritage',
+    description:
+      'Explore the history of the Digo people — the Singwaya migration, kaya sacred forest settlements, archaeological evidence, and scholarly debates on Mijikenda origins.',
+    path: '/history',
+    locale: locale as Locale,
+  });
+}
 
 const historyFaq = faqJsonLd([
   {

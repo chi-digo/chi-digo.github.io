@@ -1,14 +1,24 @@
+import type { Metadata } from 'next';
 import { CultureOverview } from '@/components/CultureIndex/CultureIndex';
 import { buildMetadata } from '@/lib/seo/metadata';
+import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
 import { faqJsonLd } from '@/lib/seo/jsonld';
 
-export const metadata = buildMetadata({
-  title: 'Digo Culture — A Living Heritage',
-  description:
-    'Explore 56 articles across 13 domains of Digo culture — sacred kayas, religion, music, food, dress, crafts, society, rites of passage, ecology, and contemporary life.',
-  path: '/culture',
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return buildMetadata({
+    title: 'Digo Culture — A Living Heritage',
+    description:
+      'Explore 56 articles across 13 domains of Digo culture — sacred kayas, religion, music, food, dress, crafts, society, rites of passage, ecology, and contemporary life.',
+    path: '/culture',
+    locale: locale as Locale,
+  });
+}
 
 const cultureFaq = faqJsonLd([
   {

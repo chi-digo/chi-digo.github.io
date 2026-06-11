@@ -3,7 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { ChallengePage } from './ChallengePage';
 
 interface Props {
-  params: Promise<{ code: string }>;
+  params: Promise<{ locale: string; code: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
