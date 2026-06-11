@@ -84,7 +84,7 @@ function ManageContent() {
       track('orientation', 'profile', 'delete_error', {});
       setDeleting(false);
     }
-  }, [signOut, router, t]);
+  }, [signOut, router, t, locale]);
 
   const promptText = (t.profile.delete_type_prompt || 'Type {word} below to confirm').replace(
     '{word}',

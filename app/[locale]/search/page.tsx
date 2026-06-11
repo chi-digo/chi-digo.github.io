@@ -10,12 +10,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({
-    title: 'Search — Chidigo',
-    description: 'Search the Chidigo dictionary, proverbs, and cultural articles.',
-    path: '/search',
-    locale: locale as Locale,
-  });
+  return {
+    ...buildMetadata({
+      title: 'Search — Chidigo',
+      description: 'Search the Chidigo dictionary, proverbs, and cultural articles.',
+      path: '/search',
+      locale: locale as Locale,
+    }),
+    robots: { index: false, follow: true },
+  };
 }
 
 export default function SearchPage() {

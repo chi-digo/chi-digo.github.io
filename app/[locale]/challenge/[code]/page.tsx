@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { createClient } from '@/lib/supabase/server';
+import { buildMetadata } from '@/lib/seo/metadata';
+import type { Locale } from '@/lib/i18n/config';
 import { ChallengePage } from './ChallengePage';
 
 interface Props {
@@ -7,7 +9,7 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { code } = await params;
+  const { locale, code } = await params;
   const supabase = await createClient();
 
   const { data: challenge } = await supabase
@@ -33,13 +35,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${name} challenged you to a Chidigo quiz!`;
   const description = `They scored ${challenge.score}/${challenge.total}. Can you beat them?`;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chidigo.org';
-
-  return {
+  const base = buildMetadata({
     title,
     description,
+    path: `/challenge/${code}`,
+    locale: locale as Locale,
+  });
+
+  return {
+    ...base,
     openGraph: {
-      title,
-      description,
+      ...base.openGraph,
       images: [`${baseUrl}/api/og/challenge/${code}`],
     },
     twitter: {

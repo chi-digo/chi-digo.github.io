@@ -55,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   urls.push(entry('/language/proverbs', { priority: 0.8, changeFrequency: 'weekly' }));
+  urls.push(entry('/language/quiz', { priority: 0.7, changeFrequency: 'monthly' }));
 
   urls.push(entry('/language/dictionary', { priority: 0.8, changeFrequency: 'weekly' }));
   for (const letter of DIGO_ALPHABET) {

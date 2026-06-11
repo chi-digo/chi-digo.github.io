@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { isLocale, STORAGE_KEY, defaultLocale } from './config';
 import type { Locale } from './config';
-import { localePath } from './locale-path';
+import { localePath, localeFromPathname } from './locale-path';
 
 const MIGRATED_KEY = 'chidigo-locale-migrated';
 
@@ -18,7 +18,7 @@ export function LocaleMigration(): null {
       localStorage.setItem(MIGRATED_KEY, '1');
 
       const path = window.location.pathname;
-      if (path.startsWith('/sw/') || path.startsWith('/dg/')) return;
+      if (localeFromPathname(path) !== defaultLocale) return;
 
       const dest = localePath(path, stored as Locale);
       const url = dest + window.location.search + window.location.hash;

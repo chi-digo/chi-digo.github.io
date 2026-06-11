@@ -31,7 +31,7 @@ export async function generateMetadata({
 export default async function Page({
   params,
 }: {
-  params: Promise<{ domain: string }>;
+  params: Promise<{ locale: string; domain: string }>;
 }) {
   const { domain } = await params;
   return <DomainIndex domainSlug={domain} />;

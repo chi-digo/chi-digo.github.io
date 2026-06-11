@@ -1,7 +1,7 @@
 import { LeaderboardPage } from './LeaderboardPage';
 
 interface Props {
-  params: Promise<{ code: string }>;
+  params: Promise<{ locale: string; code: string }>;
 }
 
 export default async function Page({ params }: Props) {

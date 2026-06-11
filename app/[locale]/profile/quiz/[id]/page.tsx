@@ -4,7 +4,7 @@ import { use } from 'react';
 import { AuthGuard } from '@/components/AuthGuard';
 import { QuizRoundDetail } from '@/components/QuizRoundDetail/QuizRoundDetail';
 
-export default function QuizRoundPage({ params }: { params: Promise<{ id: string }> }) {
+export default function QuizRoundPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { id } = use(params);
 
   return (

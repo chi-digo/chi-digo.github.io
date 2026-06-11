@@ -148,11 +148,11 @@ const dictionaryFaq = faqJsonLd([
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug?: string[] }>;
+  params: Promise<{ locale: string; slug?: string[] }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  const loc = locale as Locale;
 
-  // Dictionary home — include DefinedTermSet + FAQ JSON-LD
   if (!slug || slug.length === 0) {
     return (
       <>
@@ -163,7 +163,6 @@ export default async function Page({
     );
   }
 
-  // Word page — include DefinedTerm JSON-LD
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
     const entry = findEntry(headword);
@@ -177,6 +176,7 @@ export default async function Page({
               definition: firstDef,
               pos: entry.pos_en,
               path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
+              locale: loc,
             })}
           />
           <JsonLd
@@ -184,7 +184,7 @@ export default async function Page({
               { name: 'Home', href: '/' },
               { name: 'Dictionary', href: '/language/dictionary' },
               { name: headword, href: `/language/dictionary/word/${encodeURIComponent(headword)}` },
-            ])}
+            ], loc)}
           />
           <DictionaryClient />
         </>

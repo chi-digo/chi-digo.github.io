@@ -4,7 +4,7 @@ import { use } from 'react';
 import { AuthGuard } from '@/components/AuthGuard';
 import { ChallengeCompletionDetail } from '@/components/ChallengeCompletionDetail/ChallengeCompletionDetail';
 
-export default function ChallengeCompletionPage({ params }: { params: Promise<{ code: string; completionId: string }> }) {
+export default function ChallengeCompletionPage({ params }: { params: Promise<{ locale: string; code: string; completionId: string }> }) {
   const { code, completionId } = use(params);
 
   return (
