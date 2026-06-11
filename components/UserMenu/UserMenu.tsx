@@ -99,23 +99,28 @@ export function UserMenu() {
             )}
           </div>
           <div className={styles.divider} />
-          <TrackedLink
-            href="/profile"
-            source="user_menu"
-            className={styles.menuItem}
-            role="menuitem"
-            onClick={close}
-          >
-            {t.profile.title}
-          </TrackedLink>
-          <button
-            type="button"
-            className={styles.menuItem}
-            role="menuitem"
-            onClick={handleSignOut}
-          >
-            {t.auth.sign_out}
-          </button>
+          <div className={styles.menuRow}>
+            <TrackedLink
+              href="/profile"
+              source="user_menu"
+              className={styles.menuItem}
+              role="menuitem"
+              onClick={close}
+            >
+              {t.profile.title}
+            </TrackedLink>
+            <button
+              type="button"
+              className={styles.signOutBtn}
+              role="menuitem"
+              onClick={handleSignOut}
+              aria-label={t.auth.sign_out}
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3M11 11l3-3-3-3M14 8H6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
+          </div>
         </div>
       )}
     </div>

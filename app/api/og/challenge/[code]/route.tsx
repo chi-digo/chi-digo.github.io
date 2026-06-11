@@ -33,9 +33,9 @@ export async function GET(
   const categories: string[] = [];
   if (challenge.category_breakdown) {
     const cb = challenge.category_breakdown as Record<string, { total: number }>;
-    if (cb.vocabulary?.total) categories.push(`${cb.vocabulary.total} msamiati`);
-    if (cb.proverbs?.total) categories.push(`${cb.proverbs.total} misemo`);
-    if (cb.riddles?.total) categories.push(`${cb.riddles.total} vitendawili`);
+    if (cb.vocabulary?.total) categories.push(`${cb.vocabulary.total} vocabulary`);
+    if (cb.proverbs?.total) categories.push(`${cb.proverbs.total} proverbs`);
+    if (cb.riddles?.total) categories.push(`${cb.riddles.total} riddles`);
   }
 
   const image = new ImageResponse(
@@ -90,7 +90,7 @@ export async function GET(
           </div>
 
           <div style={{ fontSize: 24, color: '#0E1A2A', fontWeight: 500 }}>
-            {name} akukualika kpwa Chidigo quiz!
+            {name} challenged you to a Chidigo quiz!
           </div>
 
           <div style={{ display: 'flex', alignItems: 'baseline', gap: 4 }}>
@@ -103,7 +103,7 @@ export async function GET(
           </div>
 
           <div style={{ fontSize: 20, color: '#666' }}>
-            Unaweza kumshinda?
+            Can you beat them?
           </div>
 
           {categories.length > 0 && (

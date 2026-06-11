@@ -40,11 +40,6 @@ export function MetadataUpdater(): null {
     }
 
     setMeta('name', 'description', t.meta.description);
-    setMeta('property', 'og:title', t.meta.og_title);
-    setMeta('property', 'og:description', t.meta.og_description);
-    setMeta('property', 'og:locale', t.meta.og_locale);
-    setMeta('name', 'twitter:title', t.meta.twitter_title);
-    setMeta('name', 'twitter:description', t.meta.twitter_description);
   }, [locale, t]);
 
   return null;
