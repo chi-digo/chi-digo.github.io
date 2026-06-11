@@ -21,7 +21,7 @@ export function websiteJsonLd() {
     description:
       'Building the transmission tools for the Digo language — dictionary, proverbs, audio, and cultural resources for 600,000 speakers on the Kenya–Tanzania coast.',
     publisher: PUBLISHER,
-    inLanguage: ['en', 'sw', 'dig'],
+    inLanguage: ['en', 'sw', 'dg'],
   };
 }
 
@@ -89,7 +89,7 @@ export function definedTermSetJsonLd() {
     description:
       'The largest searchable dictionary for the Chidigo (Digo) language, with 5,200+ entries and trilingual definitions in Chidigo, Swahili, and English.',
     url: `${SITE_URL}/dictionary`,
-    inLanguage: ['dig', 'sw', 'en'],
+    inLanguage: ['dg', 'sw', 'en'],
     publisher: PUBLISHER,
   };
 }

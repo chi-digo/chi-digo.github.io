@@ -4,7 +4,6 @@ import {
   createContext,
   useContext,
   useState,
-  useEffect,
   useCallback,
   useMemo,
   type ReactNode,
@@ -12,15 +11,16 @@ import {
 
 import type { Locale, Messages } from './config';
 import { defaultLocale, isLocale, STORAGE_KEY } from './config';
+import { localePath, pathnameWithoutLocale } from './locale-path';
 
 import en from './messages/en.json';
 import sw from './messages/sw.json';
-import dig from './messages/dig.json';
+import dg from './messages/dg.json';
 
 const allMessages: Record<Locale, Messages> = {
   en: en as Messages,
   sw: sw as Messages,
-  dig: dig as Messages,
+  dg: dg as Messages,
 };
 
 interface LocaleContextValue {
@@ -30,16 +30,6 @@ interface LocaleContextValue {
 }
 
 const LocaleContext = createContext<LocaleContextValue | null>(null);
-
-function readStoredLocale(): Locale {
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (isLocale(stored)) return stored;
-  } catch {
-    // localStorage unavailable
-  }
-  return defaultLocale;
-}
 
 function createFallbackMessages(locale: Locale): Messages {
   if (locale === 'en') return allMessages.en;
@@ -68,22 +58,27 @@ function createFallbackMessages(locale: Locale): Messages {
 
 interface LocaleProviderProps {
   children: ReactNode;
+  initialLocale?: Locale;
 }
 
-export function LocaleProvider({ children }: LocaleProviderProps) {
-  const [locale, setLocaleState] = useState<Locale>(defaultLocale);
-
-  useEffect(() => {
-    const stored = readStoredLocale();
-    if (stored !== defaultLocale) setLocaleState(stored);
-  }, []);
+export function LocaleProvider({ children, initialLocale }: LocaleProviderProps) {
+  const [locale, setLocaleState] = useState<Locale>(initialLocale ?? defaultLocale);
 
   const setLocale = useCallback((newLocale: Locale) => {
     setLocaleState(newLocale);
+
     try {
       localStorage.setItem(STORAGE_KEY, newLocale);
     } catch {
       // Silently fail
+    }
+
+    // Update URL to reflect the new locale without a server round-trip
+    if (typeof window !== 'undefined') {
+      const bare = pathnameWithoutLocale(window.location.pathname);
+      const newPath = localePath(bare, newLocale);
+      const newUrl = newPath + window.location.search + window.location.hash;
+      window.history.replaceState(null, '', newUrl);
     }
   }, []);
 

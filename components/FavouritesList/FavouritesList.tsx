@@ -82,7 +82,7 @@ export function FavouritesList() {
             const entry = index.find((e) => e.id === id || e.hw === id);
             if (entry) {
               const gloss =
-                locale === 'dig' ? (entry.eq_dg || entry.eq) :
+                locale === 'dg' ? (entry.eq_dg || entry.eq) :
                 locale === 'sw' ? (entry.eq_sw || entry.eq) :
                 entry.eq;
               resolved[`word:${id}`] = gloss;
@@ -100,7 +100,7 @@ export function FavouritesList() {
               const match = all.find((a) => a.slug === p.entry_id);
               if (match) {
                 const gloss =
-                  locale === 'dig' ? (match.commentary_dg || match.idiomatic_en) :
+                  locale === 'dg' ? (match.commentary_dg || match.idiomatic_en) :
                   locale === 'sw' ? (match.idiomatic_sw || match.swahili || match.idiomatic_en) :
                   match.idiomatic_en;
                 resolved[`proverb:${p.entry_id}`] = gloss;

@@ -86,9 +86,9 @@ export function WordOfTheDayCard({ onWordClick }: { onWordClick: (word: string) 
       </span>
       {(() => {
         const primary = locale === 'sw' ? firstDef?.definition_sw
-          : locale === 'dig' ? firstDef?.definition_dg
+          : locale === 'dg' ? firstDef?.definition_dg
           : firstDef?.definition_en;
-        const secondary = locale === 'dig' ? null : firstDef?.definition_dg;
+        const secondary = locale === 'dg' ? null : firstDef?.definition_dg;
         return (
           <>
             {primary && <p className={styles.wotdDef}>{primary}</p>}

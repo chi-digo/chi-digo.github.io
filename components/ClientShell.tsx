@@ -3,6 +3,7 @@
 import { type ReactNode, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { LocaleProvider } from '@/lib/i18n/context';
+import type { Locale } from '@/lib/i18n/config';
 import { AuthProvider } from '@/lib/auth/context';
 import { FavouritesProvider } from '@/lib/favourites/context';
 import { MetadataUpdater } from '@/lib/i18n/useMetadata';
@@ -28,9 +29,10 @@ const ChallengeNotifications = dynamic(
 
 interface ClientShellProps {
   children: ReactNode;
+  initialLocale?: Locale;
 }
 
-export function ClientShell({ children }: ClientShellProps) {
+export function ClientShell({ children, initialLocale }: ClientShellProps) {
   const { updateAvailable, applyUpdate, dismissUpdate } = useServiceWorker();
 
   useEffect(() => {
@@ -50,7 +52,7 @@ export function ClientShell({ children }: ClientShellProps) {
   }, []);
 
   return (
-    <LocaleProvider>
+    <LocaleProvider initialLocale={initialLocale}>
       <AuthProvider>
         <FavouritesProvider>
           <SentryContext />

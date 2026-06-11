@@ -11,7 +11,7 @@ interface NotFoundProverb {
   digo: string;
   en: string;
   sw: string;
-  dig: string;
+  dg: string;
 }
 
 const PROVERBS: NotFoundProverb[] = [
@@ -19,43 +19,43 @@ const PROVERBS: NotFoundProverb[] = [
     digo: 'Umanya wako kumanya uphiyako',
     en: 'Know where you come from so you can understand where you are going.',
     sw: 'Ujue unatoka wapi ili ujue unakokwenda.',
-    dig: 'Manya asili yako na atu ako, ili uweze kuelewa uphiyako maishani.',
+    dg: 'Manya asili yako na atu ako, ili uweze kuelewa uphiyako maishani.',
   },
   {
     digo: 'Takuna mtsakarira charoni',
     en: 'There is no one who searches in vain.',
     sw: 'Hakuna mtu atafutaye bure.',
-    dig: 'Mlungu andakuruzuku poposi uendapho; tausakale safarini.',
+    dg: 'Mlungu andakuruzuku poposi uendapho; tausakale safarini.',
   },
   {
     digo: 'Kusagala bure si kama kunyendeka bure',
     en: 'Wandering beats standing still.',
     sw: 'Ni bora kutembea bure kuliko kukaa bure.',
-    dig: 'Ni bora kunyendeka bure kuriko kusagala bure.',
+    dg: 'Ni bora kunyendeka bure kuriko kusagala bure.',
   },
   {
     digo: 'Magulu ni manyendesi',
     en: 'Your legs take you wherever you need to go.',
     sw: 'Miguu ndiyo inayokupeleka popote.',
-    dig: 'Magulu gako ndiyo ganakuphirika phophosi unachodza.',
+    dg: 'Magulu gako ndiyo ganakuphirika phophosi unachodza.',
   },
   {
     digo: 'Manono ni njdzira',
     en: 'Good deeds pave the way forward.',
     sw: 'Matendo mazuri ndiyo yanayokuongoza mbele.',
-    dig: 'Matendo manono ndiyo ganagokulongoza njira ya mbere.',
+    dg: 'Matendo manono ndiyo ganagokulongoza njira ya mbere.',
   },
   {
     digo: 'Chiphala kudosa lugbwe siko kumala makonje',
     en: 'One setback does not mean all is lost.',
     sw: 'Kushindwa mara moja haimaanishi umeshindwa kabisa.',
-    dig: 'Kushindwa mara mwenga taimaanishe kpwamba kpwosi kukamala — usikate tamaa.',
+    dg: 'Kushindwa mara mwenga taimaanishe kpwamba kpwosi kukamala — usikate tamaa.',
   },
   {
     digo: 'Zinaphya-zinaphya ndiko kuivwakpwe',
     en: 'When things seem to be going wrong, it may mean success is near.',
     sw: 'Mambo yanapooneekana kuharibika, inaweza maanisha mafanikio yako karibu.',
-    dig: 'Mambo gachikuonekana ganakuharibikira, inaweza kukala mafanikio gako ga phephi.',
+    dg: 'Mambo gachikuonekana ganakuharibikira, inaweza kukala mafanikio gako ga phephi.',
   },
 ];
 
@@ -100,7 +100,7 @@ export default function NotFoundClient() {
 
   const gloss =
     locale === 'sw' ? proverb.sw
-      : locale === 'dig' ? proverb.dig
+      : locale === 'dg' ? proverb.dg
         : proverb.en;
 
   return (
@@ -114,7 +114,7 @@ export default function NotFoundClient() {
       <p className={styles.description}>{t.not_found.description}</p>
 
       <div className={`${styles.proverbCard} ${ready ? styles.proverbCardVisible : ''}`}>
-        <p className={styles.proverbDigo} lang="dig">{proverb.digo}</p>
+        <p className={styles.proverbDigo} lang="dg">{proverb.digo}</p>
         <p className={styles.proverbGloss} lang={locale}>{gloss}</p>
       </div>
 

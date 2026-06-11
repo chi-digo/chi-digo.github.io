@@ -83,7 +83,7 @@ export function TopicArticle({
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
           <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>
-          <p className={styles.proverb} lang="dig">
+          <p className={styles.proverb} lang="dg">
             <em>{domain.proverb}</em>
           </p>
           <p className={styles.gloss}>{domain.proverbGloss}</p>

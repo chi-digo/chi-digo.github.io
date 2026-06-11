@@ -25,12 +25,12 @@ export const historyDomain: HistoryDomain = {
   "title": {
     "en": "The History of the Digo",
     "sw": "Historia ya Adigo",
-    "dig": "Historia ya Adigo"
+    "dg": "Historia ya Adigo"
   },
   "intro": {
     "en": "The Digo trace their origins to Singwaya, a large multi-ethnic settlement located somewhere north of the Tana River in present-day southern Somalia. Oral traditions shared across the Mijikenda,…",
     "sw": "Adigo wanafuatilia asili yao hadi Singwaya, makao makubwa ya makabila mengi yaliyokuwa kaskazini ya Mto Tana katika sehemu ya kusini ya Somalia ya leo. Mapokeo ya mdomo yanayoshirikiwa na Mijikenda,…",
-    "dig": "Adigo anafuatiliya asili yao hadi Singwaya, makalo makulu ga makabila manji garigokala kaskazini ya Muho wa Tana kpwa sehemu ya kusini ya Somalia ya rero. Mapokeo ga mdomo ganago shirikiwa ni…"
+    "dg": "Adigo anafuatiliya asili yao hadi Singwaya, makalo makulu ga makabila manji garigokala kaskazini ya Muho wa Tana kpwa sehemu ya kusini ya Somalia ya rero. Mapokeo ga mdomo ganago shirikiwa ni…"
   },
   "proverb": "Mutu asiye na asili ni kama muhi usio na midzi",
   "proverbGloss": "A person without origins is like a tree without roots",
@@ -40,12 +40,12 @@ export const historyDomain: HistoryDomain = {
       "title": {
         "en": "Kaya Archaeology",
         "sw": "Akiolojia ya Makaya",
-        "dig": "Akiolojia ya Makaya"
+        "dg": "Akiolojia ya Makaya"
       },
       "intro": {
         "en": "For most of the twentieth century, the question of Mijikenda origins was argued through oral traditions, colonial archives, and linguistic reconstruction. Material evidence — the physical remains of…",
         "sw": "Kwa sehemu kubwa ya karne ya ishirini, swali la asili ya Mijikenda lilijadiliwa kupitia mapokeo ya mdomo, kumbukumbu za kikoloni, na ujenzi wa kilugha. Hilo lilibadilika mwishoni mwa miaka ya 1980…",
-        "dig": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka…"
+        "dg": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka…"
       },
       "body": {
         "en": [
@@ -316,7 +316,7 @@ export const historyDomain: HistoryDomain = {
             "text": "Kinachoeleweka tayari, hata hivyo, ni kwamba makaya si mambo ya pembeni yasiyofaa. Ni maeneo ya kati katika historia ya pwani ya Afrika Mashariki — mahali ambapo baadhi ya jamii za mapema zaidi zilizokaa katika eneo hilo zilijenga maisha, kujitawala, kufanya biashara na majirani zao, kuyeyusha chuma, kutengeneza ufinyanzi, kulea watoto, kuzika wafu wao, na kudumisha misitu ambayo bado inasimama leo. Akiolojia ya makaya si nukta ya chini katika historia ya pwani ya Kiswahili. Ni sura muhimu — moja ambayo bado inaandikwa."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Kuchimba ndani ya Hati"
@@ -457,12 +457,12 @@ export const historyDomain: HistoryDomain = {
       "title": {
         "en": "Scholarly Debates on Digo Origins",
         "sw": "Mijadala ya Kitaaluma kuhusu Asili ya Adigo",
-        "dig": "Mijadala ya Chitaaluma kuhusu Asili ya Adigo"
+        "dg": "Mijadala ya Chitaaluma kuhusu Asili ya Adigo"
       },
       "intro": {
         "en": "Few topics in East African historiography have generated as much sustained disagreement as the question of Mijikenda origins. Did the nine Mijikenda peoples — Giriama, Duruma, Digo, Chonyi, Kambe,…",
         "sw": "Mada chache katika historia ya Afrika Mashariki zimezalisha kutokubaliana kwa kudumu kama swali la asili ya Mijikenda. Je, makundi tisa ya Mijikenda yalihama kutoka makao ya pamoja ya Singwaya? Au…",
-        "dig": "Mada chache kpwa historia ya Afrika Mashariki zimezalisha kutokubaliana kpwa kudumu dza swali ra asili ya Amijikenda. Dze, makundi tisa ga Amijikenda garihamia kula makalo ga phamwenga ga Singwaya? Au…"
+        "dg": "Mada chache kpwa historia ya Afrika Mashariki zimezalisha kutokubaliana kpwa kudumu dza swali ra asili ya Amijikenda. Dze, makundi tisa ga Amijikenda garihamia kula makalo ga phamwenga ga Singwaya? Au…"
       },
       "body": {
         "en": [
@@ -693,7 +693,7 @@ export const historyDomain: HistoryDomain = {
             "text": "Wasomi wataendelea kutokubaliana kuhusu usawa upo wapi — kiasi gani ni historia inayoweza kupatikana tena, kiasi gani ni ujenzi wa baadaye. Lakini mjadala wenyewe ni wenye tija. Kila mchango mpya — iwe kutoka akiolojia, lugha, au kusomwa upya kwa uangalifu kwa mapokeo ya mdomo — unaongeza tabaka nyingine ya uelewa kwa swali linalogusa masuala ya kina zaidi katika historia ya Afrika: jinsi watu wanavyoundwa, jinsi utambulisho unavyojengwa, jinsi zamani zinavyotumiwa kuelewa sasa, na jinsi mapokeo yanayoonekana ya zamani yanaweza kuwa ya vijana kwa kushangaza, wakati mengine yanayoonekana rahisi yanaweza kuwa ya zamani kwa kushangaza."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Swali Risiro Kala"
@@ -814,12 +814,12 @@ export const historyDomain: HistoryDomain = {
       "title": {
         "en": "The Singwaya Migration",
         "sw": "Safari ya Singwaya",
-        "dig": "Safari ya Singwaya"
+        "dg": "Safari ya Singwaya"
       },
       "intro": {
         "en": "Somewhere north of the Tana River, in the arid lowlands of what is now southern Somalia, there once existed a settlement called Singwaya. The name appears across the oral traditions of more than half…",
         "sw": "Mahali fulani kaskazini ya Mto Tana, katika nyanda za chini za sehemu ya kusini ya Somalia ya leo, kuliwahi kuwepo makao yaliyoitwa Singwaya. Jina hili linaonekana katika mapokeo ya mdomo ya zaidi ya…",
-        "dig": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya…"
+        "dg": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya…"
       },
       "body": {
         "en": [
@@ -1034,7 +1034,7 @@ export const historyDomain: HistoryDomain = {
             "text": "Kinachobaki thabiti katika matoleo yote ya mapokeo, ya kitaaluma na ya kawaida, ni picha ya kuondoka — watu wanaoondoka mahali ambapo hawezi tena kuwashikilia, wakitembea kusini kupitia eneo la adui, wakibeba nawo maarifa ya jinsi ya kujenga nyumba mpya katika msitu mpya juu ya kilima kipya. Picha hiyo ndiyo moyo wa masimulizi ya Singwaya, na hakuna kiasi cha mjadala wa kitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yake."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Mudzi Kabila ya Kutawanyika"

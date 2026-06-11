@@ -25,12 +25,12 @@ export const oralTraditionsDomain: LanguageDomain = {
   "title": {
     "en": "Oral Traditions",
     "sw": "Mila za Kusimulia",
-    "dig": "Mila za Kuhadisi"
+    "dg": "Mila za Kuhadisi"
   },
   "intro": {
     "en": "Long before the Digo had a written alphabet, they had a literature. It lived in the mouths of elders who could recite the genealogy of a clan stretching back seven generations, in grandmothers who…",
     "sw": "Kabla ya Wadigo kuwa na alfabeti ya maandishi, walikuwa na fasihi. Fasihi hiyo iliishi midomoni mwa wazee walioweza kusimulia nasaba ya ukoo kwa vizazi saba nyuma, katika nyanyazetu walioimbisha…",
-    "dig": "Kabila Adigo takaandika kpwa herufi, kala ana fasihi. Fasihi iyo yakala miromoni mwa avyere ariowezo kusimulia nasaba za mbari kpwa vizazi saba nyuma, kpwa akuku arioimbisha ana kpwa nyimbo za kare…"
+    "dg": "Kabila Adigo takaandika kpwa herufi, kala ana fasihi. Fasihi iyo yakala miromoni mwa avyere ariowezo kusimulia nasaba za mbari kpwa vizazi saba nyuma, kpwa akuku arioimbisha ana kpwa nyimbo za kare…"
   },
   "proverb": "Achili ni nyere, chila mmwenga ana zakpwe",
   "proverbGloss": "Intelligence is like hair — everyone has their own",
@@ -40,12 +40,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "Folk Tales and Stories",
         "sw": "Hadisi za Chinyume",
-        "dig": "Hadithi za Jadi"
+        "dg": "Hadithi za Jadi"
       },
       "intro": {
         "en": "In the villages of Kwale County and along the Tanzania coast, there is a time of day that belongs to stories. It comes after the evening meal, when the heat has broken and the palm trees are…",
         "sw": "Katika vijiji vya Kaunti ya Kwale na kando ya pwani ya Tanzania, kuna wakati wa siku ambao ni wa hadithi. Unakuja baada ya chakula cha jioni, wakati joto limepungua na mitende ni vivuli dhidi ya…",
-        "dig": "Kpwa vidzi vya Kaunti ya Kwale na kanda-kanda ya ph'wani ya Tanzania, kuna wakati wa siku ambao ni wa hadisi. Unakpwedza bada ya chakurya cha dziloni, wakati dzoho rikaphunguka na minazi ni vivuli dhidi…"
+        "dg": "Kpwa vidzi vya Kaunti ya Kwale na kanda-kanda ya ph'wani ya Tanzania, kuna wakati wa siku ambao ni wa hadisi. Unakpwedza bada ya chakurya cha dziloni, wakati dzoho rikaphunguka na minazi ni vivuli dhidi…"
       },
       "body": {
         "en": [
@@ -188,7 +188,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Daidey Maingi katika Chuo Kikuu cha Nairobi, akifanya kazi chini ya Profesa Peter Wasamba, ni miongoni mwa wasomi wanaofanya utafiti na kuandika hadithi za simulizi za Kidigo. Lakini uandikaji wa kitaaluma, ingawa una thamani, si sawa na mazoea hai. Changamoto si tu kurekodi hadithi kabla wasimulizi wao hawajafariki. Ni kuunda ulimwengu ambao vijana wa Kidigo wanataka kuzisikia — na hatimaye, kuzisimulia."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Hadisi Zinazoambirwa Usiku"
@@ -265,12 +265,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "Oral History",
         "sw": "Historia ya Mdomo",
-        "dig": "Historia ya Kusimulia"
+        "dg": "Historia ya Kusimulia"
       },
       "intro": {
         "en": "Among the Digo, history is not something you read. It is something you hear — from an elder who heard it from their elder, in an unbroken chain reaching back to the founding of the first kaya in the…",
         "sw": "Miongoni mwa Wadigo, historia si kitu unachosoma. Ni kitu unachosikia — kutoka kwa mzee aliyeisikia kutoka kwa mzee wake, katika mnyororo usiovunjika unaorudi hadi kuanzishwa kwa kaya ya kwanza katika…",
-        "dig": "Kahi ya Adigo, historia si chitu unachosoma. Ni chitu unachosikira — kula kpwa mvyere ariyeisikira kula kpwa mvyere wakpwe, kpwa mnyororo usiovundzika unaorudi hadi kuandzishwa kpwa kaya ya kpwandza…"
+        "dg": "Kahi ya Adigo, historia si chitu unachosoma. Ni chitu unachosikira — kula kpwa mvyere ariyeisikira kula kpwa mvyere wakpwe, kpwa mnyororo usiovundzika unaorudi hadi kuandzishwa kpwa kaya ya kpwandza…"
       },
       "body": {
         "en": [
@@ -397,7 +397,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti hizi: saa 100 za historia simulizi iliyorekodiwa, iliyoandikwa, na yenye ridhaa ifikapo Mwaka wa 3, ikipanda hadi saa 500 ifikapo Mwaka wa 5. Lakini kurekodi ni hatua ya kwanza tu. Changamoto kubwa zaidi ni kuunda ulimwengu ambao vijana wa Kidigo wanajiiona kama warithi wa maarifa haya — si kama watumiaji wa kawaida wa rekodi zilizohifadhiwa, bali kama kiungo kinachofuata katika mnyororo ambao haupaswi kuvunjika."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Kumbukumbu Dza Taasisi"
@@ -466,12 +466,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "Oral Poetry and Song",
         "sw": "Mashairi na Nyimbo",
-        "dig": "Ushairi na Nyimbo za Mdomo"
+        "dg": "Ushairi na Nyimbo za Mdomo"
       },
       "intro": {
         "en": "In Digo culture, the line between poetry and song barely exists. Words that are spoken in one context become sung in another; melodies that carry a dancer's body also carry a story's meaning; the same…",
         "sw": "Katika utamaduni wa Wadigo, mpaka kati ya ushairi na wimbo haupo sana. Maneno yanayosemwa katika muktadha mmoja yanakuwa ya kuimbwa katika mwingine; nyimbo zinazobeba mwili wa mchezaji pia zinabeba…",
-        "dig": "Kpwa mila ya Adigo, mpaka kahi ya ushairi na wimbo taupho kpwenye sana. Maneno ganago ambirwa kpwa muktadha mmwenga ganakala ga kuimbwa kpwa munjina; nyimbo zinazobeba mwiri wa mchezadzi piya zinabeba…"
+        "dg": "Kpwa mila ya Adigo, mpaka kahi ya ushairi na wimbo taupho kpwenye sana. Maneno ganago ambirwa kpwa muktadha mmwenga ganakala ga kuimbwa kpwa munjina; nyimbo zinazobeba mwiri wa mchezadzi piya zinabeba…"
       },
       "body": {
         "en": [
@@ -646,7 +646,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Kubadilishwa huku kwa muundo wa Kiarabu katika muktadha wa Kidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Kidigo hauko peke yake. Unakopa kutoka Kiswahili, Kiarabu, na mapokeo mapana ya Afrika Mashariki, ukifyonza miundo ya nje na kuijaza maudhui ya Kidigo. Matokeo ni mapokeo ambayo ni ya kipekee ya Kidigo na sehemu ya ulimwengu mkubwa wa fasihi ya pwani."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Phatu Maneno Ganakutana na Muziki"
@@ -739,12 +739,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "Proverbs",
         "sw": "Ndarira",
-        "dig": "Methali"
+        "dg": "Methali"
       },
       "intro": {
         "en": "If you want to understand the Digo, start with their proverbs. Called *ndarira* in Chidigo, these compressed utterances carry the community's accumulated observations about human nature, social…",
         "sw": "Ukitaka kuelewa Wadigo, anza na methali zao. Zinaitwa *ndarira* kwa Chidigo, na usemi huu mfupi unabeba hekima iliyokusanywa na jamii kuhusu tabia ya binadamu, wajibu wa kijamii, ulimwengu wa asili,…",
-        "dig": "Uchimanya Adigo, andza na ndarira zao. Ndarira hizo fupi zinabeba ikima iriyokusanywa ni jamii kuhusu tabiya ya mwanadamu, wajibu wa kijamii, ulimwengu wa asili, na sanaa ya kuishi vinono. Ndarira ya…"
+        "dg": "Uchimanya Adigo, andza na ndarira zao. Ndarira hizo fupi zinabeba ikima iriyokusanywa ni jamii kuhusu tabiya ya mwanadamu, wajibu wa kijamii, ulimwengu wa asili, na sanaa ya kuishi vinono. Ndarira ya…"
       },
       "body": {
         "en": [
@@ -991,7 +991,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Methali *\"Mnazi mmwenga una uchi wani?\"* — \"Divai gani inayotoka kwa mnazi mmoja?\" — labda ndiyo muhtasari bora wa mila yenyewe. Hakuna methali moja inayobeba ukweli wote. Ni mkusanyo, katika upana wake wote na migongano yake, unaoorodhesha uelewa wa Wadigo kuhusu ulimwengu."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Moyo wa Ikima ya Chidigo"
@@ -1120,12 +1120,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "Riddles",
         "sw": "Vimbunga",
-        "dig": "Vitendawili"
+        "dg": "Vitendawili"
       },
       "intro": {
         "en": "When darkness settles over a Digo village and the evening meal is done, the children know what comes next. An elder — or an older sibling, or a visiting uncle — turns to the group and issues the…",
         "sw": "Giza linapoingia katika kijiji cha Wadigo na chakula cha jioni kimekwisha, watoto wanajua kinachofuata. Mzee — au kaka mkubwa, au mjomba aliyekuja kutembelea — anageuka kwa kundi na kutoa changamoto:…",
-        "dig": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
+        "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
       },
       "body": {
         "en": [
@@ -1244,7 +1244,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Kupotea kwa vikao vya vitendawili vya jioni kwa sababu ya burudani za skrini kunamaanisha kwamba njia ya kueneza maarifa inazidi kudhoofika. Watoto hujifunza vitendawili vya Kiswahili shuleni — sehemu ya somo la fasihi simulizi katika mtaala wa kitaifa — lakini vitendawili vya Kidigo katika lugha ya Kidigo haviko katika programu yoyote ya shule. Vinasalia tu katika nyumba ambapo babu na bibi bado huwakusanya watoto baada ya chakula cha jioni na kutoa changamoto: *\"Kitendawili!\"*"
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Mchezo Unaonola Achili"
@@ -1309,12 +1309,12 @@ export const oralTraditionsDomain: LanguageDomain = {
       "title": {
         "en": "The Oral-to-Written Transition",
         "sw": "Kupita kwa Mdomo hadi Maandishi",
-        "dig": "Kubadilika kula Mdomo hadi Maandishi"
+        "dg": "Kubadilika kula Mdomo hadi Maandishi"
       },
       "intro": {
         "en": "There are no Digo novels. There are no Digo short story collections. There is no Digo poetry anthology. There is no Digo newspaper, no Digo magazine, no Digo blog with a regular readership. In a world…",
         "sw": "Hakuna riwaya za Kidigo. Hakuna makusanyo ya hadithi fupi za Kidigo. Hakuna mkusanyo wa mashairi ya Kidigo. Hakuna gazeti la Kidigo, hakuna jarida la Kidigo, hakuna blogu ya Kidigo yenye wasomaji wa…",
-        "dig": "Takuna riwaya za Chidigo. Takuna makusanyo ga hadisi fupi za Chidigo. Takuna mkusanyo wa mashairi ga Chidigo. Takuna gazeti ra Chidigo, takuna jarida ra Chidigo, takuna blogu ya Chidigo yenye asomadzi…"
+        "dg": "Takuna riwaya za Chidigo. Takuna makusanyo ga hadisi fupi za Chidigo. Takuna mkusanyo wa mashairi ga Chidigo. Takuna gazeti ra Chidigo, takuna jarida ra Chidigo, takuna blogu ya Chidigo yenye asomadzi…"
       },
       "body": {
         "en": [
@@ -1497,7 +1497,7 @@ export const oralTraditionsDomain: LanguageDomain = {
             "text": "Mpito kutoka simulizi hadi maandishi si kifo cha mapokeo ya simulizi. Ni upanuzi wake katika njia mpya. Kikao cha usimulizi wa hadithi cha jioni hakihitaji kuisha ili riwaya ya Kidigo ianze. Vyote vinaweza kuishi pamoja — na kwa kweli, fasihi bora ya Kidigo iliyoandikwa itapata nguvu yake kutoka katika midundo, picha, na akili ya kimaadili ya mapokeo ya simulizi yaliyoitangulia kwa karne nyingi."
           }
         ],
-        "dig": [
+        "dg": [
           {
             "type": "heading",
             "text": "Luga Bila Maktaba"

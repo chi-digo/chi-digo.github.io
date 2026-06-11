@@ -9,7 +9,7 @@ import type { ChallengeQuestionFull } from '@/lib/challenge/types';
 import styles from './ChallengeCompletionDetail.module.css';
 
 type LocaleKey = 'e' | 's' | 'd';
-const LOCALE_MAP: Record<string, LocaleKey> = { en: 'e', sw: 's', dig: 'd' };
+const LOCALE_MAP: Record<string, LocaleKey> = { en: 'e', sw: 's', dg: 'd' };
 
 interface PlayerAnswer {
   source_question_id: string;

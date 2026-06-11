@@ -24,13 +24,13 @@ function renderDigoTerms(text: string): React.ReactNode[] {
   let remaining = text;
   let key = 0;
   while (remaining.length > 0) {
-    const start = remaining.indexOf('{dig:');
+    const start = remaining.indexOf('{dg:');
     if (start === -1) { parts.push(remaining); break; }
     const end = remaining.indexOf('}', start);
     if (end === -1) { parts.push(remaining); break; }
     if (start > 0) parts.push(remaining.slice(0, start));
     const term = remaining.slice(start + 5, end);
-    parts.push(<em key={key++} lang="dig">{term}</em>);
+    parts.push(<em key={key++} lang="dg">{term}</em>);
     remaining = remaining.slice(end + 1);
   }
   return parts;
