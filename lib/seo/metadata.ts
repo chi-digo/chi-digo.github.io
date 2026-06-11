@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import type { Locale } from '@/lib/i18n/config';
-import { defaultLocale } from '@/lib/i18n/config';
+import { defaultLocale, getLocaleConfig } from '@/lib/i18n/config';
 import { localePath } from '@/lib/i18n/locale-path';
 
 const SITE_URL = 'https://chidigo.org';
@@ -43,7 +43,7 @@ export function buildMetadata(opts: {
       url,
       siteName: SITE_NAME,
       type: type === 'article' ? 'article' : 'website',
-      locale: 'en_US',
+      locale: getLocaleConfig(effectiveLocale).ogLocale,
     },
     twitter: {
       card: 'summary',
