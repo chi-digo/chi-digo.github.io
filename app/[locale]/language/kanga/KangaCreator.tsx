@@ -126,7 +126,7 @@ export function KangaCreator({ proverbs }: Props) {
         </h1>
 
         {/* Step content */}
-        <div style={{ maxWidth: 680 }}>
+        <div>
           <div style={{ marginBottom: '1.5rem' }}>
             <StepIndicator current={state.step} total={3} />
           </div>
@@ -167,7 +167,6 @@ export function KangaCreator({ proverbs }: Props) {
 
         {/* Navigation */}
         <div style={{
-          maxWidth: 680,
           display: 'flex',
           justifyContent: 'space-between',
           marginTop: '2rem',
