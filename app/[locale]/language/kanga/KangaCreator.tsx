@@ -32,8 +32,26 @@ type KangaAction =
   | { type: 'SET_PINDO'; motif: string }
   | { type: 'SET_COMPOSITION'; composition: MjiComposition }
   | { type: 'SET_MJI_MOTIF'; motif: string }
+  | { type: 'SHUFFLE' }
   | { type: 'SET_STEP'; step: 1 | 2 | 3 }
   | { type: 'RESET' };
+
+function shufflePalette(): Palette {
+  const keys = PALETTE_KEYS.slice(0, -2);
+  const pick = () => PALETTES[keys[Math.floor(Math.random() * keys.length)]];
+  const a = pick();
+  const b = pick();
+  const c = pick();
+  return {
+    pindoBg: a.pindoBg,
+    pindoFg: b.pindoFg,
+    mjiBg: b.mjiBg,
+    mjiFg: c.mjiFg,
+    accent: c.accent,
+    fumboBoxBg: a.fumboBoxBg,
+    fumboBoxText: a.fumboBoxText,
+  };
+}
 
 const INITIAL_STATE: KangaState = {
   step: 1,
@@ -59,6 +77,8 @@ function reducer(state: KangaState, action: KangaAction): KangaState {
     }
     case 'SET_CUSTOM_COLOR':
       return { ...state, palette: 'custom', customPalette: { ...state.customPalette, [action.field]: action.color } };
+    case 'SHUFFLE':
+      return { ...state, palette: 'custom', customPalette: shufflePalette() };
     case 'SET_PINDO':
       return { ...state, pindoMotif: action.motif };
     case 'SET_COMPOSITION': {
@@ -172,6 +192,7 @@ export function KangaCreator({ proverbs }: Props) {
               mjiMotif={state.mjiMotif}
               onSetPalette={(p) => dispatch({ type: 'SET_PALETTE', palette: p })}
               onSetCustomColor={(field, color) => dispatch({ type: 'SET_CUSTOM_COLOR', field, color })}
+              onShuffle={() => dispatch({ type: 'SHUFFLE' })}
               onSetPindo={(m) => dispatch({ type: 'SET_PINDO', motif: m })}
               onSetComposition={(c) => dispatch({ type: 'SET_COMPOSITION', composition: c })}
               onSetMjiMotif={(m) => dispatch({ type: 'SET_MJI_MOTIF', motif: m })}

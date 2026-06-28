@@ -20,6 +20,7 @@ interface Props {
   mjiMotif: string;
   onSetPalette: (palette: string) => void;
   onSetCustomColor: (field: keyof Palette, color: string) => void;
+  onShuffle: () => void;
   onSetPindo: (motif: string) => void;
   onSetComposition: (composition: MjiComposition) => void;
   onSetMjiMotif: (motif: string) => void;
@@ -201,6 +202,8 @@ const COLOR_SWATCHES: string[] = (() => {
 
 const editIcon = <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>;
 
+const shuffleIcon = <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M1 10l3-3 3 3M12 6l-3 3-3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M4 7v6M12 3v6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>;
+
 const PALETTE_FIELD_LABELS: Record<keyof Palette, string> = {
   pindoBg: 'border_color',
   pindoFg: 'border_color',
@@ -259,6 +262,7 @@ export function Step2Style({
   palette,
   resolvedPalette,
   customPalette,
+  onShuffle,
   pindoMotif,
   mjiComposition,
   mjiMotif,
@@ -294,6 +298,7 @@ export function Step2Style({
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)' }}>
                   {PALETTE_KEYS.map((key, idx) => {
                     const isLast = idx === PALETTE_KEYS.length - 1;
+                    const isSecondLast = idx === PALETTE_KEYS.length - 2;
                     const p = isLast ? customPalette : PALETTES[key];
                     const isCustomActive = palette === 'custom';
                     const selected = isLast ? (key === palette || isCustomActive) : key === palette && !isCustomActive;
@@ -326,6 +331,15 @@ export function Step2Style({
                           <div style={{ flex: 1, backgroundColor: p.fumboBoxBg }} />
                           <div style={{ flex: 1, backgroundColor: p.fumboBoxText }} />
                         </div>
+                        {/* Shuffle overlay for second-to-last palette */}
+                        {isSecondLast && (
+                          <div
+                            onClick={(e) => { e.stopPropagation(); onShuffle(); }}
+                            style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}
+                          >
+                            <IconButton icon={shuffleIcon} label={t.kanga.accent_color} variant="ghost" size="lg" onClick={onShuffle} />
+                          </div>
+                        )}
                         {/* Edit overlay for last palette */}
                         {isLast && (
                           <div
