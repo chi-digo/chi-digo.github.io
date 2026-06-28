@@ -89,7 +89,8 @@ export function createMjiPattern(
   fg: string,
   bg: string,
 ): CanvasPattern | null {
-  if (patternKey === 'solid') return null;
+  const pattern = PATTERNS[patternKey];
+  if (patternKey === 'solid' || !pattern) return null;
 
   const tile = document.createElement('canvas');
   tile.width = tileSize;
@@ -99,6 +100,6 @@ export function createMjiPattern(
   tileCtx.fillStyle = bg;
   tileCtx.fillRect(0, 0, tileSize, tileSize);
 
-  PATTERNS[patternKey].draw(tileCtx, tileSize, tileSize, fg);
+  pattern.draw(tileCtx, tileSize, tileSize, fg);
   return ctx.createPattern(tile, 'repeat')!;
 }

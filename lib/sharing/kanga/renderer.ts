@@ -8,7 +8,7 @@ import { drawComposition, type MjiComposition } from './compositions';
 export type { MjiComposition } from './compositions';
 
 export interface KangaSpec {
-  jina: string;
+  fumbo: string;
   palette: string;
   pindoMotif: string;
   mjiComposition: MjiComposition;
@@ -19,9 +19,9 @@ const LAYOUT = {
   pindoRatio: 0.15,
   transitionGap: 0.008,
   transitionLines: 3,
-  jinaYRatio: 0.88,
-  jinaWidthRatio: 0.50,
-  jinaHeightRatio: 0.04,
+  fumboYRatio: 0.88,
+  fumboWidthRatio: 0.50,
+  fumboHeightRatio: 0.04,
 } as const;
 
 export async function renderKanga(
@@ -63,7 +63,7 @@ export async function renderKanga(
 
   drawComposition(ctx, spec.mjiComposition, { x: mjiX, y: mjiY, w: mjiW, h: mjiH }, spec.mjiMotif, palette);
 
-  drawJina(ctx, w, h, spec.jina, palette);
+  drawFumbo(ctx, w, h, spec.fumbo, palette);
 
   drawBrandFooterRect(ctx, w, h, palette.pindoFg, 0.4);
 
@@ -95,7 +95,7 @@ function drawTransitionLines(
   }
 }
 
-function drawJina(
+function drawFumbo(
   ctx: CanvasRenderingContext2D,
   kangaW: number,
   kangaH: number,
@@ -104,12 +104,12 @@ function drawJina(
 ) {
   if (!text.trim()) return;
 
-  const boxW = kangaW * LAYOUT.jinaWidthRatio;
-  const boxH = kangaH * LAYOUT.jinaHeightRatio;
+  const boxW = kangaW * LAYOUT.fumboWidthRatio;
+  const boxH = kangaH * LAYOUT.fumboHeightRatio;
   const boxX = (kangaW - boxW) / 2;
-  const boxY = kangaH * LAYOUT.jinaYRatio;
+  const boxY = kangaH * LAYOUT.fumboYRatio;
 
-  ctx.fillStyle = palette.jinaBoxBg;
+  ctx.fillStyle = palette.fumboBoxBg;
   ctx.fillRect(boxX, boxY, boxW, boxH);
 
   ctx.strokeStyle = palette.accent;
@@ -163,7 +163,7 @@ function drawJina(
   }
 
   ctx.font = `600 ${fontSize}px Inter, system-ui, sans-serif`;
-  ctx.fillStyle = palette.jinaBoxText;
+  ctx.fillStyle = palette.fumboBoxText;
   ctx.textBaseline = 'middle';
 
   const spacing = fontSize * spacingRatio;

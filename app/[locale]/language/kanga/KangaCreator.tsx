@@ -9,14 +9,15 @@ import { Step2Style } from './Step2Style';
 import { Step3Preview } from './Step3Preview';
 import { PALETTE_KEYS } from '@/lib/sharing/kanga/palettes';
 import { MOTIF_KEYS } from '@/lib/sharing/motifs';
+import { PATTERN_KEYS } from '@/lib/sharing/kanga/patterns';
 import { COMPOSITION_KEYS, type MjiComposition } from '@/lib/sharing/kanga/compositions';
 import type { ProverbStub } from './page';
 
 interface KangaState {
   step: 1 | 2 | 3;
-  jina: string;
-  jinaSource: 'proverb' | 'custom';
-  jinaSourceId?: string;
+  fumbo: string;
+  fumboSource: 'proverb' | 'custom';
+  fumboSourceId?: string;
   palette: string;
   pindoMotif: string;
   mjiComposition: MjiComposition;
@@ -24,7 +25,7 @@ interface KangaState {
 }
 
 type KangaAction =
-  | { type: 'SET_JINA'; jina: string; source: 'proverb' | 'custom'; sourceId?: string }
+  | { type: 'SET_FUMBO'; fumbo: string; source: 'proverb' | 'custom'; sourceId?: string }
   | { type: 'SET_PALETTE'; palette: string }
   | { type: 'SET_PINDO'; motif: string }
   | { type: 'SET_COMPOSITION'; composition: MjiComposition }
@@ -34,24 +35,30 @@ type KangaAction =
 
 const INITIAL_STATE: KangaState = {
   step: 1,
-  jina: '',
-  jinaSource: 'custom',
+  fumbo: '',
+  fumboSource: 'custom',
   palette: PALETTE_KEYS[0],
   pindoMotif: MOTIF_KEYS[0],
   mjiComposition: COMPOSITION_KEYS[0],
-  mjiMotif: MOTIF_KEYS[0],
+  mjiMotif: PATTERN_KEYS[0],
 };
 
 function reducer(state: KangaState, action: KangaAction): KangaState {
   switch (action.type) {
-    case 'SET_JINA':
-      return { ...state, jina: action.jina, jinaSource: action.source, jinaSourceId: action.sourceId };
+    case 'SET_FUMBO':
+      return { ...state, fumbo: action.fumbo, fumboSource: action.source, fumboSourceId: action.sourceId };
     case 'SET_PALETTE':
       return { ...state, palette: action.palette };
     case 'SET_PINDO':
       return { ...state, pindoMotif: action.motif };
-    case 'SET_COMPOSITION':
-      return { ...state, mjiComposition: action.composition };
+    case 'SET_COMPOSITION': {
+      const wasGrid = state.mjiComposition === 'grid_repeat';
+      const isGrid = action.composition === 'grid_repeat';
+      const mjiMotif = wasGrid !== isGrid
+        ? (isGrid ? PATTERN_KEYS[0] : MOTIF_KEYS[0])
+        : state.mjiMotif;
+      return { ...state, mjiComposition: action.composition, mjiMotif };
+    }
     case 'SET_MJI_MOTIF':
       return { ...state, mjiMotif: action.motif };
     case 'SET_STEP':
@@ -80,7 +87,7 @@ export function KangaCreator({ proverbs }: Props) {
 
       track('language', 'kanga', 'step_completed', { step: state.step, locale });
       if (state.step === 1) {
-        track('language', 'kanga', 'jina_source', { source: state.jinaSource, locale });
+        track('language', 'kanga', 'fumbo_source', { source: state.fumboSource, locale });
       }
       if (state.step === 2) {
         track('language', 'kanga', 'style_selected', {
@@ -100,7 +107,7 @@ export function KangaCreator({ proverbs }: Props) {
     }
   }, [state.step]);
 
-  const canAdvance = state.step === 1 ? state.jina.trim().length > 0 : true;
+  const canAdvance = state.step === 1 ? state.fumbo.trim().length > 0 : true;
 
   return (
     <div style={{
@@ -133,16 +140,16 @@ export function KangaCreator({ proverbs }: Props) {
           {state.step === 1 && (
             <Step1Message
               proverbs={proverbs}
-              jina={state.jina}
-              jinaSource={state.jinaSource}
-              onSetJina={(jina, source, sourceId) =>
-                dispatch({ type: 'SET_JINA', jina, source, sourceId })
+              fumbo={state.fumbo}
+              fumboSource={state.fumboSource}
+              onSetFumbo={(fumbo, source, sourceId) =>
+                dispatch({ type: 'SET_FUMBO', fumbo, source, sourceId })
               }
             />
           )}
           {state.step === 2 && (
             <Step2Style
-              jina={state.jina}
+              fumbo={state.fumbo}
               palette={state.palette}
               pindoMotif={state.pindoMotif}
               mjiComposition={state.mjiComposition}
@@ -156,7 +163,7 @@ export function KangaCreator({ proverbs }: Props) {
           {state.step === 3 && (
             <Step3Preview
               spec={{
-                jina: state.jina,
+                fumbo: state.fumbo,
                 palette: state.palette,
                 pindoMotif: state.pindoMotif,
                 mjiComposition: state.mjiComposition,

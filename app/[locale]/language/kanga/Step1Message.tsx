@@ -9,12 +9,12 @@ const MAX_CHARS = 80;
 
 interface Props {
   proverbs: ProverbStub[];
-  jina: string;
-  jinaSource: 'proverb' | 'custom';
-  onSetJina: (jina: string, source: 'proverb' | 'custom', sourceId?: string) => void;
+  fumbo: string;
+  fumboSource: 'proverb' | 'custom';
+  onSetFumbo: (fumbo: string, source: 'proverb' | 'custom', sourceId?: string) => void;
 }
 
-export function Step1Message({ proverbs, jina, jinaSource, onSetJina }: Props) {
+export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props) {
   const t = useTranslations();
 
   return (
@@ -33,8 +33,8 @@ export function Step1Message({ proverbs, jina, jinaSource, onSetJina }: Props) {
             content: (
               <ProverbPicker
                 proverbs={proverbs}
-                selectedId={jinaSource === 'proverb' ? jina : undefined}
-                onSelect={(proverb) => onSetJina(proverb.digo, 'proverb', proverb.id)}
+                selectedId={fumboSource === 'proverb' ? fumbo : undefined}
+                onSelect={(proverb) => onSetFumbo(proverb.digo, 'proverb', proverb.id)}
               />
             ),
           },
@@ -44,26 +44,26 @@ export function Step1Message({ proverbs, jina, jinaSource, onSetJina }: Props) {
               <div>
                 <TextArea
                   label={t.kanga.custom_label}
-                  value={jinaSource === 'custom' ? jina : ''}
+                  value={fumboSource === 'custom' ? fumbo : ''}
                   onChange={(e) => {
                     const text = e.target.value.slice(0, MAX_CHARS);
-                    onSetJina(text, 'custom');
+                    onSetFumbo(text, 'custom');
                   }}
                   placeholder={t.kanga.custom_placeholder}
                   rows={3}
                   resize="none"
                   maxCharacters={MAX_CHARS}
-                  currentLength={jinaSource === 'custom' ? jina.length : 0}
-                  helperText={t.kanga.jina_length_hint}
+                  currentLength={fumboSource === 'custom' ? fumbo.length : 0}
+                  helperText={t.kanga.fumbo_length_hint}
                 />
               </div>
             ),
           },
         ]}
-        defaultIndex={jinaSource === 'proverb' ? 0 : 1}
+        defaultIndex={fumboSource === 'proverb' ? 0 : 1}
       />
 
-      {jina.trim() && (
+      {fumbo.trim() && (
         <div style={{
           marginTop: 'var(--space-6)',
           padding: 'var(--space-4)',
@@ -79,14 +79,14 @@ export function Step1Message({ proverbs, jina, jinaSource, onSetJina }: Props) {
             textTransform: 'uppercase',
             letterSpacing: 'var(--tracking-wider)',
           }}>
-            {t.kanga.your_jina}
+            {t.kanga.your_fumbo}
           </div>
           <div style={{
             fontSize: 'var(--text-lg)',
             color: 'var(--fg-default)',
             fontFamily: 'var(--font-display)',
           }}>
-            {jina}
+            {fumbo}
           </div>
         </div>
       )}

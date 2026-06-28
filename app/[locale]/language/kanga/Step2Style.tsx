@@ -11,7 +11,7 @@ import { renderKanga } from '@/lib/sharing/kanga/renderer';
 import type { Messages } from '@/lib/i18n/config';
 
 interface Props {
-  jina: string;
+  fumbo: string;
   palette: string;
   pindoMotif: string;
   mjiComposition: MjiComposition;
@@ -180,8 +180,8 @@ const labelStyle: React.CSSProperties = {
   textAlign: 'center',
 };
 
-function LivePreview({ jina, palette, pindoMotif, mjiComposition, mjiMotif }: {
-  jina: string; palette: string; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
+function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
+  fumbo: string; palette: string; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
 }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -196,11 +196,11 @@ function LivePreview({ jina, palette, pindoMotif, mjiComposition, mjiMotif }: {
     canvas.style.width = `${displayWidth}px`;
     canvas.style.height = `${displayHeight}px`;
     try {
-      await renderKanga(canvas, { jina, palette, pindoMotif, mjiComposition, mjiMotif });
+      await renderKanga(canvas, { fumbo, palette, pindoMotif, mjiComposition, mjiMotif });
     } catch {
       // silently fail on preview
     }
-  }, [jina, palette, pindoMotif, mjiComposition, mjiMotif]);
+  }, [fumbo, palette, pindoMotif, mjiComposition, mjiMotif]);
 
   useEffect(() => { render(); }, [render]);
 
@@ -214,7 +214,7 @@ function LivePreview({ jina, palette, pindoMotif, mjiComposition, mjiMotif }: {
 }
 
 export function Step2Style({
-  jina,
+  fumbo,
   palette,
   pindoMotif,
   mjiComposition,
@@ -238,7 +238,7 @@ export function Step2Style({
         {t.kanga.choose_style_description}
       </p>
 
-      <LivePreview jina={jina} palette={palette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
+      <LivePreview fumbo={fumbo} palette={palette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
 
       <Tabs
         items={[

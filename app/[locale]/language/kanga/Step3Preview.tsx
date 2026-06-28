@@ -68,7 +68,7 @@ export function Step3Preview({ spec }: Props) {
       social,
       'kanga-chidigo.png',
       'My Kanga — Chidigo',
-      spec.jina,
+      spec.fumbo,
       window.location.href,
     );
     trackShare('kanga', result);

@@ -430,7 +430,7 @@ export interface Messages {
     custom_label: string;
     custom_placeholder: string;
     char_limit: string;
-    your_jina: string;
+    your_fumbo: string;
     loading_proverbs: string;
     choose_style_title: string;
     choose_style_description: string;
@@ -453,7 +453,7 @@ export interface Messages {
     pattern_geometric: string;
     pattern_paisley: string;
     pattern_solid: string;
-    jina_length_hint: string;
+    fumbo_length_hint: string;
     preview_title: string;
     preview_description: string;
     what_you_get: string;
