@@ -113,28 +113,23 @@ export function KangaCreator({ proverbs }: Props) {
         margin: '0 auto',
         padding: 'calc(var(--header-height) + 1.5rem) 5.25% 4rem',
       }}>
-        {/* Step indicator bar */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginBottom: '2rem',
+        {/* Page title */}
+        <h1 style={{
+          fontFamily: 'var(--font-display, serif)',
+          fontWeight: 500,
+          fontSize: 'clamp(1.5rem, 3.5vw, 2.5rem)',
+          lineHeight: 1.2,
+          color: 'var(--color-kaya-deep, #0E1A2A)',
+          margin: '0 0 2rem 0',
         }}>
-          <h1 style={{
-            fontFamily: 'var(--font-display, serif)',
-            fontWeight: 500,
-            fontSize: 'clamp(1.5rem, 3.5vw, 2.5rem)',
-            lineHeight: 1.2,
-            color: 'var(--color-kaya-deep, #0E1A2A)',
-            margin: 0,
-          }}>
-            {t.breadcrumb.kanga}
-          </h1>
-          <StepIndicator current={state.step} total={3} />
-        </div>
+          {t.breadcrumb.kanga}
+        </h1>
 
         {/* Step content */}
         <div style={{ maxWidth: 680 }}>
+          <div style={{ marginBottom: '1.5rem' }}>
+            <StepIndicator current={state.step} total={3} />
+          </div>
           {state.step === 1 && (
             <Step1Message
               proverbs={proverbs}
