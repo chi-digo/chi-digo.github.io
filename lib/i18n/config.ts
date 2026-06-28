@@ -469,6 +469,7 @@ export interface Messages {
     rendering: string;
     border_color: string;
     center_color: string;
+    accent_color: string;
   };
   profile: {
     title: string;

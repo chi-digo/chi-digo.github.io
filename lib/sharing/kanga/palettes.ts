@@ -27,12 +27,6 @@ export const PALETTES: Record<string, Palette> = {
     accent: '#1A1A1A',
     fumboBoxBg: '#FFFFFF', fumboBoxText: '#1A1A1A',
   },
-  magenta_yellow: {
-    pindoBg: '#E8C820', pindoFg: '#1A1A1A',
-    mjiBg: '#B5246A', mjiFg: '#2D5F1A',
-    accent: '#1A1A1A',
-    fumboBoxBg: '#1A1A1A', fumboBoxText: '#E8C820',
-  },
   black_gold: {
     pindoBg: '#1A1A1A', pindoFg: '#C99846',
     mjiBg: '#D4A030', mjiFg: '#8B1A1A',
@@ -63,6 +57,12 @@ export const PALETTES: Record<string, Palette> = {
     accent: '#1A1A1A',
     fumboBoxBg: '#FFFFFF', fumboBoxText: '#1A1A1A',
   },
+  magenta_yellow: {
+    pindoBg: '#E8C820', pindoFg: '#1A1A1A',
+    mjiBg: '#B5246A', mjiFg: '#2D5F1A',
+    accent: '#1A1A1A',
+    fumboBoxBg: '#1A1A1A', fumboBoxText: '#E8C820',
+  },
   pink_gold: {
     pindoBg: '#E8A832', pindoFg: '#C62828',
     mjiBg: '#D4457A', mjiFg: '#FFFFFF',
@@ -73,20 +73,3 @@ export const PALETTES: Record<string, Palette> = {
 
 export const PALETTE_KEYS = Object.keys(PALETTES);
 
-function hexLuminance(hex: string): number {
-  const r = parseInt(hex.slice(1, 3), 16) / 255;
-  const g = parseInt(hex.slice(3, 5), 16) / 255;
-  const b = parseInt(hex.slice(5, 7), 16) / 255;
-  return 0.299 * r + 0.587 * g + 0.114 * b;
-}
-
-export function buildCustomPalette(pindoBg: string, mjiBg: string): Palette {
-  const pindoLight = hexLuminance(pindoBg) > 0.5;
-  const mjiLight = hexLuminance(mjiBg) > 0.5;
-  const pindoFg = pindoLight ? '#1A1A1A' : '#FFFFFF';
-  const mjiFg = mjiLight ? '#1A1A1A' : '#FFFFFF';
-  const accent = pindoLight ? '#1A1A1A' : '#C99846';
-  const fumboBoxBg = pindoBg;
-  const fumboBoxText = pindoFg;
-  return { pindoBg, pindoFg, mjiBg, mjiFg, accent, fumboBoxBg, fumboBoxText };
-}

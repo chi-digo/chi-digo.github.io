@@ -501,6 +501,7 @@
     "render_error": "Failed to render preview",
     "rendering": "Rendering...",
     "border_color": "Border",
-    "center_color": "Center"
+    "center_color": "Center",
+    "accent_color": "Accent"
   }
 }

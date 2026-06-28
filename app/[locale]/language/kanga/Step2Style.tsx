@@ -14,13 +14,12 @@ interface Props {
   fumbo: string;
   palette: string;
   resolvedPalette?: Palette;
-  customPindoBg: string;
-  customMjiBg: string;
+  customPalette: Palette;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
   onSetPalette: (palette: string) => void;
-  onSetCustomColor: (field: 'pindo' | 'mji', color: string) => void;
+  onSetCustomColor: (field: keyof Palette, color: string) => void;
   onSetPindo: (motif: string) => void;
   onSetComposition: (composition: MjiComposition) => void;
   onSetMjiMotif: (motif: string) => void;
@@ -200,6 +199,18 @@ const COLOR_SWATCHES: string[] = (() => {
   return colors;
 })();
 
+const editIcon = <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>;
+
+const PALETTE_FIELD_LABELS: Record<keyof Palette, string> = {
+  pindoBg: 'border_color',
+  pindoFg: 'border_color',
+  mjiBg: 'center_color',
+  mjiFg: 'center_color',
+  accent: 'accent_color',
+  fumboBoxBg: 'border_color',
+  fumboBoxText: 'center_color',
+};
+
 const labelStyle: React.CSSProperties = {
   fontSize: 'var(--text-xs)',
   fontWeight: 'var(--weight-medium)' as any,
@@ -247,8 +258,7 @@ export function Step2Style({
   fumbo,
   palette,
   resolvedPalette,
-  customPindoBg,
-  customMjiBg,
+  customPalette,
   pindoMotif,
   mjiComposition,
   mjiMotif,
@@ -260,7 +270,7 @@ export function Step2Style({
 }: Props) {
   const t = useTranslations();
   const currentPalette = resolvedPalette ?? PALETTES[palette];
-  const [colorPickerField, setColorPickerField] = useState<'pindo' | 'mji' | null>(null);
+  const [colorPickerField, setColorPickerField] = useState<keyof Palette | null>(null);
   const showMotifSelector = mjiComposition !== 'solid';
   const usePatternMotifs = mjiComposition === 'grid_repeat';
 
@@ -283,12 +293,10 @@ export function Step2Style({
               <>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)' }}>
                   {PALETTE_KEYS.map((key, idx) => {
-                    const p = PALETTES[key];
                     const isLast = idx === PALETTE_KEYS.length - 1;
+                    const p = isLast ? customPalette : PALETTES[key];
                     const isCustomActive = palette === 'custom';
                     const selected = isLast ? (key === palette || isCustomActive) : key === palette && !isCustomActive;
-                    const displayPindo = isLast && isCustomActive ? customPindoBg : p.pindoBg;
-                    const displayMji = isLast && isCustomActive ? customMjiBg : p.mjiBg;
                     return (
                       <button
                         key={key}
@@ -306,38 +314,49 @@ export function Step2Style({
                         }}
                         title={key.replace(/_/g, ' ')}
                       >
-                        <div style={{ position: 'relative', width: '100%', height: '50%', backgroundColor: displayPindo }}>
-                          {isLast && (
-                            <span
-                              onClick={(e) => e.stopPropagation()}
-                              style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                            >
-                              <IconButton
-                                icon={<svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>}
-                                label={t.kanga.border_color}
-                                variant="ghost"
-                                size="sm"
-                                onClick={() => setColorPickerField('pindo')}
-                              />
-                            </span>
-                          )}
+                        {/* Row 1: pindoBg */}
+                        <div style={{ width: '100%', height: '40%', backgroundColor: p.pindoBg }} />
+                        {/* Row 2: mjiBg */}
+                        <div style={{ width: '100%', height: '40%', backgroundColor: p.mjiBg }} />
+                        {/* Row 3: pindoFg | accent | mjiFg | fumboBoxBg | fumboBoxText */}
+                        <div style={{ display: 'flex', width: '100%', height: '20%' }}>
+                          <div style={{ flex: 1, backgroundColor: p.pindoFg }} />
+                          <div style={{ flex: 1, backgroundColor: p.accent }} />
+                          <div style={{ flex: 1, backgroundColor: p.mjiFg }} />
+                          <div style={{ flex: 1, backgroundColor: p.fumboBoxBg }} />
+                          <div style={{ flex: 1, backgroundColor: p.fumboBoxText }} />
                         </div>
-                        <div style={{ position: 'relative', width: '100%', height: '50%', backgroundColor: displayMji }}>
-                          {isLast && (
-                            <span
-                              onClick={(e) => e.stopPropagation()}
-                              style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                            >
-                              <IconButton
-                                icon={<svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>}
-                                label={t.kanga.center_color}
-                                variant="ghost"
-                                size="sm"
-                                onClick={() => setColorPickerField('mji')}
-                              />
-                            </span>
-                          )}
-                        </div>
+                        {/* Edit overlay for last palette */}
+                        {isLast && (
+                          <div
+                            onClick={(e) => e.stopPropagation()}
+                            style={{ position: 'absolute', inset: 0, display: 'grid', gridTemplateRows: '40% 40% 20%' }}
+                          >
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                              <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('pindoBg')} />
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                              <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('mjiBg')} />
+                            </div>
+                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr' }}>
+                              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('pindoFg')} />
+                              </div>
+                              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <IconButton icon={editIcon} label={t.kanga.accent_color} variant="ghost" size="sm" onClick={() => setColorPickerField('accent')} />
+                              </div>
+                              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('mjiFg')} />
+                              </div>
+                              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('fumboBoxBg')} />
+                              </div>
+                              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('fumboBoxText')} />
+                              </div>
+                            </div>
+                          </div>
+                        )}
                       </button>
                     );
                   })}
@@ -363,7 +382,7 @@ export function Step2Style({
                     }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-3)' }}>
                         <span style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)' }}>
-                          {colorPickerField === 'pindo' ? t.kanga.border_color : t.kanga.center_color}
+                          {colorPickerField && t.kanga[PALETTE_FIELD_LABELS[colorPickerField] as keyof typeof t.kanga]}
                         </span>
                         <button
                           onClick={() => setColorPickerField(null)}
@@ -390,7 +409,7 @@ export function Step2Style({
                                 borderRadius: 'var(--radius-sm, 2px)',
                                 cursor: 'pointer',
                                 padding: 0,
-                                outline: (colorPickerField === 'pindo' ? customPindoBg : customMjiBg) === color ? '2px solid var(--interactive-default)' : 'none',
+                                outline: (colorPickerField && customPalette[colorPickerField]) === color ? '2px solid var(--interactive-default)' : 'none',
                                 outlineOffset: -1,
                               }}
                             />

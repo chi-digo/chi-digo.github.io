@@ -501,6 +501,7 @@
     "render_error": "Imeshindwa kuonyesha hakiki",
     "rendering": "Inachakata...",
     "border_color": "Pindo",
-    "center_color": "Mji"
+    "center_color": "Mji",
+    "accent_color": "Rangi ya mapambo"
   }
 }

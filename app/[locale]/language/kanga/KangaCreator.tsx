@@ -7,7 +7,7 @@ import { StepIndicator } from './StepIndicator';
 import { Step1Message } from './Step1Message';
 import { Step2Style } from './Step2Style';
 import { Step3Preview } from './Step3Preview';
-import { PALETTE_KEYS, buildCustomPalette } from '@/lib/sharing/kanga/palettes';
+import { PALETTES, PALETTE_KEYS, type Palette } from '@/lib/sharing/kanga/palettes';
 import { MOTIF_KEYS } from '@/lib/sharing/motifs';
 import { PATTERN_KEYS } from '@/lib/sharing/kanga/patterns';
 import { COMPOSITION_KEYS, type MjiComposition } from '@/lib/sharing/kanga/compositions';
@@ -19,8 +19,7 @@ interface KangaState {
   fumboSource: 'proverb' | 'custom';
   fumboSourceId?: string;
   palette: string;
-  customPindoBg: string;
-  customMjiBg: string;
+  customPalette: Palette;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
@@ -29,7 +28,7 @@ interface KangaState {
 type KangaAction =
   | { type: 'SET_FUMBO'; fumbo: string; source: 'proverb' | 'custom'; sourceId?: string }
   | { type: 'SET_PALETTE'; palette: string }
-  | { type: 'SET_CUSTOM_COLOR'; field: 'pindo' | 'mji'; color: string }
+  | { type: 'SET_CUSTOM_COLOR'; field: keyof Palette; color: string }
   | { type: 'SET_PINDO'; motif: string }
   | { type: 'SET_COMPOSITION'; composition: MjiComposition }
   | { type: 'SET_MJI_MOTIF'; motif: string }
@@ -41,8 +40,7 @@ const INITIAL_STATE: KangaState = {
   fumbo: '',
   fumboSource: 'custom',
   palette: PALETTE_KEYS[0],
-  customPindoBg: '#1B2244',
-  customMjiBg: '#C62828',
+  customPalette: { ...PALETTES[PALETTE_KEYS[0]] },
   pindoMotif: MOTIF_KEYS[0],
   mjiComposition: COMPOSITION_KEYS[0],
   mjiMotif: PATTERN_KEYS[0],
@@ -52,12 +50,15 @@ function reducer(state: KangaState, action: KangaAction): KangaState {
   switch (action.type) {
     case 'SET_FUMBO':
       return { ...state, fumbo: action.fumbo, fumboSource: action.source, fumboSourceId: action.sourceId };
-    case 'SET_PALETTE':
+    case 'SET_PALETTE': {
+      const p = PALETTES[action.palette];
+      if (p) {
+        return { ...state, palette: action.palette, customPalette: { ...p } };
+      }
       return { ...state, palette: action.palette };
+    }
     case 'SET_CUSTOM_COLOR':
-      return action.field === 'pindo'
-        ? { ...state, palette: 'custom', customPindoBg: action.color }
-        : { ...state, palette: 'custom', customMjiBg: action.color };
+      return { ...state, palette: 'custom', customPalette: { ...state.customPalette, [action.field]: action.color } };
     case 'SET_PINDO':
       return { ...state, pindoMotif: action.motif };
     case 'SET_COMPOSITION': {
@@ -117,7 +118,7 @@ export function KangaCreator({ proverbs }: Props) {
   }, [state.step]);
 
   const resolvedPalette = state.palette === 'custom'
-    ? buildCustomPalette(state.customPindoBg, state.customMjiBg)
+    ? state.customPalette
     : undefined;
 
   const canAdvance = state.step === 1 ? state.fumbo.trim().length > 0 : true;
@@ -165,8 +166,7 @@ export function KangaCreator({ proverbs }: Props) {
               fumbo={state.fumbo}
               palette={state.palette}
               resolvedPalette={resolvedPalette}
-              customPindoBg={state.customPindoBg}
-              customMjiBg={state.customMjiBg}
+              customPalette={state.customPalette}
               pindoMotif={state.pindoMotif}
               mjiComposition={state.mjiComposition}
               mjiMotif={state.mjiMotif}
