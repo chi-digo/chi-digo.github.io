@@ -5,7 +5,7 @@ import { Tabs, TextArea } from '@chi-digo/design-system';
 import { ProverbPicker } from './ProverbPicker';
 import type { ProverbStub } from './page';
 
-const MAX_CHARS = 80;
+const MAX_CHARS = 59;
 
 interface Props {
   proverbs: ProverbStub[];

@@ -21,18 +21,17 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
   const { locale } = useLocale();
   const [search, setSearch] = useState('');
 
-  const filtered = useMemo(() => {
-    if (!search.trim()) return proverbs.slice(0, 30);
+  const { filtered, matchCount } = useMemo(() => {
+    if (!search.trim()) return { filtered: proverbs.slice(0, 30), matchCount: proverbs.length };
     const q = search.toLowerCase();
-    return proverbs
-      .filter(
-        (p) =>
-          p.digo.toLowerCase().includes(q) ||
-          p.idiomatic_en.toLowerCase().includes(q) ||
-          p.idiomatic_sw.toLowerCase().includes(q) ||
-          p.idiomatic_dg.toLowerCase().includes(q),
-      )
-      .slice(0, 30);
+    const matched = proverbs.filter(
+      (p) =>
+        p.digo.toLowerCase().includes(q) ||
+        p.idiomatic_en.toLowerCase().includes(q) ||
+        p.idiomatic_sw.toLowerCase().includes(q) ||
+        p.idiomatic_dg.toLowerCase().includes(q),
+    );
+    return { filtered: matched.slice(0, 30), matchCount: matched.length };
   }, [proverbs, search]);
 
   return (
@@ -137,11 +136,12 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
         })}
       </div>
 
-      {!search.trim() && proverbs.length > 30 && (
-        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--fg-muted)', textAlign: 'center', marginTop: 'var(--space-2)' }}>
+      {matchCount > 30 && (
+        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--fg-muted)', textAlign: 'right', marginTop: 'var(--space-2)' }}>
           {t.kanga.showing_of
             .replace('{shown}', '30')
-            .replace('{total}', String(proverbs.length))}
+            .replace('{total}', String(matchCount))}
+          {!search.trim() && ` — ${t.kanga.search_to_find_more}`}
         </div>
       )}
     </div>

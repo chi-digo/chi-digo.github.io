@@ -203,7 +203,9 @@ const COLOR_SWATCHES: string[] = (() => {
 
 const editIcon = <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>;
 
-const shuffleIcon = <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M1 10l3-3 3 3M12 6l-3 3-3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M4 7v6M12 3v6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>;
+const shuffleIcon = <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /><path d="M2 7.5c3-5 7-5 10 0s7 5 10 0M2 16.5c3-5 7-5 10 0s7 5 10 0" stroke="none" /></svg>;
+
+const circularBtnStyle: React.CSSProperties = { borderRadius: '50%', opacity: 0.8 };
 
 const PALETTE_FIELD_LABELS: Record<keyof Palette, string> = {
   pindoBg: 'border_color',
@@ -301,13 +303,17 @@ export function Step2Style({
                   {PALETTE_KEYS.map((key, idx) => {
                     const isLast = idx === PALETTE_KEYS.length - 1;
                     const isSecondLast = idx === PALETTE_KEYS.length - 2;
+                    const hasNestedButtons = isLast || isSecondLast;
                     const p = isLast ? customPalette : isSecondLast ? shuffledPalette : PALETTES[key];
                     const isCustomActive = palette === 'custom';
                     const selected = isLast ? (key === palette || isCustomActive) : key === palette && !isCustomActive;
+                    const Tag = hasNestedButtons ? 'div' : 'button';
                     return (
-                      <button
+                      <Tag
                         key={key}
                         onClick={() => onSetPalette(key)}
+                        role={hasNestedButtons ? 'button' : undefined}
+                        tabIndex={hasNestedButtons ? 0 : undefined}
                         style={{
                           aspectRatio: '1',
                           borderRadius: 'var(--radius-md)',
@@ -321,11 +327,8 @@ export function Step2Style({
                         }}
                         title={key.replace(/_/g, ' ')}
                       >
-                        {/* Row 1: pindoBg */}
                         <div style={{ width: '100%', height: '40%', backgroundColor: p.pindoBg }} />
-                        {/* Row 2: mjiBg */}
                         <div style={{ width: '100%', height: '40%', backgroundColor: p.mjiBg }} />
-                        {/* Row 3: pindoFg | accent | mjiFg | fumboBoxBg | fumboBoxText */}
                         <div style={{ display: 'flex', width: '100%', height: '20%' }}>
                           <div style={{ flex: 1, backgroundColor: p.pindoFg }} />
                           <div style={{ flex: 1, backgroundColor: p.accent }} />
@@ -333,47 +336,45 @@ export function Step2Style({
                           <div style={{ flex: 1, backgroundColor: p.fumboBoxBg }} />
                           <div style={{ flex: 1, backgroundColor: p.fumboBoxText }} />
                         </div>
-                        {/* Shuffle overlay for second-to-last palette */}
                         {isSecondLast && (
                           <div
                             onClick={(e) => { e.stopPropagation(); onShuffle(); }}
                             style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}
                           >
-                            <IconButton icon={shuffleIcon} label={t.kanga.accent_color} variant="ghost" size="lg" onClick={onShuffle} />
+                            <IconButton icon={shuffleIcon} label={t.kanga.accent_color} variant="default" size="lg" style={circularBtnStyle} onClick={onShuffle} />
                           </div>
                         )}
-                        {/* Edit overlay for last palette */}
                         {isLast && (
                           <div
                             onClick={(e) => e.stopPropagation()}
                             style={{ position: 'absolute', inset: 0, display: 'grid', gridTemplateRows: '40% 40% 20%' }}
                           >
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                              <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('pindoBg')} />
+                              <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('pindoBg')} />
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                              <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('mjiBg')} />
+                              <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('mjiBg')} />
                             </div>
                             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr' }}>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('pindoFg')} />
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('pindoFg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.accent_color} variant="ghost" size="sm" onClick={() => setColorPickerField('accent')} />
+                                <IconButton icon={editIcon} label={t.kanga.accent_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('accent')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('mjiFg')} />
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('mjiFg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="ghost" size="sm" onClick={() => setColorPickerField('fumboBoxBg')} />
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('fumboBoxBg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="ghost" size="sm" onClick={() => setColorPickerField('fumboBoxText')} />
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('fumboBoxText')} />
                               </div>
                             </div>
                           </div>
                         )}
-                      </button>
+                      </Tag>
                     );
                   })}
                 </div>

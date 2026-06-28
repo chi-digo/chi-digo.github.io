@@ -241,7 +241,7 @@ export function KangaCreator({ proverbs }: Props) {
               transition: 'opacity 0.15s',
             }}
           >
-            {t.kanga.back}
+            ← {t.kanga.back}
           </button>
           {state.step < 3 && (
             <button
@@ -260,7 +260,7 @@ export function KangaCreator({ proverbs }: Props) {
                 transition: 'opacity 0.15s',
               }}
             >
-              {t.kanga.next}
+              {t.kanga.next} →
             </button>
           )}
         </div>

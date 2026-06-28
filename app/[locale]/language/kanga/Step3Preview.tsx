@@ -11,6 +11,10 @@ interface Props {
   spec: KangaSpec;
 }
 
+const downloadIcon = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ display: 'inline-block', verticalAlign: '-0.15em', marginRight: '0.375rem' }}><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+
+const shareIcon = <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ display: 'inline-block', verticalAlign: '-0.15em', marginRight: '0.375rem' }}><circle cx="18" cy="5" r="3" stroke="currentColor" strokeWidth="2" /><circle cx="6" cy="12" r="3" stroke="currentColor" strokeWidth="2" /><circle cx="18" cy="19" r="3" stroke="currentColor" strokeWidth="2" /><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98" stroke="currentColor" strokeWidth="2" /></svg>;
+
 export function Step3Preview({ spec }: Props) {
   const t = useTranslations();
   const { locale } = useLocale();
@@ -123,7 +127,7 @@ export function Step3Preview({ spec }: Props) {
           disabled={downloading || rendering}
           style={{ flex: 1 }}
         >
-          {downloading ? t.kanga.downloading : t.kanga.download}
+          {downloadIcon}{downloading ? t.kanga.downloading : t.kanga.download}
         </Button>
         <Button
           onClick={handleShare}
@@ -131,7 +135,7 @@ export function Step3Preview({ spec }: Props) {
           variant="secondary"
           style={{ flex: 1 }}
         >
-          {t.share.share_image}
+          {shareIcon}{t.share.share_image}
         </Button>
       </div>
 
