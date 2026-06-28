@@ -67,6 +67,40 @@ export function drawBrandFooter(
   ctx.restore();
 }
 
+export function drawBrandFooterRect(
+  ctx: CanvasRenderingContext2D,
+  canvasWidth: number,
+  canvasHeight: number,
+  color: string,
+  alpha: number
+) {
+  const padding = canvasWidth * 0.013;
+  const markSize = canvasWidth * 0.008;
+  const textGap = canvasWidth * 0.003;
+
+  drawBrandMark(
+    ctx,
+    padding,
+    canvasHeight - padding - markSize,
+    markSize,
+    color,
+    alpha,
+  );
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.fillStyle = color;
+  const fontSize = Math.max(10, Math.round(canvasWidth * 0.005));
+  ctx.font = `400 ${fontSize}px Inter, system-ui, sans-serif`;
+  ctx.textBaseline = 'middle';
+  ctx.fillText(
+    'chidigo.org',
+    padding + markSize + textGap,
+    canvasHeight - padding - markSize / 2,
+  );
+  ctx.restore();
+}
+
 export function drawBrandBar(
   ctx: CanvasRenderingContext2D,
   centerX: number,

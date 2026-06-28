@@ -106,6 +106,8 @@ export function Breadcrumb() {
         const label = digoText.charAt(0).toUpperCase() + digoText.slice(1);
         items.push({ label });
       }
+    } else if (segments[1] === 'kanga') {
+      items.push({ label: t.breadcrumb.kanga });
     } else if (segments[1]) {
       const result = getLanguageTopic(segments[1]);
       if (result) {
