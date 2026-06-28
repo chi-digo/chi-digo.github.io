@@ -15,6 +15,7 @@ interface Props {
   palette: string;
   resolvedPalette?: Palette;
   customPalette: Palette;
+  shuffledPalette: Palette;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
@@ -262,6 +263,7 @@ export function Step2Style({
   palette,
   resolvedPalette,
   customPalette,
+  shuffledPalette,
   onShuffle,
   pindoMotif,
   mjiComposition,
@@ -299,7 +301,7 @@ export function Step2Style({
                   {PALETTE_KEYS.map((key, idx) => {
                     const isLast = idx === PALETTE_KEYS.length - 1;
                     const isSecondLast = idx === PALETTE_KEYS.length - 2;
-                    const p = isLast ? customPalette : PALETTES[key];
+                    const p = isLast ? customPalette : isSecondLast ? shuffledPalette : PALETTES[key];
                     const isCustomActive = palette === 'custom';
                     const selected = isLast ? (key === palette || isCustomActive) : key === palette && !isCustomActive;
                     return (

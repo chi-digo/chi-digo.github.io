@@ -20,6 +20,7 @@ interface KangaState {
   fumboSourceId?: string;
   palette: string;
   customPalette: Palette;
+  shuffledPalette: Palette;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
@@ -59,6 +60,7 @@ const INITIAL_STATE: KangaState = {
   fumboSource: 'custom',
   palette: PALETTE_KEYS[0],
   customPalette: { ...PALETTES[PALETTE_KEYS[0]] },
+  shuffledPalette: { ...PALETTES[PALETTE_KEYS[0]] },
   pindoMotif: MOTIF_KEYS[0],
   mjiComposition: COMPOSITION_KEYS[0],
   mjiMotif: PATTERN_KEYS[0],
@@ -77,8 +79,10 @@ function reducer(state: KangaState, action: KangaAction): KangaState {
     }
     case 'SET_CUSTOM_COLOR':
       return { ...state, palette: 'custom', customPalette: { ...state.customPalette, [action.field]: action.color } };
-    case 'SHUFFLE':
-      return { ...state, palette: 'custom', customPalette: shufflePalette() };
+    case 'SHUFFLE': {
+      const shuffled = shufflePalette();
+      return { ...state, palette: 'custom', customPalette: shuffled, shuffledPalette: shuffled };
+    }
     case 'SET_PINDO':
       return { ...state, pindoMotif: action.motif };
     case 'SET_COMPOSITION': {
@@ -187,6 +191,7 @@ export function KangaCreator({ proverbs }: Props) {
               palette={state.palette}
               resolvedPalette={resolvedPalette}
               customPalette={state.customPalette}
+              shuffledPalette={state.shuffledPalette}
               pindoMotif={state.pindoMotif}
               mjiComposition={state.mjiComposition}
               mjiMotif={state.mjiMotif}
