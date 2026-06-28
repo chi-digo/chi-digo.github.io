@@ -67,6 +67,57 @@ export function drawBrandFooter(
   ctx.restore();
 }
 
+function sampleLuminance(ctx: CanvasRenderingContext2D, x: number, y: number): number {
+  const [r, g, b] = ctx.getImageData(x, y, 1, 1).data;
+  return (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+}
+
+export function drawBrandFooterRect(
+  ctx: CanvasRenderingContext2D,
+  canvasWidth: number,
+  canvasHeight: number,
+) {
+  const lum = sampleLuminance(ctx, Math.round(canvasWidth / 2), Math.round(canvasHeight / 2));
+  const color = lum > 0.5 ? '#000' : '#fff';
+  const alpha = 0.5;
+
+  const markSize = canvasWidth * 0.05;
+  const textGap = canvasWidth * 0.01;
+  const fontSize = Math.max(10, Math.round(canvasWidth * 0.04));
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.fillStyle = color;
+  ctx.font = `600 ${fontSize}px Inter, system-ui, -apple-system, sans-serif`;
+  const textW = ctx.measureText('chidigo.org').width;
+  const totalW = markSize + textGap + textW;
+  const startX = (canvasWidth - totalW) / 2;
+  const centerY = canvasHeight / 2;
+
+  ctx.restore();
+
+  drawBrandMark(
+    ctx,
+    startX,
+    centerY - markSize / 2,
+    markSize,
+    color,
+    alpha,
+  );
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.fillStyle = color;
+  ctx.font = `600 ${fontSize}px Inter, system-ui, -apple-system, sans-serif`;
+  ctx.textBaseline = 'middle';
+  ctx.fillText(
+    'chidigo.org',
+    startX + markSize + textGap,
+    centerY,
+  );
+  ctx.restore();
+}
+
 export function drawBrandBar(
   ctx: CanvasRenderingContext2D,
   centerX: number,

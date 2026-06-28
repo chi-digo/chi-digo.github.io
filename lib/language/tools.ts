@@ -54,4 +54,19 @@ export const languageTools: LanguageTool[] = [
     href: '/language/quiz',
     available: true,
   },
+  {
+    slug: 'kanga',
+    title: {
+      en: 'Kanga Creator',
+      sw: 'Tengeneza Kanga',
+      dg: 'Panga Kanga',
+    },
+    description: {
+      en: 'Create a digital kanga with Digo proverbs or your own message. Choose colors, motifs, and share your design.',
+      sw: 'Tengeneza kanga ya kidijitali na misemo ya Kidigo au ujumbe wako. Chagua rangi, motifu, na ushiriki muundo wako.',
+      dg: 'Panga kanga ya kidijitali na misemo ya Chidigo au ujumbe wako. Tsagula rangi, motifu, na ugavane muundo wako.',
+    },
+    href: '/language/kanga',
+    available: true,
+  },
 ];
