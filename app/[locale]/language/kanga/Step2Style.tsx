@@ -201,11 +201,13 @@ const COLOR_SWATCHES: string[] = (() => {
   return colors;
 })();
 
-const editIcon = <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>;
+const editIcon = <svg width="50%" height="50%" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>;
 
-const shuffleIcon = <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /><path d="M2 7.5c3-5 7-5 10 0s7 5 10 0M2 16.5c3-5 7-5 10 0s7 5 10 0" stroke="none" /></svg>;
+const shuffleIcon = <svg width="50%" height="50%" viewBox="0 0 24 24" fill="none"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /><path d="M2 7.5c3-5 7-5 10 0s7 5 10 0M2 16.5c3-5 7-5 10 0s7 5 10 0" stroke="none" /></svg>;
 
 const circularBtnStyle: React.CSSProperties = { borderRadius: '50%', opacity: 0.8 };
+const editBtnStyle: React.CSSProperties = { ...circularBtnStyle, width: 'min(var(--space-6), 60%)', height: 'auto', aspectRatio: '1' };
+const shuffleBtnStyle: React.CSSProperties = { ...circularBtnStyle, width: 'min(var(--space-10), 50%)', height: 'auto', aspectRatio: '1' };
 
 const PALETTE_FIELD_LABELS: Record<keyof Palette, string> = {
   pindoBg: 'border_color',
@@ -341,7 +343,7 @@ export function Step2Style({
                             onClick={(e) => { e.stopPropagation(); onShuffle(); }}
                             style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}
                           >
-                            <IconButton icon={shuffleIcon} label={t.kanga.accent_color} variant="default" size="lg" style={circularBtnStyle} onClick={onShuffle} />
+                            <IconButton icon={shuffleIcon} label={t.kanga.accent_color} variant="default" size="md" style={shuffleBtnStyle} onClick={onShuffle} />
                           </div>
                         )}
                         {isLast && (
@@ -350,26 +352,26 @@ export function Step2Style({
                             style={{ position: 'absolute', inset: 0, display: 'grid', gridTemplateRows: '40% 40% 20%' }}
                           >
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                              <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('pindoBg')} />
+                              <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('pindoBg')} />
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                              <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('mjiBg')} />
+                              <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('mjiBg')} />
                             </div>
                             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr' }}>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('pindoFg')} />
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('pindoFg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.accent_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('accent')} />
+                                <IconButton icon={editIcon} label={t.kanga.accent_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('accent')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('mjiFg')} />
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('mjiFg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('fumboBoxBg')} />
+                                <IconButton icon={editIcon} label={t.kanga.border_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('fumboBoxBg')} />
                               </div>
                               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={circularBtnStyle} onClick={() => setColorPickerField('fumboBoxText')} />
+                                <IconButton icon={editIcon} label={t.kanga.center_color} variant="default" size="sm" style={editBtnStyle} onClick={() => setColorPickerField('fumboBoxText')} />
                               </div>
                             </div>
                           </div>
@@ -461,7 +463,7 @@ export function Step2Style({
             label: t.kanga.center_layout,
             content: (
               <div>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)', marginBottom: showMotifSelector ? 'var(--space-6)' : undefined }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, minmax(90px, 1fr))', gap: 'var(--space-2)', marginBottom: showMotifSelector ? 'var(--space-6)' : undefined, overflowX: 'auto' }}>
                   {COMPOSITION_KEYS.map((key) => {
                     const selected = key === mjiComposition;
                     return (
