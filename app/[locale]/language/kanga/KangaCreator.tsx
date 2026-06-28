@@ -104,16 +104,16 @@ export function KangaCreator({ proverbs }: Props) {
   const canAdvance = state.step === 1 ? state.jina.trim().length > 0 : true;
 
   return (
-    <div ref={containerRef} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <div ref={containerRef} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: 'var(--color-coral-lime-sand, #E8DCC2)', color: 'var(--color-kaya-deep, #0E1A2A)' }}>
       {/* Header */}
       <header style={{
         flexShrink: 0,
-        borderBottom: '1px solid var(--border, #ddd)',
-        background: 'var(--color-bg, #fff)',
+        borderBottom: '1px solid rgba(14, 26, 42, 0.1)',
+        background: 'var(--color-hando-cream, #F2EAD7)',
         padding: '0.75rem 1rem',
       }}>
         <div style={{ maxWidth: '42rem', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href={`/${locale}/language`} style={{ fontFamily: 'var(--font-display, serif)', fontSize: '1.125rem', fontWeight: 600, color: 'var(--color-bahari-accent, #2563eb)', textDecoration: 'none' }}>
+          <a href={`/${locale}/language`} style={{ fontFamily: 'var(--font-display, serif)', fontSize: '1.125rem', fontWeight: 600, color: 'var(--color-kaya-deep, #0E1A2A)', textDecoration: 'none' }}>
             {t.breadcrumb.kanga}
           </a>
           <StepIndicator current={state.step} total={3} />
@@ -162,8 +162,8 @@ export function KangaCreator({ proverbs }: Props) {
       {/* Navigation */}
       <footer style={{
         flexShrink: 0,
-        borderTop: '1px solid var(--border, #ddd)',
-        background: 'var(--color-bg, #fff)',
+        borderTop: '1px solid rgba(14, 26, 42, 0.1)',
+        background: 'var(--color-hando-cream, #F2EAD7)',
         padding: '0.75rem 1rem',
       }}>
         <div style={{ maxWidth: '42rem', margin: '0 auto', display: 'flex', justifyContent: 'space-between' }}>
@@ -194,7 +194,7 @@ export function KangaCreator({ proverbs }: Props) {
                 borderRadius: '0.5rem',
                 fontSize: '0.875rem',
                 fontWeight: 500,
-                background: canAdvance ? 'var(--color-bahari-accent, #2563eb)' : 'var(--color-bahari-accent, #2563eb)',
+                background: canAdvance ? 'var(--color-kaya-deep, #0E1A2A)' : 'var(--color-kaya-deep, #0E1A2A)',
                 color: '#fff',
                 border: 'none',
                 cursor: canAdvance ? 'pointer' : 'not-allowed',

@@ -81,23 +81,23 @@ export function Step3Preview({ spec }: Props) {
 
   return (
     <div>
-      <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-bahari-accent, #2563eb)', marginBottom: '0.5rem' }}>
+      <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-kaya-deep, #0E1A2A)', marginBottom: '0.5rem' }}>
         {t.kanga.preview_title}
       </h2>
-      <p style={{ color: 'var(--fg-muted, #888)', marginBottom: '1.5rem' }}>
+      <p style={{ color: 'rgba(14, 26, 42, 0.55)', marginBottom: '1.5rem' }}>
         {t.kanga.preview_description}
       </p>
 
       {/* Canvas */}
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
-        <div style={{ position: 'relative', borderRadius: '0.5rem', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', border: '1px solid var(--border, #ddd)', background: '#fff' }}>
+        <div style={{ position: 'relative', borderRadius: '0.5rem', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', border: '1px solid rgba(14, 26, 42, 0.15)', background: '#fff' }}>
           <canvas
             ref={canvasRef}
             style={{ display: 'block', maxWidth: '100%' }}
           />
           {rendering && (
             <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.7)' }}>
-              <span style={{ fontSize: '0.875rem', color: 'var(--fg-muted, #888)' }}>{t.kanga.rendering}</span>
+              <span style={{ fontSize: '0.875rem', color: 'rgba(14, 26, 42, 0.55)' }}>{t.kanga.rendering}</span>
             </div>
           )}
           {error && (
@@ -109,11 +109,11 @@ export function Step3Preview({ spec }: Props) {
       </div>
 
       {/* What you get */}
-      <div style={{ padding: '1rem', background: 'var(--color-surface, #f5f5f5)', borderRadius: '0.5rem', border: '1px solid var(--border, #ddd)', marginBottom: '1.5rem' }}>
-        <div style={{ fontSize: '0.75rem', fontWeight: 500, color: 'var(--fg-muted, #888)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>
+      <div style={{ padding: '1rem', background: 'var(--color-hando-cream, #F2EAD7)', borderRadius: '0.5rem', border: '1px solid rgba(14, 26, 42, 0.15)', marginBottom: '1.5rem' }}>
+        <div style={{ fontSize: '0.75rem', fontWeight: 500, color: 'rgba(14, 26, 42, 0.55)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>
           {t.kanga.what_you_get}
         </div>
-        <ul style={{ fontSize: '0.875rem', color: 'var(--fg-default, #222)', listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+        <ul style={{ fontSize: '0.875rem', color: 'var(--color-kaya-deep, #0E1A2A)', listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           <li>{t.kanga.high_res_png}</li>
           <li>{t.kanga.social_crop}</li>
           <li>{t.kanga.includes_watermark}</li>
@@ -142,7 +142,7 @@ export function Step3Preview({ spec }: Props) {
       {/* Store teaser */}
       <p
         onClick={handleStoreTeaserTap}
-        style={{ fontSize: '0.8125rem', color: 'var(--fg-muted, #888)', textAlign: 'center', cursor: 'pointer' }}
+        style={{ fontSize: '0.8125rem', color: 'rgba(14, 26, 42, 0.55)', textAlign: 'center', cursor: 'pointer' }}
       >
         {t.kanga.store_teaser}
       </p>

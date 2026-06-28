@@ -25,15 +25,15 @@ export function StepIndicator({ current, total }: { current: number; total: numb
                 fontSize: '0.75rem',
                 fontWeight: 500,
                 background: active
-                  ? 'var(--color-bahari-accent, #2563eb)'
+                  ? 'var(--color-kaya-deep, #0E1A2A)'
                   : done
-                    ? 'rgba(37, 99, 235, 0.2)'
-                    : 'var(--color-surface, #f5f5f5)',
+                    ? 'rgba(14, 26, 42, 0.15)'
+                    : 'var(--color-hando-cream, #F2EAD7)',
                 color: active
                   ? '#fff'
                   : done
-                    ? 'var(--color-bahari-accent, #2563eb)'
-                    : 'var(--fg-muted, #888)',
+                    ? 'var(--color-kaya-deep, #0E1A2A)'
+                    : 'rgba(14, 26, 42, 0.45)',
                 transition: 'background 0.2s, color 0.2s',
               }}
             >
@@ -43,14 +43,14 @@ export function StepIndicator({ current, total }: { current: number; total: numb
               style={{
                 fontSize: '0.75rem',
                 fontWeight: 500,
-                color: active ? 'var(--color-bahari-accent, #2563eb)' : 'var(--fg-muted, #888)',
+                color: active ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.45)',
               }}
               className="hidden sm:inline"
             >
               {labels[i]}
             </span>
             {step < total && (
-              <div style={{ width: '1rem', height: '1px', background: 'var(--border, #ddd)', margin: '0 0.125rem' }} />
+              <div style={{ width: '1rem', height: '1px', background: 'rgba(14, 26, 42, 0.15)', margin: '0 0.125rem' }} />
             )}
           </div>
         );

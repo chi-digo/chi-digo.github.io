@@ -35,11 +35,11 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
         placeholder={t.kanga.search_proverbs}
         style={{
           width: '100%',
-          border: '1px solid var(--border, #ddd)',
+          border: '1px solid rgba(14, 26, 42, 0.15)',
           borderRadius: '0.5rem',
           padding: '0.625rem 1rem',
           fontSize: '0.875rem',
-          background: 'var(--color-bg, #fff)',
+          background: 'var(--color-hando-cream, #F2EAD7)',
           marginBottom: '0.75rem',
           outline: 'none',
         }}
@@ -47,7 +47,7 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.375rem', maxHeight: '18rem', overflowY: 'auto' }}>
         {filtered.length === 0 && (
-          <div style={{ color: 'var(--fg-muted, #888)', fontSize: '0.875rem', padding: '1rem 0', textAlign: 'center' }}>
+          <div style={{ color: 'rgba(14, 26, 42, 0.55)', fontSize: '0.875rem', padding: '1rem 0', textAlign: 'center' }}>
             {t.kanga.no_proverbs_found}
           </div>
         )}
@@ -62,16 +62,16 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
                 textAlign: 'left',
                 padding: '0.75rem 1rem',
                 borderRadius: '0.5rem',
-                border: `1px solid ${selected ? 'var(--color-bahari-accent, #2563eb)' : 'var(--border, #ddd)'}`,
-                background: selected ? 'rgba(37, 99, 235, 0.05)' : 'transparent',
+                border: `1px solid ${selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.15)'}`,
+                background: selected ? 'rgba(14, 26, 42, 0.06)' : 'transparent',
                 cursor: 'pointer',
                 transition: 'border-color 0.15s, background 0.15s',
               }}
             >
-              <div style={{ fontSize: '0.875rem', fontWeight: 500, color: selected ? 'var(--color-bahari-accent, #2563eb)' : 'var(--fg-default, #222)' }}>
+              <div style={{ fontSize: '0.875rem', fontWeight: 500, color: selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'var(--color-kaya-deep, #0E1A2A)' }}>
                 {p.digo}
               </div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--fg-muted, #888)', marginTop: '0.125rem' }}>
+              <div style={{ fontSize: '0.75rem', color: 'rgba(14, 26, 42, 0.55)', marginTop: '0.125rem' }}>
                 {p.english}
               </div>
             </button>
@@ -80,7 +80,7 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
       </div>
 
       {!search.trim() && proverbs.length > 30 && (
-        <div style={{ fontSize: '0.75rem', color: 'var(--fg-muted, #888)', textAlign: 'center', marginTop: '0.5rem' }}>
+        <div style={{ fontSize: '0.75rem', color: 'rgba(14, 26, 42, 0.55)', textAlign: 'center', marginTop: '0.5rem' }}>
           {t.kanga.showing_of
             .replace('{shown}', '30')
             .replace('{total}', String(proverbs.length))}

@@ -163,8 +163,8 @@ const selectorBtn = (selected: boolean): React.CSSProperties => ({
   gap: '0.375rem',
   padding: '0.75rem',
   borderRadius: '0.5rem',
-  border: `2px solid ${selected ? 'var(--color-bahari-accent, #2563eb)' : 'var(--border, #ddd)'}`,
-  background: selected ? 'rgba(37, 99, 235, 0.05)' : 'transparent',
+  border: `2px solid ${selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.15)'}`,
+  background: selected ? 'rgba(14, 26, 42, 0.06)' : 'transparent',
   cursor: 'pointer',
   transition: 'border-color 0.15s, background 0.15s',
 });
@@ -172,7 +172,7 @@ const selectorBtn = (selected: boolean): React.CSSProperties => ({
 const labelStyle: React.CSSProperties = {
   fontSize: '0.625rem',
   fontWeight: 500,
-  color: 'var(--fg-muted, #888)',
+  color: 'rgba(14, 26, 42, 0.55)',
   lineHeight: 1.2,
   textAlign: 'center',
 };
@@ -180,7 +180,7 @@ const labelStyle: React.CSSProperties = {
 const sectionLabel: React.CSSProperties = {
   fontSize: '0.75rem',
   fontWeight: 500,
-  color: 'var(--fg-muted, #888)',
+  color: 'rgba(14, 26, 42, 0.55)',
   textTransform: 'uppercase',
   letterSpacing: '0.05em',
   marginBottom: '0.75rem',
@@ -204,10 +204,10 @@ export function Step2Style({
 
   return (
     <div>
-      <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-bahari-accent, #2563eb)', marginBottom: '0.5rem' }}>
+      <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-kaya-deep, #0E1A2A)', marginBottom: '0.5rem' }}>
         {t.kanga.choose_style_title}
       </h2>
-      <p style={{ color: 'var(--fg-muted, #888)', marginBottom: '1.5rem' }}>
+      <p style={{ color: 'rgba(14, 26, 42, 0.55)', marginBottom: '1.5rem' }}>
         {t.kanga.choose_style_description}
       </p>
 
@@ -225,7 +225,7 @@ export function Step2Style({
                 style={{
                   aspectRatio: '1',
                   borderRadius: '0.5rem',
-                  border: `2px solid ${selected ? 'var(--color-bahari-accent, #2563eb)' : 'var(--border, #ddd)'}`,
+                  border: `2px solid ${selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.15)'}`,
                   overflow: 'hidden',
                   cursor: 'pointer',
                   transition: 'border-color 0.15s, transform 0.15s',
