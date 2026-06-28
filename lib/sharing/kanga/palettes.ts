@@ -72,3 +72,21 @@ export const PALETTES: Record<string, Palette> = {
 };
 
 export const PALETTE_KEYS = Object.keys(PALETTES);
+
+function hexLuminance(hex: string): number {
+  const r = parseInt(hex.slice(1, 3), 16) / 255;
+  const g = parseInt(hex.slice(3, 5), 16) / 255;
+  const b = parseInt(hex.slice(5, 7), 16) / 255;
+  return 0.299 * r + 0.587 * g + 0.114 * b;
+}
+
+export function buildCustomPalette(pindoBg: string, mjiBg: string): Palette {
+  const pindoLight = hexLuminance(pindoBg) > 0.5;
+  const mjiLight = hexLuminance(mjiBg) > 0.5;
+  const pindoFg = pindoLight ? '#1A1A1A' : '#FFFFFF';
+  const mjiFg = mjiLight ? '#1A1A1A' : '#FFFFFF';
+  const accent = pindoLight ? '#1A1A1A' : '#C99846';
+  const fumboBoxBg = pindoBg;
+  const fumboBoxText = pindoFg;
+  return { pindoBg, pindoFg, mjiBg, mjiFg, accent, fumboBoxBg, fumboBoxText };
+}

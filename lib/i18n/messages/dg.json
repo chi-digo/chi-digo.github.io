@@ -499,6 +499,8 @@
     "next": "Enderera",
     "store_teaser": "Unalonda bila alama ya madzi? Inakpwedza vi karibuni kpwenye Duka ra Chidigo",
     "render_error": "Imeshindwa kuonyesa",
-    "rendering": "Inachakata..."
+    "rendering": "Inachakata...",
+    "border_color": "Pindo",
+    "center_color": "Mji"
   }
 }

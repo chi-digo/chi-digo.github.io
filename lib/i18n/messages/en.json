@@ -499,6 +499,8 @@
     "next": "Next",
     "store_teaser": "Want this without the watermark? Coming soon on Chidigo Store",
     "render_error": "Failed to render preview",
-    "rendering": "Rendering..."
+    "rendering": "Rendering...",
+    "border_color": "Border",
+    "center_color": "Center"
   }
 }

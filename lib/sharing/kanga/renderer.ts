@@ -10,6 +10,7 @@ export type { MjiComposition } from './compositions';
 export interface KangaSpec {
   fumbo: string;
   palette: string;
+  resolvedPalette?: Palette;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
@@ -32,7 +33,7 @@ export async function renderKanga(
   if (!ctx) throw new Error('Canvas 2D context unavailable');
 
   const { width: w, height: h } = canvas;
-  const palette = PALETTES[spec.palette];
+  const palette = spec.resolvedPalette ?? PALETTES[spec.palette];
   if (!palette) throw new Error(`Unknown palette: ${spec.palette}`);
 
   await loadShareFonts();

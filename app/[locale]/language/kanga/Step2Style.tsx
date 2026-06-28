@@ -1,9 +1,9 @@
 'use client';
 
-import { useRef, useEffect, useCallback } from 'react';
+import { useRef, useEffect, useCallback, useState } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
-import { Tabs } from '@chi-digo/design-system';
-import { PALETTES, PALETTE_KEYS } from '@/lib/sharing/kanga/palettes';
+import { Tabs, IconButton } from '@chi-digo/design-system';
+import { PALETTES, PALETTE_KEYS, type Palette } from '@/lib/sharing/kanga/palettes';
 import { MOTIFS, MOTIF_KEYS } from '@/lib/sharing/motifs';
 import { PATTERNS, PATTERN_KEYS } from '@/lib/sharing/kanga/patterns';
 import { COMPOSITION_KEYS, type MjiComposition } from '@/lib/sharing/kanga/compositions';
@@ -13,10 +13,14 @@ import type { Messages } from '@/lib/i18n/config';
 interface Props {
   fumbo: string;
   palette: string;
+  resolvedPalette?: Palette;
+  customPindoBg: string;
+  customMjiBg: string;
   pindoMotif: string;
   mjiComposition: MjiComposition;
   mjiMotif: string;
   onSetPalette: (palette: string) => void;
+  onSetCustomColor: (field: 'pindo' | 'mji', color: string) => void;
   onSetPindo: (motif: string) => void;
   onSetComposition: (composition: MjiComposition) => void;
   onSetMjiMotif: (motif: string) => void;
@@ -172,6 +176,30 @@ const selectorBtn = (selected: boolean): React.CSSProperties => ({
   transition: 'border-color var(--duration-fast), background var(--duration-fast)',
 });
 
+function hslToHex(h: number, s: number, l: number): string {
+  const s1 = s / 100, l1 = l / 100;
+  const a = s1 * Math.min(l1, 1 - l1);
+  const f = (n: number) => {
+    const k = (n + h / 30) % 12;
+    const c = l1 - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+    return Math.round(255 * c).toString(16).padStart(2, '0');
+  };
+  return `#${f(0)}${f(8)}${f(4)}`;
+}
+
+const COLOR_SWATCHES: string[] = (() => {
+  const colors: string[] = [];
+  const hues = [0, 30, 60, 120, 180, 210, 240, 270, 300, 330];
+  const levels: [number, number][] = [[100, 70], [100, 50], [80, 35]];
+  for (const [s, l] of levels) {
+    for (const h of hues) {
+      colors.push(hslToHex(h, s, l));
+    }
+  }
+  colors.push('#FFFFFF', '#C0C0C0', '#808080', '#404040', '#1A1A1A', '#000000');
+  return colors;
+})();
+
 const labelStyle: React.CSSProperties = {
   fontSize: 'var(--text-xs)',
   fontWeight: 'var(--weight-medium)' as any,
@@ -180,8 +208,8 @@ const labelStyle: React.CSSProperties = {
   textAlign: 'center',
 };
 
-function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
-  fumbo: string; palette: string; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
+function LivePreview({ fumbo, palette, resolvedPalette, pindoMotif, mjiComposition, mjiMotif }: {
+  fumbo: string; palette: string; resolvedPalette?: Palette; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -198,11 +226,11 @@ function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
     canvas.style.width = `${displayWidth}px`;
     canvas.style.height = `${displayHeight}px`;
     try {
-      await renderKanga(canvas, { fumbo, palette, pindoMotif, mjiComposition, mjiMotif });
+      await renderKanga(canvas, { fumbo, palette, resolvedPalette, pindoMotif, mjiComposition, mjiMotif });
     } catch {
       // silently fail on preview
     }
-  }, [fumbo, palette, pindoMotif, mjiComposition, mjiMotif]);
+  }, [fumbo, palette, resolvedPalette, pindoMotif, mjiComposition, mjiMotif]);
 
   useEffect(() => { render(); }, [render]);
 
@@ -218,16 +246,21 @@ function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
 export function Step2Style({
   fumbo,
   palette,
+  resolvedPalette,
+  customPindoBg,
+  customMjiBg,
   pindoMotif,
   mjiComposition,
   mjiMotif,
   onSetPalette,
+  onSetCustomColor,
   onSetPindo,
   onSetComposition,
   onSetMjiMotif,
 }: Props) {
   const t = useTranslations();
-  const currentPalette = PALETTES[palette];
+  const currentPalette = resolvedPalette ?? PALETTES[palette];
+  const [colorPickerField, setColorPickerField] = useState<'pindo' | 'mji' | null>(null);
   const showMotifSelector = mjiComposition !== 'solid';
   const usePatternMotifs = mjiComposition === 'grid_repeat';
 
@@ -240,39 +273,134 @@ export function Step2Style({
         {t.kanga.choose_style_description}
       </p>
 
-      <LivePreview fumbo={fumbo} palette={palette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
+      <LivePreview fumbo={fumbo} palette={palette} resolvedPalette={resolvedPalette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
 
       <Tabs
         items={[
           {
             label: t.kanga.color_scheme,
             content: (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)' }}>
-                {PALETTE_KEYS.map((key) => {
-                  const p = PALETTES[key];
-                  const selected = key === palette;
-                  return (
-                    <button
-                      key={key}
-                      onClick={() => onSetPalette(key)}
-                      style={{
-                        aspectRatio: '1',
-                        borderRadius: 'var(--radius-md)',
-                        border: `var(--border-width-thick) solid ${selected ? 'var(--interactive-default)' : 'var(--border-default)'}`,
-                        overflow: 'hidden',
-                        cursor: 'pointer',
-                        transition: 'border-color var(--duration-fast), transform var(--duration-fast)',
-                        transform: selected ? 'scale(1.05)' : 'scale(1)',
-                        padding: 0,
-                      }}
-                      title={key.replace(/_/g, ' ')}
-                    >
-                      <div style={{ width: '100%', height: '50%', backgroundColor: p.pindoBg }} />
-                      <div style={{ width: '100%', height: '50%', backgroundColor: p.mjiBg }} />
-                    </button>
-                  );
-                })}
-              </div>
+              <>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)' }}>
+                  {PALETTE_KEYS.map((key, idx) => {
+                    const p = PALETTES[key];
+                    const isLast = idx === PALETTE_KEYS.length - 1;
+                    const isCustomActive = palette === 'custom';
+                    const selected = isLast ? (key === palette || isCustomActive) : key === palette && !isCustomActive;
+                    const displayPindo = isLast && isCustomActive ? customPindoBg : p.pindoBg;
+                    const displayMji = isLast && isCustomActive ? customMjiBg : p.mjiBg;
+                    return (
+                      <button
+                        key={key}
+                        onClick={() => onSetPalette(key)}
+                        style={{
+                          aspectRatio: '1',
+                          borderRadius: 'var(--radius-md)',
+                          border: `var(--border-width-thick) solid ${selected ? 'var(--interactive-default)' : 'var(--border-default)'}`,
+                          overflow: 'hidden',
+                          cursor: 'pointer',
+                          transition: 'border-color var(--duration-fast), transform var(--duration-fast)',
+                          transform: selected ? 'scale(1.05)' : 'scale(1)',
+                          padding: 0,
+                          position: 'relative',
+                        }}
+                        title={key.replace(/_/g, ' ')}
+                      >
+                        <div style={{ position: 'relative', width: '100%', height: '50%', backgroundColor: displayPindo }}>
+                          {isLast && (
+                            <span
+                              onClick={(e) => e.stopPropagation()}
+                              style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                            >
+                              <IconButton
+                                icon={<svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>}
+                                label={t.kanga.border_color}
+                                variant="ghost"
+                                size="sm"
+                                onClick={() => setColorPickerField('pindo')}
+                              />
+                            </span>
+                          )}
+                        </div>
+                        <div style={{ position: 'relative', width: '100%', height: '50%', backgroundColor: displayMji }}>
+                          {isLast && (
+                            <span
+                              onClick={(e) => e.stopPropagation()}
+                              style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                            >
+                              <IconButton
+                                icon={<svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" /></svg>}
+                                label={t.kanga.center_color}
+                                variant="ghost"
+                                size="sm"
+                                onClick={() => setColorPickerField('mji')}
+                              />
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {colorPickerField !== null && (
+                  <div
+                    style={{
+                      position: 'fixed', inset: 0, zIndex: 1000,
+                      display: 'flex', flexDirection: 'column', justifyContent: 'flex-end',
+                    }}
+                  >
+                    <div
+                      onClick={() => setColorPickerField(null)}
+                      style={{ flex: 1, background: 'rgba(0,0,0,0.3)' }}
+                    />
+                    <div style={{
+                      background: 'var(--bg-surface, #fff)',
+                      borderTop: 'var(--border-width-thin) solid var(--border-default)',
+                      padding: 'var(--space-4) var(--space-4) calc(var(--space-4) + env(safe-area-inset-bottom, 0px))',
+                      borderRadius: 'var(--radius-lg) var(--radius-lg) 0 0',
+                      boxShadow: 'var(--shadow-lg, 0 -4px 24px rgba(0,0,0,0.12))',
+                    }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-3)' }}>
+                        <span style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)' }}>
+                          {colorPickerField === 'pindo' ? t.kanga.border_color : t.kanga.center_color}
+                        </span>
+                        <button
+                          onClick={() => setColorPickerField(null)}
+                          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 'var(--space-1)', color: 'var(--fg-muted)', fontSize: 'var(--text-lg)' }}
+                        >
+                          &times;
+                        </button>
+                      </div>
+                      <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fill, 30px)',
+                        gap: 4,
+                        justifyContent: 'center',
+                      }}>
+                        {COLOR_SWATCHES.map((color, i) => {
+                          return (
+                            <button
+                              key={i}
+                              onClick={() => onSetCustomColor(colorPickerField!, color)}
+                              style={{
+                                width: 30, height: 30,
+                                backgroundColor: color,
+                                border: 'none',
+                                borderRadius: 'var(--radius-sm, 2px)',
+                                cursor: 'pointer',
+                                padding: 0,
+                                outline: (colorPickerField === 'pindo' ? customPindoBg : customMjiBg) === color ? '2px solid var(--interactive-default)' : 'none',
+                                outlineOffset: -1,
+                              }}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </>
             ),
           },
           {

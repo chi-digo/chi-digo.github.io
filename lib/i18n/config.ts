@@ -467,6 +467,8 @@ export interface Messages {
     store_teaser: string;
     render_error: string;
     rendering: string;
+    border_color: string;
+    center_color: string;
   };
   profile: {
     title: string;

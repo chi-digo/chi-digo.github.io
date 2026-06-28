@@ -499,6 +499,8 @@
     "next": "Endelea",
     "store_teaser": "Unataka bila alama ya maji? Inakuja hivi karibuni kwenye Duka la Chidigo",
     "render_error": "Imeshindwa kuonyesha hakiki",
-    "rendering": "Inachakata..."
+    "rendering": "Inachakata...",
+    "border_color": "Pindo",
+    "center_color": "Mji"
   }
 }
