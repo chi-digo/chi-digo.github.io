@@ -2,7 +2,7 @@ import { PALETTES, type Palette } from './palettes';
 import { createKangaMotifPattern } from '../motifs';
 import { loadShareFonts } from '../fonts';
 import { drawBrandFooterRect } from '../brand';
-import { drawWatermark } from './watermark';
+
 import { drawComposition, type MjiComposition } from './compositions';
 
 export type { MjiComposition } from './compositions';
@@ -65,9 +65,7 @@ export async function renderKanga(
 
   drawFumbo(ctx, w, h, spec.fumbo, palette);
 
-  drawBrandFooterRect(ctx, w, h, palette.pindoFg, 0.4);
-
-  drawWatermark(ctx, w, h);
+  drawBrandFooterRect(ctx, w, h);
 }
 
 function drawTransitionLines(

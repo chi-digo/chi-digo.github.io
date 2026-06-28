@@ -75,10 +75,6 @@ export function Step3Preview({ spec }: Props) {
     track('language', 'kanga', 'shared', { result, locale });
   }, [spec, locale]);
 
-  const handleStoreTeaserTap = useCallback(() => {
-    track('language', 'kanga', 'store_teaser', { locale });
-  }, [locale]);
-
   return (
     <div>
       <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-kaya-deep, #0E1A2A)', marginBottom: '0.5rem' }}>
@@ -139,13 +135,6 @@ export function Step3Preview({ spec }: Props) {
         </Button>
       </div>
 
-      {/* Store teaser */}
-      <p
-        onClick={handleStoreTeaserTap}
-        style={{ fontSize: '0.8125rem', color: 'rgba(14, 26, 42, 0.55)', textAlign: 'center', cursor: 'pointer' }}
-      >
-        {t.kanga.store_teaser}
-      </p>
     </div>
   );
 }
