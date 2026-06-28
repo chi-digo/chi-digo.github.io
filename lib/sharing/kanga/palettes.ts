@@ -9,6 +9,12 @@ export interface Palette {
 }
 
 export const PALETTES: Record<string, Palette> = {
+  red_navy: {
+    pindoBg: '#1B2244', pindoFg: '#C99846',
+    mjiBg: '#C62828', mjiFg: '#1B2244',
+    accent: '#C99846',
+    fumboBoxBg: '#C99846', fumboBoxText: '#1B2244',
+  },
   yellow_navy: {
     pindoBg: '#E8C820', pindoFg: '#8B1A1A',
     mjiBg: '#1B2244', mjiFg: '#C62828',
@@ -56,12 +62,6 @@ export const PALETTES: Record<string, Palette> = {
     mjiBg: '#E8A832', mjiFg: '#1A1A1A',
     accent: '#1A1A1A',
     fumboBoxBg: '#FFFFFF', fumboBoxText: '#1A1A1A',
-  },
-  red_navy: {
-    pindoBg: '#1B2244', pindoFg: '#C99846',
-    mjiBg: '#C62828', mjiFg: '#1B2244',
-    accent: '#C99846',
-    fumboBoxBg: '#C99846', fumboBoxText: '#1B2244',
   },
   pink_gold: {
     pindoBg: '#E8A832', pindoFg: '#C62828',

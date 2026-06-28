@@ -104,7 +104,6 @@ function drawCentralMedallion(
   ctx.stroke();
 
   const motifSize = mainR * 1.4;
-  motif.draw(ctx, motifSize, motifSize, palette.accent);
 
   ctx.save();
   ctx.beginPath();

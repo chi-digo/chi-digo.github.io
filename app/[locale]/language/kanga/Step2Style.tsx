@@ -183,13 +183,15 @@ const labelStyle: React.CSSProperties = {
 function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
   fumbo: string; palette: string; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
 }) {
+  const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const render = useCallback(async () => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    const container = containerRef.current;
+    if (!canvas || !container) return;
     const dpr = window.devicePixelRatio || 1;
-    const displayWidth = Math.min(600, window.innerWidth - 32);
+    const displayWidth = Math.min(600, container.clientWidth);
     const displayHeight = Math.round(displayWidth * (2 / 3));
     canvas.width = displayWidth * dpr;
     canvas.height = displayHeight * dpr;
@@ -205,9 +207,9 @@ function LivePreview({ fumbo, palette, pindoMotif, mjiComposition, mjiMotif }: {
   useEffect(() => { render(); }, [render]);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-6)' }}>
+    <div ref={containerRef} style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-6)' }}>
       <div style={{ overflow: 'hidden', boxShadow: 'var(--shadow-md)', border: 'var(--border-width-thin) solid var(--border-default)', background: 'var(--bg-surface)' }}>
-        <canvas ref={canvasRef} style={{ display: 'block', maxWidth: '100%' }} />
+        <canvas ref={canvasRef} style={{ display: 'block' }} />
       </div>
     </div>
   );
