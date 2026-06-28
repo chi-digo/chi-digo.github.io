@@ -90,7 +90,7 @@ export function Step3Preview({ spec }: Props) {
 
       {/* Canvas */}
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
-        <div style={{ position: 'relative', borderRadius: '0.5rem', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', border: '1px solid rgba(14, 26, 42, 0.15)', background: '#fff' }}>
+        <div style={{ position: 'relative', overflow: 'hidden', boxShadow: 'var(--shadow-md)', border: 'var(--border-width-thin) solid var(--border-default)', background: 'var(--bg-surface)' }}>
           <canvas
             ref={canvasRef}
             style={{ display: 'block', maxWidth: '100%' }}

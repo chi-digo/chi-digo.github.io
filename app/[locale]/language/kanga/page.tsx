@@ -8,7 +8,9 @@ import { KangaCreator } from './KangaCreator';
 export interface ProverbStub {
   id: string;
   digo: string;
-  english: string;
+  idiomatic_en: string;
+  idiomatic_sw: string;
+  idiomatic_dg: string;
 }
 
 let _cache: ProverbStub[] | null = null;
@@ -24,11 +26,15 @@ function getProverbStubs(): ProverbStub[] {
     digo: string;
     literal_en: string;
     idiomatic_en: string;
+    idiomatic_sw: string;
+    idiomatic_dg: string;
   }>;
   _cache = full.map((p) => ({
     id: p.id,
     digo: p.digo,
-    english: p.idiomatic_en || p.literal_en,
+    idiomatic_en: p.idiomatic_en || p.literal_en,
+    idiomatic_sw: p.idiomatic_sw || '',
+    idiomatic_dg: p.idiomatic_dg || '',
   }));
   return _cache;
 }

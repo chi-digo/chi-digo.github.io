@@ -105,8 +105,8 @@ export function KangaCreator({ proverbs }: Props) {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'var(--color-coral-lime-sand, #E8DCC2)',
-      color: 'var(--color-kaya-deep, #0E1A2A)',
+      background: 'var(--bg-page)',
+      color: 'var(--fg-default)',
     }}>
       <div style={{
         maxWidth: 1100,
@@ -142,6 +142,7 @@ export function KangaCreator({ proverbs }: Props) {
           )}
           {state.step === 2 && (
             <Step2Style
+              jina={state.jina}
               palette={state.palette}
               pindoMotif={state.pindoMotif}
               mjiComposition={state.mjiComposition}

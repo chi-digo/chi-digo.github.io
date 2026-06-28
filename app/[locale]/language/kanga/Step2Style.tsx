@@ -1,14 +1,17 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useCallback } from 'react';
 import { useTranslations } from '@/lib/i18n/context';
+import { Tabs } from '@chi-digo/design-system';
 import { PALETTES, PALETTE_KEYS } from '@/lib/sharing/kanga/palettes';
 import { MOTIFS, MOTIF_KEYS } from '@/lib/sharing/motifs';
 import { PATTERNS, PATTERN_KEYS } from '@/lib/sharing/kanga/patterns';
 import { COMPOSITION_KEYS, type MjiComposition } from '@/lib/sharing/kanga/compositions';
+import { renderKanga } from '@/lib/sharing/kanga/renderer';
 import type { Messages } from '@/lib/i18n/config';
 
 interface Props {
+  jina: string;
   palette: string;
   pindoMotif: string;
   mjiComposition: MjiComposition;
@@ -160,34 +163,58 @@ const selectorBtn = (selected: boolean): React.CSSProperties => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  gap: '0.375rem',
-  padding: '0.75rem',
-  borderRadius: '0.5rem',
-  border: `2px solid ${selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.15)'}`,
-  background: selected ? 'rgba(14, 26, 42, 0.06)' : 'transparent',
+  gap: 'var(--space-1-5)',
+  padding: 'var(--space-3)',
+  borderRadius: 'var(--radius-md)',
+  border: `var(--border-width-thick) solid ${selected ? 'var(--interactive-default)' : 'var(--border-default)'}`,
+  background: selected ? 'var(--bg-surface-muted)' : 'transparent',
   cursor: 'pointer',
-  transition: 'border-color 0.15s, background 0.15s',
+  transition: 'border-color var(--duration-fast), background var(--duration-fast)',
 });
 
 const labelStyle: React.CSSProperties = {
-  fontSize: '0.625rem',
-  fontWeight: 500,
-  color: 'rgba(14, 26, 42, 0.55)',
+  fontSize: 'var(--text-xs)',
+  fontWeight: 'var(--weight-medium)' as any,
+  color: 'var(--fg-muted)',
   lineHeight: 1.2,
   textAlign: 'center',
 };
 
-const sectionLabel: React.CSSProperties = {
-  fontSize: '0.75rem',
-  fontWeight: 500,
-  color: 'rgba(14, 26, 42, 0.55)',
-  textTransform: 'uppercase',
-  letterSpacing: '0.05em',
-  marginBottom: '0.75rem',
-  display: 'block',
-};
+function LivePreview({ jina, palette, pindoMotif, mjiComposition, mjiMotif }: {
+  jina: string; palette: string; pindoMotif: string; mjiComposition: MjiComposition; mjiMotif: string;
+}) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const render = useCallback(async () => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const dpr = window.devicePixelRatio || 1;
+    const displayWidth = Math.min(600, window.innerWidth - 32);
+    const displayHeight = Math.round(displayWidth * (2 / 3));
+    canvas.width = displayWidth * dpr;
+    canvas.height = displayHeight * dpr;
+    canvas.style.width = `${displayWidth}px`;
+    canvas.style.height = `${displayHeight}px`;
+    try {
+      await renderKanga(canvas, { jina, palette, pindoMotif, mjiComposition, mjiMotif });
+    } catch {
+      // silently fail on preview
+    }
+  }, [jina, palette, pindoMotif, mjiComposition, mjiMotif]);
+
+  useEffect(() => { render(); }, [render]);
+
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-6)' }}>
+      <div style={{ overflow: 'hidden', boxShadow: 'var(--shadow-md)', border: 'var(--border-width-thin) solid var(--border-default)', background: 'var(--bg-surface)' }}>
+        <canvas ref={canvasRef} style={{ display: 'block', maxWidth: '100%' }} />
+      </div>
+    </div>
+  );
+}
 
 export function Step2Style({
+  jina,
   palette,
   pindoMotif,
   mjiComposition,
@@ -204,115 +231,122 @@ export function Step2Style({
 
   return (
     <div>
-      <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-kaya-deep, #0E1A2A)', marginBottom: '0.5rem' }}>
+      <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)', marginBottom: 'var(--space-2)' }}>
         {t.kanga.choose_style_title}
       </h2>
-      <p style={{ color: 'rgba(14, 26, 42, 0.55)', marginBottom: '1.5rem' }}>
+      <p style={{ color: 'var(--fg-muted)', marginBottom: 'var(--space-6)' }}>
         {t.kanga.choose_style_description}
       </p>
 
-      {/* Palettes */}
-      <div style={{ marginBottom: '2rem' }}>
-        <label style={sectionLabel}>{t.kanga.color_scheme}</label>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.5rem' }}>
-          {PALETTE_KEYS.map((key) => {
-            const p = PALETTES[key];
-            const selected = key === palette;
-            return (
-              <button
-                key={key}
-                onClick={() => onSetPalette(key)}
-                style={{
-                  aspectRatio: '1',
-                  borderRadius: '0.5rem',
-                  border: `2px solid ${selected ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.15)'}`,
-                  overflow: 'hidden',
-                  cursor: 'pointer',
-                  transition: 'border-color 0.15s, transform 0.15s',
-                  transform: selected ? 'scale(1.05)' : 'scale(1)',
-                  padding: 0,
-                }}
-                title={key.replace(/_/g, ' ')}
-              >
-                <div style={{ width: '100%', height: '50%', backgroundColor: p.pindoBg }} />
-                <div style={{ width: '100%', height: '50%', backgroundColor: p.mjiBg }} />
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      <LivePreview jina={jina} palette={palette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
 
-      {/* Pindo motifs */}
-      <div style={{ marginBottom: '2rem' }}>
-        <label style={sectionLabel}>{t.kanga.border_motif}</label>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
-          {MOTIF_KEYS.map((key) => {
-            const selected = key === pindoMotif;
-            return (
-              <button key={key} onClick={() => onSetPindo(key)} style={selectorBtn(selected)}>
-                <div style={{ width: '3rem', height: '3rem' }}>
-                  <MotifThumb motifKey={key} color={currentPalette.pindoFg} />
+      <Tabs
+        items={[
+          {
+            label: t.kanga.color_scheme,
+            content: (
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)' }}>
+                {PALETTE_KEYS.map((key) => {
+                  const p = PALETTES[key];
+                  const selected = key === palette;
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => onSetPalette(key)}
+                      style={{
+                        aspectRatio: '1',
+                        borderRadius: 'var(--radius-md)',
+                        border: `var(--border-width-thick) solid ${selected ? 'var(--interactive-default)' : 'var(--border-default)'}`,
+                        overflow: 'hidden',
+                        cursor: 'pointer',
+                        transition: 'border-color var(--duration-fast), transform var(--duration-fast)',
+                        transform: selected ? 'scale(1.05)' : 'scale(1)',
+                        padding: 0,
+                      }}
+                      title={key.replace(/_/g, ' ')}
+                    >
+                      <div style={{ width: '100%', height: '50%', backgroundColor: p.pindoBg }} />
+                      <div style={{ width: '100%', height: '50%', backgroundColor: p.mjiBg }} />
+                    </button>
+                  );
+                })}
+              </div>
+            ),
+          },
+          {
+            label: t.kanga.border_motif,
+            content: (
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-2)' }}>
+                {MOTIF_KEYS.map((key) => {
+                  const selected = key === pindoMotif;
+                  return (
+                    <button key={key} onClick={() => onSetPindo(key)} style={selectorBtn(selected)}>
+                      <div style={{ width: '3rem', height: '3rem' }}>
+                        <MotifThumb motifKey={key} color={currentPalette.pindoFg} />
+                      </div>
+                      <span style={labelStyle}>{t.kanga[MOTIF_LABEL_KEYS[key]]}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ),
+          },
+          {
+            label: t.kanga.center_layout,
+            content: (
+              <div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 'var(--space-2)', marginBottom: showMotifSelector ? 'var(--space-6)' : undefined }}>
+                  {COMPOSITION_KEYS.map((key) => {
+                    const selected = key === mjiComposition;
+                    return (
+                      <button key={key} onClick={() => onSetComposition(key)} style={{ ...selectorBtn(selected), padding: 'var(--space-2)' }}>
+                        <div style={{ width: '3.5rem', height: '2.375rem' }}>
+                          <CompositionThumb compositionKey={key} />
+                        </div>
+                        <span style={labelStyle}>{t.kanga[COMP_LABEL_KEYS[key]]}</span>
+                      </button>
+                    );
+                  })}
                 </div>
-                <span style={labelStyle}>{t.kanga[MOTIF_LABEL_KEYS[key]]}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
 
-      {/* Mji composition */}
-      <div style={{ marginBottom: '2rem' }}>
-        <label style={sectionLabel}>{t.kanga.center_layout}</label>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.5rem' }}>
-          {COMPOSITION_KEYS.map((key) => {
-            const selected = key === mjiComposition;
-            return (
-              <button key={key} onClick={() => onSetComposition(key)} style={{ ...selectorBtn(selected), padding: '0.5rem' }}>
-                <div style={{ width: '3.5rem', height: '2.375rem' }}>
-                  <CompositionThumb compositionKey={key} />
-                </div>
-                <span style={labelStyle}>{t.kanga[COMP_LABEL_KEYS[key]]}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Center motif — conditional */}
-      {showMotifSelector && (
-        <div>
-          <label style={sectionLabel}>{t.kanga.center_motif}</label>
-          {usePatternMotifs ? (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.5rem' }}>
-              {PATTERN_KEYS.map((key) => {
-                const selected = key === mjiMotif;
-                return (
-                  <button key={key} onClick={() => onSetMjiMotif(key)} style={selectorBtn(selected)}>
-                    <div style={{ width: '3rem', height: '3rem' }}>
-                      <PatternThumb patternKey={key} color={currentPalette.mjiFg} />
-                    </div>
-                    <span style={labelStyle}>{t.kanga[PATTERN_LABEL_KEYS[key]]}</span>
-                  </button>
-                );
-              })}
-            </div>
-          ) : (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
-              {MOTIF_KEYS.map((key) => {
-                const selected = key === mjiMotif;
-                return (
-                  <button key={key} onClick={() => onSetMjiMotif(key)} style={selectorBtn(selected)}>
-                    <div style={{ width: '3rem', height: '3rem' }}>
-                      <MotifThumb motifKey={key} color={currentPalette.mjiFg} />
-                    </div>
-                    <span style={labelStyle}>{t.kanga[MOTIF_LABEL_KEYS[key]]}</span>
-                  </button>
-                );
-              })}
-            </div>
-          )}
-        </div>
-      )}
+                {showMotifSelector && (
+                  <div>
+                    {usePatternMotifs ? (
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 'var(--space-2)' }}>
+                        {PATTERN_KEYS.map((key) => {
+                          const selected = key === mjiMotif;
+                          return (
+                            <button key={key} onClick={() => onSetMjiMotif(key)} style={selectorBtn(selected)}>
+                              <div style={{ width: '3rem', height: '3rem' }}>
+                                <PatternThumb patternKey={key} color={currentPalette.mjiFg} />
+                              </div>
+                              <span style={labelStyle}>{t.kanga[PATTERN_LABEL_KEYS[key]]}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-2)' }}>
+                        {MOTIF_KEYS.map((key) => {
+                          const selected = key === mjiMotif;
+                          return (
+                            <button key={key} onClick={() => onSetMjiMotif(key)} style={selectorBtn(selected)}>
+                              <div style={{ width: '3rem', height: '3rem' }}>
+                                <MotifThumb motifKey={key} color={currentPalette.mjiFg} />
+                              </div>
+                              <span style={labelStyle}>{t.kanga[MOTIF_LABEL_KEYS[key]]}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            ),
+          },
+        ]}
+      />
     </div>
   );
 }

@@ -427,6 +427,7 @@ export interface Messages {
     no_proverbs_found: string;
     showing_of: string;
     search_to_find_more: string;
+    custom_label: string;
     custom_placeholder: string;
     char_limit: string;
     your_jina: string;

@@ -7,50 +7,69 @@ export function StepIndicator({ current, total }: { current: number; total: numb
   const labels = [t.kanga.step_message, t.kanga.step_style, t.kanga.step_preview];
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      fontFamily: 'var(--font-sans)',
+    }}>
       {Array.from({ length: total }, (_, i) => {
         const step = i + 1;
         const active = step === current;
         const done = step < current;
         return (
-          <div key={step} style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
+          <div key={step} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
             <div
               style={{
                 width: '1.75rem',
                 height: '1.75rem',
-                borderRadius: '50%',
+                borderRadius: 'var(--radius-full)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: '0.75rem',
-                fontWeight: 500,
+                fontSize: 'var(--text-xs)',
+                fontWeight: 'var(--weight-medium)' as any,
                 background: active
-                  ? 'var(--color-kaya-deep, #0E1A2A)'
+                  ? 'var(--interactive-default)'
                   : done
-                    ? 'rgba(14, 26, 42, 0.15)'
-                    : 'var(--color-hando-cream, #F2EAD7)',
+                    ? 'var(--bg-surface-muted)'
+                    : 'var(--bg-surface)',
                 color: active
-                  ? '#fff'
+                  ? 'var(--fg-on-brand)'
                   : done
-                    ? 'var(--color-kaya-deep, #0E1A2A)'
-                    : 'rgba(14, 26, 42, 0.45)',
-                transition: 'background 0.2s, color 0.2s',
+                    ? 'var(--fg-default)'
+                    : 'var(--fg-subtle)',
+                border: active || done
+                  ? 'none'
+                  : 'var(--border-width-thin) solid var(--border-default)',
+                transition: `background var(--duration-moderate) var(--ease-default), color var(--duration-moderate) var(--ease-default)`,
               }}
             >
-              {step}
+              {done ? (
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 6L5 8.5L9.5 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              ) : (
+                step
+              )}
             </div>
             <span
               style={{
-                fontSize: '0.75rem',
-                fontWeight: 500,
-                color: active ? 'var(--color-kaya-deep, #0E1A2A)' : 'rgba(14, 26, 42, 0.45)',
+                fontSize: 'var(--text-xs)',
+                fontWeight: 'var(--weight-medium)' as any,
+                color: active ? 'var(--fg-default)' : 'var(--fg-subtle)',
               }}
               className="hidden sm:inline"
             >
               {labels[i]}
             </span>
             {step < total && (
-              <div style={{ width: '1rem', height: '1px', background: 'rgba(14, 26, 42, 0.15)', margin: '0 0.125rem' }} />
+              <div style={{
+                width: 'var(--space-4)',
+                height: 'var(--border-width-thin)',
+                background: 'var(--border-default)',
+                margin: '0 var(--space-0-5)',
+              }} />
             )}
           </div>
         );
