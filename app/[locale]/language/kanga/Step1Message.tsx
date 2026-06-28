@@ -60,7 +60,7 @@ export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props
             ),
           },
         ]}
-        defaultIndex={fumboSource === 'proverb' ? 0 : 1}
+        defaultIndex={fumboSource === 'custom' && fumbo.length > 0 ? 1 : 0}
       />
 
       {fumbo.trim() && (
