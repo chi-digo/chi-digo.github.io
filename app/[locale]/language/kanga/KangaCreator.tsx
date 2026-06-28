@@ -1,6 +1,6 @@
 'use client';
 
-import { useReducer, useRef, useCallback } from 'react';
+import { useReducer, useCallback } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { track } from '@/lib/analytics/track';
 import { StepIndicator } from './StepIndicator';
@@ -69,7 +69,6 @@ interface Props {
 
 export function KangaCreator({ proverbs }: Props) {
   const [state, dispatch] = useReducer(reducer, INITIAL_STATE);
-  const containerRef = useRef<HTMLDivElement>(null);
   const t = useTranslations();
   const { locale } = useLocale();
 
@@ -77,7 +76,7 @@ export function KangaCreator({ proverbs }: Props) {
     if (state.step < 3) {
       const nextStep = (state.step + 1) as 1 | 2 | 3;
       dispatch({ type: 'SET_STEP', step: nextStep });
-      containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
 
       track('language', 'kanga', 'step_completed', { step: state.step, locale });
       if (state.step === 1) {
@@ -97,32 +96,45 @@ export function KangaCreator({ proverbs }: Props) {
   const goBack = useCallback(() => {
     if (state.step > 1) {
       dispatch({ type: 'SET_STEP', step: (state.step - 1) as 1 | 2 | 3 });
-      containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }, [state.step]);
 
   const canAdvance = state.step === 1 ? state.jina.trim().length > 0 : true;
 
   return (
-    <div ref={containerRef} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: 'var(--color-coral-lime-sand, #E8DCC2)', color: 'var(--color-kaya-deep, #0E1A2A)' }}>
-      {/* Header */}
-      <header style={{
-        flexShrink: 0,
-        borderBottom: '1px solid rgba(14, 26, 42, 0.1)',
-        background: 'var(--color-hando-cream, #F2EAD7)',
-        padding: '0.75rem 1rem',
+    <div style={{
+      minHeight: '100vh',
+      background: 'var(--color-coral-lime-sand, #E8DCC2)',
+      color: 'var(--color-kaya-deep, #0E1A2A)',
+    }}>
+      <div style={{
+        maxWidth: 1100,
+        margin: '0 auto',
+        padding: 'calc(var(--header-height) + 1.5rem) 5.25% 4rem',
       }}>
-        <div style={{ maxWidth: '42rem', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href={`/${locale}/language`} style={{ fontFamily: 'var(--font-display, serif)', fontSize: '1.125rem', fontWeight: 600, color: 'var(--color-kaya-deep, #0E1A2A)', textDecoration: 'none' }}>
+        {/* Step indicator bar */}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          marginBottom: '2rem',
+        }}>
+          <h1 style={{
+            fontFamily: 'var(--font-display, serif)',
+            fontWeight: 500,
+            fontSize: 'clamp(1.5rem, 3.5vw, 2.5rem)',
+            lineHeight: 1.2,
+            color: 'var(--color-kaya-deep, #0E1A2A)',
+            margin: 0,
+          }}>
             {t.breadcrumb.kanga}
-          </a>
+          </h1>
           <StepIndicator current={state.step} total={3} />
         </div>
-      </header>
 
-      {/* Step content */}
-      <main style={{ flex: 1, overflowY: 'auto' }}>
-        <div style={{ maxWidth: '42rem', margin: '0 auto', padding: '1.5rem 1rem' }}>
+        {/* Step content */}
+        <div style={{ maxWidth: 680 }}>
           {state.step === 1 && (
             <Step1Message
               proverbs={proverbs}
@@ -157,16 +169,16 @@ export function KangaCreator({ proverbs }: Props) {
             />
           )}
         </div>
-      </main>
 
-      {/* Navigation */}
-      <footer style={{
-        flexShrink: 0,
-        borderTop: '1px solid rgba(14, 26, 42, 0.1)',
-        background: 'var(--color-hando-cream, #F2EAD7)',
-        padding: '0.75rem 1rem',
-      }}>
-        <div style={{ maxWidth: '42rem', margin: '0 auto', display: 'flex', justifyContent: 'space-between' }}>
+        {/* Navigation */}
+        <div style={{
+          maxWidth: 680,
+          display: 'flex',
+          justifyContent: 'space-between',
+          marginTop: '2rem',
+          paddingTop: '1.5rem',
+          borderTop: '1px solid rgba(14, 26, 42, 0.1)',
+        }}>
           <button
             onClick={goBack}
             disabled={state.step === 1}
@@ -175,7 +187,7 @@ export function KangaCreator({ proverbs }: Props) {
               borderRadius: '0.5rem',
               fontSize: '0.875rem',
               fontWeight: 500,
-              color: 'var(--fg-muted, #888)',
+              color: 'rgba(14, 26, 42, 0.55)',
               background: 'transparent',
               border: 'none',
               cursor: state.step === 1 ? 'default' : 'pointer',
@@ -194,8 +206,8 @@ export function KangaCreator({ proverbs }: Props) {
                 borderRadius: '0.5rem',
                 fontSize: '0.875rem',
                 fontWeight: 500,
-                background: canAdvance ? 'var(--color-kaya-deep, #0E1A2A)' : 'var(--color-kaya-deep, #0E1A2A)',
-                color: '#fff',
+                background: 'var(--color-kaya-deep, #0E1A2A)',
+                color: 'var(--color-hando-cream, #F2EAD7)',
                 border: 'none',
                 cursor: canAdvance ? 'pointer' : 'not-allowed',
                 opacity: canAdvance ? 1 : 0.4,
@@ -206,7 +218,7 @@ export function KangaCreator({ proverbs }: Props) {
             </button>
           )}
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
