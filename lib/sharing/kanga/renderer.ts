@@ -194,14 +194,10 @@ export async function exportKanga(spec: KangaSpec): Promise<{
   const highRes = await canvasToBlob(canvas);
 
   const socialCanvas = document.createElement('canvas');
-  socialCanvas.width = 1080;
-  socialCanvas.height = 1080;
+  socialCanvas.width = 3000;
+  socialCanvas.height = 2000;
   const sCtx = socialCanvas.getContext('2d')!;
-
-  const sourceSize = Math.min(canvas.width, canvas.height);
-  const sx = (canvas.width - sourceSize) / 2;
-  const sy = canvas.height - sourceSize;
-  sCtx.drawImage(canvas, sx, sy, sourceSize, sourceSize, 0, 0, 1080, 1080);
+  sCtx.drawImage(canvas, 0, 0);
 
   const social = await canvasToBlob(socialCanvas);
 

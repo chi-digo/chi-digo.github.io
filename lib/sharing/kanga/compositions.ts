@@ -173,6 +173,11 @@ function drawHorizontalBands(
   const bandH = mji.h / bandCount;
   const motif = MOTIFS[motifKey];
 
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(mji.x, mji.y, mji.w, mji.h);
+  ctx.clip();
+
   for (let i = 0; i < bandCount; i++) {
     const by = mji.y + i * bandH;
     const isAccent = i % 2 === 1;
@@ -182,12 +187,16 @@ function drawHorizontalBands(
       ctx.fillRect(mji.x, by, mji.w, bandH);
 
       if (motif) {
-        const tileSize = Math.round(bandH * 0.7);
-        const tileCount = Math.ceil(mji.w / tileSize);
+        const motifSize = Math.round(bandH * 0.6);
+        const gap = motifSize * 0.4;
+        const cellSize = motifSize + gap;
+        const tileCount = Math.floor(mji.w / cellSize);
+        const totalUsed = tileCount * cellSize - gap;
+        const offsetX = mji.x + (mji.w - totalUsed) / 2;
         for (let t = 0; t < tileCount; t++) {
           ctx.save();
-          ctx.translate(mji.x + t * tileSize + (tileSize - tileSize * 0.8) / 2, by + (bandH - tileSize * 0.8) / 2);
-          motif.draw(ctx, tileSize * 0.8, tileSize * 0.8, palette.mjiBg);
+          ctx.translate(offsetX + t * cellSize, by + (bandH - motifSize) / 2);
+          motif.draw(ctx, motifSize, motifSize, palette.mjiBg);
           ctx.restore();
         }
       }
@@ -212,6 +221,8 @@ function drawHorizontalBands(
       ctx.stroke();
     }
   }
+
+  ctx.restore();
 }
 
 function createDotPattern(
