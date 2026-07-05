@@ -350,6 +350,52 @@
   font-size: 0.75rem;
 }
 
+/* ===== Install link ===== */
+
+.installLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 6px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.installLink:hover {
+  background-color: rgba(242, 234, 215, 0.1);
+}
+
+.installLink:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold);
+  outline-offset: 2px;
+}
+
+.drawerInstallLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', var(--font-sans), system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-hando-cream);
+  text-decoration: none;
+  padding: 12px 5.25%;
+}
+
+.drawerInstallLink:hover {
+  background-color: rgba(242, 234, 215, 0.08);
+}
+
+@media (display-mode: standalone) {
+  .installLink,
+  .drawerInstallLink {
+    display: none;
+  }
+}
+
 /* ===== Search (mobile only — desktop search is in the hero) ===== */
 
 .searchBtn {

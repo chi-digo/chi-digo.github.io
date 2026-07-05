@@ -1,0 +1,291 @@
+.page {
+  min-height: calc(100vh - var(--nav-height, 48px));
+}
+
+/* ===== Hero — full-bleed dark zone ===== */
+
+.hero {
+  background: var(--color-kaya-deep, #0E1A2A);
+  color: var(--color-hando-cream, #F2EAD7);
+  padding: clamp(3rem, 8vw, 5rem) 0 0;
+  text-align: center;
+}
+
+.heroMark {
+  width: 48px;
+  height: 48px;
+  color: var(--color-hando-cream, #F2EAD7);
+}
+
+.heroTitle {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+}
+
+.proverb {
+  font-family: var(--font-serif, 'Source Serif 4', serif);
+  font-style: italic;
+  color: var(--color-hando-cream, #F2EAD7) !important;
+  opacity: 0.85;
+}
+
+.proverbGloss {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+  opacity: 0.5;
+  font-size: var(--text-sm, 0.875rem);
+}
+
+.heroSubtitle {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+  opacity: 0.7;
+  max-width: 400px;
+}
+
+.heroExploreLink {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-hando-cream, #F2EAD7);
+  opacity: 0.6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.heroExploreLink:hover {
+  opacity: 1;
+}
+
+/* Pindo diamond border — sits at hero bottom, bridges to body */
+.pindo {
+  width: 100%;
+  max-width: 280px;
+  margin: clamp(2rem, 4vw, 3rem) auto 0;
+  padding-bottom: clamp(1.5rem, 3vw, 2rem);
+  color: var(--color-mnazi-gold, #C99846);
+  opacity: 0.5;
+}
+
+/* ===== Body zone — warm background ===== */
+
+.body {
+  background: var(--bg-page, #faf8f4);
+  padding: clamp(2rem, 6vw, 4rem) 0;
+}
+
+/* ===== Value proposition — pull-quote ===== */
+
+.valueProp {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pullQuote {
+  border-left: 3px solid var(--color-mnazi-gold, #C99846);
+  padding-left: var(--space-4, 1rem);
+}
+
+.valuePropEmotional {
+  font-family: var(--font-serif, 'Source Serif 4', serif);
+  color: var(--color-kaya-deep, #0E1A2A) !important;
+}
+
+/* ===== Eyebrow label — shared style ===== */
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ngundu-red, #B5261D) !important;
+  opacity: 0.8;
+}
+
+/* ===== Community line ===== */
+
+.communityLine {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ===== Install transition heading ===== */
+
+.installHeading {
+  text-align: center;
+  scroll-margin-top: calc(var(--nav-height, 48px) + 1rem);
+}
+
+/* ===== Features section — dark card ===== */
+
+.features {
+  background: var(--color-kaya-deep, #0E1A2A) !important;
+  color: var(--color-hando-cream, #F2EAD7);
+}
+
+.featureItem {
+  text-align: center;
+}
+
+.featureIcon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(242, 234, 215, 0.08);
+  color: var(--color-hando-cream, #F2EAD7);
+}
+
+.featureTitle {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+}
+
+.featureDesc {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+  opacity: 0.6;
+}
+
+/* ===== Primary instruction card ===== */
+
+.primaryCard {
+  background: var(--color-kaya-deep, #0E1A2A) !important;
+  color: var(--color-hando-cream, #F2EAD7);
+}
+
+.platformLabel {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  color: var(--color-hando-cream, #F2EAD7) !important;
+}
+
+/* ===== Step indicators ===== */
+
+.stepIcon,
+.stepNum {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(242, 234, 215, 0.08);
+  border-radius: var(--radius-md, 8px);
+  font-weight: 600;
+  font-size: var(--text-sm, 0.875rem);
+  color: var(--color-hando-cream, #F2EAD7);
+}
+
+.webviewExplain {
+  color: var(--color-hando-cream, #F2EAD7) !important;
+}
+
+/* ===== Copy button ===== */
+
+.copyBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(242, 234, 215, 0.1);
+  border: 1px solid rgba(242, 234, 215, 0.2);
+  border-radius: var(--radius-md, 8px);
+  color: var(--color-hando-cream, #F2EAD7);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.copyBtn:hover {
+  background: rgba(242, 234, 215, 0.15);
+}
+
+.copyBtn:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold, #C99846);
+  outline-offset: 2px;
+}
+
+/* ===== Manual platform selector ===== */
+
+.manualBtn {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-kaya-deep, #0E1A2A);
+  background: none;
+  border: 1px solid var(--border-default, #d5cfc4);
+  border-radius: var(--radius-md, 8px);
+  padding: 6px 12px;
+  cursor: pointer;
+  min-height: 36px;
+}
+
+.manualBtn:hover {
+  background: rgba(14, 26, 42, 0.04);
+  border-color: var(--color-kaya-deep, #0E1A2A);
+}
+
+.manualBtn:focus-visible {
+  outline: 2px solid var(--color-mnazi-gold, #C99846);
+  outline-offset: 2px;
+}
+
+/* ===== QR code section (desktop only) ===== */
+
+.qrSection {
+  display: none;
+  border: 1px solid var(--border-default, #d5cfc4) !important;
+  background: rgba(14, 26, 42, 0.03) !important;
+}
+
+.qrPlaceholder {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border-default, #d5cfc4);
+  border-radius: var(--radius-md, 8px);
+  margin-top: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .qrSection {
+    display: block;
+  }
+}
+
+/* ===== Explore first ===== */
+
+.exploreLink {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-kaya-deep, #0E1A2A);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.exploreLink:hover {
+  color: var(--color-mnazi-gold, #C99846);
+}
+
+/* ===== Already installed state ===== */
+
+.installedActions a {
+  text-decoration: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+.installedActions button {
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page,
+  .page * {
+    animation: none !important;
+  }
+}

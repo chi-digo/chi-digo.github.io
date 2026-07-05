@@ -13,6 +13,7 @@ import { track } from '@/lib/analytics/track';
 import { useUniversalSearch, buildSearchGroups, SearchIcon } from '@/hooks/useUniversalSearch';
 import { useAuth } from '@/lib/auth/context';
 import { UserMenu } from '@/components/UserMenu/UserMenu';
+import { DownloadIcon } from '@/components/icons/install';
 import styles from './NavBar.module.css';
 
 function VigangoMark() {
@@ -319,6 +320,16 @@ export function NavBar() {
         )}
       </div>
 
+      <TrackedLink
+        href="/install?ref=nav"
+        source="navbar"
+        className={`${styles.installLink} ${styles.desktopOnly}`}
+        aria-label={t.install.header_icon_label}
+        title={t.install.header_icon_label}
+      >
+        <DownloadIcon width="16" height="16" />
+      </TrackedLink>
+
       {/* Desktop auth: user menu or sign-in link */}
       <div className={styles.desktopOnly}>
         {!authLoading && (
@@ -368,6 +379,18 @@ export function NavBar() {
           </TrackedLink>
           <TrackedLink href="/language" source="navbar_mobile" className={linkClass('/language', true)} onClick={() => setMobileOpen(false)}>
             {t.nav.language_link}
+          </TrackedLink>
+
+          <div className={styles.drawerDivider} />
+
+          <TrackedLink
+            href="/install?ref=nav"
+            source="navbar_mobile"
+            className={styles.drawerInstallLink}
+            onClick={() => setMobileOpen(false)}
+          >
+            <DownloadIcon width="16" height="16" />
+            {t.install.footer_install}
           </TrackedLink>
 
           <div className={styles.drawerDivider} />
