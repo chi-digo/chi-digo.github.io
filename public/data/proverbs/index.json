@@ -287,7 +287,7 @@
     "swahili": "Amejisafisha kwa mgomba lakini bado amechafuliwa",
     "swahili_relationship": "translation",
     "commentary_en": "i.e. He hasn’t done a good job and is still soiled. Said of one who tries to trick others but is seen through",
-    "commentary_dg": "Mutu anayejeza kudanganya atu anjina ela anaonekana wazi. Kajihenda vizuri na bado ana mavigege.",
+    "commentary_dg": "Mutu anayejeza kuchenga atu anjina ela anaonekana wazi. Kajihenda vizuri na bado ana mavigege.",
     "commentary_source": "original",
     "themes": [
       "foolishness",
@@ -327,7 +327,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Amejifutia kwenye mgomba na anaenda na mavi yake",
-    "idiomatic_dg": "Mutu anayejeza kudanganya atu anjina ela ujanjawe unaonekana wazi."
+    "idiomatic_dg": "Mutu anayejeza kuchenga atu anjina ela ujanjawe unaonekana wazi."
   },
   {
     "id": "p-007",
@@ -547,7 +547,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Aliyekupiga kofi anakufundisha kupigana",
-    "idiomatic_dg": "Mutu anayekuhenda vibaya anakufundza kudzilinda na kukala makini."
+    "idiomatic_dg": "Mutu anayekuhenda vibaya anakufundza kudzirinda na kukala makini."
   },
   {
     "id": "p-011",
@@ -721,7 +721,7 @@
     "swahili": "Watoto wa nguruwe wanyonyeshana midomo",
     "swahili_relationship": "translation",
     "commentary_en": "People help one another",
-    "commentary_dg": "Atu nkusaidiana, dza vira ana a nguluwe anaoamwana madomo. Hata nyama adzo anadzisaidiya.",
+    "commentary_dg": "Atu nkuteryana, dza vira ana a nguluwe anaoamwana madomo. Hata nyama adzo anadziterya.",
     "commentary_source": "original",
     "themes": [
       "kinship",
@@ -762,7 +762,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Watoto wa nguruwe hunyonyeshana midomo",
-    "idiomatic_dg": "Atu ni lazima asaidiane, mana hata nyama adzo anadzisaidiya."
+    "idiomatic_dg": "Atu ni lazima ateryane, mana hata nyama adzo anadziterya."
   },
   {
     "id": "p-015",
@@ -938,7 +938,7 @@
     "swahili": "Alaye jasho lake hana ugomvi na mtu",
     "swahili_relationship": "parallel",
     "commentary_en": "Praises self-reliance and honest labour. A person who earns their livelihood through their own sweat owes nothing to anyone and therefore lives free of conflict and dependency.",
-    "commentary_dg": "Inasifiwa kudzitegemea na kazi ya halali. Mutu anayedziphatira riziki kpwa jashore mwenye kana deni kpwa mutu yeyosi na kpwa hivyo anaishi bila kondo wala kutegemea atu.",
+    "commentary_dg": "Inatogolwa kudzitegemea na kazi ya halali. Mutu anayedziphatira riziki kpwa jashore mwenye kana deni kpwa mutu yeyosi na kpwa hivyo anaishi bila kondo wala kutegemea atu.",
     "commentary_source": "expanded",
     "themes": [
       "work",
@@ -1141,7 +1141,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Asiyejua kuugua hajapata kuumwa bado",
-    "idiomatic_dg": "Mutu ambaye kadzangbwe kupata tabu kamanya maana ya kuhula."
+    "idiomatic_dg": "Mutu ambaye kadzangbwe kuphaha tabu kamanya maana ya kuhula."
   },
   {
     "id": "p-022",
@@ -1155,7 +1155,7 @@
     "swahili": "Asiyejua nyama usimchukue sokoni",
     "swahili_relationship": "parallel",
     "commentary_en": "Advises against placing an inexperienced person in a situation that requires expertise. Just as someone who cannot judge the quality of meat will be cheated at the market, an unprepared person will fail when put in a demanding situation.",
-    "commentary_dg": "Inashauri kpwa kukahaza kumuika mutu asiye na uzoefu kpwa hali inayolonda utaalamu. Dza viratu mutu asiyemanya nyama andadanganywa sokoni, mutu asiyetengezwa andashindwa kpwa hali ngumu.",
+    "commentary_dg": "Inashauri kpwa kukahaza kumuika mutu asiye na uzoefu kpwa hali inayolonda utaalamu. Dza viratu mutu asiyemanya nyama andachengbwa sokoni, mutu asiyetengezwa andashindwa kpwa hali ngumu.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -1467,7 +1467,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Bure hailiwa, jana si leo",
-    "idiomatic_dg": "Usitarajie kupewa bure rero kpwa sababu ukaphewa bure dzana — dzana ni dzana, rero ni rero."
+    "idiomatic_dg": "Usitarajie kuhewa bure rero kpwa sababu ukaphewa bure dzana — dzana ni dzana, rero ni rero."
   },
   {
     "id": "p-028",
@@ -1573,7 +1573,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kilichopewa hakina ukoko/mabaki",
-    "idiomatic_dg": "Ukihewa chitu, usitarajie kupata zaidi ya urichophewa."
+    "idiomatic_dg": "Ukihewa chitu, usitarajie kuphaha zaidi ya urichophewa."
   },
   {
     "id": "p-030",
@@ -1856,7 +1856,7 @@
     "swahili": "Cha mzuzu huliwa bure",
     "swahili_relationship": "translation",
     "commentary_en": "A fool's resources are consumed without return because the fool lacks the discernment to protect them. Others take advantage of a foolish person's generosity or carelessness, eating freely from what the fool has without offering anything back.",
-    "commentary_dg": "Mali ya mzuzu inatumika bila faida kpwa sababu mzuzu kana busara ya kuilinda. Atu anjina ganahala fursa ya ukarimu au uzembe wa mzuzu, achirya bure kula kpwa aricho nacho bila kumuuyizira chochosi.",
+    "commentary_dg": "Mali ya mzuzu inahumirwa bila faida kpwa sababu mzuzu kana busara ya kuirinda. Atu anjina ganahala fursa ya ukarimu au uzembe wa mzuzu, achirya bure kula kpwa aricho nacho bila kumuuyizira chochosi.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -1892,7 +1892,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kitu cha mpumbavu kinaliwa bure",
-    "idiomatic_dg": "Mali ya mzuzu inatumika bure ni atu anjina kpwa sababu kana busara ya kuilinda."
+    "idiomatic_dg": "Mali ya mzuzu inahumirwa bure ni atu anjina kpwa sababu kana busara ya kuirinda."
   },
   {
     "id": "p-036",
@@ -2060,7 +2060,7 @@
     "swahili": "Kidole hakionyeshi msitu",
     "swahili_relationship": "translation",
     "commentary_en": "You point at a forest when you want to farm there. Don't boast about the field you have there until you have actually cleared the field.",
-    "commentary_dg": "Unaonyesa tsaka unaphotaka kurima huko. Usdzisifu kuhusu mundao hadi ukale ukamaliza kusafisha.",
+    "commentary_dg": "Unaonyesa tsaka unaphotaka kurima huko. Usidzitogole kuhusu mundao hadi ukale ukamaliza kusafisha.",
     "commentary_source": "original",
     "themes": [
       "work"
@@ -3250,7 +3250,7 @@
     "swahili": "Aendaye kwa mganga harudi na kitu",
     "swahili_relationship": "parallel",
     "commentary_en": "he will have spent everything he has on him",
-    "commentary_dg": "Mutu achiphiya kpwa mganga ndautumia kpwosi arichonacho. Mapesage gosi gandamala haho kpwa mganga.",
+    "commentary_dg": "Mutu achiphiya kpwa mganga ndauhumira kpwosi arichonacho. Mapesage gosi gandamala haho kpwa mganga.",
     "commentary_source": "original",
     "themes": [
       "marriage",
@@ -3289,7 +3289,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Aendaye kwa mganga harudi",
-    "idiomatic_dg": "Mutu achiphiya kpwa mganga ndautumia kpwosi arichonacho — mapesage gandamala haho."
+    "idiomatic_dg": "Mutu achiphiya kpwa mganga ndauhumira kpwosi arichonacho — mapesage gandamala haho."
   },
   {
     "id": "p-063",
@@ -3547,7 +3547,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kichwa cha kondoo kinasikia ndani ya chungu kidogo",
-    "idiomatic_dg": "Mutu anayekatala ushauri mwishowe ndapatwa ni matatizo ambago kala angeweza kugatserera."
+    "idiomatic_dg": "Mutu anayekatala ushauri mwishowe ndaphahwa ni matatizo ambago kala angeweza kugatserera."
   },
   {
     "id": "p-068",
@@ -3766,7 +3766,7 @@
     "swahili": "Doko doko humalizia kikapu",
     "swahili_relationship": "translation",
     "commentary_en": "If you keep on taking a little your store will soon be empty",
-    "commentary_dg": "Ukiendelea kuhola chidide chidide, ghalaro rindamala. Doko-doko yamala chiphinda — tunza vituvyo vizuri.",
+    "commentary_dg": "Uchienderera kuhola chidide chidide, ghalaro rindamala. Doko-doko yamala chiphinda — tundza vituvyo vizuri.",
     "commentary_source": "original",
     "themes": [
       "patience"
@@ -4059,7 +4059,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Jicho la mtu mwenye jicho moja",
-    "idiomatic_dg": "Linda kpwa makini chitucho cha thamani ambacho tachiweza kubadilishwa."
+    "idiomatic_dg": "Rinda kpwa makini chitucho cha thamani ambacho tachiweza kubadilishwa."
   },
   {
     "id": "p-078",
@@ -4176,7 +4176,7 @@
     "swahili": "Siku moja tembo kuoza",
     "swahili_relationship": "translation",
     "commentary_en": "In a single day, even an elephant can begin to rot. Great things can be destroyed in a very short time. Used to warn against complacency and to remind people that ruin can come swiftly, no matter how strong or established something seems.",
-    "commentary_dg": "Kpwa dzuwa mwenga tu, hata ndzovu inaweza kuandza kuola. Vitu vikulu vinaweza kuharibiwa kpwa muda mfupi sana. Inaambwa kpwa kuonya kpwa kukahaza kudziridhisha na kukumbusa atu kpwamba uharibifu unaweza kukpwedza haraka, kutsojali chitu chinaonekana imara viyanivi.",
+    "commentary_dg": "Kpwa dzuwa mwenga tu, hata ndzovu inaweza kuandza kuola. Vitu vikulu vinaweza kubanangwa kpwa muda mfupi sana. Inaambwa kpwa kuonya kpwa kukahaza kudziridhisha na kukumbusa atu kpwamba uharibifu unaweza kukpwedza haraka, kutsojali chitu chinaonekana imara viyanivi.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -4226,7 +4226,7 @@
     "swahili": "Fisi akila mgonjwa, mzima funga mlango",
     "swahili_relationship": "cognate",
     "commentary_en": "You must take steps to ensure someone else’s problem doesn’t affect you too",
-    "commentary_dg": "Ni lazima uhende mambo ili tatizo ra mutu munji risikugbwire uwe. Fisi richirya mkpwongo, mzima ni lazima adzilinde mwenye.",
+    "commentary_dg": "Ni lazima uhende mambo ili tatizo ra mutu munji risikugbwire uwe. Fisi richirya mkpwongo, mzima ni lazima adzirinde mwenye.",
     "commentary_source": "original",
     "themes": [
       "death",
@@ -4267,7 +4267,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Fisi akimla mgonjwa, mzima afunge mlango",
-    "idiomatic_dg": "Hatari ichimpata mutu mnyonje, mwenye nguvu ni lazima ahendere hatua za kudzilinda."
+    "idiomatic_dg": "Hatari ichimphaha mutu mnyonje, mwenye nguvu ni lazima ahendere hatua za kudzirinda."
   },
   {
     "id": "p-082",
@@ -4334,7 +4334,7 @@
     "swahili": "Kufunga vizuri hakuumizi mkono",
     "swahili_relationship": "translation",
     "commentary_en": "i.e. take good care of things (e.g. the money you are carrying tied in your handkerchief), it can’t hurt you.",
-    "commentary_dg": "Tunza vituvyo vizuri — dza vira mapesa ga kufungwa kpwa lesoyo. Fungato nono tailumiza mkpwono, ela inakutunza.",
+    "commentary_dg": "Tundza vituvyo vizuri — dza vira mapesa ga kufungwa kpwa lesoyo. Fungato nono tailumiza mkpwono, ela inakutundza.",
     "commentary_source": "original",
     "themes": [
       "wealth"
@@ -4374,7 +4374,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kufunga vizuri hakuumizi mkono",
-    "idiomatic_dg": "Kutunza maliyo vizuri takukudhuru — badalaye kunakurinda na hasara."
+    "idiomatic_dg": "Kutundza maliyo vizuri takukudhuru — badalaye kunakurinda na hasara."
   },
   {
     "id": "p-084",
@@ -4525,7 +4525,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kufa peke yako",
-    "idiomatic_dg": "Ni laana ya kutengwa kabisa — usikale na mutu wa kukuarira wala kukusaidia."
+    "idiomatic_dg": "Ni laana ya kutengwa kabisa — usikale na mutu wa kukuarira wala kukuterya."
   },
   {
     "id": "p-087",
@@ -4591,7 +4591,7 @@
     "swahili": "Fimbo ya mganga ni ndefu na fupi",
     "swahili_relationship": "translation",
     "commentary_en": "Medicine men often deceive in order to get money, so they will give a treatment even when they know it won’t work.",
-    "commentary_dg": "Aganga mara nyinji nkudanganya ili kuphaha mapesa. Andamupha matibabu hata achimanya kuwa tagandafwaha kazi. Fwimbo yao ni nyire wakati wanaopatsa na fupi wakati tawaoptsa [?].",
+    "commentary_dg": "Aganga mara nyinji nkuchenga ili kuphaha mapesa. Andamupha matibabu hata achimanya kuwa tagandafwaha kazi. Fwimbo yao ni nyire wakati wanaopatsa na fupi wakati tawaoptsa [?].",
     "commentary_source": "original",
     "themes": [
       "wisdom",
@@ -4950,7 +4950,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Wasiojua ubamba wanashikwa wawili wawili",
-    "idiomatic_dg": "Atu azuzu nkusaidiana kpwa ujinga na kunaswa phamwenga kpwa kosa mwenga."
+    "idiomatic_dg": "Atu azuzu nkuteryana kpwa ujinga na kunaswa phamwenga kpwa kosa mwenga."
   },
   {
     "id": "p-095",
@@ -5119,7 +5119,7 @@
     "swahili": "Haki ya mtu haipotei",
     "swahili_relationship": "cognate",
     "commentary_en": "A statement of faith in justice: that which is rightfully someone's cannot be taken away permanently. Used to encourage those who have been wronged to be patient, as truth and fairness will eventually prevail.",
-    "commentary_dg": "Nkugombwa kutiya moyo kukala haki taipotea. Mutu achiyedhulumiwa agodze, mana ukpweli na usawa ndivyo vindashinda mwishowe.",
+    "commentary_dg": "Nkugombwa kutiya moyo kukala haki taiangamika. Mutu achiyedhulumiwa agodze, mana ukpweli na usawa ndivyo vindashinda mwishowe.",
     "commentary_source": "expanded",
     "themes": [
       "justice"
@@ -5431,7 +5431,7 @@
     "swahili": "Kelele kelele ndio kukua",
     "swahili_relationship": "translation",
     "commentary_en": "Said to encourage those who are struggling through the noise and demands of daily life. The bustle and commotion of effort is itself the process of growth and progress — there is no quiet path to maturity.",
-    "commentary_dg": "Nkugombwa kumtiya moyo mutu anayepitiya kelele na mahitaji ga maisha ga chila siku. Bidii na hoyo-hoyo za jitihada ndizo njia ya kukula na kuendelea — taukuna njia tulivu ya kukomaa.",
+    "commentary_dg": "Nkugombwa kumtiya moyo mutu anayepitiya kelele na mahitaji ga maisha ga chila siku. Bidii na hoyo-hoyo za jitihada ndizo njia ya kukula na kuenderera — taukuna njia tulivu ya kukomaa.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -5533,7 +5533,7 @@
     "swahili": "Jivu usilolialia unawafukuzia nini mbwa?",
     "swahili_relationship": "translation",
     "commentary_en": "You don’t sleep in the ashes but you don’t want the dogs to either. If you have something you aren’t using, why don’t you want me to use it either.",
-    "commentary_dg": "Uwe kulala kpwa ivu ela unadzihusisha kpwa kuphirikiza diya. Ukiwa na chitu usichochitumiya, kpwa utu wani kutaki anjina wachitumiye?",
+    "commentary_dg": "Uwe kulala kpwa ivu ela unadzihusisha kpwa kuphirikiza diya. Ukiwa na chitu usichochihumira, kpwa utu wani kutaki anjina wachitumiye?",
     "commentary_source": "original",
     "themes": [
       "animals"
@@ -5573,7 +5573,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "(Kutoka) Majivu usipolala unapigania mbali mbwa",
-    "idiomatic_dg": "Usimzuiye mutu kutumia chitu ambacho uwe mwenye kuchitaki."
+    "idiomatic_dg": "Usimzuiye mutu kuhumira chitu ambacho uwe mwenye kuchitaki."
   },
   {
     "id": "p-108",
@@ -5587,7 +5587,7 @@
     "swahili": "Jasho la mtu haliliwi wala haliliki",
     "swahili_relationship": "translation",
     "commentary_en": "When a person works he sweats and uses the money earned to buy things. He should not be cheated of those things. God will revenge.",
-    "commentary_dg": "Mutu achihenda kazi anahoka jasho na anahitumiya pesa achizopata kununua vitu. Asichenganywe vitu hivyo, mana Mlungu ndaumuonera.",
+    "commentary_dg": "Mutu achihenda kazi anahoka jasho na anahihumira pesa achizophaha kugula vitu. Asichenganywe vitu hivyo, mana Mlungu ndaumuonera.",
     "commentary_source": "original",
     "themes": [
       "wealth",
@@ -5640,7 +5640,7 @@
     "swahili": "Jasho la mtu haliliwi",
     "swahili_relationship": "cognate",
     "commentary_en": "A warning against exploiting another person's labour or earnings. Used to rebuke those who take advantage of someone else's hard work without contributing their own effort.",
-    "commentary_dg": "Ni onyo dhidi ya kutumia jasho ra mutu munyawe. Nkugombwa kumkemea mutu anayetumia kazi ngumu ya munyawe bila kuchangiya jitihadaye mwenye.",
+    "commentary_dg": "Ni onyo dhidi ya kuhumira jasho ra mutu munyawe. Nkugombwa kumkemea mutu anayehumira kazi ngumu ya munyawe bila kuchangiya jitihadaye mwenye.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -5741,7 +5741,7 @@
     "swahili": "Kuwa kama konokono utembee na nyumba yako",
     "swahili_relationship": "translation",
     "commentary_en": "chimehe-mehe is a type of grub which builds a cocoon and moves along with the cocoon around it. Rely entirely on yourself, don’t ask others for help.",
-    "commentary_dg": "Chimehe-mehe ni mdudu ambaye anadzijengera ganda na kunyendeka nago. Methali ihi inafundza mutu adzitegemee mwenye, asitarajiye msada kpwa atu anjina.",
+    "commentary_dg": "Chimehe-mehe ni mdudu ambaye anadzidzengera ganda na kunyendeka nago. Methali ihi inafundza mutu adzitegemee mwenye, asitarajiye msada kpwa atu anjina.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -5948,7 +5948,7 @@
     "swahili": "Kata pua ili uifanye nzuri",
     "swahili_relationship": "translation",
     "commentary_en": "A plea for reconciliation. If you owe a friend money, pay it back so that your friendship does not suffer. If you have argued with your parents, apologise, even if it hurts you a little to do this.",
-    "commentary_dg": "Ni kuamba usalimishane. Ukiwa na deni kpwa msena, rihipha ili usenamwo usiharirike. Ukiwa ukakosana na avyazio, kuomba msamaha ni bora, hata ichikuumiza.",
+    "commentary_dg": "Ni kuamba usalimishane. Ukiwa na deni kpwa msena, rihipha ili usenamwo usiharirike. Ukiwa ukakosana na avyazio, kuvoya msamaha ni bora, hata ichikuumiza.",
     "commentary_source": "original",
     "themes": [
       "wealth"
@@ -5984,7 +5984,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kata pua yako ili uifanye nzuri",
-    "idiomatic_dg": "Wakati wanjina ni lazima udzitoe chidide ili kulinda uhusianowo."
+    "idiomatic_dg": "Wakati wanjina ni lazima udzitoe chidide ili kurinda uhusianowo."
   },
   {
     "id": "p-116",
@@ -6050,7 +6050,7 @@
     "swahili": "Kazi hailiwi na mchwa",
     "swahili_relationship": "translation",
     "commentary_en": "You will benefit from your work",
-    "commentary_dg": "Kaziyo tairiwa ni lutswa — kpwa maana undafaidika na kaziyo. Undapata matunda ga kaziyo siku zosi.",
+    "commentary_dg": "Kaziyo tairiwa ni lutswa — kpwa maana undafaidika na kaziyo. Undaphaha matunda ga kaziyo siku zosi.",
     "commentary_source": "original",
     "themes": [
       "work"
@@ -6306,7 +6306,7 @@
     "swahili": "Ukoo unatetewa uwe imara",
     "swahili_relationship": "translation",
     "commentary_en": "If a relative is sick you go around to make sure they get the best treatment so that they will get better (upright)",
-    "commentary_dg": "Ndugu akiwa mkpwongo, ni lazima uzunguke kuhakikisha anapata matibabu mazuri ili apone. Kooyo usumbirwe kpwa kuterywa.",
+    "commentary_dg": "Ndugu akiwa mkpwongo, ni lazima uzunguluke kuhakikisha anaphaha matibabu mazuri ili apone. Kooyo usumbirwe kpwa kuterywa.",
     "commentary_source": "original",
     "themes": [
       "kinship",
@@ -6359,7 +6359,7 @@
     "swahili": "Kuambiana kuko lakini kusikilizana hakuna",
     "swahili_relationship": "cognate",
     "commentary_en": "People are given advice but do not act upon it",
-    "commentary_dg": "Atu anapewa ushauri ela taasikira. Kuambirana kukuko, ela kuphokera na kuhenda kuhadikpwe takuna.",
+    "commentary_dg": "Atu anahewa ushauri ela taasikira. Kuambirana kukuko, ela kuphokera na kuhenda kuhadikpwe takuna.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -6498,7 +6498,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kufa ni kusaidiana",
-    "idiomatic_dg": "Maisha ni kusaidiana — mimi nakuterya, nawe uniterye."
+    "idiomatic_dg": "Maisha ni kuteryana — mimi nakuterya, nawe uniterye."
   },
   {
     "id": "p-127",
@@ -6565,7 +6565,7 @@
     "swahili": "Kukua ni kusubiri",
     "swahili_relationship": "translation",
     "commentary_en": "Teaches that maturity means learning to wait for one another and to show patience. Growing up is not about speed but about understanding that life requires mutual waiting and accommodation.",
-    "commentary_dg": "Inafundisha kukala kukomaa ni kudzifundza kugodzana na kuvumiliana. Kukula si dzambo ra haraka ela ni kuelewa kukala maisha ganahitaji kugodzana na kuheshimiana.",
+    "commentary_dg": "Inafundisha kukala kukomaa ni kudzifundza kugodzana na kuvumirirana. Kukula si dzambo ra haraka ela ni kuelewa kukala maisha ganahitaji kugodzana na kuheshimiana.",
     "commentary_source": "expanded",
     "themes": [
       "patience"
@@ -6602,7 +6602,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kukua ni kusubirana",
-    "idiomatic_dg": "Kukula ni kpwa kugodzana na kuvumiliana."
+    "idiomatic_dg": "Kukula ni kpwa kugodzana na kuvumirirana."
   },
   {
     "id": "p-129",
@@ -6819,7 +6819,7 @@
     "swahili": "Zilipo ng'ombe hakuna mchunga",
     "swahili_relationship": "translation",
     "commentary_en": "Observes that where resources exist, there is often a shortage of people willing to do the work needed to tend them. Wealth without stewardship is wasted. Said to lament laziness or negligence in the face of opportunity.",
-    "commentary_dg": "Nkugombwa kulaumu uzembe hata fursa iripo. Phatu phenye ng'ombe taphana mutu tayari kuarisa. Utajiri bila uangalifu nkupotea — ni lazima kukale na mutu wa kuuhenda kazi.",
+    "commentary_dg": "Nkugombwa kulaumu uzembe hata fursa iripo. Phatu phenye ng'ombe taphana mutu tayari kuarisa. Utajiri bila uangalifu nkuangamika — ni lazima kukale na mutu wa kuuhenda kazi.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -6960,7 +6960,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "(Ku)kua juu, chini kuna moto",
-    "idiomatic_dg": "Baraka kpwa mwana — ukule na kupata manono."
+    "idiomatic_dg": "Baraka kpwa mwana — ukule na kuphaha manono."
   },
   {
     "id": "p-136",
@@ -6974,7 +6974,7 @@
     "swahili": "Kutazama huku na huku ni kujiandalia",
     "swahili_relationship": "translation",
     "commentary_en": "Be aware. Use all means to look after yourself, e.g. work a shamba, run a business, make savings etc. lots of small things to ensure you don’t lack provision. Also, make sure you know what is going on around you.",
-    "commentary_dg": "Kuwa macho na kutazama kpwa kpwila zosi. Tumia njira zosi kudzitunza — lima munda, henda biashara, weka akiba. Pia hakikisha unamanya gosi ganagohendeka phephi nawe.",
+    "commentary_dg": "Kuwa macho na kutazama kpwa kpwila zosi. Humira njira zosi kudzitundza — rima munda, henda biashara, weka akiba. Pia hakikisha unamanya gosi ganagohendeka phephi nawe.",
     "commentary_source": "original",
     "themes": [
       "wisdom",
@@ -7017,7 +7017,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kutazama-tazama kwa siri ni kujiweka tayari",
-    "idiomatic_dg": "Kukala makini na kudzimanyirira ndiko kudzilinda."
+    "idiomatic_dg": "Kukala makini na kudzimanyirira ndiko kudzirinda."
   },
   {
     "id": "p-137",
@@ -7031,7 +7031,7 @@
     "swahili": "Kukaa bure si kama kutembea bure",
     "swahili_relationship": "cognate",
     "commentary_en": "Encourages activity over idleness. Even aimless movement is better than sitting still doing nothing, because movement brings possibility and chance encounters. Said to motivate the idle to get moving.",
-    "commentary_dg": "Inatiya moyo kuhenda badala ya kusagala bure. Hata kunyendeka bila lengo ni bora kuriko kusagala hivi, mana kunyendeka nkuleta fursa na mikutano ya bahati. Nkugombwa kumhimiza mutu asiyehenda chitu aandze kunyendeka.",
+    "commentary_dg": "Inatiya moyo kuhenda badala ya kusagala bure. Hata kunyendeka bila lengo ni bora kuriko kusagala hivi, mana kunyendeka nkureha fursa na mikutano ya bahati. Nkugombwa kumhimiza mutu asiyehenda chitu aandze kunyendeka.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -7081,7 +7081,7 @@
     "swahili": "Kushindwa na pombe ni aibu",
     "swahili_relationship": "translation",
     "commentary_en": "A rebuke directed at those who drink to excess and lose control of themselves. In Digo coastal society, self-restraint is valued; to be overcome by alcohol is considered deeply shameful.",
-    "commentary_dg": "Ni kemeo kpwa mutu anayenwa kupita chiasi na kupoteza udhibiti. Kpwa Adigo a pwani, kudzidhibiti ni muhimu; kushindwa ni uchi ni chinemi — aibu kulu kpwa mutu yeyosi.",
+    "commentary_dg": "Ni kemeo kpwa mutu anayenwa kupita chiasi na kuangamiza udhibiti. Kpwa Adigo a pwani, kudzidhibiti ni muhimu; kushindwa ni uchi ni chinemi — aibu kulu kpwa mutu yeyosi.",
     "commentary_source": "expanded",
     "themes": [
       "coastal"
@@ -7288,7 +7288,7 @@
     "swahili": "Kusaidia hakupotei",
     "swahili_relationship": "translation",
     "commentary_en": "Helpful deeds will be remembered n you go hunting you pull the string to ase the arrow, but you may miss the animal. if a man chooses a woman for his wife she to agree too, it’s not his choice alone.",
-    "commentary_dg": "Matendo ga kuterya gandakumbukwa na tagaphotereka. Uchimuterya mutu, wemawo tauangamika.",
+    "commentary_dg": "Matendo ga kuterya gandatambukirwa na tagaphotereka. Uchimuterya mutu, wemawo tauangamika.",
     "commentary_source": "original",
     "themes": [
       "marriage"
@@ -7391,7 +7391,7 @@
     "swahili": "Kifo kiko Longo na kiko kwa Wadigo",
     "swahili_relationship": "translation",
     "commentary_en": "Death is everywhere",
-    "commentary_dg": "Kufwa kuko chila phatu — kpwa Longo na kpwa Adigo vivyo hivyo. Takuna mutu wala mudzi unaoweza kukwepa kufwa.",
+    "commentary_dg": "Kufwa kuko chila phatu — kpwa Longo na kpwa Adigo vivyo hivyo. Takuna mutu wala mudzi unaoweza kuhepa kufwa.",
     "commentary_source": "original",
     "themes": [
       "death"
@@ -7953,7 +7953,7 @@
     "swahili": "Mbona unanipindisha kama ngozi ya mbega?",
     "swahili_relationship": "translation",
     "commentary_en": "A complaint from someone who feels they are being manipulated or exploited repeatedly. The colobus monkey's skin was folded and used for various purposes; the speaker likens themselves to that skin, bent and shaped at another's will.",
-    "commentary_dg": "Ni malalamiko ga mutu anayehisi anadanganywa au kutumirwa mara kpwa mara. Chingo ya mbega kala inakundzwa na kutumirwa kpwa madhumuni ganji; msemadzi anadzilinganisha na chingo iyo, achipindzishwa kpwa matakwa ga munyawe.",
+    "commentary_dg": "Ni malalamiko ga mutu anayehisi anachengbwa au kuhumirwa mara kpwa mara. Chingo ya mbega kala inakundzwa na kuhumirwa kpwa madhumuni ganji; msemadzi anadzilinganisha na chingo iyo, achipindzishwa kpwa matakwa ga munyawe.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -7990,7 +7990,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kwa nini unanikunja-kunja kama ngozi ya mbega?",
-    "idiomatic_dg": "Kpwa utu-utu unaenderera kunidanganya na kunihendza chochosi urichocho?"
+    "idiomatic_dg": "Kpwa utu-utu unaenderera kunichenga na kunihendza chochosi urichocho?"
   },
   {
     "id": "p-157",
@@ -8356,7 +8356,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "(Yule) majivuno aliyeendelea alikula wali tupu",
-    "idiomatic_dg": "Mutu anayedzisifu sana mwishowe anaonera haya — kana chochosi cha kuonesa."
+    "idiomatic_dg": "Mutu anayedzitogola sana mwishowe anaonera haya — kana chochosi cha kuonesa."
   },
   {
     "id": "p-165",
@@ -8524,7 +8524,7 @@
     "swahili": "Mpanda mnazi akisifiwa pombe yake huongeza maji",
     "swahili_relationship": "translation",
     "commentary_en": "If you are praised too much you may end up spoiling everything",
-    "commentary_dg": "Mjema achisifiwa uchiwe, anaweza kuongeza madzi ili apate manji zaidi. Kusifiwa kupita chipimo kunaweza kuharibu chitu chinono.",
+    "commentary_dg": "Mjema achitogolwa uchiwe, anaweza kuenjereza madzi ili aphahe manji zaidi. Kutogolwa kupita chipimo kunaweza kubananga chitu chinono.",
     "commentary_source": "original",
     "themes": [
       "coastal"
@@ -8564,7 +8564,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtema mnazi akisifilwa pombe hutiwa maji",
-    "idiomatic_dg": "Sifa nyinji zinaweza kumuhenda mutu aharibu chituche mwenye."
+    "idiomatic_dg": "Sifa nyinji zinaweza kumuhenda mutu abananga chituche mwenye."
   },
   {
     "id": "p-169",
@@ -8735,7 +8735,7 @@
     "swahili": "Mwindaji hachoki, akichoka anaoka",
     "swahili_relationship": "translation",
     "commentary_en": "The hunter only roasts when he has caught something. If you want something, don’t get tired and give up. Only rest when you have got what you want.",
-    "commentary_dg": "Mkala wa kpweli karemwa hata achikala anazola kpwa muda mure. Achiremwa, ni mana akaphata kitu — na ndipho anaocha. Ukitaka chitu, usikate tamaa hadi uchipate.",
+    "commentary_dg": "Mkala wa kpweli karemwa hata achikala anazola kpwa muda mure. Achiremwa, ni mana akaphata kitu — na ndipho anaocha. Ukitaka chitu, usikate tamaa hadi uchiphahe.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -8890,7 +8890,7 @@
     "swahili": "Mke wa mganga hanenepi; mgonjwa hana rafiki",
     "swahili_relationship": "translation",
     "commentary_en": "A medicine man always gets lots of money and gifts ho will help you to carry the pain when you e sick? You have to bear it yourself",
-    "commentary_dg": "Mkpwaza mganga siku zosi anapata pesa na zawadi nyinji, kpwa hivyo kaonda. Na mkpwongo kana msena wa kpweli — maumivugo ni gako macheye.",
+    "commentary_dg": "Mkpwaza mganga siku zosi anaphaha pesa na zawadi nyinji, kpwa hivyo kaonda. Na mkpwongo kana msena wa kpweli — maumivugo ni gako macheye.",
     "commentary_source": "original",
     "themes": [
       "wealth",
@@ -9050,7 +9050,7 @@
     "swahili": "Ukili mrefu haufungi kuni",
     "swahili_relationship": "translation",
     "commentary_en": "Having abundant resources does not guarantee that a task will be accomplished. A long piece of raffia may seem sufficient, but if it is poorly used, it will not tie the firewood. Quality and skill matter more than quantity.",
-    "commentary_dg": "Kukala na rasilimali nyinji takuhakikishi kazi indahendwa. Mlala mure unaweza kuonekana wa kutosha, ela uchitumirwa vibaya, taufunga kuni. Ubora na ujuzi ni muhimu zaidi ya unji.",
+    "commentary_dg": "Kukala na rasilimali nyinji takuhakikishi kazi indahendwa. Mlala mure unaweza kuonekana wa kutosha, ela uchihumirwa vibaya, taufunga kuni. Ubora na ujuzi ni muhimu zaidi ya unji.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -9311,7 +9311,7 @@
     "swahili": "Mume wangu ameokea muuyu ale uyoga wake",
     "swahili_relationship": "translation",
     "commentary_en": "The parasitic mushrooms will be destroying the tree so removing them is good for the tree, but they also make good food. Someone does a favour for someone so that they will gain also",
-    "commentary_dg": "Mutu anahenda wema ili apate faida pia. Mlume waochera muuyu ili arye vidzoga — anaondoa vidzoga ambavyo vinaharibu muhi, ela naye anarya. Kuterya si kpwa bure tu.",
+    "commentary_dg": "Mutu anahenda wema ili aphahe faida pia. Mlume waochera muuyu ili arye vidzoga — anaondoa vidzoga ambavyo vinabananga muhi, ela naye anarya. Kuterya si kpwa bure tu.",
     "commentary_source": "original",
     "themes": [
       "food",
@@ -9516,7 +9516,7 @@
     "swahili": "Mpapai unaoharibika makopa yake hayapandwi",
     "swahili_relationship": "translation",
     "commentary_en": "A papaya tree that is rotting has seeds that are no good for planting. What is corrupted or ruined cannot be used as the basis for something new. Said to warn against building on a flawed foundation or trusting damaged goods.",
-    "commentary_dg": "Mnaphaya-phaya unaoharibika makopa gagikpwe tagaikpwa mbeyu. Chitu chirichoharibika tachiweza kukala mudzi wa chitu chiphya. Nkugombwa kuonya dhidi ya kudzenga dzulu ya mudzi wenye kasoro au kutegemea chitu chirichoharibika.",
+    "commentary_dg": "Mnaphaya-phaya unaobanangika makopa gagikpwe tagaikpwa mbeyu. Chitu chirichobanangika tachiweza kukala mudzi wa chitu chiphya. Nkugombwa kuonya dhidi ya kudzenga dzulu ya mudzi wenye kasoro au kutegemea chitu chirichobanangika.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -9552,7 +9552,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Papai linalooza mbegu zake hazipandwi",
-    "idiomatic_dg": "Chitu chirichoharibika tachifwa kpwa kuandza chitu chisha."
+    "idiomatic_dg": "Chitu chirichobanangika tachifwa kpwa kuandza chitu chisha."
   },
   {
     "id": "p-189",
@@ -9619,7 +9619,7 @@
     "swahili": "Mnazi wa mwanamke haupandwi kwa furaha",
     "swahili_relationship": "translation",
     "commentary_en": "A woman/wife is very jealous of her own possessions. Don’t rejoice when taking/using her things. She will want a refund",
-    "commentary_dg": "Mchetu ana wivu na maliye. Mnaziwe taujemwa na ndaro — usifurahi uchitumiya vitu vya mchetu, mana ndakutaka ariphe.",
+    "commentary_dg": "Mchetu ana wivu na maliye. Mnaziwe taujemwa na ndaro — usifurahi uchihumira vitu vya mchetu, mana ndakutaka ariphe.",
     "commentary_source": "original",
     "themes": [
       "marriage",
@@ -9659,7 +9659,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mnazi wa mwanamke haupandwi kwa furaha",
-    "idiomatic_dg": "Ukitumia mali ya mchetu, dzitayarishe kuiriphwa — andaidai."
+    "idiomatic_dg": "Uchihumira mali ya mchetu, dzitayarishe kuiriphwa — andaidai."
   },
   {
     "id": "p-191",
@@ -10092,7 +10092,7 @@
     "swahili": "Mlaji chake chitsanga hana ugomvi na mtu",
     "swahili_relationship": "translation",
     "commentary_en": "A person who quietly minds their own business and earns their living by their own effort has no quarrel with anyone. Self-sufficiency and contentment with one's own lot bring peace. Said to praise the quiet, hardworking person.",
-    "commentary_dg": "Mutu anayerya chakpwe chitsanga na kudziphahira riziki kpwa jitihadaye kana kondo na mutu yeyosi. Kudzitegemea na kuridhika na urichonago nkuleta amani. Nkugombwa kumsifu mutu mnyenyekevu na mwenye bidii.",
+    "commentary_dg": "Mutu anayerya chakpwe chitsanga na kudziphahira riziki kpwa jitihadaye kana kondo na mutu yeyosi. Kudzitegemea na kuridhika na urichonago nkureha amani. Nkugombwa kumtogola mutu mnyenyekevu na mwenye bidii.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -10180,7 +10180,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtu anayeishi maisha mabaya haigwi",
-    "idiomatic_dg": "Mutu aishiye maisha mabaya kafuatwa ni mutu, kpwa sababu atu anaona na anadzitenga."
+    "idiomatic_dg": "Mutu aishiye maisha mabaya kalungwa ni mutu, kpwa sababu atu anaona na anadzitenga."
   },
   {
     "id": "p-202",
@@ -10399,7 +10399,7 @@
     "swahili": "Mchimba kaburi naye pia anataka achimbiwe",
     "swahili_relationship": "translation",
     "commentary_en": "Speaks to the reciprocal nature of communal service, especially around burial customs. The person who digs graves for others also expects that when their time comes, the community will do the same for them.",
-    "commentary_dg": "Methali ihi ni kuhusu kusaidiana kpwa jamii, hasa mambo ga mazishi. Mutu anayetsimba mbira kpwa atu anjina anatarajia kukala jamiiye nayo indamutsimbira wakatiwe uchifika.",
+    "commentary_dg": "Methali ihi ni kuhusu kuteryana kpwa jamii, hasa mambo ga mazishi. Mutu anayetsimba mbira kpwa atu anjina anatarajia kukala jamiiye nayo indamutsimbira wakatiwe uchifika.",
     "commentary_source": "expanded",
     "themes": [
       "death"
@@ -10506,7 +10506,7 @@
     "swahili": "Mlishi hafi, mtumishi hauawi",
     "swahili_relationship": "translation",
     "commentary_en": "He has to look after himself first so that he has energy and resources to provide for his family. If he neglects himself the whole family will suffer.",
-    "commentary_dg": "Mtsumi ni lazima adzitunze kpwandza ili akale na nguvu za kulisha nyumbaye. Achidzi-dza-haza [?], nyumba yosi indateseka.",
+    "commentary_dg": "Mtsumi ni lazima adzitundze kpwandza ili akale na nguvu za kulisha nyumbaye. Achidzi-dza-haza [?], nyumba yosi indateseka.",
     "commentary_source": "original",
     "themes": [
       "kinship",
@@ -10547,7 +10547,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mlishi hafi, mtumwa hauawi",
-    "idiomatic_dg": "Mutu anayerisa atue ni lazima adzilinde kpwandza, ili akale na nguvu za kuatereza."
+    "idiomatic_dg": "Mutu anayerisa atue ni lazima adzirinde kpwandza, ili akale na nguvu za kuatereza."
   },
   {
     "id": "p-209",
@@ -10699,7 +10699,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mchuzi wa beberu (mbuzi dume mzee) unanywiwa/unaliwa ukiwa moto",
-    "idiomatic_dg": "Dzambo ra muhimu rishughulikiwe phapho hipho, risirichwe rikaharibiwa."
+    "idiomatic_dg": "Dzambo ra muhimu rishughulikiwe phapho hipho, risirichwe rikabanangwa."
   },
   {
     "id": "p-212",
@@ -11025,7 +11025,7 @@
     "swahili": "Mjumbe hauawi",
     "swahili_relationship": "cognate",
     "commentary_en": "A universal principle protecting messengers and intermediaries. The person who carries a message should not be punished for its content, even if the news is unwelcome.",
-    "commentary_dg": "Kanuni ya kulinda ahumwa na aphirikira maneno. Mutu ahumirwaye ujumbe kaadhibiwa kpwa maneno garigo mumo, hata gakale ni habari mbii.",
+    "commentary_dg": "Kanuni ya kurinda ahumwa na aphirikira maneno. Mutu ahumirwaye ujumbe kaadhibiwa kpwa maneno garigo mumo, hata gakale ni habari mbii.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -11178,7 +11178,7 @@
     "swahili": "Mwozaji nyama ni mwenye mtego",
     "swahili_relationship": "translation",
     "commentary_en": "If a trapper is lazy and doesn’t check his traps often the animal might decay. A person who doesn’t pull his weight may be dismissed from his job. If you don’t tend your crops you will not have a good harvest.",
-    "commentary_dg": "Muhumbuladzi mvivu asiyeangalira mihamboye, nyama inaweza kuoza. Mutu asiyehenda kaziye vizuri anaweza kufutswa. Usiphotunza mimerayo kundapata mavuno mazuri.",
+    "commentary_dg": "Muhumbuladzi mvivu asiyeangalira mihamboye, nyama inaweza kuoza. Mutu asiyehenda kaziye vizuri anaweza kufutswa. Usiphotundza mimerayo kundaphaha mavuno mazuri.",
     "commentary_source": "original",
     "themes": [
       "food",
@@ -11337,7 +11337,7 @@
     "swahili": "Mtu huokolewa na chake",
     "swahili_relationship": "translation",
     "commentary_en": "Emphasises self-reliance. Ultimately, a person's salvation comes from their own effort and resources. Others may help, but your own effort is what truly saves you.",
-    "commentary_dg": "Methali ihi inasisitiza kudzitegemea. Kpwa kpweli mutu aokolwa ni chakpwe mwenye. Atu anjina anaweza kusaidiya, ela juhudizo mwenye ndizo zinazokuokola.",
+    "commentary_dg": "Methali ihi inasisitiza kudzitegemea. Kpwa kpweli mutu aokolwa ni chakpwe mwenye. Atu anjina anaweza kuterya, ela juhudizo mwenye ndizo zinazokuokola.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -11387,7 +11387,7 @@
     "swahili": "Mtu wa kichaa haigwi mfano",
     "swahili_relationship": "translation",
     "commentary_en": "Don’t follow any sort of bad example",
-    "commentary_dg": "Usifuate mfwano wowosi mbaya. Mutu wa koma ana tabiya mbaya, nawe uchimuiga undakala dza iye.",
+    "commentary_dg": "Usilunge mfwano wowosi mbaya. Mutu wa koma ana tabiya mbaya, nawe uchimuiga undakala dza iye.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -11423,7 +11423,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtu wa kichaa haigwi",
-    "idiomatic_dg": "Usifuate mfano [?] mubaya wa mutu yeyosi, kpwa sababu undalavya shida."
+    "idiomatic_dg": "Usilunge mfano [?] mubaya wa mutu yeyosi, kpwa sababu undalavya shida."
   },
   {
     "id": "p-226",
@@ -11437,7 +11437,7 @@
     "swahili": "Mbuyu hufunikwa na vichaka",
     "swahili_relationship": "translation",
     "commentary_en": "A ‘big-man’ needs his entourage to support him, who add to his prestige.",
-    "commentary_dg": "Muuyu mkpwulu unahaza kutsitsizwa ni mitsatsa midide inayouzunguka. Mutu mkpwulu anahaza atue a kumzunguka ambao anamphera ishima.",
+    "commentary_dg": "Muuyu mkpwulu unahaza kutsitsizwa ni mitsatsa midide inayouzunguluka. Mutu mkpwulu anahaza atue a kumzunguluka ambao anamphera ishima.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -11629,7 +11629,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mharibifu wa nchi ni mwananchi",
-    "idiomatic_dg": "Tsi inaharibiwa ni ana-tsi enye, sio atu a kure."
+    "idiomatic_dg": "Tsi inabanangwa ni ana-tsi enye, sio atu a kure."
   },
   {
     "id": "p-230",
@@ -11904,7 +11904,7 @@
     "swahili": "Mwadziko, kesho vivyo hivyo",
     "swahili_relationship": "translation",
     "commentary_en": "Blessing, expression of thanks",
-    "commentary_dg": "Neno ra baraka na kushukuru. Uchiphaha vitu vizuri rero, unaomba vigale vivyo muhondo.",
+    "commentary_dg": "Neno ra baraka na kushukuru. Uchiphaha vitu vizuri rero, unavoya vigale vivyo muhondo.",
     "commentary_source": "original",
     "themes": [
       "time"
@@ -11954,7 +11954,7 @@
     "swahili": "Jambo la mwenyewe ndilo kubwa",
     "swahili_relationship": "translation",
     "commentary_en": "If I have something to do I should work harder than those who are helping him. e.g. if you have asked people to help in your shamba.",
-    "commentary_dg": "Mwenye dzambo ndiye anapaswa kuhenda bidii kuriko osi anaosaidiya. Mfwano, uchiita atu edze akusaidiye mundani, uwe wa kpwandza kuhenda kazi.",
+    "commentary_dg": "Mwenye dzambo ndiye anapaswa kuhenda bidii kuriko osi anaoterya. Mfwano, uchiita atu edze akusaidiye mundani, uwe wa kpwandza kuhenda kazi.",
     "commentary_source": "original",
     "themes": [
       "work"
@@ -12359,7 +12359,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtoto anayekubali kutumwa ana mavi mengi",
-    "idiomatic_dg": "Mwana ambaye anadzitola kuhudumia anapata malipo manono, kpwa sababu atu anamridhia."
+    "idiomatic_dg": "Mwana ambaye anadzitola kuhudumia anaphaha malipo manono, kpwa sababu atu anamridhia."
   },
   {
     "id": "p-244",
@@ -12373,7 +12373,7 @@
     "swahili": "Mtoto ni kitu cha kuomba nacho",
     "swahili_relationship": "translation",
     "commentary_en": "You use your child as a sympathy-tool when you need to ask for things/beg",
-    "commentary_dg": "Unaweza kuhumira mwanao ili uphate huruma unapohaza kuomba vitu kpwa atu. Mwana ni chifwadho cha kuomba nacho.",
+    "commentary_dg": "Unaweza kuhumira mwanao ili uphate huruma unapohaza kuvoya vitu kpwa atu. Mwana ni chifwadho cha kuvoya nacho.",
     "commentary_source": "original",
     "themes": [
       "children"
@@ -12410,7 +12410,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtoto ni kitu cha kukopea",
-    "idiomatic_dg": "Mwana anaweza kuhumikpwa kpwa kuomba msada kpwa atu, kpwa sababu analavya huruma."
+    "idiomatic_dg": "Mwana anaweza kuhumikpwa kpwa kuvoya msada kpwa atu, kpwa sababu analavya huruma."
   },
   {
     "id": "p-245",
@@ -12424,7 +12424,7 @@
     "swahili": "Mtoto wa pembeni hana mlezi",
     "swahili_relationship": "translation",
     "commentary_en": "Refers to a child who isn’t related to you and is just around. He won’t be taken care of in the same way as children you know.",
-    "commentary_dg": "Mwana ambaye kana uhusiano nawe, ariye hiko kanda tu, kandatunzwa dza ana unaomanya. Mrezi wa kpweli ni wa jamaa.",
+    "commentary_dg": "Mwana ambaye kana uhusiano nawe, ariye hiko kanda tu, kandatundzwa dza ana unaomanya. Mrezi wa kpweli ni wa jamaa.",
     "commentary_source": "original",
     "themes": [
       "wisdom",
@@ -12476,7 +12476,7 @@
     "swahili": "Mtoto wa kutabasamu humnyima baba nyama",
     "swahili_relationship": "translation",
     "commentary_en": "The laughter can hide stubbornness and refusal. A clever child is not always helpful to his parents",
-    "commentary_dg": "Kutseka kunaweza kufwitsa ukaidi na kuremwa. Mwana mjanja si siku zosi anavyosaidiya avyazi akpwe.",
+    "commentary_dg": "Kutseka kunaweza kufwitsa ukaidi na kuremwa. Mwana mjanja si siku zosi anavyoterya avyazi akpwe.",
     "commentary_source": "original",
     "themes": [
       "food",
@@ -12531,7 +12531,7 @@
     "swahili": "Mtoto wa mwenzio ni baridi",
     "swahili_relationship": "translation",
     "commentary_en": "You do not value another person’s child as much as your own. If you are looking after them you might not take as good care of them as you should.",
-    "commentary_dg": "Mwana wa myao kumthamini ni vigumu dza mwanao mwenye. Uchimuangalira, unaweza usimtunze dza uhendago mwanao.",
+    "commentary_dg": "Mwana wa myao kumthamini ni vigumu dza mwanao mwenye. Uchimuangalira, unaweza usimtundze dza uhendago mwanao.",
     "commentary_source": "original",
     "themes": [
       "children"
@@ -12621,7 +12621,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mtoto wa nyoka ni nyoka",
-    "idiomatic_dg": "Mwana anafuata tabiya za avyaze, kpwa sababu anavyererwa ndivyo anavyokala."
+    "idiomatic_dg": "Mwana analunga tabiya za avyaze, kpwa sababu anavyererwa ndivyo anavyokala."
   },
   {
     "id": "p-249",
@@ -13352,7 +13352,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Naona makuzi wakifukuzana, lakini sijui dume ni lipi wala jike ni lipi",
-    "idiomatic_dg": "Kuona mutu kpwa ndze kukakuambia haliye ya kpweli, kpwa sababu atu a aina-aina anafanana kpwa ndze."
+    "idiomatic_dg": "Kuona mutu kpwa ndze kukakuambira haliye ya kpweli, kpwa sababu atu a aina-aina anafanana kpwa ndze."
   },
   {
     "id": "p-263",
@@ -13525,7 +13525,7 @@
     "swahili": "Tembo hauuliwi kwa bua la mahindi",
     "swahili_relationship": "translation",
     "commentary_en": "A warning against using inadequate means to face a great challenge. You cannot defeat an elephant with a dry maize stalk; to overcome a powerful adversary you need the right tools and strength.",
-    "commentary_dg": "Onyo dhidi ya kutumia njira duni kukabiliana na changamoto kulu. Ndzovu kaolagbwa na buwa — ili ushinde adui mkpwulu unahitaji zana na nguvu zinazofwa.",
+    "commentary_dg": "Onyo dhidi ya kuhumira njira duni kukabiliana na changamoto kulu. Ndzovu kaolagbwa na buwa — ili ushinde adui mkpwulu unahitaji zana na nguvu zinazofwa.",
     "commentary_source": "expanded",
     "themes": [
       "food"
@@ -13629,7 +13629,7 @@
     "swahili": "Kunyakua ni kuondoka",
     "swahili_relationship": "translation",
     "commentary_en": "Snatching something without asking permission.",
-    "commentary_dg": "Kuala chintu bila kuomba ruhusa ni sawa na kuphiya nacho. Ng'andu ni kunyakua; usihale chintu bila kuomba.",
+    "commentary_dg": "Kuala chintu bila kuvoya ruhusa ni sawa na kuphiya nacho. Ng'andu ni kunyakua; usihale chintu bila kuvoya.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -13666,7 +13666,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kuchukua 'Ng'andu' ni kwenda",
-    "idiomatic_dg": "Kuhala chitu bila ya kuomba ruhusa ni sawa-sawa na kuiya."
+    "idiomatic_dg": "Kuhala chitu bila ya kuvoya ruhusa ni sawa-sawa na kuiya."
   },
   {
     "id": "p-269",
@@ -13824,7 +13824,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kondoo akipiga hatua nyuma, si kukimbia vita, bali ni kufikiri mashambulizi",
-    "idiomatic_dg": "Usidanganywe ni adui achikuonyesa nyuma, anaweza kukala anaaza njira ya kukupiga zaidi."
+    "idiomatic_dg": "Usichengbwe ni adui achikuonyesa nyuma, anaweza kukala anaaza njira ya kukupiga zaidi."
   },
   {
     "id": "p-272",
@@ -13875,7 +13875,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kondoo anatazama nyuma",
-    "idiomatic_dg": "Mutu mwenye hekima anaangaliya mambo garigophiya na kunadzifundza kpwa go."
+    "idiomatic_dg": "Mutu mwenye hekima analola mambo garigophiya na kunadzifundza kpwa go."
   },
   {
     "id": "p-273",
@@ -13889,7 +13889,7 @@
     "swahili": "Hakimu ni mguu",
     "swahili_relationship": "translation",
     "commentary_en": "Traditional judges try cases and receive a reward. They will only be rewarded if they actually make the effort to go and try the case (using their feet). ie. you have to put something in before you will get something out.",
-    "commentary_dg": "Ahukumu a jadi anasikira kesi na kuphokera malipo. Ela andalipwa tu achihenda juhudi ya kuphiya kusikiriza kesi. Ni lazima uvike chintu kabla ya kuphata chintu.",
+    "commentary_dg": "Ahukumu a jadi anasikira kesi na kuphokera malipo. Ela andariphwa tu achihenda juhudi ya kuphiya kusikiriza kesi. Ni lazima uvike chintu kabla ya kuphata chintu.",
     "commentary_source": "original",
     "themes": [
       "work",
@@ -14148,7 +14148,7 @@
     "swahili": "Nyasi zina mimba",
     "swahili_relationship": "parallel",
     "commentary_en": "A warning to watch one's words even in seemingly private places. The grasses are 'pregnant' with hidden listeners. Equivalent to 'walls have ears' — secrets spoken carelessly will eventually come to light.",
-    "commentary_dg": "Onyo ra kuangaliya manenogo hata phatu phenye siri. Nyasi zina mimba — kuna mutu anaweza kukala anasikira. Siri zinazoambwa bila uangalifu ndazo zikafitsuka siku mwenga.",
+    "commentary_dg": "Onyo ra kulola manenogo hata phatu phenye siri. Nyasi zina mimba — kuna mutu anaweza kukala anasikira. Siri zinazoambwa bila uangalifu ndazo zikafitsuka siku mwenga.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -14809,7 +14809,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mahali unavyovuna ndipo unapokula",
-    "idiomatic_dg": "Mutu anavuna phatu aripholima, baraka zinakudza kpwa phatu uriphoika juhudi."
+    "idiomatic_dg": "Mutu anavuna phatu ariphorima, baraka zinakudza kpwa phatu uriphoika juhudi."
   },
   {
     "id": "p-292",
@@ -14878,7 +14878,7 @@
     "swahili": "Penye tai pana mzoga",
     "swahili_relationship": "parallel",
     "commentary_en": "Where there are signs, there is a cause. Vultures circling overhead indicate a carcass below. Similarly, visible effects always point to an underlying reality that should not be ignored.",
-    "commentary_dg": "Pharipho na dalili, phana chanzo. Nderi achizunguka dzulu anaonyesa lufu photsi. Vivyo hivyo, mambo ganagoonekana chila wakati ganaonyesa ukpweli wa ndani ambao taufwa kupuuzwa.",
+    "commentary_dg": "Pharipho na dalili, phana chanzo. Nderi achizunguluka dzulu anaonyesa lufu photsi. Vivyo hivyo, mambo ganagoonekana chila wakati ganaonyesa ukpweli wa ndani ambao taufwa kupuuzwa.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -15245,7 +15245,7 @@
     "swahili": "Roho ilimchenga bwana wake",
     "swahili_relationship": "translation",
     "commentary_en": "A warning about self-deception. Sometimes a person's own desires or heart misleads them into poor decisions. The soul, or inner longing, can trick its master into ruin.",
-    "commentary_dg": "Onyo kuhusu kudzidanganya. Wakati munjina tamaa au moyo wa mutu mwenye unamuhimira kpwa maamuzi mabaya. Roho inaweza kuchenga bwanawe hadi uharibifu.",
+    "commentary_dg": "Onyo kuhusu kudzichenga. Wakati munjina tamaa au moyo wa mutu mwenye unamuhimira kpwa maamuzi mabaya. Roho inaweza kuchenga bwanawe hadi uharibifu.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -15282,7 +15282,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Roho ilidanganya bwana wake",
-    "idiomatic_dg": "Wakati munjina tamaazo mwenye zinakupoteza na kukuhendesa maamuzi mabaya."
+    "idiomatic_dg": "Wakati munjina tamaazo mwenye zinakuangamiza na kukuhendesa maamuzi mabaya."
   },
   {
     "id": "p-301",
@@ -15348,7 +15348,7 @@
     "swahili": "Sikio la kufa halisikii dawa",
     "swahili_relationship": "cognate",
     "commentary_en": "Said to warn someone who refuses to listen to advice. Just as medicine cannot heal a dead ear, counsel cannot help a person who has closed their mind. Used by elders when a stubborn person ignores repeated warnings.",
-    "commentary_dg": "Nkugombwa kumwonya mutu anayekatala kusikiriza ushauri. Dza vira dawa taiweza kuphoza sikiro ririkofwa, ushauri tauweza kumsaidiya mutu ariyefunga achilize. Nkuhumirwa ni avyere mutu mkaidi achiphuza maonyo.",
+    "commentary_dg": "Nkugombwa kumwonya mutu anayekatala kusikiriza ushauri. Dza vira dawa taiweza kuphoza sikiro ririkofwa, ushauri tauweza kumterya mutu ariyefunga achilize. Nkuhumirwa ni avyere mutu mkaidi achiphuza maonyo.",
     "commentary_source": "expanded",
     "themes": [
       "speech",
@@ -15454,7 +15454,7 @@
     "swahili": "Simba mwenda kimya ndiye mla nyama",
     "swahili_relationship": "cognate",
     "commentary_en": "Praises the value of patience and stealth over loud boasting. The lion that hunts quietly is the one that eats, while the noisy one alerts its prey. Used to encourage working silently toward one's goals rather than announcing them to everyone.",
-    "commentary_dg": "Inasifu thamani ya kuvumirira na utulivu badala ya kudzenga. Simba aendaye pore ndiye ariyaye nyama, ela mwenye kelele anahadzisha [?] nyamaze. Nkuhumirwa kuhimiza kuhumira kpwa utulivu kuelekea malengogo.",
+    "commentary_dg": "Inatogola thamani ya kuvumirira na utulivu badala ya kudzenga. Simba aendaye pore ndiye ariyaye nyama, ela mwenye kelele anahadzisha [?] nyamaze. Nkuhumirwa kuhimiza kuhumira kpwa utulivu kuelekea malengogo.",
     "commentary_source": "expanded",
     "themes": [
       "food",
@@ -16081,7 +16081,7 @@
     "swahili": "Mshika punda ndiye mla nyama yake",
     "swahili_relationship": "translation",
     "commentary_en": "The one who holds the donkey is the one who eats its meat. Teaches that reward follows direct effort — those who do the actual work are the ones who deserve and receive the benefit. Said to encourage taking initiative rather than waiting for others.",
-    "commentary_dg": "Anayetsaha bindoni [?] ndiye anayerya nyamaye. Inafundisha kukala malipo ganafuata juhudi ya moja kpwa moja — anaohumira kpwa kpweli ndiyo anaostahili kuphaha faida. Nkugombwa kuhimiza kuhala hatua badala ya kugodza atu anjina.",
+    "commentary_dg": "Anayetsaha bindoni [?] ndiye anayerya nyamaye. Inafundisha kukala malipo ganalunga juhudi ya moja kpwa moja — anaohumira kpwa kpweli ndiyo anaostahili kuphaha faida. Nkugombwa kuhimiza kuhala hatua badala ya kugodza atu anjina.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -16131,7 +16131,7 @@
     "swahili": "Chango cha Mdigo ni fitina",
     "swahili_relationship": "translation",
     "commentary_en": "Many Digos go around slandering each other for their own gain",
-    "commentary_dg": "Adigo anji anaphiya hiku na hiku kusingizia ayawao ili aphate faidha yao enye. Hiri ni tabiya ya kudzisengenyeza ambayo inaaharibu.",
+    "commentary_dg": "Adigo anji anaphiya hiku na hiku kusingizia ayawao ili aphate faidha yao enye. Hiri ni tabiya ya kudzisengenyeza ambayo inaabananga.",
     "commentary_source": "original",
     "themes": [
       "speech"
@@ -16183,7 +16183,7 @@
     "swahili": "Choko choko yenu mtaombolezana macho",
     "swahili_relationship": "translation",
     "commentary_en": "A warning against persistent provocation. If you keep teasing and provoking each other, eventually you will gouge out each other's eyes — the conflict will escalate beyond repair. Used by elders to stop quarrels before they become dangerous.",
-    "commentary_dg": "Onyo dhidi ya uchokozi wa mara kpwa mara. Muchiendelea kutsokozana, mwisho mndaombolana matso — lungo rindapanda zaidi ya uwezo wa kurisuluhisha. Nkuhumirwa ni avyere kusimamisha lungo kabila taridzakala hatari.",
+    "commentary_dg": "Onyo dhidi ya uchokozi wa mara kpwa mara. Muchienderera kutsokozana, mwisho mndaombolana matso — lungo rindapanda zaidi ya uwezo wa kurisuluhisha. Nkuhumirwa ni avyere kusimamisha lungo kabila taridzakala hatari.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -16219,7 +16219,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Uchokozi wenu (kwa kila mmoja), mtang'oana macho",
-    "idiomatic_dg": "Uchiendelea kutsokozana, mwisho lungo rindakula hadi risiweze kutatsulwa."
+    "idiomatic_dg": "Uchienderera kutsokozana, mwisho lungo rindakula hadi risiweze kutatsulwa."
   },
   {
     "id": "p-319",
@@ -16233,7 +16233,7 @@
     "swahili": "Choko choko yenu mtachokoza garege",
     "swahili_relationship": "translation",
     "commentary_en": "A companion warning to 'tsoko-tsoko yenu mndaombolana matso.' The 'garege' is a large, dangerous creature. If you keep provoking carelessly, you will eventually provoke something far more powerful than you can handle.",
-    "commentary_dg": "Onyo rinaro andamana na 'tsoko-tsoko yenu mndaombolana matso.' Garerego ni chiumbe chikulu na hatari. Uchiendelea kutsokola bila kujali, mwisho undatsokola chitu chenye nguvu zaidi ya uwezowo.",
+    "commentary_dg": "Onyo rinaro andamana na 'tsoko-tsoko yenu mndaombolana matso.' Garerego ni chiumbe chikulu na hatari. Uchienderera kutsokola bila kujali, mwisho undatsokola chitu chenye nguvu zaidi ya uwezowo.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -16269,7 +16269,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Uchokozi wenu, mtachokoza garege (kiumbe hatari)",
-    "idiomatic_dg": "Uchiendelea kutsokola bila kujali, mwisho undaamsha chitu chenye nguvu zaidi ya uwezowo."
+    "idiomatic_dg": "Uchienderera kutsokola bila kujali, mwisho undaamsha chitu chenye nguvu zaidi ya uwezowo."
   },
   {
     "id": "p-320",
@@ -16336,7 +16336,7 @@
     "swahili": "Tumbaku mbaya huanzia shina",
     "swahili_relationship": "translation",
     "commentary_en": "Observes that bad outcomes can be traced to their origins. Poor tobacco starts at the stem — the defect begins at the root. Used to warn that if the foundation of something is flawed, the result will be bad. Applied to parenting, leadership, and planning.",
-    "commentary_dg": "Inaonyesa kukala matokeo mabaya ganaweza kufuatirwa hadi asiliye. Tumbaku iyi inaandza kolo — kasoro inaandza mzizini. Nkuhumirwa kuonya kukala msingi ukakala mubaya, matokeo gandakala mabaya. Inatumika kuhusu malezi, ulongozi, na mipango.",
+    "commentary_dg": "Inaonyesa kukala matokeo mabaya ganaweza kulungwa hadi asiliye. Tumbaku iyi inaandza kolo — kasoro inaandza mzizini. Nkuhumirwa kuonya kukala msingi ukakala mubaya, matokeo gandakala mabaya. Inahumirwa kuhusu malezi, ulongozi, na mipango.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -16373,7 +16373,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Tumbaku mbaya huanza kwenye shina",
-    "idiomatic_dg": "Matokeo mabaya ganaandza mwandzo mubaya; kasoro ya mzizi ndiyo inayoharibu yosi."
+    "idiomatic_dg": "Matokeo mabaya ganaandza mwandzo mubaya; kasoro ya mzizi ndiyo inayobananga yosi."
   },
   {
     "id": "p-322",
@@ -16796,7 +16796,7 @@
     "swahili": "Ukila kuku wa mwenzako, marondo yataleta kwako",
     "swahili_relationship": "translation",
     "commentary_en": "A warning about reciprocity and karma. If you eat your neighbour's chicken, the feathers will find their way to your doorstep — your wrongdoing will be traced back to you. Used to discourage theft or taking advantage of others.",
-    "commentary_dg": "Onyo kuhusu malipo. Uchirya kuku wa myao, marondo gandaona njira hadi kpwako mlangoni — uibuwo undafuatirwa hadi kpwako. Nkuhumirwa kukatisha wivi au kutumia atu anjina vibaya.",
+    "commentary_dg": "Onyo kuhusu malipo. Uchirya kuku wa myao, marondo gandaona njira hadi kpwako mlangoni — uibuwo undalungwa hadi kpwako. Nkuhumirwa kukatisha wivi au kuhumira atu anjina vibaya.",
     "commentary_source": "expanded",
     "themes": [
       "animals"
@@ -16832,7 +16832,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Ukila kuku wa jirani (wako), manyoya yatakuja kwako",
-    "idiomatic_dg": "Uchimuhendere vibaya myao, ushahidi undafuatirwa hadi kpwako mwenye."
+    "idiomatic_dg": "Uchimuhendere vibaya myao, ushahidi undalungwa hadi kpwako mwenye."
   },
   {
     "id": "p-331",
@@ -17325,7 +17325,7 @@
     "swahili": "Wa ukaidi haui",
     "swahili_relationship": "translation",
     "commentary_en": "If this person doesn’t work with the team they will not succeed in the hunt.",
-    "commentary_dg": "Mutu wa kani asiphohenda kazi na ayae, katafanikiwa windzani. Kani nkuharibu ushirikiano na ndiyo sababu ya kushindwa.",
+    "commentary_dg": "Mutu wa kani asiphohenda kazi na ayae, katafanikiwa windzani. Kani nkubananga ushirikiano na ndiyo sababu ya kushindwa.",
     "commentary_source": "original",
     "themes": [
       "foolishness",
@@ -17532,7 +17532,7 @@
     "swahili": "Ujuao wako kumjua uendako",
     "swahili_relationship": "translation",
     "commentary_en": "Teaches that self-knowledge is the foundation for navigating life. Know your own people and your own origins, so that you can understand where you are going. Used to advise young people not to forget their roots as they pursue new paths.",
-    "commentary_dg": "Inafundisha kukala kudzimanya ni msingi wa kupishira maisha. Manya atuo na asiliyo, ili uweze kuelewa uphiyako. Nkuhumirwa kushauri avulana na asichana asihosahau mizizi yao anapho fuata njira mphya.",
+    "commentary_dg": "Inafundisha kukala kudzimanya ni msingi wa kupishira maisha. Manya atuo na asiliyo, ili uweze kuelewa uphiyako. Nkuhumirwa kushauri avulana na asichana asihosahau mizizi yao anapho lunga njira mphya.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -17897,7 +17897,7 @@
     "swahili": "Usiwe kama mwombaji wa kondoo",
     "swahili_relationship": "translation",
     "commentary_en": "… and doesn’t ask for it straight away. In other words go straight to the point or otherwise you might miss the boat!",
-    "commentary_dg": "Uchilonda chitu, chivoye moja kpwa moja bila kuzungukazunguka. Usikale dza mvoya ng'ondzi ambaye kavoya chipore, mana unaweza kuikosa nafasi.",
+    "commentary_dg": "Uchilonda chitu, chivoye moja kpwa moja bila kuzungulukazunguluka. Usikale dza mvoya ng'ondzi ambaye kavoya chipore, mana unaweza kuikosa nafasi.",
     "commentary_source": "original",
     "themes": [
       "coastal",
@@ -18473,7 +18473,7 @@
     "swahili": "Uzee unachosha",
     "swahili_relationship": "translation",
     "commentary_en": "A simple, poignant observation about the burden of old age. As the body weakens, every task becomes heavier. Used to express empathy for the elderly, and to remind the young to respect and assist their elders, for age spares no one.",
-    "commentary_dg": "Uchunguzi rahisi na wenye kugusa kuhusu mzigo wa uvyere. Mwiri unaphodhoofika, chila kazi inakala ndzito. Nkuhumirwa kuonyesa huruma kpwa avyere, na kukumbusha avulana na asichana kuishimu na kusaidiya avyere ao, mana uvyere tauchagula mutu.",
+    "commentary_dg": "Uchunguzi rahisi na wenye kugusa kuhusu mzigo wa uvyere. Mwiri unaphodhoofika, chila kazi inakala ndzito. Nkuhumirwa kuonyesa huruma kpwa avyere, na kukumbusha avulana na asichana kuishimu na kuterya avyere ao, mana uvyere tauchagula mutu.",
     "commentary_source": "expanded",
     "themes": [
       "time"
@@ -18625,7 +18625,7 @@
     "swahili": "Uzuri hula mti wa matunda",
     "swahili_relationship": "translation",
     "commentary_en": "Mnago is a type of fruit tree. The tree which is bearing fruit is destroyed by someone breaking off the branches to get the fruit. Refers to the good one has done, but I’m still unclear as to the relationship here!",
-    "commentary_dg": "Mnago ni muhi wa matunda ambao atu anavundza matawige ili aphate matunda. Uzuri wa mutu unaweza kumuharibu mwenye, mana atu andamtumira hadi aishiwe.",
+    "commentary_dg": "Mnago ni muhi wa matunda ambao atu anavundza matawige ili aphate matunda. Uzuri wa mutu unaweza kumubananga mwenye, mana atu andamhumira hadi aishiwe.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -18663,7 +18663,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Uzuri unakula mti wa matunda",
-    "idiomatic_dg": "Wema wa mutu unaweza kumuharibu mwenye, mana atu andamtumira hadi aishiwe."
+    "idiomatic_dg": "Wema wa mutu unaweza kumubananga mwenye, mana atu andamhumira hadi aishiwe."
   },
   {
     "id": "p-367",
@@ -18885,7 +18885,7 @@
     "swahili": "Mwenye jicho hapigiwi taa",
     "swahili_relationship": "parallel",
     "commentary_en": "A person who is perceptive and wise does not need to have things pointed out or illuminated for them — they can see for themselves. Used to praise someone's intelligence, or to chide those who waste time explaining the obvious to a capable person.",
-    "commentary_dg": "Mutu mwenye ufahamu na ikima kahitaji kuonyeswa au kung'arirwa vitu — anaweza kuona mwenye. Nkuhumirwa kumsifu mutu kpwa achilize, au kumkemea anayepoteza wakati kuelezea chitu chiricho wazi kpwa mutu mwenye uwezo.",
+    "commentary_dg": "Mutu mwenye ufahamu na ikima kahitaji kuonyeswa au kung'arirwa vitu — anaweza kuona mwenye. Nkuhumirwa kumtogola mutu kpwa achilize, au kumkemea anayeangamiza wakati kuelezea chitu chiricho wazi kpwa mutu mwenye uwezo.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -18987,7 +18987,7 @@
     "swahili": "Mwenye wazimu ni wako",
     "swahili_relationship": "translation",
     "commentary_en": "Reminds that even a mad or difficult family member is still yours — you cannot disown them. Family bonds persist regardless of a person's condition or behaviour. Used to call families to responsibility for their troubled members rather than abandoning them.",
-    "commentary_dg": "Inakumbusha kukala hata mutu wa mbari ariye na koma au mgumu bado ni wako — tauweza kumkatala. Uhusiano wa mbari unaendelea bila kujali hali au tabiya ya mutu. Nkuhumirwa kuiha mbari kuwajibika kpwa atu ao enye matatizo badala ya kuaricha.",
+    "commentary_dg": "Inakumbusha kukala hata mutu wa mbari ariye na koma au mgumu bado ni wako — tauweza kumkatala. Uhusiano wa mbari unaenderera bila kujali hali au tabiya ya mutu. Nkuhumirwa kuiha mbari kuwajibika kpwa atu ao enye matatizo badala ya kuaricha.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -19037,7 +19037,7 @@
     "swahili": "Mwenye tamaa haivishi",
     "swahili_relationship": "translation",
     "commentary_en": "If you desire fruit so much you will pick it before it is ready, or you won’t cook your meat properly",
-    "commentary_dg": "Mutu wa kpwiru sana andachuma matunda kabila hayadzaiva, au kandapika nyamaye vizuri. Kpwiru kunakuharibu kpwa kukuhendesa ukale na hima.",
+    "commentary_dg": "Mutu wa kpwiru sana andachuma matunda kabila hayadzaiva, au kandajita nyamaye vizuri. Kpwiru kunakubananga kpwa kukuhendesa ukale na hima.",
     "commentary_source": "original",
     "themes": [
       "food"
@@ -19074,7 +19074,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mwenye tamaa kubwa haivi",
-    "idiomatic_dg": "Mutu wa kpwiru sana anaharibu matokeoge mwenye kpwa kukosa kuvumirira."
+    "idiomatic_dg": "Mutu wa kpwiru sana anabananga matokeoge mwenye kpwa kukosa kuvumirira."
   },
   {
     "id": "p-375",
@@ -19247,7 +19247,7 @@
     "swahili": "Mwenye moja hanyanganywi mbili",
     "swahili_relationship": "translation",
     "commentary_en": "A logical observation: if someone only has one thing, you cannot take two from them. Used to defend the poor against excessive demands, or to remind creditors and authorities that you cannot extract what does not exist. Also used philosophically — accept what you have and protect it.",
-    "commentary_dg": "Uchunguzi wa chimantiki: mutu achikala na chitu chimwenga tu, tauweza kumuuywa viiri. Nkuhumirwa kualinda achiya dhidi ya madai ga kupishira chiasi, au kukumbusha wadai na mamlaka kukala tauweza kutoa chisicho kpwenye. Piya nkuhumirwa — kubali urichonacho na uchirinde.",
+    "commentary_dg": "Uchunguzi wa chimantiki: mutu achikala na chitu chimwenga tu, tauweza kumuuywa viiri. Nkuhumirwa kuarinda achiya dhidi ya madai ga kupishira chiasi, au kukumbusha wadai na mamlaka kukala tauweza kutoa chisicho kpwenye. Piya nkuhumirwa — kubali urichonacho na uchirinde.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -19299,7 +19299,7 @@
     "swahili": "Ulikuwa kanga wa chongo ukiwafukurira wenye macho",
     "swahili_relationship": "translation",
     "commentary_en": "The blind guineafowl cannot see all of the things he is scratching up so the other birds will come and take advantage of this.",
-    "commentary_dg": "Kanga wa tsongo kavyona vyosi anavyovifukurira, phahi nyuni azima nkukpwedza kuchukuwa hivyo. Mutu ahendaye kazi kpwa nguvu ela kaona vinono, faidaye nkuphiya kpwa ayae.",
+    "commentary_dg": "Kanga wa tsongo kavyona vyosi anavyovifukurira, phahi nyuni azima nkukpwedza kuhala hivyo. Mutu ahendaye kazi kpwa nguvu ela kaona vinono, faidaye nkuphiya kpwa ayae.",
     "commentary_source": "original",
     "themes": [
       "animals"
@@ -19353,7 +19353,7 @@
     "swahili": "Ulila bombo, utalipa bombo",
     "swahili_relationship": "translation",
     "commentary_en": "Meaning of ‘bombo’ uncertain. If you misuse something you will have to pay for it",
-    "commentary_dg": "Uchitumira chitu vibaya, undaripha. Warya bombo, phahi hakikisha tayari kuripha bombo. Takuna dzambo ra bure duniani.",
+    "commentary_dg": "Uchihumira chitu vibaya, undaripha. Warya bombo, phahi hakikisha tayari kuripha bombo. Takuna dzambo ra bure duniani.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -19390,7 +19390,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Ulikula bombo, utalipa bombo",
-    "idiomatic_dg": "Uchitumira chitu vibaya, ni lazima uriphe beiye; takuna bure duniani."
+    "idiomatic_dg": "Uchihumira chitu vibaya, ni lazima uriphe beiye; takuna bure duniani."
   },
   {
     "id": "p-381",
@@ -19614,7 +19614,7 @@
     "swahili": "Inachoma inachoma ndiko kuiva kwake",
     "swahili_relationship": "translation",
     "commentary_en": "An encouraging proverb drawn from cooking. When food starts to burn, it means it is nearly done — the most intense heat comes just before the dish is ready. Used to encourage someone going through the hardest part of a struggle, assuring them that success is imminent.",
-    "commentary_dg": "Ndarira ya kutiya moyo iriyohalwa kula kupikia. Chakurya chinacho andza kuphya, maanaye chinakaribia kuiva — moho mkali zaidi unakpwedza kabila tu sahani taidzakala tayari. Nkuhumirwa kumtiya moyo mutu anayepishira sehemu ngumu zaidi ya mapambano, kumhakikishiya kukala kufanikiwa kuko phephi.",
+    "commentary_dg": "Ndarira ya kutiya moyo iriyohalwa kula kujitira. Chakurya chinacho andza kuphya, maanaye chinakaribia kuiva — moho mkali zaidi unakpwedza kabila tu sahani taidzakala tayari. Nkuhumirwa kumtiya moyo mutu anayepishira sehemu ngumu zaidi ya mapambano, kumhakikishiya kukala kufanikiwa kuko phephi.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -19653,7 +19653,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "'Inachoma! Inachoma!' maana yake karibu imeiva",
-    "idiomatic_dg": "Mambo gachikuonekana ganakuharibikira, inaweza kukala mafanikiogo ga phephi."
+    "idiomatic_dg": "Mambo gachikuonekana ganakubanangikira, inaweza kukala mafanikiogo ga phephi."
   },
   {
     "id": "p-387",
@@ -19667,7 +19667,7 @@
     "swahili": "Zula mwachupa, upande mwachupa",
     "swahili_relationship": "translation",
     "commentary_en": "Where you wander is where you plant — your actions take root wherever you go. Teaches that one's behaviour and choices follow them and take effect in whatever place they find themselves. Used to warn that you cannot escape the consequences of your habits.",
-    "commentary_dg": "Phatu uphazulako ndipho uphaphandako — matendogo ganashika mizizi phophosi uphiyako. Inafundisha kukala tabiya na marikulo ga mutu ganamfuata na kuhenda kpwa phatu phophosi anaphodziora. Nkuhumirwa kuonya kukala tauweza kukimbira matokeo ga tabiyazo.",
+    "commentary_dg": "Phatu uphazulako ndipho uphaphandako — matendogo ganashika mizizi phophosi uphiyako. Inafundisha kukala tabiya na marikulo ga mutu ganamlunga na kuhenda kpwa phatu phophosi anaphodziora. Nkuhumirwa kuonya kukala tauweza kukimbira matokeo ga tabiyazo.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -19703,6 +19703,6 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Zungukazunguka (kama) chupa, panda (kama) chupa",
-    "idiomatic_dg": "Matendogo ganakufuata phophosi uendapho; tauweza kukimbira matokeo ga tabiyazo."
+    "idiomatic_dg": "Matendogo ganakulunga phophosi uendapho; tauweza kukimbira matokeo ga tabiyazo."
   }
 ]
