@@ -319,7 +319,7 @@
     "form_submit": "Tuma ujumbe",
     "form_sending": "Inatuma…",
     "form_success": "Ujumbe ukahumwa. Hundawasiliana nawe.",
-    "form_error": "Kuna kosa rikazuka. Tafadhali jeza tsona au hutumie barua pepe mwenga kpwa mwenga.",
+    "form_error": "Kuna kosa rikazuka. Tafadhali jeza tsona au uhumire barua pepe mwenga kpwa mwenga.",
     "location": "Makalo gehu: Kwale County, Kenya — tsi ya Adigo.",
     "get_involved_heading": "Shiriki",
     "get_involved_intro": "Kamusi, tafsiri, sauti — vinakula na kila mchangiaji.",
@@ -446,7 +446,7 @@
   },
   "auth": {
     "sign_in": "Injira",
-    "sign_in_tagline": "Kudzenga vifaa vya kupitisha luga ya Chidigo",
+    "sign_in_tagline": "Kudzenga vifaa vya kutsapiza luga ya Chidigo",
     "sign_out": "Uka",
     "google_sign_in": "Enderera na Google",
     "sign_in_to_save": "Injira uhifadhi vipendwa",
