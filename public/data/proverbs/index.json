@@ -2423,7 +2423,7 @@
     "swahili": "Ukishika kina kilio, ukiacha kina kilio",
     "swahili_relationship": "translation",
     "commentary_en": "A child who is punished will tell you it’s not fair, but a child who is not punished will not respect you. ie. you can’t win!",
-    "commentary_dg": "Mwana uchiyemuadhibu ndaamba si haki, ela mwana usiyemuadhibu hatakuheshimu. Kpwa hivyo huwezi kushinda — chila chitu china uriziwe chakpwe.",
+    "commentary_dg": "Mwana uchiyemuadhibu ndaamba si haki, ela mwana usiyemuadhibu hatakuheshimu. Kpwa hivyo huwezi kushinda — chila chitu china uzuriwe.",
     "commentary_source": "original",
     "themes": [
       "children"
@@ -2875,7 +2875,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kinachokula ni kitu kilicho tumboni mwako",
-    "idiomatic_dg": "Chitu chinachokudhuru zaidi mara nyinji ni chitu chirichokala mwako ndani mwenye."
+    "idiomatic_dg": "Chitu chinachokudhuru zaidi mara nyinji ni chitu chirichokala ndani mwako mwenye."
   },
   {
     "id": "p-055",
@@ -3561,7 +3561,7 @@
     "swahili": "Kitokacho ndani ya tumbo ni moto",
     "swahili_relationship": "translation",
     "commentary_en": "e.g. If someone wants to hurt your child (which caused you such pains to deliver) you will feel at pain",
-    "commentary_dg": "Mutu achitaka kumdhuru mwanao — ambaye kala ukagbwira utsungu kumvyala — undaona maumivu makulu. Kpwa mana chilacho mwako ndanini ni cha moho.",
+    "commentary_dg": "Mutu achitaka kumdhuru mwanao — ambaye kala ukagbwira utsungu kumvyala — undaona maumivu makulu. Kpwa mana chilacho ndani mwako ni cha moho.",
     "commentary_source": "original",
     "themes": [
       "children"
@@ -3598,7 +3598,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Kitu kinachotoka ndani mwako ni moto/kali",
-    "idiomatic_dg": "Maumivu ganayohusu mutu ariyekula mwako ndanini ni makali zaidi kuriko gosi."
+    "idiomatic_dg": "Maumivu ganayohusu mutu ariyekula ndani mwako ni makali zaidi kuriko gosi."
   },
   {
     "id": "p-069",
@@ -5220,7 +5220,7 @@
     "swahili": "Hamadi imo tumboni",
     "swahili_relationship": "translation",
     "commentary_en": "Suggests that a person's true character or destiny is hidden within them, not visible on the surface. Used to caution against judging people by outward appearance, since what matters lies within.",
-    "commentary_dg": "Inaonyesha kukala tabiya ya kpweli au hatima ya mutu imefichika ndani yakpwe, taionekana kunze. Husemwa kuonya kukala mutu asihukumiwe kpwa sura ya kunze, mana muhimu ni chiricho ndani.",
+    "commentary_dg": "Inaonyesha kukala tabiya ya kpweli au hatima ya mutu imefichika ndani mwakpwe, taionekana kunze. Husemwa kuonya kukala mutu asihukumiwe kpwa sura ya kunze, mana muhimu ni chiricho ndani.",
     "commentary_source": "expanded",
     "themes": [
       "wisdom"
@@ -13138,7 +13138,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Mwenzako akijikwaa mwambie pole",
-    "idiomatic_dg": "Rafiki yako achikala kpwa shida, muonyese huruma na umfariji."
+    "idiomatic_dg": "Rafikiyo achikala kpwa shida, muonyese huruma na umfariji."
   },
   {
     "id": "p-259",
@@ -13578,7 +13578,7 @@
     "swahili": "Tembo hashindwi na mkonga wake",
     "swahili_relationship": "translation",
     "commentary_en": "The trunk is weaker than the rest of the elephant, the elephant controls the trunk, not the other way around.",
-    "commentary_dg": "Muirowe ni dhaifu kuriko ndzovu yosi; ndzovu inautawala muirowe, si kinyume chakpwe. Vivyo hivyo, mutu mkpwulu kashindwa ni atue.",
+    "commentary_dg": "Muirowe ni dhaifu kuriko ndzovu yosi; ndzovu inautawala muirowe, si chinyume. Vivyo hivyo, mutu mkpwulu kashindwa ni atue.",
     "commentary_source": "original",
     "themes": [
       "wisdom"
@@ -13615,7 +13615,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Tembo hashindwi na mkonga wake",
-    "idiomatic_dg": "Mutu mkpwulu kashindwa ni atu ario chini yakpwe, kpwa sababu ye ndiyo anayeaongoza."
+    "idiomatic_dg": "Mutu mkpwulu kashindwa ni atu ario photsize, kpwa sababu ye ndiyo anayeaongoza."
   },
   {
     "id": "p-268",
@@ -13718,7 +13718,7 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Ng'ombe anauawa na kidole cha mwenyewe",
-    "idiomatic_dg": "Mutu mwenye mamlaka ndiyo anayeamua hatima ya atu ario chini yakpwe."
+    "idiomatic_dg": "Mutu mwenye mamlaka ndiyo anayeamua hatima ya atu ario photsize."
   },
   {
     "id": "p-270",
