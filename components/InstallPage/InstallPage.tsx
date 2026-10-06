@@ -1,39 +1,24 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useSyncExternalStore, type ReactNode } from 'react';
 import { useSearchParams } from 'next/navigation';
-import {
-  Button, Text, Heading, DisplayText, Accordion,
-  Container, Stack, Grid, Box, Inline, Skeleton, Divider,
-} from '@chi-digo/design-system';
-import { useTranslations } from '@/lib/i18n/context';
-import { useLocale } from '@/lib/i18n/context';
+import { Button, Text, Heading, DisplayText, Container, Stack, Skeleton } from '@chi-digo/design-system';
+import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useInstallPrompt } from '@/hooks/useInstallPrompt';
 import { detectPlatform, type InstallPlatform } from '@/lib/pwa/detect';
 import { track } from '@/lib/analytics/track';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import {
-  ShareIcon, PlusSquareIcon, DownloadIcon,
-  DictIcon, ProverbIcon, QuizIcon, OfflineIcon,
-  CopyIcon, CheckIcon,
+  ShareIcon, PlusSquareIcon, DownloadIcon, CopyIcon, CheckIcon,
+  DictIcon, ProverbIcon, QuizIcon,
 } from '@/components/icons/install';
 import styles from './InstallPage.module.css';
 
-function VigangoMark({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 80 144" aria-hidden="true" className={className} xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="16" r="14" fill="currentColor" />
-      <rect x="22" y="38" width="36" height="84" fill="none" stroke="currentColor" strokeWidth="1.5" />
-      <g fill="currentColor">
-        <polygon points="22,38 58,38 40,56" />
-        <polygon points="22,74 58,74 40,56" />
-        <polygon points="22,74 58,74 40,92" />
-        <polygon points="22,110 58,110 40,92" />
-        <polygon points="22,110 58,110 40,122" />
-      </g>
-    </svg>
-  );
-}
+type T = ReturnType<typeof useTranslations>;
+
+const PROD_INSTALL_URL = 'https://chidigo.org/install';
+
+const noopSubscribe = () => () => {};
 
 function PindoBorder({ className }: { className?: string }) {
   return (
@@ -50,7 +35,148 @@ function PindoBorder({ className }: { className?: string }) {
   );
 }
 
-function CopyLinkButton({ url, t, trackRef }: { url: string; t: ReturnType<typeof useTranslations>; trackRef: string }) {
+/** The app icon as it appears on a phone home screen. */
+function HomeScreenIcon({ size = 'md' }: { size?: 'md' | 'lg' }) {
+  return (
+    <div className={`${styles.homeIcon} ${size === 'lg' ? styles.homeIconLg : ''}`}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/icons/icon-192.png" alt="" width={192} height={192} />
+      <span>Chidigo</span>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Mini mock-ups of browser UI. Each one shows the control the user should tap,
+// highlighted, so they can match it against what's on their own screen.
+// ---------------------------------------------------------------------------
+
+function Dots({ vertical }: { vertical?: boolean }) {
+  return <span className={styles.dots} aria-hidden="true">{vertical ? '⋮' : '⋯'}</span>;
+}
+
+function Hit({ children }: { children: ReactNode }) {
+  return <span className={styles.hit}>{children}</span>;
+}
+
+type VisualKind =
+  | 'android-menu' | 'android-item' | 'android-confirm'
+  | 'ios-share' | 'ios-chrome-share' | 'ios-item' | 'ios-confirm'
+  | 'webview-menu' | 'webview-item';
+
+function StepVisual({ kind }: { kind: VisualKind }) {
+  switch (kind) {
+    case 'android-menu':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockBar}>
+            <span className={styles.mockUrl}>chidigo.org</span>
+            <Hit><Dots vertical /></Hit>
+          </div>
+        </div>
+      );
+    case 'android-item':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockSheet}>
+            <span className={styles.mockRow}>New tab</span>
+            <span className={styles.mockRow}>Bookmarks</span>
+            <Hit><span className={styles.mockRowHit}><DownloadIcon width="14" height="14" /> Add to home screen</span></Hit>
+          </div>
+        </div>
+      );
+    case 'android-confirm':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockDialog}>
+            <span className={styles.mockDialogTitle}>Install app?</span>
+            <span className={styles.mockDialogActions}>
+              <span>Cancel</span>
+              <Hit><span className={styles.mockAction}>Install</span></Hit>
+            </span>
+          </div>
+        </div>
+      );
+    case 'ios-share':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockBar}>
+            <span>‹</span><span>›</span>
+            <Hit><ShareIcon width="16" height="16" /></Hit>
+            <span className={styles.mockGlyph}>▢</span><span className={styles.mockGlyph}>⧉</span>
+          </div>
+        </div>
+      );
+    case 'ios-chrome-share':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockBar}>
+            <span className={styles.mockUrl}>chidigo.org</span>
+            <Hit><ShareIcon width="16" height="16" /></Hit>
+          </div>
+        </div>
+      );
+    case 'ios-item':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockSheet}>
+            <span className={styles.mockRow}>Copy</span>
+            <span className={styles.mockRow}>Add to Reading List</span>
+            <Hit><span className={styles.mockRowHit}>Add to Home Screen <PlusSquareIcon width="14" height="14" /></span></Hit>
+          </div>
+        </div>
+      );
+    case 'ios-confirm':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockBar}>
+            <span>Cancel</span>
+            <span className={styles.mockBarTitle}>Add to Home Screen</span>
+            <Hit><span className={styles.mockAction}>Add</span></Hit>
+          </div>
+        </div>
+      );
+    case 'webview-menu':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockBar}>
+            <span>✕</span>
+            <span className={styles.mockUrl}>chidigo.org</span>
+            <Hit><Dots /></Hit>
+          </div>
+        </div>
+      );
+    case 'webview-item':
+      return (
+        <div className={styles.mock} aria-hidden="true">
+          <div className={styles.mockSheet}>
+            <span className={styles.mockRow}>Copy link</span>
+            <Hit><span className={styles.mockRowHit}>Open in browser</span></Hit>
+          </div>
+        </div>
+      );
+  }
+}
+
+type Step = { text: string; visual?: VisualKind };
+
+function Steps({ steps }: { steps: Step[] }) {
+  return (
+    <ol className={styles.steps}>
+      {steps.map((s, i) => (
+        <li key={s.text} className={styles.step}>
+          <span className={styles.stepNum}>{i + 1}</span>
+          <div className={styles.stepBody}>
+            <Text variant="body" className={styles.stepText}>{s.text}</Text>
+            {s.visual && <StepVisual kind={s.visual} />}
+          </div>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function CopyLinkButton({ url, t, trackRef }: { url: string; t: T; trackRef: string }) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = useCallback(async () => {
@@ -60,80 +186,25 @@ function CopyLinkButton({ url, t, trackRef }: { url: string; t: ReturnType<typeo
       track('install', 'page', 'copy_link', { ref: trackRef });
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // fallback
+      // Clipboard unavailable (some in-app browsers) — the URL is shown as text instead.
     }
   }, [url, trackRef]);
 
   return (
-    <button type="button" className={styles.copyBtn} onClick={handleCopy}>
+    <button type="button" className={styles.secondaryBtn} onClick={handleCopy}>
       {copied ? <CheckIcon width="16" height="16" /> : <CopyIcon width="16" height="16" />}
       {copied ? t.install.copied : t.install.copy_link}
     </button>
   );
 }
 
-function IosSteps({ t }: { t: ReturnType<typeof useTranslations> }) {
-  return (
-    <Stack gap="var(--space-4)">
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepIcon}><ShareIcon /></span>
-        <Text variant="body-sm">{t.install.ios_step_1}</Text>
-      </Inline>
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepIcon}><PlusSquareIcon /></span>
-        <Text variant="body-sm">{t.install.ios_step_2}</Text>
-      </Inline>
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepNum}>3</span>
-        <Text variant="body-sm">{t.install.ios_step_3}</Text>
-      </Inline>
-    </Stack>
-  );
-}
-
-function AndroidSteps({ t }: { t: ReturnType<typeof useTranslations> }) {
-  return (
-    <Stack gap="var(--space-4)">
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepNum}>1</span>
-        <Text variant="body-sm">{t.install.android_step_1}</Text>
-      </Inline>
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepNum}>2</span>
-        <Text variant="body-sm">{t.install.android_step_2}</Text>
-      </Inline>
-      <Inline gap="var(--space-3)" align="center">
-        <span className={styles.stepNum}>3</span>
-        <Text variant="body-sm">{t.install.ios_step_3}</Text>
-      </Inline>
-    </Stack>
-  );
-}
-
-function Features({ t }: { t: ReturnType<typeof useTranslations> }) {
-  const features = [
-    { icon: <DictIcon />, title: t.install.feature_dict_title, desc: t.install.feature_dict_desc },
-    { icon: <ProverbIcon />, title: t.install.feature_proverbs_title, desc: t.install.feature_proverbs_desc },
-    { icon: <QuizIcon />, title: t.install.feature_quiz_title, desc: t.install.feature_quiz_desc },
-    { icon: <OfflineIcon />, title: t.install.feature_offline_title, desc: t.install.feature_offline_desc },
-  ];
-
-  return (
-    <Box as="section" padding="clamp(1.5rem, 4vw, 2rem)" radius="var(--radius-lg, 12px)" className={styles.features}>
-      <Stack gap="var(--space-4)">
-        <Text variant="ui-sm" className={styles.eyebrow}>{t.install.features_heading}</Text>
-        <Grid columns={2} gap="clamp(1rem, 2.5vw, 1.5rem)">
-          {features.map((f) => (
-            <Stack key={f.title} gap="var(--space-2)" align="center" className={styles.featureItem}>
-              <span className={styles.featureIcon}>{f.icon}</span>
-              <Text variant="ui-sm" weight="semibold" className={styles.featureTitle}>{f.title}</Text>
-              <Text variant="body-sm" className={styles.featureDesc}>{f.desc}</Text>
-            </Stack>
-          ))}
-        </Grid>
-      </Stack>
-    </Box>
-  );
+function webviewAppName(t: T): string {
+  if (typeof navigator === 'undefined') return t.install.webview_app_generic;
+  const ua = navigator.userAgent;
+  if (/WhatsApp/i.test(ua)) return 'WhatsApp';
+  if (/Instagram/i.test(ua)) return 'Instagram';
+  if (/FBAN|FBAV/i.test(ua)) return 'Facebook';
+  return t.install.webview_app_generic;
 }
 
 export function InstallPage() {
@@ -142,14 +213,12 @@ export function InstallPage() {
   const searchParams = useSearchParams();
   const ref = searchParams.get('ref') ?? 'direct';
   const { canInstall, isInstalled, install } = useInstallPrompt();
-  const [platform, setPlatform] = useState<InstallPlatform | null>(null);
+  // Detected client-side only; null during SSR so the instructions render after hydration.
+  const platform = useSyncExternalStore<InstallPlatform | null>(noopSubscribe, detectPlatform, () => null);
   const [manualPlatform, setManualPlatform] = useState<InstallPlatform | null>(null);
+  const [showPicker, setShowPicker] = useState(false);
 
   const activePlatform = manualPlatform ?? platform;
-
-  useEffect(() => {
-    setPlatform(detectPlatform());
-  }, []);
 
   useEffect(() => {
     if (platform) {
@@ -167,17 +236,13 @@ export function InstallPage() {
 
   const handleManualSelect = useCallback((selected: InstallPlatform) => {
     setManualPlatform(selected);
+    setShowPicker(false);
     track('install', 'page', 'manual_select', { detected: platform ?? 'unknown', selected, ref });
   }, [platform, ref]);
 
   const pageUrl = typeof window !== 'undefined'
-    ? `${window.location.origin}/${locale}/install`
-    : `https://chidigo.org/${locale}/install`;
-
-  const scrollToInstall = useCallback(() => {
-    document.getElementById('install-section')?.scrollIntoView({ behavior: 'smooth' });
-    track('install', 'page', 'hero_cta_tap', { platform: activePlatform ?? 'unknown', ref });
-  }, [activePlatform, ref]);
+    ? `${window.location.origin}${locale === 'en' ? '' : `/${locale}`}/install`
+    : PROD_INSTALL_URL;
 
   const dsLang = locale === 'dg' ? 'dig' as const : locale === 'sw' ? 'sw' as const : 'en' as const;
 
@@ -188,16 +253,12 @@ export function InstallPage() {
         <section className={styles.hero}>
           <Container size="content">
             <Stack gap="var(--space-4)" align="center">
-              <VigangoMark className={styles.heroMark} />
+              <HomeScreenIcon size="lg" />
               <DisplayText size="lg" as="h1" lang={dsLang} className={styles.heroTitle}>
-                {t.install.hero_title}
-              </DisplayText>
-              <Text variant="body" color="muted" className={styles.heroSubtitle}>
                 {t.install.already_installed}
-              </Text>
+              </DisplayText>
             </Stack>
           </Container>
-          <PindoBorder className={styles.pindo} />
         </section>
         <div className={styles.body}>
           <Container size="content">
@@ -218,280 +279,241 @@ export function InstallPage() {
     );
   }
 
-  // --- Hero section ---
-  const heroSection = (
-    <section className={styles.hero}>
-      <Container size="content">
-        <Stack gap="var(--space-4)" align="center">
-          <VigangoMark className={styles.heroMark} />
+  const isAndroidUA = typeof navigator !== 'undefined' && /Android/i.test(navigator.userAgent);
 
-          <Text variant="body" as="p" className={styles.proverb} lang="dig">
-            {t.hero.proverb_digo}
-          </Text>
-          <Text variant="body-sm" color="muted" className={styles.proverbGloss}>
-            {t.hero.proverb_gloss}
-          </Text>
+  // --- Instructions for the active platform ---
+  let platformLabel = '';
+  let instructions: ReactNode = null;
 
-          <DisplayText size="lg" as="h1" lang={dsLang} className={styles.heroTitle}>
-            {t.install.hero_title}
-          </DisplayText>
-          <Text variant="body" className={styles.heroSubtitle}>
-            {t.install.page_subtitle}
-          </Text>
-
-          <Stack gap="var(--space-3)" align="center">
-            <Button variant="primary" onClick={scrollToInstall} iconLeft={<DownloadIcon />}>
-              {t.install.hero_install_cta}
-            </Button>
-            <TrackedLink
-              href="/"
-              source="install_page"
-              className={styles.heroExploreLink}
-              onClick={() => track('install', 'page', 'explore_first', { platform: activePlatform ?? 'unknown', ref })}
-            >
-              {t.install.explore_first} →
-            </TrackedLink>
-          </Stack>
-        </Stack>
-      </Container>
-      <PindoBorder className={styles.pindo} />
-    </section>
-  );
-
-  // --- Value prop section ---
-  const valuePropSection = (
-    <section className={styles.valueProp}>
-    <Stack gap="var(--space-3)">
-      <div className={styles.pullQuote}>
-        <Text variant="body-lg" weight="medium" className={styles.valuePropEmotional}>
-          {t.install.value_prop_emotional}
-        </Text>
-      </div>
-      <Text variant="body" color="muted">
-        {t.install.value_prop_practical}
-      </Text>
-    </Stack>
-    </section>
-  );
-
-  // --- Loading: show persuasion + shimmer ---
-  if (!platform) {
-    return (
-      <main className={styles.page}>
-        {heroSection}
-        <div className={styles.body}>
-          <Container size="content">
-            <Stack gap="clamp(2rem, 4vw, 3rem)">
-              {valuePropSection}
-              <Features t={t} />
-              <Text variant="ui-sm" weight="semibold" className={styles.communityLine}>
-                {t.install.community_line}
-              </Text>
-              <Skeleton variant="rectangular" height="200px" style={{ borderRadius: 'var(--radius-lg, 12px)' }} />
-            </Stack>
-          </Container>
-        </div>
-      </main>
-    );
-  }
-
-  // --- Full page with install instructions ---
-  const isWebview = activePlatform === 'webview';
-  const isIos = activePlatform === 'ios-safari';
-  const isIosChrome = activePlatform === 'ios-chrome';
-  const isAndroid = activePlatform === 'android';
-  const isDesktop = activePlatform === 'desktop';
-
-  const platformLabel = isWebview
-    ? t.install.webview_title
-    : isIos
-      ? 'iPhone (Safari)'
-      : isIosChrome
-        ? 'iPhone (Chrome)'
-        : isAndroid
-          ? 'Android'
-          : t.install.platform_desktop;
-
-  const accordionItems = [];
-
-  if (!isIos && !isIosChrome) {
-    accordionItems.push({
-      id: 'ios',
-      title: 'iPhone / iPad (Safari)',
-      content: <IosSteps t={t} />,
-    });
-  }
-
-  if (!isAndroid) {
-    accordionItems.push({
-      id: 'android',
-      title: t.install.platform_android,
-      content: canInstall ? (
-        <Stack align="center" gap="var(--space-2)">
-          <Button variant="primary" onClick={handleInstall} iconLeft={<DownloadIcon />}>
-            {t.install.install_button}
+  switch (activePlatform) {
+    case 'android':
+      platformLabel = t.install.on_android;
+      instructions = canInstall ? (
+        <Stack gap="var(--space-4)">
+          <Button variant="primary" onClick={handleInstall} iconLeft={<DownloadIcon />} size="lg" className={styles.bigBtn}>
+            {t.install.android_add_button}
           </Button>
+          <Text variant="body-sm" className={styles.muted}>{t.install.android_prompt_note}</Text>
+          <StepVisual kind="android-confirm" />
+          <details className={styles.disclosure}>
+            <summary>{t.install.android_menu_fallback}</summary>
+            <Steps steps={[
+              { text: t.install.android_s1, visual: 'android-menu' },
+              { text: t.install.android_s2, visual: 'android-item' },
+              { text: t.install.android_s3, visual: 'android-confirm' },
+            ]} />
+          </details>
         </Stack>
       ) : (
-        <AndroidSteps t={t} />
-      ),
-    });
+        <Steps steps={[
+          { text: t.install.android_s1, visual: 'android-menu' },
+          { text: t.install.android_s2, visual: 'android-item' },
+          { text: t.install.android_s3, visual: 'android-confirm' },
+        ]} />
+      );
+      break;
+
+    case 'ios-safari':
+      platformLabel = t.install.on_iphone;
+      instructions = (
+        <Stack gap="var(--space-4)">
+          <Steps steps={[
+            { text: t.install.ios_s1, visual: 'ios-share' },
+            { text: t.install.ios_s2, visual: 'ios-item' },
+            { text: t.install.ios_s3, visual: 'ios-confirm' },
+          ]} />
+          <Text variant="body-sm" className={styles.hint}>{t.install.ios_compass_hint}</Text>
+        </Stack>
+      );
+      break;
+
+    case 'ios-chrome':
+      platformLabel = t.install.on_iphone;
+      instructions = (
+        <Stack gap="var(--space-4)">
+          <Steps steps={[
+            { text: t.install.ios_chrome_s1, visual: 'ios-chrome-share' },
+            { text: t.install.ios_s2, visual: 'ios-item' },
+            { text: t.install.ios_s3, visual: 'ios-confirm' },
+          ]} />
+          <Text variant="body-sm" className={styles.hint}>{t.install.ios_chrome_fallback}</Text>
+          <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
+        </Stack>
+      );
+      break;
+
+    case 'webview': {
+      const app = webviewAppName(t);
+      platformLabel = t.install.in_app.replace('{app}', app);
+      instructions = (
+        <Stack gap="var(--space-4)">
+          <Heading level={3} className={styles.cardTitle}>{t.install.webview_title}</Heading>
+          <Text variant="body">{t.install.webview_body.replace('{app}', app)}</Text>
+          {isAndroidUA ? (
+            <Button
+              variant="primary"
+              size="lg" className={styles.bigBtn}
+              onClick={() => {
+                track('install', 'page', 'open_browser', { platform: 'webview', target_browser: 'chrome', ref });
+                window.location.href = `intent://${pageUrl.replace(/^https?:\/\//, '')}#Intent;scheme=https;package=com.android.chrome;end`;
+              }}
+            >
+              {t.install.webview_open_chrome}
+            </Button>
+          ) : (
+            <Steps steps={[
+              { text: t.install.webview_ios_s1, visual: 'webview-menu' },
+              { text: t.install.webview_ios_s2, visual: 'webview-item' },
+            ]} />
+          )}
+          <Text variant="body-sm" className={styles.hint}>{t.install.webview_copy_hint}</Text>
+          <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
+        </Stack>
+      );
+      break;
+    }
+
+    case 'desktop': {
+      const waText = encodeURIComponent(`${t.install.share_message} ${PROD_INSTALL_URL}?ref=whatsapp`);
+      platformLabel = t.install.on_computer;
+      instructions = (
+        <div className={styles.desktopGrid}>
+          <div className={styles.qrBox}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/install-qr.svg" alt={PROD_INSTALL_URL} width={176} height={176} />
+          </div>
+          <Stack gap="var(--space-3)">
+            <Heading level={3} className={styles.cardTitle}>{t.install.desktop_title}</Heading>
+            <Text variant="body">{t.install.desktop_body}</Text>
+            <div className={styles.btnRow}>
+              <a
+                className={styles.secondaryBtn}
+                href={`https://wa.me/?text=${waText}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => track('install', 'page', 'share_whatsapp', { ref })}
+              >
+                {t.install.desktop_whatsapp}
+              </a>
+              <CopyLinkButton url={PROD_INSTALL_URL} t={t} trackRef={ref} />
+            </div>
+            <div className={styles.desktopLocal}>
+              {canInstall ? (
+                <button type="button" className={styles.textBtn} onClick={handleInstall}>
+                  <DownloadIcon width="16" height="16" /> {t.install.desktop_install_here}
+                </button>
+              ) : (
+                <Text variant="body-sm" className={styles.muted}>{t.install.desktop_hint}</Text>
+              )}
+            </div>
+          </Stack>
+        </div>
+      );
+      break;
+    }
   }
 
-  if (!isDesktop) {
-    accordionItems.push({
-      id: 'desktop',
-      title: t.install.platform_desktop,
-      content: (
-        <Stack gap="var(--space-4)">
-          <Inline gap="var(--space-3)" align="center">
-            <span className={styles.stepNum}>1</span>
-            <Text variant="body-sm">{t.install.android_step_1}</Text>
-          </Inline>
-          <Inline gap="var(--space-3)" align="center">
-            <span className={styles.stepNum}>2</span>
-            <Text variant="body-sm">{`"${t.install.install_button}"`}</Text>
-          </Inline>
-        </Stack>
-      ),
-    });
-  }
+  const pickerOptions = (['ios-safari', 'android', 'desktop'] as const).filter((p) => {
+    if (p === 'ios-safari') return activePlatform !== 'ios-safari' && activePlatform !== 'ios-chrome';
+    return p !== activePlatform;
+  });
+
+  const pickerLabel = (p: InstallPlatform) =>
+    p === 'ios-safari' ? t.install.device_iphone : p === 'android' ? t.install.device_android : t.install.device_computer;
 
   return (
     <main className={styles.page}>
-      {heroSection}
+      {/* Hero: what this is, in one glance */}
+      <section className={styles.hero}>
+        <Container size="content">
+          <div className={styles.heroInner}>
+            <HomeScreenIcon size="lg" />
+            <DisplayText size="lg" as="h1" lang={dsLang} className={styles.heroTitle}>
+              {t.install.hero_title}
+            </DisplayText>
+            <Text variant="body-lg" className={styles.heroSub}>{t.install.hero_sub}</Text>
+          </div>
+        </Container>
+      </section>
 
       <div className={styles.body}>
         <Container size="content">
-          <Stack gap="clamp(2rem, 4vw, 3rem)">
-            {valuePropSection}
-            <Features t={t} />
+          <Stack gap="clamp(2rem, 5vw, 3rem)">
+            {/* Instructions — the reason this page exists */}
+            <section className={styles.card} aria-labelledby="install-steps-label">
+              {activePlatform ? (
+                <Stack gap="var(--space-5, 1.25rem)">
+                  <span id="install-steps-label" className={styles.chip}>{platformLabel}</span>
+                  {instructions}
+                </Stack>
+              ) : (
+                <Skeleton variant="rectangular" height="260px" style={{ borderRadius: 'var(--radius-md, 8px)' }} />
+              )}
+            </section>
 
-            <Text variant="ui-sm" weight="semibold" className={styles.communityLine}>
-              {t.install.community_line}
-            </Text>
-
-            <Divider />
-
-            {/* Transition heading */}
-            <Heading level={2} id="install-section" className={styles.installHeading}>
-              {t.install.install_heading}
-            </Heading>
-
-            {/* Primary instructions for detected platform */}
-            <Box as="section" padding="clamp(1.5rem, 4vw, 2rem)" radius="var(--radius-lg, 12px)" className={styles.primaryCard}>
-              <Stack gap="var(--space-4)">
-                <Text variant="ui-sm" className={styles.platformLabel}>{platformLabel}</Text>
-
-                {isWebview && (
-                  <Stack gap="var(--space-4)" align="center">
-                    <Text variant="body" weight="medium" className={styles.webviewExplain}>
-                      {t.install.webview_title}
-                    </Text>
-                    {/Android/i.test(typeof navigator !== 'undefined' ? navigator.userAgent : '') ? (
-                      <Button
-                        variant="primary"
-                        onClick={() => {
-                          track('install', 'page', 'open_browser', { platform: 'webview', target_browser: 'chrome', ref });
-                          window.location.href = `intent://${pageUrl.replace(/^https?:\/\//, '')}#Intent;scheme=https;end`;
-                        }}
-                      >
-                        {t.install.webview_open_chrome}
-                      </Button>
-                    ) : (
-                      <Button
-                        variant="primary"
-                        onClick={() => {
-                          track('install', 'page', 'open_browser', { platform: 'webview', target_browser: 'safari', ref });
-                        }}
-                        disabled
-                        style={{ opacity: 0.5 }}
-                      >
-                        {t.install.webview_open_safari}
-                      </Button>
-                    )}
-                    <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
-                    <Text variant="body-sm" color="muted">{t.install.webview_then}</Text>
-                  </Stack>
+            {activePlatform && (
+              <div className={styles.picker}>
+                {showPicker ? (
+                  <div className={styles.btnRow}>
+                    {pickerOptions.map((p) => (
+                      <button key={p} type="button" className={styles.secondaryBtn} onClick={() => handleManualSelect(p)}>
+                        {pickerLabel(p)}
+                      </button>
+                    ))}
+                  </div>
+                ) : (
+                  <button type="button" className={styles.textBtn} onClick={() => setShowPicker(true)}>
+                    {t.install.other_device}
+                  </button>
                 )}
-
-                {isIos && <IosSteps t={t} />}
-
-                {isIosChrome && (
-                  <Stack gap="var(--space-4)" align="center">
-                    <Text variant="body">{t.install.ios_chrome_hint}</Text>
-                    <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
-                  </Stack>
-                )}
-
-                {isAndroid && canInstall && (
-                  <Stack align="center" gap="var(--space-2)">
-                    <Button variant="primary" onClick={handleInstall} iconLeft={<DownloadIcon />}>
-                      {t.install.install_button}
-                    </Button>
-                  </Stack>
-                )}
-
-                {isAndroid && !canInstall && <AndroidSteps t={t} />}
-
-                {isDesktop && canInstall && (
-                  <Stack align="center" gap="var(--space-2)">
-                    <Button variant="primary" onClick={handleInstall} iconLeft={<DownloadIcon />}>
-                      {t.install.install_button}
-                    </Button>
-                  </Stack>
-                )}
-
-                {isDesktop && !canInstall && (
-                  <Stack gap="var(--space-4)">
-                    <Inline gap="var(--space-3)" align="center">
-                      <span className={styles.stepNum}>1</span>
-                      <Text variant="body-sm">{t.install.android_step_1}</Text>
-                    </Inline>
-                    <Inline gap="var(--space-3)" align="center">
-                      <span className={styles.stepNum}>2</span>
-                      <Text variant="body-sm">{`"${t.install.install_button}"`}</Text>
-                    </Inline>
-                  </Stack>
-                )}
-              </Stack>
-            </Box>
-
-            {/* Other platforms */}
-            {accordionItems.length > 0 && (
-              <Accordion items={accordionItems} />
+              </div>
             )}
 
-            {/* Manual platform selector */}
-            <Inline gap="var(--space-3)" align="center" wrap>
-              <Text variant="body-sm" color="muted">{t.install.not_your_device}</Text>
-              <Inline gap="var(--space-2)" wrap>
-                {(['ios-safari', 'android', 'desktop'] as const).filter(p => p !== activePlatform).map(p => (
-                  <button
-                    key={p}
-                    type="button"
-                    className={styles.manualBtn}
-                    onClick={() => handleManualSelect(p)}
-                  >
-                    {p === 'ios-safari' ? 'iPhone / iPad' : p === 'android' ? 'Android' : t.install.platform_desktop}
-                  </button>
-                ))}
-              </Inline>
-            </Inline>
-
-            {/* QR code section — desktop only */}
-            <Box as="section" padding="clamp(1.5rem, 4vw, 2rem)" radius="var(--radius-lg, 12px)" className={styles.qrSection}>
-              <Stack gap="var(--space-2)" align="center">
-                <Heading level={3}>{t.install.qr_heading}</Heading>
-                <Text variant="body-sm" color="muted">{t.install.qr_body}</Text>
-                <div className={styles.qrPlaceholder}>
-                  <Text variant="body-sm" color="muted">QR → chidigo.org/install</Text>
+            {/* What success looks like */}
+            {activePlatform !== 'desktop' && (
+              <section className={styles.done}>
+                <HomeScreenIcon />
+                <div>
+                  <Heading level={3} className={styles.doneTitle}>{t.install.done_title}</Heading>
+                  <Text variant="body-sm" className={styles.muted}>{t.install.done_body}</Text>
                 </div>
-              </Stack>
-            </Box>
+              </section>
+            )}
 
-            {/* Explore first */}
-            <Stack align="center">
+            {/* Reassurance */}
+            <ul className={styles.reassure}>
+              <li>{t.install.reassure_free}</li>
+              <li>{t.install.reassure_no_store}</li>
+              <li>{t.install.reassure_offline}</li>
+              <li>{t.install.reassure_remove}</li>
+            </ul>
+
+            {/* What's inside — short, after the job is done */}
+            <section className={styles.inside}>
+              <Text variant="ui-sm" className={styles.eyebrow}>{t.install.inside_heading}</Text>
+              <div className={styles.insideGrid}>
+                {[
+                  { icon: <DictIcon />, title: t.install.feature_dict_title, desc: t.install.feature_dict_desc },
+                  { icon: <ProverbIcon />, title: t.install.feature_proverbs_title, desc: t.install.feature_proverbs_desc },
+                  { icon: <QuizIcon />, title: t.install.feature_quiz_title, desc: t.install.feature_quiz_desc },
+                ].map((f) => (
+                  <div key={f.title} className={styles.insideItem}>
+                    <span className={styles.insideIcon}>{f.icon}</span>
+                    <div>
+                      <Text variant="ui-sm" weight="semibold">{f.title}</Text>
+                      <Text variant="body-sm" className={styles.muted}>{f.desc}</Text>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <Text variant="body-sm" className={styles.community}>{t.install.community_line}</Text>
+            </section>
+
+            {/* Closing */}
+            <Stack gap="var(--space-2)" align="center" className={styles.closing}>
+              <PindoBorder className={styles.pindo} />
+              <Text variant="body" as="p" className={styles.proverb} lang="dig">{t.hero.proverb_digo}</Text>
+              <Text variant="body-sm" className={styles.muted}>{t.hero.proverb_gloss}</Text>
               <TrackedLink
                 href="/"
                 source="install_page"
