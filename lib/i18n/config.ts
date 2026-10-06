@@ -399,7 +399,6 @@ export interface Messages {
     page_title: string;
     hero_title: string;
     page_description: string;
-    community_line: string;
     already_installed: string;
     open_app: string;
     footer_install: string;
@@ -435,7 +434,6 @@ export interface Messages {
     desktop_body: string;
     desktop_whatsapp: string;
     desktop_install_here: string;
-    desktop_hint: string;
     share_message: string;
     other_device: string;
     device_iphone: string;
@@ -448,6 +446,13 @@ export interface Messages {
     reassure_offline: string;
     reassure_remove: string;
     inside_heading: string;
+    install_cta: string;
+    desktop_here_title: string;
+    mac_safari_s1: string;
+    mac_safari_s2: string;
+    mac_safari_s3: string;
+    desktop_chromium_hint: string;
+    desktop_unsupported: string;
   };
   auth: {
     sign_in: string;

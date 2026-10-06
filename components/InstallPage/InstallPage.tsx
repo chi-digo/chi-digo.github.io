@@ -217,6 +217,7 @@ export function InstallPage() {
   const platform = useSyncExternalStore<InstallPlatform | null>(noopSubscribe, detectPlatform, () => null);
   const [manualPlatform, setManualPlatform] = useState<InstallPlatform | null>(null);
   const [showPicker, setShowPicker] = useState(false);
+  const [flashId, setFlashId] = useState<string | null>(null);
 
   const activePlatform = manualPlatform ?? platform;
 
@@ -233,6 +234,22 @@ export function InstallPage() {
       track('install', 'prompt', outcome, { platform: activePlatform ?? 'unknown', ref });
     }
   }, [install, activePlatform, ref]);
+
+  // Hero button: native prompt where the browser offers one, otherwise point at the steps.
+  const handleHeroInstall = useCallback(async () => {
+    if (canInstall) {
+      track('install', 'page', 'hero_install', { platform: platform ?? 'unknown', ref, result: 'prompt' });
+      await handleInstall();
+      return;
+    }
+    track('install', 'page', 'hero_install', { platform: platform ?? 'unknown', ref, result: 'instructions' });
+    setManualPlatform(null);
+    setShowPicker(false);
+    const id = platform === 'desktop' ? 'install-here' : 'install-card';
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setFlashId(id);
+    setTimeout(() => setFlashId(null), 2400);
+  }, [canInstall, handleInstall, platform, ref]);
 
   const handleManualSelect = useCallback((selected: InstallPlatform) => {
     setManualPlatform(selected);
@@ -279,7 +296,10 @@ export function InstallPage() {
     );
   }
 
-  const isAndroidUA = typeof navigator !== 'undefined' && /Android/i.test(navigator.userAgent);
+  const ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+  const isAndroidUA = /Android/i.test(ua);
+  const isFirefox = /Firefox|FxiOS/i.test(ua);
+  const isMacSafari = /Macintosh/.test(ua) && /Safari/.test(ua) && !/Chrome|Chromium|Edg|OPR|Firefox/.test(ua);
 
   // --- Instructions for the active platform ---
   let platformLabel = '';
@@ -397,13 +417,26 @@ export function InstallPage() {
               </a>
               <CopyLinkButton url={PROD_INSTALL_URL} t={t} trackRef={ref} />
             </div>
-            <div className={styles.desktopLocal}>
+            <div id="install-here" className={`${styles.desktopLocal} ${flashId === 'install-here' ? styles.flash : ''}`}>
               {canInstall ? (
                 <button type="button" className={styles.textBtn} onClick={handleInstall}>
                   <DownloadIcon width="16" height="16" /> {t.install.desktop_install_here}
                 </button>
               ) : (
-                <Text variant="body-sm" className={styles.muted}>{t.install.desktop_hint}</Text>
+                <Stack gap="var(--space-3)">
+                  <Text variant="ui-sm" weight="semibold">{t.install.desktop_here_title}</Text>
+                  {isMacSafari ? (
+                    <Steps steps={[
+                      { text: t.install.mac_safari_s1 },
+                      { text: t.install.mac_safari_s2 },
+                      { text: t.install.mac_safari_s3 },
+                    ]} />
+                  ) : (
+                    <Text variant="body-sm" className={styles.muted}>
+                      {isFirefox ? t.install.desktop_unsupported : t.install.desktop_chromium_hint}
+                    </Text>
+                  )}
+                </Stack>
               )}
             </div>
           </Stack>
@@ -432,6 +465,9 @@ export function InstallPage() {
               {t.install.hero_title}
             </DisplayText>
             <Text variant="body-lg" className={styles.heroSub}>{t.install.hero_sub}</Text>
+            <Button variant="primary" size="lg" onClick={handleHeroInstall} iconLeft={<DownloadIcon />} className={styles.heroBtn}>
+              {t.install.install_cta}
+            </Button>
           </div>
         </Container>
       </section>
@@ -440,7 +476,11 @@ export function InstallPage() {
         <Container size="content">
           <Stack gap="clamp(2rem, 5vw, 3rem)">
             {/* Instructions — the reason this page exists */}
-            <section className={styles.card} aria-labelledby="install-steps-label">
+            <section
+              id="install-card"
+              className={`${styles.card} ${flashId === 'install-card' ? styles.flash : ''}`}
+              aria-labelledby="install-steps-label"
+            >
               {activePlatform ? (
                 <Stack gap="var(--space-5, 1.25rem)">
                   <span id="install-steps-label" className={styles.chip}>{platformLabel}</span>
@@ -506,7 +546,6 @@ export function InstallPage() {
                   </div>
                 ))}
               </div>
-              <Text variant="body-sm" className={styles.community}>{t.install.community_line}</Text>
             </section>
 
             {/* Closing */}

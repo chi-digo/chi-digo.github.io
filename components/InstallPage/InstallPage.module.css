@@ -32,6 +32,30 @@
   text-wrap: balance;
 }
 
+.heroBtn {
+  margin-top: var(--space-2, 0.5rem);
+  min-width: 220px;
+  justify-content: center;
+  background: var(--color-mnazi-gold, #C99846) !important;
+  border-color: var(--color-mnazi-gold, #C99846) !important;
+  color: var(--color-kaya-deep, #0E1A2A) !important;
+  font-weight: 600;
+}
+
+.heroBtn:hover {
+  filter: brightness(1.06);
+}
+
+/* Brief ring around the instructions when the hero button points at them */
+.flash {
+  animation: flash 2.4s ease-out;
+}
+
+@keyframes flash {
+  0%, 60% { box-shadow: 0 0 0 3px var(--color-mnazi-gold, #C99846), var(--shadow-md, 0 6px 24px rgba(14, 26, 42, 0.12)); }
+  100% { box-shadow: var(--shadow-md, 0 6px 24px rgba(14, 26, 42, 0.12)); }
+}
+
 /* ===== Home screen icon ===== */
 
 .homeIcon {
@@ -498,10 +522,6 @@
   height: 22px;
 }
 
-.community {
-  color: var(--fg-muted) !important;
-}
-
 /* ===== Closing ===== */
 
 .closing {
@@ -553,4 +573,13 @@
   .hit {
     animation: none;
   }
+
+  .flash {
+    animation: none;
+    box-shadow: 0 0 0 3px var(--color-mnazi-gold, #C99846);
+  }
+}
+
+.desktopLocal.flash {
+  border-radius: var(--radius-md, 8px);
 }
