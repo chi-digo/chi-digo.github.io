@@ -84,6 +84,7 @@ export function Footer() {
               <li><TrackedLink href="/language/dictionary" source="footer" className={styles.columnLink}>{t.dictionary.section_title}</TrackedLink></li>
               <li><TrackedLink href="/language/proverbs" source="footer" className={styles.columnLink}>{t.proverbs.title}</TrackedLink></li>
               <li><TrackedLink href="/history" source="footer" className={styles.columnLink}>{t.nav.history_link}</TrackedLink></li>
+              <li><TrackedLink href="/install?ref=footer" source="footer" className={styles.columnLink}>{t.install.footer_install}</TrackedLink></li>
             </ul>
           </div>
 
