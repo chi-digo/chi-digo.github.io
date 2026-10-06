@@ -412,7 +412,7 @@
     "ios_s1": "Guta alama ya Share photsi ya Safari",
     "ios_s2": "Tserera photsi chisha ugute \"Add to Home Screen\"",
     "ios_s3": "Guta \"Add\" dzulu kuririra",
-    "ios_compass_hint": "Ichikala \"Add to Home Screen\" taioneka, chahi u ndani ya programu yanjina. Guta alama ya Safari uvugule ukurasa uno kpwenye Safari, chisha uandze tsona.",
+    "ios_compass_hint": "Ichikala \"Add to Home Screen\" taioneka, chahi u ndani ya programu yanjina. Guta alama ya dira uvugule ukurasa uno kpwenye Safari, chisha uandze tsona.",
     "ios_chrome_s1": "Guta alama ya Share dzulu, kpwenye anwani ya ukurasa",
     "ios_chrome_fallback": "Ichikala taiweza, nakili link chisha uivugule kpwenye Safari.",
     "webview_body": "U ndani ya {app}. Programu taiweza kuikpwa kpwenye simu kula hipha.",
