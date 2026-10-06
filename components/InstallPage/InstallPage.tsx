@@ -122,7 +122,7 @@ function StepVisual({ kind }: { kind: VisualKind }) {
           <div className={styles.mockSheet}>
             <span className={styles.mockRow}>Copy</span>
             <span className={styles.mockRow}>Add to Reading List</span>
-            <Hit><span className={styles.mockRowHit}>Add to Home Screen <PlusSquareIcon width="14" height="14" /></span></Hit>
+            <Hit><span className={styles.mockRowHit}>Add to Home Screen <PlusSquareIcon width="14" height="14" className={styles.mockTrail} /></span></Hit>
           </div>
         </div>
       );
@@ -158,6 +158,11 @@ function StepVisual({ kind }: { kind: VisualKind }) {
   }
 }
 
+/** Secondary guidance inside the card — one style for every tip and fallback. */
+function Note({ children }: { children: ReactNode }) {
+  return <Text variant="body-sm" className={styles.note}>{children}</Text>;
+}
+
 type Step = { text: string; visual?: VisualKind };
 
 function Steps({ steps }: { steps: Step[] }) {
@@ -166,10 +171,8 @@ function Steps({ steps }: { steps: Step[] }) {
       {steps.map((s, i) => (
         <li key={s.text} className={styles.step}>
           <span className={styles.stepNum}>{i + 1}</span>
-          <div className={styles.stepBody}>
-            <Text variant="body" className={styles.stepText}>{s.text}</Text>
-            {s.visual && <StepVisual kind={s.visual} />}
-          </div>
+          <Text variant="ui" weight="medium" className={styles.stepText}>{s.text}</Text>
+          {s.visual && <div className={styles.stepVisual}><StepVisual kind={s.visual} /></div>}
         </li>
       ))}
     </ol>
@@ -313,7 +316,7 @@ export function InstallPage() {
           <Button variant="primary" onClick={handleInstall} iconLeft={<DownloadIcon />} size="lg" className={styles.bigBtn}>
             {t.install.android_add_button}
           </Button>
-          <Text variant="body-sm" className={styles.muted}>{t.install.android_prompt_note}</Text>
+          <Note>{t.install.android_prompt_note}</Note>
           <StepVisual kind="android-confirm" />
           <details className={styles.disclosure}>
             <summary>{t.install.android_menu_fallback}</summary>
@@ -342,7 +345,7 @@ export function InstallPage() {
             { text: t.install.ios_s2, visual: 'ios-item' },
             { text: t.install.ios_s3, visual: 'ios-confirm' },
           ]} />
-          <Text variant="body-sm" className={styles.hint}>{t.install.ios_compass_hint}</Text>
+          <Note>{t.install.ios_compass_hint}</Note>
         </Stack>
       );
       break;
@@ -356,7 +359,7 @@ export function InstallPage() {
             { text: t.install.ios_s2, visual: 'ios-item' },
             { text: t.install.ios_s3, visual: 'ios-confirm' },
           ]} />
-          <Text variant="body-sm" className={styles.hint}>{t.install.ios_chrome_fallback}</Text>
+          <Note>{t.install.ios_chrome_fallback}</Note>
           <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
         </Stack>
       );
@@ -368,7 +371,7 @@ export function InstallPage() {
       instructions = (
         <Stack gap="var(--space-4)">
           <Heading level={3} className={styles.cardTitle}>{t.install.webview_title}</Heading>
-          <Text variant="body">{t.install.webview_body.replace('{app}', app)}</Text>
+          <Text variant="ui">{t.install.webview_body.replace('{app}', app)}</Text>
           {isAndroidUA ? (
             <Button
               variant="primary"
@@ -386,7 +389,7 @@ export function InstallPage() {
               { text: t.install.webview_ios_s2, visual: 'webview-item' },
             ]} />
           )}
-          <Text variant="body-sm" className={styles.hint}>{t.install.webview_copy_hint}</Text>
+          <Note>{t.install.webview_copy_hint}</Note>
           <CopyLinkButton url={pageUrl} t={t} trackRef={ref} />
         </Stack>
       );
@@ -404,7 +407,7 @@ export function InstallPage() {
           </div>
           <Stack gap="var(--space-3)">
             <Heading level={3} className={styles.cardTitle}>{t.install.desktop_title}</Heading>
-            <Text variant="body">{t.install.desktop_body}</Text>
+            <Text variant="ui">{t.install.desktop_body}</Text>
             <div className={styles.btnRow}>
               <a
                 className={styles.secondaryBtn}
@@ -424,7 +427,7 @@ export function InstallPage() {
                 </button>
               ) : (
                 <Stack gap="var(--space-3)">
-                  <Text variant="ui-sm" weight="semibold">{t.install.desktop_here_title}</Text>
+                  <Heading level={3} className={styles.cardTitle}>{t.install.desktop_here_title}</Heading>
                   {isMacSafari ? (
                     <Steps steps={[
                       { text: t.install.mac_safari_s1 },
@@ -432,9 +435,7 @@ export function InstallPage() {
                       { text: t.install.mac_safari_s3 },
                     ]} />
                   ) : (
-                    <Text variant="body-sm" className={styles.muted}>
-                      {isFirefox ? t.install.desktop_unsupported : t.install.desktop_chromium_hint}
-                    </Text>
+                    <Note>{isFirefox ? t.install.desktop_unsupported : t.install.desktop_chromium_hint}</Note>
                   )}
                 </Stack>
               )}
@@ -540,7 +541,7 @@ export function InstallPage() {
                   <div key={f.title} className={styles.insideItem}>
                     <span className={styles.insideIcon}>{f.icon}</span>
                     <div>
-                      <Text variant="ui-sm" weight="semibold">{f.title}</Text>
+                      <Text variant="ui" weight="semibold">{f.title}</Text>
                       <Text variant="body-sm" className={styles.muted}>{f.desc}</Text>
                     </div>
                   </div>

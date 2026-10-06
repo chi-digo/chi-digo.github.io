@@ -130,7 +130,7 @@
   margin: 0;
 }
 
-.hint {
+.note {
   color: var(--fg-muted) !important;
   border-left: 2px solid var(--color-mnazi-gold, #C99846);
   padding-left: var(--space-3, 0.75rem);
@@ -155,8 +155,8 @@
 .step {
   display: grid;
   grid-template-columns: 36px 1fr;
-  gap: var(--space-3, 0.75rem);
-  align-items: start;
+  column-gap: var(--space-3, 0.75rem);
+  row-gap: var(--space-2, 0.5rem);
 }
 
 .stepNum {
@@ -173,26 +173,16 @@
   color: var(--color-hando-cream, #F2EAD7);
 }
 
-.stepBody {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2, 0.5rem);
-  padding-top: 6px;
-  min-width: 0;
-}
-
+/* First line of the instruction centres on the number */
 .stepText {
-  font-weight: 500;
+  align-self: center;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
 }
 
-@media (min-width: 640px) {
-  .stepBody {
-    display: grid;
-    grid-template-columns: 1fr 260px;
-    align-items: center;
-    gap: var(--space-4, 1rem);
-    padding-top: 0;
-  }
+.stepVisual {
+  grid-column: 2;
 }
 
 /* ===== Browser UI mock-ups ===== */
@@ -257,6 +247,7 @@
 }
 
 .mockRowHit {
+  justify-content: flex-start;
   color: var(--fg-default);
   font-weight: 600;
   width: 100%;
@@ -286,6 +277,10 @@
 .mockAction {
   font-weight: 700;
   color: var(--fg-heading);
+}
+
+.mockTrail {
+  margin-left: auto;
 }
 
 .dots {
@@ -415,8 +410,8 @@
 
 .desktopLocal {
   border-top: 1px solid var(--border-default);
-  padding-top: var(--space-3, 0.75rem);
-  margin-top: var(--space-1, 0.25rem);
+  padding-top: var(--space-4, 1rem);
+  margin-top: var(--space-2, 0.5rem);
 }
 
 /* ===== Picker ===== */
