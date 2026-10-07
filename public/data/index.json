@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5215,
+  "total_entries": 5213,
   "letters": {
     "a": {
       "count": 132,
@@ -79,7 +79,7 @@
       "last": "lóla"
     },
     "m": {
-      "count": 955,
+      "count": 953,
       "first": "m’",
       "last": "mzuzu"
     },
