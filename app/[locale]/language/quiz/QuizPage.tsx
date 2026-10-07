@@ -1,6 +1,6 @@
 'use client';
 
-import { useReducer, useEffect, useRef, useCallback, useState } from 'react';
+import { useReducer, useEffect, useRef, useCallback, useState, useSyncExternalStore } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
@@ -355,6 +355,14 @@ const LOADING_PROVERBS = [
   'Mwenye kuishi maishani lazima ajifunze',
 ];
 
+const noSubscribe = () => () => {};
+let loadingProverbIndexCache: number | null = null;
+function getLoadingProverbIndex(): number {
+  // Picked once per page load: a different proverb every 5 seconds of wall-clock time.
+  loadingProverbIndexCache ??= Math.floor(Date.now() / 5000) % LOADING_PROVERBS.length;
+  return loadingProverbIndexCache;
+}
+
 // ── Icons ──
 
 function ChallengeIcon() {
@@ -399,8 +407,9 @@ function BackIcon() {
 // ── Component ──
 
 export function QuizPage() {
-  // Picked once per visit (a different proverb every 5 seconds of wall-clock time).
-  const [loadingProverbIndex] = useState(() => Math.floor(Date.now() / 5000) % LOADING_PROVERBS.length);
+  // The pre-rendered HTML always shows the first proverb; in the browser it switches
+  // to a time-based pick after hydration, so server and client markup match.
+  const loadingProverbIndex = useSyncExternalStore(noSubscribe, getLoadingProverbIndex, () => 0);
   const t = useTranslations();
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
