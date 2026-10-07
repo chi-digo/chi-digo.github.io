@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useSyncExternalStore } from 'react';
+import { useStoredDismissal } from '@/hooks/useStoredDismissal';
 import { Button, Text, IconButton } from '@chi-digo/design-system';
 import { useTranslations } from '@/lib/i18n/context';
 import { useInstallPrompt } from '@/hooks/useInstallPrompt';
@@ -18,32 +19,24 @@ const DISMISS_KEY = 'chidigo-install-dismissed';
 const DISMISS_DAYS = 3;
 
 function useIosDismiss() {
-  const [dismissed, setDismissed] = useState(false);
-
-  useEffect(() => {
-    const raw = localStorage.getItem(DISMISS_KEY);
-    if (raw && Date.now() - Number(raw) < DISMISS_DAYS * 86_400_000) {
-      setDismissed(true);
-    }
-  }, []);
+  const stored = useStoredDismissal(DISMISS_KEY, DISMISS_DAYS);
+  const [dismissedNow, setDismissedNow] = useState(false);
 
   const dismiss = () => {
     localStorage.setItem(DISMISS_KEY, String(Date.now()));
-    setDismissed(true);
+    setDismissedNow(true);
   };
 
-  return { dismissed, dismiss };
+  return { dismissed: stored || dismissedNow, dismiss };
 }
+
+const noSubscribe = () => () => {};
 
 export function InstallCard() {
   const t = useTranslations();
   const { showCard, isInstalled, install, dismiss } = useInstallPrompt();
-  const [platform, setPlatform] = useState<InstallPlatform | null>(null);
+  const platform = useSyncExternalStore<InstallPlatform | null>(noSubscribe, detectPlatform, () => null);
   const iosDismiss = useIosDismiss();
-
-  useEffect(() => {
-    setPlatform(detectPlatform());
-  }, []);
 
   useEffect(() => {
     if (isInstalled) return;

@@ -79,21 +79,20 @@ export default function SearchResultsClient() {
   const q = searchParams.get('q') || '';
   const typeFilter = searchParams.get('type') as SectionType | null;
 
-  const [results, setResults] = useState<UniversalSearchResults | null>(null);
-  const [loading, setLoading] = useState(false);
+  // Results are kept with the query (and locale) they answer; a new query reads
+  // as loading and a too-short one shows nothing, without setting state in the effect.
+  const searchable = q.trim().length >= 2;
+  const key = `${locale}:${q}`;
+  const [loaded, setLoaded] = useState<{ key: string; results: UniversalSearchResults } | null>(null);
+  const results = searchable && loaded ? loaded.results : null;
+  const loading = searchable && loaded?.key !== key;
 
   useEffect(() => {
-    if (!q || q.trim().length < 2) {
-      setResults(null);
-      return;
-    }
-
-    setLoading(true);
+    if (!searchable) return;
     universalSearchFull(q, locale).then((r) => {
-      setResults(r);
-      setLoading(false);
+      setLoaded({ key, results: r });
     });
-  }, [q, locale]);
+  }, [q, locale, key, searchable]);
 
   const sections: { key: SectionType; label: string; count: number }[] = [];
   if (results) {
@@ -130,7 +129,7 @@ export default function SearchResultsClient() {
           {q ? (
             <>
               {locale === 'sw' ? 'Matokeo ya' : locale === 'dg' ? 'Matokeo ga' : 'Results for'}{' '}
-              <span className={styles.queryHighlight}>"{q}"</span>
+              <span className={styles.queryHighlight}>&ldquo;{q}&rdquo;</span>
             </>
           ) : (
             locale === 'sw' ? 'Tafuta' : locale === 'dg' ? 'Tafuta' : 'Search'

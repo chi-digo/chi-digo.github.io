@@ -544,7 +544,7 @@ for (const raw_p of raw) {
     literal_en: raw_p.english,
     idiomatic_en: manual?.idiomatic_en || "",
     swahili: swEntry?.sw || "",
-    swahili_relationship: (swEntry?.rel as any) || "translation",
+    swahili_relationship: swEntry?.rel ?? "translation",
     commentary_en: raw_p.commentary,
     commentary_dg: "",
     commentary_source: raw_p.commentary ? "original" : "expanded",

@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, useMemo } from 'react';
 import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
 
@@ -29,23 +29,21 @@ const MAX_RETRIES = 3;
 
 export function FavouritesProvider({ children }: { children: React.ReactNode }) {
   const { user } = useAuth();
-  const [favourites, setFavourites] = useState<Favourite[]>([]);
-  const [loading, setLoading] = useState(true);
+  // The list is kept with the user it was loaded for: signed out shows nothing,
+  // and a new user reads as loading, without setting state in the effect.
+  const [owner, setOwner] = useState<string | null>(null);
+  const [list, setFavourites] = useState<Favourite[]>([]);
+  const favourites = useMemo(() => (user && owner === user.id ? list : []), [user, owner, list]);
+  const loading = !!user && owner !== user.id;
   const pendingRef = useRef<Map<string, { retries: number; payload: Omit<Favourite, 'id'> }>>(new Map());
 
   useEffect(() => {
-    if (!user) {
-      setFavourites([]);
-      setLoading(false);
-      return;
-    }
-
-    setLoading(true);
+    if (!user) return;
+    const userId = user.id;
     fetch('/api/favourites')
       .then((res) => res.ok ? res.json() : [])
-      .then((data: Favourite[]) => setFavourites(data))
-      .catch(() => setFavourites([]))
-      .finally(() => setLoading(false));
+      .then((data: Favourite[]) => { setFavourites(data); setOwner(userId); })
+      .catch(() => { setFavourites([]); setOwner(userId); });
   }, [user]);
 
   const isFavourite = useCallback(
