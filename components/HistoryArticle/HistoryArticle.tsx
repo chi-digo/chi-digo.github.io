@@ -56,18 +56,18 @@ export function HistoryTopicArticle({ topicSlug }: { topicSlug: string }) {
   const t = useTranslations();
   const { locale } = useLocale();
 
-  const result = getHistoryTopic(topicSlug);
-  if (!result) return <p>Article not found.</p>;
-
-  const { domain, topic } = result;
-  const body = topic.body[locale];
-
   const bottomRef = useRef<HTMLDivElement>(null);
   const readParams = useMemo(() => ({
     topic: topicSlug,
     content_language: locale,
   }), [topicSlug, locale]);
   useTrackReadComplete(bottomRef, 'history', 'article', readParams);
+
+  const result = getHistoryTopic(topicSlug);
+  if (!result) return <p>Article not found.</p>;
+
+  const { domain, topic } = result;
+  const body = topic.body[locale];
 
   return (
     <>

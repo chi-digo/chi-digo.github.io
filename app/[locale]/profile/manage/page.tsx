@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/lib/auth/context';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
@@ -30,11 +30,8 @@ function ManageContent() {
   const [deleting, setDeleting] = useState(false);
   const [deleteError, setDeleteError] = useState('');
 
-  const challengeWord = useMemo(
-    () => CHALLENGE_WORDS[Math.floor(Math.random() * CHALLENGE_WORDS.length)],
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [deleteOpen],
-  );
+  // A new confirmation word is picked each time the delete dialog opens.
+  const [challengeWord, setChallengeWord] = useState(CHALLENGE_WORDS[0]);
 
   const handleExport = useCallback(async () => {
     setExportError('');
@@ -62,6 +59,7 @@ function ManageContent() {
     track('orientation', 'profile', 'delete_dialog_open', {});
     setChallengeInput('');
     setDeleteError('');
+    setChallengeWord(CHALLENGE_WORDS[Math.floor(Math.random() * CHALLENGE_WORDS.length)]);
     setDeleteOpen(true);
   }, []);
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useHydrated } from '@/hooks/useHydrated';
 import { useRouter } from 'next/navigation';
 import { Button } from '@chi-digo/design-system';
 import styles from './not-found.module.css';
@@ -49,12 +49,8 @@ function VigangoMark() {
 
 export default function NotFoundClient() {
   const router = useRouter();
-  const [ready, setReady] = useState(false);
+  const ready = useHydrated();
   const proverb = getProverbForDate();
-
-  useEffect(() => {
-    setReady(true);
-  }, []);
 
   return (
     <div className={styles.page}>

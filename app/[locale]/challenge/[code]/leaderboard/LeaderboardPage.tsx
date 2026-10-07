@@ -45,6 +45,7 @@ function formatTime(ms: number): string {
 }
 
 export function LeaderboardPage({ code }: { code: string }) {
+  const [now] = useState(() => Date.now());
   const t = useTranslations();
   const { user } = useAuth();
   const [challenge, setChallenge] = useState<ChallengeData | null>(null);
@@ -133,7 +134,7 @@ export function LeaderboardPage({ code }: { code: string }) {
               <p className={styles.date}>
                 {new Date(challenge.created_at).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
               </p>
-              {Date.now() - new Date(challenge.created_at).getTime() > 7 * 24 * 60 * 60 * 1000 && (
+              {now - new Date(challenge.created_at).getTime() > 7 * 24 * 60 * 60 * 1000 && (
                 <Badge>{t.challenge?.expired_label ?? 'Expired'}</Badge>
               )}
             </div>

@@ -459,20 +459,22 @@ function EntrySection({
 function WordView({ headword, nav, query }: { headword: string; nav: Navigate; query?: string }) {
   const t = useTranslations();
   const { locale } = useLocale();
-  const [entries, setEntries] = useState<DictionaryEntry[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [shareSense, setShareSense] = useState(0);
+  // Results are kept with the headword they belong to, so a new headword reads
+  // as loading (and the share sense resets) without setting state in the effect.
+  const [loaded, setLoaded] = useState<{ headword: string; entries: DictionaryEntry[] } | null>(null);
+  const [shareChoice, setShareChoice] = useState({ headword, sense: 0 });
+  const entries = loaded?.entries ?? [];
+  const loading = loaded?.headword !== headword;
+  const shareSense = shareChoice.headword === headword ? shareChoice.sense : 0;
+  const setShareSense = (sense: number) => setShareChoice({ headword, sense });
   const viewTracked = useRef(false);
   const { prerenderWord, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     viewTracked.current = false;
-    setLoading(true);
-    setShareSense(0);
     loadEntriesByHeadword(headword)
       .then((found) => {
-        setEntries(found);
-        setLoading(false);
+        setLoaded({ headword, entries: found });
         if (!viewTracked.current) {
           viewTracked.current = true;
           if (found.length > 0) {
@@ -488,8 +490,7 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
         }
       })
       .catch(() => {
-        setEntries([]);
-        setLoading(false);
+        setLoaded({ headword, entries: [] });
         if (!viewTracked.current) {
           viewTracked.current = true;
           track('dictionary', 'word', 'not_found', { headword });
@@ -607,20 +608,19 @@ function ResultGroup({ lang, results, nav }: { lang: 'dg' | 'sw' | 'en'; results
 
 function LetterView({ letter, nav }: { letter: string; nav: Navigate }) {
   const t = useTranslations();
-  const [results, setResults] = useState<GroupedSearchResults | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // Results are kept with the query they answer; a new query reads as loading.
+  const [loaded, setLoaded] = useState<{ key: string; results: GroupedSearchResults } | null>(null);
+  const results = loaded?.results ?? null;
+  const isLoading = !!letter && loaded?.key !== letter;
 
   useEffect(() => {
     if (!letter) return;
-    setIsLoading(true);
     searchAll(letter)
       .then((r) => {
-        setResults(r);
-        setIsLoading(false);
+        setLoaded({ key: letter, results: r });
       })
       .catch(() => {
-        setResults({ dg: [], sw: [], en: [], total: 0 });
-        setIsLoading(false);
+        setLoaded({ key: letter, results: { dg: [], sw: [], en: [], total: 0 } });
       });
   }, [letter]);
 
@@ -662,23 +662,22 @@ function LetterView({ letter, nav }: { letter: string; nav: Navigate }) {
 
 function SearchView({ q, nav }: { q: string; nav: Navigate }) {
   const t = useTranslations();
-  const [results, setResults] = useState<GroupedSearchResults | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // Results are kept with the query they answer; a new query reads as loading.
+  const [loaded, setLoaded] = useState<{ key: string; results: GroupedSearchResults } | null>(null);
+  const results = loaded?.results ?? null;
+  const isLoading = !!q && loaded?.key !== q;
 
   useEffect(() => {
     if (!q) return;
-    setIsLoading(true);
     searchAll(q)
       .then((r) => {
-        setResults(r);
-        setIsLoading(false);
+        setLoaded({ key: q, results: r });
         if (r.total === 0) {
           track('dictionary', 'search', 'no_results', { query: q });
         }
       })
       .catch(() => {
-        setResults({ dg: [], sw: [], en: [], total: 0 });
-        setIsLoading(false);
+        setLoaded({ key: q, results: { dg: [], sw: [], en: [], total: 0 } });
       });
   }, [q]);
 

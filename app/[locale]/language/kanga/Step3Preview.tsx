@@ -19,17 +19,18 @@ export function Step3Preview({ spec }: Props) {
   const t = useTranslations();
   const { locale } = useLocale();
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [rendering, setRendering] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  // Drawing state is kept with the spec it belongs to: a new spec reads as
+  // rendering (and clears the old error) without setting state in the effect.
+  const [drawn, setDrawn] = useState<{ spec: KangaSpec; error: string | null } | null>(null);
+  const rendering = drawn?.spec !== spec;
+  const error = drawn?.spec === spec ? drawn.error : null;
   const [downloading, setDownloading] = useState(false);
 
   const render = useCallback(async () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    setRendering(true);
-    setError(null);
-
+    let failure: string | null = null;
     try {
       const dpr = window.devicePixelRatio || 1;
       const displayWidth = Math.min(600, window.innerWidth - 32);
@@ -41,9 +42,9 @@ export function Step3Preview({ spec }: Props) {
 
       await renderKanga(canvas, spec);
     } catch (e) {
-      setError(e instanceof Error ? e.message : t.kanga.render_error);
+      failure = e instanceof Error ? e.message : t.kanga.render_error;
     } finally {
-      setRendering(false);
+      setDrawn({ spec, error: failure });
     }
   }, [spec, t.kanga.render_error]);
 

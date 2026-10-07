@@ -17,6 +17,7 @@ jobs:
           node-version: 25
           cache: npm
       - run: npm install
+      - run: npm run lint -- --quiet
       - run: npm run build
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}

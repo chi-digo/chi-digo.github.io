@@ -1,29 +1,31 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useHydrated } from '@/hooks/useHydrated';
 import { hasConsent, grantConsent, TELEMETRY_CONSENT_ENABLED } from '@/lib/analytics/gtag';
 import styles from './ConsentBanner.module.css';
 
 export function ConsentBanner() {
-  const [visible, setVisible] = useState(false);
+  const hydrated = useHydrated();
+  const [answered, setAnswered] = useState(false);
 
-  useEffect(() => {
-    if (!TELEMETRY_CONSENT_ENABLED) return;
-    if (!hasConsent() && localStorage.getItem('chidigo-consent') !== 'denied') {
-      setVisible(true);
-    }
-  }, []);
+  const visible =
+    hydrated &&
+    TELEMETRY_CONSENT_ENABLED &&
+    !answered &&
+    !hasConsent() &&
+    localStorage.getItem('chidigo-consent') !== 'denied';
 
   if (!visible) return null;
 
   const handleAccept = () => {
     grantConsent();
-    setVisible(false);
+    setAnswered(true);
   };
 
   const handleDecline = () => {
     localStorage.setItem('chidigo-consent', 'denied');
-    setVisible(false);
+    setAnswered(true);
   };
 
   return (

@@ -1,28 +1,37 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import type { ResultGroup } from '@/components/SearchCombobox';
 import { universalSearch, type UniversalSearchResults } from '@/lib/search/universal';
 import type { Locale } from '@/lib/i18n/config';
 
 export function useUniversalSearch(locale: Locale) {
-  const [query, setQuery] = useState('');
+  const [query, setQueryState] = useState('');
   const [results, setResults] = useState<UniversalSearchResults>({ words: [], proverbs: [], articles: [] });
   const [loading, setLoading] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null);
+  const latestRef = useRef('');
+
+  // Reset or mark loading in the same update that changes the query, so the
+  // effect below only schedules the (asynchronous) search.
+  const setQuery = useCallback((q: string) => {
+    setQueryState(q);
+    latestRef.current = q;
+    if (q.trim().length < 2) {
+      setResults({ words: [], proverbs: [], articles: [] });
+      setLoading(false);
+    } else {
+      setLoading(true);
+    }
+  }, []);
 
   useEffect(() => {
     if (timerRef.current) clearTimeout(timerRef.current);
+    if (query.trim().length < 2) return;
 
-    if (query.trim().length < 2) {
-      setResults({ words: [], proverbs: [], articles: [] });
-      setLoading(false);
-      return;
-    }
-
-    setLoading(true);
     timerRef.current = setTimeout(() => {
       universalSearch(query, locale).then((r) => {
+        if (latestRef.current !== query) return;
         setResults(r);
         setLoading(false);
       });

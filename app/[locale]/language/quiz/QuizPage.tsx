@@ -399,6 +399,8 @@ function BackIcon() {
 // ── Component ──
 
 export function QuizPage() {
+  // Picked once per visit (a different proverb every 5 seconds of wall-clock time).
+  const [loadingProverbIndex] = useState(() => Math.floor(Date.now() / 5000) % LOADING_PROVERBS.length);
   const t = useTranslations();
   const { locale } = useLocale();
   const lk: LocaleKey = LOCALE_MAP[locale] || 'e';
@@ -559,7 +561,7 @@ export function QuizPage() {
     } finally {
       setChallengeLoading(false);
     }
-  }, [user, t.auth?.sign_in_to_challenge, t.challenge?.share_competitive]);
+  }, [user, t.auth, t.challenge]);
 
   const handleRestart = useCallback(() => {
     if (!bankRef.current) return;
@@ -615,7 +617,7 @@ export function QuizPage() {
               : (t.quiz?.loading ?? 'Preparing your quiz...')}
           </p>
           <p className={styles.proverbText} lang="dg">
-            <em>{LOADING_PROVERBS[Math.floor(Date.now() / 5000) % LOADING_PROVERBS.length]}</em>
+            <em>{LOADING_PROVERBS[loadingProverbIndex]}</em>
           </p>
         </div>
       </div>

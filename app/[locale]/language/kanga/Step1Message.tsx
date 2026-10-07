@@ -19,7 +19,7 @@ export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props
 
   return (
     <div>
-      <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)', marginBottom: 'var(--space-2)' }}>
+      <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 'var(--weight-semibold)' as React.CSSProperties['fontWeight'], color: 'var(--fg-heading)', marginBottom: 'var(--space-2)' }}>
         {t.kanga.choose_message_title}
       </h2>
       <p style={{ color: 'var(--fg-muted)', marginBottom: 'var(--space-6)' }}>
@@ -73,7 +73,7 @@ export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props
         }}>
           <div style={{
             fontSize: 'var(--text-xs)',
-            fontWeight: 'var(--weight-medium)' as any,
+            fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
             color: 'var(--fg-muted)',
             marginBottom: 'var(--space-1)',
             textTransform: 'uppercase',

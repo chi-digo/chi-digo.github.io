@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useHydrated } from '@/hooks/useHydrated';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
@@ -91,13 +91,9 @@ export default function NotFoundClient() {
   const t = useTranslations();
   const { locale } = useLocale();
   const router = useRouter();
-  const [ready, setReady] = useState(false);
+  const ready = useHydrated();
 
   const proverb = getProverbForDate();
-
-  useEffect(() => {
-    setReady(true);
-  }, []);
 
   const gloss =
     locale === 'sw' ? proverb.sw

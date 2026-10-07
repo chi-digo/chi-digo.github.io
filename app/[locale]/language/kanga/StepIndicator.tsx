@@ -28,7 +28,7 @@ export function StepIndicator({ current, total }: { current: number; total: numb
                 alignItems: 'center',
                 justifyContent: 'center',
                 fontSize: 'var(--text-xs)',
-                fontWeight: 'var(--weight-medium)' as any,
+                fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
                 background: active
                   ? 'var(--interactive-default)'
                   : done
@@ -56,7 +56,7 @@ export function StepIndicator({ current, total }: { current: number; total: numb
             <span
               style={{
                 fontSize: 'var(--text-xs)',
-                fontWeight: 'var(--weight-medium)' as any,
+                fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
                 color: active ? 'var(--fg-default)' : 'var(--fg-subtle)',
               }}
               className="hidden sm:inline"
