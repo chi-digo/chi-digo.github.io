@@ -22,13 +22,18 @@ interface QuizBank {
 // The current bank first, then every bank that was live before it, so a round
 // played on an older bank can still become a challenge. Older banks reused IDs
 // for different questions, so callers pick the version the player actually saw
-// (see pickQuestion). Literal paths so the deploy's file tracing bundles them.
-const BANK_PATHS = [
-  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank.json'),
-  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.1.json'),
-  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.json'),
-  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v2.json'),
-];
+// (see pickQuestion). Each file is read with a literal path so the deploy's
+// file tracing bundles exactly these files.
+async function readBanks(): Promise<string[]> {
+  const read = (p: Promise<string>) => p.catch(() => null);
+  const files = await Promise.all([
+    read(readFile(join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank.json'), 'utf-8')),
+    read(readFile(join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.1.json'), 'utf-8')),
+    read(readFile(join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.json'), 'utf-8')),
+    read(readFile(join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v2.json'), 'utf-8')),
+  ]);
+  return files.filter((f): f is string => f !== null);
+}
 
 let cached: Map<string, QuizBankQuestion[]> | null = null;
 
@@ -37,13 +42,7 @@ export async function getQuizBankVersions(): Promise<Map<string, QuizBankQuestio
   if (cached) return cached;
 
   const map = new Map<string, QuizBankQuestion[]>();
-  for (const filePath of BANK_PATHS) {
-    let raw: string;
-    try {
-      raw = await readFile(filePath, 'utf-8');
-    } catch {
-      continue;
-    }
+  for (const raw of await readBanks()) {
     const bank: QuizBank = JSON.parse(raw);
     for (const cat of Object.values(bank.questions)) {
       for (const diff of Object.values(cat)) {
