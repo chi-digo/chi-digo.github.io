@@ -10,6 +10,9 @@ export const POS_ABBREVIATIONS: Record<string, string> = {
   chihendo: "v.",
   sifa: "adj.",
   kiungo: "conj.",
+  kiunganishi: "conj.",
+  chielezi: "adv.",
+  chihisishi: "interj.",
 };
 
 export const POS_LABELS_EN: Record<string, string> = {
@@ -17,4 +20,6 @@ export const POS_LABELS_EN: Record<string, string> = {
   verb: "v.",
   adjective: "adj.",
   conjunction: "conj.",
+  adverb: "adv.",
+  interjection: "interj.",
 };
