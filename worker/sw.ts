@@ -24,30 +24,25 @@ const CACHE_PAGES = 'chidigo-pages';
 const CACHE_META = 'chidigo-meta';
 const DATA_VERSION_URL = '/data/data-version.json';
 
-const manifest = self.__SW_MANIFEST ?? [];
-const htmlEntries = manifest.filter((entry) => {
-  const url = typeof entry === 'string' ? entry : entry.url;
-  return url.endsWith('.html') || (!url.includes('.') && url !== '/');
-});
-const nonHtmlEntries = manifest.filter((entry) => {
-  const url = typeof entry === 'string' ? entry : entry.url;
-  return !url.endsWith('.html') && (url.includes('.') || url === '/');
-});
+// Core pages, cached at install so the app opens offline even before they're
+// visited. Every other page is cached as it's visited (NetworkFirst below).
+const CORE_PAGES = ['', '/sw', '/dg'].flatMap((prefix) => [
+  prefix || '/',
+  `${prefix}/language`,
+  `${prefix}/language/dictionary`,
+  `${prefix}/language/proverbs`,
+  `${prefix}/language/quiz`,
+]);
 
-// Pre-populate the pages cache with HTML from the precache manifest so they're
-// available offline, but served via NetworkFirst (not precache-first).
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_PAGES);
-    for (const entry of htmlEntries) {
-      const url = typeof entry === 'string' ? entry : entry.url;
-      try { await cache.add(url); } catch { /* skip */ }
-    }
+    await Promise.allSettled(CORE_PAGES.map((url) => cache.add(url)));
   })());
 });
 
 const serwist = new Serwist({
-  precacheEntries: nonHtmlEntries,
+  precacheEntries: self.__SW_MANIFEST,
   precacheOptions: {
     cleanURLs: true,
   },

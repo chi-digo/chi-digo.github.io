@@ -19,9 +19,10 @@ export function useServiceWorker() {
       process.env.NODE_ENV !== 'production'
     ) return;
 
+    // Served by app/serwist/[path]/route.ts (Service-Worker-Allowed: /).
     navigator.serviceWorker
-      .register('/sw.js')
-      .catch(() => {});
+      .register('/serwist/sw.js', { scope: '/', updateViaCache: 'none' })
+      .catch((err) => console.error('[sw] registration failed', err));
 
     let refreshing = false;
     const onControllerChange = () => {
