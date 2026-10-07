@@ -123,7 +123,7 @@ export function ProverbPicker({ proverbs, selectedId, onSelect }: Props) {
                 transition: 'border-color var(--duration-fast), background var(--duration-fast)',
               }}
             >
-              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-medium)' as any, color: 'var(--fg-default)' }}>
+              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'], color: 'var(--fg-default)' }}>
                 {p.digo}
               </div>
               {subtitle && (

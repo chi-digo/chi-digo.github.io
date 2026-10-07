@@ -63,12 +63,6 @@ export function TopicArticle({
   const t = useTranslations();
   const { locale } = useLocale();
 
-  const result = getTopic(domainSlug, topicSlug);
-  if (!result) return <p>Article not found.</p>;
-
-  const { domain, topic } = result;
-  const body = topic.body[locale];
-
   const bottomRef = useRef<HTMLDivElement>(null);
   const readParams = useMemo(() => ({
     topic: topicSlug,
@@ -76,6 +70,12 @@ export function TopicArticle({
     content_language: locale,
   }), [topicSlug, domainSlug, locale]);
   useTrackReadComplete(bottomRef, 'culture', 'article', readParams);
+
+  const result = getTopic(domainSlug, topicSlug);
+  if (!result) return <p>Article not found.</p>;
+
+  const { domain, topic } = result;
+  const body = topic.body[locale];
 
   return (
     <>

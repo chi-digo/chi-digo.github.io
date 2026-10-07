@@ -101,7 +101,7 @@ function SearchDropdown({
 
 function ProverbSearchBar({ nav, locale }: { nav: Navigate; locale: Locale }) {
   const t = useTranslations();
-  const [query, setQuery] = useState('');
+  const [query, setQueryState] = useState('');
   const [results, setResults] = useState<GroupedProverbResults>({ dg: [], en: [], sw: [], total: 0 });
   const [isLoading, setIsLoading] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
@@ -109,14 +109,22 @@ function ProverbSearchBar({ nav, locale }: { nav: Navigate; locale: Locale }) {
   const abortRef = useRef(0);
   const focusTracked = useRef(false);
 
-  useEffect(() => {
-    if (timerRef.current) clearTimeout(timerRef.current);
-    if (!query || query.trim().length < 2) {
+  // Reset or mark loading in the same update that changes the query, so the
+  // effect below only schedules the (asynchronous) search.
+  const setQuery = useCallback((q: string) => {
+    setQueryState(q);
+    if (!q || q.trim().length < 2) {
+      ++abortRef.current;
       setResults({ dg: [], en: [], sw: [], total: 0 });
       setIsLoading(false);
-      return;
+    } else {
+      setIsLoading(true);
     }
-    setIsLoading(true);
+  }, []);
+
+  useEffect(() => {
+    if (timerRef.current) clearTimeout(timerRef.current);
+    if (!query || query.trim().length < 2) return;
     const id = ++abortRef.current;
     timerRef.current = setTimeout(async () => {
       track('proverbs', 'search', 'type', { query, query_length: query.length });
@@ -135,7 +143,7 @@ function ProverbSearchBar({ nav, locale }: { nav: Navigate; locale: Locale }) {
     setIsFocused(false);
     setQuery('');
     goToProverb(nav, proverb.slug);
-  }, [nav, query]);
+  }, [nav, query, setQuery]);
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault();
@@ -408,20 +416,22 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
 
 function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale: Locale }) {
   const t = useTranslations();
-  const [proverb, setProverb] = useState<Proverb | null>(null);
-  const [related, setRelated] = useState<Proverb[]>([]);
-  const [loading, setLoading] = useState(true);
+  // Loaded data is kept with the slug it belongs to, so a new slug reads as
+  // loading (and stale related proverbs disappear) without setting state in the effect.
+  const [loaded, setLoaded] = useState<{ slug: string; proverb: Proverb | null } | null>(null);
+  const [relatedFor, setRelatedFor] = useState<{ slug: string; related: Proverb[] } | null>(null);
+  const proverb = loaded?.proverb ?? null;
+  const loading = loaded?.slug !== slug;
+  const related = relatedFor?.slug === slug ? relatedFor.related : [];
   const viewTracked = useRef(false);
   const [shareLang, setShareLang] = useState<'dg' | 'sw'>('dg');
   const { prerenderProverb, sharePrerendered, copyLink, isGenerating } = useShareCard();
 
   useEffect(() => {
     viewTracked.current = false;
-    setLoading(true);
     getProverbBySlug(slug)
       .then(async (found) => {
-        setProverb(found);
-        setLoading(false);
+        setLoaded({ slug, proverb: found });
         if (!viewTracked.current) {
           viewTracked.current = true;
           if (found) {
@@ -435,12 +445,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           const rels = found.related_proverbs
             .map((id) => all.find((p) => p.id === id))
             .filter(Boolean) as Proverb[];
-          setRelated(rels);
+          setRelatedFor({ slug, related: rels });
         }
       })
       .catch(() => {
-        setProverb(null);
-        setLoading(false);
+        setLoaded({ slug, proverb: null });
       });
   }, [slug]);
 
@@ -743,23 +752,22 @@ function LetterView({ letter, nav, locale }: { letter: string; nav: Navigate; lo
 
 function SearchResultsView({ q, nav, locale }: { q: string; nav: Navigate; locale: Locale }) {
   const t = useTranslations();
-  const [results, setResults] = useState<GroupedProverbResults | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  // Results are kept with the query they answer; a new query reads as loading.
+  const [loaded, setLoaded] = useState<{ q: string; results: GroupedProverbResults } | null>(null);
+  const results = loaded?.results ?? null;
+  const isLoading = !!q && loaded?.q !== q;
 
   useEffect(() => {
     if (!q) return;
-    setIsLoading(true);
     searchProverbs(q)
       .then((r) => {
-        setResults(r);
-        setIsLoading(false);
+        setLoaded({ q, results: r });
         if (r.total === 0) {
           track('proverbs', 'search', 'no_results', { query: q });
         }
       })
       .catch(() => {
-        setResults({ dg: [], en: [], sw: [], total: 0 });
-        setIsLoading(false);
+        setLoaded({ q, results: { dg: [], en: [], sw: [], total: 0 } });
       });
   }, [q]);
 

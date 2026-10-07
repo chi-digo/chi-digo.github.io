@@ -5,25 +5,29 @@ import { useState, useEffect } from 'react';
 import { hasConsent, CLARITY_ID } from '@/lib/analytics/gtag';
 import { useAuth } from '@/lib/auth/context';
 
+type ConnectionInfo = { saveData?: boolean; effectiveType?: string };
+type ClarityFn = (command: string, ...args: unknown[]) => void;
+
 function isSlowConnection(): boolean {
-  const conn = (navigator as any).connection;
+  const conn = (navigator as Navigator & { connection?: ConnectionInfo }).connection;
   if (!conn) return false;
   if (conn.saveData) return true;
-  return ['2g', 'slow-2g', '3g'].includes(conn.effectiveType);
+  return ['2g', 'slow-2g', '3g'].includes(conn.effectiveType ?? '');
 }
 
 function ClarityIdentify() {
   const { user } = useAuth();
 
   useEffect(() => {
-    if (!user || !(window as any).clarity) return;
+    const clarity = (window as Window & { clarity?: ClarityFn }).clarity;
+    if (!user || !clarity) return;
     crypto.subtle
       .digest('SHA-256', new TextEncoder().encode(user.id))
       .then((buf) => {
         const hash = Array.from(new Uint8Array(buf))
           .map((b) => b.toString(16).padStart(2, '0'))
           .join('');
-        (window as any).clarity('identify', hash);
+        clarity('identify', hash);
       });
   }, [user]);
 

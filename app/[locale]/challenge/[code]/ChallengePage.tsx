@@ -312,7 +312,7 @@ export function ChallengePage({ code }: { code: string }) {
     } catch {
       dispatch({ type: 'ERROR', message: 'Failed to load questions' });
     }
-  }, [state, code, user, t.challenge?.expired]);
+  }, [state, code, user, t.challenge]);
 
   const handleSelectAnswer = useCallback((optionIndex: number) => {
     dispatch({ type: 'SELECT_ANSWER', optionIndex });

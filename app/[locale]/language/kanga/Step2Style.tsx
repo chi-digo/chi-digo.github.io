@@ -221,7 +221,7 @@ const PALETTE_FIELD_LABELS: Record<keyof Palette, string> = {
 
 const labelStyle: React.CSSProperties = {
   fontSize: 'var(--text-xs)',
-  fontWeight: 'var(--weight-medium)' as any,
+  fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
   color: 'var(--fg-muted)',
   lineHeight: 1.2,
   textAlign: 'center',
@@ -286,7 +286,7 @@ export function Step2Style({
 
   return (
     <div>
-      <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)', marginBottom: 'var(--space-2)' }}>
+      <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 'var(--weight-semibold)' as React.CSSProperties['fontWeight'], color: 'var(--fg-heading)', marginBottom: 'var(--space-2)' }}>
         {t.kanga.choose_style_title}
       </h2>
       <p style={{ color: 'var(--fg-muted)', marginBottom: 'var(--space-6)' }}>
@@ -400,7 +400,7 @@ export function Step2Style({
                       boxShadow: 'var(--shadow-lg, 0 -4px 24px rgba(0,0,0,0.12))',
                     }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-3)' }}>
-                        <span style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-semibold)' as any, color: 'var(--fg-heading)' }}>
+                        <span style={{ fontSize: 'var(--text-sm)', fontWeight: 'var(--weight-semibold)' as React.CSSProperties['fontWeight'], color: 'var(--fg-heading)' }}>
                           {colorPickerField && t.kanga[PALETTE_FIELD_LABELS[colorPickerField] as keyof typeof t.kanga]}
                         </span>
                         <button
