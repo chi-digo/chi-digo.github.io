@@ -362,7 +362,7 @@
   },
   "install": {
     "eyebrow": "TAKE DIGO WITH YOU",
-    "body": "Add Chidigo to your phone — 5,200+ words, 378 proverbs, and the quiz work even offline.",
+    "body": "Add Chidigo to your phone — 5,200+ words, 387 proverbs, and the quiz work even offline.",
     "cta": "Add to Home Screen",
     "dismiss": "Maybe later",
     "ios_dismiss": "Got it",
@@ -380,7 +380,7 @@
     "update_toast": "New words and proverbs available — tap to refresh",
     "feature_dict_title": "5,200+ words",
     "feature_dict_desc": "Full Digo dictionary",
-    "feature_proverbs_title": "378 proverbs",
+    "feature_proverbs_title": "387 proverbs",
     "feature_proverbs_desc": "Cultural wisdom with translations",
     "feature_quiz_title": "Language quiz",
     "feature_quiz_desc": "Test your Digo knowledge",
