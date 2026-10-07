@@ -4020,7 +4020,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Siku kpwa pwani ya Adigo inaandza na mikahe ya kukalanga na mbalazi zirizochemushwa. Kabla ya dzoho ra dzuwa kukala ra nguvu, kabla ya avuvi kuuya na samaki ao, kabla ya shughuli za siku kuandza vinono, atu anaoguza vyakurya vya njira kare anahenda kazi. Moho wao wa makala ukaaka, mafuha ganakoza, na mahamri ga kpwandza ganaumbwa na kutiywa kahi ya sufuriya za mafuha ganagotseruka. Harufu ya iliki na nazi inaenea dzulu ya mudzi, ichitsanganyika na mosi wa kuni na phepho ya munyu ya Bahari ya Hindi. Ihi ni harufu ya ligundzu ya pwani, na inaaminika dza kutuluka kpwa dzuwa."
+              "text": "Siku kpwa pwani ya Adigo inaandza na mikahe ya kukalanga na mbalazi zirizochemushwa. Kabla ya dzoho ra dzuwa kukala ra nguvu, kabla ya avuvi kuuya na ng'onda ao, kabla ya shughuli za siku kuandza vinono, atu anaoguza vyakurya vya njira kare anahenda kazi. Moho wao wa makala ukaaka, mafuha ganakoza, na mahamri ga kpwandza ganaumbwa na kutiywa kahi ya sufuriya za mafuha ganagotseruka. Harufu ya iliki na nazi inaenea dzulu ya mudzi, ichitsanganyika na mosi wa kuni na phepho ya munyu ya Bahari ya Hindi. Ihi ni harufu ya ligundzu ya pwani, na inaaminika dza kutuluka kpwa dzuwa."
             },
             {
               "type": "paragraph",
@@ -4369,23 +4369,23 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mchuzi wa nazi si chakurya chimwenga bahi ela ni njira, chiolezo chinachoweza kutsukula phephi protini au mboga yoyosi ambayo mjiti anayo. Musingi taugaluka: vitunguu na chitunguu saumu nkulainishwa kpwa mafuha, nyanya nkuenjerezwa na kujitwa, viungo nkutiywa — kpwa kawaida mandano, jira, giligilani, na pilipili — chisha huwi nkumiminwa ili kuumba mtsuzi. Kahi ya madzi gaga genye harufu nono na rangi ya zahabu nkutiywa chiungo chikulu: samaki, kuku, nyama ya ng'ombe, viazi, mchicha, maharagbwe, au mtsanganyiko wowosi wa vitu hivi."
+              "text": "Mchuzi wa nazi si chakurya chimwenga bahi ela ni njira, chiolezo chinachoweza kutsukula phephi protini au mboga yoyosi ambayo mjiti anayo. Musingi taugaluka: vitunguu na chitunguu saumu nkulainishwa kpwa mafuha, nyanya nkuenjerezwa na kujitwa, viungo nkutiywa — kpwa kawaida mandano, jira, giligilani, na pilipili — chisha huwi nkumiminwa ili kuumba mtsuzi. Kahi ya madzi gaga genye harufu nono na rangi ya zahabu nkutiywa chiungo chikulu: ng'onda, kuku, nyama ya ng'ombe, viazi, mchicha, maharagbwe, au mtsanganyiko wowosi wa vitu hivi."
             },
             {
               "type": "paragraph",
-              "text": "Kuweza kugaluzwa kpwa mchuzi wa nazi ndiko kunono kpwakpwe. Ni jibu ra chila siku ra swali ra kujita ni, ukigaluka kulingana na vira soko rinavyopha au munda unavyolavya. Mtsuzi wa samaki una ladha tafwauti kabisa na mtsuzi wa viazi, ela vyosi viiri vinamanyikana kukala chakurya chicho-chicho — nazi ichiviunganisha kukala mbari mwenga ya chakurya. Kugaluka kuku kukahenda mchuzi wa nazi ukale chakurya chikulu cha chila siku cha kujita nyumbani kpwa Adigo, chakurya chinachoonekana mara nyinji zaidi mezani ya chila siku, na ambacho chila mjiti wa Chidigo nkuchimanya vinono kabla ya kujeza chitu chochosi chikulu zaidi."
+              "text": "Kuweza kugaluzwa kpwa mchuzi wa nazi ndiko kunono kpwakpwe. Ni jibu ra chila siku ra swali ra kujita ni, ukigaluka kulingana na vira soko rinavyopha au munda unavyolavya. Mtsuzi wa ng'onda una ladha tafwauti kabisa na mtsuzi wa viazi, ela vyosi viiri vinamanyikana kukala chakurya chicho-chicho — nazi ichiviunganisha kukala mbari mwenga ya chakurya. Kugaluka kuku kukahenda mchuzi wa nazi ukale chakurya chikulu cha chila siku cha kujita nyumbani kpwa Adigo, chakurya chinachoonekana mara nyinji zaidi mezani ya chila siku, na ambacho chila mjiti wa Chidigo nkuchimanya vinono kabla ya kujeza chitu chochosi chikulu zaidi."
             },
             {
               "type": "heading",
-              "text": "Samaki wa Kupaka: Samaki Ariyepakpwa"
+              "text": "Ng'onda wa Kupaka: Ng'onda Ariyepakpwa"
             },
             {
               "type": "paragraph",
-              "text": "Kahi ya vyakurya vinji vya nazi vya pwani, samaki wa kupaka ana nafasi maalum dza chakurya chinachoonyesa vinono zaidi kuungana kpwa samaki na nazi kunakotambulisha kujita kpwa pwani. Dzina renye rinaeleza hadisi: kupaka mana yakpwe ni kupaka rangi au kupaka chitu, na chakurya chihi ni kuwada samaki — kpwa kawaida changu au nguru — dzulu ya makala hadi ngoziye ikale nkavu na ya mosi, chisha kumpaka kpwa ukarimu mtsuzi wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Samaki chisha nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande na kukala gamba ra zahabu renye harufu nono."
+              "text": "Kahi ya vyakurya vinji vya nazi vya pwani, ng'onda wa kupaka ana nafasi maalum dza chakurya chinachoonyesa vinono zaidi kuungana kpwa ng'onda na nazi kunakotambulisha kujita kpwa pwani. Dzina renye rinaeleza hadisi: kupaka mana yakpwe ni kupaka rangi au kupaka chitu, na chakurya chihi ni kuwada ng'onda — kpwa kawaida changu au nguru — dzulu ya makala hadi ngoziye ikale nkavu na ya mosi, chisha kumpaka kpwa ukarimu mtsuzi wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Ng'onda chisha nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande na kukala gamba ra zahabu renye harufu nono."
             },
             {
               "type": "paragraph",
-              "text": "Matokeo ni chakurya cha ajabu chirichotengezwa kula kpwa vitu rahisi: makala na mosi wa kuwadira, unono wa nazi, ukali wa ndimu, dzoho ra mandano, na ladha ya samaki wa phapho. Samaki wa kupaka nkuriwa kpwa sherehe na vyakurya maalum, dzagbwe si chakurya cha anasa chiasi kpwamba tachiweza kuonekana kpwa chakurya cha kawaida cha dziloni samaki anono anaphophahikana. Ni chakurya ambacho ajiti a pwani nkudzivuna nacho zaidi, chicho chinachojitwa zaidi ajeni anaphokpwedza, na chakurya chinachoonyesa vinono zaidi imani ya Adigo kukala nazi nkuhenda chila chitu chikale chinono zaidi."
+              "text": "Matokeo ni chakurya cha ajabu chirichotengezwa kula kpwa vitu rahisi: makala na mosi wa kuwadira, unono wa nazi, ukali wa ndimu, dzoho ra mandano, na ladha ya ng'onda wa phapho. Ng'onda wa kupaka nkuriwa kpwa sherehe na vyakurya maalum, dzagbwe si chakurya cha anasa chiasi kpwamba tachiweza kuonekana kpwa chakurya cha kawaida cha dziloni ng'onda anono anaphophahikana. Ni chakurya ambacho ajiti a pwani nkudzivuna nacho zaidi, chicho chinachojitwa zaidi ajeni anaphokpwedza, na chakurya chinachoonyesa vinono zaidi imani ya Adigo kukala nazi nkuhenda chila chitu chikale chinono zaidi."
             },
             {
               "type": "heading",
@@ -4606,11 +4606,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uvuvi nkuhendwa zaidi ni alume, dzagbwe achetu ana kazi muhimu sana ya kutengeza samaki, kuaika kpwa muda mure, na kuaguza sokoni. Kuganya kazi kahi ya alume na achetu kahi ya biashara ya samaki kunahalana na mambo ganjina ga maisha ga Adigo: alume nkuphiya baharini, achetu nkuimirira pwani. Mpango uhu si wa mila bahi ela unaonyesa uzito wa kazi ya kuvuwa kahi ya bahari wazi kpwa vyombo vidide, na desturi za Chiislamu zinazoumba maisha ga jamii ya Adigo. Mchango wa achetu kahi ya biashara ya samaki — kugula samaki kula kpwa madau, kuanika na kuika samaki, kuaguza sokoni — ni mkulu, na mara nyinji taumanyikana."
+              "text": "Uvuvi nkuhendwa zaidi ni alume, dzagbwe achetu ana kazi muhimu sana ya kutengeza ng'onda, kuaika kpwa muda mure, na kuaguza sokoni. Kuganya kazi kahi ya alume na achetu kahi ya biashara ya ng'onda kunahalana na mambo ganjina ga maisha ga Adigo: alume nkuphiya baharini, achetu nkuimirira pwani. Mpango uhu si wa mila bahi ela unaonyesa uzito wa kazi ya kuvuwa kahi ya bahari wazi kpwa vyombo vidide, na desturi za Chiislamu zinazoumba maisha ga jamii ya Adigo. Mchango wa achetu kahi ya biashara ya ng'onda — kugula ng'onda kula kpwa madau, kuanika na kuika ng'onda, kuaguza sokoni — ni mkulu, na mara nyinji taumanyikana."
             },
             {
               "type": "paragraph",
-              "text": "Midundo ya siku ya uvuvi ndiyo inayoumba midundo ya jamii ya pwani. Avuvi nkuuka kabla ya kucha, achiongozwa ni nyota na ujuzi wao wa mikondo, miamba, na kuhama kpwa samaki chila msimu, ujuzi uriotsapizwa kula kpwa baba hadi mwanawe. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji — kuganya samaki, kuguza, kusuwa, kujita — ambazo nkuhendwa ni jamii hadi dziloni. Usiku, vimiya nkushonwa, mitego nkutengezwa, na hadisi za samaki a siku iyo nkugombwa. Mzunguko uhu wa chila siku ni wa kare dza vira Adigo arivyokala pwani, na unaenderera hata dzagbwe samaki anaphungula."
+              "text": "Midundo ya siku ya uvuvi ndiyo inayoumba midundo ya jamii ya pwani. Avuvi nkuuka kabla ya kucha, achiongozwa ni nyota na ujuzi wao wa mikondo, miamba, na kuhama kpwa ng'onda chila msimu, ujuzi uriotsapizwa kula kpwa baba hadi mwanawe. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji — kuganya ng'onda, kuguza, kusuwa, kujita — ambazo nkuhendwa ni jamii hadi dziloni. Usiku, vimiya nkushonwa, mitego nkutengezwa, na hadisi za ng'onda a siku iyo nkugombwa. Mzunguko uhu wa chila siku ni wa kare dza vira Adigo arivyokala pwani, na unaenderera hata dzagbwe ng'onda anaphungula."
             },
             {
               "type": "heading",
@@ -4618,31 +4618,31 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ngalawa ni chombo cha uvuvi chinachomanyikana zaidi cha pwani ya Afrika ya Mashariki. Mtumbwi uhu, uriotsongwa kula kpwa gogo mwenga na wenye vielea vya kanda vinavyofungwa kpwa mihi, ni kazi ya ajabu ya ufundi wa bahari bila teknolojia nyinji. Ni mwepesi chiasi kpwamba alume airi anaweza kuusukuma kula langbwani hadi baharini, ni imara chiasi cha kuweza maimbi ga Bahari ya Hindi wazi, na unaweza kutsukula samaki anji; kpwa hivyo ngalawa ikakala chombo chikulu cha uvuvi wa chienyeji wa pwani kpwa miaka mia minji. Muundowe unaonyesa ujuzi uriokusanywa kpwa vivyazi — vira vielea vinavyoikpwa, umbo ra mtumbwi, na phatu pha mlingoti wa tanga dide ambaro nkuterya kupiga kafi phepho ichikubali."
+              "text": "Ngalawa ni chombo cha uvuvi chinachomanyikana zaidi cha pwani ya Afrika ya Mashariki. Mtumbwi uhu, uriotsongwa kula kpwa gogo mwenga na wenye vielea vya kanda vinavyofungwa kpwa mihi, ni kazi ya ajabu ya ufundi wa bahari bila teknolojia nyinji. Ni mwepesi chiasi kpwamba alume airi anaweza kuusukuma kula langbwani hadi baharini, ni imara chiasi cha kuweza maimbi ga Bahari ya Hindi wazi, na unaweza kutsukula ng'onda anji; kpwa hivyo ngalawa ikakala chombo chikulu cha uvuvi wa chienyeji wa pwani kpwa miaka mia minji. Muundowe unaonyesa ujuzi uriokusanywa kpwa vivyazi — vira vielea vinavyoikpwa, umbo ra mtumbwi, na phatu pha mlingoti wa tanga dide ambaro nkuterya kupiga kafi phepho ichikubali."
             },
             {
               "type": "paragraph",
-              "text": "Majahazi makulu ni phephi theluthi mbiri za vyombo vyosi vya uvuvi. Vyombo hivi vizito vya tanga, vyenye matanga gao ga pembetatu ganagomanyikana, vinaweza kuphiya kure zaidi na pwani na kutsukula samaki anji zaidi. Mila ya majahazi inaunganisha avuvi a Adigo na utamaduni wa tanga wa Bahari ya Hindi, ambao ukaunganisha Afrika ya Mashariki na Uarabuni, India, na kure zaidi kpwa zaidi ya miaka elufu."
+              "text": "Majahazi makulu ni phephi theluthi mbiri za vyombo vyosi vya uvuvi. Vyombo hivi vizito vya tanga, vyenye matanga gao ga pembetatu ganagomanyikana, vinaweza kuphiya kure zaidi na pwani na kutsukula ng'onda anji zaidi. Mila ya majahazi inaunganisha avuvi a Adigo na utamaduni wa tanga wa Bahari ya Hindi, ambao ukaunganisha Afrika ya Mashariki na Uarabuni, India, na kure zaidi kpwa zaidi ya miaka elufu."
             },
             {
               "type": "paragraph",
-              "text": "Njira za kuvuwa ni nyinji, na zikagaluzwa kulingana na phatu pha bahari pha pwani ya Adigo. Mitego ya vikapu ndiyo inayovuwa samaki anji zaidi — phephi asilimia sabini na tsano — na nkuikpwa kahi ya miamba na kahi ya madzi ga phephi na pwani. Vimiya vya kuelea nkuhumirwa kahi ya madzi ga kure kuvuwa samaki a bahari kulu. Kumweha chimiya kula pwani, ambapho chimiya chire nkutsuphwa kula pwani na kumwehwa ni makundi ga alume, ni njira ya jamii inayovuwa samaki anji, ela mara nyinji ichivuwa chila aina bila kutsambula. Zio — mitego ya kudumu ya mihi na vimiya inayoikpwa kahi ya njira za madzi ganagoodzala na kupwa — nkugbwira samaki anaphotsupa na madzi. Kuojorera na kuzama ili kugbwira pweza na viumbe vya magamba nkumaliza njira za chienyeji."
+              "text": "Njira za kuvuwa ni nyinji, na zikagaluzwa kulingana na phatu pha bahari pha pwani ya Adigo. Mitego ya vikapu ndiyo inayovuwa ng'onda anji zaidi — phephi asilimia sabini na tsano — na nkuikpwa kahi ya miamba na kahi ya madzi ga phephi na pwani. Vimiya vya kuelea nkuhumirwa kahi ya madzi ga kure kuvuwa ng'onda a bahari kulu. Kumweha chimiya kula pwani, ambapho chimiya chire nkutsuphwa kula pwani na kumwehwa ni makundi ga alume, ni njira ya jamii inayovuwa ng'onda anji, ela mara nyinji ichivuwa chila aina bila kutsambula. Zio — mitego ya kudumu ya mihi na vimiya inayoikpwa kahi ya njira za madzi ganagoodzala na kupwa — nkugbwira ng'onda anaphotsupa na madzi. Kuojorera na kuzama ili kugbwira pweza na viumbe vya magamba nkumaliza njira za chienyeji."
             },
             {
               "type": "paragraph",
-              "text": "Chila njira inaonyesa ujuzi wa vivyazi vinji kuhusu bahari — phatu samaki anaphokusanyika kpwa misimu tafwauti, vira madzi ganavyoodzala na kupwa ganavyogaluza kuhama kpwao, na miamba ipi inahifadhi samaki a aina ipi. Ujuzi uhu taukaandikpwa. Nkutsapizwa kpwa mromo na kpwa kufundishwa kazini, avulana achidzifundza kula kpwa avyazi ao na akulu ao kpwa kuphiya nao baharini kare sana kabla ya kukala akulu a kutosha kuvuwa bila kuterywa. Kuangamika kpwa kutsapizwa kuku kula chivyazi chimwenga hadi chanjina, avulana anji achiricha uvuvi na kuhenda kazi zanjina, ni hasara kulu ya utamaduni dza kuphungula kpwa samaki kpwenye."
+              "text": "Chila njira inaonyesa ujuzi wa vivyazi vinji kuhusu bahari — phatu ng'onda anaphokusanyika kpwa misimu tafwauti, vira madzi ganavyoodzala na kupwa ganavyogaluza kuhama kpwao, na miamba ipi inahifadhi ng'onda a aina ipi. Ujuzi uhu taukaandikpwa. Nkutsapizwa kpwa mromo na kpwa kufundishwa kazini, avulana achidzifundza kula kpwa avyazi ao na akulu ao kpwa kuphiya nao baharini kare sana kabla ya kukala akulu a kutosha kuvuwa bila kuterywa. Kuangamika kpwa kutsapizwa kuku kula chivyazi chimwenga hadi chanjina, avulana anji achiricha uvuvi na kuhenda kazi zanjina, ni hasara kulu ya utamaduni dza kuphungula kpwa ng'onda kpwenye."
             },
             {
               "type": "heading",
-              "text": "Samaki Anaogbwirwa"
+              "text": "Ng'onda Anaogbwirwa"
             },
             {
               "type": "paragraph",
-              "text": "Madzi ga pwani ya Adigo ganalavya aina nyinji tafwauti za samaki. Changu labuda ndiye anayemendwa zaidi, nyamaye nyereru ngumu ichikala nono kpwa kuwadwa na kpwa mtsuzi wa nazi unaotambulisha kujita kpwa pwani. Nguru, mwenye nyama nzito na nene, ndiye anayetsambulwa kpwa samaki wa kupaka. Pono, barracuda, na wahoo ni samaki a kawaida. Jodari wa mapezi ga manjano, achiphiya phephi na pwani, nkureha unji usiotazamiwa unaohenda soko richangamke. Kamba-kochi, kamba, na kaa nkugbwirwa kpwa chiasi chidide, ela nkuguzwa kpwa bei za dzulu. Pweza, anayewadwa au kujitwa mtsuzi, ni seemu ya chipekee ya chakurya cha pwani inayochihenda kukala tafwauti na mila za chakurya za bara."
+              "text": "Madzi ga pwani ya Adigo ganalavya aina nyinji tafwauti za ng'onda. Changu labuda ndiye anayemendwa zaidi, nyamaye nyereru ngumu ichikala nono kpwa kuwadwa na kpwa mtsuzi wa nazi unaotambulisha kujita kpwa pwani. Nguru, mwenye nyama nzito na nene, ndiye anayetsambulwa kpwa ng'onda wa kupaka. Pono, barracuda, na wahoo ni ng'onda a kawaida. Jodari wa mapezi ga manjano, achiphiya phephi na pwani, nkureha unji usiotazamiwa unaohenda soko richangamke. Kamba-kochi, kamba, na kaa nkugbwirwa kpwa chiasi chidide, ela nkuguzwa kpwa bei za dzulu. Pweza, anayewadwa au kujitwa mtsuzi, ni seemu ya chipekee ya chakurya cha pwani inayochihenda kukala tafwauti na mila za chakurya za bara."
             },
             {
               "type": "paragraph",
-              "text": "Soko ra samaki — richikala ni dzengo rasmi au mkusanyiko usio rasmi kpwa langbwa ambapho madau ganafika — ni phatu pha chijamii phenye uchangamfu zaidi kpwa jamii ya Adigo ya pwani. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji za biashara: avuvi achiganya samaki ao, atu anaogula achilola samaki na kupatana bei, achetu achigula samaki kpwa kuaguza luphya au kuajita nyumbani. Soko ndipho bei inaphoikpwa, ubora unaphopimwa, habari zinaphobadilishana, na uhusiano wa jamii ya uvuvi unaphotengezwa luphya chila siku. Harufu ya samaki a phapho, kululu ya atu anaoguza, kung'ara kpwa magamba ga feza dzuwani — higa ndigo mambo ganagomanyisa soko ra pwani."
+              "text": "Soko ra ng'onda — richikala ni dzengo rasmi au mkusanyiko usio rasmi kpwa langbwa ambapho madau ganafika — ni phatu pha chijamii phenye uchangamfu zaidi kpwa jamii ya Adigo ya pwani. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji za biashara: avuvi achiganya ng'onda ao, atu anaogula achilola ng'onda na kupatana bei, achetu achigula ng'onda kpwa kuaguza luphya au kuajita nyumbani. Soko ndipho bei inaphoikpwa, ubora unaphopimwa, habari zinaphobadilishana, na uhusiano wa jamii ya uvuvi unaphotengezwa luphya chila siku. Harufu ya ng'onda a phapho, kululu ya atu anaoguza, kung'ara kpwa magamba ga feza dzuwani — higa ndigo mambo ganagomanyisa soko ra pwani."
             },
             {
               "type": "heading",
@@ -4650,19 +4650,19 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Samaki kahi ya kujita kpwa Adigo nkujitwa kpwa njira kadhaa za chipekee, zosi zichionyesa vira pwani inavyomendza urahisi, samaki a phapho, na nazi. Samaki wa kuchoma — samaki ariyewadwa kpwa makala — ndiyo njira rahisi zaidi. Samaki mzima, ariyeuswa magamba na utumbo ela bila chitu chanjina, nkuwadwa phapho dzulu ya makala ga moho hadi ngozi ichivimba na kuphya chidide, na nyama ikakala ya mosi na laini. Chitu bahi chinachohitajika ni madzi ga ndimu, na labuda munyu na pilipili chidide."
+              "text": "Ng'onda kahi ya kujita kpwa Adigo nkujitwa kpwa njira kadhaa za chipekee, zosi zichionyesa vira pwani inavyomendza urahisi, ng'onda a phapho, na nazi. Ng'onda wa kuchoma — ng'onda ariyewadwa kpwa makala — ndiyo njira rahisi zaidi. Ng'onda mzima, ariyeuswa magamba na utumbo ela bila chitu chanjina, nkuwadwa phapho dzulu ya makala ga moho hadi ngozi ichivimba na kuphya chidide, na nyama ikakala ya mosi na laini. Chitu bahi chinachohitajika ni madzi ga ndimu, na labuda munyu na pilipili chidide."
             },
             {
               "type": "paragraph",
-              "text": "Samaki wa kukaanga — samaki wa kukalanga — ni kumpaka samaki viungo virivyosagwa vya mandano, chitunguu saumu, tangawizi, na pilipili, chisha kumkalanga kpwa mafuha manji hadi kondze ikale na rangi ya zahabu na nkavu, hiku ndani ichisala na unyevu. Ihi ni njira ya chila siku, samaki anayeonekana mara nyinji zaidi mezani pha nyumbani, achiriwa phamwenga na wali wa nazi na mtsuzi wa mboga."
+              "text": "Ng'onda wa kukaanga — ng'onda wa kukalanga — ni kumpaka ng'onda viungo virivyosagwa vya mandano, chitunguu saumu, tangawizi, na pilipili, chisha kumkalanga kpwa mafuha manji hadi kondze ikale na rangi ya zahabu na nkavu, hiku ndani ichisala na unyevu. Ihi ni njira ya chila siku, ng'onda anayeonekana mara nyinji zaidi mezani pha nyumbani, achiriwa phamwenga na wali wa nazi na mtsuzi wa mboga."
             },
             {
               "type": "paragraph",
-              "text": "Taji ya kujita samaki kpwa Adigo ni samaki wa kupaka, \"samaki ariyepakpwa\" ambaye ni chakurya cha pwani chinachotogolwa zaidi. Samaki mzima — vinono zaidi changu au nguru — nkuwadwa dzulu ya makala hadi aive kabisa, chisha nkupakpwa mtsuzi mnono wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Samaki ariyepakpwa mtsuzi nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande, na kuumba tabaka ra zahabu renye harufu nono rinarounganisha ladha ya mosi ya kuwadira na unono wa nazi. Ni chakurya chinachoripha subira na viungo vinono, na ni njira ambayo ajiti a pwani nkuihumira tukio richilonda chitu cha kutambukirwa."
+              "text": "Taji ya kujita ng'onda kpwa Adigo ni ng'onda wa kupaka, \"ng'onda ariyepakpwa\" ambaye ni chakurya cha pwani chinachotogolwa zaidi. Ng'onda mzima — vinono zaidi changu au nguru — nkuwadwa dzulu ya makala hadi aive kabisa, chisha nkupakpwa mtsuzi mnono wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Ng'onda ariyepakpwa mtsuzi nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande, na kuumba tabaka ra zahabu renye harufu nono rinarounganisha ladha ya mosi ya kuwadira na unono wa nazi. Ni chakurya chinachoripha subira na viungo vinono, na ni njira ambayo ajiti a pwani nkuihumira tukio richilonda chitu cha kutambukirwa."
             },
             {
               "type": "paragraph",
-              "text": "Kamba nkuchemushwa kahi ya mtsuzi wa nazi, mtswano wao uchiandamana vinono na unono wa huwi. Pweza nkuwadwa — miguluye ichiphya dzulu ya makala — au kujitwa pore-pore kahi ya mtsuzi wa nyanya na nazi hadi akale laini. Vyosi viiri ni vyakurya vya anasa vinavyoguzwa kpwa bei za dzulu kuriko samaki wa chila siku, na nkuonekana mara nyinji zaidi kpwa sherehe au samaki anaphogbwirwa anji hasa."
+              "text": "Kamba nkuchemushwa kahi ya mtsuzi wa nazi, mtswano wao uchiandamana vinono na unono wa huwi. Pweza nkuwadwa — miguluye ichiphya dzulu ya makala — au kujitwa pore-pore kahi ya mtsuzi wa nyanya na nazi hadi akale laini. Vyosi viiri ni vyakurya vya anasa vinavyoguzwa kpwa bei za dzulu kuriko ng'onda wa chila siku, na nkuonekana mara nyinji zaidi kpwa sherehe au ng'onda anaphogbwirwa anji hasa."
             },
             {
               "type": "heading",
@@ -4670,19 +4670,19 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uchumi wa uvuvi wa pwani ya Adigo u kahi ya shida kulu. Samaki anaogbwirwa akaphungula mara nne hangu kahi-kahi ya miaka ya 1980, kula wastani wa kilo 13.7 kpwa mvuvi kpwa safari hadi kilo 3.2 bahi. Kugbwa kuku kunasababishwa ni mambo manji: kuvuwa kutsupa chiasi, kpwa sababu kuenjerezeka kpwa atu kunaenjereza mzigo kpwa vitu vya baharini visivyo na unji usio na mwisho; kuhumira njira za kuvuwa za kubananga, phamwenga na baruti na vimiya vya matundu madide vinavyobananga miamba ambako samaki anasagala na kugbwira samaki adide; na kubanangika kpwa mazingira kula kpwa maendeleo ga pwani, uchafu, na mabadiliko ga hali ya hewa."
+              "text": "Uchumi wa uvuvi wa pwani ya Adigo u kahi ya shida kulu. Ng'onda anaogbwirwa akaphungula mara nne hangu kahi-kahi ya miaka ya 1980, kula wastani wa kilo 13.7 kpwa mvuvi kpwa safari hadi kilo 3.2 bahi. Kugbwa kuku kunasababishwa ni mambo manji: kuvuwa kutsupa chiasi, kpwa sababu kuenjerezeka kpwa atu kunaenjereza mzigo kpwa vitu vya baharini visivyo na unji usio na mwisho; kuhumira njira za kuvuwa za kubananga, phamwenga na baruti na vimiya vya matundu madide vinavyobananga miamba ambako ng'onda anasagala na kugbwira ng'onda adide; na kubanangika kpwa mazingira kula kpwa maendeleo ga pwani, uchafu, na mabadiliko ga hali ya hewa."
             },
             {
               "type": "paragraph",
-              "text": "Matokeo ganaenea zaidi ya uchumi. Samaki anaphophungula, avuvi ni lazima aphiye kure zaidi na pwani na kusagala muda mure zaidi baharini, na kuenjereza hatari za kazi ambayo kare ni ya hatari kpwa mwiri. Kushindana kpwa vitu vinavyophungula kunareha kondo kahi ya avuvi a chienyeji na meli za biashara, kahi ya jamii za phapho na atu a kondze. Avulana, achiona fwaida ya uvuvi ichiphungula, taana hamu sana ya kudzifundza kazi iyo, na ihi inatishia kutsapizwa kpwa maarifwa ga chienyeji ga bahari kula chivyazi chimwenga hadi chanjina."
+              "text": "Matokeo ganaenea zaidi ya uchumi. Ng'onda anaphophungula, avuvi ni lazima aphiye kure zaidi na pwani na kusagala muda mure zaidi baharini, na kuenjereza hatari za kazi ambayo kare ni ya hatari kpwa mwiri. Kushindana kpwa vitu vinavyophungula kunareha kondo kahi ya avuvi a chienyeji na meli za biashara, kahi ya jamii za phapho na atu a kondze. Avulana, achiona fwaida ya uvuvi ichiphungula, taana hamu sana ya kudzifundza kazi iyo, na ihi inatishia kutsapizwa kpwa maarifwa ga chienyeji ga bahari kula chivyazi chimwenga hadi chanjina."
             },
             {
               "type": "heading",
-              "text": "Samaki na Utambulisho"
+              "text": "Ng'onda na Utambulisho"
             },
             {
               "type": "paragraph",
-              "text": "Hata dzagbwe kuna changamoto zizi, samaki bado ni wa kahi kpwa utambulisho wa Adigo wa pwani. Chidzidzi cha avuvi, soko ra ligundzu, harufu ya samaki wa kuchoma dzulu ya makala, kuona ngalawa zichiuya kpwa madzi ga dziloni — higa si shughuli za chiuchumi bahi ela ni alama za utamaduni zinazoonyesa mana ya kusagala pwani. Adigo ni atu a tsi na bahari kpwa wakati mmwenga, na chakurya chao chinaonyesa utambulisho uhu wa pande mbiri kpwa chila sahani ya wali wa nazi inayoriwa phamwenga na samaki ariyewadwa. Kuhifadhi desturi za uvuvi zinazoweza kudumu kpwa hivyo si dzambo ra mazingira au uchumi bahi, ela ni lazima ya utamaduni — dzambo ra kuhakikisha kukala vivyazi vya siku za mbere vya ana a Adigo anakula achimanya ladha ya samaki a phapho ariopakpwa nazi na ndimu."
+              "text": "Hata dzagbwe kuna changamoto zizi, ng'onda bado ni wa kahi kpwa utambulisho wa Adigo wa pwani. Chidzidzi cha avuvi, soko ra ligundzu, harufu ya ng'onda wa kuchoma dzulu ya makala, kuona ngalawa zichiuya kpwa madzi ga dziloni — higa si shughuli za chiuchumi bahi ela ni alama za utamaduni zinazoonyesa mana ya kusagala pwani. Adigo ni atu a tsi na bahari kpwa wakati mmwenga, na chakurya chao chinaonyesa utambulisho uhu wa pande mbiri kpwa chila sahani ya wali wa nazi inayoriwa phamwenga na ng'onda ariyewadwa. Kuhifadhi desturi za uvuvi zinazoweza kudumu kpwa hivyo si dzambo ra mazingira au uchumi bahi, ela ni lazima ya utamaduni — dzambo ra kuhakikisha kukala vivyazi vya siku za mbere vya ana a Adigo anakula achimanya ladha ya ng'onda a phapho ariopakpwa nazi na ndimu."
             }
           ]
         }
@@ -4875,7 +4875,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Adigo nkujita manga kpwa njira kadhaa. Njira rahisi zaidi ni kuichemusha: manga iriyoguwiwa nkukatwa vipande na kuchemushwa hadi ikale laini, chisha nkuriwa phamwenga na mtsuzi wa samaki au wa mboga. Manga ya kukalanga — iriyokatwa vipande vyembamba na kukalangwa kpwa mafuha manji hadi ikale ya rangi ya zahabu na nkavu chidide — ni chitafunio na chakurya cha phamwenga chinachomendwa, na mara nyinji nkuguzwa kpwa vibanda vya kanda ya njira. Manga piya inaweza kuumiswa na kusagwa kukala unga, ambao nkuhumirwa kujita sima wakati unga wa pemba unaphokala tsache au wa bei ghali. Makodza ga manga, ganagomanyikana dza kisamvu (chisamfu), piya ni mboga inayomendwa, ganaphondwa na kujitwa na huwi ili kulavya mboga nono ya chijani."
+              "text": "Adigo nkujita manga kpwa njira kadhaa. Njira rahisi zaidi ni kuichemusha: manga iriyoguwiwa nkukatwa vipande na kuchemushwa hadi ikale laini, chisha nkuriwa phamwenga na mtsuzi wa ng'onda au wa mboga. Manga ya kukalanga — iriyokatwa vipande vyembamba na kukalangwa kpwa mafuha manji hadi ikale ya rangi ya zahabu na nkavu chidide — ni chitafunio na chakurya cha phamwenga chinachomendwa, na mara nyinji nkuguzwa kpwa vibanda vya kanda ya njira. Manga piya inaweza kuumiswa na kusagwa kukala unga, ambao nkuhumirwa kujita sima wakati unga wa pemba unaphokala tsache au wa bei ghali. Makodza ga manga, ganagomanyikana dza kisamvu (chisamfu), piya ni mboga inayomendwa, ganaphondwa na kujitwa na huwi ili kulavya mboga nono ya chijani."
             },
             {
               "type": "paragraph",
@@ -6542,7 +6542,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Afinyanzi a Adigo anazalisha aina nyinji za vyombo, chila chimwenga chikaundwa kpwa matumizi mahususi dzikoni na nyumbani. Nyungu za kujita ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene virivyoundwa kustahimili kugbwirana na moho na msongo wa dzoho wa kupashwa na kupola mara kpwa mara. Nyungu hizi zinahumirwa kujita vyakurya mahususi vya pwani: samaki ariotokoswa kpwa huwi, mboga zirizojitwa pore-pore na viungo, mikahe ya mtele iriyotiwa mvuke kpwa huwi. Nyungu ya ulongo taiweza kubadilishwa na mbadala wa chuma au plastiki. Inapha ladha ya chipekee ya chiardhi kpwa vyakurya virivyojitwa pore-pore na inasambaza dzoho kpwa usawa zaidi kuriko chuma, ichizalisha ubora wa kujitira ambao ahendzi a chimila anauona kukala tauna mbadala."
+              "text": "Afinyanzi a Adigo anazalisha aina nyinji za vyombo, chila chimwenga chikaundwa kpwa matumizi mahususi dzikoni na nyumbani. Nyungu za kujita ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene virivyoundwa kustahimili kugbwirana na moho na msongo wa dzoho wa kupashwa na kupola mara kpwa mara. Nyungu hizi zinahumirwa kujita vyakurya mahususi vya pwani: ng'onda ariotokoswa kpwa huwi, mboga zirizojitwa pore-pore na viungo, mikahe ya mtele iriyotiwa mvuke kpwa huwi. Nyungu ya ulongo taiweza kubadilishwa na mbadala wa chuma au plastiki. Inapha ladha ya chipekee ya chiardhi kpwa vyakurya virivyojitwa pore-pore na inasambaza dzoho kpwa usawa zaidi kuriko chuma, ichizalisha ubora wa kujitira ambao ahendzi a chimila anauona kukala tauna mbadala."
             },
             {
               "type": "paragraph",
@@ -7068,7 +7068,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kuta za rangi ya chereru za pwani ya Chiswahili zinahendwa kpwa plasta ya masanoo na chokaa. Masanoo garigosagwa ganatsanganywa na chokaa kuhenda plasta inayoweza kupakwa dzulu ya kuta za tope au za masanoo. Kahi ya Adigo, plasta ya chokaa kawaida yaikpwa kpwa madzengo ga muhimu zaidi — msikiti, nyumba ya mzehe, au nyumba kulu ya familia tajiri."
+              "text": "Kuta za rangi ya chereru za pwani ya Chiswahili zinahendwa kpwa plasta ya masanoo na chokaa. Masanoo garigosagwa ganatsanganywa na chokaa kuhenda plasta inayoweza kupakwa dzulu ya kuta za tope au za masanoo. Kahi ya Adigo, plasta ya chokaa kawaida yaikpwa kpwa madzengo ga muhimu zaidi — msikiti, nyumba ya mzehe, au nyumba kulu ya mbari tajiri."
             },
             {
               "type": "paragraph",
@@ -7084,7 +7084,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Urembo uhu ni zaidi ya mapambo. Plasta ya chokaa inarinda kuta za tope zisibanangwe ni mvula, ichienjereza maisha ga dzengo kpwa chiasi chikulu. Piya inauyiza mwangaza wa dzuwa, ichiphunguza dzoho rinaroinjira na kuika ndani kukale mnyevu zaidi. Kahi ya Adigo, plasta ya chokaa kawaida yaikpwa kpwa madzengo ga muhimu zaidi — msikiti, nyumba ya mzehe, au nyumba kulu ya familia tajiri. Kuhumirwa kpwa plasta hino kpwaonyesa ustadi wa kuhenda na uhusiano wa chisomo na dunia phana ya pwani ya Chiswahili."
+              "text": "Urembo uhu ni zaidi ya mapambo. Plasta ya chokaa inarinda kuta za tope zisibanangwe ni mvula, ichienjereza maisha ga dzengo kpwa chiasi chikulu. Piya inauyiza mwangaza wa dzuwa, ichiphunguza dzoho rinaroinjira na kuika ndani kukale mnyevu zaidi. Kahi ya Adigo, plasta ya chokaa kawaida yaikpwa kpwa madzengo ga muhimu zaidi — msikiti, nyumba ya mzehe, au nyumba kulu ya mbari tajiri. Kuhumirwa kpwa plasta hino kpwaonyesa ustadi wa kuhenda na uhusiano wa chisomo na dunia phana ya pwani ya Chiswahili."
             },
             {
               "type": "heading",
@@ -7096,7 +7096,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ushawishi wa Chiarabu unaoneka si kpwa mbinu bahi ela piya kpwa vira nafasi zinavyoganywa. Nyumba ya Chiswahili, yenye tafwauti kahi ya phatu pha kuphokerera ajeni na phatu pha faragha pha familia, inaonyesa vira Aarabu anavyoona ni muhimu kutenga nafasi ya atu osi na ya faragha. Hata kala mudzi wa Chidigo unapanga nafasi kpwa njira yanjina — kuzunguluka mhala wa mudzi badala ya ndani ya mhala uriozungulukwa ni kuta — dhana ya daraja za nafasi, kukala phatu phanjina ni pha atu osi zaidi au pha faragha zaidi kuriko phanjina, ni dhana inayounganisha nyumba za Chidigo na za Chiswahili."
+              "text": "Ushawishi wa Chiarabu unaoneka si kpwa mbinu bahi ela piya kpwa vira nafasi zinavyoganywa. Nyumba ya Chiswahili, yenye tafwauti kahi ya phatu pha kuphokerera ajeni na phatu pha faragha pha mbari, inaonyesa vira Aarabu anavyoona ni muhimu kutenga nafasi ya atu osi na ya faragha. Hata kala mudzi wa Chidigo unapanga nafasi kpwa njira yanjina — kuzunguluka mhala wa mudzi badala ya ndani ya mhala uriozungulukwa ni kuta — dhana ya daraja za nafasi, kukala phatu phanjina ni pha atu osi zaidi au pha faragha zaidi kuriko phanjina, ni dhana inayounganisha nyumba za Chidigo na za Chiswahili."
             },
             {
               "type": "heading",
@@ -7353,7 +7353,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Makalo ga jadi ga Adigo ganahumira maumbo ga nyumba kuonyesa vira jamii inavyopangwa. Chibanda cha mzehe ni cha mviringo — nyumba ya mviringo inayoonyesa mamlaka na hadhi kahi ya mudzi. Nyumba zanjina za familia ni za mstatili. Tafwauti hino kahi ya mviringo na mstatili si ya bahati — ni luga ya nafasi inayomuambira chila mutu, kpwa kulola mara mwenga bahi, vira mudzi unavyopangwa."
+              "text": "Makalo ga jadi ga Adigo ganahumira maumbo ga nyumba kuonyesa vira jamii inavyopangwa. Chibanda cha mzehe ni cha mviringo — nyumba ya mviringo inayoonyesa mamlaka na hadhi kahi ya mudzi. Nyumba zanjina za mbari ni za mstatili. Tafwauti hino kahi ya mviringo na mstatili si ya bahati — ni luga ya nafasi inayomuambira chila mutu, kpwa kulola mara mwenga bahi, vira mudzi unavyopangwa."
             },
             {
               "type": "paragraph",
@@ -7385,7 +7385,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Makalo ga jadi ga Adigo ganahumira maumbo ga nyumba kuonyesa vira jamii inavyopangwa. Chibanda cha mzehe ni cha mviringo — nyumba ya mviringo inayoonyesa mamlaka na hadhi kahi ya mudzi. Nyumba zanjina za familia ni za mstatili, zirizodzengbwa kpwa vitu na mbinu zizo zizo ela kpwa umbo ranjina renye maana yanjina kpwa jamii. Tafwauti hino kahi ya mviringo na mstatili si ya bahati wala ya mapambo. Ni luga ya nafasi inayomuambira chila mjeni, kpwa kulola mara mwenga bahi, vira mudzi unavyopangwa."
+              "text": "Makalo ga jadi ga Adigo ganahumira maumbo ga nyumba kuonyesa vira jamii inavyopangwa. Chibanda cha mzehe ni cha mviringo — nyumba ya mviringo inayoonyesa mamlaka na hadhi kahi ya mudzi. Nyumba zanjina za mbari ni za mstatili, zirizodzengbwa kpwa vitu na mbinu zizo zizo ela kpwa umbo ranjina renye maana yanjina kpwa jamii. Tafwauti hino kahi ya mviringo na mstatili si ya bahati wala ya mapambo. Ni luga ya nafasi inayomuambira chila mjeni, kpwa kulola mara mwenga bahi, vira mudzi unavyopangwa."
             },
             {
               "type": "paragraph",
@@ -7418,7 +7418,7 @@ export const domains: CultureDomain[] =
     "intro": {
       "en": "The Digo organise their world through a system of overlapping loyalties — to clan, to family, to age-set, to kaya, and to faith — that produces a social architecture unlike any other on the East…",
       "sw": "Wadigo wanapanga ulimwengu wao kupitia mfumo wa uaminifu unaoingiliana — kwa ukoo, kwa familia, kwa rika, kwa kaya, na kwa imani — unaozalisha muundo wa kijamii tofauti na wowote mwingine kwenye pwani…",
-      "dg": "Adigo anapanga dunia yao kutsupira mfumo wa kuamini makundi manji ganayoingiliana — ukoo, familia, rika, kaya, na imani — unaoreha muundo wa chijamii usiohalana na wowosi wanjina kpwa…"
+      "dg": "Adigo anapanga dunia yao kutsupira mfumo wa kuamini makundi manji ganayoingiliana — ukoo, mbari, rika, kaya, na imani — unaoreha muundo wa chijamii usiohalana na wowosi wanjina kpwa…"
     },
     "proverb": "Mlatso tauchimbirana wala taurichana",
     "proverbGloss": "Blood does not run from itself nor forsake itself",
@@ -7433,7 +7433,7 @@ export const domains: CultureDomain[] =
         "intro": {
           "en": "When two Digo people meet for the first time, the conversation follows a predictable path to a single question: *\"Wa atu ani?\"* — \"Whose people are you?\" The answer is not a family name in the Western…",
           "sw": "Watu wawili wa Kidigo wanapokutana kwa mara ya kwanza, mazungumzo yanafuata njia inayotabirika hadi swali moja: *\"Wa atu ani?\"* — \"Wewe ni wa watu gani?\" Jibu si jina la familia kwa maana ya…",
-          "dg": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra familia kpwa maana ya…"
+          "dg": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra mbari kpwa maana ya…"
         },
         "body": {
           "en": [
@@ -7591,7 +7591,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra familia kpwa maana ya Chizungu. Ni dzina ra *fuko* — ukoo wa nine unaotsapizwa kula kpwa nine hadi kpwa mwana kutsupira vizazi visivyoweza kuhesabika. Fuko ni seemu ya kpwandza na ya ndani zaidi ya utambulisho wa Adigo."
+              "text": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra mbari kpwa maana ya Chizungu. Ni dzina ra *fuko* — ukoo wa nine unaotsapizwa kula kpwa nine hadi kpwa mwana kutsupira vizazi visivyoweza kuhesabika. Fuko ni seemu ya kpwandza na ya ndani zaidi ya utambulisho wa Adigo."
             },
             {
               "type": "paragraph",
@@ -7627,7 +7627,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Tafwauti na mbari (seemu ya familia ya uphande wa ise), ambayo kawaida ikala phatu phamwenga pha mudzi au munda, fuko tarina mphaka wa tsi. Atu a fuko mmwenga anaweza kusagala kpwa vidzidzi vyanjina, kaunti zanjina, tsi zanjina. Mdigo wa Kpwale na Mdigo wa Tanga, Tanzania, anaweza kutsembula kutsupira mazungumzo ga \"Wa atu ani?\" kukala ana fuko mmwenga — na kpwa kutsembula kuko kunakpwedza wajibu wa upesi wa kuteryana, ukarimu, na kuaminiana."
+              "text": "Tafwauti na mbari (seemu ya mbari ya uphande wa ise), ambayo kawaida ikala phatu phamwenga pha mudzi au munda, fuko tarina mphaka wa tsi. Atu a fuko mmwenga anaweza kusagala kpwa vidzidzi vyanjina, kaunti zanjina, tsi zanjina. Mdigo wa Kpwale na Mdigo wa Tanga, Tanzania, anaweza kutsembula kutsupira mazungumzo ga \"Wa atu ani?\" kukala ana fuko mmwenga — na kpwa kutsembula kuko kunakpwedza wajibu wa upesi wa kuteryana, ukarimu, na kuaminiana."
             },
             {
               "type": "paragraph",
@@ -7880,7 +7880,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Shariya ya familia ya Chiislamu kpwa musingi ni ya uphande wa ise. Ise ndiye mkpwulu wa nyumbaye. Anae ndio arithie. Desturi ya uphande wa nine ya Adigo, iriyodzengbwa dzulu ya mfumo wa fuko, inahenda kazi kpwa kanuni zirizo chinyume kabisa. Kpwa karne tahu au zaidi, Adigo akaishi ndani ya mifumo yosi miiri kpwa wakati mmwenga."
+              "text": "Shariya ya mbari ya Chiislamu kpwa musingi ni ya uphande wa ise. Ise ndiye mkpwulu wa nyumbaye. Anae ndio arithie. Desturi ya uphande wa nine ya Adigo, iriyodzengbwa dzulu ya mfumo wa fuko, inahenda kazi kpwa kanuni zirizo chinyume kabisa. Kpwa karne tahu au zaidi, Adigo akaishi ndani ya mifumo yosi miiri kpwa wakati mmwenga."
             },
             {
               "type": "paragraph",
@@ -7912,7 +7912,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Rero, familia ya Adigo yenye kondo ra urithi inatsupira mifumo mihahu ya chishariya kpwa wakati mmwenga: shariya ya chiraia ya Kenya, shariya ya Chiislamu, na desturi ya uphande wa nine. Kondo nyinji zinamala kpwa kuhenda chitu chinachofwaha, si kpwa kulunga kanuni: familia zinahala kula kpwa mfumo wowosi unaoterya kpwa haja ya wakati hinyo."
+              "text": "Rero, mbari ya Adigo yenye kondo ra urithi inatsupira mifumo mihahu ya chishariya kpwa wakati mmwenga: shariya ya chiraia ya Kenya, shariya ya Chiislamu, na desturi ya uphande wa nine. Kondo nyinji zinamala kpwa kuhenda chitu chinachofwaha, si kpwa kulunga kanuni: mbari zinahala kula kpwa mfumo wowosi unaoterya kpwa haja ya wakati hinyo."
             },
             {
               "type": "heading",
@@ -7944,15 +7944,15 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Rero, familia ya Adigo yenye kondo ra urithi inatsupira mifumo mihahu ya chishariya kpwa wakati mmwenga. Shariya ya chiraia ya Kenya — hasa Shariya ya Urithi — inapha mfumo wa serikali. Shariya ya Chiislamu, inayoimirirwa kutsupira mahakama za Kadhi, inapha mfumo wa chidini. Na desturi ya uphande wa nine, inayolungwa kpwa sababu ya vira jamii inavyotazamiya na mamlaka ga azehe badala ya mahakama rasmi, inapha mfumo wa chisomo."
+              "text": "Rero, mbari ya Adigo yenye kondo ra urithi inatsupira mifumo mihahu ya chishariya kpwa wakati mmwenga. Shariya ya chiraia ya Kenya — hasa Shariya ya Urithi — inapha mfumo wa serikali. Shariya ya Chiislamu, inayoimirirwa kutsupira mahakama za Kadhi, inapha mfumo wa chidini. Na desturi ya uphande wa nine, inayolungwa kpwa sababu ya vira jamii inavyotazamiya na mamlaka ga azehe badala ya mahakama rasmi, inapha mfumo wa chisomo."
             },
             {
               "type": "paragraph",
-              "text": "Kpwa kpweli, mara nyinji matokeo ganakuluphira kondo rinafika baraza riphi. Kesi inayophiya mahakama ya hakimu indalunga Shariya ya Urithi. Kesi inayophiya mahakama ya Kadhi indalunga Sharia. Kesi inayomalwa ndani ya jamii — kutsupira azehe achipatanisha, aphu anayeishimiwa achiingira kahi, au mali ya familia ichiganywa kimya-kimya kabla mutu yeyesi kadzangbwefikiriya kuphiya mahakamani — inaweza kulunga desturi ya uphande wa nine kabisa."
+              "text": "Kpwa kpweli, mara nyinji matokeo ganakuluphira kondo rinafika baraza riphi. Kesi inayophiya mahakama ya hakimu indalunga Shariya ya Urithi. Kesi inayophiya mahakama ya Kadhi indalunga Sharia. Kesi inayomalwa ndani ya jamii — kutsupira azehe achipatanisha, aphu anayeishimiwa achiingira kahi, au mali ya mbari ichiganywa kimya-kimya kabla mutu yeyesi kadzangbwefikiriya kuphiya mahakamani — inaweza kulunga desturi ya uphande wa nine kabisa."
             },
             {
               "type": "paragraph",
-              "text": "Njira ya kawaida zaidi ni kuhenda chitu chinachofwaha, si kulunga kanuni. Familia zinahala kula kpwa mfumo wowosi unaoterya kpwa haja ya wakati hinyo. Ise anaweza kulunga urithi wa Chiislamu kpwa malize rasmi — nyumbaye, akauntiye ya benki, tsiye iriyoandikpwa — achiricha desturi ya uphande wa nine iimirire kuganya mali ya jadi ya familia. Nine anaweza kuhumira hakiye ya Chiislamu ya seemu maalum ya mali ya mlumewe na wakati hinyo hinyo achihakikisha kukala tsiye ya konho inaphiya kpwa anae achetu kulunga chimila cha uphande wa nine."
+              "text": "Njira ya kawaida zaidi ni kuhenda chitu chinachofwaha, si kulunga kanuni. Mbari zinahala kula kpwa mfumo wowosi unaoterya kpwa haja ya wakati hinyo. Ise anaweza kulunga urithi wa Chiislamu kpwa malize rasmi — nyumbaye, akauntiye ya benki, tsiye iriyoandikpwa — achiricha desturi ya uphande wa nine iimirire kuganya mali ya jadi ya mbari. Nine anaweza kuhumira hakiye ya Chiislamu ya seemu maalum ya mali ya mlumewe na wakati hinyo hinyo achihakikisha kukala tsiye ya konho inaphiya kpwa anae achetu kulunga chimila cha uphande wa nine."
             },
             {
               "type": "heading",
@@ -7960,7 +7960,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ukpweli wa ndani zaidi ni kukala shariya ya Chiislamu wala desturi ya uphande wa nine, chila mmwenga bila wanjina, tachiweza kugbwira ukpweli wosi wa maisha ga familia ya Adigo. Adigo taaona mfumo wao wa urithi dza kondo kahi ya kanuni mbiri ngumu. Anauona dza wajibu, kuaminiana, na matazamio ganayoingiliana ambago ni lazima gasawazishwe kpwa chila kesi. Fuko rinamweha uphande mmwenga. Msikiti unamweha uphande wanjina. Mahakama ya kaunti inamweha uphande wa hahu. Na familia — atu enye ahusikao, na uhusiano wao, lawama zao, na mahitaji gao — inaphaha njiraye yenye kutsupira kahi-kahi."
+              "text": "Ukpweli wa ndani zaidi ni kukala shariya ya Chiislamu wala desturi ya uphande wa nine, chila mmwenga bila wanjina, tachiweza kugbwira ukpweli wosi wa maisha ga mbari ya Adigo. Adigo taaona mfumo wao wa urithi dza kondo kahi ya kanuni mbiri ngumu. Anauona dza wajibu, kuaminiana, na matazamio ganayoingiliana ambago ni lazima gasawazishwe kpwa chila kesi. Fuko rinamweha uphande mmwenga. Msikiti unamweha uphande wanjina. Mahakama ya kaunti inamweha uphande wa hahu. Na mbari — atu enye ahusikao, na uhusiano wao, lawama zao, na mahitaji gao — inaphaha njiraye yenye kutsupira kahi-kahi."
             },
             {
               "type": "paragraph",
@@ -8157,7 +8157,7 @@ export const domains: CultureDomain[] =
           "dg": [
             {
               "type": "heading",
-              "text": "Mifumo Miiri, Familia Mmwenga"
+              "text": "Mifumo Miiri, Mbari Mmwenga"
             },
             {
               "type": "paragraph",
@@ -8205,7 +8205,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kugongana kuku takuyareha ushindi kpwa mfumo wowosi. Badalaye, kpwareha kusagala phamwenga kpwa mazungumzo, dzambo rinaroganyika kula familia hadi familia, kula chidzidzi hadi chidzidzi, na kula chizazi hadi chizazi. Familia zanjina zinalunga urithi wa Chiislamu kpwa ukali. Zanjina zinalunga desturi ya uphande wa nine. Nyinji zinahenda kazi kahi-kahi kpwa kuhenda chinachofwaha: shariya ya Chiislamu inaimirira kuganya mali rasmi, hasa wakati mali inaphiya mahakamani, na matazamio ga uphande wa nine ganaimirira kutsapiza kusiko rasmi, kuphahikana kpwa tsi ya familia, na kuganya mali inayotsamika."
+              "text": "Kugongana kuku takuyareha ushindi kpwa mfumo wowosi. Badalaye, kpwareha kusagala phamwenga kpwa mazungumzo, dzambo rinaroganyika kula mbari hadi mbari, kula chidzidzi hadi chidzidzi, na kula chizazi hadi chizazi. Mbari zanjina zinalunga urithi wa Chiislamu kpwa ukali. Zanjina zinalunga desturi ya uphande wa nine. Nyinji zinahenda kazi kahi-kahi kpwa kuhenda chinachofwaha: shariya ya Chiislamu inaimirira kuganya mali rasmi, hasa wakati mali inaphiya mahakamani, na matazamio ga uphande wa nine ganaimirira kutsapiza kusiko rasmi, kuphahikana kpwa tsi ya mbari, na kuganya mali inayotsamika."
             },
             {
               "type": "heading",
@@ -8237,7 +8237,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mfumo wa urithi wa uphande mbiri — mashamba ga mafuko kanda-kanda na mashamba ga mbari, konho kanda-kanda na dzumbe — unaweza usihende kazi tsona dza mfumo rasmi wa chishariya. Ela uchere kukala ndani ya vira Adigo anavyoelewa maana ya tsi, ani ni wa ani, na wajibu uphi familia inaouika. Dai ra fuko dzulu ya mali rinaweza kukala rikadhoofika. Daire dzulu ya utambulisho taridzangbwedhoofika."
+              "text": "Mfumo wa urithi wa uphande mbiri — mashamba ga mafuko kanda-kanda na mashamba ga mbari, konho kanda-kanda na dzumbe — unaweza usihende kazi tsona dza mfumo rasmi wa chishariya. Ela uchere kukala ndani ya vira Adigo anavyoelewa maana ya tsi, ani ni wa ani, na wajibu uphi mbari inaouika. Dai ra fuko dzulu ya mali rinaweza kukala rikadhoofika. Daire dzulu ya utambulisho taridzangbwedhoofika."
             }
           ]
         }
@@ -8474,7 +8474,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Dzambo hiri rahenda ndowa za Adigo zikale za chipekee. Mchumba kayakala anahitaji kukubaliwa ni ise wa bibi arusi bahi. Wahitaji kukubaliwa ni aphuwe — mutu ariyemmanya bibi arusi hangu kuvyalwa, ariyekala na moyo wa kurinda fwaida ya fukore, na ambaye andasala na kazi ya kumrinda hata bada ya ndowa. Kuinjira kpwa aphu kpwamaanisha kukala mchetu wa Chidigo ariyeinjira ndowani wakala na mtetezi wa chilume mwenye nguvu ambaye uaminifuwe wakala kpwa uphande wa nine wa mchetu, si kpwa familia ya bwana arusi."
+              "text": "Dzambo hiri rahenda ndowa za Adigo zikale za chipekee. Mchumba kayakala anahitaji kukubaliwa ni ise wa bibi arusi bahi. Wahitaji kukubaliwa ni aphuwe — mutu ariyemmanya bibi arusi hangu kuvyalwa, ariyekala na moyo wa kurinda fwaida ya fukore, na ambaye andasala na kazi ya kumrinda hata bada ya ndowa. Kuinjira kpwa aphu kpwamaanisha kukala mchetu wa Chidigo ariyeinjira ndowani wakala na mtetezi wa chilume mwenye nguvu ambaye uaminifuwe wakala kpwa uphande wa nine wa mchetu, si kpwa mbari ya bwana arusi."
             },
             {
               "type": "heading",
@@ -8486,7 +8486,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa kpweli, familia nyinji zatsupira uwili uhu kpwa mazungumzo na kuishimiana. Mamlaka ga ise gamanyikana kpwa mambo ga nyumbani. Mamlaka ga aphu gamanyikana kpwa mambo ga muhimu ga ukoo. Ela mambo gano mairi gachigongana — ise achilonda mwanawe alole mutu mmwenga na aphu achilonda wanjina, au urithi uchibishaniwa — mwisho ukakala unakuluphira hishima, mali, na uwezo wa maneno wa alume hano airi, phamwenga na nguvu ya chimila cha uphande wa nine kpwa jamii yao."
+              "text": "Kpwa kpweli, mbari nyinji zatsupira uwili uhu kpwa mazungumzo na kuishimiana. Mamlaka ga ise gamanyikana kpwa mambo ga nyumbani. Mamlaka ga aphu gamanyikana kpwa mambo ga muhimu ga ukoo. Ela mambo gano mairi gachigongana — ise achilonda mwanawe alole mutu mmwenga na aphu achilonda wanjina, au urithi uchibishaniwa — mwisho ukakala unakuluphira hishima, mali, na uwezo wa maneno wa alume hano airi, phamwenga na nguvu ya chimila cha uphande wa nine kpwa jamii yao."
             },
             {
               "type": "heading",
@@ -8494,7 +8494,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kufika na kuenea kpwa Chiislamu kahi ya Adigo kuandza karne ya kumi na sabaa na kuenderera kpwareha njira yanjina ya mamlaka ga ise. Shariya ya familia ya Chiislamu inamuika ise kahi-kahi ya familia. Mamlaka ga ise dzulu ya anae ni kamili kpwa mambo ga ndowa, urithi, na elimu ya chidini. Aphu kana nafasi rasmi kpwa mfumo wa chishariya wa Chiislamu."
+              "text": "Kufika na kuenea kpwa Chiislamu kahi ya Adigo kuandza karne ya kumi na sabaa na kuenderera kpwareha njira yanjina ya mamlaka ga ise. Shariya ya mbari ya Chiislamu inamuika ise kahi-kahi ya mbari. Mamlaka ga ise dzulu ya anae ni kamili kpwa mambo ga ndowa, urithi, na elimu ya chidini. Aphu kana nafasi rasmi kpwa mfumo wa chishariya wa Chiislamu."
             },
             {
               "type": "paragraph",
@@ -8542,7 +8542,7 @@ export const domains: CultureDomain[] =
         "intro": {
           "en": "A Digo child enters the world surrounded by women. When labour begins, the experienced elderly women of the family — traditional birth attendants who have delivered dozens of children across their…",
           "sw": "Mtoto wa Kidigo anaingia ulimwenguni akizungukwa na wanawake. Wakati uchungu unapoanza, wanawake wazee wenye uzoefu wa familia — wakunga wa jadi ambao wamezalisha watoto wengi katika maisha yao —…",
-          "dg": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a familia — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana…"
+          "dg": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a mbari — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana…"
         },
         "body": {
           "en": [
@@ -8780,7 +8780,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a familia — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana kumzunguluka nine. Hinyo si ajeni enye nguwo za hospitali. Ni ano wawa, shangazi, na majirani ambao amumanya nine hangu iye mwenye ariphokala mwana. Chumba cha kuvyalira ni phatu pha mamlaka ga achetu, phatu ambapho achetu azehe zaidi ana nguvu kulu zaidi."
+              "text": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a mbari — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana kumzunguluka nine. Hinyo si ajeni enye nguwo za hospitali. Ni ano wawa, shangazi, na majirani ambao amumanya nine hangu iye mwenye ariphokala mwana. Chumba cha kuvyalira ni phatu pha mamlaka ga achetu, phatu ambapho achetu azehe zaidi ana nguvu kulu zaidi."
             },
             {
               "type": "paragraph",
@@ -8804,7 +8804,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Sherehe ya kuhewa dzina inahendeka siku ya hahu, ya sabaa, au ya mirongo mine bada ya kuvyalwa. *Aqeeqa* ya Chiislamu — sadaka ya kumshukuru Mlungu — inahendwa siku ya sabaa: mbuzi airi kpwa mvulana, mmwenga kpwa msichana. Nyama inaganywa kpwa familia, majirani, na achiya. Chitswa cha mwana chinanyolwa, na mwana anahewa dzina rasmi."
+              "text": "Sherehe ya kuhewa dzina inahendeka siku ya hahu, ya sabaa, au ya mirongo mine bada ya kuvyalwa. *Aqeeqa* ya Chiislamu — sadaka ya kumshukuru Mlungu — inahendwa siku ya sabaa: mbuzi airi kpwa mvulana, mmwenga kpwa msichana. Nyama inaganywa kpwa mbari, majirani, na achiya. Chitswa cha mwana chinanyolwa, na mwana anahewa dzina rasmi."
             },
             {
               "type": "heading",
@@ -8828,7 +8828,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Sherehe ya kupha dzina ina baraka kula kpwa azehe a jamii. Kpwenye familia zanjina, azehe ananyunyiriza madzi au uchi dza baraka dzulu ya mwana. Mwana mdide anaweza kuhewa shanga zanjina za kurinda au dzango — chirindo chanjina cha chiroho kpwa safari iriyoko mbere. Mavoyo ganahendwa kpwa afya ya mwana, ustawiwe, na maishage ga mbere, gachigombwa ni sauti zinazotsukula uzito wa umri na uzoefu."
+              "text": "Sherehe ya kupha dzina ina baraka kula kpwa azehe a jamii. Kpwenye mbari zanjina, azehe ananyunyiriza madzi au uchi dza baraka dzulu ya mwana. Mwana mdide anaweza kuhewa shanga zanjina za kurinda au dzango — chirindo chanjina cha chiroho kpwa safari iriyoko mbere. Mavoyo ganahendwa kpwa afya ya mwana, ustawiwe, na maishage ga mbere, gachigombwa ni sauti zinazotsukula uzito wa umri na uzoefu."
             },
             {
               "type": "paragraph",
@@ -8860,7 +8860,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Hino si imani ambayo maisha ga chisasa gakaigaluza kabisa. Hata familia zinazovyalira ana ao hospitalini bado zinaweza kuaiha mganga na imamu badaye. Hata avyazi enye elimu ya chuo chikulu bado anaweza kufunga shanga za kurinda kpwenye mkpwono wa mwana wao mdide. Mazoea ganagaluka, ela imani ya musingi — kukala maisha maphya ni matakatifu, ganavundzika rahisi, na ganahitaji chila urindzi ambao jamii inaweza kupha — inaenderera."
+              "text": "Hino si imani ambayo maisha ga chisasa gakaigaluza kabisa. Hata mbari zinazovyalira ana ao hospitalini bado zinaweza kuaiha mganga na imamu badaye. Hata avyazi enye elimu ya chuo chikulu bado anaweza kufunga shanga za kurinda kpwenye mkpwono wa mwana wao mdide. Mazoea ganagaluka, ela imani ya musingi — kukala maisha maphya ni matakatifu, ganavundzika rahisi, na ganahitaji chila urindzi ambao jamii inaweza kupha — inaenderera."
             },
             {
               "type": "heading",
@@ -8880,11 +8880,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kuvyalwa kpwa Adigo a sambi kunazidi kuhendekea hospitalini na kliniki, kuchiimirirwa ni ataalamu a matibabu ariofundzwa badala ya akunga a jadi. Sherehe za kupha dzina zinaweza kukala mambo rahisi zaidi kuriko zirivyokala kare. Wakati wa siku mirongo mine wa mayo kusagala ndani ukaphunguzwa kpwenye familia nyinji, kpwa sababu ya mahitaji ga kazi na maisha ga midzi mikulu."
+              "text": "Kuvyalwa kpwa Adigo a sambi kunazidi kuhendekea hospitalini na kliniki, kuchiimirirwa ni ataalamu a matibabu ariofundzwa badala ya akunga a jadi. Sherehe za kupha dzina zinaweza kukala mambo rahisi zaidi kuriko zirivyokala kare. Wakati wa siku mirongo mine wa mayo kusagala ndani ukaphunguzwa kpwenye mbari nyinji, kpwa sababu ya mahitaji ga kazi na maisha ga midzi mikulu."
             },
             {
               "type": "paragraph",
-              "text": "Ela musingi wa mazoea gano unaenderera. Ana bado anabarikiwa ni mganga na imamu kpwenye familia nyinji. Madzina bado ganatsambulwa kpwa makini na maana. Aqeeqa bado inahendwa, mbuzi bado anachinjwa, nyama bado inaganywa. Na imani ya musingi kukala kufika kpwa mwana ni dzambo ra jamii — si utaratibu wa mutu macheye wa matibabu ela wakati ambapho jamii yosi inakutana kumkaribisha, kumrinda, na kumuhala mwanachama mphya zaidi kukala wao — inasala hai kpwenye maisha ga Adigo. Duara ra achetu rinaweza kukala rikatsama kula chumba cha kuvyalira hadi phatu pha kugodzera hospitalini, ela taridzangbwevundzika."
+              "text": "Ela musingi wa mazoea gano unaenderera. Ana bado anabarikiwa ni mganga na imamu kpwenye mbari nyinji. Madzina bado ganatsambulwa kpwa makini na maana. Aqeeqa bado inahendwa, mbuzi bado anachinjwa, nyama bado inaganywa. Na imani ya musingi kukala kufika kpwa mwana ni dzambo ra jamii — si utaratibu wa mutu macheye wa matibabu ela wakati ambapho jamii yosi inakutana kumkaribisha, kumrinda, na kumuhala mwanachama mphya zaidi kukala wao — inasala hai kpwenye maisha ga Adigo. Duara ra achetu rinaweza kukala rikatsama kula chumba cha kuvyalira hadi phatu pha kugodzera hospitalini, ela taridzangbwevundzika."
             }
           ]
         }
@@ -12436,7 +12436,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Jamii za uvuvi za Msambweni zinawakilisha njira ya maisha ambayo i tsini ya shinikizo kali. Viwango vya samaki ariovuliwa vikaphunguka mara nne hangu miaka ya 1980 kpwa sababu ya uvuvi kutsupa chiasi, kubanangwa kpwa mazingira, na kupiga dzuwa kpwa madzi ga Bahari ya Hindi. Serikali ya kaunti ikaganya miyadiya ya chisasa kpwa jamii za uvuvi na kuterya kutengezwa kpwa vikundi vya chirimo cha mwani — vikundi 21 kpwenye vidzidzi 14 — ela kutsupa kula uvuvi wa kare wenye unji hadi usimamizi wa rasilimali za baharini ni vigumu na taudzangbwekamilika. Msambweni piya unakula dza chituo cha biashara, na maduka na huduma mphya zinaonekana kanda ya barabara kulu, ela utambulishowe bado ukafungamana na bahari kpwa njira ambayo wa Ukunda tauko tsona."
+              "text": "Jamii za uvuvi za Msambweni zinawakilisha njira ya maisha ambayo i tsini ya shinikizo kali. Viwango vya ng'onda ariovuliwa vikaphunguka mara nne hangu miaka ya 1980 kpwa sababu ya uvuvi kutsupa chiasi, kubanangwa kpwa mazingira, na kupiga dzuwa kpwa madzi ga Bahari ya Hindi. Serikali ya kaunti ikaganya miyadiya ya chisasa kpwa jamii za uvuvi na kuterya kutengezwa kpwa vikundi vya chirimo cha mwani — vikundi 21 kpwenye vidzidzi 14 — ela kutsupa kula uvuvi wa kare wenye unji hadi usimamizi wa rasilimali za baharini ni vigumu na taudzangbwekamilika. Msambweni piya unakula dza chituo cha biashara, na maduka na huduma mphya zinaonekana kanda ya barabara kulu, ela utambulishowe bado ukafungamana na bahari kpwa njira ambayo wa Ukunda tauko tsona."
             },
             {
               "type": "heading",
@@ -12745,11 +12745,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Jamii za uvuvi za Adigo, zirizodzikita kanda ya pwani kula Shimoni hadi Msambweni na kpwenye visiwa vya seemu ya bahari ya Kisite-Mpunguti, zinahenda mila ya ufundi ambayo inaenea nyuma kpwa karne nyinji. Avuvi anahumira ndoano za mkpwono, nyavu za gill, na mihambo ya kare, anahenda kazi kula kpwa miyadiya midide ya mbao — mitumbwi ya ngalawa kahi yayo — ambayo yenyewe ni vitu vya utamaduni wa baharini wa Bahari ya Hindi. Samaki anaovuliwa ni phamwenga na samaki a miamba, ph'weza, kamba, na aina mbali-mbali za samaki a bahari kulu ambazo zinaguzwa mbichi kpwenye masoko ga ndani."
+              "text": "Jamii za uvuvi za Adigo, zirizodzikita kanda ya pwani kula Shimoni hadi Msambweni na kpwenye visiwa vya seemu ya bahari ya Kisite-Mpunguti, zinahenda mila ya ufundi ambayo inaenea nyuma kpwa karne nyinji. Avuvi anahumira ndoano za mkpwono, nyavu za gill, na mihambo ya kare, anahenda kazi kula kpwa miyadiya midide ya mbao — mitumbwi ya ngalawa kahi yayo — ambayo yenyewe ni vitu vya utamaduni wa baharini wa Bahari ya Hindi. Ng'onda anaovuliwa ni phamwenga na ng'onda a miamba, ph'weza, kamba, na aina mbali-mbali za ng'onda a bahari kulu ambazo zinaguzwa mbichi kpwenye masoko ga ndani."
             },
             {
               "type": "paragraph",
-              "text": "Ela uchumi wa uvuvi u kpwenye kushuka kpwa hatari. Viwango vya samaki ariovuliwa vikagbwa tsini mara nne hangu miaka ya 1980, vichisukumwa ni uvuvi kutsupa chiasi, kubanangwa kpwa makazi ga miamba ya matumbawe, na mabadiliko ga dzoho ya bahari na mikondo. Avuvi ambao kare arireha nyumbani kpwa uhakika chakurya cha kutosha kurisa nyumba zao na kuguza ziada sambi mara nyinji anauya na samaki ambao taatosha kuripha mafuha na chambo. Serikali ya kaunti ikadzibu kpwa kuganya miyadiya 60 ya chisasa kpwa jamii za uvuvi, ela tatizo ra msingi — kuphunguka kpwa samaki kpwenye madzi ga phephi na pwani — tariweza kutatuliwa ni miyadiya minono bahi."
+              "text": "Ela uchumi wa uvuvi u kpwenye kushuka kpwa hatari. Viwango vya ng'onda ariovuliwa vikagbwa tsini mara nne hangu miaka ya 1980, vichisukumwa ni uvuvi kutsupa chiasi, kubanangwa kpwa makazi ga miamba ya matumbawe, na mabadiliko ga dzoho ya bahari na mikondo. Avuvi ambao kare arireha nyumbani kpwa uhakika chakurya cha kutosha kurisa nyumba zao na kuguza ziada sambi mara nyinji anauya na ng'onda ambao taatosha kuripha mafuha na chambo. Serikali ya kaunti ikadzibu kpwa kuganya miyadiya 60 ya chisasa kpwa jamii za uvuvi, ela tatizo ra msingi — kuphunguka kpwa ng'onda kpwenye madzi ga phephi na pwani — tariweza kutatuliwa ni miyadiya minono bahi."
             },
             {
               "type": "heading",
@@ -14143,7 +14143,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chakurya ni chimwenga. Vyakurya vya nazi vinavyofafanua kujita kpwa Chidigo — kuhumira huwi kahi ya wari, kahi ya mtsuzi, kahi ya kuandaa samaki na mboga — ni sawa phande zosi. Mimea ni iyo-iyo: nazi, manga, pemba, maembe, ngorosho. Kalenda ya chirimo inalunga misimu iyo-iyo inayoendeshwa ni monsuni. Dziko ra Chidigo kpwa Msambweni na dziko ra Chidigo kpwa Mkinga, kpwa mjeni yeyesi, gandaoneka sawa-sawa."
+              "text": "Chakurya ni chimwenga. Vyakurya vya nazi vinavyofafanua kujita kpwa Chidigo — kuhumira huwi kahi ya wari, kahi ya mtsuzi, kahi ya kuandaa ng'onda na mboga — ni sawa phande zosi. Mimea ni iyo-iyo: nazi, manga, pemba, maembe, ngorosho. Kalenda ya chirimo inalunga misimu iyo-iyo inayoendeshwa ni monsuni. Dziko ra Chidigo kpwa Msambweni na dziko ra Chidigo kpwa Mkinga, kpwa mjeni yeyesi, gandaoneka sawa-sawa."
             },
             {
               "type": "heading",
