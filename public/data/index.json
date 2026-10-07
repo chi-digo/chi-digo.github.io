@@ -1,25 +1,25 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5212,
+  "total_entries": 5216,
   "letters": {
     "a": {
-      "count": 131,
+      "count": 132,
       "first": "a",
       "last": "azo"
     },
     "b": {
-      "count": 208,
+      "count": 209,
       "first": "baada",
       "last": "bwiningiza"
     },
     "ch": {
-      "count": 525,
+      "count": 529,
       "first": "cha",
       "last": "chuwo"
     },
     "d": {
-      "count": 121,
+      "count": 118,
       "first": "daba",
       "last": "dyahula"
     },
@@ -29,7 +29,7 @@
       "last": "dzwidzwidzwi"
     },
     "e": {
-      "count": 46,
+      "count": 45,
       "first": "-e",
       "last": "ezeka"
     },
@@ -39,7 +39,7 @@
       "last": "fyusa"
     },
     "g": {
-      "count": 117,
+      "count": 116,
       "first": "gachiandikpwa",
       "last": "guza"
     },
@@ -74,12 +74,12 @@
       "last": "kpwiru"
     },
     "l": {
-      "count": 213,
+      "count": 215,
       "first": "la",
       "last": "lóla"
     },
     "m": {
-      "count": 954,
+      "count": 955,
       "first": "m’",
       "last": "mzuzu"
     },
@@ -89,7 +89,7 @@
       "last": "m'buni"
     },
     "n": {
-      "count": 211,
+      "count": 213,
       "first": "na",
       "last": "nywa"
     },
@@ -99,7 +99,7 @@
       "last": "ndzuzi"
     },
     "ng": {
-      "count": 64,
+      "count": 65,
       "first": "ngai",
       "last": "ngó"
     },
@@ -114,7 +114,7 @@
       "last": "oza"
     },
     "p": {
-      "count": 154,
+      "count": 155,
       "first": "pafu",
       "last": "pyia"
     },
