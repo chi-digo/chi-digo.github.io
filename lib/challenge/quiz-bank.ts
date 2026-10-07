@@ -19,20 +19,24 @@ interface QuizBank {
   };
 }
 
-// The current bank, then older banks so rounds played before a regeneration
-// can still be turned into challenges (current IDs carry a version prefix and never collide).
-// Literal paths so the deploy's file tracing bundles both files.
+// The current bank first, then every bank that was live before it, so a round
+// played on an older bank can still become a challenge. Older banks reused IDs
+// for different questions, so callers pick the version the player actually saw
+// (see pickQuestion). Literal paths so the deploy's file tracing bundles them.
 const BANK_PATHS = [
   join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank.json'),
+  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.1.json'),
+  join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v3.0.json'),
   join(process.cwd(), 'public', 'data', 'quiz', 'quiz-bank-v2.json'),
 ];
 
-let cached: Map<string, QuizBankQuestion> | null = null;
+let cached: Map<string, QuizBankQuestion[]> | null = null;
 
-export async function getQuizBankMap(): Promise<Map<string, QuizBankQuestion>> {
+/** Every known version of each question ID, newest bank first. */
+export async function getQuizBankVersions(): Promise<Map<string, QuizBankQuestion[]>> {
   if (cached) return cached;
 
-  const map = new Map<string, QuizBankQuestion>();
+  const map = new Map<string, QuizBankQuestion[]>();
   for (const filePath of BANK_PATHS) {
     let raw: string;
     try {
@@ -44,7 +48,9 @@ export async function getQuizBankMap(): Promise<Map<string, QuizBankQuestion>> {
     for (const cat of Object.values(bank.questions)) {
       for (const diff of Object.values(cat)) {
         for (const q of diff) {
-          if (!map.has(q.id)) map.set(q.id, q);
+          const versions = map.get(q.id);
+          if (versions) versions.push(q);
+          else map.set(q.id, [q]);
         }
       }
     }
@@ -52,6 +58,31 @@ export async function getQuizBankMap(): Promise<Map<string, QuizBankQuestion>> {
 
   cached = map;
   return map;
+}
+
+/**
+ * The version of a question the player actually saw, matched on the question
+ * text and options saved with their answer; without a match, the newest version.
+ */
+export function pickQuestion(
+  versions: QuizBankQuestion[] | undefined,
+  shownText?: string | null,
+  shownOptions?: unknown,
+): QuizBankQuestion | undefined {
+  if (!versions || versions.length === 0) return undefined;
+  const optionTexts = Array.isArray(shownOptions)
+    ? shownOptions.map((o) => (o && typeof o === 'object' && 'text' in o ? String((o as { text: unknown }).text) : String(o)))
+    : null;
+  const locales = ['e', 's', 'd'] as const;
+  const matches = (v: QuizBankQuestion, withOptions: boolean) =>
+    locales.some((lk) =>
+      v.q[lk] === shownText &&
+      (!withOptions || (optionTexts !== null && v.opts[lk].length === optionTexts.length && v.opts[lk].every((t, i) => t === optionTexts[i]))),
+    );
+  if (shownText) {
+    return versions.find((v) => matches(v, true)) ?? versions.find((v) => matches(v, false)) ?? versions[0];
+  }
+  return versions[0];
 }
 
 export type { QuizBankQuestion };

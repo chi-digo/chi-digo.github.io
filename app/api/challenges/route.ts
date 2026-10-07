@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { createServiceClient } from '@/lib/supabase/service';
 import { generateShortCode } from '@/lib/challenge/shortcode';
-import { getQuizBankMap } from '@/lib/challenge/quiz-bank';
+import { getQuizBankVersions, pickQuestion } from '@/lib/challenge/quiz-bank';
 import { rateLimit } from '@/lib/challenge/rate-limit';
 import { headers } from 'next/headers';
 import type { ChallengeQuestionPublic, ChallengeQuestionAnswers } from '@/lib/challenge/types';
@@ -41,7 +41,7 @@ export async function POST(request: Request) {
 
   const { data: answers, error: answersError } = await supabase
     .from('quiz_answers')
-    .select('question_id, question_index, category, difficulty, correct_option_id')
+    .select('question_id, question_index, category, difficulty, correct_option_id, question_text, options')
     .eq('round_id', roundId)
     .eq('user_id', user.id)
     .order('question_index', { ascending: true });
@@ -50,13 +50,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'No answers found for round' }, { status: 404 });
   }
 
-  const quizBank = await getQuizBankMap();
+  const quizBank = await getQuizBankVersions();
 
   const questionsPublic: ChallengeQuestionPublic[] = [];
   const questionsAnswers: ChallengeQuestionAnswers = {};
 
   for (const a of answers) {
-    const bankQ = quizBank.get(a.question_id);
+    const bankQ = pickQuestion(quizBank.get(a.question_id), a.question_text, a.options);
     if (!bankQ) {
       return NextResponse.json({ error: `Question ${a.question_id} not found in quiz bank` }, { status: 500 });
     }
