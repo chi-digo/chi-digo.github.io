@@ -9,7 +9,7 @@ entries. Keeps the compact JSON format.
     python3 scripts/sync-dictionary-index.py          # rebuild
     python3 scripts/sync-dictionary-index.py --check  # report only, exit 1 if stale
 """
-import glob, json, sys
+import glob, json, os, sys
 
 check = '--check' in sys.argv
 stale_files = []
@@ -51,4 +51,8 @@ if meta_changed:
         open(ip, 'w').write(json.dumps(meta, ensure_ascii=False, separators=(',', ':')) if compact else json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
 
 print(f"{'stale' if check else 'rebuilt'} files: {len(stale_files)}  (total entries: {total})")
+if not check:
+    # Dictionary data changed: make installed apps drop their cached copy
+    import subprocess
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'bump-data-version.py'), 'dict'], check=True)
 sys.exit(1 if (check and stale_files) else 0)

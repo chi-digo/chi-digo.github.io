@@ -50,7 +50,7 @@ export async function generateMetadata({
     return buildMetadata({
       title: 'Chidigo Proverbs',
       description:
-        '378 Digo proverbs with translations in Chidigo, Swahili, and English. Browse by theme, search, and explore cultural commentary.',
+        '387 Digo proverbs with translations in Chidigo, Swahili, and English. Browse by theme, search, and explore cultural commentary.',
       path: '/language/proverbs',
       locale: loc,
     });
