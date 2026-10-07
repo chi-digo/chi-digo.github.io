@@ -6,9 +6,10 @@
     "dev": "next dev",
     "preseo": "tsx scripts/generate-seo.ts",
     "generate:search-index": "tsx scripts/generate-content-index.ts",
-    "build": "npm run preseo && npm run generate:search-index && next build",
+    "build": "npm run validate:quiz && npm run preseo && npm run generate:search-index && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:quiz": "tsx scripts/validate-quiz-bank.ts"
   },
   "dependencies": {
     "@chi-digo/design-system": "0.3.4",
