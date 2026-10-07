@@ -110,6 +110,48 @@ export function definedTermSetJsonLd() {
   };
 }
 
+export function proverbJsonLd(opts: {
+  digo: string;
+  meaning: string;
+  literal?: string;
+  themes?: string[];
+  path: string;
+  locale?: Locale;
+}) {
+  const url = opts.locale ? localePath(opts.path, opts.locale) : opts.path;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Quotation',
+    name: opts.digo,
+    text: opts.digo,
+    // The proverb text is Digo; description/abstract are in the page's language.
+    inLanguage: 'dg',
+    ...(opts.meaning ? { description: opts.meaning } : {}),
+    ...(opts.literal ? { abstract: opts.literal } : {}),
+    ...(opts.themes && opts.themes.length ? { keywords: opts.themes.join(', ') } : {}),
+    isPartOf: {
+      '@type': 'Collection',
+      name: 'Chidigo Proverbs',
+      url: `${SITE_URL}/language/proverbs`,
+    },
+    url: `${SITE_URL}${url}`,
+    publisher: PUBLISHER,
+    isAccessibleForFree: true,
+  };
+}
+
+export function proverbCollectionJsonLd(count: number) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Collection',
+    name: 'Chidigo Proverbs',
+    description: `${count} Digo proverbs (ndarira) with literal and idiomatic translations in English and Swahili, meanings in Chidigo, and cultural commentary.`,
+    url: `${SITE_URL}/language/proverbs`,
+    inLanguage: ['dg', 'sw', 'en'],
+    publisher: PUBLISHER,
+  };
+}
+
 export function faqJsonLd(pairs: { question: string; answer: string }[]) {
   return {
     '@context': 'https://schema.org',

@@ -6,12 +6,18 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { PROVERB_THEMES } from '@/lib/proverbs/themes';
 import { DIGO_ALPHABET } from '@/lib/constants';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbJsonLd, proverbCollectionJsonLd, proverbJsonLd } from '@/lib/seo/jsonld';
 
 interface ProverbStub {
   slug: string;
   digo: string;
   literal_en: string;
+  literal_sw?: string;
   idiomatic_en: string;
+  idiomatic_sw?: string;
+  idiomatic_dg?: string;
+  themes?: string[];
 }
 
 let _proverbCache: ProverbStub[] | null = null;
@@ -105,6 +111,44 @@ export default async function Page({
 }: {
   params: Promise<{ locale: string; slug?: string[] }>;
 }) {
-  await params;
+  const { locale, slug } = await params;
+  const loc = locale as Locale;
+
+  if (!slug || slug.length === 0) {
+    return (
+      <>
+        <JsonLd data={proverbCollectionJsonLd(loadProverbStubs().length)} />
+        <ProverbsClient />
+      </>
+    );
+  }
+
+  if (slug[0]?.startsWith('p-')) {
+    const proverbSlug = decodeURIComponent(slug[0]);
+    const found = loadProverbStubs().find((p) => p.slug === proverbSlug);
+    if (found) {
+      const meaning =
+        (loc === 'sw' ? found.idiomatic_sw : loc === 'dg' ? found.idiomatic_dg : found.idiomatic_en) ||
+        found.idiomatic_en;
+      const literal = (loc === 'sw' ? found.literal_sw : found.literal_en) || found.literal_en;
+      const path = `/language/proverbs/${encodeURIComponent(proverbSlug)}`;
+      return (
+        <>
+          <JsonLd
+            data={proverbJsonLd({ digo: found.digo, meaning, literal, themes: found.themes, path, locale: loc })}
+          />
+          <JsonLd
+            data={breadcrumbJsonLd([
+              { name: 'Home', href: '/' },
+              { name: 'Proverbs', href: '/language/proverbs' },
+              { name: found.digo, href: path },
+            ], loc)}
+          />
+          <ProverbsClient />
+        </>
+      );
+    }
+  }
+
   return <ProverbsClient />;
 }
