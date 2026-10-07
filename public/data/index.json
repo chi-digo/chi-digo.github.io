@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5216,
+  "total_entries": 5215,
   "letters": {
     "a": {
       "count": 132,
@@ -49,7 +49,7 @@
       "last": "gbwuu"
     },
     "h": {
-      "count": 163,
+      "count": 162,
       "first": "h",
       "last": "hwa"
     },
