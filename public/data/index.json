@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5211,
+  "total_entries": 5209,
   "letters": {
     "a": {
       "count": 132,
@@ -14,7 +14,7 @@
       "last": "bwiningiza"
     },
     "ch": {
-      "count": 529,
+      "count": 528,
       "first": "cha",
       "last": "chuwo"
     },
@@ -169,7 +169,7 @@
       "last": "yuyu"
     },
     "z": {
-      "count": 76,
+      "count": 75,
       "first": "zaburi",
       "last": "-zuzu"
     }
