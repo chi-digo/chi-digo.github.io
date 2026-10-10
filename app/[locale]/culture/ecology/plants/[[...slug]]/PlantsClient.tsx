@@ -13,6 +13,7 @@ import { PLANT_THEMES, getPlantTheme } from '@/lib/plants/themes';
 import { localized, type GlossaryTerm, type GroupedPlantResults, type L10n, type Plant, type PlantPart, type PlantStub, type SectionKey } from '@/lib/plants/types';
 import { DIGO_ALPHABET } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
+import { Skeleton } from '@chi-digo/design-system';
 import type { Locale } from '@/lib/i18n/config';
 import base from '@/app/[locale]/language/proverbs/proverbs.module.css';
 import styles from '../plants.module.css';
@@ -96,6 +97,79 @@ function ShareButton({ title, body, path, contentId }: { title: string; body: st
       </svg>
       {copied && <span className={styles.copied}>✓</span>}
     </button>
+  );
+}
+
+/* ===== Loading skeletons (ISSUES PL-1) ===== */
+
+const gap = (px: number) => ({ marginTop: px });
+
+function CardSkeleton() {
+  return (
+    <div className={base.proverbCard} aria-hidden="true">
+      <Skeleton width="38%" height={22} />
+      <Skeleton width="30%" height={14} style={gap(10)} />
+      <Skeleton width="24%" height={13} style={gap(6)} />
+      <Skeleton width="88%" height={15} style={gap(14)} />
+      <div style={{ display: 'flex', gap: 6, marginTop: 14 }}>
+        <Skeleton width={52} height={16} />
+        <Skeleton width={72} height={16} />
+      </div>
+    </div>
+  );
+}
+
+function ListSkeleton({ count = 4 }: { count?: number }) {
+  return (
+    <div role="status" aria-busy="true">
+      {Array.from({ length: count }, (_, i) => <CardSkeleton key={i} />)}
+    </div>
+  );
+}
+
+function DetailSkeleton() {
+  return (
+    <article className={base.detailArticle} role="status" aria-busy="true">
+      <Skeleton width="42%" height={34} />
+      <Skeleton width="34%" height={16} style={gap(14)} />
+      <Skeleton width="26%" height={15} style={gap(8)} />
+      <div style={gap(28)}>
+        <Skeleton width="100%" height={17} />
+        <Skeleton width="96%" height={17} style={gap(10)} />
+        <Skeleton width="70%" height={17} style={gap(10)} />
+      </div>
+      <div className={styles.namesPanel}>
+        {[0, 1, 2, 3, 4].map((i) => (
+          <div key={i} className={styles.namesRow}>
+            <Skeleton width="60%" height={12} />
+            <Skeleton width={`${70 - i * 8}%`} height={15} />
+          </div>
+        ))}
+      </div>
+      {[0, 1].map((i) => (
+        <div key={i} className={styles.prose}>
+          <Skeleton width="22%" height={22} />
+          <Skeleton width="100%" height={16} style={gap(14)} />
+          <Skeleton width="97%" height={16} style={gap(10)} />
+          <Skeleton width="92%" height={16} style={gap(10)} />
+          <Skeleton width="58%" height={16} style={gap(10)} />
+        </div>
+      ))}
+    </article>
+  );
+}
+
+function GlossarySkeleton() {
+  return (
+    <div role="status" aria-busy="true">
+      {Array.from({ length: 6 }, (_, i) => (
+        <div key={i} className={styles.glossaryItem} aria-hidden="true">
+          <Skeleton width="20%" height={18} />
+          <Skeleton width="90%" height={15} style={gap(10)} />
+          <Skeleton width="30%" height={13} style={gap(8)} />
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -253,7 +327,12 @@ function FeaturedPlantCard({ nav, locale }: { nav: Navigate; locale: Locale }) {
     return (
       <div className={base.featuredCard}>
         <p className={base.featuredLabel}>{t.plants.plant_of_the_day}</p>
-        <p className={base.featuredLoading}>{t.plants.searching}</p>
+        <div role="status" aria-busy="true">
+          <Skeleton width="34%" height={30} style={{ ...{ background: 'rgba(242, 234, 215, 0.14)' }, marginTop: 14 }} />
+          <Skeleton width="28%" height={15} style={{ ...{ background: 'rgba(242, 234, 215, 0.14)' }, marginTop: 12 }} />
+          <Skeleton width="22%" height={14} style={{ ...{ background: 'rgba(242, 234, 215, 0.14)' }, marginTop: 8 }} />
+          <Skeleton width="80%" height={15} style={{ ...{ background: 'rgba(242, 234, 215, 0.14)' }, marginTop: 14 }} />
+        </div>
       </div>
     );
   }
@@ -519,7 +598,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
     goToPlant(nav, pick.slug);
   }, [nav, slug]);
 
-  if (loading) return <p className={base.loading}>{t.plants.searching}</p>;
+  if (loading) return <DetailSkeleton />;
   if (!plant) {
     return (
       <>
@@ -653,7 +732,7 @@ function ListView({ title, description, load, nav, locale, viewEvent }: {
         {description && <p className={base.themeHeaderDesc}>{description}</p>}
         {plants && <p className={base.themeHeaderCount}>{t.plants.count.replace('{count}', String(plants.length))}</p>}
       </div>
-      {!plants && <p className={base.loading}>{t.plants.searching}</p>}
+      {!plants && <ListSkeleton />}
       {plants && plants.length === 0 && (
         <div className={base.emptyState}><p className={base.emptyTitle}>{t.plants.no_results.replace('{query}', title)}</p></div>
       )}
@@ -681,6 +760,7 @@ function SearchResultsView({ q, nav, locale }: { q: string; nav: Navigate; local
       <p className={base.resultsInfo}>
         {results ? t.plants.results_for.replace('{count}', String(results.total)).replace('{query}', q) : t.plants.searching}
       </p>
+      {!results && <ListSkeleton count={3} />}
       {results && results.total === 0 && (
         <div className={base.emptyState}>
           <p className={base.emptyTitle}>{t.plants.no_results.replace('{query}', q)}</p>
@@ -710,7 +790,7 @@ function GlossaryView({ locale }: { locale: Locale }) {
         <h1 className={base.themeHeaderTitle}>{t.plants.glossary_title}</h1>
         <p className={base.themeHeaderDesc}>{t.plants.glossary_intro}</p>
       </div>
-      {!terms && <p className={base.loading}>{t.plants.searching}</p>}
+      {!terms && <GlossarySkeleton />}
       {terms?.map((g) => (
         <div key={g.term} className={styles.glossaryItem}>
           <span className={styles.partTerm}>{g.term}</span>
