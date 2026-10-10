@@ -87,7 +87,6 @@ export interface Messages {
     all_themes: string;
     count: string;
     mature_content: string;
-    ai_assisted: string;
     contribute: string;
     see_all: string;
     searching: string;
