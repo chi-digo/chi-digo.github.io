@@ -7,6 +7,8 @@ import { useLocale } from '@/lib/i18n/context';
 import { domains, getDomain, type CultureDomain, type Topic } from '@/lib/culture/content';
 import { fukoCards } from '@/lib/culture/fuko';
 import { trackNavClick } from '@/lib/analytics/track';
+import { localePath } from '@/lib/i18n/locale-path';
+import { DOMAIN_REFERENCES } from '@/lib/culture/references';
 import { useTrackView } from '@/hooks/useTrackView';
 import { getHeroStyle } from '@/lib/images/hero-images';
 import type { Locale } from '@/lib/i18n/config';
@@ -153,7 +155,7 @@ export function CultureOverview() {
             {cultureCards.map((d) => (
               <a
                 key={d.slug}
-                href={`/culture/${d.slug}`}
+                href={localePath(`/culture/${d.slug}`, locale)}
                 className={styles.topicCard}
                 onClick={() => trackNavClick('culture_overview', `/culture/${d.slug}`)}
               >
@@ -177,10 +179,11 @@ export function DomainIndex({ domainSlug }: { domainSlug: string }) {
   if (!domain) return <p>Domain not found.</p>;
 
   const cards = domain.topics.map((topic) => ({
-    href: `/culture/${domain.slug}/${topic.slug}`,
+    href: localePath(`/culture/${domain.slug}/${topic.slug}`, locale),
     title: topic.title[locale],
     intro: topic.intro[locale],
   }));
+  const references = DOMAIN_REFERENCES[domain.slug] ?? [];
 
   return (
     <>
@@ -203,6 +206,19 @@ export function DomainIndex({ domainSlug }: { domainSlug: string }) {
               <a key={card.href} href={card.href} className={styles.card}>
                 <h3 className={styles.cardTitle}>{card.title}</h3>
                 <p className={styles.cardIntro}>{card.intro}</p>
+              </a>
+            ))}
+            {references.map((ref) => (
+              <a
+                key={ref.href}
+                href={localePath(ref.href, locale)}
+                className={`${styles.card} ${styles.referenceCard}`}
+                onClick={() => trackNavClick('culture_reference', ref.href)}
+              >
+                <span className={styles.referenceLabel}>{ref.label(t)}</span>
+                <h3 className={styles.cardTitle}>{ref.title(t)}</h3>
+                <p className={styles.cardIntro}>{ref.intro(t)}</p>
+                <span className={styles.referenceCount}>{ref.countLabel(t, ref.count)}</span>
               </a>
             ))}
           </div>

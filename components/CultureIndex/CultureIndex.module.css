@@ -322,3 +322,27 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Reference cards (e.g. the plants reference on Ecology): same card, marked as a reference. */
+.referenceCard {
+  border: 1px solid rgba(196, 154, 74, 0.55);
+}
+
+.referenceLabel {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a4b00;
+  margin-bottom: 0.4rem;
+}
+
+.referenceCount {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-kaya-indigo);
+  margin-top: 0.6rem;
+}

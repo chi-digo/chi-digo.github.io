@@ -8,6 +8,7 @@ import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
 import { getLanguageTopic } from '@/lib/language/content';
 import { getTheme } from '@/lib/proverbs/themes';
+import { getPlantTheme } from '@/lib/plants/themes';
 import { trackNavClick } from '@/lib/analytics/track';
 import { Breadcrumb as BreadcrumbDS, type BreadcrumbItem } from '@chi-digo/design-system';
 
@@ -49,7 +50,25 @@ export function Breadcrumb() {
         });
       }
 
-      if (segments[2]) {
+      if (segments[1] === 'ecology' && segments[2] === 'plants') {
+        items.push({
+          label: t.breadcrumb.plants,
+          href: segments.length > 3 ? lp('/culture/ecology/plants') : undefined,
+        });
+        if (segments[3] === 'theme' && segments[4]) {
+          const theme = getPlantTheme(segments[4]);
+          items.push({ label: theme ? theme.title[locale] : decodeURIComponent(segments[4]) });
+        } else if (segments[3] === 'letter' && segments[4]) {
+          const letter = decodeURIComponent(segments[4]);
+          items.push({ label: letter.charAt(0).toUpperCase() + letter.slice(1) });
+        } else if (segments[3] === 'parts') {
+          items.push({ label: t.breadcrumb.plants_glossary });
+        } else if (segments[3]) {
+          // Slugs are built from the Digo headword (spec 33 §4); show it as a name.
+          const name = decodeURIComponent(segments[3]).replace(/-/g, ' ');
+          items.push({ label: name.charAt(0).toUpperCase() + name.slice(1) });
+        }
+      } else if (segments[2]) {
         const result = getTopic(segments[1], segments[2]);
         if (result) {
           items.push({ label: result.topic.title[locale] });
