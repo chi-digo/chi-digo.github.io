@@ -33,7 +33,7 @@ function SearchDropdown({
   const LANG_LABELS: Record<string, string> = {
     dg: 'Chidigo',
     sw: 'Chiswahili',
-    en: 'Chiingereza',
+    en: 'Chingereza',
   };
 
   if (!visible || (results.total === 0 && !isLoading)) return null;

@@ -19,7 +19,7 @@ export const languageTools: LanguageTool[] = [
     description: {
       en: '5,200+ words with definitions in Chidigo, Swahili, and English. Search, browse by letter, and explore derived forms.',
       sw: 'Maneno zaidi ya 5,200 yenye maana kwa Kidigo, Kiswahili, na Kiingereza. Tafuta, vinjari kwa herufi, na gundua maneno yanayotokana.',
-      dg: 'Maneno zaidi ya 5,200 na madzo ga Chidigo, Chiswahili, na Chiingereza. Tafuta, hakiki kwa herufi, na gundua maneno garigo ndani.',
+      dg: 'Maneno zaidi ya 5,200 na madzo ga Chidigo, Chiswahili, na Chingereza. Tafuta, hakiki kwa herufi, na gundua maneno garigo ndani.',
     },
     href: '/language/dictionary',
     available: true,
@@ -34,7 +34,7 @@ export const languageTools: LanguageTool[] = [
     description: {
       en: '387 Digo proverbs with translations, cultural commentary, and thematic browsing. Search in Chidigo, Swahili, or English.',
       sw: 'Methali 387 za Kidigo zenye tafsiri, maoni ya kitamaduni, na kuvinjari kwa mada. Tafuta kwa Kidigo, Kiswahili, au Kiingereza.',
-      dg: 'Ndarira 387 za Chidigo na tafsiri, madzo ga chisomo, na kuhakiki kwa mada. Tafuta kwa Chidigo, Chiswahili, au Chiingereza.',
+      dg: 'Ndarira 387 za Chidigo na tafsiri, madzo ga chisomo, na kuhakiki kwa mada. Tafuta kwa Chidigo, Chiswahili, au Chingereza.',
     },
     href: '/language/proverbs',
     available: true,

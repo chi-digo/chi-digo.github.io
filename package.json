@@ -6,11 +6,12 @@
     "dev": "next dev",
     "preseo": "tsx scripts/generate-seo.ts",
     "generate:search-index": "tsx scripts/generate-content-index.ts",
-    "build": "npm run validate:quiz && npm run validate:plants && npm run preseo && npm run generate:search-index && next build",
+    "build": "npm run validate:quiz && npm run validate:plants && npm run check:digo && npm run preseo && npm run generate:search-index && next build",
     "start": "next start",
     "lint": "eslint",
     "validate:quiz": "tsx scripts/validate-quiz-bank.ts",
-    "validate:plants": "tsx scripts/validate-plants.ts"
+    "validate:plants": "tsx scripts/validate-plants.ts",
+    "check:digo": "tsx scripts/check-digo-standards.ts"
   },
   "dependencies": {
     "@chi-digo/design-system": "0.3.4",
