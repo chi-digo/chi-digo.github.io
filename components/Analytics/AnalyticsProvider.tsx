@@ -1,5 +1,6 @@
 'use client';
 
+import { pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import Script from 'next/script';
 import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
@@ -64,7 +65,7 @@ export function AnalyticsProvider() {
 
   // Track page views on pathname change
   useEffect(() => {
-    const pageView = getPageView(pathname);
+    const pageView = getPageView(pathnameWithoutLocale(pathname));
     if (pageView) {
       const params: Record<string, string> = {
         locale,
