@@ -4,13 +4,13 @@
 The service worker serves data files stale-while-revalidate and only clears a
 cache when that cache's version here changes. Run after changing app data:
 
-    python3 scripts/bump-data-version.py dict proverbs quiz
+    python3 scripts/bump-data-version.py dict proverbs quiz plants
 """
 import json, os, sys
 from datetime import datetime, timezone
 
 PATH = os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'data-version.json')
-KEYS = ('dict', 'proverbs', 'quiz')
+KEYS = ('dict', 'proverbs', 'quiz', 'plants')
 
 keys = sys.argv[1:] or list(KEYS)
 bad = [k for k in keys if k not in KEYS]

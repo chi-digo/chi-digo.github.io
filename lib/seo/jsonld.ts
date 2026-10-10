@@ -166,3 +166,47 @@ export function faqJsonLd(pairs: { question: string; answer: string }[]) {
     })),
   };
 }
+
+export function plantJsonLd(opts: {
+  name: string;
+  alternateNames: string[];
+  scientific: string | null;
+  authorship?: string | null;
+  rank?: 'species' | 'genus';
+  family?: string | null;
+  description: string;
+  sameAs: string[];
+  path: string;
+  locale?: Locale;
+}) {
+  const url = opts.locale ? localePath(opts.path, opts.locale) : opts.path;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Taxon',
+    name: opts.scientific ?? opts.name,
+    alternateName: [opts.name, ...opts.alternateNames].filter((n, i, a) => n && a.indexOf(n) === i),
+    ...(opts.authorship ? { author: opts.authorship } : {}),
+    ...(opts.scientific ? { taxonRank: opts.rank === 'genus' ? 'genus' : 'species' } : {}),
+    ...(opts.family ? { parentTaxon: { '@type': 'Taxon', name: opts.family, taxonRank: 'family' } } : {}),
+    description: opts.description,
+    ...(opts.sameAs.length ? { sameAs: opts.sameAs } : {}),
+    url: `${SITE_URL}${url}`,
+    isPartOf: {
+      '@type': 'DefinedTermSet',
+      name: 'Coastal Plants of Digo Country',
+      url: `${SITE_URL}/culture/ecology/plants`,
+    },
+  };
+}
+
+export function plantCollectionJsonLd(count: number) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    name: 'Coastal Plants of Digo Country',
+    description: `${count} plants of the Kenya south coast with their names in Chidigo, Kiswahili and English, scientific names, and how the Digo use them.`,
+    url: `${SITE_URL}/culture/ecology/plants`,
+    inLanguage: ['dg', 'sw', 'en'],
+    publisher: PUBLISHER,
+  };
+}

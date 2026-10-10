@@ -1,0 +1,387 @@
+/* Plants reference (spec 33). Shared layout comes from the proverbs stylesheet;
+   these are the pieces proverbs don't have. */
+
+.cardSci {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  margin: 0.15rem 0 0;
+}
+
+.cardTeaser {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--fg);
+  margin: 0.5rem 0 0;
+}
+
+.chip {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  color: #8a4b00;
+  background: rgba(196, 154, 74, 0.18);
+}
+
+.featuredSci {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  opacity: 0.75;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.letterDisabled {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
+}
+
+.helpSection {
+  margin-top: 3rem;
+}
+
+.helpIntro {
+  font-family: var(--font-serif);
+  color: var(--fg-muted);
+  margin: 0 0 1rem;
+}
+
+.helpList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.helpItem {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  padding: 0.35rem 0.7rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--fg);
+}
+
+.helpItem:hover {
+  background: var(--color-coral-lime-sand);
+}
+
+/* ===== Plant page ===== */
+
+.headerNames {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--fg-muted);
+  margin: 0.25rem 0 0;
+}
+
+.headerSci {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--fg-muted);
+  margin: 0.15rem 0 0;
+}
+
+.altNames {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--fg-muted);
+  margin: 0.35rem 0 0;
+}
+
+.summary {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 1.5rem 0 0;
+}
+
+.notice {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: rgba(45, 55, 120, 0.06);
+  color: var(--fg);
+  margin: 1rem 0 0;
+}
+
+.callout {
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--color-mnazi-gold);
+  background: rgba(196, 154, 74, 0.1);
+}
+
+.calloutTitle {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+
+.proposals {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-serif);
+}
+
+.proposals li {
+  margin: 0.25rem 0;
+}
+
+.proposalSource {
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+}
+
+.calloutAction {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  margin: 0.75rem 0 0;
+}
+
+.namesPanel {
+  margin: 1.5rem 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  background: #fff;
+  padding: 0.75rem 1rem;
+}
+
+.namesRow {
+  display: grid;
+  grid-template-columns: minmax(7rem, 30%) 1fr;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+}
+
+.namesRow:last-child {
+  border-bottom: none;
+}
+
+.namesLabel {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  padding-top: 0.2rem;
+}
+
+.namesNote {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  margin: 0.4rem 0 0;
+}
+
+.refLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  margin-top: 0.3rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+}
+
+.refLinks a {
+  color: var(--color-kaya-indigo);
+}
+
+.prose {
+  margin: 2rem 0 0;
+}
+
+.proseHeading {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+}
+
+.prose p {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 0.85rem;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+/* Parts of the plant */
+
+.partGroupLabel {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-kaya-indigo);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.partList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partItem {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.partTerm {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.partEq {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  margin-left: 0.5rem;
+}
+
+.partDef {
+  font-family: var(--font-serif);
+  font-size: 0.97rem;
+  line-height: 1.55;
+  margin: 0.2rem 0 0;
+}
+
+.partMeta {
+  font-family: var(--font-serif);
+  font-size: 0.88rem;
+  color: var(--fg-muted);
+  margin: 0.2rem 0 0;
+}
+
+.stages {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding: 0.25rem 0 0.75rem;
+  scroll-snap-type: x proximity;
+}
+
+.stage {
+  flex: 0 0 min(15rem, 75vw);
+  scroll-snap-align: start;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+}
+
+.stageNum {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-mnazi-gold);
+}
+
+.sources {
+  margin: 2rem 0 0;
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+
+.sources summary {
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.sources ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.contribute {
+  margin: 2rem 0 0;
+  font-family: var(--font-serif);
+  color: var(--fg-muted);
+  font-size: 0.95rem;
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.shareBtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.copied {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+/* Glossary */
+
+.glossaryItem {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.glossaryLink {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-kaya-indigo);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.partGroup summary {
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.stage .partDef,
+.stage .partMeta {
+  font-size: 0.88rem;
+}
