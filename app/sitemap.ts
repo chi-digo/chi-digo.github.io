@@ -4,6 +4,15 @@ import { historyDomain } from '@/lib/history/content';
 import { oralTraditionsDomain } from '@/lib/language/content';
 import { localePath } from '@/lib/i18n/locale-path';
 import { DIGO_ALPHABET } from '@/lib/constants';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { PROVERB_THEMES } from '@/lib/proverbs/themes';
+import { PLANT_THEMES } from '@/lib/plants/themes';
+
+function slugs(file: string): string[] {
+  const rows = JSON.parse(readFileSync(join(process.cwd(), 'public/data', file), 'utf-8')) as { slug: string }[];
+  return rows.map((r) => r.slug);
+}
 
 const SITE_URL = 'https://chidigo.org';
 const LAST_MOD = '2026-06-11';
@@ -47,6 +56,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Plants reference (spec 33).
+  urls.push(entry('/culture/ecology/plants', { priority: 0.8, changeFrequency: 'weekly' }));
+  urls.push(entry('/culture/ecology/plants/parts', { priority: 0.6 }));
+  for (const t of PLANT_THEMES) urls.push(entry(`/culture/ecology/plants/theme/${t.slug}`));
+  for (const letter of DIGO_ALPHABET) urls.push(entry(`/culture/ecology/plants/letter/${letter.toLowerCase()}`, { priority: 0.5 }));
+  for (const slug of slugs('plants/index.json')) urls.push(entry(`/culture/ecology/plants/${encodeURIComponent(slug)}`, { priority: 0.6 }));
+
   urls.push(entry('/history', { priority: 0.8, changeFrequency: 'weekly' }));
   for (const t of historyDomain.topics) {
     urls.push(entry(`/history/${t.slug}`));
@@ -58,6 +74,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   urls.push(entry('/language/proverbs', { priority: 0.8, changeFrequency: 'weekly' }));
+  for (const t of PROVERB_THEMES) urls.push(entry(`/language/proverbs/theme/${t.slug}`));
+  for (const slug of slugs('proverbs/index.json')) urls.push(entry(`/language/proverbs/${encodeURIComponent(slug)}`, { priority: 0.6 }));
   urls.push(entry('/language/quiz', { priority: 0.7, changeFrequency: 'monthly' }));
 
   urls.push(entry('/language/dictionary', { priority: 0.8, changeFrequency: 'weekly' }));

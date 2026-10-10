@@ -18,6 +18,7 @@ declare const self: ServiceWorkerGlobalScope;
 
 const CACHE_DICT = 'chidigo-dict';
 const CACHE_PROVERBS = 'chidigo-proverbs';
+const CACHE_PLANTS = 'chidigo-plants';
 const CACHE_QUIZ = 'chidigo-quiz';
 const CACHE_CONTENT = 'chidigo-content';
 const CACHE_PAGES = 'chidigo-pages';
@@ -31,6 +32,7 @@ const CORE_PAGES = ['', '/sw', '/dg'].flatMap((prefix) => [
   `${prefix}/language`,
   `${prefix}/language/dictionary`,
   `${prefix}/language/proverbs`,
+  `${prefix}/culture/ecology/plants`,
   `${prefix}/language/quiz`,
 ]);
 
@@ -60,6 +62,10 @@ const serwist = new Serwist({
     {
       matcher: ({ url }) => /^\/data\/proverbs\/.*\.json$/.test(url.pathname),
       handler: new StaleWhileRevalidate({ cacheName: CACHE_PROVERBS }),
+    },
+    {
+      matcher: ({ url }) => /^\/data\/plants\/.*\.json$/.test(url.pathname),
+      handler: new StaleWhileRevalidate({ cacheName: CACHE_PLANTS }),
     },
     {
       matcher: ({ url }) => /^\/data\/quiz\/.*\.json$/.test(url.pathname),
@@ -102,6 +108,8 @@ serwist.addEventListeners();
 
 const LIGHTWEIGHT_DATA: Record<string, string> = {
   '/data/proverbs/index.json': CACHE_PROVERBS,
+  '/data/plants/index.json': CACHE_PLANTS,
+  '/data/plants/glossary.json': CACHE_PLANTS,
   '/data/quiz/quiz-bank.json': CACHE_QUIZ,
   '/data/content-index.json': CACHE_CONTENT,
   '/data/fuzzy-rules.json': CACHE_CONTENT,
@@ -234,6 +242,10 @@ self.addEventListener('activate', (event) => {
         }
         if (remote.quiz !== local.quiz) {
           await caches.delete(CACHE_QUIZ);
+          changed = true;
+        }
+        if (remote.plants !== local.plants) {
+          await caches.delete(CACHE_PLANTS);
           changed = true;
         }
         if (changed) {
