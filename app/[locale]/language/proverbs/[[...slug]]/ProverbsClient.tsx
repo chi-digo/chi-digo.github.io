@@ -641,12 +641,6 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
-        {Object.values(proverb.field_sources || {}).some((s) => s === 'ai-draft') && (
-          <Alert variant="info" style={{ marginTop: '1.5rem' }}>
-            {t.proverbs.ai_assisted}
-          </Alert>
-        )}
-
         <button type="button" className={styles.discoverBtn} onClick={handleDiscover}>
           {t.proverbs.discover_another}
         </button>
