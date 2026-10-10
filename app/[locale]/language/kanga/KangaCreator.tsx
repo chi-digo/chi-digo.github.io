@@ -1,6 +1,6 @@
 'use client';
 
-import { useReducer, useCallback } from 'react';
+import { useReducer, useCallback, useState } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { track } from '@/lib/analytics/track';
 import { StepIndicator } from './StepIndicator';
@@ -108,13 +108,28 @@ interface Props {
   proverbs: ProverbStub[];
 }
 
+// Step 2 has three sub-tabs; Next/Back walk through them before leaving the step
+// so people see the border and centre options too (ISSUES K-3).
+const STYLE_TAB_COUNT = 3;
+
+function scrollToStyleTabs() {
+  document.getElementById('kanga-style-tabs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 export function KangaCreator({ proverbs }: Props) {
   const [state, dispatch] = useReducer(reducer, INITIAL_STATE);
+  const [styleTab, setStyleTab] = useState(0);
   const t = useTranslations();
   const { locale } = useLocale();
 
   const goNext = useCallback(() => {
+    if (state.step === 2 && styleTab < STYLE_TAB_COUNT - 1) {
+      setStyleTab(styleTab + 1);
+      scrollToStyleTabs();
+      return;
+    }
     if (state.step < 3) {
+      if (state.step === 1) setStyleTab(0);
       const nextStep = (state.step + 1) as 1 | 2 | 3;
       dispatch({ type: 'SET_STEP', step: nextStep });
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -132,14 +147,25 @@ export function KangaCreator({ proverbs }: Props) {
         });
       }
     }
-  }, [state, locale]);
+  }, [state, locale, styleTab]);
 
   const goBack = useCallback(() => {
+    if (state.step === 2 && styleTab > 0) {
+      setStyleTab(styleTab - 1);
+      scrollToStyleTabs();
+      return;
+    }
+    if (state.step === 3) setStyleTab(STYLE_TAB_COUNT - 1);
     if (state.step > 1) {
       dispatch({ type: 'SET_STEP', step: (state.step - 1) as 1 | 2 | 3 });
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [state.step]);
+  }, [state.step, styleTab]);
+
+  const nextStyleTabLabel = [t.kanga.border_motif, t.kanga.center_layout][styleTab];
+  const nextLabel = state.step === 2 && styleTab < STYLE_TAB_COUNT - 1
+    ? `${t.kanga.next}: ${nextStyleTabLabel}`
+    : t.kanga.next;
 
   const resolvedPalette = state.palette === 'custom'
     ? state.customPalette
@@ -201,6 +227,8 @@ export function KangaCreator({ proverbs }: Props) {
               onSetPindo={(m) => dispatch({ type: 'SET_PINDO', motif: m })}
               onSetComposition={(c) => dispatch({ type: 'SET_COMPOSITION', composition: c })}
               onSetMjiMotif={(m) => dispatch({ type: 'SET_MJI_MOTIF', motif: m })}
+              styleTab={styleTab}
+              onStyleTabChange={setStyleTab}
             />
           )}
           {state.step === 3 && (
@@ -217,13 +245,20 @@ export function KangaCreator({ proverbs }: Props) {
           )}
         </div>
 
-        {/* Navigation */}
+        {/* Navigation: pinned to the bottom of the viewport so Back/Next are always visible (ISSUES K-2) */}
         <div style={{
+          position: 'sticky',
+          bottom: 0,
+          zIndex: 20,
           display: 'flex',
           justifyContent: 'space-between',
+          alignItems: 'center',
           marginTop: '2rem',
-          paddingTop: '1.5rem',
+          paddingTop: '0.875rem',
+          paddingBottom: 'calc(0.875rem + env(safe-area-inset-bottom))',
+          background: 'var(--bg-page)',
           borderTop: '1px solid rgba(14, 26, 42, 0.1)',
+          boxShadow: '0 -8px 16px -12px rgba(14, 26, 42, 0.25)',
         }}>
           <button
             onClick={goBack}
@@ -260,7 +295,7 @@ export function KangaCreator({ proverbs }: Props) {
                 transition: 'opacity 0.15s',
               }}
             >
-              {t.kanga.next} →
+              {nextLabel} →
             </button>
           )}
         </div>

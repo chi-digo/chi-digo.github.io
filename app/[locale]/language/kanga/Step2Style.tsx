@@ -25,6 +25,9 @@ interface Props {
   onSetPindo: (motif: string) => void;
   onSetComposition: (composition: MjiComposition) => void;
   onSetMjiMotif: (motif: string) => void;
+  /** Active sub-tab (0 colour, 1 border, 2 centre); driven by the creator's Next/Back. */
+  styleTab: number;
+  onStyleTabChange: (index: number) => void;
 }
 
 const COMP_LABEL_KEYS: Record<MjiComposition, keyof Messages['kanga']> = {
@@ -277,6 +280,8 @@ export function Step2Style({
   onSetPindo,
   onSetComposition,
   onSetMjiMotif,
+  styleTab,
+  onStyleTabChange,
 }: Props) {
   const t = useTranslations();
   const currentPalette = resolvedPalette ?? PALETTES[palette];
@@ -295,7 +300,12 @@ export function Step2Style({
 
       <LivePreview fumbo={fumbo} palette={palette} resolvedPalette={resolvedPalette} pindoMotif={pindoMotif} mjiComposition={mjiComposition} mjiMotif={mjiMotif} />
 
+      {/* Tabs is uncontrolled, so it's remounted on the active index the creator drives. */}
+      <div id="kanga-style-tabs" style={{ scrollMarginTop: 'calc(var(--header-height, 64px) + 1rem)' }}>
       <Tabs
+        key={styleTab}
+        defaultIndex={styleTab}
+        onTabChange={(index) => onStyleTabChange(index)}
         items={[
           {
             label: t.kanga.color_scheme,
@@ -515,6 +525,7 @@ export function Step2Style({
           },
         ]}
       />
+      </div>
     </div>
   );
 }

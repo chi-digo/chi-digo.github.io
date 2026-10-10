@@ -26,6 +26,35 @@ export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props
         {t.kanga.choose_message_description}
       </p>
 
+      {/* The current choice sits above the tabs so it stays in view (ISSUES K-1). */}
+      {fumbo.trim() && (
+        <div style={{
+          marginBottom: 'var(--space-6)',
+          padding: 'var(--space-4)',
+          background: 'var(--bg-surface)',
+          borderRadius: 'var(--radius-md)',
+          border: 'var(--border-width-thin) solid var(--border-default)',
+        }}>
+          <div style={{
+            fontSize: 'var(--text-xs)',
+            fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
+            color: 'var(--fg-muted)',
+            marginBottom: 'var(--space-1)',
+            textTransform: 'uppercase',
+            letterSpacing: 'var(--tracking-wider)',
+          }}>
+            {t.kanga.your_fumbo}
+          </div>
+          <div style={{
+            fontSize: 'var(--text-lg)',
+            color: 'var(--fg-default)',
+            fontFamily: 'var(--font-display)',
+          }}>
+            {fumbo}
+          </div>
+        </div>
+      )}
+
       <Tabs
         items={[
           {
@@ -63,33 +92,6 @@ export function Step1Message({ proverbs, fumbo, fumboSource, onSetFumbo }: Props
         defaultIndex={fumboSource === 'custom' && fumbo.length > 0 ? 1 : 0}
       />
 
-      {fumbo.trim() && (
-        <div style={{
-          marginTop: 'var(--space-6)',
-          padding: 'var(--space-4)',
-          background: 'var(--bg-surface)',
-          borderRadius: 'var(--radius-md)',
-          border: 'var(--border-width-thin) solid var(--border-default)',
-        }}>
-          <div style={{
-            fontSize: 'var(--text-xs)',
-            fontWeight: 'var(--weight-medium)' as React.CSSProperties['fontWeight'],
-            color: 'var(--fg-muted)',
-            marginBottom: 'var(--space-1)',
-            textTransform: 'uppercase',
-            letterSpacing: 'var(--tracking-wider)',
-          }}>
-            {t.kanga.your_fumbo}
-          </div>
-          <div style={{
-            fontSize: 'var(--text-lg)',
-            color: 'var(--fg-default)',
-            fontFamily: 'var(--font-display)',
-          }}>
-            {fumbo}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
