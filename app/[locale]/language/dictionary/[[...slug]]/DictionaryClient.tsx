@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
+import { localePath, pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
@@ -757,16 +758,20 @@ function HomeView({ nav }: { nav: Navigate }) {
 
 function DictionaryRouter() {
   const pathname = usePathname();
+  const { locale } = useLocale();
   const searchParams = useSearchParams();
   const router = useRouter();
   const q = searchParams.get('q');
   const t = useTranslations();
-  const nav: Navigate = useCallback((path: string) => router.push(path), [router]);
+  // Keep the reader in their language when moving between views.
+  const nav: Navigate = useCallback((path: string) => router.push(localePath(path, locale)), [router, locale]);
 
   const slug = useMemo(() => {
+    // pathname carries the locale prefix (/sw/…, /dg/…); match on the bare path.
+    const bare = pathnameWithoutLocale(pathname);
     const prefix = '/language/dictionary';
-    if (!pathname.startsWith(prefix)) return [];
-    const rest = pathname.slice(prefix.length).replace(/^\//, '');
+    if (!bare.startsWith(prefix)) return [];
+    const rest = bare.slice(prefix.length).replace(/^\//, '');
     if (!rest) return [];
     return rest.split('/').map(decodeURIComponent);
   }, [pathname]);
