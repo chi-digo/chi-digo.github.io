@@ -24,7 +24,7 @@ type Navigate = (path: string) => void;
 const LANG_LABELS: Record<string, string> = {
   dg: 'Chidigo',
   sw: 'Chiswahili',
-  en: 'Chiingereza',
+  en: 'Chingereza',
 };
 
 function goToProverb(nav: Navigate, slug: string) {

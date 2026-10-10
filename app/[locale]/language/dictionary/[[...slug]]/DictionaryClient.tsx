@@ -22,7 +22,7 @@ let sessionWordCount = 0;
 const LANG_LABELS: Record<string, string> = {
   dg: 'Chidigo',
   sw: 'Chiswahili',
-  en: 'Chiingereza',
+  en: 'Chingereza',
 };
 
 const IDX_FILES = [
