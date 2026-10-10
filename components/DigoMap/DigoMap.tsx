@@ -25,8 +25,11 @@ const BOUNDS: [[number, number], [number, number]] = [
   [-5.3, 39.75],
 ];
 
+// CARTO basemaps require an API key on every tile URL (anonymous use was
+// switched off in 2026). The key is public by design; set NEXT_PUBLIC_CARTO_KEY.
+const CARTO_KEY = process.env.NEXT_PUBLIC_CARTO_KEY;
 const TILE_URL =
-  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+  `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png${CARTO_KEY ? `?key=${CARTO_KEY}` : ''}`;
 const TILE_ATTR =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
 
