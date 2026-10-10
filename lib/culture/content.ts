@@ -707,7 +707,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mawimbi ga dhoruba ganainjira makaya ga pwani. Misimu mire ya chiangazi inahenda matsaka kukala hatarini zaidi kpwa moho — hatari ambayo kare tayamanyikana kpwenye ukanda wa matsaka ga pwani genye unyevu. Makaya gakulira photsi ya hali mahususi za hewa. Hali hizo zichibadilika, matsaka gandabadilika — na si aina zosi zindatsupa mabadiliko hinyo."
+              "text": "Mawimbi ga dhoruba ganainjira makaya ga pwani. Misimu mire ya kazikazi inahenda matsaka kukala hatarini zaidi kpwa moho — hatari ambayo kare tayamanyikana kpwenye ukanda wa matsaka ga pwani genye unyevu. Makaya gakulira photsi ya hali mahususi za hewa. Hali hizo zichibadilika, matsaka gandabadilika — na si aina zosi zindatsupa mabadiliko hinyo."
             },
             {
               "type": "heading",
@@ -2615,7 +2615,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kabila ya kahi-kahi ya karne ya mirongo miri, matukio ga muziki ga ajabu zaidi kpwa pwani ya Kenya gakala mashindano ga *beni ngoma*. Beni — kula kpwa neno ra Chiingereza \"band\" — yazuka kpwa miaka ya 1890 wakati jamii za Chiswahili za midzini ziriphoumba aina ya ngoma ya mashindano iriyoiga mazoezi ga chijeshi phamwenga na muziki wa bendi za tarumbeta. Timu za mtaa zatunga mawira maphya, zatengeza nguwo na magari ga mapambo, na zashindana mbere za maelfu ga atu anaororera."
+              "text": "Kabila ya kahi-kahi ya karne ya mirongo miri, matukio ga muziki ga ajabu zaidi kpwa pwani ya Kenya gakala mashindano ga *beni ngoma*. Beni — kula kpwa neno ra Chingereza \"band\" — yazuka kpwa miaka ya 1890 wakati jamii za Chiswahili za midzini ziriphoumba aina ya ngoma ya mashindano iriyoiga mazoezi ga chijeshi phamwenga na muziki wa bendi za tarumbeta. Timu za mtaa zatunga mawira maphya, zatengeza nguwo na magari ga mapambo, na zashindana mbere za maelfu ga atu anaororera."
             },
             {
               "type": "paragraph",
@@ -12151,7 +12151,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Dzambo kulu kpwenye elimu ni kuikpwa kpwa kufundza kpwa luga ya mayo ya Chidigo kpwa madarasa ga mwandzo kpwenye Mtaala wa Umahiri wa Kenya. Maofisa a elimu kama 60 na alimu kama 100 akafundzwa kupha mafundzo ga Chidigo kula darasa ra kpwandza hadi ra hahu. Vitu vya kufundzira vikatengezwa kpwa kushirikiana na shirika ra Bible Translation and Literacy. Ela, programu hino inakutana na vikwazo: alimu achache anaweza kuandika Chidigo kpwa ufasaha, kufundza kpwa Chidigo takuenderera zaidi ya darasa ra hahu, na Chiswahili na Chiingereza vinatawala kula darasa ra nne na kuenderera. Matokeo ga higo ni kukala ana anaandza elimu yao kpwa luga yao ya mayo chisha anagaluka gafula kuphiya luga ambazo anji ao taadzangbwezimanya."
+              "text": "Dzambo kulu kpwenye elimu ni kuikpwa kpwa kufundza kpwa luga ya mayo ya Chidigo kpwa madarasa ga mwandzo kpwenye Mtaala wa Umahiri wa Kenya. Maofisa a elimu kama 60 na alimu kama 100 akafundzwa kupha mafundzo ga Chidigo kula darasa ra kpwandza hadi ra hahu. Vitu vya kufundzira vikatengezwa kpwa kushirikiana na shirika ra Bible Translation and Literacy. Ela, programu hino inakutana na vikwazo: alimu achache anaweza kuandika Chidigo kpwa ufasaha, kufundza kpwa Chidigo takuenderera zaidi ya darasa ra hahu, na Chiswahili na Chingereza vinatawala kula darasa ra nne na kuenderera. Matokeo ga higo ni kukala ana anaandza elimu yao kpwa luga yao ya mayo chisha anagaluka gafula kuphiya luga ambazo anji ao taadzangbwezimanya."
             },
             {
               "type": "heading",
@@ -12191,7 +12191,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa kukala atu ane kahi ya atsano ni a tsini ya miaka 34, mgawanyo wa vizazi ndio mstari muhimu zaidi wa mivutano kpwenye idadi ya atu a Adigo. Adigo akulu anagomba Chidigo dza luga yao ya kpwandza, anashiriki kpwenye sherehe za kaya, na anadumisha desturi za fuko na mazoea ga kare ambago gakatengeza jamii kpwa karne nyinji. Adigo adide anavutiwa ni Chiswahili, Chiingereza, na Sheng — luga ya midzini ambayo ni luga ya kawaida ya adide a Kenya. Mazoea ga kare dza mila ya *sengenya* ya kufikira ukulu tagamanyikana sana ni adide. Maisha ga chidijitali — WhatsApp, Facebook, TikTok — ndiyo njira kulu ya kushiriki kpwa chitamaduni kpwa adide ariounganishwa, dzagbwe kuphaha intaneti vidzidzini bado ni kuchache sana kpwa kama asilimia 13.7. Swali ra kukala adide andatsukula mbere utambulisho wa chitamaduni ambao akare ao anagbwira si ra kubembeleza. Ni ukpweli wa idadi ya atu ambao undaamuwa mustakabali wa Adigo dza atu a tafwauti."
+              "text": "Kpwa kukala atu ane kahi ya atsano ni a tsini ya miaka 34, mgawanyo wa vizazi ndio mstari muhimu zaidi wa mivutano kpwenye idadi ya atu a Adigo. Adigo akulu anagomba Chidigo dza luga yao ya kpwandza, anashiriki kpwenye sherehe za kaya, na anadumisha desturi za fuko na mazoea ga kare ambago gakatengeza jamii kpwa karne nyinji. Adigo adide anavutiwa ni Chiswahili, Chingereza, na Sheng — luga ya midzini ambayo ni luga ya kawaida ya adide a Kenya. Mazoea ga kare dza mila ya *sengenya* ya kufikira ukulu tagamanyikana sana ni adide. Maisha ga chidijitali — WhatsApp, Facebook, TikTok — ndiyo njira kulu ya kushiriki kpwa chitamaduni kpwa adide ariounganishwa, dzagbwe kuphaha intaneti vidzidzini bado ni kuchache sana kpwa kama asilimia 13.7. Swali ra kukala adide andatsukula mbere utambulisho wa chitamaduni ambao akare ao anagbwira si ra kubembeleza. Ni ukpweli wa idadi ya atu ambao undaamuwa mustakabali wa Adigo dza atu a tafwauti."
             }
           ]
         }
@@ -13340,7 +13340,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chidigo chinachogombwa Kenya na Tanzania chinasala chinachoelewana — ela tafwauti za lahaja zikazuka. Adigo a Kenya anakopa kpwa uhuru zaidi kula Chiingereza, wakati Adigo a Tanzania anahumira zaidi Chiswahili sanifu. Adigo osi kpwa unji ni Aislamu, na Uislamu unahumirwa dza nguvu ya kuunganisha yenye nguvu. Ela mazingira ga chisiasa ga tafwauti ganaumba njira dini inavyodzionyesa kpwa maisha ga hadharani."
+              "text": "Chidigo chinachogombwa Kenya na Tanzania chinasala chinachoelewana — ela tafwauti za lahaja zikazuka. Adigo a Kenya anakopa kpwa uhuru zaidi kula Chingereza, wakati Adigo a Tanzania anahumira zaidi Chiswahili sanifu. Adigo osi kpwa unji ni Aislamu, na Uislamu unahumirwa dza nguvu ya kuunganisha yenye nguvu. Ela mazingira ga chisiasa ga tafwauti ganaumba njira dini inavyodzionyesa kpwa maisha ga hadharani."
             },
             {
               "type": "paragraph",
@@ -13356,11 +13356,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chidigo chinachogombwa Kenya na Chidigo chinachogombwa Tanzania bado vinaelewana — Mudigo kula uphande wowosi wa mphaka anaweza kumuelewa Mudigo kula uphande wanjina bila ugumu. Ela miongo kadhaa ya kutengana ikareha tafwauti za chilahaja ambazo mutu yeyesi anayegomba Chidigo andaziona. Msamiati ukabadilika ambapho jamii hizi mbiri zikahala maneno ga kukopwa ga tafwauti: Adigo a Kenya anakopa kpwa uhuru zaidi kula Chiingereza, wakati Adigo a Tanzania anakuluphira zaidi Chiswahili sanifu. Mifumo ya matamshi inaonyesa tafwauti ndide. Miundo fulani ya chisarufi ambayo ni ya kawaida uphande mumwenga inaweza kukala ya nadra au kunyumbulishwa kpwa tafwauti uphande wanjina."
+              "text": "Chidigo chinachogombwa Kenya na Chidigo chinachogombwa Tanzania bado vinaelewana — Mudigo kula uphande wowosi wa mphaka anaweza kumuelewa Mudigo kula uphande wanjina bila ugumu. Ela miongo kadhaa ya kutengana ikareha tafwauti za chilahaja ambazo mutu yeyesi anayegomba Chidigo andaziona. Msamiati ukabadilika ambapho jamii hizi mbiri zikahala maneno ga kukopwa ga tafwauti: Adigo a Kenya anakopa kpwa uhuru zaidi kula Chingereza, wakati Adigo a Tanzania anakuluphira zaidi Chiswahili sanifu. Mifumo ya matamshi inaonyesa tafwauti ndide. Miundo fulani ya chisarufi ambayo ni ya kawaida uphande mumwenga inaweza kukala ya nadra au kunyumbulishwa kpwa tafwauti uphande wanjina."
             },
             {
               "type": "paragraph",
-              "text": "Tafwauti zizi zinaimizwa ni sera za luga za tafwauti za tsi zizo mbiri. Kpwa Tanzania, Chiswahili ni luga ya chitaifa isiyopingwa na ni luga ya kufundzira kahi ya shule za msingi. Ihi inareha mashinikizo makulu kuelekea utawala wa Chiswahili, na Chidigo, dza luga zanjina za achache kpwa Tanzania, chinahenda kazi tsini ya chivuli cha luga ya chitaifa yenye hishima na msada wa chitaasisi mkulu zaidi. Kpwa Kenya, ingawa Chiswahili piya ni luga ya chitaifa, Chiingereza china jukumu kulu zaidi kahi ya elimu na maisha ga uma, na uhusiano wa Chidigo na luga zinazotawala ukapangwa kpwa tafwauti. Matokeoge ni kukala Adigo a Tanzania anaweza kukala, kpwa wastani, enye ujuzi zaidi wa luga mbiri kahi ya Chiswahili, wakati Adigo a Kenya anatsupira mandhari ngumu zaidi ya luga tahu ya Chidigo, Chiswahili, na Chiingereza."
+              "text": "Tafwauti zizi zinaimizwa ni sera za luga za tafwauti za tsi zizo mbiri. Kpwa Tanzania, Chiswahili ni luga ya chitaifa isiyopingwa na ni luga ya kufundzira kahi ya shule za msingi. Ihi inareha mashinikizo makulu kuelekea utawala wa Chiswahili, na Chidigo, dza luga zanjina za achache kpwa Tanzania, chinahenda kazi tsini ya chivuli cha luga ya chitaifa yenye hishima na msada wa chitaasisi mkulu zaidi. Kpwa Kenya, ingawa Chiswahili piya ni luga ya chitaifa, Chingereza china jukumu kulu zaidi kahi ya elimu na maisha ga uma, na uhusiano wa Chidigo na luga zinazotawala ukapangwa kpwa tafwauti. Matokeoge ni kukala Adigo a Tanzania anaweza kukala, kpwa wastani, enye ujuzi zaidi wa luga mbiri kahi ya Chiswahili, wakati Adigo a Kenya anatsupira mandhari ngumu zaidi ya luga tahu ya Chidigo, Chiswahili, na Chingereza."
             },
             {
               "type": "heading",
@@ -13890,7 +13890,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ela gharama ya chimila ya Nairobi ni kulu zaidi kuriko gharama ya chimila ya Mombasa. Kpwa Nairobi, Adigo ni achache kahi ya mudzi unaotawaliwa ni makabila ga bara — Akikuyu, Aluo, Aluhya, Akamba — ambao uwepo wao wa chimila ni mkulu sana. Taphana jirani ya Chidigo, taphana jamii ya msikiti ya Chidigo kulu ya kutosha kudumisha miundombinu ya chidzamii ya utambuzi. Luga inafifia haraka zaidi. Ana anamanya chidide zaidi. Umbali kula Kwale — wa chimwiri na wa chisaikolojia — ni mkulu zaidi. Adigo a Nairobi anadumisha utambuzi wao kpwa juhudi za makusudi: mikutano ya mwisho wa wiki, safari za likizo kuphiya kaya, vikundi vya WhatsApp vinavyosambaza habari kula Kwale, azimio ra kugomba Chidigo na ana ao hata ana anaphopendelea Chiswahili au Chiingereza zaidi."
+              "text": "Ela gharama ya chimila ya Nairobi ni kulu zaidi kuriko gharama ya chimila ya Mombasa. Kpwa Nairobi, Adigo ni achache kahi ya mudzi unaotawaliwa ni makabila ga bara — Akikuyu, Aluo, Aluhya, Akamba — ambao uwepo wao wa chimila ni mkulu sana. Taphana jirani ya Chidigo, taphana jamii ya msikiti ya Chidigo kulu ya kutosha kudumisha miundombinu ya chidzamii ya utambuzi. Luga inafifia haraka zaidi. Ana anamanya chidide zaidi. Umbali kula Kwale — wa chimwiri na wa chisaikolojia — ni mkulu zaidi. Adigo a Nairobi anadumisha utambuzi wao kpwa juhudi za makusudi: mikutano ya mwisho wa wiki, safari za likizo kuphiya kaya, vikundi vya WhatsApp vinavyosambaza habari kula Kwale, azimio ra kugomba Chidigo na ana ao hata ana anaphopendelea Chiswahili au Chingereza zaidi."
             },
             {
               "type": "heading",
@@ -14111,7 +14111,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani asagala kpwenye chumba Berlin na achichora msitari kpwa ramani ya Afrika ya Mashariki. Msitari uwo waandzira kpwenye mromo wa muho wa Umba, pwani ya Bahari ya Hindi, na waphiya bara kuelekea Ziya ra Victoria, uchiganya maeneo ambago badaye gakala Afrika ya Mashariki ya Chiingereza na Afrika ya Mashariki ya Chijerumani — badaye Kenya na Tanzania. Ajadili a Chizungu kare taadzangbwetembelea pwani ariyoiganya. Taamanya chochosi kuhusu Adigo ariokala aishi kanda-kanda ya pwani iyo kpwa karne nyinji, chochosi kuhusu mitandao ya ukoo iriyounganisha mbari kula Shimoni kazikazini hadi Tanga kusini, chochosi kuhusu matsaka matakatifu garigoshirikiwa, luga iriyoshirikiwa, na maisha ga sherehe garigoshirikiwa ambago gahenda Adigo akale atu amwenga. Msitari kpwa ramani ukakala mphaka. Mphaka ukakala ukpweli. Na Adigo akakala, usiku mmwenga, atu a mphakani — raia a tsi mbiri ambao taatsambula kuganywa."
+              "text": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani asagala kpwenye chumba Berlin na achichora msitari kpwa ramani ya Afrika ya Mashariki. Msitari uwo waandzira kpwenye mromo wa muho wa Umba, pwani ya Bahari ya Hindi, na waphiya bara kuelekea Ziya ra Victoria, uchiganya maeneo ambago badaye gakala Afrika ya Mashariki ya Chingereza na Afrika ya Mashariki ya Chijerumani — badaye Kenya na Tanzania. Ajadili a Chizungu kare taadzangbwetembelea pwani ariyoiganya. Taamanya chochosi kuhusu Adigo ariokala aishi kanda-kanda ya pwani iyo kpwa karne nyinji, chochosi kuhusu mitandao ya ukoo iriyounganisha mbari kula Shimoni kazikazini hadi Tanga kusini, chochosi kuhusu matsaka matakatifu garigoshirikiwa, luga iriyoshirikiwa, na maisha ga sherehe garigoshirikiwa ambago gahenda Adigo akale atu amwenga. Msitari kpwa ramani ukakala mphaka. Mphaka ukakala ukpweli. Na Adigo akakala, usiku mmwenga, atu a mphakani — raia a tsi mbiri ambao taatsambula kuganywa."
             },
             {
               "type": "paragraph",
@@ -14135,7 +14135,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Dzagbwe mphaka uripho na mazingira ga chitaifa ga tafwauti, mwendelezo wa chimila kahi ya Adigo a Kenya na Tanzania ni wa kushangaza. Chidigo — luga ya Adigo — chinagombwa phande zosi mbiri. Mutu anayegomba Chidigo kula Kwale andamwelewa mutu anayegomba Chidigo kula Mkinga bila taabu, dzagbwe tafwauti za lahaja zikazuka kpwa miongo ya kuganywa. Tafwauti izo zinafwanana na zira za Chiingereza cha Uingereza na cha Marekani: zinaonekana, wakati wanjina ni za kutseka, ela katu si chizuizi cha kuelewana."
+              "text": "Dzagbwe mphaka uripho na mazingira ga chitaifa ga tafwauti, mwendelezo wa chimila kahi ya Adigo a Kenya na Tanzania ni wa kushangaza. Chidigo — luga ya Adigo — chinagombwa phande zosi mbiri. Mutu anayegomba Chidigo kula Kwale andamwelewa mutu anayegomba Chidigo kula Mkinga bila taabu, dzagbwe tafwauti za lahaja zikazuka kpwa miongo ya kuganywa. Tafwauti izo zinafwanana na zira za Chingereza cha Uingereza na cha Marekani: zinaonekana, wakati wanjina ni za kutseka, ela katu si chizuizi cha kuelewana."
             },
             {
               "type": "paragraph",
