@@ -15,6 +15,8 @@ interface Rule {
   wrong: RegExp;
   right: string;
   ruling: string;
+  /** Limit the rule to files whose path matches (e.g. prose only, not the dictionary). */
+  only?: RegExp;
 }
 
 export const RULED_OUT: Rule[] = [
@@ -25,6 +27,13 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\busiogbwa makodza\b/i, right: 'wenye makodza chila wakati', ruling: 'round 3' },
   { wrong: /\bmizize\b/i, right: 'miziye', ruling: 'round 3: possessive on mi- nouns' },
   { wrong: /\bchichaka\b/i, right: 'chitsaka / vitsaka', ruling: 'round 3: shrub' },
+  { wrong: /\bimwenga\b/i, right: 'mwenga', ruling: 'round 4 (2026-10-12)' },
+  // Round 4 also rules unji over wingi, but wingi is ordinary Swahili and these files hold Swahili text too,
+  // so it can't be checked file-wide.
+  { wrong: /kpwa ku(?:pishana|phokezana)\b/i, right: 'kpwa kuphisana', ruling: 'round 4: alternate leaves' },
+  { wrong: /\b\w*lolana\b/i, right: 'lengana', ruling: 'round 4: opposite leaves' },
+  // kpwera stays in the dictionary (shown as the alternative to fyombera); prose uses fyombera.
+  { wrong: /\b\w*kpwera\b/i, right: 'fyombera', ruling: 'round 4: climb', only: /public\/data\/plants\// },
 ];
 
 const ROOT = process.cwd();
@@ -56,6 +65,7 @@ const problems: string[] = [];
 for (const file of sources()) {
   const text = readFileSync(file, 'utf-8');
   for (const rule of RULED_OUT) {
+    if (rule.only && !rule.only.test(file)) continue;
     const global = new RegExp(rule.wrong.source, rule.wrong.flags.includes('g') ? rule.wrong.flags : rule.wrong.flags + 'g');
     const hits = text.match(global);
     if (hits) {
