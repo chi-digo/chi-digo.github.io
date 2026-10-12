@@ -22,7 +22,7 @@ function detectLocale(pathname: string): { locale: Locale; strippedPath: string 
   return { locale: defaultLocale, strippedPath: pathname };
 }
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // API and auth routes bypass locale handling
