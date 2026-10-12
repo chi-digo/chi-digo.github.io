@@ -11,7 +11,10 @@
     "lint": "eslint",
     "validate:quiz": "tsx scripts/validate-quiz-bank.ts",
     "validate:plants": "tsx scripts/validate-plants.ts",
-    "check:digo": "tsx scripts/check-digo-standards.ts"
+    "check:digo": "tsx scripts/check-digo-standards.ts",
+    "test": "vitest run",
+    "test:db": "node scripts/test-db.mjs",
+    "test:flow": "tsx scripts/test-contributions-flow.ts"
   },
   "dependencies": {
     "@chi-digo/design-system": "0.3.4",
@@ -40,7 +43,8 @@
     "serwist": "^9.5.11",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.7"
   },
   "optionalDependencies": {
     "@emnapi/core": "1.11.3",
