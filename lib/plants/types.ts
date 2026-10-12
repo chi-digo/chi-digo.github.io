@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n/config';
+import type { Provenance } from '@/lib/contributions/apply/types';
 
 /** Text in the three site languages. sw/dg are null until translated (spec 33 §10). */
 export type L10n = Record<Locale, string | null> & { en: string };
@@ -52,6 +53,8 @@ export interface PlantStub {
   has_parts: boolean;
   has_prose: Record<Locale, boolean>;
   search_terms: string[];
+  /** Community changes to this record, by field (spec 34). Absent until something is contributed. */
+  provenance?: Provenance;
 }
 
 export type SectionKey = 'about' | 'where' | 'uses' | 'culture' | 'names' | 'conservation';
@@ -73,6 +76,8 @@ export interface Plant extends Omit<PlantStub, 'search_terms' | 'scientific' | '
   sources: string[];
   digo_proposals: { name: string; source: string; note?: string }[];
   name_credit: string | null;
+  /** Regional forms accepted from the community (spec 34 §8.3), each with its region and contribution id. */
+  digo_variants?: { form: string; region: string | null; c: string }[];
 }
 
 export interface GlossaryTerm {
