@@ -13,7 +13,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ are
     const changes = await getAreaOverlay(area);
     return NextResponse.json(
       { changes },
-      { headers: { 'Cache-Control': 'public, s-maxage=30, stale-while-revalidate=300' } },
+      // Browsers always revalidate (stale-while-revalidate would show a just-accepted change late);
+      // only the CDN keeps a copy, for a few seconds.
+      { headers: { 'Cache-Control': 'no-cache', 'CDN-Cache-Control': 'public, s-maxage=5' } },
     );
   } catch (err) {
     return serverError(err, 'overlay');

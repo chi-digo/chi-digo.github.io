@@ -47,7 +47,12 @@ export async function POST(request: Request) {
         .eq('type', 'plant_name')
         .eq('target_id', input.target_id!);
       if (openError) return serverError(openError, 'similar');
-      const similar = (open ?? []).find((c) => normaliseDigo(String(c.public_payload?.name ?? '')) === name);
+      const matches = (open ?? []).filter((c) => normaliseDigo(String(c.public_payload?.name ?? '')) === name);
+      // The caller's own earlier suggestion isn't "someone else's": skip it (they can't agree with it).
+      const { data: owners } = matches.length
+        ? await caller.db.from('contributions').select('id, user_id').in('id', matches.map((m) => m.id))
+        : { data: [] };
+      const similar = matches.find((m) => owners?.find((o) => o.id === m.id)?.user_id !== caller.id);
       if (similar) {
         return NextResponse.json({ inserted: false, similar: { id: similar.id, name: similar.public_payload.name } });
       }

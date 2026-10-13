@@ -1,7 +1,8 @@
 /// <reference lib="webworker" />
 
 import type { PrecacheEntry, SerwistGlobalConfig } from 'serwist';
-import { CacheFirst, ExpirationPlugin, NetworkFirst, Serwist, StaleWhileRevalidate } from 'serwist';
+import { CacheFirst, ExpirationPlugin, NetworkFirst, NetworkOnly, Serwist, StaleWhileRevalidate } from 'serwist';
+import { isPrivatePath } from '../lib/pwa/private-paths';
 
 interface NetworkInformation {
   readonly effectiveType: '2g' | '3g' | '4g' | 'slow-2g';
@@ -52,6 +53,11 @@ const serwist = new Serwist({
   clientsClaim: true,
   navigationPreload: false,
   runtimeCaching: [
+    // Must come first: the navigation rule below would otherwise cache these pages.
+    {
+      matcher: ({ url }) => url.origin === self.location.origin && isPrivatePath(url.pathname),
+      handler: new NetworkOnly(),
+    },
     {
       matcher: ({ request }) => request.mode === 'navigate',
       handler: new NetworkFirst({

@@ -1,4 +1,9 @@
+import type enMessages from './messages/en.json';
+
 export type Locale = 'en' | 'sw' | 'dg';
+
+type ContributeMessages = (typeof enMessages)['contribute'];
+type ReviewMessages = (typeof enMessages)['review'];
 
 export interface LocaleConfig {
   code: Locale;
@@ -583,6 +588,10 @@ export interface Messages {
     center_color: string;
     accent_color: string;
   };
+  /** Community contributions (spec 34): forms, panels, statuses, My contributions. */
+  contribute: ContributeMessages;
+  /** The review screen (spec 34 §8). English and Swahili first; Digo falls back to English. */
+  review: ReviewMessages;
   profile: {
     title: string;
     favourites: string;

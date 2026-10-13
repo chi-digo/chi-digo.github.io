@@ -1,4 +1,7 @@
+import * as Sentry from '@sentry/nextjs';
 import type { GlossaryTerm, Plant, PlantStub } from './types';
+import { applyAllToPlant, applyAllToStubs } from '@/lib/contributions/apply/plants';
+import type { Change, ConflictError } from '@/lib/contributions/apply/types';
 
 const cache = new Map<string, unknown>();
 
@@ -27,16 +30,63 @@ export function digoLetterKey(text: string): string {
   return lc.charAt(0);
 }
 
+/* ===== Community overlay (spec 34): accepted changes not yet in the data files ===== */
+
+let overlay: Promise<Change[]> | null = null;
+let mergedStubs: Promise<PlantStub[]> | null = null;
+const mergedPlants = new Map<string, Promise<Plant | null>>();
+
+/** Accepted changes for plants, fetched once per page load. Offline or failing: no changes. */
+export function plantOverlay(): Promise<Change[]> {
+  if (!overlay) {
+    overlay = fetch('/api/overlay/plant')
+      .then((r) => (r.ok ? r.json() : { changes: [] }))
+      .then((d: { changes?: Change[] }) => d.changes ?? [])
+      .catch(() => {
+        // Offline or failing: use the published data now, and try again on the next load.
+        overlay = null;
+        return [];
+      });
+  }
+  return overlay;
+}
+
+/** Forget the overlay, e.g. right after a reviewer accepts or reverts a change. */
+export function refreshPlantOverlay() {
+  overlay = null;
+  mergedStubs = null;
+  mergedPlants.clear();
+}
+
+function reportConflict(e: ConflictError) {
+  Sentry.captureMessage(e.message, { level: 'warning', tags: { feature: 'contributions', area: 'plant_overlay' } });
+}
+
 export async function loadPlants(): Promise<PlantStub[]> {
-  return fetchJson<PlantStub[]>('/data/plants/index.json');
+  if (!mergedStubs) {
+    mergedStubs = Promise.all([fetchJson<PlantStub[]>('/data/plants/index.json'), plantOverlay()]).then(([stubs, changes]) =>
+      applyAllToStubs(stubs, changes, reportConflict),
+    );
+    mergedStubs.catch(() => {
+      mergedStubs = null;
+    });
+  }
+  return mergedStubs;
 }
 
 export async function getPlant(slug: string): Promise<Plant | null> {
-  try {
-    return await fetchJson<Plant>(`/data/plants/p/${encodeURIComponent(slug)}.json`);
-  } catch {
-    return null;
+  if (!mergedPlants.has(slug)) {
+    mergedPlants.set(
+      slug,
+      Promise.all([fetchJson<Plant>(`/data/plants/p/${encodeURIComponent(slug)}.json`), plantOverlay()])
+        .then(([plant, changes]) => applyAllToPlant(plant, changes, reportConflict))
+        .catch(() => {
+          mergedPlants.delete(slug);
+          return null;
+        }),
+    );
   }
+  return mergedPlants.get(slug)!;
 }
 
 export async function loadGlossary(): Promise<GlossaryTerm[]> {

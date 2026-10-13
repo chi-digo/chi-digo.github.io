@@ -3,6 +3,7 @@
 import { useTranslations } from '@/lib/i18n/context';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { track } from '@/lib/analytics/track';
+import { FeedbackButton } from '@/components/Contribute/FeedbackButton';
 import styles from './Footer.module.css';
 
 function VigangoMark() {
@@ -92,6 +93,7 @@ export function Footer() {
             <h3 className={styles.columnHeading}>{t.footer.connect_heading}</h3>
             <ul className={styles.columnList}>
               <li><TrackedLink href="/contact" source="footer" className={styles.columnLink}>{t.footer.contact_link}</TrackedLink></li>
+              <li><FeedbackButton className={styles.columnLink} /></li>
             </ul>
             <div className={styles.socialRow}>
               {SOCIAL_LINKS.map(({ platform, href, Icon }) => (

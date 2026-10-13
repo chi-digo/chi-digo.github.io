@@ -5,6 +5,8 @@ import { useAuth } from '@/lib/auth/context';
 import { useTranslations } from '@/lib/i18n/context';
 import { track } from '@/lib/analytics/track';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
+import { useContributorStatus } from '@/lib/contributions/client';
+import { VisuallyHidden } from '@chi-digo/design-system';
 import styles from './UserMenu.module.css';
 
 function UserAvatar({ src, name }: { src?: string | null; name?: string | null }) {
@@ -31,6 +33,7 @@ function UserAvatar({ src, name }: { src?: string | null; name?: string | null }
 export function UserMenu() {
   const { user, signOut } = useAuth();
   const t = useTranslations();
+  const { status } = useContributorStatus();
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -85,9 +88,10 @@ export function UserMenu() {
         }}
         aria-haspopup="true"
         aria-expanded={open}
-        aria-label={displayName || t.profile.title}
+        aria-label={[displayName || t.profile.title, status?.unread ? t.contribute.unread.replace('{n}', String(status.unread)) : ''].filter(Boolean).join(', ')}
       >
         <UserAvatar src={avatarUrl} name={displayName} />
+        {!!status?.unread && <span className={styles.triggerDot} aria-hidden="true" />}
       </button>
 
       {open && (
@@ -98,6 +102,21 @@ export function UserMenu() {
               <span className={styles.email}>{user.email}</span>
             )}
           </div>
+          <div className={styles.divider} />
+          <TrackedLink href="/profile/contributions" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
+            {t.contribute.mine_title}
+            {!!status?.unread && (
+              <>
+                <span className={styles.dot} aria-hidden="true" />
+                <VisuallyHidden>{t.contribute.unread.replace('{n}', String(status.unread))}</VisuallyHidden>
+              </>
+            )}
+          </TrackedLink>
+          {(status?.role === 'admin' || status?.role === 'reviewer') && !status.blocked && (
+            <TrackedLink href="/review" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
+              {t.contribute.menu_review}
+            </TrackedLink>
+          )}
           <div className={styles.divider} />
           <div className={styles.menuRow}>
             <TrackedLink

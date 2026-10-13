@@ -33,8 +33,8 @@ export function loadPlant(slug: string): Plant | null {
   return JSON.parse(readFileSync(file, 'utf-8')) as Plant;
 }
 
-/** A stand-in plant for automated flow tests (never shown anywhere: test rows are excluded). */
-function testPlant(): Plant {
+/** A stand-in plant for automated tests (never listed; test rows are invisible elsewhere). */
+export function testPlant(): Plant {
   return {
     id: 'test', slug: TEST_TARGET, digo_headword: 'jina ra majaribio', digo_alt: [], english: 'Test plant', swahili: null,
     scientific: 'Testus plantus', family: null, section: 'test', themes: [], teaser: { en: 'Test', sw: null, dg: null },

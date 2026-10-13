@@ -139,7 +139,7 @@ export const submitSchema = z.object({
   credit_opt_in: z.boolean().default(false),
   recorded_for: recordedForSchema.optional(),
   locale: lang3,
-  page_path: z.string().max(300).regex(/^\/[\w/%.~-]*$/).optional(),
+  page_path: z.string().max(300).regex(/^\/(?!\/)[\w/%.~-]*$/).optional(),
   /** Submit even though a similar plant name is already suggested. */
   force_new: z.boolean().optional(),
 });

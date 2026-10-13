@@ -15,6 +15,11 @@ import { DIGO_ALPHABET } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
 import { Skeleton } from '@chi-digo/design-system';
 import type { Locale } from '@/lib/i18n/config';
+import { PlantNameForm, PlantInfoForm } from '@/components/Contribute/PlantForms';
+import { SuggestionsPanel, type PublicSuggestion } from '@/components/Contribute/SuggestionsPanel';
+import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
+import { msg, setResumeIntent, takeResumeIntent } from '@/lib/contributions/client';
+import contrib from '@/components/Contribute/Contribute.module.css';
 import base from '@/app/[locale]/language/proverbs/proverbs.module.css';
 import styles from '../plants.module.css';
 
@@ -457,6 +462,7 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
                 className={styles.helpItem}
                 onClick={() => {
                   track('plants', 'browse', 'click_name_wanted', { slug: p.slug, status: p.name_status });
+                  setResumeIntent({ form: 'plant_name', target_id: p.slug });
                   goToPlant(nav, p.slug);
                 }}
               >
@@ -526,13 +532,37 @@ function PartsSection({ parts, locale }: { parts: PlantPart[]; locale: Locale })
   );
 }
 
-function NamesPanel({ plant }: { plant: Plant }) {
+function NamesPanel({ plant, onSuggestName }: { plant: Plant; onSuggestName: () => void }) {
   const t = useTranslations();
+  const c = t.contribute;
   const tx = plant.taxon;
   const recordedAs = tx && (tx.status === 'SYNONYM' || !plant.scientific.toLowerCase().includes(tx.accepted_name.toLowerCase().replace('× ', '')));
   const linkLabels: Record<string, string> = { gbif: 'GBIF', powo: 'Plants of the World Online', ipni: 'IPNI', index_fungorum: 'Index Fungorum' };
   const rows: [string, ReactNode][] = [];
-  rows.push([t.plants.lang_digo, plant.digo ? <Rich as="span" text={plant.digo} /> : t.plants.digo_name_wanted]);
+  const communityName = plant.provenance?.digo_headword;
+  rows.push([
+    t.plants.lang_digo,
+    communityName ? (
+      <>
+        <em>{plant.digo_headword}</em>
+        <CreditLine ids={communityName.map((e) => e.c)} />
+        {plant.digo && <p className={styles.namesNote}><Rich as="span" text={plant.digo} /></p>}
+      </>
+    ) : plant.digo ? <Rich as="span" text={plant.digo} /> : t.plants.digo_name_wanted,
+  ]);
+  if (plant.digo_variants?.length) {
+    rows.push([
+      c.regional_forms,
+      <>
+        {plant.digo_variants.map((v) => (
+          <p key={v.c} className={styles.namesNote}>
+            <em>{v.form}</em>{v.region ? ` · ${msg(c, `region_${v.region}`)}` : ''}
+            <CreditLine ids={[v.c]} />
+          </p>
+        ))}
+      </>,
+    ]);
+  }
   if (plant.swahili) rows.push([t.plants.lang_swahili, plant.swahili]);
   if (plant.english) rows.push([t.plants.lang_english, plant.english]);
   if (plant.other_mijikenda) rows.push([t.plants.other_mijikenda, plant.other_mijikenda]);
@@ -561,7 +591,10 @@ function NamesPanel({ plant }: { plant: Plant }) {
           <span>{value}</span>
         </div>
       ))}
-      <p className={styles.namesNote}>{plant.name_status === 'confirmed' && plant.name_credit ? plant.name_credit : t.plants.names_unconfirmed}</p>
+      <p className={styles.namesNote}>{plant.name_status === 'confirmed' && plant.name_credit ? plant.name_credit : plant.name_status === 'confirmed' ? null : t.plants.names_unconfirmed}</p>
+      {plant.name_status !== 'missing' && plant.name_status !== 'conflict' && (
+        <button type="button" className={contrib.textBtn} onClick={onSuggestName}>{c.suggest_other_name}</button>
+      )}
     </div>
   );
 }
@@ -573,12 +606,19 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   const plant = loaded?.slug === slug ? loaded.plant : null;
   const loading = loaded?.slug !== slug;
   const related = relatedFor?.slug === slug ? relatedFor.items : [];
+  const [nameForm, setNameForm] = useState<{ prefill?: string } | null>(null);
+  const [infoForm, setInfoForm] = useState<SectionKey | null>(null);
+  const [panelKey, setPanelKey] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
     getPlant(slug).then(async (found) => {
       if (cancelled) return;
       setLoaded({ slug, plant: found });
+      // After signing in from a form (or "Help name these plants"), reopen that form with its draft.
+      const intent = found ? takeResumeIntent(found.slug) : null;
+      if (intent?.form === 'plant_name') setNameForm({});
+      if (intent?.form === 'plant_info' && intent.extra?.section) setInfoForm(intent.extra.section as SectionKey);
       track('plants', 'detail', found ? 'view' : 'not_found', { slug });
       if (found?.related.length) {
         const all = await loadPlants();
@@ -615,7 +655,32 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   const name = displayName({ ...plant, scientific: plant.taxon?.accepted_name ?? null });
   const summary = text(plant.summary, locale);
 
+  const openName = (prefill?: string) => {
+    track('contribute', 'plants', 'open_name', { slug: plant.slug });
+    setNameForm({ prefill });
+  };
+  const renderSuggestion = (sug: PublicSuggestion) => {
+    const p = sug.public_payload as Record<string, string | undefined>;
+    if (sug.type === 'plant_name') {
+      return (
+        <>
+          <em>{p.name}</em>
+          {p.other_names ? <span className={styles.proposalSource}> · {p.other_names}</span> : null}
+        </>
+      );
+    }
+    return (
+      <>
+        <span className={styles.proposalSource}>
+          {t.plants[(p.section ?? 'about') as SectionKey]} · {msg(t.contribute, `lang_${p.lang}`)}
+        </span>
+        <span style={{ display: 'block', whiteSpace: 'pre-line' }}>{p.text}</span>
+      </>
+    );
+  };
+
   return (
+    <CreditsProvider ids={provenanceIds(plant.provenance)}>
     <article className={base.detailArticle}>
       <div className={base.detailHeader}>
         <div>
@@ -639,19 +704,29 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
               </li>
             ))}
           </ul>
-          <p className={styles.calloutAction}>{t.plants.do_you_know} {t.plants.contribute}</p>
+          <button type="button" className={contrib.textBtn} onClick={() => openName()}>{t.contribute.suggest_name}</button>
         </div>
       )}
       {plant.name_status === 'missing' && (
         <div className={styles.callout}>
           <p className={styles.calloutTitle}>{t.plants.digo_name_wanted}</p>
-          <p className={styles.calloutAction}>{t.plants.do_you_know} {t.plants.contribute}</p>
+          <button type="button" className={contrib.textBtn} onClick={() => openName()}>{t.contribute.suggest_name}</button>
         </div>
       )}
 
       {summary && <div className={styles.summary}><Rich text={summary} /></div>}
 
-      <NamesPanel plant={plant} />
+      <NamesPanel plant={plant} onSuggestName={() => openName()} />
+
+      <SuggestionsPanel
+        targetType="plant"
+        targetId={plant.slug}
+        refreshKey={panelKey}
+        render={renderSuggestion}
+        onDifferently={(sug) =>
+          sug.type === 'plant_name' ? openName(String(sug.public_payload.name ?? '')) : setInfoForm((sug.public_payload.section as SectionKey) ?? 'about')
+        }
+      />
 
       {SECTION_ORDER.map((key) => {
         const value = text(plant.sections[key], locale);
@@ -661,6 +736,19 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             <h2 className={styles.proseHeading}>{t.plants[key]}</h2>
             {key === 'uses' && plant.themes.includes('medicine') && <p className={styles.notice}>{t.plants.medicine_notice}</p>}
             <Rich text={value} />
+            {plant.provenance?.[`sections.${key}.${locale}`] && (
+              <CreditLine ids={plant.provenance[`sections.${key}.${locale}`].map((e) => e.c)} />
+            )}
+            <button
+              type="button"
+              className={contrib.textBtn}
+              onClick={() => {
+                track('contribute', 'plants', 'open_info', { slug: plant.slug, section: key });
+                setInfoForm(key);
+              }}
+            >
+              {t.contribute.suggest_correction}
+            </button>
           </section>
         );
       })}
@@ -696,7 +784,6 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
 
       <button type="button" className={base.discoverBtn} onClick={discover}>{t.plants.discover_another}</button>
 
-      <p className={styles.contribute}>{t.plants.contribute}</p>
 
       {plant.sources.length > 0 && (
         <details className={styles.sources}>
@@ -704,7 +791,22 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           <ul>{plant.sources.map((s) => <li key={s}>{s}</li>)}</ul>
         </details>
       )}
+
+      {nameForm && (
+        <PlantNameForm open onClose={() => setNameForm(null)} plant={plant} prefill={nameForm.prefill} onSubmitted={() => setPanelKey((k) => k + 1)} />
+      )}
+      {infoForm && (
+        <PlantInfoForm
+          open
+          onClose={() => setInfoForm(null)}
+          plant={plant}
+          section={infoForm}
+          sectionTitle={t.plants[infoForm]}
+          onSubmitted={() => setPanelKey((k) => k + 1)}
+        />
+      )}
     </article>
+    </CreditsProvider>
   );
 }
 
