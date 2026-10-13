@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
 Sitemap: https://chidigo.org/sitemap.xml
 Sitemap: https://chidigo.org/dictionary-sitemap.xml

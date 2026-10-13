@@ -1,0 +1,244 @@
+/**
+ * Browser checks for the plants contribution UI (spec 34 technical §12.3), against a local production
+ * build that uses the production database:
+ *
+ *   npm run build && npm run test:ui
+ *
+ * It writes the fixture plant, then starts `next start` itself (the server reads public/ at startup),
+ * unless BASE_URL points at a server that already has the fixture.
+ *
+ * Uses Chrome through playwright-core (no browser download). Throwaway accounts are flagged as test
+ * data and only touch the fixture plant `__test__`, whose JSON is written for the run and removed after.
+ * Screenshots go to $UI_SHOTS (default /tmp/contrib-ui).
+ */
+import { readFileSync, existsSync, writeFileSync, rmSync, mkdirSync } from 'fs';
+import { spawn, type ChildProcess } from 'child_process';
+import { join } from 'path';
+import { chromium, type BrowserContext, type Page } from 'playwright-core';
+import { createClient } from '@supabase/supabase-js';
+import { createServerClient } from '@supabase/ssr';
+import { testPlant } from '../lib/contributions/targets';
+
+if (existsSync('.env.local')) {
+  for (const line of readFileSync('.env.local', 'utf-8').split('\n')) {
+    const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^"|"$/g, '');
+  }
+}
+
+const BASE = process.env.BASE_URL ?? 'http://localhost:3124';
+const SHOTS = process.env.UI_SHOTS ?? '/tmp/contrib-ui';
+const RUN = Date.now().toString(36);
+const URL_ = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const admin = createClient(URL_, process.env.SUPABASE_SERVICE_ROLE_KEY!, { auth: { persistSession: false } });
+const FIXTURE = join(process.cwd(), 'public/data/plants/p/__test__.json');
+const PLANT = '/culture/ecology/plants/__test__';
+
+let passes = 0;
+let failures = 0;
+function check(name: string, ok: boolean, detail?: unknown) {
+  if (ok) passes++;
+  else failures++;
+  console.log(`  ${ok ? '✓' : '✗'} ${name}${!ok && detail !== undefined ? ` — ${String(detail).slice(0, 300)}` : ''}`);
+}
+
+async function shot(page: Page, name: string) {
+  await page.screenshot({ path: join(SHOTS, `${name}.png`), fullPage: false });
+}
+
+async function user(label: string) {
+  const email = `test+contrib-${RUN}-${label}@chidigo.invalid`;
+  const { data, error } = await admin.auth.admin.createUser({
+    email, email_confirm: true, app_metadata: { test: true }, user_metadata: { full_name: `Tester ${label}` },
+  });
+  if (error || !data.user) throw new Error(`createUser: ${error?.message}`);
+  const { data: link } = await admin.auth.admin.generateLink({ type: 'magiclink', email });
+  const jar = new Map<string, string>();
+  const ssr = createServerClient(URL_, ANON, {
+    cookies: {
+      getAll: () => [...jar].map(([name, value]) => ({ name, value })),
+      setAll: (cookies) => cookies.forEach(({ name, value }) => (value ? jar.set(name, value) : jar.delete(name))),
+    },
+  });
+  const { error: otpError } = await ssr.auth.verifyOtp({ token_hash: link.properties!.hashed_token, type: 'magiclink' });
+  if (otpError) throw new Error(`verifyOtp: ${otpError.message}`);
+  const cookies = [...jar].map(([name, value]) => ({ name, value, domain: 'localhost', path: '/' }));
+  return { id: data.user.id, cookies };
+}
+
+async function signIn(ctx: BrowserContext, cookies: { name: string; value: string; domain: string; path: string }[]) {
+  await ctx.addCookies(cookies);
+}
+
+async function visible(page: Page, text: string | RegExp, timeout = 8000) {
+  try {
+    await page.getByText(text).first().waitFor({ state: 'visible', timeout });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function main() {
+  mkdirSync(SHOTS, { recursive: true });
+  // Leftovers from an interrupted run: test users older than 10 minutes and their data.
+  const { data: old } = await admin.auth.admin.listUsers({ page: 1, perPage: 1000 });
+  for (const u of old?.users ?? []) {
+    if (u.email?.startsWith('test+contrib-') && u.app_metadata?.test === true && Date.now() - new Date(u.created_at).getTime() > 600_000) {
+      await admin.auth.admin.deleteUser(u.id);
+    }
+  }
+  await admin.rpc('cleanup_test_data');
+  writeFileSync(FIXTURE, JSON.stringify(testPlant()));
+  let server: ChildProcess | null = null;
+  if (!process.env.BASE_URL) {
+    // Start from an empty data cache: an earlier aborted run may have cached fixture overlays.
+    rmSync(join(process.cwd(), '.next/cache/fetch-cache'), { recursive: true, force: true });
+    server = spawn('npx', ['next', 'start', '-p', '3124'], { stdio: 'ignore', detached: true });
+    for (let i = 0; i < 60; i++) {
+      const ok = await fetch(`${BASE}/api/overlay/plant`).then((r) => r.ok).catch(() => false);
+      if (ok) break;
+      await new Promise((r) => setTimeout(r, 1000));
+    }
+  }
+  const users: string[] = [];
+  // Ctrl-C or a killed job still removes the fixture, test data and the throwaway accounts.
+  const abort = async () => {
+    rmSync(FIXTURE, { force: true });
+    await admin.rpc('cleanup_test_data');
+    for (const id of users) await admin.auth.admin.deleteUser(id);
+    if (server?.pid) process.kill(-server.pid);
+    process.exit(130);
+  };
+  process.once('SIGINT', abort);
+  process.once('SIGTERM', abort);
+  const browser = await chromium.launch({ channel: 'chrome', headless: true });
+  try {
+    const C = await user('ui-contrib');
+    const D = await user('ui-second');
+    const A = await user('ui-admin');
+    users.push(C.id, D.id, A.id);
+    await admin.from('profiles').update({ role: 'admin' }).eq('id', A.id);
+
+    console.log('1. signed out: form, sign-in on submit, draft kept');
+    const cCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const c = await cCtx.newPage();
+    await c.goto(`${BASE}${PLANT}`);
+    check('plant page shows the name callout', await visible(c, 'Do you know the right name?'));
+    await c.getByText('Do you know the right name?').first().click();
+    await c.getByRole('textbox', { name: 'Digo name', exact: true }).fill('jina-ui');
+    await shot(c, '01-name-form-desktop');
+    await c.getByRole('button', { name: 'Send suggestion' }).click();
+    check('submit while signed out asks to sign in', await visible(c, 'Sign in to send your suggestion'));
+    await shot(c, '02-sign-in-sheet');
+    await signIn(cCtx, C.cookies);
+    await c.goto(`${BASE}${PLANT}`);
+    check('after sign-in the form reopens with the draft', (await c.getByRole('textbox', { name: 'Digo name', exact: true }).inputValue().catch(() => '')) === 'jina-ui');
+
+    console.log('2. submit, held, My contributions');
+    await c.getByRole('button', { name: 'Send suggestion' }).click();
+    check('thanks: a reviewer looks first (new contributor)', await visible(c, 'A reviewer will look at it first.'));
+    await shot(c, '03-thanks');
+    await c.goto(`${BASE}/profile/contributions`);
+    check('My contributions lists it as pending', await visible(c, 'Pending'));
+    check('…and says it is not public yet', await visible(c, 'Not public yet'));
+    await shot(c, '04-my-contributions');
+    await c.goto(`${BASE}${PLANT}`);
+    await c.waitForTimeout(1500);
+    check('held suggestion is not on the public panel', !(await c.getByText('Suggestions under review').count()));
+
+    console.log('3. admin review: accept, live, credit, undo');
+    const aCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    await signIn(aCtx, A.cookies);
+    const a = await aCtx.newPage();
+    await a.goto(`${BASE}/review`);
+    check('review queue lists it', await visible(a, 'jina-ui'));
+    await shot(a, '05-review-queue');
+    await a.getByText('jina-ui').first().click();
+    check('item view shows the suggestion and current text', (await visible(a, 'The suggestion')) && (await visible(a, 'What the site says now')));
+    await shot(a, '06-review-item');
+    await a.getByRole('button', { name: 'Accept', exact: true }).click();
+    check('accept saved', await visible(a, 'Saved.'));
+    await c.goto(`${BASE}${PLANT}`);
+    check('the plant shows the accepted name', await visible(c, 'jina-ui'));
+    check('…credited to a Digo speaker (credit not chosen)', await visible(c, 'Suggested by a Digo speaker'));
+    await shot(c, '07-accepted-live');
+    console.log('4. public panel, agree, regional form');
+    // A returning contributor's region is remembered.
+    await c.evaluate(() => localStorage.setItem('contrib-region', 'tanga'));
+    await c.getByText('Suggest another name').first().click();
+    await c.getByRole('textbox', { name: 'Digo name', exact: true }).fill('jina-tanga');
+    await c.getByRole('button', { name: 'Send suggestion' }).click();
+    check('second suggestion is public (first was accepted)', await visible(c, 'Others can see it, but not your name.'));
+    const dCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    await signIn(dCtx, D.cookies);
+    const d = await dCtx.newPage();
+    await d.goto(`${BASE}${PLANT}`);
+    check('another member sees it under review', await visible(d, 'Suggestions under review'));
+    check('…anonymously, with its region', await visible(d, /Someone from/));
+    await d.getByRole('button', { name: 'Agree' }).first().click();
+    check('agree', await visible(d, 'You agree'));
+    await shot(d, '08-panel-agreed');
+    await a.goto(`${BASE}/review`);
+    await a.getByText('jina-tanga').first().click();
+    await a.getByRole('button', { name: 'Accept as a regional form' }).click();
+    check('accepted as a regional form', await visible(a, 'Saved.'));
+    await d.goto(`${BASE}${PLANT}`);
+    check('regional forms show, headword unchanged', (await visible(d, 'Regional forms')) && (await visible(d, 'jina-tanga')) && (await visible(d, 'jina-ui')));
+    await d.waitForTimeout(2000);
+    await shot(d, '09b-credits');
+    check('…each with its credit line', (await d.getByText('Suggested by a Digo speaker').count()) >= 2, await d.getByText('Suggested by').allInnerTexts());
+    await shot(d, '09-regional-form');
+    console.log('   undo the first accept');
+    await a.goto(`${BASE}/review?undo`);
+    await a.getByRole('tab', { name: 'Live' }).click();
+    await a.getByText('jina-ui').first().click();
+    await a.getByRole('button', { name: 'Undo' }).click();
+    check('undo saved', await visible(a, 'Saved.'));
+    await c.goto(`${BASE}${PLANT}`);
+    check('the original name is back', await visible(c, 'jina ra majaribio'));
+
+
+    console.log('5. phone layout, offline, feedback');
+    const p = await cCtx.newPage();
+    await p.setViewportSize({ width: 390, height: 844 });
+    await p.goto(`${BASE}${PLANT}`);
+    await p.getByText('Suggest a correction').first().click();
+    check('correction form opens on a phone', await visible(p, 'Your text'));
+    await shot(p, '10-phone-sheet');
+    await cCtx.setOffline(true);
+    check('offline: says so', await visible(p, 'You’re offline'));
+    check('offline: send is disabled', await p.getByRole('button', { name: 'Send suggestion' }).isDisabled());
+    await shot(p, '11-offline');
+    await cCtx.setOffline(false);
+    await c.goto(`${BASE}/`);
+    await c.getByRole('button', { name: 'Feedback' }).click();
+    await c.getByRole('textbox', { name: 'Your feedback', exact: true }).fill('UI test feedback');
+    await c.getByRole('button', { name: 'Send suggestion' }).click();
+    check('footer feedback sent', await visible(c, 'A reviewer will read it.'));
+
+    console.log('6. indexing');
+    for (const path of ['/review', '/sw/review', '/profile/contributions']) {
+      const res = await fetch(`${BASE}${path}`, { redirect: 'manual' });
+      check(`${path} has X-Robots-Tag noindex`, (res.headers.get('x-robots-tag') ?? '').includes('noindex'), res.headers.get('x-robots-tag'));
+    }
+    const html = await (await fetch(`${BASE}/review`)).text();
+    check('/review page carries a noindex meta tag', /<meta name="robots" content="noindex/.test(html));
+  } finally {
+    await browser.close();
+    rmSync(FIXTURE, { force: true });
+    if (server?.pid) process.kill(-server.pid);
+    const { data } = await admin.rpc('cleanup_test_data');
+    for (const id of users) await admin.auth.admin.deleteUser(id);
+    console.log(`cleanup: ${JSON.stringify(data)}, ${users.length} users removed; screenshots in ${SHOTS}`);
+  }
+  console.log(`\n${passes} passed, ${failures} failed`);
+  process.exit(failures ? 1 : 0);
+}
+
+main().catch((err) => {
+  console.error(err);
+  rmSync(FIXTURE, { force: true });
+  process.exit(1);
+});

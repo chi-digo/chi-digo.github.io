@@ -40,7 +40,7 @@ export async function GET(request: Request) {
   if (!parsed.success) return NextResponse.json({ error: 'invalid ids' }, { status: 400 });
   try {
     const credits = await loadCredits(parsed.data.join(','));
-    return NextResponse.json(credits, { headers: { 'Cache-Control': 'public, s-maxage=60' } });
+    return NextResponse.json(credits, { headers: { 'Cache-Control': 'no-cache', 'CDN-Cache-Control': 'public, s-maxage=60' } });
   } catch (err) {
     return serverError(err, 'credits');
   }

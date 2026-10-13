@@ -94,6 +94,10 @@ export async function proxy(request: NextRequest) {
   // Set response headers for HTTP caches and clients
   supabaseResponse.headers.set('x-locale', locale);
   supabaseResponse.headers.set('Content-Language', locale);
+  // Personal and reviewer pages stay out of search results in every locale (spec 34 technical §7.3).
+  if (/^\/(review|admin|profile)(\/|$)/.test(strippedPath)) {
+    supabaseResponse.headers.set('X-Robots-Tag', 'noindex, nofollow');
+  }
 
   return supabaseResponse;
 }

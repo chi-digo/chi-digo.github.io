@@ -11,6 +11,10 @@ interface SignInSheetProps {
   open: boolean;
   onClose: () => void;
   title?: string;
+  /** Where to come back to after signing in (defaults to the current path and query). */
+  next?: string;
+  /** The quiz/favourites benefits list; hidden where it doesn't fit (e.g. contributing). */
+  showBenefits?: boolean;
 }
 
 function GoogleIcon() {
@@ -24,7 +28,7 @@ function GoogleIcon() {
   );
 }
 
-export function SignInSheet({ open, onClose, title: customTitle }: SignInSheetProps) {
+export function SignInSheet({ open, onClose, title: customTitle, next, showBenefits = true }: SignInSheetProps) {
   const t = useTranslations();
   const supabase = useMemo(() => createClient(), []);
   const [loading, setLoading] = useState(false);
@@ -32,16 +36,17 @@ export function SignInSheet({ open, onClose, title: customTitle }: SignInSheetPr
   const handleGoogleSignIn = useCallback(async () => {
     setLoading(true);
     track('orientation', 'auth', 'sign_in_tap', { source: 'bottom_sheet' });
-    const redirectTo = `${window.location.origin}/auth/callback?next=${encodeURIComponent(window.location.pathname)}`;
+    const back = next ?? `${window.location.pathname}${window.location.search}`;
+    const redirectTo = `${window.location.origin}/auth/callback?next=${encodeURIComponent(back)}`;
     await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: { redirectTo },
     });
-  }, [supabase]);
+  }, [supabase, next]);
 
   return (
     <BottomSheet open={open} onClose={() => { track('orientation', 'auth', 'sheet_close', {}); onClose(); }} title={customTitle ?? t.auth.sign_in_to_save}>
-      <ul className={styles.benefits}>
+      {showBenefits && <ul className={styles.benefits}>
         <li className={styles.benefit}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
@@ -60,7 +65,7 @@ export function SignInSheet({ open, onClose, title: customTitle }: SignInSheetPr
           </svg>
           {t.auth.benefit_favourites}
         </li>
-      </ul>
+      </ul>}
 
       <button
         type="button"
