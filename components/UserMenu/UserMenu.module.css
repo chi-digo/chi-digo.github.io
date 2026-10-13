@@ -139,3 +139,28 @@
   outline-offset: -2px;
   opacity: 1;
 }
+
+.dot,
+.triggerDot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e8a33d;
+}
+
+.dot {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.trigger {
+  position: relative;
+}
+
+.triggerDot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 0 2px var(--color-kaya-deep, #0e1a2a);
+}

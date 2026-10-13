@@ -28,6 +28,6 @@ export async function GET(request: Request) {
     .limit(50);
   if (error) return serverError(error, 'public');
   return NextResponse.json(data ?? [], {
-    headers: { 'Cache-Control': 'public, s-maxage=15, stale-while-revalidate=60' },
+    headers: { 'Cache-Control': 'no-cache', 'CDN-Cache-Control': 'public, s-maxage=5' },
   });
 }

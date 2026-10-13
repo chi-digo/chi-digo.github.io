@@ -5,7 +5,7 @@
  */
 import type { Plant, PlantStub, SectionKey, L10n } from '@/lib/plants/types';
 import type { Locale } from '@/lib/i18n/config';
-import { stableStringify, normaliseDigo } from '../text';
+import { stableStringify, normaliseDigo } from '../strings';
 import { ConflictError, hasChange, withProvenance, withoutProvenance, type Change } from './types';
 
 interface NamePayload { name: string }

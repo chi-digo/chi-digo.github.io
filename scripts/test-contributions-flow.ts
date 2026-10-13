@@ -213,8 +213,8 @@ async function main() {
     check('cannot withdraw someone else\'s → 404', r.status === 404, r);
     r = await call(C, 'GET', '/api/contributions/me');
     check('me: role and unread notifications', r.status === 200 && r.json.role === 'member' && r.json.unread >= 1, r);
-    r = await call(null, 'GET', `/api/credits?ids=${first}`);
-    check('credits never include test rows', r.status === 200 && Array.isArray(r.json) && r.json.length === 0, r);
+    r = await call(null, 'GET', `/api/credits?ids=${ruled}`);
+    check('credits: no name without consent', r.status === 200 && r.json.length === 1 && r.json[0].credited === false && r.json[0].first_name === null, r);
     r = await call(C, 'GET', '/api/export');
     check('export includes contributions', r.status === 200 && Array.isArray(r.json.contributions) && r.json.contributions.length >= 3, r.status);
     let limited = false;

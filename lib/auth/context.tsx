@@ -54,6 +54,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const signOut = async () => {
     await supabase.auth.signOut();
+    // Unsent contribution drafts and the remembered region belong to the person signing out.
+    try {
+      for (const k of Object.keys(localStorage)) if (k.startsWith('contrib-')) localStorage.removeItem(k);
+    } catch {
+      /* storage unavailable */
+    }
   };
 
   return (
