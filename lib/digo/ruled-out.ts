@@ -11,6 +11,8 @@ export interface Rule {
   only?: RegExp;
 }
 
+const UI = /lib\/i18n\/messages\//;
+
 export const RULED_OUT: Rule[] = [
   { wrong: /\bChiingereza\b/i, right: 'Chingereza', ruling: 'round 3 (2026-10-10): the English language' },
   { wrong: /\bchiangazi\b/i, right: 'kazikazi (dry season) / ukame (drought)', ruling: 'round 3' },
@@ -24,6 +26,12 @@ export const RULED_OUT: Rule[] = [
   // so it can't be checked file-wide.
   { wrong: /kpwa ku(?:pishana|phokezana)\b/i, right: 'kpwa kuphisana', ruling: 'round 4: alternate leaves' },
   { wrong: /\b\w*lolana\b/i, right: 'lengana', ruling: 'round 4: opposite leaves' },
+  // Round 5 rules apply to our interface wording; the corpus keeps old words (machero is a headword
+  // and appears in the proverb "Rero ni matso, machero ni mabatso").
+  { wrong: /\bmachero\b/i, right: 'muhondo', ruling: 'round 5 (2026-10-15): tomorrow', only: UI },
+  { wrong: /\bHwambire\b/i, right: 'Huambire', ruling: 'round 5: tell us', only: UI },
+  { wrong: /\bmuimiriri\b/i, right: 'muimirizi', ruling: 'round 5: admin', only: UI },
+  { wrong: /\bHandika \{word\}/, right: 'Andika (write)', ruling: 'round 5: handika means cover', only: UI },
   // kpwera stays in the dictionary (shown as the alternative to fyombera); prose uses fyombera.
   { wrong: /\b\w*kpwera\b/i, right: 'fyombera', ruling: 'round 4: climb', only: /public\/data\/plants\// },
 ];
