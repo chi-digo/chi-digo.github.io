@@ -836,7 +836,11 @@
     "err_rate": "That’s a lot of accepts this hour. Take a break and come back.",
     "err_forbidden": "You can’t review this.",
     "self_confirm": "Confirm as the only reviewer",
-    "self_confirm_note": "Nobody else reviews this area yet, so you can confirm your own accept. It is logged as single-reviewed."
+    "self_confirm_note": "Nobody else reviews this area yet, so you can confirm your own accept. It is logged as single-reviewed.",
+    "fold_now": "Fold in now",
+    "fold_requested": "Asked. The data files will be updated within 30 minutes, through a PR into preview.",
+    "fold_last": "Last fold-in: {when}",
+    "fold_never": "No fold-in has run yet."
   },
   "admin": {
     "menu_admin": "Reviewers",

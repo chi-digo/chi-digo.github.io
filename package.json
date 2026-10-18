@@ -6,7 +6,7 @@
     "dev": "next dev",
     "preseo": "tsx scripts/generate-seo.ts",
     "generate:search-index": "tsx scripts/generate-content-index.ts",
-    "build": "npm run validate:quiz && npm run validate:plants && npm run check:digo && npm run check:i18n && npm run preseo && npm run generate:search-index && next build",
+    "build": "npm run validate:quiz && npm run validate:plants && npm run check:plants && npm run check:digo && npm run check:i18n && npm run preseo && npm run generate:search-index && next build",
     "start": "next start",
     "lint": "eslint",
     "validate:quiz": "tsx scripts/validate-quiz-bank.ts",
@@ -16,7 +16,8 @@
     "test:db": "node scripts/test-db.mjs",
     "test:flow": "tsx scripts/test-contributions-flow.ts",
     "check:i18n": "tsx scripts/check-i18n-parity.ts",
-    "test:ui": "tsx scripts/test-contributions-ui.ts"
+    "test:ui": "tsx scripts/test-contributions-ui.ts",
+    "check:plants": "tsx scripts/plants/build-plants-data.ts --check"
   },
   "dependencies": {
     "@chi-digo/design-system": "0.3.4",

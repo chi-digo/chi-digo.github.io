@@ -1,0 +1,57 @@
+name: Confirm folded contributions
+
+# Spec 34 technical §6.2: after a production deploy, mark changes folded once their provenance is in
+# the deployed files (and reverts reverted once it's gone), then refresh the site's overlay cache.
+on: deployment_status
+
+permissions:
+  contents: read
+
+jobs:
+  confirm:
+    # Only Vercel's own production deployments of a commit that is on main.
+    if: >-
+      github.event.deployment_status.state == 'success' &&
+      github.event.deployment.environment == 'Production' &&
+      github.event.deployment.creator.login == 'vercel[bot]'
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      SHA: ${{ github.event.deployment.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, path: tool, persist-credentials: false, fetch-depth: 0 }
+      - name: The deployed commit must be on main
+        run: git -C tool merge-base --is-ancestor "$SHA" origin/main
+      - uses: actions/checkout@v4
+        with: { ref: '${{ github.event.deployment.sha }}', path: data, persist-credentials: false }
+      - uses: actions/setup-node@v4
+        with: { node-version: 25, cache: npm, cache-dependency-path: tool/package-lock.json }
+      - working-directory: tool
+        run: npm ci --ignore-scripts
+      - name: Rows waiting for this deploy
+        env:
+          FOLD_TOKEN: ${{ secrets.FOLD_TOKEN }}
+        run: node tool/scripts/fold-in/rpc.mjs in_preview > "$RUNNER_TEMP/rows.json"
+      - name: Check the deployed files
+        id: check
+        working-directory: tool
+        run: npx tsx scripts/fold-in/confirm.ts --data "$GITHUB_WORKSPACE/data" --rows "$RUNNER_TEMP/rows.json"
+      - name: Mark folded and reverted
+        env:
+          FOLD_TOKEN: ${{ secrets.FOLD_TOKEN }}
+          FOLDED: ${{ steps.check.outputs.folded }}
+          REVERTED: ${{ steps.check.outputs.reverted }}
+        run: |
+          [ -z "$FOLDED" ] || node tool/scripts/fold-in/rpc.mjs mark folded - "$FOLDED" - "$SHA"
+          [ -z "$REVERTED" ] || node tool/scripts/fold-in/rpc.mjs mark reverted - "$REVERTED" - "$SHA"
+      - name: Refresh the overlay cache
+        # Best effort: if the site's bot protection blocks this runner, the cache refreshes within 5 minutes anyway.
+        continue-on-error: true
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+        run: |
+          curl -sf -X POST "$SITE_URL/api/internal/revalidate" -H "Authorization: Bearer $REVALIDATE_SECRET" \
+            -H 'Content-Type: application/json' -d '{"tags":["overlay"]}'

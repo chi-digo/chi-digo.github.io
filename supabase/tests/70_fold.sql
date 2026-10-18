@@ -18,6 +18,7 @@ begin
   assert exists (select 1 from jsonb_array_elements(claim->'rows') e where (e->>'id')::uuid = live_id), 'live change not claimed';
   assert not exists (select 1 from jsonb_array_elements(claim->'rows') e where e ? 'user_id'), 'claim leaks user ids';
   assert jsonb_array_length(public.fold_claim(tok)->'rows') = 0, 'claimed twice';
+  assert not public.fold_requested(), 'request outlived the claim';
 
   n := public.fold_mark(tok, gen_random_uuid(), array[live_id], 'in_preview', 1);
   assert n = 0, 'wrong nonce accepted';
@@ -40,6 +41,11 @@ begin
   claim := public.fold_claim(tok);
   n := public.fold_mark(tok, (claim->>'nonce')::uuid, array[live_id], 'in_preview', 8);
   assert jsonb_array_length(public.fold_claim(tok)->'rows') = 0, 'in_preview revert reclaimed';
+  -- A deploy that runs before the revert itself was folded can't mark it reverted.
+  update public.contributions set fold_claimed_at = revert_requested_at - interval '1 minute' where id = live_id;
+  n := public.fold_mark(tok, null, array[live_id], 'reverted', null, 'early');
+  assert n = 0, 'reverted before the revert was folded';
+  update public.contributions set fold_claimed_at = revert_requested_at where id = live_id;
   n := public.fold_mark(tok, null, array[live_id], 'reverted', null, 'def456');
   assert (select status from public.contributions where id = live_id) = 'reverted', 'not reverted';
 end $$;
