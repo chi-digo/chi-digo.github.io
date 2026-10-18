@@ -836,7 +836,11 @@
     "err_rate": "",
     "err_forbidden": "",
     "self_confirm": "",
-    "self_confirm_note": ""
+    "self_confirm_note": "",
+    "fold_now": "",
+    "fold_requested": "",
+    "fold_last": "",
+    "fold_never": ""
   },
   "admin": {
     "menu_admin": "",

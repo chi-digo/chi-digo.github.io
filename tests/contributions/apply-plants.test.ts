@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import {
-  applyPlant, applyPlantStub, unapplyPlant, applyAllToPlant, applyAllToStubs, plantNameBase, plantInfoBase,
+  applyPlant, applyPlantStub, applyAllToPlant, applyAllToStubs, plantNameBase, plantInfoBase,
 } from '@/lib/contributions/apply/plants';
 import { ConflictError, type Change } from '@/lib/contributions/apply/types';
 import type { Plant, PlantStub } from '@/lib/plants/types';
@@ -63,14 +63,6 @@ describe('plant_name', () => {
     expect(out.search_terms).toContain('jinasha');
     expect(applyPlantStub(out, nameChange())).toBe(out);
   });
-  it('unapplies to the original and only when unchanged since', () => {
-    const applied = applyPlant(plant, nameChange());
-    const undone = unapplyPlant(applied, nameChange());
-    expect(undone.digo_headword).toBe(plant.digo_headword);
-    expect(undone.name_status).toBe(plant.name_status);
-    expect(undone.provenance).toBeUndefined();
-    expect(() => unapplyPlant({ ...applied, digo_headword: 'later edit' }, nameChange())).toThrow(ConflictError);
-  });
 });
 
 describe('plant_info', () => {
@@ -81,12 +73,11 @@ describe('plant_info', () => {
     expect(out.sections.uses?.en).toBe(plant.sections.uses?.en ?? '');
     expect(out.provenance?.['sections.uses.dg']).toHaveLength(1);
   });
-  it('replaces when asked, conflicts on a stale base, and unapplies', () => {
+  it('replaces when asked and conflicts on a stale base', () => {
     const replace = infoChange({ final_payload: { section: 'uses', lang: 'dg', mode: 'replace', text: 'Mpya.' } });
     const out = applyPlant(plant, replace);
     expect(out.sections.uses?.dg).toBe('Mpya.');
     expect(() => applyPlant(out, { ...replace, contribution_id: '33333333-3333-4333-8333-333333333333' })).toThrow(ConflictError);
-    expect(unapplyPlant(out, replace).sections.uses?.dg).toBe(plant.sections.uses?.dg ?? null);
   });
 });
 
