@@ -1,4 +1,5 @@
 import type { Proverb } from './types';
+import { ensureFreshData } from '@/lib/pwa/data-version';
 
 const cache = new Map<string, unknown>();
 
@@ -22,6 +23,7 @@ async function fetchJson<T>(path: string): Promise<T> {
   const cached = cache.get(path);
   if (cached) return cached as T;
 
+  await ensureFreshData();
   const res = await fetch(path);
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   const data: T = await res.json();
