@@ -250,6 +250,41 @@ async function main() {
     await c.getByRole('button', { name: 'Send suggestion' }).click();
     check('footer feedback sent', await visible(c, 'A reviewer will read it.'));
 
+    console.log('5b. stale offline data (ISSUES DATA-1)');
+    const s1 = await browser.newContext();
+    const sp = await s1.newPage();
+    await sp.goto(`${BASE}/language/dictionary`);
+    await sp.waitForFunction(() => navigator.serviceWorker?.controller != null, null, { timeout: 30000 }).catch(() => null);
+    const controlled = await sp.evaluate(() => navigator.serviceWorker?.controller != null);
+    // A device that cached s.json before "sasisha" existed, and has already recorded today's version.
+    await sp.evaluate(async () => {
+      const fresh = await (await fetch('/data/s.json', { cache: 'no-store' })).json();
+      const old = { ...fresh, entries: fresh.entries.filter((e: { headword: string }) => e.headword !== 'sasisha') };
+      const cache = await caches.open('chidigo-dict');
+      await cache.put('/data/s.json', new Response(JSON.stringify(old), { headers: { 'Content-Type': 'application/json' } }));
+      const v = await (await fetch('/data/data-version.json', { cache: 'no-store' })).json();
+      localStorage.setItem('chidigo-data-version-seen', JSON.stringify(v));
+    });
+    await sp.goto(`${BASE}/language/dictionary/word/sasisha`);
+    check(`a word missing from a stale cached letter file still opens (service worker ${controlled ? 'active' : 'inactive'})`,
+      await visible(sp, 'to update, to refresh'));
+    // A device whose recorded version is old: the stale cache is dropped before data loads.
+    await sp.evaluate(async () => {
+      const fresh = await (await fetch('/data/s.json', { cache: 'no-store' })).json();
+      const old = { ...fresh, entries: fresh.entries.filter((e: { headword: string }) => e.headword !== 'sasisha') };
+      await (await caches.open('chidigo-dict')).put('/data/s.json', new Response(JSON.stringify(old), { headers: { 'Content-Type': 'application/json' } }));
+      localStorage.setItem('chidigo-data-version-seen', JSON.stringify({ dict: 'old' }));
+    });
+    await sp.goto(`${BASE}/language/dictionary/word/sasisha`);
+    check('an outdated device drops its stale dictionary cache', await visible(sp, 'to update, to refresh'));
+    const stillOld = await sp.evaluate(async () => {
+      const r = await (await caches.open('chidigo-dict')).match('/data/s.json');
+      if (!r) return false;
+      return !(await r.json()).entries.some((e: { headword: string }) => e.headword === 'sasisha');
+    });
+    check('…and the cached letter file is current afterwards', !stillOld);
+    await s1.close();
+
     console.log('6. indexing');
     for (const path of ['/review', '/sw/review', '/profile/contributions']) {
       const res = await fetch(`${BASE}${path}`, { redirect: 'manual' });

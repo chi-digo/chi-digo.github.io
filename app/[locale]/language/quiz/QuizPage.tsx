@@ -1,6 +1,7 @@
 'use client';
 
 import { useReducer, useEffect, useRef, useCallback, useState, useSyncExternalStore } from 'react';
+import { ensureFreshData } from '@/lib/pwa/data-version';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useAuth } from '@/lib/auth/context';
 import { track } from '@/lib/analytics/track';
@@ -436,6 +437,7 @@ export function QuizPage() {
   const loadData = useCallback(async (signal: AbortSignal) => {
     try {
       dispatch({ type: 'LOAD_PROGRESS', progress: 20 });
+      await ensureFreshData();
       const res = await fetch('/data/quiz/quiz-bank.json', { signal });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       dispatch({ type: 'LOAD_PROGRESS', progress: 60 });
