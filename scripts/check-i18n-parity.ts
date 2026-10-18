@@ -12,7 +12,7 @@ import { join } from 'path';
 
 const DIR = join(process.cwd(), 'lib/i18n/messages');
 const LANGS = ['en', 'sw', 'dg'] as const;
-const EMPTY_OK: Record<string, string[]> = { dg: ['review'] };
+const EMPTY_OK: Record<string, string[]> = { dg: ['review', 'admin'] };
 
 type Tree = { [k: string]: string | Tree | string[] };
 

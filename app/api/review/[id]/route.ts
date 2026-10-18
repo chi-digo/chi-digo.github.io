@@ -61,6 +61,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         current: current ? { label: current.label, value: current.base?.value ?? null } : null,
         changed: targetChanged(row as unknown as ReviewRow, liveChanges),
         warnings: warningsFor(row.type, (row.final_payload ?? row.payload) as Record<string, unknown>),
+        // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
+        can_self_confirm: row.live_status === 'awaiting_second'
+          ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
+          : false,
         agreements: agreements ?? [],
         others: others ?? [],
       },
@@ -130,12 +134,14 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       }
     }
 
-    const result = await rpc<{ ok?: boolean; error?: string; status?: string; live_status?: string }>(
-      caller.db, 'review_transition', { p_uid: caller.id, p_cid: id, p_action: body.action, p_args: args },
-    );
+    const result = body.action === 'self_confirm'
+      ? await rpc<{ ok?: boolean; error?: string; status?: string; live_status?: string }>(caller.db, 'admin_self_confirm', { p_uid: caller.id, p_cid: id })
+      : await rpc<{ ok?: boolean; error?: string; status?: string; live_status?: string }>(
+          caller.db, 'review_transition', { p_uid: caller.id, p_cid: id, p_action: body.action, p_args: args },
+        );
     if (result.error) return rpcError(result.error);
 
-    if (['accept', 'accept_variant', 'second_confirm', 'revert', 'retry_fold'].includes(body.action)) refreshOverlay(area);
+    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(body.action)) refreshOverlay(area);
     return NextResponse.json({ status: result.status, live_status: result.live_status });
   } catch (err) {
     return serverError(err, 'review_post');

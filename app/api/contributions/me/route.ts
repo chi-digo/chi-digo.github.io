@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { LIMITS, SCOPES } from '@/lib/contributions/schemas';
-import { getCaller, serverError } from '@/lib/contributions/server';
+import { getCaller, isReviewer, serverError } from '@/lib/contributions/server';
 
 /** The caller's role, scopes and standing: for menus, the review badge and "Apply to review". */
 export async function GET() {
@@ -18,6 +18,20 @@ export async function GET() {
       SCOPES.map((s) => [s, (mine ?? []).filter((c) => c.scope === s && c.status === 'accepted').length]),
     );
     const pendingApplication = application?.status === 'pending';
+
+    // For the Review link: items waiting in the caller's scopes, not their own.
+    let reviewPending = 0;
+    if (isReviewer(caller)) {
+      const scopes = caller.role === 'admin' || caller.scopes.includes('all') ? [...SCOPES] : SCOPES.filter((s) => caller.scopes.includes(s));
+      if (scopes.length) {
+        const { count } = await db.from('contributions').select('id', { count: 'exact', head: true })
+          .in('scope', scopes).in('status', ['pending', 'needs_info']).eq('is_test', caller.isTest).or(`user_id.is.null,user_id.neq.${caller.id}`);
+        // Plus accepted items waiting for a second reviewer, which the caller didn't accept.
+        const { count: seconds } = await db.from('contributions').select('id', { count: 'exact', head: true })
+          .in('scope', scopes).eq('live_status', 'awaiting_second').eq('is_test', caller.isTest).neq('reviewer_id', caller.id);
+        reviewPending = (count ?? 0) + (seconds ?? 0);
+      }
+    }
     return NextResponse.json(
       {
         role: caller.role,
@@ -30,6 +44,7 @@ export async function GET() {
           : [],
         application: application ?? null,
         unread: unread ?? 0,
+        review_pending: reviewPending,
       },
       { headers: { 'Cache-Control': 'no-store' } },
     );

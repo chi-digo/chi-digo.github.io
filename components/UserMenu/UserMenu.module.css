@@ -164,3 +164,16 @@
   right: 0;
   box-shadow: 0 0 0 2px var(--color-kaya-deep, #0e1a2a);
 }
+
+.count {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: #e8a33d;
+  color: var(--color-kaya-deep, #0e1a2a);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: middle;
+}

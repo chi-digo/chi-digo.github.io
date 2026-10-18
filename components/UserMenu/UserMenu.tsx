@@ -103,18 +103,29 @@ export function UserMenu() {
             )}
           </div>
           <div className={styles.divider} />
-          <TrackedLink href="/profile/contributions" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
-            {t.contribute.mine_title}
+          <TrackedLink href="/profile/notifications" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
+            {t.contribute.menu_notifications}
             {!!status?.unread && (
               <>
-                <span className={styles.dot} aria-hidden="true" />
+                <span className={styles.count} aria-hidden="true">{status.unread}</span>
                 <VisuallyHidden>{t.contribute.unread.replace('{n}', String(status.unread))}</VisuallyHidden>
               </>
             )}
           </TrackedLink>
+          <TrackedLink href="/profile/contributions" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
+            {t.contribute.mine_title}
+          </TrackedLink>
           {(status?.role === 'admin' || status?.role === 'reviewer') && !status.blocked && (
             <TrackedLink href="/review" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
               {t.contribute.menu_review}
+              {!!status.review_pending && (
+                <span className={styles.count}>{t.contribute.review_waiting.replace('{n}', String(status.review_pending))}</span>
+              )}
+            </TrackedLink>
+          )}
+          {status?.role === 'admin' && !status.blocked && (
+            <TrackedLink href="/admin/reviewers" source="user_menu" className={styles.menuItem} role="menuitem" onClick={close}>
+              {t.admin.menu_admin}
             </TrackedLink>
           )}
           <div className={styles.divider} />
