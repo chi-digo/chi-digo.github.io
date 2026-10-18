@@ -4,6 +4,7 @@ export type Locale = 'en' | 'sw' | 'dg';
 
 type ContributeMessages = (typeof enMessages)['contribute'];
 type ReviewMessages = (typeof enMessages)['review'];
+type AdminMessages = (typeof enMessages)['admin'];
 
 export interface LocaleConfig {
   code: Locale;
@@ -592,6 +593,8 @@ export interface Messages {
   contribute: ContributeMessages;
   /** The review screen (spec 34 §8). English and Swahili first; Digo falls back to English. */
   review: ReviewMessages;
+  /** Admin screens (spec 34 §3.1). English and Swahili first; Digo falls back to English. */
+  admin: AdminMessages;
   profile: {
     title: string;
     favourites: string;

@@ -1,0 +1,122 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--color-hando-cream);
+  color: var(--color-kaya-deep);
+}
+
+.content {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: calc(var(--nav-height) + var(--breadcrumb-height, 28px) + var(--space-6)) 5.25% var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.muted {
+  margin: 0;
+  color: var(--fg-muted);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.message {
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  border-radius: 8px;
+  background: var(--bg-subtle, rgba(14, 26, 42, 0.05));
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sectionTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
+
+.search > :first-child {
+  flex: 1 1 260px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border-subtle, rgba(14, 26, 42, 0.1));
+}
+
+.rowHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.scopes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.legend {
+  width: 100%;
+  margin-bottom: var(--space-1);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.quote {
+  margin: 0;
+  padding-left: var(--space-3);
+  border-left: 3px solid var(--border-default, rgba(14, 26, 42, 0.2));
+}
+
+.textBtn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--fg-link, var(--color-kaya-deep));
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}

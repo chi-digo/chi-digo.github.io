@@ -112,11 +112,12 @@ async function main() {
 
   const users: string[] = [];
   try {
-    const emails = { c: await createUser('contributor'), d: await createUser('second'), a: await createUser('admin') };
+    const emails = { c: await createUser('contributor'), d: await createUser('second'), a: await createUser('admin'), r: await createUser('reviewer') };
     const C = await session(emails.c);
     const D = await session(emails.d);
     const A = await session(emails.a);
-    users.push(C.id, D.id, A.id);
+    const R = await session(emails.r);
+    users.push(C.id, D.id, A.id, R.id);
     await admin.from('profiles').update({ role: 'admin' }).eq('id', A.id);
 
     console.log('1. submission validation');
@@ -202,6 +203,51 @@ async function main() {
     r = await call(A, 'POST', `/api/review/${stale}`, { action: 'accept' });
     check('target changed since suggested → 409', r.status === 409 && r.json.error === 'target_changed', r);
 
+    console.log('5b. reviewers, second review, notifications');
+    r = await call(A, 'POST', '/api/admin/reviewers', { action: 'grant', user_id: R.id, scopes: ['plants'] });
+    check('admin makes a plants reviewer', r.status === 200 && r.json.role === 'reviewer', r);
+    r = await call(R, 'GET', '/api/contributions/me');
+    check('…who sees their role and scope', r.json.role === 'reviewer' && r.json.scopes.includes('plants') && typeof r.json.review_pending === 'number', r);
+    r = await call(R, 'GET', '/api/review/queue?view=open');
+    check('…and only plants items in the queue', r.status === 200 && r.json.groups.every((g: { items: { scope: string }[] }) => g.items.every((i) => i.scope === 'plants')), r);
+    r = await call(R, 'GET', '/api/admin/reviewers');
+    check('reviewers cannot open admin → 403', r.status === 403, r);
+    r = await call(C, 'POST', '/api/contributions', {
+      type: 'plant_info', target_type: 'plant', target_id: TEST, locale: 'en', region: 'tanga', confidence: 'native',
+      payload: { section: 'uses', lang: 'en', mode: 'replace', text: 'Long replacement. '.repeat(20) },
+    });
+    const long = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${long}`, { action: 'accept' });
+    check('a large replacement waits for a second reviewer', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+    r = await call(R, 'GET', '/api/notifications');
+    check('…who is notified', r.status === 200 && r.json.some((n: { kind: string; contribution_id: string }) => n.kind === 'second_review' && n.contribution_id === long), r);
+    r = await call(A, 'POST', `/api/review/${long}`, { action: 'second_confirm' });
+    check('the first reviewer cannot confirm their own accept → 409', r.status === 409, r);
+    r = await call(R, 'POST', `/api/review/${long}`, { action: 'second_confirm' });
+    check('the second reviewer confirms → live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(C, 'GET', '/api/notifications');
+    const mine = r.json.find((n: { kind: string; contribution_id: string }) => n.kind === 'accepted' && n.contribution_id === long);
+    check('the contributor is notified, with a summary and no reviewer identity', !!mine && mine.contribution?.summary?.startsWith('Long replacement') && !JSON.stringify(mine).includes(R.id), mine);
+    r = await call(C, 'POST', '/api/notifications', { all: true });
+    r = await call(C, 'GET', '/api/contributions/me');
+    check('reading clears the unread count', r.json.unread === 0, r.json.unread);
+    r = await call(A, 'POST', '/api/admin/reviewers', { action: 'remove', user_id: R.id });
+    check('admin removes the reviewer', r.status === 200 && r.json.role === 'member', r);
+    r = await call(R, 'GET', '/api/review/queue');
+    check('…who loses the queue at once → 403', r.status === 403, r);
+    // With no other reviewer left, the admin may confirm their own accept (owner decision 2026-10-16).
+    r = await call(D, 'POST', '/api/contributions', {
+      type: 'plant_info', target_type: 'plant', target_id: TEST, locale: 'en', region: 'tanga', confidence: 'native',
+      payload: { section: 'uses', lang: 'en', mode: 'replace', text: 'Second long replacement. '.repeat(16) },
+    });
+    const solo = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${solo}`, { action: 'accept' });
+    check('large replacement waits for a second reviewer', r.json.live_status === 'awaiting_second', r);
+    r = await call(A, 'GET', `/api/review/${solo}`);
+    check('…and the lone admin is offered self-confirm', r.json.can_self_confirm === true, r.json.can_self_confirm);
+    r = await call(A, 'POST', `/api/review/${solo}`, { action: 'self_confirm' });
+    check('…which takes it live, logged as single-reviewed', r.status === 200 && r.json.live_status === 'live', r);
+
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });
     check('withdraw', r.status === 200 && r.json.status === 'withdrawn', r);
@@ -212,7 +258,7 @@ async function main() {
     r = await call(D, 'PATCH', `/api/contributions/${ruled}`, { action: 'withdraw' });
     check('cannot withdraw someone else\'s → 404', r.status === 404, r);
     r = await call(C, 'GET', '/api/contributions/me');
-    check('me: role and unread notifications', r.status === 200 && r.json.role === 'member' && r.json.unread >= 1, r);
+    check('me: role and unread count', r.status === 200 && r.json.role === 'member' && typeof r.json.unread === 'number', r);
     r = await call(null, 'GET', `/api/credits?ids=${ruled}`);
     check('credits: no name without consent', r.status === 200 && r.json.length === 1 && r.json[0].credited === false && r.json[0].first_name === null, r);
     r = await call(C, 'GET', '/api/export');

@@ -71,7 +71,8 @@ async function signIn(ctx: BrowserContext, cookies: { name: string; value: strin
   await ctx.addCookies(cookies);
 }
 
-async function visible(page: Page, text: string | RegExp, timeout = 8000) {
+// Generous: a local server calls Supabase over the open internet, and cold connections can take seconds.
+async function visible(page: Page, text: string | RegExp, timeout = 20000) {
   try {
     await page.getByText(text).first().waitFor({ state: 'visible', timeout });
     return true;
@@ -152,14 +153,20 @@ async function main() {
     const aCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     await signIn(aCtx, A.cookies);
     const a = await aCtx.newPage();
+    // A failed status call would leave the review page empty; log it if it happens.
+    a.on('response', (r) => r.url().includes('/api/contributions/me') && !r.ok() && console.log('    [note] /me returned', r.status()));
+    const t0 = Date.now();
+    a.on('response', (r) => r.url().includes('/api/review/queue') && console.log(`    [note] queue ${r.status()} after ${Date.now() - t0}ms`));
     await a.goto(`${BASE}/review`);
-    check('review queue lists it', await visible(a, 'jina-ui'));
+    const listed = await visible(a, 'jina-ui');
+    check('review queue lists it', listed, listed ? '' : (await a.locator('body').innerText()).slice(0, 400));
     await shot(a, '05-review-queue');
     await a.getByText('jina-ui').first().click();
     check('item view shows the suggestion and current text', (await visible(a, 'The suggestion')) && (await visible(a, 'What the site says now')));
     await shot(a, '06-review-item');
     await a.getByRole('button', { name: 'Accept', exact: true }).click();
-    check('accept saved', await visible(a, 'Saved.'));
+    const accepted = await visible(a, 'Saved.');
+    check('accept saved', accepted, accepted ? '' : (await a.locator('main').innerText()).slice(-400));
     await c.goto(`${BASE}${PLANT}`);
     check('the plant shows the accepted name', await visible(c, 'jina-ui'));
     check('…credited to a Digo speaker (credit not chosen)', await visible(c, 'Suggested by a Digo speaker'));
@@ -177,8 +184,11 @@ async function main() {
     await d.goto(`${BASE}${PLANT}`);
     check('another member sees it under review', await visible(d, 'Suggestions under review'));
     check('…anonymously, with its region', await visible(d, /Someone from/));
+    const agreeResp = d.waitForResponse((r) => r.url().includes('/agree'), { timeout: 20000 }).catch(() => null);
     await d.getByRole('button', { name: 'Agree' }).first().click();
-    check('agree', await visible(d, 'You agree'));
+    const agreeR = await agreeResp;
+    const agreed = await visible(d, 'You agree');
+    check('agree', agreed, agreed ? '' : `agree response ${agreeR?.status()} ${await agreeR?.text().catch(() => '')}; panel: ${(await d.locator('section').filter({ hasText: 'Suggestions under review' }).innerText().catch(() => '')).slice(0, 200)}`);
     await shot(d, '08-panel-agreed');
     await a.goto(`${BASE}/review`);
     await a.getByText('jina-tanga').first().click();
@@ -199,6 +209,28 @@ async function main() {
     await c.goto(`${BASE}${PLANT}`);
     check('the original name is back', await visible(c, 'jina ra majaribio'));
 
+
+    console.log('4b. notifications and the reviewers page');
+    await c.goto(`${BASE}/`);
+    await c.getByRole('button', { name: /^Tester/ }).first().click();
+    const counted = await c.getByText(/^\d+ new$/).first().waitFor({ state: 'attached', timeout: 20000 }).then(() => true, () => false);
+    check('menu shows a notifications count', counted);
+    await c.goto(`${BASE}/profile/notifications`);
+    check('notifications page lists the accept', await visible(c, /Your suggestion “jina-ui” .* was accepted\./));
+    await shot(c, '12-notifications');
+    await c.goto(`${BASE}/profile/notifications`);
+    check('…and reading cleared the unread mark', (await c.locator('[class*="unread"]').count()) === 0);
+    await a.goto(`${BASE}/admin/reviewers`);
+    await a.getByRole('textbox', { name: 'Find a person by name or email', exact: true }).fill('Tester ui-second');
+    await a.getByRole('button', { name: 'Search' }).click();
+    check('admin finds a person', await visible(a, 'Tester ui-second'));
+    await a.getByText('Plants').first().click();
+    await a.getByRole('button', { name: 'Make reviewer' }).first().click();
+    check('…and makes them a plants reviewer', await visible(a, 'Saved.'));
+    await shot(a, '13-admin-reviewers');
+    await d.goto(`${BASE}/review`);
+    const opened = await visible(d, 'Suggestions waiting for a decision');
+    check('the new reviewer can open Review', opened, opened ? '' : (await d.locator('body').innerText()).slice(0, 300));
 
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();

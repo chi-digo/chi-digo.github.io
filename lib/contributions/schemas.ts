@@ -147,7 +147,7 @@ export type SubmitInput = z.input<typeof submitSchema>;
 
 export const REVIEW_ACTIONS = [
   'claim', 'release', 'accept', 'accept_variant', 'needs_info', 'decline', 'duplicate',
-  'second_confirm', 'second_reject', 'revert', 'retry_fold',
+  'second_confirm', 'second_reject', 'self_confirm', 'revert', 'retry_fold',
 ] as const;
 export type ReviewAction = (typeof REVIEW_ACTIONS)[number];
 

@@ -69,7 +69,7 @@ export function ContributionDialog(props: ContributionDialogProps) {
 function OpenDialog({
   onClose, type, title, intro, target, draftKey, resume, children, payload, askSource = false, onSubmitted,
 }: ContributionDialogProps) {
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const t = useTranslations();
   const c = t.contribute;
   const { locale } = useLocale();
@@ -271,8 +271,8 @@ function OpenDialog({
           variant="primary"
           onClick={() => send()}
           loading={sending}
-          disabled={!payload || !online}
-          aria-disabled={!payload || !online}
+          disabled={!payload || !online || authLoading}
+          aria-disabled={!payload || !online || authLoading}
         >
           {c.submit}
         </Button>
