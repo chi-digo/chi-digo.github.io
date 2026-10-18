@@ -2,11 +2,13 @@
  * Pure appliers for plant contributions (spec 34 technical §5). The same functions run in the browser
  * (the live overlay, on the shipped JSON) and in fold-in (on the data files), so what reviewers see
  * live is exactly what gets folded. Each is idempotent: a change already in `provenance` is skipped.
+ * Undoing a folded change happens on the source (unapplySourcePlant); the overlay just drops it.
  */
 import type { Plant, PlantStub, SectionKey, L10n } from '@/lib/plants/types';
 import type { Locale } from '@/lib/i18n/config';
-import { stableStringify, normaliseDigo } from '../strings';
-import { ConflictError, hasChange, withProvenance, withoutProvenance, type Change } from './types';
+import { stableStringify } from '../strings';
+import { hasProse, termPieces } from '@/lib/plants/derive';
+import { ConflictError, hasChange, withProvenance, type Change } from './types';
 
 interface NamePayload { name: string }
 interface InfoPayload { section: SectionKey; lang: Locale; mode: 'replace' | 'add'; text: string }
@@ -28,6 +30,18 @@ function unique(list: (string | null | undefined)[]): string[] {
   return [...new Set(list.filter((x): x is string => !!x))];
 }
 
+/** Add names to the alternatives the way the build does: never the headword, no case-insensitive repeats. */
+function withAlt(alt: string[], head: string | null, ...names: (string | null | undefined)[]): string[] {
+  const out = [...alt];
+  for (const n of names) {
+    if (!n) continue;
+    const low = n.toLowerCase();
+    if (low === head?.toLowerCase() || out.some((o) => o.toLowerCase() === low)) continue;
+    out.push(n);
+  }
+  return out;
+}
+
 function addedText(current: string | null, text: string) {
   return current ? `${current}\n\n${text}` : text;
 }
@@ -42,7 +56,7 @@ export function applyPlant(plant: Plant, change: Change): Plant {
       return {
         ...plant,
         digo_variants: [...(plant.digo_variants ?? []), { form: name, region: change.region ?? null, c: change.contribution_id }],
-        digo_alt: unique([...plant.digo_alt, name]),
+        digo_alt: withAlt(plant.digo_alt, plant.digo_headword, name),
         provenance: withProvenance(plant.provenance, 'digo_variants', change),
       };
     }
@@ -53,7 +67,7 @@ export function applyPlant(plant: Plant, change: Change): Plant {
       ...plant,
       digo_headword: name,
       name_status: 'confirmed',
-      digo_alt: unique([...plant.digo_alt.filter((a) => a !== name), plant.digo_headword]),
+      digo_alt: withAlt(plant.digo_alt.filter((a) => a.toLowerCase() !== name.toLowerCase()), name, plant.digo_headword),
       provenance: withProvenance(plant.provenance, 'digo_headword', change),
     };
   }
@@ -66,10 +80,12 @@ export function applyPlant(plant: Plant, change: Change): Plant {
     }
     const existing: L10n = plant.sections?.[section] ?? { en: '', sw: null, dg: null };
     const next = mode === 'add' ? addedText(current, text) : text;
+    const sections = { ...plant.sections, [section]: { ...existing, [lang]: next } };
     return {
       ...plant,
-      sections: { ...plant.sections, [section]: { ...existing, [lang]: next } },
-      has_prose: lang === 'en' ? plant.has_prose : { ...plant.has_prose, [lang]: true },
+      sections,
+      // The same rule the build uses: a language has prose when the summary and every section do.
+      has_prose: { en: hasProse({ ...plant, sections }, 'en'), sw: hasProse({ ...plant, sections }, 'sw'), dg: hasProse({ ...plant, sections }, 'dg') },
       provenance: withProvenance(plant.provenance, `sections.${section}.${lang}`, change),
     };
   }
@@ -77,15 +93,18 @@ export function applyPlant(plant: Plant, change: Change): Plant {
   return plant;
 }
 
-/** Apply a change to a list record (index.json stub), so lists and search show it too. */
+/**
+ * Apply a change to a list record (index.json stub), so lists and search show it too. Only names: a
+ * stub has no sections, so `has_prose` changes from plant_info show in lists once folded in.
+ */
 export function applyPlantStub(stub: PlantStub, change: Change): PlantStub {
   if (hasChange(stub.provenance, change.contribution_id) || change.type !== 'plant_name') return stub;
   const { name } = change.final_payload as unknown as NamePayload;
-  const terms = unique([...stub.search_terms, normaliseDigo(name)]);
+  const terms = unique([...stub.search_terms, ...termPieces(name)]);
   if (change.outcome === 'variant') {
     return {
       ...stub,
-      digo_alt: unique([...stub.digo_alt, name]),
+      digo_alt: withAlt(stub.digo_alt, stub.digo_headword, name),
       search_terms: terms,
       provenance: withProvenance(stub.provenance, 'digo_variants', change),
     };
@@ -97,55 +116,10 @@ export function applyPlantStub(stub: PlantStub, change: Change): PlantStub {
     ...stub,
     digo_headword: name,
     name_status: 'confirmed',
-    digo_alt: unique([...stub.digo_alt.filter((a) => a !== name), stub.digo_headword]),
+    digo_alt: withAlt(stub.digo_alt.filter((a) => a.toLowerCase() !== name.toLowerCase()), name, stub.digo_headword),
     search_terms: terms,
     provenance: withProvenance(stub.provenance, 'digo_headword', change),
   };
-}
-
-/**
- * Undo a change (revert after fold-in). Only when the field still holds what the change set;
- * otherwise a later edit has happened and a reviewer has to decide.
- */
-export function unapplyPlant(plant: Plant, change: Change): Plant {
-  if (!hasChange(plant.provenance, change.contribution_id)) return plant;
-  const provenance = withoutProvenance(plant.provenance, change.contribution_id);
-
-  if (change.type === 'plant_name') {
-    const { name } = change.final_payload as unknown as NamePayload;
-    if (change.outcome === 'variant') {
-      const variants = (plant.digo_variants ?? []).filter((v) => v.c !== change.contribution_id);
-      const stillUsed = variants.some((v) => v.form === name) || plant.digo_headword === name;
-      return {
-        ...plant,
-        digo_variants: variants.length ? variants : undefined,
-        digo_alt: stillUsed ? plant.digo_alt : plant.digo_alt.filter((a) => a !== name),
-        provenance,
-      };
-    }
-    if (plant.digo_headword !== name) throw new ConflictError(change.contribution_id, 'digo_headword');
-    const base = (change.base?.value ?? {}) as ReturnType<typeof plantNameBase>;
-    return {
-      ...plant,
-      digo_headword: base.digo_headword ?? null,
-      name_status: base.name_status ?? plant.name_status,
-      digo_alt: unique([...plant.digo_alt.filter((a) => a !== base.digo_headword), name]),
-      provenance,
-    };
-  }
-
-  if (change.type === 'plant_info') {
-    const { section, lang, mode, text } = change.final_payload as unknown as InfoPayload;
-    const before = (change.base?.value ?? null) as string | null;
-    const applied = mode === 'add' ? addedText(before, text) : text;
-    if (plantInfoBase(plant, section, lang) !== applied) {
-      throw new ConflictError(change.contribution_id, `sections.${section}.${lang}`);
-    }
-    const existing = plant.sections?.[section] ?? { en: '', sw: null, dg: null };
-    return { ...plant, sections: { ...plant.sections, [section]: { ...existing, [lang]: before } as L10n }, provenance };
-  }
-
-  return plant;
 }
 
 /**

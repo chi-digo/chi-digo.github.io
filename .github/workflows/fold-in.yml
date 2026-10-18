@@ -1,0 +1,133 @@
+name: Fold in community contributions
+
+# Spec 34 technical §6.1: write accepted contributions (already live through the overlay) into the
+# data files, through a PR into preview that then follows the normal preview -> main release.
+on:
+  schedule:
+    - cron: '0 2 * * *'    # daily, 05:00 EAT
+    - cron: '*/30 * * * *' # only runs when an admin asked for a fold ("Fold in now")
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fold-in
+  cancel-in-progress: false
+
+env:
+  SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+  SUPABASE_ANON_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        # No secrets here: fold_requested() is public and only answers true/false.
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ] || [ "$SCHEDULE" = "0 2 * * *" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          r=$(curl -s -X POST "$SUPABASE_URL/rest/v1/rpc/fold_requested" -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" -H 'Content-Type: application/json' -d '{}')
+          echo "run=$([ "$r" = "true" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+  fold:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      # Tool code comes from main; the data being changed comes from preview. No step runs code from
+      # the data checkout, and neither checkout keeps the token in its git config.
+      - uses: actions/checkout@v4
+        with: { ref: main, path: tool, persist-credentials: false }
+      - uses: actions/checkout@v4
+        with: { ref: preview, path: data, persist-credentials: false }
+      - uses: actions/setup-node@v4
+        with: { node-version: 25, cache: npm, cache-dependency-path: tool/package-lock.json }
+      - name: Install tools
+        working-directory: tool
+        run: npm ci --ignore-scripts
+
+      - name: Claim accepted changes
+        env:
+          FOLD_TOKEN: ${{ secrets.FOLD_TOKEN }}
+        run: node tool/scripts/fold-in/rpc.mjs claim > "$RUNNER_TEMP/claimed.json"
+
+      - name: Apply (no secrets)
+        working-directory: tool
+        run: npx tsx scripts/fold-in/apply.ts --data "$GITHUB_WORKSPACE/data" --in "$RUNNER_TEMP/claimed.json" --out "$RUNNER_TEMP/results.json"
+
+      - name: Rebuild the shipped plant files
+        run: |
+          if [ -n "$(git -C data status --porcelain)" ]; then
+            (cd tool && npx tsx scripts/plants/build-plants-data.ts --root "$GITHUB_WORKSPACE/data")
+          fi
+
+      - name: Validate before anything is merged (tool scripts, data checkout)
+        env:
+          # Resolve imports with the tool's config, never the data checkout's.
+          TSX_TSCONFIG_PATH: ${{ github.workspace }}/tool/tsconfig.json
+        run: |
+          if [ -n "$(git -C data status --porcelain)" ]; then
+            cd data
+            ../tool/node_modules/.bin/tsx ../tool/scripts/validate-plants.ts
+            ../tool/node_modules/.bin/tsx ../tool/scripts/check-digo-standards.ts
+            ../tool/node_modules/.bin/tsx ../tool/scripts/plants/build-plants-data.ts --root . --check
+          fi
+
+      - name: Only data files may change
+        run: |
+          git -C data add -A
+          bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/data-version\.json)$' || true)
+          if [ -n "$bad" ]; then echo "unexpected changes:"; echo "$bad"; exit 1; fi
+
+      - name: Open and merge the PR into preview
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+          REPO: ${{ github.repository }}
+        run: |
+          if git -C data diff --cached --quiet; then echo "pr=-" >> "$GITHUB_OUTPUT"; echo "merged=nochange" >> "$GITHUB_OUTPUT"; exit 0; fi
+          cd data
+          git config user.name "chidigo-fold-in"
+          git config user.email "fold-in@users.noreply.github.com"
+          branch="fold-in/$RUN_ID"
+          git checkout -b "$branch"
+          n=$(node -e "const r=require(process.env.RUNNER_TEMP+'/results.json');console.log(r.applied.length+r.reverted.length)")
+          title="Fold in $n community contributions (run $RUN_ID)"
+          git commit -q -m "$title"
+          git push -q "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" "$branch"
+          url=$(gh pr create --repo "$REPO" --base preview --head "$branch" --title "$title" --body "Automated fold-in (spec 34 technical §6). The contribution ids are in this run's results.")
+          num="${url##*/}"
+          echo "pr=$num" >> "$GITHUB_OUTPUT"
+          if gh pr merge "$num" --repo "$REPO" --squash --delete-branch; then
+            echo "merged=true" >> "$GITHUB_OUTPUT"
+          else
+            # Preview moved underneath us: drop this attempt; the rows are released and re-applied next run.
+            gh pr close "$num" --repo "$REPO" --delete-branch || true
+            echo "merged=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Report each change
+        if: always()
+        env:
+          FOLD_TOKEN: ${{ secrets.FOLD_TOKEN }}
+          PR: ${{ steps.pr.outputs.pr }}
+          MERGED: ${{ steps.pr.outputs.merged }}
+        run: node tool/scripts/fold-in/report.mjs "$RUNNER_TEMP/results.json" "${PR:--}" "${MERGED:-false}"
+
+      - name: Record a failed run
+        if: failure()
+        env:
+          FOLD_TOKEN: ${{ secrets.FOLD_TOKEN }}
+          RUN_ID: ${{ github.run_id }}
+        run: node tool/scripts/fold-in/rpc.mjs mark fold_failed - "" - - "run $RUN_ID failed"

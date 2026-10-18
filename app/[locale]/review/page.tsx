@@ -97,11 +97,19 @@ function PublishingSwitch() {
   const r = useTranslations().review;
   const [paused, setPaused] = useState<boolean | null>(null);
   const [busy, setBusy] = useState(false);
+  const [lastFold, setLastFold] = useState<string | null>(null);
+  const [folding, setFolding] = useState(false);
+  const [foldAsked, setFoldAsked] = useState(false);
 
   const load = useCallback(() => {
     fetch('/api/admin/settings')
       .then((res) => (res.ok ? res.json() : null))
-      .then((d) => d && setPaused(d.publishing_paused))
+      .then((d) => {
+        if (!d) return;
+        setPaused(d.publishing_paused);
+        const last = (d.fold_events as { action: string; created_at: string }[]).find((e) => e.action !== 'fold_requested');
+        setLastFold(last ? `${new Date(last.created_at).toLocaleString()} (${last.action.replace('fold_', '')})` : null);
+      })
       .catch(() => {});
   }, []);
   useEffect(load, [load]);
@@ -120,13 +128,32 @@ function PublishingSwitch() {
       setPaused(!paused);
     }
   };
+  const foldNow = async () => {
+    setFolding(true);
+    const res = await fetch('/api/admin/settings', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ fold_now: true }),
+    });
+    setFolding(false);
+    if (res.ok) {
+      track('contribute', 'review', 'fold_now', {});
+      setFoldAsked(true);
+    }
+  };
   return (
-    <div className={styles.banner} role="status">
-      <span>{paused ? r.paused_banner : r.live_banner}</span>
-      <Button size="sm" variant={paused ? 'primary' : 'secondary'} onClick={toggle} loading={busy}>
-        {paused ? r.resume : r.pause}
-      </Button>
-    </div>
+    <>
+      <div className={styles.banner} role="status">
+        <span>{paused ? r.paused_banner : r.live_banner}</span>
+        <Button size="sm" variant={paused ? 'primary' : 'secondary'} onClick={toggle} loading={busy}>
+          {paused ? r.resume : r.pause}
+        </Button>
+      </div>
+      <div className={styles.banner}>
+        <span>{foldAsked ? r.fold_requested : lastFold ? r.fold_last.replace('{when}', lastFold) : r.fold_never}</span>
+        <Button size="sm" variant="secondary" onClick={foldNow} loading={folding} disabled={foldAsked}>{r.fold_now}</Button>
+      </div>
+    </>
   );
 }
 

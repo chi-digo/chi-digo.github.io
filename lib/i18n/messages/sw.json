@@ -836,7 +836,11 @@
     "err_rate": "Umekubali mengi saa hii. Pumzika kisha urudi.",
     "err_forbidden": "Huwezi kukagua hili.",
     "self_confirm": "Thibitisha kama mkaguzi pekee",
-    "self_confirm_note": "Hakuna mkaguzi mwingine wa eneo hili bado, kwa hivyo unaweza kuthibitisha ukubali wako. Inarekodiwa kama ukaguzi wa mtu mmoja."
+    "self_confirm_note": "Hakuna mkaguzi mwingine wa eneo hili bado, kwa hivyo unaweza kuthibitisha ukubali wako. Inarekodiwa kama ukaguzi wa mtu mmoja.",
+    "fold_now": "Ingiza sasa",
+    "fold_requested": "Imeombwa. Faili za data zitasasishwa ndani ya dakika 30, kupitia PR kwenye preview.",
+    "fold_last": "Uingizaji wa mwisho: {when}",
+    "fold_never": "Bado hakuna uingizaji uliofanyika."
   },
   "admin": {
     "menu_admin": "Wakaguzi",
