@@ -4147,7 +4147,7 @@
     "dg": "Minazi inamera phephi kpwa chila mudzi wa Adigo, na kpwenye virirwa vya minazi uphande wa bara wa Diani na Msambweni. Kaunti za Kwale na Kilifi ndizo zenye unji wa minazi ya Kenya, na pwani iriyodzala minazi ndiyo alama ya tsi ya Adigo."
    },
    "uses": {
-    "en": "Coconut is in nearly everything the Digo cook. Grated *nazi* is squeezed through the *chifumbu*, a woven basket strainer, to give *huwi* or *uwi*, coconut milk, which goes into rice, cassava, fish, beans and greens. The leftover dregs are *dindiya*, and grated coconut also makes *kashata*, a coconut sweet. The young *dafu* is drunk straight from the nut.\n\nThe palm is also tapped for palm wine, *uchi* or *tembo*. The tapper, the *mjema*, climbs to the crown and taps the *phalanga* to collect the sap.\n\nAlmost nothing goes to waste. Fronds (*kuti*, plural *makuti*) are used for thatch, and woven fronds are *makandza*. Leaves are made into *hundu* baskets, strips of *mkpwuna* serve as twine, coir is twisted into *ndifu* rope, and the shells, *chivo*, become ladles and fuel. The trunk is used as timber. Coconuts and their products are a major source of income on the coast.\n\nThe midribs of the leaflets are tied together to make brooms.",
+    "en": "Coconut is in nearly everything the Digo cook. Grated *nazi* is squeezed through the *chifumbu*, a woven basket strainer, to give *huwi* or *uwi*, coconut milk, which goes into rice, cassava, fish, beans and greens. The leftover dregs are *dindiya*, and grated coconut also makes *kashata*, a coconut sweet. The young *dafu* is drunk straight from the nut.\n\nThe palm is also tapped for palm wine, *uchi* or *tembo*. The tapper, the *mjema*, climbs to the crown and taps the *phalanga* to collect the sap.\n\nAlmost nothing goes to waste. Fronds (*kuti*, plural *makuti*) are used for thatch, and woven fronds are *makandza*. Leaves are made into *hundu* baskets, strips of *mkpwuna* serve as twine, coir is twisted into *ndifu* rope, and the shells, *chivo*, become ladles and fuel. The trunk is used as timber. Coconuts and their products are a major source of income on the coast.",
     "sw": "Nazi imo karibu katika kila chakula kinachopikwa na Wadigo. *Nazi* iliyokunwa hukamuliwa kupitia *chifumbu*, kichujio cha kikapu kilichofumwa, ili kupata *huwi* au *uwi*, yaani tui, linalotiwa katika wali, muhogo, samaki, maharagwe na mboga za majani. Machicha yanayobaki huitwa *dindiya*, na nazi iliyokunwa pia hutengeneza *kashata*, peremende ya nazi. *Dafu* changa hunywewa moja kwa moja kutoka kwenye nazi.\n\nMnazi pia hugemwa ili kupata tembo, *uchi* au *tembo*. Mgemaji, *mjema*, hupanda hadi kileleni na kugema *phalanga* ili kukusanya utomvu.\n\nKaribu hakuna kinachopotea bure. Makuti (*kuti*, wingi *makuti*) hutumika kuezekea, na makuti yaliyosukwa huitwa *makandza*. Majani hutengenezwa vikapu vya *hundu*, vipande vya *mkpwuna* hutumika kama kamba nyembamba, makumbi husokotwa kuwa kamba ya *ndifu*, na vifuu, *chivo*, huwa kata na kuni. Shina hutumika kama mbao. Nazi na bidhaa zake ni chanzo kikubwa cha kipato pwani.",
     "dg": "Nazi inainjira phephi kpwa chila chakurya Adigo anachojita. *Nazi* iriyokunwa nkutsudzwa kpwa *chifumbu*, kaphu iriyosukwa ya kutsudzira, ili kuphaha *huwi* au *uwi*, maziya ga nazi. Huwi nkutiywa kpwa wari, manga, ng'onda, maharagbwe na mtsunga. Garigosala ni *dindiya*, na nazi iriyokunwa piya nkuhendwa *kashata*, peremende ya nazi. *Dafu*, nazi tsanga, nkunwewa kula ndani ya nazi yenye.\n\nMnazi piya nkujemwa ili kuphaha uchi wa mnazi, *uchi* au *tembo*. Mutu anayejema, *mjema*, anafyombera hadi dzulu ya mnazi na kujema *phalanga* ili kuphaha utomvu wa mnazi.\n\nPhephi takuna chitu chinachotsuphwa. Makuti (*kuti*, unji *makuti*) nkuhumirwa kuezekera nyumba, na makuti garigosukwa ni *makandza*. Makodza nkuhendwa kaphu za *hundu*, vipande vya *mkpwuna* nkuhumirwa dza lugbwe, *ndifu* nkusokotwa kukala kamba, na vivo, *chivo*, nkuhendwa maliphazi na kuni. Kolo nkuhumirwa dza mbao. Nazi na vitu vinavyohendwa kula kpwa nazi ni njira kulu ya mapato pwani."
    },
@@ -4937,17 +4937,7 @@
     "english": "fish-smoking sticks",
     "source": "Pakia 2005 §3.3.2"
    }
-  ],
-  "provenance": {
-   "sections.uses.en": [
-    {
-     "c": "186fc1e4-12ee-470c-a5b1-c045bd4c2525",
-     "src": "community",
-     "conf": "native",
-     "edited": false
-    }
-   ]
-  }
+  ]
  },
  {
   "id": "pl-033",
