@@ -122,3 +122,18 @@
   flex-wrap: wrap;
   gap: var(--space-4);
 }
+
+.unread {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #e8a33d;
+  vertical-align: middle;
+}
+
+.link {
+  color: var(--fg-link, var(--color-kaya-deep));
+  font-weight: 600;
+}

@@ -46,6 +46,7 @@ interface Detail {
   warnings: { ruled_out: { found: string; right: string }[]; pii: boolean };
   agreements: { region: string | null; confidence: string | null; counted: boolean }[];
   others: { id: string; type: string; payload: Record<string, unknown>; status: string }[];
+  can_self_confirm: boolean;
 }
 
 /** The text fields a reviewer may edit before accepting, per type. */
@@ -140,7 +141,7 @@ function ReviewItem({ id }: { id: string }) {
     }
     track('contribute', 'review', action, { type: item.type });
     // This tab's plant pages must show the decision straight away.
-    if (['accept', 'accept_variant', 'second_confirm', 'revert', 'retry_fold'].includes(action)) refreshPlantOverlay();
+    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(action)) refreshPlantOverlay();
     setMessage(r.done);
     load();
   };
@@ -165,6 +166,7 @@ function ReviewItem({ id }: { id: string }) {
       </div>
 
       {detail.changed && <p className={styles.warning}>{r.err_target_changed}</p>}
+      {detail.can_self_confirm && <p className={styles.muted}>{r.self_confirm_note}</p>}
       {detail.warnings.ruled_out.map((w) => (
         <p key={w.found} className={styles.warning}>{r.warn_ruled_out.replace('{found}', w.found).replace('{right}', w.right)}</p>
       ))}
@@ -244,7 +246,10 @@ function ReviewItem({ id }: { id: string }) {
               <Button variant="ghost" onClick={() => act('decline')} loading={busy === 'decline'}>{r.decline}</Button>
             </>
           )}
-          {item.status === 'accepted' && item.live_status === 'awaiting_second' && (
+          {item.status === 'accepted' && item.live_status === 'awaiting_second' && detail.can_self_confirm && (
+            <Button onClick={() => act('self_confirm')} loading={busy === 'self_confirm'}>{r.self_confirm}</Button>
+          )}
+          {item.status === 'accepted' && item.live_status === 'awaiting_second' && !detail.can_self_confirm && (
             <>
               <Button onClick={() => act('second_confirm')} loading={busy === 'second_confirm'}>{r.second_confirm}</Button>
               <Button variant="ghost" onClick={() => act('second_reject')} loading={busy === 'second_reject'}>{r.second_reject}</Button>

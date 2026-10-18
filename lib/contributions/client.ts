@@ -17,6 +17,8 @@ export interface ContributorStatus {
   can_apply_for: Scope[];
   application: { id: string; status: 'pending' | 'approved' | 'declined'; scopes: string[]; decision_note: string | null } | null;
   unread: number;
+  /** Items waiting in the caller's review scopes (reviewers and admins). */
+  review_pending: number;
 }
 
 /* One store for every component (menu dot, review link, My contributions), so a refresh anywhere updates all. */
@@ -31,16 +33,30 @@ function emit() {
   statusStore.listeners.forEach((l) => l());
 }
 
-function fetchStatus(userId: string) {
+/**
+ * Load the caller's status. A failed call is retried: at page load the browser and the server can
+ * race to refresh the same session, and the loser briefly gets 401.
+ */
+let statusRequest = 0;
+
+function fetchStatus(userId: string, attempt = 0) {
+  // Only the newest request may write, so a slow older answer can't bring back a stale count.
+  const request = ++statusRequest;
   statusStore.loading = true;
   fetch('/api/contributions/me')
-    .then((r) => (r.ok ? r.json() : null))
-    .catch(() => null)
-    .then((s: ContributorStatus | null) => {
+    .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+    .then((s: ContributorStatus) => {
+      if (statusStore.userId !== userId || request !== statusRequest) return;
       statusStore.loading = false;
-      if (statusStore.userId !== userId) return;
       statusStore.value = s;
       emit();
+    })
+    .catch((status: unknown) => {
+      if (statusStore.userId !== userId || request !== statusRequest) return;
+      // 403/404 won't change by retrying; a 401 gets one retry (the session-refresh race).
+      const max = status === 401 ? 1 : status === 403 || status === 404 ? 0 : 3;
+      if (attempt < max) setTimeout(() => fetchStatus(userId, attempt + 1), 800 * (attempt + 1));
+      else statusStore.loading = false;
     });
 }
 
@@ -53,7 +69,7 @@ function subscribeStatus(cb: () => void) {
 
 /** Role, scopes and unread count for the signed-in user, shared by every component; null when signed out. */
 export function useContributorStatus(): { status: ContributorStatus | null; refresh: () => void } {
-  const { user } = useAuth();
+  const { user, session } = useAuth();
   const value = useSyncExternalStore(subscribeStatus, () => statusStore.value, () => null);
 
   useEffect(() => {
@@ -69,8 +85,11 @@ export function useContributorStatus(): { status: ContributorStatus | null; refr
       statusStore.userId = user.id;
       statusStore.value = null;
       fetchStatus(user.id);
+    } else if (!statusStore.value && !statusStore.loading) {
+      // A refreshed session after a failed load: try again.
+      fetchStatus(user.id);
     }
-  }, [user]);
+  }, [user, session?.access_token]);
 
   const refresh = useCallback(() => {
     if (statusStore.userId) fetchStatus(statusStore.userId);

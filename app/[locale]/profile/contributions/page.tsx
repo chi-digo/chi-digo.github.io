@@ -155,7 +155,7 @@ function ContributionList({ items, onChange }: { items: Mine[]; onChange: () => 
         const chip = statusChip(item);
         const summary = payloadSummary(item.payload);
         return (
-          <li key={item.id} className={styles.item}>
+          <li key={item.id} id={`c-${item.id}`} className={styles.item}>
             <div className={styles.itemHead}>
               <span className={styles.type}>{msg(c, `type_${item.type}`)}</span>
               <Badge variant={CHIP_VARIANT[chip]} size="sm">{msg(c, `status_${chip}`)}</Badge>
@@ -190,7 +190,6 @@ function ContributionList({ items, onChange }: { items: Mine[]; onChange: () => 
 
 function ContributionsContent() {
   const c = useTranslations().contribute;
-  const { refresh } = useContributorStatus();
   const [items, setItems] = useState<Mine[] | null>(null);
   const [failed, setFailed] = useState(false);
 
@@ -204,11 +203,7 @@ function ContributionsContent() {
   useEffect(() => {
     load();
     track('contribute', 'mine', 'view_mine', {});
-    // Seeing the list reads the decisions on it.
-    fetch('/api/notifications', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ all: true }) })
-      .then(() => refresh())
-      .catch(() => {});
-  }, [load, refresh]);
+  }, [load]);
 
   const open = (items ?? []).filter((i) => OPEN.includes(i.status));
   const decided = (items ?? []).filter((i) => !OPEN.includes(i.status));

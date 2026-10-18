@@ -39,7 +39,8 @@ export function SuggestionsPanel({
   render: (s: PublicSuggestion) => React.ReactNode;
   onDifferently?: (s: PublicSuggestion) => void;
 }) {
-  const { user } = useAuth();
+  // While the sign-in state is still loading, a signed-in reader must not be asked to sign in.
+  const { user, loading: authLoading } = useAuth();
   const c = useTranslations().contribute;
   const [items, setItems] = useState<PublicSuggestion[]>([]);
   const [mine, setMine] = useState<{ agreed: string[]; reported: string[] }>({ agreed: [], reported: [] });
@@ -119,7 +120,7 @@ export function SuggestionsPanel({
                 {s.agree_count > 0 && <span> · {c.panel_agree_count.replace('{n}', String(s.agree_count))}</span>}
               </p>
               <div className={styles.panelActions}>
-                <button type="button" className={`${styles.textBtn} ${agreed ? styles.textBtnOn : ''}`} aria-pressed={agreed} disabled={busy === s.id} onClick={() => toggleAgree(s)}>
+                <button type="button" className={`${styles.textBtn} ${agreed ? styles.textBtnOn : ''}`} aria-pressed={agreed} disabled={busy === s.id || authLoading} onClick={() => toggleAgree(s)}>
                   {agreed ? c.panel_agreed : c.panel_agree}
                 </button>
                 {onDifferently && (
@@ -134,6 +135,7 @@ export function SuggestionsPanel({
                     type="button"
                     className={styles.textBtn}
                     aria-expanded={reporting === s.id}
+                    disabled={authLoading}
                     onClick={() => !needUser() && setReporting(reporting === s.id ? null : s.id)}
                   >
                     {c.panel_report}
