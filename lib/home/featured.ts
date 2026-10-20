@@ -32,7 +32,7 @@ const FEATURED_SETS: FeaturedArticle[][] = [
       intro: {
         en: 'The story of how the Digo and the wider Mijikenda peoples journeyed from Singwaya to the Kenya coast — an origin narrative that binds nine peoples together.',
         sw: 'Hadithi ya jinsi Wadigo na watu wengine wa Mijikenda walivyosafiri kutoka Singwaya hadi pwani ya Kenya.',
-        dg: 'Hadisi ya vira Adigo na atu anjine a Amijikenda arivyosafiri kula Singwaya hadi ph\'wani ya Kenya.',
+        dg: 'Hadisi ya vira Adigo na atu anjina a Amijikenda arivyosafiri kula Singwaya hadi ph\'wani ya Kenya.',
       },
       href: '/history/singwaya',
     },

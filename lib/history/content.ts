@@ -388,7 +388,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjine kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
+            "text": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjina kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
           },
           {
             "type": "paragraph",
@@ -781,7 +781,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Swali ra rini makaya garianzishwa rinasala kukala mwenga wa mambo ganago pingwa zaidi kpwa uwanja uwo. Uphana wa tarehe zinazopendekezwa ni wa kushangaza: asomi anjine anaweka kuanzishwa kpwa makaya kpwa karne ya kumi na sita, kulingana na uhamisho wa kipindi cha mwisho kula Singwaya, wakati ushahidi wa chiakiolojia wa Mutoro unasukuma tarehe nyuma hadi angalau karne ya tisa au kumi. Pengo riro ra karne sita au saba si tofauti ndogo. Ikala makaya ni misingi ya karne ya kumi na sita, masimulizi ga kawaida ga uhamisho ganawezekana. Ikala ni misingi ya karne ya tisa, masimulizi ga kuruka gafla kusini kutokana na uvamizi wa Aoromo ganakala vigumu kudumisha."
+            "text": "Swali ra rini makaya garianzishwa rinasala kukala mwenga wa mambo ganago pingwa zaidi kpwa uwanja uwo. Uphana wa tarehe zinazopendekezwa ni wa kushangaza: asomi anjina anaweka kuanzishwa kpwa makaya kpwa karne ya kumi na sita, kulingana na uhamisho wa kipindi cha mwisho kula Singwaya, wakati ushahidi wa chiakiolojia wa Mutoro unasukuma tarehe nyuma hadi angalau karne ya tisa au kumi. Pengo riro ra karne sita au saba si tofauti ndogo. Ikala makaya ni misingi ya karne ya kumi na sita, masimulizi ga kawaida ga uhamisho ganawezekana. Ikala ni misingi ya karne ya tisa, masimulizi ga kuruka gafla kusini kutokana na uvamizi wa Aoromo ganakala vigumu kudumisha."
           },
           {
             "type": "heading",
@@ -1042,7 +1042,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya makabila sita ga Chibantu ga ph'wani ya Afrika Mashariki — Amijikenda, Apokomo, Aswahili, Ataita, Asegeju, na anjine — chila mwenga akidai kukala nyumba ya akare. Singwaya yakala, kpwa masimulizi iga, chituwo cha makabila manji chenye ukubwa wa kutosha, chirichoudumishwa ni mitandao ya biashara."
+            "text": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya makabila sita ga Chibantu ga ph'wani ya Afrika Mashariki — Amijikenda, Apokomo, Aswahili, Ataita, Asegeju, na anjina — chila mwenga akidai kukala nyumba ya akare. Singwaya yakala, kpwa masimulizi iga, chituwo cha makabila manji chenye ukubwa wa kutosha, chirichoudumishwa ni mitandao ya biashara."
           },
           {
             "type": "heading",
@@ -1126,7 +1126,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Iga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
+            "text": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjina amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Iga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
           },
           {
             "type": "heading",
