@@ -320,9 +320,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Maimamu a kpwandza Adigo',
     },
     description: {
-      en: 'Until the 1920s, Digo mosques were led by imams from outside the community. In 1924 the village of Chigato builds a mosque for Kassim Mwachinyama, one of the first Digo imams.',
-      sw: 'Hadi miaka ya 1920, misikiti ya Wadigo iliongozwa na maimamu kutoka nje ya jamii. Mwaka 1924 kijiji cha Chigato kinajenga msikiti kwa ajili ya Kassim Mwachinyama, mmoja wa maimamu wa kwanza Wadigo.',
-      dg: 'Hadi miaka ya 1920, misikiti ya Adigo kala inalongozwa ni maimamu kula kondze ya jamii. Mwaka 1924 chidzidzi cha Chigato chinadzenga msikiti kpwa ajili ya Kassim Mwachinyama, mmwenga wa maimamu a kpwandza Adigo.',
+      en: 'Around Tiwi, mosques had long been led by imams from outside the community. In 1924 the village of Chigato builds a mosque for Kassim Mwachinyama, one of the first Digo imams.',
+      sw: 'Huko Tiwi, misikiti iliongozwa kwa muda mrefu na maimamu kutoka nje ya jamii. Mwaka 1924 kijiji cha Chigato kinajenga msikiti kwa ajili ya Kassim Mwachinyama, mmoja wa maimamu wa kwanza Wadigo.',
+      dg: 'Kuko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 chidzidzi cha Chigato chinadzenga msikiti kpwa ajili ya Kassim Mwachinyama, mmwenga wa maimamu a kpwandza Adigo.',
     },
   },
   {
