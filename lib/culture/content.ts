@@ -13030,11 +13030,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Ukpwulu na Uhamisho"
+              "text": "Ukulu na Uhamisho"
             },
             {
               "type": "paragraph",
-              "text": "Ukpwulu wa kazi za Base Titanium wakala wa ajabu kpwa kaunti ya vidzidzini ya Kenya. Mgodi waajiri dza ahendakazi 1,600 mwenga kpwa mwenga na kuterya kazi dza 2,800 zisizo za mwenga kpwa mwenga kpwenye usafiri, huduma, na minyororo ya ugavi. Ino ni idadi kulu kpwenye kaunti ambapho kazi rasmi ya aina yoyosi ni haba. Mgodi waripha kodi, wadzenga barabara kadhaa, waterya miradi kadhaa ya jamii, na walavya chiwango cha shughuli za chiuchumi ambacho Kwale kare taidzangbweona."
+              "text": "Ukulu wa kazi za Base Titanium wakala wa ajabu kpwa kaunti ya vidzidzini ya Kenya. Mgodi waajiri dza ahendakazi 1,600 mwenga kpwa mwenga na kuterya kazi dza 2,800 zisizo za mwenga kpwa mwenga kpwenye usafiri, huduma, na minyororo ya ugavi. Ino ni idadi kulu kpwenye kaunti ambapho kazi rasmi ya aina yoyosi ni haba. Mgodi waripha kodi, wadzenga barabara kadhaa, waterya miradi kadhaa ya jamii, na walavya chiwango cha shughuli za chiuchumi ambacho Kwale kare taidzangbweona."
             },
             {
               "type": "paragraph",
@@ -13573,7 +13573,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chivuko cha Lunga Lunga-Horohoro si lango kulu ra chimataifa. Tachina ukpwulu wa Namanga. Chiricho nacho ni chitu cha musingi zaidi: ni seemu ya musingi ya uhusiano kahi ya Adigo a Kenya na Tanzania, phatu ambapho nusu zirizoganywa za jamii zinakpwedza phamwenga kuhenda biashara, kuabudu, kuoana, na kudumisha vifungo vya ukoo."
+              "text": "Chivuko cha Lunga Lunga-Horohoro si lango kulu ra chimataifa. Tachina ukulu wa Namanga. Chiricho nacho ni chitu cha musingi zaidi: ni seemu ya musingi ya uhusiano kahi ya Adigo a Kenya na Tanzania, phatu ambapho nusu zirizoganywa za jamii zinakpwedza phamwenga kuhenda biashara, kuabudu, kuoana, na kudumisha vifungo vya ukoo."
             },
             {
               "type": "heading",
@@ -13846,11 +13846,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi na ngorosho ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni, na anayefafanuliwa ni uphephi wa Bahari ya Hindi. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika. Rero, idadi inayoenjerezeka ya Adigo — hasa avulana na asichana — anauka vidzidzi vya Kwale kuelekea midzi mikpwulu, achisukumwa ni nguvu zizo-zizo zinazosukuma atu kula vidzidzini kuphiya midzini kosi kpwenye tsi zinazoendelea: ahadi ya kazi, kuhendza elimu, na matumaini ga maisha ambago uchumi wa chidzidzi — wenye shughuli chache na uwekezaji mdide wa siku zosi — tauweza kulavya."
+              "text": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi na ngorosho ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni, na anayefafanuliwa ni uphephi wa Bahari ya Hindi. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika. Rero, idadi inayoenjerezeka ya Adigo — hasa avulana na asichana — anauka vidzidzi vya Kwale kuelekea midzi mikulu, achisukumwa ni nguvu zizo-zizo zinazosukuma atu kula vidzidzini kuphiya midzini kosi kpwenye tsi zinazoendelea: ahadi ya kazi, kuhendza elimu, na matumaini ga maisha ambago uchumi wa chidzidzi — wenye shughuli chache na uwekezaji mdide wa siku zosi — tauweza kulavya."
             },
             {
               "type": "paragraph",
-              "text": "Dzambo riri si riphya. Amijikenda — muungano mpana wa makabila tisiya ambao Adigo ni seemu yao — ni akazi a kare a eneo ra Mombasa. Kukala kpwa Adigo kpwenye mudzi uwo kuna mizi ya kare ya chihistoria. Ela ukpwulu na sura ya uhamiaji wa rero ni tafwauti na mienendo ya kare. Wakati vizazi vya kare vyaphiya Mombasa pore-pore dza seemu ya kutsama kanda-kanda ya pwani, uhamiaji wa rero ni wa haraka zaidi, una lengo zaidi, na mara nyinji ni wa kudumu. Adide anauka kuphiya shule za sekondari na taauya. Ariohitimu anahendza kazi kpwenye sekta ya huduma, kpwenye utalii, kpwenye serikali. Chidzidzi chinakala phatu pha kutembelea, si phatu pha kuishi — chanzo cha utambuzi ela si cha riziki."
+              "text": "Dzambo riri si riphya. Amijikenda — muungano mpana wa makabila tisiya ambao Adigo ni seemu yao — ni akazi a kare a eneo ra Mombasa. Kukala kpwa Adigo kpwenye mudzi uwo kuna mizi ya kare ya chihistoria. Ela ukulu na sura ya uhamiaji wa rero ni tafwauti na mienendo ya kare. Wakati vizazi vya kare vyaphiya Mombasa pore-pore dza seemu ya kutsama kanda-kanda ya pwani, uhamiaji wa rero ni wa haraka zaidi, una lengo zaidi, na mara nyinji ni wa kudumu. Adide anauka kuphiya shule za sekondari na taauya. Ariohitimu anahendza kazi kpwenye sekta ya huduma, kpwenye utalii, kpwenye serikali. Chidzidzi chinakala phatu pha kutembelea, si phatu pha kuishi — chanzo cha utambuzi ela si cha riziki."
             },
             {
               "type": "heading",
@@ -14119,7 +14119,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Ukpwulu wa Mgawanyiko"
+              "text": "Ukulu wa Mgawanyiko"
             },
             {
               "type": "paragraph",

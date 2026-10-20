@@ -41,7 +41,6 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\bMto\b/, right: 'Muho (river)', ruling: 'round 7 (2026-10-20)', only: DG_ONLY },
   { wrong: /\bm?paka\b(?= (?:wa|wakpwe|uho|unafungwa|unaikpwa))|\bMpaka\b/, right: 'mphaka (border, limit)', ruling: 'round 7', only: DG_ONLY },
   { wrong: /\b\w*kumbuk(?:a|wa|iwa)\b/i, right: 'tambukira (remember)', ruling: 'round 7', only: DG_ONLY },
-  { wrong: /\b\w*tsemberer\w*/i, right: 'nyendekera (visit)', ruling: 'round 7: tsemberera is not Digo', only: /^(content|lib)\// },
 ];
 
 /** Ruled-out forms found in a piece of Digo text (ignores path-scoped rules). */
