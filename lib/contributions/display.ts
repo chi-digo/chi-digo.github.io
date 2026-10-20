@@ -11,7 +11,7 @@ export function payloadSummary(payload: Record<string, unknown> | null | undefin
   return '';
 }
 
-export type StatusChip = 'pending' | 'needs_info' | 'accepted' | 'live' | 'variant' | 'declined' | 'duplicate' | 'withdrawn' | 'reverted';
+export type StatusChip = 'pending' | 'needs_info' | 'accepted' | 'live' | 'variant' | 'declined' | 'duplicate' | 'withdrawn' | 'reverted' | 'resolved';
 
 /** The status a contributor sees: an accepted change that is live shows as Live (or a regional form). */
 export function statusChip(row: { status: Status; live_status?: string | null; outcome?: string | null }): StatusChip {
@@ -32,4 +32,5 @@ export const CHIP_VARIANT: Record<StatusChip, 'default' | 'editorial' | 'contrib
   duplicate: 'default',
   withdrawn: 'default',
   reverted: 'default',
+  resolved: 'success',
 };

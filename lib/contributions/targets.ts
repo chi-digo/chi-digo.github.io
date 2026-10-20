@@ -8,12 +8,15 @@ import { join } from 'path';
 import { createHash } from 'crypto';
 import type { Plant } from '@/lib/plants/types';
 import type { Locale } from '@/lib/i18n/config';
-import { stableStringify } from './text';
+import { stableStringify, normaliseDigo } from './text';
 import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
+import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
+import { digoLetterFile } from '@/lib/dictionary/letters';
 import { TEST_TARGET, type ContributionType, type TargetType } from './schemas';
 
 const PLANTS = join(process.cwd(), 'public/data/plants/p');
+const DICT = join(process.cwd(), 'public/data');
 
 export interface Target {
   label: string;
@@ -44,6 +47,123 @@ export function testPlant(): Plant {
   };
 }
 
+/** Dictionary ids: a sort key with an optional .N (spec 34 §15.3; tone accents and spaces occur, e.g. mwanáo). */
+export const WORD_ID = /^[a-z' áéíóú_-]+(\.\d{1,3})?$/;
+
+/**
+ * The letter file a sort key belongs in, as a key of index.json's letters (file name with ' as _).
+ * Throws for anything else, so no file name ever comes from raw text.
+ */
+export function entryFile(sortKey: string): string {
+  const meta = JSON.parse(readFileSync(join(DICT, 'index.json'), 'utf-8')) as { letters: Record<string, unknown> };
+  const file = digoLetterFile(sortKey);
+  const key = Object.keys(meta.letters).find((k) => k.replace(/'/g, '_') === file);
+  if (!key || !/^[a-z_]+$/.test(file)) throw new Error(`no letter file for ${JSON.stringify(sortKey)}`);
+  return file;
+}
+
+/** A shipped dictionary entry by id, or null. */
+export function loadWord(id: string): WordEntry | null {
+  if (!WORD_ID.test(id)) return null;
+  let file: string;
+  try {
+    file = entryFile(id.replace(/\.\d+$/, ''));
+  } catch {
+    return null;
+  }
+  const data = JSON.parse(readFileSync(join(DICT, `${file}.json`), 'utf-8')) as { entries: WordEntry[] };
+  return data.entries.find((e) => e.id === id) ?? null;
+}
+
+/** Whether a headword (any case, leading - ignored) is already in the shipped dictionary. */
+export function headwordExists(headword: string): boolean {
+  const sk = sortKeyOf(headword);
+  try {
+    const data = JSON.parse(readFileSync(join(DICT, `${entryFile(sk)}.json`), 'utf-8')) as { entries: WordEntry[] };
+    return data.entries.some((e) => e.sort_key === sk);
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * A shipped headword (or variant form) that reads the same as `headword` once case, apostrophes and
+ * ng'/ng, dz/z are ignored, or null. Returns the headword to link to.
+ */
+export function similarHeadwords(headword: string): string | null {
+  const key = normaliseDigo(headword);
+  let file: string;
+  try {
+    file = entryFile(sortKeyOf(headword));
+  } catch {
+    return null;
+  }
+  // dz/z and ng'/ng differences can move a word to another letter file: check both spellings' files.
+  const files = new Set([file]);
+  for (const alt of [headword.replace(/^dz/i, 'z'), headword.replace(/^z/i, 'dz'), headword.replace(/^ng'/i, 'ng'), headword.replace(/^ng(?!')/i, "ng'")]) {
+    try {
+      files.add(entryFile(sortKeyOf(alt)));
+    } catch {
+      /* not a letter file */
+    }
+  }
+  for (const f of files) {
+    const data = JSON.parse(readFileSync(join(DICT, `${f}.json`), 'utf-8')) as { entries: WordEntry[] };
+    for (const e of data.entries) {
+      if (e.is_redirect) continue;
+      if (normaliseDigo(e.headword.replace(/^-/, '')) === key.replace(/^-/, '')) return e.headword;
+      if ((e.variants ?? []).some((v) => normaliseDigo(v.form) === key)) return e.headword;
+    }
+  }
+  return null;
+}
+
+/** A stand-in entry for automated tests (never listed; test rows are invisible elsewhere). */
+export function testWord(): WordEntry {
+  return {
+    id: TEST_TARGET, headword: TEST_TARGET, homonym_index: null, sort_key: TEST_TARGET, pos: 'dzina', pos_en: 'noun', noun_class: null,
+    plural_prefix: null, plural_form: null, ipa: '', audio: [], equivalents_en: ['test'], equivalents_sw: ['jaribio'], variants: [],
+    senses: [{ sense_id: 1, definition_en: 'test', definition_sw: 'jaribio', definition_dg: 'majaribio', definition_dg_status: 'draft', examples: [],
+      synonyms_dg: [], antonyms_dg: [], cross_refs: [], cultural_note: null, register: 'neutral', dialect_tags: [] }],
+    etymology: { source: null, root: null, notes: '' } as WordEntry['etymology'], bible_refs: [], proverb_refs: [], sub_entries: [],
+    editorial_state: 'draft', is_redirect: false, redirect_target: null,
+  };
+}
+
+function resolveWordTarget(
+  type: ContributionType,
+  targetId: string | undefined,
+  payload: Record<string, unknown>,
+  opts: { isTest: boolean; liveChanges?: Change[] },
+): Target | null {
+  if (type === 'word_addition') return { label: String(payload.headword ?? ''), path: null };
+  if (!targetId) return null;
+  // A flag may point at a provisional new word (c:<uuid>) that only exists in the overlay.
+  if (type === 'entry_flag' && /^c:[0-9a-f-]{36}$/.test(targetId)) {
+    const add = (opts.liveChanges ?? []).find((c) => c.type === 'word_addition' && `c:${c.contribution_id}` === targetId);
+    return add ? { label: String(add.final_payload.headword ?? ''), path: null } : null;
+  }
+  const raw = targetId === TEST_TARGET ? (opts.isTest ? testWord() : null) : loadWord(targetId);
+  if (!raw) return null;
+  const [entry] = applyAllToEntries([raw], opts.liveChanges ?? []);
+  const label = [entry.headword, entry.equivalents_en[0] ?? entry.senses[0]?.definition_en].filter(Boolean).join(' · ');
+  const n = Number(payload.sense_id);
+  if (type === 'definition_update') {
+    const lang = payload.lang as Locale;
+    if (payload.mode === 'add_sense') return { label, path: null }; // the sense id is allocated at accept
+    const base = definitionBase(entry, n, lang);
+    if (!base) return null;
+    return { label, path: `senses.${n}.definition_${lang}`, base: withHash(base) };
+  }
+  if (type === 'example_sentence') {
+    if (!entry.senses.some((s) => s.sense_id === n)) return null;
+    return { label, path: `senses.${n}.examples` };
+  }
+  if (type === 'spelling_variant') return { label, path: 'variants' };
+  if (type === 'entry_flag') return { label, path: null };
+  return null;
+}
+
 /**
  * The target as readers currently see it (published data plus live accepted changes), with the
  * base for update types. Returns null if the target doesn't exist.
@@ -56,6 +176,7 @@ export function resolveTarget(
   opts: { isTest: boolean; liveChanges?: Change[] },
 ): Target | null {
   if (type === 'general_feedback') return { label: targetId ?? '', path: null };
+  if (targetType === 'word') return resolveWordTarget(type, targetId, payload, opts);
   if (targetType !== 'plant' || !targetId) return null;
 
   const raw = targetId === TEST_TARGET ? (opts.isTest ? testPlant() : null) : loadPlant(targetId);

@@ -6,6 +6,7 @@
  *
  *   npx tsx scripts/dictionary/build-index.ts          # rebuild derived files, bump the dict data version
  *   npx tsx scripts/dictionary/build-index.ts --check  # check invariants 1–6; exit 1 on any failure
+ *   … --root <checkout>                                 # another checkout's data (fold-in)
  *
  * Letter and idx files are compact JSON with no trailing newline; index.json is
  * JSON.stringify(_, null, 2) + "\n". Output is never \u-escaped.
@@ -14,7 +15,9 @@ import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { digoLetterFile } from '../../lib/dictionary/letters';
 
-const DATA = join(process.cwd(), 'public', 'data');
+const rootAt = process.argv.indexOf('--root');
+const ROOT = rootAt > 0 ? process.argv[rootAt + 1] : process.cwd();
+const DATA = join(ROOT, 'public', 'data');
 const check = process.argv.includes('--check');
 
 const ENTRY_KEYS = ['id', 'headword', 'homonym_index', 'sort_key', 'pos', 'pos_en', 'noun_class', 'plural_prefix', 'plural_form', 'ipa', 'audio',
@@ -74,7 +77,11 @@ for (const L of letters) {
     const want = digoLetterFile(e.sort_key);
     if (want !== L.replace(/'/g, '_')) fail(`${where}: belongs in ${want}.json (3)`);
     if (!(want in meta.letters) && !(want.replace(/_/g, "'") in meta.letters)) fail(`${where}: ${want} is not a letter in index.json (3)`);
-    if (Object.keys(e).join() !== ENTRY_KEYS.join()) fail(`${where}: entry keys differ from the 22-key shape (4)`);
+    // Community changes add provenance after the 22 keys; a provisional overlay entry must never be written.
+    const keys = Object.keys(e);
+    const shapeOk = keys.join() === ENTRY_KEYS.join() || keys.join() === [...ENTRY_KEYS, 'provenance'].join();
+    if (!shapeOk) fail(`${where}: entry keys differ from the 22-key shape (4)`);
+    if (e.id.startsWith('c:')) fail(`${where}: a provisional id was written to the data (1)`);
     const ids = new Set<number>();
     for (const s of e.senses || []) {
       if (Object.keys(s).join() !== SENSE_KEYS.join()) fail(`${where}: sense ${s.sense_id} keys differ from the 12-key shape (4)`);
@@ -104,7 +111,7 @@ for (const L of letters) {
 const total = letters.reduce((n, L) => n + files[L].entries.length, 0);
 if (newMeta.total_entries !== total) countsChanged = true;
 newMeta.total_entries = total;
-if (countsChanged) newMeta.generated_at = new Date().toISOString();
+// generated_at is left as it is, so a fold-in and its revert give back byte-identical files (spec 34 §15.3 gate).
 const metaOut = JSON.stringify(newMeta, null, 2) + '\n';
 // generated_at alone never makes index.json stale.
 const comparable = (s: string) => s.replace(/"generated_at": "[^"]*"/, '');

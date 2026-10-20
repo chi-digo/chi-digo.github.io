@@ -17,7 +17,7 @@ import { join } from 'path';
 import { chromium, type BrowserContext, type Page } from 'playwright-core';
 import { createClient } from '@supabase/supabase-js';
 import { createServerClient } from '@supabase/ssr';
-import { testPlant } from '../lib/contributions/targets';
+import { testPlant, testWord } from '../lib/contributions/targets';
 
 if (existsSync('.env.local')) {
   for (const line of readFileSync('.env.local', 'utf-8').split('\n')) {
@@ -34,6 +34,11 @@ const ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 const admin = createClient(URL_, process.env.SUPABASE_SERVICE_ROLE_KEY!, { auth: { persistSession: false } });
 const FIXTURE = join(process.cwd(), 'public/data/plants/p/__test__.json');
 const PLANT = '/culture/ecology/plants/__test__';
+// The fixture word lives in its own letter file, `_`, which no real headword maps to.
+const WORD_FILE = join(process.cwd(), 'public/data/_.json');
+const WORD_IDX = join(process.cwd(), 'public/data/_.idx.json');
+const WORD = '/language/dictionary/word/__test__';
+const removeFixtures = () => [FIXTURE, WORD_FILE, WORD_IDX].forEach((f) => rmSync(f, { force: true }));
 
 let passes = 0;
 let failures = 0;
@@ -92,6 +97,9 @@ async function main() {
   }
   await admin.rpc('cleanup_test_data');
   writeFileSync(FIXTURE, JSON.stringify(testPlant()));
+  const w = testWord();
+  writeFileSync(WORD_FILE, JSON.stringify({ letter: '_', count: 1, entries: [w] }));
+  writeFileSync(WORD_IDX, JSON.stringify([{ sk: w.sort_key, hw: w.headword, id: w.id, pos: w.pos, eq: 'test', eq_sw: 'jaribio', eq_dg: 'majaribio' }]));
   let server: ChildProcess | null = null;
   if (!process.env.BASE_URL) {
     // Start from an empty data cache: an earlier aborted run may have cached fixture overlays.
@@ -106,7 +114,7 @@ async function main() {
   const users: string[] = [];
   // Ctrl-C or a killed job still removes the fixture, test data and the throwaway accounts.
   const abort = async () => {
-    rmSync(FIXTURE, { force: true });
+    removeFixtures();
     await admin.rpc('cleanup_test_data');
     for (const id of users) await admin.auth.admin.deleteUser(id);
     if (server?.pid) process.kill(-server.pid);
@@ -232,6 +240,53 @@ async function main() {
     const opened = await visible(d, 'Suggestions waiting for a decision');
     check('the new reviewer can open Review', opened, opened ? '' : (await d.locator('body').innerText()).slice(0, 300));
 
+    console.log('4c. dictionary: example, regional form, new word');
+    const acceptVia = async (type: string) => {
+      let row: { id: string } | null = null;
+      for (let i = 0; i < 20 && !row; i++) {
+        ({ data: row } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', type)
+          .order('created_at', { ascending: false }).limit(1).maybeSingle());
+        if (!row) await new Promise((r) => setTimeout(r, 1000));
+      }
+      if (!row) return 0;
+      return a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'accept' }),
+      })).status, row!.id);
+    };
+    await d.evaluate(() => localStorage.setItem('contrib-region', 'tanga'));
+    await d.goto(`${BASE}${WORD}`);
+    check('the word page offers "Suggest an edit"', await visible(d, 'Suggest an edit'));
+    check('…and "Improve this definition" per meaning', await visible(d, 'Improve this definition'));
+    await d.getByRole('button', { name: 'Suggest an edit' }).click();
+    await shot(d, '14-word-menu');
+    await d.getByRole('menuitem', { name: 'Add an example sentence' }).click();
+    await d.getByRole('textbox', { name: 'The sentence in Digo', exact: true }).fill('Ni majaribio ya UI.');
+    await d.getByRole('button', { name: 'Send suggestion' }).click();
+    check('example sent', await visible(d, 'Asante!', 45000));
+    check('…and accepted', (await acceptVia('example_sentence')) === 200);
+    await d.goto(`${BASE}${WORD}`);
+    check('the example shows on the word', await visible(d, 'Ni majaribio ya UI.'));
+    check('…with its credit line', await visible(d, 'Suggested by a Digo speaker'));
+    await d.getByRole('button', { name: 'Suggest an edit' }).click();
+    await d.getByRole('menuitem', { name: 'Another spelling or regional form' }).click();
+    await d.getByRole('textbox', { name: 'Your form', exact: true }).fill('majaribiyo');
+    await d.getByRole('button', { name: 'Send suggestion' }).click();
+    check('regional form sent', await visible(d, 'Asante!', 45000));
+    check('…and accepted', (await acceptVia('spelling_variant')) === 200);
+    await d.goto(`${BASE}${WORD}`);
+    check('the variant line shows the form and region', (await visible(d, 'Other forms')) && (await visible(d, 'majaribiyo')) && (await visible(d, '(Tanga)')));
+    await shot(d, '15-word-variant');
+    await d.goto(`${BASE}/language/dictionary?q=zzzqqq`);
+    check('an empty search offers to add the word', await visible(d, 'Add “zzzqqq” to the dictionary'));
+    await d.getByRole('button', { name: 'Add “zzzqqq” to the dictionary' }).click();
+    const prefilled = await d.getByRole('textbox', { name: 'The word in Digo', exact: true }).inputValue().catch(() => '');
+    check('…with the search as the headword', prefilled === 'zzzqqq', prefilled);
+    await d.getByRole('textbox', { name: 'The word in Digo', exact: true }).fill('__test__');
+    await d.getByRole('textbox', { name: 'What it means in English', exact: true }).fill('a UI test word');
+    await shot(d, '16-new-word');
+    await d.getByRole('button', { name: 'Send suggestion' }).click();
+    check('new word sent', await visible(d, 'Asante!', 45000));
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });
@@ -294,7 +349,7 @@ async function main() {
     check('/review page carries a noindex meta tag', /<meta name="robots" content="noindex/.test(html));
   } finally {
     await browser.close();
-    rmSync(FIXTURE, { force: true });
+    removeFixtures();
     if (server?.pid) process.kill(-server.pid);
     const { data } = await admin.rpc('cleanup_test_data');
     for (const id of users) await admin.auth.admin.deleteUser(id);
@@ -306,6 +361,6 @@ async function main() {
 
 main().catch((err) => {
   console.error(err);
-  rmSync(FIXTURE, { force: true });
+  removeFixtures();
   process.exit(1);
 });

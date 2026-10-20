@@ -1,12 +1,13 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import type { SupabaseClient } from '@supabase/supabase-js';
-import { PAYLOADS, reviewSchema, type ContributionType } from '@/lib/contributions/schemas';
+import { PAYLOADS, reviewSchema, NEVER_PUBLIC, TEST_TARGET, type ContributionType } from '@/lib/contributions/schemas';
 import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget } from '@/lib/contributions/targets';
+import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
+import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
 const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_path, target_label, payload, final_payload, note, region, village, confidence, recorded_for, credit_opt_in, locale, page_path, status, live_status, fold_status, fold_error, outcome, base, held, hidden_at, reply, review_note, agree_count, raw_agree_count, claimed_by, claimed_until, reviewer_id, is_test, created_at, reviewed_at';
@@ -27,7 +28,8 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     if (!canReview(caller, row.scope)) return forbidden();
 
-    const liveChanges = row.target_type === 'plant' ? await getAreaOverlay('plant') : [];
+    const area = overlayArea(row.target_type);
+    const liveChanges = area ? await getAreaOverlay(area) : [];
     const current = resolveTarget(row.type, row.target_type ?? undefined, row.target_id ?? undefined, row.payload, {
       isTest: row.is_test,
       liveChanges,
@@ -94,6 +96,10 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     const args: Record<string, unknown> = { note: body.note ?? null };
     const area = overlayArea(row.target_type);
 
+    if ((body.action === 'accept' || body.action === 'accept_variant') && NEVER_PUBLIC.includes(row.type as ContributionType)) {
+      return badRequest('not_acceptable');
+    }
+    if (body.action === 'resolve' && !NEVER_PUBLIC.includes(row.type as ContributionType)) return badRequest('not_resolvable');
     if (body.action === 'accept' || body.action === 'accept_variant') {
       const final = PAYLOADS[row.type as ContributionType].safeParse(body.final_payload ?? row.payload);
       if (!final.success) return badRequest('invalid', final.error.issues);
@@ -112,6 +118,14 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       args.final_payload = finalPayload;
       args.needs_second = needsSecondReview(row as unknown as ReviewRow, finalPayload, liveChanges);
       if (body.merge_ids) args.merge_ids = body.merge_ids;
+      // A new sense gets its id now, once: past every current sense and every live new sense on the entry.
+      if (row.type === 'definition_update' && finalPayload.mode === 'add_sense' && row.target_id) {
+        const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+        if (!raw) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+        const [entry] = applyAllToEntries([raw], liveChanges);
+        const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
+        args.target_path = `senses.${nextSenseId(entry, pending)}`;
+      }
     }
     if (body.action === 'duplicate') args.duplicate_of = body.duplicate_of ?? null;
     if (body.action === 'retry_fold') {

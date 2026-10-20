@@ -5,7 +5,7 @@
  *   npx tsx scripts/fold-in/confirm.ts --data <deployed checkout> --rows rows.json --sha <sha>
  * Prints two id lists for rpc.mjs: "folded=<ids>" and "reverted=<ids>".
  */
-import { readFileSync, existsSync, appendFileSync } from 'fs';
+import { readFileSync, existsSync, appendFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 const args = process.argv.slice(2);
@@ -16,7 +16,28 @@ const { rows } = JSON.parse(readFileSync(opt('--rows'), 'utf-8')) as {
 
 const folded: string[] = [];
 const reverted: string[] = [];
+
+// Every contribution id in the deployed dictionary's provenance (a new word is found by its id, not its target).
+let wordIds: Set<string> | null = null;
+function dictionaryIds(): Set<string> {
+  if (wordIds) return wordIds;
+  wordIds = new Set();
+  const dir = join(opt('--data'), 'public/data');
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith('.json') || f.endsWith('.idx.json')) continue;
+    const d = JSON.parse(readFileSync(join(dir, f), 'utf-8'));
+    if (!Array.isArray(d?.entries)) continue;
+    for (const e of d.entries) for (const list of Object.values(e.provenance ?? {})) for (const p of list as { c: string }[]) wordIds.add(p.c);
+  }
+  return wordIds;
+}
+
 for (const r of rows) {
+  if (r.target_type === 'word') {
+    const present = dictionaryIds().has(r.id);
+    if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
+    continue;
+  }
   if (r.target_type !== 'plant') continue;
   const file = join(opt('--data'), 'public/data/plants/p', `${r.target_id}.json`);
   if (!existsSync(file)) continue;

@@ -7,6 +7,7 @@
  *   node rpc.mjs claim > claimed.json
  *   node rpc.mjs in_preview > rows.json                       (read-only, for fold-confirm)
  *   node rpc.mjs mark <state> <nonce|-> <ids,comma> [pr] [sha] [error]
+ *   (in_preview only: FOLD_TARGET_IDS='{"<id>":"<word id>"}' writes back the ids of folded new words)
  */
 const [, , cmd, ...rest] = process.argv;
 const url = process.env.SUPABASE_URL;
@@ -44,6 +45,7 @@ if (cmd === 'claim' || cmd === 'in_preview') {
     p_pr: pr && pr !== '-' ? Number(pr) : null,
     p_sha: sha && sha !== '-' ? sha : null,
     p_error: error ?? null,
+    p_target_ids: state === 'in_preview' && process.env.FOLD_TARGET_IDS ? JSON.parse(process.env.FOLD_TARGET_IDS) : null,
   });
   console.log(`${state}: ${n}`);
 } else {

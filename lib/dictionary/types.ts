@@ -2,7 +2,9 @@ export interface Example {
   dg: string;
   en: string;
   sw: string;
-  source: "mgombato" | "generated" | "bible" | "proverb" | "manual";
+  source: "mgombato" | "generated" | "bible" | "proverb" | "manual" | "community";
+  /** Contribution id, for community examples (spec 34 §15.3). */
+  c?: string;
 }
 
 export interface Sense {
@@ -10,7 +12,7 @@ export interface Sense {
   definition_en: string;
   definition_sw: string;
   definition_dg: string;
-  definition_dg_status: "pending" | "draft" | "reviewed" | "published";
+  definition_dg_status: "pending" | "draft" | "reviewed" | "published" | "community";
   examples: Example[];
   synonyms_dg: string[];
   antonyms_dg: string[];
@@ -55,7 +57,7 @@ export interface DictionaryEntry {
   audio: string[];
   equivalents_en: string[];
   equivalents_sw: string[];
-  variants: { form: string; dialect: string; note: string }[];
+  variants: { form: string; dialect: string; note: string | null; c?: string }[];
   senses: Sense[];
   etymology: Etymology;
   bible_refs: string[];
