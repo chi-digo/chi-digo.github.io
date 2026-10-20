@@ -12725,7 +12725,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ela uchumi wa nazi unakabiliana na changamoto za msingi. Minazi minji ya kaunti inashindwa kpwa umri, mazaoge ganaphungula, na minazi miphya taiphandwa kpwa unji wa kutosha kulingana na mzunguko wa maisha ga mihi iyo. Kuangamika kpwa tsi ya minazi yenye tija kpwa ajili ya uchimbaji wa madini wa Base Titanium kpwaenjereza tatizo riri. Kufikira masoko kunazuiwa ni barabara mbii na viwanda vidide vya usindikaji — nazi nyinji nkuguzwa mbichi au dza mafuha ghafi badala ya kukala bidhaa zirizoenjerezwa samani ambazo zingeguzwa kpwa bei za dzulu. Kpwa zao ririro muhimu vivyo kpwa chisomo, chirimo cha nazi chinalavya mapato machache kpwa kushangaza — chinaya chinachoonyesa mwenendo mpana wa uchumi wa chirimo wa Kwale: kukuluphira sana mazao ganagoguzwa kpwenye hatua ya photsi zaidi ya mnyororo wa samani."
+              "text": "Ela uchumi wa nazi unakabiliana na changamoto za msingi. Minazi minji ya kaunti inashindwa kpwa umri, mazaoge ganaphungula, na minazi miphya taiphandwa kpwa unji wa kutosha kulingana na mzunguko wa maisha ga mihi iyo. Kuangamika kpwa tsi ya minazi yenye tija kpwa ajili ya utsimbadzi wa madini wa Base Titanium kpwaenjereza tatizo riri. Kufikira masoko kunazuiwa ni barabara mbii na viwanda vidide vya usindikaji — nazi nyinji nkuguzwa mbichi au dza mafuha ghafi badala ya kukala bidhaa zirizoenjerezwa samani ambazo zingeguzwa kpwa bei za dzulu. Kpwa zao ririro muhimu vivyo kpwa chisomo, chirimo cha nazi chinalavya mapato machache kpwa kushangaza — chinaya chinachoonyesa mwenendo mpana wa uchumi wa chirimo wa Kwale: kukuluphira sana mazao ganagoguzwa kpwenye hatua ya photsi zaidi ya mnyororo wa samani."
             },
             {
               "type": "heading",
@@ -12819,12 +12819,12 @@ export const domains: CultureDomain[] =
         "title": {
           "en": "The Post-Mining Landscape",
           "sw": "Mazingira Baada ya Uchimbaji",
-          "dg": "Mazingira Bada ya Uchimbaji"
+          "dg": "Mazingira Bada ya Utsimbadzi"
         },
         "intro": {
           "en": "On a stretch of land in Kwale County's Msambweni sub-county, where coconut palms and cashew trees once stood in the red laterite soil, Base Titanium Limited operated what became Kenya's largest mining…",
           "sw": "Katika eneo la ardhi katika Kaunti ya Kwale, Base Titanium Limited iliendeshea uchimbaji mkubwa zaidi wa madini nchini Kenya kutoka 2013 hadi Desemba 2024. Kampuni ya Australia ilichimba madini ya…",
-          "dg": "Kpwa eneo ra tsi kpwa Kaunti ya Kwale, Base Titanium Limited yahenda uchimbaji mkpwulu zaidi wa madini kpwenye tsi ya Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yatsimba madini ga titanium…"
+          "dg": "Kpwa eneo ra tsi kpwa Kaunti ya Kwale, Base Titanium Limited yahenda utsimbadzi mkpwulu zaidi wa madini kpwenye tsi ya Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yatsimba madini ga titanium…"
         },
         "body": {
           "en": [
@@ -13022,7 +13022,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwenye eneo ra tsi kpwa kaunti ndide ya Msambweni, Kaunti ya Kwale, ambapho kare minazi na mihi ya ngorosho yaima kpwenye ulongo wa kundu, Base Titanium Limited yahenda uchimbaji mkpwulu zaidi wa madini kpwenye tsi ya Kenya. Kula 2013 hadi Desemba 2024, kampuni iyo ya Australia yatsimba madini ga titanium — ilmenite na rutile — kula amana zirizokala tsini ya tsi ya chirimo yenye tija zaidi kpwa kaunti iyo. Kazi hino yaphaha dza dola za Chimarekani milioni 279 chila mwaka na yahala asilimia 65 ya uzalishaji wosi wa madini wa Kenya. Kpwa miaka kumi na mwenga, mgodi uwo wakala ndio mhusika mkpwulu zaidi wa chiuchumi kpwa Kaunti ya Kwale, uchishinda utalii, chirimo, na matumizi ga serikali gachiunganywa phamwenga."
+              "text": "Kpwenye eneo ra tsi kpwa kaunti ndide ya Msambweni, Kaunti ya Kwale, ambapho kare minazi na mihi ya ngorosho yaima kpwenye ulongo wa kundu, Base Titanium Limited yahenda utsimbadzi mkpwulu zaidi wa madini kpwenye tsi ya Kenya. Kula 2013 hadi Desemba 2024, kampuni iyo ya Australia yatsimba madini ga titanium — ilmenite na rutile — kula amana zirizokala tsini ya tsi ya chirimo yenye tija zaidi kpwa kaunti iyo. Kazi hino yaphaha dza dola za Chimarekani milioni 279 chila mwaka na yahala asilimia 65 ya uzalishaji wosi wa madini wa Kenya. Kpwa miaka kumi na mwenga, mgodi uwo wakala ndio mhusika mkpwulu zaidi wa chiuchumi kpwa Kaunti ya Kwale, uchishinda utalii, chirimo, na matumizi ga serikali gachiunganywa phamwenga."
             },
             {
               "type": "paragraph",
@@ -13038,7 +13038,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ela gharama zatsukulwa kpwa unji ni jamii zirizokala phephi zaidi na mgodi. Zaidi ya atu 3,000 atsamizwa kula makazi na minda yao ili uchimbaji uphahe nafasi. Mbari zatsamizwa kula tsi ariyokala kpwa vizazi — tsi ambapho aririma nazi, ngorosho, na maembe, mazao garigokala msingi wa maisha gao ga chiuchumi. Mchakato wa kutsamizwa wakala na mabishano: jamii zagomba kukala fidia yakala ndide, ahadi kuhusu tsi na nyumba za badala taziyatimizwa, na zakala na hisia ya kukosa nguvu mbere ya kampuni ya chimataifa iriyokala ichiterywa ni leseni za uchimbaji za serikali ya chitaifa."
+              "text": "Ela gharama zatsukulwa kpwa unji ni jamii zirizokala phephi zaidi na mgodi. Zaidi ya atu 3,000 atsamizwa kula makazi na minda yao ili utsimbadzi uphahe nafasi. Mbari zatsamizwa kula tsi ariyokala kpwa vizazi — tsi ambapho aririma nazi, ngorosho, na maembe, mazao garigokala msingi wa maisha gao ga chiuchumi. Mchakato wa kutsamizwa wakala na mabishano: jamii zagomba kukala fidia yakala ndide, ahadi kuhusu tsi na nyumba za badala taziyatimizwa, na zakala na hisia ya kukosa nguvu mbere ya kampuni ya chimataifa iriyokala ichiterywa ni leseni za utsimbadzi za serikali ya chitaifa."
             },
             {
               "type": "heading",
@@ -13046,11 +13046,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Athari za uchimbaji wa wazi kpwa tsi ya chirimo si chitu chidide. Mchakato wa uchimbaji unausa ulongo wa dzulu, unausa mtsanga wenye madini, na kubadilisha mandhari kabisa. Minazi iriyohala miongo kukomaa yagbwagwa. Minda ya ngorosho iriyokala ichipha mapato ga chila mwaka kpwa magana ga mbari yabanangwa. Mihi ya maembe iriyorithiwa kula chizazi hadi chizazi yang'olwa. Hasara iyo taikala ya chiuchumi bahi — yakala ya chisomo. Kpwa Adigo, mihi ino taikala mali ya kubadilishana kpwenye chitabu cha hesabu. Yakala urithi, alama za kuenderera kpwa mbari, na vyanzo vya vitu mahususi — mafuha ga nazi, uchi wa mnazi, ngorosho — vinavyofafanua kujita kpwa Chidigo, biashara, na maisha ga chila siku."
+              "text": "Athari za utsimbadzi wa wazi kpwa tsi ya chirimo si chitu chidide. Mchakato wa utsimbadzi unausa ulongo wa dzulu, unausa mtsanga wenye madini, na kubadilisha mandhari kabisa. Minazi iriyohala miongo kukomaa yagbwagwa. Minda ya ngorosho iriyokala ichipha mapato ga chila mwaka kpwa magana ga mbari yabanangwa. Mihi ya maembe iriyorithiwa kula chizazi hadi chizazi yang'olwa. Hasara iyo taikala ya chiuchumi bahi — yakala ya chisomo. Kpwa Adigo, mihi ino taikala mali ya kubadilishana kpwenye chitabu cha hesabu. Yakala urithi, alama za kuenderera kpwa mbari, na vyanzo vya vitu mahususi — mafuha ga nazi, uchi wa mnazi, ngorosho — vinavyofafanua kujita kpwa Chidigo, biashara, na maisha ga chila siku."
             },
             {
               "type": "paragraph",
-              "text": "Eneo ra mgodi rakata kahi ya tsi ya chirimo yenye tija zaidi kpwa kaunti, tsi iriyokala na tija kpwa sababu ya ulongo wenye madini manji ambao piya wakala na amana za titanium. Chinaya chibaya chakala wazi: sifa iyo-iyo iriyohenda tsi ino ikale ya samani kpwa chirimo ndiyo sifa iriyovutiya kampuni ya uchimbaji."
+              "text": "Eneo ra mgodi rakata kahi ya tsi ya chirimo yenye tija zaidi kpwa kaunti, tsi iriyokala na tija kpwa sababu ya ulongo wenye madini manji ambao piya wakala na amana za titanium. Chinaya chibaya chakala wazi: sifa iyo-iyo iriyohenda tsi ino ikale ya samani kpwa chirimo ndiyo sifa iriyovutiya kampuni ya utsimbadzi."
             },
             {
               "type": "heading",
@@ -13062,7 +13062,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kondo ya malipo ga mrabaha si kuhusu pesa bahi. Ni kuhusu masharti ga msingi ambago viwanda vya uchimbaji vinahenda kazi kpwago kpwenye jamii zirizotengwa. Shariya ya uchimbaji madini ya Kenya ikahenderwa marekebisho hangu Base Titanium iriphoandza shuhuli, na Shariya ya Madini ya 2016 ichiandzisha mfumo wa wazi zaidi wa malipo ga mrabaha, ela uzoefu wa Kwale waonyesa kukala shariya macheye taidhamini matokeo ga haki wakati nguvu za kampuni ya chimataifa na za jamii ya vidzidzini si sawa katu."
+              "text": "Kondo ya malipo ga mrabaha si kuhusu pesa bahi. Ni kuhusu masharti ga msingi ambago viwanda vya utsimbadzi vinahenda kazi kpwago kpwenye jamii zirizotengwa. Shariya ya utsimbadzi madini ya Kenya ikahenderwa marekebisho hangu Base Titanium iriphoandza shuhuli, na Shariya ya Madini ya 2016 ichiandzisha mfumo wa wazi zaidi wa malipo ga mrabaha, ela uzoefu wa Kwale waonyesa kukala shariya macheye taidhamini matokeo ga haki wakati nguvu za kampuni ya chimataifa na za jamii ya vidzidzini si sawa katu."
             },
             {
               "type": "heading",
@@ -13074,7 +13074,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Serikali ya kaunti na apangaji a chiuchumi a chitaifa akabainisha sekta hahu za kuodzaza phengo riro: chirimo, utalii, na uchumi wa samawati — uvuvi, chirimo cha mwani, na usimamizi wa rasilimali za bahari. Ela mpito uo si rahisi wala wa haraka. Tsi ya chirimo iriyobanangwa ni uchimbaji inahitaji miaka ya ukarabati kabla ya kuuya kpwenye uzalishaji. Miundombinu ya utalii inahitaji uwekezaji wa mtaji ambao kaunti taina. Uchumi wa samawati una ahadi ela ni wa chiwango chidide. Phengo kahi ya kufungwa kpwa mgodi na kukomaa kpwa shuhuli mbadala za chiuchumi ni muda wa taabu ya kpweli kpwa jamii zirizokala zinakuluphira, mwenga kpwa mwenga au la, uchumi wa uchimbaji."
+              "text": "Serikali ya kaunti na apangaji a chiuchumi a chitaifa akabainisha sekta hahu za kuodzaza phengo riro: chirimo, utalii, na uchumi wa samawati — uvuvi, chirimo cha mwani, na usimamizi wa rasilimali za bahari. Ela mpito uo si rahisi wala wa haraka. Tsi ya chirimo iriyobanangwa ni utsimbadzi inahitaji miaka ya ukarabati kabla ya kuuya kpwenye uzalishaji. Miundombinu ya utalii inahitaji uwekezaji wa mtaji ambao kaunti taina. Uchumi wa samawati una ahadi ela ni wa chiwango chidide. Phengo kahi ya kufungwa kpwa mgodi na kukomaa kpwa shuhuli mbadala za chiuchumi ni muda wa taabu ya kpweli kpwa jamii zirizokala zinakuluphira, mwenga kpwa mwenga au la, uchumi wa utsimbadzi."
             },
             {
               "type": "heading",
@@ -13082,7 +13082,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Base Titanium yadzitolea kpwa programu ya ukarabati wa tsi dza seemu ya masharti ga leseniye ya uchimbaji. Mchakato uo unahusisha kubadilisha ulongo wa dzulu, kuphanda mimea uphya, na kuuyiza seemu zirizotsimbwa kpwa hali inayoweza kusaidiya aina fulani ya matumizi ga uzalishaji. Kampuni ikaripoti maendeleo kpwenye ukarabati wa seemu za uchimbaji zirizomala, na seemu zanjina zikaphandwa uphya na aina za mihi inayokula haraka na chifuniko cha photsi."
+              "text": "Base Titanium yadzitolea kpwa programu ya ukarabati wa tsi dza seemu ya masharti ga leseniye ya utsimbadzi. Mchakato uo unahusisha kubadilisha ulongo wa dzulu, kuphanda mimea uphya, na kuuyiza seemu zirizotsimbwa kpwa hali inayoweza kusaidiya aina fulani ya matumizi ga uzalishaji. Kampuni ikaripoti maendeleo kpwenye ukarabati wa seemu za utsimbadzi zirizomala, na seemu zanjina zikaphandwa uphya na aina za mihi inayokula haraka na chifuniko cha photsi."
             },
             {
               "type": "paragraph",
@@ -13094,11 +13094,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uzoefu wa Base Titanium una uzito wa chipekee kpwa sababu ya chira chinachoweza kukpwedza bada. Kaya Mrima, mwenga wa matsaka matakatifu zaidi ga kaya kpwenye seemu ya Adigo, i dzulu ya mashapo makulu ga madini adimu ga tsi. Maslahi ga uchimbaji gakachunguza mara kpwa mara uwezekano wa kutsimba madini gago, na uwezekano uo ukazalisha upindzani mkali kula kpwa azehe a Adigo, mashirika ga mazingira, na atetezi a uhifadhi wa chisomo. Kaya Mrima si tsaka bahi. Ni seemu ya chisomo inayotambuliwa ni UNESCO, phatu pha roho za akare, utawala wa kare, na umuhimu wa chikolojia."
+              "text": "Uzoefu wa Base Titanium una uzito wa chipekee kpwa sababu ya chira chinachoweza kukpwedza bada. Kaya Mrima, mwenga wa matsaka matakatifu zaidi ga kaya kpwenye seemu ya Adigo, i dzulu ya mashapo makulu ga madini adimu ga tsi. Maslahi ga utsimbadzi gakachunguza mara kpwa mara uwezekano wa kutsimba madini gago, na uwezekano uo ukazalisha upindzani mkali kula kpwa azehe a Adigo, mashirika ga mazingira, na atetezi a uhifadhi wa chisomo. Kaya Mrima si tsaka bahi. Ni seemu ya chisomo inayotambuliwa ni UNESCO, phatu pha roho za akare, utawala wa kare, na umuhimu wa chikolojia."
             },
             {
               "type": "paragraph",
-              "text": "Chielezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ga mrabaha ambago tagariphwa, na phengo ra chiuchumi bada ya kufungwa — ni haswa hadithi ya tahadhari ambayo apinzani a uchimbaji wa Kaya Mrima anaihadza. Kala seemu ya chirimo ya kawaida yayugwa hivyo, uchimbaji undahenda ni kpwa tsaka takatifu? Swali si ra nadharia. Ni uamuzi muhimu zaidi wa matumizi ga tsi unaokabili jamii ya Adigo rero, na dzibu rindaundwa kpwa chiasi chikulu ni mafundzo — manono na mabaya — ga uzoefu wa Base Titanium."
+              "text": "Chielezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ga mrabaha ambago tagariphwa, na phengo ra chiuchumi bada ya kufungwa — ni haswa hadithi ya tahadhari ambayo apinzani a utsimbadzi wa Kaya Mrima anaihadza. Kala seemu ya chirimo ya kawaida yayugwa hivyo, utsimbadzi undahenda ni kpwa tsaka takatifu? Swali si ra nadharia. Ni uamuzi muhimu zaidi wa matumizi ga tsi unaokabili jamii ya Adigo rero, na dzibu rindaundwa kpwa chiasi chikulu ni mafundzo — manono na mabaya — ga uzoefu wa Base Titanium."
             },
             {
               "type": "heading",
@@ -13106,7 +13106,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Miaka kumi na mwenga ya uendeshaji wa Base Titanium kpwenye Kaunti ya Kwale yafundza jamii ya Adigo, na Kenya kpwa ujumla, mafundzo magumu mangaphi. Kpwandza, kukala utajiri wa madini taubadilika mwenga kpwa mwenga kukala fwaida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya chisiasa ya kujadilira masharti ga haki. Phiri, kukala ukarabati wa mazingira si urejesho wa mazingira — chira chinachobanangwa kpwenye muongo wa uchimbaji tachiweza kudzengbwa uphya kpwenye muongo wa kuphanda mihi. Hahu, kukala kukuluphira operesheni mwenga ya uchimbaji kpwa uchumi kunaumba hatari ambayo inaonekana chikamilifu bahi wakati wa kufungwa. Na nne, kukala swali ra ani anayephaha fwaida kula kpwa rasilimali za asili za jamii si swali ra chiuchumi bahi katu. Ni swali ra haki, ra uhuru dzulu ya tsi ya akare, na ra haki ya atu kuamuwa masharti ambago urithi wao unahumirwa nago."
+              "text": "Miaka kumi na mwenga ya uendeshaji wa Base Titanium kpwenye Kaunti ya Kwale yafundza jamii ya Adigo, na Kenya kpwa ujumla, mafundzo magumu mangaphi. Kpwandza, kukala utajiri wa madini taubadilika mwenga kpwa mwenga kukala fwaida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya chisiasa ya kujadilira masharti ga haki. Phiri, kukala ukarabati wa mazingira si urejesho wa mazingira — chira chinachobanangwa kpwenye muongo wa utsimbadzi tachiweza kudzengbwa uphya kpwenye muongo wa kuphanda mihi. Hahu, kukala kukuluphira operesheni mwenga ya utsimbadzi kpwa uchumi kunaumba hatari ambayo inaonekana chikamilifu bahi wakati wa kufungwa. Na nne, kukala swali ra ani anayephaha fwaida kula kpwa rasilimali za asili za jamii si swali ra chiuchumi bahi katu. Ni swali ra haki, ra uhuru dzulu ya tsi ya akare, na ra haki ya atu kuamuwa masharti ambago urithi wao unahumirwa nago."
             }
           ]
         }

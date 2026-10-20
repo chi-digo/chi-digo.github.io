@@ -266,7 +266,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Britain and Germany divide East Africa, splitting the Digo homeland between two colonial powers. The ten-mile coastal strip is allocated to the Sultan of Zanzibar, making Mijikenda squatters on ancestral land.',
       sw: 'Uingereza na Ujerumani zinagawanya Afrika Mashariki, zikigawanya makazi ya Wadigo kati ya mamlaka mbili za kikoloni. Ukanda wa maili kumi wa pwani unapewa Sultani wa Zanzibar, na kufanya Mijikenda kuwa wavamizi katika ardhi ya mababu zao.',
-      dg: 'Uingereza na Ujerumani zinagawanya Afrika ya Mashariki, zichigawanya makalo ga Adigo kahi ya mamlaka mbiri za chikoloni. Ukanda wa maili kumi wa pwani unapewa Sultani wa Zanzibar, na kuhenda Amijikenda kukala avamizi kahi za ardhi ya ababu zao.',
+      dg: 'Uingereza na Ujerumani zinaganya Afrika ya Mashariki, zichiganya makalo ga Adigo kahi ya mamlaka mbiri za chikoloni. Ukanda wa maili kumi wa pwani unapewa Sultani wa Zanzibar, na kuhenda Amijikenda kukala avamizi kahi za ardhi ya ababu zao.',
     },
   },
   {
@@ -308,7 +308,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "British and German commissioners mark the border on the ground from the mouth of the Umba at Vanga. The line runs through Digo country and splits villages such as Jasini, which it still divides.",
       sw: "Makamishna wa Kiingereza na Kijerumani wanaweka alama za mpaka kuanzia mdomo wa Mto Umba huko Vanga. Mstari huo unapita katikati ya nchi ya Wadigo na kugawa vijiji kama Jasini, ambacho bado kimegawanywa nao.",
-      dg: "Makamishna a Chingereza na a Chijerumani anaika alama za mphaka kuandzira mlomo wa Muho Umba iko Vanga. Mstari uho unapita kahi kahi ya tsi ya Adigo na unagawanya vidzidzi dza Jasini, ambacho hadi rero chinagawanywa ni mphaka uho.",
+      dg: "Makamishna a Chingereza na a Chijerumani anaika alama za mphaka kuandzira mromo wa Muho Umba iko Vanga. Mstari uho unatsapa kahi kahi ya tsi ya Adigo na unaganya vidzidzi dza Jasini, ambacho hadi rero chinaganywa ni mphaka uho.",
     },
   },
   {
@@ -378,7 +378,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "In November 1914 a British landing at Tanga is beaten off, and in January 1915 German forces overwhelm a British-Indian garrison at Jasini, a Digo border village and sisal estate. How the fighting affected Digo villagers is not recorded.",
       sw: "Novemba 1914 Waingereza wanashindwa kutua Tanga, na Januari 1915 majeshi ya Kijerumani yanashinda kikosi cha Kiingereza na Kihindi huko Jasini, kijiji cha Wadigo mpakani chenye shamba la mkonge. Jinsi vita hivyo vilivyowaathiri wanakijiji wa Kidigo haijaandikwa.",
-      dg: "Novemba 1914 Aingereza anashindwa kuinjira Tanga, na Januari 1915 asikari a Chijerumani anashinda chikosi cha Aingereza na Ahindi iko Jasini, chidzidzi cha Adigo phephi na mphaka chenye shamba ra makonge. Taphana maandiko ga vira vita ivyo virivyoahenda Adigo a hiko.",
+      dg: "Novemba 1914 Aingereza anashindwa kuinjira Tanga, na Januari 1915 asikari a Chijerumani anashinda chikosi cha Aingereza na Ahindi iko Jasini, chidzidzi cha Adigo phephi na mphaka chenye shamba ra makonje. Taphana maandiko ga vira vita ivyo virivyohenda Adigo a hiko.",
     },
   },
   {
@@ -464,7 +464,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Tanganyika independent (1961), coastal strip ceded to Kenya (Oct 1963), Kenya independent (Dec 1963). The Mwambao movement for coastal autonomy fails; the Digo are divided between two nations.',
       sw: 'Tanganyika huru (1961), ukanda wa pwani unapewa Kenya (Okt 1963), Kenya huru (Des 1963). Vuguvugu la Mwambao la uhuru wa pwani linashindwa; Wadigo wanagawanywa kati ya mataifa mawili.',
-      dg: 'Tanganyika huru (1961), ukanda wa pwani unapewa Kenya (Okt 1963), Kenya huru (Des 1963). Vuguvugu ra Mwambao ra uhuru wa pwani rinashindwa; Adigo anagawanywa kahi ya mataifa mairi.',
+      dg: 'Tanganyika huru (1961), ukanda wa pwani unapewa Kenya (Okt 1963), Kenya huru (Des 1963). Vuguvugu ra Mwambao ra uhuru wa pwani rinashindwa; Adigo anaganywa kahi ya mataifa mairi.',
     },
   },
   {
@@ -473,12 +473,12 @@ export const timelineEvents: TimelineEvent[] = [
     title: {
       en: "The border is closed",
       sw: "Mpaka wafungwa",
-      dg: "Mphaka unafungwa",
+      dg: "Mphaka unafungbwa",
     },
     description: {
       en: "Tanzania seals its border with Kenya when the East African Community collapses. The Lunga Lunga–Horohoro crossing, in the middle of Digo country, stays closed for about six years.",
       sw: "Tanzania inafunga mpaka wake na Kenya Jumuiya ya Afrika Mashariki inapovunjika. Kivuko cha Lunga Lunga–Horohoro, katikati ya nchi ya Wadigo, kinabaki kimefungwa kwa takriban miaka sita.",
-      dg: "Tanzania inafunga mphaka wakpwe na Kenya Jumuiya ya Afrika ya Mashariki iriphovundzika. Chivuko cha Lunga Lunga–Horohoro, kahi kahi ya tsi ya Adigo, chinasala chifungwa kpwa miaka kama sita.",
+      dg: "Tanzania inafunga mphakawe na Kenya Jumuiya ya Afrika ya Mashariki iriphovundzika. Chivuko cha Lunga Lunga–Horohoro, kahi kahi ya tsi ya Adigo, chinasala kufungbwa kpwa miaka kama sita.",
     },
   },
   {
@@ -557,7 +557,7 @@ export const timelineEvents: TimelineEvent[] = [
     title: {
       en: 'Kwale titanium mining',
       sw: 'Uchimbaji wa titanium Kwale',
-      dg: 'Uchimbaji wa titanium Kwale',
+      dg: 'Utsimbadzi wa titanium Kwale',
     },
     description: {
       en: 'Base Titanium begins exporting titanium from Kwale, displacing 3,000+ residents and destroying coconut and cashew groves. Decommissioning begins c. 2025 amid environmental protests.',
