@@ -21,14 +21,17 @@ const DIGO_PREFIXES_SEARCH = [
 ];
 
 function letterForQuery(query: string): string {
-  const q = query.toLowerCase();
+  const q = query.toLowerCase().replace(/^-/, "");
   for (const prefix of DIGO_PREFIXES_SEARCH) {
     if (q.startsWith(prefix)) return prefix;
   }
   return q[0];
 }
 
-function binarySearch(
+/** Code-point order, the order the letter files are sorted in (never localeCompare: ISSUES DATA-4). */
+const byCodePoint = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
+
+export function binarySearch(
   entries: SearchIndexEntry[],
   target: string
 ): SearchIndexEntry | null {
@@ -36,7 +39,7 @@ function binarySearch(
   let hi = entries.length - 1;
   while (lo <= hi) {
     const mid = (lo + hi) >>> 1;
-    const cmp = entries[mid].sk.localeCompare(target);
+    const cmp = byCodePoint(entries[mid].sk, target);
     if (cmp === 0) return entries[mid];
     if (cmp < 0) lo = mid + 1;
     else hi = mid - 1;
