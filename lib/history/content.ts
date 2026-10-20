@@ -1041,7 +1041,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya makabila sita ga Chibantu ga ph'wani ya Afrika Mashariki — Amijikenda, Apokomo, Aswahili, Ataita, Asegeju, na anjine — chila mwenga akidai kukala nyumba ya akare. Singwaya yakala, kpwa masimulizi gaga, chituwo cha makabila manji chenye ukubwa wa kutosha, chirichoudumishwa ni mitandao ya biashara."
+            "text": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya makabila sita ga Chibantu ga ph'wani ya Afrika Mashariki — Amijikenda, Apokomo, Aswahili, Ataita, Asegeju, na anjine — chila mwenga akidai kukala nyumba ya akare. Singwaya yakala, kpwa masimulizi iga, chituwo cha makabila manji chenye ukubwa wa kutosha, chirichoudumishwa ni mitandao ya biashara."
           },
           {
             "type": "heading",
@@ -1057,7 +1057,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Adigo anadai kukala a kpwandza kuuka Singwaya, akielekea kusini hadi Myango ya Shimba ambapho aanzisha Kaya Kwale. Madai gaga ga uphephi si tu dzambo ra kiburi ra chihistoria. Kpwa mantiki ya shirika ra chijamii ra Chimijikenda, mpangilio wa kuuka unaanzisha uongozi wa ukubwa."
+            "text": "Adigo anadai kukala a kpwandza kuuka Singwaya, akielekea kusini hadi Myango ya Shimba ambapho aanzisha Kaya Kwale. Madai iga ga uphephi si tu dzambo ra kiburi ra chihistoria. Kpwa mantiki ya shirika ra chijamii ra Chimijikenda, mpangilio wa kuuka unaanzisha uongozi wa ukubwa."
           },
           {
             "type": "paragraph",
@@ -1125,7 +1125,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Gaga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
+            "text": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Iga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
           },
           {
             "type": "heading",
