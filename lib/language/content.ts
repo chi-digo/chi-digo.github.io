@@ -729,7 +729,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Kubadilishwa kuku kpwa muundo wa Chiarabu kpwenye muktadha wa Chidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Chidigo taukoko peke yakpwe. Unakopa kula kpwa Chiswahili, Chiarabu, na mapokeo mapana ga Afrika ya Mashariki, ukimiza miundo ya kudze na kuiodzaza maudhui ga Chidigo. Maokeo ni mapokeo ambago ni ga chipekee ga Chidigo na sehemu ya ulimwengu mkulu wa fasihi ya ph'wani."
+            "text": "Kubadilishwa kuku kpwa muundo wa Chiarabu kpwenye muktadha wa Chidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Chidigo taukoko peke yakpwe. Unakopa kula kpwa Chiswahili, Chiarabu, na mapokeo mapana ga Afrika ya Mashariki, ukimiza miundo ya kudze na kuiodzaza maudhui ga Chidigo. Maokeo ni mapokeo ambago ni ga chipekee ga Chidigo na sehemu ya ulimwengu mkpwulu wa fasihi ya ph'wani."
           }
         ]
       }
@@ -1125,7 +1125,7 @@ export const oralTraditionsDomain: LanguageDomain = {
       "intro": {
         "en": "When darkness settles over a Digo village and the evening meal is done, the children know what comes next. An elder — or an older sibling, or a visiting uncle — turns to the group and issues the…",
         "sw": "Giza linapoingia katika kijiji cha Wadigo na chakula cha jioni kimekwisha, watoto wanajua kinachofuata. Mzee — au kaka mkubwa, au mjomba aliyekuja kutembelea — anageuka kwa kundi na kutoa changamoto:…",
-        "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
+        "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkpwulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
       },
       "body": {
         "en": [
@@ -1251,11 +1251,11 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa changamoto: *\"Kitendawili!\"* Ana anajibu kpwa sauti mwenga: *\"Tega!\"* Na mchezo unaandza."
+            "text": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkpwulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa changamoto: *\"Kitendawili!\"* Ana anajibu kpwa sauti mwenga: *\"Tega!\"* Na mchezo unaandza."
           },
           {
             "type": "paragraph",
-            "text": "Vimbunga vya Adigo ni zaidi ya burudani ya ana. Ni mafundzo ga kiakili garigodzifitsa dza mchezo. Chila chimbunga chinatoa fumbo ririrojengwa dzulu ya mfwano, ulinganifu wa muundo, na upotoshaji, rikidai kukala msuluhishi aone zaidi ya dhahiri na apate uhusiano uriofitswa kahi ya vitu viiri vinavyoonekana kutohusiana. Mwana anayeweza kuvundza chimbunga haraka anaonyesha fikira sawa za pembeni ambazo mutu mkulu anahitaji kusogea kpwa ugumu wa kijamii, kusoma ishara za mazingira, au kumaliza tatizo ra kivitendo kpwa rasilimali chache."
+            "text": "Vimbunga vya Adigo ni zaidi ya burudani ya ana. Ni mafundzo ga kiakili garigodzifitsa dza mchezo. Chila chimbunga chinatoa fumbo ririrojengwa dzulu ya mfwano, ulinganifu wa muundo, na upotoshaji, rikidai kukala msuluhishi aone zaidi ya dhahiri na apate uhusiano uriofitswa kahi ya vitu viiri vinavyoonekana kutohusiana. Mwana anayeweza kuvundza chimbunga haraka anaonyesha fikira sawa za pembeni ambazo mutu mkpwulu anahitaji kusogea kpwa ugumu wa kijamii, kusoma ishara za mazingira, au kumaliza tatizo ra kivitendo kpwa rasilimali chache."
           },
           {
             "type": "paragraph",
@@ -1568,7 +1568,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Kiwango cha maandishi chinategemea zaidi aina ya ph'wani ya Kenya — iriyoandikwa zaidi na yenye umuhimu mkulu kpwa jamii ya agombi. Ela fasihi yoyosi ya Chidigo iriyoandikwa ni lazima ishughulikie ukpweli kukala agombi kpwenye maeneo tofauti anaweza kuona kiwango rasmi kukala chigeni kpwenye mambo fulani. Njira iriyohalwa ni kamusi ya Mgombato — kuandika aina tofauti bila kupendeleza mwenga kukala \"sahihi\" — inapha mfano: fasihi ya maandishi inayokubali tofauti badala ya kuizuwiya."
+            "text": "Kiwango cha maandishi chinategemea zaidi aina ya ph'wani ya Kenya — iriyoandikwa zaidi na yenye umuhimu mkpwulu kpwa jamii ya agombi. Ela fasihi yoyosi ya Chidigo iriyoandikwa ni lazima ishughulikie ukpweli kukala agombi kpwenye maeneo tofauti anaweza kuona kiwango rasmi kukala chigeni kpwenye mambo fulani. Njira iriyohalwa ni kamusi ya Mgombato — kuandika aina tofauti bila kupendeleza mwenga kukala \"sahihi\" — inapha mfano: fasihi ya maandishi inayokubali tofauti badala ya kuizuwiya."
           },
           {
             "type": "heading",
