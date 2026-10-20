@@ -1,0 +1,69 @@
+name: Production deploy fallback
+
+# Vercel's Git integration sometimes never reacts to a push to main (2026-10-20: #201 merged and no
+# production deployment followed until one was created by hand). This waits for Vercel; if no
+# production deployment appears for the pushed commit, it triggers one through a Deploy Hook,
+# which goes through Vercel's API rather than GitHub's webhooks. Then it confirms the deploy.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  deployments: read
+  statuses: read
+
+concurrency:
+  group: prod-deploy-fallback
+  cancel-in-progress: true
+
+jobs:
+  ensure-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      SHA: ${{ github.sha }}
+      HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_MAIN }}
+    steps:
+      - name: Wait for Vercel to start a production deployment
+        id: wait
+        run: |
+          prod() { gh api "repos/$REPO/deployments?sha=$SHA&environment=Production" -q 'length'; }
+          for i in $(seq 1 18); do   # up to 3 minutes
+            if [ "$(prod)" -gt 0 ]; then echo "Vercel started the production deployment itself."; echo "triggered=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+            sleep 10
+          done
+          echo "No production deployment for $SHA after 3 minutes."
+          echo "triggered=needed" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger it through the Deploy Hook
+        if: steps.wait.outputs.triggered == 'needed'
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Vercel did not deploy $SHA and the VERCEL_DEPLOY_HOOK_MAIN secret is not set. Deploy main by hand, and add the secret."
+            exit 1
+          fi
+          curl -sf -X POST "$HOOK" > /dev/null
+          echo "::warning::Vercel missed the push to main; production deploy triggered through the Deploy Hook."
+
+      - name: Confirm production is live
+        run: |
+          # A Deploy Hook builds the latest commit on main, so look for a successful Production deployment
+          # of this commit (or of a newer push, which has its own run).
+          for i in $(seq 1 90); do   # up to 15 minutes
+            id=$(gh api "repos/$REPO/deployments?sha=$SHA&environment=Production" -q '.[0].id // empty')
+            if [ -n "$id" ]; then
+              state=$(gh api "repos/$REPO/deployments/$id/statuses" -q '.[0].state // empty')
+              case "$state" in
+                success) echo "Production deployed: $SHA"; exit 0 ;;
+                failure|error) echo "::error::Production deployment of $SHA failed ($state)."; exit 1 ;;
+              esac
+            fi
+            # Fallback signal: Vercel's commit status, set for any deployment it links to this commit.
+            [ "$(gh api "repos/$REPO/commits/$SHA/status" -q '[.statuses[] | select(.context == "Vercel")][0].state // empty')" = success ] && { echo "Vercel reports success for $SHA"; exit 0; }
+            [ "$(git ls-remote "https://github.com/$REPO" refs/heads/main | cut -f1)" != "$SHA" ] && { echo "main moved on; the newer push is checked by its own run."; exit 0; }
+            sleep 10
+          done
+          echo "::error::No successful production deployment of $SHA after 15 minutes."
+          exit 1
