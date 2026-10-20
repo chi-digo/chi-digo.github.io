@@ -44,7 +44,7 @@ Bada ya Viha vya Kpwandza vya Dunia misikiti minji zaidi yadzengbwa: Msikiti wa 
 
 ## Dzumbe wa Chikoloni
 
-Aingereza amtsambula Mwapodzo kukala **Dzumbe wa Diani**, naye wasagala na cheo icho hadi ariphofwa. Kufikira 1916 ripoti ya chikoloni kala tayari inamuiha "mzehe sana" (*very old*), na kuandika kukala kala akahewa ruhusa ya kuricha kuphiya mikutano ya Baraza. Wafwa mwaka **1923**. Tarehe 10 Julai 1923 Mkpwulu wa Wilaya (District Commissioner), H. E. Lambert, waandika kpwenye shajara ya safarize kukala **Abdallah Mwarandu** kala akatsambulwa kukala Dzumbe badalaye.
+Aingereza amtsambula Mwapodzo kukala **Dzumbe wa Diani**, naye wasagala na cheo icho hadi ariphofwa. Kufikira 1916 ripoti ya chikoloni kala tayari inamuiha "mzehe sana" (*very old*), na kuandika kukala kala akahewa ruhusa ya kuricha kuphiya mikutano ya Baraza. Wafwa mwaka **1923**. Tarehe 10 Julai 1923 Dzumbe wa Wilaya (District Commissioner), H. E. Lambert, waandika kpwenye shajara ya safarize kukala **Abdallah Mwarandu** kala akatsambulwa kukala Dzumbe badalaye.
 
 Phahi maishage ga kazi gaandza na kulongoza kaya kabla ya ukoloni, gachifika hadi utawala wa Aingereza wa kuhumira vilongozi a chienyeji. Sperling waona kukala unji wa Adigo ariokala anasilimu wafika "aina ya chilele mwisho wa miaka ya 1920" (*a kind of crescendo by the end of the 1920s*), kahi ya miaka mifupi bada ya iye kufwa.
 
