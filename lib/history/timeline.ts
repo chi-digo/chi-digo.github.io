@@ -71,16 +71,16 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'origins',
-    date: 'c. 1200s–1300s',
+    date: 'c. 1300s–1500s',
     title: {
       en: 'Kongo Mosque built',
       sw: 'Msikiti wa Kongo unajengwa',
       dg: 'Msikiti wa Kongo unadzengwa',
     },
     description: {
-      en: 'One of the oldest mosques in East Africa, built with coral stone in Diani by Arab merchants. Rediscovered c. 1700s by Sheikh Mwinyi Kombo, guided by a dream.',
-      sw: 'Mojawapo ya misikiti ya zamani zaidi Afrika Mashariki, uliojengwa kwa mawe ya matumbawe huko Diani na wafanyabiashara wa Kiarabu. Uligunduliwa tena c. 1700s na Sheikh Mwinyi Kombo, akiongozwa na ndoto.',
-      dg: 'Mojawapo ya misikiti ya zamani zaidi Afrika ya Mashariki, uriodzengwa kpwa mawe ga matumbawe kuko Diani ni afanyabiashara a Chiarabu. Uligundulwa tsena c. 1700s ni Sheikh Mwinyi Kombo, achiongozwa ni ndoso.',
+      en: 'A coral-stone mosque with domes and barrel vaults on the Mwachema River at Diani. It has never been excavated; pottery found nearby dates from the 14th to the 16th centuries.',
+      sw: 'Msikiti wa mawe ya matumbawe wenye kuba na dari za tao kando ya Mto Mwachema huko Diani. Haujawahi kuchimbuliwa; vipande vya vyungu vilivyopatikana karibu ni vya karne ya 14 hadi ya 16.',
+      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Mto Mwachema kuko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
     },
   },
   {
@@ -250,9 +250,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Adigo anakala Aislamu anji',
     },
     description: {
-      en: 'Mosques and Quranic schools spread across Kwale. The Digo are the first Mijikenda group to build their own mosques, in villages like Kibiga Kirau and Hormuz.',
-      sw: 'Misikiti na shule za Qurani zinasambaa Kwale kote. Wadigo ni kundi la kwanza la Mijikenda kujenga misikiti yao wenyewe, katika vijiji kama Kibiga Kirau na Hormuz.',
-      dg: 'Misikiti na shule za Qurani zinasambaa Kwale kose. Adigo ni kundi ra kpwandza ra Amijikenda kudzenga misikiti yao enye, kahi za vijiji dza Kibiga Kirau na Hormuz.',
+      en: 'Mosques and Quranic schools spread across Kwale.',
+      sw: 'Misikiti na shule za Qurani zinasambaa Kwale kote.',
+      dg: 'Misikiti na shule za Qurani zinasambaa Kwale kose.',
     },
   },
   {
@@ -308,9 +308,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Msikiti wa Kongo unatangazwa',
     },
     description: {
-      en: 'The 13th-century mosque in Diani is declared a national monument by the National Museums of Kenya.',
-      sw: 'Msikiti wa karne ya 13 huko Diani unatangazwa kuwa mnara wa kitaifa na Makumbusho ya Kitaifa ya Kenya.',
-      dg: 'Msikiti wa karne ya 13 kuko Diani unatangazwa kukala mnara wa chitaifa ni Makumbusho ga Chitaifa ga Kenya.',
+      en: 'The Kongo Mosque at Diani and the land around it are protected under Gazette Notice 440 of 1983.',
+      sw: 'Msikiti wa Kongo huko Diani na ardhi inayouzunguka unalindwa chini ya Tangazo la Serikali Na. 440 la 1983.',
+      dg: 'Msikiti wa Kongo kuko Diani na ardhi inayouzunguluka unarindwa tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
     },
   },
   {
