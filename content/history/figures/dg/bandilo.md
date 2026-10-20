@@ -8,11 +8,11 @@
 
 ---
 
-Kahi za Adigo a pwani ya Tanga, chilongozi mmwenga wa kare anatambukirwa kpwa dzinare: Bandilo. Adisi fupi ya Chiswahili ya historia ya Adigo, inayosemurirwa tsona kpwenye tovuti na mitandao ya chijamii ya Tanzania, inamueleza dza mtawala (*mtawala*) ariyephaha hishimaye kpwa ufundiwe wa uha, ujuziwe wa muhaso na uwezowe wa kutabiri mambo. Chila chitu hunachoweza kugomba kumhusu chinakula kpwa adisi hiyo mwenga, phahi makala hino taiuka kure na manenoge.
+Kahi za Adigo a pwani ya Tanga, chilongozi mmwenga wa kare anatambukirwa kpwa dzinare: Bandilo. Adisi fupi ya Chiswahili ya historia ya Adigo, inayosemurirwa tsona kpwenye tovuti na mitandao ya chijamii ya Tanzania, inamueleza dza mtawala (*mtawala*) ariyephaha hishimaye kpwa ufundiwe wa uha, ujuziwe wa tiba na uwezowe wa kutabiri mambo. Chila chitu hunachoweza kugomba kumhusu chinakula kpwa adisi hiyo mwenga, phahi makala hino taiuka kure na manenoge.
 
 ## Mpiga Uha na Mgbwanga
 
-Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni *hodari katika matumizi ya mishale*, fundi wa kuhumira mivi. Piya kala ana *utaalamu wa dawa za asili*, ujuzi wa muhaso wa chienyeji, na kala anaweza *kutabiri matukio mbalimbali*, kutabiri mambo ga chila aina.
+Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni *hodari katika matumizi ya mishale*, fundi wa kuhumira mivi. Piya kala ana *utaalamu wa dawa za asili*, ujuzi wa tiba ya chienyeji, na kala anaweza *kutabiri matukio mbalimbali*, kutabiri mambo ga chila aina.
 
 Ufundi wa uha unalingana na mambo garigoonwa ni ajeni kahi za tsi ya Adigo a Tanga. Oscar Baumann, mwanajiografia Mjerumani, wasafiri kahi za tsi hiyo mwaka 1890. Waona kukala hata kpwenye vidzidzi virivyokala saa chache tu kula pwani, chila mlume kala anatsukula uha na mivi ya mridza yenye ntsa za chuma za ndoano, na kukala bunduchi kala ni adimu. Chilongozi ariyetogolwa kpwa uha kala anatogolwa kpwa ufundi ambao atue kala anauluphira kpwa kudzirinda.
 
