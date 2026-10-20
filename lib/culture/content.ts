@@ -4747,7 +4747,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Maize cultivation in Kwale County faces the persistent challenge of semi-arid conditions in the western areas around Kinango, where chronic food insecurity is a reality for many families. The crop requires more reliable rainfall than cassava, making it vulnerable to the droughts that periodically affect the region. Despite these challenges, maize remains a dietary constant, purchased at market when it cannot be grown at home."
+              "text": "Maize cultivation in Kwale County faces the persistent challenge of semi-arid conditions in the western areas around Chinango, where chronic food insecurity is a reality for many families. The crop requires more reliable rainfall than cassava, making it vulnerable to the droughts that periodically affect the region. Despite these challenges, maize remains a dietary constant, purchased at market when it cannot be grown at home."
             },
             {
               "type": "heading",
@@ -4821,7 +4821,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kilimo cha mahindi katika Kaunti ya Kwale kinakabili changamoto ya kudumu ya hali ya ukame nusu katika maeneo ya magharibi karibu na Kinango, ambapo uhaba wa chakula wa kudumu ni hali halisi kwa familia nyingi. Zao hili linahitaji mvua ya kuaminika zaidi kuliko muhogo, na kulifanya kuwa hatarini kwa ukame unaoathiri eneo hilo mara kwa mara. Licha ya changamoto hizi, mahindi yanabaki kuwa chakula cha kudumu, kikinunuliwa sokoni kisipoweza kupandwa nyumbani."
+              "text": "Kilimo cha mahindi katika Kaunti ya Kwale kinakabili changamoto ya kudumu ya hali ya ukame nusu katika maeneo ya magharibi karibu na Chinango, ambapo uhaba wa chakula wa kudumu ni hali halisi kwa familia nyingi. Zao hili linahitaji mvua ya kuaminika zaidi kuliko muhogo, na kulifanya kuwa hatarini kwa ukame unaoathiri eneo hilo mara kwa mara. Licha ya changamoto hizi, mahindi yanabaki kuwa chakula cha kudumu, kikinunuliwa sokoni kisipoweza kupandwa nyumbani."
             },
             {
               "type": "heading",
@@ -4895,7 +4895,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chirimo cha pemba kpwa Kaunti ya Kwale unakabili changamoto ya kudumu ya ukame wa nusu kpwa maeneo ga magharibi phephi na Kinango, ambako ndzala ya kudumu ni ukpweli kpwa mbari nyinji. Zao hiri rinahitaji mvula ya kuaminika zaidi kuriko manga, na kpwa hivyo ri hatarini kpwa ukame ambao nkugbwira eneo hiri mara kpwa mara. Hata dzagbwe kuna changamoto zizi, pemba bado ni chakurya cha chila siku, richigulwa sokoni richikosa kurimwa nyumbani."
+              "text": "Chirimo cha pemba kpwa Kaunti ya Kwale unakabili changamoto ya kudumu ya ukame wa nusu kpwa maeneo ga magharibi phephi na Chinango, ambako ndzala ya kudumu ni ukpweli kpwa mbari nyinji. Zao hiri rinahitaji mvula ya kuaminika zaidi kuriko manga, na kpwa hivyo ri hatarini kpwa ukame ambao nkugbwira eneo hiri mara kpwa mara. Hata dzagbwe kuna changamoto zizi, pemba bado ni chakurya cha chila siku, richigulwa sokoni richikosa kurimwa nyumbani."
             },
             {
               "type": "heading",
@@ -11915,7 +11915,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kwale County, the administrative home of most Kenyan Digo, had a total population of approximately 866,820 according to the 2019 census, with projections reaching roughly 901,000 by 2025. The county is divided into four constituencies — Msambweni, Matuga, Kinango, and Lunga Lunga — and while the Digo share the county with the Duruma, another Mijikenda people who predominate in the inland Kinango constituency, the Digo are the majority in the three coastal constituencies. The population density varies dramatically: the coastal strip around Ukunda and Diani is densely settled, while the hinterland toward Kinango remains sparsely populated and semi-arid."
+              "text": "Kwale County, the administrative home of most Kenyan Digo, had a total population of approximately 866,820 according to the 2019 census, with projections reaching roughly 901,000 by 2025. The county is divided into four constituencies — Msambweni, Matuga, Chinango, and Lunga Lunga — and while the Digo share the county with the Duruma, another Mijikenda people who predominate in the inland Chinango constituency, the Digo are the majority in the three coastal constituencies. The population density varies dramatically: the coastal strip around Ukunda and Diani is densely settled, while the hinterland toward Chinango remains sparsely populated and semi-arid."
             },
             {
               "type": "heading",
@@ -12111,7 +12111,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaunti ya Kwale, makao ga chiutawala ga Adigo anji a Kenya, yakala na atu kama 866,820 kulingana na sensa ya 2019, na makadirio ga kufikira kama atu 901,000 mwaka wa 2025. Kaunti inaganywa kahi ya majimbo mane — Msambweni, Matuga, Kinango, na Lunga Lunga — na dzagbwe Adigo anaishi kaunti iyi phamwenga na Aduruma, atu anjina a Amijikenda ambao ndio anji kahi ya jimbo ra bara ra Kinango, Adigo ndio anji kahi ya majimbo mahahu ga pwani. Unji wa atu unatafwautiana sana: ukanda wa pwani uriozunguluka Ukunda na Diani una atu anji, wakati seemu za bara kuelekea Kinango zina atu achache na ni nusu kame."
+              "text": "Kaunti ya Kwale, makao ga chiutawala ga Adigo anji a Kenya, yakala na atu kama 866,820 kulingana na sensa ya 2019, na makadirio ga kufikira kama atu 901,000 mwaka wa 2025. Kaunti inaganywa kahi ya majimbo mane — Msambweni, Matuga, Chinango, na Lunga Lunga — na dzagbwe Adigo anaishi kaunti iyi phamwenga na Aduruma, atu anjina a Amijikenda ambao ndio anji kahi ya jimbo ra bara ra Chinango, Adigo ndio anji kahi ya majimbo mahahu ga pwani. Unji wa atu unatafwautiana sana: ukanda wa pwani uriozunguluka Ukunda na Diani una atu anji, wakati seemu za bara kuelekea Chinango zina atu achache na ni nusu kame."
             },
             {
               "type": "heading",
@@ -12292,11 +12292,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kinango: The Inland Heartland"
+              "text": "Chinango: The Inland Heartland"
             },
             {
               "type": "paragraph",
-              "text": "Though not exclusively a Digo town — Kinango is the heartland of the Duruma, the Digo's closest Mijikenda relatives — it deserves mention because it represents the inland dimension of Kwale County that the coastal towns do not. Kinango is semi-arid, more rural, and organized around a cattle economy rather than the coconut-and-fishing economy of the coast. Chronic food insecurity is the defining challenge here. The constituency's distance from the coast means less access to tourism revenue, less infrastructure investment, and a more traditional way of life. For the Digo who live in the coastal towns, Kinango is the hinterland — the place where the old ways persist most visibly, and where the poverty of Kwale County is most acutely felt."
+              "text": "Though not exclusively a Digo town — Chinango is the heartland of the Duruma, the Digo's closest Mijikenda relatives — it deserves mention because it represents the inland dimension of Kwale County that the coastal towns do not. Chinango is semi-arid, more rural, and organized around a cattle economy rather than the coconut-and-fishing economy of the coast. Chronic food insecurity is the defining challenge here. The constituency's distance from the coast means less access to tourism revenue, less infrastructure investment, and a more traditional way of life. For the Digo who live in the coastal towns, Chinango is the hinterland — the place where the old ways persist most visibly, and where the poverty of Kwale County is most acutely felt."
             }
           ],
           "sw": [
@@ -12382,11 +12382,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kinango: Sehemu ya Ndani ya Moyo"
+              "text": "Chinango: Sehemu ya Ndani ya Moyo"
             },
             {
               "type": "paragraph",
-              "text": "Ingawa si mji wa Wadigo peke yake — Kinango ni eneo kuu la Waduruma, jamaa wa karibu zaidi wa Wadigo katika Mijikenda — unastahili kutajwa kwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao miji ya pwani haiuwakilishi. Kinango ni nusu kame, mashambani zaidi, na umepangwa karibu na uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakula wa muda mrefu ndio changamoto kuu hapa. Umbali wa jimbo kutoka pwani unamaanisha upatikanaji mdogo wa mapato ya utalii, uwekezaji mdogo wa miundombinu, na njia ya maisha ya jadi zaidi. Kwa Wadigo wanaoishi katika miji ya pwani, Kinango ni sehemu ya nyuma — mahali ambapo njia za zamani zinaendelea kuonekana zaidi, na ambapo umaskini wa Kaunti ya Kwale unahisika zaidi."
+              "text": "Ingawa si mji wa Wadigo peke yake — Chinango ni eneo kuu la Waduruma, jamaa wa karibu zaidi wa Wadigo katika Mijikenda — unastahili kutajwa kwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao miji ya pwani haiuwakilishi. Chinango ni nusu kame, mashambani zaidi, na umepangwa karibu na uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakula wa muda mrefu ndio changamoto kuu hapa. Umbali wa jimbo kutoka pwani unamaanisha upatikanaji mdogo wa mapato ya utalii, uwekezaji mdogo wa miundombinu, na njia ya maisha ya jadi zaidi. Kwa Wadigo wanaoishi katika miji ya pwani, Chinango ni sehemu ya nyuma — mahali ambapo njia za zamani zinaendelea kuonekana zaidi, na ambapo umaskini wa Kaunti ya Kwale unahisika zaidi."
             }
           ],
           "dg": [
@@ -12472,11 +12472,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kinango: Seemu ya Ndani ya Moyo"
+              "text": "Chinango: Seemu ya Ndani ya Moyo"
             },
             {
               "type": "paragraph",
-              "text": "Dzagbwe si mudzi wa Adigo bahi — Kinango ni seemu kulu ya Aduruma, ndugu a phephi zaidi a Adigo kpwenye Amijikenda — unafwaha kutajwa kpwa sababu unawakilisha uphande wa ndani wa Kaunti ya Kwale ambao midzi ya pwani tauwakilishi. Kinango ni nusu kame, wa vidzidzi zaidi, na ukapangwa kuzunguluka uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakurya wa wakati mure ndio changamoto kulu phapha. Umbali wa jimbo kula pwanini manaye ni kuphaha mapato machache ga utalii, uwekezaji mdide wa miundombinu, na njira ya maisha ya kare zaidi. Kpwa Adigo anaoishi kpwenye midzi ya pwani, Kinango ni seemu ya nyuma — seemu ambapho njira za kare zinaenderera kuonekana zaidi, na ambapho uchiya wa Kaunti ya Kwale unahisika zaidi."
+              "text": "Dzagbwe si mudzi wa Adigo bahi — Chinango ni seemu kulu ya Aduruma, ndugu a phephi zaidi a Adigo kpwenye Amijikenda — unafwaha kutajwa kpwa sababu unawakilisha uphande wa ndani wa Kaunti ya Kwale ambao midzi ya pwani tauwakilishi. Chinango ni nusu kame, wa vidzidzi zaidi, na ukapangwa kuzunguluka uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakurya wa wakati mure ndio changamoto kulu phapha. Umbali wa jimbo kula pwanini manaye ni kuphaha mapato machache ga utalii, uwekezaji mdide wa miundombinu, na njira ya maisha ya kare zaidi. Kpwa Adigo anaoishi kpwenye midzi ya pwani, Chinango ni seemu ya nyuma — seemu ambapho njira za kare zinaenderera kuonekana zaidi, na ambapho uchiya wa Kaunti ya Kwale unahisika zaidi."
             }
           ]
         }

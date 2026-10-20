@@ -24,7 +24,7 @@ Salim Mwabundu was converted by the Baluchi "while still a young man, before he 
 
 > He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.
 
-On market days he went with the Baluchi to Ngare's market at Pungu, and they gave him money to buy baskets, mats and skins. Traders named Muradi and Maluki came to him. Muradi bought goats at Kinango and brought them to Mwabundu's place for the night, before taking them across to Mombasa the next morning.
+On market days he went with the Baluchi to Ngare's market at Pungu, and they gave him money to buy baskets, mats and skins. Traders named Muradi and Maluki came to him. Muradi bought goats at Chinango and brought them to Mwabundu's place for the night, before taking them across to Mombasa the next morning.
 
 There was no mosque at Likoni then. Like other Digo converts, Mwabundu went to Mombasa for Friday prayers and for Ramadhan. He is said to have prayed at the Khonzi Mosque, where the Imam taught him how to give the Friday sermon (*khutba*).
 

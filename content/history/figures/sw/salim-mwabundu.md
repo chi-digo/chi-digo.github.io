@@ -24,7 +24,7 @@ Salim Mwabundu alisilimishwa na Wabaluchi "alipokuwa bado kijana, kabla hajaoa, 
 
 > Alianza kwa kufanya biashara ndogo na Wabaluchi. Kisha, alipokuwa Mwislamu, walimwamini zaidi, kwa hiyo biashara ikaongezeka.
 
-Siku za soko alikwenda pamoja na Wabaluchi kwenye soko la Ngare huko Pungu, nao walimpa pesa za kununua vikapu, mikeka na ngozi. Wafanyabiashara walioitwa Muradi na Maluki walikuja kwake. Muradi alinunua mbuzi Kinango na kuwaleta nyumbani kwa Mwabundu walale huko usiku, kabla ya kuwavusha hadi Mombasa asubuhi iliyofuata.
+Siku za soko alikwenda pamoja na Wabaluchi kwenye soko la Ngare huko Pungu, nao walimpa pesa za kununua vikapu, mikeka na ngozi. Wafanyabiashara walioitwa Muradi na Maluki walikuja kwake. Muradi alinunua mbuzi Chinango na kuwaleta nyumbani kwa Mwabundu walale huko usiku, kabla ya kuwavusha hadi Mombasa asubuhi iliyofuata.
 
 Wakati huo hapakuwa na msikiti Likoni. Kama Adigo wengine waliosilimu, Mwabundu alikwenda Mombasa kwa sala ya Ijumaa na kwa Ramadhani. Inasemekana alisali katika Msikiti wa Khonzi, ambako Imamu alimfundisha jinsi ya kutoa hotuba ya Ijumaa (*khutba*).
 
