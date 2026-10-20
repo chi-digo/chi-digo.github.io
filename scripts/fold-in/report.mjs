@@ -23,7 +23,11 @@ const r = JSON.parse(readFileSync(resultsPath, 'utf-8'));
 const rpc = join(dirname(fileURLToPath(import.meta.url)), 'rpc.mjs');
 const mark = (state, ids, extra = []) => {
   if (!ids.length) return;
-  execFileSync('node', [rpc, 'mark', state, r.nonce, ids.join(','), ...extra], { stdio: 'inherit' });
+  // New words folded into preview: their real ids go back with the in_preview mark.
+  const env = state === 'in_preview' && r.target_ids && Object.keys(r.target_ids).length
+    ? { ...process.env, FOLD_TARGET_IDS: JSON.stringify(r.target_ids) }
+    : process.env;
+  execFileSync('node', [rpc, 'mark', state, r.nonce, ids.join(','), ...extra], { stdio: 'inherit', env });
 };
 
 const changed = [...r.applied, ...r.reverted];

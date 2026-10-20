@@ -71,6 +71,12 @@ jobs:
             (cd tool && npx tsx scripts/plants/build-plants-data.ts --root "$GITHUB_WORKSPACE/data")
           fi
 
+      - name: Rebuild the dictionary indexes
+        run: |
+          if [ -n "$(git -C data status --porcelain -- public/data)" ]; then
+            (cd tool && npx tsx scripts/dictionary/build-index.ts --root "$GITHUB_WORKSPACE/data")
+          fi
+
       - name: Validate before anything is merged (tool scripts, data checkout)
         env:
           # Resolve imports with the tool's config, never the data checkout's.
@@ -81,13 +87,16 @@ jobs:
             ../tool/node_modules/.bin/tsx ../tool/scripts/validate-plants.ts
             ../tool/node_modules/.bin/tsx ../tool/scripts/check-digo-standards.ts
             ../tool/node_modules/.bin/tsx ../tool/scripts/plants/build-plants-data.ts --root . --check
+            ../tool/node_modules/.bin/tsx ../tool/scripts/dictionary/build-index.ts --root . --check
           fi
 
       - name: Only data files may change
         run: |
           git -C data add -A
-          bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/data-version\.json)$' || true)
+          bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/(a|b|ch|d|dz|e|f|g|gbw|h|i|j|k|kpw|l|m|m_|n|ndz|ng|ng_|o|p|ph|r|s|sh|t|ts|u|v|w|y|z)(\.idx)?\.json|public/data/index\.json|public/data/data-version\.json)$' || true)
           if [ -n "$bad" ]; then echo "unexpected changes:"; echo "$bad"; exit 1; fi
+          added=$(git -C data diff --cached --name-only --diff-filter=AD)
+          if [ -n "$added" ]; then echo "no file may be added or deleted:"; echo "$added"; exit 1; fi
 
       - name: Open and merge the PR into preview
         id: pr

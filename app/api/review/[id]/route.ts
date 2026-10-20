@@ -1,15 +1,31 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import type { SupabaseClient } from '@supabase/supabase-js';
-import { PAYLOADS, reviewSchema, type ContributionType } from '@/lib/contributions/schemas';
+import { PAYLOADS, reviewSchema, NEVER_PUBLIC, TEST_TARGET, type ContributionType } from '@/lib/contributions/schemas';
 import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget } from '@/lib/contributions/targets';
+import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
+import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
+import { lockedFieldsChanged, wordDependants } from '@/lib/contributions/review';
+import type { Change } from '@/lib/contributions/apply/types';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
 const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_path, target_label, payload, final_payload, note, region, village, confidence, recorded_for, credit_opt_in, locale, page_path, status, live_status, fold_status, fold_error, outcome, base, held, hidden_at, reply, review_note, agree_count, raw_agree_count, claimed_by, claimed_until, reviewer_id, is_test, created_at, reviewed_at';
+
+/**
+ * For an add_sense: the lowest sense id it may take, past the shipped senses and the live new ones. The
+ * database allocates the final id under a lock. '' for other changes; null if the entry is gone.
+ */
+async function minimumSensePath(row: { type: string; payload: Record<string, unknown>; target_id: string | null; is_test: boolean }, liveChanges: Change[]) {
+  if (row.type !== 'definition_update' || row.payload.mode !== 'add_sense' || !row.target_id) return '';
+  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+  if (!raw) return null;
+  const [entry] = applyAllToEntries([raw], liveChanges);
+  const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
+  return `senses.${nextSenseId(entry, pending)}`;
+}
 
 async function load(db: SupabaseClient, id: string) {
   const { data } = await db.from('contributions').select(COLUMNS).eq('id', id).maybeSingle();
@@ -27,7 +43,8 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     if (!canReview(caller, row.scope)) return forbidden();
 
-    const liveChanges = row.target_type === 'plant' ? await getAreaOverlay('plant') : [];
+    const area = overlayArea(row.target_type);
+    const liveChanges = area ? await getAreaOverlay(area) : [];
     const current = resolveTarget(row.type, row.target_type ?? undefined, row.target_id ?? undefined, row.payload, {
       isTest: row.is_test,
       liveChanges,
@@ -62,6 +79,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         changed: targetChanged(row as unknown as ReviewRow, liveChanges),
         warnings: warningsFor(row.type, (row.final_payload ?? row.payload) as Record<string, unknown>),
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
+        dependants: row.type === 'word_addition' && row.status === 'accepted' ? await wordDependants(row) : [],
         can_self_confirm: row.live_status === 'awaiting_second'
           ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
           : false,
@@ -94,6 +112,20 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     const args: Record<string, unknown> = { note: body.note ?? null };
     const area = overlayArea(row.target_type);
 
+    if ((body.action === 'accept' || body.action === 'accept_variant') && NEVER_PUBLIC.includes(row.type as ContributionType)) {
+      return badRequest('not_acceptable');
+    }
+    if (body.action === 'resolve' && !NEVER_PUBLIC.includes(row.type as ContributionType)) return badRequest('not_resolvable');
+    if (body.action === 'resolve' && !body.note?.trim()) return badRequest('note_required');
+    // A reviewer may correct the text, never what a dictionary change points at (spec 34 §15.3).
+    if (body.final_payload && lockedFieldsChanged(row.type as ContributionType, row.payload, body.final_payload)) {
+      return badRequest('locked_fields');
+    }
+    // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
+    if (body.action === 'revert' && row.type === 'word_addition') {
+      const deps = await wordDependants(row);
+      if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
+    }
     if (body.action === 'accept' || body.action === 'accept_variant') {
       const final = PAYLOADS[row.type as ContributionType].safeParse(body.final_payload ?? row.payload);
       if (!final.success) return badRequest('invalid', final.error.issues);
@@ -112,9 +144,15 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       args.final_payload = finalPayload;
       args.needs_second = needsSecondReview(row as unknown as ReviewRow, finalPayload, liveChanges);
       if (body.merge_ids) args.merge_ids = body.merge_ids;
+      const minimum = await minimumSensePath(row, liveChanges);
+      if (minimum === null) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+      if (minimum) args.target_path = minimum;
     }
     if (body.action === 'duplicate') args.duplicate_of = body.duplicate_of ?? null;
     if (body.action === 'retry_fold') {
+      // A new sense that conflicted gets a fresh id (the database allocates it past every id ever taken).
+      const minimum = await minimumSensePath(row, area ? await getAreaOverlay(area) : []);
+      if (minimum) args.target_path = minimum;
       // Editing accepted text is an admin action, gets the same Digo check as an accept, and is
       // confirmed by a second reviewer before it goes live again (the database enforces the last part).
       if (body.final_payload) {

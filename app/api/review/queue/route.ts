@@ -14,6 +14,7 @@ const query = z.object({
 });
 
 const STALE_MS = 14 * 86_400_000;
+const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_label, payload, region, village, confidence, recorded_for, locale, status, live_status, fold_status, fold_error, agree_count, raw_agree_count, base, held, hidden_at, claimed_by, claimed_until, reply, review_note, is_test, created_at, profiles!contributions_user_id_fkey(first_name)';
 
 /** The review queue within the caller's scopes, grouped by target, oldest first (spec §8.1). */
 export async function GET(request: Request) {
@@ -32,7 +33,7 @@ export async function GET(request: Request) {
   try {
     let sel = caller.db
       .from('contributions')
-      .select('id, user_id, type, scope, target_type, target_id, target_label, payload, region, village, confidence, recorded_for, locale, status, live_status, fold_status, fold_error, agree_count, raw_agree_count, base, held, hidden_at, claimed_by, claimed_until, reply, review_note, is_test, created_at, profiles!contributions_user_id_fkey(first_name)')
+      .select(COLUMNS)
       .in('scope', scopes)
       .order('created_at', { ascending: true })
       .limit(150);
@@ -43,11 +44,28 @@ export async function GET(request: Request) {
     if (q.data.region) sel = sel.eq('region', q.data.region);
     if (q.data.confidence) sel = sel.eq('confidence', q.data.confidence);
     sel = sel.eq('is_test', caller.isTest);
-    const { data: rows, error } = await sel;
+    const { data: firstRows, error } = await sel;
     if (error) return serverError(error, 'queue');
+    // Flags are fetched on their own, so an old backlog can't push an offensive-content flag off the page.
+    let rows = firstRows ?? [];
+    if (q.data.view === 'open' && scopes.includes('dictionary') && (!q.data.type || q.data.type === 'entry_flag')) {
+      let flags = caller.db
+        .from('contributions')
+        .select(COLUMNS)
+        .eq('scope', 'dictionary').eq('type', 'entry_flag').in('status', ['pending', 'needs_info'])
+        .eq('is_test', caller.isTest)
+        .order('created_at', { ascending: true })
+        .limit(100);
+      if (q.data.region) flags = flags.eq('region', q.data.region);
+      if (q.data.confidence) flags = flags.eq('confidence', q.data.confidence);
+      const { data: flagRows, error: flagError } = await flags;
+      if (flagError) return serverError(flagError, 'queue_flags');
+      const seen = new Set(rows.map((r) => r.id));
+      rows = [...rows, ...(flagRows ?? []).filter((r) => !seen.has(r.id))];
+    }
 
     // Each contributor's record helps reviewers weigh a suggestion.
-    const userIds = [...new Set((rows ?? []).map((r) => r.user_id).filter(Boolean))] as string[];
+    const userIds = [...new Set(rows.map((r) => r.user_id).filter(Boolean))] as string[];
     const { data: history } = userIds.length
       ? await caller.db.from('contributions').select('user_id, status').in('user_id', userIds)
       : { data: [] };
@@ -56,10 +74,10 @@ export async function GET(request: Request) {
       return { submitted: own.length, accepted: own.filter((h) => h.status === 'accepted').length };
     };
 
-    const plantChanges = await getAreaOverlay('plant');
+    const [plantChanges, wordChanges] = await Promise.all([getAreaOverlay('plant'), getAreaOverlay('word')]);
     const now = Date.now();
     const groups = new Map<string, { target_type: string | null; target_id: string | null; target_label: string | null; items: unknown[] }>();
-    for (const r of rows ?? []) {
+    for (const r of rows) {
       const key = `${r.target_type}:${r.target_id ?? r.id}`;
       if (!groups.has(key)) groups.set(key, { target_type: r.target_type, target_id: r.target_id, target_label: r.target_label, items: [] });
       const { profiles, user_id, ...rest } = r as typeof r & { profiles: { first_name: string | null } | null };
@@ -68,10 +86,16 @@ export async function GET(request: Request) {
         contributor: { first_name: profiles?.first_name ?? null, ...record(user_id), is_you: user_id === caller.id },
         stale: now - new Date(r.created_at).getTime() > STALE_MS,
         claimed_by_other: !!r.claimed_by && r.claimed_by !== caller.id && new Date(r.claimed_until ?? 0).getTime() > now,
-        changed: targetChanged(r as unknown as ReviewRow, plantChanges),
+        changed: targetChanged(r as unknown as ReviewRow, r.target_type === 'word' ? wordChanges : plantChanges),
+        // A flag older than 48 hours shows an age badge (spec 34 §15.3).
+        overdue: r.type === 'entry_flag' && now - new Date(r.created_at).getTime() > 48 * 3_600_000,
       });
     }
-    return NextResponse.json({ groups: [...groups.values()] }, { headers: { 'Cache-Control': 'no-store' } });
+    // Offensive-content flags come first.
+    const offensive = (g: { items: unknown[] }) =>
+      g.items.some((i) => (i as { type: string; payload: { reason?: string } }).type === 'entry_flag' && (i as { payload: { reason?: string } }).payload?.reason === 'offensive');
+    const ordered = [...groups.values()].sort((a, b) => Number(offensive(b)) - Number(offensive(a)));
+    return NextResponse.json({ groups: ordered }, { headers: { 'Cache-Control': 'no-store' } });
   } catch (err) {
     return serverError(err, 'queue');
   }

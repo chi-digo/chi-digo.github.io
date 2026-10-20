@@ -14,6 +14,12 @@ import { track } from '@/lib/analytics/track';
 import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
+import type { WordEntry } from '@/lib/contributions/apply/words';
+import { useWordForms, NewWordNote, VariantsLine, ImproveLink, WordSuggest, canSuggest } from '@/components/Contribute/WordContribute';
+import { NewWordForm } from '@/components/Contribute/WordForms';
+import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
+import { takeResumeIntent } from '@/lib/contributions/client';
+import contrib from '@/components/Contribute/Contribute.module.css';
 import styles from '../dictionary.module.css';
 
 // Module-level counter for words viewed in a session
@@ -320,19 +326,28 @@ function EntrySection({
   entry,
   isHomonym,
   nav,
+  position,
+  contributions = 'all',
 }: {
   entry: DictionaryEntry;
   isHomonym: boolean;
   nav: Navigate;
+  /** 1-based place among the homonyms, shown when the entry has no homonym index. */
+  position?: number;
+  /** 'flag_only' keeps just "Something's wrong" (phrasebook and other reuse, product spec §5). */
+  contributions?: 'all' | 'flag_only';
 }) {
   const t = useTranslations();
   const { locale } = useLocale();
+  const { open, forms, panelKey } = useWordForms(entry);
+  const provenance = (entry as WordEntry).provenance;
 
   return (
     <div className={styles.entryBody}>
+      <NewWordNote entry={entry} />
       {isHomonym && (
         <div className={styles.homonymLabel}>
-          <span className={styles.homonymIndex}>{entry.homonym_index}</span>
+          <span className={styles.homonymIndex}>{entry.homonym_index ?? position}</span>
           <span className={styles.entryPos}>
             {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
           </span>
@@ -341,6 +356,8 @@ function EntrySection({
           )}
         </div>
       )}
+
+      <VariantsLine entry={entry} />
 
       {entry.is_redirect && entry.redirect_target && (
         <p className={styles.redirect}>
@@ -388,6 +405,13 @@ function EntrySection({
                 );
               })}
             </div>
+          )}
+          {provenance?.[`senses.${sense.sense_id}.definition_${locale}`] && (
+            <CreditLine ids={provenance[`senses.${sense.sense_id}.definition_${locale}`].map((e) => e.c)} />
+          )}
+          {sense.examples.some((ex) => ex.c) && <CreditLine ids={sense.examples.flatMap((ex) => (ex.c ? [ex.c] : []))} />}
+          {!entry.is_redirect && !(entry as WordEntry).provisional && contributions === 'all' && canSuggest(entry) && (
+            <ImproveLink onClick={() => open({ kind: 'definition', sense: sense.sense_id })} />
           )}
           {sense.synonyms_dg.length > 0 && (
             <p className={styles.synonyms}>
@@ -453,11 +477,44 @@ function EntrySection({
           ))}
         </div>
       )}
+
+      {!entry.is_redirect && canSuggest(entry) && <WordSuggest entry={entry} open={open} panelKey={panelKey} contributions={contributions} />}
+      {forms}
     </div>
   );
 }
 
-function WordView({ headword, nav, query }: { headword: string; nav: Navigate; query?: string }) {
+/** "Add “x” to the dictionary" on a search or word that found nothing (spec 34 §15.3). */
+function AddWordCta({ headword }: { headword: string }) {
+  const c = useTranslations().contribute;
+  const [open, setOpen] = useState(false);
+  // After signing in from the form, reopen it with its draft.
+  useEffect(() => {
+    let live = true;
+    Promise.resolve(takeResumeIntent('new-word')).then((intent) => live && intent && setOpen(true));
+    return () => {
+      live = false;
+    };
+  }, []);
+  const word = headword.trim();
+  return (
+    <>
+      <button
+        type="button"
+        className={contrib.textBtn}
+        onClick={() => {
+          track('contribute', 'dictionary', 'open_new_word', { headword: word });
+          setOpen(true);
+        }}
+      >
+        {word ? c.add_word_cta.replace('{word}', word) : c.add_word_any}
+      </button>
+      {open && <NewWordForm open onClose={() => setOpen(false)} headword={word} />}
+    </>
+  );
+}
+
+function WordView({ headword, nav, query, contributions = 'all' }: { headword: string; nav: Navigate; query?: string; contributions?: 'all' | 'flag_only' }) {
   const t = useTranslations();
   const { locale } = useLocale();
   // Results are kept with the headword they belong to, so a new headword reads
@@ -514,10 +571,12 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
         <div className={styles.emptyState}>
           <p className={styles.emptyTitle}>{t.dictionary.entry_not_found}</p>
           <p className={styles.emptyBody}>{t.dictionary.try_different_word}</p>
+          <AddWordCta headword={headword} />
         </div>
       )}
 
       {!loading && primary && (
+        <CreditsProvider ids={entries.flatMap((e) => provenanceIds((e as WordEntry).provenance))}>
         <article className={styles.entry}>
           <header className={styles.entryHeader}>
             <div className={styles.entryHeaderLeft}>
@@ -563,13 +622,14 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
           </header>
 
           {mainEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} nav={nav} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} nav={nav} position={mainEntries.indexOf(entry) + 1} contributions={contributions} />
           ))}
 
           {redirectEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} contributions={contributions} />
           ))}
         </article>
+        </CreditsProvider>
       )}
     </>
   );
@@ -704,6 +764,8 @@ function SearchView({ q, nav }: { q: string; nav: Navigate }) {
             {t.dictionary.no_results.replace('{query}', q)}
           </p>
           <p className={styles.emptyBody}>{t.dictionary.try_different_word}</p>
+          {/* Only offer a Digo-looking query as the new word; otherwise an empty form. */}
+          <AddWordCta headword={/^[a-zA-Z'’áéíóú -]{2,40}$/.test(q.trim()) ? q.trim() : ''} />
         </div>
       )}
 

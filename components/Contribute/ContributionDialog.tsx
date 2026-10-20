@@ -82,7 +82,7 @@ function OpenDialog({
   const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
   const [done, setDone] = useState<Done | null>(null);
-  const [similar, setSimilar] = useState<{ id: string; name: string } | null>(null);
+  const [similar, setSimilar] = useState<{ id?: string; name: string; href?: string } | null>(null);
   const [signIn, setSignIn] = useState(false);
 
   useEffect(() => {
@@ -141,11 +141,11 @@ function OpenDialog({
       return;
     }
     track('contribute', 'form', 'submit_success', { type, held: result.held });
-    finish(type === 'general_feedback' ? 'feedback' : result.held ? 'held' : 'public');
+    finish(type === 'general_feedback' || type === 'entry_flag' ? 'feedback' : result.held ? 'held' : 'public');
   };
 
   const agreeWithSimilar = async () => {
-    if (!similar) return;
+    if (!similar?.id) return;
     setSending(true);
     const r = await agree(similar.id, true, common.region ? { region: common.region, confidence: common.confidence } : undefined);
     setSending(false);
@@ -179,6 +179,23 @@ function OpenDialog({
       </div>
     );
     actions = <Button variant="secondary" onClick={onClose}>{c.close}</Button>;
+  } else if (similar?.href) {
+    // A new word that may already be in the dictionary: open it, or add this one anyway.
+    body = (
+      <div className={styles.form}>
+        <p className={styles.thanksTitle}>{c.similar_entry_title}</p>
+        <p>{c.similar_entry_body.replace('{name}', similar.name)}</p>
+        {error && <p className={styles.error} role="alert">{error}</p>}
+      </div>
+    );
+    actions = (
+      <>
+        <Button variant="ghost" onClick={() => send(true)} loading={sending}>{c.similar_entry_add}</Button>
+        <TrackedLink href={similar.href} source="contribute_similar_entry" className={styles.link} onClick={onClose}>
+          {c.similar_entry_open}
+        </TrackedLink>
+      </>
+    );
   } else if (similar) {
     body = (
       <div className={styles.form}>
