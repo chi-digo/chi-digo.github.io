@@ -116,7 +116,7 @@ export interface SubmitBody extends Target {
 
 export type SubmitResult =
   | { ok: true; id: string; held: boolean }
-  | { ok: true; similar: { id: string; name: string } }
+  | { ok: true; similar: { id?: string; name: string; href?: string } }
   | { ok: false; error: string };
 
 async function post(path: string, method: string, body?: unknown) {

@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { PAYLOADS, TYPE_SCOPE, ENABLED_TYPES, submitSchema } from '@/lib/contributions/schemas';
 import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
-import { resolveTarget, WORD_ID } from '@/lib/contributions/targets';
+import { resolveTarget, WORD_ID, similarHeadwords } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { normaliseDigo } from '@/lib/contributions/text';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
@@ -70,6 +70,23 @@ export async function POST(request: Request) {
       if (similar) {
         return NextResponse.json({ inserted: false, similar: { id: similar.id, name: similar.public_payload.name } });
       }
+    }
+
+    // A new word that may already exist: in the dictionary (by headword or variant) or as an open suggestion.
+    if (input.type === 'word_addition' && !force_new && !caller.isTest) {
+      const headword = String((payload.data as { headword: string }).headword);
+      const existing = similarHeadwords(headword);
+      if (existing) {
+        return NextResponse.json({ inserted: false, similar: { name: existing, href: `/language/dictionary/word/${encodeURIComponent(existing)}` } });
+      }
+      const { data: open, error: openError } = await caller.db
+        .from('public_contributions')
+        .select('id, public_payload')
+        .eq('type', 'word_addition');
+      if (openError) return serverError(openError, 'similar');
+      const key = normaliseDigo(headword);
+      const match = (open ?? []).find((c) => normaliseDigo(String(c.public_payload?.headword ?? '')) === key);
+      if (match) return NextResponse.json({ inserted: false, similar: { id: match.id, name: match.public_payload.headword } });
     }
 
     const result = await rpc<{ id?: string; held?: boolean; error?: string }>(caller.db, 'submit_contribution', {

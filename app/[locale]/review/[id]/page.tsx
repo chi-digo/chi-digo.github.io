@@ -1,6 +1,6 @@
 'use client';
 
-import { use, useCallback, useEffect, useState } from 'react';
+import { Fragment, use, useCallback, useEffect, useState } from 'react';
 import { Button, Select, Skeleton, TextArea, TextField } from '@chi-digo/design-system';
 import { AuthGuard } from '@/components/AuthGuard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
@@ -8,6 +8,8 @@ import { useTranslations } from '@/lib/i18n/context';
 import { msg, useContributorStatus } from '@/lib/contributions/client';
 import { payloadSummary } from '@/lib/contributions/display';
 import { refreshPlantOverlay } from '@/lib/plants/loader';
+import { refreshWordOverlay } from '@/lib/dictionary/loader';
+import { NEVER_PUBLIC, type ContributionType } from '@/lib/contributions/schemas';
 import { track } from '@/lib/analytics/track';
 import styles from '../review.module.css';
 
@@ -53,12 +55,25 @@ interface Detail {
 const EDITABLE: Record<string, string[]> = {
   plant_name: ['name', 'other_names'],
   plant_info: ['text'],
+  word_addition: ['headword', 'meaning_en', 'meaning_sw', 'definition_dg', 'example_dg', 'example_en'],
+  definition_update: ['text'],
+  example_sentence: ['dg', 'en', 'sw'],
+  spelling_variant: ['form'],
 };
+
+/** Labels for the editable fields that aren't plain text areas. */
+const FIELD_LABEL: Record<string, string> = {
+  name: 'name_label', other_names: 'other_names_label', headword: 'newword_headword_label', meaning_en: 'newword_meaning_en',
+  meaning_sw: 'newword_meaning_sw', definition_dg: 'newword_dg_label', example_dg: 'newword_example_dg', example_en: 'newword_example_en',
+  dg: 'example_dg_label', en: 'example_en_label', sw: 'example_sw_label', form: 'variant_label',
+};
+const LONG_FIELDS = ['text', 'definition_dg', 'example_dg', 'dg'];
 
 function currentText(value: unknown): string {
   if (value == null) return '';
   if (typeof value === 'string') return value;
   if (typeof value === 'object' && 'digo_headword' in (value as object)) return String((value as { digo_headword: string | null }).digo_headword ?? '');
+  if (typeof value === 'object' && 'text' in (value as object)) return String((value as { text: string | null }).text ?? '');
   return JSON.stringify(value);
 }
 
@@ -135,13 +150,17 @@ function ReviewItem({ id }: { id: string }) {
         self_review: r.err_self,
         rate_cap: r.err_rate,
         forbidden: r.err_forbidden,
+        not_acceptable: r.err_not_acceptable,
       };
       setMessage(map[data.error] ?? c.error_generic);
       return;
     }
     track('contribute', 'review', action, { type: item.type });
     // This tab's plant pages must show the decision straight away.
-    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(action)) refreshPlantOverlay();
+    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(action)) {
+      refreshPlantOverlay();
+      refreshWordOverlay();
+    }
     setMessage(r.done);
     load();
   };
@@ -187,7 +206,30 @@ function ReviewItem({ id }: { id: string }) {
             {t.plants[String(base.section) as 'about'] ?? String(base.section)} · {msg(c, `lang_${base.lang}`)} · {base.mode === 'replace' ? c.info_mode_replace : c.info_mode_add}
           </p>
         )}
-        <p className={styles.text}>{item.type === 'plant_name' ? String(item.payload.name) : payloadSummary(item.payload)}</p>
+        {item.type === 'definition_update' && (
+          <p className={styles.muted}>
+            {msg(c, `lang_${base.lang}`)} · {base.mode === 'add_sense' ? c.def_mode_add : c.def_mode_replace}
+            {base.mode === 'replace' ? ` · ${base.sense_id}` : ''}
+          </p>
+        )}
+        {item.type === 'entry_flag' && <p className={styles.muted}>{msg(c, `flag_reason_${base.reason}`)}</p>}
+        {item.type === 'word_addition' && (
+          <dl className={styles.facts}>
+            {(['meaning_en', 'meaning_sw', 'definition_dg', 'pos', 'example_dg', 'example_en', 'example_sw'] as const).map((k) =>
+              base[k] ? (<Fragment key={k}><dt>{msg(c, FIELD_LABEL[k] ?? k)}</dt><dd>{String(base[k])}</dd></Fragment>) : null,
+            )}
+          </dl>
+        )}
+        {item.type === 'example_sentence' && (base.en || base.sw) ? <p className={styles.muted}>{[base.en, base.sw].filter(Boolean).join(' · ')}</p> : null}
+        {item.type === 'spelling_variant' && <p className={styles.muted}>{base.kind === 'dialect' ? c.variant_kind_dialect : c.variant_kind_spelling}</p>}
+        <p className={styles.text}>
+          {item.type === 'plant_name' ? String(item.payload.name)
+            : item.type === 'word_addition' ? String(base.headword)
+            : item.type === 'example_sentence' ? String(base.dg)
+            : item.type === 'entry_flag' ? String(base.detail ?? '')
+            : payloadSummary(item.payload)}
+        </p>
+        {item.type === 'definition_update' && base.reason ? <p className={styles.muted}>“{String(base.reason)}”</p> : null}
         {item.type === 'plant_name' && item.payload.other_names ? <p className={styles.muted}>{String(item.payload.other_names)}</p> : null}
         {item.note && <p className={styles.muted}>“{item.note}”</p>}
         {item.reply && <p className={styles.muted}><strong>{r.reply}:</strong> {item.reply}</p>}
@@ -224,10 +266,10 @@ function ReviewItem({ id }: { id: string }) {
         <section className={styles.box}>
           <h2 className={styles.boxTitle}>{r.edit}</h2>
           {(EDITABLE[item.type] ?? []).map((k) =>
-            k === 'text' ? (
-              <TextArea key={k} label={c.info_label} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} rows={6} />
+            LONG_FIELDS.includes(k) ? (
+              <TextArea key={k} label={k === 'text' ? c.info_label : msg(c, FIELD_LABEL[k])} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} rows={k === 'text' ? 6 : 3} />
             ) : (
-              <TextField key={k} label={k === 'name' ? c.name_label : c.other_names_label} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} />
+              <TextField key={k} label={msg(c, FIELD_LABEL[k] ?? k)} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} />
             ),
           )}
         </section>
@@ -236,7 +278,13 @@ function ReviewItem({ id }: { id: string }) {
       <section className={styles.box}>
         <TextArea label={r.note} value={note} onChange={(e) => setNote(e.target.value)} maxLength={2000} rows={2} />
         <div className={styles.actions}>
-          {open && (
+          {open && NEVER_PUBLIC.includes(item.type as ContributionType) && (
+            <>
+              <Button onClick={() => act('resolve')} loading={busy === 'resolve'} disabled={!note.trim()}>{r.resolve}</Button>
+              <Button variant="ghost" onClick={() => act('decline')} loading={busy === 'decline'}>{r.decline}</Button>
+            </>
+          )}
+          {open && !NEVER_PUBLIC.includes(item.type as ContributionType) && (
             <>
               <Button onClick={() => accept(false)} loading={busy === 'accept'}>{r.accept}</Button>
               {item.type === 'plant_name' && (

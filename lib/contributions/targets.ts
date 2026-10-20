@@ -8,7 +8,7 @@ import { join } from 'path';
 import { createHash } from 'crypto';
 import type { Plant } from '@/lib/plants/types';
 import type { Locale } from '@/lib/i18n/config';
-import { stableStringify } from './text';
+import { stableStringify, normaliseDigo } from './text';
 import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
 import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
@@ -84,6 +84,38 @@ export function headwordExists(headword: string): boolean {
   } catch {
     return false;
   }
+}
+
+/**
+ * A shipped headword (or variant form) that reads the same as `headword` once case, apostrophes and
+ * ng'/ng, dz/z are ignored, or null. Returns the headword to link to.
+ */
+export function similarHeadwords(headword: string): string | null {
+  const key = normaliseDigo(headword);
+  let file: string;
+  try {
+    file = entryFile(sortKeyOf(headword));
+  } catch {
+    return null;
+  }
+  // dz/z and ng'/ng differences can move a word to another letter file: check both spellings' files.
+  const files = new Set([file]);
+  for (const alt of [headword.replace(/^dz/i, 'z'), headword.replace(/^z/i, 'dz'), headword.replace(/^ng'/i, 'ng'), headword.replace(/^ng(?!')/i, "ng'")]) {
+    try {
+      files.add(entryFile(sortKeyOf(alt)));
+    } catch {
+      /* not a letter file */
+    }
+  }
+  for (const f of files) {
+    const data = JSON.parse(readFileSync(join(DICT, `${f}.json`), 'utf-8')) as { entries: WordEntry[] };
+    for (const e of data.entries) {
+      if (e.is_redirect) continue;
+      if (normaliseDigo(e.headword.replace(/^-/, '')) === key.replace(/^-/, '')) return e.headword;
+      if ((e.variants ?? []).some((v) => normaliseDigo(v.form) === key)) return e.headword;
+    }
+  }
+  return null;
 }
 
 /** A stand-in entry for automated tests (never listed; test rows are invisible elsewhere). */
