@@ -42,6 +42,10 @@ export function ArticleBody({ body }: { body: ContentBlock[] }) {
           <h3 key={i} className={styles.articleHeading}>
             {block.text}
           </h3>
+        ) : block.type === 'quote' ? (
+          <blockquote key={i} className={styles.quote}>
+            {renderInlineMarkdown(block.text)}
+          </blockquote>
         ) : (
           <p key={i} className={styles.bodyText}>
             {renderInlineMarkdown(block.text)}
