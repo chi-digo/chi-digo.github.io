@@ -40,7 +40,7 @@ Dzambo kulu ra wakati hinyo kala ni urisi. Mila za Chidigo kala zinatsapiza mali
 
 ## Mbona Habarize ni Chache
 
-Tahumanya Masemo ariphovyalwa wala ariphofwa, wala wakala na cheo hicho hadi rini bada ya 1924. Makarani a chikoloni aandika dzinare "Mwamasemo" na "Mwasemo". Sperling kaeleza ni ani kala anakala kpwenye Baraza Kulu ra Adigo. Piya anataja "Baraza Kulu ririroandzishwa sambi" (*"newly-established Central Council"*) ra Adigo a vidzidzi chenda virivyo kusini phephi na Mombasa, ambaro mwaka 1924 kala rinadziiha *Midzichenda*. Taimanyikana wazi kama hiri kala ni baraza riro-riro ambaro Masemo kala anarilongoza; uraiswe unaonekana kpwenye kumbukumbu kula 1920. Mambo manji ga maishage ganatuluka kpwa mwanawe, na mwana achimtambukira ise anaweza kumtogola kuriko chiasi.
+Tahumanya Masemo ariphovyalwa wala ariphofwa, wala wakala na cheo hicho hadi rini bada ya 1924. Makarani a chikoloni aandika dzinare "Mwamasemo" na "Mwasemo". Sperling kaeleza ni ani kala anakala kpwenye Baraza Kulu ra Adigo. Piya anataja "Baraza Kulu ririroandzishwa sambi" (*"newly-established Central Council"*) ra Adigo a vidzidzi chenda virivyo kusini phephi na Mombasa, ambaro mwaka 1924 kala rinadziiha *Midzichenda*. Taimanyikana wazi kama hiri kala ni baraza riro-riro ambaro Masemo kala anarilongoza; uraisiwe unaonekana kpwenye kumbukumbu kula 1920. Mambo manji ga maishage ganatuluka kpwa mwanawe, na mwana achimtambukira ise anaweza kumtogola kuriko chiasi.
 
 ## Gara Arigoricha
 
