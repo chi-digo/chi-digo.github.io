@@ -12,6 +12,8 @@ export interface Rule {
 }
 
 const UI = /lib\/i18n\/messages\//;
+/** Files that hold Digo text only (mixed-language files can't be checked for Swahili forms). */
+const DG_ONLY = /(content\/history\/figures\/dg\/|lib\/i18n\/messages\/dg\.json)/;
 
 export const RULED_OUT: Rule[] = [
   { wrong: /\bChiingereza\b/i, right: 'Chingereza', ruling: 'round 3 (2026-10-10): the English language' },
@@ -35,6 +37,10 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\bHandika \{word\}/, right: 'Andika (write)', ruling: 'round 5: handika means cover', only: UI },
   // kpwera stays in the dictionary (shown as the alternative to fyombera); prose uses fyombera.
   { wrong: /\b\w*kpwera\b/i, right: 'fyombera', ruling: 'round 4: climb', only: /public\/data\/plants\// },
+  // Round 7 (2026-10-20): Swahili forms in Digo prose. Checked only where the file is all Digo.
+  { wrong: /\bMto\b/, right: 'Muho (river)', ruling: 'round 7 (2026-10-20)', only: DG_ONLY },
+  { wrong: /\bm?paka\b(?= (?:wa|wakpwe|uho|unafungwa|unaikpwa))|\bMpaka\b/, right: 'mphaka (border, limit)', ruling: 'round 7', only: DG_ONLY },
+  { wrong: /\b\w*kumbuk(?:a|wa|iwa)\b/i, right: 'tambukira (remember)', ruling: 'round 7', only: DG_ONLY },
 ];
 
 /** Ruled-out forms found in a piece of Digo text (ignores path-scoped rules). */
