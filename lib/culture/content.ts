@@ -9662,7 +9662,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Gungu analunga chipindi chirefu cha maombolezo chenye mambo maalum ganagotazamiwa kpwakpwe. Gungu anaweza kuvwala nguwo maalum zinazoonyesa kukala achikala kpwenye maombolezo, zichimuonyesa wazi dza mchetu ariye kpwenye wakati wa sonono na wa kugaluka. Wajibu wa jamii kpwa gungu unaenjerezeka wakati uhu — analolwa, anatsembererwa, na anaterywa kpwa makini maalum."
+              "text": "Gungu analunga chipindi chirefu cha maombolezo chenye mambo maalum ganagotazamiwa kpwakpwe. Gungu anaweza kuvwala nguwo maalum zinazoonyesa kukala achikala kpwenye maombolezo, zichimuonyesa wazi dza mchetu ariye kpwenye wakati wa sonono na wa kugaluka. Wajibu wa jamii kpwa gungu unaenjerezeka wakati uhu — analolwa, ananyendekerwa, na anaterywa kpwa makini maalum."
             },
             {
               "type": "paragraph",
@@ -9754,11 +9754,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kutsemberera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
+              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kunyendekera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
             },
             {
               "type": "paragraph",
-              "text": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ga mwandzo. Dzina na mahendo ga mufu ganagombwa tsona na tsona na kuishimiwa kpwenye mavoyo ga tambukizo. Nyumba inaenderera kutsembererwa na kuterywa. Kutambukira afwe kpwa jamii kunaenderera, si kpwa makaburi au maandishi ela kpwa neno rinarogombwa — kpwa madzina ganagogombwa tsona na tsona, hadisi zinazogombwa, mavoyo ganagovoywa siku saba, siku mirongo mine, na chila mwaka bada ya hipho."
+              "text": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ga mwandzo. Dzina na mahendo ga mufu ganagombwa tsona na tsona na kuishimiwa kpwenye mavoyo ga tambukizo. Nyumba inaenderera kunyendekerwa na kuterywa. Kutambukira afwe kpwa jamii kunaenderera, si kpwa makaburi au maandishi ela kpwa neno rinarogombwa — kpwa madzina ganagogombwa tsona na tsona, hadisi zinazogombwa, mavoyo ganagovoywa siku saba, siku mirongo mine, na chila mwaka bada ya hipho."
             },
             {
               "type": "heading",
@@ -10171,15 +10171,15 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kutsemberera Rasmi"
+              "text": "Kunyendekera Rasmi"
             },
             {
               "type": "paragraph",
-              "text": "Uchunguzi uchimala na matokeo gachikala manono, atu airi a mbari ya bwana arusi anatsemberera avyazi a msichana \"kuvoya *jiko*\" — kpwa mana ya neno, \"dziko,\" mfwano wa mche na nyumba. Luga yenyewe inafitsua mambo: taavoya msichana ela jiko, dzoho na riziki ambazo mche anareha nyumbani."
+              "text": "Uchunguzi uchimala na matokeo gachikala manono, atu airi a mbari ya bwana arusi ananyendekera avyazi a msichana \"kuvoya *jiko*\" — kpwa mana ya neno, \"dziko,\" mfwano wa mche na nyumba. Luga yenyewe inafitsua mambo: taavoya msichana ela jiko, dzoho na riziki ambazo mche anareha nyumbani."
             },
             {
               "type": "paragraph",
-              "text": "Kutsemberera kuku kpwa kpwandza kunaandzisha mfululizo wa malipo ga kpwandza, ganagokala na madzina na maana zao maalum. *Kifungwa mdomo* — \"kufunga mromo\" — ni malipo ga kpwandza, ishara inayoonyesa nia ya kpweli na kuvugula mazungumzo rasmi. *Kutandika jamvi* — \"kutandika chitanda\" — kunaika nafasi ya mazungumzo, kuumba mazingira rasmi ambamo mbari mbiri zinaweza kujadili masharti. *Kahawa* — \"kahawa\" — ni malipo ga ukarimu, kutambua kukala mbari zinainjira kpwenye uhusiano wa kuishimiana."
+              "text": "Kunyendekera kuku kpwa kpwandza kunaandzisha mfululizo wa malipo ga kpwandza, ganagokala na madzina na maana zao maalum. *Kifungwa mdomo* — \"kufunga mromo\" — ni malipo ga kpwandza, ishara inayoonyesa nia ya kpweli na kuvugula mazungumzo rasmi. *Kutandika jamvi* — \"kutandika chitanda\" — kunaika nafasi ya mazungumzo, kuumba mazingira rasmi ambamo mbari mbiri zinaweza kujadili masharti. *Kahawa* — \"kahawa\" — ni malipo ga ukarimu, kutambua kukala mbari zinainjira kpwenye uhusiano wa kuishimiana."
             },
             {
               "type": "paragraph",
