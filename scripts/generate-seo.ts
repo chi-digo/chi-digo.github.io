@@ -122,6 +122,10 @@ async function main() {
   for (const topic of historyDomain.topics) {
     urls.push(xmlUrl(`/history/${topic.slug}`, 0.7, 'monthly'));
   }
+  const { publishedFigureSlugs } = await import(path.join(ROOT, 'lib/history/figure-articles.ts'));
+  for (const slug of publishedFigureSlugs() as string[]) {
+    urls.push(xmlUrl(`/history/figures/${slug}`, 0.7, 'monthly'));
+  }
 
   // Language section
   urls.push(xmlUrl('/language', 0.8, 'weekly'));
