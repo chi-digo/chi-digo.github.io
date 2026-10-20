@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Wakati:** Wasilimu kabla ya 1880; kala anahenda kazi hadi miaka ya 1910
-**Kazi:** Mmwenga wa Adigo a kpwandza kukala Aislamu, na mchuuzi; chilongozi wa Kaya Shonda; Dzumbe (Headman) wa chikoloni wa lalo ra Likoni; ariyedzenga Msikiti wa Bomani
+**Kazi:** Mmwenga wa Adigo a kpwandza kukala Aislamu, na mchuuzi; chilongozi wa Kaya Shonda; Dzumbe wa chikoloni wa lalo ra Likoni; ariyedzenga Msikiti wa Bomani
 **Phatu:** Likoni, bara ng'ambo ya Mombasa, Kenya ya rero
 
 ---
@@ -20,9 +20,9 @@ Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kul
 
 ## Mchuuzi na Mwislamu Muphya
 
-Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kadzangbwelola, wakati fulani kabla ya 1880" (*while still a young man, before he had married, some time before 1880*). Mdzukuluwe watambukira namna dzambo riro ririvyohendeka:
+Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kadzangbwelola, wakati fulani kabla ya 1880". Mdzukuluwe watambukira namna dzambo riro ririvyohendeka:
 
-> Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka. (*He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.*)
+> Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka.
 
 Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare iko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
 
@@ -36,7 +36,7 @@ Mwaka 1899 Khamis Dzubgwe wadzenga msikiti wa kpwandza wa Likoni, Msikiti wa Riy
 
 ## Tsini ya Utawala wa Aingereza
 
-Sperling anaandika kukala Mwabundu wakala chilongozi wa Kaya Shonda na Dzumbe wa lalo ra Likoni, ela vyanzo virivyohumirwa taviamba ni rini ariphophaha vyeo vivi. Mafaili ga chikoloni ganaonyesa mambo machache zaidi. Mwaka 1913 iye bahi ndiye kala Mdigo wa Likoni ariyekala na Leseni ya Biashara ya Uchi wa Chienyeji (Native Liquor Trading Licence). Serikali iriphoiha atu alavye madai ga aridhi kusini ya Mombasa mwaka 1914, iye kala ni mmwenga wa Adigo mashuhuri ariovoya hati za kumiliki aridhi. Kula Likoni na Mtongwe, atu 96 alavya madai 149.
+Sperling anaandika kukala Mwabundu wakala chilongozi wa Kaya Shonda na Dzumbe wa lalo ra Likoni, ela vyanzo virivyohumirwa taviamba ni rini ariphophaha vyeo vivi. Mafaili ga chikoloni ganaonyesa mambo machache zaidi. Mwaka 1913 iye bahi ndiye kala Mdigo wa Likoni ariyekala na Leseni ya Biashara ya Uchi wa Chienyeji. Serikali iriphoiha atu alavye madai ga aridhi kusini ya Mombasa mwaka 1914, iye kala ni mmwenga wa Adigo mashuhuri ariovoya hati za kumiliki aridhi. Kula Likoni na Mtongwe, atu 96 alavya madai 149.
 
 ## Namna Kumbukumbu Zirivyosala
 

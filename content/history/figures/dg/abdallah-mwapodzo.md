@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Wakati:** Kama 1840–1923
-**Kazi:** Mwanatsi (mzehe mkpwulu) wa sabaa wa Kaya Diani, anayetambukirwa dza Mwislamu wa kpwandza wa Diani kuishi kulengana na dini iyo; ariyedzenga msikiti wa kpwandza wa Diani; Dzumbe (Headman) wa chikoloni wa Diani
+**Kazi:** Mwanatsi (mzehe mkpwulu) wa sabaa wa Kaya Diani, anayetambukirwa dza Mwislamu wa kpwandza wa Diani kuishi kulengana na dini iyo; ariyedzenga msikiti wa kpwandza wa Diani; Dzumbe wa chikoloni wa Diani
 **Phatu:** Ukunda na Diani, Kwale, Kenya ya rero
 
 ---
@@ -22,7 +22,7 @@ Phahi Kivoyero wachiphaha cheo chicho kpwa kurisi, si kpwa kutsambulwa. Wauka Uk
 
 ## Kusilimu Wakati wa Ndzala
 
-Ise kala anaatsemberera achinae Mombasa mara nyinji, na safari izo zamupha barobaro iye nafasi ya kpwandza ya kumanya maisha ga mudzini na Aislamu. Dzambo ririrogaluza maishage rakpwedza na **ndzala ya Mwakisenge ya 1884–85**. Ise na mwana aphiya kukala na achina ao a Chidigo iko **Takaungu**, kazikazini ya Mombasa, ambao kala tayari ni Aislamu. Hiko osi airi agbwirwa ni ndui. Mwakulenje Podzo wafwa. Mwanawe, kpwa maneno ga mzehe mmwenga wa Diani ariyeuzwa maswali mwaka 1967, "waphola achikala Abdallah" (*was cured and became Abdallah*). Ariphouya kpwakpwe kaya bada ya ndzala kala ni Mwislamu, na "kala anagomba Chiswahili" (*was speaking Swahili*), dzambo ambaro wakati uo kala ni alama ya mutu ariyekala anahenda mambo na midzi mara kpwa mara.
+Ise kala anaatsemberera achinae Mombasa mara nyinji, na safari izo zamupha barobaro iye nafasi ya kpwandza ya kumanya maisha ga mudzini na Aislamu. Dzambo ririrogaluza maishage rakpwedza na **ndzala ya Mwakisenge ya 1884–85**. Ise na mwana aphiya kukala na achina ao a Chidigo iko **Takaungu**, kazikazini ya Mombasa, ambao kala tayari ni Aislamu. Hiko osi airi agbwirwa ni ndui. Mwakulenje Podzo wafwa. Mwanawe, kpwa maneno ga mzehe mmwenga wa Diani ariyeuzwa maswali mwaka 1967, "waphola achikala Abdallah". Ariphouya kpwakpwe kaya bada ya ndzala kala ni Mwislamu, na "kala anagomba Chiswahili", dzambo ambaro wakati uo kala ni alama ya mutu ariyekala anahenda mambo na midzi mara kpwa mara.
 
 Inawezekana kukala anjina a Diani asilimu kabla ya iye. Ela ara ariotangulira ama atsama kuphiya Mombasa, ama kala taailunga dini chikpweli. Mwapodzo ndiye wa kpwandza ariyeishi dza Mwislamu chidzidzini, achiamweha anjina amlunge. Kpwa sababu iyo Diani inamtambukira dza Mwislamu wa kpwandza wa Diani.
 
@@ -36,17 +36,17 @@ Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka y
 
 ## Msikiti wa Mwaroni
 
-Kpwa miaka minji Diani kala taina msikiti. Aislamu achache a Diani kala anaphiya Gasi au Tiwi kpwa swala ya Ijumaa, au anaswali ndani ya uchigo mdide wa makandza. Kpwa sikukuu za Idi, alume "dza Abdallah Mwapodzo" (*like Abdallah Mwapodzo*) kala anaphiya Mombasa kpwa magulu. Kala analala njirani iko Pungu kpwa Muhammad Mwaganyuma, mmwenga wa ariotangulira kusilimu iko.
+Kpwa miaka minji Diani kala taina msikiti. Aislamu achache a Diani kala anaphiya Gasi au Tiwi kpwa swala ya Ijumaa, au anaswali ndani ya uchigo mdide wa makandza. Kpwa sikukuu za Idi, alume "dza Abdallah Mwapodzo" kala anaphiya Mombasa kpwa magulu. Kala analala njirani iko Pungu kpwa Muhammad Mwaganyuma, mmwenga wa ariotangulira kusilimu iko.
 
-Kama mwaka **1907**, unji wa Aislamu uriphoenjerezeka, Mwapodzo wadzenga **msikiti wa kpwandza wa Diani, Msikiti wa Mwaroni**, phephi na nyumbaye. Wadzengbwa kpwa ulongo na mihi, na paa ra makuti. Imamu wa kpwandza kala ni Shehe Baimba, mchuuzi Mgunya (Mbajuni) ariyekpwedza kuguza ushanga na vilolo, achiamba andafundza. Bada ya hipho, muwa wa Mwapodzo, **Hamisi Mwaramunda**, waphaha cheo chicho kpwa kutsomana na anjina ariokala analonda cheo icho. Diani kala inautambukira msikiti uo kukala "wa Akinalela" (*of the Akinalela*), fuko ririroandzisha kaya.
+Kama mwaka **1907**, unji wa Aislamu uriphoenjerezeka, Mwapodzo wadzenga **msikiti wa kpwandza wa Diani, Msikiti wa Mwaroni**, phephi na nyumbaye. Wadzengbwa kpwa ulongo na mihi, na paa ra makuti. Imamu wa kpwandza kala ni Shehe Baimba, mchuuzi Mgunya (Mbajuni) ariyekpwedza kuguza ushanga na vilolo, achiamba andafundza. Bada ya hipho, muwa wa Mwapodzo, **Hamisi Mwaramunda**, waphaha cheo chicho kpwa kutsomana na anjina ariokala analonda cheo icho. Diani kala inautambukira msikiti uo kukala "wa Akinalela", fuko ririroandzisha kaya.
 
 Bada ya Viha vya Kpwandza vya Dunia misikiti minji zaidi yadzengbwa: Msikiti wa Mwamambi mwaka 1920 na Msikiti wa Mvumoni mwaka 1922. Kama mwaka 1927 atu a Diani atema vitsaka virivyouzunguluka Msikiti wa kare sana wa Kongo, na mwaka 1932 Shaykh Mwinyikombo wauvugula kpwa maulidi makulu. Kufikira 1920, azehe atsano au zaidi kahi ya kumi na sabaa a ngambi ya Diani kala ni Aislamu.
 
 ## Dzumbe wa Chikoloni
 
-Aingereza amtsambula Mwapodzo kukala **Dzumbe wa Diani**, naye wasagala na cheo icho hadi ariphofwa. Kufikira 1916 ripoti ya chikoloni kala tayari inamuiha "mzehe sana" (*very old*), na kuandika kukala kala akahewa ruhusa ya kuricha kuphiya mikutano ya Baraza. Wafwa mwaka **1923**. Tarehe 10 Julai 1923 Afisa wa Wilaya (District Commissioner), H. E. Lambert, waandika kpwenye shajara ya safarize kukala **Abdallah Mwarandu** kala akatsambulwa kukala Dzumbe badalaye.
+Aingereza amtsambula Mwapodzo kukala **Dzumbe wa Diani**, naye wasagala na cheo icho hadi ariphofwa. Kufikira 1916 ripoti ya chikoloni kala tayari inamuiha "mzehe sana", na kuandika kukala kala akahewa ruhusa ya kuricha kuphiya mikutano ya Baraza. Wafwa mwaka **1923**. Tarehe 10 Julai 1923 Afisa wa Wilaya, H. E. Lambert, waandika kpwenye shajara ya safarize kukala **Abdallah Mwarandu** kala akatsambulwa kukala Dzumbe badalaye.
 
-Phahi maishage ga kazi gaandza na kulongoza kaya kabla ya ukoloni, gachifika hadi utawala wa Aingereza wa kuhumira vilongozi a chienyeji. Sperling waona kukala unji wa Adigo ariokala anasilimu wafika "aina ya chilele mwisho wa miaka ya 1920" (*a kind of crescendo by the end of the 1920s*), kahi ya miaka mifupi bada ya iye kufwa.
+Phahi maishage ga kazi gaandza na kulongoza kaya kabla ya ukoloni, gachifika hadi utawala wa Aingereza wa kuhumira vilongozi a chienyeji. Sperling waona kukala unji wa Adigo ariokala anasilimu wafika "aina ya chilele mwisho wa miaka ya 1920", kahi ya miaka mifupi bada ya iye kufwa.
 
 ## Aandzilishi Anjina a Kare a Uislamu kpwa Adigo
 

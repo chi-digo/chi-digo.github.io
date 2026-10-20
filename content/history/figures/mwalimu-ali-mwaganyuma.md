@@ -14,7 +14,7 @@ His story comes chiefly from the historian David Sperling, who interviewed Mwali
 
 ## A Family of Early Converts
 
-Pungu lay near the ferry to Mombasa and was home to Ngare's market (*chete cha Ngare*), the largest Digo market south of the town, which Baluchi traders frequented.
+Pungu lay near the ferry to Mombasa and was home to Ngare's market, the largest Digo market south of the town, which Baluchi traders frequented.
 
 Ali's grandfather, Ali Ganyuma Mwanrudzu, was the *mwanatsi* of Kaya Similani. A kaya was a Digo fortified settlement governed by a council of elders (*ngambi*), and the mwanatsi ("son of the land") was its senior elder, chosen through the mother's line. He had inherited the post from his maternal uncle. Traders had to ask his permission to do business at Pungu. Through them, and through clan relatives already Muslim at Mtongwe, he became a Muslim, perhaps as early as the 1850s, and took the name Ali. He died in about 1865. He was one of the few converts of his time to raise his children as Muslims, telling them, as his great-great-grandson remembered: "If you don't pray, you don't eat." But there was no school for them, and his eldest son, Muhammad Mwaganyuma, is said to have learned something on his own.
 

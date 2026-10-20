@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Kipindi:** takriban 1840–1923
-**Jukumu:** Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Mkuu wa Lokesheni (Headman) wa kikoloni wa Diani
+**Jukumu:** Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Mkuu wa Lokesheni wa kikoloni wa Diani
 **Eneo:** Ukunda na Diani, Kwale, Kenya ya leo
 
 ---
@@ -22,7 +22,7 @@ Kwa hiyo Kivoyero hakupata cheo hicho kwa kuchaguliwa. Alitoka Ukunda kuja kukir
 
 ## Kuingia Uislamu Wakati wa Njaa
 
-Baba yake mara nyingi aliwatembelea jamaa zake Mombasa, na safari hizo zilimpa kijana mawasiliano yake ya kwanza na maisha ya mjini na Waislamu. Mabadiliko makubwa yalikuja na **njaa ya Mwakisenge ya 1884–85**. Baba na mwana walikwenda kukaa na jamaa zao Adigo huko **Takaungu**, kaskazini ya Mombasa, ambao tayari walikuwa Waislamu. Huko wote wawili walipata ndui. Mwakulenje Podzo alifariki. Mwanawe, kwa maneno ya mzee mmoja wa Diani aliyehojiwa mwaka 1967, "alipona akawa Abdallah" (*was cured and became Abdallah*). Aliporudi nyumbani baada ya njaa alikuwa Mwislamu, na "alikuwa akizungumza Kiswahili" (*was speaking Swahili*), jambo ambalo wakati huo lilimtambulisha mtu aliyekuwa akishughulika na miji mara kwa mara.
+Baba yake mara nyingi aliwatembelea jamaa zake Mombasa, na safari hizo zilimpa kijana mawasiliano yake ya kwanza na maisha ya mjini na Waislamu. Mabadiliko makubwa yalikuja na **njaa ya Mwakisenge ya 1884–85**. Baba na mwana walikwenda kukaa na jamaa zao Adigo huko **Takaungu**, kaskazini ya Mombasa, ambao tayari walikuwa Waislamu. Huko wote wawili walipata ndui. Mwakulenje Podzo alifariki. Mwanawe, kwa maneno ya mzee mmoja wa Diani aliyehojiwa mwaka 1967, "alipona akawa Abdallah". Aliporudi nyumbani baada ya njaa alikuwa Mwislamu, na "alikuwa akizungumza Kiswahili", jambo ambalo wakati huo lilimtambulisha mtu aliyekuwa akishughulika na miji mara kwa mara.
 
 Huenda wengine wa Diani walisilimu kabla yake. Lakini waliosilimu mapema ama walihamia Mombasa ama hawakuifuata dini kwa kiasi kikubwa. Mwapodzo ndiye wa kwanza aliyeishi kama Mwislamu kijijini na kuwavuta wengine wamfuate. Ndiyo sababu Diani inamkumbuka kama Mwislamu wake wa kwanza.
 
@@ -36,17 +36,17 @@ Pia aliifungua Diani kwa ulimwengu mpana wa Kiislamu. Katikati ya miaka ya 1880 
 
 ## Msikiti wa Mwaroni
 
-Kwa miaka mingi Diani haikuwa na msikiti. Waislamu wake wachache walikwenda Gasi au Tiwi kwa sala ya Ijumaa, au walisali ndani ya vizimba vidogo vya makuti. Kwa sikukuu za Idi, wanaume "kama Abdallah Mwapodzo" (*like Abdallah Mwapodzo*) walitembea kwa miguu hadi Mombasa. Walilala njiani Pungu kwa Muhammad Mwaganyuma, mmoja wa waliosilimu mapema huko.
+Kwa miaka mingi Diani haikuwa na msikiti. Waislamu wake wachache walikwenda Gasi au Tiwi kwa sala ya Ijumaa, au walisali ndani ya vizimba vidogo vya makuti. Kwa sikukuu za Idi, wanaume "kama Abdallah Mwapodzo" walitembea kwa miguu hadi Mombasa. Walilala njiani Pungu kwa Muhammad Mwaganyuma, mmoja wa waliosilimu mapema huko.
 
-Karibu mwaka **1907**, idadi ya Waislamu ilipoongezeka, Mwapodzo alijenga **msikiti wa kwanza wa Diani, Msikiti wa Mwaroni**, karibu na nyumbani kwake. Ulijengwa kwa udongo na miti chini ya paa la makuti. Imamu wake wa kwanza alikuwa Shehe Baimba, mfanyabiashara Mgunya (Mbajuni) aliyekuja kuuza shanga na vioo na akajitolea kufundisha. Baadaye mpwa wa Mwapodzo, **Hamisi Mwaramunda**, alishinda nafasi hiyo katika ushindani na wagombea wengine. Diani iliukumbuka msikiti huo kuwa "wa Akinalela" (*of the Akinalela*), ukoo ulioanzisha kaya.
+Karibu mwaka **1907**, idadi ya Waislamu ilipoongezeka, Mwapodzo alijenga **msikiti wa kwanza wa Diani, Msikiti wa Mwaroni**, karibu na nyumbani kwake. Ulijengwa kwa udongo na miti chini ya paa la makuti. Imamu wake wa kwanza alikuwa Shehe Baimba, mfanyabiashara Mgunya (Mbajuni) aliyekuja kuuza shanga na vioo na akajitolea kufundisha. Baadaye mpwa wa Mwapodzo, **Hamisi Mwaramunda**, alishinda nafasi hiyo katika ushindani na wagombea wengine. Diani iliukumbuka msikiti huo kuwa "wa Akinalela", ukoo ulioanzisha kaya.
 
 Baada ya Vita vya Kwanza vya Dunia misikiti zaidi ilifuata: Msikiti wa Mwamambi mwaka 1920 na Msikiti wa Mvumoni mwaka 1922. Karibu mwaka 1927 watu wa Diani walisafisha kichaka kilichouzunguka Msikiti wa kale wa Kongo, na mwaka 1932 Shaykh Mwinyikombo aliufungua kwa maulidi makubwa. Kufikia 1920 angalau watano kati ya wajumbe kumi na saba wa ngambi ya Diani walikuwa Waislamu.
 
 ## Mkuu wa Kikoloni
 
-Waingereza walimteua Mwapodzo kuwa **Mkuu wa Diani**, naye alishikilia cheo hicho hadi kifo chake. Kufikia 1916 ripoti ya kikoloni tayari ilimwita "mzee sana" (*very old*) na ilieleza kwamba alikuwa ameruhusiwa kutohudhuria mikutano ya Baraza. Alifariki mwaka **1923**. Tarehe 10 Julai 1923 Mkuu wa Wilaya, H. E. Lambert, aliandika katika shajara yake ya ziara kwamba **Abdallah Mwarandu** alikuwa amechaguliwa kuwa Mkuu mahali pake.
+Waingereza walimteua Mwapodzo kuwa **Mkuu wa Diani**, naye alishikilia cheo hicho hadi kifo chake. Kufikia 1916 ripoti ya kikoloni tayari ilimwita "mzee sana" na ilieleza kwamba alikuwa ameruhusiwa kutohudhuria mikutano ya Baraza. Alifariki mwaka **1923**. Tarehe 10 Julai 1923 Mkuu wa Wilaya, H. E. Lambert, aliandika katika shajara yake ya ziara kwamba **Abdallah Mwarandu** alikuwa amechaguliwa kuwa Mkuu mahali pake.
 
-Kwa hiyo maisha yake ya kazi yalianzia katika uongozi wa kaya kabla ya ukoloni hadi utawala usio wa moja kwa moja wa Waingereza. Sperling aligundua kwamba kusilimu kwa Adigo kulifikia "aina ya kilele kufikia mwisho wa miaka ya 1920" (*a kind of crescendo by the end of the 1920s*), katika miaka iliyofuata kifo chake.
+Kwa hiyo maisha yake ya kazi yalianzia katika uongozi wa kaya kabla ya ukoloni hadi utawala usio wa moja kwa moja wa Waingereza. Sperling aligundua kwamba kusilimu kwa Adigo kulifikia "aina ya kilele kufikia mwisho wa miaka ya 1920", katika miaka iliyofuata kifo chake.
 
 ## Waanzilishi Wengine wa Mwanzo wa Uislamu kwa Adigo
 

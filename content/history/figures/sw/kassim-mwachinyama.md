@@ -8,7 +8,7 @@
 
 ---
 
-Katika miaka ya 1920 vijiji vilivyo nyuma ya Tiwi vilibadilika haraka. Misikiti ilijengwa mmoja baada ya mwingine, na kwa mara ya kwanza mingi yake iliongozwa na maimamu Wadigo waliofundishwa karibu na nyumbani. Mwanahistoria David Sperling aliipa mabadiliko haya kichwa chake mwenyewe katika tasnifu yake: "Maimamu wa Kwanza wa Kidigo" (*"The First Digo Imams"*). Jina la kwanza chini ya kichwa hicho ni Kassim Mwachinyama wa Chigato.
+Katika miaka ya 1920 vijiji vilivyo nyuma ya Tiwi vilibadilika haraka. Misikiti ilijengwa mmoja baada ya mwingine, na kwa mara ya kwanza mingi yake iliongozwa na maimamu Wadigo waliofundishwa karibu na nyumbani. Mwanahistoria David Sperling aliipa mabadiliko haya kichwa chake mwenyewe katika tasnifu yake: "Maimamu wa Kwanza wa Kidigo". Jina la kwanza chini ya kichwa hicho ni Kassim Mwachinyama wa Chigato.
 
 Tunachokijua kumhusu kinatoka katika aya chache za kazi ya Sperling. Sperling aliziandika kutokana na mahojiano aliyorekodi Chigato, Chigongoni na Vuga mwaka 1985 na 1986. Makala haya yanafuata kwa karibu masimulizi hayo.
 
@@ -16,19 +16,19 @@ Tunachokijua kumhusu kinatoka katika aya chache za kazi ya Sperling. Sperling al
 
 Uislamu ulikuwa ukikua katika eneo la Tiwi kwa kizazi kizima kabla ya Kassim. Karibu mwaka 1894 mwalimu aitwaye Juma Matungale, ambaye mama yake alikuwa Mdigo kutoka Kitsanga, alihamia Tiwi. Msikiti wa Mkoyo ulijengwa huko karibu mwaka 1898, na Matungale akawa Imamu wake wa kwanza. Kufikia mwaka 1916, kwa mujibu wa masimulizi ya mdomo, zaidi ya nusu ya wazee wa *ngambi* ya Tiwi, yaani baraza la wazee la kijiji, walikuwa Waislamu.
 
-Ndani zaidi, karibu na Chigato na Vuga, walimu walikuwa bado wachache. Hali hiyo ilibadilika alipofika Salimini bin Simba, Myao kutoka kusini mwa Tanzania aliyekuja Kenya akiwa askari kabla ya Vita vya Kwanza vya Dunia. Alimwoa mwanamke wa familia moja ya Vuga na akaishi huko. Mwaka 1915 Mkuu wa Wilaya alimkuta "Mswahili (aliyekuwa askari wa KAR)" (*"a Swahili (ex KAR)"*) akiishi Vuga bila ruhusa, akamwamuru aondoke. Sperling anadhani huyo alikuwa Salimini. Mwaka huo Salimini alihamia Chigongoni, akawa Imamu wa Msikiti wa Mabatani, na akafungua chuo cha Qurani. Sperling anamwita "mwalimu wa kwanza katika eneo la Chigato" (*"the first teacher in the Chigato area"*). Karibu mwaka 1922 alisaidia kujenga Msikiti wa Makunguni huko Chigongoni na akawa Imamu wake wa kwanza.
+Ndani zaidi, karibu na Chigato na Vuga, walimu walikuwa bado wachache. Hali hiyo ilibadilika alipofika Salimini bin Simba, Myao kutoka kusini mwa Tanzania aliyekuja Kenya akiwa askari kabla ya Vita vya Kwanza vya Dunia. Alimwoa mwanamke wa familia moja ya Vuga na akaishi huko. Mwaka 1915 Mkuu wa Wilaya alimkuta "Mswahili (aliyekuwa askari wa KAR)" akiishi Vuga bila ruhusa, akamwamuru aondoke. Sperling anadhani huyo alikuwa Salimini. Mwaka huo Salimini alihamia Chigongoni, akawa Imamu wa Msikiti wa Mabatani, na akafungua chuo cha Qurani. Sperling anamwita "mwalimu wa kwanza katika eneo la Chigato". Karibu mwaka 1922 alisaidia kujenga Msikiti wa Makunguni huko Chigongoni na akawa Imamu wake wa kwanza.
 
 ## Mwanafunzi wa Salimini
 
 Kassim Mwachinyama alikuwa mmoja wa wanafunzi wa mwanzo wa Salimini. Kaka yake mkubwa, Hamisi Mwachinyama, alikuwa mkuu wa kijiji cha Chigato.
 
-Salimini hakuwafundisha wanafunzi wake kusoma Qurani tu. Sperling anaandika kwamba alijua "nafasi muhimu ambayo wanafunzi wake wangekuwa nayo katika vijiji vyao" (*"the important role his students would play in their home villages"*), na akawafunza baadhi yao kuongoza swala. Inasemekana Kassim alijizoeza kutoa hutuba ya Ijumaa katika Msikiti wa Makunguni chini ya uongozi wa Salimini. Mwalimu wa Qurani wa aina hii huitwa *mwalimu*, na hatua ya kutoka mwanafunzi hadi mwalimu hadi imamu ndiyo njia aliyoifuata Kassim.
+Salimini hakuwafundisha wanafunzi wake kusoma Qurani tu. Sperling anaandika kwamba alijua "nafasi muhimu ambayo wanafunzi wake wangekuwa nayo katika vijiji vyao", na akawafunza baadhi yao kuongoza swala. Inasemekana Kassim alijizoeza kutoa hutuba ya Ijumaa katika Msikiti wa Makunguni chini ya uongozi wa Salimini. Mwalimu wa Qurani wa aina hii huitwa *mwalimu*, na hatua ya kutoka mwanafunzi hadi mwalimu hadi imamu ndiyo njia aliyoifuata Kassim.
 
 ## Msikiti wa Chigato, 1924
 
 Mwaka 1924, Kassim alipokuwa karibu kumaliza masomo yake, Hamisi aliamua kujenga msikiti Chigato ili ndugu yake awe Imamu wake wa kwanza.
 
-Huu ulikuwa mtindo katika eneo hilo. Sperling anaeleza "ushindani wa kirafiki kati ya vijiji vilivyojivunia 'mwana msomi' waliyetaka kumheshimu kwa kumjengea msikiti" (*"a friendly rivalry between villages that boasted an 'educated son' whom they sought to honour by building a mosque"*). Msikiti wa Mwamabanda (1926), Msikiti wa Mkunguni (1928) na Msikiti wa Chai (1929) yote ilijengwa kwa ajili ya vijana waliokuwa wamemaliza masomo yao punde. Kufikia mwaka 1930 kulikuwa na misikiti minane katika eneo la Tiwi, na saba kati yake ilikuwa na maimamu Wadigo.
+Huu ulikuwa mtindo katika eneo hilo. Sperling anaeleza "ushindani wa kirafiki kati ya vijiji vilivyojivunia 'mwana msomi' waliyetaka kumheshimu kwa kumjengea msikiti". Msikiti wa Mwamabanda (1926), Msikiti wa Mkunguni (1928) na Msikiti wa Chai (1929) yote ilijengwa kwa ajili ya vijana waliokuwa wamemaliza masomo yao punde. Kufikia mwaka 1930 kulikuwa na misikiti minane katika eneo la Tiwi, na saba kati yake ilikuwa na maimamu Wadigo.
 
 ## Mwalimu wa Vuga
 
@@ -40,7 +40,7 @@ Tsufu, mkuu wa kijiji cha Vuga aliyekuwa Mwislamu na aliyeongoza ujenzi wa msiki
 
 Yote yaliyotajwa hapo juu yanategemea tasnifu ya Sperling, ambayo inatumia masimulizi ya watu wachache tu. Hakuna faili la kikoloni lililokaguliwa linalomtaja Kassim. Hatujui alizaliwa lini au alifariki lini, alihudumu kama Imamu kwa muda gani, wala kama alikuwa na watoto walioendeleza kazi yake.
 
-Mpangilio wa matukio pia haulingani. Sperling anaweka mwaka wa Msikiti wa Chigato kuwa 1924, wakati ambapo Kassim alikuwa "karibu kumaliza" (*"about to finish"*) masomo yake. Hata hivyo anasema pia kwamba Tsufu alimhamishia Kassim Vuga "muda mfupi baada ya Vita vya Kwanza vya Dunia" (*"shortly after the first World War"*), na kwamba watoto wa Vuga walikuwa tayari wakisoma kwake kabla Msikiti wa Vuga haujajengwa karibu mwaka 1922. Yote mawili hayawezi kuwa sahihi kabisa. Huenda Kassim alikuwa akifundisha wanafunzi wadogo huku bado akimaliza masomo yake mwenyewe, lakini vyanzo havisemi hivyo.
+Mpangilio wa matukio pia haulingani. Sperling anaweka mwaka wa Msikiti wa Chigato kuwa 1924, wakati ambapo Kassim alikuwa "karibu kumaliza" masomo yake. Hata hivyo anasema pia kwamba Tsufu alimhamishia Kassim Vuga "muda mfupi baada ya Vita vya Kwanza vya Dunia", na kwamba watoto wa Vuga walikuwa tayari wakisoma kwake kabla Msikiti wa Vuga haujajengwa karibu mwaka 1922. Yote mawili hayawezi kuwa sahihi kabisa. Huenda Kassim alikuwa akifundisha wanafunzi wadogo huku bado akimaliza masomo yake mwenyewe, lakini vyanzo havisemi hivyo.
 
 Neno "wa kwanza" nalo linahitaji tahadhari. Kichwa cha Sperling kinahusu eneo la Tiwi na Chigato. Kwingineko maimamu Wadigo walitangulia: Mwalimu Ali bin Muhammad Mwaganyuma alikuwa Imamu wa kwanza wa Msikiti wa Pungu katika miaka ya 1890.
 

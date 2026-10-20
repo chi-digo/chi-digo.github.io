@@ -3,16 +3,16 @@
 ## Muhtasari
 
 **Wakati:** Kabla ya ukoloni (tarehe taimanyikana)
-**Kazi:** Mtawala (*mtawala*) anayetambukirwa dza mpiga uha, mgbwanga na mtabiri
+**Kazi:** Mtawala anayetambukirwa dza mpiga uha, mgbwanga na mtabiri
 **Phatu:** Tanga, Tanzania ya rero
 
 ---
 
-Kahi za Adigo a pwani ya Tanga, chilongozi mmwenga wa kare anatambukirwa kpwa dzinare: Bandilo. Adisi fupi ya Chiswahili ya historia ya Adigo, inayosemurirwa tsona kpwenye tovuti na mitandao ya chijamii ya Tanzania, inamueleza dza mtawala (*mtawala*) ariyephaha hishimaye kpwa ufundiwe wa uha, ujuziwe wa tiba na uwezowe wa kutabiri mambo. Chila chitu hunachoweza kugomba kumhusu chinakula kpwa adisi hiyo mwenga, phahi makala hino taiuka kure na manenoge.
+Kahi za Adigo a pwani ya Tanga, chilongozi mmwenga wa kare anatambukirwa kpwa dzinare: Bandilo. Adisi fupi ya Chiswahili ya historia ya Adigo, inayosemurirwa tsona kpwenye tovuti na mitandao ya chijamii ya Tanzania, inamueleza dza mtawala ariyephaha hishimaye kpwa ufundiwe wa uha, ujuziwe wa tiba na uwezowe wa kutabiri mambo. Chila chitu hunachoweza kugomba kumhusu chinakula kpwa adisi hiyo mwenga, phahi makala hino taiuka kure na manenoge.
 
 ## Mpiga Uha na Mgbwanga
 
-Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni *hodari katika matumizi ya mishale*, fundi wa kuhumira mivi. Piya kala ana *utaalamu wa dawa za asili*, ujuzi wa tiba ya chienyeji, na kala anaweza *kutabiri matukio mbalimbali*, kutabiri mambo ga chila aina.
+Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni fundi wa kuhumira mivi. Piya kala ana ujuzi wa tiba ya chienyeji, na kala anaweza kutabiri mambo ga chila aina.
 
 Ufundi wa uha unalingana na mambo garigoonwa ni ajeni kahi za tsi ya Adigo a Tanga. Oscar Baumann, mwanajiografia Mjerumani, wasafiri kahi za tsi hiyo mwaka 1890. Waona kukala hata kpwenye vidzidzi virivyokala saa chache tu kula pwani, chila mlume kala anatsukula uha na mivi ya mridza yenye ntsa za chuma za ndoano, na kukala bunduchi kala ni adimu. Chilongozi ariyetogolwa kpwa uha kala anatogolwa kpwa ufundi ambao atue kala anauluphira kpwa kudzirinda.
 
@@ -20,13 +20,13 @@ Kuphoza akongo na kutabiri kala ni mambo ganagohusiana. Kpwa Adigo, dza kpwa Ami
 
 ## Chilongozi Ariyehendzwa ni Anjina
 
-Kulengana na adisi, Bandilo kala anaishimiwa hata ni atu ambao si atue: *"Kazi ya utabiri na utabibu ilisababisha mtawala huyo kuheshimiwa pia na watawala wa makabila mengine ambao walifika kwake kufanya utabiri na kutafuta suluhu za matatizo mbalimbali yanayohitaji maamuzi magumu."* Kaziye ya kutabiri na kuphoza yamphaha hishima ya atawala a makabila ganjina, ambao kala anakpwedza kpwakpwe kutabiriwa na kuhendza njira za kumala mashaka ganagolonda maamuzi magumu.
+Kulengana na adisi, Bandilo kala anaishimiwa hata ni atu ambao si atue. Adisi inagomba kukala kaziye ya kutabiri na kuphoza yamphaha hishima hata ya atawala a makabila ganjina, ambao kala anakpwedza kpwakpwe kutabiriwa na kuhendza njira za kumala mashaka ganagolonda maamuzi magumu.
 
 Adisi taigomba ni makabila gani. Adigo a Tanga kala anaishi phamwenga na Abondei, Asegeju na Ashambaa, na Baumann anaandika kondo na viha na makabila gosi mahahu. Kahi za viha hivyo, mara nyinji Adigo kala anashinda Abondei, ela mara nyinji kala anashindwa ni Asegeju na ni Ashambaa ariolongozwa ni Hungura. Mapokeo ga Abondei ganatambukira viha na Adigo, viha vya Milonge, ambavyo mwanahistoria mmwenga wa Tanzania anavikadiria kukala vya mwisho wa karne ya 17 au mwandzo wa karne ya 18. Mtabiri ariyekuluphirwa ni atawala a jirani angekala muhimu sana kahi za seemu yenye kondo nyinji dza hino, ela vyanzo tavihuambira ni atawala ani ariokpwedza kpwa Bandilo, wala ni rini.
 
 ## Siku ya Amani
 
-Adisi hiyo hiyo inaeleza mila ya kuvoya amani. Inagomba kukala, ili kutiya nguvu amani kahi za jamii, mtawala wao "ariyemanyikana dza Bandiwe" watenga *siku maalumu* kpwa *tambiko*, yani sadaka na mavoyo ga kuvoya amani na baraka. Siku hiyo wavwala nguwo za hishima na achilongoza mavoyo, chisha kuchikala na sherehe kulu. Atu ahutana achitsukula majembe na mafumo, chisha achirya, achinwa na kufwiha kpwa ngoma.
+Adisi hiyo hiyo inaeleza mila ya kuvoya amani. Inagomba kukala, ili kutiya nguvu amani kahi za jamii, mtawala wao "ariyemanyikana dza Bandiwe" watenga siku maalumu kpwa *tambiko*, yani sadaka na mavoyo ga kuvoya amani na baraka. Siku hiyo wavwala nguwo za hishima na achilongoza mavoyo, chisha kuchikala na sherehe kulu. Atu ahutana achitsukula majembe na mafumo, chisha achirya, achinwa na kufwiha kpwa ngoma.
 
 Hipha dzina rinaandikpwa *Bandiwe*, si *Bandilo*. Inaonekana ni chilongozi yuyo yuyo kpwa dzina ranjina, au kpwa dzina ririroandikpwa kpwa kukosa, ela adisi taigomba hivyo. Adisi piya taieleza mana ya majembe na mafumo. Gago kala ni vifaa vya chila siku vya chirimo na vya kudzirinda, virivyotsukulwa kpwenye sherehe ya kuvoya amani na baraka.
 
