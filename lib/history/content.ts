@@ -391,11 +391,11 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya ph'wani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za ph'wani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya ph'wani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuliko midzi ya mawe ya ph'wani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
+            "text": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya ph'wani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za ph'wani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya ph'wani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuriko midzi ya mawe ya ph'wani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
           },
           {
             "type": "paragraph",
-            "text": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga kare hivyo, ama uhamisho uritokea mapema zaidi kuliko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
+            "text": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga kare hivyo, ama uhamisho uritokea mapema zaidi kuriko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
           },
           {
             "type": "heading",
@@ -435,7 +435,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya kare. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuliko na idadi ya atu inayofika kula phatu phanjina."
+            "text": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya kare. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuriko na idadi ya atu inayofika kula phatu phanjina."
           },
           {
             "type": "heading",

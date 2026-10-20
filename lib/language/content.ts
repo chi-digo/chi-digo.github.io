@@ -1094,7 +1094,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "**Haki, utawala, na ulongozi.** Ndarira kuhusu sifa za ulongozi mzuri."
+            "text": "**Haki, utawala, na uongozi.** Ndarira kuhusu sifa za uongozi mzuri."
           },
           {
             "type": "heading",

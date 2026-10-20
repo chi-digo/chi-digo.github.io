@@ -46,7 +46,7 @@ Neno "wa kpwandza" piya rinalondwa kulolwa kpwa makini. Seemu ya Sperling inagom
 
 ## Urisiwe
 
-Tahumanya maandiko gogosi ariyogaricha Kassim Mwachinyama. Ela waricha njira. Kala ni mmwenga wa barobaro a kpwandza a kanda ya nyuma ya Tiwi kufundzwa phephi na kaya, chisha kulongoza atu a chidzidziche swala. Kpwa njira ya anafundzie a Chigato na Vuga, mafundzo ga Kuruani gaenea hadi phatu ambapho kala takuna. Msikiti wa Chigato, ambao mvyerewe wamdzengera mwaka 1924, unaonyesa wakati Adigo a kanda iyo ariphoandza kuhala ulongozi wa misikiti yao.
+Tahumanya maandiko gogosi ariyogaricha Kassim Mwachinyama. Ela waricha njira. Kala ni mmwenga wa barobaro a kpwandza a kanda ya nyuma ya Tiwi kufundzwa phephi na kaya, chisha kulongoza atu a chidzidziche swala. Kpwa njira ya anafundzie a Chigato na Vuga, mafundzo ga Kuruani gaenea hadi phatu ambapho kala takuna. Msikiti wa Chigato, ambao mvyerewe wamdzengera mwaka 1924, unaonyesa wakati Adigo a kanda iyo ariphoandza kuhala uongozi wa misikiti yao.
 
 ## Vyanzo
 
