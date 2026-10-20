@@ -47,6 +47,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         data={breadcrumbJsonLd([
           { name: 'Home', href: '/' },
           { name: 'History', href: '/history' },
+          { name: 'Notable Figures', href: '/history/figures' },
           { name: figure.name, href: `/history/figures/${slug}` },
         ], locale as Locale)}
       />

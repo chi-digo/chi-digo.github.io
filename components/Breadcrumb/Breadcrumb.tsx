@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { pathnameWithoutLocale, localePath } from '@/lib/i18n/locale-path';
 import { getDomain, getTopic } from '@/lib/culture/content';
 import { getHistoryTopic, historyDomain } from '@/lib/history/content';
+import { figures } from '@/lib/history/figures';
 import { getLanguageTopic } from '@/lib/language/content';
 import { getTheme } from '@/lib/proverbs/themes';
 import { getPlantTheme } from '@/lib/plants/themes';
@@ -81,7 +82,16 @@ export function Breadcrumb() {
       href: segments.length > 1 ? lp('/history') : undefined,
     });
 
-    if (segments[1]) {
+    if (segments[1] === 'figures') {
+      items.push({
+        label: t.history.figures_heading,
+        href: segments[2] ? lp('/history/figures') : undefined,
+      });
+      if (segments[2]) {
+        const figure = figures.find((f) => f.slug === segments[2]);
+        if (figure) items.push({ label: figure.name });
+      }
+    } else if (segments[1]) {
       const result = getHistoryTopic(segments[1]);
       if (result) {
         items.push({ label: result.topic.title[locale] });
