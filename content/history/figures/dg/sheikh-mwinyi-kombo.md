@@ -42,7 +42,7 @@ Shaykh Mwinyikombo wafwa tarehe 5 Safar 1353 AH, ambayo ni **20 Mei 1934**. Atu 
 
 ## Mapokeo ga Ndoso
 
-Rero adisi inayosemurirwa msikitini ni tafwauti. Muimirizi wa msikiti na naibu imamu, Sheikh Hamisi Suleiman, akaambira aandishi a habari kukala Mwinyi Kombo walagizwa ndosoni kuhendza msikiti kanda-kanda ya pwani ya Diani, na achiphaha nyumba ya kare kuko Kongo, "iriyokala ikakala makalo ga nundu". Adisi zinazomanyikana ni atu anji mara nyinji nkuenjereza kukala dzambo hiri rahendeka chiasi cha miaka magana mahahu iriyotsupa. Gaga ni mapokeo ganagoenderera kusemurirwa ni jamii ya msikiti. Tagaphahikana kahi za ushahidi ambao Sperling waurekodi mwaka 1987 kula kpwa atu ariommanya Mwinyikombo. Ripoti ya chikoloni ya 1914 piya inaonyesa kukala nyumba hiyo kala inamanyikana kare sana kabla ya kufufulwa. "Miaka magana mahahu" hiyo inawezekana inakula kpwa umri wa nyumba kuunganishwa na adisi ya msikiti kufufulwa.
+Rero adisi inayosemurirwa msikitini ni tafwauti. Muimirizi wa msikiti na naibu imamu, Sheikh Hamisi Suleiman, akaambira aandishi a habari kukala Mwinyi Kombo walagizwa ndosoni kuhendza msikiti kanda-kanda ya pwani ya Diani, na achiphaha nyumba ya kare kuko Kongo, "iriyokala ikakala makalo ga nundu". Adisi zinazomanyikana ni atu anji mara nyinji nkuenjereza kukala dzambo hiri rahendeka chiasi cha miaka magana mahahu iriyotsupa. Iga ni mapokeo ganagoenderera kusemurirwa ni jamii ya msikiti. Tagaphahikana kahi za ushahidi ambao Sperling waurekodi mwaka 1987 kula kpwa atu ariommanya Mwinyikombo. Ripoti ya chikoloni ya 1914 piya inaonyesa kukala nyumba hiyo kala inamanyikana kare sana kabla ya kufufulwa. "Miaka magana mahahu" hiyo inawezekana inakula kpwa umri wa nyumba kuunganishwa na adisi ya msikiti kufufulwa.
 
 ## Msikiti Rero
 
@@ -52,7 +52,7 @@ Serikali ya chikoloni yaorodhesha "Ruins at Diani" (Magofu ga Diani) dza mnara w
 
 ## Phatu pha Mwinyi Kombo Kahi za Historia ya Adigo
 
-Sheikh Mwinyi Kombo kala ni msomi Mswahili kula Mombasa, si Mdigo. Adisiye ichere ni seemu ya historia ya Adigo, kpwa sababu ariohenda kazi ya kuufufula msikiti kala ni Adigo. Azehe a Diani akubali hojaye na achiricha phatu pha kuasira. Atu a chidzidzi atema vitsaka. Aislamu a Chidigo aodzaza msikiti kahi za maulidi ga 1932, achihala maulidi achiphiya nago vidzidzi vyao, na achitambukira gaga gosi vinono hadi achiweza kumsemurira mwanahistoria miaka hamsini badaye. Kufufulwa kpwa Kongo kunaonyesa wakati ambapho Uislamu wa Diani, uriokala ukakula pore-pore kpwa njira ya achuuzi, asena na misikiti michache ya vidzidzi, waphaha phatu pha kukusanyikira phamwenga, na shereheye ya hadhara.
+Sheikh Mwinyi Kombo kala ni msomi Mswahili kula Mombasa, si Mdigo. Adisiye ichere ni seemu ya historia ya Adigo, kpwa sababu ariohenda kazi ya kuufufula msikiti kala ni Adigo. Azehe a Diani akubali hojaye na achiricha phatu pha kuasira. Atu a chidzidzi atema vitsaka. Aislamu a Chidigo aodzaza msikiti kahi za maulidi ga 1932, achihala maulidi achiphiya nago vidzidzi vyao, na achitambukira iga gosi vinono hadi achiweza kumsemurira mwanahistoria miaka hamsini badaye. Kufufulwa kpwa Kongo kunaonyesa wakati ambapho Uislamu wa Diani, uriokala ukakula pore-pore kpwa njira ya achuuzi, asena na misikiti michache ya vidzidzi, waphaha phatu pha kukusanyikira phamwenga, na shereheye ya hadhara.
 
 ## Vyanzo
 
