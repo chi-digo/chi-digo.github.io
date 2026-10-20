@@ -31,23 +31,63 @@ export const figures: Figure[] = [
     },
   },
   {
-    slug: 'sheikh-mwinyi-kombo',
-    name: 'Sheikh Mwinyi Kombo',
+    slug: 'kubo-mwamzungu',
+    name: "Kubo Mbogo Mwamzungu",
     era: {
-      en: 'Died 1934',
-      sw: 'Alifariki 1934',
-      dg: 'Wafwa 1934',
+      en: "c. 1800",
+      sw: "Karibu 1800",
+      dg: "Kama mwaka 1800",
     },
     role: {
-      en: 'Imam who revived the Kongo Mosque',
-      sw: 'Imamu aliyefufua Msikiti wa Kongo',
-      dg: 'Imamu ariyefufula Msikiti wa Kongo',
+      en: "Founder of the Kubo rulership",
+      sw: "Mwanzilishi wa utawala wa Kubo",
+      dg: "Mwandzishi wa utawala wa Kubo",
     },
-    region: 'Mombasa and Diani, Kenya',
+    region: "Chikoneni, Kenya",
     summary: {
-      en: 'A Swahili imam from Mombasa who, in 1927, persuaded the Diani elders that the ruin in the forest was a mosque, not a spirit shrine. The villagers cleared it together, and he reopened the Kongo Mosque with a maulid in 1932.',
-      sw: 'Imamu wa Kiswahili kutoka Mombasa ambaye, mwaka 1927, aliwashawishi wazee wa Diani kwamba gofu lililokuwa msituni lilikuwa msikiti, si mahali pa pepo. Wanakijiji waliusafisha pamoja, naye akaufungua tena Msikiti wa Kongo kwa maulidi mwaka 1932.',
-      dg: 'Imamu wa Chiswahili kula Mombasa ambaye, mwaka 1927, waashawishi azehe a Diani kukala gofu riro tsakani kala ni msikiti, si phatu pha pepho. Atu a mudzi ausafisha phamwenga, naye achiufungula tsena Msikiti wa Kongo kpwa maulidi mwaka 1932.',
+      en: "A rain-maker who came south from Kwale in a famine and was accepted as leader after he “brought rain”. He founded the Kubo rulership of the southern Digo at Kaya Dzombo.",
+      sw: "Mganga wa mvua aliyekuja kusini kutoka Kwale wakati wa njaa na akakubaliwa kuwa kiongozi baada ya “kuleta mvua”. Alianzisha utawala wa Kubo wa Wadigo wa kusini huko Kaya Dzombo.",
+      dg: "Mganga wa mvula ariyekpwedza kusini kula Kwale wakati wa ndzala, achikubalika kukala chiongozi bada ya “kureha mvula”. Waandzisha utawala wa Kubo wa Adigo a kusini kuko Kaya Dzombo.",
+    },
+  },
+  {
+    slug: 'kubo-mangaru',
+    name: "Kubo Mangaru Mwajita",
+    era: {
+      en: "Ruled c. 1865–1894",
+      sw: "Alitawala takriban 1865–1894",
+      dg: "Watawala kama 1865–1894",
+    },
+    role: {
+      en: "Kubo of the southern Digo",
+      sw: "Kubo wa Wadigo wa kusini",
+      dg: "Kubo wa Adigo a kusini",
+    },
+    region: "Chikoneni, Kenya",
+    summary: {
+      en: "When Mbaruk of Gasi’s raids laid waste the south coast, he was the one Digo ruler strong enough to resist. He dealt with the Mazrui, the Sultan of Zanzibar and the Imperial British East Africa Company.",
+      sw: "Mashambulizi ya Mbaruk wa Gasi yalipoharibu pwani ya kusini, yeye ndiye mtawala pekee wa Kidigo aliyekuwa na nguvu za kumpinga. Alishughulika na Wamazrui, Sultani wa Zanzibar na Kampuni ya Kiingereza ya Afrika Mashariki.",
+      dg: "Mbaruk wa Gasi achivamia pwani ya kusini, iye ndiye ariyekala mtawala wa pekee wa Chidigo mwenye nguvu za kumpinga. Wahenda mambo na Amazrui, Sultani wa Zanzibar na Kampuni ya Aingereza ya Afrika ya Mashariki.",
+    },
+  },
+  {
+    slug: 'salim-mwabundu',
+    name: "Salim Mwabundu",
+    era: {
+      en: "Late 1800s",
+      sw: "Mwishoni mwa miaka ya 1800",
+      dg: "Mwisho wa miaka ya 1800",
+    },
+    role: {
+      en: "Leader of Kaya Shonda, Headman of Likoni",
+      sw: "Kiongozi wa Kaya Shonda, Mkuu wa Likoni",
+      dg: "Chiongozi wa Kaya Shonda, Mkulu wa Likoni",
+    },
+    region: "Likoni, Kenya",
+    summary: {
+      en: "One of the first Digo Muslims around Likoni. He started as a small trader at Pungu market, led Kaya Shonda and became Headman of Likoni under British rule.",
+      sw: "Mmoja wa Wadigo Waislamu wa kwanza karibu na Likoni. Alianza kama mfanyabiashara mdogo katika soko la Pungu, akaongoza Kaya Shonda na kuwa Mkuu wa Likoni chini ya utawala wa Waingereza.",
+      dg: "Mmwenga wa Adigo Aislamu a kpwandza phephi na Likoni. Waandza dza mfanyabiashara mdide kpwenye soko ra Pungu, achilongoza Kaya Shonda na kukala Mkulu wa Likoni tsini ya utawala wa Aingereza.",
     },
   },
   {
@@ -68,6 +108,106 @@ export const figures: Figure[] = [
       en: 'The 7th mwanatsi (senior elder) of Kaya Diani. He became a Muslim during the famine of 1884–85 and kept leading the kaya’s rain rituals. Around 1907 he built Diani’s first mosque, at Mwaroni.',
       sw: 'Mwanatsi (mzee mkuu) wa 7 wa Kaya Diani. Alisilimu wakati wa njaa ya 1884–85 na akaendelea kuongoza matambiko ya mvua ya kaya. Karibu mwaka 1907 alijenga msikiti wa kwanza wa Diani, huko Mwaroni.',
       dg: 'Mwanatsi (mzehe mkulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, kuko Mwaroni.',
+    },
+  },
+  {
+    slug: 'mwalimu-ali-mwaganyuma',
+    name: "Mwalimu Ali Mwaganyuma",
+    era: {
+      en: "1880s–1890s",
+      sw: "Miaka ya 1880–1890",
+      dg: "Miaka ya 1880–1890",
+    },
+    role: {
+      en: "Teacher, first Imam of Pungu",
+      sw: "Mwalimu, Imamu wa kwanza wa Pungu",
+      dg: "Mwalimu, Imamu wa kpwandza wa Pungu",
+    },
+    region: "Pungu, Kenya",
+    summary: {
+      en: "Sent away as a boy during the famine of 1884–85, he came home with Islamic learning. Jeered at Pungu market, he kept teaching, and became the first Imam of Pungu’s Tuliani Mosque.",
+      sw: "Alipelekwa mbali akiwa mtoto wakati wa njaa ya 1884–85, akarudi na elimu ya Kiislamu. Alizomewa katika soko la Pungu lakini akaendelea kufundisha, akawa Imamu wa kwanza wa Msikiti wa Tuliani wa Pungu.",
+      dg: "Wahumwa kure achere mwana wakati wa ndzala ya 1884–85, achiuya na elimu ya Chiislamu. Wazomewa kpwenye soko ra Pungu ela achienderera kufundza, achikala Imamu wa kpwandza wa Msikiti wa Tuliani wa Pungu.",
+    },
+  },
+  {
+    slug: 'muhammad-masemo',
+    name: "Muhammad Masemo",
+    era: {
+      en: "1920s",
+      sw: "Miaka ya 1920",
+      dg: "Miaka ya 1920",
+    },
+    role: {
+      en: "President of the Digo Central Council",
+      sw: "Rais wa Baraza Kuu la Wadigo",
+      dg: "Rais wa Baraza Kulu ra Adigo",
+    },
+    region: "Chikoneni, Kenya",
+    summary: {
+      en: "Trader and Headman of Chikoneni, he built its first mosque around 1906 and led the Digo Central Council in the 1920s. A 1923 report called him one of the most energetic Presidents in the District.",
+      sw: "Mfanyabiashara na Mkuu wa Chikoneni, alijenga msikiti wa kwanza huko karibu mwaka 1906 na akaongoza Baraza Kuu la Wadigo miaka ya 1920. Ripoti ya 1923 ilimwita mmoja wa marais wenye bidii zaidi wilayani.",
+      dg: "Mfanyabiashara na Mkulu wa Chikoneni, wadzenga msikiti wa kpwandza kuko kama mwaka 1906 na achilongoza Baraza Kulu ra Adigo miaka ya 1920. Ripoti ya 1923 yamuiha mmwenga wa marais enye bidii zaidi wilayani.",
+    },
+  },
+  {
+    slug: 'kassim-mwachinyama',
+    name: "Kassim Mwachinyama",
+    era: {
+      en: "1924",
+      sw: "1924",
+      dg: "1924",
+    },
+    role: {
+      en: "One of the first Digo imams",
+      sw: "Mmoja wa maimamu wa kwanza Wadigo",
+      dg: "Mmwenga wa maimamu a kpwandza Adigo",
+    },
+    region: "Chigato, Kenya",
+    summary: {
+      en: "Around Tiwi, mosques had long been led by imams from outside the community. In 1924 Chigato built a mosque for him to lead, and children from Vuga came to learn at his school.",
+      sw: "Huko Tiwi, misikiti iliongozwa kwa muda mrefu na maimamu kutoka nje ya jamii. Mwaka 1924 Chigato ilijenga msikiti ili yeye auongoze, na watoto kutoka Vuga walikuja kusoma katika chuo chake.",
+      dg: "Kuko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 Chigato yadzenga msikiti ili iye aulongoze, na ana kula Vuga akpwedza kusoma kpwenye chuoche.",
+    },
+  },
+  {
+    slug: 'sheikh-mwinyi-kombo',
+    name: 'Sheikh Mwinyi Kombo',
+    era: {
+      en: 'Died 1934',
+      sw: 'Alifariki 1934',
+      dg: 'Wafwa 1934',
+    },
+    role: {
+      en: 'Imam who revived the Kongo Mosque',
+      sw: 'Imamu aliyefufua Msikiti wa Kongo',
+      dg: 'Imamu ariyefufula Msikiti wa Kongo',
+    },
+    region: 'Mombasa and Diani, Kenya',
+    summary: {
+      en: 'A Swahili imam from Mombasa who, in 1927, persuaded the Diani elders that the ruin in the forest was a mosque, not a spirit shrine. The villagers cleared it together, and he reopened the Kongo Mosque with a maulid in 1932.',
+      sw: 'Imamu wa Kiswahili kutoka Mombasa ambaye, mwaka 1927, aliwashawishi wazee wa Diani kwamba gofu lililokuwa msituni lilikuwa msikiti, si mahali pa pepo. Wanakijiji waliusafisha pamoja, naye akaufungua tena Msikiti wa Kongo kwa maulidi mwaka 1932.',
+      dg: 'Imamu wa Chiswahili kula Mombasa ambaye, mwaka 1927, waashawishi azehe a Diani kukala gofu riro tsakani kala ni msikiti, si phatu pha pepho. Atu a mudzi ausafisha phamwenga, naye achiufungula tsena Msikiti wa Kongo kpwa maulidi mwaka 1932.',
+    },
+  },
+  {
+    slug: 'abdalla-mnyenze',
+    name: "Mzee Abdalla Ali Mnyenze",
+    era: {
+      en: "Died 2021",
+      sw: "Alifariki 2021",
+      dg: "Wafwa 2021",
+    },
+    role: {
+      en: "Guardian of Kaya Chinondo",
+      sw: "Mlinzi wa Kaya Chinondo",
+      dg: "Mrindi wa Kaya Chinondo",
+    },
+    region: "Chinondo, Kenya",
+    summary: {
+      en: "An elder of Kaya Chinondo and chair of the Kwale Kaya Elders, he spoke for the sacred forests as hotels and development pressed in. Kwale mourned him as a champion of kaya conservation.",
+      sw: "Mzee wa Kaya Chinondo na mwenyekiti wa Wazee wa Kaya wa Kwale, aliitetea misitu mitakatifu huku hoteli na maendeleo yakiisonga. Kwale ilimwomboleza kama shujaa wa uhifadhi wa makaya.",
+      dg: "Mzehe wa Kaya Chinondo na mwenyekiti wa Azehe a Kaya a Kwale, waitetea misitu mitakatifu wakati hoteli na maendeleo gachiisonga. Kwale yamririra dza shujaa wa uhifadhi wa makaya.",
     },
   },
 ];
