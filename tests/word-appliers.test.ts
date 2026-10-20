@@ -149,3 +149,36 @@ describe('dictionary overlay merge', () => {
     expect(mergeLetter('a', structuredClone(data), [ex])).toEqual(structuredClone(data));
   });
 });
+
+describe('review-panel fixes', () => {
+  it('locks what a dictionary change points at', async () => {
+    const { lockedFieldsChanged } = await import('@/lib/contributions/review');
+    const p = { sense_id: '1', lang: 'en', mode: 'add_sense', text: 'x' };
+    expect(lockedFieldsChanged('definition_update', p, { ...p, text: 'y' })).toBe(false);
+    expect(lockedFieldsChanged('definition_update', p, { ...p, mode: 'replace' })).toBe(true);
+    expect(lockedFieldsChanged('definition_update', p, { ...p, lang: 'sw' })).toBe(true);
+    expect(lockedFieldsChanged('example_sentence', { sense_id: '1', dg: 'a' }, { sense_id: '2', dg: 'a' })).toBe(true);
+  });
+
+  it('refuses a replace with no base instead of overwriting', () => {
+    const e = fixture();
+    const c = change({ type: 'definition_update', final_payload: { sense_id: '1', lang: 'en', text: 'x', mode: 'replace' }, base: null });
+    expect(() => applyWord(e, c)).toThrow(ConflictError);
+  });
+
+  it('needs a headword that sorts into a letter file', () => {
+    for (const h of ['ásubuhi', "'mba"]) expect(PAYLOADS.word_addition.safeParse({ headword: h, meaning_en: 'x' }).success).toBe(false);
+  });
+
+  it('gives a folded homonym its index', () => {
+    const c = change({ type: 'word_addition', final_payload: { headword: 'kala', meaning_en: 'x' } });
+    expect(wordAdditionEntry(c, 'kala.4').homonym_index).toBe(4);
+    expect(wordAdditionEntry(c, 'kalax').homonym_index).toBeNull();
+  });
+
+  it('shows unknown types nothing in the overlay', async () => {
+    const { publicPayload } = await import('@/lib/contributions/overlay');
+    expect(publicPayload('entry_flag', { reason: 'offensive', detail: 'x' })).toEqual({});
+    expect(publicPayload('definition_update', { sense_id: '1', lang: 'en', mode: 'replace', text: 't', reason: 'secret' })).toEqual({ sense_id: '1', lang: 'en', mode: 'replace', text: 't' });
+  });
+});

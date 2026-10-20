@@ -41,8 +41,12 @@ const DIGO_WORD = new RegExp(`^-?${DIGO_L}(?:[- ]${DIGO_L})*-?$`);
 const UNSAFE_WORD = /[\\]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/;
 export function isDigoWord(s: string): boolean {
   const t = s.normalize('NFC').replace(/’/g, "'");
-  return t.length <= 40 && DIGO_WORD.test(t.toLowerCase());
+  // It must also start with a plain letter, so it sorts into a letter file (not á…, not ').
+  return t.length <= 40 && DIGO_WORD.test(t.toLowerCase()) && /^-?[a-z]/.test(t.toLowerCase());
 }
+
+/** Dictionary ids: a sort key with an optional .N (spec 34 §15.3; tone accents and spaces occur, e.g. mwanáo). */
+export const WORD_ID = /^[a-z' áéíóú_-]+(\.\d{1,3})?$/;
 const digoWord = safeText(40)
   .transform((s) => s.normalize('NFC').replace(/’/g, "'"))
   // __test__ is the automated tests' new word; the API lets only test accounts use it.

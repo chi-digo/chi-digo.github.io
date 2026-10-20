@@ -113,10 +113,12 @@ export async function generateMetadata({
         locale: loc,
       });
     }
+    // Not in the shipped data (unknown, or a community word not folded in yet): keep it out of search (spec 34 §15.3).
     return buildMetadata({
       title: `${headword} — Chidigo Dictionary`,
       path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
       locale: loc,
+      noindex: true,
     });
   }
 

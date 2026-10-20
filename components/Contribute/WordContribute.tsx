@@ -8,6 +8,7 @@ import type { DictionaryEntry } from '@/lib/dictionary/types';
 import type { WordEntry } from '@/lib/contributions/apply/words';
 import { refreshWordOverlay } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
+import { WORD_ID } from '@/lib/contributions/schemas';
 import { SuggestionsPanel, type PublicSuggestion } from './SuggestionsPanel';
 import { CreditLine } from './Credits';
 import { DefinitionForm, ExampleForm, FlagForm, VariantForm } from './WordForms';
@@ -85,6 +86,11 @@ export function VariantsLine({ entry }: { entry: DictionaryEntry }) {
       {entry.variants.some((v) => v.c) && <CreditLine ids={entry.variants.flatMap((v) => (v.c ? [v.c] : []))} />}
     </div>
   );
+}
+
+/** Whether an entry can take suggestions: provisional new words (flags only) and well-formed ids. */
+export function canSuggest(entry: DictionaryEntry): boolean {
+  return !!(entry as WordEntry).provisional || WORD_ID.test(entry.id);
 }
 
 /** "Improve this definition", under one sense. */

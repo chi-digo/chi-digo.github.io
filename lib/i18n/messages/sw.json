@@ -837,6 +837,9 @@
     "notif_second_review_notarget": "“{summary}” linahitaji mkaguzi wa pili."
   },
   "review": {
+    "err_locked_fields": "Unaweza kurekebisha maandishi, lakini si maana, lugha au aina ya mabadiliko.",
+    "err_note_required": "Eleza kwenye maelezo jinsi lilivyoshughulikiwa.",
+    "err_has_dependants": "Mabadiliko mengine yanategemea neno hili jipya. Yarudishe kwanza:",
     "overdue": "Zaidi ya saa 48",
     "resolve": "Imeshughulikiwa (eleza jinsi kwenye maelezo)",
     "err_not_acceptable": "Ripoti na maoni haviwezi kuchapishwa. Vishughulikie au vikatae.",

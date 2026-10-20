@@ -15,7 +15,7 @@ import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import type { WordEntry } from '@/lib/contributions/apply/words';
-import { useWordForms, NewWordNote, VariantsLine, ImproveLink, WordSuggest } from '@/components/Contribute/WordContribute';
+import { useWordForms, NewWordNote, VariantsLine, ImproveLink, WordSuggest, canSuggest } from '@/components/Contribute/WordContribute';
 import { NewWordForm } from '@/components/Contribute/WordForms';
 import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
 import { takeResumeIntent } from '@/lib/contributions/client';
@@ -326,10 +326,16 @@ function EntrySection({
   entry,
   isHomonym,
   nav,
+  position,
+  contributions = 'all',
 }: {
   entry: DictionaryEntry;
   isHomonym: boolean;
   nav: Navigate;
+  /** 1-based place among the homonyms, shown when the entry has no homonym index. */
+  position?: number;
+  /** 'flag_only' keeps just "Something's wrong" (phrasebook and other reuse, product spec §5). */
+  contributions?: 'all' | 'flag_only';
 }) {
   const t = useTranslations();
   const { locale } = useLocale();
@@ -341,7 +347,7 @@ function EntrySection({
       <NewWordNote entry={entry} />
       {isHomonym && (
         <div className={styles.homonymLabel}>
-          <span className={styles.homonymIndex}>{entry.homonym_index}</span>
+          <span className={styles.homonymIndex}>{entry.homonym_index ?? position}</span>
           <span className={styles.entryPos}>
             {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
           </span>
@@ -404,7 +410,7 @@ function EntrySection({
             <CreditLine ids={provenance[`senses.${sense.sense_id}.definition_${locale}`].map((e) => e.c)} />
           )}
           {sense.examples.some((ex) => ex.c) && <CreditLine ids={sense.examples.flatMap((ex) => (ex.c ? [ex.c] : []))} />}
-          {!entry.is_redirect && !(entry as WordEntry).provisional && (
+          {!entry.is_redirect && !(entry as WordEntry).provisional && contributions === 'all' && canSuggest(entry) && (
             <ImproveLink onClick={() => open({ kind: 'definition', sense: sense.sense_id })} />
           )}
           {sense.synonyms_dg.length > 0 && (
@@ -472,7 +478,7 @@ function EntrySection({
         </div>
       )}
 
-      {!entry.is_redirect && <WordSuggest entry={entry} open={open} panelKey={panelKey} />}
+      {!entry.is_redirect && canSuggest(entry) && <WordSuggest entry={entry} open={open} panelKey={panelKey} contributions={contributions} />}
       {forms}
     </div>
   );
@@ -508,7 +514,7 @@ function AddWordCta({ headword }: { headword: string }) {
   );
 }
 
-function WordView({ headword, nav, query }: { headword: string; nav: Navigate; query?: string }) {
+function WordView({ headword, nav, query, contributions = 'all' }: { headword: string; nav: Navigate; query?: string; contributions?: 'all' | 'flag_only' }) {
   const t = useTranslations();
   const { locale } = useLocale();
   // Results are kept with the headword they belong to, so a new headword reads
@@ -616,11 +622,11 @@ function WordView({ headword, nav, query }: { headword: string; nav: Navigate; q
           </header>
 
           {mainEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} nav={nav} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={isHomonym} nav={nav} position={mainEntries.indexOf(entry) + 1} contributions={contributions} />
           ))}
 
           {redirectEntries.map((entry) => (
-            <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} />
+            <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} contributions={contributions} />
           ))}
         </article>
         </CreditsProvider>
