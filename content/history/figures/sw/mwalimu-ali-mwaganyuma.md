@@ -26,7 +26,7 @@ Wakati wa njaa ya Mwakisenge ya 1884–85, Muhammad alimpeleka mwanawe Ali kukaa
 
 Aliporudi nyumbani, Ali alikwenda na baba yake katika soko la Ngare na kuhubiri Uislamu huko. Kwa maneno ya Sperling, "watu walipinga kwa uhasama ('alizomewa na kunyamazishwa kwa kelele') lakini jambo hilo halionekani kumkatisha tamaa". Aliendelea kuhubiri, akaanza kuwafundisha watoto wa Wadigo waliosilimu, na akajulikana kama Mwalimu Ali. Watu pia walimjia kutibiwa, naye alizunguka akiwatibu.
 
-Katika miaka ya 1890 baba yake na Hamisi Mwapodzo walijenga misikiti ya kwanza ya Pungu, yaani Msikiti wa Tuliani wa Pungu na Msikiti wa Kingwede. Mwalimu Ali akawa Imamu wa kwanza wa Msikiti wa Pungu. Mwanafunzi wake Saidi bin Hamisi Mwapodzo baadaye alijenga msikiti wa kwanza wa Matuga. Sperling anaeleza kwamba Saidi, tofauti na "mwalimu wake Mwalimu Ali", hakuzilaani mila za Wadigo bali alijiunga katika ngoma za Kidigo ili akubalike.
+Katika miaka ya 1890 baba yake na Hamisi Mwapodzo walijenga misikiti ya kwanza ya Pungu, yaani Msikiti wa Tuliani wa Pungu na Msikiti wa Chingbwede. Mwalimu Ali akawa Imamu wa kwanza wa Msikiti wa Pungu. Mwanafunzi wake Saidi bin Hamisi Mwapodzo baadaye alijenga msikiti wa kwanza wa Matuga. Sperling anaeleza kwamba Saidi, tofauti na "mwalimu wake Mwalimu Ali", hakuzilaani mila za Wadigo bali alijiunga katika ngoma za Kidigo ili akubalike.
 
 Mwalimu Ali pia alikuwa mfanyabiashara. Orodha ya wafanyabiashara wa Pungu ya mwaka 1913 ina jina la "Ali bin Mohamed anayeuza kaniki na vitambaa vya Kimarekani", pengine yeye mwenyewe, na mjukuu wake alisema alifanya biashara ya mpira. Mwaka 1914–15 yeye na baba yake walikuwa miongoni mwa viongozi wa Kidigo walioomba hati za ardhi.
 

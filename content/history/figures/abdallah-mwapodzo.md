@@ -55,7 +55,7 @@ Mwapodzo was part of a wider generation. Sperling's research also records:
 - **Hamisi Mwapodzo of Pungu.** He is a different man with a similar name. He became Muslim around 1870 and, with Muhammad Mwaganyuma, built the first Pungu mosques in the 1890s.
 - **Muhammad Mwaganyuma of Pungu**, son of Ali Ganyuma, who was already a Muslim by 1855. Muhammad's son **Mwalimu Ali** studied at Mtanganyiko and became the first Imam of the Pungu Mosque and a teacher of converts' children.
 - **Mwinyihaji wa Bwika**, senior elder of Tiwi, died 1913. Elders in other villages remembered him as the man who began inheritance according to Islamic law among the Digo.
-- **Omari Mwakikweza**, son of Mwanaphyori Kikweza, an early convert from Diani who moved to Mombasa. Omari came to be regarded as head of the Digo Muslims there.
+- **Omari Mwakikweza**, son of Mwanaphyori Chikpweza, an early convert from Diani who moved to Mombasa. Omari came to be regarded as head of the Digo Muslims there.
 - **Sulayman Abdallah Mwakuaza**, Imam of the Mkunguni Mosque at Tiwi. As far as is known, he was the first Digo, and the first Mijikenda, to make the pilgrimage to Mecca. He was seen landing at Jidda but never returned home.
 
 ## Legacy
