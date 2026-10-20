@@ -196,6 +196,7 @@ export interface Messages {
     timeline_heading: string;
     figures_heading: string;
     figure_sources: string;
+    figure_scene_credit: string;
     topics_heading: string;
     back_to_history: string;
   };

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { existsSync } from 'fs';
+import { join } from 'path';
 import { FigureArticle } from '@/components/FigureArticle/FigureArticle';
 import { figures } from '@/lib/history/figures';
 import { loadFigureArticles, publishedFigureSlugs } from '@/lib/history/figure-articles';
@@ -28,6 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
+/** Pencil scene impression for the hero, if one exists (public/images/hero/figures-<slug>.webp). */
+function sceneFor(slug: string) {
+  const file = `/images/hero/figures-${slug}.webp`;
+  return existsSync(join(process.cwd(), 'public', file)) ? file : undefined;
+}
+
 export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   const figure = figures.find((x) => x.slug === slug);
@@ -42,7 +50,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           { name: figure.name, href: `/history/figures/${slug}` },
         ], locale as Locale)}
       />
-      <FigureArticle figure={figure} articles={articles} />
+      <FigureArticle figure={figure} articles={articles} scene={sceneFor(slug)} />
     </>
   );
 }
