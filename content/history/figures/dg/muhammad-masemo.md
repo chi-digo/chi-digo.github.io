@@ -8,7 +8,7 @@
 
 ---
 
-Kpwa sehemu kulu ya karne ya kumi na tisa, Chikoneni, iriyo kama maili arubaini kusini mwa Mombasa, kala i kure sana na midzi ya Chiislamu ya pwani. Kufikira miaka ya 1920 kala ina misikiti na vyuo vya Kuruani, na mutu mkpwulu kuko kala ni mchuuzi Mwislamu ambaye maafisa a Chingereza amuiha "mmwenga wa marais enye bidii na akili kuriko osi kpwenye Wilaya" (*"one of the most energetic and intelligent Presidents in the District"*). Mutu hiye kala ni Muhammad Masemo.
+Kpwa sehemu kulu ya karne ya kumi na tisa, Chikoneni, iriyo kama maili arubaini kusini mwa Mombasa, kala i kure sana na midzi ya Chiislamu ya pwani. Kufikira miaka ya 1920 kala ina misikiti na vyuo vya Kuruani, na mutu mkpwulu iko kala ni mchuuzi Mwislamu ambaye maafisa a Chingereza amuiha "mmwenga wa marais enye bidii na akili kuriko osi kpwenye Wilaya" (*"one of the most energetic and intelligent Presidents in the District"*). Mutu hiye kala ni Muhammad Masemo.
 
 Habarize zinaphahikana kpwa mambo ambago mwanawe, Omari Muhammad Masemo, wagatambukira, ambaye mwanahistoria David Sperling wamuuza maswali mwaka 1975 na 1976, na kpwa mafaili ga chikoloni ambago Sperling wagaphaha kpwenye Hifadhi ya Taifa ya Kenya (Kenya National Archives). Makala ihi inalunga maelezo ga Sperling.
 
@@ -34,7 +34,7 @@ Kama mwaka 1906 Masemo wadzenga Msikiti wa Mophe kpwakpwe kaya, msikiti wa kpwan
 
 Aingereza kala anatawala Adigo kpwa kuhumira mabaraza ga azehe, garigodzengbwa dzulu ya *ngambi* ya kare, baraza ra azehe ririrokala rinalongoza mambo ga chila kaya na vidzidzivye. Bada ya 1916 Masemo kala, kpwa maneno ga Sperling, "chilongozi wa kpweli wa lalo ra Chikoneni" (*"the real leader of Chikoneni location"*). Afisa wa Wilaya (District Commissioner) waandika mwaka 1920 kukala baraza ra Chikoneni "kpwa dzina ri photsi ya Fundi Mwabege wa Mrima, ambaye ni mzehe, na kazi ya kpweli inahendwa ni Mohammed Mwamasemo" (*"nominally under Fundi Mwabege of Mrima, who is old, and the active work devolves on Mohammed Mwamasemo"*).
 
-Mwabege ariphofwa mwaka 1920, Masemo wakala Dzumbe wa Chikoneni na Rais wa Baraza Kulu ra Adigo. Ripoti ya kukabidhiana kazi ya Novemba 1923 yalavya uamuzi uriogombwa dzulu. Januari 1924 iye kala ni mmwenga wa azehe airi a Chidigo arioalikpwa kutsemberera meli za viha za Aingereza kuko Mombasa.
+Mwabege ariphofwa mwaka 1920, Masemo wakala Dzumbe wa Chikoneni na Rais wa Baraza Kulu ra Adigo. Ripoti ya kukabidhiana kazi ya Novemba 1923 yalavya uamuzi uriogombwa dzulu. Januari 1924 iye kala ni mmwenga wa azehe airi a Chidigo arioalikpwa kutsemberera meli za viha za Aingereza iko Mombasa.
 
 Dzambo kulu ra wakati hinyo kala ni urisi. Mila za Chidigo kala zinatsapiza mali kpwa uphande wa mayo, ela shariya ya Chiislamu inatsapiza mali kula kpwa baba hadi kpwa mwana. Mwaka 1924 Afisa wa Wilaya wauza azehe maoni gao, achiripoti kukala azehe airi kpwa chila ahahu kala analonda mabadiliko. Tarehe 9 Agosti 1924 "wamuuza maswali Mohamed Mwasemo wa Chikoneni na achigomba naye kuhusu kubadilishwa kpwa [shariya ya] urisi" (*"interviewed Mohamed Mwasemo of Chikoneni and discussed the change of inheritance [law]"*). Shajara inaandika kukala "Mohamed anakaribisha mabadiliko" (*"Mohamed welcomes the change"*). Mwaka 1928 Koti ya Rufaa yaamuwa, kpwa kesi kula Pungu, kukala shariya ya Chiislamu ndiyo inayohumirwa, na mali ya ariyefwa yatsapa kula kpwa baba hadi kpwa mwana.
 

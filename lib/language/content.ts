@@ -251,7 +251,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Kupotea kuku si huzuni ya chikale tu. Chila hadithi inahala maarifa maalumu: vira vya kusoma maimbi, mimea iphi ni dawa, vira vya kuishi na akwe, mambo ambago akare arigogathaminiya. Vikao vya usimulizi wa hadithi vya usiku vinaphotsukizwa ni televisheni, maarifa gaga tagahamiya kpwenye njira nyiphya. Ganapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa mwiri, kuchangamana na asirikizadzi — taiweza kuigwa kpwenye maandishi. Inaweza kuhifadhiwa tu kpwa kurekodi, na kpwa kuumba mazingira maphya ambamo hadithi za Chidigo zinasimulwa, zinasikiwa, na zinathaminiwa."
+            "text": "Kupotea kuku si huzuni ya chikale tu. Chila hadithi inahala maarifa maalumu: vira vya kusoma maimbi, mimea iphi ni dawa, vira vya kuishi na akwe, mambo ambago akare arigogathaminiya. Vikao vya usimulizi wa hadithi vya usiku vinaphotsukizwa ni televisheni, maarifa iga tagahamiya kpwenye njira nyiphya. Ganapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa mwiri, kuchangamana na asirikizadzi — taiweza kuigwa kpwenye maandishi. Inaweza kuhifadhiwa tu kpwa kurekodi, na kpwa kuumba mazingira maphya ambamo hadithi za Chidigo zinasimulwa, zinasikiwa, na zinathaminiwa."
           },
           {
             "type": "paragraph",
@@ -456,7 +456,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa gaga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
+            "text": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa iga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
           }
         ]
       }
@@ -1552,7 +1552,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Makusanyo gaga ganaandza kuziba pengo kahi ya mapokeo ga simulizi na ga maandishi, ela ganashughulika misemo kukala vielelezo vya kukusanywa badala ya vipengele vya moyo vya utamaduni wa chifasihi. Hathwa inayolunga — na ihi ndiyo programu ya uzalishaji wa chitamaduni ya Chidigo inavyotazamiya — ni kuumba mazingira ambamo misemo inaonekana si kpwenye kamusi ela kpwenye hadithi, si kpwenye maelezo ga chitaaluma ela kpwenye mashairi, si kukala vielelezo virivyohifadhiwa ela kukala vipengele vya moyo vya fasihi ya Chidigo iriyoandikwa ambayo bado taipo."
+            "text": "Makusanyo iga ganaandza kuziba pengo kahi ya mapokeo ga simulizi na ga maandishi, ela ganashughulika misemo kukala vielelezo vya kukusanywa badala ya vipengele vya moyo vya utamaduni wa chifasihi. Hathwa inayolunga — na ihi ndiyo programu ya uzalishaji wa chitamaduni ya Chidigo inavyotazamiya — ni kuumba mazingira ambamo misemo inaonekana si kpwenye kamusi ela kpwenye hadithi, si kpwenye maelezo ga chitaaluma ela kpwenye mashairi, si kukala vielelezo virivyohifadhiwa ela kukala vipengele vya moyo vya fasihi ya Chidigo iriyoandikwa ambayo bado taipo."
           },
           {
             "type": "heading",

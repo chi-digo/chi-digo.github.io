@@ -5,6 +5,7 @@
 }
 
 .subtitle {
+  color: var(--color-kaya-deep);
   font-family: var(--font-display, serif);
   font-style: italic;
   font-size: 1.25rem;
@@ -12,6 +13,7 @@
 }
 
 .sources {
+  color: var(--color-vigango-black);
   margin-top: var(--space-10, 40px);
   padding-top: var(--space-6, 24px);
   border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.12));
@@ -26,6 +28,7 @@
 }
 
 .sourcesHeading {
+  color: var(--color-kaya-deep);
   font-size: 1rem;
   margin-bottom: var(--space-3, 12px);
 }

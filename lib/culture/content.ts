@@ -1595,7 +1595,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Aislamu a mageuzi analaani mazoezi gaga bila shaka dza *shirk* — dambi isiyoweza kusamehewa ya kumshirikisha Mulungu na anjina. Kulavya sadaka ya nyama kpwa roho au kpwa mkare badala ya kpwa Allah ni, kpwa vira ao anavyosoma, kuvunza msingi wa *tawhid*. Atu a chimila anajibu kukala sadaka si ibada ya roho ela ni njira ya kugomba nazo — sadaka inayodumisha uhusiano kahi ya ario moyo na asioonekana. Roho si milungu; ni nguvu ambazo ni lazima ziimiririwe, na sadaka ni teknolojia ya kuziimirira."
+              "text": "Aislamu a mageuzi analaani mazoezi iga bila shaka dza *shirk* — dambi isiyoweza kusamehewa ya kumshirikisha Mulungu na anjina. Kulavya sadaka ya nyama kpwa roho au kpwa mkare badala ya kpwa Allah ni, kpwa vira ao anavyosoma, kuvunza msingi wa *tawhid*. Atu a chimila anajibu kukala sadaka si ibada ya roho ela ni njira ya kugomba nazo — sadaka inayodumisha uhusiano kahi ya ario moyo na asioonekana. Roho si milungu; ni nguvu ambazo ni lazima ziimiririwe, na sadaka ni teknolojia ya kuziimirira."
             },
             {
               "type": "paragraph",
@@ -1916,7 +1916,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili kuko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu kuko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
+              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili iko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu iko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
             },
             {
               "type": "paragraph",
@@ -1996,7 +1996,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS kuko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
+              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS iko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
             },
             {
               "type": "heading",
@@ -3249,7 +3249,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Namuna chivoti inavyotengezwa inaonyesa vira Adigo anavyotundza urembo wa vyombo. Ahendi anapamba firimbi zao na shanga, achizifunga kuzunguluka mwiri wa chombo kpwa mifumo ambayo ni ya mapambo na ya mutu mwenye — mapambo ga chila muhendi ni ga chipekee, ganaonyesa kukala chombo ni kazi ya mkpwono wa fundi maalumu. Mapambo gaga taganagaluza sauti; ganagaluza mana. Chivoti iriyopambwa inatangaza kukala ariyeitengeza na ariye anaipiga anachiona chombo kpwa uzito, na anaona chinastahili utundzaji uwo-uwo dza chitu chochosi chanjina cha umuhimu wa chisomo."
+              "text": "Namuna chivoti inavyotengezwa inaonyesa vira Adigo anavyotundza urembo wa vyombo. Ahendi anapamba firimbi zao na shanga, achizifunga kuzunguluka mwiri wa chombo kpwa mifumo ambayo ni ya mapambo na ya mutu mwenye — mapambo ga chila muhendi ni ga chipekee, ganaonyesa kukala chombo ni kazi ya mkpwono wa fundi maalumu. Mapambo iga taganagaluza sauti; ganagaluza mana. Chivoti iriyopambwa inatangaza kukala ariyeitengeza na ariye anaipiga anachiona chombo kpwa uzito, na anaona chinastahili utundzaji uwo-uwo dza chitu chochosi chanjina cha umuhimu wa chisomo."
             },
             {
               "type": "heading",
@@ -4369,7 +4369,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mchuzi wa nazi si chakurya chimwenga bahi ela ni njira, chiolezo chinachoweza kutsukula phephi protini au mboga yoyosi ambayo mjiti anayo. Musingi taugaluka: vitunguu na chitunguu saumu nkulainishwa kpwa mafuha, nyanya nkuenjerezwa na kujitwa, viungo nkutiywa — kpwa kawaida mandano, jira, giligilani, na pilipili — chisha huwi nkumiminwa ili kuumba mtsuzi. Kahi ya madzi gaga genye harufu nono na rangi ya zahabu nkutiywa chiungo chikulu: ng'onda, kuku, nyama ya ng'ombe, viazi, mchicha, maharagbwe, au mtsanganyiko wowosi wa vitu hivi."
+              "text": "Mchuzi wa nazi si chakurya chimwenga bahi ela ni njira, chiolezo chinachoweza kutsukula phephi protini au mboga yoyosi ambayo mjiti anayo. Musingi taugaluka: vitunguu na chitunguu saumu nkulainishwa kpwa mafuha, nyanya nkuenjerezwa na kujitwa, viungo nkutiywa — kpwa kawaida mandano, jira, giligilani, na pilipili — chisha huwi nkumiminwa ili kuumba mtsuzi. Kahi ya madzi iga genye harufu nono na rangi ya zahabu nkutiywa chiungo chikulu: ng'onda, kuku, nyama ya ng'ombe, viazi, mchicha, maharagbwe, au mtsanganyiko wowosi wa vitu hivi."
             },
             {
               "type": "paragraph",
@@ -5173,7 +5173,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Nyereru piya inaonekana kpwa hanga na kpwa kutsupa kpwa chiroho. Sanda nyereru ambayo ariofwa nkufungwa nayo inaunganisha rangi ihi na kutsupa kula maisha gaga hadi ganjina. Kpwa kaya, nyereru inatsukula uzito wa hishima kpwa akare — rangi inayofwaha kpwa kuphiya phephi na phatu pha utakatifu ambapho historia ya jamii inaphohifadhiwa. Mana mbiri za nyereru — rangi ya mwandzo na ya mwisho, ya kuvyalwa na ya kufwa kpwa wakati mmwenga — zinaonyesa vira Adigo anavyoelewa kukala mambo higa ganagoonekana kukala ni chinyume, kpwa kpweli ni pande mbiri za kutsupa kukulu kumwenga. Maisha ganaandza kpwa usafi, na tumaini ni kukala ganamala kpwa hali iyo-iyo."
+              "text": "Nyereru piya inaonekana kpwa hanga na kpwa kutsupa kpwa chiroho. Sanda nyereru ambayo ariofwa nkufungwa nayo inaunganisha rangi ihi na kutsupa kula maisha iga hadi ganjina. Kpwa kaya, nyereru inatsukula uzito wa hishima kpwa akare — rangi inayofwaha kpwa kuphiya phephi na phatu pha utakatifu ambapho historia ya jamii inaphohifadhiwa. Mana mbiri za nyereru — rangi ya mwandzo na ya mwisho, ya kuvyalwa na ya kufwa kpwa wakati mmwenga — zinaonyesa vira Adigo anavyoelewa kukala mambo higa ganagoonekana kukala ni chinyume, kpwa kpweli ni pande mbiri za kutsupa kukulu kumwenga. Maisha ganaandza kpwa usafi, na tumaini ni kukala ganamala kpwa hali iyo-iyo."
             },
             {
               "type": "heading",
@@ -5518,7 +5518,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Warshaye kuko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ichiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayohenda kazi, na uwezowe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, uchitafsiriwa vinono, una samani ya soko. Maagizo ga chimataifa ganagophiya Dubai na Marekani ganathibitisha kukala samani hino inaenderera kure zaidi ya utsi wa phephi."
+              "text": "Warshaye iko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ichiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayohenda kazi, na uwezowe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, uchitafsiriwa vinono, una samani ya soko. Maagizo ga chimataifa ganagophiya Dubai na Marekani ganathibitisha kukala samani hino inaenderera kure zaidi ya utsi wa phephi."
             },
             {
               "type": "heading",
@@ -6188,7 +6188,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Desturi ya kuenjereza maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji kuko Mombasa na Unguja agundua kukala maandishi gaenjereza mauzo kpwa unji. Achetu alonda nguwo zirizogomba chitu — zirizoapha sauti ambayo anaweza kuivwala. Mila iyo yadzikita kpwa upesi wa ajabu na hadi rero ina nguvu zizo-zizo. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Mashariki, mkusanyiko unaoenderera kubadilika wa ndarira, misemo, na maoni makali ganagoonyesa wasiwasi, samani, na akili ya achetu anaogula na kuvwala nguwo hizi."
+              "text": "Desturi ya kuenjereza maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji iko Mombasa na Unguja agundua kukala maandishi gaenjereza mauzo kpwa unji. Achetu alonda nguwo zirizogomba chitu — zirizoapha sauti ambayo anaweza kuivwala. Mila iyo yadzikita kpwa upesi wa ajabu na hadi rero ina nguvu zizo-zizo. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Mashariki, mkusanyiko unaoenderera kubadilika wa ndarira, misemo, na maoni makali ganagoonyesa wasiwasi, samani, na akili ya achetu anaogula na kuvwala nguwo hizi."
             },
             {
               "type": "paragraph",
@@ -7056,7 +7056,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kahi ya Adigo, kudzenga kpwa masanoo takuyafikira chiwango cha nyumba za mudzi mkpwulu wa Chiswahili. Jamii za Adigo kala ni za chirimo, si za biashara; kala taana utajiri wa kukusanyika wala sababu ya chijamii ya kudzenga nyumba za mawe za gorofa. Ela masanoo gahumirwa kpwa madzengo ganjina ga pwani — kuta za mpaka, misingi, na wakati wanjina kuta za misikiti au madzengo ganjina ga jamii. Madzengo gaga ganaonyesa kuhala kpwa kutsambula ujuzi wa kudzenga wa Chiswahili: kuhala vitu na mbinu ya musingi na kuvigaluza kulingana na ukulu na madhumuni ga maisha ga chidzidzi badala ya maonyesho ga mudzi mkpwulu."
+              "text": "Kahi ya Adigo, kudzenga kpwa masanoo takuyafikira chiwango cha nyumba za mudzi mkpwulu wa Chiswahili. Jamii za Adigo kala ni za chirimo, si za biashara; kala taana utajiri wa kukusanyika wala sababu ya chijamii ya kudzenga nyumba za mawe za gorofa. Ela masanoo gahumirwa kpwa madzengo ganjina ga pwani — kuta za mpaka, misingi, na wakati wanjina kuta za misikiti au madzengo ganjina ga jamii. Madzengo iga ganaonyesa kuhala kpwa kutsambula ujuzi wa kudzenga wa Chiswahili: kuhala vitu na mbinu ya musingi na kuvigaluza kulingana na ukulu na madhumuni ga maisha ga chidzidzi badala ya maonyesho ga mudzi mkpwulu."
             },
             {
               "type": "heading",
@@ -9261,7 +9261,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mfumo wa makundi ga umri wenyewe ukaphunguka nguvu tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayogaluka. Kpwenye seemu za midzini, alume adide a Adigo achache anainjira rasmi kpwenye kundi ndide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vikahalwa nafasi ni aina zanjina za uhusiano wa chijamii — usena wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata kuko, nguvuze za chitaasisi zikaphunguka."
+              "text": "Mfumo wa makundi ga umri wenyewe ukaphunguka nguvu tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayogaluka. Kpwenye seemu za midzini, alume adide a Adigo achache anainjira rasmi kpwenye kundi ndide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vikahalwa nafasi ni aina zanjina za uhusiano wa chijamii — usena wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata iko, nguvuze za chitaasisi zikaphunguka."
             },
             {
               "type": "paragraph",
@@ -9754,7 +9754,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kutsemberera, kureha chakurya, kuvoya, kuomboleza, kuterya. Gaga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
+              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kutsemberera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
             },
             {
               "type": "paragraph",
@@ -11002,7 +11002,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mapungufu ga mfumo uhu nago ni makulu. Mfumo wa miko unakuluphira imani, na imani inaweza kudhoofishwa. Kukula kpwa midzi, elimu, kugaluza dini, na kumanya mitazamo miphya ya dunia — gosi gaga gakadhoofisha nguvu ya imani za chiroho za chimila kpwa adide a Chidigo. Mlume mdide ambaye kaogopha tsona tsukizi za akare anaweza kuona muhi wa kaya dza mbao bahi badala ya chitu chitakatifu. Mfumo uhu piya tauna uwezo wa kuzuwiya vitisho vya kondze — kampuni ya kutsimba madini yenye ruhusa ya serikali taizuwiywa ni miko ya chiroho, na mutu wa kudzenga mwenye hati miliki kandazuwiywa ni marufuku ya mzehe wa kaya. Historia ya Kaya Diani, iriyophunguzwa kula hekta 20 hadi vipande vidide kpwa sababu ya kudzenga hoteli, inaonyesa udhaifu uhu kpwa uwazi mkulu."
+              "text": "Mapungufu ga mfumo uhu nago ni makulu. Mfumo wa miko unakuluphira imani, na imani inaweza kudhoofishwa. Kukula kpwa midzi, elimu, kugaluza dini, na kumanya mitazamo miphya ya dunia — gosi iga gakadhoofisha nguvu ya imani za chiroho za chimila kpwa adide a Chidigo. Mlume mdide ambaye kaogopha tsona tsukizi za akare anaweza kuona muhi wa kaya dza mbao bahi badala ya chitu chitakatifu. Mfumo uhu piya tauna uwezo wa kuzuwiya vitisho vya kondze — kampuni ya kutsimba madini yenye ruhusa ya serikali taizuwiywa ni miko ya chiroho, na mutu wa kudzenga mwenye hati miliki kandazuwiywa ni marufuku ya mzehe wa kaya. Historia ya Kaya Diani, iriyophunguzwa kula hekta 20 hadi vipande vidide kpwa sababu ya kudzenga hoteli, inaonyesa udhaifu uhu kpwa uwazi mkulu."
             },
             {
               "type": "heading",
@@ -11014,7 +11014,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Nadharia ya biojiografia ya visiwa inatabiri kukala vipande virivyotengwa vya makazi vindaangamiza viumbe chidide-chidide kadiri wakati unavyotsupa, hata dzagbwe makazi genye ganasala salama. Matsaka madide garigotengwa tagaweza kukala na idadi ya kutosha ya viumbe vinavyohitaji maeneo makulu. Ganaathiriwa ni athari za mphaka — mabadiliko ga mwanga, phepho, na unyese kpwenye mphaka wa tsaka ganagogaluza hali ya ndani. Tagaweza kudzazwa tsona ni viumbe virivyoangamika kpwa matukio ga bahati kpwa sababu takuna chanzo cha phephi cha viumbe hivyo. Kaya zinakabiliana na mashinikizo gosi gaga, na ukulu wadzo mdide — nyinji zinapimwa kpwa hekta, si kilomita za mraba — unazihenda zikale hatarini zaidi."
+              "text": "Nadharia ya biojiografia ya visiwa inatabiri kukala vipande virivyotengwa vya makazi vindaangamiza viumbe chidide-chidide kadiri wakati unavyotsupa, hata dzagbwe makazi genye ganasala salama. Matsaka madide garigotengwa tagaweza kukala na idadi ya kutosha ya viumbe vinavyohitaji maeneo makulu. Ganaathiriwa ni athari za mphaka — mabadiliko ga mwanga, phepho, na unyese kpwenye mphaka wa tsaka ganagogaluza hali ya ndani. Tagaweza kudzazwa tsona ni viumbe virivyoangamika kpwa matukio ga bahati kpwa sababu takuna chanzo cha phephi cha viumbe hivyo. Kaya zinakabiliana na mashinikizo gosi iga, na ukulu wadzo mdide — nyinji zinapimwa kpwa hekta, si kilomita za mraba — unazihenda zikale hatarini zaidi."
             },
             {
               "type": "paragraph",
@@ -11295,7 +11295,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Utabiri wa hali ya hewa wa chimila unatokana na maarifa makulu ga uchunguzi: miundo ya maingu, mwelekeo na nguvu ya phepho, tabiya za nyama dza kutsama kpwa nyuni na shughuli za adudu, fenolojia ya mimera dza mizunguko ya maridza na matunda, na awamu za mwezi. Maarifa gaga, ganagotsapizwa kpwa mapokeo ga kanwa, ganawakilisha vizazi vya uchunguzi uriokusanywa. Si ushirikina ela ni sayansi ya uzoefu — utambuzi wa mifumo uriokula kpwa karne nyinji za umakini wa phephi kpwa ulimwengu wa asili. Akurima a Chidigo taahitaji vituo vya hali ya hewa kumanya kukala nyuni fulani achionekana, mvula inakpwedza, au kukala mihi fulani ichilavya maridza mapema, msimu undakala mfupi."
+              "text": "Utabiri wa hali ya hewa wa chimila unatokana na maarifa makulu ga uchunguzi: miundo ya maingu, mwelekeo na nguvu ya phepho, tabiya za nyama dza kutsama kpwa nyuni na shughuli za adudu, fenolojia ya mimera dza mizunguko ya maridza na matunda, na awamu za mwezi. Maarifa iga, ganagotsapizwa kpwa mapokeo ga kanwa, ganawakilisha vizazi vya uchunguzi uriokusanywa. Si ushirikina ela ni sayansi ya uzoefu — utambuzi wa mifumo uriokula kpwa karne nyinji za umakini wa phephi kpwa ulimwengu wa asili. Akurima a Chidigo taahitaji vituo vya hali ya hewa kumanya kukala nyuni fulani achionekana, mvula inakpwedza, au kukala mihi fulani ichilavya maridza mapema, msimu undakala mfupi."
             },
             {
               "type": "heading",
@@ -11528,7 +11528,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Tsaka riri rikapendekezwa kpwa Urithi wa Dunia wa UNESCO phamwenga na Tsaka ra Arabuko Sokoke ra kazikazini zaidi, ishara ya umuhimuwe wa chiikolojia duniani. Matsaka gaga ga pwani ganaikpwa kahi ya maeneo muhimu ga bioanuwai duniani — maeneo ambapho unji wa ajabu wa viumbe vya chipekee unakutana na kuangamika kpwa ajabu kpwa makazi."
+              "text": "Tsaka riri rikapendekezwa kpwa Urithi wa Dunia wa UNESCO phamwenga na Tsaka ra Arabuko Sokoke ra kazikazini zaidi, ishara ya umuhimuwe wa chiikolojia duniani. Matsaka iga ga pwani ganaikpwa kahi ya maeneo muhimu ga bioanuwai duniani — maeneo ambapho unji wa ajabu wa viumbe vya chipekee unakutana na kuangamika kpwa ajabu kpwa makazi."
             },
             {
               "type": "heading",
@@ -11584,7 +11584,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kukusanya mimera ya dawa kunaonyesa mvutano dza uwo. Matsaka ga Myango ya Shimba ganahenda kazi dza \"duka ra dawa hai\", dza mtaalamu mmwenga wa mimera ya chimila arivyogomba — chanzo cha makodza ga antibiotic, mizi ya antihistamini, na utomvu wa dawa ambao aganga a Chidigo akaukuluphira kpwa karne nyinji. Utafiti wa Mohamed Pakia wa mimera ya chimila waandika kama madzina 500 ga mimera kpwa luga ya Chidigo na kutambua maarifa manji maalumu kahi ya aganga. Maarifa gaga ganalenga mazoezi na ganakuluphira eneo — ganakuluphira kuenderera kufikira matsaka ambamo mimera iyi inamera."
+              "text": "Kukusanya mimera ya dawa kunaonyesa mvutano dza uwo. Matsaka ga Myango ya Shimba ganahenda kazi dza \"duka ra dawa hai\", dza mtaalamu mmwenga wa mimera ya chimila arivyogomba — chanzo cha makodza ga antibiotic, mizi ya antihistamini, na utomvu wa dawa ambao aganga a Chidigo akaukuluphira kpwa karne nyinji. Utafiti wa Mohamed Pakia wa mimera ya chimila waandika kama madzina 500 ga mimera kpwa luga ya Chidigo na kutambua maarifa manji maalumu kahi ya aganga. Maarifa iga ganalenga mazoezi na ganakuluphira eneo — ganakuluphira kuenderera kufikira matsaka ambamo mimera iyi inamera."
             },
             {
               "type": "heading",
@@ -11789,11 +11789,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaunti ya Kwale, moyo wa tsi ya Adigo, ina ndani ya kilometaze za mraba 8,270 tafwauti nyinji za chiikolojia zisizolingana na ukuluwe mdide. Kaunti inaenea kula pwani ya Bahari ya Hindi kuphiya bara, na ichiphiya, inatsupa maeneo mane tafwauti ga chijiografia — chila eneo na mwinukowe, ulongowe, mimeraye, mvulaye, na mantikiye ya chiuchumi. Maeneo gaga si mawazo ga chiutawala bahi. Ni hali za kpweli za maisha zinazoamua mimera ambayo mbari inaweza kurima, chiasi cha madzi inachoweza kuphaha, kukala inavua ng'onda, inarima au inafuga, na njira inavyouona uhusianowe na tsi. Kumanya eneo ambaro mbari ya Chidigo inaishi ni kumanya manji kuhusu njira inavyoishi."
+              "text": "Kaunti ya Kwale, moyo wa tsi ya Adigo, ina ndani ya kilometaze za mraba 8,270 tafwauti nyinji za chiikolojia zisizolingana na ukuluwe mdide. Kaunti inaenea kula pwani ya Bahari ya Hindi kuphiya bara, na ichiphiya, inatsupa maeneo mane tafwauti ga chijiografia — chila eneo na mwinukowe, ulongowe, mimeraye, mvulaye, na mantikiye ya chiuchumi. Maeneo iga si mawazo ga chiutawala bahi. Ni hali za kpweli za maisha zinazoamua mimera ambayo mbari inaweza kurima, chiasi cha madzi inachoweza kuphaha, kukala inavua ng'onda, inarima au inafuga, na njira inavyouona uhusianowe na tsi. Kumanya eneo ambaro mbari ya Chidigo inaishi ni kumanya manji kuhusu njira inavyoishi."
             },
             {
               "type": "paragraph",
-              "text": "Maeneo gaga mane ganainuka kula mashariki kuphiya mtswerero wa dzuwa dza ngazi zinazopanda kula baharini: uwanda wa pwani, uwanda wa tsini wa myango, nyanda za dzulu za Myango ya Shimba, na Uwanda wa Nyika. Chila ngazi inareha mabadiliko ga mwinuko, ga mvula, na ga mandhari kpwa chiasi chikulu hata msafiri anayetsupa kula Diani Beach hadi seemu za mtswerero wa dzuwa za Kwale angaweza kudziuza kukala akavuka kuphiya tsi yanjina kabisa."
+              "text": "Maeneo iga mane ganainuka kula mashariki kuphiya mtswerero wa dzuwa dza ngazi zinazopanda kula baharini: uwanda wa pwani, uwanda wa tsini wa myango, nyanda za dzulu za Myango ya Shimba, na Uwanda wa Nyika. Chila ngazi inareha mabadiliko ga mwinuko, ga mvula, na ga mandhari kpwa chiasi chikulu hata msafiri anayetsupa kula Diani Beach hadi seemu za mtswerero wa dzuwa za Kwale angaweza kudziuza kukala akavuka kuphiya tsi yanjina kabisa."
             },
             {
               "type": "heading",
@@ -11865,7 +11865,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ihi si kupamba hali iyo. Mteremko wa chimaumbile kula pwani hadi uwanda unalingana phephi kabisa na mteremko wa chiuchumi kula nafasi za chiasi hadi uchiya mkulu. Matatizo ganagokabili jamii za Nyika si sawa na ganagoukabili ukanda wa pwani, na masuluhisho ganagohenda kazi kahi ya eneo mwenga ganaweza kukala tagana umuhimu kahi ya ranjina. Ela umwenga wa utambulisho wa Adigo kahi ya maeneo gaga ni mafanikio ga chimila ganagofwaha kutambuliwa — ushahidi wa nguvu ya luga ya phamwenga, ibada ya phamwenga, na kumbukumbu ya phamwenga kahi ya kugbwira atu phamwenga kahi ya mandhari ambayo kpwa njira yanjina ingaweza kuaganya."
+              "text": "Ihi si kupamba hali iyo. Mteremko wa chimaumbile kula pwani hadi uwanda unalingana phephi kabisa na mteremko wa chiuchumi kula nafasi za chiasi hadi uchiya mkulu. Matatizo ganagokabili jamii za Nyika si sawa na ganagoukabili ukanda wa pwani, na masuluhisho ganagohenda kazi kahi ya eneo mwenga ganaweza kukala tagana umuhimu kahi ya ranjina. Ela umwenga wa utambulisho wa Adigo kahi ya maeneo iga ni mafanikio ga chimila ganagofwaha kutambuliwa — ushahidi wa nguvu ya luga ya phamwenga, ibada ya phamwenga, na kumbukumbu ya phamwenga kahi ya kugbwira atu phamwenga kahi ya mandhari ambayo kpwa njira yanjina ingaweza kuaganya."
             }
           ]
         }
@@ -12408,7 +12408,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mabadiliko gaga gakareha nafasi na piya usumbufu. Ukunda ndiko avulana Adigo anakophiya kuhendza kazi, na ambako uchumi wa huduma — maduka, hoteli za chakurya, makampuni ga usafiri, mawakala ga pesa za simu — ukaumba tabaka ra kahi ra midzini rinaroonekana, dzagbwe ni ridide. KwaleHub, chituo cha teknolojia na ujasiriamali chiricho mudzini, chinawakilisha sura ya chisasa zaidi ya mabadiliko gaga, chichiunganisha avulana na ujuzi wa chidijitali na kuaterya kuendeleza biashara. Ela Ukunda piya unaonyesa matatizo ga kukula kpwa kasi: miundombinu isiyotosha, nyumba zenye atu anji kutsupa chiasi, na mgongano wa chimila wa jamii ambayo, kpwa mawazoge yenyewe, bado ni atu a chirimo anaoishi kahi ya mazingira ga midzini zaidi na zaidi."
+              "text": "Mabadiliko iga gakareha nafasi na piya usumbufu. Ukunda ndiko avulana Adigo anakophiya kuhendza kazi, na ambako uchumi wa huduma — maduka, hoteli za chakurya, makampuni ga usafiri, mawakala ga pesa za simu — ukaumba tabaka ra kahi ra midzini rinaroonekana, dzagbwe ni ridide. KwaleHub, chituo cha teknolojia na ujasiriamali chiricho mudzini, chinawakilisha sura ya chisasa zaidi ya mabadiliko iga, chichiunganisha avulana na ujuzi wa chidijitali na kuaterya kuendeleza biashara. Ela Ukunda piya unaonyesa matatizo ga kukula kpwa kasi: miundombinu isiyotosha, nyumba zenye atu anji kutsupa chiasi, na mgongano wa chimila wa jamii ambayo, kpwa mawazoge yenyewe, bado ni atu a chirimo anaoishi kahi ya mazingira ga midzini zaidi na zaidi."
             },
             {
               "type": "heading",
@@ -13384,7 +13384,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Jamii zosi mbiri zinakala na mshangao kpwa chiasi anachoshirikiya hata bada ya miongo ya kutengana. Utambuzi ni wa pho-pho na wa kpweli — luga ya phamwenga, chakurya cha phamwenga, imani ya phamwenga vinazalisha uhusiano wa pho-pho unaotsupa tafwauti zirizoundwa ni muktadha wa chitaifa. Mjeni kula Msambweni achiphiya arusi ya Chidigo kpwa Mkinga andaimanya: ngoma ya chakacha, wari wa nazi, swala za Chiislamu, mazungumzo magumu kahi ya nyumba — gosi gaga gandakala ga kawaida, hata dza maelezo fulani ganatafwautiana."
+              "text": "Jamii zosi mbiri zinakala na mshangao kpwa chiasi anachoshirikiya hata bada ya miongo ya kutengana. Utambuzi ni wa pho-pho na wa kpweli — luga ya phamwenga, chakurya cha phamwenga, imani ya phamwenga vinazalisha uhusiano wa pho-pho unaotsupa tafwauti zirizoundwa ni muktadha wa chitaifa. Mjeni kula Msambweni achiphiya arusi ya Chidigo kpwa Mkinga andaimanya: ngoma ya chakacha, wari wa nazi, swala za Chiislamu, mazungumzo magumu kahi ya nyumba — gosi iga gandakala ga kawaida, hata dza maelezo fulani ganatafwautiana."
             },
             {
               "type": "heading",
@@ -13621,7 +13621,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa jamii ya Adigo, maendeleo gaga gana umuhimu wa kpweli unaophiya zaidi ya kuphungula wakati wa kuvuka. Chila urahisishaji wa mchakato wa mphaka ni, kpwa kpweli, uponyaji wa seemu wa chironda ambacho kuganywa kpwa chikoloni kpwachireha. Kuvuka kpwa urahisi zaidi kunamaanisha kutembelea mbari mara nyinji zaidi, biashara yenye ufanisi zaidi, na kuphiya na kuuya kpwa urahisi zaidi kpwa madhumuni ga chidini na chisherehe. Tagauusa mphaka — msitari unasala, nyaraka bado zinahitajika, mataifa gosi mairi ganasala na uhuru wao — ela ganaphungula uzito wa mphaka, msuguanowe, uwezowe wa kuzuwiya maisha ga jamii iriyoko phande zosi."
+              "text": "Kpwa jamii ya Adigo, maendeleo iga gana umuhimu wa kpweli unaophiya zaidi ya kuphungula wakati wa kuvuka. Chila urahisishaji wa mchakato wa mphaka ni, kpwa kpweli, uponyaji wa seemu wa chironda ambacho kuganywa kpwa chikoloni kpwachireha. Kuvuka kpwa urahisi zaidi kunamaanisha kutembelea mbari mara nyinji zaidi, biashara yenye ufanisi zaidi, na kuphiya na kuuya kpwa urahisi zaidi kpwa madhumuni ga chidini na chisherehe. Tagauusa mphaka — msitari unasala, nyaraka bado zinahitajika, mataifa gosi mairi ganasala na uhuru wao — ela ganaphungula uzito wa mphaka, msuguanowe, uwezowe wa kuzuwiya maisha ga jamii iriyoko phande zosi."
             },
             {
               "type": "heading",

@@ -10,13 +10,13 @@
 
 Likoni inalengana na chisiwa cha Mombasa, na kahi yao kuna mlango mwembamba wa bahari. Adigo a Likoni kala anaishi phephi na mudzi kuriko phephi jamii yoyosi yanjina ya Adigo, na achuuzi a mudzini kala anakpwedza kpwao. Salim Mwabundu wakula phapho. Waandza dza mchuuzi mdide wa achuuzi a Chibaluchi, achikala mmwenga wa Aislamu a kpwandza Likoni, achidzenga msikiti wa phiri wa Likoni, na hata mwisho achikala chilongozi wa kaya kulu ya phatu phapho na piya Dzumbe wa chikoloni.
 
-Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mdzukuluwe, Saidi bin Khalfan Mwabundu, ambaye mwanahistoria David Sperling wamuuza maswali kuko Bomani mwaka 1987, phamwenga na mambo machache garigoandikpwa kpwenye kumbukumbu za chikoloni.
+Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mdzukuluwe, Saidi bin Khalfan Mwabundu, ambaye mwanahistoria David Sperling wamuuza maswali iko Bomani mwaka 1987, phamwenga na mambo machache garigoandikpwa kpwenye kumbukumbu za chikoloni.
 
 ## Makaya ga Likoni
 
 Kufikira karne ya 19 Adigo a phatu pha Likoni kala anaishi kpwenye makaya manne: Puma, Chibuyuni, Timbwani na Shonda. Kaya kala ni chidzidzi chiricho na ngome na phatu pha mila, chirichokala chinalongozwa ni baraza ra azehe (*ngambi*). Mzehe mkpwulu wa kaya, *mwanatsi* ("mwana wa tsi"), kala ndiye analongoza mila, na kpwa kawaida kala anatsambulwa kpwa uphande wa mayo kula fuko ririroandzisha kaya. Makaya manne ga Likoni kala gakaungana, na azehe a makaya higo kala anakutana na kulavya sadaka phamwenga. Shonda ndiyo kala ya kpwandza kahi ya makaya higo. Kala ina mbira za kare sana za akare, na *jingo*, pingu ya kurinda, ambayo ni mwenga wa pingu za kare zaidi za phatu phapho. Misafara ya mila kala inatsupa kpwenye makaya ganjina mahahu kabla ya kufika Shonda, ambapho mila kulu kala zinahendwa.
 
-Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kula Mombasa kala anarima kuko. Mwaka 1837 Sultani wa Zanzibar waika asikari a Chibaluchi Mombasa, nao chisha aandza kuhenda biashara na Adigo. Anjina ao alola achetu a Chidigo. Kpwa vira kala takuna chete cha Adigo Likoni, achuuzi kala anaika vitu vyao phephi na pwani.
+Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kula Mombasa kala anarima iko. Mwaka 1837 Sultani wa Zanzibar waika asikari a Chibaluchi Mombasa, nao chisha aandza kuhenda biashara na Adigo. Anjina ao alola achetu a Chidigo. Kpwa vira kala takuna chete cha Adigo Likoni, achuuzi kala anaika vitu vyao phephi na pwani.
 
 ## Mchuuzi na Mwislamu Muphya
 
@@ -24,15 +24,15 @@ Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kadzan
 
 > Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka. (*He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.*)
 
-Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare kuko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
+Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare iko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
 
 Wakati uo kala takuna msikiti Likoni. Dza Adigo anjina ariokala akasilimu, Mwabundu kala anaphiya Mombasa kpwa swala ya Ijumaa na kpwa Ramadhani. Nkugombwa kukala kala anaswali Msikiti wa Khonzi, ambapho Imamu wamfundza namna ya kulavya hotuba ya Ijumaa (*khutba*).
 
 ## Alimu na Misikiti
 
-Mwandzo wa miaka ya 1890 Mwabundu wamhuma mwanawe mvugula, Khalfan, akasome Kuruani. Mwalimu wa kpwandza wa Khalfan kala ni Mbwana bin Ali Mwarako, Mdigo wa Tanga ariyekala anafundza Likoni. Chisha Khalfan wasoma Mombasa, na mwisho Pongwe kpwa Bakari Mwanjama, mwalimu Msegeju na msena wa ise. Khalfan kala achere kuko Pongwe iriphobanangwa mwezi wa Oktoba 1895, kahi za viha kahi ya Aingereza na Shaykh Mbaruk wa Gasi, na mwalimuwe watsama phamwenga na anafundzie kuphiya Ramisi.
+Mwandzo wa miaka ya 1890 Mwabundu wamhuma mwanawe mvugula, Khalfan, akasome Kuruani. Mwalimu wa kpwandza wa Khalfan kala ni Mbwana bin Ali Mwarako, Mdigo wa Tanga ariyekala anafundza Likoni. Chisha Khalfan wasoma Mombasa, na mwisho Pongwe kpwa Bakari Mwanjama, mwalimu Msegeju na msena wa ise. Khalfan kala achere iko Pongwe iriphobanangwa mwezi wa Oktoba 1895, kahi za viha kahi ya Aingereza na Shaykh Mbaruk wa Gasi, na mwalimuwe watsama phamwenga na anafundzie kuphiya Ramisi.
 
-Mwaka 1899 Khamis Dzugwe wadzenga msikiti wa kpwandza wa Likoni, Msikiti wa Riyadha. Khalfan ariphouya kpwakpwe kaya wakala Imamu wa msikiti uo. Kama mwaka 1909 Salim Mwabundu wadzenga msikiti wa phiri, Msikiti wa Bomani, bada ya kutsimba kpwandza chisima phephi naho kpwa msada wa Mwislamu wa Chibohora kula Mombasa. Khalfan wauricha Msikiti wa Riyadha achikala Imamu wa kpwandza wa Bomani, na bada ya Viha vya Kpwandza vya Dunia wavugula chuo cha Kuruani kuko. Orodha ya serikali ya misikiti ya mwaka 1913 inahadza msikiti mmwenga wa "Salim wa Bundu".
+Mwaka 1899 Khamis Dzugwe wadzenga msikiti wa kpwandza wa Likoni, Msikiti wa Riyadha. Khalfan ariphouya kpwakpwe kaya wakala Imamu wa msikiti uo. Kama mwaka 1909 Salim Mwabundu wadzenga msikiti wa phiri, Msikiti wa Bomani, bada ya kutsimba kpwandza chisima phephi naho kpwa msada wa Mwislamu wa Chibohora kula Mombasa. Khalfan wauricha Msikiti wa Riyadha achikala Imamu wa kpwandza wa Bomani, na bada ya Viha vya Kpwandza vya Dunia wavugula chuo cha Kuruani iko. Orodha ya serikali ya misikiti ya mwaka 1913 inahadza msikiti mmwenga wa "Salim wa Bundu".
 
 ## Tsini ya Utawala wa Aingereza
 
@@ -40,11 +40,11 @@ Sperling anaandika kukala Mwabundu wakala chilongozi wa Kaya Shonda na Dzumbe wa
 
 ## Namna Kumbukumbu Zirivyosala
 
-Takuna tarehe ya kuvyalwa wala ya kufwa kpwa Mwabundu iriyophahikana. Adisiye ikasala hasa kpwa kumbukumbu mwenga ya mbari, iriyotsapizwa kula kpwa tsawe hadi kpwa mdzukulu, na kpwa orodha chache za serikali. Taimanyikana namna arivyoweza kuhenda mila za Kaya Shonda phamwenga na maishage dza Mwislamu. Sperling waona kukala azehe a Chidigo Aislamu phanjina, dza Abdallah Mwapodzo kuko Diani, aenderera kulongoza mila za kaya, ela kaamba chitu dza hicho kuhusu Shonda.
+Takuna tarehe ya kuvyalwa wala ya kufwa kpwa Mwabundu iriyophahikana. Adisiye ikasala hasa kpwa kumbukumbu mwenga ya mbari, iriyotsapizwa kula kpwa tsawe hadi kpwa mdzukulu, na kpwa orodha chache za serikali. Taimanyikana namna arivyoweza kuhenda mila za Kaya Shonda phamwenga na maishage dza Mwislamu. Sperling waona kukala azehe a Chidigo Aislamu phanjina, dza Abdallah Mwapodzo iko Diani, aenderera kulongoza mila za kaya, ela kaamba chitu dza hicho kuhusu Shonda.
 
 ## Urisi
 
-Maisha ga Salim Mwabundu ganalunga njira ambayo Sperling waiona tsona na tsona kusini ya Mombasa. Biashara na Aislamu a mudzini yalongoza atu kusilimu. Mutu ariyesilimu wasala kpwakpwe chidzidzini, na bada ya muda wadzenga msikiti kuko na kumhuma mwanawe akasome. Msikiti wa Bomani na chuo arichoandzisha mwanawe vyareha Uislamu kahi za mitaa ya Likoni. Mdzukuluwe kala achere anaishi Bomani Sperling ariphokutana naye mwaka 1987.
+Maisha ga Salim Mwabundu ganalunga njira ambayo Sperling waiona tsona na tsona kusini ya Mombasa. Biashara na Aislamu a mudzini yalongoza atu kusilimu. Mutu ariyesilimu wasala kpwakpwe chidzidzini, na bada ya muda wadzenga msikiti iko na kumhuma mwanawe akasome. Msikiti wa Bomani na chuo arichoandzisha mwanawe vyareha Uislamu kahi za mitaa ya Likoni. Mdzukuluwe kala achere anaishi Bomani Sperling ariphokutana naye mwaka 1987.
 
 ## Vyanzo
 
