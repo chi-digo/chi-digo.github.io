@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef } from 'react';
+import Link from 'next/link';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { historyDomain } from '@/lib/history/content';
 import { figures } from '@/lib/history/figures';
@@ -18,14 +19,16 @@ const eraPeriods: Record<Era, string> = {
   modern: '1963–present',
 };
 
+/** Figure cards shown on the History page; the rest are on /history/figures. */
+const FIGURE_PREVIEW = 5;
 
 /** A figure card; a link to the full article once one exists in all three languages. */
 function FigureCard({ href, children }: { href: string | null; children: React.ReactNode }) {
   if (!href) return <div className={styles.figureCard}>{children}</div>;
   return (
-    <a href={href} className={`${styles.figureCard} ${styles.figureCardLink}`} onClick={() => trackNavClick('history_figures', href)}>
+    <Link href={href} className={`${styles.figureCard} ${styles.figureCardLink}`} onClick={() => trackNavClick('history_figures', href)}>
       {children}
-    </a>
+    </Link>
   );
 }
 
@@ -112,10 +115,12 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
       <section ref={figuresRef} className={`${styles.section} ${styles.sectionSand}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
-            {t.history.figures_heading}
+            <Link href="/history/figures" className={styles.sectionHeadingLink} onClick={() => trackNavClick('history_figures', '/history/figures')}>
+              {t.history.figures_heading}
+            </Link>
           </h2>
           <div className={styles.figureGrid}>
-            {figures.map((fig) => (
+            {figures.slice(0, FIGURE_PREVIEW).map((fig) => (
               <FigureCard key={fig.slug} href={figureArticles.includes(fig.slug) ? `/history/figures/${fig.slug}` : null}>
                 <h3 className={styles.figureName}>{fig.name}</h3>
                 <div className={styles.figureMeta}>
@@ -126,6 +131,10 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
                 <p className={styles.figureSummary}>{fig.summary[locale]}</p>
               </FigureCard>
             ))}
+            <Link href="/history/figures" className={`${styles.figureCard} ${styles.figureCardLink} ${styles.figureSeeAll}`} onClick={() => trackNavClick('history_figures', '/history/figures')}>
+              <h3 className={styles.figureName}>{t.history.figures_see_all} →</h3>
+              <p className={styles.figureSummary}>{t.history.figures_see_all_text}</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -138,7 +147,7 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
           </h2>
           <div className={styles.topicGrid}>
             {historyDomain.topics.map((topic) => (
-              <a
+              <Link
                 key={topic.slug}
                 href={`/history/${topic.slug}`}
                 className={styles.topicCard}
@@ -146,7 +155,7 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
               >
                 <h3 className={styles.topicTitle}>{topic.title[locale]}</h3>
                 <p className={styles.topicIntro}>{topic.intro[locale]}</p>
-              </a>
+              </Link>
             ))}
           </div>
         </div>

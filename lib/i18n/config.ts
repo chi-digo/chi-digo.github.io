@@ -195,6 +195,10 @@ export interface Messages {
     intro: string;
     timeline_heading: string;
     figures_heading: string;
+    figures_intro: string;
+    figures_note: string;
+    figures_see_all: string;
+    figures_see_all_text: string;
     figure_sources: string;
     figure_scene_credit: string;
     topics_heading: string;

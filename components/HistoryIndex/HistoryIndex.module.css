@@ -410,3 +410,30 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
+
+.sectionHeadingLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sectionHeadingLink:hover,
+.sectionHeadingLink:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.figureSeeAll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--color-kaya-deep);
+}
+
+.figureSeeAll .figureName {
+  color: var(--color-hando-cream);
+}
+
+.figureSeeAll .figureSummary {
+  color: var(--color-hando-cream);
+  opacity: 0.75;
+}
