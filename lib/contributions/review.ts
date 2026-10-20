@@ -6,7 +6,7 @@ import { createHash } from 'crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { ruledOutIn } from '@/lib/digo/ruled-out';
 import { hasPII, stableStringify } from './text';
-import { loadPlant, resolveTarget } from './targets';
+import { loadPlant, resolveTarget, headwordExists } from './targets';
 import { applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
 import type { ContributionType, TargetType } from './schemas';
@@ -26,6 +26,9 @@ export interface ReviewRow {
 export function digoText(type: ContributionType, payload: Record<string, unknown>): string[] {
   const p = payload as Record<string, string | undefined>;
   if (type === 'plant_name') return [p.name, p.other_names].filter((x): x is string => !!x);
+  if (type === 'word_addition') return [p.headword, p.definition_dg, p.example_dg].filter((x): x is string => !!x);
+  if (type === 'example_sentence') return p.dg ? [p.dg] : [];
+  if (type === 'spelling_variant') return p.form ? [p.form] : [];
   if (type === 'plant_info' || type === 'translation_fix' || type === 'definition_update' || type === 'proverb_meaning') {
     const lang = p.lang;
     const text = type === 'translation_fix' ? p.proposed : p.text;
@@ -42,7 +45,7 @@ export function warningsFor(type: ContributionType, payload: Record<string, unkn
 
 /** Whether the target has changed since the suggestion was made (base no longer matches). */
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
-  if (!row.base || row.target_type !== 'plant' || !row.target_id) return false;
+  if (!row.base || (row.target_type !== 'plant' && row.target_type !== 'word') || !row.target_id) return false;
   const now = resolveTarget(row.type, row.target_type, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
   if (!now?.base) return false;
   const hash = row.base.hash ?? createHash('sha256').update(stableStringify(row.base.value ?? null)).digest('hex');
@@ -69,6 +72,12 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
   if (row.type === 'plant_info' && finalPayload.mode === 'replace' && typeof row.base?.value === 'string') {
     return changedChars(row.base.value, String(finalPayload.text ?? '')) > 300;
   }
+  if (row.type === 'definition_update' && finalPayload.mode === 'replace') {
+    const before = (row.base?.value as { text?: string } | null)?.text ?? '';
+    return changedChars(before, String(finalPayload.text ?? '')) > 300;
+  }
+  // A new word whose headword already exists becomes a homonym: two voices decide that.
+  if (row.type === 'word_addition') return headwordExists(String(finalPayload.headword ?? ''));
   return false;
 }
 

@@ -6,7 +6,7 @@ import { unstable_cache } from 'next/cache';
 import { createServiceClient } from '@/lib/supabase/service';
 import type { Change } from './apply/types';
 import { stableStringify } from './text';
-import { TEST_TARGET } from './schemas';
+import { TEST_TARGET, NEVER_PUBLIC, type ContributionType } from './schemas';
 
 const AREA_TARGETS: Record<string, string[]> = {
   plant: ['plant', 'glossary'],
@@ -15,6 +15,27 @@ const AREA_TARGETS: Record<string, string[]> = {
 };
 
 export const OVERLAY_AREAS = Object.keys(AREA_TARGETS);
+
+/**
+ * The payload fields each type may show the public (spec 34 §15.3). Reasons, flag details and other
+ * names never leave the server; the appliers read only these fields.
+ */
+const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
+  word_addition: ['headword', 'pos', 'meaning_en', 'meaning_sw', 'definition_dg', 'example_dg', 'example_en', 'example_sw'],
+  definition_update: ['sense_id', 'lang', 'text', 'mode'],
+  example_sentence: ['sense_id', 'dg', 'en', 'sw'],
+  spelling_variant: ['form', 'kind'],
+  plant_name: ['name', 'choice'],
+  plant_info: ['section', 'lang', 'mode', 'text'],
+};
+const PRIVATE_FIELDS = ['reason', 'detail', 'other_names'];
+
+export function publicPayload(type: ContributionType, payload: Record<string, unknown>): Record<string, unknown> {
+  const allow = PUBLIC_FIELDS[type];
+  return Object.fromEntries(
+    Object.entries(payload ?? {}).filter(([k]) => (allow ? allow.includes(k) : !PRIVATE_FIELDS.includes(k))),
+  );
+}
 
 /** Folded changes stay in the overlay this long, for browsers holding older cached data files. */
 const FOLDED_GRACE_DAYS = 14;
@@ -30,6 +51,7 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
     // Test rows only ever target the fixture plant, which no page reads; real targets never see them.
     .or(`is_test.eq.false,target_id.eq.${TEST_TARGET}`)
     .in('target_type', AREA_TARGETS[area])
+    .not('type', 'in', `(${NEVER_PUBLIC.join(',')})`)
     .or(`fold_status.is.null,fold_status.neq.folded,folded_at.gt.${since}`)
     .order('reviewed_at', { ascending: true })
     .limit(2000);
@@ -39,7 +61,7 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
     type: r.type,
     target_id: r.target_id,
     target_path: r.target_path,
-    final_payload: r.final_payload ?? r.payload,
+    final_payload: publicPayload(r.type, r.final_payload ?? r.payload),
     outcome: r.outcome,
     region: r.region,
     confidence: r.confidence,

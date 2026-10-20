@@ -725,6 +725,7 @@
     "status_duplicate": "Already suggested",
     "status_withdrawn": "Withdrawn",
     "status_reverted": "Undone",
+    "status_resolved": "Dealt with",
     "reviewer_note": "Reviewer’s note",
     "your_reply": "Your reply",
     "reply_label": "Answer the reviewer",
