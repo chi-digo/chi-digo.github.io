@@ -557,7 +557,7 @@ export const timelineEvents: TimelineEvent[] = [
     title: {
       en: 'Kwale titanium mining',
       sw: 'Uchimbaji wa titanium Kwale',
-      dg: 'Uchimbaji wa titanium Kwale',
+      dg: 'Utsimbadzi wa titanium Kwale',
     },
     description: {
       en: 'Base Titanium begins exporting titanium from Kwale, displacing 3,000+ residents and destroying coconut and cashew groves. Decommissioning begins c. 2025 amid environmental protests.',
