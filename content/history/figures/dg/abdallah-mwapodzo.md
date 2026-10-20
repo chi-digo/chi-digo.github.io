@@ -14,11 +14,11 @@ Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mwanahistoria David
 
 ## Mwanatsi wa Kaya Diani
 
-Mwapodzo wavyalwa Ukunda kama mwaka 1840 na dzina **Kivoyero Mwapodzo**. Ise kala ni Mwakulenje Podzo.
+Mwapodzo wavyalwa Ukunda kama mwaka 1840 na dzina **Chivoyero Mwapodzo**. Ise kala ni Mwakulenje Podzo.
 
 Fuko ra nine ndiro ririroamula maishage ga mbere. Kaya Diani kala ikaandzishwa mwisho wa karne ya 17 au mwandzo wa karne ya 18 ni Mwalela Bawa wa fuko ra Akinalela, ariyekpwedza kula Kaya Dzombo. Bada ya iye, kaya ikalongozwa ni vivyazivye vya uphande wa mayo. Kahi za makaya gosi ga Adigo, *mwanatsi* ("mwana wa tsi") ndiye kala analongoza mila za kaya. Kala ndiye mkpwulu wa *ngambi*, baraza ra azehe, na phephi wakati wosi kala anatsambulwa kulengana na uphande wa mayo kula fuko ririroandzisha kaya.
 
-Phahi Kivoyero wachiphaha cheo chicho kpwa kurisi, si kpwa kutsambulwa. Wauka Ukunda achedza kuchirisi kula kpwa aphuye, Mwatsavua. Kpwa mapokeo ga Diani, dzambo riri rahendeka wakati wa utawala wa Sayyid Majid wa Zanzibar, manaye ni wakati fulani kahi ya 1856 na 1870. Wakala mwanatsi wa sabaa wa Kaya Diani. Ara sita ariomtangulira kala si Aislamu.
+Phahi Chivoyero wachiphaha cheo chicho kpwa kurisi, si kpwa kutsambulwa. Wauka Ukunda achedza kuchirisi kula kpwa aphuye, Mwatsavua. Kpwa mapokeo ga Diani, dzambo riri rahendeka wakati wa utawala wa Sayyid Majid wa Zanzibar, manaye ni wakati fulani kahi ya 1856 na 1870. Wakala mwanatsi wa sabaa wa Kaya Diani. Ara sita ariomtangulira kala si Aislamu.
 
 ## Kusilimu Wakati wa Ndzala
 

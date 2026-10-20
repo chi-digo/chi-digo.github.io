@@ -14,11 +14,11 @@ Karibu kila kinachojulikana kumhusu kinatoka kwa mwanahistoria David Sperling. K
 
 ## Mwanatsi wa Kaya Diani
 
-Mwapodzo alizaliwa Ukunda karibu mwaka 1840 akiwa na jina **Kivoyero Mwapodzo**. Baba yake alikuwa Mwakulenje Podzo.
+Mwapodzo alizaliwa Ukunda karibu mwaka 1840 akiwa na jina **Chivoyero Mwapodzo**. Baba yake alikuwa Mwakulenje Podzo.
 
 Mustakabali wake uliamuliwa na ukoo wa mama yake. Kaya Diani ilikuwa imeanzishwa mwishoni mwa karne ya 17 au mwanzoni mwa karne ya 18 na Mwalela Bawa wa ukoo wa Akinalela, aliyekuja kutoka Kaya Dzombo. Uongozi wa kaya kisha ulirithiwa kupitia vizazi vya Mwalela Bawa kwa upande wa mama. Katika kaya zote za Adigo, *mwanatsi* ("mwana wa nchi") aliongoza sherehe za kaya. Alikaa kichwani mwa *ngambi*, baraza la wazee, na karibu kila mara alichaguliwa kwa nasaba ya upande wa mama kutoka ukoo ulioanzisha kaya.
 
-Kwa hiyo Kivoyero hakupata cheo hicho kwa kuchaguliwa. Alitoka Ukunda kuja kukirithi kutoka kwa mjomba wake, Mwatsavua. Mapokeo ya Diani yanaweka jambo hili katika utawala wa Sayyid Majid wa Zanzibar, yaani wakati fulani kati ya 1856 na 1870. Akawa mwanatsi wa saba wa Kaya Diani. Wale sita waliomtangulia hawakuwa Waislamu.
+Kwa hiyo Chivoyero hakupata cheo hicho kwa kuchaguliwa. Alitoka Ukunda kuja kukirithi kutoka kwa mjomba wake, Mwatsavua. Mapokeo ya Diani yanaweka jambo hili katika utawala wa Sayyid Majid wa Zanzibar, yaani wakati fulani kati ya 1856 na 1870. Akawa mwanatsi wa saba wa Kaya Diani. Wale sita waliomtangulia hawakuwa Waislamu.
 
 ## Kuingia Uislamu Wakati wa Njaa
 

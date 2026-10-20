@@ -14,7 +14,7 @@ What we know about him comes from a few paragraphs in Sperling's work. Sperling 
 
 ## Islam in the Tiwi Hinterland
 
-Islam had been growing in the Tiwi area for a generation before Kassim. Around 1894 a teacher named Juma Matungale, whose mother was a Digo from Kitsanga, settled at Tiwi. The Mkoyo Mosque was built there around 1898, with Matungale as its first Imam. By 1916, according to oral testimony, more than half of the elders of Tiwi's *ngambi*, the village council of elders, were Muslims.
+Islam had been growing in the Tiwi area for a generation before Kassim. Around 1894 a teacher named Juma Matungale, whose mother was a Digo from Chitsanga, settled at Tiwi. The Mkoyo Mosque was built there around 1898, with Matungale as its first Imam. By 1916, according to oral testimony, more than half of the elders of Tiwi's *ngambi*, the village council of elders, were Muslims.
 
 Further inland, around Chigato and Vuga, there were still few teachers. That changed with the arrival of Salimini bin Simba, a Yao from southern Tanzania who had come to Kenya as a soldier before the First World War. He married a woman from a Vuga family and settled there. In 1915 a District Commissioner found "a Swahili (ex KAR)" living at Vuga without permission and told him to go. Sperling thinks this was Salimini. That year Salimini moved to Chigongoni, became Imam of the Mabatani Mosque and opened a Qur'an school. Sperling calls him "the first teacher in the Chigato area". Around 1922 he helped build the Makunguni Mosque at Chigongoni and became its first Imam.
 
@@ -52,4 +52,4 @@ Kassim Mwachinyama left no writings that we know of. What he left was a role. He
 
 1. David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, School of Oriental and African Studies, University of London, 1988. Ch. IV: p. 120 (Matungale and the Mkoyo Mosque), p. 123 (Tiwi elders, Salimini's arrival), p. 124 ("The First Digo Imams", Chigato Mosque, notes 108–111), p. 125 (mosques of the 1920s, Vuga pupils, note 115), pp. 127–128 (Tsufu and the Vuga Mosque, notes 123–126); p. 111 (Mwalimu Ali, first Imam of Pungu). Full text: https://su-plus.strathmore.edu/server/api/core/bitstreams/d1de38b9-24f8-4de8-ae6d-c800cc8d657b/content
 2. Kenya National Archives, as cited by Sperling: Tour Diary of the District Commissioner, Mombasa (C. Dundas), entries for 21 June and 19 October 1915 (CP/1140).
-3. Oral testimony recorded by Sperling: Hamisi Muhammad Mwakuwamia, Chigato, 3 December 1985; Nassir Bakari, Chigongoni, 5 December 1985; Juma Salim Pati, Kitsanga, 20 September 1987; Abdallah Sulayman Zingizi, Vuga, 4 February 1986.
+3. Oral testimony recorded by Sperling: Hamisi Muhammad Mwakuwamia, Chigato, 3 December 1985; Nassir Bakari, Chigongoni, 5 December 1985; Juma Salim Pati, Chitsanga, 20 September 1987; Abdallah Sulayman Zingizi, Vuga, 4 February 1986.

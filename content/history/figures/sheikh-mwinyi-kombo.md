@@ -12,7 +12,7 @@ Shaykh Mwinyikombo bin Makame, remembered in Diani as Sheikh Mwinyi Kombo, was n
 
 ## Who He Was
 
-What we know of Mwinyikombo comes mainly from interviews that the historian David Sperling recorded in Diani, Mtongwe and Kitsanga in 1987, with people who still remembered him. His full name was **Mwinyikombo bin Makame**. One informant explained that his mother was a **Kilindini** and his father a **Pemba** man "who had close ties with the Tangana". The Kilindini and the Tangana are two of the Three Tribes (*Miji Mitatu*) of the Mombasa Swahili. So his family belonged to the Swahili world of Mombasa and Pemba, which had traded and intermarried with the Digo for centuries.
+What we know of Mwinyikombo comes mainly from interviews that the historian David Sperling recorded in Diani, Mtongwe and Chitsanga in 1987, with people who still remembered him. His full name was **Mwinyikombo bin Makame**. One informant explained that his mother was a **Kilindini** and his father a **Pemba** man "who had close ties with the Tangana". The Kilindini and the Tangana are two of the Three Tribes (*Miji Mitatu*) of the Mombasa Swahili. So his family belonged to the Swahili world of Mombasa and Pemba, which had traded and intermarried with the Digo for centuries.
 
 At the time of the Kongo revival he was **imam of the Khonzi Mosque in Mombasa**, well known for the maulid he held there. The maulid is the celebration of the Prophet Muhammad's birth, with recited praise-poems. With Sayyid Amin of Takaungu and Muhammad Mbwana he formed what Sperling calls "a triumvirate of maulid supporters", who attended maulid celebrations up and down the Kenya coast.
 
