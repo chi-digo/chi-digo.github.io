@@ -55,7 +55,7 @@ Mwapodzo alikuwa sehemu ya kizazi kipana zaidi. Utafiti wa Sperling pia unawataj
 - **Hamisi Mwapodzo wa Pungu.** Huyu ni mtu tofauti mwenye jina linalofanana. Alisilimu karibu mwaka 1870 na, pamoja na Muhammad Mwaganyuma, alijenga misikiti ya kwanza ya Pungu katika miaka ya 1890.
 - **Muhammad Mwaganyuma wa Pungu**, mwana wa Ali Ganyuma, aliyekuwa tayari Mwislamu kufikia 1855. Mwana wa Muhammad, **Mwalimu Ali**, alisoma Mtanganyiko na akawa Imamu wa kwanza wa Msikiti wa Pungu na mwalimu wa watoto wa waliosilimu.
 - **Mwinyihaji wa Bwika**, mzee mkuu wa Tiwi, aliyefariki 1913. Wazee wa vijiji vingine walimkumbuka kama mtu aliyeanzisha urithi kwa mujibu wa sheria ya Kiislamu miongoni mwa Adigo.
-- **Omari Mwakikweza**, mwana wa Mwanaphyori Kikweza, mmoja wa waliosilimu mapema kutoka Diani aliyehamia Mombasa. Omari alikuja kuchukuliwa kama kiongozi wa Waislamu wa Kidigo huko.
+- **Omari Mwakikweza**, mwana wa Mwanaphyori Chikpweza, mmoja wa waliosilimu mapema kutoka Diani aliyehamia Mombasa. Omari alikuja kuchukuliwa kama kiongozi wa Waislamu wa Kidigo huko.
 - **Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni huko Tiwi. Kwa kadiri inavyojulikana, alikuwa Mdigo wa kwanza, na Mmijikenda wa kwanza, kwenda kuhiji Makka. Alionekana akishuka Jidda lakini hakurudi nyumbani kamwe.
 
 ## Urithi
