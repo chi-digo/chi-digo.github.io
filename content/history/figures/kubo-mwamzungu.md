@@ -32,7 +32,7 @@ These stories need care. If Mwamzungu was in power by 1803–04 and made his pac
 
 ## Neither Muslim nor Forgotten
 
-Despite his ties with the Diwan, Mwamzungu did not become a Muslim. Nor did his son Jita Mwakubo, who took power after his death. Jita's son, Mangaru Mwajita, ruled as Kubo from about 1865 to 1894. Mangaru's nephew, Shehe Mwacholozi, was installed in 1895 and was, a District Officer wrote, "the first Kubo to adopt the Islam religion". When Kubo Shehe died in 1916, six people claimed the title. The British appointed one of them as headman instead, and the Kuboship fell out of use.
+Despite his ties with the Diwan, Mwamzungu did not become a Muslim. Nor did his son Jita Mwakubo, who took power after his death. Jita's son, Mangaru Mwajita, ruled as Kubo from about 1865 to 1894. Mangaru's nephew, Shehe Mwatsolozi, was installed in 1895 and was, a District Officer wrote, "the first Kubo to adopt the Islam religion". When Kubo Shehe died in 1916, six people claimed the title. The British appointed one of them as headman instead, and the Kuboship fell out of use.
 
 British officers took "singular historical interest" in the Kuboship, Sperling writes, as "a more centralized form of authority than was found elsewhere on the Kenya coast", and filed many papers on it.
 
