@@ -124,7 +124,7 @@ async function main() {
     check('signed out → 401', (await call(null, 'POST', '/api/contributions', plantName('x'))).status === 401);
     let r = await call(C, 'POST', '/api/contributions', { ...plantName('<b>x</b>') });
     check('markup → 400', r.status === 400, r);
-    r = await call(C, 'POST', '/api/contributions', { type: 'word_addition', payload: { headword: 'x', meaning_en: 'y' }, locale: 'en' });
+    r = await call(C, 'POST', '/api/contributions', { type: 'proverb_addition', payload: { digo: 'x' }, locale: 'en' });
     check('type not enabled yet → 400', r.status === 400 && r.json.error === 'type_not_enabled', r);
     r = await call(C, 'POST', '/api/contributions', { ...plantName('x'), target_id: 'no-such-plant-xyz' });
     check('test account on any other target → 403', r.status === 403 && r.json.error === 'test_account_target', r);
@@ -247,6 +247,67 @@ async function main() {
     check('…and the lone admin is offered self-confirm', r.json.can_self_confirm === true, r.json.can_self_confirm);
     r = await call(A, 'POST', `/api/review/${solo}`, { action: 'self_confirm' });
     check('…which takes it live, logged as single-reviewed', r.status === 200 && r.json.live_status === 'live', r);
+
+    console.log('5c. dictionary (spec 34 §15.3)');
+    const W1 = await session(await createUser('words1'));
+    const W2 = await session(await createUser('words2'));
+    users.push(W1.id, W2.id);
+    const word = (type: string, payload: Record<string, unknown>, target_id: string | undefined = TEST) => ({
+      type, ...(target_id !== undefined && { target_id }), payload, locale: 'en', region: 'tanga', confidence: 'native',
+    });
+    r = await call(W2, 'POST', '/api/contributions', word('word_addition', { headword: 'кaya', meaning_en: 'x' }, undefined));
+    check('a Cyrillic look-alike headword → 400', r.status === 400, r);
+    r = await call(W2, 'POST', '/api/contributions', word('word_addition', { headword: 'ka\u200bya', meaning_en: 'x' }, undefined));
+    check('a zero-width character → 400', r.status === 400, r);
+    r = await call(W2, 'POST', '/api/contributions', word('example_sentence', { sense_id: '1', dg: 'x' }, '../mama'));
+    check('a path as the target → 400', r.status === 400 && r.json.error === 'invalid_target', r);
+    r = await call(W2, 'POST', '/api/contributions', word('example_sentence', { sense_id: '../1', dg: 'x' }));
+    check('a non-numeric sense id → 400', r.status === 400, r);
+    r = await call(W2, 'POST', '/api/contributions', word('word_addition', { headword: 'kaya', meaning_en: 'x' }, undefined));
+    check('test accounts add only the test word → 403', r.status === 403 && r.json.error === 'test_account_target', r);
+
+    r = await call(W1, 'POST', '/api/contributions', word('example_sentence', { sense_id: '1', dg: 'Ni majaribio.', en: 'It is a test.' }));
+    check('example on the fixture word → 201', r.status === 201, r);
+    const ex = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${ex}`, { action: 'accept' });
+    check('…accepted and live', r.status === 200 && r.json.live_status === 'live', r);
+    let words = await call(null, 'GET', '/api/overlay/word');
+    check('…in the word overlay', words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === ex), words.json);
+
+    r = await call(W1, 'POST', '/api/contributions', word('entry_flag', { reason: 'offensive', detail: 'private detail' }));
+    check('flag → 201', r.status === 201, r);
+    const flag = r.json.id as string;
+    r = await call(null, 'GET', `/api/contributions/public?target_type=word&target_id=${TEST}`);
+    check('…never on the public panel', r.status === 200 && !r.json.some((x: { id: string }) => x.id === flag), r);
+    r = await call(A, 'POST', `/api/review/${flag}`, { action: 'accept' });
+    check('…cannot be accepted → 400', r.status === 400 && r.json.error === 'not_acceptable', r);
+    r = await call(A, 'POST', `/api/review/${flag}`, { action: 'resolve', note: 'Checked: fine.' });
+    check('…is resolved instead', r.status === 200 && r.json.status === 'resolved', r);
+    words = await call(null, 'GET', '/api/overlay/word');
+    check('…and never reaches the overlay', !JSON.stringify(words.json).includes(flag) && !JSON.stringify(words.json).includes('private detail'), words.json);
+
+    r = await call(W1, 'POST', '/api/contributions', word('definition_update', { sense_id: '1', lang: 'en', text: 'another test meaning', mode: 'add_sense', reason: 'secret reason' }));
+    const addSense = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${addSense}`, { action: 'accept' });
+    const { data: sensed } = await admin.from('contributions').select('target_path').eq('id', addSense).single();
+    check('a new meaning gets its sense id at accept', r.status === 200 && sensed?.target_path === 'senses.2', sensed);
+    words = await call(null, 'GET', '/api/overlay/word');
+    const ov = words.json.changes.find((c: { contribution_id: string }) => c.contribution_id === addSense);
+    check('…and its reason stays on the server', !!ov && ov.target_path === 'senses.2' && !('reason' in ov.final_payload), ov);
+
+    r = await call(W1, 'POST', '/api/contributions', word('definition_update', { sense_id: '1', lang: 'dg', text: 'Majaribio mapya', mode: 'replace' }));
+    const replace = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${replace}`, { action: 'accept' });
+    check('a Digo definition replace goes live', r.status === 200 && r.json.live_status === 'live', r);
+
+    r = await call(W1, 'POST', '/api/contributions', word('word_addition', { headword: TEST, meaning_en: 'test word' }, undefined));
+    check('the test new word → 201', r.status === 201, r);
+    const newWord = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${newWord}`, { action: 'accept' });
+    check('…accepted and live', r.status === 200 && r.json.live_status === 'live', r);
+
+    r = await call(W2, 'POST', '/api/contributions', word('spelling_variant', { form: 'majaribiyo', kind: 'dialect' }));
+    check('a regional form → 201', r.status === 201, r);
 
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });

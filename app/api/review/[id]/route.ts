@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import type { SupabaseClient } from '@supabase/supabase-js';
-import { PAYLOADS, reviewSchema, NEVER_PUBLIC, type ContributionType } from '@/lib/contributions/schemas';
+import { PAYLOADS, reviewSchema, NEVER_PUBLIC, TEST_TARGET, type ContributionType } from '@/lib/contributions/schemas';
 import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget, loadWord } from '@/lib/contributions/targets';
+import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
@@ -120,7 +120,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (body.merge_ids) args.merge_ids = body.merge_ids;
       // A new sense gets its id now, once: past every current sense and every live new sense on the entry.
       if (row.type === 'definition_update' && finalPayload.mode === 'add_sense' && row.target_id) {
-        const raw = loadWord(row.target_id);
+        const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
         if (!raw) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
         const [entry] = applyAllToEntries([raw], liveChanges);
         const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
