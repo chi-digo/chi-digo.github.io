@@ -70,44 +70,4 @@ export const figures: Figure[] = [
       dg: 'Mwanatsi (mzehe mkulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, kuko Mwaroni.',
     },
   },
-  {
-    slug: 'vincent-nkondokaya',
-    name: 'Vincent Geoffrey Nkondokaya',
-    era: {
-      en: 'Born 1956',
-      sw: 'Alizaliwa 1956',
-      dg: 'Wavyalwa 1956',
-    },
-    role: {
-      en: 'Historian and ethnographer',
-      sw: 'Mwanahistoria na mtaalamu wa makabila',
-      dg: 'Mwanahistoria na mtaalamu wa makabila',
-    },
-    region: 'Tanga, Tanzania',
-    summary: {
-      en: 'Author of Asili ya Tanga pamoja na asili ya Wadigo, Wasegeju na Wadaiso — a systematic attempt to record the origins of Tanga\'s peoples before the last generation of oral historians passes away.',
-      sw: 'Mwandishi wa Asili ya Tanga pamoja na asili ya Wadigo, Wasegeju na Wadaiso — jaribio la kimfumo la kurekodi asili ya watu wa Tanga kabla ya kizazi cha mwisho cha wanahistoria wa mdomo kupita.',
-      dg: 'Mwandishi wa Asili ya Tanga phamwenga na asili ya Adigo, Asegeju na Adaiso — jaribio ra chimfumo ra kurekodi asili ya atu a Tanga kabla ya chizazi cha mwisho cha anahistoria a mdomo kupita.',
-    },
-  },
-  {
-    slug: 'hassan-mwakimako',
-    name: 'Prof. Hassan Mwakimako',
-    era: {
-      en: 'Contemporary',
-      sw: 'Wa sasa',
-      dg: 'Wa rero',
-    },
-    role: {
-      en: 'Islamic studies scholar, Secretary of Digo Ngambi',
-      sw: 'Mtaalamu wa masomo ya Kiislamu, Katibu wa Ngambi ya Wadigo',
-      dg: 'Mtaalamu wa masomo ga Chiislamu, Katibu wa Ngambi ya Adigo',
-    },
-    region: 'Kilifi, Kenya',
-    summary: {
-      en: 'Associate Professor at Pwani University whose research on kadhi courts, colonial governance, and Muslim identity on the Kenya coast has been published by Edinburgh University Press, Brill and others. Also serves as Secretary of the Digo Ngambi (traditional leadership council).',
-      sw: 'Profesa Mshiriki katika Chuo Kikuu cha Pwani ambaye utafiti wake kuhusu mahakama za makadhi, utawala wa kikoloni, na utambulisho wa Kiislamu pwani ya Kenya umechapishwa na Edinburgh University Press, Brill na wengine. Pia ni Katibu wa Ngambi ya Wadigo.',
-      dg: 'Profesa Mshiriki kpwa Chuo Chikulu cha Pwani ambaye utafiti wakpwe kuhusu mahakama za makadhi, utawala wa chikoloni, na utambulisho wa Chiislamu pwani ya Kenya umechapishwa ni Edinburgh University Press, Brill na anjina. Piya ni Katibu wa Ngambi ya Adigo.',
-    },
-  },
 ];
