@@ -18,6 +18,8 @@ describe('figure articles', () => {
       expect(a.sources.length).toBeGreaterThan(0);
       // Overview labels and the Sources list never leak into the body.
       expect(a.body.some((b) => /^(overview|sources)$/i.test(b.text))).toBe(false);
+      // Quotations are parsed as quote blocks, never shown with a literal ">" (HIST-2).
+      expect(a.body.some((b) => b.text.trimStart().startsWith('>'))).toBe(false);
     });
   }
   it('every figure card has its article in all three languages', () => {

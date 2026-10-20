@@ -14,7 +14,7 @@ Nearly everything known about him comes from his grandson, Saidi bin Khalfan Mwa
 
 ## The Kayas of Likoni
 
-By the 19th century the Digo of the Likoni area lived in four kayas: Puma, Chibuyuni, Timbwani and Shonda. A kaya was a fortified settlement and ritual centre, governed by a council of elders (*ngambi*). Its senior elder, the *mwanatsi* ("son of the land"), led the ceremonies and was normally chosen through the mother's line from the founding clan. The four Likoni kayas formed a federation whose elders met and made sacrifices together. Shonda came first among them. It held the earliest ancestral graves and one of the oldest protective charms (*jingo*) of the area, and ritual processions passed through the other three kayas before reaching Shonda, where the main ceremonies took place.
+By the 19th century the Digo of the Likoni area lived in four kayas: Puma, Chibuyuni, Timbwani and Shonda. A kaya was a fortified settlement and ritual centre, governed by a council of elders (*ngambi*). Its senior elder, the *mwanatsi* ("son of the land"), led the ceremonies and was normally chosen through the mother's line from the founding clan. The four Likoni kayas formed a federation whose elders met and made sacrifices together. Shonda came first among them. It held the earliest ancestral graves and one of the oldest protective charms (*fingo*) of the area, and ritual processions passed through the other three kayas before reaching Shonda, where the main ceremonies took place.
 
 Muslims did not live at Likoni in the early 19th century, though Kilindini Swahili from Mombasa farmed there. In 1837 the Sultan of Zanzibar posted Baluchi soldiers at Mombasa, and they soon began trading with the Digo. Some took Digo wives. With no Digo market at Likoni, traders laid out their goods near the shore.
 
@@ -32,7 +32,7 @@ There was no mosque at Likoni then. Like other Digo converts, Mwabundu went to M
 
 In the early 1890s Mwabundu sent his eldest son, Khalfan, to study the Qur'an. Khalfan's first teacher was Mbwana bin Ali Mwarako, a Digo from Tanga who was teaching at Likoni. He then studied in Mombasa, and finally at Pongwe with Bakari Mwanjama, a Segeju teacher and a friend of his father. He was still at Pongwe when it was destroyed in October 1895, in the fighting between the British and Shaykh Mbaruk of Gasi, and his teacher moved with his pupils to Ramisi.
 
-In 1899 Khamis Dzugwe built Likoni's first mosque, the Riyadha Mosque. When Khalfan came home he became its Imam. In about 1909 Salim Mwabundu built the second, the Bomani Mosque, after first digging a well nearby with the help of a Bohora Muslim from Mombasa. Khalfan left the Riyadha Mosque to become the first Imam at Bomani, and after the First World War he opened a Qur'an school there. A government list of mosques in 1913 records one belonging to "Salim wa Bundu".
+In 1899 Khamis Dzubgwe built Likoni's first mosque, the Riyadha Mosque. When Khalfan came home he became its Imam. In about 1909 Salim Mwabundu built the second, the Bomani Mosque, after first digging a well nearby with the help of a Bohora Muslim from Mombasa. Khalfan left the Riyadha Mosque to become the first Imam at Bomani, and after the First World War he opened a Qur'an school there. A government list of mosques in 1913 records one belonging to "Salim wa Bundu".
 
 ## Under British Rule
 
