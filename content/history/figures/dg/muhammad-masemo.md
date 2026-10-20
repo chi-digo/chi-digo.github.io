@@ -28,7 +28,7 @@ Kama mwaka 1905 Masemo wavugula dukare mwenye. Sperling anaamba kukala iye ndiye
 
 ## Msikiti wa Kpwandza wa Chikoneni
 
-Kama mwaka 1906 Masemo wadzenga Msikiti wa Mophe kpwakpwe kaya, msikiti wa kpwandza kahi ya phatu pha Chikoneni. Kabla ya msikiti uhu, Aislamu a Chikoneni kala anaswali dzulu ya micheka kondze kpwereru. Omari, mwana wa Masemo, wasoma kpwa Abdallah bin Kasim Mwangumi, mwalimu Msegeju ariyefika Chikoneni kama mwaka 1903. Omari ariphomala masomoge, wakala Imamu. Atu kala anakpwedza Swala ya Ijumaa kula Nyamala, Vivwini, Mwaluvanga na Mrima. Msikiti ugbwa wakati wa Viha vya Kpwandza vya Dunia. Bada ya viha Masemo watsama kuphiya kahi-kahi ya Chikoneni na achiudzenga tsena phephi na nyumbaye nyiphya.
+Kama mwaka 1906 Masemo wadzenga Msikiti wa Mophe kpwakpwe kaya, msikiti wa kpwandza kahi ya phatu pha Chikoneni. Kabla ya msikiti uhu, Aislamu a Chikoneni kala anaswali dzulu ya micheka kondze kpwereru. Omari, mwana wa Masemo, wasoma kpwa Abdallah bin Kasim Mwangumi, mwalimu Msegeju ariyefika Chikoneni kama mwaka 1903. Omari ariphomala masomoge, wakala Imamu. Atu kala anakpwedza Swala ya Ijumaa kula Nyamala, Vivwini, Mwaluvanga na Mrima. Msikiti wagbwa wakati wa Viha vya Kpwandza vya Dunia. Bada ya viha Masemo watsama kuphiya kahi-kahi ya Chikoneni na achiudzenga tsena phephi na nyumbaye nyiphya.
 
 ## Dzumbe na Rais wa Baraza
 
