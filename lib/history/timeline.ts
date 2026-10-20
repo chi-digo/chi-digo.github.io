@@ -229,6 +229,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'colonial',
+    date: '1891–1892',
+    title: {
+      en: 'The Wadigo haul down the German flag',
+      sw: 'Wadigo washusha bendera ya Kijerumani',
+      dg: 'Adigo anausa bendera ya Chijerumani',
+    },
+    description: {
+      en: "Inland from Tanga, the Digo around Gombelo tear down the German flag, declare themselves independent, drive a German officer back to Amboni and burn the plantation company's barns. A punitive expedition under von Bülow burns their villages and drives off their livestock.",
+      sw: 'Bara ya Tanga, Wadigo wa karibu na Gombelo wanashusha bendera ya Kijerumani, wanajitangaza huru, wanamrudisha nyuma afisa wa Kijerumani hadi Amboni na kuchoma ghala za kampuni ya mashamba. Kikosi cha adhabu chini ya von Bülow kinachoma vijiji vyao na kuchukua mifugo yao.',
+      dg: 'Bara ya Tanga, Adigo a phephi na Gombelo anausa bendera ya Chijerumani, anadzitangaza kukala huru, anamzorera afisa Mjerumani hadi Amboni na anaocha vitsaga vya kampuni ya mashamba. Asikari a Chijerumani a adhabu, achilongozwa ni von Bülow, anaocha vidzidzi vyao na anahala mifugo yao.',
+    },
+  },
+  {
+    era: 'colonial',
     date: '1895–1896',
     title: {
       en: 'The Mazrui rising',

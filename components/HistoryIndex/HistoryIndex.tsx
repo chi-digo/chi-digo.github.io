@@ -18,6 +18,8 @@ const eraPeriods: Record<Era, string> = {
   modern: '1963–present',
 };
 
+/** Figure cards shown on the History page; the rest are on /history/figures. */
+const FIGURE_PREVIEW = 5;
 
 /** A figure card; a link to the full article once one exists in all three languages. */
 function FigureCard({ href, children }: { href: string | null; children: React.ReactNode }) {
@@ -112,10 +114,12 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
       <section ref={figuresRef} className={`${styles.section} ${styles.sectionSand}`}>
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionHeading}>
-            {t.history.figures_heading}
+            <a href="/history/figures" className={styles.sectionHeadingLink} onClick={() => trackNavClick('history_figures', '/history/figures')}>
+              {t.history.figures_heading}
+            </a>
           </h2>
           <div className={styles.figureGrid}>
-            {figures.map((fig) => (
+            {figures.slice(0, FIGURE_PREVIEW).map((fig) => (
               <FigureCard key={fig.slug} href={figureArticles.includes(fig.slug) ? `/history/figures/${fig.slug}` : null}>
                 <h3 className={styles.figureName}>{fig.name}</h3>
                 <div className={styles.figureMeta}>
@@ -126,6 +130,10 @@ export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[
                 <p className={styles.figureSummary}>{fig.summary[locale]}</p>
               </FigureCard>
             ))}
+            <a href="/history/figures" className={`${styles.figureCard} ${styles.figureCardLink} ${styles.figureSeeAll}`} onClick={() => trackNavClick('history_figures', '/history/figures')}>
+              <h3 className={styles.figureName}>{t.history.figures_see_all} →</h3>
+              <p className={styles.figureSummary}>{t.history.figures_see_all_text}</p>
+            </a>
           </div>
         </div>
       </section>

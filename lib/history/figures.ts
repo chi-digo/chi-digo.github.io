@@ -131,6 +131,26 @@ export const figures: Figure[] = [
     },
   },
   {
+    slug: 'dzumbe-mamfulla',
+    name: "Dzumbe Mamfulla",
+    era: {
+      en: "c. 1890–1892",
+      sw: "Karibu 1890–1892",
+      dg: "Kama 1890–1892",
+    },
+    role: {
+      en: "First chief over all the Tanzanian Digo",
+      sw: "Mkuu wa kwanza wa Wadigo wote wa Tanzania",
+      dg: "Dzumbe wa kpwandza wa Adigo osi a Tanzania",
+    },
+    region: "Gombelo, Tanzania",
+    summary: {
+      en: "In 1890 the Germans made him chief over the Digo villages behind Tanga, which until then had been governed by councils of elders. Soon afterwards the country around his village rose, tore down the German flag and declared itself independent.",
+      sw: "Mwaka 1890 Wajerumani walimfanya mkuu wa vijiji vya Wadigo vya bara la Tanga, ambavyo hadi wakati huo viliongozwa na mabaraza ya wazee. Muda mfupi baadaye, nchi iliyozunguka kijiji chake iliinuka, ikashusha bendera ya Kijerumani na kujitangaza huru.",
+      dg: "Mwaka 1890 Ajerumani amuika kukala Dzumbe wa vidzidzi vya Adigo vya bara ya Tanga, ambavyo hadi wakati hinyo kala vinalongozwa ni azehe. Bada ya muda mfupi, Adigo a phephi na chidzidziche achiusa bendera ya Chijerumani na achidzitangaza kukala huru.",
+    },
+  },
+  {
     slug: 'muhammad-masemo',
     name: "Muhammad Masemo",
     era: {
@@ -188,6 +208,26 @@ export const figures: Figure[] = [
       en: 'A Swahili imam from Mombasa who, in 1927, persuaded the Diani elders that the ruin in the forest was a mosque, not a spirit shrine. The villagers cleared it together, and he reopened the Kongo Mosque with a maulid in 1932.',
       sw: 'Imamu wa Kiswahili kutoka Mombasa ambaye, mwaka 1927, aliwashawishi wazee wa Diani kwamba gofu lililokuwa msituni lilikuwa msikiti, si mahali pa pepo. Wanakijiji waliusafisha pamoja, naye akaufungua tena Msikiti wa Kongo kwa maulidi mwaka 1932.',
       dg: 'Imamu wa Chiswahili kula Mombasa ambaye, mwaka 1927, waashawishi azehe a Diani kukala gofu riro tsakani kala ni msikiti, si phatu pha pepho. Atu a mudzi ausafisha phamwenga, naye achiufungula tsena Msikiti wa Kongo kpwa maulidi mwaka 1932.',
+    },
+  },
+  {
+    slug: 'shaaban-robert',
+    name: "Shaaban Robert",
+    era: {
+      en: "1909–1962",
+      sw: "1909–1962",
+      dg: "1909–1962",
+    },
+    role: {
+      en: "Swahili poet and writer",
+      sw: "Mshairi na mwandishi wa Kiswahili",
+      dg: "Mshairi na mwandishi wa Chiswahili",
+    },
+    region: "Machui, Tanzania",
+    summary: {
+      en: "The best-known Swahili writer of the twentieth century was born at Machui, south of Tanga, to a Digo mother. He called himself Swahili, but he grew up among his mother's people, and he is buried at Machui.",
+      sw: "Mwandishi wa Kiswahili anayejulikana zaidi wa karne ya ishirini alizaliwa Machui, kusini mwa Tanga, na mama wa Kidigo. Alijiita Mswahili, lakini alikulia miongoni mwa watu wa mama yake, na amezikwa Machui.",
+      dg: "Mwandishi wa Chiswahili ariyemanyikana zaidi wa karne ya 20 wavyalwa Machui, kusini ya Tanga, na nineye kala ni Mdigo. Wadziiha Mswahili, ela wakulira kahi ya atu a uphande wa nineye, na wazikpwa Machui.",
     },
   },
   {
