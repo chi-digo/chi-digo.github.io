@@ -10191,7 +10191,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mahari ni musingi wa mazungumzo ga ndowa. Kpwa jadi, mahari irikala ng'ombe nne, mbuzi mbiri au ng'ondzi, na tembo kula mbari ya bwana arusi. Hivi tavirikala vitu vidide. Virikala utajiri mkpwulu, na malipo garimanyikana kukala ushahidi wa uwezo wa mbari ya bwana arusi, nia yao ya kpweli, na hishima yao kpwa bibi arusi na mbariye."
+              "text": "Mahari ni musingi wa mazungumzo ga ndowa. Kpwa jadi, mahari irikala ng'ombe nne, mbuzi mbiri au ng'ondzi, na uchi kula mbari ya bwana arusi. Hivi tavirikala vitu vidide. Virikala utajiri mkpwulu, na malipo garimanyikana kukala ushahidi wa uwezo wa mbari ya bwana arusi, nia yao ya kpweli, na hishima yao kpwa bibi arusi na mbariye."
             },
             {
               "type": "paragraph",
@@ -10279,7 +10279,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mbuzi anachinjwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na tembo. Chakurya cha phamwenga chenyewe ni ibada — chihendo cha ushirika chinachounganisha nyumba mbiri na jamii zao phamwenga kpwa kurya phamwenga."
+              "text": "Mbuzi anachinjwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na uchi. Chakurya cha phamwenga chenyewe ni ibada — chihendo cha ushirika chinachounganisha nyumba mbiri na jamii zao phamwenga kpwa kurya phamwenga."
             },
             {
               "type": "heading",
@@ -11303,7 +11303,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mzunguko wa monsuni tautawala chirimo bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kpwedza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya jamii inayoonyesa kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinareha shereheze, shukranize, na wajibuwe wa chidzamii. Hata kujema tembo — desturi iyo ya chipekee ya Chidigo — kunalunga midundo ya msimu, ambapho utomvu unaophahikana unabadilika kulingana na mvula na dzoho. Dzuwa kali rinaphunguza mtiririko wa utomvu, na kuphunguza si chinwadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya tembo ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga jamii."
+              "text": "Mzunguko wa monsuni tautawala chirimo bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kpwedza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya jamii inayoonyesa kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinareha shereheze, shukranize, na wajibuwe wa chidzamii. Hata kujema uchi — desturi iyo ya chipekee ya Chidigo — kunalunga midundo ya msimu, ambapho utomvu unaophahikana unabadilika kulingana na mvula na dzoho. Dzuwa kali rinaphunguza mtiririko wa utomvu, na kuphunguza si chinwadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya uchi ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga jamii."
             },
             {
               "type": "heading",

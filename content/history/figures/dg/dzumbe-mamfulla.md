@@ -36,7 +36,7 @@ Tahumanya kpwa hakika kukala Mamfulla kala ni Mdigo. Baumann kagomba hivyo. Kahi
 
 Mwisho wa mwaka 1891 tsi ya Adigo iriyozunguka Gombelo yazuka kuapinga Ajerumani. Baumann wauya Januari 1892 na msafara muphya, achisikira mambo garigohendeka majumwa machache kabla. Adigo, "ambao siku zosi kala ni araiya anono sana, ghafula achiusa bendera ya Chijerumani na achidzitangaza kukala huru". Afisa Mjerumani wakpwedza na asikari achache kuauyiza photsi ya utawala wa Chijerumani. Adigo amvamira kpwa risasi nyinji, achimhenda auye nyuma, achimzoresa hadi Amboni, na achiocha vitsaga vya kampuni ya mashamba.
 
-Ajerumani ajibu kpwa nguvu. Asikari akpwedza na meli kula Dar es Salaam, na Freiherr von Bülow wahumwa "kuatuliza" Adigo. Baumann anagaiha mambo garigolunga "njira ya kawaida ya adhabu, ya kuocha vidzidzi na kuhala mifugo". Analaumu tembo kpwa uasi uho, chibero ambacho kala akachiandika sana kahi ya chitabuche cha kare. Ela habariye mwenye inaonyesa kukala Adigo ausa bendera, adzitangaza kukala huru, na apigana.
+Ajerumani ajibu kpwa nguvu. Asikari akpwedza na meli kula Dar es Salaam, na Freiherr von Bülow wahumwa "kuatuliza" Adigo. Baumann anagaiha mambo garigolunga "njira ya kawaida ya adhabu, ya kuocha vidzidzi na kuhala mifugo". Analaumu uchi kpwa uasi uho, chibero ambacho kala akachiandika sana kahi ya chitabuche cha kare. Ela habariye mwenye inaonyesa kukala Adigo ausa bendera, adzitangaza kukala huru, na apigana.
 
 Siku tahu bada ya von Bülow kuuka, Baumann na atue 200 ariotsukula silaha alala photsi ya muhi mkpwulu kondze ya Gombelo. Chidzidzi kala tuphu: atu a hiko kala akachimbira weruni, na apagazi anjina ariosala nyuma achipigwa mivi. Atu a Baumann achihala manga na kuku kula minda iriyorichwa.
 

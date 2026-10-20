@@ -16,13 +16,13 @@ Phahi kala si mwandishi wa Chidigo. Ela atu a uphande wa nineye kala ni Adigo, i
 
 Vyanzo vinji vinagomba wavyalwa tarehe 1 Januari 1909 iko Vibamba (Vibambani), seemu ya chidzidzi cha Machui. Utafiti wa A. Taib, uriochapishwa ni Chuo Kikuu cha Dar es Salaam mwaka 2009, unagomba wavyalwa mwaka 1902. Ise kala anaihwa Ufukwe, Selemani na Robert, na ariphokala mwana mdide Shaaban kala anamanyikana dza Shaaban bin Selemani. Dzina "Robert" rakula kpwa ise.
 
-Taib waandika kukala tabiyaye na vipawavye vyakula kpwa mila za makabila mairi garigokutana kahi ya mbari mwenga: uphande wa ise ni Ayao a Ruvuma, na uphande wa nineye ni Adigo a Tanga. Insha ya mwanafundzi iriyochapishwa mtandaoni mwaka 2016 inaenjereza kukala nineye kala ni wa ukoo wa Mwalimu Kihere, kukala naye kala anadziiha Mswahili, na kukala Shaaban kala ni mwana wa nne kahi ya anae kumi na ane. Insha iyo iyo inagomba ise wafwa Septemba 1918, na mwana hiye achihumwa Dar es Salaam kuphiya kukala na tsaweye.
+Taib waandika kukala tabiyaye na vipawavye vyakula kpwa mila za makabila mairi garigokutana kahi ya mbari mwenga: uphande wa ise ni Ayao a Ruvuma, na uphande wa nineye ni Adigo a Tanga. Insha ya mwanafundzi iriyochapishwa mtandaoni mwaka 2016 inaenjereza kukala nineye kala ni wa ukoo wa Mwalimu Chihere, kukala naye kala anadziiha Mswahili, na kukala Shaaban kala ni mwana wa nne kahi ya anae kumi na ane. Insha iyo iyo inagomba ise wafwa Septemba 1918, na mwana hiye achihumwa Dar es Salaam kuphiya kukala na tsaweye.
 
 ## Shule na Kazi ya Serikali
 
-Shaaban wasoma Dar es Salaam kula 1922 hadi 1926. Wamaliza shule na cheti cha kumaliza shule, achikala wa phiri kahi ya darasa ra anafundzi kumi na mmwenga. Bada ya hipho kayaenderera na masomo ga shule.
+Shaaban wasoma Dar es Salaam kula 1922 hadi 1926. Wamarigiza shule na cheti cha kumarigiza shule, achikala wa phiri kahi ya darasa ra anafundzi kumi na mmwenga. Bada ya hipho kayaenderera na masomo ga shule.
 
-Wahenda kazi ya serikali ya chikoloni maishage gosi. Kala ni afisa wa forodha kahi ya vituo kadhaa kula 1926 hadi 1944, chisha wahenda kazi Idara ya Wanyamapori kula 1944 hadi 1946, Ofisi ya Wilaya ya Tanga kula 1946 hadi 1952, na Ofisi ya Upimaji kula 1952 hadi 1960. Piya kala ni mjumbe wa Baraza ra Mudzi wa Tanga. Wahenda kazi na kamati zirizokala zinarinda luga ya Chiswahili, dza Kamati ya Chiswahili ya Afrika ya Mashariki na Ofisi ya Maandiko ga Afrika ya Mashariki. Serikali ya Aingereza yampha nishani ya MBE (Member of the Order of the British Empire).
+Wahenda kazi ya serikali ya chikoloni maishage gosi. Kala ni afisa wa forodha kahi ya vituo kadhaa kula 1926 hadi 1944, chisha wahenda kazi Idara ya Anyama Pori kula 1944 hadi 1946, Ofisi ya Wilaya ya Tanga kula 1946 hadi 1952, na Ofisi ya Upimaji kula 1952 hadi 1960. Piya kala ni mjumbe wa Baraza ra Mudzi wa Tanga. Wahenda kazi na kamati zirizokala zinarinda luga ya Chiswahili, dza Kamati ya Chiswahili ya Afrika ya Mashariki na Ofisi ya Maandiko ga Afrika ya Mashariki. Serikali ya Aingereza yampha nishani ya MBE (Member of the Order of the British Empire).
 
 ## Mwandishi
 
@@ -44,7 +44,7 @@ Ushahidi wa kukala nineye kala ni Mdigo ni lazima ugombwe kpwa wazi. Unategemea 
 
 Shaaban Robert wafwa Juni 1962. Vyanzo vinji vinataja tarehe 22 Juni. Vyanjina vinagomba wafwa tarehe 20 Juni na achizikpwa tarehe 22 Juni; piya tavilingana kuhusu ichikala wafwa Tanga au Dar es Salaam. Vyosi vinalingana kukala wazikpwa Machui, kahi ya mbira za mbari iko Vibambani.
 
-Shule na barabara zina dzinare, dza Shule ya Sekondari ya Shaaban Robert iko Dar es Salaam, iriyoandzishwa phephi na mwaka 1963, na shule ya msingi. Kuna ukumbi wenye dzinare kahi ya Maktaba ya Mkoa wa Tanga, na Tamasha ra Shaaban Robert. Iko Machui kuna nyumba ndide ya kumbukumbu, na nyumba ya maktaba ambayo taidzangbwemalizwa kpwa zaidi ya miaka kumi. Insha ya Chiswahili ya mwaka 2025 inagomba kukala mbiraye i kahi ya vitsaka, na taina alama za kutosha. Mwaka 2026 achinae na asomi a Chiswahili agomba kukala phatu hipho taphalingana na kazi ariyoihendera taifa. Kpwa Adigo a Tanga, mwandishi mkpwulu wa Chiswahili akalala kahi yao, kahi ya tsi ya nineye.
+Shule na barabara zina dzinare, dza Shule ya Sekondari ya Shaaban Robert iko Dar es Salaam, iriyoandzishwa phephi na mwaka 1963, na shule ya msingi. Kuna ukumbi wenye dzinare kahi ya Maktaba ya Mkoa wa Tanga, na Tamasha ra Shaaban Robert. Iko Machui kuna nyumba ndide ya kumbukumbu, na nyumba ya maktaba ambayo taidzangbwemarigizwa kpwa zaidi ya miaka kumi. Insha ya Chiswahili ya mwaka 2025 inagomba kukala mbiraye i kahi ya vitsaka, na taina alama za kutosha. Mwaka 2026 achinae na asomi a Chiswahili agomba kukala phatu hipho taphalingana na kazi ariyoihendera taifa. Kpwa Adigo a Tanga, mwandishi mkpwulu wa Chiswahili akalala kahi yao, kahi ya tsi ya nineye.
 
 ## Vyanzo
 
