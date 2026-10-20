@@ -8,7 +8,7 @@ import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
 import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './HistoryArticle.module.css';
 
-function renderInlineMarkdown(text: string): React.ReactNode[] {
+export function renderInlineMarkdown(text: string): React.ReactNode[] {
   const parts: React.ReactNode[] = [];
   const regex = /(\*\*(.+?)\*\*|\*(.+?)\*)/g;
   let lastIndex = 0;
@@ -34,7 +34,7 @@ function renderInlineMarkdown(text: string): React.ReactNode[] {
   return parts;
 }
 
-function ArticleBody({ body }: { body: ContentBlock[] }) {
+export function ArticleBody({ body }: { body: ContentBlock[] }) {
   return (
     <div className={styles.articleBody}>
       {body.map((block, i) =>

@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
 import { faqJsonLd } from '@/lib/seo/jsonld';
+import { publishedFigureSlugs } from '@/lib/history/figure-articles';
 
 export async function generateMetadata({
   params,
@@ -42,7 +43,7 @@ export default function Page() {
   return (
     <>
       <JsonLd data={historyFaq} />
-      <HistoryIndex />
+      <HistoryIndex figureArticles={publishedFigureSlugs()} />
     </>
   );
 }

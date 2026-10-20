@@ -195,6 +195,7 @@ export interface Messages {
     intro: string;
     timeline_heading: string;
     figures_heading: string;
+    figure_sources: string;
     topics_heading: string;
     back_to_history: string;
   };
