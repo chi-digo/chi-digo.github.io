@@ -32,7 +32,7 @@ Dzambo kulu Sperling ariroona kuhusu Amijikenda a kusini ni kukala, kula miaka y
 
 Waenderera kuhenda biashara Mombasa, na nkugombwa kukala watsemberera Zanzibar. Ela wasala kukala mwanatsi, achienderera kulongoza mila za Kaya Diani. Azehe kala anatambukira mavoyoge ga mvula kukala gakala na nguvu kulu sana. Atu kala anamrehera mbuzi, kuku na nyama anjina ili alavye sadaka kpwenye mavoyo ga kaya. Kpwakpwe, kukala Mwislamu na kukala mkpwulu wa mila wa kaya kala si maisha mairi ga kutsambula mwenga.
 
-Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka ya 1880 na miaka ya 1890 achuuzi Aislamu aandza kusagala Diani. Kala anaguza ng'onda, tende, ushanga na nguwo, achigula nazi na tumbaku, na kurehera atu nafaka miaka ya ndzala. Ariphokala anaphiya bara kugula tumbaku, Mwapodzo kala anaapha atu a kuphiya nao njirani. Anjina ao asagala **Diani Mwaroni**, phatu ambapho Mwapodzo kala anaishi. Mmwenga wao, Mbega, mtumwa ariyerichwa huru, kala ni msenawe. Mwapodzo piya kala ni msena wa Shaykh Mbaruk bin Rashid, chilongozi wa Amazrui kuko Gasi.
+Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka ya 1880 na miaka ya 1890 achuuzi Aislamu aandza kusagala Diani. Kala anaguza ng'onda, tende, ushanga na nguwo, achigula nazi na tumbaku, na kurehera atu nafaka miaka ya ndzala. Ariphokala anaphiya bara kugula tumbaku, Mwapodzo kala anaapha asindikizihe. Anjina ao asagala **Diani Mwaroni**, phatu ambapho Mwapodzo kala anaishi. Mmwenga wao, Mbega, mtumwa ariyerichwa huru, kala ni msenawe. Mwapodzo piya kala ni msena wa Shaykh Mbaruk bin Rashid, chilongozi wa Amazrui kuko Gasi.
 
 ## Msikiti wa Mwaroni
 

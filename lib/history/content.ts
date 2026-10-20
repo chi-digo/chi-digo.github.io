@@ -323,15 +323,15 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka ya 1980 wakati Henry Mutoro, mwanaakiolojia wa Kenya akihenda kazi kpwa Chuo Chikulu cha Nairobi, aripokpwandza uchimbaji wa kpwandza wa chimfumo kpwa maeneo ga makaya."
+            "text": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka ya 1980 wakati Henry Mutoro, mwanaakiolojia wa Kenya akihenda kazi kpwa Chuo Chikulu cha Nairobi, aripokpwandza utsimbadzi wa kpwandza wa chimfumo kpwa maeneo ga makaya."
           },
           {
             "type": "heading",
-            "text": "Uchimbaji wa Mutoro"
+            "text": "Utsimbadzi wa Mutoro"
           },
           {
             "type": "paragraph",
-            "text": "Mutoro arichimba makaya manane, akichagula maeneo kula Kilifi hadi Kwale. Matokeo muhimu zaidi garitoka Kaya Singwaya, ambapho uchimbaji \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Ufinyanzi urionyesha chimila za utengenezaji zirizoimarishwa na mitindo ya mapambo inayoiunganisha na chimila phana ya keramiki ya ph'wani ya Afrika Mashariki."
+            "text": "Mutoro arichimba makaya manane, akichagula maeneo kula Kilifi hadi Kwale. Matokeo muhimu zaidi garitoka Kaya Singwaya, ambapho utsimbadzi \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Ufinyanzi urionyesha chimila za utengenezaji zirizoimarishwa na mitindo ya mapambo inayoiunganisha na chimila phana ya keramiki ya ph'wani ya Afrika Mashariki."
           },
           {
             "type": "paragraph",
@@ -339,7 +339,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "heading",
-            "text": "Zaidi ya ufinyanzi, uchimbaji wa Mutoro uripata zana za chuma na mabaki ga kazi ya chuma — takataka, vipande vya tuyere, na madini garigosagwa kpwa sehemu. Upho wa ushahidi wa kazi ya chuma kpwa maeneo manji ga makaya unaonyesha kukala Amijikenda akala atengenezaji a uhai enye chimila zao za chimetali."
+            "text": "Zaidi ya ufinyanzi, utsimbadzi wa Mutoro uripata zana za chuma na mabaki ga kazi ya chuma — takataka, vipande vya tuyere, na madini garigosagwa kpwa sehemu. Upho wa ushahidi wa kazi ya chuma kpwa maeneo manji ga makaya unaonyesha kukala Amijikenda akala atengenezaji a uhai enye chimila zao za chimetali."
           },
           {
             "type": "paragraph",
@@ -347,7 +347,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Mpangilio wa chimwili wa maeneo ga makaya unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda: msitu wa kinga, njira mbiri, malango garigoimarishwa, na kiwanja cha kahi chenye miundo ya sherehe na utawala."
+            "text": "Mpangilio wa chimwiri wa maeneo ga makaya unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda: msitu wa kinga, njira mbiri, malango garigoimarishwa, na kiwanja cha kahi chenye miundo ya sherehe na utawala."
           },
           {
             "type": "paragraph",
@@ -355,7 +355,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "heading",
-            "text": "Ushahidi wa tarehe kula uchimbaji wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi. Ufinyanzi wa karne ya kumi na pendekezo kukala makaya ganaweza kuanzishwa mapema karne ya tisa — ikiweza kutangulia midzi ya mawe ya Chiswahili — inabadilisha mtazamo wa historia ya ph'wani ya Afrika Mashariki."
+            "text": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi. Ufinyanzi wa karne ya kumi na pendekezo kukala makaya ganaweza kuanzishwa mapema karne ya tisa — ikiweza kutangulia midzi ya mawe ya Chiswahili — inabadilisha mtazamo wa historia ya ph'wani ya Afrika Mashariki."
           },
           {
             "type": "paragraph",
@@ -363,7 +363,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Uchimbaji urithibitisha vipengele kadhaa vya mapokeo ga mdomo: makaya gakala makazi ga kare, garigoimarishwa, genye ushahidi wa maisha ga jamii garigopangwa. Ela ushahidi wa tarehe unapinga masimulizi ga kawaida ga uhamisho, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya atu inayobadilika phatu badala ya kuwasili gafla."
+            "text": "Utsimbadzi urithibitisha vipengele kadhaa vya mapokeo ga mdomo: makaya gakala makazi ga kare, garigoimarishwa, genye ushahidi wa maisha ga jamii garigopangwa. Ela ushahidi wa tarehe unapinga masimulizi ga kawaida ga uhamisho, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya atu inayobadilika phatu badala ya kuwasili gafla."
           },
           {
             "type": "heading",
@@ -371,7 +371,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Mpangilio wa chimwili wa maeneo ga makaya, unaoonekana kpwa rekodi ya chiakiolojia na kpwa makaya ga uhai ganago dumishwa mfululizo, unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda. Msitu mnene wa kinga unadzikiriya makazi, ukipishishwa ni njira mbiri zinazoongoza kupitshi malango garigoimarishwa. Kiwanja cha kahi china miundo ya sherehe na utawala — kuba ra mkutano ra *moroni*, miri mitakatifu, na eneo ambapho hirizi za kinga za *fingo* zinahifadhiwa."
+            "text": "Mpangilio wa chimwiri wa maeneo ga makaya, unaoonekana kpwa rekodi ya chiakiolojia na kpwa makaya ga uhai ganago dumishwa mfululizo, unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda. Msitu mnene wa kinga unadzikiriya makazi, ukipishishwa ni njira mbiri zinazoongoza kupitshi malango garigoimarishwa. Kiwanja cha kahi china miundo ya sherehe na utawala — kuba ra mkutano ra *moroni*, miri mitakatifu, na eneo ambapho hirizi za kinga za *fingo* zinahifadhiwa."
           },
           {
             "type": "paragraph",
@@ -387,15 +387,15 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Ushahidi wa tarehe kula uchimbaji wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjine kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
+            "text": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjine kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
           },
           {
             "type": "paragraph",
-            "text": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya ph'wani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za ph'wani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya ph'wani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuliko midzi ya mawe ya ph'wani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
+            "text": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya ph'wani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za ph'wani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya ph'wani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuriko midzi ya mawe ya ph'wani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
           },
           {
             "type": "paragraph",
-            "text": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga kare hivyo, ama uhamisho uritokea mapema zaidi kuliko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
+            "text": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga kare hivyo, ama uhamisho uritokea mapema zaidi kuriko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
           },
           {
             "type": "heading",
@@ -403,7 +403,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Kazi ya Mutoro taikala peke yakpwe. Inakala ndani ya chimila phana ya akiolojia ya ph'wani ya Afrika Mashariki ambayo pore-pore imekala ikikusanya picha ya historia ya eneo riro kula mabaki ga chimwili. Uchimbaji kpwa maeneo ga Chiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ga maisha ga midzi ya ph'wani, kula makazi ga mapema ga uvuvi na ukulima ga milenia ya kpwandza AD hadi midzi ya chibiashara ya mawe ya karne ya kumi na mwenga kuenderera."
+            "text": "Kazi ya Mutoro taikala peke yakpwe. Inakala ndani ya chimila phana ya akiolojia ya ph'wani ya Afrika Mashariki ambayo pore-pore imekala ikikusanya picha ya historia ya eneo riro kula mabaki ga chimwiri. Utsimbadzi kpwa maeneo ga Chiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ga maisha ga midzi ya ph'wani, kula makazi ga mapema ga uvuvi na ukulima ga milenia ya kpwandza AD hadi midzi ya chibiashara ya mawe ya karne ya kumi na mwenga kuenderera."
           },
           {
             "type": "paragraph",
@@ -411,7 +411,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Hiri rina athari kpwa kuelewa Adigo hasa. Adigo akala kpwa eneo ra mphito kahi ya ph'wani na bara, akidumisha uhusiano wa chibiashara na jamii za ph'wani za Chiswahili na makundi ga ndani. Utamaduni wao wa chimwili, dza unavyofunuliwa ni akiolojia, unaonyesha nafasi iyo ya kahi. Taakala a ph'wani tu wala a bara tu. Akala, na ni, atu a makutano — hatua ambapho ulimwengu wa chibiashara wa Bahari ya Hindi unakutana na bara ra Afrika Mashariki."
+            "text": "Hiri rina athari kpwa kuelewa Adigo hasa. Adigo akala kpwa eneo ra mphito kahi ya ph'wani na bara, akidumisha uhusiano wa chibiashara na jamii za ph'wani za Chiswahili na makundi ga ndani. Utamaduni wao wa chimwiri, dza unavyofunuliwa ni akiolojia, unaonyesha nafasi iyo ya kahi. Taakala a ph'wani tu wala a bara tu. Akala, na ni, atu a makutano — hatua ambapho ulimwengu wa chibiashara wa Bahari ya Hindi unakutana na bara ra Afrika Mashariki."
           },
           {
             "type": "heading",
@@ -419,11 +419,11 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Uchimbaji wa Mutoro urithibitisha vipengele kadhaa vya mapokeo ga mdomo. Makaya gakala kpweli makazi ga kare, si ujenzi wa phivi phivi. Gakala nafasi zirizoimarishwa, zinazolindwa — ganago lingana na mapokeo ga migogoro na uhamisho. Gakala na ushahidi wa maisha ga jamii garigopangwa, miundo ya utawala, na shughuli za chiuchumi. Picha ya jumla ya makaya dza viti vya ustaarabu, si sehemu za kudzificha tu, inasaidiwa ni rekodi ya chimwili."
+            "text": "Utsimbadzi wa Mutoro urithibitisha vipengele kadhaa vya mapokeo ga mdomo. Makaya gakala kpweli makazi ga kare, si ujenzi wa phivi phivi. Gakala nafasi zirizoimarishwa, zinazolindwa — ganago lingana na mapokeo ga migogoro na uhamisho. Gakala na ushahidi wa maisha ga jamii garigopangwa, miundo ya utawala, na shughuli za chiuchumi. Picha ya jumla ya makaya dza viti vya ustaarabu, si sehemu za kudzificha tu, inasaidiwa ni rekodi ya chimwiri."
           },
           {
             "type": "paragraph",
-            "text": "Ushahidi wa chiakiolojia piya unathibitisha usimamizi wa kiikolojia urioelezwa kpwa mapokeo ga mdomo. Misitu ya makaya, iriyohifadhiwa ni karne za mwiko dhidi ya kukata miri, ina bazi ya mabaki ga mwisho ga msitu wa kare wa ph'wani ya Afrika Mashariki. Kazi ya Mutoro irirekodia uhusiano kahi ya amana za chiakiolojia na msitu unaodzikiriya — ikionyesha kukala uhifadhi wa msitu taukala wa bahati nasibu ela muhimu kpwa mfumo wa kaya. Akare aishi msituni. Taukata nyumba ya akare. Kanuni iyo, iriyothibitishwa kpwa mapokeo ga mdomo, inathibitishwa ni ukpweli wa chimwili wa misitu ambayo imesimama, ikilindwa, kpwa miaka elfu mwenga."
+            "text": "Ushahidi wa chiakiolojia piya unathibitisha usimamizi wa kiikolojia urioelezwa kpwa mapokeo ga mdomo. Misitu ya makaya, iriyohifadhiwa ni karne za mwiko dhidi ya kukata miri, ina bazi ya mabaki ga mwisho ga msitu wa kare wa ph'wani ya Afrika Mashariki. Kazi ya Mutoro irirekodia uhusiano kahi ya amana za chiakiolojia na msitu unaodzikiriya — ikionyesha kukala uhifadhi wa msitu taukala wa bahati nasibu ela muhimu kpwa mfumo wa kaya. Akare aishi msituni. Taukata nyumba ya akare. Kanuni iyo, iriyothibitishwa kpwa mapokeo ga mdomo, inathibitishwa ni ukpweli wa chimwiri wa misitu ambayo imesimama, ikilindwa, kpwa miaka elfu mwenga."
           },
           {
             "type": "heading",
@@ -431,19 +431,19 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Ela uchimbaji piya uripinga vipengele vya masimulizi ga chimila. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikala makaya ni misingi ya karne ya tisa, uhamisho wa karne ya kumi na sita kula Singwaya tauweza kugaanzisha. Ama uhamisho uritokea mapema zaidi, au makaya garianzishwa ni idadi ya atu iriyokala tayari ambayo badaye irijumuishwa kpwa mfumo wa Amijikenda, au masimulizi ga uhamisho si ga chihistoria kihalisi ela ni hati inayopanga mahusiano ga chijamii bila kuelezea dzambo mwenga ra chihistoria."
+            "text": "Ela utsimbadzi piya uripinga vipengele vya masimulizi ga chimila. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikala makaya ni misingi ya karne ya tisa, uhamisho wa karne ya kumi na sita kula Singwaya tauweza kugaanzisha. Ama uhamisho uritokea mapema zaidi, au makaya garianzishwa ni idadi ya atu iriyokala tayari ambayo badaye irijumuishwa kpwa mfumo wa Amijikenda, au masimulizi ga uhamisho si ga chihistoria kihalisi ela ni hati inayopanga mahusiano ga chijamii bila kuelezea dzambo mwenga ra chihistoria."
           },
           {
             "type": "paragraph",
-            "text": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya kare. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuliko na idadi ya atu inayofika kula phatu phanjina."
+            "text": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya kare. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuriko na idadi ya atu inayofika kula phatu phanjina."
           },
           {
             "type": "heading",
-            "text": "Uchimbaji Unaoenderera"
+            "text": "Utsimbadzi Unaoenderera"
           },
           {
             "type": "paragraph",
-            "text": "Uchimbaji wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za ph'wani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Kinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
+            "text": "Utsimbadzi wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za ph'wani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Utsimbadzi wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Kinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
           },
           {
             "type": "paragraph",
@@ -700,7 +700,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Mada chache kpwa historia ya Afrika Mashariki zimezalisha kutokubaliana kpwa kudumu dza swali ra asili ya Amijikenda. Dze, makundi tisa ga Amijikenda garihamia kula makalo ga phamwenga ga Singwaya? Au garikula phatu phapho, kpwa bara ya ph'wani ya Kenya? Mjadala umejumuisha mapokeo ga mdomo, ujenzi wa chilugha, uchimbaji wa chiakiolojia, na utafiti wa kumbukumbu za chikoloni."
+            "text": "Mada chache kpwa historia ya Afrika Mashariki zimezalisha kutokubaliana kpwa kudumu dza swali ra asili ya Amijikenda. Dze, makundi tisa ga Amijikenda garihamia kula makalo ga phamwenga ga Singwaya? Au garikula phatu phapho, kpwa bara ya ph'wani ya Kenya? Mjadala umejumuisha mapokeo ga mdomo, ujenzi wa chilugha, utsimbadzi wa chiakiolojia, na utafiti wa kumbukumbu za chikoloni."
           },
           {
             "type": "heading",
@@ -740,7 +740,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "heading",
-            "text": "Henry Mutoro arianzisha ushahidi wa chiakiolojia kupishira uchimbaji kpwa makaya manane. Matokeo gakpwe — ufinyanzi wa karne ya kumi — ganawezekana kutangulia makazi ga ph'wani ya Chiswahili na kubadilisha chila msimamo uriokpwale upo."
+            "text": "Henry Mutoro arianzisha ushahidi wa chiakiolojia kupishira utsimbadzi kpwa makaya manane. Matokeo gakpwe — ufinyanzi wa karne ya kumi — ganawezekana kutangulia makazi ga ph'wani ya Chiswahili na kubadilisha chila msimamo uriokpwale upo."
           },
           {
             "type": "paragraph",
@@ -768,7 +768,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Wakati mjadala kuhusu Singwaya ukala umehendwa kupitshi mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha, Henry Mutoro arianzisha aina mpya ya ushahidi: chiakiolojia. Kpwa uchimbaji uriohendwa mwaka 1987 na 1994 kpwa makaya manane, Mutoro arichimba mabaki ga chimwili ambago garitatiza chila msimamo uriokuwepo. Kpwa Kaya Singwaya, uchimbaji wakpwe \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\""
+            "text": "Wakati mjadala kuhusu Singwaya ukala umehendwa kupitshi mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha, Henry Mutoro arianzisha aina mpya ya ushahidi: chiakiolojia. Kpwa utsimbadzi uriohendwa mwaka 1987 na 1994 kpwa makaya manane, Mutoro arichimba mabaki ga chimwiri ambago garitatiza chila msimamo uriokuwepo. Kpwa Kaya Singwaya, utsimbadzi wakpwe \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\""
           },
           {
             "type": "paragraph",
@@ -1081,7 +1081,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Swali ra iwapo Singwaya yakala phatu pha kpweli rimejadiliwa ni asomi kpwa zaidi ya karne mwenga. Spear aritetea mtazamo wa kawaida, Morton aripinga, na Walsh aripendekeza kukala Amijikenda akula kpwa eneo rire rire anaphokala rero na kupishisha masimulizi ga Singwaya badaye. Uchimbaji wa Mutoro urarehe ushahidi wa chimwili kpwa mjadala, ukipata ufinyanzi wa karne ya kumi kpwa maeneo ga makaya."
+            "text": "Swali ra iwapo Singwaya yakala phatu pha kpweli rimejadiliwa ni asomi kpwa zaidi ya karne mwenga. Spear aritetea mtazamo wa kawaida, Morton aripinga, na Walsh aripendekeza kukala Amijikenda akula kpwa eneo rire rire anaphokala rero na kupishisha masimulizi ga Singwaya badaye. Utsimbadzi wa Mutoro urarehe ushahidi wa chimwiri kpwa mjadala, ukipata ufinyanzi wa karne ya kumi kpwa maeneo ga makaya."
           },
           {
             "type": "paragraph",
@@ -1125,7 +1125,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Uchimbaji wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwili kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — uchimbaji wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Gaga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwili."
+            "text": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjine amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Gaga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
           },
           {
             "type": "heading",

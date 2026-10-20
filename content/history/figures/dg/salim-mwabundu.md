@@ -16,15 +16,15 @@ Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mdzukuluwe, Saidi b
 
 Kufikira karne ya 19 Adigo a phatu pha Likoni kala anaishi kpwenye makaya manne: Puma, Chibuyuni, Timbwani na Shonda. Kaya kala ni chidzidzi chiricho na ngome na phatu pha mila, chirichokala chinalongozwa ni baraza ra azehe (*ngambi*). Mzehe mkpwulu wa kaya, *mwanatsi* ("mwana wa tsi"), kala ndiye analongoza mila, na kpwa kawaida kala anatsambulwa kpwa uphande wa mayo kula fuko ririroandzisha kaya. Makaya manne ga Likoni kala gakaungana, na azehe a makaya higo kala anakutana na kulavya sadaka phamwenga. Shonda ndiyo kala ya kpwandza kahi ya makaya higo. Kala ina mbira za kare sana za akare, na *jingo*, pingu ya kurinda, ambayo ni mwenga wa pingu za kare zaidi za phatu phapho. Misafara ya mila kala inatsupa kpwenye makaya ganjina mahahu kabla ya kufika Shonda, ambapho mila kulu kala zinahendwa.
 
-Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kula Mombasa kala anarima kuko. Mwaka 1837 Sultani wa Zanzibar waika asikari a Chibaluchi Mombasa, nao chisha aandza kuhenda biashara na Adigo. Anjina ao ahala achetu a Chidigo. Kpwa vira kala takuna chete cha Adigo Likoni, achuuzi kala anaika vitu vyao phephi na pwani.
+Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kula Mombasa kala anarima kuko. Mwaka 1837 Sultani wa Zanzibar waika asikari a Chibaluchi Mombasa, nao chisha aandza kuhenda biashara na Adigo. Anjina ao alola achetu a Chidigo. Kpwa vira kala takuna chete cha Adigo Likoni, achuuzi kala anaika vitu vyao phephi na pwani.
 
 ## Mchuuzi na Mwislamu Muphya
 
-Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kudzangbwehala mchetu, wakati fulani kabla ya 1880" (*while still a young man, before he had married, some time before 1880*). Mdzukuluwe watambukira namna dzambo riro ririvyohendeka:
+Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kadzangbwelola, wakati fulani kabla ya 1880" (*while still a young man, before he had married, some time before 1880*). Mdzukuluwe watambukira namna dzambo riro ririvyohendeka:
 
 > Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka. (*He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.*)
 
-Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare kuko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na vingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
+Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare kuko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
 
 Wakati uo kala takuna msikiti Likoni. Dza Adigo anjina ariokala akasilimu, Mwabundu kala anaphiya Mombasa kpwa swala ya Ijumaa na kpwa Ramadhani. Nkugombwa kukala kala anaswali Msikiti wa Khonzi, ambapho Imamu wamfundza namna ya kulavya hotuba ya Ijumaa (*khutba*).
 

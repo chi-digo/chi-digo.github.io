@@ -16,7 +16,7 @@ Almost all we know of him comes from the historian David Sperling, who recorded 
 
 The first Digo to settle at Kaya Dzombo may have come from Chinondo as early as the 17th century. Settlers from Kwale followed them and came to dominate the kaya. According to Sperling's informants, Mbogo Mwamzungu came from Kwale during a famine at the end of the 18th century. He is said to have "brought rain to the country", and after that the people accepted him as their leader.
 
-Sperling describes him as "endowed with a forceful personality". He soon became "the dominant leader of the southern Digo" and took the name *Kubo*. One Chikoneni elder said the name passed to his successors and became a title of authority. Another tradition says the Vumba of the coast gave him the name. During his rule Dzombo was abandoned and Mwamzungu moved to Kirwa, near Chikoneni. He extended his control by placing his sons at Mafisini, Kigombero and other outlying villages, and other Digo of the area came under his authority.
+Sperling describes him as "endowed with a forceful personality". He soon became "the dominant leader of the southern Digo" and took the name *Kubo*. One Chikoneni elder said the name passed to his successors and became a title of authority. Another tradition says the Vumba of the coast gave him the name. During his rule Dzombo was abandoned and Mwamzungu moved to Kirwa, near Chikoneni. He extended his control by placing his sons at Mafisini, Chigombero and other outlying villages, and other Digo of the area came under his authority.
 
 His date rests on a single cross-reference: citing Hollis's "History of Vumba", Sperling places him already in power at the time of a Vumba succession dispute in about 1803–04.
 
