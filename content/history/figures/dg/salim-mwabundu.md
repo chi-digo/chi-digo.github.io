@@ -24,7 +24,7 @@ Salim Mwabundu wasilimu kpwa Abaluchi "wakati kala achere barobaro, kabla kadzan
 
 > Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka. (*He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.*)
 
-Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare kuko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na vingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
+Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare kuko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Kinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga.
 
 Wakati uo kala takuna msikiti Likoni. Dza Adigo anjina ariokala akasilimu, Mwabundu kala anaphiya Mombasa kpwa swala ya Ijumaa na kpwa Ramadhani. Nkugombwa kukala kala anaswali Msikiti wa Khonzi, ambapho Imamu wamfundza namna ya kulavya hotuba ya Ijumaa (*khutba*).
 
