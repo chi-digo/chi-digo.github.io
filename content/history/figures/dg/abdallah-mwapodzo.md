@@ -55,7 +55,7 @@ Mwapodzo kala ni mmwenga wa atu anji a wakati uo. Utafiti wa Sperling piya unaha
 - **Hamisi Mwapodzo wa Pungu.** Iye ni mutu wanjina mwenye dzina rinarofanana. Wasilimu kama mwaka 1870 na, phamwenga na Muhammad Mwaganyuma, adzenga misikiti ya kpwandza ya Pungu kahi za miaka ya 1890.
 - **Muhammad Mwaganyuma wa Pungu**, mwana wa Ali Ganyuma, ambaye kala tayari ni Mwislamu kufikira 1855. Mwana wa Muhammad, **Mwalimu Ali**, wasoma Mtanganyiko achikala Imamu wa kpwandza wa Msikiti wa Pungu na mwalimu wa ana a atu ariokala akasilimu.
 - **Mwinyihaji wa Bwika**, mzehe mkpwulu wa Tiwi, ariyefwa 1913. Azehe a vidzidzi vyanjina kala anamtambukira dza mutu ariyeandzisha kuganya urisi kulengana na shariya ya Chiislamu kahi za Adigo.
-- **Omari Mwakikweza**, mwana wa Mwanaphyori Kikweza, mmwenga wa ariotangulira kusilimu kula Diani, ariyetsama kuphiya Mombasa. Omari wakpwedza kuonekana dza mkpwulu wa Aislamu a Chidigo iko.
+- **Omari Mwakikweza**, mwana wa Mwanaphyori Chikpweza, mmwenga wa ariotangulira kusilimu kula Diani, ariyetsama kuphiya Mombasa. Omari wakpwedza kuonekana dza mkpwulu wa Aislamu a Chidigo iko.
 - **Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni iko Tiwi. Kpwa ganagomanyikana, iye ndiye Mdigo wa kpwandza, na Mmijikenda wa kpwandza, kuphiya Hija Makka. Waonekana achitserera chomboni Jidda, ela kauyire kaya.
 
 ## Urisi

@@ -115,6 +115,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'kaya',
+    date: 'c. 1500s',
+    title: {
+      en: "Digo cross the Umba into Tanga",
+      sw: "Wadigo wavuka Umba kuingia Tanga",
+      dg: "Adigo anavuka Umba kuinjira Tanga",
+    },
+    description: {
+      en: "Digo groups cross the Umba River southward into the Tanga hinterland and take the land between the Umba and the Sigi from the Bondei. Daluni becomes their western limit.",
+      sw: "Makundi ya Wadigo yanavuka Mto Umba kuelekea kusini hadi bara ya Tanga na kuchukua ardhi kati ya Umba na Sigi kutoka kwa Wabondei. Daluni inakuwa mpaka wao wa magharibi.",
+      dg: "Makundi ga Adigo ganavuka Mto Umba kuphiya kusini hadi bara ya Tanga, na anahala tsi ya kahi ya Umba na Sigi kula kpwa Abondei. Daluni inakala mpaka wao wa uphande wa mtswerero wa dzuwa.",
+    },
+  },
+  {
+    era: 'kaya',
     date: '1500–1698',
     title: {
       en: 'Portuguese domination',
@@ -143,6 +157,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'kaya',
+    date: 'late 1600s–early 1700s',
+    title: {
+      en: "The Milonge war",
+      sw: "Vita vya Milonge",
+      dg: "Vita vya Milonge",
+    },
+    description: {
+      en: "Bondei oral history remembers a war fought to stop the Digo spreading further. The Digo push the Bondei inland, toward today's Muheza.",
+      sw: "Simulizi za Wabondei zinakumbuka vita vilivyopiganwa kuwazuia Wadigo wasienee zaidi. Wadigo wanawasukuma Wabondei kuelekea bara, upande wa Muheza ya leo.",
+      dg: "Hadisi za Abondei zinakumbuka vita virivyopiganwa kuazuwiya Adigo asienee zaidi. Adigo anaasukuma Abondei bara, uphande wa Muheza ya rero.",
+    },
+  },
+  {
+    era: 'kaya',
     date: 'c. 1800',
     title: {
       en: 'Kubo rulership founded',
@@ -167,6 +195,34 @@ export const timelineEvents: TimelineEvent[] = [
       en: 'The beginning of a transformation that will make the Digo the only majority-Muslim Mijikenda group. Driven by proximity to Swahili communities, healing practices, and trade.',
       sw: 'Mwanzo wa mabadiliko yatakayofanya Wadigo kuwa kundi pekee la Waislamu wengi miongoni mwa Mijikenda. Yakisukumwa na ukaribu na jamii za Kiswahili, matibabu, na biashara.',
       dg: 'Mwanzo wa mabadiliko gandagohenda Adigo kukala kundi ra pekee ra Aislamu anji kahi za Amijikenda. Gachisukumwa ni ukaribu na jamii za Chiswahili, matibabu, na biashara.',
+    },
+  },
+  {
+    era: 'kaya',
+    date: '1840s–1857',
+    title: {
+      en: "Tanga grows with Digo newcomers",
+      sw: "Tanga yakua kwa wageni wa Kidigo",
+      dg: "Tanga inakula kpwa ajeni Adigo",
+    },
+    description: {
+      en: "Under Zanzibar rule, Tanga moves from its island to the mainland and grows fast with newcomers, “especially from Digo”, reaching 4,000–5,000 people by 1857.",
+      sw: "Chini ya utawala wa Zanzibar, mji wa Tanga unahama kutoka kisiwani kwenda bara na kukua haraka kwa wageni, “hasa kutoka kwa Wadigo”, na kufikia watu 4,000–5,000 mwaka 1857.",
+      dg: "Photsi ya utawala wa Zanzibar, mudzi wa Tanga unauka chisiwani kuphiya bara, na unakula upesi kpwa ajeni, “hasa Adigo”, hadi atu 4,000–5,000 mwaka 1857.",
+    },
+  },
+  {
+    era: 'kaya',
+    date: '1850s–c. 1883',
+    title: {
+      en: "Maasai raids on the Tanga Digo",
+      sw: "Mashambulizi ya Wamasai kwa Wadigo wa Tanga",
+      dg: "Mavamizi ga Amasai kpwa Adigo a Tanga",
+    },
+    description: {
+      en: "Maasai raids strip the Tanga Digo of all their cattle, turning herders into farmers. About 1882–83 a raid guided by Jambia of Mgandi sweeps every coastal village from Tanga to Vanga; the Sultan of Zanzibar has him jailed in chains.",
+      sw: "Mashambulizi ya Wamasai yanawanyang’anya Wadigo wa Tanga ng’ombe wao wote, na wafugaji wanageuka wakulima. Karibu 1882–83 shambulio lililoongozwa na Jambia wa Mgandi linavamia kila kijiji cha pwani kutoka Tanga hadi Vanga; Sultani wa Zanzibar anamfunga kwa minyororo.",
+      dg: "Amasai anaavamira Adigo a Tanga na kuahala ng’ombe zao zosi, phahi arisa anagaluka akurima. Kama 1882–83 Amasai, achilongozwa ni Jambia wa Mgandi, anavamira chila chidzidzi cha pwani kula Tanga hadi Vanga; Sultani wa Zanzibar anamfunga kpwa minyororo.",
     },
   },
   {
@@ -222,9 +278,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Uasi wa Abushiri',
     },
     description: {
-      en: 'Coastal rebellion against German rule engulfs Tanga and surrounding Wadigo territory. Led by Abushiri ibn Salim, the uprising draws in Arab, Swahili, and African populations.',
-      sw: 'Uasi wa pwani dhidi ya utawala wa Wajerumani unazagaa Tanga na maeneo ya Wadigo yanayozunguka. Ukiongozwa na Abushiri ibn Salim, uasi huo unavuta Waarabu, Waswahili, na watu wa Kiafrika.',
-      dg: 'Uasi wa pwani dhidi ya utawala wa Ajerumani unazagaa Tanga na maeneo ga Adigo ganagozunguka. Uchiongozwa ni Abushiri ibn Salim, uasi uhu unavuta Aarabu, Aswahili, na atu a Chiafrika.',
+      en: "The coastal rising against the German East Africa Company reaches Tanga in September 1888 and spreads inland to Usambara. Its leaders were Arab and Swahili, with Zigua and Bondei allies; no Digo role is recorded. Three years later the Digo inland from Tanga rose on their own (1891–92).",
+      sw: "Uasi wa pwani dhidi ya Kampuni ya Kijerumani ya Afrika Mashariki unafika Tanga Septemba 1888 na kuenea bara hadi Usambara. Viongozi wake walikuwa Waarabu na Waswahili, wakisaidiwa na Wazigua na Wabondei; hakuna nafasi ya Wadigo iliyoandikwa. Miaka mitatu baadaye Wadigo wa bara ya Tanga waliinuka wenyewe (1891–92).",
+      dg: "Uasi wa pwani kuipinga Kampuni ya Chijerumani ya Afrika ya Mashariki unafika Tanga Septemba 1888 na unaenea bara hadi Usambara. Aongozi a uasi uho kala ni Aarabu na Aswahili, achiterywa ni Azigua na Abondei; taphana maandiko ga Adigo kuuterya. Bada ya miaka mihahu, Adigo a bara ya Tanga apinga Ajerumani ao enye (1891–92).",
     },
   },
   {
@@ -239,6 +295,20 @@ export const timelineEvents: TimelineEvent[] = [
       en: "Inland from Tanga, the Digo around Gombelo tear down the German flag, declare themselves independent, drive a German officer back to Amboni and burn the plantation company's barns. A punitive expedition under von Bülow burns their villages and drives off their livestock.",
       sw: 'Bara ya Tanga, Wadigo wa karibu na Gombelo wanashusha bendera ya Kijerumani, wanajitangaza huru, wanamrudisha nyuma afisa wa Kijerumani hadi Amboni na kuchoma ghala za kampuni ya mashamba. Kikosi cha adhabu chini ya von Bülow kinachoma vijiji vyao na kuchukua mifugo yao.',
       dg: 'Bara ya Tanga, Adigo a phephi na Gombelo anausa bendera ya Chijerumani, anadzitangaza kukala huru, anamzoresa afisa Mjerumani hadi Amboni na anaocha vitsaga vya kampuni ya mashamba. Asikari a Chijerumani a adhabu, achilongozwa ni von Bülow, anaocha vidzidzi vyao na anahala mifugo yao.',
+    },
+  },
+  {
+    era: 'colonial',
+    date: '1892',
+    title: {
+      en: "The border is marked through Digo country",
+      sw: "Mpaka wawekwa katikati ya nchi ya Wadigo",
+      dg: "Mpaka unaikpwa kahi kahi ya tsi ya Adigo",
+    },
+    description: {
+      en: "British and German commissioners mark the border on the ground from the mouth of the Umba at Vanga. The line runs through Digo country and splits villages such as Jasini, which it still divides.",
+      sw: "Makamishna wa Kiingereza na Kijerumani wanaweka alama za mpaka kuanzia mdomo wa Mto Umba huko Vanga. Mstari huo unapita katikati ya nchi ya Wadigo na kugawa vijiji kama Jasini, ambacho bado kimegawanywa nao.",
+      dg: "Makamishna a Chingereza na a Chijerumani anaika alama za mpaka kuandzira mlomo wa Mto Umba iko Vanga. Mstari uho unapita kahi kahi ya tsi ya Adigo na unagawanya vidzidzi dza Jasini, ambacho hadi rero chinagawanywa ni mpaka uho.",
     },
   },
   {
@@ -271,20 +341,6 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'colonial',
-    date: '1905–1907',
-    title: {
-      en: 'Maji Maji Rebellion',
-      sw: 'Vita vya Maji Maji',
-      dg: 'Vita vya Maji Maji',
-    },
-    description: {
-      en: 'Major uprising against German forced cotton cultivation in Tanganyika. The Digo around Tanga are among the affected populations. Between 75,000–300,000 die, mostly from German scorched-earth reprisals.',
-      sw: 'Uasi mkubwa dhidi ya ulimaji wa pamba wa kulazimishwa na Wajerumani huko Tanganyika. Wadigo karibu na Tanga ni miongoni mwa watu walioathirika. Kati ya 75,000–300,000 wanakufa, wengi kutokana na kisasi cha kuchoma ardhi cha Wajerumani.',
-      dg: 'Uasi mukulu dhidi ya ulimaji wa pamba wa kulazimishwa ni Ajerumani iko Tanganyika. Adigo phephi na Tanga ni kahi za atuarioathirika. Kahi ya 75,000–300,000 anakufwa, anji kpwa sababu ya kisasi cha kuchoma ardhi cha Ajerumani.',
-    },
-  },
-  {
-    era: 'colonial',
     date: 'c. 1907',
     title: {
       en: "Diani's first mosque",
@@ -309,6 +365,20 @@ export const timelineEvents: TimelineEvent[] = [
       en: 'Mekatilili wa Menza leads Giriama resistance against British forced labour and taxes. Though primarily Giriama, this is the defining Mijikenda anti-colonial event.',
       sw: 'Mekatilili wa Menza anaongoza upinzani wa Wagiriama dhidi ya kazi za kulazimishwa na kodi za Waingereza. Ingawa ni wa Wagiriama hasa, huu ndio tukio kuu la kupinga ukoloni la Mijikenda.',
       dg: 'Mekatilili wa Menza anaongoza upinzani wa Agiriama dhidi ya kazi za kulazimishwa na kodi za Aingereza. Ingawa ni wa Agiriama hasa, uhu ndiyo tukio kulu ra kupinga ukoloni ra Amijikenda.',
+    },
+  },
+  {
+    era: 'colonial',
+    date: '1914–1915',
+    title: {
+      en: "The First World War in Digo country",
+      sw: "Vita vya Kwanza vya Dunia katika nchi ya Wadigo",
+      dg: "Vita vya Kpwandza vya Dunia kahi ya tsi ya Adigo",
+    },
+    description: {
+      en: "In November 1914 a British landing at Tanga is beaten off, and in January 1915 German forces overwhelm a British-Indian garrison at Jasini, a Digo border village and sisal estate. How the fighting affected Digo villagers is not recorded.",
+      sw: "Novemba 1914 Waingereza wanashindwa kutua Tanga, na Januari 1915 majeshi ya Kijerumani yanashinda kikosi cha Kiingereza na Kihindi huko Jasini, kijiji cha Wadigo mpakani chenye shamba la mkonge. Jinsi vita hivyo vilivyowaathiri wanakijiji wa Kidigo haijaandikwa.",
+      dg: "Novemba 1914 Aingereza anashindwa kuinjira Tanga, na Januari 1915 asikari a Chijerumani anashinda chikosi cha Aingereza na Ahindi iko Jasini, chidzidzi cha Adigo phephi na mpaka chenye shamba ra makonge. Taphana maandiko ga vira vita ivyo virivyoahenda Adigo a hiko.",
     },
   },
   {
@@ -399,6 +469,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'modern',
+    date: '1977–1983',
+    title: {
+      en: "The border is closed",
+      sw: "Mpaka wafungwa",
+      dg: "Mpaka unafungwa",
+    },
+    description: {
+      en: "Tanzania seals its border with Kenya when the East African Community collapses. The Lunga Lunga–Horohoro crossing, in the middle of Digo country, stays closed for about six years.",
+      sw: "Tanzania inafunga mpaka wake na Kenya Jumuiya ya Afrika Mashariki inapovunjika. Kivuko cha Lunga Lunga–Horohoro, katikati ya nchi ya Wadigo, kinabaki kimefungwa kwa takriban miaka sita.",
+      dg: "Tanzania inafunga mpaka wakpwe na Kenya Jumuiya ya Afrika ya Mashariki iriphovundzika. Chivuko cha Lunga Lunga–Horohoro, kahi kahi ya tsi ya Adigo, chinasala chifungwa kpwa miaka kama sita.",
+    },
+  },
+  {
+    era: 'modern',
     date: '1983',
     title: {
       en: 'Kongo Mosque gazetted',
@@ -437,6 +521,20 @@ export const timelineEvents: TimelineEvent[] = [
       en: 'Politically motivated violence in which Digo youth, recruited at Kaya Bombo, attack Likoni. ~100 killed, ~100,000 displaced. The Akiwumi Report finds KANU officials funded the militia.',
       sw: 'Vurugu za kisiasa ambapo vijana wa Kidigo, walioandikishwa Kaya Bombo, wanashambulia Likoni. ~100 wanauawa, ~100,000 wanakimbishwa. Ripoti ya Akiwumi inapata kwamba maafisa wa KANU walifadhili wanamgambo.',
       dg: 'Vurugu za chisiasa ambako vijana va Chidigo, varioandikishwa Kaya Bombo, vanashambulia Likoni. ~100 vanaulagwa, ~100,000 vanakimbishwa. Ripoti ya Akiwumi inapata kukala maafisa a KANU arifadhili anamgambo.',
+    },
+  },
+  {
+    era: 'modern',
+    date: '2007',
+    title: {
+      en: "Mkinga District created",
+      sw: "Wilaya ya Mkinga yaundwa",
+      dg: "Wilaya ya Mkinga inaundwa",
+    },
+    description: {
+      en: "Mkinga District is carved out of Muheza in Tanga Region, with the Digo and Segeju as its native peoples: the first district that is in effect the homeland of the Tanzanian Digo and Segeju.",
+      sw: "Wilaya ya Mkinga inaundwa kutoka Muheza katika Mkoa wa Tanga, na Wadigo na Wasegeju wakiwa wenyeji wake: wilaya ya kwanza ambayo kwa hakika ni nchi ya asili ya Wadigo na Wasegeju wa Tanzania.",
+      dg: "Wilaya ya Mkinga inaundwa kula Muheza kahi ya Mkoa wa Tanga. Ni wilaya ya kpwandza ambayo kpwa kweli ni tsi ya Adigo na Asegeju a Tanzania.",
     },
   },
   {

@@ -26,7 +26,7 @@ During the Mwakisenge famine of 1884–85, Muhammad sent his son Ali to stay wit
 
 Back home, Ali went with his father to Ngare's market and preached Islam there. In Sperling's words, "popular reaction was hostile ('he was jeered and shouted down') but this does not seem to have deterred him." He went on preaching, began to teach the children of Digo converts, and became known as Mwalimu Ali. People also came to him for treatment, and he went about treating them.
 
-In the 1890s his father and Hamisi Mwapodzo built the first mosques of Pungu, the Pungu Tuliani Mosque and the Kingwede Mosque. Mwalimu Ali became the first Imam of the Pungu Mosque. His pupil Saidi bin Hamisi Mwapodzo later built the first mosque at Matuga. Sperling notes that Saidi, unlike "his teacher Mwalimu Ali", did not condemn Digo customs but joined in Digo dances to win acceptance.
+In the 1890s his father and Hamisi Mwapodzo built the first mosques of Pungu, the Pungu Tuliani Mosque and the Chingbwede Mosque. Mwalimu Ali became the first Imam of the Pungu Mosque. His pupil Saidi bin Hamisi Mwapodzo later built the first mosque at Matuga. Sperling notes that Saidi, unlike "his teacher Mwalimu Ali", did not condemn Digo customs but joined in Digo dances to win acceptance.
 
 Mwalimu Ali was also a man of business. A 1913 list of traders at Pungu includes an "Ali bin Mohamed selling calico and American cloths", probably him, and his grandson said he traded in rubber. In 1914–15 he and his father were among the Digo leaders who applied for land titles.
 
