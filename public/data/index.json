@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5221,
+  "generated_at": "2026-10-20T21:02:39.559Z",
+  "total_entries": 5170,
   "letters": {
     "a": {
-      "count": 134,
+      "count": 132,
       "first": "a",
       "last": "azo"
     },
     "b": {
-      "count": 209,
+      "count": 206,
       "first": "baada",
       "last": "bwiningiza"
     },
     "ch": {
-      "count": 528,
+      "count": 524,
       "first": "cha",
       "last": "chuwo"
     },
@@ -29,17 +29,17 @@
       "last": "dzwidzwidzwi"
     },
     "e": {
-      "count": 45,
+      "count": 44,
       "first": "-e",
       "last": "ezeka"
     },
     "f": {
-      "count": 155,
+      "count": 150,
       "first": "faa",
       "last": "fyusa"
     },
     "g": {
-      "count": 117,
+      "count": 115,
       "first": "gachiandikpwa",
       "last": "guza"
     },
@@ -49,7 +49,7 @@
       "last": "gbwuu"
     },
     "h": {
-      "count": 162,
+      "count": 160,
       "first": "h",
       "last": "hwa"
     },
@@ -64,7 +64,7 @@
       "last": "juujuu"
     },
     "k": {
-      "count": 334,
+      "count": 330,
       "first": "k",
       "last": "kwana"
     },
@@ -79,17 +79,17 @@
       "last": "lóla"
     },
     "m": {
-      "count": 953,
-      "first": "m’",
+      "count": 944,
+      "first": "maalumu",
       "last": "mzuzu"
     },
     "m'": {
-      "count": 12,
-      "first": "m'balazi",
+      "count": 13,
+      "first": "m’",
       "last": "m'buni"
     },
     "n": {
-      "count": 213,
+      "count": 208,
       "first": "na",
       "last": "nywa"
     },
@@ -114,17 +114,17 @@
       "last": "oza"
     },
     "p": {
-      "count": 155,
+      "count": 151,
       "first": "pafu",
       "last": "pyia"
     },
     "ph": {
-      "count": 108,
+      "count": 107,
       "first": "ph",
       "last": "phyurira"
     },
     "r": {
-      "count": 135,
+      "count": 134,
       "first": "ra",
       "last": "ryango"
     },
@@ -139,22 +139,22 @@
       "last": "shuwari"
     },
     "t": {
-      "count": 226,
+      "count": 223,
       "first": "taa",
       "last": "tya"
     },
     "ts": {
-      "count": 182,
+      "count": 181,
       "first": "ts",
       "last": "tswesa"
     },
     "u": {
-      "count": 203,
+      "count": 202,
       "first": "u",
       "last": "uzuzu"
     },
     "v": {
-      "count": 103,
+      "count": 101,
       "first": "valavala",
       "last": "vyoni"
     },
@@ -164,12 +164,12 @@
       "last": "wuongo"
     },
     "y": {
-      "count": 38,
+      "count": 37,
       "first": "ya",
       "last": "yuyu"
     },
     "z": {
-      "count": 75,
+      "count": 74,
       "first": "zaburi",
       "last": "-zuzu"
     }

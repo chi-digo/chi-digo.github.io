@@ -7,24 +7,11 @@ import type {
   FuzzyRules,
 } from "./types";
 import { ensureFreshData, refetchFromNetwork } from "@/lib/pwa/data-version";
+import { digoLetterFile } from "./letters";
+
+export { digoLetterFile };
 
 const cache = new Map<string, unknown>();
-
-const DIGO_PREFIXES = [
-  "gbw", "kpw", "ndz", "ng'", "ch", "dz", "m'", "ng", "ph", "sh", "ts",
-  "a", "b", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
-  "n", "o", "p", "r", "s", "t", "u", "v", "w", "y", "z",
-];
-
-function digoLetterFile(letter: string): string {
-  const lc = letter.toLowerCase();
-  for (const prefix of DIGO_PREFIXES) {
-    if (lc.startsWith(prefix)) {
-      return prefix.replace(/'/g, "_");
-    }
-  }
-  return lc.charAt(0);
-}
 
 async function fetchJson<T>(path: string): Promise<T> {
   const cached = cache.get(path);
@@ -66,10 +53,13 @@ function cleanHeadword(raw: string): string {
   return raw.replace(/[\d;]+$/, "");
 }
 
-function entriesFor(data: LetterFile, headword: string): DictionaryEntry[] {
+/** Headwords match without a leading "-", so /word/-ako and /word/ako both find the affix -ako. */
+const bare = (h: string) => h.replace(/^-/, "");
+
+export function entriesFor(data: LetterFile, headword: string): DictionaryEntry[] {
   const seen = new Set<string>();
   return data.entries.filter((e) => {
-    if (cleanHeadword(e.headword) !== headword) return false;
+    if (bare(cleanHeadword(e.headword)) !== bare(headword)) return false;
     if (seen.has(e.id)) return false;
     seen.add(e.id);
     return true;
