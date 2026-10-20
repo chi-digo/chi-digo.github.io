@@ -80,7 +80,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'A coral-stone mosque with domes and barrel vaults on the Mwachema River at Diani. It has never been excavated; pottery found nearby dates from the 14th to the 16th centuries.',
       sw: 'Msikiti wa mawe ya matumbawe wenye kuba na dari za tao kando ya Mto Mwachema huko Diani. Haujawahi kuchimbuliwa; vipande vya vyungu vilivyopatikana karibu ni vya karne ya 14 hadi ya 16.',
-      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Mto Mwachema kuko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
+      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Muho wa Mwachema kuko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
     },
   },
   {
@@ -464,7 +464,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Kaya elders and Digo leaders revive the Digo Ngambi, the traditional council of elders, and choose its leaders.',
       sw: 'Wazee wa kaya na viongozi wa Wadigo wanafufua Ngambi ya Wadigo, baraza la jadi la wazee, na kuchagua viongozi wake.',
-      dg: 'Azehe a kaya na aongozi a Adigo anafufula Ngambi ya Adigo, baraza ra chienyeji ra azehe, na kutsambula aongoziwe.',
+      dg: 'Azehe a kaya na aongozi a Adigo anafufula Ngambi ya Adigo, baraza ra chienyeji ra azehe, na kutsambula aongoziye.',
     },
   },
 ];
