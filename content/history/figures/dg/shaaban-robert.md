@@ -30,7 +30,7 @@ Shaaban waandika kpwa Chiswahili bahi: mashairi, riwaya, insha, na habari za mai
 
 > "Kusadikika ni tsi ambayo inaweza kufikirika kpwa mawazo bahi."
 
-Vitabuvye vyanjina ni riwaya za *Kufikirika* na *Adili na Nduguze* (1952), chitabu cha mashairi *Pambo la Lugha*, habari za maisha ga mwimbaji Siti binti Saad, na *Utubora Mkulima*. Chitabu cha habari za maishage, *Maisha Yangu na Baada ya Miaka Hamsini*, chaphaha Tuzo ya Kumbukumbu ya Margaret Wrong ya fasihi ya Chiafrika. *Utenzi wa Vita vya Uhuru*, shairi ra beti chiasi cha 3,000 kuhusu Viha vya Phiri vya Dunia, rachapishwa bada ya chifoche. Maandikoge gaterya Chiswahili kukubalika kukala luga ya taifa Tanzania na Kenya.
+Vitabuvye vyanjina ni riwaya za *Kufikirika* na *Adili na Nduguze* (1952), chitabu cha mashairi *Pambo la Lugha*, habari za maisha ga mwimbadzi Siti binti Saad, na *Utubora Mkulima*. Chitabu cha habari za maishage, *Maisha Yangu na Baada ya Miaka Hamsini*, chaphaha Tuzo ya Kumbukumbu ya Margaret Wrong ya fasihi ya Chiafrika. *Utenzi wa Vita vya Uhuru*, shairi ra beti chiasi cha 3,000 kuhusu Viha vya Phiri vya Dunia, rachapishwa bada ya chifoche. Maandikoge gaterya Chiswahili kukubalika kukala luga ya taifa Tanzania na Kenya.
 
 ## Phatu pha Shaaban Robert Kahi ya Historiya ya Adigo
 
