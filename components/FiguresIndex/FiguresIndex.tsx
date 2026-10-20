@@ -31,7 +31,7 @@ export function FiguresIndex({ published, scenes }: { published: string[]; scene
           <p className={styles.note}>{t.history.figures_note}</p>
           <div className={styles.grid}>
             {figures.filter((f) => published.includes(f.slug)).map((fig) => (
-              <a
+              <Link
                 key={fig.slug}
                 href={`/history/figures/${fig.slug}`}
                 className={styles.card}
@@ -52,7 +52,7 @@ export function FiguresIndex({ published, scenes }: { published: string[]; scene
                   <p className={styles.role}>{fig.role[locale]}</p>
                   <p className={styles.summary}>{fig.summary[locale]}</p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
           <p className={styles.back}><Link href="/history">{t.history.back_to_history}</Link></p>
