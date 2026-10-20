@@ -71,16 +71,16 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'origins',
-    date: 'c. 1200s–1300s',
+    date: 'c. 1300s–1500s',
     title: {
       en: 'Kongo Mosque built',
       sw: 'Msikiti wa Kongo unajengwa',
       dg: 'Msikiti wa Kongo unadzengwa',
     },
     description: {
-      en: 'One of the oldest mosques in East Africa, built with coral stone in Diani by Arab merchants. Rediscovered c. 1700s by Sheikh Mwinyi Kombo, guided by a dream.',
-      sw: 'Mojawapo ya misikiti ya zamani zaidi Afrika Mashariki, uliojengwa kwa mawe ya matumbawe huko Diani na wafanyabiashara wa Kiarabu. Uligunduliwa tena c. 1700s na Sheikh Mwinyi Kombo, akiongozwa na ndoto.',
-      dg: 'Mojawapo ya misikiti ya zamani zaidi Afrika ya Mashariki, uriodzengwa kpwa mawe ga matumbawe kuko Diani ni afanyabiashara a Chiarabu. Uligundulwa tsena c. 1700s ni Sheikh Mwinyi Kombo, achiongozwa ni ndoso.',
+      en: 'A coral-stone mosque with domes and barrel vaults on the Mwachema River at Diani. It has never been excavated; pottery found nearby dates from the 14th to the 16th centuries.',
+      sw: 'Msikiti wa mawe ya matumbawe wenye kuba na dari za tao kando ya Mto Mwachema huko Diani. Haujawahi kuchimbuliwa; vipande vya vyungu vilivyopatikana karibu ni vya karne ya 14 hadi ya 16.',
+      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Muho wa Mwachema kuko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
     },
   },
   {
@@ -143,6 +143,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'kaya',
+    date: 'c. 1800',
+    title: {
+      en: 'Kubo rulership founded',
+      sw: 'Utawala wa Kubo unaanzishwa',
+      dg: 'Utawala wa Kubo unaandzishwa',
+    },
+    description: {
+      en: 'By Chikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Dzombo, and his title, Kubo, becomes hereditary.',
+      sw: 'Kwa mapokeo ya Chikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Dzombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
+      dg: 'Kpwa hadithi za Chikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
+    },
+  },
+  {
+    era: 'kaya',
     date: '1840s–1850s',
     title: {
       en: 'First Digo convert to Islam',
@@ -153,6 +167,20 @@ export const timelineEvents: TimelineEvent[] = [
       en: 'The beginning of a transformation that will make the Digo the only majority-Muslim Mijikenda group. Driven by proximity to Swahili communities, healing practices, and trade.',
       sw: 'Mwanzo wa mabadiliko yatakayofanya Wadigo kuwa kundi pekee la Waislamu wengi miongoni mwa Mijikenda. Yakisukumwa na ukaribu na jamii za Kiswahili, matibabu, na biashara.',
       dg: 'Mwanzo wa mabadiliko gandagohenda Adigo kukala kundi ra pekee ra Aislamu anji kahi za Amijikenda. Gachisukumwa ni ukaribu na jamii za Chiswahili, matibabu, na biashara.',
+    },
+  },
+  {
+    era: 'kaya',
+    date: 'c. 1865–1894',
+    title: {
+      en: 'Kubo Mangaru resists Mbaruk',
+      sw: 'Kubo Mangaru anampinga Mbaruk',
+      dg: 'Kubo Mangaru anampinga Mbaruk',
+    },
+    description: {
+      en: 'Shaykh Mbaruk of Gasi raids the Gasi–Vanga hinterland. Kubo Mangaru Mwajita of Chikoneni is the one Digo ruler strong enough to resist; the Sultan of Zanzibar sends Baluchi soldiers to protect him.',
+      sw: 'Shekhe Mbaruk wa Gasi anavamia maeneo ya bara kati ya Gasi na Vanga. Kubo Mangaru Mwajita wa Chikoneni ndiye mtawala pekee wa Kidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anatuma askari wa Kibaluchi kumlinda.',
+      dg: 'Shehe Mbaruk wa Gasi anavamia maeneo ga bara kahi ya Gasi na Vanga. Kubo Mangaru Mwajita wa Chikoneni ndiye mtawala wa pekee wa Chidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anahuma asikari a Chibaluchi kumrinda.',
     },
   },
   {
@@ -201,6 +229,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'colonial',
+    date: '1895–1896',
+    title: {
+      en: 'The Mazrui rising',
+      sw: 'Uasi wa Mazrui',
+      dg: 'Uasi wa Mazrui',
+    },
+    description: {
+      en: "Mbaruk bin Rashid leads the Mazrui against the new British protectorate. Most Digo south of Mombasa stay out; the Digo of Kaya Chinondo and around Mbaruk's stronghold at Mwele join the rising.",
+      sw: 'Mbaruk bin Rashid anaongoza Wamazrui dhidi ya utawala mpya wa Waingereza. Wadigo wengi wa kusini mwa Mombasa hawajiungi; Wadigo wa Kaya Chinondo na wa karibu na ngome ya Mbaruk huko Mwele wanajiunga na uasi.',
+      dg: 'Mbaruk bin Rashid analongoza Amazrui dhidi ya utawala muphya wa Aingereza. Adigo anji a kusini mwa Mombasa taadziunga; Adigo a Kaya Chinondo na a phephi na ngome ya Mbaruk kuko Mwele anadziunga na uasi.',
+    },
+  },
+  {
+    era: 'colonial',
     date: '1897–1900',
     title: {
       en: 'Great Famine and smallpox',
@@ -229,6 +271,20 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     era: 'colonial',
+    date: 'c. 1907',
+    title: {
+      en: "Diani's first mosque",
+      sw: 'Msikiti wa kwanza wa Diani',
+      dg: 'Msikiti wa kpwandza wa Diani',
+    },
+    description: {
+      en: 'Abdallah Mwapodzo, mwanatsi (senior elder) of Kaya Diani, builds the Mwaroni Mosque, the first in Diani.',
+      sw: 'Abdallah Mwapodzo, mwanatsi (mzee mkuu) wa Kaya Diani, anajenga Msikiti wa Mwaroni, wa kwanza Diani.',
+      dg: 'Abdallah Mwapodzo, mwanatsi (mzehe mkulu) wa Kaya Diani, anadzenga Msikiti wa Mwaroni, wa kpwandza Diani.',
+    },
+  },
+  {
+    era: 'colonial',
     date: '1913–1914',
     title: {
       en: 'Giriama Uprising',
@@ -250,9 +306,37 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Adigo anakala Aislamu anji',
     },
     description: {
-      en: 'Mosques and Quranic schools spread across Kwale. The Digo are the first Mijikenda group to build their own mosques, in villages like Kibiga Kirau and Hormuz.',
-      sw: 'Misikiti na shule za Qurani zinasambaa Kwale kote. Wadigo ni kundi la kwanza la Mijikenda kujenga misikiti yao wenyewe, katika vijiji kama Kibiga Kirau na Hormuz.',
-      dg: 'Misikiti na shule za Qurani zinasambaa Kwale kose. Adigo ni kundi ra kpwandza ra Amijikenda kudzenga misikiti yao enye, kahi za vijiji dza Kibiga Kirau na Hormuz.',
+      en: 'Mosques and Quranic schools spread across Kwale.',
+      sw: 'Misikiti na shule za Qurani zinasambaa Kwale kote.',
+      dg: 'Misikiti na shule za Qurani zinasambaa Kwale kose.',
+    },
+  },
+  {
+    era: 'colonial',
+    date: '1924',
+    title: {
+      en: 'The first Digo imams',
+      sw: 'Maimamu wa kwanza Wadigo',
+      dg: 'Maimamu a kpwandza Adigo',
+    },
+    description: {
+      en: 'Around Tiwi, mosques had long been led by imams from outside the community. In 1924 the village of Chigato builds a mosque for Kassim Mwachinyama, one of the first Digo imams.',
+      sw: 'Huko Tiwi, misikiti iliongozwa kwa muda mrefu na maimamu kutoka nje ya jamii. Mwaka 1924 kijiji cha Chigato kinajenga msikiti kwa ajili ya Kassim Mwachinyama, mmoja wa maimamu wa kwanza Wadigo.',
+      dg: 'Kuko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 chidzidzi cha Chigato chinadzenga msikiti kpwa ajili ya Kassim Mwachinyama, mmwenga wa maimamu a kpwandza Adigo.',
+    },
+  },
+  {
+    era: 'colonial',
+    date: '1927–1932',
+    title: {
+      en: 'Kongo Mosque revived',
+      sw: 'Msikiti wa Kongo unafufuliwa',
+      dg: 'Msikiti wa Kongo unafufulwa',
+    },
+    description: {
+      en: 'Sheikh Mwinyikombo bin Makame, an imam from Mombasa, persuades the Diani elders that the ruin in the forest is a mosque. The villagers clear it together, and it reopens with a maulid in 1932.',
+      sw: 'Sheikh Mwinyikombo bin Makame, imamu kutoka Mombasa, anawashawishi wazee wa Diani kwamba gofu lililo msituni ni msikiti. Wanakijiji wanausafisha pamoja, na unafunguliwa tena kwa maulidi mwaka 1932.',
+      dg: 'Sheikh Mwinyikombo bin Makame, imamu kula Mombasa, anaashawishi azehe a Diani kukala gofu riro tsakani ni msikiti. Atu a mudzi anausafisha phamwenga, na unafungulwa tsena kpwa maulidi mwaka 1932.',
     },
   },
   {
@@ -308,9 +392,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Msikiti wa Kongo unatangazwa',
     },
     description: {
-      en: 'The 13th-century mosque in Diani is declared a national monument by the National Museums of Kenya.',
-      sw: 'Msikiti wa karne ya 13 huko Diani unatangazwa kuwa mnara wa kitaifa na Makumbusho ya Kitaifa ya Kenya.',
-      dg: 'Msikiti wa karne ya 13 kuko Diani unatangazwa kukala mnara wa chitaifa ni Makumbusho ga Chitaifa ga Kenya.',
+      en: 'The Kongo Mosque at Diani and the land around it are protected under Gazette Notice 440 of 1983.',
+      sw: 'Msikiti wa Kongo huko Diani na ardhi inayouzunguka unalindwa chini ya Tangazo la Serikali Na. 440 la 1983.',
+      dg: 'Msikiti wa Kongo kuko Diani na ardhi inayouzunguluka unarindwa tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
     },
   },
   {
@@ -350,9 +434,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Makaya ganaorodheshwa dza Urithi wa Dunia wa UNESCO',
     },
     description: {
-      en: 'Eleven Mijikenda kaya forests, including Kaya Kinondo, inscribed as Sacred Mijikenda Kaya Forests. The following year, kaya traditions are placed on UNESCO\'s Urgent Safeguarding list.',
-      sw: 'Misitu kumi na moja ya makaya ya Mijikenda, ikiwa ni pamoja na Kaya Kinondo, inaorodheshwa kama Misitu Mitakatifu ya Makaya ya Mijikenda. Mwaka unaofuata, mila za makaya zinawekwa kwenye orodha ya UNESCO ya Kulinda kwa Dharura.',
-      dg: 'Misitu kumi na moja ya makaya ya Amijikenda, ichiwa ni phamwenga na Kaya Kinondo, inaorodheshwa dza Misitu Mitakatifu ya Makaya ya Amijikenda. Mwaka unaofuata, mila za makaya zinawekwa kpwa orodha ya UNESCO ya Kulinda kpwa Dharura.',
+      en: 'Eleven Mijikenda kaya forests, including Kaya Chinondo, inscribed as Sacred Mijikenda Kaya Forests. The following year, kaya traditions are placed on UNESCO\'s Urgent Safeguarding list.',
+      sw: 'Misitu kumi na moja ya makaya ya Mijikenda, ikiwa ni pamoja na Kaya Chinondo, inaorodheshwa kama Misitu Mitakatifu ya Makaya ya Mijikenda. Mwaka unaofuata, mila za makaya zinawekwa kwenye orodha ya UNESCO ya Kulinda kwa Dharura.',
+      dg: 'Misitu kumi na moja ya makaya ya Amijikenda, ichiwa ni phamwenga na Kaya Chinondo, inaorodheshwa dza Misitu Mitakatifu ya Makaya ya Amijikenda. Mwaka unaofuata, mila za makaya zinawekwa kpwa orodha ya UNESCO ya Kulinda kpwa Dharura.',
     },
   },
   {
@@ -367,6 +451,20 @@ export const timelineEvents: TimelineEvent[] = [
       en: 'Base Titanium begins exporting titanium from Kwale, displacing 3,000+ residents and destroying coconut and cashew groves. Decommissioning begins c. 2025 amid environmental protests.',
       sw: 'Base Titanium inaanza kusafirisha titanium kutoka Kwale, ikiwahama wakazi 3,000+ na kuharibu mashamba ya minazi na korosho. Uondoaji unaanza c. 2025 kati ya maandamano ya mazingira.',
       dg: 'Base Titanium inaanza kusafirisha titanium kula Kwale, ichiahama akazi 3,000+ na kuharibu mashamba ga minazi na korosho. Uondoaji unaanza c. 2025 kahi ya maandamano ga mazingira.',
+    },
+  },
+  {
+    era: 'modern',
+    date: '2023',
+    title: {
+      en: 'Digo Ngambi revived',
+      sw: 'Ngambi ya Wadigo inafufuliwa',
+      dg: 'Ngambi ya Adigo inafufulwa',
+    },
+    description: {
+      en: 'Kaya elders and Digo leaders revive the Digo Ngambi, the traditional council of elders, and choose its leaders.',
+      sw: 'Wazee wa kaya na viongozi wa Wadigo wanafufua Ngambi ya Wadigo, baraza la jadi la wazee, na kuchagua viongozi wake.',
+      dg: 'Azehe a kaya na aongozi a Adigo anafufula Ngambi ya Adigo, baraza ra chienyeji ra azehe, na kutsambula aongoziye.',
     },
   },
 ];

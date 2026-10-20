@@ -19,7 +19,17 @@ const eraPeriods: Record<Era, string> = {
 };
 
 
-export function HistoryIndex() {
+/** A figure card; a link to the full article once one exists in all three languages. */
+function FigureCard({ href, children }: { href: string | null; children: React.ReactNode }) {
+  if (!href) return <div className={styles.figureCard}>{children}</div>;
+  return (
+    <a href={href} className={`${styles.figureCard} ${styles.figureCardLink}`} onClick={() => trackNavClick('history_figures', href)}>
+      {children}
+    </a>
+  );
+}
+
+export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[] }) {
   const t = useTranslations();
   const { locale } = useLocale();
 
@@ -106,7 +116,7 @@ export function HistoryIndex() {
           </h2>
           <div className={styles.figureGrid}>
             {figures.map((fig) => (
-              <div key={fig.slug} className={styles.figureCard}>
+              <FigureCard key={fig.slug} href={figureArticles.includes(fig.slug) ? `/history/figures/${fig.slug}` : null}>
                 <h3 className={styles.figureName}>{fig.name}</h3>
                 <div className={styles.figureMeta}>
                   <span className={styles.figureEra}>{fig.era[locale]}</span>
@@ -114,7 +124,7 @@ export function HistoryIndex() {
                 </div>
                 <p className={styles.figureRole}>{fig.role[locale]}</p>
                 <p className={styles.figureSummary}>{fig.summary[locale]}</p>
-              </div>
+              </FigureCard>
             ))}
           </div>
         </div>
