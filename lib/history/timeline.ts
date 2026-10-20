@@ -194,7 +194,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'An estimated 43,000–47,000 enslaved people constitute ~44% of the coastal population. Shimoni Caves in Kwale serve as holding pens. Many Digo are enslaved; some gain freedom through conversion to Islam.',
       sw: 'Watu 43,000–47,000 waliofanywa watumwa wanaunda ~44% ya watu wa pwani. Mapango ya Shimoni huko Kwale yanatumika kama magereza. Wadigo wengi wanafanywa watumwa; baadhi wanapata uhuru kwa kuingia Uislamu.',
-      dg: 'Atu 43,000–47,000 ariohendwa atumwa anaunda ~44% ya atu a pwani. Mapango ga Shimoni iko Kwale ganahumika dza magereza. Adigo anji anahendwa atumwa; anjine anapata uhuru kpwa kuingia Uislamu.',
+      dg: 'Atu 43,000–47,000 ariohendwa atumwa anaunda ~44% ya atu a pwani. Mapango ga Shimoni iko Kwale ganahumika dza magereza. Adigo anji anahendwa atumwa; anjina anapata uhuru kpwa kuingia Uislamu.',
     },
   },
 
@@ -238,7 +238,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "Inland from Tanga, the Digo around Gombelo tear down the German flag, declare themselves independent, drive a German officer back to Amboni and burn the plantation company's barns. A punitive expedition under von Bülow burns their villages and drives off their livestock.",
       sw: 'Bara ya Tanga, Wadigo wa karibu na Gombelo wanashusha bendera ya Kijerumani, wanajitangaza huru, wanamrudisha nyuma afisa wa Kijerumani hadi Amboni na kuchoma ghala za kampuni ya mashamba. Kikosi cha adhabu chini ya von Bülow kinachoma vijiji vyao na kuchukua mifugo yao.',
-      dg: 'Bara ya Tanga, Adigo a phephi na Gombelo anausa bendera ya Chijerumani, anadzitangaza kukala huru, anamzorera afisa Mjerumani hadi Amboni na anaocha vitsaga vya kampuni ya mashamba. Asikari a Chijerumani a adhabu, achilongozwa ni von Bülow, anaocha vidzidzi vyao na anahala mifugo yao.',
+      dg: 'Bara ya Tanga, Adigo a phephi na Gombelo anausa bendera ya Chijerumani, anadzitangaza kukala huru, anamzoresa afisa Mjerumani hadi Amboni na anaocha vitsaga vya kampuni ya mashamba. Asikari a Chijerumani a adhabu, achilongozwa ni von Bülow, anaocha vidzidzi vyao na anahala mifugo yao.',
     },
   },
   {
