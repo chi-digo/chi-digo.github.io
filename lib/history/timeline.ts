@@ -124,7 +124,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "Digo groups cross the Umba River southward into the Tanga hinterland and take the land between the Umba and the Sigi from the Bondei. Daluni becomes their western limit.",
       sw: "Makundi ya Wadigo yanavuka Mto Umba kuelekea kusini hadi bara ya Tanga na kuchukua ardhi kati ya Umba na Sigi kutoka kwa Wabondei. Daluni inakuwa mpaka wao wa magharibi.",
-      dg: "Makundi ga Adigo ganavuka Mto Umba kuphiya kusini hadi bara ya Tanga, na anahala tsi ya kahi ya Umba na Sigi kula kpwa Abondei. Daluni inakala mpaka wao wa uphande wa mtswerero wa dzuwa.",
+      dg: "Makundi ga Adigo ganavuka Muho Umba kuphiya kusini hadi bara ya Tanga, na anahala tsi ya kahi ya Umba na Sigi kula kpwa Abondei. Daluni inakala mphaka wao wa uphande wa mtswerero wa dzuwa.",
     },
   },
   {
@@ -166,7 +166,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "Bondei oral history remembers a war fought to stop the Digo spreading further. The Digo push the Bondei inland, toward today's Muheza.",
       sw: "Simulizi za Wabondei zinakumbuka vita vilivyopiganwa kuwazuia Wadigo wasienee zaidi. Wadigo wanawasukuma Wabondei kuelekea bara, upande wa Muheza ya leo.",
-      dg: "Hadisi za Abondei zinakumbuka vita virivyopiganwa kuazuwiya Adigo asienee zaidi. Adigo anaasukuma Abondei bara, uphande wa Muheza ya rero.",
+      dg: "Hadisi za Abondei zinatambukira vita virivyopiganwa kuazuwiya Adigo asienee zaidi. Adigo anaasukuma Abondei bara, uphande wa Muheza ya rero.",
     },
   },
   {
@@ -222,7 +222,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "Maasai raids strip the Tanga Digo of all their cattle, turning herders into farmers. About 1882–83 a raid guided by Jambia of Mgandi sweeps every coastal village from Tanga to Vanga; the Sultan of Zanzibar has him jailed in chains.",
       sw: "Mashambulizi ya Wamasai yanawanyang’anya Wadigo wa Tanga ng’ombe wao wote, na wafugaji wanageuka wakulima. Karibu 1882–83 shambulio lililoongozwa na Jambia wa Mgandi linavamia kila kijiji cha pwani kutoka Tanga hadi Vanga; Sultani wa Zanzibar anamfunga kwa minyororo.",
-      dg: "Amasai anaavamira Adigo a Tanga na kuahala ng’ombe zao zosi, phahi arisa anagaluka akurima. Kama 1882–83 Amasai, achilongozwa ni Jambia wa Mgandi, anavamira chila chidzidzi cha pwani kula Tanga hadi Vanga; Sultani wa Zanzibar anamfunga kpwa minyororo.",
+      dg: "Amasai anaavamira Adigo a Tanga na kuahala ng’ombe hao hosi, phahi arisa anagaluka akurima. Kama 1882–83 Amasai, achilongozwa ni Jambia wa Mgandi, anavamira chila chidzidzi cha pwani kula Tanga hadi Vanga; Sultani wa Zanzibar anamfunga kpwa minyororo.",
     },
   },
   {
@@ -303,12 +303,12 @@ export const timelineEvents: TimelineEvent[] = [
     title: {
       en: "The border is marked through Digo country",
       sw: "Mpaka wawekwa katikati ya nchi ya Wadigo",
-      dg: "Mpaka unaikpwa kahi kahi ya tsi ya Adigo",
+      dg: "Mphaka unaikpwa kahi kahi ya tsi ya Adigo",
     },
     description: {
       en: "British and German commissioners mark the border on the ground from the mouth of the Umba at Vanga. The line runs through Digo country and splits villages such as Jasini, which it still divides.",
       sw: "Makamishna wa Kiingereza na Kijerumani wanaweka alama za mpaka kuanzia mdomo wa Mto Umba huko Vanga. Mstari huo unapita katikati ya nchi ya Wadigo na kugawa vijiji kama Jasini, ambacho bado kimegawanywa nao.",
-      dg: "Makamishna a Chingereza na a Chijerumani anaika alama za mpaka kuandzira mlomo wa Mto Umba iko Vanga. Mstari uho unapita kahi kahi ya tsi ya Adigo na unagawanya vidzidzi dza Jasini, ambacho hadi rero chinagawanywa ni mpaka uho.",
+      dg: "Makamishna a Chingereza na a Chijerumani anaika alama za mphaka kuandzira mlomo wa Muho Umba iko Vanga. Mstari uho unapita kahi kahi ya tsi ya Adigo na unagawanya vidzidzi dza Jasini, ambacho hadi rero chinagawanywa ni mphaka uho.",
     },
   },
   {
@@ -378,7 +378,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "In November 1914 a British landing at Tanga is beaten off, and in January 1915 German forces overwhelm a British-Indian garrison at Jasini, a Digo border village and sisal estate. How the fighting affected Digo villagers is not recorded.",
       sw: "Novemba 1914 Waingereza wanashindwa kutua Tanga, na Januari 1915 majeshi ya Kijerumani yanashinda kikosi cha Kiingereza na Kihindi huko Jasini, kijiji cha Wadigo mpakani chenye shamba la mkonge. Jinsi vita hivyo vilivyowaathiri wanakijiji wa Kidigo haijaandikwa.",
-      dg: "Novemba 1914 Aingereza anashindwa kuinjira Tanga, na Januari 1915 asikari a Chijerumani anashinda chikosi cha Aingereza na Ahindi iko Jasini, chidzidzi cha Adigo phephi na mpaka chenye shamba ra makonge. Taphana maandiko ga vira vita ivyo virivyoahenda Adigo a hiko.",
+      dg: "Novemba 1914 Aingereza anashindwa kuinjira Tanga, na Januari 1915 asikari a Chijerumani anashinda chikosi cha Aingereza na Ahindi iko Jasini, chidzidzi cha Adigo phephi na mphaka chenye shamba ra makonge. Taphana maandiko ga vira vita ivyo virivyoahenda Adigo a hiko.",
     },
   },
   {
@@ -473,12 +473,12 @@ export const timelineEvents: TimelineEvent[] = [
     title: {
       en: "The border is closed",
       sw: "Mpaka wafungwa",
-      dg: "Mpaka unafungwa",
+      dg: "Mphaka unafungwa",
     },
     description: {
       en: "Tanzania seals its border with Kenya when the East African Community collapses. The Lunga Lunga–Horohoro crossing, in the middle of Digo country, stays closed for about six years.",
       sw: "Tanzania inafunga mpaka wake na Kenya Jumuiya ya Afrika Mashariki inapovunjika. Kivuko cha Lunga Lunga–Horohoro, katikati ya nchi ya Wadigo, kinabaki kimefungwa kwa takriban miaka sita.",
-      dg: "Tanzania inafunga mpaka wakpwe na Kenya Jumuiya ya Afrika ya Mashariki iriphovundzika. Chivuko cha Lunga Lunga–Horohoro, kahi kahi ya tsi ya Adigo, chinasala chifungwa kpwa miaka kama sita.",
+      dg: "Tanzania inafunga mphaka wakpwe na Kenya Jumuiya ya Afrika ya Mashariki iriphovundzika. Chivuko cha Lunga Lunga–Horohoro, kahi kahi ya tsi ya Adigo, chinasala chifungwa kpwa miaka kama sita.",
     },
   },
   {

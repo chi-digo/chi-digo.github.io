@@ -27,7 +27,7 @@ export const figures: Figure[] = [
     summary: {
       en: 'A leader remembered in Tanga oral tradition, whose authority came from healing, divination and counsel. Rulers of other peoples are said to have sought his advice on difficult decisions.',
       sw: 'Kiongozi anayekumbukwa katika simulizi za Tanga, ambaye mamlaka yake yalitokana na uganga, utabiri na ushauri. Inasemekana viongozi wa watu wengine walimtafuta kwa ushauri kuhusu maamuzi magumu.',
-      dg: 'Chiongozi anayekumbukwa kahi za hadithi za Tanga, ambaye mamlaka gakpwe garitokana na uganga, utabiri na ushauri. Nkugombwa kukala aongozi a atu anjina amhendza kpwa ushauri wa mambo magumu.',
+      dg: 'Chiongozi anayetambukirwa kahi za hadithi za Tanga, ambaye mamlaka gakpwe garitokana na uganga, utabiri na ushauri. Nkugombwa kukala aongozi a atu anjina amhendza kpwa ushauri wa mambo magumu.',
     },
   },
   {
