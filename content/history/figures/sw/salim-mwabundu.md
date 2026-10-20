@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Kipindi:** Alisilimu kabla ya 1880; alikuwa hai kikazi hadi miaka ya 1910
-**Jukumu:** Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Mkuu wa Lokesheni (Headman) wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani
+**Jukumu:** Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Mkuu wa Lokesheni wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani
 **Eneo:** Likoni, bara mkabala na Mombasa, Kenya ya leo
 
 ---
@@ -20,9 +20,9 @@ Waislamu hawakuishi Likoni mwanzoni mwa karne ya 19, ingawa Waswahili wa Kilindi
 
 ## Mfanyabiashara na Mwislamu Mpya
 
-Salim Mwabundu alisilimishwa na Wabaluchi "alipokuwa bado kijana, kabla hajaoa, wakati fulani kabla ya 1880" (*while still a young man, before he had married, some time before 1880*). Mjukuu wake alikumbuka jinsi ilivyotokea:
+Salim Mwabundu alisilimishwa na Wabaluchi "alipokuwa bado kijana, kabla hajaoa, wakati fulani kabla ya 1880". Mjukuu wake alikumbuka jinsi ilivyotokea:
 
-> Alianza kwa kufanya biashara ndogo na Wabaluchi. Kisha, alipokuwa Mwislamu, walimwamini zaidi, kwa hiyo biashara ikaongezeka. (*He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.*)
+> Alianza kwa kufanya biashara ndogo na Wabaluchi. Kisha, alipokuwa Mwislamu, walimwamini zaidi, kwa hiyo biashara ikaongezeka.
 
 Siku za soko alikwenda pamoja na Wabaluchi kwenye soko la Ngare huko Pungu, nao walimpa pesa za kununua vikapu, mikeka na ngozi. Wafanyabiashara walioitwa Muradi na Maluki walikuja kwake. Muradi alinunua mbuzi Kinango na kuwaleta nyumbani kwa Mwabundu walale huko usiku, kabla ya kuwavusha hadi Mombasa asubuhi iliyofuata.
 
