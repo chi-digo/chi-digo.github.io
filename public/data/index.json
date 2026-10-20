@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-05-06T04:32:25.640691+00:00",
-  "total_entries": 5210,
+  "total_entries": 5219,
   "letters": {
     "a": {
-      "count": 132,
+      "count": 134,
       "first": "a",
       "last": "azo"
     },
@@ -39,7 +39,7 @@
       "last": "fyusa"
     },
     "g": {
-      "count": 116,
+      "count": 117,
       "first": "gachiandikpwa",
       "last": "guza"
     },
@@ -64,7 +64,7 @@
       "last": "juujuu"
     },
     "k": {
-      "count": 333,
+      "count": 334,
       "first": "k",
       "last": "kwana"
     },
@@ -129,7 +129,7 @@
       "last": "ryango"
     },
     "s": {
-      "count": 213,
+      "count": 214,
       "first": "saa",
       "last": "swiswi"
     },
@@ -139,7 +139,7 @@
       "last": "shuwari"
     },
     "t": {
-      "count": 224,
+      "count": 226,
       "first": "taa",
       "last": "tya"
     },
@@ -149,7 +149,7 @@
       "last": "tswesa"
     },
     "u": {
-      "count": 201,
+      "count": 202,
       "first": "u",
       "last": "uzuzu"
     },
@@ -159,7 +159,7 @@
       "last": "vyoni"
     },
     "w": {
-      "count": 56,
+      "count": 57,
       "first": "waaa",
       "last": "wuongo"
     },
