@@ -1916,7 +1916,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili kuko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu kuko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
+              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili iko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu iko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
             },
             {
               "type": "paragraph",
@@ -1996,7 +1996,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS kuko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
+              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS iko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
             },
             {
               "type": "heading",
@@ -5518,7 +5518,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Warshaye kuko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ichiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayohenda kazi, na uwezowe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, uchitafsiriwa vinono, una samani ya soko. Maagizo ga chimataifa ganagophiya Dubai na Marekani ganathibitisha kukala samani hino inaenderera kure zaidi ya utsi wa phephi."
+              "text": "Warshaye iko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ichiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayohenda kazi, na uwezowe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, uchitafsiriwa vinono, una samani ya soko. Maagizo ga chimataifa ganagophiya Dubai na Marekani ganathibitisha kukala samani hino inaenderera kure zaidi ya utsi wa phephi."
             },
             {
               "type": "heading",
@@ -6188,7 +6188,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Desturi ya kuenjereza maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji kuko Mombasa na Unguja agundua kukala maandishi gaenjereza mauzo kpwa unji. Achetu alonda nguwo zirizogomba chitu — zirizoapha sauti ambayo anaweza kuivwala. Mila iyo yadzikita kpwa upesi wa ajabu na hadi rero ina nguvu zizo-zizo. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Mashariki, mkusanyiko unaoenderera kubadilika wa ndarira, misemo, na maoni makali ganagoonyesa wasiwasi, samani, na akili ya achetu anaogula na kuvwala nguwo hizi."
+              "text": "Desturi ya kuenjereza maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji iko Mombasa na Unguja agundua kukala maandishi gaenjereza mauzo kpwa unji. Achetu alonda nguwo zirizogomba chitu — zirizoapha sauti ambayo anaweza kuivwala. Mila iyo yadzikita kpwa upesi wa ajabu na hadi rero ina nguvu zizo-zizo. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Mashariki, mkusanyiko unaoenderera kubadilika wa ndarira, misemo, na maoni makali ganagoonyesa wasiwasi, samani, na akili ya achetu anaogula na kuvwala nguwo hizi."
             },
             {
               "type": "paragraph",
@@ -9261,7 +9261,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mfumo wa makundi ga umri wenyewe ukaphunguka nguvu tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayogaluka. Kpwenye seemu za midzini, alume adide a Adigo achache anainjira rasmi kpwenye kundi ndide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vikahalwa nafasi ni aina zanjina za uhusiano wa chijamii — usena wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata kuko, nguvuze za chitaasisi zikaphunguka."
+              "text": "Mfumo wa makundi ga umri wenyewe ukaphunguka nguvu tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayogaluka. Kpwenye seemu za midzini, alume adide a Adigo achache anainjira rasmi kpwenye kundi ndide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vikahalwa nafasi ni aina zanjina za uhusiano wa chijamii — usena wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata iko, nguvuze za chitaasisi zikaphunguka."
             },
             {
               "type": "paragraph",
