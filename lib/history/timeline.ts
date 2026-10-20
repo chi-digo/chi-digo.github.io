@@ -152,7 +152,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'By Chikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Dzombo, and his title, Kubo, becomes hereditary.',
       sw: 'Kwa mapokeo ya Chikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Dzombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
-      dg: 'Kpwa hadithi za Chikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
+      dg: 'Kpwa hadithi za Chikoneni, Mbogo Mwamzungu, mgbwanga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
     },
   },
   {
@@ -280,7 +280,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Abdallah Mwapodzo, mwanatsi (senior elder) of Kaya Diani, builds the Mwaroni Mosque, the first in Diani.',
       sw: 'Abdallah Mwapodzo, mwanatsi (mzee mkuu) wa Kaya Diani, anajenga Msikiti wa Mwaroni, wa kwanza Diani.',
-      dg: 'Abdallah Mwapodzo, mwanatsi (mzehe mkulu) wa Kaya Diani, anadzenga Msikiti wa Mwaroni, wa kpwandza Diani.',
+      dg: 'Abdallah Mwapodzo, mwanatsi (mzehe mkpwulu) wa Kaya Diani, anadzenga Msikiti wa Mwaroni, wa kpwandza Diani.',
     },
   },
   {
@@ -308,7 +308,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Mosques and Quranic schools spread across Kwale.',
       sw: 'Misikiti na shule za Qurani zinasambaa Kwale kote.',
-      dg: 'Misikiti na shule za Qurani zinasambaa Kwale kose.',
+      dg: 'Misikiti na shule za Kuruani zinasambaa Kwale kose.',
     },
   },
   {

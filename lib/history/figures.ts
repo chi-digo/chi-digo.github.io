@@ -21,7 +21,7 @@ export const figures: Figure[] = [
     role: {
       en: 'Diviner-leader, healer, archer',
       sw: 'Mtawala-mtabiri, mganga, mpiga mishale',
-      dg: 'Mtawala-mtabiri, mganga, mpiga mishale',
+      dg: 'Mtawala-mtabiri, mgbwanga, mpiga mishale',
     },
     region: 'Tanga, Tanzania',
     summary: {
@@ -47,7 +47,7 @@ export const figures: Figure[] = [
     summary: {
       en: "A rain-maker who came south from Kwale in a famine and was accepted as leader after he “brought rain”. He founded the Kubo rulership of the southern Digo at Kaya Dzombo.",
       sw: "Mganga wa mvua aliyekuja kusini kutoka Kwale wakati wa njaa na akakubaliwa kuwa kiongozi baada ya “kuleta mvua”. Alianzisha utawala wa Kubo wa Wadigo wa kusini huko Kaya Dzombo.",
-      dg: "Mganga wa mvula ariyekpwedza kusini kula Kwale wakati wa ndzala, achikubalika kukala chiongozi bada ya “kureha mvula”. Waandzisha utawala wa Kubo wa Adigo a kusini kuko Kaya Dzombo.",
+      dg: "Mgbwanga wa mvula ariyekpwedza kusini kula Kwale wakati wa ndzala, achikubalika kukala chiongozi bada ya “kureha mvula”. Waandzisha utawala wa Kubo wa Adigo a kusini kuko Kaya Dzombo.",
     },
   },
   {
@@ -81,13 +81,13 @@ export const figures: Figure[] = [
     role: {
       en: "Leader of Kaya Shonda, Headman of Likoni",
       sw: "Kiongozi wa Kaya Shonda, Mkuu wa Likoni",
-      dg: "Chiongozi wa Kaya Shonda, Mkulu wa Likoni",
+      dg: "Chiongozi wa Kaya Shonda, Dzumbe wa Likoni",
     },
     region: "Likoni, Kenya",
     summary: {
       en: "One of the first Digo Muslims around Likoni. He started as a small trader at Pungu market, led Kaya Shonda and became Headman of Likoni under British rule.",
       sw: "Mmoja wa Wadigo Waislamu wa kwanza karibu na Likoni. Alianza kama mfanyabiashara mdogo katika soko la Pungu, akaongoza Kaya Shonda na kuwa Mkuu wa Likoni chini ya utawala wa Waingereza.",
-      dg: "Mmwenga wa Adigo Aislamu a kpwandza phephi na Likoni. Waandza dza mfanyabiashara mdide kpwenye soko ra Pungu, achilongoza Kaya Shonda na kukala Mkulu wa Likoni tsini ya utawala wa Aingereza.",
+      dg: "Mmwenga wa Adigo Aislamu a kpwandza phephi na Likoni. Waandza dza mfanyabiashara mdide kpwenye soko ra Pungu, achilongoza Kaya Shonda na kukala Dzumbe wa Likoni tsini ya utawala wa Aingereza.",
     },
   },
   {
@@ -107,7 +107,7 @@ export const figures: Figure[] = [
     summary: {
       en: 'The 7th mwanatsi (senior elder) of Kaya Diani. He became a Muslim during the famine of 1884–85 and kept leading the kaya’s rain rituals. Around 1907 he built Diani’s first mosque, at Mwaroni.',
       sw: 'Mwanatsi (mzee mkuu) wa 7 wa Kaya Diani. Alisilimu wakati wa njaa ya 1884–85 na akaendelea kuongoza matambiko ya mvua ya kaya. Karibu mwaka 1907 alijenga msikiti wa kwanza wa Diani, huko Mwaroni.',
-      dg: 'Mwanatsi (mzehe mkulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, kuko Mwaroni.',
+      dg: 'Mwanatsi (mzehe mkpwulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, kuko Mwaroni.',
     },
   },
   {
@@ -147,7 +147,7 @@ export const figures: Figure[] = [
     summary: {
       en: "Trader and Headman of Chikoneni, he built its first mosque around 1906 and led the Digo Central Council in the 1920s. A 1923 report called him one of the most energetic Presidents in the District.",
       sw: "Mfanyabiashara na Mkuu wa Chikoneni, alijenga msikiti wa kwanza huko karibu mwaka 1906 na akaongoza Baraza Kuu la Wadigo miaka ya 1920. Ripoti ya 1923 ilimwita mmoja wa marais wenye bidii zaidi wilayani.",
-      dg: "Mfanyabiashara na Mkulu wa Chikoneni, wadzenga msikiti wa kpwandza kuko kama mwaka 1906 na achilongoza Baraza Kulu ra Adigo miaka ya 1920. Ripoti ya 1923 yamuiha mmwenga wa marais enye bidii zaidi wilayani.",
+      dg: "Mfanyabiashara na Dzumbe wa Chikoneni, wadzenga msikiti wa kpwandza kuko kama mwaka 1906 na achilongoza Baraza Kulu ra Adigo miaka ya 1920. Ripoti ya 1923 yamuiha mmwenga wa marais enye bidii zaidi wilayani.",
     },
   },
   {
