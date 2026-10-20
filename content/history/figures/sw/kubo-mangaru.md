@@ -34,7 +34,7 @@ Hata hivyo Uislamu ulikuwa karibu. Le Roy aliuona Chikoneni: watu "hawakuwa sawa
 
 Barua za Mangaru za mwaka 1894 zinamwonyesha akishughulika moja kwa moja na kampuni ya Kizungu yenye hati ya kifalme (*chartered company*) katika miaka ya mwisho kabla ya ulinzi wa Waingereza (*protectorate*) wa 1895. Wakati huo Mbaruk mwenyewe alikuwa na amani na Zanzibar na alipokea posho kutoka kwa Kampuni. Amani hiyo haikudumu. Mwaka 1895 Mbaruk aliongoza uasi dhidi ya Sultani na Waingereza, na mwezi Julai mwaka huo aliiteka na kuipora Vanga. Sperling aligundua kwamba Wadigo wengi wa kusini mwa Mombasa, "ambao uhusiano wao na Wamazrui ulikuwa dhaifu, kama si wa uhasama, walionyesha nia ndogo ya kujiunga na Uasi" (*"whose links with the Mazrui were tenuous, if not hostile, showed little inclination to join the Rising."*). Uhasama wa muda mrefu wa Chikoneni dhidi ya Gasi unasaidia kueleza sababu.
 
-Tarehe za Sperling zinamaliza utawala wa Mangaru mwaka 1894. Mpwa wake Shehe Mwacholozi, mwana wa Tsolozi Mwajita, alisimikwa kuwa Kubo huko Chikoneni mwaka 1895. Vyanzo havisemi Mangaru alifariki vipi wala lini.
+Tarehe za Sperling zinamaliza utawala wa Mangaru mwaka 1894. Mpwa wake Shehe Mwatsolozi, mwana wa Tsolozi Mwajita, alisimikwa kuwa Kubo huko Chikoneni mwaka 1895. Vyanzo havisemi Mangaru alifariki vipi wala lini.
 
 ## Urithi Wake
 

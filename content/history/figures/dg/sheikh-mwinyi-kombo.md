@@ -48,7 +48,7 @@ Rero adisi inayosemurirwa msikitini ni tafwauti. Muimirizi wa msikiti na naibu i
 
 Msikiti wa Kongo ni kahi za misikiti ya kare iriyosala na hali nono zaidi kahi za pwani ya kusini ya Kenya. Dariye ya matao na makuba kpwa seemu kulu ichere nzima. Matao ganagofunika ukumbi wa kuvoya ganaima dzulu ya nguzo tahu za kahi-kahi, na mihrabu, chishubaka chinacholengana na Makka, ni tao risiro na mapambo rinarovugulika kpwenye pango ridide risiro na nakshi. Uphande wa kazikazini kuna mbira za kare zisizopungua tsano, tahu kahi zao ni kulu na karibu za mraba, na mbira mwenga ina uso wenye vibao photsi ya mstari wa vishubaka vidide. Mapokeo ga atu a phapho ganagomba kukala dzina Kongo rinakula kpwa maandiko ganagosomeka "Swaddiq Kongo" (au Siddiq Kongo) kpwenye mbira mwenga, ela Kongo piya ni dzina ra seemu hiyo. Msikiti ukatengezwa tsona kpwa simiti na rangi, na ukaenjerezwa uphande wa mashariki. Uchere ni phatu pha kuvoya phanaphohumirwa, na wakati wa Idi umati wa atu nkuodzala hadi ufuwoni.
 
-Serikali ya chikoloni yaorodhesha "Ruins at Diani" (Magofu ga Diani) dza mnara wa kumbukumbu unaorindwa mwaka 1929 (Matangazo ga Gazeti 170 na 457), kulengana na Sheria ya Kurinda Minara ya Kare ya 1927 (Ancient Monuments Preservation Ordinance). Mwaka 1983 Tangazo ra Gazeti Na. 440 ratangaza tsi inayouzunguluka msikiti kukala mnara wa kumbukumbu. Kukakala na kondo kuhusu ani mwenye chiwanja chikulu chinachouzunguluka tangu miaka ya 1980, na kesi ichere mahakamani.
+Serikali ya chikoloni yaorodhesha "Ruins at Diani" (Magofu ga Diani) dza mnara wa kumbukumbu unaorindwa mwaka 1929 (Matangazo ga Gazeti 170 na 457), kulengana na Sheria ya Kurinda Minara ya Kare ya 1927 (Ancient Monuments Preservation Ordinance). Mwaka 1983 Tangazo ra Gazeti Na. 440 ratangaza tsi inayouzunguluka msikiti kukala mnara wa kumbukumbu.
 
 ## Phatu pha Mwinyi Kombo Kahi za Historia ya Adigo
 
@@ -58,10 +58,6 @@ Sheikh Mwinyi Kombo kala ni msomi Mswahili kula Mombasa, si Mdigo. Adisiye icher
 
 1. David C. Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD thesis, SOAS, University of London, 1988, pp. 33–34, 148, 152–153 (notes 38–45) and 194 (note 9). Draws on interviews recorded in 1987 and on Kenya National Archives files Coast Province MP/12/172 and DC/KWL/2.
 2. Thomas H. Wilson, *The Monumental Architecture and Archaeology of the Central and Southern Kenya Coast* (Nairobi: National Museums of Kenya, 1980), pp. 43–48.
-3. Kenya News Agency, "EACC halts illegal sale of heritage site in Kwale", 17 May 2025.
-4. Ethics and Anti-Corruption Commission, "EACC moves to safeguard 700-year-old Kongo Mosque from land grabbers", 17 May 2025.
-5. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
-6. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
-7. "Uproar over planned takeover of 14th century Sh1.4bn Kwale Kongo Mosque land", *Daily Nation*, 16 April 2025.
-8. "Raila drawn into Kwale's Kongo Mosque land ownership dispute", *Daily Nation*, 9 June 2025.
-9. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.
+3. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
+4. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
+5. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.

@@ -14,7 +14,7 @@ Habari zake zimehifadhiwa katika kumbukumbu za mwanawe, Omari Muhammad Masemo, a
 
 ## Chikoneni na Kubo
 
-Adigo wa kusini walikuwa na mfumo wa utawala uliokusanywa mkononi mwa kiongozi mmoja kwa namna isiyo ya kawaida. Mwishoni mwa karne ya kumi na nane Mbogo Mwamzungu, mgeni aliyefika Kaya Dzombo, akawa kiongozi wao mkuu na akachukua jina *Kubo*. *Kaya* ni kijiji chenye ngome kilichojengwa katika uwazi ndani ya msitu, na pia ni msitu mtakatifu unaobaki pale kilipokuwa. Waliomrithi Mwamzungu waliendeleza Kubo kama cheo. Akina Kubo walikuwa na uhusiano wa karibu na Madiwani Waislamu wa Vanga, lakini hakuna hata mmoja wao anayejulikana kuwa alifuata Uislamu hadi Kubo Shehe Mwacholozi. Yeye alisimikwa mwaka 1895 na akafariki Februari 1916.
+Adigo wa kusini walikuwa na mfumo wa utawala uliokusanywa mkononi mwa kiongozi mmoja kwa namna isiyo ya kawaida. Mwishoni mwa karne ya kumi na nane Mbogo Mwamzungu, mgeni aliyefika Kaya Dzombo, akawa kiongozi wao mkuu na akachukua jina *Kubo*. *Kaya* ni kijiji chenye ngome kilichojengwa katika uwazi ndani ya msitu, na pia ni msitu mtakatifu unaobaki pale kilipokuwa. Waliomrithi Mwamzungu waliendeleza Kubo kama cheo. Akina Kubo walikuwa na uhusiano wa karibu na Madiwani Waislamu wa Vanga, lakini hakuna hata mmoja wao anayejulikana kuwa alifuata Uislamu hadi Kubo Shehe Mwatsolozi. Yeye alisimikwa mwaka 1895 na akafariki Februari 1916.
 
 Baada ya kifo cha Shehe, wanaume sita walidai cheo hicho. Vita vilichelewesha uamuzi, na badala yake Waingereza wakamteua mmoja wa wadai, Fundi Mwabege, kuwa Mkuu wa Chikoneni. Cheo cha Kubo kikaacha kutumika.
 

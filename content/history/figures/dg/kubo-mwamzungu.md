@@ -32,7 +32,7 @@ Hadisi hizi ni lazima zilolwe kpwa makini. Ichikala Mwamzungu kala anatawala kuf
 
 ## Kayakala Mwislamu, Wala Kayayalwa
 
-Hata dza kala ana uhusiano na Diwani, Mwamzungu kayasilimu. Wala mwanawe Jita Mwakubo, ariyehala utawala bada ya kufwa kpwakpwe. Mwana wa Jita, Mangaru Mwajita, watawala dza Kubo kula phephi na 1865 hadi 1894. Mwana wa nduguye Mangaru, Shehe Mwacholozi, waikpwa kpwenye cheo mwaka 1895, na kpwa maneno ga Afisa wa Tarafa (*District Officer*), kala ni "Kubo wa kpwandza kuhala dini ya Chiislamu" (*"the first Kubo to adopt the Islam religion"*). Kubo Shehe ariphofwa mwaka 1916, atu sita adai cheo hicho. Badala ya Kubo, Aingereza amtsambula mmwenga wao kukala Dzumbe (*Headman*), na Ukubo uchimala.
+Hata dza kala ana uhusiano na Diwani, Mwamzungu kayasilimu. Wala mwanawe Jita Mwakubo, ariyehala utawala bada ya kufwa kpwakpwe. Mwana wa Jita, Mangaru Mwajita, watawala dza Kubo kula phephi na 1865 hadi 1894. Mwana wa nduguye Mangaru, Shehe Mwatsolozi, waikpwa kpwenye cheo mwaka 1895, na kpwa maneno ga Afisa wa Tarafa (*District Officer*), kala ni "Kubo wa kpwandza kuhala dini ya Chiislamu" (*"the first Kubo to adopt the Islam religion"*). Kubo Shehe ariphofwa mwaka 1916, atu sita adai cheo hicho. Badala ya Kubo, Aingereza amtsambula mmwenga wao kukala Dzumbe (*Headman*), na Ukubo uchimala.
 
 Maafisa a Aingereza kala ana "hamu ya pekee ya chihistoriya" (*"singular historical interest"*) kuhusu Ukubo, anaandika Sperling, kpwa kukala kala ni "aina ya mamlaka garigokusanywa phatu phamwenga zaidi kuriko yoyosi iriyophahikana phatu phanjina pwani ya Kenya" (*"a more centralized form of authority than was found elsewhere on the Kenya coast"*), na aandika mafaili manji kuhusu Ukubo.
 
