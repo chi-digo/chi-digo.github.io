@@ -2,13 +2,13 @@
 
 ## Muhtasari
 
-**Kipindi:** Alikuwa hai takriban miaka ya 1880–1924; Mkuu wa Lokesheni (Headman) wa Chikoneni kuanzia 1920 (tarehe za kuzaliwa na kufa kwake hazijulikani)
-**Jukumu:** Mmoja wa Waislamu wa mwanzo na mfanyabiashara; mjenzi wa msikiti wa kwanza wa Chikoneni; Mkuu wa kikoloni wa eneo la Chikoneni na Rais wa Baraza Kuu la Adigo (Digo Central Council)
+**Kipindi:** Alikuwa hai takriban miaka ya 1880–1924; Mkuu wa Lokesheni wa Chikoneni kuanzia 1920 (tarehe za kuzaliwa na kufa kwake hazijulikani)
+**Jukumu:** Mmoja wa Waislamu wa mwanzo na mfanyabiashara; mjenzi wa msikiti wa kwanza wa Chikoneni; Mkuu wa kikoloni wa eneo la Chikoneni na Rais wa Baraza Kuu la Adigo
 **Eneo:** Chikoneni, kusini mwa Kaunti ya Kwale ya leo, Kenya (wakati huo Wilaya ya Vanga, iliyobadilishwa jina kuwa Wilaya ya Digo mwaka 1924)
 
 ---
 
-Kwa sehemu kubwa ya karne ya kumi na tisa, Chikoneni, iliyo kama maili arobaini kusini mwa Mombasa, ilikuwa mbali kabisa na miji ya Kiislamu ya pwani. Kufikia miaka ya 1920 ilikuwa na misikiti na vyuo vya Qurani, na mtu wake mkuu alikuwa mfanyabiashara Mwislamu ambaye maafisa wa Kiingereza walimwita "mmoja wa Marais wenye bidii na akili zaidi katika Wilaya" (*"one of the most energetic and intelligent Presidents in the District"*). Mtu huyo alikuwa Muhammad Masemo.
+Kwa sehemu kubwa ya karne ya kumi na tisa, Chikoneni, iliyo kama maili arobaini kusini mwa Mombasa, ilikuwa mbali kabisa na miji ya Kiislamu ya pwani. Kufikia miaka ya 1920 ilikuwa na misikiti na vyuo vya Qurani, na mtu wake mkuu alikuwa mfanyabiashara Mwislamu ambaye maafisa wa Kiingereza walimwita "mmoja wa Marais wenye bidii na akili zaidi katika Wilaya". Mtu huyo alikuwa Muhammad Masemo.
 
 Habari zake zimehifadhiwa katika kumbukumbu za mwanawe, Omari Muhammad Masemo, ambaye mwanahistoria David Sperling alimhoji mwaka 1975 na 1976, na katika mafaili ya kikoloni ambayo Sperling aliyapata katika Hifadhi ya Kitaifa ya Kenya. Makala hii inafuata simulizi la Sperling.
 
@@ -32,15 +32,15 @@ Karibu mwaka 1906 Masemo alijenga Msikiti wa Mophe nyumbani kwake, msikiti wa kw
 
 ## Mkuu na Rais wa Baraza
 
-Waingereza waliwatawala Adigo kupitia mabaraza ya wazee, yaliyojengwa juu ya *ngambi* ya zamani, baraza lililoendesha mambo ya kila kaya na vijiji vyake. Baada ya 1916 Masemo alikuwa, kwa maneno ya Sperling, "kiongozi halisi wa eneo la Chikoneni" (*"the real leader of Chikoneni location"*). Mkuu wa Wilaya (District Commissioner) aliandika mwaka 1920 kwamba baraza la Chikoneni "kwa jina liko chini ya Fundi Mwabege wa Mrima, ambaye ni mzee, na kazi halisi inaangukia Mohammed Mwamasemo" (*"nominally under Fundi Mwabege of Mrima, who is old, and the active work devolves on Mohammed Mwamasemo"*).
+Waingereza waliwatawala Adigo kupitia mabaraza ya wazee, yaliyojengwa juu ya *ngambi* ya zamani, baraza lililoendesha mambo ya kila kaya na vijiji vyake. Baada ya 1916 Masemo alikuwa, kwa maneno ya Sperling, "kiongozi halisi wa eneo la Chikoneni". Mkuu wa Wilaya aliandika mwaka 1920 kwamba baraza la Chikoneni "kwa jina liko chini ya Fundi Mwabege wa Mrima, ambaye ni mzee, na kazi halisi inaangukia Mohammed Mwamasemo".
 
 Mwabege alipofariki mwaka 1920, Masemo akawa Mkuu wa Chikoneni na Rais wa Baraza Kuu la Adigo. Ripoti ya makabidhiano ya Novemba 1923 ilitoa tathmini iliyonukuliwa hapo juu. Mnamo Januari 1924 alikuwa mmoja wa wazee wawili wa Kidigo walioalikwa kutembelea manowari za Kiingereza huko Mombasa.
 
-Suala zito zaidi la wakati huo lilikuwa urithi. Mila za Kidigo zilipitisha mali kupitia ukoo wa mama, ilhali sheria ya Kiislamu inapitisha mali kutoka kwa baba hadi kwa mwana. Mwaka 1924 Mkuu wa Wilaya aliwauliza wazee maoni yao na akaripoti kwamba theluthi mbili walipendelea mabadiliko. Tarehe 9 Agosti 1924 "alimhoji Mohamed Mwasemo wa Chikoneni na kujadili mabadiliko ya [sheria ya] urithi" (*"interviewed Mohamed Mwasemo of Chikoneni and discussed the change of inheritance [law]"*). Shajara inaandika kwamba "Mohamed anayakaribisha mabadiliko" (*"Mohamed welcomes the change"*). Mwaka 1928 Mahakama ya Rufaa iliamua, katika kesi kutoka Pungu, kwamba sheria ya Kiislamu ndiyo inayotumika na mali ya marehemu ilipita kutoka kwa baba hadi kwa mwana.
+Suala zito zaidi la wakati huo lilikuwa urithi. Mila za Kidigo zilipitisha mali kupitia ukoo wa mama, ilhali sheria ya Kiislamu inapitisha mali kutoka kwa baba hadi kwa mwana. Mwaka 1924 Mkuu wa Wilaya aliwauliza wazee maoni yao na akaripoti kwamba theluthi mbili walipendelea mabadiliko. Tarehe 9 Agosti 1924 "alimhoji Mohamed Mwasemo wa Chikoneni na kujadili mabadiliko ya [sheria ya] urithi". Shajara inaandika kwamba "Mohamed anayakaribisha mabadiliko". Mwaka 1928 Mahakama ya Rufaa iliamua, katika kesi kutoka Pungu, kwamba sheria ya Kiislamu ndiyo inayotumika na mali ya marehemu ilipita kutoka kwa baba hadi kwa mwana.
 
 ## Kwa Nini Kumbukumbu ni Chache
 
-Hatujui Masemo alizaliwa lini wala alifariki lini, wala alikaa madarakani kwa muda gani baada ya 1924. Makarani wa kikoloni waliandika jina lake "Mwamasemo" na "Mwasemo". Sperling haelezi Baraza Kuu la Adigo liliundwa vipi. Pia anataja "Baraza Kuu lililoundwa karibuni" (*"newly-established Central Council"*) la Adigo wa vijiji tisa vilivyo kusini kidogo mwa Mombasa, ambalo mwaka 1924 lilijiita *Midzichenda*. Haijulikani wazi kama hili lilikuwa baraza lile lile aliloliongoza Masemo; urais wake umeandikwa kuanzia 1920. Habari nyingi za maisha yake binafsi zinatoka kwa mwanawe, na kumbukumbu za mwana kuhusu baba yake huenda zikawa za kumsifu kupita kiasi.
+Hatujui Masemo alizaliwa lini wala alifariki lini, wala alikaa madarakani kwa muda gani baada ya 1924. Makarani wa kikoloni waliandika jina lake "Mwamasemo" na "Mwasemo". Sperling haelezi Baraza Kuu la Adigo liliundwa vipi. Pia anataja "Baraza Kuu lililoundwa karibuni" la Adigo wa vijiji tisa vilivyo kusini kidogo mwa Mombasa, ambalo mwaka 1924 lilijiita *Midzichenda*. Haijulikani wazi kama hili lilikuwa baraza lile lile aliloliongoza Masemo; urais wake umeandikwa kuanzia 1920. Habari nyingi za maisha yake binafsi zinatoka kwa mwanawe, na kumbukumbu za mwana kuhusu baba yake huenda zikawa za kumsifu kupita kiasi.
 
 ## Urithi Wake
 

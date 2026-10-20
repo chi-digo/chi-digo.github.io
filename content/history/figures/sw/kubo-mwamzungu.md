@@ -8,15 +8,15 @@
 
 ---
 
-Sehemu kubwa ya nchi ya Wadigo iliongozwa na wazee, si na wafalme. Kila kaya, yaani makao ya zamani yaliyozungushiwa ulinzi juu ya kilima na yaliyokuwa kiini cha jamii ya Wadigo, ilikuwa na *ngambi* yake, baraza la wazee. Kiongozi wa baraza hilo alikuwa *mwanatsi* (kutoka *mwana wa ntsi*, "mwana wa nchi"), mzee mkuu aliyeongoza sherehe za kaya na ambaye karibu kila mara alichaguliwa kwa nasaba ya upande wa mama kutoka ukoo ulioanzisha kaya. Lakini huko kusini kabisa, karibu na Kaya Dzombo na Chikoneni, jambo tofauti lilizuka. Huko mtu mmoja na warithi wake walishika cheo ambacho maafisa wa Kiingereza baadaye walikiita "uchifu" (*chieftainship*). Mtu huyo alikuwa Mbogo Mwamzungu, aliyejulikana pia kama Chikonga, na cheo hicho kilikuwa Ukubo.
+Sehemu kubwa ya nchi ya Wadigo iliongozwa na wazee, si na wafalme. Kila kaya, yaani makao ya zamani yaliyozungushiwa ulinzi juu ya kilima na yaliyokuwa kiini cha jamii ya Wadigo, ilikuwa na *ngambi* yake, baraza la wazee. Kiongozi wa baraza hilo alikuwa *mwanatsi* (kutoka *mwana wa ntsi*, "mwana wa nchi"), mzee mkuu aliyeongoza sherehe za kaya na ambaye karibu kila mara alichaguliwa kwa nasaba ya upande wa mama kutoka ukoo ulioanzisha kaya. Lakini huko kusini kabisa, karibu na Kaya Dzombo na Chikoneni, jambo tofauti lilizuka. Huko mtu mmoja na warithi wake walishika cheo ambacho maafisa wa Kiingereza baadaye walikiita "uchifu". Mtu huyo alikuwa Mbogo Mwamzungu, aliyejulikana pia kama Chikonga, na cheo hicho kilikuwa Ukubo.
 
 Karibu yote tunayoyajua kumhusu yanatoka kwa mwanahistoria David Sperling, aliyerekodi masimulizi ya wazee wa Chikoneni katika miaka ya 1970 na kuyalinganisha na maandiko ya zamani na nyaraka za kikoloni.
 
 ## Mletaji Mvua kutoka Kwale
 
-Wadigo wa kwanza kuishi Kaya Dzombo huenda walitoka Chinondo mapema kama karne ya 17. Walowezi kutoka Kwale waliwafuata na wakaja kuitawala kaya hiyo. Kwa mujibu wa wasimulizi wa Sperling, Mbogo Mwamzungu alitoka Kwale wakati wa njaa mwishoni mwa karne ya 18. Inasemekana "aliileta mvua nchini" (*"brought rain to the country"*), na baada ya hapo watu wakamkubali kuwa kiongozi wao.
+Wadigo wa kwanza kuishi Kaya Dzombo huenda walitoka Chinondo mapema kama karne ya 17. Walowezi kutoka Kwale waliwafuata na wakaja kuitawala kaya hiyo. Kwa mujibu wa wasimulizi wa Sperling, Mbogo Mwamzungu alitoka Kwale wakati wa njaa mwishoni mwa karne ya 18. Inasemekana "aliileta mvua nchini", na baada ya hapo watu wakamkubali kuwa kiongozi wao.
 
-Sperling anamweleza kuwa mtu "aliyejaliwa haiba yenye nguvu" (*"endowed with a forceful personality"*). Muda si mrefu akawa "kiongozi mkuu wa Wadigo wa kusini" (*"the dominant leader of the southern Digo"*) na akachukua jina *Kubo*. Mzee mmoja wa Chikoneni alisema jina hilo liliwapitia warithi wake likawa cheo cha mamlaka. Mapokeo mengine yanasema ni Wavumba wa pwani waliompa jina hilo. Wakati wa utawala wake Dzombo iliachwa na Mwamzungu akahamia Chirwa, karibu na Chikoneni. Alipanua mamlaka yake kwa kuwaweka wanawe Mafisini, Chigombero na vijiji vingine vya pembeni, na Wadigo wengine wa eneo hilo wakawa chini ya mamlaka yake.
+Sperling anamweleza kuwa mtu "aliyejaliwa haiba yenye nguvu". Muda si mrefu akawa "kiongozi mkuu wa Wadigo wa kusini" na akachukua jina *Kubo*. Mzee mmoja wa Chikoneni alisema jina hilo liliwapitia warithi wake likawa cheo cha mamlaka. Mapokeo mengine yanasema ni Wavumba wa pwani waliompa jina hilo. Wakati wa utawala wake Dzombo iliachwa na Mwamzungu akahamia Chirwa, karibu na Chikoneni. Alipanua mamlaka yake kwa kuwaweka wanawe Mafisini, Chigombero na vijiji vingine vya pembeni, na Wadigo wengine wa eneo hilo wakawa chini ya mamlaka yake.
 
 Tarehe yake inategemea marejeo mamoja tu: akinukuu "History of Vumba" ya Hollis, Sperling anasema alikuwa tayari madarakani wakati wa mzozo wa urithi wa Vumba karibu mwaka 1803–04.
 
@@ -24,7 +24,7 @@ Tarehe yake inategemea marejeo mamoja tu: akinukuu "History of Vumba" ya Hollis,
 
 Chikoneni, maili arobaini kusini mwa Mombasa na maili kumi na tano kutoka pwani kuelekea bara, kwa muda mrefu haikufikiwa na ushawishi wa Kiislamu, isipokuwa kwa jambo moja: Madiwani wa Vumba, watawala Waislamu wa Wasini na baadaye Vanga. Inasemekana Mwamzungu aliithamini nguvu ya uganga ya Diwani Pinda, aliyechaguliwa kuwa Diwani wa Vanga mwaka 1826. Diwani alikubaliwa kuwa msuluhishi wa mwisho katika mizozo ya Wadigo, na inaonekana aliwapa Wadigo hirizi za kinga. Inasemekana Wadigo na Wavumba walizika pamoja hirizi ya kinga (*fingo*) huko Kaya Dzombo.
 
-Tukio linalokumbukwa zaidi ni udugu wa damu (*chale*). Omari Muhammad Masemo, aliyewahi kuwa karani wa Kubo wa baadaye, alimweleza Sperling mwaka 1975 kwamba Mwamzungu alipendekeza wachanganye damu yao na nyama kisha waile. Pinda, akiwa Mwislamu, alikataa kula nyama isiyochinjwa kwa taratibu za Kiislamu. "Lakini Kubo alichukua kuku akamuua kwa kumng'ata kwa meno yake" (*"But Kubo got a chicken and killed it by biting it with his teeth"*), na ilipoiva "wote waliila, hata Diwani" (*"they all ate it, including the Diwan"*). Kwa maneno ya Masemo: "Tangu siku za Kubo Mwamzungu na Diwani Pinda tukawa ndugu" (*"From the days of Kubo Mwamzungu and Diwan Pinda we became brothers"*).
+Tukio linalokumbukwa zaidi ni udugu wa damu (*chale*). Omari Muhammad Masemo, aliyewahi kuwa karani wa Kubo wa baadaye, alimweleza Sperling mwaka 1975 kwamba Mwamzungu alipendekeza wachanganye damu yao na nyama kisha waile. Pinda, akiwa Mwislamu, alikataa kula nyama isiyochinjwa kwa taratibu za Kiislamu. "Lakini Kubo alichukua kuku akamuua kwa kumng'ata kwa meno yake", na ilipoiva "wote waliila, hata Diwani". Kwa maneno ya Masemo: "Tangu siku za Kubo Mwamzungu na Diwani Pinda tukawa ndugu".
 
 Udugu huo ulikuwa kati ya koo mbili: ukoo wa Hindzano wa Chikoneni na Wanachamvi, ukoo wa Diwani miongoni mwa Wavumba. Sperling anaeleza kwamba uhusiano huo maalumu kati yao ulidumu hadi wakati wake. Hollis alikuwa amedokeza kuwa ulianzia vita vya karne ya 17, lakini ushuhuda wa Chikoneni unaonyesha chanzo chake ni Mwamzungu na Pinda.
 
@@ -32,9 +32,9 @@ Hadithi hizi zinahitaji kuchukuliwa kwa tahadhari. Ikiwa Mwamzungu alikuwa madar
 
 ## Hakuwa Mwislamu, Wala Hakusahaulika
 
-Licha ya uhusiano wake na Diwani, Mwamzungu hakusilimu. Wala mwanawe Jita Mwakubo, aliyeshika utawala baada ya kifo chake. Mwana wa Jita, Mangaru Mwajita, alitawala kama Kubo kuanzia karibu 1865 hadi 1894. Mpwa wa Mangaru, Shehe Mwatsolozi, alisimikwa mwaka 1895 na, kama alivyoandika Afisa wa Wilaya, alikuwa "Kubo wa kwanza kuikubali dini ya Kiislamu" (*"the first Kubo to adopt the Islam religion"*). Kubo Shehe alipofariki mwaka 1916, watu sita walidai cheo hicho. Badala yake Waingereza walimteua mmoja wao kuwa Mkuu wa Lokesheni (Headman), na Ukubo ukafifia.
+Licha ya uhusiano wake na Diwani, Mwamzungu hakusilimu. Wala mwanawe Jita Mwakubo, aliyeshika utawala baada ya kifo chake. Mwana wa Jita, Mangaru Mwajita, alitawala kama Kubo kuanzia karibu 1865 hadi 1894. Mpwa wa Mangaru, Shehe Mwatsolozi, alisimikwa mwaka 1895 na, kama alivyoandika Afisa wa Wilaya, alikuwa "Kubo wa kwanza kuikubali dini ya Kiislamu". Kubo Shehe alipofariki mwaka 1916, watu sita walidai cheo hicho. Badala yake Waingereza walimteua mmoja wao kuwa Mkuu wa Lokesheni, na Ukubo ukafifia.
 
-Maafisa wa Kiingereza walikuwa na "hamu ya kipekee ya kihistoria" (*"singular historical interest"*) kuhusu Ukubo, anaandika Sperling, kwa kuwa ulikuwa "aina ya mamlaka iliyokuwa ya kati zaidi kuliko yaliyopatikana kwingineko katika pwani ya Kenya" (*"a more centralized form of authority than was found elsewhere on the Kenya coast"*), na waliweka nyaraka nyingi kuuhusu.
+Maafisa wa Kiingereza walikuwa na "hamu ya kipekee ya kihistoria" kuhusu Ukubo, anaandika Sperling, kwa kuwa ulikuwa "aina ya mamlaka iliyokuwa ya kati zaidi kuliko yaliyopatikana kwingineko katika pwani ya Kenya", na waliweka nyaraka nyingi kuuhusu.
 
 ## Urithi Wake
 
