@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Wakati:** Wahenda kaziye miaka ya 1920; Imamu wa kpwandza wa Msikiti wa Chigato kula 1924 (tarehe za kuvyalwa na kufwa tazimanyikana)
-**Kazi:** Mwalimu wa Kurani na Imamu wa kpwandza wa Msikiti wa Chigato; mmwenga wa maimamu a kpwandza a Chidigo kanda ya Tiwi
+**Kazi:** Mwalimu wa Kuruani na Imamu wa kpwandza wa Msikiti wa Chigato; mmwenga wa maimamu a kpwandza a Chidigo kanda ya Tiwi
 **Phatu:** Chigato na Vuga, kahi ya Tiwi na Kwale, Kenya ya rero
 
 ---
@@ -14,15 +14,15 @@ Habari hunazozimanya kuhusu iye zinaphahikana kpwenye aya chache za kazi ya Sper
 
 ## Uislamu Nyuma ya Tiwi
 
-Uislamu kala unakula kanda ya Tiwi kpwa muda mure kabla ya Kassim. Kama mwaka 1894 mwalimu mmwenga aihwaye Juma Matungale, ambaye nine kala ni Mdigo wa Kitsanga, wakpwedza kusagala Tiwi. Msikiti wa Mkoyo wadzengbwa kuko kama mwaka 1898, na Matungale achikala Imamu wa kpwandza wa msikiti uho. Dza atu arivyosimulia, hadi mwaka 1916 zaidi ya nusu ya azehe a *ngambi* ya Tiwi, baraza ya azehe ya mudzi, kala ni Aislamu.
+Uislamu kala unakula kanda ya Tiwi kpwa muda mure kabla ya Kassim. Kama mwaka 1894 mwalimu mmwenga aihwaye Juma Matungale, ambaye nine kala ni Mdigo wa Kitsanga, wakpwedza kusagala Tiwi. Msikiti wa Mkoyo wadzengbwa kuko kama mwaka 1898, na Matungale achikala Imamu wa kpwandza wa msikiti uho. Dza atu arivyosimulia, hadi mwaka 1916 zaidi ya nusu ya azehe a *ngambi* ya Tiwi, baraza ra azehe ra mudzi, kala ni Aislamu.
 
-Kure na pwani, phephi na Chigato na Vuga, alimu kala bado ni achache. Hali iyo yabadilika ariphofika Salimini bin Simba, Myao wa kusini ya Tanzania ariyekpwedza Kenya dza asikari kabla ya Vita vya Kpwandza vya Dunia. Wahala mchetu wa mbari mwenga ya Vuga achisagala kuko. Mwaka 1915 Mkpwulu wa Wilaya wamuona "Mswahili (ariyekala asikari wa KAR)" (*"a Swahili (ex KAR)"*) anasagala Vuga bila ruhusa, achimuambira atsame. Sperling anaona kukala iye kala ni Salimini. Mwaka uho Salimini watsamira Chigongoni, achikala Imamu wa Msikiti wa Mabatani, na achivugula chuwo cha Kurani. Sperling anamuiha "mwalimu wa kpwandza kanda ya Chigato" (*"the first teacher in the Chigato area"*). Kama mwaka 1922 waterya kudzenga Msikiti wa Makunguni kuko Chigongoni, achikala Imamu wa kpwandza wa msikiti uho.
+Kure na pwani, phephi na Chigato na Vuga, alimu kala bado ni achache. Hali iyo yabadilika ariphofika Salimini bin Simba, Myao wa kusini ya Tanzania ariyekpwedza Kenya dza asikari kabla ya Vita vya Kpwandza vya Dunia. Wahala mchetu wa mbari mwenga ya Vuga achisagala kuko. Mwaka 1915 Mkpwulu wa Wilaya wamuona "Mswahili (ariyekala asikari wa KAR)" (*"a Swahili (ex KAR)"*) anasagala Vuga bila ruhusa, achimuambira atsame. Sperling anaona kukala iye kala ni Salimini. Mwaka uho Salimini watsamira Chigongoni, achikala Imamu wa Msikiti wa Mabatani, na achivugula chuwo cha Kuruani. Sperling anamuiha "mwalimu wa kpwandza kanda ya Chigato" (*"the first teacher in the Chigato area"*). Kama mwaka 1922 waterya kudzenga Msikiti wa Makunguni kuko Chigongoni, achikala Imamu wa kpwandza wa msikiti uho.
 
 ## Mwanafundzi wa Salimini
 
 Kassim Mwachinyama kala ni mmwenga wa anafundzi a kpwandza a Salimini. Mvyerewe, Hamisi Mwachinyama, kala ni mkpwulu wa chidzidzi cha Chigato.
 
-Salimini kala anaafundza anafundzie zaidi ya kusoma Kurani. Sperling anaandika kukala kala anamanya "kazi muhimu ambayo anafundzie andahenda kpwenye vidzidzi vyao" (*"the important role his students would play in their home villages"*), achiafundza anjina kahi yao kulongoza swala. Nkugombwa kukala Kassim kala anadzizoeza kulavya hutuba ya Ijumaa kpwenye Msikiti wa Makunguni, Salimini achimlongoza. Mwalimu wa Kurani wa aina ihi nkuihwa *mwalimu*, na hatua za kula mwanafundzi, kukala mwalimu, chisha imamu, ndiyo njira ariyoilunga Kassim.
+Salimini kala anaafundza anafundzie zaidi ya kusoma Kuruani. Sperling anaandika kukala kala anamanya "kazi muhimu ambayo anafundzie andahenda kpwenye vidzidzi vyao" (*"the important role his students would play in their home villages"*), achiafundza anjina kahi yao kulongoza swala. Nkugombwa kukala Kassim kala anadzizoeza kulavya hutuba ya Ijumaa kpwenye Msikiti wa Makunguni, Salimini achimlongoza. Mwalimu wa Kuruani wa aina ihi nkuihwa *mwalimu*, na hatua za kula mwanafundzi, kukala mwalimu, chisha imamu, ndiyo njira ariyoilunga Kassim.
 
 ## Msikiti wa Chigato, 1924
 
@@ -32,9 +32,9 @@ Hiri kala ni dzambo ra kawaida kanda iyo. Sperling anagomba kpwa "upindzani wa c
 
 ## Mwalimu wa Vuga
 
-Kazi ya Kassim yafika kure kuriko Chigato. Vuga, ambayo i kure kama maili tahu, kala ina msikiti tangu kama mwaka 1922, ela kala taina chuwo cha Kurani wala imamu wa phapho. Maimamu kala anakpwedza kula Tiwi kulongoza swala ya Ijumaa. Wakati wanjina kala ni Salimini ama Kassim, ela mara nyinji kala ni Sulayman Mwakuaza wa Mkunguni. Ana a Vuga kala ananyendeka hadi Chigato kusoma kpwa Kassim.
+Kazi ya Kassim yafika kure kuriko Chigato. Vuga, ambayo i kure kama maili tahu, kala ina msikiti tangu kama mwaka 1922, ela kala taina chuwo cha Kuruani wala imamu wa phapho. Maimamu kala anakpwedza kula Tiwi kulongoza swala ya Ijumaa. Wakati wanjina kala ni Salimini ama Kassim, ela mara nyinji kala ni Sulayman Mwakuaza wa Mkunguni. Ana a Vuga kala ananyendeka hadi Chigato kusoma kpwa Kassim.
 
-Tsufu, mkpwulu wa mudzi wa Vuga ariyekala Mwislamu na ariyelongoza kazi ya kudzenga msikiti wa phapho, wahuma anae a chilume kpwa Kassim. Badaye wamshawishi Kassim atsamire Vuga akaafundze kuko kaya. Mwana wa kpwandza wa Tsufu, Sulayman Zingizi, ariphomala masomoge, Kassim wauya Chigato. Zingizi achikala Imamu wa Msikiti wa Vuga, na achivugula chuwo cha Kurani phapho Vuga. Kpwa njira iyo mafundzo gatsapa kula kpwa Salimini kuphiya kpwa Kassim, na kula kpwa Kassim kuphiya chidzidzi chiricholunga.
+Tsufu, Dzumbe wa Vuga ariyekala Mwislamu na ariyelongoza kazi ya kudzenga msikiti wa phapho, wahuma anae a chilume kpwa Kassim. Badaye wamshawishi Kassim atsamire Vuga akaafundze kuko kaya. Mwana wa kpwandza wa Tsufu, Sulayman Zingizi, ariphomala masomoge, Kassim wauya Chigato. Zingizi achikala Imamu wa Msikiti wa Vuga, na achivugula chuwo cha Kuruani phapho Vuga. Kpwa njira iyo mafundzo gatsapa kula kpwa Salimini kuphiya kpwa Kassim, na kula kpwa Kassim kuphiya chidzidzi chiricholunga.
 
 ## Mbona Habarize ni Chache
 
@@ -46,7 +46,7 @@ Neno "wa kpwandza" piya rinalondwa kulolwa kpwa makini. Seemu ya Sperling inagom
 
 ## Urisiwe
 
-Tahumanya maandiko gogosi ariyogaricha Kassim Mwachinyama. Ela waricha njira. Kala ni mmwenga wa barobaro a kpwandza a kanda ya nyuma ya Tiwi kufundzwa phephi na kaya, chisha kulongoza atu a chidzidziche swala. Kpwa njira ya anafundzie a Chigato na Vuga, mafundzo ga Kurani gaenea hadi phatu ambapho kala takuna. Msikiti wa Chigato, ambao mvyerewe wamdzengera mwaka 1924, unaonyesa wakati Adigo a kanda iyo ariphoandza kuhala ulongozi wa misikiti yao.
+Tahumanya maandiko gogosi ariyogaricha Kassim Mwachinyama. Ela waricha njira. Kala ni mmwenga wa barobaro a kpwandza a kanda ya nyuma ya Tiwi kufundzwa phephi na kaya, chisha kulongoza atu a chidzidziche swala. Kpwa njira ya anafundzie a Chigato na Vuga, mafundzo ga Kuruani gaenea hadi phatu ambapho kala takuna. Msikiti wa Chigato, ambao mvyerewe wamdzengera mwaka 1924, unaonyesa wakati Adigo a kanda iyo ariphoandza kuhala ulongozi wa misikiti yao.
 
 ## Vyanzo
 

@@ -3,20 +3,20 @@
 ## Muhtasari
 
 **Wakati:** Kabla ya ukoloni (tarehe taimanyikana)
-**Kazi:** Mtawala (*mtawala*) anayetambukirwa dza mpiga uha, mganga na mtabiri
+**Kazi:** Mtawala (*mtawala*) anayetambukirwa dza mpiga uha, mgbwanga na mtabiri
 **Phatu:** Tanga, Tanzania ya rero
 
 ---
 
 Kahi za Adigo a pwani ya Tanga, chilongozi mmwenga wa kare anatambukirwa kpwa dzinare: Bandilo. Adisi fupi ya Chiswahili ya historia ya Adigo, inayosemurirwa tsona kpwenye tovuti na mitandao ya chijamii ya Tanzania, inamueleza dza mtawala (*mtawala*) ariyephaha hishimaye kpwa ufundiwe wa uha, ujuziwe wa muhaso na uwezowe wa kutabiri mambo. Chila chitu hunachoweza kugomba kumhusu chinakula kpwa adisi hiyo mwenga, phahi makala hino taiuka kure na manenoge.
 
-## Mpiga Uha na Mganga
+## Mpiga Uha na Mgbwanga
 
 Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni *hodari katika matumizi ya mishale*, fundi wa kuhumira mivi. Piya kala ana *utaalamu wa dawa za asili*, ujuzi wa muhaso wa chienyeji, na kala anaweza *kutabiri matukio mbalimbali*, kutabiri mambo ga chila aina.
 
 Ufundi wa uha unalingana na mambo garigoonwa ni ajeni kahi za tsi ya Adigo a Tanga. Oscar Baumann, mwanajiografia Mjerumani, wasafiri kahi za tsi hiyo mwaka 1890. Waona kukala hata kpwenye vidzidzi virivyokala saa chache tu kula pwani, chila mlume kala anatsukula uha na mivi ya mridza yenye ntsa za chuma za ndoano, na kukala bunduchi kala ni adimu. Chilongozi ariyetogolwa kpwa uha kala anatogolwa kpwa ufundi ambao atue kala anauluphira kpwa kudzirinda.
 
-Kuphoza akongo na kutabiri kala ni mambo ganagohusiana. Kpwa Adigo, dza kpwa Amijikenda anjina, *mganga* kala anaphoza akongo na kulola sababu za mashaka, ambazo mara nyinji kala zinaaminiwa kukala ni za chiroho na za chimwili piya. Adisi inaunganisha mamlaka ga Bandilo na kazi hino. Piya inagomba kukala Adigo kala anaamini roho za akare ao, ambao anaihwa *Madibwe* au *Adibwe*. Bada ya kufwa, akare aho kala anaphaha uwezo wa kurinda ario moyo, au kuayuga.
+Kuphoza akongo na kutabiri kala ni mambo ganagohusiana. Kpwa Adigo, dza kpwa Amijikenda anjina, *mgbwanga* kala anaphoza akongo na kulola sababu za mashaka, ambazo mara nyinji kala zinaaminiwa kukala ni za chiroho na za chimwili piya. Adisi inaunganisha mamlaka ga Bandilo na kazi hino. Piya inagomba kukala Adigo kala anaamini roho za akare ao, ambao anaihwa *Madibwe* au *Adibwe*. Bada ya kufwa, akare aho kala anaphaha uwezo wa kurinda ario moyo, au kuayuga.
 
 ## Chilongozi Ariyehendzwa ni Anjina
 
@@ -34,7 +34,7 @@ Hipha dzina rinaandikpwa *Bandiwe*, si *Bandilo*. Inaonekana ni chilongozi yuyo 
 
 Adisi ya Bandilo inaphahikana kahi za maandiko mafupi ga Chiswahili tu, na takuna ganjina. Ganaphahikana karibu neno kpwa neno kpwenye blogu ya Chitanzania (2017), kpwenye ukurasa wa jamii ya Tanga na kpwenye mjadala wa JamiiForums kuhusu historia ya Adigo. Takuna mwandishi anayetajwa, wala takuna mzehe ambaye manenoge ganatajwa. Maandiko gago ganataja makala ya Martin Kayamba "Notes on the Wadigo", iriyochapishwa kpwenye *Tanganyika Notes and Records* mwaka 1947, ambayo inawezekana ndiyo phatu ambapho adisi ya Bandilo yaandikpwa kpwa mara ya kpwandza. Makala hiyo taidzangbwelolwa. Chitabu cha Vincent Nkondokaya cha asili ya Adigo a Tanga (2006) piya nkugombwa kukala chinamtaja Bandilo, ela kpwa mradi uhu tahudzangbwesoma nakala yoyosi. Maandiko gago gago ga mtandaoni piya gana madai ambago anahistoria anagakahala, dza kuika Shungwaya Afrika Magharibi. Phahi taganaweza kuluphirwa kpwa mambo madide-madide, hata chikala kumbukumbu ya Bandilo ni ya kpweli.
 
-Baumann, mwandishi mkpwulu Mjerumani ariyeandika kuhusu Adigo a Tanga, kamtaja Bandilo. Anaaeleza dza atu ambao vidzidzi vyao "tavikala na machifu, ela kala vinatawalwa ni azehe achache". Mara kpwa mara mzehe mmwenga kala anaphaha hishima kulu kuliko anjina, dza mkpwulu chipofu wa chidzidzi cha Zirihini, au chilongozi ariyekala anaogophwa, Jambia. Chifu wa kpweli wa Adigo osi, Jumbe Mamfulla wa Gombelo, waikpwa kpwa mara ya kpwandza ni utawala wa Chijerumani. Uphande wa Kenya, chila kaya ya Adigo kala inatawalwa ni baraza ra azehe, *ngambi*, rinarolongozwa ni mzehe mkpwulu (*mwanatsi*) wa fuko ririroandzisha kaya hiyo. Kahi za jamii inayotawalwa hivi, "mtawala" mmwenga anayetambukirwa anaonekana wazi. Piya ina mana kukala mamlaka kala ganaganywa, na ni mara chache vilongozi mmwenga-mmwenga kuandikpwa kahi za kumbukumbu.
+Baumann, mwandishi mkpwulu Mjerumani ariyeandika kuhusu Adigo a Tanga, kamtaja Bandilo. Anaaeleza dza atu ambao vidzidzi vyao "tavikala na machifu, ela kala vinatawalwa ni azehe achache". Mara kpwa mara mzehe mmwenga kala anaphaha hishima kulu kuliko anjina, dza mkpwulu chipofu wa chidzidzi cha Zirihini, au chilongozi ariyekala anaogophwa, Jambia. Chifu wa kpweli wa Adigo osi, Dzumbe Mamfulla wa Gombelo, waikpwa kpwa mara ya kpwandza ni utawala wa Chijerumani. Uphande wa Kenya, chila kaya ya Adigo kala inatawalwa ni baraza ra azehe, *ngambi*, rinarolongozwa ni mzehe mkpwulu (*mwanatsi*) wa fuko ririroandzisha kaya hiyo. Kahi za jamii inayotawalwa hivi, "mtawala" mmwenga anayetambukirwa anaonekana wazi. Piya ina mana kukala mamlaka kala ganaganywa, na ni mara chache vilongozi mmwenga-mmwenga kuandikpwa kahi za kumbukumbu.
 
 Takuna chanzo chinachogomba Bandilo waishi rini, wala chinachotaja chidzidziche au fukore (*fuko*), wala chinachoandika mahendoge zaidi ya garigoelezwa dzulu.
 

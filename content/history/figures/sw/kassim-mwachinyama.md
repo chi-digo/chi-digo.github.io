@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Kipindi:** Alikuwa hai katika miaka ya 1920; Imamu wa kwanza wa Msikiti wa Chigato kuanzia 1924 (tarehe za kuzaliwa na kufariki hazijulikani)
-**Jukumu:** Mwalimu wa Qur'ani na Imamu wa kwanza wa Msikiti wa Chigato; mmoja wa kizazi cha kwanza cha maimamu wa Kidigo katika eneo la Tiwi
+**Jukumu:** Mwalimu wa Qurani na Imamu wa kwanza wa Msikiti wa Chigato; mmoja wa kizazi cha kwanza cha maimamu wa Kidigo katika eneo la Tiwi
 **Eneo:** Chigato na Vuga, kati ya Tiwi na Kwale, Kenya ya leo
 
 ---
@@ -16,13 +16,13 @@ Tunachokijua kumhusu kinatoka katika aya chache za kazi ya Sperling. Sperling al
 
 Uislamu ulikuwa ukikua katika eneo la Tiwi kwa kizazi kizima kabla ya Kassim. Karibu mwaka 1894 mwalimu aitwaye Juma Matungale, ambaye mama yake alikuwa Mdigo kutoka Kitsanga, alihamia Tiwi. Msikiti wa Mkoyo ulijengwa huko karibu mwaka 1898, na Matungale akawa Imamu wake wa kwanza. Kufikia mwaka 1916, kwa mujibu wa masimulizi ya mdomo, zaidi ya nusu ya wazee wa *ngambi* ya Tiwi, yaani baraza la wazee la kijiji, walikuwa Waislamu.
 
-Ndani zaidi, karibu na Chigato na Vuga, walimu walikuwa bado wachache. Hali hiyo ilibadilika alipofika Salimini bin Simba, Myao kutoka kusini mwa Tanzania aliyekuja Kenya akiwa askari kabla ya Vita vya Kwanza vya Dunia. Alimwoa mwanamke wa familia moja ya Vuga na akaishi huko. Mwaka 1915 Mkuu wa Wilaya alimkuta "Mswahili (aliyekuwa askari wa KAR)" (*"a Swahili (ex KAR)"*) akiishi Vuga bila ruhusa, akamwamuru aondoke. Sperling anadhani huyo alikuwa Salimini. Mwaka huo Salimini alihamia Chigongoni, akawa Imamu wa Msikiti wa Mabatani, na akafungua chuo cha Qur'ani. Sperling anamwita "mwalimu wa kwanza katika eneo la Chigato" (*"the first teacher in the Chigato area"*). Karibu mwaka 1922 alisaidia kujenga Msikiti wa Makunguni huko Chigongoni na akawa Imamu wake wa kwanza.
+Ndani zaidi, karibu na Chigato na Vuga, walimu walikuwa bado wachache. Hali hiyo ilibadilika alipofika Salimini bin Simba, Myao kutoka kusini mwa Tanzania aliyekuja Kenya akiwa askari kabla ya Vita vya Kwanza vya Dunia. Alimwoa mwanamke wa familia moja ya Vuga na akaishi huko. Mwaka 1915 Mkuu wa Wilaya alimkuta "Mswahili (aliyekuwa askari wa KAR)" (*"a Swahili (ex KAR)"*) akiishi Vuga bila ruhusa, akamwamuru aondoke. Sperling anadhani huyo alikuwa Salimini. Mwaka huo Salimini alihamia Chigongoni, akawa Imamu wa Msikiti wa Mabatani, na akafungua chuo cha Qurani. Sperling anamwita "mwalimu wa kwanza katika eneo la Chigato" (*"the first teacher in the Chigato area"*). Karibu mwaka 1922 alisaidia kujenga Msikiti wa Makunguni huko Chigongoni na akawa Imamu wake wa kwanza.
 
 ## Mwanafunzi wa Salimini
 
 Kassim Mwachinyama alikuwa mmoja wa wanafunzi wa mwanzo wa Salimini. Kaka yake mkubwa, Hamisi Mwachinyama, alikuwa mkuu wa kijiji cha Chigato.
 
-Salimini hakuwafundisha wanafunzi wake kusoma Qur'ani tu. Sperling anaandika kwamba alijua "nafasi muhimu ambayo wanafunzi wake wangekuwa nayo katika vijiji vyao" (*"the important role his students would play in their home villages"*), na akawafunza baadhi yao kuongoza swala. Inasemekana Kassim alijizoeza kutoa hutuba ya Ijumaa katika Msikiti wa Makunguni chini ya uongozi wa Salimini. Mwalimu wa Qur'ani wa aina hii huitwa *mwalimu*, na hatua ya kutoka mwanafunzi hadi mwalimu hadi imamu ndiyo njia aliyoifuata Kassim.
+Salimini hakuwafundisha wanafunzi wake kusoma Qurani tu. Sperling anaandika kwamba alijua "nafasi muhimu ambayo wanafunzi wake wangekuwa nayo katika vijiji vyao" (*"the important role his students would play in their home villages"*), na akawafunza baadhi yao kuongoza swala. Inasemekana Kassim alijizoeza kutoa hutuba ya Ijumaa katika Msikiti wa Makunguni chini ya uongozi wa Salimini. Mwalimu wa Qurani wa aina hii huitwa *mwalimu*, na hatua ya kutoka mwanafunzi hadi mwalimu hadi imamu ndiyo njia aliyoifuata Kassim.
 
 ## Msikiti wa Chigato, 1924
 
@@ -32,9 +32,9 @@ Huu ulikuwa mtindo katika eneo hilo. Sperling anaeleza "ushindani wa kirafiki ka
 
 ## Mwalimu wa Vuga
 
-Ushawishi wa Kassim ulifika mbali zaidi ya Chigato. Vuga, umbali wa kama maili tatu, ilikuwa na msikiti tangu karibu mwaka 1922 lakini haikuwa na chuo cha Qur'ani wala imamu wa hapo. Maimamu walitoka Tiwi kuja kuongoza swala ya Ijumaa. Mara nyingine alikuwa Salimini au Kassim, lakini mara nyingi zaidi alikuwa Sulayman Mwakuaza wa Mkunguni. Watoto wa Vuga walitembea kwa miguu hadi Chigato kusoma kwa Kassim.
+Ushawishi wa Kassim ulifika mbali zaidi ya Chigato. Vuga, umbali wa kama maili tatu, ilikuwa na msikiti tangu karibu mwaka 1922 lakini haikuwa na chuo cha Qurani wala imamu wa hapo. Maimamu walitoka Tiwi kuja kuongoza swala ya Ijumaa. Mara nyingine alikuwa Salimini au Kassim, lakini mara nyingi zaidi alikuwa Sulayman Mwakuaza wa Mkunguni. Watoto wa Vuga walitembea kwa miguu hadi Chigato kusoma kwa Kassim.
 
-Tsufu, mkuu wa kijiji cha Vuga aliyekuwa Mwislamu na aliyeongoza ujenzi wa msikiti wake, aliwapeleka wanawe kwa Kassim. Baadaye alimshawishi Kassim ahamie Vuga awafundishe huko nyumbani. Mwanawe wa kwanza wa Tsufu, Sulayman Zingizi, alipomaliza masomo yake, Kassim alirudi Chigato. Zingizi akawa Imamu wa Msikiti wa Vuga na akafungua chuo cha Qur'ani cha kijiji chenyewe. Kwa njia hii elimu ilipita kutoka kwa Salimini hadi kwa Kassim, na kutoka kwa Kassim hadi kijiji kilichofuata.
+Tsufu, mkuu wa kijiji cha Vuga aliyekuwa Mwislamu na aliyeongoza ujenzi wa msikiti wake, aliwapeleka wanawe kwa Kassim. Baadaye alimshawishi Kassim ahamie Vuga awafundishe huko nyumbani. Mwanawe wa kwanza wa Tsufu, Sulayman Zingizi, alipomaliza masomo yake, Kassim alirudi Chigato. Zingizi akawa Imamu wa Msikiti wa Vuga na akafungua chuo cha Qurani cha kijiji chenyewe. Kwa njia hii elimu ilipita kutoka kwa Salimini hadi kwa Kassim, na kutoka kwa Kassim hadi kijiji kilichofuata.
 
 ## Kwa Nini Habari Zake ni Chache
 
@@ -46,7 +46,7 @@ Neno "wa kwanza" nalo linahitaji tahadhari. Kichwa cha Sperling kinahusu eneo la
 
 ## Urithi Wake
 
-Kassim Mwachinyama hakuacha maandishi yoyote tunayoyajua. Alichoacha ni nafasi. Alikuwa mmoja wa vijana wa kwanza wa eneo lililo nyuma ya Tiwi kufundishwa nyumbani kisha kuongoza kijiji chake mwenyewe katika swala. Kupitia wanafunzi wake wa Chigato na Vuga, mafundisho ya Qur'ani yalienea hadi mahali ambapo hapakuwa nayo. Msikiti wa Chigato, aliojengewa na kaka yake mwaka 1924, unaashiria wakati Wadigo wa eneo hili walipoanza kushika uongozi wa misikiti yao wenyewe.
+Kassim Mwachinyama hakuacha maandishi yoyote tunayoyajua. Alichoacha ni nafasi. Alikuwa mmoja wa vijana wa kwanza wa eneo lililo nyuma ya Tiwi kufundishwa nyumbani kisha kuongoza kijiji chake mwenyewe katika swala. Kupitia wanafunzi wake wa Chigato na Vuga, mafundisho ya Qurani yalienea hadi mahali ambapo hapakuwa nayo. Msikiti wa Chigato, aliojengewa na kaka yake mwaka 1924, unaashiria wakati Wadigo wa eneo hili walipoanza kushika uongozi wa misikiti yao wenyewe.
 
 ## Vyanzo
 

@@ -3,12 +3,12 @@
 ## Muhtasari
 
 **Kipindi:** Alisoma tangu njaa ya 1884–85; alifanya kazi yake kuanzia karibu 1890 hadi mwishoni mwa miaka ya 1920
-**Jukumu:** Mmoja wa Wadigo wa kwanza kusoma Qur'ani kwa utaratibu na kurudi nyumbani kufundisha; Imamu wa kwanza wa Msikiti wa Tuliani wa Pungu; mganga; mdai katika kesi ya mirathi ya Wadigo ya 1928
+**Jukumu:** Mmoja wa Wadigo wa kwanza kusoma Qurani kwa utaratibu na kurudi nyumbani kufundisha; Imamu wa kwanza wa Msikiti wa Tuliani wa Pungu; mganga; mdai katika kesi ya mirathi ya Wadigo ya 1928
 **Eneo:** Pungu, kusini mwa Likoni, Kwale, Kenya ya leo
 
 ---
 
-Katika nusu ya pili ya karne ya 19, Waislamu wa kwanza wa Kidigo hawakuwa na mahali popote karibu nyumbani pa kujifunza dini yao. Hapakuwa na vyuo vya Qur'ani katika vijiji vya Wadigo, na waliosilimu walikwenda Mombasa kuswali. Ali bin Muhammad Mwaganyuma wa Pungu alisaidia kubadilisha hali hiyo. Alikwenda mbali kusoma, akarudi nyumbani, akahubiri sokoni huku watu wakimzomea, na akaendelea kufundisha. Majirani zake wakaja kumwita kwa urahisi Mwalimu Ali, yaani "Ali mwalimu".
+Katika nusu ya pili ya karne ya 19, Waislamu wa kwanza wa Kidigo hawakuwa na mahali popote karibu nyumbani pa kujifunza dini yao. Hapakuwa na vyuo vya Qurani katika vijiji vya Wadigo, na waliosilimu walikwenda Mombasa kuswali. Ali bin Muhammad Mwaganyuma wa Pungu alisaidia kubadilisha hali hiyo. Alikwenda mbali kusoma, akarudi nyumbani, akahubiri sokoni huku watu wakimzomea, na akaendelea kufundisha. Majirani zake wakaja kumwita kwa urahisi Mwalimu Ali, yaani "Ali mwalimu".
 
 Habari zake zinatoka hasa kwa mwanahistoria David Sperling, aliyewahoji wajukuu wa Mwalimu Ali katika miaka ya 1980 na kuifuatilia familia hiyo katika kumbukumbu za kikoloni.
 
@@ -20,7 +20,7 @@ Babu yake Ali, Ali Ganyuma Mwanrudzu, alikuwa *mwanatsi* wa Kaya Similani. Kaya 
 
 ## Masomo Mtanganyiko
 
-Wakati wa njaa ya Mwakisenge ya 1884–85, Muhammad alimpeleka mwanawe Ali kukaa na mjomba wake, Mwinyihamisi Mwandungo, mfanyabiashara Mdigo aliyekuwa amehamia Mtanganyiko katika miaka ya 1870. Mtanganyiko, kaskazini mwa Mombasa, wakati huo ndio ulikuwa kitovu kikuu cha Uislamu miongoni mwa Mijikenda wa kaskazini. Huko Ali alisoma katika chuo cha Qur'ani chini ya Omari Ngoma, na pia chini ya Muhammad bin Ali Mazrui. Alijifunza pia *falaki*, aina ya unajimu iliyodaiwa kuweza kuathiri matukio pamoja na kuyabashiri.
+Wakati wa njaa ya Mwakisenge ya 1884–85, Muhammad alimpeleka mwanawe Ali kukaa na mjomba wake, Mwinyihamisi Mwandungo, mfanyabiashara Mdigo aliyekuwa amehamia Mtanganyiko katika miaka ya 1870. Mtanganyiko, kaskazini mwa Mombasa, wakati huo ndio ulikuwa kitovu kikuu cha Uislamu miongoni mwa Mijikenda wa kaskazini. Huko Ali alisoma katika chuo cha Qurani chini ya Omari Ngoma, na pia chini ya Muhammad bin Ali Mazrui. Alijifunza pia *falaki*, aina ya unajimu iliyodaiwa kuweza kuathiri matukio pamoja na kuyabashiri.
 
 ## Kuzomewa Sokoni
 

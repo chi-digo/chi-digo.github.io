@@ -3,12 +3,12 @@
 ## Muhtasari
 
 **Kipindi:** Alisilimu kabla ya 1880; alikuwa hai kikazi hadi miaka ya 1910
-**Jukumu:** Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Headman wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani
+**Jukumu:** Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Mkuu wa Lokesheni (Headman) wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani
 **Eneo:** Likoni, bara mkabala na Mombasa, Kenya ya leo
 
 ---
 
-Likoni inaukabili kisiwa cha Mombasa ng'ambo ya mlango mwembamba wa bahari. Adigo wake waliishi karibu zaidi na mji kuliko karibu jamii nyingine yoyote ya Adigo, na wafanyabiashara wa mjini walikuja kwao. Salim Mwabundu alikulia katika mazingira haya. Alianza kama mfanyabiashara mdogo wa wafanyabiashara wa Kibaluchi, akawa mmoja wa Waislamu wa kwanza Likoni, akajenga msikiti wake wa pili, na mwishowe akawa kiongozi wa kaya kuu ya eneo hilo na pia Headman wa kikoloni.
+Likoni inaukabili kisiwa cha Mombasa ng'ambo ya mlango mwembamba wa bahari. Adigo wake waliishi karibu zaidi na mji kuliko karibu jamii nyingine yoyote ya Adigo, na wafanyabiashara wa mjini walikuja kwao. Salim Mwabundu alikulia katika mazingira haya. Alianza kama mfanyabiashara mdogo wa wafanyabiashara wa Kibaluchi, akawa mmoja wa Waislamu wa kwanza Likoni, akajenga msikiti wake wa pili, na mwishowe akawa kiongozi wa kaya kuu ya eneo hilo na pia Mkuu wa kikoloni.
 
 Karibu kila kinachojulikana kumhusu kinatoka kwa mjukuu wake, Saidi bin Khalfan Mwabundu, ambaye mwanahistoria David Sperling alimhoji Bomani mwaka 1987, pamoja na kumbukumbu chache katika rekodi za kikoloni.
 
@@ -30,13 +30,13 @@ Wakati huo hapakuwa na msikiti Likoni. Kama Adigo wengine waliosilimu, Mwabundu 
 
 ## Walimu na Misikiti
 
-Mwanzoni mwa miaka ya 1890 Mwabundu alimpeleka mwanawe wa kwanza, Khalfan, kusoma Kurani. Mwalimu wa kwanza wa Khalfan alikuwa Mbwana bin Ali Mwarako, Mdigo kutoka Tanga aliyekuwa akifundisha Likoni. Kisha alisoma Mombasa, na mwishowe Pongwe kwa Bakari Mwanjama, mwalimu Msegeju na rafiki wa baba yake. Alikuwa bado Pongwe ilipoharibiwa Oktoba 1895, katika mapigano kati ya Waingereza na Shaykh Mbaruk wa Gasi, na mwalimu wake alihamia Ramisi pamoja na wanafunzi wake.
+Mwanzoni mwa miaka ya 1890 Mwabundu alimpeleka mwanawe wa kwanza, Khalfan, kusoma Qurani. Mwalimu wa kwanza wa Khalfan alikuwa Mbwana bin Ali Mwarako, Mdigo kutoka Tanga aliyekuwa akifundisha Likoni. Kisha alisoma Mombasa, na mwishowe Pongwe kwa Bakari Mwanjama, mwalimu Msegeju na rafiki wa baba yake. Alikuwa bado Pongwe ilipoharibiwa Oktoba 1895, katika mapigano kati ya Waingereza na Shaykh Mbaruk wa Gasi, na mwalimu wake alihamia Ramisi pamoja na wanafunzi wake.
 
-Mwaka 1899 Khamis Dzugwe alijenga msikiti wa kwanza wa Likoni, Msikiti wa Riyadha. Khalfan aliporudi nyumbani akawa Imamu wake. Karibu mwaka 1909 Salim Mwabundu alijenga msikiti wa pili, Msikiti wa Bomani, baada ya kwanza kuchimba kisima karibu nao kwa msaada wa Mwislamu wa Kibohora kutoka Mombasa. Khalfan aliuacha Msikiti wa Riyadha akawa Imamu wa kwanza wa Bomani, na baada ya Vita vya Kwanza vya Dunia alifungua chuo cha Kurani huko. Orodha ya serikali ya misikiti ya mwaka 1913 inataja msikiti mmoja wa "Salim wa Bundu".
+Mwaka 1899 Khamis Dzugwe alijenga msikiti wa kwanza wa Likoni, Msikiti wa Riyadha. Khalfan aliporudi nyumbani akawa Imamu wake. Karibu mwaka 1909 Salim Mwabundu alijenga msikiti wa pili, Msikiti wa Bomani, baada ya kwanza kuchimba kisima karibu nao kwa msaada wa Mwislamu wa Kibohora kutoka Mombasa. Khalfan aliuacha Msikiti wa Riyadha akawa Imamu wa kwanza wa Bomani, na baada ya Vita vya Kwanza vya Dunia alifungua chuo cha Qurani huko. Orodha ya serikali ya misikiti ya mwaka 1913 inataja msikiti mmoja wa "Salim wa Bundu".
 
 ## Chini ya Utawala wa Waingereza
 
-Sperling anaandika kwamba Mwabundu alikuwa kiongozi wa Kaya Shonda na Headman wa eneo la Likoni, lakini vyanzo vilivyotumika havisemi lini alishika cheo chochote kati ya hivyo. Mafaili ya kikoloni yanatoa picha chache zaidi. Mwaka 1913 alikuwa Mdigo pekee wa Likoni aliyekuwa na Leseni ya Biashara ya Pombe ya Kienyeji. Serikali ilipowaalika watu kuwasilisha madai ya ardhi kusini ya Mombasa mwaka 1914, alikuwa miongoni mwa Adigo mashuhuri walioomba hati za kumiliki ardhi. Kutoka Likoni na Mtongwe, watu 96 waliwasilisha madai 149.
+Sperling anaandika kwamba Mwabundu alikuwa kiongozi wa Kaya Shonda na Mkuu wa eneo la Likoni, lakini vyanzo vilivyotumika havisemi lini alishika cheo chochote kati ya hivyo. Mafaili ya kikoloni yanatoa picha chache zaidi. Mwaka 1913 alikuwa Mdigo pekee wa Likoni aliyekuwa na Leseni ya Biashara ya Pombe ya Kienyeji. Serikali ilipowaalika watu kuwasilisha madai ya ardhi kusini ya Mombasa mwaka 1914, alikuwa miongoni mwa Adigo mashuhuri walioomba hati za kumiliki ardhi. Kutoka Likoni na Mtongwe, watu 96 waliwasilisha madai 149.
 
 ## Jinsi Kumbukumbu Zilivyodumu
 

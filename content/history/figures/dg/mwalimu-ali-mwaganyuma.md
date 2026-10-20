@@ -3,12 +3,12 @@
 ## Muhtasari
 
 **Wakati:** Wasoma kula ndzala ya 1884–85; wahenda kaziye kula kama mwaka 1890 hadi mwisho wa miaka ya 1920
-**Kazi:** Mmwenga wa Adigo a kpwandza kusoma Kurani kpwa utaratibu na kuuya kaya kufundza; Imamu wa kpwandza wa Msikiti wa Tuliani wa Pungu; muphozi wa akongo; walumba kesi ya urisi ya Adigo ya 1928
+**Kazi:** Mmwenga wa Adigo a kpwandza kusoma Kuruani kpwa utaratibu na kuuya kaya kufundza; Imamu wa kpwandza wa Msikiti wa Tuliani wa Pungu; mgbwanga; walumba kesi ya urisi ya Adigo ya 1928
 **Phatu:** Pungu, kusini ya Likoni, Kwale, Kenya ya rero
 
 ---
 
-Kpwenye nusu ya phiri ya karne ya 19, kpwa Aislamu a kpwandza a Chidigo kala ni vigumu kuphaha phatu phephi na kaya pha kudzifundza dini yao. Kala takuna shule za Kurani kpwenye vidzidzi vya Adigo, na ariosilimu kala anaphiya Mombasa kuswali. Ali bin Muhammad Mwaganyuma wa Pungu waterya kubadilisha hali iyo. Waphiya kure kusoma, achiuya kaya, achihubiri cheteni kuno atu anamfyola, na achienderera kufundza. Majiranige achiandza kumuiha Mwalimu Ali bahi, manaye "Ali mwalimu".
+Kpwenye nusu ya phiri ya karne ya 19, kpwa Aislamu a kpwandza a Chidigo kala ni vigumu kuphaha phatu phephi na kaya pha kudzifundza dini yao. Kala takuna shule za Kuruani kpwenye vidzidzi vya Adigo, na ariosilimu kala anaphiya Mombasa kuswali. Ali bin Muhammad Mwaganyuma wa Pungu waterya kubadilisha hali iyo. Waphiya kure kusoma, achiuya kaya, achihubiri cheteni kuno atu anamfyola, na achienderera kufundza. Majiranige achiandza kumuiha Mwalimu Ali bahi, manaye "Ali mwalimu".
 
 Habarize nyinji hunaziphaha kula kpwa mwanahistoria David Sperling, ariyeauza maswali adzukulu a Mwalimu Ali kpwenye miaka ya 1980, na achiilunga mbari iyo kpwenye kumbukumbu za chikoloni.
 
@@ -16,11 +16,11 @@ Habarize nyinji hunaziphaha kula kpwa mwanahistoria David Sperling, ariyeauza ma
 
 Pungu kala i phephi na chivuko cha kuvukira Mombasa, na kuko kala kuna *chete cha Ngare*, chete chikulu kuriko vyosi vya Adigo kusini ya mji uho, ambacho achuuzi a Chibaluchi kala anachiphiya chila mara.
 
-Tsaweye Ali, Ali Ganyuma Mwanrudzu, kala ni *mwanatsi* wa Kaya Similani. Kaya kala ni mudzi wa Adigo uriorindwa na kulongozwa ni *ngambi* (baraza ya azehe), na mwanatsi ("mwana wa tsi") kala ni mzehe mkulu wa kaya iyo, ariyetsambulwa kpwa kulunga uphande wa mayo. Iye warisi cheo hicho kula kpwa aphuye. Achuuzi kala analazimika kumvoya ruhusa ya kuhenda biashara Pungu. Kpwa njira ya achuuzi hinyo, na kpwa njira ya achina a mbariye ariokala tayari ni Aislamu kuko Mtongwe, iye wasilimu, chahi hata kare dza miaka ya 1850, achihala dzina Ali. Wafwa kama mwaka 1865. Kala ni mmwenga wa ariosilimu achache a wakati uho ariorera ana ao dza Aislamu, achiaambira, dza mdzukulu wa mdzukuluwe arivyotambukira: "Usiphoswali, kundarya." (*"If you don't pray, you don't eat."*) Ela kala takuna shule ya kuafundzira, na nkugombwa kukala mwanawe wa kpwandza, Muhammad Mwaganyuma, wadzifundza chidide macheye.
+Tsaweye Ali, Ali Ganyuma Mwanrudzu, kala ni *mwanatsi* wa Kaya Similani. Kaya kala ni mudzi wa Adigo uriorindwa na kulongozwa ni *ngambi* (baraza ra azehe), na mwanatsi ("mwana wa tsi") kala ni mzehe mkpwulu wa kaya iyo, ariyetsambulwa kpwa kulunga uphande wa mayo. Iye warisi cheo hicho kula kpwa aphuye. Achuuzi kala analazimika kumvoya ruhusa ya kuhenda biashara Pungu. Kpwa njira ya achuuzi hinyo, na kpwa njira ya achina a mbariye ariokala tayari ni Aislamu kuko Mtongwe, iye wasilimu, chahi hata kare dza miaka ya 1850, achihala dzina Ali. Wafwa kama mwaka 1865. Kala ni mmwenga wa ariosilimu achache a wakati uho ariorera ana ao dza Aislamu, achiaambira, dza mdzukulu wa mdzukuluwe arivyotambukira: "Usiphoswali, kundarya." (*"If you don't pray, you don't eat."*) Ela kala takuna shule ya kuafundzira, na nkugombwa kukala mwanawe wa kpwandza, Muhammad Mwaganyuma, wadzifundza chidide macheye.
 
 ## Kusoma Mtanganyiko
 
-Wakati wa ndzala ya Mwakisenge ya 1884–85, Muhammad wamuhuma mwanawe Ali akasagale na aphuye, Mwinyihamisi Mwandungo, mchuuzi Mdigo ariyekala akasagala Mtanganyiko tangu miaka ya 1870. Mtanganyiko, kaskazini ya Mombasa, wakati uho kala ndipho phatu phakulu pha Uislamu kahi za Amijikenda a kaskazini. Kuko Ali wasoma chuwo cha Kurani kpwa mwalimu Omari Ngoma, na piya kpwa Muhammad bin Ali Mazrui. Wadzifundza piya *falaki*, aina ya kulola nyota ambayo kala inagombwa kukala inaweza kubadilisha mambo, si kugamanya kabla gadzangbwefika bahi.
+Wakati wa ndzala ya Mwakisenge ya 1884–85, Muhammad wamuhuma mwanawe Ali akasagale na aphuye, Mwinyihamisi Mwandungo, mchuuzi Mdigo ariyekala akasagala Mtanganyiko tangu miaka ya 1870. Mtanganyiko, kaskazini ya Mombasa, wakati uho kala ndipho phatu phakulu pha Uislamu kahi za Amijikenda a kaskazini. Kuko Ali wasoma chuwo cha Kuruani kpwa mwalimu Omari Ngoma, na piya kpwa Muhammad bin Ali Mazrui. Wadzifundza piya *falaki*, aina ya kulola nyota ambayo kala inagombwa kukala inaweza kubadilisha mambo, si kugamanya kabla gadzangbwefika bahi.
 
 ## Kufyolwa Cheteni
 

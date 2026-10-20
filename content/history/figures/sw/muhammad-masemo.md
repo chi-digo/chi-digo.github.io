@@ -1,9 +1,9 @@
-# Muhammad Masemo: Mfanyabiashara na Jumbe wa Chikoneni
+# Muhammad Masemo: Mfanyabiashara na Mkuu wa Chikoneni
 
 ## Muhtasari
 
-**Kipindi:** Alikuwa hai takriban miaka ya 1880–1924; Jumbe wa Chikoneni kuanzia 1920 (tarehe za kuzaliwa na kufa kwake hazijulikani)
-**Jukumu:** Mmoja wa Waislamu wa mwanzo na mfanyabiashara; mjenzi wa msikiti wa kwanza wa Chikoneni; Jumbe (Headman) wa kikoloni wa eneo la Chikoneni na Rais wa Baraza Kuu la Adigo (Digo Central Council)
+**Kipindi:** Alikuwa hai takriban miaka ya 1880–1924; Mkuu wa Lokesheni (Headman) wa Chikoneni kuanzia 1920 (tarehe za kuzaliwa na kufa kwake hazijulikani)
+**Jukumu:** Mmoja wa Waislamu wa mwanzo na mfanyabiashara; mjenzi wa msikiti wa kwanza wa Chikoneni; Mkuu wa kikoloni wa eneo la Chikoneni na Rais wa Baraza Kuu la Adigo (Digo Central Council)
 **Eneo:** Chikoneni, kusini mwa Kaunti ya Kwale ya leo, Kenya (wakati huo Wilaya ya Vanga, iliyobadilishwa jina kuwa Wilaya ya Digo mwaka 1924)
 
 ---
@@ -16,7 +16,7 @@ Habari zake zimehifadhiwa katika kumbukumbu za mwanawe, Omari Muhammad Masemo, a
 
 Adigo wa kusini walikuwa na mfumo wa utawala uliokusanywa mkononi mwa kiongozi mmoja kwa namna isiyo ya kawaida. Mwishoni mwa karne ya kumi na nane Mbogo Mwamzungu, mgeni aliyefika Kaya Dzombo, akawa kiongozi wao mkuu na akachukua jina *Kubo*. *Kaya* ni kijiji chenye ngome kilichojengwa katika uwazi ndani ya msitu, na pia ni msitu mtakatifu unaobaki pale kilipokuwa. Waliomrithi Mwamzungu waliendeleza Kubo kama cheo. Akina Kubo walikuwa na uhusiano wa karibu na Madiwani Waislamu wa Vanga, lakini hakuna hata mmoja wao anayejulikana kuwa alifuata Uislamu hadi Kubo Shehe Mwacholozi. Yeye alisimikwa mwaka 1895 na akafariki Februari 1916.
 
-Baada ya kifo cha Shehe, wanaume sita walidai cheo hicho. Vita vilichelewesha uamuzi, na badala yake Waingereza wakamteua mmoja wa wadai, Fundi Mwabege, kuwa Jumbe wa Chikoneni. Cheo cha Kubo kikaacha kutumika.
+Baada ya kifo cha Shehe, wanaume sita walidai cheo hicho. Vita vilichelewesha uamuzi, na badala yake Waingereza wakamteua mmoja wa wadai, Fundi Mwabege, kuwa Mkuu wa Chikoneni. Cheo cha Kubo kikaacha kutumika.
 
 ## Mwislamu Mpya na Mfanyabiashara
 
@@ -30,11 +30,11 @@ Karibu mwaka 1905 Masemo alifungua duka lake mwenyewe. Sperling anasema alikuwa 
 
 Karibu mwaka 1906 Masemo alijenga Msikiti wa Mophe nyumbani kwake, msikiti wa kwanza katika eneo la Chikoneni. Kabla yake, Waislamu wa Chikoneni waliswali juu ya mikeka nje, chini ya anga. Omari, mwana wa Masemo, alisoma kwa Abdallah bin Kasim Mwangumi, mwalimu Msegeju aliyefika Chikoneni karibu mwaka 1903. Omari alipohitimu akawa Imamu. Watu walikuja kwa swala ya Ijumaa kutoka Nyamala, Vivwini, Mwaluvanga na Mrima. Msikiti ulibomoka wakati wa Vita vya Kwanza vya Dunia. Baada ya vita Masemo alihamia katikati ya Chikoneni na akaujenga upya karibu na makazi yake mapya.
 
-## Jumbe na Rais wa Baraza
+## Mkuu na Rais wa Baraza
 
 Waingereza waliwatawala Adigo kupitia mabaraza ya wazee, yaliyojengwa juu ya *ngambi* ya zamani, baraza lililoendesha mambo ya kila kaya na vijiji vyake. Baada ya 1916 Masemo alikuwa, kwa maneno ya Sperling, "kiongozi halisi wa eneo la Chikoneni" (*"the real leader of Chikoneni location"*). Mkuu wa Wilaya (District Commissioner) aliandika mwaka 1920 kwamba baraza la Chikoneni "kwa jina liko chini ya Fundi Mwabege wa Mrima, ambaye ni mzee, na kazi halisi inaangukia Mohammed Mwamasemo" (*"nominally under Fundi Mwabege of Mrima, who is old, and the active work devolves on Mohammed Mwamasemo"*).
 
-Mwabege alipofariki mwaka 1920, Masemo akawa Jumbe wa Chikoneni na Rais wa Baraza Kuu la Adigo. Ripoti ya makabidhiano ya Novemba 1923 ilitoa tathmini iliyonukuliwa hapo juu. Mnamo Januari 1924 alikuwa mmoja wa wazee wawili wa Kidigo walioalikwa kutembelea manowari za Kiingereza huko Mombasa.
+Mwabege alipofariki mwaka 1920, Masemo akawa Mkuu wa Chikoneni na Rais wa Baraza Kuu la Adigo. Ripoti ya makabidhiano ya Novemba 1923 ilitoa tathmini iliyonukuliwa hapo juu. Mnamo Januari 1924 alikuwa mmoja wa wazee wawili wa Kidigo walioalikwa kutembelea manowari za Kiingereza huko Mombasa.
 
 Suala zito zaidi la wakati huo lilikuwa urithi. Mila za Kidigo zilipitisha mali kupitia ukoo wa mama, ilhali sheria ya Kiislamu inapitisha mali kutoka kwa baba hadi kwa mwana. Mwaka 1924 Mkuu wa Wilaya aliwauliza wazee maoni yao na akaripoti kwamba theluthi mbili walipendelea mabadiliko. Tarehe 9 Agosti 1924 "alimhoji Mohamed Mwasemo wa Chikoneni na kujadili mabadiliko ya [sheria ya] urithi" (*"interviewed Mohamed Mwasemo of Chikoneni and discussed the change of inheritance [law]"*). Shajara inaandika kwamba "Mohamed anayakaribisha mabadiliko" (*"Mohamed welcomes the change"*). Mwaka 1928 Mahakama ya Rufaa iliamua, katika kesi kutoka Pungu, kwamba sheria ya Kiislamu ndiyo inayotumika na mali ya marehemu ilipita kutoka kwa baba hadi kwa mwana.
 

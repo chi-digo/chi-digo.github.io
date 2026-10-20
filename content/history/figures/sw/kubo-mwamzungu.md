@@ -32,7 +32,7 @@ Hadithi hizi zinahitaji kuchukuliwa kwa tahadhari. Ikiwa Mwamzungu alikuwa madar
 
 ## Hakuwa Mwislamu, Wala Hakusahaulika
 
-Licha ya uhusiano wake na Diwani, Mwamzungu hakusilimu. Wala mwanawe Jita Mwakubo, aliyeshika utawala baada ya kifo chake. Mwana wa Jita, Mangaru Mwajita, alitawala kama Kubo kuanzia karibu 1865 hadi 1894. Mpwa wa Mangaru, Shehe Mwacholozi, alisimikwa mwaka 1895 na, kama alivyoandika Afisa wa Wilaya, alikuwa "Kubo wa kwanza kuikubali dini ya Kiislamu" (*"the first Kubo to adopt the Islam religion"*). Kubo Shehe alipofariki mwaka 1916, watu sita walidai cheo hicho. Badala yake Waingereza walimteua mmoja wao kuwa mkuu wa kijiji (*headman*), na Ukubo ukafifia.
+Licha ya uhusiano wake na Diwani, Mwamzungu hakusilimu. Wala mwanawe Jita Mwakubo, aliyeshika utawala baada ya kifo chake. Mwana wa Jita, Mangaru Mwajita, alitawala kama Kubo kuanzia karibu 1865 hadi 1894. Mpwa wa Mangaru, Shehe Mwacholozi, alisimikwa mwaka 1895 na, kama alivyoandika Afisa wa Wilaya, alikuwa "Kubo wa kwanza kuikubali dini ya Kiislamu" (*"the first Kubo to adopt the Islam religion"*). Kubo Shehe alipofariki mwaka 1916, watu sita walidai cheo hicho. Badala yake Waingereza walimteua mmoja wao kuwa Mkuu wa Lokesheni (Headman), na Ukubo ukafifia.
 
 Maafisa wa Kiingereza walikuwa na "hamu ya kipekee ya kihistoria" (*"singular historical interest"*) kuhusu Ukubo, anaandika Sperling, kwa kuwa ulikuwa "aina ya mamlaka iliyokuwa ya kati zaidi kuliko yaliyopatikana kwingineko katika pwani ya Kenya" (*"a more centralized form of authority than was found elsewhere on the Kenya coast"*), na waliweka nyaraka nyingi kuuhusu.
 

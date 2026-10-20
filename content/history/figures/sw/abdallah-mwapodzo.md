@@ -3,7 +3,7 @@
 ## Muhtasari
 
 **Kipindi:** takriban 1840–1923
-**Jukumu:** Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Headman wa kikoloni wa Diani
+**Jukumu:** Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Mkuu wa Lokesheni (Headman) wa kikoloni wa Diani
 **Eneo:** Ukunda na Diani, Kwale, Kenya ya leo
 
 ---
@@ -42,9 +42,9 @@ Karibu mwaka **1907**, idadi ya Waislamu ilipoongezeka, Mwapodzo alijenga **msik
 
 Baada ya Vita vya Kwanza vya Dunia misikiti zaidi ilifuata: Msikiti wa Mwamambi mwaka 1920 na Msikiti wa Mvumoni mwaka 1922. Karibu mwaka 1927 watu wa Diani walisafisha kichaka kilichouzunguka Msikiti wa kale wa Kongo, na mwaka 1932 Shaykh Mwinyikombo aliufungua kwa maulidi makubwa. Kufikia 1920 angalau watano kati ya wajumbe kumi na saba wa ngambi ya Diani walikuwa Waislamu.
 
-## Headman wa Kikoloni
+## Mkuu wa Kikoloni
 
-Waingereza walimteua Mwapodzo kuwa **Headman wa Diani**, naye alishikilia cheo hicho hadi kifo chake. Kufikia 1916 ripoti ya kikoloni tayari ilimwita "mzee sana" (*very old*) na ilieleza kwamba alikuwa ameruhusiwa kutohudhuria mikutano ya Baraza. Alifariki mwaka **1923**. Tarehe 10 Julai 1923 Mkuu wa Wilaya, H. E. Lambert, aliandika katika shajara yake ya ziara kwamba **Abdallah Mwarandu** alikuwa amechaguliwa kuwa Headman mahali pake.
+Waingereza walimteua Mwapodzo kuwa **Mkuu wa Diani**, naye alishikilia cheo hicho hadi kifo chake. Kufikia 1916 ripoti ya kikoloni tayari ilimwita "mzee sana" (*very old*) na ilieleza kwamba alikuwa ameruhusiwa kutohudhuria mikutano ya Baraza. Alifariki mwaka **1923**. Tarehe 10 Julai 1923 Mkuu wa Wilaya, H. E. Lambert, aliandika katika shajara yake ya ziara kwamba **Abdallah Mwarandu** alikuwa amechaguliwa kuwa Mkuu mahali pake.
 
 Kwa hiyo maisha yake ya kazi yalianzia katika uongozi wa kaya kabla ya ukoloni hadi utawala usio wa moja kwa moja wa Waingereza. Sperling aligundua kwamba kusilimu kwa Adigo kulifikia "aina ya kilele kufikia mwisho wa miaka ya 1920" (*a kind of crescendo by the end of the 1920s*), katika miaka iliyofuata kifo chake.
 

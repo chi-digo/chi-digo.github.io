@@ -1,22 +1,22 @@
-# Mzehe Abdalla Ali Mnyenze: Mrindzi wa Kaya Chinondo
+# Mzee Abdalla Ali Mnyenze: Mrindzi wa Kaya Chinondo
 
 ## Muhtasari
 
 **Wakati:** Wavyalwa kama 1928 au kama 1941 (vyanzo tavilingana); wafwa mwaka 2021, na habari za chifoche zalavywa tarehe 13 Oktoba 2021
-**Kazi:** Mzehe na mrindzi wa Kaya Chinondo; mwenyekiti wa azehe a makaya ga Pwani na ga Kwale; mganga
+**Kazi:** Mzehe na mrindzi wa Kaya Chinondo; mwenyekiti wa azehe a makaya ga Pwani na ga Kwale; mgbwanga
 **Phatu:** Chinondo, Msambweni, Kaunti ya Kwale, Kenya
 
 ---
 
 Gazeti ra Nation ririphotangaza chifoche Oktoba 2021, ramuiha Abdalla Mnyenze mzehe "ariyelongoza uhifadhi wa matsaka ga Kaya" (*"who steered the conservation of Kaya forests"*). Kpwa zaidi ya miaka kumi kabla ya hipho, aandishi a habari, asayansi na anasiasa ariofika Kaya Chinondo kala anakutana na mutu hiye mmwenga kanda ya tsaka. Iye ndiye kala anaeleza miko ya tsaka riro, na kugomba badala ya azehe ariokala anaririnda.
 
-Takuna mutu ariyeandika maishage. Makala ihi inakusanya gara garigoandikpwa ni magazeti na masomo mairi ga chitaaluma, na inaonyesa phara ambapho tagalingana. *Mzehe* ni neno ra hishima kpwa mutu mzima.
+Takuna mutu ariyeandika maishage. Makala ihi inakusanya gara garigoandikpwa ni magazeti na masomo mairi ga chitaaluma, na inaonyesa phara ambapho tagalingana. *Mzee* ni neno ra hishima kpwa mutu mzima.
 
 ## Kaya Chinondo
 
 *Kaya* ni chidzidzi chenye ngome chirichodzengbwa ni Amijikenda phatu pha wazi kahi ya tsaka. Muda mure bada ya vidzidzi hivyo kurichwa, matsaka garigovizunguluka garindwa dza phatu phatakatifu, phenye mbira za akare na *fingo*, hirizi ya kurinda iriyozikpwa tsini. Kaya Chinondo, iriyo phephi na pwani kusini phephi na Diani, ni mwenga wa makaya ga kare kuriko ganjina ga Adigo. Mwanahistoria David Sperling anataja Kwale na Chinondo kukala ndio makaya ga kpwandza ambago Adigo agaandzisha kusini mwa Mombasa. Mwaka 2008 matsaka ga makaya gaorodheshwa ni UNESCO kukala Phatu pha Urisi wa Dunia.
 
-Chila kaya kala inatawalwa ni azehe a kaya iyo, *ngambi*, baraza ya azehe iriyokala inarinda miko ya kaya na kulongoza mavoyo ga kaya. Kahi ya miaka ya 2000 na 2010, Mnyenze ndiye kala mzehe wa Kaya Chinondo ariyetajwa mara nyinji kuriko anjina kukala ndiye analongoza kaya iyo.
+Chila kaya kala inatawalwa ni azehe a kaya iyo, *ngambi*, baraza ra azehe ririrokala rinarinda miko ya kaya na kulongoza mavoyo ga kaya. Kahi ya miaka ya 2000 na 2010, Mnyenze ndiye kala mzehe wa Kaya Chinondo ariyetajwa mara nyinji kuriko anjina kukala ndiye analongoza kaya iyo.
 
 ## Mrindzi wa Kaya
 
@@ -30,15 +30,15 @@ Kahi ya miaka iyo, matsaka ga pwani ya kusini kala ganalondwa sana ni atu analon
 
 Makaya piya kala ganavutiya anasiasa, na Mnyenze kala ni seemu ya habari iyo. Machi 2008 Kaya Chinondo yakaribisha azehe arioamvoyera baraka waziri Chirau Ali Mwakwere, na Mnyenze waamba kukala mavoyo dza higo gahendwa kpwa Kassim Mwamzandi kabla ya atu kutsambula vilongozi mwaka 1963. Mwaka 2019 walongoza mavoyo Kaya Chinondo ga kumrinda gavana wa Nairobi, Mike Sonko, ambaye gazeti ramueleza kukala "mutu ariye mashakani" (*"embattled"*). Sherehe dza hizo tazikubalika ni azehe osi a makaya. Zinaonyesa kukala kaya kala bado ina nguvu nyinji, na kukala kala ni vigumu kuiusa kahi ya mambo ga siasa.
 
-## Mganga na Chanzo cha Maarifa
+## Mgbwanga na Chanzo cha Maarifa
 
-Mnyenze piya watsapiza maarifa kpwa atafiti. Oktoba 1996 msomi Hassan Ndzovu wamuuza maswali "Abdallah Mnyenze wa Kaya Chinondo" (*"Abdallah Mnyenze of Kaya Chinondo"*) kuhusu adisi za kuandzishwa kpwa kaya, na kuhusu imani za Adigo dzulu ya utsai. Mdigo Mohamed Pakia, mtaalamu wa mimea na vira atu anavyoihumira (ethnobotanist), anamtaja "Abdallah Mnyedze, Kaya Chinondo" (*"Abdallah Mnyedze, Kaya Chinondo"*) kukala wa kpwandza kahi ya azehe a kaya ambao waauza maswali, na anamshukuru kpwenye tasnifuye ya 2005. Pakia piya anaeleza Abdalla Mnyendze ariyekala anahenda kazi ya uganga kula ofisi yenye bango ra "Dr. Mnyendze", na tupa za dawa za mihi zirizotengezwa. Anaonyesa kukala mganga hiye kala bado anagomba kukala mamlakage ganatuluka kpwa "alimue amanyikanao" (*"famous teachers"*). Madzina ganaandikpwa tafwauti, na inaonekana, ela si kpwa hakika, kukala maelezo higa ganagomba kuhusu mutu mmwenga.
+Mnyenze piya watsapiza maarifa kpwa atafiti. Oktoba 1996 msomi Hassan Ndzovu wamuuza maswali "Abdallah Mnyenze wa Kaya Chinondo" (*"Abdallah Mnyenze of Kaya Chinondo"*) kuhusu adisi za kuandzishwa kpwa kaya, na kuhusu imani za Adigo dzulu ya utsai. Mdigo Mohamed Pakia, mtaalamu wa mimea na vira atu anavyoihumira (ethnobotanist), anamtaja "Abdallah Mnyedze, Kaya Chinondo" (*"Abdallah Mnyedze, Kaya Chinondo"*) kukala wa kpwandza kahi ya azehe a kaya ambao waauza maswali, na anamshukuru kpwenye tasnifuye ya 2005. Pakia piya anaeleza Abdalla Mnyendze ariyekala anahenda kazi ya uganga kula ofisi yenye bango ra "Dr. Mnyendze", na tupa za dawa za mihi zirizotengezwa. Anaonyesa kukala mgbwanga hiye kala bado anagomba kukala mamlakage ganatuluka kpwa "alimue amanyikanao" (*"famous teachers"*). Madzina ganaandikpwa tafwauti, na inaonekana, ela si kpwa hakika, kukala maelezo higa ganagomba kuhusu mutu mmwenga.
 
 ## Mambo Gasigomanyikana kpwa Hakika
 
 Taimanyikana kpwa hakika ariphovyalwa. Habari ya chifoche kpwenye Nation ya tarehe 13 Oktoba 2021 yataja umriwe kukala miaka 93, ichimaanisha kukala wavyalwa kama mwaka 1928. Ela Ndzovu wamuandika kukala ana miaka 55 mwaka 1996, ichimaanisha kukala wavyalwa kama mwaka 1941. Habari iyo ya chifo taitaja tarehe kamili ya chifoche, ela inagomba tu kukala kala ni mkpwongo.
 
-Dzinare rinaandikpwa dza Abdalla Mnyenze, Ali Abdalla Mnyenze na Mnyenze Abdalla Ali. Vyeovye piya ni tafwauti: mwenyekiti wa Kamati za Kaya za Pwani au wa Makaya ga Pwani, mwenyekiti wa Baraza ya Azehe a Kaya a Mijikenda, na, wakati wa chifoche, mwenyekiti wa Azehe a Kaya a Kwale. Yaweza kukala ni makundi tafwauti kpwa nyakati tafwauti, au njira tafwauti za kuripoti cheo chimwenga.
+Dzinare rinaandikpwa dza Abdalla Mnyenze, Ali Abdalla Mnyenze na Mnyenze Abdalla Ali. Vyeovye piya ni tafwauti: mwenyekiti wa Kamati za Kaya za Pwani au wa Makaya ga Pwani, mwenyekiti wa Baraza ra Azehe a Kaya a Mijikenda, na, wakati wa chifoche, mwenyekiti wa Azehe a Kaya a Kwale. Yaweza kukala ni makundi tafwauti kpwa nyakati tafwauti, au njira tafwauti za kuripoti cheo chimwenga.
 
 ## Gara Arigoricha
 
