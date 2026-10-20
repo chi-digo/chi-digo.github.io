@@ -22,7 +22,7 @@ Bada ya chifo cha Shehe, alume sita adai cheo hicho. Viha vyahenda uamuzi ukawie
 
 Masemo wasilimu miaka ya 1880. Mgbwanga mmwenga kula Mombasa, ariyekala anatsupa phara, wamsilimisha iye na mchewe. Masemo wahala dzina Muhammad, dzina ra hiye mgbwanga, na mchewe wahala dzina Mwanaisha. Mdigo wa kpwandza wa Chikoneni kusilimu kala ni Mwalimu Mnena, ariyesilimu Mombasa miaka ya 1870 au 1880. *Mwalimu* manage ni mutu anayefundza, na Mnena wafundza asenae misingi ya dini.
 
-Miaka ya 1890 Masemo waandza kujema mpira phamwenga na ise wa mchewe, Muhammad Mwamvini, ambaye piya kala ni mmwenga wa Aislamu a kpwandza. Kpwa biashara ya mpira wakala mutu wa kumgulira mpira na msena wa Mwalimu Mbulushi bin Fakir, mchuuzi Mbaluchi wa Chikoneni. Piya iye mwenye kala anatsukula mizigo hadi Mombasa, charo cha siku mbiri. Mwanawe watambukira kukala alala Tiwi, kpwa msena wa ise, Mwinyi Haji wa Bwika, achiuka "wakati wa dzogolo kuika mara ya kpwandza" (*"at the first crowing of the cock"*) ili afike Mombasa ligundzu.
+Miaka ya 1890 Masemo waandza kujema mpira phamwenga na mtsedzawe, Muhammad Mwamvini, ambaye piya kala ni mmwenga wa Aislamu a kpwandza. Kpwa biashara ya mpira wakala mutu wa kumgulira mpira na msena wa Mwalimu Mbulushi bin Fakir, mchuuzi Mbaluchi wa Chikoneni. Piya iye mwenye kala anatsukula mizigo hadi Mombasa, charo cha siku mbiri. Mwanawe watambukira kukala alala Tiwi, kpwa msena wa ise, Mwinyi Haji wa Bwika, achiuka "wakati wa dzogolo kuika mara ya kpwandza" (*"at the first crowing of the cock"*) ili afike Mombasa ligundzu.
 
 Kama mwaka 1905 Masemo wavugula dukare mwenye. Sperling anaamba kukala iye ndiye kala Mdigo wa kpwandza kuhenda biashara ya nguwo Chikoneni.
 
