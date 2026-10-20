@@ -47,7 +47,7 @@ export function FigureArticle({ figure, articles, scene }: { figure: Figure; art
         }
       >
         <div className={styles.heroContent}>
-          <p className={styles.eyebrow}>{t.history.figures_heading}</p>
+          <p className={styles.eyebrow}><Link href="/history/figures" className={own.eyebrowLink}>{t.history.figures_heading}</Link></p>
           <h1 className={styles.heroTitle}>{figure.name}</h1>
           <p className={own.role}>{figure.role[locale]} · {figure.era[locale]} · {figure.region}</p>
         </div>
