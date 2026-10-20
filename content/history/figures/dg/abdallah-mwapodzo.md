@@ -22,7 +22,7 @@ Phahi Kivoyero wachiphaha cheo chicho kpwa kurisi, si kpwa kutsambulwa. Wauka Uk
 
 ## Kusilimu Wakati wa Ndzala
 
-Ise kala anaatsemberera achinae Mombasa mara nyinji, na safari izo zamupha barobaro iye nafasi ya kpwandza ya kumanya maisha ga mudzini na Aislamu. Dzambo ririrogaluza maishage rakpwedza na **ndzala ya Mwakisenge ya 1884–85**. Ise na mwana aphiya kukala na achina ao a Chidigo kuko **Takaungu**, kazikazini ya Mombasa, ambao kala tayari ni Aislamu. Hiko osi airi agbwirwa ni ndui. Mwakulenje Podzo wafwa. Mwanawe, kpwa maneno ga mzehe mmwenga wa Diani ariyeuzwa maswali mwaka 1967, "waphola achikala Abdallah" (*was cured and became Abdallah*). Ariphouya kpwakpwe kaya bada ya ndzala kala ni Mwislamu, na "kala anagomba Chiswahili" (*was speaking Swahili*), dzambo ambaro wakati uo kala ni alama ya mutu ariyekala anahenda mambo na midzi mara kpwa mara.
+Ise kala anaatsemberera achinae Mombasa mara nyinji, na safari izo zamupha barobaro iye nafasi ya kpwandza ya kumanya maisha ga mudzini na Aislamu. Dzambo ririrogaluza maishage rakpwedza na **ndzala ya Mwakisenge ya 1884–85**. Ise na mwana aphiya kukala na achina ao a Chidigo iko **Takaungu**, kazikazini ya Mombasa, ambao kala tayari ni Aislamu. Hiko osi airi agbwirwa ni ndui. Mwakulenje Podzo wafwa. Mwanawe, kpwa maneno ga mzehe mmwenga wa Diani ariyeuzwa maswali mwaka 1967, "waphola achikala Abdallah" (*was cured and became Abdallah*). Ariphouya kpwakpwe kaya bada ya ndzala kala ni Mwislamu, na "kala anagomba Chiswahili" (*was speaking Swahili*), dzambo ambaro wakati uo kala ni alama ya mutu ariyekala anahenda mambo na midzi mara kpwa mara.
 
 Inawezekana kukala anjina a Diani asilimu kabla ya iye. Ela ara ariotangulira ama atsama kuphiya Mombasa, ama kala taailunga dini chikpweli. Mwapodzo ndiye wa kpwandza ariyeishi dza Mwislamu chidzidzini, achiamweha anjina amlunge. Kpwa sababu iyo Diani inamtambukira dza Mwislamu wa kpwandza wa Diani.
 
@@ -32,11 +32,11 @@ Dzambo kulu Sperling ariroona kuhusu Amijikenda a kusini ni kukala, kula miaka y
 
 Waenderera kuhenda biashara Mombasa, na nkugombwa kukala watsemberera Zanzibar. Ela wasala kukala mwanatsi, achienderera kulongoza mila za Kaya Diani. Azehe kala anatambukira mavoyoge ga mvula kukala gakala na nguvu kulu sana. Atu kala anamrehera mbuzi, kuku na nyama anjina ili alavye sadaka kpwenye mavoyo ga kaya. Kpwakpwe, kukala Mwislamu na kukala mkpwulu wa mila wa kaya kala si maisha mairi ga kutsambula mwenga.
 
-Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka ya 1880 na miaka ya 1890 achuuzi Aislamu aandza kusagala Diani. Kala anaguza ng'onda, tende, ushanga na nguwo, achigula nazi na tumbaku, na kurehera atu nafaka miaka ya ndzala. Ariphokala anaphiya bara kugula tumbaku, Mwapodzo kala anaapha asindikizihe. Anjina ao asagala **Diani Mwaroni**, phatu ambapho Mwapodzo kala anaishi. Mmwenga wao, Mbega, mtumwa ariyerichwa huru, kala ni msenawe. Mwapodzo piya kala ni msena wa Shaykh Mbaruk bin Rashid, chilongozi wa Amazrui kuko Gasi.
+Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka ya 1880 na miaka ya 1890 achuuzi Aislamu aandza kusagala Diani. Kala anaguza ng'onda, tende, ushanga na nguwo, achigula nazi na tumbaku, na kurehera atu nafaka miaka ya ndzala. Ariphokala anaphiya bara kugula tumbaku, Mwapodzo kala anaapha asindikizihe. Anjina ao asagala **Diani Mwaroni**, phatu ambapho Mwapodzo kala anaishi. Mmwenga wao, Mbega, mtumwa ariyerichwa huru, kala ni msenawe. Mwapodzo piya kala ni msena wa Shaykh Mbaruk bin Rashid, chilongozi wa Amazrui iko Gasi.
 
 ## Msikiti wa Mwaroni
 
-Kpwa miaka minji Diani kala taina msikiti. Aislamu achache a Diani kala anaphiya Gasi au Tiwi kpwa swala ya Ijumaa, au anaswali ndani ya uchigo mdide wa makandza. Kpwa sikukuu za Idi, alume "dza Abdallah Mwapodzo" (*like Abdallah Mwapodzo*) kala anaphiya Mombasa kpwa magulu. Kala analala njirani kuko Pungu kpwa Muhammad Mwaganyuma, mmwenga wa ariotangulira kusilimu kuko.
+Kpwa miaka minji Diani kala taina msikiti. Aislamu achache a Diani kala anaphiya Gasi au Tiwi kpwa swala ya Ijumaa, au anaswali ndani ya uchigo mdide wa makandza. Kpwa sikukuu za Idi, alume "dza Abdallah Mwapodzo" (*like Abdallah Mwapodzo*) kala anaphiya Mombasa kpwa magulu. Kala analala njirani iko Pungu kpwa Muhammad Mwaganyuma, mmwenga wa ariotangulira kusilimu iko.
 
 Kama mwaka **1907**, unji wa Aislamu uriphoenjerezeka, Mwapodzo wadzenga **msikiti wa kpwandza wa Diani, Msikiti wa Mwaroni**, phephi na nyumbaye. Wadzengbwa kpwa ulongo na mihi, na paa ra makuti. Imamu wa kpwandza kala ni Shehe Baimba, mchuuzi Mgunya (Mbajuni) ariyekpwedza kuguza ushanga na vilolo, achiamba andafundza. Bada ya hipho, muwa wa Mwapodzo, **Hamisi Mwaramunda**, waphaha cheo chicho kpwa kutsomana na anjina ariokala analonda cheo icho. Diani kala inautambukira msikiti uo kukala "wa Akinalela" (*of the Akinalela*), fuko ririroandzisha kaya.
 
@@ -55,8 +55,8 @@ Mwapodzo kala ni mmwenga wa atu anji a wakati uo. Utafiti wa Sperling piya unaha
 - **Hamisi Mwapodzo wa Pungu.** Iye ni mutu wanjina mwenye dzina rinarofanana. Wasilimu kama mwaka 1870 na, phamwenga na Muhammad Mwaganyuma, adzenga misikiti ya kpwandza ya Pungu kahi za miaka ya 1890.
 - **Muhammad Mwaganyuma wa Pungu**, mwana wa Ali Ganyuma, ambaye kala tayari ni Mwislamu kufikira 1855. Mwana wa Muhammad, **Mwalimu Ali**, wasoma Mtanganyiko achikala Imamu wa kpwandza wa Msikiti wa Pungu na mwalimu wa ana a atu ariokala akasilimu.
 - **Mwinyihaji wa Bwika**, mzehe mkpwulu wa Tiwi, ariyefwa 1913. Azehe a vidzidzi vyanjina kala anamtambukira dza mutu ariyeandzisha kuganya urisi kulengana na shariya ya Chiislamu kahi za Adigo.
-- **Omari Mwakikweza**, mwana wa Mwanaphyori Kikweza, mmwenga wa ariotangulira kusilimu kula Diani, ariyetsama kuphiya Mombasa. Omari wakpwedza kuonekana dza mkpwulu wa Aislamu a Chidigo kuko.
-- **Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni kuko Tiwi. Kpwa ganagomanyikana, iye ndiye Mdigo wa kpwandza, na Mmijikenda wa kpwandza, kuphiya Hija Makka. Waonekana achitserera chomboni Jidda, ela kauyire kaya.
+- **Omari Mwakikweza**, mwana wa Mwanaphyori Kikweza, mmwenga wa ariotangulira kusilimu kula Diani, ariyetsama kuphiya Mombasa. Omari wakpwedza kuonekana dza mkpwulu wa Aislamu a Chidigo iko.
+- **Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni iko Tiwi. Kpwa ganagomanyikana, iye ndiye Mdigo wa kpwandza, na Mmijikenda wa kpwandza, kuphiya Hija Makka. Waonekana achitserera chomboni Jidda, ela kauyire kaya.
 
 ## Urisi
 

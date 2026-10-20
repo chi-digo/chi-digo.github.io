@@ -80,7 +80,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'A coral-stone mosque with domes and barrel vaults on the Mwachema River at Diani. It has never been excavated; pottery found nearby dates from the 14th to the 16th centuries.',
       sw: 'Msikiti wa mawe ya matumbawe wenye kuba na dari za tao kando ya Mto Mwachema huko Diani. Haujawahi kuchimbuliwa; vipande vya vyungu vilivyopatikana karibu ni vya karne ya 14 hadi ya 16.',
-      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Muho wa Mwachema kuko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
+      dg: 'Msikiti wa mawe ga matumbawe wenye makuba kando ya Muho wa Mwachema iko Diani. Taudzangbwe kuchimbulwa; vipande vya nyungu viriphahikana phephi ni vya karne ya 14 hadi ya 16.',
     },
   },
   {
@@ -194,7 +194,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'An estimated 43,000–47,000 enslaved people constitute ~44% of the coastal population. Shimoni Caves in Kwale serve as holding pens. Many Digo are enslaved; some gain freedom through conversion to Islam.',
       sw: 'Watu 43,000–47,000 waliofanywa watumwa wanaunda ~44% ya watu wa pwani. Mapango ya Shimoni huko Kwale yanatumika kama magereza. Wadigo wengi wanafanywa watumwa; baadhi wanapata uhuru kwa kuingia Uislamu.',
-      dg: 'Atu 43,000–47,000 ariohendwa atumwa anaunda ~44% ya atu a pwani. Mapango ga Shimoni kuko Kwale ganahumika dza magereza. Adigo anji anahendwa atumwa; anjine anapata uhuru kpwa kuingia Uislamu.',
+      dg: 'Atu 43,000–47,000 ariohendwa atumwa anaunda ~44% ya atu a pwani. Mapango ga Shimoni iko Kwale ganahumika dza magereza. Adigo anji anahendwa atumwa; anjine anapata uhuru kpwa kuingia Uislamu.',
     },
   },
 
@@ -238,7 +238,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: "Mbaruk bin Rashid leads the Mazrui against the new British protectorate. Most Digo south of Mombasa stay out; the Digo of Kaya Chinondo and around Mbaruk's stronghold at Mwele join the rising.",
       sw: 'Mbaruk bin Rashid anaongoza Wamazrui dhidi ya utawala mpya wa Waingereza. Wadigo wengi wa kusini mwa Mombasa hawajiungi; Wadigo wa Kaya Chinondo na wa karibu na ngome ya Mbaruk huko Mwele wanajiunga na uasi.',
-      dg: 'Mbaruk bin Rashid analongoza Amazrui dhidi ya utawala muphya wa Aingereza. Adigo anji a kusini mwa Mombasa taadziunga; Adigo a Kaya Chinondo na a phephi na ngome ya Mbaruk kuko Mwele anadziunga na uasi.',
+      dg: 'Mbaruk bin Rashid analongoza Amazrui dhidi ya utawala muphya wa Aingereza. Adigo anji a kusini mwa Mombasa taadziunga; Adigo a Kaya Chinondo na a phephi na ngome ya Mbaruk iko Mwele anadziunga na uasi.',
     },
   },
   {
@@ -266,7 +266,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Major uprising against German forced cotton cultivation in Tanganyika. The Digo around Tanga are among the affected populations. Between 75,000–300,000 die, mostly from German scorched-earth reprisals.',
       sw: 'Uasi mkubwa dhidi ya ulimaji wa pamba wa kulazimishwa na Wajerumani huko Tanganyika. Wadigo karibu na Tanga ni miongoni mwa watu walioathirika. Kati ya 75,000–300,000 wanakufa, wengi kutokana na kisasi cha kuchoma ardhi cha Wajerumani.',
-      dg: 'Uasi mukulu dhidi ya ulimaji wa pamba wa kulazimishwa ni Ajerumani kuko Tanganyika. Adigo phephi na Tanga ni kahi za atuarioathirika. Kahi ya 75,000–300,000 anakufwa, anji kpwa sababu ya kisasi cha kuchoma ardhi cha Ajerumani.',
+      dg: 'Uasi mukulu dhidi ya ulimaji wa pamba wa kulazimishwa ni Ajerumani iko Tanganyika. Adigo phephi na Tanga ni kahi za atuarioathirika. Kahi ya 75,000–300,000 anakufwa, anji kpwa sababu ya kisasi cha kuchoma ardhi cha Ajerumani.',
     },
   },
   {
@@ -322,7 +322,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Around Tiwi, mosques had long been led by imams from outside the community. In 1924 the village of Chigato builds a mosque for Kassim Mwachinyama, one of the first Digo imams.',
       sw: 'Huko Tiwi, misikiti iliongozwa kwa muda mrefu na maimamu kutoka nje ya jamii. Mwaka 1924 kijiji cha Chigato kinajenga msikiti kwa ajili ya Kassim Mwachinyama, mmoja wa maimamu wa kwanza Wadigo.',
-      dg: 'Kuko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 chidzidzi cha Chigato chinadzenga msikiti kpwa ajili ya Kassim Mwachinyama, mmwenga wa maimamu a kpwandza Adigo.',
+      dg: 'Iko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 chidzidzi cha Chigato chinadzenga msikiti kpwa ajili ya Kassim Mwachinyama, mmwenga wa maimamu a kpwandza Adigo.',
     },
   },
   {
@@ -394,7 +394,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'The Kongo Mosque at Diani and the land around it are protected under Gazette Notice 440 of 1983.',
       sw: 'Msikiti wa Kongo huko Diani na ardhi inayouzunguka unalindwa chini ya Tangazo la Serikali Na. 440 la 1983.',
-      dg: 'Msikiti wa Kongo kuko Diani na ardhi inayouzunguluka unarindwa tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
+      dg: 'Msikiti wa Kongo iko Diani na ardhi inayouzunguluka unarindwa tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
     },
   },
   {

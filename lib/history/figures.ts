@@ -47,7 +47,7 @@ export const figures: Figure[] = [
     summary: {
       en: "A rain-maker who came south from Kwale in a famine and was accepted as leader after he “brought rain”. He founded the Kubo rulership of the southern Digo at Kaya Dzombo.",
       sw: "Mganga wa mvua aliyekuja kusini kutoka Kwale wakati wa njaa na akakubaliwa kuwa kiongozi baada ya “kuleta mvua”. Alianzisha utawala wa Kubo wa Wadigo wa kusini huko Kaya Dzombo.",
-      dg: "Mgbwanga wa mvula ariyekpwedza kusini kula Kwale wakati wa ndzala, achikubalika kukala chiongozi bada ya “kureha mvula”. Waandzisha utawala wa Kubo wa Adigo a kusini kuko Kaya Dzombo.",
+      dg: "Mgbwanga wa mvula ariyekpwedza kusini kula Kwale wakati wa ndzala, achikubalika kukala chiongozi bada ya “kureha mvula”. Waandzisha utawala wa Kubo wa Adigo a kusini iko Kaya Dzombo.",
     },
   },
   {
@@ -107,7 +107,7 @@ export const figures: Figure[] = [
     summary: {
       en: 'The 7th mwanatsi (senior elder) of Kaya Diani. He became a Muslim during the famine of 1884–85 and kept leading the kaya’s rain rituals. Around 1907 he built Diani’s first mosque, at Mwaroni.',
       sw: 'Mwanatsi (mzee mkuu) wa 7 wa Kaya Diani. Alisilimu wakati wa njaa ya 1884–85 na akaendelea kuongoza matambiko ya mvua ya kaya. Karibu mwaka 1907 alijenga msikiti wa kwanza wa Diani, huko Mwaroni.',
-      dg: 'Mwanatsi (mzehe mkpwulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, kuko Mwaroni.',
+      dg: 'Mwanatsi (mzehe mkpwulu) wa 7 wa Kaya Diani. Wasilimu wakati wa ndzala ya 1884–85 na achienderera kulongoza matambiko ga mvula ga kaya. Kama mwaka 1907 wadzenga msikiti wa kpwandza wa Diani, iko Mwaroni.',
     },
   },
   {
@@ -147,7 +147,7 @@ export const figures: Figure[] = [
     summary: {
       en: "Trader and Headman of Chikoneni, he built its first mosque around 1906 and led the Digo Central Council in the 1920s. A 1923 report called him one of the most energetic Presidents in the District.",
       sw: "Mfanyabiashara na Mkuu wa Chikoneni, alijenga msikiti wa kwanza huko karibu mwaka 1906 na akaongoza Baraza Kuu la Wadigo miaka ya 1920. Ripoti ya 1923 ilimwita mmoja wa marais wenye bidii zaidi wilayani.",
-      dg: "Mfanyabiashara na Dzumbe wa Chikoneni, wadzenga msikiti wa kpwandza kuko kama mwaka 1906 na achilongoza Baraza Kulu ra Adigo miaka ya 1920. Ripoti ya 1923 yamuiha mmwenga wa marais enye bidii zaidi wilayani.",
+      dg: "Mfanyabiashara na Dzumbe wa Chikoneni, wadzenga msikiti wa kpwandza iko kama mwaka 1906 na achilongoza Baraza Kulu ra Adigo miaka ya 1920. Ripoti ya 1923 yamuiha mmwenga wa marais enye bidii zaidi wilayani.",
     },
   },
   {
@@ -167,7 +167,7 @@ export const figures: Figure[] = [
     summary: {
       en: "Around Tiwi, mosques had long been led by imams from outside the community. In 1924 Chigato built a mosque for him to lead, and children from Vuga came to learn at his school.",
       sw: "Huko Tiwi, misikiti iliongozwa kwa muda mrefu na maimamu kutoka nje ya jamii. Mwaka 1924 Chigato ilijenga msikiti ili yeye auongoze, na watoto kutoka Vuga walikuja kusoma katika chuo chake.",
-      dg: "Kuko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 Chigato yadzenga msikiti ili iye aulongoze, na ana kula Vuga akpwedza kusoma kpwenye chuoche.",
+      dg: "Iko Tiwi, misikiti kala inalongozwa kpwa muda mure ni maimamu kula kondze ya jamii. Mwaka 1924 Chigato yadzenga msikiti ili iye aulongoze, na ana kula Vuga akpwedza kusoma kpwenye chuoche.",
     },
   },
   {
