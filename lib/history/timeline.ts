@@ -392,9 +392,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Msikiti wa Kongo unatangazwa',
     },
     description: {
-      en: 'The Kongo Mosque at Diani and the land around it are protected under Gazette Notice 440 of 1983.',
-      sw: 'Msikiti wa Kongo huko Diani na ardhi inayouzunguka unalindwa chini ya Tangazo la Serikali Na. 440 la 1983.',
-      dg: 'Msikiti wa Kongo iko Diani na ardhi inayouzunguluka unarindwa tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
+      en: 'The Kongo Mosque at Diani is protected as a monument under Gazette Notice 440 of 1983.',
+      sw: 'Msikiti wa Kongo huko Diani unalindwa kama mnara wa kumbukumbu chini ya Tangazo la Serikali Na. 440 la 1983.',
+      dg: 'Msikiti wa Kongo iko Diani unarindwa dza mnara wa kumbukumbu tsini ya Tangazo ra Serikali Na. 440 ra 1983.',
     },
   },
   {

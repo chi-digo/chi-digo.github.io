@@ -48,7 +48,7 @@ Leo hadithi inayosimuliwa msikitini ni tofauti. Mtunzaji na naibu imamu, Sheikh 
 
 Msikiti wa Kongo ni mmoja wa misikiti ya zamani iliyohifadhika vizuri zaidi katika pwani ya kusini ya Kenya. Paa lake la matao na makuba kwa kiasi kikubwa liko kamili. Matao juu ya ukumbi wa swala yamesimama juu ya nguzo tatu za katikati, na mihrabu, kishubaka kinachoelekea Makka, ni tao sahili linalofunguka kwenye kipenyo kisicho na nakshi. Upande wa kaskazini kuna angalau makaburi matano ya zamani, matatu kati yake makubwa na karibu ya mraba, moja likiwa na uso wenye vibao chini ya ukanda wa vishubaka vidogo. Mapokeo ya wenyeji yanasema jina Kongo linatokana na maandishi yanayosomeka "Swaddiq Kongo" (au Siddiq Kongo) kwenye mojawapo ya makaburi, lakini Kongo pia ni jina la eneo hilo. Msikiti umekarabatiwa kwa saruji na rangi na kupanuliwa upande wa mashariki. Bado ni mahali pa ibada panapotumika, na wakati wa Idi umati wa watu hufurika hadi ufuoni.
 
-Serikali ya kikoloni iliorodhesha "Ruins at Diani" (Magofu ya Diani) kama mnara wa kumbukumbu unaolindwa mwaka 1929 (Matangazo ya Gazeti 170 na 457), chini ya Sheria ya Kuhifadhi Minara ya Kale ya 1927. Mwaka 1983 Tangazo la Gazeti Na. 440 lilitangaza eneo la ardhi linalozunguka msikiti kuwa mnara wa kumbukumbu.
+Serikali ya kikoloni iliorodhesha "Ruins at Diani" (Magofu ya Diani) kama mnara wa kumbukumbu unaolindwa mwaka 1929 (Matangazo ya Gazeti 170 na 457), chini ya Sheria ya Kuhifadhi Minara ya Kale ya 1927. Mwaka 1983 Tangazo la Gazeti Na. 440 lilitangaza Msikiti wa Kongo kuwa mnara wa kumbukumbu.
 
 ## Nafasi ya Mwinyi Kombo katika Historia ya Wadigo
 

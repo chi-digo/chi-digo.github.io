@@ -48,7 +48,7 @@ Rero adisi inayosemurirwa msikitini ni tafwauti. Muimirizi wa msikiti na naibu i
 
 Msikiti wa Kongo ni kahi za misikiti ya kare iriyosala na hali nono zaidi kahi za pwani ya kusini ya Kenya. Dariye ya matao na makuba kpwa seemu kulu ichere nzima. Matao ganagofunika ukumbi wa kuvoya ganaima dzulu ya nguzo tahu za kahi-kahi, na mihrabu, chishubaka chinacholengana na Makka, ni tao risiro na mapambo rinarovugulika kpwenye pango ridide risiro na nakshi. Uphande wa kazikazini kuna mbira za kare zisizopungua tsano, tahu kahi zao ni kulu na karibu za mraba, na mbira mwenga ina uso wenye vibao photsi ya mstari wa vishubaka vidide. Mapokeo ga atu a phapho ganagomba kukala dzina Kongo rinakula kpwa maandiko ganagosomeka "Swaddiq Kongo" (au Siddiq Kongo) kpwenye mbira mwenga, ela Kongo piya ni dzina ra seemu hiyo. Msikiti ukatengezwa tsona kpwa simiti na rangi, na ukaenjerezwa uphande wa mashariki. Uchere ni phatu pha kuvoya phanaphohumirwa, na wakati wa Idi umati wa atu nkuodzala hadi ufuwoni.
 
-Serikali ya chikoloni yaorodhesha "Ruins at Diani" (Magofu ga Diani) dza mnara wa kumbukumbu unaorindwa mwaka 1929 (Matangazo ga Gazeti 170 na 457), kulengana na Sheria ya Kurinda Minara ya Kare ya 1927. Mwaka 1983 Tangazo ra Gazeti Na. 440 ratangaza tsi inayouzunguluka msikiti kukala mnara wa kumbukumbu.
+Serikali ya chikoloni yaorodhesha "Ruins at Diani" (Magofu ga Diani) dza mnara wa kumbukumbu unaorindwa mwaka 1929 (Matangazo ga Gazeti 170 na 457), kulengana na Sheria ya Kurinda Minara ya Kare ya 1927. Mwaka 1983 Tangazo ra Gazeti Na. 440 ratangaza Msikiti wa Kongo kukala mnara wa kumbukumbu.
 
 ## Phatu pha Mwinyi Kombo Kahi za Historia ya Adigo
 
