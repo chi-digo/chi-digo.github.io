@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-10-20T21:02:39.559Z",
-  "total_entries": 5170,
+  "total_entries": 5171,
   "letters": {
     "a": {
       "count": 132,
@@ -169,9 +169,9 @@
       "last": "yuyu"
     },
     "z": {
-      "count": 74,
+      "count": 75,
       "first": "zaburi",
-      "last": "-zuzu"
+      "last": "zzgate"
     }
   },
   "digo_alphabet": [
