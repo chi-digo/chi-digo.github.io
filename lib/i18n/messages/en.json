@@ -837,6 +837,9 @@
     "notif_second_review_notarget": "“{summary}” needs a second reviewer."
   },
   "review": {
+    "err_locked_fields": "You can correct the text, but not which meaning, language or kind of change it is.",
+    "err_note_required": "Say in the note how it was dealt with.",
+    "err_has_dependants": "Other changes build on this new word. Undo them first:",
     "overdue": "Over 48 hours",
     "resolve": "Resolved (say how in the note)",
     "err_not_acceptable": "Flags and feedback can’t be published. Resolve or decline them.",

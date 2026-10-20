@@ -69,6 +69,8 @@ const STATUS: Record<string, number> = {
   limit_agree: 429,
   limit_report: 429,
   rate_cap: 429,
+  limit_words: 429,
+  has_dependants: 409,
 };
 
 /** Map a `{error: code}` from a database function to an HTTP response. */

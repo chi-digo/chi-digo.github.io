@@ -17,6 +17,8 @@ export function buildMetadata(opts: {
   section?: string;
   datePublished?: string;
   dateModified?: string;
+  /** Keep the page out of search results (e.g. a dictionary word not in the shipped data). */
+  noindex?: boolean;
 }): Metadata {
   const { title, description = DEFAULT_DESCRIPTION, path, locale, type = 'website' } = opts;
   const effectiveLocale = locale ?? defaultLocale;
@@ -31,6 +33,7 @@ export function buildMetadata(opts: {
   };
 
   return {
+    ...(opts.noindex && { robots: { index: false, follow: true } }),
     title: `${title} | ${SITE_NAME}`,
     description,
     alternates: {

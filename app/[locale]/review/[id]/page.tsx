@@ -49,6 +49,7 @@ interface Detail {
   agreements: { region: string | null; confidence: string | null; counted: boolean }[];
   others: { id: string; type: string; payload: Record<string, unknown>; status: string }[];
   can_self_confirm: boolean;
+  dependants?: { id: string; type: string }[];
 }
 
 /** The text fields a reviewer may edit before accepting, per type. */
@@ -151,6 +152,9 @@ function ReviewItem({ id }: { id: string }) {
         rate_cap: r.err_rate,
         forbidden: r.err_forbidden,
         not_acceptable: r.err_not_acceptable,
+        locked_fields: r.err_locked_fields,
+        note_required: r.err_note_required,
+        has_dependants: r.err_has_dependants,
       };
       setMessage(map[data.error] ?? c.error_generic);
       return;
@@ -186,6 +190,12 @@ function ReviewItem({ id }: { id: string }) {
 
       {detail.changed && <p className={styles.warning}>{r.err_target_changed}</p>}
       {detail.can_self_confirm && <p className={styles.muted}>{r.self_confirm_note}</p>}
+      {!!detail.dependants?.length && (
+        <div className={styles.warning}>
+          <p>{r.err_has_dependants}</p>
+          <ul>{detail.dependants.map((d) => <li key={d.id}><TrackedLink href={`/review/${d.id}`} source="review_dependant">{msg(c, `type_${d.type}`)}</TrackedLink></li>)}</ul>
+        </div>
+      )}
       {detail.warnings.ruled_out.map((w) => (
         <p key={w.found} className={styles.warning}>{r.warn_ruled_out.replace('{found}', w.found).replace('{right}', w.right)}</p>
       ))}
@@ -307,7 +317,7 @@ function ReviewItem({ id }: { id: string }) {
             <Button onClick={() => act('retry_fold', edited ? { final_payload: finalPayload } : {})} loading={busy === 'retry_fold'}>{r.retry}</Button>
           )}
           {item.status === 'accepted' && status?.role === 'admin' && item.live_status !== 'reverting' && (
-            <Button variant="danger" onClick={() => act('revert')} loading={busy === 'revert'}>{r.revert}</Button>
+            <Button variant="danger" onClick={() => act('revert')} loading={busy === 'revert'} disabled={!!detail.dependants?.length}>{r.revert}</Button>
           )}
         </div>
         {open && detail.others.length > 0 && (

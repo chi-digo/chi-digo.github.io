@@ -6,7 +6,9 @@ import { createHash } from 'crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { ruledOutIn } from '@/lib/digo/ruled-out';
 import { hasPII, stableStringify } from './text';
-import { loadPlant, resolveTarget, headwordExists } from './targets';
+import { loadPlant, resolveTarget, headwordExists, loadWord } from './targets';
+import { getAreaOverlay } from './overlay';
+import { hasChange } from './apply/types';
 import { applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
 import type { ContributionType, TargetType } from './schemas';
@@ -95,4 +97,31 @@ export async function variantRequired(db: SupabaseClient, row: ReviewRow, liveCh
   if (!last) return false;
   const { data } = await db.from('contributions').select('region').eq('id', last.c).maybeSingle();
   return !!data?.region && data.region !== row.region;
+}
+
+/** Fields a reviewer edit may never change: what a dictionary change points at (spec 34 §15.3). */
+export function lockedFieldsChanged(type: ContributionType, payload: Record<string, unknown>, final: Record<string, unknown>): boolean {
+  const keys = type === 'definition_update' ? ['sense_id', 'mode', 'lang'] : type === 'example_sentence' ? ['sense_id'] : [];
+  return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
+}
+
+/**
+ * The live or folded changes that build on a new word (spec 34 §15.3): reverting the word would orphan
+ * them, so the revert is blocked until they are reverted. Returns their ids and types.
+ */
+export async function wordDependants(row: { id: string; target_id: string | null; final_payload?: Record<string, unknown> | null; payload: Record<string, unknown> }) {
+  const live = (await getAreaOverlay('word')).filter(
+    (c) => c.contribution_id !== row.id && c.type !== 'word_addition' && (c.target_id === `c:${row.id}` || (!!row.target_id && c.target_id === row.target_id)),
+  );
+  const out = live.map((c) => ({ id: c.contribution_id, type: c.type }));
+  // Folded changes: other provenance on the folded entry.
+  if (row.target_id) {
+    const entry = loadWord(row.target_id);
+    if (entry && hasChange(entry.provenance, row.id)) {
+      for (const list of Object.values(entry.provenance ?? {})) {
+        for (const p of list) if (p.c !== row.id && !out.some((o) => o.id === p.c)) out.push({ id: p.c, type: 'folded' as never });
+      }
+    }
+  }
+  return out;
 }

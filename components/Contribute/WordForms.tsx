@@ -30,7 +30,8 @@ export function DefinitionForm({ open, onClose, entry, onSubmitted, senseId }: E
   const { locale } = useLocale();
   const key = `definition_update:${entry.id}:${senseId}:${locale}`;
   const current = senseText(entry, senseId, locale as Locale);
-  const [draft, setDraft, clear] = useContributionDraft(key, { mode: (current ? 'replace' : 'add_sense') as 'replace' | 'add_sense', text: current, reason: '' });
+  // The sense exists, so the default is to fill or correct it (also when it is empty in this language).
+  const [draft, setDraft, clear] = useContributionDraft(key, { mode: 'replace' as 'replace' | 'add_sense', text: current, reason: '' });
   const text = draft.text.trim();
   const changed = text && (draft.mode === 'add_sense' || text !== current.trim());
   const index = entry.senses.findIndex((s) => s.sense_id === senseId) + 1;
@@ -53,7 +54,7 @@ export function DefinitionForm({ open, onClose, entry, onSubmitted, senseId }: E
       }}
     >
       <TextArea label={c.def_label} value={draft.text} onChange={(e) => setDraft({ text: e.target.value })} maxLength={1000} rows={4} autoFocus />
-      {current && (
+      {(
         <RadioGroup
           label={c.info_mode_label}
           value={draft.mode}

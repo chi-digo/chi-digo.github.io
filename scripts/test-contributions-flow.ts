@@ -288,6 +288,10 @@ async function main() {
 
     r = await call(W1, 'POST', '/api/contributions', word('definition_update', { sense_id: '1', lang: 'en', text: 'another test meaning', mode: 'add_sense', reason: 'secret reason' }));
     const addSense = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${addSense}`, {
+      action: 'accept', final_payload: { sense_id: '1', lang: 'en', text: 'another test meaning', mode: 'replace' },
+    });
+    check('a reviewer cannot turn a new meaning into a replace → 400', r.status === 400 && r.json.error === 'locked_fields', r);
     r = await call(A, 'POST', `/api/review/${addSense}`, { action: 'accept' });
     const { data: sensed } = await admin.from('contributions').select('target_path').eq('id', addSense).single();
     check('a new meaning gets its sense id at accept', r.status === 200 && sensed?.target_path === 'senses.2', sensed);
@@ -300,6 +304,8 @@ async function main() {
     r = await call(A, 'POST', `/api/review/${replace}`, { action: 'accept' });
     check('a Digo definition replace goes live', r.status === 200 && r.json.live_status === 'live', r);
 
+    words = await call(null, 'GET', '/api/overlay/word');
+    check('…in the overlay', words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === replace), words.json);
     r = await call(W1, 'POST', '/api/contributions', word('word_addition', { headword: TEST, meaning_en: 'test word' }, undefined));
     check('the test new word → 201', r.status === 201, r);
     const newWord = r.json.id as string;
@@ -308,6 +314,13 @@ async function main() {
 
     r = await call(W2, 'POST', '/api/contributions', word('spelling_variant', { form: 'majaribiyo', kind: 'dialect' }));
     check('a regional form → 201', r.status === 201, r);
+    const variant = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${variant}`, { action: 'accept' });
+    check('…accepted', r.status === 200 && r.json.live_status === 'live', r);
+    words = await call(null, 'GET', '/api/overlay/word');
+    check('new word and regional form are in the overlay', [newWord, variant].every((id) => words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), words.json);
+    r = await call(A, 'POST', `/api/review/${flag}`, { action: 'resolve' });
+    check('resolve needs a note → 400', r.status === 400, r);
 
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });

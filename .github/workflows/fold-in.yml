@@ -95,8 +95,8 @@ jobs:
           git -C data add -A
           bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/(a|b|ch|d|dz|e|f|g|gbw|h|i|j|k|kpw|l|m|m_|n|ndz|ng|ng_|o|p|ph|r|s|sh|t|ts|u|v|w|y|z)(\.idx)?\.json|public/data/index\.json|public/data/data-version\.json)$' || true)
           if [ -n "$bad" ]; then echo "unexpected changes:"; echo "$bad"; exit 1; fi
-          added=$(git -C data diff --cached --name-only --diff-filter=A)
-          if [ -n "$added" ]; then echo "no file may be added:"; echo "$added"; exit 1; fi
+          added=$(git -C data diff --cached --name-only --diff-filter=AD)
+          if [ -n "$added" ]; then echo "no file may be added or deleted:"; echo "$added"; exit 1; fi
 
       - name: Open and merge the PR into preview
         id: pr

@@ -140,7 +140,7 @@ function cleanHeadword(raw: string): string {
 }
 
 /** Headwords match without a leading "-", so /word/-ako and /word/ako both find the affix -ako. */
-const bare = (h: string) => h.replace(/^-/, "");
+const bare = (h: string) => h.replace(/^-/, "").toLowerCase();
 
 export function entriesFor(data: LetterFile, headword: string): DictionaryEntry[] {
   return data.entries.filter((e) => bare(cleanHeadword(e.headword)) === bare(headword));

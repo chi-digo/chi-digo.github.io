@@ -94,7 +94,8 @@ export function applyWord(entry: WordEntry, change: Change): WordEntry {
     const n = Number(p.sense_id);
     const path = `senses.${n}.${field(lang)}`;
     const current = definitionBase(entry, n, lang);
-    if (!current || (change.base && !same(current, change.base.value))) throw new ConflictError(change.contribution_id, path);
+    // A replace is always checked against the text it was suggested for; with no base it can't be.
+    if (!current || !change.base || !same(current, change.base.value)) throw new ConflictError(change.contribution_id, path);
     const next = withSense(entry, n, (s) => ({
       ...s,
       [field(lang)]: String(p.text),
@@ -182,9 +183,11 @@ export function wordAdditionEntry(change: Change, id = `c:${change.contribution_
     definition_dg_status: (p.definition_dg ? 'community' : 'pending') as Sense['definition_dg_status'],
     examples: example,
   });
+  const n = /\.(\d{1,3})$/.exec(id);
   const e = newEntry({
     id,
     headword,
+    homonym_index: n ? Number(n[1]) : null,
     sort_key: sortKeyOf(headword),
     pos: p.pos ?? '',
     equivalents_en: split(p.meaning_en),

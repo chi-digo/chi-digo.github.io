@@ -13,7 +13,8 @@ import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
 import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
 import { digoLetterFile } from '@/lib/dictionary/letters';
-import { TEST_TARGET, type ContributionType, type TargetType } from './schemas';
+import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType } from './schemas';
+export { WORD_ID };
 
 const PLANTS = join(process.cwd(), 'public/data/plants/p');
 const DICT = join(process.cwd(), 'public/data');
@@ -47,8 +48,6 @@ export function testPlant(): Plant {
   };
 }
 
-/** Dictionary ids: a sort key with an optional .N (spec 34 §15.3; tone accents and spaces occur, e.g. mwanáo). */
-export const WORD_ID = /^[a-z' áéíóú_-]+(\.\d{1,3})?$/;
 
 /**
  * The letter file a sort key belongs in, as a key of index.json's letters (file name with ' as _).

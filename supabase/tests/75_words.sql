@@ -10,7 +10,7 @@ declare
   c2 uuid := '00000000-0000-4000-8000-0000000000c2';
   c3 uuid := '00000000-0000-4000-8000-0000000000c3';
   tok text := (select token from t_wtoken);
-  r jsonb; flag uuid; fb uuid; sense uuid; w uuid; w2 uuid; claim jsonb; nonce uuid; n int; i int;
+  r jsonb; flag uuid; fb uuid; sense uuid; sense2 uuid; w uuid; w2 uuid; d1 uuid; d2 uuid; claim jsonb; nonce uuid; n int; i int;
 begin
   -- 1. At most 10 new words a day.
   for i in 1..10 loop
@@ -29,6 +29,8 @@ begin
   flag := pg_temp.submit(c2, 'entry_flag', 'dictionary', 'word', 'mama', '{"reason":"wrong_meaning","detail":"x"}');
   r := pg_temp.review(b2, flag, 'accept');
   assert r->>'error' = 'not_acceptable', 'flag accepted: ' || r::text;
+  r := pg_temp.review(b2, flag, 'resolve');
+  assert r->>'error' = 'note_required', 'resolved without saying how: ' || r::text;
   r := pg_temp.review(b2, flag, 'resolve', '{"note":"fixed the meaning"}');
   assert r->>'status' = 'resolved', 'flag not resolved: ' || r::text;
   fb := pg_temp.submit(c2, 'general_feedback', 'feedback', 'page', '/x', '{"text":"hello"}');
@@ -37,7 +39,7 @@ begin
   r := pg_temp.review(a1, fb, 'resolve', '{"note":"done"}');
   assert r->>'status' = 'resolved', 'feedback not resolved: ' || r::text;
   w := pg_temp.submit(c2, 'example_sentence', 'dictionary', 'word', 'mama', '{"sense_id":"1","dg":"Mama yuko."}');
-  r := pg_temp.review(b2, w, 'resolve');
+  r := pg_temp.review(b2, w, 'resolve', '{"note":"x"}');
   assert r->>'error' = 'conflict', 'a content change was resolved: ' || r::text;
 
   -- 3. A new sense gets its id at accept; anything but senses.N is ignored.
@@ -45,6 +47,24 @@ begin
   r := pg_temp.review(b2, sense, 'accept', '{"target_path":"senses.9"}');
   assert r->>'status' = 'accepted', 'add_sense not accepted: ' || r::text;
   assert (select target_path from public.contributions where id = sense) = 'senses.9', 'sense id not stored';
+  -- A second new sense on the same entry, with the same suggested path, gets the next id (no collision).
+  sense2 := pg_temp.submit(c3, 'definition_update', 'dictionary', 'word', 'mama', '{"sense_id":"1","lang":"sw","text":"z","mode":"add_sense"}');
+  r := pg_temp.review(b2, sense2, 'accept', '{"target_path":"senses.9"}');
+  assert (select target_path from public.contributions where id = sense2) = 'senses.10', 'sense ids collided: ' ||
+    coalesce((select target_path from public.contributions where id = sense2), 'null');
+  -- A reviewer edit cannot change the mode, sense or language.
+  d1 := pg_temp.submit(c3, 'definition_update', 'dictionary', 'word', 'baba', '{"sense_id":"1","lang":"en","text":"x","mode":"add_sense"}');
+  r := pg_temp.review(b2, d1, 'accept', '{"final_payload":{"sense_id":"1","lang":"en","text":"x","mode":"replace"}}');
+  assert r->>'error' = 'locked_fields', 'mode changed by a reviewer: ' || r::text;
+  r := pg_temp.review(b2, d1, 'accept', '{"final_payload":{"sense_id":"2","lang":"en","text":"x","mode":"add_sense"}}');
+  assert r->>'error' = 'locked_fields', 'sense changed by a reviewer: ' || r::text;
+  r := pg_temp.review(b2, d1, 'accept', '{"final_payload":{"sense_id":"1","lang":"en","text":"x, corrected","mode":"add_sense"}}');
+  assert r->>'status' = 'accepted', 'text correction refused: ' || r::text;
+  -- Accept-merge takes only the same kind of change.
+  d1 := pg_temp.submit(c3, 'example_sentence', 'dictionary', 'word', 'dada', '{"sense_id":"1","dg":"Dada yudze."}');
+  d2 := pg_temp.submit(c2, 'entry_flag', 'dictionary', 'word', 'dada', '{"reason":"offensive"}');
+  r := pg_temp.review(b2, d1, 'accept', jsonb_build_object('merge_ids', jsonb_build_array(d2)));
+  assert (select status from public.contributions where id = d2) = 'pending', 'a flag was merged away';
   w := pg_temp.submit(c2, 'definition_update', 'dictionary', 'word', 'mama', '{"sense_id":"1","lang":"en","text":"y","mode":"replace"}',
     '{"target_path":"senses.1.definition_en"}');
   r := pg_temp.review(b2, w, 'accept', '{"target_path":"senses.7"}');
@@ -76,5 +96,15 @@ begin
   assert (select target_id from public.contributions where id = w2) is null, 'another nonce wrote an id';
   n := public.fold_mark(tok, nonce, array[w2], 'in_preview', 5, null, null, jsonb_build_object(w2::text, 'ntest'));
   assert (select target_id from public.contributions where id = w2) = 'ntest', 'affix sort key (no hyphen) not accepted';
+
+  -- A reverted new word releases its id once the revert has folded.
+  n := public.fold_mark(tok, null, array[w], 'folded', null, 'sha1');
+  update public.contributions set target_id = 'mzzzz.2' where id = w;
+  r := pg_temp.review(a1, w, 'revert');
+  claim := public.fold_claim(tok);
+  n := public.fold_mark(tok, (claim->>'nonce')::uuid, array[w], 'in_preview', 6);
+  n := public.fold_mark(tok, null, array[w], 'reverted', null, 'sha2');
+  assert (select status from public.contributions where id = w) = 'reverted', 'revert not recorded';
+  assert (select target_id from public.contributions where id = w) is null, 'a reverted new word kept its id';
 end;
 $$;

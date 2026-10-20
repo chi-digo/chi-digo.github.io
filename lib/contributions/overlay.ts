@@ -27,14 +27,19 @@ const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
   spelling_variant: ['form', 'kind'],
   plant_name: ['name', 'choice'],
   plant_info: ['section', 'lang', 'mode', 'text'],
+  plant_addition: ['digo', 'swahili', 'english', 'description', 'uses'],
+  proverb_addition: ['digo', 'literal_en', 'meaning_en', 'meaning_sw', 'meaning_dg', 'usage'],
+  proverb_variant: ['form'],
+  proverb_meaning: ['lang', 'text', 'kind'],
+  proverb_context: ['text'],
+  translation_fix: ['lang', 'current', 'proposed'],
 };
 const PRIVATE_FIELDS = ['reason', 'detail', 'other_names'];
 
 export function publicPayload(type: ContributionType, payload: Record<string, unknown>): Record<string, unknown> {
-  const allow = PUBLIC_FIELDS[type];
-  return Object.fromEntries(
-    Object.entries(payload ?? {}).filter(([k]) => (allow ? allow.includes(k) : !PRIVATE_FIELDS.includes(k))),
-  );
+  // Unknown types show nothing: a new private field is hidden by default.
+  const allow = PUBLIC_FIELDS[type] ?? [];
+  return Object.fromEntries(Object.entries(payload ?? {}).filter(([k]) => allow.includes(k) && !PRIVATE_FIELDS.includes(k)));
 }
 
 /** Folded changes stay in the overlay this long, for browsers holding older cached data files. */

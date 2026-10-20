@@ -837,6 +837,9 @@
     "notif_second_review_notarget": "“{summary}” rinahitaji mkaguzi wa phiri."
   },
   "review": {
+    "err_locked_fields": "Unaweza kurekebisha maandishi, ela si maana, lugha au aina ya mabadiliko.",
+    "err_note_required": "Eleza kpwenye maelezo vira rivyoshughulikiwa.",
+    "err_has_dependants": "Mabadiliko ganjina ganategemea neno hiri ripya. Gauyize kpwanza:",
     "overdue": "Zaidi ya saa 48",
     "resolve": "Ikashughulikiwa (eleza vira kpwenye maelezo)",
     "err_not_acceptable": "Ripoti na maoni taviweza kuchapishwa. Vishughulikie au uvikahe.",

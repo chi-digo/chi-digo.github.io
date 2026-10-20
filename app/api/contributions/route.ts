@@ -85,6 +85,12 @@ export async function POST(request: Request) {
         .eq('type', 'word_addition');
       if (openError) return serverError(openError, 'similar');
       const key = normaliseDigo(headword);
+      // A new word already accepted (live, not folded in yet) is linked like a dictionary word.
+      const live = (await getAreaOverlay('word')).find((c) => c.type === 'word_addition' && normaliseDigo(String(c.final_payload.headword ?? '')) === key);
+      if (live) {
+        const name = String(live.final_payload.headword);
+        return NextResponse.json({ inserted: false, similar: { name, href: `/language/dictionary/word/${encodeURIComponent(name)}` } });
+      }
       const match = (open ?? []).find((c) => normaliseDigo(String(c.public_payload?.headword ?? '')) === key);
       if (match) return NextResponse.json({ inserted: false, similar: { id: match.id, name: match.public_payload.headword } });
     }
