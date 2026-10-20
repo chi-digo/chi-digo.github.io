@@ -16,7 +16,7 @@ Kwa hiyo hakuwa mwandishi wa Kidigo. Lakini watu wa mama yake walikuwa Wadigo, a
 
 Vyanzo vingi vinasema alizaliwa tarehe 1 Januari 1909 huko Vibamba (Vibambani), sehemu ya kijiji cha Machui. Utafiti wa A. Taib, uliochapishwa na Chuo Kikuu cha Dar es Salaam mwaka 2009, unataja mwaka 1902. Baba yake aliitwa Ufukwe, Selemani na Robert, na alipokuwa mtoto Shaaban alijulikana kama Shaaban bin Selemani. Jina "Robert" lilitoka kwa baba yake.
 
-Taib aliandika kwamba hulka na vipawa vya Shaaban vilitokana na tamaduni za makabila mawili kukutana katika familia moja: upande wa baba Myao kutoka Ruvuma, na upande wa mama Mdigo kutoka Tanga. Insha ya mwanafunzi iliyochapishwa mtandaoni mwaka 2016 inaongeza kwamba mama yake alitoka katika ukoo wa Mwalimu Kihere, kwamba naye alijiita Mswahili, na kwamba Shaaban alikuwa mtoto wa nne kati ya watoto wake kumi na wanne. Insha hiyo hiyo inasema baba yake alifariki Septemba 1918, na mtoto akapelekwa Dar es Salaam kuishi na babu yake.
+Taib aliandika kwamba hulka na vipawa vya Shaaban vilitokana na tamaduni za makabila mawili kukutana katika familia moja: upande wa baba Myao kutoka Ruvuma, na upande wa mama Mdigo kutoka Tanga. Insha ya mwanafunzi iliyochapishwa mtandaoni mwaka 2016 inaongeza kwamba mama yake alitoka katika ukoo wa Mwalimu Chihere, kwamba naye alijiita Mswahili, na kwamba Shaaban alikuwa mtoto wa nne kati ya watoto wake kumi na wanne. Insha hiyo hiyo inasema baba yake alifariki Septemba 1918, na mtoto akapelekwa Dar es Salaam kuishi na babu yake.
 
 ## Shule na Utumishi
 

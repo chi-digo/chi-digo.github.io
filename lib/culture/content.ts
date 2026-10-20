@@ -9662,7 +9662,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Gungu analunga chipindi chirefu cha maombolezo chenye mambo maalum ganagotazamiwa kpwakpwe. Gungu anaweza kuvwala nguwo maalum zinazoonyesa kukala achikala kpwenye maombolezo, zichimuonyesa wazi dza mchetu ariye kpwenye wakati wa sonono na wa kugaluka. Wajibu wa jamii kpwa gungu unaenjerezeka wakati uhu — analolwa, anatsembererwa, na anaterywa kpwa makini maalum."
+              "text": "Gungu analunga chipindi chirefu cha maombolezo chenye mambo maalum ganagotazamiwa kpwakpwe. Gungu anaweza kuvwala nguwo maalum zinazoonyesa kukala achikala kpwenye maombolezo, zichimuonyesa wazi dza mchetu ariye kpwenye wakati wa sonono na wa kugaluka. Wajibu wa jamii kpwa gungu unaenjerezeka wakati uhu — analolwa, ananyendekerwa, na anaterywa kpwa makini maalum."
             },
             {
               "type": "paragraph",
@@ -9754,11 +9754,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kutsemberera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
+              "text": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kunyendekera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
             },
             {
               "type": "paragraph",
-              "text": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ga mwandzo. Dzina na mahendo ga mufu ganagombwa tsona na tsona na kuishimiwa kpwenye mavoyo ga tambukizo. Nyumba inaenderera kutsembererwa na kuterywa. Kutambukira afwe kpwa jamii kunaenderera, si kpwa makaburi au maandishi ela kpwa neno rinarogombwa — kpwa madzina ganagogombwa tsona na tsona, hadisi zinazogombwa, mavoyo ganagovoywa siku saba, siku mirongo mine, na chila mwaka bada ya hipho."
+              "text": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ga mwandzo. Dzina na mahendo ga mufu ganagombwa tsona na tsona na kuishimiwa kpwenye mavoyo ga tambukizo. Nyumba inaenderera kunyendekerwa na kuterywa. Kutambukira afwe kpwa jamii kunaenderera, si kpwa makaburi au maandishi ela kpwa neno rinarogombwa — kpwa madzina ganagogombwa tsona na tsona, hadisi zinazogombwa, mavoyo ganagovoywa siku saba, siku mirongo mine, na chila mwaka bada ya hipho."
             },
             {
               "type": "heading",
@@ -10171,15 +10171,15 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kutsemberera Rasmi"
+              "text": "Kunyendekera Rasmi"
             },
             {
               "type": "paragraph",
-              "text": "Uchunguzi uchimala na matokeo gachikala manono, atu airi a mbari ya bwana arusi anatsemberera avyazi a msichana \"kuvoya *jiko*\" — kpwa mana ya neno, \"dziko,\" mfwano wa mche na nyumba. Luga yenyewe inafitsua mambo: taavoya msichana ela jiko, dzoho na riziki ambazo mche anareha nyumbani."
+              "text": "Uchunguzi uchimala na matokeo gachikala manono, atu airi a mbari ya bwana arusi ananyendekera avyazi a msichana \"kuvoya *jiko*\" — kpwa mana ya neno, \"dziko,\" mfwano wa mche na nyumba. Luga yenyewe inafitsua mambo: taavoya msichana ela jiko, dzoho na riziki ambazo mche anareha nyumbani."
             },
             {
               "type": "paragraph",
-              "text": "Kutsemberera kuku kpwa kpwandza kunaandzisha mfululizo wa malipo ga kpwandza, ganagokala na madzina na maana zao maalum. *Kifungwa mdomo* — \"kufunga mromo\" — ni malipo ga kpwandza, ishara inayoonyesa nia ya kpweli na kuvugula mazungumzo rasmi. *Kutandika jamvi* — \"kutandika chitanda\" — kunaika nafasi ya mazungumzo, kuumba mazingira rasmi ambamo mbari mbiri zinaweza kujadili masharti. *Kahawa* — \"kahawa\" — ni malipo ga ukarimu, kutambua kukala mbari zinainjira kpwenye uhusiano wa kuishimiana."
+              "text": "Kunyendekera kuku kpwa kpwandza kunaandzisha mfululizo wa malipo ga kpwandza, ganagokala na madzina na maana zao maalum. *Kifungwa mdomo* — \"kufunga mromo\" — ni malipo ga kpwandza, ishara inayoonyesa nia ya kpweli na kuvugula mazungumzo rasmi. *Kutandika jamvi* — \"kutandika chitanda\" — kunaika nafasi ya mazungumzo, kuumba mazingira rasmi ambamo mbari mbiri zinaweza kujadili masharti. *Kahawa* — \"kahawa\" — ni malipo ga ukarimu, kutambua kukala mbari zinainjira kpwenye uhusiano wa kuishimiana."
             },
             {
               "type": "paragraph",
@@ -10191,7 +10191,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mahari ni musingi wa mazungumzo ga ndowa. Kpwa jadi, mahari irikala ng'ombe nne, mbuzi mbiri au ng'ondzi, na tembo kula mbari ya bwana arusi. Hivi tavirikala vitu vidide. Virikala utajiri mkpwulu, na malipo garimanyikana kukala ushahidi wa uwezo wa mbari ya bwana arusi, nia yao ya kpweli, na hishima yao kpwa bibi arusi na mbariye."
+              "text": "Mahari ni musingi wa mazungumzo ga ndowa. Kpwa jadi, mahari irikala ng'ombe nne, mbuzi mbiri au ng'ondzi, na uchi kula mbari ya bwana arusi. Hivi tavirikala vitu vidide. Virikala utajiri mkpwulu, na malipo garimanyikana kukala ushahidi wa uwezo wa mbari ya bwana arusi, nia yao ya kpweli, na hishima yao kpwa bibi arusi na mbariye."
             },
             {
               "type": "paragraph",
@@ -10279,7 +10279,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mbuzi anachinjwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na tembo. Chakurya cha phamwenga chenyewe ni ibada — chihendo cha ushirika chinachounganisha nyumba mbiri na jamii zao phamwenga kpwa kurya phamwenga."
+              "text": "Mbuzi anachinjwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na uchi. Chakurya cha phamwenga chenyewe ni ibada — chihendo cha ushirika chinachounganisha nyumba mbiri na jamii zao phamwenga kpwa kurya phamwenga."
             },
             {
               "type": "heading",
@@ -11303,7 +11303,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mzunguko wa monsuni tautawala chirimo bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kpwedza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya jamii inayoonyesa kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinareha shereheze, shukranize, na wajibuwe wa chidzamii. Hata kujema tembo — desturi iyo ya chipekee ya Chidigo — kunalunga midundo ya msimu, ambapho utomvu unaophahikana unabadilika kulingana na mvula na dzoho. Dzuwa kali rinaphunguza mtiririko wa utomvu, na kuphunguza si chinwadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya tembo ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga jamii."
+              "text": "Mzunguko wa monsuni tautawala chirimo bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kpwedza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya jamii inayoonyesa kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinareha shereheze, shukranize, na wajibuwe wa chidzamii. Hata kujema uchi — desturi iyo ya chipekee ya Chidigo — kunalunga midundo ya msimu, ambapho utomvu unaophahikana unabadilika kulingana na mvula na dzoho. Dzuwa kali rinaphunguza mtiririko wa utomvu, na kuphunguza si chinwadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya uchi ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga jamii."
             },
             {
               "type": "heading",
@@ -13030,11 +13030,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Ukpwulu na Uhamisho"
+              "text": "Ukulu na Uhamisho"
             },
             {
               "type": "paragraph",
-              "text": "Ukpwulu wa kazi za Base Titanium wakala wa ajabu kpwa kaunti ya vidzidzini ya Kenya. Mgodi waajiri dza ahendakazi 1,600 mwenga kpwa mwenga na kuterya kazi dza 2,800 zisizo za mwenga kpwa mwenga kpwenye usafiri, huduma, na minyororo ya ugavi. Ino ni idadi kulu kpwenye kaunti ambapho kazi rasmi ya aina yoyosi ni haba. Mgodi waripha kodi, wadzenga barabara kadhaa, waterya miradi kadhaa ya jamii, na walavya chiwango cha shughuli za chiuchumi ambacho Kwale kare taidzangbweona."
+              "text": "Ukulu wa kazi za Base Titanium wakala wa ajabu kpwa kaunti ya vidzidzini ya Kenya. Mgodi waajiri dza ahendakazi 1,600 mwenga kpwa mwenga na kuterya kazi dza 2,800 zisizo za mwenga kpwa mwenga kpwenye usafiri, huduma, na minyororo ya ugavi. Ino ni idadi kulu kpwenye kaunti ambapho kazi rasmi ya aina yoyosi ni haba. Mgodi waripha kodi, wadzenga barabara kadhaa, waterya miradi kadhaa ya jamii, na walavya chiwango cha shughuli za chiuchumi ambacho Kwale kare taidzangbweona."
             },
             {
               "type": "paragraph",
@@ -13573,7 +13573,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chivuko cha Lunga Lunga-Horohoro si lango kulu ra chimataifa. Tachina ukpwulu wa Namanga. Chiricho nacho ni chitu cha musingi zaidi: ni seemu ya musingi ya uhusiano kahi ya Adigo a Kenya na Tanzania, phatu ambapho nusu zirizoganywa za jamii zinakpwedza phamwenga kuhenda biashara, kuabudu, kuoana, na kudumisha vifungo vya ukoo."
+              "text": "Chivuko cha Lunga Lunga-Horohoro si lango kulu ra chimataifa. Tachina ukulu wa Namanga. Chiricho nacho ni chitu cha musingi zaidi: ni seemu ya musingi ya uhusiano kahi ya Adigo a Kenya na Tanzania, phatu ambapho nusu zirizoganywa za jamii zinakpwedza phamwenga kuhenda biashara, kuabudu, kuoana, na kudumisha vifungo vya ukoo."
             },
             {
               "type": "heading",
@@ -13846,11 +13846,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi na ngorosho ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni, na anayefafanuliwa ni uphephi wa Bahari ya Hindi. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika. Rero, idadi inayoenjerezeka ya Adigo — hasa avulana na asichana — anauka vidzidzi vya Kwale kuelekea midzi mikpwulu, achisukumwa ni nguvu zizo-zizo zinazosukuma atu kula vidzidzini kuphiya midzini kosi kpwenye tsi zinazoendelea: ahadi ya kazi, kuhendza elimu, na matumaini ga maisha ambago uchumi wa chidzidzi — wenye shughuli chache na uwekezaji mdide wa siku zosi — tauweza kulavya."
+              "text": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi na ngorosho ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni, na anayefafanuliwa ni uphephi wa Bahari ya Hindi. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika. Rero, idadi inayoenjerezeka ya Adigo — hasa avulana na asichana — anauka vidzidzi vya Kwale kuelekea midzi mikulu, achisukumwa ni nguvu zizo-zizo zinazosukuma atu kula vidzidzini kuphiya midzini kosi kpwenye tsi zinazoendelea: ahadi ya kazi, kuhendza elimu, na matumaini ga maisha ambago uchumi wa chidzidzi — wenye shughuli chache na uwekezaji mdide wa siku zosi — tauweza kulavya."
             },
             {
               "type": "paragraph",
-              "text": "Dzambo riri si riphya. Amijikenda — muungano mpana wa makabila tisiya ambao Adigo ni seemu yao — ni akazi a kare a eneo ra Mombasa. Kukala kpwa Adigo kpwenye mudzi uwo kuna mizi ya kare ya chihistoria. Ela ukpwulu na sura ya uhamiaji wa rero ni tafwauti na mienendo ya kare. Wakati vizazi vya kare vyaphiya Mombasa pore-pore dza seemu ya kutsama kanda-kanda ya pwani, uhamiaji wa rero ni wa haraka zaidi, una lengo zaidi, na mara nyinji ni wa kudumu. Adide anauka kuphiya shule za sekondari na taauya. Ariohitimu anahendza kazi kpwenye sekta ya huduma, kpwenye utalii, kpwenye serikali. Chidzidzi chinakala phatu pha kutembelea, si phatu pha kuishi — chanzo cha utambuzi ela si cha riziki."
+              "text": "Dzambo riri si riphya. Amijikenda — muungano mpana wa makabila tisiya ambao Adigo ni seemu yao — ni akazi a kare a eneo ra Mombasa. Kukala kpwa Adigo kpwenye mudzi uwo kuna mizi ya kare ya chihistoria. Ela ukulu na sura ya uhamiaji wa rero ni tafwauti na mienendo ya kare. Wakati vizazi vya kare vyaphiya Mombasa pore-pore dza seemu ya kutsama kanda-kanda ya pwani, uhamiaji wa rero ni wa haraka zaidi, una lengo zaidi, na mara nyinji ni wa kudumu. Adide anauka kuphiya shule za sekondari na taauya. Ariohitimu anahendza kazi kpwenye sekta ya huduma, kpwenye utalii, kpwenye serikali. Chidzidzi chinakala phatu pha kutembelea, si phatu pha kuishi — chanzo cha utambuzi ela si cha riziki."
             },
             {
               "type": "heading",
@@ -14119,7 +14119,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Ukpwulu wa Mgawanyiko"
+              "text": "Ukulu wa Mgawanyiko"
             },
             {
               "type": "paragraph",
