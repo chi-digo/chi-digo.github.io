@@ -22,7 +22,7 @@ Mwaka 1865 Shaykh Mbaruk bin Rashid al-Mazrui wakala chilongozi wa Gasi. Sperlin
 
 Mmisionari Mfaransa Alexandre Le Roy wamtsemberera Kubo Mangaru mwaka 1890. Badaye waandika: "Adigo anashuhudiya chivyamwenga kukala kare Mbaruk wabananga vidzidzi vyao, na achigaluza tsi yao nono sana ikala weru tuphu" (*"The Digo testify unanimously that in times past Mbaruk has ruined their villages, and transformed the magnificent countryside into a solitary desert."*). Hasara hiyo yenderera kpwa muda mure. Mwaka 1921 Afisa wa Wilaya (*District Commissioner*) kala achere anaona tsi ya kahi ya Gasi na muho wa Ramisi ina atu achache, kpwa sababu "wuoga wa Sheikh Mbaruk wa Gazi (kuvamira atu kuahala atumwa)" (*"fear of Sheikh Mbaruk of Gazi (slave raiding)"*) kala ukaazoresa Adigo anji, achivuka Ramisi kuphiya uphande wa mtswerero wa dzuwa.
 
-Kulengana na Mkulu bin Abdallah, ariyegomba na Sperling mwaka 1976, Mangaru kala ni "mtawala wa pekee wa Chidigo ariyekala na nguvu za kutosha kupinga" (*"the only Digo ruler strong enough to offer resistance"*). Ariphokala na ugomvi na Mbaruk, Sultani Barghash wahuma asikari a Chibaluchi Chikoneni kumrinda. Hadisi iyo taigomba ni lini dzambo hiro rahendeka. Barghash watawala kula 1870 hadi 1888.
+Kulengana na Mkpwulu bin Abdallah, ariyegomba na Sperling mwaka 1976, Mangaru kala ni "mtawala wa pekee wa Chidigo ariyekala na nguvu za kutosha kupinga" (*"the only Digo ruler strong enough to offer resistance"*). Ariphokala na ugomvi na Mbaruk, Sultani Barghash wahuma asikari a Chibaluchi Chikoneni kumrinda. Hadisi iyo taigomba ni lini dzambo hiro rahendeka. Barghash watawala kula 1870 hadi 1888.
 
 ## Kala ni Mwislamu?
 
