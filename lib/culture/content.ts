@@ -860,7 +860,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mpangilio wa chimwili wa kaya unalunga muundo thabiti uriondikpwa kpwa makundi gosi ga Amijikenda. Tsaka nene ririroizunguluka kaya rinaunda eneo ra kinga — kukata mihi mwakpwe ndani kukakala mwiko kpwa karne nyinji, ndiyo sababu makaya gakakala hifadhi za chibayolojia zenye uwezo wa ajabu. Njira mbiri zinatsupa tsakani, zichilongoza kpwenye malango genye ngome. Kpwenye lango ra kpwandza zinaima *fingo* — hirizi za kinga zinazowakilisha roho za arindzi. Bada ya kutsupa malango kuna chiwanja cha kahi, kaya ya kpweli: eneo ra wazi renye muundo wa kuba wa *moroni*, ambao chijadi nkuikpwa kahi ya mtini mtakatifu na muuyu."
+              "text": "Mpangilio wa chimwiri wa kaya unalunga muundo thabiti uriondikpwa kpwa makundi gosi ga Amijikenda. Tsaka nene ririroizunguluka kaya rinaunda eneo ra kinga — kukata mihi mwakpwe ndani kukakala mwiko kpwa karne nyinji, ndiyo sababu makaya gakakala hifadhi za chibayolojia zenye uwezo wa ajabu. Njira mbiri zinatsupa tsakani, zichilongoza kpwenye malango genye ngome. Kpwenye lango ra kpwandza zinaima *fingo* — hirizi za kinga zinazowakilisha roho za arindzi. Bada ya kutsupa malango kuna chiwanja cha kahi, kaya ya kpweli: eneo ra wazi renye muundo wa kuba wa *moroni*, ambao chijadi nkuikpwa kahi ya mtini mtakatifu na muuyu."
             },
             {
               "type": "heading",
@@ -884,7 +884,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kutambuliwa kuno kpwa njira mbiri — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi za chimila barani Afrika. Tsaka si mazingira tu ga utamaduni. Tsaka *ndiro* utamaduni. Uchiusa mihi, kuangamiza makalo tu. Unaangamiza usanifu wa chimwili ambao mwakpwe ndani maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
+              "text": "Kutambuliwa kuno kpwa njira mbiri — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi za chimila barani Afrika. Tsaka si mazingira tu ga utamaduni. Tsaka *ndiro* utamaduni. Uchiusa mihi, kuangamiza makalo tu. Unaangamiza usanifu wa chimwiri ambao mwakpwe ndani maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
             },
             {
               "type": "heading",

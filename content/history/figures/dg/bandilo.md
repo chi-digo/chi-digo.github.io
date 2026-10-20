@@ -16,7 +16,7 @@ Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni *hodari 
 
 Ufundi wa uha unalingana na mambo garigoonwa ni ajeni kahi za tsi ya Adigo a Tanga. Oscar Baumann, mwanajiografia Mjerumani, wasafiri kahi za tsi hiyo mwaka 1890. Waona kukala hata kpwenye vidzidzi virivyokala saa chache tu kula pwani, chila mlume kala anatsukula uha na mivi ya mridza yenye ntsa za chuma za ndoano, na kukala bunduchi kala ni adimu. Chilongozi ariyetogolwa kpwa uha kala anatogolwa kpwa ufundi ambao atue kala anauluphira kpwa kudzirinda.
 
-Kuphoza akongo na kutabiri kala ni mambo ganagohusiana. Kpwa Adigo, dza kpwa Amijikenda anjina, *mgbwanga* kala anaphoza akongo na kulola sababu za mashaka, ambazo mara nyinji kala zinaaminiwa kukala ni za chiroho na za chimwili piya. Adisi inaunganisha mamlaka ga Bandilo na kazi hino. Piya inagomba kukala Adigo kala anaamini roho za akare ao, ambao anaihwa *Madibwe* au *Adibwe*. Bada ya kufwa, akare aho kala anaphaha uwezo wa kurinda ario moyo, au kuayuga.
+Kuphoza akongo na kutabiri kala ni mambo ganagohusiana. Kpwa Adigo, dza kpwa Amijikenda anjina, *mgbwanga* kala anaphoza akongo na kulola sababu za mashaka, ambazo mara nyinji kala zinaaminiwa kukala ni za chiroho na za chimwiri piya. Adisi inaunganisha mamlaka ga Bandilo na kazi hino. Piya inagomba kukala Adigo kala anaamini roho za akare ao, ambao anaihwa *Madibwe* au *Adibwe*. Bada ya kufwa, akare aho kala anaphaha uwezo wa kurinda ario moyo, au kuayuga.
 
 ## Chilongozi Ariyehendzwa ni Anjina
 

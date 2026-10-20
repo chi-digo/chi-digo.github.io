@@ -408,7 +408,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: {
       en: 'Henry Mutoro of the University of Nairobi conducts the first systematic archaeological excavations at kaya sites, recovering pottery dating to the 10th century — material confirmation of the deep antiquity of Mijikenda settlement.',
       sw: 'Henry Mutoro wa Chuo Kikuu cha Nairobi anafanya uchimbaji wa kwanza wa kiakiolojia kwa makaya, akipata vyungu vya karne ya 10 — uthibitisho wa kimwili wa ustaarabu wa kale wa makazi ya Mijikenda.',
-      dg: 'Henry Mutoro wa Chuo Chikulu cha Nairobi anahenda uchimbaji wa kpwandza wa chiakiolojia kpwa makaya, achipata vyungu vya karne ya 10 — uthibitisho wa chimwili wa ustaarabu wa kale wa makalo ga Amijikenda.',
+      dg: 'Henry Mutoro wa Chuo Chikulu cha Nairobi anahenda uchimbaji wa kpwandza wa chiakiolojia kpwa makaya, achipata vyungu vya karne ya 10 — uthibitisho wa chimwiri wa ustaarabu wa kale wa makalo ga Amijikenda.',
     },
   },
   {
