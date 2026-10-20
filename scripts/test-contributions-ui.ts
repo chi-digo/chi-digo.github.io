@@ -242,8 +242,13 @@ async function main() {
 
     console.log('4c. dictionary: example, regional form, new word');
     const acceptVia = async (type: string) => {
-      const { data: row } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', type)
-        .order('created_at', { ascending: false }).limit(1).single();
+      let row: { id: string } | null = null;
+      for (let i = 0; i < 20 && !row; i++) {
+        ({ data: row } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', type)
+          .order('created_at', { ascending: false }).limit(1).maybeSingle());
+        if (!row) await new Promise((r) => setTimeout(r, 1000));
+      }
+      if (!row) return 0;
       return a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'accept' }),
       })).status, row!.id);
@@ -257,7 +262,7 @@ async function main() {
     await d.getByRole('menuitem', { name: 'Add an example sentence' }).click();
     await d.getByRole('textbox', { name: 'The sentence in Digo', exact: true }).fill('Ni majaribio ya UI.');
     await d.getByRole('button', { name: 'Send suggestion' }).click();
-    check('example sent', await visible(d, /Thank you/));
+    check('example sent', await visible(d, 'Asante!', 45000));
     check('…and accepted', (await acceptVia('example_sentence')) === 200);
     await d.goto(`${BASE}${WORD}`);
     check('the example shows on the word', await visible(d, 'Ni majaribio ya UI.'));
@@ -266,7 +271,7 @@ async function main() {
     await d.getByRole('menuitem', { name: 'Another spelling or regional form' }).click();
     await d.getByRole('textbox', { name: 'Your form', exact: true }).fill('majaribiyo');
     await d.getByRole('button', { name: 'Send suggestion' }).click();
-    check('regional form sent', await visible(d, /Thank you/));
+    check('regional form sent', await visible(d, 'Asante!', 45000));
     check('…and accepted', (await acceptVia('spelling_variant')) === 200);
     await d.goto(`${BASE}${WORD}`);
     check('the variant line shows the form and region', (await visible(d, 'Other forms')) && (await visible(d, 'majaribiyo')) && (await visible(d, '(Tanga)')));
@@ -280,7 +285,7 @@ async function main() {
     await d.getByRole('textbox', { name: 'What it means in English', exact: true }).fill('a UI test word');
     await shot(d, '16-new-word');
     await d.getByRole('button', { name: 'Send suggestion' }).click();
-    check('new word sent', await visible(d, /Thank you/));
+    check('new word sent', await visible(d, 'Asante!', 45000));
 
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
