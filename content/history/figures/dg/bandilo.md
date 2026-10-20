@@ -40,7 +40,7 @@ Takuna chanzo chinachogomba Bandilo waishi rini, wala chinachotaja chidzidziche 
 
 ## Urithi
 
-Bandilo anatambukirwa kpwa mambo mahahu: uha, muhaso na kuona mbere. Piya anatambukirwa kpwa siku ariyoitenga kuvoya amani. Kumbukumbuye dza mutu ambaye atawala a jirani kala anakpwedza kpwakpwe kuhendza shauri inaonyesa sura ya ulongozi ambayo hata sambi inathaminiwa kahi za Adigo: mamlaka ganagophahikana kpwa ujuzi na kuaminika. Kumanya zaidi kumhusu ni kazi mwenga ya historia ya Adigo ambayo taidzangbwehendwa. Maandiko ga Kayamba, chitabu cha Nkondokaya na kumbukumbu za azehe a Tanga vinaweza kuhuambira Bandilo waishi rini, walongoza kuphi, na dzinare ritsapizwa viphi kula chizazi hadi chizazi.
+Bandilo anatambukirwa kpwa mambo mahahu: uha, tiba na kuona mbere. Piya anatambukirwa kpwa siku ariyoitenga kuvoya amani. Kumbukumbuye dza mutu ambaye atawala a jirani kala anakpwedza kpwakpwe kuhendza shauri inaonyesa sura ya ulongozi ambayo hata sambi inathaminiwa kahi za Adigo: mamlaka ganagophahikana kpwa ujuzi na kuaminika. Kumanya zaidi kumhusu ni kazi mwenga ya historia ya Adigo ambayo taidzangbwehendwa. Maandiko ga Kayamba, chitabu cha Nkondokaya na kumbukumbu za azehe a Tanga vinaweza kuhuambira Bandilo waishi rini, walongoza kuphi, na dzinare ritsapizwa viphi kula chizazi hadi chizazi.
 
 ## Vyanzo
 
