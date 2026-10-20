@@ -410,7 +410,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Ndege ni anji, adudu ni a aina nyinji za ajabu, na muundo wa dari ya tsaka — wa tabaka kula mimea mifupi ya photsi hadi mihi mire migumu iriyotsupa yanjina — unadumisha hali ya hewa ndani ya tsaka iriyo na mnyevu zaidi na unyevu zaidi kuliko tsi iriyotsuswa inayorizunguluka, kpwa chiasi chinachopimika. Uchinyendeka kula phatu pha kuika magari pha hoteli ya Diani Beach, phenye dzuwa kali, hadi ndani ya Kaya Kinondo, unatsupa mphaka si wa mimea tu ela wa dzoho, sauti, na hali ya phatu. Hewa inabadilika. Mwanga unabadilika. Ulimwengu unabadilika."
+              "text": "Ndege ni anji, adudu ni a aina nyinji za ajabu, na muundo wa dari ya tsaka — wa tabaka kula mimea mifupi ya photsi hadi mihi mire migumu iriyotsupa yanjina — unadumisha hali ya hewa ndani ya tsaka iriyo na mnyevu zaidi na unyevu zaidi kuriko tsi iriyotsuswa inayorizunguluka, kpwa chiasi chinachopimika. Uchinyendeka kula phatu pha kuika magari pha hoteli ya Diani Beach, phenye dzuwa kali, hadi ndani ya Kaya Kinondo, unatsupa mphaka si wa mimea tu ela wa dzoho, sauti, na hali ya phatu. Hewa inabadilika. Mwanga unabadilika. Ulimwengu unabadilika."
             },
             {
               "type": "heading",
@@ -442,7 +442,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo ndiyo tsaka takatifu ra Chimijikenda rimwenga tu ririrovugulwa kpwa ajeni. Tafwauti iyo ni muhimu. Makaya ganjina — Kaya Gandini, Kaya Dzombo, Kaya Kwale — ganasala gakafungwa kpwa ajeni, na maeneo gao ga ndani ganaphahikana tu kpwa azehe arioinjizwa. Uwazi wa Kaya Kinondo ni chaguo ra chimkakati ra makusudi: kpwa kuualika ulimwengu wa kondze ndani kpwa masharti garigozuwiywa, ulongozi wa kaya ukaphaha asena, ukalavya mapato, na ukadzenga umma wa uhifadhi. Kuonekana kunakokpwedza na kukala eneo ra utalii piya kukahenda ikale vigumu kpwa aendelezaji kuinjira kpwa chimya — ulimwengu unalola."
+              "text": "Kaya Kinondo ndiyo tsaka takatifu ra Chimijikenda rimwenga tu ririrovugulwa kpwa ajeni. Tafwauti iyo ni muhimu. Makaya ganjina — Kaya Gandini, Kaya Dzombo, Kaya Kwale — ganasala gakafungwa kpwa ajeni, na maeneo gao ga ndani ganaphahikana tu kpwa azehe arioinjizwa. Uwazi wa Kaya Kinondo ni chaguo ra chimkakati ra makusudi: kpwa kuualika ulimwengu wa kondze ndani kpwa masharti garigozuwiywa, uongozi wa kaya ukaphaha asena, ukalavya mapato, na ukadzenga umma wa uhifadhi. Kuonekana kunakokpwedza na kukala eneo ra utalii piya kukahenda ikale vigumu kpwa aendelezaji kuinjira kpwa chimya — ulimwengu unalola."
             },
             {
               "type": "paragraph",
@@ -860,7 +860,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mpangilio wa chimwili wa kaya unalunga muundo thabiti uriondikpwa kpwa makundi gosi ga Amijikenda. Tsaka nene ririroizunguluka kaya rinaunda eneo ra kinga — kukata mihi mwakpwe ndani kukakala mwiko kpwa karne nyinji, ndiyo sababu makaya gakakala hifadhi za chibayolojia zenye uwezo wa ajabu. Njira mbiri zinatsupa tsakani, zichilongoza kpwenye malango genye ngome. Kpwenye lango ra kpwandza zinaima *fingo* — hirizi za kinga zinazowakilisha roho za arindzi. Bada ya kutsupa malango kuna chiwanja cha kahi, kaya ya kpweli: eneo ra wazi renye muundo wa kuba wa *moroni*, ambao chijadi nkuikpwa kahi ya mtini mtakatifu na muuyu."
+              "text": "Mpangilio wa chimwiri wa kaya unalunga muundo thabiti uriondikpwa kpwa makundi gosi ga Amijikenda. Tsaka nene ririroizunguluka kaya rinaunda eneo ra kinga — kukata mihi mwakpwe ndani kukakala mwiko kpwa karne nyinji, ndiyo sababu makaya gakakala hifadhi za chibayolojia zenye uwezo wa ajabu. Njira mbiri zinatsupa tsakani, zichilongoza kpwenye malango genye ngome. Kpwenye lango ra kpwandza zinaima *fingo* — hirizi za kinga zinazowakilisha roho za arindzi. Bada ya kutsupa malango kuna chiwanja cha kahi, kaya ya kpweli: eneo ra wazi renye muundo wa kuba wa *moroni*, ambao chijadi nkuikpwa kahi ya mtini mtakatifu na muuyu."
             },
             {
               "type": "heading",
@@ -884,7 +884,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kutambuliwa kuno kpwa njira mbiri — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi za chimila barani Afrika. Tsaka si mazingira tu ga utamaduni. Tsaka *ndiro* utamaduni. Uchiusa mihi, kuangamiza makalo tu. Unaangamiza usanifu wa chimwili ambao mwakpwe ndani maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
+              "text": "Kutambuliwa kuno kpwa njira mbiri — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi za chimila barani Afrika. Tsaka si mazingira tu ga utamaduni. Tsaka *ndiro* utamaduni. Uchiusa mihi, kuangamiza makalo tu. Unaangamiza usanifu wa chimwiri ambao mwakpwe ndani maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
             },
             {
               "type": "heading",
@@ -1647,7 +1647,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa atu a kondze — ikale Aislamu a mageuzi, amisionari a Chikristo, au asomi a Chimagharibi — Uislamu wa Chidigo unaweza kuonekana kudzipinga. Mutu anawezadze kuamini umwenga kamili wa Mulungu na piya kuamini roho za akare? Jamii inawezadze kulunga Kurani na piya kuhenda sadaka za damu kpwenye matsaka matakatifu? Jibu ra Adigo, riroonekana kpwenye mazoezi gao ingawa tarielezwa chila mara kpwenye theolojia yao, ni kukala higa si kupingana ela ni nyanja zinazokamilishana za ukpweli mmwenga. Allah anatawala ulimwengu. Roho zinasagala kpwenye mazingira ga phephi. Kurani inagomba na roho ya milele. Mganga anamudu mwiri urio na ukongo. Msikiti ni wa Ijumaa. Kaya ni ya wakati mvula ichikahala kunya na jamii inahitaji chitu cha kare zaidi kuliko chitabu chochosi."
+              "text": "Kpwa atu a kondze — ikale Aislamu a mageuzi, amisionari a Chikristo, au asomi a Chimagharibi — Uislamu wa Chidigo unaweza kuonekana kudzipinga. Mutu anawezadze kuamini umwenga kamili wa Mulungu na piya kuamini roho za akare? Jamii inawezadze kulunga Kurani na piya kuhenda sadaka za damu kpwenye matsaka matakatifu? Jibu ra Adigo, riroonekana kpwenye mazoezi gao ingawa tarielezwa chila mara kpwenye theolojia yao, ni kukala higa si kupingana ela ni nyanja zinazokamilishana za ukpweli mmwenga. Allah anatawala ulimwengu. Roho zinasagala kpwenye mazingira ga phephi. Kurani inagomba na roho ya milele. Mganga anamudu mwiri urio na ukongo. Msikiti ni wa Ijumaa. Kaya ni ya wakati mvula ichikahala kunya na jamii inahitaji chitu cha kare zaidi kuriko chitabu chochosi."
             },
             {
               "type": "paragraph",
@@ -1916,7 +1916,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili kuko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu kuko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuliko chila kundi ranjina ra Amijikenda."
+              "text": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili kuko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu kuko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
             },
             {
               "type": "paragraph",
@@ -1944,7 +1944,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mvuto kala ni wa chitendo. Mbari ya Chidigo ichikala ikajeza dawa za chimila kpwa ukongo wa mwana bila kufaulu, mavoyo na hirizi za mganga wa Chiislamu zalavya njira yanjina — njira yenye hishima ya kusoma na kuandika, mamlaka ga maandiko matakatifu, na nguvu ambayo atu kala anaiona kpwenye Chiarabu dza luga takatifu. Kubadilika mara nyinji kwalunga kuphozwa. Mganga wakala mwalimu, mkpwongo wakala mwanafunzi, na mbari pore-pore yahala mazoezi ga Chiislamu. Kubadilika kuno kula photsi kuphiya dzulu, kunakosukumwa ni aganga, kwafwaha zaidi kuliko kampeni yoyosi ya chimisheni ya kula dzulu kuphiya photsi, na kunaeleza kpwa nini Uislamu waenea kpwa china kpwenye maisha ga chila siku ga Adigo badala ya kusala uhusiano wa chisiasa wa dzulu-dzulu tu."
+              "text": "Mvuto kala ni wa chitendo. Mbari ya Chidigo ichikala ikajeza dawa za chimila kpwa ukongo wa mwana bila kufaulu, mavoyo na hirizi za mganga wa Chiislamu zalavya njira yanjina — njira yenye hishima ya kusoma na kuandika, mamlaka ga maandiko matakatifu, na nguvu ambayo atu kala anaiona kpwenye Chiarabu dza luga takatifu. Kubadilika mara nyinji kwalunga kuphozwa. Mganga wakala mwalimu, mkpwongo wakala mwanafunzi, na mbari pore-pore yahala mazoezi ga Chiislamu. Kubadilika kuno kula photsi kuphiya dzulu, kunakosukumwa ni aganga, kwafwaha zaidi kuriko kampeni yoyosi ya chimisheni ya kula dzulu kuphiya photsi, na kunaeleza kpwa nini Uislamu waenea kpwa china kpwenye maisha ga chila siku ga Adigo badala ya kusala uhusiano wa chisiasa wa dzulu-dzulu tu."
             },
             {
               "type": "heading",
@@ -1996,7 +1996,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS kuko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuliko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
+              "text": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS kuko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
             },
             {
               "type": "heading",
@@ -9185,7 +9185,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Bada ya tohara, avulana ariinjira chipindi cha kutengwa, achiuswa kpwenye maisha ga kawaida ga jamii. Hino tairikala adhabu, wala kutengwa kpwa sababu ya kutengwa bahi. Irikala wakati wa kahi-kahi — wakati kahi ya utambulisho mmwenga na wanjina, ambapho mvulana wa kare arikala anaangamika na mlume wa badaye arikala kadzangbweumbika chikamilifu. Kutengwa kurihendekera kure na mudzi, mara nyinji phatu maalum weruni, ambapho ariotahiriwa arikala phamwenga tsini ya ulongozi wa azehe na akufundzi ariotsambulwa."
+              "text": "Bada ya tohara, avulana ariinjira chipindi cha kutengwa, achiuswa kpwenye maisha ga kawaida ga jamii. Hino tairikala adhabu, wala kutengwa kpwa sababu ya kutengwa bahi. Irikala wakati wa kahi-kahi — wakati kahi ya utambulisho mmwenga na wanjina, ambapho mvulana wa kare arikala anaangamika na mlume wa badaye arikala kadzangbweumbika chikamilifu. Kutengwa kurihendekera kure na mudzi, mara nyinji phatu maalum weruni, ambapho ariotahiriwa arikala phamwenga tsini ya uongozi wa azehe na akufundzi ariotsambulwa."
             },
             {
               "type": "paragraph",
@@ -10239,7 +10239,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwenye wiki au miezi kabla ya arusi, bibi arusi anatsupa maandalizi makali tsini ya ulongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — analola mabadilikoge ga chimwiri: matibabu ga ngozi kpwa liwa na manjano, kuoga manjano, manukato ga msandali, kufukizwa ubani, na mapambo ga hina genye ustadi ambago ganaweza kuhala masaa kumi na mairi au zaidi kuphakpwa, gachidzengbwa kpwa tabaka tsano au sita za michoro ya ustadi."
+              "text": "Kpwenye wiki au miezi kabla ya arusi, bibi arusi anatsupa maandalizi makali tsini ya uongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — analola mabadilikoge ga chimwiri: matibabu ga ngozi kpwa liwa na manjano, kuoga manjano, manukato ga msandali, kufukizwa ubani, na mapambo ga hina genye ustadi ambago ganaweza kuhala masaa kumi na mairi au zaidi kuphakpwa, gachidzengbwa kpwa tabaka tsano au sita za michoro ya ustadi."
             },
             {
               "type": "paragraph",

@@ -8,7 +8,7 @@
 
 ---
 
-Gazeti ra Nation ririphotangaza chifoche Oktoba 2021, ramuiha Abdalla Mnyenze mzehe "ariyelongoza uhifadhi wa matsaka ga Kaya" (*"who steered the conservation of Kaya forests"*). Kpwa zaidi ya miaka kumi kabla ya hipho, aandishi a habari, asayansi na anasiasa ariofika Kaya Chinondo kala anakutana na mutu hiye mmwenga kanda ya tsaka. Iye ndiye kala anaeleza miko ya tsaka riro, na kugomba badala ya azehe ariokala anaririnda.
+Gazeti ra Nation ririphotangaza chifoche Oktoba 2021, ramuiha Abdalla Mnyenze mzehe "ariyelongoza uhifadhi wa matsaka ga Kaya" (*"who steered the conservation of Kaya forests"*). Kpwa zaidi ya miaka kumi kabla ya hipho, aandishi a habari, asayansi na anasiasa ariofika Kaya Chinondo kala anakutana na mutu hiye mmwenga kanda ya tsaka. Iye ndiye kala anaeleza miko ya tsaka riro, na kugomba kpwa niaba ya azehe ariokala anaririnda.
 
 Takuna mutu ariyeandika maishage. Makala ihi inakusanya gara garigoandikpwa ni magazeti na masomo mairi ga chitaaluma, na inaonyesa phara ambapho tagalingana. *Mzee* ni neno ra hishima kpwa mutu mzima.
 

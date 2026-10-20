@@ -428,11 +428,11 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Misitu mitakatifu ya kaya si tu maeneo ga chiroho na vituo vya utawala. Ni maeneo ga kumbukumbu — nanga za chimwili za marifwa ga kihistoria ga pamoja. Chila kaya ina historia yakpwe: iriandzishwa rini, ni ani, matukio gani garigokpwenderera ndani ya viwanja vyakpwe. Miri, njira, msimamo wa moroni, phatu pha fingo — gosi ganabeba maana ya kihistoria kpwa avyere amanyao jinsi ya kugasoma."
+            "text": "Misitu mitakatifu ya kaya si tu maeneo ga chiroho na vituo vya utawala. Ni maeneo ga kumbukumbu — nanga za chimwiri za marifwa ga kihistoria ga pamoja. Chila kaya ina historia yakpwe: iriandzishwa rini, ni ani, matukio gani garigokpwenderera ndani ya viwanja vyakpwe. Miri, njira, msimamo wa moroni, phatu pha fingo — gosi ganabeba maana ya kihistoria kpwa avyere amanyao jinsi ya kugasoma."
           },
           {
             "type": "heading",
-            "text": "Kaya inaphoharibwa — dza Kaya Diani irivyoharibwa ni maendeleo ga utalii — nanga ya chimwili ya historia yakpwe inapotea. Avyere anaweza bado kubeba marifwa, ela bila eneo ra kutembea na kuonyesha, kupisha kunakala kpwa kinadharia. Mvyere anayeelezea muundo wa kaya kpwa mutu mdide wakati akiima kpwa kiwanja chakpwe anafanya kazi ya kupisha historia kpwa uwezo zaidi kuriko mmwenga anayeelezea kaya ambayo kaweza tena kutembelea."
+            "text": "Kaya inaphoharibwa — dza Kaya Diani irivyoharibwa ni maendeleo ga utalii — nanga ya chimwiri ya historia yakpwe inapotea. Avyere anaweza bado kubeba marifwa, ela bila eneo ra kutembea na kuonyesha, kupisha kunakala kpwa kinadharia. Mvyere anayeelezea muundo wa kaya kpwa mutu mdide wakati akiima kpwa kiwanja chakpwe anafanya kazi ya kupisha historia kpwa uwezo zaidi kuriko mmwenga anayeelezea kaya ambayo kaweza tena kutembelea."
           },
           {
             "type": "paragraph",
@@ -1094,7 +1094,7 @@ export const oralTraditionsDomain: LanguageDomain = {
           },
           {
             "type": "paragraph",
-            "text": "**Haki, utawala, na ulongozi.** Ndarira kuhusu sifa za ulongozi mzuri."
+            "text": "**Haki, utawala, na uongozi.** Ndarira kuhusu sifa za uongozi mzuri."
           },
           {
             "type": "heading",
