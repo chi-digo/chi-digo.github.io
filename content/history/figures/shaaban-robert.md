@@ -16,7 +16,7 @@ He was not a Digo writer, then. But his mother's people were Digo, he grew up am
 
 Most sources say he was born on 1 January 1909 at Vibamba (Vibambani), a part of Machui village. A study by A. Taib, published by the University of Dar es Salaam in 2009, gives the year as 1902. His father was named Ufukwe, Selemani and Robert, and as a boy Shaaban was known as Shaaban bin Selemani. The name "Robert" came from his father.
 
-Taib wrote that Shaaban's character and gifts came from two peoples meeting in one family: on his father's side Yao from Ruvuma, and on his mother's side Digo from Tanga. A student essay published online in 2016 adds that his mother came from the lineage of Mwalimu Kihere, that she too called herself Swahili, and that Shaaban was the fourth of her fourteen children. The same essay says his father died in September 1918, and that the boy was then sent to Dar es Salaam to live with a grandfather.
+Taib wrote that Shaaban's character and gifts came from two peoples meeting in one family: on his father's side Yao from Ruvuma, and on his mother's side Digo from Tanga. A student essay published online in 2016 adds that his mother came from the lineage of Mwalimu Chihere, that she too called herself Swahili, and that Shaaban was the fourth of her fourteen children. The same essay says his father died in September 1918, and that the boy was then sent to Dar es Salaam to live with a grandfather.
 
 ## School and Service
 

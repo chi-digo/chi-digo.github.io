@@ -10,7 +10,7 @@
 
 Mangaru Mwajita watawala Adigo a Chikoneni kahi ya miaka 30 ya hatari zaidi kahi ya historiya yao ya karne ya 19. Mwaka hinyo hinyo ambao atu anaamini kukala wahala utawala, mtawala muphya na msiru wahala utawala hiko Gasi, pwani. Kpwa miaka 30 iriyolunga, tsi ya kahi ya Gasi na Vanga kala ni, kpwa maneno ga mwanahistoriya David Sperling, "sehemu ya tsi ya Amijikenda yenye vurugu zaidi na isiyo na usalama zaidi". Mangaru nkutambukirwa dza mtawala wa pekee wa Chidigo ariyeweza kuipinga Gasi.
 
-Mambo ganagolunga ganakula sana kpwa tasnifu ya Sperling ya mwaka 1988, ambayo inahumira ushahidi wa mromo wa atu a Chikoneni, habari ya mmisionari Mfaransa ariyetsemberera hiko mwaka 1890, na baruwa ziriziko Kenya National Archives.
+Mambo ganagolunga ganakula sana kpwa tasnifu ya Sperling ya mwaka 1988, ambayo inahumira ushahidi wa mromo wa atu a Chikoneni, habari ya mmisionari Mfaransa ariyenyendekera hiko mwaka 1890, na baruwa ziriziko Kenya National Archives.
 
 ## Mrisi wa Ukubo
 
@@ -20,13 +20,13 @@ Mangaru warisi cheo, si chidzidzi bahi. Tsaweye, Mbogo Mwamzungu, kala akakpwedz
 
 Mwaka 1865 Shaykh Mbaruk bin Rashid al-Mazrui wakala chilongozi wa Gasi. Sperling anagomba kukala kala "ni msiru zaidi na ana tamaa zaidi" kuriko mtawala ariyekala Gasi kabla ya iye. Wajeza kuenjereza nguvuze na achiavamira hara ariompinga. Kuandzira mwisho wa miaka ya 1860 wakala na ugomvi na Masultani a Zanzibar, na atu a kanda iyo osi achiinjira kpwenye ugomvi uho. Kpwa jumla, Avumba, Adigo a Chikoneni, Ashirazi na Asegeju kala anampinga Mbaruk, ela Adigo na Aduruma a kazikazini ya Gasi mara nyinji kala anamterya. Mbaruk wavamira Vanga mwaka 1873, na Sultani Barghash wahumira nguvu za asikari kumpinga mara kadhaa kahi ya 1872 na 1886.
 
-Mmisionari Mfaransa Alexandre Le Roy wamtsemberera Kubo Mangaru mwaka 1890. Badaye waandika: "Adigo anashuhudiya chivyamwenga kukala kare Mbaruk wabananga vidzidzi vyao, na achigaluza tsi yao nono sana ikala weru tuphu". Hasara hiyo yenderera kpwa muda mure. Mwaka 1921 Afisa wa Wilaya kala achere anaona tsi ya kahi ya Gasi na muho wa Ramisi ina atu achache, kpwa sababu "wuoga wa Sheikh Mbaruk wa Gazi (kuvamira atu kuahala atumwa)" kala ukaazoresa Adigo anji, achivuka Ramisi kuphiya uphande wa mtswerero wa dzuwa.
+Mmisionari Mfaransa Alexandre Le Roy wamnyendekera Kubo Mangaru mwaka 1890. Badaye waandika: "Adigo anashuhudiya chivyamwenga kukala kare Mbaruk wabananga vidzidzi vyao, na achigaluza tsi yao nono sana ikala weru tuphu". Hasara hiyo yenderera kpwa muda mure. Mwaka 1921 Afisa wa Wilaya kala achere anaona tsi ya kahi ya Gasi na muho wa Ramisi ina atu achache, kpwa sababu "wuoga wa Sheikh Mbaruk wa Gazi (kuvamira atu kuahala atumwa)" kala ukaazoresa Adigo anji, achivuka Ramisi kuphiya uphande wa mtswerero wa dzuwa.
 
 Kulengana na Mkpwulu bin Abdallah, ariyegomba na Sperling mwaka 1976, Mangaru kala ni "mtawala wa pekee wa Chidigo ariyekala na nguvu za kutosha kupinga". Ariphokala na ugomvi na Mbaruk, Sultani Barghash wahuma asikari a Chibaluchi Chikoneni kumrinda. Hadisi iyo taigomba ni lini dzambo hiro rahendeka. Barghash watawala kula 1870 hadi 1888.
 
 ## Kala ni Mwislamu?
 
-Mutu hiye hiye wagomba kukala Mangaru wasilimu ariphophiya kumtsemberera Barghash Zanzibar. Sperling ana shaka na dzambo hiro. Inaonekana Mangaru kayahumira dzina ra Chiislamu, na takuna dzina ra hivyo rinarotambukirwa kuhusu iye. Mwaka 1894 wamuandikira Bw. Pigott, Kamishna Msaidizi wa Imperial British East Africa Company, na achiika saini "Kubo bin Jetha", manage ni Kubo mwana wa Jita. Sperling anaonyesa kukala Mangaru kala anahumira karani Mvumba, na neno ra Chiislamu "bin" rinaweza kukala ni karani mwenye ariyeritsambula. Mwaka 1916 Afisa wa Tarafa wagomba kukala mrisi wa Mangaru kala ni "Kubo wa kpwandza kuhala dini ya Chiislamu".
+Mutu hiye hiye wagomba kukala Mangaru wasilimu ariphophiya kumnyendekera Barghash Zanzibar. Sperling ana shaka na dzambo hiro. Inaonekana Mangaru kayahumira dzina ra Chiislamu, na takuna dzina ra hivyo rinarotambukirwa kuhusu iye. Mwaka 1894 wamuandikira Bw. Pigott, Kamishna Msaidizi wa Imperial British East Africa Company, na achiika saini "Kubo bin Jetha", manage ni Kubo mwana wa Jita. Sperling anaonyesa kukala Mangaru kala anahumira karani Mvumba, na neno ra Chiislamu "bin" rinaweza kukala ni karani mwenye ariyeritsambula. Mwaka 1916 Afisa wa Tarafa wagomba kukala mrisi wa Mangaru kala ni "Kubo wa kpwandza kuhala dini ya Chiislamu".
 
 Ela Uislamu kala u phephi. Le Roy wauona hiko Chikoneni: atu "kala si dza anjina", miiri yao "kala ikafinikpwa ni nguwo zaidi"; "hipha kala kuna hamira ya Uislamu".
 
