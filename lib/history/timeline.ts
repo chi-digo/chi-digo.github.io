@@ -150,9 +150,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Utawala wa Kubo unaandzishwa',
     },
     description: {
-      en: 'By Kikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Jombo, and his title, Kubo, becomes hereditary.',
-      sw: 'Kwa mapokeo ya Kikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Jombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
-      dg: 'Kpwa hadithi za Kikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Jombo, na cheoche, Kubo, chinakala cha kurithiwa.',
+      en: 'By Kikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Dzombo, and his title, Kubo, becomes hereditary.',
+      sw: 'Kwa mapokeo ya Kikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Dzombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
+      dg: 'Kpwa hadithi za Kikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
     },
   },
   {

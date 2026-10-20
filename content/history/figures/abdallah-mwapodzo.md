@@ -16,7 +16,7 @@ Almost everything known about him comes from the historian David Sperling. Betwe
 
 Mwapodzo was born at Ukunda around 1840 with the name **Kivoyero Mwapodzo**. His father was Mwakulenje Podzo.
 
-His future was set by his mother's line. Kaya Diani had been founded in the late 17th or early 18th century by Mwalela Bawa of the Akinalela clan, who had come from Kaya Jombo. The leadership of the kaya then passed down through Mwalela Bawa's matrilineal descendants. Across the Digo kayas, the *mwanatsi* ("son of the land") led the kaya's ceremonies. He sat at the head of the *ngambi*, the council of elders, and was almost always chosen by matrilineal descent from the founding clan.
+His future was set by his mother's line. Kaya Diani had been founded in the late 17th or early 18th century by Mwalela Bawa of the Akinalela clan, who had come from Kaya Dzombo. The leadership of the kaya then passed down through Mwalela Bawa's matrilineal descendants. Across the Digo kayas, the *mwanatsi* ("son of the land") led the kaya's ceremonies. He sat at the head of the *ngambi*, the council of elders, and was almost always chosen by matrilineal descent from the founding clan.
 
 So Kivoyero did not rise to office by election. He came from Ukunda to inherit it from his maternal uncle, Mwatsavua. Diani tradition dates this to the reign of Sayyid Majid of Zanzibar, which means sometime between 1856 and 1870. He became the seventh mwanatsi of Kaya Diani. The six before him had not been Muslims.
 
