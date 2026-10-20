@@ -150,9 +150,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Utawala wa Kubo unaandzishwa',
     },
     description: {
-      en: 'By Kikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Dzombo, and his title, Kubo, becomes hereditary.',
-      sw: 'Kwa mapokeo ya Kikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Dzombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
-      dg: 'Kpwa hadithi za Kikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
+      en: 'By Chikoneni tradition, Mbogo Mwamzungu, a rain-maker from Kwale, is accepted as leader of the southern Digo after a famine. He rules from Kaya Dzombo, and his title, Kubo, becomes hereditary.',
+      sw: 'Kwa mapokeo ya Chikoneni, Mbogo Mwamzungu, mganga wa mvua kutoka Kwale, anakubaliwa kuwa kiongozi wa Wadigo wa kusini baada ya njaa. Anatawala kutoka Kaya Dzombo, na cheo chake, Kubo, kinakuwa cha kurithiwa.',
+      dg: 'Kpwa hadithi za Chikoneni, Mbogo Mwamzungu, mganga wa mvula kula Kwale, anakubalika kukala chiongozi wa Adigo a kusini bada ya ndzala. Anatawala kula Kaya Dzombo, na cheoche, Kubo, chinakala cha kurithiwa.',
     },
   },
   {
@@ -178,9 +178,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Kubo Mangaru anampinga Mbaruk',
     },
     description: {
-      en: 'Shaykh Mbaruk of Gasi raids the Gasi–Vanga hinterland. Kubo Mangaru Mwajita of Kikoneni is the one Digo ruler strong enough to resist; the Sultan of Zanzibar sends Baluchi soldiers to protect him.',
-      sw: 'Shekhe Mbaruk wa Gasi anavamia maeneo ya bara kati ya Gasi na Vanga. Kubo Mangaru Mwajita wa Kikoneni ndiye mtawala pekee wa Kidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anatuma askari wa Kibaluchi kumlinda.',
-      dg: 'Shehe Mbaruk wa Gasi anavamia maeneo ga bara kahi ya Gasi na Vanga. Kubo Mangaru Mwajita wa Kikoneni ndiye mtawala wa pekee wa Chidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anahuma asikari a Chibaluchi kumrinda.',
+      en: 'Shaykh Mbaruk of Gasi raids the Gasi–Vanga hinterland. Kubo Mangaru Mwajita of Chikoneni is the one Digo ruler strong enough to resist; the Sultan of Zanzibar sends Baluchi soldiers to protect him.',
+      sw: 'Shekhe Mbaruk wa Gasi anavamia maeneo ya bara kati ya Gasi na Vanga. Kubo Mangaru Mwajita wa Chikoneni ndiye mtawala pekee wa Kidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anatuma askari wa Kibaluchi kumlinda.',
+      dg: 'Shehe Mbaruk wa Gasi anavamia maeneo ga bara kahi ya Gasi na Vanga. Kubo Mangaru Mwajita wa Chikoneni ndiye mtawala wa pekee wa Chidigo mwenye nguvu za kumpinga; Sultani wa Zanzibar anahuma asikari a Chibaluchi kumrinda.',
     },
   },
   {
@@ -236,9 +236,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Uasi wa Mazrui',
     },
     description: {
-      en: "Mbaruk bin Rashid leads the Mazrui against the new British protectorate. Most Digo south of Mombasa stay out; the Digo of Kaya Kinondo and around Mbaruk's stronghold at Mwele join the rising.",
-      sw: 'Mbaruk bin Rashid anaongoza Wamazrui dhidi ya utawala mpya wa Waingereza. Wadigo wengi wa kusini mwa Mombasa hawajiungi; Wadigo wa Kaya Kinondo na wa karibu na ngome ya Mbaruk huko Mwele wanajiunga na uasi.',
-      dg: 'Mbaruk bin Rashid analongoza Amazrui dhidi ya utawala muphya wa Aingereza. Adigo anji a kusini mwa Mombasa taadziunga; Adigo a Kaya Kinondo na a phephi na ngome ya Mbaruk kuko Mwele anadziunga na uasi.',
+      en: "Mbaruk bin Rashid leads the Mazrui against the new British protectorate. Most Digo south of Mombasa stay out; the Digo of Kaya Chinondo and around Mbaruk's stronghold at Mwele join the rising.",
+      sw: 'Mbaruk bin Rashid anaongoza Wamazrui dhidi ya utawala mpya wa Waingereza. Wadigo wengi wa kusini mwa Mombasa hawajiungi; Wadigo wa Kaya Chinondo na wa karibu na ngome ya Mbaruk huko Mwele wanajiunga na uasi.',
+      dg: 'Mbaruk bin Rashid analongoza Amazrui dhidi ya utawala muphya wa Aingereza. Adigo anji a kusini mwa Mombasa taadziunga; Adigo a Kaya Chinondo na a phephi na ngome ya Mbaruk kuko Mwele anadziunga na uasi.',
     },
   },
   {
@@ -434,9 +434,9 @@ export const timelineEvents: TimelineEvent[] = [
       dg: 'Makaya ganaorodheshwa dza Urithi wa Dunia wa UNESCO',
     },
     description: {
-      en: 'Eleven Mijikenda kaya forests, including Kaya Kinondo, inscribed as Sacred Mijikenda Kaya Forests. The following year, kaya traditions are placed on UNESCO\'s Urgent Safeguarding list.',
-      sw: 'Misitu kumi na moja ya makaya ya Mijikenda, ikiwa ni pamoja na Kaya Kinondo, inaorodheshwa kama Misitu Mitakatifu ya Makaya ya Mijikenda. Mwaka unaofuata, mila za makaya zinawekwa kwenye orodha ya UNESCO ya Kulinda kwa Dharura.',
-      dg: 'Misitu kumi na moja ya makaya ya Amijikenda, ichiwa ni phamwenga na Kaya Kinondo, inaorodheshwa dza Misitu Mitakatifu ya Makaya ya Amijikenda. Mwaka unaofuata, mila za makaya zinawekwa kpwa orodha ya UNESCO ya Kulinda kpwa Dharura.',
+      en: 'Eleven Mijikenda kaya forests, including Kaya Chinondo, inscribed as Sacred Mijikenda Kaya Forests. The following year, kaya traditions are placed on UNESCO\'s Urgent Safeguarding list.',
+      sw: 'Misitu kumi na moja ya makaya ya Mijikenda, ikiwa ni pamoja na Kaya Chinondo, inaorodheshwa kama Misitu Mitakatifu ya Makaya ya Mijikenda. Mwaka unaofuata, mila za makaya zinawekwa kwenye orodha ya UNESCO ya Kulinda kwa Dharura.',
+      dg: 'Misitu kumi na moja ya makaya ya Amijikenda, ichiwa ni phamwenga na Kaya Chinondo, inaorodheshwa dza Misitu Mitakatifu ya Makaya ya Amijikenda. Mwaka unaofuata, mila za makaya zinawekwa kpwa orodha ya UNESCO ya Kulinda kpwa Dharura.',
     },
   },
   {

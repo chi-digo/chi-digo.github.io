@@ -1,42 +1,42 @@
-# Muhammad Masemo: Trader and Headman of Kikoneni
+# Muhammad Masemo: Trader and Headman of Chikoneni
 
 ## Overview
 
-**Era:** Active c. 1880s–1924; Headman of Kikoneni from 1920 (birth and death dates unknown)
-**Role:** Early Muslim convert and trader; builder of the first mosque at Kikoneni; colonial Headman of Kikoneni location and President of the Digo Central Council
-**Region:** Kikoneni, in the south of present-day Kwale County, Kenya (then Vanga District, renamed Digo District in 1924)
+**Era:** Active c. 1880s–1924; Headman of Chikoneni (Kikoneni on maps) from 1920 (birth and death dates unknown)
+**Role:** Early Muslim convert and trader; builder of the first mosque at Chikoneni; colonial Headman of Chikoneni location and President of the Digo Central Council
+**Region:** Chikoneni, in the south of present-day Kwale County, Kenya (then Vanga District, renamed Digo District in 1924)
 
 ---
 
-For most of the nineteenth century Kikoneni, some forty miles south of Mombasa, stood well apart from the Muslim towns of the coast. By the 1920s it had mosques and Qur'an schools, and its leading man was a Muslim trader whom British officers called "one of the most energetic and intelligent Presidents in the District". That man was Muhammad Masemo.
+For most of the nineteenth century Chikoneni, some forty miles south of Mombasa, stood well apart from the Muslim towns of the coast. By the 1920s it had mosques and Qur'an schools, and its leading man was a Muslim trader whom British officers called "one of the most energetic and intelligent Presidents in the District". That man was Muhammad Masemo.
 
 His story survives in the memories of his son, Omari Muhammad Masemo, whom the historian David Sperling interviewed in 1975 and 1976, and in colonial files Sperling found in the Kenya National Archives. This article follows Sperling's account.
 
-## Kikoneni and the Kubo
+## Chikoneni and the Kubo
 
 The southern Digo had an unusually centralised form of rule. At the end of the eighteenth century Mbogo Mwamzungu, a newcomer to kaya Jombo, became their dominant leader and took the name *Kubo*. A *kaya* is a fortified village in a forest clearing, and the sacred forest that remains where it stood. Mwamzungu's successors kept Kubo as a title. The Kubos had close ties with the Muslim Diwans of Vanga, but none of them is known to have practised Islam until Kubo Shehe Mwacholozi. He was installed in 1895 and died in February 1916.
 
-After Shehe's death six men claimed the title. The war delayed a decision, and the British appointed one of the claimants, Fundi Mwabege, as Headman of Kikoneni instead. The title Kubo then fell out of use.
+After Shehe's death six men claimed the title. The war delayed a decision, and the British appointed one of the claimants, Fundi Mwabege, as Headman of Chikoneni instead. The title Kubo then fell out of use.
 
 ## A Convert and a Trader
 
-Masemo became a Muslim in the 1880s. A healer from Mombasa passing through the area converted him and his wife. Masemo took the name Muhammad, after the healer, and his wife took the name Mwanaisha. The first Digo convert from Kikoneni had been Mwalimu Mnena, converted at Mombasa in the 1870s or 1880s. *Mwalimu* means teacher, and Mnena taught the rudiments of the faith to his friends.
+Masemo became a Muslim in the 1880s. A healer from Mombasa passing through the area converted him and his wife. Masemo took the name Muhammad, after the healer, and his wife took the name Mwanaisha. The first Digo convert from Chikoneni had been Mwalimu Mnena, converted at Mombasa in the 1870s or 1880s. *Mwalimu* means teacher, and Mnena taught the rudiments of the faith to his friends.
 
-In the 1890s Masemo began tapping rubber with his father-in-law, Muhammad Mwamvini, another early convert. Through the rubber trade he became the purchasing agent and friend of Mwalimu Mbulushi bin Fakir, a Baluchi trader at Kikoneni. He also carried goods to Mombasa himself, a journey of two days. His son remembered that they slept at Tiwi, at the home of his father's friend Mwinyi Haji wa Bwika, and left "at the first crowing of the cock" to reach Mombasa by morning.
+In the 1890s Masemo began tapping rubber with his father-in-law, Muhammad Mwamvini, another early convert. Through the rubber trade he became the purchasing agent and friend of Mwalimu Mbulushi bin Fakir, a Baluchi trader at Chikoneni. He also carried goods to Mombasa himself, a journey of two days. His son remembered that they slept at Tiwi, at the home of his father's friend Mwinyi Haji wa Bwika, and left "at the first crowing of the cock" to reach Mombasa by morning.
 
-Around 1905 Masemo opened his own shop. Sperling says he was the first Digo to trade in clothes at Kikoneni.
+Around 1905 Masemo opened his own shop. Sperling says he was the first Digo to trade in clothes at Chikoneni.
 
-## The First Mosque at Kikoneni
+## The First Mosque at Chikoneni
 
-Around 1906 Masemo built the Mophe Mosque at his homestead, the first mosque in the Kikoneni area. Before it, Kikoneni's Muslims prayed on mats in the open air. Masemo's son Omari studied under Abdallah bin Kasim Mwangumi, a Segeju teacher who had come to Kikoneni around 1903. When Omari finished, he became the Imam. People came to Friday prayers from Nyamala, Vivwini, Mwaluvanga and Mrima. The mosque collapsed during the First World War. After the war Masemo moved to Kikoneni centre and rebuilt it near his new home.
+Around 1906 Masemo built the Mophe Mosque at his homestead, the first mosque in the Chikoneni area. Before it, Chikoneni's Muslims prayed on mats in the open air. Masemo's son Omari studied under Abdallah bin Kasim Mwangumi, a Segeju teacher who had come to Chikoneni around 1903. When Omari finished, he became the Imam. People came to Friday prayers from Nyamala, Vivwini, Mwaluvanga and Mrima. The mosque collapsed during the First World War. After the war Masemo moved to Chikoneni centre and rebuilt it near his new home.
 
 ## Headman and Council President
 
-The British governed the Digo through councils of elders, which built on the older *ngambi*, the council that ran each kaya and its villages. After 1916 Masemo was, in Sperling's words, "the real leader of Kikoneni location". A District Commissioner wrote in 1920 that the Kikoneni council was "nominally under Fundi Mwabege of Mrima, who is old, and the active work devolves on Mohammed Mwamasemo".
+The British governed the Digo through councils of elders, which built on the older *ngambi*, the council that ran each kaya and its villages. After 1916 Masemo was, in Sperling's words, "the real leader of Chikoneni location". A District Commissioner wrote in 1920 that the Chikoneni council was "nominally under Fundi Mwabege of Mrima, who is old, and the active work devolves on Mohammed Mwamasemo".
 
-When Mwabege died in 1920, Masemo became Headman of Kikoneni and President of the Digo Central Council. A handing-over report of November 1923 gave the verdict quoted above. In January 1924 he was one of two Digo elders invited to visit the British fleet at Mombasa.
+When Mwabege died in 1920, Masemo became Headman of Chikoneni and President of the Digo Central Council. A handing-over report of November 1923 gave the verdict quoted above. In January 1924 he was one of two Digo elders invited to visit the British fleet at Mombasa.
 
-The sharpest question of the day was inheritance. Digo custom passed property through the mother's line, while Islamic law passes it from father to son. In 1924 the District Commissioner sounded out the elders and reported that two-thirds favoured change. On 9 August 1924 he "interviewed Mohamed Mwasemo of Kikoneni and discussed the change of inheritance [law]". The diary records that "Mohamed welcomes the change". In 1928 the Court of Appeal ruled, in a case from Pungu, that Islamic law applied and the estate passed from father to son.
+The sharpest question of the day was inheritance. Digo custom passed property through the mother's line, while Islamic law passes it from father to son. In 1924 the District Commissioner sounded out the elders and reported that two-thirds favoured change. On 9 August 1924 he "interviewed Mohamed Mwasemo of Chikoneni and discussed the change of inheritance [law]". The diary records that "Mohamed welcomes the change". In 1928 the Court of Appeal ruled, in a case from Pungu, that Islamic law applied and the estate passed from father to son.
 
 ## Why the Record Is Thin
 
@@ -44,7 +44,7 @@ We do not know when Masemo was born or died, or how long he stayed in office aft
 
 ## Legacy
 
-Masemo's life bridges two worlds. He became a Muslim in the time of the Kubo, when Kikoneni was remote from the coast. He went on to trade on the road to Mombasa, build his community's first mosque, educate a son who became its Imam, and lead a council under colonial rule. He used that office to support the changes his faith asked of him. When Sperling wrote in the 1980s, the Kikoneni mosque stood where Masemo had rebuilt it after the war.
+Masemo's life bridges two worlds. He became a Muslim in the time of the Kubo, when Chikoneni was remote from the coast. He went on to trade on the road to Mombasa, build his community's first mosque, educate a son who became its Imam, and lead a council under colonial rule. He used that office to support the changes his faith asked of him. When Sperling wrote in the 1980s, the Chikoneni mosque stood where Masemo had rebuilt it after the war.
 
 ## Sources
 
