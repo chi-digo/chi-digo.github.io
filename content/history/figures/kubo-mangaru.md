@@ -22,7 +22,7 @@ In 1865 Shaykh Mbaruk bin Rashid al-Mazrui became leader at Gasi. Sperling descr
 
 The French missionary Alexandre Le Roy visited Kubo Mangaru in 1890. Afterwards he wrote: "The Digo testify unanimously that in times past Mbaruk has ruined their villages, and transformed the magnificent countryside into a solitary desert." The damage lasted. In 1921 a District Commissioner still found the land between Gasi and the Ramisi river thinly settled, because "fear of Sheikh Mbaruk of Gazi (slave raiding)" had driven many Digo west of the Ramisi.
 
-According to Mkulu bin Abdallah, who spoke to Sperling in 1976, Mangaru was "the only Digo ruler strong enough to offer resistance". When he came into conflict with Mbaruk, Sultan Barghash sent Baluchi soldiers to Chikoneni to protect him. The tradition gives no date for this. Barghash ruled from 1870 to 1888.
+According to Mkpwulu bin Abdallah, who spoke to Sperling in 1976, Mangaru was "the only Digo ruler strong enough to offer resistance". When he came into conflict with Mbaruk, Sultan Barghash sent Baluchi soldiers to Chikoneni to protect him. The tradition gives no date for this. Barghash ruled from 1870 to 1888.
 
 ## Was He a Muslim?
 

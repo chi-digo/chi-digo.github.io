@@ -22,7 +22,7 @@ Mwaka 1865 Shaykh Mbaruk bin Rashid al-Mazrui akawa kiongozi wa Gasi. Sperling a
 
 Mmisionari Mfaransa Alexandre Le Roy alimtembelea Kubo Mangaru mwaka 1890. Baadaye aliandika: "Wadigo wanashuhudia kwa kauli moja kwamba zamani Mbaruk aliviharibu vijiji vyao, na kuigeuza nchi yao maridadi kuwa jangwa tupu" (*"The Digo testify unanimously that in times past Mbaruk has ruined their villages, and transformed the magnificent countryside into a solitary desert."*). Uharibifu huo ulidumu. Mwaka 1921 Mkuu wa Wilaya (District Commissioner) bado aliikuta ardhi kati ya Gasi na mto Ramisi ikiwa na watu wachache, kwa sababu "hofu ya Sheikh Mbaruk wa Gazi (uvamizi wa kuteka watumwa)" (*"fear of Sheikh Mbaruk of Gazi (slave raiding)"*) ilikuwa imewafukuza Wadigo wengi kwenda magharibi ya Ramisi.
 
-Kwa mujibu wa Mkulu bin Abdallah, aliyezungumza na Sperling mwaka 1976, Mangaru alikuwa "mtawala pekee wa Kidigo aliyekuwa na nguvu za kutosha kuweka upinzani" (*"the only Digo ruler strong enough to offer resistance"*). Alipogombana na Mbaruk, Sultani Barghash aliwatuma askari wa Kibaluchi Chikoneni kumlinda. Mapokeo hayataji tarehe ya tukio hili. Barghash alitawala kuanzia 1870 hadi 1888.
+Kwa mujibu wa Mkpwulu bin Abdallah, aliyezungumza na Sperling mwaka 1976, Mangaru alikuwa "mtawala pekee wa Kidigo aliyekuwa na nguvu za kutosha kuweka upinzani" (*"the only Digo ruler strong enough to offer resistance"*). Alipogombana na Mbaruk, Sultani Barghash aliwatuma askari wa Kibaluchi Chikoneni kumlinda. Mapokeo hayataji tarehe ya tukio hili. Barghash alitawala kuanzia 1870 hadi 1888.
 
 ## Je, Alikuwa Mwislamu?
 
