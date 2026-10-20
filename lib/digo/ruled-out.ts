@@ -25,7 +25,8 @@ export const RULED_OUT: Rule[] = [
   // Round 4 also rules unji over wingi, but wingi is ordinary Swahili and these files hold Swahili text too,
   // so it can't be checked file-wide.
   { wrong: /kpwa ku(?:pishana|phokezana)\b/i, right: 'kpwa kuphisana', ruling: 'round 4: alternate leaves' },
-  { wrong: /\b\w*lolana\b/i, right: 'lengana', ruling: 'round 4: opposite leaves' },
+  // Leaves only: elsewhere -lolana is correct (lola "marry": akalolana "they married each other").
+  { wrong: /\b\w*lolana\b/i, right: 'lengana', ruling: 'round 4: opposite leaves', only: /(public\/data|content)\/plants\// },
   // Round 5 rules apply to our interface wording; the corpus keeps old words (machero is a headword
   // and appears in the proverb "Rero ni matso, machero ni mabatso").
   { wrong: /\bmachero\b/i, right: 'muhondo', ruling: 'round 5 (2026-10-15): tomorrow', only: UI },

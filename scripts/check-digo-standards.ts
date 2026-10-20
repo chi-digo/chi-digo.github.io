@@ -33,9 +33,15 @@ function sources(): string[] {
     join(DATA, 'proverbs/index.json'),
     join(ROOT, 'lib/i18n/messages/dg.json'),
     join(ROOT, 'lib/culture/content.ts'),
+    join(ROOT, 'lib/history/content.ts'),
+    join(ROOT, 'lib/history/timeline.ts'),
+    join(ROOT, 'lib/history/figures.ts'),
     join(ROOT, 'lib/language/tools.ts'),
     join(ROOT, 'lib/plants/themes.ts'),
   );
+  // Hero articles in Digo.
+  const figuresDg = join(ROOT, 'content/history/figures/dg');
+  if (existsSync(figuresDg)) for (const f of readdirSync(figuresDg)) if (f.endsWith('.md')) files.push(join(figuresDg, f));
   return files.filter((f) => existsSync(f));
 }
 
