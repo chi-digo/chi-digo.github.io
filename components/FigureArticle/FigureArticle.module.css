@@ -36,3 +36,20 @@
 .back {
   margin-top: var(--space-8, 32px);
 }
+
+/* Pencil scene (artist's impression) as the hero: kept visible, darkened only behind the title. */
+.sceneHero {
+  min-height: clamp(360px, 62vh, 640px);
+  background-color: var(--color-hando-cream);
+  background-position: center 35%;
+}
+
+.sceneCredit {
+  position: absolute;
+  right: 5.25%;
+  bottom: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: rgba(242, 234, 215, 0.75);
+}

@@ -28,7 +28,7 @@ function Source({ text }: { text: string }) {
   );
 }
 
-export function FigureArticle({ figure, articles }: { figure: Figure; articles: Record<Locale, Article> }) {
+export function FigureArticle({ figure, articles, scene }: { figure: Figure; articles: Record<Locale, Article>; scene?: string }) {
   const t = useTranslations();
   const { locale } = useLocale();
   const a = articles[locale];
@@ -38,12 +38,20 @@ export function FigureArticle({ figure, articles }: { figure: Figure; articles: 
 
   return (
     <>
-      <section className={styles.hero} style={getHeroStyle('history-index')}>
+      <section
+        className={`${styles.hero} ${scene ? own.sceneHero : ''}`}
+        style={
+          scene
+            ? { backgroundImage: `linear-gradient(to bottom, rgba(14,26,42,0.05) 0%, rgba(14,26,42,0.15) 45%, rgba(14,26,42,0.88) 100%), url(${scene})` }
+            : getHeroStyle('history-index')
+        }
+      >
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{t.history.figures_heading}</p>
           <h1 className={styles.heroTitle}>{figure.name}</h1>
           <p className={own.role}>{figure.role[locale]} · {figure.era[locale]} · {figure.region}</p>
         </div>
+        {scene && <span className={own.sceneCredit}>{t.history.figure_scene_credit}</span>}
       </section>
       <article className={styles.article}>
         <div className={styles.articleInner}>
