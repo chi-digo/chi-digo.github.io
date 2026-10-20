@@ -4,7 +4,7 @@
 
 **Era:** Ruled as Kubo c. 1865–1894
 **Role:** Kubo (hereditary ruler) of the southern Digo; opponent of Shaykh Mbaruk bin Rashid of Gasi
-**Region:** Chikoneni (Kikoneni in official records), Kwale, present-day Kenya
+**Region:** Chikoneni, Kwale, present-day Kenya
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Era:** Active c. 1880s–1924; Headman of Chikoneni (Kikoneni in official records) from 1920 (birth and death dates unknown)
+**Era:** Active c. 1880s–1924; Headman of Chikoneni from 1920 (birth and death dates unknown)
 **Role:** Early Muslim convert and trader; builder of the first mosque at Chikoneni; colonial Headman of Chikoneni location and President of the Digo Central Council
 **Region:** Chikoneni, in the south of present-day Kwale County, Kenya (then Vanga District, renamed Digo District in 1924)
 

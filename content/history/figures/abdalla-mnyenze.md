@@ -3,7 +3,7 @@
 ## Overview
 
 **Era:** Born c. 1928 or c. 1941 (sources disagree); died in 2021, his death reported on 13 October 2021
-**Role:** Elder and custodian of Kaya Chinondo (Kinondo in official records and the UNESCO listing); chairman of the Coast and Kwale kaya elders; healer
+**Role:** Elder and custodian of Kaya Chinondo; chairman of the Coast and Kwale kaya elders; healer
 **Region:** Chinondo, Msambweni, Kwale County, Kenya
 
 ---
