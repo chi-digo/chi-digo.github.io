@@ -48,7 +48,7 @@ Today the story told at the mosque is different. The caretaker and deputy imam, 
 
 The Kongo Mosque is one of the best-preserved old mosques on the south Kenya coast. Its roof of barrel vaults and domes is largely intact. The vaults over the prayer hall rest on three central columns, and the mihrab, the niche facing Mecca, is a plain arch opening into an undecorated apse. To the north are at least five old tombs, three of them large and nearly square, one with a panelled face under a frieze of small niches. Local tradition says the name Kongo comes from an inscription reading "Swaddiq Kongo" (or Siddiq Kongo) on one of the graves, but Kongo is also the name of the locality. The mosque has been renovated with cement and paint and extended to the east. It remains an active place of worship, and at Eid the crowds spill out onto the beach.
 
-The colonial government listed the "Ruins at Diani" as a protected monument in 1929 (Gazette Notices 170 and 457), under the Ancient Monuments Preservation Ordinance of 1927. In 1983 Gazette Notice No. 440 declared the area of land surrounding the mosque a monument.
+The colonial government listed the "Ruins at Diani" as a protected monument in 1929 (Gazette Notices 170 and 457), under the Ancient Monuments Preservation Ordinance of 1927. In 1983 Gazette Notice No. 440 declared the Kongo Mosque a monument.
 
 ## Mwinyi Kombo's Place in Digo History
 
