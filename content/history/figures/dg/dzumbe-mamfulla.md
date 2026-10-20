@@ -14,7 +14,7 @@ Vyanzo vya Chijerumani vinaandika dzinare "Jumbe Mamfulla". *Jumbe* ni cheo, nen
 
 ## Utawala wa Azehe
 
-Mwanajiografia Oscar Baumann, wa kula Austria, wasafiri kahi za tsi ya Adigo mwaka 1890. Waona kukala hata vidzidzi vinavyomanyikana sana, dza Gombelo na Zirihini, kala vina vibanda phephi na arobaini bahi. Chete cha chila jumwa cha Gombelo kala ni chimwenga cha vyete vikpwulu zaidi kahi za tsi ya Adigo, na achuuzi a pwani kala anachitsemberera mara kpwa mara. Baumann anaeleza utawala wa vidzidzi ivyo:
+Mwanajiografia Oscar Baumann, wa kula Austria, wasafiri kahi za tsi ya Adigo mwaka 1890. Waona kukala hata vidzidzi vinavyomanyikana sana, dza Gombelo na Zirihini, kala vina vibanda phephi na arobaini bahi. Chete cha chila jumwa cha Gombelo kala ni chimwenga cha vyete vikulu zaidi kahi za tsi ya Adigo, na achuuzi a pwani kala anachinyendekera mara kpwa mara. Baumann anaeleza utawala wa vidzidzi ivyo:
 
 > Vidzidzi vya Adigo tavina madzumbe, ela vinatawalwa ni "azehe" achache.
 
