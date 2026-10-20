@@ -14,7 +14,7 @@ Habarize zinaphahikana kpwa mambo ambago mwanawe, Omari Muhammad Masemo, wagatam
 
 ## Chikoneni na Kubo
 
-Adigo a kusini kala ana utawala ambao, kuriko kawaida, mamlaka gosi kala ganakala mkpwononi mwa chilongozi mmwenga. Mwisho wa karne ya kumi na nane Mbogo Mwamzungu, mjeni ariyefika Kaya Dzombo, wakala chilongozi wao mkpwulu na wahala dzina *Kubo*. *Kaya* ni chidzidzi chenye ngome chirichodzengbwa phatu pha wazi kahi ya tsaka, na piya ni tsaka takatifu ririrobaki phatu phara chidzidzi chiriphokala. Atu ariorisi utawala wa Mwamzungu achienderera kuhumira Kubo dza cheo. Akina Kubo kala ana uhusiano wa phephi na Madiwani Aislamu a Vanga, ela takuna hata mmwenga wao anayemanyikana kukala walunga dini ya Chiislamu hadi Kubo Shehe Mwacholozi. Iye waikpwa kukala Kubo mwaka 1895, na wafwa Februari 1916.
+Adigo a kusini kala ana utawala ambao, kuriko kawaida, mamlaka gosi kala ganakala mkpwononi mwa chilongozi mmwenga. Mwisho wa karne ya kumi na nane Mbogo Mwamzungu, mjeni ariyefika Kaya Dzombo, wakala chilongozi wao mkpwulu na wahala dzina *Kubo*. *Kaya* ni chidzidzi chenye ngome chirichodzengbwa phatu pha wazi kahi ya tsaka, na piya ni tsaka takatifu ririrobaki phatu phara chidzidzi chiriphokala. Atu ariorisi utawala wa Mwamzungu achienderera kuhumira Kubo dza cheo. Akina Kubo kala ana uhusiano wa phephi na Madiwani Aislamu a Vanga, ela takuna hata mmwenga wao anayemanyikana kukala walunga dini ya Chiislamu hadi Kubo Shehe Mwatsolozi. Iye waikpwa kukala Kubo mwaka 1895, na wafwa Februari 1916.
 
 Bada ya chifo cha Shehe, alume sita adai cheo hicho. Viha vyahenda uamuzi ukawie, na Aingereza amtsambula mmwenga wa arioadai, Fundi Mwabege, kukala Dzumbe wa Chikoneni badala ya kuika Kubo. Dzina ra Kubo phahi richiricha kuhumirwa.
 

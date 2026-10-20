@@ -34,7 +34,7 @@ Islam was nonetheless close at hand. Le Roy noticed it at Chikoneni: the people 
 
 Mangaru's letters of 1894 show him dealing directly with a European chartered company in the last years before the British protectorate of 1895. By then Mbaruk himself was on peaceful terms with Zanzibar and drew a stipend from the Company. The peace did not last. In 1895 Mbaruk led the rising against the Sultan and the British, and in July of that year he sacked Vanga. Sperling found that most Digo south of Mombasa, "whose links with the Mazrui were tenuous, if not hostile, showed little inclination to join the Rising." Chikoneni's long hostility to Gasi helps to explain why.
 
-Sperling's dates end Mangaru's rule in 1894. His nephew Shehe Mwacholozi, son of Tsolozi Mwajita, was installed as Kubo at Chikoneni in 1895. The sources do not say how or when Mangaru died.
+Sperling's dates end Mangaru's rule in 1894. His nephew Shehe Mwatsolozi, son of Tsolozi Mwajita, was installed as Kubo at Chikoneni in 1895. The sources do not say how or when Mangaru died.
 
 ## Legacy
 

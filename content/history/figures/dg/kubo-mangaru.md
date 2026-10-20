@@ -34,7 +34,7 @@ Ela Uislamu kala u phephi. Le Roy wauona hiko Chikoneni: atu "kala si dza anjina
 
 Baruwa za Mangaru za mwaka 1894 zinamuonyesa achigomba iye mwenye na kampuni ya Chizungu iriyohewa hati ya mfalume (*chartered company*), kahi ya miaka ya mwisho kabla ya Aingereza kuika tsi photsi ya ulinzi wao (*protectorate*) mwaka 1895. Wakati hinyo Mbaruk mwenye kala ana amani na Zanzibar, na kala anaphaha mshahara kula kpwa Kampuni. Amani iyo taiyakaa. Mwaka 1895 Mbaruk walongoza uasi (*timbi*) wa kumpinga Sultani na Aingereza, na mwezi wa Julai mwaka hinyo wavamira Vanga achiibananga. Sperling waona kukala Adigo anji a kusini ya Mombasa, "ambao uhusiano wao na Amazrui kala ni mdhaifu, ichikala si wa uadui, taayaonyesa haja ya kudziunga na Uasi" (*"whose links with the Mazrui were tenuous, if not hostile, showed little inclination to join the Rising."*). Uadui wa kare wa Chikoneni na Gasi unaterya kuonyesa sababu.
 
-Kulengana na Sperling, utawala wa Mangaru wamala mwaka 1894. Mwana wa nduguye, Shehe Mwacholozi, mwana wa Tsolozi Mwajita, waikpwa kukala Kubo hiko Chikoneni mwaka 1895. Vyanzo tavigomba Mangaru wafwadze, wala ni lini.
+Kulengana na Sperling, utawala wa Mangaru wamala mwaka 1894. Mwana wa nduguye, Shehe Mwatsolozi, mwana wa Tsolozi Mwajita, waikpwa kukala Kubo hiko Chikoneni mwaka 1895. Vyanzo tavigomba Mangaru wafwadze, wala ni lini.
 
 ## Urisiwe
 

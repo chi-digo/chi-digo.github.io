@@ -14,7 +14,7 @@ His story survives in the memories of his son, Omari Muhammad Masemo, whom the h
 
 ## Chikoneni and the Kubo
 
-The southern Digo had an unusually centralised form of rule. At the end of the eighteenth century Mbogo Mwamzungu, a newcomer to kaya Jombo, became their dominant leader and took the name *Kubo*. A *kaya* is a fortified village in a forest clearing, and the sacred forest that remains where it stood. Mwamzungu's successors kept Kubo as a title. The Kubos had close ties with the Muslim Diwans of Vanga, but none of them is known to have practised Islam until Kubo Shehe Mwacholozi. He was installed in 1895 and died in February 1916.
+The southern Digo had an unusually centralised form of rule. At the end of the eighteenth century Mbogo Mwamzungu, a newcomer to kaya Dzombo, became their dominant leader and took the name *Kubo*. A *kaya* is a fortified village in a forest clearing, and the sacred forest that remains where it stood. Mwamzungu's successors kept Kubo as a title. The Kubos had close ties with the Muslim Diwans of Vanga, but none of them is known to have practised Islam until Kubo Shehe Mwatsolozi. He was installed in 1895 and died in February 1916.
 
 After Shehe's death six men claimed the title. The war delayed a decision, and the British appointed one of the claimants, Fundi Mwabege, as Headman of Chikoneni instead. The title Kubo then fell out of use.
 
