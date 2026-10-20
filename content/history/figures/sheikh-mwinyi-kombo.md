@@ -48,7 +48,7 @@ Today the story told at the mosque is different. The caretaker and deputy imam, 
 
 The Kongo Mosque is one of the best-preserved old mosques on the south Kenya coast. Its roof of barrel vaults and domes is largely intact. The vaults over the prayer hall rest on three central columns, and the mihrab, the niche facing Mecca, is a plain arch opening into an undecorated apse. To the north are at least five old tombs, three of them large and nearly square, one with a panelled face under a frieze of small niches. Local tradition says the name Kongo comes from an inscription reading "Swaddiq Kongo" (or Siddiq Kongo) on one of the graves, but Kongo is also the name of the locality. The mosque has been renovated with cement and paint and extended to the east. It remains an active place of worship, and at Eid the crowds spill out onto the beach.
 
-The colonial government listed the "Ruins at Diani" as a protected monument in 1929 (Gazette Notices 170 and 457), under the Ancient Monuments Preservation Ordinance of 1927. In 1983 Gazette Notice No. 440 declared the area of land surrounding the mosque a monument. The ownership of the wider plot around it has been disputed since the 1980s and is before the courts.
+The colonial government listed the "Ruins at Diani" as a protected monument in 1929 (Gazette Notices 170 and 457), under the Ancient Monuments Preservation Ordinance of 1927. In 1983 Gazette Notice No. 440 declared the area of land surrounding the mosque a monument.
 
 ## Mwinyi Kombo's Place in Digo History
 
@@ -58,10 +58,6 @@ Sheikh Mwinyi Kombo was a Swahili scholar from Mombasa, not a Digo. His story is
 
 1. David C. Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD thesis, SOAS, University of London, 1988, pp. 33–34, 148, 152–153 (notes 38–45) and 194 (note 9). Draws on interviews recorded in 1987 and on Kenya National Archives files Coast Province MP/12/172 and DC/KWL/2.
 2. Thomas H. Wilson, *The Monumental Architecture and Archaeology of the Central and Southern Kenya Coast* (Nairobi: National Museums of Kenya, 1980), pp. 43–48.
-3. Kenya News Agency, "EACC halts illegal sale of heritage site in Kwale", 17 May 2025.
-4. Ethics and Anti-Corruption Commission, "EACC moves to safeguard 700-year-old Kongo Mosque from land grabbers", 17 May 2025.
-5. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
-6. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
-7. "Uproar over planned takeover of 14th century Sh1.4bn Kwale Kongo Mosque land", *Daily Nation*, 16 April 2025.
-8. "Raila drawn into Kwale's Kongo Mosque land ownership dispute", *Daily Nation*, 9 June 2025.
-9. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.
+3. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
+4. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
+5. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.

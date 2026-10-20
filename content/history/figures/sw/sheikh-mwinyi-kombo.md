@@ -48,7 +48,7 @@ Leo hadithi inayosimuliwa msikitini ni tofauti. Mtunzaji na naibu imamu, Sheikh 
 
 Msikiti wa Kongo ni mmoja wa misikiti ya zamani iliyohifadhika vizuri zaidi katika pwani ya kusini ya Kenya. Paa lake la matao na makuba kwa kiasi kikubwa liko kamili. Matao juu ya ukumbi wa swala yamesimama juu ya nguzo tatu za katikati, na mihrabu, kishubaka kinachoelekea Makka, ni tao sahili linalofunguka kwenye kipenyo kisicho na nakshi. Upande wa kaskazini kuna angalau makaburi matano ya zamani, matatu kati yake makubwa na karibu ya mraba, moja likiwa na uso wenye vibao chini ya ukanda wa vishubaka vidogo. Mapokeo ya wenyeji yanasema jina Kongo linatokana na maandishi yanayosomeka "Swaddiq Kongo" (au Siddiq Kongo) kwenye mojawapo ya makaburi, lakini Kongo pia ni jina la eneo hilo. Msikiti umekarabatiwa kwa saruji na rangi na kupanuliwa upande wa mashariki. Bado ni mahali pa ibada panapotumika, na wakati wa Idi umati wa watu hufurika hadi ufuoni.
 
-Serikali ya kikoloni iliorodhesha "Ruins at Diani" (Magofu ya Diani) kama mnara wa kumbukumbu unaolindwa mwaka 1929 (Matangazo ya Gazeti 170 na 457), chini ya Sheria ya Kuhifadhi Minara ya Kale ya 1927 (Ancient Monuments Preservation Ordinance). Mwaka 1983 Tangazo la Gazeti Na. 440 lilitangaza eneo la ardhi linalozunguka msikiti kuwa mnara wa kumbukumbu. Umiliki wa kiwanja kikubwa kinachouzunguka umekuwa ukibishaniwa tangu miaka ya 1980 na shauri hilo liko mahakamani.
+Serikali ya kikoloni iliorodhesha "Ruins at Diani" (Magofu ya Diani) kama mnara wa kumbukumbu unaolindwa mwaka 1929 (Matangazo ya Gazeti 170 na 457), chini ya Sheria ya Kuhifadhi Minara ya Kale ya 1927 (Ancient Monuments Preservation Ordinance). Mwaka 1983 Tangazo la Gazeti Na. 440 lilitangaza eneo la ardhi linalozunguka msikiti kuwa mnara wa kumbukumbu.
 
 ## Nafasi ya Mwinyi Kombo katika Historia ya Wadigo
 
@@ -58,10 +58,6 @@ Sheikh Mwinyi Kombo alikuwa mwanazuoni wa Kiswahili kutoka Mombasa, si Mdigo. Ha
 
 1. David C. Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD thesis, SOAS, University of London, 1988, pp. 33–34, 148, 152–153 (notes 38–45) and 194 (note 9). Draws on interviews recorded in 1987 and on Kenya National Archives files Coast Province MP/12/172 and DC/KWL/2.
 2. Thomas H. Wilson, *The Monumental Architecture and Archaeology of the Central and Southern Kenya Coast* (Nairobi: National Museums of Kenya, 1980), pp. 43–48.
-3. Kenya News Agency, "EACC halts illegal sale of heritage site in Kwale", 17 May 2025.
-4. Ethics and Anti-Corruption Commission, "EACC moves to safeguard 700-year-old Kongo Mosque from land grabbers", 17 May 2025.
-5. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
-6. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
-7. "Uproar over planned takeover of 14th century Sh1.4bn Kwale Kongo Mosque land", *Daily Nation*, 16 April 2025.
-8. "Raila drawn into Kwale's Kongo Mosque land ownership dispute", *Daily Nation*, 9 June 2025.
-9. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.
+3. Fadhili Fredrick, "Iconic Kongo mosque believed to be oldest in East Africa", *Daily Nation*, 11 July 2018.
+4. Mishi Gongo, "Diani's iconic 14th-century mosque takes beachgoers back to historical past", *The Eastleigh Voice*, 10 July 2024.
+5. *Kenya Gazette*, Notices 170 (9 March 1929) and 457 (8 July 1929), "Ruins at Diani"; Notice 440 (4 February 1983, p. 142), Kongo Mosque, Diani.
