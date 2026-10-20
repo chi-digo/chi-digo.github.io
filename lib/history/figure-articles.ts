@@ -33,8 +33,10 @@ export function parseFigureMarkdown(md: string): FigureArticle {
     if (para.length) out.body.push({ type: 'paragraph', text: para.join(' ') });
     para = [];
   };
+  let prevQuote = false;
   for (const raw of md.split('\n')) {
     const line = raw.trim();
+    if (!line.startsWith('>')) prevQuote = false;
     if (line.startsWith('# ')) {
       const [title, ...rest] = line.slice(2).split(':');
       out.title = title.trim();
@@ -51,6 +53,15 @@ export function parseFigureMarkdown(md: string): FigureArticle {
       if (item) out.sources.push(item);
     } else if (/^\*\*[^*]+:\*\*/.test(line) && out.body.every((b) => b.type !== 'heading')) {
       out.meta.push(line.replace(/^\*\*([^*]+):\*\*\s*/, '$1: '));
+    } else if (line.startsWith('>')) {
+      flush();
+      // Consecutive "> " lines form one quotation.
+      const text = line.replace(/^>\s?/, '');
+      const last = out.body[out.body.length - 1];
+      if (last?.type === 'quote' && prevQuote) last.text += ` ${text}`;
+      else out.body.push({ type: 'quote', text });
+      prevQuote = true;
+      continue;
     } else if (/^[-*]\s+/.test(line)) {
       flush();
       out.body.push({ type: 'paragraph', text: line.replace(/^[-*]\s+/, '') });

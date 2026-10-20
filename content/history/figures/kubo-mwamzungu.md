@@ -22,7 +22,7 @@ His date rests on a single cross-reference: citing Hollis's "History of Vumba", 
 
 ## Blood-Brother of the Diwan
 
-Chikoneni, forty miles south of Mombasa and fifteen miles inland, was long isolated from Muslim influence, with one exception: the Vumba Diwans, the Muslim rulers of Wasin and later Vanga. Mwamzungu is said to have valued the magical powers of Diwan Pinda, who was elected Diwan of Vanga in 1826. The Diwan was accepted as the final arbiter in Digo disputes, and he seems to have supplied the Digo with protective charms. The Digo and the Vumba are said to have buried a protective charm (*jingo*) together at Kaya Dzombo.
+Chikoneni, forty miles south of Mombasa and fifteen miles inland, was long isolated from Muslim influence, with one exception: the Vumba Diwans, the Muslim rulers of Wasin and later Vanga. Mwamzungu is said to have valued the magical powers of Diwan Pinda, who was elected Diwan of Vanga in 1826. The Diwan was accepted as the final arbiter in Digo disputes, and he seems to have supplied the Digo with protective charms. The Digo and the Vumba are said to have buried a protective charm (*fingo*) together at Kaya Dzombo.
 
 The best-remembered episode is a blood-brotherhood (*chale*). Omari Muhammad Masemo, who had worked as clerk to a later Kubo, told Sperling in 1975 that Mwamzungu proposed mixing their blood with meat and eating it. Pinda, a Muslim, protested at eating meat not slaughtered by Muslim rite. "But Kubo got a chicken and killed it by biting it with his teeth", and once it was cooked "they all ate it, including the Diwan." In Masemo's words: "From the days of Kubo Mwamzungu and Diwan Pinda we became brothers."
 

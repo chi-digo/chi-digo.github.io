@@ -2,7 +2,8 @@ import type { Locale } from '@/lib/i18n/config';
 
 export type ContentBlock =
   | { type: 'heading'; text: string }
-  | { type: 'paragraph'; text: string };
+  | { type: 'paragraph'; text: string }
+  | { type: 'quote'; text: string };
 
 export type Topic = {
   slug: string;

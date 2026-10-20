@@ -14,7 +14,7 @@ Karibu kila kinachojulikana kumhusu kinatoka kwa mjukuu wake, Saidi bin Khalfan 
 
 ## Kaya za Likoni
 
-Kufikia karne ya 19 Adigo wa eneo la Likoni waliishi katika kaya nne: Puma, Chibuyuni, Timbwani na Shonda. Kaya ilikuwa makazi yenye ngome na kituo cha mila, yaliyoongozwa na baraza la wazee (*ngambi*). Mzee wake mkuu, *mwanatsi* ("mwana wa nchi"), aliongoza sherehe na kwa kawaida alichaguliwa kupitia upande wa mama kutoka ukoo ulioanzisha kaya. Kaya nne za Likoni ziliunda shirikisho ambalo wazee wake walikutana na kutoa sadaka pamoja. Shonda ilikuwa ya kwanza kati yao. Ilikuwa na makaburi ya kale zaidi ya mababu na mojawapo ya hirizi kongwe zaidi za kinga (*jingo*) katika eneo hilo, na misafara ya mila ilipita katika kaya zile nyingine tatu kabla ya kufika Shonda, ambako sherehe kuu zilifanyika.
+Kufikia karne ya 19 Adigo wa eneo la Likoni waliishi katika kaya nne: Puma, Chibuyuni, Timbwani na Shonda. Kaya ilikuwa makazi yenye ngome na kituo cha mila, yaliyoongozwa na baraza la wazee (*ngambi*). Mzee wake mkuu, *mwanatsi* ("mwana wa nchi"), aliongoza sherehe na kwa kawaida alichaguliwa kupitia upande wa mama kutoka ukoo ulioanzisha kaya. Kaya nne za Likoni ziliunda shirikisho ambalo wazee wake walikutana na kutoa sadaka pamoja. Shonda ilikuwa ya kwanza kati yao. Ilikuwa na makaburi ya kale zaidi ya mababu na mojawapo ya hirizi kongwe zaidi za kinga (*fingo*) katika eneo hilo, na misafara ya mila ilipita katika kaya zile nyingine tatu kabla ya kufika Shonda, ambako sherehe kuu zilifanyika.
 
 Waislamu hawakuishi Likoni mwanzoni mwa karne ya 19, ingawa Waswahili wa Kilindini kutoka Mombasa walilima huko. Mwaka 1837 Sultani wa Zanzibar aliweka askari wa Kibaluchi Mombasa, na punde wakaanza kufanya biashara na Adigo. Baadhi yao walioa wake wa Kidigo. Kwa kuwa hapakuwa na soko la Adigo Likoni, wafanyabiashara walipanga bidhaa zao karibu na ufuo.
 
@@ -32,7 +32,7 @@ Wakati huo hapakuwa na msikiti Likoni. Kama Adigo wengine waliosilimu, Mwabundu 
 
 Mwanzoni mwa miaka ya 1890 Mwabundu alimpeleka mwanawe wa kwanza, Khalfan, kusoma Qurani. Mwalimu wa kwanza wa Khalfan alikuwa Mbwana bin Ali Mwarako, Mdigo kutoka Tanga aliyekuwa akifundisha Likoni. Kisha alisoma Mombasa, na mwishowe Pongwe kwa Bakari Mwanjama, mwalimu Msegeju na rafiki wa baba yake. Alikuwa bado Pongwe ilipoharibiwa Oktoba 1895, katika mapigano kati ya Waingereza na Shaykh Mbaruk wa Gasi, na mwalimu wake alihamia Ramisi pamoja na wanafunzi wake.
 
-Mwaka 1899 Khamis Dzugwe alijenga msikiti wa kwanza wa Likoni, Msikiti wa Riyadha. Khalfan aliporudi nyumbani akawa Imamu wake. Karibu mwaka 1909 Salim Mwabundu alijenga msikiti wa pili, Msikiti wa Bomani, baada ya kwanza kuchimba kisima karibu nao kwa msaada wa Mwislamu wa Kibohora kutoka Mombasa. Khalfan aliuacha Msikiti wa Riyadha akawa Imamu wa kwanza wa Bomani, na baada ya Vita vya Kwanza vya Dunia alifungua chuo cha Qurani huko. Orodha ya serikali ya misikiti ya mwaka 1913 inataja msikiti mmoja wa "Salim wa Bundu".
+Mwaka 1899 Khamis Dzubgwe alijenga msikiti wa kwanza wa Likoni, Msikiti wa Riyadha. Khalfan aliporudi nyumbani akawa Imamu wake. Karibu mwaka 1909 Salim Mwabundu alijenga msikiti wa pili, Msikiti wa Bomani, baada ya kwanza kuchimba kisima karibu nao kwa msaada wa Mwislamu wa Kibohora kutoka Mombasa. Khalfan aliuacha Msikiti wa Riyadha akawa Imamu wa kwanza wa Bomani, na baada ya Vita vya Kwanza vya Dunia alifungua chuo cha Qurani huko. Orodha ya serikali ya misikiti ya mwaka 1913 inataja msikiti mmoja wa "Salim wa Bundu".
 
 ## Chini ya Utawala wa Waingereza
 
