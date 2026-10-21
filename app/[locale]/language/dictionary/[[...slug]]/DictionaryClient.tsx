@@ -348,9 +348,11 @@ function EntrySection({
       {isHomonym && (
         <div className={styles.homonymLabel}>
           <span className={styles.homonymIndex}>{entry.homonym_index ?? position}</span>
-          <span className={styles.entryPos}>
-            {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
-          </span>
+          {(POS_ABBREVIATIONS[entry.pos] || entry.pos_en) && (
+            <span className={styles.entryPos}>
+              {POS_ABBREVIATIONS[entry.pos] || entry.pos_en}
+            </span>
+          )}
           {entry.noun_class && (
             <span className={styles.entryNounClass}>cl. {entry.noun_class}</span>
           )}
@@ -582,7 +584,7 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
             <div className={styles.entryHeaderLeft}>
               <h1 className={styles.entryHeadword}>{cleanHeadword(primary.headword)}</h1>
               {primary.ipa && <span className={styles.entryIpa}>/{primary.ipa}/</span>}
-              {!isHomonym && (
+              {!isHomonym && (POS_ABBREVIATIONS[primary.pos] || primary.pos_en) && (
                 <span className={styles.entryPos}>
                   {POS_ABBREVIATIONS[primary.pos] || primary.pos_en}
                 </span>
