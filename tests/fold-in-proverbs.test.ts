@@ -14,6 +14,8 @@ const ROOT = process.cwd();
 const tsx = join(ROOT, 'node_modules/.bin/tsx');
 let dir: string;
 let before: string;
+// New proverb ids past the last one in the data (real community proverbs take the next ids over time).
+let next: (k: number) => string;
 const file = () => join(dir, 'public/data/proverbs/index.json');
 
 function run(rows: unknown[], tag: string) {
@@ -33,6 +35,8 @@ beforeAll(() => {
   // The committed proverbs, not the working tree (a UI test run may have a fixture appended to it).
   writeFileSync(file(), execFileSync('git', ['show', 'HEAD:public/data/proverbs/index.json'], { cwd: ROOT }));
   before = readFileSync(file(), 'utf-8');
+  const last = Math.max(...(JSON.parse(before) as ProverbEntry[]).map((p) => Number(p.source_number)));
+  next = (k) => `p-${String(last + k).padStart(3, '0')}`;
 });
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
@@ -53,7 +57,7 @@ describe('fold-in for proverbs', () => {
       { ...common, id: id(4), type: 'proverb_variant', target_id: 'p-001', target_path: 'variants', final_payload: { form: 'Achili ni nyere', note: '' }, base: null },
       { ...common, id: id(5), type: 'proverb_meaning', target_id: 'p-123', target_path: 'idiomatic_dg',
         final_payload: { lang: 'dg', kind: 'idiomatic', mode: 'replace', text: 'Maana ya majaribio' }, base: { value: proverbFieldBase(empty, meaningField('idiomatic', 'dg')) } },
-      { ...common, id: id(6), type: 'proverb_addition', target_id: 'p-388', target_path: null,
+      { ...common, id: id(6), type: 'proverb_addition', target_id: next(1), target_path: null,
         final_payload: { digo: 'Mvula ya ’kare tainyesa', meaning_en: 'Old rain does not fall', usage: 'Said to people who live in the past.', usage_lang: 'en', themes: ['wisdom'], mature: false }, base: null },
     ];
     const r1 = run(rows, 'apply');
@@ -62,7 +66,7 @@ describe('fold-in for proverbs', () => {
     expect(r1.applied).toHaveLength(6);
     const after: ProverbEntry[] = JSON.parse(readFileSync(file(), 'utf-8'));
     const added = after.at(-1)!;
-    expect(added).toMatchObject({ id: 'p-388', slug: 'p-388-mvula-ya-kare-tainyesa', source_number: 388, themes: ['wisdom'] });
+    expect(added).toMatchObject({ id: next(1), slug: `${next(1)}-mvula-ya-kare-tainyesa`, source_number: Number(next(1).slice(2)), themes: ['wisdom'] });
     expect(after.find((x) => x.id === 'p-001')!.commentary_en.endsWith('\n\nGrandmothers say it to quarrelling children.\n\nAlso heard at weddings.')).toBe(true);
 
     const again = run(rows, 'again');
@@ -79,11 +83,11 @@ describe('fold-in for proverbs', () => {
 
   it('folds new proverbs in id order whatever order they arrive in', () => {
     const common = { outcome: 'replace', region: 'tanga', confidence: 'native', edited: false, target_type: 'proverb', target_path: null, base: null };
-    const later = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000301', type: 'proverb_addition', target_id: 'p-390', final_payload: { digo: 'Dzuwa ra muhondo', meaning_en: 'tomorrow', mature: false } };
-    const earlier = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000302', type: 'proverb_addition', target_id: 'p-389', final_payload: { digo: 'Ndzala tayina masikiro', meaning_en: 'hunger', mature: false } };
+    const later = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000301', type: 'proverb_addition', target_id: next(3), final_payload: { digo: 'Dzuwa ra muhondo', meaning_en: 'tomorrow', mature: false } };
+    const earlier = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000302', type: 'proverb_addition', target_id: next(2), final_payload: { digo: 'Ndzala tayina masikiro', meaning_en: 'hunger', mature: false } };
     expect(run([later], 'later').applied).toHaveLength(1);
     expect(run([earlier], 'earlier').applied).toHaveLength(1);
-    expect((JSON.parse(readFileSync(file(), 'utf-8')) as ProverbEntry[]).slice(-2).map((x) => x.id)).toEqual(['p-389', 'p-390']);
+    expect((JSON.parse(readFileSync(file(), 'utf-8')) as ProverbEntry[]).slice(-2).map((x) => x.id)).toEqual([next(2), next(3)]);
     const r = run([later, earlier].map((x) => ({ ...x, live_status: 'reverting' })), 'unfold');
     expect(r.reverted).toHaveLength(2);
     expect(readFileSync(file(), 'utf-8')).toBe(before);
