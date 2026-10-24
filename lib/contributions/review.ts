@@ -52,7 +52,8 @@ export function warningsFor(type: ContributionType, payload: Record<string, unkn
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
   if (!row.base || !row.target_id) return false;
   // A story appends its own paragraph, so it never goes stale; a meaning replaces text and can.
-  const checked = row.target_type === 'plant' || row.target_type === 'word' || (row.target_type === 'proverb' && row.type === 'proverb_meaning');
+  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary'
+    || (row.target_type === 'proverb' && (row.type === 'proverb_meaning' || row.type === 'translation_fix'));
   if (!checked) return false;
   const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
   if (!now?.base) return false;
@@ -92,6 +93,11 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
     return base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.text ?? '')) > 300;
   }
   if (row.type === 'proverb_context') return finalPayload.lang === 'dg';
+  // Translation fixes (spec 34 §17.8): big changes, any English change, and source-book proverb text.
+  if (row.type === 'translation_fix') {
+    const base = row.base?.value as { text?: string; source?: string | null } | null;
+    return finalPayload.lang === 'en' || base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.proposed ?? '')) > 300;
+  }
   if (row.type === 'proverb_addition') return !!similarProverb(String(finalPayload.digo ?? ''), liveChanges);
   return false;
 }
@@ -120,6 +126,7 @@ export function lockedFieldsChanged(type: ContributionType, payload: Record<stri
     proverb_meaning: ['lang', 'kind', 'mode'],
     proverb_context: ['lang'],
     proverb_addition: ['usage_lang'],
+    translation_fix: ['lang', 'field', 'part'],
   }[type as string] ?? [];
   return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
 }
@@ -159,5 +166,5 @@ export async function proverbDependants(row: { id: string; target_id: string | n
 
 /** Proverb texts are anecdote-shaped: personal details must be edited out before accept (spec 34 §16.9). */
 export function blocksOnPII(type: ContributionType): boolean {
-  return type.startsWith('proverb_');
+  return type.startsWith('proverb_') || type === 'translation_fix';
 }

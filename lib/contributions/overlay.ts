@@ -32,9 +32,9 @@ const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
   proverb_variant: ['form', 'note'],
   proverb_meaning: ['lang', 'text', 'kind', 'mode'],
   proverb_context: ['lang', 'text'],
-  translation_fix: ['lang', 'current', 'proposed'],
+  translation_fix: ['lang', 'proposed'],
 };
-const PRIVATE_FIELDS = ['reason', 'detail', 'other_names'];
+const PRIVATE_FIELDS = ['reason', 'detail', 'other_names', 'reported'];
 
 export function publicPayload(type: ContributionType, payload: Record<string, unknown>): Record<string, unknown> {
   // Unknown types show nothing: a new private field is hidden by default.
@@ -50,7 +50,7 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
   const since = new Date(Date.now() - FOLDED_GRACE_DAYS * 86_400_000).toISOString();
   const { data, error } = await db
     .from('contributions')
-    .select('id, type, target_id, target_path, payload, final_payload, outcome, region, confidence, base, fold_status, folded_at, reviewed_at')
+    .select('id, type, target_type, target_id, target_path, payload, final_payload, outcome, region, confidence, base, fold_status, folded_at, reviewed_at')
     .eq('status', 'accepted')
     .eq('live_status', 'live')
     // Test rows only ever target the fixture plant, which no page reads; real targets never see them.
@@ -64,6 +64,7 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
   return (data ?? []).map((r) => ({
     contribution_id: r.id,
     type: r.type,
+    target_type: r.target_type,
     target_id: r.target_id,
     target_path: r.target_path,
     final_payload: publicPayload(r.type, r.final_payload ?? r.payload),

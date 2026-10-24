@@ -6,7 +6,7 @@
 import { readFileSync, existsSync, statSync } from 'fs';
 import { join } from 'path';
 import { createHash } from 'crypto';
-import type { Plant } from '@/lib/plants/types';
+import type { GlossaryTerm, Plant } from '@/lib/plants/types';
 import type { Locale } from '@/lib/i18n/config';
 import { stableStringify, normaliseDigo } from './text';
 import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
@@ -14,7 +14,8 @@ import type { Change } from './apply/types';
 import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
 import { applyAllToProverbs, contextField, meaningField, proverbFieldBase, type ProverbEntry } from './apply/proverbs';
 import { digoLetterFile } from '@/lib/dictionary/letters';
-import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType } from './schemas';
+import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType, type TranslationField } from './schemas';
+import { applyAllToGlossary, translationPath, translationSource, translationText } from './apply/translations';
 export { WORD_ID };
 
 const PLANTS = join(process.cwd(), 'public/data/plants/p');
@@ -25,6 +26,8 @@ export interface Target {
   /** The field the change touches, built on the server (never taken from the client). */
   path: string | null;
   base?: { value: unknown; hash: string };
+  /** For a translation fix: the English text of the same block, shown beside it. */
+  source?: string | null;
 }
 
 function withHash(value: unknown) {
@@ -42,7 +45,7 @@ export function loadPlant(slug: string): Plant | null {
 export function testPlant(): Plant {
   return {
     id: 'test', slug: TEST_TARGET, digo_headword: 'jina ra majaribio', digo_alt: [], english: 'Test plant', swahili: null,
-    scientific: 'Testus plantus', family: null, section: 'test', themes: [], teaser: { en: 'Test', sw: null, dg: null },
+    scientific: 'Testus plantus', family: null, section: 'test', themes: [], teaser: { en: 'Test', sw: 'Jaribio', dg: null },
     name_status: 'missing', has_parts: false, has_prose: { en: true, sw: false, dg: false }, digo: null, digo_source: null,
     other_mijikenda: null, summary: { en: 'Test', sw: null, dg: null }, sections: { uses: { en: 'Test uses.', sw: null, dg: null } },
     related: [], parts: [], taxon: null, mgombato: [], sources: [], digo_proposals: [], name_credit: null,
@@ -200,7 +203,7 @@ export function similarProverb(digo: string, liveChanges: Change[] = []): { digo
 export function testProverb(): ProverbEntry {
   return {
     id: TEST_TARGET, slug: 'p-test', source_number: 0, digo: 'Methali ya majaribio', ipa: '', audio: [], literal_en: 'A test proverb',
-    idiomatic_en: 'Tests are useful', swahili: '', swahili_relationship: 'translation', commentary_en: 'Used in tests.', commentary_dg: '',
+    idiomatic_en: 'Tests are useful', swahili: 'Methali ya majaribio', swahili_relationship: 'translation', commentary_en: 'Used in tests.', commentary_dg: '',
     commentary_source: 'native', themes: [], functions: [], keywords_en: [], keywords_sw: [], related_proverbs: [], lexical_links: [],
     english_equivalent: '', swahili_equivalent: '', variants: [], content_flag: null, region: 'KE-coast', source_attribution: 'test',
     editorial_status: 'draft', idiomatic_sw: '', commentary_sw: '', field_sources: { idiomatic_en: 'ai-draft' }, literal_sw: '', idiomatic_dg: '',
@@ -235,6 +238,55 @@ function resolveProverbTarget(
  * The target as readers currently see it (published data plus live accepted changes), with the
  * base for update types. Returns null if the target doesn't exist.
  */
+const GLOSSARY_FILE = join(process.cwd(), 'public/data/plants/glossary.json');
+
+export function loadGlossaryTerm(term: string): GlossaryTerm | null {
+  const list = JSON.parse(readFileSync(GLOSSARY_FILE, 'utf-8')) as GlossaryTerm[];
+  return list.find((t) => t.term === term) ?? null;
+}
+
+/** A stand-in glossary term for automated tests. */
+export function testGlossaryTerm(): GlossaryTerm {
+  return { term: TEST_TARGET, kind: 'leaf', definition: { en: 'A test term.', sw: 'Neno la majaribio.', dg: 'Neno ra majaribio.' }, source: 'test' } as GlossaryTerm;
+}
+
+/**
+ * A translation fix (spec 34 §17): the path comes from the structured fields (field, part, lang),
+ * and the block must exist and hold text. Proverb fields keep their source in the base, as in §16.
+ */
+function resolveTranslationTarget(targetType: TargetType | undefined, targetId: string | undefined, payload: Record<string, unknown>, opts: { isTest: boolean; liveChanges?: Change[] }): Target | null {
+  if (!targetId || (targetType !== 'plant' && targetType !== 'glossary' && targetType !== 'proverb')) return null;
+  const lang = payload.lang as 'en' | 'sw' | 'dg';
+  const part = typeof payload.part === 'number' ? payload.part : undefined;
+  const path = translationPath(targetType, payload.field as TranslationField, lang, part);
+  if (!path) return null;
+  const test = targetId === TEST_TARGET;
+  if (test && !opts.isTest) return null;
+
+  if (targetType === 'proverb') {
+    const raw = test ? testProverb() : loadProverb(targetId);
+    if (!raw) return null;
+    const [p] = applyAllToProverbs([raw], opts.liveChanges ?? []);
+    const base = proverbFieldBase(p, path as Parameters<typeof proverbFieldBase>[1]);
+    if (!base.text) return null;
+    const en = path.startsWith('commentary_') ? p.commentary_en : p.idiomatic_en;
+    return { label: [p.digo, p.idiomatic_en].filter(Boolean).join(' · '), path, base: withHash(base), source: path === 'commentary_en' ? null : en };
+  }
+  if (targetType === 'glossary') {
+    const raw = test ? testGlossaryTerm() : loadGlossaryTerm(targetId);
+    if (!raw) return null;
+    const [t] = applyAllToGlossary([raw], opts.liveChanges ?? []);
+    const text = translationText(t, 'glossary', path);
+    return text ? { label: t.term, path, base: withHash({ text }), source: translationSource(t, 'glossary', path) } : null;
+  }
+  const raw = test ? testPlant() : loadPlant(targetId);
+  if (!raw) return null;
+  const plant = applyAllToPlant(raw, opts.liveChanges ?? []);
+  const text = translationText(plant, 'plant', path);
+  if (!text) return null;
+  return { label: [plant.digo_headword, plant.english].filter(Boolean).join(' · '), path, base: withHash({ text }), source: translationSource(plant, 'plant', path) };
+}
+
 export function resolveTarget(
   type: ContributionType,
   targetType: TargetType | undefined,
@@ -243,6 +295,7 @@ export function resolveTarget(
   opts: { isTest: boolean; liveChanges?: Change[] },
 ): Target | null {
   if (type === 'general_feedback') return { label: targetId ?? '', path: null };
+  if (type === 'translation_fix') return resolveTranslationTarget(targetType, targetId, payload, opts);
   if (targetType === 'word') return resolveWordTarget(type, targetId, payload, opts);
   if (targetType === 'proverb') return resolveProverbTarget(type, targetId, payload, opts);
   if (targetType !== 'plant' || !targetId) return null;

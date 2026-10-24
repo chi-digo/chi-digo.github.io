@@ -11,6 +11,8 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { applySourcePlant, unapplySourcePlant } from '../../lib/contributions/apply/plants-source';
+import { applyTranslation, unapplyTranslation } from '../../lib/contributions/apply/translations';
+import type { GlossaryTerm } from '../../lib/plants/types';
 import { ConflictError, type Change } from '../../lib/contributions/apply/types';
 import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
 import { ruledOutIn } from '../../lib/digo/ruled-out';
@@ -40,6 +42,24 @@ const claimed = JSON.parse(readFileSync(opt('--in'), 'utf-8')) as { nonce: strin
 const dryRun = args.includes('--dry-run');
 
 const plantsPath = join(dataDir, 'content/plants/plants.json');
+const glossaryPath = join(dataDir, 'content/plants/glossary.json');
+let glossary: (GlossaryTerm & { term: string })[] | null = null;
+let glossaryDirty = false;
+
+/** A translation fix on a glossary term's definition (spec 34 §17), on the source glossary. */
+function foldGlossary(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
+  glossary ??= JSON.parse(readFileSync(glossaryPath, 'utf-8')) as (GlossaryTerm & { term: string })[];
+  const reverting = row.live_status === 'reverting';
+  const i = glossary.findIndex((t) => t.term === row.target_id);
+  if (i < 0) throw new Error(`glossary term ${row.target_id} not found`);
+  if (!reverting && row.final_payload.lang === 'dg') {
+    const ruled = ruledOutIn(String(row.final_payload.proposed));
+    if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+  }
+  glossary[i] = reverting ? unapplyTranslation(glossary[i], 'glossary', change) : applyTranslation(glossary[i], 'glossary', change);
+  glossaryDirty = true;
+  return reverting ? 'reverted' : 'applied';
+}
 let plants = JSON.parse(readFileSync(plantsPath, 'utf-8')) as SourcePlant[];
 
 const results = {
@@ -90,6 +110,7 @@ function proverbDigo(type: string, p: Record<string, unknown>): string[] {
   if (type === 'proverb_addition') return [...s('digo'), ...s('meaning_dg'), ...(p.usage_lang === 'dg' ? s('usage') : [])];
   if (type === 'proverb_variant') return s('form');
   if (type === 'proverb_meaning' || type === 'proverb_context') return p.lang === 'dg' ? s('text') : [];
+  if (type === 'translation_fix') return p.lang === 'dg' ? s('proposed') : [];
   return [];
 }
 
@@ -183,7 +204,7 @@ for (const row of claimed.rows) {
     final_payload: row.final_payload, outcome: row.outcome, region: row.region, confidence: row.confidence,
     edited: row.edited, base: row.base,
   };
-  if (row.target_type === 'proverb' && ['proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context'].includes(row.type)) {
+  if (row.target_type === 'proverb' && ['proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context', 'translation_fix'].includes(row.type)) {
     try {
       results[foldProverb(row, change)].push(row.id);
     } catch (err) {
@@ -201,7 +222,16 @@ for (const row of claimed.rows) {
     }
     continue;
   }
-  if (row.target_type !== 'plant' || !['plant_name', 'plant_info'].includes(row.type)) {
+  if (row.target_type === 'glossary' && row.type === 'translation_fix') {
+    try {
+      results[foldGlossary(row, change)].push(row.id);
+    } catch (err) {
+      if (err instanceof ConflictError && row.live_status !== 'reverting') results.conflict.push({ id: row.id, error: err.message });
+      else results.failed.push({ id: row.id, error: String((err as Error).message ?? err).slice(0, 500) });
+    }
+    continue;
+  }
+  if (row.target_type !== 'plant' || !['plant_name', 'plant_info', 'translation_fix'].includes(row.type)) {
     // Areas without an applier yet (dictionary, proverbs, translations) wait for their phase.
     results.skipped.push(row.id);
     continue;
@@ -216,7 +246,8 @@ for (const row of claimed.rows) {
     const next = reverting ? unapplySourcePlant(plants[i], change) : applySourcePlant(plants[i], change);
     // Check the result before keeping it: it must derive, and Digo text must pass the standards.
     derivePlant(next);
-    const digo = row.type === 'plant_name' ? [String(row.final_payload.name)] : row.final_payload.lang === 'dg' ? [String(row.final_payload.text)] : [];
+    const text = row.type === 'translation_fix' ? row.final_payload.proposed : row.final_payload.text;
+    const digo = row.type === 'plant_name' ? [String(row.final_payload.name)] : row.final_payload.lang === 'dg' ? [String(text)] : [];
     const ruled = reverting ? [] : digo.flatMap(ruledOutIn);
     if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
     plants = plants.map((p, j) => (j === i ? next : p));
@@ -233,6 +264,8 @@ const plantsChanged = claimed.rows.some((r) => r.target_type === 'plant' && [...
 if (!dryRun && plantsChanged) {
   writeFileSync(plantsPath, JSON.stringify(plants, null, 1));
 }
+// The glossary source keeps the plants file's format (one-space indent, no trailing newline).
+if (!dryRun && glossaryDirty && glossary) writeFileSync(glossaryPath, JSON.stringify(glossary, null, 1));
 if (!dryRun) {
   // Letter files are compact JSON with no trailing newline (build-index.ts then rebuilds the indexes).
   for (const f of dirty) writeFileSync(join(dictDir, `${f}.json`), JSON.stringify(letterFile(f)));

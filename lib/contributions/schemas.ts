@@ -82,6 +82,10 @@ const proverbDigo = safeText(400)
 const wordText = (max: number) => safeText(max).refine((s) => !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' });
 const optWordText = (max: number) => optSafeText(max).refine((s) => !s || !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' });
 
+/** The blocks a translation fix may name (spec 34 §17.3, 5a surfaces). */
+export const TRANSLATION_FIELDS = ['teaser', 'summary', 'definition', 'use', 'meaning', 'swahili', 'swahili_equivalent', 'commentary'] as const;
+export type TranslationField = (typeof TRANSLATION_FIELDS)[number];
+
 export const PAYLOADS = {
   word_addition: z
     .object({
@@ -148,7 +152,15 @@ export const PAYLOADS = {
       uses: optSafeText(2000),
     })
     .refine((p) => p.digo || p.swahili || p.english, { message: 'Give at least one name' }),
-  translation_fix: z.object({ lang: z.enum(['sw', 'dg']), current: safeText(4000), proposed: safeText(4000) }),
+  // A corrected translation of one block (spec 34 §17). The client names the block by structured fields
+  // (`field`, and `part` for plant parts); the server builds the path. `reason` stays with reviewers.
+  translation_fix: z.object({
+    lang: lang3,
+    field: z.enum(TRANSLATION_FIELDS),
+    part: z.number().int().min(0).max(99).optional(),
+    proposed: safeText(4000),
+    reason: safeText(300),
+  }),
   general_feedback: z.object({ text: safeText(2000) }),
 } as const;
 
@@ -182,6 +194,7 @@ export const ENABLED_TYPES: ContributionType[] = [
   'plant_name', 'plant_info', 'general_feedback',
   'word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'entry_flag',
   'proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context',
+  'translation_fix',
 ];
 
 export const TARGET_TYPES = ['word', 'proverb', 'plant', 'article', 'glossary', 'ui', 'page'] as const;
