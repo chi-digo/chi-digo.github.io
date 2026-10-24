@@ -20,7 +20,7 @@ export async function POST(request: Request) {
 
   const payload = PAYLOADS[input.type].safeParse(input.payload);
   if (!payload.success) return badRequest('invalid', payload.error.issues);
-  // Themes and the adult-content decision on a new proverb are the reviewer's to set at accept.
+  // Themes on a new proverb are the reviewer's to set at accept (the contributor's mature box is a hint the reviewer confirms).
   if (input.type === 'proverb_addition') delete (payload.data as { themes?: unknown }).themes;
 
   // Feedback is always about a page; test accounts may only touch the fixture plant.

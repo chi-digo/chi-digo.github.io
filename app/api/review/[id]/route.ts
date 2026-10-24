@@ -137,8 +137,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       const { ruled_out, pii } = warningsFor(row.type, finalPayload);
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
       if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
-      // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9).
-      if (row.type === 'proverb_addition' && typeof finalPayload.mature !== 'boolean') {
+      // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
+      // the reviewer's own final payload must say so; the contributor's checkbox is only a hint.
+      if (row.type === 'proverb_addition' && typeof (body.final_payload as Record<string, unknown> | undefined)?.mature !== 'boolean') {
         return NextResponse.json({ error: 'mature_required' }, { status: 422 });
       }
 
@@ -178,6 +179,12 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         const { ruled_out, pii } = warningsFor(row.type, final.data as Record<string, unknown>);
         if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
         if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
+        if (row.type === 'proverb_addition' && typeof (final.data as Record<string, unknown>).mature !== 'boolean') {
+          return NextResponse.json({ error: 'mature_required' }, { status: 422 });
+        }
+        if (row.type === 'proverb_context' && String((final.data as Record<string, unknown>).text ?? '').length > COMMENTARY_MAX) {
+          return NextResponse.json({ error: 'too_long' }, { status: 422 });
+        }
         args.final_payload = final.data;
       }
       // A conflict is resolved against the text as it is now (published data plus the other live changes).

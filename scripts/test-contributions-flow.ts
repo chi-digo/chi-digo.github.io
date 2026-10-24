@@ -355,7 +355,7 @@ async function main() {
     check('personal details block an accept → 422', r.status === 422 && r.json.error === 'pii', r);
     r = await call(A, 'POST', `/api/review/${pc}`, { action: 'accept', final_payload: { lang: 'en', text: 'Told by grandmothers.' } });
     check('…accepted once removed', r.status === 200, r);
-    r = await call(P1, 'POST', '/api/contributions', pv('proverb_addition', { digo: TEST, meaning_en: 'a test proverb', themes: ['food'] }, undefined));
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_addition', { digo: TEST, meaning_en: 'a test proverb', themes: ['food'], mature: false }, undefined));
     const pa = r.json.id as string;
     check('the test new proverb → 201', r.status === 201, r);
     const { data: paSent } = await admin.from('contributions').select('payload').eq('id', pa).single();
