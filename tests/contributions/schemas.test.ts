@@ -14,7 +14,7 @@ const valid: Record<string, unknown> = {
   plant_name: { name: 'mutsu', choice: 'other' },
   plant_info: { section: 'uses', lang: 'dg', mode: 'add', text: 'Makodzage ganahumirwa kuphika' },
   plant_addition: { english: 'Wild yam', description: 'A climbing plant' },
-  translation_fix: { lang: 'dg', current: 'old', proposed: 'new' },
+  translation_fix: { lang: 'dg', field: 'teaser', proposed: 'new', reason: 'typo' },
   general_feedback: { text: 'The search is slow' },
 };
 
