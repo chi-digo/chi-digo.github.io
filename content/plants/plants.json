@@ -4127,7 +4127,7 @@
   ],
   "teaser": {
    "en": "The Digo have a name for every stage of a coconut, from the tiny *kolokotsi* to the overripe *nguta*: seven in all.",
-   "sw": "Wadigo wana jina kwa kila hatua ya nazi, kuanzia *kolokotsi* ndogo kabisa hadi *nguta* iliyokomaa kupita kiasi: majina saba kwa jumla.",
+   "sw": "Wadigo wana jina kwa kila hatua ya nazi, kuanzia *kolokotsi* ndogo hadi *nguta* iliyoiva kupita kiasi: saba kwa jumla (jaribio).",
    "dg": "Adigo ana dzina kpwa chila hatua ya kukula kpwa nazi, kula *kolokotsi* ndide hadi *nguta* iriyoivwa kutsupa chiasi: madzina sabaa gosi."
   },
   "summary": {
@@ -4937,7 +4937,18 @@
     "english": "fish-smoking sticks",
     "source": "Pakia 2005 §3.3.2"
    }
-  ]
+  ],
+  "provenance": {
+   "teaser.sw": [
+    {
+     "c": "a84a3441-3cb1-4bf1-b8b6-7cb5580e5bba",
+     "src": "community",
+     "conf": "native",
+     "edited": false,
+     "kind": "translation"
+    }
+   ]
+  }
  },
  {
   "id": "pl-033",
