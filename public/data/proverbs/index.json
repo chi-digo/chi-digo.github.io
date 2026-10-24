@@ -122,7 +122,7 @@
     "audio": [],
     "literal_en": "He who overtakes you is not your companion/friend",
     "idiomatic_en": "Those who outpace you are no longer your companions",
-    "swahili": "Aliyekupita mbele si mwenzio",
+    "swahili": "Aliyekupita mbele si mwenzio (jaribio)",
     "swahili_relationship": "cognate",
     "commentary_en": "can be applied to many situations, eg. financial, education",
     "commentary_dg": "Ndarira ihi inaweza kuhumirwa kpwa hali nyinji, dza vira ga mapesa, ga masomo, na ganjina. Mutu achikutsupa kpwa uwezo, si myao kare.",
@@ -159,12 +159,23 @@
       "commentary_en": "original",
       "commentary_dg": "ai-draft",
       "idiomatic_en": "original",
-      "swahili": "original",
+      "swahili": "community",
       "literal_sw": "ai-draft",
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Aliyekupita mbele si mwenzako/rafiki yako",
-    "idiomatic_dg": "Mutu achikutsupa kpwa uwezo, si myao kaheri."
+    "idiomatic_dg": "Mutu achikutsupa kpwa uwezo, si myao kaheri.",
+    "provenance": {
+      "swahili": [
+        {
+          "c": "44fe548b-97ee-4281-b3c5-07a54e6eb991",
+          "src": "community",
+          "conf": "native",
+          "edited": false,
+          "kind": "translation"
+        }
+      ]
+    }
   },
   {
     "id": "p-004",
