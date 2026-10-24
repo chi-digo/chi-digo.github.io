@@ -20,20 +20,10 @@ function interpolate(
 }
 
 function renderDigoTerms(text: string): React.ReactNode[] {
-  const parts: React.ReactNode[] = [];
-  let remaining = text;
-  let key = 0;
-  while (remaining.length > 0) {
-    const start = remaining.indexOf('{dg:');
-    if (start === -1) { parts.push(remaining); break; }
-    const end = remaining.indexOf('}', start);
-    if (end === -1) { parts.push(remaining); break; }
-    if (start > 0) parts.push(remaining.slice(0, start));
-    const term = remaining.slice(start + 5, end);
-    parts.push(<em key={key++} lang="dg">{term}</em>);
-    remaining = remaining.slice(end + 1);
-  }
-  return parts;
+  // Digo terms are marked {dig:term}; each becomes an <em lang="dg">.
+  return text.split(/\{dig:([^}]*)\}/).map((part, i) =>
+    i % 2 ? <em key={i} lang="dg">{part}</em> : part,
+  );
 }
 
 export function AboutPage() {
