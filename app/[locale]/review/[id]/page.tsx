@@ -181,6 +181,8 @@ function ReviewItem({ id }: { id: string }) {
         note_required: r.err_note_required,
         has_dependants: r.err_has_dependants,
         pii: r.err_pii,
+        too_long: r.err_too_long,
+        mature_required: r.rv_mature_required,
       };
       setMessage(map[data.error] ?? c.error_generic);
       return;

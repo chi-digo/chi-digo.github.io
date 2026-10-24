@@ -182,14 +182,15 @@ export async function loadReverseIndex(
     const p = Promise.all([fetchJson<ReverseIndex>(`/data/reverse-${lang}.json`), wordOverlay()]).then(([idx, changes]) => {
       const adds = changes.filter((c) => c.type === "word_addition");
       if (!adds.length) return idx;
-      const out: ReverseIndex = { ...idx };
+      // No prototype: a term like "constructor" must be an ordinary key.
+      const out: ReverseIndex = Object.assign(Object.create(null), idx);
       for (const c of adds) {
         const e = wordAdditionEntry(c);
         const hw = e.headword;
         for (const q of lang === "en" ? e.equivalents_en : e.equivalents_sw) {
           const term = q.toLowerCase().trim();
           if (!term) continue;
-          const list = out[term] ?? [];
+          const list = Object.hasOwn(out, term) ? out[term] : [];
           if (list.some((x) => x[1].replace(/\.\d+$/, "") === e.sort_key)) continue;
           out[term] = [...list, [e.sort_key.charAt(0) || "x", e.id, hw]];
         }
@@ -206,11 +207,11 @@ export async function loadReverseIndex(
 export async function loadVariants(): Promise<VariantsMap> {
   if (!mergedVariants) {
     mergedVariants = Promise.all([fetchJson<VariantsMap>("/data/variants.json"), wordOverlay()]).then(([map, changes]) => {
-      const out: VariantsMap = { ...map };
+      const out: VariantsMap = Object.assign(Object.create(null), map);
       for (const c of changes) {
         if (c.type !== "spelling_variant" || !c.target_id) continue;
         const form = String(c.final_payload.form ?? "").toLowerCase().trim();
-        if (form && !out[form]) out[form] = c.target_id;
+        if (form && !Object.hasOwn(out, form)) out[form] = c.target_id;
       }
       return out;
     });

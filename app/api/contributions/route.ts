@@ -20,6 +20,8 @@ export async function POST(request: Request) {
 
   const payload = PAYLOADS[input.type].safeParse(input.payload);
   if (!payload.success) return badRequest('invalid', payload.error.issues);
+  // Themes and the adult-content decision on a new proverb are the reviewer's to set at accept.
+  if (input.type === 'proverb_addition') delete (payload.data as { themes?: unknown }).themes;
 
   // Feedback is always about a page; test accounts may only touch the fixture plant.
   if (input.type === 'general_feedback') {
@@ -115,7 +117,7 @@ export async function POST(request: Request) {
       if (existing) {
         return NextResponse.json({ inserted: false, similar: { name: existing.digo, href: `/language/proverbs/${encodeURIComponent(existing.slug)}` } });
       }
-      const { data: openRows, error: openError } = await caller.db.from('public_contributions').select('id, public_payload').eq('type', 'proverb_addition');
+      const { data: openRows, error: openError } = await caller.db.from('public_contributions').select('id, public_payload').eq('type', 'proverb_addition').limit(1000);
       if (openError) return serverError(openError, 'similar');
       const key = normaliseDigo(p.digo);
       const match = (openRows ?? []).find((c) => normaliseDigo(String(c.public_payload?.digo ?? '')) === key);

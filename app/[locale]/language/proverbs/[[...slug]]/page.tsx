@@ -38,7 +38,8 @@ function foldedFromProvisional(slug: string): ProverbStub | null {
   const m = /^p-c-([0-9a-f]{8})$/.exec(slug);
   if (!m) return null;
   return loadProverbStubs().find((p) =>
-    Object.values(p.provenance ?? {}).some((l) => l.some((x) => x.c.replace(/-/g, '').startsWith(m[1])))) ?? null;
+    // Only the change that created the proverb, never a later edit on it.
+    (p.provenance?.proverb ?? []).some((x) => x.c.replace(/-/g, '').startsWith(m[1]))) ?? null;
 }
 
 function loadProverbSlugs(): string[] {

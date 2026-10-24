@@ -97,7 +97,8 @@ export async function foldedProverbFor(provisionalSlug: string): Promise<Proverb
   if (!m) return null;
   const shipped = await fetchJson<Proverb[]>('/data/proverbs/index.json');
   return (shipped as ProverbEntry[]).find((p) =>
-    Object.values(p.provenance ?? {}).some((l) => l.some((x) => x.c.replace(/-/g, '').startsWith(m[1])))) ?? null;
+    // Only the change that created the proverb, never a later edit on it.
+    (p.provenance?.proverb ?? []).some((x) => x.c.replace(/-/g, '').startsWith(m[1]))) ?? null;
 }
 
 export async function getProverbById(id: string): Promise<Proverb | null> {

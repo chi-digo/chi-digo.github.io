@@ -6,7 +6,7 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import {
-  applyProverb, unapplyProverb, proverbAdditionEntry, proverbFieldBase, meaningField, contextField, PROVERB_KEYS, type ProverbEntry,
+  applyProverb, unapplyProverb, proverbAdditionEntry, proverbFieldBase, meaningField, contextField, paragraphCredits, PROVERB_KEYS, type ProverbEntry,
 } from '@/lib/contributions/apply/proverbs';
 import { ConflictError, type Change } from '@/lib/contributions/apply/types';
 import { proverbSlug, NEW_PROVERB_SLUG } from '@/lib/proverbs/slug';
@@ -68,6 +68,18 @@ describe('proverb_context', () => {
     const mid = unapplyProverb(both, order[0]);
     expect(mid.commentary_en).toContain(order[1] === s1 ? 'First story.' : 'Second story.');
     expect(bytes(unapplyProverb(mid, order[1]))).toBe(bytes(p));
+  });
+
+  it('credits each story under its own paragraphs', () => {
+    const p = fixture();
+    const s1 = story('One.\n\nTwo.');
+    const s2 = story('Three.');
+    const a = applyProverb(applyProverb(p, s1), s2);
+    const credits = paragraphCredits(a.commentary_en, a.provenance?.commentary_en);
+    expect(credits.slice(-3).map((x) => x.c)).toEqual([s1.contribution_id, s1.contribution_id, s2.contribution_id]);
+    expect(credits.slice(0, -3).every((x) => x.c === null)).toBe(true);
+    const mid = unapplyProverb(a, s1);
+    expect(paragraphCredits(mid.commentary_en, mid.provenance?.commentary_en).at(-1)!.c).toBe(s2.contribution_id);
   });
 
   it('fills an empty commentary as community and undoes it exactly', () => {

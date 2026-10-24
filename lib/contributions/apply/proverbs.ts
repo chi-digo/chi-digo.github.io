@@ -34,6 +34,26 @@ function shaped(p: ProverbEntry): ProverbEntry {
 const same = (a: unknown, b: unknown) => stableStringify(a ?? null) === stableStringify(b ?? null);
 const text = (p: ProverbEntry, f: Field) => String((p as unknown as Record<string, unknown>)[f] ?? '');
 
+/** Commentary paragraphs as the page shows them: blocks separated by a blank line. */
+export function paragraphs(text: string): string[] {
+  return text.split(/\n\s*\n/).filter((x) => x.trim());
+}
+
+/**
+ * Who wrote each commentary paragraph: stories are appended in order, so the last paragraphs belong
+ * to the community stories (in provenance order) and the rest to the published text (null).
+ */
+export function paragraphCredits(text: string, entries: { c: string; paras?: number }[] = []): { text: string; c: string | null }[] {
+  const paras = paragraphs(text);
+  const owners: (string | null)[] = paras.map(() => null);
+  let at = paras.length;
+  for (const e of [...entries].reverse()) {
+    const n = e.paras ?? 1;
+    for (let i = 0; i < n && at > 0; i++) owners[--at] = e.c;
+  }
+  return paras.map((t, i) => ({ text: t, c: owners[i] }));
+}
+
 export function meaningField(kind: 'idiomatic' | 'literal', lang: Lang): Field {
   return `${kind}_${lang}` as Field;
 }
@@ -83,7 +103,9 @@ export function applyProverb(p: ProverbEntry, change: Change): ProverbEntry {
     let next = set(p, f, value);
     // The field keeps its existing source (the rest is still what it was); an empty field becomes community.
     if (!current && !p.field_sources?.[f]) next = withSource(next, f, 'community' as FieldSource);
-    return shaped({ ...next, provenance: withProvenance(p.provenance, f, change) });
+    const prov = withProvenance(p.provenance, f, change);
+    prov[f] = prov[f].map((e) => (e.c === change.contribution_id ? { ...e, paras: paragraphs(String(pl.text)).length } : e));
+    return shaped({ ...next, provenance: prov });
   }
 
   if (change.type === 'proverb_variant') {

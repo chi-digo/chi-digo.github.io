@@ -30,6 +30,8 @@ beforeAll(() => {
   mkdirSync(join(dir, 'content/plants'), { recursive: true });
   cpSync(join(ROOT, 'public/data'), join(dir, 'public/data'), { recursive: true });
   cpSync(join(ROOT, 'content/plants/plants.json'), join(dir, 'content/plants/plants.json'));
+  // The committed proverbs, not the working tree (a UI test run may have a fixture appended to it).
+  writeFileSync(file(), execFileSync('git', ['show', 'HEAD:public/data/proverbs/index.json'], { cwd: ROOT }));
   before = readFileSync(file(), 'utf-8');
 });
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
@@ -72,6 +74,18 @@ describe('fold-in for proverbs', () => {
     const r2 = run(back, 'revert');
     expect(r2.failed).toEqual([]);
     expect(r2.reverted).toHaveLength(6);
+    expect(readFileSync(file(), 'utf-8')).toBe(before);
+  });
+
+  it('folds new proverbs in id order whatever order they arrive in', () => {
+    const common = { outcome: 'replace', region: 'tanga', confidence: 'native', edited: false, target_type: 'proverb', target_path: null, base: null };
+    const later = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000301', type: 'proverb_addition', target_id: 'p-390', final_payload: { digo: 'Dzuwa ra muhondo', meaning_en: 'tomorrow', mature: false } };
+    const earlier = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000302', type: 'proverb_addition', target_id: 'p-389', final_payload: { digo: 'Ndzala tayina masikiro', meaning_en: 'hunger', mature: false } };
+    expect(run([later], 'later').applied).toHaveLength(1);
+    expect(run([earlier], 'earlier').applied).toHaveLength(1);
+    expect((JSON.parse(readFileSync(file(), 'utf-8')) as ProverbEntry[]).slice(-2).map((x) => x.id)).toEqual(['p-389', 'p-390']);
+    const r = run([later, earlier].map((x) => ({ ...x, live_status: 'reverting' })), 'unfold');
+    expect(r.reverted).toHaveLength(2);
     expect(readFileSync(file(), 'utf-8')).toBe(before);
   });
 

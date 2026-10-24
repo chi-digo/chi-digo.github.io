@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
+import { Fragment, useState, useCallback, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { localePath, pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import { useTranslations } from '@/lib/i18n/context';
@@ -16,7 +16,7 @@ import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
 import type { Proverb, GroupedProverbResults } from '@/lib/proverbs/types';
-import type { ProverbEntry } from '@/lib/contributions/apply/proverbs';
+import { paragraphCredits, type ProverbEntry } from '@/lib/contributions/apply/proverbs';
 import { foldedProverbFor } from '@/lib/proverbs/loader';
 import { ANY_PROVERB_SLUG } from '@/lib/proverbs/slug';
 import { useProverbForms, ProverbSuggest } from '@/components/Contribute/ProverbContribute';
@@ -454,14 +454,8 @@ function AddProverbCta({ digo = '' }: { digo?: string }) {
 }
 
 /** The suggest menu, suggestions panel and forms for one proverb (not shown on a provisional one). */
-function ProverbContributions({ proverb }: { proverb: Proverb }) {
-  const { open, forms, panelKey } = useProverbForms(proverb);
-  return (
-    <>
-      <ProverbSuggest proverb={proverb} open={open} panelKey={panelKey} />
-      {forms}
-    </>
-  );
+function ProverbContributions({ proverb, forms }: { proverb: Proverb; forms: ReturnType<typeof useProverbForms> }) {
+  return <ProverbSuggest proverb={proverb} open={forms.open} panelKey={forms.panelKey} />;
 }
 
 /** Credits for community changes to one field. */
@@ -485,6 +479,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   const viewTracked = useRef(false);
   const [shareLang, setShareLang] = useState<'dg' | 'sw'>('dg');
   const { prerenderProverb, sharePrerendered, copyLink, isGenerating } = useShareCard();
+  const pf = useProverbForms(loading ? null : proverb);
 
   useEffect(() => {
     viewTracked.current = false;
@@ -554,7 +549,12 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   return (
     <CreditsProvider ids={provenanceIds((proverb as ProverbEntry).provenance)}>
       <article className={styles.detailArticle}>
-        {provisional && <p className={contrib.intro}>{t.contribute.word_new_note}</p>}
+        {provisional && (
+          <p className={contrib.intro}>
+            {t.contribute.pv_new_note}{' '}
+            <button type="button" className={contrib.textBtn} onClick={() => pf.open({ kind: 'report' })}>{t.contribute.word_menu_flag}</button>
+          </p>
+        )}
         <div className={styles.detailHeader}>
           <h1 className={styles.detailDigo}>{proverb.digo}</h1>
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
@@ -641,11 +641,13 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           return (
             <div className={styles.commentarySection}>
               <p className={styles.commentaryLabel}>{t.proverbs.cultural_context}</p>
-              {/* One paragraph per block of text (community stories are appended as paragraphs); text nodes only. */}
-              {commentaryText.split(/\n\s*\n/).filter((x) => x.trim()).map((para, i) => (
-                <p key={i} className={styles.commentaryText}>{para}</p>
+              {/* One paragraph per block of text; each community story is credited under its own paragraphs. Text nodes only. */}
+              {paragraphCredits(commentaryText, (proverb as ProverbEntry).provenance?.[`commentary_${locale}`]).map((para, i, all) => (
+                <Fragment key={i}>
+                  <p className={styles.commentaryText}>{para.text}</p>
+                  {para.c && all[i + 1]?.c !== para.c && <CreditLine ids={[para.c]} />}
+                </Fragment>
               ))}
-              <FieldCredit proverb={proverb} field={`commentary_${locale}`} />
             </div>
           );
         })()}
@@ -676,6 +678,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
               {v.c && <CreditLine ids={[v.c]} />}
             </div>
           ))}
+          {!provisional && (
+            <button type="button" className={contrib.textBtn} onClick={() => pf.open({ kind: 'variant' })}>
+              {t.contribute.pv_variant}
+            </button>
+          )}
         </div>
 
         {proverb.themes.length > 0 && (
@@ -721,7 +728,8 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
-        {!provisional && <ProverbContributions proverb={proverb} />}
+        {!provisional && <ProverbContributions proverb={proverb} forms={pf} />}
+        {pf.forms}
 
         <button type="button" className={styles.discoverBtn} onClick={handleDiscover}>
           {t.proverbs.discover_another}

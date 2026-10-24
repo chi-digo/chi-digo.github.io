@@ -70,9 +70,15 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
     outcome: r.outcome,
     region: r.region,
     confidence: r.confidence,
-    edited: !!r.final_payload && stableStringify(r.final_payload) !== stableStringify(r.payload),
+    edited: !!r.final_payload && stableStringify(unCompleted(r.final_payload)) !== stableStringify(unCompleted(r.payload)),
     base: r.base ? { value: r.base.value } : null,
   }));
+}
+
+/** Completing a new proverb at accept (themes, mature) is not an edit of what the contributor wrote. */
+function unCompleted(p: Record<string, unknown> | null) {
+  const { themes: _t, mature: _m, ...rest } = p ?? {};
+  return rest;
 }
 
 /** Accepted, live changes for an area. Cached across requests; accept, revert and pause revalidate it. */

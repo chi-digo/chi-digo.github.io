@@ -1,5 +1,6 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import { Checkbox, RadioGroup, TextArea, TextField } from '@chi-digo/design-system';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { msg, useContributionDraft } from '@/lib/contributions/client';
@@ -42,7 +43,7 @@ export function ProverbMeaningForm({ open, onClose, proverb, onSubmitted, kind }
       open={open}
       onClose={onClose}
       type="proverb_meaning"
-      title={current ? c.pv_fix_meaning : c.pv_add_meaning}
+      title={kind === 'literal' ? c.pv_literal : current ? c.pv_fix_meaning : c.pv_add_meaning}
       intro={c.pv_meaning_intro.replace('{proverb}', proverb.digo).replace('{language}', msg(c, `lang_${lang}`))}
       target={target(proverb)}
       draftKey={key}
@@ -123,6 +124,34 @@ export function ProverbVariantForm({ open, onClose, proverb, onSubmitted }: Form
     >
       <TextField label={c.pv_variant_label} value={draft.form} onChange={(e) => setDraft({ form: e.target.value })} maxLength={400} autoFocus />
       <TextField label={c.pv_variant_note_label} value={draft.note} onChange={(e) => setDraft({ note: e.target.value })} maxLength={300} />
+    </ContributionDialog>
+  );
+}
+
+/** "Something's wrong": private feedback about this proverb (or a new one awaiting an editor), for reviewers only. */
+export function ProverbReportForm({ open, onClose, proverb, onSubmitted }: FormProps) {
+  const c = useTranslations().contribute;
+  const pathname = usePathname();
+  const key = `feedback:${pathname}`;
+  const [draft, setDraft, clear] = useContributionDraft(key, { text: '' });
+
+  return (
+    <ContributionDialog
+      open={open}
+      onClose={onClose}
+      type="general_feedback"
+      title={c.word_menu_flag}
+      intro={`${proverb.digo}. ${c.feedback_intro}`}
+      target={{ target_type: 'page', target_id: pathname }}
+      draftKey={key}
+      resume={{ form: 'proverb_report', target_id: proverb.id }}
+      payload={draft.text.trim() ? { text: draft.text.trim() } : null}
+      onSubmitted={() => {
+        clear();
+        onSubmitted?.();
+      }}
+    >
+      <TextArea label={c.feedback_label} value={draft.text} onChange={(e) => setDraft({ text: e.target.value })} maxLength={2000} rows={5} autoFocus />
     </ContributionDialog>
   );
 }

@@ -46,6 +46,11 @@ begin
   r := pg_temp.review(a1, p2, 'accept');
   id2 := (select target_id from public.contributions where id = p2);
   assert id2 = 'p-' || lpad((hwm + 2)::text, 3, '0'), 'second reserved id ' || coalesce(id2, 'null');
+  assert (select (value #>> '{}')::int from public.app_settings where key = 'proverb_id_hwm') = hwm + 2, 'high-water mark not advanced';
+  -- An accept that does not go through (already accepted) spends no id.
+  r := pg_temp.review(a1, p2, 'accept');
+  assert r->>'error' = 'conflict', 'second accept of the same proverb: ' || r::text;
+  assert (select (value #>> '{}')::int from public.app_settings where key = 'proverb_id_hwm') = hwm + 2, 'a failed accept spent an id';
 
   -- A suggestion on the new proverb, then the proverb is reverted before fold-in: the id is not reused,
   -- and the open suggestion is closed.

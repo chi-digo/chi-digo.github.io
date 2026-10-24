@@ -74,7 +74,8 @@ export async function GET(request: Request) {
       return { submitted: own.length, accepted: own.filter((h) => h.status === 'accepted').length };
     };
 
-    const [plantChanges, wordChanges] = await Promise.all([getAreaOverlay('plant'), getAreaOverlay('word')]);
+    const [plantChanges, wordChanges, proverbChanges] = await Promise.all([getAreaOverlay('plant'), getAreaOverlay('word'), getAreaOverlay('proverb')]);
+    const changesFor = (t: string | null) => (t === 'word' ? wordChanges : t === 'proverb' ? proverbChanges : plantChanges);
     const now = Date.now();
     const groups = new Map<string, { target_type: string | null; target_id: string | null; target_label: string | null; items: unknown[] }>();
     for (const r of rows) {
@@ -86,7 +87,7 @@ export async function GET(request: Request) {
         contributor: { first_name: profiles?.first_name ?? null, ...record(user_id), is_you: user_id === caller.id },
         stale: now - new Date(r.created_at).getTime() > STALE_MS,
         claimed_by_other: !!r.claimed_by && r.claimed_by !== caller.id && new Date(r.claimed_until ?? 0).getTime() > now,
-        changed: targetChanged(r as unknown as ReviewRow, r.target_type === 'word' ? wordChanges : plantChanges),
+        changed: targetChanged(r as unknown as ReviewRow, changesFor(r.target_type)),
         // A flag older than 48 hours shows an age badge (spec 34 §15.3).
         overdue: r.type === 'entry_flag' && now - new Date(r.created_at).getTime() > 48 * 3_600_000,
       });

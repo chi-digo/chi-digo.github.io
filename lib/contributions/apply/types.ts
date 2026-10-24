@@ -24,6 +24,8 @@ export interface ProvenanceEntry {
   src: 'community';
   conf: Confidence | null;
   edited: boolean;
+  /** A story's paragraph count (proverb context), so each story is credited where it sits. */
+  paras?: number;
 }
 
 export type Provenance = Record<string, ProvenanceEntry[]>;

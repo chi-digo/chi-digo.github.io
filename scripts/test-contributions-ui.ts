@@ -320,9 +320,23 @@ async function main() {
     check('story sent', await visible(d, 'Asante!', 45000));
     check('…and accepted', (await acceptLatest('proverb_context')) === 200);
     await d.goto(`${BASE}${PROVERB}`);
-    const paras = await d.locator('[class*="commentaryText"]').allInnerTexts().catch(() => [] as string[]);
-    check('the story shows as its own paragraph', paras.includes('Grandmothers say it to children.') && paras.includes('Used in tests.'), JSON.stringify(paras));
+    // Wait for the page (and the overlay) to load, then find each paragraph by its exact text.
+    const story = d.locator('p', { hasText: /^Grandmothers say it to children\.$/ });
+    const shown = await story.first().waitFor({ state: 'visible', timeout: 30000 }).then(() => true, () => false);
+    check('the story shows as its own paragraph', shown && await d.locator('p', { hasText: /^Used in tests\.$/ }).first().isVisible());
     await shot(d, '18-proverb-story');
+    await d.getByRole('button', { name: 'Suggest an edit' }).click();
+    check('the menu offers a word-for-word meaning', await d.getByRole('menuitem', { name: 'Word for word meaning' }).isVisible().catch(() => false));
+    await d.getByRole('menuitem', { name: 'Something’s wrong' }).click();
+    check('"Something’s wrong" opens private feedback', await visible(d, 'Your feedback'));
+    await d.keyboard.press('Escape');
+    await d.getByRole('button', { name: 'Do you say it differently?' }).first().click();
+    await d.getByRole('textbox', { name: 'How you say it', exact: true }).fill('Methali ya kujaribu');
+    await d.getByRole('button', { name: 'Send suggestion' }).click();
+    check('variant sent from the inline offer', await visible(d, 'Asante!', 45000));
+    check('…and accepted', (await acceptLatest('proverb_variant')) === 200);
+    await d.goto(`${BASE}${PROVERB}`);
+    check('the variant shows under other forms', await visible(d, 'Methali ya kujaribu', 30000));
     await d.goto(`${BASE}/language/proverbs`);
     await d.getByRole('button', { name: 'Add a proverb' }).first().click();
     check('"Add a proverb" opens the form', await visible(d, 'The proverb in Digo'));

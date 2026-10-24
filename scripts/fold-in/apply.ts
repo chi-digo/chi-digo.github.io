@@ -117,10 +117,11 @@ function foldProverb(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
     if (list.some((p) => p.id === id)) throw new Error(`reserved id ${id} is already used`);
     const entry = proverbAdditionEntry(change, id);
     if (list.some((p) => p.slug === entry.slug)) throw new Error(`slug ${entry.slug} is already used`);
-    if (list.length && Number(entry.source_number) <= Number(list[list.length - 1].source_number)) {
-      throw new Error(`reserved id ${id} is not past the last proverb`);
-    }
-    list.push(entry);
+    // Ids are reserved in accept order but may fold in any order: keep the list sorted by number.
+    const n = Number(entry.source_number);
+    const after = list.findIndex((p) => Number(p.source_number) > n);
+    if (after < 0) list.push(entry);
+    else list.splice(after, 0, entry);
     proverbsDirty = true;
     return 'applied';
   }

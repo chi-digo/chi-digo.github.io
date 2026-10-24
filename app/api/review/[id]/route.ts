@@ -8,6 +8,7 @@ import {
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
+import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
@@ -136,10 +137,22 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       const { ruled_out, pii } = warningsFor(row.type, finalPayload);
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
       if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
+      // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9).
+      if (row.type === 'proverb_addition' && typeof finalPayload.mature !== 'boolean') {
+        return NextResponse.json({ error: 'mature_required' }, { status: 422 });
+      }
 
       const liveChanges = area ? await getAreaOverlay(area) : [];
       if (targetChanged(row as unknown as ReviewRow, liveChanges)) {
         return NextResponse.json({ error: 'target_changed' }, { status: 409 });
+      }
+      // A story may not push its commentary past the cap (it would only conflict at fold-in).
+      if (row.type === 'proverb_context') {
+        const now = resolveTarget(row.type, 'proverb', row.target_id ?? undefined, finalPayload, { isTest: row.is_test, liveChanges });
+        const cur = (now?.base?.value as { text?: string } | undefined)?.text ?? '';
+        if ((cur ? cur.length + 2 : 0) + String(finalPayload.text ?? '').length > COMMENTARY_MAX) {
+          return NextResponse.json({ error: 'too_long' }, { status: 422 });
+        }
       }
       if (body.action === 'accept' && (await variantRequired(caller.db, row as unknown as ReviewRow, liveChanges))) {
         return NextResponse.json({ error: 'variant_required' }, { status: 422 });
@@ -162,8 +175,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         if (caller.role !== 'admin') return forbidden();
         const final = PAYLOADS[row.type as ContributionType].safeParse(body.final_payload);
         if (!final.success) return badRequest('invalid', final.error.issues);
-        const { ruled_out } = warningsFor(row.type, final.data as Record<string, unknown>);
+        const { ruled_out, pii } = warningsFor(row.type, final.data as Record<string, unknown>);
         if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
+        if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
         args.final_payload = final.data;
       }
       // A conflict is resolved against the text as it is now (published data plus the other live changes).

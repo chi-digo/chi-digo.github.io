@@ -50,8 +50,11 @@ export function warningsFor(type: ContributionType, payload: Record<string, unkn
 
 /** Whether the target has changed since the suggestion was made (base no longer matches). */
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
-  if (!row.base || (row.target_type !== 'plant' && row.target_type !== 'word') || !row.target_id) return false;
-  const now = resolveTarget(row.type, row.target_type, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
+  if (!row.base || !row.target_id) return false;
+  // A story appends its own paragraph, so it never goes stale; a meaning replaces text and can.
+  const checked = row.target_type === 'plant' || row.target_type === 'word' || (row.target_type === 'proverb' && row.type === 'proverb_meaning');
+  if (!checked) return false;
+  const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
   if (!now?.base) return false;
   const hash = row.base.hash ?? createHash('sha256').update(stableStringify(row.base.value ?? null)).digest('hex');
   return now.base.hash !== hash;
