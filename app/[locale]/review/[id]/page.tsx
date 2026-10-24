@@ -8,6 +8,7 @@ import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { msg, useContributorStatus } from '@/lib/contributions/client';
 import { payloadSummary } from '@/lib/contributions/display';
+import { WordDiff } from '@/components/Contribute/WordDiff';
 import { refreshPlantOverlay } from '@/lib/plants/loader';
 import { refreshWordOverlay } from '@/lib/dictionary/loader';
 import { refreshProverbOverlay } from '@/lib/proverbs/loader';
@@ -45,7 +46,7 @@ interface Item {
 interface Detail {
   item: Item;
   contributor: { first_name: string | null; submitted: number; accepted: number; is_you: boolean };
-  current: { label: string; value: unknown } | null;
+  current: { label: string; value: unknown; source?: string | null } | null;
   changed: boolean;
   warnings: { ruled_out: { found: string; right: string }[]; pii: boolean };
   agreements: { region: string | null; confidence: string | null; counted: boolean }[];
@@ -66,6 +67,7 @@ const EDITABLE: Record<string, string[]> = {
   proverb_variant: ['form', 'note'],
   proverb_meaning: ['text'],
   proverb_context: ['text'],
+  translation_fix: ['proposed'],
 };
 
 /** Proverb field labels (the word labels above are for the dictionary). */
@@ -78,9 +80,9 @@ const PROVERB_LABEL: Record<string, string> = {
 const FIELD_LABEL: Record<string, string> = {
   name: 'name_label', other_names: 'other_names_label', headword: 'newword_headword_label', meaning_en: 'newword_meaning_en',
   meaning_sw: 'newword_meaning_sw', definition_dg: 'newword_dg_label', example_dg: 'newword_example_dg', example_en: 'newword_example_en',
-  dg: 'example_dg_label', en: 'example_en_label', sw: 'example_sw_label', form: 'variant_label',
+  dg: 'example_dg_label', en: 'example_en_label', sw: 'example_sw_label', form: 'variant_label', proposed: 'tf_label',
 };
-const LONG_FIELDS = ['text', 'definition_dg', 'example_dg', 'dg', 'usage'];
+const LONG_FIELDS = ['text', 'definition_dg', 'example_dg', 'dg', 'usage', 'proposed'];
 
 function currentText(value: unknown): string {
   if (value == null) return '';
@@ -231,6 +233,12 @@ function ReviewItem({ id }: { id: string }) {
       {detail.warnings.pii && <p className={styles.warning}>{r.warn_pii}</p>}
       {item.fold_error && <p className={styles.warning}>{item.fold_error}</p>}
 
+      {item.type === 'translation_fix' && detail.current?.source && (
+        <section className={styles.box}>
+          <h2 className={styles.boxTitle}>{c.tf_source}</h2>
+          <p className={styles.text} lang="en">{detail.current.source}</p>
+        </section>
+      )}
       {detail.current && (
         <section className={styles.box}>
           <h2 className={styles.boxTitle}>{r.current}</h2>
@@ -265,6 +273,14 @@ function ReviewItem({ id }: { id: string }) {
           <p className={styles.muted}>{base.kind === 'literal' ? c.pv_kind_literal : c.pv_kind_idiomatic} · {msg(c, `lang_${base.lang}`)}</p>
         )}
         {item.type === 'proverb_context' && <p className={styles.muted}>{msg(c, `lang_${base.lang}`)}</p>}
+        {item.type === 'translation_fix' && (
+          <>
+            <p className={styles.muted}>{msg(c, `tf_${base.field}`).replace('{term}', '').replace(/^: /, '')} · {msg(c, `lang_${base.lang}`)}</p>
+            {/* What changes, word by word, against the text as it is now. */}
+            <WordDiff before={currentText(detail.current?.value)} after={String(base.proposed ?? '')} />
+            {base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}
+          </>
+        )}
         {item.type === 'proverb_variant' && base.note ? <p className={styles.muted}>{String(base.note)}</p> : null}
         {item.type === 'proverb_addition' && (
           <dl className={styles.facts}>
@@ -281,6 +297,7 @@ function ReviewItem({ id }: { id: string }) {
             : item.type === 'proverb_addition' ? String(base.digo)
             : item.type === 'proverb_variant' ? String(base.form)
             : item.type === 'entry_flag' ? String(base.detail ?? '')
+            : item.type === 'translation_fix' ? ''
             : payloadSummary(item.payload)}
         </p>
         {item.type === 'definition_update' && base.reason ? <p className={styles.muted}>“{String(base.reason)}”</p> : null}

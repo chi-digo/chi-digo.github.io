@@ -76,7 +76,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
           accepted: (history ?? []).filter((h) => h.status === 'accepted').length,
           is_you: user_id === caller.id,
         },
-        current: current ? { label: current.label, value: current.base?.value ?? null } : null,
+        current: current ? { label: current.label, value: current.base?.value ?? null, source: current.source ?? null } : null,
         changed: targetChanged(row as unknown as ReviewRow, liveChanges),
         warnings: warningsFor(row.type, (row.final_payload ?? row.payload) as Record<string, unknown>),
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
