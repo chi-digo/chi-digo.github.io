@@ -342,6 +342,19 @@ async function main() {
     check('"Add a proverb" opens the form', await visible(d, 'The proverb in Digo'));
     await shot(d, '19-new-proverb');
 
+    console.log('4e. translation fixes (Swahili page)');
+    await d.goto(`${BASE}/sw${PLANT}`);
+    check('a Swahili plant page offers "Fix this translation"', await visible(d, 'Rekebisha tafsiri hii', 30000));
+    // The first one sits under the summary (the section links below it open the section form).
+    await d.getByRole('button', { name: 'Rekebisha tafsiri hii' }).first().click();
+    check('…with the English shown alongside', await visible(d, 'Kwa Kiingereza'));
+    await d.getByRole('textbox', { name: 'Maandishi yaliyosahihishwa', exact: true }).fill('Jaribio la mmea');
+    check('…and sending waits for what was wrong', await d.getByRole('button', { name: /Tuma/ }).last().isDisabled());
+    await d.getByRole('textbox', { name: 'Nini kilikosewa?', exact: true }).fill('Fupi mno');
+    await shot(d, '20-translation-fix');
+    await d.getByRole('button', { name: /Tuma/ }).last().click();
+    check('translation fix sent', await visible(d, 'Asante!', 45000));
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });

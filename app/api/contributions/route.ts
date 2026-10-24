@@ -5,6 +5,7 @@ import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/
 import { resolveTarget, WORD_ID, similarHeadwords, PROVERB_ID, similarProverb } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { normaliseDigo } from '@/lib/contributions/text';
+import { translationTextProblem } from '@/lib/contributions/review';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
 
 /** Submit a contribution (spec 34 technical §4.1). Limits and visibility are applied in the database. */
@@ -55,17 +56,30 @@ export async function POST(request: Request) {
       if (!(id === TEST_TARGET || PROVERB_ID.test(id))) return badRequest('invalid_target');
     }
   }
+  // A translation fix names a plant, a glossary term or a proverb (spec 34 §17, phase 5a).
+  if (input.type === 'translation_fix') {
+    const id = input.target_id ?? '';
+    const ok = id === TEST_TARGET
+      || (input.target_type === 'plant' && /^[a-z0-9-]+$/.test(id))
+      || (input.target_type === 'glossary' && /^[\p{L}' -]{1,60}$/u.test(id))
+      || (input.target_type === 'proverb' && PROVERB_ID.test(id));
+    if (!ok) return badRequest('invalid_target');
+  }
   if (caller.isTest && input.type !== 'general_feedback' && input.target_id !== TEST_TARGET) {
     return forbidden('test_account_target');
   }
 
   try {
-    const area = input.target_type === 'plant' ? 'plant' : input.target_type === 'word' ? 'word' : input.target_type === 'proverb' ? 'proverb' : null;
+    const area = input.target_type === 'plant' || input.target_type === 'glossary' ? 'plant' : input.target_type === 'word' ? 'word' : input.target_type === 'proverb' ? 'proverb' : null;
     const target = resolveTarget(input.type, input.target_type, input.target_id, payload.data, {
       isTest: caller.isTest,
       liveChanges: area ? await getAreaOverlay(area) : [],
     });
     if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+    if (input.type === 'translation_fix') {
+      const problem = translationTextProblem(target.base?.value, (payload.data as { proposed: string }).proposed);
+      if (problem) return badRequest(problem);
+    }
 
     // A plant name someone already suggested: ask "is it the same?" instead of filing a duplicate.
     if (input.type === 'plant_name' && !force_new) {
@@ -129,7 +143,8 @@ export async function POST(request: Request) {
       p_row: {
         ...input,
         payload: payload.data,
-        scope: TYPE_SCOPE[input.type],
+        // Proverb fixes are reviewed with the other proverb changes (§17.8, rule 9).
+        scope: input.type === 'translation_fix' && input.target_type === 'proverb' ? 'proverbs' : TYPE_SCOPE[input.type],
         target_label: target.label,
         target_path: target.path,
         base: target.base ?? null,

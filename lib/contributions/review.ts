@@ -5,7 +5,7 @@
 import { createHash } from 'crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { ruledOutIn } from '@/lib/digo/ruled-out';
-import { hasPII, stableStringify } from './text';
+import { hasPII, stableStringify, sameMarkup } from './text';
 import { loadPlant, resolveTarget, headwordExists, loadWord, loadProverb, similarProverb } from './targets';
 import { getAreaOverlay } from './overlay';
 import { hasChange } from './apply/types';
@@ -44,15 +44,30 @@ export function digoText(type: ContributionType, payload: Record<string, unknown
 
 export function warningsFor(type: ContributionType, payload: Record<string, unknown>) {
   const ruled = digoText(type, payload).flatMap((t) => ruledOutIn(t));
-  const text = Object.values(payload).filter((v): v is string => typeof v === 'string');
+  // A translation fix publishes only its text; the private reason may mention anything.
+  const text = type === 'translation_fix'
+    ? [String(payload.proposed ?? '')]
+    : Object.values(payload).filter((v): v is string => typeof v === 'string');
   return { ruled_out: ruled, pii: text.some(hasPII) };
+}
+
+/**
+ * A translation fix must change the text and keep its markup (spec 34 §17.8): checked at submit, on a
+ * contributor's edit, at accept and on an admin's retry edit.
+ */
+export function translationTextProblem(base: unknown, proposed: unknown): 'unchanged' | 'markup' | null {
+  const before = String((base as { text?: string } | null | undefined)?.text ?? '');
+  const after = String(proposed ?? '');
+  if (after.trim() === before.trim()) return 'unchanged';
+  return sameMarkup(before, after) ? null : 'markup';
 }
 
 /** Whether the target has changed since the suggestion was made (base no longer matches). */
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
   if (!row.base || !row.target_id) return false;
   // A story appends its own paragraph, so it never goes stale; a meaning replaces text and can.
-  const checked = row.target_type === 'plant' || row.target_type === 'word' || (row.target_type === 'proverb' && row.type === 'proverb_meaning');
+  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary'
+    || (row.target_type === 'proverb' && (row.type === 'proverb_meaning' || row.type === 'translation_fix'));
   if (!checked) return false;
   const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
   if (!now?.base) return false;
@@ -92,6 +107,11 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
     return base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.text ?? '')) > 300;
   }
   if (row.type === 'proverb_context') return finalPayload.lang === 'dg';
+  // Translation fixes (spec 34 §17.8): big changes, any English change, and source-book proverb text.
+  if (row.type === 'translation_fix') {
+    const base = row.base?.value as { text?: string; source?: string | null } | null;
+    return finalPayload.lang === 'en' || base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.proposed ?? '')) > 300;
+  }
   if (row.type === 'proverb_addition') return !!similarProverb(String(finalPayload.digo ?? ''), liveChanges);
   return false;
 }
@@ -120,6 +140,7 @@ export function lockedFieldsChanged(type: ContributionType, payload: Record<stri
     proverb_meaning: ['lang', 'kind', 'mode'],
     proverb_context: ['lang'],
     proverb_addition: ['usage_lang'],
+    translation_fix: ['lang', 'field', 'part'],
   }[type as string] ?? [];
   return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
 }
@@ -159,5 +180,5 @@ export async function proverbDependants(row: { id: string; target_id: string | n
 
 /** Proverb texts are anecdote-shaped: personal details must be edited out before accept (spec 34 §16.9). */
 export function blocksOnPII(type: ContributionType): boolean {
-  return type.startsWith('proverb_');
+  return type.startsWith('proverb_') || type === 'translation_fix';
 }

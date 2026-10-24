@@ -8,6 +8,7 @@ import type { Proverb, FieldSource } from '@/lib/proverbs/types';
 import { proverbSlug } from '@/lib/proverbs/slug';
 import { stableStringify } from '../strings';
 import { ConflictError, hasChange, withProvenance, withoutProvenance, type Change, type Provenance } from './types';
+import { PROVERB_TRANSLATION_PATH } from './translations';
 
 /** The fixed key order of a proverb (that of the shipped data); `provenance` may follow. */
 export const PROVERB_KEYS = ['id', 'slug', 'source_number', 'digo', 'ipa', 'audio', 'literal_en', 'idiomatic_en', 'swahili',
@@ -43,11 +44,12 @@ export function paragraphs(text: string): string[] {
  * Who wrote each commentary paragraph: stories are appended in order, so the last paragraphs belong
  * to the community stories (in provenance order) and the rest to the published text (null).
  */
-export function paragraphCredits(text: string, entries: { c: string; paras?: number }[] = []): { text: string; c: string | null }[] {
+export function paragraphCredits(text: string, entries: { c: string; paras?: number; kind?: string }[] = []): { text: string; c: string | null }[] {
   const paras = paragraphs(text);
   const owners: (string | null)[] = paras.map(() => null);
   let at = paras.length;
-  for (const e of [...entries].reverse()) {
+  // Only stories add paragraphs; a translation fix rewrites text and is credited at the page foot.
+  for (const e of [...entries].filter((x) => x.kind !== 'translation').reverse()) {
     const n = e.paras ?? 1;
     for (let i = 0; i < n && at > 0; i++) owners[--at] = e.c;
   }
@@ -108,6 +110,16 @@ export function applyProverb(p: ProverbEntry, change: Change): ProverbEntry {
     return shaped({ ...next, provenance: prov });
   }
 
+  if (change.type === 'translation_fix') {
+    // A corrected translation of one field (spec 34 §17): checked against the text and source it was made on.
+    const f = (change.target_path ?? '') as Field;
+    if (!PROVERB_TRANSLATION_PATH.test(f)) throw new ConflictError(change.contribution_id, f);
+    const base = change.base?.value as { text: string; source: FieldSource | null } | undefined;
+    if (!base || !same(proverbFieldBase(p, f), base)) throw new ConflictError(change.contribution_id, f);
+    const next = withSource(set(p, f, String(pl.proposed)), f, 'community' as FieldSource);
+    return shaped({ ...next, provenance: withProvenance(p.provenance, f, change) });
+  }
+
   if (change.type === 'proverb_variant') {
     const v: Variant = { form: String(pl.form), note: String(pl.note ?? ''), region: change.region ?? null, c: change.contribution_id };
     return shaped({
@@ -152,6 +164,17 @@ export function unapplyProverb(p: ProverbEntry, change: Change): ProverbEntry {
       if (base) out = withSource(out, f, base.source);
     }
     return drop(out);
+  }
+
+  if (change.type === 'translation_fix') {
+    const f = (change.target_path ?? '') as Field;
+    const cur = text(p, f);
+    const fixed = String(pl.proposed);
+    // Stories appended after the fix stay: only the fixed part goes back to what it was.
+    const tail = cur === fixed ? '' : cur.startsWith(`${fixed}\n\n`) ? cur.slice(fixed.length) : null;
+    if (!PROVERB_TRANSLATION_PATH.test(f) || tail === null) throw new ConflictError(c, f);
+    const base = change.base?.value as { text: string; source: FieldSource | null };
+    return drop(withSource(set(p, f, base.text + tail), f, base.source));
   }
 
   if (change.type === 'proverb_variant') {

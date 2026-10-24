@@ -7,6 +7,8 @@ import type { ContributionType, Region, Confidence } from '../schemas';
 export interface Change {
   contribution_id: string;
   type: ContributionType;
+  /** Which kind of item the change is on (plant and glossary share an overlay area). */
+  target_type?: string | null;
   target_id: string;
   target_path?: string | null;
   final_payload: Record<string, unknown>;
@@ -26,6 +28,8 @@ export interface ProvenanceEntry {
   edited: boolean;
   /** A story's paragraph count (proverb context), so each story is credited where it sits. */
   paras?: number;
+  /** A translation fix: credited once at the foot of the page, not under the block (§17 decision 6). */
+  kind?: 'translation';
 }
 
 export type Provenance = Record<string, ProvenanceEntry[]>;
@@ -44,7 +48,10 @@ export function hasChange(provenance: Provenance | undefined, id: string): boole
 }
 
 export function withProvenance(provenance: Provenance | undefined, path: string, change: Change): Provenance {
-  const entry: ProvenanceEntry = { c: change.contribution_id, src: 'community', conf: change.confidence ?? null, edited: !!change.edited };
+  const entry: ProvenanceEntry = {
+    c: change.contribution_id, src: 'community', conf: change.confidence ?? null, edited: !!change.edited,
+    ...(change.type === 'translation_fix' && { kind: 'translation' as const }),
+  };
   return { ...(provenance ?? {}), [path]: [...(provenance?.[path] ?? []), entry] };
 }
 

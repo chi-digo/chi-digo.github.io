@@ -20,6 +20,7 @@ import { paragraphCredits, type ProverbEntry } from '@/lib/contributions/apply/p
 import { foldedProverbFor } from '@/lib/proverbs/loader';
 import { ANY_PROVERB_SLUG } from '@/lib/proverbs/slug';
 import { useProverbForms, ProverbSuggest } from '@/components/Contribute/ProverbContribute';
+import { TranslationCredits } from '@/components/Contribute/TranslationFixForm';
 import { NewProverbForm } from '@/components/Contribute/ProverbForms';
 import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
 import { msg, takeResumeIntent } from '@/lib/contributions/client';
@@ -460,7 +461,8 @@ function ProverbContributions({ proverb, forms }: { proverb: Proverb; forms: Ret
 
 /** Credits for community changes to one field. */
 function FieldCredit({ proverb, field }: { proverb: Proverb; field: string }) {
-  const list = (proverb as ProverbEntry).provenance?.[field];
+  // Translation fixes are credited once at the foot of the page, not under the field (spec 34 §17).
+  const list = (proverb as ProverbEntry).provenance?.[field]?.filter((e) => e.kind !== 'translation');
   return list?.length ? <CreditLine ids={list.map((e) => e.c)} /> : null;
 }
 
@@ -728,6 +730,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
+        <TranslationCredits provenance={[(proverb as ProverbEntry).provenance]} />
         {!provisional && <ProverbContributions proverb={proverb} forms={pf} />}
         {pf.forms}
 

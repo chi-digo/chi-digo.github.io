@@ -91,6 +91,7 @@ export interface GlossaryTerm {
   source: string;
   dict_headword?: string;
   notes?: string;
+  provenance?: Provenance;
 }
 
 export interface GroupedPlantResults {

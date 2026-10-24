@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { SCOPES, TYPES, REGIONS, CONFIDENCE, type Scope } from '@/lib/contributions/schemas';
-import { getCaller, forbidden, isReviewer, badRequest, serverError } from '@/lib/contributions/server';
+import { getCaller, forbidden, isReviewer, badRequest, serverError, readsLanguage } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
@@ -63,6 +63,8 @@ export async function GET(request: Request) {
       const seen = new Set(rows.map((r) => r.id));
       rows = [...rows, ...(flagRows ?? []).filter((r) => !seen.has(r.id))];
     }
+    // Swahili and Digo translation fixes go only to reviewers who read that language.
+    rows = rows.filter((r) => readsLanguage(caller, r));
 
     // Each contributor's record helps reviewers weigh a suggestion.
     const userIds = [...new Set(rows.map((r) => r.user_id).filter(Boolean))] as string[];
@@ -89,13 +91,18 @@ export async function GET(request: Request) {
         claimed_by_other: !!r.claimed_by && r.claimed_by !== caller.id && new Date(r.claimed_until ?? 0).getTime() > now,
         changed: targetChanged(r as unknown as ReviewRow, changesFor(r.target_type)),
         // A flag older than 48 hours shows an age badge (spec 34 §15.3).
-        overdue: r.type === 'entry_flag' && now - new Date(r.created_at).getTime() > 48 * 3_600_000,
+        // Flags older than 48 hours, and translation fixes nobody picked up in 7 days, get an age badge.
+        overdue: (r.type === 'entry_flag' && now - new Date(r.created_at).getTime() > 48 * 3_600_000)
+          || (r.type === 'translation_fix' && r.status === 'pending' && now - new Date(r.created_at).getTime() > 7 * 86_400_000),
+        overdue_days: r.type === 'translation_fix' ? 7 : 2,
       });
     }
     // Offensive-content flags come first.
     const offensive = (g: { items: unknown[] }) =>
       g.items.some((i) => (i as { type: string; payload: { reason?: string } }).type === 'entry_flag' && (i as { payload: { reason?: string } }).payload?.reason === 'offensive');
-    const ordered = [...groups.values()].sort((a, b) => Number(offensive(b)) - Number(offensive(a)));
+    // Then anything overdue (old flags, translation fixes waiting a week), as decision 5 asks.
+    const overdue = (g: { items: unknown[] }) => g.items.some((i) => (i as { overdue?: boolean }).overdue);
+    const ordered = [...groups.values()].sort((a, b) => Number(offensive(b)) - Number(offensive(a)) || Number(overdue(b)) - Number(overdue(a)));
     return NextResponse.json({ groups: ordered }, { headers: { 'Cache-Control': 'no-store' } });
   } catch (err) {
     return serverError(err, 'queue');

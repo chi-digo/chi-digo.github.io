@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { PAYLOADS, type ContributionType } from '@/lib/contributions/schemas';
 import { optSafeText } from '@/lib/contributions/text';
-import { getCaller, badRequest, forbidden, serverError } from '@/lib/contributions/server';
+import { getCaller, badRequest, forbidden, serverError, overlayArea } from '@/lib/contributions/server';
+import { translationTextProblem } from '@/lib/contributions/review';
 import { resolveTarget } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 
@@ -45,9 +46,13 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
         // The edit may point at another section or language, so the base is taken again.
         const target = resolveTarget(row.type, row.target_type ?? undefined, row.target_id ?? undefined, payload.data, {
           isTest: row.is_test,
-          liveChanges: row.target_type === 'plant' ? await getAreaOverlay('plant') : [],
+          liveChanges: overlayArea(row.target_type) ? await getAreaOverlay(overlayArea(row.target_type)!) : [],
         });
         if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+        if (row.type === 'translation_fix') {
+          const problem = translationTextProblem(target.base?.value, (payload.data as { proposed?: string }).proposed);
+          if (problem) return badRequest(problem);
+        }
         update = {
           status: 'pending', payload: payload.data, base: target.base ?? null, target_path: target.path, target_label: target.label,
           ...(body.note !== undefined && { note: body.note ?? null }),

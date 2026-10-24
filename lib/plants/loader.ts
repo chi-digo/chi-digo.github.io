@@ -2,6 +2,7 @@ import * as Sentry from '@sentry/nextjs';
 import { ensureFreshData } from '@/lib/pwa/data-version';
 import type { GlossaryTerm, Plant, PlantStub } from './types';
 import { applyAllToPlant, applyAllToStubs } from '@/lib/contributions/apply/plants';
+import { applyAllToGlossary } from '@/lib/contributions/apply/translations';
 import type { Change, ConflictError } from '@/lib/contributions/apply/types';
 
 const cache = new Map<string, unknown>();
@@ -36,6 +37,7 @@ export function digoLetterKey(text: string): string {
 
 let overlay: Promise<Change[]> | null = null;
 let mergedStubs: Promise<PlantStub[]> | null = null;
+let mergedGlossary: Promise<GlossaryTerm[]> | null = null;
 const mergedPlants = new Map<string, Promise<Plant | null>>();
 
 /** Accepted changes for plants, fetched once per page load. Offline or failing: no changes. */
@@ -57,6 +59,7 @@ export function plantOverlay(): Promise<Change[]> {
 export function refreshPlantOverlay() {
   overlay = null;
   mergedStubs = null;
+  mergedGlossary = null;
   mergedPlants.clear();
 }
 
@@ -91,8 +94,17 @@ export async function getPlant(slug: string): Promise<Plant | null> {
   return mergedPlants.get(slug)!;
 }
 
+/** The glossary with live translation fixes (glossary terms share the plants overlay area). */
 export async function loadGlossary(): Promise<GlossaryTerm[]> {
-  return fetchJson<GlossaryTerm[]>('/data/plants/glossary.json');
+  if (!mergedGlossary) {
+    mergedGlossary = Promise.all([fetchJson<GlossaryTerm[]>('/data/plants/glossary.json'), plantOverlay()]).then(([terms, changes]) =>
+      applyAllToGlossary(terms, changes, reportConflict),
+    );
+    mergedGlossary.catch(() => {
+      mergedGlossary = null;
+    });
+  }
+  return mergedGlossary;
 }
 
 /** Alphabetical by Digo headword; plants with no Digo name sort last (spec 33 §6). */

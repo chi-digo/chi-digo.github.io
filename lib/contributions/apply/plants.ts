@@ -9,6 +9,7 @@ import type { Locale } from '@/lib/i18n/config';
 import { stableStringify } from '../strings';
 import { hasProse, termPieces } from '@/lib/plants/derive';
 import { ConflictError, hasChange, withProvenance, type Change } from './types';
+import { applyTranslation } from './translations';
 
 interface NamePayload { name: string }
 interface InfoPayload { section: SectionKey; lang: Locale; mode: 'replace' | 'add'; text: string }
@@ -90,6 +91,8 @@ export function applyPlant(plant: Plant, change: Change): Plant {
     };
   }
 
+  if (change.type === 'translation_fix') return applyTranslation(plant, 'plant', change);
+
   return plant;
 }
 
@@ -98,7 +101,10 @@ export function applyPlant(plant: Plant, change: Change): Plant {
  * stub has no sections, so `has_prose` changes from plant_info show in lists once folded in.
  */
 export function applyPlantStub(stub: PlantStub, change: Change): PlantStub {
-  if (hasChange(stub.provenance, change.contribution_id) || change.type !== 'plant_name') return stub;
+  if (hasChange(stub.provenance, change.contribution_id)) return stub;
+  // A fixed teaser shows in lists too (the stub carries the teaser; summaries and parts it doesn't).
+  if (change.type === 'translation_fix') return /^teaser\./.test(change.target_path ?? '') ? applyTranslation(stub, 'plant', change) : stub;
+  if (change.type !== 'plant_name') return stub;
   const { name } = change.final_payload as unknown as NamePayload;
   const terms = unique([...stub.search_terms, ...termPieces(name)]);
   if (change.outcome === 'variant') {
@@ -128,7 +134,8 @@ export function applyPlantStub(stub: PlantStub, change: Change): PlantStub {
  */
 export function applyAllToPlant(plant: Plant, changes: Change[], onConflict?: (e: ConflictError) => void): Plant {
   return changes
-    .filter((c) => c.target_id === plant.slug)
+    // Plants and glossary terms share the overlay area; a term could share a plant's slug.
+    .filter((c) => c.target_id === plant.slug && (c.target_type ?? 'plant') === 'plant')
     .reduce((p, c) => {
       try {
         return applyPlant(p, c);
@@ -145,7 +152,9 @@ export function applyAllToPlant(plant: Plant, changes: Change[], onConflict?: (e
 export function applyAllToStubs(stubs: PlantStub[], changes: Change[], onConflict?: (e: ConflictError) => void): PlantStub[] {
   if (!changes.length) return stubs;
   const bySlug = new Map<string, Change[]>();
-  for (const c of changes) bySlug.set(c.target_id, [...(bySlug.get(c.target_id) ?? []), c]);
+  for (const c of changes) {
+    if ((c.target_type ?? 'plant') === 'plant') bySlug.set(c.target_id, [...(bySlug.get(c.target_id) ?? []), c]);
+  }
   return stubs.map((s) => {
     const list = bySlug.get(s.slug);
     if (!list) return s;

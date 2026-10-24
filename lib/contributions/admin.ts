@@ -36,11 +36,12 @@ export async function loadUsers(db: SupabaseClient, ids?: string[], reveal?: str
   if (!rows?.length) return [];
   const userIds = rows.map((r) => r.id);
 
-  const [{ data: scopes }, { data: authors }, { data: reviewed }, emails] = await Promise.all([
+  const [{ data: scopes }, { data: authors }, { data: reviewed }, emails, { data: langs }] = await Promise.all([
     db.from('profile_review_scopes').select('user_id, scope, granted_at').in('user_id', userIds),
     db.from('contributions').select('user_id, status').in('user_id', userIds).eq('is_test', false),
     db.from('contributions').select('reviewer_id').in('reviewer_id', userIds).eq('is_test', false),
     emailMap(db),
+    db.from('profile_review_languages').select('user_id, lang').in('user_id', userIds),
   ]);
 
   return rows.map((r) => {
@@ -56,6 +57,7 @@ export async function loadUsers(db: SupabaseClient, ids?: string[], reveal?: str
       role: r.role as Role,
       blocked: !!r.blocked_at,
       scopes: mine.map((s) => s.scope as ReviewScope),
+      languages: (langs ?? []).filter((l) => l.user_id === r.id).map((l) => l.lang as 'sw' | 'dg'),
       granted_at: mine.map((s) => s.granted_at).sort()[0] ?? null,
       submitted: own.length,
       accepted: own.filter((c) => c.status === 'accepted').length,

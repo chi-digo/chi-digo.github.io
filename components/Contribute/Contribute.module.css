@@ -260,3 +260,44 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+/* Translation fixes: the English source beside the form, and the page-foot credit. */
+.source {
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+.source summary {
+  cursor: pointer;
+}
+.source p {
+  margin: var(--space-2) 0 0;
+  white-space: pre-line;
+}
+.translationCredits {
+  margin-top: var(--space-6);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border-default);
+}
+
+/* Reviewer diff: removed words struck through, added words highlighted. */
+.diff {
+  white-space: pre-line;
+  line-height: 1.6;
+}
+.diff del {
+  color: var(--fg-danger, #c4280a);
+  background: color-mix(in srgb, var(--fg-danger, #c4280a) 10%, transparent);
+}
+.diff ins {
+  text-decoration: none;
+  color: var(--fg-success, #1f7a3a);
+  background: color-mix(in srgb, var(--fg-success, #1f7a3a) 14%, transparent);
+}
+
+/* An inline "Fix" link in a meta line: a comfortable tap target on phones. */
+.inlineFix {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--space-1);
+}
