@@ -29,7 +29,7 @@ export async function GET() {
   const byId = new Map((rows ?? []).map((r) => [r.id, r]));
   const out = (data ?? []).map((n) => {
     let c = n.contribution_id ? byId.get(n.contribution_id) : null;
-    const forReviewers = n.kind === 'second_review' || n.kind === 'report_hidden';
+    const forReviewers = n.kind === 'second_review' || n.kind === 'report_hidden' || n.kind === 'translation_overdue';
     // Reviewer notices show the item only while the reader can still review it.
     if (c && forReviewers && !(n.kind === 'report_hidden' ? caller.role === 'admin' && !caller.blocked : canReview(caller, c.scope as Scope))) c = null;
     return {

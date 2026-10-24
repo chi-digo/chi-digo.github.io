@@ -17,6 +17,7 @@ interface AdminUser {
   role: 'member' | 'reviewer' | 'admin';
   blocked: boolean;
   scopes: ReviewScope[];
+  languages: ('sw' | 'dg')[];
   granted_at: string | null;
   submitted: number;
   accepted: number;
@@ -38,7 +39,7 @@ async function post(path: string, body: unknown) {
 
 /** Rows remount when the person's saved state changes, so their checkboxes always start from it. */
 function rowKey(u: AdminUser) {
-  return `${u.id}:${u.role}:${u.blocked}:${[...u.scopes].sort().join(',')}`;
+  return `${u.id}:${u.role}:${u.blocked}:${[...u.scopes].sort().join(',')}:${[...u.languages].sort().join(',')}`;
 }
 
 function nameOf(u: AdminUser) {
@@ -52,6 +53,7 @@ function UserRow({ user, onChange }: { user: AdminUser; onChange: (message: stri
   const c = t.contribute;
   const { locale } = useLocale();
   const [scopes, setScopes] = useState<ReviewScope[]>(user.scopes);
+  const [languages, setLanguages] = useState<('sw' | 'dg')[]>(user.languages);
   const [busy, setBusy] = useState(false);
   const [email, setEmail] = useState(user.email);
 
@@ -107,6 +109,19 @@ function UserRow({ user, onChange }: { user: AdminUser; onChange: (message: stri
           ))}
         </fieldset>
       )}
+      {user.role !== 'admin' && !user.blocked && (
+        <fieldset className={styles.scopes}>
+          <legend className={styles.legend}>{a.languages_label}</legend>
+          {(['sw', 'dg'] as const).map((l) => (
+            <Checkbox
+              key={l}
+              label={msg(c, `lang_${l}`)}
+              checked={languages.includes(l)}
+              onChange={(e) => setLanguages((prev) => (e.target.checked ? [...prev, l] : prev.filter((x) => x !== l)))}
+            />
+          ))}
+        </fieldset>
+      )}
 
       <div className={styles.actions}>
         {user.role !== 'admin' && !user.blocked && (
@@ -114,7 +129,7 @@ function UserRow({ user, onChange }: { user: AdminUser; onChange: (message: stri
             size="sm"
             disabled={!scopes.length}
             loading={busy}
-            onClick={() => run(() => post('/api/admin/reviewers', { action: 'grant', user_id: user.id, scopes }), user.role === 'reviewer' ? 'update_scopes' : 'grant')}
+            onClick={() => run(() => post('/api/admin/reviewers', { action: 'grant', user_id: user.id, scopes, languages }), user.role === 'reviewer' ? 'update_scopes' : 'grant')}
           >
             {user.role === 'reviewer' ? a.save_scopes : a.make_reviewer}
           </Button>

@@ -3,7 +3,7 @@ import { z } from 'zod';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { PAYLOADS, reviewSchema, NEVER_PUBLIC, TEST_TARGET, type ContributionType } from '@/lib/contributions/schemas';
 import {
-  getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea,
+  getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea, readsLanguage,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
@@ -42,7 +42,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
   try {
     const row = await load(caller.db, id);
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
-    if (!canReview(caller, row.scope)) return forbidden();
+    if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
 
     const area = overlayArea(row.target_type);
     const liveChanges = area ? await getAreaOverlay(area) : [];
@@ -109,7 +109,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   try {
     const row = await load(caller.db, id);
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
-    if (!canReview(caller, row.scope)) return forbidden();
+    if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
     if (row.user_id === caller.id) return forbidden('self_review');
 
     const args: Record<string, unknown> = { note: body.note ?? null };

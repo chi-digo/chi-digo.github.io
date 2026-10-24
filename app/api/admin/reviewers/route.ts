@@ -39,7 +39,11 @@ export async function GET(request: Request) {
 }
 
 const schema = z.discriminatedUnion('action', [
-  z.object({ action: z.literal('grant'), user_id: z.string().uuid(), scopes: z.array(z.enum(REVIEW_SCOPES)).min(1) }),
+  z.object({
+    action: z.literal('grant'), user_id: z.string().uuid(), scopes: z.array(z.enum(REVIEW_SCOPES)).min(1),
+    // The translation languages they read (spec 34 §17, decision 5); omitted keeps the current ones.
+    languages: z.array(z.enum(['sw', 'dg'])).max(2).optional(),
+  }),
   z.object({ action: z.literal('remove'), user_id: z.string().uuid() }),
 ]);
 
@@ -66,15 +70,24 @@ export async function POST(request: Request) {
         .insert(scopes.map((scope) => ({ user_id: body.user_id, scope, granted_by: caller.id })));
       const { error } = await db.from('profiles').update({ role: 'reviewer' }).eq('id', body.user_id);
       if (error || scopeError) return serverError(error ?? scopeError, 'grant');
+      if (body.languages) {
+        await db.from('profile_review_languages').delete().eq('user_id', body.user_id);
+        const langs = [...new Set(body.languages)];
+        const { error: langError } = langs.length
+          ? await db.from('profile_review_languages').insert(langs.map((lang) => ({ user_id: body.user_id, lang, granted_by: caller.id })))
+          : { error: null };
+        if (langError) return serverError(langError, 'grant_languages');
+      }
       await logEvent(caller, {
         action: target.role === 'reviewer' ? 'update_scopes' : 'grant_reviewer',
         subject_user_id: body.user_id,
-        details: { scopes },
+        details: { scopes, ...(body.languages && { languages: body.languages }) },
       });
-      return NextResponse.json({ role: 'reviewer', scopes });
+      return NextResponse.json({ role: 'reviewer', scopes, languages: body.languages });
     }
 
     await db.from('profile_review_scopes').delete().eq('user_id', body.user_id);
+    await db.from('profile_review_languages').delete().eq('user_id', body.user_id);
     const { error } = await db.from('profiles').update({ role: 'member' }).eq('id', body.user_id);
     if (error) return serverError(error, 'remove');
     await logEvent(caller, { action: 'remove_reviewer', subject_user_id: body.user_id });

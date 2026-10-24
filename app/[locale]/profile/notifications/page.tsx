@@ -25,7 +25,7 @@ interface Notification {
 
 /** Where a notification leads: your own suggestions, or the item to review. */
 function hrefFor(n: Notification): string {
-  if (n.kind === 'second_review' || n.kind === 'report_hidden') return n.contribution_id ? `/review/${n.contribution_id}` : '/review';
+  if (n.kind === 'second_review' || n.kind === 'report_hidden' || n.kind === 'translation_overdue') return n.contribution_id ? `/review/${n.contribution_id}` : '/review';
   if (n.kind === 'fold_failed') return '/review';
   return n.contribution_id ? `/profile/contributions#c-${n.contribution_id}` : '/profile/contributions';
 }

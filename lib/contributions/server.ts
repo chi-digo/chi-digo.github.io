@@ -19,6 +19,8 @@ export interface Caller {
   blocked: boolean;
   /** Set only by the admin API for automated flow-test accounts. */
   isTest: boolean;
+  /** The translation languages an admin has marked this reviewer as reading (spec 34 §17, decision 5). */
+  languages: ('sw' | 'dg')[];
   db: SupabaseClient;
 }
 
@@ -29,9 +31,10 @@ export async function getCaller(): Promise<Caller | NextResponse> {
   if (!user) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
 
   const db = createServiceClient();
-  const [{ data: profile }, { data: scopes }] = await Promise.all([
+  const [{ data: profile }, { data: scopes }, { data: languages }] = await Promise.all([
     db.from('profiles').select('role, deleted_at, blocked_at').eq('id', user.id).single(),
     db.from('profile_review_scopes').select('scope').eq('user_id', user.id),
+    db.from('profile_review_languages').select('lang').eq('user_id', user.id),
   ]);
   if (!profile || profile.deleted_at) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
 
@@ -42,8 +45,19 @@ export async function getCaller(): Promise<Caller | NextResponse> {
     scopes: (scopes ?? []).map((s) => s.scope as ReviewScope),
     blocked: !!profile.blocked_at,
     isTest: user.app_metadata?.test === true,
+    languages: (languages ?? []).map((l) => l.lang as 'sw' | 'dg'),
     db,
   };
+}
+
+/**
+ * Whether the caller may review this row's language: a Swahili or Digo translation fix goes only to
+ * reviewers marked as reading it (admins read all). The database enforces the same rule.
+ */
+export function readsLanguage(caller: Caller, row: { type: string; payload?: Record<string, unknown> | null }): boolean {
+  if (row.type !== 'translation_fix' || caller.role === 'admin') return true;
+  const lang = row.payload?.lang;
+  return lang !== 'sw' && lang !== 'dg' ? true : caller.languages.includes(lang);
 }
 
 export function canReview(caller: Caller, scope: Scope): boolean {

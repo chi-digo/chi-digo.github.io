@@ -8,6 +8,11 @@ export async function GET() {
   if (caller instanceof NextResponse) return caller;
   const { db } = caller;
   try {
+    // Admins hear about translation fixes nobody has picked up in 7 days (spec 34 §17, decision 5).
+    if (caller.role === 'admin' && !caller.blocked) {
+      const { error } = await db.rpc('notify_overdue_translations');
+      if (error) console.error('notify_overdue_translations', error.message);
+    }
     const [{ data: mine }, { data: application }, { count: unread }] = await Promise.all([
       db.from('contributions').select('scope, status').eq('user_id', caller.id),
       db.from('reviewer_applications').select('id, status, scopes, created_at, decision_note')
