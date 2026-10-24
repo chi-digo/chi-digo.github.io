@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generated_at": "2026-10-20T21:02:39.559Z",
-  "total_entries": 5170,
+  "total_entries": 5164,
   "letters": {
     "a": {
       "count": 132,
@@ -114,7 +114,7 @@
       "last": "oza"
     },
     "p": {
-      "count": 151,
+      "count": 149,
       "first": "pafu",
       "last": "pyia"
     },
@@ -139,7 +139,7 @@
       "last": "shuwari"
     },
     "t": {
-      "count": 223,
+      "count": 222,
       "first": "taa",
       "last": "tya"
     },
@@ -149,7 +149,7 @@
       "last": "tswesa"
     },
     "u": {
-      "count": 202,
+      "count": 199,
       "first": "u",
       "last": "uzuzu"
     },
