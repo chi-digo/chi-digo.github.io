@@ -62,6 +62,11 @@ begin
   assert r->>'status' = 'accepted', 'accept failed: ' || r::text;
   claim := public.fold_claim(tok);
   assert exists (select 1 from jsonb_array_elements(claim->'rows') e where (e->>'id')::uuid = fx), 'translation fix not claimable';
+  -- (sec is a glossary fix awaiting its second review: not claimable until live.)
+  r := pg_temp.review(r1, sec, 'second_confirm');
+  assert r->>'live_status' = 'live', 'second review by the Digo reader failed: ' || r::text;
+  claim := public.fold_claim(tok);
+  assert exists (select 1 from jsonb_array_elements(claim->'rows') e where (e->>'id')::uuid = sec), 'glossary fix not claimable';
   assert not exists (select 1 from jsonb_array_elements(claim->'rows') e where e->'final_payload' ? 'reason'), 'a reason reached the fold-in claim';
 end;
 $$;
