@@ -32,7 +32,21 @@ function dictionaryIds(): Set<string> {
   return wordIds;
 }
 
+let proverbIds: Set<string> | null = null;
+function proverbProvenance(): Set<string> {
+  if (proverbIds) return proverbIds;
+  proverbIds = new Set();
+  const list = JSON.parse(readFileSync(join(opt('--data'), 'public/data/proverbs/index.json'), 'utf-8')) as { provenance?: Record<string, { c: string }[]> }[];
+  for (const p of list) for (const l of Object.values(p.provenance ?? {})) for (const x of l) proverbIds.add(x.c);
+  return proverbIds;
+}
+
 for (const r of rows) {
+  if (r.target_type === 'proverb') {
+    const present = proverbProvenance().has(r.id);
+    if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
+    continue;
+  }
   if (r.target_type === 'word') {
     const present = dictionaryIds().has(r.id);
     if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);

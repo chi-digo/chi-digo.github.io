@@ -47,8 +47,8 @@ describe('fold-in apply', () => {
   it('sets aside conflicts and skips areas without an applier', () => {
     const dir = checkout();
     const stale = { ...name, id: '22222222-2222-4222-8222-222222222222', base: { value: { digo_headword: 'not this', name_status: 'missing' } } };
-    // Proverbs have no applier yet (phase 4); words do since phase 3b.
-    const word = { ...name, id: '33333333-3333-4333-8333-333333333333', type: 'proverb_variant', target_type: 'proverb', target_id: 'p-1', final_payload: { form: 'x' } };
+    // Translations have no applier yet (phase 5); words and proverbs do.
+    const word = { ...name, id: '33333333-3333-4333-8333-333333333333', type: 'translation_fix', target_type: 'ui', target_id: 'nav.home', final_payload: { lang: 'dg', current: 'x', proposed: 'y' } };
     const r = run(dir, [stale, word, name]);
     expect(r.conflict.map((c: { id: string }) => c.id)).toEqual([stale.id]);
     expect(r.skipped).toEqual([word.id]);
