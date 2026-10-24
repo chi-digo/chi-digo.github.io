@@ -124,7 +124,7 @@
     "idiomatic_en": "Those who outpace you are no longer your companions",
     "swahili": "Aliyekupita mbele si mwenzio",
     "swahili_relationship": "cognate",
-    "commentary_en": "can be applied to many situations, eg. financial, education",
+    "commentary_en": "can be applied to many situations, eg. financial, education\n\nGate test story: said when friends who went ahead forget you.",
     "commentary_dg": "Ndarira ihi inaweza kuhumirwa kpwa hali nyinji, dza vira ga mapesa, ga masomo, na ganjina. Mutu achikutsupa kpwa uwezo, si myao kare.",
     "commentary_source": "original",
     "themes": [
@@ -145,15 +145,22 @@
     "lexical_links": [],
     "english_equivalent": "",
     "swahili_equivalent": "Aliyekupita mbele si mwenzio",
-    "variants": [],
+    "variants": [
+      {
+        "form": "Achiyetsupa mbere si wehu",
+        "note": "gate test",
+        "region": "kwale_south",
+        "c": "5492be4d-9537-4655-a884-56e35fdb222e"
+      }
+    ],
     "content_flag": null,
     "region": "KE-coast",
     "source_attribution": "Mwalonya et al. working draft",
     "editorial_status": "reviewed",
-    "idiomatic_sw": "Wale wanaokupita hawako tena upande wako.",
+    "idiomatic_sw": "Waliokutangulia hawako tena upande wako",
     "commentary_sw": "Inaweza kutumika katika hali nyingi, k.m. kifedha, kielimu.",
     "field_sources": {
-      "idiomatic_sw": "ai-draft",
+      "idiomatic_sw": "community",
       "commentary_sw": "ai-draft",
       "literal_en": "original",
       "commentary_en": "original",
@@ -164,7 +171,34 @@
       "idiomatic_dg": "ai-draft"
     },
     "literal_sw": "Aliyekupita mbele si mwenzako/rafiki yako",
-    "idiomatic_dg": "Mutu achikutsupa kpwa uwezo, si myao kaheri."
+    "idiomatic_dg": "Mutu achikutsupa kpwa uwezo, si myao kaheri.",
+    "provenance": {
+      "idiomatic_sw": [
+        {
+          "c": "971036c8-9f8b-4f0c-9b87-c4bb08565a5e",
+          "src": "community",
+          "conf": "native",
+          "edited": false
+        }
+      ],
+      "commentary_en": [
+        {
+          "c": "6e585a0e-cebb-45a0-8b09-5d4da7bf5abb",
+          "src": "community",
+          "conf": "native",
+          "edited": false,
+          "paras": 1
+        }
+      ],
+      "variants": [
+        {
+          "c": "5492be4d-9537-4655-a884-56e35fdb222e",
+          "src": "community",
+          "conf": "native",
+          "edited": false
+        }
+      ]
+    }
   },
   {
     "id": "p-004",
@@ -20142,5 +20176,51 @@
     },
     "literal_sw": "Zungukazunguka (kama) chupa, panda (kama) chupa",
     "idiomatic_dg": "Matendogo ganakulunga phophosi uphiyako; kuweza kuhepa matokeo ga tabiyazo."
+  },
+  {
+    "id": "p-388",
+    "slug": "p-388-zzgate-ya-majaribio",
+    "source_number": 388,
+    "digo": "Zzgate ya majaribio",
+    "ipa": "",
+    "audio": [],
+    "literal_en": "",
+    "idiomatic_en": "gate test proverb (temporary)",
+    "swahili": "",
+    "swahili_relationship": "translation",
+    "commentary_en": "Gate test usage.",
+    "commentary_dg": "",
+    "commentary_source": "native",
+    "themes": [],
+    "functions": [],
+    "keywords_en": [],
+    "keywords_sw": [],
+    "related_proverbs": [],
+    "lexical_links": [],
+    "english_equivalent": "",
+    "swahili_equivalent": "",
+    "variants": [],
+    "content_flag": null,
+    "region": "KE-coast",
+    "source_attribution": "Community contribution",
+    "editorial_status": "draft",
+    "idiomatic_sw": "",
+    "commentary_sw": "",
+    "field_sources": {
+      "idiomatic_en": "community",
+      "commentary_en": "community"
+    },
+    "literal_sw": "",
+    "idiomatic_dg": "",
+    "provenance": {
+      "proverb": [
+        {
+          "c": "6418cd71-9026-43b5-8920-cc04130f2d2a",
+          "src": "community",
+          "conf": "native",
+          "edited": false
+        }
+      ]
+    }
   }
 ]
