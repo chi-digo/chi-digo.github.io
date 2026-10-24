@@ -40,6 +40,21 @@ export const languageTools: LanguageTool[] = [
     available: true,
   },
   {
+    slug: 'plants',
+    title: {
+      en: 'Plant Names',
+      sw: 'Majina ya Mimea',
+      dg: 'Majina ga Mimea',
+    },
+    description: {
+      en: '459 coastal plants with their Digo names, uses, and cultural notes. Suggest a plant name or a correction.',
+      sw: 'Mimea 459 ya pwani yenye majina yake ya Kidigo, matumizi, na maelezo ya kitamaduni. Pendekeza jina la mmea au marekebisho.',
+      dg: 'Mimea 459 ya pwani na majina gayo ga Chidigo, matumizi, na madzo ga chisomo. Pendekeza dzina ra mmea au marekebisho.',
+    },
+    href: '/culture/ecology/plants',
+    available: true,
+  },
+  {
     slug: 'quiz',
     title: {
       en: 'Jaribu — Test Yourself',
