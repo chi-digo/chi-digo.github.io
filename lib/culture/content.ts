@@ -69,7 +69,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "At Kaya Kinondo, the governing body is the *Ngambi* council, documented as having eleven hierarchical levels. This is not a bureaucracy in the modern sense — there are no offices, no budgets, no written rules. The hierarchy is a spiritual and social architecture: each level represents a deeper degree of knowledge, responsibility, and access to the sacred. An elder at level one has earned the right to participate in certain ceremonies. An elder at level eleven carries knowledge and authority that is shared with almost no one."
+              "text": "At Kaya Chinondo, the governing body is the *Ngambi* council, documented as having eleven hierarchical levels. This is not a bureaucracy in the modern sense — there are no offices, no budgets, no written rules. The hierarchy is a spiritual and social architecture: each level represents a deeper degree of knowledge, responsibility, and access to the sacred. An elder at level one has earned the right to participate in certain ceremonies. An elder at level eleven carries knowledge and authority that is shared with almost no one."
             },
             {
               "type": "paragraph",
@@ -105,7 +105,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "The relationship between kaya governance and the modern Kenyan state is one of uneasy coexistence. County and national government officials formally recognise the cultural significance of the kayas, and kaya elders are sometimes consulted on matters of heritage and community welfare. But the spheres of authority overlap without clear boundaries. A land dispute might be adjudicated by a magistrate in Kwale town and simultaneously by the kambi at Kaya Kinondo, with the two rulings potentially in conflict."
+              "text": "The relationship between kaya governance and the modern Kenyan state is one of uneasy coexistence. County and national government officials formally recognise the cultural significance of the kayas, and kaya elders are sometimes consulted on matters of heritage and community welfare. But the spheres of authority overlap without clear boundaries. A land dispute might be adjudicated by a magistrate in Kwale town and simultaneously by the kambi at Kaya Chinondo, with the two rulings potentially in conflict."
             },
             {
               "type": "paragraph",
@@ -135,7 +135,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Katika Kaya Kinondo, chombo cha utawala ni baraza la *Ngambi*, lililoandikwa kuwa na ngazi kumi na moja za daraja. Hii si urasimu kwa maana ya kisasa. Daraja ni muundo wa kiroho na kijamii: kila ngazi inawakilisha kina zaidi cha maarifa, uwajibikaji, na upataji wa takatifu."
+              "text": "Katika Kaya Chinondo, chombo cha utawala ni baraza la *Ngambi*, lililoandikwa kuwa na ngazi kumi na moja za daraja. Hii si urasimu kwa maana ya kisasa. Daraja ni muundo wa kiroho na kijamii: kila ngazi inawakilisha kina zaidi cha maarifa, uwajibikaji, na upataji wa takatifu."
             },
             {
               "type": "paragraph",
@@ -171,7 +171,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uhusiano kati ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi pamoja kwa wasiwasi. Maafisa wa serikali ya kaunti na ya kitaifa wanatambua rasmi umuhimu wa kitamaduni wa makaya, na wazee wa kaya wakati mwingine wanashauriwa kuhusu mambo ya urithi na ustawi wa jamii. Lakini maeneo ya mamlaka yanaingiliana bila mipaka wazi. Mgogoro wa ardhi unaweza kuhukumiwa na hakimu katika mji wa Kwale na wakati huo huo na kambi katika Kaya Kinondo, huku hukumu mbili zikiweza kupingana."
+              "text": "Uhusiano kati ya utawala wa kaya na serikali ya kisasa ya Kenya ni wa kuishi pamoja kwa wasiwasi. Maafisa wa serikali ya kaunti na ya kitaifa wanatambua rasmi umuhimu wa kitamaduni wa makaya, na wazee wa kaya wakati mwingine wanashauriwa kuhusu mambo ya urithi na ustawi wa jamii. Lakini maeneo ya mamlaka yanaingiliana bila mipaka wazi. Mgogoro wa ardhi unaweza kuhukumiwa na hakimu katika mji wa Kwale na wakati huo huo na kambi katika Kaya Chinondo, huku hukumu mbili zikiweza kupingana."
             },
             {
               "type": "paragraph",
@@ -201,7 +201,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kpwa Kaya Kinondo, chombo cha utawala ni baraza ra *Ngambi*, ririroandikpwa kukala na ngazi kumi na mwenga za daraja. Hino si urasimu kpwa mana ya chisasa — takuna ofisi, takuna bajeti, takuna shariya zirizoandikpwa. Daraja ni muundo wa chiroho na wa chijamii: chila ngazi inawakilisha china zaidi cha marifwa, uwajibikaji, na kufikira mambo matakatifu. Mzehe wa ngazi ya kpwandza akaphaha haki ya kushiriki sherehe fulani. Mzehe wa ngazi ya kumi na mwenga anatsukula marifwa na mamlaka ambago karibu takuna mutu wanjina anayegashiriki."
+              "text": "Kpwa Kaya Chinondo, chombo cha utawala ni baraza ra *Ngambi*, ririroandikpwa kukala na ngazi kumi na mwenga za daraja. Hino si urasimu kpwa mana ya chisasa — takuna ofisi, takuna bajeti, takuna shariya zirizoandikpwa. Daraja ni muundo wa chiroho na wa chijamii: chila ngazi inawakilisha china zaidi cha marifwa, uwajibikaji, na kufikira mambo matakatifu. Mzehe wa ngazi ya kpwandza akaphaha haki ya kushiriki sherehe fulani. Mzehe wa ngazi ya kumi na mwenga anatsukula marifwa na mamlaka ambago karibu takuna mutu wanjina anayegashiriki."
             },
             {
               "type": "paragraph",
@@ -237,7 +237,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Uhusiano kahi ya utawala wa kaya na serikali ya chisasa ya Kenya ni wa kuishi phamwenga kpwa wasi-wasi. Maafisa a serikali ya kaunti na ya chitaifa anatambua rasmi umuhimu wa chimila wa makaya, na azehe a kaya wakati wanjina anashauriwa kuhusu mambo ga urithi na ustawi wa jamii. Ela maeneo ga mamlaka ganainjiliana bila miphaka ya wazi. Kondo ya tsi inaweza kuhukumiwa ni hakimu mudzini Kwale na wakati hinyo hinyo ni kambi kpwa Kaya Kinondo, hiku hukumu mbiri zichiweza kupingana."
+              "text": "Uhusiano kahi ya utawala wa kaya na serikali ya chisasa ya Kenya ni wa kuishi phamwenga kpwa wasi-wasi. Maafisa a serikali ya kaunti na ya chitaifa anatambua rasmi umuhimu wa chimila wa makaya, na azehe a kaya wakati wanjina anashauriwa kuhusu mambo ga urithi na ustawi wa jamii. Ela maeneo ga mamlaka ganainjiliana bila miphaka ya wazi. Kondo ya tsi inaweza kuhukumiwa ni hakimu mudzini Kwale na wakati hinyo hinyo ni kambi kpwa Kaya Chinondo, hiku hukumu mbiri zichiweza kupingana."
             },
             {
               "type": "paragraph",
@@ -253,14 +253,14 @@ export const domains: CultureDomain[] =
       {
         "slug": "kaya-kinondo",
         "title": {
-          "en": "Kaya Kinondo",
+          "en": "Kaya Chinondo",
           "sw": "The Primary Digo Kaya",
-          "dg": "Kaya Kinondo"
+          "dg": "Kaya Chinondo"
         },
         "intro": {
-          "en": "Kaya Kinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty…",
-          "sw": "Kaya Kinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach.…",
-          "dg": "Kaya Kinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya Diani…"
+          "en": "Kaya Chinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty…",
+          "sw": "Kaya Chinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach.…",
+          "dg": "Kaya Chinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya Diani…"
         },
         "body": {
           "en": [
@@ -270,11 +270,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty hectares, it is not large. But within those thirty hectares lives a concentration of biological and spiritual significance that few sites in East Africa can match."
+              "text": "Kaya Chinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty hectares, it is not large. But within those thirty hectares lives a concentration of biological and spiritual significance that few sites in East Africa can match."
             },
             {
               "type": "paragraph",
-              "text": "The forest is the primary kaya of the Digo people — the central sacred site around which Digo spiritual authority, elder governance, and ancestral connection are organised. While other Digo kayas exist across Kwale County — Kaya Kwale in the Shimba Hills (historically the most important), Kaya Dzombo on the highest hill, Kaya Gandini with its restricted inner sanctum — it is Kaya Kinondo that has become the living centre of contemporary Digo kaya practice, in part because of its accessibility, in part because of the dedication of its elder council, and in part because the threat to its survival has made its defence a rallying point for cultural preservation."
+              "text": "The forest is the primary kaya of the Digo people — the central sacred site around which Digo spiritual authority, elder governance, and ancestral connection are organised. While other Digo kayas exist across Kwale County — Kaya Kwale in the Shimba Hills (historically the most important), Kaya Dzombo on the highest hill, Kaya Gandini with its restricted inner sanctum — it is Kaya Chinondo that has become the living centre of contemporary Digo kaya practice, in part because of its accessibility, in part because of the dedication of its elder council, and in part because the threat to its survival has made its defence a rallying point for cultural preservation."
             },
             {
               "type": "heading",
@@ -282,11 +282,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Botanists have documented 187 plant species within Kaya Kinondo's boundaries. Five of these may be endemic — found nowhere else on earth. One hundred and forty are classified as rare. The forest functions as what researchers call a \"living pharmacy\": antibiotic leaves, antihistamine roots, medicinal resins drawn from bark and sap. For centuries, the *mganga* healers of the Digo community have drawn their pharmacopoeia from the kaya forest, and the knowledge of which plant treats which ailment is itself a form of cultural heritage as endangered as the forest it depends upon."
+              "text": "Botanists have documented 187 plant species within Kaya Chinondo's boundaries. Five of these may be endemic — found nowhere else on earth. One hundred and forty are classified as rare. The forest functions as what researchers call a \"living pharmacy\": antibiotic leaves, antihistamine roots, medicinal resins drawn from bark and sap. For centuries, the *mganga* healers of the Digo community have drawn their pharmacopoeia from the kaya forest, and the knowledge of which plant treats which ailment is itself a form of cultural heritage as endangered as the forest it depends upon."
             },
             {
               "type": "paragraph",
-              "text": "The birdlife is rich, the insect diversity remarkable, and the canopy structure — layered from ground-cover herbs to emergent hardwoods — maintains a microclimate within the forest that is measurably cooler and more humid than the cleared land surrounding it. Walk from the sun-blasted car park of a Diani Beach hotel into Kaya Kinondo and you cross a boundary not just of vegetation but of temperature, sound, and atmosphere. The air changes. The light changes. The world changes."
+              "text": "The birdlife is rich, the insect diversity remarkable, and the canopy structure — layered from ground-cover herbs to emergent hardwoods — maintains a microclimate within the forest that is measurably cooler and more humid than the cleared land surrounding it. Walk from the sun-blasted car park of a Diani Beach hotel into Kaya Chinondo and you cross a boundary not just of vegetation but of temperature, sound, and atmosphere. The air changes. The light changes. The world changes."
             },
             {
               "type": "heading",
@@ -294,7 +294,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo is governed by a Ngambi council with eleven hierarchical levels — a governance structure of remarkable complexity for a community forest. The council oversees forest resources, spiritual practices, and community disputes. Its authority is spiritual, not governmental: it derives not from an election or appointment but from the earned status of its members within the kaya elder system."
+              "text": "Kaya Chinondo is governed by a Ngambi council with eleven hierarchical levels — a governance structure of remarkable complexity for a community forest. The council oversees forest resources, spiritual practices, and community disputes. Its authority is spiritual, not governmental: it derives not from an election or appointment but from the earned status of its members within the kaya elder system."
             },
             {
               "type": "paragraph",
@@ -306,7 +306,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "In 2001, with support from the Ford Foundation, the World Wildlife Fund, and the National Museums of Kenya, Kaya Kinondo launched an ecotourism programme that has become a model for community-managed sacred site conservation across East Africa. Visitors are welcome — but on the kaya's terms. They are required to wear black *kangas* as a sign of respect for the ancestors. They are guided by elders who explain the forest's spiritual and ecological significance. They are asked to remove their shoes at certain points. They are told where they may walk and where they may not."
+              "text": "In 2001, with support from the Ford Foundation, the World Wildlife Fund, and the National Museums of Kenya, Kaya Chinondo launched an ecotourism programme that has become a model for community-managed sacred site conservation across East Africa. Visitors are welcome — but on the kaya's terms. They are required to wear black *kangas* as a sign of respect for the ancestors. They are guided by elders who explain the forest's spiritual and ecological significance. They are asked to remove their shoes at certain points. They are told where they may walk and where they may not."
             },
             {
               "type": "paragraph",
@@ -318,7 +318,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo is the only sacred Mijikenda forest open to visitors. This distinction is important. The other kayas — Kaya Gandini, Kaya Dzombo, Kaya Kwale — remain closed to outsiders, their inner precincts accessible only to initiated elders. Kaya Kinondo's openness is a deliberate strategic choice: by inviting the outside world in under controlled conditions, the kaya's leadership has created allies, generated income, and built a public constituency for conservation. The visibility that comes with being a tourism destination has also made it harder for developers to encroach quietly — the world is watching."
+              "text": "Kaya Chinondo is the only sacred Mijikenda forest open to visitors. This distinction is important. The other kayas — Kaya Gandini, Kaya Dzombo, Kaya Kwale — remain closed to outsiders, their inner precincts accessible only to initiated elders. Kaya Chinondo's openness is a deliberate strategic choice: by inviting the outside world in under controlled conditions, the kaya's leadership has created allies, generated income, and built a public constituency for conservation. The visibility that comes with being a tourism destination has also made it harder for developers to encroach quietly — the world is watching."
             },
             {
               "type": "paragraph",
@@ -332,11 +332,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach. Kwa hekta thelathini, si kubwa. Lakini ndani ya hekta hizo thelathini kunaishi mkusanyiko wa umuhimu wa kibayolojia na kiroho ambao maeneo machache katika Afrika Mashariki yanaweza kulinganisha."
+              "text": "Kaya Chinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach. Kwa hekta thelathini, si kubwa. Lakini ndani ya hekta hizo thelathini kunaishi mkusanyiko wa umuhimu wa kibayolojia na kiroho ambao maeneo machache katika Afrika Mashariki yanaweza kulinganisha."
             },
             {
               "type": "paragraph",
-              "text": "Msitu ni kaya kuu ya Wadigo — eneo kuu la kiroho ambalo mamlaka ya kiroho ya Wadigo, utawala wa wazee, na uhusiano wa mababu unapangwa. Wakati makaya mengine ya Wadigo yapo kote Kaunti ya Kwale — Kaya Kwale katika Milima ya Shimba, Kaya Dzombo kwenye kilima cha juu zaidi, Kaya Gandini na chumba chake cha ndani kilichozuiwa — ni Kaya Kinondo ambayo imekuwa kituo hai cha mazoezi ya kisasa ya kaya ya Wadigo."
+              "text": "Msitu ni kaya kuu ya Wadigo — eneo kuu la kiroho ambalo mamlaka ya kiroho ya Wadigo, utawala wa wazee, na uhusiano wa mababu unapangwa. Wakati makaya mengine ya Wadigo yapo kote Kaunti ya Kwale — Kaya Kwale katika Milima ya Shimba, Kaya Dzombo kwenye kilima cha juu zaidi, Kaya Gandini na chumba chake cha ndani kilichozuiwa — ni Kaya Chinondo ambayo imekuwa kituo hai cha mazoezi ya kisasa ya kaya ya Wadigo."
             },
             {
               "type": "heading",
@@ -344,7 +344,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Wanabotania wamerekodia aina 187 za mimea ndani ya mipaka ya Kaya Kinondo. Tano kati ya hizi zinaweza kuwa za kipekee — hazipatikani popote pengine duniani. Mia moja na arobaini zimeainishwa kuwa adimu. Msitu unafanya kazi kama \"duka la dawa hai\": majani ya antibiotic, mizizi ya antihistamine, resini za dawa zinazotolewa kutoka magome na utomvu."
+              "text": "Wanabotania wamerekodia aina 187 za mimea ndani ya mipaka ya Kaya Chinondo. Tano kati ya hizi zinaweza kuwa za kipekee — hazipatikani popote pengine duniani. Mia moja na arobaini zimeainishwa kuwa adimu. Msitu unafanya kazi kama \"duka la dawa hai\": majani ya antibiotic, mizizi ya antihistamine, resini za dawa zinazotolewa kutoka magome na utomvu."
             },
             {
               "type": "paragraph",
@@ -352,7 +352,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Kaya Kinondo inatawaliwa na baraza la Ngambi lenye ngazi kumi na moja za daraja — muundo wa utawala wenye ugumu wa ajabu kwa msitu wa jamii. Baraza linasimamia rasilimali za msitu, mazoezi ya kiroho, na migogoro ya jamii."
+              "text": "Kaya Chinondo inatawaliwa na baraza la Ngambi lenye ngazi kumi na moja za daraja — muundo wa utawala wenye ugumu wa ajabu kwa msitu wa jamii. Baraza linasimamia rasilimali za msitu, mazoezi ya kiroho, na migogoro ya jamii."
             },
             {
               "type": "paragraph",
@@ -364,11 +364,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Mwaka 2001, kwa msaada wa Ford Foundation, WWF, na Makumbusho ya Kitaifa ya Kenya, Kaya Kinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu."
+              "text": "Mwaka 2001, kwa msaada wa Ford Foundation, WWF, na Makumbusho ya Kitaifa ya Kenya, Kaya Chinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu."
             },
             {
               "type": "paragraph",
-              "text": "Mwaka 2001, kwa msaada wa Ford Foundation, Shirika la Wanyamapori Duniani, na Makumbusho ya Kitaifa ya Kenya, Kaya Kinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii kote Afrika Mashariki. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu. Wanaongozwa na wazee wanaoelezea umuhimu wa kiroho na kiikolojia wa msitu. Wanaulizwa kuvua viatu katika sehemu fulani. Wanaambiwa wapi wanaweza kutembea na wapi hawawezi."
+              "text": "Mwaka 2001, kwa msaada wa Ford Foundation, Shirika la Wanyamapori Duniani, na Makumbusho ya Kitaifa ya Kenya, Kaya Chinondo ilizindua programu ya utalii wa kiikolojia ambayo imekuwa kielelezo cha uhifadhi wa maeneo matakatifu yanayosimamiwa na jamii kote Afrika Mashariki. Wageni wanakaribishwa — lakini kwa masharti ya kaya. Wanahitajika kuvaa *kanga* nyeusi kama ishara ya heshima kwa mababu. Wanaongozwa na wazee wanaoelezea umuhimu wa kiroho na kiikolojia wa msitu. Wanaulizwa kuvua viatu katika sehemu fulani. Wanaambiwa wapi wanaweza kutembea na wapi hawawezi."
             },
             {
               "type": "paragraph",
@@ -380,7 +380,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo ni msitu pekee mtakatifu wa Kimijikenda uliofunguliwa kwa wageni. Tofauti hii ni muhimu. Makaya mengine — Kaya Gandini, Kaya Dzombo, Kaya Kwale — yanabaki yamefungwa kwa wageni, maeneo yao ya ndani yanapatikana tu kwa wazee walioingizwa. Uwazi wa Kaya Kinondo ni chaguo la kimkakati la makusudi: kwa kuwaalika ulimwengu wa nje ndani chini ya masharti yaliyodhibitiwa, uongozi wa kaya umeunda washirika, kuzalisha mapato, na kujenga umma wa uhifadhi. Kuonekana kunakokuja na kuwa maeneo ya utalii pia kumefanya iwe vigumu kwa waendelezaji kuingilia kwa kimya — ulimwengu unaangalia."
+              "text": "Kaya Chinondo ni msitu pekee mtakatifu wa Kimijikenda uliofunguliwa kwa wageni. Tofauti hii ni muhimu. Makaya mengine — Kaya Gandini, Kaya Dzombo, Kaya Kwale — yanabaki yamefungwa kwa wageni, maeneo yao ya ndani yanapatikana tu kwa wazee walioingizwa. Uwazi wa Kaya Chinondo ni chaguo la kimkakati la makusudi: kwa kuwaalika ulimwengu wa nje ndani chini ya masharti yaliyodhibitiwa, uongozi wa kaya umeunda washirika, kuzalisha mapato, na kujenga umma wa uhifadhi. Kuonekana kunakokuja na kuwa maeneo ya utalii pia kumefanya iwe vigumu kwa waendelezaji kuingilia kwa kimya — ulimwengu unaangalia."
             },
             {
               "type": "paragraph",
@@ -394,11 +394,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya Diani Beach. Kpwa hekta thelathini, si kaya kulu. Ela ndani ya hekta hizo thelathini kuna unji wa umuhimu wa chibayolojia na wa chiroho ambao maeneo machache ga Afrika Mashariki ganaweza kulingana nao."
+              "text": "Kaya Chinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya Diani Beach. Kpwa hekta thelathini, si kaya kulu. Ela ndani ya hekta hizo thelathini kuna unji wa umuhimu wa chibayolojia na wa chiroho ambao maeneo machache ga Afrika Mashariki ganaweza kulingana nao."
             },
             {
               "type": "paragraph",
-              "text": "Tsaka hiri ni kaya kulu ya Adigo — eneo kulu ra chiroho ambaro mamlaka ga chiroho ga Adigo, utawala wa azehe, na uhusiano na akare vinapangwa kuririzunguluka. Wakati makaya ganjina ga Adigo ganaphahikana kosi Kaunti ya Kwale — Kaya Kwale kpwenye Miango ya Shimba (iriyokala muhimu zaidi hangu kare), Kaya Dzombo kpwenye mwango wa dzulu zaidi, Kaya Gandini na chumbache cha ndani chirichozuwiywa — ni Kaya Kinondo ambayo ikakala chituo hai cha mazoezi ga chisasa ga kaya ga Adigo, kpwa sehemu kpwa sababu inafikirika kpwa urahisi, kpwa sehemu kpwa sababu ya kudzitolea kpwa barazare ra azehe, na kpwa sehemu kpwa sababu hatari ya kuangamika ikahenda kuirinda kukale dzambo ra kuunganisha atu kpwa uhifadhi wa chimila."
+              "text": "Tsaka hiri ni kaya kulu ya Adigo — eneo kulu ra chiroho ambaro mamlaka ga chiroho ga Adigo, utawala wa azehe, na uhusiano na akare vinapangwa kuririzunguluka. Wakati makaya ganjina ga Adigo ganaphahikana kosi Kaunti ya Kwale — Kaya Kwale kpwenye Miango ya Shimba (iriyokala muhimu zaidi hangu kare), Kaya Dzombo kpwenye mwango wa dzulu zaidi, Kaya Gandini na chumbache cha ndani chirichozuwiywa — ni Kaya Chinondo ambayo ikakala chituo hai cha mazoezi ga chisasa ga kaya ga Adigo, kpwa sehemu kpwa sababu inafikirika kpwa urahisi, kpwa sehemu kpwa sababu ya kudzitolea kpwa barazare ra azehe, na kpwa sehemu kpwa sababu hatari ya kuangamika ikahenda kuirinda kukale dzambo ra kuunganisha atu kpwa uhifadhi wa chimila."
             },
             {
               "type": "heading",
@@ -406,11 +406,11 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Anabotania akaandika aina 187 za mimea ndani ya miphaka ya Kaya Kinondo. Tsano kahi ya hizi zinaweza kukala za chipekee — taziphahikana phatu phanjina duniani. Mia mwenga na arobaini zikaainishwa kukala adimu. Tsaka rinahumirwa dza \"duka ra dawa hai\": makodza ga antibiotic, mizi ya antihistamine, resini za dawa zinazolavywa kula magopha na utomvu. Kpwa karne nyinji, *aganga* a jamii ya Adigo akahala dawa zao kula tsaka ra kaya, na marifwa ga mmea gani unaphoza ukongo gani nago ni urithi wa chimila uriokala hatarini dza tsaka rinarokuluphira."
+              "text": "Anabotania akaandika aina 187 za mimea ndani ya miphaka ya Kaya Chinondo. Tsano kahi ya hizi zinaweza kukala za chipekee — taziphahikana phatu phanjina duniani. Mia mwenga na arobaini zikaainishwa kukala adimu. Tsaka rinahumirwa dza \"duka ra dawa hai\": makodza ga antibiotic, mizi ya antihistamine, resini za dawa zinazolavywa kula magopha na utomvu. Kpwa karne nyinji, *aganga* a jamii ya Adigo akahala dawa zao kula tsaka ra kaya, na marifwa ga mmea gani unaphoza ukongo gani nago ni urithi wa chimila uriokala hatarini dza tsaka rinarokuluphira."
             },
             {
               "type": "paragraph",
-              "text": "Ndege ni anji, adudu ni a aina nyinji za ajabu, na muundo wa dari ya tsaka — wa tabaka kula mimea mifupi ya photsi hadi mihi mire migumu iriyotsupa yanjina — unadumisha hali ya hewa ndani ya tsaka iriyo na mnyevu zaidi na unyevu zaidi kuriko tsi iriyotsuswa inayorizunguluka, kpwa chiasi chinachopimika. Uchinyendeka kula phatu pha kuika magari pha hoteli ya Diani Beach, phenye dzuwa kali, hadi ndani ya Kaya Kinondo, unatsupa mphaka si wa mimea tu ela wa dzoho, sauti, na hali ya phatu. Hewa inabadilika. Mwanga unabadilika. Ulimwengu unabadilika."
+              "text": "Ndege ni anji, adudu ni a aina nyinji za ajabu, na muundo wa dari ya tsaka — wa tabaka kula mimea mifupi ya photsi hadi mihi mire migumu iriyotsupa yanjina — unadumisha hali ya hewa ndani ya tsaka iriyo na mnyevu zaidi na unyevu zaidi kuriko tsi iriyotsuswa inayorizunguluka, kpwa chiasi chinachopimika. Uchinyendeka kula phatu pha kuika magari pha hoteli ya Diani Beach, phenye dzuwa kali, hadi ndani ya Kaya Chinondo, unatsupa mphaka si wa mimea tu ela wa dzoho, sauti, na hali ya phatu. Hewa inabadilika. Mwanga unabadilika. Ulimwengu unabadilika."
             },
             {
               "type": "heading",
@@ -418,7 +418,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo inatawaliwa ni baraza ra Ngambi renye ngazi kumi na mwenga za daraja — muundo wa utawala wenye utata mkpwulu kpwa tsaka ra jamii. Baraza rinaimirira mali za tsaka, mazoezi ga chiroho, na kondo za jamii. Mamlaka ga baraza ni ga chiroho, si ga serikali: taganalavywa ni kura wala kuteuliwa, ela ni hadhi ambayo anachama a baraza akaiphaha ndani ya mfumo wa azehe a kaya."
+              "text": "Kaya Chinondo inatawaliwa ni baraza ra Ngambi renye ngazi kumi na mwenga za daraja — muundo wa utawala wenye utata mkpwulu kpwa tsaka ra jamii. Baraza rinaimirira mali za tsaka, mazoezi ga chiroho, na kondo za jamii. Mamlaka ga baraza ni ga chiroho, si ga serikali: taganalavywa ni kura wala kuteuliwa, ela ni hadhi ambayo anachama a baraza akaiphaha ndani ya mfumo wa azehe a kaya."
             },
             {
               "type": "paragraph",
@@ -430,7 +430,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Mwaka 2001, kpwa msada wa Ford Foundation, Shirika ra Anyama a Weruni Duniani, na Makumbusho ga Chitaifa ga Kenya, Kaya Kinondo yaandza mpango wa utalii wa chiikolojia ambao ukakala chielelezo cha uhifadhi wa maeneo matakatifu ganagoimiririwa ni jamii kosi Afrika Mashariki. Ajeni anakaribishwa — ela kpwa masharti ga kaya. Anahitajika kuvwala *kanga* nyiru dza alama ya hishima kpwa akare. Analongozwa ni azehe anaoeleza umuhimu wa chiroho na wa chiikolojia wa tsaka. Anavoywa kuvula virahu phatu phanjina. Anaambirwa ni phi anaweza kunyendeka na ni phi taaweza."
+              "text": "Mwaka 2001, kpwa msada wa Ford Foundation, Shirika ra Anyama a Weruni Duniani, na Makumbusho ga Chitaifa ga Kenya, Kaya Chinondo yaandza mpango wa utalii wa chiikolojia ambao ukakala chielelezo cha uhifadhi wa maeneo matakatifu ganagoimiririwa ni jamii kosi Afrika Mashariki. Ajeni anakaribishwa — ela kpwa masharti ga kaya. Anahitajika kuvwala *kanga* nyiru dza alama ya hishima kpwa akare. Analongozwa ni azehe anaoeleza umuhimu wa chiroho na wa chiikolojia wa tsaka. Anavoywa kuvula virahu phatu phanjina. Anaambirwa ni phi anaweza kunyendeka na ni phi taaweza."
             },
             {
               "type": "paragraph",
@@ -442,7 +442,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo ndiyo tsaka takatifu ra Chimijikenda rimwenga tu ririrovugulwa kpwa ajeni. Tafwauti iyo ni muhimu. Makaya ganjina — Kaya Gandini, Kaya Dzombo, Kaya Kwale — ganasala gakafungwa kpwa ajeni, na maeneo gao ga ndani ganaphahikana tu kpwa azehe arioinjizwa. Uwazi wa Kaya Kinondo ni chaguo ra chimkakati ra makusudi: kpwa kuualika ulimwengu wa kondze ndani kpwa masharti garigozuwiywa, uongozi wa kaya ukaphaha asena, ukalavya mapato, na ukadzenga umma wa uhifadhi. Kuonekana kunakokpwedza na kukala eneo ra utalii piya kukahenda ikale vigumu kpwa aendelezaji kuinjira kpwa chimya — ulimwengu unalola."
+              "text": "Kaya Chinondo ndiyo tsaka takatifu ra Chimijikenda rimwenga tu ririrovugulwa kpwa ajeni. Tafwauti iyo ni muhimu. Makaya ganjina — Kaya Gandini, Kaya Dzombo, Kaya Kwale — ganasala gakafungwa kpwa ajeni, na maeneo gao ga ndani ganaphahikana tu kpwa azehe arioinjizwa. Uwazi wa Kaya Chinondo ni chaguo ra chimkakati ra makusudi: kpwa kuualika ulimwengu wa kondze ndani kpwa masharti garigozuwiywa, uongozi wa kaya ukaphaha asena, ukalavya mapato, na ukadzenga umma wa uhifadhi. Kuonekana kunakokpwedza na kukala eneo ra utalii piya kukahenda ikale vigumu kpwa aendelezaji kuinjira kpwa chimya — ulimwengu unalola."
             },
             {
               "type": "paragraph",
@@ -547,7 +547,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "The picture is not entirely bleak. The National Museums of Kenya manages the gazetted kayas as National Monuments. Mijikenda Kaya Elders associations advocate for protection in policy forums and participate in UNESCO heritage management processes. The Kaya Kinondo ecotourism model demonstrates that community-managed conservation can work — that revenue from visitors can support both elder welfare and forest maintenance. WWF and other conservation NGOs provide technical and financial support for boundary demarcation, community engagement, and sustainable use planning."
+              "text": "The picture is not entirely bleak. The National Museums of Kenya manages the gazetted kayas as National Monuments. Mijikenda Kaya Elders associations advocate for protection in policy forums and participate in UNESCO heritage management processes. The Kaya Chinondo ecotourism model demonstrates that community-managed conservation can work — that revenue from visitors can support both elder welfare and forest maintenance. WWF and other conservation NGOs provide technical and financial support for boundary demarcation, community engagement, and sustainable use planning."
             },
             {
               "type": "paragraph",
@@ -637,7 +637,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Picha si ya giza kabisa. Makumbusho ya Kitaifa ya Kenya yanasimamia makaya yaliyoorodheshwa kama Minara ya Kitaifa. Vyama vya Wazee wa Makaya ya Kimijikenda vinatetea ulinzi katika vikao vya sera na kushiriki katika michakato ya usimamizi wa urithi wa UNESCO. Mfano wa utalii wa kiikolojia wa Kaya Kinondo unaonyesha kwamba uhifadhi unaosimamiwa na jamii unaweza kufanya kazi — kwamba mapato kutoka wageni yanaweza kusaidia ustawi wa wazee na utunzaji wa msitu. WWF na mashirika mengine ya uhifadhi yanatoa msaada wa kiufundi na wa kifedha kwa uwekaji mipaka, ushirikishwaji wa jamii, na upangaji wa matumizi endelevu."
+              "text": "Picha si ya giza kabisa. Makumbusho ya Kitaifa ya Kenya yanasimamia makaya yaliyoorodheshwa kama Minara ya Kitaifa. Vyama vya Wazee wa Makaya ya Kimijikenda vinatetea ulinzi katika vikao vya sera na kushiriki katika michakato ya usimamizi wa urithi wa UNESCO. Mfano wa utalii wa kiikolojia wa Kaya Chinondo unaonyesha kwamba uhifadhi unaosimamiwa na jamii unaweza kufanya kazi — kwamba mapato kutoka wageni yanaweza kusaidia ustawi wa wazee na utunzaji wa msitu. WWF na mashirika mengine ya uhifadhi yanatoa msaada wa kiufundi na wa kifedha kwa uwekaji mipaka, ushirikishwaji wa jamii, na upangaji wa matumizi endelevu."
             },
             {
               "type": "paragraph",
@@ -727,7 +727,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Picha si ya giza kabisa. Makumbusho ga Chitaifa ga Kenya ganaimirira makaya garigoorodheshwa dza Minara ya Chitaifa. Vyama vya Azehe a Makaya ga Chimijikenda vinatetea urinzi kpwenye vikao vya sera na vinashiriki kpwenye michakato ya usimamizi wa urithi wa UNESCO. Mfwano wa utalii wa chiikolojia wa Kaya Kinondo unaonyesa kukala uhifadhi unaoimiririwa ni jamii unaweza kuhenda kazi — kukala mapato kula kpwa ajeni ganaweza kuterya ustawi wa azehe na kutundza tsaka. WWF na mashirika ganjina ga uhifadhi ganalavya msada wa chiufundi na wa chifedha kpwa kuika miphaka, kushirikisha jamii, na kupanga mahumizi ga kudumu."
+              "text": "Picha si ya giza kabisa. Makumbusho ga Chitaifa ga Kenya ganaimirira makaya garigoorodheshwa dza Minara ya Chitaifa. Vyama vya Azehe a Makaya ga Chimijikenda vinatetea urinzi kpwenye vikao vya sera na vinashiriki kpwenye michakato ya usimamizi wa urithi wa UNESCO. Mfwano wa utalii wa chiikolojia wa Kaya Chinondo unaonyesa kukala uhifadhi unaoimiririwa ni jamii unaweza kuhenda kazi — kukala mapato kula kpwa ajeni ganaweza kuterya ustawi wa azehe na kutundza tsaka. WWF na mashirika ganjina ga uhifadhi ganalavya msada wa chiufundi na wa chifedha kpwa kuika miphaka, kushirikisha jamii, na kupanga mahumizi ga kudumu."
             },
             {
               "type": "paragraph",
@@ -796,7 +796,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Each kaya has its own history, its own founding narrative, its own council of elders, and its own specific ceremonial practices. The kayas are not interchangeable. Kaya Kinondo is not Kaya Kwale is not Kaya Gandini. Each one carries the memory of the particular clan or lineage that established it, and the authority of each kaya's elders extends only within its own domain. This distributed governance — one forest, one council, one community — is one of the most distinctive features of the Mijikenda political system."
+              "text": "Each kaya has its own history, its own founding narrative, its own council of elders, and its own specific ceremonial practices. The kayas are not interchangeable. Kaya Chinondo is not Kaya Kwale is not Kaya Gandini. Each one carries the memory of the particular clan or lineage that established it, and the authority of each kaya's elders extends only within its own domain. This distributed governance — one forest, one council, one community — is one of the most distinctive features of the Mijikenda political system."
             }
           ],
           "sw": [
@@ -846,7 +846,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kila kaya ina historia yake, masimulizi yake ya kuanzishwa, baraza lake la wazee, na mazoezi yake maalum ya sherehe. Makaya si yanayobadilishana. Kaya Kinondo si Kaya Kwale si Kaya Gandini. Kila moja inabeba kumbukumbu ya ukoo au nasaba fulani iliyoianzisha, na mamlaka ya wazee wa kila kaya yanaenea tu ndani ya eneo lake lenyewe. Utawala huu uliosambazwa — msitu mmoja, baraza moja, jamii moja — ni mojawapo ya sifa tofauti zaidi za mfumo wa kisiasa wa Kimijikenda."
+              "text": "Kila kaya ina historia yake, masimulizi yake ya kuanzishwa, baraza lake la wazee, na mazoezi yake maalum ya sherehe. Makaya si yanayobadilishana. Kaya Chinondo si Kaya Kwale si Kaya Gandini. Kila moja inabeba kumbukumbu ya ukoo au nasaba fulani iliyoianzisha, na mamlaka ya wazee wa kila kaya yanaenea tu ndani ya eneo lake lenyewe. Utawala huu uliosambazwa — msitu mmoja, baraza moja, jamii moja — ni mojawapo ya sifa tofauti zaidi za mfumo wa kisiasa wa Kimijikenda."
             }
           ],
           "dg": [
@@ -896,7 +896,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Chila kaya ina historiaye, masimulizige ga kuandzishwa, barazare ra azehe, na mazoezige maalum ga sherehe. Makaya si ga kubadilishana. Kaya Kinondo si Kaya Kwale, wala si Kaya Gandini. Chila mwenga inatsukula tambukizo ra ukoo au nasaba fulani iriyoiandzisha, na mamlaka ga azehe a chila kaya ganaenea tu ndani ya eneore renye. Utawala hinyo urioganywa — tsaka rimwenga, baraza rimwenga, jamii mwenga — ni mwenga wa sifa za tafwauti zaidi za mfumo wa chisiasa wa Chimijikenda."
+              "text": "Chila kaya ina historiaye, masimulizige ga kuandzishwa, barazare ra azehe, na mazoezige maalum ga sherehe. Makaya si ga kubadilishana. Kaya Chinondo si Kaya Kwale, wala si Kaya Gandini. Chila mwenga inatsukula tambukizo ra ukoo au nasaba fulani iriyoiandzisha, na mamlaka ga azehe a chila kaya ganaenea tu ndani ya eneore renye. Utawala hinyo urioganywa — tsaka rimwenga, baraza rimwenga, jamii mwenga — ni mwenga wa sifa za tafwauti zaidi za mfumo wa chisiasa wa Chimijikenda."
             }
           ]
         }
@@ -6607,7 +6607,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "The story of Digo settlement is a story of migration — not across vast distances, but downhill. The Digo originally lived in fortified kayas, hilltop forest settlements in the Shimba Hills and along the coastal ridge. Kaya Kwale, Kaya Kinondo near Gazi, and other sacred sites served as both defensive strongholds and spiritual centres for the community. Protected by dense forest and steep approaches, the kayas were places of safety in a region where inter-ethnic conflict and slave raiding made vulnerability a death sentence. The kaya was not merely a village. It was a fortress, a temple, and a seat of governance rolled into one."
+              "text": "The story of Digo settlement is a story of migration — not across vast distances, but downhill. The Digo originally lived in fortified kayas, hilltop forest settlements in the Shimba Hills and along the coastal ridge. Kaya Kwale, Kaya Chinondo near Gazi, and other sacred sites served as both defensive strongholds and spiritual centres for the community. Protected by dense forest and steep approaches, the kayas were places of safety in a region where inter-ethnic conflict and slave raiding made vulnerability a death sentence. The kaya was not merely a village. It was a fortress, a temple, and a seat of governance rolled into one."
             },
             {
               "type": "paragraph",
@@ -6693,7 +6693,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Hadithi ya makazi ya Wadigo ni hadithi ya uhamiaji — si katika umbali mkubwa, bali kushuka mlimani. Wadigo awali waliishi katika kaya zilizoimarishwa, makazi ya msitu wa kilimani katika Milima ya Shimba. Kaya Kwale, Kaya Kinondo karibu na Gazi, na maeneo mengine matakatifu yalitumika kama ngome za kujilinda na vituo vya kiroho. Kuanzia karne ya kumi na nane, Wadigo walianza kutawanyika kutoka kayani — kwa sababu za msongo wa watu, amani ya kiasi, na fursa za kilimo katika tambarare za pwani."
+              "text": "Hadithi ya makazi ya Wadigo ni hadithi ya uhamiaji — si katika umbali mkubwa, bali kushuka mlimani. Wadigo awali waliishi katika kaya zilizoimarishwa, makazi ya msitu wa kilimani katika Milima ya Shimba. Kaya Kwale, Kaya Chinondo karibu na Gazi, na maeneo mengine matakatifu yalitumika kama ngome za kujilinda na vituo vya kiroho. Kuanzia karne ya kumi na nane, Wadigo walianza kutawanyika kutoka kayani — kwa sababu za msongo wa watu, amani ya kiasi, na fursa za kilimo katika tambarare za pwani."
             },
             {
               "type": "paragraph",
@@ -6779,7 +6779,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Hadisi ya makalo ga Adigo ni hadisi ya uhamiaji — si kpwa umbali mrefu, ela kutserera kula miangoni. Kare Adigo akala anaishi kahi ya kaya zirizoimarishwa, makalo ga tsaka dzulu ya miango kahi ya Miango ya Shimba na kanda-kanda ya mwango wa pwani. Kaya Kwale, Kaya Kinondo phephi na Gazi, na phatu phanjina phatakatifu vyosi vyahumirwa dza ngome za kudzirinda na vituo vya chiroho vya utsi. Zichirindwa ni tsaka nzito na njira za kupanda zirizo kali, kaya zakala phatu pha salama kahi ya eneo ambamo kondo za makabila na kuhalwa utumwani vyahenda kukala dhaifu kukale sawa na kufwa. Kaya yakala si chidzidzi bahi. Yakala ngome, nyumba ya ibada, na chiti cha utawala, vyosi phamwenga."
+              "text": "Hadisi ya makalo ga Adigo ni hadisi ya uhamiaji — si kpwa umbali mrefu, ela kutserera kula miangoni. Kare Adigo akala anaishi kahi ya kaya zirizoimarishwa, makalo ga tsaka dzulu ya miango kahi ya Miango ya Shimba na kanda-kanda ya mwango wa pwani. Kaya Kwale, Kaya Chinondo phephi na Gazi, na phatu phanjina phatakatifu vyosi vyahumirwa dza ngome za kudzirinda na vituo vya chiroho vya utsi. Zichirindwa ni tsaka nzito na njira za kupanda zirizo kali, kaya zakala phatu pha salama kahi ya eneo ambamo kondo za makabila na kuhalwa utumwani vyahenda kukala dhaifu kukale sawa na kufwa. Kaya yakala si chidzidzi bahi. Yakala ngome, nyumba ya ibada, na chiti cha utawala, vyosi phamwenga."
             },
             {
               "type": "paragraph",
@@ -10826,7 +10826,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo, one of the best-studied kayas in Digo territory, illustrates the pattern in detail. Within its modest boundaries, researchers have documented 187 plant species, including 5 that may be found nowhere else — possible endemic species whose entire global range is a single sacred grove. One hundred and forty rare tree species grow within the forest. The understorey is dense with medicinal plants: antibiotic leaves, antihistamine roots, resins with therapeutic properties that Digo healers have used for generations. The kaya functions, as one ethnobotanist described it, as a \"living pharmacy,\" a repository of pharmaceutical potential that Western science has barely begun to investigate."
+              "text": "Kaya Chinondo, one of the best-studied kayas in Digo territory, illustrates the pattern in detail. Within its modest boundaries, researchers have documented 187 plant species, including 5 that may be found nowhere else — possible endemic species whose entire global range is a single sacred grove. One hundred and forty rare tree species grow within the forest. The understorey is dense with medicinal plants: antibiotic leaves, antihistamine roots, resins with therapeutic properties that Digo healers have used for generations. The kaya functions, as one ethnobotanist described it, as a \"living pharmacy,\" a repository of pharmaceutical potential that Western science has barely begun to investigate."
             },
             {
               "type": "paragraph",
@@ -10896,7 +10896,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "heading",
-              "text": "Misitu ya kaya inashikilia zaidi ya asilimia 50 ya mimea 159 adimu ya pwani ya Kenya. Kaya Kinondo ina aina 187 za mimea, ikiwemo 5 ambazo zinaweza kuwa za kipekee kabisa, na aina 140 za miti adimu. Kaya inafanya kazi kama \"duka la dawa hai\" — chanzo cha majani ya antibiotic, mizizi ya antihistamine, na resini za tiba."
+              "text": "Misitu ya kaya inashikilia zaidi ya asilimia 50 ya mimea 159 adimu ya pwani ya Kenya. Kaya Chinondo ina aina 187 za mimea, ikiwemo 5 ambazo zinaweza kuwa za kipekee kabisa, na aina 140 za miti adimu. Kaya inafanya kazi kama \"duka la dawa hai\" — chanzo cha majani ya antibiotic, mizizi ya antihistamine, na resini za tiba."
             },
             {
               "type": "paragraph",
@@ -10982,7 +10982,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Kaya Kinondo, mwenga kahi ya kaya zirizochunguzwa zaidi kpwenye tsi ya Adigo, inaonyesa mfumo uhu kpwa undani. Ndani ya miphakaye midide, atafiti akaandika aina 187 za mimea, phamwenga na 5 ambazo zinaweza kukala za chipekee kabisa — viumbe ambavyo taviphahikana phatu phanjina duniani isiphokala ndani ya tsaka mwenga takatifu. Aina 140 za mihi adimu zinamera ndani ya tsaka. Photsi ya tsaka kuna mimea minji ya dawa: makodza ga antibiotic, mizi ya antihistamine, na resini za dawa ambazo aganga a Chidigo akazihumira kpwa vizazi. Kaya inahenda kazi, dza mtaalamu mmwenga wa mimea na mila arivyogomba, dza \"duka ra dawa renye uzima\" — tsandzo ra dawa ambaro sayansi ya Magharibi ikaandza bahi kurichunguza chidide."
+              "text": "Kaya Chinondo, mwenga kahi ya kaya zirizochunguzwa zaidi kpwenye tsi ya Adigo, inaonyesa mfumo uhu kpwa undani. Ndani ya miphakaye midide, atafiti akaandika aina 187 za mimea, phamwenga na 5 ambazo zinaweza kukala za chipekee kabisa — viumbe ambavyo taviphahikana phatu phanjina duniani isiphokala ndani ya tsaka mwenga takatifu. Aina 140 za mihi adimu zinamera ndani ya tsaka. Photsi ya tsaka kuna mimea minji ya dawa: makodza ga antibiotic, mizi ya antihistamine, na resini za dawa ambazo aganga a Chidigo akazihumira kpwa vizazi. Kaya inahenda kazi, dza mtaalamu mmwenga wa mimea na mila arivyogomba, dza \"duka ra dawa renye uzima\" — tsandzo ra dawa ambaro sayansi ya Magharibi ikaandza bahi kurichunguza chidide."
             },
             {
               "type": "paragraph",
@@ -12244,7 +12244,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "The social impact of tourism extends beyond economics. Sex tourism and child sexual exploitation have been documented in the area, with UNICEF and government reports indicating that one in three girls aged 12 to 18 in coastal areas has been involved in casual sex work. Sacred sites, including remnants of Kaya Diani forest, have been reduced to fragments by construction. Alcohol and drug availability increases around tourist zones. The Digo community has responded with initiatives like the Kaya Kinondo Ecotourism Project, where elders lead tours of the sacred forest and revenue supports conservation, and the Diani Ngalawa Regatta, a ten-year-old celebration of authentic Digo culture through traditional canoe races and artisanal craft markets supporting over 200 women artisans."
+              "text": "The social impact of tourism extends beyond economics. Sex tourism and child sexual exploitation have been documented in the area, with UNICEF and government reports indicating that one in three girls aged 12 to 18 in coastal areas has been involved in casual sex work. Sacred sites, including remnants of Kaya Diani forest, have been reduced to fragments by construction. Alcohol and drug availability increases around tourist zones. The Digo community has responded with initiatives like the Kaya Chinondo Ecotourism Project, where elders lead tours of the sacred forest and revenue supports conservation, and the Diani Ngalawa Regatta, a ten-year-old celebration of authentic Digo culture through traditional canoe races and artisanal craft markets supporting over 200 women artisans."
             },
             {
               "type": "heading",
@@ -12314,7 +12314,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "**Diani Beach** ni mojawapo ya vivutio vikuu vya watalii Afrika Mashariki — lakini pia ni hadithi ya kunyang'anywa. Wadigo wanadhibiti takriban asilimia 20 tu ya ardhi waliyomiliki. Kati ya 1962 na 2002, hati za ardhi haramu takriban 200,000 ziliundwa. Hoteli na resort zilijengwa kwenye ardhi iliyochukuliwa kutoka familia za Wadigo. Mipango ya jamii kama Kaya Kinondo Ecotourism Project na Diani Ngalawa Regatta inaonyesha njia mbadala."
+              "text": "**Diani Beach** ni mojawapo ya vivutio vikuu vya watalii Afrika Mashariki — lakini pia ni hadithi ya kunyang'anywa. Wadigo wanadhibiti takriban asilimia 20 tu ya ardhi waliyomiliki. Kati ya 1962 na 2002, hati za ardhi haramu takriban 200,000 ziliundwa. Hoteli na resort zilijengwa kwenye ardhi iliyochukuliwa kutoka familia za Wadigo. Mipango ya jamii kama Kaya Chinondo Ecotourism Project na Diani Ngalawa Regatta inaonyesha njia mbadala."
             },
             {
               "type": "paragraph",
@@ -12334,7 +12334,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Athari za kijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa kingono wa watoto umeandikwa katika eneo hili, huku ripoti za UNICEF na serikali zikionyesha kuwa msichana mmoja kati ya watatu wenye umri wa miaka 12 hadi 18 katika maeneo ya pwani amehusika katika kazi ya ngono ya kawaida. Maeneo matakatifu, ikiwa ni pamoja na masalia ya msitu wa Kaya Diani, yamepunguzwa kuwa vipande vidogo na ujenzi. Upatikanaji wa pombe na dawa za kulevya unaongezeka karibu na maeneo ya watalii. Jamii ya Wadigo imejibu kwa miradi kama Mradi wa Utalii wa Kiikolojia wa Kaya Kinondo, ambapo wazee wanaongoza ziara za msitu mtakatifu na mapato yanasaidia uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni halisi wa Wadigo kupitia mashindano ya mitumbwi ya jadi na masoko ya sanaa zinazosaidia wanawake mafundi zaidi ya 200."
+              "text": "Athari za kijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa kingono wa watoto umeandikwa katika eneo hili, huku ripoti za UNICEF na serikali zikionyesha kuwa msichana mmoja kati ya watatu wenye umri wa miaka 12 hadi 18 katika maeneo ya pwani amehusika katika kazi ya ngono ya kawaida. Maeneo matakatifu, ikiwa ni pamoja na masalia ya msitu wa Kaya Diani, yamepunguzwa kuwa vipande vidogo na ujenzi. Upatikanaji wa pombe na dawa za kulevya unaongezeka karibu na maeneo ya watalii. Jamii ya Wadigo imejibu kwa miradi kama Mradi wa Utalii wa Kiikolojia wa Kaya Chinondo, ambapo wazee wanaongoza ziara za msitu mtakatifu na mapato yanasaidia uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni halisi wa Wadigo kupitia mashindano ya mitumbwi ya jadi na masoko ya sanaa zinazosaidia wanawake mafundi zaidi ya 200."
             },
             {
               "type": "heading",
@@ -12424,7 +12424,7 @@ export const domains: CultureDomain[] =
             },
             {
               "type": "paragraph",
-              "text": "Athari za chijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa chingono wa ana ukaandikpwa kpwenye seemu hino, na ripoti za UNICEF na serikali zinaonyesa kukala msichana mmwenga kahi ya ahahu ario na umri wa miaka 12 hadi 18 kpwenye seemu za pwani akahusika kpwenye kazi ya ngono ya kawaida. Seemu takatifu, phamwenga na masalia ga tsaka ra Kaya Diani, gaphunguzwa kukala vipande vidide ni ujenzi. Kuphaha uchi na dawa za kulevya kunazidi phephi na seemu za atalii. Jamii ya Adigo ikadzibu na miradi dza Mradi wa Utalii wa Chiikolojia wa Kaya Kinondo, ambapho akare analongoza ziara za tsaka takatifu na mapato ganaterya uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni wa kpweli wa Adigo kpwa mashindano ga mitumbwi ya kare na masoko ga sanaa ganagoterya achetu mafundi zaidi ya 200."
+              "text": "Athari za chijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa chingono wa ana ukaandikpwa kpwenye seemu hino, na ripoti za UNICEF na serikali zinaonyesa kukala msichana mmwenga kahi ya ahahu ario na umri wa miaka 12 hadi 18 kpwenye seemu za pwani akahusika kpwenye kazi ya ngono ya kawaida. Seemu takatifu, phamwenga na masalia ga tsaka ra Kaya Diani, gaphunguzwa kukala vipande vidide ni ujenzi. Kuphaha uchi na dawa za kulevya kunazidi phephi na seemu za atalii. Jamii ya Adigo ikadzibu na miradi dza Mradi wa Utalii wa Chiikolojia wa Kaya Chinondo, ambapho akare analongoza ziara za tsaka takatifu na mapato ganaterya uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni wa kpweli wa Adigo kpwa mashindano ga mitumbwi ya kare na masoko ga sanaa ganagoterya achetu mafundi zaidi ya 200."
             },
             {
               "type": "heading",
