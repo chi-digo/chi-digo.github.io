@@ -17,7 +17,7 @@ import { join } from 'path';
 import { chromium, type BrowserContext, type Page } from 'playwright-core';
 import { createClient } from '@supabase/supabase-js';
 import { createServerClient } from '@supabase/ssr';
-import { testPlant, testWord } from '../lib/contributions/targets';
+import { testPlant, testWord, testProverb } from '../lib/contributions/targets';
 
 if (existsSync('.env.local')) {
   for (const line of readFileSync('.env.local', 'utf-8').split('\n')) {
@@ -38,7 +38,14 @@ const PLANT = '/culture/ecology/plants/__test__';
 const WORD_FILE = join(process.cwd(), 'public/data/_.json');
 const WORD_IDX = join(process.cwd(), 'public/data/_.idx.json');
 const WORD = '/language/dictionary/word/__test__';
-const removeFixtures = () => [FIXTURE, WORD_FILE, WORD_IDX].forEach((f) => rmSync(f, { force: true }));
+// The fixture proverb is appended to the proverbs file for the run and the original restored after.
+const PROVERBS = join(process.cwd(), 'public/data/proverbs/index.json');
+let proverbsOriginal: string | null = null;
+const PROVERB = '/language/proverbs/p-test';
+const removeFixtures = () => {
+  [FIXTURE, WORD_FILE, WORD_IDX].forEach((f) => rmSync(f, { force: true }));
+  if (proverbsOriginal !== null) writeFileSync(PROVERBS, proverbsOriginal);
+};
 
 let passes = 0;
 let failures = 0;
@@ -100,6 +107,8 @@ async function main() {
   const w = testWord();
   writeFileSync(WORD_FILE, JSON.stringify({ letter: '_', count: 1, entries: [w] }));
   writeFileSync(WORD_IDX, JSON.stringify([{ sk: w.sort_key, hw: w.headword, id: w.id, pos: w.pos, eq: 'test', eq_sw: 'jaribio', eq_dg: 'majaribio' }]));
+  proverbsOriginal = readFileSync(PROVERBS, 'utf-8');
+  writeFileSync(PROVERBS, JSON.stringify([...JSON.parse(proverbsOriginal), testProverb()], null, 2) + '\n');
   let server: ChildProcess | null = null;
   if (!process.env.BASE_URL) {
     // Start from an empty data cache: an earlier aborted run may have cached fixture overlays.
@@ -286,6 +295,38 @@ async function main() {
     await shot(d, '16-new-word');
     await d.getByRole('button', { name: 'Send suggestion' }).click();
     check('new word sent', await visible(d, 'Asante!', 45000));
+
+    console.log('4d. proverbs: how it is used, add a proverb');
+    const acceptLatest = async (type: string) => {
+      let row: { id: string } | null = null;
+      for (let i = 0; i < 20 && !row; i++) {
+        ({ data: row } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', type)
+          .order('created_at', { ascending: false }).limit(1).maybeSingle());
+        if (!row) await new Promise((r) => setTimeout(r, 1000));
+      }
+      if (!row) return 0;
+      return a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'accept' }),
+      })).status, row.id);
+    };
+    await d.goto(`${BASE}${PROVERB}`);
+    check('the proverb page offers "Suggest an edit"', await visible(d, 'Suggest an edit'));
+    await d.getByRole('button', { name: 'Suggest an edit' }).click();
+    await d.getByRole('menuitem', { name: 'Tell us how it’s used' }).click();
+    await d.getByRole('textbox', { name: 'How is it used?', exact: true }).fill('Grandmothers say it to children.');
+    check('…with a language choice', await visible(d, 'Which language are you writing in?'));
+    await shot(d, '17-proverb-context');
+    await d.getByRole('button', { name: 'Send suggestion' }).click();
+    check('story sent', await visible(d, 'Asante!', 45000));
+    check('…and accepted', (await acceptLatest('proverb_context')) === 200);
+    await d.goto(`${BASE}${PROVERB}`);
+    const paras = await d.locator('[class*="commentaryText"]').allInnerTexts().catch(() => [] as string[]);
+    check('the story shows as its own paragraph', paras.includes('Grandmothers say it to children.') && paras.includes('Used in tests.'), JSON.stringify(paras));
+    await shot(d, '18-proverb-story');
+    await d.goto(`${BASE}/language/proverbs`);
+    await d.getByRole('button', { name: 'Add a proverb' }).first().click();
+    check('"Add a proverb" opens the form', await visible(d, 'The proverb in Digo'));
+    await shot(d, '19-new-proverb');
 
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();

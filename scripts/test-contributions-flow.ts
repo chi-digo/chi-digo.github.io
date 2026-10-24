@@ -322,6 +322,47 @@ async function main() {
     r = await call(A, 'POST', `/api/review/${flag}`, { action: 'resolve' });
     check('resolve needs a note → 400', r.status === 400, r);
 
+    console.log('5d. proverbs (spec 34 §16)');
+    const P1 = await session(await createUser('proverbs1'));
+    const P2 = await session(await createUser('proverbs2'));
+    users.push(P1.id, P2.id);
+    const pv = (type: string, payload: Record<string, unknown>, target_id: string | undefined = TEST) => ({
+      type, ...(target_id !== undefined && { target_id }), payload, locale: 'en', region: 'tanga', confidence: 'native',
+    });
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Mvula1' }));
+    check('digits in a proverb → 400', r.status === 400, r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_context', { lang: 'en', text: 'a\u200bb' }));
+    check('a zero-width character → 400', r.status === 400, r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Mvula' }, '../p-001'));
+    check('a path as the target → 400', r.status === 400 && r.json.error === 'invalid_target', r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_addition', { digo: 'Mvula ya kare', meaning_en: 'x' }, undefined));
+    check('test accounts add only the test proverb → 403', r.status === 403 && r.json.error === 'test_account_target', r);
+
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_meaning', { lang: 'en', kind: 'idiomatic', mode: 'replace', text: 'Tests matter' }));
+    const pm = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pm}`, { action: 'accept', final_payload: { lang: 'sw', kind: 'idiomatic', mode: 'replace', text: 'x' } });
+    check('a reviewer cannot change the language → 400', r.status === 400 && r.json.error === 'locked_fields', r);
+    r = await call(A, 'POST', `/api/review/${pm}`, { action: 'accept' });
+    check('a meaning on the fixture proverb goes live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_context', { lang: 'en', text: 'Call me on +254 712 345 678 for the story.' }));
+    const pc = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pc}`, { action: 'accept' });
+    check('personal details block an accept → 422', r.status === 422 && r.json.error === 'pii', r);
+    r = await call(A, 'POST', `/api/review/${pc}`, { action: 'accept', final_payload: { lang: 'en', text: 'Told by grandmothers.' } });
+    check('…accepted once removed', r.status === 200, r);
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_addition', { digo: TEST, meaning_en: 'a test proverb' }, undefined));
+    const pa = r.json.id as string;
+    check('the test new proverb → 201', r.status === 201, r);
+    r = await call(A, 'POST', `/api/review/${pa}`, { action: 'accept', final_payload: { digo: TEST, meaning_en: 'a test proverb', mature: false, themes: ['wisdom'] } });
+    check('…accepted with the reviewer’s completion', r.status === 200, r);
+    const { data: paRow } = await admin.from('contributions').select('target_id').eq('id', pa).single();
+    check('…a test proverb keeps its fixture target (no id reserved)', paRow?.target_id === TEST, paRow);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Methali ya majaribiyo' }));
+    const pvar = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pvar}`, { action: 'accept' });
+    const proverbsOv = await call(null, 'GET', '/api/overlay/proverb');
+    check('proverb changes are in the overlay', [pm, pc, pa, pvar].every((id) => proverbsOv.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), proverbsOv.json);
+
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });
     check('withdraw', r.status === 200 && r.json.status === 'withdrawn', r);

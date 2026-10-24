@@ -203,7 +203,7 @@ export function testProverb(): ProverbEntry {
     idiomatic_en: 'Tests are useful', swahili: '', swahili_relationship: 'translation', commentary_en: 'Used in tests.', commentary_dg: '',
     commentary_source: 'native', themes: [], functions: [], keywords_en: [], keywords_sw: [], related_proverbs: [], lexical_links: [],
     english_equivalent: '', swahili_equivalent: '', variants: [], content_flag: null, region: 'KE-coast', source_attribution: 'test',
-    editorial_status: 'draft', idiomatic_sw: '', commentary_sw: '', field_sources: { idiomatic_en: 'original' }, literal_sw: '', idiomatic_dg: '',
+    editorial_status: 'draft', idiomatic_sw: '', commentary_sw: '', field_sources: { idiomatic_en: 'ai-draft' }, literal_sw: '', idiomatic_dg: '',
   } as unknown as ProverbEntry;
 }
 

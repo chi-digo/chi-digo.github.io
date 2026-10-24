@@ -69,7 +69,9 @@ function reportConflict(e: ConflictError) {
  * Test changes never reach readers; a new proverb already folded in (its provenance is shipped) is skipped.
  */
 export function mergeProverbs(shipped: Proverb[], all: Change[]): Proverb[] {
-  const changes = all.filter((c) => c.target_id !== TEST_TARGET && c.final_payload?.digo !== TEST_TARGET);
+  // Test new proverbs never reach readers. Test edits target the fixture proverb (__test__), which exists
+  // only while the UI test runs, so they can't touch a real proverb.
+  const changes = all.filter((c) => !(c.type === 'proverb_addition' && (c.target_id === TEST_TARGET || c.final_payload?.digo === TEST_TARGET)));
   if (!changes.length) return shipped;
   const list = applyAllToProverbs(shipped as ProverbEntry[], changes, reportConflict);
   const folded = new Set(list.flatMap((p) => Object.values(p.provenance ?? {}).flatMap((l) => l.map((x) => x.c))));
