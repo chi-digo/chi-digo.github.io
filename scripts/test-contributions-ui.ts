@@ -345,6 +345,7 @@ async function main() {
     console.log('4e. translation fixes (Swahili page)');
     await d.goto(`${BASE}/sw${PLANT}`);
     check('a Swahili plant page offers "Fix this translation"', await visible(d, 'Rekebisha tafsiri hii', 30000));
+    // The first one sits under the summary (the section links below it open the section form).
     await d.getByRole('button', { name: 'Rekebisha tafsiri hii' }).first().click();
     check('…with the English shown alongside', await visible(d, 'Kwa Kiingereza'));
     await d.getByRole('textbox', { name: 'Maandishi yaliyosahihishwa', exact: true }).fill('Jaribio la mmea');

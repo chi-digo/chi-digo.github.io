@@ -49,7 +49,7 @@ export function testPlant(): Plant {
     id: 'test', slug: TEST_TARGET, digo_headword: 'jina ra majaribio', digo_alt: [], english: 'Test plant', swahili: null,
     scientific: 'Testus plantus', family: null, section: 'test', themes: [], teaser: { en: 'Test', sw: 'Jaribio', dg: null },
     name_status: 'missing', has_parts: false, has_prose: { en: true, sw: false, dg: false }, digo: null, digo_source: null,
-    other_mijikenda: null, summary: { en: 'Test', sw: null, dg: null }, sections: { uses: { en: 'Test uses.', sw: null, dg: null } },
+    other_mijikenda: null, summary: { en: 'Test', sw: 'Muhtasari wa majaribio', dg: null }, sections: { uses: { en: 'Test uses.', sw: null, dg: null } },
     related: [], parts: [], taxon: null, mgombato: [], sources: [], digo_proposals: [], name_credit: null,
   };
 }
