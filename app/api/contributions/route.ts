@@ -4,7 +4,8 @@ import { PAYLOADS, TYPE_SCOPE, ENABLED_TYPES, submitSchema } from '@/lib/contrib
 import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
 import { resolveTarget, WORD_ID, similarHeadwords, PROVERB_ID, similarProverb } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { normaliseDigo, sameMarkup } from '@/lib/contributions/text';
+import { normaliseDigo } from '@/lib/contributions/text';
+import { translationTextProblem } from '@/lib/contributions/review';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
 
 /** Submit a contribution (spec 34 technical §4.1). Limits and visibility are applied in the database. */
@@ -76,10 +77,8 @@ export async function POST(request: Request) {
     });
     if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
     if (input.type === 'translation_fix') {
-      const before = String((target.base?.value as { text?: string } | undefined)?.text ?? '');
-      const proposed = String((payload.data as { proposed: string }).proposed);
-      if (proposed.trim() === before.trim()) return badRequest('unchanged');
-      if (!sameMarkup(before, proposed)) return badRequest('markup');
+      const problem = translationTextProblem(target.base?.value, (payload.data as { proposed: string }).proposed);
+      if (problem) return badRequest(problem);
     }
 
     // A plant name someone already suggested: ask "is it the same?" instead of filing a duplicate.

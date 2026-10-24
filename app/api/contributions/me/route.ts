@@ -29,11 +29,15 @@ export async function GET() {
     if (isReviewer(caller)) {
       const scopes = caller.role === 'admin' || caller.scopes.includes('all') ? [...SCOPES] : SCOPES.filter((s) => caller.scopes.includes(s));
       if (scopes.length) {
-        const { count } = await db.from('contributions').select('id', { count: 'exact', head: true })
-          .in('scope', scopes).in('status', ['pending', 'needs_info']).eq('is_test', caller.isTest).or(`user_id.is.null,user_id.neq.${caller.id}`);
+        // Swahili and Digo translations count only for reviewers who read them (as in the queue).
+        const langs = caller.role === 'admin' ? null : ['en', ...caller.languages].join(',');
+        const readable = <Q extends { or: (filter: string) => Q }>(q: Q): Q =>
+          langs ? q.or(`type.not.in.(translation_fix,plant_info),payload->>lang.in.(${langs})`) : q;
+        const { count } = await readable(db.from('contributions').select('id', { count: 'exact', head: true })
+          .in('scope', scopes).in('status', ['pending', 'needs_info']).eq('is_test', caller.isTest).or(`user_id.is.null,user_id.neq.${caller.id}`));
         // Plus accepted items waiting for a second reviewer, which the caller didn't accept.
-        const { count: seconds } = await db.from('contributions').select('id', { count: 'exact', head: true })
-          .in('scope', scopes).eq('live_status', 'awaiting_second').eq('is_test', caller.isTest).neq('reviewer_id', caller.id);
+        const { count: seconds } = await readable(db.from('contributions').select('id', { count: 'exact', head: true })
+          .in('scope', scopes).eq('live_status', 'awaiting_second').eq('is_test', caller.isTest).neq('reviewer_id', caller.id));
         reviewPending = (count ?? 0) + (seconds ?? 0);
       }
     }

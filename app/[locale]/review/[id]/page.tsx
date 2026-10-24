@@ -23,6 +23,7 @@ interface Item {
   target_type: string | null;
   target_id: string | null;
   target_label: string | null;
+  base?: { value: unknown } | null;
   page_path: string | null;
   payload: Record<string, unknown>;
   final_payload: Record<string, unknown> | null;
@@ -46,7 +47,7 @@ interface Item {
 interface Detail {
   item: Item;
   contributor: { first_name: string | null; submitted: number; accepted: number; is_you: boolean };
-  current: { label: string; value: unknown; source?: string | null } | null;
+  current: { label: string; value: unknown; source?: string | null; block?: string | null } | null;
   changed: boolean;
   warnings: { ruled_out: { found: string; right: string }[]; pii: boolean };
   agreements: { region: string | null; confidence: string | null; counted: boolean }[];
@@ -275,9 +276,9 @@ function ReviewItem({ id }: { id: string }) {
         {item.type === 'proverb_context' && <p className={styles.muted}>{msg(c, `lang_${base.lang}`)}</p>}
         {item.type === 'translation_fix' && (
           <>
-            <p className={styles.muted}>{msg(c, `tf_${base.field}`).replace('{term}', '').replace(/^: /, '')} · {msg(c, `lang_${base.lang}`)}</p>
-            {/* What changes, word by word, against the text as it is now. */}
-            <WordDiff before={currentText(detail.current?.value)} after={String(base.proposed ?? '')} />
+            <p className={styles.muted}>{msg(c, `tf_${base.field}`).replace('{term}', detail.current?.block ?? '').replace(/^: /, '')} · {msg(c, `lang_${base.lang}`)}</p>
+            {/* What changes, word by word, against the text the fix was made on. */}
+            <WordDiff before={currentText(item.base?.value ?? detail.current?.value)} after={String(base.proposed ?? '')} />
             {base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}
           </>
         )}

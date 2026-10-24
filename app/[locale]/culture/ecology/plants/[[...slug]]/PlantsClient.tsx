@@ -482,7 +482,7 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
 const SECTION_ORDER: SectionKey[] = ['about', 'where', 'uses', 'culture', 'names', 'conservation'];
 const KIND_ORDER: PlantPart['kind'][] = ['leaf', 'flower', 'fruit_stage', 'fruit', 'seed', 'bunch', 'stem', 'root', 'product', 'other'];
 
-function PartsSection({ parts, locale, onFix }: { parts: PlantPart[]; locale: Locale; onFix?: (part: PlantPart) => void }) {
+function PartsSection({ parts, locale, onFix, fixable }: { parts: PlantPart[]; locale: Locale; onFix?: (part: PlantPart) => void; fixable?: (part: PlantPart) => boolean }) {
   const t = useTranslations();
   const describe = (x: PlantPart) => (
     <>
@@ -496,10 +496,10 @@ function PartsSection({ parts, locale, onFix }: { parts: PlantPart[]; locale: Lo
       {x.meaning && <p className={styles.partMeta}>{t.plants.word_meaning}: <Rich as="span" text={text(x.meaning, locale)} /></p>}
       <p className={styles.partMeta}>
         {x.source}
-        {onFix && (
+        {onFix && fixable?.(x) && (
           <>
             {' · '}
-            <button type="button" className={contrib.textBtn} onClick={() => onFix(x)}>{t.contribute.tf_fix}</button>
+            <button type="button" className={`${contrib.textBtn} ${contrib.inlineFix}`} onClick={() => onFix(x)}>{t.contribute.tf_fix}</button>
           </>
         )}
       </p>
@@ -629,7 +629,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
       const intent = found ? takeResumeIntent(found.slug) : null;
       if (intent?.form === 'plant_name') setNameForm({});
       if (intent?.form === 'plant_info' && intent.extra?.section) setInfoForm(intent.extra.section as SectionKey);
-      if (intent?.form === 'translation_fix') setFixForm({ initial: intent.extra?.key });
+      if (intent?.form === 'translation_fix') setFixForm({ initial: intent.extra?.key ?? 'summary' });
       track('plants', 'detail', found ? 'view' : 'not_found', { slug });
       if (found?.related.length) {
         const all = await loadPlants();
@@ -666,17 +666,21 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
   const name = displayName({ ...plant, scientific: plant.taxon?.accepted_name ?? null });
   const summary = text(plant.summary, locale);
   // Swahili and Digo pages offer "Fix this translation" on the summary, teaser and parts (spec 34 §17).
-  const fixOptions: FixOption[] = locale === 'en' ? [] : [
-    ...(['summary', 'teaser'] as const)
-      .filter((f) => plant[f]?.[locale])
-      .map((f) => ({ key: f, label: t.contribute[`tf_${f}`], field: f, lang: locale, current: plant[f]![locale]!, source: plant[f]!.en })),
-    ...plant.parts.flatMap((x, i) => (['definition', 'use', 'meaning'] as const)
+  // The summary link offers the summary and the teaser; each part's link offers only that part.
+  const proseOptions: FixOption[] = locale === 'en' || !plant.summary?.[locale] ? [] : (['summary', 'teaser'] as const)
+    .filter((f) => plant[f]?.[locale])
+    .map((f) => ({ key: f, label: t.contribute[`tf_${f}`], field: f, lang: locale, current: plant[f]![locale]!, source: plant[f]!.en, swahili: plant[f]!.sw }));
+  const partOptions = (i: number): FixOption[] => {
+    const x = plant.parts[i];
+    if (locale === 'en' || !x) return [];
+    return (['definition', 'use', 'meaning'] as const)
       .filter((f) => x[f]?.[locale])
       .map((f) => ({
         key: `part:${i}:${f}`, label: t.contribute[`tf_${f}`].replace('{term}', x.term), field: f, part: i, lang: locale,
-        current: x[f]![locale]!, source: x[f]!.en,
-      }))),
-  ];
+        current: x[f]![locale]!, source: x[f]!.en, swahili: x[f]!.sw,
+      }));
+  };
+  const fixOptions = fixForm?.initial?.startsWith('part:') ? partOptions(Number(fixForm.initial.split(':')[1])) : proseOptions;
   const openFix = (initial?: string) => {
     track('contribute', 'plants', 'open_translation_fix', { slug: plant.slug });
     setFixForm({ initial });
@@ -742,7 +746,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
       )}
 
       {summary && <div className={styles.summary}><Rich text={summary} /></div>}
-      {fixOptions.some((o) => o.key === 'summary' || o.key === 'teaser') && (
+      {proseOptions.length > 0 && (
         <button type="button" className={contrib.textBtn} onClick={() => openFix('summary')}>{t.contribute.tf_title}</button>
       )}
 
@@ -788,7 +792,8 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
         <PartsSection
           parts={plant.parts}
           locale={locale}
-          onFix={fixOptions.some((o) => o.part !== undefined) ? (x) => openFix(fixOptions.find((o) => o.part === plant.parts.indexOf(x))?.key) : undefined}
+          fixable={(x) => partOptions(plant.parts.indexOf(x)).length > 0}
+          onFix={(x) => openFix(partOptions(plant.parts.indexOf(x))[0]?.key)}
         />
       )}
 
@@ -934,10 +939,17 @@ function GlossaryView({ locale }: { locale: Locale }) {
   const [fix, setFix] = useState<GlossaryTerm | null>(null);
   useEffect(() => {
     track('plants', 'glossary', 'view');
-    loadGlossary().then((g) => setTerms([...g].sort((a, b) => a.term.localeCompare(b.term)))).catch(() => setTerms([]));
+    loadGlossary()
+      .then((g) => {
+        setTerms([...g].sort((a, b) => a.term.localeCompare(b.term)));
+        // After signing in from a fix form, reopen it on that term with its draft.
+        const resumed = g.find((x) => takeResumeIntent(x.term)?.form === 'translation_fix');
+        if (resumed) setFix(resumed);
+      })
+      .catch(() => setTerms([]));
   }, []);
   // Swahili and Digo readers can fix a term's definition (spec 34 §17, phase 5a).
-  const fixable = (g: GlossaryTerm) => locale !== 'en' && !!g.definition?.[locale];
+  const fixable = (g: GlossaryTerm) => locale !== 'en' && (!!g.definition?.[locale] || !!g.meaning?.[locale]);
   return (
     <CreditsProvider ids={(terms ?? []).flatMap((g) => provenanceIds(g.provenance))}>
       <div className={base.themeHeader}>
@@ -957,7 +969,7 @@ function GlossaryView({ locale }: { locale: Locale }) {
             {fixable(g) && (
               <>
                 {' · '}
-                <button type="button" className={contrib.textBtn} onClick={() => setFix(g)}>{t.contribute.tf_fix}</button>
+                <button type="button" className={`${contrib.textBtn} ${contrib.inlineFix}`} onClick={() => setFix(g)}>{t.contribute.tf_fix}</button>
               </>
             )}
           </p>
@@ -969,7 +981,12 @@ function GlossaryView({ locale }: { locale: Locale }) {
           open
           onClose={() => setFix(null)}
           target={{ target_type: 'glossary', target_id: fix.term }}
-          options={[{ key: 'definition', label: fix.term, field: 'definition', lang: locale, current: fix.definition[locale] ?? '', source: fix.definition.en }]}
+          options={(['definition', 'meaning'] as const)
+            .filter((f) => fix[f]?.[locale])
+            .map((f) => ({
+              key: f, label: f === 'definition' ? t.contribute.tf_definition.replace('{term}', fix.term) : t.contribute.tf_meaning.replace('{term}', fix.term),
+              field: f, lang: locale, current: fix[f]![locale]!, source: fix[f]!.en, swahili: fix[f]!.sw,
+            }))}
         />
       )}
     </CreditsProvider>

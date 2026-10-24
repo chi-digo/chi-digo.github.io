@@ -18,6 +18,8 @@ export interface FixOption {
   lang: 'en' | 'sw' | 'dg';
   current: string;
   source?: string | null;
+  /** When fixing Digo: the Swahili of the same block, shown as well. */
+  swahili?: string | null;
 }
 
 /**
@@ -51,8 +53,8 @@ export function TranslationFixForm({
       open={open}
       onClose={onClose}
       type="translation_fix"
-      title={c.tf_title}
-      intro={c.tf_intro.replace('{language}', msg(c, `lang_${chosen.lang}`))}
+      title={chosen.lang === 'en' ? c.tf_correct_en : c.tf_title}
+      intro={chosen.lang === 'en' ? c.tf_intro_en : c.tf_intro.replace('{language}', msg(c, `lang_${chosen.lang}`))}
       target={target}
       draftKey={draftKey}
       resume={{ form: 'translation_fix', target_id: target.target_id, extra: { key: chosen.key } }}
@@ -80,6 +82,12 @@ export function TranslationFixForm({
           <p lang="en">{chosen.source}</p>
         </details>
       )}
+      {chosen.lang === 'dg' && chosen.swahili && (
+        <details className={styles.source}>
+          <summary>{c.tf_source_sw}</summary>
+          <p lang="sw">{chosen.swahili}</p>
+        </details>
+      )}
       <TextArea
         label={c.tf_label}
         value={draft.text}
@@ -96,14 +104,12 @@ export function TranslationFixForm({
 
 /** "Translation improved by …": translation fixes are credited once, at the foot of the page (decision 6). */
 export function TranslationCredits({ provenance }: { provenance: (Provenance | undefined)[] }) {
-  const c = useTranslations().contribute;
   const entries = provenance.flatMap((p) => Object.values(p ?? {}).flat());
   const ids = [...new Set(entries.filter((e) => e.kind === 'translation').map((e) => e.c))];
   if (!ids.length) return null;
   return (
     <div className={styles.translationCredits}>
-      <p className={styles.legend}>{c.tf_credit}</p>
-      <CreditLine ids={ids} />
+      <CreditLine ids={ids} translation />
     </div>
   );
 }

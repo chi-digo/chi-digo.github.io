@@ -158,7 +158,8 @@ export const PAYLOADS = {
     lang: lang3,
     field: z.enum(TRANSLATION_FIELDS),
     part: z.number().int().min(0).max(99).optional(),
-    proposed: safeText(4000),
+    // No zero-width characters: they could hide a ruled-out Digo form from the checks.
+    proposed: safeText(4000).refine((s) => !ZERO_WIDTH.test(s) && !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' }),
     reason: safeText(300),
   }),
   general_feedback: z.object({ text: safeText(2000) }),

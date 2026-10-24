@@ -27,7 +27,7 @@ export function proverbFixOptions(p: Proverb, locale: Locale, c: Record<string, 
     if (p.swahili_equivalent) out.push({ key: 'swahili_equivalent', label: c.tf_swahili_equivalent, field: 'swahili_equivalent', lang: 'sw', current: p.swahili_equivalent, source: p.english_equivalent || p.idiomatic_en });
   }
   const commentary = p[`commentary_${locale}` as 'commentary_en'];
-  if (commentary) out.push({ key: 'commentary', label: c.tf_commentary, field: 'commentary', lang: locale, current: commentary, source: locale === 'en' ? null : p.commentary_en });
+  if (commentary) out.push({ key: 'commentary', label: c.tf_commentary, field: 'commentary', lang: locale, current: commentary, source: locale === 'en' ? null : p.commentary_en, swahili: p.commentary_sw });
   return out;
 }
 

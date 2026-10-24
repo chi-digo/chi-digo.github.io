@@ -20,13 +20,14 @@ type Fixable = {
   summary?: L10nLike | null;
   parts?: readonly object[] | null;
   definition?: L10nLike | null;
+  meaning?: L10nLike | null;
   provenance?: Provenance;
 };
 
 // Reading allows en (the source shown beside a fix); writing refuses it for plants and the glossary.
 const PLANT_PROSE = /^(teaser|summary)\.(en|sw|dg)$/;
 const PLANT_PART = /^parts\.(\d{1,2})\.(definition|use|meaning)\.(en|sw|dg)$/;
-const GLOSSARY = /^definition\.(en|sw|dg)$/;
+const GLOSSARY = /^(definition|meaning)\.(en|sw|dg)$/;
 const PROVERB = /^(swahili|swahili_equivalent|commentary_(?:en|sw|dg))$/;
 
 /**
@@ -40,7 +41,7 @@ export function translationPath(target: TranslationTarget, field: TranslationFie
     if ((field === 'definition' || field === 'use' || field === 'meaning') && part !== undefined) return `parts.${part}.${field}.${lang}`;
     return null;
   }
-  if (target === 'glossary') return field === 'definition' && lang !== 'en' && part === undefined ? `definition.${lang}` : null;
+  if (target === 'glossary') return (field === 'definition' || field === 'meaning') && lang !== 'en' && part === undefined ? `${field}.${lang}` : null;
   if (part !== undefined) return null;
   if (field === 'swahili' || field === 'swahili_equivalent') return lang === 'sw' ? field : null;
   if (field === 'commentary') return `commentary_${lang}`;
@@ -62,7 +63,7 @@ const str = (v: unknown) => (typeof v === 'string' ? v : null);
 export function translationText(item: Fixable, target: 'plant' | 'glossary', path: string): string | null {
   if (target === 'glossary') {
     const m = GLOSSARY.exec(path);
-    return m ? str(own(own(item, 'definition'), m[1])) : null;
+    return m ? str(own(own(item, m[1]), m[2])) : null;
   }
   const prose = PLANT_PROSE.exec(path);
   if (prose) return str(own(own(item, prose[1]), prose[2]));
@@ -82,7 +83,8 @@ export function translationSource(item: Fixable, target: 'plant' | 'glossary', p
 function withText<T extends Fixable>(item: T, target: 'plant' | 'glossary', path: string, text: string): T {
   if (target === 'glossary') {
     const m = GLOSSARY.exec(path)!;
-    return { ...item, definition: { ...(item.definition ?? {}), [m[1]]: text } };
+    const key = m[1] as 'definition' | 'meaning';
+    return { ...item, [key]: { ...(item[key] ?? {}), [m[2]]: text } };
   }
   const prose = PLANT_PROSE.exec(path);
   if (prose) {

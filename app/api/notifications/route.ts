@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { getCaller, badRequest, canReview, serverError } from '@/lib/contributions/server';
+import { getCaller, badRequest, canReview, serverError, readsLanguage } from '@/lib/contributions/server';
 import type { Scope } from '@/lib/contributions/schemas';
 import { payloadSummary } from '@/lib/contributions/display';
 
@@ -31,7 +31,7 @@ export async function GET() {
     let c = n.contribution_id ? byId.get(n.contribution_id) : null;
     const forReviewers = n.kind === 'second_review' || n.kind === 'report_hidden' || n.kind === 'translation_overdue';
     // Reviewer notices show the item only while the reader can still review it.
-    if (c && forReviewers && !(n.kind === 'report_hidden' ? caller.role === 'admin' && !caller.blocked : canReview(caller, c.scope as Scope))) c = null;
+    if (c && forReviewers && !(n.kind === 'report_hidden' ? caller.role === 'admin' && !caller.blocked : canReview(caller, c.scope as Scope) && readsLanguage(caller, c))) c = null;
     return {
       ...n,
       contribution: c
@@ -45,6 +45,8 @@ export async function GET() {
             status: c.status,
             live_status: c.live_status,
             outcome: c.outcome,
+            // For translation notices: which language, so the right reviewer picks it up.
+            lang: c.type === 'translation_fix' ? (c.payload?.lang ?? null) : null,
             review_note: n.kind === 'needs_info' || n.kind === 'declined' ? c.review_note : null,
           }
         : null,

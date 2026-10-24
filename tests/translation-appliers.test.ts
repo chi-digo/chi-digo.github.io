@@ -15,6 +15,7 @@ import { applyProverb, unapplyProverb, proverbFieldBase, paragraphCredits, type 
 import { ConflictError, type Change } from '@/lib/contributions/apply/types';
 import { stableStringify } from '@/lib/contributions/strings';
 import { sameMarkup } from '@/lib/contributions/text';
+import { translationTextProblem } from '@/lib/contributions/review';
 import { PAYLOADS } from '@/lib/contributions/schemas';
 import type { GlossaryTerm } from '@/lib/plants/types';
 
@@ -137,5 +138,32 @@ describe('markup', () => {
     expect(sameMarkup('from the tiny *kolokotsi*', 'kuanzia *kolokotsi* ndogo')).toBe(true);
     expect(sameMarkup('from the tiny *kolokotsi*', 'kuanzia kolokotsi ndogo')).toBe(false);
     expect(sameMarkup('**a** *b*', '*b* **a**')).toBe(true);
+  });
+});
+
+describe('review-panel fixes', () => {
+  it('glossary meanings can be fixed too', () => {
+    expect(translationPath('glossary', 'meaning', 'sw')).toBe('meaning.sw');
+    const term = GLOSSARY.find((g) => g.meaning?.sw) ?? { ...GLOSSARY[0], meaning: { en: 'm', sw: 'maana', dg: 'maana' } };
+    const c = fix('glossary', term, 'meaning.sw', 'Maana mpya.', term.term);
+    const folded = applyTranslation(term, 'glossary', c);
+    expect(folded.meaning!.sw).toBe('Maana mpya.');
+    expect(bytes(unapplyTranslation(folded, 'glossary', c))).toBe(bytes(term));
+  });
+  it('a commentary fix undoes cleanly after a story was added below it', () => {
+    const p = structuredClone(PROVERBS.find((x) => x.id === 'p-001')!);
+    const c = fix('proverb', p, 'commentary_en', 'A better commentary.', 'p-001');
+    const fixed = applyProverb(p, c);
+    const story = { ...c, contribution_id: '00000000-0000-4000-8000-000000000599', type: 'proverb_context', target_path: 'commentary_en', final_payload: { lang: 'en', text: 'A later story.' }, base: null } as Change;
+    const both = applyProverb(fixed, story);
+    const undone = unapplyProverb(both, c);
+    expect(undone.commentary_en).toBe(`${p.commentary_en}\n\nA later story.`);
+    expect(undone.field_sources.commentary_en).toBe(p.field_sources.commentary_en);
+  });
+  it('refuses hidden characters, unchanged text and changed markup', () => {
+    expect(PAYLOADS.translation_fix.safeParse({ lang: 'dg', field: 'teaser', proposed: 'ka\u200bya', reason: 'x' }).success).toBe(false);
+    expect(translationTextProblem({ text: 'Same' }, ' Same ')).toBe('unchanged');
+    expect(translationTextProblem({ text: '*kuti*' }, 'kuti')).toBe('markup');
+    expect(translationTextProblem({ text: '*kuti*' }, '*makuti*')).toBeNull();
   });
 });

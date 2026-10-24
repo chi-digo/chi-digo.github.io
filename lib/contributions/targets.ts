@@ -28,6 +28,8 @@ export interface Target {
   base?: { value: unknown; hash: string };
   /** For a translation fix: the English text of the same block, shown beside it. */
   source?: string | null;
+  /** For a fix on a plant part or a glossary term: which one (its term), for reviewers. */
+  block?: string;
 }
 
 function withHash(value: unknown) {
@@ -269,7 +271,7 @@ function resolveTranslationTarget(targetType: TargetType | undefined, targetId: 
     const [p] = applyAllToProverbs([raw], opts.liveChanges ?? []);
     const base = proverbFieldBase(p, path as Parameters<typeof proverbFieldBase>[1]);
     if (!base.text) return null;
-    const en = path.startsWith('commentary_') ? p.commentary_en : p.idiomatic_en;
+    const en = path.startsWith('commentary_') ? p.commentary_en : path === 'swahili_equivalent' ? (p.english_equivalent || p.idiomatic_en) : p.idiomatic_en;
     return { label: [p.digo, p.idiomatic_en].filter(Boolean).join(' · '), path, base: withHash(base), source: path === 'commentary_en' ? null : en };
   }
   if (targetType === 'glossary') {
@@ -277,14 +279,18 @@ function resolveTranslationTarget(targetType: TargetType | undefined, targetId: 
     if (!raw) return null;
     const [t] = applyAllToGlossary([raw], opts.liveChanges ?? []);
     const text = translationText(t, 'glossary', path);
-    return text ? { label: t.term, path, base: withHash({ text }), source: translationSource(t, 'glossary', path) } : null;
+    return text ? { label: t.term, path, base: withHash({ text }), source: translationSource(t, 'glossary', path), block: t.term } : null;
   }
   const raw = test ? testPlant() : loadPlant(targetId);
   if (!raw) return null;
   const plant = applyAllToPlant(raw, opts.liveChanges ?? []);
   const text = translationText(plant, 'plant', path);
   if (!text) return null;
-  return { label: [plant.digo_headword, plant.english].filter(Boolean).join(' · '), path, base: withHash({ text }), source: translationSource(plant, 'plant', path) };
+  const partTerm = /^parts\.(\d+)\./.exec(path) ? plant.parts[Number(path.split('.')[1])]?.term : undefined;
+  return {
+    label: [plant.digo_headword, plant.english].filter(Boolean).join(' · '), path, base: withHash({ text }),
+    source: translationSource(plant, 'plant', path), ...(partTerm && { block: partTerm }),
+  };
 }
 
 export function resolveTarget(

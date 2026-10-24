@@ -5,7 +5,7 @@
 import { createHash } from 'crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { ruledOutIn } from '@/lib/digo/ruled-out';
-import { hasPII, stableStringify } from './text';
+import { hasPII, stableStringify, sameMarkup } from './text';
 import { loadPlant, resolveTarget, headwordExists, loadWord, loadProverb, similarProverb } from './targets';
 import { getAreaOverlay } from './overlay';
 import { hasChange } from './apply/types';
@@ -44,8 +44,22 @@ export function digoText(type: ContributionType, payload: Record<string, unknown
 
 export function warningsFor(type: ContributionType, payload: Record<string, unknown>) {
   const ruled = digoText(type, payload).flatMap((t) => ruledOutIn(t));
-  const text = Object.values(payload).filter((v): v is string => typeof v === 'string');
+  // A translation fix publishes only its text; the private reason may mention anything.
+  const text = type === 'translation_fix'
+    ? [String(payload.proposed ?? '')]
+    : Object.values(payload).filter((v): v is string => typeof v === 'string');
   return { ruled_out: ruled, pii: text.some(hasPII) };
+}
+
+/**
+ * A translation fix must change the text and keep its markup (spec 34 §17.8): checked at submit, on a
+ * contributor's edit, at accept and on an admin's retry edit.
+ */
+export function translationTextProblem(base: unknown, proposed: unknown): 'unchanged' | 'markup' | null {
+  const before = String((base as { text?: string } | null | undefined)?.text ?? '');
+  const after = String(proposed ?? '');
+  if (after.trim() === before.trim()) return 'unchanged';
+  return sameMarkup(before, after) ? null : 'markup';
 }
 
 /** Whether the target has changed since the suggestion was made (base no longer matches). */

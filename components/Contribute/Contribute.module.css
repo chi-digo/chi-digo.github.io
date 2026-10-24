@@ -293,3 +293,11 @@
   color: var(--fg-success, #1f7a3a);
   background: color-mix(in srgb, var(--fg-success, #1f7a3a) 14%, transparent);
 }
+
+/* An inline "Fix" link in a meta line: a comfortable tap target on phones. */
+.inlineFix {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--space-1);
+}

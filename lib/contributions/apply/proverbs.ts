@@ -168,9 +168,13 @@ export function unapplyProverb(p: ProverbEntry, change: Change): ProverbEntry {
 
   if (change.type === 'translation_fix') {
     const f = (change.target_path ?? '') as Field;
-    if (!PROVERB_TRANSLATION_PATH.test(f) || text(p, f) !== String(pl.proposed)) throw new ConflictError(c, f);
+    const cur = text(p, f);
+    const fixed = String(pl.proposed);
+    // Stories appended after the fix stay: only the fixed part goes back to what it was.
+    const tail = cur === fixed ? '' : cur.startsWith(`${fixed}\n\n`) ? cur.slice(fixed.length) : null;
+    if (!PROVERB_TRANSLATION_PATH.test(f) || tail === null) throw new ConflictError(c, f);
     const base = change.base?.value as { text: string; source: FieldSource | null };
-    return drop(withSource(set(p, f, base.text), f, base.source));
+    return drop(withSource(set(p, f, base.text + tail), f, base.source));
   }
 
   if (change.type === 'proverb_variant') {

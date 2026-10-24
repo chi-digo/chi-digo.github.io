@@ -20,6 +20,7 @@ interface Notification {
     target_label: string | null;
     summary: string;
     review_note: string | null;
+    lang?: string | null;
   } | null;
 }
 
@@ -67,7 +68,8 @@ function NotificationsContent() {
     const target = n.contribution?.target_label ?? '';
     // Sentences that name the item have a version without it, so no language is left with a dangling "for".
     const key = !target && (n.kind === 'accepted' || n.kind === 'second_review') ? `notif_${n.kind}_notarget` : `notif_${n.kind}`;
-    return msg(c, key).replace('{summary}', summary).replace('{target}', target);
+    const lang = n.contribution?.lang ? msg(c, `lang_${n.contribution.lang}`) : '';
+    return msg(c, key).replace('{summary}', summary).replace('{target}', target).replace('{language}', lang);
   };
 
   return (

@@ -93,13 +93,16 @@ export async function GET(request: Request) {
         // A flag older than 48 hours shows an age badge (spec 34 §15.3).
         // Flags older than 48 hours, and translation fixes nobody picked up in 7 days, get an age badge.
         overdue: (r.type === 'entry_flag' && now - new Date(r.created_at).getTime() > 48 * 3_600_000)
-          || (r.type === 'translation_fix' && ['pending', 'needs_info'].includes(r.status) && now - new Date(r.created_at).getTime() > 7 * 86_400_000),
+          || (r.type === 'translation_fix' && r.status === 'pending' && now - new Date(r.created_at).getTime() > 7 * 86_400_000),
+        overdue_days: r.type === 'translation_fix' ? 7 : 2,
       });
     }
     // Offensive-content flags come first.
     const offensive = (g: { items: unknown[] }) =>
       g.items.some((i) => (i as { type: string; payload: { reason?: string } }).type === 'entry_flag' && (i as { payload: { reason?: string } }).payload?.reason === 'offensive');
-    const ordered = [...groups.values()].sort((a, b) => Number(offensive(b)) - Number(offensive(a)));
+    // Then anything overdue (old flags, translation fixes waiting a week), as decision 5 asks.
+    const overdue = (g: { items: unknown[] }) => g.items.some((i) => (i as { overdue?: boolean }).overdue);
+    const ordered = [...groups.values()].sort((a, b) => Number(offensive(b)) - Number(offensive(a)) || Number(overdue(b)) - Number(overdue(a)));
     return NextResponse.json({ groups: ordered }, { headers: { 'Cache-Control': 'no-store' } });
   } catch (err) {
     return serverError(err, 'queue');

@@ -55,7 +55,8 @@ export async function getCaller(): Promise<Caller | NextResponse> {
  * reviewers marked as reading it (admins read all). The database enforces the same rule.
  */
 export function readsLanguage(caller: Caller, row: { type: string; payload?: Record<string, unknown> | null }): boolean {
-  if (row.type !== 'translation_fix' || caller.role === 'admin') return true;
+  // Section corrections on Swahili and Digo pages are translations too (owner decision 3).
+  if ((row.type !== 'translation_fix' && row.type !== 'plant_info') || caller.role === 'admin') return true;
   const lang = row.payload?.lang;
   return lang !== 'sw' && lang !== 'dg' ? true : caller.languages.includes(lang);
 }
