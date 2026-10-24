@@ -126,9 +126,9 @@ const DISCOVER_CARDS: DiscoverCard[] = [
       dg: 'Urithi wa Dunia wa UNESCO',
     },
     title: {
-      en: 'Kaya Kinondo',
-      sw: 'Kaya Kinondo',
-      dg: 'Kaya Kinondo',
+      en: 'Kaya Chinondo',
+      sw: 'Kaya Chinondo',
+      dg: 'Kaya Chinondo',
     },
     desc: {
       en: 'Thirty acres of ancient forest between the beach and eternity. Trees over 1,000 years old, 5 species found nowhere else on Earth.',

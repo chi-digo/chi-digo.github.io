@@ -29,7 +29,7 @@ const cultureFaq = faqJsonLd([
   {
     question: 'What is a kaya in Digo culture?',
     answer:
-      'A kaya is a sacred fortified forest settlement of the Mijikenda peoples, including the Digo. Kayas served as defensive settlements, spiritual sanctuaries, and centres of governance for centuries. Several kayas, including Kaya Kinondo in Kwale County, are UNESCO World Heritage Sites. They remain active centres of elder governance and spiritual practice.',
+      'A kaya is a sacred fortified forest settlement of the Mijikenda peoples, including the Digo. Kayas served as defensive settlements, spiritual sanctuaries, and centres of governance for centuries. Several kayas, including Kaya Chinondo in Kwale County, are UNESCO World Heritage Sites. They remain active centres of elder governance and spiritual practice.',
   },
   {
     question: 'What is the fuko clan system of the Digo?',

@@ -176,7 +176,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Mutoro's excavations were pioneering but not comprehensive. Eight sites, however carefully excavated, cannot settle questions about a civilisation that encompassed more than sixty kayas across hundreds of kilometres of coastline. Much remains to be dug, analysed, and dated. Future excavations at other kaya sites — particularly the principal Digo kayas of Kwale and Kinondo — may refine or revise the picture that Mutoro established. Advances in dating technology, including more precise radiocarbon techniques and optically stimulated luminescence dating, could narrow the chronological ranges that remain frustratingly broad."
+            "text": "Mutoro's excavations were pioneering but not comprehensive. Eight sites, however carefully excavated, cannot settle questions about a civilisation that encompassed more than sixty kayas across hundreds of kilometres of coastline. Much remains to be dug, analysed, and dated. Future excavations at other kaya sites — particularly the principal Digo kayas of Kwale and Chinondo — may refine or revise the picture that Mutoro established. Advances in dating technology, including more precise radiocarbon techniques and optically stimulated luminescence dating, could narrow the chronological ranges that remain frustratingly broad."
           },
           {
             "type": "paragraph",
@@ -310,7 +310,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Uchimbaji wa Mutoro ulikuwa wa upainia lakini si wa kina kamili. Maeneo manane, hata yaliyochimbwa kwa uangalifu, hayawezi kusuluhisha maswali kuhusu ustaarabu uliojumuisha makaya zaidi ya sitini katika mamia ya kilomita za pwani. Mengi yanabaki kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo katika maeneo mengine ya makaya — hasa makaya makuu ya Wadigo ya Kwale na Kinondo — yanaweza kusafisha au kurekebisha picha ambayo Mutoro alianzisha. Maendeleo ya teknolojia ya tarehe yanaweza kupunguza vipindi vya kronolojia ambavyo vinasalia kuwa vipana kwa njia ya kukatisha tamaa."
+            "text": "Uchimbaji wa Mutoro ulikuwa wa upainia lakini si wa kina kamili. Maeneo manane, hata yaliyochimbwa kwa uangalifu, hayawezi kusuluhisha maswali kuhusu ustaarabu uliojumuisha makaya zaidi ya sitini katika mamia ya kilomita za pwani. Mengi yanabaki kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo katika maeneo mengine ya makaya — hasa makaya makuu ya Wadigo ya Kwale na Chinondo — yanaweza kusafisha au kurekebisha picha ambayo Mutoro alianzisha. Maendeleo ya teknolojia ya tarehe yanaweza kupunguza vipindi vya kronolojia ambavyo vinasalia kuwa vipana kwa njia ya kukatisha tamaa."
           },
           {
             "type": "paragraph",
@@ -444,7 +444,7 @@ export const historyDomain: HistoryDomain = {
           },
           {
             "type": "paragraph",
-            "text": "Utsimbadzi wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za ph'wani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Utsimbadzi wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Kinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
+            "text": "Utsimbadzi wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za ph'wani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Utsimbadzi wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Chinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
           },
           {
             "type": "paragraph",
