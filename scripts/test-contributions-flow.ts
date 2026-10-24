@@ -124,7 +124,7 @@ async function main() {
     check('signed out → 401', (await call(null, 'POST', '/api/contributions', plantName('x'))).status === 401);
     let r = await call(C, 'POST', '/api/contributions', { ...plantName('<b>x</b>') });
     check('markup → 400', r.status === 400, r);
-    r = await call(C, 'POST', '/api/contributions', { type: 'translation_fix', target_type: 'ui', target_id: 'nav.home', payload: { lang: 'dg', current: 'a', proposed: 'b' }, locale: 'en' });
+    r = await call(C, 'POST', '/api/contributions', { type: 'plant_addition', payload: { english: 'Wild yam', description: 'A climbing plant' }, locale: 'en' });
     check('type not enabled yet → 400', r.status === 400 && r.json.error === 'type_not_enabled', r);
     r = await call(C, 'POST', '/api/contributions', { ...plantName('x'), target_id: 'no-such-plant-xyz' });
     check('test account on any other target → 403', r.status === 403 && r.json.error === 'test_account_target', r);
@@ -373,6 +373,52 @@ async function main() {
     check('proverb changes are in the overlay', [pm, pc, pa, pvar].every((id) => proverbsOv.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), proverbsOv.json);
     const ovText = JSON.stringify(proverbsOv.json);
     check('…with no user data or the removed personal details', !/user_id|reviewer_id|review_note|345 678/.test(ovText) && !ovText.includes(P1.id), ovText.slice(0, 300));
+
+    console.log('5e. translation fixes (spec 34 §17)');
+    const T1 = await session(await createUser('translations1'));
+    users.push(T1.id);
+    const tf = (target_type: string, payload: Record<string, unknown>) => ({
+      type: 'translation_fix', target_type, target_id: TEST, payload: { reason: 'Better wording', ...payload }, locale: 'sw', region: 'tanga', confidence: 'native',
+    });
+    r = await call(T1, 'POST', '/api/contributions', tf('plant', { lang: 'sw', field: 'teaser', proposed: 'Jaribio' }));
+    check('an unchanged text → 400', r.status === 400 && r.json.error === 'unchanged', r);
+    r = await call(T1, 'POST', '/api/contributions', tf('plant', { lang: 'en', field: 'teaser', proposed: 'Changed' }));
+    check('English on a plant → 404 (not fixable)', r.status === 404, r);
+    r = await call(T1, 'POST', '/api/contributions', tf('plant', { lang: 'sw', field: 'teaser', proposed: 'Jaribio *jipya*' }));
+    check('added markup → 400', r.status === 400 && r.json.error === 'markup', r);
+    r = await call(T1, 'POST', '/api/contributions', { ...tf('plant', { lang: 'sw', field: 'teaser', proposed: 'x' }), payload: { lang: 'sw', field: 'teaser', proposed: 'x' } });
+    check('no reason → 400', r.status === 400, r);
+    r = await call(T1, 'POST', '/api/contributions', tf('plant', { lang: 'sw', field: 'teaser', proposed: 'Jaribio jipya kabisa' }));
+    const tPlant = r.json.id as string;
+    check('a Swahili teaser fix → 201', r.status === 201, r);
+    r = await call(T1, 'POST', '/api/contributions', tf('glossary', { lang: 'dg', field: 'definition', proposed: 'Neno ra kujeza.' }));
+    const tGloss = r.json.id as string;
+    check('a Digo glossary fix → 201', r.status === 201, r);
+    r = await call(T1, 'POST', '/api/contributions', tf('proverb', { lang: 'en', field: 'commentary', proposed: 'Used in tests, always.' }));
+    const tEn = r.json.id as string;
+    const { data: tEnRow } = await admin.from('contributions').select('scope, target_path').eq('id', tEn).single();
+    check('a proverb fix goes to the proverbs reviewers, path built on the server', tEnRow?.scope === 'proverbs' && tEnRow?.target_path === 'commentary_en', tEnRow);
+
+    // Reviewer languages: the translations scope alone doesn't open a Digo fix.
+    r = await call(A, 'POST', '/api/admin/reviewers', { action: 'grant', user_id: R.id, scopes: ['plants', 'translations'], languages: [] });
+    r = await call(R, 'GET', `/api/review/${tGloss}`);
+    check('a reviewer who doesn’t read Digo can’t open a Digo fix → 403', r.status === 403, r.status);
+    r = await call(A, 'POST', '/api/admin/reviewers', { action: 'grant', user_id: R.id, scopes: ['plants', 'translations'], languages: ['dg'] });
+    r = await call(R, 'GET', `/api/review/${tGloss}`);
+    check('…once marked as reading Digo, they can', r.status === 200 && r.json.current?.source === 'A test term.', r.status);
+
+    r = await call(A, 'POST', `/api/review/${tPlant}`, { action: 'accept', final_payload: { lang: 'sw', field: 'teaser', proposed: 'Piga +254 712 345 678', reason: 'x' } });
+    check('personal details block a fix → 422', r.status === 422 && r.json.error === 'pii', r);
+    r = await call(A, 'POST', `/api/review/${tPlant}`, { action: 'accept' });
+    check('the teaser fix goes live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(R, 'POST', `/api/review/${tGloss}`, { action: 'accept' });
+    check('the Digo reader accepts the glossary fix', r.status === 200, r);
+    r = await call(A, 'POST', `/api/review/${tEn}`, { action: 'accept' });
+    check('an English change needs a second reviewer', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+    const plantOv = await call(null, 'GET', '/api/overlay/plant');
+    const ovFixes = plantOv.json.changes.filter((c: { type: string }) => c.type === 'translation_fix');
+    check('fixes are in the overlay with their target type', [tPlant, tGloss].every((id) => ovFixes.some((c: { contribution_id: string; target_type: string }) => c.contribution_id === id && c.target_type)), ovFixes);
+    check('…and no reason', !JSON.stringify(ovFixes).includes('Better wording'), ovFixes);
 
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });

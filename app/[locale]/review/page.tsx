@@ -22,7 +22,7 @@ interface QueueItem {
   agree_count: number;
   held: boolean;
   hidden_at: string | null;
-  stale: boolean; overdue?: boolean;
+  stale: boolean; overdue?: boolean; overdue_days?: number;
   claimed_by_other: boolean;
   changed: boolean;
   contributor: { first_name: string | null; submitted: number; accepted: number; is_you: boolean };
@@ -78,7 +78,7 @@ function QueueList({ view }: { view: View }) {
                     {it.held && <span className={styles.flag}>{r.held}</span>}
                     {it.hidden_at && <span className={styles.flag}>{r.hidden}</span>}
                     {it.stale && <span className={styles.flag}>{r.stale}</span>}
-                    {it.overdue && <span className={styles.flag}>{r.overdue}</span>}
+                    {it.overdue && <span className={styles.flag}>{it.overdue_days === 7 ? r.overdue_7d : r.overdue}</span>}
                     {it.changed && <span className={styles.flag}>{r.changed}</span>}
                     {it.claimed_by_other && <span className={styles.flag}>{r.claimed}</span>}
                     {it.live_status === 'awaiting_second' && <span className={styles.flag}>{r.awaiting_second}</span>}

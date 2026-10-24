@@ -11,6 +11,7 @@ import type { L10n, SectionKey } from '@/lib/plants/types';
 import { stableStringify } from '../strings';
 import { plantNameBase, plantInfoBase } from './plants';
 import { ConflictError, hasChange, withProvenance, withoutProvenance, type Change } from './types';
+import { applyTranslation, unapplyTranslation } from './translations';
 
 const same = (a: unknown, b: unknown) => stableStringify(a ?? null) === stableStringify(b ?? null);
 const unique = (list: (string | null | undefined)[]) => [...new Set(list.filter((x): x is string => !!x))];
@@ -54,12 +55,14 @@ export function applySourcePlant(p: SourcePlant, change: Change): SourcePlant {
       provenance: withProvenance(p.provenance, `sections.${section}.${lang}`, change),
     };
   }
+  if (change.type === 'translation_fix') return applyTranslation(p, 'plant', change);
   return p;
 }
 
 /** Undo a folded change (revert after fold-in), only if the field still holds what the change set. */
 export function unapplySourcePlant(p: SourcePlant, change: Change): SourcePlant {
   if (!hasChange(p.provenance, change.contribution_id)) return p;
+  if (change.type === 'translation_fix') return unapplyTranslation(p, 'plant', change);
   const provenance = withoutProvenance(p.provenance, change.contribution_id);
   const withProv = (q: SourcePlant): SourcePlant => {
     const { provenance: _drop, ...rest } = q;

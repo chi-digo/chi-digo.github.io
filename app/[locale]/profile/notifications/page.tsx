@@ -20,12 +20,13 @@ interface Notification {
     target_label: string | null;
     summary: string;
     review_note: string | null;
+    lang?: string | null;
   } | null;
 }
 
 /** Where a notification leads: your own suggestions, or the item to review. */
 function hrefFor(n: Notification): string {
-  if (n.kind === 'second_review' || n.kind === 'report_hidden') return n.contribution_id ? `/review/${n.contribution_id}` : '/review';
+  if (n.kind === 'second_review' || n.kind === 'report_hidden' || n.kind === 'translation_overdue') return n.contribution_id ? `/review/${n.contribution_id}` : '/review';
   if (n.kind === 'fold_failed') return '/review';
   return n.contribution_id ? `/profile/contributions#c-${n.contribution_id}` : '/profile/contributions';
 }
@@ -67,7 +68,8 @@ function NotificationsContent() {
     const target = n.contribution?.target_label ?? '';
     // Sentences that name the item have a version without it, so no language is left with a dangling "for".
     const key = !target && (n.kind === 'accepted' || n.kind === 'second_review') ? `notif_${n.kind}_notarget` : `notif_${n.kind}`;
-    return msg(c, key).replace('{summary}', summary).replace('{target}', target);
+    const lang = n.contribution?.lang ? msg(c, `lang_${n.contribution.lang}`) : '';
+    return msg(c, key).replace('{summary}', summary).replace('{target}', target).replace('{language}', lang);
   };
 
   return (

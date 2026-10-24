@@ -9,10 +9,27 @@ import { refreshProverbOverlay } from '@/lib/proverbs/loader';
 import { track } from '@/lib/analytics/track';
 import { SuggestionsPanel, type PublicSuggestion } from './SuggestionsPanel';
 import { ProverbContextForm, ProverbMeaningForm, ProverbReportForm, ProverbVariantForm } from './ProverbForms';
+import { TranslationFixForm, type FixOption } from './TranslationFixForm';
+import type { Locale } from '@/lib/i18n/config';
 import styles from './Contribute.module.css';
 
-export type ProverbForm = { kind: 'meaning'; meaning: 'idiomatic' | 'literal' } | { kind: 'context' } | { kind: 'variant' } | { kind: 'report' };
+export type ProverbForm = { kind: 'meaning'; meaning: 'idiomatic' | 'literal' } | { kind: 'context' } | { kind: 'variant' } | { kind: 'report' } | { kind: 'translation'; initial?: string };
 type Form = ProverbForm;
+
+/**
+ * The proverb texts a reader can fix in their language (spec 34 §17): the Swahili version and
+ * equivalent on Swahili pages, and the cultural context in every language (English with a second review).
+ */
+export function proverbFixOptions(p: Proverb, locale: Locale, c: Record<string, string>): FixOption[] {
+  const out: FixOption[] = [];
+  if (locale === 'sw') {
+    if (p.swahili) out.push({ key: 'swahili', label: c.tf_swahili, field: 'swahili', lang: 'sw', current: p.swahili, source: p.idiomatic_en });
+    if (p.swahili_equivalent) out.push({ key: 'swahili_equivalent', label: c.tf_swahili_equivalent, field: 'swahili_equivalent', lang: 'sw', current: p.swahili_equivalent, source: p.english_equivalent || p.idiomatic_en });
+  }
+  const commentary = p[`commentary_${locale}` as 'commentary_en'];
+  if (commentary) out.push({ key: 'commentary', label: c.tf_commentary, field: 'commentary', lang: locale, current: commentary, source: locale === 'en' ? null : p.commentary_en, swahili: p.commentary_sw });
+  return out;
+}
 
 /** Form state for one proverb, reopened after sign-in (spec 34 §16.5). Null while the proverb loads. */
 export function useProverbForms(proverb: Proverb | null) {
@@ -29,6 +46,7 @@ export function useProverbForms(proverb: Proverb | null) {
       if (intent.form === 'proverb_context') setForm({ kind: 'context' });
       if (intent.form === 'proverb_variant') setForm({ kind: 'variant' });
       if (intent.form === 'proverb_report') setForm({ kind: 'report' });
+      if (intent.form === 'translation_fix') setForm({ kind: 'translation', initial: intent.extra?.key });
     });
     return () => {
       live = false;
@@ -49,6 +67,7 @@ export function useProverbForms(proverb: Proverb | null) {
       {form.kind === 'context' && <ProverbContextForm open onClose={() => setForm(null)} proverb={proverb} onSubmitted={submitted} />}
       {form.kind === 'variant' && <ProverbVariantForm open onClose={() => setForm(null)} proverb={proverb} onSubmitted={submitted} />}
       {form.kind === 'report' && <ProverbReportForm open onClose={() => setForm(null)} proverb={proverb} />}
+      {form.kind === 'translation' && <ProverbFix proverb={proverb} initial={form.initial} onClose={() => setForm(null)} onSubmitted={submitted} />}
     </>
   );
   return { open, forms, panelKey };
@@ -66,6 +85,9 @@ export function ProverbSuggest({ proverb, open, panelKey }: { proverb: Proverb; 
     ...(locale === 'dg' ? [] : [[{ kind: 'meaning', meaning: 'literal' }, c.pv_literal] as [Form, string]]),
     [{ kind: 'context' }, c.pv_context],
     [{ kind: 'variant' }, c.pv_variant],
+    ...(proverbFixOptions(proverb, locale, c as unknown as Record<string, string>).length
+      ? [[{ kind: 'translation' }, locale === 'en' ? c.tf_correct_en : c.tf_title] as [Form, string]]
+      : []),
     [{ kind: 'report' }, c.word_menu_flag],
   ];
 
@@ -109,5 +131,15 @@ export function ProverbSuggest({ proverb, open, panelKey }: { proverb: Proverb; 
         }
       />
     </div>
+  );
+}
+
+function ProverbFix({ proverb, initial, onClose, onSubmitted }: { proverb: Proverb; initial?: string; onClose: () => void; onSubmitted: () => void }) {
+  const c = useTranslations().contribute;
+  const { locale } = useLocale();
+  const options = proverbFixOptions(proverb, locale, c as unknown as Record<string, string>);
+  if (!options.length) return null;
+  return (
+    <TranslationFixForm open onClose={onClose} target={{ target_type: 'proverb', target_id: proverb.id }} options={options} initial={initial} onSubmitted={onSubmitted} />
   );
 }

@@ -50,3 +50,15 @@ export function safeJsonForScript(data: unknown): string {
     .replace(/\u2028/g, '\\u2028')
     .replace(/\u2029/g, '\\u2029');
 }
+
+/**
+ * Whether a corrected text keeps the original's inline markup (**strong**, *emphasis*): a translation
+ * fix may not add or drop it (spec 34 §17.8, rule 6).
+ */
+export function sameMarkup(before: string, after: string): boolean {
+  const count = (t: string) => {
+    const strong = (t.match(/\*\*/g) ?? []).length;
+    return [strong, (t.replace(/\*\*/g, '').match(/\*/g) ?? []).length].join(',');
+  };
+  return count(before) === count(after);
+}

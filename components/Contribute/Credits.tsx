@@ -45,7 +45,8 @@ export function CreditsProvider({ ids, children }: { ids: string[]; children: Re
 }
 
 /** "Suggested by Mwanaisha, Tanga" (with picture), or "Suggested by a Digo speaker". */
-export function CreditLine({ ids }: { ids: string[] }) {
+/** Credit lines for contributions; `translation` words them as translation credits (spec 34 §17, decision 6). */
+export function CreditLine({ ids, translation = false }: { ids: string[]; translation?: boolean }) {
   const c = useTranslations().contribute;
   const credits = useContext(CreditsContext);
   const lines = useMemo(() => {
@@ -55,15 +56,17 @@ export function CreditLine({ ids }: { ids: string[] }) {
       .filter((x): x is Credit => !!x)
       .map((cr) => {
         const region = cr.region ? msg(c, `region_${cr.region}`) : '';
+        const by = translation ? c.tf_credit_by : c.credit_by;
+        const byRegion = translation ? c.tf_credit_by_region : c.credit_by_region;
         let text: string;
-        if (!cr.credited || !cr.first_name) text = c.credit_anon;
+        if (!cr.credited || !cr.first_name) text = translation ? c.tf_credit_anon : c.credit_anon;
         else if (cr.recorded_for_name && cr.recorder_first_name) {
-          text = c.credit_by.replace('{name}', c.credit_recorded.replace('{speaker}', cr.recorded_for_name).replace('{name}', cr.recorder_first_name));
-        } else text = region ? c.credit_by_region.replace('{name}', cr.first_name).replace('{region}', region) : c.credit_by.replace('{name}', cr.first_name);
+          text = by.replace('{name}', c.credit_recorded.replace('{speaker}', cr.recorded_for_name).replace('{name}', cr.recorder_first_name));
+        } else text = region ? byRegion.replace('{name}', cr.first_name).replace('{region}', region) : by.replace('{name}', cr.first_name);
         return { key: cr.id, text, avatar: cr.credited ? cr.avatar_url : null };
       })
       .filter((l) => (seen.has(l.text) ? false : (seen.add(l.text), true)));
-  }, [ids, credits, c]);
+  }, [ids, credits, c, translation]);
 
   if (!lines.length) return null;
   return (
