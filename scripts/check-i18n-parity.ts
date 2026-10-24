@@ -4,6 +4,8 @@
  *
  *   npm run check:i18n
  *
+ * It also checks that placeholders ({name}) match English in every language.
+ *
  * Empty strings are allowed only in namespaces that ship English-and-Swahili first (review), where
  * Digo falls back to English until a speaker checks it.
  */
@@ -35,6 +37,19 @@ for (const key of all) {
     else if (files[lang].get(key) === '' && !(EMPTY_OK[lang] ?? []).includes(key.split('.')[0])) {
       problems.push(`${lang}.json has an empty ${key}`);
     }
+  }
+}
+
+// Placeholders ({name}, {count}…) must be the same in every language, or a translation drops or
+// invents a value. Digo-term markers ({dig:…}) may differ, but only {dig:…} is rendered.
+const placeholders = (v: unknown) => (typeof v === 'string' ? [...v.matchAll(/\{([a-zA-Z_][a-zA-Z0-9_]*)\}/g)].map((m) => m[1]).sort().join(',') : '');
+for (const key of all) {
+  const en = placeholders(files.en.get(key));
+  for (const lang of LANGS) {
+    const v = files[lang].get(key);
+    if (lang === 'en' || v === '' || v === undefined) continue;
+    if (placeholders(v) !== en) problems.push(`${lang}.json ${key}: placeholders {${placeholders(v)}} differ from en {${en}}`);
+    if (typeof v === 'string' && /\{dg:/.test(v)) problems.push(`${lang}.json ${key}: use {dig:…}, not {dg:…}`);
   }
 }
 
