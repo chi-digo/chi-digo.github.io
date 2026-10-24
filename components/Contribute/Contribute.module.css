@@ -123,23 +123,26 @@
   font-weight: 600;
 }
 
+/* Inside the design system's BottomSheet, which already pads its content like the other sheets. */
 .sheet {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
-  padding: 0 var(--space-4) var(--space-4);
 }
 
+/* Actions stay in reach while the form scrolls; they cover the sheet's bottom padding too. */
 .sheetActions {
   position: sticky;
-  bottom: 0;
+  bottom: calc(-1 * var(--space-6));
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   gap: var(--space-2);
-  padding: var(--space-3) 0 var(--space-1);
-  background: var(--color-white, #fff);
+  margin-bottom: calc(-1 * var(--space-6));
+  padding: var(--space-3) 0 calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--border-subtle, var(--border-default));
+  background: var(--bg-surface);
 }
 
 .offlineNote {

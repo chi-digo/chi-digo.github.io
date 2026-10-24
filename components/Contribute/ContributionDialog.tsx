@@ -1,13 +1,13 @@
 'use client';
 
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
-import { BottomSheet, Button, Checkbox, Dialog, Select, TextArea, TextField } from '@chi-digo/design-system';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { BottomSheet, Button, Checkbox, Select, TextArea, TextField, useReducedMotion } from '@chi-digo/design-system';
 import { useAuth } from '@/lib/auth/context';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { SignInSheet } from '@/components/SignInSheet/SignInSheet';
 import {
-  agree, msg, setResumeIntent, submitContribution, useContributionDraft, useIsNarrow, useOnline,
+  agree, msg, setResumeIntent, submitContribution, useContributionDraft, useOnline,
   type ResumeIntent, type Target,
 } from '@/lib/contributions/client';
 import { REGIONS, type ContributionType, type Region } from '@/lib/contributions/schemas';
@@ -58,8 +58,8 @@ function storedRegion(): Region | '' {
 
 /**
  * The shell every contribution form shares (spec 34 technical §7.2): the common fields, sign-in on
- * submit with the draft kept, the similar-name step, errors and the thank-you state. A bottom sheet on
- * phones, a dialog elsewhere.
+ * submit with the draft kept, the similar-name step, errors and the thank-you state. Always a bottom
+ * sheet, like the app's other sheets (sign-in, favourites): it slides up on open and down on close.
  */
 export function ContributionDialog(props: ContributionDialogProps) {
   // Mounted only while open, so every opening starts clean and reads the saved draft once.
@@ -73,7 +73,22 @@ function OpenDialog({
   const t = useTranslations();
   const c = t.contribute;
   const { locale } = useLocale();
-  const narrow = useIsNarrow();
+  // Slide in after the first frame and out before unmounting, as the always-mounted sheets do.
+  const reducedMotion = useReducedMotion();
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setShown(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+  const closing = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => () => {
+    if (closing.current) clearTimeout(closing.current);
+  }, []);
+  const close = useCallback(() => {
+    if (closing.current) return;
+    setShown(false);
+    closing.current = setTimeout(onClose, reducedMotion ? 0 : 300);
+  }, [onClose, reducedMotion]);
   const online = useOnline();
 
   const [common, setCommon, clearCommon] = useContributionDraft<Common>(`${draftKey}:common`, {
@@ -173,13 +188,13 @@ function OpenDialog({
         <p className={styles.thanksTitle}>{c.thanks_title}</p>
         <p>{thanks[done]}</p>
         {done !== 'agreed' && (
-          <TrackedLink href="/profile/contributions" source="contribute_thanks" className={styles.link} onClick={onClose}>
+          <TrackedLink href="/profile/contributions" source="contribute_thanks" className={styles.link} onClick={close}>
             {c.view_mine}
           </TrackedLink>
         )}
       </div>
     );
-    actions = <Button variant="secondary" onClick={onClose}>{c.close}</Button>;
+    actions = <Button variant="secondary" onClick={close}>{c.close}</Button>;
   } else if (similar?.href) {
     // A new word that may already be in the dictionary: open it, or add this one anyway.
     body = (
@@ -192,7 +207,7 @@ function OpenDialog({
     actions = (
       <>
         <Button variant="ghost" onClick={() => send(true)} loading={sending}>{isProverb ? c.pv_similar_add : c.similar_entry_add}</Button>
-        <TrackedLink href={similar.href} source="contribute_similar_entry" className={styles.link} onClick={onClose}>
+        <TrackedLink href={similar.href} source="contribute_similar_entry" className={styles.link} onClick={close}>
           {isProverb ? c.pv_similar_open : c.similar_entry_open}
         </TrackedLink>
       </>
@@ -284,7 +299,7 @@ function OpenDialog({
     actions = (
       <>
         {!online && <p className={styles.offlineNote} role="status">{c.offline}</p>}
-        <Button variant="ghost" onClick={onClose}>{c.cancel}</Button>
+        <Button variant="ghost" onClick={close}>{c.cancel}</Button>
         <Button
           variant="primary"
           onClick={() => send()}
@@ -300,18 +315,12 @@ function OpenDialog({
 
   return (
     <>
-      {narrow ? (
-        <BottomSheet open onClose={onClose} title={title} size="content">
-          <div className={styles.sheet}>
-            {body}
-            <div className={styles.sheetActions}>{actions}</div>
-          </div>
-        </BottomSheet>
-      ) : (
-        <Dialog open onClose={onClose} title={title} actions={actions} width="560px">
+      <BottomSheet open={shown} onClose={close} title={title} size="content">
+        <div className={styles.sheet}>
           {body}
-        </Dialog>
-      )}
+          <div className={styles.sheetActions}>{actions}</div>
+        </div>
+      </BottomSheet>
       <SignInSheet
         open={signIn}
         onClose={() => {
