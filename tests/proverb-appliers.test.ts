@@ -130,3 +130,31 @@ describe('proverb input rules', () => {
     expect(PAYLOADS.proverb_context.safeParse({ lang: 'en', text: Array(6).fill('para').join('\n\n') }).success).toBe(false);
   });
 });
+
+describe('proverb overlay merge', () => {
+  it('applies edits, appends new proverbs, hides test changes, and skips folded ones', async () => {
+    const { mergeProverbs } = await import('@/lib/proverbs/loader');
+    const shipped = structuredClone(list);
+    const v = change({ type: 'proverb_variant', final_payload: { form: 'Achili ni nyere', note: '' } });
+    const add = change({ type: 'proverb_addition', target_id: null as unknown as string, final_payload: { digo: 'Mvula ya kare', meaning_en: 'old rain' } });
+    const test = change({ type: 'proverb_addition', target_id: '__test__', final_payload: { digo: '__test__', meaning_en: 'x' } });
+    const out = mergeProverbs(shipped, [v, add, test]);
+    expect(out).toHaveLength(list.length + 1);
+    expect(out.find((p) => p.id === 'p-001')!.variants.at(-1)!.form).toBe('Achili ni nyere');
+    expect(out.at(-1)!.slug).toMatch(/^p-c-/);
+    expect(out.some((p) => p.digo === '__test__')).toBe(false);
+    const folded = [...structuredClone(list), proverbAdditionEntry(add, 'p-388')];
+    expect(mergeProverbs(folded, [add]).filter((p) => p.digo === 'Mvula ya kare')).toHaveLength(1);
+  });
+
+  it('keeps the overlay and database allow-lists for proverbs the same', async () => {
+    const { publicPayload } = await import('@/lib/contributions/overlay');
+    const sql = readFileSync(join(process.cwd(), 'supabase/migrations/20261024000000_proverb_contributions.sql'), 'utf-8');
+    for (const type of ['proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context'] as const) {
+      const m = new RegExp(`when '${type}' then array\\[([^\\]]*)\\]`).exec(sql)!;
+      const dbFields = m[1].split(',').map((x) => x.trim().replace(/'/g, '')).sort();
+      const all = Object.fromEntries([...dbFields, 'reason', 'detail', 'extra'].map((k) => [k, 'x']));
+      expect(Object.keys(publicPayload(type, all)).sort(), type).toEqual(dbFields);
+    }
+  });
+});

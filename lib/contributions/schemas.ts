@@ -181,6 +181,7 @@ export const NEW_ITEM_TYPES: ContributionType[] = ['word_addition', 'proverb_add
 export const ENABLED_TYPES: ContributionType[] = [
   'plant_name', 'plant_info', 'general_feedback',
   'word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'entry_flag',
+  'proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context',
 ];
 
 export const TARGET_TYPES = ['word', 'proverb', 'plant', 'article', 'glossary', 'ui', 'page'] as const;

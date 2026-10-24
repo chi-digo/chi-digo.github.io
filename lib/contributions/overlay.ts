@@ -28,10 +28,10 @@ const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
   plant_name: ['name', 'choice'],
   plant_info: ['section', 'lang', 'mode', 'text'],
   plant_addition: ['digo', 'swahili', 'english', 'description', 'uses'],
-  proverb_addition: ['digo', 'literal_en', 'meaning_en', 'meaning_sw', 'meaning_dg', 'usage'],
-  proverb_variant: ['form'],
-  proverb_meaning: ['lang', 'text', 'kind'],
-  proverb_context: ['text'],
+  proverb_addition: ['digo', 'literal_en', 'meaning_en', 'meaning_sw', 'meaning_dg', 'usage', 'usage_lang', 'mature', 'themes', 'literal_sw', 'swahili'],
+  proverb_variant: ['form', 'note'],
+  proverb_meaning: ['lang', 'text', 'kind', 'mode'],
+  proverb_context: ['lang', 'text'],
   translation_fix: ['lang', 'current', 'proposed'],
 };
 const PRIVATE_FIELDS = ['reason', 'detail', 'other_names'];

@@ -70,6 +70,8 @@ const STATUS: Record<string, number> = {
   limit_report: 429,
   rate_cap: 429,
   limit_words: 429,
+  limit_proverbs: 429,
+  pii: 422,
   has_dependants: 409,
 };
 

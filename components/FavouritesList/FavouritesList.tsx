@@ -9,6 +9,7 @@ import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton
 import { loadLetterIndex } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
 import styles from './FavouritesList.module.css';
+import { loadProverbs } from '@/lib/proverbs/loader';
 
 interface ProverbIndex {
   slug: string;
@@ -93,8 +94,9 @@ export function FavouritesList() {
     );
 
     const fetchProverbs = proverbs.length > 0
-      ? fetch('/data/proverbs/index.json')
-          .then((r) => r.ok ? r.json() : [])
+      // Through the loader, so a favourited community proverb (not folded in yet) still has its gloss.
+      ? loadProverbs()
+          .then((list) => list as unknown as ProverbIndex[])
           .then((all: ProverbIndex[]) => {
             for (const p of proverbs) {
               const match = all.find((a) => a.slug === p.entry_id);

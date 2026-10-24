@@ -8,7 +8,7 @@ import {
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
-import { lockedFieldsChanged, wordDependants } from '@/lib/contributions/review';
+import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
@@ -79,7 +79,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         changed: targetChanged(row as unknown as ReviewRow, liveChanges),
         warnings: warningsFor(row.type, (row.final_payload ?? row.payload) as Record<string, unknown>),
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
-        dependants: row.type === 'word_addition' && row.status === 'accepted' ? await wordDependants(row) : [],
+        dependants: row.status !== 'accepted' ? []
+          : row.type === 'word_addition' ? await wordDependants(row)
+          : row.type === 'proverb_addition' ? await proverbDependants(row) : [],
         can_self_confirm: row.live_status === 'awaiting_second'
           ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
           : false,
@@ -122,8 +124,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       return badRequest('locked_fields');
     }
     // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
-    if (body.action === 'revert' && row.type === 'word_addition') {
-      const deps = await wordDependants(row);
+    if (body.action === 'revert' && (row.type === 'word_addition' || row.type === 'proverb_addition')) {
+      const deps = row.type === 'word_addition' ? await wordDependants(row) : await proverbDependants(row);
       if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
     }
     if (body.action === 'accept' || body.action === 'accept_variant') {
@@ -131,8 +133,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (!final.success) return badRequest('invalid', final.error.issues);
       const finalPayload = final.data as Record<string, unknown>;
 
-      const { ruled_out } = warningsFor(row.type, finalPayload);
+      const { ruled_out, pii } = warningsFor(row.type, finalPayload);
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
+      if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
 
       const liveChanges = area ? await getAreaOverlay(area) : [];
       if (targetChanged(row as unknown as ReviewRow, liveChanges)) {

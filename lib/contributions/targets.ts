@@ -180,6 +180,22 @@ export function loadProverb(id: string): ProverbEntry | null {
   return loadProverbList().find((p) => p.id === id) ?? null;
 }
 
+/**
+ * A shipped or live new proverb that reads the same as `digo` (case, apostrophes, punctuation, ng'/ng and
+ * dz/z ignored), compared with its Digo text, forms, Swahili version and literal Swahili.
+ */
+export function similarProverb(digo: string, liveChanges: Change[] = []): { digo: string; slug: string } | null {
+  const key = normaliseDigo(digo);
+  if (!key) return null;
+  for (const p of loadProverbList()) {
+    const forms = [p.digo, p.swahili, p.literal_sw, ...(p.variants ?? []).map((v) => v.form)].filter(Boolean);
+    if (forms.some((f) => normaliseDigo(f) === key)) return { digo: p.digo, slug: p.slug };
+  }
+  const live = liveChanges.find((c) => c.type === 'proverb_addition' && normaliseDigo(String(c.final_payload.digo ?? '')) === key);
+  if (live) return { digo: String(live.final_payload.digo), slug: `p-c-${live.contribution_id.replace(/-/g, '').slice(0, 8)}` };
+  return null;
+}
+
 /** A stand-in proverb for automated tests (never listed; test rows are invisible elsewhere). */
 export function testProverb(): ProverbEntry {
   return {
