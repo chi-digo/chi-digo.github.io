@@ -5,25 +5,14 @@
   "kind": "stem",
   "definition": {
    "en": "The stem of a plant, the part from the base up to the first branch. The word also means a tree or a pole.",
-   "sw": "Shina la mmea, kuanzia chini hadi tawi la kwanza (jaribio).",
+   "sw": "Shina la mmea, sehemu kuanzia chini hadi tawi la kwanza. Neno hili pia lina maana ya mti au nguzo.",
    "dg": "Kolo ra mmea, seemu kula photsi hadi panda ya kpwandza. Neno hiri piya ni dzina ra muhi mzima (mti), au ra chiguzo."
   },
   "english": "stem, trunk; tree",
   "swahili": "mti",
   "source": "Pakia 2005 §3.3.1; Mgombato",
   "dict_headword": "muhi",
-  "notes": "To count as muhi, a stem must have a base (sina or kolo), so underground stems such as tubers and rhizomes are not mihi. Mgombato glosses muhi as 'non-cultivated plant, tree'.",
-  "provenance": {
-   "definition.sw": [
-    {
-     "c": "57946bbf-14c9-487b-a85c-96f863cc162d",
-     "src": "community",
-     "conf": "native",
-     "edited": false,
-     "kind": "translation"
-    }
-   ]
-  }
+  "notes": "To count as muhi, a stem must have a base (sina or kolo), so underground stems such as tubers and rhizomes are not mihi. Mgombato glosses muhi as 'non-cultivated plant, tree'."
  },
  {
   "term": "sina",
