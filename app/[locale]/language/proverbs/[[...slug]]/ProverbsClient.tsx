@@ -16,6 +16,14 @@ import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
 import type { Proverb, GroupedProverbResults } from '@/lib/proverbs/types';
+import type { ProverbEntry } from '@/lib/contributions/apply/proverbs';
+import { foldedProverbFor } from '@/lib/proverbs/loader';
+import { ANY_PROVERB_SLUG } from '@/lib/proverbs/slug';
+import { useProverbForms, ProverbSuggest } from '@/components/Contribute/ProverbContribute';
+import { NewProverbForm } from '@/components/Contribute/ProverbForms';
+import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
+import { msg, takeResumeIntent } from '@/lib/contributions/client';
+import contrib from '@/components/Contribute/Contribute.module.css';
 import type { Locale } from '@/lib/i18n/config';
 import styles from '../proverbs.module.css';
 
@@ -362,6 +370,8 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
     <>
       <ProverbSearchBar nav={nav} locale={locale} />
 
+      <AddProverbCta />
+
       <section className={styles.mt4}>
         <p className={styles.sectionLabel}>{t.proverbs.proverb_of_the_day}</p>
         <FeaturedProverbCard nav={nav} locale={locale} />
@@ -413,10 +423,58 @@ function HomeView({ nav, locale }: { nav: Navigate; locale: Locale }) {
   );
 }
 
+/* ===== Contributions (spec 34 §16) ===== */
+
+/** "Add a proverb", on the home page and when a search finds nothing. */
+function AddProverbCta({ digo = '' }: { digo?: string }) {
+  const c = useTranslations().contribute;
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    let live = true;
+    Promise.resolve(takeResumeIntent('new-proverb')).then((intent) => live && intent && setOpen(true));
+    return () => {
+      live = false;
+    };
+  }, []);
+  return (
+    <>
+      <button
+        type="button"
+        className={contrib.textBtn}
+        onClick={() => {
+          track('contribute', 'proverbs', 'open_new_proverb', {});
+          setOpen(true);
+        }}
+      >
+        {c.pv_add}
+      </button>
+      {open && <NewProverbForm open onClose={() => setOpen(false)} digo={digo} />}
+    </>
+  );
+}
+
+/** The suggest menu, suggestions panel and forms for one proverb (not shown on a provisional one). */
+function ProverbContributions({ proverb }: { proverb: Proverb }) {
+  const { open, forms, panelKey } = useProverbForms(proverb);
+  return (
+    <>
+      <ProverbSuggest proverb={proverb} open={open} panelKey={panelKey} />
+      {forms}
+    </>
+  );
+}
+
+/** Credits for community changes to one field. */
+function FieldCredit({ proverb, field }: { proverb: Proverb; field: string }) {
+  const list = (proverb as ProverbEntry).provenance?.[field];
+  return list?.length ? <CreditLine ids={list.map((e) => e.c)} /> : null;
+}
+
 /* ===== Detail view ===== */
 
 function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale: Locale }) {
   const t = useTranslations();
+  const router = useRouter();
   // Loaded data is kept with the slug it belongs to, so a new slug reads as
   // loading (and stale related proverbs disappear) without setting state in the effect.
   const [loaded, setLoaded] = useState<{ slug: string; proverb: Proverb | null } | null>(null);
@@ -432,6 +490,14 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
     viewTracked.current = false;
     getProverbBySlug(slug)
       .then(async (found) => {
+        // A community proverb's provisional page, after fold-in: go to its real page (spec 34 §16.9).
+        if (!found && slug.startsWith('p-c-')) {
+          const real = await foldedProverbFor(slug);
+          if (real && ANY_PROVERB_SLUG.test(real.slug)) {
+            router.replace(localePath(`/language/proverbs/${encodeURIComponent(real.slug)}`, locale));
+            return;
+          }
+        }
         setLoaded({ slug, proverb: found });
         if (!viewTracked.current) {
           viewTracked.current = true;
@@ -484,9 +550,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
     );
   }
 
+  const provisional = !!(proverb as ProverbEntry).provisional;
   return (
-    <>
+    <CreditsProvider ids={provenanceIds((proverb as ProverbEntry).provenance)}>
       <article className={styles.detailArticle}>
+        {provisional && <p className={contrib.intro}>{t.contribute.word_new_note}</p>}
         <div className={styles.detailHeader}>
           <h1 className={styles.detailDigo}>{proverb.digo}</h1>
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
@@ -534,6 +602,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             <div className={styles.translationSection}>
               <p className={styles.translationLabel}>{t.proverbs.literal_translation}</p>
               <p className={styles.translationText}>{literalText}</p>
+              <FieldCredit proverb={proverb} field={`literal_${locale}`} />
             </div>
           );
         })()}
@@ -549,6 +618,7 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
             <div className={styles.translationSection}>
               <p className={styles.translationLabel}>{t.proverbs.idiomatic_translation}</p>
               <p className={styles.translationTextSecondary}>{idiomaticText}</p>
+              <FieldCredit proverb={proverb} field={`idiomatic_${locale}`} />
             </div>
           );
         })()}
@@ -571,7 +641,11 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           return (
             <div className={styles.commentarySection}>
               <p className={styles.commentaryLabel}>{t.proverbs.cultural_context}</p>
-              <p className={styles.commentaryText}>{commentaryText}</p>
+              {/* One paragraph per block of text (community stories are appended as paragraphs); text nodes only. */}
+              {commentaryText.split(/\n\s*\n/).filter((x) => x.trim()).map((para, i) => (
+                <p key={i} className={styles.commentaryText}>{para}</p>
+              ))}
+              <FieldCredit proverb={proverb} field={`commentary_${locale}`} />
             </div>
           );
         })()}
@@ -593,8 +667,13 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
 
           {proverb.variants.length > 0 && proverb.variants.map((v, i) => (
             <div key={i} className={styles.metaRow}>
-              <span className={styles.metaLabel}>Variant</span>
-              <span className={styles.metaValue}>{v.form}{v.note ? ` — ${v.note}` : ''}</span>
+              <span className={styles.metaLabel}>{t.proverbs.other_forms}</span>
+              <span className={styles.metaValue}>
+                {v.form}
+                {v.region ? ` · ${msg(t.contribute, `region_${v.region}`)}` : ''}
+                {v.note ? ` — ${v.note}` : ''}
+              </span>
+              {v.c && <CreditLine ids={[v.c]} />}
             </div>
           ))}
         </div>
@@ -642,11 +721,13 @@ function DetailView({ slug, nav, locale }: { slug: string; nav: Navigate; locale
           </div>
         )}
 
+        {!provisional && <ProverbContributions proverb={proverb} />}
+
         <button type="button" className={styles.discoverBtn} onClick={handleDiscover}>
           {t.proverbs.discover_another}
         </button>
       </article>
-    </>
+    </CreditsProvider>
   );
 }
 
@@ -788,6 +869,7 @@ function SearchResultsView({ q, nav, locale }: { q: string; nav: Navigate; local
             {t.proverbs.no_results.replace('{query}', q)}
           </p>
           <p className={styles.emptyBody}>{t.proverbs.try_different_search}</p>
+          <AddProverbCta />
         </div>
       )}
 
