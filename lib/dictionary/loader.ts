@@ -4,6 +4,7 @@ import type {
   LetterFile,
   DictionaryEntry,
   ReverseIndex,
+  VariantsMap,
   FuzzyRules,
 } from "./types";
 import * as Sentry from "@sentry/nextjs";
@@ -57,6 +58,8 @@ export function refreshWordOverlay() {
   overlay = null;
   merged.clear();
   mergedIdx.clear();
+  mergedReverse.clear();
+  mergedVariants = null;
 }
 
 function reportConflict(e: ConflictError) {
@@ -164,10 +167,58 @@ export async function loadEntriesByHeadword(
   return entriesFor(fresh, headword);
 }
 
+const mergedReverse = new Map<string, Promise<ReverseIndex>>();
+let mergedVariants: Promise<VariantsMap> | null = null;
+
+/**
+ * English or Swahili search terms, with community new words that aren't folded in yet (their meanings,
+ * split as in their entry). A folded word is already in the file under its real id, so its live copy
+ * is skipped when the term already points at that headword.
+ */
 export async function loadReverseIndex(
   lang: "en" | "sw"
 ): Promise<ReverseIndex> {
-  return fetchJson<ReverseIndex>(`/data/reverse-${lang}.json`);
+  if (!mergedReverse.has(lang)) {
+    const p = Promise.all([fetchJson<ReverseIndex>(`/data/reverse-${lang}.json`), wordOverlay()]).then(([idx, changes]) => {
+      const adds = changes.filter((c) => c.type === "word_addition");
+      if (!adds.length) return idx;
+      const out: ReverseIndex = { ...idx };
+      for (const c of adds) {
+        const e = wordAdditionEntry(c);
+        const hw = e.headword;
+        for (const q of lang === "en" ? e.equivalents_en : e.equivalents_sw) {
+          const term = q.toLowerCase().trim();
+          if (!term) continue;
+          const list = out[term] ?? [];
+          if (list.some((x) => x[1].replace(/\.\d+$/, "") === e.sort_key)) continue;
+          out[term] = [...list, [e.sort_key.charAt(0) || "x", e.id, hw]];
+        }
+      }
+      return out;
+    });
+    p.catch(() => mergedReverse.delete(lang));
+    mergedReverse.set(lang, p);
+  }
+  return mergedReverse.get(lang)!;
+}
+
+/** Spelling and regional forms (form -> entry id), with live community forms. */
+export async function loadVariants(): Promise<VariantsMap> {
+  if (!mergedVariants) {
+    mergedVariants = Promise.all([fetchJson<VariantsMap>("/data/variants.json"), wordOverlay()]).then(([map, changes]) => {
+      const out: VariantsMap = { ...map };
+      for (const c of changes) {
+        if (c.type !== "spelling_variant" || !c.target_id) continue;
+        const form = String(c.final_payload.form ?? "").toLowerCase().trim();
+        if (form && !out[form]) out[form] = c.target_id;
+      }
+      return out;
+    });
+    mergedVariants.catch(() => {
+      mergedVariants = null;
+    });
+  }
+  return mergedVariants;
 }
 
 export async function loadFuzzyRules(): Promise<FuzzyRules> {

@@ -72,6 +72,11 @@ describe('fold-in for words', () => {
     expect(changed.senses.at(-1).sense_id).toBe(next);
     expect(changed.variants.at(-1).form).toBe('mtestforma');
     expect(after.entries.find((x: { id: string }) => x.id === 'mzzzz').provisional).toBeUndefined();
+    // Folded words and forms are searchable: English search and the spelling-forms map (BACKLOG #33).
+    const reverseEn = JSON.parse(readFileSync(join(dir, 'public/data/reverse-en.json'), 'utf-8'));
+    expect(reverseEn['a brand new test word']).toEqual([['m', 'mzzzz']]);
+    const variants = JSON.parse(readFileSync(join(dir, 'public/data/variants.json'), 'utf-8'));
+    expect(variants['mtestforma']).toBe(e.id);
 
     // Applying again changes nothing.
     const again = run(rows, 'again');
