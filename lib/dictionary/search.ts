@@ -1,5 +1,5 @@
 import type { SearchIndexEntry, ReverseIndex } from "./types";
-import { loadLetterIndex, loadReverseIndex } from "./loader";
+import { loadLetterIndex, loadReverseIndex, loadVariants } from "./loader";
 import { digoize } from "./fuzzy";
 import { stripPrefixes } from "./morphology";
 
@@ -118,12 +118,34 @@ async function searchDigo(query: string): Promise<SearchResult[]> {
     return [...allExact, ...rest].map((e) => toSearchResult(e, "dg"));
   }
 
-  const prefixResults = prefixSearch(idx, q);
-  if (prefixResults.length > 0) {
-    return prefixResults.map((e) => toSearchResult(e, "dg"));
-  }
+  // Spelling and regional forms: an exact form first, partial matches after the headwords.
+  const prefixResults = prefixSearch(idx, q).map((e) => toSearchResult(e, "dg"));
+  const forms = (await searchVariants(q)).filter((v) => !prefixResults.some((r) => r.id === v.id));
+  return [
+    ...forms.filter((v) => v.equivalent === q),
+    ...prefixResults,
+    ...forms.filter((v) => v.equivalent !== q),
+  ].slice(0, MAX_RESULTS_PER_TIER);
+}
 
-  return [];
+/** A spelling or regional form (e.g. mnadzi) finds its entry (BACKLOG #33). */
+async function searchVariants(q: string): Promise<SearchResult[]> {
+  let map;
+  try {
+    map = await loadVariants();
+  } catch {
+    return [];
+  }
+  const out: SearchResult[] = [];
+  for (const [form, id] of Object.entries(map)) {
+    if (out.length >= MAX_RESULTS_PER_TIER) break;
+    if (!form.startsWith(q) || out.some((r) => r.id === id)) continue;
+    out.push({
+      id, headword: cleanHw(id.replace(/\.\d+$/, "")), pos: "", equivalent: form, equivalent_sw: "", equivalent_dg: "",
+      letter: id.charAt(0), language: "dg",
+    });
+  }
+  return out;
 }
 
 async function searchReverse(
@@ -144,12 +166,13 @@ async function searchReverse(
   for (const [term, entries] of Object.entries(reverseIdx)) {
     if (results.length >= MAX_RESULTS_PER_TIER) break;
     if (term.toLowerCase().includes(q)) {
-      for (const [letter, id] of entries) {
+      for (const [letter, id, hw] of entries) {
         if (seen.has(id)) continue;
         seen.add(id);
         results.push({
           id,
-          headword: cleanHw(id.replace(/\.\d+$/, "")),
+          // A community word not folded in yet carries its headword (its id is c:<uuid>).
+          headword: hw ?? cleanHw(id.replace(/\.\d+$/, "")),
           pos: "",
           equivalent: term,
           equivalent_sw: '',

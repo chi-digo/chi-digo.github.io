@@ -98,7 +98,11 @@ export interface IndexMetadata {
   digo_alphabet: string[];
 }
 
-export type ReverseIndex = Record<string, [string, string][]>;
+/** term -> [letter, id] pointers; a community word not folded in yet adds its headword: [letter, id, headword]. */
+export type ReverseIndex = Record<string, ([string, string] | [string, string, string])[]>;
+
+/** Spelling or regional form -> entry id. */
+export type VariantsMap = Record<string, string>;
 
 export interface FuzzyRule {
   id: string;
