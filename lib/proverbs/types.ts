@@ -1,4 +1,4 @@
-export type FieldSource = 'original' | 'ai-draft' | 'ai-reviewed' | 'native';
+export type FieldSource = 'original' | 'ai-draft' | 'ai-reviewed' | 'native' | 'community';
 
 export interface Proverb {
   id: string;
@@ -17,7 +17,7 @@ export interface Proverb {
   commentary_en: string;
   commentary_sw: string;
   commentary_dg: string;
-  commentary_source: 'original' | 'expanded' | 'native';
+  commentary_source: 'original' | 'expanded' | 'native' | 'pending';
   field_sources: Record<string, FieldSource>;
   themes: string[];
   functions: string[];
@@ -27,7 +27,8 @@ export interface Proverb {
   lexical_links: { term: string; dict_id: string }[];
   english_equivalent: string;
   swahili_equivalent: string;
-  variants: { form: string; note: string }[];
+  /** Community forms also carry the contributor's region and the contribution id. */
+  variants: { form: string; note: string; region?: string | null; c?: string }[];
   content_flag: 'mature' | null;
   region: string;
   source_attribution: string;

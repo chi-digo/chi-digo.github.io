@@ -4,6 +4,9 @@
  */
 import { z } from 'zod';
 import { safeText, optSafeText } from './text';
+import { PROVERB_THEMES } from '@/lib/proverbs/themes';
+
+const PROVERB_THEME_SLUGS = PROVERB_THEMES.map((t) => t.slug);
 
 export const SCOPES = ['dictionary', 'proverbs', 'plants', 'translations', 'feedback'] as const;
 export type Scope = (typeof SCOPES)[number];
@@ -51,6 +54,31 @@ const digoWord = safeText(40)
   .transform((s) => s.normalize('NFC').replace(/’/g, "'"))
   // __test__ is the automated tests' new word; the API lets only test accounts use it.
   .refine((s) => isDigoWord(s) || s === TEST_TARGET, { message: 'Use Digo letters only (no digits or symbols)' });
+/** Zero-width characters (U+200B–D, U+2060, U+FEFF): they can hide a ruled-out Digo form (spec 34 §16.9). */
+const ZERO_WIDTH = /[\u200B-\u200D\u2060\uFEFF]/;
+const paragraphs = (s: string) => s.split(/\n\s*\n/).filter((x) => x.trim()).length;
+/** Long proverb text: no zero-width characters, at most five paragraphs. */
+const proverbText = (max: number) =>
+  safeText(max)
+    .refine((s) => !ZERO_WIDTH.test(s) && !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' })
+    .refine((s) => paragraphs(s) <= 5, { message: 'At most five paragraphs' });
+const optProverbText = (max: number) =>
+  optSafeText(max)
+    .refine((s) => !s || (!ZERO_WIDTH.test(s) && !UNSAFE_WORD.test(s)), { message: 'Contains characters that are not allowed' })
+    .refine((s) => !s || paragraphs(s) <= 5, { message: 'At most five paragraphs' });
+/**
+ * A proverb or its variant in Digo: letters of Digo orthography with tone accents, spaces, apostrophes,
+ * hyphens and sentence punctuation (, . ? ! ; : / ( ) as in the existing data); no digits or symbols.
+ */
+const PROVERB_DIGO = /^[a-záéíóú'’‘ ,.?!;:/()-]+$/;
+export function isProverbDigo(s: string): boolean {
+  const t = s.normalize('NFC');
+  return t.length <= 400 && /[a-z]/.test(t.toLowerCase()) && PROVERB_DIGO.test(t.toLowerCase()) && !ZERO_WIDTH.test(t);
+}
+const proverbDigo = safeText(400)
+  .transform((s) => s.normalize('NFC'))
+  // __test__ is the automated tests' new proverb; the API lets only test accounts use it.
+  .refine((s) => isProverbDigo(s) || s === TEST_TARGET, { message: 'Use Digo letters and punctuation only' });
 const wordText = (max: number) => safeText(max).refine((s) => !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' });
 const optWordText = (max: number) => optSafeText(max).refine((s) => !s || !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' });
 
@@ -80,17 +108,30 @@ export const PAYLOADS = {
     reason: z.enum(['wrong_word', 'wrong_meaning', 'offensive', 'duplicate', 'other']),
     detail: optWordText(1000),
   }),
-  proverb_addition: z.object({
-    digo: safeText(400),
-    literal_en: optSafeText(600),
-    meaning_en: optSafeText(1000),
-    meaning_sw: optSafeText(1000),
-    meaning_dg: optSafeText(1000),
-    usage: optSafeText(1500),
-  }),
-  proverb_variant: z.object({ form: safeText(400) }),
-  proverb_meaning: z.object({ lang: lang3, text: safeText(1500), kind: z.enum(['idiomatic', 'literal']) }),
-  proverb_context: z.object({ text: safeText(2000) }),
+  proverb_addition: z
+    .object({
+      digo: proverbDigo,
+      literal_en: optProverbText(400),
+      meaning_en: optProverbText(500),
+      meaning_sw: optProverbText(500),
+      meaning_dg: optProverbText(500),
+      usage: optProverbText(1500),
+      /** The language `usage` is written in; it becomes that language's commentary (spec 34 §16.9). */
+      usage_lang: lang3.optional(),
+      /** "This proverb is for adults" (the reviewer decides at accept). */
+      mature: z.boolean().optional(),
+      // Filled in by the reviewer at accept (spec 34 §16.9): themes, the literal Swahili, a Swahili version.
+      themes: z.array(z.enum(PROVERB_THEME_SLUGS as [string, ...string[]])).max(5).optional(),
+      literal_sw: optProverbText(400),
+      swahili: optProverbText(400),
+    })
+    .refine((p) => p.meaning_en || p.meaning_sw || p.meaning_dg, { message: 'Give a meaning' })
+    .refine((p) => !p.usage || p.usage_lang, { message: 'Say which language the usage is in' }),
+  proverb_variant: z.object({ form: proverbDigo, note: optProverbText(300) }),
+  proverb_meaning: z
+    .object({ lang: lang3, text: proverbText(500), kind: z.enum(['idiomatic', 'literal']), mode: z.literal('replace').default('replace') })
+    .refine((p) => !(p.kind === 'literal' && p.lang === 'dg'), { message: 'Literal meanings are in English or Swahili' }),
+  proverb_context: z.object({ lang: lang3, text: proverbText(1500) }),
   plant_name: z.object({ name: safeText(80), choice: z.enum(['proposal', 'other']), other_names: optSafeText(300) }),
   plant_info: z.object({
     section: z.enum(['about', 'where', 'uses', 'culture', 'names', 'conservation']),
