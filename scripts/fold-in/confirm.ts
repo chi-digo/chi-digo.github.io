@@ -52,6 +52,14 @@ for (const r of rows) {
     if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
     continue;
   }
+  if (r.target_type === 'glossary') {
+    // Glossary fixes (spec 34 §17): the deployed glossary keeps each term's provenance.
+    const terms = JSON.parse(readFileSync(join(opt('--data'), 'public/data/plants/glossary.json'), 'utf-8')) as { term: string; provenance?: Record<string, { c: string }[]> }[];
+    const term = terms.find((t) => t.term === r.target_id);
+    const present = !!term && Object.values(term.provenance ?? {}).some((l) => l.some((x) => x.c === r.id));
+    if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
+    continue;
+  }
   if (r.target_type !== 'plant') continue;
   const file = join(opt('--data'), 'public/data/plants/p', `${r.target_id}.json`);
   if (!existsSync(file)) continue;
