@@ -3,7 +3,7 @@
  * data and records `base`, the text the suggestion was made against, for later conflict checks.
  * Reads the derived JSON the app ships, as the page routes already do.
  */
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, statSync } from 'fs';
 import { join } from 'path';
 import { createHash } from 'crypto';
 import type { Plant } from '@/lib/plants/types';
@@ -12,6 +12,7 @@ import { stableStringify, normaliseDigo } from './text';
 import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
 import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
+import { applyAllToProverbs, contextField, meaningField, proverbFieldBase, type ProverbEntry } from './apply/proverbs';
 import { digoLetterFile } from '@/lib/dictionary/letters';
 import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType } from './schemas';
 export { WORD_ID };
@@ -163,6 +164,73 @@ function resolveWordTarget(
   return null;
 }
 
+/** Proverb ids (spec 34 §16). */
+export const PROVERB_ID = /^p-\d{3,4}$/;
+
+let proverbsCache: { mtime: number; list: ProverbEntry[] } | null = null;
+/** The shipped proverbs, read once per file change. */
+export function loadProverbList(): ProverbEntry[] {
+  const file = join(DICT, 'proverbs/index.json');
+  const mtime = statSync(file).mtimeMs;
+  if (!proverbsCache || proverbsCache.mtime !== mtime) proverbsCache = { mtime, list: JSON.parse(readFileSync(file, 'utf-8')) };
+  return proverbsCache.list;
+}
+export function loadProverb(id: string): ProverbEntry | null {
+  if (!PROVERB_ID.test(id)) return null;
+  return loadProverbList().find((p) => p.id === id) ?? null;
+}
+
+/**
+ * A shipped or live new proverb that reads the same as `digo` (case, apostrophes, punctuation, ng'/ng and
+ * dz/z ignored), compared with its Digo text, forms, Swahili version and literal Swahili.
+ */
+export function similarProverb(digo: string, liveChanges: Change[] = []): { digo: string; slug: string } | null {
+  const key = normaliseDigo(digo);
+  if (!key) return null;
+  for (const p of loadProverbList()) {
+    const forms = [p.digo, p.swahili, p.literal_sw, ...(p.variants ?? []).map((v) => v.form)].filter(Boolean);
+    if (forms.some((f) => normaliseDigo(f) === key)) return { digo: p.digo, slug: p.slug };
+  }
+  const live = liveChanges.find((c) => c.type === 'proverb_addition' && normaliseDigo(String(c.final_payload.digo ?? '')) === key);
+  if (live) return { digo: String(live.final_payload.digo), slug: `p-c-${live.contribution_id.replace(/-/g, '').slice(0, 8)}` };
+  return null;
+}
+
+/** A stand-in proverb for automated tests (never listed; test rows are invisible elsewhere). */
+export function testProverb(): ProverbEntry {
+  return {
+    id: TEST_TARGET, slug: 'p-test', source_number: 0, digo: 'Methali ya majaribio', ipa: '', audio: [], literal_en: 'A test proverb',
+    idiomatic_en: 'Tests are useful', swahili: '', swahili_relationship: 'translation', commentary_en: 'Used in tests.', commentary_dg: '',
+    commentary_source: 'native', themes: [], functions: [], keywords_en: [], keywords_sw: [], related_proverbs: [], lexical_links: [],
+    english_equivalent: '', swahili_equivalent: '', variants: [], content_flag: null, region: 'KE-coast', source_attribution: 'test',
+    editorial_status: 'draft', idiomatic_sw: '', commentary_sw: '', field_sources: { idiomatic_en: 'ai-draft' }, literal_sw: '', idiomatic_dg: '',
+  } as unknown as ProverbEntry;
+}
+
+function resolveProverbTarget(
+  type: ContributionType,
+  targetId: string | undefined,
+  payload: Record<string, unknown>,
+  opts: { isTest: boolean; liveChanges?: Change[] },
+): Target | null {
+  if (type === 'proverb_addition') return { label: String(payload.digo ?? ''), path: null };
+  if (!targetId) return null;
+  const raw = targetId === TEST_TARGET ? (opts.isTest ? testProverb() : null) : loadProverb(targetId);
+  if (!raw) return null;
+  const [p] = applyAllToProverbs([raw], opts.liveChanges ?? []);
+  const label = [p.digo, p.idiomatic_en || p.literal_en].filter(Boolean).join(' · ');
+  if (type === 'proverb_meaning') {
+    const f = meaningField(payload.kind as 'idiomatic' | 'literal', payload.lang as 'en' | 'sw' | 'dg');
+    return { label, path: f, base: withHash(proverbFieldBase(p, f)) };
+  }
+  if (type === 'proverb_context') {
+    const f = contextField(payload.lang as 'en' | 'sw' | 'dg');
+    return { label, path: f, base: withHash(proverbFieldBase(p, f)) };
+  }
+  if (type === 'proverb_variant') return { label, path: 'variants' };
+  return null;
+}
+
 /**
  * The target as readers currently see it (published data plus live accepted changes), with the
  * base for update types. Returns null if the target doesn't exist.
@@ -176,6 +244,7 @@ export function resolveTarget(
 ): Target | null {
   if (type === 'general_feedback') return { label: targetId ?? '', path: null };
   if (targetType === 'word') return resolveWordTarget(type, targetId, payload, opts);
+  if (targetType === 'proverb') return resolveProverbTarget(type, targetId, payload, opts);
   if (targetType !== 'plant' || !targetId) return null;
 
   const raw = targetId === TEST_TARGET ? (opts.isTest ? testPlant() : null) : loadPlant(targetId);

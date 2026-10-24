@@ -8,7 +8,8 @@ import {
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
-import { lockedFieldsChanged, wordDependants } from '@/lib/contributions/review';
+import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
+import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
@@ -79,7 +80,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         changed: targetChanged(row as unknown as ReviewRow, liveChanges),
         warnings: warningsFor(row.type, (row.final_payload ?? row.payload) as Record<string, unknown>),
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
-        dependants: row.type === 'word_addition' && row.status === 'accepted' ? await wordDependants(row) : [],
+        dependants: row.status !== 'accepted' ? []
+          : row.type === 'word_addition' ? await wordDependants(row)
+          : row.type === 'proverb_addition' ? await proverbDependants(row) : [],
         can_self_confirm: row.live_status === 'awaiting_second'
           ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
           : false,
@@ -122,8 +125,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       return badRequest('locked_fields');
     }
     // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
-    if (body.action === 'revert' && row.type === 'word_addition') {
-      const deps = await wordDependants(row);
+    if (body.action === 'revert' && (row.type === 'word_addition' || row.type === 'proverb_addition')) {
+      const deps = row.type === 'word_addition' ? await wordDependants(row) : await proverbDependants(row);
       if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
     }
     if (body.action === 'accept' || body.action === 'accept_variant') {
@@ -131,12 +134,26 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (!final.success) return badRequest('invalid', final.error.issues);
       const finalPayload = final.data as Record<string, unknown>;
 
-      const { ruled_out } = warningsFor(row.type, finalPayload);
+      const { ruled_out, pii } = warningsFor(row.type, finalPayload);
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
+      if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
+      // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
+      // the reviewer's own final payload must say so; the contributor's checkbox is only a hint.
+      if (row.type === 'proverb_addition' && typeof (body.final_payload as Record<string, unknown> | undefined)?.mature !== 'boolean') {
+        return NextResponse.json({ error: 'mature_required' }, { status: 422 });
+      }
 
       const liveChanges = area ? await getAreaOverlay(area) : [];
       if (targetChanged(row as unknown as ReviewRow, liveChanges)) {
         return NextResponse.json({ error: 'target_changed' }, { status: 409 });
+      }
+      // A story may not push its commentary past the cap (it would only conflict at fold-in).
+      if (row.type === 'proverb_context') {
+        const now = resolveTarget(row.type, 'proverb', row.target_id ?? undefined, finalPayload, { isTest: row.is_test, liveChanges });
+        const cur = (now?.base?.value as { text?: string } | undefined)?.text ?? '';
+        if ((cur ? cur.length + 2 : 0) + String(finalPayload.text ?? '').length > COMMENTARY_MAX) {
+          return NextResponse.json({ error: 'too_long' }, { status: 422 });
+        }
       }
       if (body.action === 'accept' && (await variantRequired(caller.db, row as unknown as ReviewRow, liveChanges))) {
         return NextResponse.json({ error: 'variant_required' }, { status: 422 });
@@ -159,8 +176,15 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         if (caller.role !== 'admin') return forbidden();
         const final = PAYLOADS[row.type as ContributionType].safeParse(body.final_payload);
         if (!final.success) return badRequest('invalid', final.error.issues);
-        const { ruled_out } = warningsFor(row.type, final.data as Record<string, unknown>);
+        const { ruled_out, pii } = warningsFor(row.type, final.data as Record<string, unknown>);
         if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
+        if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
+        if (row.type === 'proverb_addition' && typeof (final.data as Record<string, unknown>).mature !== 'boolean') {
+          return NextResponse.json({ error: 'mature_required' }, { status: 422 });
+        }
+        if (row.type === 'proverb_context' && String((final.data as Record<string, unknown>).text ?? '').length > COMMENTARY_MAX) {
+          return NextResponse.json({ error: 'too_long' }, { status: 422 });
+        }
         args.final_payload = final.data;
       }
       // A conflict is resolved against the text as it is now (published data plus the other live changes).

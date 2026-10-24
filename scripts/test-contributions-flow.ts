@@ -124,7 +124,7 @@ async function main() {
     check('signed out → 401', (await call(null, 'POST', '/api/contributions', plantName('x'))).status === 401);
     let r = await call(C, 'POST', '/api/contributions', { ...plantName('<b>x</b>') });
     check('markup → 400', r.status === 400, r);
-    r = await call(C, 'POST', '/api/contributions', { type: 'proverb_addition', payload: { digo: 'x' }, locale: 'en' });
+    r = await call(C, 'POST', '/api/contributions', { type: 'translation_fix', target_type: 'ui', target_id: 'nav.home', payload: { lang: 'dg', current: 'a', proposed: 'b' }, locale: 'en' });
     check('type not enabled yet → 400', r.status === 400 && r.json.error === 'type_not_enabled', r);
     r = await call(C, 'POST', '/api/contributions', { ...plantName('x'), target_id: 'no-such-plant-xyz' });
     check('test account on any other target → 403', r.status === 403 && r.json.error === 'test_account_target', r);
@@ -321,6 +321,58 @@ async function main() {
     check('new word and regional form are in the overlay', [newWord, variant].every((id) => words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), words.json);
     r = await call(A, 'POST', `/api/review/${flag}`, { action: 'resolve' });
     check('resolve needs a note → 400', r.status === 400, r);
+
+    console.log('5d. proverbs (spec 34 §16)');
+    const P1 = await session(await createUser('proverbs1'));
+    const P2 = await session(await createUser('proverbs2'));
+    users.push(P1.id, P2.id);
+    const pv = (type: string, payload: Record<string, unknown>, target_id: string | undefined = TEST) => ({
+      type, ...(target_id !== undefined && { target_id }), payload, locale: 'en', region: 'tanga', confidence: 'native',
+    });
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Mvula1' }));
+    check('digits in a proverb → 400', r.status === 400, r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_context', { lang: 'en', text: 'a\u200bb' }));
+    check('a zero-width character → 400', r.status === 400, r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Mvula' }, '../p-001'));
+    check('a path as the target → 400', r.status === 400 && r.json.error === 'invalid_target', r);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_addition', { digo: 'Mvula ya kare', meaning_en: 'x' }, undefined));
+    check('test accounts add only the test proverb → 403', r.status === 403 && r.json.error === 'test_account_target', r);
+
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_meaning', { lang: 'en', kind: 'idiomatic', mode: 'replace', text: 'Tests matter' }));
+    const pm = r.json.id as string;
+    // A second meaning made against the same text goes stale once the first is accepted.
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_meaning', { lang: 'en', kind: 'idiomatic', mode: 'replace', text: 'Tests are good' }));
+    const pmStale = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pm}`, { action: 'accept', final_payload: { lang: 'sw', kind: 'idiomatic', mode: 'replace', text: 'x' } });
+    check('a reviewer cannot change the language → 400', r.status === 400 && r.json.error === 'locked_fields', r);
+    r = await call(A, 'POST', `/api/review/${pm}`, { action: 'accept' });
+    check('a meaning on the fixture proverb goes live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(A, 'POST', `/api/review/${pmStale}`, { action: 'accept' });
+    check('a meaning made against older text → 409', r.status === 409 && r.json.error === 'target_changed', r);
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_context', { lang: 'en', text: 'Call me on +254 712 345 678 for the story.' }));
+    const pc = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pc}`, { action: 'accept' });
+    check('personal details block an accept → 422', r.status === 422 && r.json.error === 'pii', r);
+    r = await call(A, 'POST', `/api/review/${pc}`, { action: 'accept', final_payload: { lang: 'en', text: 'Told by grandmothers.' } });
+    check('…accepted once removed', r.status === 200, r);
+    r = await call(P1, 'POST', '/api/contributions', pv('proverb_addition', { digo: TEST, meaning_en: 'a test proverb', themes: ['food'], mature: false }, undefined));
+    const pa = r.json.id as string;
+    check('the test new proverb → 201', r.status === 201, r);
+    const { data: paSent } = await admin.from('contributions').select('payload').eq('id', pa).single();
+    check('…without the contributor’s themes (the reviewer sets them)', !!paSent && !('themes' in paSent.payload), paSent);
+    r = await call(A, 'POST', `/api/review/${pa}`, { action: 'accept' });
+    check('…accept without the mature decision → 422', r.status === 422 && r.json.error === 'mature_required', r);
+    r = await call(A, 'POST', `/api/review/${pa}`, { action: 'accept', final_payload: { digo: TEST, meaning_en: 'a test proverb', mature: false, themes: ['wisdom'] } });
+    check('…accepted with the reviewer’s completion', r.status === 200, r);
+    const { data: paRow } = await admin.from('contributions').select('target_id').eq('id', pa).single();
+    check('…a test proverb keeps its fixture target (no id reserved)', paRow?.target_id === TEST, paRow);
+    r = await call(P2, 'POST', '/api/contributions', pv('proverb_variant', { form: 'Methali ya majaribiyo' }));
+    const pvar = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${pvar}`, { action: 'accept' });
+    const proverbsOv = await call(null, 'GET', '/api/overlay/proverb');
+    check('proverb changes are in the overlay', [pm, pc, pa, pvar].every((id) => proverbsOv.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), proverbsOv.json);
+    const ovText = JSON.stringify(proverbsOv.json);
+    check('…with no user data or the removed personal details', !/user_id|reviewer_id|review_note|345 678/.test(ovText) && !ovText.includes(P1.id), ovText.slice(0, 300));
 
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });

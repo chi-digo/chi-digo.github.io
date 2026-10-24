@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { PAYLOADS, TYPE_SCOPE, ENABLED_TYPES, submitSchema } from '@/lib/contributions/schemas';
 import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
-import { resolveTarget, WORD_ID, similarHeadwords } from '@/lib/contributions/targets';
+import { resolveTarget, WORD_ID, similarHeadwords, PROVERB_ID, similarProverb } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { normaliseDigo } from '@/lib/contributions/text';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
@@ -20,6 +20,8 @@ export async function POST(request: Request) {
 
   const payload = PAYLOADS[input.type].safeParse(input.payload);
   if (!payload.success) return badRequest('invalid', payload.error.issues);
+  // Themes on a new proverb are the reviewer's to set at accept (the contributor's mature box is a hint the reviewer confirms).
+  if (input.type === 'proverb_addition') delete (payload.data as { themes?: unknown }).themes;
 
   // Feedback is always about a page; test accounts may only touch the fixture plant.
   if (input.type === 'general_feedback') {
@@ -40,12 +42,25 @@ export async function POST(request: Request) {
       if (!ok) return badRequest('invalid_target');
     }
   }
+  // Proverb types always target a proverb: a new proverb has no id until a reviewer accepts it (the
+  // database reserves one then). Test new proverbs use the text __test__ (spec 34 §16.9).
+  if (TYPE_SCOPE[input.type] === 'proverbs') {
+    input.target_type = 'proverb';
+    if (input.type === 'proverb_addition') {
+      const digo = String((payload.data as { digo: string }).digo);
+      if ((digo === TEST_TARGET) !== caller.isTest) return forbidden('test_account_target');
+      input.target_id = caller.isTest ? TEST_TARGET : undefined;
+    } else {
+      const id = input.target_id ?? '';
+      if (!(id === TEST_TARGET || PROVERB_ID.test(id))) return badRequest('invalid_target');
+    }
+  }
   if (caller.isTest && input.type !== 'general_feedback' && input.target_id !== TEST_TARGET) {
     return forbidden('test_account_target');
   }
 
   try {
-    const area = input.target_type === 'plant' ? 'plant' : input.target_type === 'word' ? 'word' : null;
+    const area = input.target_type === 'plant' ? 'plant' : input.target_type === 'word' ? 'word' : input.target_type === 'proverb' ? 'proverb' : null;
     const target = resolveTarget(input.type, input.target_type, input.target_id, payload.data, {
       isTest: caller.isTest,
       liveChanges: area ? await getAreaOverlay(area) : [],
@@ -93,6 +108,20 @@ export async function POST(request: Request) {
       }
       const match = (open ?? []).find((c) => normaliseDigo(String(c.public_payload?.headword ?? '')) === key);
       if (match) return NextResponse.json({ inserted: false, similar: { id: match.id, name: match.public_payload.headword } });
+    }
+
+    // A new proverb that may already exist: a shipped proverb or form, a live new one, or an open suggestion.
+    if (input.type === 'proverb_addition' && !force_new && !caller.isTest) {
+      const p = payload.data as { digo: string };
+      const existing = similarProverb(p.digo, await getAreaOverlay('proverb'));
+      if (existing) {
+        return NextResponse.json({ inserted: false, similar: { name: existing.digo, href: `/language/proverbs/${encodeURIComponent(existing.slug)}` } });
+      }
+      const { data: openRows, error: openError } = await caller.db.from('public_contributions').select('id, public_payload').eq('type', 'proverb_addition').limit(1000);
+      if (openError) return serverError(openError, 'similar');
+      const key = normaliseDigo(p.digo);
+      const match = (openRows ?? []).find((c) => normaliseDigo(String(c.public_payload?.digo ?? '')) === key);
+      if (match) return NextResponse.json({ inserted: false, similar: { id: match.id, name: match.public_payload.digo } });
     }
 
     const result = await rpc<{ id?: string; held?: boolean; error?: string }>(caller.db, 'submit_contribution', {

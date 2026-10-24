@@ -1,14 +1,16 @@
 'use client';
 
 import { Fragment, use, useCallback, useEffect, useState } from 'react';
-import { Button, Select, Skeleton, TextArea, TextField } from '@chi-digo/design-system';
+import { Button, RadioGroup, Select, Skeleton, TextArea, TextField } from '@chi-digo/design-system';
+import { PROVERB_THEMES } from '@/lib/proverbs/themes';
 import { AuthGuard } from '@/components/AuthGuard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
-import { useTranslations } from '@/lib/i18n/context';
+import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { msg, useContributorStatus } from '@/lib/contributions/client';
 import { payloadSummary } from '@/lib/contributions/display';
 import { refreshPlantOverlay } from '@/lib/plants/loader';
 import { refreshWordOverlay } from '@/lib/dictionary/loader';
+import { refreshProverbOverlay } from '@/lib/proverbs/loader';
 import { NEVER_PUBLIC, type ContributionType } from '@/lib/contributions/schemas';
 import { track } from '@/lib/analytics/track';
 import styles from '../review.module.css';
@@ -60,6 +62,16 @@ const EDITABLE: Record<string, string[]> = {
   definition_update: ['text'],
   example_sentence: ['dg', 'en', 'sw'],
   spelling_variant: ['form'],
+  proverb_addition: ['digo', 'meaning_en', 'meaning_sw', 'meaning_dg', 'literal_en', 'usage', 'literal_sw', 'swahili'],
+  proverb_variant: ['form', 'note'],
+  proverb_meaning: ['text'],
+  proverb_context: ['text'],
+};
+
+/** Proverb field labels (the word labels above are for the dictionary). */
+const PROVERB_LABEL: Record<string, string> = {
+  digo: 'pv_digo_label', meaning_en: 'pv_meaning_en', meaning_sw: 'pv_meaning_sw', meaning_dg: 'pv_meaning_dg',
+  literal_en: 'pv_literal_en', usage: 'pv_usage_label', form: 'pv_variant_label', note: 'pv_variant_note_label',
 };
 
 /** Labels for the editable fields that aren't plain text areas. */
@@ -68,7 +80,7 @@ const FIELD_LABEL: Record<string, string> = {
   meaning_sw: 'newword_meaning_sw', definition_dg: 'newword_dg_label', example_dg: 'newword_example_dg', example_en: 'newword_example_en',
   dg: 'example_dg_label', en: 'example_en_label', sw: 'example_sw_label', form: 'variant_label',
 };
-const LONG_FIELDS = ['text', 'definition_dg', 'example_dg', 'dg'];
+const LONG_FIELDS = ['text', 'definition_dg', 'example_dg', 'dg', 'usage'];
 
 function currentText(value: unknown): string {
   if (value == null) return '';
@@ -82,6 +94,7 @@ function ReviewItem({ id }: { id: string }) {
   const t = useTranslations();
   const r = t.review;
   const c = t.contribute;
+  const { locale } = useLocale();
   const { status } = useContributorStatus();
   const [detail, setDetail] = useState<Detail | null>(null);
   const [failed, setFailed] = useState(false);
@@ -90,6 +103,9 @@ function ReviewItem({ id }: { id: string }) {
   const [duplicateOf, setDuplicateOf] = useState('');
   const [busy, setBusy] = useState<string | null>(null);
   const [message, setMessage] = useState('');
+  // Completing a new proverb at accept (spec 34 §16.9): themes and the mature decision.
+  const [themes, setThemes] = useState<string[]>([]);
+  const [mature, setMature] = useState<'' | 'yes' | 'no'>('');
 
   const load = useCallback(() => {
     fetch(`/api/review/${id}`)
@@ -130,7 +146,16 @@ function ReviewItem({ id }: { id: string }) {
     if (v.trim()) finalPayload[k] = v.trim();
     else delete finalPayload[k];
   }
-  const edited = Object.keys(edits).some((k) => String(base[k] ?? '') !== edits[k].trim());
+  if (item.type === 'proverb_addition') {
+    if (themes.length) finalPayload.themes = themes;
+    if (mature) finalPayload.mature = mature === 'yes';
+  }
+  const edited = Object.keys(edits).some((k) => String(base[k] ?? '') !== edits[k].trim())
+    || (item.type === 'proverb_addition' && (themes.length > 0 || mature !== ''));
+  const label = (k: string) =>
+    k === 'literal_sw' ? r.rv_literal_sw : k === 'swahili' ? r.rv_swahili
+      : item.type.startsWith('proverb_') && PROVERB_LABEL[k] ? msg(c, PROVERB_LABEL[k])
+      : k === 'text' ? c.info_label : msg(c, FIELD_LABEL[k] ?? k);
 
   const act = async (action: string, extra: Record<string, unknown> = {}) => {
     setBusy(action);
@@ -155,6 +180,9 @@ function ReviewItem({ id }: { id: string }) {
         locked_fields: r.err_locked_fields,
         note_required: r.err_note_required,
         has_dependants: r.err_has_dependants,
+        pii: r.err_pii,
+        too_long: r.err_too_long,
+        mature_required: r.rv_mature_required,
       };
       setMessage(map[data.error] ?? c.error_generic);
       return;
@@ -164,6 +192,7 @@ function ReviewItem({ id }: { id: string }) {
     if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(action)) {
       refreshPlantOverlay();
       refreshWordOverlay();
+      refreshProverbOverlay();
     }
     setMessage(r.done);
     load();
@@ -232,10 +261,25 @@ function ReviewItem({ id }: { id: string }) {
         )}
         {item.type === 'example_sentence' && (base.en || base.sw) ? <p className={styles.muted}>{[base.en, base.sw].filter(Boolean).join(' · ')}</p> : null}
         {item.type === 'spelling_variant' && <p className={styles.muted}>{base.kind === 'dialect' ? c.variant_kind_dialect : c.variant_kind_spelling}</p>}
+        {item.type === 'proverb_meaning' && (
+          <p className={styles.muted}>{base.kind === 'literal' ? c.pv_kind_literal : c.pv_kind_idiomatic} · {msg(c, `lang_${base.lang}`)}</p>
+        )}
+        {item.type === 'proverb_context' && <p className={styles.muted}>{msg(c, `lang_${base.lang}`)}</p>}
+        {item.type === 'proverb_variant' && base.note ? <p className={styles.muted}>{String(base.note)}</p> : null}
+        {item.type === 'proverb_addition' && (
+          <dl className={styles.facts}>
+            {(['meaning_en', 'meaning_sw', 'meaning_dg', 'literal_en', 'usage'] as const).map((k) =>
+              base[k] ? (<Fragment key={k}><dt>{label(k)}</dt><dd>{String(base[k])}</dd></Fragment>) : null,
+            )}
+            {base.mature ? (<><dt>{r.rv_mature}</dt><dd>{r.rv_mature_yes}</dd></>) : null}
+          </dl>
+        )}
         <p className={styles.text}>
           {item.type === 'plant_name' ? String(item.payload.name)
             : item.type === 'word_addition' ? String(base.headword)
             : item.type === 'example_sentence' ? String(base.dg)
+            : item.type === 'proverb_addition' ? String(base.digo)
+            : item.type === 'proverb_variant' ? String(base.form)
             : item.type === 'entry_flag' ? String(base.detail ?? '')
             : payloadSummary(item.payload)}
         </p>
@@ -277,10 +321,33 @@ function ReviewItem({ id }: { id: string }) {
           <h2 className={styles.boxTitle}>{r.edit}</h2>
           {(EDITABLE[item.type] ?? []).map((k) =>
             LONG_FIELDS.includes(k) ? (
-              <TextArea key={k} label={k === 'text' ? c.info_label : msg(c, FIELD_LABEL[k])} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} rows={k === 'text' ? 6 : 3} />
+              <TextArea key={k} label={label(k)} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} rows={k === 'text' ? 6 : 3} />
             ) : (
-              <TextField key={k} label={msg(c, FIELD_LABEL[k] ?? k)} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} />
+              <TextField key={k} label={label(k)} value={edits[k] ?? ''} onChange={(e) => setEdits({ ...edits, [k]: e.target.value })} />
             ),
+          )}
+          {item.type === 'proverb_addition' && open && (
+            <>
+              <p className={styles.boxTitle}>{r.rv_complete}</p>
+              <p className={styles.muted}>{r.rv_themes}</p>
+              <div className={styles.actions}>
+                {PROVERB_THEMES.map((th) => (
+                  <Button
+                    key={th.slug}
+                    variant={themes.includes(th.slug) ? 'primary' : 'secondary'}
+                    onClick={() => setThemes(themes.includes(th.slug) ? themes.filter((x) => x !== th.slug) : [...themes, th.slug].slice(0, 5))}
+                  >
+                    {th.title[locale]}
+                  </Button>
+                ))}
+              </div>
+              <RadioGroup
+                label={r.rv_mature}
+                value={mature}
+                onChange={(v) => setMature(v as 'yes' | 'no')}
+                options={[{ value: 'no', label: r.rv_mature_no }, { value: 'yes', label: r.rv_mature_yes }]}
+              />
+            </>
           )}
         </section>
       )}
@@ -296,7 +363,7 @@ function ReviewItem({ id }: { id: string }) {
           )}
           {open && !NEVER_PUBLIC.includes(item.type as ContributionType) && (
             <>
-              <Button onClick={() => accept(false)} loading={busy === 'accept'}>{r.accept}</Button>
+              <Button onClick={() => accept(false)} loading={busy === 'accept'} disabled={item.type === 'proverb_addition' && !mature}>{r.accept}</Button>
               {item.type === 'plant_name' && (
                 <Button variant="secondary" onClick={() => accept(true)} loading={busy === 'accept_variant'}>{r.accept_variant}</Button>
               )}

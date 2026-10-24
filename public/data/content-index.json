@@ -26,19 +26,19 @@
     "section": "culture",
     "domain": "kayas",
     "title": {
-      "en": "Kaya Kinondo",
+      "en": "Kaya Chinondo",
       "sw": "The Primary Digo Kaya",
-      "dg": "Kaya Kinondo"
+      "dg": "Kaya Chinondo"
     },
     "intro": {
-      "en": "Kaya Kinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At thirty…",
-      "sw": "Kaya Kinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach.…",
-      "dg": "Kaya Kinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya…"
+      "en": "Kaya Chinondo sits thirty-five kilometres south of Mombasa, a wedge of ancient coastal forest pressed between the Indian Ocean and the encroaching concrete of Diani Beach's tourism corridor. At…",
+      "sw": "Kaya Chinondo iko kilomita thelathini na tano kusini mwa Mombasa, kipande cha msitu wa kale wa pwani kilichoshinikizwa kati ya Bahari ya Hindi na saruji inayoendelea ya njia ya utalii ya Diani Beach.…",
+      "dg": "Kaya Chinondo i kilomita thelathini na tsano kusini mwa Mombasa, chipande cha tsaka ra kare ra pwani chirichoshinikizwa kahi ya Bahari ya Hindi na saruji inayoenderera kuinjira ya njira ya utalii ya…"
     },
     "keywords": [
       "sacred kayas",
       "makaya matakatifu",
-      "kaya kinondo",
+      "kaya chinondo",
       "the primary digo kaya"
     ],
     "digo_terms": []
@@ -806,7 +806,7 @@
     "intro": {
       "en": "The Digo coast belongs to the monsoon world — that vast climatic system stretching from the Arabian Sea to the shores of East Africa, driven by the seasonal reversal of winds that has shaped human…",
       "sw": "Pwani ya Wadigo ni sehemu ya ulimwengu wa monsuni — mfumo mkubwa wa hali ya hewa unaoenea kutoka Bahari ya Arabia hadi pwani ya Afrika Mashariki. Pepo hizo hizo zilizoleta wafanyabiashara wa Omani…",
-      "dg": "Pwani ya Adigo ni seemu ya ulimwengu wa monsuni — mfumo mkulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi pwani ya Afrika ya Mashariki. Phepho zizo-zizo zirizoreha afanyabiashara a Omani…"
+      "dg": "Pwani ya Adigo ni seemu ya ulimwengu wa monsuni — mfumo mkpwulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi pwani ya Afrika ya Mashariki. Phepho zizo-zizo zirizoreha afanyabiashara a Omani…"
     },
     "keywords": [
       "ecology and environment",
@@ -942,12 +942,12 @@
     "title": {
       "en": "The Post-Mining Landscape",
       "sw": "Mazingira Baada ya Uchimbaji",
-      "dg": "Mazingira Bada ya Uchimbaji"
+      "dg": "Mazingira Bada ya Utsimbadzi"
     },
     "intro": {
       "en": "On a stretch of land in Kwale County's Msambweni sub-county, where coconut palms and cashew trees once stood in the red laterite soil, Base Titanium Limited operated what became Kenya's largest…",
       "sw": "Katika eneo la ardhi katika Kaunti ya Kwale, Base Titanium Limited iliendeshea uchimbaji mkubwa zaidi wa madini nchini Kenya kutoka 2013 hadi Desemba 2024. Kampuni ya Australia ilichimba madini ya…",
-      "dg": "Kpwa eneo ra tsi kpwa Kaunti ya Kwale, Base Titanium Limited yahenda uchimbaji mkpwulu zaidi wa madini kpwenye tsi ya Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yatsimba madini ga…"
+      "dg": "Kpwa eneo ra tsi kpwa Kaunti ya Kwale, Base Titanium Limited yahenda utsimbadzi mkpwulu zaidi wa madini kpwenye tsi ya Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yatsimba madini ga…"
     },
     "keywords": [
       "contemporary digo life",
@@ -955,7 +955,7 @@
       "maisha ga adigo rero",
       "the post-mining landscape",
       "mazingira baada ya uchimbaji",
-      "mazingira bada ya uchimbaji"
+      "mazingira bada ya utsimbadzi"
     ],
     "digo_terms": []
   },
@@ -1209,7 +1209,7 @@
     "intro": {
       "en": "When darkness settles over a Digo village and the evening meal is done, the children know what comes next. An elder — or an older sibling, or a visiting uncle — turns to the group and issues the…",
       "sw": "Giza linapoingia katika kijiji cha Wadigo na chakula cha jioni kimekwisha, watoto wanajua kinachofuata. Mzee — au kaka mkubwa, au mjomba aliyekuja kutembelea — anageuka kwa kundi na kutoa changamoto:…",
-      "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
+      "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkpwulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
     },
     "keywords": [
       "oral traditions",

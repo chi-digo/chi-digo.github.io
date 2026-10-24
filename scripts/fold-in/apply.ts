@@ -16,6 +16,7 @@ import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
 import { ruledOutIn } from '../../lib/digo/ruled-out';
 import { applyWord, unapplyWord, wordAdditionEntry, foldedId, sortKeyOf, type WordEntry } from '../../lib/contributions/apply/words';
 import { digoLetterFile } from '../../lib/dictionary/letters';
+import { applyProverb, unapplyProverb, proverbAdditionEntry, type ProverbEntry } from '../../lib/contributions/apply/proverbs';
 
 interface ClaimedRow {
   id: string;
@@ -78,6 +79,59 @@ function wordDigo(type: string, p: Record<string, unknown>): string[] {
   return [];
 }
 
+/* ----- Proverbs (spec 34 §16): one file, written as JSON.stringify(_, null, 2) + newline ----- */
+
+const proverbsPath = join(dataDir, 'public/data/proverbs/index.json');
+let proverbs: ProverbEntry[] | null = null;
+let proverbsDirty = false;
+const proverbList = () => (proverbs ??= JSON.parse(readFileSync(proverbsPath, 'utf-8')) as ProverbEntry[]);
+function proverbDigo(type: string, p: Record<string, unknown>): string[] {
+  const s = (k: string) => (typeof p[k] === 'string' ? [p[k] as string] : []);
+  if (type === 'proverb_addition') return [...s('digo'), ...s('meaning_dg'), ...(p.usage_lang === 'dg' ? s('usage') : [])];
+  if (type === 'proverb_variant') return s('form');
+  if (type === 'proverb_meaning' || type === 'proverb_context') return p.lang === 'dg' ? s('text') : [];
+  return [];
+}
+
+function foldProverb(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
+  const reverting = row.live_status === 'reverting';
+  if (!reverting) {
+    const ruled = proverbDigo(row.type, row.final_payload).flatMap(ruledOutIn);
+    if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+  }
+  const list = proverbList();
+  if (row.type === 'proverb_addition') {
+    const at = list.findIndex((p) => hasC(p as unknown as WordEntry, row.id));
+    if (reverting) {
+      if (at < 0) return 'reverted';
+      const others = Object.values(list[at].provenance ?? {}).some((l) => l.some((x) => x.c !== row.id));
+      if (others) throw new Error(`new proverb ${list[at].id} has other changes that depend on it; revert those first`);
+      list.splice(at, 1);
+      proverbsDirty = true;
+      return 'reverted';
+    }
+    if (at >= 0) return 'applied';
+    // The id the database reserved at accept; never chosen here.
+    const id = row.target_id ?? '';
+    if (!/^p-\d{3,4}$/.test(id)) throw new Error(`new proverb has no reserved id (${JSON.stringify(id)})`);
+    if (list.some((p) => p.id === id)) throw new Error(`reserved id ${id} is already used`);
+    const entry = proverbAdditionEntry(change, id);
+    if (list.some((p) => p.slug === entry.slug)) throw new Error(`slug ${entry.slug} is already used`);
+    // Ids are reserved in accept order but may fold in any order: keep the list sorted by number.
+    const n = Number(entry.source_number);
+    const after = list.findIndex((p) => Number(p.source_number) > n);
+    if (after < 0) list.push(entry);
+    else list.splice(after, 0, entry);
+    proverbsDirty = true;
+    return 'applied';
+  }
+  const at = list.findIndex((p) => p.id === row.target_id);
+  if (at < 0) throw new Error(`proverb ${row.target_id} not found`);
+  list[at] = reverting ? unapplyProverb(list[at], change) : applyProverb(list[at], change);
+  proverbsDirty = true;
+  return reverting ? 'reverted' : 'applied';
+}
+
 function foldWord(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
   const reverting = row.live_status === 'reverting';
   if (!reverting) {
@@ -129,6 +183,15 @@ for (const row of claimed.rows) {
     final_payload: row.final_payload, outcome: row.outcome, region: row.region, confidence: row.confidence,
     edited: row.edited, base: row.base,
   };
+  if (row.target_type === 'proverb' && ['proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context'].includes(row.type)) {
+    try {
+      results[foldProverb(row, change)].push(row.id);
+    } catch (err) {
+      if (err instanceof ConflictError && row.live_status !== 'reverting') results.conflict.push({ id: row.id, error: err.message });
+      else results.failed.push({ id: row.id, error: String((err as Error).message ?? err).slice(0, 500) });
+    }
+    continue;
+  }
   if (row.target_type === 'word' && ['word_addition', 'definition_update', 'example_sentence', 'spelling_variant'].includes(row.type)) {
     try {
       results[foldWord(row, change)].push(row.id);
@@ -173,6 +236,18 @@ if (!dryRun && plantsChanged) {
 if (!dryRun) {
   // Letter files are compact JSON with no trailing newline (build-index.ts then rebuilds the indexes).
   for (const f of dirty) writeFileSync(join(dictDir, `${f}.json`), JSON.stringify(letterFile(f)));
+  if (proverbsDirty && proverbs) {
+    writeFileSync(proverbsPath, JSON.stringify(proverbs, null, 2) + '\n');
+    // Proverbs changed: make installed apps drop their cached copy.
+    const vp = join(dataDir, 'public/data/data-version.json');
+    const v = JSON.parse(readFileSync(vp, 'utf-8'));
+    const n = new Date();
+    const pad = (x: number) => String(x).padStart(2, '0');
+    const stamp = `${n.getUTCFullYear()}.${pad(n.getUTCMonth() + 1)}.${pad(n.getUTCDate())}.${pad(n.getUTCHours())}${pad(n.getUTCMinutes())}`;
+    v.proverbs = stamp;
+    v.version = stamp;
+    writeFileSync(vp, JSON.stringify(v, null, 2) + '\n');
+  }
 }
 writeFileSync(opt('--out'), JSON.stringify(results, null, 2));
 console.log(`applied ${results.applied.length}, reverted ${results.reverted.length}, conflicts ${results.conflict.length}, failed ${results.failed.length}, skipped ${results.skipped.length}${dryRun ? ' (dry run)' : ''}`);

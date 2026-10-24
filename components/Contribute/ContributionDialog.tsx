@@ -82,6 +82,7 @@ function OpenDialog({
   const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
   const [done, setDone] = useState<Done | null>(null);
+  const isProverb = type.startsWith('proverb_');
   const [similar, setSimilar] = useState<{ id?: string; name: string; href?: string } | null>(null);
   const [signIn, setSignIn] = useState(false);
 
@@ -183,16 +184,16 @@ function OpenDialog({
     // A new word that may already be in the dictionary: open it, or add this one anyway.
     body = (
       <div className={styles.form}>
-        <p className={styles.thanksTitle}>{c.similar_entry_title}</p>
-        <p>{c.similar_entry_body.replace('{name}', similar.name)}</p>
+        <p className={styles.thanksTitle}>{isProverb ? c.pv_similar_title : c.similar_entry_title}</p>
+        <p>{(isProverb ? c.pv_similar_body : c.similar_entry_body).replace('{name}', similar.name)}</p>
         {error && <p className={styles.error} role="alert">{error}</p>}
       </div>
     );
     actions = (
       <>
-        <Button variant="ghost" onClick={() => send(true)} loading={sending}>{c.similar_entry_add}</Button>
+        <Button variant="ghost" onClick={() => send(true)} loading={sending}>{isProverb ? c.pv_similar_add : c.similar_entry_add}</Button>
         <TrackedLink href={similar.href} source="contribute_similar_entry" className={styles.link} onClick={onClose}>
-          {c.similar_entry_open}
+          {isProverb ? c.pv_similar_open : c.similar_entry_open}
         </TrackedLink>
       </>
     );

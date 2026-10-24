@@ -28,8 +28,10 @@ function getProverbStubs(): ProverbStub[] {
     idiomatic_en: string;
     idiomatic_sw: string;
     idiomatic_dg: string;
+    content_flag?: string | null;
   }>;
-  _cache = full.map((p) => ({
+  // Mature proverbs are never offered for a kanga (spec 34 §16.9).
+  _cache = full.filter((p) => p.content_flag !== 'mature').map((p) => ({
     id: p.id,
     digo: p.digo,
     idiomatic_en: p.idiomatic_en || p.literal_en,

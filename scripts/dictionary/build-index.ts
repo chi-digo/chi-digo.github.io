@@ -100,6 +100,40 @@ for (const L of letters) {
   const want = compact([...files[L].entries].sort((a, b) => byCodePoint(a.sort_key, b.sort_key)).map(row));
   if (readFileSync(idxPath, 'utf-8') !== want) { stale.push(idxPath); writes.push([idxPath, want]); }
 }
+// English and Swahili search (term -> [[letter, id]]) and spelling forms (form -> id), as the old
+// pipeline built them (context/dictionary/scripts/05_compile.py), now from the letter files (BACKLOG #33).
+function reverseIndex(field: 'equivalents_en' | 'equivalents_sw') {
+  // No prototype: a term like "constructor" or "__proto__" must be an ordinary key.
+  const out: Record<string, [string, string][]> = Object.create(null);
+  for (const L of letters) for (const e of files[L].entries) {
+    if ((e as { is_redirect?: boolean }).is_redirect) continue;
+    for (const q of e[field] || []) {
+      const term = q.toLowerCase().trim();
+      if (!term) continue;
+      if (!Object.hasOwn(out, term)) out[term] = [];
+      out[term].push([e.sort_key ? e.sort_key[0] : 'x', e.id]);
+    }
+  }
+  return out;
+}
+function variantsMap() {
+  const out: Record<string, string> = Object.create(null);
+  for (const L of letters) for (const e of files[L].entries) {
+    if ((e as { is_redirect?: boolean }).is_redirect) continue;
+    for (const v of ((e as { variants?: { form?: string }[] }).variants ?? [])) {
+      const form = (v.form ?? '').toLowerCase().trim();
+      // The first entry with a form keeps it (as the live overlay does).
+      if (form && !Object.hasOwn(out, form)) out[form] = e.id;
+    }
+  }
+  return out;
+}
+for (const [name, value] of [['reverse-en.json', reverseIndex('equivalents_en')], ['reverse-sw.json', reverseIndex('equivalents_sw')], ['variants.json', variantsMap()]] as const) {
+  const path = join(DATA, name);
+  const want = compact(value);
+  if (!existsSync(path) || readFileSync(path, 'utf-8') !== want) { stale.push(path); writes.push([path, want]); }
+}
+
 const newMeta: Meta = JSON.parse(metaRaw);
 let countsChanged = false;
 for (const L of letters) {

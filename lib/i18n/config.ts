@@ -102,6 +102,7 @@ export interface Messages {
     idiomatic_translation: string;
     try_different_search: string;
     swahili_translation: string;
+    other_forms: string;
   };
   plants: {
     title: string;

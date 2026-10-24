@@ -1,4 +1,7 @@
 import type { Metadata } from 'next';
+import { permanentRedirect } from 'next/navigation';
+import { localePath } from '@/lib/i18n/locale-path';
+import { ANY_PROVERB_SLUG } from '@/lib/proverbs/slug';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { ProverbsClient } from './ProverbsClient';
@@ -18,6 +21,7 @@ interface ProverbStub {
   idiomatic_sw?: string;
   idiomatic_dg?: string;
   themes?: string[];
+  provenance?: Record<string, { c: string }[]>;
 }
 
 let _proverbCache: ProverbStub[] | null = null;
@@ -27,6 +31,15 @@ function loadProverbStubs(): ProverbStub[] {
   const raw = readFileSync(join(process.cwd(), 'public/data/proverbs/index.json'), 'utf-8');
   _proverbCache = JSON.parse(raw) as ProverbStub[];
   return _proverbCache;
+}
+
+/** A folded community proverb, found from its provisional slug p-c-<8 hex> (spec 34 §16.9). */
+function foldedFromProvisional(slug: string): ProverbStub | null {
+  const m = /^p-c-([0-9a-f]{8})$/.exec(slug);
+  if (!m) return null;
+  return loadProverbStubs().find((p) =>
+    // Only the change that created the proverb, never a later edit on it.
+    (p.provenance?.proverb ?? []).some((x) => x.c.replace(/-/g, '').startsWith(m[1]))) ?? null;
 }
 
 function loadProverbSlugs(): string[] {
@@ -88,6 +101,7 @@ export async function generateMetadata({
     const stubs = loadProverbStubs();
     const found = stubs.find((p) => p.slug === proverbSlug);
     const title = found ? found.digo : 'Proverb';
+    // Not in the shipped data (unknown, or a community proverb not folded in yet): keep it out of search.
     const desc = found
       ? (found.idiomatic_en || found.literal_en || 'A Digo proverb with translations and cultural commentary.')
       : 'A Digo proverb with literal and idiomatic translations, cultural commentary, and thematic connections.';
@@ -96,6 +110,7 @@ export async function generateMetadata({
       description: desc,
       path: `/language/proverbs/${proverbSlug}`,
       locale: loc,
+      noindex: !found,
     });
   }
 
@@ -126,6 +141,10 @@ export default async function Page({
   if (slug[0]?.startsWith('p-')) {
     const proverbSlug = decodeURIComponent(slug[0]);
     const found = loadProverbStubs().find((p) => p.slug === proverbSlug);
+    const folded = found ? null : foldedFromProvisional(proverbSlug);
+    if (folded && ANY_PROVERB_SLUG.test(folded.slug)) {
+      permanentRedirect(localePath(`/language/proverbs/${encodeURIComponent(folded.slug)}`, loc));
+    }
     if (found) {
       const meaning =
         (loc === 'sw' ? found.idiomatic_sw : loc === 'dg' ? found.idiomatic_dg : found.idiomatic_en) ||

@@ -28,10 +28,10 @@ const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
   plant_name: ['name', 'choice'],
   plant_info: ['section', 'lang', 'mode', 'text'],
   plant_addition: ['digo', 'swahili', 'english', 'description', 'uses'],
-  proverb_addition: ['digo', 'literal_en', 'meaning_en', 'meaning_sw', 'meaning_dg', 'usage'],
-  proverb_variant: ['form'],
-  proverb_meaning: ['lang', 'text', 'kind'],
-  proverb_context: ['text'],
+  proverb_addition: ['digo', 'literal_en', 'meaning_en', 'meaning_sw', 'meaning_dg', 'usage', 'usage_lang', 'mature', 'themes', 'literal_sw', 'swahili'],
+  proverb_variant: ['form', 'note'],
+  proverb_meaning: ['lang', 'text', 'kind', 'mode'],
+  proverb_context: ['lang', 'text'],
   translation_fix: ['lang', 'current', 'proposed'],
 };
 const PRIVATE_FIELDS = ['reason', 'detail', 'other_names'];
@@ -70,9 +70,15 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
     outcome: r.outcome,
     region: r.region,
     confidence: r.confidence,
-    edited: !!r.final_payload && stableStringify(r.final_payload) !== stableStringify(r.payload),
+    edited: !!r.final_payload && stableStringify(unCompleted(r.final_payload)) !== stableStringify(unCompleted(r.payload)),
     base: r.base ? { value: r.base.value } : null,
   }));
+}
+
+/** Completing a new proverb at accept (themes, mature) is not an edit of what the contributor wrote. */
+function unCompleted(p: Record<string, unknown> | null) {
+  const { themes: _t, mature: _m, ...rest } = p ?? {};
+  return rest;
 }
 
 /** Accepted, live changes for an area. Cached across requests; accept, revert and pause revalidate it. */
