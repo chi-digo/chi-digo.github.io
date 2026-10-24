@@ -118,7 +118,15 @@ jobs:
           url=$(gh pr create --repo "$REPO" --base preview --head "$branch" --title "$title" --body "Automated fold-in (spec 34 technical §6). The contribution ids are in this run's results.")
           num="${url##*/}"
           echo "pr=$num" >> "$GITHUB_OUTPUT"
-          if gh pr merge "$num" --repo "$REPO" --squash --delete-branch; then
+          # GitHub works out mergeability after the PR is opened, and can refuse a merge in the meantime
+          # ("Base branch was modified", ISSUES OPS-2): try a few times before giving up.
+          merged=false
+          for attempt in 1 2 3 4 5; do
+            if gh pr merge "$num" --repo "$REPO" --squash --delete-branch; then merged=true; break; fi
+            echo "merge attempt $attempt refused; retrying"
+            sleep 10
+          done
+          if [ "$merged" = true ]; then
             echo "merged=true" >> "$GITHUB_OUTPUT"
           else
             # Preview moved underneath us: drop this attempt; the rows are released and re-applied next run.
