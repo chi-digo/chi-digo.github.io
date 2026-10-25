@@ -44,7 +44,7 @@ export const languageTools: LanguageTool[] = [
     title: {
       en: 'Plant Names',
       sw: 'Majina ya Mimea',
-      dg: 'Majina ga Mimea',
+      dg: 'Madzina ga Mimea',
     },
     description: {
       en: '459 coastal plants with their Digo names, uses, and cultural notes. Suggest a plant name or a correction.',
