@@ -59,7 +59,8 @@ describe('applying and undoing', () => {
     const c = fix(a, id, path, 'Maandishi mapya ya majaribio.');
     const b = applyArticle(a, c);
     expect(articleText(b, path)).toBe('Maandishi mapya ya majaribio.');
-    expect(b.provenance?.[path]?.[0]).toMatchObject({ c: c.contribution_id, kind: 'translation' });
+    // Real data may already carry folded fixes on the same block: find this change's own entry.
+    expect(b.provenance?.[path]?.find((e) => e.c === c.contribution_id)).toMatchObject({ c: c.contribution_id, kind: 'translation' });
     expect(applyArticle(b, c)).toBe(b);
     expect(bytes(unapplyArticle(b, c))).toBe(bytes(a));
   });
