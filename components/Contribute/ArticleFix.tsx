@@ -8,6 +8,7 @@ import { articleOverlay } from '@/lib/articles/overlay';
 import { track } from '@/lib/analytics/track';
 import type { TranslationField } from '@/lib/contributions/schemas';
 import { TranslationFixForm, TranslationCredits, type FixOption } from './TranslationFixForm';
+import { CreditsProvider, provenanceIds } from './Credits';
 import styles from './Contribute.module.css';
 
 type Target = { field: TranslationField; block?: string; label?: string; onDark?: boolean };
@@ -124,7 +125,13 @@ export function useArticleFix<T extends ArticleData>(articleId: string, raw: T) 
     />
   ) : null;
 
-  const credits: ReactNode = <TranslationCredits provenance={[merged.provenance]} />;
+  // Article pages have no credits loader of their own: this one fetches the names for the foot line.
+  const ids = provenanceIds(merged.provenance);
+  const credits: ReactNode = ids.length ? (
+    <CreditsProvider ids={ids}>
+      <TranslationCredits provenance={[merged.provenance]} />
+    </CreditsProvider>
+  ) : null;
 
   return { merged, fixing: on, pencil, toggle, form, credits };
 }
