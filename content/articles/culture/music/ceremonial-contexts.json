@@ -1,0 +1,155 @@
+{
+  "id": "culture/music/ceremonial-contexts",
+  "title": {
+    "en": "Ceremonial Contexts",
+    "sw": "Muktadha wa Sherehe",
+    "dg": "Muktadha wa Sherehe"
+  },
+  "intro": {
+    "en": "In Digo culture, music does not accompany ceremony — it *is* ceremony. The drum beat is not background to the funeral rite; it is the mechanism by which the living communicate with the dead. The…",
+    "sw": "Katika utamaduni wa Wadigo, muziki hauandamani na sherehe — ni sherehe yenyewe. Mdundo wa ngoma si mandharinyuma ya ibada ya mazishi; ni njia ambayo walio hai wanawasiliana na wafu. Wimbo wa harusi si…",
+    "dg": "Kpwa chimila cha Adigo, muziki si chitu cha kulunga sherehe — ni sherehe yenye. Mdundo wa ngoma si sauti ya nyuma ya ibada ya mazishi; ni njira ambayo ario moyo anabisha na ariofwa."
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Music as Ritual Work",
+      "sw": "Muziki Kama Kazi ya Ibada",
+      "dg": "Muziki Dza Kazi ya Ibada"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In Digo culture, music does not accompany ceremony — it *is* ceremony. The drum beat is not background to the funeral rite; it is the mechanism by which the living communicate with the dead. The wedding song is not decoration for the bride's preparation; it is the vehicle through which elder women transmit the knowledge that will carry the bride into married life. The dawn flute call is not an alarm; it is a summons from the ancestors, channelled through a bamboo tube and the breath of a trained musician. To understand Digo music, you must abandon the Western distinction between performance and ritual. Here, they are the same act.",
+      "sw": "Katika utamaduni wa Wadigo, muziki hauandamani na sherehe — ni sherehe yenyewe. Mdundo wa ngoma si mandharinyuma ya ibada ya mazishi; ni njia ambayo walio hai wanawasiliana na wafu. Wimbo wa harusi si mapambo; ni chombo ambacho wanawake wakubwa wanapitisha maarifa.",
+      "dg": "Kpwa chimila cha Adigo, muziki si chitu cha kulunga sherehe — ni sherehe yenye. Mdundo wa ngoma si sauti ya nyuma ya ibada ya mazishi; ni njira ambayo ario moyo anabisha na ariofwa. Wira wa harusi si pambo ra matayarisho ga bibi arusi; ni chombo ambacho achetu azehe anatsapiza marifwa ambago gandamterya bibi arusi kuinjira maisha ga ndowa. Mlio wa chivoti wa ligundzu si ishara ya kuambira atu alamuke; ni akare anaoiha atu, kpwa njira ya mwanzi na pumzi ya mpiga chivoti ariyefundzwa. Kuelewa muziki wa Adigo, ni lazima uriche tafwauti ya Chizungu kahi ya kuonyesa sanaa na ibada. Phapha, ni chitendo chimwenga."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Funerals — Feeding the Ancestors",
+      "sw": "Mazishi — Kulisha Mababu",
+      "dg": "Mazishi — Kurisa Azehe a Kare"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The most spiritually charged musical context among the Digo is the funeral. When a community member dies, the *goma* movement of sengenya is performed — a vigorous, powerful form of dance described by researchers as \"bull-like\" in its movements. The goma is not an expression of grief, though grief is present. It is an act of spiritual service: the songs and music performed during goma represent \"passing food and music to those who have died\" to help the departed join the ancestors.",
+      "sw": "Muktadha wa kimuziki wenye nguvu zaidi ya kiroho miongoni mwa Wadigo ni mazishi. Mienendo ya *goma* ya sengenya — nguvu, yenye mwendo wa \"ng'ombe\" — si usemi wa huzuni. Ni tendo la huduma ya kiroho: nyimbo zinawakilisha \"kupeleka chakula na muziki kwa waliokufa\" kuwasaidia kujiunga na mababu.",
+      "dg": "Muktadha wa muziki wenye nguvu zaidi za chiroho kahi ya Adigo ni mazishi. Mutu wa jamii achifwa, miendo ya *goma* ya sengenya inahendwa — ngoma ya nguvu, ambayo atafiti anaieleza kukala ina mwendo wa \"ng'ombe\" (\"bull-like\"). Goma si usemi wa sononeko, dzagbwe kuna sononeko. Ni chendo cha huduma ya chiroho: mawira na muziki ganagohendwa wakati wa goma ganamaanisha \"kuapha ariofwa chakurya na muziki\" kuaterya kuungana na akare."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "This belief is not metaphorical. The performers and the community share the conviction that the music reaches the dead — that the rhythms of the six drums, the wail of the nzumari, the stamping of feet on packed earth create a bridge between the world of the living and the world of the ancestors. The dead are hungry for what they left behind. The music feeds them. The dance carries them across.",
+      "sw": "Harusi — Mahali Kila Aina ya Muziki Inakutana",
+      "dg": "Imani ihi si ya mfwano. Acheza na jamii osi anaamini kukala muziki unaafikira ariofwa — kukala midundo ya ngoma sita, chiriro cha nzumari, na kuvyoga tsi ngumu kpwa magulu vinaumba daraja kahi ya ulimwengu wa ario moyo na ulimwengu wa akare. Ariofwa ana ndzala ya vitu arivyoricha. Muziki unaarisa. Ngoma inaatsukula hadi ng'ambo."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The goma is performed with an intensity that reflects its purpose. Dancers move with full-body commitment — not the subtle hip-sway of chakacha but the forceful, grounded movements of people doing spiritual labour. The drum patterns are specific to the funeral context, distinct from the patterns used in wedding or community celebrations. A knowledgeable listener can hear the purpose of a sengenya performance from the drums alone, before seeing a single dancer.",
+      "sw": "Harusi ya Wadigo ni tukio tajiri zaidi la kimuziki. Mila nyingi za kimuziki zinakutana katika sherehe moja. Nyimbo za *vugo* — mila ya wanawake peke yao — zinaimbwa wakati wa maandalizi ya bibi arusi. Kwenye harusi yenyewe, *chakacha* inatawala sherehe. Mienendo ya *mserego* ya sengenya — iliyowekwa pekee kwa sherehe za harusi — inafanywa. Na katika harusi za kisasa, *bango* inatoa sauti ya kisasa.",
+      "dg": "Goma inahendwa kpwa nguvu inayoonyesa madhumunige. Acheza anavina kpwa mwiri wosi — si kutikisa nyonga pore-pore dza chakacha, ela miendo ya nguvu, iriyoima imara photsi, ya atu anaohenda kazi ya chiroho. Mipigo ya ngoma ni ya mazishi bahi, tafwauti na mipigo inayohumirwa kpwa harusi au sherehe za jamii. Msikizi ariye na marifwa anaweza kusikira madhumuni ga kuvina sengenya kula kpwa ngoma bahi, hata kabla ya kuona mcheza mmwenga."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Weddings — Where Every Musical Form Converges",
+      "sw": "Muziki wa Kiislamu — Kasida",
+      "dg": "Harusi — Phatu Chila Aina ya Muziki Inaphokutana"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The Digo wedding is the richest musical event in the community's calendar. Multiple musical traditions converge in a single celebration that may stretch over days.",
+      "sw": "Wadigo wanadumisha mila kali ya *kasida* — muziki wa ibada ya Kiislamu. Kasida inaimbwa wakati wa sherehe za *mawlid*, harusi, mikutano ya kidini, na vikao vya Sufi.",
+      "dg": "Harusi ya Adigo ni chitu cha muziki chirichotajirika zaidi kpwa kalenda ya jamii. Mila nyinji za muziki zinakutana kpwa sherehe mwenga ambayo inaweza kuenderera kpwa siku kadhaa."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The sequence begins weeks before the ceremony itself, during the bride's preparation period overseen by the *somo* (bridal mentor) and *kungwi* (marriage instructor). During this time, the women surrounding the bride sing *vugo* songs — an exclusively female tradition. The vugo songs are instructional, celebratory, bawdy, tender, and sometimes sharp. They teach the bride about married life. They celebrate her beauty. They tease her about the wedding night. They warn her about in-laws. They bless her with prayers for fertility and happiness. Men are not present for these songs. The content is women's knowledge, transmitted through performance.",
+      "sw": "Mfuatano huu huanza wiki kadhaa kabla ya sherehe yenyewe, wakati wa kipindi cha maandalizi ya bibi arusi kinachosimamiwa na *somo* (mshauri wa bibi arusi) na *kungwi* (mwalimu wa ndoa). Wakati huu, wanawake wanaomzunguka bibi arusi huimba nyimbo za *vugo* — mila ya wanawake pekee. Nyimbo za vugo ni za kufundisha, za kusherehekea, za utani, za upole, na wakati mwingine kali. Zinafundisha bibi arusi kuhusu maisha ya ndoa. Zinasherehekea uzuri wake. Zinamchokoza kuhusu usiku wa harusi. Zinamonya kuhusu wakwe. Zinambariki kwa dua za uzazi na furaha. Wanaume hawapo wakati wa nyimbo hizi. Maudhui hayo ni maarifa ya wanawake, yanayopitishwa kupitia utendaji.",
+      "dg": "Mfuatano uhu unaandza wiki nyinji kabila ya sherehe yenye, wakati wa chipindi cha matayarisho ga bibi arusi chinacholongozwa ni *somo* (mwalimu wa bibi arusi) na *kungwi* (mwalimu wa ndowa). Wakati uhu, achetu anaomzunguluka bibi arusi anaimba mawira ga *vugo* — mila ya achetu bahi. Mawira ga vugo ni ga kufundisha, ga kusherehekea, ga utani, ga upole, na wakati wanjina ga ukali. Ganamfundisha bibi arusi kuhusu maisha ga ndowa. Ganasherehekea uzuriwe. Ganamtsokoza kuhusu usiku wa harusi. Ganamuonya kuhusu avyala. Ganambariki na mavoyo ga kuvyala ana na raha. Alume taapho wakati wa mawira higa. Higo ni marifwa ga achetu, ganagotsapizwa kpwa njira ya kuimba."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "At the wedding itself, *chakacha* dominates the celebration. Women in bright kanga wraps dance with the hip-swaying movements that define the form, ankle bells catching firelight, clapping spectators forming the circle. The *mserego* movement of sengenya — reserved exclusively for wedding ceremonies — is performed. And in contemporary weddings, *bango* provides the modern soundtrack. The coastal saying captures its centrality: *\"Harusi bila bango si harusi\"* — \"A wedding without bango is not a wedding.\"",
+      "sw": "Katika harusi yenyewe, *chakacha* hutawala sherehe. Wanawake waliovaa kanga za rangi angavu hucheza kwa kutikisa viuno kwa namna inayoifafanua sanaa hii, njuga za miguuni zikidakia mwanga wa moto, watazamaji wanaopiga makofi wakiunda duara. Mtindo wa *mserego* wa sengenya — unaohifadhiwa kwa harusi pekee — unafanywa. Na katika harusi za kisasa, *bango* hutoa muziki wa wakati huu. Msemo wa pwani unauthibitisha umuhimu wake: *\"Harusi bila bango si harusi.\"*",
+      "dg": "Kpwa harusi yenye, *chakacha* ndiyo inatawala sherehe. Achetu ariovwala kanga za rangi zinazomeka-meka anavina kpwa kutikisa nyonga kpwa namuna ambayo ndiyo alama ya ngoma ihi, njuga za maguluni zichimeka-meka kpwa mwanga wa moho, atu anaopiga makofi anatengeza duara. Mtindo wa *mserego* wa sengenya — unaoikpwa kpwa harusi bahi — unahendwa. Na kpwa harusi za vivi, *bango* unalavya muziki wa wakati uhu. Msemo wa pwani unauthibitisha umuhimuwe: *\"Harusi bila bango si harusi.\"*"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "When the bride leaves her family home, both families sing farewell songs. The ethnographic accounts record that \"both families weep and sing simultaneously\" — the bride's family singing of loss and blessing, the groom's family singing of welcome and promise. These are among the most emotionally charged moments in the Digo musical repertoire.",
+      "sw": "Bibi arusi anapoondoka nyumbani kwa familia yake, familia zote mbili huimba nyimbo za kuaga. Maandishi ya kiethnografia yanaandika kwamba \"familia zote mbili hulia na kuimba kwa wakati mmoja\" — familia ya bibi arusi ikiimba kuhusu kupoteza na baraka, familia ya bwana arusi ikiimba kuhusu kukaribisha na ahadi. Hizi ni miongoni mwa nyakati zenye hisia kali zaidi katika hazina ya muziki wa Wadigo.",
+      "dg": "Bibi arusi anaphouka kpwao kaya, mbari zosi mbiri zinaimba mawira ga kulagana. Maandiko ga chiethnografia ganagomba kukala \"mbari zosi mbiri zinarira na kuimba wakati mmwenga\" — mbari ya bibi arusi inaimba kuhusu kumuangamiza mwanayo na baraka, mbari ya bwana arusi inaimba kuhusu kukaribisha na ahadi. Zizi ni kahi ya nyakati zenye hisia kali zaidi kpwa hazina ya muziki ya Adigo."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Islamic Devotional Music — Kasida",
+      "sw": "Muziki wa Ibada ya Kiislamu — Kasida",
+      "dg": "Muziki wa Ibada ya Chiislamu — Kasida"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "As the only predominantly Muslim Mijikenda group, the Digo maintain a strong tradition of *kasida* — Islamic devotional music using the Arabic *qasida* poetic form. Kasida is sung and chanted during *mawlid* celebrations marking the Prophet's birthday, at marriage ceremonies, at religious gatherings, and during Sufi devotional sessions.",
+      "sw": "Kama kundi pekee la Mijikenda lenye Waislamu wengi, Wadigo wanadumisha mila imara ya *kasida* — muziki wa ibada ya Kiislamu unaotumia mtindo wa kishairi wa Kiarabu *qasida*. Kasida huimbwa na kusomwa wakati wa sherehe za *mawlid* zinazoadhimisha siku ya kuzaliwa kwa Mtume, katika sherehe za ndoa, katika mikutano ya kidini, na wakati wa vikao vya ibada za Kisufi.",
+      "dg": "Dza kundi bahi ra Amijikenda renye Aislamu anji, Adigo anadumisha mila imara ya *kasida* — muziki wa ibada ya Chiislamu unaohumira mtindo wa ushairi wa Chiarabu wa *qasida*. Kasida inaimbwa na kusomwa wakati wa sherehe za *mawlid* zinazotambukira kuvyalwa kpwa Mtume, kpwa sherehe za ndowa, kpwa mikutano ya chidini, na wakati wa vikao vya ibada za Chisufi."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Kasida performance connects the Digo to a wider Indian Ocean Islamic musical world — the same poetic forms are performed in Oman, Yemen, the Comoros, and Zanzibar. Yet the Digo kasida has its own character: the rhythms carry traces of the African musical substrate, the vocal styles blend Arabic melodic conventions with Bantu tonal patterns, and the performance contexts are embedded in specifically Digo community life. Like \"Digonized Islam\" itself, Digo kasida is both authentically Islamic and distinctly local.",
+      "sw": "Utendaji wa kasida unawaunganisha Wadigo na ulimwengu mpana wa muziki wa Kiislamu wa Bahari ya Hindi — mitindo hiyo hiyo ya kishairi inafanywa Oman, Yemen, Komoro, na Zanzibar. Hata hivyo, kasida ya Wadigo ina tabia yake yenyewe: midundo inabeba alama za msingi wa muziki wa Kiafrika, mitindo ya sauti inachanganya desturi za nyimbo za Kiarabu na mifumo ya toni za Kibantu, na muktadha wa utendaji umeingizwa katika maisha ya jumuiya ya Kidigo hasa. Kama vile \"Uislamu uliotiwa Udigo\" wenyewe, kasida ya Wadigo ni ya Kiislamu kwa uhakika na ya kipekee kimtaa.",
+      "dg": "Kuimba kasida kunaunganisha Adigo na ulimwengu mkpwulu wa muziki wa Chiislamu wa Bahari ya Hindi — mitindo iyo-iyo ya ushairi inahendwa Oman, Yemen, Komoro, na Zanzibar. Hata hivyo, kasida ya Adigo ina tabiyaye yenye: midundo inatsukula alama za musingi wa muziki wa Chiafrika, mitindo ya sauti inatsanganya desturi za kuimba za Chiarabu na mifumo ya toni za Chibantu, na muktadha wa kuimba ni wa maisha ga jamii ya Chidigo hasa. Dza vira \"Uislamu uriogaluzwa ukale wa Chidigo\" wenye, kasida ya Adigo ni ya Chiislamu kpwa kpweli na ya chipekee kpwa phatu."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Community Celebrations — Beni and Beyond",
+      "sw": "Sherehe za Jamii — Beni na Zaidi",
+      "dg": "Sherehe za Jamii — Beni na Zaidi"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Before the mid-twentieth century, the most spectacular musical events on the Kenya coast were *beni ngoma* competitions. Beni — from the English word \"band\" — emerged in the 1890s as urban Swahili communities created a competitive dance genre that mimicked military drill set to brass-band music. Neighbourhood teams composed original songs, crafted elaborate costumes and floats, and competed before audiences of thousands.",
+      "sw": "Kabla ya katikati ya karne ya ishirini, matukio ya muziki ya kuvutia zaidi katika pwani ya Kenya yalikuwa mashindano ya *beni ngoma*. Beni — kutoka neno la Kiingereza \"band\" — iliibuka katika miaka ya 1890 wakati jamii za Kiswahili za mijini zilipounda aina ya ngoma ya mashindano iliyoiga mazoezi ya kijeshi yakifuatana na muziki wa bendi za tarumbeta. Timu za mtaa zilitunganyimbo za asili, zilitengeneza mavazi na magari ya mapambo ya kisanaa, na zilishindana mbele ya maelfu ya watazamaji.",
+      "dg": "Kabila ya kahi-kahi ya karne ya mirongo miri, matukio ga muziki ga ajabu zaidi kpwa pwani ya Kenya gakala mashindano ga *beni ngoma*. Beni — kula kpwa neno ra Chingereza \"band\" — yazuka kpwa miaka ya 1890 wakati jamii za Chiswahili za midzini ziriphoumba aina ya ngoma ya mashindano iriyoiga mazoezi ga chijeshi phamwenga na muziki wa bendi za tarumbeta. Timu za mtaa zatunga mawira maphya, zatengeza nguwo na magari ga mapambo, na zashindana mbere za maelfu ga atu anaororera."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Nearly every coastal household had a member in a music or dance association. Weekend beni competitions were the social highlight of urban coastal life. During the form's indigenisation, wooden trumpets replaced brass instruments and African polyrhythm replaced European march time, producing a distinctly East African performance genre.",
+      "sw": "Karibu kila nyumba ya pwani ilikuwa na mwanachama katika chama cha muziki au ngoma. Mashindano ya beni ya wikendi yalikuwa kilele cha maisha ya kijamii ya pwani ya mijini. Wakati aina hii ilipokuwa ikibadilika kuwa ya kienyeji, tarumbeta za mbao zilichukua nafasi ya vyombo vya shaba na midundo ya Kiafrika ilichukua nafasi ya mpigo wa maandamano ya Kizungu, na kutokeza aina ya utendaji ya Kiafrika Mashariki ya kipekee.",
+      "dg": "Phephi chila nyumba ya pwani yakala na mutu kpwa chama cha muziki au ngoma. Mashindano ga beni ga mwisho wa wiki ndigo gakala mambo makulu zaidi kpwa maisha ga chijamii ga pwani ya midzini. Wakati aina ihi iriphokala inagaluzwa kukala ya chienyeji, tarumbeta za mihi zahala phatu pha vyombo vya shaba, na midundo ya Chiafrika yahala phatu pha mpigo wa maandamano ga Chizungu, na kutengeza aina ya muziki ya Chiafrika Mashariki ya chipekee."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Beni's direct descendant is *bango*, created in 1987 by Joseph Katana Ngala — known as \"Mzee Bango\" — from Freretown, Mombasa. Bango fuses jazz, rhumba, and traditional Mijikenda music (mwanzele, chakacha, brasso) into a contemporary coastal sound. Songs are primarily in Swahili, with increasing use of Mijikenda languages including Digo. The most innovative contemporary expression may be the \"Kaya hip-hop\" of Katoi Wa Tabaka — a deliberate fusion of traditional Mijikenda musical elements with soul, blues, jazz, and hip-hop that represents the most self-conscious effort to create a modern idiom rooted in ancestral culture.",
+      "sw": "Mrithi wa moja kwa moja wa beni ni *bango*, ulioanzishwa mwaka wa 1987 na Joseph Katana Ngala — anayejulikana kama \"Mzee Bango\" — kutoka Freretown, Mombasa. Bango unachanganya jazz, rhumba, na muziki wa jadi wa Mijikenda (mwanzele, chakacha, brasso) kuwa sauti ya kisasa ya pwani. Nyimbo nyingi ni kwa Kiswahili, na matumizi yanayoongezeka ya lugha za Mijikenda ikiwa ni pamoja na Kidigo. Ubunifu wa kisasa wenye kuvutia zaidi labda ni \"Kaya hip-hop\" ya Katoi Wa Tabaka — muungano wa makusudi wa vipengele vya muziki wa jadi wa Mijikenda na soul, blues, jazz, na hip-hop ambao unawakilisha jitihada kubwa zaidi ya kuunda lugha ya kisasa iliyojikita katika utamaduni wa mababu.",
+      "dg": "Mrithi wa kpweli wa beni ni *bango*, urioandzishwa mwaka wa 1987 ni Joseph Katana Ngala — anayemanyikana dza \"Mzee Bango\" — kula Freretown, Mombasa. Bango unatsanganya jazz, rhumba, na muziki wa jadi wa Amijikenda (mwanzele, chakacha, brasso) kukala sauti ya chisasa ya pwani. Mawira manji ni ga Chiswahili, na luga za Amijikenda phamwenga na Chidigo zinaenderera kuhumirwa zaidi. Ubunifu wa chisasa wa ajabu zaidi unaweza kukala ni \"Kaya hip-hop\" ya Katoi Wa Tabaka — muungano wa makusudi wa mambo ga muziki wa jadi wa Amijikenda na soul, blues, jazz, na hip-hop ambao ndio jitihada kulu zaidi ya kuumba luga ya chisasa iriyo na mizizi kpwa utamaduni wa akare."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Continuity Beneath the Change",
+      "sw": "Mwendelezo Ulio Chini ya Mabadiliko",
+      "dg": "Kuenderera Kpwa Ndani ya Mabadiliko"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "What connects all of these contexts — funeral, wedding, mosque, competition, studio — is a single principle: music among the Digo is communal, functional, and alive. It serves purposes beyond pleasure. It carries messages beyond entertainment. It creates bonds between the living, between the living and the dead, between the individual and the community, between the present and the past. The instruments change, the rhythms adapt, the languages shift — but the principle holds. Music is not something the Digo listen to. It is something they do.",
+      "sw": "Kinachounganisha muktadha hizi zote — mazishi, harusi, msikiti, mashindano, studio — ni kanuni moja: muziki miongoni mwa Wadigo ni wa jamii, una kazi, na ni hai. Unatumikia madhumuni zaidi ya burudani. Unabeba ujumbe zaidi ya starehe. Unaunda vifungo kati ya walio hai, kati ya walio hai na wafu, kati ya mtu binafsi na jamii, kati ya sasa na zamani. Vyombo vinabadilika, midundo inabadilika, lugha zinahamia — lakini kanuni inashikilia. Muziki si kitu ambacho Wadigo wanasikiliza. Ni kitu wanachokifanya.",
+      "dg": "Chinachounganisha muktadha zizi zosi — mazishi, harusi, msikiti, mashindano, studio — ni kanuni mwenga: muziki kahi ya Adigo ni wa jamii, una kazi, na u moyo. Unahumikira madhumuni zaidi ya raha. Unatsukula ujumbe zaidi ya burudani. Unaumba vifungo kahi ya ario moyo, kahi ya ario moyo na ariofwa, kahi ya mutu na jamii, kahi ya vivi na kare. Vyombo vinagaluka, midundo inagaluka, luga zinagaluka — ela kanuni inasala. Muziki si chitu ambacho Adigo anachisikiza. Ni chitu ambacho anachihenda."
+    }
+  ]
+}

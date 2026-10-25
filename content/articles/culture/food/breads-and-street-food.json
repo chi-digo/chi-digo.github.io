@@ -1,0 +1,190 @@
+{
+  "id": "culture/food/breads-and-street-food",
+  "title": {
+    "en": "Breads and Street Food",
+    "sw": "Mikate na Vyakula vya Mitaani",
+    "dg": "Mikahe na Vyakurya vya Njira"
+  },
+  "intro": {
+    "en": "The day on the Digo coast begins with fried dough and simmered legumes. Before the heat of the tropical sun has fully asserted itself, before the fishermen have returned with their catch, before the…",
+    "sw": "Siku katika pwani ya Wadigo inaanza na mikate ya kukaanga na kunde zilizochemshwa. Kabla jua la kitropiki halijajiimarisha, wauza vyakula vya mitaani tayari wanafanya kazi. Moto wao wa makaa umewashwa…",
+    "dg": "Siku kpwa pwani ya Adigo inaandza na mikahe ya kukalanga na mbalazi zirizochemushwa. Kabla ya dzoho ra dzuwa kukala ra nguvu, atu anaoguza vyakurya vya njira kare anahenda kazi. Moho wao wa makala…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Coastal Morning",
+      "sw": "Asubuhi ya Pwani",
+      "dg": "Ligundzu ra Pwani"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The day on the Digo coast begins with fried dough and simmered legumes. Before the heat of the tropical sun has fully asserted itself, before the fishermen have returned with their catch, before the business of the day has properly begun, the street food vendors are already at work. Their charcoal fires are lit, their oil is heating, and the first batches of mahamri are being shaped and dropped into sizzling pans. The aroma of cardamom and coconut drifts across the town, mixing with woodsmoke and the salt air of the Indian Ocean. This is the smell of a coastal morning, and it is as reliable as the sunrise.",
+      "sw": "Siku katika pwani ya Wadigo inaanza na mikate ya kukaanga na kunde zilizochemshwa. Kabla jua la kitropiki halijajiimarisha, wauza vyakula vya mitaani tayari wanafanya kazi. Moto wao wa makaa umewashwa na mafuta yanachemka. Harufu ya iliki na nazi inaenea juu ya mji, ikichanganyika na moshi na hewa ya chumvi ya Bahari ya Hindi.",
+      "dg": "Siku kpwa pwani ya Adigo inaandza na mikahe ya kukalanga na mbalazi zirizochemushwa. Kabla ya dzoho ra dzuwa kukala ra nguvu, kabla ya avuvi kuuya na ng'onda ao, kabla ya shughuli za siku kuandza vinono, atu anaoguza vyakurya vya njira kare anahenda kazi. Moho wao wa makala ukaaka, mafuha ganakoza, na mahamri ga kpwandza ganaumbwa na kutiywa kahi ya sufuriya za mafuha ganagotseruka. Harufu ya iliki na nazi inaenea dzulu ya mudzi, ichitsanganyika na mosi wa kuni na phepho ya munyu ya Bahari ya Hindi. Ihi ni harufu ya ligundzu ya pwani, na inaaminika dza kutuluka kpwa dzuwa."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Street food in the Digo towns of Kwale County and neighbouring Mombasa is not a marginal tradition or a modern convenience. It is a fundamental part of the food culture, the way that a significant portion of the population eats breakfast and snacks throughout the day. The street food economy employs thousands of vendors, overwhelmingly women, who prepare and sell food from roadside stalls, market corners, and informal kiosks. For many of these women, street food vending is the primary source of household income — a demanding but independent livelihood that requires skill, stamina, and an intimate knowledge of what the community wants to eat.",
+      "sw": "Mahamri ni malkia wa vyakula vya mitaani vya pwani — vipande vya pembetatu vya unga uliokaangwa vilivyotengenezwa kwa unga wa ngano, tui, sukari, hamira, na iliki. Daima vinaunganishwa na mbaazi za nazi, na mchanganyiko huu unaunda kifungua kinywa cha pwani.",
+      "dg": "Vyakurya vya njira kpwa midzi ya Adigo ya Kaunti ya Kwale na Mombasa iriyo phephi si mila ya kanda wala chitu cha chisasa cha kurahisisha maisha. Ni seemu ya musingi ya utamaduni wa chakurya, njira ambayo atu anji nkurya chakurya cha ligundzu na vitafunio siku ndzima. Biashara ya vyakurya vya njira inapha kazi maelfu ga atu anaoguza, anji ao ni achetu, ambao anajita na kuguza chakurya kanda ya njira, pembe za soko, na vibanda vidide. Kpwa achetu anji kahi yao, kuguza vyakurya vya njira ndiyo njira kulu ya kuphaha pesa za nyumba — riziki ngumu ela ya uhuru, inayohitaji ufundi, nguvu, na kumanya vinono atu anachotaka kurya."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Mahamri: The Coastal Doughnut",
+      "sw": "Chapati ilifika pwani ya Afrika Mashariki kupitia karne za mawasiliano na India. Mkate wa kumimina — mkate \"uliyomiminiwa\" — umetengenezwa kwa unga wa mpunga, tui, na iliki. Vitumbua ni chapati ndogo za mviringo za mpunga zinazopikwa katika kalemu maalum. Kashata — pipi ya nazi — inawakilisha upande mtamu wa vyakula vya mitaani.",
+      "dg": "Mahamri: Maandazi ga Pwani"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Mahamri is the queen of Digo street food and arguably the single most iconic bread of the East African coast. These triangular pieces of fried dough are made from a batter of wheat flour, coconut milk, sugar, yeast, and ground cardamom — the spice that gives mahamri its unmistakable fragrance. The dough is kneaded until smooth, left to rise until doubled, then rolled out and cut into triangles that are deep-fried in hot oil until puffed and golden brown. The result is a bread that is simultaneously crisp on the outside and soft and slightly chewy within, sweet but not cloying, and perfumed with cardamom in every bite.",
+      "sw": "Vyakula vya chumvi — viazi karai, samosa, bajia, na mahindi choma — vinakamilisha ofa. Utamaduni wa vyakula vya mitaani ni taasisi ya kijamii na fursa muhimu ya kiuchumi kwa wanawake wa Wadigo, ukitoa uhuru na uwezo wa kupata mapato ndani ya jamii.",
+      "dg": "Mahamri ni malkia wa vyakurya vya njira vya Adigo, na kpwa atu anji ndio mkahe unaomanyikana zaidi wa pwani ya Afrika ya Mashariki. Vipande hivi vya pembetatu vya unga wa kukalanga vinatengezwa kpwa unga wa ngano, huwi ra nazi, sukari, hamira, na iliki iriyosagwa — chiungo chinachopha mahamri harufu yao ya chipekee. Unga nkukandwa hadi ukale laini, nkurichwa uvimbe hadi ukale mara mbiri, chisha nkusukumwa na kukatwa vipande vya pembetatu vinavyokalangwa kpwa mafuha ga moho hadi vivimbe na kukala na rangi ya zahabu. Matokeo ni mkahe ulio mkavu kondze na laini ndani, wa mtswano ela si wa mtswano mno, na wenye harufu ya iliki kpwa chila chipande."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Mahamri is always paired with mbaazi za nazi — pigeon peas simmered in coconut milk — and this combination constitutes the quintessential coastal breakfast. The sweetness of the mahamri plays against the savoury creaminess of the mbaazi, the crunch of the fried exterior gives way to the tender interior, and the cardamom fragrance mingles with the coconut and turmeric of the peas. It is a combination that has been refined over generations to achieve a balance that feels inevitable, as though these two dishes were always meant to be eaten together.",
+      "sw": "Mahamri daima huandamana na mbaazi za nazi — kunde zilizochemshwa katika tui — na mchanganyiko huu ndio kiamsha kinywa cha asili cha pwani. Utamu wa mahamri unachezana na ladha ya chumvi ya mbaazi zenye mafuta ya nazi, ukung'aru wa sehemu ya nje iliyokaangwa unatoa nafasi kwa sehemu ya ndani laini, na harufu ya iliki inachanganyika na nazi na manjano ya kunde. Ni mchanganyiko ambao umeboreshwa kwa vizazi ili kufikia usawa unaohisi kuwa wa lazima, kana kwamba vyakula hivi viwili vilikusudiwa kila wakati kuliwa pamoja.",
+      "dg": "Mahamri chila mara ganaandamana na mbaazi za nazi — mbalazi zirizochemushwa kpwa huwi — na vyakurya hivi viiri phamwenga ndivyo chakurya cha ligundzu cha asili cha pwani. Mtswano wa mahamri unachezana na ladha ya munyu ya mbalazi zenye mafuha ga nazi, ukavu wa seemu ya kondze iriyokalangwa unaricha nafasi kpwa seemu ya ndani laini, na harufu ya iliki inatsanganyika na nazi na mandano ga mbalazi. Ni mtsanganyiko uriotengezwa vinono kpwa vivyazi ili kuphaha usawa unaoonekana kukala ni wa lazima, dza kukala vyakurya hivi viiri chila mara vyalondwa kuriwa phamwenga."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The making of good mahamri is a matter of pride among Digo women. The quality of the dough — its lightness, its cardamom intensity, its ability to puff properly in the oil — is a measure of cooking skill that is taken seriously. A vendor known for excellent mahamri will have a loyal following, customers who pass other stalls to reach hers, and her reputation in the community will reflect the quality of her craft. Mahamri is not merely food. It is a daily performance of culinary competence.",
+      "sw": "Kutengeneza mahamri mazuri ni suala la fahari miongoni mwa wanawake wa Kidigo. Ubora wa unga — wepesi wake, nguvu ya iliki yake, uwezo wake wa kuvimba vizuri katika mafuta — ni kipimo cha ustadi wa kupika kinachochukuliwa kwa uzito. Muuzaji anayejulikana kwa mahamri bora atakuwa na wateja waaminifu, wateja wanaopita vibanda vingine kumfikia, na sifa yake katika jamii itaonyesha ubora wa ufundi wake. Mahamri si chakula tu. Ni utendaji wa kila siku wa ustadi wa upishi.",
+      "dg": "Kutengeza mahamri manono ni dzambo ra fahari kahi ya achetu a Chidigo. Ubora wa unga — wepesiwe, nguvu ya ilikiye, uwezowe wa kuvimba vinono kpwa mafuha — ni chipimo cha ufundi wa kujita ambacho atu anachiona kukala dzambo kulu. Mchetu anayeguza mahamri manono andakala na ateja aaminifu, ateja anaotsupa vibanda vyanjina ili kumfikira, na sifaye kahi ya jamii indaonyesa ubora wa ufundiwe. Mahamri si chakurya bahi. Ni njira ya chila siku ya kuonyesa ufundi wa kujita."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "Chapati: The Indian Ocean Inheritance",
+      "sw": "Chapati: Urithi wa Bahari ya Hindi",
+      "dg": "Chapati: Urithi wa Bahari ya Hindi"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Chapati arrived on the East African coast through the centuries of contact with the Indian subcontinent that shaped so much of coastal culture. This unleavened flatbread, made from wheat flour, water, oil, and salt, is rolled thin, coiled, re-rolled to create flaky layers, and cooked on a flat griddle with oil until golden brown and slightly crisp. The technique is recognisably Indian in origin, but the coastal version has developed its own character — slightly thicker than its South Asian ancestor, more generously oiled, and often served in contexts that would be unfamiliar in India.",
+      "sw": "Chapati ilifika pwani ya Afrika Mashariki kupitia karne nyingi za mawasiliano na bara la Hindi ambalo liliumba sehemu kubwa ya utamaduni wa pwani. Mkate huu tambarare usio na chachu, unaotengenezwa kwa unga wa ngano, maji, mafuta, na chumvi, unasukwa nyembamba, unakunjwa, unasukwa tena kuunda tabaka zinazomeguka, na kupikwa kwenye kikaango tambarare na mafuta hadi kuwa na rangi ya dhahabu na kukakamaa kidogo. Mbinu hii inatambulikana kuwa ya asili ya Kihindi, lakini toleo la pwani limeendeleza tabia yake yenyewe — nene kidogo kuliko babu yake wa Asia ya Kusini, lina mafuta zaidi, na mara nyingi linahudumiwa katika muktadha ambao ungekuwa wa kushangaza India.",
+      "dg": "Chapati yakpwedza pwani ya Afrika ya Mashariki kpwa njira ya miaka mia minji ya mahusiano na India, ambako kukaumba seemu kulu ya utamaduni wa pwani. Mkahe uhu tambarare usio na hamira, unaotengezwa kpwa unga wa ngano, madzi, mafuha, na munyu, nkusukumwa ukale mwembamba, nkukundzwa, nkusukumwa luphya ili kuumba matabaka ganagomeguka, na kujitwa dzulu ya chikalango tambarare na mafuha hadi ukale na rangi ya zahabu na mkavu chidide. Njira ihi inamanyikana kukala ni ya asili ya Chihindi, ela chapati ya pwani ina tabiyaye yenye — nene chidide kuriko ya Asia ya Kusini, yenye mafuha manji zaidi, na mara nyinji inariwa kpwa njira ambazo zingeonekana za ajabu India."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "On the Digo coast, chapati serves as an accompaniment to curries and stews, an alternative to rice or ugali that is particularly popular at evening meals. It is torn by hand and used to scoop up the mchuzi wa nazi, the pieces of stewed meat, the sauces and gravies that constitute the flavourful heart of the meal. Chapati is also a celebration bread, prepared in large quantities for weddings and Eid gatherings, where its presence on the table signals abundance and generosity. The skill of making perfect chapati — achieving the layered flakiness, the golden colour, the tender chew — is another marker of domestic competence in Digo households.",
+      "sw": "Katika pwani ya Wadigo, chapati hutumika kama mwandamano wa mchuzi na kitoweo, mbadala wa wali au ugali ambao ni maarufu hasa wakati wa chakula cha jioni. Inararuliwa kwa mkono na kutumika kuchota mchuzi wa nazi, vipande vya nyama iliyotokoswa, na mchuzi unaotoa ladha ya moyo wa mlo. Chapati pia ni mkate wa sherehe, unaoandaliwa kwa wingi kwa harusi na mikusanyiko ya Idi, ambapo uwepo wake mezani unaashiria wingi na ukarimu. Ustadi wa kutengeneza chapati kamili — kufikia tabaka zinazomeguka, rangi ya dhahabu, na utamu wa kutafuna — ni alama nyingine ya ustadi wa nyumbani katika nyumba za Wadigo.",
+      "dg": "Kpwa pwani ya Adigo, chapati inariwa phamwenga na mtsuzi na chitoweo, badala ya wali au sima, na inamendwa zaidi kpwa chakurya cha dziloni. Inakpwanyulwa kpwa mkpwono na kuhumirwa kuhala mtsuzi wa nazi, vipande vya nyama iriyookohwa, na mtsuzi unaopha chakurya ladhaye. Chapati piya ni mkahe wa sherehe, unaojitwa kpwa unji kpwa arusi na mikutano ya Idi, ambapho kukala kpwakpwe mezani kunaonyesa unji na ukarimu. Ufundi wa kujita chapati kamili — kuphaha matabaka ganagomeguka, rangi ya zahabu, na ulaini wa kuafuna — ni alama yanjina ya ufundi wa nyumbani kpwa nyumba za Adigo."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Mkate wa Kumimina: The Poured Bread",
+      "sw": "Mkate wa Kumimina: Mkate Unaomiminiwa",
+      "dg": "Mkate wa Kumimina: Mkahe wa Kumiminwa"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Mkate wa kumimina — literally \"poured bread,\" also known as mkate wa sinia (\"tray bread\") — is one of the most distinctive baked goods of the Swahili coast. It is a naturally gluten-free preparation made from rice flour, coconut milk, sugar, yeast, and cardamom, mixed into a thin batter that is poured into a hot, oiled tray and baked until set. The name describes the method: the batter is too liquid to be shaped by hand, so it is poured — kumimina — into its vessel, where it transforms in the heat into a spongy, slightly sweet bread with a golden top and a moist, tender crumb.",
+      "sw": "Mkate wa kumimina — kwa maana halisi \"mkate unaomiminiwa,\" pia unajulikana kama mkate wa sinia — ni mojawapo ya bidhaa za kuoka za kipekee zaidi za pwani ya Kiswahili. Ni maandalizi yasiyo na gluteni kiasili yanayotengenezwa kwa unga wa mchele, tui, sukari, hamira, na iliki, yaliyochanganywa kuwa uji mwembamba unaomiminiwa kwenye sinia ya moto iliyopakwa mafuta na kuokwa hadi uimae. Jina linaeleza mbinu: uji ni wa majimaji mno kushikiliwa kwa mkono, kwa hivyo unamiminiwa — kumimina — katika chombo chake, ambapo unabadilika katika joto kuwa mkate wa sifongo, tamu kidogo, wenye uso wa dhahabu na ndani laini yenye unyevu.",
+      "dg": "Mkate wa kumimina — kpwa mana halisi \"mkahe wa kumiminwa,\" ambao piya unamanyikana dza mkate wa sinia (\"mkahe wa siniya\") — ni chimwenga cha vyakurya vya kuokwa vya chipekee zaidi vya pwani ya Chiswahili. Ni chakurya chisicho na gluteni chiasili, chinachotengezwa kpwa unga wa mtele, huwi, sukari, hamira, na iliki, vinavyotsanganywa kukala udzi mwembamba unaomiminwa kahi ya siniya ya moho iriyopakpwa mafuha na kuokwa hadi ugande. Dzina rinaeleza njira: udzi ni wa madzi-madzi mno kugbwirwa kpwa mkpwono, kpwa hivyo unamiminwa — kumimina — kahi ya chomboche, ambako unagaluka kpwa moho kukala mkahe wa sifongo, wa mtswano chidide, wenye uso wa zahabu na ndani laini ya unyevu."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Mkate wa kumimina occupies an interesting cultural position. It is festive enough to appear at celebrations and special occasions — weddings, Eid, community gatherings — but simple enough to be prepared at home for an everyday treat. Its rice flour base connects it to the grain traditions of the coast, while its coconut milk and cardamom link it to the broader flavour palette that defines Digo baking. The bread is typically cut into wedges or squares and served alongside tea, though it is also eaten as a snack on its own.",
+      "sw": "Mkate wa kumimina unashika nafasi ya kitamaduni ya kuvutia. Una sherehe ya kutosha kuonekana katika maadhimisho na matukio maalum — harusi, Idi, mikusanyiko ya jamii — lakini ni rahisi wa kutosha kuandaliwa nyumbani kama vitamu vya kila siku. Msingi wake wa unga wa mchele unaunganisha na mila za nafaka za pwani, huku tui na iliki yake ikiunganisha na paleti pana ya ladha inayofafanua uokaji wa Kidigo. Mkate huu kwa kawaida hukatwa katika vipande vya pembetatu au vinne na kuhudumiwa pamoja na chai, ingawa pia huliwa peke yake kama vitafunio.",
+      "dg": "Mkate wa kumimina una nafasi ya kuhamira kahi ya utamaduni. Ni wa sherehe chiasi cha kuonekana kpwa sherehe na matukio maalum — arusi, Idi, mikutano ya jamii — ela ni rahisi chiasi cha kujitwa nyumbani dza chakurya cha mtswano cha chila siku. Musingiwe wa unga wa mtele unauunganisha na mila za nafaka za pwani, hiku huwi na ilikiye vinauunganisha na ladha nyinji zinazotambulisha kuoka kpwa Adigo. Mkahe uhu kpwa kawaida nkukatwa vipande vya pembetatu au vya mraba na kuriwa phamwenga na chai, dzagbwe piya nkuriwa macheye dza chitafunio."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Vitumbua: Rice Pancakes",
+      "sw": "Vitumbua: Maandazi ya Mchele",
+      "dg": "Vitumbua: Maandazi ga Mtele"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Vitumbua are small, round rice pancakes cooked in a special cast-iron mold with hemispherical depressions — a utensil so distinctive that it is itself a marker of a coastal kitchen. The batter is made from ground rice, coconut milk, sugar, and yeast, fermented until bubbly and slightly sour, then spooned into the oiled depressions of the hot mold. The vitumbua cook until golden on the bottom, then are flipped to finish on the other side, producing plump little cakes that are crisp on the exterior and soft and slightly tangy within.",
+      "sw": "Vitumbua ni maandazi madogo, ya mviringo ya mchele yanayopikwa katika kalimba maalum ya chuma ya kutupwa yenye mashimo ya nusu duara — chombo cha kipekee kiasi kwamba chenyewe ni alama ya jikoni ya pwani. Uji unatengenezwa kwa mchele uliosagwa, tui, sukari, na hamira, ukichachishwa hadi kutoa viputo na kuwa na ladha ya siki kidogo, kisha ukishukuliwa kwa kijiko katika mashimo yaliyopakwa mafuta ya kalimba ya moto. Vitumbua vinapikwa hadi kuwa na rangi ya dhahabu chini, kisha vinageuzwa kumalizika upande mwingine, na kutoa keki ndogo nene ambazo ni kakamavu nje na laini na ladha ya siki kidogo ndani.",
+      "dg": "Vitumbua ni maandazi madide ga mviringo ga mtele ganagojitwa kpwa chombo maalum cha chuma chenye mashimo ga nusu duara — chombo cha chipekee chiasi kpwamba chenye ni alama ya dziko ra pwani. Udzi nkutengezwa kpwa mtele uriosagwa, huwi, sukari, na hamira, nkurichwa uvimbe hadi ulavye viputo na kukala na ngbwadu chidide, chisha nkutiywa kpwa chijiko kahi ya mashimo garigopakpwa mafuha ga chombo cha moho. Vitumbua nkujitwa hadi vikale na rangi ya zahabu photsi, chisha nkugaluzwa ili vijitwe uphande wanjina, na kulavya keki ndide nene ambazo ni nkavu kondze na laini na za ngbwadu chidide ndani."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Vitumbua are an afternoon and evening snack, often sold alongside other street foods in the late afternoon when the heat of the day begins to ease. They are simpler and less sweet than mahamri, more of a casual nibble than a substantial breakfast, but their coconut-rice flavour and their distinctive texture have earned them an enduring place in the coastal snack repertoire. Like mahamri, they require the fresh coconut milk that is the foundation of coastal baking, and their quality depends on the skill with which the batter is fermented and the mold is managed.",
+      "sw": "Vitumbua ni vitafunio vya alasiri na jioni, mara nyingi vinauzwa pamoja na vyakula vingine vya mitaani alasiri wakati joto la mchana linapoanza kupungua. Ni rahisi zaidi na havitamu kama mahamri, ni vitafunio vya kawaida zaidi kuliko kiamsha kinywa kikubwa, lakini ladha yake ya nazi-mchele na muundo wake wa kipekee vimevipa nafasi ya kudumu katika orodha ya vitafunio vya pwani. Kama mahamri, vinahitaji tui safi ambao ni msingi wa uokaji wa pwani, na ubora wake unategemea ustadi wa kuchachisha uji na kusimamia kalimba.",
+      "dg": "Vitumbua ni vitafunio vya mutsi na dziloni, mara nyinji vinaguzwa phamwenga na vyakurya vyanjina vya njira dziloni wakati dzoho ra mutsi rinaphoandza kuphungula. Ni rahisi zaidi na tavina mtswano dza mahamri, ni vitafunio vya kawaida zaidi kuriko chakurya chikulu cha ligundzu, ela ladha yao ya nazi na mtele na muundo wao wa chipekee vikavipha nafasi ya kudumu kahi ya vitafunio vya pwani. Dza mahamri, vinahitaji huwi rinarohendwa phapho ambaro ni musingi wa kuoka kpwa pwani, na ubora wao unakuluphira ufundi wa kuvimbisa udzi na kuimirira chombo."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Kashata and the Sweet Tradition",
+      "sw": "Kashata na Mila ya Utamu",
+      "dg": "Kashata na Mila ya Mtswano"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Kashata — coconut candy — represents the sweet end of the Digo street food spectrum. Made from grated coconut cooked with sugar until the mixture caramelizes and hardens, kashata is sold in small pieces wrapped in paper or plastic, a portable sweet that children buy with pocket money and adults enjoy as an after-meal treat. The simplicity of the recipe — essentially just coconut and sugar — belies the skill required to cook it properly: the caramelization must be taken far enough to produce a satisfying crunch without burning the coconut, a narrow window that separates success from failure.",
+      "sw": "Kashata — pipi ya nazi — inawakilisha upande wa utamu wa aina za vyakula vya mitaani vya Wadigo. Inatengenezwa kwa nazi iliyokunwa ikipikwa na sukari hadi mchanganyiko unakaramelika na kuwa mgumu, kashata inauzwa katika vipande vidogo vilivyofungwa kwa karatasi au plastiki, tamu ya kubebeka ambayo watoto wananunua kwa pesa ya mfukoni na watu wazima wanafurahia kama kitamu cha baada ya mlo. Urahisi wa mapishi — kimsingi nazi na sukari tu — unaficha ustadi unaohitajika kuipika vizuri: ukaramelishaji lazima upelekwe mbali ya kutosha kutoa ukakamavu wa kuridhisha bila kuunguza nazi, pengo finyu linalotenganisha mafanikio na kushindwa.",
+      "dg": "Kashata — pipi ya nazi — ndiyo uphande wa mtswano wa vyakurya vya njira vya Adigo. Inatengezwa kpwa nazi iriyokunwa ichijitwa na sukari hadi sukari inagaluka rangi na kukala ngumu, chisha kashata inaguzwa kpwa vipande vidide virivyofungwa kpwa karatasi au plastiki, chitu cha mtswano cha kutsukula ambacho ana anachigula kpwa pesa zao za mfukoni na atu akulu anachifurahia bada ya chakurya. Urahisi wa kuijita — kpwa musingi nazi na sukari bahi — unafwitsa ufundi unaohitajika kuijita vinono: sukari ni lazima ijitwe hadi ikale ngumu bila kuocha nazi, nafasi ndide inayoganya kufaulu na kushindwa."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The broader sweet tradition of the Digo coast reflects the Islamic cultural heritage of the community. Kaimati — sweet dumplings fried and soaked in sugar syrup — are essential for Eid celebrations. Visheti, delicate Eid pastries, require patient preparation and skilled technique. Halwa, the aromatic confection of Arabic origin made from sugar, ghee, and spices, appears at the most formal occasions. Tambi — vermicelli cooked with cardamom and sugar — serves as a dessert at celebrations. These sweets connect the Digo to the broader Indian Ocean Islamic world, a culinary kinship that stretches from the coast of East Africa to the Gulf States and beyond.",
+      "sw": "Mila pana ya utamu ya pwani ya Wadigo inaonyesha urithi wa kitamaduni wa Kiislamu wa jamii. Kaimati — vidonge vitamu vinavyokaangwa na kulowekwa katika sharubati ya sukari — ni muhimu kwa sherehe za Idi. Visheti, keki laini za Idi, zinahitaji maandalizi ya uvumilivu na mbinu ya ustadi. Halwa, utamu wa harufu nzuri wa asili ya Kiarabu unaotengenezwa kwa sukari, siagi, na viungo, unaonekana katika matukio rasmi zaidi. Tambi — tambi iliyopikwa na iliki na sukari — hutumika kama kitindamlo katika sherehe. Vitamu hivi vinawaunganisha Wadigo na ulimwengu mpana wa Kiislamu wa Bahari ya Hindi, undugu wa upishi unaoenea kutoka pwani ya Afrika Mashariki hadi Nchi za Ghuba na zaidi.",
+      "dg": "Mila pana ya mtswano ya pwani ya Adigo inaonyesa urithi wa chisomo wa Chiislamu wa jamii. Kaimati — vidonge vya mtswano vinavyokalangwa na kulowekpwa kpwa sharubati ya sukari — ni muhimu kpwa sherehe za Idi. Visheti, keki laini za Idi, zinahitaji kujitwa kpwa subira na ufundi. Halwa, chakurya cha mtswano chenye harufu nono cha asili ya Chiarabu, chinachotengezwa kpwa sukari, samli, na viungo, nkuonekana kpwa matukio rasmi zaidi. Tambi — tambi zirizojitwa na iliki na sukari — nkuriwa dza chitindamlo kpwa sherehe. Vyakurya hivi vya mtswano vinaunganisha Adigo na dunia pana ya Chiislamu ya Bahari ya Hindi, undugu wa chakurya unaoenea kula pwani ya Afrika ya Mashariki hadi Tsi za Ghuba na kure zaidi."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Viazi Karai and the Savoury Side",
+      "sw": "Viazi Karai na Upande wa Chumvi",
+      "dg": "Viazi Karai na Uphande wa Munyu"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Not all street food is sweet. Viazi karai — battered and deep-fried potatoes — is one of the most popular savoury snacks in the coastal towns. Potato pieces are dipped in a spiced gram flour batter and fried until golden and crisp, producing a snack that is simultaneously crunchy, soft, and warmly spiced. Samosas, the triangular pastries filled with spiced potatoes, peas, or minced meat, are ubiquitous — sold at every market stall and street corner, eaten at every time of day. Bajia, spiced lentil fritters, and mahindi choma, roasted maize on the cob seasoned with lime and chili, complete the savoury offerings.",
+      "sw": "Vyakula vyote vya mitaani si vitamu. Viazi karai — viazi vilivyochovywa katika uji wa unga wa dengu wenye viungo na kukaangwa kwa mafuta mengi — ni mojawapo ya vitafunio maarufu zaidi vya chumvi katika miji ya pwani. Vipande vya viazi vinachovywa katika uji wa unga wa dengu wenye viungo na kukaangwa hadi kuwa na rangi ya dhahabu na kukakamaa, na kutoa kitafunio ambacho kwa wakati mmoja ni kakamavu, laini, na chenye viungo vya joto. Samosa, keki za pembetatu zilizojazwa viazi vyenye viungo, mbaazi, au nyama iliyosagwa, zinapatikana kila mahali — zinauzwa kila duka la soko na kila kona ya barabara, zinaliwa wakati wowote wa siku. Bajia, vidonge vya dengu vyenye viungo, na mahindi choma, mahindi ya kubanika yanayotiwa ndimu na pilipili, vinakamilisha ofa za chumvi.",
+      "dg": "Vyakurya vyosi vya njira si vya mtswano. Viazi karai — viazi virivyochovywa kpwa udzi wa unga wa dengu wenye viungo na kukalangwa kpwa mafuha manji — ni chimwenga cha vitafunio vya munyu vinavyomendwa zaidi kpwa midzi ya pwani. Vipande vya viazi nkuchovywa kpwa udzi wa unga wa dengu wenye viungo na kukalangwa hadi vikale na rangi ya zahabu na nkavu, na kulavya chitafunio ambacho kpwa wakati mmwenga ni chikavu, laini, na chenye viungo. Samosa, keki za pembetatu zirizojazwa viazi vyenye viungo, mbalazi, au nyama iriyosagwa, zinaphahikana chila phatu — zinaguzwa chila duka ra soko na chila kona ya njira, na zinariwa wakati wowosi wa siku. Bajia, vidonge vya dengu vyenye viungo, na mahindi choma, mapemba ga kuwadwa ganagotiywa ndimu na pilipili, vinamaliza vyakurya vya munyu."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "These savoury street foods share a common characteristic: they are inexpensive, portable, and deeply satisfying. They are the food of the marketplace and the bus stop, the afternoon pick-me-up and the late-night snack. They are democratic in the truest sense — available to everyone, enjoyed by everyone, and judged not by their sophistication but by their execution. A perfectly fried viazi karai from a trusted vendor is a small pleasure that costs almost nothing and delivers almost everything.",
+      "sw": "Vyakula hivi vya mitaani vya chumvi vinashiriki tabia moja: ni rahisi bei, vinabebeka, na vinaridhisha sana. Ni chakula cha soko na kituo cha basi, kitu cha kuamsha alasiri na kitafunio cha usiku. Ni vya kidemokrasia kwa maana halisi — vinapatikana kwa kila mtu, vinafurahiwa na kila mtu, na vinahukumiwa si kwa ustaarabu wake bali kwa utekelezaji wake. Viazi karai vilivyokaangwa vizuri kutoka kwa muuzaji anayeaminika ni raha ndogo inayogharimu karibu kitu na kutoa karibu kila kitu.",
+      "dg": "Vyakurya hivi vya njira vya munyu vina tabiya mwenga: ni rahisi bei, vinatsukulika, na vinaridhisha sana. Ni chakurya cha soko na chituo cha basi, chitu cha kupha nguvu dziloni na chitafunio cha usiku. Ni vya atu osi kpwa mana halisi — vinaphahikana kpwa chila mutu, vinamendwa ni chila mutu, na nkupimwa si kpwa urembo wao ela kpwa vira vinavyojitwa. Viazi karai virivyokalangwa vinono kula kpwa mutu anayeguza anayeaminika ni raha ndide isiyogula chitu phephi, na inayopha phephi chila chitu."
+    },
+    {
+      "id": "b023",
+      "type": "heading",
+      "en": "The Culture of the Street",
+      "sw": "Utamaduni wa Mitaani",
+      "dg": "Utamaduni wa Njira"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "Street food culture on the Digo coast is more than an economic activity or a convenience. It is a social institution, a daily gathering point where community life is performed and renewed. The morning mahamri vendor knows her customers by name, knows their preferences, knows the rhythms of their lives. The afternoon viazi karai seller is a fixture of the neighbourhood, a reliable presence whose charcoal fire and sizzling oil mark the passage of the afternoon. These vendors are not anonymous providers of calories. They are members of the community, their stalls are informal meeting places, and the act of buying and eating street food is itself a form of social participation.",
+      "sw": "Utamaduni wa vyakula vya mitaani katika pwani ya Wadigo ni zaidi ya shughuli ya kiuchumi au urahisi. Ni taasisi ya kijamii, sehemu ya kukusanyika ya kila siku ambapo maisha ya jamii yanafanywa na kuhuishwa upya. Muuzaji wa mahamri wa asubuhi anajua wateja wake kwa jina, anajua mapendekezo yao, anajua midundo ya maisha yao. Muuzaji wa viazi karai wa alasiri ni sehemu ya kudumu ya mtaa, uwepo wa kuaminika ambao moto wake wa mkaa na mafuta yanayochachacha yanaashiria kupita kwa alasiri. Wauzaji hawa si watoa kalori wasiojulikana. Ni wanajamii, vibanda vyao ni sehemu zisizo rasmi za kukutana, na kitendo cha kununua na kula vyakula vya mitaani chenyewe ni aina ya kushiriki kijamii.",
+      "dg": "Utamaduni wa vyakurya vya njira kpwa pwani ya Adigo ni zaidi ya shughuli ya chiuchumi au urahisi. Ni taasisi ya chijamii, phatu pha kukusanyika pha chila siku ambapho maisha ga jamii ganaonyeswa na kuhendwa maphya. Mchetu anayeguza mahamri ligundzu anaamanya atejae kpwa madzina, anamanya gara anagogamendza, anamanya midundo ya maisha gao. Mutu anayeguza viazi karai dziloni ni seemu ya kudumu ya mtaa, mutu anayeaminika ambaye mohowe wa makala na mafuha ganagotseruka ganaonyesa kutsupa kpwa dziloni. Hara anaoguza si atu asiomanyikana anaopha atu chakurya bahi. Ni atu a jamii, vibanda vyao ni phatu atu anaphokutana bila urasmi, na kugula na kurya vyakurya vya njira kpwenye ni njira ya kushiriki maisha ga jamii."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The street food tradition also represents one of the most important economic opportunities available to Digo women. In a society where formal employment opportunities for women are limited, street food vending offers independence, flexibility, and the ability to generate income while remaining embedded in the community. The skills required — knowledge of recipes, mastery of cooking techniques, understanding of customer preferences, management of inventory and finances — constitute a form of entrepreneurial expertise that is passed from mother to daughter, from experienced vendor to apprentice, in an informal but effective system of economic education.",
+      "sw": "Mila ya vyakula vya mitaani pia inawakilisha mojawapo ya fursa muhimu zaidi za kiuchumi zinazopatikana kwa wanawake wa Kidigo. Katika jamii ambapo fursa rasmi za ajira kwa wanawake ni chache, kuuza vyakula vya mitaani kunatoa uhuru, kubadilika, na uwezo wa kupata kipato huku ukibaki umeshikamana na jamii. Ustadi unaohitajika — ujuzi wa mapishi, umilisi wa mbinu za kupika, uelewa wa mapendekezo ya wateja, usimamizi wa bidhaa na fedha — unaunda aina ya utaalamu wa ujasiriamali unaopitishwa kutoka mama hadi binti, kutoka muuzaji mwenye uzoefu hadi mwanafunzi, katika mfumo usio rasmi lakini wenye ufanisi wa elimu ya kiuchumi.",
+      "dg": "Mila ya vyakurya vya njira piya ni fursa mwenga kahi ya fursa muhimu zaidi za chiuchumi zinazophahikana kpwa achetu a Chidigo. Kpwa jamii ambayo fursa rasmi za kazi kpwa achetu ni chache, kuguza vyakurya vya njira kunapha uhuru, nafasi ya kugaluza mambo, na uwezo wa kuphaha pesa hiku achisala phamwenga na jamii. Ufundi unaohitajika — kumanya mapishi, ujuzi wa kujita, kumanya gara ateja anagogamendza, kuimirira bidhaa na pesa — ni aina ya ujuzi wa biashara unaotsapizwa kula kpwa mayo hadi mwanawe mchetu, kula kpwa mutu anayeguza mwenye uzoefu hadi mwanafundzi, kpwa mfumo usio rasmi ela unaohenda kazi vinono wa elimu ya chiuchumi."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "kayas",
+    "title": {
+      "en": "Sacred Kayas",
+      "sw": "Makaya Matakatifu",
+      "dg": "Makaya Matakatifu"
+    },
+    "intro": {
+      "en": "The kayas are the heart of Mijikenda civilisation. For centuries, these sacred forest clearings in the hills and ridges of the Kenya coast served as fortified settlements, spiritual sanctuaries, and…",
+      "sw": "Makaya ni moyo wa ustaarabu wa Mijikenda. Kwa karne nyingi, viwanja hivi vya misitu mitakatifu katika milima na miinuko ya pwani ya Kenya vilitumika kama makazi yenye ngome, hifadhi za kiroho, na…",
+      "dg": "Makaya ni moyo wa ustaarabu wa Amijikenda. Kpwa karne nyinji, viwanja hivi vya matsaka matakatifu kpwenye miango na miinuko ya pwani ya Kenya vyahumirwa dza makalo genye ngome, hifadhi za…"
+    },
+    "proverb": "Muhi mmwenga tauhenda tsaka",
+    "proverbGloss": "One tree does not make a forest",
+    "topics": [
+      "governance",
+      "kaya-kinondo",
+      "threats",
+      "what-is-a-kaya"
+    ]
+  },
+  {
+    "slug": "religion",
+    "title": {
+      "en": "Religion and Spirituality",
+      "sw": "Dini na Mambo ya Kiroho",
+      "dg": "Dini na Mambo ga Chiroho"
+    },
+    "intro": {
+      "en": "Among the nine Mijikenda peoples of the Kenya coast, the Digo occupy a singular religious position. They are the only predominantly Muslim group — approximately 99 percent of the Digo identify as…",
+      "sw": "Miongoni mwa makabila tisa ya Wamijikenda wa pwani ya Kenya, Wadigo wanashikilia nafasi ya kipekee ya kidini. Wao ndio kundi pekee lenye Waislamu wengi — takriban asilimia 99 ya Wadigo…",
+      "dg": "Kahi ya makabila tisiya ga Amijikenda ga pwani ya Kenya, Adigo ana nafwasi ya chipekee ya chidini. Ao ndio kundi rimwenga tu renye Aislamu anji — kama asilimia tisini na tisiya ya Adigo…"
+    },
+    "proverb": "Mulungu kamanyika kwa macho, anamanyika kwa mahendo",
+    "proverbGloss": "God is not known by sight, but by deeds",
+    "topics": [
+      "coexistence",
+      "digonized-islam",
+      "islamization",
+      "spirit-world"
+    ]
+  },
+  {
+    "slug": "music",
+    "title": {
+      "en": "Music and Dance",
+      "sw": "Muziki na Ngoma",
+      "dg": "Muziki na Ngoma"
+    },
+    "intro": {
+      "en": "Music among the Digo is not entertainment set apart from life. It is life's accompaniment at every threshold — the drum that summons the community to ceremony, the flute that sounds at dawn to…",
+      "sw": "Muziki miongoni mwa Wadigo si burudani iliyotengwa na maisha. Ni mwandamizi wa maisha katika kila kizingiti — ngoma inayoita jamii kwa sherehe, filimbi inayopigwa alfajiri kutangaza kwamba kitu…",
+      "dg": "Muziki kahi ya Adigo si burudani iriyotengwa na maisha. Ni mwandamizi wa maisha kpwa chila hatua — ngoma inayoiha jamii kpwa sherehe, firimbi inayopigwa ligundzu kutangaza kukala chitu chitakatifu…"
+    },
+    "proverb": "Ngoma ikipigwa, magulu ganadzimanya",
+    "proverbGloss": "When the drum is beaten, the feet know themselves",
+    "topics": [
+      "ceremonial-contexts",
+      "chakacha",
+      "instruments",
+      "sengenya"
+    ]
+  },
+  {
+    "slug": "food",
+    "title": {
+      "en": "Food and Cuisine",
+      "sw": "Chakula na Mapishi",
+      "dg": "Chakurya na Kujita"
+    },
+    "intro": {
+      "en": "The cuisine of the Digo people is one of the most distinctive on the East African coast, shaped by centuries of interaction between Bantu agricultural traditions, Arab and Persian spice routes, and…",
+      "sw": "Mapishi ya Wadigo ni moja ya mapishi ya kipekee zaidi katika pwani ya Afrika Mashariki, yaliyoundwa na karne za mwingiliano kati ya mila za kilimo za Kibantu, njia za viungo za Kiarabu na Kiajemi, na…",
+      "dg": "Kujita kpwa Adigo ni chimwenga cha vyakurya vya chipekee zaidi kpwa pwani ya Afrika ya Mashariki, chirichoumbwa ni miaka minji ya mahusiano kahi ya mila za chirimo za Chibantu, njira za viungo za Chiarabu,…"
+    },
+    "proverb": "Mvula igodzwa na utseru",
+    "proverbGloss": "The rain is waited for with a cleared plot",
+    "topics": [
+      "breads-and-street-food",
+      "coconut-cooking",
+      "fish",
+      "staples"
+    ]
+  },
+  {
+    "slug": "dress",
+    "title": {
+      "en": "Dress and Textiles",
+      "sw": "Mavazi na Vitambaa",
+      "dg": "Nguwo na Vitambara"
+    },
+    "intro": {
+      "en": "Digo dress is not merely clothing. It is a language spoken through fabric, color, and adornment — a system of visual communication that marks identity, status, spiritual state, and the passage through…",
+      "sw": "Mavazi ya Wadigo si nguo tu. Ni lugha inayozungumzwa kupitia kitambaa, rangi, na mapambo — mfumo wa mawasiliano ya kuona unaotambulisha utambulisho, hadhi, hali ya kiroho, na kupita kwa hatua za…",
+      "dg": "Kuvwala kpwa Adigo si nguwo bahi. Ni luga inayogombwa kpwa chitambara, rangi, na mapambo — mfumo wa mawasiliano ga kuona unaoonyesa utambulisho, hadhi, hali ya chiroho, na kutsupa kpwa hatua za…"
+    },
+    "proverb": "Mutu ni nguwo",
+    "proverbGloss": "A person is their clothing",
+    "topics": [
+      "color-and-meaning",
+      "contemporary-revival",
+      "hando",
+      "kanga"
+    ]
+  },
+  {
+    "slug": "crafts",
+    "title": {
+      "en": "Crafts & Architecture",
+      "sw": "Ufundi na Ujenzi",
+      "dg": "Ufundi na Kudzenga"
+    },
+    "intro": {
+      "en": "The material culture of the Digo people is shaped by the same forces that have defined their history: the coastal environment that provides their raw materials, the centuries of Indian Ocean trade…",
+      "sw": "Utamaduni wa mali ya Wadigo umeundwa na nguvu zile zile zilizofafanua historia yao: mazingira ya pwani yanayotoa malighafi, karne za biashara ya Bahari ya Hindi zilizoleta mbinu na urembo mpya, na…",
+      "dg": "Chimila cha mali ya Adigo chikaundwa ni nguvu zizo-zizo zirizofafanua historia yao: mazingira ga pwani ganagoreha vitu vya musingi, karne nyinji za biashara ya Bahari ya Hindi iriyoreha mbinu na urembo muphya, na miundo…"
+    },
+    "proverb": "Fundi ni kazi yakpwe",
+    "proverbGloss": "A craftsman is known by their work",
+    "topics": [
+      "pottery",
+      "settlement-patterns",
+      "swahili-influences",
+      "traditional-construction"
+    ]
+  },
+  {
+    "slug": "society",
+    "title": {
+      "en": "Social Organization",
+      "sw": "Mpangilio wa Kijamii",
+      "dg": "Mpangilio wa Chijamii"
+    },
+    "intro": {
+      "en": "The Digo organise their world through a system of overlapping loyalties — to clan, to family, to age-set, to kaya, and to faith — that produces a social architecture unlike any other on the East…",
+      "sw": "Wadigo wanapanga ulimwengu wao kupitia mfumo wa uaminifu unaoingiliana — kwa ukoo, kwa familia, kwa rika, kwa kaya, na kwa imani — unaozalisha muundo wa kijamii tofauti na wowote mwingine kwenye pwani…",
+      "dg": "Adigo anapanga dunia yao kutsupira mfumo wa kuamini makundi manji ganayoingiliana — ukoo, mbari, rika, kaya, na imani — unaoreha muundo wa chijamii usiohalana na wowosi wanjina kpwa…"
+    },
+    "proverb": "Mlatso tauchimbirana wala taurichana",
+    "proverbGloss": "Blood does not run from itself nor forsake itself",
+    "topics": [
+      "fuko-system",
+      "islamic-law-tensions",
+      "matrilineal-inheritance",
+      "mjomba"
+    ]
+  },
+  {
+    "slug": "rites",
+    "title": {
+      "en": "Rites of Passage",
+      "sw": "Mila za Kupita",
+      "dg": "Chimila za Kutsupa Hatua za Maisha"
+    },
+    "intro": {
+      "en": "Among the Digo, no life passes unmarked. From the first breath to the last, the community gathers around its members at every threshold — birth, naming, initiation, marriage, death — weaving each…",
+      "sw": "Miongoni mwa Wadigo, hakuna maisha yanayopita bila kutambuliwa. Tangu pumzi ya kwanza hadi ya mwisho, jamii inakusanyika kuzunguka wanachama wake katika kila kizingiti — kuzaliwa, kupewa jina,…",
+      "dg": "Kahi ya Adigo, takuna maisha ganayotsupa bila kumanyikana. Kula kpwa pumzi ya kpwandza hadi ya mwisho, jamii inakutana kuazunguluka atu ao kpwa chila chizingiti — kuvyalwa, kuhewa dzina, kudekpwa,…"
+    },
+    "proverb": "Mwana asiyefundzwa ni adui wa nine",
+    "proverbGloss": "An untaught child is their mother's enemy",
+    "topics": [
+      "birth-and-naming",
+      "circumcision",
+      "death",
+      "marriage",
+      "puberty"
+    ]
+  },
+  {
+    "slug": "ecology",
+    "title": {
+      "en": "Ecology and Environment",
+      "sw": "Ikolojia na Mazingira",
+      "dg": "Ikolojia na Mazingira"
+    },
+    "intro": {
+      "en": "The Digo homeland occupies the southernmost tip of Kenya's coast, a territory of dramatic ecological variety compressed into a single county. Kwale County covers 8,270 square kilometres and holds…",
+      "sw": "Nchi ya Wadigo inashika ncha ya kusini kabisa ya pwani ya Kenya, eneo lenye aina nyingi za ikolojia zilizosongwa katika kaunti moja. Kaunti ya Kwale inafunika kilometa za mraba 8,270 na inashikilia…",
+      "dg": "Tsi ya Adigo i ntsa ya kusini kabisa ya pwani ya Kenya, eneo renye aina nyinji za ikolojia zirizokusanywa kpwenye kaunti mwenga. Kaunti ya Kwale ina kilomita za mraba 8,270 na ina…"
+    },
+    "proverb": "Bahari taina msena",
+    "proverbGloss": "The ocean has no friend",
+    "topics": [
+      "kaya-forests",
+      "rivers-and-climate",
+      "shimba-hills",
+      "topography"
+    ]
+  },
+  {
+    "slug": "today",
+    "title": {
+      "en": "Contemporary Digo Life",
+      "sw": "Maisha ya Wadigo Leo",
+      "dg": "Maisha ga Adigo Rero"
+    },
+    "intro": {
+      "en": "The Digo people stand at a defining crossroads. With approximately 640,000 members in Kenya according to the 2019 census and a significant additional population in the Tanga Region of Tanzania, the…",
+      "sw": "Wadigo wanasimama katika njia panda ya kipekee. Kwa idadi ya takriban 640,000 nchini Kenya kulingana na sensa ya 2019, na wengine wengi katika mkoa wa Tanga nchini Tanzania, Wadigo ni kabila kuu…",
+      "dg": "Adigo anaima kpwa njira panda ya chipekee. Kpwa idadi ya kama 640,000 kpwa Kenya kulingana na sensa ya 2019, na anjina anji kpwa mkowa wa Tanga kpwa Tanzania, Adigo ni kabila kulu kpwa Kaunti ya…"
+    },
+    "proverb": "Bandu-bandu yamala gogo",
+    "proverbGloss": "Persistent effort accomplishes large tasks",
+    "topics": [
+      "demographics",
+      "key-towns",
+      "livelihoods",
+      "post-mining"
+    ]
+  },
+  {
+    "slug": "connections",
+    "title": {
+      "en": "Diaspora and Connections",
+      "sw": "Ugeni na Mahusiano",
+      "dg": "Ugeni na Mahusiano"
+    },
+    "intro": {
+      "en": "The Digo world does not end at the borders of Kwale County, and it never has. Long before European cartographers drew lines across East Africa, the Digo inhabited a continuous stretch of the Indian…",
+      "sw": "Ulimwengu wa Wadigo hauishii mipakani mwa Kaunti ya Kwale, wala haujawahi kuisha hapo. Kabla ya wakoloni kuchora mipaka katika Afrika ya Mashariki, Wadigo waliishi eneo linaloendelea la pwani ya…",
+      "dg": "Ulimwengu wa Adigo taumalira mphakani mwa Kaunti ya Kwale, wala kare taukala hivyo. Kabla ya akoloni kuchora mphaka kpwa Afrika ya Mashariki, Adigo aishi eneo rinaroenderera ra pwani ya Bahari…"
+    },
+    "proverb": "Mnazi mmwenga una uchi wani?",
+    "proverbGloss": "What wine from one palm tree?",
+    "topics": [
+      "kinship-differences",
+      "lunga-lunga",
+      "migration",
+      "transborder"
+    ]
+  }
+]

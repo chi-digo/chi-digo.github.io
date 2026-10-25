@@ -1,0 +1,162 @@
+{
+  "id": "culture/crafts/settlement-patterns",
+  "title": {
+    "en": "Settlement Patterns",
+    "sw": "Mifumo ya Makazi",
+    "dg": "Mifumo ya Makalo"
+  },
+  "intro": {
+    "en": "The story of Digo settlement is a story of migration — not across vast distances, but downhill. The Digo originally lived in fortified kayas, hilltop forest settlements in the Shimba Hills and along…",
+    "sw": "Hadithi ya makazi ya Wadigo ni hadithi ya uhamiaji — si katika umbali mkubwa, bali kushuka mlimani. Wadigo awali waliishi katika kaya zilizoimarishwa, makazi ya msitu wa kilimani katika Milima ya…",
+    "dg": "Hadisi ya makalo ga Adigo ni hadisi ya uhamiaji — si kpwa umbali mrefu, ela kutserera kula miangoni. Kare Adigo akala anaishi kahi ya kaya zirizoimarishwa, makalo ga tsaka dzulu ya miango kahi ya Miango ya Shimba na…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "From Hilltop to Lowland",
+      "sw": "Kutoka Kilimani hadi Tambarare",
+      "dg": "Kula Mwangoni hadi Tsi ya Tsini"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The story of Digo settlement is a story of migration — not across vast distances, but downhill. The Digo originally lived in fortified kayas, hilltop forest settlements in the Shimba Hills and along the coastal ridge. Kaya Kwale, Kaya Chinondo near Gazi, and other sacred sites served as both defensive strongholds and spiritual centres for the community. Protected by dense forest and steep approaches, the kayas were places of safety in a region where inter-ethnic conflict and slave raiding made vulnerability a death sentence. The kaya was not merely a village. It was a fortress, a temple, and a seat of governance rolled into one.",
+      "sw": "Hadithi ya makazi ya Wadigo ni hadithi ya uhamiaji — si katika umbali mkubwa, bali kushuka mlimani. Wadigo awali waliishi katika kaya zilizoimarishwa, makazi ya msitu wa kilimani katika Milima ya Shimba. Kaya Kwale, Kaya Chinondo karibu na Gazi, na maeneo mengine matakatifu yalitumika kama ngome za kujilinda na vituo vya kiroho. Kuanzia karne ya kumi na nane, Wadigo walianza kutawanyika kutoka kayani — kwa sababu za msongo wa watu, amani ya kiasi, na fursa za kilimo katika tambarare za pwani.",
+      "dg": "Hadisi ya makalo ga Adigo ni hadisi ya uhamiaji — si kpwa umbali mrefu, ela kutserera kula miangoni. Kare Adigo akala anaishi kahi ya kaya zirizoimarishwa, makalo ga tsaka dzulu ya miango kahi ya Miango ya Shimba na kanda-kanda ya mwango wa pwani. Kaya Kwale, Kaya Chinondo phephi na Gazi, na phatu phanjina phatakatifu vyosi vyahumirwa dza ngome za kudzirinda na vituo vya chiroho vya utsi. Zichirindwa ni tsaka nzito na njira za kupanda zirizo kali, kaya zakala phatu pha salama kahi ya eneo ambamo kondo za makabila na kuhalwa utumwani vyahenda kukala dhaifu kukale sawa na kufwa. Kaya yakala si chidzidzi bahi. Yakala ngome, nyumba ya ibada, na chiti cha utawala, vyosi phamwenga."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Beginning in the eighteenth century and accelerating through the nineteenth, the Digo began to disperse from their kayas. The reasons were multiple: growing population pressure within the confined hilltop sites, the relative peace brought by Omani and later British colonial administration, the economic pull of coastal trade, and the expanding opportunity to cultivate the fertile lowland soils. Families moved down from the hills, establishing homesteads across the coastal plain and the hinterland. But they did not abandon the kayas. They transformed them — from places of daily habitation into places of ceremony, spiritual retreat, and ancestral connection. The kaya became a place you returned to, not a place you lived.",
+      "sw": "Mudzi: Moyo wa Maisha ya Wadigo",
+      "dg": "Kuandzira karne ya kumi na nane, na kpwa upesi zaidi kahi ya karne ya kumi na tisiya, Adigo aandza kutawanyika kula kayani. Sababu zakala nyinji: unji wa atu uriokala unaenjerezeka kahi ya phatu phadide pha dzulu ya miango, amani ya chiasi iriyorehwa ni utawala wa Aomani na badaye wa akoloni a Chingereza, mvuto wa chiuchumi wa biashara ya pwani, na nafasi zirizokala zinaenjerezeka za kurima tsi nono za tsini. Mbari zatserera kula miangoni, zichidzenga midzi kosi tambarare ya pwani na bara. Ela taziricha kaya. Zazigaluza — kula phatu pha kuishi chila siku kukala phatu pha sherehe, pha kudzitenga kpwa chiroho, na pha kuunganika na akare. Kaya yakala phatu pha kuuya, si phatu pha kuishi."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Mudzi: Heart of Digo Life",
+      "sw": "Kitengo cha msingi cha makazi ya Wadigo ni mudzi — boma la familia. Mudzi si nyumba moja bali kundi la nyumba za familia kubwa, zilizopangwa kuzunguka uwazi wa kati. Kibanda cha mzee cha pande zote kinachukua nafasi ya umuhimu. Nyumba za mstatili za wana waliooa zimepangwa karibu. Maeneo ya kupika, ghala za nafaka, na vibanda vya wanyama vinakamilisha boma.",
+      "dg": "Mudzi: Moyo wa Maisha ga Adigo"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The basic unit of Digo settlement is the mudzi — the homestead. A mudzi is not a single house but a cluster of structures belonging to an extended family, organized around a central clearing. The elder's round hut occupies a position of prominence. Rectangular houses for married sons and their families are arranged nearby. Cooking areas, grain stores, and animal shelters complete the compound. The whole is typically enclosed by a living fence of planted shrubs or a woven barrier, marking the boundary between domestic space and the wider world.",
+      "sw": "Vijiji Kati ya Minazi",
+      "dg": "Chitengo cha musingi cha makalo ga Adigo ni mudzi — boma ra mbari. Mudzi si nyumba mwenga ela kundi ra nyumba za mbari kulu, zirizopangwa kuzunguluka uwanja wa kahi-kahi. Nyumba ya duara ya mzehe inakala phatu pha umuhimu. Nyumba za mraba za ana alume ariolola na mbari zao zinapangwa phephi. Phatu pha kujitira, vitsaga vya nafaka, na mabanda ga nyama vinakamilisha boma. Boma rosi kpwa kawaida rinazungulukwa ni lichigo ra mihi ririrophandwa au uchigo uriosukwa, uchionyesa mphaka kahi ya phatu pha nyumbani na dunia ya kondze."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The mudzi is a social statement as much as a physical one. Its layout reflects the kinship structure of the family — who is senior, who is junior, how many wives a man has, how many sons have established their own households within the compound. A visitor who understands the spatial grammar of the mudzi can read the family's social structure at a glance, much as one might read an organizational chart. The elder's hut at the centre, the married sons' houses radiating outward, the cooking areas shared or separate depending on the number of wives — every element has meaning.",
+      "sw": "Vijiji vya Wadigo si vya msongamano. Ni makazi yaliyotawanyika, yaliyoenea katika mandhari kati ya minazi na mashamba. Kijiji cha kawaida kina takriban vibanda arobaini, lakini hivi si vimeundwa pamoja katika muundo wa kijiji cha Ulaya. Badala yake, kila mudzi umetengwa na bustani na mashamba yake. Muundo huu wa kutawanyika hautenganishwi na uchumi wa kilimo wa Wadigo — minazi inahitaji nafasi, na makazi yanajiweka kati ya minazi.",
+      "dg": "Mudzi ni tamko ra chijamii dza ambavyo ni ra chimwiri. Mpangiliowe unaonyesa muundo wa udugu wa mbari — ani ni mkpwulu, ani ni mdide, mlume ana ache angahi, na ana alume angahi akadzenga nyumba zao kahi ya boma. Mjeni ariyemanya sarufi ya phatu ya mudzi anaweza kusoma muundo wa chijamii wa mbari kpwa kulola mara mwenga, dza mutu anavyosoma chati ya shirika. Nyumba ya mzehe kahi-kahi, nyumba za ana alume ariolola zichienea kondze, phatu pha kujitira pha phamwenga au tafwauti kulingana na unji wa ache — chila chitu china maana."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Villages Among the Palms",
+      "sw": "Maji na Makazi",
+      "dg": "Vidzidzi Kahi ya Minazi"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Digo villages are not densely packed. They are dispersed settlements, spread across the landscape among coconut palms, mango trees, and cultivated fields. A typical village comprises approximately forty huts, but these are not clustered together in the European village pattern. Instead, individual homesteads are separated by their gardens and groves, connected by footpaths that wind through the vegetation. The effect is of a community woven into its agricultural landscape rather than set apart from it.",
+      "sw": "Upatikanaji wa maji umeshawishi kila wakati mahali ambapo Wadigo wanachagua kuishi. Nyumba zinakusanyika umbali unaofaa wa kutembea kutoka vyanzo vya maji vinavyotegemeka — visima, chemchemi, na mito ya msimu. Wakati wa miezi ya ukame, vijiji vilivyo karibu na vyanzo vya maji vya kudumu vinadumisha wakazi wao mwaka mzima, wakati makazi ya pembezoni yanaweza kuona uhamiaji wa muda.",
+      "dg": "Vidzidzi vya Adigo si vya atu kubanana. Ni makalo garigotawanyika, garigoenea kosi tsi kahi ya minazi, miembe, na minda. Chidzidzi cha kawaida china nyumba karibu mirongo mine, ela nyumba zino tazikusanyika phamwenga dza vidzidzi vya Ulaya. Badalaye, chila mudzi ukatengwa ni minda na mihiye, na midzi ichiunganishwa ni njira ndide zinazozunguluka kahi ya mimea. Matokeo ni utsi uriofumwa kahi ya mandhari ya chirimo, si uriotengwa nayo."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This dispersed pattern is inseparable from the Digo agricultural economy. Coconut palms — the single most important tree in coastal Digo life — require spacing, and the homesteads fit themselves between the palms. Cassava, maize, and vegetable gardens surround each mudzi, making the village simultaneously a residential area and a productive landscape. There is no clear boundary between village and farm; they are the same space, used for different purposes at different times of day.",
+      "sw": "Uhusiano wa Kaya",
+      "dg": "Muundo huno wa kutawanyika tautenganika na uchumi wa chirimo cha Adigo. Minazi — muhi muhimu zaidi kahi ya maisha ga Adigo a pwani — inalonda nafasi, na midzi inadziika kahi-kahi ya minazi. Minda ya manga, pemba, na mboga inazunguluka chila mudzi, ichihenda chidzidzi kukala phatu pha kuishi na phatu pha kuzalisha wakati uwo-uwo. Takuna mphaka wa wazi kahi ya chidzidzi na munda; ni phatu phicho-phicho, phanaphohumirwa kpwa kazi tafwauti kpwa nyakati tafwauti za siku."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Orientation and Climate",
+      "sw": "Hata baada ya kutawanyika, kaya iliendelea kuwa kitovu cha utambulisho wa Wadigo. Wazee wa kaya — Kambi — waliendelea kutumia mamlaka ya kiroho na kimahakama. Sherehe muhimu zilifanyika ndani ya msitu mtakatifu. Kurudi kwa kila mwaka kayani kwa ibada za pamoja kuliimarisha vifungo kati ya makazi yaliyotawanyika.",
+      "dg": "Mwelekeo na Hali ya Hewa"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The arrangement of structures within a Digo settlement is not random. Houses are oriented to catch the coastal breeze, which blows reliably from the southeast during the kusi monsoon season and from the northeast during the kaskazi. In the hot, humid conditions of the Kenya coast, where temperatures regularly reach the mid-thirties and humidity rarely drops below seventy percent, air circulation is not a luxury but a necessity. The positioning of doorways, the spacing between buildings, and the placement of shade trees are all calculated to maximize natural ventilation.",
+      "sw": "Jiografia hii mbili — kijiji cha kila siku na kaya takatifu — ni msingi wa kuelewa makazi ya Wadigo. Wadigo hawaishi tu mahali wanapoishi. Wanaishi kwa uhusiano na kaya, wakielekea kwake kiroho na kijamii hata wakiwa mbali kimwili.",
+      "dg": "Mpangilio wa nyumba kahi ya makalo ga Adigo si wa bahati. Nyumba nkuelekezwa kuphaha phepho ra pwani, ririropiga bila kukosa kula kusini-mashariki wakati wa msimu wa kusi na kula kaskazini-mashariki wakati wa kaskazi. Kahi ya dzoho na unyevu wa pwani ya Kenya, ambapho dzoho nkufika karibu nyuzi 35 na unyevu ni nadra kushuka photsi ya asilimia 70, kuzunguluka kpwa phepho si anasa ela ni lazima. Phatu pha miryango, nafasi kahi ya nyumba, na phatu pha mihi ya pepho vyosi vinapangwa ili phepho ra asili rinjire zaidi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The coconut palms that surround every Digo settlement serve a dual purpose in this regard. They provide the raw material for construction — makuti thatch, coir rope, timber for secondary structures — while their tall, slender trunks and feathery canopies filter the harsh equatorial sun without blocking the breeze. A Digo village under its palms exists in a zone of dappled shade and moving air that is significantly cooler and more comfortable than the open ground beyond.",
+      "sw": "Minazi inayozunguka kila makazi ya Wadigo inatumikia madhumuni mawili katika suala hili. Inatoa malighafi ya ujenzi — makuti ya kuezekea, kamba za nazi, mbao za miundo ya ziada — huku mashina yake marefu, membamba na mataji yake ya manyoya yanachuja jua kali la ikweta bila kuzuia upepo. Kijiji cha Wadigo chini ya minazi yake kipo katika eneo la kivuli cha madoido na hewa inayosogea ambayo ni baridi zaidi na ya starehe zaidi kuliko ardhi wazi ya mbali.",
+      "dg": "Minazi inayozunguluka chila makalo ga Adigo inatumikira madhumuni mairi kpwa dzambo hiri. Inapha malighafi ya kudzenga — makuti ga kuezekea, kamba za nazi, mbao za miundo ya ziada — wakati mashinage marefu, membamba na matajige ga manyoya ganachuja dzuwa kali ra ikweta bila kuzuwiya phepho. Chidzidzi cha Adigo tsini ya minaziye chiriko kpwa eneo ra chivuri-vuri cha madoido na hewa inayosogea ambayo ina pepho zaidi na ya starehe zaidi kuriko tsi wazi ya kure."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Kaya Connection",
+      "sw": "Uhusiano wa Kaya",
+      "dg": "Uhusiano wa Kaya"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Even after dispersal to the lowlands, the kaya remained central to Digo identity and social organization. The kaya elders — the Kambi — continued to exercise spiritual and judicial authority over the dispersed communities. Important disputes were adjudicated at the kaya. Major ceremonies — initiations, rain-making rituals, installation of leaders — took place within the sacred forest. The annual return to the kaya for communal rituals reinforced the bonds between scattered homesteads and reminded the dispersed population of their shared origin.",
+      "sw": "Hata baada ya kutawanyika kwenda tambarare, kaya iliendelea kuwa kitovu cha utambulisho na mpangilio wa kijamii wa Wadigo. Wazee wa kaya — Kambi — waliendelea kutumia mamlaka ya kiroho na kimahakama juu ya jamii zilizotawanyika. Migogoro muhimu iliamuliwa kayani. Sherehe kuu — jando, ibada za kuomba mvua, kusimikwa kwa viongozi — zilifanyika ndani ya msitu mtakatifu. Kurudi kwa kila mwaka kayani kwa ibada za pamoja kuliimarisha vifungo kati ya makazi yaliyotawanyika na kukumbusha watu waliotawanyika asili yao ya pamoja.",
+      "dg": "Hata bada ya kutawanyika kuphiya tsi za tsini, kaya yaenderera kukala chitovu cha utambulisho na mpangilio wa chijamii wa Adigo. Azehe a kaya — Kambi — aenderera kuhumira mamlaka ya chiroho na chimahakama dzulu ya atu ariotawanyika. Kondo kulu zaamulwa kayani. Sherehe kulu — jando, ibada za kuvoya mvula, kusimikwa kpwa vilongozi — zahendwa ndani ya tsaka takatifu. Kuuya kpwa chila mwaka kayani kpwa ibada za phamwenga kwaimarisha vifungo kahi ya makalo garigotawanyika na kutambukiza atu ariotawanyika asili yao ya phamwenga."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "This dual geography — the everyday village and the sacred kaya — is fundamental to understanding Digo settlement. The Digo do not simply live where they live. They live in relation to the kaya, oriented toward it spiritually and socially even when physically distant. The homestead faces the garden. The village faces the coast. But the community, in its deepest sense, faces the kaya.",
+      "sw": "Jiografia hii mbili — kijiji cha kila siku na kaya takatifu — ni ya msingi katika kuelewa makazi ya Wadigo. Wadigo hawaishi tu mahali wanapoishi. Wanaishi kwa uhusiano na kaya, wakielekea kwake kiroho na kijamii hata wakiwa mbali kimwili. Boma linaelekea bustani. Kijiji kinaelekea pwani. Lakini jamii, kwa maana yake ya ndani kabisa, inaelekea kaya.",
+      "dg": "Jiografia hino mbiri — chidzidzi cha chila siku na kaya takatifu — ni ya musingi kpwa kuelewa makalo ga Adigo. Adigo taaishi phatu anaphoishi bahi. Anaishi kpwa uhusiano na kaya, achielekea kpwakpwe chiroho na chijamii hata achikala kure chimwiri. Mudzi unaelekea munda. Chidzidzi chinaelekea pwani. Ela utsi, kpwa maanaye ya ndani kabisa, inaelekea kaya."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Water and Settlement",
+      "sw": "Maji na Makazi",
+      "dg": "Madzi na Makalo"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Water access has always shaped where the Digo choose to settle. The coastal lowlands are served by seasonal rivers, shallow wells, and — in some areas — natural springs that emerge where the water table meets the surface. Homesteads cluster within reasonable walking distance of reliable water sources, and the location of wells and springs often determines the centre of gravity of a village. Women and children carry water daily, and the distance between the mudzi and the water source is a practical constraint that sets the outer boundary of how far a settlement can spread.",
+      "sw": "Upatikanaji wa maji umeshawishi kila wakati mahali ambapo Wadigo wanachagua kuishi. Tambarare za pwani zinatolewa na mito ya msimu, visima vifupi, na — katika baadhi ya maeneo — chemchemi za asili zinazotokea pale ambapo kiwango cha maji kinakutana na uso. Makazi yanakusanyika umbali unaofaa wa kutembea kutoka vyanzo vya maji vinavyotegemeka, na mahali pa visima na chemchemi mara nyingi huamua kitovu cha kijiji. Wanawake na watoto wanabeba maji kila siku, na umbali kati ya mudzi na chanzo cha maji ni kizuizi cha vitendo kinachoweka mpaka wa nje wa jinsi makazi yanavyoweza kuenea.",
+      "dg": "Kuphahikana kpwa madzi chila wakati kukashawishi phatu ambapho Adigo anatsambula kuishi. Tambarare za pwani zinaphaha madzi kula miho ya msimu, visima vifupi, na — kpwa baadhi ya maeneo — pula za asili zinazotuluka phatu ambapho madzi ga tsini ganakutana na uso. Makalo ganakusanyika umbali unaofaa wa kunyendeka kula vyanzo vya madzi visivyomala, na phatu pha visima na pula mara nyinji phinaamua chitovu cha chidzidzi. Achetu na ana anatsukula madzi chila siku, na umbali kahi ya mudzi na chanzo cha madzi ni chizuizi cha vitendo chinachoika mphaka wa kondze wa jinsi makalo ganavyoweza kuenea."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The seasonal rhythm of rainfall also influences settlement logic. During the long rains of April and May, water is abundant and the landscape greens. During the dry months, the calculus tightens. Villages near permanent water sources maintain their populations year-round, while more marginal settlements may see temporary migration as families move closer to reliable sources during drought. This fluid relationship between settlement and water is one of the less visible but most powerful forces shaping the geography of Digo habitation.",
+      "sw": "Mzunguko wa msimu wa mvua pia unaathiri mantiki ya makazi. Wakati wa mvua ndefu za Aprili na Mei, maji ni mengi na mandhari inakuwa ya kijani. Wakati wa miezi ya ukame, hesabu inakaza. Vijiji vilivyo karibu na vyanzo vya maji vya kudumu vinadumisha wakazi wao mwaka mzima, wakati makazi ya pembezoni yanaweza kuona uhamiaji wa muda familia zinaposogea karibu na vyanzo vinavyotegemeka wakati wa ukame. Uhusiano huu wa maji na makazi ni nguvu moja isiyoonekana sana lakini yenye nguvu zaidi inayounda jiografia ya makazi ya Wadigo.",
+      "dg": "Mzunguko wa msimu wa mvula piya unaathiri mantiki ya makalo. Wakati wa mvula ndere za Aprili na Mei, madzi ni manji na mandhari inakala ya chijani. Wakati wa miezi ya ukame, hesabu inakaza. Vidzidzi virivyo jirani na vyanzo vya madzi vya kudumu vinadumisha atu ao mwaka wosi, wakati makalo ga pembezoni ganaweza kuona uhamiaji wa muda mbari zinaphosogelea jirani na vyanzo visivyomala wakati wa ukame. Uhusiano huno wa madzi na makalo ni nguvu mwenga isiyoonekana sana ela yenye nguvu zaidi inayounda jiografia ya makalo ga Adigo."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Transition to Modern Settlement",
+      "sw": "Mpito kwa Makazi ya Kisasa",
+      "dg": "Mabadiliko kpwa Makalo ga Chisasa"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The twentieth century brought changes that accelerated the transformation of Digo settlement patterns. Colonial land policies, the growth of Mombasa as an urban centre, the expansion of the tourism industry along the Diani coast, and the development of modern transport networks all reshaped where and how the Digo live. Some Digo families moved to urban areas for employment. Others found their traditional land absorbed into tourism developments or commercial agriculture. The dispersed village pattern persists in rural Kwale County, but it exists alongside newer patterns — peri-urban settlements, planned housing, and the informal settlements that fringe growing towns.",
+      "sw": "Karne ya ishirini ilileta mabadiliko yaliyoharakisha mabadiliko ya mifumo ya makazi ya Wadigo. Sera za ardhi za kikoloni, ukuaji wa Mombasa kama kituo cha mijini, upanuzi wa tasnia ya utalii kando ya pwani ya Diani, na maendeleo ya mitandao ya usafiri wa kisasa vyote vilishawishi upya mahali na jinsi Wadigo wanavyoishi. Baadhi ya familia za Wadigo zilihamia maeneo ya mijini kwa ajili ya ajira. Nyingine ziliona ardhi yao ya jadi ikiingizwa katika maendeleo ya utalii au kilimo cha kibiashara. Muundo wa kijiji kilichotawanyika unaendelea katika Kaunti ya Kwale ya vijijini, lakini upo pamoja na mifumo mipya — makazi ya karibu na miji, nyumba zilizopangwa, na makazi yasiyo rasmi yanayozunguka miji inayokua.",
+      "dg": "Karne ya mirongo miiri yareha mabadiliko garigoenjereza upesi wa mabadiliko ga mifumo ya makalo ga Adigo. Sera za tsi za chikoloni, kukula kpwa Mombasa kukala chituo cha midzi mikulu, kupanuka kpwa tasnia ya utalii kanda ya pwani ya Diani, na maendeleo ga mitandao ya usafiri wa chisasa vyosi vyagaluza phatu na njira Adigo anavyoishi. Baadhi ya mbari za Adigo zahamia maeneo ga midzi mikulu kpwa ajili ya kazi. Zanjina zaona tsi yao ya chimila ichihalwa ni maendeleo ga utalii au chirimo cha chibiashara. Muundo wa chidzidzi chirichotawanyika unaenderera kpwa Kaunti ya Kwale ya vidzidzi, ela uriko phamwenga na mifumo miphya — makalo ga jirani na midzi mikulu, nyumba zirizopangwa, na makalo gasigorasmi ganayozunguluka midzi inayokula."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Through all these changes, the mudzi concept endures. Even in urban or peri-urban settings, Digo families tend to organize their living spaces according to the logic of the homestead — the extended family compound with its implicit hierarchy, its shared spaces, and its orientation toward a common centre. The physical form may change, but the social architecture persists. The mudzi is not just a way of building. It is a way of being family.",
+      "sw": "Kupitia mabadiliko haya yote, dhana ya mudzi inaendelea. Hata katika mazingira ya mijini au karibu na miji, familia za Wadigo zinajielekeza kupanga nafasi zao za kuishi kulingana na mantiki ya boma — boma la familia kubwa lenye daraja lake la kimya, nafasi zake za pamoja, na mwelekeo wake kuelekea kituo cha pamoja. Umbo la kimwili linaweza kubadilika, lakini usanifu wa kijamii unaendelea. Mudzi si njia ya kujenga tu. Ni njia ya kuwa familia.",
+      "dg": "Kuphitiya mabadiliko higa gosi, dhana ya mudzi inaenderera. Hata kpwa mazingira ga midzi mikulu au jirani na midzi mikulu, mbari za Adigo zinadzielekeza kupanga nafasi zao za kuishi kulingana na mantiki ya boma — boma ra mbari kulu renye darajare ra chimya, nafasize za phamwenga, na mwelekeowe kuelekea chituo cha phamwenga. Umbo ra chimwiri rinaweza kubadilika, ela usanifu wa chijamii unaenderera. Mudzi si njira ya kudzenga bahi. Ni njira ya kukala mbari."
+    }
+  ]
+}

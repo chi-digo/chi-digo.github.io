@@ -1,0 +1,204 @@
+{
+  "id": "culture/religion/spirit-world",
+  "title": {
+    "en": "The Digo Spirit World",
+    "sw": "Ulimwengu wa Roho wa Wadigo",
+    "dg": "Ulimwengu wa Roho wa Adigo"
+  },
+  "intro": {
+    "en": "To understand Digo spirituality, one must first accept a premise that Western materialism has spent centuries trying to discard: that the visible world is not the only world. Behind every illness,…",
+    "sw": "Kuelewa hali ya kiroho ya Wadigo, mtu lazima akubali kwamba ulimwengu unaoonekana si ulimwengu pekee. Nyuma ya kila ugonjwa, kila bahati, kila tukio lisiloeleweka, kuna eneo sambamba la roho, mababu,…",
+    "dg": "Kuelewa hali ya chiroho ya Adigo, mutu lazima akubali kukala ulimwengu unaoonekana si ulimwengu bahi. Nyuma ya chila ukongo, chila bahati, chila likalo risiroeleweka, kuna eneo sambamba ra…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A World Behind the World",
+      "sw": "Ulimwengu Nyuma ya Ulimwengu",
+      "dg": "Ulimwengu Nyuma ya Ulimwengu"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "To understand Digo spirituality, one must first accept a premise that Western materialism has spent centuries trying to discard: that the visible world is not the only world. Behind every illness, every stroke of fortune, every unexplained event, there exists a parallel domain of spirits, ancestors, and unseen forces that act upon the living with as much consequence as rain or drought. The Digo did not invent this premise. It is shared, in various forms, across most Bantu-speaking peoples of eastern and southern Africa. But the Digo elaborated it into a detailed taxonomy of spiritual beings, each with distinct characteristics, demands, and methods of approach. This taxonomy predates Islam by centuries, and it has survived Islamization largely intact — not as a relic of the past but as an active, functioning system of explanation and intervention that most Digo regard as entirely compatible with their Muslim faith.",
+      "sw": "Kuelewa hali ya kiroho ya Wadigo, mtu lazima akubali kwamba ulimwengu unaoonekana si ulimwengu pekee. Nyuma ya kila ugonjwa, kila bahati, kila tukio lisiloeleweka, kuna eneo sambamba la roho, mababu, na nguvu zisizoonekana. Wadigo waliendeleza hili kuwa ushuru wa kina wa viumbe vya kiroho, kila kimoja na sifa, madai, na njia zake za kukaribia.",
+      "dg": "Kuelewa hali ya chiroho ya Adigo, mutu lazima kpwandza akubali dhana ambayo falsafa ya Chizungu ya kuamini vitu vinavyoonekana bahi ikahenda kazi kpwa karne nyinji kuiusa: kukala ulimwengu unaoonekana si ulimwengu bahi. Nyuma ya chila ukongo, chila bahati, chila likalo risiroeleweka, kuna eneo sambamba ra roho, akare, na nguvu zisizoonekana ambazo zinahenda kazi dzulu ya ario moyo kpwa matokeo makulu dza mvula au kukosa mvula. Adigo taayaumba dhana ihi. Inashirikiwa, kpwa namuna tafwauti, ni atu anji anaogomba luga za Chibantu a Afrika ya Mashariki na ya Kusini. Ela Adigo aipanua dhana ihi achiihenda kukala uainishaji wa kina wa viumbe vya chiroho, chila chimwenga na sifaze, madaige, na njiraze za kuchiphiya phephi. Uainishaji uhu ukakala phapho karne nyinji kabla ya Uislamu, na ukasala bila kugaluka sana hata baada ya Adigo kuhala Uislamu — si dza masalia ga kare, ela dza mfumo unaohenda kazi wa kueleza mambo na kuhenda chitu, ambao Adigo anji anauona unaringana kabisa na imani yao ya Chiislamu."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Mulungu: The Distant Creator",
+      "sw": "Mulungu, Koma, na Mizimu",
+      "dg": "Mulungu: Muumba Ariye Kure"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "At the apex of the Digo spiritual universe stands *Mulungu* — the supreme, omnipotent creator God. Mulungu is not a spirit among spirits. He is the source of all existence, the ultimate power behind every other force in the cosmos. But Mulungu is also distant. He does not intervene directly in human affairs. He does not answer individual prayers or respond to specific offerings. He is, in the language of theology, transcendent — present everywhere but approachable nowhere. This is why the Digo never built temples to Mulungu, never developed a priesthood devoted to his worship, and never directed sacrifices to him. The relationship between humans and Mulungu is mediated — by ancestors, by spirits, and, since Islamization, by the structures of Islamic worship. When Islam arrived with its insistence on the oneness of God, the Digo recognized something familiar. Mulungu became Allah without rupture or contradiction, and the deep architecture of Digo cosmology absorbed the new name without altering its fundamental shape.",
+      "sw": "Juu ya ulimwengu wa kiroho wa Wadigo anasimama *Mulungu* — Muumba mkuu, mbali lakini mwenye nguvu zote, asiyekaribiwa moja kwa moja. Uhusiano kati ya binadamu na Mulungu unapatanishwa — na mababu, na roho, na tangu Uislamu, na miundo ya ibada ya Kiislamu. Roho zenye matokeo zaidi ni *koma* — roho za wafu wanaoendelea kushiriki katika mambo ya walio hai. *Koma* aliyeheshimiwa ni chanzo cha ulinzi na baraka; *koma* aliyetelekezwa huleta ugonjwa na bahati mbaya. Makaya — misitu mitakatifu ya juu ya vilima — ni makazi ya *koma*, ndiyo maana yanahifadhi umuhimu wao wa kiroho hata katika jamii ambayo ni ya Kiislamu kwa wingi.",
+      "dg": "Dzulu ya ulimwengu wa chiroho wa Adigo anaima *Mulungu* — Muumba mkpwulu mwenye nguvu zosi. Mulungu si roho mwenga kahi ya roho. Iye ndiye chanzo cha chila chitu chiricho moyo, nguvu ya mwisho nyuma ya chila nguvu yanjina kpwa ulimwengu. Ela Mulungu piya ari kure. Kainjira kpwa mambo ga binadamu mwenga kpwa mwenga. Kajibu mavoyo ga mutu mmwenga-mmwenga wala kaitikira sadaka maalum. Kpwa luga ya theolojia, iye ni wa dzulu ya vyosi — ari chila phatu, ela takuna phatu ambapho anafikirika. Ndiyo mana Adigo taayadzenga nyumba za ibada kpwa Mulungu, taayaika makuhani a kumuabudu, na taayamlavyira sadaka. Uhusiano kahi ya binadamu na Mulungu unatsapira kpwa akare, kpwa roho, na, hangu Uislamu ufike, kpwa mfumo wa ibada ya Chiislamu. Uislamu uriphofika na msisitizowe wa umwenga wa Mulungu, Adigo aona chitu ambacho kala anachimanya. Mulungu wakala Allah bila kuvundzika wala kupingana, na muundo wa ndani wa kosmolojia ya Chidigo uhala dzina riphya bila kugaluza chitu cha musingi."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "Koma: The Ancestors Who Never Leave",
+      "sw": "Tofauti na *koma* ni *mizimu* — roho za asili zinazohusishwa na maeneo maalum: miti, miamba, chemchemi, na makaya yenyewe. Mtu anayevuka eneo la *mizimu* bila kujua anaweza kupata ugonjwa, na tiba inahitajia sadaka na mashauriano na *mganga*. Maeneo ya *mizimu* yanaweka wajibu: miti haipaswi kukatwa, maji kutoka chemchemi takatifu yanapaswa kutolewa kwa heshima. Wajibu hizi ni mfumo usio rasmi wa uhifadhi wa mazingira.",
+      "dg": "Koma: Akare Asiouka"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The most consequential spirits in Digo life are the *koma* — the spirits of the dead who continue to participate in the affairs of the living. Death, in Digo understanding, does not sever the relationship between a person and their family. It transforms the relationship. The deceased becomes a *koma*, an ancestral spirit who retains interest in the welfare of their descendants and the capacity to influence their fortunes. A *koma* who is honoured through proper burial, regular remembrance, and appropriate ceremonies is a source of protection and blessing. A *koma* who is neglected — whose grave is overgrown, whose name is forgotten, whose descendants have failed in their obligations — becomes a source of illness, misfortune, and reproach.",
+      "sw": "Majini, Pepo, na Mganga",
+      "dg": "Roho zenye matokeo zaidi kpwa maisha ga Adigo ni *koma* — roho za atu ariofwa ambazo zinaenderera kushiriki kpwa mambo ga ario moyo. Kpwa uelewa wa Adigo, chifo tachikata uhusiano kahi ya mutu na mbariye. Chinaugaluza uhusiano uwo. Mutu ariyefwa anakala *koma*, roho ya akare ambayo bado ina hamu na ustawi wa adzukulue na uwezo wa kuathiri bahati zao. *Koma* ariyeishimiwa kpwa mazishi ga kufwaha, kutambukirwa mara kpwa mara, na sherehe zinazofwaha ni chanzo cha kurindwa na baraka. *Koma* ariyerichwa — ambaye mbiraye ikamera nyasi, ambaye dzinare taritambukirwa tena, ambaye adzukulue akashindwa kuhenda wajibu wao — anareha makongo, bahati mbii, na lawama."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The mechanism is not metaphorical. When a family suffers a run of unexplained illness, persistent crop failure, or a pattern of bad luck that defies rational explanation, the first suspicion in many Digo households is that a *koma* has been offended. The remedy is not more prayer at the mosque. It is a consultation with a *mganga* — a traditional healer and diviner who possesses the knowledge and the spiritual authority to identify which ancestor is disturbed and what must be done to restore the relationship. The offering may involve food, drink, the slaughter of a chicken or goat at the ancestor's grave, or a more elaborate ceremony depending on the severity of the offence.",
+      "sw": "*Majini* — roho za bahari — wanaunganisha ulimwengu wa kabla ya Uislamu na wa Kiislamu, kwa sababu dhana ya Kidigo inalingana na *jinn* wa Kiislamu. Baadhi wanaaminiwa kuwa Waislamu wenyewe, na wengine wanaaminiwa kutoka ulimwengu wa Kiarabu — roho za *Mwarabu* zilizorekodiwa katika sherehe za Kayamba za Golini. *Pepo* — roho za kumilikiwa — huingia mwili wa mtu na kuchukua udhibiti, na kusababisha mtu kuongea kwa sauti zisizojulikana, kuwa na tabia ya ajabu, au kuanguka katika mazingira ya ndoto. Matibabu yanahitajia mazungumzo na roho kupitia sherehe za muziki na taratibu. Sherehe ya Kayamba huko Golini, Kaunti ya Kwale, ni mfano mkuu — *mganga* hutumia kayamba, ngoma, na kuimba kuvuta roho na kuitambua.",
+      "dg": "Njira ihi si ya mfwano. Mbari ichiphaha mlolongo wa makongo gasigoeleweka, mimea yao ichibanangika mara kpwa mara, au bahati mbii isiyoelezeka kpwa akili, shaka ya kpwandza kpwa mbari nyinji za Adigo ni kukala *koma* akakosewa. Tiba si swala zaidi msikitini. Ni kushauriana na *mganga* — mganga na mbashiri wa chimila ariye na marifwa na mamlaka ga chiroho ga kumanya ni *koma* yuphi asiye na raha na chiricho lazima chihendwe ili kuuyiza uhusiano dza urivyokala. Sadaka inaweza kukala vyakurya, chinwadzi, kutsindza kuku au mbuzi phapho mbirani pha *koma*, au sherehe kulu zaidi kulingana na ukulu wa kosa."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The *koma* reside in and around the kayas — the sacred hilltop forests that the Mijikenda peoples established after their legendary migration from Shungwaya. This is one reason why the kayas retain their spiritual significance even in a community that is overwhelmingly Muslim. The kayas are not merely historical sites. They are the dwelling places of the ancestors, the points where the living world and the spirit world intersect. To abandon the kayas would be to abandon the ancestors themselves.",
+      "sw": "*Mganga* ndiye mtu mkuu katika ulimwengu wa roho wa Wadigo — mtaalamu anayetambua matatizo ya kiroho, anayeagiza tiba za mitishamba na taratibu, na anayepatanisha kati ya wateja wa binadamu na viumbe vya kiroho. *Mganga* anafanya kazi ndani ya mfumo ambapo ugonjwa unaweza kuwa na sababu za kimwili na za kiroho, na matibabu yenye ufanisi lazima yashughulikie pande zote mbili. Ulimwengu wa roho wa Wadigo haukuanguka Kurani ilipofika. Ulijirekebisha. *Majini* walipata mfano wao katika *jinn* wa Kiislamu. *Mganga* alianza kuingiza aya za Kurani katika mazoezi ya jadi. Lakini *koma* walihifadhi utambulisho wao wa Kidigo, na *mizimu* walihifadhi nafasi zao katika mandhari. Ulimwengu wa roho unabaki, kama ulivyokuwa daima, eneo ambapo Wadigo wanapiga hesabu na mashaka na siri ambazo dini rasmi haiwezi kushughulikia kikamilifu.",
+      "dg": "*Koma* anaishi ndani na kanda-kanda ya makaya — matsaka matakatifu ganagokala phatu pha dzulu, garigoandzishwa ni Amijikenda baada ya kutsama kula Shungwaya, dza vira masimulizi ga kare ganavyogomba. Ihi ni sababu mwenga ya makaya kusala na umuhimu wao wa chiroho hata kpwa jamii ambayo phephi atu osi ni Aislamu. Makaya si maeneo ga chihistoria bahi. Ni makalo ga akare, phatu ambapho ulimwengu wa ario moyo unakutana na ulimwengu wa roho. Kugaricha makaya ni sawa na kuaricha akare enye."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Mizimu: Spirits of Place",
+      "sw": "Mizimu: Roho za Mahali",
+      "dg": "Mizimu: Roho za Phatu"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Distinct from the *koma* are the *mizimu* — nature spirits associated with specific locations in the landscape. A particular tree, a rock formation, a spring, a stretch of coastline, a cave — any of these may harbour a *mizimu* whose presence must be acknowledged and whose territory must be respected. The *mizimu* are not the spirits of dead humans. They are spirits of place — entities that belong to the land itself and that preceded human settlement.",
+      "sw": "Tofauti na *koma* ni *mizimu* — roho za asili zinazohusishwa na maeneo maalum katika mandhari. Mti fulani, muundo wa mwamba, chemchemi, sehemu ya pwani, pango — mojawapo ya hivi inaweza kuwa makazi ya *mizimu* ambayo uwepo wake lazima utambuliwe na eneo lake lazima liheshimiwe. *Mizimu* si roho za wanadamu waliokufa. Ni roho za mahali — viumbe vinavyomilikiwa na ardhi yenyewe na ambavyo vilikusudia kabla ya makazi ya binadamu.",
+      "dg": "Tafwauti na *koma* ni *mizimu* — roho za asili za phatu maalum kpwa mandhari. Muhi fulani, myamba, chemchemi, seemu ya pwani, pango — chochosi cha hivi chinaweza kukala makazi ga *mizimu* ambayo lazima imanyikane, na eneore lazima riishimiwe. *Mizimu* si roho za binadamu ariofwa. Ni roho za phatu — viumbe vya tsi yenye, virivyokala phapho kabila ya makazi ga binadamu."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Encounters with *mizimu* typically occur when a person unknowingly trespasses on their domain or disturbs their dwelling place. The consequences can range from mild disorientation to serious illness. Farmers clearing new land, builders breaking ground for a house, or travellers passing through unfamiliar territory may all attract the attention of *mizimu*. The proper response, when a *mizimu* is suspected of causing trouble, is to make an offering at the site — food, drink, or a small animal sacrifice — and to consult a *mganga* who can communicate with the spirit and negotiate terms of coexistence.",
+      "sw": "Kukutana na *mizimu* kwa kawaida kunatokea mtu anapovuka eneo lao bila kujua au kusumbua makazi yao. Matokeo yanaweza kuanzia kuchanganyikiwa kidogo hadi ugonjwa mkubwa. Wakulima wanaosafisha ardhi mpya, wajenzi wanaovunja ardhi kwa nyumba, au wasafiri wanaopita katika eneo lisilojulikana wanaweza wote kuvutia umakini wa *mizimu*. Jibu sahihi, *mizimu* inaposhukiwa kusababisha taabu, ni kutoa sadaka kwenye eneo hilo — chakula, kinywaji, au sadaka ndogo ya mnyama — na kushauriana na *mganga* ambaye anaweza kuwasiliana na roho na kujadili masharti ya kuishi pamoja.",
+      "dg": "Kukutana na *mizimu* kpwa kawaida nkuzuka mutu achitsupa eneo rao bila kumanya au achiyuga makazi gao. Matokeo ganaweza kukala kuzemeheka chidide hadi ukongo mkpwulu. Akurima anaotsusa tsi nyiphya, adzengi anaotsimba tsi kpwa nyumba, au asafiri anaotsupa kpwa eneo risilomanyikana anaweza osi kuonekana ni *mizimu*. Chitu cha kuhenda, *mizimu* ichishukiwa kureha shida, ni kulavya sadaka phapho — vyakurya, chinwadzi, au sadaka ndide ya nyama — na kushauriana na *mganga* ambaye anaweza kubisha na roho na kupatana nayo dzulu ya kuishi phamwenga."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The kayas themselves are the most important *mizimu* sites, but they are not the only ones. The Digo landscape is threaded with sacred places — groves, springs, and coastal sites — where the natural and spiritual worlds are understood to be particularly close. These places impose obligations. Trees at a *mizimu* site must not be cut. Water from a sacred spring must be drawn with respect. The land around a *mizimu* dwelling must not be cultivated without proper ceremony. These obligations constitute an informal system of environmental conservation, protecting ecologically significant sites through spiritual sanction.",
+      "sw": "Makaya yenyewe ni maeneo muhimu zaidi ya *mizimu*, lakini si pekee. Mandhari ya Wadigo imefumwa na maeneo matakatifu — vijisitu, chemchemi, na maeneo ya pwani — ambapo ulimwengu wa asili na wa kiroho unaeleweka kuwa karibu sana. Maeneo hayo yanaweka wajibu. Miti kwenye eneo la *mizimu* haipaswi kukatwa. Maji kutoka chemchemi takatifu lazima yachotwe kwa heshima. Ardhi karibu na makazi ya *mizimu* haipaswi kulimwa bila sherehe sahihi. Wajibu hizi zinajumuisha mfumo usio rasmi wa uhifadhi wa mazingira, unaolinda maeneo yenye umuhimu wa kiikolojia kupitia vikwazo vya kiroho.",
+      "dg": "Makaya genye ni maeneo muhimu zaidi ga *mizimu*, ela si go bahi. Mandhari ya Adigo ina maeneo manji matakatifu — matsaka madide, chemchemi, na maeneo ga pwani — ambapho ulimwengu wa asili na wa chiroho unaeleweka kukala phephi sana. Maeneo gago ganareha wajibu. Mihi kpwa eneo ra *mizimu* taifwaha kukatwa. Madzi kula chemchemi takatifu lazima gatekwe kpwa hishima. Tsi iriyo phephi na makazi ga *mizimu* taifwaha kurimwa bila sherehe za kufwaha. Wajibu uwo ni mfumo usio rasmi wa kuhifadhi mazingira, unaorinda maeneo genye umuhimu wa chiikolojia kpwa njira ya vikwazo vya chiroho."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Majini: Spirits of the Ocean",
+      "sw": "Majini: Roho za Bahari",
+      "dg": "Majini: Roho za Bahari"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The *majini* — ocean spirits, cognate with the Arabic *jinn* — occupy a unique position in the Digo spirit taxonomy because they bridge the pre-Islamic and Islamic worlds. The Digo coast, stretching from the southern reaches of Mombasa County through Kwale and into northern Tanzania, is a landscape shaped by the Indian Ocean. The sea provides food, carries trade, and generates weather. It is also understood to be inhabited by powerful spirits — the *majini* — who can emerge from the water to interact with, and sometimes possess, human beings.",
+      "sw": "*Majini* — roho za bahari, zinazohusiana na *jinn* wa Kiarabu — wanashikilia nafasi ya kipekee katika uainishaji wa roho za Wadigo kwa sababu wanaiunganisha ulimwengu wa kabla ya Uislamu na wa Kiislamu. Pwani ya Wadigo, ikienea kutoka sehemu za kusini za Kaunti ya Mombasa kupitia Kwale hadi kaskazini mwa Tanzania, ni mandhari inayoundwa na Bahari ya Hindi. Bahari inatoa chakula, kubeba biashara, na kuzalisha hali ya hewa. Pia inaeleweka kuwa na roho zenye nguvu — *majini* — ambazo zinaweza kutoka majini kuwasiliana na, na wakati mwingine kumiliki, binadamu.",
+      "dg": "*Majini* — roho za bahari, zinazohusiana na *jinn* wa Chiarabu — ana nafasi ya chipekee kpwa uainishaji wa roho za Adigo kpwa sababu anaunganisha ulimwengu wa kabila ya Uislamu na wa Chiislamu. Pwani ya Adigo, ichienea kula seemu za kusini za Kaunti ya Mombasa kutsupa Kwale hadi kaskazini ya Tanzania, ni mandhari iriyoumbwa ni Bahari ya Hindi. Bahari inalavya vyakurya, inatsukula biashara, na inareha hali ya hewa. Piya inaeleweka kukala na roho zenye nguvu — *majini* — ambazo zinaweza kutuluka madzini kubisha na binadamu, na wakati wanjina kuamiliki."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "When Islam arrived on the Digo coast, its concept of *jinn* — beings created from smokeless fire who exist parallel to humans and can be either benevolent or malevolent — mapped onto the existing Digo concept of *majini* with striking precision. The Arabic and Digo categories reinforced each other. Today, Digo understanding of *majini* draws from both traditions: they are spirits of the ocean in the Digo sense and *jinn* in the Islamic sense. Some are believed to be Muslim themselves. Some are believed to originate from the Arab world — the *Mwarabu* spirits documented in the Kayamba healing ceremonies of Golini, Kwale County. This blending of Islamic and pre-Islamic spirit categories is one of the clearest examples of what scholars mean when they speak of Digo syncretism.",
+      "sw": "Uislamu ulipofika pwani ya Wadigo, dhana yake ya *jinn* — viumbe vilivyoumbwa kutoka moto usio na moshi ambavyo vipo sambamba na binadamu na vinaweza kuwa vya heri au shari — ililandana na dhana iliyokuwepo ya Kidigo ya *majini* kwa usahihi wa kushangaza. Aina za Kiarabu na Kidigo ziliimarisha kila moja. Leo, uelewa wa Wadigo wa *majini* unateka kutoka mapokeo yote mawili: ni roho za bahari kwa maana ya Kidigo na *jinn* kwa maana ya Kiislamu. Baadhi wanaaminiwa kuwa Waislamu wenyewe. Baadhi wanaaminiwa kutoka ulimwengu wa Kiarabu — roho za *Mwarabu* zilizorekodiwa katika sherehe za Kayamba za Golini, Kaunti ya Kwale. Mchanganyiko huu wa aina za roho za Kiislamu na za kabla ya Kiislamu ni moja ya mifano wazi zaidi ya kile wasomi wanamaanisha wanapozungumza kuhusu mchanganyiko wa Kidigo.",
+      "dg": "Uislamu uriphofika pwani ya Adigo, dhanaye ya *jinn* — viumbe virivyoumbwa kula moho usio na mosi, ambavyo vinaishi sambamba na binadamu na vinaweza kukala vya heri au vya shari — irihalana na dhana ya Chidigo ya *majini* iriyokala phapho kare, kpwa usahihi wa ajabu. Aina za Chiarabu na za Chidigo zirienjerezana nguvu. Rero, uelewa wa Adigo wa *majini* unahala kula mapokeo gosi mairi: ni roho za bahari kpwa mana ya Chidigo na *jinn* kpwa mana ya Chiislamu. Anjina anaaminiwa kukala Aislamu ao enye. Anjina anaaminiwa kula ulimwengu wa Chiarabu — roho za *Mwarabu* zirizoandikpwa kpwa sherehe za Kayamba za Golini, Kaunti ya Kwale. Mchanganyiko uwo wa aina za roho za Chiislamu na za kabila ya Uislamu ni mwenga wa mifwano ya wazi zaidi ya chitu ambacho asomi anachiiha mchanganyiko wa Chidigo."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Nyoka: The Serpent Spirits",
+      "sw": "Nyoka: Roho za Nyoka",
+      "dg": "Nyoka: Roho za Nyoka"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Among the Mijikenda peoples, serpent spirits hold a particular significance. The *nyoka* — serpent spirits associated with the kayas and with specific lineages — are understood to be guardians of sacred sites and carriers of ancestral power. A large snake encountered near a kaya is not merely a snake. It may be a *nyoka* spirit, a manifestation of ancestral presence that demands respect and must not be harmed. The appearance of a serpent spirit can be an omen — a warning, a blessing, or a message from the ancestors that requires interpretation by a kaya elder or a *mganga*.",
+      "sw": "Miongoni mwa watu wa Kimijikenda, roho za nyoka zinashikilia umuhimu maalum. *Nyoka* — roho za nyoka zinazohusishwa na makaya na nasaba maalum — zinaeleweka kuwa walinzi wa maeneo matakatifu na wabebaji wa nguvu ya mababu. Nyoka kubwa inayokutana karibu na kaya si nyoka tu. Inaweza kuwa roho ya *nyoka*, udhihirisho wa uwepo wa mababu unaodai heshima na usiopaswi kudhuru. Kuonekana kwa roho ya nyoka kunaweza kuwa ishara — onyo, baraka, au ujumbe kutoka kwa mababu unaohitaji tafsiri ya mzee wa kaya au *mganga*.",
+      "dg": "Kahi ya atu a Chimijikenda, roho za nyoka zina umuhimu maalum. *Nyoka* — roho za nyoka zinazohusiana na makaya na mbari maalum — zinaeleweka kukala arindzi a maeneo matakatifu na atsukuli a nguvu ya akare. Nyoka mkpwulu anayeonekana phephi na kaya si nyoka bahi. Anaweza kukala roho ya *nyoka*, ishara ya kukala phapho kpwa akare, ambayo inahitaji hishima na kafwaha kulumizwa. Kuonekana kpwa roho ya nyoka kunaweza kukala ishara — onyo, baraka, au ujumbe kula kpwa akare unaohitaji kutafasiriwa ni mzehe wa kaya au *mganga*."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Pepo: The Spirits That Enter",
+      "sw": "Pepo: Roho Zinazoingia",
+      "dg": "Pepo: Roho Zinazoinjira"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "*Pepo* — possession spirits — represent the most dramatic and visible intersection between the spirit world and daily life. A person possessed by a *pepo* undergoes a transformation that is understood not as mental illness but as spiritual invasion. The *pepo* enters the body and takes control, causing the host to speak in unfamiliar voices, behave erratically, fall into trances, or suffer debilitating illness that does not respond to conventional medicine. Possession is not random. Certain individuals are understood to be more susceptible than others, and the spirits themselves have preferences and demands.",
+      "sw": "*Pepo* — roho za kumilikiwa — zinawakilisha makutano ya kuvutia zaidi na yanayoonekana kati ya ulimwengu wa roho na maisha ya kila siku. Mtu aliyemilikiwa na *pepo* hupitia mabadiliko ambayo yanaeleweka si kama ugonjwa wa akili bali kama uvamizi wa kiroho. *Pepo* anaingia mwilini na kuchukua udhibiti, akisababisha mwenyeji kuzungumza kwa sauti zisizojulikana, kutenda kwa njia isiyo ya kawaida, kuanguka katika mazingira ya ndoto, au kupata ugonjwa mbaya ambao haujibu dawa ya kawaida. Kumilikiwa si kwa bahati nasibu. Watu fulani wanaeleweka kuwa na uwezekano mkubwa zaidi, na roho zenyewe zina mapendekezo na madai.",
+      "dg": "*Pepo* — roho za kumiliki atu — ni makutano makulu zaidi na ganagoonekana zaidi kahi ya ulimwengu wa roho na maisha ga chila siku. Mutu ariyemilikiwa ni *pepo* anagaluka kpwa njira ambayo inaeleweka si dza ukongo wa achili ela dza uvamizi wa chiroho. *Pepo* anainjira mwirini na kuhala udhibiti, achimuhenda mwenye mwiri kugomba kpwa sauti zisizomanyikana, kuhenda mambo kpwa njira isiyo ya kawaida, kugbwa kpwa hali ya ndoto, au kuphaha ukongo mbii usiosikira dawa ya kawaida. Kumilikiwa si kpwa bahati nasibu. Atu fulani anaeleweka kukala na uwezekano mkpwulu zaidi, na roho zenye zina mambo zinazogamendza na madai."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The treatment of *pepo* possession is one of the *mganga's* most important and most complex responsibilities. It requires not the expulsion of the spirit through force but negotiation — a dialogue between the healer and the possessing entity in which the spirit's identity is established, its demands are heard, and terms of coexistence or departure are arranged. The Kayamba healing ceremony, documented in Golini, Kwale County, is a prime example. The *mganga* uses music — kayamba rattles, drums, and chanting — to draw the spirit out and identify it. \"Each spirit responds to different songs,\" practitioners explain, \"and finding the right chant is like unlocking a hidden door.\" Some spirits demand specific offerings. Others demand that the host observe particular taboos. Still others must be persuaded to leave through sustained ritual over multiple sessions.",
+      "sw": "Matibabu ya kumilikiwa na *pepo* ni mojawapo ya wajibu muhimu zaidi na ngumu zaidi wa *mganga*. Inahitaji si kufukuza roho kwa nguvu bali mazungumzo — mazungumzo kati ya mganga na kiumbe kinachomiliki ambapo utambulisho wa roho unaanzishwa, madai yake yanasikika, na masharti ya kuishi pamoja au kuondoka yanapangwa. Sherehe ya Kayamba, iliyorekodiwa Golini, Kaunti ya Kwale, ni mfano mkuu. *Mganga* hutumia muziki — kayamba, ngoma, na nyimbo — kuvuta roho na kuitambua. \"Each spirit responds to different songs,\" watendaji wanaelezea, \"and finding the right chant is like unlocking a hidden door.\" Roho zingine zinadai sadaka maalum. Zingine zinadai mwenyeji awe na mwiko fulani. Nyingine bado lazima zishawishiwe kuondoka kupitia taratibu za muda mrefu za vikao vingi.",
+      "dg": "Matibabu ga kumilikiwa ni *pepo* ni mwenga wa wajibu muhimu zaidi na mgumu zaidi wa *mganga*. Ganahitaji si kuzola roho kpwa nguvu ela mazungumzo — mazungumzo kahi ya mganga na chiumbe chinachomiliki, ambamo roho inamanyikana ni ani, madaige ganasikirwa, na masharti ga kuishi phamwenga au kuuka ganapangwa. Sherehe ya Kayamba, iriyoandikpwa Golini, Kaunti ya Kwale, ni mfwano mkpwulu. *Mganga* anahumira muziki — kayamba, ngoma, na mawira — kuituluza roho kondze na kuimanya. \"Chila roho inavumikiza mawira tafwauti,\" aganga anagomba, \"na kuphaha wira unaofwaha ni dza kuvugula mryango uriofitswa.\" Roho zanjina zinadai sadaka maalum. Zanjina zinadai mwenye mwiri ahepe miko fulani. Zanjina bado lazima zishawishiwe kuuka kpwa taratibu za muda mure za vikao vinji."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The Kayamba ceremony itself is a layered artefact of Digo syncretism. It combines traditional Digo practices — music, dance, herbal preparations, and spirit negotiation — with Islamic elements, including Arabic invocations alongside Digo chants. The ceremony represents, in the words of one account, \"a dialogue between the living and the unseen.\" It is neither purely traditional nor purely Islamic. It is Digo.",
+      "sw": "Sherehe ya Kayamba yenyewe ni artifact yenye tabaka ya mchanganyiko wa Kidigo. Inaunganisha mazoezi ya jadi ya Kidigo — muziki, ngoma, maandalizi ya mitishamba, na mazungumzo na roho — na vipengele vya Kiislamu, ikiwa ni pamoja na dua za Kiarabu pamoja na nyimbo za Kidigo. Sherehe inawakilisha, kwa maneno ya akaunti moja, \"a dialogue between the living and the unseen.\" Si ya jadi tu wala ya Kiislamu tu. Ni ya Kidigo.",
+      "dg": "Sherehe ya Kayamba yenye ni mchanganyiko wa Chidigo wenye tabaka nyinji. Inaunganisha mazoea ga chimila ga Chidigo — muziki, ngoma, dawa za mitishamba, na mazungumzo na roho — na mambo ga Chiislamu, phamwenga na dua za Chiarabu kanda na mawira ga Chidigo. Sherehe ihi ni, kpwa maneno ga mutu mwenga ariyeiandika, \"mazungumzo kahi ya ario moyo na asioonekana.\" Si ya chimila bahi wala ya Chiislamu bahi. Ni ya Chidigo."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "The Mganga: Healer, Diviner, Mediator",
+      "sw": "Mganga: Mganga, Mbashiri, Mpatanishi",
+      "dg": "Mganga: Mganga, Mbashiri, Mpatanishi"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The *mganga* (plural *waganga*) is the central figure in the Digo spirit world — the human specialist who possesses the knowledge, the training, and the spiritual authority to navigate the boundary between the visible and invisible worlds. The *mganga* is not a priest. He or she does not lead communal worship or administer sacraments. The *mganga* is a practitioner — a healer who diagnoses spiritual afflictions, a diviner who identifies which spirits are causing trouble, and a mediator who negotiates between human clients and spirit entities.",
+      "sw": "*Mganga* (wingi *waganga*) ndiye mtu mkuu katika ulimwengu wa roho wa Wadigo — mtaalamu wa binadamu anayemiliki maarifa, mafunzo, na mamlaka ya kiroho ya kupita mpaka kati ya ulimwengu unaoonekana na usioonekana. *Mganga* si kuhani. Haongozi ibada ya jumuia wala kusimamia sakramenti. *Mganga* ni mtendaji — mganga anayetambua matatizo ya kiroho, mbashiri anayetambua roho zipi zinasababisha taabu, na mpatanishi anayepatanisha kati ya wateja wa binadamu na viumbe vya kiroho.",
+      "dg": "*Mganga* (unji *aganga*) ndiye mutu mkpwulu kpwa ulimwengu wa roho wa Adigo — binadamu mtaalamu ariye na marifwa, mafundzo, na mamlaka ga chiroho ga kutsupa mphaka kahi ya ulimwengu unaoonekana na usioonekana. *Mganga* si kuhani. Kalongoza ibada ya jamii wala kaimirira sakramenti. *Mganga* ni muhendi wa kazi — mganga anayemanya matatizo ga chiroho, mbashiri anayemanya ni roho ziphi zinazoreha shida, na mpatanishi anayepatanisha ateja a binadamu na viumbe vya chiroho."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "The practice of *uganga* — healing magic — combines spirit contact, herbal medicine, and ritual. A *mganga* may wear charms, beads, and protective amulets that mark their office and provide personal protection against the spiritual forces they regularly engage. Their social authority is substantial, sometimes rivaling or complementing that of the imam and the kaya elders. In matters of spiritual crisis — illness that does not respond to treatment, persistent misfortune, suspected witchcraft, or spirit possession — the *mganga* is the first and often the most trusted authority consulted.",
+      "sw": "Mazoezi ya *uganga* — uchawi wa uponyaji — yanaunganisha mawasiliano na roho, dawa za mitishamba, na taratibu. *Mganga* anaweza kuvaa hirizi, shanga, na vifungo vya kinga vinavyoashiria ofisi yao na kutoa ulinzi wa kibinafsi dhidi ya nguvu za kiroho wanazoshirikiana nazo mara kwa mara. Mamlaka yao ya kijamii ni makubwa, wakati mwingine yakishindana au kukamilisha yale ya imamu na wazee wa kaya. Katika masuala ya msiba wa kiroho — ugonjwa usiojibu matibabu, msiba wa kudumu, uchawi unaoshukiwa, au kumilikiwa na roho — *mganga* ndiye mamlaka ya kwanza na mara nyingi inayoaminiwa zaidi inayoshauriwa.",
+      "dg": "Mazoea ga *uganga* — utsai wa kuphoza — ganaunganisha kubisha na roho, dawa za mitishamba, na taratibu. *Mganga* anaweza kuvwala hirizi, shanga, na vifungo vya kinga vinavyoonyesa kaziye na kumrinda iye mwenye kula nguvu za chiroho anazoshirikiana nazo mara kpwa mara. Mamlaka gao ga chijamii ni makulu, wakati wanjina ganashindana au ganakamilisha mamlaka ga imamu na azehe a kaya. Kpwa mambo ga msiba wa chiroho — ukongo usiosikira matibabu, shida isiyomala, utsai unaoshukiwa, au kumilikiwa ni roho — *mganga* ndiye mamlaka ya kpwandza na mara nyinji ndiye anayeaminiwa zaidi kushauriwa."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The *mganga* operates within a framework where illness can have both physical and spiritual causes, and effective treatment must address both dimensions. A person may be sick because of a bacterium, but the reason the bacterium struck *this* person at *this* time may be spiritual — a neglected ancestor, a disturbed *mizimu*, a malicious act of witchcraft. The *mganga* addresses the spiritual causation; conventional medicine addresses the physical. The two are not competitors but complements, each treating a different layer of the same affliction.",
+      "sw": "*Mganga* anafanya kazi ndani ya mfumo ambapo ugonjwa unaweza kuwa na sababu za kimwili na za kiroho, na matibabu yenye ufanisi lazima yashughulikie mwelekeo wote. Mtu anaweza kuwa mgonjwa kwa sababu ya bakteria, lakini sababu bakteria ilimpiga *mtu huyu* kwa *wakati huu* inaweza kuwa ya kiroho — babu aliyetelekezwa, *mizimu* iliyosumbuliwa, kitendo cha uchawi kibaya. *Mganga* anashughulikia sababu ya kiroho; dawa ya kawaida inashughulikia ya kimwili. Hizo mbili si washindani bali vinakamilishana, kila moja ikishughulikia tabaka tofauti ya taabu ile ile.",
+      "dg": "*Mganga* anahenda kazi ndani ya mfumo ambapho ukongo unaweza kukala na sababu za chimwiri na za chiroho, na matibabu genye kufwaha lazima gahende kazi na seemu zosi mbiri. Mutu anaweza kukala mkpwongo kpwa sababu ya bakteria, ela sababu ya bakteria kumgbwira *mutu uhu* kpwa *wakati uhu* inaweza kukala ya chiroho — koma ariyerichwa, *mizimu* iriyoyugwa, chitendo chibaya cha utsai. *Mganga* anahenda kazi na sababu ya chiroho; dawa ya kawaida inahenda kazi na ya chimwiri. Zizi mbiri si ashindani ela zinakamilishana, chila mwenga ichihenda kazi na tabaka tafwauti ya shida iyo-iyo."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "Coexistence with Islam",
+      "sw": "Kuishi Pamoja na Uislamu",
+      "dg": "Kuishi Phamwenga na Uislamu"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The Digo spirit world did not collapse when the Quran arrived. It adapted. The *majini* found their counterpart in Islamic *jinn*. The *mganga* began incorporating Quranic verses and Arabic invocations into traditional practice. The concept of spiritual protection — always central to Digo life — found a new technology in the *hirizi*, the protective amulet inscribed with Quranic text. But the *koma* retained their Digo identity. The *mizimu* kept their places in the landscape. The *pepo* continued to possess and had to be negotiated with on their own terms. Islam provided a new vocabulary and a new overarching framework, but it did not replace the underlying grammar of Digo spiritual experience. The spirit world remains, as it has always been, the domain where the Digo negotiate the uncertainties, dangers, and mysteries that formal religion — any formal religion — cannot fully address.",
+      "sw": "Ulimwengu wa roho wa Wadigo haukuanguka Kurani ilipofika. Ulijirekebisha. *Majini* walipata mfano wao katika *jinn* wa Kiislamu. *Mganga* alianza kuingiza aya za Kurani na dua za Kiarabu katika mazoezi ya jadi. Dhana ya kinga ya kiroho — daima ya kati kwa maisha ya Wadigo — ilipata teknolojia mpya katika *hirizi*, hirizi ya kinga iliyoandikwa maandishi ya Kurani. Lakini *koma* walihifadhi utambulisho wao wa Kidigo. *Mizimu* walihifadhi nafasi zao katika mandhari. *Pepo* waliendelea kumiliki na walihitajika kujadiliwa nao kwa masharti yao wenyewe. Uislamu ulitoa msamiati mpya na mfumo mpya wa jumla, lakini haukubadilisha sarufi ya msingi ya uzoefu wa kiroho wa Kidigo. Ulimwengu wa roho unabaki, kama ulivyokuwa daima, eneo ambapo Wadigo wanapiga hesabu na mashaka, hatari, na siri ambazo dini rasmi — dini yoyote rasmi — haiwezi kushughulikia kikamilifu.",
+      "dg": "Ulimwengu wa roho wa Adigo tauyagbwa Kurani iriphofika. Wadzibadilisha. *Majini* aphaha mfwano wao kpwa *jinn* wa Chiislamu. *Mganga* aandza kutsanganya aya za Kurani na dua za Chiarabu na mazoea ga chimila. Dhana ya kinga ya chiroho — kare kare ya kahi kpwa maisha ga Adigo — iriphaha teknolojia nyiphya kpwa *hirizi*, hirizi ya kinga iriyoandikpwa maneno ga Kurani. Ela *koma* asala na utambulisho wao wa Chidigo. *Mizimu* asala na phatu phao kpwa mandhari. *Pepo* aenderera kumiliki atu, na ikalazimika kupatana nao kpwa masharti gao enye. Uislamu urilavya msamiati muphya na mfumo muphya wa jumla, ela tauyabadilisha sarufi ya musingi ya uzoefu wa chiroho wa Chidigo. Ulimwengu wa roho unasala, dza urivyokala kare kare, eneo ambamo Adigo anapambana na mashaka, hatari, na siri ambazo dini rasmi — dini yoyosi rasmi — taiweza kuzijibu kpwa ukamilifu."
+    }
+  ]
+}

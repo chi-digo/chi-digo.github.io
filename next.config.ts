@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   },
   transpilePackages: ["@chi-digo/design-system"],
   turbopack: {},
+  // Swahili and Digo article pages render on first request and read their article from
+  // content/articles (spec 34 §17.10): ship those files with the server functions.
+  outputFileTracingIncludes: {
+    "/[locale]/**": ["./content/articles/**/*.json"],
+  },
 };
 
 export default withSentryConfig(withSerwist(nextConfig), {

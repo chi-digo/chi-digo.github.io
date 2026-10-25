@@ -1,0 +1,169 @@
+{
+  "id": "culture/today/key-towns",
+  "title": {
+    "en": "Key Digo Towns",
+    "sw": "Miji Muhimu ya Wadigo",
+    "dg": "Midzi Muhimu ya Adigo"
+  },
+  "intro": {
+    "en": "The towns of the Digo coast are not ancient cities. They are settlements that have grown, some of them explosively, within living memory — shaped by colonial administration, post-independence…",
+    "sw": "Miji ya pwani ya Wadigo si miji ya zamani. Ni makazi yaliyokua, baadhi kwa kasi ya ajabu, ndani ya kumbukumbu ya watu walio hai. Kila mji unashikilia nafasi maalum katika uchumi na utamaduni wa Kaunti…",
+    "dg": "Midzi ya pwani ya Adigo si midzi ya kare. Ni makazi garigokula, manji kpwa kasi ya ajabu, ndani ya kumbukumbu ya atu ario hai. Chila mudzi una nafasi maalum kpwa uchumi na chimila cha Kaunti…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Geography of Change",
+      "sw": "Jiografia ya Mabadiliko",
+      "dg": "Jiografia ya Mabadiliko"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The towns of the Digo coast are not ancient cities. They are settlements that have grown, some of them explosively, within living memory — shaped by colonial administration, post-independence development, tourism, mining, and the relentless logic of the road network. Each town occupies a specific niche in the economy and culture of Kwale County, and together they form a map of the forces that are reshaping Digo life. To understand contemporary Digo society, you must understand these places: what they were, what they have become, and what they reveal about the tensions between tradition, commerce, and governance that define the southern coast.",
+      "sw": "Miji ya pwani ya Wadigo si miji ya zamani. Ni makazi yaliyokua, baadhi kwa kasi ya ajabu, ndani ya kumbukumbu ya watu walio hai. Kila mji unashikilia nafasi maalum katika uchumi na utamaduni wa Kaunti ya Kwale.",
+      "dg": "Midzi ya pwani ya Adigo si midzi ya kare. Ni makazi garigokula, manji kpwa kasi ya ajabu, ndani ya kumbukumbu ya atu ario hai — garigoumbwa ni utawala wa akoloni, maendeleo ga bada ya uhuru, utalii, uchimbadzi, na mantiki isiyokoma ya mtandao wa barabara. Chila mudzi una nafasi maalum kpwa uchumi na chimila cha Kaunti ya Kwale, na phamwenga inaumba ramani ya nguvu zinazobadilisha maisha ga Adigo. Kpwa kumanya jamii ya Adigo ya rero, ni lazima umanye seemu zizi — zakalavyo kare, zirivyo rero, na ganagoonyeswa ni seemu zizo kuhusu mivutano kahi ya chimila, biashara, na utawala inayofafanua pwani ya kusini."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Ukunda: The Commercial Hub",
+      "sw": "**Ukunda** ni mji mkubwa zaidi katika Kaunti ya Kwale, na idadi ya watu wa takriban 77,700. Imebadilika kutoka makazi ya kilimo kuwa kituo kamili cha biashara chenye maduka makubwa, barabara za lami, na uwanja wa ndege uliosasishwa. KwaleHub, kituo cha teknolojia na ujasiriamali, kinawakilisha sura ya kisasa zaidi ya mabadiliko haya.",
+      "dg": "Ukunda: Chituo cha Biashara"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Ukunda is the largest town in Kwale County and the one that has changed most dramatically in the past two decades. With a population of approximately 77,700, it has transformed from an agricultural settlement — a place of coconut groves and subsistence farms — into a full commercial centre with chain supermarkets, tarmacked roads, banks, and a modernized airstrip that receives charter flights for the Diani Beach tourism corridor. The town sits at the junction of the Mombasa-Lunga Lunga highway and the road down to Diani Beach, a location that has made it the service hub for the entire south coast.",
+      "sw": "**Diani Beach** ni mojawapo ya vivutio vikuu vya watalii Afrika Mashariki — lakini pia ni hadithi ya kunyang'anywa. Wadigo wanadhibiti takriban asilimia 20 tu ya ardhi waliyomiliki. Kati ya 1962 na 2002, hati za ardhi haramu takriban 200,000 ziliundwa. Hoteli na resort zilijengwa kwenye ardhi iliyochukuliwa kutoka familia za Wadigo. Mipango ya jamii kama Kaya Chinondo Ecotourism Project na Diani Ngalawa Regatta inaonyesha njia mbadala.",
+      "dg": "Ukunda ni mudzi mkpwulu zaidi kpwa Kaunti ya Kwale, na ndio uriobadilika zaidi kahi ya miaka 20 iriyotsupa. Na idadi ya atu kama 77,700, ukabadilika kula makazi ga chirimo — phatu pha minda ya minazi na minda ya kudzikimu — kukala chituo kamili cha biashara chenye maduka makulu, barabara za lami, mabenki, na uwanja wa ndege uriotengezwa tsona unaophokera ndege za kukodiwa za ukanda wa utalii wa Diani Beach. Mudzi u phatu ambapho barabara kulu ya Mombasa-Lunga Lunga inakutana na barabara inayotserera hadi Diani Beach, seemu ambayo ikauhenda ukale chituo cha huduma cha pwani yosi ya kusini."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The transformation has brought both opportunity and dislocation. Ukunda is where young Digo come to find work, and where the service economy — shops, restaurants, transport companies, mobile money agents — has created a recognizable if modest urban middle class. KwaleHub, a technology and entrepreneurship incubator located in the town, represents the most forward-looking aspect of this transformation, connecting young people with digital skills and business development support. But Ukunda also embodies the friction of rapid growth: inadequate infrastructure, overcrowded housing, and the cultural dissonance of a community that is still, in its self-understanding, a farming people living in an increasingly urban environment.",
+      "sw": "**Msambweni** ni mji wa tulivu zaidi unaohifadhi tabia ya jadi ya makazi ya Wadigo, na hospitali ya rufaa na jamii za uvuvi hai. **Kwale** ni makao makuu ya kaunti — mahali ambapo mustakabali wa kisiasa wa Wadigo unajadiliwa. **Shimoni** inajulikana kwa mapango yake ya watumwa na kama sehemu ya kuondoka kwenda Kisite-Mpunguti Marine Park. **Lunga Lunga** inastawi kwa biashara ya mpakani na Tanzania, ikiunganisha jamii za Wadigo pande zote mbili za mpaka.",
+      "dg": "Mabadiliko iga gakareha nafasi na piya usumbufu. Ukunda ndiko avulana Adigo anakophiya kuhendza kazi, na ambako uchumi wa huduma — maduka, hoteli za chakurya, makampuni ga usafiri, mawakala ga pesa za simu — ukaumba tabaka ra kahi ra midzini rinaroonekana, dzagbwe ni ridide. KwaleHub, chituo cha teknolojia na ujasiriamali chiricho mudzini, chinawakilisha sura ya chisasa zaidi ya mabadiliko iga, chichiunganisha avulana na ujuzi wa chidijitali na kuaterya kuendeleza biashara. Ela Ukunda piya unaonyesa matatizo ga kukula kpwa kasi: miundombinu isiyotosha, nyumba zenye atu anji kutsupa chiasi, na mgongano wa chimila wa jamii ambayo, kpwa mawazoge yenyewe, bado ni atu a chirimo anaoishi kahi ya mazingira ga midzini zaidi na zaidi."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "Diani: The Tourism Economy",
+      "sw": "Diani: Uchumi wa Utalii",
+      "dg": "Diani: Uchumi wa Utalii"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Diani Beach lies just south of Ukunda, and in many ways the two towns exist in a relationship of mutual dependence and profound inequality. Diani is one of East Africa's premier beach destinations — kilometres of white sand, warm Indian Ocean water, and a strip of luxury hotels, resorts, and villas that cater to international and domestic tourists. The tourism economy is the single largest employer in the south coast, and Diani is its epicentre.",
+      "sw": "Diani Beach iko kusini tu ya Ukunda, na kwa njia nyingi miji hiyo miwili inaishi katika uhusiano wa kutegemezana na ukosefu mkubwa wa usawa. Diani ni mojawapo ya vivutio bora vya fukwe katika Afrika Mashariki — kilometa za mchanga mweupe, maji ya joto ya Bahari ya Hindi, na ukanda wa hoteli za kifahari, mapumziko, na nyumba za wageni zinazohudumia watalii wa kimataifa na wa ndani. Uchumi wa utalii ndio mwajiri mkubwa zaidi katika pwani ya kusini, na Diani ndiyo kitovu chake.",
+      "dg": "Diani Beach i kusini bahi ya Ukunda, na kpwa njira nyinji midzi iyo miiri inaishi kpwenye uhusiano ambapho chila mmwenga unakuluphira wanjina na ukosefu mkpwulu wa usawa. Diani ni mwenga wa vivutio vinono vya pwani kpwenye Afrika ya Mashariki — kilometa za mtsanga mwereru, madzi ga dzoho ga Bahari ya Hindi, na ukanda wa hoteli za chifahari, maphumziko, na nyumba za ajeni zinazohudumiya atalii a chimataifa na a ndani. Uchumi wa utalii ndio muajiri mkpwulu zaidi kpwenye pwani ya kusini, na Diani ndiyo chitovuche."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "But the story of Diani is also a story of dispossession. The Digo once held this entire coastal strip. Today, they control approximately 20 percent of the land they once occupied in the Diani area. Between 1962 and 2002, an estimated 200,000 illegal land titles were created through fraudulent allocation, transferring Digo ancestral land to outsiders — politicians, businessmen, and developers from upcountry and abroad. Hotels and resorts were built on land taken from Digo families, many of whom received no compensation. Legal challenges continue, but justice moves slowly, and the fundamental reality remains: the Digo work in Diani's hotels as cleaners, gardeners, and security guards, while ownership and management positions are held almost entirely by outsiders.",
+      "sw": "Lakini hadithi ya Diani pia ni hadithi ya kunyang'anywa. Wadigo hapo zamani walimiliki ukanda huu wote wa pwani. Leo, wanadhibiti takriban asilimia 20 ya ardhi waliyokuwa wanaishi katika eneo la Diani. Kati ya 1962 na 2002, hati miliki takriban 200,000 haramu za ardhi ziliundwa kupitia ugawaji wa udanganyifu, zikibadilisha ardhi ya mababu ya Wadigo kwa wageni — wanasiasa, wafanyabiashara, na waendelezaji kutoka bara na nje ya nchi. Hoteli na mapumziko yalijengwa kwenye ardhi iliyochukuliwa kutoka kwa familia za Wadigo, ambao wengi hawakupokea fidia yoyote. Changamoto za kisheria zinaendelea, lakini haki inakwenda polepole, na ukweli wa msingi unabaki: Wadigo wanafanya kazi katika hoteli za Diani kama wasafishaji, wakulima wa bustani, na walinzi, wakati nyadhifa za umiliki na usimamizi zinashikiliwa karibu kabisa na watu wa nje.",
+      "dg": "Ela hadithi ya Diani piya ni hadithi ya kunyang'anywa. Adigo kare akala ni enye ukanda uno wosi wa pwani. Rero, anadhibiti kama asilimia 20 ya tsi ariyokala anaishi kpwenye seemu ya Diani. Kahi ya 1962 na 2002, hati miliki kama 200,000 zisizo halali za tsi zatengezwa kpwa ugawaji wa lichengo, zichibadilisha tsi ya akare a Adigo kpwa atu a kondze — anasiasa, afanyabiashara, na aendelezaji kula bara na kondze ya tsi. Hoteli na maphumziko gadzengwa kpwenye tsi iriyohalwa kula nyumba za Adigo, ambao anji ao taaphokera fidia yoyosi. Changamoto za chisheria zinaenderera, ela haki inaphiya pore-pore, na ukpweli wa msingi unasala: Adigo anahenda kazi kpwenye hoteli za Diani dza asafishaji, akurima a bustani, na atu a kurinda usalama, wakati nyadhifa za umiliki na usimamizi zinashikiliwa phephi kabisa ni atu a kondze."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The social impact of tourism extends beyond economics. Sex tourism and child sexual exploitation have been documented in the area, with UNICEF and government reports indicating that one in three girls aged 12 to 18 in coastal areas has been involved in casual sex work. Sacred sites, including remnants of Kaya Diani forest, have been reduced to fragments by construction. Alcohol and drug availability increases around tourist zones. The Digo community has responded with initiatives like the Kaya Chinondo Ecotourism Project, where elders lead tours of the sacred forest and revenue supports conservation, and the Diani Ngalawa Regatta, a ten-year-old celebration of authentic Digo culture through traditional canoe races and artisanal craft markets supporting over 200 women artisans.",
+      "sw": "Athari za kijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa kingono wa watoto umeandikwa katika eneo hili, huku ripoti za UNICEF na serikali zikionyesha kuwa msichana mmoja kati ya watatu wenye umri wa miaka 12 hadi 18 katika maeneo ya pwani amehusika katika kazi ya ngono ya kawaida. Maeneo matakatifu, ikiwa ni pamoja na masalia ya msitu wa Kaya Diani, yamepunguzwa kuwa vipande vidogo na ujenzi. Upatikanaji wa pombe na dawa za kulevya unaongezeka karibu na maeneo ya watalii. Jamii ya Wadigo imejibu kwa miradi kama Mradi wa Utalii wa Kiikolojia wa Kaya Chinondo, ambapo wazee wanaongoza ziara za msitu mtakatifu na mapato yanasaidia uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni halisi wa Wadigo kupitia mashindano ya mitumbwi ya jadi na masoko ya sanaa zinazosaidia wanawake mafundi zaidi ya 200.",
+      "dg": "Athari za chijamii za utalii zinaenea zaidi ya uchumi. Utalii wa ngono na unyanyasaji wa chingono wa ana ukaandikpwa kpwenye seemu hino, na ripoti za UNICEF na serikali zinaonyesa kukala msichana mmwenga kahi ya ahahu ario na umri wa miaka 12 hadi 18 kpwenye seemu za pwani akahusika kpwenye kazi ya ngono ya kawaida. Seemu takatifu, phamwenga na masalia ga tsaka ra Kaya Diani, gaphunguzwa kukala vipande vidide ni ujenzi. Kuphaha uchi na dawa za kulevya kunazidi phephi na seemu za atalii. Jamii ya Adigo ikadzibu na miradi dza Mradi wa Utalii wa Chiikolojia wa Kaya Chinondo, ambapho akare analongoza ziara za tsaka takatifu na mapato ganaterya uhifadhi, na Regatta ya Diani Ngalawa, sherehe ya miaka kumi ya utamaduni wa kpweli wa Adigo kpwa mashindano ga mitumbwi ya kare na masoko ga sanaa ganagoterya achetu mafundi zaidi ya 200."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Msambweni: The Sub-County Capital",
+      "sw": "Msambweni: Makao Makuu ya Kaunti Ndogo",
+      "dg": "Msambweni: Makao Makulu ga Kaunti Ndide"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Msambweni sits south of Diani along the coast road, a quieter town that retains more of the traditional character of a Digo settlement. It is the sub-county capital, home to Msambweni Referral Hospital — which has been upgraded in recent years but remains capacity-constrained — and a collection of active fishing communities that still practice artisanal fishing from the shore and from small boats. The architecture here includes more traditional building styles than Ukunda's concrete sprawl, and the pace of life is noticeably slower.",
+      "sw": "Msambweni iko kusini ya Diani kando ya barabara ya pwani, mji tulivu zaidi ambao unadumisha zaidi tabia ya jadi ya makazi ya Wadigo. Ni makao makuu ya kaunti ndogo, makao ya Hospitali ya Rufaa ya Msambweni — ambayo imekarabatiwa katika miaka ya hivi karibuni lakini bado ina vikwazo vya uwezo — na mkusanyiko wa jamii za uvuvi hai ambazo bado zinafanya uvuvi wa kijadi kutoka ufukweni na kutoka kwa boti ndogo. Ujenzi hapa una mitindo zaidi ya jadi kuliko upanuzi wa zege wa Ukunda, na kasi ya maisha ni polepole zaidi kwa kuona.",
+      "dg": "Msambweni i kusini ya Diani kanda ya barabara ya pwani, mudzi wa kutulia zaidi ambao unadumisha zaidi tabiya ya kare ya makazi ga Adigo. Ni makao makulu ga kaunti ndide, makao ga Hospitali ya Rufaa ya Msambweni — ambayo ikatengezwa tsona miaka ya sambi ela bado ina vikwazo vya uwezo — na mkusanyo wa jamii za uvuvi hai ambazo bado zinahenda uvuvi wa chijadi kula pwanini na kula kpwa miyadiya midide. Ujenzi phapha una mitindo zaidi ya kare kuriko upanuzi wa zege wa Ukunda, na kasi ya maisha ni pore-pore zaidi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Msambweni's fishing communities represent a livelihood that is under severe pressure. Catch rates have declined fourfold since the 1980s due to overfishing, environmental degradation, and the warming of Indian Ocean waters. The county government has distributed modern boats to fishing communities and supported the formation of seaweed farming groups — 21 groups across 14 villages — but the transition from abundant traditional fishing to managed marine resources is difficult and incomplete. Msambweni is also growing as a commercial centre, with new shops and services appearing along the main road, but its identity remains tied to the sea in a way that Ukunda's no longer is.",
+      "sw": "Jamii za uvuvi za Msambweni zinawakilisha njia ya maisha ambayo iko chini ya shinikizo kali. Viwango vya samaki vilivyovuliwa vimepungua mara nne tangu miaka ya 1980 kutokana na uvuvi kupita kiasi, uharibifu wa mazingira, na ongezeko la joto la maji ya Bahari ya Hindi. Serikali ya kaunti imegawa boti za kisasa kwa jamii za uvuvi na kusaidia kuundwa kwa vikundi vya kilimo cha mwani — vikundi 21 katika vijiji 14 — lakini mpito kutoka uvuvi wa jadi wenye wingi hadi usimamizi wa rasilimali za baharini ni mgumu na haujakamilika. Msambweni pia unakua kama kituo cha biashara, huku maduka na huduma mpya zikionekana kando ya barabara kuu, lakini utambulisho wake bado umefungamana na bahari kwa njia ambayo wa Ukunda hauko tena.",
+      "dg": "Jamii za uvuvi za Msambweni zinawakilisha njira ya maisha ambayo i tsini ya shinikizo kali. Viwango vya ng'onda ariovuliwa vikaphunguka mara nne hangu miaka ya 1980 kpwa sababu ya uvuvi kutsupa chiasi, kubanangwa kpwa mazingira, na kupiga dzuwa kpwa madzi ga Bahari ya Hindi. Serikali ya kaunti ikaganya miyadiya ya chisasa kpwa jamii za uvuvi na kuterya kutengezwa kpwa vikundi vya chirimo cha mwani — vikundi 21 kpwenye vidzidzi 14 — ela kutsupa kula uvuvi wa kare wenye unji hadi usimamizi wa rasilimali za baharini ni vigumu na taudzangbwekamilika. Msambweni piya unakula dza chituo cha biashara, na maduka na huduma mphya zinaonekana kanda ya barabara kulu, ela utambulishowe bado ukafungamana na bahari kpwa njira ambayo wa Ukunda tauko tsona."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Kwale: The County Headquarters",
+      "sw": "Kwale: Makao Makuu ya Kaunti",
+      "dg": "Kwale: Makao Makulu ga Kaunti"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Kwale town sits inland from the coast, elevated on a ridge that gives it cooler temperatures and a different landscape from the humid coastal strip. As the county headquarters, it is the seat of government — the location of the county assembly, the governor's offices, and the administrative machinery of devolved governance. Governor Fatuma Achani, elected in 2022 as Kwale's first woman governor in a conservative, majority-Muslim county, oversees operations from here, directing health facility upgrades, road construction, and water projects across the county.",
+      "sw": "Mji wa Kwale uko ndani kutoka pwani, umeinuka juu ya kilima ambacho kinakipa joto baridi zaidi na mandhari tofauti na ukanda wa pwani wenye unyevunyevu. Kama makao makuu ya kaunti, ndipo penye kiti cha serikali — eneo la bunge la kaunti, ofisi za gavana, na mashine ya utawala ya serikali iliyogatuliwa. Gavana Fatuma Achani, aliyechaguliwa mwaka 2022 kama gavana wa kwanza mwanamke wa Kwale katika kaunti ya kihafidhina, yenye Waislamu wengi, anasimamia shughuli kutoka hapa, akielekeza ukarabati wa vituo vya afya, ujenzi wa barabara, na miradi ya maji kote kaunti.",
+      "dg": "Mudzi wa Kwale u ndani kula pwanini, ukainuka dzulu ya chirima ambacho chinaupha mnyevu zaidi na mandhari tafwauti na ukanda wa pwani wenye unyevu-nyevu. Dza makao makulu ga kaunti, ndipho phenye chiti cha serikali — seemu ya bunge ra kaunti, ofisi za gavana, na mashine ya utawala wa serikali iriyogatuliwa. Gavana Fatuma Achani, ariyetsambulwa mwaka wa 2022 dza gavana wa kpwandza muchetu wa Kwale kpwenye kaunti ya chihafidhina, yenye Aislamu anji, anaimirira shughuli kula phapha, achilongoza ukarabati wa vitsuo vya afya, ujenzi wa barabara, na miradi ya madzi kosi kaunti."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The town itself is modest. It lacks the commercial energy of Ukunda or the tourist infrastructure of Diani. Its importance is administrative and symbolic: it is the place where the political future of the Digo is negotiated, where budgets are allocated, and where the tension between local needs and national priorities plays out in the chambers and corridors of county government. For many rural Digo, Kwale town is the place you go when you need something from the government — a land title, a permit, a hearing — and this gives it a particular character, half bureaucratic and half communal, that distinguishes it from the commercially driven coastal towns.",
+      "sw": "Mji wenyewe ni wa kawaida. Hauna nguvu ya kibiashara ya Ukunda au miundombinu ya utalii ya Diani. Umuhimu wake ni wa kiutawala na wa ishara: ni mahali ambapo mustakabali wa kisiasa wa Wadigo unajadiliwa, ambapo bajeti zinagawanywa, na ambapo mvutano kati ya mahitaji ya ndani na vipaumbele vya kitaifa unachezwa katika vyumba na korido za serikali ya kaunti. Kwa Wadigo wengi wa mashambani, mji wa Kwale ni mahali unapoenda unapohitaji kitu kutoka serikalini — hati ya ardhi, kibali, kusikilizwa — na hii inakipa tabia ya pekee, nusu ya kiutawala na nusu ya kijamii, inayokitofautisha na miji ya pwani inayoendeshwa na biashara.",
+      "dg": "Mudzi wenyewe ni wa kawaida. Tauna nguvu ya chibiashara ya Ukunda au miundombinu ya utalii ya Diani. Umuhimuwe ni wa chiutawala na wa ishara: ni seemu ambapho mustakabali wa chisiasa wa Adigo unajadiriwa, ambapho bajeti zinaganywa, na ambapho mvutano kahi ya mahitaji ga ndani na vipaumbele vya chitaifa unaonekana kpwenye vyumba na korido za serikali ya kaunti. Kpwa Adigo anji a vidzidzini, mudzi wa Kwale ni seemu unakophiya uchihitaji chitu kula kpwa serikali — hati ya tsi, chibali, kusikizwa — na hino inaupha tabiya ya chipekee, nusu ya chiutawala na nusu ya chijamii, inayoutafwautisha na midzi ya pwani inayoendeshwa ni biashara."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Shimoni: The Historical Port",
+      "sw": "Shimoni: Bandari ya Kihistoria",
+      "dg": "Shimoni: Bandari ya Chihistoria"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Shimoni occupies a unique place in Digo geography. This small town at the southern tip of the Kenya coast is best known for its slave caves — limestone caverns where enslaved people were held before being shipped across the Indian Ocean during the Arab slave trade. Today, Shimoni functions primarily as a departure point for boats to Wasini Island and the Kisite-Mpunguti Marine National Park, one of Kenya's most important marine protected areas. The town is small and quiet, its economy dependent on the trickle of tourists heading to the marine park, but its historical weight is enormous. For the Digo, Shimoni is a reminder of the darker chapters of Indian Ocean commerce — the trade that brought wealth and culture to the coast but also brought profound suffering.",
+      "sw": "Shimoni inashika nafasi ya kipekee katika jiografia ya Wadigo. Mji huu mdogo kwenye ncha ya kusini ya pwani ya Kenya unajulikana zaidi kwa mapango yake ya watumwa — mapango ya mawe ya chokaa ambapo watu waliokuwa watumwa walishikiliwa kabla ya kusafirishwa kuvuka Bahari ya Hindi wakati wa biashara ya watumwa ya Kiarabu. Leo, Shimoni inafanya kazi hasa kama sehemu ya kuondokea kwa boti kwenda Kisiwa cha Wasini na Hifadhi ya Kitaifa ya Bahari ya Kisite-Mpunguti, mojawapo ya maeneo muhimu zaidi ya hifadhi ya bahari nchini Kenya. Mji ni mdogo na tulivu, uchumi wake unategemea watalii wachache wanaokwenda hifadhi ya bahari, lakini uzito wake wa kihistoria ni mkubwa sana. Kwa Wadigo, Shimoni ni ukumbusho wa sura za giza za biashara ya Bahari ya Hindi — biashara ambayo ilileta utajiri na utamaduni pwani lakini pia ilileta mateso makubwa.",
+      "dg": "Shimoni ina nafasi ya chipekee kpwenye jiografia ya Adigo. Mudzi uno mdide kpwenye ntsa ya kusini ya pwani ya Kenya unamanyikana zaidi kpwa mapangoge ga atumwa — mapango ga mawe ga chokaa ambago atu ariokala atumwa ariikpwa kabla ya kusafirishwa kuvuka Bahari ya Hindi wakati wa biashara ya atumwa ya Chiarabu. Rero, Shimoni inahenda kazi hasa dza seemu ya kuukira kpwa miyadiya kuphiya Chisiwa cha Wasini na Hifadhi ya Chitaifa ya Bahari ya Kisite-Mpunguti, mwenga wa seemu muhimu zaidi za hifadhi ya bahari kpwenye Kenya. Mudzi ni mdide na wa kutulia, uchumiwe unakuluphira atalii achache anaophiya hifadhi ya bahari, ela uzitowe wa chihistoria ni mkpwulu sana. Kpwa Adigo, Shimoni ni tambukizo ya sura za jiza za biashara ya Bahari ya Hindi — biashara iriyoreha utajiri na utamaduni pwanini ela piya iriyoreha mateso makulu."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Lunga Lunga: The Border Town",
+      "sw": "Lunga Lunga: Mji wa Mpakani",
+      "dg": "Lunga Lunga: Mudzi wa Mphakani"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Lunga Lunga sits at the Kenya-Tanzania border, and its character is defined entirely by that location. The Lunga Lunga-Horohoro border crossing is the primary link between Kenyan and Tanzanian Digo communities, and the town thrives on the cross-border trade that flows through it — agricultural products, consumer goods, building materials, and the daily commerce of people who regard the border as an inconvenience rather than a barrier. Trade with the Tanga Region of Tanzania is the town's economic lifeblood.",
+      "sw": "Lunga Lunga iko kwenye mpaka wa Kenya na Tanzania, na tabia yake imefafanuliwa kabisa na eneo hilo. Kivuko cha mpaka cha Lunga Lunga-Horohoro ni kiungo kikuu kati ya jamii za Wadigo wa Kenya na Tanzania, na mji unastawi kwa biashara ya kuvuka mpaka inayopita ndani yake — mazao ya kilimo, bidhaa za walaji, vifaa vya ujenzi, na biashara ya kila siku ya watu wanaochukulia mpaka kuwa usumbufu badala ya kizuizi. Biashara na Mkoa wa Tanga wa Tanzania ndiyo uti wa mgongo wa kiuchumi wa mji.",
+      "dg": "Lunga Lunga i kpwenye mphaka wa Kenya na Tanzania, na tabiyaye ikafafanuliwa kabisa ni seemu iyo. Chivuko cha mphaka cha Lunga Lunga-Horohoro ni daraja kulu kahi ya jamii za Adigo a Kenya na Tanzania, na mudzi unastawi kpwa biashara ya kuvuka mphaka inayotsupa mwakpwe ndani — mazao ga chirimo, bidhaa za matumizi, vifaa vya ujenzi, na biashara ya chila siku ya atu anaoona mphaka kukala usumbufu badala ya chizuizi. Biashara na Mkoa wa Tanga wa Tanzania ndiyo uti wa mongo wa chiuchumi wa mudzi."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Lunga Lunga is also a constituency in its own right, and its border location gives it a distinctive cultural character. Tanzanian Digo cross to Kenyan markets; Kenyan Digo maintain family connections in Tanzania. The Chidigo spoken on both sides of the border is mutually intelligible with negligible dialectal variation. In this sense, Lunga Lunga is less a border town than a bridge town — a place where the artificial division of the Digo community is negotiated and, in the daily rhythms of trade and family life, effectively dissolved.",
+      "sw": "Lunga Lunga pia ni jimbo lake lenyewe, na eneo lake la mpakani linakipa tabia ya kipekee ya kitamaduni. Wadigo wa Tanzania wanavuka kwenda masoko ya Kenya; Wadigo wa Kenya wanadumisha uhusiano wa kifamilia Tanzania. Chidigo kinachozungumzwa pande zote mbili za mpaka kinaeleweka kwa pande zote bila tofauti kubwa za lahaja. Kwa maana hii, Lunga Lunga si mji wa mpakani zaidi bali ni mji wa daraja — mahali ambapo mgawanyo bandia wa jamii ya Wadigo unajadiliwa na, katika midundo ya kila siku ya biashara na maisha ya kifamilia, unapotezwa kwa ufanisi.",
+      "dg": "Lunga Lunga piya ni jimbo renyewe, na seemuye ya mphakani inaupha tabiya ya chipekee ya chitamaduni. Adigo a Tanzania anavuka kuphiya masoko ga Kenya; Adigo a Kenya anadumisha uhusiano wa chinyumba Tanzania. Chidigo chinachogombwa pande zosi mbiri za mphaka chinamanyikana ni pande zosi mbiri bila tafwauti kulu za lahaja. Kpwa mana hino, Lunga Lunga si mudzi wa mphakani zaidi ela ni mudzi wa daraja — seemu ambapho mgawanyo wa kutengezwa wa jamii ya Adigo unajadiriwa na, kpwenye midundo ya chila siku ya biashara na maisha ga chinyumba, unaangamika kabisa."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Chinango: The Inland Heartland",
+      "sw": "Chinango: Sehemu ya Ndani ya Moyo",
+      "dg": "Chinango: Seemu ya Ndani ya Moyo"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Though not exclusively a Digo town — Chinango is the heartland of the Duruma, the Digo's closest Mijikenda relatives — it deserves mention because it represents the inland dimension of Kwale County that the coastal towns do not. Chinango is semi-arid, more rural, and organized around a cattle economy rather than the coconut-and-fishing economy of the coast. Chronic food insecurity is the defining challenge here. The constituency's distance from the coast means less access to tourism revenue, less infrastructure investment, and a more traditional way of life. For the Digo who live in the coastal towns, Chinango is the hinterland — the place where the old ways persist most visibly, and where the poverty of Kwale County is most acutely felt.",
+      "sw": "Ingawa si mji wa Wadigo peke yake — Chinango ni eneo kuu la Waduruma, jamaa wa karibu zaidi wa Wadigo katika Mijikenda — unastahili kutajwa kwa sababu unawakilisha upande wa ndani wa Kaunti ya Kwale ambao miji ya pwani haiuwakilishi. Chinango ni nusu kame, mashambani zaidi, na umepangwa karibu na uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakula wa muda mrefu ndio changamoto kuu hapa. Umbali wa jimbo kutoka pwani unamaanisha upatikanaji mdogo wa mapato ya utalii, uwekezaji mdogo wa miundombinu, na njia ya maisha ya jadi zaidi. Kwa Wadigo wanaoishi katika miji ya pwani, Chinango ni sehemu ya nyuma — mahali ambapo njia za zamani zinaendelea kuonekana zaidi, na ambapo umaskini wa Kaunti ya Kwale unahisika zaidi.",
+      "dg": "Dzagbwe si mudzi wa Adigo bahi — Chinango ni seemu kulu ya Aduruma, ndugu a phephi zaidi a Adigo kpwenye Amijikenda — unafwaha kutajwa kpwa sababu unawakilisha uphande wa ndani wa Kaunti ya Kwale ambao midzi ya pwani tauwakilishi. Chinango ni nusu kame, wa vidzidzi zaidi, na ukapangwa kuzunguluka uchumi wa ng'ombe badala ya uchumi wa nazi na uvuvi wa pwani. Uhaba wa chakurya wa wakati mure ndio changamoto kulu phapha. Umbali wa jimbo kula pwanini manaye ni kuphaha mapato machache ga utalii, uwekezaji mdide wa miundombinu, na njira ya maisha ya kare zaidi. Kpwa Adigo anaoishi kpwenye midzi ya pwani, Chinango ni seemu ya nyuma — seemu ambapho njira za kare zinaenderera kuonekana zaidi, na ambapho uchiya wa Kaunti ya Kwale unahisika zaidi."
+    }
+  ]
+}

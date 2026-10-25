@@ -1,0 +1,204 @@
+{
+  "id": "culture/dress/kanga",
+  "title": {
+    "en": "The Kanga",
+    "sw": "Kanga",
+    "dg": "Kanga"
+  },
+  "intro": {
+    "en": "The kanga is, by any measure, one of the most remarkable textiles in the world. It is a rectangular piece of printed cotton, roughly one meter by one and a half, sold in pairs across East Africa —…",
+    "sw": "Kanga ni mojawapo ya nguo za ajabu zaidi duniani. Ni kipande cha pamba kilichochapishwa, kinachouzwa kwa jozi kote Afrika Mashariki. Kinatumika kama sketi, kitambaa cha kichwa, mtandio wa kubebea…",
+    "dg": "Kanga ni mwenga wa nguwo za ajabu zaidi duniani. Ni chipande cha pamba chirichochapishwa, cha mraba mrefu, karibu mita mwenga kpwa mita mwenga na nusu, chinachoguzwa kpwa gora kosi Afrika ya Mashariki —…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Cloth That Speaks",
+      "sw": "Kitambaa Kinachozungumza",
+      "dg": "Chitambara Chinachoamba"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The kanga is, by any measure, one of the most remarkable textiles in the world. It is a rectangular piece of printed cotton, roughly one meter by one and a half, sold in pairs across East Africa — from Mombasa to Dar es Salaam, from Zanzibar to Kampala. It is used as a skirt, a headscarf, a baby sling, a tablecloth, a curtain, a shroud. It is cheap enough for the poorest woman to afford and culturally significant enough to be exchanged as a gift at the most important moments of life. But what elevates the kanga beyond the merely functional or decorative is this: it talks. Every kanga carries a message, and among the Digo women of the Kenyan south coast, the art of speaking through cloth has been refined into a form of communication as nuanced and powerful as any spoken language.",
+      "sw": "Kanga ni mojawapo ya nguo za ajabu zaidi duniani. Ni kipande cha pamba kilichochapishwa, kinachouzwa kwa jozi kote Afrika Mashariki. Kinatumika kama sketi, kitambaa cha kichwa, mtandio wa kubebea mtoto, kitambaa cha meza, na sanda. Lakini kinachoinua kanga zaidi ya kazi au mapambo ni hili: inazungumza. Kila kanga inabeba ujumbe, na miongoni mwa wanawake wa Wadigo, sanaa ya kuzungumza kupitia kitambaa imekomaa kuwa aina ya mawasiliano yenye nguvu kama lugha yoyote inayozungumzwa.",
+      "dg": "Kanga ni mwenga wa nguwo za ajabu zaidi duniani. Ni chipande cha pamba chirichochapishwa, cha mraba mrefu, karibu mita mwenga kpwa mita mwenga na nusu, chinachoguzwa kpwa gora kosi Afrika ya Mashariki — kula Mombasa hadi Dar es Salaam, kula Unguja hadi Kampala. Chinahumirwa dza sketi, chiremba, chitambara cha kuerekera mwana, chitambara cha meza, paziya, na sanda. Ni ya bei nafuu hata mchiya kabisa anaweza kuigula, na ina umuhimu wa chimila wa kutosha kuphanwa dza zawadi kahi ya nyakati muhimu zaidi za maisha. Ela chinachoinula kanga zaidi ya kazi au pambo ni hiri: inagomba. Chila kanga inatsukula ujumbe, na kahi ya achetu Adigo a pwani ya kusini ya Kenya, sanaa ya kugomba kuphitiya chitambara ikakala aina ya mawasiliano yenye nguvu na undani dza luga yoyosi inayogombwa."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Anatomy of a Kanga",
+      "sw": "Kila kanga ina vipengele vitatu: pindo (mpaka wenye muundo), mji (uwanja wa kati wenye muundo mkuu), na jina — bendi ya maandishi inayobeba usemi. Jina ndiyo roho ya kanga — kipengele kinachobadilisha kipande cha kitambaa kuwa njia ya mawasiliano.",
+      "dg": "Seemu za Kanga"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Every kanga is constructed from three distinct visual elements, each with its own name and function. The pindo is the patterned border that frames the cloth on all four sides — a decorative boundary that gives the kanga its visual structure and distinguishes it from other printed textiles. The mji is the central field, carrying the main design motif: floral patterns, geometric forms, images of objects, or abstract compositions that give each kanga its distinctive face. And the jina — literally \"name\" — is the text band running along the bottom of the cloth, carrying an inscription in Swahili, and sometimes in other coastal languages including Chidigo.",
+      "sw": "Maandishi yanayoongezwa kwenye kanga yalianza miaka ya 1930. Leo, jina ya kanga ni mojawapo ya aina hai zaidi za fasihi maarufu Afrika Mashariki. Maandishi yanaanzia falsafa hadi vitendo, kutoka upole hadi uharibifu. Kutokuwa moja kwa moja ni ufundi wa pekee wa kanga — mwanamke anaweza \"kusema\" kupitia kitambaa chake kile ambacho hawezi kusema kwa sauti yake.",
+      "dg": "Chila kanga inaundwa ni seemu tahu za kuonekana, chila mwenga na dzinare na kaziye. Pindo ni mphaka wenye nakshi unaozunguluka chitambara pande zosi nne — mphaka wa pambo unaopha kanga umbore na kuihenda ikale tafwauti na vitambara vyanjina virivyochapishwa. Mji ni uwanja wa kahi-kahi, unaotsukula nakshi kulu: maua, maumbo ga chijiometri, picha za vitu, au michoro inayopha chila kanga suraye ya chipekee. Na jina — maanaye ni \"dzina\" — ni mstari wa maneno uriko photsi ya chitambara, unaotsukula maandishi ga Chiswahili, na wakati wanjina ga luga zanjina za pwani, phamwenga na Chidigo."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The jina is the kanga's soul. It is the element that transforms a piece of printed fabric into a communication medium, that gives the kanga its social power and its cultural depth. Without the jina, a kanga would be merely a pretty cloth. With it, the kanga becomes a portable billboard, a love letter, a warning, a boast, a lament, a prayer, a weapon.",
+      "sw": "Mila tofauti ya methali za kanga za Chidigo ipo pamoja na mkusanyo mkuu wa Kiswahili. Methali hizi za Digo kwenye kanga zinawakilisha mila ya kifasihi iliyojumuishwa katika utamaduni wa kimwili. Kanga ya Kishutu — nyeusi, nyekundu, na nyeupe — ina umuhimu wa kipekee wa kiroho, inaaminika kuzuia uovu na kuleta uponyaji.",
+      "dg": "Jina ndiro roho ya kanga. Ndicho chipengele chinachobadilisha chipande cha chitambara chirichochapishwa kukala chombo cha mawasiliano, chinachopha kanga nguvuze za chijamii na undaniwe wa chimila. Bila jina, kanga ingekala chitambara chinono bahi. Na jina, kanga inakala tangazo rinarotsukulika, baruwa ya mendzwa, onyo, kudzivuna, chiriro, mavoyo, silaha."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Messaging Tradition",
+      "sw": "Kanga inamsindikiza mwanamke wa Kidigo kutoka wakati wa kwanza wa maisha hadi wa mwisho. Mtoto mchanga anafungwa kanga. Katika ujana, msichana anaanza kuchagua kanga zake mwenyewe. Katika ndoa, kanga zinabadilishwa na kutumwa kama mawasiliano. Na katika kifo, kanga inajiunga na sanda, ikifunga mwili kwa safari yake ya mwisho. Kanga inadumu kwa sababu imefumwa, kwa maana halisi na ya kina zaidi, ndani ya maisha yenyewe.",
+      "dg": "Mila ya Ujumbe"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The practice of adding text to kangas began in the 1930s, when manufacturers in Mombasa and Zanzibar discovered that inscriptions dramatically increased sales. Women wanted cloths that said something — that gave them a voice they could wear. The tradition took hold with extraordinary speed and has never weakened. Today, the kanga jina is one of the most vibrant forms of popular literature in East Africa, a continuously evolving corpus of proverbs, aphorisms, and pointed commentary that reflects the concerns, values, and wit of the women who buy and wear these cloths.",
+      "sw": "Desturi ya kuongeza maandishi kwenye kanga ilianza miaka ya 1930, wakati watengenezaji huko Mombasa na Zanzibar waligundua kuwa maandishi yaliongeza mauzo kwa kiasi kikubwa. Wanawake walitaka nguo zilizosema kitu — zilizowapa sauti wanayoweza kuvaa. Mila hiyo ilijikita kwa kasi ya ajabu na haijapungua kamwe. Leo, kanga jina ni mojawapo ya aina hai zaidi za fasihi ya watu katika Afrika Mashariki, mkusanyiko unaoendelea kubadilika wa methali, misemo, na maoni makali yanayoonyesha wasiwasi, thamani, na akili ya wanawake wanaonunua na kuvaa nguo hizi.",
+      "dg": "Desturi ya kuenjereza maandishi kpwa kanga yaandza miaka ya 1930, wakati atengenezaji iko Mombasa na Unguja agundua kukala maandishi gaenjereza mauzo kpwa unji. Achetu alonda nguwo zirizogomba chitu — zirizoapha sauti ambayo anaweza kuivwala. Mila iyo yadzikita kpwa upesi wa ajabu na hadi rero ina nguvu zizo-zizo. Rero, kanga jina ni mwenga kahi ya aina hai zaidi za fasihi ya atu kahi ya Afrika ya Mashariki, mkusanyiko unaoenderera kubadilika wa ndarira, misemo, na maoni makali ganagoonyesa wasiwasi, samani, na akili ya achetu anaogula na kuvwala nguwo hizi."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The inscriptions range from the philosophical to the practical, from the tender to the devastating. \"The world turns, but God remains\" speaks to faith and endurance. A love message wrapped around the hips declares affection without the speaker ever opening her mouth. A pointed critique directed at a rival or a disappointing husband arrives not through confrontation but through fabric — visible to everyone, deniable by the wearer, and devastating in its indirectness. \"I said nothing,\" a woman can protest when challenged about her kanga's message. \"It's just a cloth.\"",
+      "sw": "Maandishi yanatofautiana kutoka ya kifalsafa hadi ya vitendo, kutoka ya upole hadi ya kuangamiza. \"Dunia inazunguka, lakini Mungu anabaki\" inazungumza juu ya imani na ustahimilivu. Ujumbe wa mapenzi uliofungwa kiunoni unatangaza upendo bila mzungumzaji kufungua kinywa chake. Ukosoaji mkali ulioelekezwa kwa mpinzani au mume wa kukatisha tamaa unafika si kwa makabiliano bali kupitia kitambaa — unaoonekana kwa kila mtu, unaoweza kukanushwa na mvaaji, na wenye nguvu katika ujumbe wake usio wa moja kwa moja. \"Sijasema chochote,\" mwanamke anaweza kupinga anapohojiwa kuhusu ujumbe wa kanga yake. \"Ni nguo tu.\"",
+      "dg": "Maandishi ni ga aina tafwauti, kula ga chifalsafa hadi ga chivitendo, kula ga upole hadi ga kuangamiza. \"Dunia inazunguka, ela Mlungu anasala\" inagomba kuhusu imani na kuvumirira. Ujumbe wa mahaba uriokungwa chibiruni unatangaza mendzwa bila mgombi kuvugula mromowe. Ukosoaji mkali urioelekezwa kpwa mphingani au mlume wa kukatisha tamaa unafika si kpwa makabiliano ela kuphitiya chitambara — chinaonekana ni chila mutu, chinaweza kukanushwa ni ariyechivwala, na chenye nguvu kahi ya ujumbewe usio wa wazi. \"Sigagomba chitu,\" mchetu anaweza kupinga anaphohojiwa kuhusu ujumbe wa kangaye. \"Ni nguwo bahi.\""
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This indirectness is the kanga's particular genius as a communication tool. In a social context where direct confrontation — especially by women — carries significant social cost, the kanga provides an alternative channel. A woman can \"say\" through her cloth what she might never say with her voice. She can express desire, frustration, jealousy, pride, devotion, and contempt — all while maintaining the appearance of simply wearing a pretty garment. The message is public but plausibly deniable, visible but technically unspoken. It is communication with a built-in escape hatch, and the Digo women of the coast have mastered this art across generations.",
+      "sw": "Ujumbe huu usio wa moja kwa moja ndio akili ya pekee ya kanga kama chombo cha mawasiliano. Katika muktadha wa kijamii ambapo makabiliano ya moja kwa moja — hasa na wanawake — yanabeba gharama kubwa ya kijamii, kanga inatoa njia mbadala. Mwanamke anaweza \"kusema\" kupitia nguo yake kile ambacho huenda asiseme kamwe kwa sauti yake. Anaweza kueleza tamaa, kukatishwa tamaa, wivu, kiburi, ujitoaji, na dharau — yote huku akidumisha mwonekano wa kuvaa tu nguo nzuri. Ujumbe ni wa hadharani lakini unaweza kukanushwa, unaoonekana lakini kiufundi haujasemwa. Ni mawasiliano yenye mlango wa kutoroka uliojengwa ndani, na wanawake Wadigo wa pwani wameimudu sanaa hii kwa vizazi.",
+      "dg": "Ujumbe huno usio wa wazi ndio akili ya chipekee ya kanga dza chombo cha mawasiliano. Kahi ya mazingira ga chijamii ambamo makabiliano ga wazi — hasa ni achetu — ganatsukula gharama kulu ya chijamii, kanga inatolea njira yanjine. Mchetu anaweza \"kugomba\" kuphitiya nguwoye chiricho asingegomba katu kpwa sautiye. Anaweza kuelezera tamaa, kukatishwa tamaa, wivu, ngòho, kudzitolea, na kudharau — gosi achidumisha mwonekano wa kuvwala bahi nguwo nono. Ujumbe ni wa wazi ela unaweza kukanushwa, unaoonekana ela chiufundi taugombwa. Ni mawasiliano yenye murango wa kutoroka uriodzengbwa ndani, na achetu Adigo a pwani akaimudu sanaa hino kpwa vizazi."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Digo Kanga Proverbs",
+      "sw": "Methali za Kanga za Kidigo",
+      "dg": "Ndarira za Kanga za Chidigo"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "While the majority of kanga jina are written in standard Swahili, a distinct tradition of Digo-language kanga proverbs exists alongside the mainstream corpus. These Chidigo inscriptions represent something important: a literary tradition embedded in material culture, a form of written Digo that predates many formal literacy efforts and that reaches an audience far broader than any book or newspaper. A Digo kanga proverb is simultaneously a textile, a piece of clothing, a work of art, and a text — collapsing the boundaries between literature and daily life in a way that few other cultural forms achieve.",
+      "sw": "Ingawa kanga jina nyingi zimeandikwa kwa Kiswahili sanifu, mila tofauti ya methali za kanga za lugha ya Kidigo ipo pamoja na mkusanyiko mkuu. Maandishi haya ya Chidigo yanawakilisha kitu muhimu: mila ya kifasihi iliyojikita katika utamaduni wa kimali, aina ya Kidigo kilichoandikwa kinachotangulia juhudi nyingi rasmi za kusoma na kuandika na kinachofikia hadhira pana zaidi kuliko kitabu au gazeti lolote. Methali ya kanga ya Kidigo ni wakati huo huo kitambaa, kipande cha nguo, kazi ya sanaa, na maandishi — ikiangusha mipaka kati ya fasihi na maisha ya kila siku kwa njia ambayo aina chache za kitamaduni zinafanikiwa.",
+      "dg": "Ingawa kanga jina nyinji zikaandikpwa kpwa Chiswahili sanifu, mila tafwauti ya ndarira za kanga za luga ya Chidigo iriko phamwenga na mkusanyiko mkpwulu. Maandishi higa ga Chidigo ganawakilisha chitu muhimu: mila ya chifasihi iriyodzikita kahi ya utamaduni wa vitu, aina ya Chidigo chirichoandikwa chinachotangulia juhudi nyinji rasmi za kusoma na kuandika na chinachofikia aogalana nao anji zaidi kuriko chitabu au gazeti rorosi. Ndarira ya kanga ya Chidigo ni wakati uwo-uwo chitambara, chipande cha nguwo, kazi ya sanaa, na maandishi — ichiusa miphaka kahi ya fasihi na maisha ga chila siku kpwa njira ambayo aina chache za chimila zinafanikiwa."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The Digo kanga proverbs draw from the community's oral tradition — the same well of wisdom that feeds storytelling, song lyrics, and elder speeches — but the textile medium imposes its own discipline. A jina must be brief, memorable, and ambiguous enough to apply to multiple situations while specific enough to carry real meaning. The best kanga proverbs achieve this balance with the economy of poetry: a few words that open into a wide field of interpretation, speaking differently to each woman who reads them depending on her circumstances.",
+      "sw": "Methali za kanga za Kidigo zinatoka katika mila ya mdomo ya jamii — kisima kile kile cha hekima kinacholisha hadithi, maneno ya nyimbo, na hotuba za wazee — lakini chombo cha kitambaa kinaweka nidhamu yake yenyewe. Jina lazima iwe fupi, ya kukumbukwa, na yenye utata wa kutosha kutumika katika hali nyingi huku ikiwa maalum ya kutosha kubeba maana halisi. Methali bora za kanga zinafanikiwa kupata uwiano huu kwa uchumi wa ushairi: maneno machache yanayofunguka kuwa uwanja mpana wa tafsiri, yakizungumza tofauti kwa kila mwanamke anayeisoma kulingana na hali yake.",
+      "dg": "Ndarira za kanga za Chidigo zinatoka kahi ya mila ya kanwa ya utsi — chisima chicho-chicho cha ikima chinachorisa hadisi, maneno ga mawira, na hotuba za azehe — ela chombo cha chitambara chinabeka nidhamuye yenye. Jina ni lazima ikale fupi, ya kutambukirwa, na yenye utata wa kutosha kuhumirwa kahi ya hali nyinji ela ichikala maalumu ya kutosha kutsukula maana ya kpweli. Ndarira bora za kanga zinafanikiwa kuphaha uwiano huno kpwa uchumi wa ushairi: maneno machache ganagofungukirwa kukala uwanja mphana wa kutafsiri, gachigomba tafwauti kpwa chila mchetu anayegasoma kulingana na haliye."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Kanga ya Kishutu",
+      "sw": "Kanga ya Kishutu",
+      "dg": "Kanga ya Kishutu"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Among the many varieties of kanga, one holds special spiritual significance for the Digo: the kanga ya Kishutu. These are distinguished by their color scheme — black, red, and white in bold, traditional patterns — and by the spiritual properties attributed to them. The kanga ya Kishutu is believed to ward off evil and to bring healing, and it occupies a place in Digo spiritual practice that ordinary kangas do not. It is not simply worn for fashion or communication. It is worn for protection, used in healing rituals, and regarded with a respect that reflects its perceived connection to forces beyond the material.",
+      "sw": "Miongoni mwa aina nyingi za kanga, moja ina umuhimu maalum wa kiroho kwa Wadigo: kanga ya Kishutu. Hizi zinajulikana kwa mpango wao wa rangi — nyeusi, nyekundu, na nyeupe katika nakshi za jadi za ujasiri — na kwa sifa za kiroho zinazohusishwa nazo. Kanga ya Kishutu inaaminika kuzuia uovu na kuleta uponyaji, na inashikilia nafasi katika mazoezi ya kiroho ya Wadigo ambayo kanga za kawaida hazishikili. Haivaliwi tu kwa mtindo au mawasiliano. Inavaliwa kwa kinga, inatumika katika ibada za uponyaji, na inaheshimiwa kwa heshima inayoonyesha uhusiano wake unaoonekana na nguvu za zaidi ya kimali.",
+      "dg": "Kahi ya aina nyinji za kanga, mwenga ina umuhimu maalumu wa chiroho kpwa Adigo: kanga ya Kishutu. Hizi zinamanyikana kpwa mphango wao wa rangi — nyiru, kundu, na nyereru kahi ya nakshi za chijadi za ujasiri — na kpwa sifa za chiroho zinazohusishwa nazo. Kanga ya Kishutu inaaminiwa kuzuwiya uyi na kureha uphonyaji, na inashikilia nafasi kahi ya mazoezi ga chiroho ga Adigo ambayo kanga za kawaida tazishikili. Taivwalwa bahi kpwa mtindo au mawasiliano. Inavwalwa kpwa kudzikinga, inahumirwa kahi ya ibada za kuphoza, na inaishimiwa kpwa hishima inayoonyesa uhusianowe unaoonekana na nguvu za zaidi ya za chivitu."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The name Kishutu connects to the Shimba Hills hinterland — the landscape that forms the Digo ancestral territory — and the kanga's spiritual associations may reflect older textile traditions that predate the commercial kanga industry. In the kanga ya Kishutu, the commercial and the sacred intersect: a mass-produced textile becomes a spiritual object, its power located not in its material composition but in its design, its colors, and the community's belief in its efficacy. This intersection is characteristic of Digo culture, which has consistently found ways to infuse commercial and modern objects with traditional spiritual meaning.",
+      "sw": "Jina Kishutu linaunganisha na nyanda za milima ya Shimba — mazingira yanayounda eneo la mababu la Wadigo — na uhusiano wa kiroho wa kanga unaweza kuonyesha mila za zamani za vitambaa zinazotangulia sekta ya kanga ya kibiashara. Katika kanga ya Kishutu, ya kibiashara na takatifu zinakutana: kitambaa kilichotengenezwa kwa wingi kinakuwa kitu cha kiroho, nguvu yake ikiwa si katika muundo wake wa kimali bali katika ubunifu wake, rangi zake, na imani ya jamii katika ufanisi wake. Makutano haya ni sifa ya utamaduni wa Kidigo, ambao kwa uthabiti umepata njia za kuingiza vitu vya kibiashara na vya kisasa na maana ya kiroho ya jadi.",
+      "dg": "Dzina Kishutu rinaunganisha na nyanda za miango ya Shimba — mazingira ganagounda tsi ya kare ya Adigo — na uhusiano wa chiroho wa kanga unaweza kuonyesa mila za kare za vitambara zinazotangulia sekta ya kanga ya chibiashara. Kahi ya kanga ya Kishutu, chibiashara na chitakatifu zinakutana: chitambara chirichotengezwa kpwa unji chinakala chitu cha chiroho, nguvuye ichikala si kahi ya muundowe wa chivitu ela kahi ya ubunifuwe, rangize, na imani ya utsi kahi ya ufanisiwe. Makutano higa ni sifa ya chimila cha Chidigo, ambacho kpwa uthabiti chikaphaha njira za kuingiza vitu vya chibiashara na vya chisasa na maana ya chiroho ya chijadi."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Kanga in Daily Life",
+      "sw": "Kanga katika Maisha ya Kila Siku",
+      "dg": "Kanga kahi ya Maisha ga Chila Siku"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "For Digo women, the kanga is the most versatile garment in their wardrobe. Wrapped as a skirt, it covers the lower body for daily tasks. Draped over the shoulders, it provides warmth in the cool coastal mornings and protection from the afternoon sun. Tied over the head, it becomes a head covering suitable for mosque, market, or kitchen. Wrapped in a specific configuration around the torso, it creates a secure sling for carrying a baby on the back or hip — a function so fundamental that many Digo women cannot imagine infant care without a kanga. The same cloth that carries a proverb and a printed design serves, in its simplest function, as the most practical piece of fabric in a woman's life.",
+      "sw": "Kwa wanawake Wadigo, kanga ni nguo yenye matumizi mengi zaidi katika kabati lao. Ikifungwa kama sketi, inafunika mwili wa chini kwa kazi za kila siku. Ikiwekwa mabegani, inatoa joto asubuhi za baridi za pwani na kinga kutoka jua la alasiri. Ikifungwa kichwani, inakuwa kifuniko cha kichwa kinachofaa kwa msikiti, soko, au jikoni. Ikifungwa kwa mpangilio maalum kuzunguka mwili, inaunda kibeba salama cha kubeba mtoto mgongoni au kiunoni — kazi muhimu sana hivi kwamba wanawake wengi Wadigo hawawezi kufikiria utunzaji wa watoto wachanga bila kanga. Nguo ile ile inayobeba methali na muundo uliochapwa inatumikia, katika kazi yake rahisi zaidi, kama kipande cha kitambaa cha vitendo zaidi katika maisha ya mwanamke.",
+      "dg": "Kpwa achetu Adigo, kanga ni nguwo yenye matumizi manji zaidi kahi ya kabati rao. Ichikungwa dza sketi, inafunika mwiri wa tsini kpwa kazi za chila siku. Ichiikpwa mafugani, inapha moho ligundzu ra mnyevu ra pwani na kinga kula dzuwa ra dziloni. Ichikungwa chitswani, inakala chifuniko cha chitswa chinachofwaha kpwa msikiti, soko, au dzikoni. Ichikungwa kpwa mpangilio maalumu kuzunguluka mwiri, inaumba chibeba salama cha kutsukula mwana chibironi au chiruni — kazi muhimu sana hivi achetu anji Adigo taaweza kufikiria utunzaji wa ana adide bila kanga. Nguwo iyo-iyo inayotsukula ndarira na muundo uriochapwa inatumikiya, kahi ya kaziye rahisi zaidi, dza chipande cha chitambara cha chivitendo zaidi kahi ya maisha ga mchetu."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "In the kitchen, kangas serve as aprons, pot holders, and surface covers. Worn-out kangas become cleaning cloths, patches, and scraps for other uses. The lifecycle of a kanga — from purchase to daily wear to household utility to final disposal — mirrors the Digo approach to material culture more broadly: nothing is wasted, everything finds a use, and the boundary between the aesthetic and the practical is porous.",
+      "sw": "Jikoni, kanga zinatumika kama epuroni, vishikio vya sufuria, na vifuniko vya uso. Kanga zilizochakaa zinakuwa vitambaa vya kusafisha, viraka, na vipande kwa matumizi mengine. Mzunguko wa maisha wa kanga — kutoka kununua hadi kuvaa kila siku hadi matumizi ya nyumbani hadi kutupwa mwishoni — unaonyesha mtazamo wa Kidigo kwa utamaduni wa kimali kwa ujumla: hakuna kinachopotea, kila kitu kinapata matumizi, na mpaka kati ya uzuri na vitendo ni wa kupenyeka.",
+      "dg": "Dzikoni, kanga zinahumirwa dza epuroni, vishikio vya nyungu, na vifuniko vya dzulu. Kanga zirizochakala zinakala vitambara vya kusafisha, viraka, na vipande kpwa matumizi ganjine. Mzunguko wa maisha wa kanga — kula kugula hadi kuvwala chila siku hadi matumizi ga nyumbani hadi kutupwa mwishoni — unaonyesa mtazamo wa Chidigo kpwa utamaduni wa vitu kpwa ujumla: takuna chinachoangamika, chila chitu chinaphaha matumizi, na mphaka kahi ya urembo na chivitendo ni wa kupenyeka."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Market Culture",
+      "sw": "Utamaduni wa Soko",
+      "dg": "Utamaduni wa Soko"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Buying kangas is itself a social practice with its own rituals and pleasures. The kanga stalls in Mombasa's markets, in Ukunda, in Likoni, in Msambweni — these are spaces where women gather, browse, compare, negotiate, and socialize. Choosing a kanga is rarely a solitary act. Women shop together, advising each other on patterns and colors, debating the merits of different jina, and occasionally steering a friend away from a message that might cause trouble. The market transaction is embedded in a web of social relationships that extend far beyond the exchange of money for cloth.",
+      "sw": "Kununua kanga ni yenyewe desturi ya kijamii yenye ibada na raha zake. Vibanda vya kanga katika masoko ya Mombasa, Ukunda, Likoni, Msambweni — hizi ni nafasi ambapo wanawake hukutana, kutazama, kulinganisha, kujadiliana, na kushirikiana. Kuchagua kanga mara chache ni kitendo cha faragha. Wanawake hununua pamoja, wakishauriana kuhusu nakshi na rangi, wakijadili faida za jina tofauti, na wakati mwingine wakimwelekeza rafiki mbali na ujumbe ambao unaweza kuleta shida. Muamala wa soko umejikita katika mtandao wa mahusiano ya kijamii yanayoenea mbali zaidi ya ubadilishanaji wa pesa kwa nguo.",
+      "dg": "Kugula kanga ni yenyewe desturi ya chijamii yenye ibada na rahaze. Vibanda vya kanga kahi ya masoko ga Mombasa, Ukunda, Likoni, Msambweni — hizi ni nafasi ambamo achetu anakutana, analola, analinganisha, anajadiliana, na anashirikiana. Kugula kanga mara chache ni chitendo cha mutu macheye. Achetu anagula phamwenga, achishauriana kuhusu nakshi na rangi, achijadili fwaida za jina tafwauti, na wakati wanjine achimlongoza myawe mbali na ujumbe ambao unaweza kureha tabu. Muamala wa soko ukadzikita kahi ya mtandao wa mahusiano ga chijamii ganagoenderera kure zaidi ya kubadilishana pesa kpwa nguwo."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Kanga gifting carries its own elaborate social meaning. Giving a kanga to another woman can signal friendship, gratitude, solidarity, or apology. The choice of pattern and message is itself a communication — the giver selects a cloth whose jina says something she wants the recipient to hear. At weddings, kangas are gifted in quantity, contributing to the bride's trousseau and establishing the network of reciprocal obligation that sustains community relationships. At funerals, kangas accompany the body — used alongside the white burial cloth, connecting the deceased to the textile traditions that shaped her living days.",
+      "sw": "Kutoa zawadi ya kanga kunabeba maana yake ya kijamii ya kina. Kumpa mwanamke mwingine kanga kunaweza kuashiria urafiki, shukrani, mshikamano, au msamaha. Chaguo la nakshi na ujumbe ni yenyewe mawasiliano — mtoaji anachagua nguo ambayo jina yake inasema kitu anachotaka mpokeaji asikie. Katika harusi, kanga zinatolewa kwa wingi, zikichangia mahari ya bibi arusi na kuanzisha mtandao wa wajibu wa kurudishiana unaodumisha mahusiano ya jamii. Katika mazishi, kanga zinaandamana na mwili — zikitumika pamoja na nguo nyeupe ya mazishi, zikimunganisha marehemu na mila za vitambaa zilizoshekla maisha yake ya kuishi.",
+      "dg": "Kupha zawadi ya kanga kunatsukula maanaye ya chijamii ya ndani. Kumupha mchetu wanjina kanga kunaweza kuashiriya umyangu, shukrani, umwenga, au msamaha. Chaguo ra nakshi na ujumbe ni renyewe mawasiliano — muphaji anagula nguwo ambayo jinaye inagomba chitu anacholonda mphokezi asikire. Kahi ya arusi, kanga zinaphiwa kpwa unji, zichichangiya vitu vya bibi arusi na kudzenga mtandao wa wajibu wa kurudishiana unaodumisha mahusiano ga utsi. Kahi ya mazishi, kanga zinaandamana na mwiri — zichihumirwa phamwenga na nguwo nyereru ya mazishi, zichimunganisha marehemu na mila za vitambara zirizounda maishage ga kuishi."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "Kanga as Social Commentary",
+      "sw": "Kanga kama Maoni ya Kijamii",
+      "dg": "Kanga dza Maoni ga Chijamii"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "Perhaps the kanga's most powerful function is as a vehicle for social commentary. The jina corpus includes inscriptions that comment on marriage dynamics, gender relations, economic inequality, and community politics with a directness that belies the apparently innocuous medium of a printed cloth. A woman wearing a kanga that reads \"Patience is a virtue, but mine has limits\" is making a public statement about her circumstances — a statement that everyone can read but no one can explicitly attribute to her, since she is, after all, merely wearing a garment she purchased at the market.",
+      "sw": "Labda kazi yenye nguvu zaidi ya kanga ni kama chombo cha maoni ya kijamii. Mkusanyiko wa jina unajumuisha maandishi yanayotoa maoni kuhusu mienendo ya ndoa, mahusiano ya kijinsia, ukosefu wa usawa wa kiuchumi, na siasa za jamii kwa uwazi unaopinga chombo kinachoonekana kuwa cha kawaida cha nguo iliyochapwa. Mwanamke anayevaa kanga inayosoma \"Subira ni fadhila, lakini yangu ina mipaka\" anatoa tamko la hadharani kuhusu hali yake — tamko ambalo kila mtu anaweza kusoma lakini hakuna anayeweza kumhusisha rasmi, kwani yeye, baada ya yote, anavaa tu nguo aliyonunua sokoni.",
+      "dg": "Ichiwezekana kazi yenye nguvu zaidi ya kanga ni dza chombo cha maoni ga chijamii. Mkusanyiko wa jina unajumuisha maandishi ganagotolea maoni kuhusu mienendo ya ndowa, mahusiano ga chilume na chichetu, ukosefu wa usawa wa chiuchumi, na siasa za utsi kpwa uwazi unaopinga chombo chinachoonekana kukala cha kawaida cha nguwo iriyochapwa. Mchetu anayevwala kanga inayosoma \"Kuvumirira ni fadhila, ela yangu ina miphaka\" analavya tamko ra wazi kuhusu haliye — tamko ambaro chila mutu anaweza kusoma ela takuna anayeweza kumhusisha rasmi, kpwa sababu ye, bada ya gosi, anavwala bahi nguwo ariyogula sokoni."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "The social commentary function is particularly potent in the dynamics between co-wives, between a wife and her in-laws, and between women competing for social standing within a community. The kanga becomes a weapon of the weak — a way for women who may have limited formal power to exert influence, express dissatisfaction, and participate in social discourse through a medium they control. The men of the coast are well aware of this function. \"Read her kanga before you judge her mood\" is advice that any experienced husband on the Kenyan coast could offer.",
+      "sw": "Kazi ya maoni ya kijamii ina nguvu hasa katika mienendo kati ya wake wenza, kati ya mke na wakwe zake, na kati ya wanawake wanaoshindania hadhi ya kijamii ndani ya jamii. Kanga inakuwa silaha ya dhaifu — njia ya wanawake ambao wanaweza kuwa na nguvu rasmi ndogo kutumia ushawishi, kueleza kutoridhika, na kushiriki katika mazungumzo ya kijamii kupitia chombo wanachokidhibiti. Wanaume wa pwani wanafahamu vizuri kazi hii. \"Soma kanga yake kabla hujamhukumu hali yake\" ni ushauri ambao mume yeyote mwenye uzoefu wa pwani ya Kenya angeweza kutoa.",
+      "dg": "Kazi ya maoni ga chijamii ina nguvu hasa kahi ya mienendo kahi ya achetu-enza, kahi ya mkpwaza na akwee, na kahi ya achetu anaoshindania hadhi ya chijamii ndani ya utsi. Kanga inakala silaha ya dhaifu — njira ya achetu ambao anaweza kukala na nguvu rasmi ndide kuhumira ushawishi, kuelezera kutoridhika, na kushiriki kahi ya mazungumzo ga chijamii kuphitiya chombo anachochidhibiti. Alume a pwani anafahamu vinono kazi hino. \"Soma kangaye kabla kudzangbwemhukumu haliye\" ni ushauri ambao mlume yeyesi mwenye uzoevu wa pwani ya Kenya angeweza kupha."
+    },
+    {
+      "id": "b025",
+      "type": "heading",
+      "en": "From Birth to Death",
+      "sw": "Tangu Kuzaliwa hadi Kufa",
+      "dg": "Hangu Kuvyalwa hadi Kufwa"
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "The kanga accompanies a Digo woman from the first moments of life to the last. A newborn is wrapped in a kanga — the soft cotton against new skin, the proverb band perhaps carrying a blessing the child cannot yet read but that the mother chose with care. Throughout childhood, the kanga serves as a carrying cloth, a blanket, a shade. In adolescence, a girl begins to choose her own kangas, learning the art of message selection that will serve her through adulthood. In marriage, kangas are exchanged, gifted, displayed, and deployed in the complex communications of domestic life. In old age, the kangas a woman has accumulated over a lifetime become a textile archive of her experiences, each cloth linked to a memory, a message, a moment. And at death, the kanga joins the burial cloth, wrapping the body for its final journey.",
+      "sw": "Kanga inamsindikiza mwanamke Mdigo tangu wakati wa kwanza wa maisha hadi wa mwisho. Mtoto mchanga anafungwa kanga — pamba laini dhidi ya ngozi mpya, mstari wa methali labda ukibeba baraka ambayo mtoto bado hawezi kusoma lakini ambayo mama alichagua kwa uangalifu. Katika utoto wote, kanga inatumika kama nguo ya kubeba, blanketi, na kivuli. Katika ujana, msichana anaanza kuchagua kanga zake mwenyewe, akijifunza sanaa ya kuchagua ujumbe itakayomtumikia katika utu uzima. Katika ndoa, kanga zinabadilishwa, zinatolewa zawadi, zinaonyeshwa, na zinatumika katika mawasiliano magumu ya maisha ya nyumbani. Katika uzee, kanga ambazo mwanamke amekusanya katika maisha yake yote zinakuwa hifadhi ya kitambaa ya uzoefu wake, kila nguo ikihusishwa na kumbukumbu, ujumbe, wakati. Na katika kifo, kanga inajiunga na nguo ya mazishi, ikifunga mwili kwa safari yake ya mwisho.",
+      "dg": "Kanga inaandamana na mchetu Mdigo hangu wakati wa kpwandza wa maisha hadi wa mwisho. Mwana muphya anakungwa kanga — pamba laini kpwa ngozi muphya, mstari wa ndarira ichiwezekana uchitsukula baraka ambayo mwana bado kaweza kusoma ela ambayo nine akatsambula kpwa uangalifu. Kahi ya udide wosi, kanga inahumirwa dza nguwo ya kutsukula, blanketi, na chivuri. Kahi ya ujana, msichana anaandza kugula kangaze mwenyewe, achidzifundza sanaa ya kutsambula ujumbe ambao undamtumikiya kahi ya ukulu. Kahi ya ndowa, kanga zinabadilishwa, zinaphiwa zawadi, zinaonyeswa, na zinahumirwa kahi ya mawasiliano magumu ga maisha ga nyumbani. Kahi ya uzere, kanga ambazo mchetu akakusanya kahi ya maishage gosi zinakala hifadhi ya chitambara ya uzoevuwe, chila nguwo ichihusishwa na kumbukumbu, ujumbe, wakati. Na kahi ya chifo, kanga inadziunga na nguwo ya mazishi, ichikunga mwiri kpwa safariye ya mwisho."
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "This cradle-to-grave presence makes the kanga something more than a garment or a communication medium. It is a companion — a constant presence through all the stages of a Digo woman's life, adapting its function to each new need while maintaining the continuity of its material presence. The kanga endures because it is, in the most literal and the most profound sense, woven into life itself.",
+      "sw": "Uwepo huu tangu utotoni hadi kaburini unafanya kanga kuwa kitu zaidi ya nguo au chombo cha mawasiliano. Ni mwandamani — uwepo wa kudumu kupitia hatua zote za maisha ya mwanamke Mdigo, ikibadilisha kazi yake kwa kila hitaji jipya huku ikidumisha mwendelezo wa uwepo wake wa kimali. Kanga inadumu kwa sababu ni, kwa maana halisi zaidi na ya kina zaidi, imefumwa ndani ya maisha yenyewe.",
+      "dg": "Uwepo huno hangu udide hadi kaburini unahenda kanga kukala chitu zaidi ya nguwo au chombo cha mawasiliano. Ni mwandamani — uwepo wa kudumu kuphitiya hatua zosi za maisha ga mchetu Mdigo, ichibadilisha kaziye kpwa chila londo riphya ichidumisha mwenderezo wa uwepowe wa chivitu. Kanga inadumu kpwa sababu ni, kpwa maana ya kpweli zaidi na ya ndani zaidi, ikafumwa ndani ya maisha genyewe."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "culture/food/coconut-cooking",
+  "title": {
+    "en": "Coconut in Digo Cuisine",
+    "sw": "Nazi Katika Mapishi ya Wadigo",
+    "dg": "Nazi kahi ya Chakurya cha Adigo"
+  },
+  "intro": {
+    "en": "If there is a single ingredient that defines Digo cuisine and distinguishes it from the food traditions of inland Kenya, it is the coconut. The coconut palm — mnazi — provides the milk, cream, oil,…",
+    "sw": "Ikiwa kuna kiungo kimoja kinachofafanua mapishi ya Wadigo na kuyatofautisha na mila za chakula za bara ya Kenya, ni nazi. Mnazi hutoa tui, mafuta, na nazi ya kuparua ambayo ni msingi wa karibu kila…",
+    "dg": "Ichikala kuna chiungo chimwenga chinachotambulisha kujita kpwa Adigo na chinachokuhenda kukale tafwauti na mila za chakurya za bara ra Kenya, ni nazi. Mnazi unalavya huwi, mafuha, na nazi iriyokunwa ambavyo ni musingi wa…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Indispensable Ingredient",
+      "sw": "Kiungo Kisichoweza Kukosekana",
+      "dg": "Chiungo Chisichoweza Kukosekana"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "If there is a single ingredient that defines Digo cuisine and distinguishes it from the food traditions of inland Kenya, it is the coconut. The coconut palm — mnazi — provides the milk, cream, oil, and grated meat that form the foundation of nearly every dish prepared in a Digo kitchen. To remove coconut from Digo cooking would be to remove the thing that makes it Digo. The curries would lose their body, the rice its richness, the breads their sweetness, and the entire coastal culinary identity its defining character. Coconut is not a flavouring or an addition. It is the medium through which all other ingredients are expressed.",
+      "sw": "Ikiwa kuna kiungo kimoja kinachofafanua mapishi ya Wadigo na kuyatofautisha na mila za chakula za bara ya Kenya, ni nazi. Mnazi hutoa tui, mafuta, na nazi ya kuparua ambayo ni msingi wa karibu kila sahani inayotayarishwa katika jikoni ya Kidigo. Kuondoa nazi katika mapishi ya Wadigo itakuwa kuondoa kitu kinachoyafanya kuwa ya Kidigo.",
+      "dg": "Ichikala kuna chiungo chimwenga chinachotambulisha kujita kpwa Adigo na chinachokuhenda kukale tafwauti na mila za chakurya za bara ra Kenya, ni nazi. Mnazi unalavya huwi, mafuha, na nazi iriyokunwa ambavyo ni musingi wa phephi chila chakurya chinachojitwa dzikoni ra Chidigo. Kuusa nazi kpwa kujita kpwa Adigo kungekala ni kuusa chitu chinachokuhenda kukale cha Chidigo. Mitsuzi taingekala na unene, wali taungekala na unonowe, mikahe taingekala na mtswano, na utambulisho wosi wa chakurya cha pwani ungeangamiza tabiyaye. Nazi si chiungo cha kuenjereza ladha wala nyongeza. Ni njira ambayo vyakurya vyanjina vyosi vinaphahira ladha yao."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "This centrality is not metaphorical. Kwale and Kilifi counties, where the Digo homeland is concentrated, account for more than ninety percent of Kenya's coconut palms. The landscape itself is a coconut landscape — rows of tall palms marking the boundaries of homesteads, their fronds swaying above thatched makuti roofs that are themselves made from coconut leaves. The proverb \"Mnazi mmwenga una uchi wani?\" — \"What wine from one palm tree?\" — speaks to the understanding that one palm is never enough. A family needs many palms, and a community needs groves, because the coconut is not a luxury but a necessity that touches every meal and every day.",
+      "sw": "Kukamua Tui",
+      "dg": "Umuhimu uhu si wa mfwano bahi. Kaunti za Kwale na Kilifi, ambako atu anji a Adigo anasagala, zina zaidi ya asilimia tisini ya minazi ya Kenya. Tsi yenye ni tsi ya minazi — mistari ya minazi mire inayoonyesa mipaka ya midzi, makandza gao ganasumba dzulu ya nyumba za makuti ambago piya ganatengezwa kula kpwa makodza ga mnazi. Ndarira \"Mnazi mmwenga una uchi wani?\" inaonyesa kukala mnazi mmwenga taukala ukatosha. Mbari inahitaji minazi minji, na jamii inahitaji minda ya minazi, kpwa sababu nazi si anasa ela ni lazima inayoguta chila chakurya na chila siku."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Extracting the Milk",
+      "sw": "Mchakato wa kukamua tui ni moja ya kazi za msingi za kila siku za maisha ya nyumbani ya Wadigo. Nazi iliyokomaa inapasulwa na nyama yake nyeupe inaparulwa kwa kutumia mbuzi — kiti cha chini cha mbao chenye blade ya chuma iliyowekwa mwisho mmoja. Maparuo yanachanganywa na maji ya joto na kukamulwa kwa mkono. Ukamuo wa kwanza unatoa cream ya nazi nzito, na ukamuo wa pili unatoa tui nyepesi ya kupikia kila siku.",
+      "dg": "Kutuluza Huwi"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The process of extracting coconut milk — tui — is one of the fundamental daily tasks of Digo domestic life, performed primarily by women. A mature coconut is cracked open and its white meat is grated using a traditional stool-mounted grater called a mbuzi, a low wooden bench with a serrated metal blade fixed at one end. The cook sits on the bench and draws the coconut half across the blade in a steady, rhythmic motion, producing a mound of fine white shavings that fall into a bowl below.",
+      "sw": "Wali wa Nazi na Mbaazi za Nazi",
+      "dg": "Kazi ya kutuluza huwi ni kazi mwenga kahi ya kazi za musingi za chila siku za maisha ga nyumbani kpwa Adigo, na nkuhendwa zaidi ni achetu. Nazi nkuahulwa na nyama yakpwe nyereru nkukunwa kpwa mbuzi — chihi cha chienyeji cha mbao, chifupi, chenye chuma cha meno chirichoikpwa mwisho mmwenga. Mjiti nkusagala dzulu ya chihi na kukuna nusu ya nazi kpwa mbuzi pore-pore na kpwa mdundo, achilavya fungu ra nazi nyereru iriyokunwa inayogbwa kahi ya bakuli photsi."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "These shavings are then mixed with warm water and squeezed by hand through a cloth or through the fingers themselves. The first pressing yields coconut cream — a thick, rich liquid with a high fat content that is reserved for finishing curries and enriching special dishes. The shavings are then mixed with more water and pressed again, producing a thinner coconut milk that serves as the cooking liquid for everyday preparations. A single mature coconut typically yields enough milk for one major dish, which means that a household cooking three meals a day may crack and grate several coconuts before the morning is half finished.",
+      "sw": "Wali wa nazi — mpunga uliopikwa katika tui — ndio sahani ya ishara ya pwani. Mbaazi za nazi — kunde za njiwa zilizochemshwa polepole katika tui na manjano na limau — ni mwenzi wake mwaminifu zaidi, chakula cha msingi cha kifungua kinywa cha pwani. Pamoja na mahamri, zinaunda mlo unaoanza siku kwa mamilioni ya watu wa pwani ya Afrika Mashariki.",
+      "dg": "Nazi hino iriyokunwa chisha nkutsanganywa na madzi ga moho na kuminywa kpwa mkpwono ndani ya chitambara au kpwa vyala vyenye. Kuminya kpwa kpwandza nkulavya huwi rizito, rinono, renye mafuha manji, ambaro nkuikpwa kpwa kumalizira mitsuzi na kuhenda vyakurya maalum vikale vinono. Nazi iriyokunwa chisha nkutsanganywa na madzi ganjina na kuminywa luphya, ichilavya huwi ra madzi-madzi ambaro nkuhumirwa kujitira vyakurya vya chila siku. Nazi mwenga kpwa kawaida inalavya huwi ra kutosha chakurya chimwenga chikulu, ambavyo ni kukala nyumba inayojita mara tahu kpwa siku inaweza kuahula na kukuna nazi kadhaa kabla ya nusu ya ligundzu kutsupa."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "In recent decades, commercially produced coconut milk and cream have become available in markets and shops, and many urban Digo households have adopted these convenience products. But in rural areas and among cooks who prize the fresh flavour that commercial products cannot replicate, the daily ritual of grating and pressing continues. The sound of the mbuzi grater and the scent of fresh coconut milk are as much a part of the sensory landscape of a Digo home as the smoke from the cooking fire.",
+      "sw": "Mchuzi wa Nazi na Samaki wa Kupaka",
+      "dg": "Kahi ya miaka ya hivi phephi, huwi na mafuha ga nazi ga kugula ganaphahikana sokoni na madukani, na nyumba nyinji za Adigo za mijini zikahala vitu hivi vya urahisi. Ela vidzidzini, na kahi ya ajiti anaomendza ladha ya nazi ya phapho ambayo vitu vya madukani taviweza kuilavya, kazi ya chila siku ya kukuna na kuminya inaenderera. Sauti ya mbuzi na harufu ya huwi ra phapho ni seemu ya maisha ga nyumba ya Adigo dza vira mosi wa moho wa kujitira."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "Wali wa Nazi: Coconut Rice",
+      "sw": "Mchuzi wa nazi ni mbinu ambayo inakubali karibu protini au mboga yoyote. Msingi ni thabiti: vitunguu, nyanya, viungo, na tui. Samaki wa kupaka — samaki uliookwa na kupakwa mchuzi wa nazi, manjano, limau, na pilipili — una nafasi maalum kama sahani inayoonyesha ndoa ya samaki na nazi inayofafanua mapishi ya pwani. Ni sahani ambayo wapishi wa pwani wanajivunia zaidi.",
+      "dg": "Wali wa Nazi: Wali wa Huwi"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Wali wa nazi is the signature dish of the Swahili coast and the single preparation that best represents Digo cooking to the world. It is, in its essentials, simple: rice cooked in coconut milk rather than water. But simplicity of description belies subtlety of execution. The rice must be washed thoroughly to remove excess starch. The coconut milk must be fresh and rich — ideally the first pressing or a combination of cream and milk. The ratio of liquid to rice determines whether the result is fluffy and separate or sticky and dense, and experienced cooks adjust this ratio by instinct, knowing their rice and their coconut.",
+      "sw": "Zaidi ya Jikoni",
+      "dg": "Wali wa nazi ndio chakurya chinachomanyikana zaidi cha pwani ya Chiswahili na chakurya chimwenga chinachoonyesa vinono zaidi kujita kpwa Adigo kpwa dunia. Kpwa musingi, ni rahisi: mtele unaojitwa kpwa huwi badala ya madzi. Ela urahisi wa kuueleza unafwitsa ufundi wa kuujita. Mtele ni lazima usuwe vinono ili kuusa wanga wa zaidi. Huwi ni lazima rikale ra phapho na rinono — vinono zaidi huwi ra kpwandza au mtsanganyiko wa huwi rizito na ra madzi-madzi. Chipimo cha madzi na mtele ndicho chinachoamuwa kukala wali undakala mwepesi na wa punje zinazotengana au mzito na unaonata, na ajiti a uzoefu nkugaluza chipimo chihi kpwa kumanya kpwao, achimanya mtele wao na nazi zao."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The rice is typically brought to a boil in the coconut milk with a pinch of salt, then covered and reduced to the lowest possible heat to steam until every grain has absorbed the liquid. The finished wali wa nazi is white with a faint ivory tint from the coconut fat, each grain glistening slightly, the aroma filling the kitchen with a warm, sweet fragrance that is unmistakably coastal. It is served at every significant meal — daily lunches and dinners, wedding feasts, Eid celebrations, and funeral gatherings. No occasion is too humble or too grand for wali wa nazi. It is the constant.",
+      "sw": "Umuhimu wa nazi katika maisha ya Wadigo unaenea zaidi ya kupikia — mafuta ya ngozi, makuti ya paa, kamba za nyuzi, na tembo ya mnazi. Mnazi unakabiliwa na vitisho vinavyohatarisha si chanzo cha chakula tu bali njia nzima ya maisha.",
+      "dg": "Mtele kpwa kawaida nkuchemushwa kahi ya huwi na munyu chidide, chisha nkuikirwa chifwiniko na moho nkuphungulwa hadi ukale mdide zaidi, ili uive kpwa ruche hadi chila punje inywe huwi rosi. Wali wa nazi uriojitwa ukamala ni mwereru wenye rangi ya pembe chidide kula kpwa mafuha ga nazi, chila punje iching'ara chidide, na harufu yakpwe ichienea dzikoni, harufu ya dzoho na mtswano ambayo ni ya pwani bila shaka. Nkuriwa kpwa chila chakurya cha mana — chakurya cha mutsi na cha usiku cha chila siku, karamu za arusi, sherehe za Idi, na mikutano ya hanga. Takuna tukio dide mno au kulu mno kpwa wali wa nazi. Ndio chitu chisichogaluka."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Mbaazi za Nazi: Pigeon Peas in Coconut",
+      "sw": "Mbaazi za Nazi: Kunde katika Nazi",
+      "dg": "Mbaazi za Nazi: Mbalazi kpwa Nazi"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "If wali wa nazi is the centrepiece, mbaazi za nazi is its most faithful companion. Pigeon peas — small, round legumes that are a staple crop of the East African coast — are simmered slowly in coconut milk with turmeric, which lends the dish its distinctive golden colour, and finished with a squeeze of fresh lime juice. The result is a creamy, mildly spiced bowl of legumes that is simultaneously substantial and gentle, the earthiness of the peas softened and enriched by the coconut.",
+      "sw": "Ikiwa wali wa nazi ndio kitovu, mbaazi za nazi ndio mwandamano wake mwaminifu zaidi. Kunde — jamii ndogo, za mviringo za mikunde ambazo ni zao kuu la pwani ya Afrika Mashariki — zinachemswa polepole katika tui na manjano, ambayo inaipatia sahani rangi yake ya kipekee ya dhahabu, na kukamilishwa kwa kukamuliwa ndimu safi. Matokeo yake ni bakuli la mikunde yenye mafuta, yenye viungo kidogo ambayo wakati huo huo ni ya kujaza na laini, udongo wa kunde ukiwa umelainishwa na kutajirishwa na nazi.",
+      "dg": "Ichikala wali wa nazi ndio chitovu, mbaazi za nazi ndizo mwandamanowe muaminifu zaidi. Mbalazi — mbeyu ndide za mviringo ambazo ni zao kulu ra pwani ya Afrika ya Mashariki — nkuchemushwa pore-pore kahi ya huwi na mandano, ambayo inapha chakurya rangiye ya zahabu ya chipekee, na kumalizirwa kpwa madzi ga ndimu ya phapho. Matokeo ni bakuli ra mbalazi zenye huwi na viungo chidide, ambazo kpwa wakati mmwenga ni nzito na laini, ladha ya mbalazi ichigaluzwa ikale laini na nono ni nazi."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Mbaazi za nazi is the essential breakfast dish of the Digo coast. Served in a shallow bowl alongside triangular mahamri — the cardamom-coconut fried dough that is the coast's answer to the doughnut — it constitutes the meal that starts the day for millions of coastal East Africans. The combination is so deeply associated with coastal identity that it functions almost as a cultural marker: to eat mbaazi za nazi and mahamri for breakfast is to declare oneself a person of the coast. The dish is also served at other meals and appears regularly at celebrations and community gatherings.",
+      "sw": "Mbaazi za nazi ni sahani muhimu ya kiamsha kinywa ya pwani ya Wadigo. Inahudumiwa katika bakuli bapa pamoja na mahamri ya pembetatu — unga uliokaangwa wa iliki na nazi ambao ni jibu la pwani kwa doughnut — inaunda mlo unaoanzisha siku kwa mamilioni ya watu wa pwani ya Afrika Mashariki. Mchanganyiko huu unahusishwa sana na utambulisho wa pwani hivi kwamba unafanya kazi karibu kama alama ya kitamaduni: kula mbaazi za nazi na mahamri kwa kiamsha kinywa ni kujitangaza kuwa mtu wa pwani. Sahani hii pia inahudumiwa katika milo mingine na inaonekana mara kwa mara katika sherehe na mikusanyiko ya jamii.",
+      "dg": "Mbaazi za nazi ni chakurya cha lazima cha ligundzu kpwa pwani ya Adigo. Nkuriwa kahi ya bakuli bapa phamwenga na mahamri ga pembetatu — unga uriokalangwa wa iliki na nazi ambao ni jibu ra pwani kpwa 'doughnut' — na vyakurya hivi viiri phamwenga ni chakurya chinachoandzisha siku kpwa mamilioni ga atu a pwani ya Afrika ya Mashariki. Vyakurya hivi viiri vinahusishwa sana na utambulisho wa pwani hata vikakala phephi dza alama ya utamaduni: kurya mbaazi za nazi na mahamri ligundzu ni kudzitangaza kukala u mutu wa pwani. Chakurya chihi piya nkuriwa kpwa vyakurya vyanjina na nkuonekana mara kpwa mara kpwa sherehe na mikutano ya jamii."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Mchuzi wa Nazi: The Coconut Curry",
+      "sw": "Mchuzi wa Nazi: Mchuzi wa Kitoweo cha Nazi",
+      "dg": "Mchuzi wa Nazi: Mtsuzi wa Huwi"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Mchuzi wa nazi — coconut curry — is less a single dish than a method, a template that accommodates virtually any protein or vegetable the cook has at hand. The base is consistent: onions and garlic are softened in oil, tomatoes are added and cooked down, spices are introduced — typically turmeric, cumin, coriander, and chili — and then coconut milk is poured in to create the sauce. Into this fragrant, golden-hued liquid goes the main ingredient: fish, chicken, beef, potatoes, spinach, beans, or any combination thereof.",
+      "sw": "Mchuzi wa nazi si sahani moja bali ni mbinu, kiolezo kinachoweza kubeba karibu protini au mboga yoyote ambayo mpishi anayo. Msingi ni wa kudumu: vitunguu na kitunguu saumu vinalainishwa katika mafuta, nyanya zinaongezwa na kupikwa, viungo vinaingizwa — kwa kawaida manjano, jira, giligilani, na pilipili — na kisha tui inamiminiwa kuunda mchuzi. Katika kioevu hiki chenye harufu nzuri, chenye rangi ya dhahabu, huenda kiungo kikuu: samaki, kuku, nyama ya ng'ombe, viazi, mchicha, maharagwe, au mchanganyiko wowote wa hayo.",
+      "dg": "Mchuzi wa nazi si chakurya chimwenga bahi ela ni njira, chiolezo chinachoweza kutsukula phephi protini au mboga yoyosi ambayo mjiti anayo. Musingi taugaluka: vitunguu na chitunguu saumu nkulainishwa kpwa mafuha, nyanya nkuenjerezwa na kujitwa, viungo nkutiywa — kpwa kawaida mandano, jira, giligilani, na pilipili — chisha huwi nkumiminwa ili kuumba mtsuzi. Kahi ya madzi iga genye harufu nono na rangi ya zahabu nkutiywa chiungo chikulu: ng'onda, kuku, nyama ya ng'ombe, viazi, mchicha, maharagbwe, au mtsanganyiko wowosi wa vitu hivi."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The versatility of mchuzi wa nazi is its genius. It is the everyday solution to the question of what to cook, adaptable to whatever the market offers or the garden provides. A mchuzi of fish tastes fundamentally different from a mchuzi of potatoes, yet both are recognisably the same dish — the coconut binding them into a single culinary family. This adaptability has made the coconut curry the workhorse of Digo home cooking, the dish that appears most frequently on the daily table and that every Digo cook masters before attempting anything more elaborate.",
+      "sw": "Ubadilifu wa mchuzi wa nazi ndio ustadi wake. Ni suluhisho la kila siku la swali la kupika nini, linabadilika kulingana na soko linapotoa au bustani inapozalisha. Mchuzi wa samaki una ladha tofauti kabisa na mchuzi wa viazi, hata hivyo vyote vinatambulikakuwa sahani ile ile — nazi ikiviunganisha katika familia moja ya upishi. Ubadilifu huu umefanya mchuzi wa nazi kuwa farasi wa kazi wa kupika nyumbani kwa Wadigo, sahani inayoonekana mara nyingi zaidi mezani ya kila siku na ambayo kila mpishi wa Kidigo anaimiliki kabla ya kujaribu kitu chochote changamano zaidi.",
+      "dg": "Kuweza kugaluzwa kpwa mchuzi wa nazi ndiko kunono kpwakpwe. Ni jibu ra chila siku ra swali ra kujita ni, ukigaluka kulingana na vira soko rinavyopha au munda unavyolavya. Mtsuzi wa ng'onda una ladha tafwauti kabisa na mtsuzi wa viazi, ela vyosi viiri vinamanyikana kukala chakurya chicho-chicho — nazi ichiviunganisha kukala mbari mwenga ya chakurya. Kugaluka kuku kukahenda mchuzi wa nazi ukale chakurya chikulu cha chila siku cha kujita nyumbani kpwa Adigo, chakurya chinachoonekana mara nyinji zaidi mezani ya chila siku, na ambacho chila mjiti wa Chidigo nkuchimanya vinono kabla ya kujeza chitu chochosi chikulu zaidi."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Samaki wa Kupaka: The Painted Fish",
+      "sw": "Samaki wa Kupaka: Samaki Aliyepakwa",
+      "dg": "Ng'onda wa Kupaka: Ng'onda Ariyepakpwa"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Among the many coconut-based preparations of the coast, samaki wa kupaka holds a special position as the dish that best showcases the marriage of fish and coconut that defines coastal cooking. The name itself tells the story: kupaka means to paint or to smear, and the dish involves grilling fish — typically red snapper or kingfish — over charcoal until the skin is crisp and smoky, then painting it generously with a sauce of coconut milk, turmeric, lime juice, garlic, and chili. The fish is then returned briefly to the heat so that the sauce sets into a golden, fragrant coating.",
+      "sw": "Miongoni mwa maandalizi mengi ya nazi ya pwani, samaki wa kupaka anashikilia nafasi maalum kama sahani inayoonyesha vyema zaidi ndoa ya samaki na nazi inayofafanua upishi wa pwani. Jina lenyewe linasimulia hadithi: kupaka maana yake ni kupiga rangi au kupaka, na sahani inahusisha kuchoma samaki — kwa kawaida changu au nguru — juu ya makaa hadi ngozi iwe kakamavu na yenye moshi, kisha kupaka kwa ukarimu mchuzi wa tui, manjano, maji ya ndimu, kitunguu saumu, na pilipili. Samaki kisha anarudishwa kwa muda mfupi kwenye joto ili mchuzi uimae na kuwa gamba la dhahabu lenye harufu nzuri.",
+      "dg": "Kahi ya vyakurya vinji vya nazi vya pwani, ng'onda wa kupaka ana nafasi maalum dza chakurya chinachoonyesa vinono zaidi kuungana kpwa ng'onda na nazi kunakotambulisha kujita kpwa pwani. Dzina renye rinaeleza hadisi: kupaka mana yakpwe ni kupaka rangi au kupaka chitu, na chakurya chihi ni kuwada ng'onda — kpwa kawaida changu au nguru — dzulu ya makala hadi ngoziye ikale nkavu na ya mosi, chisha kumpaka kpwa ukarimu mtsuzi wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Ng'onda chisha nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande na kukala gamba ra zahabu renye harufu nono."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The result is a dish of remarkable complexity built from simple elements: the char and smoke of the grill, the richness of the coconut, the brightness of the lime, the warmth of the turmeric, and the clean flavour of fresh fish. Samaki wa kupaka is served at celebrations and special meals, though it is not so elaborate that it cannot appear at an ordinary dinner when good fish is available. It is the dish that coastal cooks are most proud of, the one most likely to be prepared when guests arrive, and the preparation that best represents the Digo conviction that coconut makes everything better.",
+      "sw": "Matokeo yake ni sahani ya utata wa ajabu iliyojengwa kutoka vipengele rahisi: mkaa na moshi wa kuchomea, utajiri wa nazi, mng'ao wa ndimu, joto la manjano, na ladha safi ya samaki mbichi. Samaki wa kupaka anahudumiwa katika sherehe na milo maalum, ingawa si wa kifahari kiasi kwamba hawezi kuonekana katika chakula cha kawaida cha jioni samaki wazuri wanapopatikana. Ni sahani ambayo wapishi wa pwani wanaijivunia zaidi, ile inayoweza kutayarishwa zaidi wageni wanapofika, na maandalizi yanayowakilisha vyema zaidi imani ya Wadigo kwamba nazi inafanya kila kitu kuwa bora.",
+      "dg": "Matokeo ni chakurya cha ajabu chirichotengezwa kula kpwa vitu rahisi: makala na mosi wa kuwadira, unono wa nazi, ukali wa ndimu, dzoho ra mandano, na ladha ya ng'onda wa phapho. Ng'onda wa kupaka nkuriwa kpwa sherehe na vyakurya maalum, dzagbwe si chakurya cha anasa chiasi kpwamba tachiweza kuonekana kpwa chakurya cha kawaida cha dziloni ng'onda anono anaphophahikana. Ni chakurya ambacho ajiti a pwani nkudzivuna nacho zaidi, chicho chinachojitwa zaidi ajeni anaphokpwedza, na chakurya chinachoonyesa vinono zaidi imani ya Adigo kukala nazi nkuhenda chila chitu chikale chinono zaidi."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Beyond the Kitchen",
+      "sw": "Zaidi ya Jikoni",
+      "dg": "Zaidi ya Dziko"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The significance of coconut in Digo life extends well beyond cooking. Coconut oil is used for skin and hair care. Coconut fronds are woven into baskets, mats, and fans. The trunk provides building timber. The husks yield coir fibre for ropes and brooms. Makuti — coconut fronds stitched over sticks with sisal fibre — are the traditional roofing material, layered from bottom to top with a four-inch overlap that sheds rain effectively. And the sap of the coconut palm is tapped to produce mnazi, the palm wine that is the centre of Digo social life and one of its most complex cultural negotiations.",
+      "sw": "Umuhimu wa nazi katika maisha ya Wadigo unaenea zaidi ya kupika. Mafuta ya nazi yanatumika kwa utunzaji wa ngozi na nywele. Makuti ya nazi yanafumwa kuwa vikapu, mikeka, na vipepeo. Shina linatoa mbao za kujenga. Maganda yanatoa nyuzi za makumbi kwa kamba na fagio. Makuti — makuti ya nazi yanayoshonwa juu ya fito kwa uzi wa katani — ni nyenzo za jadi za kuezekea, zinazowekwa tabaka kutoka chini hadi juu na pengo la inchi nne linalomwaga mvua kwa ufanisi. Na utomvu wa mnazi unatiwa ili kuzalisha mnazi, pombe ya mitende ambayo ni kitovu cha maisha ya kijamii ya Wadigo na mojawapo ya mazungumzo yake changamano zaidi ya kitamaduni.",
+      "dg": "Umuhimu wa nazi kpwa maisha ga Adigo unaenea zaidi ya kujita. Mafuha ga nazi nkuhumirwa kutundza ngozi na nyere. Makandza ga mnazi nkusukwa kukala vikapu, mikeka, na viphephero. Kolo ra mnazi rinapha mihi ya kudzenga. Marifu ganalavya makumbi ga kutengezera kamba na maliphyero. Makuti — makandza ga mnazi ganagoshonwa dzulu ya fito kpwa uzi wa katani — ni vitu vya chienyeji vya kuezeka nyumba, ganagoikpwa tabaka kula photsi hadi dzulu, chila rimwenga richifunika ranjina kpwa inchi nne, ili madzi ga mvula gatserere vinono. Na utomvu wa mnazi nkujemwa ili kutengeza mnazi, uchi wa mnazi ambao ni chitovu cha maisha ga chijamii ga Adigo, na dzambo mwenga kahi ya mambo ga utamaduni garigo magumu zaidi."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The coconut palm faces threats that endanger not just a food source but an entire way of life. Lethal yellowing disease, rhinoceros beetle infestations, the destruction of coconut groves by mining operations, and the aging of existing tree stock without adequate replanting all contribute to a gradual contraction of the coconut economy. For a people whose cuisine, livelihoods, building traditions, and social gatherings all depend on the coconut palm, these threats carry implications that reach far deeper than agriculture alone. The future of coconut in Digo country is, in a very real sense, the future of Digo culture itself.",
+      "sw": "Mnazi unakabili vitisho vinavyohatarisha si chanzo cha chakula tu bali njia nzima ya maisha. Ugonjwa wa manjano ya kuua, uvamizi wa mende wa faru, uharibifu wa mashamba ya minazi kwa shughuli za uchimbaji madini, na kuzeeka kwa hifadhi ya miti iliyopo bila kupanda upya wa kutosha vyote vinachangia kupungua taratibu kwa uchumi wa nazi. Kwa watu ambao upishi wao, riziki zao, mila zao za ujenzi, na mikusanyiko yao ya kijamii yote yanategemea mnazi, vitisho hivi vinabeba athari zinazofika kwa kina zaidi kuliko kilimo peke yake. Mustakabali wa nazi katika nchi ya Wadigo ni, kwa maana halisi, mustakabali wa utamaduni wa Wadigo wenyewe.",
+      "dg": "Mnazi unakabili vitisho visivyohatarisha chandzo cha chakurya bahi ela njira ndzima ya maisha. Ukongo wa manjano unaoolaga minazi, chongbwa anaoshambulia minazi, kubanangwa kpwa minda ya minazi ni shughuli za kutsimba madini, na minazi kukala ya kare bila kuphanda miphya ya kutosha, vyosi vinachangia kuphungula pore-pore kpwa uchumi wa nazi. Kpwa atu ambao chakurya chao, riziki zao, mila zao za kudzenga, na mikutano yao ya chijamii yosi inakuluphira mnazi, vitisho hivi vina athari zinazofika kure zaidi kuriko chirimo bahi. Siku za mbere za nazi kpwa tsi ya Adigo, kpwa mana halisi, ni siku za mbere za utamaduni wa Adigo wenye."
+    }
+  ]
+}

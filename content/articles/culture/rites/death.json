@@ -1,0 +1,288 @@
+{
+  "id": "culture/rites/death",
+  "title": {
+    "en": "Death and Burial",
+    "sw": "Kifo na Mazishi",
+    "dg": "Chifo na Mazishi"
+  },
+  "intro": {
+    "en": "Among the Digo, death is met neither with silence nor with solitude. When a member of the community dies, the response is immediate, collective, and layered with both Islamic faith and older…",
+    "sw": "Miongoni mwa Wadigo, kifo kinakutana si kwa ukimya wala upweke. Mtu wa jamii anapokufa, jibu ni la haraka, la pamoja, na lenye tabaka za imani ya Kiislamu na mila za zamani zinazoendelea chini yake.…",
+    "dg": "Kahi ya Adigo, chifo tachiphokerwa kpwa kunyamala wala kpwa kukala macheye. Mutu wa jamii achifwa, jibu ni ra haraka, ra phamwenga, na renye tabaka za imani ya Chiislamu na chimila za kare zinazoenderera photsize…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "When Death Comes",
+      "sw": "Kifo Kinapokuja",
+      "dg": "Chifo Chichikpwedza"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Among the Digo, death is met neither with silence nor with solitude. When a member of the community dies, the response is immediate, collective, and layered with both Islamic faith and older traditions that run beneath it like underground water. The body must be attended to. The family must be surrounded. The prayers must be spoken. The drums may sound. And the community must gather, because in Digo life, no one dies alone — just as no one is born alone, no one marries alone, and no one faces any of life's great thresholds without the people who claim them as their own.",
+      "sw": "Miongoni mwa Wadigo, kifo kinakutana si kwa ukimya wala upweke. Mtu wa jamii anapokufa, jibu ni la haraka, la pamoja, na lenye tabaka za imani ya Kiislamu na mila za zamani zinazoendelea chini yake. Mwili lazima ushughulikiwe. Familia lazima izungukwe. Dua lazima zisomwe. Ngoma zinaweza kupigwa. Na jamii lazima ikusanyike, kwa sababu katika maisha ya Wadigo, hakuna anayekufa peke yake.",
+      "dg": "Kahi ya Adigo, chifo tachiphokerwa kpwa kunyamala wala kpwa kukala macheye. Mutu wa jamii achifwa, jibu ni ra haraka, ra phamwenga, na renye tabaka za imani ya Chiislamu na chimila za kare zinazoenderera photsize. Mwiri ni lazima utundzwe. Nyumba ya mufu ni lazima izungulukwe ni atu. Mavoyo ni lazima gagombwe. Ngoma zinaweza kupigbwa. Na jamii ni lazima ikusanyike, kpwa sababu kpwa maisha ga Adigo, takuna mutu anayefwa macheye."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Death among the Digo is shaped primarily by Islam, which has been the dominant faith for centuries. But beneath the Islamic observances, older practices persist — practices rooted in the kaya traditions, in ancestral veneration, and in a spiritual worldview that predates the arrival of the Quran on the coast. The result is a set of death practices that are deeply Islamic in form but carry traces of something older in their details and their emotional texture.",
+      "sw": "Mazishi ya Kiislamu",
+      "dg": "Chifo kahi ya Adigo chinaumbwa zaidi ni Uislamu, dini iriyokala dini kulu kpwa karne nyinji. Ela photsi ya ibada za Chiislamu, mazoea ga kare ganaenderera — mazoea genye mizizi kpwenye mila za kaya, kpwenye kuishimu akare, na kpwenye mtazamo wa chiroho uriotangulia kufika kpwa Kurani pwani. Matokeo ni mazoea ga chifo ganagokala ga Chiislamu kpwa umbo, ela ganatsukula alama za chitu cha kare zaidi kpwenye mambo gao madide na kpwenye hisia zao."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Islamic Burial: The Core Practice",
+      "sw": "Wadigo wengi wanafuata taratibu za mazishi ya Kiislamu. Mazishi yanafanyika ndani ya masaa ishirini na nne. Mwili unaoshwa na wanafamilia wa jinsia moja. Baada ya kuoshwa, mwili unafungwa kwa kitambaa cheupe — *kafan* — na hakuna jeneza inayotumika. Kaburi linawekwa ili marehemu atazame Makka.",
+      "dg": "Mazishi ga Chiislamu"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The majority of Digo follow Islamic burial rites, and these form the backbone of how death is handled in the community. The practices are clear, specific, and observed with careful attention.",
+      "sw": "Kipindi cha maombolezo — *matanga* — kinaenea siku arobaini. Kwa siku tatu za kwanza, jamii inalisha familia ya marehemu. Majirani wanaleta chakula, ndugu wanaleta chakula. Dua za ukumbusho zinafanyika kwa vipindi maalum — siku saba, siku arobaini, na kila mwaka.",
+      "dg": "Adigo anji analunga taratibu za mazishi ga Chiislamu, na taratibu hizi ndizo musingi wa vira chifo chinavyoshughulikiwa kpwenye jamii. Mazoea higa ni wazi, ni maalum, na ganalungwa kpwa makini."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Burial takes place within twenty-four hours of death. There is no extended viewing, no multi-day wake in the Western sense. The body is attended to promptly and buried before another sun sets. This urgency is Islamic in origin — the Prophet's instruction to bury the dead quickly — but it also reflects a Digo sensibility about the boundary between the living and the dead. The deceased has begun a journey, and it is not kind to delay them.",
+      "sw": "Mazishi Yanayotofautishwa kwa Hadhi",
+      "dg": "Mazishi ganahendeka ndani ya masaa mirongo miiri na manne. Takuna kulola mufu kpwa siku nyinji, wala kesha ra siku nyinji dza irivyo kpwa mila za Ulaya. Mwiri unatundzwa haraka na kuzikpwa kabla dzuwa ranjina kugbwa. Haraka ihi ina asili ya Chiislamu — amri ya Nabii ya kuazika afwe haraka — ela piya inaonyesa mtazamo wa Adigo kuhusu mphaka kahi ya ario moyo na afwe. Mufu akaandza safari, na si vinono kumzuwiya."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The body is washed by same-sex family members — men washing men, women washing women. This is an act of intimate care, performed by the people closest to the deceased. It is not delegated to strangers or professionals. The family washes their own dead, and in doing so, they perform a final act of service for the person they have lost.",
+      "sw": "Wazee wa *Gohu* wanapokea mazishi yenye heshima maalum — mwili unaweza kufungwa kwa ngozi za wanyama na kuwekwa katika jeneza za mbao. Wazee wa *kaya* wanaweza kuzikwa ndani ya au karibu na kaya yenyewe — heshima kubwa zaidi.",
+      "dg": "Atu a mbari ndio anaosuwa mwiri — alume anasuwa alume, achetu anasuwa achetu. Hichi ni chitendo cha kutundza cha ndani, chinachohendwa ni atu a phephi zaidi na mufu. Mbari taiarichira ajeni wala ataalamu kazi ihi. Mbari inaasuwa afwe ao enye, na kpwa kuhenda hivyo, inamhendera ndugu yao ariyefwa huduma ya mwisho."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "After washing, the body is wrapped in white cloth — the *kafan* — and no coffin is used. The simplicity is deliberate. In death, all distinctions of wealth and status fall away. The rich and the poor are buried in the same white cloth, laid in the same earth, facing the same direction — toward Mecca. The grave is oriented so that the deceased faces the holy city, even in death maintaining the direction of prayer that oriented their life.",
+      "sw": "Mtu aliyeuawa kwa ukatili anazikwa pale alipoanguka. Familia inapitia dhabihu ya utakaso. Mganga anapokufa, wazee wa jamii wanacheza usiku kucha kabla ya kuchagua mrithi.",
+      "dg": "Bada ya kusuwa, mwiri unafungwa kpwa nguwo nyereru — *kafan* — na takuna sanduku rinarohumirwa. Urahisi uhu ni wa makusudi. Kpwenye chifo, tafwauti zosi za utajiri na hadhi zinaangamika. Tajiri na mchiya anazikpwa sawa-sawa: kpwa nguwo nyereru, tsini ya ulongo, achilola uphande mmwenga — Makka. Kaburi rinaikpwa ili mufu alole mudzi mtakatifu, achienderera hata kpwenye chifo kulola uphande wa mavoyo uriolongoza maishage."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "The Forty Days",
+      "sw": "Goma na Sengenya ya Mazishi",
+      "dg": "Siku Mirongo Mine"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The mourning period — *matanga* — extends for forty days after burial. This is not a period of total withdrawal from life, but it is a time of heightened communal attention to the bereaved family. For the first three days, the community feeds the family of the deceased. Neighbours bring food, relatives bring food, friends bring food. The bereaved are not expected to cook, to shop, to manage their household. The community absorbs these tasks, freeing the family to grieve.",
+      "sw": "Sengenya inachukua umbo maalum katika mazishi, mwendo wa *goma* ukitumika kulisha mababu na kuwasiliana na wafu. Ngoma zinasema. Wachezaji wanasogea. Nyimbo zinabeba ujumbe wa huzuni, heshima, kuaga, na uhusiano unaoendelea kati ya wafu na walio hai.",
+      "dg": "Chipindi cha maombolezo — *matanga* — chinaenea siku mirongo mine bada ya mazishi. Hichi si chipindi cha kudzitenga na maisha kabisa, ela ni wakati ambapho jamii inaitundza kpwa makini zaidi mbari iriyofwererwa. Kpwa siku hahu za kpwandza, jamii inarisa mbari ya mufu. Majirani anareha chakurya, ndugu anareha chakurya, asena anareha chakurya. Ariofwererwa taatazamiwa kujita, kugula vitu, wala kuimirira nyumba zao. Jamii inahala kazi hizi, ili mbari iphahe nafasi ya kuomboleza."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Prayers are held at the gravesite and at the home of the deceased. These are not private devotions but communal acts of worship, attended by neighbours and extended family who come to pray for the soul of the departed and to comfort those who remain. Memorial prayers are held at specific intervals — at seven days, at forty days, and annually — creating a rhythm of remembrance that extends the community's attention far beyond the initial shock of loss.",
+      "sw": "Jamii ya Wadigo inaamini kwamba kifo si kukatika bali kubadilika — kwamba wafu hawajapotea bali wamesogea mahali ambapo bado wanaweza kusikia, kupokea, na kushawishi maisha ya wale waliowaacha nyuma.",
+      "dg": "Mavoyo ganahendwa kaburini na nyumbani kpwa mufu. Higa si mavoyo ga mutu macheye, ela ni ibada za phamwenga, zinazohudhuriwa ni majirani na ndugu a phephi na a kure anaokpwedza kuvoyera roho ya mufu na kuafariji ario sala. Mavoyo ga tambukizo ganahendeka kpwa siku maalum — siku ya sabaa, siku ya mirongo mine, na chila mwaka — gachiumba mpangilio wa kutambukira unaoenjereza utundzi wa jamii kure zaidi ya utsungu wa kpwandza wa hasara."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Widows and Mourning",
+      "sw": "Wajibu wa Jamii",
+      "dg": "Magungu na Maombolezo"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Widows observe an extended mourning period that carries specific expectations. A widow may wear particular clothing that signals her mourning status, marking her visually as a woman in a period of grief and transition. The community's obligations to a widow are heightened during this time — she is watched over, visited, and supported with particular care.",
+      "sw": "Labda kipengele muhimu zaidi cha desturi za kifo za Wadigo ni kile zinachofunua kuhusu kujielewa kwa jamii. Kifo si tukio la kibinafsi. Ni wajibu wa kijamii. Mtu anapokufa, jamii inatarajiwa kujibu — kutembelea, kuleta chakula, kuomba, kuomboleza, kusaidia. Jina la marehemu na matendo yake yanasomwa na kuheshimiwa katika dua za ukumbusho.",
+      "dg": "Gungu analunga chipindi chirefu cha maombolezo chenye mambo maalum ganagotazamiwa kpwakpwe. Gungu anaweza kuvwala nguwo maalum zinazoonyesa kukala achikala kpwenye maombolezo, zichimuonyesa wazi dza mchetu ariye kpwenye wakati wa sonono na wa kugaluka. Wajibu wa jamii kpwa gungu unaenjerezeka wakati uhu — analolwa, ananyendekerwa, na anaterywa kpwa makini maalum."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "This is not mere custom. It reflects a practical understanding that the death of a spouse is among the most destabilising events in a person's life, and that the widow needs time, space, and community support to navigate the transition from married woman to widow — a transition that affects not just her emotional life but her social status, her economic situation, and her relationship to her husband's family.",
+      "sw": "Hii si desturi tu. Inaonyesha uelewa wa vitendo kwamba kifo cha mwenza ni miongoni mwa matukio yanayovuruga zaidi maishani mwa mtu, na kwamba mjane anahitaji muda, nafasi, na msaada wa jamii ili kupitia mpito kutoka mke hadi mjane — mpito ambao huathiri si maisha yake ya kihisia tu bali pia hadhi yake ya kijamii, hali yake ya kiuchumi, na uhusiano wake na familia ya mumewe.",
+      "dg": "Hino si desturi bahi. Inaonyesa kumanya kpwa vitendo kukala chifo cha mlume au mche ni dzambo rimwenga ra mambo makulu zaidi ganagovundza utaratibu wa maisha ga mutu, na kukala gungu anahitaji wakati, nafasi, na msada wa jamii kutsupa kula kukala mchetu wa ndowa hadi kukala gungu — kugaluka ambako kunagaluza si hisiaze bahi, ela hadhiye ya chijamii, haliye ya pesa, na uhusianowe na mbari ya mlumewe."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Status-Differentiated Burial",
+      "sw": "Mazishi Kulingana na Hadhi",
+      "dg": "Mazishi Kulengana na Hadhi"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "While Islamic burial practice treats all the dead equally in principle, traditional Digo customs introduce distinctions based on the deceased's social status. These distinctions reveal the older, pre-Islamic layer of death practices that continues to influence how some families handle their dead.",
+      "sw": "Ingawa desturi za mazishi za Kiislamu zinawatendea wafu wote kwa usawa kimsingi, mila za jadi za Kidigo zinaingiza tofauti kulingana na hadhi ya kijamii ya marehemu. Tofauti hizi zinafichua tabaka la zamani la desturi za kifo zilizotangulia Uislamu ambazo zinaendelea kuathiri jinsi baadhi ya familia zinavyoshughulikia wafu wao.",
+      "dg": "Hata dzagbwe mila za mazishi za Chiislamu zinaatendera afwe osi kpwa usawa, mila za kare za Chidigo zinaika tafwauti kulengana na hadhi ya mufu kpwenye jamii. Tafwauti hizi zinaonyesa tabaka ra kare ra mila za chifo zirizotangulia Uislamu na ambazo zinaenderera kuathiri vira nyumba zanjina zinavyohenda na afwe ao."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "*Gohu* elders — members of the most powerful traditional society — receive burial with special honours. Their bodies may be wrapped in animal skins rather than simple white cloth, and they may be placed in timber coffins rather than buried directly in the earth. Professional mourners may be engaged to mark the significance of the death. These distinctions acknowledge the elder's lifetime of service and authority, honouring in death the status that they held in life.",
+      "sw": "Wazee wa *Gohu* — wanachama wa chama chenye nguvu zaidi cha jadi — hupokea mazishi yenye heshima maalum. Miili yao inaweza kufungwa kwa ngozi za wanyama badala ya kitambaa rahisi cheupe, na wanaweza kuwekwa katika masanduku ya mbao badala ya kuzikwa moja kwa moja ardhini. Waombolezaji wa kitaalamu wanaweza kuajiriwa kuashiria umuhimu wa kifo hicho. Tofauti hizi zinatambua maisha yote ya huduma na mamlaka ya mzee, zikiheshimu katika kifo hadhi aliyoishikilia maishani.",
+      "dg": "Akare a *Gohu* — atu a chama chenye nguvu zaidi cha kare — anaphokera mazishi ga hishima maalum. Miri yao inaweza kufungbwa kpwa chingo za nyama badala ya nguwo nyereru ya kawaida, na anaweza kuikpwa kpwenye masanduku ga mbao badala ya kuzikpwa tsini bila sanduku. Aombolezaji a chitaalamu anaweza kuajiriwa kuonyesa uzito wa chifo hicho. Tafwauti hizi zinatambua maisha gosi ga huduma na uwezo wa mzehe, zichiishimu kpwenye chifo hadhi ariyokala nayo maishani."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Common members of the community receive shorter memorial markers — *koma* — at their graves. These markers serve as physical points of remembrance, places where the living can return to honour the dead.",
+      "sw": "Wanajamii wa kawaida hupokea alama fupi za ukumbusho — *koma* — katika makaburi yao. Alama hizi hutumika kama sehemu halisi za ukumbusho, mahali ambapo walio hai wanaweza kurudi kuheshimu wafu.",
+      "dg": "Atu a kawaida a jamii anaphokera alama fupi za tambukizo — *koma* — kpwenye makaburi gao. Alama hizi zinakala phatu pha kutambukira, phatu ambapho ario moyo anaweza kuuya kuishimu afwe."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "*Kaya* elders — those who held authority within the sacred forests — may be buried within or near the kaya itself. This is the most profound honour, returning the elder's body to the place that held the community's deepest spiritual significance. To be buried in the kaya is to become part of the sacred geography, to join the ancestors who dwell in that place and whose presence gives the kaya its power.",
+      "sw": "Wazee wa *Kaya* — wale walioshikilia mamlaka ndani ya misitu takatifu — wanaweza kuzikwa ndani au karibu na kaya yenyewe. Hii ni heshima ya hali ya juu zaidi, ikirudisha mwili wa mzee mahali paliposhikilia umuhimu mkubwa wa kiroho wa jamii. Kuzikwa katika kaya ni kuwa sehemu ya jiografia takatifu, kujiunga na mababu wanaoishi mahali hapo na ambao uwepo wao unaipa kaya nguvu yake.",
+      "dg": "Akare a *Kaya* — atu ariokala na uwezo ndani ya matsaka matakatifu — anaweza kuzikpwa ndani au phephi na kaya yenyewe. Ihi ni hishima ya dzulu zaidi, ichiuyiza mwiri wa mzehe kpwenye phatu phariphokala na umuhimu mkpwulu zaidi wa chiroho wa jamii. Kuzikpwa kpwenye kaya ni kukala seemu ya jiografia takatifu, kuunganika na akareni anaoishi phatu hipho na ambao kukala kpwao phapho kunaipha kaya nguvuye."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Death by Violence",
+      "sw": "Kifo kwa Ukatili",
+      "dg": "Chifo kpwa Ukatili"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The Digo carry specific practices for deaths that occur through violence. A person killed by violence is buried where they fell — at the place where they \"were struck down.\" This is not neglect. It is a recognition that violent death carries its own spiritual weight, and that the place of death is marked by the event in ways that cannot be undone by moving the body elsewhere.",
+      "sw": "Wadigo wana desturi maalum kwa vifo vinavyotokea kupitia ukatili. Mtu aliyeuawa kwa ukatili huzikwa mahali alipoanguka — mahali alipopigwa na kuuawa. Hii si uzembe. Ni utambuzi kwamba kifo cha ukatili kina uzito wake wa kiroho, na kwamba mahali pa kifo pameashiriwa na tukio kwa njia ambazo haziwezi kutendulishwa kwa kuhamisha mwili mahali pengine.",
+      "dg": "Adigo ana mila maalum kpwa vifo vinavyohendeka kpwa ukatili. Mutu ariyeolagbwa kpwa ukatili anazikpwa phatu ariphogbwa — phatu ariphopigbwa achigbwa. Ihi si uzembe. Ni kutambua kukala chifo cha ukatili china uzitowe wa chiroho, na kukala phatu pha chifo phakaikpwa alama ni dzambo riro kpwa njira ambazo taziweza kuuyizwa nyuma kpwa kuhamisha mwiri phatu phanjina."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The family of a person who dies by violence undergoes a cleansing sacrifice — a ritual purification that addresses the spiritual contamination of violent death. This practice reflects the Digo understanding that violence disrupts the spiritual order, and that the disruption must be actively addressed through ritual action, not simply endured.",
+      "sw": "Familia ya mtu anayekufa kwa ukatili hupitia dhabihu ya utakaso — utakaso wa kitamaduni unaoshughulikia uchafuzi wa kiroho wa kifo cha ukatili. Desturi hii inaonyesha uelewa wa Kidigo kwamba ukatili unavuruga mpangilio wa kiroho, na kwamba uvurugaji huo lazima ushughulikiwe kupitia matendo ya kitamaduni, si tu kuvumiliwa.",
+      "dg": "Nyumba ya mutu anayefwa kpwa ukatili inahenda sadaka ya utakaso — utakaso wa chimila unaoshughulikia uchafuzi wa chiroho wa chifo cha ukatili. Mila ihi inaonyesa vira Adigo anavyomanya kukala ukatili unavundza mpangilio wa chiroho, na kukala uvundzaji ni lazima ushughulikiwe kpwa mahendo ga chimila, si kuvumirirwa bahi."
+    },
+    {
+      "id": "b023",
+      "type": "heading",
+      "en": "The Death of a Healer",
+      "sw": "Kifo cha Mganga",
+      "dg": "Chifo cha Mganga"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "When a *mganga* — a traditional healer or medicine person — dies, the community observes the standard forty-day mourning period but adds a distinctive element at its conclusion. After the forty days have passed, community elders gather and dance all night — a vigil of movement and music that honours the healer's life and prepares the community for the selection of a successor.",
+      "sw": "Mganga wa jadi anapokufa, jamii huadhimisha kipindi cha kawaida cha maombolezo cha siku arobaini lakini huongeza kipengele cha pekee mwishoni mwake. Baada ya siku arobaini kupita, wazee wa jamii hukusanyika na kucheza usiku kucha — kesha la mwendo na muziki linaloheshimu maisha ya mganga na kuandaa jamii kwa uchaguzi wa mrithi.",
+      "dg": "*Mganga* wa chimila achifwa, jamii inaadhimisha chipindi cha kawaida cha maombolezo cha siku mirongo mine ela inaenjereza chitu cha tafwauti kpwa mwisho. Bada ya siku mirongo mine kutsupa, akare a jamii anakusanyika na kuvwina usiku kucha — kesha ra mwendo na muziki rinaroishimu maisha ga mganga na kuandaa jamii kpwa kutsambula mutu wa kumrithi."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The all-night dance is both mourning and transition. It marks the end of the mourning period and the beginning of the process by which the community will identify and install a new healer. The mganga's knowledge and spiritual authority do not die with them — they must be passed on, and the community takes responsibility for ensuring that this transmission occurs. The dancing is the bridge between loss and renewal.",
+      "sw": "Ngoma ya usiku kucha ni maombolezo na mpito kwa wakati mmoja. Inaashiria mwisho wa kipindi cha maombolezo na mwanzo wa mchakato ambao jamii itatambua na kusimika mganga mpya. Maarifa na mamlaka ya kiroho ya mganga hayafi pamoja naye — lazima yapitishwe, na jamii inachukua jukumu la kuhakikisha kwamba upitishaji huu unafanyika. Ngoma ni daraja kati ya hasara na upya.",
+      "dg": "Kuvwina usiku kucha ni maombolezo na kutsupa kpwa wakati mmwenga. Kunaashiria mwisho wa chipindi cha maombolezo na mwandzo wa njira ambayo jamii indamtambua na kumuika mganga muphya. Marifwa na uwezo wa chiroho wa mganga tavifwa phamwenga naye — ni lazima vitsapizwe, na jamii inatsukula jukumu ra kuhakikisha kukala kutsapizwa kuko kunahendeka. Kuvwina ni daraja kahi ya hasara na mwandzo muphya."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "Children's Deaths",
+      "sw": "Vifo vya Watoto",
+      "dg": "Vifo vya Ana"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The Digo observe specific burial practices for children, differentiated by the child's age and relationship to the world of the living. As with birth practices, these customs reveal how carefully the Digo think about the boundary between existence and non-existence, and how tenderly they attend to those who cross it in either direction.",
+      "sw": "Wadigo wana desturi maalum za mazishi kwa watoto, zinazotofautishwa kwa umri wa mtoto na uhusiano wake na ulimwengu wa walio hai. Kama ilivyo na desturi za kuzaliwa, mila hizi zinaonyesha jinsi Wadigo wanavyofikiri kwa makini kuhusu mpaka kati ya kuwepo na kutokuwepo, na jinsi wanavyowahudumia kwa upole wale wanaovuka mpaka huo kwa upande wowote.",
+      "dg": "Adigo ana mila maalum za mazishi kpwa ana, zinazotofautishwa kulengana na umri wa mwana na uhusianowe na ulimwengu wa ario moyo. Dza virivyo na mila za kuvyalwa, mila hizi zinaonyesa vira Adigo anavyofikiri kpwa makini kuhusu mphaka kahi ya kukala moyo na kusikala moyo, na vira anavyoatundza kpwa upole atu anaoutsupa mphaka kpwa uphande wowosi."
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "Stillborn children — those who arrived at the threshold of life but did not cross it — are buried near water sources, places of passage and renewal in the Digo spiritual landscape. Infants who had nursed — who had tasted their mother's milk and begun the work of living — are interred at the parent's doorstep, kept close to the home they briefly knew. These distinctions are not arbitrary. They reflect a graduated understanding of how fully a child had entered the world, and they ensure that the burial acknowledges the specific nature of each loss.",
+      "sw": "Watoto waliozaliwa wakiwa wamekufa — wale waliofika kwenye kizingiti cha uhai lakini hawakukivuka — huzikwa karibu na vyanzo vya maji, mahali pa kupitia na upya katika mandhari ya kiroho ya Kidigo. Watoto wachanga walionyonya — walioionja maziwa ya mama yao na kuanza kazi ya kuishi — huzikwa kwenye kizingiti cha mlango wa wazazi, wakiwekwa karibu na nyumba waliyoijua kwa muda mfupi. Tofauti hizi si za kiholela. Zinaonyesha uelewa wa hatua kwa hatua wa jinsi mtoto alivyoingia ulimwenguni kikamilifu, na zinahakikisha kwamba mazishi yanatambua asili maalum ya kila hasara.",
+      "dg": "Ana ariovyalwa afwe — ario arifika kpwenye chizingiti cha uzima ela taachitsupa — anazikpwa phephi na phatu phenye madzi, phatu pha kutsupa na kuandzwa uphya kpwenye mandhari ya chiroho ya Chidigo. Ana adide arioamwa — ariophaha maziya ga nine yao na kuandza kazi ya kuishi — anazikpwa kpwenye chizingiti cha mryango wa avyazi, achiikpwa phephi na nyumba ariyoimanya kpwa muda mfupi. Tafwauti hizi si za chiholela. Zinaonyesa kumanya kpwa hatua kpwa hatua vira mwana arivyoinjira ulimwenguni, na zinahakikisha kukala mazishi ganatambua asili maalum ya chila hasara."
+    },
+    {
+      "id": "b029",
+      "type": "heading",
+      "en": "The Goma Movement and Funeral Sengenya",
+      "sw": "Mwendo wa Goma na Sengenya ya Mazishi",
+      "dg": "Mwendo wa Goma na Sengenya ya Mazishi"
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "Death among the Digo is not processed in silence. The *sengenya* — the primary Digo ceremonial dance — takes a specific form at funerals, its movements and songs adapted to carry the weight of grief and the message of the living to the dead. The *goma* movement at funerals serves a particular purpose: it is understood as a way of feeding the ancestors, of communicating with the dead, of maintaining the connection between the world of the living and the world of those who have gone before.",
+      "sw": "Kifo miongoni mwa Wadigo hakishughulikiwa kwa ukimya. *Sengenya* — ngoma kuu ya sherehe ya Kidigo — inachukua umbo maalum katika mazishi, mienendo yake na nyimbo zake zikibadilishwa kubeba uzito wa huzuni na ujumbe wa walio hai kwa wafu. Mwendo wa *goma* katika mazishi una madhumuni maalum: unafahamika kama njia ya kulisha mababu, ya kuwasiliana na wafu, ya kudumisha uhusiano kati ya ulimwengu wa walio hai na ulimwengu wa wale waliotangulia.",
+      "dg": "Chifo kahi ya Adigo tachihendwa kpwa kunyamala. *Sengenya* — ngoma kulu ya sherehe ya Chidigo — inatsukula umbo maalum kpwenye mazishi, mienendoye na mawirage gachigaluzwa kutsukula uzito wa sonono na ujumbe wa ario moyo kpwa afwe. Mwendo wa *goma* kpwenye mazishi una madhumuni maalum: unamanyikana kukala ni njira ya kurisa akareni, ya kugomba na afwe, ya kudumisha uhusiano kahi ya ulimwengu wa ario moyo na ulimwengu wa hara ariotangulia."
+    },
+    {
+      "id": "b031",
+      "type": "paragraph",
+      "en": "The funeral sengenya is not entertainment. It is communication — a dialogue conducted through rhythm, movement, and song between the living community and the ancestral world. The drums speak. The dancers move. The songs carry messages of grief, of honour, of farewell, and of the ongoing bond between the dead and the living. In the goma movement, the community enacts its belief that death is not a severing but a transformation — that the dead have not disappeared but have moved to a place from which they can still hear, still receive, still influence the lives of those they left behind.",
+      "sw": "Sengenya ya mazishi si burudani. Ni mawasiliano — mazungumzo yanayofanywa kupitia mdundo, mwendo, na wimbo kati ya jamii ya walio hai na ulimwengu wa mababu. Ngoma zinazungumza. Wachezaji wanasogea. Nyimbo zinabeba ujumbe wa huzuni, wa heshima, wa kuagana, na wa uhusiano unaoendelea kati ya wafu na walio hai. Katika mwendo wa goma, jamii inatekeleza imani yake kwamba kifo si kukatika bali mabadiliko — kwamba wafu hawajapotea bali wamehamia mahali ambapo bado wanaweza kusikia, bado kupokea, bado kuathiri maisha ya wale waliowaacha nyuma.",
+      "dg": "Sengenya ya mazishi si burudani. Ni mawasiliano — mazungumzo ganagohendwa kpwa mdundo, mwendo, na wira kahi ya jamii ya ario moyo na ulimwengu wa akareni. Ngoma zinagomba. Avwini anavwina. Mawira ganatsukula ujumbe wa sonono, wa hishima, wa kulagana, na wa uhusiano unaoenderera kahi ya afwe na ario moyo. Kpwenye mwendo wa goma, jamii inaonyesa imaniye kukala chifo si kukatika ela kugaluka — kukala afwe taaangamika, ela akahamira phatu ambapho bado anaweza kusikira, bado kuphokera, bado kushawishi maisha ga hara ariaricha nyuma."
+    },
+    {
+      "id": "b032",
+      "type": "heading",
+      "en": "The Vigango Question",
+      "sw": "Swali la Vigango",
+      "dg": "Swali ra Vigango"
+    },
+    {
+      "id": "b033",
+      "type": "paragraph",
+      "en": "Among many Mijikenda communities, *vigango* — tall wooden memorial posts carved in human-like form — are erected to honour important deceased individuals. Among the Islamised Digo, however, this practice is generally not observed. The Islamic prohibition against representational imagery has largely suppressed the vigango tradition among the Digo, who have absorbed Islamic teaching more deeply than some of their Mijikenda neighbours.",
+      "sw": "Miongoni mwa jamii nyingi za Mijikenda, *vigango* — nguzo ndefu za mbao za ukumbusho zilizochongwa kwa umbo la kibinadamu — husimamishwa kuheshimu watu muhimu waliokufa. Miongoni mwa Wadigo walioislamu, hata hivyo, desturi hii kwa ujumla haifanyiki. Marufuku ya Kiislamu dhidi ya sanamu za uwakilishi kwa kiasi kikubwa imeikandamiza mila ya vigango miongoni mwa Wadigo, ambao wameyapokea mafundisho ya Kiislamu kwa undani zaidi kuliko baadhi ya majirani wao wa Mijikenda.",
+      "dg": "Kahi ya jamii nyinji za Amijikenda, *vigango* — nguzo nyire za mbao za tambukizo zirizochongolwa kpwa umbo ra chibinadamu — zinaimiswa kuishimu atu muhimu ariofwa. Kahi ya Adigo Aislamu, ela, mila ihi kpwa kawaida taihendeka. Marufuku ya Chiislamu ya sanamu za kuonyesa atu kpwa chiasi chikulu ikazuwiya mila ya vigango kahi ya Adigo, ambao akaphokera mafundzo ga Chiislamu kpwa undani zaidi kuriko majirani ao anjina a Amijikenda."
+    },
+    {
+      "id": "b034",
+      "type": "paragraph",
+      "en": "Yet scholars note that this is not a complete picture. \"Ties with traditional practices such as animism and ancestor worship still have more influence on the Digo community than does Islam,\" one researcher observes. Many Digo over the age of forty practice what scholars describe as \"folk Islam\" — a form of faith that incorporates ancestral veneration, traditional healing practices, and spiritual beliefs that predate Islam alongside orthodox Islamic observance. Death practices are one of the areas where this layering is most visible — Islamic burial rites on the surface, ancestral awareness running beneath.",
+      "sw": "Lakini wasomi wanaona kwamba hii si picha kamili. \"Uhusiano na mila za jadi kama vile uhuishaji na ibada ya mababu bado una ushawishi mkubwa zaidi kwa jamii ya Wadigo kuliko Uislamu,\" mtafiti mmoja anaona. Wadigo wengi wenye umri wa zaidi ya miaka arobaini wanafanya kile wasomi wanachokielezea kama \"Uislamu wa kienyeji\" — aina ya imani inayojumuisha heshima kwa mababu, desturi za uponyaji wa jadi, na imani za kiroho zilizotangulia Uislamu pamoja na ibada rasmi ya Kiislamu. Desturi za kifo ni mojawapo ya maeneo ambapo tabaka hili linaonekana zaidi — ibada za mazishi za Kiislamu juu ya uso, ufahamu wa mababu ukiendelea chini.",
+      "dg": "Ela asomi anaona kukala ihi si picha kamili. \"Uhusiano na mila za kare dza uhuishaji na kuabudu akareni bado una ushawishi mkpwulu zaidi kpwa jamii ya Adigo kuriko Uislamu,\" mtafiti mmwenga anaona. Adigo anji ario na umri wa zaidi ya miaka mirongo mine anahenda chira asomi anachochiiha \"Uislamu wa chienyeji\" — aina ya imani inayoika phamwenga hishima kpwa akareni, mila za uganga wa chimila, na imani za chiroho zirizotangulia Uislamu, phamwenga na ibada rasmi ya Chiislamu. Mila za chifo ni seemu mwenga ambapho tabaka hiri rinaonekana zaidi — ibada za mazishi za Chiislamu dzulu ya uso, kumanya akareni kuchienderera tsini."
+    },
+    {
+      "id": "b035",
+      "type": "heading",
+      "en": "The Community's Obligation",
+      "sw": "Wajibu wa Jamii",
+      "dg": "Wajibu wa Jamii"
+    },
+    {
+      "id": "b036",
+      "type": "paragraph",
+      "en": "Perhaps the most important aspect of Digo death practices is what they reveal about the community's self-understanding. Death is not a private event. It is a communal obligation. When someone dies, the community is expected to respond — to visit, to bring food, to pray, to mourn, to support. This expectation is not optional. A person who fails to attend a neighbour's funeral, who does not bring food to the bereaved family, who does not offer prayers for the dead — such a person has failed in their most basic communal duty.",
+      "sw": "Labda kipengele muhimu zaidi cha desturi za kifo za Kidigo ni kile zinachofichua kuhusu uelewa wa jamii kuhusu yenyewe. Kifo si tukio la faragha. Ni wajibu wa jamii. Mtu anapokufa, jamii inatarajiwa kuitikia — kutembelea, kuleta chakula, kuomba, kuomboleza, kusaidia. Matarajio haya si ya hiari. Mtu anayeshindwa kuhudhuria mazishi ya jirani, ambaye haleti chakula kwa familia iliyofiwa, ambaye hatoi dua kwa marehemu — mtu kama huyo ameshindwa katika wajibu wake wa msingi wa kijamii.",
+      "dg": "Pengine chipengele muhimu zaidi cha mila za chifo za Chidigo ni chira zinachofitsua kuhusu vira jamii inavyodzimanya. Chifo si dzambo ra mutu macheye. Ni wajibu wa jamii. Mutu achifwa, jamii inatazamiwa kuitika — kunyendekera, kureha chakurya, kuvoya, kuomboleza, kuterya. Iga si ga hiari. Mutu anayeshindwa kuphiya mazishi ga jirani, asiyereha chakurya kpwa nyumba iriyofwererwa, asiyevoya kpwa mufu — mutu dza hiye akashindwa kpwenye wajibuwe wa msingi wa chijamii."
+    },
+    {
+      "id": "b037",
+      "type": "paragraph",
+      "en": "This obligation extends beyond the immediate mourning period. The deceased's name and deeds are recited and honoured at memorial prayers. The family continues to receive visits and support. The community's memory of the dead is actively maintained, not through monuments or written records but through the spoken word — through the names that are repeated, the stories that are told, the prayers that are offered at seven days, forty days, and every anniversary thereafter.",
+      "sw": "Wajibu huu unaenea zaidi ya kipindi cha maombolezo ya mwanzo. Jina na matendo ya marehemu hukaririwa na kuheshimiwa katika sala za ukumbusho. Familia inaendelea kupokea ziara na msaada. Kumbukumbu ya jamii kuhusu wafu inadumishwa kikamilifu, si kupitia makaburi au rekodi zilizoandikwa bali kupitia neno linalosemwa — kupitia majina yanayorudiwa, hadithi zinazosemwa, dua zinazotolewa siku saba, siku arobaini, na kila maadhimisho baada ya hapo.",
+      "dg": "Wajibu uhu unaenea zaidi ya chipindi cha maombolezo ga mwandzo. Dzina na mahendo ga mufu ganagombwa tsona na tsona na kuishimiwa kpwenye mavoyo ga tambukizo. Nyumba inaenderera kunyendekerwa na kuterywa. Kutambukira afwe kpwa jamii kunaenderera, si kpwa makaburi au maandishi ela kpwa neno rinarogombwa — kpwa madzina ganagogombwa tsona na tsona, hadisi zinazogombwa, mavoyo ganagovoywa siku saba, siku mirongo mine, na chila mwaka bada ya hipho."
+    },
+    {
+      "id": "b038",
+      "type": "heading",
+      "en": "What Death Reveals",
+      "sw": "Kinachofichuka Kupitia Kifo",
+      "dg": "Chira Chifo Chinachofitsua"
+    },
+    {
+      "id": "b039",
+      "type": "paragraph",
+      "en": "In the end, the way a community handles death reveals what it most deeply believes about life. The Digo practices — the immediate burial, the communal feeding, the forty-day mourning, the prayers, the sengenya, the goma, the careful attention to how and where different members are buried — reveal a community that believes no one is truly alone. That the boundary between the living and the dead is not a wall but a membrane. That the obligations of community do not end at the grave. And that every human life, from its first breath to its last and beyond, belongs not to the individual alone but to the people who gathered to welcome it, to nurture it, to celebrate its transitions, and finally, to carry it home.",
+      "sw": "Mwishowe, jinsi jamii inavyoshughulikia kifo inafichua kile inachoamini kwa undani zaidi kuhusu maisha. Desturi za Wadigo — mazishi ya haraka, ulishaji wa pamoja, maombolezo ya siku arobaini, dua, sengenya, goma, uangalifu wa makini kuhusu jinsi na mahali wanachama tofauti wanavyozikwa — zinafichua jamii inayoamini kwamba hakuna mtu aliye peke yake kweli kweli. Kwamba mpaka kati ya walio hai na wafu si ukuta bali ni utando. Kwamba wajibu wa jamii hauishii kaburini. Na kwamba kila uhai wa binadamu, tangu pumzi yake ya kwanza hadi ya mwisho na zaidi, si wa mtu binafsi peke yake bali wa watu waliokusanyika kuukaribisha, kuulea, kusherehekea mipito yake, na hatimaye, kuubeba hadi nyumbani.",
+      "dg": "Mwishowe, vira jamii inavyohenda chifo vinafitsua chira inachoamini kpwa undani zaidi kuhusu maisha. Mila za Adigo — mazishi ga phapho hipho, kurisa kpwa phamwenga, maombolezo ga siku mirongo mine, mavoyo, sengenya, goma, kulola kpwa makini vira na phatu atu a tafwauti anavyozikpwa — zinafitsua jamii inayoamini kukala takuna mutu ariye macheye kpwa kpweli. Kukala mphaka kahi ya ario moyo na afwe si ukuta ela ni utando. Kukala wajibu wa jamii taumala kaburini. Na kukala chila uzima wa mutu, kula pumziye ya kpwandza hadi ya mwisho na zaidi, si wa mutu macheye ela wa atu ariokusanyika kuukaribisha, kuurera, kusherehekea mipitoye, na mwishowe, kuutsukula hadi kaya."
+    }
+  ]
+}

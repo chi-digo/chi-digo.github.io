@@ -1,0 +1,246 @@
+{
+  "id": "history/kaya-archaeology",
+  "title": {
+    "en": "Kaya Archaeology",
+    "sw": "Akiolojia ya Makaya",
+    "dg": "Akiolojia ya Makaya"
+  },
+  "intro": {
+    "en": "For most of the twentieth century, the question of Mijikenda origins was argued through oral traditions, colonial archives, and linguistic reconstruction. Material evidence — the physical remains of…",
+    "sw": "Kwa sehemu kubwa ya karne ya ishirini, swali la asili ya Mijikenda lilijadiliwa kupitia mapokeo ya mdomo, kumbukumbu za kikoloni, na ujenzi wa kilugha. Hilo lilibadilika mwishoni mwa miaka ya 1980…",
+    "dg": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Digging Into the Charter",
+      "sw": "Kuchimba ndani ya Hati",
+      "dg": "Kuchimba ndani ya Hati"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "For most of the twentieth century, the question of Mijikenda origins was argued through oral traditions, colonial archives, and linguistic reconstruction. Material evidence — the physical remains of past lives — was largely absent from the conversation. That changed in the late 1980s when Henry Mutoro, a Kenyan archaeologist working at the University of Nairobi, undertook the first systematic excavations at kaya sites. His work, conducted in 1987 and expanded in 1994, introduced pottery sherds, iron tools, settlement patterns, and radiocarbon dates into a debate that had been conducted almost entirely through words. What the ground revealed both confirmed and complicated the stories the elders had been telling for generations.",
+      "sw": "Kwa sehemu kubwa ya karne ya ishirini, swali la asili ya Mijikenda lilijadiliwa kupitia mapokeo ya mdomo, kumbukumbu za kikoloni, na ujenzi wa kilugha. Hilo lilibadilika mwishoni mwa miaka ya 1980 wakati Henry Mutoro, mwanaakiolojia wa Kenya akifanya kazi katika Chuo Kikuu cha Nairobi, alipoanza uchimbaji wa kwanza wa kimfumo katika maeneo ya makaya.",
+      "dg": "Kpwa sehemu kulu ya karne ya mirongo miri, swali ra asili ya Amijikenda ririjadiliwa kupishira mapokeo ga mdomo, kumbukumbu za chikoloni, na ujenzi wa chilugha. Dzambo riro ribadilika mwisho wa miaka ya 1980 wakati Henry Mutoro, mwanaakiolojia wa Kenya akihenda kazi kpwa Chuo Chikulu cha Nairobi, aripokpwandza utsimbadzi wa kpwandza wa chimfumo kpwa maeneo ga makaya."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Mutoro's Excavations",
+      "sw": "Uchimbaji wa Mutoro",
+      "dg": "Utsimbadzi wa Mutoro"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Mutoro excavated eight makaya — the plural of kaya — selecting sites across the Mijikenda range from Kilifi County in the north to Kwale County in the south. His methodology combined standard archaeological techniques — stratigraphic excavation, artefact classification, radiocarbon dating — with careful attention to the oral traditions associated with each site. He was not merely digging for objects. He was testing a narrative, bringing the tools of material science to bear on a story that had been transmitted orally for generations.",
+      "sw": "Mutoro alichimba makaya manane, akichagua maeneo kutoka Kilifi hadi Kwale. Matokeo muhimu zaidi yalitoka Kaya Singwaya, ambapo uchimbaji \"ulizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ya mapema ya pwani ya bahari ya milenia ya kwanza baadaye.\" Ufinyanzi ulionyesha mila za utengenezaji zilizoimarishwa na mitindo ya mapambo inayoiunganisha na mila pana ya keramiki ya pwani ya Afrika Mashariki.",
+      "dg": "Mutoro arichimba makaya manane, akichagula maeneo kula Kilifi hadi Kwale. Matokeo muhimu zaidi garitoka Kaya Singwaya, ambapho utsimbadzi \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Ufinyanzi urionyesha chimila za utengenezaji zirizoimarishwa na mitindo ya mapambo inayoiunganisha na chimila phana ya keramiki ya ph'wani ya Afrika Mashariki."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The most significant results came from Kaya Singwaya — a site whose very name invokes the origin narrative. Here, Mutoro's excavations \"yielded pottery going back to at least the tenth century,\" with ceramics \"characteristic of early coastal littoral settlements of the later first millennium AD.\" The pottery was not crude or expedient. It showed established manufacturing traditions, consistent firing techniques, and decorative styles that connected it to a broader regional ceramic tradition along the East African coast. These were not the remains of recent refugees. They were the material traces of a settled, organised community that had been in place for centuries.",
+      "sw": "Zana za Chuma na Maisha ya Kiuchumi",
+      "dg": "Zana za Chuma na Maisha ga Chiuchumi"
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "What the Pottery Tells Us",
+      "sw": "Zaidi ya ufinyanzi, uchimbaji wa Mutoro ulipata zana za chuma na mabaki ya kazi ya chuma — takataka, vipande vya tuyere, na madini yaliyosagwa kwa sehemu. Uwepo wa ushahidi wa kazi ya chuma katika maeneo mengi ya makaya unaonyesha kwamba Mijikenda walikuwa watengenezaji hai wenye mila zao za kimetali.",
+      "dg": "Zaidi ya ufinyanzi, utsimbadzi wa Mutoro uripata zana za chuma na mabaki ga kazi ya chuma — takataka, vipande vya tuyere, na madini garigosagwa kpwa sehemu. Upho wa ushahidi wa kazi ya chuma kpwa maeneo manji ga makaya unaonyesha kukala Amijikenda akala atengenezaji a uhai enye chimila zao za chimetali."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Ceramic analysis is one of the most powerful tools in East African archaeology because pottery styles change over time in patterned, traceable ways. The sherds Mutoro recovered from kaya sites showed several important features. First, they were consistent with the pottery traditions of early coastal littoral settlements — the communities that lived along or near the East African shoreline during the later first millennium AD. This places kaya inhabitants within the same material culture sphere as the earliest Swahili settlements, not as isolated forest dwellers disconnected from coastal life.",
+      "sw": "Mpangilio wa Makazi",
+      "dg": "Mpangilio wa Makazi"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Second, the pottery showed continuity over time. The deepest stratigraphic layers — the oldest deposits — contained ceramics that were ancestral to the styles found in later layers. This suggests that the kaya sites were not founded once and then abandoned, only to be reoccupied later by different people. They were continuously inhabited, their material culture evolving in place over centuries. This pattern of long-term occupation is more consistent with Walsh's in-situ development thesis than with the orthodox migration narrative, which implies a relatively sudden arrival.",
+      "sw": "Mpangilio wa kimwili wa maeneo ya makaya unafuata muundo ambao ni thabiti kwa ajabu kote kwa makundi yote ya Mijikenda: msitu wa kinga, njia mbili, malango yaliyoimarishwa, na kiwanja cha kati chenye miundo ya sherehe na utawala.",
+      "dg": "Mpangilio wa chimwiri wa maeneo ga makaya unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda: msitu wa kinga, njira mbiri, malango garigoimarishwa, na kiwanja cha kahi chenye miundo ya sherehe na utawala."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Third, some of the decorative techniques observed on kaya pottery — incision patterns, rim forms, surface treatments — had parallels with pottery from other parts of the East African coast, suggesting that kaya communities were part of broader regional networks of trade and cultural exchange. They were not isolated. They were connected.",
+      "sw": "Ushahidi wa Tarehe",
+      "dg": "Ushahidi wa Tarehe"
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Iron Tools and Economic Life",
+      "sw": "Ushahidi wa tarehe kutoka uchimbaji wa Mutoro umekuwa miongoni mwa mambo yaliyojadiliwa zaidi. Ufinyanzi wa karne ya kumi na pendekezo kwamba makaya yanaweza kuanzishwa mapema karne ya tisa — ikiweza kutangulia miji ya mawe ya Kiswahili — inabadilisha mtazamo wa historia ya pwani ya Afrika Mashariki.",
+      "dg": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi. Ufinyanzi wa karne ya kumi na pendekezo kukala makaya ganaweza kuanzishwa mapema karne ya tisa — ikiweza kutangulia midzi ya mawe ya Chiswahili — inabadilisha mtazamo wa historia ya ph'wani ya Afrika Mashariki."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Beyond pottery, Mutoro's excavations recovered iron tools and ironworking debris — slag, tuyere fragments, and partially reduced ore — from several kaya sites. Ironworking is significant because it indicates a level of technological sophistication and economic organisation that goes well beyond subsistence farming. Smelting iron requires specialised knowledge of ore selection, furnace construction, charcoal production, temperature control, and smithing techniques. The presence of ironworking evidence at multiple kaya sites suggests that the Mijikenda were not merely consumers of iron obtained through trade but active producers with their own metallurgical traditions.",
+      "sw": "Kile Akiolojia Inathibitisha na Kupinga",
+      "dg": "Gago Akiolojia Inathibitisha na Kupinga"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The iron tools themselves — blades, hoes, arrowheads, and other implements — reveal the practical concerns of daily life in the kayas. Agriculture was central, as evidenced by the prevalence of hoe blades. Hunting supplemented the diet. Woodworking tools suggest active modification of the forest environment despite the taboos on tree-cutting within the inner forest zone. The material culture of the kayas was not that of a people in flight or in hiding. It was that of a community settled, productive, and engaged with its environment over the long term.",
+      "sw": "Uchimbaji ulithibitisha vipengele kadhaa vya mapokeo ya mdomo: makaya yalikuwa makazi ya kale, yaliyoimarishwa, yenye ushahidi wa maisha ya jamii yaliyopangwa. Lakini ushahidi wa tarehe unapinga masimulizi ya kawaida ya uhamiaji, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya watu inayobadilika mahali badala ya kuwasili ghafla.",
+      "dg": "Utsimbadzi urithibitisha vipengele kadhaa vya mapokeo ga mdomo: makaya gakala makazi ga kare, garigoimarishwa, genye ushahidi wa maisha ga jamii garigopangwa. Ela ushahidi wa tarehe unapinga masimulizi ga kawaida ga uhamisho, na mwendelezo wa rekodi ya keramiki unapendekeza idadi ya atu inayobadilika phatu badala ya kuwasili gafla."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Settlement Patterns",
+      "sw": "Mpangilio wa Makazi",
+      "dg": "Mpangilio wa Makazi"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The physical layout of kaya sites, visible both in the archaeological record and in the living kayas that have been continuously maintained, follows a pattern that is remarkably consistent across all Mijikenda groups. A dense forest buffer surrounds the settlement, penetrated by two pathways leading through fortified gates. The central clearing contains the ceremonial and governance structures — the *moroni* meeting dome, the sacred trees, the area where the *fingo* protective talismans are maintained.",
+      "sw": "Mpangilio wa kimwili wa maeneo ya makaya, unaoonekana katika rekodi ya kiakiolojia na katika makaya hai yanayodumishwa mfululizo, unafuata muundo ambao ni thabiti kwa ajabu kote kwa makundi yote ya Mijikenda. Msitu mnene wa kinga unazunguka makazi, ukipitishwa na njia mbili zinazoongoza kupitia malango yaliyoimarishwa. Kiwanja cha kati kina miundo ya sherehe na utawala — kuba la mkutano la *moroni*, miti mitakatifu, na eneo ambapo hirizi za kinga za *fingo* zinahifadhiwa.",
+      "dg": "Mpangilio wa chimwiri wa maeneo ga makaya, unaoonekana kpwa rekodi ya chiakiolojia na kpwa makaya ga uhai ganago dumishwa mfululizo, unafuata muundo ambao ni thabiti kpwa ajabu kosi kpwa makundi gosi ga Amijikenda. Msitu mnene wa kinga unadzikiriya makazi, ukipishishwa ni njira mbiri zinazoongoza kupitshi malango garigoimarishwa. Kiwanja cha kahi china miundo ya sherehe na utawala — kuba ra mkutano ra *moroni*, miri mitakatifu, na eneo ambapho hirizi za kinga za *fingo* zinahifadhiwa."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Archaeological survey of kaya sites has revealed that this layout is not merely traditional but functional. The forest buffer provided natural fortification, making the kayas defensible against attack. The twin-gate system controlled access and allowed the monitoring of all entrances and exits. The placement of the settlement on hilltops or ridges provided natural elevation and visibility. The kayas were, in military terms, excellent defensive positions — and the consistency of their design across dozens of sites suggests a shared body of knowledge about settlement planning that was transmitted across the Mijikenda world.",
+      "sw": "Utafiti wa kiakiolojia wa maeneo ya makaya umefunua kwamba mpangilio huu si wa kimila tu bali ni wa kazi. Msitu wa kinga ulitoa ngome ya asili, ukifanya makaya kuwa ya kulindwa dhidi ya mashambulizi. Mfumo wa malango mawili ulidhibiti ufikiaji na kuruhusu ufuatiliaji wa milango yote ya kuingia na kutoka. Uwekaji wa makazi juu ya vilima ulitoa mwinuko na uwezo wa kuona wa asili. Makaya yalikuwa, kwa maneno ya kijeshi, nafasi bora za ulinzi — na uthabiti wa muundo wao katika maeneo mengi unapendekeza mwili wa pamoja wa maarifa kuhusu upangaji wa makazi uliosambazwa kote ulimwenguni mwa Mijikenda.",
+      "dg": "Utafiti wa chiakiolojia wa maeneo ga makaya umefunula kukala mpangilio uwo si wa chimila tu ela ni wa kazi. Msitu wa kinga uritoa ngome ya asili, ukihenda makaya gakale ga kulindwa dhidi ya mashambulizi. Mfumo wa malango mairi uridhibiti ufikiaji na kuruhusu ufuatiliaji wa milango yosi ya kuinjira na kutoka. Uwekaji wa makazi dzulu ya virima uritoa mwinuko na uwezo wa kuona wa asili. Makaya gakala, kpwa maneno ga chiashi, nafasi bora za ulinzi — na uthabiti wa muundo gao kpwa maeneo manji unapendekeza mwiri wa phamwenga wa marifwa kuhusu upangaji wa makazi urioenezwa kosi kpwa ulimwengu wa Amijikenda."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "This architectural consistency poses an interesting question for the migration debate. If the Mijikenda arrived from Singwaya at different times and settled in different locations, how did they all arrive at the same settlement design? One possibility is that the design was part of the cultural package they brought from Singwaya. Another is that it evolved locally and spread through inter-kaya contact. A third possibility — consistent with Walsh's in-situ thesis — is that it developed over centuries of shared local experience, refined through trial and the practical demands of living in a contested landscape.",
+      "sw": "Uthabiti huu wa kiujenzi unauliza swali la kuvutia kuhusu mjadala wa uhamiaji. Ikiwa Mijikenda walifika kutoka Singwaya kwa nyakati tofauti na kukaa katika maeneo tofauti, walipataje wote muundo ule ule wa makazi? Uwezekano mmoja ni kwamba muundo huo ulikuwa sehemu ya mfuko wa kitamaduni walioubeba kutoka Singwaya. Mwingine ni kwamba ulibadilika ndani na kuenezwa kupitia mawasiliano ya makaya. Uwezekano wa tatu — unaofanana na nadharia ya Walsh ya mahali pale pale — ni kwamba ulikua kwa karne nyingi za uzoefu wa pamoja wa ndani.",
+      "dg": "Uthabiti uwo wa chiujenzi unauliza swali ra kuvutia kuhusu mjadala wa uhamisho. Ikala Amijikenda arifika kula Singwaya kpwa nyakati tofauti na kukala kpwa maeneo tofauti, aripata vihi osi muundo uwo uwo wa makazi? Uwezekano mmwenga ni kukala muundo uwo ukala sehemu ya mfuko wa chimila arioutsukula kula Singwaya. Mwinjine ni kukala uribadilika phatu na kuenezwa kupitshi mawasiliano ga makaya. Uwezekano wa hahu — unaofanana na nadharia ya Walsh ya phatu phapho — ni kukala urikula kpwa karne nyinji za uzoefu wa phamwenga wa phatu phapho."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Dating Evidence and Its Implications",
+      "sw": "Ushahidi wa Tarehe na Athari Zake",
+      "dg": "Ushahidi wa Tarehe na Athari Zakpwe"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The dating evidence from Mutoro's excavations has been among the most debated aspects of his work. The tenth-century pottery from Kaya Singwaya, and the suggestion from some archaeologists that kayas may have been established as early as the ninth century, have profound implications for every theory of Mijikenda origins.",
+      "sw": "Ushahidi wa tarehe kutoka uchimbaji wa Mutoro umekuwa miongoni mwa mambo yaliyojadiliwa zaidi ya kazi yake. Ufinyanzi wa karne ya kumi kutoka Kaya Singwaya, na pendekezo la wanaakiolojia wengine kwamba makaya yanaweza kuanzishwa mapema karne ya tisa, vina athari kubwa kwa kila nadharia ya asili ya Mijikenda.",
+      "dg": "Ushahidi wa tarehe kula utsimbadzi wa Mutoro umekala kahi ya mambo garigojadiliwa zaidi ga kazi yakpwe. Ufinyanzi wa karne ya kumi kula Kaya Singwaya, na pendekezo ra anaakiolojia anjina kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gana athari kubwa kpwa chila nadharia ya asili ya Amijikenda."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "If the kayas were established in the ninth or tenth century, they potentially predate the Swahili stone towns — the urban coastal settlements of Mombasa, Malindi, Lamu, and Kilwa that have traditionally been treated as the earliest complex societies of the East African coast. This would overturn a persistent colonial-era assumption: that the coastal towns were centres of civilisation while the hinterland peoples were \"Nyika\" — bush-dwellers, peripheral, backward. Mutoro's dates suggest that the forest settlements of the hinterland were contemporaneous with or even earlier than the stone-and-coral towns of the coast. The Mijikenda were not latecomers. They were, possibly, pioneers.",
+      "sw": "Ikiwa makaya yalianzishwa katika karne ya tisa au kumi, yanawezekana kutangulia miji ya mawe ya Kiswahili — makazi ya miji ya pwani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi yamechukuliwa kama jamii za kwanza ngumu za pwani ya Afrika Mashariki. Hii ingebadilisha dhana ya kudumu ya enzi ya kikoloni: kwamba miji ya pwani ilikuwa vituo vya ustaarabu huku watu wa bara wakiwa \"Nyika\" — wakazi wa nyikani, wa pembeni, wasio na maendeleo. Tarehe za Mutoro zinapendekeza kwamba makazi ya misitu ya bara yalikuwa ya wakati mmoja na au hata ya mapema zaidi kuliko miji ya mawe ya pwani. Mijikenda hawakuwa waliochelewa. Walikuwa, labda, waanzilishi.",
+      "dg": "Ikala makaya garianzishwa kpwa karne ya tisa au kumi, ganawezekana kutangulia midzi ya mawe ya Chiswahili — makazi ga midzi ya ph'wani ya Mombasa, Malindi, Lamu, na Kilwa ambayo kijadi gamechukuliwa dza jamii za kpwandza ngumu za ph'wani ya Afrika Mashariki. Hiri ringebadilisha dhana ya kudumu ya enzi ya chikoloni: kukala midzi ya ph'wani yakala vituo vya ustaarabu huku atu a bara akala \"Nyika\" — akazi wa nyikani, a pembeni, asio na maendeleo. Tarehe za Mutoro zinapendekeza kukala makazi ga misitu ga bara gakala ga wakati mmwenga na au hata ga mapema zaidi kuriko midzi ya mawe ya ph'wani. Amijikenda taakala ariochelewa. Akala, labda, aanzilishi."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "For the migration debate specifically, ninth-century kaya establishment is difficult to reconcile with a migration triggered by Oromo invasions dated to the twelfth through seventeenth centuries. If the kayas are that old, either the migration happened far earlier than the oral tradition claims, or the kayas were established by a population already resident in the area — a population that may or may not have had any connection to a northern homeland called Singwaya.",
+      "sw": "Kwa mjadala wa uhamiaji hasa, kuanzishwa kwa makaya katika karne ya tisa ni vigumu kupatanisha na uhamiaji uliosababishwa na uvamizi wa Waoromo unaotarishwa karne ya kumi na mbili hadi kumi na saba. Ikiwa makaya ni ya zamani hivyo, ama uhamiaji ulitokea mapema zaidi kuliko mapokeo ya mdomo yanavyodai, au makaya yalianzishwa na idadi ya watu iliyokuwa tayari katika eneo hilo.",
+      "dg": "Kpwa mjadala wa uhamisho hasa, kuanzishwa kpwa makaya kpwa karne ya tisa ni vigumu kupatanisha na uhamisho uriosababishwa ni uvamizi wa Aoromo unaotarishwa karne ya kumi na mbiri hadi kumi na saba. Ikala makaya ni ga kare hivyo, ama uhamisho uritokea mapema zaidi kuriko mapokeo ga mdomo ganavyodai, au makaya garianzishwa ni idadi ya atu iriyokala tayari kpwa eneo riro."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Connections to Coastal Archaeology",
+      "sw": "Uhusiano na Akiolojia ya Pwani",
+      "dg": "Uhusiano na Akiolojia ya Ph'wani"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Mutoro's work did not exist in isolation. It sits within a broader tradition of East African coastal archaeology that has been gradually assembling a picture of the region's history from material remains. Excavations at Swahili sites — Manda, Shanga, Unguja Ukuu, Kilwa — have established a timeline for the development of coastal urban life, from the earliest fishing and farming settlements of the first millennium AD through the stone-built trading towns of the eleventh century onward.",
+      "sw": "Kazi ya Mutoro haikuwepo peke yake. Inakaa ndani ya mapokeo mapana ya akiolojia ya pwani ya Afrika Mashariki ambayo polepole yamekuwa yakikusanya picha ya historia ya eneo hilo kutoka mabaki ya kimwili. Uchimbaji katika maeneo ya Kiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ya maisha ya miji ya pwani, kutoka makazi ya mapema ya uvuvi na kilimo ya milenia ya kwanza AD hadi miji ya biashara ya mawe ya karne ya kumi na moja kuendelea.",
+      "dg": "Kazi ya Mutoro taikala peke yakpwe. Inakala ndani ya chimila phana ya akiolojia ya ph'wani ya Afrika Mashariki ambayo pore-pore imekala ikikusanya picha ya historia ya eneo riro kula mabaki ga chimwiri. Utsimbadzi kpwa maeneo ga Chiswahili — Manda, Shanga, Unguja Ukuu, Kilwa — umeanzisha ratiba ya maendeleo ga maisha ga midzi ya ph'wani, kula makazi ga mapema ga uvuvi na ukulima ga milenia ya kpwandza AD hadi midzi ya chibiashara ya mawe ya karne ya kumi na mwenga kuenderera."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The kaya pottery's affinities with early coastal littoral ceramics suggest that the kaya communities and the proto-Swahili communities were part of the same cultural world during the first millennium AD. They shared ceramic traditions, which implies shared knowledge, trade, or common ancestry — or some combination of all three. The conventional separation of \"coastal\" and \"hinterland\" peoples may be a later development, an artefact of the stone towns' visibility and the forest settlements' invisibility rather than a reflection of genuine cultural distance.",
+      "sw": "Uhusiano wa ufinyanzi wa makaya na keramiki za mapema za pwani unapendekeza kwamba jamii za makaya na jamii za proto-Kiswahili zilikuwa sehemu ya ulimwengu ule ule wa kitamaduni wakati wa milenia ya kwanza AD. Walishiriki mila za keramiki, ambayo inamaanisha maarifa ya pamoja, biashara, au nasaba ya pamoja. Mgawanyo wa kawaida wa watu wa \"pwani\" na \"bara\" unaweza kuwa maendeleo ya baadaye — artifact ya uwezo wa kuonekana wa miji ya mawe badala ya kuonyesha umbali wa kweli wa kitamaduni.",
+      "dg": "Uhusiano wa ufinyanzi wa makaya na keramiki za mapema za ph'wani unapendekeza kukala jamii za makaya na jamii za proto-Chiswahili zakala sehemu ya ulimwengu uwo uwo wa chimila wakati wa milenia ya kpwandza AD. Ashiriki chimila za keramiki, ambayo inamaanisha marifwa ga phamwenga, chibiashara, au nasaba ya phamwenga. Mgawanyo wa kawaida wa atu a \"ph'wani\" na \"bara\" unaweza kukala maendeleo ga badaye — chitu cha uwezo wa kuonekana wa midzi ya mawe badala ya kuonyesha umbali wa kpweli wa chimila."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "This has implications for understanding the Digo specifically. The Digo occupied a transitional zone between coast and hinterland, maintaining trade relationships with both Swahili coastal communities and interior groups. Their material culture, as revealed by archaeology, reflects this intermediate position. They were neither purely coastal nor purely inland. They were, and are, a people of the interface — the point where the Indian Ocean trade world meets the East African interior.",
+      "sw": "Hii ina athari kwa kuelewa Wadigo hasa. Wadigo walikaa katika eneo la mpito kati ya pwani na bara, wakidumisha uhusiano wa biashara na jamii za pwani za Kiswahili na makundi ya ndani. Utamaduni wao wa kimwili, kama unavyofunuliwa na akiolojia, unaonyesha nafasi hii ya kati. Hawakuwa wa pwani tu wala wa bara tu. Walikuwa, na ni, watu wa makutano — hatua ambapo ulimwengu wa biashara ya Bahari ya Hindi unakutana na bara la Afrika Mashariki.",
+      "dg": "Hiri rina athari kpwa kuelewa Adigo hasa. Adigo akala kpwa eneo ra mphito kahi ya ph'wani na bara, akidumisha uhusiano wa chibiashara na jamii za ph'wani za Chiswahili na makundi ga ndani. Utamaduni wao wa chimwiri, dza unavyofunuliwa ni akiolojia, unaonyesha nafasi iyo ya kahi. Taakala a ph'wani tu wala a bara tu. Akala, na ni, atu a makutano — hatua ambapho ulimwengu wa chibiashara wa Bahari ya Hindi unakutana na bara ra Afrika Mashariki."
+    },
+    {
+      "id": "b025",
+      "type": "heading",
+      "en": "What Archaeology Confirms",
+      "sw": "Kile Akiolojia Inathibitisha",
+      "dg": "Gago Akiolojia Inathibitisha"
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "Mutoro's excavations confirmed several elements of oral tradition. The kayas were indeed ancient settlements, not recent constructions. They were fortified, defensible positions — consistent with traditions of conflict and displacement. They contained evidence of organised community life, governance structures, and economic activity. The general picture of the kayas as seats of civilisation, not mere hiding places, is supported by the material record.",
+      "sw": "Uchimbaji wa Mutoro ulithibitisha vipengele kadhaa vya mapokeo ya mdomo. Makaya yalikuwa kweli makazi ya zamani, si ujenzi wa hivi karibuni. Yalikuwa nafasi zilizoimarishwa, zinazolindwa — yanayolingana na mapokeo ya migogoro na uhamisho. Yalikuwa na ushahidi wa maisha ya jamii yaliyopangwa, miundo ya utawala, na shughuli za kiuchumi. Picha ya jumla ya makaya kama viti vya ustaarabu, si sehemu za kujificha tu, inasaidiwa na rekodi ya kimwili.",
+      "dg": "Utsimbadzi wa Mutoro urithibitisha vipengele kadhaa vya mapokeo ga mdomo. Makaya gakala kpweli makazi ga kare, si ujenzi wa phivi phivi. Gakala nafasi zirizoimarishwa, zinazolindwa — ganago lingana na mapokeo ga migogoro na uhamisho. Gakala na ushahidi wa maisha ga jamii garigopangwa, miundo ya utawala, na shughuli za chiuchumi. Picha ya jumla ya makaya dza viti vya ustaarabu, si sehemu za kudzificha tu, inasaidiwa ni rekodi ya chimwiri."
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The archaeological evidence also confirms the ecological management described in oral tradition. The kaya forests, preserved by centuries of taboo against tree-cutting, contain some of the last remnants of the ancient East African coastal forest. Mutoro's work documented the relationship between the archaeological deposits and the surrounding forest — showing that the forest's preservation was not accidental but integral to the kaya system. The ancestors lived in the forest. You do not cut down the home of the ancestors. This principle, attested in oral tradition, is confirmed by the material reality of forests that have been standing, protected, for a thousand years.",
+      "sw": "Ushahidi wa kiakiolojia pia unathibitisha usimamizi wa kiikolojia ulioelezwa katika mapokeo ya mdomo. Misitu ya makaya, iliyohifadhiwa na karne za mwiko dhidi ya kukata miti, ina baadhi ya mabaki ya mwisho ya msitu wa kale wa pwani ya Afrika Mashariki. Kazi ya Mutoro ilirekodia uhusiano kati ya amana za kiakiolojia na msitu unaozunguka — ikionyesha kwamba uhifadhi wa msitu haukuwa wa bahati nasibu bali muhimu kwa mfumo wa kaya. Mababu waliishi msituni. Huwezi kukata nyumba ya mababu. Kanuni hii, iliyothibitishwa katika mapokeo ya mdomo, inathibitishwa na ukweli wa kimwili wa misitu ambayo imesimama, ikilindwa, kwa miaka elfu moja.",
+      "dg": "Ushahidi wa chiakiolojia piya unathibitisha usimamizi wa kiikolojia urioelezwa kpwa mapokeo ga mdomo. Misitu ya makaya, iriyohifadhiwa ni karne za mwiko dhidi ya kukata miri, ina bazi ya mabaki ga mwisho ga msitu wa kare wa ph'wani ya Afrika Mashariki. Kazi ya Mutoro irirekodia uhusiano kahi ya amana za chiakiolojia na msitu unaodzikiriya — ikionyesha kukala uhifadhi wa msitu taukala wa bahati nasibu ela muhimu kpwa mfumo wa kaya. Akare aishi msituni. Taukata nyumba ya akare. Kanuni iyo, iriyothibitishwa kpwa mapokeo ga mdomo, inathibitishwa ni ukpweli wa chimwiri wa misitu ambayo imesimama, ikilindwa, kpwa miaka elfu mwenga."
+    },
+    {
+      "id": "b028",
+      "type": "heading",
+      "en": "What Archaeology Challenges",
+      "sw": "Kile Akiolojia Inapinga",
+      "dg": "Gago Akiolojia Inapinga"
+    },
+    {
+      "id": "b029",
+      "type": "paragraph",
+      "en": "But the excavations also challenged elements of the traditional narrative. The dating evidence is the most obvious point of tension. If the kayas are ninth-century foundations, the sixteenth-century migration from Singwaya cannot have established them. Either the migration happened much earlier, or the kayas were founded by a pre-existing population that was later incorporated into the Mijikenda system, or the migration narrative is not literally historical but a charter that organises social relations without describing a single historical event.",
+      "sw": "Lakini uchimbaji pia ulipinga vipengele vya masimulizi ya jadi. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikiwa makaya ni misingi ya karne ya tisa, uhamiaji wa karne ya kumi na sita kutoka Singwaya hauwezi kuyaanzisha. Ama uhamiaji ulitokea mapema zaidi, au makaya yalianzishwa na idadi ya watu iliyokuwepo tayari ambayo baadaye ilijumuishwa katika mfumo wa Mijikenda, au masimulizi ya uhamiaji si ya kihistoria kihalisi bali ni hati inayopanga mahusiano ya kijamii bila kuelezea tukio moja la kihistoria.",
+      "dg": "Ela utsimbadzi piya uripinga vipengele vya masimulizi ga chimila. Ushahidi wa tarehe ndio hatua ya wazi zaidi ya mvutano. Ikala makaya ni misingi ya karne ya tisa, uhamisho wa karne ya kumi na sita kula Singwaya tauweza kugaanzisha. Ama uhamisho uritokea mapema zaidi, au makaya garianzishwa ni idadi ya atu iriyokala tayari ambayo badaye irijumuishwa kpwa mfumo wa Amijikenda, au masimulizi ga uhamisho si ga chihistoria kihalisi ela ni hati inayopanga mahusiano ga chijamii bila kuelezea dzambo mwenga ra chihistoria."
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "The continuity of the ceramic record also complicates the migration story. A sudden influx of new people — refugees from Singwaya — might be expected to produce a visible break in the pottery sequence: new styles appearing abruptly, replacing or overlaying older ones. Mutoro did not report such a break. The pottery shows gradual evolution, not sudden replacement. This is more consistent with a population evolving in place than with a population arriving from elsewhere.",
+      "sw": "Mwendelezo wa rekodi ya keramiki pia unagumu hadithi ya uhamiaji. Kufika kwa ghafla kwa watu wapya — wakimbizi kutoka Singwaya — kungetarajiwa kutoa mapumziko yanayoonekana katika mfuatano wa ufinyanzi: mitindo mipya ikionekana ghafla, ikibadilisha au kufunika ya zamani. Mutoro hakuripoti mapumziko kama hayo. Ufinyanzi unaonyesha mageuzi ya taratibu, si ubadilishaji wa ghafla. Hii inapatana zaidi na idadi ya watu inayobadilika mahali kuliko na idadi ya watu inayofika kutoka mahali pengine.",
+      "dg": "Mwendelezo wa rekodi ya keramiki piya unagumisha hadithi ya uhamisho. Kufika kpwa gafla kpwa atu apya — akimbizi kula Singwaya — kungetarajiwa kutoa mapumziko ganago onekana kpwa mfuatano wa ufinyanzi: mitindo mipya ikionekana gafla, ikibadilisha au kufunika ya kare. Mutoro taariripoti mapumziko dza gago. Ufinyanzi unaonyesha mageuzi ga taratibu, si ubadilishaji wa gafla. Hiri rinapatana zaidi na idadi ya atu inayobadilika phatu kuriko na idadi ya atu inayofika kula phatu phanjina."
+    },
+    {
+      "id": "b031",
+      "type": "heading",
+      "en": "The Ongoing Dig",
+      "sw": "Uchimbaji Unaoendelea",
+      "dg": "Utsimbadzi Unaoenderera"
+    },
+    {
+      "id": "b032",
+      "type": "paragraph",
+      "en": "Mutoro's excavations were pioneering but not comprehensive. Eight sites, however carefully excavated, cannot settle questions about a civilisation that encompassed more than sixty kayas across hundreds of kilometres of coastline. Much remains to be dug, analysed, and dated. Future excavations at other kaya sites — particularly the principal Digo kayas of Kwale and Chinondo — may refine or revise the picture that Mutoro established. Advances in dating technology, including more precise radiocarbon techniques and optically stimulated luminescence dating, could narrow the chronological ranges that remain frustratingly broad.",
+      "sw": "Uchimbaji wa Mutoro ulikuwa wa upainia lakini si wa kina kamili. Maeneo manane, hata yaliyochimbwa kwa uangalifu, hayawezi kusuluhisha maswali kuhusu ustaarabu uliojumuisha makaya zaidi ya sitini katika mamia ya kilomita za pwani. Mengi yanabaki kuchimbwa, kuchambuliwa, na kutarishwa. Uchimbaji wa siku zijazo katika maeneo mengine ya makaya — hasa makaya makuu ya Wadigo ya Kwale na Chinondo — yanaweza kusafisha au kurekebisha picha ambayo Mutoro alianzisha. Maendeleo ya teknolojia ya tarehe yanaweza kupunguza vipindi vya kronolojia ambavyo vinasalia kuwa vipana kwa njia ya kukatisha tamaa.",
+      "dg": "Utsimbadzi wa Mutoro ukala wa upainia ela si wa kina kamili. Maeneo manane, hata garigochimbwa kpwa uangalifu, tagaweza kusuluhisha maswali kuhusu ustaarabu uriojumuisha makaya zaidi ya sitini kpwa mamia ya kilomita za ph'wani. Manji ganasala kuchimbwa, kuchambuliwa, na kutarishwa. Utsimbadzi wa siku zijazo kpwa maeneo ganjina ga makaya — hasa makaya makulu ga Adigo ga Kwale na Chinondo — ganaweza kusafisha au kurekebisha picha ambayo Mutoro arianzisha. Maendeleo ga teknolojia ya tarehe ganaweza kupunguza vipindi vya kronolojia ambavyo vinasala kukala viphana kpwa njira ya kukatisha tamaa."
+    },
+    {
+      "id": "b033",
+      "type": "paragraph",
+      "en": "What is already clear, however, is that the kayas are not peripheral curiosities. They are central sites in the history of the East African coast — places where some of the region's earliest settled communities built lives, governed themselves, traded with their neighbours, smelted iron, made pottery, raised children, buried their dead, and maintained forests that still stand today. The archaeology of the kayas is not a footnote to the history of the Swahili coast. It is an essential chapter — one that is still being written.",
+      "sw": "Kinachoeleweka tayari, hata hivyo, ni kwamba makaya si mambo ya pembeni yasiyofaa. Ni maeneo ya kati katika historia ya pwani ya Afrika Mashariki — mahali ambapo baadhi ya jamii za mapema zaidi zilizokaa katika eneo hilo zilijenga maisha, kujitawala, kufanya biashara na majirani zao, kuyeyusha chuma, kutengeneza ufinyanzi, kulea watoto, kuzika wafu wao, na kudumisha misitu ambayo bado inasimama leo. Akiolojia ya makaya si nukta ya chini katika historia ya pwani ya Kiswahili. Ni sura muhimu — moja ambayo bado inaandikwa.",
+      "dg": "Chirichoelewa tayari, hata hivyo, ni kukala makaya si mambo ga pembeni gasigofaa. Ni maeneo ga kahi kpwa historia ya ph'wani ya Afrika Mashariki — phatu ambapho bazi ya jamii za mapema zaidi zirizokala kpwa eneo riro zaridzenga maisha, kudzitawala, kuhenda chibiashara na ajirani ao, kuyeyusha chuma, kutengeneza ufinyanzi, kurera ana, kuzika afu ao, na kudumisha misitu ambayo bado inasimama rero. Akiolojia ya makaya si nukta ya chini kpwa historia ya ph'wani ya Chiswahili. Ni sura muhimu — mwenga ambayo bado inaandikwa."
+    }
+  ]
+}

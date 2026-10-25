@@ -1,0 +1,169 @@
+{
+  "id": "culture/crafts/traditional-construction",
+  "title": {
+    "en": "Traditional Construction",
+    "sw": "Ujenzi wa Jadi",
+    "dg": "Kudzenga kpwa Jadi"
+  },
+  "intro": {
+    "en": "The traditional Digo house is a masterwork of environmental adaptation. Every material comes from the immediate landscape — the mangrove swamps that line the creeks and inlets, the coconut palms that…",
+    "sw": "Nyumba ya jadi ya Kidigo ni kazi bora ya kubadilika na mazingira. Kila kifaa kinatoka kwa mandhari ya karibu — mikoko, minazi, na ardhi yenyewe. Nyumba ya Kidigo imejengwa, kwa maana halisi, kutoka…",
+    "dg": "Nyumba ya jadi ya Chidigo ni kazi nono ya kulungana na mazingira. Chila chitu chinatuluka kpwa tsi ya phephi — mikoko, minazi, na tsi iyo mwenye. Nyumba ya Chidigo ikadzengbwa, kpwa maana ya kpweli,…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Building from the Land",
+      "sw": "Kujenga Kutoka kwa Ardhi",
+      "dg": "Kudzenga Kula kpwa Tsi"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The traditional Digo house is a masterwork of environmental adaptation. Every material comes from the immediate landscape — the mangrove swamps that line the creeks and inlets, the coconut palms that define the coastal lowlands, the earth itself. No nails, no imported timber, no factory-made components. A Digo homestead is, in the most literal sense, built from the ground it stands on and the trees that surround it. This is not poverty of means but richness of knowledge — an intimate understanding of which materials perform best in the hot, humid conditions of the Kenya coast, refined over centuries of practice.",
+      "sw": "Nyumba ya jadi ya Kidigo ni kazi bora ya kubadilika na mazingira. Kila kifaa kinatoka kwa mandhari ya karibu — mikoko, minazi, na ardhi yenyewe. Nyumba ya Kidigo imejengwa, kwa maana halisi, kutoka kwa ardhi inayosimama na miti inayoizunguka. Hii si umaskini wa njia bali utajiri wa maarifa — uelewa wa ndani wa vifaa vipi vinafanya kazi vizuri katika hali ya joto na unyevu wa pwani ya Kenya.",
+      "dg": "Nyumba ya jadi ya Chidigo ni kazi nono ya kulungana na mazingira. Chila chitu chinatuluka kpwa tsi ya phephi — mikoko, minazi, na tsi iyo mwenye. Takuna misumari, takuna mbao za kula kondze, takuna vitu vya kuhendwa chiwandani. Nyumba ya Chidigo ikadzengbwa, kpwa maana ya kpweli, kula kpwa tsi inayoimira na mihi inayoizunguluka. Uhu si uchiya wa vitu ela unji wa marifwa — kumanya kpwa ndani ni vitu vihi vinavyohenda kazi vinono kpwa dzoho na unyevu wa pwani ya Kenya. Marifwa gano gakatengezwa kpwa karne nyinji za kuhenda kazi hino."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Boriti Framework",
+      "sw": "Mfumo wa Boriti",
+      "dg": "Mfumo wa Boriti"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The structural skeleton of a Digo house is made from boriti — mangrove poles, typically ten to twelve feet long, harvested from the dense mangrove forests that grow along the tidal waterways of the south coast. Mangrove wood is prized for construction because it is naturally resistant to termites and rot, two forces that destroy lesser timbers within a few seasons in the coastal climate. The poles are straight, strong, and remarkably uniform in diameter, making them ideal for framing.",
+      "sw": "Mifupa ya nyumba ya Kidigo inatengenezwa kwa boriti — nguzo za mikoko, kawaida futi kumi hadi kumi na mbili, zilizokatwa kutoka misitu mnene ya mikoko. Mti wa mikoko unapendwa kwa ujenzi kwa sababu unastahimili mchwa na kuoza. Upana wa boriti unaamua uwiano wa msingi wa nyumba — chumba ni kawaida futi nane hadi kumi upana.",
+      "dg": "Mifupa ya nyumba ya Chidigo inatengezwa kpwa boriti — nguzo za mikoko, kawaida za futi kumi hadi kumi na mbiri, zirizokatwa kula matsaka minji ya mikoko inayomera kanda-kanda ya madzi ga bahari ya pwani ya kusini. Muhi wa mikoko unatogolwa kpwa kudzenga kpwa sababu kaurikpwa ni malutswa na kauola. Malutswa na kuola ni vitu viiri vinavyobananga mihi minjina kpwa misimu michache bahi kpwa hali ya hewa ya pwani. Nguzo za boriti tazisongoloka, ni za nguvu, na unene wao ni sawa-sawa, ndiyo mana ni nono kpwa kudzengera mifupa ya nyumba."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The width of the boriti pole determines the fundamental proportions of the house. A room is typically eight to ten feet wide — the span that a single pole can bridge as a roof beam without intermediate support. This constraint shapes the architecture from the inside out. Rooms are long and narrow, arranged in sequence, with the proportions dictated not by abstract design but by the physical properties of the available material. It is architecture that listens to its materials rather than imposing a plan upon them.",
+      "sw": "Kuta za Tope",
+      "dg": "Upana wa boriti ndio unaoamua ukulu wa nyumba. Chumba kawaida ni futi nane hadi kumi upana — upana ambao boriti mwenga inaweza kuvuka dza mhimili wa paa bila nguzo ya kuitegemeza kahi-kahi. Kanuni hino inaumba nyumba kula ndani kuphiya kondze. Vyumba ni virefu na vyembamba, vinapangwa chimwenga bada ya chanjina, na ukulu wao tauamulwa ni mpango wa kufikirika ela ni tabiya ya vitu vinavyophahikana. Ni kudzenga kunakosikiza vituvye badala ya kuvilazimisha mpango."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "Mud and Wattle Walls",
+      "sw": "Kuta zinajengwa kwa mbinu ya fito-na-tope. Mfumo wa fito nyembamba unasukwa kati ya nguzo za wima, kisha kupakwa tope pande zote mbili. Kuta hizi nene zinafanya kazi kama mfumo wa hali ya hewa — zinafyonza joto mchana na kulitoa usiku. Nyumba zingine za pwani zinapokea mipako ya plasta ya matumbawe-chokaa, inayoumba uso wa rangi nyepesi unaobadilika kwa wakati.",
+      "dg": "Kuta za Tope"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The walls of a traditional Digo house are constructed using the wattle-and-daub technique that is found across sub-Saharan Africa but takes a particular form on the coast. A framework of thin wooden poles and flexible branches is woven between the vertical boriti uprights, creating a lattice — the wattle. This lattice is then packed with mud on both sides, built up in layers and smoothed by hand to create walls of considerable thickness, sometimes six inches or more.",
+      "sw": "Paa la Makuti",
+      "dg": "Kuta za nyumba ya jadi ya Chidigo zinadzengbwa kpwa mbinu ya fito na tope, mbinu inayophahikana Afrika yosi kusini ya Sahara ela pwani inahendwa kpwa njira ya chipekee. Fito nyembamba na magongo laini zinasukpwa kahi ya nguzo za boriti zirizoima, zichihenda wavu — fito. Chisha wavu uhu unapakpwa tope uphande wosi mbiri, tope richienjerezwa pore-pore na kulainishwa kpwa mkpwono hadi kuta zikale nene sana, wakati wanjina inchi sita au zaidi."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "These thick mud walls are not merely structural. They are the house's climate control system. During the day, when coastal temperatures can reach the mid-thirties, the dense mud absorbs heat slowly, keeping the interior cool. At night, when temperatures drop and the coastal breeze picks up, the stored heat radiates inward, warming the house through the cooler hours. This thermal mass effect — the same principle used in adobe construction worldwide — makes the mud-walled house remarkably comfortable without any mechanical cooling or heating.",
+      "sw": "Paa linafunikwa kwa makuti — paneli zilizofanywa kutoka kwa makuti ya mnazi. Kutengeneza makuti ni ufundi wa ustadi. Makuti ya mnazi yanakatwa, yakaushwa, na kugawanywa. Vijani vinapindwa juu ya fimbo nyembamba na kushonwa kwa uzi wa katani. Kwenye mfumo wa paa, paneli za makuti zinawekwa kutoka chini kwenda juu, kila safu ikifunika ile ya chini kwa inchi nne. Paa la makuti lililofanywa vizuri linaweza kudumu miaka saba hadi kumi.",
+      "dg": "Kuta zino nene tazidzengbwa kpwa kuimirisha nyumba bahi. Zinahenda kazi dza mfumo wa hali ya hewa wa nyumba. Mutsi, dzoho ra pwani richifika digrii salasini na tsano hivi, kuta zino nene zinanwa dzoho pore-pore, na ndani ya nyumba kunasala mnyevu. Usiku, dzoho richiphunguka na phepho ra pwani richiandza kuvuma, kuta zinariuyiza dzoho riro ndani, zichihenda nyumba ikale na dzoho-dzoho wakati wa saa za mnyevu. Kanuni hino — iyo iyo inayohumirwa kpwa nyumba za matofali ga tope dunia yosi — inahenda nyumba ya kuta za tope ikale ya raha sana bila mashine yoyosi ya kuphoza au kuphasha nyumba."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "In some coastal Digo houses, the mud walls receive a finishing coat of coral-lime plaster — ground coral mixed with lime to create a pale, textured surface that weathers over time into the distinctive patina of the old coast. This plaster adds weather resistance and gives the house a clean, bright appearance that contrasts with the deep green of the surrounding vegetation.",
+      "sw": "Mila Chini ya Shinikizo",
+      "dg": "Kpwa nyumba zanjina za Adigo za pwani, kuta za tope zinapakpwa plasta ya masanoo na chokaa — masanoo garigosagwa na kutsanganywa na chokaa, kuhenda uso wa rangi ya chereru unaogaluka na wakati hadi ukale na rangi ya kare inayomanyikana ya pwani ya kare. Plasta hino inarinda kuta kula mvula na phepho, na inaipha nyumba kuonekana kpwa usafi na kung'ala, tafwauti na rangi ya chijani ya mihi na makodza ganayoizunguluka."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Makuti Roofing",
+      "sw": "Leo, ujenzi wa jadi unakabiliwa na shinikizo za kisasa. Matofali ya zege, paa za bati, na sakafu za simenti zinachukua nafasi ya vifaa vya jadi. Lakini makuti yanasalia — katika maeneo ya vijijini na katika hoteli za pwani zinazotumia vifaa vya jadi kwa makusudi kutambua uzuri wa ujenzi wa jadi wa pwani.",
+      "dg": "Paa ra Makuti"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The roof of a Digo house is thatched with makuti — panels made from coconut palm fronds that are among the most effective natural roofing materials in the tropics. Making makuti is itself a skilled craft. Coconut fronds are harvested, dried in the sun, and then split along the midrib. The individual leaflets are folded over a thin stick, approximately three feet long, and stitched in place with sisal fiber. The result is a dense, layered panel that sheds water efficiently when properly installed.",
+      "sw": "Paa la nyumba ya Kidigo linafunikwa kwa makuti — paneli zilizofanywa kutoka kwa makuti ya mnazi ambazo ni miongoni mwa nyenzo bora zaidi za paa za asili katika nchi za tropiki. Kutengeneza makuti ni ufundi wa ustadi. Makuti ya mnazi yanakatwa, yanakaushwa juani, na kisha kugawanywa kando ya uti wa kati. Vijani vya mmoja mmoja vinapindwa juu ya fimbo nyembamba, takriban futi tatu urefu, na kushonwa mahali pake kwa uzi wa katani. Matokeo ni paneli nene, yenye tabaka ambayo inamwaga maji kwa ufanisi inapowekwa vizuri.",
+      "dg": "Paa ra nyumba ya Chidigo rinafunikpwa kpwa makuti — paneli zirizohendwa kula kpwa makodza ga mnazi, ambazo ni kahi ya vitu vya chienyeji vya paa vinavyohenda kazi vinono zaidi kpwa tsi za dzoho. Kutengeza makuti ni ufundi wa ustadi. Makodza ga mnazi ganakatwa, ganaanikpwa dzuwani, na kuahulwa kutsupira bati. Vijani vinakundzwa dzulu ya chigongo chembamba cha urefu wa futi tahu hivi na kushonwa kpwa uzi wa katani. Matokeo ni paneli nene ya tabaka inayotuluza madzi vinono ichiikpwa sawa-sawa."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "On the roof frame, makuti panels are laid from the bottom up, each row overlapping the one below by approximately four inches. This overlapping arrangement channels rainwater down the surface of the thatch without allowing it to penetrate to the interior. A well-made makuti roof can last seven to ten years before it needs replacement — a remarkable lifespan for a natural roofing material in a climate that delivers both fierce equatorial sun and heavy seasonal rains.",
+      "sw": "Kwenye mfumo wa paa, paneli za makuti zinawekwa kutoka chini kwenda juu, kila safu ikifunika ile ya chini kwa takriban inchi nne. Mpangilio huu wa kufunikana unaelekeza maji ya mvua chini ya uso wa makuti bila kuruhusu kupenya ndani. Paa la makuti lililofanywa vizuri linaweza kudumu miaka saba hadi kumi kabla ya kuhitaji kubadilishwa — umri wa ajabu kwa nyenzo ya paa ya asili katika hali ya hewa inayoleta jua kali la ikweta na mvua nzito za msimu.",
+      "dg": "Dzulu ya mfumo wa paa, paneli za makuti zinaikpwa kula photsi kuphiya dzulu, chila mstari uchifunika ura wa photsi kpwa inchi nne hivi. Mpango uhu wa kufunikana unaphirika madzi ga mvula kutserera dzulu ya makuti bila kuinjira ndani ya nyumba. Paa ra makuti ririrohendwa vinono rinaweza kukala miaka sabaa hadi kumi kabla ya kuhitaji kugaluzwa — muda mrefu wa ajabu kpwa paa ra vitu vya chienyeji kpwa hali ya hewa yenye dzuwa kali ra ikweta na mvula nyinji za msimu."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Makuti thatch provides excellent insulation, keeping the interior cool during the day while allowing warm air to escape upward through the loosely structured thatch. The ventilation is passive but effective — a makuti-roofed house breathes in a way that a corrugated iron roof cannot replicate. This is why many older residents of the coast prefer makuti to modern roofing materials, despite the maintenance required: the comfort is simply superior.",
+      "sw": "Makuti ya paa yanatoa insulation bora, yakiweka ndani baridi mchana huku yakiruhusu hewa ya joto kutoroka juu kupitia makuti yaliyoundwa kwa ulegelevu. Uingizaji hewa ni wa asili lakini wenye ufanisi — nyumba yenye paa la makuti inapumua kwa njia ambayo paa la bati haliwezi kuiga. Hii ndiyo sababu wakazi wengi wa zamani wa pwani wanapendelea makuti kuliko nyenzo za paa za kisasa, licha ya matengenezo yanayohitajika: starehe ni bora zaidi tu.",
+      "dg": "Makuti ga paa ganarinda dzoho vinono, gachiika ndani kukale mnyevu mutsi na gachiricha hewa ya dzoho itsupe dzulu kutsupira makuti garigohendwa bila kubanwa. Kuinjira kpwa hewa ni kpwa chienyeji ela kunahenda kazi vinono — nyumba yenye paa ra makuti inaphuma kpwa njira ambayo paa ra bati tariweza kuiga. Hino ndiyo sababu atu anji a kare a pwani anatogola makuti kuriko vitu vya paa vya chisasa, hata kala ganahitaji kutengezwa: ganapha raha zaidi."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Coconut Fiber Lashing",
+      "sw": "Kamba za Nyuzi za Nazi",
+      "dg": "Kamba za Nyuzi za Nazi"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "In traditional Digo construction, the structural members are joined not with nails or metal fasteners but with lashings made from coconut coir — the fibrous material extracted from coconut husks. Coir rope is uniquely suited to coastal construction. It is resistant to salt water, flexible enough to absorb the movement caused by wind and thermal expansion, and remarkably durable. A well-made coir lashing can hold a roof frame together for years, flexing with the structure rather than working loose as rigid metal fasteners tend to do.",
+      "sw": "Katika ujenzi wa jadi wa Wadigo, viungo vya muundo vinaunganishwa si kwa misumari au vifunguo vya chuma bali kwa kamba zilizofanywa kutoka kwa makumbi ya nazi — nyenzo ya nyuzi inayotolewa kutoka maganda ya nazi. Kamba ya makumbi inafaa kipekee kwa ujenzi wa pwani. Inastahimili maji ya chumvi, ina unyumbufu wa kutosha kufyonza mwendo unaosababishwa na upepo na upanuzi wa joto, na ni ya kudumu kwa ajabu. Kamba nzuri ya makumbi inaweza kushikilia mfumo wa paa pamoja kwa miaka, ikinyumbuka na muundo badala ya kulegea kama vifunguo vya chuma vigumu vinavyoelekea kufanya.",
+      "dg": "Kpwa kudzenga kpwa jadi kpwa Adigo, viungo vya nyumba vinafungbwa phamwenga si kpwa misumari wala vifungo vya chuma ela kpwa kamba zirizohendwa kula kpwa makumbi ga nazi — nyuzi zinazotuluzwa kula marifu ga nazi. Kamba ya makumbi inafwaha sana kpwa kudzenga kpwa pwani. Taiharibiwa ni madzi ga munyu, inaweza kuvumirira kusukpwa ni phepho na dzoho, na inakala muda mrefu kpwa ajabu. Kamba nono ya makumbi inaweza kugbwira mfumo wa paa phamwenga kpwa miaka, ichisukpwa phamwenga na nyumba badala ya kulegea dza vifungo vya chuma vigumu vinavyohenda."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The process of making coir rope is labor-intensive. Coconut husks are soaked in water for days or weeks to soften the fibers, then beaten to separate them. The loose fibers are dried, combed, and twisted by hand into cord of varying thickness, from thin binding twine to heavy structural rope. This rope-making tradition is one of the less visible but essential crafts that support Digo architecture.",
+      "sw": "Mchakato wa kutengeneza kamba ya makumbi unahitaji kazi nyingi. Maganda ya nazi yanatiwa ndani ya maji kwa siku au wiki kulainisha nyuzi, kisha kupigwa kuzitenganisha. Nyuzi huru zinakaushwa, kuchanwa, na kusokotwa kwa mkono kuwa kamba za unene tofauti, kutoka uzi mwembamba wa kufunga hadi kamba nzito ya muundo. Mila hii ya kutengeneza kamba ni mojawapo ya ufundi usio wa kuona sana lakini muhimu unaounga mkono ujenzi wa Wadigo.",
+      "dg": "Kazi ya kutengeza kamba ya makumbi ni nyinji. Marifu ga nazi ganalwekpwa madzini kpwa siku au wiki ili nyuzi zilegee, chisha ganabandwa ili nyuzi zitengane. Nyuzi zinaanikpwa, zinachanwa, na kusokotwa kpwa mkpwono kukala kamba za unene wa chila aina, kula uzi mwembamba wa kufunga hadi kamba nzito za nyumba. Chimila chino cha kutengeza kamba ni mwenga wa ufundi usiooneka sana ela wa muhimu unaoterya kudzenga kpwa Adigo."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Round and Rectangular: Shape as Social Language",
+      "sw": "Mviringo na Mstatili: Umbo Kama Lugha ya Kijamii",
+      "dg": "Mviringo na Mstatili: Umbo Dza Luga ya Chijamii"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Traditional Digo settlements use architectural form to communicate social structure. The elder's hut is round — a circular dwelling that signals authority and status within the homestead. Other family houses are rectangular, built with the same materials and techniques but in a different shape that carries a different social meaning. This distinction between round and rectangular is not arbitrary or decorative. It is a spatial vocabulary that tells every visitor, at a glance, the social geography of the homestead.",
+      "sw": "Makazi ya jadi ya Wadigo yanatumia umbo la ujenzi kuwasilisha muundo wa kijamii. Kibanda cha mzee ni cha mviringo — makao ya duara yanayoashiria mamlaka na hadhi ndani ya boma. Nyumba nyingine za familia ni za mstatili, zilizojengwa kwa nyenzo na mbinu zile zile lakini katika umbo tofauti lenye maana tofauti ya kijamii. Tofauti hii kati ya mviringo na mstatili si ya bahati mbaya au ya mapambo. Ni msamiati wa nafasi unaomwambia kila mgeni, kwa mtazamo mmoja, jiografia ya kijamii ya boma.",
+      "dg": "Makalo ga jadi ga Adigo ganahumira maumbo ga nyumba kuonyesa vira jamii inavyopangwa. Chibanda cha mzehe ni cha mviringo — nyumba ya mviringo inayoonyesa mamlaka na hadhi kahi ya mudzi. Nyumba zanjina za mbari ni za mstatili, zirizodzengbwa kpwa vitu na mbinu zizo zizo ela kpwa umbo ranjina renye maana yanjina kpwa jamii. Tafwauti hino kahi ya mviringo na mstatili si ya bahati wala ya mapambo. Ni luga ya nafasi inayomuambira chila mjeni, kpwa kulola mara mwenga bahi, vira mudzi unavyopangwa."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The round hut is the older form, linked to the earliest Digo settlements and to the kaya tradition. The rectangular house reflects later influences, including contact with the Swahili coast building tradition. That both forms persist side by side within a single homestead speaks to the Digo capacity for incorporating new forms without discarding old ones — a pattern visible across their material culture.",
+      "sw": "Kibanda cha mviringo ni umbo la zamani zaidi, linalohusishwa na makazi ya kwanza ya Wadigo na mila ya kaya. Nyumba ya mstatili inaonyesha ushawishi wa baadaye, ikiwa ni pamoja na mawasiliano na mila ya ujenzi wa pwani ya Kiswahili. Kwamba maumbo yote mawili yanaendelea bega kwa bega ndani ya boma moja kunazungumza juu ya uwezo wa Wadigo wa kuingiza maumbo mapya bila kutupa ya zamani — muundo unaoonekana katika utamaduni wao wa mali kwa upana.",
+      "dg": "Chibanda cha mviringo ni umbo ra kare zaidi, rinarohusiana na makalo ga kpwandza ga Adigo na chimila cha kaya. Nyumba ya mstatili inaonyesa ushawishi wa bada yakpwe, phamwenga na kuhusiana na chimila cha kudzenga cha pwani ya Chiswahili. Kukala maumbo gosi mairi ganasala kanda-kanda ndani ya mudzi mmwenga kunaonyesa vira Adigo anavyoweza kuhala maumbo maphya bila kuricha ga kare — dzambo rinaroonekana kpwa vitu vyao vyosi vya chisomo."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "A Tradition Under Pressure",
+      "sw": "Mila Chini ya Shinikizo",
+      "dg": "Chimila Photsi ya Shinikizo"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Today, traditional Digo construction faces the pressures that confront vernacular building traditions worldwide. Concrete block walls are faster to build and require less skilled labor. Corrugated iron roofing is cheaper to install and lasts longer without maintenance. Cement floors are easier to keep clean than packed earth. The economics favor modern materials, and with each generation, fewer young people learn the old building skills.",
+      "sw": "Leo, ujenzi wa jadi wa Wadigo unakabiliwa na shinikizo zinazokabili mila za ujenzi wa kienyeji duniani kote. Kuta za matofali ya zege ni za haraka zaidi kujenga na zinahitaji kazi ndogo ya ustadi. Paa za bati ni nafuu zaidi kuweka na zinadumu zaidi bila matengenezo. Sakafu za simenti ni rahisi kusafisha kuliko ardhi iliyoshindiliwa. Uchumi unapendelea nyenzo za kisasa, na kwa kila kizazi, vijana wachache wanajifunza ujuzi wa zamani wa ujenzi.",
+      "dg": "Rero, kudzenga kpwa jadi kpwa Adigo kuna shinikizo zizo zizo zinazokala kpwa mila za kudzenga za chienyeji duniani kosi. Kuta za matofali ga zege ni za upesi zaidi kudzenga na zinahitaji kazi ya ustadi chidide. Paa za bati ni rahisi zaidi kuika na zinakala muda mrefu zaidi bila kutengezwa. Sakafu za simenti ni rahisi kusuwa kuriko tsi iriyoshindiriwa. Uchumi unalunga vitu vya chisasa, na kpwa chila chizazi, ana achache anadzifundza ujuzi wa kare wa kudzenga."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Yet makuti thatch survives. In rural areas, it remains the roofing material of choice for kitchens and secondary structures. Along the tourist coast, hotels and restaurants use makuti deliberately, recognizing that its warm, textured appearance evokes the beauty of traditional coastal architecture in a way that no modern material can match. Some preservation efforts aim to maintain traditional building skills, recognizing that the knowledge of how to select a boriti pole, mix a mud wall, or stitch a makuti panel represents centuries of accumulated environmental intelligence that, once lost, cannot be recovered from any book.",
+      "sw": "Hata hivyo makuti yanasalia. Katika maeneo ya vijijini, yanabaki nyenzo ya paa inayopendelewa kwa jiko na miundo ya ziada. Kando ya pwani ya utalii, hoteli na mikahawa yanatumia makuti kwa makusudi, yakitambua kwamba mwonekano wake wa joto, wenye mwili unaibua uzuri wa ujenzi wa jadi wa pwani kwa njia ambayo nyenzo yoyote ya kisasa haiwezi kulinganisha. Juhudi fulani za uhifadhi zinalenga kudumisha ujuzi wa ujenzi wa jadi, zikitambua kwamba maarifa ya jinsi ya kuchagua nguzo ya boriti, kuchanganya ukuta wa tope, au kushona paneli ya makuti yanawakilisha karne za akili ya mazingira iliyokusanywa ambayo, ikipotea, haiwezi kurejeshwa kutoka kitabu chochote.",
+      "dg": "Ela makuti ganasala. Kpwa vidzidzi, ganasala kukala chitu cha paa chinachotogolwa kpwa madziko na nyumba zanjina ndide. Kanda-kanda ya pwani ya utalii, hoteli na mikahawa inahumira makuti kpwa makusudi, ichimanya kukala kuonekana kpwa dzoho na kpwa chimwiri kpwa makuti kunareha urembo wa kudzenga kpwa jadi kpwa pwani kpwa njira ambayo chitu chochosi cha chisasa tachiweza kuiga. Juhudi zanjina za kuhifadhi zinalonda kurinda ujuzi wa kudzenga kpwa jadi, zichimanya kukala marifwa ga kutsambula nguzo ya boriti, kutsanganya ukuta wa tope, au kushona paneli ya makuti ni karne za akili ya mazingira iriyokusanywa ambayo, ichiangamika, taiweza kuuyizwa kula chitabu chochosi."
+    }
+  ]
+}

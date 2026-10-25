@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
-import { oralTraditionsDomain } from '@/lib/language/content';
+import { oralTraditionsDomain } from '@/lib/articles/manifest';
 import { dialects } from '@/lib/language/dialects';
 import { languageTools } from '@/lib/language/tools';
 import { trackNavClick } from '@/lib/analytics/track';

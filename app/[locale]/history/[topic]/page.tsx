@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { HistoryTopicArticle } from '@/components/HistoryArticle/HistoryArticle';
-import { historyDomain } from '@/lib/history/content';
+import { notFound } from 'next/navigation';
+import { historyDomain } from '@/lib/articles/manifest';
+import { historyTopic } from '@/lib/articles/load';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
@@ -38,6 +40,8 @@ export default async function Page({
   const { locale, topic } = await params;
   const loc = locale as Locale;
   const t = historyDomain.topics.find((x) => x.slug === topic);
+  const article = historyTopic(topic);
+  if (!article) notFound();
   const today = new Date().toISOString().split('T')[0];
 
   return (
@@ -64,7 +68,7 @@ export default async function Page({
           />
         </>
       )}
-      <HistoryTopicArticle topicSlug={topic} />
+      <HistoryTopicArticle topicSlug={topic} body={article.body} />
     </>
   );
 }

@@ -36,28 +36,23 @@ ${urls.join('\n')}
 }
 
 // ----- Load content data via dynamic import (uses tsconfig paths via tsx) -----
+// Article slugs from content/articles (spec 34 §17.10).
+async function loadArticles() {
+  return (await import(path.join(ROOT, 'lib/articles/load.ts'))) as typeof import('../lib/articles/load');
+}
+
 async function loadCultureDomains() {
-  const mod = await import(path.join(ROOT, 'lib/culture/content.ts'));
-  return mod.domains as Array<{
-    slug: string;
-    topics: Array<{ slug: string }>;
-  }>;
+  return (await loadArticles()).cultureDomains().map((d) => ({ slug: d.slug, topics: d.topics.map((slug) => ({ slug })) }));
 }
 
 async function loadHistoryDomain() {
-  const mod = await import(path.join(ROOT, 'lib/history/content.ts'));
-  return mod.historyDomain as {
-    slug: string;
-    topics: Array<{ slug: string }>;
-  };
+  const d = (await loadArticles()).historyDomain();
+  return { slug: d.slug, topics: d.topics.map((slug) => ({ slug })) };
 }
 
 async function loadLanguageDomain() {
-  const mod = await import(path.join(ROOT, 'lib/language/content.ts'));
-  return mod.oralTraditionsDomain as {
-    slug: string;
-    topics: Array<{ slug: string }>;
-  };
+  const d = (await loadArticles()).languageDomain();
+  return { slug: d.slug, topics: d.topics.map((slug) => ({ slug })) };
 }
 
 function loadDictionaryIndex() {
@@ -123,7 +118,7 @@ async function main() {
     urls.push(xmlUrl(`/history/${topic.slug}`, 0.7, 'monthly'));
   }
   urls.push(xmlUrl('/history/figures', 0.7, 'monthly'));
-  const { publishedFigureSlugs } = await import(path.join(ROOT, 'lib/history/figure-articles.ts'));
+  const { publishedFigureSlugs } = await loadArticles();
   for (const slug of publishedFigureSlugs() as string[]) {
     urls.push(xmlUrl(`/history/figures/${slug}`, 0.7, 'monthly'));
   }

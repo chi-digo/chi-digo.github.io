@@ -1,0 +1,141 @@
+{
+  "id": "culture/society/fuko-system",
+  "title": {
+    "en": "The Fuko System",
+    "sw": "Mfumo wa Fuko",
+    "dg": "Mfumo wa Fuko"
+  },
+  "intro": {
+    "en": "When two Digo people meet for the first time, the conversation follows a predictable path to a single question: *\"Wa atu ani?\"* — \"Whose people are you?\" The answer is not a family name in the Western…",
+    "sw": "Watu wawili wa Kidigo wanapokutana kwa mara ya kwanza, mazungumzo yanafuata njia inayotabirika hadi swali moja: *\"Wa atu ani?\"* — \"Wewe ni wa watu gani?\" Jibu si jina la familia kwa maana ya…",
+    "dg": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra mbari kpwa maana ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Question That Defines You",
+      "sw": "Swali Linalokufafanua",
+      "dg": "Swali Rinarokufafanula"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "When two Digo people meet for the first time, the conversation follows a predictable path to a single question: *\"Wa atu ani?\"* — \"Whose people are you?\" The answer is not a family name in the Western sense. It is the name of a *fuko* — a matrilineal clan passed from mother to child across uncounted generations. The fuko is the first and deepest layer of Digo identity, the kinship structure through which a person knows who they are, who they belong to, and what obligations bind them to the wider community.",
+      "sw": "Watu wawili wa Kidigo wanapokutana kwa mara ya kwanza, mazungumzo yanafuata njia inayotabirika hadi swali moja: *\"Wa atu ani?\"* — \"Wewe ni wa watu gani?\" Jibu si jina la familia kwa maana ya Kimagharibi. Ni jina la *fuko* — ukoo wa mama unaopita kutoka mama hadi mtoto kupitia vizazi visivyohesabika. Fuko ni tabaka la kwanza na la kina zaidi la utambulisho wa Wadigo.",
+      "dg": "Atu airi a Chidigo achikutana kpwa mara ya kpwandza, mazungumzo ganalunga njira inayomanyikana hadi swali mwenga: *\"Wa atu ani?\"* — \"Uwe ni wa atu ani?\" Jibu si dzina ra mbari kpwa maana ya Chizungu. Ni dzina ra *fuko* — ukoo wa nine unaotsapizwa kula kpwa nine hadi kpwa mwana kutsupira vizazi visivyoweza kuhesabika. Fuko ni seemu ya kpwandza na ya ndani zaidi ya utambulisho wa Adigo. Ni mfumo wa ukoo ambao kutsupira uwo mutu anamanya iye ni ani, ni wa ani, na ni wajibu uphi unaomfunga na jamii yosi."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The word *fuko* (plural *mafuko*) denotes a named clan whose membership is determined exclusively through the maternal line. A child belongs to their mother's fuko, regardless of who their father is. This simple rule produces a kinship architecture of remarkable stability: while marriages form and dissolve, while men move between households, while political structures rise and fall, the fuko endures — because the biological connection between mother and child is never in question.",
+      "sw": "Neno *fuko* (wingi: *mafuko*) linaashiria ukoo wenye jina ambao ushiriki wake unaonyeshwa tu kupitia upande wa mama. Mtoto anamilikiwa na fuko la mama yake, bila kujali baba yake ni nani. Kanuni hii rahisi inazalisha muundo wa ukoo wenye utulivu wa kushangaza.",
+      "dg": "Neno *fuko* (winji: *mafuko*) rinamaanisha ukoo wenye dzina ambao atue anamanyikana kutsupira uphande wa nine bahi. Mwana ni wa fuko ra nine, hata ise akale ni ani. Kanuni hino rahisi inahenda ukoo ukale imara kpwa ajabu. Ndowa zichihendwa na kumala, alume achitsama kula nyumba mwenga kuphiya yanjina, na mifumo ya utawala ichikula na kugbwa, fuko rinasala — kpwa sababu uhusiano wa damu kahi ya nine na mwana taubishaniwa kamwe."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Matrilineality Among the Mijikenda",
+      "sw": "Matrilineality Kati ya Mijikenda",
+      "dg": "Ukoo wa Uphande wa Nine Kahi ya Amijikenda"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The Digo are distinctive among the nine Mijikenda groups in the strength of their matrilineal identity. While most Mijikenda communities lean toward patrilineal organisation — tracing descent, inheritance, and identity primarily through the father's line — the Digo have maintained matrilineal clan structures for centuries. This is not a minor variation. It shapes everything: how land is inherited, who holds authority over children, how marriages are negotiated, and where a person's deepest loyalties lie.",
+      "sw": "Wadigo wanajitofautisha miongoni mwa makundi tisa ya Mijikenda kwa nguvu ya utambulisho wao wa upande wa mama. Wakati jamii nyingi za Mijikenda zinazingatia upande wa baba, Wadigo wamehifadhi miundo ya ukoo wa mama kwa karne nyingi. Hii si tofauti ndogo — inaathiri kila kitu: jinsi ardhi inavyorithiwa, nani anashikilia mamlaka juu ya watoto, jinsi ndoa zinavyoshughulikiwa, na uaminifu wa kina wa mtu unaelekea wapi.",
+      "dg": "Adigo ana tafwauti kahi ya makundi tisiya ga Amijikenda kpwa nguvu ya utambulisho wao wa uphande wa nine. Wakati jamii nyinji za Amijikenda zinalunga uphande wa ise — zichilunga ukoo, urithi na utambulisho hasa kutsupira uphande wa ise — Adigo akarinda mila za ukoo wa uphande wa nine kpwa karne nyinji. Uku si kugaluka kudide. Kunaumba chila chitu: vira tsi inavyorithiwa, ani ana mamlaka dzulu ya ana, vira ndowa zinavyopatanwa, na uaminifu wa ndani zaidi wa mutu uko kuphi."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Scholars have debated why the Digo diverged from the broader Mijikenda pattern. Some point to the influence of the matrilineal Makonde and Makua peoples to the south. Others suggest that the matrilineal system predates the Mijikenda dispersal from Singwaya and was simply retained more strongly among the Digo while other groups shifted toward patrilineality. What is clear is that the fuko system is not a borrowing or an innovation — it is foundational to Digo social organisation, woven into the language, the land tenure system, and the ceremonies that mark every stage of life.",
+      "sw": "Binti Wanafanya Fuko Tajiri",
+      "dg": "Asomi akabishana kpwa utu Adigo atsama na kuricha mpangilio wa Amijikenda anjina. Anjina anagomba ni ushawishi wa Amakonde na Amakua, atu a ukoo wa uphande wa nine ariokala kusini. Anjina anaona kukala mfumo wa uphande wa nine ukakala phapho kabla Amijikenda kudzitawanya kula Singwaya, na Adigo auhifadhi kpwa nguvu zaidi wakati makundi ganjina gachigaluka kuphiya uphande wa ise. Chirichowazi ni kukala mfumo wa fuko si chitu cha kuhala kula kpwa anjina wala chitu chiphya — ni musingi wa mpangilio wa jamii ya Adigo, uriosukpwa ndani ya luga, mfumo wa kumiliki tsi, na sherehe zinazoonyesa chila hatua ya maisha."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Daughters Make the Fuko Rich",
+      "sw": "Katika mantiki ya fuko, wanawake ni kiungo muhimu. Kuwa na binti kunafanya fuko tajiri, kwa sababu ni kupitia binti ambapo ukoo unajiendeleza. Wana wa kiume ni, kwa lugha kali ya rekodi ya kiethnografia, \"mwisho wa njia kuzaa kwa fuko.\" Hii haimaanishi kwamba wana wa kiume hawathaminiwi — wanaume wanashikilia nafasi muhimu katika fuko kama *mjomba*.",
+      "dg": "Asichana Anahenda Fuko Rikale Tajiri"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "In the logic of the fuko, women are the essential link. A Digo proverb captures the principle: having daughters makes the fuko rich, because it is through daughters that the clan perpetuates itself. Sons are, in the blunt language of the ethnographic record, \"dead ends in the fuko's propagation\" — they carry their mother's fuko identity but cannot pass it to their children. A man's children belong to his wife's fuko, not his own.",
+      "sw": "Fuko Leo",
+      "dg": "Kpwa mantiki ya fuko, achetu ndio chiungo cha muhimu. Ndarira ya Chidigo inagomba kanuni hino: kukala na asichana kunahenda fuko rikale tajiri, kpwa sababu ni kutsupira asichana ukoo unaenderera. Alume ni, kpwa luga kali ya maandiko ga asomi, \"mwisho wa njira ya kuenderera kpwa fuko\" — anahala utambulisho wa fuko ra nine ao ela taaweza kuutsapiza kpwa ana ao. Ana a mlume ni a fuko ra mchewe, si rakpwe."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This does not mean that sons are unvalued — far from it. Men hold important roles in the fuko as *mjomba* (maternal uncles), as protectors of their sisters' children, as contributors to the clan's economic and political life. But the fuko's continuity depends on women. A fuko with many daughters is expanding; a fuko with only sons is contracting. This demographic logic gives women a structural importance in Digo society that exists independently of — and sometimes in tension with — the patriarchal norms introduced by Islam.",
+      "sw": "Mfumo wa fuko haujapotea chini ya shinikizo za Uislamu, ukuaji wa miji, na kupitishwa kwa kanuni za urithi wa baba. Umebadilika. Fuko linabaki kuwa jibu la swali linaloumia zaidi: *Wa atu ani?*",
+      "dg": "Hino taimaanisha kukala alume taaishimiwa — kpwa kpweli ni chinyume. Alume ana kazi za muhimu kpwa fuko dza *aphu* (mjomba), dza arindzi a ana a ndugu zao achetu, na dza atu anaoterya maisha ga chiuchumi na ga utawala ga ukoo. Ela kuenderera kpwa fuko kunakuluphira achetu. Fuko renye asichana anji rinakula; fuko renye alume bahi rinaphunguka. Mantiki hino ya unji wa atu inapha achetu nafasi ya muhimu kpwa jamii ya Adigo, nafasi inayokala phapho bila kukuluphira — na wakati wanjina ichivutana na — desturi za mamlaka ga alume zirizorehwa ni Chiislamu."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Fuko Transcends Geography",
+      "sw": "Fuko Linapita Jiografia",
+      "dg": "Fuko Rinatsupa Miphaka ya Tsi"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Unlike the mbari (patrilineal family unit), which is typically localised around a specific homestead or farming area, the fuko is geographically unbounded. Members of the same fuko may live in different villages, different counties, different countries. A Digo person in Kwale and a Digo person in Tanga, Tanzania, may discover through the \"Wa atu ani?\" exchange that they share a fuko — and with that discovery comes an immediate framework of mutual obligation, hospitality, and trust.",
+      "sw": "Tofauti na mbari (kitengo cha familia ya upande wa baba), ambayo kawaida ipo katika eneo maalum la boma au shamba, fuko halina mpaka wa kijiografia. Wanachama wa fuko moja wanaweza kuishi katika vijiji tofauti, kaunti tofauti, nchi tofauti. Mtu wa Kidigo huko Kwale na mtu wa Kidigo huko Tanga, Tanzania, wanaweza kugundua kupitia mazungumzo ya \"Wa atu ani?\" kwamba wanashiriki fuko — na kwa ugunduzi huo kunakuja mfumo wa haraka wa wajibu wa pande zote, ukarimu, na uaminifu.",
+      "dg": "Tafwauti na mbari (seemu ya mbari ya uphande wa ise), ambayo kawaida ikala phatu phamwenga pha mudzi au munda, fuko tarina mphaka wa tsi. Atu a fuko mmwenga anaweza kusagala kpwa vidzidzi vyanjina, kaunti zanjina, tsi zanjina. Mdigo wa Kpwale na Mdigo wa Tanga, Tanzania, anaweza kutsembula kutsupira mazungumzo ga \"Wa atu ani?\" kukala ana fuko mmwenga — na kpwa kutsembula kuko kunakpwedza wajibu wa upesi wa kuteryana, ukarimu, na kuaminiana."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "This geographic reach made the fuko a powerful social institution in an era when the Digo lived across a vast coastal strip straddling the Kenya-Tanzania border. It created networks of support that transcended the boundaries of individual villages. A traveller arriving in an unfamiliar town could invoke their fuko identity and expect to be received by clan members as a relative, not a stranger. The fuko was — and in many ways remains — a social safety net woven across the landscape.",
+      "sw": "Kufikia huku kwa kijiografia kulifanya fuko kuwa taasisi ya kijamii yenye nguvu katika enzi ambapo Wadigo waliishi katika ukanda mpana wa pwani unaopita mpaka wa Kenya na Tanzania. Iliunda mitandao ya msaada iliyovuka mipaka ya vijiji vya mmoja mmoja. Msafiri aliyefika katika mji usiojulikana angeweza kutaja utambulisho wake wa fuko na kutarajia kupokelewa na wanaukoo kama ndugu, si mgeni. Fuko lilikuwa — na kwa njia nyingi linabaki — wavu wa usalama wa kijamii uliosukwa katika mandhari yote.",
+      "dg": "Kufika kuku kpwa tsi phana kpwahenda fuko rikale chitu cha chijamii chenye nguvu wakati Adigo ariphokala anasagala kpwa ukanda mphana wa pwani unaotsupa mphaka wa Kenya na Tanzania. Fuko rahenda mitandao ya kuteryana iriyotsupa miphaka ya chila chidzidzi. Msafiri ariyefika kpwa mudzi asioumanya angeweza kuhadza fukore na kutazamiya kuphokerwa ni atu a ukoowe dza ndugu, si mjeni. Fuko ririkala — na kpwa njira nyinji richere kukala — wavu wa kuteryana kpwa jamii uriosukpwa kpwa tsi yosi."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Unnamed Clans",
+      "sw": "Makabila Yasiyotajwa Majina",
+      "dg": "Mafuko Garigosihadzwa Madzina"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "One of the most striking gaps in the accessible scholarly record is the absence of a comprehensive list of Digo fuko names. Unlike the Gikuyu, whose nine *muhiriga* clans are widely documented, or the Luo, whose *dhoudi* are enumerated in standard ethnographies, the specific names of Digo mafuko remain closely held cultural knowledge. This is not an accident of scholarly neglect. The fuko names carry spiritual weight — they are connected to ancestral histories, to specific kaya sites, to origin narratives that are transmitted within the clan rather than published for outsiders.",
+      "sw": "Mojawapo ya mapengo yanayoshangaza zaidi katika rekodi ya kitaaluma inayopatikana ni kutokuwepo kwa orodha kamili ya majina ya mafuko ya Wadigo. Tofauti na Wagikuyu, ambao makabila yao tisa ya *muhiriga* yameandikwa kwa upana, au Waluo, ambao *dhoudi* zao zimeorodheshwa katika ethinografia za kawaida, majina mahususi ya mafuko ya Wadigo yanabaki kuwa maarifa ya kitamaduni yanayohifadhiwa kwa karibu. Hii si ajali ya kutojali kwa wasomi. Majina ya mafuko yana uzito wa kiroho — yanahusishwa na historia za mababu, na maeneo mahususi ya kaya, na simulizi za asili zinazopitishwa ndani ya ukoo badala ya kuchapishwa kwa watu wa nje.",
+      "dg": "Chitu chimwenga cha kushangaza zaidi kpwa maandiko ga asomi ganaphahikana ni kukosekana kpwa orodha kamili ya madzina ga mafuko ga Adigo. Tafwauti na Agikuyu, ambao koo zao tisiya za *muhiriga* zikaandikpwa sana, au Aluo, ambao *dhoudi* zao zikaorodheshwa kpwa maandiko ga kawaida ga asomi, madzina ga mafuko ga Adigo ganasala kukala marifwa ga chisomo ganayorindwa sana. Hino si kpwa sababu asomi taayajali. Madzina ga mafuko gana uzito wa chiroho — ganahusiana na historia za akare, phatu fulani pha kaya, na hadithi za asili zinazotsapizwa ndani ya ukoo badala ya kuchapishwa kpwa atu a kondze."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The research gap is significant. Specialised academic ethnographies — by scholars like David Sperling, who studied Digo religious change, or Diane Ciekawy, who documented witchcraft beliefs and governance — may contain partial enumerations. But a complete and publicly accessible catalogue of Digo mafuko does not appear to exist, and the community may have good reasons for keeping it that way.",
+      "sw": "Pengo la utafiti ni kubwa. Ethinografia maalum za kitaaluma — na wasomi kama David Sperling, aliyesomea mabadiliko ya kidini ya Wadigo, au Diane Ciekawy, aliyeandika imani za uchawi na utawala — zinaweza kuwa na orodha za sehemu. Lakini katalogi kamili na inayopatikana kwa umma ya mafuko ya Wadigo haionekani kuwepo, na jamii inaweza kuwa na sababu nzuri za kuiweka hivyo.",
+      "dg": "Pengo ra utafiti ni kulu. Maandiko maalum ga asomi — ga atu dza David Sperling, ariyesoma mabadiliko ga chidini ga Adigo, au Diane Ciekawy, ariyeandika kuhusu utsai na utawala — ganaweza kukala na orodha zisizo kamili. Ela orodha kamili ya mafuko ga Adigo inayoweza kuphahikana ni atu osi taionekana kukala phapho, na jamii inaweza kukala na sababu nono za kuiricha hivyo."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Fuko Today",
+      "sw": "Fuko Leo",
+      "dg": "Fuko Rero"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The fuko system has not disappeared under the pressures of Islamisation, urbanisation, and the adoption of patrilineal inheritance norms. It has adapted. In urban Mombasa, young Digo people may not know the full history of their fuko, but they know its name. They know their mother's fuko and their grandmother's. They may not inherit land through the matrilineal system — Islamic courts and Kenyan civil law have largely displaced that function — but the identity framework persists.",
+      "sw": "Mfumo wa fuko haujapotea chini ya shinikizo za Uislamu, ukuaji wa miji, na kupitishwa kwa kanuni za urithi wa upande wa baba. Umebadilika. Katika Mombasa ya mji, vijana wa Wadigo wanaweza wasijue historia kamili ya fuko lao, lakini wanajua jina lake. Wanajua fuko la mama yao na la bibi yao. Wanaweza wasirithi ardhi kupitia mfumo wa upande wa mama — mahakama za Kiislamu na sheria za kiraia za Kenya zimechukua nafasi yake kwa kiasi kikubwa — lakini mfumo wa utambulisho unaendelea.",
+      "dg": "Mfumo wa fuko taudzangbweangamika kpwa shinikizo za Chiislamu, kukula kpwa midzi mikulu, na kuhalwa kpwa kanuni za urithi wa uphande wa ise. Ukagaluka. Kpwa Mombasa, mudzi mkpwulu, ana a Adigo anaweza asimanye historia kamili ya fuko rao, ela anamanya dzinare. Anamanya fuko ra nine wao na ra wawa wao. Anaweza asirithi tsi kutsupira mfumo wa uphande wa nine — mahakama za Chiislamu na shariya za chiraia za Kenya zikahala phahaliphe kpwa chiasi chikulu — ela mfumo wa utambulisho unaenderera."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The fuko remains the answer to the question that matters most: *Wa atu ani?* In a world of competing identities — national, ethnic, religious, professional — the fuko offers something that none of those categories can: a specific, personal, inherited connection to a community that stretches back beyond memory and forward beyond the individual life. It is the thread that makes a Digo person Digo — not in the abstract sense of belonging to an ethnic group, but in the concrete sense of belonging to *these* people, through *this* mother, in *this* line.",
+      "sw": "Fuko linabaki kuwa jibu la swali linaloumia zaidi: *Wa atu ani?* Katika ulimwengu wa utambulisho unaoshindana — wa kitaifa, wa kikabila, wa kidini, wa kitaaluma — fuko linatoa kitu ambacho hakuna kategoria yoyote nyingine inayoweza: uhusiano mahususi, wa kibinafsi, uliorithiwa na jamii inayofika nyuma zaidi ya kumbukumbu na mbele zaidi ya maisha ya mtu mmoja. Ni uzi unaofanya mtu wa Kidigo kuwa Mdigo — si kwa maana ya kidhahania ya kuwa sehemu ya kabila, bali kwa maana halisi ya kuwa wa watu *hawa*, kupitia mama *huyu*, katika ukoo *huu*.",
+      "dg": "Fuko rinasala kukala jibu ra swali ra muhimu zaidi: *Wa atu ani?* Kpwa dunia ya utambulisho unaoshindana — wa chitaifa, wa chikabila, wa chidini, wa kazi — fuko rinapha chitu ambacho takuna kundi ranjina rinaroweza kuchipha: uhusiano wa chipekee, wa mutu macheye, wa kurithi, na jamii inayofika nyuma zaidi ya mutu anavyoweza kutambukira na mbere zaidi ya maisha ga mutu mmwenga. Ni uzi unaohenda Mdigo akale Mdigo — si kpwa maana ya kukala seemu ya kabila bahi, ela kpwa maana ya kpweli ya kukala wa atu *hano*, kutsupira nine *yuyu*, kpwa ukoo *uhu*."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "language/oral-poetry-and-song",
+  "title": {
+    "en": "Oral Poetry and Song",
+    "sw": "Mashairi na Nyimbo",
+    "dg": "Ushairi na Nyimbo za Mdomo"
+  },
+  "intro": {
+    "en": "In Digo culture, the line between poetry and song barely exists. Words that are spoken in one context become sung in another; melodies that carry a dancer's body also carry a story's meaning; the same…",
+    "sw": "Katika utamaduni wa Wadigo, mpaka kati ya ushairi na wimbo haupo sana. Maneno yanayosemwa katika muktadha mmoja yanakuwa ya kuimbwa katika mwingine; nyimbo zinazobeba mwili wa mchezaji pia zinabeba…",
+    "dg": "Kpwa mila ya Adigo, mpaka kahi ya ushairi na wimbo taupho kpwenye sana. Maneno ganago ambirwa kpwa muktadha mmwenga ganakala ga kuimbwa kpwa munjina; nyimbo zinazobeba mwiri wa mchezadzi piya zinabeba…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Where Words Meet Music",
+      "sw": "Mahali Maneno Yanakutana na Muziki",
+      "dg": "Phatu Maneno Ganakutana na Muziki"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In Digo culture, the line between poetry and song barely exists. Words that are spoken in one context become sung in another; melodies that carry a dancer's body also carry a story's meaning; the same phrase that settles a dispute at a village council might appear, set to rhythm, in a wedding celebration. This is oral poetry — not the solitary, written verse of the Western tradition, but a communal art performed in the presence of an audience, inseparable from the music and movement that give it life.",
+      "sw": "Katika utamaduni wa Wadigo, mpaka kati ya ushairi na wimbo haupo sana. Maneno yanayosemwa katika muktadha mmoja yanakuwa ya kuimbwa katika mwingine; nyimbo zinazobeba mwili wa mchezaji pia zinabeba maana ya hadithi; msemo ule ule unaosuluhisha mgogoro katika baraza la kijiji unaweza kuonekana, ukiwa na mdundo, katika sherehe ya harusi.",
+      "dg": "Kpwa mila ya Adigo, mpaka kahi ya ushairi na wimbo taupho kpwenye sana. Maneno ganago ambirwa kpwa muktadha mmwenga ganakala ga kuimbwa kpwa munjina; nyimbo zinazobeba mwiri wa mchezadzi piya zinabeba maana ya hadisi; msemo ure ure unao maliza lungo kpwa baraza ra mudzi unaweza kuonekana, ukikala na mdundo, kpwa sherehe ya harusi."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The richest vehicle for Digo oral poetry is *sengenya*, the signature Digo ceremonial dance. Sengenya is described in detail elsewhere in this collection, but what matters here is what the songs say. The lyrics performed during sengenya are not incidental accompaniments to the dancing. They are the content — historical narratives that preserve the community's memory, wisdom teachings that instruct the young, and prayers for the ancestors that maintain the spiritual bond between the living and the dead.",
+      "sw": "Chombo tajiri zaidi cha ushairi wa mdomo wa Wadigo ni *sengenya*, ngoma ya sherehe ya kipekee ya Wadigo. Nyimbo zinazoimbwa wakati wa sengenya si viambatisho tu vya kucheza. Ni maudhui — masimulizi ya kihistoria yanayohifadhi kumbukumbu ya jamii, mafundisho ya hekima yanayoelimisha vijana, na sala kwa mababu zinazodumisha uhusiano wa kiroho kati ya walio hai na wafu.",
+      "dg": "Chombo tajiri zaidi cha ushairi wa mdomo wa Adigo ni *sengenya*, ngoma ya sherehe ya kipekee ya Adigo. Nyimbo zinazoimbwa wakati wa sengenya si viambatisho tu vya kucheza. Ni maudhui — masimulizi ga kihistoria ganago hifadhi kumbukumbu ya jamii, mafundzo ga ikima ganago elimisha avulana na asichana, na sala kpwa avyere a kare zinazodumisha uhusiano wa chiroho kahi ya ario moyo na ario kufa."
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The *goma* movement within sengenya, performed at funerals, carries a specific poetic function: the songs express \"passing food and music to those who have died\" to help them join the ancestors. This is not metaphor. The performers believe — and the community shares the belief — that the songs reach the dead. The poetry is functional: it accomplishes spiritual work. In this sense, Digo oral poetry is closer to prayer than to entertainment, though it is performed with the artistry and emotional intensity that the Western tradition associates with the highest forms of literary expression.",
+      "sw": "Mwendo wa *goma* ndani ya sengenya, unaofanywa mazishini, una kazi maalum ya kishairi: nyimbo zinaeleza \"kupeleka chakula na muziki kwa waliokufa\" kuwasaidia kujiunga na mababu. Hii si sitiari. Waigizaji wanaamini — na jamii inashiriki imani hiyo — kwamba nyimbo zinawafikia wafu. Ushairi unafanya kazi ya kiroho.",
+      "dg": "Mwendo wa *goma* ndani ya sengenya, unaohendwa mazishini, una kazi maalum ya kishairi: nyimbo zinaelezea \"kupeleka chakurya na muziki kpwa ario kufa\" kuasaidia kpwedza kpwa avyere a kare. Hino si mfwano. Aonyeshaji anaamini — na jamii inashiriki imani hiyo — kukala nyimbo zinawafikia ario kufa."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "Wedding Poetry — The Vugo Songs",
+      "sw": "Ushairi wa Harusi — Nyimbo za Vugo",
+      "dg": "Ushairi wa Harusi — Nyimbo za Vugo"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Perhaps the most intimate oral poetry tradition among the Digo is the *vugo* — the songs performed during the bride's preparation for marriage. For weeks or months before the wedding, the bride undergoes a period of preparation overseen by the *somo* (bridal mentor) and *kungwi* (marriage instructor). During this time, and especially during the elaborate henna application that covers the bride's hands and feet in intricate geometric patterns, the women surrounding the bride sing vugo songs.",
+      "sw": "Labda mila ya ushairi wa mdomo ya faragha zaidi miongoni mwa Wadigo ni *vugo* — nyimbo zinazoimbwa wakati wa maandalizi ya bibi arusi. Kwa wiki au miezi kabla ya harusi, bibi arusi anapitia kipindi cha maandalizi chini ya usimamizi wa *somo* na *kungwi*. Wakati huu, na hasa wakati wa kupaka hina inayofunika mikono na miguu ya bibi arusi kwa michoro tata, wanawake wanaomzunguka bibi arusi wanaimba nyimbo za vugo.",
+      "dg": "Labda mila ya ushairi wa mdomo ya faragha zaidi kahi ya Adigo ni *vugo* — nyimbo zinazoimbwa wakati wa maandalizi ga bibi arusi. Kpwa wiki au miezi kabila ya harusi, bibi arusi anapitsha kipindi cha maandalizi chini ya usimamizi wa *somo* na *kungwi*. Wakati uhu, na hasa wakati wa kupiga hina inayofunika mikono na magulu ga bibi arusi kpwa michoro changamano, achetu anaomudzikiriya bibi arusi anaimba nyimbo za vugo."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "These songs are instructional, celebratory, bawdy, tender, and sometimes sharp. They teach the bride about married life — the pleasures and the difficulties, the expectations and the realities. They celebrate her beauty and her readiness for womanhood. They tease her about the wedding night. They warn her about the challenges of living with in-laws. And they bless her with prayers for fertility, happiness, and a long marriage.",
+      "sw": "Nyimbo hizi ni za kufundisha, kusherehekea, za ujasiri, laini, na wakati mwingine kali. Zinafundisha bibi arusi kuhusu maisha ya ndoa — furaha na ugumu, matarajio na hali halisi. Zinasherehekea uzuri wake na utayari wake kwa utu uzima. Zinamchokoza kuhusu usiku wa harusi. Zinamwonya kuhusu changamoto za kuishi na wakwe. Na zinambariki kwa sala za uzazi, furaha, na ndoa ndefu.",
+      "dg": "Nyimbo hizi ni za kufundza, kusherehekea, na wakati mwanjina kali. Zinafundza bibi arusi kuhusu maisha ga ndoa — furaha na ugumu, matarajio na hali ya kpweli. Zinasherehekea uzuri wakpwe na utayari wakpwe kpwa uchetu ukulu. Zinamchokoza kuhusu usiku wa harusi. Zinamuonya kuhusu changamoto za kuishi na akwe. Na zinambariki kpwa sala za uzazi, furaha, na ndoa ndefu."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The vugo tradition is exclusively female. Men are not present for these songs, and the content of the songs is women's knowledge, passed from elder women to younger women through performance. The songs that a bride hears during her preparation are the same songs her mother heard, and her grandmother before her — though each generation may add new verses that address contemporary realities. This is how oral poetry stays alive: not by freezing in a canonical form, but by growing new branches from old roots.",
+      "sw": "Mila ya vugo ni ya wanawake peke yao. Wanaume hawapo kwa nyimbo hizi, na maudhui ya nyimbo ni maarifa ya wanawake, yanayopitishwa kutoka kwa wanawake wakubwa hadi wadogo kupitia maonyesho.",
+      "dg": "Mila ya vugo ni ya achetu peke yao. Alume tapho kpwa nyimbo hizi. Maudhui ga nyimbo ni marifwa ga achetu, ganago phishwa kula kpwa achetu akulu hadi achetu adide kupitshi maonyesho."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Farewell Songs",
+      "sw": "Nyimbo za Kuaga",
+      "dg": "Nyimbo za Kuaga"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "When the bride leaves her family home on her wedding day, both families sing. The songs at this moment are among the most emotionally charged in the Digo repertoire — \"both families weep and sing simultaneously,\" as the ethnographic accounts record. The bride's family sings of loss and blessing; the groom's family sings of welcome and promise. The bride herself may sing a farewell to her childhood home, her mother, her siblings.",
+      "sw": "Bibi arusi anapoondoka nyumbani kwa familia yake siku ya harusi, familia zote mbili zinaimba. Nyimbo wakati huu ni miongoni mwa zenye hisia zaidi katika repertoire ya Wadigo — \"familia zote mbili zinalia na kuimba wakati mmoja.\" Familia ya bibi arusi inaimba kuhusu hasara na baraka; familia ya bwana arusi inaimba kuhusu karibu na ahadi.",
+      "dg": "Bibi arusi anaphoundoka kaya kpwa familia yakpwe siku ya harusi, familia zosi mbiri zinaimba. Nyimbo wakati uhu ni kahi ya zenye hisia zaidi — \"familia zosi mbiri zinasononeka na kuimba wakati mmwenga.\" Familia ya bibi arusi inaimba kuhusu hasara na baraka; familia ya bwana arusi inaimba kuhusu phephi na ahadi."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "These farewell songs encode a social reality: in Digo society, marriage is a transfer. The bride moves from one family's care to another's. The songs acknowledge the pain of this transfer while affirming its necessity and its promise. They are not sentimental — they are realistic about the difficulty of leaving home and the uncertainty of a new household. But they are also hopeful, and the community's collective singing surrounds the bride with the assurance that she is not alone in her transition.",
+      "sw": "Ushairi wa Kazi",
+      "dg": "Ushairi wa Kazi"
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Initiation Poetry",
+      "sw": "Ushairi wa kazi — nyimbo za uvuvi, za kilimo, za kupanda mnazi — ni aina ya kila siku zaidi ya ushairi wa mdomo wa Wadigo. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno yanaweza kubeba maana zaidi ya kazi ya papo hapo: wimbo wa uvuvi unaweza kujumuisha sala ya usalama, maoni kuhusu hali ya hewa, au utani unaodumisha morale wakati wa kazi ya kuchoka.",
+      "dg": "Nyimbo za kazi — nyimbo za uvuvi, za ulimi, za kupanda mnazi — ni aina ya chila siku zaidi ya ushairi wa mdomo wa Adigo. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno ganaweza kubeba maana zaidi ya kazi ya pho hapo: wimbo wa uvuvi unaweza kujumuisha sala ya usalama au utani unaodumisha moyo wakati wa kazi ya kuchoshe."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Both male and female initiation ceremonies — *jando* for boys, *unyago* for girls — involve songs that are themselves a form of poetry. These initiation songs address:",
+      "sw": "Sherehe za unyago kwa jinsia zote mbili — *jando* kwa wavulana, *unyago* kwa wasichana — zinahusisha nyimbo ambazo zenyewe ni aina ya ushairi. Nyimbo hizi za unyago zinashughulikia:",
+      "dg": "Sherehe za jando na unyago kpwa jinsia zosi mbiri — *jando* kpwa avulana, *unyago* kpwa asichana — zinahusisha nyimbo ambazo zenyewe ni aina ya ushairi. Nyimbo zizi za jando na unyago zinagomba kuhusu:"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "- Marital relationships and sexual norms - Chastity and moral expectations - Social responsibilities of adulthood - The relationship between the individual and the community",
+      "sw": "- Mahusiano ya ndoa na kanuni za kingono - Usafi wa maadili na matarajio ya kimaadili - Majukumu ya kijamii ya utu uzima - Uhusiano kati ya mtu binafsi na jamii",
+      "dg": "- Mahusiano ga ndoa na kanuni za chingono - Usafi wa maadili na matarajio ga kimaadili - Majukumu ga kijamii ga utu uzima - Uhusiano kahi ya mutu na jamii"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The songs are performed in contexts that are themselves transitional — the boy emerging from circumcision seclusion, the girl preparing for marriage — and the poetry marks the transition. The words are not incidental; they are the mechanism by which the community confers adult status on the young person. To hear these songs, to understand them, and to carry them forward is to accept the responsibilities of adulthood.",
+      "sw": "Nyimbo hizo huimbwa katika mazingira ambayo yenyewe ni ya mpito — mvulana anayetoka katika kutengwa kwa tohara, msichana anayejiandaa kwa ndoa — na ushairi huashiria mpito huo. Maneno si ya bahati mbaya; ni njia ambayo jamii inampa mtu mchanga hadhi ya utu uzima. Kusikia nyimbo hizi, kuzielewa, na kuziendeleza ni kukubali majukumu ya utu uzima.",
+      "dg": "Nyimbo zizo zinaimbiwa kpwenye mazingira ambago genyewe ni ga mpito — mvulana anayetuluza kpwa kutengwa kpwa tohara, msichana anayedziandaa kpwa arusi — na ushairi unaonyesa mpito uwo. Maneno si ga bahati mbii; ni njira ambayo jamii inamupha kijana hadhi ya utu uzima. Kusikira nyimbo zizi, kuzimanya, na kuziendza mbere ni kukubali majukumu ga utu uzima."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Work Songs and Calls",
+      "sw": "Nyimbo za Kazi na Vilio",
+      "dg": "Nyimbo za Kazi na Vilio"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Less documented but equally important are the songs that accompany work. Fishing calls — the shouts and rhythmic chants that coordinate the hauling of nets or the rowing of ngalawa canoes — are a form of oral poetry shaped by physical necessity. The rhythm of the song matches the rhythm of the work, and the words may carry meaning beyond the immediate task: a fishing call might include a prayer for safety, a comment on the weather, or a joke that keeps morale high during exhausting labour.",
+      "sw": "Hazijandikwa sana lakini ni muhimu vivyo hivyo ni nyimbo zinazoambatana na kazi. Vilio vya uvuvi — kelele na nyimbo za mdundo zinazoratibu kuvuta nyavu au kupiga makasia ya mitumbwi ya ngalawa — ni aina ya ushairi wa simulizi ulioundwa na hitaji la kimwili. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno yanaweza kubeba maana zaidi ya kazi ya haraka: kilio cha uvuvi kinaweza kujumuisha dua ya usalama, maoni kuhusu hali ya hewa, au mzaha unaoweka moyo juu wakati wa kazi ngumu.",
+      "dg": "Tazikaandikwa sana ela ni muhimu vivyo hivyo ni nyimbo zinazoambatana na kazi. Vilio vya uvuvi — kelele na nyimbo za mdundo zinazoratibisha kuvuta nyavu au kupiga makasia ga mitumbwi ya ngalawa — ni aina ya ushairi wa simulizi uriyoumbwa ni hitaji ra chimwiri. Mdundo wa wimbo unalingana na mdundo wa kazi, na maneno ganaweza kukala na maana zaidi ya kazi ya sambi: kilio cha uvuvi chinaweza kuhusisha dua ya usalama, maneno kuhusu hali ya hewa, au mzaha unaoweka moyo dzulu wakati wa kazi ngumu."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Agricultural songs accompany planting and harvesting. Palm wine tappers have their own repertoire, sung during the long, dangerous climb up the coconut palm. Market songs advertise goods. These work songs are the most everyday form of Digo oral poetry, and precisely because they are everyday, they are the most vulnerable to loss as traditional labour gives way to modern methods and the contexts in which they were sung disappear.",
+      "sw": "Nyimbo za kilimo zinaambatana na upanzi na mavuno. Wapiga tembo wana hazina yao ya nyimbo, zinazoimbwa wakati wa kupanda mti mrefu wa mnazi wenye hatari. Nyimbo za sokoni zinatangaza bidhaa. Nyimbo hizi za kazi ni aina ya kila siku zaidi ya ushairi wa simulizi wa Kidigo, na kwa sababu ni za kila siku, ndizo zilizo hatarini zaidi kupotea kadri kazi za jadi zinavyobadilishwa na njia za kisasa na mazingira ambayo zilikuwa zikiimbwa yanapotoweka.",
+      "dg": "Nyimbo za ulimi zinaambatana na kupanda na kuvuna. Apiga tembo ana hazina yao ya nyimbo, zinazoimbwa wakati wa kupanda mnazi mure wenye hatari. Nyimbo za sokoni zinatangaza vidzitu. Nyimbo zizi za kazi ni aina ya chila siku zaidi ya ushairi wa simulizi wa Chidigo, na kpwa sababu ni za chila siku, ndizo zirizo hatarini zaidi kupotea wakati kazi za kare zinaphotsukizwa ni njira za kisasa na mazingira ambamo zirikala zinaimbwa ganaphotoweka."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Tathlitha Form",
+      "sw": "Muundo wa Tathlitha",
+      "dg": "Muundo wa Tathlitha"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Digo poets have adopted and adapted the *Tathlitha* form — a four-line stanza with a repeated refrain, borrowed from Arabic poetic tradition via the Swahili coast's long engagement with the Arab world. Mohammed Kirungu Said's \"Idhilali na Kifo\" (\"Suffering and Death\") uses this form to warn young people against violence. The Tathlitha's hypnotic repetition lodges the message in memory, making it an effective vehicle for moral instruction.",
+      "sw": "Washairi wa Kidigo wamechukua na kubadilisha muundo wa *Tathlitha* — ubeti wa mistari minne wenye kiitikio kinachorudiwa, uliochukuliwa kutoka mapokeo ya ushairi wa Kiarabu kupitia uhusiano wa muda mrefu wa pwani ya Kiswahili na ulimwengu wa Kiarabu. \"Idhilali na Kifo\" (\"Mateso na Kifo\") ya Mohammed Kirungu Said unatumia muundo huu kuonya vijana dhidi ya vurugu. Kurudia kwa Tathlitha kunakoshawishi kunaweka ujumbe akilini, na kuifanya kuwa njia bora ya mafundisho ya kimaadili.",
+      "dg": "Ashairi a Chidigo ahala na kubadilisha muundo wa *Tathlitha* — ubeti wa mishororo mine wenye kiitikio chirichorudiwa, uriohewa kula kpwa mapokeo ga ushairi wa Chiarabu kupitishira uhusiano wa muda mure wa ph'wani ya Chiswahili na ulimwengu wa Chiarabu. \"Idhilali na Kifo\" (\"Mateso na Chifo\") ya Mohammed Kirungu Said unatumira muundo uhu kuonya vijana kuhusu fujo. Kurudia kpwa Tathlitha kunakoshawishi kunaika ujumbe achilini, na kuihenda kukala njira nono ya mafundzo ga kimaadili."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "This adaptation of an Arabic form into a Digo context exemplifies a broader pattern: Digo oral poetry is not isolated. It borrows from Swahili, Arabic, and broader East African traditions, absorbing external forms and filling them with Digo content. The result is a tradition that is both distinctively Digo and part of a larger coastal literary world.",
+      "sw": "Kubadilishwa huku kwa muundo wa Kiarabu katika muktadha wa Kidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Kidigo hauko peke yake. Unakopa kutoka Kiswahili, Kiarabu, na mapokeo mapana ya Afrika Mashariki, ukifyonza miundo ya nje na kuijaza maudhui ya Kidigo. Matokeo ni mapokeo ambayo ni ya kipekee ya Kidigo na sehemu ya ulimwengu mkubwa wa fasihi ya pwani.",
+      "dg": "Kubadilishwa kuku kpwa muundo wa Chiarabu kpwenye muktadha wa Chidigo ni mfano wa mtindo mpana: ushairi wa simulizi wa Chidigo taukoko peke yakpwe. Unakopa kula kpwa Chiswahili, Chiarabu, na mapokeo mapana ga Afrika ya Mashariki, ukimiza miundo ya kudze na kuiodzaza maudhui ga Chidigo. Maokeo ni mapokeo ambago ni ga chipekee ga Chidigo na sehemu ya ulimwengu mkpwulu wa fasihi ya ph'wani."
+    }
+  ]
+}

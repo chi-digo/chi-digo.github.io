@@ -1,7 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { domains } from '@/lib/culture/content';
-import { historyDomain } from '@/lib/history/content';
-import { oralTraditionsDomain } from '@/lib/language/content';
+import { domains, historyDomain, oralTraditionsDomain } from '@/lib/articles/manifest';
 import { localePath } from '@/lib/i18n/locale-path';
 import { DIGO_ALPHABET } from '@/lib/constants';
 import { readFileSync } from 'fs';

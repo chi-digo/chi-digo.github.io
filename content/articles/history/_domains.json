@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "history",
+    "title": {
+      "en": "The History of the Digo",
+      "sw": "Historia ya Adigo",
+      "dg": "Historia ya Adigo"
+    },
+    "intro": {
+      "en": "The Digo trace their origins to Singwaya, a large multi-ethnic settlement located somewhere north of the Tana River in present-day southern Somalia. Oral traditions shared across the Mijikenda,…",
+      "sw": "Adigo wanafuatilia asili yao hadi Singwaya, makao makubwa ya makabila mengi yaliyokuwa kaskazini ya Mto Tana katika sehemu ya kusini ya Somalia ya leo. Mapokeo ya mdomo yanayoshirikiwa na Mijikenda,…",
+      "dg": "Adigo anafuatiliya asili yao hadi Singwaya, makalo makulu ga makabila manji garigokala kaskazini ya Muho wa Tana kpwa sehemu ya kusini ya Somalia ya rero. Mapokeo ga mdomo ganago shirikiwa ni…"
+    },
+    "proverb": "Mutu asiye na asili ni kama muhi usio na midzi",
+    "proverbGloss": "A person without origins is like a tree without roots",
+    "topics": [
+      "kaya-archaeology",
+      "scholarly-debates",
+      "singwaya"
+    ]
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "id": "culture/ecology/shimba-hills",
+  "title": {
+    "en": "The Shimba Hills",
+    "sw": "Milima ya Shimba",
+    "dg": "Myango ya Shimba"
+  },
+  "intro": {
+    "en": "Thirty-three kilometres south of Mombasa, the Shimba Hills rise from the coastal lowlands like a green wall, climbing steeply to 462 metres at Dzombo peak. They are visible from much of Kwale County —…",
+    "sw": "Kilometa 33 kusini mwa Mombasa, Milima ya Shimba inainuka kutoka maeneo ya chini ya pwani hadi mita 462 kwenye kilele cha Dzombo. Kwa Wadigo, milima hii ni zaidi ya kipengele cha ardhi — ni chanzo cha…",
+    "dg": "Kilometa 33 kusini mwa Mombasa, Myango ya Shimba inainuka kula maeneo ga tsini ga pwani hadi mita 462 kpwa chirere cha Dzombo. Kpwa Adigo, myango hino ni zaidi ya chipengele cha tsi — ni tsandzo ra…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The County's Landmark",
+      "sw": "Alama ya Kaunti",
+      "dg": "Alama ya Kaunti"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Thirty-three kilometres south of Mombasa, the Shimba Hills rise from the coastal lowlands like a green wall, climbing steeply to 462 metres at Dzombo peak. They are visible from much of Kwale County — from the beaches of Diani, from the farmlands of the foot plateau, from the roads that connect the coastal towns. For the Digo people, the Shimba Hills are more than a topographical feature. They are a compass point, a water source, a pharmacy, a clay quarry, and the place where their history on the Kenya coast begins. Kaya Kwale, the first sacred forest established after the migration from Singwaya, stands within these hills. To speak of the Shimba Hills is to speak of Digo identity itself.",
+      "sw": "Kilometa 33 kusini mwa Mombasa, Milima ya Shimba inainuka kutoka maeneo ya chini ya pwani hadi mita 462 kwenye kilele cha Dzombo. Kwa Wadigo, milima hii ni zaidi ya kipengele cha ardhi — ni chanzo cha maji, duka la dawa, chanzo cha udongo wa ufinyanzi, na mahali ambapo historia yao katika pwani ya Kenya inaanza. Kaya Kwale, msitu mtakatifu wa kwanza baada ya uhamaji kutoka Singwaya, unasimama ndani ya milima hii.",
+      "dg": "Kilometa 33 kusini mwa Mombasa, Myango ya Shimba inainuka kula maeneo ga tsini ga pwani dza ukuta wa chijani, ichipanda kpwa kasi hadi mita 462 kpwa chirere cha Dzombo. Myango hino inaonekana kula seemu nyinji za Kaunti ya Kwale — kula fukwe za Diani, kula minda ya uwanda wa tsini wa myango, kula barabara zinazounganisha midzi ya pwani. Kpwa Adigo, myango hino ni zaidi ya chipengele cha tsi. Ni dira, tsandzo ra madzi, duka ra dawa, tsandzo ra ulongo wa ufinyanzi, na phatu ambapho historia yao kpwa pwani ya Kenya inaandza. Kaya Kwale, tsaka takatifu ra kpwandza bada ya kutsama kula Singwaya, ri ndani ya myango hino. Kugomba kuhusu Myango ya Shimba ni kugomba kuhusu utambulisho wa Adigo wenyewe."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "East Africa's Coastal Rainforest",
+      "sw": "Msitu wa Mvua wa Pwani",
+      "dg": "Tsaka ra Mvula ra Pwani"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The Shimba Hills National Reserve protects one of East Africa's largest remaining coastal rainforests. This is not the montane forest of the highlands or the vast equatorial canopy of the Congo basin — it is something rarer and, in some respects, more ecologically significant. Coastal rainforest once stretched in a broad belt along the East African littoral, but centuries of clearing for agriculture and settlement have reduced it to scattered fragments. The Shimba Hills hold one of the largest intact remnants, a living archive of what the coastal forest once was.",
+      "sw": "Hifadhi ya Kitaifa ya Milima ya Shimba inalinda mojawapo ya misitu mikubwa ya mvua ya pwani iliyobaki katika Afrika Mashariki. Msitu huu umependekezwa kwa Urithi wa Dunia wa UNESCO. Aina zaidi ya 1,100 za mimea zimerekodiwa, ikiwemo 280 za kipekee kwa misitu ya pwani na 19 za miti iliyo hatarini. Milima peke yake inashikilia zaidi ya asilimia 50 ya mimea 159 adimu za pwani ya Kenya.",
+      "dg": "Hifadhi ya Chitaifa ya Myango ya Shimba inarinda mwenga wa matsaka makulu ga mvula ga pwani garigosala kpwa Afrika ya Mashariki. Riri si tsaka ra myangoni ra nyanda za dzulu, wala dari kulu ya tsaka ra bonde ra Kongo — ni chitu adimu zaidi, na kpwa njira zanjina, chenye umuhimu mkpwulu zaidi wa chiikolojia. Kare matsaka ga mvula ga pwani gakala ganaenea dza ukanda mpana kanda-kanda ya pwani ya Afrika ya Mashariki, ela karne nyinji za kutema tsaka kpwa chirimo na makazi zikagaphunguza hadi vipande vidide vidide. Myango ya Shimba ina mwenga wa masalia makulu zaidi garigosala kamili, kumbukumbu hai ya matsaka ga pwani ga kare."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The reserve has been nominated for UNESCO World Heritage status alongside the Arabuko Sokoke Forest further north, a recognition of its global ecological importance. These coastal forests are classified among the world's biodiversity hotspots — areas where exceptional concentrations of endemic species coincide with exceptional habitat loss.",
+      "sw": "Wanyamapori",
+      "dg": "Tsaka riri rikapendekezwa kpwa Urithi wa Dunia wa UNESCO phamwenga na Tsaka ra Arabuko Sokoke ra kazikazini zaidi, ishara ya umuhimuwe wa chiikolojia duniani. Matsaka iga ga pwani ganaikpwa kahi ya maeneo muhimu ga bioanuwai duniani — maeneo ambapho unji wa ajabu wa viumbe vya chipekee unakutana na kuangamika kpwa ajabu kpwa makazi."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "A Catalogue of Life",
+      "sw": "Milima ni nyumbani kwa kundi la mwisho la kuzaliana la swala wa Roosevelt nchini Kenya — wanyama 100 hivi. Pia inasaidia mojawapo ya idadi kubwa zaidi ya tembo nchini Kenya — zaidi ya 500. Tembo hawa wanaunda mazingira ya msitu, wakifungua nafasi, wakitawanya mbegu, na kudumisha mchanganyiko wa nyasi na msitu. Zaidi ya aina 100 za ndege zimerekodiwa, ikiwemo 22 za kipekee kwa misitu ya pwani.",
+      "dg": "Orodha ya Viumbe Hai"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The biodiversity of the Shimba Hills is extraordinary by any standard. Over 1,100 plant species have been recorded within the reserve, a density that rivals many tropical forests of far greater extent. Of these, 280 species are endemic to the coastal forests — found nowhere else on earth except in the diminishing fragments of East African coastal woodland. Nineteen tree species within the reserve are classified as endangered. The Shimba Hills alone contain over 50 percent of Kenya's 159 rare coastal plant species, a statistic that underscores both the richness of the hills and the impoverishment of the surrounding landscape.",
+      "sw": "Uhusiano wa Wadigo",
+      "dg": "Viumbe vya Myango ya Shimba ni vya ajabu kpwa chipimo chochosi. Aina zaidi ya 1,100 za mimera zikarekodiwa ndani ya hifadhi, unji unaolingana na matsaka manji ga tropiki ganagokala makulu kuriko. Kahi yao, aina 280 ni za chipekee kpwa matsaka ga pwani — taziphahikana phatu phanjina duniani isiphokala kahi ya vipande vinavyophunguka vya matsaka ga pwani ya Afrika ya Mashariki. Aina 19 za mihi ndani ya hifadhi zi hatarini. Myango ya Shimba bahi ina zaidi ya asilimia 50 ya aina 159 za mimera adimu ya pwani ya Kenya, takwimu inayoonyesa utajiri wa myango na piya uchiya wa mandhari ganagoizunguluka."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Among the most scientifically notable plants are the cycads — ancient gymnosperm lineages that predate flowering plants by hundreds of millions of years. The Shimba Hills cycad populations are among the southernmost in East Africa and represent a botanical continuity stretching back to the age of dinosaurs. Rare orchids, medicinal trees, and endemic shrubs fill the understorey, creating a layered canopy structure that supports an equally rich fauna.",
+      "sw": "Uhusiano kati ya Wadigo na Milima ya Shimba ni wa zamani na changamano. Mpaka wa hifadhi unakatakata eneo ambalo Wadigo wametumia kwa karne — kwa kukusanya mimea ya dawa, kutoa udongo wa ufinyanzi, na kufikia misitu ya kaya. Vikwazo vya uhifadhi vinazuia shughuli hizi, na kuunda mvutano kati ya ulinzi wa bioanuwai na haki za kimila za jamii.",
+      "dg": "Kahi ya mimera muhimu zaidi kpwa sayansi ni sikadi (cycads) — mbari za kare za mimera ya mbeyu wazi ambazo zikakalako mamia ga mamilioni ga miaka kabila ya mimera ya maua. Makundi ga sikadi ga Myango ya Shimba ni kahi ya garigo kusini zaidi kpwa Afrika ya Mashariki, na ganaonyesa mwendelezo wa mimera kula wakati wa dinosaria. Okidi adimu, mihi ya dawa, na vichaka vya chipekee vinaodzaza seemu ya photsi ya tsaka, vichiumba dari ya tabaka tafwauti inayoterya nyama a aina nyinji vivyo-vivyo."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Roosevelt's Sable Antelope",
+      "sw": "Hifadhi ya Tembo ya Mwaluganje inatoa mfano mmoja wa suluhu — umiliki wa jamii, ambapo wamiliki wa ardhi 260 wanakodisha mashamba yao kwa hifadhi na kupokea mapato ya utalii yanayozidi mapato ya kilimo.",
+      "dg": "Palahala wa Roosevelt"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The Shimba Hills are home to the last breeding herd of Roosevelt's sable antelope in Kenya — approximately 100 individuals that represent the country's entire viable population of this subspecies. The sable antelope is among Africa's most striking large mammals: a powerfully built animal with sweeping curved horns and a black-and-white facial pattern that has made it an icon of African wildlife illustration. The Roosevelt's subspecies, native to the East African coast, has been eliminated from most of its historical range by habitat loss and hunting. The Shimba Hills population is a remnant, and its survival depends entirely on the continued integrity of the reserve's grassland and forest mosaic.",
+      "sw": "Vilima vya Shimba ni makazi ya kundi la mwisho la kuzaliana la paa mweusi wa Roosevelt nchini Kenya — takriban wanyama 100 wanaowakilisha idadi yote inayowezekana ya nchi ya spishi ndogo hii. Paa mweusi ni miongoni mwa mamalia wakubwa wa kuvutia zaidi wa Afrika: mnyama mwenye nguvu aliye na pembe ndefu zilizopinda na muundo mweusi-na-mweupe wa uso ambao umeufanya kuwa ishara ya picha za wanyamapori wa Afrika. Spishi ndogo ya Roosevelt, asilia ya pwani ya Afrika Mashariki, imeondolewa kutoka sehemu kubwa ya eneo lake la kihistoria kwa kupoteza makazi na uwindaji. Idadi ya Shimba Hills ni masalia, na kuishi kwake kunategemea kabisa uadilifu unaoendelea wa mchanganyiko wa nyika na msitu wa hifadhi.",
+      "dg": "Myango ya Shimba ni makazi ga kundi ra mwisho ra kuvyala ra palahala (paa mwiru) wa Roosevelt kpwa Kenya — kama nyama 100 anaowakilisha idadi yosi inayoweza kuishi ya tsi iyo ya aina ndide iyi. Palahala ni kahi ya nyama akulu a kuvutiya zaidi a Afrika: nyama mwenye nguvu ariye na pembe ndere zirizopindika na muundo mwiru-na-mwereru wa uso ambao umuhenda kukala ishara ya picha za nyama a tsaka a Afrika. Aina ndide ya Roosevelt, asilia ya pwani ya Afrika ya Mashariki, ikaangamizwa kula seemu kulu ya eneore ra kare kpwa kuangamika kpwa makazi na kuwindwa. Idadi ya Myango ya Shimba ni masalia, na kuishi kpwao kunakuluphira kabisa kudumu kpwa mchanganyiko wa nyika na tsaka wa hifadhi."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Elephants of the Hills",
+      "sw": "Tembo wa Vilimani",
+      "dg": "Ndzovu a Myangoni"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The reserve supports one of Kenya's densest elephant populations — over 500 individuals occupying a relatively small area. This concentration, while a conservation success in one sense, creates significant challenges. The elephants' range extends beyond the reserve boundaries, bringing them into contact — and conflict — with Digo farming communities. Before the establishment of the Mwaluganje Elephant Sanctuary in 1995, elephant raids on crops were a constant source of tension. Elephants would descend from the hills at night, destroying in hours what a family had cultivated over months. The sanctuary, created as a corridor between the Mwaluganje Forest Reserve and the Shimba Hills, gave the elephants a migration path and reduced — though it has not eliminated — the conflict.",
+      "sw": "Hifadhi hii inasaidia moja ya idadi kubwa zaidi ya tembo nchini Kenya — zaidi ya wanyama 500 wanaoishi katika eneo dogo kiasi. Mkusanyiko huu, ingawa ni mafanikio ya uhifadhi kwa upande mmoja, unaleta changamoto kubwa. Eneo la tembo linaenea nje ya mipaka ya hifadhi, kuwaleta katika mguso — na mgogoro — na jamii za wakulima wa Kidigo. Kabla ya kuanzishwa kwa Hifadhi ya Tembo ya Mwaluganje mwaka 1995, mashambulizi ya tembo kwa mazao yalikuwa chanzo cha kudumu cha mvutano. Tembo wangeshuka kutoka vilimani usiku, kuharibu kwa masaa yale ambayo familia ilikuwa imepalilia kwa miezi. Hifadhi hiyo, iliyoundwa kama ukanda wa kuunganisha kati ya Hifadhi ya Msitu wa Mwaluganje na Vilima vya Shimba, iliwapa tembo njia ya uhamaji na kupunguza — ingawa haikuondoa kabisa — mgogoro huo.",
+      "dg": "Hifadhi iyo ina mwenga wa makundi makulu zaidi ga ndzovu kpwa Kenya — zaidi ya nyama 500 anaoishi kahi ya eneo dide chiasi. Mkusanyiko uno, dzagbwe ni mafanikio ga uhifadhi kpwa uphande mmwenga, unareha matatizo makulu. Eneo ra ndzovu rinaenderera kondze ya miphaka ya hifadhi, na kuareha phephi — na kondo — na jamii za akurima a Chidigo. Kabila ya kuandzishwa kpwa Hifadhi ya Ndzovu ya Mwaluganje mwaka wa 1995, mashambulio ga ndzovu kpwa mimera gakala ni chanzo cha kudumu cha mvutano. Ndzovu achitserera kula myangoni usiku, achibananga kpwa masaa machache mimera ambayo nyumba yakala ikarima kpwa miezi. Hifadhi iyo, iriyoundwa dza ukanda wa kuunganisha kahi ya Hifadhi ya Tsaka ya Mwaluganje na Myango ya Shimba, yapha ndzovu njira ya kutsama na kuphunguza — dzagbwe taidzangbweuusa kabisa — kondo iyo."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The elephant population also shapes the forest itself. Elephants are ecosystem engineers, opening clearings, dispersing seeds, and maintaining the grassland-forest mosaic that supports the reserve's biodiversity. Their browsing prevents the forest from closing entirely, creating the edge habitats where many species thrive. The Shimba Hills ecosystem is, in a real sense, an elephant-engineered landscape.",
+      "sw": "Idadi ya tembo pia inaumba msitu wenyewe. Tembo ni wahandisi wa mfumo wa ikolojia, wanaofungua maeneo ya wazi, kutawanya mbegu, na kudumisha mchanganyiko wa nyika na msitu unaosaidia bioanuwai ya hifadhi. Kulisha kwao kunazuia msitu kufungwa kabisa, kuunda makazi ya pembezoni ambapo spishi nyingi zinastawi. Mfumo wa ikolojia wa Shimba Hills ni, kwa maana halisi, mandhari iliyoundwa na tembo.",
+      "dg": "Idadi ya ndzovu piya inaunda tsaka renyewe. Ndzovu ni ahandisi a mfumo wa chimaumbile: anavugula maeneo ga wazi, anatawanya mbeyu, na kudumisha mchanganyiko wa nyika na tsaka unaoterya viumbe vinji vya hifadhi. Kurya kpwao kunazuwiya tsaka kufungwa kabisa, kuunda makazi ga miphakani ambapho viumbe vinji vinastawi. Mfumo wa chimaumbile wa Myango ya Shimba ni, kpwa mana ya kpweli, mandhari iriyoundwa ni ndzovu."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "A Sky Full of Birds",
+      "sw": "Anga Lililojaa Ndege",
+      "dg": "Nyuni Anji Mlunguni"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Over 100 bird species have been recorded in the Shimba Hills, including 22 that are endemic or near-endemic to the coastal forests of East Africa. The reserve is a destination for ornithologists and birdwatchers drawn by species that cannot be reliably seen anywhere else in Kenya. The forest canopy, the grassland clearings, and the transitional zones between them create a diversity of habitats that supports an equally diverse avifauna. For the Digo, birds have traditionally served practical as well as aesthetic roles — their migration patterns and behavioural changes are among the traditional indicators used to predict weather and the timing of the monsoon rains.",
+      "sw": "Spishi zaidi ya 100 za ndege zimerekodiwa katika Vilima vya Shimba, ikiwa ni pamoja na 22 ambazo ni za kipekee au karibu za kipekee kwa misitu ya pwani ya Afrika Mashariki. Hifadhi hii ni mahali pa kuvutia wataalam wa ndege na watazamaji wa ndege wanaovutiwa na spishi ambazo haziwezi kuonekana kwa uhakika mahali pengine nchini Kenya. Dari ya msitu, maeneo ya wazi ya nyika, na maeneo ya mpito kati yao yanaunda aina mbalimbali za makazi yanayosaidia ndege wenye aina nyingi sawa. Kwa Adigo, ndege kijadi wamehudumia majukumu ya kivitendo na ya uzuri — mifumo yao ya uhamaji na mabadiliko ya tabia ni miongoni mwa viashiria vya jadi vinavyotumiwa kutabiri hali ya hewa na wakati wa mvua za monsuni.",
+      "dg": "Aina zaidi ya 100 za nyuni zikarekodiwa kahi ya Myango ya Shimba, phamwenga na 22 ambazo ni za chipekee au phephi na chipekee kpwa matsaka ga pwani ya Afrika ya Mashariki. Hifadhi iyo ni phatu pha kuvutiya ataalamu a nyuni na atu anaolola nyuni anaovutiywa ni aina ambazo taziweza kuonewa kpwa uhakika phatu phanjina kpwa Kenya. Dari ya tsaka, maeneo ga wazi ga nyika, na maeneo ga kuphishana kahi yao ganaunda aina nyinji za makazi zinazoterya nyuni a aina nyinji. Kpwa Adigo, nyuni kare akala na kazi za chihenzi na piya za uzuri — kutsama kpwao na mabadiliko ga tabiya zao ni kahi ya viashiriya vya chimila vinavyohumirwa kutabiri hali ya hewa na wakati wa mvula za monsuni."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Digo Relationship",
+      "sw": "Uhusiano wa Kidigo",
+      "dg": "Uhusiano wa Adigo"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The relationship between the Digo and the Shimba Hills is ancient and complex, and the establishment of the national reserve in the twentieth century added a layer of tension that persists today. The reserve boundary draws a line through territory that the Digo have used for centuries — for collecting medicinal plants, sourcing pottery clay, gathering forest products, and accessing the sacred kaya forests within the hills. Conservation regulations restrict these activities to varying degrees, creating friction between the imperatives of biodiversity protection and the customary rights of communities whose ancestors settled the hills long before any government drew a map.",
+      "sw": "Uhusiano kati ya Adigo na Vilima vya Shimba ni wa kale na mgumu, na kuanzishwa kwa hifadhi ya kitaifa katika karne ya ishirini kuliongeza safu ya mvutano inayoendelea hadi leo. Mpaka wa hifadhi unachora mstari kupitia eneo ambalo Adigo wametumia kwa karne nyingi — kukusanya mimea ya dawa, kupata udongo wa ufinyazi, kukusanya bidhaa za msitu, na kufikia misitu mitakatifu ya kaya ndani ya vilima. Kanuni za uhifadhi zinazuia shughuli hizi kwa viwango tofauti, kuunda mgogoro kati ya mahitaji ya ulinzi wa bioanuwai na haki za kimila za jamii ambazo mababu zao waliishi vilimani muda mrefu kabla ya serikali yoyote kuchora ramani.",
+      "dg": "Uhusiano wa Adigo na Myango ya Shimba ni wa kare na wa ngumu, na kuandzishwa kpwa hifadhi ya chitaifa kahi ya karne ya mirongo miiri kpwaenjereza chitabaka cha mvutano chinachoenderera hadi rero. Mphaka wa hifadhi unachora mstari kahi ya eneo ambaro Adigo arihumira kpwa karne nyinji — kukusanya mimera ya dawa, kuphaha ulongo wa ufinyanzi, kukusanya vitu vya tsaka, na kufikira matsaka matakatifu ga kaya ndani ya myango. Kanuni za uhifadhi zinazuwiya shughuli zizi kpwa viwango tafwauti, kuunda mvutano kahi ya mahitaji ga kurinda viumbe na haki za chimila za jamii ambazo akare ao adzisagala myangoni muda mure kabila ya serikali yoyosi kuchora ramani."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The clay deposits in the Shimba Hills have particular cultural significance. Digo pottery — utilitarian vessels for cooking, storage, and water — has been made from Shimba Hills clay for generations. The knowledge of where to find the right clay, how to process it, and how to fire it is specialised knowledge passed from potter to potter. Restrictions on clay collection within the reserve threaten not just a livelihood but a craft tradition embedded in the landscape.",
+      "sw": "Mashapo ya udongo katika Vilima vya Shimba yana umuhimu maalum wa kitamaduni. Ufinyazi wa Kidigo — vyombo vya matumizi ya kupikia, kuhifadhi, na maji — umekuwa ukitengenezwa kwa udongo wa Shimba Hills kwa vizazi vingi. Maarifa ya wapi kupata udongo sahihi, jinsi ya kuushughulikia, na jinsi ya kuuchomea ni ujuzi maalum unaopitishwa kutoka fundi hadi fundi. Vizuizi vya kukusanya udongo ndani ya hifadhi vinatishia si riziki tu bali pia desturi ya ufundi iliyojikita katika mandhari.",
+      "dg": "Mashapo ga ulongo kahi ya Myango ya Shimba gana umuhimu maalumu wa chimila. Ufinyanzi wa Chidigo — vyombo vya kuhumirwa kujitira, kuika vitu, na madzi — ukakala uchitengezwa kpwa ulongo wa Myango ya Shimba kpwa vizazi vinji. Kumanya phatu pha kuphaha ulongo mnono, njira ya kuushughulikira, na njira ya kuuocha ni ujuzi maalumu unaotsapizwa kula fundi hadi fundi. Vizuizi vya kukusanya ulongo ndani ya hifadhi vinatishiya si riziki bahi ela piya desturi ya ufundi iriyofungamana na mandhari."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Medicinal plant collection presents similar tensions. The Shimba Hills forests function as what one ethnobotanist has called a \"living pharmacy\" — a source of antibiotic leaves, antihistamine roots, and medicinal resins that Digo healers have relied upon for centuries. Mohamed Pakia's ethnobotanical study documented approximately 500 plant names in the Digo language and identified extensive specialised knowledge among healers, or waganga. This knowledge is practice-oriented and site-specific — it depends on continued access to the forests where these plants grow.",
+      "sw": "Kukusanya mimea ya dawa kunaonyesha mvutano kama huo. Misitu ya Vilima vya Shimba inafanya kazi kama kile mtaalamu mmoja wa mimea ya kikabila aliita \"duka la dawa hai\" — chanzo cha majani ya antibiotic, mizizi ya antihistamini, na utomvu wa dawa ambao waganga wa Kidigo wameitegemea kwa karne nyingi. Utafiti wa Mohamed Pakia wa mimea ya kikabila uliandika takriban majina 500 ya mimea katika lugha ya Kidigo na kutambua maarifa mengi maalum miongoni mwa waganga. Maarifa haya yanalenga mazoezi na yanategemea eneo — yanategemea kuendelea kufikia misitu ambapo mimea hii inakua.",
+      "dg": "Kukusanya mimera ya dawa kunaonyesa mvutano dza uwo. Matsaka ga Myango ya Shimba ganahenda kazi dza \"duka ra dawa hai\", dza mtaalamu mmwenga wa mimera ya chimila arivyogomba — chanzo cha makodza ga antibiotic, mizi ya antihistamini, na utomvu wa dawa ambao aganga a Chidigo akaukuluphira kpwa karne nyinji. Utafiti wa Mohamed Pakia wa mimera ya chimila waandika kama madzina 500 ga mimera kpwa luga ya Chidigo na kutambua maarifa manji maalumu kahi ya aganga. Maarifa iga ganalenga mazoezi na ganakuluphira eneo — ganakuluphira kuenderera kufikira matsaka ambamo mimera iyi inamera."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Conservation and Community",
+      "sw": "Uhifadhi na Jamii",
+      "dg": "Uhifadhi na Jamii"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The challenge of the Shimba Hills is the challenge that faces protected areas throughout the developing world: how to reconcile the global interest in biodiversity conservation with the local reality of communities whose livelihoods and cultural practices depend on access to the same resources that conservation seeks to protect. The Mwaluganje Elephant Sanctuary offers one model — community ownership, with approximately 260 landowners leasing their farms to the sanctuary and receiving tourism revenue that exceeds what the land produced through farming. But the broader question of how the Digo relate to a national reserve carved from their ancestral territory remains unresolved, a negotiation that continues generation after generation between the claims of ecology and the claims of culture.",
+      "sw": "Changamoto ya Shimba Hills ni changamoto inayokabili maeneo yaliyolindwa kote katika nchi zinazoendelea: jinsi ya kuoanisha nia ya kimataifa ya uhifadhi wa bioanuwai na hali halisi ya ndani ya jamii ambazo riziki na desturi zao za kitamaduni zinategemea kufikia rasilimali sawa ambazo uhifadhi unataka kulinda. Hifadhi ya Tembo ya Mwaluganje inatoa mfano mmoja — umiliki wa jamii, ambapo takriban wamiliki 260 wa ardhi wanakodisha mashamba yao kwa hifadhi na kupokea mapato ya utalii yanayozidi yale ardhi iliyozalisha kupitia kilimo. Lakini swali pana la jinsi Adigo wanavyohusiana na hifadhi ya kitaifa iliyochongwa kutoka eneo lao la mababu linabaki bila jibu, mazungumzo yanayoendelea kizazi baada ya kizazi kati ya madai ya ikolojia na madai ya utamaduni.",
+      "dg": "Tatizo ra Myango ya Shimba ni tatizo rinarozikabili hifadhi zirizorindwa kosi duniani kahi ya tsi zinazoenderera kukula: njira ya kupatanisha nia ya chimataifa ya kurinda viumbe na hali ya kpweli ya jamii ambazo riziki na desturi zao za chimila zinakuluphira kufikira rasilimali zizo-zizo ambazo uhifadhi unataka kurinda. Hifadhi ya Ndzovu ya Mwaluganje inapha mfano mmwenga — umiliki wa jamii, ambapho kama enye tsi 260 anakodisha minda yao kpwa hifadhi na kuphokera mapato ga utalii ganagozidi mapato ga chirimo. Ela swali pana ra njira Adigo anavyohusiana na hifadhi ya chitaifa iriyotsongwa kula eneo rao ra akare rinasala bila jibu, mazungumzo ganaenderera chizazi bada ya chizazi kahi ya madai ga chimaumbile na madai ga chimila."
+    }
+  ]
+}
