@@ -16,6 +16,8 @@ import { applyAllToProverbs, contextField, meaningField, proverbFieldBase, type 
 import { digoLetterFile } from '@/lib/dictionary/letters';
 import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType, type TranslationField } from './schemas';
 import { applyAllToGlossary, translationPath, translationSource, translationText } from './apply/translations';
+import { applyAllToArticle, articlePath, articleSource, articleText, type ArticleData } from './apply/articles';
+import { articleData } from '@/lib/articles/load';
 export { WORD_ID };
 
 const PLANTS = join(process.cwd(), 'public/data/plants/p');
@@ -30,6 +32,8 @@ export interface Target {
   source?: string | null;
   /** For a fix on a plant part or a glossary term: which one (its term), for reviewers. */
   block?: string;
+  /** For a Digo fix on an article: the Swahili of the same block, shown too. */
+  swahili?: string | null;
 }
 
 function withHash(value: unknown) {
@@ -256,7 +260,37 @@ export function testGlossaryTerm(): GlossaryTerm {
  * A translation fix (spec 34 §17): the path comes from the structured fields (field, part, lang),
  * and the block must exist and hold text. Proverb fields keep their source in the base, as in §16.
  */
+/** A stand-in article for automated tests (never shown; test rows never enter the article overlay). */
+export function testArticle(): ArticleData & { id: string } {
+  return {
+    id: TEST_TARGET,
+    title: { en: 'Test article', sw: 'Makala ya majaribio', dg: 'Makala ya majaribio' },
+    blocks: [{ id: 'b001', type: 'paragraph', en: 'A test paragraph.', sw: 'Aya ya majaribio.', dg: 'Aya ya majaribio.' }],
+  };
+}
+
+/** A fix on an article (spec 34 §17.11): a topic, a published figure or the timeline. */
+function resolveArticleTarget(targetId: string, payload: Record<string, unknown>, opts: { isTest: boolean; liveChanges?: Change[] }): Target | null {
+  const test = targetId === TEST_TARGET;
+  if (test && !opts.isTest) return null;
+  const raw = test ? testArticle() : (articleData(targetId) as ArticleData | null);
+  if (!raw) return null;
+  const path = articlePath(targetId, String(payload.field), payload.lang as 'en' | 'sw' | 'dg', typeof payload.block === 'string' ? payload.block : undefined);
+  if (!path) return null;
+  const a = applyAllToArticle(raw, targetId, opts.liveChanges ?? []);
+  const text = articleText(a, path);
+  if (!text) return null;
+  const title = (a as { title?: { en?: string } }).title?.en ?? (targetId === 'timeline' ? 'Timeline' : targetId);
+  const block = typeof payload.block === 'string' ? payload.block : undefined;
+  return {
+    label: title, path, base: withHash({ text }), source: articleSource(a, path),
+    ...(path.endsWith('.dg') && { swahili: articleSource(a, path, 'sw') }),
+    ...(block && { block }),
+  };
+}
+
 function resolveTranslationTarget(targetType: TargetType | undefined, targetId: string | undefined, payload: Record<string, unknown>, opts: { isTest: boolean; liveChanges?: Change[] }): Target | null {
+  if (targetId && targetType === 'article') return resolveArticleTarget(targetId, payload, opts);
   if (!targetId || (targetType !== 'plant' && targetType !== 'glossary' && targetType !== 'proverb')) return null;
   const lang = payload.lang as 'en' | 'sw' | 'dg';
   const part = typeof payload.part === 'number' ? payload.part : undefined;

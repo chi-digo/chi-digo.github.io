@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Born c. 1928 or c. 1941 (sources disagree); died in 2021, his death reported on 13 October 2021",
       "sw": "Kipindi: Alizaliwa takriban 1928 au takriban 1941 (vyanzo vinatofautiana); alifariki mwaka 2021, na kifo chake kiliripotiwa tarehe 13 Oktoba 2021",
       "dg": "Wakati: Wavyalwa kama 1928 au kama 1941 (vyanzo tavilingana); wafwa mwaka 2021, na habari za chifoche zalavywa tarehe 13 Oktoba 2021"
     },
     {
+      "id": "m02",
       "en": "Role: Elder and custodian of Kaya Chinondo; chairman of the Coast and Kwale kaya elders; healer",
       "sw": "Jukumu: Mzee na mlinzi wa Kaya Chinondo; mwenyekiti wa wazee wa makaya wa Pwani na wa Kwale; mganga",
       "dg": "Kazi: Mzehe na mrindzi wa Kaya Chinondo; mwenyekiti wa azehe a makaya ga Pwani na ga Kwale; mgbwanga"
     },
     {
+      "id": "m03",
       "en": "Region: Chinondo, Msambweni, Kwale County, Kenya",
       "sw": "Eneo: Chinondo, Msambweni, Kaunti ya Kwale, Kenya",
       "dg": "Phatu: Chinondo, Msambweni, Kaunti ya Kwale, Kenya"

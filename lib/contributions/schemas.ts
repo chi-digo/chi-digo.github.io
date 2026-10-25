@@ -83,7 +83,11 @@ const wordText = (max: number) => safeText(max).refine((s) => !UNSAFE_WORD.test(
 const optWordText = (max: number) => optSafeText(max).refine((s) => !s || !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' });
 
 /** The blocks a translation fix may name (spec 34 §17.3, 5a surfaces). */
-export const TRANSLATION_FIELDS = ['teaser', 'summary', 'definition', 'use', 'meaning', 'swahili', 'swahili_equivalent', 'commentary'] as const;
+export const TRANSLATION_FIELDS = [
+  'teaser', 'summary', 'definition', 'use', 'meaning', 'swahili', 'swahili_equivalent', 'commentary',
+  // Articles (§17.11): a block, the title, a figure's subtitle or detail line, a timeline event's title or description.
+  'block', 'title', 'subtitle', 'meta', 'description',
+] as const;
 export type TranslationField = (typeof TRANSLATION_FIELDS)[number];
 
 export const PAYLOADS = {
@@ -158,6 +162,8 @@ export const PAYLOADS = {
     lang: lang3,
     field: z.enum(TRANSLATION_FIELDS),
     part: z.number().int().min(0).max(99).optional(),
+    /** An article block (b012), figure detail line (m02) or timeline event (t-3f9a). */
+    block: z.string().regex(/^(b\d{3,4}|m\d{2}|t-[0-9a-f]{4})$/).optional(),
     // No zero-width characters: they could hide a ruled-out Digo form from the checks.
     proposed: safeText(4000).refine((s) => !ZERO_WIDTH.test(s) && !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' }),
     reason: safeText(300),

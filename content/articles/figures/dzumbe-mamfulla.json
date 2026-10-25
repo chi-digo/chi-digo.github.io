@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: In office by 1890; recorded 1890–1892",
       "sw": "Kipindi: Alikuwa madarakani kufikia 1890; ametajwa 1890–1892",
       "dg": "Wakati: Kala ana cheo mwaka 1890; anatajwa kahi ya 1890–1892"
     },
     {
+      "id": "m02",
       "en": "Role: Dzumbe (chief) and akida (deputy) appointed by the German authorities; the first person recorded as head of all the Wadigo of the Tanga hinterland",
       "sw": "Jukumu: Dzumbe (mkuu) na akida (wakala) aliyeteuliwa na mamlaka ya Kijerumani; mtu wa kwanza kutajwa kuwa mkuu wa Wadigo wote wa bara la Tanga",
       "dg": "Kazi: Dzumbe na akida ariyeikpwa ni utawala wa Chijerumani; mutu wa kpwandza kutajwa dza mkpwulu wa Adigo osi a bara ya Tanga"
     },
     {
+      "id": "m03",
       "en": "Region: Gombelo, inland from Tanga, present-day Tanzania",
       "sw": "Eneo: Gombelo, bara ya Tanga, katika Tanzania ya leo",
       "dg": "Phatu: Gombelo, bara ya Tanga, Tanzania ya rero"

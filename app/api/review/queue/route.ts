@@ -76,8 +76,8 @@ export async function GET(request: Request) {
       return { submitted: own.length, accepted: own.filter((h) => h.status === 'accepted').length };
     };
 
-    const [plantChanges, wordChanges, proverbChanges] = await Promise.all([getAreaOverlay('plant'), getAreaOverlay('word'), getAreaOverlay('proverb')]);
-    const changesFor = (t: string | null) => (t === 'word' ? wordChanges : t === 'proverb' ? proverbChanges : plantChanges);
+    const [plantChanges, wordChanges, proverbChanges, articleChanges] = await Promise.all([getAreaOverlay('plant'), getAreaOverlay('word'), getAreaOverlay('proverb'), getAreaOverlay('article')]);
+    const changesFor = (t: string | null) => (t === 'word' ? wordChanges : t === 'proverb' ? proverbChanges : t === 'article' ? articleChanges : plantChanges);
     const now = Date.now();
     const groups = new Map<string, { target_type: string | null; target_id: string | null; target_label: string | null; items: unknown[] }>();
     for (const r of rows) {

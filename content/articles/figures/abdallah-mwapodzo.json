@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: c. 1840–1923",
       "sw": "Kipindi: takriban 1840–1923",
       "dg": "Wakati: Kama 1840–1923"
     },
     {
+      "id": "m02",
       "en": "Role: Seventh mwanatsi (senior elder) of Kaya Diani, remembered as the first practising Muslim of Diani; builder of Diani's first mosque; colonial Headman of Diani",
       "sw": "Jukumu: Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Mkuu wa Lokesheni wa kikoloni wa Diani",
       "dg": "Kazi: Mwanatsi (mzehe mkpwulu) wa sabaa wa Kaya Diani, anayetambukirwa dza Mwislamu wa kpwandza wa Diani kuishi kulengana na dini iyo; ariyedzenga msikiti wa kpwandza wa Diani; Dzumbe wa chikoloni wa Diani"
     },
     {
+      "id": "m03",
       "en": "Region: Ukunda and Diani, Kwale, present-day Kenya",
       "sw": "Eneo: Ukunda na Diani, Kwale, Kenya ya leo",
       "dg": "Phatu: Ukunda na Diani, Kwale, Kenya ya rero"

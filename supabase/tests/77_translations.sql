@@ -57,11 +57,20 @@ begin
   assert exists (select 1 from public.notifications where user_id = r1 and kind = 'second_review' and contribution_id = sec), 'the Digo reader was not asked';
   assert not exists (select 1 from public.notifications where user_id = r2 and kind = 'second_review' and contribution_id = sec), 'a reviewer without Digo was asked';
 
+  -- Article fixes: the block is locked, and accepted ones are claimable.
+  pi := pg_temp.submit(c2, 'translation_fix', 'translations', 'article', 'culture/kayas/governance',
+    '{"lang":"sw","field":"block","block":"b002","proposed":"Aya mpya.","reason":"Better"}', '{"target_path":"blocks.b002.sw"}');
+  r := pg_temp.review(a1, pi, 'accept', '{"final_payload":{"lang":"sw","field":"block","block":"b003","proposed":"Aya mpya.","reason":"Better"}}');
+  assert r->>'error' = 'locked_fields', 'a reviewer moved an article fix to another block: ' || r::text;
+  r := pg_temp.review(a1, pi, 'accept');
+  assert r->>'status' = 'accepted', 'article fix accept: ' || r::text;
+
   -- 3. Accepted fixes are claimed by fold-in without their private reason.
   r := pg_temp.review(a1, fx, 'accept');
   assert r->>'status' = 'accepted', 'accept failed: ' || r::text;
   claim := public.fold_claim(tok);
   assert exists (select 1 from jsonb_array_elements(claim->'rows') e where (e->>'id')::uuid = fx), 'translation fix not claimable';
+  assert exists (select 1 from jsonb_array_elements(claim->'rows') e where (e->>'id')::uuid = pi), 'article fix not claimable';
   -- (sec is a glossary fix awaiting its second review: not claimable until live.)
   r := pg_temp.review(r1, sec, 'second_confirm');
   assert r->>'live_status' = 'live', 'second review by the Digo reader failed: ' || r::text;

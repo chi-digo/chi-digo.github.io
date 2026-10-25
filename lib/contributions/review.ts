@@ -66,7 +66,7 @@ export function translationTextProblem(base: unknown, proposed: unknown): 'uncha
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
   if (!row.base || !row.target_id) return false;
   // A story appends its own paragraph, so it never goes stale; a meaning replaces text and can.
-  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary'
+  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary' || row.target_type === 'article'
     || (row.target_type === 'proverb' && (row.type === 'proverb_meaning' || row.type === 'translation_fix'));
   if (!checked) return false;
   const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
@@ -110,7 +110,9 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
   // Translation fixes (spec 34 §17.8): big changes, any English change, and source-book proverb text.
   if (row.type === 'translation_fix') {
     const base = row.base?.value as { text?: string; source?: string | null } | null;
-    return finalPayload.lang === 'en' || base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.proposed ?? '')) > 300;
+    // An article's title is seen on every card and in search: two voices (§17.11).
+    const title = row.target_type === 'article' && finalPayload.field === 'title' && !finalPayload.block;
+    return title || finalPayload.lang === 'en' || base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.proposed ?? '')) > 300;
   }
   if (row.type === 'proverb_addition') return !!similarProverb(String(finalPayload.digo ?? ''), liveChanges);
   return false;
@@ -140,7 +142,7 @@ export function lockedFieldsChanged(type: ContributionType, payload: Record<stri
     proverb_meaning: ['lang', 'kind', 'mode'],
     proverb_context: ['lang'],
     proverb_addition: ['usage_lang'],
-    translation_fix: ['lang', 'field', 'part'],
+    translation_fix: ['lang', 'field', 'part', 'block'],
   }[type as string] ?? [];
   return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
 }

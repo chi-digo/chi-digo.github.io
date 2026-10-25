@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: 1920s–1934 (revived the Kongo Mosque c. 1927–1932; died 1934)",
       "sw": "Kipindi: Miaka ya 1920–1934 (aliufufua Msikiti wa Kongo karibu 1927–1932; alifariki 1934)",
       "dg": "Wakati: Miaka ya 1920–1934 (waufufula Msikiti wa Kongo chiasi cha 1927–1932; wafwa 1934)"
     },
     {
+      "id": "m02",
       "en": "Role: Swahili Muslim scholar, imam of the Khonzi Mosque in Mombasa, reviver of the Kongo Mosque and promoter of the maulid among the Digo",
       "sw": "Jukumu: Mwanazuoni Mwislamu wa Kiswahili, imamu wa Msikiti wa Khonzi mjini Mombasa, mfufuaji wa Msikiti wa Kongo na mhamasishaji wa maulidi miongoni mwa Wadigo",
       "dg": "Kazi: Msomi Mswahili wa dini ya Chiislamu, imamu wa Msikiti wa Khonzi iko Mombasa, ariyeufufula Msikiti wa Kongo na ariyeeneza maulidi kahi za Adigo"
     },
     {
+      "id": "m03",
       "en": "Region: Mombasa and Diani, Kwale County, present-day Kenya",
       "sw": "Eneo: Mombasa na Diani, Kaunti ya Kwale, Kenya ya leo",
       "dg": "Phatu: Mombasa na Diani, Kaunti ya Kwale, Kenya ya rero"

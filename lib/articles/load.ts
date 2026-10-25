@@ -71,6 +71,21 @@ export function timelineEvents(): TimelineEvent[] {
   return read<{ events: TimelineEvent[] }>('timeline.json')?.events ?? [];
 }
 
+/** An article id the contributions API accepts (spec 34 §17.8 rule 2). */
+export const ARTICLE_ID = /^(culture\/[a-z0-9-]+\/[a-z0-9-]+|(history|language|figures)\/[a-z0-9-]+|timeline)$/;
+
+/** The stored file for an article id (topic, published figure or the timeline), or null. */
+export function articleData(id: string): (ArticleFile | FigureFile | { events: TimelineEvent[]; provenance?: ArticleFile['provenance'] }) | null {
+  if (!ARTICLE_ID.test(id)) return null;
+  if (id === 'timeline') return read('timeline.json');
+  const [kind, a, b] = id.split('/');
+  if (kind === 'culture') return cultureDomains().some((d) => d.slug === a && d.topics.includes(b)) ? read<ArticleFile>(`${id}.json`) : null;
+  if (kind === 'history') return historyDomain().topics.includes(a) ? read<ArticleFile>(`${id}.json`) : null;
+  if (kind === 'language') return languageDomain().topics.includes(a) ? read<ArticleFile>(`${id}.json`) : null;
+  const fig = figures.some((x) => x.slug === a) ? read<FigureFile>(`${id}.json`) : null;
+  return fig?.published ? fig : null;
+}
+
 /** A figure's article in all three languages, only if it is published. */
 export function figureArticles(slug: string): Record<Locale, FigureArticle> | null {
   if (!SLUG.test(slug) || !figures.some((x) => x.slug === slug)) return null;

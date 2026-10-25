@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Converted before 1880; active into the 1910s",
       "sw": "Kipindi: Alisilimu kabla ya 1880; alikuwa hai kikazi hadi miaka ya 1910",
       "dg": "Wakati: Wasilimu kabla ya 1880; kala anahenda kazi hadi miaka ya 1910"
     },
     {
+      "id": "m02",
       "en": "Role: Early Digo Muslim and trader; leader of Kaya Shonda; colonial Headman of Likoni location; builder of the Bomani Mosque",
       "sw": "Jukumu: Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Mkuu wa Lokesheni wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani",
       "dg": "Kazi: Mmwenga wa Adigo a kpwandza kukala Aislamu, na mchuuzi; chilongozi wa Kaya Shonda; Dzumbe wa chikoloni wa lalo ra Likoni; ariyedzenga Msikiti wa Bomani"
     },
     {
+      "id": "m03",
       "en": "Region: Likoni, on the mainland opposite Mombasa, present-day Kenya",
       "sw": "Eneo: Likoni, bara mkabala na Mombasa, Kenya ya leo",
       "dg": "Phatu: Likoni, bara ng'ambo ya Mombasa, Kenya ya rero"

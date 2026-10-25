@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Late 18th to early 19th century (already in power c. 1803–04)",
       "sw": "Kipindi: Mwishoni mwa karne ya 18 hadi mwanzoni mwa karne ya 19 (alikuwa tayari madarakani karibu 1803–04)",
       "dg": "Wakati: Mwisho wa karne ya 18 hadi mwandzo wa karne ya 19 (kala tayari anatawala phephi na mwaka 1803–04)"
     },
     {
+      "id": "m02",
       "en": "Role: Rain-bringer and ruler of the southern Digo; the first to hold the name Kubo, which became a hereditary title",
       "sw": "Jukumu: Mletaji mvua na mtawala wa Wadigo wa kusini; wa kwanza kuitwa Kubo, jina lililogeuka kuwa cheo cha kurithiwa",
       "dg": "Kazi: Mgbwanga wa mvula na mtawala wa Adigo a kusini; wa kpwandza kuihwa Kubo, dzina ririrokala cheo cha kurisiwa"
     },
     {
+      "id": "m03",
       "en": "Region: Kaya Dzombo and Chirwa, near Chikoneni, Kwale, present-day Kenya",
       "sw": "Eneo: Kaya Dzombo na Chirwa, karibu na Chikoneni, Kwale, katika Kenya ya leo",
       "dg": "Phatu: Kaya Dzombo na Chirwa, phephi na Chikoneni, Kwale, Kenya ya rero"

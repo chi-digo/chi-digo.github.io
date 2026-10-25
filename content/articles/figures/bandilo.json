@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Pre-colonial (date unknown)",
       "sw": "Kipindi: Kabla ya ukoloni (tarehe haijulikani)",
       "dg": "Wakati: Kabla ya ukoloni (tarehe taimanyikana)"
     },
     {
+      "id": "m02",
       "en": "Role: Mtawala (leader) remembered as an archer, healer and diviner",
       "sw": "Jukumu: Mtawala anayekumbukwa kama mpiga mishale, mganga na mtabiri",
       "dg": "Kazi: Mtawala anayetambukirwa dza mpiga uha, mgbwanga na mtabiri"
     },
     {
+      "id": "m03",
       "en": "Region: Tanga, present-day Tanzania",
       "sw": "Eneo: Tanga, Tanzania ya leo",
       "dg": "Phatu: Tanga, Tanzania ya rero"
