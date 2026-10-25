@@ -1,0 +1,176 @@
+{
+  "id": "culture/crafts/pottery",
+  "title": {
+    "en": "Pottery",
+    "sw": "Ufinyazi",
+    "dg": "Ufinyanzi"
+  },
+  "intro": {
+    "en": "Of all the crafts practiced by the Digo, pottery may be the oldest. Long before mangrove poles were cut for house frames and coral was quarried for walls, human hands were shaping clay into vessels…",
+    "sw": "Miongoni mwa ufundi wote unaofanywa na Wadigo, ufinyazi unaweza kuwa wa zamani zaidi. Mila ya ufinyazi ya Wadigo inabeba tabia yake ya kipekee — imeundwa na udongo maalum wa Milima ya Shimba, vyakula…",
+    "dg": "Kahi ya ufundi wosi unaohendwa ni Adigo, ufinyanzi unaweza kukala wa kare zaidi. Kare kabisa kabla mikoko kukatwa kpwa ajili ya fremu za nyumba na sanoo kutsimbwa kpwa ajili ya kuta, mikono ya atu yafinyanga ulongo kukala vyombo…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Earth into Vessel",
+      "sw": "Ardhi Kuwa Chombo",
+      "dg": "Tsi Kukala Chombo"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Of all the crafts practiced by the Digo, pottery may be the oldest. Long before mangrove poles were cut for house frames and coral was quarried for walls, human hands were shaping clay into vessels for cooking, storage, and ceremony. The Digo pottery tradition belongs to this deep human inheritance, but it carries its own distinctive character — shaped by the specific clays of the Shimba Hills, the specific foods of the coast, and the specific social structures that determine who holds this knowledge and how it is transmitted.",
+      "sw": "Miongoni mwa ufundi wote unaofanywa na Wadigo, ufinyazi unaweza kuwa wa zamani zaidi. Mila ya ufinyazi ya Wadigo inabeba tabia yake ya kipekee — imeundwa na udongo maalum wa Milima ya Shimba, vyakula maalum vya pwani, na miundo ya kijamii inayoamua nani anashikilia ujuzi huu.",
+      "dg": "Kahi ya ufundi wosi unaohendwa ni Adigo, ufinyanzi unaweza kukala wa kare zaidi. Kare kabisa kabla mikoko kukatwa kpwa ajili ya fremu za nyumba na sanoo kutsimbwa kpwa ajili ya kuta, mikono ya atu yafinyanga ulongo kukala vyombo vya kujitira, vya kuikira vitu, na vya sherehe. Chimila cha ufinyanzi cha Adigo ni seemu ya urithi huno wa kare wa binadamu, ela chinatsukula tabiyache ya chipekee — chichikala chikaundwa ni ulongo maalum wa Miango ya Shimba, vyakurya maalum vya pwani, na miundo ya chijamii inayoamua ani anagbwira ujuzi huno na njira unavyotsapizwa."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "A Women's Craft",
+      "sw": "Ufundi wa Wanawake",
+      "dg": "Ufundi wa Achetu"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Digo pottery is women's work. This is not a casual observation but a defining feature of the tradition. Only women make pots, and only a small number of women at that — typically two or three potters per location, each one a specialist whose knowledge has been passed down from her mother, who received it from her mother before her. The transmission is intimate, familial, and slow. A girl learns by watching, then by assisting, then by attempting her own vessels under the critical eye of her teacher. There is no school, no workshop, no written manual. The knowledge lives in the hands and eyes of the women who practice it.",
+      "sw": "Ufinyazi wa Wadigo ni kazi ya wanawake — wanawake wawili au watatu tu kwa kila eneo, kila mmoja mtaalamu ambaye ujuzi umepitishwa kutoka kwa mama yake. Msichana anajifunza kwa kutazama, kisha kusaidia, kisha kujaribu vyombo vyake mwenyewe. Hakuna shule, hakuna warsha. Ujuzi unaishi katika mikono na macho ya wanawake wanaoufanya.",
+      "dg": "Ufinyanzi wa Adigo ni kazi ya achetu. Hino si dzambo ra bahati ela ni alama kulu ya chimila hichi. Achetu bahi ndio anaofinyanga nyungu, na ni achetu achache bahi — kpwa kawaida afinyanzi airi au ahahu kpwa chila phatu, chila mmwenga mtaalamu ambaye ujuziwe ukatsapizwa kula kpwa nine, ariyeuhala naye kula kpwa nine. Kutsapiza hiku ni kpwa ndani, kpwa mbari, na ni kpwa pore. Msichana anadzifundza kpwa kulola, chisha kpwa kuterya, chisha kpwa kujeza vyombovye mwenye phapho mfundziwe analola kpwa makini. Takuna shule, takuna warsha, takuna chitabu cha maelekezo. Ujuzi unaishi kahi ya mikono na matso ga achetu anaouhenda."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "This restriction of pottery to a small number of women specialists gives the craft an intensity that mass production could never achieve. Each potter knows her materials with the familiarity of a lifetime. She knows which clay deposits yield the best working material, how the clay behaves in different weather, how much tempering it needs, and when a vessel has reached the precise thickness that will survive the firing process. This is not folk art in the condescending sense. It is expert practice, refined over generations.",
+      "sw": "Kutengenezwa kwa Mikono",
+      "dg": "Kuricha ufinyanzi kahi ya mikono ya achetu ataalamu achache bahi kunaupha ufundi huno undani ambao kuhenda kpwa unji takungeweza kuuphaha katu. Chila mfinyanzi anamanya vifaave kpwa uzoefu wa maisha gosi. Anamanya ni phatu phi phanaphophahikana ulongo mnono wa kuhenda kazi, ulongo unavyokala kahi ya hali tafwauti za dzuwa na mvula, unalonda chiasi chani cha kuchanganywa, na ni rini chombo chikafika unene sawa-sawa unaoweza kuvumirira kuochwa. Hino si sanaa ya chienyeji kpwa maana ya kudharau. Ni kazi ya ataalamu, iriyonolwa kpwa vizazi."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "Clay from the Hills",
+      "sw": "Ufinyazi wa Wadigo unafinyangwa kwa mikono. Hakuna gurudumu la mfinyanzi — chombo kinajengwa kabisa kwa mikono, kinaumbishwa moja kwa moja juu ya mchanga. Uso unapolishwa kwa mbegu ya embe kwa kung'aa laini — kung'arisha hii inabana uso wa udongo, kupunguza upofu na kufanya chombo kuwa sugu zaidi kwa maji.",
+      "dg": "Ulongo kula Miangoni"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The raw material of Digo pottery is clay sourced from specific deposits in the Shimba Hills — the forested uplands that rise behind the coastal plain. Not any clay will do. The potter must know which deposits yield material with the right plasticity, the right mineral content, and the right firing characteristics. The clay is dug, carried down from the hills, and prepared by hand — cleaned of stones and organic matter, kneaded to achieve uniform consistency, and sometimes mixed with fine sand or crusite (ground potsherds) to reduce shrinkage during drying and firing.",
+      "sw": "Vyombo",
+      "dg": "Chitu cha musingi cha ufinyanzi wa Adigo ni ulongo unaotuluzwa phatu maalum kahi ya Miango ya Shimba — miango yenye tsaka inayoinuka nyuma ya tambarare ya pwani. Si chila ulongo unafwaha. Mfinyanzi ni lazima amanye ni phatu phi phanaphophahikana ulongo wenye ulaini sawa, madini sawa, na unaoocheka sawa. Ulongo nkutsimbwa, nkutsukulwa kula miangoni, na nkutayarishwa kpwa mikono — nkuusirwa mawe na takataka, nkukandwa hadi ukale sawa-sawa, na wakati wanjina nkuchanganywa na mtsanga au vidzaya virivyosagwa ili kuphunguza kusinyaa wakati wa kuuma na kuochwa."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "This relationship between the potter and her clay source is a form of environmental knowledge that connects the craft to the landscape in a direct, physical way. The potter does not order materials from a supplier. She goes to the earth, digs what she needs, and carries it home. The quality of her work begins with the quality of her selection — a judgement that depends on experience, not measurement.",
+      "sw": "Wafinyazi wa Wadigo wanazalisha aina kadhaa za vyombo. Sufuria za kupikia — vyombo imara vinavyostahimili moto — vinatumika kupika samaki katika tui, mboga zilizopikwa polepole, na mikate ya mchele. Vyombo vya kuhifadhi maji vinaweka maji baridi kupitia uvukizi. Vyombo vya ibada vinatumikia kazi za sherehe.",
+      "dg": "Uhusiano huno kahi ya mfinyanzi na phatu pha ulongowe ni aina ya marifwa ga mazingira ganagounganisha ufundi na tsi kpwa njira ya wazi na ya chimwiri. Mfinyanzi kaagiza vifaa kula kpwa mutu wa kuguza. Anaphiya kpwa tsi, anatsimba chira anachochilonda, na anachitsukula hadi kaya. Ubora wa kaziye unaandzira kpwa ubora wa uchaguziwe — uamuzi unaokuluphira uzoefu, si vipimo."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Hand-Built, Not Wheel-Thrown",
+      "sw": "Kukauka na Kuchomwa",
+      "dg": "Kufinyangwa kpwa Mikono, Si kpwa Gurudumu"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Digo pottery is hand-modeled. There is no potter's wheel in the traditional process — the vessel is built entirely by hand, shaped directly on a bed of sand that serves as both work surface and support. The potter begins with a lump of prepared clay, which she hollows and expands using her fingers and palms, gradually building up the walls by adding coils or slabs of clay and smoothing them into the growing form. The process is slow, deliberate, and demands a coordination of hand, eye, and material knowledge that only sustained practice can develop.",
+      "sw": "Baada ya kuumbwa, chombo lazima kikauke polepole kwa siku kadhaa. Kuchomwa kunafanyika katika shimo wazi — shimo la kina kifupi ardhini lililojazwa kuni. Vyombo vinapangwa katika shimo, vinazungukwa na kuni, na moto unawashwa. Kudhibiti joto, muda, na mpangilio wa vyombo bila vyombo vya kupimia kunahitaji uzoefu wa miaka mingi.",
+      "dg": "Ufinyanzi wa Adigo nkufinyangwa kpwa mikono. Takuna gurudumu ra mfinyanzi kahi ya njira ya chijadi — chombo chinadzengbwa kpwa mikono kabisa, chichiumbwa dzulu ya mtsanga ambao ni phatu pha kuhendera kazi na chiimiro. Mfinyanzi anaandza na donge ra ulongo uriotayarishwa, ambaro anarikobola na kuripanula kpwa vyalave na vigandzave, achidzenga kuta pore-pore kpwa kuenjereza mikanda au vipande vya ulongo na kuvisawazisha kahi ya umbo rinarokula. Kazi ino ni ya pore, ya makusudi, na inalonda mikono, matso, na marifwa ga vifaa kuhenda kazi phamwenga — dzambo ambaro ni kuhenda mara kpwa mara bahi kunaweza kuriphaha."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Once the basic form is established, the surface is smoothed and refined. Here, an unexpected tool enters the process: the mango seed. The smooth, slightly curved surface of a dried mango seed makes an ideal burnishing tool, and Digo potters use it to polish the exterior of their vessels to a subtle sheen. This burnishing is not merely decorative — it compresses the clay surface, reducing porosity and making the finished vessel more water-resistant.",
+      "sw": "Mila Inayopungua",
+      "dg": "Umbo ra musingi richikala tayari, uso nkusawazishwa vinono. Hipha chombo chisichotazamiwa chinainjira kazini: kokwa ra embe. Uso laini wa kokwa ra embe ririrouma ni chombo chinono cha kung'arisha, na afinyanzi a Adigo nkurihumira kung'arisha kondze ya vyombo vyao hadi vichikala na mng'ao wa pore. Kung'arisha hiku si kpwa urembo bahi — kunabana uso wa ulongo, kuphunguza mianya, na kuhenda chombo chirichomalizwa chizuwiye madzi zaidi."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "The Vessels",
+      "sw": "Ufinyazi wa Wadigo unapungua. Vyombo vya plastiki ni nafuu na vyepesi. Sufuria za chuma zinapasha joto haraka. Idadi ndogo ya wafinyazi — wawili au watatu kwa kila eneo — inamaanisha kwamba kupoteza mfinyanzi mmoja kunaweza kuzima mila katika eneo zima. Wafinyazi wachache wanaobaki wanaendelea na kazi yao si kwa sababu ni ya kiuchumi bali kwa sababu ni sehemu ya wao wenyewe.",
+      "dg": "Vyombo"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Digo potters produce a range of vessels, each designed for a specific purpose in the kitchen and the household. Cooking pots are the most common — sturdy, thick-walled vessels designed to withstand direct contact with fire and the thermal stress of repeated heating and cooling. These pots are used for preparing specific coastal dishes: fish simmered in coconut milk, vegetables slow-cooked with spices, rice cakes steamed in coconut cream. The clay pot is not interchangeable with a metal or plastic alternative. It imparts a distinctive, earthy flavour to slow-cooked foods and distributes heat more evenly than metal, producing a quality of cooking that devotees of the tradition consider irreplaceable.",
+      "sw": "Wafinyazi wa Wadigo wanazalisha aina mbalimbali za vyombo, kila kimoja kimebuniwa kwa matumizi mahususi jikoni na nyumbani. Sufuria za kupikia ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene vilivyoundwa kustahimili moto wa moja kwa moja na msongo wa joto wa kupashwa na kupoa mara kwa mara. Sufuria hizi zinatumika kupika vyakula mahususi vya pwani: samaki waliotokoswa katika tui, mboga zilizopikwa polepole na viungo, mikate ya mchele iliyotiwa mvuke katika tui. Sufuria ya udongo haiwezi kubadilishwa na mbadala wa chuma au plastiki. Inatoa ladha ya kipekee ya kiardhi kwa vyakula vilivyopikwa polepole na inasambaza joto kwa usawa zaidi kuliko chuma, ikizalisha ubora wa kupikia ambao wafuasi wa mila wanauona kuwa hauna mbadala.",
+      "dg": "Afinyanzi a Adigo anazalisha aina nyinji za vyombo, chila chimwenga chikaundwa kpwa matumizi mahususi dzikoni na nyumbani. Nyungu za kujita ndizo za kawaida zaidi — vyombo imara, vyenye kuta nene virivyoundwa kustahimili kugbwirana na moho na msongo wa dzoho wa kupashwa na kupola mara kpwa mara. Nyungu hizi zinahumirwa kujita vyakurya mahususi vya pwani: ng'onda ariotokoswa kpwa huwi, mboga zirizojitwa pore-pore na viungo, mikahe ya mtele iriyotiwa mvuke kpwa huwi. Nyungu ya ulongo taiweza kubadilishwa na mbadala wa chuma au plastiki. Inapha ladha ya chipekee ya chiardhi kpwa vyakurya virivyojitwa pore-pore na inasambaza dzoho kpwa usawa zaidi kuriko chuma, ichizalisha ubora wa kujitira ambao ahendzi a chimila anauona kukala tauna mbadala."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Water storage vessels are larger, wider-mouthed pots designed to keep water cool through evaporation from the porous clay walls. In the heat of the coast, a clay water pot can reduce the temperature of its contents by several degrees — a natural cooling technology that predates the refrigerator by millennia. Ritual containers, smaller and sometimes more elaborately finished, serve ceremonial functions — holding offerings, medicinal preparations, or sacred substances used in traditional healing and religious practice.",
+      "sw": "Vyombo vya kuhifadhi maji ni vikubwa zaidi, vyenye midomo mipana vilivyoundwa kuweka maji baridi kupitia uvukizi kutoka kwa kuta za udongo wenye matundu. Katika joto la pwani, chombo cha maji cha udongo kinaweza kupunguza joto la yaliyomo ndani kwa nyuzi kadhaa — teknolojia ya asili ya kupoeza iliyotangulia jokofu kwa maelfu ya miaka. Vyombo vya ibada, vidogo na wakati mwingine vilivyomalizwa kwa uangalifu zaidi, vinatumikia kazi za sherehe — kushikilia sadaka, dawa za kienyeji, au vitu vitakatifu vinavyotumika katika uponyaji wa kimila na ibada ya kidini.",
+      "dg": "Vyombo vya kuhifadhi madzi ni vikulu zaidi, vyenye midomo mipana virivyoundwa kuikira madzi ga pepho kuphitiya uvukizi kula kpwa kuta za ulongo zenye mianya. Kpwa dzoho ra pwani, chombo cha madzi cha ulongo chinaweza kuphunguza dzoho ra virivyomo ndani kpwa nyuzi kadhaa — teknolojia ya asili ya kupoeza iriyohangulia jokofu kpwa miaka elufu nyinji. Vyombo vya ibada, vidide na wakati wanjina virivyomalizwa kpwa uangalifu zaidi, vinatumikira kazi za sherehe — kugbwira sadaka, dawa za chimila, au vitu vitakatifu vinavyohumirwa kpwa uphonyaji wa chimila na ibada ya chidini."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Drying and Firing",
+      "sw": "Kukauka na Kuchomwa",
+      "dg": "Kuuma na Kuochwa"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "After shaping, a vessel must dry slowly and evenly. Rushed drying causes uneven shrinkage, which leads to cracking — the destroyer of pottery. Digo potters sun-dry their vessels over several days, turning them regularly to ensure even moisture loss and protecting them from direct harsh sunlight that could dry the surface faster than the interior. This patience is not optional. A cracked pot represents not just lost time but lost material and lost effort in every step from clay selection to final smoothing.",
+      "sw": "Baada ya kuumbwa, chombo lazima kikauke polepole na kwa usawa. Kukausha kwa haraka kunasababisha kusinyaa kwa usawa, jambo linaloongoza kwenye kupasuka — mharibifu wa ufinyazi. Wafinyazi wa Wadigo wanakausha vyombo vyao juani kwa siku kadhaa, wakivigeuza mara kwa mara kuhakikisha upotevu sawa wa unyevu na kuvilinda dhidi ya jua kali la moja kwa moja ambalo linaweza kukausha uso haraka kuliko ndani. Subira hii si hiari. Chombo kilichopasuka kinawakilisha si tu muda uliopotea bali nyenzo zilizopotea na juhudi zilizopotea katika kila hatua kutoka kuchagua udongo hadi kusawazisha mwisho.",
+      "dg": "Bada ya kuumbwa, chombo ni lazima chiume pore-pore na kpwa usawa. Kuumisa kpwa upesi kunasababisha kusinyaa kusiko kpwa usawa, dzambo rinaroreha kupasuka — mharibifu wa ufinyanzi. Afinyanzi a Adigo anaumisa vyombo vyao dzuwani kpwa siku kadhaa, achivigaluza mara kpwa mara kuhakikisha upotevu sawa wa unyevu na kuvirinda kpwa dzuwa kali ambaro rinaweza kuumisa uso kpwa upesi kuriko ndani. Kuvumirira hiku si hiyari. Chombo chirichopasuka chinawakilisha si muda urioangamika bahi ela nyenzo zirizoangamika na juhudi zirizoangamika kpwa chila hatua kula kutsambula ulongo hadi kusawazisha mwisho."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Firing takes place in an open pit — a shallow depression in the ground filled with wood fuel. The vessels are arranged in the pit, surrounded and covered with firewood, and the fire is lit. Open-pit firing does not achieve the high, controlled temperatures of a kiln, but it is sufficient to transform the dried clay into a hard, durable ceramic. The firing temperature, the duration, the type of wood used, and the arrangement of the vessels all affect the final result — colour, hardness, porosity, and structural integrity. Managing these variables without instruments or gauges, relying entirely on experience and observation, is perhaps the most demanding skill in the entire pottery process.",
+      "sw": "Kuchomwa kunafanyika katika shimo wazi — shimo la kina kifupi ardhini lililojazwa kuni. Vyombo vinapangwa katika shimo, vinazungukwa na kufunikwa na kuni, na moto unawashwa. Kuchomwa kwa shimo wazi hakufikii joto la juu linalodhibitiwa la tanuru, lakini kunatosha kubadilisha udongo uliokauka kuwa kauri ngumu na ya kudumu. Joto la kuchomwa, muda, aina ya kuni inayotumika, na mpangilio wa vyombo vyote vinaathiri matokeo ya mwisho — rangi, ugumu, upofu, na uadilifu wa muundo. Kudhibiti vigeuzi hivi bila vyombo au vipimo, kwa kutegemea kabisa uzoefu na uchunguzi, labda ni ustadi unaohitajika zaidi katika mchakato mzima wa ufinyazi.",
+      "dg": "Kuochwa kunahendwa kpwa shimo wazi — shimo ra kina chifupi tsini ririrojazwa kuni. Vyombo vinapangwa kpwa shimo, vinazungukwa na kufunikwa ni kuni, na moho unaaswa. Kuochwa kpwa shimo wazi takufikira dzoho ra dzulu rinarodhibitiwa ra tanuru, ela kunatosha kubadilisha ulongo uriouma kukala kauri ngumu na ya kudumu. Dzoho ra kuochwa, muda, aina ya kuni inayohumirwa, na mpangilio wa vyombo vyosi vinaathiri matokeo ya mwisho — rangi, ugumu, mianya, na uadilifu wa muundo. Kudhibiti vigeuzi hivi bila vyombo au vipimo, kpwa kukuluphira kabisa uzoefu na uchunguzi, labda ni ustadi unaohitajika zaidi kpwa mchakato wosi wa ufinyanzi."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Decoration",
+      "sw": "Mapambo",
+      "dg": "Mapambo"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Digo pottery is functional first, but it is not without aesthetic consideration. Vessels may be decorated with incised lines, impressed patterns, or applied strips of clay that create geometric motifs on the surface. These decorations are typically simple — bands of crosshatching, rows of fingertip impressions, or scored lines that catch the light and create visual texture. The aesthetic is restrained rather than elaborate, consistent with the Digo approach to material culture more broadly: beauty emerges from the quality of the making, not from the addition of ornament.",
+      "sw": "Ufinyazi wa Wadigo ni wa matumizi kwanza, lakini si bila kuzingatia uzuri. Vyombo vinaweza kupambwa kwa mistari iliyochongwa, mifumo iliyobandikwa, au vipande vya udongo vilivyowekwa vinavyounda nakshi za kijiometri juu ya uso. Mapambo haya kwa kawaida ni rahisi — bendi za mistari iliyovuka, safu za alama za ncha za vidole, au mistari iliyochorwa inayonasa mwanga na kuunda mwonekano wa kimwili. Uzuri huu ni wa kiasi badala ya kupindukia, kwa mujibu wa mtazamo wa Wadigo kwa utamaduni wa kimali kwa upana zaidi: uzuri unatoka katika ubora wa utengenezaji, si katika kuongeza mapambo.",
+      "dg": "Ufinyanzi wa Adigo ni wa matumizi kpwandza, ela si bila kuzingatia uzuri. Vyombo vinaweza kupambwa kpwa mistari iriyochongwa, mifumo iriyobandikwa, au vipande vya ulongo virivyoikpwa vinavyounda nakshi za chijiometri dzulu ya uso. Mapambo higa kpwa kawaida ni rahisi — bendi za mistari iriyovuka, safu za alama za ntsa za vyala, au mistari iriyochorwa inayonasa mwanga na kuunda mwonekano wa chimwiri. Uzuri huno ni wa kiasi badala ya kupindukirwa, kpwa mujibu wa mwelekeo wa Adigo kpwa utamaduni wa mali kpwa upana zaidi: uzuri unatuluka kpwa ubora wa kutengeza, si kpwa kuenjereza mapambo."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "A Tradition in Decline",
+      "sw": "Mila Inayopungua",
+      "dg": "Chimila Chinachodhoofika"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Digo pottery is in decline. This is not a matter of speculation but of observable fact. Plastic containers are cheaper, lighter, and unbreakable. Metal cooking pots heat faster and are easier to clean. The economic logic is overwhelming, and with each generation, fewer girls learn the craft from their mothers. The small number of practitioners — two or three per location — means that the loss of a single potter can extinguish the tradition in an entire area.",
+      "sw": "Ufinyazi wa Wadigo unapungua. Hii si suala la kukisia bali la ukweli unaoonekana. Vyombo vya plastiki ni nafuu, vyepesi, na havivunjiki. Sufuria za kupikia za chuma zinapasha joto haraka na ni rahisi kusafisha. Mantiki ya kiuchumi ni kubwa sana, na kwa kila kizazi, wasichana wachache wanajifunza ufundi kutoka kwa mama zao. Idadi ndogo ya wafinyazi — wawili au watatu kwa kila eneo — inamaanisha kwamba kupoteza mfinyanzi mmoja kunaweza kuzima mila katika eneo zima.",
+      "dg": "Ufinyanzi wa Adigo unaphungula. Hino si dzambo ra kukisia ela ra ukpweli unaoonekana. Vyombo vya plastiki ni nafuu, vyepesi, na tavivunjiki. Sufuria za kujitira za chuma zinapasha dzoho kpwa upesi na ni rahisi kusafisha. Mantiki ya chiuchumi ni kulu sana, na kpwa chila chizazi, asichana achache anadzifundza ufundi kula kpwa ano mayo ao. Idadi ndide ya afinyanzi — airi au ahahu kpwa chila eneo — inamaanisha kukala kuangamika kpwa mfinyanzi mmwenga kunaweza kuzimisha chimila kpwa eneo rosi."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "What is lost when pottery disappears is more than a craft. It is a body of environmental knowledge — knowing which clay to dig and where to find it. It is a body of technical knowledge — knowing how to shape, dry, and fire a vessel without instruments or written instructions. It is a social tradition — the relationship between mother and daughter, teacher and student, that is the craft's only means of transmission. And it is a culinary tradition — the specific flavours and cooking qualities that only a clay pot can provide.",
+      "sw": "Kinachopotea ufinyazi unapotoweka ni zaidi ya ufundi. Ni mwili wa ujuzi wa mazingira — kujua udongo upi wa kuchimba na wapi kuupata. Ni mwili wa ujuzi wa kitaalamu — kujua jinsi ya kuumba, kukausha, na kuchoma chombo bila vyombo au maelekezo ya maandishi. Ni mila ya kijamii — uhusiano kati ya mama na binti, mwalimu na mwanafunzi, ambao ndio njia pekee ya upitishaji wa ufundi huu. Na ni mila ya upishi — ladha mahususi na sifa za kupikia ambazo chombo cha udongo pekee kinaweza kutoa.",
+      "dg": "Chinachoangamika ufinyanzi uchiangamika ni zaidi ya ufundi. Ni mwiri wa ujuzi wa mazingira — kumanya ni ulongo wani wa kutsimba na kuphi kuuphaha. Ni mwiri wa ujuzi wa chitaalamu — kumanya njira ya kuumba, kuumisa, na kuocha chombo bila vyombo au mlongozo wa maandishi. Ni chimila cha chijamii — uhusiano kahi ya nine na mwana, mwalimu na mwanafunzi, ambao ndio njira mwenga bahi ya kutsapiza ufundi huno. Na ni chimila cha kujitira — ladha mahususi na sifa za kujitira ambazo nyungu ya ulongo bahi inaweza kupha."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The few remaining Digo potters continue their work not because it is economically rational but because it is who they are. They are the last links in a chain that stretches back to the earliest human communities on this coast. When the last potter sets down her mango seed and does not pick it up again, a form of knowledge that took centuries to develop will vanish in a single generation.",
+      "sw": "Wafinyazi wachache wa Wadigo wanaobaki wanaendelea na kazi yao si kwa sababu ni ya busara kiuchumi bali kwa sababu ni sehemu ya wao wenyewe. Ni viungo vya mwisho katika mnyororo unaonyooka nyuma hadi jamii za kwanza za binadamu katika pwani hii. Wakati mfinyanzi wa mwisho atakapoweka mbegu yake ya embe chini na asiiokote tena, aina ya ujuzi iliyochukua karne kuendelezwa itatoweka katika kizazi kimoja.",
+      "dg": "Afinyanzi achache a Adigo anaotsala anaenderera na kazi yao si kpwa sababu ni ya busara chiuchumi ela kpwa sababu ni seemu ya ao enye. Ni vifungo vya mwisho kpwa mnyororo unaofika nyuma hadi atu a kpwandza kabisa a pwani hino. Mfinyanzi wa mwisho achiika photsi kokware ra embe na asirihale tsona, aina ya ujuzi iriyohala karne kukula indaangamika kpwa chizazi chimwenga."
+    }
+  ]
+}

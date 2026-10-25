@@ -1,0 +1,178 @@
+{
+  "id": "figures/dzumbe-mamfulla",
+  "published": true,
+  "title": {
+    "en": "Dzumbe Mamfulla of Gombelo",
+    "sw": "Dzumbe Mamfulla wa Gombelo",
+    "dg": "Dzumbe Mamfulla wa Gombelo"
+  },
+  "subtitle": {
+    "en": "The First Chief Over All the Tanzanian Digo",
+    "sw": "Mkuu wa Kwanza wa Wadigo Wote wa Tanzania",
+    "dg": "Dzumbe wa Kpwandza wa Adigo Osi a Tanzania"
+  },
+  "meta": [
+    {
+      "en": "Era: In office by 1890; recorded 1890–1892",
+      "sw": "Kipindi: Alikuwa madarakani kufikia 1890; ametajwa 1890–1892",
+      "dg": "Wakati: Kala ana cheo mwaka 1890; anatajwa kahi ya 1890–1892"
+    },
+    {
+      "en": "Role: Dzumbe (chief) and akida (deputy) appointed by the German authorities; the first person recorded as head of all the Wadigo of the Tanga hinterland",
+      "sw": "Jukumu: Dzumbe (mkuu) na akida (wakala) aliyeteuliwa na mamlaka ya Kijerumani; mtu wa kwanza kutajwa kuwa mkuu wa Wadigo wote wa bara la Tanga",
+      "dg": "Kazi: Dzumbe na akida ariyeikpwa ni utawala wa Chijerumani; mutu wa kpwandza kutajwa dza mkpwulu wa Adigo osi a bara ya Tanga"
+    },
+    {
+      "en": "Region: Gombelo, inland from Tanga, present-day Tanzania",
+      "sw": "Eneo: Gombelo, bara ya Tanga, katika Tanzania ya leo",
+      "dg": "Phatu: Gombelo, bara ya Tanga, Tanzania ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "Dzumbe Mamfulla of Gombelo is known from two short passages in a German travel book of 1891. They matter because they record a turning point. Before him the Digo villages behind Tanga had no chiefs. With him, colonial rule placed one man over all of them. Soon afterwards, the country around his village rose against the Germans.",
+      "sw": "Dzumbe Mamfulla wa Gombelo anajulikana kutokana na vifungu viwili vifupi katika kitabu cha safari cha Kijerumani cha mwaka 1891. Vina umuhimu kwa sababu vinaandika mabadiliko makubwa. Kabla yake, vijiji vya Wadigo vya bara la Tanga havikuwa na machifu. Kupitia kwake, utawala wa kikoloni ulimweka mtu mmoja juu ya vijiji vyote. Muda mfupi baadaye, nchi iliyozunguka kijiji chake iliinuka dhidi ya Wajerumani.",
+      "dg": "Dzumbe Mamfulla wa Gombelo anamanyikana kpwa vifungu viiri vifupi kahi ya chitabu cha safari cha Chijerumani cha mwaka 1891. Vifungu ivyo ni muhimu kpwa sababu vinaandika wakati wa kugaluka. Kabla ya iye, vidzidzi vya Adigo vya bara ya Tanga kala tavina madzumbe. Kpwa iye, utawala wa chikoloni wamuika mutu mmwenga dzulu ya vidzidzi vyosi. Bada ya muda mfupi, tsi iriyozunguka chidzidziche yazuka kuapinga Ajerumani."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "German sources spell his name \"Jumbe Mamfulla\". *Jumbe* is a title, the coastal word for a headman or chief, not part of his own name. This article uses the Digo form, *Dzumbe*.",
+      "sw": "Vyanzo vya Kijerumani vinaandika jina lake \"Jumbe Mamfulla\". *Jumbe* ni cheo, neno la pwani kwa mkuu wa kijiji au chifu, wala si sehemu ya jina lake. Makala hii inatumia umbo la Kidigo, *Dzumbe*.",
+      "dg": "Vyanzo vya Chijerumani vinaandika dzinare \"Jumbe Mamfulla\". *Jumbe* ni cheo, neno ra Chiswahili ra mkpwulu wa chidzidzi au chifu, si seemu ya dzinare. Makala hino inahumira dzina ra Chidigo, *Dzumbe*."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Rule by the Elders",
+      "sw": "Utawala wa Wazee",
+      "dg": "Utawala wa Azehe"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The Austrian geographer Oscar Baumann travelled through Digo country in 1890. Even well-known villages such as Gombelo and Zirihini, he found, had only about forty huts. Gombelo held one of the most important weekly markets in Digo country, and coastal traders came to it regularly. Baumann describes how these villages were governed:",
+      "sw": "Mwanajiografia Mwaustria Oscar Baumann alisafiri katika nchi ya Wadigo mwaka 1890. Aligundua kwamba hata vijiji vinavyojulikana sana, kama Gombelo na Zirihini, vilikuwa na vibanda karibu arobaini tu. Gombelo ilikuwa na moja ya masoko muhimu zaidi ya kila wiki katika nchi ya Wadigo, na wafanyabiashara wa pwani walilitembelea mara kwa mara. Baumann anaeleza jinsi vijiji hivyo vilivyotawaliwa:",
+      "dg": "Mwanajiografia Oscar Baumann, wa kula Austria, wasafiri kahi za tsi ya Adigo mwaka 1890. Waona kukala hata vidzidzi vinavyomanyikana sana, dza Gombelo na Zirihini, kala vina vibanda phephi na arobaini bahi. Chete cha chila jumwa cha Gombelo kala ni chimwenga cha vyete vikulu zaidi kahi za tsi ya Adigo, na achuuzi a pwani kala anachinyendekera mara kpwa mara. Baumann anaeleza utawala wa vidzidzi ivyo:"
+    },
+    {
+      "id": "b005",
+      "type": "quote",
+      "en": "The villages of the Wadigo are not under chiefs but are governed by a few \"elders\".",
+      "sw": "Vijiji vya Wadigo haviko chini ya machifu, bali vinatawaliwa na \"wazee\" wachache.",
+      "dg": "Vidzidzi vya Adigo tavina madzumbe, ela vinatawalwa ni \"azehe\" achache."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Sometimes one elder rose above the others, like the blind headman of Zirihini or the feared leader Jambia, but none ruled the whole people.",
+      "sw": "Mara nyingine mzee mmoja alipata heshima kuliko wengine, kama mkuu kipofu wa Zirihini au kiongozi aliyeogopwa, Jambia, lakini hakuna aliyetawala watu wote.",
+      "dg": "Mara kpwa mara mzehe mmwenga kala anaphaha hishima kulu kuriko anjina, dza mkpwulu chipofu wa Zirihini, au chilongozi ariyekala anaogophwa, Jambia. Ela takuna ariyetawala Adigo osi."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "A Chief Made by the Germans",
+      "sw": "Chifu Aliyewekwa na Wajerumani",
+      "dg": "Dzumbe Ariyeikpwa ni Ajerumani"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Baumann goes on:",
+      "sw": "Baumann anaendelea:",
+      "dg": "Baumann anaenderera:"
+    },
+    {
+      "id": "b009",
+      "type": "quote",
+      "en": "A real chief was installed only by the German authority, in the person of Jumbe Mamfulla of Gombelo, to whom all Wadigo are now, at least nominally, subject.",
+      "sw": "Chifu halisi aliwekwa kwa mara ya kwanza na mamlaka ya Kijerumani, katika nafsi ya Jumbe Mamfulla wa Gombelo, ambaye sasa Wadigo wote, angalau kwa jina, wako chini yake.",
+      "dg": "Dzumbe wa kpweli waikpwa kpwa mara ya kpwandza ni utawala wa Chijerumani, naye ni Dzumbe Mamfulla wa Gombelo, ambaye sambi Adigo osi anatawalwa ni iye, hata ichikala ni kpwa dzina bahi."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Elsewhere he lists the \"black akidas (deputies)\" through whom the Germans governed Bondei and Digo country, where no European official was yet stationed. Of these, he writes, \"Abdallah of Sega near Magila and Mamfulla of Gombelo are the most important.\"",
+      "sw": "Mahali pengine anawataja \"maakida weusi (wakala)\" ambao kupitia kwao Wajerumani waliitawala nchi ya Wabondei na Wadigo, ambako bado hapakuwa na afisa Mzungu. Kati yao, anaandika, \"Abdallah wa Sega karibu na Magila na Mamfulla wa Gombelo ndio muhimu zaidi.\"",
+      "dg": "Phatu phanjina anataja maakida ambao Ajerumani kala anaahumira kutawala tsi ya Abondei na Adigo, ambapho wakati hinyo kala takuna afisa Mzungu. Kahi yao, anaandika, \"Abdallah wa Sega phephi na Magila na Mamfulla wa Gombelo ndio muhimu zaidi.\""
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "So Mamfulla was an appointee. His authority came from the German administration on the coast, not from the village elders, and even Baumann added \"at least nominally\". He marks the shift from rule by councils of elders to a colonial system of appointed chiefs.",
+      "sw": "Kwa hiyo Mamfulla aliteuliwa. Mamlaka yake yalitoka kwa utawala wa Kijerumani wa pwani, si kwa wazee wa vijiji, na hata Baumann aliongeza \"angalau kwa jina\". Yeye ni alama ya kuhama kutoka utawala wa mabaraza ya wazee kwenda mfumo wa kikoloni wa machifu wa kuteuliwa.",
+      "dg": "Phahi Mamfulla kala ni mutu ariyeikpwa ni serikali. Mamlakage kala ganakula kpwa utawala wa Chijerumani wa pwani, si kpwa azehe a vidzidzi, na hata Baumann waenjereza \"hata ichikala ni kpwa dzina bahi\". Iye ni alama ya kugaluka kula utawala wa mabaraza ga azehe hadi utawala wa chikoloni wa kuika madzumbe."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "We do not know for certain that Mamfulla was a Digo. Baumann never says so. On the same page he sneers that the African \"governor\" \"remains a Swahili even under the German flag\" and is a Muslim. The remark comes in a passage about the English mission at Magila, so it most likely refers to Abdallah of Sega, not to Mamfulla. It does suggest that the Germans' akidas were Muslims from coastal society. Mamfulla may have been a Gombelo man or an outsider placed there; the sources do not say. Nothing is recorded of his family, his clan, or when he was born or died.",
+      "sw": "Hatujui kwa uhakika kama Mamfulla alikuwa Mdigo. Baumann hasemi hivyo popote. Katika ukurasa huohuo anadhihaki kwamba \"gavana\" Mwafrika \"anabaki Mswahili hata chini ya bendera ya Kijerumani\" na ni Mwislamu. Maneno hayo yamo katika sehemu inayohusu misheni ya Waingereza ya Magila, kwa hiyo yaelekea yanamhusu Abdallah wa Sega, si Mamfulla. Hata hivyo yanaashiria kwamba maakida wa Wajerumani walikuwa Waislamu wa jamii ya pwani. Huenda Mamfulla alikuwa mwenyeji wa Gombelo au mgeni aliyewekwa pale; vyanzo havisemi. Hakuna kilichoandikwa kuhusu familia yake, ukoo wake, wala lini alizaliwa au alifariki.",
+      "dg": "Tahumanya kpwa hakika kukala Mamfulla kala ni Mdigo. Baumann kagomba hivyo. Kahi ya ukurasa uho uho anachaniya kukala \"gavana\" Mwafrika \"anasala Mswahili hata photsi ya bendera ya Chijerumani\", na kukala ni Mwislamu. Maneno gago ganaphahikana kahi ya seemu ya chitabu inayogomba kuhusu misheni ya Aingereza ya Magila, phahi inaonekana ganamhusu Abdallah wa Sega, si Mamfulla. Ela ganaonyesa kukala maakida a Ajerumani kala ni Aislamu a jamii ya pwani. Mamfulla anaweza kukala kala ni mutu wa Gombelo, au mjeni ariyeikpwa hiko; vyanzo tavigomba. Takuna chirichoandikpwa kuhusu mbariye, fukore, wala ni rini wavyalwa au wafwa."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Rising of 1891–92",
+      "sw": "Uasi wa 1891–92",
+      "dg": "Uasi wa 1891–92"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "At the end of 1891 the Digo country around Gombelo rose. Baumann came back in January 1892 with a new expedition and heard what had happened a few weeks before. The Wadigo, \"who had always been quite good subjects, suddenly tore down the German flag and declared themselves independent\". A German officer came with a few soldiers to bring them back into line. The Wadigo met him with heavy fire, forced him to retreat, chased him as far as Amboni and burned the barns of the plantation company.",
+      "sw": "Mwishoni mwa mwaka 1891 nchi ya Wadigo iliyozunguka Gombelo iliinuka. Baumann alirudi Januari 1892 akiwa na msafara mpya, akasikia yaliyotokea wiki chache kabla. Wadigo, \"ambao siku zote walikuwa raia wema kabisa, ghafla waliishusha bendera ya Kijerumani na kujitangaza huru\". Afisa Mjerumani alikuja na askari wachache kuwarudisha katika utii. Wadigo walimpokea kwa risasi nyingi, wakamlazimisha kurudi nyuma, wakamfukuza hadi Amboni na kuchoma maghala ya kampuni ya mashamba.",
+      "dg": "Mwisho wa mwaka 1891 tsi ya Adigo iriyozunguka Gombelo yazuka kuapinga Ajerumani. Baumann wauya Januari 1892 na msafara muphya, achisikira mambo garigohendeka majumwa machache kabla. Adigo, \"ambao siku zosi kala ni araiya anono sana, ghafula achiusa bendera ya Chijerumani na achidzitangaza kukala huru\". Afisa Mjerumani wakpwedza na asikari achache kuauyiza photsi ya utawala wa Chijerumani. Adigo amvamira kpwa risasi nyinji, achimhenda auye nyuma, achimzoresa hadi Amboni, na achiocha vitsaga vya kampuni ya mashamba."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The response was severe. Troops came by steamer from Dar es Salaam, and Freiherr von Bülow was sent to \"pacify\" the Wadigo. Baumann calls what followed \"the usual punitive procedure of burning villages and driving off livestock\". He blames the rising on palm wine, a prejudice he had already set out at length in his earlier book. His own account shows that the Wadigo pulled down a flag, declared their independence and fought.",
+      "sw": "Jibu lilikuwa kali. Askari walikuja kwa meli kutoka Dar es Salaam, na Freiherr von Bülow akatumwa \"kuwatuliza\" Wadigo. Baumann anayaita yaliyofuata \"utaratibu wa kawaida wa adhabu, wa kuchoma vijiji na kuswaga mifugo\". Analaumu pombe ya mnazi kwa uasi huo, dhana potofu aliyokuwa ameieleza kwa kirefu katika kitabu chake cha awali. Simulizi yake mwenyewe inaonyesha kwamba Wadigo waliishusha bendera, wakajitangaza huru na wakapigana.",
+      "dg": "Ajerumani ajibu kpwa nguvu. Asikari akpwedza na meli kula Dar es Salaam, na Freiherr von Bülow wahumwa \"kuatuliza\" Adigo. Baumann anagaiha mambo garigolunga \"njira ya kawaida ya adhabu, ya kuocha vidzidzi na kuhala mifugo\". Analaumu uchi kpwa uasi uho, chibero ambacho kala akachiandika sana kahi ya chitabuche cha kare. Ela habariye mwenye inaonyesa kukala Adigo ausa bendera, adzitangaza kukala huru, na apigana."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Three days after von Bülow left, Baumann's caravan of 200 armed men camped under a great tree outside Gombelo. The village was empty: its people had fled to the bush, and some of his straggling porters were shot at with arrows. His men took cassava and chickens from the abandoned fields.",
+      "sw": "Siku tatu baada ya von Bülow kuondoka, msafara wa Baumann wa watu 200 wenye silaha ulipiga kambi chini ya mti mkubwa nje ya Gombelo. Kijiji kilikuwa tupu: watu wake walikuwa wamekimbilia porini, na baadhi ya wapagazi wake waliobaki nyuma walipigwa mishale. Watu wake walichukua mihogo na kuku kutoka mashamba yaliyoachwa.",
+      "dg": "Siku tahu bada ya von Bülow kuuka, Baumann na atue 200 ariotsukula silaha alala photsi ya muhi mkpwulu kondze ya Gombelo. Chidzidzi kala tuphu: atu a hiko kala akachimbira weruni, na apagazi anjina ariosala nyuma achipigwa mivi. Atu a Baumann achihala manga na kuku kula minda iriyorichwa."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The Wadigo answered with the colonial government's own procedure. They lodged a formal complaint at the district office. It went on to Dar es Salaam and Berlin, and the Anti-Slavery Committee, which had paid for Baumann's expedition, was made to pay compensation. Baumann mocks this too. The record says nothing of compensation for the villages burned by von Bülow.",
+      "sw": "Wadigo walijibu kwa kutumia utaratibu wa serikali ya kikoloni yenyewe. Walifungua malalamiko rasmi katika ofisi ya wilaya. Malalamiko hayo yalifika Dar es Salaam na Berlin, na Kamati ya Kupinga Utumwa, iliyokuwa imegharimia msafara wa Baumann, ikalazimika kulipa fidia. Baumann analidhihaki hilo pia. Kumbukumbu hazisemi lolote kuhusu fidia kwa vijiji vilivyochomwa na von Bülow.",
+      "dg": "Adigo ajibu kpwa kuhumira njira za serikali ya chikoloni. Aphiya kushitaki kpwa ofisi ya wilaya. Mashitaka gao gaphiya hadi Dar es Salaam na Berlin, na Kamati ya Kupinga Utumwa, iriyokala ikaripha gharama za msafara wa Baumann, yahendwa iriphe maripho. Baumann anachaniya dzambo hiri piya. Kumbukumbu tazigomba chitu kuhusu maripho ga vidzidzi virivyoochwa ni von Bülow."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "No source says what Mamfulla did during the rising. Gombelo lay in the country that rose, but the German accounts read so far do not name him or any other Digo leader.",
+      "sw": "Hakuna chanzo kinachoeleza Mamfulla alifanya nini wakati wa uasi. Gombelo ilikuwa katika nchi iliyoinuka, lakini simulizi za Kijerumani zilizosomwa hadi sasa hazimtaji yeye wala kiongozi mwingine yeyote wa Kidigo.",
+      "dg": "Takuna chanzo chinachogomba Mamfulla wahenda nini wakati wa uasi. Gombelo kala i kahi ya tsi iriyozuka, ela hata sambi, habari za Chijerumani tazimtaja iye wala chilongozi wanjina wa Adigo."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi Wake",
+      "dg": "Urisiwe"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Mamfulla is a figure of a transition, not a hero in the record. He is the first person known to have held authority over all the Tanzanian Digo, and that authority was given by a colonial power. Within two years the Wadigo tore down the flag under which he had been appointed. A file of German newspaper cuttings on the rising, and the memories of Gombelo's elders, may one day tell us more about him.",
+      "sw": "Mamfulla ni mtu wa kipindi cha mpito, wala si shujaa katika kumbukumbu. Ndiye mtu wa kwanza anayejulikana kushika mamlaka juu ya Wadigo wote wa Tanzania, na mamlaka hayo alipewa na dola ya kikoloni. Ndani ya miaka miwili Wadigo waliishusha bendera ambayo chini yake aliteuliwa. Jalada la vipande vya magazeti ya Kijerumani kuhusu uasi huo, na kumbukumbu za wazee wa Gombelo, huenda siku moja vikatueleza zaidi kumhusu.",
+      "dg": "Mamfulla ni mutu wa wakati wa kugaluka, si shujaa kahi ya kumbukumbu. Ndiye mutu wa kpwandza anayemanyikana kukala na mamlaka dzulu ya Adigo osi a Tanzania, na wahewa mamlaka gago ni utawala wa chikoloni. Kahi ya miaka miiri Adigo ausa bendera ambayo waikpwa photsiye. Faili ya vipande vya magazeti ga Chijerumani kuhusu uasi uho, na kumbukumbu za azehe a Gombelo, vinaweza siku mwenga kuhuambira zaidi kumhusu."
+    }
+  ],
+  "sources": [
+    "Oscar Baumann, *Usambara und seine Nachbargebiete* (Berlin: Dietrich Reimer, 1891), pp. 148–152 (Digo villages, markets, palm wine and elders; \"Jumbe Mamfulla von Gombelo\", p. 152) and p. 161 (the akidas). Full text: https://archive.org/details/usambaraundsein00baumgoog",
+    "Oscar Baumann, *Durch Massailand zur Nilquelle* (Berlin: Dietrich Reimer, 1894), ch. II, pp. 13–14 (\"Unruhen im Wadigo-Land\"). Project Gutenberg #68057: https://www.gutenberg.org/ebooks/68057",
+    "Bundesarchiv, N 2225/70, \"Unruhen unter der Wadigobevölkerung in Deutsch-Ostafrika (Nordbezirk von Tanga). – Zeitungsausschnitte\", January 1892, papers of Joachim Graf von Pfeil (finding-aid entry only; not consulted)."
+  ]
+}

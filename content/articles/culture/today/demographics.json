@@ -1,0 +1,183 @@
+{
+  "id": "culture/today/demographics",
+  "title": {
+    "en": "Digo Demographics",
+    "sw": "Idadi ya Wadigo",
+    "dg": "Idadi ya Adigo"
+  },
+  "intro": {
+    "en": "The Digo are one of the nine Mijikenda peoples of the Kenyan coast, and among the Mijikenda they hold a distinctive position: they are the southernmost group, the one whose territory straddles an…",
+    "sw": "Wadigo ni mojawapo ya makabila tisa ya Mijikenda ya pwani ya Kenya, na kati ya Mijikenda wanashikilia nafasi ya kipekee: ni kundi la kusini zaidi, lile ambalo eneo lake linapita mpaka wa kimataifa.…",
+    "dg": "Adigo ni mwenga wa makabila tisa ga Amijikenda ga pwani ya Kenya, na kahi ya Amijikenda ana nafasi ya chipekee: ni kundi ra kusini zaidi, riro ambaro eneore rinatsupa mphaka wa chimataifa.…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A People of the Southern Coast",
+      "sw": "Watu wa Pwani ya Kusini",
+      "dg": "Atu a Pwani ya Kusini"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo are one of the nine Mijikenda peoples of the Kenyan coast, and among the Mijikenda they hold a distinctive position: they are the southernmost group, the one whose territory straddles an international border, and the one most deeply shaped by Islamic practice and Indian Ocean trade. The 2019 Kenya National Census recorded approximately 640,000 Digo in Kenya, the majority concentrated in Kwale County on the south coast. Across the border in Tanzania, a significant Digo population inhabits the Tanga Region, particularly the districts around Pangani and Muheza. Together, the Kenyan and Tanzanian Digo form a single cultural community divided by a colonial-era boundary that cuts through what was once a continuous stretch of Digo settlement.",
+      "sw": "Wadigo ni mojawapo ya makabila tisa ya Mijikenda ya pwani ya Kenya, na kati ya Mijikenda wanashikilia nafasi ya kipekee: ni kundi la kusini zaidi, lile ambalo eneo lake linapita mpaka wa kimataifa. Sensa ya Kenya ya 2019 ilirekodi takriban Wadigo 640,000 nchini Kenya, wengi wao wakiwa Kaunti ya Kwale. Ng'ambo ya mpaka nchini Tanzania, Wadigo wengi wanaishi mkoa wa Tanga. Pamoja, Wadigo wa Kenya na Tanzania wanaunda jamii moja ya kitamaduni iliyogawanywa na mpaka wa enzi ya ukoloni.",
+      "dg": "Adigo ni mwenga wa makabila tisa ga Amijikenda ga pwani ya Kenya, na kahi ya Amijikenda ana nafasi ya chipekee: ni kundi ra kusini zaidi, riro ambaro eneore rinatsupa mphaka wa chimataifa, na riro rikaumbwa zaidi ni mazoea ga Chiislamu na biashara ya Bahari ya Hindi. Sensa ya Kenya ya 2019 yarekodi kama Adigo 640,000 kpwa Kenya, anji ao anakala Kaunti ya Kwale kahi ya pwani ya kusini. Ng'ambo ya mphaka kpwa Tanzania, Adigo anji anaishi mkowa wa Tanga, haswa wilaya zinazozunguluka Pangani na Muheza. Phamwenga, Adigo a Kenya na Tanzania anaumba jamii mwenga ya chimila iriyoganywa ni mphaka wa wakati wa akoloni unaokata kahi ya eneo ambaro kare rakala makazi ga Adigo bila kukatika."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Kwale County: The Numbers",
+      "sw": "Idadi ya Watu Wachanga",
+      "dg": "Kaunti ya Kwale: Takwimu"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Kwale County, the administrative home of most Kenyan Digo, had a total population of approximately 866,820 according to the 2019 census, with projections reaching roughly 901,000 by 2025. The county is divided into four constituencies — Msambweni, Matuga, Chinango, and Lunga Lunga — and while the Digo share the county with the Duruma, another Mijikenda people who predominate in the inland Chinango constituency, the Digo are the majority in the three coastal constituencies. The population density varies dramatically: the coastal strip around Ukunda and Diani is densely settled, while the hinterland toward Chinango remains sparsely populated and semi-arid.",
+      "sw": "Ukweli wa kushangaza zaidi wa kidemografia kuhusu Kaunti ya Kwale ni umri wa watu wake. Asilimia 79.5 ya idadi ya watu wako chini ya miaka 34. Hii ni jamii ya vijana sana — hali inayoleta ahadi na hatari. Kwa upande mmoja, inamaanisha nguvu kazi kubwa inayoweza kuendesha mabadiliko ya kiuchumi. Kwa upande mwingine, inamaanisha shinikizo kubwa kwa elimu, ajira, na huduma za kijamii.",
+      "dg": "Kaunti ya Kwale, makao ga chiutawala ga Adigo anji a Kenya, yakala na atu kama 866,820 kulingana na sensa ya 2019, na makadirio ga kufikira kama atu 901,000 mwaka wa 2025. Kaunti inaganywa kahi ya majimbo mane — Msambweni, Matuga, Chinango, na Lunga Lunga — na dzagbwe Adigo anaishi kaunti iyi phamwenga na Aduruma, atu anjina a Amijikenda ambao ndio anji kahi ya jimbo ra bara ra Chinango, Adigo ndio anji kahi ya majimbo mahahu ga pwani. Unji wa atu unatafwautiana sana: ukanda wa pwani uriozunguluka Ukunda na Diani una atu anji, wakati seemu za bara kuelekea Chinango zina atu achache na ni nusu kame."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "A Young Population",
+      "sw": "Umaskini na Vipimo Vyake",
+      "dg": "Idadi ya Atu Avulana"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The most striking demographic fact about Kwale County is the age of its people. According to the 2019 census, 79.5 percent of the population is under 34 years old. This is an overwhelmingly youthful community — a demographic profile that carries both promise and peril. On one hand, it means a large potential workforce and a generation that could drive economic transformation. On the other, it means enormous pressure on education, employment, and social services that the county is ill-equipped to provide. Youth unemployment is pervasive. Young men cluster around boda-boda stands and casual labor markets. Young women face the compounding pressures of early marriage — the county's teenage pregnancy rate stands at 24 percent — and limited access to education beyond the primary level.",
+      "sw": "Takwimu za umaskini za Kaunti ya Kwale ni miongoni mwa kali zaidi nchini Kenya. Kiwango cha umaskini ni asilimia 74.9 — takriban watatu kati ya kila wanne wanaishi chini ya mstari wa umaskini. Asilimia 70 ya kaya ni maskini wa chakula. Matokeo yanaonekana katika data ya afya: asilimia 35 ya watoto wana udumavu na asilimia 21 wana uzito pungufu.",
+      "dg": "Dzambo ra ajabu zaidi ra chidemografia kuhusu Kaunti ya Kwale ni umri wa atue. Kulingana na sensa ya 2019, asilimia 79.5 ya atu ni a tsini ya miaka 34. Hino ni jamii ya avulana sana — hali inayoreha ahadi na hatari. Kpwa uphande mmwenga, manaye ni nguvu kazi kulu na chizazi chinachoweza kulongoza mabadiliko ga chiuchumi. Kpwa uphande wanjina, manaye ni shinikizo kulu kpwa elimu, kazi, na huduma za chijamii ambazo kaunti taina uwezo wa kuzipha. Ukosefu wa kazi kpwa avulana ukaenea. Alume avulana anakusanyika kpwenye vitsuo vya boda-boda na masoko ga vibarua. Asichana anakabiliwa ni shinikizo za harusi za mapema — chiwango cha mimba za asichana adide kahi ya kaunti ni asilimia 24 — na kuphaha elimu kpwa chiasi chidide kutsupa shule ya msingi."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Poverty and Its Dimensions",
+      "sw": "Usambazaji wa maji unakidhi asilimia 15 tu ya mahitaji. Uandikishaji wa shule ya msingi ni wa kuvutia — asilimia 99.7 — lakini ubora wa ufundishaji ni wa kutofautiana na wasichana wanaondoka shuleni kwa wingi. Hakuna chuo kikuu katika Kaunti ya Kwale.",
+      "dg": "Uchiya na Vipimove"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The poverty statistics for Kwale County are among the most severe in Kenya. The overall poverty rate stands at 74.9 percent, meaning roughly three out of every four residents live below the poverty line. This compares to a national average of approximately 45.2 percent. Some 66.6 percent of the population lives on less than US$1.90 per day — the World Bank's extreme poverty threshold. An overwhelming 89.3 percent of households earn less than KSh 30,000 per month, a figure that must cover food, school fees, medical costs, and shelter for families that are often large.",
+      "sw": "Mji na Uhamaji",
+      "dg": "Takwimu za uchiya za Kaunti ya Kwale ni kahi ya kali zaidi kpwa Kenya. Chiasi cha uchiya ni asilimia 74.9 — kama ahahu kahi ya chila ane anaishi tsini ya mstari wa uchiya. Wastani wa chitaifa ni kama asilimia 45.2. Kama asilimia 66.6 ya atu anaishi kpwa pesa chache kuriko US$1.90 kpwa siku — mstari wa uchiya mkpwulu wa Benki ya Dunia. Makaya asilimia 89.3 ganaphaha pesa chache kuriko KSh 30,000 kpwa mwezi, pesa ambazo ni lazima zitoshe chakurya, ada za shule, gharama za matibabu, na makazi kpwa mbari ambazo mara nyinji ni kulu."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Food poverty is particularly acute. Approximately 70 percent of households in the county are classified as food-poor, meaning they cannot reliably afford adequate nutrition. The consequences are visible in the health data: 35 percent of children are stunted, indicating chronic malnutrition, and 21 percent are underweight. These are not abstract numbers. They describe children whose bodies and minds are being shaped by deprivation during the most critical years of their development.",
+      "sw": "Wadigo si watu wa mashambani peke yao. Ukuaji wa Ukunda hadi wakazi karibu 78,000 unaonyesha mwelekeo wa ukuaji wa miji. Mombasa na Nairobi zinavuta wafanyakazi wa Kidigo. Pesa zinazotumwa kutoka mijini zinaunda mkondo muhimu wa mapato kwa familia za mashambani.",
+      "dg": "Uchiya wa chakurya ni mkali zaidi. Kama asilimia 70 ya makaya ga kaunti ni achiya a chakurya, manaye taganaweza kuphaha lishe ya kutosha kpwa uhakika. Matokeo ganaonekana kpwa data ya afya: asilimia 35 ya ana ana udumavu, ishara ya utapiamlo wa muda mure, na asilimia 21 ana uzito mdide. Zizi si takwimu tupu. Zinagomba kuhusu ana ambao miiri na akili zao zinaumbwa ni ukosefu wakati wa miaka muhimu zaidi ya kukula kpwao."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Water: The Defining Scarcity",
+      "sw": "Mpaka wa kimataifa kati ya Kenya na Tanzania unagawa eneo la Wadigo lakini haujawahi kugawa utambulisho wa Wadigo. Familia zinadumisha uhusiano kuvuka mpaka. Lugha ya Chidigo inazungumzwa pande zote mbili bila tofauti kubwa ya lahaja.",
+      "dg": "Madzi: Uhaba Mkpwulu Zaidi"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Perhaps no single statistic captures Kwale's development challenge more starkly than this: the county's water supply meets approximately 15 percent of demand. The daily water requirement is estimated at 220,000 cubic meters; the supply delivers between 30,000 and 35,000 cubic meters. The county government has invested in twenty dams and forty boreholes in recent years, but the gap remains enormous. Women and girls walk long distances to collect water, losing hours that could otherwise be spent in school or earning income. Water-borne diseases remain a major contributor to the disease burden, alongside malaria, respiratory infections, and diarrheal illness.",
+      "sw": "Mgawanyiko wa kizazi ndio mstari muhimu zaidi wa kidemografia. Wadigo wa zamani wanazungumza Chidigo kwa ufasaha na kushiriki sherehe za kaya. Vijana wanakimbilia Kiswahili, Kiingereza, na Sheng. Mfumo wa afya unaonyesha umaskini wa kaunti — malaria, kuharisha, na utapiamlo mkubwa vinasalia kuwa changamoto kuu.",
+      "dg": "Labuda takuna takwimu yanjina inayoonyesa changamoto ya maendeleo ya Kwale kpwa uwazi zaidi kuriko ihi: madzi ganagophahikana kahi ya kaunti ganatosha kama asilimia 15 bahi ya mahitaji. Mahitaji ga madzi ga chila siku ganakadiriwa kukala mita za ujazo 220,000; madzi ganagophahikana ni kahi ya mita za ujazo 30,000 na 35,000. Serikali ya kaunti ikawekeza kpwa mabwawa 20 na visima 40 miaka ya sambi, ela pengo bado ni kulu sana. Achetu na asichana anaphiya safari ndere kuhala madzi, achiangamiza masaa ambago gangahumirwa shuleni au kuphaha mapato. Makongo ganagoambukizwa kpwa madzi ganasala kukala chanzo chikulu cha makongo, phamwenga na malaria, maambukizi ga njira ya hewa, na fyokpwa."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Education: Access Without Quality",
+      "sw": "Elimu: Upatikanaji Bila Ubora",
+      "dg": "Elimu: Kuphaha Bila Ubora"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The education picture is one of partial progress. Primary school enrollment is impressive on paper — a 99.7 percent gross enrollment rate across 415 primary schools — but the figures mask deep problems. Quality of instruction is uneven. Retention rates are poor, with girls dropping out disproportionately due to early marriage and pregnancy. There is no university in Kwale County; the nearest institutions of higher learning are Pwani University in Kilifi and various colleges in Mombasa. This means that any young person seeking higher education must leave the county entirely, a financial impossibility for most families.",
+      "sw": "Picha ya elimu ni ya maendeleo ya nusu. Uandikishaji wa shule za msingi unavutia kwenye karatasi — kiwango cha jumla cha uandikishaji cha asilimia 99.7 katika shule 415 za msingi — lakini takwimu hizo huficha matatizo makubwa. Ubora wa ufundishaji hauko sawa. Viwango vya uhifadhi wa wanafunzi ni duni, huku wasichana wakiacha shule kwa wingi kutokana na ndoa za mapema na mimba. Hakuna chuo kikuu katika Kaunti ya Kwale; taasisi za karibu zaidi za elimu ya juu ni Chuo Kikuu cha Pwani huko Kilifi na vyuo mbalimbali Mombasa. Hii ina maana kwamba kijana yeyote anayetafuta elimu ya juu lazima aondoke kabisa kaunti hiyo, jambo ambalo ni haliwezekani kifedha kwa familia nyingi.",
+      "dg": "Hali ya elimu ni ya maendeleo ga nusu. Kuandikishwa kpwa shule za msingi kunavutiya kpwenye karatasi — chiwango cha jumla cha kuandikishwa cha asilimia 99.7 kpwenye shule 415 za msingi — ela takwimu zizo zinafwitsa matatizo makulu. Ubora wa kufundzwa taulingane. Viwango vya kuika anafundzi ni vibaya, hiku asichana anaricha shule kpwa unji kpwa sababu ya harusi za mapema na mimba. Takuna chuo chikulu kpwenye Kaunti ya Kwale; vitsuo vya phephi vya elimu ya dzulu ni Chuo Chikulu cha Pwani ko Kilifi na vyuo mbali-mbali Mombasa. Hino manaye ni kukala mutu mdide yeyesi ahendzaye elimu ya dzulu ni lazima auke kaunti yosi, dzambo ambaro tariwezekana kpwa pesa kpwa nyumba nyinji."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "A significant development in education is the implementation of Digo mother-tongue instruction for the earliest grades under Kenya's Competency-Based Curriculum. Some 60 education officers and approximately 100 teachers have been trained to deliver instruction in Chidigo for grades one through three. Materials have been developed through collaboration with the Bible Translation and Literacy organization. However, the program faces constraints: few teachers are fluent in written Digo, Chidigo-medium instruction does not extend beyond grade three, and Swahili and English dominate from grade four onward. The result is that children begin their education in their mother tongue only to abruptly shift to languages in which many are not yet proficient.",
+      "sw": "Maendeleo muhimu katika elimu ni utekelezaji wa ufundishaji kwa lugha mama ya Kidigo kwa madarasa ya awali chini ya Mtaala wa Umahiri wa Kenya. Maafisa wa elimu wapatao 60 na walimu takriban 100 wamefunzwa kutoa ufundishaji kwa Chidigo kwa darasa la kwanza hadi la tatu. Nyenzo zimeandaliwa kupitia ushirikiano na shirika la Bible Translation and Literacy. Hata hivyo, programu hiyo inakabiliwa na vikwazo: walimu wachache wanaweza kuandika Kidigo kwa ufasaha, ufundishaji kwa njia ya Chidigo hauendelei zaidi ya darasa la tatu, na Kiswahili na Kiingereza hutawala kuanzia darasa la nne na kuendelea. Matokeo yake ni kwamba watoto wanaanza elimu yao kwa lugha mama yao kisha kubadilika ghafla kwa lugha ambazo wengi bado hawajazijua.",
+      "dg": "Dzambo kulu kpwenye elimu ni kuikpwa kpwa kufundza kpwa luga ya mayo ya Chidigo kpwa madarasa ga mwandzo kpwenye Mtaala wa Umahiri wa Kenya. Maofisa a elimu kama 60 na alimu kama 100 akafundzwa kupha mafundzo ga Chidigo kula darasa ra kpwandza hadi ra hahu. Vitu vya kufundzira vikatengezwa kpwa kushirikiana na shirika ra Bible Translation and Literacy. Ela, programu hino inakutana na vikwazo: alimu achache anaweza kuandika Chidigo kpwa ufasaha, kufundza kpwa Chidigo takuenderera zaidi ya darasa ra hahu, na Chiswahili na Chingereza vinatawala kula darasa ra nne na kuenderera. Matokeo ga higo ni kukala ana anaandza elimu yao kpwa luga yao ya mayo chisha anagaluka gafula kuphiya luga ambazo anji ao taadzangbwezimanya."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Urbanization and Migration",
+      "sw": "Ukuaji wa Miji na Uhamaji",
+      "dg": "Kukula kpwa Midzi na Kutsama"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The Digo are not solely a rural people, though the rural character of Kwale County predominates. Ukunda's growth to nearly 78,000 residents marks a genuine urbanization trend, driven by the service economy around Diani Beach tourism. Mombasa absorbs Digo workers seeking employment in the port, manufacturing, and service sectors. Nairobi draws the more educated and ambitious. Remittances from these urban migrants form an important, if difficult to quantify, income stream for rural families.",
+      "sw": "Wadigo si watu wa mashambani peke yake, ingawa tabia ya vijijini ya Kaunti ya Kwale ndiyo inayotawala. Ukuaji wa Ukunda hadi wakazi karibu 78,000 unaonyesha mwenendo halisi wa ukuaji wa miji, unaosukumwa na uchumi wa huduma unaozunguka utalii wa Diani Beach. Mombasa inachukua wafanyakazi wa Kidigo wanaotafuta ajira katika bandari, viwanda, na sekta za huduma. Nairobi inavutia waliosoma zaidi na wenye tamaa. Fedha zinazotumwa na wahamaji hawa wa mijini ni mkondo muhimu wa mapato kwa familia za mashambani, ingawa ni vigumu kupima kiasi chake.",
+      "dg": "Adigo si atu a vidzidzini bahi, dzagbwe tabiya ya vidzidzi ya Kaunti ya Kwale ndiyo inayotawala. Kukula kpwa Ukunda hadi atu kama 78,000 kunaonyesa mwendo wa kpweli wa kukula kpwa midzi, unaosukumwa ni uchumi wa huduma unaozunguluka utalii wa Diani Beach. Mombasa inatsukula ahendakazi Adigo anaohendzera kazi kpwenye bandari, viwanda, na sekta za huduma. Nairobi inavutiya ariosoma zaidi na ario na tamaa. Pesa zinazohumwa ni atu ariotsama midzini ni mkondo muhimu wa mapato kpwa nyumba za vidzidzini, dzagbwe ni vigumu kupima chiasiche."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The urbanization pattern creates its own cultural dynamics. Urban Digo, particularly the young, are more likely to speak Swahili as their primary language, to adopt national rather than ethnic identities, and to maintain only ceremonial connections to the kaya system and traditional governance structures. This is not unique to the Digo — it is the universal pattern of urbanization across Kenya — but it carries particular weight for a community whose cultural identity is so deeply rooted in specific places, forests, and ancestral territories.",
+      "sw": "Muundo wa ukuaji wa miji huzalisha mienendo yake ya kitamaduni. Wadigo wa mijini, hasa vijana, wana uwezekano mkubwa zaidi wa kuzungumza Kiswahili kama lugha yao kuu, kukubali utambulisho wa kitaifa badala ya kikabila, na kudumisha uhusiano wa sherehe tu na mfumo wa kaya na miundo ya utawala wa jadi. Hii si ya kipekee kwa Wadigo — ni muundo wa kawaida wa ukuaji wa miji kote Kenya — lakini ina uzito wa pekee kwa jamii ambayo utambulisho wake wa kitamaduni umejikita sana katika maeneo mahususi, misitu, na maeneo ya mababu.",
+      "dg": "Muundo wa kukula kpwa midzi unareha mienendoye ya chitamaduni. Adigo a midzini, haswa adide, ana uwezekano mkpwulu zaidi wa kugomba Chiswahili dza luga yao ya kpwandza, kukubali utambulisho wa chitaifa badala ya chikabila, na kudumisha uhusiano wa sherehe bahi na mfumo wa kaya na miundo ya utawala wa kare. Hino si ya chipekee kpwa Adigo — ni muundo wa kawaida wa kukula kpwa midzi kosi Kenya — ela ina uzito wa chipekee kpwa jamii ambayo utambulishowe wa chitamaduni ukadzikita sana kpwenye seemu mahususi, matsaka, na seemu za akare."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Health: The Burden of Poverty",
+      "sw": "Afya: Mzigo wa Umaskini",
+      "dg": "Afya: Mzigo wa Uchiya"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The health profile of Kwale County reflects its poverty. The top causes of illness and death are malaria, diarrheal disease, respiratory infections, and flu — diseases that are largely preventable with adequate nutrition, clean water, and basic healthcare access. Severe malnutrition is widespread: 35 percent of children are stunted and 21 percent are underweight, figures that represent not isolated cases but a systemic failure to feed a generation adequately.",
+      "sw": "Hali ya afya ya Kaunti ya Kwale inaakisi umaskini wake. Sababu kuu za ugonjwa na kifo ni malaria, magonjwa ya kuhara, maambukizi ya njia ya hewa, na mafua — magonjwa ambayo kwa kiasi kikubwa yanaweza kuzuiwa kwa lishe bora, maji safi, na huduma za msingi za afya. Utapiamlo mkubwa umeenea: asilimia 35 ya watoto wamedumaa na asilimia 21 hawana uzito wa kutosha, takwimu zinazowakilisha si visa vya peke yake bali kushindwa kwa mfumo mzima kulisha kizazi kwa kutosha.",
+      "dg": "Hali ya afya ya Kaunti ya Kwale inaonyesa uchiyawe. Sababu kulu za ukongo na chifo ni malaria, fyokpwa, maambukizi ga njira ya hewa, na mafua — makongo ambago kpwa chiasi chikulu ganaweza kuhepwa kpwa lishe nono, madzi masafi, na huduma za msingi za afya. Utapiamlo mkpwulu ukaenea: asilimia 35 ya ana akadumaa na asilimia 21 taana uzito wa kutosha, takwimu zinazoonyesa si visa vya mmwenga-mmwenga ela kushindwa kpwa mfumo wosi kurisa chizazi kpwa kutosha."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Healthcare infrastructure has expanded significantly since devolution began in 2013, with facilities growing from 65 to over 170 across the county. Msambweni Referral Hospital has been upgraded and serves as the county's primary hospital. But distance to facilities remains a barrier in rural areas, specialist care requires travel to Mombasa, and the ratio of health workers to population remains far below national standards. Traditional medicine continues to play a central role: the *mganga* — the traditional healer who blends herbal knowledge with Islamic spiritual practice — is often the first point of contact for illness, and hospital visits may complement rather than replace traditional healing.",
+      "sw": "Miundombinu ya afya imepanuka kwa kiasi kikubwa tangu ugatuzi uanze mwaka 2013, huku vituo vikikua kutoka 65 hadi zaidi ya 170 kote kaunti. Hospitali ya Rufaa ya Msambweni imekarabatiwa na inatumika kama hospitali kuu ya kaunti. Lakini umbali wa vituo bado ni kikwazo katika maeneo ya mashambani, huduma za kitaalamu zinahitaji safari hadi Mombasa, na uwiano wa wafanyakazi wa afya kwa idadi ya watu bado uko chini sana ya viwango vya kitaifa. Dawa za jadi zinaendelea kuwa na nafasi muhimu: *mganga* — tabibu wa jadi anayechanganya maarifa ya mitishamba na mazoea ya kiroho ya Kiislamu — mara nyingi ndiye wa kwanza kuonwa wakati wa ugonjwa, na ziara hospitalini zinaweza kukamilisha badala ya kuchukua nafasi ya uponyaji wa jadi.",
+      "dg": "Miundombinu ya afya ikakula kpwa chiasi chikulu hangu ugatuzi uandze mwaka wa 2013, na vitsuo vikakula kula 65 hadi zaidi ya 170 kosi kaunti. Hospitali ya Rufaa ya Msambweni ikatengezwa tsona na inahumirwa dza hospitali kulu ya kaunti. Ela umbali wa vitsuo bado ni chikwazo kpwenye seemu za vidzidzini, huduma za chitaalamu zinahitaji safari hadi Mombasa, na uwiano wa ahendakazi a afya kpwa idadi ya atu bado u tsini sana ya viwango vya chitaifa. Dawa za kare zinaenderera kukala na nafasi muhimu: *mganga* — muphozi wa kare ambaye anatsanganya maarifa ga mitishamba na mazoea ga chiroho ga Chiislamu — mara nyinji ndiye wa kpwandza kuonwa wakati wa ukongo, na kuphiya hospitali kunaweza kukamilisha badala ya kutsukula nafasi ya uphozaji wa kare."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "The Cross-Border Community",
+      "sw": "Jamii ya Mpakani",
+      "dg": "Jamii ya Mphakani"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The international border between Kenya and Tanzania bisects Digo territory at Lunga Lunga-Horohoro, but it has never bisected Digo identity. Families maintain relationships across the border. Marriage ties are common. The Chidigo language is spoken on both sides without significant dialectal variation, though the Tanzanian Digo operate within a different national framework — one where Swahili has even greater dominance and where the political and economic structures differ markedly from Kenya's devolved county system. The border crossing at Lunga Lunga is busy with both formal trade and the informal movement of people who regard the boundary as a bureaucratic inconvenience rather than a meaningful division of their community.",
+      "sw": "Mpaka wa kimataifa kati ya Kenya na Tanzania unagawanya eneo la Wadigo katika Lunga Lunga-Horohoro, lakini haujawahi kugawanya utambulisho wa Wadigo. Familia zinadumisha mahusiano kuvuka mpaka. Uhusiano wa ndoa ni wa kawaida. Lugha ya Chidigo inazungumzwa pande zote mbili bila tofauti kubwa za lahaja, ingawa Wadigo wa Tanzania wanafanya kazi ndani ya mfumo tofauti wa kitaifa — ambapo Kiswahili kina utawala mkubwa zaidi na ambapo miundo ya kisiasa na kiuchumi inatofautiana sana na mfumo wa ugatuzi wa kaunti wa Kenya. Kivuko cha mpaka katika Lunga Lunga kina shughuli nyingi za biashara rasmi na pia harakati zisizo rasmi za watu wanaochukulia mpaka kuwa usumbufu wa kiutawala badala ya mgawanyo wenye maana wa jamii yao.",
+      "dg": "Mphaka wa chimataifa kahi ya Kenya na Tanzania unaganya seemu ya Adigo ko Lunga Lunga-Horohoro, ela taudzangbweganya utambulisho wa Adigo. Nyumba zinadumisha mahusiano kuvuka mphaka. Uhusiano wa ndowa ni wa kawaida. Luga ya Chidigo inagombwa pande zosi mbiri bila tafwauti kulu za lahaja, dzagbwe Adigo a Tanzania anahenda kazi ndani ya mfumo tafwauti wa chitaifa — ambapho Chiswahili china utawala mkpwulu zaidi na ambapho miundo ya chisiasa na chiuchumi inatafwautiana sana na mfumo wa ugatuzi wa kaunti wa Kenya. Chivuko cha mphaka ko Lunga Lunga china shughuli nyinji za biashara rasmi na piya mwendo usio rasmi wa atu anaoona mphaka kukala usumbufu wa chiutawala badala ya mgawanyo wenye mana wa jamii yao."
+    },
+    {
+      "id": "b023",
+      "type": "heading",
+      "en": "The Generational Divide",
+      "sw": "Mgawanyiko wa Vizazi",
+      "dg": "Mgawanyo wa Vizazi"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "With nearly four out of five residents under 34, the generational divide is the most consequential fault line in Digo demographics. Older Digo speak Chidigo as their primary language, participate in kaya ceremonies, and maintain the matrilineal customs and traditional practices that have defined the community for centuries. Younger Digo gravitate toward Swahili, English, and Sheng — the urban slang that is the lingua franca of Kenyan youth. Traditional practices like the *sengenya* puberty rites are less familiar to young people. Digital life — WhatsApp, Facebook, TikTok — is the primary form of cultural engagement for the connected young, though rural internet access remains very low at approximately 13.7 percent. The question of whether the young will carry forward the cultural identity their elders hold is not rhetorical. It is the demographic reality that will determine the future of the Digo as a distinct people.",
+      "sw": "Kwa karibu wanne kati ya watano wakazi walio chini ya miaka 34, mgawanyiko wa vizazi ndio mstari muhimu zaidi wa mivutano katika idadi ya watu wa Wadigo. Wadigo wakubwa huzungumza Chidigo kama lugha yao kuu, hushiriki katika sherehe za kaya, na kudumisha desturi za ukoo wa mama na mazoea ya jadi ambayo yamefafanua jamii kwa karne nyingi. Wadigo vijana wanavutiwa na Kiswahili, Kiingereza, na Sheng — lugha ya mtaani ambayo ni lugha ya kawaida ya vijana wa Kenya. Mazoea ya jadi kama mila ya *sengenya* ya kubalehe hayajulikani sana kwa vijana. Maisha ya kidijitali — WhatsApp, Facebook, TikTok — ndiyo aina kuu ya ushiriki wa kitamaduni kwa vijana waliounganishwa, ingawa ufikiaji wa intaneti mashambani bado ni mdogo sana kwa takriban asilimia 13.7. Swali la kama vijana watabeba mbele utambulisho wa kitamaduni ambao wazee wao wanashikilia si la kubembeleza. Ni ukweli wa idadi ya watu ambao utaamua mustakabali wa Wadigo kama watu tofauti.",
+      "dg": "Kpwa kukala atu ane kahi ya atsano ni a tsini ya miaka 34, mgawanyo wa vizazi ndio mstari muhimu zaidi wa mivutano kpwenye idadi ya atu a Adigo. Adigo akulu anagomba Chidigo dza luga yao ya kpwandza, anashiriki kpwenye sherehe za kaya, na anadumisha desturi za fuko na mazoea ga kare ambago gakatengeza jamii kpwa karne nyinji. Adigo adide anavutiwa ni Chiswahili, Chingereza, na Sheng — luga ya midzini ambayo ni luga ya kawaida ya adide a Kenya. Mazoea ga kare dza mila ya *sengenya* ya kufikira ukulu tagamanyikana sana ni adide. Maisha ga chidijitali — WhatsApp, Facebook, TikTok — ndiyo njira kulu ya kushiriki kpwa chitamaduni kpwa adide ariounganishwa, dzagbwe kuphaha intaneti vidzidzini bado ni kuchache sana kpwa kama asilimia 13.7. Swali ra kukala adide andatsukula mbere utambulisho wa chitamaduni ambao akare ao anagbwira si ra kubembeleza. Ni ukpweli wa idadi ya atu ambao undaamuwa mustakabali wa Adigo dza atu a tafwauti."
+    }
+  ]
+}

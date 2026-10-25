@@ -1,0 +1,162 @@
+{
+  "id": "culture/connections/kinship-differences",
+  "title": {
+    "en": "Kenyan and Tanzanian Digo",
+    "sw": "Wadigo wa Kenya na Tanzania",
+    "dg": "Adigo a Kenya na Tanzania"
+  },
+  "intro": {
+    "en": "When the colonial border divided the Digo in 1886, it set two halves of a single community on divergent historical paths. For over a century, Kenyan Digo and Tanzanian Digo have lived under different…",
+    "sw": "Mpaka wa kikoloni ulipogawa Wadigo mwaka 1886, uliweka nusu mbili za jamii moja kwenye njia tofauti za kihistoria. Kwa zaidi ya karne moja, Wadigo wa Kenya na Wadigo wa Tanzania wameishi chini ya…",
+    "dg": "Mphaka wa chikoloni uriphoganya Adigo mwaka 1886, waika nusu mbiri za jamii mwenga kpwa njira za tafwauti za chihistoria. Kpwa zaidi ya miaka mia mwenga, Adigo a Kenya na Adigo a Tanzania aishi photsi pha…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "One People, Two Paths",
+      "sw": "Watu Mmoja, Njia Mbili",
+      "dg": "Atu Amwenga, Njira Mbiri"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "When the colonial border divided the Digo in 1886, it set two halves of a single community on divergent historical paths. For over a century, Kenyan Digo and Tanzanian Digo have lived under different governments, been shaped by different national ideologies, and responded to different pressures. The result is not two separate peoples — the shared language, faith, and kinship ensure that — but two distinct expressions of the same cultural heritage, each bearing the marks of its particular national context. Understanding these differences is essential to understanding the Digo as a whole, because what has changed illuminates what has endured, and what has endured reveals what is most fundamental to Digo identity.",
+      "sw": "Mpaka wa kikoloni ulipogawa Wadigo mwaka 1886, uliweka nusu mbili za jamii moja kwenye njia tofauti za kihistoria. Kwa zaidi ya karne moja, Wadigo wa Kenya na Wadigo wa Tanzania wameishi chini ya serikali tofauti na kuathiriwa na itikadi tofauti za kitaifa. Matokeo si watu wawili tofauti — lugha inayoshirikiwa, imani, na ukoo vinahakikisha hilo — bali ni maonyesho mawili tofauti ya urithi wa kitamaduni sawa.",
+      "dg": "Mphaka wa chikoloni uriphoganya Adigo mwaka 1886, waika nusu mbiri za jamii mwenga kpwa njira za tafwauti za chihistoria. Kpwa zaidi ya miaka mia mwenga, Adigo a Kenya na Adigo a Tanzania aishi photsi pha serikali za tafwauti na kuathiriwa ni itikadi za tafwauti za chitaifa. Matokeo si jamii mbiri za tafwauti — luga inayoshirikiwa, imani, na ukoo vinahakikisha riro — ela ni maonyesho mairi ga tafwauti ga urithi wa chimila uo-uo."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Matriliny: The Deepest Divergence",
+      "sw": "Ukoo wa Mama: Tofauti ya Kina Zaidi",
+      "dg": "Ukoo wa Nine: Tafwauti ya Kina Zaidi"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The most significant difference between Kenyan and Tanzanian Digo lies in the kinship system. Kenyan Digo maintain a strongly matrilineal tradition — descent, inheritance, and clan membership are traced through the mother's line. A child belongs to the mother's clan. Property and authority pass through maternal connections. The *mjomba* — the mother's brother — holds a position of particular importance, often exercising more authority over a child's upbringing and inheritance than the biological father. This system places women at the structural centre of Digo society, even in a context where men hold many public positions of authority.",
+      "sw": "Tofauti muhimu zaidi ipo katika mfumo wa ukoo. Wadigo wa Kenya wanadumisha mila ya ukoo wa mama yenye nguvu — uzao, urithi, na uanachama wa ukoo vinafuatwa kupitia mama. Mtoto ni wa ukoo wa mama. Wadigo wa Tanzania, kinyume chake, wanaonekana kubadilika kuelekea mfumo wa pande mbili, wakifuatia urithi kupitia mistari ya baba na mama.",
+      "dg": "Tafwauti muhimu zaidi ipho kpwa mfumo wa ukoo. Adigo a Kenya anadumisha chimila cha ukoo wa nine chenye nguvu — uzao, urithi, na uanachama wa ukoo vinalungwa kutsupira nine. Mwana ni wa ukoo wa nine. Adigo a Tanzania, chinyume chakpwe, anaonekana kubadilika kuelekea mfumo wa phande mbiri, achilunga urithi kutsupira mistari ya baba na nine."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Tanzanian Digo, by contrast, appear to have shifted toward a more bilateral system. Research indicates that, contrary to the Digo of Kenya, the Tanzanian Digo may not be solely matrilineal; they trace their heritage through both the male and the female lines. This is a profound shift — not merely a change in inheritance rules, but a restructuring of how family, obligation, and identity are understood at the most fundamental level.",
+      "sw": "Maelezo yanayowezekana zaidi ya tofauti hii ni mpango wa vijiji vya ujamaa wa Tanzania, uliotekelezwa chini ya Rais Nyerere kati ya 1967 na 1985. Mchakato wa vijiji ulivuruga mifumo ya jadi ya makazi iliyoendeleza mitandao ya ukoo wa mama. Wadigo wa Kenya hawakupata usumbufu sawa — mfumo wa ukoo wa mama uliendelea Kwale kwa sababu hakuna kilichotokea kuuharibu.",
+      "dg": "Maelezo ganagowezekana zaidi ga tafwauti hino ni mpango wa vidzidzi vya ujamaa wa Tanzania, uriotekelezwa photsi pha Rais Nyerere kahi ya 1967 na 1985. Mchakato wa vidzidzi wavuruga mifumo ya jadi ya makazi iriyorinda mitandao ya ukoo wa nine. Adigo a Kenya taaphaha usumbufu sawa — mfumo wa ukoo wa nine waenderera Kwale kpwa sababu taphana chochosi chirichozuka kuubananga."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Ujamaa Factor",
+      "sw": "Lahaja, Dini, na Mitazamo",
+      "dg": "Lahaja, Dini, na Mitazamo"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The most likely explanation for this divergence is Tanzania's ujamaa villagization programme, implemented under President Julius Nyerere between 1967 and 1985. Ujamaa — Swahili for \"familyhood\" — was a socialist experiment in communal living that reorganized rural Tanzania. Villages were collectivized, populations were sometimes forcibly relocated, and the national ideology explicitly promoted Tanzanian identity over ethnic or clan-based identity.",
+      "sw": "Chidigo kinachozungumzwa Kenya na Tanzania kinabaki kinachoelewana — lakini tofauti za lahaja zimeibuka. Wadigo wa Kenya wanakopa kwa uhuru zaidi kutoka Kiingereza, wakati Wadigo wa Tanzania wanatumia zaidi Kiswahili sanifu. Wadigo wote ni Waislamu hasa, na Uislamu unatumika kama nguvu ya kuunganisha yenye nguvu. Lakini mazingira tofauti ya kisiasa yanaumba jinsi dini inavyojidhihirisha katika maisha ya umma.",
+      "dg": "Chidigo chinachogombwa Kenya na Tanzania chinasala chinachoelewana — ela tafwauti za lahaja zikazuka. Adigo a Kenya anakopa kpwa uhuru zaidi kula Chingereza, wakati Adigo a Tanzania anahumira zaidi Chiswahili sanifu. Adigo osi kpwa unji ni Aislamu, na Uislamu unahumirwa dza nguvu ya kuunganisha yenye nguvu. Ela mazingira ga chisiasa ga tafwauti ganaumba njira dini inavyodzionyesa kpwa maisha ga hadharani."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "For the Digo, ujamaa's impact was felt at the level of the clan. The villagization process disrupted the traditional settlement patterns that had sustained matrilineal kinship networks. When families were moved to planned villages, the physical proximity of maternal kin — the daily contact between mothers, daughters, and sisters that makes matriliny a lived practice rather than an abstract principle — was disrupted. The clan structures that organized inheritance and mutual obligation were weakened by a state that saw them as obstacles to national unity.",
+      "sw": "Kinachoendelea ni chenye nguvu zaidi kuliko kilichobadilika. Lugha ya Chidigo, Uislamu, vyakula vya nazi, mila za sherehe — hizi ni vitu visivyobadilika ambavyo hakuna mpaka wa kisiasa na hakuna itikadi ya kitaifa imeweza kubadilisha. Wadigo wanabaki watu mmoja wanaoishi matoleo mawili ya maisha sawa ya kitamaduni.",
+      "dg": "Chinachoenderera ni chenye nguvu zaidi kuriko chirichobadilika. Luga ya Chidigo, Uislamu, vyakurya vya nazi, mila za sherehe — hivi ni vitu visivyobadilika ambavyo taphana mphaka wa chisiasa na taphana itikadi ya chitaifa iriyoweza kuvibadilisha. Adigo anasala atu amwenga anaoishi matoleo mairi ga maisha ga chimila go-go."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Kenyan Digo experienced no equivalent disruption. Kenya's post-independence government under Jomo Kenyatta pursued a capitalist development model that, while transformative in many ways, did not directly target clan-based social organization. Kenyan ethnic groups were, in some respects, encouraged to maintain their distinct identities — ethnicity became a key organizing principle of Kenyan politics, for better and for worse. The matrilineal system survived in Kwale because nothing happened to destroy it. In Tanzania, something did.",
+      "sw": "Adigo wa Kenya hawakupitia usumbufu wa aina hiyo. Serikali ya Kenya baada ya uhuru chini ya Jomo Kenyatta ilifuata mfumo wa maendeleo ya kibepari ambao, ingawa ulibadilisha mambo mengi, haukulenga moja kwa moja shirika la kijamii la ukoo. Makabila ya Kenya, kwa namna fulani, yalihimizwa kudumisha utambulisho wao tofauti — ukabila ukawa kanuni kuu ya kuandaa siasa za Kenya, kwa bora na kwa mbaya. Mfumo wa uzazi wa upande wa mama uliendelea kuishi Kwale kwa sababu hakuna kitu kilichotokea kukiangamiza. Nchini Tanzania, kitu fulani kilitokea.",
+      "dg": "Adigo a Kenya taatsupira usumbufu wa aina iyo. Serikali ya Kenya bada ya uhuru tsini ya Jomo Kenyatta yalungira mfumo wa maendeleo ga chibepari ambao, ingawa wabadilisha mambo manji, taulenga mwenga kpwa mwenga shirika ra chidzamii ra fuko. Makabila ga Kenya, kpwa namna fulani, gahimizwa kudumisha utambuzi wao wa tafwauti — ukabila ukakala kanuni kulu ya kuandaa siasa za Kenya, kpwa bora na kpwa mbaya. Mfumo wa uzazi wa uphande wa mayo wasala uzima kpwa Kwale kpwa sababu taphana chitu chirichozuka kuuangamiza. Kpwa Tanzania, chitu fulani chazuka."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Dialect and Language",
+      "sw": "Lahaja na Lugha",
+      "dg": "Lahaja na Luga"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The Chidigo spoken in Kenya and the Chidigo spoken in Tanzania remain mutually intelligible — a Digo from either side of the border can understand a Digo from the other without difficulty. But decades of separation have produced dialectal differences that any speaker will notice. Vocabulary has diverged where the two communities have adopted different loanwords: Kenyan Digo borrows more freely from English, while Tanzanian Digo draws more heavily on standard Swahili. Pronunciation patterns show subtle variation. Certain grammatical constructions that are common on one side may be less frequent or differently inflected on the other.",
+      "sw": "Chidigo kinachozungumzwa Kenya na Chidigo kinachozungumzwa Tanzania bado vinaelewana — Mdigo kutoka upande wowote wa mpaka anaweza kumwelewa Mdigo kutoka upande mwingine bila ugumu. Lakini miongo kadhaa ya kutengana imetoa tofauti za kilahaja ambazo msemaji yeyote ataona. Msamiati umetofautiana ambapo jamii hizi mbili zimechukua maneno tofauti ya kukopwa: Adigo wa Kenya wanakopa kwa uhuru zaidi kutoka Kiingereza, wakati Adigo wa Tanzania wanategemea zaidi Kiswahili sanifu. Mifumo ya matamshi inaonyesha tofauti ndogo. Miundo fulani ya kisarufi ambayo ni ya kawaida upande mmoja inaweza kuwa ya nadra au kunyumbulishwa tofauti upande mwingine.",
+      "dg": "Chidigo chinachogombwa Kenya na Chidigo chinachogombwa Tanzania bado vinaelewana — Mudigo kula uphande wowosi wa mphaka anaweza kumuelewa Mudigo kula uphande wanjina bila ugumu. Ela miongo kadhaa ya kutengana ikareha tafwauti za chilahaja ambazo mutu yeyesi anayegomba Chidigo andaziona. Msamiati ukabadilika ambapho jamii hizi mbiri zikahala maneno ga kukopwa ga tafwauti: Adigo a Kenya anakopa kpwa uhuru zaidi kula Chingereza, wakati Adigo a Tanzania anakuluphira zaidi Chiswahili sanifu. Mifumo ya matamshi inaonyesa tafwauti ndide. Miundo fulani ya chisarufi ambayo ni ya kawaida uphande mumwenga inaweza kukala ya nadra au kunyumbulishwa kpwa tafwauti uphande wanjina."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "These differences are reinforced by the two countries' different language policies. In Tanzania, Swahili is the undisputed national language and the medium of instruction in primary schools. This creates strong pressure toward Swahili dominance, and Chidigo, like other minority languages in Tanzania, operates in the shadow of a national language that commands much greater prestige and institutional support. In Kenya, while Swahili is also a national language, English plays a more prominent role in education and public life, and the relationship between Chidigo and the dominant languages is configured differently. The net effect is that Tanzanian Digo may be, on average, more thoroughly bilingual in Swahili, while Kenyan Digo navigate a more complex trilingual landscape of Chidigo, Swahili, and English.",
+      "sw": "Tofauti hizi zinaimarishwa na sera tofauti za lugha za nchi hizo mbili. Nchini Tanzania, Kiswahili ni lugha ya taifa isiyopingwa na ni lugha ya kufundishia katika shule za msingi. Hii inaleta shinikizo kubwa kuelekea utawala wa Kiswahili, na Chidigo, kama lugha nyingine za wachache nchini Tanzania, kinafanya kazi chini ya kivuli cha lugha ya taifa inayoamuru heshima na msaada wa kitaasisi mkubwa zaidi. Nchini Kenya, ingawa Kiswahili pia ni lugha ya taifa, Kiingereza kina jukumu kubwa zaidi katika elimu na maisha ya umma, na uhusiano kati ya Chidigo na lugha zinazotawala umepangwa tofauti. Matokeo yake ni kwamba Adigo wa Tanzania wanaweza kuwa, kwa wastani, wenye ujuzi zaidi wa lugha mbili katika Kiswahili, wakati Adigo wa Kenya wanapitia mandhari ngumu zaidi ya lugha tatu ya Chidigo, Kiswahili, na Kiingereza.",
+      "dg": "Tafwauti zizi zinaimizwa ni sera za luga za tafwauti za tsi zizo mbiri. Kpwa Tanzania, Chiswahili ni luga ya chitaifa isiyopingwa na ni luga ya kufundzira kahi ya shule za msingi. Ihi inareha mashinikizo makulu kuelekea utawala wa Chiswahili, na Chidigo, dza luga zanjina za achache kpwa Tanzania, chinahenda kazi tsini ya chivuli cha luga ya chitaifa yenye hishima na msada wa chitaasisi mkpwulu zaidi. Kpwa Kenya, ingawa Chiswahili piya ni luga ya chitaifa, Chingereza china jukumu kulu zaidi kahi ya elimu na maisha ga uma, na uhusiano wa Chidigo na luga zinazotawala ukapangwa kpwa tafwauti. Matokeoge ni kukala Adigo a Tanzania anaweza kukala, kpwa wastani, enye ujuzi zaidi wa luga mbiri kahi ya Chiswahili, wakati Adigo a Kenya anatsupira mandhari ngumu zaidi ya luga tahu ya Chidigo, Chiswahili, na Chingereza."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Religious Practice",
+      "sw": "Mazoezi ya Kidini",
+      "dg": "Mazoezi ga Chidini"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Both Kenyan and Tanzanian Digo are predominantly Muslim, and Islam serves as a powerful unifying force across the border. The shared faith provides a common calendar, a common set of moral principles, and a common vocabulary for discussing questions of ethics, family, and community life. Eid celebrations, Maulidi observances, and the daily rhythm of the five prayers structure life on both sides in fundamentally similar ways.",
+      "sw": "Adigo wa Kenya na Tanzania wote ni Waislamu kwa wingi, na Uislamu unatumika kama nguvu kubwa ya kuunganisha kuvuka mpaka. Imani ya pamoja inatoa kalenda ya pamoja, kanuni za pamoja za maadili, na msamiati wa pamoja wa kujadili maswali ya maadili, familia, na maisha ya jamii. Sherehe za Idi, matukio ya Maulidi, na mdundo wa kila siku wa sala tano vinaunda maisha pande zote mbili kwa njia zinazofanana kimsingi.",
+      "dg": "Adigo a Kenya na Tanzania osi ni Aislamu kpwa unji, na Uislamu unahudumiya dza nguvu kulu ya kuunganisha kuvuka mphaka. Imani ya phamwenga inapha kalenda ya phamwenga, kanuni za phamwenga za maadili, na msamiati wa phamwenga wa kujadiliya maswali ga maadili, nyumba, na maisha ga jamii. Sherehe za Idi, matukio ga Maulidi, na mdundo wa chila siku wa swala tsano vinaunda maisha phande zosi mbiri kpwa njira zinazofanana chiasili."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Yet religious practice is not identical across the border. Tanzania's secular state tradition, rooted in Nyerere's vision of a non-sectarian nation, has created a context in which religious identity, like ethnic identity, is expressed somewhat differently than in Kenya. Kenya's more pluralistic political landscape has allowed for more visible religious assertion — Muslim political organizations, Islamic education institutions, and religiously inflected public discourse are more prominent features of Kenyan coastal life than of their Tanzanian equivalents. The religion is the same, but the political environment in which it is practised shapes how it manifests in public life.",
+      "sw": "Hata hivyo mazoezi ya kidini si sawa kabisa kuvuka mpaka. Mila ya serikali ya kilimwengu ya Tanzania, iliyojikita katika maono ya Nyerere ya taifa lisilo la kidhehebu, imeunda muktadha ambapo utambulisho wa kidini, kama utambulisho wa kikabila, unaonyeshwa kwa namna tofauti kidogo kuliko Kenya. Mandhari ya kisiasa ya Kenya yenye wingi zaidi imeruhusu madai ya kidini yanayoonekana zaidi — mashirika ya kisiasa ya Kiislamu, taasisi za elimu ya Kiislamu, na mazungumzo ya umma yenye rangi ya kidini ni sifa zinazojulikana zaidi za maisha ya pwani ya Kenya kuliko za Tanzania. Dini ni iyo hiyo, lakini mazingira ya kisiasa ambayo inatekelezwa ndani yake yanaumba jinsi inavyojidhihirisha katika maisha ya umma.",
+      "dg": "Ela mazoezi ga chidini si sawa kabisa kuvuka mphaka. Mila ya serikali ya chilimwengu ya Tanzania, iriyodzikira kahi ya maono ga Nyerere ga taifa risiro ra chidhehebu, ikaunda muktadha ambamo utambuzi wa chidini, dza utambuzi wa chikabila, unaonyeswa kpwa namna ya tafwauti chidide na ya Kenya. Mandhari ya chisiasa ya Kenya yenye unji zaidi ikaruhusu madai ga chidini ganagoonekana zaidi — mashirika ga chisiasa ga Chiislamu, taasisi za elimu ya Chiislamu, na mazungumzo ga uma genye rangi ya chidini ni sifa zinazomanyika zaidi za maisha ga pwani ya Kenya kuriko za Tanzania. Dini ni iyo-iyo, ela mazingira ga chisiasa ambago inatekelezwa ndaniye ganaunda njira inavyodzionyesa kahi ya maisha ga uma."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Perceptions Across the Border",
+      "sw": "Mitazamo Kuvuka Mpaka",
+      "dg": "Mitazamo Kuvuka Mphaka"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "How do Kenyan and Tanzanian Digo perceive each other? The question is delicate, and generalization is risky, but certain patterns emerge from the cross-border interactions that are a constant feature of Digo life. Kenyan Digo sometimes view their Tanzanian counterparts as more traditionally conservative, less influenced by the rapid modernization that has transformed Kwale County through tourism development and proximity to Mombasa. Tanzanian Digo may perceive the Kenyan Digo as more assertive in their ethnic identity, more willing to claim Digo-ness as a political and cultural marker — a tendency that the Kenyan political system, with its ethnic arithmetic, actively rewards.",
+      "sw": "Adigo wa Kenya na Tanzania wanaonana vipi? Swali hilo ni la hila, na jumla ni ya hatari, lakini mifumo fulani inaibuka kutoka mwingiliano wa kuvuka mpaka ambao ni sifa ya kudumu ya maisha ya Kidigo. Adigo wa Kenya wakati mwingine wanawaona wenzao wa Tanzania kuwa wa kimapokeo zaidi, wasio na ushawishi mkubwa wa kisasa cha haraka ambacho kimebadilisha Kaunti ya Kwale kupitia maendeleo ya utalii na ukaribu na Mombasa. Adigo wa Tanzania wanaweza kuwaona Adigo wa Kenya kuwa wenye ujasiri zaidi katika utambulisho wao wa kikabila, wenye nia zaidi ya kudai Udigo kama alama ya kisiasa na kitamaduni — mwelekeo ambao mfumo wa kisiasa wa Kenya, na hesabu yake ya kikabila, unautunza kikamilifu.",
+      "dg": "Adigo a Kenya na Tanzania anaonana viphi? Swali riro ni ra hila, na jumla ni ya hatari, ela mifumo fulani inadzionyesa kula mwingiliano wa kuvuka mphaka ambao ni sifa ya kudumu ya maisha ga Adigo. Adigo a Kenya wakati wanjina anaona adzao a Tanzania kukala a chimapokeo zaidi, asio na ushawishi mkpwulu wa chisasa cha haraka ambacho chikabadilisha Kaunti ya Kwale kutsupira maendeleo ga utalii na uphephi na Mombasa. Adigo a Tanzania anaweza kuona Adigo a Kenya kukala enye ujasiri zaidi kahi ya utambuzi wao wa chikabila, enye nia zaidi ya kudai Udigo dza alama ya chisiasa na chimila — mwelekeo ambao mfumo wa chisiasa wa Kenya, na hesabuye ya chikabila, unautunza kpwa nguvu."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Both communities tend to express surprise at how much they share despite the decades of separation. The recognition is immediate and genuine — the shared language, the shared food, the shared faith create an instant bond that cuts through the differences created by national context. A Digo wedding in Mkinga would be recognizable to a guest from Msambweni: the chakacha dancing, the coconut rice, the Islamic prayers, the complex negotiations between families — all of these would be familiar, even if certain details differ.",
+      "sw": "Jamii zote mbili zinakuwa na mshangao kwa kiasi gani wanashiriki licha ya miongo ya kutengana. Utambuzi ni wa papo hapo na wa kweli — lugha ya pamoja, chakula cha pamoja, imani ya pamoja vinazalisha uhusiano wa papo hapo unaopita tofauti zilizoundwa na muktadha wa kitaifa. Harusi ya Kidigo huko Mkinga ingetambuliwa na mgeni kutoka Msambweni: ngoma ya chakacha, wali wa nazi, sala za Kiislamu, mazungumzo magumu kati ya familia — yote haya yangekuwa ya kawaida, hata kama maelezo fulani yanatofautiana.",
+      "dg": "Jamii zosi mbiri zinakala na mshangao kpwa chiasi anachoshirikiya hata bada ya miongo ya kutengana. Utambuzi ni wa pho-pho na wa kpweli — luga ya phamwenga, chakurya cha phamwenga, imani ya phamwenga vinazalisha uhusiano wa pho-pho unaotsupa tafwauti zirizoundwa ni muktadha wa chitaifa. Mjeni kula Msambweni achiphiya arusi ya Chidigo kpwa Mkinga andaimanya: ngoma ya chakacha, wari wa nazi, swala za Chiislamu, mazungumzo magumu kahi ya nyumba — gosi iga gandakala ga kawaida, hata dza maelezo fulani ganatafwautiana."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "What Endures",
+      "sw": "Kinachoendelea Kudumu",
+      "dg": "Chirienderera Kudumu"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The differences between Kenyan and Tanzanian Digo are real and should not be minimized. A shift from matriliny to bilaterality is not a minor adjustment — it reshapes family structure, inheritance patterns, gender relations, and the fundamental question of where a person belongs. Dialect differences, while not barriers to communication, mark the two communities as distinct variants of a shared tradition. The different political environments have produced different strategies for maintaining ethnic identity.",
+      "sw": "Tofauti kati ya Adigo wa Kenya na Tanzania ni za kweli na hazipaswi kupunguzwa. Kubadilika kutoka urithi wa upande wa mama hadi upande wa pande mbili si marekebisho madogo — kunabadilisha muundo wa familia, mifumo ya urithi, uhusiano wa kijinsia, na swali la msingi la mahali ambapo mtu anamilikiwa. Tofauti za kilahaja, ingawa si vikwazo vya mawasiliano, vinaweka jamii hizo mbili kama toleo tofauti za mila ya pamoja. Mazingira tofauti ya kisiasa yametoa mikakati tofauti ya kudumisha utambulisho wa kikabila.",
+      "dg": "Tafwauti kahi ya Adigo a Kenya na Tanzania ni za kpweli na tazifwaha kuphungulwa. Kubadilika kula urithi wa uphande wa mayo hadi urithi wa phande mbiri si marekebisho madide — kunabadilisha muundo wa nyumba, mifumo ya urithi, uhusiano wa achetu na alume, na swali ra msingi ra mutu ni wa ukoo uphi. Tafwauti za chilahaja, ingawa si vizuizi vya mawasiliano, zinaika jamii hizo mbiri dza matoleo mairi ga tafwauti ga mila ya phamwenga. Mazingira ga chisiasa ga tafwauti gareha mikakati ya tafwauti ya kudumisha utambuzi wa chikabila."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "But what endures is more powerful than what has changed. The Chidigo language, in all its variations, remains the mother tongue of both communities. Islam provides a shared spiritual framework. The coconut-based cuisine, the ceremonial traditions, the attachment to the coastal landscape — these are constants that no political border and no national ideology has been able to alter. The Digo remain one people living two versions of the same cultural life, and their differences, like the differences between siblings raised in different households, only underscore the family resemblance that makes them recognizably, irreducibly, the same.",
+      "sw": "Lakini kinachoendelea kudumu kina nguvu zaidi ya kilichobadilika. Lugha ya Chidigo, kwa mabadiliko yake yote, inabaki kuwa lugha mama ya jamii zote mbili. Uislamu unatoa mfumo wa pamoja wa kiroho. Vyakula vya nazi, mila za sherehe, kushikamana na mandhari ya pwani — hizi ni vitu vya kudumu ambavyo hakuna mpaka wa kisiasa wala itikadi ya kitaifa iliyoweza kubadilisha. Adigo wanabaki watu wamoja wanaoishi toleo mbili za maisha sawa ya kitamaduni, na tofauti zao, kama tofauti kati ya ndugu waliolelewa katika nyumba tofauti, zinasisitiza tu ufanano wa kifamilia unaowafanya watambulike, bila kubadilika, kuwa watu wale wale.",
+      "dg": "Ela chirienderera kudumu china nguvu zaidi kuriko chirichobadilika. Luga ya Chidigo, kpwa mabadilikoge gosi, inasala kukala luga ya mayo ya jamii zosi mbiri. Uislamu unapha mfumo wa phamwenga wa chiroho. Vyakurya vya nazi, mila za sherehe, kushikamana na mandhari ya pwani — hivi ni vitu vya kudumu ambavyo taphana mphaka wa chisiasa wala itikadi ya chitaifa iriyoweza kuvibadilisha. Adigo anasala atu amwenga anaoishi matoleo mairi ga maisha ga chimila go-go, na tafwauti zao, dza tafwauti kahi ya ndugu ariorerwa kahi ya nyumba za tafwauti, zinasisitiza bahi ufanano wa chinyumba unaoahenda atambulike, bila kubadilika, kukala atu aho-aho."
+    }
+  ]
+}

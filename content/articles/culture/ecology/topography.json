@@ -1,0 +1,162 @@
+{
+  "id": "culture/ecology/topography",
+  "title": {
+    "en": "The Four Zones of Digo Territory",
+    "sw": "Maeneo Manne ya Nchi ya Wadigo",
+    "dg": "Maeneo Mane ga Tsi ya Adigo"
+  },
+  "intro": {
+    "en": "Kwale County, the heartland of the Digo people, contains within its 8,270 square kilometres a degree of ecological diversity that defies its modest size. The county stretches from the Indian Ocean…",
+    "sw": "Kaunti ya Kwale, moyo wa nchi ya Wadigo, inashikilia ndani ya kilometa zake za mraba 8,270 aina ya utofauti wa kiikolojia inayopinga ukubwa wake mdogo. Kaunti inasogea kutoka ufukweni mwa Bahari ya…",
+    "dg": "Kaunti ya Kwale, moyo wa tsi ya Adigo, ina ndani ya kilometaze za mraba 8,270 tafwauti nyinji za chiikolojia zisizolingana na ukuluwe mdide. Kaunti inaenea kula pwani ya Bahari ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Land of Contrasts",
+      "sw": "Nchi ya Tofauti",
+      "dg": "Tsi ya Tafwauti"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Kwale County, the heartland of the Digo people, contains within its 8,270 square kilometres a degree of ecological diversity that defies its modest size. The county stretches from the Indian Ocean shoreline westward into the continental interior, and as it does, it passes through four distinct topographical zones — each with its own elevation, soil type, vegetation, rainfall pattern, and economic logic. These zones are not administrative abstractions. They are lived realities that determine what a family can grow, how much water they can access, whether they fish or farm or herd, and how they understand their relationship to the land. To know which zone a Digo family inhabits is to know much about how they live.",
+      "sw": "Kaunti ya Kwale, moyo wa nchi ya Wadigo, inashikilia ndani ya kilometa zake za mraba 8,270 aina ya utofauti wa kiikolojia inayopinga ukubwa wake mdogo. Kaunti inasogea kutoka ufukweni mwa Bahari ya Hindi kuelekea bara, na inapopita, inapitia maeneo manne tofauti ya kijiografia — kila moja na mwinuko wake, udongo wake, mimea yake, na mantiki yake ya kiuchumi.",
+      "dg": "Kaunti ya Kwale, moyo wa tsi ya Adigo, ina ndani ya kilometaze za mraba 8,270 tafwauti nyinji za chiikolojia zisizolingana na ukuluwe mdide. Kaunti inaenea kula pwani ya Bahari ya Hindi kuphiya bara, na ichiphiya, inatsupa maeneo mane tafwauti ga chijiografia — chila eneo na mwinukowe, ulongowe, mimeraye, mvulaye, na mantikiye ya chiuchumi. Maeneo iga si mawazo ga chiutawala bahi. Ni hali za kpweli za maisha zinazoamua mimera ambayo mbari inaweza kurima, chiasi cha madzi inachoweza kuphaha, kukala inavua ng'onda, inarima au inafuga, na njira inavyouona uhusianowe na tsi. Kumanya eneo ambaro mbari ya Chidigo inaishi ni kumanya manji kuhusu njira inavyoishi."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The four zones ascend from east to west like a series of steps rising from the ocean: the coastal plain, the foot plateau, the Shimba Hills uplands, and the Nyika Plateau. Each step brings a change in altitude, a shift in rainfall, and a transformation in the landscape so thorough that a traveller moving from Diani Beach to the western reaches of Kwale might reasonably wonder whether they had crossed into a different country altogether.",
+      "sw": "**Uwanda wa Pwani** ni ukanda mwembamba wa fukwe za mchanga mweupe unaoenea kilometa 250 kando ya Bahari ya Hindi. Hapa ndipo Diani Beach, Tiwi, na Msambweni zilipo. Uchumi wa utalii unajilimbikizia hapa. Mashamba ya nazi yanatawala mandhari — Kwale na Kilifi zinashikilia zaidi ya asilimia 90 ya minazi ya Kenya.",
+      "dg": "Maeneo iga mane ganainuka kula mashariki kuphiya mtswerero wa dzuwa dza ngazi zinazopanda kula baharini: uwanda wa pwani, uwanda wa tsini wa myango, nyanda za dzulu za Myango ya Shimba, na Uwanda wa Nyika. Chila ngazi inareha mabadiliko ga mwinuko, ga mvula, na ga mandhari kpwa chiasi chikulu hata msafiri anayetsupa kula Diani Beach hadi seemu za mtswerero wa dzuwa za Kwale angaweza kudziuza kukala akavuka kuphiya tsi yanjina kabisa."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Coastal Plain",
+      "sw": "**Uwanda wa Chini** unainuka hadi mita 60-135, eneo la mpito kati ya pwani na milima. Hapa ndipo kilimo kingi kinafanyika — mihogo, mahindi, maharage, na kunde. Kilimo kinachangia asilimia 80 ya mapato ya kaya.",
+      "dg": "Uwanda wa Pwani"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The first zone is the one the world knows best, though it knows it imperfectly. The coastal plain is a narrow strip of white sand beaches stretching approximately 250 kilometres along the Indian Ocean. This is where Diani Beach, Tiwi, Galu, and Msambweni are located — names that appear in tourist brochures and travel guides, associated with turquoise water, coconut palms, and resort hotels. The tourist economy is concentrated here, and it is this economy that gives Kwale County its misleading reputation as a place of tropical abundance.",
+      "sw": "**Milima ya Shimba** inainuka kwa kasi hadi mita 462 kwenye Dzombo. Milima hii ina msitu mkubwa wa mvua wa pwani katika Afrika Mashariki, aina zaidi ya 1,100 za mimea, na ndio chanzo cha maji kwa maeneo ya chini.",
+      "dg": "Eneo ra kpwandza ndiro rinaromanyikana zaidi duniani, dzagbwe tarimanyikana sawa-sawa. Uwanda wa pwani ni ukanda mwembamba wa fukwe za mtsanga mwereru unaoenea kama kilometa 250 kanda-kanda ya Bahari ya Hindi. Phapha ndipho Diani Beach, Tiwi, Galu, na Msambweni ziripho — madzina ganagoonekana kahi ya vipeperushi vya agenyi na vitabu vya safari, ganagohusishwa na madzi ga samawati, minazi, na hoteli za maphumziko. Uchumi wa utalii unadzilimbikizia phapha, na ni uchumi uno unaopha Kaunti ya Kwale sifa isiyo ya kpweli ya kukala phatu pha unji wa tropiki."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Behind the beach, the coastal plain supports a distinctive ecology. Coconut groves dominate the landscape — Kwale and neighbouring Kilifi counties account for over 90 percent of Kenya's coconut trees. The coconut palm is not merely a crop here; it is an ecosystem unto itself, providing food, drink, oil, building material, fibre for ropes and mats, and the raw material for palm wine, which structures an entire dimension of Digo social life. The soil is sandy and porous, draining quickly after rain. Mangrove forests line the tidal creeks and bays — at Gazi Bay, mangroves sustain 90 percent of the local economy through fishing. The coastal plain is productive, but its productivity is fragile, dependent on groundwater that tourism development increasingly overexploits.",
+      "sw": "**Uwanda wa Nyika** unafunika zaidi ya nusu ya kaunti — eneo kubwa la nusu-jangwa lenye mvua kidogo ya milimita 400 kwa mwaka. Hii ni eneo la uhaba wa chakula na maji, na inasababisha sana kiwango cha umaskini cha Kwale cha asilimia 74.9.",
+      "dg": "Nyuma ya fukwe, uwanda wa pwani unaterya mfumo wa chiikolojia wa chipekee. Minda ya minazi inatawala mandhari — Kwale na kaunti ya jirani ya Kilifi zina zaidi ya asilimia 90 ya minazi ya Kenya. Phapha mnazi si zao bahi; ni mfumo wa chimaumbile wenyewe, unaopha chakurya, chinwadzi, mafuha, vifaa vya kudzengera, katani ya kusuka kamba na mikeka, na chitu cha kutengezera uchi wa mnazi, ambao unaumba seemu nzima ya maisha ga chijamii ga Adigo. Ulongo ni wa mtsanga na una matundu, unauma upesi bada ya mvula. Matsaka ga mikoko ganazunguluka mikondo na ghuba za bahari — kpwenye Ghuba ya Gazi, mikoko inadumisha asilimia 90 ya uchumi wa phapha kpwa njira ya uvuvi. Uwanda wa pwani una mazao, ela unji uwo ni dhaifu, unakuluphira madzi ga tsini ya tsi ambago maendeleo ga utalii ganagahumira kutsupa chiasi zaidi na zaidi."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The coastal strip is also where the tension between tradition and modernity is felt most acutely. Tourism development has fragmented sacred kaya forests — Kaya Diani has been reduced from 20 hectares to scattered remnants by hotel construction. Groundwater tables are falling as resort complexes draw on the same aquifers that local communities depend upon. Artisanal fishing, which has sustained Digo coastal families for generations, faces pressure from declining fish stocks and competition from industrial operations. The beach that the world sees as paradise is, for the Digo who live behind it, a contested landscape where livelihoods, sacred sites, and natural resources are under constant negotiation.",
+      "sw": "Jambo la ajabu kuhusu Wadigo ni jinsi utambulisho mmoja wa kitamaduni ulivyodumishwa katika mandhari ambayo yanahitaji njia tofauti za maisha. Mvuvi wa Msambweni, mkulima wa nazi, mganga anayekusanya mimea milimani, na mfugaji wa Nyika wote wanashiriki lugha, mfumo wa ukoo, na jiografia ya kiroho inayoelekezwa na misitu ya kaya.",
+      "dg": "Ukanda wa pwani piya ndipho mvutano kahi ya chimila na usasa unahisika zaidi. Maendeleo ga utalii gakaganya matsaka matakatifu ga kaya vipande-vipande — Tsaka ra Kaya Diani rikaphunguzwa kula hekta 20 hadi masalia matawanyifu ni ujenzi wa hoteli. Madzi ga tsini ya tsi ganaphunguka kpwa sababu hoteli za maphumziko zinahumira madzi ga tsandzo zizo-zizo ambazo jamii za phapha zinakuluphira. Uvuvi wa chienyeji, uriodumisha mbari za Adigo za pwani kpwa vizazi, unakabiliwa ni kuphunguka kpwa ng'onda na ushindani wa uvuvi wa viwanda. Fukwe ambazo dunia inaziona dza peponi ni, kpwa Adigo anaoishi nyuma yao, mandhari ga mvutano ambapho riziki, phatu takatifu, na rasilimali za chimaumbile zinajadiriwa chila wakati."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "The Foot Plateau",
+      "sw": "Uwanda wa Chini wa Vilima",
+      "dg": "Uwanda wa Tsini wa Myango"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Rising to between 60 and 135 metres above sea level, the foot plateau is the transitional zone between the coast and the hills. This is where much of the county's settled agriculture takes place — the soil is better than the coastal sand, the elevation provides modest relief from the coastal heat, and the rainfall is sufficient for subsistence farming in most years. Cassava, maize, beans, and peas are the staple crops. Cashew nuts, sesame, and cotton serve as cash crops, though their yields are inconsistent.",
+      "sw": "Ukipanda hadi kati ya mita 60 na 135 juu ya usawa wa bahari, uwanda wa chini wa vilima ni eneo la mpito kati ya pwani na vilima. Hapa ndipo kilimo kingi cha makazi cha kaunti kinafanyika — udongo ni bora kuliko mchanga wa pwani, mwinuko unatoa faraja kidogo kutoka joto la pwani, na mvua inatosha kwa kilimo cha kujikimu miaka mingi. Muhogo, mahindi, maharagwe, na kunde ni mazao makuu. Korosho, ufuta, na pamba hutumika kama mazao ya biashara, ingawa mavuno yake si thabiti.",
+      "dg": "Uchiinuka hadi kahi ya mita 60 na 135 dzulu ya usawa wa bahari, uwanda wa tsini wa myango ni eneo ra kuphishana kahi ya pwani na myango. Phano ndipho chirimo chinji cha makazi cha kaunti chinahendwa — ulongo ni mnono zaidi ya mtsanga wa pwani, mwinuko unapha faraja chidide kula dzoho ya pwani, na mvula inatosha kpwa chirimo cha kudzikimu miaka minji. Manga, pemba, maharagwe, na kunde ni mimera mikulu. Ngorosho, ufuta, na pamba ni mimera ya biashara, dzagbwe mavunoge taganakpwedza sawa chila mwaka."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The foot plateau is where the majority of Kwale's population lives and farms. It is the zone of the smallholder, the family plot, the seasonal rhythm of planting and harvest that follows the monsoon rains. Life here is shaped by the long rains from March to June and the short rains from October to December. Between these seasons, the land dries, the rivers slow, and the question of whether the next rains will come on time becomes the preoccupying anxiety of daily life. Farming accounts for approximately 80 percent of household income in Kwale County, and it is on the foot plateau that this statistic acquires its human meaning — families whose entire livelihood depends on rainfall patterns that climate change is making increasingly unpredictable.",
+      "sw": "Uwanda wa chini wa vilima ndipo ambapo idadi kubwa ya watu wa Kwale wanaishi na kulima. Ni eneo la mkulima mdogo, shamba la familia, mdundo wa msimu wa kupanda na kuvuna unaofuata mvua za monsuni. Maisha hapa yanaundwa na mvua ndefu kuanzia Machi hadi Juni na mvua fupi kuanzia Oktoba hadi Desemba. Kati ya misimu hii, ardhi inakauka, mito inapungua, na swali la kama mvua ijayo itakuja kwa wakati linakuwa wasiwasi mkubwa wa maisha ya kila siku. Kilimo kinachangia takriban asilimia 80 ya mapato ya kaya katika Kaunti ya Kwale, na ni katika uwanda wa chini wa vilima ambapo takwimu hii inapata maana yake ya kibinadamu — familia ambazo riziki yao yote inategemea mifumo ya mvua ambayo mabadiliko ya tabianchi yanafanya isiwe na uhakika.",
+      "dg": "Uwanda wa tsini wa myango ndipho ambapho atu anji a Kwale anaishi na kurima. Ni eneo ra mkurima mdide, munda wa nyumba, mdundo wa msimu wa kuphanda na kuvuna unaolunga mvula za monsuni. Maisha phano ganaundwa ni mvula ndere kula Machi hadi Juni na mvula fupi kula Oktoba hadi Desemba. Kahi ya misimu iyi, tsi inauma, miho inaphunguka, na swali ra kukala mvula zidzazo zindakpwedza kpwa wakati rinakala wasiwasi mkpwulu wa maisha ga chila siku. Chirimo chinachangiya kama asilimia 80 ya mapato ga nyumba kahi ya Kaunti ya Kwale, na ni kahi ya uwanda wa tsini wa myango ambapho takwimu iyo inaphaha manaye ya chibinadamu — nyumba ambazo riziki yao yosi inakuluphira mifumo ya mvula ambayo kubadilika kpwa hali ya hewa kunaihenda isikale na uhakika."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The soil knowledge of the foot plateau farmers is extensive and precise. They distinguish between soil types by colour, texture, and moisture retention, selecting crops accordingly. Traditional weather prediction draws on cloud formations, wind direction, bird migration patterns, and plant phenology — a body of empirical knowledge developed over centuries of close observation. This is where Digo agricultural identity is most deeply rooted, and where the erosion of traditional farming knowledge in the face of climate disruption is felt most keenly.",
+      "sw": "Maarifa ya udongo ya wakulima wa uwanda wa chini ni mapana na sahihi. Wanatofautisha kati ya aina za udongo kwa rangi, muundo, na uhifadhi wa unyevu, wakichagua mazao ipasavyo. Utabiri wa hali ya hewa wa jadi unatokana na miundo ya mawingu, mwelekeo wa upepo, mifumo ya uhamaji wa ndege, na fenolojia ya mimea — mwili wa maarifa ya uzoefu ulioendelezwa kwa karne nyingi za uchunguzi wa karibu. Hapa ndipo utambulisho wa kilimo wa Kidigo ulipo na mizizi yake kwa undani zaidi, na ambapo mmomonyoko wa maarifa ya kilimo cha jadi mbele ya usumbufu wa hali ya hewa unahisiwa zaidi.",
+      "dg": "Maarifa ga ulongo ga akurima a uwanda wa tsini ni mapana na sahihi. Anamanya tafwauti kahi ya aina za ulongo kpwa rangi, muundo, na uwezo wa kuika madzi, na anatsambula mimera kulingana na tafwauti izo. Utabiri wa hali ya hewa wa chimila unatokana na miundo ya maingu, mwelekeo wa phepho, kutsama kpwa nyuni, na fenolojia ya mimera — mwiri wa maarifa ga uzoefu uriokula kpwa karne nyinji za uchunguzi wa phephi. Phano ndipho utambulisho wa chirimo cha Adigo una miziye ya ndani zaidi, na ambapho kumomonyoka kpwa maarifa ga chirimo cha chimila mbere ya usumbufu wa hali ya hewa kunahisika zaidi."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "The Shimba Hills",
+      "sw": "Vilima vya Shimba",
+      "dg": "Myango ya Shimba"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The third zone is the most dramatic. The Shimba Hills rise steeply from the foot plateau to a peak of 462 metres at Dzombo, forming the county's dominant visual landmark. These hills contain one of East Africa's largest coastal rainforests and are home to the Shimba Hills National Reserve. The vegetation is dense, layered, and extraordinarily diverse — over 1,100 plant species have been recorded, including 280 that are endemic to the coastal forests and 19 endangered tree species. Rainfall here reaches the county's maximum of 1,680 millimetres annually.",
+      "sw": "Eneo la tatu ni la kushangaza zaidi. Vilima vya Shimba vinapanda kwa kasi kutoka uwanda wa chini hadi kilele cha mita 462 kwenye Dzombo, kuunda alama kuu ya kaunti inayoonekana. Vilima hivi vina moja ya misitu mikubwa ya mvua ya pwani ya Afrika Mashariki na ni makazi ya Hifadhi ya Kitaifa ya Shimba Hills. Mimea ni minene, yenye tabaka, na yenye bioanuwai ya ajabu — spishi zaidi ya 1,100 za mimea zimerekodiwa, ikiwa ni pamoja na 280 ambazo ni za kipekee kwa misitu ya pwani na spishi 19 za miti iliyoko hatarini. Mvua hapa inafikia kiwango cha juu cha kaunti cha milimita 1,680 kwa mwaka.",
+      "dg": "Eneo ra hahu ni ra ajabu zaidi. Myango ya Shimba inapanda kpwa kasi kula uwanda wa tsini hadi chirere cha mita 462 kpwa Dzombo, kuunda alama kulu ya kaunti inayoonekana. Myango iyi ina mwenga wa matsaka makulu ga mvula ga pwani ya Afrika ya Mashariki na ni makazi ga Hifadhi ya Chitaifa ya Shimba Hills. Mimera ni minene, yenye tabaka, na yenye viumbe vinji vya ajabu — aina zaidi ya 1,100 za mimera zikarekodiwa, phamwenga na 280 ambazo ni za chipekee kpwa matsaka ga pwani na aina 19 za mihi iriyo hatarini. Mvula phano inafikira chiwango cha dzulu cha kaunti cha milimita 1,680 kpwa mwaka."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The Shimba Hills occupy a unique position in Digo life. They are the site of Kaya Kwale, the first sacred forest established after the migration from Singwaya, making them the geographic origin point of Digo settlement on the Kenya coast. Clay for traditional pottery is sourced from the hills. Medicinal plants are collected from their forests, with varying degrees of official permission. The hills are the county's water tower — the permanent rivers that sustain the lowlands originate in these uplands. When a Digo person speaks of the Shimba Hills, they speak of something more than geography. They speak of home in the deepest sense: the place where the ancestors first chose to settle, the forest that still provides, the landmark that orients every journey.",
+      "sw": "Vilima vya Shimba vina nafasi ya kipekee katika maisha ya Kidigo. Ni eneo la Kaya Kwale, msitu wa kwanza mtakatifu ulioundwa baada ya uhamiaji kutoka Singwaya, kuzifanya kuwa sehemu ya kijiografia ya asili ya makazi ya Kidigo kwenye pwani ya Kenya. Udongo wa ufinyazi wa jadi unapatikana kutoka vilima. Mimea ya dawa inakusanywa kutoka misitu yake, kwa viwango tofauti vya ruhusa rasmi. Vilima ni mnara wa maji wa kaunti — mito ya kudumu inayodumisha maeneo ya chini inatoka katika nyanda hizi za juu. Mtu wa Kidigo anapozungumza kuhusu Vilima vya Shimba, anazungumza kitu zaidi ya jiografia. Anazungumza kuhusu nyumbani kwa maana ya kina zaidi: mahali ambapo mababu walichagua kwanza kukaa, msitu ambao bado unatoa, na alama inayoelekeza kila safari.",
+      "dg": "Myango ya Shimba ina nafasi ya chipekee kahi ya maisha ga Adigo. Ni eneo ra Kaya Kwale, tsaka takatifu ra kpwandza kuandzishwa bada ya kutsama kula Singwaya, na kuihenda kukala seemu ya chijiografia ya asili ya makazi ga Adigo kpwa pwani ya Kenya. Ulongo wa ufinyanzi wa chimila unaphahikana kula myangoni. Mimera ya dawa inakusanywa kula matsakage, kpwa viwango tafwauti vya ruhusa rasmi. Myango ni mnara wa madzi wa kaunti — miho ya kudumu inayodumisha maeneo ga tsini inaandzira kahi ya nyanda zizi za dzulu. Mudigo achigomba kuhusu Myango ya Shimba, anagomba chitu zaidi ya chijiografia. Anagomba kuhusu kaya kpwa mana ya ndani zaidi: phatu ambapho akare atsambula kpwandza kusagala, tsaka ambaro bado rinapha, na alama inayoelekeza chila safari."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "The Nyika Plateau",
+      "sw": "Uwanda wa Nyika",
+      "dg": "Uwanda wa Nyika"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The fourth zone is the largest and the harshest. The Nyika Plateau covers over half of Kwale County — a vast semi-arid expanse stretching westward toward the Taita-Taveta border. Rainfall drops to as little as 400 millimetres annually. The soils are low in fertility. The vegetation thins to scrubland and dry woodland, a landscape that bears little resemblance to the lush coast just 50 kilometres to the east.",
+      "sw": "Eneo la nne ni kubwa zaidi na kali zaidi. Uwanda wa Nyika unafunika zaidi ya nusu ya Kaunti ya Kwale — eneo kubwa la nusu-jangwa linaloenea kuelekea magharibi hadi mpaka wa Taita-Taveta. Mvua inapungua hadi milimita 400 tu kwa mwaka. Udongo una rutuba ya chini. Mimea inapungua hadi vichaka na msitu mkavu, mandhari ambayo haifanani na pwani yenye majani mengi umbali wa kilomita 50 tu mashariki.",
+      "dg": "Eneo ra nne ni kulu zaidi na kali zaidi. Uwanda wa Nyika unafunika zaidi ya nusu ya Kaunti ya Kwale — eneo kulu ra nusu-jangwa rinaroenea kuphiya mtswerero wa dzuwa hadi mphaka wa Taita-Taveta. Mvula inaphunguka hadi milimita 400 bahi kpwa mwaka. Ulongo una rutuba chache. Mimera inaphunguka hadi vichaka na tsaka kavu, mandhari ambayo taifanana na pwani yenye makodza manji kure ya kilomita 50 bahi kuphiya mashariki."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "This is the zone of food insecurity, of water scarcity as a daily rather than seasonal reality, of communities whose distance from the coast means distance from the infrastructure, services, and economic activity that concentrate along the shoreline. Kwale County's poverty rate of 74.9 percent — among the highest in Kenya — is driven substantially by conditions on the Nyika Plateau. Livestock keeping replaces crop farming as the primary livelihood, but even grazing is precarious when the rains fail.",
+      "sw": "Hii ni eneo la ukosefu wa uhakika wa chakula, la uhaba wa maji kama hali ya kila siku badala ya msimu, la jamii ambazo umbali wao kutoka pwani unamaanisha umbali kutoka miundombinu, huduma, na shughuli za kiuchumi zinazojikita kando ya ufukwe. Kiwango cha umaskini cha Kaunti ya Kwale cha asilimia 74.9 — miongoni mwa vya juu zaidi nchini Kenya — kinasababishwa kwa kiasi kikubwa na hali katika Uwanda wa Nyika. Ufugaji unachukua nafasi ya kilimo cha mimea kama riziki kuu, lakini hata malisho ni hatarishi mvua zinaposhindwa.",
+      "dg": "Riri ni eneo ra kukosa uhakika wa chakurya, ra uphungufu wa madzi dza hali ya chila siku badala ya msimu, ra jamii ambazo umbali wao kula pwani manaye ni umbali kula miundombinu, huduma, na shughuli za chiuchumi zinazodziika kanda-kanda ya pwani. Chiwango cha uchiya cha Kaunti ya Kwale cha asilimia 74.9 — kahi ya vya dzulu zaidi kpwa Kenya — chinasababishwa kpwa chiasi chikulu ni hali kahi ya Uwanda wa Nyika. Ufugaji unatsukula nafasi ya chirimo cha mimera dza riziki kulu, ela hata malisho ni ga hatari mvula zichishindwa."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The Nyika is also where mining has left its most visible mark. Base Titanium operated in Kwale County from 2013 to 2024, displacing over 3,000 residents and destroying coconut, cashew, and mango trees. The economic promise of mining — jobs, royalties, infrastructure — collided with the ecological reality of extraction, leaving communities to reckon with degraded land and uncertain rehabilitation. The Nyika does not appear in tourist brochures. It does not feature in romantic accounts of the Swahili coast. But it is where the majority of Kwale's land area lies, and its reality is inseparable from the Digo story.",
+      "sw": "Nyika pia ni ambapo uchimbaji madini umeacha alama yake inayoonekana zaidi. Base Titanium ilifanya kazi katika Kaunti ya Kwale kuanzia 2013 hadi 2024, kuhama zaidi ya wakazi 3,000 na kuharibu miti ya nazi, korosho, na embe. Ahadi ya kiuchumi ya uchimbaji — ajira, mrabaha, miundombinu — iligongana na hali halisi ya kiikolojia ya uchimbaji, kuacha jamii kukabiliana na ardhi iliyoharibika na ukarabati usio na uhakika. Nyika haionekani katika vipeperushi vya watalii. Haionekani katika maelezo ya kimapenzi ya pwani ya Kiswahili. Lakini ndipo ambapo eneo kubwa la ardhi ya Kwale lipo, na hali yake haiwezi kutenganishwa na hadithi ya Kidigo.",
+      "dg": "Nyika piya ni ambapho uchimbadzi wa madini ukaricha alamaye inayoonekana zaidi. Base Titanium yahenda kazi kahi ya Kaunti ya Kwale kula 2013 hadi 2024, kulazimisha atu zaidi ya 3,000 kutsama na kubananga mihi ya nazi, ngorosho, na embe. Ahadi ya chiuchumi ya uchimbadzi — kazi, mrabaha, miundombinu — yagongana na hali ya kpweli ya chimaumbile ya uchimbadzi, kuricha jamii kukabilana na tsi iriyobanangika na ukarabati usio na uhakika. Nyika taionekana kahi ya vipeperushi vya agenyi. Taionekana kahi ya maelezo ga chimapenzi ga pwani ya Chiswahili. Ela ndipho ambapho eneo kulu ra tsi ya Kwale riripho, na haliye taiweza kutenganishwa na hadithi ya Adigo."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "A Single People, Four Landscapes",
+      "sw": "Atu Amwenga, Mandhari Inne",
+      "dg": "Atu Amwenga, Mandhari Nne"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "What is remarkable about the Digo is not that they inhabit four different ecological zones — many peoples do. What is remarkable is the degree to which a single cultural identity has been maintained across landscapes that demand fundamentally different ways of life. The fisher of Msambweni, the coconut farmer of the foot plateau, the healer collecting plants in the Shimba Hills, and the cattle keeper of the Nyika share a language, a clan system, a spiritual geography centred on the kaya forests, and a history of migration from Singwaya. The land varies. The culture holds.",
+      "sw": "Kinachoshangaza kuhusu Adigo si kwamba wanaishi katika maeneo manne tofauti ya kiikolojia — watu wengi hufanya hivyo. Kinachoshangaza ni kiwango ambacho utambulisho mmoja wa kitamaduni umedumishwa katika mandhari zinazohitaji njia tofauti kabisa za maisha. Mvuvi wa Msambweni, mkulima wa nazi wa uwanda wa chini, mganga anayekusanya mimea katika Vilima vya Shimba, na mfugaji wa ng'ombe wa Nyika wanashiriki lugha, mfumo wa ukoo, jiografia ya kiroho inayozingatia misitu ya kaya, na historia ya uhamiaji kutoka Singwaya. Ardhi inabadilika. Utamaduni unashikilia.",
+      "dg": "Chinachoshangaza kuhusu Adigo si kukala anaishi kahi ya maeneo mane tafwauti ga chimaumbile — makabila manji ganahenda vivyo. Chinachoshangaza ni chiwango ambacho utambulisho mmwenga wa chimila ukadumishwa kahi ya mandhari zinazohitaji njira tafwauti kabisa za maisha. Mvuvi wa Msambweni, mkurima wa nazi wa uwanda wa tsini, mganga anayekusanya mimera kahi ya Myango ya Shimba, na mfugaji wa ng'ombe wa Nyika anashirikiya luga, mfumo wa fuko, chijiografia ya chiroho inayozunguluka matsaka ga kaya, na historia ya kutsama kula Singwaya. Tsi inabadilika. Chimila chinadumu."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "This is not to romanticise the situation. The ecological gradient from coast to plateau maps almost perfectly onto an economic gradient from relative opportunity to deep poverty. The challenges facing the Nyika communities are not the same as those facing the coastal strip, and solutions that work in one zone may be irrelevant in another. But the unity of Digo identity across these zones is a cultural achievement worth recognising — a testament to the strength of shared language, shared ritual, and shared memory in holding a people together across a landscape that might otherwise have divided them.",
+      "sw": "Hii si kupamba hali hiyo. Mteremko wa kiikolojia kutoka pwani hadi uwanda unalingana karibu kikamilifu na mteremko wa kiuchumi kutoka fursa za kiasi hadi umaskini mkubwa. Changamoto zinazokabili jamii za Nyika si sawa na zile zinazokabili ukanda wa pwani, na masuluhisho yanayofanya kazi katika eneo moja yanaweza kuwa hayana umuhimu katika lingine. Lakini umoja wa utambulisho wa Kidigo katika maeneo haya ni mafanikio ya kitamaduni yanayostahili kutambuliwa — ushahidi wa nguvu ya lugha ya pamoja, ibada ya pamoja, na kumbukumbu ya pamoja katika kushikilia watu pamoja katika mandhari ambayo vinginevyo ingeweza kuwatenganisha.",
+      "dg": "Ihi si kupamba hali iyo. Mteremko wa chimaumbile kula pwani hadi uwanda unalingana phephi kabisa na mteremko wa chiuchumi kula nafasi za chiasi hadi uchiya mkpwulu. Matatizo ganagokabili jamii za Nyika si sawa na ganagoukabili ukanda wa pwani, na masuluhisho ganagohenda kazi kahi ya eneo mwenga ganaweza kukala tagana umuhimu kahi ya ranjina. Ela umwenga wa utambulisho wa Adigo kahi ya maeneo iga ni mafanikio ga chimila ganagofwaha kutambuliwa — ushahidi wa nguvu ya luga ya phamwenga, ibada ya phamwenga, na kumbukumbu ya phamwenga kahi ya kugbwira atu phamwenga kahi ya mandhari ambayo kpwa njira yanjina ingaweza kuaganya."
+    }
+  ]
+}

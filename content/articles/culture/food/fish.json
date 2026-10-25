@@ -1,0 +1,169 @@
+{
+  "id": "culture/food/fish",
+  "title": {
+    "en": "Coastal Fishing and Seafood",
+    "sw": "Uvuvi wa Pwani na Vyakula vya Baharini",
+    "dg": "Uvuvi wa Pwani na Vyakurya vya Baharini"
+  },
+  "intro": {
+    "en": "The Indian Ocean has fed the Digo people for as long as they have inhabited the coast. Long before the spice trade brought cardamom and turmeric to their kitchens, before rice cultivation transformed…",
+    "sw": "Bahari ya Hindi imelisha Wadigo kwa muda mrefu kama walivyoishi pwanini. Uvuvi wa kienyeji unabaki chanzo kikuu cha protini ya baharini kwa jamii za pwani za Wadigo. Uhusiano kati ya mvuvi, chombo…",
+    "dg": "Bahari ya Hindi ikarisa Adigo hangu arivyoandza kusagala pwani. Uvuvi wa chienyeji bado ni chandzo chikulu cha protini ya baharini kpwa jamii za Adigo za pwani. Uhusiano kahi ya mvuvi, chomboche…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Ocean's Provision",
+      "sw": "Riziki ya Bahari",
+      "dg": "Riziki ya Bahari"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Indian Ocean has fed the Digo people for as long as they have inhabited the coast. Long before the spice trade brought cardamom and turmeric to their kitchens, before rice cultivation transformed their agriculture, before Islam reshaped their spiritual life, the ocean was there — providing protein, shaping daily rhythms, and connecting the Digo to a maritime world that stretches from Mozambique to the Arabian Peninsula. Artisanal fishing remains the primary source of marine protein for coastal Digo communities, and the relationship between the fisherman, his vessel, and the sea is one of the foundational narratives of coastal identity.",
+      "sw": "Bahari ya Hindi imelisha Wadigo kwa muda mrefu kama walivyoishi pwanini. Uvuvi wa kienyeji unabaki chanzo kikuu cha protini ya baharini kwa jamii za pwani za Wadigo. Uhusiano kati ya mvuvi, chombo chake, na bahari ni moja ya hadithi za msingi za utambulisho wa pwani. Midundo ya siku ya uvuvi inaunda midundo ya jamii ya pwani — wavuvi wanatoka kabla ya alfajiri, na kurudi kwao asubuhi kunachochea shughuli za biashara, usafishaji, na upishi.",
+      "dg": "Bahari ya Hindi ikarisa Adigo hangu arivyoandza kusagala pwani. Kare sana kabla ya biashara ya viungo kureha iliki na mandano mwao dzikoni, kabla ya kurima mphunga kugaluza chirimo chao, kabla ya Uislamu kugaluza maisha gao ga chiroho, bahari kare ichikala phapho — ichipha chakurya, ichiumba maisha ga chila siku, na ichiunganisha Adigo na dunia ya bahari inayoenea kula Msumbiji hadi Uarabuni. Uvuvi wa chienyeji bado ni chandzo chikulu cha protini ya baharini kpwa jamii za Adigo za pwani, na uhusiano kahi ya mvuvi, chomboche, na bahari ni hadisi mwenga kahi ya hadisi za musingi za utambulisho wa pwani."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Fishing is performed primarily by men, though women play critical roles in processing, preservation, and market sales. The gendered division of labour in the fishing economy mirrors broader patterns in Digo society: men go to sea, women manage the shore. This arrangement is not a matter of custom alone but reflects the physical demands of open-water fishing in small vessels and the Islamic cultural norms that shape Digo community life. The economic contribution of women in the fish trade — buying from the boats, drying and preserving the catch, selling in markets — is substantial and often underrecognized.",
+      "sw": "Ngalawa ni chombo cha uvuvi cha ishara cha pwani ya Afrika Mashariki — mtumbwi wa mbao ulio na viegemeo vya kando, nyepesi vya kutosha kwa watu wawili kuusukuma pwanini na imara vya kutosha kushughulikia mawimbi. Mashua kubwa zinachukua takriban theluthi mbili ya meli za uvuvi. Njia za uvuvi ni pamoja na mitego ya vikapu (asilimia sabini na tano ya kiasi cha samaki), nyavu za kuelea, kuvuta pwanini, na kupiga mbizi. Kila njia inaonyesha vizazi vya maarifa yaliyokusanywa kuhusu mazingira ya baharini — maarifa ambayo yanahamishwa kwa mdomo na kupitia uanagenzi.",
+      "dg": "Uvuvi nkuhendwa zaidi ni alume, dzagbwe achetu ana kazi muhimu sana ya kutengeza ng'onda, kuaika kpwa muda mure, na kuaguza sokoni. Kuganya kazi kahi ya alume na achetu kahi ya biashara ya ng'onda kunahalana na mambo ganjina ga maisha ga Adigo: alume nkuphiya baharini, achetu nkuimirira pwani. Mpango uhu si wa mila bahi ela unaonyesa uzito wa kazi ya kuvuwa kahi ya bahari wazi kpwa vyombo vidide, na desturi za Chiislamu zinazoumba maisha ga jamii ya Adigo. Mchango wa achetu kahi ya biashara ya ng'onda — kugula ng'onda kula kpwa madau, kuanika na kuika ng'onda, kuaguza sokoni — ni mkpwulu, na mara nyinji taumanyikana."
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The rhythms of the fishing day shape the rhythms of the coastal community. Fishermen depart before dawn, navigating by the stars and by intimate knowledge of currents, reefs, and seasonal fish movements passed from father to son. The return of the boats in the late morning sets off a cascade of activity — sorting, selling, cleaning, cooking — that occupies the community until the afternoon. In the evening, nets are mended, traps are repaired, and the stories of the day's catch are told. This daily cycle is as old as the Digo presence on the coast, and it endures even as the catch itself diminishes.",
+      "sw": "Samaki na Maandalizi",
+      "dg": "Midundo ya siku ya uvuvi ndiyo inayoumba midundo ya jamii ya pwani. Avuvi nkuuka kabla ya kucha, achiongozwa ni nyota na ujuzi wao wa mikondo, miamba, na kuhama kpwa ng'onda chila msimu, ujuzi uriotsapizwa kula kpwa baba hadi mwanawe. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji — kuganya ng'onda, kuguza, kusuwa, kujita — ambazo nkuhendwa ni jamii hadi dziloni. Usiku, vimiya nkushonwa, mitego nkutengezwa, na hadisi za ng'onda a siku iyo nkugombwa. Mzunguko uhu wa chila siku ni wa kare dza vira Adigo arivyokala pwani, na unaenderera hata dzagbwe ng'onda anaphungula."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "Vessels and Methods",
+      "sw": "Maji ya pwani ya Wadigo yanatoa aina nyingi za samaki — changu, nguru, pono, barracuda, na jodari. Samaki wa kuchoma — samaki uliookwa kwa makaa — ni maandalizi ya msingi zaidi. Samaki wa kukaanga unahusisha kupaka samaki na viungo na kukaanga kwa mafuta mengi. Taji ya upishi wa samaki wa Wadigo ni samaki wa kupaka — samaki uliookwa na kupakwa mchuzi wa nazi, manjano, na limau. Kamba wanapikwa katika mchuzi wa nazi, na pweza anookwa au kuchemshwa polepole.",
+      "dg": "Vyombo na Njira za Kuvuwa"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The ngalawa is the iconic fishing vessel of the East African coast. This outrigger canoe, carved from a single log with lateral stabilizing floats attached by wooden booms, is a masterpiece of low-technology marine engineering. Light enough for two men to launch from the beach, stable enough to handle the swells of the open Indian Ocean, and capable of carrying a meaningful catch, the ngalawa has been the workhorse of coastal artisanal fishing for centuries. Its design reflects knowledge accumulated over generations — the angle of the outrigger, the shape of the hull, the positioning of the mast for the small lateen sail that supplements paddling when the wind cooperates.",
+      "sw": "Soko la samaki — iwe ni jengo rasmi au mkusanyiko wa kawaida kwenye ufuo — ni moja ya nafasi za kijamii zenye nguvu zaidi katika jamii ya pwani. Bei inawekwa, ubora unatathminiwa, habari zinabadilishwa, na kitambaa cha kijamii cha jamii ya uvuvi kinaendelea kushonwa upya.",
+      "dg": "Ngalawa ni chombo cha uvuvi chinachomanyikana zaidi cha pwani ya Afrika ya Mashariki. Mtumbwi uhu, uriotsongwa kula kpwa gogo mwenga na wenye vielea vya kanda vinavyofungwa kpwa mihi, ni kazi ya ajabu ya ufundi wa bahari bila teknolojia nyinji. Ni mwepesi chiasi kpwamba alume airi anaweza kuusukuma kula langbwani hadi baharini, ni imara chiasi cha kuweza maimbi ga Bahari ya Hindi wazi, na unaweza kutsukula ng'onda anji; kpwa hivyo ngalawa ikakala chombo chikulu cha uvuvi wa chienyeji wa pwani kpwa miaka mia minji. Muundowe unaonyesa ujuzi uriokusanywa kpwa vivyazi — vira vielea vinavyoikpwa, umbo ra mtumbwi, na phatu pha mlingoti wa tanga dide ambaro nkuterya kupiga kafi phepho ichikubali."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Larger dhows account for approximately two-thirds of the fishing fleet. These heavier sailing vessels, with their characteristic triangular sails, can range further from shore and carry larger catches. The dhow tradition connects Digo fishermen to the broader Indian Ocean sailing culture that has linked East Africa to Arabia, India, and beyond for over a millennium.",
+      "sw": "Kupungua",
+      "dg": "Majahazi makulu ni phephi theluthi mbiri za vyombo vyosi vya uvuvi. Vyombo hivi vizito vya tanga, vyenye matanga gao ga pembetatu ganagomanyikana, vinaweza kuphiya kure zaidi na pwani na kutsukula ng'onda anji zaidi. Mila ya majahazi inaunganisha avuvi a Adigo na utamaduni wa tanga wa Bahari ya Hindi, ambao ukaunganisha Afrika ya Mashariki na Uarabuni, India, na kure zaidi kpwa zaidi ya miaka elufu."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Fishing methods are diverse and adapted to the specific marine environments of the Digo coast. Basket traps account for the majority of catch volume — roughly seventy-five percent — and are deployed on the reef and in shallow waters. Drift nets are used in deeper waters for pelagic species. Beach seining, in which a long net is deployed from the shore and hauled in by teams of men, is a communal method that produces large but sometimes indiscriminate catches. Stake traps, fixed structures of poles and netting set in tidal channels, capture fish as they move with the tides. Skin diving for octopus and shellfish completes the repertoire of traditional methods.",
+      "sw": "Kiwango cha uvuvi kimeshuka mara nne tangu miaka ya 1980, kutoka wastani wa kilo 13.7 kwa mvuvi kwa safari hadi kilo 3.2 tu. Kupungua huku kunasababishwa na uvuvi kupita kiasi, njia za uharibifu ikiwa ni pamoja na baruti na nyavu za macho madogo, na uharibifu wa mazingira kutokana na maendeleo ya pwani na uchafuzi. Matokeo yanaenea zaidi ya uchumi — wavuvi lazima waende mbali zaidi kutoka ufukweni, na vijana hawako tayari kujifunza kazi hii.",
+      "dg": "Njira za kuvuwa ni nyinji, na zikagaluzwa kulingana na phatu pha bahari pha pwani ya Adigo. Mitego ya vikapu ndiyo inayovuwa ng'onda anji zaidi — phephi asilimia sabini na tsano — na nkuikpwa kahi ya miamba na kahi ya madzi ga phephi na pwani. Vimiya vya kuelea nkuhumirwa kahi ya madzi ga kure kuvuwa ng'onda a bahari kulu. Kumweha chimiya kula pwani, ambapho chimiya chire nkutsuphwa kula pwani na kumwehwa ni makundi ga alume, ni njira ya jamii inayovuwa ng'onda anji, ela mara nyinji ichivuwa chila aina bila kutsambula. Zio — mitego ya kudumu ya mihi na vimiya inayoikpwa kahi ya njira za madzi ganagoodzala na kupwa — nkugbwira ng'onda anaphotsupa na madzi. Kuojorera na kuzama ili kugbwira pweza na viumbe vya magamba nkumaliza njira za chienyeji."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Each method reflects generations of accumulated knowledge about the marine environment — where the fish gather at different seasons, how the tides affect movement patterns, which reef formations shelter which species. This knowledge is not written down. It is transmitted orally and through apprenticeship, young men learning from their fathers and uncles by accompanying them to sea long before they are old enough to fish on their own. The loss of this intergenerational transmission, as young men increasingly turn to other livelihoods, represents a cultural loss as significant as the decline of the catch itself.",
+      "sw": "Licha ya changamoto hizi, samaki unabaki katikati ya utambulisho wa pwani wa Wadigo — alama ya kitamaduni inayofafanua maana ya kuishi pwanini. Uhifadhi wa mazoea endelevu ya uvuvi ni jambo la kitamaduni — kuhakikisha vizazi vijavyo vya watoto wa Wadigo wanakua wakijua ladha ya samaki safi aliyepakwa nazi na limau.",
+      "dg": "Chila njira inaonyesa ujuzi wa vivyazi vinji kuhusu bahari — phatu ng'onda anaphokusanyika kpwa misimu tafwauti, vira madzi ganavyoodzala na kupwa ganavyogaluza kuhama kpwao, na miamba ipi inahifadhi ng'onda a aina ipi. Ujuzi uhu taukaandikpwa. Nkutsapizwa kpwa mromo na kpwa kufundishwa kazini, avulana achidzifundza kula kpwa avyazi ao na akulu ao kpwa kuphiya nao baharini kare sana kabla ya kukala akulu a kutosha kuvuwa bila kuterywa. Kuangamika kpwa kutsapizwa kuku kula chivyazi chimwenga hadi chanjina, avulana anji achiricha uvuvi na kuhenda kazi zanjina, ni hasara kulu ya utamaduni dza kuphungula kpwa ng'onda kpwenye."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Catch",
+      "sw": "Samaki Wanaovuliwa",
+      "dg": "Ng'onda Anaogbwirwa"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The waters off the Digo coast yield a rich diversity of species. Red snapper is perhaps the most prized, its firm white flesh ideal for grilling and for the coconut sauces that define coastal cooking. Kingfish, with its dense, meaty texture, is the preferred choice for samaki wa kupaka. Parrotfish, barracuda, and wahoo are common catches. Yellowfin tuna, when it runs close to shore, provides windfalls that energize the market. Lobster, prawns, and crabs are harvested in smaller quantities but command premium prices. Octopus, grilled or stewed, is a distinctive feature of the coastal diet that sets it apart from inland food traditions.",
+      "sw": "Maji ya pwani ya Wadigo yanatoa aina nyingi tofauti za samaki. Changu labda ndio anayethaminiwa zaidi, nyama yake nyeupe imara ikiwa bora kwa kuchoma na kwa mchuzi wa nazi unaofafanua upishi wa pwani. Nguru, na nyama yake nzito yenye unene, ndio chaguo linalopendelewa kwa samaki wa kupaka. Pono, mkunga, na wahoo ni samaki wa kawaida. Jodari wa mapezi ya manjano, anapokaribia ufukoni, anatoa zawadi isiyotarajiwa inayoihuisha soko. Kamba kochi, kamba, na kaa wanavunwa kwa kiasi kidogo lakini wanaamuru bei za juu. Pweza, anayechomwa au kupikwa kitoweo, ni sifa ya kipekee ya lishe ya pwani inayoitofautisha na mila za chakula za bara.",
+      "dg": "Madzi ga pwani ya Adigo ganalavya aina nyinji tafwauti za ng'onda. Changu labuda ndiye anayemendwa zaidi, nyamaye nyereru ngumu ichikala nono kpwa kuwadwa na kpwa mtsuzi wa nazi unaotambulisha kujita kpwa pwani. Nguru, mwenye nyama nzito na nene, ndiye anayetsambulwa kpwa ng'onda wa kupaka. Pono, barracuda, na wahoo ni ng'onda a kawaida. Jodari wa mapezi ga manjano, achiphiya phephi na pwani, nkureha unji usiotazamiwa unaohenda soko richangamke. Kamba-kochi, kamba, na kaa nkugbwirwa kpwa chiasi chidide, ela nkuguzwa kpwa bei za dzulu. Pweza, anayewadwa au kujitwa mtsuzi, ni seemu ya chipekee ya chakurya cha pwani inayochihenda kukala tafwauti na mila za chakurya za bara."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The fish market — whether a formal structure or an informal gathering at the landing beach — is one of the most vibrant social spaces in a Digo coastal community. The return of the boats in the late morning triggers a burst of commercial activity: fishermen sorting their catch, buyers inspecting and negotiating, women purchasing fish for resale or home preparation. The market is where price is set, quality is assessed, news is exchanged, and the social fabric of the fishing community is continuously rewoven. The scent of fresh fish, the calls of the vendors, the brightness of silver scales in the sunlight — these are the sensory markers of the coastal marketplace.",
+      "sw": "Soko la samaki — liwe jengo rasmi au mkusanyiko usio rasmi katika ufuko wa kutua — ni mojawapo ya nafasi za kijamii zenye uchangamfu zaidi katika jamii ya Wadigo ya pwani. Kurudi kwa boti asubuhi kunasababisha mlipuko wa shughuli za biashara: wavuvi wakipanga samaki wao, wanunuzi wakikagua na kujadiliana, wanawake wakinunua samaki kwa kuuza tena au kuandaa nyumbani. Soko ndipo bei inapowekwa, ubora unapokaguliwa, habari zinapobadilishwa, na kitambaa cha kijamii cha jamii ya uvuvi kinapofumwa upya kila wakati. Harufu ya samaki safi, miito ya wauzaji, mng'ao wa magamba ya fedha kwenye jua — hizi ni alama za hisi za soko la pwani.",
+      "dg": "Soko ra ng'onda — richikala ni dzengo rasmi au mkusanyiko usio rasmi kpwa langbwa ambapho madau ganafika — ni phatu pha chijamii phenye uchangamfu zaidi kpwa jamii ya Adigo ya pwani. Kuuya kpwa madau ligundzu nkuandzisha shughuli nyinji za biashara: avuvi achiganya ng'onda ao, atu anaogula achilola ng'onda na kupatana bei, achetu achigula ng'onda kpwa kuaguza luphya au kuajita nyumbani. Soko ndipho bei inaphoikpwa, ubora unaphopimwa, habari zinaphobadilishana, na uhusiano wa jamii ya uvuvi unaphotengezwa luphya chila siku. Harufu ya ng'onda a phapho, kululu ya atu anaoguza, kung'ara kpwa magamba ga feza dzuwani — higa ndigo mambo ganagomanyisa soko ra pwani."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Preparations",
+      "sw": "Maandalizi",
+      "dg": "Kujita"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Fish in Digo cuisine is prepared in several distinctive ways, all of which reflect the coastal commitment to simplicity, freshness, and coconut. Samaki wa kuchoma — charcoal-grilled fish — is the most elemental preparation. Whole fish, scaled and gutted but otherwise unadorned, is grilled directly over hot coals until the skin blisters and chars and the flesh is smoky and tender. The only accompaniment needed is a squeeze of lime and perhaps a scattering of salt and chili.",
+      "sw": "Samaki katika upishi wa Wadigo hupikwa kwa njia kadhaa za kipekee, zote zikionyesha kujitolea kwa pwani kwa urahisi, uswafi, na nazi. Samaki wa kuchoma — samaki aliyechomwa kwa makaa — ni maandalizi ya msingi zaidi. Samaki mzima, aliyeondolewa magamba na utumbo lakini bila mapambo mengine, anachomwa moja kwa moja juu ya makaa ya moto hadi ngozi inapovimba na kuungua na nyama inapokuwa na moshi na laini. Mwandamano pekee unaohitajika ni kukamuliwa ndimu na labda kutawanyiwa chumvi na pilipili.",
+      "dg": "Ng'onda kahi ya kujita kpwa Adigo nkujitwa kpwa njira kadhaa za chipekee, zosi zichionyesa vira pwani inavyomendza urahisi, ng'onda a phapho, na nazi. Ng'onda wa kuchoma — ng'onda ariyewadwa kpwa makala — ndiyo njira rahisi zaidi. Ng'onda mzima, ariyeuswa magamba na utumbo ela bila chitu chanjina, nkuwadwa phapho dzulu ya makala ga moho hadi ngozi ichivimba na kuphya chidide, na nyama ikakala ya mosi na laini. Chitu bahi chinachohitajika ni madzi ga ndimu, na labuda munyu na pilipili chidide."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Samaki wa kukaanga — fried fish — involves coating the fish in a spice paste of turmeric, garlic, ginger, and chili, then deep-frying until the exterior is golden and crisp while the interior remains moist. This is the everyday preparation, the fish that appears most often on the household table, served alongside coconut rice and a vegetable curry.",
+      "sw": "Samaki wa kukaanga unahusisha kupaka samaki kwa uji wa viungo wa manjano, kitunguu saumu, tangawizi, na pilipili, kisha kukaanga kwa mafuta mengi hadi sehemu ya nje iwe na rangi ya dhahabu na kukakamaa huku sehemu ya ndani ikibaki na unyevu. Haya ni maandalizi ya kila siku, samaki anayeonekana mara nyingi zaidi mezani ya nyumba, akihudumiwa pamoja na wali wa nazi na kitoweo cha mboga.",
+      "dg": "Ng'onda wa kukaanga — ng'onda wa kukalanga — ni kumpaka ng'onda viungo virivyosagwa vya mandano, chitunguu saumu, tangawizi, na pilipili, chisha kumkalanga kpwa mafuha manji hadi kondze ikale na rangi ya zahabu na nkavu, hiku ndani ichisala na unyevu. Ihi ni njira ya chila siku, ng'onda anayeonekana mara nyinji zaidi mezani pha nyumbani, achiriwa phamwenga na wali wa nazi na mtsuzi wa mboga."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The crown of Digo fish cookery is samaki wa kupaka, the \"painted fish\" that is the coast's most celebrated dish. A whole fish — ideally red snapper or kingfish — is grilled over charcoal until cooked through, then coated with a rich sauce of coconut milk, turmeric, lime juice, garlic, and chili. The sauced fish is returned briefly to the heat so that the coating sets, creating a golden, fragrant layer that melds the smoky flavour of the grill with the richness of the coconut. It is a dish that rewards patience and good ingredients, and it is the preparation that coastal cooks reach for when the occasion demands something memorable.",
+      "sw": "Kilele cha upishi wa samaki wa Wadigo ni samaki wa kupaka, \"samaki aliyepakwa\" ambao ni sahani inayoadhimishwa zaidi ya pwani. Samaki mzima — bora zaidi changu au nguru — anachomwa juu ya makaa hadi kuiva kabisa, kisha anapakwa mchuzi tajiri wa tui, manjano, maji ya ndimu, kitunguu saumu, na pilipili. Samaki aliyepakwa mchuzi anarudishwa kwa muda mfupi kwenye joto ili upako uimae, na kuunda tabaka ya dhahabu yenye harufu nzuri inayounganisha ladha ya moshi ya kuchomea na utajiri wa nazi. Ni sahani inayolipa subira na viungo vizuri, na ni maandalizi ambayo wapishi wa pwani wanayafikia matukio yanapohitaji kitu cha kukumbukwa.",
+      "dg": "Taji ya kujita ng'onda kpwa Adigo ni ng'onda wa kupaka, \"ng'onda ariyepakpwa\" ambaye ni chakurya cha pwani chinachotogolwa zaidi. Ng'onda mzima — vinono zaidi changu au nguru — nkuwadwa dzulu ya makala hadi aive kabisa, chisha nkupakpwa mtsuzi mnono wa huwi, mandano, madzi ga ndimu, chitunguu saumu, na pilipili. Ng'onda ariyepakpwa mtsuzi nkuuyizwa kpwa moho kpwa wakati mfupi ili mtsuzi ugande, na kuumba tabaka ra zahabu renye harufu nono rinarounganisha ladha ya mosi ya kuwadira na unono wa nazi. Ni chakurya chinachoripha subira na viungo vinono, na ni njira ambayo ajiti a pwani nkuihumira tukio richilonda chitu cha kutambukirwa."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Prawns are simmered in coconut curry, their sweetness a natural partner for the richness of the tui. Octopus is either grilled — its tentacles charring over the coals — or stewed slowly in a tomato and coconut sauce until tender. Both are delicacies that command higher prices than the everyday fish and appear most often at celebrations or when the catch is particularly good.",
+      "sw": "Kamba wanachemswa katika mchuzi wa nazi, utamu wao ukiwa mshirika wa kiasili wa utajiri wa tui. Pweza anachomwa — miguu yake ikiungua juu ya makaa — au kupikwa polepole katika mchuzi wa nyanya na nazi hadi kuwa laini. Vyote viwili ni vyakula vya anasa vinavyoamuru bei za juu kuliko samaki wa kila siku na kuonekana mara nyingi zaidi katika sherehe au samaki wanapovuliwa vizuri hasa.",
+      "dg": "Kamba nkuchemushwa kahi ya mtsuzi wa nazi, mtswano wao uchiandamana vinono na unono wa huwi. Pweza nkuwadwa — miguluye ichiphya dzulu ya makala — au kujitwa pore-pore kahi ya mtsuzi wa nyanya na nazi hadi akale laini. Vyosi viiri ni vyakurya vya anasa vinavyoguzwa kpwa bei za dzulu kuriko ng'onda wa chila siku, na nkuonekana mara nyinji zaidi kpwa sherehe au ng'onda anaphogbwirwa anji hasa."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "The Decline",
+      "sw": "Kupungua",
+      "dg": "Kuphungula"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The fishing economy of the Digo coast is in crisis. Catch rates have declined fourfold since the mid-1980s, falling from an average of 13.7 kilograms per fisher per trip to just 3.2 kilograms. This collapse is driven by multiple factors: overfishing as population growth increases pressure on finite marine resources, the use of destructive fishing methods including dynamite and fine-mesh nets that destroy reef habitats and capture juvenile fish, and environmental degradation from coastal development, pollution, and climate change.",
+      "sw": "Uchumi wa uvuvi wa pwani ya Wadigo uko katika mgogoro. Viwango vya samaki wanaovuliwa vimepungua mara nne tangu katikati ya miaka ya 1980, vikishuka kutoka wastani wa kilo 13.7 kwa mvuvi kwa safari hadi kilo 3.2 tu. Kuanguka huku kunasababishwa na mambo mengi: uvuvi kupita kiasi kadri ongezeko la watu linavyoongeza shinikizo kwa rasilimali za baharini zenye kikomo, matumizi ya mbinu za uvuvi za uharibifu ikiwa ni pamoja na baruti na nyavu za matundu madogo zinazoharibu makazi ya miamba na kukamata samaki wadogo, na uharibifu wa mazingira kutokana na maendeleo ya pwani, uchafuzi, na mabadiliko ya hali ya hewa.",
+      "dg": "Uchumi wa uvuvi wa pwani ya Adigo u kahi ya shida kulu. Ng'onda anaogbwirwa akaphungula mara nne hangu kahi-kahi ya miaka ya 1980, kula wastani wa kilo 13.7 kpwa mvuvi kpwa safari hadi kilo 3.2 bahi. Kugbwa kuku kunasababishwa ni mambo manji: kuvuwa kutsupa chiasi, kpwa sababu kuenjerezeka kpwa atu kunaenjereza mzigo kpwa vitu vya baharini visivyo na unji usio na mwisho; kuhumira njira za kuvuwa za kubananga, phamwenga na baruti na vimiya vya matundu madide vinavyobananga miamba ambako ng'onda anasagala na kugbwira ng'onda adide; na kubanangika kpwa mazingira kula kpwa maendeleo ga pwani, uchafu, na mabadiliko ga hali ya hewa."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The consequences extend beyond economics. As catches shrink, fishermen must go further from shore and spend longer at sea, increasing the risks of a profession that is already physically dangerous. Competition for declining resources creates conflict between artisanal fishermen and commercial trawlers, between local communities and outside operators. Young men, seeing diminishing returns from fishing, are less willing to apprentice into the trade, threatening the transmission of traditional maritime knowledge from one generation to the next.",
+      "sw": "Matokeo yanazidi uchumi. Samaki wanapopungua, wavuvi lazima waende mbali zaidi na ufuko na kukaa muda mrefu zaidi baharini, na kuongeza hatari za kazi ambayo tayari ni ya hatari kimwili. Ushindani wa rasilimali zinazopungua unasababisha migogoro kati ya wavuvi wa jadi na meli za kibiashara, kati ya jamii za mtaa na waendeshaji wa nje. Vijana, wakiona mapato yanayopungua kutoka uvuvi, hawako tayari sana kujifunza biashara hiyo, na kutishia upitishaji wa maarifa ya jadi ya baharini kutoka kizazi kimoja hadi kingine.",
+      "dg": "Matokeo ganaenea zaidi ya uchumi. Ng'onda anaphophungula, avuvi ni lazima aphiye kure zaidi na pwani na kusagala muda mure zaidi baharini, na kuenjereza hatari za kazi ambayo kare ni ya hatari kpwa mwiri. Kushindana kpwa vitu vinavyophungula kunareha kondo kahi ya avuvi a chienyeji na meli za biashara, kahi ya jamii za phapho na atu a kondze. Avulana, achiona fwaida ya uvuvi ichiphungula, taana hamu sana ya kudzifundza kazi iyo, na ihi inatishia kutsapizwa kpwa maarifwa ga chienyeji ga bahari kula chivyazi chimwenga hadi chanjina."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Fish and Identity",
+      "sw": "Samaki na Utambulisho",
+      "dg": "Ng'onda na Utambulisho"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Despite these challenges, fish remains central to Digo coastal identity. The fishing village, the morning market, the smell of samaki wa kuchoma on a charcoal grill, the sight of ngalawa returning across the afternoon water — these are not just economic activities but cultural markers that define what it means to live on the coast. The Digo are a people of the land and the sea simultaneously, and their cuisine reflects this dual identity with every plate of coconut rice served alongside grilled fish. The preservation of sustainable fishing practices is therefore not merely an environmental or economic concern but a cultural imperative — a matter of ensuring that future generations of Digo children grow up knowing the taste of fresh fish painted with coconut and lime.",
+      "sw": "Licha ya changamoto hizi, samaki anabaki kuwa wa kati katika utambulisho wa Wadigo wa pwani. Kijiji cha uvuvi, soko la asubuhi, harufu ya samaki wa kuchoma juu ya makaa, kuona ngalawa zikitovuka maji ya alasiri — hizi si shughuli za kiuchumi tu bali ni alama za kitamaduni zinazofafanua maana ya kuishi pwani. Wadigo ni watu wa ardhi na bahari wakati huo huo, na upishi wao unaonyesha utambulisho huu wa pande mbili kwa kila sahani ya wali wa nazi inayohudumiwa pamoja na samaki aliyechomwa. Uhifadhi wa desturi endelevu za uvuvi kwa hivyo si suala la mazingira au uchumi pekee bali ni amri ya kitamaduni — suala la kuhakikisha kwamba vizazi vijavyo vya watoto wa Wadigo wanakua wakijua ladha ya samaki safi aliyepakwa nazi na ndimu.",
+      "dg": "Hata dzagbwe kuna changamoto zizi, ng'onda bado ni wa kahi kpwa utambulisho wa Adigo wa pwani. Chidzidzi cha avuvi, soko ra ligundzu, harufu ya ng'onda wa kuchoma dzulu ya makala, kuona ngalawa zichiuya kpwa madzi ga dziloni — higa si shughuli za chiuchumi bahi ela ni alama za utamaduni zinazoonyesa mana ya kusagala pwani. Adigo ni atu a tsi na bahari kpwa wakati mmwenga, na chakurya chao chinaonyesa utambulisho uhu wa pande mbiri kpwa chila sahani ya wali wa nazi inayoriwa phamwenga na ng'onda ariyewadwa. Kuhifadhi desturi za uvuvi zinazoweza kudumu kpwa hivyo si dzambo ra mazingira au uchumi bahi, ela ni lazima ya utamaduni — dzambo ra kuhakikisha kukala vivyazi vya siku za mbere vya ana a Adigo anakula achimanya ladha ya ng'onda a phapho ariopakpwa nazi na ndimu."
+    }
+  ]
+}

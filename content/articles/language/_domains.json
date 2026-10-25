@@ -1,0 +1,25 @@
+[
+  {
+    "slug": "oral-traditions",
+    "title": {
+      "en": "Oral Traditions",
+      "sw": "Mila za Kusimulia",
+      "dg": "Mila za Kuhadisi"
+    },
+    "intro": {
+      "en": "Long before the Digo had a written alphabet, they had a literature. It lived in the mouths of elders who could recite the genealogy of a clan stretching back seven generations, in grandmothers who…",
+      "sw": "Kabla ya Wadigo kuwa na alfabeti ya maandishi, walikuwa na fasihi. Fasihi hiyo iliishi midomoni mwa wazee walioweza kusimulia nasaba ya ukoo kwa vizazi saba nyuma, katika nyanyazetu walioimbisha…",
+      "dg": "Kabila Adigo takaandika kpwa herufi, kala ana fasihi. Fasihi iyo yakala miromoni mwa avyere ariowezo kusimulia nasaba za mbari kpwa vizazi saba nyuma, kpwa akuku arioimbisha ana kpwa nyimbo za kare…"
+    },
+    "proverb": "Achili ni nyere, chila mmwenga ana zakpwe",
+    "proverbGloss": "Intelligence is like hair — everyone has their own",
+    "topics": [
+      "folk-tales-and-stories",
+      "oral-history",
+      "oral-poetry-and-song",
+      "proverbs",
+      "riddles",
+      "written-literature"
+    ]
+  }
+]

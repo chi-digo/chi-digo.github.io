@@ -1,0 +1,151 @@
+{
+  "id": "figures/kubo-mangaru",
+  "published": true,
+  "title": {
+    "en": "Kubo Mangaru Mwajita",
+    "sw": "Kubo Mangaru Mwajita",
+    "dg": "Kubo Mangaru Mwajita"
+  },
+  "subtitle": {
+    "en": "The Kubo Who Stood Up to Mbaruk",
+    "sw": "Kubo Aliyesimama Dhidi ya Mbaruk",
+    "dg": "Kubo Ariyempinga Mbaruk"
+  },
+  "meta": [
+    {
+      "en": "Era: Ruled as Kubo c. 1865–1894",
+      "sw": "Kipindi: Alitawala kama Kubo karibu 1865–1894",
+      "dg": "Wakati: Watawala dza Kubo phephi na 1865–1894"
+    },
+    {
+      "en": "Role: Kubo (hereditary ruler) of the southern Digo; opponent of Shaykh Mbaruk bin Rashid of Gasi",
+      "sw": "Jukumu: Kubo (mtawala wa kurithi) wa Wadigo wa kusini; mpinzani wa Shaykh Mbaruk bin Rashid wa Gasi",
+      "dg": "Kazi: Kubo (mtawala wa kurisi) wa Adigo a kusini; ariyempinga Shaykh Mbaruk bin Rashid wa Gasi"
+    },
+    {
+      "en": "Region: Chikoneni, Kwale, present-day Kenya",
+      "sw": "Eneo: Chikoneni, Kwale, katika Kenya ya leo",
+      "dg": "Phatu: Chikoneni, Kwale, Kenya ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "Mangaru Mwajita ruled the Digo of Chikoneni through the most dangerous thirty years of their 19th-century history. In the same year that he is thought to have come to power, a new and aggressive ruler took over at Gasi on the coast. For the next three decades the country between Gasi and Vanga was, in the words of the historian David Sperling, \"the most turbulent and least secure part of Mijikenda country\". Mangaru is remembered as the one Digo ruler who could stand against Gasi.",
+      "sw": "Mangaru Mwajita aliwatawala Wadigo wa Chikoneni katika miaka thelathini ya hatari zaidi katika historia yao ya karne ya 19. Mwaka uleule ambao inadhaniwa aliingia madarakani, mtawala mpya mwenye uchokozi alishika uongozi huko Gasi pwani. Kwa miongo mitatu iliyofuata, nchi kati ya Gasi na Vanga ilikuwa, kwa maneno ya mwanahistoria David Sperling, \"sehemu yenye misukosuko zaidi na isiyo salama zaidi ya nchi ya Mijikenda\". Mangaru anakumbukwa kama mtawala pekee wa Kidigo aliyeweza kusimama dhidi ya Gasi.",
+      "dg": "Mangaru Mwajita watawala Adigo a Chikoneni kahi ya miaka 30 ya hatari zaidi kahi ya historiya yao ya karne ya 19. Mwaka hinyo hinyo ambao atu anaamini kukala wahala utawala, mtawala muphya na msiru wahala utawala hiko Gasi, pwani. Kpwa miaka 30 iriyolunga, tsi ya kahi ya Gasi na Vanga kala ni, kpwa maneno ga mwanahistoriya David Sperling, \"sehemu ya tsi ya Amijikenda yenye vurugu zaidi na isiyo na usalama zaidi\". Mangaru nkutambukirwa dza mtawala wa pekee wa Chidigo ariyeweza kuipinga Gasi."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "What follows rests mainly on Sperling's 1988 thesis, which draws on Chikoneni oral testimony, a French missionary's account of a visit in 1890, and letters in the Kenya National Archives.",
+      "sw": "Yafuatayo yanategemea hasa tasnifu ya Sperling ya mwaka 1988, inayotumia ushuhuda wa mdomo wa Chikoneni, simulizi ya mmisionari Mfaransa aliyezuru mwaka 1890, na barua zilizo katika Hifadhi ya Taifa ya Kenya.",
+      "dg": "Mambo ganagolunga ganakula sana kpwa tasnifu ya Sperling ya mwaka 1988, ambayo inahumira ushahidi wa mromo wa atu a Chikoneni, habari ya mmisionari Mfaransa ariyenyendekera hiko mwaka 1890, na baruwa ziriziko Kenya National Archives."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Heir to the Kuboship",
+      "sw": "Mrithi wa Ukubo",
+      "dg": "Mrisi wa Ukubo"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Mangaru inherited a title, not just a village. His grandfather, Mbogo Mwamzungu, had come from Kwale at the end of the 18th century and made himself the dominant leader of the southern Digo, taking the name *Kubo*. The name became a hereditary title. Most Digo kayas, the old fortified settlements, were governed by a council of elders (*ngambi*) led by a senior ritual elder, the *mwanatsi*. The Kubo held wider and more personal authority, which colonial officers later described as unusually centralised for the coast. Mwamzungu was succeeded by his son Jita Mwakubo, and Jita by his son Mangaru. Sperling dates Mangaru's rule to about 1865–1894. Chikoneni stood some fifteen miles inland, and its Digo looked mainly to the Vumba Diwans of Vanga, with whom the Kubos had a long alliance.",
+      "sw": "Mangaru alirithi cheo, si kijiji tu. Babu yake, Mbogo Mwamzungu, alikuwa ametoka Kwale mwishoni mwa karne ya 18 na kujifanya kiongozi mkuu wa Wadigo wa kusini, akichukua jina *Kubo*. Jina hilo likawa cheo cha kurithiwa. Kaya nyingi za Wadigo, yaani makao ya zamani yaliyozungushiwa ulinzi, ziliongozwa na baraza la wazee (*ngambi*) chini ya mzee mkuu wa mila, *mwanatsi*. Kubo alikuwa na mamlaka mapana zaidi na ya kibinafsi zaidi, ambayo maafisa wa kikoloni baadaye waliyaeleza kuwa ya kati kwa namna isiyo ya kawaida kwa pwani. Mwamzungu alirithiwa na mwanawe Jita Mwakubo, na Jita akarithiwa na mwanawe Mangaru. Sperling anaweka utawala wa Mangaru karibu 1865–1894. Chikoneni ilikuwa takriban maili kumi na tano kutoka pwani kuelekea bara, na Wadigo wake walitegemea hasa Madiwani wa Vumba wa Vanga, ambao Makubo walikuwa na muungano nao wa muda mrefu.",
+      "dg": "Mangaru warisi cheo, si chidzidzi bahi. Tsaweye, Mbogo Mwamzungu, kala akakpwedza kula Kwale mwisho wa karne ya 18, achidzihenda chilongozi mkpwulu wa Adigo a kusini, na achihala dzina *Kubo*. Dzina hiro rakala cheo cha kurisiwa. Makaya manji ga Adigo, makalo ga kare garigorindwa, kala ganalongozwa ni baraza ra azehe (*ngambi*) ririrolongozwa ni mzehe mkpwulu wa mila, *mwanatsi*. Kubo kala ana mamlaka mapana zaidi, ga iye mwenye, ambago badaye maafisa a chikoloni agaonyesa kukala garigokusanywa phatu phamwenga kuriko kawaida ya pwani. Mwamzungu warisiwa ni mwanawe Jita Mwakubo, na Jita warisiwa ni mwanawe Mangaru. Sperling anaika utawala wa Mangaru phephi na 1865–1894. Chikoneni kala i phephi maili kumi na tsano kula pwani kuphiya bara, na Adigo a hiko kala anategemea sana Madiwani a Vumba a Vanga, ambao Akubo kala ana chilagane nao cha muda mure."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "Mbaruk of Gasi",
+      "sw": "Mbaruk wa Gasi",
+      "dg": "Mbaruk wa Gasi"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "In 1865 Shaykh Mbaruk bin Rashid al-Mazrui became leader at Gasi. Sperling describes him as \"more aggressive and more ambitious\" than the man before him. He tried to expand his influence and raided those who opposed him. From the late 1860s he quarrelled with the Sultans of Zanzibar, and the region's peoples were drawn in. In general the Vumba, the Digo of Chikoneni, the Shirazi and the Segeju opposed Mbaruk, while the Digo and Duruma north of Gasi tended to support him. Mbaruk attacked Vanga in 1873, and Sultan Barghash used armed force against him several times between 1872 and 1886.",
+      "sw": "Mwaka 1865 Shaykh Mbaruk bin Rashid al-Mazrui akawa kiongozi wa Gasi. Sperling anamweleza kuwa \"mchokozi zaidi na mwenye tamaa kubwa zaidi\" kuliko aliyemtangulia. Alijaribu kupanua ushawishi wake na kuwavamia waliompinga. Kuanzia mwishoni mwa miaka ya 1860 aligombana na Masultani wa Zanzibar, na watu wa eneo hilo wakavutwa katika mzozo huo. Kwa jumla Wavumba, Wadigo wa Chikoneni, Washirazi na Wasegeju walimpinga Mbaruk, huku Wadigo na Waduruma wa kaskazini mwa Gasi wakielekea kumuunga mkono. Mbaruk aliishambulia Vanga mwaka 1873, na Sultani Barghash alitumia nguvu za kijeshi dhidi yake mara kadhaa kati ya 1872 na 1886.",
+      "dg": "Mwaka 1865 Shaykh Mbaruk bin Rashid al-Mazrui wakala chilongozi wa Gasi. Sperling anagomba kukala kala \"ni msiru zaidi na ana tamaa zaidi\" kuriko mtawala ariyekala Gasi kabla ya iye. Wajeza kuenjereza nguvuze na achiavamira hara ariompinga. Kuandzira mwisho wa miaka ya 1860 wakala na ugomvi na Masultani a Zanzibar, na atu a kanda iyo osi achiinjira kpwenye ugomvi uho. Kpwa jumla, Avumba, Adigo a Chikoneni, Ashirazi na Asegeju kala anampinga Mbaruk, ela Adigo na Aduruma a kazikazini ya Gasi mara nyinji kala anamterya. Mbaruk wavamira Vanga mwaka 1873, na Sultani Barghash wahumira nguvu za asikari kumpinga mara kadhaa kahi ya 1872 na 1886."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The French missionary Alexandre Le Roy visited Kubo Mangaru in 1890. Afterwards he wrote: \"The Digo testify unanimously that in times past Mbaruk has ruined their villages, and transformed the magnificent countryside into a solitary desert.\" The damage lasted. In 1921 a District Commissioner still found the land between Gasi and the Ramisi river thinly settled, because \"fear of Sheikh Mbaruk of Gazi (slave raiding)\" had driven many Digo west of the Ramisi.",
+      "sw": "Mmisionari Mfaransa Alexandre Le Roy alimtembelea Kubo Mangaru mwaka 1890. Baadaye aliandika: \"Wadigo wanashuhudia kwa kauli moja kwamba zamani Mbaruk aliviharibu vijiji vyao, na kuigeuza nchi yao maridadi kuwa jangwa tupu\". Uharibifu huo ulidumu. Mwaka 1921 Mkuu wa Wilaya bado aliikuta ardhi kati ya Gasi na mto Ramisi ikiwa na watu wachache, kwa sababu \"hofu ya Sheikh Mbaruk wa Gazi (uvamizi wa kuteka watumwa)\" ilikuwa imewafukuza Wadigo wengi kwenda magharibi ya Ramisi.",
+      "dg": "Mmisionari Mfaransa Alexandre Le Roy wamnyendekera Kubo Mangaru mwaka 1890. Badaye waandika: \"Adigo anashuhudiya chivyamwenga kukala kare Mbaruk wabananga vidzidzi vyao, na achigaluza tsi yao nono sana ikala weru tuphu\". Hasara hiyo yenderera kpwa muda mure. Mwaka 1921 Afisa wa Wilaya kala achere anaona tsi ya kahi ya Gasi na muho wa Ramisi ina atu achache, kpwa sababu \"wuoga wa Sheikh Mbaruk wa Gazi (kuvamira atu kuahala atumwa)\" kala ukaazoresa Adigo anji, achivuka Ramisi kuphiya uphande wa mtswerero wa dzuwa."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "According to Mkpwulu bin Abdallah, who spoke to Sperling in 1976, Mangaru was \"the only Digo ruler strong enough to offer resistance\". When he came into conflict with Mbaruk, Sultan Barghash sent Baluchi soldiers to Chikoneni to protect him. The tradition gives no date for this. Barghash ruled from 1870 to 1888.",
+      "sw": "Kwa mujibu wa Mkpwulu bin Abdallah, aliyezungumza na Sperling mwaka 1976, Mangaru alikuwa \"mtawala pekee wa Kidigo aliyekuwa na nguvu za kutosha kuweka upinzani\". Alipogombana na Mbaruk, Sultani Barghash aliwatuma askari wa Kibaluchi Chikoneni kumlinda. Mapokeo hayataji tarehe ya tukio hili. Barghash alitawala kuanzia 1870 hadi 1888.",
+      "dg": "Kulengana na Mkpwulu bin Abdallah, ariyegomba na Sperling mwaka 1976, Mangaru kala ni \"mtawala wa pekee wa Chidigo ariyekala na nguvu za kutosha kupinga\". Ariphokala na ugomvi na Mbaruk, Sultani Barghash wahuma asikari a Chibaluchi Chikoneni kumrinda. Hadisi iyo taigomba ni lini dzambo hiro rahendeka. Barghash watawala kula 1870 hadi 1888."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Was He a Muslim?",
+      "sw": "Je, Alikuwa Mwislamu?",
+      "dg": "Kala ni Mwislamu?"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The same informant said Mangaru became a Muslim on a visit to Barghash in Zanzibar. Sperling doubts it. Mangaru seems never to have used a Muslim name, and none is remembered for him. In 1894 he wrote to Mr Pigott, Sub-commissioner of the Imperial British East Africa Company, and signed himself \"Kubo bin Jetha\", Kubo son of Jita. Sperling points out that Mangaru used a Vumba scribe, and the Muslim \"bin\" may have been the scribe's choice. In 1916 a District Officer stated that Mangaru's successor was \"the first Kubo to adopt the Islam religion\".",
+      "sw": "Msimulizi huyo huyo alisema Mangaru alisilimu alipomtembelea Barghash Zanzibar. Sperling ana shaka na hilo. Inaonekana Mangaru hakuwahi kutumia jina la Kiislamu, na hakuna jina kama hilo linalokumbukwa kwake. Mwaka 1894 alimwandikia Bw. Pigott, Kamishna Msaidizi wa Kampuni ya Imperial British East Africa, na akatia sahihi \"Kubo bin Jetha\", yaani Kubo mwana wa Jita. Sperling anaeleza kwamba Mangaru alitumia karani Mvumba, na huenda neno la Kiislamu \"bin\" lilikuwa chaguo la karani huyo. Mwaka 1916 Afisa wa Wilaya alieleza kwamba mrithi wa Mangaru alikuwa \"Kubo wa kwanza kuikubali dini ya Kiislamu\".",
+      "dg": "Mutu hiye hiye wagomba kukala Mangaru wasilimu ariphophiya kumnyendekera Barghash Zanzibar. Sperling ana shaka na dzambo hiro. Inaonekana Mangaru kayahumira dzina ra Chiislamu, na takuna dzina ra hivyo rinarotambukirwa kuhusu iye. Mwaka 1894 wamuandikira Bw. Pigott, Kamishna Msaidizi wa Imperial British East Africa Company, na achiika saini \"Kubo bin Jetha\", manage ni Kubo mwana wa Jita. Sperling anaonyesa kukala Mangaru kala anahumira karani Mvumba, na neno ra Chiislamu \"bin\" rinaweza kukala ni karani mwenye ariyeritsambula. Mwaka 1916 Afisa wa Tarafa wagomba kukala mrisi wa Mangaru kala ni \"Kubo wa kpwandza kuhala dini ya Chiislamu\"."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Islam was nonetheless close at hand. Le Roy noticed it at Chikoneni: the people \"were not the same\", their bodies \"more heavily clothed\"; \"there was a leaven of Islam here.\"",
+      "sw": "Hata hivyo Uislamu ulikuwa karibu. Le Roy aliuona Chikoneni: watu \"hawakuwa sawa na wengine\", miili yao \"ilikuwa imevikwa nguo zaidi\"; \"palikuwa na chachu ya Uislamu hapa\".",
+      "dg": "Ela Uislamu kala u phephi. Le Roy wauona hiko Chikoneni: atu \"kala si dza anjina\", miiri yao \"kala ikafinikpwa ni nguwo zaidi\"; \"hipha kala kuna hamira ya Uislamu\"."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Between Zanzibar and the Company",
+      "sw": "Kati ya Zanzibar na Kampuni",
+      "dg": "Kahi ya Zanzibar na Kampuni"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Mangaru's letters of 1894 show him dealing directly with a European chartered company in the last years before the British protectorate of 1895. By then Mbaruk himself was on peaceful terms with Zanzibar and drew a stipend from the Company. The peace did not last. In 1895 Mbaruk led the rising against the Sultan and the British, and in July of that year he sacked Vanga. Sperling found that most Digo south of Mombasa, \"whose links with the Mazrui were tenuous, if not hostile, showed little inclination to join the Rising.\" Chikoneni's long hostility to Gasi helps to explain why.",
+      "sw": "Barua za Mangaru za mwaka 1894 zinamwonyesha akishughulika moja kwa moja na kampuni ya Kizungu yenye hati ya kifalme katika miaka ya mwisho kabla ya ulinzi wa Waingereza wa 1895. Wakati huo Mbaruk mwenyewe alikuwa na amani na Zanzibar na alipokea posho kutoka kwa Kampuni. Amani hiyo haikudumu. Mwaka 1895 Mbaruk aliongoza uasi dhidi ya Sultani na Waingereza, na mwezi Julai mwaka huo aliiteka na kuipora Vanga. Sperling aligundua kwamba Wadigo wengi wa kusini mwa Mombasa, \"ambao uhusiano wao na Wamazrui ulikuwa dhaifu, kama si wa uhasama, walionyesha nia ndogo ya kujiunga na Uasi\". Uhasama wa muda mrefu wa Chikoneni dhidi ya Gasi unasaidia kueleza sababu.",
+      "dg": "Baruwa za Mangaru za mwaka 1894 zinamuonyesa achigomba iye mwenye na kampuni ya Chizungu iriyohewa hati ya mfalume, kahi ya miaka ya mwisho kabla ya Aingereza kuika tsi photsi ya ulinzi wao mwaka 1895. Wakati hinyo Mbaruk mwenye kala ana amani na Zanzibar, na kala anaphaha mshahara kula kpwa Kampuni. Amani iyo taiyakaa. Mwaka 1895 Mbaruk walongoza uasi (*timbi*) wa kumpinga Sultani na Aingereza, na mwezi wa Julai mwaka hinyo wavamira Vanga achiibananga. Sperling waona kukala Adigo anji a kusini ya Mombasa, \"ambao uhusiano wao na Amazrui kala ni mdhaifu, ichikala si wa uadui, taayaonyesa haja ya kudziunga na Uasi\". Uadui wa kare wa Chikoneni na Gasi unaterya kuonyesa sababu."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Sperling's dates end Mangaru's rule in 1894. His nephew Shehe Mwatsolozi, son of Tsolozi Mwajita, was installed as Kubo at Chikoneni in 1895. The sources do not say how or when Mangaru died.",
+      "sw": "Tarehe za Sperling zinamaliza utawala wa Mangaru mwaka 1894. Mpwa wake Shehe Mwatsolozi, mwana wa Tsolozi Mwajita, alisimikwa kuwa Kubo huko Chikoneni mwaka 1895. Vyanzo havisemi Mangaru alifariki vipi wala lini.",
+      "dg": "Kulengana na Sperling, utawala wa Mangaru wamala mwaka 1894. Mwana wa nduguye, Shehe Mwatsolozi, mwana wa Tsolozi Mwajita, waikpwa kukala Kubo hiko Chikoneni mwaka 1895. Vyanzo tavigomba Mangaru wafwadze, wala ni lini."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi Wake",
+      "dg": "Urisiwe"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Mangaru's story survives in pieces: an elder's memory, a missionary's travel book, letters written for him by a scribe. It is enough to show a Digo ruler who held his ground against Gasi for a generation, won the support of Zanzibar, and negotiated with the British East Africa Company. After Kubo Shehe died in 1916 the title was disputed and then lapsed, so Mangaru was the last Kubo to rule before colonial government took hold.",
+      "sw": "Hadithi ya Mangaru imebaki vipande vipande: kumbukumbu ya mzee, kitabu cha safari cha mmisionari, barua alizoandikiwa na karani. Inatosha kuonyesha mtawala wa Kidigo aliyeshikilia msimamo wake dhidi ya Gasi kwa kizazi kizima, akapata uungwaji mkono wa Zanzibar, na akajadiliana na Kampuni ya Waingereza ya Afrika Mashariki. Baada ya Kubo Shehe kufariki mwaka 1916 cheo hicho kiligombaniwa kisha kikafifia, kwa hiyo Mangaru alikuwa Kubo wa mwisho kutawala kabla ya utawala wa kikoloni kushika mizizi.",
+      "dg": "Hadisi ya Mangaru ikasala vipande-vipande: maneno ganagotambukirwa ni mzehe mmwenga, chitabu cha safari cha mmisionari, na baruwa ambazo karani wamuandikira. Ni vya kutosha kuonyesa mtawala wa Chidigo ariyeima imara kuipinga Gasi kpwa chivyazi chizima, achiterywa ni Zanzibar, na achigomba na British East Africa Company kuhendza mapatano. Bada ya Kubo Shehe kufwa mwaka 1916, kpwakala na ugomvi kuhusu cheo hicho, chisha chamala; phahi Mangaru ndiye Kubo wa mwisho kutawala kabla ya serikali ya chikoloni kugbwira tsi."
+    }
+  ],
+  "sources": [
+    "David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, School of Oriental and African Studies, University of London, 1988. Ch. V, pp. 144–145 (Mbaruk and the Gasi–Vanga region) and pp. 158–160 (the Kubos, notes 81–86); Ch. VI, p. 182 (Digo and the 1895 Rising); Ch. III, p. 94 (sack of Vanga); Appendix IX, pp. 211–212 (Shaykh Mbaruk). Full text: https://su-plus.strathmore.edu/server/api/core/bitstreams/d1de38b9-24f8-4de8-ae6d-c800cc8d657b/content",
+    "A. Le Roy, *Au Kilima-ndjaro* (Paris, 1893), pp. 47 and 54, as quoted and translated by Sperling.",
+    "Kenya National Archives, as cited by Sperling: Mangaru's letters to Pigott, 1894 (Coast Province MP/14/67); \"Death of the Kubo\", File Memo by G. H. Osborne, 1916 (DC/KWL/3/5); Annual Report 1920–21, Vanga District (DC/KWL/1/6).",
+    "Oral testimony recorded by Sperling: Mkulu bin Abdallah, Mwaluvanga Eshu (28 September 1976)."
+  ]
+}

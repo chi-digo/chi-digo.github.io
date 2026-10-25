@@ -1,0 +1,197 @@
+{
+  "id": "culture/dress/hando",
+  "title": {
+    "en": "The Hando",
+    "sw": "Hando",
+    "dg": "Hando"
+  },
+  "intro": {
+    "en": "Among the Digo and the wider Mijikenda peoples of the Kenyan south coast, one garment stands above all others as a marker of feminine identity and cultural belonging: the hando. It is a long cotton…",
+    "sw": "Miongoni mwa Wadigo na watu wa Mijikenda kwa upana, vazi moja linasimama juu ya yote kama alama ya utambulisho wa kike na kuwa sehemu ya utamaduni: hando. Ni kitambaa kirefu cha pamba, kinachokusanywa…",
+    "dg": "Kahi ya Adigo na atu a Amijikenda kpwa upana, a pwani ya kusini ya Kenya, nguwo mwenga inaima dzulu ya zosi dza alama ya utambulisho wa chichetu na ya kukala seemu ya chimila: hando. Ni chitambara chirefu cha pamba,…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Garment That Speaks",
+      "sw": "Vazi Linalozungumza",
+      "dg": "Nguwo Inayoamba"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Among the Digo and the wider Mijikenda peoples of the Kenyan south coast, one garment stands above all others as a marker of feminine identity and cultural belonging: the hando. It is a long cotton cloth, gathered into deliberate folds and wrapped around the lower body in a way that accentuates the hips — not as mere decoration, but as a statement. The hando declares that its wearer is a woman of the coast, rooted in a tradition that predates the arrival of Islam, the colonial encounter, and the modern nation-state. To wear the hando is to participate in a lineage of women stretching back through uncounted generations, each of whom tied the same cloth, arranged the same folds, and walked with the same measured grace that the garment demands.",
+      "sw": "Miongoni mwa Wadigo na watu wa Mijikenda kwa upana, vazi moja linasimama juu ya yote kama alama ya utambulisho wa kike na kuwa sehemu ya utamaduni: hando. Ni kitambaa kirefu cha pamba, kinachokusanywa katika mikunjo ya makusudi na kufungwa mwilini sehemu ya chini kwa njia inayosisitiza viuno — si kama mapambo tu, bali kama tamko. Kuvaa hando ni kushiriki katika nasaba ya wanawake inayoenea nyuma kupitia vizazi visivyohesabika.",
+      "dg": "Kahi ya Adigo na atu a Amijikenda kpwa upana, a pwani ya kusini ya Kenya, nguwo mwenga inaima dzulu ya zosi dza alama ya utambulisho wa chichetu na ya kukala seemu ya chimila: hando. Ni chitambara chirefu cha pamba, chinachokusanywa kpwa mikunjo ya makusudi na kufungwa seemu ya tsini ya mwiri kpwa njira inayoonyesa vinono umbo ra mahako — si dza pambo bahi, ela dza tamko. Hando rinatangaza kukala ariyerivwala ni mchetu wa pwani, wa mila iriyokalako kabla ya kufika kpwa Uislamu, kabla ya akoloni, na kabla ya taifa ra chisasa. Kuvwala hando ni kushiriki kahi ya mstari wa achetu unaophiya nyuma vizazi visivyoweza kuhesabika, chila mmwenga wao akafunga chitambara chicho-chicho, akapanga mikunjo iyo-iyo, na akanyendeka kpwa utaratibu uwo-uwo ambao nguwo ino inalonda."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The hando is not a sarong, though outsiders sometimes mistake it for one. It is not a kanga, though both are wrapped cloths. It is not a leso, though all three occupy the same general category of East African wrapped textiles. The hando is distinguished by its construction, its draping technique, and above all by its cultural specificity. It belongs to the Mijikenda peoples — the Digo, the Duruma, the Rabai, the Giriama, and the other communities of the nine — and its visual signature is unmistakable to anyone raised in this tradition.",
+      "sw": "Hando si sarong, ingawa wageni wakati mwingine wanaifananisha. Si kanga, ingawa zote mbili ni vitambaa vinavyofungwa. Hando inatofautishwa na ujenzi wake, mbinu yake ya kuvaa, na zaidi ya yote na upekee wake wa kitamaduni. Ni ya watu wa Mijikenda — Wadigo, Waduruma, Warabai, Wagiriama — na saini yake ya kuona haifanani na nyingine yoyote.",
+      "dg": "Hando si sarong, ingawa ajeni wakati wanjina nkurifwananisha na sarong. Si kanga, ingawa zosi mbiri ni vitambara vinavyofungwa mwirini. Si leso, ingawa zosi tahu ziri kahi ya kundi ra vitambara vinavyofungwa vya Afrika ya Mashariki. Hando ni ra tafwauti kpwa sababu ya muundowe, mbinu ya kurivwala, na zaidi ya zosi upekeewe wa chimila. Ni ra atu a Amijikenda — Adigo, Aduruma, Arabai, Agiriama, na mbari zanjina za Midzi Chenda — na suraye tairi dza yanjina kpwa mutu yeyesi ariyekulira kahi ya mila ino."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "How It Is Worn",
+      "sw": "Rangi na Maana Zake",
+      "dg": "Hando Rinavyovwalwa"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The technique of wearing the hando is itself a form of knowledge, passed from older women to younger ones through demonstration and practice rather than written instruction. The cloth is wrapped around the lower body starting at the waist, with the fabric gathered into a series of folds at one hip. These folds are not random — they are arranged with precision, creating a structured volume that emphasizes the natural curve of the hips. The cloth is then tucked firmly at the waist, the tuck itself a small act of skill that determines whether the hando will hold through hours of movement, dance, and ceremony.",
+      "sw": "Rangi ya hando si ya bahati nasibu. Hando nyeupe huvaliwa katika harusi, ikiashiria usafi na mwanzo mpya. Nyekundu inaonyesha mwanamke aliyepitia uzoefu wa pepo — hali ya kumilikiwa na roho. Bluu ni ya wanawake wakubwa, rangi ya ukomavu na hekima iliyokusanywa kupitia miongo ya maisha.",
+      "dg": "Mbinu ya kuvwala hando yenye ni aina ya marifwa, ganayotsapizwa kula kpwa achetu azehe hadi kpwa adide kpwa kuonyeswa na kuhenda, si kpwa maelekezo ga kuandikpwa. Chitambara nkufungwa seemu ya tsini ya mwiri kuandzira chununi, na chitambara chichikusanywa kpwa mikunjo kpwa upande mmwenga wa hako. Mikunjo ino si ya bahati — inapangwa kpwa uangalifu, ichiunda unono uriopangika unaoonyesa vinono umbo ra mahako. Chisha chitambara nkuchomekpwa chununi kpwa nguvu; kuchomeka kuku ni ujuzi mdide unaoamua kukala hando rindaima saa nyinji za kunyendeka, kuvwina, na sherehe."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The way the folds are arranged communicates information. The fullness of the gathering, the side on which the tuck is made, the length of the cloth below the knee — all of these carry subtle signals about the wearer's status, the formality of the occasion, and the specific community tradition she follows. An experienced eye can read these signals instantly, distinguishing a wedding drape from an everyday arrangement, a ceremonial fold from a working one. Young women learn these distinctions gradually, absorbing them through years of observation and imitation until the knowledge becomes instinctive.",
+      "sw": "Umuhimu wa Sherehe",
+      "dg": "Njira mikunjo inavyopangwa inaonyesa habari. Unji wa mikunjo, upande ambapho chitambara nkuchomekpwa, na urefu wa chitambara photsi ya goti — gosi higa ganatsukula ishara za chisiri kuhusu hadhi ya ariyevwala, ukulu wa tukio, na mila ya utsi anayoilunga. Matso ga mutu ariyemanya ganaweza kusoma ishara hizi phapho-phapho, ganamanya tafwauti ya mkundzo wa arusi na wa chila siku, wa sherehe na wa kazi. Asichana nkudzifundza tafwauti hizi pore-pore, achizihala kpwa miaka minji ya kulola na kuiga hadi marifwa gachikala ga chimazoea."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Colors and Their Meanings",
+      "sw": "Hando yenye kina zaidi ya maana inaibuka katika muktadha wa sherehe. Katika harusi, sherehe za kutoa jina, na ibada za mababu, hando inabadilika kutoka vazi hadi ishara — uzi unaoonekana unaounganisha wakati wa sasa na zamani za kina za mila ya Mijikenda. Hando ya bibi harusi — nyeupe, iliyopambwa na mapambo ya ushanga — ni kitovu cha matayarisho ya kina ambayo yanaweza kuwa yameanza miezi mapema.",
+      "dg": "Rangi na Maana Zao"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The hando's color is never accidental. White hando garments are worn at weddings, signifying purity and new beginnings. There is no age restriction on white — any woman may wear it at a wedding celebration, and the collective display of white-clad women dancing chakacha creates one of the most visually striking scenes in Digo ceremonial life. The white hando at a wedding is not merely beautiful. It is a communal declaration of hope and blessing for the new union.",
+      "sw": "Ufufuaji wa Kisasa",
+      "dg": "Rangi ya hando taikala ya bahati katu. Hando nyereru nkuvwalwa kahi ya arusi, richionyesa utakaso na mwandzo muphya. Takuna chikomo cha umri kpwa nyereru — mchetu yeyesi anaweza kurivwala kahi ya sherehe ya arusi, na achetu anji avwalao nyereru achivwina chakacha ni mwenga wa mionekano ya ajabu zaidi kahi ya sherehe za Adigo. Hando nyereru kahi ya arusi si rinono bahi. Ni tamko ra atu osi ra matumaini na baraka kpwa ndowa iyo nyiphya."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Red carries a different weight entirely. A red hando marks a woman who has experienced spirit possession — the state known as pepo. This is not a stigma but a recognition: the woman in red has undergone a spiritual experience that sets her apart, and the color announces this to the community. Red carries both spiritual significance and a measure of social authority, for the experience of pepo is understood as a form of spiritual knowledge, difficult and demanding, that earns its own respect.",
+      "sw": "Mustakabali wa hando unashughulikiwa na kizazi kipya cha wabunifu. Edna Dhahabu kutoka Rabai amejitokeza kama mtu mashuhuri zaidi katika ufufuaji huu, akichukua hando ya jadi kama hatua ya kwanza na kuifikiria upya kwa mavazi ya kisasa. Warsha yake inaajiri watu kumi na saba, na maagizo ya kimataifa yanafika Dubai na Marekani. Mvutano kati ya kisasa na jadi ni wa kweli — lakini mila inayojadiliwa ni mila ambayo watu bado wanaijali.",
+      "dg": "Rangi ya kundu inatsukula uzito tafwauti kabisa. Hando ra kundu rinaonyesa mchetu ariyekala na pepo — hali inayomanyikana dza pepo. Hino si waibu ela ni kutambulwa: mchetu wa kundu akaphitiya dzambo ra chiroho rinaromtenga, na rangi inatangaza dzambo hiri kpwa atu. Rangi ya kundu inatsukula umuhimu wa chiroho na uwezo wa chijamii, kpwa sababu dzambo ra pepo nkuonekana dza aina ya marifwa ga chiroho, magumu na ganagolonda sana, ganayophaha hishimaye."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Blue belongs to the older women. It is the color of maturity, of wisdom accumulated through decades of life, of the quiet authority that comes with age in a society that venerates its elders. A woman wearing a blue hando has earned the right to it through years of living, and the color itself is a form of address — a visual declaration that demands the respect due to seniority. The blue hando is perhaps the most dignified of all the variations, its understated color speaking more eloquently than any brighter shade could.",
+      "sw": "Buluu ni ya wanawake wazee. Ni rangi ya ukomavu, ya hekima iliyokusanywa kupitia miongo ya maisha, ya mamlaka ya kimya inayokuja na umri katika jamii inayoheshimu wazee wake. Mwanamke anayevaa hando la buluu amestahili haki yake kupitia miaka ya kuishi, na rangi yenyewe ni aina ya anwani — tamko la kuonekana linalodai heshima inayostahili ukubwa wake. Hando la buluu labda ndilo lenye heshima zaidi kati ya tofauti zote, rangi yake ya upole ikizungumza kwa ufasaha zaidi kuliko rangi yoyote angavu ingeweza.",
+      "dg": "Rangi ya samawati ni ya achetu azehe. Ni rangi ya ukulu, ya ikima iriyokusanywa kpwa miongo minji ya maisha, na ya uwezo wa pore wa umri kahi ya atu anaoishimu azehe. Mchetu anayevwala hando ra samawati akaphaha haki iyo kpwa miaka ya kuishi, na rangi yenye ni njira ya kugomba — tamko ra kuonekana rinalonda hishima ya ukulu. Hando ra samawati ichiwezekana ndiro ra hishima zaidi kahi ya aina zosi, na rangiye ya pore inagomba zaidi kuriko rangi yoyosi ya kung'ala."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Ceremonial Significance",
+      "sw": "Umuhimu wa Kisherehe",
+      "dg": "Umuhimu wa Chisherehe"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The hando's deepest meaning emerges in ceremonial contexts. At weddings, naming ceremonies, and ancestral rituals, the hando transforms from a garment into a symbol — a visible thread connecting the present moment to the deep past of Mijikenda tradition. When women gather in their hando garments for a ceremony at the kaya, they are not merely dressing appropriately. They are embodying a continuity that words cannot fully express, wrapping themselves literally in the fabric of their heritage.",
+      "sw": "Maana ya kina zaidi ya hando inajitokeza katika muktadha wa sherehe. Katika harusi, sherehe za kutoa jina, na ibada za mababu, hando linabadilika kutoka nguo kuwa ishara — uzi unaoonekana unaounganisha wakati wa sasa na zamani za mbali za mila ya Mijikenda. Wanawake wanapokusanyika katika mavazi yao ya hando kwa sherehe katika kaya, hawavai tu ipasavyo. Wanabeba mwendelezo ambao maneno hayawezi kueleza kikamilifu, wakijifunga kihalisi katika kitambaa cha urithi wao.",
+      "dg": "Maana ya ndani zaidi ya hando inadzitokeza kahi ya mazingira ga sherehe. Kahi ya arusi, sherehe za kupha dzina, na ibada za akare, hando rinabadilika kula nguwo kukala ishara — uzi unaoonekana unaounganisha wakati wa vivi na kare za kure za mila ya Amijikenda. Achetu anaphotsembeka kahi ya nguwo zao za hando kpwa sherehe kahi ya kaya, taavwala vinono bahi. Anatsukula mwenderezo ambao maneno tagaweza kuelezera kabisa, achidzikunga chihalisi kahi ya chitambara cha urithi wao."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The bridal hando deserves particular attention. The white hando worn by a Digo bride on her wedding day is the centerpiece of an elaborate preparation that may have begun months earlier. The bride has been secluded, treated with turmeric and sandalwood, her hands and feet painted with henna in patterns that took twelve hours to apply. When she finally appears in her white hando, layered with beaded jewelry and surrounded by her attendants, the effect is transformative. She is no longer simply a young woman. She has been remade — by the hands of her somo, her aunts, her community — into something luminous.",
+      "sw": "Hando la bibi arusi linastahili umakini wa pekee. Hando nyeupe linalovaliwa na bibi arusi wa Kidigo siku ya harusi yake ni kitovu cha maandalizi makubwa ambayo yanaweza kuwa yameanza miezi kadhaa mapema. Bibi arusi amekuwa amejitenga, ametibiwa kwa manjano na msandali, mikono na miguu yake imechorwa kwa hina kwa nakshi zilizochukua masaa kumi na mawili. Anapotokea hatimaye katika hando lake nyeupe, akiwa amezungukwa na mapambo ya shanga na wasaidizi wake, athari ni ya kubadilisha. Yeye si tena msichana tu. Ameundwa upya — na mikono ya somo wake, shangazi zake, jamii yake — kuwa kitu chenye mng'ao.",
+      "dg": "Hando ra bibi arusi rinastahili umakini wa chipekee. Hando nyereru rinarovwalwa ni bibi arusi wa Chidigo siku ya arusiye ni chitovu cha maandalizi makulu ambago ganaweza kukala gakaandza miezi kadhahi kare. Bibi arusi akakala akadzitenga, akatibiwa kpwa manjano na msandali, mikonoye na maguluge gakachorwa kpwa hina kpwa nakshi zirizohala masaa kumi na mairi. Anaphoonekana mwisho kahi ya handore nyereru, achikala akadzizungushiza mapambo ga ushanga na asaidizie, matokeo ni ga kubadilisha. Si msichana bahi tsona. Akaundwa luphya — ni mikono ya somowe, mashangazige, utsiwe — kukala chitu chenye kung'ala."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "At funerals and mourning gatherings, the hando takes on a more somber role. The colors chosen, the simplicity of the arrangement, the absence of the elaborate folds that mark celebration — all communicate grief and respect for the departed. The hando at a funeral is a garment of solidarity, worn by the women who have come together to mourn, its very plainness a statement of loss.",
+      "sw": "Katika mazishi na mikutano ya kuomboleza, hando linachukua jukumu la huzuni zaidi. Rangi zilizochaguliwa, urahisi wa mpangilio, kutokuwepo kwa mikunjo ya sherehe — yote yanawasilia huzuni na heshima kwa aliyeondoka. Hando katika mazishi ni nguo ya mshikamano, inavaliwa na wanawake walioungana kuomboleza, urahisi wake wenyewe ukiwa tamko la upotevu.",
+      "dg": "Kahi ya mazishi na makusanyo ga kuomboleza, hando rinatsukula kazi ya unyongo zaidi. Rangi zirizotsambulwa, urahisi wa mphangilio, kusikala kpwa mikunjo ya sherehe — gosi ganawasilisha chiriro na hishima kpwa ariyeuka. Hando kahi ya mazishi ni nguwo ya umwenga, inavwalwa ni achetu ariotiya phamwenga kuomboleza, urahisiwe wenyewe uchikala tamko ra kufwererwa."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "The Hando and the Kaya",
+      "sw": "Hando na Kaya",
+      "dg": "Hando na Kaya"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The relationship between the hando and the kaya — the sacred forest settlements that are the spiritual and historical heart of Mijikenda civilization — is profound. The kaya is a place where traditional protocols are observed with particular strictness, and dress is no exception. Women visiting the kaya wear the hando as a mark of respect for the ancestors and the elders who guard the sacred space. The specific colors permitted within the kaya grounds reflect the spiritual gravity of the place: this is not a space for casual dress or modern clothing. The hando, in this context, becomes a form of ritual preparation — putting on the garment is itself an act of entering into the proper spiritual state for engagement with the sacred.",
+      "sw": "Uhusiano kati ya hando na kaya — makazi ya msitu mtakatifu ambayo ni moyo wa kiroho na kihistoria wa ustaarabu wa Mijikenda — ni wa kina. Kaya ni mahali ambapo itifaki za jadi zinafuatwa kwa ukali wa pekee, na mavazi si ubaguzi. Wanawake wanaotembelea kaya wanavaa hando kama alama ya heshima kwa mababu na wazee wanaolinda nafasi takatifu. Rangi maalum zinazoruhusiwa ndani ya eneo la kaya zinaonyesha uzito wa kiroho wa mahali hapo: hii si nafasi ya mavazi ya kawaida au nguo za kisasa. Hando, katika muktadha huu, linakuwa aina ya maandalizi ya ibada — kuvaa nguo yenyewe ni kitendo cha kuingia katika hali sahihi ya kiroho kwa kushirikiana na matakatifu.",
+      "dg": "Uhusiano kahi ya hando na kaya — makazi ga tsaka takatifu ambago ni moyo wa chiroho na chihistoria wa ustaarabu wa Amijikenda — ni wa ndani. Kaya ni phatu ambapho itifaki za chijadi zinafuatwa kpwa ukali wa chipekee, na nguwo si chipingamizi. Achetu anaotembelea kaya anavwala hando dza alama ya hishima kpwa akare na azehe anaorinda nafasi takatifu. Rangi maalumu zinazoruhusiwa ndani ya eneo ra kaya zinaonyesa uzito wa chiroho wa phatu hipho: hiphano si phatu pha nguwo za kawaida au za chisasa. Hando, kahi ya hiri, rinakala aina ya maandalizi ga ibada — kuvwala nguwo renyewe ni chitendo cha kuinjira kahi ya hali sahihi ya chiroho kpwa kushirikiana na chitakatifu."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The kitambi, the deep indigo ceremonial cloth with red bands worn by kaya elders, exists in relationship to the hando. Together, these garments constitute a visual language of traditional authority: the kitambi for the male elders who govern the kaya, the hando for the women who participate in its ceremonial life. Both garments are understood as markers of legitimate belonging — to wear them is to claim, visibly and publicly, one's place within the traditional order.",
+      "sw": "Kitambi, nguo ya sherehe ya nili ya kina yenye mipaka myekundu inayovaliwa na wazee wa kaya, ipo katika uhusiano na hando. Pamoja, mavazi haya yanaunda lugha ya kuonekana ya mamlaka ya jadi: kitambi kwa wazee wa kiume wanaoongoza kaya, hando kwa wanawake wanaoshiriki katika maisha yake ya kisherehe. Mavazi yote mawili yanafahamika kama alama za kuwa na haki halali — kuvaa ni kudai, kwa kuonekana na hadharani, nafasi ya mtu ndani ya mfumo wa jadi.",
+      "dg": "Kitambi, nguwo ya sherehe ya nili ya ndani yenye miphaka ya kundu inayovwalwa ni azehe a kaya, ina uhusiano na hando. Phamwenga, nguwo hizi zinaunda luga ya kuonekana ya uwezo wa chijadi: kitambi kpwa azehe a chilume anaoongoza kaya, hando kpwa achetu anaoshiriki kahi ya maishage ga chisherehe. Nguwo zosi mbiri zinafahamika dza alama za kukala na haki ya kpweli — kuzivwala ni kudai, kpwa kuonekana na kpwa wazi, nafasi ya mutu ndani ya mfumo wa chijadi."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Materials and Craft",
+      "sw": "Vifaa na Ufundi",
+      "dg": "Vifaa na Ufundi"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Historically, the hando was woven from locally produced cotton, the fabric created on simple looms by artisans who understood the specific weight, drape, and texture that the garment required. The weaving was not merely functional — it was an art, and the quality of the cloth reflected the skill of the weaver and the status of the woman who would wear it. Finer weaves were reserved for ceremonial occasions; coarser, more durable fabrics served everyday use.",
+      "sw": "Kihistoria, hando lilifumwa kutokana na pamba iliyozalishwa ndani, kitambaa kilichoundwa kwenye vitanda rahisi na mafundi walioelewa uzito maalum, uangukaji, na muundo ambao nguo ilihitaji. Ufumaji haukuwa wa kiutendaji tu — ulikuwa sanaa, na ubora wa kitambaa ulioonyesha ujuzi wa mfumaji na hadhi ya mwanamke ambaye angevaa. Ufumaji mzuri ulihifadhiwa kwa sherehe; vitambaa vya kigumu zaidi na vya kudumu vilivitumika kwa matumizi ya kila siku.",
+      "dg": "Chihistoria, hando rafumwa kula pamba iriyozalishwa haphano, chitambara chirichoumbwa kpwa vitanda rahisi ni amafundi ariomanya uzito maalumu, uangukaji, na muundo ambao nguwo yalonda. Ufumaji wakala si wa chiutendaji bahi — wakala sanaa, na ubora wa chitambara waonyesa ujuzi wa mfumaji na hadhi ya mchetu ariyekala andachivwala. Ufumaji mnono wahifadhiwa kpwa sherehe; vitambara vigumu zaidi na vya kudumu vyahumirwa kpwa matumizi ga chila siku."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Today, the hando is more commonly made from commercially produced cotton, though the principles of selection remain the same. The cloth must have the right weight to hold its folds, the right texture to grip at the waist tuck, and the right drape to create the silhouette that defines the garment. Women who know the hando well can assess a piece of fabric instantly, rejecting material that is too light, too stiff, or too slippery to serve the garment's demands.",
+      "sw": "Leo, hando linaundwa zaidi kutokana na pamba inayozalishwa kibiashara, ingawa kanuni za kuchagua zinabaki sawa. Kitambaa lazima kiwe na uzito sahihi kushikilia mikunjo yake, muundo sahihi kushika kiunoni, na uangukaji sahihi kuunda umbo linaloelezea nguo. Wanawake wanaojua hando vizuri wanaweza kutathmini kipande cha kitambaa mara moja, wakikataa nyenzo ambayo ni nyepesi sana, ngumu sana, au ya kuteleza sana kutumikia mahitaji ya nguo.",
+      "dg": "Rero, hando rinaundwa zaidi kula pamba inayozalishwa chibiashara, ingawa kanuni za kugula zinasala zizo-zizo. Chitambara ni lazima chikale na uzito sahihi kushikilia mikunjoye, muundo sahihi kushika chibiruni, na uangukaji sahihi kuunda umbo rinagoelezera nguwo. Achetu anaomanya hando vinono anaweza kutathmini chipande cha chitambara phapho, achikahala nyenzo ambayo ni nyephesi sana, ngumu sana, au ya kuteleza sana kutumikiya malondo ga nguwo."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Contemporary Revival",
+      "sw": "Ufufuo wa Kisasa",
+      "dg": "Ufufuo wa Chisasa"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The hando's future is being shaped by a new generation of designers and cultural advocates who see in the garment not a relic but a resource. Edna Dhahabu, a designer from Rabai in Kilifi County, has emerged as the most prominent figure in this revival. Her work takes the traditional hando as a starting point and reimagines it for contemporary wear: incorporating traditional weaving patterns alongside beads, seashells, and cowrie shell embellishments, creating silhouettes that honor the garment's heritage while speaking to modern aesthetic sensibilities.",
+      "sw": "Mustakabali wa hando unaunidwa na kizazi kipya cha wabunifu na watetezi wa kitamaduni ambao wanaona katika nguo hiyo si kitu cha kale bali rasilimali. Edna Dhahabu, mbunifu kutoka Rabai katika Kaunti ya Kilifi, amejitokeza kama mtu mashuhuri zaidi katika ufufuo huu. Kazi yake inachukua hando ya jadi kama hatua ya kuanzia na kuifikiria upya kwa mavazi ya kisasa: ikijumuisha nakshi za ufumaji wa jadi pamoja na shanga, makombeo, na mapambo ya kete, ikiunda maumbo yanayoheshimu urithi wa nguo huku yakizungumza kwa hisi za uzuri wa kisasa.",
+      "dg": "Baadaye ya hando rinaundwa ni chizazi chimuphya cha abunifu na ateezi a chimila anaoona kahi ya nguwo iyo si chitu cha kare ela rasilimali. Edna Dhahabu, mubunifu kula Rabai kahi ya Kaunti ya Kilifi, akadzitokeza dza mutu mashuhuri zaidi kahi ya ufufuo huno. Kaziye inatsukula hando ra chijadi dza hatua ya kuandzira na kurifikiria luphya kpwa nguwo za vivi: ichijumuisha nakshi za ufumaji wa chijadi phamwenga na ushanga, makombeo, na mapambo ga kete, ichiunda maumbo ganagoishimu urithi wa nguwo ela gachigomba kpwa hisi za urembo wa vivi."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "Dhahabu's workshop employs seventeen people — weavers, beadworkers, and seamstresses — creating an economic ecosystem built on traditional knowledge. Her international orders, reaching Dubai and the United States, demonstrate that the hando's aesthetic has resonance far beyond the south coast of Kenya. This is not cultural appropriation but cultural projection: a Mijikenda woman taking a Mijikenda garment and placing it on the global stage, on her own terms.",
+      "sw": "Warsha ya Dhahabu inaajiri watu kumi na saba — wafumaji, mafundi wa shanga, na washonaji — ikiunda mfumo wa kiuchumi uliojengwa juu ya maarifa ya jadi. Maagizo yake ya kimataifa, yanayofika Dubai na Marekani, yanaonyesha kuwa uzuri wa hando una mwangwi mbali zaidi ya pwani ya kusini ya Kenya. Hii si kupora utamaduni bali ni kuusambaza utamaduni: mwanamke wa Mijikenda anachukua nguo ya Mijikenda na kuiweka kwenye jukwaa la kimataifa, kwa masharti yake mwenyewe.",
+      "dg": "Warsha ya Dhahabu inaajiri atu kumi na saba — afumaji, amafundi a ushanga, na ashonaji — ichiunda mfumo wa chiuchumi uriodzengbwa dzulu ya marifwa ga chijadi. Maagizoge ga chimataifa, ganagofika Dubai na Marekani, ganaonyesa kukala urembo wa hando una mwangwi kure zaidi ya pwani ya kusini ya Kenya. Hino siyo kupora chimila ela ni kusambaza chimila: mchetu wa Chimijikenda anatsukula nguwo ya Chimijikenda na kuibeka kpwa jukwaa ra chimataifa, kpwa mashartige mwenyewe."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "The tension in this revival is real and worth acknowledging. Some elders view the modernization of the hando with ambivalence, concerned that adapting the garment to contemporary fashion risks stripping it of its ceremonial meaning. Others see the revival as exactly what the tradition needs — a way of keeping the hando alive in a world where young women might otherwise abandon it entirely for Western dress. Both perspectives have merit, and the negotiation between them is itself a form of cultural vitality. A tradition that is being argued over is a tradition that people still care about.",
+      "sw": "Mvutano katika ufufuo huu ni wa kweli na unastahili kukubaliwa. Baadhi ya wazee wanaona kisasa cha hando kwa msimamo wa kati, wakiwa na wasiwasi kuwa kubadilisha nguo kwa mitindo ya kisasa kunaweza kuiondolea maana yake ya kisherehe. Wengine wanaona ufufuo kama hasa kitu ambacho mila inahitaji — njia ya kuweka hando hai katika ulimwengu ambapo wanawake vijana wanaweza kuiacha kabisa kwa mavazi ya Kimagharibi. Mitazamo yote miwili ina sifa, na mazungumzo kati yao ni yenyewe aina ya nguvu ya kitamaduni. Mila inayojadiliwa ni mila ambayo watu bado wanaijali.",
+      "dg": "Mvutano kahi ya ufufuo huno ni wa kpweli na unastahili kukubaliwa. Azehe anjina anaona chisasa cha hando kpwa msimamo wa kahi-kahi, achikala na wasiwasi kukala kubadilisha nguwo kpwa mitindo ya vivi kunaweza kuriusira maanaye ya chisherehe. Anjina anaona ufufuo dza hasa chitu ambacho mila inalonda — njira ya kubeka hando hai kahi ya ulumwengu ambamo asichana adide anaweza kuricha kabisa kpwa nguwo za Chizungu. Mitazamo yosi miiri ina sifa, na mazungumzo kahi yao ni yenyewe aina ya nguvu ya chimila. Mila inayojadiliwa ni mila ambayo atu bado anaijali."
+    },
+    {
+      "id": "b025",
+      "type": "heading",
+      "en": "What the Hando Carries",
+      "sw": "Hando Linabeba Nini",
+      "dg": "Hando Rinatsukula Mini"
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "The hando is, in the end, more than a garment. It is a portable cultural institution — a piece of cloth that carries within its folds a complete system of meaning: identity, status, spiritual state, community belonging, aesthetic achievement, and the deep continuity of a tradition that has survived colonial disruption, religious transformation, and the relentless pressures of modernity. When a Digo woman ties her hando and arranges its folds with the care and precision that the garment demands, she is performing an act of cultural affirmation that is at once utterly ordinary and quietly profound. She is dressing. She is also declaring who she is.",
+      "sw": "Hando ni, mwishowe, zaidi ya nguo. Ni taasisi ya kitamaduni inayobebeka — kipande cha kitambaa kinachobeba ndani ya mikunjo yake mfumo kamili wa maana: utambulisho, hadhi, hali ya kiroho, kuwa sehemu ya jamii, mafanikio ya uzuri, na mwendelezo wa kina wa mila ambayo imeokoka usumbufu wa kikoloni, mabadiliko ya kidini, na shinikizo la daima la usasa. Mwanamke Mdigo anapofunga hando lake na kupanga mikunjo yake kwa uangalifu na usahihi ambao nguo inadai, anafanya kitendo cha uthibitisho wa kitamaduni ambacho ni cha kawaida kabisa na cha kina kimya. Anavaa. Pia anatangaza yeye ni nani.",
+      "dg": "Hando ni, mwishowe, zaidi ya nguwo. Ni taasisi ya chimila inayotsukulwa — chipande cha chitambara chinachotsukula ndani ya mikunjoye mfumo kamili wa maana: kutambulika, hadhi, hali ya chiroho, kukala seemu ya utsi, mafanikio ga urembo, na mwenderezo wa ndani wa mila ambayo ikaishi usumbufu wa chikoloni, mabadiliko ga chidini, na mashindano ga daima ga chisasa. Mchetu Mdigo anaphokunga handore na kupanga mikunjoye kpwa uangalifu na usahihi ambao nguwo inalonda, anahenda chitendo cha uthibitisho wa chimila ambacho ni cha kawaida kabisa na cha ndani chimya. Anavwala. Piya anatangaza ye ni ani."
+    }
+  ]
+}

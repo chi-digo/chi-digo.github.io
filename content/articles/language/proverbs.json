@@ -1,0 +1,225 @@
+{
+  "id": "language/proverbs",
+  "title": {
+    "en": "Proverbs",
+    "sw": "Ndarira",
+    "dg": "Methali"
+  },
+  "intro": {
+    "en": "If you want to understand the Digo, start with their proverbs. Called *ndarira* in Chidigo, these compressed utterances carry the community's accumulated observations about human nature, social…",
+    "sw": "Ukitaka kuelewa Wadigo, anza na methali zao. Zinaitwa *ndarira* kwa Chidigo, na usemi huu mfupi unabeba hekima iliyokusanywa na jamii kuhusu tabia ya binadamu, wajibu wa kijamii, ulimwengu wa asili,…",
+    "dg": "Uchimanya Adigo, andza na ndarira zao. Ndarira hizo fupi zinabeba ikima iriyokusanywa ni jamii kuhusu tabiya ya mwanadamu, wajibu wa kijamii, ulimwengu wa asili, na sanaa ya kuishi vinono. Ndarira ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Heart of Digo Wisdom",
+      "sw": "Moyo wa Hekima ya Kidigo",
+      "dg": "Moyo wa Ikima ya Chidigo"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "If you want to understand the Digo, start with their proverbs. Called *ndarira* in Chidigo, these compressed utterances carry the community's accumulated observations about human nature, social obligation, the natural world, and the art of living well. A Digo proverb is not a quaint saying to embroider on a cushion. It is a precision instrument — deployed by an elder at a village council to settle a dispute without confrontation, invoked by a grandmother to teach a grandchild about patience, woven into a sermon at Friday prayers to anchor a moral point in ancestral authority.",
+      "sw": "Ukitaka kuelewa Wadigo, anza na methali zao. Zinaitwa *ndarira* kwa Chidigo, na usemi huu mfupi unabeba hekima iliyokusanywa na jamii kuhusu tabia ya binadamu, wajibu wa kijamii, ulimwengu wa asili, na sanaa ya kuishi vizuri. Methali ya Kidigo si msemo mzuri wa kupamba ukuta. Ni chombo cha usahihi — kinachotumiwa na mzee katika baraza la kijiji kusuluhisha mgogoro bila makabiliano, kinachosemwa na bibi kumfundisha mjukuu kuhusu subira, kinachofumwa katika hotuba ya Ijumaa kuimarisha jambo la kimaadili katika mamlaka ya mababu.",
+      "dg": "Uchimanya Adigo, andza na ndarira zao. Ndarira hizo fupi zinabeba ikima iriyokusanywa ni jamii kuhusu tabiya ya mwanadamu, wajibu wa kijamii, ulimwengu wa asili, na sanaa ya kuishi vinono. Ndarira ya Chidigo si msemo mzuri wa kupambisha ukuta. Ni chombo cha usahihi — chinacho humirwa ni mvyere kpwa baraza ra mudzi kumaliza lungo bila makabiliano, chinachoambirwa ni akuku kumfundisha mjukuu kuhusu kuvumirira, chinachofumwa kpwa hotuba ya Ijumaa kuimarisha jambo ra kimaadili kpwa mamlaka ga avyere a kare."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The existing documented collection comprises over 349 proverbs, spanning seventeen thematic categories that map the full terrain of Digo moral and practical life. But elders who work with this collection estimate that hundreds more remain uncollected — proverbs that live only in the memory of aging speakers in villages across Kwale County and the Tanzania border region. Each death of an elder who carries unrecorded proverbs is a library fire.",
+      "sw": "Mkusanyo uliopo una zaidi ya methali 349, zinazojumuisha makundi kumi na saba ya maudhui yanayoonyesha mandhari yote ya maisha ya kimaadili na kivitendo ya Wadigo. Lakini wazee wanaofanya kazi na mkusanyo huu wanakadiriwa kuwa mamia mengine bado hayajakusanywa — methali zinazoishi tu katika kumbukumbu za wazungumzaji wanaozeeka katika vijiji vya Kaunti ya Kwale na eneo la mpaka wa Tanzania. Kila kifo cha mzee anayebeba methali ambazo hazijarekodiwa ni moto wa maktaba.",
+      "dg": "Mkusanyo urio kpwenye una zaidi ya ndarira 349, zinazojumuisha makundi kumi na saba ga maudhui ganago onyesha mandhari gosi ga maisha ga kimaadili na kivitendo ga Adigo. Ela avyere anaohumira mkusanyo uhu anakadirisha kukala mamia mengine bado tagakusanywa — ndarira zinazoishi tu kpwa kumbukumbu za azungumzadzi anaozeeka kpwa vidzi vya Kaunti ya Kwale na eneo ra mpaka wa Tanzania."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "How Proverbs Work in Daily Life",
+      "sw": "Methali Zinavyofanya Kazi Katika Maisha ya Kila Siku",
+      "dg": "Ndarira Zinavyohumika Kpwa Maisha ga Chila Siku"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Consider the proverb *\"Mvula igodzwa na utseru\"* — \"The rain is waited for with a cleared plot.\" On its surface, this is agricultural advice: clear your field before the rains come, or you will miss the planting season. But in practice, a Digo speaker deploys this proverb in situations far beyond farming. A father might say it to a son who wants to start a business but has not saved any capital. A teacher might use it with a student who dreams of university but neglects their current studies. The proverb teaches that opportunity rewards preparation — and that preparation must precede opportunity, not follow it.",
+      "sw": "Fikiria methali *\"Mvula igodzwa na utseru\"* — \"Mvua inasubiriwa na shamba lililosafishwa.\" Kwa juu juu, hii ni ushauri wa kilimo: safisha shamba lako kabla ya mvua, au utakosa msimu wa kupanda. Lakini katika vitendo, mzungumzaji wa Kidigo anatumia methali hii katika hali nyingi zaidi ya kilimo. Baba anaweza kuisema kwa mwanawe anayetaka kuanza biashara lakini hajaweka akiba yoyote. Mwalimu anaweza kuitumia na mwanafunzi anayeota chuo kikuu lakini anapuuza masomo yake ya sasa. Methali inafundisha kwamba fursa inalipa maandalizi — na maandalizi lazima yatangulie fursa, si kuifuata.",
+      "dg": "Fikiriya ndarira *\"Mvula igodzwa na utseru.\"* Kpwa dzulu dzulu, hino ni ushauri wa ulimi: safisha mundao kabila ya mvula, au undakosa mwaka wa kupanda. Ela kpwa vitendo, mutu wa Chidigo anahumira ndarira hino kpwa hali nyinji zaidi ya ulimi. Baba anaweza kuiamba kpwa mwanawe anayemendza kuandza biashara ela kayaweka akiba yoyosi. Mwalimu anaweza kuihumira na mwanafunzi anayeota chuo ela anapuuza masomo gakpwe ga rero. Ndarira inafundisha kukala nafasi inalipa maandalizi — na maandalizi ni lazima gatanguliye nafasi, si kuifuata."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Or take *\"Achili ni nyere, chila mmwenga ana zakpwe\"* — \"Intelligence is like hair; everyone has their own.\" This proverb is a rebuke to intellectual arrogance. It asserts that every person possesses a unique form of intelligence, and that dismissing someone else's mind is as foolish as mocking the texture of their hair. In a village dispute, an elder might deploy this proverb to remind a boastful young man that the quiet farmer he is belittling may understand the soil, the seasons, and the rhythms of the coast in ways that no amount of schooling can teach.",
+      "sw": "Au chukua *\"Achili ni nyere, chila mmwenga ana zakpwe\"* — \"Akili ni kama nywele; kila mtu ana zake.\" Methali hii ni karipio kwa kiburi cha kiakili. Inathibitisha kwamba kila mtu ana aina yake ya akili, na kumdhihaki mtu mwingine ni upumbavu kama kudhihaki muundo wa nywele zake. Katika mgogoro wa kijiji, mzee anaweza kutumia methali hii kumkumbusha kijana mwenye kiburi kwamba mkulima mtulivu anayemdharau anaweza kuelewa udongo, misimu, na midundo ya pwani kwa njia ambazo elimu yoyote haiwezi kufundisha.",
+      "dg": "Au hala *\"Achili ni nyere, chila mmwenga ana zakpwe.\"* Ndarira hino ni kpwambirwa mutu ariye na chimburi cha kiakili. Inathibitisha kukala chila mutu ana aina yakpwe ya achili, na kumdhihaki mutu wanjina ni upumbafu."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The proverb *\"Mvyere mtsape mairo, ela kumshinda marifwa\"* — \"You can outrun an old man on the road, but you cannot outrun his wisdom\" — is perhaps the most characteristically Digo. It encodes the foundational Digo value of respect for elders. Youth has speed; age has knowledge. And in a culture where the most important decisions — land disputes, marriage negotiations, kaya governance — are decided by councils of elders, the proverb is not merely philosophical. It is a description of how power actually works.",
+      "sw": "Methali *\"Mvyere mtsape mairo, ela kumshinda marifwa\"* — \"Unaweza kumpita mzee mbio njiani, lakini huwezi kushinda hekima yake\" — labda ndiyo methali ya Kidigo zaidi. Inabeba thamani ya msingi ya Wadigo ya heshima kwa wazee. Ujana una kasi; uzee una maarifa. Na katika utamaduni ambapo maamuzi muhimu zaidi — migogoro ya ardhi, mazungumzo ya mahari, utawala wa kaya — yanaamuliwa na baraza la wazee, methali si tu falsafa. Ni maelezo ya jinsi mamlaka yanavyofanya kazi kweli kweli.",
+      "dg": "Ndarira *\"Mvyere mtsape mairo, ela kumshinda marifwa\"* — labda ndiyo ndarira ya Chidigo zaidi. Inabeba thamani ya msingi ya Adigo ya ishima kpwa avyere. Ujana una kasi; uzee una marifwa. Na kpwa mila ambapo maamuzi muhimu zaidi — malongo ga ardhi, mazungumzo ga mahari, utawala wa kaya — ganaamuliwa ni baraza ra avyere, ndarira si tu falsafa. Ni maelezo ga jinsi mamlaka ganavyohumika kpweli kpweli."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "The Seventeen Themes",
+      "sw": "Makundi Kumi na Saba",
+      "dg": "Makundi Kumi na Saba"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The Digo proverb corpus maps onto seventeen broad themes, each reflecting a domain of life that the community considers important enough to encode in its collective memory:",
+      "sw": "Mkusanyo wa methali za Wadigo unagawanyika katika makundi kumi na saba mapana, kila moja likionyesha eneo la maisha ambalo jamii inachukulia kuwa muhimu vya kutosha kuliweka katika kumbukumbu yake ya pamoja:",
+      "dg": "Mkusanyo wa ndarira za Adigo unagawanyika kpwa makundi kumi na saba mapana:"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "**Wisdom and intelligence.** Proverbs about the nature of knowledge, the difference between cleverness and wisdom, and the value of learning from experience. *\"Dzogolo kuika sio dawa ya kucha\"* — \"A rooster crowing does not cause the dawn\" — teaches humility: correlation is not causation, and taking credit for things you did not cause is foolishness.",
+      "sw": "**Hekima na akili.** Methali kuhusu asili ya maarifa, tofauti kati ya ujanja na hekima, na thamani ya kujifunza kutokana na uzoefu. *\"Dzogolo kuika sio dawa ya kucha\"* — \"Jogoo kuwika si dawa ya kucha\" — inafundisha unyenyekevu: mwenendo wa pamoja si sababu, na kuchukua sifa kwa mambo ambayo hukuyafanya ni upumbavu.",
+      "dg": "**Ikima na achili.** *\"Dzogolo kuika sio dawa ya kucha\"* — inafundisha unyenyekevu."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "**Foolishness and stubbornness.** The Digo have a sharp eye for self-destructive behaviour. These proverbs warn against ignoring advice, repeating mistakes, and confusing stubbornness with strength.",
+      "sw": "**Upumbavu na ukaidi.** Wadigo wana jicho kali kwa tabia ya kujiharibu. Methali hizi zinaonya dhidi ya kupuuza ushauri, kurudia makosa, na kuchanganya ukaidi na nguvu.",
+      "dg": "**Upumbafu na ukaidi.** Ndarira hizi zinaonya dhidi ya kupuuza ushauri na kurudia makosa."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "**Hospitality and visitors.** On the coast, where trade routes brought strangers from across the Indian Ocean for centuries, hospitality is not merely courtesy — it is infrastructure. Proverbs in this category encode the rules of hosting and being hosted, the obligations of the guest and the rights of the host.",
+      "sw": "**Ukarimu na wageni.** Pwanini, ambapo njia za biashara zilileta wageni kutoka Bahari ya Hindi kwa karne nyingi, ukarimu si adabu tu — ni miundombinu. Methali katika kundi hili zinabeba sheria za kukaribisha na kukaribishwa.",
+      "dg": "**Ukarimu na ajeni.** Kpwa ph'wani, ambapo njira za biashara zaleta ajeni kula Bahari ya Hindi kpwa karne nyinji, ukarimu si adabu tu — ni miundombinu."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "**Hunger and food.** In a region where subsistence farming and fishing are the primary livelihoods, and where drought can turn a productive season into a hungry one, food carries moral weight. These proverbs address scarcity, sharing, greed, and the social obligations around eating.",
+      "sw": "**Njaa na chakula.** Katika eneo ambapo kilimo cha kujikimu na uvuvi ni riziki kuu, na ambapo ukame unaweza kubadilisha msimu wenye mazao kuwa msimu wa njaa, chakula kina uzito wa kimaadili. Methali hizi zinashughulikia uhaba, kushiriki, tamaa, na wajibu wa kijamii kuhusu kula.",
+      "dg": "**Ndzala na chakurya.** Kpwa eneo ambapo ulimi na uvuvi ni riziki kulu, chakurya china uzito wa kimaadili."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "**Work and effort.** *\"Bandu-bandu yamala gogo\"* — \"Persistent effort accomplishes large tasks.\" The Digo value of steady, unglamorous work over dramatic gestures is encoded across dozens of proverbs. A palm wine tapper climbs the same trees at dawn every day. A fisherman repairs his nets before he needs them. The proverbs teach that this daily discipline, not brilliance, is what sustains a life.",
+      "sw": "**Kazi na juhudi.** *\"Bandu-bandu yamala gogo\"* — \"Juhudi ya kuendelea inamaliza kazi kubwa.\" Thamani ya Wadigo ya kazi ya kila siku, isiyo na fahari, juu ya ishara za kushangaza imeandikwa katika methali nyingi.",
+      "dg": "**Kazi na juhudi.** *\"Bandu-bandu yamala gogo\"* — Juhudi ya kuendelea inamaliza kazi kulu."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "**Wealth, poverty, and inequality.** The coast has long known sharp inequalities — between landowners and tenants, between traders and farmers, between those with access to town and those bound to the hinterland. Digo proverbs about wealth are rarely celebratory. They tend toward caution: wealth is unstable, generosity is obligatory, and poverty is a condition, not a character flaw.",
+      "sw": "**Utajiri, umaskini, na ukosefu wa usawa.** Methali za Wadigo kuhusu utajiri mara chache husherehekea. Zinaelekea tahadhari: utajiri si thabiti, ukarimu ni lazima, na umaskini ni hali, si kasoro ya tabia.",
+      "dg": "**Utajiri, umaskini, na ukosefu wa usawa.** Ndarira za Adigo kuhusu utajiri mara chache husherehekea. Zinaelekea tahadhari."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "**Patience and perseverance.** Closely related to the work proverbs, these address the specific virtue of endurance — waiting for the right moment, persisting through difficulty, trusting that time will resolve what force cannot.",
+      "sw": "**Subira na uvumilivu.** Methali hizi zinashughulikia fadhila maalum ya kuvumilia — kusubiri wakati unaofaa, kuendelea katika ugumu, kuamini kwamba wakati utasuluhisha kile ambacho nguvu haiwezi.",
+      "dg": "**Kuvumirira.** Ndarira hizi zinashughulikia fadhila maalum ya kuvumirira — kusubiri wakati unaofaa."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "**Speech: gossip, slander, advice, and silence.** The Digo have an extraordinarily nuanced set of proverbs about language itself — when to speak and when to keep silent, the damage that gossip inflicts, the difference between advice and interference, and the power of a well-timed word.",
+      "sw": "**Usemi: uvumi, kashfa, ushauri, na kimya.** Wadigo wana seti ya methali ya kipekee kuhusu lugha yenyewe — wakati wa kusema na wakati wa kunyamaza, uharibifu ambao uvumi unasababisha, tofauti kati ya ushauri na kuingilia, na nguvu ya neno la wakati unaofaa.",
+      "dg": "**Usemi: uvumi, kashfa, ushauri, na kunyamala.** Adigo ana seti ya ndarira ya kipekee kuhusu luga yenyewe."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "**Kinship and family.** *\"Mlatso tauchimbirana wala taurichana\"* — \"Blood does not run from itself, nor does it call itself.\" Family loyalty is assumed, not argued. These proverbs encode the obligations of kinship — the duties of the maternal uncle (*mjomba*), the bonds between siblings, the respect owed to parents and elders.",
+      "sw": "**Undugu na familia.** *\"Mlatso tauchimbirana wala taurichana\"* — \"Damu haikimbi yenyewe, wala haijiti yenyewe.\" Uaminifu wa familia unachukuliwa, hautolewi hoja. Methali hizi zinabeba wajibu wa undugu — kazi za mjomba, vifungo kati ya ndugu, na heshima inayostahili wazazi na wazee.",
+      "dg": "**Undugu na mbari.** *\"Mlatso tauchimbirana wala taurichana.\"* Uaminifu wa mbari unachukuliwa, tautolewi hoja."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "**Children and parenting.** Proverbs about raising children, the responsibilities of parents, and the relationship between generations. In a community experiencing a \"transmission cliff\" where parents are no longer speaking Digo to their children, these proverbs carry a painful irony.",
+      "sw": "**Watoto na malezi.** Methali kuhusu kulea watoto, wajibu wa wazazi, na uhusiano kati ya vizazi.",
+      "dg": "**Ana na malezi.** Ndarira kuhusu kurera ana na wajibu wa azazi."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "**Marriage and gender relations.** These proverbs address courtship, the dynamics of married life, the roles of husband and wife, and — sometimes with bawdy humour — the realities of desire and domestic conflict. The existing collection preserves these without sanitisation, recognising that expurgated proverbs are dead proverbs.",
+      "sw": "**Ndoa na mahusiano ya kijinsia.** Methali hizi zinashughulikia uchumba, midundo ya maisha ya ndoa, na — wakati mwingine kwa ucheshi wa kijasiri — hali halisi ya tamaa na migogoro ya nyumbani.",
+      "dg": "**Ndoa na mahusiano.** Ndarira hizi zinashughulikia uchumba na midundo ya maisha ga ndoa."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "**Death, illness, and mourning.** The Digo live in close proximity to death — infant mortality remains high, malaria is endemic, and the fishing life is dangerous. These proverbs address grief, the acceptance of mortality, and the obligations of the living to the dead.",
+      "sw": "**Kifo, ugonjwa, na maombolezo.** Wadigo wanaishi karibu na kifo. Methali hizi zinashughulikia huzuni, kukubali kufa, na wajibu wa walio hai kwa wafu.",
+      "dg": "**Chifo, ukongo, na maombolezo.** Adigo anaishi phephi na chifo. Ndarira hizi zinashughulikia sonono."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "**Spirits, religion, and the unseen.** Proverbs that acknowledge the spiritual dimension of life — the ancestors who watch, the spirits who intervene, the God who is distant but omnipotent. These reflect the layered spiritual world of the Digo, where Islamic faith coexists with older beliefs about the spirit world.",
+      "sw": "**Roho, dini, na yasiyoonekana.** Methali zinazokubali ulimwengu wa kiroho — mababu wanaotazama, roho zinazoingilia, Mungu aliye mbali lakini mwenye nguvu zote.",
+      "dg": "**Roho, dini, na gasigoonekana.** Ndarira zinazokubali ulimwengu wa chiroho."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "**Coastal life: sea, palm wine, and fishing.** *\"Bahari taina msena\"* — \"The ocean has no friend.\" These proverbs are rooted in the specific geography of the Digo coast — the unpredictable sea, the rhythms of the tides, the coconut palm that provides everything from food to shelter to wine, and the fishing life that sustains the community and sometimes takes lives from it.",
+      "sw": "**Maisha ya pwani: bahari, mnazi, na uvuvi.** *\"Bahari taina msena\"* — \"Bahari haina rafiki.\" Methali hizi zina mizizi katika jiografia mahususi ya pwani ya Wadigo.",
+      "dg": "**Maisha ga ph'wani: bahari, mnazi, na uvuvi.** *\"Bahari taina msena.\"*"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "**Animals as moral types.** The hyena is greed. The baboon is foolishness. The snake is cunning and danger. The sheep is docility. These animal proverbs create a shared moral vocabulary — a shorthand that allows complex judgements to be expressed in a single image.",
+      "sw": "**Wanyama kama aina za kimaadili.** Fisi ni tamaa. Nyani ni upumbavu. Nyoka ni ujanja na hatari. Kondoo ni utiifu.",
+      "dg": "**Nyama dza aina za kimaadili.** Fisi ni tamaa. Nyani ni upumbafu. Nyoka ni ujanja na hatari."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "**Conflict and reconciliation.** *\"Mtsimba mbira naye aendza atsimbirwe\"* — \"One who digs a grave wants a grave dug for them\" — teaches reciprocity, for good and for ill. These proverbs address the management of conflict within the community, the value of forgiveness, and the dangers of revenge.",
+      "sw": "**Mgogoro na maridhiano.** *\"Mtsimba mbira naye aendza atsimbirwe\"* — \"Anayechimba kaburi anataka achimbiwe\" — inafundisha malipo, kwa wema na kwa ubaya.",
+      "dg": "**Lungo na maridhiano.** *\"Mtsimba mbira naye aendza atsimbirwe.\"*"
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "**Justice, governance, and leadership.** Proverbs about the qualities of good leadership, the obligations of those who hold power, and the community's right to judge its leaders. In a culture where the *kambi* (council of elders) governed through consensus rather than command, these proverbs describe a political philosophy as much as a moral one.",
+      "sw": "**Haki, utawala, na uongozi.** Methali kuhusu sifa za uongozi mzuri na wajibu wa wenye mamlaka.",
+      "dg": "**Haki, utawala, na uongozi.** Ndarira kuhusu sifa za uongozi mzuri."
+    },
+    {
+      "id": "b027",
+      "type": "heading",
+      "en": "Proverbs as Living Practice",
+      "sw": "Methali Kama Mazoezi Hai",
+      "dg": "Ndarira Dza Mazoezi Garifo Moyo"
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "What distinguishes the Digo proverb tradition from a museum collection is that proverbs remain in active use. A Digo speaker who deploys the right proverb at the right moment earns social respect — it signals cultural fluency, wisdom, and connection to the ancestral tradition. Conversely, a young person who cannot recognise common proverbs is marked as culturally disconnected, regardless of their formal education.",
+      "sw": "Kinachofanya mila ya methali za Wadigo kuwa tofauti na mkusanyo wa makumbusho ni kwamba methali bado zinatumika kwa bidii. Mzungumzaji wa Kidigo anayetumia methali sahihi wakati unaofaa anapata heshima ya kijamii — inaonyesha ujuzi wa kitamaduni, hekima, na uhusiano na mila ya mababu. Kinyume chake, kijana asiyeweza kutambua methali za kawaida anaonekana kuwa ametengana na utamaduni, bila kujali elimu yake rasmi.",
+      "dg": "Chitu chinachohenda mila ya ndarira za Adigo kukala tofauti na mkusanyo wa nyumba ya makumbusho ni kukala ndarira bado zinahumika kpwa bidii. Mutu wa Chidigo anayehumira ndarira ya sawa kpwa wakati unaofaa anapata ishima ya kijamii — inaonyesha ujuzi wa chimila, ikima, na uhusiano na mila ya avyere a kare."
+    },
+    {
+      "id": "b029",
+      "type": "paragraph",
+      "en": "Proverbs appear in multiple contexts: in the *jina* (proverb band) of *kanga* cloth, where a woman communicates an indirect message through the textile she wears; in *khutba* (Friday sermons) at the mosque, where imams anchor Islamic teachings in Digo cultural authority; in wedding speeches, where elders bless the couple with proverbs about partnership and patience; and in the everyday conversation of people who learned them from their grandparents and will, if the transmission holds, pass them to their grandchildren.",
+      "sw": "Methali zinaonekana katika muktadha mbalimbali: katika *jina* ya *kanga*, ambapo mwanamke anawasilisha ujumbe usio wa moja kwa moja kupitia nguo anayovaa; katika *khutba* msikitini, ambapo maimamu wanaunganisha mafundisho ya Kiislamu na mamlaka ya kitamaduni ya Kidigo; katika hotuba za harusi, ambapo wazee wanabariki wanandoa kwa methali kuhusu ushirikiano na subira; na katika mazungumzo ya kila siku ya watu waliojifunza kutoka kwa babu zao.",
+      "dg": "Ndarira zinaonekana kpwa muktadha mbalimbali: kpwa *jina* ya *kanga*, ambapo mchetu anawasilisha ujumbe usio wa moja kpwa moja kupitshi nguo anayovwala; kpwa *khutba* msikitini; kpwa hotuba za harusi; na kpwa mazungumzo ga chila siku ga atu ariojifundza kula kpwa akuku zao."
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "The proverb *\"Mnazi mmwenga una uchi wani?\"* — \"What wine can come from a single palm tree?\" — is perhaps the best summary of the tradition itself. No single proverb contains the whole truth. It is the collection, in its full breadth and contradictions, that maps the Digo understanding of the world.",
+      "sw": "Methali *\"Mnazi mmwenga una uchi wani?\"* — \"Divai gani inayotoka kwa mnazi mmoja?\" — labda ndiyo muhtasari bora wa mila yenyewe. Hakuna methali moja inayobeba ukweli wote. Ni mkusanyo, katika upana wake wote na migongano yake, unaoorodhesha uelewa wa Wadigo kuhusu ulimwengu.",
+      "dg": "*\"Mnazi mmwenga una uchi wani?\"* — labda ndiyo muhtasari bora wa mila yenyewe. Takuna ndarira mwenga inayobeba ukpweli wosi. Ni mkusanyo, kpwa upana wakpwe wosi na migongano yakpwe, unaorodhesha uelewa wa Adigo kuhusu ulimwengu."
+    }
+  ]
+}

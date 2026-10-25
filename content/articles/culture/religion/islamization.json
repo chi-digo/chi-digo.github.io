@@ -1,0 +1,211 @@
+{
+  "id": "culture/religion/islamization",
+  "title": {
+    "en": "Islamization of the Digo",
+    "sw": "Uislamu wa Wadigo",
+    "dg": "Uislamu wa Adigo"
+  },
+  "intro": {
+    "en": "Before the first Muslim traders arrived on the southern Kenya coast, the Digo possessed a fully formed spiritual system. At its center stood Mulungu — the distant, omnipotent creator God who was not…",
+    "sw": "Kabla ya wafanyabiashara wa kwanza wa Kiislamu kufika pwani ya kusini ya Kenya, Wadigo walikuwa na mfumo kamili wa kiroho. Katikati yake alisimama Mulungu — Mungu muumbaji aliye mbali, mwenye nguvu…",
+    "dg": "Kabla ya achuuzi a kpwandza a Chiislamu kufika pwani ya kusini ya Kenya, Adigo kala ana mfumo kamili wa chiroho. Kahi-kahiye waima Mulungu — Mulungu muumba ariye kure, mwenye nguvu zosi…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Before Islam: The World the Digo Already Had",
+      "sw": "Kabla ya Uislamu",
+      "dg": "Kabila ya Uislamu: Ulimwengu Adigo Ariokala Nao"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Before the first Muslim traders arrived on the southern Kenya coast, the Digo possessed a fully formed spiritual system. At its center stood Mulungu — the distant, omnipotent creator God who was not approached directly but through ancestral intermediaries. The kayas, sacred forest clearings established when the Mijikenda migrated south from Shungwaya, served as both political capitals and spiritual centers. Kaya elders governed through councils, administered oaths, performed seasonal ceremonies, and maintained the community's relationship with the spirit world. The *mganga* healer diagnosed illness, negotiated with spirits, and prescribed treatments that combined herbal medicine with ritual. This was not a primitive system awaiting replacement. It was a sophisticated cosmology with its own internal logic, its own specialists, and its own answers to the fundamental questions of human existence.",
+      "sw": "Kabla ya wafanyabiashara wa kwanza wa Kiislamu kufika pwani ya kusini ya Kenya, Wadigo walikuwa na mfumo kamili wa kiroho. Katikati yake alisimama Mulungu — Mungu muumbaji aliye mbali, mwenye nguvu zote ambaye hakushughulikiwa moja kwa moja bali kupitia wahenga. Makaya, maeneo matakatifu ya misitu yaliyoanzishwa wakati Wamijikenda walipohamia kusini kutoka Shungwaya, yalitumika kama makao makuu ya kisiasa na vituo vya kiroho. Mfumo huu haukuwa wa kale unaousubiri kubadilishwa. Ulikuwa kosmolojia ya kisasa yenye mantiki yake ya ndani.",
+      "dg": "Kabla ya achuuzi a kpwandza a Chiislamu kufika pwani ya kusini ya Kenya, Adigo kala ana mfumo kamili wa chiroho. Kahi-kahiye waima Mulungu — Mulungu muumba ariye kure, mwenye nguvu zosi, ambaye atu kala taamfikira mwenga kpwa mwenga, ela kpwa njira ya akare. Makaya, maeneo matakatifu ga matsaka garigoandzishwa wakati Amijikenda ariphotsama kusini kula Shungwaya, gahumirwa dza makalo makulu ga chisiasa na vituo vya chiroho. Azehe a kaya atawala kpwa mabaraza, arisa virapho, ahenda sherehe za musimu, na adumisha uhusiano wa jamii na ulimwengu wa roho. *Mganga* wamanya makongo, wagomba na roho, na walavya dawa zirizounganisha mimea na taratibu. Mfumo hinyo kala si mfumo wa bure uriokala unarindira kubadilishwa. Kala ni kosmolojia yenye marifwa manji, yenye mantikiye ya ndani, aganga na azehe ao enye, na majibu gao enye kpwa maswali ga msingi ga maisha ga binadamu."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Understanding what came before Islam is essential because the Digo did not abandon this system when they converted. They layered Islam on top of it, and the older architecture remains visible beneath the surface of every Digo Muslim community today.",
+      "sw": "Mabadiliko ya Kwanza: Miaka ya 1830-1850",
+      "dg": "Kuelewa chirichokala kabla ya Uislamu ni muhimu kpwa sababu Adigo taayaricha mfumo hinyo ariphobadilika kukala Aislamu. Aika Uislamu dzulu ya mfumo hinyo, na muundo wa kare bado unaonekana photsi ya chila jamii ya Aislamu a Chidigo rero."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "First Contact: The 17th Century",
+      "sw": "Wimbi la kwanza muhimu la ubadilishaji wa Wadigo kuwa Waislamu lilianza miaka ya 1830, likiendeshwa hasa na sababu za kiuchumi na kijamii. Wafanyabiashara wa Kiislamu walitoa ufikiaji wa mitandao ya kibiashara iliyofungwa kwa wasio Waislamu. Wadigo waliobadilika kwanza walikuwa wanaume waliohusika katika biashara ya pwani. Kinachofanya ubadilishaji wa Wadigo kuwa wa kipekee ni kwamba wabadilishaji \"walibaki wakiishi katika vijiji vyao vya nyumbani, huku wakijikita maisha yao ya kijamii na kidini kama Waislamu mjini.\" Walikuwa Wadigo Waislamu, si Waswahili wa pwani.",
+      "dg": "Kukutana kpwa Kpwandza: Karne ya Kumi na Saba"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Islam arrived on the East African coast centuries before it reached the Digo hinterland. Arab and Swahili trading settlements at Mombasa, Vanga, and other coastal towns had been Muslim since at least the 12th century. But the Mijikenda peoples, including the Digo, lived inland in their kaya settlements and had limited engagement with coastal Islam for hundreds of years. The Digo, however, occupied the southernmost Mijikenda territory — straddling what is now the Kenya-Tanzania border — and their proximity to the coast and to established Muslim trading centers at Vanga and Tanga placed them in closer contact with Islam than any other Mijikenda group.",
+      "sw": "Vichocheo vya Ubadilishaji",
+      "dg": "Uislamu wafika pwani ya Afrika ya Mashariki karne nyinji kabla ya kufika ndani ya tsi kpwa Adigo. Makalo ga biashara ga Aarabu na Aswahili iko Mombasa, Vanga, na midzi yanjina ya pwani kala ni ga Chiislamu hangu karne ya kumi na mbiri, au kare zaidi. Ela atu a Chimijikenda, phamwenga na Adigo, kala anaishi kure na pwani kpwenye makalo gao ga kaya, na kpwa karne nyinji kala ana uhusiano chidide na Uislamu wa pwani. Ela Adigo kala anakala eneo ra kusini kabisa ra Amijikenda — eneo ambaro rero mphaka wa Kenya na Tanzania unatsupa kahi-kahiye — na kukala kpwao phephi na pwani na vituo vikulu vya biashara vya Chiislamu iko Vanga na Tanga kwaahenda akutane na Uislamu zaidi kuriko chila kundi ranjina ra Amijikenda."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "By the 17th century, Digo traders were visiting coastal markets and encountering Muslim merchants, scholars, and healers. These encounters were commercial first, spiritual second. A Digo farmer bringing coconuts or grain to the coast would trade with Muslim merchants who operated within networks stretching to Arabia, Persia, and India. The attraction was economic before it was theological.",
+      "sw": "Waganga wa Kiislamu walitoa *dua* na *hirizi* — si dhana ngeni bali teknolojia mbadala ndani ya dhana inayofahamika. Kinga dhidi ya uchawi ilikuwa sababu nyingine yenye nguvu — Qurani ilionekana kama maandishi yenye nguvu kubwa sana. Kwa wanawake, sheria ya Kiislamu ya urithi ilitoa haki ambazo sheria ya kimila iliwazuilia. Hadi 1920, \"wanawake wachache wa Kidigo walikuwa Waislamu,\" lakini kuanzia miaka ya 1940 wanawake walibadilika kwa wingi. Pia kuna mfumo wa *kore* — utumwa wa deni — ambapo kubadilika kuwa Mwislamu kulitoa njia ya kutoka.",
+      "dg": "Kufika karne ya kumi na saba, achuuzi a Chidigo kala anaphiya soko za pwani na kukutana na achuuzi, asomi, na aganga a Chiislamu. Kukutana kuko kala ni kpwa biashara kpwandza, na kpwa mambo ga chiroho baadaye. Mkurima wa Chidigo achireha nazi au nafaka pwani kala anahenda biashara na achuuzi a Chiislamu ario kala anahenda kazi ndani ya mitandao iriyofikira Uarabuni, Uajemi, na India. Mvuto kala ni wa chiuchumi kabla ya kukala wa chitheolojia."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The First Conversions: 1830s-1850s",
+      "sw": "Kujenga Misikiti na Kueneza Uislamu",
+      "dg": "Mabadiliko ga Kpwandza: Miaka ya 1830-1850"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The first significant wave of Digo conversion to Islam began in the 1830s, driven primarily by economic and social factors rather than missionary zeal. Muslim traders offered access to commercial networks that were closed to non-Muslims. Converting opened doors — literally, as Muslim trading houses often restricted business relationships to fellow believers. The Digo who converted earliest were typically men involved in coastal trade: palm wine sellers, coconut traders, and middlemen who brokered goods between the hinterland and the coast.",
+      "sw": "Kufikia mwishoni mwa karne ya 19, Wadigo walikuwa wanajenga misikiti katika vijiji vyao wenyewe na kueneza Uislamu kwa makundi jirani ya Wamijikenda. Msikiti ulibadilisha kaya kama kituo cha mkutano wa jamii, ingawa makaya yalihifadhi umuhimu wao wa kiroho. Kufikia miaka ya 1940, Wadigo wengi walikuwa Waislamu, na kufikia katikati ya karne ya 20, takwimu ilikaribia ulimwengu wote.",
+      "dg": "Wimbi ra kpwandza muhimu ra Adigo kubadilika kukala Aislamu raandza miaka ya 1830, richisukumwa hasa ni sababu za chiuchumi na za chijamii, si juhudi za chimisheni. Achuuzi a Chiislamu alavya nafwasi ya kuinjira mitandao ya chibiashara iriyokala ikafungwa kpwa asio Aislamu. Kubadilika kwavugula miryango — kpwa kpweli, kpwa sababu nyumba za biashara za Chiislamu mara nyinji kala zinahenda biashara na aaminifu enzi ao bahi. Adigo ariobadilika kpwandza kala ni alume ario kpwenye biashara ya pwani: atu ariokala anaguza uchi, achuuzi a nazi, na atu a kahi ario kala anatsukula vitu kahi ya ndani ya tsi na pwani."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "What made the Digo conversion distinctive, as the historian David Sperling of SOAS documented, was that converts \"remained resident in their home villages, while centring their social and religious life as Muslims in town.\" This was unusual. In many East African conversion narratives, converts relocated to Muslim towns and were absorbed into Swahili society. The Digo maintained their village residence, their kinship networks, and their ethnic identity. They became Muslim Digo, not coastal Swahili. This insistence on remaining Digo while adopting Islam is the seed of what scholars later called \"Digonized Islam.\"",
+      "sw": "Kilichopatikana na Kilichohifadhiwa",
+      "dg": "Chirichohenda kubadilika kpwa Adigo kukale kpwa chipekee, dza mwanahistoria David Sperling wa SOAS arivyoandika, ni kukala ariobadilika \"asala kusagala vidzidzini vyao vya kaya, hiku anaika maisha gao ga chijamii na ga chidini dza Aislamu mudzini.\" Dzambo hiri kala si ra kawaida. Kpwa masimulizi manji ga kubadilika kpwa Afrika ya Mashariki, ariobadilika atsama achiphiya midzi ya Chiislamu na achikala seemu ya jamii ya Chiswahili. Adigo asala vidzidzini vyao, achirinda mitandao ya mbari zao na utambulisho wao wa chikabila. Akakala Adigo Aislamu, si Aswahili a pwani. Uamuzi uwo wa kusala Adigo hiku achihala Uislamu ndio mbeyu ya \"Uislamu wa Chidigo\" (\"Digonized Islam\"), dza asomi arivyouiha baadaye."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Role of Muslim Healers",
+      "sw": "Uislamu wa Wadigo haukuwa mapumziko safi na zamani wala kupitishwa kwa juu juu kwa lebo mpya. Ilikuwa mchakato wa kina wa mazungumzo ya kitamaduni ambapo Wadigo walichukua mazoezi ya Kiislamu huku wakihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa mababu. Roho za koma hazikutoweka kwa sababu Wadigo walianza kumwomba Allah. Mganga hakufunga kazi yake kwa sababu imam alifungua msikiti. Kaya haikupoteza nguvu yake takatifu kwa sababu mnara uliinuka karibu.",
+      "dg": "Kazi ya Aganga a Chiislamu"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "One of the most powerful drivers of conversion was the Muslim healer. The Digo already understood illness as having both physical and spiritual dimensions, and the *mganga* tradition provided a framework for spiritual diagnosis and treatment. When Muslim healers arrived offering *dua* (prayers of supplication) and *hirizi* (protective amulets inscribed with Quranic verses), they were not introducing an alien concept. They were offering a competing technology within a familiar paradigm.",
+      "sw": "Mojawapo ya vichocheo vyenye nguvu zaidi vya ubadilishaji ilikuwa mganga wa Kiislamu. Wadigo tayari walikuwa wanaelewa ugonjwa kama wenye mwelekeo wa kimwili na wa kiroho, na mapokeo ya *mganga* yalitoa mfumo wa utambuzi na matibabu ya kiroho. Waganga wa Kiislamu walipofika wakitoa *dua* (sala za dua) na *hirizi* (hirizi za kinga zilizo na aya za Kurani), hawakuanzisha dhana ya kigeni. Walikuwa wanatoa teknolojia shindani ndani ya dhana inayofahamika.",
+      "dg": "Chimwenga cha vichocheo vyenye nguvu zaidi vya kubadilika kala ni mganga wa Chiislamu. Adigo kala tayari anamanya kukala ukongo una uphande wa mwiri na wa chiroho, na chimila za *mganga* zalavya mfumo wa kumanya na kuphoza makongo ga chiroho. Aganga a Chiislamu ariphofika achilavya *dua* (mavoyo ga kuvoya) na *hirizi* (hirizi za kinga zenye aya za Kurani), taayaandzisha dhana ya chijeni. Kala analavya teknolojia ya kushindana ndani ya dhana ambayo atu kala anaimanya."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The appeal was pragmatic. If a Digo family had tried traditional remedies for a child's illness without success, a Muslim healer's prayers and amulets offered an alternative — one backed by the prestige of literacy, the authority of a written scripture, and the perceived power of Arabic as a sacred language. Conversion often followed successful healing. The healer became a teacher, the patient became a student, and the family gradually adopted Islamic practice. This bottom-up, healer-driven conversion was far more effective than any top-down missionary campaign and explains why Islam spread so deeply into Digo daily life rather than remaining a superficial political affiliation.",
+      "sw": "Mvuto ulikuwa wa kimatendo. Ikiwa familia ya Kidigo ilikuwa imejaribu dawa za jadi kwa ugonjwa wa mtoto bila mafanikio, sala na hirizi za mganga wa Kiislamu zilitoa mbadala — moja iliyoungwa mkono na heshima ya kusoma na kuandika, mamlaka ya maandiko yaliyoandikwa, na nguvu inayochukuliwa ya Kiarabu kama lugha takatifu. Ubadilishaji mara nyingi ulifuata uponyaji uliofanikiwa. Mganga akawa mwalimu, mgonjwa akawa mwanafunzi, na familia polepole ilipitisha mazoezi ya Kiislamu. Ubadilishaji huu wa chini kwenda juu, unaoendeshwa na waganga, ulikuwa na ufanisi zaidi kuliko kampeni yoyote ya kimisheni ya juu kwenda chini na unaelezea kwa nini Uislamu ulienea kwa kina katika maisha ya kila siku ya Kidigo badala ya kubaki uhusiano wa kisiasa wa juu.",
+      "dg": "Mvuto kala ni wa chitendo. Mbari ya Chidigo ichikala ikajeza dawa za chimila kpwa ukongo wa mwana bila kufaulu, mavoyo na hirizi za mganga wa Chiislamu zalavya njira yanjina — njira yenye hishima ya kusoma na kuandika, mamlaka ga maandiko matakatifu, na nguvu ambayo atu kala anaiona kpwenye Chiarabu dza luga takatifu. Kubadilika mara nyinji kwalunga kuphozwa. Mganga wakala mwalimu, mkpwongo wakala mwanafunzi, na mbari pore-pore yahala mazoezi ga Chiislamu. Kubadilika kuno kula photsi kuphiya dzulu, kunakosukumwa ni aganga, kwafwaha zaidi kuriko kampeni yoyosi ya chimisheni ya kula dzulu kuphiya photsi, na kunaeleza kpwa nini Uislamu waenea kpwa china kpwenye maisha ga chila siku ga Adigo badala ya kusala uhusiano wa chisiasa wa dzulu-dzulu tu."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Protection Against Witchcraft",
+      "sw": "Kinga Dhidi ya Uchawi",
+      "dg": "Kinga ya Kuzuwiya Utsai"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Closely related to the healing dynamic was Islam's perceived power against witchcraft. Witchcraft fear — *uchawi* — was and remains a pervasive concern in Digo life. The belief that malicious individuals can cause illness, death, or misfortune through spiritual means is deeply embedded in Digo cosmology. Traditional protection against witchcraft involved the *mganga*, but the Muslim *mwalimu* (teacher/healer) offered an alternative source of protection: Quranic amulets, prayers, and the spiritual authority of a monotheistic God whose power was believed to supersede that of local spirits.",
+      "sw": "Inayohusiana kwa karibu na mienendo ya uponyaji ilikuwa nguvu ya Uislamu inayochukuliwa dhidi ya uchawi. Hofu ya uchawi — *uchawi* — ilikuwa na inabaki kuwa wasiwasi ulioenea katika maisha ya Wadigo. Imani kwamba watu waovu wanaweza kusababisha ugonjwa, kifo, au msiba kupitia njia za kiroho imejikita kwa kina katika kosmolojia ya Kidigo. Kinga ya jadi dhidi ya uchawi ilihusisha *mganga*, lakini *mwalimu* (mwalimu/mganga) wa Kiislamu alitoa chanzo mbadala cha kinga: hirizi za Kurani, sala, na mamlaka ya kiroho ya Mungu mmoja ambaye nguvu yake iliaminika kuzidi ile ya roho za ndani.",
+      "dg": "Phephi na dzambo hiri ra kuphoza kala kuna nguvu ambayo atu kala anaiona kpwenye Uislamu ya kuzuwiya utsai. Kuogopha utsai — *utsai* — kala na bado ni wasi-wasi urioenea kpwenye maisha ga Adigo. Imani ya kukala atu abaya anaweza kureha ukongo, chifo, au msiba kpwa njira za chiroho ikadzikita kpwa china kpwenye kosmolojia ya Chidigo. Kinga ya chimila ya kuzuwiya utsai kala inamuhusisha *mganga*, ela *mwalimu* (mwalimu/mganga) wa Chiislamu walavya njira yanjina ya kinga: hirizi za Kurani, mavoyo, na mamlaka ga chiroho ga Mulungu mmwenga ambaye nguvuye kala inaaminika kuzidi hira ya roho za phephi."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "For many Digo, conversion to Islam was not primarily about theological conviction. It was about acquiring a more powerful form of spiritual protection. The Quran was perceived as a supremely potent text — not merely because of its content but because of the very act of writing, which carried enormous prestige in a predominantly oral culture. A Quranic verse written on paper, washed with water, and drunk as medicine combined the technologies of literacy, Islamic prayer, and traditional healing in a single act.",
+      "sw": "Kwa Wadigo wengi, kubadilika kuwa Mwislamu haikuwa hasa kuhusu imani ya kitheolojia. Ilikuwa kuhusu kupata njia yenye nguvu zaidi ya kinga ya kiroho. Kurani ilionekana kama maandishi yenye nguvu kubwa sana — si tu kwa sababu ya maudhui yake bali kwa sababu ya kitendo chenyewe cha kuandika, ambacho kilipata heshima kubwa katika utamaduni uliokuwa wa mdomo hasa. Aya ya Kurani iliyoandikwa kwenye karatasi, kuoshwa na maji, na kunywa kama dawa iliunganisha teknolojia za kusoma na kuandika, sala ya Kiislamu, na uponyaji wa jadi katika kitendo kimoja.",
+      "dg": "Kpwa Adigo anji, kubadilika kukala Muislamu kala si hasa kuhusu imani ya chitheolojia. Kala ni kuhusu kuphaha njira yenye nguvu zaidi ya kinga ya chiroho. Kurani yaonekana dza maandiko genye nguvu kulu sana — si kpwa sababu ya maudhuige tu ela kpwa sababu ya chitendo chenye cha kuandika, ambacho kala china hishima kulu kpwenye utamaduni uriokala hasa wa mromo. Mutu achiandika aya ya Kurani kpwenye karatasi, achiitsukutsa na madzi, na achinwa madzi higo dza dawa, kala anaunganisha teknolojia za kusoma na kuandika, mavoyo ga Chiislamu, na kuphoza kpwa chimila kpwa chitendo chimwenga."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Women and Property Rights",
+      "sw": "Wanawake na Haki za Mali",
+      "dg": "Achetu na Haki za Mali"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The timeline of Digo Islamization reveals a significant gender gap. As late as 1920, a colonial report noted that \"few Digo women were Muslim.\" Men had converted in large numbers through trade networks and healer relationships, but women's conversion lagged by decades. The turning point came in the mid-20th century, driven substantially by Islamic law's inheritance provisions.",
+      "sw": "Ratiba ya Uislamu wa Wadigo inafunua pengo muhimu la kijinsia. Hadi 1920, ripoti ya kikoloni ilibainisha kwamba \"few Digo women were Muslim.\" Wanaume walikuwa wamebadilika kwa wingi kupitia mitandao ya biashara na uhusiano na waganga, lakini ubadilishaji wa wanawake ulichelewa kwa miongo kadhaa. Hatua ya mabadiliko ilikuja katikati ya karne ya 20, ikiendeshwa kwa kiasi kikubwa na masharti ya sheria ya Kiislamu kuhusu urithi.",
+      "dg": "Ratiba ya Adigo kuhala Uislamu inaonyesa pengo muhimu ra chijinsia. Hadi 1920, ripoti ya chikoloni yaandika kukala \"few Digo women were Muslim.\" Alume kala akabadilika kpwa unji kpwa mitandao ya chibiashara na uhusiano na aganga, ela kubadilika kpwa achetu kwachelewa kpwa miaka mirongo kadhaa. Hatua ya mabadiliko yakpwedza kahi-kahi ya karne ya ishirini, ichisukumwa kpwa chiasi chikulu ni masharti ga shariya ya Chiislamu kuhusu urisi."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Under traditional Digo customary law, women's property rights were limited and mediated through male relatives. Islamic *sharia* law, however imperfectly applied, guaranteed women specific inheritance shares — a wife receives one-eighth of her husband's estate, a daughter half the share of a son. For Digo women, particularly widows and daughters in disputes over land and property, conversion to Islam was a legal strategy as much as a spiritual choice. By claiming Muslim identity, a woman could invoke *kadhi* court jurisdiction and access inheritance rights that customary law denied her. The mass conversion of Digo women from the 1940s onward completed the Islamization of the community and made Islam a truly universal Digo identity rather than a male-dominated urban affiliation.",
+      "sw": "Chini ya sheria ya kimila ya Kidigo, haki za mali za wanawake zilikuwa chache na zilipatanishwa kupitia jamaa wa kiume. Sheria ya *sharia* ya Kiislamu, hata ikitumika kwa njia isiyo kamili, ilitoa sehemu maalum za urithi kwa wanawake — mke hupokea moja ya nane ya mali ya mume wake, binti nusu ya sehemu ya mtoto wa kiume. Kwa wanawake wa Kidigo, hasa wajane na mabinti katika migogoro kuhusu ardhi na mali, kubadilika kuwa Mwislamu ilikuwa mkakati wa kisheria kama ilivyokuwa chaguo la kiroho. Kwa kudai utambulisho wa Kiislamu, mwanamke angeweza kuomba mamlaka ya mahakama ya *kadhi* na kupata haki za urithi ambazo sheria ya kimila ilimzuilia. Ubadilishaji wa wingi wa wanawake wa Kidigo kuanzia miaka ya 1940 kuendelea ulikamilisha Uislamu wa jamii na kufanya Uislamu kuwa utambulisho wa kweli wa kila Mdigo badala ya uhusiano wa wanaume tu wa mjini.",
+      "dg": "Photsi ya shariya ya chimila ya Chidigo, haki za mali za achetu kala ni chache na kala zinatsapira kpwa ndugu a chilume. Shariya ya *sharia* ya Chiislamu, hata ichihumirwa kpwa njira isiyo kamili, yalavya seemu maalum za urisi kpwa achetu — mche anahala seemu mwenga kpwa nane ya mali ya mlumewe, na mwana mchetu anahala nusu ya seemu ya mwana mlume. Kpwa achetu a Chidigo, hasa magungu na ana achetu ario na kondo kuhusu tsi na mali, kubadilika kukala Muislamu kala ni mkakati wa chisheria dza vira kala ni chaguo ra chiroho. Kpwa kudai utambulisho wa Chiislamu, mche kala anaweza kuvoya mamlaka ga mahakama ya *kadhi* na kuphaha haki za urisi ambazo shariya ya chimila yamzuwiya. Kubadilika kpwa unji kpwa achetu a Chidigo kula miaka ya 1940 kwakamilisha kuhala Uislamu kpwa jamii na kwahenda Uislamu ukale utambulisho wa kpweli wa chila Mudigo badala ya kukala uhusiano wa alume a mudzini tu."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Escape from Debt-Bondage",
+      "sw": "Kutoka Utumwa wa Deni",
+      "dg": "Kutuluka kpwa Utumwa wa Deni"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Another driver of conversion, less discussed but historically significant, was the *kore* system of debt-bondage. In the pre-colonial and early colonial Digo economy, individuals who fell into debt could become bonded to their creditors, occupying a status between free person and slave. Converting to Islam offered a path out of this system. Muslim communities were expected to treat fellow believers with the obligations of religious brotherhood, and the *kore* relationship was difficult to maintain when both parties were Muslim. For some Digo, Islam was quite literally a liberation theology — not in the abstract academic sense, but in the concrete reality of escaping bondage.",
+      "sw": "Kichocheo kingine cha ubadilishaji, kisichojadiliwa sana lakini muhimu kihistoria, kilikuwa mfumo wa *kore* wa utumwa wa deni. Katika uchumi wa Kidigo wa kabla na wakati wa ukoloni, watu walioanguka katika deni wangeweza kuwa wafungwa kwa wadeni wao, wakikaa katika hali kati ya mtu huru na mtumwa. Kubadilika kuwa Mwislamu kulitoa njia ya kutoka katika mfumo huu. Jamii za Kiislamu zilitarajiwa kuwachukulia waumini wenzao kwa wajibu wa udugu wa kidini, na uhusiano wa *kore* ulikuwa mgumu kudumishwa wakati pande zote mbili zilikuwa Waislamu. Kwa baadhi ya Wadigo, Uislamu ulikuwa kweli kweli theolojia ya ukombozi — si kwa maana ya kitaaluma ya kidhana, bali kwa ukweli halisi wa kutoka utumwani.",
+      "dg": "Chichocheo chanjina cha kubadilika, chisichogombwa sana ela muhimu chihistoria, kala ni mfumo wa *kore* wa utumwa wa deni. Kpwa uchumi wa Chidigo wa kabla ya ukoloni na wa mwandzo wa ukoloni, atu ariogbwa kpwenye deni kala anaweza kukala afungwa a atu ario kala anaadai, achikala kpwenye hali kahi ya mutu huru na mtumwa. Kubadilika kukala Muislamu kwalavya njira ya kutuluka kpwenye mfumo hinyo. Jamii za Chiislamu kala ni lazima ziahale aaminifu enzi ao kpwa wajibu wa undugu wa chidini, na uhusiano wa *kore* kala ni mgumu kudumishwa wakati pande zosi mbiri ni Aislamu. Kpwa Adigo anjina, Uislamu kala ni kpweli-kpweli theolojia ya ukombozi — si kpwa mana ya chitaaluma ya chidhana, ela kpwa ukpweli halisi wa kutuluka utumwani."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Building Mosques: Late 19th Century",
+      "sw": "Kujenga Misikiti: Mwishoni mwa Karne ya 19",
+      "dg": "Kudzenga Misikiti: Mwisho wa Karne ya Kumi na Tisiya"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "By the late 19th century, the Digo had moved from being recipients of Islamic influence to being active agents of its propagation. Digo communities were building their own mosques — not in coastal towns but in their home villages. This was a remarkable development. The mosque replaced the kaya as the center of community gathering, though the kayas retained their spiritual significance. Digo Muslims were also proselytizing to neighboring Mijikenda groups, making them the only Mijikenda people who actively spread Islam to their relatives.",
+      "sw": "Kufikia mwishoni mwa karne ya 19, Wadigo walikuwa wamehamia kutoka kuwa wapokeaji wa ushawishi wa Kiislamu kwenda kuwa mawakala hai wa kuenezwa kwake. Jamii za Wadigo zilikuwa zinajenga misikiti yao wenyewe — si katika miji ya pwani bali katika vijiji vyao vya nyumbani. Hii ilikuwa maendeleo ya ajabu. Msikiti ulibadilisha kaya kama kituo cha mkutano wa jamii, ingawa makaya yalihifadhi umuhimu wao wa kiroho. Waislamu wa Kidigo pia walikuwa wakiwahubiri makundi jirani ya Kimijikenda, wakiwafanya kuwa watu pekee wa Kimijikenda walioeneza Uislamu kwa ndugu zao.",
+      "dg": "Kufika mwisho wa karne ya kumi na tisiya, Adigo kala akatsupa kula kukala atu a kuhewa ushawishi wa Chiislamu hadi kukala atu a kuueneza kpwa nguvu. Jamii za Adigo kala zinadzenga misikiti yao enye — si kpwenye midzi ya pwani ela vidzidzini vyao vya kaya. Hiri kala ni dzambo ra ajabu. Msikiti wahala nafwasi ya kaya dza chituo cha mkutano wa jamii, ingawa makaya gasala na umuhimu wao wa chiroho. Aislamu a Chidigo piya kala anahubiri makundi ga phephi ga Amijikenda, dzambo ririroahenda akale ao tu atu a Chimijikenda ariokala anaeneza Uislamu kpwa ndugu zao."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The construction of village mosques marked the point at which Islam ceased to be a foreign import and became an indigenous Digo institution. The imam was a Digo man, not an Arab or Swahili outsider. The sermons were delivered in Chidigo, not Arabic. The rhythms of Islamic practice — the five daily prayers, the Friday congregation, the Ramadan fast — were woven into the agricultural and fishing calendar that had always governed Digo life.",
+      "sw": "Ujenzi wa misikiti ya vijiji ulikuwa hatua ambapo Uislamu uliacha kuwa bidhaa ya kigeni na kuwa taasisi ya asili ya Kidigo. Imamu alikuwa mtu wa Kidigo, si Mwarabu au Mswahili wa nje. Hotuba zilisomwa kwa Kidigo, si Kiarabu. Mdundo wa mazoezi ya Kiislamu — sala tano za kila siku, mkutano wa Ijumaa, mfungo wa Ramadhani — ulisukwa katika kalenda ya kilimo na uvuvi ambayo ilikuwa ikiongoza maisha ya Wadigo daima.",
+      "dg": "Kudzenga misikiti vidzidzini kala ni hatua ambapho Uislamu waricha kukala chitu cha chijeni na wakala taasisi ya asili ya Chidigo. Imamu kala ni mutu wa Chidigo, si Mwarabu au Mswahili wa kondze. Hotuba zasomwa kpwa Chidigo, si Chiarabu. Mdundo wa mazoezi ga Chiislamu — swala tsano za chila siku, mkutano wa Ijumaa, mfungo wa Ramadhani — waunganishwa na kalenda ya kurima na kuvuwa ambayo hangu kare yalongoza maisha ga Adigo."
+    },
+    {
+      "id": "b024",
+      "type": "heading",
+      "en": "Near-Universal Adherence: The 1940s Onward",
+      "sw": "Kufuatwa na Karibu Wote: Miaka ya 1940 Kuendelea",
+      "dg": "Kulungwa ni Phephi Osi: Kula Miaka ya 1940"
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "By the 1940s, the majority of Digo were Muslim, and by the mid-20th century, the figure approached universality. The last holdouts were typically elderly women in remote villages who maintained traditional practice, and even many of these had nominal Muslim identity. Christianity, despite continuous missionary effort since Johann Ludwig Krapf established the CMS mission at Rabai in 1844, never gained significant traction. The reasons were multiple: Islam had arrived first and spread organically through trade and healing; Christian missionaries were associated with colonialism; and the Digo social structure, in which collective identity mattered more than individual choice, meant that once a critical mass had converted, social pressure drove the remainder.",
+      "sw": "Kufikia miaka ya 1940, Wadigo wengi walikuwa Waislamu, na kufikia katikati ya karne ya 20, takwimu ilikaribia ulimwengu wote. Waliobaki mwisho kwa kawaida walikuwa wanawake wazee katika vijiji vya mbali waliotunza mazoezi ya jadi, na hata wengi wa hawa walikuwa na utambulisho wa Kiislamu wa jina. Ukristo, licha ya juhudi za mfululizo za kimisheni tangu Johann Ludwig Krapf alipoanzisha misheni ya CMS huko Rabai mwaka 1844, hakupata nguvu kubwa. Sababu zilikuwa nyingi: Uislamu ulikuwa umefika kwanza na kuenea kwa njia ya asili kupitia biashara na uponyaji; wamisionari wa Kikristo walihusishwa na ukoloni; na muundo wa kijamii wa Kidigo, ambapo utambulisho wa pamoja ulikuwa muhimu zaidi kuliko chaguo la mtu binafsi, ulimaanisha kwamba mara wingi muhimu ulibadilika, shinikizo la kijamii liliendesha waliobaki.",
+      "dg": "Kufika miaka ya 1940, Adigo anji kala ni Aislamu, na kufika kahi-kahi ya karne ya ishirini, idadi yafika phephi na atu osi. Ariosala mwisho kala kawaida ni achetu azehe a vidzidzi vya kure ariotundza mazoezi ga chimila, na hata anji kahi yao kala ana utambulisho wa Chiislamu wa dzina tu. Ukristo, hata dza kala kuna juhudi za chimisheni bila kurichwa hangu Johann Ludwig Krapf ariphoandzisha misheni ya CMS iko Rabai mwaka 1844, tauyaphaha nguvu kulu. Sababu kala ni nyinji: Uislamu kala ukafika kpwandza na ukaenea kpwa njira ya asili kpwa biashara na kuphoza; amishionari a Chikristo kala anahusishwa na ukoloni; na muundo wa chijamii wa Chidigo, ambapho utambulisho wa phamwenga kala ni muhimu zaidi kuriko chaguo ra mutu macheye, wamaanisha kukala unji wa atu uchishabadilika, mashinikizo ga chijamii gasukuma ariosala."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "What Was Gained and What Was Kept",
+      "sw": "Kilichopatikana na Kilichohifadhiwa",
+      "dg": "Chirichophahikana na Chirichohifadhiwa"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The Islamization of the Digo was neither a clean break with the past nor a superficial adoption of new labels. It was a deep, century-long process of cultural negotiation in which the Digo absorbed Islamic practices, vocabulary, legal frameworks, and spiritual concepts while retaining the core structures of their ancestral worldview. The koma spirits did not disappear because the Digo began praying to Allah. The mganga did not close his practice because the imam opened a mosque. The kaya did not lose its sacred power because a minaret rose nearby.",
+      "sw": "Uislamu wa Wadigo haukuwa mapumziko safi na zamani wala kupitishwa kwa juu juu kwa lebo mpya. Ilikuwa mchakato wa kina, wa karne moja, wa mazungumzo ya kitamaduni ambapo Wadigo walichukua mazoezi ya Kiislamu, msamiati, mifumo ya kisheria, na dhana za kiroho huku wakihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa mababu. Roho za koma hazikutoweka kwa sababu Wadigo walianza kumwomba Allah. Mganga hakufunga kazi yake kwa sababu imamu alifungua msikiti. Kaya haikupoteza nguvu yake takatifu kwa sababu mnara uliinuka karibu.",
+      "dg": "Kuhala Uislamu kpwa Adigo kala si kuricha kare kabisa, wala si kuhala madzina maphya kpwa dzulu-dzulu tu. Kala ni mchakato wa china, wa karne nzima, wa mazungumzo ga chimila ambapho Adigo ahala mazoezi ga Chiislamu, msamiati, mifumo ya chisheria, na dhana za chiroho hiku achihifadhi miundo ya msingi ya mtazamo wao wa ulimwengu wa akare. Roho za koma taziyatoweka kpwa sababu Adigo aandza kumvoya Allah. Mganga kayafunga kaziye kpwa sababu imam avugula msikiti. Kaya taiyaangamiza nguvuye takatifu kpwa sababu mnara wazuka phephi."
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "What emerged was something new — neither purely Islamic nor purely traditional, but distinctively Digo. The timeline of Islamization is not merely a historical narrative. It is the origin story of the religious system that defines Digo life today: a system in which a single person can be, without contradiction, a devout Muslim and a believer in ancestral spirits, a mosque-goer and a client of the mganga, a reader of the Quran and a participant in kaya ceremonies. Understanding how this system came to be is essential to understanding what it is.",
+      "sw": "Kilichoibuka kilikuwa kitu kipya — si Kiislamu tu wala si kimila tu, bali ni cha Kidigo kwa njia ya kipekee. Ratiba ya Uislamu si tu masimulizi ya kihistoria. Ni hadithi ya asili ya mfumo wa kidini unaofafanua maisha ya Kidigo leo: mfumo ambapo mtu mmoja anaweza kuwa, bila kupingana, Mwislamu mwaminifu na mwaminiano wa roho za mababu, mwenda msikitini na mteja wa mganga, msomaji wa Kurani na mshiriki wa sherehe za kaya. Kuelewa jinsi mfumo huu ulivyokuja kuwa ni muhimu kuelewa ni nini.",
+      "dg": "Chirichozuka kala ni chitu chiphya — si cha Chiislamu tu wala si cha chimila tu, ela ni cha Chidigo kpwa njira ya chipekee. Ratiba ya kuhala Uislamu si masimulizi ga chihistoria tu. Ni hadithi ya mwandzo wa mfumo wa chidini unaoeleza maisha ga Adigo rero: mfumo ambapho mutu mmwenga anaweza kukala, bila kupingana, Muislamu mwaminifu na mutu anayeamini roho za akare, mutu anayephiya msikitini na anayephiya kpwa mganga, msomaji wa Kurani na mshiriki wa sherehe za kaya. Kuelewa vira mfumo hinyo urivyozuka ni muhimu ili kuelewa ni chitu chani."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "language/oral-history",
+  "title": {
+    "en": "Oral History",
+    "sw": "Historia ya Mdomo",
+    "dg": "Historia ya Kusimulia"
+  },
+  "intro": {
+    "en": "Among the Digo, history is not something you read. It is something you hear — from an elder who heard it from their elder, in an unbroken chain reaching back to the founding of the first kaya in the…",
+    "sw": "Miongoni mwa Wadigo, historia si kitu unachosoma. Ni kitu unachosikia — kutoka kwa mzee aliyeisikia kutoka kwa mzee wake, katika mnyororo usiovunjika unaorudi hadi kuanzishwa kwa kaya ya kwanza katika…",
+    "dg": "Kahi ya Adigo, historia si chitu unachosoma. Ni chitu unachosikira — kula kpwa mvyere ariyeisikira kula kpwa mvyere wakpwe, kpwa mnyororo usiovundzika unaorudi hadi kuandzishwa kpwa kaya ya kpwandza…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Memory as Institution",
+      "sw": "Kumbukumbu Kama Taasisi",
+      "dg": "Kumbukumbu Dza Taasisi"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Among the Digo, history is not something you read. It is something you hear — from an elder who heard it from their elder, in an unbroken chain reaching back to the founding of the first kaya in the Shimba Hills. This chain of oral transmission is not a deficient version of written history. It is a different institution entirely: one that binds the knowledge of the past to the authority of living persons, making history inseparable from the community that carries it.",
+      "sw": "Miongoni mwa Wadigo, historia si kitu unachosoma. Ni kitu unachosikia — kutoka kwa mzee aliyeisikia kutoka kwa mzee wake, katika mnyororo usiovunjika unaorudi hadi kuanzishwa kwa kaya ya kwanza katika milima ya Shimba. Mnyororo huu wa usambazaji wa mdomo si toleo duni la historia ya maandishi. Ni taasisi tofauti kabisa: inayounganisha maarifa ya zamani na mamlaka ya watu walio hai, ikifanya historia isiyotengana na jamii inayoibeba.",
+      "dg": "Kahi ya Adigo, historia si chitu unachosoma. Ni chitu unachosikira — kula kpwa mvyere ariyeisikira kula kpwa mvyere wakpwe, kpwa mnyororo usiovundzika unaorudi hadi kuandzishwa kpwa kaya ya kpwandza kpwa myango ya Shimba. Mnyororo uhu wa kupisha kpwa mdomo si toleo duni ra historia ya maandishi. Ni taasisi tofauti kabisa: inayounganisha marifwa ga kare na mamlaka ga atu ario moyo, ikihenda historia isiyotengana na jamii inayoibeba."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The *kambi* — the council of elders that governs the kaya — serves as the institutional custodian of oral history. The elders do not merely remember the past. They are authorised to speak it. An uninitiated person who claims knowledge of kaya history is not simply wrong; they are overstepping a boundary of social authority. The knowledge belongs to the elders because the elders earned the right to carry it — through circumcision, through the age-set progression, through the years of service that brought them into the kambi. History, in this system, is not free information. It is entrusted knowledge.",
+      "sw": "*Kambi* — baraza la wazee linalotawala kaya — linahudumu kama mlezi wa kitaasisi wa historia ya mdomo. Wazee hawakumbuki tu zamani. Wameruhusiwa kuisema. Mtu ambaye hajafanyiwa ibada ya kuingizwa anayedai maarifa ya historia ya kaya si tu makosa; anavuka mpaka wa mamlaka ya kijamii. Maarifa ni ya wazee kwa sababu wazee walipata haki ya kuyabeba — kupitia tohara, kupitia maendeleo ya rika, kupitia miaka ya huduma iliyowaleta katika kambi. Historia, katika mfumo huu, si habari ya bure. Ni maarifa yaliyokabidhiwa.",
+      "dg": "*Kambi* — baraza ra avyere rinalotawala kaya — rinahudumu dza mulezi wa kitaasisi wa historia ya mdomo. Avyere takakumbuki tu kare. Ameruhusiwa kuiamba. Mutu ambaye kadza kpwa kambi anayedai marifwa ga historia ya kaya si tu makosa; anavuka mpaka wa mamlaka ya kijamii. Marifwa ni ga avyere kpwa sababu avyere alipata haki ya kugabeba — kupitshi tohara, kupitshi maendeleo ga rika, kupitshi miaka ya huduma iriyoaleta kpwa kambi."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Singwaya Narrative",
+      "sw": "Masimulizi ya Singwaya",
+      "dg": "Masimulizi ga Singwaya"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The foundational oral history of the Digo — shared in varying forms across all nine Mijikenda peoples — is the narrative of the migration from Singwaya. In the Digo version, the ancestors once lived in a settlement called Singwaya, located somewhere north of the Tana River in present-day southern Somalia. When Cushitic-speaking Oromo peoples invaded, the Digo were the first to leave, fleeing south to the Shimba Hills where they established Kaya Kwale, their first fortified settlement.",
+      "sw": "Historia ya msingi ya mdomo ya Wadigo — inayoshirikiwa kwa mifumo tofauti kati ya watu wote tisa wa Mijikenda — ni masimulizi ya safari kutoka Singwaya. Katika toleo la Wadigo, mababu waliwahi kuishi katika makazi yaliyoitwa Singwaya, mahali fulani kaskazini ya Mto Tana. Watu wa Oromo waliposhambulia, Wadigo walikuwa wa kwanza kuondoka, wakikimbilia kusini hadi milima ya Shimba ambapo walianzisha Kaya Kwale.",
+      "dg": "Historia ya msingi ya mdomo ya Adigo ni masimulizi ga safari kula Singwaya. Kpwa toleo ra Adigo, avyere a kare akala anakala kpwa makazi garigokala ganaihwa Singwaya, phatu fulani kaskazini ya Muho wa Tana. Atu a Oromo ariphoshambulia, Adigo akala a kpwandza kuundoka, akikimbilia kusini hadi myango ya Shimba ambapo aliandza Kaya Kwale."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "This priority of departure is not a minor detail. The Digo claim seniority among the nine Mijikenda peoples specifically because they left first, and this claim is generally accepted by the other groups. The oral history thus functions as a charter for political status — it is not merely a description of what happened but a justification for how the present is organised.",
+      "sw": "Kipaumbele hiki cha kuondoka si undani mdogo. Wadigo wanadai useniori miongoni mwa watu tisa wa Mijikenda hasa kwa sababu waliondoka kwanza, na dai hili linakubaliwa kwa ujumla na makundi mengine. Historia ya mdomo inafanya kazi kama hati ya hadhi ya kisiasa — si maelezo tu ya kilichotokea bali uhalalishaji wa jinsi sasa inavyopangwa.",
+      "dg": "Kuundoka kpwandza si undani mudide. Adigo anadai useniori kahi ya atu tisa a Mijikenda hasa kpwa sababu aundoka kpwandza, na dai rino rinakubaliwa ni makundi ganjina. Historia ya mdomo inahumika dza hati ya hadhi ya kisiasa — si maelezo tu ga garirogenderera ela uhalalishaji wa jinsi rero inavyopangwa."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "What makes the Digo version distinctive is its entanglement with Islamic identity. Scholars have documented how Digo oral histories \"frequently incorporate motifs of ethnic primacy, portraying Digo forebears as bearers of superior Islamic-influenced lineages or earlier access to coastal resources.\" As Islam became central to Digo identity in the 19th and 20th centuries, the oral history adapted — not by discarding the Singwaya narrative but by layering Islamic elements onto it. An academic paper captured this dynamic in its title: \"'Singwaya was a mere small station': Islamization and ethnic primacy in Digo oral traditions of origin and migration.\"",
+      "sw": "Kinachofanya toleo la Wadigo kuwa la kipekee ni uhusiano wake na utambulisho wa Kiislamu. Wasomi wameandika jinsi historia za mdomo za Wadigo \"mara kwa mara zinajumuisha motifu za ukuu wa kikabila, zikionyesha mababu wa Wadigo kama wabebaji wa nasaba zenye ushawishi wa Kiislamu.\" Kadri Uislamu ulivyokuwa kuu katika utambulisho wa Wadigo katika karne ya 19 na 20, historia ya mdomo ilibadilika — si kwa kutupa masimulizi ya Singwaya bali kwa kuongeza vipengele vya Kiislamu juu yake.",
+      "dg": "Makaya Dza Maeneo ga Kumbukumbu"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "This is what oral history does that written history cannot: it evolves with the community. A written account, once set down, is fixed. An oral account is re-performed with each telling, and each performance can emphasise, reinterpret, or supplement the narrative to reflect the community's current understanding of itself. This is not falsification. It is how a living tradition stays relevant.",
+      "sw": "Makaya Kama Maeneo ya Kumbukumbu",
+      "dg": "Misitu mitakatifu ya kaya si tu maeneo ga chiroho na vituo vya utawala. Ni maeneo ga kumbukumbu — nanga za chimwiri za marifwa ga kihistoria ga pamoja. Chila kaya ina historia yakpwe: iriandzishwa rini, ni ani, matukio gani garigokpwenderera ndani ya viwanja vyakpwe. Miri, njira, msimamo wa moroni, phatu pha fingo — gosi ganabeba maana ya kihistoria kpwa avyere amanyao jinsi ya kugasoma."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "The Kayas as Memory Sites",
+      "sw": "Misitu takatifu ya kaya si tu maeneo ya kiroho na vituo vya utawala. Ni maeneo ya kumbukumbu — nanga za kimwili za maarifa ya kihistoria ya pamoja. Kila kaya ina historia yake: ilianzishwa lini, na nani, matukio gani yalitokea ndani ya viwanja vyake. Miti, njia, msimamo wa moroni, mahali pa fingo — yote yanabeba maana ya kihistoria kwa wazee wanaojua jinsi ya kuyasoma.",
+      "dg": "Kaya inaphoharibwa — dza Kaya Diani irivyoharibwa ni maendeleo ga utalii — nanga ya chimwiri ya historia yakpwe inapotea. Avyere anaweza bado kubeba marifwa, ela bila eneo ra kutembea na kuonyesha, kupisha kunakala kpwa kinadharia. Mvyere anayeelezea muundo wa kaya kpwa mutu mdide wakati akiima kpwa kiwanja chakpwe anafanya kazi ya kupisha historia kpwa uwezo zaidi kuriko mmwenga anayeelezea kaya ambayo kaweza tena kutembelea."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The kaya sacred forests are not just spiritual sites and governance centres. They are memory sites — physical anchors for collective historical knowledge. Each kaya has its own history: when it was founded, by whom, what events took place within its clearings. The trees, the paths, the position of the moroni structure, the location of the fingo talismans — all carry historical meaning for the elders who know how to read them.",
+      "sw": "Kaya inapoharibiwa — kama Kaya Diani ilivyoharibiwa na maendeleo ya utalii — nanga ya kimwili ya historia yake inapotea. Wazee wanaweza bado kubeba maarifa, lakini bila eneo la kutembea na kuonyesha, usambazaji unakuwa wa kinadharia, na nadharia ni adui ya kumbukumbu ya mdomo.",
+      "dg": "Kilicho Hatarini"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "When a kaya is destroyed — as Kaya Diani has been by tourist development — the physical anchor of its history is lost. The elders may still carry the knowledge, but without the site to walk through and point to, the transmission becomes abstract, and abstraction is the enemy of oral memory. An elder explaining the layout of a kaya to a young person while standing in its clearing is performing an act of historical transmission far more effectively than one describing a kaya they can no longer visit.",
+      "sw": "Kilicho Hatarini",
+      "dg": "Dharura ya kuandika historia ya mdomo kahi ya Adigo taiweza kupuuzwa. Avyere anao beba marifwa ga kina ga kihistoria anazeka. Mfumo wa rika uriokala unahakikisha kupisha kpwa utaratibu umedzidi kudhoofika. Makaya gariyo nanga ya kumbukumbu ga kihistoria gako hatarini. Na avulana na asichana ambao anapaswa kujifundza historia hino anadzidi kutengana na muktadha wa kitaasisi ambapo kupisha kulikala kunagenderera kijadi."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "What Is at Stake",
+      "sw": "Dharura ya kuandika historia ya mdomo miongoni mwa Wadigo haiwezi kupuuzwa. Wazee wanaobeba maarifa ya kina ya kihistoria wanazeeka. Mfumo wa rika uliowahi kuhakikisha usambazaji wa utaratibu umezidi kudhoofika. Makaya yaliyo nanga ya kumbukumbu ya kihistoria yako hatarini. Na vijana ambao wanapaswa kujifunza historia hii wanazidi kutengana na muktadha wa kitaasisi ambapo usambazaji ulifanyika kijadi.",
+      "dg": "Chila mvyere anayefariki bila kupisha marifwa gakpwe kpwa mrithi anawakilisha hasara isiyoweza kurudhishwa. Hino si hasara ya kumbukumbu za mutu mmwenga. Ni hasara ya kiungo kpwa mnyororo ambao unaweza kukala taukuvundzika kpwa karne nyinji. Ukivundzika, mnyororo taweza kurekebishwa."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The urgency of oral history documentation among the Digo cannot be overstated. The elders who carry the deepest historical knowledge are aging. The age-set system that once ensured orderly transmission from one generation of elders to the next has weakened. The kayas that anchored historical memory are under threat. And the young people who should be learning this history are increasingly disconnected from the institutional contexts — the kambi, the kaya, the evening gathering — where transmission traditionally occurred.",
+      "sw": "Kila mzee anayefariki bila kupitisha maarifa yake kwa mrithi anawakilisha hasara isiyoweza kurudishwa. Hii si hasara ya kumbukumbu za mtu mmoja. Ni hasara ya kiungo katika mnyororo ambao unaweza kuwa hauvunjiki kwa karne nyingi. Ukivunjika, mnyororo hauwezi kurekebishwa.",
+      "dg": "Uharaka wa kuandika historia ya simulizi ya Adigo tauweza kupunguzwa. Akare ambao anariko na maarifa ga kpweli-kpweli ga historia anakala akare. Mfumo wa rika ambao kare wahakikisha kupishira kpwa utaratibu kula kizazi chimwenga cha akare hadi chanjce ukadzidhoofika. Makaya ambago gahifadhi kumbukumbu za historia gako hatarini. Na ana achanga ambao kala anafwaha kudzifundza historia ihi anadzitenga zaidi na zaidi na mazingira ga jadi — kambi, kaya, kikao cha usiku — ambamo kupishira kpwa kawaida kurahendeka."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Each elder who dies without passing their knowledge to a successor represents an irreversible loss. This is not the loss of one person's memories. It is the loss of a link in a chain that may have been unbroken for centuries. Once broken, the chain cannot be repaired. The knowledge that elder carried — the specific genealogies, the precise sequences of events, the nuances of interpretation — is gone.",
+      "sw": "Kila mzee anayefariki bila kupitisha maarifa yake kwa mrithi anawakilisha hasara isiyoweza kurudishwa. Hii si upotevu wa kumbukumbu za mtu mmoja. Ni upotevu wa kiungo katika mnyororo ambao huenda haukuvunjika kwa karne nyingi. Ukishavunjika, mnyororo hauwezi kurekebishwa. Maarifa ambayo mzee huyo alikuwa nayo — nasaba maalum, mfuatano sahihi wa matukio, maana za kina za tafsiri — yamepotea.",
+      "dg": "Chila mkare ambaye anafwa bila kupishira maarifa gakpwe kpwa mutu wa kumuhala nafasi yakpwe ni hasara isiyoweza kuuyizwa. Ihi siye kupoteza kumbukumbu za mutu mmwenga. Ni kupoteza kiungo kpwenye mnyororo ambao unaweza kukala tauvundzwire kpwa miaka mia nyinji. Ukishavundzika, mnyororo tauweza kurekebishwa. Maarifa ambago mkare yuya kala anago — nasaba maalumu, mfuatano sahihi wa mambo garigohendeka, maana za ndani za tafsiri — gakapotea."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The Chidigo initiative's oral history archive aims to record and preserve these voices: 100 hours of recorded, transcribed, consented oral history by Year 3, rising to 500 hours by Year 5. But recording is only the first step. The deeper challenge is creating a world in which young Digo people see themselves as inheritors of this knowledge — not as passive consumers of archived recordings, but as the next link in a chain that must not break.",
+      "sw": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti hizi: saa 100 za historia simulizi iliyorekodiwa, iliyoandikwa, na yenye ridhaa ifikapo Mwaka wa 3, ikipanda hadi saa 500 ifikapo Mwaka wa 5. Lakini kurekodi ni hatua ya kwanza tu. Changamoto kubwa zaidi ni kuunda ulimwengu ambao vijana wa Kidigo wanajiiona kama warithi wa maarifa haya — si kama watumiaji wa kawaida wa rekodi zilizohifadhiwa, bali kama kiungo kinachofuata katika mnyororo ambao haupaswi kuvunjika.",
+      "dg": "Hifadhi ya historia simulizi ya mpango wa Chidigo inalenga kurekodi na kuhifadhi sauti zizi: masaa 100 ga historia simulizi iriyorekodiwa, iriyoandikwa, na yenye ridhaa hadi Mwaka wa 3, ikipanda hadi masaa 500 hadi Mwaka wa 5. Ela kurekodi ni hathwa ya kpwandza tu. Changamoto kulu zaidi ni kuumba ulimwengu ambamo vijana a Chidigo anadziona kukala ni arisi a maarifa iga — si atu ambao anasirikiza tu rekodi zilizohifadhiwa, ela ni kiungo chinacholunga kpwenye mnyororo ambao taufwaha kuvundzika."
+    }
+  ]
+}

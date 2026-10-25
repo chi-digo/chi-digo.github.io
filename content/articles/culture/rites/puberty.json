@@ -1,0 +1,267 @@
+{
+  "id": "culture/rites/puberty",
+  "title": {
+    "en": "Puberty Rites",
+    "sw": "Mila za Kubalehe",
+    "dg": "Chimila za Kuvundza Ungo"
+  },
+  "intro": {
+    "en": "The Digo recognise that boys and girls do not become adults in the same way. The challenges they will face are different, the knowledge they need is different, and the ceremonies that carry them…",
+    "sw": "Wadigo wanatambua kwamba wavulana na wasichana hawawi watu wazima kwa njia moja. Kutahiriwa kwa wanaume — *jando* — kunaandaa wavulana kwa ulimwengu wa wanaume kupitia nidhamu ya tohara na mshikamano…",
+    "dg": "Adigo anamanya kukala avulana na asichana taakala atu azima kpwa njira mwenga. Mila ya alume — *jando* — inaandaa avulana kpwa ulimwengu wa alume kpwa nidhamu ya tohara na mshikamano wa…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Two Paths to Adulthood",
+      "sw": "Njia Mbili za Utu Uzima",
+      "dg": "Njira Mbiri za Utu Uzima"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo recognise that boys and girls do not become adults in the same way. The challenges they will face are different, the knowledge they need is different, and the ceremonies that carry them across the threshold are different. Male initiation — *jando* — prepares boys for the world of men through the discipline of circumcision and the solidarity of the age-set. Female initiation — *unyago* — prepares girls for the world of women through the wisdom of elder women and the intimate teachings that will shape their adult lives. Both traditions share a common conviction: that adulthood is not something that simply happens. It must be taught, tested, and formally conferred by the community.",
+      "sw": "Wadigo wanatambua kwamba wavulana na wasichana hawawi watu wazima kwa njia moja. Kutahiriwa kwa wanaume — *jando* — kunaandaa wavulana kwa ulimwengu wa wanaume kupitia nidhamu ya tohara na mshikamano wa rika. Kutahiriwa kwa wanawake — *unyago* — kunaandaa wasichana kwa ulimwengu wa wanawake kupitia hekima ya wanawake wazee na mafundisho ya karibu. Mila zote mbili zinashiriki imani moja: kwamba utu uzima si kitu kinachotokea tu. Lazima kifundishwe, kijaribiwe, na kutolewa rasmi na jamii.",
+      "dg": "Adigo anamanya kukala avulana na asichana taakala atu azima kpwa njira mwenga. Changamoto zinazoakabili ni tafwauti, marifwa ganayoahitaji ni tafwauti, na sherehe zinazoatsupiza chizingiti ni tafwauti. Mila ya alume — *jando* — inaandaa avulana kpwa ulimwengu wa alume kpwa nidhamu ya tohara na mshikamano wa rika. Mila ya achetu — *unyago* — inaandaa asichana kpwa ulimwengu wa achetu kpwa ikima ya achetu azehe na mafundzo ga ndani ganayoumba maisha gao ga utu uzima. Chimila zosi mbiri zina imani mwenga: kukala utu uzima si chitu chinachohendeka bahi. Ni lazima chifundzwe, chijaribiwe, na mutu achihewe rasmi ni jamii."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Unyago: The Women's Initiation",
+      "sw": "Unyago: Kutahiriwa kwa Wanawake",
+      "dg": "Unyago: Mila ya Achetu"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Between the ages of sixteen and twenty, Digo girls entered a period of structured training that would prepare them for marriage and adult womanhood. This was *unyago* — the female puberty rites — and it was overseen entirely by women. No men were present. No men were consulted. This was the domain of mothers, grandmothers, and the specialised female instructors whose role it was to carry the accumulated wisdom of Digo womanhood from one generation to the next.",
+      "sw": "Kati ya umri wa miaka kumi na sita na ishirini, wasichana wa Kidigo waliingia katika kipindi cha mafunzo yaliyopangwa ambayo yangewaandaa kwa ndoa na utu uzima wa kike. Hii ilikuwa *unyago*, na ilisimamiwa kabisa na wanawake. Hakuna wanaume waliokuwepo.",
+      "dg": "Kahi ya umri wa miaka kumi na sita na mirongo miiri, asichana a Chidigo ariinjira chipindi cha mafundzo garigopangwa ambago gangeaandaa kpwa ndowa na utu uzima wa mchetu. Hino irikala *unyago* — mila ya kuandzishwa kpwa achetu — na iriimirirwa kabisa ni achetu. Takuna mlume ariyekalapho. Takuna mlume ariyeuzwa shauri. Hiri ririkala dzambo ra amayo, ra bibi, na ra alimu achetu ambao kazi yao irikala kutsukula ikima ya uchetu wa Chidigo iriyokusanywa kula chizazi chimwenga hadi chanjina."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The unyago was not a single event but a process, unfolding over weeks or even months, during which the young woman was separated from her ordinary life and immersed in intensive preparation for the transition ahead. The seclusion itself was significant — by removing the girl from her daily routine, the community signalled that something profound was happening. She was leaving one identity behind and preparing to assume another.",
+      "sw": "*Somo* — mwalimu wa bibi arusi — alikuwa na jukumu la mabadiliko ya kimwili ya msichana, mchakato ambao ungeweza kuenea kwa hadi miezi minne. Matibabu ya urembo yalikuwa ya makini: *liwa* (udongo wa njano), *manjano* (manjano), matibabu ya *Binti Dhahabu*, manukato ya msandali, na kuogeshwa katika moshi wa ubani. Mapambo ya hina yalikuwa kazi kuu — mifumo iliyochorwa kwa mikono na miguu, tabaka tano au sita kwa saa kumi na mbili au zaidi.",
+      "dg": "Unyago taurikala dzambo ra mara mwenga, ela urikala mchakato, uchienderera kpwa wiki au hata miezi, ambapho msichana aritengbwa na maishage ga kawaida na achiinjizwa kpwenye maandalizi makali ga kutsupa kuinjira utu uzima. Kutengbwa uko kurikala na mana kulu — kpwa kumuusa msichana kpwenye shughulize za chila siku, jamii iriphirikira kukala kuna dzambo kulu rinahendeka. Arikala anaricha utambulisho wa kare nyuma na kudziandaa kuhala utambulisho muphya."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Somo: Bridal Mentor and Beautician",
+      "sw": "*Kungwi* — mwalimu wa ndoa — alifundisha maarifa ya usafi wa mwili, mambo ya chumba cha kulala, na jinsi ya kumshughulikia mume. Mafundisho haya yalionwa kuwa muhimu — mwanamke aliyeingia ndoani bila maarifa haya alionwa kuwa hajaandaliwa.",
+      "dg": "Somo: Mlongozi wa Bibi Arusi na Mpambaji"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Central to the female initiation was the *somo* — a role that combined the functions of beauty specialist, confidante, and personal guide. The somo was responsible for the physical transformation of the young woman, a process that could extend over up to four months of seclusion.",
+      "sw": "Bibi alifundisha sanaa za vitendo: kupika, matunzo ya nyumba, heshima kwa wazee na wakwe, na *twahara* — sanaa ya kujipamba kwa chumba cha kulala.",
+      "dg": "Kahi-kahi ya kuandzishwa kpwa achetu kurikala na *somo* — nafasi iriyounganisha kazi za mtaalamu wa urembo, rafiki wa siri, na mlongozi wa msichana macheye. Somo arikala na jukumu ra mabadiliko ga chimwiri ga msichana, mchakato ambao ungeweza kuenea hadi miezi mine ya kutengbwa."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The beauty treatments were elaborate and deliberate. *Liwa*, a yellowish clay or paste, was applied to the skin, giving it a distinctive glow. *Manjano* — turmeric treatments — were used for their colour and their skin-softening properties. The girl might undergo the *Binti Dhahabu* treatment — literally \"Golden Girl\" — a regimen that combined multiple preparations to enhance her appearance. Sandalwood perfuming scented her skin, and she might be bathed in incense smoke, the fragrant clouds carrying both aesthetic and spiritual significance.",
+      "sw": "Nyimbo na Mafundisho",
+      "dg": "Matibabu ga urembo garikala manji na ga makini. *Liwa*, ulongo wa manjano au dawa ya rangi iyo, iripakpwa ngozini, ichiipha ngozi mng'aro wa chipekee. *Manjano* — matibabu ga chikatsu — garihumirwa kpwa rangi yao na kpwa kulainisha ngozi. Msichana angeweza kuhendwa matibabu ga *Binti Dhahabu* — manaye \"Msichana wa Dhahabu\" — mpango uriounganisha maandalizi manji kuenjereza urembowe. Ngoziye iritiwa manukato ga msandali, na angeweza kufukizwa ubani, mosi wa arufu nono uchitsukula mana ya urembo na ya chiroho phamwenga."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Henna decoration was a centrepiece of the somo's work. Elaborate patterns were drawn on the young woman's hands and feet, applied in five or six layers over twelve or more hours. The henna was not merely decorative. The patterns carried meaning — fertility, protection, beauty, blessings — and the process of application was itself a ritual, a meditative act that bound the somo and her charge in a relationship of trust and intimacy.",
+      "sw": "Unyago uliambatana na nyimbo katika kila hatua — nyimbo za mafundisho, sherehe, onyo, na baraka. Nyimbo zilishughulikia mahusiano ya ndoa, usafi wa maadili, matarajio ya kijamii, na majukumu ya watu wazima. Ngoma ya *chakacha* ilikuwa sherehe na mafundisho, mienendo yake ikibeba maana ambazo waliotahiriwa walielewa.",
+      "dg": "Mapambo ga hina garikala kazi kulu ya somo. Michoro ya ufundi irichorwa kpwenye mikono na magulu ga msichana, tabaka tsano au sita kpwa masaa kumi na mairi au zaidi. Hina tairikala ya kupamba bahi. Michoro iritsukula mana — kuvyala, kurindwa, urembo, baraka — na kazi ya kuipaka nayo irikala ibada, dzambo ra kutulia na kuaza-aza ririroaunganisha somo na msichana kpwa uhusiano wa kuaminiana na wa phephi."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The somo's role was deeply personal. She was the person who knew the bride most intimately during the period of preparation, who attended to her body and her anxieties, who guided her through the unfamiliar territory between girlhood and womanhood. The relationship between a woman and her somo could last a lifetime, the bond forged during those weeks of seclusion remaining long after the wedding was over.",
+      "sw": "Sherehe ya *vugo* ilisherehekea na kuthibitisha ubikira wa bibi arusi — suala la heshima ya familia katika jamii ya jadi ya Wadigo.",
+      "dg": "Kazi ya somo irikala ya phephi sana. Ndiye ariyemmanya bibi arusi kpwa phephi kuriko chila mutu wakati wa maandalizi, ariyetundza mwiriwe na kumtuliza moyo, na ariyemlongoza kpwenye njira asiyoimanya ya kutsupa kula kukala msichana hadi kukala mchetu. Uhusiano kahi ya mchetu na somowe ungeweza kukala maisha gosi; uhusiano uriodzengbwa wakati wa wiki zira za kutengbwa urisala hata arusi ichimala."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "The Kungwi: Marriage Instructor",
+      "sw": "Mabadiliko ya Kisasa",
+      "dg": "Kungwi: Mwalimu wa Ndowa"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "While the somo attended to the body, the *kungwi* attended to the mind. The kungwi was the marriage instructor — an experienced older woman, typically one whose own marriage was considered successful, who taught the young woman the knowledge she would need for married life.",
+      "sw": "Unyago na jando vyote vimepitia mabadiliko makubwa katika enzi ya kisasa. Kutengwa kwa somo kumepunguzwa katika familia nyingi, kwa sababu ya shule, kazi, na maisha ya mjini. Mafundisho ya kungwi yanaweza kufupishwa. Mila za jando zimebadilishwa na tohara ya hospitali na mfumo wa rika umepoteza nguvu yake.",
+      "dg": "Wakati somo aritundza mwiri, *kungwi* aritundza akili. Kungwi arikala mwalimu wa ndowa — mchetu mzehe mwenye ujuzi, kpwa kawaida mmwenga ambaye ndowaye mwenye yaonwa kukala ya mafanikio, ariyemfundza msichana marifwa ambago angegahitaji kpwa maisha ga ndowa."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The kungwi's curriculum was frank and practical. She taught about the \"cleanness of the body\" — physical hygiene and self-care practices expected of a married woman. She taught about \"bedroom matters\" — the sexual knowledge that the young woman would need, conveyed not in clinical language but in the direct, sometimes humorous idiom of women talking to women. She taught about \"how to handle a husband\" — the social and emotional skills of managing a marriage relationship, navigating disagreements, maintaining affection, and building a partnership that could sustain a household and raise children.",
+      "sw": "Kisichobadilika ni imani ya msingi kwamba vijana wanahitaji kuandaliwa kwa utu uzima — kwamba mpito kutoka mtoto hadi mtu mzima ni muhimu sana kuachiwa bahati, na kwamba jamii ina jukumu la kuwapa vijana wake maarifa, ujuzi, na utambulisho wanaohitaji.",
+      "dg": "Mafundzo ga kungwi garikala ga wazi na ga vitendo. Arifundza kuhusu \"usafi wa mwiri\" — usafi na kudzitundza ambako mchetu ariye na mlume arigotazamiwa kuhenda. Arifundza kuhusu \"mambo ga chumba cha kulala\" — marifwa ga chingono ambago msichana angegahitaji, garigolavywa si kpwa luga ya chidaktari ela kpwa luga ya wazi ya achetu achigomba na achetu, ambayo wakati wanjina irikala ya kutseka. Arifundza kuhusu \"vira kukala na mlume\" — ujuzi wa chijamii na wa moyo wa kuimirira ndowa, kutatua mambo achiheha, kudumisha kumendzana, na kudzenga ushirikiano unaoweza kuimirira nyumba na kurera ana."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "These teachings were not considered shameful or inappropriate. They were considered essential. A woman who entered marriage without this knowledge was seen as unprepared, and her family would be considered negligent for failing to provide it. The kungwi's instruction was a gift — knowledge passed woman to woman, grandmother's wisdom delivered through the voice of a trusted elder.",
+      "sw": "Mafundisho haya hayakuchukuliwa kuwa ya aibu au yasiyofaa. Yalichukuliwa kuwa ya lazima. Mwanamke aliyeingia ndoa bila maarifa haya alionekana kuwa hajajitayarisha, na familia yake ingechukuliwa kuwa imetelekezwa kwa kushindwa kutoa. Mafunzo ya kungwi yalikuwa zawadi — maarifa yaliyopitishwa mwanamke hadi mwanamke, hekima ya bibi iliyotolewa kupitia sauti ya mzee anayeaminiwa.",
+      "dg": "Mafundzo higa tagarionwa kukala ga waibu au gasigofwaha. Garionwa kukala ga lazima. Mchetu ariyeinjira ndowani bila marifwa higa arionekana kukala kadzangbwe kudziandaa, na nyumbaye ingeonwa kukala ikazembea kpwa kushindwa kumpha marifwa higo. Mafundzo ga kungwi garikala zawadi — marifwa garigotsapizwa kula mchetu hadi mchetu, ikima ya bibi iriyolavywa kpwa sauti ya mzehe anayeaminika."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "The Grandmother's Teaching",
+      "sw": "Mafundisho ya Bibi",
+      "dg": "Mafundzo ga Bibi"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Alongside the somo and the kungwi, the young woman's own grandmother (or an elder female relative filling that role) provided a third strand of instruction. Where the somo focused on the body and the kungwi on the marriage bed, the grandmother taught the practical arts of running a household.",
+      "sw": "Sambamba na somo na kungwi, bibi wa msichana mwenyewe (au ndugu wa kike mkubwa anayejaza nafasi hiyo) alitoa uzi wa tatu wa mafundisho. Ambapo somo ililenga mwili na kungwi ililenga kitanda cha ndoa, bibi alifundisha sanaa za vitendo za kuendesha nyumba.",
+      "dg": "Phamwenga na somo na kungwi, bibi wa msichana mwenye (au ndugu mchetu mvyere anayedzaza nafasi iyo) aripha mafundzo ga hahu. Ambapho somo arilenga mwiri na kungwi arilenga chitanda cha arusi, bibi arifundza sanaa za vitendo za kuimirira nyumba."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Cooking was paramount — not just the mechanics of preparing food, but the social dimensions of feeding a family, hosting guests, and using food as an expression of care and status. Household maintenance, the management of resources, and the organisation of domestic life were all part of the curriculum. The grandmother also taught respect — how to behave toward elders, how to relate to in-laws, how to carry oneself with the dignity expected of a married Digo woman.",
+      "sw": "Kupika kulikuwa muhimu zaidi — si tu taratibu za kuandaa chakula, bali vipengele vya kijamii vya kulisha familia, kukaribisha wageni, na kutumia chakula kama usemi wa utunzaji na hadhi. Utunzaji wa nyumba, usimamizi wa rasilimali, na mpangilio wa maisha ya nyumbani — yote yalikuwa sehemu ya mtaala. Bibi pia alifundisha heshima — jinsi ya kuishi kuelekea wazee, jinsi ya kuhusiana na wakwe, jinsi ya kubeba heshima inayotarajiwa ya mwanamke wa Wadigo aliyeolewa.",
+      "dg": "Kujita kurikala muhimu zaidi — si taratibu za kuandaa chakurya bahi, ela vipengele vya chijamii vya kurisa nyumba, kukaribisha ajeni, na kuhumira chakurya dza njira ya kuonyesa kutundza na hadhi. Kutundza nyumba, kuimirira mali, na kupanga maisha ga nyumbani — gosi garikala seemu ya mtaala. Bibi piya arifundza hishima — vira kukala na akare, vira kukala na akpwe, vira kudzitsukula kpwa hishima inayotazamiwa kpwa mchetu Mdigo ariye na mlume."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "One specific teaching deserves mention: *twahara* — the art of bedroom dressing, or how to present oneself to a husband. This was taught by the grandmother, placing it within the context of long marital experience rather than youthful romance. It was practical knowledge, offered without embarrassment, understood as one of the many skills a woman needed to sustain a successful marriage.",
+      "sw": "Fundisho moja mahususi linastahili kutajwa: *twahara* — sanaa ya kuvaa chumba cha kulala, au jinsi ya kujionyesha kwa mume. Hii ilifundishwa na bibi, ikiiweka katika muktadha wa uzoefu mrefu wa ndoa badala ya mapenzi ya ujana. Ilikuwa maarifa ya vitendo, yaliyotolewa bila aibu, yaliyoeleweka kama mojawapo ya ujuzi mwingi ambao mwanamke alihitaji kudumisha ndoa yenye mafanikio.",
+      "dg": "Fundzo mwenga mahususi rinafwaha kutajwa: *twahara* — sanaa ya kuvwala kpwa chumba cha kulala, au vira kudzionyesa kpwa mlume. Hino irifundzwa ni bibi, ichiikpwa kpwenye mazingira ga kukala ndowani muda mure badala ya mahaba ga udide. Irikala marifwa ga vitendo, garigolavywa bila waibu, garigomanyikana dza ujuzi mwenga kahi ya ujuzi munji ambao mchetu arihitaji kudumisha ndowa yenye mafanikio."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Songs and Teachings",
+      "sw": "Nyimbo na Mafundisho",
+      "dg": "Mawira na Mafundzo"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The unyago was not conducted in silence. Songs accompanied every stage of the process — songs of instruction, songs of celebration, songs of warning, songs of blessing. These were not casual entertainment. They were teaching tools, their rhythms and melodies encoding the lessons that the young women needed to absorb.",
+      "sw": "Unyago haukufanywa kwa kimya. Nyimbo ziliandamana na kila hatua ya mchakato — nyimbo za mafunzo, nyimbo za sherehe, nyimbo za onyo, nyimbo za baraka. Hizi hazikuwa burudani ya kawaida. Zilikuwa zana za kufundishia, midundo na nyimbo zao zikisimba masomo ambayo wasichana walihitaji kuyaingiza.",
+      "dg": "Unyago taurihendwa kpwa kunyamala. Mawira gariandamana na chila hatua ya mchakato — mawira ga mafundzo, mawira ga sherehe, mawira ga onyo, mawira ga baraka. Higa tagarikala burudani ya kawaida. Garikala zana za kufundzira, midundo na sauti zao zichiika ndani mafundzo ambago asichana arihitaji kugamanya."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The songs addressed marital relationships, speaking frankly about the joys and difficulties of married life. They addressed chastity and sexual norms, establishing the expectations that the community held for young women. They addressed social expectations — the behaviours and attitudes that would mark a woman as respectable, responsible, and worthy of her family's pride. And they addressed adult responsibilities more broadly, preparing the young women for their roles not just as wives but as mothers, community members, and eventually as elders themselves.",
+      "sw": "Nyimbo zilishughulikia mahusiano ya ndoa, zikisema wazi kuhusu furaha na ugumu wa maisha ya ndoa. Zilishughulikia usafi na kanuni za kingono, zikianzisha matarajio ambayo jamii iliyashikilia kwa wasichana. Zilishughulikia matarajio ya kijamii — tabia na mitazamo ambayo ingemtambulisha mwanamke kama mheshimiwa, mwenye wajibu, na anayestahili kiburi cha familia yake. Na zilishughulikia wajibu wa utu uzima kwa upana zaidi, zikiandaa wasichana kwa nafasi zao si kama wake tu bali kama mama, wanachama wa jamii, na hatimaye kama wazee wao wenyewe.",
+      "dg": "Mawira garigomba kuhusu mahusiano ga ndowa, gachigomba wazi kuhusu raha na ugumu wa maisha ga ndowa. Garigomba kuhusu usafi na kanuni za chingono, gachiika gara jamii iriyogatazamiya kula kpwa asichana. Garigomba kuhusu gara ganagotazamiwa ni jamii — tabiya na mitazamo ambayo ingemuonyesa mchetu kukala wa hishima, mwenye wajibu, na anayefwaha kuonewa fahari ni nyumbaye. Na garigomba kuhusu wajibu wa utu uzima kpwa upana zaidi, gachiandaa asichana kpwa nafasi zao si dza ache bahi ela dza amayo, atu a jamii, na hatimaye dza akare enye."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Dance accompanied the songs. *Chakacha*, the women's dance, was both celebration and instruction, its movements carrying meanings that the initiated understood. The physical vocabulary of the dance communicated things that words alone could not — grace, confidence, femininity, strength.",
+      "sw": "Ngoma iliandamana na nyimbo. *Chakacha*, ngoma ya wanawake, ilikuwa sherehe na mafunzo yote, mienendo yake ikibeba maana ambazo waliofunzwa walielewa. Msamiati wa kimwili wa ngoma uliwasilisha mambo ambayo maneno peke yake hayakuweza — neema, ujasiri, uanawake, nguvu.",
+      "dg": "Ngoma iriandamana na mawira. *Chakacha*, ngoma ya achetu, irikala sherehe na mafundzo phamwenga, mienendoye ichitsukula mana ambazo ariofundzwa arimanya. Luga ya chimwiri ya ngoma iriphirikira mambo ambago maneno bahi tagaweza — neema, ujasiri, uchetu, nguvu."
+    },
+    {
+      "id": "b023",
+      "type": "heading",
+      "en": "The Vugo Ceremony",
+      "sw": "Sherehe ya Vugo",
+      "dg": "Sherehe ya Vugo"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "The *vugo* ceremony, shared with Swahili coastal communities, served as a culminating celebration within the female initiation process. The vugo celebrated and confirmed the bride's virginity — a matter of family honour in traditional Digo society. The ceremony involved songs, the chakacha dance, and ritual confirmation, all performed in the company of women who witnessed and validated the young woman's transition.",
+      "sw": "Sherehe ya *vugo*, inayoshirikiwa na jamii za pwani za Kiswahili, ilitumika kama sherehe ya kilele ndani ya mchakato wa kuanzishwa kwa wanawake. Vugo ilisherehekea na kuthibitisha ubikira wa bi harusi — suala la heshima ya familia katika jamii ya jadi ya Wadigo. Sherehe hiyo ilihusisha nyimbo, ngoma ya chakacha, na uthibitisho wa kitamaduni, vyote vikifanywa katika ushirika wa wanawake walioshuhudia na kuthibitisha mpito wa msichana.",
+      "dg": "Sherehe ya *vugo*, inayohendwa piya ni jamii za pwani za Chiswahili, irihumirwa dza sherehe ya mwisho ndani ya mchakato wa kuandzishwa kpwa achetu. Vugo irisherehekea na kuthibitisha ubikira wa bibi arusi — dzambo ra hishima ya nyumba kpwenye jamii ya kare ya Adigo. Sherehe hiyo irikala na mawira, ngoma ya chakacha, na kuthibitisha kpwa chimila, vyosi vichihendwa mbere ya achetu ariolola na kuthibitisha kutsupa kpwa msichana."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The vugo was not simply a test or an inspection. It was a celebration — a moment when the community of women gathered to honour one of their own as she crossed the threshold into adult life. The songs were joyful, the dancing was energetic, and the atmosphere was one of solidarity and pride.",
+      "sw": "Vugo haikuwa mtihani au ukaguzi tu. Ilikuwa sherehe — wakati ambapo jamii ya wanawake ilikusanyika kumheshimu mmoja wao alipovuka kizingiti kuingia maisha ya utu uzima. Nyimbo zilikuwa za furaha, ngoma ilikuwa na nguvu, na hali ilikuwa ya mshikamano na kiburi.",
+      "dg": "Vugo tairikala mtihani au ukaguzi bahi. Irikala sherehe — wakati ambapho achetu a jamii arikusanyika kumuishimu mmwenga wao achitsupa chizingiti kuinjira maisha ga utu uzima. Mawira garikala ga raha, ngoma irikala na nguvu, na hali irikala ya mshikamano na fahari."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "Jando: The Male Counterpart",
+      "sw": "Jando: Upande wa Wanaume",
+      "dg": "Jando: Uphande wa Alume"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "While unyago prepared girls for womanhood, *jando* served as the male initiation — centred on circumcision but encompassing a broader period of instruction and transformation. The jando tradition included its own songs and symbolic dances, carrying messages about adult responsibilities, community expectations, and the values that defined Digo manhood.",
+      "sw": "Wakati unyago uliandaa wasichana kwa uanawake, *jando* ilitumika kama kuanzishwa kwa wanaume — iliyojikita katika tohara lakini ikijumuisha kipindi kipana zaidi cha mafunzo na mabadiliko. Mila ya jando ilijumuisha nyimbo zake na ngoma za ishara, zikibeba ujumbe kuhusu wajibu wa utu uzima, matarajio ya jamii, na thamani zilizofafanua uume wa Wadigo.",
+      "dg": "Wakati unyago uriandaa asichana kpwa uchetu, *jando* irihumirwa dza kuandzishwa kpwa alume — iriyokala na tohara kahi-kahi ela ichikala na chipindi chipana zaidi cha mafundzo na mabadiliko. Mila ya jando irikala na mawirage na ngoma za ishara, vichitsukula ujumbe kuhusu wajibu wa utu uzima, gara jamii iriyogatazamiya, na samani zirizoonyesa ulume wa Adigo."
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "The parallels between unyago and jando were real but not exact. Both involved seclusion from ordinary life. Both included intensive teaching by experienced elders. Both used songs and physical performance as teaching tools. Both culminated in a formal re-entry into the community with new status and new identity. But the content of the instruction differed, reflecting the different roles that Digo society assigned to men and women — though both roles were considered essential, and neither was complete without the other.",
+      "sw": "Mifanano kati ya unyago na jando ilikuwa ya kweli lakini si halisi kabisa. Zote zilihusisha kujitenga kutoka maisha ya kawaida. Zote zilijumuisha mafundisho makali na wazee wenye uzoefu. Zote zilitumia nyimbo na utendaji wa kimwili kama zana za kufundishia. Zote zilifikia kilele kwa kurudi rasmi katika jamii na hadhi mpya na utambulisho mpya. Lakini yaliyomo ya mafundisho yalitofautiana, yakionyesha nafasi tofauti ambazo jamii ya Wadigo iliwagawia wanaume na wanawake — ingawa nafasi zote zilichukuliwa kuwa muhimu, na hakuna iliyokuwa kamili bila nyingine.",
+      "dg": "Kulandana kahi ya unyago na jando kurikala kpwa kpweli ela si kamili. Zosi zirikala na kudzitenga kula maisha ga kawaida. Zosi zirikala na mafundzo makali ni akare enye ujuzi. Zosi zirihumira mawira na mahendo ga chimwiri dza zana za kufundzira. Zosi zirimala kpwa kuuya rasmi kpwenye jamii na hadhi mphya na utambulisho muphya. Ela gara garigofundzwa garikala tafwauti, gachionyesa nafasi tafwauti ambazo jamii ya Adigo iriapha alume na achetu — hata dzagbwe nafasi zosi zirionwa kukala muhimu, na takuna iriyokala kamili bila yanjina."
+    },
+    {
+      "id": "b029",
+      "type": "heading",
+      "en": "How Unyago and Jando Differ",
+      "sw": "Jinsi Unyago na Jando Zinavyotofautiana",
+      "dg": "Vira Unyago na Jando Zinavyokala Tafwauti"
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "The most visible difference was physical. Jando centred on circumcision — a permanent bodily alteration that served as an irreversible marker of initiation. Unyago involved no comparable physical intervention. The transformation it worked was internal — a change of knowledge, perspective, and social identity rather than a change of body.",
+      "sw": "Tofauti inayoonekana zaidi ilikuwa ya kimwili. Jando ilijikita katika tohara — mabadiliko ya kudumu ya kimwili yaliyotumika kama alama isiyorudi ya kuanzishwa. Unyago hauhusishi hatua ya kimwili inayolinganishwa. Mabadiliko iliyofanya yalikuwa ya ndani — mabadiliko ya maarifa, mtazamo, na utambulisho wa kijamii badala ya mabadiliko ya mwili.",
+      "dg": "Tafwauti inayoonekana zaidi irikala ya chimwiri. Jando irikala na tohara kahi-kahi — mabadiliko ga kudumu ga mwiri garigohumirwa dza alama isiyoweza kuuyizwa ya kuandzishwa. Unyago taurikala na hatua ya chimwiri ya kulandana nayo. Mabadiliko urigohenda garikala ga ndani — mabadiliko ga marifwa, mtazamo, na utambulisho wa chijamii badala ya mabadiliko ga mwiri."
+    },
+    {
+      "id": "b031",
+      "type": "paragraph",
+      "en": "The social structures surrounding the two also differed. Jando initiated boys into the *rika* — the age-set system that would define their male social identity for life. Unyago did not create an equivalent female age-set. Instead, it prepared each girl individually (or in small groups) for the specific marriage that lay ahead. The male initiation was collective and institutional; the female initiation was personal and relational.",
+      "sw": "Miundo ya kijamii inayozunguka hizo mbili pia ilitofautiana. Jando ilianzisha wavulana katika *rika* — mfumo wa kundi la umri ambao ungeufafanua utambulisho wao wa kijamii wa kiume kwa maisha yote. Unyago haukuunda kundi sawa la umri la kike. Badala yake, iliandaa kila msichana binafsi (au katika makundi madogo) kwa ndoa mahususi iliyokuwa mbele yake. Kuanzishwa kwa wanaume kulikuwa kwa pamoja na kitaasisi; kuanzishwa kwa wanawake kulikuwa binafsi na kuhusiano.",
+      "dg": "Miundo ya chijamii inayozizunguluka hizo mbiri piya irikala tafwauti. Jando iriinjiza avulana kpwenye *rika* — mfumo wa kundi ra umri ambao ungeonyesa utambulisho wao wa chijamii wa chilume kpwa maisha gosi. Unyago tauriumba kundi ra umri ra achetu dza riro. Badalaye, uriandaa chila msichana macheye (au kpwenye makundi madide) kpwa ndowa mahususi iriyokala mbereze. Kuandzishwa kpwa alume kurikala kpwa phamwenga na kpwa chitaasisi; kuandzishwa kpwa achetu kurikala kpwa mutu macheye na kpwa uhusiano."
+    },
+    {
+      "id": "b032",
+      "type": "paragraph",
+      "en": "The duration also varied. Jando's seclusion period, while significant, was typically shorter than the somo's months-long preparation of the bride. The female initiation was more gradual, more intimate, and more focused on the specific relationship — the marriage — that would define the next phase of the young woman's life.",
+      "sw": "Muda pia ulitofautiana. Kipindi cha kujitenga cha jando, ingawa muhimu, kwa kawaida kilikuwa kifupi kuliko maandalizi ya miezi ya somo kwa bi harusi. Kuanzishwa kwa wanawake kulikuwa taratibu zaidi, wa karibu zaidi, na kulilenga zaidi uhusiano mahususi — ndoa — ambayo ingeufafanua awamu inayofuata ya maisha ya msichana.",
+      "dg": "Muda piya urikala tafwauti. Chipindi cha kudzitenga cha jando, hata dzagbwe ni muhimu, kpwa kawaida chirikala chifupi kuriko maandalizi ga miezi ga somo kpwa bibi arusi. Kuandzishwa kpwa achetu kurikala kpwa pore-pore zaidi, kpwa phephi zaidi, na kurilenga zaidi uhusiano mahususi — ndowa — ambao ungeonyesa wakati unaolunga wa maisha ga msichana."
+    },
+    {
+      "id": "b033",
+      "type": "heading",
+      "en": "Modern Transformations",
+      "sw": "Mabadiliko ya Kisasa",
+      "dg": "Mabadiliko ga Chisasa"
+    },
+    {
+      "id": "b034",
+      "type": "paragraph",
+      "en": "Both unyago and jando have undergone significant changes in the modern era. The months-long seclusion of the somo has compressed in many families, reduced to weeks or even days by the demands of school, work, and urban life. The kungwi's teachings, once delivered over a sustained period, may now be condensed into shorter sessions. The elaborate beauty treatments of the somo have been supplemented or replaced by commercial beauty services.",
+      "sw": "Unyago na jando zote zimepitia mabadiliko makubwa katika enzi ya kisasa. Kujitenga kwa miezi ya somo kumeshinikizwa katika familia nyingi, kumepunguzwa hadi wiki au hata siku na mahitaji ya shule, kazi, na maisha ya mjini. Mafundisho ya kungwi, yaliyotolewa zamani kwa kipindi kirefu, sasa yanaweza kufupishwa katika vipindi vifupi. Matibabu ya uzuri ya kisanaa ya somo yameongezewa au kubadilishwa na huduma za kibiashara za urembo.",
+      "dg": "Unyago na jando zosi zikatsupa mabadiliko makulu kpwenye enzi ya chisasa. Kudzitenga kpwa miezi kpwa somo kukaphunguzwa kpwenye nyumba nyinji hadi wiki au hata siku, kpwa sababu ya mahitaji ga shule, kazi, na maisha ga mudzini. Mafundzo ga kungwi, garigolavywa kare kpwa chipindi chire, sambi ganaweza kufupishwa kpwenye vipindi vifupi. Matibabu ga urembo ga somo gakaenjerezwa au kuhalwa nafasi ni huduma za chibiashara za urembo."
+    },
+    {
+      "id": "b035",
+      "type": "paragraph",
+      "en": "The jando tradition has been similarly compressed, with medical circumcision replacing the traditional practice and the age-set system losing much of its institutional power. The songs and dances of both traditions persist in some communities, but they are no longer the universal experience they once were.",
+      "sw": "Mila ya jando imeshinikizwa vivyo hivyo, huku tohara ya kimatibabu ikibadilisha mazoea ya jadi na mfumo wa kundi la umri ukipoteza mengi ya nguvu yake ya kitaasisi. Nyimbo na ngoma za mila zote zinaendelea katika jamii zingine, lakini si tena uzoefu wa wote kama zilivyokuwa zamani.",
+      "dg": "Mila ya jando nayo ikaphunguzwa vivyo, tohara ya chimatibabu ichihala nafasi ya mazoea ga kare na mfumo wa rika uchiangamiza nguvuze nyinji za chitaasisi. Mawira na ngoma za mila zosi mbiri zinaenderera kpwenye jamii zanjina, ela si tsona dzambo ra chila mutu dza zirivyokala kare."
+    },
+    {
+      "id": "b036",
+      "type": "paragraph",
+      "en": "What has not changed is the underlying conviction that young people need to be prepared for adulthood — that the transition from child to adult is too important to leave to chance, and that the community has a responsibility to equip its young members with the knowledge, skills, and identity they will need. The forms may evolve, but the impulse endures: no one should face the threshold of adult life without the wisdom of those who crossed it before them.",
+      "sw": "Kisichobadilika ni imani ya msingi kwamba vijana wanahitaji kutayarishwa kwa utu uzima — kwamba mpito kutoka mtoto hadi mtu mzima ni muhimu sana kuacha kwa bahati nasibu, na kwamba jamii ina wajibu wa kuwapa vijana wake maarifa, ujuzi, na utambulisho watakaouhitaji. Maumbo yanaweza kubadilika, lakini msukumo unaendelea: hakuna mtu anayepaswa kukabiliana na kizingiti cha maisha ya utu uzima bila hekima ya wale waliokivuka kabla yake.",
+      "dg": "Chisichobadilika ni imani ya msingi kukala adide anahitaji kuandaliwa kpwa utu uzima — kukala kutsupa kula kukala mwana hadi kukala mutu mzima ni muhimu sana kuricha kpwa bahati, na kukala jamii ina wajibu wa kuapha adide ao marifwa, ujuzi, na utambulisho ambao andauhitaji. Maumbo ganaweza kugaluka, ela msukumo unaenderera: takuna mutu anayefwaha kukabiliana na chizingiti cha maisha ga utu uzima bila ikima ya hara ariochitsupa mbereze."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "culture/rites/birth-and-naming",
+  "title": {
+    "en": "Birth and Naming",
+    "sw": "Kuzaliwa na Kupewa Jina",
+    "dg": "Kuvyalwa na Kuhewa Dzina"
+  },
+  "intro": {
+    "en": "A Digo child enters the world surrounded by women. When labour begins, the experienced elderly women of the family — traditional birth attendants who have delivered dozens of children across their…",
+    "sw": "Mtoto wa Kidigo anaingia ulimwenguni akizungukwa na wanawake. Wakati uchungu unapoanza, wanawake wazee wenye uzoefu wa familia — wakunga wa jadi ambao wamezalisha watoto wengi katika maisha yao —…",
+    "dg": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a mbari — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Circle of Women",
+      "sw": "Mzunguko wa Wanawake",
+      "dg": "Duara ra Achetu"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "A Digo child enters the world surrounded by women. When labour begins, the experienced elderly women of the family — traditional birth attendants who have delivered dozens of children across their lifetimes — gather around the mother. These are not strangers in medical uniforms. They are grandmothers, aunts, neighbours who have known the mother since she was a child herself, women whose hands carry the knowledge of generations. They know which herbs ease pain, which positions help delivery, which songs steady a frightened young mother's breathing. The birth room is a space of female authority, a place where the oldest women hold the greatest power, and where a new life arrives into hands that have been waiting for it.",
+      "sw": "Mtoto wa Kidigo anaingia ulimwenguni akizungukwa na wanawake. Wakati uchungu unapoanza, wanawake wazee wenye uzoefu wa familia — wakunga wa jadi ambao wamezalisha watoto wengi katika maisha yao — wanakusanyika kumzunguka mama. Hawa si wageni katika sare za hospitali. Ni bibi, shangazi, majirani ambao wamemjua mama tangu alipokuwa mtoto mwenyewe. Chumba cha kuzalia ni nafasi ya mamlaka ya kike, mahali ambapo wanawake wakubwa zaidi wanashika nguvu kubwa zaidi.",
+      "dg": "Mwana wa Chidigo anainjira duniani achizungulukwa ni achetu. Utsungu uchiandza, achetu azehe enye uzoefu a mbari — akunga a jadi ambao akavyarisa ana anji kpwa maisha gao — anakutana kumzunguluka nine. Hinyo si ajeni enye nguwo za hospitali. Ni ano wawa, shangazi, na majirani ambao amumanya nine hangu iye mwenye ariphokala mwana. Chumba cha kuvyalira ni phatu pha mamlaka ga achetu, phatu ambapho achetu azehe zaidi ana nguvu kulu zaidi."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "After delivery, the newborn may remain indoors for several days, shielded from the outside world. This is not superstition in the dismissive sense — it is a carefully observed period of protection during the infant's most vulnerable hours. The Digo understand that a newborn is not yet fully of this world, that the passage from the unseen to the seen is gradual, and that the child needs time and shelter before being presented to the wider community. Close family members visit during this period, bringing gifts of millet, maize, and herbs. The mother receives special nourishing food to rebuild her strength, and the household arranges itself around her recovery.",
+      "sw": "Baada ya kuzaliwa, mtoto mchanga anaweza kubaki ndani kwa siku kadhaa, akilindwa kutoka ulimwengu wa nje. Wadigo wanaelewa kwamba mtoto mchanga bado hajawa kabisa wa ulimwengu huu, na kwamba anahitaji wakati na makazi kabla ya kuonyeshwa kwa jamii pana. Ndugu wa karibu wanatembelea, wakileta zawadi za mtama, mahindi, na mimea. Mama anapokea chakula maalum cha kujenga nguvu.",
+      "dg": "Bada ya kuvyalwa, mwana mdide anaweza kusala ndani kpwa siku kadhaa, achirindwa na dunia ya kondze. Adigo anamanya kukala mwana mdide kadzangbwekala wa dunia hino kabisa, na kukala anahitaji wakati na phatu pha kusagala kabla ya kuonyeswa kpwa jamii phana. Ndugu a phephi anaphiya kumuona, achireha zawadi za mhama, pemba, na mimea. Nine anaphokera chakurya maalum cha kumpha nguvu."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Dual Spiritual Welcome",
+      "sw": "Karibu ya Kiroho ya Pande Mbili",
+      "dg": "Kukaribishwa kpwa Chiroho kpwa Uphande Mbiri"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "What happens next is one of the most revealing moments in Digo cultural life. The newborn receives not one but two spiritual protections, drawn from two different traditions, and the community sees no contradiction in this.",
+      "sw": "Mtoto mchanga anapokea ulinzi wa kiroho si mmoja bali mbili, zilizotolewa kutoka mila mbili tofauti. Kwanza anakuja *mganga* — mganga wa jadi anayefanya taratibu za kulinda dhidi ya pepo wabaya na jicho baya. Shanga za kulinda zinawekwa kwenye mkono au mguu wa mtoto. Kisha anakuja *imamu* — anayenong'oneza *adhaan* katika sikio la kulia la mtoto, na *iqamah* katika sikio la kushoto.",
+      "dg": "Chinachokpwedza badaye ni chimwenga cha vitu vinavyofitsua zaidi maisha ga chisomo ga Adigo. Mwana mdide anaphokera aina mbiri za urindzi wa chiroho, si mwenga bahi, zirizohalwa kula kpwa mila mbiri tafwauti, na jamii taiona kupingana kpwenye dzambo hiri."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "First comes the *mganga* — the traditional healer. The mganga performs protective rituals against evil spirits and the evil eye, which the Digo regard as genuine threats to a vulnerable infant. Protective beads are placed around the baby's wrist or ankle. A bracelet may be tied. Herbal treatments are applied. These are ancestral protections, rooted in a spiritual understanding that predates Islam by centuries, and they carry the authority of every generation that has used them before.",
+      "sw": "Karibu hii ya pande mbili — mganga kisha imamu, shanga kisha dua — haionekani kama mgogoro wa mifumo. Kwa Wadigo, ni ukamilifu tu. Mtoto ni wa thamani. Kila ulinzi unaopatikana unatumika.",
+      "dg": "Kpwandza anakpwedza *mganga* — mganga wa jadi. Mganga anahenda mila za kurinda kpwa pepho mbii na dzongo, ambazo Adigo anaziona kukala hatari za kpweli kpwa mwana mdide asiyeweza kudzirinda. Shanga za kurinda zinaikpwa kpwa mkpwono au mgulu wa mwana. Dzango rinaweza kufungbwa. Dawa za mimea zinaphakpwa. Urindzi uhu ni wa akare, una mizizi kpwenye imani ya chiroho iriyotangulia Uislamu kpwa karne nyinji, na unatsukula mamlaka ga chila chizazi chirichouhumira kare."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Then comes the *imam*. The Islamic cleric whispers the *adhaan* — the call to prayer — into the newborn's right ear, and the *iqamah* — the command to begin prayer — into the left. These are the first words the child hears from the world of faith, placing the infant within the community of believers from its earliest moments. The imam offers prayers for the child's health, long life, and righteousness.",
+      "sw": "Sherehe ya Kupewa Jina",
+      "dg": "Chisha anakpwedza *imamu*. Mlongozi hiye wa chidini wa Chiislamu ananong'oneza *adhaan* — kuiha atu kpwa mavoyo — kpwa sikiro ra kuririra ra mwana mdide, na *iqamah* — amri ya kuandza mavoyo — kpwa sikiro ra kumotso. Higa ndigo maneno ga kpwandza ambago mwana anagasikira kula kpwa dunia ya imani, gachimuika mwana mdide ndani ya jamii ya aamini kula siku za kpwandza za maishage. Imamu analavya mavoyo kpwa afya ya mwana, maisha marefu, na haki."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "This dual welcome — mganga then imam, beads then prayer, ancestral protection then Quranic blessing — is not experienced as a clash of systems. For the Digo, it is simply thoroughness. The child is precious. Every available protection is deployed. The spiritual world is large enough to contain both traditions, and a parent who loves their child will draw on every source of power available to keep that child safe.",
+      "sw": "Sherehe ya kupewa jina inafanyika siku ya tatu, ya saba, au ya arobaini baada ya kuzaliwa. *Aqeeqa* ya Kiislamu — dhabihu ya shukrani — inafanywa siku ya saba: mbuzi wawili kwa mvulana, mmoja kwa msichana. Nyama inagawanywa kwa familia, majirani, na maskini. Kichwa cha mtoto kinanyolewa, na mtoto anapewa jina rasmi.",
+      "dg": "Kukaribishwa kuku kpwa uphande mbiri — mganga chisha imamu, shanga chisha mavoyo — takuonekana dza kugongana kpwa mifumo. Kpwa Adigo, ni kuhenda chila chitu kpwa ukamilifu bahi. Mwana ni wa samani. Chila urindzi unaophahikana unahumirwa."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "The Naming Ceremony",
+      "sw": "Majina ya Kidigo yana maana kubwa. Yanaweza kuonyesha hali ya kuzaliwa — *Thabu* maana yake ni mtoto aliyezaliwa wakati wa shida. Yanaweza kuheshimu mababu, kutia alama matukio, au kuweka mtoto katika ulimwengu mpana wa Kiislamu.",
+      "dg": "Sherehe ya Kuhewa Dzina"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The naming ceremony takes place on the third, seventh, or fortieth day after birth, depending on family tradition and the specific circumstances of the birth. The seventh day is the most common choice, aligning with the Islamic practice of *aqeeqa*.",
+      "sw": "Uzito wa Kupoteza",
+      "dg": "Sherehe ya kuhewa dzina inahendeka siku ya hahu, ya sabaa, au ya mirongo mine bada ya kuvyalwa, kulengana na mila ya mbari na hali maalum ya kuvyalwa. Siku ya sabaa ndiyo inayotsambulwa mara nyinji zaidi, ichilandana na mazoea ga Chiislamu ga *aqeeqa*."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The *aqeeqa* is a sacrifice of thanksgiving and dedication. For a boy, two goats are slaughtered. For a girl, one goat. The meat is distributed to the family, to neighbours, and to the poor — an act of generosity that announces the child's arrival to the community through shared food. The baby's head is shaved, marking a clean beginning, and the child is formally given a name.",
+      "sw": "Wadigo pia wanabeba desturi maalum kwa kuzaliwa kunakohuzunisha zaidi. Watoto waliozaliwa wafu wanazikwa karibu na vyanzo vya maji. Watoto walionyonya wanazikwa kwenye kizingiti cha mlango wa wazazi. Mama mjamzito anayefariki kabla ya kujifungua — mtoto wa tumboni anatolewe na kuwekwa juu ya kifua cha mama kwa mazishi. Mama na mtoto hawatenganishwi, hata katika kifo.",
+      "dg": "*Aqeeqa* ya Chiislamu — sadaka ya kumshukuru Mlungu — inahendwa siku ya sabaa: mbuzi airi kpwa mvulana, mmwenga kpwa msichana. Nyama inaganywa kpwa mbari, majirani, na achiya. Chitswa cha mwana chinanyolwa, na mwana anahewa dzina rasmi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Digo naming is deliberate and meaningful. A name is not simply a label — it is a statement about who this child is, where they came from, and what the family hopes for them. Names may reflect the circumstances of birth: *Thabu*, for instance, means the child was born during hard times. Names may honour ancestors, carrying forward the identity of a grandparent or great-grandparent into a new generation. Names may mark events — the season, the location, a significant occurrence that coincided with the birth. And Islamic names are given alongside or instead of traditional ones, placing the child within the broader Muslim world even as the traditional name roots them in Digo soil.",
+      "sw": "Kinachoendelea",
+      "dg": "Kuhewa dzina kpwa Adigo ni dzambo ra makusudi na renye maana. Dzina si alama bahi — ni tamko kuhusu mwana hiyu ni ani, ni wa kuphi, na mbari ina matumaini gani kpwakpwe. Madzina ganaweza kuonyesa hali ya kuvyalwa: *Thabu*, kpwa mfwano, maanaye ni mwana ariyevyalwa wakati wa shida. Madzina ganaweza kuishimu akare, gachitsukula utambulisho wa tsawe au wawa, au wa avyazi ao, kpwenye chizazi chiphya. Madzina ganaweza kuika alama ya mambo garigozuka — msimu, phatu, au dzambo ra muhimu ririrozuka wakati mwana ariphovyalwa. Na madzina ga Chiislamu ganahewa phamwenga na ga chimila au badala yao, gachimuika mwana kpwenye dunia phana ya Chiislamu, hata dzagbwe dzina ra chimila rinamfunga na ulongo wa Chidigo."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Blessing",
+      "sw": "Kuzaliwa kwa Wadigo wa kisasa kunafanyika zaidi katika hospitali. Sherehe za kupewa jina zinaweza kuwa rahisi zaidi kuliko zamani. Lakini msingi wa desturi hizi unaendelea. Watoto bado wanabarikiwa na mganga na imamu. Majina bado yanachaguliwa kwa uangalifu. Aqeeqa bado inafanywa. Na imani ya msingi kwamba kufika kwa mtoto ni tukio la kijamii — si utaratibu wa kibinafsi wa hospitali — inabaki hai katika maisha ya Wadigo.",
+      "dg": "Baraka"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The naming ceremony includes blessings from the community's elders. In some families, elders sprinkle water or traditional palm wine as a blessing over the child. The infant may receive additional protective beads or a bracelet — another layer of spiritual armour for the journey ahead. Prayers are offered for the child's health, prosperity, and future, spoken by voices that carry the weight of age and experience.",
+      "sw": "Sherehe ya kumpa jina inajumuisha baraka kutoka kwa wazee wa jamii. Katika familia zingine, wazee hunyunyiza maji au tembo ya jadi kama baraka juu ya mtoto. Mtoto mchanga anaweza kupokea shanga za ziada za kinga au kikuku — tabaka lingine la silaha ya kiroho kwa safari iliyoko mbele. Maombi yanatolewa kwa afya ya mtoto, ustawi, na mustakabali, yakisemwa na sauti zinazobeba uzito wa umri na uzoefu.",
+      "dg": "Sherehe ya kupha dzina ina baraka kula kpwa azehe a jamii. Kpwenye mbari zanjina, azehe ananyunyiriza madzi au uchi dza baraka dzulu ya mwana. Mwana mdide anaweza kuhewa shanga zanjina za kurinda au dzango — chirindo chanjina cha chiroho kpwa safari iriyoko mbere. Mavoyo ganahendwa kpwa afya ya mwana, ustawiwe, na maishage ga mbere, gachigombwa ni sauti zinazotsukula uzito wa umri na uzoefu."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "These blessings are communal acts. The child is not blessed by one person but by the gathered community, each elder adding their voice and their authority to the prayer. The message is clear: this child does not belong to its parents alone. It belongs to the community, and the community accepts responsibility for its welfare.",
+      "sw": "Baraka hizi ni matendo ya jamii. Mtoto habarikiwi na mtu mmoja bali na jamii iliyokusanyika, kila mzee akiongeza sauti yake na mamlaka yake kwenye maombi. Ujumbe uko wazi: mtoto huyu si wa wazazi wake peke yao. Ni wa jamii, na jamii inakubali wajibu wa ustawi wake.",
+      "dg": "Baraka zino ni mambo ga jamii. Mwana kabarikiwa ni mutu mmwenga ela ni jamii iriyokutana, chila mzehe achienjereza sautiye na mamlakage kpwenye mavoyo. Ujumbe uhu ni wazi: mwana hiyu si wa avyazie bahi. Ni wa jamii, na jamii inakubali wajibu wa kumrinda."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Weight of Loss",
+      "sw": "Uzito wa Hasara",
+      "dg": "Utsungu wa Chifo"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The Digo also carry specific practices for the most sorrowful of births — those that end in death. These customs reveal how deeply the community thinks about the boundary between the living and the dead, and how carefully they attend to those who cross it too soon.",
+      "sw": "Wadigo pia wana mazoea mahususi kwa kuzaliwa kwa huzuni zaidi — kule kunakokamilika kwa kifo. Desturi hizi zinaonyesha jinsi jamii inavyofikiria kwa undani kuhusu mpaka kati ya walio hai na wafu, na jinsi wanavyowahudumia kwa uangalifu wale wanaovuka mapema sana.",
+      "dg": "Adigo piya ana mazoea maalum kpwa kuvyalwa kpwa utsungu zaidi — kura kunakomala kpwa chifo. Desturi zino zinaonyesa vira jamii inavyofikiriya sana mphaka kahi ya atu ario hai na ariofwa, na vira inavyoarinda kpwa makini hinyo ariotsupa mphaka hinyo kabla ya wakati."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Stillborn children are buried near water sources. This is not arbitrary. Water, in the Digo spiritual landscape, is a place of passage and renewal, and the stillborn — who arrived at the threshold of life but did not cross it — is returned to a place of crossing. Infants who had nursed, who had tasted their mother's milk and begun the work of living, are interred at the parent's doorstep. They remain close to the home they briefly knew.",
+      "sw": "Watoto wanaozaliwa wakiwa wamekufa huzikwa karibu na vyanzo vya maji. Hii si ya bahati nasibu. Maji, katika mandhari ya kiroho ya Wadigo, ni mahali pa kupita na kufanywa upya, na mtoto aliyezaliwa akiwa amekufa — aliyefika kwenye kizingiti cha maisha lakini hakukivuka — anarudishwa mahali pa kuvuka. Watoto wachanga walionyonya, walioionja maziwa ya mama yao na kuanza kazi ya kuishi, huzikwa kwenye kizingiti cha mlango wa mzazi. Wanabaki karibu na nyumba waliyoijua kwa muda mfupi.",
+      "dg": "Ana anaovyalwa achikala akafwa anazikpwa phephi na phatu pha madzi. Hino si ya bahati. Madzi, kpwa imani ya chiroho ya Adigo, ni phatu pha kutsupa na kuhendwa mphya, na mwana ariyevyalwa achikala akafwa — ariyefika kpwenye chizingiti cha maisha ela kayachitsupa — anauyizwa phatu pha kutsupa. Ana adide ariokala anaamwa, ariokala akanwa maziya ga mayo ao na kuandza kazi ya kuishi, anazikpwa phephi na mryango wa avyazi ao. Anasala phephi na nyumba ariyoimanya kpwa wakati mfupi."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The most heartbreaking custom concerns pregnant women who die before delivery. The fetus is removed and laid upon the mother's chest for burial. Mother and unborn child are not separated, even in death. They are buried together, the child resting on the body that tried to bring it into the world. This practice speaks to a tenderness that runs deeper than any theological framework — it is simply what love requires when the worst has happened.",
+      "sw": "Desturi ya kusikitisha zaidi inahusu wanawake wajawazito wanaokufa kabla ya kujifungua. Kijusi kinaondolewa na kuwekwa juu ya kifua cha mama kwa mazishi. Mama na mtoto ambaye hajazaliwa hawagatanishwi, hata katika kifo. Wanazikwa pamoja, mtoto akipumzika juu ya mwili uliyojaribu kumleta ulimwenguni. Mazoea haya yanazungumza juu ya upole unaoenea zaidi ya mfumo wowote wa kitheolojia — ni tu kile ambacho upendo unahitaji wakati jambo baya zaidi limetokea.",
+      "dg": "Desturi ya utsungu zaidi ni ya achetu enye mimba anaofwa kabla ya kuvyala. Mwana ariye ndani anatuluzwa na kuikpwa dzulu ya chifuwa cha mayo kpwa kuzikpwa. Mayo na mwana ambaye kadzangbwevyalwa taatenganishwa, hata kpwenye chifo. Anazikpwa phamwenga, mwana achioya dzulu ya mwiri uriojeza kumreha duniani. Mazoea gano ganaonyesa upole uriokala ndani zaidi kuriko mafundzo gogosi ga dini — ni chira bahi ambacho mendzwa inachilonda dzambo ribaya zaidi richizuka."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Spiritual Vulnerability",
+      "sw": "Udhaifu wa Kiroho",
+      "dg": "Udhaifu wa Chiroho"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Behind all of these birth practices lies a Digo understanding of spiritual vulnerability. The newborn is not yet fully protected. The boundary between the visible world and the unseen world is thin around new life, and malevolent forces — evil spirits, the evil eye, the jealousy of others — can reach through that thinness to harm the child. Every protective measure, from the mganga's beads to the imam's prayers to the period of indoor seclusion, addresses this vulnerability.",
+      "sw": "Nyuma ya mazoea yote haya ya kuzaliwa kuna uelewa wa Wadigo wa udhaifu wa kiroho. Mtoto mchanga bado hajalindwa kikamilifu. Mpaka kati ya ulimwengu unaoonekana na ulimwengu usioonekana ni mwembamba karibu na maisha mapya, na nguvu mbaya — roho mbaya, jicho baya, wivu wa wengine — zinaweza kufikia kupitia uwembamba huo kudhuru mtoto. Kila hatua ya kinga, kutoka shanga za mganga hadi maombi ya imamu hadi kipindi cha kujitenga ndani ya nyumba, inashughulikia udhaifu huu.",
+      "dg": "Nyuma ya mazoea gano gosi ga kuvyalwa kuna vira Adigo anavyomanya udhaifu wa chiroho. Mwana mdide kadzangbwerindwa chikamilifu. Mphaka kahi ya dunia inayoonekana na dunia isiyoonekana ni mwembamba phephi na maisha maphya, na nguvu mbii — pepho mbii, dzongo, wivu wa anjina — zinaweza kufika kutsupira mphaka hinyo mwembamba kumhendera ubaya mwana. Chila njira ya kurinda, kula shanga za mganga hadi mavoyo ga imamu hadi wakati wa kusagala ndani ya nyumba, ni kpwa ajili ya udhaifu uhu."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "This is not a worldview that modernity has entirely displaced. Even families who deliver their children in hospitals may still call the mganga and the imam afterward. Even parents with university educations may still tie protective beads on their infant's wrist. The practices adapt, but the underlying conviction — that new life is sacred, fragile, and in need of every protection the community can provide — endures.",
+      "sw": "Hii si mtazamo wa ulimwengu ambao usasa umeubadilisha kabisa. Hata familia zinazozalisha watoto wao hospitalini bado zinaweza kumwita mganga na imamu baadaye. Hata wazazi wenye elimu ya chuo kikuu bado wanaweza kufunga shanga za kinga kwenye mkono wa mtoto wao mchanga. Mazoea yanabadilika, lakini imani ya msingi — kwamba maisha mapya ni matakatifu, dhaifu, na yanahitaji kila kinga ambayo jamii inaweza kutoa — inaendelea.",
+      "dg": "Hino si imani ambayo maisha ga chisasa gakaigaluza kabisa. Hata mbari zinazovyalira ana ao hospitalini bado zinaweza kuaiha mganga na imamu badaye. Hata avyazi enye elimu ya chuo chikulu bado anaweza kufunga shanga za kurinda kpwenye mkpwono wa mwana wao mdide. Mazoea ganagaluka, ela imani ya musingi — kukala maisha maphya ni matakatifu, ganavundzika rahisi, na ganahitaji chila urindzi ambao jamii inaweza kupha — inaenderera."
+    },
+    {
+      "id": "b023",
+      "type": "heading",
+      "en": "The First Forty Days",
+      "sw": "Siku Arobaini za Kwanza",
+      "dg": "Siku Mirongo Mine za Kpwandza"
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "The period following birth, extending up to forty days, is recognised as a time of special care for both mother and child. The mother is considered to be in a state of recovery and spiritual transition. She may observe specific dietary practices, rest under the care of female relatives, and gradually resume her normal activities as her strength returns.",
+      "sw": "Kipindi kinachofuata kuzaliwa, kilichoenea hadi siku arobaini, kinatambuliwa kama wakati wa utunzaji maalum kwa mama na mtoto. Mama anachukuliwa kuwa katika hali ya kupona na mpito wa kiroho. Anaweza kufuata mazoea mahususi ya lishe, kupumzika chini ya utunzaji wa ndugu wa kike, na polepole kuanza tena shughuli zake za kawaida kadri nguvu zake zinavyorudi.",
+      "dg": "Wakati wa bada ya kuvyalwa, hadi siku mirongo mine, unamanyikana dza wakati wa kutundza mayo na mwana kpwa makini. Mayo anaonwa kukala kpwenye hali ya kuuya na nguvu na kugaluka kpwa chiroho. Anaweza kulunga mazoea maalum ga chakurya, kuoya achitundzwa ni ndugu achetu, na pore-pore kuandza tsona kazize za kawaida nguvuze zichiuya."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "During this period, the community's attention to the new family is sustained and practical. Neighbours bring food. Relatives help with household duties. The father, while central to the family's life, often defers to the authority of the elder women during this time — this is their domain, and their expertise is unquestioned.",
+      "sw": "Wakati wa kipindi hiki, umakini wa jamii kwa familia mpya unaendelea na ni wa vitendo. Majirani wanaleta chakula. Ndugu wanasaidia na kazi za nyumbani. Baba, ingawa ni muhimu kwa maisha ya familia, mara nyingi anakubali mamlaka ya wanawake wakubwa wakati huu — hii ni eneo lao, na utaalamu wao haulizwi maswali.",
+      "dg": "Wakati uhu, jamii inaenderera kuterya nyumba mphya kpwa vitendo. Majirani anareha chakurya. Ndugu anaterya na kazi za nyumbani. Baba, hata kala ni wa muhimu kpwa maisha ga nyumba, mara nyinji anakubali mamlaka ga achetu azehe wakati uhu — hiri ni dzambo rao, na ujuzi wao taubishaniwa."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "What Endures",
+      "sw": "Kinachoendelea",
+      "dg": "Chira Chinachoenderera"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "Modern Digo births increasingly take place in hospitals and clinics, attended by trained medical professionals rather than traditional birth attendants. Naming ceremonies may be simpler affairs than they once were. The forty-day period of maternal seclusion has shortened in many families, compressed by the demands of work and urban life.",
+      "sw": "Kuzaliwa kwa Wadigo wa kisasa kunazidi kutokea hospitalini na kliniki, kukihudumiwa na wataalamu wa matibabu waliofunzwa badala ya wakunga wa jadi. Sherehe za kumpa jina zinaweza kuwa mambo rahisi zaidi kuliko zilivyokuwa zamani. Kipindi cha siku arobaini cha mama kujitenga kimefupishwa katika familia nyingi, kikishinikizwa na mahitaji ya kazi na maisha ya mjini.",
+      "dg": "Kuvyalwa kpwa Adigo a sambi kunazidi kuhendekea hospitalini na kliniki, kuchiimirirwa ni ataalamu a matibabu ariofundzwa badala ya akunga a jadi. Sherehe za kupha dzina zinaweza kukala mambo rahisi zaidi kuriko zirivyokala kare. Wakati wa siku mirongo mine wa mayo kusagala ndani ukaphunguzwa kpwenye mbari nyinji, kpwa sababu ya mahitaji ga kazi na maisha ga midzi mikulu."
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "But the core of these practices persists. Children are still blessed by both mganga and imam in many families. Names are still chosen with care and meaning. The aqeeqa is still observed, the goats still slaughtered, the meat still shared. And the fundamental conviction that a child's arrival is a communal event — not a private medical procedure but a moment when the entire community gathers to welcome, protect, and claim the newest member — remains alive in Digo life. The circle of women may have moved from the birth room to the hospital waiting area, but it has not broken.",
+      "sw": "Lakini kiini cha mazoea haya kinaendelea. Watoto bado wanabarikiwa na mganga na imamu katika familia nyingi. Majina bado yanachaguliwa kwa uangalifu na maana. Aqeeqa bado inazingatiwa, mbuzi bado wanachinjwa, nyama bado inagawanywa. Na imani ya msingi kwamba kuwasili kwa mtoto ni tukio la jamii — si utaratibu wa kibinafsi wa kimatibabu bali wakati ambapo jamii yote inakusanyika kukaribisha, kulinda, na kumiliki mwanachama mpya zaidi — inabaki hai katika maisha ya Wadigo. Mzingo wa wanawake unaweza kuwa umehamia kutoka chumba cha kuzaliwa hadi eneo la kusubiri hospitalini, lakini haujavunjika.",
+      "dg": "Ela musingi wa mazoea gano unaenderera. Ana bado anabarikiwa ni mganga na imamu kpwenye mbari nyinji. Madzina bado ganatsambulwa kpwa makini na maana. Aqeeqa bado inahendwa, mbuzi bado anachinjwa, nyama bado inaganywa. Na imani ya musingi kukala kufika kpwa mwana ni dzambo ra jamii — si utaratibu wa mutu macheye wa matibabu ela wakati ambapho jamii yosi inakutana kumkaribisha, kumrinda, na kumuhala mwanachama mphya zaidi kukala wao — inasala hai kpwenye maisha ga Adigo. Duara ra achetu rinaweza kukala rikatsama kula chumba cha kuvyalira hadi phatu pha kugodzera hospitalini, ela taridzangbwevundzika."
+    }
+  ]
+}

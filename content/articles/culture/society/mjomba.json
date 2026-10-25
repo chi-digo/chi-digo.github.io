@@ -1,0 +1,162 @@
+{
+  "id": "culture/society/mjomba",
+  "title": {
+    "en": "The Mjomba",
+    "sw": "Maternal Uncle",
+    "dg": "Aphu (Mjomba)"
+  },
+  "intro": {
+    "en": "In many societies, the father is the primary male authority in a child's life. Among the Digo, that role belongs — or belonged — to a different man entirely: the *mjomba*, the mother's brother. The…",
+    "sw": "Katika jamii nyingi, baba ndiye mamlaka kuu ya kiume katika maisha ya mtoto. Miongoni mwa Wadigo, nafasi hiyo ni ya mtu tofauti kabisa: *mjomba*, kaka wa mama. Mjomba ni daraja kati ya mtoto na fuko…",
+    "dg": "Kpwa jamii nyinji, ise ndiye mwenye mamlaka makulu ga chilume kpwa maisha ga mwana. Kahi ya Adigo, nafasi iyo ni ya mutu wanjina kabisa: *aphu* (mjomba), nduguye mlume nine. Aphu ni daraja kahi ya mwana na fuko…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Most Important Man in a Child's Life",
+      "sw": "Mtu Muhimu Zaidi Katika Maisha ya Mtoto",
+      "dg": "Mutu wa Muhimu Zaidi kpwa Maisha ga Mwana"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In many societies, the father is the primary male authority in a child's life. Among the Digo, that role belongs — or belonged — to a different man entirely: the *mjomba*, the mother's brother. The mjomba is the bridge between a child and their fuko, the man who represents the matrilineal clan's investment in the next generation. In the traditional system, the mjomba's authority over a child could exceed the father's in virtually every domain that mattered: marriage, inheritance, dispute resolution, and the transmission of clan identity.",
+      "sw": "Katika jamii nyingi, baba ndiye mamlaka kuu ya kiume katika maisha ya mtoto. Miongoni mwa Wadigo, nafasi hiyo ni ya mtu tofauti kabisa: *mjomba*, kaka wa mama. Mjomba ni daraja kati ya mtoto na fuko lao, mtu anayewakilisha uwekezaji wa ukoo wa mama katika kizazi kijacho. Katika mfumo wa jadi, mamlaka ya mjomba juu ya mtoto inaweza kuzidi ya baba katika kila eneo muhimu: ndoa, urithi, usuluhishi wa migogoro, na upitishaji wa utambulisho wa ukoo.",
+      "dg": "Kpwa jamii nyinji, ise ndiye mwenye mamlaka makulu ga chilume kpwa maisha ga mwana. Kahi ya Adigo, nafasi iyo ni ya mutu wanjina kabisa: *aphu* (mjomba), nduguye mlume nine. Aphu ni daraja kahi ya mwana na fuko rao, mutu anayeimirira kazi ya ukoo wa nine ya kutiya nguvu kpwa chizazi chinachokpwedza. Kpwa mfumo wa jadi, mamlaka ga aphu dzulu ya mwana gaweza kuzidi ga ise kpwa chila dzambo ra muhimu: ndowa, urithi, kumala makondo, na kutsapiza utambulisho wa ukoo."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "This is not an academic curiosity or a relic of a vanished world. The mjomba relationship remains one of the defining features of Digo kinship — adapted, negotiated, sometimes diminished by competing authority structures, but never entirely replaced. To understand Digo social organisation, you must understand the mjomba.",
+      "sw": "Mjomba Alifanya Nini",
+      "dg": "Hino si dzambo ra asomi bahi au mabaki ga dunia iriyoangamika. Uhusiano wa aphu uchere kukala mwenga wa mambo ganayoonyesa ukoo wa Adigo — ukagaluzwa, ukapatanwa, wakati wanjina ukaphunguzwa ni mifumo yanjina ya mamlaka, ela taudzangbwehalwa phahaliphe kabisa. Uchitaka kuelewa mpangilio wa jamii ya Adigo, ni lazima uelewe aphu."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "What the Mjomba Did",
+      "sw": "Mjomba alikuwa na jukumu la malezi ya watoto wa dada yake — si kwa maana ya kila siku bali kwa maana ya kina zaidi ya kuwaunda kama wanachama wa fuko lao. Mjomba alilipia taratibu za ndoa na talaka. Alikuwa na mamlaka ya kutoa watoto kwa ndoa. Alipomalizikia mpwa wake mahari alipomhitaji. Mjomba alikuwa, kwa kifupi, mamlaka kuu ya kiume kwa mtoto.",
+      "dg": "Kazi za Aphu"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The ethnographic record is specific about the mjomba's traditional responsibilities. He was responsible for the upbringing of his sister's children — not in the day-to-day sense of feeding and housing them (that was the father's household), but in the deeper sense of forming them as members of their fuko. The mjomba paid for marriage and divorce proceedings when his nephews and nieces needed them. He had the authority to give away children in marriage — a power that in patrilineal societies belongs exclusively to the father. When a fatherless nephew needed bridewealth to marry, it was the mjomba who provided it.",
+      "sw": "Mjomba na Ndoa",
+      "dg": "Maandiko ga asomi ganaeleza wazi kazi za jadi za aphu. Aphu wakala na kazi ya kurera ana a nduguye mchetu — si kpwa maana ya chila siku ya kuarisa na kuapha phatu pha kulala (iyo yakala kazi ya nyumba ya ise), ela kpwa maana ya ndani zaidi ya kuahenda akale atu a fuko rao. Aphu waripha gharama za ndowa na za talaka awae ariphokala anazihitaji. Wakala na mamlaka ga kualoza ana — uwezo ambao kpwa jamii za uphande wa ise ni wa ise macheye. Ndiye ariyemripha mahari muwawe asiye na ise ariphokala anaihitaji."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The mjomba was, in short, the primary male authority figure for a child. In disputes between a child's father and their mjomba, the mjomba's claim often prevailed — because in the matrilineal system, the child belonged to the mjomba's fuko, not the father's. The father was an important figure in the child's daily life, but the mjomba was the figure who connected the child to the deeper structures of identity and obligation.",
+      "sw": "Labda usemi mkubwa zaidi wa mamlaka ya mjomba ulikuwa katika mazungumzo ya ndoa. Katika jamii nyingi za Wadigo, mjomba — si baba — ndiye aliyeshikilia uwezo wa kumtoa mpwa wake kwa ndoa. Idhini ya mjomba ilihitajika ndoa iendelee.",
+      "dg": "Kpwa ufupi, aphu ndiye ariyekala mwenye mamlaka makulu ga chilume dzulu ya mwana. Kondo richizuka kahi ya ise wa mwana na aphuwe, mara nyinji dai ra aphu rashinda — kpwa sababu kpwa mfumo wa uphande wa nine, mwana wakala wa fuko ra aphu, si ra ise. Ise wakala mutu wa muhimu kpwa maisha ga chila siku ga mwana, ela aphu ndiye ariyemuunganisha mwana na mifumo ya ndani zaidi ya utambulisho na wajibu."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The Logic of the System",
+      "sw": "Uislamu na Kupanda kwa Baba",
+      "dg": "Mantiki ya Mfumo"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The mjomba's authority was not arbitrary. It was the logical expression of the matrilineal inheritance system. A man's property passed not to his own children but to his sister's children — to his *awa*. This meant that the mjomba had a direct material investment in his nephews and nieces: they were the people who would inherit his property, tend his land, and carry on his obligations within the fuko. By investing in his sister's children — by paying their bridewealth, guiding their marriages, mentoring them into adulthood — the mjomba was investing in his own heirs.",
+      "sw": "Kupitia Uislamu na mageuzi ya kisheria ya kikoloni, baba polepole alizingatia kazi nyingi za mjomba wa jadi. Baba walianza kujadiliana ndoa za watoto wao wenyewe. Sheria ya urithi wa Kiislamu ilielekeza mali kwa watoto badala ya watoto wa dada.",
+      "dg": "Mamlaka ga aphu tagayakala ga bahati. Gakala matokeo ga mfumo wa urithi wa uphande wa nine. Mali ya mlume taiyaphiya kpwa anae iye mwenye ela kpwa ana a nduguye mchetu — kpwa *awae*. Hino yamaanisha kukala aphu wakala na fwaida ya mali mwenga kpwa mwenga kpwa awae: ao ndio atu ambao andarithi malize, andarima tsiye, na andaenderera na wajibuwe ndani ya fuko. Kpwa kutiya nguvu kpwa ana a nduguye mchetu — kpwa kuariphira mahari, kualongoza kpwa ndowa zao, na kuafundza hadi akale atu azima — aphu wakala anatiya nguvu kpwa arithie iye mwenye."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Conversely, a man's own children would inherit from their own mjomba — from their mother's brother. A father's property would bypass his children entirely and flow to his sister's line. This created a system of cross-generational investment in which every man had a stake in two sets of children: his own (whom he raised) and his sister's (who would inherit from him). The father-child bond was one of daily care and affection. The mjomba-nephew bond was one of structural obligation and material inheritance.",
+      "sw": "Mjomba Anabaki Nini",
+      "dg": "Kpwa uphande wanjina, ana a mlume iye mwenye andarithi kula kpwa aphu wao — nduguye mlume nine ao. Mali ya ise yatsupa anae kabisa na kuphiya kpwa uphande wa nduguye mchetu. Uku kpwahenda mfumo wa kutiya nguvu kutsupa vizazi ambamo chila mlume wakala na fwaida kpwa makundi mairi ga ana: anae iye mwenye (ambao waarera) na ana a nduguye mchetu (ambao andamrithi). Uhusiano wa ise na mwana wakala wa kurera na kumendza chila siku. Uhusiano wa aphu na muwa wakala wa wajibu wa mfumo na urithi wa mali."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Mjomba and Marriage",
+      "sw": "Lakini mjomba hajapotea. Ameshughulikiwa upya. Katika jamii ya kisasa ya Wadigo, mjomba bado anatoa mahari kwa wajukuu wasio na baba. Bado anashikilia mamlaka ya kimaadili juu ya watoto wa dada yake. Mtoto wa Kidigo bado anamjua mjomba wake, bado anamtembelea, bado anaheshimu ushauri wake.",
+      "dg": "Aphu na Ndowa"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Perhaps the most dramatic expression of the mjomba's authority was his role in marriage negotiations. In many Digo communities, it was the mjomba — not the father — who held the power to give a niece in marriage. The bridewealth negotiations involved the mjomba as a primary party. The mjomba's approval was necessary for a marriage to proceed. And when a marriage failed, it was the mjomba who managed the divorce proceedings and ensured that the terms were fair to his niece.",
+      "sw": "Labda usemi mkubwa zaidi wa mamlaka ya mjomba ulikuwa jukumu lake katika mazungumzo ya ndoa. Katika jamii nyingi za Wadigo, mjomba — si baba — ndiye aliyeshikilia uwezo wa kumtoa mpwa wake kwa ndoa. Mazungumzo ya mahari yalihusisha mjomba kama upande mkuu. Idhini ya mjomba ilihitajika ndoa iendelee. Na ndoa iliposhindwa, mjomba ndiye aliyesimamia taratibu za talaka na kuhakikisha kwamba masharti yalikuwa ya haki kwa mpwa wake.",
+      "dg": "Labuda dzambo rinaroonyesa zaidi mamlaka ga aphu ni kazie kpwa mazungumzo ga ndowa. Kpwa jamii nyinji za Adigo, aphu — si ise — ndiye ariyekala na uwezo wa kumloza muwawe. Mazungumzo ga mahari gamuhusisha aphu dza mutu wa muhimu. Ndowa taiyaweza kuenderera bila aphu kukubali. Na ndowa ichimala, aphu ndiye ariyeimirira talaka na kuhakikisha kukala mapatano gakala ga haki kpwa muwawe."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "This created a distinctive dynamic in Digo marriage. A suitor did not simply need to satisfy the bride's father. He needed to satisfy her mjomba — a man who had known the bride since birth, who held her fuko's interests at heart, and who would remain responsible for her welfare even after the marriage. The mjomba's involvement meant that a Digo woman entering marriage had a powerful male advocate whose loyalty was to her maternal line, not to the groom's family.",
+      "sw": "Hili liliunda mienendo ya kipekee katika ndoa ya Wadigo. Mchumba hakuhitaji tu kumridhisha baba wa bibi arusi. Alihitaji kumridhisha mjomba wake — mtu aliyemjua bibi arusi tangu kuzaliwa, aliyeshikilia maslahi ya fuko lake moyoni, na ambaye angebaki na jukumu la ustawi wake hata baada ya ndoa. Ushiriki wa mjomba ulimaanisha kwamba mwanamke wa Kidigo aliyeingia ndoa alikuwa na mtetezi wa kiume mwenye nguvu ambaye uaminifu wake ulikuwa kwa upande wake wa mama, si kwa familia ya bwana arusi.",
+      "dg": "Dzambo hiri rahenda ndowa za Adigo zikale za chipekee. Mchumba kayakala anahitaji kukubaliwa ni ise wa bibi arusi bahi. Wahitaji kukubaliwa ni aphuwe — mutu ariyemmanya bibi arusi hangu kuvyalwa, ariyekala na moyo wa kurinda fwaida ya fukore, na ambaye andasala na kazi ya kumrinda hata bada ya ndowa. Kuinjira kpwa aphu kpwamaanisha kukala mchetu wa Chidigo ariyeinjira ndowani wakala na mtetezi wa chilume mwenye nguvu ambaye uaminifuwe wakala kpwa uphande wa nine wa mchetu, si kpwa mbari ya bwana arusi."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Father-Mjomba Negotiation",
+      "sw": "Mazungumzo ya Baba na Mjomba",
+      "dg": "Mazungumzo ga Ise na Aphu"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The relationship between a child's father and their mjomba was not necessarily antagonistic, but it was inherently complex. The father fed, housed, and raised the child on a daily basis. The mjomba held ultimate authority over the child's marriage, inheritance, and clan identity. Both men had legitimate claims on the child's loyalty and obedience. The potential for conflict was built into the structure.",
+      "sw": "Uhusiano kati ya baba wa mtoto na mjomba wao haukuwa lazima wa uadui, lakini ulikuwa wa changamoto kwa asili. Baba alilisha, akapanga makazi, na akamlea mtoto kila siku. Mjomba alishikilia mamlaka ya mwisho juu ya ndoa ya mtoto, urithi, na utambulisho wa ukoo. Wanaume wote wawili walikuwa na madai halali juu ya uaminifu na utiifu wa mtoto. Uwezekano wa mgogoro ulikuwa umejengwa ndani ya muundo.",
+      "dg": "Uhusiano kahi ya ise wa mwana na aphu wakala si lazima wa uadui, ela kpwa asili wakala mgumu. Ise wamrisa mwana, wampha phatu pha kulala, na wamrera chila siku. Aphu wakala na mamlaka ga mwisho dzulu ya ndowa ya mwana, urithiwe, na utambulisho wa ukoo. Alume osi airi akala na madai ga haki dzulu ya mwana kuaamini na kuasikiza. Kondo zaweza kuzuka kpwa sababu ya muundo hinyo."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "In practice, most families navigated this duality through negotiation and mutual respect. The father's authority was acknowledged in the domestic sphere. The mjomba's authority was acknowledged in matters of clan significance. But when the two spheres collided — when a father wanted his child to marry one person and the mjomba preferred another, or when inheritance was disputed — the resolution depended on the relative prestige, wealth, and persuasive power of the two men, as well as the strength of the matrilineal tradition in their particular community.",
+      "sw": "Kwa vitendo, familia nyingi zilipitia uwili huu kupitia mazungumzo na heshima ya pande zote. Mamlaka ya baba yalitambuliwa katika eneo la nyumbani. Mamlaka ya mjomba yalitambuliwa katika masuala ya umuhimu wa ukoo. Lakini maeneo mawili yalipogongana — baba alipotaka mtoto wake aoe mtu mmoja na mjomba akapendelea mwingine, au urithi ulipobishaniwa — suluhisho lilitegemea heshima, utajiri, na uwezo wa kushawishi wa wanaume hao wawili, pamoja na nguvu ya mila ya upande wa mama katika jamii yao mahususi.",
+      "dg": "Kpwa kpweli, mbari nyinji zatsupira uwili uhu kpwa mazungumzo na kuishimiana. Mamlaka ga ise gamanyikana kpwa mambo ga nyumbani. Mamlaka ga aphu gamanyikana kpwa mambo ga muhimu ga ukoo. Ela mambo gano mairi gachigongana — ise achilonda mwanawe alole mutu mmwenga na aphu achilonda wanjina, au urithi uchibishaniwa — mwisho ukakala unakuluphira hishima, mali, na uwezo wa maneno wa alume hano airi, phamwenga na nguvu ya chimila cha uphande wa nine kpwa jamii yao."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Islam and the Father's Rise",
+      "sw": "Uislamu na Kupanda kwa Baba",
+      "dg": "Chiislamu na Kukula kpwa Mamlaka ga Ise"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The arrival and spread of Islam among the Digo from the seventeenth century onward brought a competing model of paternal authority. Islamic family law places the father at the centre of the family structure. The father's authority over his children is absolute in matters of marriage, inheritance, and religious education. The maternal uncle has no formal standing in the Islamic legal framework.",
+      "sw": "Kufika na kuenea kwa Uislamu miongoni mwa Wadigo kuanzia karne ya kumi na saba na kuendelea kulileta muundo shindani wa mamlaka ya kibaba. Sheria ya familia ya Kiislamu inaweka baba katikati ya muundo wa familia. Mamlaka ya baba juu ya watoto wake ni kamili katika masuala ya ndoa, urithi, na elimu ya kidini. Mjomba hana nafasi rasmi katika mfumo wa kisheria wa Kiislamu.",
+      "dg": "Kufika na kuenea kpwa Chiislamu kahi ya Adigo kuandza karne ya kumi na sabaa na kuenderera kpwareha njira yanjina ya mamlaka ga ise. Shariya ya mbari ya Chiislamu inamuika ise kahi-kahi ya mbari. Mamlaka ga ise dzulu ya anae ni kamili kpwa mambo ga ndowa, urithi, na elimu ya chidini. Aphu kana nafasi rasmi kpwa mfumo wa chishariya wa Chiislamu."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Through Islamisation and colonial legal reform, the father gradually absorbed many of the mjomba's traditional functions. Fathers began to negotiate their own children's marriages. Islamic inheritance law directed property to children rather than to sisters' children. The formal authority that once resided with the mjomba shifted — slowly, unevenly, and never completely — to the father.",
+      "sw": "Kupitia Uislamu na mageuzi ya kisheria ya kikoloni, baba polepole alizingatia kazi nyingi za jadi za mjomba. Baba walianza kujadiliana ndoa za watoto wao wenyewe. Sheria ya urithi wa Kiislamu ilielekeza mali kwa watoto badala ya watoto wa dada. Mamlaka rasmi ambayo hapo awali yalikuwa kwa mjomba yalihamia — polepole, kwa njia isiyo sawa, na kamwe si kabisa — kwa baba.",
+      "dg": "Kutsupira Chiislamu na mabadiliko ga chishariya ga chikoloni, ise pore-pore wahala kazi nyinji za jadi za aphu. Aise aandza kupanga ndowa za ana ao enye. Shariya ya urithi ya Chiislamu yaphirika mali kpwa ana badala ya ana a ndugu zao achetu. Mamlaka rasmi garigokala kpwa aphu kare gatsama — pore-pore, si kpwa usawa, na taiyakala kabisa — kuphiya kpwa ise."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "What the Mjomba Remains",
+      "sw": "Mjomba Anabaki Nini",
+      "dg": "Chinachosala kpwa Aphu"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "But the mjomba has not disappeared. He has been renegotiated. In contemporary Digo society, the mjomba still provides bridewealth for fatherless nephews — a function that no one else has stepped in to fill. The mjomba still holds moral authority over his sister's children, even where his legal authority has been superseded by the father's. A Digo child still knows who their mjomba is, still visits him, still respects his counsel.",
+      "sw": "Lakini mjomba hajapotea. Ameshughulikiwa upya. Katika jamii ya kisasa ya Wadigo, mjomba bado anatoa mahari kwa wapwa wasio na baba — kazi ambayo hakuna mtu mwingine aliyeingilia kuijaza. Mjomba bado anashikilia mamlaka ya kimaadili juu ya watoto wa dada yake, hata pale mamlaka yake ya kisheria yamezidiwa na ya baba. Mtoto wa Kidigo bado anamjua mjomba wake, bado anamtembelea, bado anaheshimu ushauri wake.",
+      "dg": "Ela aphu kadzangbweangamika. Kazie ikagaluzwa. Kpwa jamii ya chisasa ya Adigo, aphu bado anaripha mahari kpwa ajili ya awae asio na ise — kazi ambayo takuna mutu wanjina ariyeinjira kuihenda. Aphu bado ana mamlaka ga chimaadili dzulu ya ana a nduguye mchetu, hata phatu mamlakage ga chishariya gakazidiwa ni ga ise. Mwana wa Chidigo bado anammanya aphuwe, bado anaphiya kumuona, bado anaishimu ushauriwe."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The mjomba's role has narrowed from the comprehensive authority of the traditional system to a more specialised function: he is the keeper of the maternal connection, the living representative of the fuko in a child's life. He may no longer control his nephew's marriage. But he is still the man his nephew turns to when the question arises: *\"Wa atu ani?\"* The mjomba knows the answer, because the answer is the name of his own fuko — the fuko that he and his nephew share through the mother who connects them.",
+      "sw": "Jukumu la mjomba limepungua kutoka mamlaka kamili ya mfumo wa jadi kwenda kazi maalum zaidi: yeye ni mlinzi wa uhusiano wa upande wa mama, mwakilishi hai wa fuko katika maisha ya mtoto. Huenda hasimamii tena ndoa ya mpwa wake. Lakini bado ni mtu ambaye mpwa wake anaelekea kwake swali linapotokea: *\"Wa atu ani?\"* Mjomba anajua jibu, kwa sababu jibu ni jina la fuko lake mwenyewe — fuko ambalo yeye na mpwa wake wanashiriki kupitia mama anayewaunganisha.",
+      "dg": "Kazi ya aphu ikaphunguka kula mamlaka gosi ga mfumo wa jadi kuphiya kazi maalum zaidi: iye ni mrindzi wa uhusiano wa uphande wa nine, mwakilishi wa fuko kpwa maisha ga mwana. Anaweza asiimirire tsona ndowa ya muwawe. Ela bado ndiye mutu ambaye muwawe anamphiyira swali richizuka: *\"Wa atu ani?\"* Aphu anamanya jibu, kpwa sababu jibu ni dzina ra fukore iye mwenye — fuko ambaro iye na muwawe ana phamwenga kutsupira nine ariyeaunganisha."
+    }
+  ]
+}

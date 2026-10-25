@@ -1,0 +1,248 @@
+{
+  "id": "figures/abdallah-mwapodzo",
+  "published": true,
+  "title": {
+    "en": "Abdallah Mwapodzo",
+    "sw": "Abdallah Mwapodzo",
+    "dg": "Abdallah Mwapodzo"
+  },
+  "subtitle": {
+    "en": "The First Muslim Digo of Diani",
+    "sw": "Mdigo wa Kwanza Mwislamu wa Diani",
+    "dg": "Mdigo wa Kpwandza Kukala Mwislamu Diani"
+  },
+  "meta": [
+    {
+      "en": "Era: c. 1840–1923",
+      "sw": "Kipindi: takriban 1840–1923",
+      "dg": "Wakati: Kama 1840–1923"
+    },
+    {
+      "en": "Role: Seventh mwanatsi (senior elder) of Kaya Diani, remembered as the first practising Muslim of Diani; builder of Diani's first mosque; colonial Headman of Diani",
+      "sw": "Jukumu: Mwanatsi (mzee mkuu) wa saba wa Kaya Diani, anayekumbukwa kama Mwislamu wa kwanza aliyeishi kwa imani hiyo Diani; mjenzi wa msikiti wa kwanza wa Diani; Mkuu wa Lokesheni wa kikoloni wa Diani",
+      "dg": "Kazi: Mwanatsi (mzehe mkpwulu) wa sabaa wa Kaya Diani, anayetambukirwa dza Mwislamu wa kpwandza wa Diani kuishi kulengana na dini iyo; ariyedzenga msikiti wa kpwandza wa Diani; Dzumbe wa chikoloni wa Diani"
+    },
+    {
+      "en": "Region: Ukunda and Diani, Kwale, present-day Kenya",
+      "sw": "Eneo: Ukunda na Diani, Kwale, Kenya ya leo",
+      "dg": "Phatu: Ukunda na Diani, Kwale, Kenya ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "The Islamisation of the Digo made them the only Mijikenda people with a Muslim majority. It did not start with a conquering army or a royal decree. It started with individuals who met Islam through trade, kinship, famine and illness, and then chose to rebuild their lives around it. Abdallah Mwapodzo of Diani is one of the clearest examples we have. He came to Islam in a time of crisis. He still kept faith with his village, and that village was where he planted the new religion.",
+      "sw": "Kuenea kwa Uislamu miongoni mwa Adigo kuliwafanya kuwa watu pekee wa Mijikenda ambao wengi wao ni Waislamu. Hakukuanza kwa jeshi la uvamizi wala kwa amri ya mfalme. Kulianza kwa watu mmoja mmoja waliokutana na Uislamu kupitia biashara, ukoo, njaa na maradhi, kisha wakachagua kujenga upya maisha yao kuuzunguka. Abdallah Mwapodzo wa Diani ni mmoja wa mifano iliyo wazi zaidi tuliyonayo. Aliingia Uislamu wakati wa dhiki. Hata hivyo hakuuacha uaminifu wake kwa kijiji chake, na kijiji hicho ndicho alichopanda dini hiyo mpya.",
+      "dg": "Kuenea kpwa Uislamu kahi za Adigo kpwaahenda akale ndio atu bahi a Amijikenda ambao anji ao ni Aislamu. Uislamu taukaandza kpwa jeshi ra kuvamia wala kpwa amri ya mfalume. Waandza na atu mmwenga-mmwenga ariokutana na Uislamu kpwa njira ya biashara, achina, ndzala na makongo, chisha achitsambula kudzenga upya maisha gao kulengana na dini iyo. Abdallah Mwapodzo wa Diani ni mmwenga wa mifwano ya wazi zaidi. Wasilimu wakati wa taabu. Ela wasala mwaminifu kpwa chidzidziche, na chidzidzi chicho ndicho arichophandira dini iyo nyiphya."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Almost everything known about him comes from the historian David Sperling. Between 1967 and 1987 Sperling recorded the memories of Diani elders, and he checked them against Kenya National Archives files. The account below follows his work closely.",
+      "sw": "Karibu kila kinachojulikana kumhusu kinatoka kwa mwanahistoria David Sperling. Kati ya 1967 na 1987 Sperling alirekodi kumbukumbu za wazee wa Diani, na akazilinganisha na mafaili ya Hifadhi ya Kitaifa ya Kenya. Simulizi lifuatalo linafuata kazi yake kwa karibu.",
+      "dg": "Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mwanahistoria David Sperling. Kahi ya 1967 na 1987 Sperling waandika mambo garigotambukirwa ni azehe a Diani, achigalinganisha na mafaili ga Kenya National Archives. Adisi iyi inalunga kaziye phephi-phephi."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Mwanatsi of Kaya Diani",
+      "sw": "Mwanatsi wa Kaya Diani",
+      "dg": "Mwanatsi wa Kaya Diani"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Mwapodzo was born at Ukunda around 1840 with the name **Chivoyero Mwapodzo**. His father was Mwakulenje Podzo.",
+      "sw": "Mwapodzo alizaliwa Ukunda karibu mwaka 1840 akiwa na jina **Chivoyero Mwapodzo**. Baba yake alikuwa Mwakulenje Podzo.",
+      "dg": "Mwapodzo wavyalwa Ukunda kama mwaka 1840 na dzina **Chivoyero Mwapodzo**. Ise kala ni Mwakulenje Podzo."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "His future was set by his mother's line. Kaya Diani had been founded in the late 17th or early 18th century by Mwalela Bawa of the Akinalela clan, who had come from Kaya Dzombo. The leadership of the kaya then passed down through Mwalela Bawa's matrilineal descendants. Across the Digo kayas, the *mwanatsi* (\"son of the land\") led the kaya's ceremonies. He sat at the head of the *ngambi*, the council of elders, and was almost always chosen by matrilineal descent from the founding clan.",
+      "sw": "Mustakabali wake uliamuliwa na ukoo wa mama yake. Kaya Diani ilikuwa imeanzishwa mwishoni mwa karne ya 17 au mwanzoni mwa karne ya 18 na Mwalela Bawa wa ukoo wa Akinalela, aliyekuja kutoka Kaya Dzombo. Uongozi wa kaya kisha ulirithiwa kupitia vizazi vya Mwalela Bawa kwa upande wa mama. Katika kaya zote za Adigo, *mwanatsi* (\"mwana wa nchi\") aliongoza sherehe za kaya. Alikaa kichwani mwa *ngambi*, baraza la wazee, na karibu kila mara alichaguliwa kwa nasaba ya upande wa mama kutoka ukoo ulioanzisha kaya.",
+      "dg": "Fuko ra nine ndiro ririroamula maishage ga mbere. Kaya Diani kala ikaandzishwa mwisho wa karne ya 17 au mwandzo wa karne ya 18 ni Mwalela Bawa wa fuko ra Akinalela, ariyekpwedza kula Kaya Dzombo. Bada ya iye, kaya ikalongozwa ni vivyazivye vya uphande wa mayo. Kahi za makaya gosi ga Adigo, *mwanatsi* (\"mwana wa tsi\") ndiye kala analongoza mila za kaya. Kala ndiye mkpwulu wa *ngambi*, baraza ra azehe, na phephi wakati wosi kala anatsambulwa kulengana na uphande wa mayo kula fuko ririroandzisha kaya."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "So Chivoyero did not rise to office by election. He came from Ukunda to inherit it from his maternal uncle, Mwatsavua. Diani tradition dates this to the reign of Sayyid Majid of Zanzibar, which means sometime between 1856 and 1870. He became the seventh mwanatsi of Kaya Diani. The six before him had not been Muslims.",
+      "sw": "Kwa hiyo Chivoyero hakupata cheo hicho kwa kuchaguliwa. Alitoka Ukunda kuja kukirithi kutoka kwa mjomba wake, Mwatsavua. Mapokeo ya Diani yanaweka jambo hili katika utawala wa Sayyid Majid wa Zanzibar, yaani wakati fulani kati ya 1856 na 1870. Akawa mwanatsi wa saba wa Kaya Diani. Wale sita waliomtangulia hawakuwa Waislamu.",
+      "dg": "Phahi Chivoyero wachiphaha cheo chicho kpwa kurisi, si kpwa kutsambulwa. Wauka Ukunda achedza kuchirisi kula kpwa aphuye, Mwatsavua. Kpwa mapokeo ga Diani, dzambo riri rahendeka wakati wa utawala wa Sayyid Majid wa Zanzibar, manaye ni wakati fulani kahi ya 1856 na 1870. Wakala mwanatsi wa sabaa wa Kaya Diani. Ara sita ariomtangulira kala si Aislamu."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Conversion in a Time of Famine",
+      "sw": "Kuingia Uislamu Wakati wa Njaa",
+      "dg": "Kusilimu Wakati wa Ndzala"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "His father often visited relatives in Mombasa, and these trips gave the young man his first contact with town life and with Muslims. The turning point came with the **Mwakisenge famine of 1884–85**. Father and son went to stay with Digo relatives at **Takaungu**, north of Mombasa, who were already Muslims. There both of them caught smallpox. Mwakulenje Podzo died. His son, in the words of a Diani elder interviewed in 1967, \"was cured and became Abdallah.\" When he came home after the famine he was a Muslim, and he \"was speaking Swahili\", which at that time marked a man who dealt regularly with the towns.",
+      "sw": "Baba yake mara nyingi aliwatembelea jamaa zake Mombasa, na safari hizo zilimpa kijana mawasiliano yake ya kwanza na maisha ya mjini na Waislamu. Mabadiliko makubwa yalikuja na **njaa ya Mwakisenge ya 1884–85**. Baba na mwana walikwenda kukaa na jamaa zao Adigo huko **Takaungu**, kaskazini ya Mombasa, ambao tayari walikuwa Waislamu. Huko wote wawili walipata ndui. Mwakulenje Podzo alifariki. Mwanawe, kwa maneno ya mzee mmoja wa Diani aliyehojiwa mwaka 1967, \"alipona akawa Abdallah\". Aliporudi nyumbani baada ya njaa alikuwa Mwislamu, na \"alikuwa akizungumza Kiswahili\", jambo ambalo wakati huo lilimtambulisha mtu aliyekuwa akishughulika na miji mara kwa mara.",
+      "dg": "Ise kala anaanyendekera achinae Mombasa mara nyinji, na safari izo zamupha barobaro iye nafasi ya kpwandza ya kumanya maisha ga mudzini na Aislamu. Dzambo ririrogaluza maishage rakpwedza na **ndzala ya Mwakisenge ya 1884–85**. Ise na mwana aphiya kukala na achina ao a Chidigo iko **Takaungu**, kazikazini ya Mombasa, ambao kala tayari ni Aislamu. Hiko osi airi agbwirwa ni ndui. Mwakulenje Podzo wafwa. Mwanawe, kpwa maneno ga mzehe mmwenga wa Diani ariyeuzwa maswali mwaka 1967, \"waphola achikala Abdallah\". Ariphouya kpwakpwe kaya bada ya ndzala kala ni Mwislamu, na \"kala anagomba Chiswahili\", dzambo ambaro wakati uo kala ni alama ya mutu ariyekala anahenda mambo na midzi mara kpwa mara."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Others in Diani may have converted before him. But those earlier converts either moved away to Mombasa or barely practised the faith. Mwapodzo was the first who lived as a Muslim in the village and drew others after him. That is why Diani remembers him as its first Muslim.",
+      "sw": "Huenda wengine wa Diani walisilimu kabla yake. Lakini waliosilimu mapema ama walihamia Mombasa ama hawakuifuata dini kwa kiasi kikubwa. Mwapodzo ndiye wa kwanza aliyeishi kama Mwislamu kijijini na kuwavuta wengine wamfuate. Ndiyo sababu Diani inamkumbuka kama Mwislamu wake wa kwanza.",
+      "dg": "Inawezekana kukala anjina a Diani asilimu kabla ya iye. Ela ara ariotangulira ama atsama kuphiya Mombasa, ama kala taailunga dini chikpweli. Mwapodzo ndiye wa kpwandza ariyeishi dza Mwislamu chidzidzini, achiamweha anjina amlunge. Kpwa sababu iyo Diani inamtambukira dza Mwislamu wa kpwandza wa Diani."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "A Convert Who Stayed",
+      "sw": "Mwislamu Aliyebaki Nyumbani",
+      "dg": "Mwislamu Ariyesala Kpwakpwe"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Sperling's central finding about the southern Mijikenda is that, from the 1850s on, Digo converts usually stayed in their home villages while centring their religious life as Muslims on the town. Earlier converts had moved to the Swahili towns and left their communities behind. Mwapodzo shows the new pattern almost perfectly.",
+      "sw": "Matokeo makuu ya Sperling kuhusu Mijikenda wa kusini ni kwamba, kuanzia miaka ya 1850, Adigo waliosilimu kwa kawaida walibaki katika vijiji vyao huku maisha yao ya kidini kama Waislamu yakielekezwa mjini. Waliosilimu kabla yao walihamia miji ya Waswahili na kuziacha jamii zao. Mwapodzo anaonyesha mtindo huo mpya karibu kikamilifu.",
+      "dg": "Dzambo kulu Sperling ariroona kuhusu Amijikenda a kusini ni kukala, kula miaka ya 1850, Adigo ariokala Aislamu kpwa kawaida kala anasala vidzidzini vyao, ela maisha gao ga dini dza Aislamu kala ganakala mudzini. Ara ariotangulira atsama kuphiya midzi ya Aswahili, achiricha jamii zao. Mwapodzo anaonyesa vinono sana njira iyi nyiphya."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "He kept trading in Mombasa and is said to have visited Zanzibar. Yet he remained mwanatsi and kept leading the ceremonies of Kaya Diani. Elders remembered his prayers for rain as especially effective. People brought him goats, chickens and other animals to sacrifice at the kaya prayers. For him, being Muslim and being the ritual head of the kaya were not two lives to choose between.",
+      "sw": "Aliendelea kufanya biashara Mombasa na inasemekana aliwahi kuzuru Zanzibar. Hata hivyo alibaki mwanatsi na akaendelea kuongoza sherehe za Kaya Diani. Wazee walikumbuka maombi yake ya mvua kuwa yenye nguvu ya pekee. Watu walimletea mbuzi, kuku na wanyama wengine ili kuwatoa sadaka katika maombi ya kaya. Kwake, kuwa Mwislamu na kuwa kiongozi wa mila wa kaya hayakuwa maisha mawili ya kuchagua mojawapo.",
+      "dg": "Waenderera kuhenda biashara Mombasa, na nkugombwa kukala wanyendekera Zanzibar. Ela wasala kukala mwanatsi, achienderera kulongoza mila za Kaya Diani. Azehe kala anatambukira mavoyoge ga mvula kukala gakala na nguvu kulu sana. Atu kala anamrehera mbuzi, kuku na nyama anjina ili alavye sadaka kpwenye mavoyo ga kaya. Kpwakpwe, kukala Mwislamu na kukala mkpwulu wa mila wa kaya kala si maisha mairi ga kutsambula mwenga."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "He also opened Diani to the wider Muslim world. In the mid-1880s and 1890s Muslim traders began to settle at Diani. They sold fish, dates, beads and cloth, bought coconuts and tobacco, and supplied grain in the famine years. When they went inland to buy tobacco, Mwapodzo gave them an escort. Several of them settled at **Diani Mwaroni**, where he lived. One of them, Mbega, a freed slave, was his friend. Mwapodzo was also a friend of Shaykh Mbaruk bin Rashid, the Mazrui leader at Gasi.",
+      "sw": "Pia aliifungua Diani kwa ulimwengu mpana wa Kiislamu. Katikati ya miaka ya 1880 na 1890 wafanyabiashara Waislamu walianza kuweka makazi Diani. Waliuza samaki, tende, shanga na vitambaa, walinunua nazi na tumbaku, na walileta nafaka katika miaka ya njaa. Walipokwenda bara kununua tumbaku, Mwapodzo aliwapa wasindikizaji. Kadhaa kati yao walikaa **Diani Mwaroni**, alipoishi. Mmoja wao, Mbega, mtumwa aliyekuwa amekombolewa, alikuwa rafiki yake. Mwapodzo pia alikuwa rafiki wa Shaykh Mbaruk bin Rashid, kiongozi wa Wamazrui huko Gasi.",
+      "dg": "Piya waivugula Diani kpwa ulimwengu wa Chiislamu wa kondze. Kahi-kahi ya miaka ya 1880 na miaka ya 1890 achuuzi Aislamu aandza kusagala Diani. Kala anaguza ng'onda, tende, ushanga na nguwo, achigula nazi na tumbaku, na kurehera atu nafaka miaka ya ndzala. Ariphokala anaphiya bara kugula tumbaku, Mwapodzo kala anaapha asindikizihe. Anjina ao asagala **Diani Mwaroni**, phatu ambapho Mwapodzo kala anaishi. Mmwenga wao, Mbega, mtumwa ariyerichwa huru, kala ni msenawe. Mwapodzo piya kala ni msena wa Shaykh Mbaruk bin Rashid, chilongozi wa Amazrui iko Gasi."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "The Mwaroni Mosque",
+      "sw": "Msikiti wa Mwaroni",
+      "dg": "Msikiti wa Mwaroni"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "For years Diani had no mosque. Its few Muslims went to Gasi or Tiwi for Friday prayers, or prayed inside small enclosures of palm fronds. For the 'Id festivals, men \"like Abdallah Mwapodzo\" walked to Mombasa. They spent the night on the way at Pungu with Muhammad Mwaganyuma, an early convert there.",
+      "sw": "Kwa miaka mingi Diani haikuwa na msikiti. Waislamu wake wachache walikwenda Gasi au Tiwi kwa sala ya Ijumaa, au walisali ndani ya vizimba vidogo vya makuti. Kwa sikukuu za Idi, wanaume \"kama Abdallah Mwapodzo\" walitembea kwa miguu hadi Mombasa. Walilala njiani Pungu kwa Muhammad Mwaganyuma, mmoja wa waliosilimu mapema huko.",
+      "dg": "Kpwa miaka minji Diani kala taina msikiti. Aislamu achache a Diani kala anaphiya Gasi au Tiwi kpwa swala ya Ijumaa, au anaswali ndani ya uchigo mdide wa makandza. Kpwa sikukuu za Idi, alume \"dza Abdallah Mwapodzo\" kala anaphiya Mombasa kpwa magulu. Kala analala njirani iko Pungu kpwa Muhammad Mwaganyuma, mmwenga wa ariotangulira kusilimu iko."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Around **1907**, as the number of Muslims grew, Mwapodzo built **the first mosque at Diani, the Mwaroni Mosque**, near his home. It was made of mud and poles under a palm-thatch roof. Its first Imam was Shehe Baimba, a Gunya (Bajuni) trader who had come selling beads and mirrors and offered to teach. Later Mwapodzo's nephew, **Hamisi Mwaramunda**, won the post in competition with other candidates. Diani remembered the mosque as being \"of the Akinalela\", the founding clan of the kaya.",
+      "sw": "Karibu mwaka **1907**, idadi ya Waislamu ilipoongezeka, Mwapodzo alijenga **msikiti wa kwanza wa Diani, Msikiti wa Mwaroni**, karibu na nyumbani kwake. Ulijengwa kwa udongo na miti chini ya paa la makuti. Imamu wake wa kwanza alikuwa Shehe Baimba, mfanyabiashara Mgunya (Mbajuni) aliyekuja kuuza shanga na vioo na akajitolea kufundisha. Baadaye mpwa wa Mwapodzo, **Hamisi Mwaramunda**, alishinda nafasi hiyo katika ushindani na wagombea wengine. Diani iliukumbuka msikiti huo kuwa \"wa Akinalela\", ukoo ulioanzisha kaya.",
+      "dg": "Kama mwaka **1907**, unji wa Aislamu uriphoenjerezeka, Mwapodzo wadzenga **msikiti wa kpwandza wa Diani, Msikiti wa Mwaroni**, phephi na nyumbaye. Wadzengbwa kpwa ulongo na mihi, na paa ra makuti. Imamu wa kpwandza kala ni Shehe Baimba, mchuuzi Mgunya (Mbajuni) ariyekpwedza kuguza ushanga na vilolo, achiamba andafundza. Bada ya hipho, muwa wa Mwapodzo, **Hamisi Mwaramunda**, waphaha cheo chicho kpwa kutsomana na anjina ariokala analonda cheo icho. Diani kala inautambukira msikiti uo kukala \"wa Akinalela\", fuko ririroandzisha kaya."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "After the First World War more mosques followed: the Mwamambi Mosque in 1920 and the Mvumoni Mosque in 1922. Around 1927 the people of Diani cleared the bush around the ancient Kongo Mosque, and in 1932 Shaykh Mwinyikombo opened it with a great maulid. By 1920 at least five of the seventeen members of Diani's ngambi were Muslims.",
+      "sw": "Baada ya Vita vya Kwanza vya Dunia misikiti zaidi ilifuata: Msikiti wa Mwamambi mwaka 1920 na Msikiti wa Mvumoni mwaka 1922. Karibu mwaka 1927 watu wa Diani walisafisha kichaka kilichouzunguka Msikiti wa kale wa Kongo, na mwaka 1932 Shaykh Mwinyikombo aliufungua kwa maulidi makubwa. Kufikia 1920 angalau watano kati ya wajumbe kumi na saba wa ngambi ya Diani walikuwa Waislamu.",
+      "dg": "Bada ya Viha vya Kpwandza vya Dunia misikiti minji zaidi yadzengbwa: Msikiti wa Mwamambi mwaka 1920 na Msikiti wa Mvumoni mwaka 1922. Kama mwaka 1927 atu a Diani atema vitsaka virivyouzunguluka Msikiti wa kare sana wa Kongo, na mwaka 1932 Shaykh Mwinyikombo wauvugula kpwa maulidi makulu. Kufikira 1920, azehe atsano au zaidi kahi ya kumi na sabaa a ngambi ya Diani kala ni Aislamu."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "The Colonial Headman",
+      "sw": "Mkuu wa Kikoloni",
+      "dg": "Dzumbe wa Chikoloni"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The British appointed Mwapodzo **Headman of Diani**, and he held the post until his death. By 1916 a colonial report already called him \"very old\" and noted that he had been excused from attending Council meetings. He died in **1923**. On 10 July 1923 the District Commissioner, H. E. Lambert, recorded in his tour diary that **Abdallah Mwarandu** had been chosen Headman in his place.",
+      "sw": "Waingereza walimteua Mwapodzo kuwa **Mkuu wa Diani**, naye alishikilia cheo hicho hadi kifo chake. Kufikia 1916 ripoti ya kikoloni tayari ilimwita \"mzee sana\" na ilieleza kwamba alikuwa ameruhusiwa kutohudhuria mikutano ya Baraza. Alifariki mwaka **1923**. Tarehe 10 Julai 1923 Mkuu wa Wilaya, H. E. Lambert, aliandika katika shajara yake ya ziara kwamba **Abdallah Mwarandu** alikuwa amechaguliwa kuwa Mkuu mahali pake.",
+      "dg": "Aingereza amtsambula Mwapodzo kukala **Dzumbe wa Diani**, naye wasagala na cheo icho hadi ariphofwa. Kufikira 1916 ripoti ya chikoloni kala tayari inamuiha \"mzehe sana\", na kuandika kukala kala akahewa ruhusa ya kuricha kuphiya mikutano ya Baraza. Wafwa mwaka **1923**. Tarehe 10 Julai 1923 Afisa wa Wilaya, H. E. Lambert, waandika kpwenye shajara ya safarize kukala **Abdallah Mwarandu** kala akatsambulwa kukala Dzumbe badalaye."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "His working life thus ran from kaya leadership before colonial rule into British indirect rule. Sperling found that Digo conversions reached \"a kind of crescendo by the end of the 1920s\", in the years just after his death.",
+      "sw": "Kwa hiyo maisha yake ya kazi yalianzia katika uongozi wa kaya kabla ya ukoloni hadi utawala usio wa moja kwa moja wa Waingereza. Sperling aligundua kwamba kusilimu kwa Adigo kulifikia \"aina ya kilele kufikia mwisho wa miaka ya 1920\", katika miaka iliyofuata kifo chake.",
+      "dg": "Phahi maishage ga kazi gaandza na kulongoza kaya kabla ya ukoloni, gachifika hadi utawala wa Aingereza wa kuhumira vilongozi a chienyeji. Sperling waona kukala unji wa Adigo ariokala anasilimu wafika \"aina ya chilele mwisho wa miaka ya 1920\", kahi ya miaka mifupi bada ya iye kufwa."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Other Early Digo Islamic Pioneers",
+      "sw": "Waanzilishi Wengine wa Mwanzo wa Uislamu kwa Adigo",
+      "dg": "Aandzilishi Anjina a Kare a Uislamu kpwa Adigo"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Mwapodzo was part of a wider generation. Sperling's research also records:",
+      "sw": "Mwapodzo alikuwa sehemu ya kizazi kipana zaidi. Utafiti wa Sperling pia unawataja:",
+      "dg": "Mwapodzo kala ni mmwenga wa atu anji a wakati uo. Utafiti wa Sperling piya unahadza:"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "**Hamisi Mwapodzo of Pungu.** He is a different man with a similar name. He became Muslim around 1870 and, with Muhammad Mwaganyuma, built the first Pungu mosques in the 1890s.",
+      "sw": "**Hamisi Mwapodzo wa Pungu.** Huyu ni mtu tofauti mwenye jina linalofanana. Alisilimu karibu mwaka 1870 na, pamoja na Muhammad Mwaganyuma, alijenga misikiti ya kwanza ya Pungu katika miaka ya 1890.",
+      "dg": "**Hamisi Mwapodzo wa Pungu.** Iye ni mutu wanjina mwenye dzina rinarofanana. Wasilimu kama mwaka 1870 na, phamwenga na Muhammad Mwaganyuma, adzenga misikiti ya kpwandza ya Pungu kahi za miaka ya 1890."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "**Muhammad Mwaganyuma of Pungu**, son of Ali Ganyuma, who was already a Muslim by 1855. Muhammad's son **Mwalimu Ali** studied at Mtanganyiko and became the first Imam of the Pungu Mosque and a teacher of converts' children.",
+      "sw": "**Muhammad Mwaganyuma wa Pungu**, mwana wa Ali Ganyuma, aliyekuwa tayari Mwislamu kufikia 1855. Mwana wa Muhammad, **Mwalimu Ali**, alisoma Mtanganyiko na akawa Imamu wa kwanza wa Msikiti wa Pungu na mwalimu wa watoto wa waliosilimu.",
+      "dg": "**Muhammad Mwaganyuma wa Pungu**, mwana wa Ali Ganyuma, ambaye kala tayari ni Mwislamu kufikira 1855. Mwana wa Muhammad, **Mwalimu Ali**, wasoma Mtanganyiko achikala Imamu wa kpwandza wa Msikiti wa Pungu na mwalimu wa ana a atu ariokala akasilimu."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "**Mwinyihaji wa Bwika**, senior elder of Tiwi, died 1913. Elders in other villages remembered him as the man who began inheritance according to Islamic law among the Digo.",
+      "sw": "**Mwinyihaji wa Bwika**, mzee mkuu wa Tiwi, aliyefariki 1913. Wazee wa vijiji vingine walimkumbuka kama mtu aliyeanzisha urithi kwa mujibu wa sheria ya Kiislamu miongoni mwa Adigo.",
+      "dg": "**Mwinyihaji wa Bwika**, mzehe mkpwulu wa Tiwi, ariyefwa 1913. Azehe a vidzidzi vyanjina kala anamtambukira dza mutu ariyeandzisha kuganya urisi kulengana na shariya ya Chiislamu kahi za Adigo."
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "**Omari Mwakikweza**, son of Mwanaphyori Chikpweza, an early convert from Diani who moved to Mombasa. Omari came to be regarded as head of the Digo Muslims there.",
+      "sw": "**Omari Mwakikweza**, mwana wa Mwanaphyori Chikpweza, mmoja wa waliosilimu mapema kutoka Diani aliyehamia Mombasa. Omari alikuja kuchukuliwa kama kiongozi wa Waislamu wa Kidigo huko.",
+      "dg": "**Omari Mwakikweza**, mwana wa Mwanaphyori Chikpweza, mmwenga wa ariotangulira kusilimu kula Diani, ariyetsama kuphiya Mombasa. Omari wakpwedza kuonekana dza mkpwulu wa Aislamu a Chidigo iko."
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "**Sulayman Abdallah Mwakuaza**, Imam of the Mkunguni Mosque at Tiwi. As far as is known, he was the first Digo, and the first Mijikenda, to make the pilgrimage to Mecca. He was seen landing at Jidda but never returned home.",
+      "sw": "**Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni huko Tiwi. Kwa kadiri inavyojulikana, alikuwa Mdigo wa kwanza, na Mmijikenda wa kwanza, kwenda kuhiji Makka. Alionekana akishuka Jidda lakini hakurudi nyumbani kamwe.",
+      "dg": "**Sulayman Abdallah Mwakuaza**, Imamu wa Msikiti wa Mkunguni iko Tiwi. Kpwa ganagomanyikana, iye ndiye Mdigo wa kpwandza, na Mmijikenda wa kpwandza, kuphiya Hija Makka. Waonekana achitserera chomboni Jidda, ela kauyire kaya."
+    },
+    {
+      "id": "b028",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi",
+      "dg": "Urisi"
+    },
+    {
+      "id": "b029",
+      "type": "paragraph",
+      "en": "Abdallah Mwapodzo left no monument and no named institution that we know of. He did leave a pattern. A Digo could become a Muslim, keep his place at the head of the kaya, pray for rain at the kaya and lead his village to Friday prayers. Islam eventually became the majority religion of the Digo south of Mombasa. The Mwaroni Mosque he built, Diani's first, is where that change began in his village.",
+      "sw": "Abdallah Mwapodzo hakuacha mnara wala taasisi yenye jina lake tunayoijua. Lakini aliacha mfano. Mdigo angeweza kuwa Mwislamu, akabaki na nafasi yake kichwani mwa kaya, akaomba mvua kayani na kuwaongoza watu wa kijiji chake kwenda sala ya Ijumaa. Hatimaye Uislamu ukawa dini ya walio wengi miongoni mwa Adigo wa kusini ya Mombasa. Msikiti wa Mwaroni alioujenga, msikiti wa kwanza wa Diani, ndipo mabadiliko hayo yalipoanzia kijijini mwake.",
+      "dg": "Kpwa ganagomanyikana, Abdallah Mwapodzo kala kana mnara wala taasisi yenye dzinare. Ela waricha njira ya kulungwa. Mdigo kala anaweza kukala Mwislamu, achisala mkpwulu wa kaya, achivoya mvula kayani, na kulongoza atu a chidzidziche kuphiya swala ya Ijumaa. Bada ya muda Uislamu wakala dini ya anji kahi za Adigo a kusini ya Mombasa. Msikiti wa Mwaroni ariodzenga, msikiti wa kpwandza wa Diani, ndiko mabadiliko higo garikoandzira kpwakpwe chidzidzini."
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "Do not confuse him with Hamisi Mwapodzo of Pungu. The spellings of the family names here follow Sperling, and Diani elders may write them differently.",
+      "sw": "Usimchanganye na Hamisi Mwapodzo wa Pungu. Tahajia ya majina ya ukoo hapa inafuata Sperling, na wazee wa Diani huenda wakayaandika kwa namna tofauti.",
+      "dg": "Usimtsanganye na Hamisi Mwapodzo wa Pungu. Namna madzina ga mbari ganavyoandikpwa hipha ni ya Sperling, na azehe a Diani anaweza kugaandika kpwa namna yanjina."
+    }
+  ],
+  "sources": [
+    "David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, School of Oriental and African Studies, University of London, 1988. See Ch. V, pp. 147–152 (Diani), Ch. I, p. 31 (kaya governance), Ch. IV, pp. 110–111 and 137–141 (Pungu and Tiwi), and pp. 174, 184–185 (overview). Full text: https://su-plus.strathmore.edu/server/api/core/bitstreams/d1de38b9-24f8-4de8-ae6d-c800cc8d657b/content",
+    "Kenya National Archives, as cited by Sperling: Vanga District Handing-over Reports of 24 August 1916 and 8 April 1920 (DC/KWL/2/1); Tour Diary of DC H. E. Lambert, entry for 10 July 1923 (Coast Province MP/47/1156).",
+    "Oral testimony recorded by Sperling at Diani and Mvumoni: Abdallah Mwatari (1967–78), Abdallah Makanzu (1967), Muhammad Mariaka (1967), Kassim Kinjoi (1987), Mwinyikai Hamisi Chisinyo (1987)."
+  ]
+}

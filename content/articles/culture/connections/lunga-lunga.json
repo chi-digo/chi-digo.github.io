@@ -1,0 +1,141 @@
+{
+  "id": "culture/connections/lunga-lunga",
+  "title": {
+    "en": "The Lunga Lunga-Horohoro Border Crossing",
+    "sw": "Kivuko cha Mpaka wa Lunga Lunga-Horohoro",
+    "dg": "Chivuko cha Mphaka wa Lunga Lunga-Horohoro"
+  },
+  "intro": {
+    "en": "The tarmac road from Mombasa runs south through Kwale County, past Ukunda and Diani Beach, past the sisal estates and cashew plantations, past the small trading centres where women sell coconuts and…",
+    "sw": "Barabara ya lami kutoka Mombasa inaendesha kusini kupitia Kaunti ya Kwale hadi inafika Lunga Lunga — mji wa mwisho nchini Kenya kabla ya Tanzania. Hapa, barabara inakutana na mpaka. Upande wa…",
+    "dg": "Barabara ya lami kula Mombasa inaphiya kusini ichitsupira Kaunti ya Kwale hadi ichifika Lunga Lunga — mudzi wa mwisho kpwa Kenya kabla ya Tanzania. Hipha, barabara inakutana na mphaka. Uphande wa…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Where the Road Divides",
+      "sw": "Mahali Ambapo Barabara Inagawanyika",
+      "dg": "Phatu Ambapho Barabara Inaganyika"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The tarmac road from Mombasa runs south through Kwale County, past Ukunda and Diani Beach, past the sisal estates and cashew plantations, past the small trading centres where women sell coconuts and cassava from wooden stalls, until it reaches Lunga Lunga — the last town in Kenya before Tanzania. Here, at the southeastern corner of the country, the road meets the border. On the Tanzanian side, the settlement of Horohoro mirrors its Kenyan counterpart: a cluster of buildings, a customs post, a collection of trucks and matatus waiting to cross. Between them lies one of the most significant points in Digo geography — the place where a single people's territory is officially interrupted, and officially resumed.",
+      "sw": "Barabara ya lami kutoka Mombasa inaendesha kusini kupitia Kaunti ya Kwale hadi inafika Lunga Lunga — mji wa mwisho nchini Kenya kabla ya Tanzania. Hapa, barabara inakutana na mpaka. Upande wa Tanzania, makazi ya Horohoro yanafanana na mwenzake wa Kikenya: makundi ya majengo, kituo cha forodha, na mkusanyiko wa malori yanayosubiri kuvuka. Kati yao iko mojawapo ya sehemu muhimu zaidi katika jiografia ya Wadigo — mahali ambapo eneo la watu mmoja linasimamishwa rasmi, na kuanza tena rasmi.",
+      "dg": "Barabara ya lami kula Mombasa inaphiya kusini ichitsupira Kaunti ya Kwale hadi ichifika Lunga Lunga — mudzi wa mwisho kpwa Kenya kabla ya Tanzania. Hipha, barabara inakutana na mphaka. Uphande wa Tanzania, makazi ga Horohoro ganafanana na mwenziwe wa Chikenya: makundi ga majengo, chituo cha forodha, na mkusanyiko wa malori ganagogodza kuvuka. Kahi yao kuna mwenga wa maeneo muhimu zaidi kpwa jiografia ya Adigo — phatu ambapho eneo ra atu amwenga rinaimiswa rasmi, na kuandza tsona rasmi."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The Lunga Lunga-Horohoro crossing is not a grand international gateway. It lacks the scale of Namanga to the west or Busia to the northwest. There is no airport, no gleaming immigration hall, no duty-free shopping. What it has is something more fundamental: it is the primary connection point between the Kenyan and Tanzanian Digo, the place where the divided halves of a community come together to trade, to worship, to marry, and to maintain the family bonds that predate the border by centuries.",
+      "sw": "Kivuko cha Lunga Lunga-Horohoro si lango kubwa la kimataifa. Hakina ukubwa wa Namanga. Kilicho nacho ni kitu cha msingi zaidi: ni sehemu ya msingi ya uhusiano kati ya Wadigo wa Kenya na Tanzania, mahali ambapo nusu zilizogawanywa za jamii zinakuja pamoja kufanya biashara, kuabudu, kuoana, na kudumisha vifungo vya familia.",
+      "dg": "Chivuko cha Lunga Lunga-Horohoro si lango kulu ra chimataifa. Tachina ukulu wa Namanga. Chiricho nacho ni chitu cha musingi zaidi: ni seemu ya musingi ya uhusiano kahi ya Adigo a Kenya na Tanzania, phatu ambapho nusu zirizoganywa za jamii zinakpwedza phamwenga kuhenda biashara, kuabudu, kuoana, na kudumisha vifungo vya ukoo."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Rhythm of the Crossing",
+      "sw": "Mdundo wa Kivuko",
+      "dg": "Mdundo wa Chivuko"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Life at Lunga Lunga follows rhythms that have little to do with international diplomacy and everything to do with the practical needs of people who live on both sides of an arbitrary line. The morning brings traders. Women carrying baskets of vegetables, men wheeling bicycles loaded with consumer goods, livestock herders guiding cattle across — the border crossing is, first and foremost, a marketplace. Goods flow in both directions: foodstuffs from the fertile Tanzanian hinterland move north; manufactured goods and consumer products from Mombasa flow south. The economics are simple and ancient — people buy where things are cheap and sell where they are dear, and the border creates price differentials that make cross-border trade not just profitable but essential to local livelihoods.",
+      "sw": "Maisha katika Lunga Lunga yanafuata midundo ya mahitaji ya vitendo ya watu wanaoishi pande zote mbili. Asubuhi inaleta wafanyabiashara. Wanawake wanaobeba vikapu vya mboga, wanaume wanaosukuma baiskeli zilizojaa bidhaa — kivuko cha mpaka ni, kwanza kabisa, soko. Siku za soko zinakuza msongamano huu. Soko linaendeshwa kwa Chidigo na Kiswahili, sarafu ni shilingi za Kenya na za Tanzania, na miamala inaunganisha uchumi mbili kwa urahisi wa watu ambao wamekuwa wakifanya hivi kwa vizazi.",
+      "dg": "Maisha kpwa Lunga Lunga ganalunga midundo ya mahitaji ga vitendo ga atu anaoishi phande zosi mbiri. Ligundzu rinareha achuuzi. Achetu anaotsukula vikapu vya mboga, alume anaosukuma baiskeli zirizoodzala bidhaa — chivuko cha mphaka ni, kpwandza kabisa, soko. Siku za soko zinaenjereza msongamano uno. Soko rinahendwa kpwa Chidigo na Chiswahili, sarafu ni shilingi za Kenya na za Tanzania, na miamala inaunganisha uchumi mbiri kpwa urahisi wa atu ambao akala achihenda hivi kpwa vizazi."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Market days amplify this traffic. On designated days, the border area becomes a regional hub, drawing buyers and sellers from villages on both sides. The market operates in Chidigo and Swahili, the currencies are Kenyan shillings and Tanzanian shillings, and the transactions bridge two economies with the ease of people who have been doing this for generations. For the traders, the border is not a barrier — it is a business opportunity.",
+      "sw": "Zaidi ya biashara, kivuko kinabeba mtiririko wa kudumu wa ziara za familia — babu wanaoenda kuona wajukuu, ndugu wanaohudhuria harusi, familia zinazokusanyika kwa mazishi. Maisha ya kidini yanatiririsha mpaka kwa urahisi sawa — jamii za misikiti pande zote mbili zinashiriki waumini, na matukio ya kidini yanavuta waabudu bila kujali uraia.",
+      "dg": "Zaidi ya biashara, chivuko chinatsukula mtiririko wa kudumu wa ziara za mbari — azehe anaophiya kuona adzukulu, andugu anaohudhuria arusi, mbari zinazokusanyika kpwa mazishi. Maisha ga chidini ganatsupa mphaka kpwa urahisi uo-uo — jamii za misikiti phande zosi mbiri zinashirikiana aumini, na matukio ga chidini ganamweha aabudu bila kujali uraia."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Family and Faith",
+      "sw": "Mpaka Kama Sehemu ya Kukutana",
+      "dg": "Mphaka Kukala Seemu ya Kukutana"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "But trade is not the only traffic at Lunga Lunga. The crossing carries a constant flow of family visits — grandparents going to see grandchildren, siblings attending each other's weddings, extended families gathering for funerals. Cross-border marriages remain common among the Digo, and these unions create family networks that require regular border crossings to maintain. A wedding on the Tanzanian side will draw guests from Kwale. A funeral in Msambweni will bring mourners from Mkinga. The border complicates these journeys with paperwork and waiting times, but it does not prevent them. Family obligations, in Digo culture, are not optional, and no customs post can override the duty to attend when kinship calls.",
+      "sw": "Jambo la kushangaza zaidi kuhusu Lunga Lunga ni linalofunua kuhusu asili ya mipaka yenyewe. Kwa Lunga Lunga, mpaka unafanya kazi sawa kama sehemu ya kukutana. Ni mahali ambapo nusu mbili za jamii ya Wadigo zinakuja pamoja. Wadigo si watenganishi. Ni raia waaminifu wa nchi zao. Lakini pia ni wanachama wa jamii inayotangulia nchi hizo na inayokataa kukubali mpaka kama neno la mwisho kuhusu wao ni nani na wanamilikiwa na nani.",
+      "dg": "Dzambo ra kushangaza zaidi kuhusu Lunga Lunga ni rinarofitsua kuhusu asili ya mphaka wenyewe. Kpwa Lunga Lunga, mphaka unahenda kazi sawa dza seemu ya kukutana. Ni phatu ambapho nusu mbiri za jamii ya Adigo zinakpwedza phamwenga. Adigo si atenganishi. Ni raia aaminifu a tsi zao. Ela piya ni anachama a jamii inayotangulia tsi hizo na inayokahala kukubali mphaka kukala neno ra mwisho kuhusu ao ni ani na ni a ani."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Religious life flows across the border with similar ease. Mosque communities on both sides share congregants, and religious events — Friday prayers, Eid celebrations, Maulidi observances — draw worshippers without regard for nationality. An imam known for his scholarship on one side of the border may attract students from the other. Religious networks have served, for decades, as informal channels of cross-border communication and mutual support, carrying news, maintaining relationships, and reinforcing the shared Islamic identity that binds Kenyan and Tanzanian Digo together.",
+      "sw": "Maisha ya kidini yanapita mpaka kwa urahisi kama huo. Jamii za misikiti pande zote mbili zinashiriki waumini, na matukio ya kidini — sala za Ijumaa, sherehe za Idi, matukio ya Maulidi — yanawaleta waabudu bila kujali uraia. Imamu anayejulikana kwa elimu yake upande mmoja wa mpaka anaweza kuvutia wanafunzi kutoka upande mwingine. Mitandao ya kidini imehudumia, kwa miongo kadhaa, kama njia zisizo rasmi za mawasiliano ya kuvuka mpaka na msaada wa pande zote, kubeba habari, kudumisha uhusiano, na kuimarisha utambulisho wa pamoja wa Kiislamu unaowaunganisha Adigo wa Kenya na Tanzania.",
+      "dg": "Maisha ga chidini ganatsupa mphaka kpwa urahisi dza uwo. Jamii za misikiti phande zosi mbiri zinashirikiya aabudu, na matukio ga chidini — swala za Ijumaa, sherehe za Idi, matukio ga Maulidi — ganareha aabudu bila kulola uraia. Imamu anayemanyika kpwa elimuye uphande mumwenga wa mphaka anaweza kumweha anafundzi kula uphande wanjina. Mitandao ya chidini ikahudumiya, kpwa miongo kadhaa, dza njira zisizo rasmi za mawasiliano ga kuvuka mphaka na msada wa phande zosi, kutsukula habari, kudumisha uhusiano, na kuimarisha utambuzi wa phamwenga wa Chiislamu unaounganisha Adigo a Kenya na Tanzania."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Informal Economy",
+      "sw": "Uchumi Usio Rasmi",
+      "dg": "Uchumi Usio Rasmi"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Alongside the official trade that passes through customs, an extensive informal economy operates in the border zone. This is not unique to Lunga Lunga — every border crossing in East Africa has its informal channels — but the Digo context gives it a particular character. When the people on both sides of the border are the same people, speaking the same language and bound by the same kinship obligations, the distinction between \"smuggling\" and \"sharing\" becomes blurred. A woman bringing sugar to her sister across the border is technically an informal trader. A man carrying building materials to help construct a relative's house is technically evading customs duty. The moral economy of the border zone operates by rules that are older and, to its participants, more legitimate than the regulations of either state.",
+      "sw": "Pamoja na biashara rasmi inayopitia forodha, uchumi mpana usio rasmi unafanya kazi katika eneo la mpaka. Hili si la kipekee kwa Lunga Lunga — kila kivuko cha mpaka Afrika Mashariki kina njia zake zisizo rasmi — lakini muktadha wa Kidigo unalipa tabia ya pekee. Wakati watu pande zote za mpaka ni watu wale wale, wanaozungumza lugha iyo hiyo na wanaofungwa na wajibu sawa wa ukoo, tofauti kati ya \"magendo\" na \"kushirikiana\" inakuwa hafifu. Mwanamke anayeleta sukari kwa dada yake ng'ambo ya mpaka kwa ufundi ni mfanyabiashara asiye rasmi. Mwanaume anayebeba vifaa vya ujenzi kusaidia kujenga nyumba ya ndugu yake kwa ufundi anakwepa ushuru wa forodha. Uchumi wa maadili wa eneo la mpaka unafanya kazi kwa kanuni ambazo ni za zamani zaidi na, kwa washiriki wake, halali zaidi kuliko kanuni za serikali yoyote.",
+      "dg": "Phamwenga na biashara rasmi inayotsupira forodha, uchumi mpana usio rasmi unahenda kazi kahi ya eneo ra mphaka. Riri si ra chipekee kpwa Lunga Lunga — chila chivuko cha mphaka Afrika ya Mashariki china njiraze zisizo rasmi — ela muktadha wa Adigo unaupha tabiya ya chipekee. Atu a phande zosi za mphaka anaphokala ni atu aho-aho, anagomba luga iyo-iyo na anafungwa ni wajibu uo-uo wa ukoo, tafwauti kahi ya \"magendo\" na \"kushirikiya\" inakala hafifu. Mchetu anayemrehera nduguye sukari ng'ambo ya mphaka kpwa chiufundi ni mchuuzi asiye rasmi. Mulume anayetsukula vifaa vya kudzenga kusaidiya kudzenga nyumba ya nduguye kpwa chiufundi anahepa ushuru wa forodha. Uchumi wa maadili wa eneo ra mphaka unahenda kazi kpwa kanuni ambazo ni za kare zaidi na, kpwa ashirikie, halali zaidi kuriko kanuni za serikali yeyesi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "This is not to romanticize smuggling, which at its larger scale involves genuine criminal enterprise and revenue loss for both governments. But at the community level, the informal economy of the Lunga Lunga corridor is inseparable from the social economy of a divided people doing what divided peoples everywhere do: maintaining connections across lines they did not draw, using whatever means are available.",
+      "sw": "Hii si kupamba magendo, ambayo kwa kiwango chake kikubwa yanajumuisha biashara ya uhalifu halisi na kupoteza mapato kwa serikali zote mbili. Lakini katika ngazi ya jamii, uchumi usio rasmi wa ukanda wa Lunga Lunga hauwezi kutenganishwa na uchumi wa kijamii wa watu waliogawanywa wanaofanya kile ambacho watu waliogawanywa kila mahali hufanya: kudumisha uhusiano kuvuka mistari ambayo hawakuichora, kwa njia yoyote inayopatikana.",
+      "dg": "Ihi si kupamba magendo, ambago kpwa chiwangoche chikulu ganajumuisha biashara ya uhalifu wa kpweli na kuangamika kpwa mapato kpwa serikali zosi mbiri. Ela kahi ya ngazi ya jamii, uchumi usio rasmi wa ukanda wa Lunga Lunga tauweza kutenganishwa na uchumi wa chidzamii wa atu arioganywa anahenda chira ambacho atu arioganywa chila phatu anahenda: kudumisha uhusiano kuvuka mistari ambayo taachora, kpwa njira yoyosi inayophahikana."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The One-Stop Border Post",
+      "sw": "Kituo cha Mpaka cha Hatua Moja",
+      "dg": "Chituo cha Mphaka cha Hatua Mwenga"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The governments of Kenya and Tanzania, recognizing the inefficiency and economic cost of traditional two-stop border crossings, have begun developing a one-stop border post at Lunga Lunga-Horohoro. The concept is straightforward: instead of stopping twice — once at the exit post of the departing country and once at the entry post of the arriving country — travellers and goods would be processed at a single facility staffed by officials from both nations.",
+      "sw": "Serikali za Kenya na Tanzania, zikitambua kutofanya kazi vizuri na gharama ya kiuchumi ya vivuko vya mpaka vya hatua mbili za jadi, zimeanza kuendeleza kituo cha mpaka cha hatua moja huko Lunga Lunga-Horohoro. Dhana ni rahisi: badala ya kusimama mara mbili — mara moja kwenye kituo cha kutoka cha nchi unayoondoka na mara moja kwenye kituo cha kuingia cha nchi unayofika — wasafiri na bidhaa wangeshughulikiwa katika kituo kimoja chenye maafisa kutoka mataifa yote mawili.",
+      "dg": "Serikali za Kenya na Tanzania, zichitambua kutohenda kazi vinono na gharama ya chiuchumi ya vivuko vya mphaka vya hatua mbiri za chimila, zikaandza kuendeleza chituo cha mphaka cha hatua mwenga kpwa Lunga Lunga-Horohoro. Dhana ni rahisi: badala ya kuima kano mbiri — kano mwenga kpwa chituo cha kuuka cha tsi unayouka na kano mwenga kpwa chituo cha kuinjira cha tsi unayoinjira — asafiri na mizigo andashuhulikirwa kahi ya chituo chimwenga chenye maafisa kula mataifa gosi mairi."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "For the Digo community, this development carries practical significance that extends beyond the reduction of crossing times. Every simplification of the border process is, in effect, a partial healing of the wound that the colonial partition inflicted. Easier crossing means more frequent family visits, more efficient trade, more fluid movement for religious and ceremonial purposes. It does not erase the border — the line remains, the documents are still required, the two nations retain their sovereignty — but it reduces the border's weight, its friction, its capacity to impede the life of a community that exists on both sides.",
+      "sw": "Kwa jamii ya Kidigo, maendeleo haya yana umuhimu wa kivitendo unaoenea zaidi ya kupunguza muda wa kuvuka. Kila urahisishaji wa mchakato wa mpaka ni, kwa kweli, uponyaji wa sehemu wa jeraha ambalo ugawaji wa kikoloni ulisababisha. Kuvuka kwa urahisi zaidi kunamaanisha ziara za familia za mara kwa mara zaidi, biashara yenye ufanisi zaidi, harakati za kutiririsha zaidi kwa madhumuni ya kidini na kisherehe. Haikufuti mpaka — mstari unabaki, nyaraka bado zinahitajika, mataifa yote mawili yanabaki na uhuru wao — lakini inapunguza uzito wa mpaka, msuguano wake, uwezo wake wa kuzuia maisha ya jamii iliyopo pande zote.",
+      "dg": "Kpwa jamii ya Adigo, maendeleo iga gana umuhimu wa kpweli unaophiya zaidi ya kuphungula wakati wa kuvuka. Chila urahisishaji wa mchakato wa mphaka ni, kpwa kpweli, uponyaji wa seemu wa chironda ambacho kuganywa kpwa chikoloni kpwachireha. Kuvuka kpwa urahisi zaidi kunamaanisha kutembelea mbari mara nyinji zaidi, biashara yenye ufanisi zaidi, na kuphiya na kuuya kpwa urahisi zaidi kpwa madhumuni ga chidini na chisherehe. Tagauusa mphaka — msitari unasala, nyaraka bado zinahitajika, mataifa gosi mairi ganasala na uhuru wao — ela ganaphungula uzito wa mphaka, msuguanowe, uwezowe wa kuzuwiya maisha ga jamii iriyoko phande zosi."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Border as Meeting Point",
+      "sw": "Mpaka kama Sehemu ya Kukutania",
+      "dg": "Mphaka dza Phatu pha Kukutanira"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Perhaps the most remarkable thing about Lunga Lunga is what it reveals about the nature of borders themselves. A border is, by definition, a line of separation — a place where one jurisdiction ends and another begins. But at Lunga Lunga, the border functions equally as a meeting point. It is where the two halves of the Digo community come together, where the connections that the colonial partition tried to sever are visibly, daily, stubbornly maintained. The traders at the market, the families crossing for weddings, the worshippers heading to a mosque on the other side — all of them transform the border from a line of division into a seam of connection.",
+      "sw": "Huenda jambo la kushangaza zaidi kuhusu Lunga Lunga ni kinachofichua kuhusu asili ya mipaka yenyewe. Mpaka ni, kwa ufafanuzi, mstari wa kutenganisha — mahali ambapo mamlaka moja inaisha na nyingine inaanza. Lakini huko Lunga Lunga, mpaka unafanya kazi sawa kama sehemu ya kukutania. Ni ambapo nusu mbili za jamii ya Kidigo zinakutana, ambapo uhusiano ambao ugawaji wa kikoloni ulijaribu kukata unaonekana, kila siku, kwa ukaidi unadumishwa. Wafanyabiashara sokoni, familia zinazovuka kwa harusi, waabudu wanaokwenda msikitini upande mwingine — wote wanabadilisha mpaka kutoka mstari wa mgawanyiko kuwa mshono wa uhusiano.",
+      "dg": "Labuda dzambo ra kushangaza zaidi kuhusu Lunga Lunga ni rinarofitsua kuhusu asili ya mphaka wenyewe. Mphaka ni, kpwa ufafanuzi, msitari wa kutenganisha — phatu ambapho mamlaka mwenga inamala na yanjina inaandza. Ela kpwa Lunga Lunga, mphaka unahenda kazi sawa dza phatu pha kukutanira. Ni ambapho nusu mbiri za jamii ya Adigo zinakutana, ambapho uhusiano ambao kuganywa kpwa chikoloni kpwajeza kuukata unaonekana, chila siku, uchidumishwa kpwa ukaidi. Achuuzi sokoni, mbari zinazovuka kpwa arusi, aabudu anaophiya msikitini uphande wanjina — osi anabadilisha mphaka kula msitari wa mgawanyo hadi mshono wa uhusiano."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "This is not a political statement. The Digo are not separatists or irredentists. They are loyal citizens of their respective countries. But they are also, and at the same time, members of a community that predates those countries and that refuses to accept the border as the final word on who they are and who they belong to. At Lunga Lunga, every crossing is a small act of cultural persistence — a quiet insistence that kinship, language, and shared tradition matter more than the lines on a map drawn by strangers in a distant city, a century and a half ago.",
+      "sw": "Hii si taarifa ya kisiasa. Adigo si watengaji wala wanaodai maeneo. Wao ni raia waaminifu wa nchi zao husika. Lakini pia ni, wakati huo huo, wanachama wa jamii inayotangulia nchi hizo na inayokataa kukubali mpaka kuwa neno la mwisho kuhusu wao ni nani na wanamilikiwa na nani. Huko Lunga Lunga, kila kuvuka ni kitendo kidogo cha kudumu kwa utamaduni — kusisitiza kwa utulivu kwamba ukoo, lugha, na mila ya pamoja vina umuhimu zaidi kuliko mistari kwenye ramani iliyochorwa na wageni katika mji wa mbali, karne moja na nusu iliyopita.",
+      "dg": "Ihi si taarifa ya chisiasa. Adigo si atengaji wala anaodai maeneo. Ni raia aaminifu a tsi zao. Ela piya ni, wakati uwo-uwo, anachama a jamii inayotangulia tsi zizo na inayokahala kukubali mphaka kukala neno ra mwisho kuhusu ao ni ani na ni a ani. Kpwa Lunga Lunga, chila kuvuka ni chitendo chidide cha kudumu kpwa chimila — kusisitiza kpwa utulivu kukala ukoo, luga, na mila ya phamwenga vina mana zaidi kuriko mistari kpwa ramani iriyochorwa ni ajeni kahi ya mudzi wa kure, karne mwenga na nusu iriyopita."
+    }
+  ]
+}

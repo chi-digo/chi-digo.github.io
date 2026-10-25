@@ -1,0 +1,152 @@
+{
+  "id": "figures/kubo-mwamzungu",
+  "published": true,
+  "title": {
+    "en": "Kubo Mbogo Mwamzungu",
+    "sw": "Kubo Mbogo Mwamzungu",
+    "dg": "Kubo Mbogo Mwamzungu"
+  },
+  "subtitle": {
+    "en": "Founder of the Kubo Rulership",
+    "sw": "Mwanzilishi wa Utawala wa Kubo",
+    "dg": "Ariyeandzisha Utawala wa Kubo"
+  },
+  "meta": [
+    {
+      "en": "Era: Late 18th to early 19th century (already in power c. 1803–04)",
+      "sw": "Kipindi: Mwishoni mwa karne ya 18 hadi mwanzoni mwa karne ya 19 (alikuwa tayari madarakani karibu 1803–04)",
+      "dg": "Wakati: Mwisho wa karne ya 18 hadi mwandzo wa karne ya 19 (kala tayari anatawala phephi na mwaka 1803–04)"
+    },
+    {
+      "en": "Role: Rain-bringer and ruler of the southern Digo; the first to hold the name Kubo, which became a hereditary title",
+      "sw": "Jukumu: Mletaji mvua na mtawala wa Wadigo wa kusini; wa kwanza kuitwa Kubo, jina lililogeuka kuwa cheo cha kurithiwa",
+      "dg": "Kazi: Mgbwanga wa mvula na mtawala wa Adigo a kusini; wa kpwandza kuihwa Kubo, dzina ririrokala cheo cha kurisiwa"
+    },
+    {
+      "en": "Region: Kaya Dzombo and Chirwa, near Chikoneni, Kwale, present-day Kenya",
+      "sw": "Eneo: Kaya Dzombo na Chirwa, karibu na Chikoneni, Kwale, katika Kenya ya leo",
+      "dg": "Phatu: Kaya Dzombo na Chirwa, phephi na Chikoneni, Kwale, Kenya ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "Most Digo country was governed by elders, not by kings. Each kaya, the fortified hilltop settlement at the heart of a Digo community, had its *ngambi*, a council of elders. At its head sat the *mwanatsi* (from *mwana wa ntsi*, \"son of the land\"), the senior elder who led the kaya's ceremonies and was almost always chosen by matrilineal descent from the founding clan. In the far south, around Kaya Dzombo and Chikoneni, something different grew up. There one man and his heirs held an office that British officers later called a \"chieftainship\". The man was Mbogo Mwamzungu, also known as Chikonga, and the office was the Kuboship.",
+      "sw": "Sehemu kubwa ya nchi ya Wadigo iliongozwa na wazee, si na wafalme. Kila kaya, yaani makao ya zamani yaliyozungushiwa ulinzi juu ya kilima na yaliyokuwa kiini cha jamii ya Wadigo, ilikuwa na *ngambi* yake, baraza la wazee. Kiongozi wa baraza hilo alikuwa *mwanatsi* (kutoka *mwana wa ntsi*, \"mwana wa nchi\"), mzee mkuu aliyeongoza sherehe za kaya na ambaye karibu kila mara alichaguliwa kwa nasaba ya upande wa mama kutoka ukoo ulioanzisha kaya. Lakini huko kusini kabisa, karibu na Kaya Dzombo na Chikoneni, jambo tofauti lilizuka. Huko mtu mmoja na warithi wake walishika cheo ambacho maafisa wa Kiingereza baadaye walikiita \"uchifu\". Mtu huyo alikuwa Mbogo Mwamzungu, aliyejulikana pia kama Chikonga, na cheo hicho kilikuwa Ukubo.",
+      "dg": "Sehemu kulu ya tsi ya Adigo kala inalongozwa ni azehe, si ni afalume. Chila kaya, makalo ga kare ga dzulu ya mwango garigorindwa, ambago kala ni moyo wa jamii ya Adigo, kala ina *ngambi*, baraza ra azehe. Mkpwulu wa baraza hiro kala ni *mwanatsi* (kula *mwana wa ntsi*, \"mwana wa tsi\"), mzehe mkpwulu ariyekala analongoza mila za kaya, na ambaye mara nyinji sana kala anatsambulwa kula fuko ririroandzisha kaya, kpwa uphande wa mayo. Ela kure kusini, phephi na Kaya Dzombo na Chikoneni, kpwaandza dzambo ra tafwauti. Hiko mutu mmwenga na arisie kala ana cheo ambacho maafisa a Aingereza badaye achiiha \"uchifu\". Mutu hiye kala ni Mbogo Mwamzungu, ambaye piya kala anaihwa Chikonga, na cheo hicho kala ni Ukubo."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Almost all we know of him comes from the historian David Sperling, who recorded Chikoneni elders in the 1970s and checked their accounts against older writings and colonial files.",
+      "sw": "Karibu yote tunayoyajua kumhusu yanatoka kwa mwanahistoria David Sperling, aliyerekodi masimulizi ya wazee wa Chikoneni katika miaka ya 1970 na kuyalinganisha na maandiko ya zamani na nyaraka za kikoloni.",
+      "dg": "Phephi mambo gosi ganagomanyikana kumuhusu ganakula kpwa mwanahistoriya David Sperling, ariyerekodi maneno ga azehe a Chikoneni miaka ya 1970, achigalinganisha na maandiko ga kare na mafaili ga chikoloni."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Rain-Bringer from Kwale",
+      "sw": "Mletaji Mvua kutoka Kwale",
+      "dg": "Mgbwanga wa Mvula Kula Kwale"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The first Digo to settle at Kaya Dzombo may have come from Chinondo as early as the 17th century. Settlers from Kwale followed them and came to dominate the kaya. According to Sperling's informants, Mbogo Mwamzungu came from Kwale during a famine at the end of the 18th century. He is said to have \"brought rain to the country\", and after that the people accepted him as their leader.",
+      "sw": "Wadigo wa kwanza kuishi Kaya Dzombo huenda walitoka Chinondo mapema kama karne ya 17. Walowezi kutoka Kwale waliwafuata na wakaja kuitawala kaya hiyo. Kwa mujibu wa wasimulizi wa Sperling, Mbogo Mwamzungu alitoka Kwale wakati wa njaa mwishoni mwa karne ya 18. Inasemekana \"aliileta mvua nchini\", na baada ya hapo watu wakamkubali kuwa kiongozi wao.",
+      "dg": "Inaweza kukala Adigo a kpwandza kusagala Kaya Dzombo akpwedza kula Chinondo kare sana, karne ya 17. Badaye kpwakpwedza atu kula Kwale, nao achiitawala kaya iyo. Kulengana na atu ariomuambira Sperling, Mbogo Mwamzungu wakpwedza kula Kwale wakati wa ndzala, mwisho wa karne ya 18. Nkugombwa kukala \"wareha mvula kpwa tsi\", na bada ya phapho atu achimkubali kukala chilongozi wao."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Sperling describes him as \"endowed with a forceful personality\". He soon became \"the dominant leader of the southern Digo\" and took the name *Kubo*. One Chikoneni elder said the name passed to his successors and became a title of authority. Another tradition says the Vumba of the coast gave him the name. During his rule Dzombo was abandoned and Mwamzungu moved to Chirwa, near Chikoneni. He extended his control by placing his sons at Mafisini, Chigombero and other outlying villages, and other Digo of the area came under his authority.",
+      "sw": "Sperling anamweleza kuwa mtu \"aliyejaliwa haiba yenye nguvu\". Muda si mrefu akawa \"kiongozi mkuu wa Wadigo wa kusini\" na akachukua jina *Kubo*. Mzee mmoja wa Chikoneni alisema jina hilo liliwapitia warithi wake likawa cheo cha mamlaka. Mapokeo mengine yanasema ni Wavumba wa pwani waliompa jina hilo. Wakati wa utawala wake Dzombo iliachwa na Mwamzungu akahamia Chirwa, karibu na Chikoneni. Alipanua mamlaka yake kwa kuwaweka wanawe Mafisini, Chigombero na vijiji vingine vya pembeni, na Wadigo wengine wa eneo hilo wakawa chini ya mamlaka yake.",
+      "dg": "Sperling anagomba kukala kala ni mutu \"ariyejaliwa tabiya ya nguvu\". Bada ya chipindi chidide wakala \"chilongozi mkpwulu wa Adigo a kusini\" na wahala dzina *Kubo*. Mzehe mmwenga wa Chikoneni wagomba kukala dzina hiro ratsapa kpwa arisie na richikala cheo cha mamlaka. Hadisi yanjina inagomba kukala Avumba a pwani ndio ariompha dzina hiro. Wakati wa utawalawe Dzombo yarichwa, na Mwamzungu watsama achiphiya Chirwa, phephi na Chikoneni. Wenjereza utawalawe kpwa kuika anae Mafisini, Chigombero na vidzidzi vyanjina vya kure, na Adigo anjina a hiko achiinjira photsi ya mamlakage."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "His date rests on a single cross-reference: citing Hollis's \"History of Vumba\", Sperling places him already in power at the time of a Vumba succession dispute in about 1803–04.",
+      "sw": "Tarehe yake inategemea marejeo mamoja tu: akinukuu \"History of Vumba\" ya Hollis, Sperling anasema alikuwa tayari madarakani wakati wa mzozo wa urithi wa Vumba karibu mwaka 1803–04.",
+      "dg": "Wakati wa utawalawe unamanyikana kula kpwa ushahidi mmwenga bahi: Sperling, achinukulu \"History of Vumba\" ya Hollis, anaonyesa kukala kala tayari anatawala wakati wa ugomvi wa kurisi cheo kahi ya Avumba, phephi na mwaka 1803–04."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Blood-Brother of the Diwan",
+      "sw": "Ndugu wa Damu wa Diwani",
+      "dg": "Ndugu wa Mlatso wa Diwani"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Chikoneni, forty miles south of Mombasa and fifteen miles inland, was long isolated from Muslim influence, with one exception: the Vumba Diwans, the Muslim rulers of Wasini and later Vanga. Mwamzungu is said to have valued the magical powers of Diwan Pinda, who was elected Diwan of Vanga in 1826. The Diwan was accepted as the final arbiter in Digo disputes, and he seems to have supplied the Digo with protective charms. The Digo and the Vumba are said to have buried a protective charm (*fingo*) together at Kaya Dzombo.",
+      "sw": "Chikoneni, maili arobaini kusini mwa Mombasa na maili kumi na tano kutoka pwani kuelekea bara, kwa muda mrefu haikufikiwa na ushawishi wa Kiislamu, isipokuwa kwa jambo moja: Madiwani wa Vumba, watawala Waislamu wa Wasini na baadaye Vanga. Inasemekana Mwamzungu aliithamini nguvu ya uganga ya Diwani Pinda, aliyechaguliwa kuwa Diwani wa Vanga mwaka 1826. Diwani alikubaliwa kuwa msuluhishi wa mwisho katika mizozo ya Wadigo, na inaonekana aliwapa Wadigo hirizi za kinga. Inasemekana Wadigo na Wavumba walizika pamoja hirizi ya kinga (*fingo*) huko Kaya Dzombo.",
+      "dg": "Chikoneni, maili arubaini kusini ya Mombasa na maili kumi na tsano kula pwani kuphiya bara, kpwa muda mure kala taifikirwa ni Uislamu, ela kpwa njira mwenga: Madiwani a Vumba, atawala a Chiislamu a Wasini na badaye a Vanga. Nkugombwa kukala Mwamzungu kala anaziishimu sana nguvu za uganga za Diwani Pinda, ariyetsambulwa kukala Diwani wa Vanga mwaka 1826. Diwani wakubalika kukala mkpwanyi wa mwisho wa ugomvi wa Adigo, na inaonekana kala anaapha Adigo hirizi za kudzirinda. Nkugombwa kukala Adigo na Avumba azika phamwenga hirizi ya kurinda (*fingo*) hiko Kaya Dzombo."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The best-remembered episode is a blood-brotherhood (*chale*). Omari Muhammad Masemo, who had worked as clerk to a later Kubo, told Sperling in 1975 that Mwamzungu proposed mixing their blood with meat and eating it. Pinda, a Muslim, protested at eating meat not slaughtered by Muslim rite. \"But Kubo got a chicken and killed it by biting it with his teeth\", and once it was cooked \"they all ate it, including the Diwan.\" In Masemo's words: \"From the days of Kubo Mwamzungu and Diwan Pinda we became brothers.\"",
+      "sw": "Tukio linalokumbukwa zaidi ni udugu wa damu (*chale*). Omari Muhammad Masemo, aliyewahi kuwa karani wa Kubo wa baadaye, alimweleza Sperling mwaka 1975 kwamba Mwamzungu alipendekeza wachanganye damu yao na nyama kisha waile. Pinda, akiwa Mwislamu, alikataa kula nyama isiyochinjwa kwa taratibu za Kiislamu. \"Lakini Kubo alichukua kuku akamuua kwa kumng'ata kwa meno yake\", na ilipoiva \"wote waliila, hata Diwani\". Kwa maneno ya Masemo: \"Tangu siku za Kubo Mwamzungu na Diwani Pinda tukawa ndugu\".",
+      "dg": "Dzambo rinarotambukirwa sana ni udugu wa mlatso (*chale*). Omari Muhammad Masemo, ambaye kala ni karani wa Kubo wa badaye, wamuambira Sperling mwaka 1975 kukala Mwamzungu wagomba atsanganye mlatso wao na nyama, chisha arye nyama iyo. Pinda, kpwa kukala kala ni Mwislamu, warema kurya nyama isiyotsindzbwa kpwa njira ya Chiislamu. \"Ela Kubo wahala kuku achimuolaga kpwa kumng'ata na menoge\", na ariphoivwa \"osi achimurya, hata Diwani\". Kpwa maneno ga Masemo: \"Kula siku za Kubo Mwamzungu na Diwani Pinda hwakala ndugu\"."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The bond was between clans: the Hindzano clan of Chikoneni and the Wanachamvi, the Diwan's clan among the Vumba. Sperling notes that the special relationship between them survived into his own day. Hollis had implied it went back to a 17th-century war, but the Chikoneni testimony places its origin with Mwamzungu and Pinda.",
+      "sw": "Udugu huo ulikuwa kati ya koo mbili: ukoo wa Hindzano wa Chikoneni na Wanachamvi, ukoo wa Diwani miongoni mwa Wavumba. Sperling anaeleza kwamba uhusiano huo maalumu kati yao ulidumu hadi wakati wake. Hollis alikuwa amedokeza kuwa ulianzia vita vya karne ya 17, lakini ushuhuda wa Chikoneni unaonyesha chanzo chake ni Mwamzungu na Pinda.",
+      "dg": "Udugu uhu kala ni wa kahi ya mafuko mairi: fuko ra Hindzano ra Chikoneni, na Wanachamvi, fuko ra Diwani kahi ya Avumba. Sperling anaonyesa kukala uhusiano uhu maalumu kahi yao wenderera hadi sikuze. Hollis kala akaonyesa kukala uhusiano uhu wandza na viha vya karne ya 17, ela ushahidi wa Chikoneni unaonyesa kukala wandza na Mwamzungu na Pinda."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "These stories need care. If Mwamzungu was in power by 1803–04 and made his pact with a Diwan elected in 1826, he ruled for at least two decades. The record does not say whether that is so or whether the story has gathered around the founder's name. A further loose end is the Mazrui chronicle of Mombasa, which names a Digo leader, \"Kubo Mwachikonga\" of the Dzombo Digo, who was persuaded by a Vumba Diwan to pay blood money to the Mazrui for the murder of the Liwali (governor) of Mtangata, sometime between about 1814 and 1824. *Mwachikonga* would read in Digo as \"son of Chikonga\". Sperling does not say whether this was Mwamzungu himself or one of his sons.",
+      "sw": "Hadithi hizi zinahitaji kuchukuliwa kwa tahadhari. Ikiwa Mwamzungu alikuwa madarakani kufikia 1803–04 na akafanya agano na Diwani aliyechaguliwa mwaka 1826, basi alitawala kwa angalau miongo miwili. Kumbukumbu hazisemi kama hivyo ndivyo ilivyokuwa, au kama hadithi zimekusanyika tu karibu na jina la mwanzilishi. Jambo jingine lisilo wazi ni historia ya Wamazrui wa Mombasa, inayomtaja kiongozi wa Kidigo, \"Kubo Mwachikonga\" wa Wadigo wa Dzombo, aliyeshawishiwa na Diwani wa Vumba kuwalipa Wamazrui fidia ya damu kwa mauaji ya Liwali (gavana) wa Mtangata, wakati fulani kati ya karibu 1814 na 1824. *Mwachikonga* kwa Kidigo humaanisha \"mwana wa Chikonga\". Sperling hasemi kama huyo alikuwa Mwamzungu mwenyewe au mmoja wa wanawe.",
+      "dg": "Hadisi hizi ni lazima zilolwe kpwa makini. Ichikala Mwamzungu kala anatawala kufikira 1803–04, na achihenda chilagane na Diwani ariyetsambulwa mwaka 1826, phahi watawala kpwa miaka ishirini au zaidi. Maandiko tagagomba ichikala ndivyo irivyokala, au ichikala hadisi zikadzikusanya kpwenye dzina ra ariyeandzisha cheo. Dzambo ranjina risiro wazi ni historiya ya Amazrui a Mombasa, ambamo kuna chilongozi wa Chidigo aihwaye \"Kubo Mwachikonga\" wa Adigo a Dzombo, ariyebembelezwa ni Diwani wa Vumba aariphe Amazrui *kore* (fidia ya mlatso) kpwa kuolagbwa kpwa Liwali (gavana) wa Mtangata, wakati fulani kahi ya 1814 na 1824 hivi. Kpwa Chidigo, *Mwachikonga* manage ni \"mwana wa Chikonga\". Sperling kagomba ichikala iye kala ni Mwamzungu mwenye au mmwenga wa anae."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Neither Muslim nor Forgotten",
+      "sw": "Hakuwa Mwislamu, Wala Hakusahaulika",
+      "dg": "Kayakala Mwislamu, Wala Kayayalwa"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Despite his ties with the Diwan, Mwamzungu did not become a Muslim. Nor did his son Jita Mwakubo, who took power after his death. Jita's son, Mangaru Mwajita, ruled as Kubo from about 1865 to 1894. Mangaru's nephew, Shehe Mwatsolozi, was installed in 1895 and was, a District Officer wrote, \"the first Kubo to adopt the Islam religion\". When Kubo Shehe died in 1916, six people claimed the title. The British appointed one of them as headman instead, and the Kuboship fell out of use.",
+      "sw": "Licha ya uhusiano wake na Diwani, Mwamzungu hakusilimu. Wala mwanawe Jita Mwakubo, aliyeshika utawala baada ya kifo chake. Mwana wa Jita, Mangaru Mwajita, alitawala kama Kubo kuanzia karibu 1865 hadi 1894. Mpwa wa Mangaru, Shehe Mwatsolozi, alisimikwa mwaka 1895 na, kama alivyoandika Afisa wa Wilaya, alikuwa \"Kubo wa kwanza kuikubali dini ya Kiislamu\". Kubo Shehe alipofariki mwaka 1916, watu sita walidai cheo hicho. Badala yake Waingereza walimteua mmoja wao kuwa Mkuu wa Lokesheni, na Ukubo ukafifia.",
+      "dg": "Hata dza kala ana uhusiano na Diwani, Mwamzungu kayasilimu. Wala mwanawe Jita Mwakubo, ariyehala utawala bada ya kufwa kpwakpwe. Mwana wa Jita, Mangaru Mwajita, watawala dza Kubo kula phephi na 1865 hadi 1894. Mwana wa nduguye Mangaru, Shehe Mwatsolozi, waikpwa kpwenye cheo mwaka 1895, na kpwa maneno ga Afisa wa Tarafa, kala ni \"Kubo wa kpwandza kuhala dini ya Chiislamu\". Kubo Shehe ariphofwa mwaka 1916, atu sita adai cheo hicho. Badala ya Kubo, Aingereza amtsambula mmwenga wao kukala Dzumbe, na Ukubo uchimala."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "British officers took \"singular historical interest\" in the Kuboship, Sperling writes, as \"a more centralized form of authority than was found elsewhere on the Kenya coast\", and filed many papers on it.",
+      "sw": "Maafisa wa Kiingereza walikuwa na \"hamu ya kipekee ya kihistoria\" kuhusu Ukubo, anaandika Sperling, kwa kuwa ulikuwa \"aina ya mamlaka iliyokuwa ya kati zaidi kuliko yaliyopatikana kwingineko katika pwani ya Kenya\", na waliweka nyaraka nyingi kuuhusu.",
+      "dg": "Maafisa a Aingereza kala ana \"hamu ya pekee ya chihistoriya\" kuhusu Ukubo, anaandika Sperling, kpwa kukala kala ni \"aina ya mamlaka garigokusanywa phatu phamwenga zaidi kuriko yoyosi iriyophahikana phatu phanjina pwani ya Kenya\", na aandika mafaili manji kuhusu Ukubo."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi Wake",
+      "dg": "Urisiwe"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Mwamzungu's story is told by his community rather than by any document of his own time, so it is thin on detail. Still, it shows that Digo political life was not only government by elders. A rain-bringer from Kwale could become ruler over many villages, bind himself in brotherhood to a Muslim town, and found a title that lasted more than a century. The bond between the Hindzano of Chikoneni and the Vumba of Vanga may be his longest-lasting work.",
+      "sw": "Hadithi ya Mwamzungu inasimuliwa na jamii yake, si na hati yoyote ya wakati wake, kwa hiyo haina maelezo mengi. Hata hivyo, inaonyesha kwamba maisha ya kisiasa ya Wadigo hayakuwa utawala wa wazee peke yake. Mletaji mvua kutoka Kwale aliweza kuwa mtawala wa vijiji vingi, kujifunga kwa udugu na mji wa Kiislamu, na kuanzisha cheo kilichodumu zaidi ya karne moja. Udugu kati ya Wahindzano wa Chikoneni na Wavumba wa Vanga huenda ndio kazi yake iliyodumu zaidi.",
+      "dg": "Hadisi ya Mwamzungu inasemurirwa ni jamiiye, si ni hati yoyosi ya wakatiwe, phahi taina mambo manji. Ela inaonyesa kukala maisha ga chisiasa ga Adigo kala si utawala wa azehe bahi. Mgbwanga wa mvula kula Kwale waweza kukala mtawala wa vidzidzi vinji, kudzifunga kpwa udugu na mudzi wa Chiislamu, na kuandzisha cheo chirichokaa zaidi ya karne mwenga. Udugu kahi ya Ahindzano a Chikoneni na Avumba a Vanga unaweza kukala ndio kaziye iriyokaa kuriko zosi."
+    }
+  ],
+  "sources": [
+    "David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, School of Oriental and African Studies, University of London, 1988. Ch. V, pp. 158–160 (Dzombo and Kikoneni, the Kubo, Diwan Pinda, successors); Ch. I, p. 31 (kaya and ngambi); Ch. II, p. 47 and Ch. I, p. 39 (Kubo Mwakikonga); Ch. IV, p. 104 (meaning of *mwanatsi*). Full text: https://su-plus.strathmore.edu/server/api/core/bitstreams/d1de38b9-24f8-4de8-ae6d-c800cc8d657b/content",
+    "A. C. Hollis, \"The History of Vumba\", as cited by Sperling, pp. 279, 289 (c. 1803–04 date and Hindzano deference).",
+    "Shaykh al-Amin bin 'Ali al-Mazrui, *History of the Mazrui*, pp. 41–43, as cited by Sperling (Kubo Mwakikonga and the blood money).",
+    "Kenya National Archives, as cited by Sperling: \"The Chieftainship Kubo\" and \"Death of the Kubo\", File Memos by G. H. Osborne, 1916 (DC/KWL/3/5); letter of the District Officer, Shimoni, 30 June 1898 (MP/97/183); Coast Province MP/24/237 (1916–17 succession).",
+    "Oral testimony recorded by Sperling: Mkulu bin Abdallah, Mwaluvanga Eshu (6 and 28 September 1976); Omari Muhammad Masemo, Kikoneni (31 January 1975); Hamisi Mwatuwano, Waa (14 December 1967)."
+  ]
+}

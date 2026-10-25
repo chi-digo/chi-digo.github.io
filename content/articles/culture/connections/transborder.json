@@ -1,0 +1,148 @@
+{
+  "id": "culture/connections/transborder",
+  "title": {
+    "en": "The Digo as a Transborder People",
+    "sw": "Wadigo Kama Watu wa Mpakani",
+    "dg": "Adigo dza Atu a Mphakani"
+  },
+  "intro": {
+    "en": "In November 1886, representatives of the British and German empires sat in a room in Berlin and drew a line across a map of East Africa. The line began at the mouth of the Umba River on the Indian…",
+    "sw": "Mnamo Novemba 1886, wawakilishi wa milki za Uingereza na Ujerumani waliketi Berlin na kuchora mstari kwenye ramani ya Afrika ya Mashariki, ukigawa maeneo ambayo yangekuwa Kenya na Tanzania. Wajadili…",
+    "dg": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani asagala Berlin na achichora msitari kpwa ramani ya Afrika ya Mashariki, uchiganya maeneo ambago badaye gakala Kenya na Tanzania.…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Border They Did Not Draw",
+      "sw": "Mpaka Ambao Hawakuuchora",
+      "dg": "Mphaka Ambao Taauchora"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In November 1886, representatives of the British and German empires sat in a room in Berlin and drew a line across a map of East Africa. The line began at the mouth of the Umba River on the Indian Ocean coast and extended inland toward Lake Victoria, dividing the territories that would become British East Africa and German East Africa — later Kenya and Tanzania. The European negotiators had never visited the coast they were dividing. They knew nothing of the Digo people who had lived along that stretch of shoreline for centuries, nothing of the kinship networks that connected families from Shimoni in the north to Tanga in the south, nothing of the shared sacred forests, shared language, and shared ceremonial life that made the Digo a single people. The line on the map became a border. The border became a fact. And the Digo became, overnight, a transborder people — citizens of two countries who had never chosen to be divided.",
+      "sw": "Mnamo Novemba 1886, wawakilishi wa milki za Uingereza na Ujerumani waliketi Berlin na kuchora mstari kwenye ramani ya Afrika ya Mashariki, ukigawa maeneo ambayo yangekuwa Kenya na Tanzania. Wajadili wa Kizungu hawakuwahi kutembelea pwani waliyoigawa. Hawakujua chochote kuhusu Wadigo waliokuwa wameishi kando ya pwani hiyo kwa karne nyingi, kuhusu mitandao ya ukoo iliyounganisha familia kutoka Shimoni hadi Tanga, kuhusu misitu takatifu iliyoshirikiwa, lugha iliyoshirikiwa, na maisha ya sherehe yaliyoshirikiwa. Mstari kwenye ramani ukawa mpaka. Na Wadigo wakawa, usiku mmoja, watu wa mpakani — raia wa nchi mbili ambao hawakuchagua kugawanywa.",
+      "dg": "Mwezi wa kumi na mwenga wa 1886, awakilishi a milki za Uingereza na Ujerumani asagala kpwenye chumba Berlin na achichora msitari kpwa ramani ya Afrika ya Mashariki. Msitari uwo waandzira kpwenye mromo wa muho wa Umba, pwani ya Bahari ya Hindi, na waphiya bara kuelekea Ziya ra Victoria, uchiganya maeneo ambago badaye gakala Afrika ya Mashariki ya Chingereza na Afrika ya Mashariki ya Chijerumani — badaye Kenya na Tanzania. Ajadili a Chizungu kare taadzangbwetembelea pwani ariyoiganya. Taamanya chochosi kuhusu Adigo ariokala aishi kanda-kanda ya pwani iyo kpwa karne nyinji, chochosi kuhusu mitandao ya ukoo iriyounganisha mbari kula Shimoni kazikazini hadi Tanga kusini, chochosi kuhusu matsaka matakatifu garigoshirikiwa, luga iriyoshirikiwa, na maisha ga sherehe garigoshirikiwa ambago gahenda Adigo akale atu amwenga. Msitari kpwa ramani ukakala mphaka. Mphaka ukakala ukpweli. Na Adigo akakala, usiku mmwenga, atu a mphakani — raia a tsi mbiri ambao taatsambula kuganywa."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "This is not ancient history. The consequences of that partition are lived daily by Digo families on both sides of the Kenya-Tanzania border. A grandmother in Msambweni, Kwale County, Kenya, may have grandchildren in Mkinga District, Tanga Region, Tanzania. They share a language, a faith, a cuisine, and a kinship system — but they carry different identity documents, vote in different elections, send their children to schools with different curricula, and navigate different bureaucracies when they need medical care or legal recourse. The border is not a wall. People cross it regularly. But it is a persistent friction in the life of a community that considers itself one.",
+      "sw": "Ukubwa wa Mgawanyiko",
+      "dg": "Ino si historia ya kare sana. Matokeo ga mgawanyiko uwo ganaonekana chila siku kpwenye maisha ga mbari za Adigo phande zosi mbiri za mphaka wa Kenya na Tanzania. Wawa wa Msambweni, Kaunti ya Kwale, Kenya, anaweza kukala na adzukulu kpwa Wilaya ya Mkinga, Mkoa wa Tanga, Tanzania. Anashiriki luga, imani, chakurya, na mfumo wa ukoo — ela anatsukula vitambuzi vya tafwauti, anatsambula kpwenye chaguzi za tafwauti, anahuma ana ao kpwenye shule zenye mitaala ya tafwauti, na anatsupira urasimu wa tafwauti anaphohitaji uganga au msada wa chisheria. Mphaka si ukuta. Atu anauvuka mara kpwa mara. Ela ni msuguano wa siku zosi kpwenye maisha ga jamii inayodziona kukala ni mwenga."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Scale of Division",
+      "sw": "Takriban Wadigo 217,000 wanaishi Kenya, hasa Kwale. Zaidi ya 100,000 wanaishi Tanzania, hasa Mkinga na Tanga. Kwa jumla, zaidi ya watu 300,000 — lakini wanahesabiwa katika sensa mbili tofauti na kutawaliwa na mifumo miwili tofauti ya kisiasa. Wadigo wa Kenya ni sehemu ya muungano wa Mijikenda. Wadigo wa Tanzania wanaishi katika mazingira ambapo sera za ujamaa za Nyerere zilipunguza msisitizo wa utambulisho wa kikabila.",
+      "dg": "Ukulu wa Mgawanyiko"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The numbers tell part of the story. Approximately 217,000 Digo live in Kenya, primarily in Kwale County, where they are the dominant ethnic group. Over 100,000 Digo live in Tanzania, concentrated in Mkinga District and the broader Tanga Region. Together, the Digo number over 300,000 people — a significant community by any measure, but one that is counted in two separate national censuses, studied by two separate academic traditions, and governed by two separate political systems.",
+      "sw": "Mwendelezo wa Kitamaduni",
+      "dg": "Idadi zinagomba seemu ya hadithi. Takriban Adigo 217,000 anaishi Kenya, hasa Kaunti ya Kwale, ambako ndio kabila kulu zaidi. Zaidi ya Adigo 100,000 anaishi Tanzania, hasa Wilaya ya Mkinga na Mkoa wa Tanga kpwa ujumla. Phamwenga, Adigo ni zaidi ya atu 300,000 — jamii kulu kpwa chipimo chochosi, ela inayohesabiwa kpwa sensa mbiri za tafwauti za chitaifa, inayochunguzwa ni mila mbiri za tafwauti za chitaaluma, na inayotawaliwa ni mifumo miiri ya chisiasa ya tafwauti."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The Kenyan Digo are part of the Mijikenda confederation — the nine related Bantu-speaking peoples of the Kenya coast. In this context, they are one group among nine, with a distinct identity but also a shared Mijikenda heritage that includes the sacred kaya forests, the Council of Elders, and a common origin narrative. The Tanzanian Digo exist in a different ethnic landscape. Tanzania's post-independence policies under Julius Nyerere deliberately de-emphasized ethnic identity in favour of national unity — the concept of *ujamaa*, or familyhood, was meant to transcend tribal distinctions. This means that while Kenyan Digo participate in a political system where ethnicity is a primary organizing principle, Tanzanian Digo operate in a context where ethnic assertion has been, historically, less encouraged and sometimes actively discouraged.",
+      "sw": "Licha ya mpaka, mwendelezo wa kitamaduni kati ya Wadigo wa Kenya na Tanzania ni wa kushangaza. Chidigo kinazungumzwa pande zote mbili. Uislamu ndio dini kubwa pande zote. Vyakula vya nazi vinavyoelezea upishi wa Kidigo ni sawa kabisa pande zote. Mandhari ya kilimo yanafuata misimu sawa ya monsuni. Familia za pande zote zingekuwa, kwa mgeni yeyote, zisizotofautishwa.",
+      "dg": "Adigo a Kenya ni seemu ya muungano wa Mijikenda — makabila tisiya ganagohusiana ga Chibantu ga pwani ya Kenya. Kpwa mazingira gano, Adigo ni kabila mwenga kahi ya tisiya, renye utambuzi wa tafwauti ela piya urithi wa Chimijikenda wa phamwenga unaohusisha matsaka matakatifu ga kaya, Baraza ra Azehe, na hadithi ya phamwenga ya asili. Adigo a Tanzania anaishi kpwa mazingira ga chikabila ga tafwauti. Sera za Tanzania bada ya uhuru tsini ya Julius Nyerere zaphungula kpwa makusudi msisitizo wa utambuzi wa chikabila ili kuimarisha umoja wa chitaifa — wazo ra *ujamaa*, au kukala mbari mwenga, rakala ra kuvuka tafwauti za chikabila. Ihi inamaanisha kukala wakati Adigo a Kenya anashiriki kpwenye mfumo wa chisiasa ambapho kabila ni msingi mkpwulu wa kupanga atu, Adigo a Tanzania anaishi kpwa mazingira ambamo, kpwa historia, kudzitambulisha kpwa kabila takuhimizwa sana, na wakati wanjina nkuzuiwa kabisa."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Cultural Continuity",
+      "sw": "Ukweli wa Kisheria",
+      "dg": "Mwendelezo wa Chimila"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Despite the border and the divergent national contexts, the cultural continuity between Kenyan and Tanzanian Digo is remarkable. Chidigo — the Digo language — is spoken on both sides. A Digo speaker from Kwale will understand a Digo speaker from Mkinga without difficulty, though dialect variations have developed over the decades of separation. The differences are analogous to those between British and American English: noticeable, occasionally amusing, but never a barrier to comprehension.",
+      "sw": "Mwendelezo wa kitamaduni hauwezi kufuta ukweli wa kisheria wa mpaka. Ndoa za mpakani — ambazo bado ni za kawaida — zinaunda familia zinazolazimika kupitia mifumo miwili ya kisheria. Miradi ya miundombinu, ikiwa ni pamoja na kivuko cha kituo kimoja kinachoendelezwa Lunga Lunga-Horohoro na barabara kuu ya pwani ya Malindi-Bagamoyo iliyopangwa, inaahidi kuimarisha uhusiano.",
+      "dg": "Dzagbwe mphaka uripho na mazingira ga chitaifa ga tafwauti, mwendelezo wa chimila kahi ya Adigo a Kenya na Tanzania ni wa kushangaza. Chidigo — luga ya Adigo — chinagombwa phande zosi mbiri. Mutu anayegomba Chidigo kula Kwale andamwelewa mutu anayegomba Chidigo kula Mkinga bila taabu, dzagbwe tafwauti za lahaja zikazuka kpwa miongo ya kuganywa. Tafwauti izo zinafwanana na zira za Chingereza cha Uingereza na cha Marekani: zinaonekana, wakati wanjina ni za kutseka, ela katu si chizuizi cha kuelewana."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Islam is the dominant religion on both sides of the border. Mosque communities serve as anchor points for Digo identity in both countries, and religious occasions — Eid al-Fitr, Eid al-Adha, Maulidi — are celebrated with the same fervour and many of the same local customs. Friday prayers draw congregations that include families with members on both sides of the frontier. Religious networks have been, in some ways, more effective than any political institution at maintaining cross-border Digo solidarity.",
+      "sw": "Wadigo hawakuchagua kuwa watu wa mpakani. Lakini wamezoea ukweli huu kwa ustahimilivu unaozungumza kuhusu kina cha vifungo vyao vya kitamaduni. Mpaka unaweza kugawa maeneo, lakini hauwezi kukata vifungo vya lugha, ukoo, na mila zinazoshirikiwa ambazo zinafanya watu kuwa watu.",
+      "dg": "Uislamu ndiyo dini kulu phande zosi mbiri za mphaka. Jamii za misikiti ni nguzo za utambuzi wa Adigo kpwenye tsi zosi mbiri, na sikukuu za dini — Eid al-Fitr, Eid al-Adha, Maulidi — nkusherehekewa kpwa hamu iyo-iyo na desturi nyinji zizo-zizo za phatu. Sala za Ijumaa zinakusanya atu, phamwenga na mbari zenye anachama phande zosi mbiri za mphaka. Mitandao ya dini, kpwa njira fulani, ikakala na ufanisi zaidi kuriko taasisi yoyosi ya chisiasa kpwa kudumisha umoja wa Adigo kuvuka mphaka."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The food is the same. The coconut-based cuisine that defines Digo cooking — the use of coconut milk in rice, in stews, in the preparation of fish and vegetables — is identical on both sides. The crops are the same: coconut, cassava, maize, mangoes, cashew nuts. The agricultural calendar follows the same monsoon-driven seasons. A Digo kitchen in Msambweni and a Digo kitchen in Mkinga would be, to any visitor, indistinguishable.",
+      "sw": "Chakula ni kimoja. Vyakula vya nazi vinavyofafanua upishi wa Kidigo — matumizi ya tui katika wali, katika mchuzi, katika kuandaa samaki na mboga — ni sawa pande zote. Mazao ni yaleyale: nazi, muhogo, mahindi, maembe, korosho. Kalenda ya kilimo inafuata misimu sawa inayoendeshwa na monsuni. Jiko la Kidigo huko Msambweni na jiko la Kidigo huko Mkinga vingekuwa, kwa mgeni yeyote, visivyotofautika.",
+      "dg": "Chakurya ni chimwenga. Vyakurya vya nazi vinavyofafanua kujita kpwa Chidigo — kuhumira huwi kahi ya wari, kahi ya mtsuzi, kahi ya kuandaa ng'onda na mboga — ni sawa phande zosi. Mimea ni iyo-iyo: nazi, manga, pemba, maembe, ngorosho. Kalenda ya chirimo inalunga misimu iyo-iyo inayoendeshwa ni monsuni. Dziko ra Chidigo kpwa Msambweni na dziko ra Chidigo kpwa Mkinga, kpwa mjeni yeyesi, gandaoneka sawa-sawa."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "The Legal Reality",
+      "sw": "Hali Halisi ya Kisheria",
+      "dg": "Hali ya Kpweli ya Chisheria"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The cultural continuity, however, cannot erase the legal reality of the border. Kenyan and Tanzanian Digo are citizens of different sovereign states, and this creates concrete challenges that affect daily life. A cross-border marriage — and such marriages remain common — creates a family that must navigate two legal systems. Inheritance disputes become complicated when the deceased owned land on one side and had heirs on the other. Children born to cross-border couples may face questions of nationality and citizenship. Access to healthcare, education, and social services is tied to national identity, not ethnic identity.",
+      "sw": "Kuendelea kwa kitamaduni, hata hivyo, hakuwezi kufuta hali halisi ya kisheria ya mpaka. Adigo wa Kenya na Tanzania ni raia wa nchi huru tofauti, na hii inaleta changamoto za kweli zinazoathiri maisha ya kila siku. Ndoa ya kuvuka mpaka — na ndoa kama hizo bado ni za kawaida — inaunda familia ambayo lazima ipitie mifumo miwili ya kisheria. Migogoro ya urithi inakuwa ngumu mmoja aliyefariki alipomiliki ardhi upande mmoja na kuwa na warithi upande mwingine. Watoto waliozaliwa na wanandoa wa kuvuka mpaka wanaweza kukabiliwa na maswali ya utaifa na uraia. Upatikanaji wa huduma za afya, elimu, na huduma za kijamii umefungwa na utambulisho wa kitaifa, si utambulisho wa kikabila.",
+      "dg": "Kuenderera kpwa chimila, ela, takuweza kufuta hali ya kpweli ya chisheria ya mphaka. Adigo a Kenya na Tanzania ni raia a tsi huru za tafwauti, na ihi inareha matatizo ga kpweli ganagoathiri maisha ga chila siku. Arusi ya kuvuka mphaka — na arusi dza zizo bado ni za kawaida — inaumba mbari ambayo lazima itsupire mifumo miiri ya chisheria. Makondo ga urithi ganakala magumu mutu ariyefwa achikala ariimiriki tsi uphande mumwenga na ana arithi uphande wanjina. Ana ariovyalwa ni avyazi a phande mbiri za mphaka anaweza kukabilana na maswali ga utaifa na uraia. Kufikira huduma za afya, elimu, na huduma za chidzamii kukafungwa na utambuzi wa chitaifa, si utambuzi wa chikabila."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The East African Community (EAC), which Kenya and Tanzania both belong to, has made progress in easing cross-border movement. East African passports and national identity cards allow citizens of member states to cross borders with relative ease. But \"relative ease\" is not the same as freedom of movement, and the border remains a place where documents are checked, questions are asked, and the arbitrary line drawn in 1886 reasserts its authority over people who never accepted it as legitimate.",
+      "sw": "Jumuiya ya Afrika Mashariki (EAC), ambayo Kenya na Tanzania zote zipo, imefanya maendeleo katika kurahisisha harakati za kuvuka mpaka. Pasipoti za Afrika Mashariki na vitambulisho vya kitaifa vinaruhusu raia wa nchi wanachama kuvuka mipaka kwa urahisi wa kiasi. Lakini \"urahisi wa kiasi\" si sawa na uhuru wa harakati, na mpaka unabaki kuwa mahali ambapo nyaraka zinakaguliwa, maswali yanaulizwa, na mstari wa kiholela uliochorwa mwaka 1886 unathibitisha tena mamlaka yake juu ya watu ambao hawakuwahi kuukubali kuwa halali.",
+      "dg": "Jumuiya ya Afrika ya Mashariki (EAC), ambayo Kenya na Tanzania zosi ziko, ikahenda maendeleo kahi ya kurahisisha kuphiya na kuuya kuvuka mphaka. Pasipoti za Afrika ya Mashariki na vitambuzi vya chitaifa vinaruhusu raia a tsi wanachama kuvuka mphaka kpwa urahisi wa chiasi. Ela \"urahisi wa chiasi\" si sawa na uhuru wa kuphiya na kuuya, na mphaka unasala kukala phatu ambapho nyaraka zinakagulwa, maswali ganauzwa, na msitari wa chiholela uriochorwa mwaka wa 1886 unathibitisha tsona mamlakaye dzulu ya atu ambao kare taaukubali kukala halali."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Infrastructure of Reconnection",
+      "sw": "Miundombinu ya Kuunganisha Tena",
+      "dg": "Miundombinu ya Kuunganisha Tsona"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Several infrastructure projects hold the promise of deepening connections between the Kenyan and Tanzanian Digo communities. A one-stop border crossing is under development at Lunga Lunga-Horohoro, which would streamline the bureaucratic process and reduce crossing times. The planned Malindi-Bagamoyo coastal highway would create a continuous tarmac road along the coast, linking the Digo territories of both countries within a single transportation corridor. Railway integration connecting the Tanga-Taveta-Kilimanjaro corridor could further reduce the economic and psychological distance between the two populations.",
+      "sw": "Miradi kadhaa ya miundombinu inabeba ahadi ya kuimarisha uhusiano kati ya jamii za Kidigo za Kenya na Tanzania. Kivuko cha mpaka cha hatua moja kinaendelezwa huko Lunga Lunga-Horohoro, ambacho kingerahisisha mchakato wa kibiashara na kupunguza muda wa kuvuka. Barabara kuu ya pwani ya Malindi-Bagamoyo iliyopangwa ingeunda barabara ya lami inayoendelea kando ya pwani, kuunganisha maeneo ya Kidigo ya nchi zote mbili ndani ya ukanda mmoja wa usafiri. Ujumuishaji wa reli unaoungana na ukanda wa Tanga-Taveta-Kilimanjaro ungeweza kupunguza zaidi umbali wa kiuchumi na kisaikolojia kati ya idadi hizo mbili za watu.",
+      "dg": "Miradi kadhaa ya miundombinu inatsukula ahadi ya kuimarisha uhusiano kahi ya jamii za Adigo za Kenya na Tanzania. Chivuko cha mphaka cha hatua mwenga chinaendelezwa kpwa Lunga Lunga-Horohoro, ambacho chindarahisisha mchakato wa chibiashara na kuphungula wakati wa kuvuka. Barabara kulu ya pwani ya Malindi-Bagamoyo iriyopangwa indaumba barabara ya lami inayoenderera kanda-kanda ya pwani, ichiunganisha maeneo ga Adigo ga tsi zosi mbiri ndani ya ukanda mumwenga wa usafiri. Ujumuishaji wa reli unaounganisha ukanda wa Tanga-Taveta-Kilimanjaro unaweza kuphungula zaidi umbali wa chiuchumi na chisaikolojia kahi ya idadi zizo mbiri za atu."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "These projects are not specifically designed for the Digo — they serve broader national and regional economic goals. But their effect on the Digo community would be disproportionately significant. Every improvement in cross-border infrastructure is, for the Digo, an improvement in the ability to maintain the family connections, trade relationships, and cultural exchanges that the border has made difficult but never managed to destroy.",
+      "sw": "Miradi hii haijaundwa mahususi kwa Adigo — inahudumia malengo mapana ya kiuchumi ya kitaifa na kikanda. Lakini athari yake kwa jamii ya Kidigo ingekuwa kubwa kwa kiasi kisicholingana. Kila uboreshaji wa miundombinu ya kuvuka mpaka ni, kwa Adigo, uboreshaji wa uwezo wa kudumisha uhusiano wa kifamilia, mahusiano ya kibiashara, na kubadilishana kitamaduni ambayo mpaka umeyafanya kuwa magumu lakini kamwe haukuweza kuyaharibu.",
+      "dg": "Miradi iyi taiundwa mahususi kpwa Adigo — inahudumiya malengo mapana ga chiuchumi ga chitaifa na chikanda. Ela athariye kpwa jamii ya Adigo indakala kulu kpwa chiasi chisicholingana. Chila uboreshaji wa miundombinu ya kuvuka mphaka ni, kpwa Adigo, uboreshaji wa uwezo wa kudumisha uhusiano wa chinyumba, mahusiano ga chibiashara, na kubadilishana chimila ambako mphaka ukakuhenda kukala kugumu ela kare tauweza kukubananga."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "One People, Two Nations",
+      "sw": "Watu Wamoja, Mataifa Mawili",
+      "dg": "Atu Amwenga, Mataifa Mairi"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The Digo did not choose to be a transborder people. That identity was imposed upon them by European powers pursuing strategic interests that had nothing to do with the welfare of coastal East African communities. But the Digo have adapted to this reality with a resilience that speaks to the depth of their cultural bonds. Kinship networks span the border. Cross-border marriages continue. The language persists on both sides. The food, the faith, the music, the ceremonies — all continue to flow across a frontier that has never succeeded in becoming a cultural barrier, however effectively it functions as a political one.",
+      "sw": "Adigo hawakuchagua kuwa watu wa kuvuka mpaka. Utambulisho huo uliwekwa juu yao na nguvu za Ulaya zilizofuatia nia za kimkakati ambazo hazikuwa na uhusiano na ustawi wa jamii za pwani ya Afrika Mashariki. Lakini Adigo wamezoea hali hii kwa ustahimilivu unaozungumza kuhusu kina cha vifungo vyao vya kitamaduni. Mitandao ya ukoo inaenea kuvuka mpaka. Ndoa za kuvuka mpaka zinaendelea. Lugha inadumu pande zote. Chakula, imani, muziki, sherehe — zote zinaendelea kutiririka kuvuka mpaka ambao kamwe haujafanikiwa kuwa kizuizi cha kitamaduni, hata inavyofanya kazi kwa ufanisi kama kizuizi cha kisiasa.",
+      "dg": "Adigo taatsambula kukala atu a kuvuka mphaka. Utambuzi uwo waikwa dzulu yao ni nguvu za Chizungu zirizolungira nia za chimkakati ambazo tazikala na uhusiano na ustawi wa jamii za pwani ya Afrika ya Mashariki. Ela Adigo akazoea hali iyi kpwa ustahimilivu unaogomba kuhusu undani wa vifungo vyao vya chimila. Mitandao ya ukoo inaenderera kuvuka mphaka. Arusi za kuvuka mphaka zinaenderera. Luga inadumu phande zosi. Chakurya, imani, muziki, sherehe — vyosi vinaenderera kutsupa mphaka ambao kare taudzangbwefanikiwa kukala chizuizi cha chimila, hata unavyohenda kazi kpwa ufanisi dza chizuizi cha chisiasa."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The story of the Digo as a transborder people is, in this sense, a story about the limits of state power over cultural identity. Borders can divide territories. They can complicate lives. They can create bureaucratic nightmares for families whose only offence is being related to people on the other side. But they cannot, over the course of more than a century, sever the bonds of language, kinship, and shared tradition that make a people a people. The Digo remain one, even as they carry two flags.",
+      "sw": "Hadithi ya Adigo kama watu wa kuvuka mpaka ni, kwa maana hii, hadithi kuhusu mipaka ya nguvu ya serikali juu ya utambulisho wa kitamaduni. Mipaka inaweza kugawanya maeneo. Inaweza kufanya maisha kuwa magumu. Inaweza kuleta ndoto mbaya za kibiashara kwa familia ambazo kosa lao pekee ni kuwa na uhusiano na watu upande mwingine. Lakini haiwezi, kwa zaidi ya karne moja, kukata vifungo vya lugha, ukoo, na mila ya pamoja vinavyofanya watu kuwa watu. Adigo wanabaki wamoja, hata wanapobeba bendera mbili.",
+      "dg": "Hadithi ya Adigo dza atu a kuvuka mphaka ni, kpwa mana iyi, hadithi kuhusu miphaka ya nguvu ya serikali dzulu ya utambuzi wa chimila. Miphaka inaweza kuganya maeneo. Inaweza kuhenda maisha kukala magumu. Inaweza kureha mashaka ga urasimu kpwa mbari ambazo kosa rao bahi ni kukala na uhusiano na atu a uphande wanjina. Ela taiweza, kpwa zaidi ya karne mwenga, kukata vifungo vya luga, ukoo, na mila ya phamwenga vinavyohenda atu kukala atu. Adigo anasala amwenga, hata anaphotsukula bendera mbiri."
+    }
+  ]
+}

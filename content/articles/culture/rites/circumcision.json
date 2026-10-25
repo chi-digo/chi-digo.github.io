@@ -1,0 +1,232 @@
+{
+  "id": "culture/rites/circumcision",
+  "title": {
+    "en": "Circumcision",
+    "sw": "Tohara",
+    "dg": "Tohara"
+  },
+  "intro": {
+    "en": "For a Digo boy, there was once a single, irreversible moment that separated childhood from adulthood. It was not his first day of work, not his first act of courage, not a gradual accumulation of…",
+    "sw": "Kwa mvulana wa Kidigo, kulikuwa na wakati mmoja usioweza kurudishwa uliotenganisha utoto na utu uzima. Ilikuwa tohara — na hadi alipokuwa amepita katika hilo, alibaki mtoto machoni pa jamii yake.…",
+    "dg": "Kpwa mvulana wa Chidigo, kare kurikala na wakati mmwenga usioweza kuuyizwa uriotenga kukala mwana na kukala mutu mzima. Irikala tohara — na hadi ariphokala akatsupa kpwa iyo, wasala mwana matsoni mwa jamiiye.…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Threshold of Manhood",
+      "sw": "Kizingiti cha Uanaume",
+      "dg": "Chizingiti cha Ulume"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "For a Digo boy, there was once a single, irreversible moment that separated childhood from adulthood. It was not his first day of work, not his first act of courage, not a gradual accumulation of responsibility. It was circumcision — *tohara* — and until he had passed through it, he remained a child in the eyes of his community, regardless of his size, his strength, or his years. An uncircumcised male could not marry. He could not sit in the councils of men. He could not claim the full respect of his community. Circumcision was the gate, and there was no way around it.",
+      "sw": "Kwa mvulana wa Kidigo, kulikuwa na wakati mmoja usioweza kurudishwa uliotenganisha utoto na utu uzima. Ilikuwa tohara — na hadi alipokuwa amepita katika hilo, alibaki mtoto machoni pa jamii yake. Mwanaume ambaye hajatahiriwa hangeweza kuoa. Tohara ilikuwa lango, na hapakuwa na njia ya kulizunguka.",
+      "dg": "Kpwa mvulana wa Chidigo, kare kurikala na wakati mmwenga usioweza kuuyizwa uriotenga kukala mwana na kukala mutu mzima. Taurikala sikuye ya kpwandza ya kuhenda kazi, wala chitendoche cha kpwandza cha ujasiri, wala kuenjerezeka pore-pore kpwa majukumu. Irikala *tohara* — na hadi ariphokala akatsupa kpwa iyo, wasala mwana matsoni mwa jamiiye, hata dzagbwe arikala mkpwulu wa mwiri, ana nguvu, au ana miaka minji. Mlume ambaye katahiriwa kaweza kuola. Kaweza kusagala kpwenye mikutano ya alume. Kaweza kuphaha hishima kamili ya jamiiye. Tohara irikala ryango, na taphokala na njira ya kurizunguluka."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Boys were circumcised between the ages of eight and twelve, entering the *rika* — the age-set system that would define their social identity for the rest of their lives. Every four years, a new cohort of uninitiated boys was gathered and circumcised into a sub-*rika*, a group within the larger age-set. These boys would progress through life together — from youth to middle age to elderhood — bound by the shared experience of having crossed the same threshold at the same time.",
+      "sw": "Wavulana walitahiriwa kati ya umri wa miaka nane na kumi na mbili, wakiingia katika *rika* — mfumo wa rika ambao ungeeleza utambulisho wao wa kijamii kwa maisha yao yote. Kila miaka minne, kundi jipya la wavulana walikusanywa na kutahiriwa katika rika ndogo — kundi ndani ya rika kubwa. Wavulana hawa wangeendelea katika maisha pamoja, kutoka ujana hadi uzee.",
+      "dg": "Avulana arikala anatahiriwa kahi ya umri wa miaka minane na kumi na miri, achiinjira *rika* — mfumo wa rika ambao urikala unaonyesa utambulisho wao wa chijamii kpwa maisha gao gosi. Chila miaka mine, kundi dziphya ra avulana arikusanywa na kutahiriwa kpwenye rika ndide — kundi ndani ya rika kulu. Avulana hinya arikala anaenderera phamwenga kpwa maisha, kula kukala barobaro hadi kukala azehe."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Jando Tradition",
+      "sw": "Mila ya Jando",
+      "dg": "Chimila cha Jando"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The circumcision itself was embedded within a larger tradition known as *jando* — boys' initiation. Jando was not simply a surgical procedure. It was a curriculum, a period of intensive teaching and testing that transformed boys into men not merely by altering their bodies but by filling their minds with the knowledge they would need to function as adult members of Digo society.",
+      "sw": "Tohara yenyewe ilikuwa ndani ya mila kubwa zaidi inayojulikana kama *jando* — kutahiriwa kwa wavulana. Jando haikuwa utaratibu wa upasuaji tu. Ilikuwa mtaala, kipindi cha mafundisho makali na majaribio yaliyobadilisha wavulana kuwa wanaume si tu kwa kubadilisha miili yao bali kwa kujaza akili zao na maarifa waliyohitaji.",
+      "dg": "Tohara yenyewe irikala ndani ya chimila chikulu zaidi chinachomanyikana dza *jando*. Jando tairikala utaratibu wa upasuaji bahi. Irikala mtaala, chipindi cha mafundzo makali na majaribio garigogaluza avulana kukala alume, si bahi kpwa kugaluza miri yao ela kpwa kudzaza achili zao marifwa garigohitajika."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The process unfolded in stages. First came the circumcision itself, performed by a specialist using a traditional blade. The pain was real and intentional — it was a test of endurance, and a boy was expected to bear it without crying out. His composure under the blade was his first public demonstration of the self-control that would be expected of him as a man.",
+      "sw": "Baada ya tohara, wavulana waliingia kipindi cha kutengwa, wakitolewa katika maisha ya kawaida ya jamii. Wakati wa kutengwa, wavulana walipona kimwili, lakini kazi kuu haikuwa ya kimwili. Ilikuwa ya kielimu. Wakufunzi waliwafundisha maarifa ambayo wanaume wazima walitarajiwa kubeba: historia ya kitamaduni, kanuni za jamii, majukumu ya mume na baba.",
+      "dg": "Mchakato uhu urihendeka kpwa hatua. Kpwandza irikala tohara yenyewe, ichihendwa ni mtaalamu achihumira wembe wa kare. Utsungu urikala wa kpweli na wa makusudi — urikala jaribio ra kuvumirira, na mvulana aritazamiwa kuuvumirira bila kukota likululu. Vira arivyodzizuwiya tsini ya wembe kurikala ushahidiwe wa kpwandza wa hadharani wa kudzizuwiya ambako kungetazamiwa kpwakpwe dza mlume."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Seclusion",
+      "sw": "Kurudi",
+      "dg": "Kutengwa"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "After circumcision, the boys entered a period of seclusion, removed from the ordinary life of the community. This was not punishment or isolation for its own sake. It was a liminal space — a time between identities, when the boy who had been was dissolving and the man who would be had not yet fully formed. The seclusion was held away from the village, often in a dedicated space in the bush, where the initiates lived together under the guidance of appointed elders and instructors.",
+      "sw": "Kipindi cha kutengwa kilimalizika kwa kurudi rasmi kwa jamii. Hii ilikuwa wakati wa sherehe — mvulana aliyeondoka alikuwa anarudi kama kijana, akibeba hadhi mpya na majukumu mapya. Jamii ilikusanyika kuwakaribisha waliotahiriwa, na kurudi kuliadhimishwa kwa karamu, nyimbo, na kutambuliwa hadharani.",
+      "dg": "Bada ya tohara, avulana ariinjira chipindi cha kutengwa, achiuswa kpwenye maisha ga kawaida ga jamii. Hino tairikala adhabu, wala kutengwa kpwa sababu ya kutengwa bahi. Irikala wakati wa kahi-kahi — wakati kahi ya utambulisho mmwenga na wanjina, ambapho mvulana wa kare arikala anaangamika na mlume wa badaye arikala kadzangbweumbika chikamilifu. Kutengwa kurihendekera kure na mudzi, mara nyinji phatu maalum weruni, ambapho ariotahiriwa arikala phamwenga tsini ya uongozi wa azehe na akufundzi ariotsambulwa."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "During seclusion, the boys healed physically, but the primary work was not physical. It was educational. The instructors taught them the knowledge that adult men were expected to carry: cultural history, community norms, the responsibilities of a husband and father, the obligations of a man to his clan and his age-set. They learned the expectations that the community would place upon them from this point forward — expectations of courage, of provision, of self-discipline, of respect for elders and care for the vulnerable.",
+      "sw": "Mabadiliko ya Kisasa",
+      "dg": "Wakati wa kutengwa, avulana ariphola mwiri, ela kazi kulu tairikala ya chimwiri. Irikala ya chielimu. Akufundzi arifundza marifwa ambago alume azehe aritazamiwa kutsukula: historia ya chimila, kanuni za jamii, majukumu ga mlume na ise, na wajibu wa mlume kpwa ukoowe na kpwa rikare. Aridzifundza mambo ambago jamii ingeatazamiya kula wakati uhu na kuenderera — ujasiri, kureha riziki, kudzizuwiya, kuishimu azehe, na kuatundza asioweza kudzirinda."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Teachings",
+      "sw": "Tohara ya hospitali imechukua nafasi ya njia za jadi kwa kiasi kikubwa. Mfumo wa rika umepungua nguvu chini ya shinikizo la kisasa na maisha ya mjini. Tohara yenyewe inaendelea kama desturi ya karibu wote miongoni mwa wanaume wa Kidigo, ikisukumwa na mila ya kitamaduni na wajibu wa kidini wa Kiislamu. Kitendo cha kimwili kinadumu. Kilichobadilika ni usanifu wa sherehe na kijamii uliokuwa ukiizunguka — jando, kutengwa, mafundisho, uhusiano wa rika.",
+      "dg": "Mafundzo"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The instruction during jando was comprehensive. Boys learned about their place within the rika system — the age-set hierarchy that structured male social life from circumcision through elderhood. They learned how the sub-rika progressed through the larger rika, how men who were circumcised together maintained lifelong solidarity, and how this solidarity created networks of mutual obligation and support that would sustain them through the challenges of adult life.",
+      "sw": "Changamoto kwa jamii ya Wadigo ni kama maana ya tohara inaweza kuishi baada ya kupoteza aina zake za jadi. Kama mvulana bado anaweza kuwa mwanaume, kwa maana kamili ya Kidigo, kupitia utaratibu wa hospitali unaochukua dakika ishirini.",
+      "dg": "Mafundzo ga jando garikala kamili. Avulana aridzifundza kuhusu nafasi yao ndani ya mfumo wa rika — ngazi za makundi ga umri zirizopanga maisha ga chijamii ga alume kula tohara hadi kukala azehe. Aridzifundza vira rika ndide rinavyotsupa ndani ya rika kulu, vira alume ariotahiriwa phamwenga arivyosala na mshikamano maisha gosi, na vira mshikamano uhu uriunda mitandao ya wajibu na msada wa phamwenga ambayo ingeaterya kutsupa changamoto za maisha ga atu azima."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "They also learned practical skills. Depending on the era and the specific community, these might include knowledge of farming, animal husbandry, or the skills needed for trade and commerce. But the emphasis was always on character formation — the cultivation of the qualities that the Digo considered essential to manhood. A man who had been through jando was expected to be different from the boy who had entered it. Not just physically marked, but inwardly transformed.",
+      "sw": "Pia walijifunza ujuzi wa vitendo. Kulingana na enzi na jamii mahususi, hizi zingeweza kujumuisha maarifa ya kilimo, ufugaji, au ujuzi unaohitajika kwa biashara na ushirikiano wa kibiashara. Lakini msisitizo ulikuwa daima juu ya kuunda tabia — ukuzaji wa sifa ambazo Wadigo walizichukulia kuwa muhimu kwa uume. Mtu aliyepitia jando alitarajiwa kuwa tofauti na mvulana aliyeingia ndani yake. Si aliyetiwa alama kimwili tu, bali aliyebadilishwa ndani.",
+      "dg": "Piya aridzifundza ujuzi wa vitendo. Kulengana na wakati na jamii yenyewe, hizi zingekala ni phamwenga na marifwa ga kurima, ga kufuga, au ujuzi unaohitajika kpwa biashara. Ela msisitizo urikala chila mara kpwenye kuumba tabiya — kukuza sifa ambazo Adigo ariona kukala ni muhimu kpwa ulume. Mutu ariyetsupa jando aritazamiwa kukala tafwauti na mvulana ariyeiinjira. Si bahi ariyeikpwa alama mwirini, ela ariyegaluzwa mwakpwe ndani."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Re-entry",
+      "sw": "Kurejea",
+      "dg": "Kuuya"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The period of seclusion ended with a formal re-entry into the community. This was a moment of celebration — the boy who had left was returning as a young man, bearing new status and new responsibilities. The community gathered to welcome the initiates back, and the return was marked by feasting, singing, and the public recognition of each boy's new identity.",
+      "sw": "Kipindi cha kujitenga kilimalizika kwa kurudi rasmi katika jamii. Hii ilikuwa wakati wa sherehe — mvulana aliyeondoka alikuwa anarudi kama kijana, akibeba hadhi mpya na majukumu mapya. Jamii ilikusanyika kukaribisha wanaoanzishwa kurudi, na kurudi huko kuliashiriwa na karamu, kuimba, na kutambuliwa hadharani kwa utambulisho mpya wa kila mvulana.",
+      "dg": "Chipindi cha kudzitenga chirimala na kuuya rasmi kpwenye jamii. Hino irikala wakati wa sherehe — mvulana ariyeuka arikala anauya dza mlume mdide, achitsukula hadhi mphya na wajibu muphya. Jamii irikusanyika kuakaribisha ariotahiriwa achiuya, na kuuya kpwao kuriashiriwa ni karamu, kuimba, na kutambuliwa hadharani kpwa utambulisho muphya wa chila mvulana."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "From this point forward, the circumcised young man occupied a different place in Digo society. He could now pursue marriage. He could participate in community decisions in ways that had been closed to him as a child. He belonged to his age-set, and that belonging carried both privileges and obligations. His age-mates would be his allies, his support network, and his accountability partners for the rest of his life.",
+      "sw": "Kuanzia hatua hii kuendelea, kijana aliyetahiriwa alishika nafasi tofauti katika jamii ya Wadigo. Sasa angeweza kutafuta ndoa. Angeweza kushiriki katika maamuzi ya jamii kwa njia ambazo zilikuwa zimefungwa kwake kama mtoto. Alikuwa wa kundi lake la umri, na kuwa kwake kulibeba heshima na wajibu. Wenzake wa umri wangekuwa washirika wake, mtandao wake wa msaada, na wenzi wake wa uwajibikaji kwa maisha yake yote.",
+      "dg": "Kula hatua hino na kuenderera, mlume mdide ariyetahiriwa arikala na nafasi tafwauti kpwenye jamii ya Adigo. Sambi angeweza kuhendza mche wa kuola. Angeweza kushiriki kpwenye maamuzi ga jamii kpwa njira ambazo zirikala zikafungwa kpwakpwe achikala mwana. Arikala wa kundire ra umri, na kukala kpwenye kundi riro kurikala na hishima na wajibu. Enzie a umri angekala ashirikae, mtandaowe wa msada, na enzie a uwajibikaji kpwa maishage gosi."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Age-Set Bond",
+      "sw": "Kifungo cha Kundi la Umri",
+      "dg": "Chifungo cha Rika"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The bond between age-mates — men who were circumcised together — was one of the strongest social ties in Digo life. These were not merely friends or acquaintances. They were brothers of the blade, men who had shared the most intense experience of their young lives and who would carry that shared experience as a permanent marker of identity. The sub-rika progressed through the rika system together, eventually reaching elder status as a cohort. A man's age-mates were expected to stand by him in disputes, to contribute to his bride price, to help him in times of need, and to hold him accountable to the standards of conduct that the community expected.",
+      "sw": "Kifungo kati ya wenzake wa umri — wanaume waliotahiriwa pamoja — kilikuwa mojawapo ya vifungo vikali zaidi vya kijamii katika maisha ya Wadigo. Hawa hawakuwa marafiki au wafahamiana tu. Walikuwa ndugu wa wembe, wanaume walioshiriki uzoefu mkali zaidi wa maisha yao ya ujana na ambao wangebeba uzoefu huo wa pamoja kama alama ya kudumu ya utambulisho. Kundi dogo la rika liliendelea kupitia mfumo wa rika pamoja, hatimaye kufikia hadhi ya wazee kama kundi. Wenzake wa umri wa mtu walitarajiwa kusimama naye katika migogoro, kuchangia mahari yake, kumsaidia wakati wa shida, na kumshikilia katika viwango vya tabia ambavyo jamii ilitarajia.",
+      "dg": "Chifungo kahi ya enza a umri — alume ariotahiriwa phamwenga — chirikala chimwenga cha vifungo vikali zaidi vya chijamii kpwenye maisha ga Adigo. Hinya tarikala asena au atu anaomanyana bahi. Arikala ndugu a wembe, alume ariokala phamwenga kpwenye dzambo kali zaidi ra maisha gao ga udide, na ambao angetsukula dzambo riro ra phamwenga dza alama ya kudumu ya utambulisho. Kundi ndide ra rika ririenderera kutsupa mfumo wa rika phamwenga, hatimaye kufika hadhi ya azehe dza kundi. Enza a umri a mutu aritazamiwa kuima naye kpwenye kondo, kuchangiya mahariye, kumterya wakati wa shida, na kumgbwira kpwenye viwango vya tabiya ambavyo jamii iritazamiya."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "This system created a horizontal web of solidarity that complemented the vertical ties of family and clan. A man belonged not only to his father's lineage but also to his age-set, and both affiliations shaped his life in profound ways.",
+      "sw": "Mfumo huu uliunda mtandao wa mlalo wa mshikamano ambao ulikamilisha vifungo vya wima vya familia na ukoo. Mtu hakuwa wa ukoo wa baba yake tu bali pia wa kundi lake la umri, na ushirikiano wote uliunda maisha yake kwa njia za kina.",
+      "dg": "Mfumo huno uriunda mtandao wa mlalo wa mshikamano ambao urikamilisha vifungo vya wima vya nyumba na ukoo. Mutu kakala wa ukoo wa ise bahi ela piya wa kundire ra umri, na ushirikiano wosi uriunda maishage kpwa njira za chitsina."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Islamic Circumcision",
+      "sw": "Tohara ya Kiislamu",
+      "dg": "Tohara ya Chiislamu"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Running parallel to the traditional jando was the Islamic practice of *khitan* — circumcision as a religious obligation. For Muslim Digo families, circumcision carried a dual significance: it was both the traditional Digo rite of passage and a fulfilment of Islamic teaching. In some families, the two traditions merged seamlessly, with the jando incorporating Islamic prayers and teachings alongside traditional instruction.",
+      "sw": "Sambamba na jando ya jadi ilikuwa mazoea ya Kiislamu ya *khitan* — tohara kama wajibu wa kidini. Kwa familia za Wadigo Waislamu, tohara ilibeba umuhimu wa maradufu: ilikuwa rite ya kupitia jadi ya Wadigo na pia utimilifu wa mafundisho ya Kiislamu. Katika familia zingine, mila mbili ziliunganika bila mshono, huku jando ikijumuisha maombi na mafundisho ya Kiislamu pamoja na mafunzo ya jadi.",
+      "dg": "Sambamba na jando ya kare irikala mazoea ga Chiislamu ga *khitan* — tohara dza wajibu wa chidini. Kpwa nyumba za Adigo Aislamu, tohara iritsukula umuhimu wa maradufu: irikala ibada ya kutsupa ya kare ya Adigo na piya kutimiza mafundzo ga Chiislamu. Kpwenye nyumba zanjina, mila mbiri zikaungana bila mshono, jando ichikala na mavoyo na mafundzo ga Chiislamu phamwenga na mafundzo ga kare."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "In other cases, Islamic circumcision followed a different timeline. Khitan is typically performed earlier than the traditional Digo age — sometimes in infancy or early childhood — which meant that some boys arrived at the age of jando already circumcised. In such cases, the ceremonial and educational elements of jando could still proceed, but the physical act itself was already complete.",
+      "sw": "Katika visa vingine, tohara ya Kiislamu ilifuata ratiba tofauti. Khitan kwa kawaida hufanywa mapema zaidi kuliko umri wa jadi wa Wadigo — wakati mwingine katika utoto mchanga au utoto wa mapema — ambayo ilimaanisha kwamba wavulana wengine walifika katika umri wa jando wakiwa tayari wametahiriwa. Katika hali kama hizo, vipengele vya sherehe na elimu vya jando vingeweza kuendelea, lakini kitendo cha kimwili chenyewe kilikuwa tayari kimekamilika.",
+      "dg": "Kpwenye mambo ganjina, tohara ya Chiislamu irilunga ratiba tafwauti. Khitan kpwa kawaida inahendwa mapema zaidi kuriko umri wa kare wa Adigo — wakati wanjina mwana achikala mchanga au mdide — ambayo iriamba kukala avulana anjina arifika kpwenye umri wa jando achikala tayari akatahiriwa. Kpwenye mambo dza higa, vipengele vya sherehe na elimu vya jando vingeweza kuenderera, ela chitendo cha chimwiri chenyewe chirikala tayari chikakamilika."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "Contemporary Changes",
+      "sw": "Mabadiliko ya Wakati Huu",
+      "dg": "Mabadiliko ga Wakati Huno"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The traditional practice of jando has changed significantly in the modern era. Medical circumcision in hospital settings has largely replaced the traditional blade, and many families now opt for the procedure to be performed by trained medical professionals in clinical environments. The safety and health advantages of this approach are clear, and few families argue against them.",
+      "sw": "Mazoea ya jadi ya jando yamebadilika kwa kiasi kikubwa katika enzi ya kisasa. Tohara ya kimatibabu katika mazingira ya hospitali kwa kiasi kikubwa imechukua nafasi ya wembe wa jadi, na familia nyingi sasa zinachagua utaratibu ufanywe na wataalamu wa kimatibabu waliofunzwa katika mazingira ya kliniki. Faida za usalama na afya za njia hii ziko wazi, na familia chache zinapinga dhidi yake.",
+      "dg": "Mazoea ga kare ga jando gakagaluka kpwa chiasi chikulu kpwenye enzi ya chisasa. Tohara ya chimatibabu kpwenye mazingira ga hospitali kpwa chiasi chikulu ikahala nafasi ya wembe wa kare, na nyumba nyinji sambi zinatsambula utaratibu uhendwe ni ataalamu a chimatibabu ariofundzwa kpwenye mazingira ga kliniki. Fwaida za usalama na afya za njira hino zinaonekana wazi, na nyumba chache zinazipinga."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "But what has been gained in safety has often been lost in meaning. When circumcision becomes a medical procedure — performed in a hospital, with anaesthesia, in the presence of doctors rather than elders — the ceremonial architecture that once surrounded it falls away. There is no seclusion, no instruction, no age-set bonding, no community celebration of return. The physical act is preserved, but the social and spiritual dimensions that made it a rite of passage rather than merely a surgery are diminished.",
+      "sw": "Lakini kinachopatiwa katika usalama mara nyingi kimepotea katika maana. Wakati tohara inakuwa utaratibu wa kimatibabu — unaofanywa hospitalini, kwa ganzi, mbele ya madaktari badala ya wazee — usanifu wa sherehe uliokuwa unaizunguka unaanguka. Hakuna kujitenga, hakuna mafunzo, hakuna kuunganika kwa kundi la umri, hakuna sherehe ya jamii ya kurudi. Kitendo cha kimwili kinahifadhiwa, lakini vipengele vya kijamii na kiroho vilivyoifanya kuwa ibada ya kupitia badala ya upasuaji tu vinapungua.",
+      "dg": "Ela chira chinachophahwa kpwenye usalama mara nyinji chikaangamika kpwenye mana. Wakati tohara inakala utaratibu wa chimatibabu — unaohendwa hospitalini, na ganzi, mbere ya madaktari badala ya akare — usanifu wa sherehe uriokala unaizunguluka unagbwa. Takuna kudzitenga, takuna mafundzo, takuna kuunganika kpwa rika, takuna sherehe ya jamii ya kuuya. Chitendo cha chimwiri chinarindwa, ela vipengele vya chijamii na chiroho virivyoihenda ikale ibada ya kutsupa badala ya upasuaji bahi vinaphunguka."
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "Some families work to maintain the ceremonial elements even when the circumcision itself is medical. They may hold a gathering before or after the hospital procedure, invite elders to offer instruction and blessing, and mark the occasion with the communal feasting and celebration that once accompanied the traditional rite. These adaptations represent an effort to honour the meaning of jando even as its form changes.",
+      "sw": "Familia zingine zinafanya kazi kudumisha vipengele vya sherehe hata wakati tohara yenyewe ni ya kimatibabu. Wanaweza kushika mkutano kabla au baada ya utaratibu wa hospitali, kuwaalika wazee kutoa mafunzo na baraka, na kuashiria tukio hilo kwa karamu ya jamii na sherehe iliyokuwa inaandamana na ibada ya jadi. Marekebisho haya yanawakilisha juhudi ya kuheshimu maana ya jando hata wakati umbo lake linabadilika.",
+      "dg": "Nyumba zanjina zinahenda kazi kudumisha vipengele vya sherehe hata wakati tohara yenyewe ni ya chimatibabu. Zinaweza kuika mkutano kabla au bada ya utaratibu wa hospitali, kualika akare aaphe mafundzo na baraka, na kuashiria tukio riro na karamu ya jamii na sherehe iriyokala inaandamana na ibada ya kare. Marekebisho higa ganawakilisha juhudi ya kuishimu mana ya jando hata wakati umbore rinagaluka."
+    },
+    {
+      "id": "b026",
+      "type": "heading",
+      "en": "The Weakening of the Rika",
+      "sw": "Kudhoofika kwa Rika",
+      "dg": "Kuphunguka Nguvu kpwa Rika"
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The age-set system itself has weakened under the pressures of modernity, urbanisation, and changing social structures. In urban areas, few young Digo men experience a formal entry into a sub-rika, and the lifelong bonds of age-set solidarity have been replaced by other forms of social connection — school friendships, professional networks, religious communities. The rika system persists more strongly in rural areas, but even there, its institutional power has diminished.",
+      "sw": "Mfumo wa makundi ya umri wenyewe umedhoofika chini ya shinikizo la usasa, ukuaji wa miji, na miundo ya kijamii inayobadilika. Katika maeneo ya mijini, vijana wachache wa Wadigo wanapitia kuingia rasmi katika kundi dogo la rika, na vifungo vya maisha vyote vya mshikamano wa kundi la umri vimebadilishwa na aina nyingine za uhusiano wa kijamii — urafiki wa shuleni, mitandao ya kitaalamu, jamii za kidini. Mfumo wa rika unaendelea kwa nguvu zaidi katika maeneo ya mashambani, lakini hata huko, nguvu yake ya kitaasisi imepungua.",
+      "dg": "Mfumo wa makundi ga umri wenyewe ukaphunguka nguvu tsini ya shinikizo ra usasa, kukula kpwa midzi, na miundo ya chijamii inayogaluka. Kpwenye seemu za midzini, alume adide a Adigo achache anainjira rasmi kpwenye kundi ndide ra rika, na vifungo vya maisha gosi vya mshikamano wa rika vikahalwa nafasi ni aina zanjina za uhusiano wa chijamii — usena wa shuleni, mitandao ya chitaalamu, jamii za chidini. Mfumo wa rika unaenderera kpwa nguvu zaidi kpwenye seemu za kpwisharoni, ela hata iko, nguvuze za chitaasisi zikaphunguka."
+    },
+    {
+      "id": "b028",
+      "type": "paragraph",
+      "en": "This is not simply a matter of an old custom fading. The rika system served real social functions — it created solidarity across clan lines, it provided structures of mutual aid and accountability, and it gave men a collective identity that complemented their individual and family identities. As these functions are lost, nothing of equal depth has yet emerged to replace them.",
+      "sw": "Hii si suala tu la desturi ya zamani kupotea. Mfumo wa rika ulihudumia kazi halisi za kijamii — uliunda mshikamano kuvuka mistari ya ukoo, ulitoa miundo ya msaada wa pamoja na uwajibikaji, na ulipa wanaume utambulisho wa pamoja uliokamilisha utambulisho wao binafsi na wa kifamilia. Kadri kazi hizi zinapopotea, hakuna kitu chenye kina sawa ambacho kimeibuka kukichukua nafasi.",
+      "dg": "Hino si dzambo bahi ra desturi ya kare kuangamika. Mfumo wa rika urihenda kazi za kpweli za chijamii — uriunda mshikamano kuvuka mistari ya ukoo, uripha miundo ya msada wa phamwenga na uwajibikaji, na uripha alume utambulisho wa phamwenga uriokamilisha utambulisho wao wa chibinafsi na wa chinyumba. Wakati kazi hizi zinaphoangamika, takuna chitu chenye chitsina sawa chirichozuka kuhala nafasi yao."
+    },
+    {
+      "id": "b029",
+      "type": "heading",
+      "en": "What Remains",
+      "sw": "Kinachobaki",
+      "dg": "Chira Chinachosala"
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "Circumcision itself continues as a near-universal practice among Digo males, driven by both cultural tradition and Islamic religious obligation. The physical act endures. What has changed is the ceremonial and social architecture that once surrounded it — the jando tradition, the seclusion, the teaching, the age-set bonding, the communal celebration. These elements persist in some families and some communities, but they are no longer the dominant form.",
+      "sw": "Tohara yenyewe inaendelea kama mazoea ya karibu ya kila mtu miongoni mwa wanaume wa Wadigo, ikisukumwa na mila ya kitamaduni na wajibu wa kidini wa Kiislamu. Kitendo cha kimwili kinaendelea. Kilichobadilika ni usanifu wa sherehe na kijamii uliokuwa unaizunguka — mila ya jando, kujitenga, mafundisho, kuunganika kwa kundi la umri, sherehe ya jamii. Vipengele hivi vinaendelea katika familia na jamii zingine, lakini si tena umbo la kutawala.",
+      "dg": "Tohara yenyewe inaenderera dza mazoea ga phephi chila mlume kahi ya alume a Adigo, ichisukumwa ni mila ya chisomo na wajibu wa chidini wa Chiislamu. Chitendo cha chimwiri chinaenderera. Chirichobadilika ni usanifu wa sherehe na wa chijamii uriokala unaizunguluka — mila ya jando, kudzitenga, mafundzo, kuunganika kpwa rika, sherehe ya jamii. Vipengele hivi vinaenderera kpwenye nyumba zanjina na jamii zanjina, ela si tsona umbo ra kutawala."
+    },
+    {
+      "id": "b031",
+      "type": "paragraph",
+      "en": "The challenge for the Digo community, as with so many of their rites of passage, is whether the meaning of circumcision can survive the loss of its traditional forms. Whether a boy can still become a man, in the full Digo sense, through a hospital procedure that takes twenty minutes and leaves no scar on the calendar. Whether the values that jando once instilled — courage, self-discipline, solidarity, respect — can find new vessels to carry them into the lives of young Digo men who will never experience the bush camp, the elder's instruction, or the age-mate's bond.",
+      "sw": "Changamoto kwa jamii ya Wadigo, kama ilivyo na ibada nyingi za kupitia kwao, ni kama maana ya tohara inaweza kuishi kupotea kwa maumbo yake ya jadi. Kama mvulana bado anaweza kuwa mtu mzima, kwa maana kamili ya Wadigo, kupitia utaratibu wa hospitali unaochukua dakika ishirini na hauachi kovu kwenye kalenda. Kama thamani ambazo jando ilizipanda zamani — ujasiri, nidhamu ya kibinafsi, mshikamano, heshima — zinaweza kupata vyombo vipya kuzibeba katika maisha ya vijana wa Wadigo ambao kamwe hawatapitia kambi ya porini, mafunzo ya mzee, au kifungo cha mwenzake wa umri.",
+      "dg": "Changamoto kpwa jamii ya Adigo, dza irivyo na ibada nyinji za kutsupa kpwao, ni kama mana ya tohara inaweza kusala bada ya kuangamika kpwa maumboge ga kare. Kama mvulana bado anaweza kukala mutu mzima, kpwa mana kamili ya Chidigo, kpwa njira ya utaratibu wa hospitali unaohala dakika mirongo miiri na tauricha kovu kpwenye kalenda. Kama samani ambazo jando iriziphanda kare — ujasiri, nidhamu, mshikamano, hishima — zinaweza kuphaha vyombo viphya vya kuzitsukula kpwenye maisha ga alume adide a Adigo ambao taandatsupa kambi ya tsakani, mafundzo ga mzehe, au chifungo cha enza wa umri."
+    }
+  ]
+}

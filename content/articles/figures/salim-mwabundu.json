@@ -1,0 +1,171 @@
+{
+  "id": "figures/salim-mwabundu",
+  "published": true,
+  "title": {
+    "en": "Salim Mwabundu",
+    "sw": "Salim Mwabundu",
+    "dg": "Salim Mwabundu"
+  },
+  "subtitle": {
+    "en": "Trader, Mosque-Builder and Leader of Kaya Shonda",
+    "sw": "Mfanyabiashara, Mjenzi wa Msikiti na Kiongozi wa Kaya Shonda",
+    "dg": "Mchuuzi, Ariyedzenga Msikiti, na Chilongozi wa Kaya Shonda"
+  },
+  "meta": [
+    {
+      "en": "Era: Converted before 1880; active into the 1910s",
+      "sw": "Kipindi: Alisilimu kabla ya 1880; alikuwa hai kikazi hadi miaka ya 1910",
+      "dg": "Wakati: Wasilimu kabla ya 1880; kala anahenda kazi hadi miaka ya 1910"
+    },
+    {
+      "en": "Role: Early Digo Muslim and trader; leader of Kaya Shonda; colonial Headman of Likoni location; builder of the Bomani Mosque",
+      "sw": "Jukumu: Mmoja wa Adigo wa kwanza kuwa Waislamu, na mfanyabiashara; kiongozi wa Kaya Shonda; Mkuu wa Lokesheni wa kikoloni wa eneo la Likoni; mjenzi wa Msikiti wa Bomani",
+      "dg": "Kazi: Mmwenga wa Adigo a kpwandza kukala Aislamu, na mchuuzi; chilongozi wa Kaya Shonda; Dzumbe wa chikoloni wa lalo ra Likoni; ariyedzenga Msikiti wa Bomani"
+    },
+    {
+      "en": "Region: Likoni, on the mainland opposite Mombasa, present-day Kenya",
+      "sw": "Eneo: Likoni, bara mkabala na Mombasa, Kenya ya leo",
+      "dg": "Phatu: Likoni, bara ng'ambo ya Mombasa, Kenya ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "Likoni faces Mombasa island across a narrow stretch of water. Its Digo lived closer to the town than almost any other Digo community, and the town's traders came to them. Salim Mwabundu grew up in this setting. He started out as a small trader for Baluchi merchants, became one of the first Muslims at Likoni, built its second mosque, and ended up as both the leader of the senior local kaya and a colonial headman.",
+      "sw": "Likoni inaukabili kisiwa cha Mombasa ng'ambo ya mlango mwembamba wa bahari. Adigo wake waliishi karibu zaidi na mji kuliko karibu jamii nyingine yoyote ya Adigo, na wafanyabiashara wa mjini walikuja kwao. Salim Mwabundu alikulia katika mazingira haya. Alianza kama mfanyabiashara mdogo wa wafanyabiashara wa Kibaluchi, akawa mmoja wa Waislamu wa kwanza Likoni, akajenga msikiti wake wa pili, na mwishowe akawa kiongozi wa kaya kuu ya eneo hilo na pia Mkuu wa kikoloni.",
+      "dg": "Likoni inalengana na chisiwa cha Mombasa, na kahi yao kuna mlango mwembamba wa bahari. Adigo a Likoni kala anaishi phephi na mudzi kuriko phephi jamii yoyosi yanjina ya Adigo, na achuuzi a mudzini kala anakpwedza kpwao. Salim Mwabundu wakula phapho. Waandza dza mchuuzi mdide wa achuuzi a Chibaluchi, achikala mmwenga wa Aislamu a kpwandza Likoni, achidzenga msikiti wa phiri wa Likoni, na hata mwisho achikala chilongozi wa kaya kulu ya phatu phapho na piya Dzumbe wa chikoloni."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Nearly everything known about him comes from his grandson, Saidi bin Khalfan Mwabundu, whom the historian David Sperling interviewed at Bomani in 1987, together with a few entries in colonial records.",
+      "sw": "Karibu kila kinachojulikana kumhusu kinatoka kwa mjukuu wake, Saidi bin Khalfan Mwabundu, ambaye mwanahistoria David Sperling alimhoji Bomani mwaka 1987, pamoja na kumbukumbu chache katika rekodi za kikoloni.",
+      "dg": "Phephi mambo gosi ganagomanyikana kuhusu iye ganatuluka kpwa mdzukuluwe, Saidi bin Khalfan Mwabundu, ambaye mwanahistoria David Sperling wamuuza maswali iko Bomani mwaka 1987, phamwenga na mambo machache garigoandikpwa kpwenye kumbukumbu za chikoloni."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Kayas of Likoni",
+      "sw": "Kaya za Likoni",
+      "dg": "Makaya ga Likoni"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "By the 19th century the Digo of the Likoni area lived in four kayas: Puma, Chibuyuni, Timbwani and Shonda. A kaya was a fortified settlement and ritual centre, governed by a council of elders (*ngambi*). Its senior elder, the *mwanatsi* (\"son of the land\"), led the ceremonies and was normally chosen through the mother's line from the founding clan. The four Likoni kayas formed a federation whose elders met and made sacrifices together. Shonda came first among them. It held the earliest ancestral graves and one of the oldest protective charms (*fingo*) of the area, and ritual processions passed through the other three kayas before reaching Shonda, where the main ceremonies took place.",
+      "sw": "Kufikia karne ya 19 Adigo wa eneo la Likoni waliishi katika kaya nne: Puma, Chibuyuni, Timbwani na Shonda. Kaya ilikuwa makazi yenye ngome na kituo cha mila, yaliyoongozwa na baraza la wazee (*ngambi*). Mzee wake mkuu, *mwanatsi* (\"mwana wa nchi\"), aliongoza sherehe na kwa kawaida alichaguliwa kupitia upande wa mama kutoka ukoo ulioanzisha kaya. Kaya nne za Likoni ziliunda shirikisho ambalo wazee wake walikutana na kutoa sadaka pamoja. Shonda ilikuwa ya kwanza kati yao. Ilikuwa na makaburi ya kale zaidi ya mababu na mojawapo ya hirizi kongwe zaidi za kinga (*fingo*) katika eneo hilo, na misafara ya mila ilipita katika kaya zile nyingine tatu kabla ya kufika Shonda, ambako sherehe kuu zilifanyika.",
+      "dg": "Kufikira karne ya 19 Adigo a phatu pha Likoni kala anaishi kpwenye makaya manne: Puma, Chibuyuni, Timbwani na Shonda. Kaya kala ni chidzidzi chiricho na ngome na phatu pha mila, chirichokala chinalongozwa ni baraza ra azehe (*ngambi*). Mzehe mkpwulu wa kaya, *mwanatsi* (\"mwana wa tsi\"), kala ndiye analongoza mila, na kpwa kawaida kala anatsambulwa kpwa uphande wa mayo kula fuko ririroandzisha kaya. Makaya manne ga Likoni kala gakaungana, na azehe a makaya higo kala anakutana na kulavya sadaka phamwenga. Shonda ndiyo kala ya kpwandza kahi ya makaya higo. Kala ina mbira za kare sana za akare, na *fingo*, pingu ya kurinda, ambayo ni mwenga wa pingu za kare zaidi za phatu phapho. Misafara ya mila kala inatsupa kpwenye makaya ganjina mahahu kabla ya kufika Shonda, ambapho mila kulu kala zinahendwa."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Muslims did not live at Likoni in the early 19th century, though Kilindini Swahili from Mombasa farmed there. In 1837 the Sultan of Zanzibar posted Baluchi soldiers at Mombasa, and they soon began trading with the Digo. Some took Digo wives. With no Digo market at Likoni, traders laid out their goods near the shore.",
+      "sw": "Waislamu hawakuishi Likoni mwanzoni mwa karne ya 19, ingawa Waswahili wa Kilindini kutoka Mombasa walilima huko. Mwaka 1837 Sultani wa Zanzibar aliweka askari wa Kibaluchi Mombasa, na punde wakaanza kufanya biashara na Adigo. Baadhi yao walioa wake wa Kidigo. Kwa kuwa hapakuwa na soko la Adigo Likoni, wafanyabiashara walipanga bidhaa zao karibu na ufuo.",
+      "dg": "Aislamu kala taaishi Likoni mwandzo wa karne ya 19, ela Aswahili a Kilindini kula Mombasa kala anarima iko. Mwaka 1837 Sultani wa Zanzibar waika asikari a Chibaluchi Mombasa, nao chisha aandza kuhenda biashara na Adigo. Anjina ao alola achetu a Chidigo. Kpwa vira kala takuna chete cha Adigo Likoni, achuuzi kala anaika vitu vyao phephi na pwani."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "A Trader and a Convert",
+      "sw": "Mfanyabiashara na Mwislamu Mpya",
+      "dg": "Mchuuzi na Mwislamu Muphya"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Salim Mwabundu was converted by the Baluchi \"while still a young man, before he had married, some time before 1880\". His grandson remembered how it happened:",
+      "sw": "Salim Mwabundu alisilimishwa na Wabaluchi \"alipokuwa bado kijana, kabla hajaoa, wakati fulani kabla ya 1880\". Mjukuu wake alikumbuka jinsi ilivyotokea:",
+      "dg": "Salim Mwabundu wasilimu kpwa Abaluchi \"wakati kala achere barobaro, kabla kadzangbwelola, wakati fulani kabla ya 1880\". Mdzukuluwe watambukira namna dzambo riro ririvyohendeka:"
+    },
+    {
+      "id": "b008",
+      "type": "quote",
+      "en": "He started out trading with the Baluchi in a small way. Then, when he became a Muslim, they had more confidence in him, so trading increased.",
+      "sw": "Alianza kwa kufanya biashara ndogo na Wabaluchi. Kisha, alipokuwa Mwislamu, walimwamini zaidi, kwa hiyo biashara ikaongezeka.",
+      "dg": "Waandza kuhenda biashara na Abaluchi chidide-chidide. Chisha, ariphokala Mwislamu, amuamini zaidi, phahi biashara yaenjerezeka."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "On market days he went with the Baluchi to Ngare's market at Pungu, and they gave him money to buy baskets, mats and skins. Traders named Muradi and Maluki came to him. Muradi bought goats at Chinango and brought them to Mwabundu's place for the night, before taking them across to Mombasa the next morning.",
+      "sw": "Siku za soko alikwenda pamoja na Wabaluchi kwenye soko la Ngare huko Pungu, nao walimpa pesa za kununua vikapu, mikeka na ngozi. Wafanyabiashara walioitwa Muradi na Maluki walikuja kwake. Muradi alinunua mbuzi Chinango na kuwaleta nyumbani kwa Mwabundu walale huko usiku, kabla ya kuwavusha hadi Mombasa asubuhi iliyofuata.",
+      "dg": "Siku za chete kala anaphiya phamwenga na Abaluchi kpwenye chete cha Ngare iko Pungu, nao kala anamupha pesa za kugula vikaphu, micheka na chingo. Achuuzi airi, Muradi na Maluki, kala anakpwedza kpwakpwe. Muradi kala anagula mbuzi Chinango na kuarehera kpwa Mwabundu alale usiku, kabla ya kuavusa kuphiya Mombasa ligundzu ra siku iriyolunga."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "There was no mosque at Likoni then. Like other Digo converts, Mwabundu went to Mombasa for Friday prayers and for Ramadhan. He is said to have prayed at the Khonzi Mosque, where the Imam taught him how to give the Friday sermon (*khutba*).",
+      "sw": "Wakati huo hapakuwa na msikiti Likoni. Kama Adigo wengine waliosilimu, Mwabundu alikwenda Mombasa kwa sala ya Ijumaa na kwa Ramadhani. Inasemekana alisali katika Msikiti wa Khonzi, ambako Imamu alimfundisha jinsi ya kutoa hotuba ya Ijumaa (*khutba*).",
+      "dg": "Wakati uo kala takuna msikiti Likoni. Dza Adigo anjina ariokala akasilimu, Mwabundu kala anaphiya Mombasa kpwa swala ya Ijumaa na kpwa Ramadhani. Nkugombwa kukala kala anaswali Msikiti wa Khonzi, ambapho Imamu wamfundza namna ya kulavya hotuba ya Ijumaa (*khutba*)."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Teachers and Mosques",
+      "sw": "Walimu na Misikiti",
+      "dg": "Alimu na Misikiti"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "In the early 1890s Mwabundu sent his eldest son, Khalfan, to study the Qur'an. Khalfan's first teacher was Mbwana bin Ali Mwarako, a Digo from Tanga who was teaching at Likoni. He then studied in Mombasa, and finally at Pongwe with Bakari Mwanjama, a Segeju teacher and a friend of his father. He was still at Pongwe when it was destroyed in October 1895, in the fighting between the British and Shaykh Mbaruk of Gasi, and his teacher moved with his pupils to Ramisi.",
+      "sw": "Mwanzoni mwa miaka ya 1890 Mwabundu alimpeleka mwanawe wa kwanza, Khalfan, kusoma Qurani. Mwalimu wa kwanza wa Khalfan alikuwa Mbwana bin Ali Mwarako, Mdigo kutoka Tanga aliyekuwa akifundisha Likoni. Kisha alisoma Mombasa, na mwishowe Pongwe kwa Bakari Mwanjama, mwalimu Msegeju na rafiki wa baba yake. Alikuwa bado Pongwe ilipoharibiwa Oktoba 1895, katika mapigano kati ya Waingereza na Shaykh Mbaruk wa Gasi, na mwalimu wake alihamia Ramisi pamoja na wanafunzi wake.",
+      "dg": "Mwandzo wa miaka ya 1890 Mwabundu wamhuma mwanawe mvugula, Khalfan, akasome Kuruani. Mwalimu wa kpwandza wa Khalfan kala ni Mbwana bin Ali Mwarako, Mdigo wa Tanga ariyekala anafundza Likoni. Chisha Khalfan wasoma Mombasa, na mwisho Pongwe kpwa Bakari Mwanjama, mwalimu Msegeju na msena wa ise. Khalfan kala achere iko Pongwe iriphobanangwa mwezi wa Oktoba 1895, kahi za viha kahi ya Aingereza na Shaykh Mbaruk wa Gasi, na mwalimuwe watsama phamwenga na anafundzie kuphiya Ramisi."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "In 1899 Khamis Dzubgwe built Likoni's first mosque, the Riyadha Mosque. When Khalfan came home he became its Imam. In about 1909 Salim Mwabundu built the second, the Bomani Mosque, after first digging a well nearby with the help of a Bohora Muslim from Mombasa. Khalfan left the Riyadha Mosque to become the first Imam at Bomani, and after the First World War he opened a Qur'an school there. A government list of mosques in 1913 records one belonging to \"Salim wa Bundu\".",
+      "sw": "Mwaka 1899 Khamis Dzubgwe alijenga msikiti wa kwanza wa Likoni, Msikiti wa Riyadha. Khalfan aliporudi nyumbani akawa Imamu wake. Karibu mwaka 1909 Salim Mwabundu alijenga msikiti wa pili, Msikiti wa Bomani, baada ya kwanza kuchimba kisima karibu nao kwa msaada wa Mwislamu wa Kibohora kutoka Mombasa. Khalfan aliuacha Msikiti wa Riyadha akawa Imamu wa kwanza wa Bomani, na baada ya Vita vya Kwanza vya Dunia alifungua chuo cha Qurani huko. Orodha ya serikali ya misikiti ya mwaka 1913 inataja msikiti mmoja wa \"Salim wa Bundu\".",
+      "dg": "Mwaka 1899 Khamis Dzubgwe wadzenga msikiti wa kpwandza wa Likoni, Msikiti wa Riyadha. Khalfan ariphouya kpwakpwe kaya wakala Imamu wa msikiti uo. Kama mwaka 1909 Salim Mwabundu wadzenga msikiti wa phiri, Msikiti wa Bomani, bada ya kutsimba kpwandza chisima phephi naho kpwa msada wa Mwislamu wa Chibohora kula Mombasa. Khalfan wauricha Msikiti wa Riyadha achikala Imamu wa kpwandza wa Bomani, na bada ya Viha vya Kpwandza vya Dunia wavugula chuo cha Kuruani iko. Orodha ya serikali ya misikiti ya mwaka 1913 inahadza msikiti mmwenga wa \"Salim wa Bundu\"."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Under British Rule",
+      "sw": "Chini ya Utawala wa Waingereza",
+      "dg": "Tsini ya Utawala wa Aingereza"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Sperling records that Mwabundu became leader of Kaya Shonda and Headman of Likoni location, but the sources consulted do not say when he took either post. Colonial files give a few more glimpses. In 1913 he was the only Digo at Likoni with a Native Liquor Trading Licence. When the government invited land claims south of Mombasa in 1914, he was among the prominent Digo who applied for title deeds. From Likoni and Mtongwe, 96 people filed 149 claims.",
+      "sw": "Sperling anaandika kwamba Mwabundu alikuwa kiongozi wa Kaya Shonda na Mkuu wa eneo la Likoni, lakini vyanzo vilivyotumika havisemi lini alishika cheo chochote kati ya hivyo. Mafaili ya kikoloni yanatoa picha chache zaidi. Mwaka 1913 alikuwa Mdigo pekee wa Likoni aliyekuwa na Leseni ya Biashara ya Pombe ya Kienyeji. Serikali ilipowaalika watu kuwasilisha madai ya ardhi kusini ya Mombasa mwaka 1914, alikuwa miongoni mwa Adigo mashuhuri walioomba hati za kumiliki ardhi. Kutoka Likoni na Mtongwe, watu 96 waliwasilisha madai 149.",
+      "dg": "Sperling anaandika kukala Mwabundu wakala chilongozi wa Kaya Shonda na Dzumbe wa lalo ra Likoni, ela vyanzo virivyohumirwa taviamba ni rini ariphophaha vyeo vivi. Mafaili ga chikoloni ganaonyesa mambo machache zaidi. Mwaka 1913 iye bahi ndiye kala Mdigo wa Likoni ariyekala na Leseni ya Biashara ya Uchi wa Chienyeji. Serikali iriphoiha atu alavye madai ga aridhi kusini ya Mombasa mwaka 1914, iye kala ni mmwenga wa Adigo mashuhuri ariovoya hati za kumiliki aridhi. Kula Likoni na Mtongwe, atu 96 alavya madai 149."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "How the Record Survives",
+      "sw": "Jinsi Kumbukumbu Zilivyodumu",
+      "dg": "Namna Kumbukumbu Zirivyosala"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "No date of birth or death for Mwabundu has been found. His story survives mainly through one family memory, passed from grandfather to grandson, and through a handful of government lists. It is not known how he balanced the ritual duties of Kaya Shonda with his life as a Muslim. Sperling found that Digo Muslim elders elsewhere, such as Abdallah Mwapodzo at Diani, went on leading kaya ceremonies, but he gives no such detail for Shonda.",
+      "sw": "Hakuna tarehe ya kuzaliwa wala ya kufariki kwa Mwabundu iliyopatikana. Habari zake zimedumu hasa kupitia kumbukumbu moja ya familia, iliyopokezwa kutoka kwa babu hadi kwa mjukuu, na kupitia orodha chache za serikali. Haijulikani jinsi alivyosawazisha majukumu ya mila ya Kaya Shonda na maisha yake kama Mwislamu. Sperling aligundua kwamba wazee Waislamu wa Kidigo kwingineko, kama Abdallah Mwapodzo wa Diani, waliendelea kuongoza sherehe za kaya, lakini hatoi maelezo kama hayo kuhusu Shonda.",
+      "dg": "Takuna tarehe ya kuvyalwa wala ya kufwa kpwa Mwabundu iriyophahikana. Adisiye ikasala hasa kpwa kumbukumbu mwenga ya mbari, iriyotsapizwa kula kpwa tsawe hadi kpwa mdzukulu, na kpwa orodha chache za serikali. Taimanyikana namna arivyoweza kuhenda mila za Kaya Shonda phamwenga na maishage dza Mwislamu. Sperling waona kukala azehe a Chidigo Aislamu phanjina, dza Abdallah Mwapodzo iko Diani, aenderera kulongoza mila za kaya, ela kaamba chitu dza hicho kuhusu Shonda."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi",
+      "dg": "Urisi"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Salim Mwabundu's life follows a path that Sperling saw again and again south of Mombasa. Trade with town Muslims led to conversion. The convert stayed in his village, and in time he built a mosque there and sent his son to be educated. The Bomani Mosque and the school his son started brought Islam into Likoni's own neighbourhoods. His grandson was still living at Bomani when Sperling met him in 1987.",
+      "sw": "Maisha ya Salim Mwabundu yanafuata njia ambayo Sperling aliiona tena na tena kusini ya Mombasa. Biashara na Waislamu wa mjini iliongoza kwenye kusilimu. Aliyesilimu alibaki kijijini kwake, na baada ya muda akajenga msikiti huko na kumpeleka mwanawe kusoma. Msikiti wa Bomani na chuo alichokianzisha mwanawe viliuleta Uislamu katika mitaa ya Likoni yenyewe. Mjukuu wake alikuwa bado akiishi Bomani Sperling alipokutana naye mwaka 1987.",
+      "dg": "Maisha ga Salim Mwabundu ganalunga njira ambayo Sperling waiona tsona na tsona kusini ya Mombasa. Biashara na Aislamu a mudzini yalongoza atu kusilimu. Mutu ariyesilimu wasala kpwakpwe chidzidzini, na bada ya muda wadzenga msikiti iko na kumhuma mwanawe akasome. Msikiti wa Bomani na chuo arichoandzisha mwanawe vyareha Uislamu kahi za mitaa ya Likoni. Mdzukuluwe kala achere anaishi Bomani Sperling ariphokutana naye mwaka 1987."
+    }
+  ],
+  "sources": [
+    "David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, School of Oriental and African Studies, University of London, 1988. Ch. IV, pp. 105–107 (Likoni kayas, Baluchi traders, Salim Mwabundu, Likoni mosques) and p. 133 (1914–15 land claims); Ch. II, pp. 64–65 (Likoni before 1865); Ch. I, p. 31 (kaya and ngambi). Full text: https://su-plus.strathmore.edu/server/api/core/bitstreams/d1de38b9-24f8-4de8-ae6d-c800cc8d657b/content",
+    "Kenya National Archives, as cited by Sperling: \"Native Liquor Trade Licenses, Tiwi District, 1913\" and \"List of Mosques in Tiwi District, 1913\" (DC/MSA/8/2); District Officer, Vanga, to Sub-Commissioner, Mombasa, 23 October 1895 (burning of Pongwe).",
+    "Oral testimony recorded by Sperling: Saidi bin Khalfan Mwabundu, Bomani, Likoni (15 May 1987); Bakari Mgumba, Likoni (2 May 1986); Ma'allim Husayn Ahmad Rajab, Kibokoni (1 December 1987)."
+  ]
+}

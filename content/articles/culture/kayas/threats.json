@@ -1,0 +1,169 @@
+{
+  "id": "culture/kayas/threats",
+  "title": {
+    "en": "Threats to the Kayas",
+    "sw": "Hatari kwa Makaya",
+    "dg": "Hatari kpwa Makaya"
+  },
+  "intro": {
+    "en": "The sacred kayas have survived centuries of war, migration, and colonial disruption. What they may not survive is the twenty-first century. The threats converging on the Mijikenda kaya forests — and…",
+    "sw": "Makaya matakatifu yamenusurika karne za vita, uhamisho, na usumbufu wa kikoloni. Kinachoweza kusababisha uharibifu wao ni karne ya ishirini na moja. Hatari zinazokusanyika kwenye misitu ya makaya ya…",
+    "dg": "Makaya matakatifu gakatsupa karne za vita, kutsama, na usumbufu wa chikoloni. Chinachoweza kugabananga ni karne ya ishirini na mwenga. Hatari zinazokusanyika kpwa matsaka ga makaya ga…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Siege From Every Side",
+      "sw": "Kuzingirwa Kutoka Kila Upande",
+      "dg": "Kuzingirwa Kula Chila Uphande"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The sacred kayas have survived centuries of war, migration, and colonial disruption. What they may not survive is the twenty-first century. The threats converging on the Mijikenda kaya forests — and on the Digo kayas in particular — come from every direction simultaneously: from the real estate developers clearing land for beach resorts, from the mining companies prospecting beneath sacred hills, from the climate change altering the rainfall that sustains the canopy, and from the quiet attrition of a generation of elders dying without passing their knowledge to successors.",
+      "sw": "Makaya matakatifu yamenusurika karne za vita, uhamisho, na usumbufu wa kikoloni. Kinachoweza kusababisha uharibifu wao ni karne ya ishirini na moja. Hatari zinazokusanyika kwenye misitu ya makaya ya Mijikenda — na hasa kwa makaya ya Wadigo — zinatoka kila upande kwa wakati mmoja: kutoka kwa waendelezaji wa mali wanaosafisha ardhi kwa hoteli za pwani, makampuni ya madini yanayotafuta chini ya milima mitakatifu, mabadiliko ya hali ya hewa yanayobadilisha mvua inayodumisha dari ya msitu, na kupungua kwa kimya kwa kizazi cha wazee wanaokufa bila kupitisha maarifa yao kwa warithi.",
+      "dg": "Makaya matakatifu gakatsupa karne za vita, kutsama, na usumbufu wa chikoloni. Chinachoweza kugabananga ni karne ya ishirini na mwenga. Hatari zinazokusanyika kpwa matsaka ga makaya ga Amijikenda — na hasa makaya ga Adigo — zinakpwedza kula chila uphande kpwa wakati mmwenga: kula kpwa aendelezaji a mali anaotsusa tsi kpwa hoteli za pwani, makampuni ga madini ganagohendza madini photsi ya miango mitakatifu, mabadiliko ga hali ya hewa ganagobadilisha mvula inayodumisha dari ya tsaka, na kuphunguka kpwa chimya kpwa chizazi cha azehe anaofwa bila kutsapiza marifwa gao kpwa ario nyuma."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Kaya Diani — A Case Study in Destruction",
+      "sw": "Kaya Diani — Mfano wa Uharibifu",
+      "dg": "Kaya Diani — Mfwano wa Ubanangi"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The most devastating loss has already occurred. Kaya Diani, once a twenty-hectare sacred forest, has been reduced to fragments by hotel and tourism development. The forest that once protected the kaya — the dense buffer zone that was taboo to cut — has been cleared for beach resort construction, leaving only isolated pockets of vegetation where continuous canopy once stood.",
+      "sw": "Hasara kubwa zaidi tayari imetokea. Kaya Diani, ambayo iliwahi kuwa msitu mtakatifu wa hekta ishirini, imepunguzwa kuwa vipande na maendeleo ya hoteli na utalii. Msitu uliowahi kulinda kaya umesafishwa kwa ujenzi wa hoteli za pwani, ukiacha vipande tu vya mmea ambapo dari endelevu iliwahi kusimama.",
+      "dg": "Hasara kulu zaidi tayari ikazuka. Kaya Diani, ambayo kala ni tsaka takatifu ra hekta ishirini, ikaphungulwa hadi kukala vipande kpwa sababu ya maendeleo ga hoteli na utalii. Tsaka ririrokala rinarinda kaya — tsaka ririrosongamana ambaro kala ni mwiko kuritsusa — rikatsuswa kpwa kudzenga hoteli za pwani, na phatu ambapho dari ya mihi kala inaenderera bila kukatika phakasala vipande vidide tu vya mimea."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Kaya Diani is not an ancient ruin. It is a living wound. The elders who remember the forest intact are still alive. They can describe the trees that stood where a hotel swimming pool now sits, the paths that wound through forest that is now a car park, the clearing where ceremonies were performed that is now a building site. The destruction of Kaya Diani is not a historical event. It is an ongoing trauma, renewed every time an elder passes the site and sees what has been taken.",
+      "sw": "Kaya Mrima — Mgongano wa Madini Adimu",
+      "dg": "Kaya Diani si gofu ra kare. Ni chironda hai. Azehe anaotambukira tsaka ririphokala zima bado a moyo. Anaweza kueleza mihi iriyokala inaima phatu ambapho sasa phana bwawa ra kuojorera ra hoteli, njira zirizokala zinazunguluka ndani ya tsaka ambaro sasa ni phatu pha kuika magari, na uwanja ambapho sherehe zahendwa ambao sasa ni phatu pha kudzenga. Ubanangi wa Kaya Diani si dzambo ra historia. Ni utsungu unaoenderera, unaozuka luphya chila mzehe anaphotsupa phatu phara na kuona chirichohalwa."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The destruction of Kaya Diani carries a specific cost beyond the ecological and the cultural. When a kaya's physical site is destroyed, the oral history anchored to that site becomes abstract. An elder explaining the layout of a kaya while standing in its clearing is performing a powerful act of historical transmission. An elder describing a kaya they can no longer visit is telling a story about a place that exists only in memory — and memory, without physical anchors, fades.",
+      "sw": "Labda hatari kuu zaidi kwa eneo takatifu la Wadigo ni ile inayokabili Kaya Mrima. Kilima ambacho kaya hii inakaa juu yake kina mojawapo ya amana kubwa zaidi duniani ya madini adimu, yenye thamani ya takriban shilingi trilioni nane za Kenya. Kilima kinashikilia hadi mahekalu saba matakatifu yaliyokuwa yakitumika mfululizo kwa zaidi ya miaka 1,300. Makampuni mawili ya uchimbaji ya Australia yametafuta leseni za utafiti.",
+      "dg": "Ubanangi wa Kaya Diani una gharama maalum zaidi ya ya chiikolojia na ya chimila. Phatu pha kaya phachibanangwa, historia ya mromo iriyogbwirana na phatu phara inakala ya chidhana tu. Mzehe anayeeleza mpangilio wa kaya achiima ndani ya kaya iyo anahenda chitendo chikulu cha kutsapiza historia. Mzehe anayeeleza kaya ambayo kaweza tena kuiphiya anagomba hadithi ya phatu phanaphokala kpwenye kumbukumbu tu — na kumbukumbu, bila alama za kuigbwira, inafifia."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Kaya Mrima — The Rare Earth Collision",
+      "sw": "Pengo la Maarifa",
+      "dg": "Kaya Mrima — Mgongano wa Madini Adimu"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Perhaps the single greatest threat to a Digo sacred site is the one facing Kaya Mrima. The hill on which this kaya sits contains one of the world's largest deposits of rare earth minerals, valued at approximately eight trillion Kenya shillings — over sixty billion US dollars. The hill holds up to seven sacred shrines that have been in continuous use for over 1,300 years. Two Australian mining firms have sought prospecting permits.",
+      "sw": "Hatari isiyoweza kurudishwa zaidi inaweza kuwa ile ambayo haifanyi kelele yoyote: kupotea kwa polepole kwa maarifa ya wazee. Msitu unaweza kubaki umesimama. Lakini kaya bila wazee wake ni msitu bila maana yake — wenye thamani ya kiikolojia, labda, lakini tupu kiroho.",
+      "dg": "Hatari kulu zaidi kpwa eneo takatifu ra Adigo ni hira inayokabili Kaya Mrima. Mwango ambao kaya hino i dzuluye una mwenga wa amana kulu zaidi duniani ya madini adimu, yenye samani ya kama shilingi trilioni nane za Kenya — zaidi ya dola bilioni sitini za Chimarekani. Mwango hinyo una hadi mahekalu saba matakatifu garigokala ganahumirwa bila kurichwa kpwa zaidi ya miaka 1,300. Makampuni mairi ga madini ga Australia gakavoya vibali vya kuhendza madini."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This is not a nuanced conflict. It is a direct collision between the logic of extractive industry — which sees a hill as a resource to be mined — and the logic of ancestral reverence — which sees the same hill as a dwelling place of spirits that have protected the community for more than a millennium. There is no compromise position that satisfies both. You cannot mine half a sacred hill.",
+      "sw": "Hii si mgongano wa upole. Ni mgongano wa moja kwa moja kati ya mantiki ya sekta ya uchimbaji — ambayo inaona kilima kama rasilimali ya kuchimbwa — na mantiki ya heshima ya mababu — ambayo inaona kilima kile kile kama makazi ya roho ambazo zimelinda jamii kwa zaidi ya milenia. Hakuna msimamo wa maelewano unaoweza kutosheleza zote mbili. Huwezi kuchimba nusu ya kilima takatifu.",
+      "dg": "Hiri si mgongano wa upole. Ni mgongano wa mwenga kpwa mwenga kahi ya mantiki ya sekta ya kutsimba madini — ambayo inaona mwango dza mali ya kutsimbwa — na mantiki ya hishima ya akare — ambayo inaona mwango hinyo hinyo dza makalo ga roho ambazo zikarinda jamii kpwa zaidi ya milenia. Takuna msimamo wa maelewano unaoweza kuatosheleza osi airi. Kuweza kutsimba nusu ya mwango mtakatifu."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The Kaya Mrima case has drawn attention from heritage organisations, environmental groups, and international media. It has also exposed the limits of heritage protection in Kenya. The kaya is gazetted as a National Monument. But gazettal does not prevent a government from issuing a mining licence, particularly when the economic stakes run into billions. The elders' authority is spiritual. The mining company's authority is financial. In the contest between the two, the outcome is not predetermined — but the odds are not equal.",
+      "sw": "Kesi ya Kaya Mrima imevutia umakini kutoka mashirika ya urithi, makundi ya mazingira, na vyombo vya habari vya kimataifa. Pia imeonyesha mipaka ya ulinzi wa urithi nchini Kenya. Kaya imeorodheshwa kama Mnara wa Kitaifa. Lakini kuorodheshwa hakuzuii serikali kutoa leseni ya uchimbaji, hasa wakati hatari za kiuchumi zinafikia mabilioni. Mamlaka ya wazee ni ya kiroho. Mamlaka ya kampuni ya uchimbaji ni ya kifedha. Katika ushindani kati ya hizo mbili, matokeo hayaamuliwi mapema — lakini nafasi si sawa.",
+      "dg": "Kesi ya Kaya Mrima ikamweha matso ga mashirika ga urithi, makundi ga mazingira, na vyombo vya habari vya chimataifa. Piya ikaonyesa miphaka ya urinzi wa urithi kpwa Kenya. Kaya ikaorodheshwa dza Mnara wa Chitaifa. Ela kuorodheshwa takuzuwiya serikali kulavya leseni ya kutsimba madini, hasa wakati mali iriyo hatarini inafika mabilioni. Mamlaka ga azehe ni ga chiroho. Mamlaka ga kampuni ya kutsimba madini ni ga chifedha. Kpwa ushindani kahi ya higo mairi, matokeo tagakaamulwa kare — ela nafwasi si sawa."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Base Titanium — Lessons From Kwale",
+      "sw": "Base Titanium — Masomo Kutoka Kwale",
+      "dg": "Base Titanium — Masomo Kula Kwale"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The experience of Base Titanium's mining operation in Kwale County — which ran from 2013 to its closure in December 2024 — provides a concrete case study in the impact of extractive industry on Digo communities. The mine generated approximately 279 million US dollars annually and employed local workers. It also displaced more than three thousand residents, destroyed coconut groves, cashew plantations, and mango orchards, and left communities demanding compensation, relocation frameworks, and cultural protections that were never adequately provided.",
+      "sw": "Uzoefu wa operesheni ya uchimbaji ya Base Titanium katika Kaunti ya Kwale — iliyoanza mwaka 2013 hadi kufungwa kwake Desemba 2024 — inatoa mfano halisi wa athari za sekta ya uchimbaji kwa jamii za Wadigo. Mgodi ulizalisha takriban dola milioni 279 za Kimarekani kwa mwaka na kuajiri wafanyakazi wa ndani. Pia ulihamisha wakazi zaidi ya elfu tatu, kuharibu mashamba ya nazi, korosho, na embe, na kuacha jamii ikidai fidia, mifumo ya uhamishaji, na ulinzi wa kitamaduni ambao haukutolewa vya kutosha kamwe.",
+      "dg": "Uzoefu wa kazi ya kutsimba madini ya Base Titanium kpwa Kaunti ya Kwale — iriyoandza mwaka 2013 hadi kufungwa Desemba 2024 — unalavya mfwano halisi wa athari za sekta ya kutsimba madini kpwa jamii za Adigo. Mgodi wazalisha kama dola milioni 279 za Chimarekani kpwa mwaka na waajiri ahendaji-kazi a phephi. Piya watsamisa akazi zaidi ya elfu hahu, wabananga minda ya nazi, ngorosho, na maembe, na wasaza jamii zichidai fidia, mipango ya kutsamiswa, na urinzi wa chimila ambao taukulavywa kamwe kpwa chiasi cha kutosha."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Base Titanium's closure left behind a landscape of red earth, rehabilitation zones with young plantings, and unpaid royalties estimated at 900 million Kenya shillings. The post-mining reality — degraded land, disrupted livelihoods, broken promises — stands as a warning for what could happen at Kaya Mrima on a vastly larger scale.",
+      "sw": "Kufungwa kwa Base Titanium kumeacha mandhari ya udongo mwekundu, maeneo ya ukarabati yenye upandaji mchanga, na malipo ya mrahaba ambayo hayajalipwa yanayokadiriwa kuwa shilingi milioni 900 za Kenya. Ukweli wa baada ya uchimbaji — ardhi iliyoharibika, maisha yaliyovurugwa, ahadi zilizovunjwa — unasimama kama onyo la kile kinachoweza kutokea katika Kaya Mrima kwa kiwango kikubwa zaidi.",
+      "dg": "Kufungwa kpwa Base Titanium kukasaza mandhari ya ulongo wa kundu, maeneo ga ukarabati genye mimea michanga, na malipo ga mrahaba ambago tagaripwa ganagokadiriwa kukala shilingi milioni 900 za Kenya. Ukpweli wa bada ya kutsimba madini — tsi iriyobanangika, maisha garigobanangika, ahadi zisizotimizwa — unaima dza onyo ra chirichoweza kuzuka Kaya Mrima kpwa chiwango chikulu zaidi."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Climate Change — The Invisible Threat",
+      "sw": "Mabadiliko ya Hali ya Hewa — Hatari Isiyoonekana",
+      "dg": "Mabadiliko ga Hali ya Hewa — Hatari Isiyoonekana"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Less visible than development and mining, but potentially more devastating in the long term, is the impact of climate change on kaya forests. Altered rainfall patterns are changing the water balance that sustains the forest canopy. Many rivers that once fed kaya forests have dried up or become seasonal. More frequent and intense heat waves stress the trees, particularly the oldest specimens — the very trees that carry the most ecological and cultural significance.",
+      "sw": "Isiyo ya wazi kama maendeleo na uchimbaji, lakini inayoweza kuwa yenye uharibifu zaidi kwa muda mrefu, ni athari za mabadiliko ya hali ya hewa kwenye misitu ya makaya. Mifumo ya mvua iliyobadilishwa inabadilisha usawa wa maji unaodumisha dari ya msitu. Mito mingi iliyowahi kulisha misitu ya makaya imekauka au imekuwa ya msimu. Mawimbi ya joto ya mara kwa mara na makali zaidi yanasisitiza miti, hasa miti ya zamani zaidi — miti ile ile inayobeba umuhimu mkubwa wa kiikolojia na kitamaduni.",
+      "dg": "Isiyoonekana dza maendeleo na kutsimba madini, ela inayoweza kukala na ubanangi zaidi kpwa muda mure, ni athari za mabadiliko ga hali ya hewa kpwa matsaka ga makaya. Mpangilio wa mvula uriobadilika unabadilisha usawa wa madzi unaodumisha dari ya matsaka. Miho minji iriyokala inarisa matsaka ga makaya ikaswena au ikakala ya musimu. Mawimbi ga dzoho ga mara kpwa mara na makali zaidi ganatesa mihi, hasa mihi ya kare zaidi — mihi hira hira inayotsukula umuhimu mkpwulu zaidi wa chiikolojia na wa chimila."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Storm surges are encroaching on coastal kayas. Longer dry seasons are making the forests more vulnerable to fire — a threat that was historically almost unknown in the humid coastal forest belt. The kayas evolved under specific climatic conditions. As those conditions shift, the forests will change — and not all species will survive the transition.",
+      "sw": "Mawimbi ya dhoruba yanaingia kwenye makaya ya pwani. Misimu mirefu ya kiangazi inafanya misitu kuwa hatarini zaidi kwa moto — tishio ambalo kihistoria halikufahamika katika ukanda wa msitu wa pwani wenye unyevu. Makaya yalikua chini ya hali mahususi za hewa. Hali hizo zinapobadilika, misitu itabadilika — na si aina zote zitanusurika mpito huo.",
+      "dg": "Mawimbi ga dhoruba ganainjira makaya ga pwani. Misimu mire ya kazikazi inahenda matsaka kukala hatarini zaidi kpwa moho — hatari ambayo kare tayamanyikana kpwenye ukanda wa matsaka ga pwani genye unyevu. Makaya gakulira photsi ya hali mahususi za hewa. Hali hizo zichibadilika, matsaka gandabadilika — na si aina zosi zindatsupa mabadiliko hinyo."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "The Knowledge Gap",
+      "sw": "Pengo la Maarifa",
+      "dg": "Pengo ra Marifwa"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The most irreversible threat may be the one that makes no noise at all: the steady loss of elder knowledge. As initiated elders die and young Digo people move to Mombasa, Nairobi, or further afield, the specific ceremonial knowledge associated with each kaya — which prayers to recite, which plants to use, which paths to follow, which spirits to address — is thinning. The eleven levels of the Ngambi hierarchy require decades of apprenticeship. If the pipeline of young initiates dries up, the governance structure that has protected the kayas for centuries will hollow out from within.",
+      "sw": "Hatari isiyoweza kurudishwa zaidi inaweza kuwa ile ambayo haifanyi kelele yoyote: kupotea kwa polepole kwa maarifa ya wazee. Kadri wazee walioingizwa wanavyokufa na vijana wa Wadigo wanavyohamia Mombasa, Nairobi, au mbali zaidi, maarifa maalum ya sherehe yanayohusiana na kila kaya — sala zipi za kusoma, mimea ipi ya kutumia, njia zipi za kufuata, roho zipi za kushughulikia — yanapungua. Ngazi kumi na moja za daraja la Ngambi zinahitaji miongo ya kuanzishwa. Ikiwa mfereji wa vijana wanaoingizwa unakauka, muundo wa utawala uliowahifadhi makaya kwa karne nyingi utaondoka ndani.",
+      "dg": "Hatari isiyoweza kuuyizwa zaidi inaweza kukala hira ambayo taihenda kululu yoyosi: kuangamika pore-pore kpwa marifwa ga azehe. Wakati azehe arioinjizwa anafwa na barobaro a Adigo anasafiri Mombasa, Nairobi, au kure zaidi, marifwa maalum ga sherehe ganagohusiana na chila kaya — mavoyo gani ga kusoma, mimea gani ya kuhumira, njira gani za kulunga, roho gani za kugomba nazo — ganaphunguka. Ngazi kumi na mwenga za daraja ra Ngambi zinahitaji miaka mirongo ya kufundzwa. Ichikala mfereji wa barobaro anaoinjizwa unauma, muundo wa utawala uriorinda makaya kpwa karne nyinji undasala tupu ndani."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The forest may remain standing. The UNESCO plaque may stay polished. But a kaya without its elders is a forest without its meaning — ecologically valuable, perhaps, but spiritually empty. And it is the spiritual value that has protected the ecological value for all these centuries. Remove one and the other is exposed.",
+      "sw": "Msitu unaweza kubaki umesimama. Bati la UNESCO linaweza kubaki likimetameta. Lakini kaya bila wazee wake ni msitu bila maana yake — wenye thamani ya kiikolojia, labda, lakini tupu kiroho. Na ni thamani ya kiroho ambayo imehifadhi thamani ya kiikolojia kwa karne hizi zote. Ondoa moja na nyingine inabaki wazi.",
+      "dg": "Tsaka rinaweza kusala rikaima. Bati ra UNESCO rinaweza kusala richimeka-meka. Ela kaya isiyo na azehe ni tsaka risilo na maanaye — renye samani ya chiikolojia, pengine, ela tupu kpwa chiroho. Na ni samani ya chiroho ambayo ikarinda samani ya chiikolojia kpwa karne hizi zosi. Uchiusa mwenga, wanjina unakala wazi."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Conservation — What Is Being Done",
+      "sw": "Uhifadhi — Kinachofanywa",
+      "dg": "Uhifadhi — Chirichohendwa"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The picture is not entirely bleak. The National Museums of Kenya manages the gazetted kayas as National Monuments. Mijikenda Kaya Elders associations advocate for protection in policy forums and participate in UNESCO heritage management processes. The Kaya Chinondo ecotourism model demonstrates that community-managed conservation can work — that revenue from visitors can support both elder welfare and forest maintenance. WWF and other conservation NGOs provide technical and financial support for boundary demarcation, community engagement, and sustainable use planning.",
+      "sw": "Picha si ya giza kabisa. Makumbusho ya Kitaifa ya Kenya yanasimamia makaya yaliyoorodheshwa kama Minara ya Kitaifa. Vyama vya Wazee wa Makaya ya Kimijikenda vinatetea ulinzi katika vikao vya sera na kushiriki katika michakato ya usimamizi wa urithi wa UNESCO. Mfano wa utalii wa kiikolojia wa Kaya Chinondo unaonyesha kwamba uhifadhi unaosimamiwa na jamii unaweza kufanya kazi — kwamba mapato kutoka wageni yanaweza kusaidia ustawi wa wazee na utunzaji wa msitu. WWF na mashirika mengine ya uhifadhi yanatoa msaada wa kiufundi na wa kifedha kwa uwekaji mipaka, ushirikishwaji wa jamii, na upangaji wa matumizi endelevu.",
+      "dg": "Picha si ya giza kabisa. Makumbusho ga Chitaifa ga Kenya ganaimirira makaya garigoorodheshwa dza Minara ya Chitaifa. Vyama vya Azehe a Makaya ga Chimijikenda vinatetea urinzi kpwenye vikao vya sera na vinashiriki kpwenye michakato ya usimamizi wa urithi wa UNESCO. Mfwano wa utalii wa chiikolojia wa Kaya Chinondo unaonyesa kukala uhifadhi unaoimiririwa ni jamii unaweza kuhenda kazi — kukala mapato kula kpwa ajeni ganaweza kuterya ustawi wa azehe na kutundza tsaka. WWF na mashirika ganjina ga uhifadhi ganalavya msada wa chiufundi na wa chifedha kpwa kuika miphaka, kushirikisha jamii, na kupanga mahumizi ga kudumu."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "But conservation efforts remain underfunded, under-coordinated, and unable to address the systemic pressures — economic development, population growth, climate change — that drive the threats. The kayas need more than protection. They need a world in which the next generation of Digo young people sees elder status not as an anachronism but as an aspiration — in which the kaya is not a relic of the past but a living institution worth entering, serving, and defending.",
+      "sw": "Lakini juhudi za uhifadhi zinabaki na fedha kidogo, zisizoratibiwa vya kutosha, na zisizoweza kushughulikia shinikizo za kimfumo — maendeleo ya kiuchumi, ongezeko la idadi ya watu, mabadiliko ya hali ya hewa — zinazoendesha hatari. Makaya yanahitaji zaidi ya ulinzi. Yanahitaji ulimwengu ambapo kizazi kijacho cha vijana wa Wadigo kinaona hadhi ya uzee si kama kitu cha zamani bali kama lengo — ambapo kaya si masalia ya zamani bali taasisi hai inayostahili kuingia, kuhudumu, na kulinda.",
+      "dg": "Ela juhudi za uhifadhi zinasala na fedha chache, taziratibiwa vya kutosha, na taziweza kumudu mashinikizo ga chimfumo — maendeleo ga chiuchumi, kuenjereza kpwa idadi ya atu, mabadiliko ga hali ya hewa — ganagosukuma hatari hizi. Makaya ganahitaji zaidi ya urinzi. Ganahitaji ulimwengu ambapho chizazi chidzacho cha barobaro a Adigo chinaona hadhi ya uvyere si dza chitu cha kare ela dza lengo — ambapho kaya si masalia ga kare ela taasisi hai inayostahili kuinjirwa, kuhumikirwa, na kurindwa."
+    }
+  ]
+}

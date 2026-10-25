@@ -1,0 +1,197 @@
+{
+  "id": "history/singwaya",
+  "title": {
+    "en": "The Singwaya Migration",
+    "sw": "Safari ya Singwaya",
+    "dg": "Safari ya Singwaya"
+  },
+  "intro": {
+    "en": "Somewhere north of the Tana River, in the arid lowlands of what is now southern Somalia, there once existed a settlement called Singwaya. The name appears across the oral traditions of more than half…",
+    "sw": "Mahali fulani kaskazini ya Mto Tana, katika nyanda za chini za sehemu ya kusini ya Somalia ya leo, kuliwahi kuwepo makao yaliyoitwa Singwaya. Jina hili linaonekana katika mapokeo ya mdomo ya zaidi ya…",
+    "dg": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A City Before the Scattering",
+      "sw": "Mji Kabla ya Kutawanyika",
+      "dg": "Mudzi Kabila ya Kutawanyika"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Somewhere north of the Tana River, in the arid lowlands of what is now southern Somalia, there once existed a settlement called Singwaya. The name appears across the oral traditions of more than half a dozen Bantu-speaking peoples of the East African coast — the Mijikenda, the Pokomo, the Swahili, the Taita, the Segeju, and others — each claiming it as an ancestral homeland, a place where their forebears lived together before forces beyond their control sent them south. Singwaya was, by these accounts, a multi-ethnic centre of considerable size, sustained by trade networks and inhabited by speakers of related Sabaki Bantu languages. It was not a single tribe's capital but a shared space, a city of many peoples — and when it fell, its scattering seeded communities across hundreds of kilometres of coastline.",
+      "sw": "Mahali fulani kaskazini ya Mto Tana, katika nyanda za chini za sehemu ya kusini ya Somalia ya leo, kuliwahi kuwepo makao yaliyoitwa Singwaya. Jina hili linaonekana katika mapokeo ya mdomo ya zaidi ya makabila sita ya Kibantu ya pwani ya Afrika Mashariki — Mijikenda, Pokomo, Waswahili, Taita, Segeju, na wengine — kila moja likidai kuwa nyumba ya mababu. Singwaya ilikuwa, kwa masimulizi haya, kituo cha makabila mengi chenye ukubwa wa kutosha, kilichodumishwa na mitandao ya biashara.",
+      "dg": "Phatu fulani kaskazini ya Muho wa Tana, kpwa nyanda za phahi za sehemu ya kusini ya Somalia ya rero, kurikala na makalo garigohiwa Singwaya. Dzina riri rinaonekana kpwa mapokeo ga mdomo ga zaidi ya makabila sita ga Chibantu ga ph'wani ya Afrika Mashariki — Amijikenda, Apokomo, Aswahili, Ataita, Asegeju, na anjina — chila mwenga akidai kukala nyumba ya akare. Singwaya yakala, kpwa masimulizi iga, chituwo cha makabila manji chenye ukubwa wa kutosha, chirichoudumishwa ni mitandao ya biashara."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Oromo Invasions",
+      "sw": "Uvamizi wa Waoromo",
+      "dg": "Uvamizi wa Aoromo"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The event that shattered Singwaya, according to the shared tradition, was invasion by Cushitic-speaking Oromo peoples — referred to in older accounts as \"Galla.\" The invasions are dated broadly to between the twelfth and seventeenth centuries, a range that reflects both the imprecision of oral chronology and the likelihood that the displacement happened not as a single catastrophic event but as a sustained pressure over generations. One vivid version of the story attributes the trigger to a specific incident: a Mijikenda youth killed an Oromo tribesman, and when the Mijikenda community refused to pay blood compensation, war followed. Whether or not this incident is historical, it functions narratively as a moral explanation — the departure from Singwaya was not random but consequential, the result of a breach in the social contract between neighbouring peoples.",
+      "sw": "Tukio lililovunja Singwaya, kulingana na mapokeo yanayoshirikiwa, lilikuwa uvamizi wa watu wa Kioromo. Uvamizi huo unahusishwa kwa upana na kati ya karne ya kumi na mbili na kumi na saba. Toleo moja la hadithi linaelezea kwamba kijana wa Kimijikenda alimuua mtu wa Kioromo, na jamii ya Kimijikenda ilipokataa kulipa fidia ya damu, vita vilifuata.",
+      "dg": "Dzambo ririrovunja Singwaya, kulingana na mapokeo ganago shirikiwa, ririkala uvamizi wa atu a Chioromo. Uvamizi uwo unahusishwa kpwa upana na kahi ya karne ya kumi na mbiri na kumi na saba. Toleo mwenga ra hadithi rinaelezea kukala kijana wa Chimijikenda arimuolaga mutu wa Chioromo, na jamii ya Chimijikenda iripokatala kulipa fidia ya damu, viha vyafuata."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "The Digo Claim: First to Leave",
+      "sw": "Madai ya Adigo: Wa Kwanza Kuondoka",
+      "dg": "Madai ga Adigo: A Kpwandza Kuuka"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Within the broader Mijikenda tradition of departure from Singwaya, each group has its own account of when and how it left. The Digo claim is distinctive and politically significant: they assert that they were the first to leave. The departure order is typically given as Digo first, then Ribe, Giriama, Chonyi, and Jibana. Digo traditions describe their ancestors as \"the first people to face off against the Oromo invasion,\" fleeing south to the Shimba Hills where they established Kaya Kwale, the founding kaya of the Digo people.",
+      "sw": "Adigo wanadai kuwa wa kwanza kuondoka Singwaya, wakielekea kusini hadi Milima ya Shimba ambapo walianzisha Kaya Kwale. Madai haya ya kipaumbele si tu jambo la kiburi la kihistoria. Katika mantiki ya shirika la kijamii la Kimijikenda, mpangilio wa kuondoka unaanzisha uongozi wa ukuu.",
+      "dg": "Adigo anadai kukala a kpwandza kuuka Singwaya, akielekea kusini hadi Myango ya Shimba ambapho aanzisha Kaya Kwale. Madai iga ga uphephi si tu dzambo ra kiburi ra chihistoria. Kpwa mantiki ya shirika ra chijamii ra Chimijikenda, mpangilio wa kuuka unaanzisha uongozi wa ukubwa."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "This claim of priority is not merely a point of historical pride. In the logic of Mijikenda social organisation, the order of departure from Singwaya establishes a hierarchy of seniority. To have left first is to have acted first, to have faced the enemy first, to have founded a new civilisation first. The Digo's assertion of primacy underwrites their claim to a distinctive political and ritual status among the nine Mijikenda peoples — a status that is reinforced by their geographical separation (south of Mombasa, while all other groups settled to its north), their unique matrilineal kinship system, and their near-universal adherence to Islam.",
+      "sw": "Hati ya Makubaliano, Si Rekodi Tu",
+      "dg": "Hati ya Makubaliano, Si Rekodi Tu"
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "A Charter, Not Merely a Record",
+      "sw": "Mapokeo ya Singwaya yanafanya kazi kama historia na kama hati ya kijamii. Kuiita \"hati ya hadithi\" si kuipuuza kama uwongo. Mapokeo ya mdomo ni hati hai, zinazoendelea kusimuliwa na kubadilishwa, zikibeba ndani yake tabaka za maana zilizokusanywa kwa karne nyingi.",
+      "dg": "Mapokeo ga Singwaya ganafanya kazi dza historia na dza hati ya chijamii. Kuiha \"hati ya hadithi\" si kuipuuza dza uwongo. Mapokeo ga mdomo ni hati za uhai, zinazoendelea kusimuliwa na kubadilishwa, zikitsukula ndani yakpwe tabaka za maana zirizokusanywa kpwa karne nyinji."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Anthropologists and historians draw a useful distinction between a \"history\" in the Western academic sense — a recoverable sequence of events — and a \"charter myth,\" which is a narrative that explains and legitimises the present social order. The Singwaya tradition functions as both, and its power lies precisely in its dual nature. It is a historical claim — something happened, somewhere, that sent these peoples south. It is also a charter — its details are arranged not to satisfy a modern historian's demand for precision but to establish who is senior, who has rights, and how the present order of things came to be.",
+      "sw": "Kuchanganyika na Uislamu",
+      "dg": "Kuchanganyika na Uislamu"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "To call the Singwaya narrative a \"charter myth\" is not to dismiss it as fiction. Oral traditions are not transcripts of events. They are living documents, constantly retold, constantly adapted, carrying within them layers of meaning accumulated over centuries. The Singwaya tradition has survived because it continues to do cultural work — it binds the nine Mijikenda groups together as kin while simultaneously allowing each group to assert its own particular status through the details of its own departure story.",
+      "sw": "Kipengele cha pekee cha toleo la Adigo ni kuchanganyika kwake na utambulisho wa Kiislamu. Adigo walipoanza kuingia Uislamu, hadithi yao ya asili ilianza kuingiza vipengele vya Kiislamu. Karatasi muhimu ya kielimu inakamata mchakato huu kwa kichwa chake: \"'Singwaya was a mere small station.'\"",
+      "dg": "Chipengele cha phephi cha toleo ra Adigo ni kuchanganyika kwakpwe na utambulisho wa Chiislamu. Adigo aripokpwandza kuinjira Uislamu, hadithi yao ya asili yakpwandza kuinjiza vipengele vya Chiislamu. Karatasi muhimu ya chielimu inakamata mchakato uwo kpwa kitswa chakpwe: \"'Singwaya was a mere small station.'\""
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "The Islamic Entanglement",
+      "sw": "Mtazamo wa Kitaaluma",
+      "dg": "Mtazamo wa Chitaaluma"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "What makes the Digo version of the Singwaya narrative especially complex is its deep entanglement with Islamic identity. As the Digo converted to Islam from the early nineteenth century onward — through contact with Muslim traders, through the teachings of Muslim healers, through the desire for access to trade networks controlled by Muslim communities — their origin story began to absorb Islamic elements. Scholars have documented how Digo accounts of the Singwaya migration \"frequently incorporate motifs of ethnic primacy, portraying Digo forebears as bearers of superior Islamic-influenced lineages or earlier access to coastal resources.\"",
+      "sw": "Swali la iwapo Singwaya ilikuwa mahali halisi limejadiliwa na wasomi kwa zaidi ya karne moja. Spear alitetea mtazamo wa kawaida, Morton alipinga, na Walsh alipendekeza kwamba Mijikenda walikua katika eneo lile lile wanapokaa leo na kupitisha masimulizi ya Singwaya baadaye. Uchimbaji wa Mutoro ulileta ushahidi wa kimwili kwenye mjadala, ukipata ufinyanzi wa karne ya kumi kwenye maeneo ya makaya.",
+      "dg": "Swali ra iwapo Singwaya yakala phatu pha kpweli rimejadiliwa ni asomi kpwa zaidi ya karne mwenga. Spear aritetea mtazamo wa kawaida, Morton aripinga, na Walsh aripendekeza kukala Amijikenda akula kpwa eneo rire rire anaphokala rero na kupishisha masimulizi ga Singwaya badaye. Utsimbadzi wa Mutoro urarehe ushahidi wa chimwiri kpwa mjadala, ukipata ufinyanzi wa karne ya kumi kpwa maeneo ga makaya."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "This process of Islamisation of the origin narrative is captured in the title of a significant academic paper: \"'Singwaya was a mere small station': Islamization and ethnic primacy in Digo oral traditions of origin and migration.\" The title quotes a Digo informant who diminished the importance of Singwaya itself — the shared, pre-Islamic homeland — in favour of a narrative that emphasised the Digo's earlier and deeper connections to Islam and the coast. In this retelling, Singwaya is not the great ancestral city but a \"mere small station\" on a longer journey that had its true origins in a more prestigious, Islamically inflected past.",
+      "sw": "Mapokeo Hai",
+      "dg": "Mapokeo ga Uhai"
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "The Scholarly Landscape",
+      "sw": "Masimulizi ya Singwaya si visukuku. Yanaendelea kubadilika, yanaendelea kusimuliwa, yanaendelea kufanya kazi ya kitamaduni katika jamii za Adigo na Amijikenda. Kwa Adigo, masimulizi hayo si hasa dhana ya kihistoria ya kupimwa. Ni hati hai — hadithi inayoelezea wao ni nani na walikotoka.",
+      "dg": "Masimulizi ga Singwaya si visukuku. Ganaendelea kubadilika, ganaendelea kusimuliwa, ganaendelea kuhenda kazi ya chimila kpwa jamii za Adigo na Amijikenda. Kpwa Adigo, masimulizi gago si hasa dhana ya chihistoria ya kupimwa. Ni hati ya uhai — hadithi inayoelezea ao ni ani na arikokula."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The question of whether Singwaya was a real place, and whether a migration actually occurred, has been debated by scholars for over a century. Thomas T. Spear, in his 1978 work *The Kaya Complex*, offered the most detailed defence of the orthodox view: that while some earlier interpretations were unsustainable, the Singwaya tradition is \"nevertheless valid for the Mijikenda, Pokomo, Swahili, Taita, and Segeju, where such evidence supports its basic veracity.\" Spear treated the tradition as substantially historical — a genuine migration from a genuine place.",
+      "sw": "Swali la iwapo Singwaya ilikuwa mahali halisi, na iwapo uhamisho ulitokea kweli, limejadiliwa na wasomi kwa zaidi ya karne moja. Thomas T. Spear, katika kazi yake ya 1978 *The Kaya Complex*, alitoa utetezi wa kina zaidi wa mtazamo wa kawaida: kwamba ingawa baadhi ya tafsiri za mapema hazikuweza kudumishwa, mapokeo ya Singwaya ni \"nevertheless valid for the Mijikenda, Pokomo, Swahili, Taita, and Segeju, where such evidence supports its basic veracity.\" Spear aliichukulia mapokeo kama ya kihistoria kwa kiasi kikubwa — uhamisho wa kweli kutoka mahali halisi.",
+      "dg": "Swali ra iwapo Singwaya yakala phatu pha kpweli, na iwapo uhamisho uritokea kpweli, rimejadiliwa ni asomi kpwa zaidi ya karne mwenga. Thomas T. Spear, kpwa kazi yakpwe ya 1978 *The Kaya Complex*, aritoa utetezi wa china zaidi wa mtazamo wa kawaida: kukala ingawa bazi ya tafsiri za mapema taziwezekuwa kudumishwa, mapokeo ga Singwaya ni \"nevertheless valid for the Mijikenda, Pokomo, Swahili, Taita, and Segeju, where such evidence supports its basic veracity.\" Spear ariichukulia mapokeo dza ga chihistoria kpwa kiasi kikulu — uhamisho wa kpweli kula phatu pha kpweli."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Rodger F. Morton challenged this position in 1972, arguing in the *International Journal of African Historical Studies* that Shungwaya \"is actually an appended myth.\" Morton's research suggested that \"coastal traditions recorded prior to 1897 indicate that the Shungwaya tradition entered Miji Kenda oral literature only after this date\" — meaning the tradition might be barely a century old, emerging around 1897 in connection with rising ethnic consciousness. If Morton is correct, the Singwaya narrative is not an ancient memory but a relatively recent construction, adopted by the Mijikenda as they began to forge a collective identity in the late colonial period.",
+      "sw": "Rodger F. Morton alipinga msimamo huu mwaka 1972, akisema katika *International Journal of African Historical Studies* kwamba Shungwaya \"is actually an appended myth.\" Utafiti wa Morton ulipendekeza kwamba \"coastal traditions recorded prior to 1897 indicate that the Shungwaya tradition entered Miji Kenda oral literature only after this date\" — ikimaanisha mapokeo yanaweza kuwa na umri wa karne moja tu, yakiibuka karibu 1897 yakihusiana na kuongezeka kwa fahamu ya kikabila. Ikiwa Morton yuko sahihi, masimulizi ya Singwaya si kumbukumbu ya zamani bali ujenzi wa hivi karibuni, uliopitishwa na Wamijikenda walipokuwa wakiunda utambulisho wa pamoja katika kipindi cha mwisho cha ukoloni.",
+      "dg": "Rodger F. Morton aripinga msimamo uwo mwaka 1972, akiamba kpwa *International Journal of African Historical Studies* kukala Shungwaya \"is actually an appended myth.\" Utafiti wa Morton uripendekeza kukala \"coastal traditions recorded prior to 1897 indicate that the Shungwaya tradition entered Miji Kenda oral literature only after this date\" — ikimaanisha mapokeo ganaweza kukala na umri wa karne mwenga tu, gakiibuka phephi na 1897 gakihusiana na kuongezeka kpwa fahamu ya chikabila. Ikala Morton a sawa, masimulizi ga Singwaya si kumbukumbu ya kare ela ujenzi wa phivi phivi, uriopishishwa ni Amijikenda ariphokuwa anaiunda utambulisho wa phamwenga kpwa kipindi cha mwisho cha ukoloni."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Linguistic Evidence and Its Limits",
+      "sw": "Ushahidi wa Kilugha na Mipaka Yake",
+      "dg": "Ushahidi wa Chilugha na Miphaka Yakpwe"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Derek Nurse and Thomas Hinnebusch brought linguistic analysis to bear on the question in their 1993 work *Swahili and Sabaki: A Linguistic History*. They proposed that Proto-Northeast-Coastal Bantu ancestors appeared between the Wami and Rufiji rivers around the first millennium AD, and that Proto-Sabaki speakers subsequently \"migrated northwards across the Juba River to a location associated with the legendary Shungwaya,\" where they diversified into Swahili, Mijikenda, Pokomo, Elwana, and Comorian communities. This linguistic reconstruction partially supports the migration narrative — it places ancestral Sabaki speakers in a northern location before a southward dispersal — while complicating the timeline significantly. Hinnebusch himself had earlier critiqued Spear's use of linguistic data, noting that Spear \"could not confirm Shungwaya as a linguistic homeland because he misunderstood the data.\"",
+      "sw": "Derek Nurse na Thomas Hinnebusch walileta uchambuzi wa kilugha kwenye swali hili katika kazi yao ya 1993 *Swahili and Sabaki: A Linguistic History*. Walipendekeza kwamba mababu wa Proto-Northeast-Coastal Bantu walionekana kati ya mito ya Wami na Rufiji karibu milenia ya kwanza AD, na kwamba wazungumzaji wa Proto-Sabaki baadaye \"migrated northwards across the Juba River to a location associated with the legendary Shungwaya,\" ambapo walitofautiana na kuwa jamii za Kiswahili, Kimijikenda, Kipokomo, Kielwana, na Kicomorian. Ujenzi huu wa kilugha unaunga mkono kwa sehemu masimulizi ya uhamisho — unaweka wazungumzaji wa Kisabaki wa zamani katika eneo la kaskazini kabla ya kutawanyika kusini — huku ukitatiza ratiba kwa kiasi kikubwa. Hinnebusch mwenyewe alikuwa amekosoa mapema matumizi ya Spear ya data za kilugha, akibainisha kwamba Spear \"could not confirm Shungwaya as a linguistic homeland because he misunderstood the data.\"",
+      "dg": "Derek Nurse na Thomas Hinnebusch areha uchambuzi wa chilugha kpwa swali riri kpwa kazi yao ya 1993 *Swahili and Sabaki: A Linguistic History*. Aripendekeza kukala akare a Proto-Northeast-Coastal Bantu arionekana kahi ya miho ya Wami na Rufiji phephi na milenia ya kpwandza AD, na kukala azungumzaji a Proto-Sabaki badaye \"migrated northwards across the Juba River to a location associated with the legendary Shungwaya,\" ambapho aritofautiana na kukala jamii za Chiswahili, Chimijikenda, Chipokomo, Chielwana, na Chicomorian. Ujenzi uwo wa chilugha unaunga mkono kpwa sehemu masimulizi ga uhamisho — unaweka azungumzaji a Chisabaki a kare kpwa eneo ra kaskazini kabila ya kutawanyika kusini — huku ukitatiza ratiba kpwa kiasi kikulu. Hinnebusch mwenye arikala amekosoa mapema mahumizi ga Spear ga data za chilugha, akibainisha kukala Spear \"could not confirm Shungwaya as a linguistic homeland because he misunderstood the data.\""
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Alternative Thesis",
+      "sw": "Nadharia Mbadala",
+      "dg": "Nadharia Mbadala"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Martin Walsh offered perhaps the most radical reappraisal, \"concluding that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" In Walsh's reading, the Mijikenda did not migrate from Singwaya at all. They evolved in situ, in the coastal hinterland of Kenya, and adopted the Singwaya narrative later as a means of forging shared ethnic identity — a charter borrowed rather than inherited.",
+      "sw": "Martin Walsh alitoa labda tathmini kali zaidi, \"concluding that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kwa mtazamo wa Walsh, Mijikenda hawakuhama kutoka Singwaya hata kidogo. Walikua mahali pale pale, katika bara ya pwani ya Kenya, na kupitisha masimulizi ya Singwaya baadaye kama njia ya kuunda utambulisho wa pamoja wa kikabila — hati iliyokopwa badala ya kurithiwa.",
+      "dg": "Martin Walsh aritoa labda tathmini kali zaidi, \"concluding that this evidence is insufficient to support the tradition of a northern homeland, and proposing the alternative thesis that the Mijikenda developed in much the same area that they are to be found today.\" Kpwa mtazamo wa Walsh, Amijikenda taarihamia kula Singwaya hata chidogo. Arikula phatu phapho, kpwa bara ya ph'wani ya Kenya, na kupishisha masimulizi ga Singwaya badaye dza njira ya kuunda utambulisho wa phamwenga wa chikabila — hati iriyokopwa badala ya kurithiwa."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Walsh's work on the Segeju added another layer of complexity. He demonstrated that the Mijikenda lexicon contains substantial loanwords from a Central Kenya Bantu language once spoken by the Segeju or Daiso. These borrowings cover livestock production, long-distance trading, military and political organisation, and the age-set system — including the word *rika* itself. This suggests the Segeju \"left a legacy of political organization and ritual practice that contributed significantly to the precolonial making of the Mijikenda.\" The Mijikenda social order, in other words, may owe as much to the Segeju as it does to Singwaya.",
+      "sw": "Kazi ya Walsh kuhusu Segeju iliongeza tabaka nyingine ya ugumu. Alionyesha kwamba kamusi ya Kimijikenda ina maneno mengi yaliyokopwa kutoka lugha ya Kibantu ya Kati ya Kenya iliyozungumzwa na Segeju au Daiso. Maneno haya yaliyokopwa yanashughulikia ufugaji wa mifugo, biashara ya masafa marefu, shirika la kijeshi na kisiasa, na mfumo wa rika — ikiwa ni pamoja na neno *rika* lenyewe. Hii inapendekeza Segeju \"left a legacy of political organization and ritual practice that contributed significantly to the precolonial making of the Mijikenda.\" Mpangilio wa kijamii wa Kimijikenda, kwa maneno mengine, unaweza kuwa na deni kubwa kwa Segeju kama inavyokuwa na Singwaya.",
+      "dg": "Kazi ya Walsh kuhusu Asegeju iriongeza tabaka yanjina ya ugumu. Arionyesha kukala kamusi ya Chimijikenda ina maneno manji garigokopwa kula lugha ya Chibantu ya Kahi ya Kenya iriyozungumzwa ni Asegeju au Adaiso. Maneno gago garigokopwa ganashughulikia ufugaji wa mifugo, chibiashara ya masafa mare, shirika ra chiashi na chisiasa, na mfumo wa rika — kujumuisha neno *rika* renye. Hiri rinapendekeza Asegeju \"left a legacy of political organization and ritual practice that contributed significantly to the precolonial making of the Mijikenda.\" Mpangilio wa chijamii wa Chimijikenda, kpwa maneno ganjina, unaweza kukala na deni kulu kpwa Asegeju dza unavyokuwa na Singwaya."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "What Archaeology Says",
+      "sw": "Akiolojia Inasema Nini",
+      "dg": "Chiakiolojia Chinaamba Nini"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "Henry Mutoro's archaeological excavations at kaya sites in 1987 and 1994 introduced material evidence into a debate that had been conducted almost entirely through oral traditions and linguistic analysis. At Kaya Singwaya — a site whose very name invokes the origin narrative — Mutoro's excavations \"yielded pottery going back to at least the tenth century,\" with ceramics \"characteristic of early coastal littoral settlements of the later first millennium AD.\" Some archaeologists have suggested that kayas may have been established as early as the ninth century, potentially predating the Swahili coastal settlements that are often treated as the region's oldest urban centres. If the kayas are that old, the simple migration narrative — a sudden flight from Singwaya, a fresh start in the hills — becomes harder to sustain. These were not refugee camps. They were established, long-occupied settlements with their own material culture.",
+      "sw": "Uchimbaji wa kiakiolojia wa Henry Mutoro katika maeneo ya makaya mwaka 1987 na 1994 ulianzisha ushahidi wa kimwili katika mjadala uliokuwa ukifanywa karibu kabisa kupitia mapokeo ya mdomo na uchambuzi wa kilugha. Katika Kaya Singwaya — eneo ambalo jina lake lenyewe linaiita masimulizi ya asili — uchimbaji wa Mutoro \"ulizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ya mapema ya pwani ya bahari ya milenia ya kwanza baadaye.\" Wanaakiolojia wengine wamependekeza kwamba makaya yanaweza kuanzishwa mapema karne ya tisa, yakiwezekana kutangulia makazi ya pwani ya Kiswahili. Ikiwa makaya ni ya zamani hivyo, masimulizi rahisi ya uhamisho — kuruka kwa ghafla kutoka Singwaya, mwanzo mpya katika milima — yanakuwa magumu kudumisha. Haya hayakuwa kambi za wakimbizi. Yalikuwa makazi yaliyoanzishwa, yaliyokaliwa kwa muda mrefu yenye utamaduni wao wa kimwili.",
+      "dg": "Utsimbadzi wa chiakiolojia wa Henry Mutoro kpwa maeneo ga makaya mwaka 1987 na 1994 urianzisha ushahidi wa chimwiri kpwa mjadala uriokuwa ukihendwa phephi kabisa kupitshi mapokeo ga mdomo na uchambuzi wa chilugha. Kpwa Kaya Singwaya — eneo ambaro dzina rakpwe renye rinaiha masimulizi ga asili — utsimbadzi wa Mutoro \"urizalisha ufinyanzi wa angalau karne ya kumi,\" na keramiki \"zinazofanana na makazi ga mapema ga ph'wani ya bahari ya milenia ya kpwandza badaye.\" Anaakiolojia anjina amependekeza kukala makaya ganaweza kuanzishwa mapema karne ya tisa, gakiwezekana kutangulia makazi ga ph'wani ya Chiswahili. Ikala makaya ni ga kare hivyo, masimulizi rahisi ga uhamisho — kuruka kpwa gafla kula Singwaya, mwandzo mpya kpwa myango — ganakala magumu kudumisha. Iga tagakala makambi ga akimbizi. Gakala makazi garigoimarishwa, garigokaliwa kpwa muda mure genye utamaduni gao wa chimwiri."
+    },
+    {
+      "id": "b024",
+      "type": "heading",
+      "en": "A Living Tradition",
+      "sw": "Mapokeo Hai",
+      "dg": "Mapokeo ga Uhai"
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The Singwaya narrative is not a fossil. It continues to evolve, continues to be told, continues to do cultural work in Digo and Mijikenda communities. Each retelling adjusts the emphasis — sometimes stressing the unity of the nine peoples, sometimes stressing the Digo's priority, sometimes incorporating Islamic prestige, sometimes pushing back against it. The scholars will continue to debate whether Singwaya was a real city, a regional designation, or a retrospective invention. But for the Digo, the narrative is not primarily a historical hypothesis to be tested. It is a living charter — a story that explains who they are, where they came from, why they have the rights and responsibilities they have, and how they relate to their eight sibling peoples along the coast.",
+      "sw": "Masimulizi ya Singwaya si visukuku. Yanaendelea kubadilika, yanaendelea kusimuliwa, yanaendelea kufanya kazi ya kitamaduni katika jamii za Wadigo na Wamijikenda. Kila kusimulia upya kunabadilisha msisitizo — wakati mwingine kukisisitiza umoja wa watu tisa, wakati mwingine kukisisitiza kipaumbele cha Wadigo, wakati mwingine kuingiza heshima ya Kiislamu, wakati mwingine kupinga dhidi yake. Wasomi wataendelea kujadili iwapo Singwaya ilikuwa mji halisi, jina la eneo, au uvumbuzi wa nyuma. Lakini kwa Wadigo, masimulizi hayo si hasa dhana ya kihistoria ya kupimwa. Ni hati hai — hadithi inayoelezea wao ni nani, walikotoka, kwa nini wana haki na wajibu walizo nazo, na jinsi wanavyohusiana na watu wao nane wa ndugu kando ya pwani.",
+      "dg": "Masimulizi ga Singwaya si visukuku. Ganaendelea kubadilika, ganaendelea kusimuliwa, ganaendelea kuhenda kazi ya chimila kpwa jamii za Adigo na Amijikenda. Chila kusimulia luphya kunabadilisha msisitizo — wakati mwinjine kukisisitiza umoja wa atu tisa, wakati mwinjine kukisisitiza uphephi wa Adigo, wakati mwinjine kuingiza ishima ya Chiislamu, wakati mwinjine kupinga dhidi yakpwe. Asomi andaenderera kujadili iwapo Singwaya yakala mudzi wa kpweli, dzina ra eneo, au uvumbuzi wa nyuma. Ela kpwa Adigo, masimulizi gago si hasa dhana ya chihistoria ya kupimwa. Ni hati ya uhai — hadithi inayoelezea ao ni ani, arikokula, kpwa nini ana haki na uwajibikaji garigonago, na jinsi anavyohusiana na atu ao anane a ndugu kando ya ph'wani."
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "What remains constant across all versions of the tradition, scholarly and popular alike, is the image of departure — a people leaving a place that can no longer hold them, walking south through hostile territory, carrying with them the knowledge of how to build a new home in a new forest on a new hill. That image is the heart of the Singwaya narrative, and no amount of academic debate about dates and locations can diminish its power.",
+      "sw": "Kinachobaki thabiti katika matoleo yote ya mapokeo, ya kitaaluma na ya kawaida, ni picha ya kuondoka — watu wanaoondoka mahali ambapo hawezi tena kuwashikilia, wakitembea kusini kupitia eneo la adui, wakibeba nawo maarifa ya jinsi ya kujenga nyumba mpya katika msitu mpya juu ya kilima kipya. Picha hiyo ndiyo moyo wa masimulizi ya Singwaya, na hakuna kiasi cha mjadala wa kitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yake.",
+      "dg": "Chirichotsala thabiti kpwa matoleo gosi ga mapokeo, ga chitaaluma na ga kawaida, ni picha ya kuuka — atu anaouka phatu ambapo phaweza tena kuashikilia, akitembea kusini kupitshi eneo ra adui, akitsukula nao marifwa ga jinsi ya kudzenga nyumba mpya kpwa msitu mpya dzulu ya chirima chipya. Picha iyo ndiyo moyo wa masimulizi ga Singwaya, na takuna kiasi cha mjadala wa chitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yakpwe."
+    }
+  ]
+}

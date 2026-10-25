@@ -1,0 +1,177 @@
+{
+  "id": "figures/shaaban-robert",
+  "published": true,
+  "title": {
+    "en": "Shaaban Robert",
+    "sw": "Shaaban Robert",
+    "dg": "Shaaban Robert"
+  },
+  "subtitle": {
+    "en": "The Poet Born to a Digo Mother at Machui",
+    "sw": "Mshairi Aliyezaliwa Machui na Mama wa Kidigo",
+    "dg": "Mshairi wa Machui Ambaye Nineye Kala ni Mdigo"
+  },
+  "meta": [
+    {
+      "en": "Era: 1909–1962 (one study gives 1902 for his birth)",
+      "sw": "Kipindi: 1909–1962 (utafiti mmoja unataja mwaka 1902 kuwa mwaka wa kuzaliwa kwake)",
+      "dg": "Wakati: 1909–1962 (utafiti mmwenga unagomba wavyalwa mwaka 1902)"
+    },
+    {
+      "en": "Role: Swahili poet, novelist and essayist; colonial civil servant; member of Tanga Town Council",
+      "sw": "Jukumu: Mshairi, mwandishi wa riwaya na insha za Kiswahili; mtumishi wa serikali ya kikoloni; mjumbe wa Baraza la Mji wa Tanga",
+      "dg": "Kazi: Mshairi, mwandishi wa riwaya na insha za Chiswahili; ariyehenda kazi ya serikali ya chikoloni; mjumbe wa Baraza ra Mudzi wa Tanga"
+    },
+    {
+      "en": "Region: Machui, south of Tanga, present-day Tanzania",
+      "sw": "Eneo: Machui, kusini mwa Tanga, katika Tanzania ya leo",
+      "dg": "Phatu: Machui, kusini ya Tanga, Tanzania ya rero"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "Shaaban Robert is the best-known Swahili writer of the twentieth century. People call him \"Mr. Swahili\", the father of Swahili literature and the poet laureate of Swahili. He was born at Machui, in the countryside south of Tanga, to a Digo mother, Mwanamwema binti Mwidau. His father was Yao. Shaaban himself did not call himself Digo or Yao. He was one of the first people to call himself simply a Swahili.",
+      "sw": "Shaaban Robert ndiye mwandishi wa Kiswahili anayejulikana zaidi wa karne ya ishirini. Watu humwita \"Bwana Kiswahili\", baba wa fasihi ya Kiswahili na malenga mkuu wa Kiswahili. Alizaliwa Machui, mashambani kusini mwa Tanga, na mama wa Kidigo, Mwanamwema binti Mwidau. Baba yake alikuwa Myao. Shaaban mwenyewe hakujiita Mdigo wala Myao. Alikuwa miongoni mwa watu wa kwanza kujiita Mswahili tu.",
+      "dg": "Shaaban Robert ndiye mwandishi wa Chiswahili ariyemanyikana zaidi wa karne ya 20. Atu nkumuiha \"Bwana Chiswahili\", baba wa fasihi ya Chiswahili, na mshairi mkpwulu wa Chiswahili. Wavyalwa Machui, vidzidzini kusini ya Tanga, na nineye, Mwanamwema binti Mwidau, kala ni Mdigo. Ise kala ni Myao. Shaaban mwenye kayadziiha Mdigo wala Myao. Kala ni mmwenga wa atu a kpwandza kudziiha Mswahili bahi."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "He was not a Digo writer, then. But his mother's people were Digo, he grew up among them, and he lies buried in Digo country. That is why his story has a place here.",
+      "sw": "Kwa hiyo hakuwa mwandishi wa Kidigo. Lakini watu wa mama yake walikuwa Wadigo, alikulia miongoni mwao, na amezikwa katika nchi ya Wadigo. Ndiyo sababu hadithi yake ina nafasi hapa.",
+      "dg": "Phahi kala si mwandishi wa Chidigo. Ela atu a uphande wa nineye kala ni Adigo, iye wakulira kahi yao, na wazikpwa kahi ya tsi ya Adigo. Ndiyo sababu adisiye ina phatu hipha."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "A Child of Machui",
+      "sw": "Mtoto wa Machui",
+      "dg": "Mwana wa Machui"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Most sources say he was born on 1 January 1909 at Vibamba (Vibambani), a part of Machui village. A study by A. Taib, published by the University of Dar es Salaam in 2009, gives the year as 1902. His father was named Ufukwe, Selemani and Robert, and as a boy Shaaban was known as Shaaban bin Selemani. The name \"Robert\" came from his father.",
+      "sw": "Vyanzo vingi vinasema alizaliwa tarehe 1 Januari 1909 huko Vibamba (Vibambani), sehemu ya kijiji cha Machui. Utafiti wa A. Taib, uliochapishwa na Chuo Kikuu cha Dar es Salaam mwaka 2009, unataja mwaka 1902. Baba yake aliitwa Ufukwe, Selemani na Robert, na alipokuwa mtoto Shaaban alijulikana kama Shaaban bin Selemani. Jina \"Robert\" lilitoka kwa baba yake.",
+      "dg": "Vyanzo vinji vinagomba wavyalwa tarehe 1 Januari 1909 iko Vibamba (Vibambani), seemu ya chidzidzi cha Machui. Utafiti wa A. Taib, uriochapishwa ni Chuo Kikuu cha Dar es Salaam mwaka 2009, unagomba wavyalwa mwaka 1902. Ise kala anaihwa Ufukwe, Selemani na Robert, na ariphokala mwana mdide Shaaban kala anamanyikana dza Shaaban bin Selemani. Dzina \"Robert\" rakula kpwa ise."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Taib wrote that Shaaban's character and gifts came from two peoples meeting in one family: on his father's side Yao from Ruvuma, and on his mother's side Digo from Tanga. A student essay published online in 2016 adds that his mother came from the lineage of Mwalimu Chihere, that she too called herself Swahili, and that Shaaban was the fourth of her fourteen children. The same essay says his father died in September 1918, and that the boy was then sent to Dar es Salaam to live with a grandfather.",
+      "sw": "Taib aliandika kwamba hulka na vipawa vya Shaaban vilitokana na tamaduni za makabila mawili kukutana katika familia moja: upande wa baba Myao kutoka Ruvuma, na upande wa mama Mdigo kutoka Tanga. Insha ya mwanafunzi iliyochapishwa mtandaoni mwaka 2016 inaongeza kwamba mama yake alitoka katika ukoo wa Mwalimu Chihere, kwamba naye alijiita Mswahili, na kwamba Shaaban alikuwa mtoto wa nne kati ya watoto wake kumi na wanne. Insha hiyo hiyo inasema baba yake alifariki Septemba 1918, na mtoto akapelekwa Dar es Salaam kuishi na babu yake.",
+      "dg": "Taib waandika kukala tabiyaye na vipawavye vyakula kpwa mila za makabila mairi garigokutana kahi ya mbari mwenga: uphande wa ise ni Ayao a Ruvuma, na uphande wa nineye ni Adigo a Tanga. Insha ya mwanafundzi iriyochapishwa mtandaoni mwaka 2016 inaenjereza kukala nineye kala ni wa ukoo wa Mwalimu Chihere, kukala naye kala anadziiha Mswahili, na kukala Shaaban kala ni mwana wa nne kahi ya anae kumi na ane. Insha iyo iyo inagomba ise wafwa Septemba 1918, na mwana hiye achihumwa Dar es Salaam kuphiya kukala na tsaweye."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "School and Service",
+      "sw": "Shule na Utumishi",
+      "dg": "Shule na Kazi ya Serikali"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "Shaaban studied in Dar es Salaam from 1922 to 1926. He left school with a School Leaving Certificate, second in a class of eleven. That was the end of his formal education.",
+      "sw": "Shaaban alisoma Dar es Salaam kuanzia 1922 hadi 1926. Alimaliza shule akiwa na Cheti cha Kumaliza Shule, akiwa wa pili katika darasa la wanafunzi kumi na mmoja. Huo ndio ukawa mwisho wa elimu yake rasmi.",
+      "dg": "Shaaban wasoma Dar es Salaam kula 1922 hadi 1926. Wamarigiza shule na cheti cha kumarigiza shule, achikala wa phiri kahi ya darasa ra anafundzi kumi na mmwenga. Bada ya hipho kayaenderera na masomo ga shule."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "He spent the rest of his working life in the colonial civil service. He was a customs officer at several posts from 1926 to 1944, worked in the Game Department from 1944 to 1946, in the Tanga District Office from 1946 to 1952, and in the Survey Office from 1952 to 1960. He also sat on the Tanga Town Council. He served on bodies that looked after the Swahili language, including the East African Swahili Committee and the East African Literature Bureau. The British government made him a Member of the Order of the British Empire (MBE).",
+      "sw": "Alitumia maisha yake yote ya kazi katika utumishi wa serikali ya kikoloni. Alikuwa afisa wa forodha katika vituo kadhaa kuanzia 1926 hadi 1944, akafanya kazi katika Idara ya Wanyamapori kuanzia 1944 hadi 1946, katika Ofisi ya Wilaya ya Tanga kuanzia 1946 hadi 1952, na katika Ofisi ya Upimaji kuanzia 1952 hadi 1960. Pia alikuwa mjumbe wa Baraza la Mji wa Tanga. Alihudumu katika vyombo vilivyoshughulikia lugha ya Kiswahili, ikiwemo Kamati ya Kiswahili ya Afrika Mashariki na Ofisi ya Maandiko ya Afrika Mashariki. Serikali ya Uingereza ilimtunuku nishani ya MBE (Member of the Order of the British Empire).",
+      "dg": "Wahenda kazi ya serikali ya chikoloni maishage gosi. Kala ni afisa wa forodha kahi ya vituo kadhaa kula 1926 hadi 1944, chisha wahenda kazi Idara ya Anyama Pori kula 1944 hadi 1946, Ofisi ya Wilaya ya Tanga kula 1946 hadi 1952, na Ofisi ya Upimaji kula 1952 hadi 1960. Piya kala ni mjumbe wa Baraza ra Mudzi wa Tanga. Wahenda kazi na kamati zirizokala zinarinda luga ya Chiswahili, dza Kamati ya Chiswahili ya Afrika ya Mashariki na Ofisi ya Maandiko ga Afrika ya Mashariki. Serikali ya Aingereza yampha nishani ya MBE (Member of the Order of the British Empire)."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "The Writer",
+      "sw": "Mwandishi",
+      "dg": "Mwandishi"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Shaaban wrote poems, novels, essays and a life story, all in Swahili. Many readers start with *Kusadikika* (1951), a story about an imaginary country. It opens:",
+      "sw": "Shaaban aliandika mashairi, riwaya, insha na habari za maisha yake, yote kwa Kiswahili. Wasomaji wengi huanza na *Kusadikika* (1951), hadithi ya nchi ya kubuni. Inaanza hivi:",
+      "dg": "Shaaban waandika kpwa Chiswahili bahi: mashairi, riwaya, insha, na habari za maishage. Asomaji anji nkuandza na *Kusadikika* (1951), adisi ya tsi isiyokala kpweli. Inaandza hivi:"
+    },
+    {
+      "id": "b011",
+      "type": "quote",
+      "en": "\"Kusadikika is a country whose existence can only be imagined in the mind.\"",
+      "sw": "\"Kusadikika ni nchi ambayo kuweko kwake hufikirika kwa mawazo tu.\"",
+      "dg": "\"Kusadikika ni tsi ambayo inaweza kufikirika kpwa mawazo bahi.\""
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "His other books include the novels *Kufikirika* and *Adili na Nduguze* (1952), the poetry collection *Pambo la Lugha*, a life of the singer Siti binti Saad, and *Utubora Mkulima*. His autobiography, *Maisha Yangu na Baada ya Miaka Hamsini*, won the Margaret Wrong Memorial Prize for African literature. *Utenzi wa Vita vya Uhuru*, a long poem of about 3,000 stanzas on the Second World War, came out after his death. His writing helped Swahili to be adopted as a national language in Tanzania and Kenya.",
+      "sw": "Vitabu vyake vingine ni pamoja na riwaya za *Kufikirika* na *Adili na Nduguze* (1952), diwani ya mashairi *Pambo la Lugha*, wasifu wa mwimbaji Siti binti Saad, na *Utubora Mkulima*. Tawasifu yake, *Maisha Yangu na Baada ya Miaka Hamsini*, ilishinda Tuzo ya Kumbukumbu ya Margaret Wrong kwa fasihi ya Kiafrika. *Utenzi wa Vita vya Uhuru*, shairi refu la beti zipatazo 3,000 kuhusu Vita vya Pili vya Dunia, ulichapishwa baada ya kifo chake. Maandishi yake yalisaidia Kiswahili kupitishwa kuwa lugha ya taifa Tanzania na Kenya.",
+      "dg": "Vitabuvye vyanjina ni riwaya za *Kufikirika* na *Adili na Nduguze* (1952), chitabu cha mashairi *Pambo la Lugha*, habari za maisha ga mwimbadzi Siti binti Saad, na *Utubora Mkulima*. Chitabu cha habari za maishage, *Maisha Yangu na Baada ya Miaka Hamsini*, chaphaha Tuzo ya Kumbukumbu ya Margaret Wrong ya fasihi ya Chiafrika. *Utenzi wa Vita vya Uhuru*, shairi ra beti chiasi cha 3,000 kuhusu Viha vya Phiri vya Dunia, rachapishwa bada ya chifoche. Maandikoge gaterya Chiswahili kukubalika kukala luga ya taifa Tanzania na Kenya."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Why He Belongs in Digo History",
+      "sw": "Kwa Nini Yumo katika Historia ya Wadigo",
+      "dg": "Phatu pha Shaaban Robert Kahi ya Historiya ya Adigo"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Among the Digo, the most important family tie runs through the mother. A Digo belongs to a *fuko*, the clan of the mother's side. By that reckoning, the child of a Digo mother belongs to her *fuko*, whoever the father's people are.",
+      "sw": "Kwa Wadigo, uhusiano muhimu zaidi wa kifamilia hupitia kwa mama. Mdigo ni wa *fuko*, ukoo wa upande wa mama. Kwa hesabu hiyo, mtoto wa mama Mdigo ni wa *fuko* la mama yake, hata baba yake atoke kabila gani.",
+      "dg": "Kpwa Adigo, uhusiano muhimu zaidi wa achina ni wa uphande wa mayo. Mdigo ni wa *fuko*, ukoo wa uphande wa mayo. Kulengana na mila iyo, mwana wa mchetu Mdigo ni wa *fuko* ra nineye, hata ichikala ise ni wa atu anjina."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Shaaban also grew up in the Digo countryside south of Tanga, and his family at Machui shaped his imagination. A study published in 2021 by the University of Dar es Salaam journal *Mulika* says that his family at Machui knew the arts of healing and divination. It names his mother's first husband, Kibwana Jafari, and his elder half-brother, Jafari Kibwana, as men remembered for changing their shape at will. The study argues that this world lies behind the spirits and shape-changing in *Adili na Nduguze* and *Kufikirika*.",
+      "sw": "Shaaban pia alikulia mashambani mwa Wadigo kusini mwa Tanga, na familia yake ya Machui iliunda mawazo yake. Utafiti uliochapishwa mwaka 2021 katika jarida la Chuo Kikuu cha Dar es Salaam, *Mulika*, unasema familia yake ya Machui ilifahamu mambo ya uganga na uaguzi. Unamtaja mume wa kwanza wa mama yake, Kibwana Jafari, na kaka yake wa upande wa mama, Jafari Kibwana, kuwa watu wanaokumbukwa kwa kujibadilisha sura watakavyo. Utafiti huo unadai kwamba ulimwengu huo ndio chimbuko la majini na kujibadilisha sura katika *Adili na Nduguze* na *Kufikirika*.",
+      "dg": "Shaaban piya wakulira vidzidzini mwa Adigo kusini ya Tanga, na maisha ga Machui gaika alama kahi ya maandikoge. Utafiti uriochapishwa mwaka 2021 kpwenye jarida ra Chuo Kikuu cha Dar es Salaam, *Mulika*, unagomba kukala mbariye ya Machui kala inamanya mambo ga uganga na mlamulo. Unamtaja mlume wa kpwandza wa nineye, Kibwana Jafari, na mvyerewe wa uphande wa nineye, Jafari Kibwana, kukala atu anaotambukirwa kpwa kudzigaluza umbo. Utafiti uho unagomba kukala dunia iyo ndiyo chanzo cha pepho na kudzigaluza umbo kahi ya *Adili na Nduguze* na *Kufikirika*."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The evidence for his Digo mother needs to be stated honestly. It rests mainly on one chain of scholarship: Taib's study of 2009, as cited in the 2021 *Mulika* article. Wikipedia says the same without a source. We have found nothing that contradicts it.",
+      "sw": "Ushahidi kuhusu mama yake Mdigo unapaswa kuelezwa kwa uwazi. Unategemea hasa mnyororo mmoja wa utafiti: utafiti wa Taib wa mwaka 2009, kama ulivyonukuliwa katika makala ya *Mulika* ya mwaka 2021. Wikipedia inasema hivyo hivyo bila kutaja chanzo. Hatujapata chochote kinachopingana na hilo.",
+      "dg": "Ushahidi wa kukala nineye kala ni Mdigo ni lazima ugombwe kpwa wazi. Unategemea sana chanzo chimwenga cha chitaaluma: utafiti wa Taib wa mwaka 2009, dza urivyonukuliwa kahi ya makala ya *Mulika* ya mwaka 2021. Wikipedia inagomba dzambo hiro hiro bila kutaja chanzo. Tahudzangbwephaha chochosi chinachopinga dzambo hiri."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Death and Memory",
+      "sw": "Kifo na Kumbukumbu",
+      "dg": "Chifoche na Kutambukirwa Kpwakpwe"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "Shaaban Robert died in June 1962. Most sources give the date as 22 June. Others say he died on 20 June and was buried on 22 June; they disagree on whether he died in Tanga or in Dar es Salaam. All agree that he was buried at Machui, in the family graveyard at Vibambani.",
+      "sw": "Shaaban Robert alifariki Juni 1962. Vyanzo vingi vinataja tarehe 22 Juni. Vingine vinasema alifariki tarehe 20 Juni na akazikwa tarehe 22 Juni; vinatofautiana pia kuhusu kama alifariki Tanga au Dar es Salaam. Vyote vinakubaliana kwamba alizikwa Machui, katika makaburi ya familia huko Vibambani.",
+      "dg": "Shaaban Robert wafwa Juni 1962. Vyanzo vinji vinataja tarehe 22 Juni. Vyanjina vinagomba wafwa tarehe 20 Juni na achizikpwa tarehe 22 Juni; piya tavilingana kuhusu ichikala wafwa Tanga au Dar es Salaam. Vyosi vinalingana kukala wazikpwa Machui, kahi ya mbira za mbari iko Vibambani."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Schools and streets carry his name, including Shaaban Robert Secondary School in Dar es Salaam, founded around 1963, and a primary school. There is a hall in his name at the Tanga Regional Library and a Shaaban Robert Festival. At Machui itself there is a modest memorial house and a library building that has stood unfinished for more than ten years. A Swahili essay of 2025 says his grave lies in the bush, with little to mark it. In 2026 his relatives and Swahili scholars said the site does not reflect what he gave the nation. For the Digo of Tanga, the greatest Swahili writer lies among them, in his mother's country.",
+      "sw": "Shule na mitaa inabeba jina lake, ikiwemo Shule ya Sekondari Shaaban Robert ya Dar es Salaam, iliyoanzishwa karibu mwaka 1963, na shule ya msingi. Kuna ukumbi wenye jina lake katika Maktaba ya Mkoa wa Tanga, na Tamasha la Shaaban Robert. Pale Machui kuna nyumba ndogo ya kumbukumbu na jengo la maktaba ambalo halijakamilika kwa zaidi ya miaka kumi. Insha ya Kiswahili ya mwaka 2025 inasema kaburi lake liko kichakani, bila alama za kutosha. Mwaka 2026 ndugu zake na wadau wa Kiswahili walisema mahali hapo hapaakisi mchango wake kwa taifa. Kwa Wadigo wa Tanga, mwandishi mkuu wa Kiswahili amelala miongoni mwao, katika nchi ya mama yake.",
+      "dg": "Shule na barabara zina dzinare, dza Shule ya Sekondari ya Shaaban Robert iko Dar es Salaam, iriyoandzishwa phephi na mwaka 1963, na shule ya msingi. Kuna ukumbi wenye dzinare kahi ya Maktaba ya Mkoa wa Tanga, na Tamasha ra Shaaban Robert. Iko Machui kuna nyumba ndide ya kumbukumbu, na nyumba ya maktaba ambayo taidzangbwemarigizwa kpwa zaidi ya miaka kumi. Insha ya Chiswahili ya mwaka 2025 inagomba kukala mbiraye i kahi ya vitsaka, na taina alama za kutosha. Mwaka 2026 achinae na asomi a Chiswahili agomba kukala phatu hipho taphalingana na kazi ariyoihendera taifa. Kpwa Adigo a Tanga, mwandishi mkpwulu wa Chiswahili akalala kahi yao, kahi ya tsi ya nineye."
+    }
+  ],
+  "sources": [
+    "Charles N. Maggati, Miriam Osore and Richard Wafula, \"Athari ya Mazingira Asilia ya Mtunzi katika Matumizi ya Kujibadilisha Kimazingaombwe: Uchunguzi wa Riwaya Teule za S. Robert na E. Kezilahabi\", *Mulika* 40(2), 2021, pp. 124–141, §2.1 (citing A. Taib, \"Maisha ya Shaaban Robert na Falsafa Yake Katika Maandishi Yake\", *Mulika* 28, TUKI, University of Dar es Salaam, 2009). https://journals.udsm.ac.tz/index.php/mj/article/download/4826/4161",
+    "Encyclopedia.com, \"Shaaban Robert\" (Encyclopedia of World Biography). https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/shaaban-robert",
+    "Wikipedia, \"Shaaban bin Robert\". https://en.wikipedia.org/wiki/Shaaban_bin_Robert",
+    "*The Citizen* (Tanzania), \"Shaaban Robert: Father of Kiswahili literature\", 6 January 2015. https://www.thecitizen.co.tz/tanzania/magazines/success/cover-shaaban-robert-father-of-kiswahili-literature-2520416",
+    "Zuhura Said Ismail, \"Mchango wa Shaaban Robert katika taaluma ya tafsiri\", Chawakama Tanzania blog, 18 May 2016. https://chawakamatanzaniasite.blogspot.com/2016/05/mchango-wa-shaaban-robert-katika.html",
+    "Gwamaka Mwamasage, \"Shaaban Robert – almasi iliyotelekezwa\", Nasser Youth Movement, 21 August 2025. https://nasseryouthmovement.net/sw/Shaaban-Robert",
+    "Mbonea Herman, \"Remembered in books, forgotten at home? Shaaban Robert's legacy under scrutiny\", *The Citizen*, 1 August 2026. https://thecitizen.co.tz/tanzania/news/national/remembered-in-books-forgotten-at-home-shaaban-robert-s-legacy-under-scrutiny-5542756",
+    "*The Citizen*, \"At 50, school celebrates a landmark achievement\", 20 August 2013. https://www.thecitizen.co.tz/tanzania/magazines/success/at-50-school-celebrates-a-landmark-achievement-2495728",
+    "Mwalonya, Nicolle, Nicolle and Zimbu, *Mgombato: Digo–English–Swahili Dictionary* (Digo Language and Literacy Project, 2004), entries *fuko* (\"clan on mother's side\") and *mbari* (\"clan on father's side\"); Wikipedia, \"Digo people\" (matri-clans). https://en.wikipedia.org/wiki/Digo_people"
+  ]
+}

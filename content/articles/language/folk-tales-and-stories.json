@@ -1,0 +1,134 @@
+{
+  "id": "language/folk-tales-and-stories",
+  "title": {
+    "en": "Folk Tales and Stories",
+    "sw": "Hadisi za Chinyume",
+    "dg": "Hadithi za Jadi"
+  },
+  "intro": {
+    "en": "In the villages of Kwale County and along the Tanzania coast, there is a time of day that belongs to stories. It comes after the evening meal, when the heat has broken and the palm trees are…",
+    "sw": "Katika vijiji vya Kaunti ya Kwale na kando ya pwani ya Tanzania, kuna wakati wa siku ambao ni wa hadithi. Unakuja baada ya chakula cha jioni, wakati joto limepungua na mitende ni vivuli dhidi ya…",
+    "dg": "Kpwa vidzi vya Kaunti ya Kwale na kanda-kanda ya ph'wani ya Tanzania, kuna wakati wa siku ambao ni wa hadisi. Unakpwedza bada ya chakurya cha dziloni, wakati dzoho rikaphunguka na minazi ni vivuli dhidi…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Stories Told at Night",
+      "sw": "Hadithi Zinazoambiwa Usiku",
+      "dg": "Hadisi Zinazoambirwa Usiku"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In the villages of Kwale County and along the Tanzania coast, there is a time of day that belongs to stories. It comes after the evening meal, when the heat has broken and the palm trees are silhouettes against the last light. This is when the Digo tell their stories — *hadisi za chinyume*, tales of the old way — and by long-standing custom, they are told only at night. To tell a story during the day, the tradition holds, is to invite misfortune.",
+      "sw": "Katika vijiji vya Kaunti ya Kwale na kando ya pwani ya Tanzania, kuna wakati wa siku ambao ni wa hadithi. Unakuja baada ya chakula cha jioni, wakati joto limepungua na mitende ni vivuli dhidi ya mwanga wa mwisho. Huu ndio wakati Wadigo wanaposimulia hadithi zao — *hadisi za chinyume*, hadithi za njia ya zamani — na kwa desturi ya zamani, zinasimuliwa usiku tu. Kusimulia hadithi mchana, desturi inasema, ni kualika msiba.",
+      "dg": "Kpwa vidzi vya Kaunti ya Kwale na kanda-kanda ya ph'wani ya Tanzania, kuna wakati wa siku ambao ni wa hadisi. Unakpwedza bada ya chakurya cha dziloni, wakati dzoho rikaphunguka na minazi ni vivuli dhidi ya mwanga wa mwisho. Uhu ndio wakati Adigo anapohadisi hadisi zao — *hadisi za chinyume*, hadisi za njira ya kare — na kpwa desturi ya kare, zinahadiswa usiku tu. Kuhadisi hadisi mutsi, desturi inaamba, ni kpwaricha msiba."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Storytelling among the Digo is not casual entertainment. It is considered a gift — Mzee Suleiman Ali Nyembwe, one of the most respected Digo storytellers documented by researchers, learned his art from his father, who learned it from his grandfather. \"Storytelling is a gift from God,\" Nyembwe has said, \"because one has to have very good memory.\" And indeed, the Digo storyteller carries not just plots but entire performances in their head: voices for each character, sound effects for axes falling and waves crashing, physical movements that enact the drama, and the precise timing needed to draw an audience from laughter to silence to the moral at the end.",
+      "sw": "Kusimulia hadithi miongoni mwa Wadigo si burudani ya kawaida. Inachukuliwa kuwa kipaji — Mzee Suleiman Ali Nyembwe, mmoja wa wasimuliaji mashuhuri wa Wadigo waliorekodiwa na watafiti, alijifunza sanaa yake kutoka kwa baba yake, ambaye alijifunza kutoka kwa babu yake. \"Kusimulia hadithi ni kipaji kutoka kwa Mungu,\" Nyembwe amesema, \"kwa sababu mtu lazima awe na kumbukumbu nzuri sana.\" Na kwa kweli, msimuliaji wa Wadigo anabeba si tu visa lakini maonyesho mazima kichwani mwake: sauti za kila mhusika, athari za sauti kwa mashoka yanayoanguka na mawimbi yanayovuma, mienendo ya kimwili inayoigiza mchezo, na wakati sahihi unaohitajika kuwavuta wasikilizaji kutoka kicheko hadi kimya hadi funzo la mwisho.",
+      "dg": "Kuhadisi hadisi kahi ya Adigo si burudani ya kawaida. Inachukuliwa kukala chipaji — Mzee Suleiman Ali Nyembwe, mmwenga wa ahadisi mashuhuri a Adigo ariorekodiwa ni atafiti, wadzifundza sanaa yakpwe kula kpwa ise, ambaye wadzifundza kula kpwa babaye. \"Kuhadisi hadisi ni chipaji kula kpwa Mulungu,\" Nyembwe waamba, \"kpwa sababu mutu ni lazima akale na kumbukumbu nono sana.\" Na kpwa kpweli, mhadisi wa Adigo anabeba si tu visa ela maonyesho madzima kichwani mwakpwe: sauti za chila mutu wa hadisini, athari za sauti kpwa mashoka ganago anguka na maimbi ganago vuma, mwiendo wa mwiri unagoigiza mchezo, na wakati wa sawa unaohitajika kuvuta asikizi kula kicheko hadi kunyamala hadi fundzo ra mwisho."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "The Performer's Art",
+      "sw": "Sanaa ya Mwigizaji",
+      "dg": "Sanaa ya Muhadisi"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "A Digo storytelling performance is a theatrical event. The narrator does not simply recite words. They become each character in turn, shifting voice and posture — deep and slow for the wise elder, high and rapid for the trickster, growling for the dangerous animal. When the story calls for the sound of chopping wood, the storyteller's hands become axes. When a character walks through the bush, the storyteller's feet move across the ground. Facial expressions shift from fear to cunning to surprise, and the audience — which is never passive — responds with gasps, laughter, and call-and-response that the storyteller weaves into the telling.",
+      "sw": "Maonyesho ya kusimulia hadithi ya Wadigo ni tukio la maigizo. Msimuliaji harudia maneno tu. Anakuwa kila mhusika kwa zamu, akibadilisha sauti na mkao — kwa kina na polepole kwa mzee mwenye hekima, juu na haraka kwa mjanja, kunguruma kwa mnyama hatari. Hadithi inapohitaji sauti ya kukata kuni, mikono ya msimuliaji inakuwa mashoka. Mhusika anapotembea msituni, miguu ya msimuliaji inasogea ardhini. Sura ya uso inabadilika kutoka hofu hadi ujanja hadi mshangao, na wasikilizaji — ambao hawako kimya kamwe — wanajibu kwa mshangao, kicheko, na maswali-na-majibu ambayo msimuliaji anayafuma katika masimulizi.",
+      "dg": "Maonyesho ga kuhadisi hadisi ya Adigo ni chitu cha maigizo. Muhadisi karudia maneno tu. Anakala chila mutu wa hadisini kpwa zamu, akibadilisha sauti na mkao — kpwa kina na pore-pore kpwa mvyere mwenye ikima, dzulu na haraka kpwa mjanja, kunguruma kpwa nyama wa hatari. Hadisi inahitajipho sauti ya kukata kuni, mikono ya muhadisi inakala mashoka. Mutu wa hadisini anaphosira nyikani, magulu ga muhadisi ganasogea ardhini."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "This is oral literature in its fullest sense: a performed art that exists only in the moment of its telling, shaped by the audience as much as by the narrator, and never exactly the same twice.",
+      "sw": "Hii ni fasihi ya mdomo katika maana yake kamili: sanaa ya maonyesho inayoishi tu katika wakati wa kusimuliwa kwake, inayoumbwa na wasikilizaji kama vile na msimuliaji, na haiwi sawa mara mbili.",
+      "dg": "Hino ni fasihi ya mdomo kpwa maana yakpwe kamili: sanaa ya maonyesho inayoishi tu kpwa wakati wa kuhadiswa kwakpwe, inayoumbwa ni asikizi dza vira na muhadisi, na taipho ikale sawa kano mbiri."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Characters and Themes",
+      "sw": "Wahusika na Maudhui",
+      "dg": "Wahusika na Maudhui"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The Digo story world reflects the coastal environment. Where inland African folk traditions often centre on the savanna — the lion, the elephant, the clever hare — Digo stories draw from the sea, the mangrove, and the palm. Monkeys chatter through the tales, sharks patrol the waters, tortoises carry their patient wisdom on their backs, and buffaloes represent brute strength that cunning can outwit. The Hare, the great trickster of East African folklore, appears here too, but alongside creatures specific to the coast.",
+      "sw": "Ulimwengu wa hadithi za Wadigo unaonyesha mazingira ya pwani. Ambapo mila za kienyeji za Afrika ya bara mara nyingi zinazingatia savanna — simba, tembo, sungura mjanja — hadithi za Wadigo zinatoka baharini, katika mikoko, na kwa mnazi. Nyani wanakongojea katika hadithi, papa wanapiga doria majini, kobe wanabeba hekima yao ya subira migongoni mwao, na nyati wanawakilisha nguvu ya kikatili ambayo ujanja unaweza kuishinda.",
+      "dg": "Ulimwengu wa hadisi za Adigo unaonyesha mazingira ga ph'wani. Ambapo mila za kienyeji za Afrika ya bara zinazingatia savanna — simba, tembo, sungura mjanja — hadisi za Adigo zinatoka baharini, kpwa mikoko, na kpwa mnazi. Makaku ganakongojea kpwa hadisi, papa ganapiga doria madzini, kpwa kobe ganabeba ikima yao ya kuvumirira migongoni mwao."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The stories often turn on moral dilemmas that map directly onto Digo social life. A documented tale, \"Watu Wako na Wengine Hawasikii\" (\"Those That Never Listen\"), narrated by Suleiman Ali Nyembwe himself, tells of a man who marries three successive wives. The first two are passive, content to rely on their husband's provision. The youngest, however, shows enterprise — she goes out to collect firewood and sell it, building her own economic independence. The story's sympathies are clear: the youngest wife's industry is the virtue the story celebrates. This is not merely a fable. It is a meditation on gender, agency, and the Digo value of self-reliance — lessons that resonate with particular force in a community where women's economic independence has long been a site of both power and contestation.",
+      "sw": "Hadithi mara nyingi zinahusu matatizo ya kimaadili yanayolingana moja kwa moja na maisha ya kijamii ya Wadigo. Hadithi iliyorekodiwa, \"Watu Wako na Wengine Hawasikii,\" iliyosimuliwa na Suleiman Ali Nyembwe mwenyewe, inasimulia kuhusu mtu anayeoa wake watatu mfululizo. Wa kwanza wawili ni watulivu, wanaridhika kutegemea utoaji wa mume wao. Wa mwisho, hata hivyo, anaonyesha ujasiriamali — anatoka kukusanya kuni na kuziuza, akijenga uhuru wake wa kiuchumi. Huruma za hadithi ni wazi: bidii ya mke wa mwisho ndio fadhila inayosherehekewa. Hii si hadithi tu. Ni tafakuri kuhusu jinsia, wakala, na thamani ya Wadigo ya kujitegemea.",
+      "dg": "Hadisi mara nyinji zinahusu magongo ga kimaadili ganago lingana moja kpwa moja na maisha ga kijamii ga Adigo. Hadisi iriyorekodiwa, \"Watu Wako na Wengine Hawasikii,\" iriyohadiswa ni Suleiman Ali Nyembwe mwenyewe, inahadisi kuhusu mutu anayeola achetu ahahu mfululizo. A kpwandza airi ni atulivu. Wa mwisho, ela, anaonyesha ujasiriamali — anatoka kukusanya kuni na kuziuza, akidzenga uhuru wakpwe wa kiuchumi. Huruma za hadisi ni za wazi: bidii ya mche wa mwisho ndiyo fadhila inayosherehekewa."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Other stories address the consequences of greed, the foolishness of ignoring elders' advice, the rewards of generosity, and the dangers of the natural world. They are entertainment, certainly, but they are also education — the Digo equivalent of a curriculum, delivered not in a classroom but around an evening fire.",
+      "sw": "Kinachopotea",
+      "dg": "Kinachopotea"
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Poetry Within Story",
+      "sw": "Watafiti wanaosoma mila za mdomo za Wadigo wamerekodi \"kushuka kwa hivi karibuni kwa usimulizi wa hadithi, vijana wa Wadigo wakivutwa zaidi na zaidi katika ustaarabu.\" Neno \"ustaarabu\" katika muktadha huu si la watafiti — ni neno la jamii yenyewe kwa ulimwengu wa televisheni, simu za mkononi, mitandao ya kijamii, na burudani ya Kiswahili inayoshindana na kikao cha kusimulia hadithi jioni.",
+      "dg": "Atafiti anao soma mila za mdomo za Adigo amerekodiwa \"kushuka kpwa usimulizi wa hadisi, avulana na asichana a Adigo akivutwa zaidi na zaidi kpwa ustaarabu.\" Kpwa chila hadisi iriyo na marifwa mahususi: jinsi ya kusoma maimbi, mimea gani ni ya dawa, jinsi ya kuishi na akwe. Changamoto si tu kurekodi hadisi kabila ahadisi ao takabanike. Ni kuumba ulimwengu ambamo avulana na asichana a Adigo anamendza kuzisikira — na hatimaye, kuzihadisi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Not all oral narrative is prose. The Digo also maintain a poetic tradition within their storytelling. Mohammed Kirungu Said, a Digo poet, composed \"Idhilali na Kifo\" (\"Suffering and Death\"), a poem using the *Tathlitha* structure — four-line stanzas with a repeated refrain — to warn young people against violence. The poem form is not decorative; the *Tathlitha* structure creates a hypnotic rhythm that lodges the warning in memory more effectively than any lecture could.",
+      "sw": "Hasara si tu nostalgia ya kitamaduni. Kila hadithi inabeba maarifa mahususi: jinsi ya kusoma mawimbi, mimea gani ni ya dawa, jinsi ya kuishi na wakwe, mababu walivyothamini nini. Changamoto si tu kurekodi hadithi kabla wasimuliaji wao hawajafa. Ni kuunda ulimwengu ambamo vijana wa Wadigo wanataka kuzisikia — na hatimaye, kuzisimulia.",
+      "dg": "Si hadithi zosi za simulizi ni za nadhiri. Adigo piya anariko na mapokeo ga ushairi kpwenye usimulizi wao. Mohammed Kirungu Said, mshairi wa Chidigo, waandika \"Idhilali na Kifo\" (\"Mateso na Chifo\"), shairi ririrotumira muundo wa *Tathlitha* — mishororo mine yenye kiitikio chirichorudiwa — kuonya vijana kuhusu fujo. Muundo wa shairi sio wa mapambo tu; muundo wa *Tathlitha* unaunda mdundo wa kuvutiya ambao unahifadhi onyo mo achilini kpwa njira nono zaidi kuriko somo rorosi."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The poetic tradition interweaves with the musical one. The songs of *sengenya* carry historical narratives. The *vugo* songs at weddings carry instruction and blessing. The *goma* movement at funerals carries the message of the living to the dead. In each case, story, song, and performance are inseparable — the meaning lives in the combination, not in any single element.",
+      "sw": "Utamaduni wa ushairi unaingiliana na ule wa muziki. Nyimbo za *sengenya* hubeba hadithi za kihistoria. Nyimbo za *vugo* katika harusi hubeba mafundisho na baraka. Mwendo wa *goma* katika mazishi hubeba ujumbe wa walio hai kwa wafu. Katika kila hali, hadithi, wimbo, na uigizaji haviwezi kutenganishwa — maana iko katika mchanganyiko, si katika kipengele kimoja peke yake.",
+      "dg": "Mapokeo ga ushairi ganaingiliana na ga muziki. Nyimbo za *sengenya* zinahala hadithi za historia. Nyimbo za *vugo* kpwenye arusi zinahala mafundzo na baraka. Mtsindziro wa *goma* kpwenye mazishi unahala ujumbe wa ario moyo kpwa ariofariki. Kpwa chila hali, hadithi, wimbo, na uonyesho taviweza kutenganishwa — maana iko kpwenye mchanganyiko, si kpwenye chitu chimwenga tu."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "What Is Being Lost",
+      "sw": "Kinachopotea",
+      "dg": "Garigopotea"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Researchers studying Digo oral traditions have documented \"a recent decline in storytelling, with Digo youth being pulled more and more into civilization.\" The word \"civilization\" in this context is not the researchers' — it is the community's own term for the world of television, mobile phones, social media, and Swahili-language entertainment that competes with the evening storytelling session.",
+      "sw": "Watafiti wanaosoma mapokeo ya simulizi ya Kidigo wameandika \"kupungua hivi karibuni kwa usimulizi wa hadithi, huku vijana wa Kidigo wakivutwa zaidi na zaidi kwenye ustaarabu.\" Neno \"ustaarabu\" katika muktadha huu si la watafiti — ni neno la jamii yenyewe kwa ulimwengu wa televisheni, simu za mkononi, mitandao ya kijamii, na burudani za Kiswahili ambayo inashindana na vikao vya usimulizi wa hadithi vya jioni.",
+      "dg": "Atafiti anaosoma mapokeo ga simulizi ga Adigo gaandika \"kupunguka kpwa usimulizi wa hadithi hivi karibuni, na vijana a Chidigo anavutwa zaidi na zaidi kpwenye ustaarabu.\" Neno \"ustaarabu\" kpwa muktadha uhu si ra atafiti — ni neno ra jamii yenyewe kpwa ulimwengu wa televisheni, simu za mkononi, mitandao ya kijamii, na burudani za Chiswahili ambayo inashindana na vikao vya usimulizi wa hadithi vya usiku."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The loss is not simply cultural nostalgia. Each story carries specific knowledge: how to read the tides, which plants are medicinal, how to behave toward in-laws, what the ancestors valued. When the evening storytelling session is replaced by a television set, this knowledge does not transfer to a new medium. It simply disappears. The storyteller's art — the voice modulation, the physical comedy, the audience interaction — cannot be replicated in text. It can only be preserved through recording, and through the creation of new contexts where Digo stories are told, heard, and valued.",
+      "sw": "Upotevu huu si huzuni ya kitamaduni tu. Kila hadithi hubeba maarifa maalum: jinsi ya kusoma mawimbi, mimea ipi ni dawa, jinsi ya kuishi na wakwe, mambo ambayo mababu waliyathamini. Wakati vikao vya usimulizi wa hadithi vya jioni vinapobadilishwa na televisheni, maarifa haya hayahamii kwenye njia mpya. Yanapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa kimwili, mwingiliano na hadhira — haiwezi kuigwa katika maandishi. Inaweza kuhifadhiwa tu kupitia kurekodi, na kupitia kuunda mazingira mapya ambapo hadithi za Kidigo zinasimuliwa, zinasikika, na zinathaminiwa.",
+      "dg": "Kupotea kuku si huzuni ya chikale tu. Chila hadithi inahala maarifa maalumu: vira vya kusoma maimbi, mimea iphi ni dawa, vira vya kuishi na akwe, mambo ambago akare arigogathaminiya. Vikao vya usimulizi wa hadithi vya usiku vinaphotsukizwa ni televisheni, maarifa iga tagahamiya kpwenye njira nyiphya. Ganapotea tu. Sanaa ya msimulizi — kubadilisha sauti, ucheshi wa mwiri, kuchangamana na asirikizadzi — taiweza kuigwa kpwenye maandishi. Inaweza kuhifadhiwa tu kpwa kurekodi, na kpwa kuumba mazingira maphya ambamo hadithi za Chidigo zinasimulwa, zinasikiwa, na zinathaminiwa."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Daidey Maingi at the University of Nairobi, working under Professor Peter Wasamba, is among the scholars actively researching and documenting Digo oral narratives. But academic documentation, while valuable, is not the same as living practice. The challenge is not merely to record the stories before their tellers die. It is to create a world in which Digo young people want to hear them — and, eventually, to tell them.",
+      "sw": "Daidey Maingi katika Chuo Kikuu cha Nairobi, akifanya kazi chini ya Profesa Peter Wasamba, ni miongoni mwa wasomi wanaofanya utafiti na kuandika hadithi za simulizi za Kidigo. Lakini uandikaji wa kitaaluma, ingawa una thamani, si sawa na mazoea hai. Changamoto si tu kurekodi hadithi kabla wasimulizi wao hawajafariki. Ni kuunda ulimwengu ambao vijana wa Kidigo wanataka kuzisikia — na hatimaye, kuzisimulia.",
+      "dg": "Daidey Maingi kpwenye Chuo Chikulu cha Nairobi, anayehenda kazi tsini ya Profesa Peter Wasamba, ni kahi ya asomi ambao anahenda utafiti na kuandika hadithi za simulizi za Adigo. Ela kuandika kpwa kitaaluma, ingawa kuna thamani, si sawa na mazoea ga moyo. Changamoto si tu kurekodi hadithi kabla asimulizi aho taajafariki. Ni kuumba ulimwengu ambamo vijana a Chidigo analonda kuzisikira — na mwisho, kuzisimulira."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "culture/today/livelihoods",
+  "title": {
+    "en": "Digo Livelihoods",
+    "sw": "Riziki za Wadigo",
+    "dg": "Riziki za Adigo"
+  },
+  "intro": {
+    "en": "The Digo have always been a people defined by their relationship to two landscapes: the coastal lowland with its coconut palms, cashew trees, and fertile red soil, and the Indian Ocean with its fish,…",
+    "sw": "Riziki za Wadigo bado zinaendelezwa na mazingira mawili: ardhi ya pwani yenye minazi na mikorosho, na Bahari ya Hindi yenye samaki na njia za biashara. Kilimo kinachukua takriban asilimia 80 ya mapato…",
+    "dg": "Riziki za Adigo bado zinakuluphira mazingira mairi: tsi ya pwani yenye minazi na mikorosho, na Bahari ya Hindi yenye ngʼonda na njira za biashara. Chirimo chinachangiya kama asilimia 80 ya mapato ga…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "An Economy Rooted in the Land and Sea",
+      "sw": "Uchumi Wenye Mizizi Katika Ardhi na Bahari",
+      "dg": "Uchumi Wenye Mizi kpwa Tsi na Bahari"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo have always been a people defined by their relationship to two landscapes: the coastal lowland with its coconut palms, cashew trees, and fertile red soil, and the Indian Ocean with its fish, its trade routes, and its unpredictable generosity. Contemporary Digo livelihoods remain anchored in these two environments, even as new economic activities — tourism, transport, digital commerce — layer themselves over the older patterns. Agriculture accounts for approximately 80 percent of household income across Kwale County, a figure that underscores just how fundamentally the Digo economy remains tied to what grows in the ground and what moves through the water.",
+      "sw": "Riziki za Wadigo bado zinaendelezwa na mazingira mawili: ardhi ya pwani yenye minazi na mikorosho, na Bahari ya Hindi yenye samaki na njia za biashara. Kilimo kinachukua takriban asilimia 80 ya mapato ya kaya katika Kaunti ya Kwale.",
+      "dg": "Kula kare, Adigo akakala atu anaomanyikana kpwa uhusiano wao na mandhari mairi: tsi ya photsi ya pwani yenye minazi, mihi ya ngorosho, na ulongo wa kundu wenye rutuba, na Bahari ya Hindi yenye ngʼonda, njira za biashara, na ukarimuwe usiotabirika. Riziki za Adigo za rero bado zinakuluphira mazingira gano mairi, hata dza shughuli mphya za chiuchumi — utalii, usafiri, biashara ya chidijitali — zichienjerezeka dzulu ya mienendo ya kare. Chirimo chinachangiya kama asilimia 80 ya mapato ga makaya kpwa Kaunti ya Kwale, idadi inayoonyesa kukala uchumi wa Adigo bado unakuluphira kpwa msingi chira chinachomera tsini na chira chinachotsupa kahi ya madzi."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Coconut: The Foundation Crop",
+      "sw": "**Nazi** ni zao kuu — Kaunti ya Kwale inazalisha zaidi ya asilimia 90 ya nazi za Kenya. Mafuta ya nazi, maziwa ya nazi, makuti, na mnazi — hakuna sehemu ya mnazi inayopotezwa. Lakini minazi mingi inashindwa kwa umri, na upandaji mpya haujafuata. **Korosho** ni zao la biashara kuu, likisaidia kazi 4,000 za moja kwa moja na 50,000 za moja kwa moja. Lakini korosho nyingi bado zinauzwa mbichi.",
+      "dg": "Nazi: Zao ra Msingi"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "No single crop is more central to Digo economic and cultural life than the coconut palm. Kwale County produces over 90 percent of Kenya's coconuts, and the tree's products permeate every aspect of daily life. Coconut oil is used for cooking and cosmetics. Coconut milk enriches the curries, rice dishes, and sweets that define Digo cuisine. The palm fronds are woven into roofing material and baskets. Palm wine — mnazi — is tapped and fermented for consumption and sale. The trunk provides building timber. Nothing about the coconut palm is wasted.",
+      "sw": "**Uvuvi** wa jadi uko chini ya shinikizo kubwa — viwango vya samaki vimeshuka mara nne tangu miaka ya 1980. **Kilimo cha mwani** kinaibuka kama mbadala wa kuahidi, huku Kibuyuni Seaweed Cooperative ikiwa na wanachama 414, asilimia 75 wao wanawake, chini ya uongozi wa Mama Fatuma Usi.",
+      "dg": "Takuna zao ranjina ririro muhimu zaidi kpwa maisha ga chiuchumi na ga chisomo ga Adigo kuriko mnazi. Kaunti ya Kwale inalavya zaidi ya asilimia 90 ya nazi za Kenya, na vitu vinavyolavywa ni mnazi vinainjira kahi ya chila seemu ya maisha ga chila siku. Mafuha ga nazi nkuhumirwa kpwa kujita na kpwa vipodozi. Maziya ga nazi ganaenjereza ladha kpwenye mitsuzi, vyakurya vya wari, na vyakurya vya mtswano vinavyofafanua kujita kpwa Chidigo. Makuti nkufumwa kukala vifuniko vya nyumba na vikapu. Uchi wa mnazi — *mnazi* — nkujemwa na kurichwa uumuke, kpwa kunwewa na kuguzwa. Chigogo cha mnazi nkuhumirwa dza mbao za kudzengera. Takuna seemu ya mnazi inayoangamizwa."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "But the coconut economy faces structural challenges. Many of the county's palms are aging, their productivity declining, and replanting has not kept pace with the natural life cycle of the trees. The loss of productive coconut land to Base Titanium's mining operations compounded this problem. Market access is constrained by poor roads and limited processing infrastructure — most coconuts are sold raw or as crude oil rather than as the value-added products that would command higher prices. For a crop that is so culturally central, coconut farming generates surprisingly modest incomes, a paradox that reflects the broader pattern of Kwale's agricultural economy: high dependence on crops that are sold at the lowest point of the value chain.",
+      "sw": "**Utalii** katika Diani Beach ni mwajiri mkubwa lakini Wadigo wanashiriki kwa masharti yasiyo sawa — wengi wao katika nafasi za chini zaidi. **Boda-boda** imekuwa riziki muhimu zaidi kwa vijana wa kiume. Vikundi vya akiba vya wanawake (*chama*) na mashirika kama Munje Tunusuru Women's Group yanawakilisha shughuli za kiuchumi zenye ubunifu zaidi.",
+      "dg": "Ela uchumi wa nazi unakabiliana na changamoto za msingi. Minazi minji ya kaunti inashindwa kpwa umri, mazaoge ganaphungula, na minazi miphya taiphandwa kpwa unji wa kutosha kulingana na mzunguko wa maisha ga mihi iyo. Kuangamika kpwa tsi ya minazi yenye tija kpwa ajili ya utsimbadzi wa madini wa Base Titanium kpwaenjereza tatizo riri. Kufikira masoko kunazuiwa ni barabara mbii na viwanda vidide vya usindikaji — nazi nyinji nkuguzwa mbichi au dza mafuha ghafi badala ya kukala bidhaa zirizoenjerezwa samani ambazo zingeguzwa kpwa bei za dzulu. Kpwa zao ririro muhimu vivyo kpwa chisomo, chirimo cha nazi chinalavya mapato machache kpwa kushangaza — chinaya chinachoonyesa mwenendo mpana wa uchumi wa chirimo wa Kwale: kukuluphira sana mazao ganagoguzwa kpwenye hatua ya photsi zaidi ya mnyororo wa samani."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "Cashew Nuts: The Premier Cash Crop",
+      "sw": "Pesa zinazotumwa kutoka mijini — kupitia M-Pesa na njia nyingine — zinasaidia ada za shule, gharama za matibabu, na matengenezo ya kaya za mashambani.",
+      "dg": "Ngorosho: Zao Kulu ra Biashara"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "If coconut is the foundation, cashew nuts are the aspiration. Cashew is Kwale County's premier cash crop, supporting an estimated 4,000 direct jobs and 50,000 indirect jobs across the production, processing, and trading chain. The county's cashew production has grown in recent years, supported by government distribution of improved seedlings and training in modern agricultural practices. Cashew orchards dot the landscape of the coastal sub-counties, their spreading canopies a distinctive feature of the Digo countryside.",
+      "sw": "Ikiwa nazi ni msingi, korosho ni ndoto. Korosho ndiyo zao kuu la biashara la Kaunti ya Kwale, likisaidia ajira takriban 4,000 za moja kwa moja na ajira 50,000 zisizo za moja kwa moja katika mnyororo wa uzalishaji, usindikaji, na biashara. Uzalishaji wa korosho wa kaunti umekua katika miaka ya hivi karibuni, ukisaidiwa na ugawaji wa serikali wa miche bora na mafunzo katika mazoea ya kisasa ya kilimo. Mashamba ya korosho yanatapakaa mandhari ya kaunti ndogo za pwani, mataji yake yanayoenea yakiwa kipengele cha kipekee cha mashambani ya Wadigo.",
+      "dg": "Nazi ichikala ni msingi, ngorosho ni ndoso. Ngorosho ndiyo zao kulu ra biashara ra Kaunti ya Kwale, richiterya kazi kama 4,000 za mwenga kpwa mwenga na kazi 50,000 zisizo za mwenga kpwa mwenga kpwenye mnyororo wa uzalishaji, usindikaji, na biashara. Uzalishaji wa ngorosho wa kaunti ukakula miaka ya sambi, kpwa sababu serikali yaganya miche minono na kupha mafundzo ga mazoea ga chisasa ga chirimo. Minda ya ngorosho inatapakaa mandhari ya kaunti ndide za pwani, na matawi ga mihi iyo garigoenea ni chipengele cha chipekee cha vidzidzi vya Adigo."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The cashew economy illustrates both the potential and the frustration of Kwale's agricultural sector. The potential is clear: global demand for cashew nuts is strong, the crop is well-suited to the county's climate, and the value chain from raw nut to processed kernel offers multiple points at which value can be added locally. The frustration is equally clear: most of Kwale's cashew nuts are still sold raw or with minimal processing, meaning that the highest-value stages of the value chain — roasting, flavoring, packaging for retail markets — occur elsewhere. The establishment of local processing facilities has been a persistent goal of county development plans, but progress has been slow.",
+      "sw": "Uchumi wa korosho unaonyesha uwezo na kukatisha tamaa kwa sekta ya kilimo ya Kwale. Uwezo uko wazi: mahitaji ya ulimwengu ya korosho ni makubwa, zao hilo linafaa kwa hali ya hewa ya kaunti, na mnyororo wa thamani kutoka kokwa mbichi hadi punje iliyosindikwa unatoa sehemu nyingi ambapo thamani inaweza kuongezwa ndani ya nchi. Kukatisha tamaa pia ni wazi: korosho nyingi za Kwale bado zinouzwa mbichi au na usindikaji mdogo, ikimaanisha kuwa hatua zenye thamani kubwa zaidi za mnyororo wa thamani — kukaanga, kuweka ladha, kufungasha kwa masoko ya rejareja — hutokea mahali pengine. Kuanzishwa kwa viwanda vya usindikaji wa ndani kumekuwa lengo la kudumu la mipango ya maendeleo ya kaunti, lakini maendeleo yamekuwa polepole.",
+      "dg": "Uchumi wa ngorosho unaonyesa uwezo na kutsukiza tamaa kpwa sekta ya chirimo ya Kwale. Uwezo ni wazi: mahitaji ga ulimwengu ga ngorosho ni makulu, zao riri rinafwaha hali ya hewa ya kaunti, na mnyororo wa samani kula kokwa mbichi hadi punje iriyosindikpwa unapha seemu nyinji ambapho samani inaweza kuenjerezwa ndani ya tsi. Kutsukiza tamaa piya ni kpwa wazi: ngorosho nyinji za Kwale bado zinaguzwa mbichi au na usindikaji mdide, manaye ni kukala hatua zenye samani kulu zaidi za mnyororo wa samani — kukalanga, kuikpwa ladha, kufungasha kpwa masoko ga rejareja — nkuhendwa phatu phanjina. Kuandzishwa kpwa viwanda vya usindikaji wa ndani kukakala lengo ra kudumu ra mipango ya maendeleo ya kaunti, ela maendeleo gakakala pore-pore."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Fishing: A Tradition Under Pressure",
+      "sw": "Uvuvi: Mila Chini ya Shinikizo",
+      "dg": "Uvuvi: Mila Tsini ya Shinikizo"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Digo fishing communities, concentrated along the coast from Shimoni to Msambweni and on the islands of the Kisite-Mpunguti marine area, practice an artisanal tradition that stretches back centuries. Fishermen use handlines, gill nets, and traditional traps, working from small wooden boats — ngalawa outrigger canoes among them — that are themselves artifacts of Indian Ocean maritime culture. The catch includes reef fish, octopus, prawns, and various pelagic species that are sold fresh in local markets.",
+      "sw": "Jamii za uvuvi za Wadigo, zilizojikita kando ya pwani kutoka Shimoni hadi Msambweni na kwenye visiwa vya eneo la bahari la Kisite-Mpunguti, zinafanya mila ya ufundi ambayo inaenea nyuma kwa karne nyingi. Wavuvi hutumia ndoano za mkono, nyavu za gill, na mitego ya jadi, wakifanya kazi kutoka kwa boti ndogo za mbao — mitumbwi ya ngalawa miongoni mwayo — ambayo yenyewe ni vizalia vya utamaduni wa baharini wa Bahari ya Hindi. Samaki wanaovuliwa ni pamoja na samaki wa miamba, pweza, kamba, na aina mbalimbali za samaki wa bahari kuu ambazo zinouzwa mbichi katika masoko ya ndani.",
+      "dg": "Jamii za uvuvi za Adigo, zirizodzikita kanda ya pwani kula Shimoni hadi Msambweni na kpwenye visiwa vya seemu ya bahari ya Kisite-Mpunguti, zinahenda mila ya ufundi ambayo inaenea nyuma kpwa karne nyinji. Avuvi anahumira ndoano za mkpwono, nyavu za gill, na mihambo ya kare, anahenda kazi kula kpwa miyadiya midide ya mbao — mitumbwi ya ngalawa kahi yayo — ambayo yenyewe ni vitu vya utamaduni wa baharini wa Bahari ya Hindi. Ng'onda anaovuliwa ni phamwenga na ng'onda a miamba, ph'weza, kamba, na aina mbali-mbali za ng'onda a bahari kulu ambazo zinaguzwa mbichi kpwenye masoko ga ndani."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "But the fishing economy is in serious decline. Catch rates have fallen fourfold since the 1980s, driven by overfishing, the degradation of coral reef habitats, and changes in ocean temperature and currents. The fishermen who once reliably brought home enough to feed their families and sell the surplus now frequently return with catches that barely cover the cost of fuel and bait. The county government has responded by distributing 60 modern boats to fishing communities, but the fundamental problem — declining fish stocks in near-shore waters — cannot be solved by better boats alone.",
+      "sw": "Lakini uchumi wa uvuvi uko katika kushuka kwa hatari. Viwango vya samaki wanaovuliwa vimeshuka mara nne tangu miaka ya 1980, vikisukumwa na uvuvi kupita kiasi, uharibifu wa makazi ya miamba ya matumbawe, na mabadiliko ya joto la bahari na mikondo. Wavuvi ambao zamani walileta nyumbani kwa uhakika chakula cha kutosha kulisha familia zao na kuuza ziada sasa mara nyingi wanarudi na samaki ambao hawatoshi kugharamia mafuta na chambo. Serikali ya kaunti imejibu kwa kugawa boti 60 za kisasa kwa jamii za uvuvi, lakini tatizo la msingi — kupungua kwa samaki katika maji ya karibu na ufuko — haliwezi kutatuliwa kwa boti bora peke yake.",
+      "dg": "Ela uchumi wa uvuvi u kpwenye kushuka kpwa hatari. Viwango vya ng'onda ariovuliwa vikagbwa tsini mara nne hangu miaka ya 1980, vichisukumwa ni uvuvi kutsupa chiasi, kubanangwa kpwa makazi ga miamba ya matumbawe, na mabadiliko ga dzoho ya bahari na mikondo. Avuvi ambao kare arireha nyumbani kpwa uhakika chakurya cha kutosha kurisa nyumba zao na kuguza ziada sambi mara nyinji anauya na ng'onda ambao taatosha kuripha mafuha na chambo. Serikali ya kaunti ikadzibu kpwa kuganya miyadiya 60 ya chisasa kpwa jamii za uvuvi, ela tatizo ra msingi — kuphunguka kpwa ng'onda kpwenye madzi ga phephi na pwani — tariweza kutatuliwa ni miyadiya minono bahi."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Seaweed Farming: A Blue Economy Pioneer",
+      "sw": "Kilimo cha Mwani: Mtangulizi wa Uchumi wa Bluu",
+      "dg": "Chirimo cha Mwani: Mtangulizi wa Uchumi wa Bluu"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "One of the most promising developments in Digo coastal livelihoods is the emergence of seaweed farming. Twenty-one seaweed farming groups have been established across 14 villages along the Kwale coast, cultivating species of seaweed that are harvested, dried, and sold for use in food processing, cosmetics, and pharmaceutical products. The work is labor-intensive but requires relatively low capital investment, making it accessible to communities that lack the resources for more capital-intensive enterprises.",
+      "sw": "Mojawapo ya maendeleo ya kuahidi zaidi katika njia za maisha za pwani za Wadigo ni kuibuka kwa kilimo cha mwani. Vikundi 21 vya kilimo cha mwani vimeanzishwa katika vijiji 14 kando ya pwani ya Kwale, vikikuza aina za mwani zinazovunwa, kukaushwa, na kuuzwa kwa matumizi katika usindikaji wa chakula, vipodozi, na bidhaa za dawa. Kazi hiyo inahitaji nguvu kazi nyingi lakini inahitaji uwekezaji wa mtaji wa chini kwa kiasi, na kuifanya ipatikane kwa jamii ambazo hazina rasilimali za biashara zinazohitaji mtaji mkubwa zaidi.",
+      "dg": "Mwenga wa maendeleo ganagoahidi zaidi kpwenye njira za maisha za pwani za Adigo ni kuzuka kpwa chirimo cha mwani. Vikundi 21 vya chirimo cha mwani vikaandzishwa kpwenye vidzidzi 14 kanda ya pwani ya Kwale, vichirima aina za mwani zinazovunwa, kuanikwa, na kuguzwa kpwa matumizi kpwenye usindikaji wa chakurya, vipodozi, na bidhaa za dawa. Kazi iyo inahitaji nguvu kazi nyinji ela inahitaji uwekezaji wa mtaji wa tsini kpwa chiasi, na kuihenda iphahikane kpwa jamii ambazo tazina rasilimali za biashara zinazohitaji mtaji mkpwulu zaidi."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The Kibuyuni Seaweed Cooperative stands out as a model of what community-based coastal enterprise can achieve. Founded in 2010 with 113 members, approximately 75 percent of them women, the cooperative has grown to 414 members under the leadership of Mama Fatuma Usi. Harvest volumes doubled between 2012 and 2018. The cooperative provides not only income but also food security — seaweed is edible and nutritious — and a measure of community standing for women who might otherwise lack access to formal economic participation. It demonstrates that the blue economy, often discussed in abstract policy terms, can translate into tangible improvements in the lives of coastal communities.",
+      "sw": "Ushirika wa Mwani wa Kibuyuni unajitokeza kama mfano wa kile ambacho biashara ya pwani inayotegemea jamii inaweza kufanikiwa. Ulianzishwa mwaka 2010 na wanachama 113, takriban asilimia 75 wao wakiwa wanawake, ushirika umekua hadi wanachama 414 chini ya uongozi wa Mama Fatuma Usi. Kiasi cha mavuno kiliongezeka mara mbili kati ya 2012 na 2018. Ushirika unatoa si mapato tu bali pia usalama wa chakula — mwani unaliwa na una lishe — na kipimo cha hadhi ya jamii kwa wanawake ambao vinginevyo wangekosa upatikanaji wa ushiriki rasmi wa kiuchumi. Unaonyesha kuwa uchumi wa bluu, ambao mara nyingi hujadiliwa kwa maneno ya kisera, unaweza kubadilishwa kuwa maboresho yanayoonekana katika maisha ya jamii za pwani.",
+      "dg": "Ushirika wa Mwani wa Kibuyuni unaonekana dza mfano wa chira ambacho biashara ya pwani inayokuluphira jamii inaweza kuhenda. Uriandzishwa mwaka wa 2010 na anachama 113, kama asilimia 75 ao achetu, ushirika ukakula hadi anachama 414 tsini ya uongozi wa Mama Fatuma Usi. Chiasi cha mavuno chikakala mara mbiri kahi ya 2012 na 2018. Ushirika unapha si mapato bahi ela piya usalama wa chakurya — mwani unariwa na una lishe — na chipimo cha hadhi ya jamii kpwa achetu ambao kpwa njira yanjina angekosa kuphaha ushiriki rasmi wa chiuchumi. Unaonyesa kukala uchumi wa bluu, ambao mara nyinji unajadiriwa kpwa maneno ga chisera, unaweza kubadilishwa kukala maboresho ganagoonekana kpwenye maisha ga jamii za pwani."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Tourism Employment: Opportunity and Inequity",
+      "sw": "Ajira ya Utalii: Fursa na Ukosefu wa Usawa",
+      "dg": "Kazi ya Utalii: Nafasi na Ukosefu wa Usawa"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The tourism economy centered on Diani Beach is the largest employer in the south coast, but the terms of Digo participation in that economy are deeply unequal. Hotels and resorts employ local Digo workers primarily in cleaning, gardening, laundry, and security — the lowest-paid and least-skilled positions in the hospitality industry. Management positions, ownership stakes, and the higher-earning roles in tourism — tour guides, dive instructors, hospitality managers — are held overwhelmingly by outsiders, whether from upcountry Kenya or from abroad.",
+      "sw": "Uchumi wa utalii unaojikita Diani Beach ndio mwajiri mkubwa zaidi katika pwani ya kusini, lakini masharti ya ushiriki wa Wadigo katika uchumi huo hayana usawa mkubwa. Hoteli na mapumziko yanaajiri wafanyakazi wa Wadigo wa ndani hasa katika usafishaji, upandaji bustani, ufuaji nguo, na ulinzi — nyadhifa za malipo ya chini zaidi na ujuzi mdogo zaidi katika sekta ya ukarimu. Nyadhifa za usimamizi, hisa za umiliki, na nafasi za mapato ya juu katika utalii — waongoza watalii, wakufunzi wa kupiga mbizi, wasimamizi wa ukarimu — zinashikiliwa kwa wingi na watu wa nje, iwe kutoka bara ya Kenya au kutoka nje ya nchi.",
+      "dg": "Uchumi wa utalii unaodzikita Diani Beach ndio muajiri mkpwulu zaidi kpwenye pwani ya kusini, ela masharti ga kushiriki kpwa Adigo kpwenye uchumi wa utalii tagana usawa. Hoteli na maphumziko ganaajiri ahendakazi Adigo a ndani haswa kpwenye usafishaji, upandaji bustani, ufuaji nguwo, na kurinda usalama — nyadhifa za malipo ga tsini zaidi na ujuzi mdide zaidi kpwenye sekta ya ukarimu. Nyadhifa za usimamizi, hisa za umiliki, na nafasi za mapato ga dzulu kpwenye utalii — vilongozi a atalii, afundzi a kupiga mbizi, asimamizi a ukarimu — zinashikiliwa kpwa unji ni atu a kondze, kpwa kukala kula bara ya Kenya au kula kondze ya tsi."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The informal tourism economy offers a parallel but precarious livelihood. Beach boys — young men who hustle on the beach, offering tours, transport, and various services to tourists — represent a visible but vulnerable workforce. Their income is irregular, their legal status ambiguous, and their exposure to the social pathologies of tourism — substance abuse, sexual exploitation — is high. For young Digo men with limited education and few formal employment options, the beach economy is often the employer of last resort.",
+      "sw": "Uchumi usio rasmi wa utalii unatoa njia ya maisha sambamba lakini isiyo na uhakika. Wavulana wa ufukweni — vijana wanaofanya biashara kwenye ufukwe, wakitoa ziara, usafiri, na huduma mbalimbali kwa watalii — wanawakilisha nguvu kazi inayoonekana lakini hatarini. Mapato yao si ya kawaida, hadhi yao ya kisheria haijulikani wazi, na kukabiliwa kwao na matatizo ya kijamii ya utalii — matumizi mabaya ya dawa, unyanyasaji wa kingono — ni kubwa. Kwa vijana wa Wadigo wenye elimu ndogo na fursa chache za ajira rasmi, uchumi wa ufukweni mara nyingi ndio mwajiri wa mwisho.",
+      "dg": "Uchumi usio rasmi wa utalii unapha njira ya maisha sambamba ela isiyo na uhakika. Avulana a pwanini — adide anaohenda biashara kpwenye pwani, anaopha ziara, usafiri, na huduma mbali-mbali kpwa atalii — anawakilisha nguvu kazi inayoonekana ela iriyo hatarini. Mapato gao si ga kawaida, hadhi yao ya chisheria taimanyikana, na kukabiliana kpwao na matatizo ga chijamii ga utalii — kuhumira vibaya dawa, unyanyasaji wa chingono — ni kukulu. Kpwa adide a Adigo alume ario na elimu ndide na nafasi chache za kazi rasmi, uchumi wa pwanini mara nyinji ndio muajiri wa mwisho."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "Boda-Boda: The Youth Economy",
+      "sw": "Boda-Boda: Uchumi wa Vijana",
+      "dg": "Boda-Boda: Uchumi wa Adide"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The boda-boda — the motorcycle taxi — has become arguably the single most important livelihood for young Digo men. Across Kwale County, clusters of boda-boda riders wait at every junction, market, and school gate, offering affordable point-to-point transport in an area where public transit is sparse and the road network, though expanding, still leaves many communities poorly connected. A young man with access to a motorcycle — whether owned, leased, or operated on commission for an owner — has an immediate income-generating asset.",
+      "sw": "Boda-boda — teksi ya pikipiki — imekuwa labda njia moja muhimu zaidi ya maisha kwa vijana wa Wadigo. Kote Kaunti ya Kwale, makundi ya waendesha boda-boda yanasubiri katika kila njia panda, soko, na lango la shule, yakitoa usafiri wa bei nafuu wa sehemu moja hadi nyingine katika eneo ambapo usafiri wa umma ni haba na mtandao wa barabara, ingawa unapanuka, bado unaacha jamii nyingi bila kuunganishwa vizuri. Kijana mwenye upatikanaji wa pikipiki — iwe anamiliki, amekodisha, au anaiendesha kwa kamisheni kwa mmiliki — ana mali ya kuzalisha mapato mara moja.",
+      "dg": "Boda-boda — teksi ya pikipiki — ikakala labda njira mwenga muhimu zaidi ya maisha kpwa adide alume a Adigo. Kosi Kaunti ya Kwale, makundi ga aendesha boda-boda ganarindira kpwenye chila njira panda, soko, na lango ra shule, gachipha usafiri wa bei nafuu wa seemu mwenga hadi yanjina kpwenye seemu ambapho usafiri wa umma ni haba na mtandao wa barabara, dzagbwe unapanuka, bado unaricha jamii nyinji bila kuunganishwa vinono. Mdide mlume ariye na pikipiki — ichikala ni yakpwe, ya kukodisha, au anaiendeshera kamisheni kpwa mwenye pikipiki — ana mali ya kulavya mapato kpwa wakati mmwenga."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The boda-boda economy is both a symptom of limited formal employment and a genuine economic innovation. It fills a real transport gap, it provides flexible employment, and it creates a network of economic activity that touches every corner of the county. But it is also dangerous — motorcycle accidents are a leading cause of injury and death among young men — and the income, while immediate, is rarely sufficient to build long-term economic security.",
+      "sw": "Uchumi wa boda-boda ni dalili ya ajira rasmi ndogo na pia uvumbuzi halisi wa kiuchumi. Unajaza pengo halisi la usafiri, unatoa ajira inayobadilika, na unaunda mtandao wa shughuli za kiuchumi unaogusa kila kona ya kaunti. Lakini pia ni hatari — ajali za pikipiki ni sababu kuu ya majeraha na vifo miongoni mwa vijana — na mapato, ingawa ya papo hapo, mara chache yanatosheleza kujenga usalama wa kiuchumi wa muda mrefu.",
+      "dg": "Uchumi wa boda-boda ni dalili ya kazi rasmi ndide na piya uvumbuzi wa kpweli wa chiuchumi. Unajaza pengo ra kpweli ra usafiri, unapha kazi inayobadilika, na unaunda mtandao wa shughuli za chiuchumi unaofikira chila kona ya kaunti. Ela piya ni wa hatari — ajali za pikipiki ni sababu kulu ya vironda na vifo kahi ya adide alume — na mapato, dzagbwe ni ga phapho hapho, mara chache ganatosha kudzenga usalama wa chiuchumi wa wakati mure."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Women's Economic Organizations",
+      "sw": "Mashirika ya Kiuchumi ya Wanawake",
+      "dg": "Mashirika ga Chiuchumi ga Achetu"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Women's economic organizations represent some of the most dynamic and innovative economic activity in contemporary Digo society. The *chama* — the rotating savings group or merry-go-round — is ubiquitous. Women pool small amounts of money weekly or monthly and distribute the accumulated sum to one member at a time, providing access to lump-sum capital that would be impossible to save individually and that formal banking institutions rarely make available to rural women.",
+      "sw": "Mashirika ya kiuchumi ya wanawake yanawakilisha baadhi ya shughuli za kiuchumi zenye nguvu na ubunifu zaidi katika jamii ya Wadigo ya sasa. *Chama* — kikundi cha akiba kinachozunguka au mzunguko — kiko kila mahali. Wanawake wanakusanya kiasi kidogo cha pesa kila wiki au mwezi na kugawanya jumla iliyokusanywa kwa mwanachama mmoja kwa wakati mmoja, kutoa upatikanaji wa mtaji wa jumla ambao usingekuwa rahisi kuhifadhi mmoja mmoja na ambao taasisi rasmi za benki mara chache huwapatia wanawake wa mashambani.",
+      "dg": "Mashirika ga chiuchumi ga achetu ganawakilisha shughuli za chiuchumi zenye nguvu na ubunifu zaidi kpwenye jamii ya Adigo ya sambi. *Chama* — chikundi cha akiba chinachozunguluka au mzunguko — chiko chila phatu. Achetu anakusanya chiasi chidide cha pesa chila wiki au mwezi na kuganya jumla iriyokusanywa kpwa mwanachama mmwenga kpwa wakati mmwenga, kupha nafasi ya kuphaha mtaji wa jumla ambao usingekala rahisi kuika mmwenga-mmwenga na ambao taasisi rasmi za benki mara chache nkuapha achetu a vidzidzini."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "Beyond chamas, more structured women's organizations have emerged. The Munje Tunusuru Women's Group combines mangrove restoration with beekeeping, basket weaving, and organic farming — a diversified portfolio of activities that provides multiple income streams while contributing to environmental conservation. These organizations matter not only for their economic output but for their social function: they create spaces where women exercise leadership, make collective decisions, and build the kind of social capital that translates into political voice and community influence.",
+      "sw": "Zaidi ya vyama, mashirika ya wanawake yenye muundo zaidi yameibuka. Kikundi cha Wanawake cha Munje Tunusuru kinachanganya urejesho wa mikoko na ufugaji nyuki, ufumaji vikapu, na kilimo hai — mkusanyiko wa shughuli ulioanuka ambao unatoa mikondo mingi ya mapato huku ukichangia uhifadhi wa mazingira. Mashirika haya ni muhimu si kwa pato lao la kiuchumi tu bali kwa kazi yao ya kijamii: yanaunda nafasi ambapo wanawake wanafanya uongozi, kufanya maamuzi ya pamoja, na kujenga aina ya mtaji wa kijamii unaobadilishwa kuwa sauti ya kisiasa na ushawishi katika jamii.",
+      "dg": "Zaidi ya vyama, mashirika ga achetu genye muundo zaidi gakazuka. Chikundi cha Achetu cha Munje Tunusuru chinatsanganya kuuyiza mikoko na ufugaji wa nyuchi, ufumaji wa vikapu, na chirimo hai — mkusanyo wa shughuli tafwauti unaopha mikondo minji ya mapato hiku uchichangiya uhifadhi wa mazingira. Mashirika gano ni muhimu si kpwa pato rao ra chiuchumi bahi ela kpwa kazi yao ya chijamii: ganaunda seemu ambapho achetu anahenda uongozi, kuhenda maamuzi ga phamwenga, na kudzenga aina ya mtaji wa chijamii unaobadilika kukala sauti ya chisiasa na ushawishi kpwenye jamii."
+    },
+    {
+      "id": "b024",
+      "type": "heading",
+      "en": "Remittances and Urban Migration",
+      "sw": "Fedha za Kutumwa na Uhamaji wa Mijini",
+      "dg": "Pesa za Kuhumwa na Kutsama kpwa Midzini"
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "A significant but difficult to quantify income stream for rural Digo families comes from remittances sent by family members working in urban areas. Mombasa, as the nearest major city, absorbs the largest number of Digo workers, who find employment in the port, in manufacturing, in construction, and in the service sector. Nairobi draws the more educated. The Gulf states and other international destinations attract a smaller but economically significant stream of migrants.",
+      "sw": "Mkondo muhimu lakini ugumu kupima wa mapato kwa familia za Wadigo wa mashambani unatoka kwa fedha zinazotumwa na wanafamilia wanaofanya kazi katika maeneo ya mijini. Mombasa, kama jiji kubwa la karibu zaidi, inachukua idadi kubwa zaidi ya wafanyakazi wa Wadigo, wanaopata ajira katika bandari, katika viwanda, katika ujenzi, na katika sekta ya huduma. Nairobi inavutia waliosoma zaidi. Nchi za Ghuba na maeneo mengine ya kimataifa yanavutia mkondo mdogo lakini wenye umuhimu wa kiuchumi wa wahamaji.",
+      "dg": "Mkondo muhimu ela wa vigumu kuupima wa mapato kpwa nyumba za Adigo za vidzidzini unatuluka kpwa pesa zinazohumwa ni ananyumba anaohenda kazi kpwenye seemu za midzini. Mombasa, dza mudzi mkpwulu wa phephi zaidi, inatsukula idadi kulu zaidi ya ahendakazi Adigo, anaophaha kazi kpwenye bandari, kpwenye viwanda, kpwenye ujenzi, na kpwenye sekta ya huduma. Nairobi inavutiya ariosoma zaidi. Tsi za Ghuba na seemu zanjina za chimataifa zinavutiya mkondo mdide ela wenye umuhimu wa chiuchumi wa atu anaotsama."
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "The money sent home — through mobile money platforms like M-Pesa, which has transformed financial access across Kenya — supports school fees, medical expenses, funeral costs, and the general maintenance of rural households. Urban migration also creates cultural distance: the young Digo man or woman working in Mombasa or Nairobi may speak Swahili as their primary language, maintain only intermittent contact with the kaya system, and identify as much with their urban community as with their ancestral village. The economic benefit of migration is real; the cultural cost is harder to measure but no less significant.",
+      "sw": "Pesa zinazotumwa nyumbani — kupitia jukwaa za pesa za simu kama M-Pesa, ambayo imebadilisha upatikanaji wa kifedha kote Kenya — zinasaidia ada za shule, gharama za matibabu, gharama za mazishi, na matunzo ya kawaida ya nyumba za mashambani. Uhamaji wa mijini pia huunda umbali wa kitamaduni: kijana wa Kidigo anayefanya kazi Mombasa au Nairobi anaweza kuzungumza Kiswahili kama lugha yake kuu, kudumisha mawasiliano ya mara kwa mara tu na mfumo wa kaya, na kujitambulisha na jamii yake ya mjini kama anavyojitambulisha na kijiji chake cha mababu. Faida ya kiuchumi ya uhamaji ni halisi; gharama ya kitamaduni ni vigumu kupima lakini si ndogo.",
+      "dg": "Pesa zinazohumwa nyumbani — kpwa jukwaa za pesa za simu dza M-Pesa, ambayo ikabadilisha kuphaha pesa kosi Kenya — zinaterya ada za shule, gharama za kuphozwa, gharama za mazishi, na matundzo ga kawaida ga nyumba za vidzidzini. Kutsama kuphiya midzini piya kunareha umbali wa chitamaduni: mdide wa Chidigo mlume au muchetu anayehenda kazi Mombasa au Nairobi anaweza kugomba Chiswahili dza lugaye ya kpwandza, kudumisha mawasiliano ga mara kpwa mara bahi na mfumo wa kaya, na kudzitambulisha na jamiiye ya mudzini dza anavyodzitambulisha na chidzidziche cha akare. Fwaida ya chiuchumi ya kutsama ni ya kpweli; gharama ya chitamaduni ni vigumu kupima ela si ndide."
+    }
+  ]
+}

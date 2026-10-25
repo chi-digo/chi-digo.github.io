@@ -1,0 +1,99 @@
+{
+  "id": "culture/kayas/what-is-a-kaya",
+  "title": {
+    "en": "What Is a Kaya",
+    "sw": "Kaya ni Nini",
+    "dg": "Kaya ni Chichi"
+  },
+  "intro": {
+    "en": "To call a kaya a \"sacred forest\" is accurate but incomplete. A kaya is a forest that was once a city — and in spiritual terms, still is. When the Mijikenda peoples migrated south from Singwaya…",
+    "sw": "Kuita kaya \"msitu mtakatifu\" ni sahihi lakini si kamili. Kaya ni msitu ambao uliwahi kuwa mji — na kwa maana ya kiroho, bado ni. Wakati watu wa Mijikenda walipohamia kusini kutoka Singwaya kati ya…",
+    "dg": "Kuiha kaya \"tsaka takatifu\" ni sawa ela si kamili. Kaya ni tsaka ambaro kala ni mudzi — na kpwa mana ya chiroho, bado ni mudzi. Wakati atu a Amijikenda ariphosafiri kusini kula Singwaya kahi ya karne…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Forest That Is a City",
+      "sw": "Msitu Ambao ni Mji",
+      "dg": "Tsaka Ambaro ni Mudzi"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "To call a kaya a \"sacred forest\" is accurate but incomplete. A kaya is a forest that was once a city — and in spiritual terms, still is. When the Mijikenda peoples migrated south from Singwaya sometime between the twelfth and seventeenth centuries, they did not settle on open ground. They carved fortified clearings in the dense coastal forests of the hills and ridges behind the Kenya shoreline. Each clearing became a *kaya* — a homestead, a fortress, a council chamber, a shrine, and a pharmacy, all contained within a circle of forest so dense that it served as a living wall.",
+      "sw": "Kuita kaya \"msitu mtakatifu\" ni sahihi lakini si kamili. Kaya ni msitu ambao uliwahi kuwa mji — na kwa maana ya kiroho, bado ni. Wakati watu wa Mijikenda walipohamia kusini kutoka Singwaya kati ya karne ya kumi na mbili na kumi na saba, hawakukaa ardhini wazi. Walichonga viwanja vilivyoimarishwa katika misitu minene ya pwani ya milima na miinuko nyuma ya ufukwe wa Kenya. Kila kiwanja kilikuwa *kaya* — makao, ngome, chumba cha baraza, hekalu, na duka la dawa, vyote vilivyomo ndani ya duara la msitu mnene kiasi kwamba ulitumika kama ukuta hai.",
+      "dg": "Kuiha kaya \"tsaka takatifu\" ni sawa ela si kamili. Kaya ni tsaka ambaro kala ni mudzi — na kpwa mana ya chiroho, bado ni mudzi. Wakati atu a Amijikenda ariphosafiri kusini kula Singwaya kahi ya karne ya kumi na mbiri na karne ya kumi na saba, taasagala phatu pha wazi. Achonga viwanja vyenye ngome kpwenye matsaka manene ga pwani ga miango na miinuko nyuma ya ufukwe wa Kenya. Chila chiwanja chakala *kaya* — makalo, ngome, chumba cha baraza, hekalu, na duka ra dawa, vyosi ndani ya duara ra tsaka nene hadi rikakala dza ukuta hai."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The physical layout of a kaya follows a consistent pattern documented across all Mijikenda groups. Dense surrounding forest forms a buffer zone — cutting trees within it has been taboo for centuries, which is why the kayas became inadvertent but extraordinarily effective biodiversity reserves. Two pathways wind through this forest, leading to fortified gates. At the first gate stand the *fingo* — carved protective talismans representing guardian spirits, placed to ward off enemies and malevolent forces. Beyond the gates lies the central clearing, the kaya proper: an open space dominated by a dome-shaped *moroni* structure, traditionally positioned between a sacred fig tree and a baobab. This is where the elders meet, where ceremonies are performed, where oaths are sworn, and where the ancestors are believed to dwell.",
+      "sw": "Mpangilio wa kimwili wa kaya unafuata muundo thabiti uliorekodiwa kote kwa makundi yote ya Mijikenda. Msitu mnene unaozunguka unaunda eneo la kinga — kukata miti ndani yake kumekuwa mwiko kwa karne nyingi, ndiyo sababu makaya yakawa hifadhi za kibayolojia zenye ufanisi wa ajabu. Njia mbili zinapita msituni, zikiongoza kwa malango yaliyoimarishwa. Kwenye lango la kwanza zinasimama *fingo* — hirizi za kinga zinazowakilisha roho za walinzi. Kupita malango kuna kiwanja cha kati, kaya halisi: eneo wazi lenye muundo wa kuba wa *moroni*, kijadi ukiwekwa kati ya mtini mtakatifu na mbuyu.",
+      "dg": "Mpangilio wa chimwiri wa kaya unalunga muundo thabiti uriondikpwa kpwa makundi gosi ga Amijikenda. Tsaka nene ririroizunguluka kaya rinaunda eneo ra kinga — kukata mihi mwakpwe ndani kukakala mwiko kpwa karne nyinji, ndiyo sababu makaya gakakala hifadhi za chibayolojia zenye uwezo wa ajabu. Njira mbiri zinatsupa tsakani, zichilongoza kpwenye malango genye ngome. Kpwenye lango ra kpwandza zinaima *fingo* — hirizi za kinga zinazowakilisha roho za arindzi. Bada ya kutsupa malango kuna chiwanja cha kahi, kaya ya kpweli: eneo ra wazi renye muundo wa kuba wa *moroni*, ambao chijadi nkuikpwa kahi ya mtini mtakatifu na muuyu."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "More Than Half of Kenya's Rare Coastal Plants",
+      "sw": "Zaidi ya Nusu ya Mimea Adimu ya Pwani ya Kenya",
+      "dg": "Zaidi ya Nusu ya Mimea Adimu ya Pwani ya Kenya"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The ecological significance of the kayas cannot be overstated. Because traditional taboos prohibited tree-cutting, livestock grazing, and material collection within the forest buffer for centuries, the kayas preserved intact fragments of the ancient East African coastal forest at a time when the surrounding landscape was steadily cleared for agriculture and settlement. Today, kaya forests harbour more than half of Kenya's rare coastal trees and shrubs. They comprise approximately ten per cent of the remaining coastal forest in the country. Some plant species exist exclusively within kaya boundaries — found nowhere else on earth.",
+      "sw": "Umuhimu wa kiikolojia wa makaya hauwezi kupuuzwa. Kwa sababu mwiko wa jadi ulizuia kukata miti, kuchunga mifugo, na ukusanyaji wa vifaa ndani ya msitu wa kinga kwa karne nyingi, makaya yalihifadhi vipande safi vya msitu wa zamani wa pwani ya Afrika Mashariki. Leo, misitu ya makaya inahifadhi zaidi ya nusu ya miti na vichaka adimu vya pwani ya Kenya.",
+      "dg": "Umuhimu wa chiikolojia wa makaya tauweza kupuzwa. Kpwa sababu miiko ya chijadi yazuwiya kukata mihi, kurisa mifugo, na kukusanya vitu ndani ya tsaka ra kinga kpwa karne nyinji, makaya garihifadhi vipande vizima vya tsaka ra kare ra pwani ya Afrika Mashariki. Rero, matsaka ga makaya ganahifadhi zaidi ya nusu ya mihi na vichaka adimu vya pwani ya Kenya."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "This is not conservation by design in the modern sense. It is conservation as a consequence of spiritual reverence. The ancestors live in the forest. You do not cut down the home of the ancestors. This simple logic, enforced by kaya elders over centuries, achieved what no government conservation programme has managed: the long-term protection of primary forest in one of the most biologically rich and development-pressured zones on the African continent.",
+      "sw": "Mwaka 2008, misitu kumi na moja ya makaya ya Mijikenda iliorodheshwa kama Eneo la Urithi wa Dunia wa UNESCO. Kutambuliwa huku — kwa mambo yanayoonekana (misitu yenyewe) na yasiyoonekana (mifumo ya kiroho na utawala wanayodumisha) — kunafanya makaya kuwa mojawapo ya maeneo ya urithi yenye tabaka nyingi zaidi barani Afrika.",
+      "dg": "Mwaka 2008, matsaka kumi na mwenga ga makaya ga Amijikenda gaorodheshwa dza Eneo ra Urithi wa Dunia ra UNESCO. Kutambuliwa kuno — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi barani Afrika."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The UNESCO Recognition",
+      "sw": "Kutambuliwa na UNESCO",
+      "dg": "Kutambuliwa ni UNESCO"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "In 2008, eleven Mijikenda kaya forests were inscribed as a UNESCO World Heritage Site under three criteria. Criterion (iii): they \"bear unique testimony to a cultural tradition.\" Criterion (v): they are an \"outstanding example of traditional human settlement.\" Criterion (vi): they are \"directly associated with living traditions, beliefs, and artistic works of outstanding universal significance.\" The kayas are also on the UNESCO Intangible Cultural Heritage list for the traditions and practices associated with them.",
+      "sw": "Mwaka 2008, misitu kumi na moja ya makaya ya Kimijikenda iliorodheshwa kama Eneo la Urithi wa Dunia la UNESCO chini ya vigezo vitatu. Kigezo (iii): \"bear unique testimony to a cultural tradition.\" Kigezo (v): ni \"outstanding example of traditional human settlement.\" Kigezo (vi): \"directly associated with living traditions, beliefs, and artistic works of outstanding universal significance.\" Makaya pia yako kwenye orodha ya Urithi wa Kitamaduni Usioshikika wa UNESCO kwa mapokeo na mazoezi yanayohusiana nayo.",
+      "dg": "Mwaka 2008, matsaka kumi na mwenga ga makaya ga Chimijikenda gaorodheshwa dza Eneo ra Urithi wa Dunia ra UNESCO kpwa vigezo vihahu. Chigezo (iii): \"bear unique testimony to a cultural tradition.\" Chigezo (v): ni \"outstanding example of traditional human settlement.\" Chigezo (vi): \"directly associated with living traditions, beliefs, and artistic works of outstanding universal significance.\" Makaya piya ganaphahikana kpwenye orodha ya Urithi wa Chimila Usioshikika wa UNESCO kpwa sababu ya mapokeo na mazoezi ganagohusiana nago."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This dual recognition — both tangible (the forests themselves) and intangible (the spiritual and governance systems they sustain) — makes the kayas one of the most culturally layered heritage sites in Africa. The forest is not merely the setting for the culture. The forest *is* the culture. Remove the trees and you do not merely lose a habitat. You lose the physical architecture within which an entire civilisation's spiritual life is conducted.",
+      "sw": "Kutambuliwa huku maradufu — kwa mambo yanayoonekana (misitu yenyewe) na yasiyoonekana (mifumo ya kiroho na utawala inayodumisha) — kunafanya makaya kuwa mojawapo ya maeneo ya urithi yenye tabaka nyingi za kitamaduni barani Afrika. Msitu si mazingira tu ya utamaduni. Msitu *ndio* utamaduni. Ondoa miti na hupotezi tu makazi. Unapoteza usanifu wa kimwili ambao ndani yake maisha yote ya kiroho ya ustaarabu mzima yanafanywa.",
+      "dg": "Kutambuliwa kuno kpwa njira mbiri — kpwa mambo ganagoonekana (matsaka genye) na gasigoonekana (mifumo ya chiroho na utawala ambayo matsaka ganaidumisha) — kunahenda makaya kukala kahi ya maeneo ga urithi genye tabaka nyinji zaidi za chimila barani Afrika. Tsaka si mazingira tu ga utamaduni. Tsaka *ndiro* utamaduni. Uchiusa mihi, kuangamiza makalo tu. Unaangamiza usanifu wa chimwiri ambao mwakpwe ndani maisha gosi ga chiroho ga ustaarabu mzima ganahendwa."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Over Sixty Sites",
+      "sw": "Maeneo Zaidi ya Sitini",
+      "dg": "Maeneo Zaidi ya Sitini"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "More than sixty kaya sites have been documented along the Kenya coast, stretching from Kilifi County in the north to Kwale County in the south. Thirty-nine are gazetted as National Monuments under the National Museums of Kenya. The sites range from thirty to three hundred hectares — from intimate hilltop clearings to vast forest tracts.",
+      "sw": "Maeneo zaidi ya sitini ya makaya yamerekodiwa kando ya pwani ya Kenya, yakienea kutoka Kaunti ya Kilifi kaskazini hadi Kaunti ya Kwale kusini. Thelathini na tisa yameorodheshwa kama Minara ya Kitaifa chini ya Makumbusho ya Kitaifa ya Kenya. Maeneo yanajumuisha kutoka hekta thelathini hadi mia tatu — kutoka viwanja vidogo vya vilele vya milima hadi misitu mikubwa.",
+      "dg": "Maeneo zaidi ya sitini ga makaya gakaandikpwa kanda-kanda ya pwani ya Kenya, gachienea kula Kaunti ya Kilifi kaskazini hadi Kaunti ya Kwale kusini. Mirongo mihahu na tisiya gakaorodheshwa dza Minara ya Chitaifa photsi ya Makumbusho ga Chitaifa ga Kenya. Ukulu wa maeneo higo ni kula hekta thelathini hadi mia hahu — kula viwanja vidide vya dzulu ya miango hadi matsaka makulu."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Each kaya has its own history, its own founding narrative, its own council of elders, and its own specific ceremonial practices. The kayas are not interchangeable. Kaya Chinondo is not Kaya Kwale is not Kaya Gandini. Each one carries the memory of the particular clan or lineage that established it, and the authority of each kaya's elders extends only within its own domain. This distributed governance — one forest, one council, one community — is one of the most distinctive features of the Mijikenda political system.",
+      "sw": "Kila kaya ina historia yake, masimulizi yake ya kuanzishwa, baraza lake la wazee, na mazoezi yake maalum ya sherehe. Makaya si yanayobadilishana. Kaya Chinondo si Kaya Kwale si Kaya Gandini. Kila moja inabeba kumbukumbu ya ukoo au nasaba fulani iliyoianzisha, na mamlaka ya wazee wa kila kaya yanaenea tu ndani ya eneo lake lenyewe. Utawala huu uliosambazwa — msitu mmoja, baraza moja, jamii moja — ni mojawapo ya sifa tofauti zaidi za mfumo wa kisiasa wa Kimijikenda.",
+      "dg": "Chila kaya ina historiaye, masimulizige ga kuandzishwa, barazare ra azehe, na mazoezige maalum ga sherehe. Makaya si ga kubadilishana. Kaya Chinondo si Kaya Kwale, wala si Kaya Gandini. Chila mwenga inatsukula tambukizo ra ukoo au nasaba fulani iriyoiandzisha, na mamlaka ga azehe a chila kaya ganaenea tu ndani ya eneore renye. Utawala hinyo urioganywa — tsaka rimwenga, baraza rimwenga, jamii mwenga — ni mwenga wa sifa za tafwauti zaidi za mfumo wa chisiasa wa Chimijikenda."
+    }
+  ]
+}

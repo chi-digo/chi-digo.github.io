@@ -1,0 +1,113 @@
+{
+  "id": "language/riddles",
+  "title": {
+    "en": "Riddles",
+    "sw": "Vimbunga",
+    "dg": "Vitendawili"
+  },
+  "intro": {
+    "en": "When darkness settles over a Digo village and the evening meal is done, the children know what comes next. An elder — or an older sibling, or a visiting uncle — turns to the group and issues the…",
+    "sw": "Giza linapoingia katika kijiji cha Wadigo na chakula cha jioni kimekwisha, watoto wanajua kinachofuata. Mzee — au kaka mkubwa, au mjomba aliyekuja kutembelea — anageuka kwa kundi na kutoa changamoto:…",
+    "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkpwulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Game That Sharpens Minds",
+      "sw": "Mchezo Unaonoa Akili",
+      "dg": "Mchezo Unaonola Achili"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "When darkness settles over a Digo village and the evening meal is done, the children know what comes next. An elder — or an older sibling, or a visiting uncle — turns to the group and issues the challenge: *\"Kitendawili!\"* The children respond in chorus: *\"Tega!\"* — \"Set it!\" And the game begins.",
+      "sw": "Giza linapoingia katika kijiji cha Wadigo na chakula cha jioni kimekwisha, watoto wanajua kinachofuata. Mzee — au kaka mkubwa, au mjomba aliyekuja kutembelea — anageuka kwa kundi na kutoa changamoto: *\"Kitendawili!\"* Watoto wanajibu kwa sauti moja: *\"Tega!\"* Na mchezo unaanza.",
+      "dg": "Jiza rinaphokpwedza kpwa mudzi wa Adigo na chakurya cha dziloni chimekpwisha, ana anamanya kinachokpwedza. Mvyere — au kaka mkpwulu, au mjomba ariyekpwedza kutembelea — anagaluka kpwa kundi na kutoa changamoto: *\"Kitendawili!\"* Ana anajibu kpwa sauti mwenga: *\"Tega!\"* Na mchezo unaandza."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Digo riddles, called *vimbunga* in Chidigo, are far more than children's entertainment. They are cognitive training disguised as play. Each riddle poses a puzzle built on metaphor, structural parallelism, and misdirection, demanding that the solver look past the obvious and find the hidden connection between two apparently unrelated things. A child who can crack a riddle quickly is demonstrating the same lateral thinking that an adult needs to navigate social complexity, read environmental signs, or solve a practical problem with limited resources.",
+      "sw": "Vitendawili vya Wadigo, vinavyoitwa *vimbunga* kwa Chidigo, ni zaidi ya burudani ya watoto. Ni mafunzo ya kiakili yaliyojificha kama mchezo. Kila kitendawili kinatoa fumbo lililojengwa juu ya sitiari, ulinganifu wa muundo, na upotoshaji, likidai kwamba msuluhishi aone zaidi ya dhahiri na apate uhusiano uliofichwa kati ya vitu viwili vinavyoonekana kutohusiana. Mtoto anayeweza kuvunja kitendawili haraka anaonyesha fikra sawa za pembeni ambazo mtu mzima anahitaji kusogea katika ugumu wa kijamii, kusoma ishara za mazingira, au kutatua tatizo la kivitendo kwa rasilimali chache.",
+      "dg": "Vimbunga vya Adigo ni zaidi ya burudani ya ana. Ni mafundzo ga kiakili garigodzifitsa dza mchezo. Chila chimbunga chinatoa fumbo ririrojengwa dzulu ya mfwano, ulinganifu wa muundo, na upotoshaji, rikidai kukala msuluhishi aone zaidi ya dhahiri na apate uhusiano uriofitswa kahi ya vitu viiri vinavyoonekana kutohusiana. Mwana anayeweza kuvundza chimbunga haraka anaonyesha fikira sawa za pembeni ambazo mutu mkpwulu anahitaji kusogea kpwa ugumu wa kijamii, kusoma ishara za mazingira, au kumaliza tatizo ra kivitendo kpwa rasilimali chache."
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Scholars studying East African oral traditions describe riddles as \"a special type of social phenomenon\" that presents \"enormous cognitive challenges to children, but is also an invaluable tool in acquiring linguistic and cognitive skills.\" The riddle teaches the child to think in metaphor — to understand that language can say one thing and mean another, that surfaces conceal depths, and that the world rewards those who look carefully. These are not trivial lessons. They are the foundations of every form of sophisticated thought, from poetry to law to diplomacy.",
+      "sw": "Wasomi wanaosoma mila za mdomo za Afrika Mashariki wanaelezea vitendawili kama \"aina maalum ya jambo la kijamii\" inayowasilisha \"changamoto kubwa za kiakili kwa watoto, lakini pia ni chombo cha thamani katika kupata ujuzi wa kilugha na kiakili.\" Kitendawili kinafundisha mtoto kufikiri kwa sitiari — kuelewa kwamba lugha inaweza kusema kitu kimoja na kumaanisha kingine, kwamba uso unificha kina, na kwamba ulimwengu unalipa wale wanaotazama kwa makini.",
+      "dg": "Asomi anao soma mila za mdomo za Afrika Mashariki anaelezea vimbunga dza \"aina maalum ya jambo ra kijamii\" inayowasilisha \"changamoto kulu za kiakili kpwa ana, ela piya ni chombo cha thamani kpwa kupata ujuzi wa kilugha na kiakili.\" Chimbunga chinafundza mwana kufikiri kpwa mfwano — kuelewa kukala luga inaweza kuamba chitu chimwenga na kumanisha chinjina, kukala uso unaficha kina, na kukala ulimwengu unarilipa ariye anao tazama kpwa makini."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "The Performance",
+      "sw": "Maonyesho",
+      "dg": "Maonyesho"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Riddle sessions are competitive. Children vie to answer fastest, and the elder or riddler keeps score — sometimes formally, sometimes through the social currency of laughter and approval. The format is call-and-response: the riddler poses, the group guesses, wrong answers are teased, and the correct answer earns a cheer. In contemporary coastal Kenyan schools, children who have grown up with this tradition become \"extremely quick with answering,\" their minds trained by years of evening riddle sessions to spot patterns and make unexpected connections.",
+      "sw": "Vikao vya vitendawili ni vya ushindani. Watoto wanashindana kujibu haraka zaidi, na mzee au mtoa vitendawili anaweka alama — wakati mwingine rasmi, wakati mwingine kupitia sarafu ya kijamii ya kicheko na kibali. Muundo ni wa kuuliza-na-kujibu: mtoa vitendawili anatoa, kundi linakisia, majibu mabaya yanachokozwa, na jibu sahihi linapata shangwe. Katika shule za kisasa za pwani ya Kenya, watoto waliokulia na desturi hii wanakuwa \"waepesi sana wa kujibu,\" akili zao zikiwa zimefunzwa na miaka ya vikao vya vitendawili vya jioni kutambua mifumo na kufanya uhusiano usiotarajiwa.",
+      "dg": "Vikao vya vimbunga ni vya ushindani. Ana anashindana kujibu haraka zaidi. Muundo ni wa kuuzwa-na-kujibu: mtoa vimbunga anatoa, kundi rinakisia, majibu mabaya ganadhihakiwa, na jibu ra sawa rinapata shangwe. Kpwa shule za kisasa za ph'wani ya Kenya, ana ariokurera na desturi hino anakala \"aepesi sana wa kujibu,\" achili zao zikale zimefundzwa ni miaka ya vikao vya vimbunga vya dziloni kutambua mifumo na kuhenda uhusiano usiotarajiwa."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The competitive element is important. It creates motivation to practice, to learn new riddles, and to invent original ones. A child who can stump the group with a riddle they composed themselves earns particular prestige — they have demonstrated not just the ability to solve puzzles but the ability to create them, which is a higher-order cognitive skill.",
+      "sw": "Vitendawili Vinafundisha Nini",
+      "dg": "Vimbunga Vinafundza Nini"
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "What Riddles Teach",
+      "sw": "Zaidi ya mafunzo ya kiakili, vitendawili vinabeba maarifa ya kitamaduni. Kitendawili kinacholinganisha mnazi na mtu anayesimama kwa mguu mmoja kinafundisha mtoto kutazama umbo la kipekee la mnazi. Kitendawili kuhusu tabia ya bahari kinafundisha mifumo ya mawimbi. Kupitia furaha ya kutatua fumbo, mtoto anachukua msamiati wa ulimwengu wa asili na wa nyumbani — majina, uhusiano, na sifa — bila uchungu wa kukariri.",
+      "dg": "Zaidi ya mafundzo ga kiakili, vimbunga vinabeba marifwa ga chimila. Chimbunga chinacho linganiha mnazi na mutu anayeima kpwa mgulu mmwenga chinafundza mwana kutazama umbo ra kipekee ra mnazi. Chimbunga kuhusu tabiya ya bahari chinafundza mifumo ya maimbi. Kupitshi furaha ya kumaliza fumbo, mwana anachukua msamiati wa ulimwengu wa asili na wa nyumbani bila uchungu wa kukariri."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Beyond the cognitive training, riddles encode cultural knowledge. A riddle that compares the coconut palm to a person standing on one leg teaches the child to observe the palm's distinctive form. A riddle about the sea's behaviour teaches tidal patterns. A riddle about a cooking pot teaches the names and functions of kitchen implements. Through the pleasure of puzzle-solving, the child absorbs a vocabulary of the natural and domestic world — names, relationships, and properties — without the tedium of rote memorisation.",
+      "sw": "Vitendawili pia vinafundisha watoto jinsi lugha inavyofanya kazi. Sitiari katika vitendawili zinapanua uelewa wa mtoto wa neno linaweza kufanya nini — kwamba barabara inaweza kuelezwa kama nyoka, kwamba anga inaweza kuwa nguo, kwamba mti unaweza kuwa mtu. Ujuzi huu wa kisitiari ndio msingi wa mila ya methali ambayo watu wazima wanarithi.",
+      "dg": "Vimbunga piya vinafundza ana jinsi luga inavyohumika. Mifwano kpwa vimbunga inapanula uelewa wa mwana wa neno rinaweza kuhenda nini. Ujuzi uhu wa kisitiari ndio msingi wa mila ya ndarira ambayo atu akulu anarihi."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Riddles also teach children how language works. The metaphors in riddles stretch the child's understanding of what words can do — that a road can be described as a snake, that the sky can be a cloth, that a tree can be a person. This metaphorical fluency is the foundation of the proverb tradition that adults inherit. The child who has been solving riddles since age five is ready, by adolescence, to begin understanding the deeper metaphors of proverbs and the layered meanings of ceremonial speech.",
+      "sw": "Mila Iliyo Hatarini",
+      "dg": "Mila Iriyo Hatarini"
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "A Tradition Under Threat",
+      "sw": "Licha ya umuhimu wao, vitendawili vya Wadigo ni miongoni mwa vipengele visivyorekodiwa zaidi vya mila ya mdomo. Watafiti wa kitaaluma wanaoifanyia kazi hadithi za mdomo za Wadigo wameorodhesha vitendawili kama visivyorekodiwa vya kutosha, wakipendekeza utafiti wa baadaye kuhusu aina hiyo.",
+      "dg": "Ingawa ni muhimu, vimbunga vya Adigo ni kahi ya vipengele visivyorekodiwa zaidi vya mila ya mdomo. Atafiti wa kitaaluma anaoihendera kazi hadisi za mdomo za Adigo ameorodhesha vimbunga dza visivyorekodiwa vya kutosha."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Despite their importance, Digo riddles are among the least documented elements of the oral tradition. Academic researchers working on Digo oral narratives have specifically flagged riddles as under-documented, recommending future research on the genre. The collections that exist focus primarily on proverbs and folk tales; the riddle tradition has received far less scholarly attention.",
+      "sw": "Pengo hili ni muhimu kwa sababu vitendawili ni miongoni mwa mifumo dhaifu zaidi ya mila ya mdomo. Methali inaweza kuishi kwa sehemu. Hadithi ya kienyeji inaweza kufupishwa. Lakini kitendawili bila jibu lake si kitu, na jibu bila kitendawili chake halina maana. Kitendawili kinaposahaulika, kimepotea kabisa.",
+      "dg": "Pengo rino ni muhimu kpwa sababu vimbunga ni kahi ya mifumo dhaifu zaidi ya mila ya mdomo. Ndarira inaweza kuishi kpwa sehemu. Hadisi ya chinyume inaweza kufupishwa. Ela chimbunga bila jibu rakpwe si chitu, na jibu bila chimbunga chakpwe tarina maana. Chimbunga chinaposahaulika, chimepotea kabisa."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "This gap matters because riddles are among the most fragile forms of oral tradition. A proverb can survive in partial form — even if the context of its use is lost, the words persist. A folk tale can be summarised, its plot remembered even if the performance art fades. But a riddle without its answer is nothing, and an answer without its riddle is meaningless. The riddle is a complete unit: question and answer together, or nothing at all. When a riddle is forgotten, it is entirely gone.",
+      "sw": "Kubadilishwa kwa vikao vya vitendawili vya jioni na burudani ya skrini kunamaanisha kwamba utaratibu wa usambazaji unazidi kudhoofika. Watoto wanajifunza vitendawili vya Kiswahili shuleni — sehemu ya mtaala wa kitaifa wa fasihi ya mdomo — lakini vitendawili vya Kidigo kwa lugha ya Kidigo si sehemu ya programu yoyote ya shule. Vinaishi tu katika nyumba ambazo babu na bibi bado wanakusanya watoto baada ya chakula cha jioni na kutoa changamoto: *\"Kitendawili!\"*",
+      "dg": "Kubadilishwa kpwa vikao vya vimbunga vya dziloni na burudani ya skrini kunamanisha kukala utaratibu wa kupisha unazidi kudhoofika. Ana anajifundza vimbunga vya Chiswahili shuleni ela vimbunga vya Chidigo kpwa luga ya Chidigo si sehemu ya mpango wowosi wa shule. Vinaishi tu kpwa nyumba ambazo akuku bado anakusanya ana bada ya chakurya cha dziloni na kutoa changamoto: *\"Kitendawili!\"*"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The displacement of evening riddle sessions by screen entertainment means that the transmission mechanism is weakening. Children learn Swahili riddles at school — part of the national curriculum's oral literature component — but Digo riddles in the Digo language are not part of any school programme. They survive only in the homes where grandparents still gather children after dinner and issue the challenge: *\"Kitendawili!\"*",
+      "sw": "Kupotea kwa vikao vya vitendawili vya jioni kwa sababu ya burudani za skrini kunamaanisha kwamba njia ya kueneza maarifa inazidi kudhoofika. Watoto hujifunza vitendawili vya Kiswahili shuleni — sehemu ya somo la fasihi simulizi katika mtaala wa kitaifa — lakini vitendawili vya Kidigo katika lugha ya Kidigo haviko katika programu yoyote ya shule. Vinasalia tu katika nyumba ambapo babu na bibi bado huwakusanya watoto baada ya chakula cha jioni na kutoa changamoto: *\"Kitendawili!\"*",
+      "dg": "Kutsukirwa kpwa vikao vya vitendawili vya usiku ni vyombo vya kuonyesa kunaamba njia ya kupishira maarifa inazidi kudhoofika. Ana anadzifundza vitendawili vya Chiswahili shuleni — sehemu ya somo ra fasihi simulizi kpwenye mtaala wa kitaifa — ela vitendawili vya Chidigo kpwa luga ya Chidigo taviko kpwenye programu yoyosi ya shule. Vinasala tu kpwenye nyumba ambazo akare bado anakusanya ana bada ya chakurya cha usiku na kuatsuphiya changamoto: *\"Kitendawili!\"*"
+    }
+  ]
+}
