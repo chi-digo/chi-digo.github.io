@@ -33,7 +33,9 @@ describe('article paths', () => {
     expect(articlePath('culture/kayas/governance', 'title', 'en')).toBeNull();
     expect(articlePath('culture/kayas/governance', 'subtitle', 'sw')).toBeNull();
     expect(articlePath('figures/bandilo', 'subtitle', 'sw')).toBe('subtitle.sw');
-    expect(articlePath('figures/bandilo', 'meta', 'dg', 'm02')).toBe('meta.m02.dg');
+    // A figure's page shows its card name and no detail lines: neither is fixable.
+    expect(articlePath('figures/bandilo', 'meta', 'dg', 'm02')).toBeNull();
+    expect(articlePath('figures/bandilo', 'title', 'dg')).toBeNull();
     expect(articlePath('timeline', 'description', 'sw', 't-3f9a')).toBe('events.t-3f9a.description.sw');
     expect(articlePath('timeline', 'block', 'sw', 'b001')).toBeNull();
     expect(articlePath('culture/kayas/governance', 'block', 'sw', '__proto__')).toBeNull();
@@ -49,7 +51,7 @@ describe('applying and undoing', () => {
   const cases: [string, string][] = [
     ['culture/kayas/governance', 'blocks.b002.sw'],
     ['history/singwaya', 'title.dg'],
-    ['figures/bandilo', 'meta.m01.sw'],
+    ['figures/bandilo', 'blocks.b003.sw'],
     ['figures/bandilo', 'subtitle.dg'],
   ];
   it.each(cases)('%s %s', (id, path) => {
@@ -132,7 +134,7 @@ describe('fold-in for article fixes', () => {
     const rows = [
       row(1, 'culture/kayas/governance', gov, 'blocks.b002.sw'),
       row(2, 'culture/kayas/governance', gov, 'title.dg'),
-      row(3, 'figures/bandilo', fig, 'meta.m02.dg'),
+      row(3, 'figures/bandilo', fig, 'blocks.b002.dg'),
       row(4, 'timeline', tl, `events.${ev}.title.sw`),
     ];
     const r1 = run(rows, 'apply');
@@ -146,6 +148,18 @@ describe('fold-in for article fixes', () => {
     const r2 = run([rows[2], rows[0], rows[3], rows[1]].map((x) => ({ ...x, live_status: 'reverting' })), 'revert');
     expect(r2.reverted).toHaveLength(4);
     for (const f of FILES) expect(readFileSync(join(dir, f), 'utf-8')).toBe(before[f]);
+  });
+
+  it('reverts two fixes on the same block in one run, newest first', () => {
+    const gov = JSON.parse(readFileSync(join(dir, FILES[0]), 'utf-8')) as ArticleData;
+    const common = { outcome: 'replace', region: 'tanga', confidence: 'native', edited: false, type: 'translation_fix', target_type: 'article', target_id: 'culture/kayas/governance', target_path: 'blocks.b004.sw' };
+    const first = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000811', final_payload: { lang: 'sw', proposed: 'Kwanza.' }, base: { value: { text: articleText(gov, 'blocks.b004.sw') } } };
+    const second = { ...common, live_status: 'live', id: '00000000-0000-4000-8000-000000000812', final_payload: { lang: 'sw', proposed: 'Pili.' }, base: { value: { text: 'Kwanza.' } } };
+    expect(run([first, second], 'chain').applied).toHaveLength(2);
+    const r = run([first, second].map((x) => ({ ...x, live_status: 'reverting' })), 'chain-revert');
+    expect(r.failed).toEqual([]);
+    expect(r.reverted).toHaveLength(2);
+    expect(readFileSync(join(dir, FILES[0]), 'utf-8')).toBe(before[FILES[0]]);
   });
 
   it('refuses an article id that could be a path', () => {

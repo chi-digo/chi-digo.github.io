@@ -67,7 +67,7 @@ jobs:
 
       - name: Rebuild the shipped plant files
         run: |
-          if [ -n "$(git -C data status --porcelain)" ]; then
+          if [ -n "$(git -C data status --porcelain -- content/plants)" ]; then
             (cd tool && npx tsx scripts/plants/build-plants-data.ts --root "$GITHUB_WORKSPACE/data")
           fi
 

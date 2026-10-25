@@ -58,6 +58,13 @@ function foldArticle(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
   const file = join(dataDir, 'content/articles', `${id}.json`);
   if (!articles.has(file)) {
     if (!existsSync(file)) throw new Error(`article ${id} not found`);
+    // The same rules as the site: a topic listed in its domain, a figure that is published.
+    const [kind, a, b] = id.split('/');
+    const domains = (k: string) => JSON.parse(readFileSync(join(dataDir, 'content/articles', k, '_domains.json'), 'utf-8')) as { slug: string; topics: string[] }[];
+    const listed = kind === 'timeline' || (kind === 'culture' ? domains('culture').some((d) => d.slug === a && d.topics.includes(b))
+      : kind === 'figures' ? JSON.parse(readFileSync(file, 'utf-8')).published === true
+      : domains(kind)[0]?.topics.includes(a));
+    if (!listed) throw new Error(`article ${id} is not published`);
     articles.set(file, JSON.parse(readFileSync(file, 'utf-8')) as ArticleData);
   }
   const reverting = row.live_status === 'reverting';
@@ -222,7 +229,12 @@ function foldWord(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
   return reverting ? 'reverted' : 'applied';
 }
 
-for (const row of claimed.rows) {
+// Reverts run newest first: a later fix on the same text must be undone before the one it was made on.
+const ordered = [
+  ...claimed.rows.filter((r) => r.live_status !== 'reverting'),
+  ...claimed.rows.filter((r) => r.live_status === 'reverting').reverse(),
+];
+for (const row of ordered) {
   const change: Change = {
     contribution_id: row.id, type: row.type, target_id: row.target_id ?? '', target_path: row.target_path,
     final_payload: row.final_payload, outcome: row.outcome, region: row.region, confidence: row.confidence,

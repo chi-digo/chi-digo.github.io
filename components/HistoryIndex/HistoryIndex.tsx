@@ -109,12 +109,13 @@ export function HistoryIndex({ figureArticles = [], timeline }: { figureArticles
                 </div>
                 <div className={styles.tlBody}>
                   <span className={styles.tlDate}>{ev.date}</span>
-                  <h3 className={styles.tlTitle} id={ev.id}>{ev.title[locale]}{fix.pencil({ field: 'title', block: ev.id, label: t.contribute.tf_event_title })}</h3>
-                  <p className={styles.tlDesc}>{ev.description[locale]}{fix.pencil({ field: 'description', block: ev.id, label: t.contribute.tf_event_description })}</p>
+                  <h3 className={styles.tlTitle} id={ev.id}>{ev.title[locale]}{fix.pencil({ field: 'title', block: ev.id })}</h3>
+                  <p className={styles.tlDesc}>{ev.description[locale]}{fix.pencil({ field: 'description', block: ev.id })}</p>
                 </div>
               </div>
             ))}
           </div>
+          {fix.toggle}
           {fix.credits}
           {fix.form}
         </div>

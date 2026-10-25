@@ -679,6 +679,7 @@
     "tf_block_quote": "Quotation",
     "tf_event_title": "Event title",
     "tf_event_description": "Event description",
+    "tf_meta": "Detail",
     "tf_fix": "Fix",
     "tf_correct_en": "Correct the cultural context",
     "error_unchanged": "The text is the same as now. Change it before sending.",

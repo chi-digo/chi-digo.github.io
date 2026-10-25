@@ -31,10 +31,10 @@ export function articlePath(articleId: string, field: string, lang: Lang, block?
   if (articleId === 'timeline') {
     return (field === 'title' || field === 'description') && block && /^t-[0-9a-f]{4}$/.test(block) ? `events.${block}.${field}.${lang}` : null;
   }
-  if (field === 'title' && !block) return `title.${lang}`;
+  // A figure's page shows its card name and no detail lines: those aren't fixable until they are shown.
+  if (field === 'title' && !block && !articleId.startsWith('figures/')) return `title.${lang}`;
   if (field === 'subtitle' && !block && articleId.startsWith('figures/')) return `subtitle.${lang}`;
   if (field === 'block' && block && /^b\d{3,4}$/.test(block)) return `blocks.${block}.${lang}`;
-  if (field === 'meta' && block && /^m\d{2}$/.test(block) && articleId.startsWith('figures/')) return `meta.${block}.${lang}`;
   return null;
 }
 

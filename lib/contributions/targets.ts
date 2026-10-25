@@ -34,6 +34,8 @@ export interface Target {
   block?: string;
   /** For a Digo fix on an article: the Swahili of the same block, shown too. */
   swahili?: string | null;
+  /** For an article fix: the message key naming the kind of block (for reviewers). */
+  labelKey?: string;
 }
 
 function withHash(value: unknown) {
@@ -282,8 +284,13 @@ function resolveArticleTarget(targetId: string, payload: Record<string, unknown>
   if (!text) return null;
   const title = (a as { title?: { en?: string } }).title?.en ?? (targetId === 'timeline' ? 'Timeline' : targetId);
   const block = typeof payload.block === 'string' ? payload.block : undefined;
+  // What the reviewer is looking at: a heading, paragraph or quote; a title; an event's title or description.
+  const blockType = path.startsWith('blocks.') ? (a.blocks ?? []).find((b) => b.id === block)?.type : undefined;
+  const labelKey = blockType ? `tf_block_${blockType}`
+    : path.startsWith('events.') ? (path.includes('.title.') ? 'tf_event_title' : 'tf_event_description')
+    : path.startsWith('subtitle.') ? 'tf_subtitle' : path.startsWith('meta.') ? 'tf_meta' : 'tf_title_label';
   return {
-    label: title, path, base: withHash({ text }), source: articleSource(a, path),
+    label: title, path, base: withHash({ text }), source: articleSource(a, path), labelKey,
     ...(path.endsWith('.dg') && { swahili: articleSource(a, path, 'sw') }),
     ...(block && { block }),
   };

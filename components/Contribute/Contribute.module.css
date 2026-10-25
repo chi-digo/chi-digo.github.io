@@ -326,3 +326,13 @@
 .pencil:focus-visible {
   background: color-mix(in srgb, var(--fg-link, #1f3a5f) 20%, transparent);
 }
+
+/* On a hero photo the pencil is light. */
+.pencilOnDark {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.pencilOnDark:hover,
+.pencilOnDark:focus-visible {
+  background: rgba(255, 255, 255, 0.32);
+}

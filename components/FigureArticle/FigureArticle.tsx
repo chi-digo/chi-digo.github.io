@@ -60,11 +60,11 @@ export function FigureArticle({ figure, articles, raw, scene }: { figure: Figure
       <article className={styles.article}>
         <div className={styles.articleInner}>
           {fix.toggle}
-          {subtitle && <p className={own.subtitle}>{subtitle}{fix.pencil({ field: 'subtitle', label: t.contribute.tf_subtitle })}</p>}
+          {subtitle && <p className={own.subtitle}>{subtitle}{fix.pencil({ field: 'subtitle' })}</p>}
           <ArticleBody
             blocks={fix.merged.blocks}
             locale={locale}
-            pencil={(b) => fix.pencil({ field: 'block', block: b.id, label: t.contribute[`tf_block_${b.type}`] })}
+            pencil={(b) => fix.pencil({ field: 'block', block: b.id })}
           />
           {a.sources.length > 0 && (
             <section className={own.sources}>

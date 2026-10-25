@@ -48,7 +48,7 @@ async function text(base, path, locale) {
             if (el.matches('header, footer, nav') || getComputedStyle(el).position === 'fixed') el.style.display = 'none';
           }
           // The translation-fix switch (spec 34 §17.11) is new on sw/dg pages; --ignore-fix-switch leaves it out.
-          if (window.__ignoreFix) for (const el of document.querySelectorAll('[aria-pressed]')) if (el.closest('p')) el.closest('p').style.display = 'none';
+          if (window.__ignoreFix) for (const el of document.querySelectorAll('[data-fix-toggle]')) if (el.closest('p')) el.closest('p').style.display = 'none';
           return (document.querySelector('main') ?? document.body).innerText.replace(/\s+/g, ' ').trim();
         });
         if (t && t === prev) break;

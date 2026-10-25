@@ -2,15 +2,15 @@
 
 import { useEffect, useState, type ReactNode } from 'react';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
-import { takeResumeIntent } from '@/lib/contributions/client';
+import { msg as msgOr, takeResumeIntent } from '@/lib/contributions/client';
 import { applyAllToArticle, articlePath, articleSource, articleText, type ArticleData } from '@/lib/contributions/apply/articles';
-import { articleOverlay, refreshArticleOverlay } from '@/lib/articles/overlay';
+import { articleOverlay } from '@/lib/articles/overlay';
 import { track } from '@/lib/analytics/track';
 import type { TranslationField } from '@/lib/contributions/schemas';
 import { TranslationFixForm, TranslationCredits, type FixOption } from './TranslationFixForm';
 import styles from './Contribute.module.css';
 
-type Target = { field: TranslationField; block?: string; label: string };
+type Target = { field: TranslationField; block?: string; label?: string; onDark?: boolean };
 
 /**
  * "Something wrong in this translation? Fix it" on a Swahili or Digo article (spec 34 §17.11): the
@@ -36,16 +36,32 @@ export function useArticleFix<T extends ArticleData>(articleId: string, raw: T) 
     };
   }, [raw, articleId]);
 
-  // After signing in from a fix sheet, reopen it on the same block with its draft.
+  // After signing in from a fix sheet, reopen it on the same block with its draft, once live fixes are in.
   useEffect(() => {
     const intent = takeResumeIntent(articleId);
     if (intent?.form !== 'translation_fix' || !intent.extra?.key) return;
     const [field, block] = intent.extra.key.split(':');
-    Promise.resolve().then(() => {
+    let live = true;
+    articleOverlay().then(() => {
+      if (!live) return;
       setOn(true);
-      setOpen({ field: field as TranslationField, block: block || undefined, label: '' });
+      setOpen({ field: field as TranslationField, block: block || undefined });
     });
+    return () => {
+      live = false;
+    };
   }, [articleId]);
+
+  /** What a block is, in the reader's language: heading, paragraph, quotation, title… */
+  const labelFor = (t: Target): string => {
+    if (t.label) return t.label;
+    if (t.field === 'block') {
+      const type = merged.blocks?.find((b) => b.id === t.block)?.type ?? 'paragraph';
+      return msgOr(c, `tf_block_${type}`);
+    }
+    if (articleId === 'timeline') return t.field === 'title' ? c.tf_event_title : c.tf_event_description;
+    return t.field === 'subtitle' ? c.tf_subtitle : c.tf_title_label;
+  };
 
   const option = (t: Target): FixOption | null => {
     if (!fixable) return null;
@@ -53,19 +69,22 @@ export function useArticleFix<T extends ArticleData>(articleId: string, raw: T) 
     const current = path ? articleText(merged, path) : null;
     if (!path || !current) return null;
     return {
-      key: `${t.field}:${t.block ?? ''}`, label: t.label, field: t.field, block: t.block, lang: locale, current,
+      key: `${t.field}:${t.block ?? ''}`, label: labelFor(t), field: t.field, block: t.block, lang: locale, current,
       source: articleSource(merged, path), swahili: locale === 'dg' ? articleSource(merged, path, 'sw') : null,
     };
   };
 
   /** A pencil for one block, shown only while fixing. */
   const pencil = (t: Target): ReactNode => {
-    if (!on || !option(t)) return null;
+    const opt = on ? option(t) : null;
+    if (!opt) return null;
+    // A unique name for each pencil: what it fixes and how that text begins.
+    const start = opt.current.replace(/\*/g, '').slice(0, 40);
     return (
       <button
         type="button"
-        className={styles.pencil}
-        aria-label={`${c.tf_pencil}: ${t.label}`}
+        className={`${styles.pencil} ${t.onDark ? styles.pencilOnDark : ''}`}
+        aria-label={`${c.tf_pencil}: ${opt.label}, “${start}…”`}
         title={c.tf_pencil}
         onClick={() => {
           track('contribute', 'articles', 'open_fix', { article: articleId, field: t.field });
@@ -84,7 +103,7 @@ export function useArticleFix<T extends ArticleData>(articleId: string, raw: T) 
       <button
         type="button"
         className={styles.textBtn}
-        aria-pressed={on}
+        data-fix-toggle=""
         onClick={() => {
           track('contribute', 'articles', on ? 'fix_mode_off' : 'fix_mode_on', { article: articleId });
           setOn((x) => !x);
@@ -102,7 +121,6 @@ export function useArticleFix<T extends ArticleData>(articleId: string, raw: T) 
       onClose={() => setOpen(null)}
       target={{ target_type: 'article', target_id: articleId }}
       options={[chosen]}
-      onSubmitted={() => refreshArticleOverlay()}
     />
   ) : null;
 

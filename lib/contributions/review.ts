@@ -111,7 +111,7 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
   if (row.type === 'translation_fix') {
     const base = row.base?.value as { text?: string; source?: string | null } | null;
     // An article's title is seen on every card and in search: two voices (§17.11).
-    const title = row.target_type === 'article' && finalPayload.field === 'title' && !finalPayload.block;
+    const title = row.target_type === 'article' && finalPayload.field === 'title';
     return title || finalPayload.lang === 'en' || base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.proposed ?? '')) > 300;
   }
   if (row.type === 'proverb_addition') return !!similarProverb(String(finalPayload.digo ?? ''), liveChanges);

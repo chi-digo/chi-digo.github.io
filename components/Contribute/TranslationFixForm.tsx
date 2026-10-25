@@ -80,8 +80,9 @@ export function TranslationFixForm({
           options={options.map((o) => ({ value: o.key, label: o.label }))}
         />
       )}
+      {options.length === 1 && <p className={styles.legend}>{chosen.label}</p>}
       {chosen.source && (
-        <details className={styles.source}>
+        <details className={styles.source} open={options.length === 1}>
           <summary>{c.tf_source}</summary>
           <p lang="en">{chosen.source}</p>
         </details>

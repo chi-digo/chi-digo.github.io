@@ -38,6 +38,16 @@ function checkProvenance(rel: string, prov: unknown) {
 
 // --base <git ref>: ids are frozen. A new block, meta or event id must be past every id the file had at the base.
 const baseRef = args.includes('--base') ? args[args.indexOf('--base') + 1] : null;
+// A ref that can't be resolved fails the check (it must never silently switch it off).
+if (baseRef) {
+  try {
+    execFileSync('git', ['rev-parse', '--verify', '--quiet', `${baseRef}^{commit}`], { cwd: rootArg, stdio: 'ignore' });
+  } catch {
+    console.error(`error: --base ${baseRef} is not a commit here (fetch it first)`);
+    process.exit(1);
+  }
+}
+/** The file at the base, or null when it didn't exist there (a new file). */
 function atBase(rel: string): unknown {
   if (!baseRef) return null;
   try {
@@ -51,7 +61,8 @@ function frozen(rel: string, now: string[], base: string[] | undefined) {
   if (!base) return;
   const kinds = new Set(base.map((id) => id[0]));
   for (const k of kinds) {
-    if (k === 't') continue; // event ids are random, not ordered: only reuse is refused below
+    // Timeline event ids are random (unordered); uniqueness is checked with the timeline below.
+    if (k === 't') continue;
     const max = Math.max(...base.filter((id) => id[0] === k).map(num));
     for (const id of now) if (id[0] === k && !base.includes(id) && num(id) <= max) fail(`${rel}: new id ${id} is not past the old ones (max ${k}${max}): ids are never reused`);
   }

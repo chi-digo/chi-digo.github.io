@@ -67,7 +67,7 @@ export function TopicArticle({
       <section className={styles.hero} style={getHeroStyle(`${domainSlug}/${topicSlug}`)}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
-          <h1 className={styles.heroTitle}>{fix.merged.title[locale]}{fix.pencil({ field: 'title', label: t.contribute.tf_title_label })}</h1>
+          <h1 className={styles.heroTitle}>{fix.merged.title[locale]}{fix.pencil({ field: 'title', onDark: true })}</h1>
           <p className={styles.proverb} lang="dg">
             <em>{domain.proverb}</em>
           </p>
@@ -81,7 +81,7 @@ export function TopicArticle({
           <ArticleBody
             blocks={fix.merged.blocks}
             locale={locale}
-            pencil={(b) => fix.pencil({ field: 'block', block: b.id, label: t.contribute[`tf_block_${b.type}`] })}
+            pencil={(b) => fix.pencil({ field: 'block', block: b.id })}
           />
           {fix.toggle}
           {fix.credits}
