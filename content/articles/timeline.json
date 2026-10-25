@@ -11,7 +11,7 @@
       },
       "description": {
         "en": "Archaeological evidence shows continuous Bantu occupation of the Kenyan coastal escarpment, with kaya sites showing settlement hierarchies.",
-        "sw": "Ushahidi wa kiakiolojia unaonyesha makazi ya kudumu ya Wabantu katika ukingo wa pwani ya Kenya, ambapo maeneo ya makaya yanaonyesha mifumo ya makazi.",
+        "sw": "Ushahidi wa kiakiolojia unaonyesha makazi ya kudumu ya Wabantu katika ukingo wa pwani ya Kenya, ambapo maeneo ya makaya yanaonyesha mifumo ya makazi. (jaribio)",
         "dg": "Ushahidi wa chiakiolojia unaonyesha makalo ga kudumu ga Abantu kahi za ukingo wa pwani ya Kenya, ambako maeneo ga makaya ganaonyesha mifumo ya makalo."
       }
     },
@@ -570,5 +570,16 @@
         "dg": "Azehe a kaya na aongozi a Adigo anafufula Ngambi ya Adigo, baraza ra chienyeji ra azehe, na kutsambula aongoziye."
       }
     }
-  ]
+  ],
+  "provenance": {
+    "events.t-b7a1.description.sw": [
+      {
+        "c": "2882fdad-667c-4b38-a1cb-11485fe8f6c3",
+        "src": "community",
+        "conf": "native",
+        "edited": false,
+        "kind": "translation"
+      }
+    ]
+  }
 }
