@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Ruled as Kubo c. 1865–1894",
       "sw": "Kipindi: Alitawala kama Kubo karibu 1865–1894",
       "dg": "Wakati: Watawala dza Kubo phephi na 1865–1894"
     },
     {
+      "id": "m02",
       "en": "Role: Kubo (hereditary ruler) of the southern Digo; opponent of Shaykh Mbaruk bin Rashid of Gasi",
       "sw": "Jukumu: Kubo (mtawala wa kurithi) wa Wadigo wa kusini; mpinzani wa Shaykh Mbaruk bin Rashid wa Gasi",
       "dg": "Kazi: Kubo (mtawala wa kurisi) wa Adigo a kusini; ariyempinga Shaykh Mbaruk bin Rashid wa Gasi"
     },
     {
+      "id": "m03",
       "en": "Region: Chikoneni, Kwale, present-day Kenya",
       "sw": "Eneo: Chikoneni, Kwale, katika Kenya ya leo",
       "dg": "Phatu: Chikoneni, Kwale, Kenya ya rero"

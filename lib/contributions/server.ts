@@ -121,6 +121,7 @@ export function overlayArea(targetType: string | null | undefined): string | nul
   if (targetType === 'plant' || targetType === 'glossary') return 'plant';
   if (targetType === 'word') return 'word';
   if (targetType === 'proverb') return 'proverb';
+  if (targetType === 'article') return 'article';
   return null;
 }
 

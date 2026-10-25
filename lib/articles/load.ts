@@ -6,7 +6,8 @@ import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import type { Locale } from '@/lib/i18n/config';
 import { figures } from '@/lib/history/figures';
-import type { ArticleBlock, ArticleFile, ContentBlock, DomainMeta, FigureArticle, FigureFile, TimelineEvent, Topic } from './types';
+import { bodyIn } from './body';
+import type { ArticleFile, DomainMeta, FigureArticle, FigureFile, TimelineEvent, Topic } from './types';
 
 const ROOT = join(process.cwd(), 'content/articles');
 const LOCALES: Locale[] = ['en', 'sw', 'dg'];
@@ -25,10 +26,7 @@ function read<T>(rel: string): T | null {
 
 const EMPTY_DOMAIN: DomainMeta = { slug: '', title: { en: '', sw: '', dg: '' }, intro: { en: '', sw: '', dg: '' }, proverb: '', proverbGloss: '', topics: [] };
 
-/** The blocks in one language, as the renderers expect them. */
-export function bodyIn(blocks: ArticleBlock[], locale: Locale): ContentBlock[] {
-  return blocks.map((b) => ({ type: b.type, text: b[locale] ?? '' }));
-}
+export { bodyIn };
 
 function topicOf(slug: string, file: ArticleFile): Topic {
   return {
@@ -69,6 +67,21 @@ export function languageTopic(topic: string): Topic | null {
 
 export function timelineEvents(): TimelineEvent[] {
   return read<{ events: TimelineEvent[] }>('timeline.json')?.events ?? [];
+}
+
+/** An article id the contributions API accepts (spec 34 §17.8 rule 2). */
+export const ARTICLE_ID = /^(culture\/[a-z0-9-]+\/[a-z0-9-]+|(history|language|figures)\/[a-z0-9-]+|timeline)$/;
+
+/** The stored file for an article id (topic, published figure or the timeline), or null. */
+export function articleData(id: string): (ArticleFile | FigureFile | { events: TimelineEvent[]; provenance?: ArticleFile['provenance'] }) | null {
+  if (!ARTICLE_ID.test(id)) return null;
+  if (id === 'timeline') return read('timeline.json');
+  const [kind, a, b] = id.split('/');
+  if (kind === 'culture') return cultureDomains().some((d) => d.slug === a && d.topics.includes(b)) ? read<ArticleFile>(`${id}.json`) : null;
+  if (kind === 'history') return historyDomain().topics.includes(a) ? read<ArticleFile>(`${id}.json`) : null;
+  if (kind === 'language') return languageDomain().topics.includes(a) ? read<ArticleFile>(`${id}.json`) : null;
+  const fig = figures.some((x) => x.slug === a) ? read<FigureFile>(`${id}.json`) : null;
+  return fig?.published ? fig : null;
 }
 
 /** A figure's article in all three languages, only if it is published. */

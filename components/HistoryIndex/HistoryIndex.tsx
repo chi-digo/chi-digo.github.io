@@ -7,6 +7,8 @@ import { historyDomain } from '@/lib/articles/manifest';
 import { figures } from '@/lib/history/figures';
 import { eraLabels, eraColors, type Era } from '@/lib/history/timeline';
 import type { TimelineEvent } from '@/lib/articles/types';
+import type { Provenance } from '@/lib/contributions/apply/types';
+import { useArticleFix } from '@/components/Contribute/ArticleFix';
 import { trackNavClick } from '@/lib/analytics/track';
 import { useTrackView } from '@/hooks/useTrackView';
 import { getHeroStyle } from '@/lib/images/hero-images';
@@ -33,7 +35,10 @@ function FigureCard({ href, children }: { href: string | null; children: React.R
   );
 }
 
-export function HistoryIndex({ figureArticles = [], timelineEvents }: { figureArticles?: string[]; timelineEvents: TimelineEvent[] }) {
+export function HistoryIndex({ figureArticles = [], timeline }: { figureArticles?: string[]; timeline: { events: TimelineEvent[]; provenance?: Provenance } }) {
+  // The timeline with its live fixes; Swahili and Digo readers can fix an event (spec 34 §17.11).
+  const fix = useArticleFix('timeline', timeline);
+  const timelineEvents = fix.merged.events;
   const t = useTranslations();
   const { locale } = useLocale();
 
@@ -85,6 +90,7 @@ export function HistoryIndex({ figureArticles = [], timelineEvents }: { figureAr
             ))}
           </div>
 
+          {fix.toggle}
           {/* Custom era-colored timeline */}
           <div className={styles.timeline}>
             {timelineEvents.map((ev, i) => (
@@ -103,12 +109,15 @@ export function HistoryIndex({ figureArticles = [], timelineEvents }: { figureAr
                 </div>
                 <div className={styles.tlBody}>
                   <span className={styles.tlDate}>{ev.date}</span>
-                  <h3 className={styles.tlTitle}>{ev.title[locale]}</h3>
-                  <p className={styles.tlDesc}>{ev.description[locale]}</p>
+                  <h3 className={styles.tlTitle} id={ev.id}>{ev.title[locale]}{fix.pencil({ field: 'title', block: ev.id })}</h3>
+                  <p className={styles.tlDesc}>{ev.description[locale]}{fix.pencil({ field: 'description', block: ev.id })}</p>
                 </div>
               </div>
             ))}
           </div>
+          {fix.toggle}
+          {fix.credits}
+          {fix.form}
         </div>
       </section>
 

@@ -67,7 +67,7 @@ jobs:
 
       - name: Rebuild the shipped plant files
         run: |
-          if [ -n "$(git -C data status --porcelain)" ]; then
+          if [ -n "$(git -C data status --porcelain -- content/plants)" ]; then
             (cd tool && npx tsx scripts/plants/build-plants-data.ts --root "$GITHUB_WORKSPACE/data")
           fi
 
@@ -75,6 +75,14 @@ jobs:
         run: |
           if [ -n "$(git -C data status --porcelain -- public/data)" ]; then
             (cd tool && npx tsx scripts/dictionary/build-index.ts --root "$GITHUB_WORKSPACE/data")
+          fi
+
+      - name: Regenerate the article manifest (titles may have changed)
+        env:
+          TSX_TSCONFIG_PATH: ${{ github.workspace }}/tool/tsconfig.json
+        run: |
+          if [ -n "$(git -C data status --porcelain -- content/articles)" ]; then
+            (cd tool && npx tsx scripts/articles/check.ts --root "$GITHUB_WORKSPACE/data" --write)
           fi
 
       - name: Validate before anything is merged (tool scripts, data checkout)
@@ -89,12 +97,13 @@ jobs:
             ../tool/node_modules/.bin/tsx ../tool/scripts/plants/build-plants-data.ts --root . --check
             ../tool/node_modules/.bin/tsx ../tool/scripts/dictionary/build-index.ts --root . --check
             ../tool/node_modules/.bin/tsx ../tool/scripts/proverbs/check.ts --root .
+            ../tool/node_modules/.bin/tsx ../tool/scripts/articles/check.ts --root .
           fi
 
       - name: Only data files may change
         run: |
           git -C data add -A
-          bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/(a|b|ch|d|dz|e|f|g|gbw|h|i|j|k|kpw|l|m|m_|n|ndz|ng|ng_|o|p|ph|r|s|sh|t|ts|u|v|w|y|z)(\.idx)?\.json|public/data/(index|reverse-en|reverse-sw|variants)\.json|public/data/proverbs/index\.json|public/data/data-version\.json)$' || true)
+          bad=$(git -C data diff --cached --name-only -z | tr '\0' '\n' | grep -vE '^(content/plants/[^/]+\.json|public/data/plants/.+\.json|public/data/(a|b|ch|d|dz|e|f|g|gbw|h|i|j|k|kpw|l|m|m_|n|ndz|ng|ng_|o|p|ph|r|s|sh|t|ts|u|v|w|y|z)(\.idx)?\.json|public/data/(index|reverse-en|reverse-sw|variants)\.json|public/data/proverbs/index\.json|public/data/data-version\.json|content/articles/(culture/[a-z0-9-]+/[a-z0-9-]+|(history|language|figures)/[a-z0-9-]+|timeline)\.json|lib/articles/manifest\.json)$' || true)
           if [ -n "$bad" ]; then echo "unexpected changes:"; echo "$bad"; exit 1; fi
           added=$(git -C data diff --cached --name-only --diff-filter=AD)
           if [ -n "$added" ]; then echo "no file may be added or deleted:"; echo "$added"; exit 1; fi

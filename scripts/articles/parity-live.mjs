@@ -11,7 +11,8 @@ import { readFileSync, readdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { chromium } from 'playwright-core';
 
-const [A, B, file] = process.argv.slice(2);
+const IGNORE_FIX = process.argv.includes('--ignore-fix-switch');
+const [A, B, file] = process.argv.slice(2).filter((x) => x !== '--ignore-fix-switch');
 if (!A || !B) throw new Error('usage: parity-live.mjs <baseA> <baseB> | <base> --save|--against <file>');
 const mode = B === '--save' ? 'save' : B === '--against' ? 'against' : 'compare';
 const snapshot = mode === 'against' ? JSON.parse(readFileSync(file, 'utf-8')) : {};
@@ -35,6 +36,7 @@ async function text(base, path, locale) {
     const page = await ctx.newPage();
     try {
       // Analytics keep the network busy: wait for load, then for the text to settle.
+      if (IGNORE_FIX) await page.addInitScript(() => { window.__ignoreFix = true; });
       await page.goto(url, { waitUntil: 'load', timeout: 45000 });
       let prev = '';
       let t = '';
@@ -45,6 +47,8 @@ async function text(base, path, locale) {
           for (const el of document.querySelectorAll('body *')) {
             if (el.matches('header, footer, nav') || getComputedStyle(el).position === 'fixed') el.style.display = 'none';
           }
+          // The translation-fix switch (spec 34 §17.11) is new on sw/dg pages; --ignore-fix-switch leaves it out.
+          if (window.__ignoreFix) for (const el of document.querySelectorAll('[data-fix-toggle]')) if (el.closest('p')) el.closest('p').style.display = 'none';
           return (document.querySelector('main') ?? document.body).innerText.replace(/\s+/g, ' ').trim();
         });
         if (t && t === prev) break;

@@ -17,6 +17,13 @@ jobs:
           node-version: 25
           cache: npm
       - run: npm install
+      - name: Article block ids are never reused (spec 34 §17.11)
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.base_ref }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BASE"
+          npx tsx scripts/articles/check.ts --base FETCH_HEAD
       - run: npm run lint -- --quiet
       - run: npm run test
       - run: npm run build

@@ -46,7 +46,8 @@ export interface FigureFile {
   published: boolean;
   title: Partial<L10n>;
   subtitle: Partial<L10n>;
-  meta: Partial<L10n>[];
+  /** Detail lines (era, role…), each with a frozen id (m01…). */
+  meta: ({ id: string } & Partial<L10n>)[];
   blocks: ArticleBlock[];
   sources: string[];
   provenance?: Provenance;

@@ -4,6 +4,7 @@ import { PAYLOADS, TYPE_SCOPE, ENABLED_TYPES, submitSchema } from '@/lib/contrib
 import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
 import { resolveTarget, WORD_ID, similarHeadwords, PROVERB_ID, similarProverb } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
+import { ARTICLE_ID } from '@/lib/articles/load';
 import { normaliseDigo } from '@/lib/contributions/text';
 import { translationTextProblem } from '@/lib/contributions/review';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
@@ -62,7 +63,8 @@ export async function POST(request: Request) {
     const ok = id === TEST_TARGET
       || (input.target_type === 'plant' && /^[a-z0-9-]+$/.test(id))
       || (input.target_type === 'glossary' && /^[\p{L}' -]{1,60}$/u.test(id))
-      || (input.target_type === 'proverb' && PROVERB_ID.test(id));
+      || (input.target_type === 'proverb' && PROVERB_ID.test(id))
+      || (input.target_type === 'article' && ARTICLE_ID.test(id));
     if (!ok) return badRequest('invalid_target');
   }
   if (caller.isTest && input.type !== 'general_feedback' && input.target_id !== TEST_TARGET) {
@@ -70,7 +72,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const area = input.target_type === 'plant' || input.target_type === 'glossary' ? 'plant' : input.target_type === 'word' ? 'word' : input.target_type === 'proverb' ? 'proverb' : null;
+    const area = input.target_type === 'article' ? 'article' : input.target_type === 'plant' || input.target_type === 'glossary' ? 'plant' : input.target_type === 'word' ? 'word' : input.target_type === 'proverb' ? 'proverb' : null;
     const target = resolveTarget(input.type, input.target_type, input.target_id, payload.data, {
       isTest: caller.isTest,
       liveChanges: area ? await getAreaOverlay(area) : [],

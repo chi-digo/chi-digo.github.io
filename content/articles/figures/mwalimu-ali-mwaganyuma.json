@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Studied from the famine of 1884–85; active from about 1890 into the late 1920s",
       "sw": "Kipindi: Alisoma tangu njaa ya 1884–85; alifanya kazi yake kuanzia karibu 1890 hadi mwishoni mwa miaka ya 1920",
       "dg": "Wakati: Wasoma kula ndzala ya 1884–85; wahenda kaziye kula kama mwaka 1890 hadi mwisho wa miaka ya 1920"
     },
     {
+      "id": "m02",
       "en": "Role: One of the first Digo to study the Qur'an formally and come home to teach; first Imam of the Pungu Tuliani Mosque; healer; litigant in the 1928 Digo inheritance case",
       "sw": "Jukumu: Mmoja wa Wadigo wa kwanza kusoma Qurani kwa utaratibu na kurudi nyumbani kufundisha; Imamu wa kwanza wa Msikiti wa Tuliani wa Pungu; mganga; mdai katika kesi ya mirathi ya Wadigo ya 1928",
       "dg": "Kazi: Mmwenga wa Adigo a kpwandza kusoma Kuruani kpwa utaratibu na kuuya kaya kufundza; Imamu wa kpwandza wa Msikiti wa Tuliani wa Pungu; mgbwanga; walumba kesi ya urisi ya Adigo ya 1928"
     },
     {
+      "id": "m03",
       "en": "Region: Pungu, south of Likoni, Kwale, present-day Kenya",
       "sw": "Eneo: Pungu, kusini mwa Likoni, Kwale, Kenya ya leo",
       "dg": "Phatu: Pungu, kusini ya Likoni, Kwale, Kenya ya rero"

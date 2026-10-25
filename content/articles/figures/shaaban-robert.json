@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: 1909–1962 (one study gives 1902 for his birth)",
       "sw": "Kipindi: 1909–1962 (utafiti mmoja unataja mwaka 1902 kuwa mwaka wa kuzaliwa kwake)",
       "dg": "Wakati: 1909–1962 (utafiti mmwenga unagomba wavyalwa mwaka 1902)"
     },
     {
+      "id": "m02",
       "en": "Role: Swahili poet, novelist and essayist; colonial civil servant; member of Tanga Town Council",
       "sw": "Jukumu: Mshairi, mwandishi wa riwaya na insha za Kiswahili; mtumishi wa serikali ya kikoloni; mjumbe wa Baraza la Mji wa Tanga",
       "dg": "Kazi: Mshairi, mwandishi wa riwaya na insha za Chiswahili; ariyehenda kazi ya serikali ya chikoloni; mjumbe wa Baraza ra Mudzi wa Tanga"
     },
     {
+      "id": "m03",
       "en": "Region: Machui, south of Tanga, present-day Tanzania",
       "sw": "Eneo: Machui, kusini mwa Tanga, katika Tanzania ya leo",
       "dg": "Phatu: Machui, kusini ya Tanga, Tanzania ya rero"

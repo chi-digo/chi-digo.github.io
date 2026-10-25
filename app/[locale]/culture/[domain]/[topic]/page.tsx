@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { TopicArticle } from '@/components/CultureArticle/CultureArticle';
 import { notFound } from 'next/navigation';
 import { getDomain, getTopic, domains } from '@/lib/articles/manifest';
-import { cultureTopic } from '@/lib/articles/load';
+import { articleData } from '@/lib/articles/load';
+import type { ArticleFile } from '@/lib/articles/types';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
@@ -44,7 +45,7 @@ export default async function Page({
   const loc = locale as Locale;
   const d = getDomain(domain);
   const t = getTopic(domain, topic)?.topic;
-  const article = cultureTopic(domain, topic);
+  const article = articleData(`culture/${domain}/${topic}`) as ArticleFile | null;
   if (!article) notFound();
   const today = new Date().toISOString().split('T')[0];
 
@@ -73,7 +74,7 @@ export default async function Page({
           />
         </>
       )}
-      <TopicArticle domainSlug={domain} topicSlug={topic} body={article.body} />
+      <TopicArticle domainSlug={domain} topicSlug={topic} article={article} />
     </>
   );
 }

@@ -12,7 +12,10 @@ const AREA_TARGETS: Record<string, string[]> = {
   plant: ['plant', 'glossary'],
   word: ['word'],
   proverb: ['proverb'],
+  article: ['article'],
 };
+/** Areas test rows never enter, not even for the fixture: every reader sees these (design panel B1). */
+const NO_TEST_ROWS = ['article'];
 
 export const OVERLAY_AREAS = Object.keys(AREA_TARGETS);
 
@@ -54,7 +57,7 @@ async function loadAreaOverlay(area: string): Promise<Change[]> {
     .eq('status', 'accepted')
     .eq('live_status', 'live')
     // Test rows only ever target the fixture plant, which no page reads; real targets never see them.
-    .or(`is_test.eq.false,target_id.eq.${TEST_TARGET}`)
+    .or(NO_TEST_ROWS.includes(area) ? 'is_test.eq.false' : `is_test.eq.false,target_id.eq.${TEST_TARGET}`)
     .in('target_type', AREA_TARGETS[area])
     .not('type', 'in', `(${NEVER_PUBLIC.join(',')})`)
     .or(`fold_status.is.null,fold_status.neq.folded,folded_at.gt.${since}`)

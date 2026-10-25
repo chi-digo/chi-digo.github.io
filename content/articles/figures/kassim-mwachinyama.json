@@ -13,16 +13,19 @@
   },
   "meta": [
     {
+      "id": "m01",
       "en": "Era: Active in the 1920s; first Imam of the Chigato Mosque from 1924 (birth and death dates unknown)",
       "sw": "Kipindi: Alikuwa hai katika miaka ya 1920; Imamu wa kwanza wa Msikiti wa Chigato kuanzia 1924 (tarehe za kuzaliwa na kufariki hazijulikani)",
       "dg": "Wakati: Wahenda kaziye miaka ya 1920; Imamu wa kpwandza wa Msikiti wa Chigato kula 1924 (tarehe za kuvyalwa na kufwa tazimanyikana)"
     },
     {
+      "id": "m02",
       "en": "Role: Qur'an teacher and first Imam of the Chigato Mosque; one of the first generation of Digo imams in the Tiwi area",
       "sw": "Jukumu: Mwalimu wa Qurani na Imamu wa kwanza wa Msikiti wa Chigato; mmoja wa kizazi cha kwanza cha maimamu wa Kidigo katika eneo la Tiwi",
       "dg": "Kazi: Mwalimu wa Kuruani na Imamu wa kpwandza wa Msikiti wa Chigato; mmwenga wa maimamu a kpwandza a Chidigo kanda ya Tiwi"
     },
     {
+      "id": "m03",
       "en": "Region: Chigato and Vuga, between Tiwi and Kwale, present-day Kenya",
       "sw": "Eneo: Chigato na Vuga, kati ya Tiwi na Kwale, Kenya ya leo",
       "dg": "Phatu: Chigato na Vuga, kahi ya Tiwi na Kwale, Kenya ya rero"

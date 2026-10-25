@@ -52,6 +52,16 @@ for (const r of rows) {
     if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
     continue;
   }
+  if (r.target_type === 'article') {
+    // Article fixes (spec 34 §17.11): the deployed file keeps its provenance.
+    const id = String(r.target_id ?? '');
+    const file = join(opt('--data'), 'content/articles', `${id}.json`);
+    if (!/^(culture\/[a-z0-9-]+\/[a-z0-9-]+|(history|language|figures)\/[a-z0-9-]+|timeline)$/.test(id) || !existsSync(file)) continue;
+    const prov = (JSON.parse(readFileSync(file, 'utf-8')).provenance ?? {}) as Record<string, { c: string }[]>;
+    const present = Object.values(prov).some((l) => l.some((x) => x.c === r.id));
+    if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
+    continue;
+  }
   if (r.target_type === 'glossary') {
     // Glossary fixes (spec 34 §17): the deployed glossary keeps each term's provenance.
     const terms = JSON.parse(readFileSync(join(opt('--data'), 'public/data/plants/glossary.json'), 'utf-8')) as { term: string; provenance?: Record<string, { c: string }[]> }[];

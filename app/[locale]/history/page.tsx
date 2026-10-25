@@ -4,7 +4,8 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
 import { faqJsonLd } from '@/lib/seo/jsonld';
-import { publishedFigureSlugs, timelineEvents } from '@/lib/articles/load';
+import { publishedFigureSlugs, articleData } from '@/lib/articles/load';
+import type { TimelineEvent } from '@/lib/articles/types';
 
 export async function generateMetadata({
   params,
@@ -43,7 +44,7 @@ export default function Page() {
   return (
     <>
       <JsonLd data={historyFaq} />
-      <HistoryIndex figureArticles={publishedFigureSlugs()} timelineEvents={timelineEvents()} />
+      <HistoryIndex figureArticles={publishedFigureSlugs()} timeline={articleData('timeline') as { events: TimelineEvent[] }} />
     </>
   );
 }
