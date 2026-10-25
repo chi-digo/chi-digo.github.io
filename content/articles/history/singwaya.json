@@ -16,7 +16,7 @@
       "type": "heading",
       "en": "A City Before the Scattering",
       "sw": "Mji Kabla ya Kutawanyika",
-      "dg": "Mudzi Kabila ya Kutawanyika (jaribio)"
+      "dg": "Mudzi Kabila ya Kutawanyika"
     },
     {
       "id": "b002",
@@ -193,16 +193,5 @@
       "sw": "Kinachobaki thabiti katika matoleo yote ya mapokeo, ya kitaaluma na ya kawaida, ni picha ya kuondoka — watu wanaoondoka mahali ambapo hawezi tena kuwashikilia, wakitembea kusini kupitia eneo la adui, wakibeba nawo maarifa ya jinsi ya kujenga nyumba mpya katika msitu mpya juu ya kilima kipya. Picha hiyo ndiyo moyo wa masimulizi ya Singwaya, na hakuna kiasi cha mjadala wa kitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yake.",
       "dg": "Chirichotsala thabiti kpwa matoleo gosi ga mapokeo, ga chitaaluma na ga kawaida, ni picha ya kuuka — atu anaouka phatu ambapo phaweza tena kuashikilia, akitembea kusini kupitshi eneo ra adui, akitsukula nao marifwa ga jinsi ya kudzenga nyumba mpya kpwa msitu mpya dzulu ya chirima chipya. Picha iyo ndiyo moyo wa masimulizi ga Singwaya, na takuna kiasi cha mjadala wa chitaaluma kuhusu tarehe na maeneo kinachoweza kupunguza nguvu yakpwe."
     }
-  ],
-  "provenance": {
-    "blocks.b001.dg": [
-      {
-        "c": "44e15abb-9c0f-4747-9f37-95e1b93960e3",
-        "src": "community",
-        "conf": "native",
-        "edited": false,
-        "kind": "translation"
-      }
-    ]
-  }
+  ]
 }
