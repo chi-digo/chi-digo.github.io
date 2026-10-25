@@ -888,7 +888,7 @@
     "notif_second_review": "“{summary}” kpwa {target} rinahitaji mkaguzi wa phiri.",
     "notif_report_hidden": "“{summary}” rikafitswa baada ya ripoti.",
     "notif_fold_failed": "Kuandika mabadiliko garigokubaliwa kpwenye data ya tovuti kukashindikana. Vugula Kagua.",
-    "notif_translation_overdue": "Pendekezo ra tafsiri ya {language} “{summary}” rikagodza mkaguzi siku 7.",
+    "notif_translation_overdue": "Pendekezo ra tafsiri ya {language} “{summary}” rikagodza mkaguzi zaidi ya siku 7.",
     "notif_open": "Vugula",
     "review_waiting": "{n} ganagodzera",
     "notif_accepted_notarget": "Pendekezoro “{summary}” rikakubaliwa.",
