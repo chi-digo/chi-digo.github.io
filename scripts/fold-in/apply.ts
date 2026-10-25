@@ -12,6 +12,7 @@ import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { applySourcePlant, unapplySourcePlant } from '../../lib/contributions/apply/plants-source';
 import { applyTranslation, unapplyTranslation } from '../../lib/contributions/apply/translations';
+import { applyArticle, unapplyArticle, type ArticleData } from '../../lib/contributions/apply/articles';
 import type { GlossaryTerm } from '../../lib/plants/types';
 import { ConflictError, type Change } from '../../lib/contributions/apply/types';
 import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
@@ -45,6 +46,29 @@ const plantsPath = join(dataDir, 'content/plants/plants.json');
 const glossaryPath = join(dataDir, 'content/plants/glossary.json');
 let glossary: (GlossaryTerm & { term: string })[] | null = null;
 let glossaryDirty = false;
+
+/** Article files changed by this run (spec 34 §17.11), written once at the end in the standard format. */
+const articles = new Map<string, ArticleData>();
+const ARTICLE_ID = /^(culture\/[a-z0-9-]+\/[a-z0-9-]+|(history|language|figures)\/[a-z0-9-]+|timeline)$/;
+
+/** A translation fix on an article: the file comes from the id (strict pattern, must exist), never from text. */
+function foldArticle(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
+  const id = row.target_id ?? '';
+  if (!ARTICLE_ID.test(id)) throw new Error(`bad article id ${JSON.stringify(id)}`);
+  const file = join(dataDir, 'content/articles', `${id}.json`);
+  if (!articles.has(file)) {
+    if (!existsSync(file)) throw new Error(`article ${id} not found`);
+    articles.set(file, JSON.parse(readFileSync(file, 'utf-8')) as ArticleData);
+  }
+  const reverting = row.live_status === 'reverting';
+  if (!reverting && row.final_payload.lang === 'dg') {
+    const ruled = ruledOutIn(String(row.final_payload.proposed));
+    if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+  }
+  const a = articles.get(file)!;
+  articles.set(file, reverting ? unapplyArticle(a, change) : applyArticle(a, change));
+  return reverting ? 'reverted' : 'applied';
+}
 
 /** A translation fix on a glossary term's definition (spec 34 §17), on the source glossary. */
 function foldGlossary(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
@@ -222,6 +246,15 @@ for (const row of claimed.rows) {
     }
     continue;
   }
+  if (row.target_type === 'article' && row.type === 'translation_fix') {
+    try {
+      results[foldArticle(row, change)].push(row.id);
+    } catch (err) {
+      if (err instanceof ConflictError && row.live_status !== 'reverting') results.conflict.push({ id: row.id, error: err.message });
+      else results.failed.push({ id: row.id, error: String((err as Error).message ?? err).slice(0, 500) });
+    }
+    continue;
+  }
   if (row.target_type === 'glossary' && row.type === 'translation_fix') {
     try {
       results[foldGlossary(row, change)].push(row.id);
@@ -266,6 +299,8 @@ if (!dryRun && plantsChanged) {
 }
 // The glossary source keeps the plants file's format (one-space indent, no trailing newline).
 if (!dryRun && glossaryDirty && glossary) writeFileSync(glossaryPath, JSON.stringify(glossary, null, 1));
+// Articles: 2-space JSON with a trailing newline (check:articles enforces it).
+if (!dryRun) for (const [file, data] of articles) writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
 if (!dryRun) {
   // Letter files are compact JSON with no trailing newline (build-index.ts then rebuilds the indexes).
   for (const f of dirty) writeFileSync(join(dictDir, `${f}.json`), JSON.stringify(letterFile(f)));
