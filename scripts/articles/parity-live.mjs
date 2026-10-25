@@ -4,13 +4,18 @@
  * visible text of <main>. Exits non-zero on any difference.
  *
  *   node scripts/articles/parity-live.mjs <baseA> <baseB>
+ *   node scripts/articles/parity-live.mjs <base> --save <file.json>      snapshot one site
+ *   node scripts/articles/parity-live.mjs <base> --against <file.json>   compare a site with a snapshot
  */
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync, readdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { chromium } from 'playwright-core';
 
-const [A, B] = process.argv.slice(2);
-if (!A || !B) throw new Error('usage: parity-live.mjs <baseA> <baseB>');
+const [A, B, file] = process.argv.slice(2);
+if (!A || !B) throw new Error('usage: parity-live.mjs <baseA> <baseB> | <base> --save|--against <file>');
+const mode = B === '--save' ? 'save' : B === '--against' ? 'against' : 'compare';
+const snapshot = mode === 'against' ? JSON.parse(readFileSync(file, 'utf-8')) : {};
+const saved = {};
 const ROOT = join(process.cwd(), 'content/articles');
 const json = (rel) => JSON.parse(readFileSync(join(ROOT, rel), 'utf-8'));
 const paths = ['/culture', '/history', '/history/figures', '/language'];
@@ -59,7 +64,13 @@ const jobs = paths.flatMap((p) => ['en', 'sw', 'dg'].map((l) => [p, l]));
 const worker = async () => {
   while (jobs.length) {
     const [p, l] = jobs.shift();
-    const [a, b] = await Promise.all([text(A, p, l), text(B, p, l)]);
+    const key = `${l} ${p}`;
+    if (mode === 'save') {
+      saved[key] = await text(A, p, l);
+      n++;
+      continue;
+    }
+    const [a, b] = mode === 'against' ? [snapshot[key] ?? '(missing from snapshot)', await text(A, p, l)] : await Promise.all([text(A, p, l), text(B, p, l)]);
     n++;
     if (a !== b) {
       diffs++;
@@ -71,5 +82,10 @@ const worker = async () => {
 };
 await Promise.all([worker(), worker(), worker(), worker()]);
 await browser.close();
+if (mode === 'save') {
+  writeFileSync(file, JSON.stringify(saved, null, 1));
+  console.log(`${n} pages saved to ${file}`);
+  process.exit(0);
+}
 console.log(`${n} pages compared, ${diffs} different`);
 process.exit(diffs ? 1 : 0);
