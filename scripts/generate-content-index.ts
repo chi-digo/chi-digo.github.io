@@ -1,8 +1,13 @@
 import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
-import { domains } from '../lib/culture/content';
-import { historyDomain } from '../lib/history/content';
-import { oralTraditionsDomain } from '../lib/language/content';
+import { cultureDomains, cultureTopic, historyDomain as historyMeta, historyTopic, languageDomain, languageTopic } from '../lib/articles/load';
+import type { Topic } from '../lib/articles/types';
+
+// The article files (content/articles, spec 34 §17.10), in the shape this index was written for.
+const withTopics = <D extends { topics: string[] }>(d: D, get: (slug: string) => Topic | null) => ({ ...d, topics: d.topics.map((s) => get(s)!) });
+const domains = cultureDomains().map((d) => withTopics(d, (s) => cultureTopic(d.slug, s)));
+const historyDomain = withTopics(historyMeta(), historyTopic);
+const oralTraditionsDomain = withTopics(languageDomain(), languageTopic);
 import type { Locale } from '../lib/i18n/config';
 
 type ContentIndexEntry = {

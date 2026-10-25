@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { LanguageTopicArticle } from '@/components/LanguageArticle/LanguageArticle';
-import { oralTraditionsDomain } from '@/lib/language/content';
+import { notFound } from 'next/navigation';
+import { oralTraditionsDomain } from '@/lib/articles/manifest';
+import { languageTopic } from '@/lib/articles/load';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
@@ -38,6 +40,8 @@ export default async function Page({
   const { locale, topic } = await params;
   const loc = locale as Locale;
   const t = oralTraditionsDomain.topics.find((x) => x.slug === topic);
+  const article = languageTopic(topic);
+  if (!article) notFound();
   const today = new Date().toISOString().split('T')[0];
 
   return (
@@ -64,7 +68,7 @@ export default async function Page({
           />
         </>
       )}
-      <LanguageTopicArticle topicSlug={topic} />
+      <LanguageTopicArticle topicSlug={topic} body={article.body} />
     </>
   );
 }

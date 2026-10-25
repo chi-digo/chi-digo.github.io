@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { FiguresIndex } from '@/components/FiguresIndex/FiguresIndex';
-import { publishedFigureSlugs } from '@/lib/history/figure-articles';
+import { publishedFigureSlugs } from '@/lib/articles/load';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';

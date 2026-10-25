@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { DomainIndex } from '@/components/CultureIndex/CultureIndex';
-import { domains } from '@/lib/culture/content';
+import { domains } from '@/lib/articles/manifest';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 

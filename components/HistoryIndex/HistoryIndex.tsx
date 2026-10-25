@@ -3,9 +3,10 @@
 import { useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
-import { historyDomain } from '@/lib/history/content';
+import { historyDomain } from '@/lib/articles/manifest';
 import { figures } from '@/lib/history/figures';
-import { timelineEvents, eraLabels, eraColors, type Era } from '@/lib/history/timeline';
+import { eraLabels, eraColors, type Era } from '@/lib/history/timeline';
+import type { TimelineEvent } from '@/lib/articles/types';
 import { trackNavClick } from '@/lib/analytics/track';
 import { useTrackView } from '@/hooks/useTrackView';
 import { getHeroStyle } from '@/lib/images/hero-images';
@@ -32,7 +33,7 @@ function FigureCard({ href, children }: { href: string | null; children: React.R
   );
 }
 
-export function HistoryIndex({ figureArticles = [] }: { figureArticles?: string[] }) {
+export function HistoryIndex({ figureArticles = [], timelineEvents }: { figureArticles?: string[]; timelineEvents: TimelineEvent[] }) {
   const t = useTranslations();
   const { locale } = useLocale();
 

@@ -32,16 +32,21 @@ function sources(): string[] {
     join(DATA, 'quiz/quiz-bank.json'),
     join(DATA, 'proverbs/index.json'),
     join(ROOT, 'lib/i18n/messages/dg.json'),
-    join(ROOT, 'lib/culture/content.ts'),
-    join(ROOT, 'lib/history/content.ts'),
     join(ROOT, 'lib/history/timeline.ts'),
     join(ROOT, 'lib/history/figures.ts'),
     join(ROOT, 'lib/language/tools.ts'),
     join(ROOT, 'lib/plants/themes.ts'),
   );
-  // Hero articles in Digo.
-  const figuresDg = join(ROOT, 'content/history/figures/dg');
-  if (existsSync(figuresDg)) for (const f of readdirSync(figuresDg)) if (f.endsWith('.md')) files.push(join(figuresDg, f));
+  // Articles (culture, history, language, figures, timeline; spec 34 §17.10). This also covers the
+  // language articles, which the old file list missed.
+  const articles = join(ROOT, 'content/articles');
+  const walk = (dir: string) => {
+    for (const f of readdirSync(dir, { withFileTypes: true })) {
+      if (f.isDirectory()) walk(join(dir, f.name));
+      else if (f.name.endsWith('.json')) files.push(join(dir, f.name));
+    }
+  };
+  if (existsSync(articles)) walk(articles);
   return files.filter((f) => existsSync(f));
 }
 
