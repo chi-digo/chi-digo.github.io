@@ -61,7 +61,8 @@ export interface FigureArticle {
   sources: string[];
 }
 
-export type Era = 'origins' | 'kaya' | 'colonial' | 'modern';
+import type { Era } from '@/lib/history/timeline';
+export type { Era };
 
 export interface TimelineEvent {
   id: string;

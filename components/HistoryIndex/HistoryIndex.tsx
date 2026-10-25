@@ -88,7 +88,7 @@ export function HistoryIndex({ figureArticles = [], timelineEvents }: { figureAr
           {/* Custom era-colored timeline */}
           <div className={styles.timeline}>
             {timelineEvents.map((ev, i) => (
-              <div key={i} className={styles.tlEvent}>
+              <div key={ev.id} className={styles.tlEvent}>
                 <div className={styles.tlTrack}>
                   <div
                     className={styles.tlDot}

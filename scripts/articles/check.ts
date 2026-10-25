@@ -24,7 +24,11 @@ const read = (rel: string) => JSON.parse(readFileSync(join(ROOT, rel), 'utf-8'))
 const formatted = (rel: string, data: unknown) => {
   if (readFileSync(join(ROOT, rel), 'utf-8') !== JSON.stringify(data, null, 2) + '\n') fail(`${rel}: not in the standard format (2-space JSON, trailing newline)`);
 };
-const balanced = (t: string) => ((t.match(/\*\*/g) ?? []).length % 2 === 0);
+// Inline markup pairs up: ** and the single * that remain once ** is taken out.
+const balanced = (t: string) => (t.match(/\*\*/g) ?? []).length % 2 === 0 && (t.replace(/\*\*/g, '').match(/\*/g) ?? []).length % 2 === 0;
+const onlyKeys = (rel: string, o: object, allowed: string[]) => {
+  for (const k of Object.keys(o)) if (!allowed.includes(k)) fail(`${rel}: unexpected key ${k}`);
+};
 
 function checkBlocks(rel: string, blocks: { id: string; type: string; [l: string]: string }[], langs: Locale[]) {
   const ids = new Set<string>();
@@ -35,16 +39,20 @@ function checkBlocks(rel: string, blocks: { id: string; type: string; [l: string
     if (!['heading', 'paragraph', 'quote'].includes(b.type)) fail(`${rel} ${b.id}: unknown type ${b.type}`);
     for (const l of langs) {
       if (typeof b[l] !== 'string' || !b[l].trim()) fail(`${rel} ${b.id}: no ${l} text`);
-      else if (!balanced(b[l])) fail(`${rel} ${b.id}: unbalanced ** in ${l}`);
+      else if (!balanced(b[l])) fail(`${rel} ${b.id}: unbalanced * or ** in ${l}`);
     }
     for (const k of Object.keys(b)) if (!['id', 'type', ...LOCALES].includes(k)) fail(`${rel} ${b.id}: unexpected key ${k}`);
   }
 }
 
+const listed = new Set<string>();
 function checkTopic(rel: string) {
+  listed.add(rel);
   if (!existsSync(join(ROOT, rel))) return fail(`${rel}: missing`);
   const t = read(rel);
   formatted(rel, t);
+  onlyKeys(rel, t, ['id', 'title', 'intro', 'blocks', 'provenance']);
+  if (t.id !== rel.replace(/\.json$/, '')) fail(`${rel}: id ${t.id} doesn't match the file`);
   for (const l of LOCALES) if (!t.title?.[l] || !t.intro?.[l]) fail(`${rel}: title or intro missing in ${l}`);
   checkBlocks(rel, t.blocks ?? [], LOCALES);
   return t;
@@ -63,17 +71,34 @@ function domainManifest(rel: string, topicRel: (d: Meta, slug: string) => string
   }));
 }
 
-const manifest = {
+const manifest0 = {
   culture: domainManifest('culture/_domains.json', (d, s) => `culture/${d.slug}/${s}.json`),
   history: domainManifest('history/_domains.json', (_d, s) => `history/${s}.json`)[0],
   language: domainManifest('language/_domains.json', (_d, s) => `language/${s}.json`)[0],
 };
+const manifest = manifest0;
+
+// Every topic file is listed in its domain (an unlisted one could never be reached).
+const walk = (rel: string): string[] =>
+  readdirSync(join(ROOT, rel), { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory() ? walk(`${rel}/${e.name}`) : e.name.endsWith('.json') && !e.name.startsWith('_') ? [`${rel}/${e.name}`] : []);
+for (const dir of ['culture', 'history', 'language']) {
+  for (const f of walk(dir)) if (!listed.has(f)) fail(`${f}: not listed in ${dir}/_domains.json`);
+}
 
 // Figures: drafts (published: false) may be English only; published ones need all three languages.
+// The figure cards (slugs) published figures must belong to.
+const cardSlugs = new Set([...readFileSync(join(rootArg, 'lib/history/figures.ts'), 'utf-8').matchAll(/slug: ['"]([a-z0-9-]+)['"]/g)].map((m) => m[1]));
 for (const f of readdirSync(join(ROOT, 'figures')).filter((x) => x.endsWith('.json'))) {
   const rel = `figures/${f}`;
   const fig = read(rel);
   formatted(rel, fig);
+  onlyKeys(rel, fig, ['id', 'published', 'title', 'subtitle', 'meta', 'blocks', 'sources', 'provenance']);
+  if (fig.published) {
+    if (!cardSlugs.has(f.replace(/\.json$/, ''))) fail(`${rel}: published but has no card in lib/history/figures.ts`);
+    for (const l of LOCALES) if (!fig.subtitle?.[l]) fail(`${rel}: no ${l} subtitle`);
+    if (!fig.sources?.length) fail(`${rel}: no sources`);
+  }
   if (fig.id !== `figures/${f.replace(/\.json$/, '')}`) fail(`${rel}: id ${fig.id}`);
   const langs = fig.published ? LOCALES : (['en'] as Locale[]);
   for (const l of langs) if (!fig.title?.[l]) fail(`${rel}: no ${l} title`);
@@ -89,11 +114,14 @@ for (const e of tl.events) {
   if (!/^t-[0-9a-f]{4}$/.test(e.id) || tids.has(e.id)) fail(`timeline.json: bad or duplicate id ${e.id}`);
   tids.add(e.id);
   if (!['origins', 'kaya', 'colonial', 'modern'].includes(e.era)) fail(`timeline.json ${e.id}: era ${e.era}`);
+  if (typeof e.date !== 'string' || !e.date.trim()) fail(`timeline.json ${e.id}: no date`);
+  onlyKeys(`timeline.json ${e.id}`, e, ['id', 'era', 'date', 'title', 'description', 'provenance']);
   for (const l of LOCALES) if (!e.title?.[l] || !e.description?.[l]) fail(`timeline.json ${e.id}: missing ${l}`);
 }
 
 const text = JSON.stringify(manifest, null, 2) + '\n';
-if (args.includes('--write')) writeFileSync(MANIFEST, text);
+if (args.includes('--write') && !problems.length) writeFileSync(MANIFEST, text);
+else if (args.includes('--write')) fail('manifest not written: fix the problems above first');
 else if (!existsSync(MANIFEST) || readFileSync(MANIFEST, 'utf-8') !== text) fail('lib/articles/manifest.json is out of date: run npx tsx scripts/articles/check.ts --write');
 
 if (problems.length) {

@@ -6,12 +6,12 @@ import { getHistoryTopic } from '@/lib/articles/manifest';
 import { renderInlineMarkdown } from '@/lib/articles/render';
 import type { ContentBlock } from '@/lib/articles/types';
 import type { Locale } from '@/lib/i18n/config';
-
-export { renderInlineMarkdown };
 import { track } from '@/lib/analytics/track';
 import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
 import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './HistoryArticle.module.css';
+
+export { renderInlineMarkdown };
 
 export function ArticleBody({ body }: { body: ContentBlock[] }) {
   return (

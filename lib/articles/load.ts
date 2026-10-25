@@ -13,13 +13,17 @@ const LOCALES: Locale[] = ['en', 'sw', 'dg'];
 const SLUG = /^[a-z0-9-]+$/;
 const cache = new Map<string, unknown>();
 
+/** One file, read once per server instance (content only changes with a deploy). A missing file is never remembered. */
 function read<T>(rel: string): T | null {
   if (cache.has(rel)) return cache.get(rel) as T;
   const file = join(ROOT, rel);
-  const data = existsSync(file) ? (JSON.parse(readFileSync(file, 'utf-8')) as T) : null;
+  if (!existsSync(file)) return null;
+  const data = JSON.parse(readFileSync(file, 'utf-8')) as T;
   cache.set(rel, data);
   return data;
 }
+
+const EMPTY_DOMAIN: DomainMeta = { slug: '', title: { en: '', sw: '', dg: '' }, intro: { en: '', sw: '', dg: '' }, proverb: '', proverbGloss: '', topics: [] };
 
 /** The blocks in one language, as the renderers expect them. */
 export function bodyIn(blocks: ArticleBlock[], locale: Locale): ContentBlock[] {
@@ -39,10 +43,10 @@ export function cultureDomains(): DomainMeta[] {
   return read<DomainMeta[]>('culture/_domains.json') ?? [];
 }
 export function historyDomain(): DomainMeta {
-  return read<DomainMeta[]>('history/_domains.json')![0];
+  return read<DomainMeta[]>('history/_domains.json')?.[0] ?? EMPTY_DOMAIN;
 }
 export function languageDomain(): DomainMeta {
-  return read<DomainMeta[]>('language/_domains.json')![0];
+  return read<DomainMeta[]>('language/_domains.json')?.[0] ?? EMPTY_DOMAIN;
 }
 
 /** A culture topic, or null if the domain or topic doesn't exist. */
@@ -69,7 +73,7 @@ export function timelineEvents(): TimelineEvent[] {
 
 /** A figure's article in all three languages, only if it is published. */
 export function figureArticles(slug: string): Record<Locale, FigureArticle> | null {
-  if (!SLUG.test(slug)) return null;
+  if (!SLUG.test(slug) || !figures.some((x) => x.slug === slug)) return null;
   const f = read<FigureFile>(`figures/${slug}.json`);
   if (!f?.published) return null;
   return Object.fromEntries(
