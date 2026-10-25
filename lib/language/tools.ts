@@ -49,7 +49,7 @@ export const languageTools: LanguageTool[] = [
     description: {
       en: '459 coastal plants with their Digo names, uses, and cultural notes. Suggest a plant name or a correction.',
       sw: 'Mimea 459 ya pwani yenye majina yake ya Kidigo, matumizi, na maelezo ya kitamaduni. Pendekeza jina la mmea au marekebisho.',
-      dg: 'Mimea 459 ya pwani na majina gayo ga Chidigo, matumizi, na madzo ga chisomo. Pendekeza dzina ra mmea au marekebisho.',
+      dg: 'Mimea 459 ya pwani na madzina gao ga Chidigo, matumizi, na madzo ga chisomo. Pendekeza dzina ra mmea au marekebisho.',
     },
     href: '/culture/ecology/plants',
     available: true,
