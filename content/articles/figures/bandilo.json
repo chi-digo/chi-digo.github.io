@@ -50,7 +50,7 @@
       "id": "b003",
       "type": "paragraph",
       "en": "The account says Bandilo was greatly respected because he was skilled in the use of arrows. He also had expertise in traditional medicine, and could predict all kinds of events.",
-      "sw": "Simulizi hiyo inasema Bandilo aliheshimiwa sana kwa sababu alikuwa *hodari katika matumizi ya mishale*. Pia alikuwa na *utaalamu wa dawa za asili*, na aliweza *kutabiri matukio mbalimbali*. (jaribio)",
+      "sw": "Simulizi hiyo inasema Bandilo aliheshimiwa sana kwa sababu alikuwa *hodari katika matumizi ya mishale*. Pia alikuwa na *utaalamu wa dawa za asili*, na aliweza *kutabiri matukio mbalimbali*.",
       "dg": "Adisi inagomba kukala Bandilo kala anaishimiwa sana kpwa sababu kala ni fundi wa kuhumira mivi. Piya kala ana ujuzi wa tiba ya chienyeji, na kala anaweza kutabiri mambo ga chila aina."
     },
     {
@@ -159,16 +159,5 @@
     "David C. Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD thesis, SOAS, University of London, 1988, pp. 27–31.",
     "H. M. T. Kayamba, \"Notes on the Wadigo\", *Tanganyika Notes and Records* 23 (1947): 80–96. Cited by source 1; not yet consulted.",
     "Vincent Geoffrey Nkondokaya, *Asili ya Tanga pamoja na asili ya Wadigo, Wasegeju na Wadaiso* (Dar es Salaam, 2006). Not yet consulted."
-  ],
-  "provenance": {
-    "blocks.b003.sw": [
-      {
-        "c": "625d2f9f-d251-49ff-acc1-8efdad8e8945",
-        "src": "community",
-        "conf": "native",
-        "edited": false,
-        "kind": "translation"
-      }
-    ]
-  }
+  ]
 }

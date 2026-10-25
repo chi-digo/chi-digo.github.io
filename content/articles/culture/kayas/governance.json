@@ -22,7 +22,7 @@
       "id": "b002",
       "type": "paragraph",
       "en": "In the world of the kaya, authority is not inherited, elected, or appointed. It is earned — through a lifetime of service, through the progressive stages of the age-set system, through the literal and figurative investments required to ascend the hierarchy of elder status. A kaya elder's authority rests not on a title bestowed by an external institution but on the demonstrated commitment that brought them into the inner circle of the *kambi* — the highest traditional administrative organ of the Mijikenda.",
-      "sw": "Katika ulimwengu wa kaya, mamlaka hayarithi, hayachaguliwi, wala hayateuliwi. Yanapatikana — kupitia maisha ya huduma, kupitia hatua za maendeleo za mfumo wa rika, kupitia uwekezaji halisi na wa kimfano unaohitajika kupanda daraja ya hadhi ya uzee. Mamlaka ya mzee wa kaya yanategemea si jina lililotolewa na taasisi ya nje bali kujitolea kulikoonyeshwa kulikomleta katika duara la ndani la *kambi* — chombo cha juu zaidi cha utawala wa jadi wa Mijikenda. (jaribio)",
+      "sw": "Katika ulimwengu wa kaya, mamlaka hayarithi, hayachaguliwi, wala hayateuliwi. Yanapatikana — kupitia maisha ya huduma, kupitia hatua za maendeleo za mfumo wa rika, kupitia uwekezaji halisi na wa kimfano unaohitajika kupanda daraja ya hadhi ya uzee. Mamlaka ya mzee wa kaya yanategemea si jina lililotolewa na taasisi ya nje bali kujitolea kulikoonyeshwa kulikomleta katika duara la ndani la *kambi* — chombo cha juu zaidi cha utawala wa jadi wa Mijikenda.",
       "dg": "Kpwa ulimwengu wa kaya, mamlaka tagarisiwa, tagatsambulwa, wala tagateuliwa. Ganaphahikana — kpwa maisha ga huduma, kpwa hatua za maendeleo za mfumo wa rika, kpwa uwekezaji wa kpweli na wa chimfwano unaohitajika kupanda daraja ya hadhi ya uvyere. Mamlaka ga mzehe wa kaya taganakuluphira dzina ririrolavywa ni taasisi ya kondze, ela ganakuluphira kudzitolea kurikoonyeswa, kurikomreha kpwenye duara ra ndani ra *kambi* — chombo cha dzulu zaidi cha utawala wa chienyeji wa Amijikenda."
     },
     {
@@ -123,16 +123,5 @@
       "sw": "Changamoto ya kina zaidi ni ya kizazi. Idadi ya wazee walioingizwa inapungua kadri vijana wa Wadigo wanavyohamia Mombasa kwa kazi, kupitisha maisha ya mijini, na kupoteza uhusiano na mfumo wa kaya. Ngazi kumi na moja za daraja la Ngambi zinahitaji miongo ya kujitolea. Ikiwa mfereji wa vijana wanaoingizwa unakauka, muundo wa utawala uliodumisha makaya kwa karne nyingi utaondoka ndani — msitu unaweza kubaki, lakini taasisi iliyoupa maana itakuwa imekwisha.",
       "dg": "Changamoto ya china zaidi ni ya chizazi. Idadi ya azehe arioinjizwa inaphunguka wakati avulana na asichana a Adigo anaphosafiri Mombasa kpwa kazi, anahala maisha ga midzi mikulu, na anaangamiza uhusiano na mfumo wa kaya. Ngazi kumi na mwenga za daraja ra Ngambi zinahitaji miaka mirongo ya kudzitolea. Ichikala mfereji wa barobaro anaoinjizwa unauma, muundo wa utawala uriodumisha makaya kpwa karne nyinji undasala tupu ndani — tsaka rinaweza kusala, ela taasisi iriyoripha mana indakala ikaangamika."
     }
-  ],
-  "provenance": {
-    "blocks.b002.sw": [
-      {
-        "c": "181c0a64-ce13-49a7-8def-5369ae943ca2",
-        "src": "community",
-        "conf": "native",
-        "edited": false,
-        "kind": "translation"
-      }
-    ]
-  }
+  ]
 }
