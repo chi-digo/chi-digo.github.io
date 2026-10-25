@@ -301,3 +301,28 @@
   min-height: 44px;
   padding: 0 var(--space-1);
 }
+
+/* Article fix mode (spec 34 §17.11): the switch, and a pencil beside each fixable block. */
+.fixToggle {
+  margin: var(--space-3) 0;
+  font-size: 0.95rem;
+}
+.pencil {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  margin-left: var(--space-1);
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fg-link, #1f3a5f) 10%, transparent);
+  color: var(--fg-link, #1f3a5f);
+  vertical-align: middle;
+  cursor: pointer;
+}
+.pencil:hover,
+.pencil:focus-visible {
+  background: color-mix(in srgb, var(--fg-link, #1f3a5f) 20%, transparent);
+}

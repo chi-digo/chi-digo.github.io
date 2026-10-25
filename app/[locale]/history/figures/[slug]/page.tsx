@@ -4,7 +4,8 @@ import { existsSync } from 'fs';
 import { join } from 'path';
 import { FigureArticle } from '@/components/FigureArticle/FigureArticle';
 import { figures } from '@/lib/history/figures';
-import { figureArticles as loadFigureArticles, publishedFigureSlugs } from '@/lib/articles/load';
+import { figureArticles as loadFigureArticles, publishedFigureSlugs, articleData } from '@/lib/articles/load';
+import type { FigureFile } from '@/lib/articles/types';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
@@ -51,7 +52,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           { name: figure.name, href: `/history/figures/${slug}` },
         ], locale as Locale)}
       />
-      <FigureArticle figure={figure} articles={articles} scene={sceneFor(slug)} />
+      <FigureArticle figure={figure} articles={articles} raw={articleData(`figures/${slug}`) as FigureFile} scene={sceneFor(slug)} />
     </>
   );
 }

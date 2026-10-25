@@ -6,7 +6,8 @@ import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import type { Locale } from '@/lib/i18n/config';
 import { figures } from '@/lib/history/figures';
-import type { ArticleBlock, ArticleFile, ContentBlock, DomainMeta, FigureArticle, FigureFile, TimelineEvent, Topic } from './types';
+import { bodyIn } from './body';
+import type { ArticleFile, DomainMeta, FigureArticle, FigureFile, TimelineEvent, Topic } from './types';
 
 const ROOT = join(process.cwd(), 'content/articles');
 const LOCALES: Locale[] = ['en', 'sw', 'dg'];
@@ -25,10 +26,7 @@ function read<T>(rel: string): T | null {
 
 const EMPTY_DOMAIN: DomainMeta = { slug: '', title: { en: '', sw: '', dg: '' }, intro: { en: '', sw: '', dg: '' }, proverb: '', proverbGloss: '', topics: [] };
 
-/** The blocks in one language, as the renderers expect them. */
-export function bodyIn(blocks: ArticleBlock[], locale: Locale): ContentBlock[] {
-  return blocks.map((b) => ({ type: b.type, text: b[locale] ?? '' }));
-}
+export { bodyIn };
 
 function topicOf(slug: string, file: ArticleFile): Topic {
   return {

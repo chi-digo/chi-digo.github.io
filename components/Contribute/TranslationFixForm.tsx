@@ -15,6 +15,8 @@ export interface FixOption {
   label: string;
   field: TranslationField;
   part?: number;
+  /** An article block, figure detail line or timeline event (spec 34 §17.11). */
+  block?: string;
   lang: 'en' | 'sw' | 'dg';
   current: string;
   source?: string | null;
@@ -31,7 +33,7 @@ export function TranslationFixForm({
 }: {
   open: boolean;
   onClose: () => void;
-  target: { target_type: 'plant' | 'glossary' | 'proverb'; target_id: string };
+  target: { target_type: 'plant' | 'glossary' | 'proverb' | 'article'; target_id: string };
   options: FixOption[];
   initial?: string;
   onSubmitted?: () => void;
@@ -58,7 +60,9 @@ export function TranslationFixForm({
       target={target}
       draftKey={draftKey}
       resume={{ form: 'translation_fix', target_id: target.target_id, extra: { key: chosen.key } }}
-      payload={changed && reason ? { lang: chosen.lang, field: chosen.field, ...(chosen.part !== undefined && { part: chosen.part }), proposed, reason } : null}
+      payload={changed && reason ? {
+        lang: chosen.lang, field: chosen.field, ...(chosen.part !== undefined && { part: chosen.part }), ...(chosen.block && { block: chosen.block }), proposed, reason,
+      } : null}
       askSource
       onSubmitted={() => {
         clear();

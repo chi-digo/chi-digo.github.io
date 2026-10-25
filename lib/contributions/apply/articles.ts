@@ -15,9 +15,9 @@ type Texts = Partial<Record<Lang, string>>;
 export type ArticleData = {
   title?: Texts;
   subtitle?: Texts;
-  blocks?: ({ id: string } & Texts & Record<string, unknown>)[];
+  blocks?: ({ id: string; type?: string } & Texts)[];
   meta?: ({ id: string } & Texts)[];
-  events?: ({ id: string; title: Texts; description: Texts } & Record<string, unknown>)[];
+  events?: { id: string; title: Texts; description: Texts }[];
   provenance?: Provenance;
 };
 

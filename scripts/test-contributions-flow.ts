@@ -420,6 +420,32 @@ async function main() {
     check('fixes are in the overlay with their target type', [tPlant, tGloss].every((id) => ovFixes.some((c: { contribution_id: string; target_type: string }) => c.contribution_id === id && c.target_type)), ovFixes);
     check('…and no reason', !JSON.stringify(ovFixes).includes('Better wording'), ovFixes);
 
+    console.log('5f. article fixes (spec 34 §17.11)');
+    const art = (payload: Record<string, unknown>) => ({
+      type: 'translation_fix', target_type: 'article', target_id: TEST, payload: { reason: 'Better wording', ...payload }, locale: 'sw', region: 'tanga', confidence: 'native',
+    });
+    r = await call(T1, 'POST', '/api/contributions', art({ lang: 'sw', field: 'block', block: 'b001', proposed: 'Aya mpya ya majaribio.' }));
+    const tArt = r.json.id as string;
+    check('a Swahili paragraph fix → 201', r.status === 201, r);
+    const { data: artRow } = await admin.from('contributions').select('target_path, scope').eq('id', tArt).single();
+    check('…path built on the server from the block id', artRow?.target_path === 'blocks.b001.sw' && artRow?.scope === 'translations', artRow);
+    r = await call(T1, 'POST', '/api/contributions', art({ lang: 'sw', field: 'block', block: 'b999', proposed: 'x' }));
+    check('a block that doesn’t exist → 404', r.status === 404, r);
+    r = await call(T1, 'POST', '/api/contributions', { ...art({ lang: 'sw', field: 'block', block: 'b001', proposed: 'x' }), target_id: '../package' });
+    check('an article id that looks like a path → 400', r.status === 400, r);
+    r = await call(T1, 'POST', '/api/contributions', art({ lang: 'en', field: 'title', proposed: 'New title' }));
+    check('English on an article → 404 (the source isn’t fixable)', r.status === 404, r);
+    r = await call(T1, 'POST', '/api/contributions', art({ lang: 'dg', field: 'title', proposed: 'Makala ya kujeza' }));
+    const tTitle = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${tArt}`, { action: 'accept', final_payload: { lang: 'sw', field: 'block', block: 'b002', proposed: 'Aya mpya ya majaribio.', reason: 'x' } });
+    check('a reviewer can’t move a fix to another block → 400', r.status === 400 && r.json.error === 'locked_fields', r);
+    r = await call(A, 'POST', `/api/review/${tArt}`, { action: 'accept' });
+    check('the paragraph fix goes live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(A, 'POST', `/api/review/${tTitle}`, { action: 'accept' });
+    check('a title fix needs a second reviewer', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+    const artOv = await call(null, 'GET', '/api/overlay/article');
+    check('test fixes never reach the article overlay', artOv.status === 200 && !artOv.json.changes.some((c: { contribution_id: string }) => c.contribution_id === tArt), artOv.json);
+
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });
     check('withdraw', r.status === 200 && r.json.status === 'withdrawn', r);

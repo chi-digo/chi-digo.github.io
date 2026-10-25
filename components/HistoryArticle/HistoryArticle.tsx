@@ -4,7 +4,9 @@ import { useRef, useMemo } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { getHistoryTopic } from '@/lib/articles/manifest';
 import { renderInlineMarkdown } from '@/lib/articles/render';
-import type { ContentBlock } from '@/lib/articles/types';
+import type { ReactNode } from 'react';
+import type { ArticleBlock, ArticleFile } from '@/lib/articles/types';
+import { useArticleFix } from '@/components/Contribute/ArticleFix';
 import type { Locale } from '@/lib/i18n/config';
 import { track } from '@/lib/analytics/track';
 import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
@@ -13,21 +15,25 @@ import styles from './HistoryArticle.module.css';
 
 export { renderInlineMarkdown };
 
-export function ArticleBody({ body }: { body: ContentBlock[] }) {
+export function ArticleBody({ blocks, locale, pencil }: { blocks: ArticleBlock[]; locale: Locale; pencil?: (b: ArticleBlock) => ReactNode }) {
+  const text = (b: ArticleBlock) => b[locale] ?? '';
   return (
     <div className={styles.articleBody}>
-      {body.map((block, i) =>
+      {blocks.map((block) =>
         block.type === 'heading' ? (
-          <h3 key={i} className={styles.articleHeading}>
-            {block.text}
+          <h3 key={block.id} id={block.id} className={styles.articleHeading}>
+            {text(block)}
+            {pencil?.(block)}
           </h3>
         ) : block.type === 'quote' ? (
-          <blockquote key={i} className={styles.quote}>
-            {renderInlineMarkdown(block.text)}
+          <blockquote key={block.id} id={block.id} className={styles.quote}>
+            {renderInlineMarkdown(text(block))}
+            {pencil?.(block)}
           </blockquote>
         ) : (
-          <p key={i} className={styles.bodyText}>
-            {renderInlineMarkdown(block.text)}
+          <p key={block.id} id={block.id} className={styles.bodyText}>
+            {renderInlineMarkdown(text(block))}
+            {pencil?.(block)}
           </p>
         ),
       )}
@@ -35,10 +41,11 @@ export function ArticleBody({ body }: { body: ContentBlock[] }) {
   );
 }
 
-export function HistoryTopicArticle({ topicSlug, body: bodies }: { topicSlug: string; body: Record<Locale, ContentBlock[]> }) {
+export function HistoryTopicArticle({ topicSlug, article }: { topicSlug: string; article: ArticleFile }) {
   const t = useTranslations();
   const { locale } = useLocale();
 
+  const fix = useArticleFix(`history/${topicSlug}`, article);
   const bottomRef = useRef<HTMLDivElement>(null);
   const readParams = useMemo(() => ({
     topic: topicSlug,
@@ -49,15 +56,14 @@ export function HistoryTopicArticle({ topicSlug, body: bodies }: { topicSlug: st
   const result = getHistoryTopic(topicSlug);
   if (!result) return <p>Article not found.</p>;
 
-  const { domain, topic } = result;
-  const body = bodies[locale];
+  const { domain } = result;
 
   return (
     <>
       <section className={styles.hero} style={getHeroStyle(`hist/${topicSlug}`)}>
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>{domain.title[locale]}</p>
-          <h1 className={styles.heroTitle}>{topic.title[locale]}</h1>
+          <h1 className={styles.heroTitle}>{fix.merged.title[locale]}{fix.pencil({ field: 'title', label: t.contribute.tf_title_label })}</h1>
           <p className={styles.proverb} lang="dg">
             <em>{domain.proverb}</em>
           </p>
@@ -67,7 +73,15 @@ export function HistoryTopicArticle({ topicSlug, body: bodies }: { topicSlug: st
 
       <article className={styles.article}>
         <div className={styles.articleInner}>
-          <ArticleBody body={body} />
+          {fix.toggle}
+          <ArticleBody
+            blocks={fix.merged.blocks}
+            locale={locale}
+            pencil={(b) => fix.pencil({ field: 'block', block: b.id, label: t.contribute[`tf_block_${b.type}`] })}
+          />
+          {fix.toggle}
+          {fix.credits}
+          {fix.form}
           <div ref={bottomRef} />
         </div>
       </article>

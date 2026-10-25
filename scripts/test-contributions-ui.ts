@@ -355,6 +355,20 @@ async function main() {
     await d.getByRole('button', { name: /Tuma/ }).last().click();
     check('translation fix sent', await visible(d, 'Asante!', 45000));
 
+    console.log('4f. article fix mode (Swahili article)');
+    await d.goto(`${BASE}/sw/culture/kayas/governance`);
+    check('a Swahili article offers the fix switch', await visible(d, 'Kuna kosa kwenye tafsiri hii? Irekebishe', 30000));
+    check('…with no pencils until it is on', (await d.getByRole('button', { name: /^Rekebisha hii:/ }).count()) === 0);
+    await d.getByRole('button', { name: 'Kuna kosa kwenye tafsiri hii? Irekebishe' }).first().click();
+    check('…then a pencil on every block and the title', (await d.getByRole('button', { name: /^Rekebisha hii:/ }).count()) > 5);
+    await d.getByRole('button', { name: /^Rekebisha hii: Aya/ }).first().click();
+    check('…a pencil opens the fix sheet with the English', await visible(d, 'Kwa Kiingereza'));
+    await shot(d, '21-article-fix');
+    await d.keyboard.press('Escape');
+    await d.goto(`${BASE}/culture/kayas/governance`);
+    await d.waitForTimeout(3000);
+    check('English articles have no fix switch', (await d.getByRole('button', { name: /Something wrong in this translation/ }).count()) === 0);
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });
