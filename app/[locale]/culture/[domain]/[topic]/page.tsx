@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { TopicArticle } from '@/components/CultureArticle/CultureArticle';
-import { domains } from '@/lib/culture/content';
+import { notFound } from 'next/navigation';
+import { getDomain, getTopic, domains } from '@/lib/articles/manifest';
+import { cultureTopic } from '@/lib/articles/load';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';
@@ -18,8 +20,8 @@ export async function generateMetadata({
   params: Promise<{ locale: string; domain: string; topic: string }>;
 }): Promise<Metadata> {
   const { locale, domain, topic } = await params;
-  const d = domains.find((x) => x.slug === domain);
-  const t = d?.topics.find((x) => x.slug === topic);
+  const d = getDomain(domain);
+  const t = getTopic(domain, topic)?.topic;
   if (!d || !t) {
     return buildMetadata({ title: 'Culture', path: `/culture/${domain}/${topic}`, locale: locale as Locale });
   }
@@ -40,8 +42,10 @@ export default async function Page({
 }) {
   const { locale, domain, topic } = await params;
   const loc = locale as Locale;
-  const d = domains.find((x) => x.slug === domain);
-  const t = d?.topics.find((x) => x.slug === topic);
+  const d = getDomain(domain);
+  const t = getTopic(domain, topic)?.topic;
+  const article = cultureTopic(domain, topic);
+  if (!article) notFound();
   const today = new Date().toISOString().split('T')[0];
 
   return (
@@ -69,7 +73,7 @@ export default async function Page({
           />
         </>
       )}
-      <TopicArticle domainSlug={domain} topicSlug={topic} />
+      <TopicArticle domainSlug={domain} topicSlug={topic} body={article.body} />
     </>
   );
 }

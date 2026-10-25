@@ -1,0 +1,141 @@
+{
+  "id": "culture/food/staples",
+  "title": {
+    "en": "The Four Staples",
+    "sw": "Vyakula vya Msingi",
+    "dg": "Vyakurya Vine vya Musingi"
+  },
+  "intro": {
+    "en": "Rice is the primary grain of the Digo people and the foundation upon which the coastal meal is built. Known as mpunga when raw and wali when cooked, rice arrived on the East African coast through the…",
+    "sw": "Mpunga ndio nafaka ya msingi ya Wadigo na msingi ambao mlo wa pwani unajengwa. Tofauti na jamii za bara ambapo ugali wa mahindi unatawala meza, Wadigo wanaelekeza mapishi yao kuzunguka wali.…",
+    "dg": "Mphunga ndio nafaka ya musingi ya Adigo, na musingi ambao chakurya cha pwani nkudzengwa dzuluye. Tafwauti na jamii za bara ambako sima ya pemba ndiyo inayotawala mezani, Adigo anaelekeza chakurya chao kpwa wali.…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Rice: The Grain of the Coast",
+      "sw": "Mpunga: Nafaka ya Pwani",
+      "dg": "Mphunga: Nafaka ya Pwani"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "Rice is the primary grain of the Digo people and the foundation upon which the coastal meal is built. Known as mpunga when raw and wali when cooked, rice arrived on the East African coast through the Indian Ocean trade networks that have shaped the region for over a millennium. Unlike the inland communities of Kenya, where maize-based ugali dominates the table, the Digo and their Swahili coast neighbours orient their cuisine around rice. A meal without rice is not quite a meal. It is an improvisation, a temporary arrangement until rice can be restored to its proper place at the centre of the plate.",
+      "sw": "Mpunga ndio nafaka ya msingi ya Wadigo na msingi ambao mlo wa pwani unajengwa. Tofauti na jamii za bara ambapo ugali wa mahindi unatawala meza, Wadigo wanaelekeza mapishi yao kuzunguka wali. Maandalizi yanayoadhimishwa zaidi ni wali wa nazi — mpunga uliopikwa katika tui badala ya maji. Hii si sahani ya tukio maalum bali ni chakula cha kila siku. Kwa sherehe, mpunga unainuliwa hadi pilau au biriani.",
+      "dg": "Mphunga ndio nafaka ya musingi ya Adigo, na musingi ambao chakurya cha pwani nkudzengwa dzuluye. Nkuihwa mphunga kabla ya kujitwa na wali ukajitwa, na wakpwedza pwani ya Afrika ya Mashariki kpwa njira za biashara za Bahari ya Hindi ambazo zikaumba eneo hiri kpwa zaidi ya miaka elufu. Tafwauti na jamii za bara ra Kenya, ambako sima ya pemba ndiyo inayotawala mezani, Adigo na majirani ao a pwani ya Chiswahili anaelekeza chakurya chao kpwa wali. Chakurya chisicho na wali si chakurya kamili. Ni njira ya kudziterya bahi, mpango wa muda mfupi hadi wali uuyizwe phahaliphe kahi-kahi ya sahani."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The most celebrated preparation is wali wa nazi — rice cooked in fresh coconut milk rather than water. This is not a special-occasion dish but an everyday staple, the default way that rice is prepared in homes across Kwale County. The coconut milk lends the rice a subtle sweetness and richness that plain boiled rice cannot achieve, and the aroma of coconut rice cooking is as much a part of coastal domestic life as the call to prayer or the sound of the ocean. For celebrations, rice is elevated further into pilau — cooked with whole spices, caramelized onions, and meat — or biriani, the more elaborate layered preparation that reflects the Indian Ocean's centuries of culinary exchange.",
+      "sw": "Muhogo: Wa Pili Anayetegemewa",
+      "dg": "Njira ya kujita wali inayotogolwa zaidi ni wali wa nazi — mtele uriojitwa kpwa huwi ra phapho badala ya madzi. Chihi si chakurya cha sherehe bahi ela ni chakurya cha chila siku, njira ya kawaida ya kujita wali kahi ya nyumba za Kaunti ya Kwale. Huwi rinapha wali mtswano chidide na unono ambao wali wa madzi bahi tauweza kuuphaha, na harufu ya wali wa nazi uchijitwa ni seemu ya maisha ga nyumbani ga pwani dza vira adhana au sauti ya bahari. Kpwa sherehe, wali nkujitwa kukala pilau — uriojitwa na viungo vizima, vitunguu virivyokalangwa hadi vikale vya rangi ya dongo, na nyama — au biriani, chakurya cha matabaka chinachoonyesa miaka mia minji ya kubadilishana mapishi kpwa Bahari ya Hindi."
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Rice cultivation in the Digo homeland follows the seasonal rains. The long rains from April to July and the short rains from October to December define the agricultural calendar. Paddy rice is grown in the lower-lying areas near rivers and seasonal wetlands, though production has never been sufficient to meet local demand. Much of the rice consumed in Kwale County is purchased rather than home-grown, making it both a staple food and a significant household expense.",
+      "sw": "Muhogo unashikilia nafasi ya chakula cha pili kwa Wadigo, jukumu ambalo umeshikilia tangu mmea huu ulipoletwa kutoka Amerika kupitia wafanyabiashara wa Kireno. Muhogo unathaminiwa zaidi kwa kutegemewa kwake — unakua katika udongo duni na kustahimili ukame. Wadigo wanaandaa muhogo kwa njia kadhaa: kuchemsha, kukaanga, na kusaga kuwa unga wa ugali. Majani ya muhogo, kisamvu, yanapikwa na tui kutengeneza mboga tajiri.",
+      "dg": "Kurima mphunga kpwa tsi ya Adigo nkulunga mvula za misimu. Mvula za masika, kula Aprili hadi Julai, na mvula za vuli, kula Oktoba hadi Disemba, ndizo zinazoika kalenda ya chirimo. Mphunga nkurimwa kpwa phatu pha photsi phephi na mito na phatu ambapho madzi nkusala kpwa msimu, dzagbwe mavuno tagadzangbwe kutosha mahitaji ga phapho. Mtele munji unaoriwa Kaunti ya Kwale nkugulwa, si wa kurima nyumbani, na kpwa hivyo ni chakurya cha musingi na gharama kulu ya nyumba."
+    },
+    {
+      "id": "b005",
+      "type": "heading",
+      "en": "Cassava: The Reliable Second",
+      "sw": "Mahindi: Chakula cha Kila Mahali",
+      "dg": "Manga: Chakurya cha Phiri cha Kuaminika"
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Cassava holds the position of the second staple in the Digo diet, a role it has occupied since the crop's introduction from the Americas via Portuguese traders in the seventeenth and eighteenth centuries. Known as muhogo, cassava is valued above all for its reliability. It grows in poor soils, tolerates drought better than most crops, and produces a generous yield with relatively little attention. In a region where rainfall is unpredictable and food insecurity affects up to seventy percent of households, cassava's dependability is not merely convenient — it is essential.",
+      "sw": "Mahindi ndio mmea unaounganisha Wadigo na mfumo mpana wa chakula wa Afrika Mashariki. Unga wa mahindi unachanganywa na maji ya moto kutengeneza ugali — uji mgumu ambao ni chakula kikuu cha Afrika Mashariki yote. Kwa Wadigo, ugali si kitovu cha mlo kama vile wali, bali ni mbadala au nyongeza. Mahindi choma ni chakula cha mitaani kinachopendwa.",
+      "dg": "Manga ndiyo chakurya cha musingi cha phiri kpwa Adigo, nafasi ambayo ikakala nayo hangu zao hiri riphorehwa kula Amerika ni achuuzi kula Ureno kahi ya miaka ya 1600 na 1700. Inamanyikana dza muhogo kpwa Chiswahili, na manga nkutogolwa zaidi kpwa kukala inaaminika. Inamera kpwa ulongo usio na rutuba, inavumirira ukame kuriko mimea minji, na inalavya mavuno manji bila kuhudumiwa sana. Kpwa eneo ambaro mvula taiaminika na ndzala nkugbwira hadi asilimia sabini ya nyumba, kuaminika kpwa manga si urahisi bahi — ni lazima."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The Digo prepare cassava in several ways. The simplest is boiling: peeled cassava tubers are cut into chunks and boiled until soft, then served as an accompaniment to fish or vegetable stews. Fried cassava — sliced and deep-fried until golden and slightly crispy — is a popular snack and side dish, often sold at roadside stalls. Cassava can also be dried and ground into flour, which is used to make ugali when maize flour is scarce or expensive. Cassava leaves, known as kisamvu, are themselves a valued vegetable dish, pounded and cooked with coconut milk to produce a rich, dark-green relish.",
+      "sw": "Nazi: Mnazi Usioweza Kukosekana",
+      "dg": "Adigo nkujita manga kpwa njira kadhaa. Njira rahisi zaidi ni kuichemusha: manga iriyoguwiwa nkukatwa vipande na kuchemushwa hadi ikale laini, chisha nkuriwa phamwenga na mtsuzi wa ng'onda au wa mboga. Manga ya kukalanga — iriyokatwa vipande vyembamba na kukalangwa kpwa mafuha manji hadi ikale ya rangi ya zahabu na nkavu chidide — ni chitafunio na chakurya cha phamwenga chinachomendwa, na mara nyinji nkuguzwa kpwa vibanda vya kanda ya njira. Manga piya inaweza kuumiswa na kusagwa kukala unga, ambao nkuhumirwa kujita sima wakati unga wa pemba unaphokala tsache au wa bei ghali. Makodza ga manga, ganagomanyikana dza kisamvu (chisamfu), piya ni mboga inayomendwa, ganaphondwa na kujitwa na huwi ili kulavya mboga nono ya chijani."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The crop's deep roots in Digo agriculture mean that cassava carries less prestige than rice — it is the food of necessity rather than celebration — but this very quality has made it indispensable. When the rains fail and maize wilts in the fields, cassava endures. It is the crop that stands between the household and hunger, and for this reason it commands a quiet respect that transcends its humble reputation.",
+      "sw": "Mnazi unasimama peke yake kati ya vyakula vinne vya msingi kwa sababu si chanzo cha chakula tu bali ni mfumo kamili wa kiuchumi na kitamaduni. Kwale na Kilifi zinachukua zaidi ya asilimia tisini ya minazi ya Kenya. Kutoka kwa nazi zinakuja tui, nazi mbichi, mafuta, na vinywaji. Mnazi unakabiliwa na vitisho vikubwa — magonjwa, wadudu, uchimbaji madini, na miti ya kuzee bila kupanda mipya.",
+      "dg": "Kpwa sababu manga ina mizi mire kahi ya chirimo cha Adigo, manga taina hishima dza mphunga — ni chakurya cha lazima, si cha sherehe — ela tabiya ihi yenye ndiyo iriyoihenda ikale ya lazima. Mvula isiphonya na pemba zichinyala mindani, manga inavumirira. Ni zao rinaroima kahi ya nyumba na ndzala, na kpwa sababu ihi ina hishima ya chimya inayotsupa vira inavyoonwa kukala chakurya cha anyonje."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Maize: The Universal Staple",
+      "sw": "Mahindi: Chakula Kikuu cha Wote",
+      "dg": "Pemba: Chakurya Chikulu cha Osi"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Maize, known as mahindi, is the crop that connects the Digo to the broader East African food system. While rice is the coastal preference and cassava the reliable backup, maize is the ingredient that produces ugali — the stiff porridge that is the universal staple of East Africa, eaten from the shores of Lake Victoria to the coast of the Indian Ocean. Maize flour is mixed with boiling water and stirred continuously until it forms a thick, smooth mass that is served in a mound alongside stews, vegetables, and sauces.",
+      "sw": "Mahindi ni zao linalowaunganisha Wadigo na mfumo mpana wa chakula wa Afrika Mashariki. Ingawa mchele ndio unaopendwa pwani na muhogo ndio msaada wa kuaminika, mahindi ni kiungo kinachozalisha ugali — uji mgumu ambao ni chakula kikuu cha wote cha Afrika Mashariki, kinachodiwa kutoka fukwe za Ziwa Victoria hadi pwani ya Bahari ya Hindi. Unga wa mahindi unachanganywa na maji ya moto na kukorogwa bila kusimama hadi unaunda misa nzito, laini inayohudumiwa kama kilima pamoja na vitoweo, mboga, na mchuzi.",
+      "dg": "Pemba ni zao rinarounganisha Adigo na mfumo mpana wa chakurya wa Afrika ya Mashariki. Dzagbwe wali ndio unaomendwa pwani na manga ndiyo inayoterya ichihitajika, pemba ndiyo inayotengeza sima — udzi mgumu ambao ni chakurya chikulu cha osi cha Afrika ya Mashariki, chinachoriwa kula kanda za Ziwa Victoria hadi pwani ya Bahari ya Hindi. Unga wa pemba nkutsanganywa na madzi ganagotseruka na kukorogwa bila kuima hadi uumbe donge rizito na laini, ambaro nkuikpwa dza fungu phamwenga na mitsuzi, mboga, na mtsuzi."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "For the Digo, ugali occupies a different cultural position than it does for inland communities. It is not the centrepiece of the meal in the way that rice is, but rather an alternative, a complement, or a necessity when rice is unavailable or too expensive. Ugali made from maize flour is denser and more filling than rice, making it the practical choice for heavy physical labour — farming, fishing, construction. Roasted maize on the cob, mahindi choma, is a beloved street food, sold by vendors who grill the ears over charcoal and season them with lime juice and chili powder.",
+      "sw": "Kwa Wadigo, ugali unashikilia nafasi tofauti ya kitamaduni kuliko inavyokuwa kwa jamii za bara. Si kitovu cha mlo kwa jinsi ambayo mchele ni, bali ni mbadala, mwandamano, au ulazima mchele unapoisha au kuwa ghali mno. Ugali unaotengenezwa kwa unga wa mahindi ni mnene zaidi na wenye kujaza zaidi kuliko mchele, na kuifanya kuwa chaguo la vitendo kwa kazi ngumu za kimwili — kilimo, uvuvi, ujenzi. Mahindi choma, mahindi yaliyobanikwa, ni chakula cha mitaani kinachopendwa, kinachouuzwa na wauzaji wanaochoma masuke juu ya makaa na kuyatiia maji ya ndimu na unga wa pilipili.",
+      "dg": "Kpwa Adigo, sima ina nafasi ya utamaduni tafwauti na iriyo nayo kpwa jamii za bara. Si chitovu cha chakurya dza vira wali urivyo, ela ni chakurya cha badala, chakurya cha phamwenga, au cha lazima wali uchikosekana au uchikala wa bei ghali mno. Sima ya unga wa pemba ni nzito zaidi kuriko wali, kpwa hivyo ndiyo inayotsambulwa kpwa kazi nzito za mwiri — chirimo, uvuvi, kudzenga. Mahindi choma, mapemba ga kuwadwa, ni chakurya cha njira chinachomendwa, chinachoguzwa ni atu anaowada mapemba dzulu ya makala na kugatiya madzi ga ndimu na unga wa pilipili."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Maize cultivation in Kwale County faces the persistent challenge of semi-arid conditions in the western areas around Chinango, where chronic food insecurity is a reality for many families. The crop requires more reliable rainfall than cassava, making it vulnerable to the droughts that periodically affect the region. Despite these challenges, maize remains a dietary constant, purchased at market when it cannot be grown at home.",
+      "sw": "Kilimo cha mahindi katika Kaunti ya Kwale kinakabili changamoto ya kudumu ya hali ya ukame nusu katika maeneo ya magharibi karibu na Chinango, ambapo uhaba wa chakula wa kudumu ni hali halisi kwa familia nyingi. Zao hili linahitaji mvua ya kuaminika zaidi kuliko muhogo, na kulifanya kuwa hatarini kwa ukame unaoathiri eneo hilo mara kwa mara. Licha ya changamoto hizi, mahindi yanabaki kuwa chakula cha kudumu, kikinunuliwa sokoni kisipoweza kupandwa nyumbani.",
+      "dg": "Chirimo cha pemba kpwa Kaunti ya Kwale unakabili changamoto ya kudumu ya ukame wa nusu kpwa maeneo ga magharibi phephi na Chinango, ambako ndzala ya kudumu ni ukpweli kpwa mbari nyinji. Zao hiri rinahitaji mvula ya kuaminika zaidi kuriko manga, na kpwa hivyo ri hatarini kpwa ukame ambao nkugbwira eneo hiri mara kpwa mara. Hata dzagbwe kuna changamoto zizi, pemba bado ni chakurya cha chila siku, richigulwa sokoni richikosa kurimwa nyumbani."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "Coconut: The Indispensable Palm",
+      "sw": "Nazi: Mti Usioweza Kukosekana",
+      "dg": "Nazi: Muhi Usioweza Kukosekana"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The coconut palm stands apart from the other three staples because it is not merely a food source but a complete economic and cultural system. Known as mnazi, the coconut palm is arguably the single most important plant in Digo life. Kwale and Kilifi counties account for over ninety percent of Kenya's coconut trees, and coconut farming is a primary livelihood for thousands of Digo families. The proverb \"Mnazi mmwenga una uchi wani?\" — \"What wine from one palm tree?\" — encodes both the palm's centrality and the understanding that prosperity requires abundance, not scarcity.",
+      "sw": "Mnazi unajitenga na mazao mengine matatu kuu kwa sababu si chanzo cha chakula tu bali ni mfumo kamili wa kiuchumi na kitamaduni. Unajulikana kama mnazi, mti wa nazi labda ni mmea muhimu zaidi katika maisha ya Wadigo. Kaunti za Kwale na Kilifi zinachukua zaidi ya asilimia tisini ya miti ya nazi ya Kenya, na kilimo cha nazi ni riziki kuu kwa maelfu ya familia za Wadigo. Methali \"Mnazi mmoja una uchi gani?\" inaencodia umuhimu wa mti na uelewa kwamba ustawi unahitaji wingi, si uhaba.",
+      "dg": "Mnazi ni tafwauti na vyakurya vyanjina vihahu vya musingi kpwa sababu si chandzo cha chakurya bahi ela ni mfumo kamili wa chiuchumi na wa utamaduni. Mnazi labuda ndio muhi muhimu zaidi kpwa maisha ga Adigo. Kaunti za Kwale na Kilifi zina zaidi ya asilimia tisini ya minazi ya Kenya, na chirimo cha nazi ni riziki kulu kpwa maelfu ga mbari za Adigo. Ndarira \"Mnazi mmwenga una uchi wani?\" inaonyesa umuhimu wa mnazi na kumanya kukala utajiri unahitaji unji, si uhaba."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "From the coconut come multiple food products, each with its own role in the kitchen. Coconut milk, called tui, is the thick liquid extracted from grated mature coconut meat mixed with water — the base of nearly all Digo cooking. Coconut cream is the richer first pressing, reserved for curries and special dishes. Fresh coconut meat from young green coconuts, known as madafu, is eaten as a snack and its water drunk as a refreshment. Coconut oil, rendered from dried copra, serves as a cooking fat and a cosmetic. Every part of the palm has a use: the trunk provides building timber, the fronds are stitched into makuti thatch for roofing, the husks yield coir fibre for ropes and brooms, and the sap is tapped for palm wine.",
+      "sw": "Kutoka kwa nazi vinatoka bidhaa nyingi za chakula, kila moja ikiwa na jukumu lake jikoni. Tui ni kioevu kizito kinachotolewa kutoka nyama ya nazi iliyokomaa iliyokunwa ikichanganywa na maji — msingi wa karibu upishi wote wa Wadigo. Mafuta ya nazi ni ukamuaji wa kwanza tajiri zaidi, unaohifadhiwa kwa vitoweo na sahani maalum. Nyama safi ya nazi kutoka nazi changa, inayojulikana kama madafu, inaliwa kama kitafunio na maji yake yanakunywa kama kinywaji cha kuburudisha. Mafuta ya nazi, yanayotolewa kutoka kopra iliyokaushwa, yanatumika kama mafuta ya kupikia na vipodozi. Kila sehemu ya mti ina matumizi: shina linatoa mbao za kujenga, makuti yanashonwa kuwa paa za nyasi, maganda yanatoa nyuzi za makumbi kwa kamba na fagio, na utomvu unatiwa kwa pombe ya mitende.",
+      "dg": "Kula kpwa nazi kunatuluka vyakurya vinji, chila chimwenga chichikala na kaziye dzikoni. Huwi (tui) ni madzi mazito ganagotuluzwa kula kpwa nazi iriyokunwa na kutsanganywa na madzi — musingi wa phephi kujita kosi kpwa Adigo. Huwi rizito ni ra kuminya kpwa kpwandza, na nkuikpwa kpwa mitsuzi na vyakurya maalum. Nazi ya phapho kula kpwa nazi ndide za chijani, zinazomanyikana dza madafu, nkuriwa dza chitafunio, na atu nkunwa madzi gao ili kuburudika. Mafuha ga nazi, ganagolavywa kula kpwa nazi nkavu (kopra), nkuhumirwa dza mafuha ga kujitira na ga kudzipaka. Chila seemu ya mnazi ina kaziye: kolo rinapha mbao za kudzenga, makandza nkushonwa kukala makuti ga kuezeka nyumba, marifu ganalavya makumbi ga kamba na maliphyero, na utomvu nkujemwa kutengeza uchi."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The coconut palm faces serious threats in the modern era. Lethal yellowing disease and the rhinoceros beetle attack palm stands. Mining operations, notably by Base Titanium, have destroyed coconut groves in parts of Kwale County. Aging tree stock with insufficient replanting means that the coconut economy is gradually contracting even as it remains culturally indispensable. The future of the coconut palm in Digo country is one of the quiet crises of the region — not dramatic enough to command national attention, but consequential enough to reshape the lives of thousands of families if it is not addressed.",
+      "sw": "Mnazi unakabili vitisho vikubwa katika enzi ya kisasa. Ugonjwa wa manjano ya kuua na mende wa faru wanashambulia mashamba ya minazi. Shughuli za uchimbaji madini, hasa za Base Titanium, zimeharibu mashamba ya minazi katika sehemu za Kaunti ya Kwale. Kuzeeka kwa miti iliyopo na upandaji upya usiotosheleza kunamaanisha kwamba uchumi wa nazi unapungua taratibu hata ukibaki kuwa muhimu kitamaduni. Mustakabali wa mnazi katika nchi ya Wadigo ni mojawapo ya mgogoro wa kimya wa eneo hili — si wa kushangaza wa kutosha kupata umakini wa kitaifa, lakini wenye matokeo ya kutosha kubadilisha maisha ya maelfu ya familia ikiwa hautashughulikiwa.",
+      "dg": "Mnazi unakabili vitisho vikulu kahi ya wakati uhu wa chisasa. Ukongo wa manjano unaoolaga minazi na chongbwa nkushambulia minda ya minazi. Shughuli za kutsimba madini, hasa za Base Titanium, zikabananga minda ya minazi kahi ya seemu za Kaunti ya Kwale. Minazi kukala ya kare na kuphanda miphya isiyotosha kunamana kukala uchumi wa nazi unaphungula pore-pore, hata dzagbwe bado ni muhimu kpwa utamaduni. Siku za mbere za mnazi kpwa tsi ya Adigo ni shida mwenga ya chimya kahi ya eneo hiri — si ya kutishia chiasi cha kuonwa ni taifa ndzima, ela ni ya mana kulu chiasi cha kugaluza maisha ga maelfu ga mbari ichikala taishughulikiwa."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "The Four Together",
+      "sw": "Vyote Vinne Pamoja",
+      "dg": "Vyosi Vine Phamwenga"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "These four staples — rice, cassava, maize, and coconut — form the nutritional and cultural foundation of Digo life. They are not interchangeable. Each occupies its own position in the hierarchy of the meal and the calendar of the agricultural year. Rice is the aspiration, the grain of celebration and daily comfort. Cassava is the insurance, the crop that endures when others fail. Maize is the connector, linking the coast to the food traditions of the East African interior. And coconut is the medium through which all the others are transformed — the milk that makes rice into wali wa nazi, the cream that enriches the cassava leaf stew, the oil that fries the maize cake. Without coconut, Digo food would still be food. But it would not be Digo.",
+      "sw": "Vyakula hivi vinne vikuu — mchele, muhogo, mahindi, na nazi — vinaunda msingi wa lishe na kitamaduni wa maisha ya Wadigo. Havibadilishani. Kila kimoja kinashikilia nafasi yake katika daraja la mlo na kalenda ya mwaka wa kilimo. Mchele ni tamaa, nafaka ya sherehe na faraja ya kila siku. Muhogo ni bima, zao linalostahimili wengine wanaposhindwa. Mahindi ni kiunganishi, kikiunganisha pwani na mila za chakula za bara la Afrika Mashariki. Na nazi ni njia ambayo vingine vyote vinabadilishwa — maziwa yanayoufanya mchele kuwa wali wa nazi, mafuta yanayoutajirisha mchuzi wa majani ya muhogo, mafuta yanayokaanga keki ya mahindi. Bila nazi, chakula cha Wadigo kingekuwa bado chakula. Lakini kisingekuwa cha Kidigo.",
+      "dg": "Vyakurya hivi vine vya musingi — mphunga, manga, pemba, na nazi — ndivyo musingi wa chakurya na wa utamaduni wa maisha ga Adigo. Taviweza kubadilishana. Chila chimwenga china nafasiye kahi ya ngazi za chakurya na kalenda ya mwaka wa chirimo. Mphunga ndio chitu chila mutu anachochilonda, nafaka ya sherehe na ya raha ya chila siku. Manga ni bima, zao rinaroima wakati ganjina ganaphoangamika. Pemba ndiyo inayounganisha, ichiunganisha pwani na mila za chakurya za bara ra Afrika ya Mashariki. Na nazi ni njira ambayo vyanjina vyosi vinagaluzwa — huwi rinarogaluza mtele ukale wali wa nazi, huwi rizito rinarohenda mtsuzi wa makodza ga manga ukale mnono, mafuha ganagokalanga keki ya pemba. Bila nazi, chakurya cha Adigo chingekala bado ni chakurya. Ela tachingekala cha Chidigo."
+    }
+  ]
+}

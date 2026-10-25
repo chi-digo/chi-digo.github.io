@@ -1,0 +1,183 @@
+{
+  "id": "culture/dress/color-and-meaning",
+  "title": {
+    "en": "Color and Meaning",
+    "sw": "Rangi na Maana",
+    "dg": "Rangi na Mana"
+  },
+  "intro": {
+    "en": "In Digo dress culture, color is not decoration. It is language. Every hue worn on the body carries a specific meaning, understood by the community and calibrated to the occasion, the wearer's life…",
+    "sw": "Katika utamaduni wa mavazi ya Wadigo, rangi si mapambo. Ni lugha. Kila rangi inayovaliwa mwilini inabeba maana maalum, inayoeleweka na jamii na iliyopimwa kulingana na tukio, hatua ya maisha ya…",
+    "dg": "Kpwa utamaduni wa kuvwala kpwa Adigo, rangi si mapambo. Ni luga. Chila rangi ambayo mutu anaivwala mwirini ina mana maalum, inayoeleweka ni jamii na iriyopimwa kulingana na tukio, hatua ya maisha ya anayeivwala,…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "A Vocabulary of Color",
+      "sw": "Msamiati wa Rangi",
+      "dg": "Msamiati wa Rangi"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "In Digo dress culture, color is not decoration. It is language. Every hue worn on the body carries a specific meaning, understood by the community and calibrated to the occasion, the wearer's life stage, and the spiritual register of the moment. To choose a color is to make a statement — about who you are, where you stand in the cycle of life, what you are experiencing spiritually, and what relationship you claim with the visible and invisible worlds. This chromatic vocabulary is one of the most sophisticated elements of Digo material culture, a system of communication that operates alongside spoken language but conveys meanings that words sometimes cannot.",
+      "sw": "Katika utamaduni wa mavazi ya Wadigo, rangi si mapambo. Ni lugha. Kila rangi inayovaliwa mwilini inabeba maana maalum, inayoeleweka na jamii na iliyopimwa kulingana na tukio, hatua ya maisha ya mvaliaji, na rejista ya kiroho ya wakati huo.",
+      "dg": "Kpwa utamaduni wa kuvwala kpwa Adigo, rangi si mapambo. Ni luga. Chila rangi ambayo mutu anaivwala mwirini ina mana maalum, inayoeleweka ni jamii na iriyopimwa kulingana na tukio, hatua ya maisha ya anayeivwala, na hali ya chiroho ya wakati uwo. Kutsambula rangi ni kugomba dzambo — kuhusu vira u mutu wani, phatu uripho kahi ya mzunguko wa maisha, unachochiona chiroho, na uhusiano unaoudai na dunia inayoonekana na isiyoonekana. Msamiati uhu wa rangi ni chitu chimwenga kahi ya vitu vya utamaduni wa Adigo vyenye ujuzi mkpwulu zaidi, mfumo wa mawasiliano unaohenda kazi phamwenga na luga ya kugomba, ela unaopha mana ambazo maneno nyakati zanjina taganaweza kuzipha."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The Digo color system is not arbitrary. It draws from deep associations between color, the natural world, and the spiritual forces that the Digo understand to shape human experience. White connects to light, to beginning, to the uncorrupted state of creation. Red connects to blood, to the vital force that animates all living things, to the powerful and sometimes dangerous energies of the spirit world. Blue connects to the sea and sky that frame the coastal landscape, to the patience and depth that come with age. Black connects to the earth, to the graves of ancestors, to the solemn weight of tradition. These are not metaphors imposed from outside. They are associations that emerge organically from a community's lived experience of color in its environment.",
+      "sw": "Mfumo wa rangi wa Wadigo unatoka katika uhusiano wa kina kati ya rangi, ulimwengu wa asili, na nguvu za kiroho. Nyeupe inaungana na mwanga, mwanzo, hali isiyo na uchafu ya uumbaji. Nyekundu inaungana na damu, nguvu ya uhai inayohuisha vitu vyote vilivyo hai, na nguvu zenye nguvu za ulimwengu wa roho. Bluu inaungana na bahari na anga, uvumilivu na kina vinavyokuja na umri. Nyeusi inaungana na ardhi, makaburi ya mababu, na uzito wa heshima wa mila.",
+      "dg": "Mfumo wa rangi wa Adigo si wa bahati. Unatuluka kpwa mahusiano ga ndani kahi ya rangi, dunia ya chiasili, na nguvu za chiroho ambazo Adigo anaamini zinaumba maisha ga mutu. Nyereru inaungana na mwanga, mwandzo, na hali ya dunia ichiumbwa, isiyo na uchafu. Kundu inaungana na mlatso, nguvu ya uhai inayohuisha vitu vyosi vyenye uhai, na nguvu kulu, na nyakati zanjina za hatari, za dunia ya pepo. Samawati inaungana na bahari na mlunguni, na subira na undani vinavyokpwedza na umri. Nyiru inaungana na tsi, makaburi ga akare, na uzito wa hishima wa mila. Higa si mifwano iriyorehwa kula kondze. Ni mahusiano ganagotuluka chiasili kula kpwa maisha ga jamii na rangi za mazingira gao."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "White: Purity and Beginning",
+      "sw": "Nyeupe ni rangi ya vizingiti — wakati ambapo maisha yanavuka kutoka hali moja hadi nyingine. Katika harusi, nyeupe inatawala. Bibi harusi anavaa hando nyeupe, na wanawake wanaocheza chakacha wanavaa nyeupe pia. Nyeupe pia inaonekana katika mazingira ya msiba — sanda nyeupe ambapo wafu wanafungwa.",
+      "dg": "Nyereru: Usafi na Mwandzo"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "White is the color of thresholds — the moments when life crosses from one state to another. At weddings, white dominates. The bride wears a white hando, and the women who dance chakacha in celebration wear white as well, creating a visual field of collective purity and shared blessing. The white of the wedding is not borrowed from Western bridal tradition, though the two happen to coincide. In Digo understanding, white at a wedding signifies the purity of the new beginning, the clean state from which the married life will unfold. There is no age restriction on white at weddings — grandmothers and young girls alike may wear it, because the blessing of a new union belongs to the entire community.",
+      "sw": "Nyekundu ni rangi yenye nguvu zaidi ya kiroho. Ni rangi ya pepo, na mwanamke anayevaa hando nyekundu anaeleweka mara moja kuwa anaonyesha uhusiano wake na ulimwengu wa roho. Kanga ya Kishutu, yenye muundo wa nyeusi, nyekundu, na nyeupe, inaaminika kuzuia uovu na kuleta uponyaji.",
+      "dg": "Nyereru ni rangi ya vizingiti — nyakati ambazo maisha ganatsupa kula hali mwenga hadi yanjina. Kpwa arusi, nyereru ndiyo inayotawala. Bibi arusi nkuvwala hando nyereru, na achetu anaocheza chakacha kusherehekea piya nkuvwala nyereru, achionyesa usafi wa osi na baraka ya osi. Nyereru ya arusi taikahalwa kula kpwa mila za arusi za Chizungu, dzagbwe vyosi viiri vinalingana. Kpwa kuelewa kpwa Adigo, nyereru kpwa arusi inaonyesa usafi wa mwandzo muphya, hali isiyo na uchafu ambayo maisha ga ndowa ganaandzira. Takuna mphaka wa umri kpwa nyereru kpwa arusi — ano wawa na asichana adide piya anaweza kuivwala, kpwa sababu baraka ya ndowa mphya ni ya jamii ndzima."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "White also appears in contexts of mourning and spiritual transition. The white burial cloth in which the dead are shrouded connects the color to the passage from this life to the next. At the kaya, white carries the weight of ancestral respect — a color appropriate for approaching the sacred spaces where the community's history is physically preserved. The double resonance of white — simultaneously the color of beginning and of ending, of birth and of death — reflects the Digo understanding that these apparent opposites are in fact two aspects of the same great transition. Life begins in purity, and the hope is that it will end in the same state.",
+      "sw": "Bluu ni rangi ya mwanamke mkubwa. Bluu ya kitambi cha mzee wa kaya — indigo ya kina — inawakilisha uhusiano uliokolea zaidi kati ya bluu na mamlaka. Nyeusi katika mavazi ya Wadigo inafanya kazi katika rejista mbili: kimila, ambapo inaungana na mababu na ardhi; na Kiislamu-pwani, ambapo inachukua umbo la buibui.",
+      "dg": "Nyereru piya inaonekana kpwa hanga na kpwa kutsupa kpwa chiroho. Sanda nyereru ambayo ariofwa nkufungwa nayo inaunganisha rangi ihi na kutsupa kula maisha iga hadi ganjina. Kpwa kaya, nyereru inatsukula uzito wa hishima kpwa akare — rangi inayofwaha kpwa kuphiya phephi na phatu pha utakatifu ambapho historia ya jamii inaphohifadhiwa. Mana mbiri za nyereru — rangi ya mwandzo na ya mwisho, ya kuvyalwa na ya kufwa kpwa wakati mmwenga — zinaonyesa vira Adigo anavyoelewa kukala mambo higa ganagoonekana kukala ni chinyume, kpwa kpweli ni pande mbiri za kutsupa kukulu kumwenga. Maisha ganaandza kpwa usafi, na tumaini ni kukala ganamala kpwa hali iyo-iyo."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "Red: Spiritual Power and Intensity",
+      "sw": "Msamiati wa rangi unaenea zaidi ya mavazi hadi ushanga. Tunda — nyuzi za shanga za rangi zinazovaliwa kiunoni — zinatumia nyekundu, njano, na nyeupe katika mchanganyiko unaobeba maana maalum. Mfumo huu unaendelea pale ambapo ni muhimu zaidi: katika harusi, sherehe za kaya, na ibada. Rangi inabaki, kwa wale wanaoweza kuisoma, lugha yenye ufasaha kama lugha yoyote inayozungumzwa pwani.",
+      "dg": "Kundu: Nguvu za Chiroho na Ukali"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Red is the most spiritually charged color in the Digo palette. It is the color of pepo — spirit possession — and a woman wearing a red hando is immediately understood to be marking her relationship with the spirit world. This is not a costume or an affectation. It is a public acknowledgment of a spiritual experience that the community takes with profound seriousness. The woman in red has undergone or is undergoing encounters with spiritual forces that have changed her, and the color announces this transformation to everyone who sees her.",
+      "sw": "Nyekundu ni rangi yenye nguvu zaidi ya kiroho katika mfumo wa rangi za Wadigo. Ni rangi ya pepo — kupagawa na roho — na mwanamke anayevaa hando nyekundu anafahamika mara moja kuwa anaonyesha uhusiano wake na ulimwengu wa roho. Hii si mavazi ya kujifanya wala kujionyesha. Ni ukiri wa hadharani wa uzoefu wa kiroho ambao jamii inauchukua kwa uzito mkubwa. Mwanamke aliyevaa nyekundu amepitia au anapitia makutano na nguvu za kiroho ambazo zimembadilisha, na rangi hiyo inatangaza mabadiliko haya kwa kila mtu anayemwona.",
+      "dg": "Kundu ni rangi yenye nguvu zaidi ya chiroho kahi ya rangi za Adigo. Ni rangi ya pepo — kupagalwa ni roho — na mchetu anayevwala hando ya kundu phapho nkumanyikana kukala anaonyesa uhusianowe na dunia ya roho. Ihi si nguwo ya mchezo wala ya kudzionyesa. Ni kukubali wazi dzambo ra chiroho ambaro jamii ya Adigo nkurihala kpwa uzito mkpwulu. Mchetu anayevwala kundu akatsupa, au anatsupa, kahi ya kukutana na nguvu za chiroho zirizomgaluza, na rangi iyo inatangaza kugaluka kuku kpwa chila mutu anayemuona."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The spiritual significance of red extends beyond pepo. Red beads worn around the waist — the tunda — carry spiritual meaning alongside their decorative function. The kanga ya Kishutu, patterned in black, red, and white, is believed to ward off evil and bring healing, and the red within this pattern is the element most closely associated with protective spiritual power. Red at celebrations — particularly the red that appears in the banding of the kitambi, the kaya elder's ceremonial cloth — signals the presence of forces larger than the merely human. It is a color that demands attention and respect, marking the boundary between the ordinary and the sacred.",
+      "sw": "Umuhimu wa kiroho wa rangi nyekundu unaenea zaidi ya pepo. Shanga nyekundu zinazovaliwa kiunoni — tunda — zinabeba maana ya kiroho pamoja na kazi yake ya mapambo. Kanga ya Kishutu, yenye nakshi za rangi nyeusi, nyekundu, na nyeupe, inaaminika kuzuia uovu na kuleta uponyaji, na rangi nyekundu ndani ya nakshi hii ndiyo inayohusishwa zaidi na nguvu ya kiroho ya kinga. Nyekundu katika sherehe — hasa nyekundu inayoonekana katika mipaka ya kitambi, nguo ya sherehe ya mzee wa kaya — inaashiria uwepo wa nguvu kubwa kuliko za kibinadamu tu. Ni rangi inayodai usikivu na heshima, ikiweka mpaka kati ya mambo ya kawaida na matakatifu.",
+      "dg": "Umuhimu wa chiroho wa kundu unaenderera zaidi ya pepo. Ushanga wa kundu ambao achetu nkuuvwala chibiruni — tunda — una mana ya chiroho phamwenga na kaziye ya mapambo. Kanga ya Kishutu, yenye nakshi za nyiru, kundu, na nyereru, inaaminiwa kuzuwiya uyi na kuphoza, na kundu kahi ya nakshi iyo ndiyo inayohusishwa zaidi na nguvu ya chiroho ya kudzirinda. Kundu kahi ya sherehe — hasa kundu inayoonekana kahi ya miphaka ya kitambi, nguwo ya sherehe ya mzehe wa kaya — inaonyesa kukala kuna nguvu kulu kuriko za chibinadamu bahi. Ni rangi inayolonda kulolwa na hishima, ichiika mphaka kahi ya mambo ga kawaida na ga utakatifu."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "In the context of fertility and celebration, red takes on warmer connotations. At certain stages of wedding preparation, red elements appear in the bride's adornment — in beadwork, in the henna patterns on her hands and feet, in the cloths that surround her during the preparation period. Here, red speaks of vitality, of the life-force that the marriage will channel into new creation. The color's association with blood — menstrual, natal, sacrificial — gives it a primal gravity that connects the wedding celebration to the deepest biological and spiritual realities of human continuation.",
+      "sw": "Katika muktadha wa uzazi na sherehe, nyekundu inapata maana ya joto zaidi. Katika hatua fulani za maandalizi ya harusi, vipengele vyekundu vinaonekana katika mapambo ya bibi arusi — katika shanga, katika nakshi za hina mikononi na miguuni mwake, katika nguo zinazomzunguka wakati wa kipindi cha maandalizi. Hapa, nyekundu inazungumza juu ya nguvu ya uhai, juu ya nguvu ya maisha ambayo ndoa itaielekeza katika uumbaji mpya. Uhusiano wa rangi hiyo na damu — ya hedhi, ya kuzaliwa, ya dhabihu — unaipa uzito wa asili unaounganisha sherehe ya harusi na ukweli wa kina zaidi wa kibiolojia na kiroho wa kuendelea kwa binadamu.",
+      "dg": "Kahi ya mambo ga kuvyala na sherehe, kundu ina mana ya dzoho zaidi. Kahi ya hatua fulani za kutayarisha arusi, vitu vya kundu nkuonekana kahi ya mapambo ga bibi arusi — kahi ya ushanga, kahi ya nakshi za hina za mikpwonoye na maguluge, na kahi ya nguwo zinazomzunguluka wakati wa kutayarishwa. Hipha, kundu inagomba kuhusu nguvu ya uhai, nguvu ya maisha ambayo ndowa indaielekeza kpwa kuumba maisha maphya. Uhusiano wa rangi iyo na mlatso — wa mwezi, wa kuvyala, wa sadaka — unaipha uzito wa kare-kare unaounganisha sherehe ya arusi na ukpweli wa ndani zaidi wa mwiri na wa chiroho wa kuenderera kpwa binadamu."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Blue: Maturity and Wisdom",
+      "sw": "Buluu: Ukomavu na Hekima",
+      "dg": "Samawati: Ukulu na Ikima"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "Blue is the elder woman's color. When a Digo woman of advanced age wears a blue hando, she is not simply choosing a flattering shade. She is claiming a status that the community recognizes and honors: the status of one who has lived long enough to accumulate wisdom, who has passed through the stages of maiden, wife, mother, and grandmother, and who now carries within her the knowledge of all those passages. Blue is earned, not chosen. A young woman wearing blue would be understood as making a claim she has not yet earned the right to make.",
+      "sw": "Buluu ni rangi ya mwanamke mzee. Mwanamke Mdigo mwenye umri mkubwa anapovaa hando la buluu, hachagui tu rangi inayompendeza. Anadai hadhi ambayo jamii inaitambua na kuiheshimu: hadhi ya mtu aliyeishi kwa muda mrefu wa kutosha kukusanya hekima, aliyepitia hatua za ubikira, uke, uzazi, na unyanya, na ambaye sasa anabeba ndani yake maarifa ya safari hizo zote. Buluu inapatikana kwa kustahili, si kwa kuchagua. Msichana kijana anayevaa buluu angefahamika kuwa anadai kitu ambacho bado hajastahili kudai.",
+      "dg": "Samawati ni rangi ya mchetu mzehe. Mchetu Mdigo wa miaka minji anaphovwala hando ya samawati, si kpwamba anatsambula bahi rangi inayomhamira. Anadai hadhi ambayo jamii inaimanya na kuiishimu: hadhi ya mutu ariyesagala muda mure wa kutosha kukusanya ikima, ariyetsupa hatua za kukala msichana, mche, mayo, na wawa, na ambaye vivi anatsukula mwakpwe ndani ujuzi wa safari zizo zosi. Samawati ni ya kustahili, si ya kutsambula. Msichana mdide anayevwala samawati angeonwa kukala anadai chitu ambacho kadzangbwestahili kuchidai."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The blue of the kaya elder's kitambi — a deep indigo that verges on black — represents the most concentrated expression of this association between blue and authority. The kitambi's indigo is not a casual blue but a specific, deliberately produced color achieved through traditional dyeing techniques that are themselves a form of specialized knowledge. The depth of the indigo signals the depth of the elder's initiation into the kaya's governance structures. To wear this particular blue is to claim the highest traditional authority that Digo society confers.",
+      "sw": "Buluu ya kitambi cha mzee wa kaya — nili ya kina inayoelekea weusi — inawakilisha usemi mkubwa zaidi wa uhusiano huu kati ya buluu na mamlaka. Nili ya kitambi si buluu ya kawaida bali ni rangi maalum, iliyozalishwa kwa makusudi kupitia mbinu za jadi za kupaka rangi ambazo zenyewe ni aina ya ujuzi maalum. Kina cha nili kinaashiria kina cha utawala wa mzee katika miundo ya uongozi ya kaya. Kuvaa buluu hii maalum ni kudai mamlaka ya juu zaidi ya jadi ambayo jamii ya Wadigo inatoa.",
+      "dg": "Samawati ya kitambi cha mzehe wa kaya — nili ya ndani inayoelekera kukala nyiru — ndiyo inayoonyesa vinono zaidi uhusiano uhu kahi ya samawati na uwezo. Nili ya kitambi si samawati ya kawaida ela ni rangi maalum, iriyotengezwa kpwa makusudi kpwa njira za chienyeji za kupaka rangi ambazo zenye ni aina ya ujuzi maalum. Undani wa nili unaonyesa undani wa mzehe kuinjira kahi ya vilongozi a kaya. Kuvwala samawati ihi ni kudai uwezo wa dzulu zaidi wa chienyeji ambao jamii ya Adigo nkuupha mutu."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The association of blue with the sea is not incidental. The Digo live on the coast, and the ocean's ever-present horizon is the defining feature of their landscape. The sea is patient, deep, and powerful — qualities that the Digo associate with mature womanhood and with the elders who guide the community. When an older woman wraps herself in blue, she is wrapping herself in the qualities of the sea itself: depth, endurance, and a quiet, unshakeable authority.",
+      "sw": "Uhusiano wa buluu na bahari si wa bahati mbaya. Wadigo wanaishi pwanini, na upeo wa macho wa bahari uliopo daima ndio kipengele kinachoelezea mazingira yao. Bahari ni ya subira, ya kina, na yenye nguvu — sifa ambazo Wadigo wanahusisha na utu uzima wa kike na na wazee wanaoongoza jamii. Mwanamke mzee anapojifunga buluu, anajifunga katika sifa za bahari yenyewe: kina, ustahimilivu, na mamlaka ya kimya isiyotikisika.",
+      "dg": "Uhusiano wa samawati na bahari si wa bahati. Adigo anasagala pwani, na upeo wa bahari urioko sikuzosi ndio chitu chikulu cha mazingira gao. Bahari ina subira, ina undani, na ina nguvu — sifa ambazo Adigo nkuzihusisha na uchetu wa ukulu na azehe anaolongoza jamii. Mchetu mzehe anaphodzikunga samawati, anadzikunga kahi ya sifa za bahari yenye: undani, kuvumirira, na uwezo wa chimya usiogaluka."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "Black: Respect and the Ancestors",
+      "sw": "Nyeusi: Heshima na Mababu",
+      "dg": "Nyiru: Hishima na Akare"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Black in Digo dress operates in two distinct but related registers. In the traditional register, black connects to the ancestors, to the earth in which they rest, and to the solemn occasions when the living commune with the dead. The kaya visits, the ancestral rituals, the moments of deep cultural observance — these are contexts where black carries the weight of respect for those who came before. It is not the black of Western mourning, though there is overlap. It is the black of connection, of acknowledgment that the living community exists within a continuum that includes the dead.",
+      "sw": "Nyeusi katika mavazi ya Kidigo inafanya kazi katika rejista mbili tofauti lakini zinazohusiana. Katika rejista ya jadi, nyeusi inaunganisha na mababu, na ardhi ambayo wamepumzika ndani yake, na nyakati za heshima ambapo walio hai wanashirikiana na wafu. Ziara za kaya, ibada za mababu, nyakati za kuzingatia kwa kina utamaduni — hizi ni mazingira ambapo nyeusi inabeba uzito wa heshima kwa wale waliotangulia. Si nyeusi ya maombolezo ya Kimagharibi, ingawa kuna mwingiliano. Ni nyeusi ya uhusiano, ya kukiri kwamba jamii ya walio hai ipo ndani ya mfuatano unaojumuisha wafu.",
+      "dg": "Nyiru kahi ya nguwo za Chidigo inahenda kazi kahi ya njira mbiri tafwauti ela zinazohusiana. Kahi ya njira ya chienyeji, nyiru inaunganisha na akare, na tsi ambamo anaoya, na nyakati za hishima ambazo ario moyo nkushirikiana na ariofwa. Kuphiya kaya, mila za akare, nyakati za kulunga mila kpwa undani — higa ni mambo ambamo nyiru inatsukula uzito wa hishima kpwa hara ariotangulia. Si nyiru ya hanga ya Chizungu, dzagbwe zinahalana chidide. Ni nyiru ya uhusiano, ya kukubali kukala jamii ya ario moyo iko kahi ya mfuatano unaoahusisha piya ariofwa."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "In the Muslim-coastal register, black takes the form of the buibui — the full-length cloak that many Digo Muslim women wear in public. Here, black signifies modesty, respectability, and the particular form of feminine dignity that the Islamic coastal tradition upholds. Some women ascribe purely religious meaning to the buibui's black. Others describe it in cultural terms — wearing black \"to show respect for their husbands\" — that connect the color to social relationships rather than strictly religious observance. The buibui's black is, for many Digo women, both religious and cultural simultaneously, a color that speaks in two vocabularies at once.",
+      "sw": "Katika rejista ya Kiislamu ya pwani, nyeusi inachukua umbo la buibui — joho refu ambalo wanawake wengi Wadigo wa Kiislamu wanavaa hadharani. Hapa, nyeusi inaashiria haya, heshima, na aina maalum ya hadhi ya kike ambayo mila ya pwani ya Kiislamu inashikilia. Baadhi ya wanawake wanahusisha maana ya kidini tu na weusi wa buibui. Wengine wanaielezea kwa maneno ya kitamaduni — kuvaa nyeusi \"kuonyesha heshima kwa waume wao\" — ambayo inaunganisha rangi na mahusiano ya kijamii badala ya ibada ya kidini pekee. Nyeusi ya buibui ni, kwa wanawake wengi Wadigo, ya kidini na kitamaduni kwa wakati mmoja, rangi inayozungumza kwa lugha mbili mara moja.",
+      "dg": "Kahi ya njira ya Chiislamu ya pwani, nyiru nkukpwedza kpwa umbo ra buibui — joho ra kufika maguluni ambaro achetu anji a Adigo a Chiislamu nkurivwala kondze. Hipha, nyiru inaonyesa haya, hishima, na aina maalum ya hadhi ya chichetu ambayo mila ya Chiislamu ya pwani inaihifadhi. Achetu anjina nkuhusisha nyiru ya buibui na mana ya chidini bahi. Anjina nkuieleza kpwa maneno ga mila — kuvwala nyiru \"kuonyesa hishima kpwa alume ao\" — ambago ganaunganisha rangi na mahusiano ga chijamii badala ya ibada ya chidini bahi. Nyiru ya buibui, kpwa achetu anji a Adigo, ni ya chidini na ya mila kpwa wakati mmwenga, rangi inayogomba kpwa luga mbiri kpwa mara mwenga."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The intersection of these two registers — the traditional and the Islamic — produces a richly layered understanding of black that is distinctively Digo. A woman who wears a buibui to the market and changes into dark traditional dress for a kaya ceremony is not contradicting herself. She is navigating between two cultural systems, each of which assigns its own meaning to the same color, and her fluency in both systems is itself a form of cultural sophistication.",
+      "sw": "Makutano ya rejista hizi mbili — ya jadi na ya Kiislamu — yanazalisha uelewa wenye tabaka nyingi wa nyeusi ambao ni wa kipekee wa Kidigo. Mwanamke anayevaa buibui sokoni na kubadilisha mavazi meusi ya jadi kwa sherehe ya kaya hapingani na yeye mwenyewe. Anasogea kati ya mifumo miwili ya kitamaduni, kila mmoja ukipa maana yake kwa rangi ile ile, na ufasaha wake katika mifumo yote miwili ni yenyewe aina ya ustadi wa kitamaduni.",
+      "dg": "Kukutana kpwa njira hizi mbiri — ya chienyeji na ya Chiislamu — kunalavya uelewano wa nyiru wenye matabaka manji ambao ni wa chipekee kpwa Adigo. Mchetu anayevwala buibui sokoni na chisha kuvwala nguwo nyiru za chienyeji kpwa sherehe ya kaya kadzipinga. Anatsupa kahi ya mifumo miiri ya utamaduni, chila mmwenga uchipha rangi iyo-iyo mana yakpwe, na kumanya kpwakpwe mifumo yosi miiri ni kpwenye aina ya ujuzi wa utamaduni."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Color in Beadwork and Adornment",
+      "sw": "Rangi katika Ushanga na Mapambo",
+      "dg": "Rangi kahi ya Ushanga na Mapambo"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The color vocabulary extends beyond garments into the intricate beadwork that is a hallmark of Digo material culture. The tunda — strands of colored beads worn around the waist — use red, yellow, and white in combinations that carry specific meanings. Red beads signal spiritual significance. White beads speak of purity. Yellow beads are associated with celebration and joy. The specific combination and arrangement of colors in a woman's waist beads communicate her status and the occasion to those who understand the code.",
+      "sw": "Mfumo wa rangi unaenea zaidi ya mavazi hadi kwenye ushanga wa sanaa ambao ni alama ya utamaduni wa kimali wa Wadigo. Tunda — nyuzi za shanga zenye rangi zinazovaliwa kiunoni — zinatumia nyekundu, njano, na nyeupe katika mchanganyiko unaobeba maana maalum. Shanga nyekundu zinaashiria umuhimu wa kiroho. Shanga nyeupe zinazungumza juu ya usafi. Shanga za njano zinahusishwa na sherehe na furaha. Mchanganyiko na mpangilio maalum wa rangi katika shanga za kiuno za mwanamke unawasilisha hadhi yake na tukio kwa wale wanaoelewa msimbo huo.",
+      "dg": "Mfumo wa rangi unaenderera zaidi ya nguwo hadi kahi ya ushanga wa sanaa ambao ni alama ya utamaduni wa vitu vya Adigo. Tunda — nyuzi za ushanga wa rangi ambazo achetu nkuzivwala chibiruni — nkuhumira kundu, manjano, na nyereru kahi ya mitsanganyiko yenye mana maalum. Ushanga wa rangi ya kundu unaonyesa umuhimu wa chiroho. Ushanga wa rangi nyereru unagomba kuhusu usafi. Ushanga wa rangi ya manjano unahusishwa na sherehe na raha. Mitsanganyiko na mpangilio maalum wa rangi kahi ya ushanga wa chibiruni wa mchetu nkuonyesa hadhiye na tukio kpwa hara anaoelewa msimbo uwo."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The waganga — traditional healers — wear specific combinations of charms, beads, and protective amulets whose colors mark their role within the community. The color choices of a mganga's adornment are not aesthetic preferences but functional signals, communicating the healer's specialization and spiritual authority to those who seek their services. Color, in this context, is a professional credential as much as a cultural expression.",
+      "sw": "Waganga — watibabu wa jadi — wanavaa mchanganyiko maalum wa hirizi, shanga, na vitu vya kinga ambavyo rangi zake zinaonyesha jukumu lao ndani ya jamii. Chaguo za rangi za mapambo ya mganga si mapendeleo ya uzuri bali ni ishara za kiutendaji, zinazowasilisha utaalamu wa mganga na mamlaka yake ya kiroho kwa wale wanaotafuta huduma zake. Rangi, katika muktadha huu, ni kitambulisho cha kitaaluma kama vile ni usemi wa kitamaduni.",
+      "dg": "Aganga — atu anaolagula akongo kpwa njira za chienyeji — nkuvwala mitsanganyiko maalum ya hirizi, ushanga, na vitu vya kudzirinda, ambavyo rangi zao nkuonyesa kazi yao kahi ya jamii. Rangi anazozitsambula mganga kpwa mapamboge si kpwa kumendza urembo bahi, ela ni ishara za kazi zinazoonyesa ufundi wa mganga na uwezowe wa chiroho kpwa hara anaolonda kuterywa ni iye. Rangi, hipha, ni chitambulisho cha kazi dza vira irivyo ishara ya utamaduni."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "The Persistence of Meaning",
+      "sw": "Kudumu kwa Maana",
+      "dg": "Kudumu kpwa Mana"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "In an era when global fashion trends reach even remote coastal villages through social media, the Digo color vocabulary faces pressure. Young people may wear colors without awareness of their traditional meanings. Commercial kanga and leso fabrics come in every imaginable shade, chosen for aesthetic appeal rather than cultural significance. The drift toward color as mere decoration — stripped of its communicative function — is a quiet form of cultural erosion.",
+      "sw": "Katika enzi ambapo mitindo ya kimataifa ya mavazi inafika hata vijiji vya mbali vya pwani kupitia mitandao ya kijamii, mfumo wa rangi za Wadigo unakabiliwa na shinikizo. Vijana wanaweza kuvaa rangi bila kufahamu maana zake za jadi. Kanga na leso za kibiashara zinakuja kwa kila rangi inayoweza kufikirika, zikichaguliwa kwa mvuto wa uzuri badala ya umuhimu wa kitamaduni. Mwenendo wa rangi kuwa mapambo tu — ikiondolewa kazi yake ya mawasiliano — ni aina ya kimya ya mmomonyoko wa kitamaduni.",
+      "dg": "Kahi ya wakati ambao mitindo ya nguwo ya dunia ndzima inafika hata vidzidzi vya kure vya pwani kpwa mitandao ya chijamii, msamiati wa rangi wa Adigo unakabili shinikizo. Avulana na asichana anaweza kuvwala rangi bila kumanya mana zao za chienyeji. Kanga na leso za biashara nkukpwedza kpwa chila rangi inayoweza kufikirika, zichigulwa kpwa urembo badala ya umuhimu wa utamaduni. Kuelekera kpwa rangi kukala mapambo bahi — ichiuswa kaziye ya mawasiliano — ni njira ya chimya ya kumomonyoka kpwa utamaduni."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "Yet the system persists where it matters most. At weddings, white still dominates. At kaya ceremonies, the colors still carry their traditional weight. The blue hando still signals the elder woman's authority. The red still marks the spiritual boundary. These meanings endure because they are embedded not in fashion but in the deeper structures of Digo social and spiritual life — structures that, despite the pressures of modernity, continue to shape how the community understands itself. Color remains, for those who can read it, a language as eloquent as any spoken on the coast.",
+      "sw": "Hata hivyo, mfumo huu unaendelea pale ambapo ni muhimu zaidi. Katika harusi, nyeupe bado inatawala. Katika sherehe za kaya, rangi bado zinabeba uzito wao wa jadi. Hando la buluu bado linaashiria mamlaka ya mwanamke mzee. Nyekundu bado inaweka mpaka wa kiroho. Maana hizi zinadumu kwa sababu zimejikita si katika mitindo bali katika miundo ya ndani zaidi ya maisha ya kijamii na kiroho ya Wadigo — miundo ambayo, licha ya shinikizo la kisasa, inaendelea kuumba jinsi jamii inavyojielewa yenyewe. Rangi inabaki, kwa wale wanaoweza kuisoma, lugha yenye ufasaha kama lugha yoyote inayozungumzwa pwanini.",
+      "dg": "Ela phahi, mfumo uhu unaenderera phatu ambapho ni muhimu zaidi. Kahi ya arusi, nyereru bado inatawala. Kahi ya sherehe za kaya, rangi bado zinatsukula uzito wao wa chienyeji. Hando ya samawati bado inaonyesa uwezo wa mchetu mzehe. Kundu bado inaika mphaka wa chiroho. Mana hizi zinadumu kpwa sababu zikadzikita si kahi ya mitindo ela kahi ya miundo ya ndani zaidi ya maisha ga chijamii na ga chiroho ga Adigo — miundo ambayo, dzagbwe kuna shinikizo za chisasa, inaenderera kuumba vira jamii inavyodzimanya. Rangi inasala, kpwa hara anaoweza kuisoma, luga yenye ufasaha dza luga yoyosi inayogombwa pwani."
+    }
+  ]
+}

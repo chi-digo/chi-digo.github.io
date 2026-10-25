@@ -2,37 +2,14 @@
 
 import { useRef, useMemo } from 'react';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
-import { getLanguageTopic, type ContentBlock } from '@/lib/language/content';
+import { getLanguageTopic } from '@/lib/articles/manifest';
+import { renderInlineMarkdown } from '@/lib/articles/render';
+import type { ContentBlock } from '@/lib/articles/types';
+import type { Locale } from '@/lib/i18n/config';
 import { track } from '@/lib/analytics/track';
 import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';
 import { getHeroStyle } from '@/lib/images/hero-images';
 import styles from './LanguageArticle.module.css';
-
-function renderInlineMarkdown(text: string): React.ReactNode[] {
-  const parts: React.ReactNode[] = [];
-  const regex = /(\*\*(.+?)\*\*|\*(.+?)\*)/g;
-  let lastIndex = 0;
-  let match;
-  let key = 0;
-
-  while ((match = regex.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
-    }
-    if (match[2]) {
-      parts.push(<strong key={key++}>{match[2]}</strong>);
-    } else if (match[3]) {
-      parts.push(<em key={key++}>{match[3]}</em>);
-    }
-    lastIndex = regex.lastIndex;
-  }
-
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-
-  return parts;
-}
 
 function ArticleBody({ body }: { body: ContentBlock[] }) {
   return (
@@ -52,7 +29,7 @@ function ArticleBody({ body }: { body: ContentBlock[] }) {
   );
 }
 
-export function LanguageTopicArticle({ topicSlug }: { topicSlug: string }) {
+export function LanguageTopicArticle({ topicSlug, body: bodies }: { topicSlug: string; body: Record<Locale, ContentBlock[]> }) {
   const t = useTranslations();
   const { locale } = useLocale();
 
@@ -67,7 +44,7 @@ export function LanguageTopicArticle({ topicSlug }: { topicSlug: string }) {
   if (!result) return <p>Article not found.</p>;
 
   const { domain, topic } = result;
-  const body = topic.body[locale];
+  const body = bodies[locale];
 
   return (
     <>

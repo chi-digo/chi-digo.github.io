@@ -1,0 +1,171 @@
+{
+  "id": "figures/abdalla-mnyenze",
+  "published": true,
+  "title": {
+    "en": "Mzee Abdalla Ali Mnyenze",
+    "sw": "Mzee Abdalla Ali Mnyenze",
+    "dg": "Mzee Abdalla Ali Mnyenze"
+  },
+  "subtitle": {
+    "en": "Guardian of Kaya Chinondo",
+    "sw": "Mlinzi wa Kaya Chinondo",
+    "dg": "Mrindzi wa Kaya Chinondo"
+  },
+  "meta": [
+    {
+      "en": "Era: Born c. 1928 or c. 1941 (sources disagree); died in 2021, his death reported on 13 October 2021",
+      "sw": "Kipindi: Alizaliwa takriban 1928 au takriban 1941 (vyanzo vinatofautiana); alifariki mwaka 2021, na kifo chake kiliripotiwa tarehe 13 Oktoba 2021",
+      "dg": "Wakati: Wavyalwa kama 1928 au kama 1941 (vyanzo tavilingana); wafwa mwaka 2021, na habari za chifoche zalavywa tarehe 13 Oktoba 2021"
+    },
+    {
+      "en": "Role: Elder and custodian of Kaya Chinondo; chairman of the Coast and Kwale kaya elders; healer",
+      "sw": "Jukumu: Mzee na mlinzi wa Kaya Chinondo; mwenyekiti wa wazee wa makaya wa Pwani na wa Kwale; mganga",
+      "dg": "Kazi: Mzehe na mrindzi wa Kaya Chinondo; mwenyekiti wa azehe a makaya ga Pwani na ga Kwale; mgbwanga"
+    },
+    {
+      "en": "Region: Chinondo, Msambweni, Kwale County, Kenya",
+      "sw": "Eneo: Chinondo, Msambweni, Kaunti ya Kwale, Kenya",
+      "dg": "Phatu: Chinondo, Msambweni, Kaunti ya Kwale, Kenya"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "paragraph",
+      "en": "When the Nation reported his death in October 2021, it called Abdalla Mnyenze the elder \"who steered the conservation of Kaya forests\". For more than a decade before that, journalists, scientists and politicians who came to Kaya Chinondo met the same man at the edge of the forest. He explained its rules and spoke for the elders who kept it.",
+      "sw": "Gazeti la Nation liliporipoti kifo chake mnamo Oktoba 2021, lilimwita Abdalla Mnyenze mzee \"aliyeongoza uhifadhi wa misitu ya Kaya\". Kwa zaidi ya miaka kumi kabla ya hapo, waandishi wa habari, wanasayansi na wanasiasa waliofika Kaya Chinondo walikutana na mtu yule yule ukingoni mwa msitu. Yeye ndiye aliyeeleza miiko yake na kuwasemea wazee walioutunza.",
+      "dg": "Gazeti ra Nation ririphotangaza chifoche Oktoba 2021, ramuiha Abdalla Mnyenze mzehe \"ariyelongoza uhifadhi wa matsaka ga Kaya\". Kpwa zaidi ya miaka kumi kabla ya hipho, aandishi a habari, asayansi na anasiasa ariofika Kaya Chinondo kala anakutana na mutu hiye mmwenga kanda ya tsaka. Iye ndiye kala anaeleza miko ya tsaka riro, na kugomba kpwa niaba ya azehe ariokala anaririnda."
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "No one has written his life. This article gathers what newspapers and two academic studies record, and says where they disagree. *Mzee* is a term of respect for an elder.",
+      "sw": "Hakuna aliyeandika historia ya maisha yake. Makala hii inakusanya yale yaliyoandikwa na magazeti na tafiti mbili za kitaaluma, na inaonyesha mahali yanapotofautiana. *Mzee* ni neno la heshima kwa mtu mzima.",
+      "dg": "Takuna mutu ariyeandika maishage. Makala ihi inakusanya gara garigoandikpwa ni magazeti na masomo mairi ga chitaaluma, na inaonyesa phara ambapho tagalingana. *Mzee* ni neno ra hishima kpwa mutu mzima."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Kaya Chinondo",
+      "sw": "Kaya Chinondo",
+      "dg": "Kaya Chinondo"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "A *kaya* is a fortified village built in a forest clearing by the Mijikenda peoples. Long after the villages were abandoned, the forests around them were kept as sacred places, holding the graves of ancestors and the *fingo*, a buried protective charm. Kaya Chinondo, near the coast just south of Diani, is one of the oldest Digo kayas. The historian David Sperling names Kwale and Chinondo as the first kayas the Digo founded south of Mombasa. In 2008 the kaya forests were listed by UNESCO as a World Heritage Site.",
+      "sw": "*Kaya* ni kijiji chenye ngome kilichojengwa na watu wa Mijikenda katika uwazi ndani ya msitu. Muda mrefu baada ya vijiji hivyo kuachwa, misitu iliyovizunguka ilitunzwa kama mahali patakatifu, penye makaburi ya mababu na *fingo*, hirizi ya kinga iliyozikwa ardhini. Kaya Chinondo, iliyo karibu na pwani kusini kidogo mwa Diani, ni mojawapo ya kaya za zamani zaidi za Adigo. Mwanahistoria David Sperling anazitaja Kwale na Chinondo kuwa kaya za kwanza ambazo Adigo walianzisha kusini mwa Mombasa. Mwaka 2008 misitu ya makaya iliorodheshwa na UNESCO kuwa Eneo la Urithi wa Dunia.",
+      "dg": "*Kaya* ni chidzidzi chenye ngome chirichodzengbwa ni Amijikenda phatu pha wazi kahi ya tsaka. Muda mure bada ya vidzidzi hivyo kurichwa, matsaka garigovizunguluka garindwa dza phatu phatakatifu, phenye mbira za akare na *fingo*, hirizi ya kurinda iriyozikpwa tsini. Kaya Chinondo, iriyo phephi na pwani kusini phephi na Diani, ni mwenga wa makaya ga kare kuriko ganjina ga Adigo. Mwanahistoria David Sperling anataja Kwale na Chinondo kukala ndio makaya ga kpwandza ambago Adigo agaandzisha kusini mwa Mombasa. Mwaka 2008 matsaka ga makaya gaorodheshwa ni UNESCO kukala Phatu pha Urisi wa Dunia."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Each kaya was governed by its elders, the *ngambi*, the council of elders that kept the kaya's rules and led its prayers. In the 2000s and 2010s Mnyenze was the Kaya Chinondo elder most often named as its leader.",
+      "sw": "Kila kaya iliongozwa na wazee wake, *ngambi*, baraza la wazee lililolinda miiko ya kaya na kuongoza maombi yake. Katika miaka ya 2000 na 2010, Mnyenze ndiye mzee wa Kaya Chinondo aliyetajwa mara nyingi zaidi kuwa kiongozi wake.",
+      "dg": "Chila kaya kala inatawalwa ni azehe a kaya iyo, *ngambi*, baraza ra azehe ririrokala rinarinda miko ya kaya na kulongoza mavoyo ga kaya. Kahi ya miaka ya 2000 na 2010, Mnyenze ndiye kala mzehe wa Kaya Chinondo ariyetajwa mara nyinji kuriko anjina kukala ndiye analongoza kaya iyo."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Custodian",
+      "sw": "Mlinzi wa Kaya",
+      "dg": "Mrindzi wa Kaya"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "In April 2008 the *East African Standard* described \"Mzee Ali Abdalla Mnyenze\" as \"the custodian of Kaya Chinondo, the Digo's main shrine\" and founder chairman of the Coast Kaya Committees. Through him the paper set out the rules of the kaya. Anyone taking part in kaya prayers had to be Digo and married. People going to the centre of the forest had to take off their shoes and wear a *shuka* (a plain cloth). \"We don't allow beer, soda, shoes or perfumes inside the kayas,\" he said. He also said: \"There is no conflict between the kaya culture and other religions. We direct our prayers to God but also seek the blessings of our ancestors.\"",
+      "sw": "Mnamo Aprili 2008 gazeti la *East African Standard* lilimweleza \"Mzee Ali Abdalla Mnyenze\" kuwa \"mlinzi wa Kaya Chinondo, madhabahu kuu ya Adigo\" na mwenyekiti mwanzilishi wa Kamati za Kaya za Pwani. Kupitia kwake gazeti hilo lilieleza miiko ya kaya. Yeyote aliyeshiriki maombi ya kaya alipaswa kuwa Mdigo na kuwa ameoa au ameolewa. Watu waliokwenda katikati ya msitu walipaswa kuvua viatu na kuvaa *shuka* (kitambaa cha kawaida kisicho na nakshi). \"Hatuuruhusu pombe, soda, viatu wala manukato ndani ya makaya\", alisema. Pia alisema: \"Hakuna mgongano kati ya utamaduni wa kaya na dini nyingine. Tunaelekeza maombi yetu kwa Mungu, lakini pia tunatafuta baraka za mababu zetu\".",
+      "dg": "Aprili 2008 gazeti ra *East African Standard* ramueleza \"Mzee Ali Abdalla Mnyenze\" kukala \"mrindzi wa Kaya Chinondo, phatu phatakatifu pha Adigo kuriko phosi\" na mwenyekiti wa kpwandza ariyeandzisha Kamati za Kaya za Pwani. Kpwa kumuhumira iye, gazeti riro raeleza miko ya kaya. Yeyesi ariyekala analonda kushiriki mavoyo ga kaya kala ni lazima akale ni Mdigo na akale na ndowa. Atu ariokala anaphiya kahi-kahi ya tsaka kala ni lazima avule virahu na avwale *shuka* (nguwo ya kawaida isiyo na mapambo). \"Tahuruhusu uchi, soda, virahu wala marashi ndani ya makaya\", waamba. Piya waamba: \"Takuna kupingana kahi ya mila za kaya na dini zanjina. Mavoyo gehu hunagaelekeza kpwa Mlungu, ela piya hunahendza baraka za akare ehu\"."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "He told the paper that his grandfather, Mwinyikai Mwawandinda, was the last person to be buried at Kaya Chinondo, in 1942. The same report said that \"Kaya Chinondo elders, led by Mnyenze, have set up a nature trail project\". The kaya had been closed to all but selected local people until 2001, when the community began an ecotourism project.",
+      "sw": "Aliliambia gazeti hilo kwamba babu yake, Mwinyikai Mwawandinda, ndiye aliyekuwa mtu wa mwisho kuzikwa Kaya Chinondo, mwaka 1942. Ripoti hiyo hiyo ilisema kwamba \"wazee wa Kaya Chinondo, wakiongozwa na Mnyenze, wameanzisha mradi wa njia ya kutembelea mazingira asilia\". Kaya ilikuwa imefungwa kwa kila mtu isipokuwa wenyeji wachache waliochaguliwa hadi mwaka 2001, jamii ilipoanzisha mradi wa utalii wa kimazingira.",
+      "dg": "Waambira gazeti riro kukala tsaweye, Mwinyikai Mwawandinda, ndiye kala mutu wa mwisho kuzikpwa Kaya Chinondo, mwaka 1942. Ripoti iyo-iyo yagomba kukala \"azehe a Kaya Chinondo, achilongozwa ni Mnyenze, akaandzisha mradi wa njira ya kunyendekera tsakani\". Kaya kala ikafungbwa kpwa atu osi ela atu achache a phapho ariotsambulwa, hadi mwaka 2001, atu a phapho ariphoandzisha mradi wa utalii wa chimazingira."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "Speaking for the Forests",
+      "sw": "Sauti ya Misitu",
+      "dg": "Sauti ya Matsaka"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "Development pressure on the south coast grew in these years. In February 2009 the Nation photographed \"Kaya elder Ali Mnyenze\" showing trees cut down by a developer on Chale Island. In 2014, as \"chairman of Coast Kayas\", he backed the elders' call for title deeds for the sacred forests, saying their conservation was \"important to preserve rare tree species\". In 2015, amid plans to mine rare-earth minerals in Kwale, he told Inter Press Service that the Mijikenda \"consider themselves culturally and spiritually bound to their forests\".",
+      "sw": "Shinikizo la maendeleo katika pwani ya kusini liliongezeka katika miaka hiyo. Mnamo Februari 2009 gazeti la Nation lilimpiga picha \"mzee wa Kaya Ali Mnyenze\" akionyesha miti iliyokatwa na mwekezaji katika Kisiwa cha Chale. Mwaka 2014, akiwa \"mwenyekiti wa Makaya ya Pwani\", aliunga mkono wito wa wazee wa kupewa hati miliki za misitu mitakatifu, akisema kuitunza ni \"muhimu ili kuhifadhi aina adimu za miti\". Mwaka 2015, wakati wa mipango ya kuchimba madini adimu huko Kwale, aliliambia shirika la habari la Inter Press Service kwamba Wamijikenda \"wanajiona wamefungamana kitamaduni na kiroho na misitu yao\".",
+      "dg": "Kahi ya miaka iyo, matsaka ga pwani ya kusini kala ganalondwa sana ni atu analonda kudzenga. Februari 2009 gazeti ra Nation ramphiga picha \"mzehe wa Kaya Ali Mnyenze\" achionyesa mihi iriyokatwa ni mwekezaji kpwenye Chisiwa cha Chale. Mwaka 2014, achikala \"mwenyekiti wa Makaya ga Pwani\", waterya voyo ra azehe ra kuhewa hati miliki za matsaka matakatifu, achigomba kukala kugarinda ni \"muhimu kpwa kurinda aina adimu za mihi\". Mwaka 2015, wakati kala kuna mipango ya kutsimba madini adimu Kwale, waambira shirika ra habari ra Inter Press Service kukala Amijikenda \"anadziona kukala akafungbwa kpwa chisomo na kpwa roho na matsaka gao\"."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The kayas also drew politicians, and Mnyenze was part of that story. In March 2008 Kaya Chinondo hosted elders blessing the minister Chirau Ali Mwakwere, and Mnyenze said similar prayers had been held for Kassim Mwamzandi before the 1963 election. In 2019 he led prayers at Kaya Chinondo for the protection of Nairobi's governor, Mike Sonko, whom the paper described as \"embattled\". Such ceremonies divided kaya elders. They show how much weight the kaya still carried, and how hard it was to keep it out of politics.",
+      "sw": "Makaya pia yaliwavutia wanasiasa, na Mnyenze alikuwa sehemu ya habari hiyo. Mnamo Machi 2008 Kaya Chinondo iliwapokea wazee waliombariki waziri Chirau Ali Mwakwere, na Mnyenze alisema kuwa maombi ya aina hiyo yalifanyiwa Kassim Mwamzandi kabla ya uchaguzi wa 1963. Mwaka 2019 aliongoza maombi katika Kaya Chinondo ya kumlinda gavana wa Nairobi, Mike Sonko, ambaye gazeti lilimweleza kuwa \"aliyezongwa na matatizo\". Sherehe kama hizo ziliwagawa wazee wa makaya. Zinaonyesha jinsi kaya ilivyokuwa bado na uzito mkubwa, na jinsi ilivyokuwa vigumu kuiepusha na siasa.",
+      "dg": "Makaya piya kala ganavutiya anasiasa, na Mnyenze kala ni seemu ya habari iyo. Machi 2008 Kaya Chinondo yakaribisha azehe arioamvoyera baraka waziri Chirau Ali Mwakwere, na Mnyenze waamba kukala mavoyo dza higo gahendwa kpwa Kassim Mwamzandi kabla ya atu kutsambula vilongozi mwaka 1963. Mwaka 2019 walongoza mavoyo Kaya Chinondo ga kumrinda gavana wa Nairobi, Mike Sonko, ambaye gazeti ramueleza kukala \"mutu ariye mashakani\". Sherehe dza hizo tazikubalika ni azehe osi a makaya. Zinaonyesa kukala kaya kala bado ina nguvu nyinji, na kukala kala ni vigumu kuiusa kahi ya mambo ga siasa."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "A Healer and a Source",
+      "sw": "Mganga na Chanzo cha Elimu",
+      "dg": "Mgbwanga na Chanzo cha Maarifa"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Mnyenze also passed on knowledge to researchers. In October 1996 the scholar Hassan Ndzovu interviewed \"Abdallah Mnyenze of Kaya Chinondo\" about the traditions of the kaya's founding and about Digo beliefs on sorcery. The Digo ethnobotanist Mohamed Pakia lists \"Abdallah Mnyedze, Kaya Chinondo\" first among the kaya elders he consulted, and thanks him in his 2005 thesis. Pakia also describes an Abdalla Mnyendze who practised as a healer from an office labelled \"Dr. Mnyendze\", with bottles of prepared plant medicines. He notes that this healer still based his authority on his \"famous teachers\". The spellings differ, and it is likely but not certain that these passages describe the same man.",
+      "sw": "Mnyenze pia aliwapa watafiti maarifa yake. Mnamo Oktoba 1996 msomi Hassan Ndzovu alimhoji \"Abdallah Mnyenze wa Kaya Chinondo\" kuhusu mapokeo ya kuanzishwa kwa kaya na kuhusu imani za Adigo juu ya uchawi. Mtaalamu wa mimea na matumizi yake kwa jamii, Mdigo Mohamed Pakia, anamtaja \"Abdallah Mnyedze, Kaya Chinondo\" wa kwanza miongoni mwa wazee wa kaya aliowashauri, na anamshukuru katika tasnifu yake ya 2005. Pakia pia anamweleza Abdalla Mnyendze aliyefanya kazi ya uganga katika ofisi yenye kibao kilichoandikwa \"Dr. Mnyendze\", akiwa na chupa za dawa za mitishamba alizozitayarisha. Anabainisha kwamba mganga huyu bado aliegemeza mamlaka yake kwa \"walimu wake mashuhuri\". Maandishi ya jina lake yanatofautiana, na inawezekana, ingawa si hakika, kwamba sehemu hizi zinamzungumzia mtu mmoja.",
+      "dg": "Mnyenze piya watsapiza maarifa kpwa atafiti. Oktoba 1996 msomi Hassan Ndzovu wamuuza maswali \"Abdallah Mnyenze wa Kaya Chinondo\" kuhusu adisi za kuandzishwa kpwa kaya, na kuhusu imani za Adigo dzulu ya utsai. Mdigo Mohamed Pakia, mtaalamu wa mimea na vira atu anavyoihumira, anamtaja \"Abdallah Mnyedze, Kaya Chinondo\" kukala wa kpwandza kahi ya azehe a kaya ambao waauza maswali, na anamshukuru kpwenye tasnifuye ya 2005. Pakia piya anaeleza Abdalla Mnyendze ariyekala anahenda kazi ya uganga kula ofisi yenye bango ra \"Dr. Mnyendze\", na tupa za dawa za mihi zirizotengezwa. Anaonyesa kukala mgbwanga hiye kala bado anagomba kukala mamlakage ganatuluka kpwa \"alimue amanyikanao\". Madzina ganaandikpwa tafwauti, na inaonekana, ela si kpwa hakika, kukala maelezo higa ganagomba kuhusu mutu mmwenga."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "What the Record Does Not Settle",
+      "sw": "Yale Ambayo Kumbukumbu Haziyathibitishi",
+      "dg": "Mambo Gasigomanyikana kpwa Hakika"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "His dates are uncertain. The Nation's obituary of 13 October 2021 gave his age as 93, which would place his birth around 1928. Ndzovu, however, recorded him as aged 55 in 1996, which would place it around 1941. The obituary does not give the exact date of his death, only that he had been ill.",
+      "sw": "Tarehe zake hazina uhakika. Taarifa ya kifo chake katika Nation ya tarehe 13 Oktoba 2021 ilitaja umri wake kuwa miaka 93, jambo linaloweka kuzaliwa kwake karibu mwaka 1928. Hata hivyo Ndzovu alimwandika kuwa na umri wa miaka 55 mwaka 1996, jambo linaloweka kuzaliwa kwake karibu mwaka 1941. Taarifa hiyo ya kifo haitaji tarehe kamili ya kifo chake, ila tu kwamba alikuwa mgonjwa.",
+      "dg": "Taimanyikana kpwa hakika ariphovyalwa. Habari ya chifoche kpwenye Nation ya tarehe 13 Oktoba 2021 yataja umriwe kukala miaka 93, ichimaanisha kukala wavyalwa kama mwaka 1928. Ela Ndzovu wamuandika kukala ana miaka 55 mwaka 1996, ichimaanisha kukala wavyalwa kama mwaka 1941. Habari iyo ya chifo taitaja tarehe kamili ya chifoche, ela inagomba tu kukala kala ni mkpwongo."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "His name appears as Abdalla Mnyenze, Ali Abdalla Mnyenze and Mnyenze Abdalla Ali. His titles vary too: chairman of the Coast Kaya Committees or Coast Kayas, chair of the Mijikenda Council of Kaya Elders, and, at his death, chairperson of the Kwale Kaya Elders. These may reflect different bodies at different times, or different ways of reporting one office.",
+      "sw": "Jina lake linaandikwa kama Abdalla Mnyenze, Ali Abdalla Mnyenze na Mnyenze Abdalla Ali. Vyeo vyake pia vinatofautiana: mwenyekiti wa Kamati za Kaya za Pwani au wa Makaya ya Pwani, mwenyekiti wa Baraza la Wazee wa Kaya la Mijikenda, na, alipofariki, mwenyekiti wa Wazee wa Kaya wa Kwale. Huenda hivi vikawa vyombo tofauti kwa nyakati tofauti, au njia tofauti za kuripoti cheo kimoja.",
+      "dg": "Dzinare rinaandikpwa dza Abdalla Mnyenze, Ali Abdalla Mnyenze na Mnyenze Abdalla Ali. Vyeovye piya ni tafwauti: mwenyekiti wa Kamati za Kaya za Pwani au wa Makaya ga Pwani, mwenyekiti wa Baraza ra Azehe a Kaya a Mijikenda, na, wakati wa chifoche, mwenyekiti wa Azehe a Kaya a Kwale. Yaweza kukala ni makundi tafwauti kpwa nyakati tafwauti, au njira tafwauti za kuripoti cheo chimwenga."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Legacy",
+      "sw": "Urithi Wake",
+      "dg": "Gara Arigoricha"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "At his death, the chairman of the Kaya Elders Association, Mwinyi Mwalimu, said Mnyenze \"was a great counsellor even to the other older men and led key decision-making concerning our culture\". His grandson Hamisi Kapera said people knew him as one who had \"taken all teachings from our ancestors\". Kaya Chinondo still stands beside the hotels of Diani. That it does is the work of many unnamed elders, and Mnyenze was the one the outside world came to know.",
+      "sw": "Alipofariki, mwenyekiti wa Chama cha Wazee wa Kaya, Mwinyi Mwalimu, alisema Mnyenze \"alikuwa mshauri mkubwa hata kwa wazee wenzake na aliongoza maamuzi muhimu kuhusu utamaduni wetu\". Mjukuu wake Hamisi Kapera alisema watu walimjua kama mtu \"aliyepokea mafundisho yote kutoka kwa mababu zetu\". Kaya Chinondo bado imesimama kando ya hoteli za Diani. Hilo ni kazi ya wazee wengi wasiotajwa majina, na Mnyenze ndiye ambaye ulimwengu wa nje ulikuja kumjua.",
+      "dg": "Ariphofwa, mwenyekiti wa Chama cha Azehe a Kaya, Mwinyi Mwalimu, waamba kukala Mnyenze \"kala ni mshauri mkpwulu hata kpwa azehe anjina, na walongoza kuamuwa mambo muhimu ga chisomo chehu\". Mdzukuluwe Hamisi Kapera waamba atu kala anammanya dza mutu \"ariyehala mafundzo gosi kula kpwa akare ehu\". Kaya Chinondo bado inaima kanda ya mahoteli ga Diani. Iyo ni kazi ya azehe anji ambao madzina gao tagamanyikana, na Mnyenze ndiye ariyekpwedza kumanyikana ni atu a kondze."
+    }
+  ],
+  "sources": [
+    "Siago Cece, \"Kwale mourns Kaya conservation champion\", *Daily Nation*, 13 October 2021. https://nation.africa/kenya/counties/kwale/kwale-mourns-kaya-conservation-champion-3582044 (read via the Internet Archive copy of 13 October 2021).",
+    "Patrick Beja, \"The Mijikenda's closely guarded 'kayas'\", *East African Standard*, 26 April 2008. Reproduced at https://mwakwere.blogspot.com/2008/04/mijikendas-closely-guarded-kayas.html",
+    "Bozo Jenje and Winnie Atieno, \"Elders seek Kaya title deeds to block grabbers\", *Daily Nation*, 8 September 2014, with file photograph of 2 February 2009 (Internet Archive copy).",
+    "Miriam Gathigah, \"On Kenya's Coast, a Struggle for the Sacred\", Inter Press Service, 23 June 2015. https://www.ipsnews.net/2015/06/on-kenyas-coast-a-struggle-for-the-sacred/",
+    "\"Rituals: Kaya elders conduct prayers to protect Sonko\", *The Star*, 9 November 2019. https://www.the-star.co.ke/news/2019-11-09-rituals-kaya-elders-conduct-prayers-to-protect-sonko/",
+    "\"Mwakwere anointed Mijikenda leader\", *Daily Nation*, 26 March 2008. Reproduced at https://mwakwere.blogspot.com/2008/03/",
+    "\"Community wants sacred Kaya Kinondo in Kwale marketed to the world\", *The Star*, 2 November 2021. https://www.the-star.co.ke/counties/coast/2021-11-02-community-wants-sacred-kaya-kinondo-in-kwale-marketed-to-the-world",
+    "Hassan Juma Ndzovu, \"Indigenous and popular Islamic therapies of restoring health and countering sorcery among the Digo of Kenya\", *International Journal of Sociology and Anthropology* 5(7) (2013): 233–242, notes 5 and 16 (pp. 234–236).",
+    "Mohamed Pakia, *African Traditional Plant Knowledge Today: An ethnobotanical study of the Digo at the Kenya Coast*, Dr. rer. nat. dissertation, University of Bayreuth, 2005, pp. ii, 35, 62, 120, 137.",
+    "David Colton Sperling, *The growth of Islam among the Mijikenda of the Kenya coast, 1826–1933*, PhD dissertation, SOAS, University of London, 1988, pp. 27, 31, 158."
+  ]
+}

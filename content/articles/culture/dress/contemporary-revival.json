@@ -1,0 +1,204 @@
+{
+  "id": "culture/dress/contemporary-revival",
+  "title": {
+    "en": "Contemporary Revival",
+    "sw": "Ufufuaji wa Kisasa",
+    "dg": "Ufufuo wa Chisasa"
+  },
+  "intro": {
+    "en": "For the Digo of Kenya's south coast, the question of what to wear has become, in the twenty-first century, a question of who to be. The forces that have shaped dress choices across the developing…",
+    "sw": "Kwa Wadigo wa pwani ya kusini ya Kenya, swali la kuvaa nini limekuwa, katika karne ya ishirini na moja, swali la kuwa nani. Nguvu zilizoshawishi uchaguzi wa mavazi kote ulimwenguni — ukuaji wa miji,…",
+    "dg": "Kpwa Adigo a pwani ya kusini ya Kenya, swali ra kuvwala nini rikakala, kpwa karne ya mirongo miiri na mwenga, swali ra kukala ani. Nguvu zirizoshawishi uchaguzi wa nguwo kosi duniani — kukula kpwa midzi…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Question of What to Wear",
+      "sw": "Swali la Kuvaa Nini",
+      "dg": "Swali ra Kuvwala Nini"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "For the Digo of Kenya's south coast, the question of what to wear has become, in the twenty-first century, a question of who to be. The forces that have shaped dress choices across the developing world — urbanization, formal employment, global media, religious movements, the sheer availability of cheap mass-produced Western clothing — have all reached the coast, and they have not arrived gently. The shift from traditional to modern dress is real, measurable, and generational. Older Digo men and women are more likely to wear traditional garments daily — the hando, the kikoy, the kanga, the kanzu. Younger Digo wear these primarily for ceremonies and cultural events, dressing in Western clothes or the buibui-and-hijab ensemble for their everyday lives. This shift is not unique to the Digo. It is the common story of indigenous dress cultures everywhere. But among the Digo, it has produced a distinctive counter-movement: a deliberate, creative effort to carry traditional textile elements forward into contemporary life.",
+      "sw": "Kwa Wadigo wa pwani ya kusini ya Kenya, swali la kuvaa nini limekuwa, katika karne ya ishirini na moja, swali la kuwa nani. Nguvu zilizoshawishi uchaguzi wa mavazi kote ulimwenguni — ukuaji wa miji, ajira rasmi, vyombo vya habari vya kimataifa, harakati za kidini — zote zimefika pwani. Mabadiliko kutoka mavazi ya jadi hadi ya kisasa ni ya kweli na ya kizazi. Wadigo wakubwa wanavaa nguo za jadi kila siku — hando, kikoy, kanga, kanzu. Wadigo vijana wanavaa hizi hasa kwa sherehe na matukio ya kitamaduni.",
+      "dg": "Kpwa Adigo a pwani ya kusini ya Kenya, swali ra kuvwala nini rikakala, kpwa karne ya mirongo miiri na mwenga, swali ra kukala ani. Nguvu zirizoshawishi uchaguzi wa nguwo kosi duniani — kukula kpwa midzi mikulu, ajira rasmi, vyombo vya habari vya chimataifa, harakati za chidini, na unji wa nguwo za Chizungu za bei nafuu zirizotengezwa kpwa unji — zosi zikafika pwani, na zikafika kpwa nguvu. Mabadiliko kula nguwo za jadi hadi za chisasa ni ga kpweli, ganaweza kupimwa, na ni ga chizazi. Adigo azehe, alume na achetu, nkuvwala nguwo za jadi chila siku — hando, kikoy, kanga, kanzu. Avulana na asichana a Chidigo anazivwala hasa kpwa sherehe na matukio ga chimila, na kpwa maisha ga chila siku anavwala nguwo za Chizungu, au buibui na hijab. Mabadiliko higa tagaonekana kpwa Adigo bahi. Ni hadisi ya kawaida ya mila za nguwo za chienyeji kosi duniani. Ela kahi ya Adigo, gakareha harakati ya chipekee ya kupinga: juhudi za makusudi na za ubunifu za kutsukula vipengele vya vitambara vya jadi mbere kahi ya maisha ga chisasa."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "The Generational Divide",
+      "sw": "Jibu linalooonekana zaidi limekuja kutoka ulimwengu wa muundo wa mitindo. Edna Dhahabu, mbunifu kutoka Rabai, amekuwa uso wa harakati ya kufikiria upya nguo za jadi za Mijikenda kwa mavazi ya kisasa. Kazi yake inajumuisha mifumo ya jadi ya ufumaji pamoja na shanga, kombe za bahari, na mapambo ya makombeo. Warsha yake inaajiri watu kumi na saba, ikiumba mfano wa kiuchumi unaojumuisha uhifadhi wa kitamaduni ndani ya uundaji wa riziki. Maagizo ya kimataifa yanafika Dubai na Marekani.",
+      "dg": "Tafwauti ya Vizazi"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The divide is visible in any Digo gathering that brings together multiple generations. At a wedding, the grandmothers sit in their blue hando wraps, the fabric arranged with a practiced ease that speaks of decades of wearing. The mothers may wear hando or kanga, perhaps with a modern blouse. The young women are more likely to appear in tailored outfits that reference tradition — a kanga-print dress, perhaps, or a modern silhouette in traditional fabric — without fully committing to the traditional form. And the youngest generation, the teenagers and children, wear what teenagers and children wear everywhere in East Africa: jeans, T-shirts, sneakers, the global uniform of youth.",
+      "sw": "Mavazi ya kisasa ya Wadigo yanaeleweka vyema kama mfumo wa rejista — hali tofauti za kuvaa zinazolingana na mazingira tofauti ya kijamii. Rejista ya jadi inajumuisha hando na kitambi. Rejista ya Kiislamu-pwani inazingatia buibui na hijab. Rejista ya kisasa inajumuisha nguo za Kimagharibi. Uwezo wa kusogea kati ya rejista ni ujuzi, si dalili.",
+      "dg": "Tafwauti hino inaonekana kahi ya mkusanyiko wowosi wa Adigo unaoreha phamwenga vizazi vinji. Kahi ya arusi, ano wawa anasagala na hando zao za samawati, nguwo zichikala zikaikpwa kpwa wepesi wa atu ariozivwala kpwa miongo minji. Ano mayo anaweza kuvwala hando au kanga, ichiwezekana phamwenga na blauzi ya chisasa. Asichana adide nkuonekana zaidi na nguwo zirizoshonwa zinazotambukiza jadi — gauni ra nakshi ya kanga, ichiwezekana, au umbo ra chisasa kahi ya chitambara cha jadi — bila kuilunga jadi yosi. Na chizazi cha mwisho, avulana na ana adide, anavwala chira ambacho avulana na ana anavwala kosi Afrika ya Mashariki: jinzi, fulana, virahu vya raba — nguwo za barobaro kosi duniani."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "This gradient is not a crisis. It is the normal process of cultural change, and the Digo are neither the first nor the last community to experience it. But it does create an urgency — a sense among cultural advocates that if traditional dress knowledge is not actively transmitted, it will fade within a generation. The specific skills involved in wearing a hando — the fold technique, the waist tuck, the color protocols, the ceremonial variations — are not the kind of knowledge that can be learned from a book or a video. They require hands-on transmission from experienced women to younger ones, and as the occasions for wearing the hando become less frequent, the opportunities for this transmission diminish.",
+      "sw": "Ufufuaji wa kisasa miongoni mwa Wadigo ni, katika kiwango chake cha kina zaidi, mazungumzo kuhusu utambulisho katika ulimwengu unaounganishwa. Swali si kama Wadigo watavaa nguo za Kimagharibi — tayari wanafanya hivyo. Swali ni kama msamiati wa jadi wa nguo — mikunjo ya hando, methali za kanga, indigo ya kitambi — utaendelea kuishi pamoja na mavazi ya kisasa kama rasilimali hai ya kitamaduni. Mila ya nguo ya Wadigo imevuka karne za mabadiliko — kuwasili kwa Uislamu, ukoloni, uhuru, utandawazi — ikibadilika kila hatua bila kupoteza tabia yake ya kipekee.",
+      "dg": "Tafwauti hino si msiba. Ni njira ya kawaida ya mabadiliko ga chimila, na Adigo si atu a kpwandza wala a mwisho kuiona. Ela inareha haraka — atu anaotetea chimila anaona kukala marifwa ga nguwo za jadi gachikala tagafundishwa chikpweli, gandaangamika kahi ya chizazi chimwenga. Ujuzi wa kuvwala hando — mbinu ya kukundza, kufunga chununi, shariya za rangi, na tafwauti za sherehe — si marifwa ganayoweza kusomwa kahi ya chitabu au video. Ganalonda kufundishwa kpwa mikono kula kpwa achetu ariomanya hadi kpwa adide, na kadiri matukio ga kuvwala hando ganavyophungula, nafasi za kufundishana nazo zinaphungula."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "Edna Dhahabu and the Design Revival",
+      "sw": "Edna Dhahabu na Ufufuo wa Ubunifu",
+      "dg": "Edna Dhahabu na Ufufuo wa Ubunifu"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The most visible response to this challenge has come from the world of fashion design. Edna Dhahabu, a designer from Rabai in Kilifi County, has become the public face of a movement to reimagine traditional Mijikenda textiles for contemporary wear. Her approach is neither preservation nor abandonment but transformation: she takes the traditional hando as her starting point and reimagines it through the lens of modern fashion design, creating garments that honor their heritage while functioning as contemporary clothing that a young professional woman might choose to wear.",
+      "sw": "Jibu linaloonekana zaidi kwa changamoto hii limetoka katika ulimwengu wa ubunifu wa mitindo. Edna Dhahabu, mbunifu kutoka Rabai katika Kaunti ya Kilifi, amekuwa uso wa hadhara wa harakati ya kufikiria upya vitambaa vya jadi vya Mijikenda kwa mavazi ya kisasa. Mtazamo wake si wa kuhifadhi wala kuacha bali wa kubadilisha: anachukua hando ya jadi kama hatua yake ya kwanza na kuifikiria upya kupitia lenzi ya ubunifu wa mitindo ya kisasa, akiunda mavazi yanayoheshimu urithi wao huku yakifanya kazi kama nguo za kisasa ambazo mwanamke kijana mtaalamu anaweza kuchagua kuvaa.",
+      "dg": "Jibu riniroonekana zaidi kpwa changamoto hino rikatoka kahi ya ulumwengu wa ubunifu wa mitindo. Edna Dhahabu, mubunifu kula Rabai kahi ya Kaunti ya Kilifi, akakala uso wa wazi wa harakati ya kufikiria luphya vitambara vya chijadi vya Amijikenda kpwa nguwo za vivi. Njiraye siyo ya kuhifadhi wala kuricha ela ya kubadilisha: anatsukula hando ra chijadi dza hatuaye ya kpwandza na kurifikiria luphya kuphitiya lenzi ya ubunifu wa mitindo ya vivi, achiunda nguwo zinazoishimu urithi wao zichihenda kazi dza nguwo za vivi ambazo mchetu mdide mtaalamu anaweza kutsambula kuvwala."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Dhahabu's work incorporates traditional weaving patterns — the textures and rhythms that define Mijikenda textile aesthetics — alongside embellishments drawn from the coastal material culture: beads, seashells, and cowrie shells arranged in patterns that reference traditional beadwork without replicating it exactly. The silhouettes are modern, designed for movement and for the contexts of contemporary life — offices, events, urban streets — rather than for the ceremonial contexts where the traditional hando is most at home. The result is a new category of garment that exists between tradition and modernity, claiming both while being reducible to neither.",
+      "sw": "Kazi ya Dhahabu inajumuisha nakshi za jadi za ufumaji — muundo na midundo inayoelezea uzuri wa vitambaa vya Mijikenda — pamoja na mapambo yanayotokana na utamaduni wa kimali wa pwani: shanga, makombeo, na kete zilizopangwa kwa nakshi zinazorejelea ushanga wa jadi bila kuiga kabisa. Maumbo ya mavazi ni ya kisasa, yaliyoundwa kwa ajili ya mwendo na kwa muktadha wa maisha ya kisasa — ofisini, matukio, mitaani — badala ya muktadha wa sherehe ambapo hando ya jadi iko nyumbani zaidi. Matokeo ni aina mpya ya mavazi yanayoishi kati ya mila na usasa, yakidai yote mawili huku hayawezi kupunguzwa kuwa moja tu.",
+      "dg": "Kazi ya Dhahabu inajumuisha nakshi za chijadi za ufumaji — muundo na midundo inayoelezera urembo wa vitambara vya Amijikenda — phamwenga na mapambo ganagotokana na utamaduni wa vitu vya pwani: ushanga, makombeo, na kete zirizopangwa kpwa nakshi zinazorejelea ushanga wa chijadi bila kuiga kabisa. Maumbo ga nguwo ni ga vivi, garigoundwa kpwa ajili ya mwendo na kpwa mazingira ga maisha ga vivi — ofisini, matukio, mitaani — badala ya mazingira ga sherehe ambamo hando ra chijadi riko nyumbani zaidi. Matokeo ni aina muphya ya nguwo iriyopo kahi ya mila na usasa, ichidai zosi mbiri ela taiweza kupunguzwa kukala mwenga bahi."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "Her workshop in Rabai employs seventeen people — weavers, beadworkers, seamstresses, and finishers — creating an economic model that embeds cultural preservation within livelihood creation. This is not a museum project or a government grant initiative. It is a functioning business, and its commercial viability is itself a form of cultural argument: traditional Mijikenda aesthetics, properly translated, have market value. International orders to Dubai and the United States confirm that this value extends far beyond the local community.",
+      "sw": "Warsha yake huko Rabai inaajiri watu kumi na saba — wafumaji, mafundi wa shanga, washonaji, na wakamilishaji — ikiunda mfano wa kiuchumi unaoweka uhifadhi wa utamaduni ndani ya uundaji wa riziki. Hii si mradi wa makumbusho au mpango wa ruzuku ya serikali. Ni biashara inayofanya kazi, na uwezo wake wa kibiashara wenyewe ni aina ya hoja ya kitamaduni: uzuri wa jadi wa Mijikenda, ukitafsiriwa vizuri, una thamani ya soko. Maagizo ya kimataifa kwenda Dubai na Marekani yanathibitisha kuwa thamani hii inaenea mbali zaidi ya jamii ya karibu.",
+      "dg": "Warshaye iko Rabai inaajiri atu kumi na saba — afumaji, amafundi a ushanga, ashonaji, na akamilishaji — ichiunda mfano wa chiuchumi unaobeka uhifadhi wa chimila ndani ya uundadzi wa riziki. Hino siyo mradi wa makumbusho wala mpango wa ruzuku ya serikali. Ni biashara inayohenda kazi, na uwezowe wa chibiashara wenyewe ni aina ya hoja ya chimila: urembo wa chijadi wa Amijikenda, uchitafsiriwa vinono, una samani ya soko. Maagizo ga chimataifa ganagophiya Dubai na Marekani ganathibitisha kukala samani hino inaenderera kure zaidi ya utsi wa phephi."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Fashion Shows and Cultural Display",
+      "sw": "Maonyesho ya Mitindo na Uwasilishaji wa Kitamaduni",
+      "dg": "Maonyesho ga Mitindo na Uonyeshaji wa Chimila"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The fashion show has emerged as a key venue for the contemporary dress revival. Designers working with traditional Mijikenda textiles have used runway presentations — in Mombasa, Nairobi, and increasingly at international events — to recontextualize traditional garments for new audiences. The fashion show format, borrowed from Western fashion culture, becomes a frame through which traditional textiles can be seen with fresh eyes: not as ethnographic curiosities or nostalgic artifacts, but as design resources with genuine aesthetic power.",
+      "sw": "Maonyesho ya mitindo yamejitokeza kama jukwaa muhimu kwa ufufuo wa mavazi ya kisasa. Wabunifu wanaofanya kazi na vitambaa vya jadi vya Mijikenda wametumia maonyesho ya njia ya mitindo — Mombasa, Nairobi, na kwa kuongezeka katika matukio ya kimataifa — kuweka upya muktadha wa mavazi ya jadi kwa hadhira mpya. Muundo wa maonyesho ya mitindo, uliokopwa kutoka utamaduni wa mitindo wa Magharibi, unakuwa fremu ambayo vitambaa vya jadi vinaweza kuonekana kwa macho mapya: si kama vitu vya ajabu vya ethnografia au kumbukumbu za nostalgia, bali kama rasilimali za ubunifu zenye nguvu halisi ya uzuri.",
+      "dg": "Maonyesho ga mitindo gakakala jukwaa muhimu kpwa ufufuo wa nguwo za vivi. Abunifu anaohenda kazi na vitambara vya chijadi vya Amijikenda akahumira maonyesho ga njira ya mitindo — Mombasa, Nairobi, na kpwa kuenjerezeka kahi ya matukio ga chimataifa — kubeka luphya muktadha wa nguwo za chijadi kpwa aogalana nao muphya. Mfumo wa maonyesho ga mitindo, uriokopwa kula utamaduni wa mitindo wa Chizungu, unakala fremu ambayo vitambara vya chijadi vinaweza kuonekana na matso maphya: si dza vitu vya ajabu vya chiethnografiya au vya kare vya nostalgia, ela dza rasilimali za ubunifu zenye nguvu ya kpweli ya urembo."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "These presentations serve a dual function. For external audiences — fashion journalists, buyers, cultural tourists — they introduce Digo textile traditions as a living design vocabulary rather than a historical footnote. For internal audiences — young Digo and Mijikenda people who may regard traditional dress as old-fashioned — they demonstrate that heritage and style are not mutually exclusive. Seeing traditional textiles and techniques on a runway, presented with the same production values and creative ambition as any other fashion collection, can shift a young person's relationship to their own cultural inheritance.",
+      "sw": "Maonyesho haya yanatumika kwa njia mbili. Kwa hadhira ya nje — waandishi wa habari za mitindo, wanunuzi, watalii wa kitamaduni — yanaanzisha mila za vitambaa vya Kidigo kama mfumo hai wa ubunifu badala ya tanbihi ya kihistoria. Kwa hadhira ya ndani — vijana wa Kidigo na Mijikenda ambao wanaweza kuona mavazi ya jadi kama ya kizamani — yanaonyesha kuwa urithi na mtindo si vitu vinavyopingana. Kuona vitambaa na mbinu za jadi kwenye njia ya mitindo, vikitolewa kwa ubora na tamaa ya ubunifu sawa na mkusanyiko mwingine wowote wa mitindo, kunaweza kubadilisha uhusiano wa kijana na urithi wake wa kitamaduni.",
+      "dg": "Maonyesho higa ganatumika kpwa njira mbiri. Kpwa aogalana nao a kondze — aandishi a habari za mitindo, anunuzi, ajeni a chimila — ganaonyesa mila za vitambara vya Chidigo dza mfumo hai wa ubunifu badala ya tanbihi ya chihistoria. Kpwa aogalana nao a ndani — avulana na asichana a Chidigo na Amijikenda ambao anaweza kuona nguwo za chijadi dza za kare — ganaonyesa kukala urithi na mtindo si vitu vinavyopingana. Kuona vitambara na mbinu za chijadi kpwa njira ya mitindo, vichitolwa kpwa ubora na tamaa ya ubunifu sawa na mkusanyiko wowosi wa mitindo, kunaweza kubadilisha uhusiano wa mvulana au msichana na urithiwe wa chimila."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The tension in this strategy is acknowledged by the designers themselves. A fashion show aestheticizes traditional dress, removing it from its ceremonial context and placing it within a commercial framework that operates by different rules. The hando on a runway is not the hando at a kaya ceremony. The beadwork on a model is not the vivorodete on a married woman's arm. Something is necessarily translated — and translation always involves both gain and loss. The gain is visibility, economic value, and cultural pride. The loss, potentially, is the depth of meaning that depends on the garment's connection to specific social and spiritual contexts.",
+      "sw": "Mvutano katika mkakati huu unakubaliwa na wabunifu wenyewe. Maonyesho ya mitindo yanafanya mavazi ya jadi kuwa ya uzuri tu, yakiyaondoa kutoka muktadha wake wa sherehe na kuyaweka ndani ya mfumo wa kibiashara unaofanya kazi kwa sheria tofauti. Hando kwenye njia ya mitindo si hando katika sherehe ya kaya. Ushanga kwenye mfano si vivorodete kwenye mkono wa mwanamke aliyeolewa. Kitu fulani lazima kitafsiriwe — na tafsiri daima inahusisha faida na hasara. Faida ni kuonekana, thamani ya kiuchumi, na kiburi cha kitamaduni. Hasara, huenda, ni kina cha maana kinachotegemea uhusiano wa nguo na muktadha maalum wa kijamii na kiroho.",
+      "dg": "Mvutano kahi ya mkakati huno unakubaliwa ni abunifu enye. Maonyesho ga mitindo ganahenda nguwo za chijadi kukala za urembo bahi, gachiziusa kula muktadha wao wa sherehe na kuzibeka ndani ya mfumo wa chibiashara unaohenda kazi kpwa sheria tafwauti. Hando kpwa njira ya mitindo si hando kahi ya sherehe ya kaya. Ushanga kpwa mfano si vivorodete kpwa mkono wa mchetu ariyeolwa. Chitu fulani ni lazima chitafsiriwe — na kutafsiri sikuzosi kunahusisha fwaida na hasara. Fwaida ni kuonekana, samani ya chiuchumi, na ngòho ya chimila. Hasara, ichiwezekana, ni undani wa maana unaotegemera uhusiano wa nguwo na muktadha maalumu wa chijamii na chiroho."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "The Tension Between Registers",
+      "sw": "Mvutano Kati ya Rejista",
+      "dg": "Mvutano kahi ya Rejista"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Contemporary Digo dress culture is best understood as a system of registers — distinct modes of dressing that correspond to different social contexts and that a single individual may move between in the course of a day. The traditional register includes the hando, the kitambi, and the full vocabulary of ceremonial dress and adornment. The Muslim-coastal register centers on the buibui and hijab. The modern register encompasses Western clothing and contemporary African fashion. Each register carries its own rules, its own color vocabulary, its own standards of appropriateness.",
+      "sw": "Utamaduni wa mavazi ya Kidigo wa kisasa unafahamika vyema zaidi kama mfumo wa rejista — njia tofauti za kuvaa zinazohusiana na muktadha tofauti wa kijamii na ambazo mtu mmoja anaweza kusogea kati yake katika mwendo wa siku. Rejista ya jadi inajumuisha hando, kitambi, na mfumo kamili wa mavazi ya sherehe na mapambo. Rejista ya Kiislamu ya pwani inazingatia buibui na hijab. Rejista ya kisasa inajumuisha mavazi ya Kimagharibi na mitindo ya kisasa ya Kiafrika. Kila rejista inabeba sheria zake, mfumo wake wa rangi, na viwango vyake vya kufaa.",
+      "dg": "Utamaduni wa nguwo za Chidigo wa vivi unafahamika vinono zaidi dza mfumo wa rejista — njira tafwauti za kuvwala zinazohusiana na mazingira tafwauti ga chijamii na ambazo mutu mmwenga anaweza kusogera kahi yazo kahi ya mwendo wa siku. Rejista ya chijadi inajumuisha hando, kitambi, na mfumo kamili wa nguwo za sherehe na mapambo. Rejista ya Chisilamu ya pwani inazingatira buibui na hijab. Rejista ya vivi inajumuisha nguwo za Chizungu na mitindo ya vivi ya Chiafrika. Chila rejista inatsukula sheriaze, mfumowe wa rangi, na viwangovye vya kufwaha."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The fluidity between these registers is itself a form of cultural sophistication. A Digo woman who wears a buibui to Friday prayers, changes into a kanga for cooking lunch, puts on Western office wear for an afternoon meeting, and then wraps herself in a hando for a weekend ceremony is not experiencing identity confusion. She is demonstrating mastery of a complex cultural environment that requires different presentations of self in different contexts. The ability to move between registers — to know what each context demands and to present oneself appropriately — is a skill, not a symptom.",
+      "sw": "Ulaini wa kusogea kati ya rejista hizi wenyewe ni aina ya ustadi wa kitamaduni. Mwanamke Mdigo anayevaa buibui kwa swala ya Ijumaa, anabadilisha kanga kwa kupika chakula cha mchana, anavaa mavazi ya ofisi ya Kimagharibi kwa mkutano wa alasiri, na kisha anajifunga hando kwa sherehe ya wikendi hapitii mkanganyiko wa utambulisho. Anaonyesha ustadi wa mazingira magumu ya kitamaduni yanayohitaji uwasilishaji tofauti wa nafsi katika muktadha tofauti. Uwezo wa kusogea kati ya rejista — kujua kila muktadha unahitaji nini na kujionyesha ipasavyo — ni ujuzi, si dalili.",
+      "dg": "Ulaini wa kusogera kahi ya rejista hizi wenyewe ni aina ya ustadi wa chimila. Mchetu Mdigo anayevwala buibui kpwa swala ya Ijumaa, anabadilisha kanga kpwa kujita chakurya cha mutana, anavwala nguwo za ofisi za Chizungu kpwa mkutano wa dziloni, na phapho anadzikunga hando kpwa sherehe ya jumamosi kaphitiye mkanganyiko wa kutambulika. Anaonyesa ustadi wa mazingira magumu ga chimila ganagolonda uonyeshaji tafwauti wa mutu kahi ya muktadha tafwauti. Uwezo wa kusogera kahi ya rejista — kumanya chila muktadha unalonda mini na kudzionyesa vinono — ni ujuzi, siyo dalili."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "The contemporary revival seeks to create bridges between these registers rather than to collapse them into one. When a designer creates a modern dress incorporating traditional weaving patterns, she is building a garment that can move between the traditional and modern registers, carrying elements of one into the other. This cross-pollination enriches both registers without dissolving the boundaries that give each its meaning.",
+      "sw": "Ufufuo wa kisasa unatafuta kuunda madaraja kati ya rejista hizi badala ya kuziunganisha kuwa moja. Mbunifu anapoundavazi la kisasa linalojumuisha nakshi za ufumaji wa jadi, anajenga nguo inayoweza kusogea kati ya rejista za jadi na za kisasa, ikibeba vipengele vya moja ndani ya nyingine. Uchavushaji huu unaboresha rejista zote mbili bila kuyeyusha mipaka inayoipa kila moja maana yake.",
+      "dg": "Ufufuo wa vivi unalonda kuunda madaraja kahi ya rejista hizi badala ya kuziunganisha kukala mwenga. Mubunifu anaphounda nguwo ya vivi inayojumuisha nakshi za ufumaji wa chijadi, anaunda nguwo inayoweza kusogera kahi ya rejista za chijadi na za vivi, ichitsukula vipengele vya mwenga ndani ya yanjine. Uchavushaji huno unaboresha rejista zosi mbiri bila kuyeyusha miphaka inayoipha chila mwenga maanaye."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "The Hando in Modern Contexts",
+      "sw": "Hando katika Muktadha wa Kisasa",
+      "dg": "Hando kahi ya Mazingira ga Vivi"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "The hando itself has begun to appear in contexts that would have been unimaginable a generation ago. Young women wear hando-inspired wraps at university cultural events, claiming their heritage in educational settings dominated by Western norms. Hando elements appear in wedding photography — styled shoots that blend traditional dress with contemporary aesthetics, creating images that circulate on social media and reintroduce the garment to audiences who might never attend a traditional ceremony. Cultural festivals along the coast feature hando displays, fashion competitions, and demonstrations of traditional draping techniques, creating deliberate pedagogical moments in which traditional knowledge is transmitted to new audiences.",
+      "sw": "Hando yenyewe imeanza kuonekana katika muktadha ambao ungeweza kufikirika kizazi kilichopita. Wanawake vijana wanavaa vifuniko vilivyoongozwa na hando katika matukio ya kitamaduni ya vyuo vikuu, wakidai urithi wao katika mazingira ya elimu yanayotawaliwa na kanuni za Kimagharibi. Vipengele vya hando vinaonekana katika upigaji picha wa harusi — picha zilizopangwa ambazo zinachanganya mavazi ya jadi na uzuri wa kisasa, zikiunda picha zinazosambaa kwenye mitandao ya kijamii na kuanzisha upya nguo hiyo kwa hadhira ambayo huenda kamwe haitahudhuria sherehe ya jadi. Tamasha za kitamaduni kando ya pwani zinaonyesha hando, mashindano ya mitindo, na maonyesho ya mbinu za jadi za kufunga, zikiunda nyakati za makusudi za kufundisha ambamo maarifa ya jadi yanasambazwa kwa hadhira mpya.",
+      "dg": "Hando renyewe rikandza kuonekana kahi ya mazingira ambago gangekala gagafikirika chizazi chirichotsupa. Asichana adide anavwala vifuniko virivyoongozwa ni hando kahi ya matukio ga chimila ga vyuo vikulu, achidai urithi wao kahi ya mazingira ga elimu ganagotawalwa ni kanuni za Chizungu. Vipengele vya hando vinaonekana kahi ya kuphiga picha za arusi — picha zirizopangwa ambazo zinachanganya nguwo za chijadi na urembo wa vivi, zichiunda picha zinazotsambalwa kpwa mitandao ya chijamii na kuonyesa luphya nguwo iyo kpwa atu ambao ichiwezekana taandaphiya katu sherehe ya chijadi. Tamasha za chimila kanda ya pwani zinaonyesa hando, mashindano ga mitindo, na maonyesho ga mbinu za chijadi za kukunga, zichiunda nyakati za makusudi za kufundisha ambamo marifwa ga chijadi ganasambazwa kpwa aogalana nao muphya."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "These new contexts do not replace the traditional ones. The kaya ceremony still requires the hando worn in the traditional way. The wedding still calls for the white hando of the bride, draped and tucked by experienced hands. The elder women still wear their blue wraps as markers of authority and wisdom. What the new contexts provide is supplementary meaning — additional occasions for the hando to be seen, worn, discussed, and valued, expanding the garment's cultural footprint beyond the shrinking domain of traditional ceremony into the growing territory of contemporary cultural expression.",
+      "sw": "Muktadha hizi mpya hazichukui nafasi ya zile za jadi. Sherehe ya kaya bado inahitaji hando ivaliwayo kwa njia ya jadi. Harusi bado inaita hando nyeupe ya bibi arusi, iliyofungwa na kukunjwa na mikono yenye uzoefu. Wanawake wazee bado wanavaa vifuniko vyao vya buluu kama alama za mamlaka na hekima. Muktadha mpya zinachotoa ni maana ya nyongeza — fursa zaidi kwa hando kuonekana, kuvaliwa, kujadiliwa, na kuthaminiwa, ikipanua alama ya kitamaduni ya nguo hiyo zaidi ya eneo linalopungua la sherehe za jadi hadi eneo linaloongezeka la usemi wa kitamaduni wa kisasa.",
+      "dg": "Mazingira higa maphya tagatsukula nafasi ya ga chijadi. Sherehe ya kaya bado inalonda hando rivwalwavyo kpwa njira ya chijadi. Arusi bado inaiha hando nyereru ra bibi arusi, ririkungwa na kukundzwa ni mikono yenye uzoefu. Achetu azehe bado anavwala vifuniko vyao vya samawati dza alama za uwezo na ikima. Mazingira maphya ganagotolea ni maana ya nyongeza — fursa zaidi kpwa hando kuonekana, kuvwalwa, kujadiliwa, na kuthaminiwa, ichipanula alama ya chimila ya nguwo iyo zaidi ya eneo rinarodziha ra sherehe za chijadi hadi eneo rinagoenderera kukula ra usemi wa chimila wa vivi."
+    },
+    {
+      "id": "b021",
+      "type": "heading",
+      "en": "Beadwork and the Artisan Economy",
+      "sw": "Ushanga na Uchumi wa Mafundi",
+      "dg": "Ushanga na Uchumi wa Amafundi"
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The revival extends beyond garments to the broader material culture of Digo dress, particularly beadwork. Women's groups and individual artisans along the south coast have recognized that traditional beadwork skills — the creation of vivorodete, tunda, and other adornments — can serve as the foundation for a contemporary jewelry practice. By adapting traditional techniques and color vocabularies to contemporary jewelry forms, these artisans create products that carry cultural meaning while functioning in the commercial marketplace.",
+      "sw": "Ufufuo unaenea zaidi ya mavazi hadi utamaduni mpana wa kimali wa mavazi ya Kidigo, hasa ushanga. Vikundi vya wanawake na mafundi binafsi kando ya pwani ya kusini wametambua kuwa ujuzi wa ushanga wa jadi — uundaji wa vivorodete, tunda, na mapambo mengine — unaweza kutumika kama msingi wa mazoezi ya vito vya kisasa. Kwa kubadilisha mbinu za jadi na mifumo ya rangi kulingana na aina za vito vya kisasa, mafundi hawa wanaunda bidhaa zinazobeba maana ya kitamaduni huku zikifanya kazi katika soko la kibiashara.",
+      "dg": "Ufufuo unaenderera zaidi ya nguwo hadi utamaduni mphana wa vitu vya nguwo za Chidigo, hasa ushanga. Vikundi vya achetu na amafundi binafsi kanda ya pwani ya kusini akatambua kukala ujuzi wa ushanga wa chijadi — uundadzi wa vivorodete, tunda, na mapambo ganjine — unaweza kuhumirwa dza msingi wa mazoezi ga vitu vya kudzirembesha ga vivi. Kpwa kubadilisha mbinu za chijadi na mifumo ya rangi kulingana na aina za vitu vya kudzirembesha ga vivi, amafundi hawa anaunda bidhaa zinazosukula maana ya chimila zichihenda kazi kahi ya soko ra chibiashara."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "This artisan economy faces real challenges. The skills required for traditional beadwork are labor-intensive and time-consuming, making it difficult to compete on price with mass-produced accessories. The cultural knowledge that informs traditional color choices and pattern meanings is not always valued by external consumers who may appreciate the aesthetic without understanding its significance. And the market for culturally specific products is inherently limited compared to the market for generic fashion accessories. Yet the persistence of these artisan practices — their refusal to disappear despite economic pressure — speaks to a commitment to cultural continuity that transcends simple market logic.",
+      "sw": "Uchumi huu wa mafundi unakabiliwa na changamoto halisi. Ujuzi unaohitajika kwa ushanga wa jadi unahitaji kazi nyingi na muda mwingi, na kufanya iwe vigumu kushindana kwa bei na vipambo vinavyotengenezwa kwa wingi. Maarifa ya kitamaduni yanayoelekeza chaguo za rangi za jadi na maana za nakshi si daima yanathaminiwa na wateja wa nje ambao wanaweza kupenda uzuri bila kuelewa umuhimu wake. Na soko la bidhaa maalum za kitamaduni ni dogo kwa asili ikilinganishwa na soko la vipambo vya mitindo vya kawaida. Hata hivyo, kudumu kwa mazoezi haya ya mafundi — kukataa kwao kutoweka licha ya shinikizo la kiuchumi — kunazungumza juu ya kujitolea kwa kuendelea kwa utamaduni kunakopita mantiki rahisi ya soko.",
+      "dg": "Uchumi huno wa amafundi unakutana na changamoto za kpweli. Ujuzi unaolondwa kpwa ushanga wa chijadi unalonda kazi nyinji na wakati munji, na kuhenda ikale vigumu kushindana kpwa bei na vipambo vinavyoundwa kpwa unji. Marifwa ga chimila ganagolongoza chaguo za rangi za chijadi na maana za nakshi si sikuzosi ganathaminiwa ni atu a kondze ambao anaweza kuufurahira urembo bila kuelewa umuhimuwe. Na soko ra bidhaa maalumu za chimila ni dide kpwa asili ichilinganishwa na soko ra vipambo vya mitindo vya kawaida. Ela phahi kudumu kpwa mazoezi higa ga amafundi — kukatala kpwao kutoweka ingawa kuna shinikizo ra chiuchumi — kunagomba kuhusu kudzitolea kpwa kuenderera kpwa chimila kunatsupa mantiki rahisi ya soko."
+    },
+    {
+      "id": "b024",
+      "type": "heading",
+      "en": "What Is at Stake",
+      "sw": "Kilichohatarini",
+      "dg": "Chiricho Hatarini"
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "The contemporary dress revival among the Digo is, at its deepest level, a negotiation about identity in a globalizing world. The question is not whether the Digo will wear Western clothes — they already do, and they will continue to do so. The question is whether the traditional textile vocabulary — the hando's folds, the kanga's proverbs, the kitambi's indigo, the beadwork's colors — will survive alongside modern dress as a living cultural resource, or whether it will fade into the category of heritage display, brought out for tourists and cultural festivals but absent from the texture of daily life.",
+      "sw": "Ufufuo wa mavazi ya kisasa miongoni mwa Wadigo ni, kwa kina chake, mazungumzo kuhusu utambulisho katika ulimwengu unaounganishwa. Swali si kama Wadigo watavaa nguo za Kimagharibi — tayari wanavaa, na wataendelea kufanya hivyo. Swali ni kama mfumo wa vitambaa vya jadi — mikunjo ya hando, methali za kanga, nili ya kitambi, rangi za ushanga — utaendelea kuishi pamoja na mavazi ya kisasa kama rasilimali hai ya kitamaduni, au kama utafifia na kuingia katika kundi la maonyesho ya urithi, yanayotolewa kwa watalii na tamasha za kitamaduni lakini hayapo katika muundo wa maisha ya kila siku.",
+      "dg": "Ufufuo wa nguwo za vivi kahi ya Adigo ni, kpwa undaniwe, mazungumzo kuhusu kutambulika kahi ya ulumwengu unaounganishwa. Swali si kama Adigo andavwala nguwo za Chizungu — kare anavwala, na andaenderera kuhenda hivyo. Swali ni kama mfumo wa vitambara vya chijadi — mikunjo ya hando, ndarira za kanga, nili ya kitambi, rangi za ushanga — undaenderera kuishi phamwenga na nguwo za vivi dza rasilimali hai ya chimila, au kama undafifia na kuinjira kahi ya kundi ra maonyesho ga urithi, ganagotolwa kpwa ajeni na tamasha za chimila ela gasiho kahi ya muundo wa maisha ga chila siku."
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "The answer is not yet determined, and it will be shaped by the choices of individual designers, artisans, cultural advocates, and ordinary people who decide each morning what to put on their bodies. Every young woman who learns to tie a hando, every artisan who strings traditional beads into a contemporary necklace, every designer who incorporates coastal textile techniques into a modern garment — each of these choices pushes the outcome in one direction. The opposite choices — the abandoned loom, the forgotten fold, the traditional knowledge that dies with its last practitioner — push in the other.",
+      "sw": "Jibu bado halijaamuliwa, na litaundwa na chaguo za wabunifu binafsi, mafundi, watetezi wa kitamaduni, na watu wa kawaida wanaoamua kila asubuhi nini wavae mwilini mwao. Kila msichana kijana anayejifunza kufunga hando, kila fundi anayepiga shanga za jadi kuwa mkufu wa kisasa, kila mbunifu anayejumuisha mbinu za vitambaa vya pwani katika nguo ya kisasa — kila chaguo hizi zinasukuma matokeo upande mmoja. Chaguo kinyume — kitanda kilichoachwa, mkunjo uliosauhiliwa, maarifa ya jadi yanayokufa na mtendaji wake wa mwisho — zinasukuma upande mwingine.",
+      "dg": "Jibu bado tariamuliwa, na rindaundwa ni chaguo za abunifu binafsi, amafundi, ateezi a chimila, na atu a kawaida anaoamua chila ligundzu ni mini avwale mwao mwirini. Chila msichana mdide anayefundza kukunga hando, chila mfundi anayesuka ushanga wa chijadi kukala mkufu wa vivi, chila mubunifu anayejumuisha mbinu za vitambara vya pwani kahi ya nguwo ya vivi — chila chaguo hizi zinasukuma matokeo upande mmwenga. Chaguo za chinyume — chitanda chirichorichwa, mkunjo urioyayalwa, marifwa ga chijadi ganagofwa na mtendajiwe wa mwisho — zinasukuma upande wanjine."
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "What the revival demonstrates is that the outcome is not inevitable. Cultural change does not have to mean cultural loss. The Digo textile tradition has survived centuries of transformation — the arrival of Islam, Portuguese colonialism, British rule, Kenyan independence, globalization — adapting at each stage without losing its distinctive character. The current moment is another such stage, and the creativity, energy, and determination of the people working to carry the tradition forward suggest that the Digo way of speaking through cloth has chapters yet to be written.",
+      "sw": "Ufufuo unaonyesha kuwa matokeo si ya lazima. Mabadiliko ya kitamaduni si lazima yamaanishe upotevu wa kitamaduni. Mila ya vitambaa ya Wadigo imenusurika karne za mabadiliko — ujio wa Uislamu, ukoloni wa Kireno, utawala wa Kiingereza, uhuru wa Kenya, utandawazi — ikibadilika katika kila hatua bila kupoteza tabia yake ya kipekee. Wakati wa sasa ni hatua nyingine kama hiyo, na ubunifu, nguvu, na azimio la watu wanaofanya kazi kubeba mila mbele yanaonyesha kuwa njia ya Kidigo ya kuzungumza kupitia nguo ina sura bado za kuandikwa.",
+      "dg": "Ufufuo unaonyesa kukala matokeo si ga lazima. Mabadiliko ga chimila si lazima gamaanishe kuangamika kpwa chimila. Mila ya vitambara ya Adigo ikaishi karne za mabadiliko — kpwedza kpwa Usilamu, ukoloni wa Chireno, utawala wa Chingereza, uhuru wa Kenya, utandawazi — ichibadilika kahi ya chila hatua bila kuangamiza tabiyaye ya chipekee. Wakati wa vivi ni hatua yanjine dza iyo, na ubunifu, nguvu, na azimio ra atu anaohenda kazi kutsukula mila mbere yanaonyesa kukala njira ya Chidigo ya kugomba kuphitiya nguwo ina sura bado za kuandikpwa."
+    }
+  ]
+}

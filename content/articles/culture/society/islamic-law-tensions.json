@@ -1,0 +1,183 @@
+{
+  "id": "culture/society/islamic-law-tensions",
+  "title": {
+    "en": "Islamic Law and Matrilineal Tensions",
+    "sw": "Sheria ya Kiislamu na Mvutano wa Ukoo wa Mama",
+    "dg": "Shariya ya Chiislamu na Kuvutana na Ukoo wa Nine"
+  },
+  "intro": {
+    "en": "The Digo are the only predominantly Muslim group among the nine Mijikenda peoples. They are also the group with the strongest matrilineal traditions. These two facts create a tension that has shaped…",
+    "sw": "Wadigo ndio kundi pekee lenye Waislamu wengi miongoni mwa watu tisa wa Mijikenda. Pia ndio kundi lenye mila kali zaidi za upande wa mama. Ukweli huu mbili unaunda mvutano ambao umeshughulisha jamii ya…",
+    "dg": "Adigo ndio kundi rakpwe macheye renye Aislamu anji kahi ya atu tisiya a Amijikenda. Piya ndio kundi renye mila kali zaidi za uphande wa nine. Mambo gano mairi ganareha kuvutana ambako kukahenda jamii ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Two Legal Worlds in One Community",
+      "sw": "Ulimwengu Mbili za Kisheria Katika Jamii Moja",
+      "dg": "Dunia Mbiri za Chishariya kpwa Jamii Mmwenga"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo are the only predominantly Muslim group among the nine Mijikenda peoples. They are also the group with the strongest matrilineal traditions. These two facts create a tension that has shaped Digo society for centuries and continues to define the most intimate decisions of family life: who inherits, who holds authority over children, whose law governs when a marriage ends or a patriarch dies.",
+      "sw": "Wadigo ndio kundi pekee lenye Waislamu wengi miongoni mwa watu tisa wa Mijikenda. Pia ndio kundi lenye mila kali zaidi za upande wa mama. Ukweli huu mbili unaunda mvutano ambao umeshughulisha jamii ya Wadigo kwa karne nyingi.",
+      "dg": "Adigo ndio kundi rakpwe macheye renye Aislamu anji kahi ya atu tisiya a Amijikenda. Piya ndio kundi renye mila kali zaidi za uphande wa nine. Mambo gano mairi ganareha kuvutana ambako kukahenda jamii ya Adigo ikale dza irivyo kpwa karne nyinji, na kunaenderera kuamua maamuzi ga ndani zaidi ga maisha ga mbari: ani anarithi, ani ana mamlaka dzulu ya ana, na ni shariya ya ani inayohumirwa ndowa ichimala au mkpwulu wa mbari achifwa."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Islamic family law, rooted in the Quran and the Hadith, is fundamentally patrilineal. A father is the head of his household. His children are his heirs. His sons receive double the inheritance share of his daughters. His wife receives one-eighth of his estate if there are children. The maternal uncle — the mjomba who stands at the centre of Digo matrilineal custom — has no formal standing in the Islamic legal framework whatsoever.",
+      "sw": "Sheria ya familia ya Kiislamu ni ya upande wa baba kimsingi. Baba ndiye mkuu wa nyumba yake. Watoto wake ndio warithi wake. Desturi ya upande wa mama ya Wadigo, iliyojengwa juu ya mfumo wa fuko, inafanya kazi kwa kanuni zilizo kinyume kabisa. Kwa angalau karne tatu, Wadigo wameishi ndani ya mifumo yote miwili kwa wakati mmoja.",
+      "dg": "Shariya ya mbari ya Chiislamu, iriyodzengbwa dzulu ya Kurani na Hadithi, kpwa musingi ni ya uphande wa ise. Ise ndiye mkpwulu wa nyumbaye. Anae ndio arithie. Anae alume anaphokera seemu ya urithi mara mbiri ya seemu ya anae achetu. Mchewe anaphokera seemu mwenga kpwa nane ya malize ichikala kuna ana. Aphu (mjomba) — iye ariye kahi-kahi ya desturi ya uphande wa nine ya Adigo — kana nafasi yoyosi rasmi kpwa mfumo wa shariya ya Chiislamu."
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "Digo matrilineal custom, rooted in the fuko system, operates on precisely opposite principles. A child belongs to the mother's clan. Property passes to the sister's children. The mjomba, not the father, is the primary male authority over a child's marriage and clan obligations. A man's own children inherit not from him but from their own maternal line.",
+      "sw": "Mabadiliko ya Polepole",
+      "dg": "Desturi ya uphande wa nine ya Adigo, iriyodzengbwa dzulu ya mfumo wa fuko, inahenda kazi kpwa kanuni zirizo chinyume kabisa. Mwana ni wa ukoo wa nine. Mali inaphiya kpwa ana a ndugu achetu. Aphu, si ise, ndiye mwenye mamlaka makulu ga chilume dzulu ya ndowa ya mwana na wajibuwe wa ukoo. Ana a mlume taarithi kula kpwakpwe ela kula uphande wa nine wao."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "For at least three centuries, the Digo have lived within both systems simultaneously.",
+      "sw": "Uislamu wa Wadigo haukuwa tukio la ghafla. Ulikuwa mchakato wa polepole ulioendelea kwa karne, ukiharakisha katika karne ya kumi na tisa na ishirini. Mabadiliko hayakuwahi kukamilika — yaliendelea kwa njia tofauti katika maeneo tofauti.",
+      "dg": "Kpwa karne tahu au zaidi, Adigo akaishi ndani ya mifumo yosi miiri kpwa wakati mmwenga."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Gradual Shift",
+      "sw": "Usumbufu wa Kikoloni",
+      "dg": "Mabadiliko ga Pore-Pore"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "The Islamisation of the Digo was not a sudden event. It was a gradual process that unfolded over centuries, accelerating in the nineteenth and twentieth centuries as coastal trading networks, Sufi brotherhoods, and colonial administrative categories all pushed in the same direction. As Islam became not just a faith but a social identity — as being Digo increasingly meant being Muslim — the patrilineal inheritance principles of Sharia law began to exert pressure on the matrilineal customs that had governed Digo property relations for generations.",
+      "sw": "Utawala wa kikoloni wa Uingereza uliongeza tabaka la tatu la kisheria. Mahakama za kikoloni zilitambua urithi wa baba kama msingi — zikionyesha dhana za sheria ya kawaida ya Uingereza na mwelekeo wa wasimamizi kuendana na mifumo ya kisheria ya Kiislamu.",
+      "dg": "Kuinjira kpwa Chiislamu kahi ya Adigo takuyakala dzambo ra ghafla. Yakala kazi ya pore-pore iriyoenderera kpwa karne, ichihenda upesi zaidi karne ya kumi na tisiya na ya mirongo miiri, wakati mitandao ya biashara ya pwani, makundi ga Chisufi, na mpangilio wa utawala wa chikoloni zosi zasukuma kpwa uphande mmwenga. Chiislamu chiriphokala si imani bahi ela utambulisho wa jamii — kukala Mdigo kuriphokala kunamaanisha zaidi na zaidi kukala Mwislamu — kanuni za urithi wa uphande wa ise za Sharia zaandza kusukuma mila za uphande wa nine zirizokala zinaimirira mali za Adigo kpwa vizazi."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The shift was never complete. It proceeded unevenly — faster in urban and coastal areas with stronger connections to Swahili Islamic culture, slower in inland areas where the kaya system and traditional elder authority remained stronger. Families made individual decisions about which system to follow, often varying by the type of property in question, the strength of the matrilineal ties in a particular family, and the relative piety and assertiveness of the individuals involved.",
+      "sw": "Jibu la Kimkakati la Wanawake",
+      "dg": "Mabadiliko tagayakamilika. Garienderera kpwa njira tafwauti kpwa phatu tafwauti — upesi zaidi kpwa midzi mikulu na pwani, phatu phenye uhusiano wa nguvu na chisomo cha Chiislamu cha Chiswahili, na pore-pore kpwa phatu pha bara ambapho mfumo wa kaya na mamlaka ga azehe ga chimila gasala na nguvu. Chila mbari yaamua ilunge mfumo uphi, mara nyinji kulungana na aina ya mali, nguvu ya vifungo vya uphande wa nine kpwa mbari iyo, na vira atu ahusikao arivyokala na imani na ujasiri."
+    },
+    {
+      "id": "b009",
+      "type": "heading",
+      "en": "The Colonial Complication",
+      "sw": "Wanawake wa Wadigo waligeuka Uislamu kwa makusudi ili kupata haki za urithi — si kwa sababu Uislamu ulitoa zaidi, bali kwa sababu ulitoa kitu kilichokuwa kinatekelezeka katika mahakama rasmi ambako haki za desturi zilikuwa zikifutwa.",
+      "dg": "Kugaluzwa ni Akoloni"
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The arrival of British colonial administration added a third legal layer to an already complex situation. Colonial courts recognised patrilineal inheritance as the default — reflecting both British common law assumptions and the administrators' tendency to align with Islamic legal frameworks, which were codified and therefore legible to colonial bureaucracy in a way that matrilineal custom was not.",
+      "sw": "Mazungumzo ya Kisasa",
+      "dg": "Utawala wa chikoloni wa Chingereza wenjereza seemu ya hahu ya chishariya kpwa hali iriyokala tayari ni ngumu. Mahakama za chikoloni zamanya urithi wa uphande wa ise dza musingi — zichionyesa dhana za shariya ya kawaida ya Chingereza, na piya vira atawala a chikoloni arivyokala anaelekea kulunga mifumo ya shariya ya Chiislamu, iriyokala ikaandikpwa na kpwa hivyo yaelewekana ni ofisi za chikoloni kpwa njira ambayo desturi ya uphande wa nine taiyaelewekana."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "For Digo women, the colonial court system was a double blow. Matrilineal custom had given women significant property rights through konho land and their position within the fuko. But these rights were customary — unwritten, enforced by community consensus and elder authority, invisible to the colonial legal system. When inheritance disputes reached the colonial courts, the courts applied patrilineal principles, and women's matrilineal claims dissolved.",
+      "sw": "Leo, familia ya Wadigo inayoshughulika na mgogoro wa urithi inasogea angalau ndani ya mifumo mitatu ya kisheria kwa wakati mmoja: sheria ya kiraia ya Kenya, sheria ya Kiislamu, na desturi ya upande wa mama. Suluhisho la kawaida zaidi ni la kiutendaji badala ya kanuni: familia zinatoa kutoka kwa mfumo wowote unaohudumia hitaji la karibu.",
+      "dg": "Kpwa achetu a Adigo, mfumo wa mahakama za chikoloni wakala pigo mara mbiri. Desturi ya uphande wa nine yaapha achetu haki za muhimu za mali kutsupira tsi ya konho na nafasi yao ndani ya fuko. Ela haki zino zakala za chimila — taziyaandikpwa, zalungwa kpwa makubaliano ga jamii na mamlaka ga azehe, na taziyaonekana kpwa mfumo wa shariya wa chikoloni. Makondo ga urithi gachifika kpwa mahakama za chikoloni, mahakama zahumira kanuni za uphande wa ise, na madai ga achetu ga uphande wa nine gaangamika."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Women's Strategic Response",
+      "sw": "Jibu la Kimkakati la Wanawake",
+      "dg": "Jibu ra Achetu ra Chimkakati"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The Digo women's response to this erosion reveals a sophisticated understanding of legal strategy. Some women converted to Islam specifically to secure inheritance rights. This was not a spiritual decision — or not only a spiritual decision. It was a legal one. Islamic inheritance law, while patrilineal, guaranteed women specific shares: a daughter received half of a son's share, a wife received one-eighth of her husband's estate. These shares were codified, enforceable in the Kadhi's courts, and backed by the authority of Islamic jurisprudence.",
+      "sw": "Jibu la wanawake wa Wadigo kwa mmomonyoko huu linaonyesha uelewa wa hali ya juu wa mkakati wa kisheria. Baadhi ya wanawake waligeuka Uislamu kwa makusudi ili kupata haki za urithi. Hii haikuwa uamuzi wa kiroho — au si uamuzi wa kiroho pekee. Ilikuwa uamuzi wa kisheria. Sheria ya urithi ya Kiislamu, ingawa ni ya upande wa baba, ilihakikishia wanawake sehemu mahususi: binti alipokea nusu ya sehemu ya mwana, mke alipokea moja ya nane ya mali ya mumewe. Sehemu hizi ziliwekwa sheria, zinazotekelezeka katika mahakama za Kadhi, na zilizounga mkono na mamlaka ya sheria ya Kiislamu.",
+      "dg": "Jibu ra achetu a Adigo kpwa kubanangika kuku kpwa hakize rinaonyesa kukala amanya vinono mbinu za chishariya. Achetu anjina agaluka Aislamu kpwa makusudi ili kuphaha haki za urithi. Uku takuyakala uamuzi wa chiroho — au si uamuzi wa chiroho bahi. Wakala uamuzi wa chishariya. Shariya ya urithi ya Chiislamu, hata kala ni ya uphande wa ise, yaahakikishira achetu seemu maalum: mwana mchetu ariphokera nusu ya seemu ya mwana mlume, mche ariphokera seemu mwenga kpwa nane ya mali ya mlumewe. Seemu zino zikaandikpwa kpwa shariya, zaweza kutekelezwa kpwa mahakama za Kadhi, na zaterywa ni mamlaka ya shariya ya Chiislamu."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "For women whose customary matrilineal rights were being eroded by colonial courts that refused to recognise them, conversion to Islam offered a more defensible position. The irony was sharp: women moved from a customary system that gave them more (complete control over konho land) to a religious system that gave them less (fixed fractional shares) — because the lesser amount was enforceable and the greater amount was not.",
+      "sw": "Kwa wanawake ambao haki zao za kimila za upande wa mama zilikuwa zikimomonyolewa na mahakama za kikoloni zilizokataa kuzitambua, kugeuka Uislamu kulitoa nafasi inayoweza kutetewa zaidi. Upingano ulikuwa mkali: wanawake walihamia kutoka mfumo wa kimila ambao uliwapa zaidi (udhibiti kamili wa ardhi ya konho) kwenda mfumo wa kidini ambao uliwapa kidogo (sehemu za sehemu zilizowekwa) — kwa sababu kiasi kidogo kilikuwa kinatekelezeka na kiasi kikubwa hakikuwa.",
+      "dg": "Kpwa achetu ambao haki zao za chimila za uphande wa nine zikala zinabanangwa ni mahakama za chikoloni zirizokahala kuzimanya, kugaluka Aislamu kpwaapha nafasi ya kudzitetea zaidi. Dzambo rino rakala ra ajabu: achetu atsama kula mfumo wa chimila uriowapha zaidi (uwezo wosi dzulu ya tsi ya konho) kuphiya mfumo wa chidini uriowapha chidide (seemu zirizopimwa) — kpwa sababu chiasi chidide chaweza kutekelezwa na chiasi chikulu tachiyaweza."
+    },
+    {
+      "id": "b015",
+      "type": "heading",
+      "en": "The Chief Kadhi's Role",
+      "sw": "Jukumu la Kadhi Mkuu",
+      "dg": "Kazi ya Kadhi Mkpwulu"
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "The tensions between matrilineal custom and Islamic law were significant enough to require formal intervention at the highest level of Kenya's Islamic judiciary. The Chief Kadhi stepped in to establish inheritance frameworks for children of mixed-faith marriages — cases where one parent followed matrilineal custom and the other followed Islamic law, where the question of which system applied was genuinely unclear.",
+      "sw": "Mvutano kati ya desturi ya upande wa mama na sheria ya Kiislamu ulikuwa mkubwa wa kutosha kuhitaji kuingilia kati rasmi katika kiwango cha juu zaidi cha mahakama ya Kiislamu ya Kenya. Kadhi Mkuu aliingilia kati ili kuanzisha mifumo ya urithi kwa watoto wa ndoa za imani mchanganyiko — kesi ambapo mzazi mmoja alifuata desturi ya upande wa mama na mwingine alifuata sheria ya Kiislamu, ambapo swali la mfumo upi unaotumika lilikuwa haliko wazi kweli.",
+      "dg": "Kuvutana kahi ya desturi ya uphande wa nine na shariya ya Chiislamu kpwakala kukulu hata kukahitaji kuinjira kahi rasmi kpwa chiwango cha dzulu zaidi cha mahakama za Chiislamu za Kenya. Kadhi Mkpwulu wainjira kahi ili kuika mifumo ya urithi kpwa ana a ndowa za imani mbiri — kesi ambapho mvyazi mmwenga walunga desturi ya uphande wa nine na wanjina walunga shariya ya Chiislamu, ambapho swali ra kukala ni mfumo uphi unaohumirwa takuyakala wazi kpweli."
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "These interventions created hybrid frameworks that attempted to balance Islamic inheritance principles with the reality of a community in which matrilineal ties remained culturally binding even where they had lost legal force. The Chief Kadhi's rulings acknowledged what the community already knew: that the Digo could not simply choose one system and abandon the other. The matrilineal tradition was too deeply embedded in identity to be overridden by decree, and Islamic law was too central to faith to be ignored.",
+      "sw": "Kuingilia kati huku kuliunda mifumo ya mseto iliyojaribu kusawazisha kanuni za urithi wa Kiislamu na ukweli wa jamii ambayo vifungo vya upande wa mama viliendelea kuwa vya lazima kitamaduni hata pale vilipopoteza nguvu ya kisheria. Maamuzi ya Kadhi Mkuu yalitambua kile ambacho jamii tayari ilijua: kwamba Wadigo hawangeweza tu kuchagua mfumo mmoja na kuacha mwingine. Mila ya upande wa mama ilikuwa imeingizwa kwa kina sana katika utambulisho ili kubatilishwa kwa amri, na sheria ya Kiislamu ilikuwa ya kati sana kwa imani ili kupuuzwa.",
+      "dg": "Kuinjira kahi kuku kpwahenda mifumo ya kutsanganya iriyojeza kusawazisha kanuni za urithi wa Chiislamu na ukpweli wa jamii ambamo vifungo vya uphande wa nine virienderera kukala vya lazima kpwa chisomo hata phatu viriphoangamiza nguvu ya chishariya. Maamuzi ga Kadhi Mkpwulu gamanya chira ambacho jamii tayari yamanya: kukala Adigo taayaweza bahi kutsambula mfumo mmwenga na kuricha wanjina. Chimila cha uphande wa nine chakala chikainjira ndani sana kpwa utambulisho hata chisiweze kubatilishwa kpwa amri, na shariya ya Chiislamu yakala ya muhimu sana kpwa imani hata isiweze kupuzwa."
+    },
+    {
+      "id": "b018",
+      "type": "heading",
+      "en": "The Contemporary Negotiation",
+      "sw": "Mazungumzo ya Kisasa",
+      "dg": "Mazungumzo ga Chisasa"
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "Today, a Digo family dealing with an inheritance dispute navigates at least three legal frameworks simultaneously. Kenyan civil law — specifically the Law of Succession Act — provides the state's framework. Islamic law, administered through the Kadhi's courts, provides the religious framework. And matrilineal custom, enforced through community expectation and elder authority rather than formal courts, provides the cultural framework.",
+      "sw": "Leo, familia ya Wadigo inayoshughulika na mgogoro wa urithi inasogea angalau ndani ya mifumo mitatu ya kisheria kwa wakati mmoja. Sheria ya kiraia ya Kenya — hasa Sheria ya Urithi — inatoa mfumo wa serikali. Sheria ya Kiislamu, inayosimamiwa kupitia mahakama za Kadhi, inatoa mfumo wa kidini. Na desturi ya upande wa mama, inayotekelezwa kupitia matarajio ya jamii na mamlaka ya wazee badala ya mahakama rasmi, inatoa mfumo wa kitamaduni.",
+      "dg": "Rero, mbari ya Adigo yenye kondo ra urithi inatsupira mifumo mihahu ya chishariya kpwa wakati mmwenga. Shariya ya chiraia ya Kenya — hasa Shariya ya Urithi — inapha mfumo wa serikali. Shariya ya Chiislamu, inayoimirirwa kutsupira mahakama za Kadhi, inapha mfumo wa chidini. Na desturi ya uphande wa nine, inayolungwa kpwa sababu ya vira jamii inavyotazamiya na mamlaka ga azehe badala ya mahakama rasmi, inapha mfumo wa chisomo."
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "In practice, the outcome often depends on which forum the dispute reaches. A case that goes to a magistrate's court will be decided under the Law of Succession Act. A case that goes to the Kadhi's court will be decided under Sharia. A case that is resolved within the community — through the mediation of elders, the intervention of a respected mjomba, the quiet redistribution of family property before anyone thinks to go to court — may follow matrilineal custom entirely.",
+      "sw": "Kwa vitendo, matokeo mara nyingi yanategemea baraza lipi mgogoro unafikia. Kesi inayoenda mahakama ya hakimu itaamuliwa chini ya Sheria ya Urithi. Kesi inayoenda mahakama ya Kadhi itaamuliwa chini ya Sharia. Kesi inayotatuliwa ndani ya jamii — kupitia upatanishi wa wazee, kuingilia kati kwa mjomba anayeheshimika, ugawaji kimya wa mali ya familia kabla mtu yeyote hajafikiria kwenda mahakamani — inaweza kufuata desturi ya upande wa mama kabisa.",
+      "dg": "Kpwa kpweli, mara nyinji matokeo ganakuluphira kondo rinafika baraza riphi. Kesi inayophiya mahakama ya hakimu indalunga Shariya ya Urithi. Kesi inayophiya mahakama ya Kadhi indalunga Sharia. Kesi inayomalwa ndani ya jamii — kutsupira azehe achipatanisha, aphu anayeishimiwa achiinjira kahi, au mali ya mbari ichiganywa kimya-kimya kabla mutu yeyesi kadzangbwefikiriya kuphiya mahakamani — inaweza kulunga desturi ya uphande wa nine kabisa."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The most common resolution is pragmatic rather than principled. Families draw from whichever system serves the immediate need. A father may follow Islamic inheritance for his formal assets — his house, his bank account, his registered land — while allowing matrilineal custom to govern the distribution of traditional family property. A mother may invoke her Islamic right to a specific share of her husband's estate while simultaneously ensuring that her konho land passes to her daughters according to matrilineal tradition.",
+      "sw": "Suluhisho la kawaida zaidi ni la kiutendaji badala ya kanuni. Familia zinatoa kutoka kwa mfumo wowote unaohudumia hitaji la karibu. Baba anaweza kufuata urithi wa Kiislamu kwa mali zake rasmi — nyumba yake, akaunti yake ya benki, ardhi yake iliyosajiliwa — huku akiruhusu desturi ya upande wa mama kusimamia ugawaji wa mali ya jadi ya familia. Mama anaweza kutumia haki yake ya Kiislamu ya sehemu mahususi ya mali ya mumewe huku wakati huo huo akihakikisha kwamba ardhi yake ya konho inapita kwa binti zake kulingana na mila ya upande wa mama.",
+      "dg": "Njira ya kawaida zaidi ni kuhenda chitu chinachofwaha, si kulunga kanuni. Mbari zinahala kula kpwa mfumo wowosi unaoterya kpwa haja ya wakati hinyo. Ise anaweza kulunga urithi wa Chiislamu kpwa malize rasmi — nyumbaye, akauntiye ya benki, tsiye iriyoandikpwa — achiricha desturi ya uphande wa nine iimirire kuganya mali ya jadi ya mbari. Nine anaweza kuhumira hakiye ya Chiislamu ya seemu maalum ya mali ya mlumewe na wakati hinyo hinyo achihakikisha kukala tsiye ya konho inaphiya kpwa anae achetu kulunga chimila cha uphande wa nine."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "What Neither System Captures",
+      "sw": "Kile Ambacho Mfumo Wowote Haushiki",
+      "dg": "Chira Ambacho Takuna Mfumo Unaochigbwira"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The deeper truth is that neither Islamic law nor matrilineal custom, taken alone, captures the full reality of Digo family life. The Digo do not experience their inheritance system as a conflict between two rigid codes. They experience it as a set of overlapping obligations, loyalties, and expectations that must be balanced in each specific case. The fuko pulls in one direction. The mosque pulls in another. The county court pulls in a third. And the family — the specific people involved, with their specific relationships, grievances, and needs — finds its own path through the middle.",
+      "sw": "Ukweli wa ndani zaidi ni kwamba sheria ya Kiislamu wala desturi ya upande wa mama, zikichukuliwa peke yake, hazishiki ukweli kamili wa maisha ya familia ya Wadigo. Wadigo hawapitii mfumo wao wa urithi kama mgogoro kati ya misimbo miwili migumu. Wanaupitia kama seti ya wajibu, uaminifu, na matarajio yanayoingiliana ambayo lazima yasawazishwe katika kila kesi mahususi. Fuko linavuta upande mmoja. Msikiti unavuta upande mwingine. Mahakama ya kaunti inavuta wa tatu. Na familia — watu mahususi wanaohusika, na uhusiano wao mahususi, malalamiko, na mahitaji — inapata njia yake kupitia katikati.",
+      "dg": "Ukpweli wa ndani zaidi ni kukala shariya ya Chiislamu wala desturi ya uphande wa nine, chila mmwenga bila wanjina, tachiweza kugbwira ukpweli wosi wa maisha ga mbari ya Adigo. Adigo taaona mfumo wao wa urithi dza kondo kahi ya kanuni mbiri ngumu. Anauona dza wajibu, kuaminiana, na matazamio ganayoingiliana ambago ni lazima gasawazishwe kpwa chila kesi. Fuko rinamweha uphande mmwenga. Msikiti unamweha uphande wanjina. Mahakama ya kaunti inamweha uphande wa hahu. Na mbari — atu enye ahusikao, na uhusiano wao, lawama zao, na mahitaji gao — inaphaha njiraye yenye kutsupira kahi-kahi."
+    },
+    {
+      "id": "b024",
+      "type": "paragraph",
+      "en": "This pragmatic flexibility is not a failure of either system. It is the distinctive achievement of Digo social organisation — the ability to hold two contradictory frameworks simultaneously and find workable solutions within the tension. It is messy, inconsistent, and sometimes unjust. But it has sustained Digo communities through centuries of legal and religious change without destroying either the matrilineal tradition or the Islamic faith that has become central to Digo identity.",
+      "sw": "Unyumbufu huu wa kiutendaji si kushindwa kwa mfumo wowote. Ni mafanikio ya kipekee ya mpangilio wa kijamii wa Wadigo — uwezo wa kushikilia mifumo miwili inayopingana kwa wakati mmoja na kupata suluhisho zinazofanya kazi ndani ya mvutano. Ni ya ovyo, isiyo thabiti, na wakati mwingine isiyo ya haki. Lakini imewasaidia Wadigo kupitia karne za mabadiliko ya kisheria na kidini bila kuharibu mila ya upande wa mama wala imani ya Kiislamu ambayo imekuwa ya kati kwa utambulisho wa Wadigo.",
+      "dg": "Kuweza kugaluka kuku kpwa kuhenda chinachofwaha si kushindwa kpwa mfumo wowosi. Ni dzambo ra chipekee ra mpangilio wa chijamii wa Adigo — kuweza kugbwira mifumo miiri inayopingana kpwa wakati mmwenga na kuphaha njira zinazohenda kazi ndani ya kuvutana kuko. Ni kpwa ovyo, takuna utaratibu, na wakati wanjina takuna haki. Ela kukaterya Adigo kutsupira karne za mabadiliko ga chishariya na ga chidini bila kubananga chimila cha uphande wa nine wala imani ya Chiislamu ambayo ikakala ya muhimu kpwa utambulisho wa Adigo."
+    }
+  ]
+}

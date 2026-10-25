@@ -1,0 +1,176 @@
+{
+  "id": "culture/today/post-mining",
+  "title": {
+    "en": "The Post-Mining Landscape",
+    "sw": "Mazingira Baada ya Uchimbaji",
+    "dg": "Mazingira Bada ya Utsimbadzi"
+  },
+  "intro": {
+    "en": "On a stretch of land in Kwale County's Msambweni sub-county, where coconut palms and cashew trees once stood in the red laterite soil, Base Titanium Limited operated what became Kenya's largest mining…",
+    "sw": "Katika eneo la ardhi katika Kaunti ya Kwale, Base Titanium Limited iliendeshea uchimbaji mkubwa zaidi wa madini nchini Kenya kutoka 2013 hadi Desemba 2024. Kampuni ya Australia ilichimba madini ya…",
+    "dg": "Kpwa eneo ra tsi kpwa Kaunti ya Kwale, Base Titanium Limited yahenda utsimbadzi mkpwulu zaidi wa madini kpwenye tsi ya Kenya kula 2013 hadi Desemba 2024. Kampuni ya Australia yatsimba madini ga titanium…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Mine That Changed Everything",
+      "sw": "Mgodi Uliobadilisha Kila Kitu",
+      "dg": "Mgodi Uriobadilisha Chila Chitu"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "On a stretch of land in Kwale County's Msambweni sub-county, where coconut palms and cashew trees once stood in the red laterite soil, Base Titanium Limited operated what became Kenya's largest mining venture. From 2013 to December 2024, the Australian-owned company extracted titanium minerals — ilmenite and rutile — from deposits that lay beneath some of the most productive agricultural land in the county. The operation generated approximately US$279 million in annual revenue and accounted for 65 percent of Kenya's total mineral output. For eleven years, the mine was the single largest economic actor in Kwale County, dwarfing tourism, agriculture, and government spending combined.",
+      "sw": "Katika eneo la ardhi katika Kaunti ya Kwale, Base Titanium Limited iliendeshea uchimbaji mkubwa zaidi wa madini nchini Kenya kutoka 2013 hadi Desemba 2024. Kampuni ya Australia ilichimba madini ya titanium kutoka amana zilizokuwa chini ya ardhi ya kilimo yenye tija zaidi katika kaunti hiyo. Operesheni hii iliingiza takriban dola za Kimarekani milioni 279 kwa mwaka na ilichukua asilimia 65 ya uzalishaji wa madini wa Kenya.",
+      "dg": "Kpwenye eneo ra tsi kpwa kaunti ndide ya Msambweni, Kaunti ya Kwale, ambapho kare minazi na mihi ya ngorosho yaima kpwenye ulongo wa kundu, Base Titanium Limited yahenda utsimbadzi mkpwulu zaidi wa madini kpwenye tsi ya Kenya. Kula 2013 hadi Desemba 2024, kampuni iyo ya Australia yatsimba madini ga titanium — ilmenite na rutile — kula amana zirizokala tsini ya tsi ya chirimo yenye tija zaidi kpwa kaunti iyo. Kazi hino yaphaha dza dola za Chimarekani milioni 279 chila mwaka na yahala asilimia 65 ya uzalishaji wosi wa madini wa Kenya. Kpwa miaka kumi na mwenga, mgodi uwo wakala ndio mhusika mkpwulu zaidi wa chiuchumi kpwa Kaunti ya Kwale, uchishinda utalii, chirimo, na matumizi ga serikali gachiunganywa phamwenga."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "The mine closed in December 2024. What it left behind — in economic terms, in environmental terms, in human terms — is the defining challenge of contemporary Digo life.",
+      "sw": "Uhamisho na Uharibifu",
+      "dg": "Mgodi uwo wafungwa mwezi wa Desemba 2024. Chira urichoricha nyuma — kpwa uchumi, kpwa mazingira, na kpwa maisha ga atu — ndiyo changamoto kulu zaidi ya maisha ga Adigo ga rero."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Scale and Displacement",
+      "sw": "Zaidi ya wakazi 3,000 walihamishwa kutoka makazi na mashamba yao. Familia zilihamishwa kutoka ardhi waliyoishi kwa vizazi — ardhi ambapo walilima nazi, korosho, na maembe. Athari za mazingira za uchimbaji wa wazi kwenye ardhi ya kilimo si ndogo. Mchakato wa uchimbaji unaondoa udongo wa juu na kubadilisha mandhari kabisa. Minazi iliyochukua miongo kukomaa iliangushwa. Mashamba ya korosho yaliharibiwa.",
+      "dg": "Ukulu na Uhamisho"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "The scale of Base Titanium's operation was extraordinary for a rural Kenyan county. The mine employed approximately 1,600 workers directly and supported an estimated 2,800 indirect jobs in transport, services, and supply chains. These are significant numbers in a county where formal employment of any kind is scarce. The mine paid taxes, built some roads, supported some community projects, and provided a level of economic activity that Kwale had never previously experienced.",
+      "sw": "Madeni Yasiyolipwa",
+      "dg": "Ukulu wa kazi za Base Titanium wakala wa ajabu kpwa kaunti ya vidzidzini ya Kenya. Mgodi waajiri dza ahendakazi 1,600 mwenga kpwa mwenga na kuterya kazi dza 2,800 zisizo za mwenga kpwa mwenga kpwenye usafiri, huduma, na minyororo ya ugavi. Ino ni idadi kulu kpwenye kaunti ambapho kazi rasmi ya aina yoyosi ni haba. Mgodi waripha kodi, wadzenga barabara kadhaa, waterya miradi kadhaa ya jamii, na walavya chiwango cha shughuli za chiuchumi ambacho Kwale kare taidzangbweona."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "But the costs were borne disproportionately by the communities closest to the mine. Over 3,000 residents were displaced from their homes and farms to make way for the extraction operations. Families were moved from land they had occupied for generations — land on which they had grown coconuts, cashew nuts, and mangoes, the crops that formed the foundation of their economic survival. The relocation process was contested: communities reported inadequate compensation, broken promises about replacement land and housing, and a sense of powerlessness in the face of a multinational corporation backed by national government mining licenses.",
+      "sw": "Kulingana na hesabu za serikali ya kaunti na ripoti za bunge, kampuni iliacha takriban shilingi milioni 900 za Kenya katika ada na faida za jamii ambazo hazijlipwa. Hizi zilikuwa fedha zilizopaswa kutiririka kwa Kaunti ya Kwale na jamii zilizoathirika kama fidia kwa uchimbaji wa utajiri wao wa madini. Kutolipwa kulikuwa suala kubwa la kisiasa.",
+      "dg": "Ela gharama zatsukulwa kpwa unji ni jamii zirizokala phephi zaidi na mgodi. Zaidi ya atu 3,000 atsamizwa kula makazi na minda yao ili utsimbadzi uphahe nafasi. Mbari zatsamizwa kula tsi ariyokala kpwa vizazi — tsi ambapho aririma nazi, ngorosho, na maembe, mazao garigokala msingi wa maisha gao ga chiuchumi. Mchakato wa kutsamizwa wakala na mabishano: jamii zagomba kukala fidia yakala ndide, ahadi kuhusu tsi na nyumba za badala taziyatimizwa, na zakala na hisia ya kukosa nguvu mbere ya kampuni ya chimataifa iriyokala ichiterywa ni leseni za utsimbadzi za serikali ya chitaifa."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The Agricultural Destruction",
+      "sw": "Pengo Baada ya Kufungwa",
+      "dg": "Uharibifu wa Chirimo"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The environmental impact of open-cast mining on agricultural land is not subtle. The mining process strips the topsoil, removes the mineral-bearing sand, and fundamentally alters the landscape. Coconut palms that took decades to mature were felled. Cashew orchards that provided annual income to hundreds of families were destroyed. Mango trees that had been passed down through generations were uprooted. The loss was not merely economic — it was cultural. For the Digo, these trees were not interchangeable assets on a balance sheet. They were inheritances, markers of family continuity, and sources of the specific products — coconut oil, palm wine, cashew nuts — that defined Digo cuisine, trade, and daily life.",
+      "sw": "Kufungwa kwa mgodi mnamo Desemba 2024 kuliunda mshtuko wa kiuchumi wa mara moja. Wafanyakazi 1,600 walipoteza kazi zao. Kazi 2,800 za moja kwa moja zilizotegemea operesheni za mgodi zilianza kutoweka. Serikali ya kaunti na wapangaji wa kiuchumi wamebainisha sekta tatu kujaza pengo: kilimo, utalii, na uchumi wa bluu.",
+      "dg": "Athari za utsimbadzi wa wazi kpwa tsi ya chirimo si chitu chidide. Mchakato wa utsimbadzi unausa ulongo wa dzulu, unausa mtsanga wenye madini, na kubadilisha mandhari kabisa. Minazi iriyohala miongo kukomaa yagbwagwa. Minda ya ngorosho iriyokala ichipha mapato ga chila mwaka kpwa magana ga mbari yabanangwa. Mihi ya maembe iriyorithiwa kula chizazi hadi chizazi yang'olwa. Hasara iyo taikala ya chiuchumi bahi — yakala ya chisomo. Kpwa Adigo, mihi ino taikala mali ya kubadilishana kpwenye chitabu cha hesabu. Yakala urithi, alama za kuenderera kpwa mbari, na vyanzo vya vitu mahususi — mafuha ga nazi, uchi wa mnazi, ngorosho — vinavyofafanua kujita kpwa Chidigo, biashara, na maisha ga chila siku."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The mine's concession area cut through some of the most agriculturally productive land in the county, land that was productive precisely because of the mineral-rich soils that also contained the titanium deposits. The cruel irony was inescapable: the very quality that made this land valuable for farming was the same quality that attracted the mining company.",
+      "sw": "Onyo la Kaya Mrima",
+      "dg": "Eneo ra mgodi rakata kahi ya tsi ya chirimo yenye tija zaidi kpwa kaunti, tsi iriyokala na tija kpwa sababu ya ulongo wenye madini manji ambao piya wakala na amana za titanium. Chinaya chibaya chakala wazi: sifa iyo-iyo iriyohenda tsi ino ikale ya samani kpwa chirimo ndiyo sifa iriyovutiya kampuni ya utsimbadzi."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Unpaid Royalties",
+      "sw": "Uzoefu wa Base Titanium unabeba uzito maalum kwa sababu ya kile kinachoweza kuja. Kaya Mrima, mojawapo ya misitu ya kaya takatifu zaidi katika eneo la Wadigo, inakalia amana muhimu za madini ya nadra. Kielelezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, ada zisizolipwa — ndio hadithi ya tahadhari ambayo wapinzani wa uchimbaji wa Kaya Mrima wananukuu.",
+      "dg": "Madeni Gasiyoriphwa"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Perhaps the most politically charged legacy of Base Titanium is the question of unpaid royalties. According to county government accounts and parliamentary reports, the company left behind approximately KSh 900 million — roughly US$7 million — in unpaid royalties and community benefits. These were funds that were supposed to flow to Kwale County and to the affected communities as compensation for the extraction of their mineral wealth. The non-payment became a major political issue, raised repeatedly in the county assembly and in national parliament, and it crystallized a broader grievance: that the Digo had watched their most valuable natural resource extracted, processed, and shipped overseas while the promised benefits failed to materialize.",
+      "sw": "Labda urithi wenye utata mkubwa zaidi wa kisiasa wa Base Titanium ni swali la malipo ya urahisi ambayo hayakulipwa. Kulingana na hesabu za serikali ya kaunti na ripoti za bunge, kampuni iliondoka ikiwa na takriban KSh milioni 900 — takriban dola za Marekani milioni 7 — katika malipo ya urahisi na faida za jamii ambayo hayakulipwa. Hizi zilikuwa fedha ambazo zilipaswa kutiririka kwa Kaunti ya Kwale na kwa jamii zilizoathirika kama fidia ya uchimbaji wa utajiri wao wa madini. Kutolipwa huko kulikuwa suala kubwa la kisiasa, lililoinuliwa mara kwa mara katika bunge la kaunti na katika bunge la kitaifa, na lilifafanua malalamiko mapana zaidi: kwamba Wadigo walikuwa wameangalia rasilimali yao ya asili yenye thamani kubwa zaidi ikichimbwa, kusindikwa, na kusafirishwa nje ya nchi huku faida zilizoahidiwa zikishindwa kupatikana.",
+      "dg": "Labuda urithi wenye utata mkpwulu zaidi wa chisiasa wa Base Titanium ni swali ra malipo ga mrabaha ambago tagariphwa. Kulengana na hesabu za serikali ya kaunti na ripoti za bunge, kampuni yauka ichiricha dza KSh milioni 900 — dza dola za Marekani milioni 7 — za malipo ga mrabaha na fwaida za jamii ambazo taziriphwa. Hizi zakala pesa ambazo zafwaha kuphiya Kaunti ya Kwale na kpwa jamii zirizoathirika dza fidia ya kutsimbwa kpwa utajiri wao wa madini. Kutsoriphwa kuko kpwakala suala kulu ra chisiasa, rikaunulwa mara kpwa mara kpwenye bunge ra kaunti na kpwenye bunge ra chitaifa, na rikaonyesa malalamiko mapana zaidi: kukala Adigo arikala analola rasilimali yao ya asili yenye samani kulu zaidi ichitsimbwa, ichisindikpwa, na ichisafirishwa kondze ya tsi hiku fwaida zirizoahidiwa zikashindwa kuphahikana."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The royalty dispute is not merely about money. It is about the fundamental terms on which extractive industries operate in marginalized communities. Kenya's mining legislation has been reformed since Base Titanium began operations, with the 2016 Mining Act establishing clearer royalty frameworks, but the Kwale experience demonstrated that legislation alone does not guarantee fair outcomes when the balance of power between a multinational corporation and a rural community is so deeply asymmetric.",
+      "sw": "Mgogoro wa malipo ya urahisi si kuhusu pesa tu. Ni kuhusu masharti ya msingi ambayo viwanda vya uchimbaji vinafanya kazi katika jamii zilizotengwa. Sheria ya uchimbaji madini ya Kenya imefanyiwa marekebisho tangu Base Titanium ilipoanza shughuli, huku Sheria ya Madini ya 2016 ikianzisha mfumo wa wazi zaidi wa malipo ya urahisi, lakini uzoefu wa Kwale ulionyesha kwamba sheria peke yake haidhamini matokeo ya haki wakati usawa wa nguvu kati ya kampuni ya kimataifa na jamii ya mashambani ni wa kina sana.",
+      "dg": "Kondo ya malipo ga mrabaha si kuhusu pesa bahi. Ni kuhusu masharti ga msingi ambago viwanda vya utsimbadzi vinahenda kazi kpwago kpwenye jamii zirizotengwa. Shariya ya utsimbadzi madini ya Kenya ikahenderwa marekebisho hangu Base Titanium iriphoandza shuhuli, na Shariya ya Madini ya 2016 ichiandzisha mfumo wa wazi zaidi wa malipo ga mrabaha, ela uzoefu wa Kwale waonyesa kukala shariya macheye taidhamini matokeo ga haki wakati nguvu za kampuni ya chimataifa na za jamii ya vidzidzini si sawa katu."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Post-Closure Void",
+      "sw": "Pengo la Baada ya Kufungwa",
+      "dg": "Phengo ra Bada ya Kufungwa"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "The mine's closure in December 2024 created an immediate economic shock. Approximately 1,600 direct employees lost their jobs. The 2,800 indirect jobs that depended on the mine's operations — the truck drivers, the food vendors, the fuel suppliers, the accommodation providers — began to evaporate. Tax revenue to the county government dropped. The businesses in Ukunda and Msambweni that had grown to service the mining workforce faced a sudden contraction in demand.",
+      "sw": "Kufungwa kwa mgodi mwezi Desemba 2024 kuliunda mtikiso wa haraka wa kiuchumi. Takriban wafanyakazi 1,600 wa moja kwa moja walipoteza kazi zao. Kazi 2,800 zisizo za moja kwa moja zilizotegemea shughuli za mgodi — madereva wa malori, wauzaji chakula, wasambazaji mafuta, watoa malazi — zilianza kutoweka. Mapato ya kodi kwa serikali ya kaunti yalipungua. Biashara katika Ukunda na Msambweni ambazo zilikuwa zimekua kuhudumia wafanyakazi wa migodini zilikabiliwa na kushuka kwa ghafla kwa mahitaji.",
+      "dg": "Kufungwa kpwa mgodi mwezi wa Desemba 2024 kpwaumba mtikiso wa haraka wa chiuchumi. Dza ahendakazi 1,600 a mwenga kpwa mwenga akaangamiza kazi zao. Kazi 2,800 zisizo za mwenga kpwa mwenga zirizokuluphira shuhuli za mgodi — adereva a malori, aguza chakurya, asambazaji a mafuha, apha malazi — zaandza kuangamika. Mapato ga kodi kpwa serikali ya kaunti gaphungula. Biashara za Ukunda na Msambweni ambazo zirikala zikakula kpwa kuhudumia ahendakazi a mgodini zakabiliana na kushuka kpwa gafula kpwa mahitaji."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The county government and national economic planners have identified three sectors to fill the void: agriculture, tourism, and the blue economy — fishing, seaweed farming, and marine resource management. But the transition is neither simple nor quick. Agricultural land damaged by mining requires years of rehabilitation before it can return to productivity. Tourism infrastructure requires capital investment that the county lacks. The blue economy is promising but small-scale. The gap between the mine's closure and the maturation of alternative economic activities is a period of real hardship for communities that had come to depend, directly or indirectly, on the mining economy.",
+      "sw": "Serikali ya kaunti na wapangaji wa kiuchumi wa kitaifa wamebainisha sekta tatu kujaza pengo hilo: kilimo, utalii, na uchumi wa bluu — uvuvi, kilimo cha mwani, na usimamizi wa rasilimali za bahari. Lakini mpito huo si rahisi wala wa haraka. Ardhi ya kilimo iliyoharibiwa na uchimbaji inahitaji miaka ya ukarabati kabla ya kurudi kwenye uzalishaji. Miundombinu ya utalii inahitaji uwekezaji wa mtaji ambao kaunti haina. Uchumi wa bluu una ahadi lakini ni wa kiwango kidogo. Pengo kati ya kufungwa kwa mgodi na kukomaa kwa shughuli mbadala za kiuchumi ni kipindi cha taabu ya kweli kwa jamii zilizokuwa zinategemea, moja kwa moja au la, uchumi wa uchimbaji.",
+      "dg": "Serikali ya kaunti na apangaji a chiuchumi a chitaifa akabainisha sekta hahu za kuodzaza phengo riro: chirimo, utalii, na uchumi wa samawati — uvuvi, chirimo cha mwani, na usimamizi wa rasilimali za bahari. Ela mpito uo si rahisi wala wa haraka. Tsi ya chirimo iriyobanangwa ni utsimbadzi inahitaji miaka ya ukarabati kabla ya kuuya kpwenye uzalishaji. Miundombinu ya utalii inahitaji uwekezaji wa mtaji ambao kaunti taina. Uchumi wa samawati una ahadi ela ni wa chiwango chidide. Phengo kahi ya kufungwa kpwa mgodi na kukomaa kpwa shuhuli mbadala za chiuchumi ni muda wa taabu ya kpweli kpwa jamii zirizokala zinakuluphira, mwenga kpwa mwenga au la, uchumi wa utsimbadzi."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Rehabilitation: Promises and Realities",
+      "sw": "Ukarabati: Ahadi na Ukweli",
+      "dg": "Ukarabati: Ahadi na Ukpweli"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "Base Titanium committed to a land rehabilitation program as part of its mining license conditions. The process involves replacing topsoil, replanting vegetation, and restoring the mined-out areas to a condition that can support some form of productive use. The company has reported progress on rehabilitation of completed mining sections, and some areas have been replanted with fast-growing tree species and ground cover.",
+      "sw": "Base Titanium ilijitolea kwa programu ya ukarabati wa ardhi kama sehemu ya masharti ya leseni yake ya uchimbaji. Mchakato huo unahusisha kubadilisha udongo wa juu, kupanda mimea upya, na kurejesha maeneo yaliyochimbwa kwa hali inayoweza kusaidia aina fulani ya matumizi ya uzalishaji. Kampuni imeripoti maendeleo katika ukarabati wa sehemu za uchimbaji zilizokamilika, na baadhi ya maeneo yamepandwa upya na aina za miti zinazokua haraka na kifuniko cha ardhini.",
+      "dg": "Base Titanium yadzitolea kpwa programu ya ukarabati wa tsi dza seemu ya masharti ga leseniye ya utsimbadzi. Mchakato uo unahusisha kubadilisha ulongo wa dzulu, kuphanda mimea uphya, na kuuyiza seemu zirizotsimbwa kpwa hali inayoweza kusaidiya aina fulani ya matumizi ga uzalishaji. Kampuni ikaripoti maendeleo kpwenye ukarabati wa seemu za utsimbadzi zirizomala, na seemu zanjina zikaphandwa uphya na aina za mihi inayokula haraka na chifuniko cha photsi."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "But rehabilitation of mined land is not the same as restoration. The original landscape — mature coconut palms, established cashew orchards, complex root systems built over decades — cannot be recreated in the span of a few years. What rehabilitation produces is a different landscape: younger, less diverse, and less productive than what existed before. For the families who were displaced, the question is not whether the land will eventually support some vegetation, but whether it will ever again support the specific agricultural livelihoods that defined their lives before the mine arrived.",
+      "sw": "Lakini ukarabati wa ardhi iliyochimbwa si sawa na urejesho. Mandhari ya awali — minazi iliyokomaa, mashamba yaliyoimarika ya korosho, mifumo tata ya mizizi iliyojengwa kwa miongo — haiwezi kuundwa upya katika kipindi cha miaka michache. Kinachotolewa na ukarabati ni mandhari tofauti: changa zaidi, isiyo na utofauti, na isiyo na tija kuliko ilivyokuwepo awali. Kwa familia zilizohamisihwa, swali si kama ardhi itasaidia hatimaye mimea fulani, bali kama itasaidia tena njia mahususi za maisha ya kilimo zilizofafanua maisha yao kabla ya mgodi kufika.",
+      "dg": "Ela ukarabati wa tsi iriyotsimbwa si sawa na urejesho. Mandhari ya kpwandza — minazi iriyokomaa, minda ya ngorosho iriyoimarika, mifumo migumu ya mizi iriyodzengbwa kpwa miongo — taiweza kuundwa uphya kpwenye muda wa miaka michache. Chinacholavywa ni ukarabati ni mandhari ya tafwauti: midide zaidi, isiyo na aina nyinji, na isiyo na tija kuriko ira iriyokala kare. Kpwa mbari zirizotsamizwa, swali si kala tsi indasaidiya mimea fulani mwishoni, ela kala indasaidiya tsona njira mahususi za maisha ga chirimo zirizokala msingi wa maisha gao kabla ya mgodi kufika."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "The Kaya Mrima Warning",
+      "sw": "Onyo la Kaya Mrima",
+      "dg": "Onyo ra Kaya Mrima"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The Base Titanium experience carries particular weight because of what may come next. Kaya Mrima, one of the most sacred kaya forests in Digo territory, sits atop significant deposits of rare earth minerals. Mining interests have repeatedly explored the possibility of extracting these minerals, and the prospect has generated fierce opposition from Digo elders, environmental organizations, and cultural preservation advocates. Kaya Mrima is not merely a forest. It is a UNESCO-recognized cultural site, a place of ancestral spirits, traditional governance, and ecological significance.",
+      "sw": "Uzoefu wa Base Titanium una uzito wa pekee kwa sababu ya kile kinachoweza kuja baadaye. Kaya Mrima, mojawapo ya misitu mitakatifu zaidi ya kaya katika eneo la Wadigo, iko juu ya mashapo makubwa ya madini adimu ya ardhi. Maslahi ya uchimbaji yamechunguza mara kwa mara uwezekano wa kuchimba madini hayo, na uwezekano huo umezalisha upinzani mkali kutoka kwa wazee wa Wadigo, mashirika ya mazingira, na watetezi wa uhifadhi wa kitamaduni. Kaya Mrima si msitu tu. Ni eneo la kitamaduni linalotambuliwa na UNESCO, mahali pa roho za mababu, utawala wa jadi, na umuhimu wa kiikolojia.",
+      "dg": "Uzoefu wa Base Titanium una uzito wa chipekee kpwa sababu ya chira chinachoweza kukpwedza bada. Kaya Mrima, mwenga wa matsaka matakatifu zaidi ga kaya kpwenye seemu ya Adigo, i dzulu ya mashapo makulu ga madini adimu ga tsi. Maslahi ga utsimbadzi gakachunguza mara kpwa mara uwezekano wa kutsimba madini gago, na uwezekano uo ukazalisha upindzani mkali kula kpwa azehe a Adigo, mashirika ga mazingira, na atetezi a uhifadhi wa chisomo. Kaya Mrima si tsaka bahi. Ni seemu ya chisomo inayotambuliwa ni UNESCO, phatu pha roho za akare, utawala wa kare, na umuhimu wa chikolojia."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The Base Titanium precedent — displacement without adequate compensation, environmental destruction, unpaid royalties, and a post-closure economic void — is exactly the cautionary tale that opponents of Kaya Mrima mining cite. If a secular agricultural area could be so profoundly disrupted, what would mining do to a sacred forest? The question is not hypothetical. It is the most consequential land-use decision facing the Digo community today, and the answer will be shaped in large part by the lessons — positive and negative — of the Base Titanium experience.",
+      "sw": "Kielelezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ya urahisi ambayo hayakulipwa, na pengo la kiuchumi baada ya kufungwa — ni hasa hadithi ya tahadhari ambayo wapinzani wa uchimbaji wa Kaya Mrima wananukuu. Ikiwa eneo la kilimo la kawaida lingeweza kusumbuliwa sana hivyo, uchimbaji ungefanya nini kwa msitu mtakatifu? Swali si la nadharia. Ni uamuzi muhimu zaidi wa matumizi ya ardhi unaokabili jamii ya Wadigo leo, na jibu litaundwa kwa kiasi kikubwa na masomo — mazuri na mabaya — ya uzoefu wa Base Titanium.",
+      "dg": "Chielezo cha Base Titanium — uhamisho bila fidia ya kutosha, uharibifu wa mazingira, malipo ga mrabaha ambago tagariphwa, na phengo ra chiuchumi bada ya kufungwa — ni haswa hadithi ya tahadhari ambayo apinzani a utsimbadzi wa Kaya Mrima anaihadza. Kala seemu ya chirimo ya kawaida yayugwa hivyo, utsimbadzi undahenda ni kpwa tsaka takatifu? Swali si ra nadharia. Ni uamuzi muhimu zaidi wa matumizi ga tsi unaokabili jamii ya Adigo rero, na dzibu rindaundwa kpwa chiasi chikulu ni mafundzo — manono na mabaya — ga uzoefu wa Base Titanium."
+    },
+    {
+      "id": "b022",
+      "type": "heading",
+      "en": "What the Mine Taught",
+      "sw": "Kile Ambacho Mgodi Ulifundisha",
+      "dg": "Chira Mgodi Wafundza"
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The eleven years of Base Titanium's operation in Kwale County taught the Digo community, and Kenya more broadly, several hard lessons. First, that mineral wealth does not automatically translate into community benefit — it requires strong governance, enforceable contracts, and communities with the political power to negotiate fair terms. Second, that environmental rehabilitation is not environmental restoration — what is destroyed in a decade of mining cannot be rebuilt in a decade of tree-planting. Third, that economic dependence on a single extractive operation creates vulnerability that is fully revealed only at the moment of closure. And fourth, that the question of who benefits from a community's natural resources is never merely an economic question. It is a question of justice, of sovereignty over ancestral land, and of the right of a people to determine the terms on which their inheritance is used.",
+      "sw": "Miaka kumi na moja ya uendeshaji wa Base Titanium katika Kaunti ya Kwale ilifundisha jamii ya Wadigo, na Kenya kwa ujumla, masomo magumu kadhaa. Kwanza, kwamba utajiri wa madini haubadilishwi moja kwa moja kuwa faida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya kisiasa ya kujadili masharti ya haki. Pili, kwamba ukarabati wa mazingira si urejesho wa mazingira — kile kilichoharibiwa katika muongo wa uchimbaji hakiwezi kujengwa upya katika muongo wa kupanda miti. Tatu, kwamba utegemezi wa kiuchumi juu ya operesheni moja ya uchimbaji huunda hatari ambayo inaonekana kikamilifu tu wakati wa kufungwa. Na nne, kwamba swali la nani anafaidika na rasilimali za asili za jamii si swali la kiuchumi tu kamwe. Ni swali la haki, la uhuru juu ya ardhi ya mababu, na la haki ya watu kuamua masharti ambayo urithi wao unatumiwa.",
+      "dg": "Miaka kumi na mwenga ya uendeshaji wa Base Titanium kpwenye Kaunti ya Kwale yafundza jamii ya Adigo, na Kenya kpwa ujumla, mafundzo magumu mangaphi. Kpwandza, kukala utajiri wa madini taubadilika mwenga kpwa mwenga kukala fwaida ya jamii — unahitaji utawala imara, mikataba inayotekelezwa, na jamii zenye nguvu ya chisiasa ya kujadilira masharti ga haki. Phiri, kukala ukarabati wa mazingira si urejesho wa mazingira — chira chinachobanangwa kpwenye muongo wa utsimbadzi tachiweza kudzengbwa uphya kpwenye muongo wa kuphanda mihi. Hahu, kukala kukuluphira operesheni mwenga ya utsimbadzi kpwa uchumi kunaumba hatari ambayo inaonekana chikamilifu bahi wakati wa kufungwa. Na nne, kukala swali ra ani anayephaha fwaida kula kpwa rasilimali za asili za jamii si swali ra chiuchumi bahi katu. Ni swali ra haki, ra uhuru dzulu ya tsi ya akare, na ra haki ya atu kuamuwa masharti ambago urithi wao unahumirwa nago."
+    }
+  ]
+}

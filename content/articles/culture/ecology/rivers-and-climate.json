@@ -1,0 +1,169 @@
+{
+  "id": "culture/ecology/rivers-and-climate",
+  "title": {
+    "en": "Rivers and Monsoon Climate",
+    "sw": "Mito na Hali ya Hewa ya Monsuni",
+    "dg": "Miho na Hali ya Hewa ya Monsuni"
+  },
+  "intro": {
+    "en": "The Digo coast belongs to the monsoon world — that vast climatic system stretching from the Arabian Sea to the shores of East Africa, driven by the seasonal reversal of winds that has shaped human…",
+    "sw": "Pwani ya Wadigo ni sehemu ya ulimwengu wa monsuni — mfumo mkubwa wa hali ya hewa unaoenea kutoka Bahari ya Arabia hadi pwani ya Afrika Mashariki. Pepo hizo hizo zilizoleta wafanyabiashara wa Omani…",
+    "dg": "Pwani ya Adigo ni seemu ya ulimwengu wa monsuni — mfumo mkpwulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi pwani ya Afrika ya Mashariki. Phepho zizo-zizo zirizoreha afanyabiashara a Omani…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Monsoon World",
+      "sw": "Ulimwengu wa Monsuni",
+      "dg": "Ulimwengu wa Monsuni"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo coast belongs to the monsoon world — that vast climatic system stretching from the Arabian Sea to the shores of East Africa, driven by the seasonal reversal of winds that has shaped human civilisation along the Indian Ocean rim for millennia. The same winds that brought Omani traders to the Swahili coast, that filled the sails of dhows carrying spices and textiles, that determined when ships could arrive and when they must depart — these same winds govern when the Digo plant their crops, when the rivers run, and when the land dries to a dusty stillness that tests the endurance of every living thing.",
+      "sw": "Pwani ya Wadigo ni sehemu ya ulimwengu wa monsuni — mfumo mkubwa wa hali ya hewa unaoenea kutoka Bahari ya Arabia hadi pwani ya Afrika Mashariki. Pepo hizo hizo zilizoleta wafanyabiashara wa Omani zinaamua wakati Wadigo wanapanda mazao yao, wakati mito inapotiririka, na wakati ardhi inapokauka.",
+      "dg": "Pwani ya Adigo ni seemu ya ulimwengu wa monsuni — mfumo mkpwulu wa hali ya hewa unaoenea kula Bahari ya Arabia hadi pwani ya Afrika ya Mashariki, unaoendeshwa ni kugaluka kpwa phepho kpwa chila msimu, kurikoumba maisha ga anadamu kanda-kanda ya Bahari ya Hindi kpwa maelfu ga miaka. Phepho zizo-zizo zirizoreha afanyabiashara a Omani kpwenye pwani ya Chiswahili, zirizodzaza matanga ga jahazi zirizotsukula viungo na nguwo, na zirizoamuwa wakati meli zingeweza kufika na wakati zingelazimika kuuka — ndizo zinazoamuwa wakati Adigo anaphanda mimera yao, wakati miho inahirika, na wakati tsi inauma hadi kukala vumbi na kunyamala, ichijaribu uvumirivu wa chila chitu chiricho na uzima."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Two monsoon seasons define the year. The kaskazi — the northeast monsoon — blows from approximately October to March, bringing warm, moisture-laden air from the Indian Ocean. It delivers the short rains, typically from October to December, a period of renewal when the land greens rapidly and farmers rush to plant quick-maturing crops. The kusi — the southwest monsoon — dominates from approximately April to September, bringing cooler temperatures and the long rains that fall from March through June or July. These long rains are the backbone of the agricultural year, the season on which food security depends. When the kusi rains arrive on time and in sufficient volume, families eat. When they fail, hunger follows.",
+      "sw": "Misimu miwili ya monsuni inafafanua mwaka. **Kaskazi** — monsuni ya kaskazini-mashariki — inaleta mvua fupi kutoka Oktoba hadi Desemba. **Kusi** — monsuni ya kusini-magharibi — inaleta mvua ndefu kutoka Machi hadi Juni au Julai. Mvua ndefu ndizo uti wa mgongo wa mwaka wa kilimo.",
+      "dg": "Misimu miiri ya monsuni ndiyo inayoganya mwaka. **Kaskazi** — monsuni ya kaskazini-mashariki — inavuma kula phephi Oktoba hadi Machi, ichireha phepho ya dzoho yenye unyese kula Bahari ya Hindi. Inareha mvula fupi, kpwa kawaida kula Oktoba hadi Desemba, chipindi ambacho tsi inamera tsona na kukala ya chijani upesi, na akurima anaphanda upesi mimera inayokomaa upesi. **Kusi** — monsuni ya kusini-magharibi — inatawala kula phephi Aprili hadi Septemba, ichireha mnyevu na mvula ndere zinazonya kula Machi hadi Juni au Julai. Mvula ndere ndizo uti wa mongo wa mwaka wa chirimo, msimu ambao kukala na chakurya cha kutosha kunaukuluphira. Mvula za kusi zichifika kpwa wakati na kpwa unji wa kutosha, mbari zinarya. Zichishindwa, ndzala inalunga."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Rainfall: The Great Variable",
+      "sw": "Mvua na Mito",
+      "dg": "Mvula: Dzambo Kulu Risiro na Uhakika"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Rainfall in Kwale County is defined by extremes. The county receives between 400 and 1,680 millimetres of rain annually, a fourfold variation that maps directly onto the four topographical zones. The Shimba Hills, with their elevation and dense forest cover, capture the most moisture — up to 1,680 millimetres per year, enough to sustain the coastal rainforest ecosystem. The foot plateau receives moderate rainfall sufficient for subsistence farming in most years. The coastal strip benefits from maritime moisture but drains quickly through its sandy soils. The Nyika Plateau, covering over half the county, receives as little as 400 millimetres — barely enough to sustain scrubland, wholly inadequate for reliable crop production.",
+      "sw": "Kaunti ya Kwale inapokea kati ya milimita 400 na 1,680 za mvua kwa mwaka — tofauti ya mara nne inayolingana na maeneo manne ya kijiografia. Mito saba mikubwa inatiririka kutoka bara hadi Bahari ya Hindi, lakini ni mitatu peke yake — Marere, Mwaluganje, na Ramisi — inayotiririka mwaka mzima.",
+      "dg": "Mvula kpwenye Kaunti ya Kwale ina tafwauti nyinji sana. Kaunti inaphokera kahi ya milimita 400 na 1,680 za mvula kpwa mwaka — tafwauti ya mara nne inayolingana na maeneo mane ga chijiografia. Shimba Hills, kpwa kukala dzulu na kufunikpwa ni tsaka nzito, ganaphaha unyese zaidi — hadi milimita 1,680 kpwa mwaka, za kutosha kuimirira tsaka ra mvula ra pwani. Herera ya photsi ya milima inaphaha mvula ya chiasi, inayotosha chirimo cha kurya miaka minji. Ukanda wa pwani unaphaha unyese kula bahari, ela madzi ganatsupa upesi kpwenye ulongo wao wa mtsanga. Herera ya Nyika, inayofunika zaidi ya nusu ya kaunti, inaphaha milimita 400 bahi — chidide sana, inayotosha vichaka bahi, na taitosha kabisa kpwa kuphanda mimera kpwa uhakika."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "This gradient is not merely a matter of agricultural convenience. It is the fundamental driver of economic inequality within Digo territory. The wetter zones support coconut groves, fruit trees, and diversified farming. The drier zones trap communities in a cycle of food insecurity that no amount of agricultural innovation within current rainfall limits can fully break. When development organisations speak of Kwale County's challenges, they are speaking, at root, about rainfall.",
+      "sw": "Uhaba wa maji ni mkubwa: mahitaji ya kila siku ni mita za ujazo 220,000 lakini usambazaji ni 30,000-35,000 peke yake. Upungufu huu unaathiri afya, elimu, uhusiano wa kijinsia, na fursa za kiuchumi.",
+      "dg": "Tafwauti ihi si dzambo ra urahisi wa chirimo bahi. Ndiyo chanzo chikulu cha tafwauti za chiuchumi ndani ya tsi ya Adigo. Maeneo genye mvula nyinji ganaimirira minazi, mihi ya matunda, na chirimo cha aina nyinji. Maeneo makavu ganaafunga atu kpwenye mzunguko wa kukosa chakurya cha kutosha ambao takuna ubunifu wa chirimo ndani ya miphaka ya mvula ya sambi unaoweza kuuvundza kabisa. Mashirika ga maendeleo gachigomba kuhusu changamoto za Kaunti ya Kwale, kpwenye msingi ganagomba kuhusu mvula."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The Seven Rivers",
+      "sw": "Kilimo na Hali ya Hewa",
+      "dg": "Miho Saba"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "Seven major rivers flow from the interior of Kwale County to the Indian Ocean, draining the Shimba Hills and the foot plateau into the coastal lowlands. Their names mark the geography of Digo life: Marere, Mwaluganje, Ramisi, and four seasonal watercourses that run only during the rains. Of these seven, only three are permanent — Marere, Mwaluganje, and Ramisi — rivers that flow year-round and serve as the lifelines of the communities along their banks.",
+      "sw": "Kilimo cha Wadigo kimekalibishwa kwa mzunguko wa monsuni kwa karne nyingi. Utabiri wa hali ya hewa wa jadi unatumia maarifa ya uchunguzi: miundo ya mawingu, tabia ya wanyama, mizunguko ya maua na matunda, na awamu za mwezi. Maarifa haya ni sayansi ya nguvu — utambuzi wa muundo ulioendelezwa kwa karne za umakini kwa ulimwengu wa asili.",
+      "dg": "Miho saba mikulu inahirika kula bara ya Kaunti ya Kwale hadi Bahari ya Hindi, ichiusa madzi kula Shimba Hills na herera ya photsi ya milima kuphiya kpwenye tsi ya photsi ya pwani. Madzina gao ganaonyesa jiografia ya maisha ga Adigo: Marere, Mwaluganje, Ramisi, na miho mine ya msimu inayohirika wakati wa mvula bahi. Kahi ya miho iyo saba, ni mihahu bahi ya kudumu — Marere, Mwaluganje, na Ramisi — miho inayohirika mwaka wosi na ni uzima wa jamii zirizo kanda-kanda ya miho iyo."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The Ramisi River is the most significant, a relatively broad watercourse that empties into the Indian Ocean near the town of Ramisi in the county's south. It has historically supported irrigated agriculture in its lower reaches and provides freshwater to communities that would otherwise depend entirely on increasingly unreliable rainfall. The Mwaluganje, which gives its name to the elephant sanctuary, flows through the transitional zone between the Shimba Hills and the coast, passing through some of the county's most productive farmland.",
+      "sw": "Mabadiliko ya Hali ya Hewa",
+      "dg": "Muho wa Ramisi ndio muhimu zaidi, muho mpana chidide unaogbwa Bahari ya Hindi phephi na mudzi wa Ramisi, uphande wa kusini wa kaunti. Kare ukaimirira chirimo cha kuhumira madzi ga muho kpwenye seemuze za photsi, na unapha madzi ga kunwa jamii ambazo vinginevyo zingekuluphira mvula bahi, ambayo inazidi kukala ya kusikuluphirika. Mwaluganje, ambao hifadhi ya ndzovu ikahala dzinare, unahirika kutsupa seemu iriyo kahi ya Shimba Hills na pwani, uchitsupa kahi ya minda inayolavya mavuno manji zaidi ya kaunti."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The seasonal rivers present a different reality. For several months of the year, they are dry riverbeds — sandy channels that serve as footpaths and cattle routes. When the rains come, they transform within hours into rushing torrents that can sweep away crops, livestock, and occasionally people. This cycle of drought and flood, of absence and dangerous abundance, is a defining rhythm of life in Kwale County.",
+      "sw": "Mifumo ya monsuni inayoendelea kwa karne inakuwa isiyotegemewa. Misimu inafika kuchelewa au haikuja kabisa. Mvua wakati mwingine inanyesha kwa nguvu ya uharibifu. Mawimbi ya joto ni marefu zaidi. Mito mingi ya msimu imekauka kabisa. Kupanda kwa kina cha bahari kunaongeza chumvi katika visima vya maji safi. Kwa Wadigo, mabadiliko ya hali ya hewa si tishio la siku zijazo — ni ukweli wa sasa unaopitwa katika mavuno yaliyoshindwa na visima vilivyokauka.",
+      "dg": "Miho ya msimu ina hali tafwauti. Kpwa miezi kadhaa ya mwaka, ni miho mikavu ya mtsanga bahi, inayohumirwa dza njira za atu na za mifugo. Mvula ichikpwedza, kahi ya masaa bahi inagaluka kukala mafuriko ga nguvu ganayoweza kuhala mimera, mifugo, na wakati wanjina atu. Mzunguko uhu wa dzuwa kali na mafuriko, wa kukosa madzi na madzi manji ga hatari, ni mdundo mkpwulu wa maisha kpwenye Kaunti ya Kwale."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Water Scarcity",
+      "sw": "Uhaba wa Maji",
+      "dg": "Upungufu wa Madzi"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "The numbers tell a stark story. Kwale County's daily water demand is approximately 220,000 cubic metres. Supply reaches only 30,000 to 35,000 cubic metres — roughly 15 percent of what is needed. This deficit is not an abstraction. It means women and girls walking hours to collect water. It means livestock dying in dry years. It means crops failing not because the soil is poor or the farmer is unskilled, but because there is simply not enough water to sustain them. It means that the groundwater aquifers beneath the coastal strip, which could partially close the gap, are increasingly drawn down by tourist hotels whose swimming pools and irrigated gardens consume water that communities desperately need.",
+      "sw": "Takwimu zinaeleza hali ngumu. Mahitaji ya maji ya kila siku ya Kaunti ya Kwale ni takriban mita za ujazo 220,000. Ugavi unafikia mita za ujazo 30,000 hadi 35,000 peke yake — takriban asilimia 15 ya kinachohitajika. Upungufu huu si nadharia tupu. Unamaanisha wanawake na wasichana kutembea masaa mengi kukusanya maji. Unamaanisha mifugo inakufa miaka ya ukame. Unamaanisha mazao yanashindwa si kwa sababu udongo ni mbaya au mkulima hana ujuzi, bali kwa sababu hakuna maji ya kutosha kuyahifadhi. Unamaanisha kwamba chemichemi za maji chini ya ardhi ya ukanda wa pwani, ambazo zingeweza kupunguza pengo hilo kwa kiasi, zinazidi kupungua kwa sababu ya hoteli za watalii ambazo mabwawa yao ya kuogelea na bustani zao za umwagiliaji zinatumia maji ambayo jamii zinahitaji sana.",
+      "dg": "Idadi zinaonyesa hali ngumu. Mahitaji ga madzi ga chila siku ga Kaunti ya Kwale ni kama mita za ujazo 220,000. Madzi ganagophahikana ni mita za ujazo 30,000 hadi 35,000 bahi — kama asilimia 15 ya ganagohitajika. Uphungufu uno si nadharia bahi. Manaye ni achetu na asichana kunyendeka masaa manji kuhendza madzi. Manaye ni mifugo kufwa miaka ya dzuwa kali. Manaye ni mimera kushindwa si kpwa sababu ulongo ni mui au mkurima kana ujuzi, ela kpwa kukala takuna madzi ga kutosha kuiterya. Manaye ni kukala madzi ga tsini ya ulongo wa ukanda wa pwani, ambago gangeweza kuphunguza pengo riro kpwa chidide, ganazidi kuphunguzwa ni hoteli za agenyi ambazo mabwawa gao ga kuogera na bustani zao zinahumira madzi ambago jamii zinagahitaji sana."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "Water scarcity shapes everything: health, education, gender relations, economic opportunity. In the driest zones, the search for water dominates daily life to the exclusion of almost everything else. This is the context in which the permanent rivers — Marere, Mwaluganje, Ramisi — acquire their significance. They are not merely watercourses. They are the difference between viability and abandonment for the communities along their banks.",
+      "sw": "Uhaba wa maji unaathiri kila kitu: afya, elimu, uhusiano wa kijinsia, fursa za kiuchumi. Katika maeneo makavu zaidi, kutafuta maji kunatawala maisha ya kila siku hadi hakuna nafasi ya kitu kingine. Hii ndiyo muktadha ambao mito ya kudumu — Marere, Mwaluganje, Ramisi — inapata umuhimu wake. Si vijito tu. Ni tofauti kati ya kuishi na kuachwa kwa jamii zilizo kando ya kingo zake.",
+      "dg": "Uphungufu wa madzi unaathiri chila chitu: afya, elimu, uhusiano wa achetu na alume, nafasi za chiuchumi. Kahi ya maeneo makavu zaidi, kuhendza madzi kunatawala maisha ga chila siku hadi takuna nafasi ya chitu chanjina. Uno ndio muktadha ambamo miho ya kudumu — Marere, Mwaluganje, Ramisi — inaphaha umuhimu. Si miho bahi. Ni tafwauti kahi ya kuishi na kurichwa kpwa jamii zirizo kanda-kanda ya miho iyo."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Climate and Agriculture",
+      "sw": "Hali ya Hewa na Kilimo",
+      "dg": "Hali ya Hewa na Chirimo"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Digo agriculture has been calibrated to the monsoon cycle over centuries. Traditional farming follows seasonal calendars that integrate rainfall patterns with planting schedules, crop selection, and harvest timing. The primary food crops — beans, cassava, maize, and peas — are chosen partly for their ability to mature within the constraints of the available rainfall windows. Coconuts, which require less precise timing, dominate the coastal strip. Cash crops including cashew nuts, sugarcane, cotton, and sesame supplement household income but are vulnerable to rainfall variability.",
+      "sw": "Kilimo cha Kidigo kimerekebishwa kulingana na mzunguko wa monsuni kwa karne nyingi. Kilimo cha jadi kinafuata kalenda za msimu zinazounganisha mifumo ya mvua na ratiba za kupanda, uchaguzi wa mazao, na wakati wa mavuno. Mazao makuu ya chakula — maharagwe, muhogo, mahindi, na kunde — yanachaguliwa kwa sehemu kwa uwezo wao wa kukomaa ndani ya mipaka ya dirisha la mvua lililopatikana. Nazi, ambazo hazihitaji wakati sahihi, zinatawala ukanda wa pwani. Mazao ya biashara ikiwa ni pamoja na korosho, miwa, pamba, na ufuta yanasaidia mapato ya kaya lakini yako hatarini kwa kutobadilika kwa mvua.",
+      "dg": "Chirimo cha Adigo chikarekebishwa kulingana na mzunguko wa monsuni kpwa karne nyinji. Chirimo cha chimila chinalunga kalenda za msimu zinazounganisha mifumo ya mvula na ratiba za kuphanda, kutsambula mimera, na wakati wa mavuno. Mimera mikulu ya chakurya — maharagwe, manga, pemba, na kunde — inatsambulwa kpwa seemu kpwa sababu inaweza kukomaa ndani ya miphaka ya wakati wa mvula. Nazi, ambazo tazihitaji wakati sahihi, zinatawala ukanda wa pwani. Mimera ya biashara dza ngorosho, miwa, pamba, na ufuta inaterya mapato ga nyumba ela i hatarini kpwa kubadilika kpwa mvula."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Traditional weather prediction draws on a sophisticated body of observational knowledge: cloud formations, wind direction and strength, animal behaviour such as bird migration patterns and insect activity, plant phenology including flowering and fruiting cycles, and moon phases. This knowledge, transmitted through oral tradition, represents generations of accumulated observation. It is not superstition but empirical science — pattern recognition developed over centuries of close attention to the natural world. Digo farmers did not need meteorological stations to know that when certain birds appeared, the rains were coming, or that when certain trees flowered early, the season would be short.",
+      "sw": "Utabiri wa hali ya hewa wa jadi unatokana na maarifa makubwa ya uchunguzi: miundo ya mawingu, mwelekeo na nguvu ya upepo, tabia za wanyama kama mifumo ya uhamaji wa ndege na shughuli za wadudu, fenolojia ya mimea ikiwa ni pamoja na mizunguko ya maua na matunda, na awamu za mwezi. Maarifa haya, yanayopitishwa kupitia mapokeo ya mdomo, yanawakilisha vizazi vya uchunguzi uliokusanywa. Si ushirikina bali ni sayansi ya uzoefu — utambuzi wa mifumo ulioendelezwa kwa karne nyingi za umakini wa karibu kwa ulimwengu wa asili. Wakulima wa Kidigo hawakuhitaji vituo vya hali ya hewa kujua kwamba ndege fulani walipoonekana, mvua ilikuwa inakuja, au kwamba miti fulani ilipochanua mapema, msimu ungekuwa mfupi.",
+      "dg": "Utabiri wa hali ya hewa wa chimila unatokana na maarifa makulu ga uchunguzi: miundo ya maingu, mwelekeo na nguvu ya phepho, tabiya za nyama dza kutsama kpwa nyuni na shughuli za adudu, fenolojia ya mimera dza mizunguko ya maridza na matunda, na awamu za mwezi. Maarifa iga, ganagotsapizwa kpwa mapokeo ga kanwa, ganawakilisha vizazi vya uchunguzi uriokusanywa. Si ushirikina ela ni sayansi ya uzoefu — utambuzi wa mifumo uriokula kpwa karne nyinji za umakini wa phephi kpwa ulimwengu wa asili. Akurima a Chidigo taahitaji vituo vya hali ya hewa kumanya kukala nyuni fulani achionekana, mvula inakpwedza, au kukala mihi fulani ichilavya maridza mapema, msimu undakala mfupi."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "Climate and Ceremony",
+      "sw": "Hali ya Hewa na Sherehe",
+      "dg": "Hali ya Hewa na Sherehe"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The monsoon cycle does not merely govern agriculture. It structures the ceremonial calendar, the rhythm of social life, and the timing of communal activities. Certain rituals are tied to the coming of the rains — prayers for a good season, offerings at sacred sites, communal gatherings that mark the transition from dry to wet. The harvest period brings its own celebrations, its own gratitude, its own social obligations. Even palm wine tapping — that quintessentially Digo practice — follows seasonal rhythms, with sap yield varying according to rainfall and temperature. Drought reduces the sap flow, diminishing not just a beverage but a social institution, since palm wine gatherings are among the primary sites of Digo male socialisation and community discussion.",
+      "sw": "Mzunguko wa monsuni hautawali kilimo tu. Unapanga kalenda ya sherehe, mdundo wa maisha ya kijamii, na wakati wa shughuli za pamoja. Ibada fulani zinahusishwa na kuja kwa mvua — sala za msimu mzuri, sadaka katika maeneo matakatifu, mikutano ya jamii inayoashiria mabadiliko kutoka ukavu hadi mvua. Kipindi cha mavuno kinaleta sherehe zake, shukrani zake, na wajibu wake wa kijamii. Hata uvunaji wa tembo — desturi hiyo ya kipekee ya Kidigo — unafuata midundo ya msimu, ambapo mazao ya utomvu yanabadilika kulingana na mvua na joto. Ukame unapunguza mtiririko wa utomvu, kupunguza si kinywaji tu bali taasisi ya kijamii, kwa kuwa mikutano ya tembo ni miongoni mwa maeneo makuu ya ujamii wa wanaume wa Kidigo na majadiliano ya jamii.",
+      "dg": "Mzunguko wa monsuni tautawala chirimo bahi. Unapanga kalenda ya sherehe, mdundo wa maisha ga chidzamii, na wakati wa shughuli za phamwenga. Ibada fulani zinahusishwa na kpwedza kpwa mvula — mavoyo ga msimu mnono, sadaka kahi ya maeneo matakatifu, mikutano ya jamii inayoonyesa kubadilika kula ukavu hadi mvula. Chipindi cha mavuno chinareha shereheze, shukranize, na wajibuwe wa chidzamii. Hata kujema uchi — desturi iyo ya chipekee ya Chidigo — kunalunga midundo ya msimu, ambapho utomvu unaophahikana unabadilika kulingana na mvula na dzoho. Dzuwa kali rinaphunguza mtiririko wa utomvu, na kuphunguza si chinwadzi bahi ela taasisi ya chidzamii, kpwa kukala mikutano ya uchi ni kahi ya maeneo makulu ga udzamii wa alume a Chidigo na majadiliano ga jamii."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Climate Change: The Breaking Pattern",
+      "sw": "Mabadiliko ya Tabianchi: Mfumo Unaovunjika",
+      "dg": "Kubadilika kpwa Hali ya Hewa: Mfumo Unavundzika"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The monsoon patterns that sustained Digo life for centuries are becoming unreliable. Climate change is altering the timing, duration, and intensity of the rains in ways that traditional knowledge cannot fully predict. Seasons arrive late or not at all. When rain comes, it sometimes falls in destructive bursts — flooding fields, eroding topsoil, washing away the nutrients that make the land productive. Heat waves are longer and more frequent, stressing crops, livestock, and people. Many seasonal rivers that once flowed during the rains have dried up entirely.",
+      "sw": "Mifumo ya monsuni iliyodumisha maisha ya Kidigo kwa karne nyingi inakuwa isiyotegemewa. Mabadiliko ya tabianchi yanabadilisha wakati, muda, na ukali wa mvua kwa njia ambazo maarifa ya jadi hayawezi kutabiri kikamilifu. Misimu inafika kuchelewa au haifiki kabisa. Mvua inapokuja, wakati mwingine inanyesha kwa nguvu za uharibifu — kufurika mashamba, kumomonyoa udongo wa juu, kuosha virutubishi vinavyofanya ardhi kuwa yenye tija. Mawimbi ya joto ni marefu na ya mara kwa mara zaidi, yanayoathiri mazao, mifugo, na watu. Mito mingi ya msimu ambayo ilikuwa inatiririsha wakati wa mvua imekauka kabisa.",
+      "dg": "Mifumo ya monsuni iriyodumisha maisha ga Adigo kpwa karne nyinji tsona taikuluphirika. Kubadilika kpwa hali ya hewa kunabadilisha wakati, muda, na ukali wa mvula kpwa njira ambazo maarifa ga chimila tagaweza kutabiri kabisa. Misimu inachelewa au taifika kabisa. Mvula ichikpwedza, wakati wanjina inanya kpwa nguvu za kubananga — kufurisha minda, kumomonyoa ulongo wa dzulu, kusuwa virutubishi vinavyohenda tsi kukala na tija. Mawimbi ga dzoho ni mare zaidi na ganakpwedza mara kpwa mara, ganaathiri mimera, mifugo, na atu. Miho minji ya msimu ambayo kare yakala inahirika wakati wa mvula ikauma kabisa."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The consequences cascade through every dimension of life. Farming becomes a gamble rather than a livelihood. Food prices spike during failed seasons. Young people leave rural areas for Mombasa and beyond, seeking alternatives to agriculture. The traditional weather prediction systems lose reliability as the patterns they were built to read no longer hold. Coastal erosion accelerates as storm surges become more frequent and more powerful. Sea level rise increases salinity in coastal aquifers, contaminating the freshwater on which coastal communities depend.",
+      "sw": "Matokeo yanasambaa kupitia kila nyanja ya maisha. Kilimo kinakuwa kamari badala ya riziki. Bei za chakula zinapanda wakati wa misimu iliyoshindwa. Vijana wanaondoka maeneo ya mashambani kwenda Mombasa na mbali zaidi, kutafuta njia mbadala za kilimo. Mifumo ya utabiri wa hali ya hewa ya jadi inapoteza uaminifu kadri mifumo waliyojengwa kuisoma haishiki tena. Mmomonyoko wa pwani unakua kasi kadri dhoruba za bahari zinavyokuwa za mara kwa mara na zenye nguvu zaidi. Kupanda kwa usawa wa bahari kunaongeza chumvi katika chemichemi za pwani, kuchafua maji safi ambayo jamii za pwani zinayategemea.",
+      "dg": "Matokeo ganasambaa kpwa chila nyanja ya maisha. Chirimo chinakala kamari badala ya riziki. Bei za chakurya zinapanda wakati wa misimu iriyoshindwa. Avulana na asichana anauka vidzidzi kuphiya Mombasa na kure zaidi, kuhendza njira mbadala za chirimo. Mifumo ya utabiri wa hali ya hewa ya chimila inaangamiza uaminifu kpwa sababu mifumo iriyodzengwa kuisoma taiko tsona. Kumomonyoka kpwa pwani kunaenjereza kasi kadiri dhoruba za bahari zinavyokpwedza mara kpwa mara na kpwa nguvu zaidi. Kupanda kpwa usawa wa bahari kunaenjereza munyu kahi ya madzi ga tsini ga pwani, kuchafuwa madzi ga kunwa ambago jamii za pwani zinagakuluphira."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "For the Digo, climate change is not a future threat discussed in international conferences. It is a present reality experienced in failed harvests, dry wells, and the growing distance between the world their grandparents knew and the one they now inhabit. The monsoon winds still blow. But they no longer carry the same promise.",
+      "sw": "Kwa Adigo, mabadiliko ya tabianchi si tishio la siku zijazo linalojadiliwa katika mikutano ya kimataifa. Ni ukweli wa sasa unaoonekana katika mavuno yaliyoshindwa, visima vilivyokauka, na umbali unaokua kati ya ulimwengu ambao babu zao waliujua na ule wanaoishi ndani yake sasa. Pepo za monsuni bado zinavuma. Lakini hazibeba tena ahadi ile ile.",
+      "dg": "Kpwa Adigo, kubadilika kpwa hali ya hewa si chitisho cha siku zidzazo chinachojadiliwa kahi ya mikutano ya chimataifa. Ni ukpweli wa vivi sambi unaonewa kahi ya mavuno garigoshindwa, visima virivyouma, na umbali unaokula kahi ya dunia ambayo akare ao amanya na iyo anayoishi sambi. Phepho za monsuni bado zinavuma. Ela tazitsukula tsona ahadi iyo-iyo."
+    }
+  ]
+}

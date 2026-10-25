@@ -1,0 +1,176 @@
+{
+  "id": "culture/connections/migration",
+  "title": {
+    "en": "Digo Migration",
+    "sw": "Uhamiaji wa Wadigo",
+    "dg": "Uhamiaji wa Adigo"
+  },
+  "intro": {
+    "en": "For generations, to be Digo was to be of the coast — rooted in the coconut groves and cashew plantations of Kwale, anchored to the rhythm of the monsoon seasons, defined by the proximity of the Indian…",
+    "sw": "Kwa vizazi vingi, kuwa Mdigo ilikuwa kuwa wa pwani — wenye mizizi katika mashamba ya nazi ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano huo haujaachwa, lakini umechanganyikiwa.…",
+    "dg": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika.…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "The Pull of the City",
+      "sw": "Mvuto wa Jiji",
+      "dg": "Mvuto wa Mudzi Mkpwulu"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "For generations, to be Digo was to be of the coast — rooted in the coconut groves and cashew plantations of Kwale, anchored to the rhythm of the monsoon seasons, defined by the proximity of the Indian Ocean. That equation has not been abandoned, but it has been complicated. Today, increasing numbers of Digo — especially the young — are leaving the rural villages of Kwale County for the cities, driven by the same forces that propel rural-to-urban migration across the developing world: the promise of employment, the pursuit of education, and the hope of a life that the village economy, with its limited diversification and chronic underinvestment, cannot provide.",
+      "sw": "Kwa vizazi vingi, kuwa Mdigo ilikuwa kuwa wa pwani — wenye mizizi katika mashamba ya nazi ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni. Mlingano huo haujaachwa, lakini umechanganyikiwa. Leo, idadi inayoongezeka ya Wadigo — hasa vijana — wanaondoka vijiji vya Kwale kuelekea miji, wakisukumwa na ahadi ya ajira, elimu, na maisha ambayo uchumi wa kijiji hauwezi kutoa.",
+      "dg": "Kpwa vizazi vinji, kukala Mdigo yakala ni kukala wa pwani — wenye mizi kpwa minda ya nazi na ngorosho ya Kwale, wenye uhusiano na mdundo wa misimu ya monsuni, na anayefafanuliwa ni uphephi wa Bahari ya Hindi. Mlingano uwo taudzangbwerichwa, ela ukatsanganyika. Rero, idadi inayoenjerezeka ya Adigo — hasa avulana na asichana — anauka vidzidzi vya Kwale kuelekea midzi mikulu, achisukumwa ni nguvu zizo-zizo zinazosukuma atu kula vidzidzini kuphiya midzini kosi kpwenye tsi zinazoendelea: ahadi ya kazi, kuhendza elimu, na matumaini ga maisha ambago uchumi wa chidzidzi — wenye shughuli chache na uwekezaji mdide wa siku zosi — tauweza kulavya."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "This is not a new phenomenon. The Mijikenda — the broader confederation of nine peoples to which the Digo belong — are ancestral inhabitants of the Mombasa area. Digo presence in the city has deep historical roots. But the scale and character of contemporary migration are different from historical patterns. Where earlier generations moved to Mombasa as part of a gradual coastal drift, today's migration is sharper, more purposeful, and more often permanent. Young people leave for secondary school and do not return. Graduates seek employment in the service sector, in tourism, in government. The village becomes a place to visit, not a place to live — a source of identity but not of livelihood.",
+      "sw": "Mombasa ndiyo mahali pa kwanza pa kwenda kwa wahamiaji wa Wadigo. Jiji liko karibu na linajulikana kitamaduni — jiji la pwani la Kiswahili, la Kiislamu, ambapo alama za kitamaduni za Wadigo zinatambuliwa. Lakini jiji linaweka shinikizo lake: Kiswahili linakuwa lugha ya msingi, mfumo wa ukoo wa mama unakabiliwa, na mazoea ya jadi yanakuwa magumu kudumisha.",
+      "dg": "Dzambo riri si riphya. Amijikenda — muungano mpana wa makabila tisiya ambao Adigo ni seemu yao — ni akazi a kare a eneo ra Mombasa. Kukala kpwa Adigo kpwenye mudzi uwo kuna mizi ya kare ya chihistoria. Ela ukulu na sura ya uhamiaji wa rero ni tafwauti na mienendo ya kare. Wakati vizazi vya kare vyaphiya Mombasa pore-pore dza seemu ya kutsama kanda-kanda ya pwani, uhamiaji wa rero ni wa haraka zaidi, una lengo zaidi, na mara nyinji ni wa kudumu. Adide anauka kuphiya shule za sekondari na taauya. Ariohitimu anahendza kazi kpwenye sekta ya huduma, kpwenye utalii, kpwenye serikali. Chidzidzi chinakala phatu pha kutembelea, si phatu pha kuishi — chanzo cha utambuzi ela si cha riziki."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Mombasa: The First Destination",
+      "sw": "Uchumi wa utalii kando ya ukanda wa Diani Beach umeunda muundo wa kipekee wa uhamiaji. Hoteli na biashara za huduma zinaajiri idadi kubwa ya Wadigo wa eneo hilo. Lakini uchumi wa utalii pia unasababisha ubidhaaishaji wa ardhi — viwanja vya pwani ambavyo viliendeleza familia za Wadigo vinauzwa kwa waendelezaji.",
+      "dg": "Mombasa: Phatu pha Kpwandza pha Kuphiya"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Mombasa is, overwhelmingly, the primary destination for Digo migrants. The city is close — a few hours by matatu from most parts of Kwale — and culturally familiar. It is a Swahili-speaking, predominantly Muslim, Indian Ocean port city where Digo cultural markers — the language, the food, the faith — are recognized and, to some extent, shared by the broader coastal population. The transition from Kwale to Mombasa is not a journey into alien territory. It is a move within a recognizable cultural landscape, from its rural to its urban expression.",
+      "sw": "Idadi ndogo lakini muhimu ya Wadigo ipo Nairobi, ambapo wanatafuta elimu ya chuo kikuu, ajira ya serikali, na kazi za kitaaluma. Gharama ya kitamaduni ya Nairobi ni kubwa zaidi kuliko Mombasa — hakuna mtaa wa Wadigo, hakuna jamii ya msikiti ya Wadigo ya kutosha kudumisha miundombinu ya utambulisho. Lugha inafifia haraka zaidi.",
+      "dg": "Mombasa ndiyo, kpwa unji kabisa, phatu pha kpwandza pha kuphiya kpwa ahamiaji a Adigo. Mudzi mkpwulu u phephi — saa chache kpwa matatu kula seemu nyinji za Kwale — na unamanyika kpwa chimila. Ni mudzi wa bandari wa Bahari ya Hindi wa Chiswahili, ambao atu anji ni Aislamu, ambako alama za chimila za Adigo — luga, chakurya, imani — zinatambuliwa na, kpwa chiasi fulani, zinashirikiwa ni atu anjina a pwani. Kuuka Kwale kuphiya Mombasa si safari ya kuphiya eneo ra atu ajeni. Ni kutsama ndani ya mandhari ya chimila inayomanyikana, kula suraye ya vidzidzini hadi suraye ya mudzini."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "Key neighbourhoods host significant Digo populations. Mtongwe and surrounding areas on the south mainland are particularly associated with Digo settlement, forming a bridge between Kwale County and the urban core. Here, something like a Digo urban village can emerge — a neighbourhood where the language is still heard, where the mosque serves as a community anchor, and where the coconut-based cuisine of home is prepared in urban kitchens.",
+      "sw": "Kijiji Kinapoteza Nini",
+      "dg": "Mitaa muhimu ina idadi kulu ya Adigo. Mtongwe na seemu za phephi kpwenye uphande wa bara wa kusini zinamanyikana hasa kpwa makazi ga Adigo, zichikala dza daraja kahi ya Kaunti ya Kwale na kahi-kahi ya mudzi. Phapho, chitu dza chidzidzi cha Adigo cha mudzini chinaweza kuzuka — mtaa ambapho luga bado inasikirwa, ambapho msikiti ni nguzo ya jamii, na ambapho vyakurya vya nazi vya kaya nkujitwa kpwenye madziko ga mudzini."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "But the city exerts its own pressures. Swahili becomes the primary language of daily life, pushing Chidigo into the domestic sphere or into ceremonial contexts. The matrilineal kinship system, which depends on the physical proximity of maternal kin, is strained when young people move away from their mothers' clan networks. Traditional practices — kaya ceremonies, the elaborate rituals of sengenya, the authority of clan elders — become harder to maintain when the community is dispersed across an urban landscape. Islam remains a powerful anchor of identity, providing continuity when other markers of Digo-ness are attenuated by city life. The mosque replaces the kaya as the primary community gathering point. The Friday prayer replaces the clan meeting.",
+      "sw": "Kila kijana anayeondoka ni hasara kwa kijiji. Wazee wanaoshikilia maarifa ya jadi wanakuwa wazee. Kazi ya kilimo inapungua. Uchumi wa nazi unateseka. Kinachotiririsha kurudi, kwa fidia ya sehemu, ni pesa — uchumi wa uhawilishaji umekuwa sababu muhimu katika maisha ya kiuchumi ya vijiji vya Kwale.",
+      "dg": "Ela mudzi mkpwulu unaika shinikizore. Chiswahili chinakala luga ya musingi ya maisha ga chila siku, chichisukuma Chidigo kuphiya nyumbani bahi au kpwenye sherehe. Mfumo wa ukoo wa nine, unaokuluphira kukala phephi na ndugu a uphande wa mayo, unakabiliwa adide achitsama kure na mitandao ya fuko ra uphande wa mayo. Mila za kare — sherehe za kaya, mila nyinji za sengenya, mamlaka ga azehe a fuko — zinakala ngumu kudumisha jamii ichidziganya kosi mudzini. Uislamu unasala nguzo yenye nguvu ya utambuzi, uchipha kuenderera wakati alama zanjina za kukala Mdigo zichiphungulwa ni maisha ga mudzini. Msikiti unahala nafasi ya kaya dza phatu pha kpwandza pha kukusanyika kpwa jamii. Sala ya Ijumaa inahala nafasi ya mkutano wa fuko."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "The Tourism Economy",
+      "sw": "Wadigo wanaoondoka — iwe Mombasa, Nairobi, London, au Dubai — hawaacha kuwa Wadigo. Utambulisho unafuata mhamiaji. Wajibu wa kurudi kwa harusi na mazishi unahisiwa kwa kina. Changamoto ya siku zijazo ni kama uhusiano huu unaweza kudumishwa kati ya umbali unaokua. Kwa sasa, jibu ni kwamba uhusiano unashikilia — umebadilishwa, lakini haujavunjwa.",
+      "dg": "Uchumi wa Utalii"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The tourism economy along the Diani Beach corridor has created a distinctive pattern of migration that is neither fully rural nor fully urban. The hotels, resorts, and service businesses that line the coast from Ukunda southward employ significant numbers of local Digo as staff — in hospitality, as guides, in construction, in the supply chains that provision the tourism industry. This employment draws people from the interior of Kwale toward the coastal strip, creating a population shift within the county itself.",
+      "sw": "Uchumi wa utalii kando ya ukanda wa Diani Beach umeunda mfumo wa kipekee wa uhamaji ambao si wa mashambani kabisa wala si wa mjini kabisa. Hoteli, mapumziko, na biashara za huduma zinazopanga pwani kuanzia Ukunda kuelekea kusini zinaajiri idadi kubwa ya Adigo wa eneo kama wafanyakazi — katika ukarimu, kama viongozi wa watalii, katika ujenzi, katika minyororo ya ugavi inayoandalia tasnia ya utalii. Ajira hii inavuta watu kutoka ndani ya Kwale kuelekea ukanda wa pwani, kuunda mabadiliko ya idadi ya watu ndani ya kaunti yenyewe.",
+      "dg": "Uchumi wa utalii kanda-kanda ya ukanda wa Diani Beach ukaunda mfumo wa chipekee wa uhamaji ambao si wa vidzidzini kabisa wala si wa mudzini kabisa. Hoteli, maphumziko, na biashara za huduma zinazoika pwani kula Ukunda kuelekea mwakani zinaajiri idadi kulu ya Adigo a eneo dza ahendadzi — kahi ya ukarimu, dza viongozi a ajeni, kahi ya kudzenga, kahi ya minyororo ya ugavi inayoandalia tasnia ya utalii. Kazi iyi inamweha atu kula ndani ya Kwale kuelekea ukanda wa pwani, ichiumba mabadiliko ga idadi ya atu ndani ya kaunti yenye."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "The tourism economy is, in many ways, a double-edged sword for the Digo community. It provides employment and cash income in an area where both are scarce. It creates demand for local products and services. It brings the outside world to Kwale in ways that expand horizons and create opportunities. But it also drives land commodification — coastal plots that once sustained Digo families through subsistence agriculture are sold to developers at prices that seem generous until the money runs out and the land is gone forever. The relationship between the Digo community and the tourism economy is one of the defining tensions of contemporary Kwale.",
+      "sw": "Uchumi wa utalii ni, kwa njia nyingi, upanga wenye makali pande mbili kwa jamii ya Kidigo. Unatoa ajira na mapato ya fedha katika eneo ambapo vyote viwili ni haba. Unaunda mahitaji ya bidhaa na huduma za ndani. Unaleta ulimwengu wa nje Kwale kwa njia zinazopanua upeo na kuunda fursa. Lakini pia unasababisha ubidhaaishaji wa ardhi — viwanja vya pwani ambavyo hapo awali viliwadumisha familia za Kidigo kupitia kilimo cha kujikimu vinauzwa kwa waendelezaji kwa bei zinazoonekana nzuri hadi fedha zinapoisha na ardhi imeenda milele. Uhusiano kati ya jamii ya Kidigo na uchumi wa utalii ni moja ya migogoro inayofafanua Kwale ya kisasa.",
+      "dg": "Uchumi wa utalii ni, kpwa njira nyinji, upanga wenye makali phande mbiri kpwa jamii ya Adigo. Unapha kazi na mapato ga pesa kahi ya eneo ambaro vyosi viiri ni haba. Unaumba mahitaji ga vitu na huduma za phano. Unareha dunia ya kondze Kwale kpwa njira zinazopanua upeo na kuumba nafasi. Ela piya unasababisha kuguzwa kpwa tsi — viwanja vya pwani ambavyo kare vyadumisha mbari za Adigo kutsupira chirimo cha kudzikimu vinaguzwa kpwa aendelezaji kpwa bei zinazooneka nono hadi pesa zinaphomala na tsi ichiphiya kpwa kpweli. Uhusiano wa jamii ya Adigo na uchumi wa utalii ni mwenga wa makondo ganagoifafanua Kwale ya vivi sambi."
+    },
+    {
+      "id": "b011",
+      "type": "heading",
+      "en": "Nairobi and Beyond",
+      "sw": "Nairobi na Zaidi",
+      "dg": "Nairobi na Zaidi"
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "A smaller but significant Digo population exists in Nairobi, Kenya's capital and economic centre. The Nairobi Digo are, as a group, more educated and more professionally oriented than those who migrate to Mombasa. They have come for university education, for government employment, for careers in law, medicine, business, and the civil service. They are, in many cases, the success stories of the community — the proof that a Digo child from Kwale can compete and succeed in the national arena.",
+      "sw": "Idadi ndogo lakini muhimu ya Adigo ipo Nairobi, mji mkuu na kituo cha kiuchumi cha Kenya. Adigo wa Nairobi ni, kama kundi, wenye elimu zaidi na wenye mwelekeo wa kitaaluma zaidi kuliko wale wanaohama kwenda Mombasa. Wamekuja kwa elimu ya chuo kikuu, kwa ajira ya serikali, kwa kazi katika sheria, tiba, biashara, na utumishi wa umma. Wao ni, katika visa vingi, hadithi za mafanikio za jamii — uthibitisho kwamba mtoto wa Kidigo kutoka Kwale anaweza kushindana na kufanikiwa katika uwanja wa kitaifa.",
+      "dg": "Idadi ndide ela ya muhimu ya Adigo iko Nairobi, mudzi mkpwulu na chituo cha chiuchumi cha Kenya. Adigo a Nairobi ni, dza kundi, enye elimu zaidi na enye mwelekeo wa chitaaluma zaidi kuriko aho anaohamira Mombasa. Akpwedza kpwa elimu ya chuo chikulu, kpwa kazi ya serikali, kpwa kazi za shariya, uganga, biashara, na utumishi wa uma. Ni, kahi ya visa vinji, hadithi za mafanikio za jamii — ushahidi kukala mwana wa Chidigo kula Kwale anaweza kushindana na kufanikiwa kahi ya uwanja wa chitaifa."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "But the cultural cost of Nairobi is higher than the cultural cost of Mombasa. In Nairobi, the Digo are a small minority in a city dominated by upcountry ethnic groups — Kikuyu, Luo, Luhya, Kamba — whose cultural presence is overwhelming. There is no Digo neighbourhood, no Digo mosque community large enough to sustain the social infrastructure of identity. The language fades faster. The children know less. The distance from Kwale — both physical and psychological — is greater. The Nairobi Digo maintain their identity through deliberate effort: weekend gatherings, holiday trips home, WhatsApp groups that circulate news from Kwale, the determination to speak Chidigo to their children even when the children would prefer Swahili or English.",
+      "sw": "Lakini gharama ya kitamaduni ya Nairobi ni kubwa zaidi kuliko gharama ya kitamaduni ya Mombasa. Nairobi, Adigo ni wachache katika mji unaotawaliwa na makabila ya bara — Wakikuyu, Waluo, Waluhya, Wakamba — ambao uwepo wao wa kitamaduni ni mkubwa sana. Hakuna jirani ya Kidigo, hakuna jamii ya msikiti ya Kidigo kubwa ya kutosha kudumisha miundombinu ya kijamii ya utambulisho. Lugha inafifia haraka zaidi. Watoto wanajua kidogo zaidi. Umbali kutoka Kwale — wa kimwili na wa kisaikolojia — ni mkubwa zaidi. Adigo wa Nairobi wanadumisha utambulisho wao kwa juhudi za makusudi: mikutano ya wikendi, safari za likizo kwenda nyumbani, vikundi vya WhatsApp vinavyosambaza habari kutoka Kwale, azimio la kuzungumza Chidigo na watoto wao hata watoto wanapopenda Kiswahili au Kiingereza zaidi.",
+      "dg": "Ela gharama ya chimila ya Nairobi ni kulu zaidi kuriko gharama ya chimila ya Mombasa. Kpwa Nairobi, Adigo ni achache kahi ya mudzi unaotawaliwa ni makabila ga bara — Akikuyu, Aluo, Aluhya, Akamba — ambao uwepo wao wa chimila ni mkpwulu sana. Taphana jirani ya Chidigo, taphana jamii ya msikiti ya Chidigo kulu ya kutosha kudumisha miundombinu ya chidzamii ya utambuzi. Luga inafifia haraka zaidi. Ana anamanya chidide zaidi. Umbali kula Kwale — wa chimwiri na wa chisaikolojia — ni mkpwulu zaidi. Adigo a Nairobi anadumisha utambuzi wao kpwa juhudi za makusudi: mikutano ya mwisho wa wiki, safari za likizo kuphiya kaya, vikundi vya WhatsApp vinavyosambaza habari kula Kwale, azimio ra kugomba Chidigo na ana ao hata ana anaphopendelea Chiswahili au Chingereza zaidi."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "What the Village Loses",
+      "sw": "Kijiji Kinapoteza Nini",
+      "dg": "Mudzi Unaangamiza Chitu Chani"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "Every young person who leaves is a loss to the village. This is not sentimentality — it is a structural reality with concrete consequences. The elders who hold traditional knowledge — the medicinal plants of the kaya forests, the genealogies that structure clan membership, the songs and stories that carry cultural history — are aging. When the young people who should be learning from them are in Mombasa or Nairobi, the chain of transmission is weakened. Knowledge that was passed from grandmother to granddaughter through daily proximity must now be compressed into holiday visits, if it is transmitted at all.",
+      "sw": "Kila kijana anayeondoka ni hasara kwa kijiji. Hii si hisia za huruma — ni hali halisi ya kimuundo yenye matokeo ya kweli. Wazee wanaoshikilia maarifa ya jadi — mimea ya dawa ya misitu ya kaya, nasaba zinazopanga uanachama wa ukoo, nyimbo na hadithi zinazobeba historia ya kitamaduni — wanazeeka. Wakati vijana ambao wanapaswa kujifunza kutoka kwao wako Mombasa au Nairobi, mnyororo wa upitishaji unadhoofishwa. Maarifa ambayo yalipitishwa kutoka bibi hadi mjukuu wa kike kupitia ukaribu wa kila siku lazima sasa yabanishwe katika ziara za likizo, kama yanapitishwa kabisa.",
+      "dg": "Chila mvulana au msichana mdide anayeuka ni hasara kpwa mudzi. Ihi si hisia za huruma — ni hali ya kpweli ya chimuundo yenye matokeo ga kpweli. Azehe anaogbwira maarifa ga chimila — mimea ya dawa ya matsakani ga kaya, nasaba zinazopanga uanachama wa fuko, mawira na hadithi zinazotsukula historia ya chimila — anakala azehe zaidi. Adide ambao anafwaha kudzifundza kula kpwao achikala Mombasa au Nairobi, mnyororo wa kutsapiza unadhoofishwa. Maarifa ambago gatsapizwa kula bibi hadi mdzukulu wa chichetu kutsupira uphephi wa chila siku lazima sambi gabanishwe kahi ya ziara za likizo, kala ganatsapizwa kabisa."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "Agricultural labour diminishes as the young leave. Fields that once produced food for extended families are tended by aging parents or left fallow. The coconut economy, which has sustained Digo communities for centuries, suffers from declining maintenance — coconut palms require regular attention, and when the young hands that would provide it are elsewhere, production falls. The village economy contracts, which pushes more young people to leave, which contracts the economy further — a cycle that is familiar across rural East Africa but no less damaging for its familiarity.",
+      "sw": "Kazi ya kilimo inapungua kadri vijana wanavyoondoka. Mashamba ambayo hapo awali yalitoa chakula kwa familia pana yanashughulikiwa na wazazi wanaozeeka au kuachwa bila kulimwa. Uchumi wa nazi, ambao umedumisha jamii za Kidigo kwa karne nyingi, unateseka kutokana na matunzo yanayopungua — minazi inahitaji umakini wa mara kwa mara, na mikono ya vijana inapokuwa mahali pengine, uzalishaji unapungua. Uchumi wa kijiji unapungua, ambao unasukuma vijana wengi zaidi kuondoka, ambao unapunguza uchumi zaidi — mzunguko ambao ni wa kawaida kote mashambani Afrika Mashariki lakini si wa madhara kidogo kwa kawaida yake.",
+      "dg": "Kazi ya chirimo inaphungula adide achiuka. Minda ambayo kare yareha chakurya kpwa mbari pana inashuhulikirwa ni azehe au inarichwa bila kurimwa. Uchumi wa nazi, ambao wadumisha jamii za Adigo kpwa karne nyinji, unateseka kula matunzo ganagophungula — minazi inahitaji umakini wa chila mara, na mikono ya adide ichikala phatu phanjina, uzalishaji unaphungula. Uchumi wa mudzi unaphungula, ambapho adide anji zaidi anasukumwa kuuka, ambapho uchumi unaphungula zaidi — mzunguko ambao ni wa kawaida kosi vidzidzini Afrika ya Mashariki ela si wa madhara machache kpwa kawaidaye."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "The Remittance Economy",
+      "sw": "Uchumi wa Fedha za Kutumwa",
+      "dg": "Uchumi wa Pesa za Kuhumwa"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "What flows back, in partial compensation, is money. The remittance economy — the flow of cash from urban workers to rural families — has become a significant factor in the economic life of Kwale's villages. A son in Mombasa sends money for his mother's medical bills. A daughter in Nairobi pays her younger siblings' school fees. A worker in the Gulf states — for the Digo diaspora extends, through Islamic labour networks, to Qatar, Oman, and Dubai — sends back enough to build a house or start a small business.",
+      "sw": "Kinachotiririsha nyuma, kama fidia ya sehemu, ni fedha. Uchumi wa fedha za kutumwa — mtiririko wa pesa kutoka wafanyakazi wa mjini hadi familia za mashambani — umekuwa sababu muhimu katika maisha ya kiuchumi ya vijiji vya Kwale. Mwana wa kiume huko Mombasa anatuma pesa kwa bili za matibabu ya mama yake. Binti huko Nairobi analipa ada za shule za ndugu zake wadogo. Mfanyakazi katika nchi za Ghuba — kwa sababu diaspora ya Kidigo inaenea, kupitia mitandao ya kazi ya Kiislamu, hadi Qatar, Oman, na Dubai — anatuma nyuma pesa za kutosha kujenga nyumba au kuanzisha biashara ndogo.",
+      "dg": "Chinachouya, dza fidia ya seemu, ni pesa. Uchumi wa pesa za kuhumwa — mtiririko wa pesa kula ahendadzi a mudzini hadi mbari za vidzidzini — ukakala sababu muhimu kahi ya maisha ga chiuchumi ga vidzidzi vya Kwale. Mwana wa chilume kpwa Mombasa anahuma pesa za bili za uganga za mayoe. Mwana wa chichetu kpwa Nairobi anaripha ada za shule za nduguze adide. Muhendadzi kahi ya tsi za Ghuba — kpwa kukala diaspora ya Adigo inaenderera, kutsupira mitandao ya kazi ya Chiislamu, hadi Qatar, Oman, na Dubai — anahuma kaya pesa za kutosha kudzenga nyumba au kuandza biashara ndide."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "No Digo-specific remittance data exists. Nationally, Kenya received over five billion US dollars in diaspora remittances in 2024, but the coastal communities' share of this figure is undocumented. What is observable at the village level is the visible evidence of remittance income: new houses built in concrete block where mud-and-thatch once stood, motorcycles replacing bicycles, children in school uniforms attending secondary schools that their parents' generation could not have afforded. The money makes a difference. Whether it compensates for what is lost — the presence, the knowledge, the continuity of daily life — is a question that every family answers differently.",
+      "sw": "Hakuna data ya fedha za kutumwa mahususi ya Kidigo. Kitaifa, Kenya ilipokea zaidi ya dola bilioni tano za Marekani katika fedha za kutumwa za diaspora mwaka 2024, lakini sehemu ya jamii za pwani ya takwimu hii haijarekodiwa. Kinachoonekana katika ngazi ya kijiji ni ushahidi unaoonekana wa mapato ya fedha za kutumwa: nyumba mpya zilizojengwa kwa matofali ya simiti ambapo udongo-na-makuti viliwahi kusimama, pikipiki zinazochukua nafasi ya baiskeli, watoto katika sare za shule wanaosoma shule za sekondari ambazo kizazi cha wazazi wao wasingeweza kumudu. Fedha zinafanya tofauti. Je, zinalipia kilichopotea — uwepo, maarifa, kuendelea kwa maisha ya kila siku — ni swali ambalo kila familia inajibu tofauti.",
+      "dg": "Taphana data ya pesa za kuhumwa mahususi ya Adigo. Chitaifa, Kenya yaphokera zaidi ya dola bilioni tsano za Marekani kahi ya pesa za kuhumwa za diaspora mwaka wa 2024, ela seemu ya jamii za pwani ya takwimu iyo tairekodiwa. Chinachoonekana kahi ya ngazi ya chidzidzi ni ushahidi unaoonekana wa mapato ga pesa za kuhumwa: nyumba mphya zirizodzengbwa kpwa matofali ga simiti ambapho nyumba za ulongo na makuti zakala phapho, pikipiki zinazohala nafasi ya baiskeli, ana kahi ya sare za shule anaosoma shule za sekondari ambazo chizazi cha avyazi ao taachiweza kuzimudu. Pesa zinareha tafwauti. Kala zinaripha chirichoangamika — uwepo, maarifa, kuenderera kpwa maisha ga chila siku — ni swali ambaro chila mbari inarijibu kpwa tafwauti."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "The Diaspora's Relationship with Home",
+      "sw": "Uhusiano wa Diaspora na Nyumbani",
+      "dg": "Uhusiano wa Diaspora na Kaya"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The Digo who leave — whether for Mombasa, Nairobi, London, or Dubai — do not cease to be Digo. This is perhaps the most important thing to understand about Digo migration. Identity follows the migrant. The obligation to return for weddings and funerals is deeply felt and widely honoured. The expectation that urban success will translate into support for rural kin is not merely a hope but a social contract, enforced by the shame that falls on those who forget their people.",
+      "sw": "Adigo wanaoondoka — iwe kwenda Mombasa, Nairobi, London, au Dubai — hawaachi kuwa Adigo. Hii labda ni jambo muhimu zaidi la kuelewa kuhusu uhamaji wa Kidigo. Utambulisho unafuata mhamiaji. Wajibu wa kurudi kwa harusi na mazishi unahisiwa kwa undani na kuheshimiwa kwa upana. Matarajio kwamba mafanikio ya mjini yatatafsiriwa kuwa msaada kwa ndugu wa mashambani si matumaini tu bali ni mkataba wa kijamii, unaotekelezwa na aibu inayowaangukia wale wanaosahau watu wao.",
+      "dg": "Adigo anaouka — ikale kuphiya Mombasa, Nairobi, London, au Dubai — taaricha kukala Adigo. Ihi labuda ni dzambo muhimu zaidi ra kumanya kuhusu uhamaji wa Adigo. Utambuzi unalunga mhamiaji. Wajibu wa kuuya kpwa arusi na mazishi unahisika kpwa undani na kuishimiwa kpwa upana. Matazamio kukala mafanikio ga mudzini gandatafsiriwa kukala msada kpwa ndugu a vidzidzini si matumaini bahi ela ni mkataba wa chidzamii, unaotekelezwa ni haya ya aho anaoyala atu ao."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "Yet the relationship with home is inevitably complicated by distance and time. The migrant who returns for holidays sees the village through different eyes than the relative who never left. The children raised in the city may speak Chidigo imperfectly or not at all. The cultural practices that define Digo identity — the matrilineal kinship system, the kaya traditions, the ceremonial life — become, for the diaspora, objects of nostalgia rather than daily practice. The challenge of the future is whether these connections can be maintained across the growing distance between urban and rural Digo life, or whether the pull of the city will eventually attenuate them beyond recognition.",
+      "sw": "Hata hivyo uhusiano na nyumbani hakika unagawanywa na umbali na muda. Mhamiaji anayerudi kwa likizo anaona kijiji kwa macho tofauti kuliko ndugu ambaye hakuondoka kamwe. Watoto waliolelewa mjini wanaweza kuzungumza Chidigo kwa upungufu au la kabisa. Desturi za kitamaduni zinazofafanua utambulisho wa Kidigo — mfumo wa ukoo wa upande wa mama, mila za kaya, maisha ya kisherehe — zinakuwa, kwa diaspora, vitu vya nostalgia badala ya mazoezi ya kila siku. Changamoto ya siku zijazo ni kama uhusiano huu unaweza kudumishwa kuvuka umbali unaokua kati ya maisha ya Kidigo ya mjini na mashambani, au kama mvuto wa mji hatimaye utaudhoofisha zaidi ya kutambulika.",
+      "dg": "Ela uhusiano na kaya hakika unatsanganywa ni umbali na wakati. Mhamiaji anayeuya kpwa likizo anaona chidzidzi kpwa matso ga tafwauti na ndugu ariyesala kaya. Ana ariorerwa mudzini anaweza kugomba Chidigo kpwa upungufu au la kabisa. Desturi za chimila zinazofafanua utambuzi wa Adigo — mfumo wa fuko wa uphande wa mayo, mila za kaya, maisha ga chisherehe — zinakala, kpwa diaspora, vitu vya nostalgia badala ya mazoezi ga chila siku. Tatizo ra siku zidzo ni kala uhusiano uno unaweza kudumishwa kuvuka umbali unaokula kahi ya maisha ga Adigo ga mudzini na ga vidzidzini, au kala mvuto wa mudzi mwishoni undaudhoofisha zaidi ya kutambuliwa."
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "The answer, for now, is that the connections hold. They are strained, they are changing, they require more deliberate effort than they once did. But they hold. The Digo who leaves Kwale carries Kwale with them — in the language, in the taste for coconut rice, in the instinct to face Mecca five times a day, in the knowledge of which clan they belong to and which grandmother's line they carry. Migration reshapes the Digo world, but it has not yet broken it.",
+      "sw": "Jibu, kwa sasa, ni kwamba uhusiano unashikilia. Unapigwa, unabadilika, unahitaji juhudi za makusudi zaidi kuliko hapo awali. Lakini unashikilia. Mdigo anayeondoka Kwale anabeba Kwale naye — katika lugha, katika ladha ya wali wa nazi, katika silika ya kuelekea Makka mara tano kwa siku, katika maarifa ya ukoo gani wanahusika na mstari wa bibi yupi wanaubeba. Uhamaji unabadilisha ulimwengu wa Kidigo, lakini bado haujauangusha.",
+      "dg": "Jibu, kpwa vivi sambi, ni kukala uhusiano unagbwira. Unakala na shinikizo, unabadilika, unahitaji juhudi za makusudi zaidi kuriko kare. Ela unagbwira. Mudigo anayeuka Kwale anatsukula Kwale naye — kahi ya luga, kahi ya ladha ya wari wa nazi, kahi ya silika ya kuelekea Makka kano tsano chila siku, kahi ya kumanya ni wa fuko riphi na mstari wa bibi ani anautsukula. Uhamaji unabadilisha dunia ya Adigo, ela taudzangbweibananga."
+    }
+  ]
+}

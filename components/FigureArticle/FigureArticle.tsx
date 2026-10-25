@@ -4,7 +4,7 @@ import { useRef, useMemo } from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from '@/lib/i18n/context';
 import type { Locale } from '@/lib/i18n/config';
-import type { FigureArticle as Article } from '@/lib/history/figure-articles';
+import type { FigureArticle as Article } from '@/lib/articles/types';
 import type { Figure } from '@/lib/history/figures';
 import { ArticleBody, renderInlineMarkdown } from '@/components/HistoryArticle/HistoryArticle';
 import { useTrackReadComplete } from '@/hooks/useTrackReadComplete';

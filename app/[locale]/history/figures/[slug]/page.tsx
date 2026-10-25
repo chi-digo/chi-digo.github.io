@@ -4,7 +4,7 @@ import { existsSync } from 'fs';
 import { join } from 'path';
 import { FigureArticle } from '@/components/FigureArticle/FigureArticle';
 import { figures } from '@/lib/history/figures';
-import { loadFigureArticles, publishedFigureSlugs } from '@/lib/history/figure-articles';
+import { figureArticles as loadFigureArticles, publishedFigureSlugs } from '@/lib/articles/load';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/JsonLd';

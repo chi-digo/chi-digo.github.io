@@ -1,0 +1,323 @@
+{
+  "id": "culture/rites/marriage",
+  "title": {
+    "en": "Marriage",
+    "sw": "Ndoa",
+    "dg": "Ndowa"
+  },
+  "intro": {
+    "en": "A Digo marriage is never simply about two individuals who wish to share a life. It is about two families, two lineages, two *fuko* — clans — entering into a relationship that will bind them for…",
+    "sw": "Ndoa ya Kidigo si kuhusu watu wawili wanaotaka kushiriki maisha tu. Ni kuhusu familia mbili, ukoo mbili, *fuko* mbili zinazoingia katika uhusiano utakaozifunga kwa vizazi. Kila hatua ya mchakato wa…",
+    "dg": "Ndowa ya Chidigo taikala bahi kuhusu atu airi anaomendza kukala phamwenga maisha gosi. Ni kuhusu nyumba mbiri, koo mbiri, *fuko* mbiri zinazoinjira kpwenye uhusiano unaozifunga kpwa vizazi. Chila hatua ya…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Not Two People but Two Families",
+      "sw": "Si Watu Wawili Bali Familia Mbili",
+      "dg": "Si Atu Airi Ela Nyumba Mbiri"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "A Digo marriage is never simply about two individuals who wish to share a life. It is about two families, two lineages, two *fuko* — clans — entering into a relationship that will bind them for generations. Every step of the marriage process reflects this reality. The negotiations are conducted between families, not between lovers. The payments flow between households, not between hearts. The celebrations belong to the community, not to the couple alone. And the farewell songs that mark the bride's departure from her family home are sung by both families simultaneously, their voices mingling in the same air — because both sides are losing something and gaining something, and both sides feel it equally.",
+      "sw": "Ndoa ya Kidigo si kuhusu watu wawili wanaotaka kushiriki maisha tu. Ni kuhusu familia mbili, ukoo mbili, *fuko* mbili zinazoingia katika uhusiano utakaozifunga kwa vizazi. Kila hatua ya mchakato wa ndoa inaonyesha ukweli huu. Mazungumzo yanafanywa kati ya familia, si kati ya wapenzi. Malipo yanapita kati ya kaya, si kati ya mioyo.",
+      "dg": "Ndowa ya Chidigo taikala bahi kuhusu atu airi anaomendza kukala phamwenga maisha gosi. Ni kuhusu nyumba mbiri, koo mbiri, *fuko* mbiri zinazoinjira kpwenye uhusiano unaozifunga kpwa vizazi. Chila hatua ya mchakato wa ndowa inaonyesa ukpweli uhu. Mazungumzo ganahendwa kahi ya nyumba, si kahi ya ampendzi. Malipo ganatsupa kahi ya kaya, si kahi ya mioyo. Sherehe ni za jamii, si za bwana arusi na bibi arusi bahi. Na mawira ga kulagana ganagoonyesa kuuka kpwa bibi arusi nyumba ya avyazie ganaimbwa ni mbari zosi mbiri kpwa wakati mmwenga, sauti zao zichitsanganyika hewani — kpwa sababu chila uphande unaangamikirwa ni chitu na unaphaha chitu, na chila uphande unahisi dzambo hiri kpwa usawa."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "This is not to say that personal affection plays no role. It does, and increasingly so in modern Digo life. But the architecture of Digo marriage is built on the understanding that a marriage which only joins two people is fragile, while a marriage that joins two families is strong. The elaborate process of *kuposa* — engagement — exists to ensure that both families have investigated, negotiated, agreed, and committed before any wedding takes place.",
+      "sw": "Kuposa: Sanaa ya Uchunguzi",
+      "dg": "Hino taimaanisha kukala mendzwa ya mutu macheye taina nafasi. Ina nafasi, na zaidi na zaidi kpwenye maisha ga Adigo a vivi sambi. Ela usanifu wa ndowa ya Chidigo ukadzengbwa dzulu ya kumanya kukala ndowa inayounganisha atu airi bahi ni dhaifu, ela ndowa inayounganisha mbari mbiri ni imara. Mchakato mrefu wa *kuposa* — uchumba — unahendwa ili kuhakikisha kukala mbari zosi mbiri zikachunguza, zikajadiliana, zikakubaliana, na zikaika ahadi kabla ya arusi yoyosi kuhendeka."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Kuposa: The Art of Investigation",
+      "sw": "Kabla ya hatua yoyote rasmi, familia ya bwana arusi inafanya \"uchunguzi wa siri\" — uchunguzi wa kina unaoenea vizazi, ili kuamua kama mechi inayopendekezwa ni ya busara. Wanachunguza tabia na sifa, historia ya afya, msimamo wa familia, na utangamano wa ukoo.",
+      "dg": "Kuposa: Sanaa ya Uchunguzi"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Before any formal approach is made, the groom's family conducts what the Digo describe as \"secret inquiries.\" These are not casual questions. They are deep investigations spanning generations, designed to determine whether the proposed match is wise, safe, and honourable.",
+      "sw": "Wawakilishi wawili wanatembelea wazazi wa msichana \"kuomba *jiko*\" — mfano wa jiko kwa mke na nyumba. Malipo ya awali yanafuata: *kifungwa mdomo* (kufunga mdomo), *kutandika jamvi* (kutandika mkeka), na *kahawa*.",
+      "dg": "Kabla ya hatua yoyosi rasmi, mbari ya bwana arusi inahenda chira Adigo anachochiiha \"uchunguzi wa siri.\" Higa si maswali ga kawaida. Ni uchunguzi wa ndani unaotsupa vizazi, ili kuamuwa kama ndowa ihi ni ya busara, ina usalama, na ina hishima."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "The investigators examine the potential bride's family for character and reputation — not just the girl herself, but her parents, her grandparents, her extended family. They investigate health history, looking for patterns of illness or disability that might affect future children. They assess family standing — the social position and respectability of the bride's lineage. And they examine clan compatibility, ensuring that no *fuko* prohibitions prevent the match.",
+      "sw": "Mahari",
+      "dg": "Achunguzi analola mbari ya msichana kpwa tabiya na sifa — si msichana iye macheye bahi, ela avyazie, avyazi a avyazie, na mbariye yosi phana. Anachunguza historia ya afya, achihendza makongo ganagozuka-zuka mbarini ambago gangeweza kuagbwira ana a badaye. Analola hadhi ya mbari — nafasi ya chijamii na hishima ya ukoo wa bibi arusi. Na anachunguza kulandana kpwa koo, achihakikisha kukala takuna marufuku ya *fuko* inayozuwiya ndowa ihi."
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "This process may seem calculating to outsiders, but it reflects a practical wisdom about marriage that the Digo have refined over centuries. A marriage is not a romance — it is a partnership that must produce children, sustain a household, manage resources, navigate extended family relationships, and endure for decades. The secret inquiries are an attempt to ensure that the partnership is built on a foundation strong enough to carry all of this weight.",
+      "sw": "Mahari ya jadi ilijumuisha ng'ombe wanne, mbuzi wawili, na pombe ya mnazi. Kisasa, kiasi cha pesa taslimu kinabadilika kutoka KES 50,000 hadi 500,000. Malipo ya ziada ni pamoja na *maziwa ya mama* kwa ndugu wa mama na *kilemba ya baba* kwa ndugu wa baba.",
+      "dg": "Mchakato uhu unaweza kuonekana dza wa hesabu kpwa atu a kondze, ela unaonyesa marifwa ga vitendo kuhusu ndowa ambago Adigo akagatengeza pore-pore kpwa karne nyinji. Ndowa si mambo ga mendzwa bahi — ni ushirika ambao lazima uvyale ana, uimirire nyumba, utundze mali, utsupe uhusiano wa mbari phana, na udumu kpwa miaka minji. Uchunguzi wa siri ni njira ya kuhakikisha kukala ushirika uhu unadzengbwa dzulu ya musingi imara wa kutosha kutsukula uzito uhu wosi."
+    },
+    {
+      "id": "b008",
+      "type": "heading",
+      "en": "The Formal Approach",
+      "sw": "Mahari si ununuzi. Ni uhamisho wa thamani unaotambua thamani ya bibi arusi, kulipa fidia familia yake, kuunda wajibu wa kisheria kati ya familia mbili, na kuanzisha uzito wa ahadi ya ndoa.",
+      "dg": "Kunyendekera Rasmi"
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "When the investigation is complete and the results are favourable, two representatives from the groom's family visit the girl's parents \"to ask for *jiko*\" — literally \"hearth,\" a metaphor for a wife and a home. The language itself is telling: they are not asking for a girl but for a hearth, for the warmth and sustenance that a wife brings to a household.",
+      "sw": "Mjomba: Mlezi wa Masilahi ya Bibi Arusi",
+      "dg": "Uchunguzi uchimala na matokeo gachikala manono, atu airi a mbari ya bwana arusi ananyendekera avyazi a msichana \"kuvoya *jiko*\" — kpwa mana ya neno, \"dziko,\" mfwano wa mche na nyumba. Luga yenyewe inafitsua mambo: taavoya msichana ela jiko, dzoho na riziki ambazo mche anareha nyumbani."
+    },
+    {
+      "id": "b010",
+      "type": "paragraph",
+      "en": "This first visit initiates a sequence of preliminary payments, each with its own name and significance. *Kifungwa mdomo* — \"mouth-closing\" — is the first payment, a gesture that signals serious intent and formally opens negotiations. *Kutandika jamvi* — \"spreading the mat\" — establishes the negotiating space, creating a formal context in which the two families can discuss terms. *Kahawa* — \"coffee\" — is a hospitality payment, an acknowledgement that the families are entering a relationship of mutual respect.",
+      "sw": "Hakuna mazungumzo ya ndoa ya Kidigo yanayokamilika bila *mjomba* — ami. Katika undugu wa Kidigo, mjomba ana mamlaka makubwa juu ya ndoa ya mpwa wake — mara nyingi zaidi ya baba mwenyewe. Mjomba lazima akubali mechi. Anajadiliana kwa niaba ya ukoo wa mama, akihakikisha kwamba heshima na masilahi ya familia yanalindwa. Kutokuridhika kwake kunaweza kusimamisha mazungumzo kabisa.",
+      "dg": "Kunyendekera kuku kpwa kpwandza kunaandzisha mfululizo wa malipo ga kpwandza, ganagokala na madzina na maana zao maalum. *Kifungwa mdomo* — \"kufunga mromo\" — ni malipo ga kpwandza, ishara inayoonyesa nia ya kpweli na kuvugula mazungumzo rasmi. *Kutandika jamvi* — \"kutandika chitanda\" — kunaika nafasi ya mazungumzo, kuumba mazingira rasmi ambamo mbari mbiri zinaweza kujadili masharti. *Kahawa* — \"kahawa\" — ni malipo ga ukarimu, kutambua kukala mbari zinainjira kpwenye uhusiano wa kuishimiana."
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "These preliminary payments are not the bride price itself. They are the architecture of negotiation — the protocols that ensure the process unfolds with dignity, deliberation, and mutual respect.",
+      "sw": "Siku ya Harusi",
+      "dg": "Malipo higa ga kpwandza si mahari yenyewe. Ni usanifu wa mazungumzo — taratibu zinazohakikisha kukala mchakato unaenderera kpwa hishima, kpwa kufikiriya vinono, na kpwa kuishimiana."
+    },
+    {
+      "id": "b012",
+      "type": "heading",
+      "en": "Mahari: The Bride Price",
+      "sw": "Siku ya harusi yenyewe ni tamasha la hisia, muziki, na ushiriki wa jamii. Kabla bibi arusi hajaondoka, mzee anatoa *voya* — dua ya baraka ya mababu. Kuaga ndio wakati wenye hisia zaidi — familia zote mbili zinalia na kuimba kwa wakati mmoja. Bwana arusi anaambiwa hadharani: \"Bibi arusi si mpira wa kumpiga.\"",
+      "dg": "Mahari"
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The bride price — *mahari* — is the centrepiece of the marriage negotiations. Traditionally, it consisted of four heads of cattle, two goats or sheep, and palm wine from the groom's family. These were not trivial amounts. They represented significant wealth, and the payment was understood as a demonstration of the groom's family's means, their seriousness, and their respect for the bride and her family.",
+      "sw": "Muziki wa harusi ni pamoja na *sengenya* na mwendo wake wa *mserego*, *chakacha*, *mabumbumbu*, na ngoma. Chakula cha pamoja — pilau, biriani, na pombe ya mnazi — kinaunganisha familia mbili.",
+      "dg": "Mahari ni musingi wa mazungumzo ga ndowa. Kpwa jadi, mahari irikala ng'ombe nne, mbuzi mbiri au ng'ondzi, na uchi kula mbari ya bwana arusi. Hivi tavirikala vitu vidide. Virikala utajiri mkpwulu, na malipo garimanyikana kukala ushahidi wa uwezo wa mbari ya bwana arusi, nia yao ya kpweli, na hishima yao kpwa bibi arusi na mbariye."
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "In modern practice, the bride price has largely shifted to cash. Contemporary amounts range from KES 50,000 to 500,000, depending on the families involved, the bride's education and social standing, and regional norms. Additional payments supplement the main bride price: *maziwa ya mama* — \"mother's milk\" — is paid to the bride's maternal relatives, honouring the mother who bore and nursed her. *Kilemba ya baba* honours the paternal relatives, including the *shangazi* — the father's sisters, who hold a specific and important place in Digo family structure.",
+      "sw": "Mabadiliko ya Kisasa",
+      "dg": "Vivi sambi, mahari kpwa chiasi chikulu ikagaluka ikakala pesa taslimu. Chiasi cha vivi sambi chinatafwautiana kula KES 50,000 hadi 500,000, kulengana na mbari zinazohusika, elimu na hadhi ya chijamii ya bibi arusi, na mazoea ga seemu. Malipo ganjina ganaenjerezwa phamwenga na mahari kulu: *maziwa ya mama* — \"maziya ga mayo\" — ganariphwa kpwa ndugu a uphande wa nine wa bibi arusi, kuishimu nine ariyemvyala na kumpha maziya. *Kilemba ya baba* inaishimu ndugu a uphande wa ise, phamwenga na *shangazi* — ndugu achetu a ise, ambao ana nafasi maalum na ya muhimu kpwenye muundo wa mbari ya Chidigo."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The bride price is not a purchase. This misunderstanding, common among outsiders, misreads the nature of the transaction. The mahari is a transfer of value that acknowledges the bride's worth, compensates her family for the loss of her labour and presence, creates a binding obligation between the two families, and establishes the seriousness of the marriage commitment. A man who has invested significantly in his marriage is understood to have a greater stake in its success.",
+      "sw": "Harusi za Wadigo wa kisasa zinabadilika. Maandalizi ya bibi arusi yamefupishwa. Mazungumzo ya mahari yanaweza kufanywa haraka zaidi. Lakini muundo wa kina unadumu. Familia bado zinachunguza. Nyimbo za kuaga bado zinaleta machozi. Karamu ya pamoja bado inaleta furaha. Na imani ya msingi kwamba ndoa ni jambo la familia, tukio la jamii, na kazi ya kiroho inabaki katika moyo wa maisha ya ndoa ya Wadigo.",
+      "dg": "Mahari si kugula. Atu anji a kondze anaiona dza kugula, ela hiko ni kukosa kumanya asiliye. Mahari ni uhamisho wa samani unaotambua samani ya bibi arusi, kuripha mbariye fidia kpwa kuangamikirwa ni kaziye na kukalaphoye, kuumba wajibu wa chishariya kahi ya mbari mbiri, na kuika uzito wa ahadi ya ndowa. Mlume ariyetsukula gharama nyinji kpwa ndowaye anamanyikana kukala ana sababu kulu zaidi ya kuhenda ndowaye ifaulu."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "The Mjomba: Guardian of the Bride's Interests",
+      "sw": "Mjomba: Mlezi wa Maslahi ya Bibi Arusi",
+      "dg": "Aphu: Mrindzi wa Maslahi ga Bibi Arusi"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "No Digo marriage negotiation is complete without the *mjomba* — the maternal uncle. In Digo kinship, the mjomba is not a peripheral figure standing at the edge of proceedings. He is central — often wielding more authority over a niece's marriage than her own father. This may surprise outsiders accustomed to patrilineal assumptions, but it reflects a matrilineal undercurrent that runs through Digo society even beneath its patrilineal surface.",
+      "sw": "Hakuna mazungumzo ya ndoa ya Kidigo yanayokamilika bila *mjomba* — mjomba wa upande wa mama. Katika undugu wa Kidigo, mjomba si mtu wa pembeni anayesimama kando ya mambo. Yeye ni wa kati — mara nyingi akiwa na mamlaka zaidi juu ya ndoa ya mpwa wake kuliko baba yake mwenyewe. Hii inaweza kuwashangaza wageni waliozoea dhana za ukoo wa baba, lakini inaonyesha mkondo wa ukoo wa mama unaopita katika jamii ya Wadigo hata chini ya uso wake wa ukoo wa baba.",
+      "dg": "Takuna mazungumzo ga ndowa ga Chidigo ganagokamilika bila *aphu* — ndugu mlume wa nine. Kpwenye undugu wa Chidigo, aphu si mutu wa pembeni aimaye kanda ya mambo. Iye ni wa kahi-kahi — mara nyinji achikala na uwezo zaidi dzulu ya ndowa ya muwawe kuriko ise mwenye. Hichi chinaweza kuashangaza atu a kondze ariozoera dhana za ukoo wa ise, ela chinaonyesa mkondo wa ukoo wa nine unaotsupa ndani ya jamii ya Adigo hata photsi ya usowe wa ukoo wa ise."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The mjomba must approve the match. Without his consent, the marriage cannot proceed. He negotiates on behalf of the bride's maternal line, ensuring that her family's honour and interests are protected. He scrutinises the groom's family, challenges inadequate bride price offers, and insists on terms that reflect his niece's value. His displeasure can halt proceedings entirely, and families know better than to proceed without securing his blessing.",
+      "sw": "Mjomba lazima akubali mchumba. Bila ridhaa yake, ndoa haiwezi kuendelea. Anajadili kwa niaba ya ukoo wa mama wa bibi arusi, akihakikisha kwamba heshima na maslahi ya familia yake yanalindwa. Anachunguza familia ya bwana arusi, anapinga mahari duni, na anasisitiza masharti yanayoonyesha thamani ya mpwa wake. Kutoridhika kwake kunaweza kusimamisha mambo kabisa, na familia zinajua vyema zaidi kuliko kuendelea bila kupata baraka yake.",
+      "dg": "Aphu ni lazima akubali mchumba. Bila ridhaaye, ndowa taiweza kuenderera. Anajadili kpwa niaba ya ukoo wa nine wa bibi arusi, achihakikisha kukala hishima na maslahi ga nyumbaye ganarindwa. Anachunguza nyumba ya bwana arusi, anapinga mahari duni, na anasisitiza masharti ganagoonyesa samani ya muwawe. Achikala karidhika, anaweza kuimisa mambo kabisa, na nyumba zinamanya vinono kukala tazienderera bila kuphaha barakaye."
+    },
+    {
+      "id": "b019",
+      "type": "paragraph",
+      "en": "This authority derives from the Digo understanding that a woman's deepest family bonds run through her mother. The mjomba is the male guardian of that maternal line — the protector of the blood connection that the bride carries forward into her new household. When he speaks at a marriage negotiation, he speaks not only for himself but for the entire maternal lineage, for the grandmother who raised the bride and the great-grandmother whose name the bride may carry. His role ensures that a Digo marriage is never simply a transaction between a father and a groom, but a negotiation in which the mother's family holds real and enforceable power.",
+      "sw": "Mamlaka haya yanatokana na uelewa wa Kidigo kwamba uhusiano wa kina zaidi wa kifamilia wa mwanamke unapita kupitia mama yake. Mjomba ni mlinzi wa kiume wa ukoo huo wa mama — mlezi wa uhusiano wa damu ambao bibi arusi anaubeba mbele katika nyumba yake mpya. Anaposema katika mazungumzo ya ndoa, anasema si kwa niaba yake mwenyewe tu bali kwa ukoo mzima wa upande wa mama, kwa bibi aliyemlea bibi arusi na nyanya ambaye jina lake bibi arusi anaweza kulibeba. Jukumu lake linahakikisha kwamba ndoa ya Kidigo si kamwe muamala rahisi kati ya baba na bwana arusi, bali ni mazungumzo ambapo familia ya mama inashikilia nguvu halisi na inayotekelezeka.",
+      "dg": "Uwezo uhu unatokana na vira Adigo anavyomanya kukala uhusiano wa ndani zaidi wa chinyumba wa mchetu unatsupa kpwa nine. Aphu ni mrindzi mlume wa ukoo uhu wa nine — mrindzi wa uhusiano wa milatso ambao bibi arusi anautsukula mbere kpwenye nyumbaye mphya. Achigomba kpwenye mazungumzo ga ndowa, anagomba si kpwa niabaye macheye bahi, ela kpwa ukoo wosi wa uphande wa nine, kpwa bibi ariyemrera bibi arusi na bibi-mkpwulu ambaye dzinare bibi arusi anaweza kuritsukula. Jukumure rinahakikisha kukala ndowa ya Chidigo si muamala rahisi kahi ya ise na bwana arusi, ela ni mazungumzo ambago nyumba ya nine ina nguvu halisi na inayotekelezeka."
+    },
+    {
+      "id": "b020",
+      "type": "heading",
+      "en": "Three Traditions, One Wedding",
+      "sw": "Mila Tatu, Harusi Moja",
+      "dg": "Mila Tahu, Arusi Mwenga"
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "Modern Digo marriages often layer three distinct traditions into a single celebration, each carrying its own significance and prestige.",
+      "sw": "Ndoa za Wadigo za kisasa mara nyingi zinaunganisha mila tatu tofauti katika sherehe moja, kila moja ikibeba umuhimu wake na heshima yake.",
+      "dg": "Ndowa za Adigo za vivi sambi mara nyinji zinaunganisha mila tahu tafwauti kpwenye sherehe mwenga, chila mwenga ichitsukula umuhimuwe na hishimaye."
+    },
+    {
+      "id": "b022",
+      "type": "paragraph",
+      "en": "The Digo Wedding — the traditional ceremony — follows customary law and emphasises clan negotiation, ancestral blessing, and traditional ceremony. It is rooted in the practices that predate Islam, though it has absorbed Islamic elements over the centuries. The Cattle Wedding, more traditional and more rural, centres on the cattle-based bride price and the pastoral traditions of the Digo heritage. And the Swahili/Muslim Wedding features the Islamic *nikah* — the marriage contract — which, in the words of one researcher, \"confers the highest prestige on women.\"",
+      "sw": "Harusi ya Kidigo — sherehe ya jadi — inafuata sheria za kimila na inasisitiza mazungumzo ya ukoo, baraka za mababu, na sherehe ya jadi. Ina mizizi katika desturi zilizotangulia Uislamu, ingawa imeyapokea mambo ya Kiislamu kwa karne nyingi. Harusi ya Ng'ombe, ya jadi zaidi na ya vijijini zaidi, inajikita katika mahari ya ng'ombe na mila za ufugaji wa urithi wa Kidigo. Na Harusi ya Kiswahili/Kiislamu inaonyesha *nikah* ya Kiislamu — mkataba wa ndoa — ambao, kwa maneno ya mtafiti mmoja, \"unatoa heshima ya juu zaidi kwa wanawake.\"",
+      "dg": "Arusi ya Chidigo — sherehe ya chimila — inalunga shariya za chimila na inasisitiza mazungumzo ga ukoo, baraka za akareni, na sherehe ya chimila. Ina mizizi kpwenye mila zirizotangulia Uislamu, hata dzagbwe ikaphokera mambo ga Chiislamu kpwa karne nyinji. Arusi ya Ng'ombe, ya chimila zaidi na ya kpwisimani zaidi, msingiwe ni mahari ya ng'ombe na mila za kufuga za urisi wa Chidigo. Na Arusi ya Chiswahili/Chiislamu ina *nikah* ya Chiislamu — mkataba wa ndowa — ambao, kpwa maneno ga mtafiti mmwenga, \"unapha achetu hishima ya dzulu zaidi.\""
+    },
+    {
+      "id": "b023",
+      "type": "paragraph",
+      "en": "A family that can afford it may incorporate all three: the traditional *kuhaswa* (engagement), the Islamic nikah, and civil registration with the government. This layering reflects the same impulse visible throughout Digo spiritual life — the conviction that more is better, that every available tradition adds strength and legitimacy, and that a marriage blessed by ancestors, by God, and by the state stands on the strongest possible foundation.",
+      "sw": "Familia inayoweza kumudu inaweza kujumuisha zote tatu: *kuhaswa* ya jadi (uchumba), nikah ya Kiislamu, na usajili wa kiraia na serikali. Uwekaji tabaka huu unaonyesha msukumo ule ule unaoonekana katika maisha yote ya kiroho ya Wadigo — imani kwamba zaidi ni bora, kwamba kila mila inayopatikana inaongeza nguvu na uhalali, na kwamba ndoa iliyobarikiwa na mababu, na Mungu, na serikali inasimama kwenye msingi imara zaidi iwezekanavyo.",
+      "dg": "Nyumba inayoweza kumudu inaweza kuika phamwenga zosi tahu: *kuhaswa* ya chimila (uchumba), nikah ya Chiislamu, na kuandikpwa kpwa serikali. Kuika tabaka hizi kunaonyesa msukumo ambao unaonekana piya kpwenye maisha gosi ga chiroho ga Adigo — imani kukala zaidi ni bora, kukala chila mila iriyopho inaenjereza nguvu na uhalali, na kukala ndowa iriyobarikiwa ni akareni, ni Mlungu, na ni serikali inaima dzulu ya msingi imara kuriko zosi."
+    },
+    {
+      "id": "b024",
+      "type": "heading",
+      "en": "The Somo and Kungwi: Preparing the Bride",
+      "sw": "Somo na Kungwi: Kuandaa Bibi Arusi",
+      "dg": "Somo na Kungwi: Kuandaa Bibi Arusi"
+    },
+    {
+      "id": "b025",
+      "type": "paragraph",
+      "en": "In the weeks or months before the wedding, the bride undergoes intensive preparation under the guidance of the *somo* and the *kungwi*. The somo — the bridal mentor — attends to her physical transformation: the skin treatments with liwa and manjano, the turmeric baths, the sandalwood perfuming, the incense smoke bathing, and the elaborate henna decoration that can take twelve hours or more to apply, built up in five or six layers of intricate pattern.",
+      "sw": "Katika wiki au miezi kabla ya harusi, bibi arusi hupitia maandalizi makali chini ya uongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — anashughulikia mabadiliko yake ya kimwili: matibabu ya ngozi kwa liwa na manjano, kuoga kwa manjano, manukato ya msandali, kuogeshwa kwa uvumba, na mapambo ya hina yenye ustadi ambayo yanaweza kuchukua masaa kumi na mawili au zaidi kupakwa, yakijengwa katika tabaka tano au sita za muundo wa ustadi.",
+      "dg": "Kpwenye wiki au miezi kabla ya arusi, bibi arusi anatsupa maandalizi makali tsini ya uongozi wa *somo* na *kungwi*. Somo — mshauri wa bibi arusi — analola mabadilikoge ga chimwiri: matibabu ga ngozi kpwa liwa na manjano, kuoga manjano, manukato ga msandali, kufukizwa ubani, na mapambo ga hina genye ustadi ambago ganaweza kuhala masaa kumi na mairi au zaidi kuphakpwa, gachidzengbwa kpwa tabaka tsano au sita za michoro ya ustadi."
+    },
+    {
+      "id": "b026",
+      "type": "paragraph",
+      "en": "The kungwi — the marriage instructor — prepares her mind. She teaches the intimate knowledge of married life: how to care for her body, how to relate to her husband physically and emotionally, how to manage a household, how to navigate the complex web of in-law relationships that will define much of her social world after marriage.",
+      "sw": "Kungwi — mwalimu wa ndoa — anaandaa akili yake. Anafundisha maarifa ya ndani ya maisha ya ndoa: jinsi ya kutunza mwili wake, jinsi ya kushirikiana na mumewe kimwili na kihisia, jinsi ya kusimamia nyumba, jinsi ya kupitia mtandao changamano wa uhusiano na wakwe ambao utafafanua sehemu kubwa ya ulimwengu wake wa kijamii baada ya ndoa.",
+      "dg": "Kungwi — mwalimu wa ndowa — anaandaa achiliye. Anafundza marifwa ga ndani ga maisha ga ndowa: vira kutundza mwiriwe, vira kukala na mlumewe chimwiri na chihisia, vira kuimirira nyumba, vira kutsupa kahi ya mtandao changamano wa uhusiano na akpwe ambao undaonyesa seemu kulu ya ulimwenguwe wa chijamii bada ya ndowa."
+    },
+    {
+      "id": "b027",
+      "type": "paragraph",
+      "en": "The *vugo* songs accompany the bride's preparation, their lyrics carrying instruction, blessing, and celebration. The songs of vugo are intimate — sung by women for women, speaking frankly about the realities of the life the bride is about to enter. They are simultaneously joyful and serious, celebrating the young woman's beauty and readiness while preparing her for the weight of what lies ahead.",
+      "sw": "Nyimbo za *vugo* zinaambatana na maandalizi ya bibi arusi, maneno yake yakibeba mafundisho, baraka, na sherehe. Nyimbo za vugo ni za ndani — zinaimbwa na wanawake kwa wanawake, zikizungumza wazi kuhusu uhalisia wa maisha ambayo bibi arusi anakaribia kuingia. Zinachanganya furaha na uzito kwa wakati mmoja, zikisherehekea uzuri na utayari wa msichana huku zikimandaa kwa uzito wa kinachomngojea.",
+      "dg": "Mawira ga *vugo* ganaandamana na maandalizi ga bibi arusi, manenoge gachitsukula mafundzo, baraka, na sherehe. Mawira ga vugo ni ga ndani — ganaimbwa ni achetu kpwa achetu, gachigomba wazi kuhusu ukpweli wa maisha ambago bibi arusi anakaribia kuinjira. Ganatsanganya raha na uzito kpwa wakati mmwenga, gachisherehekea uzuri na utayari wa mwari hiku gachimuandaa kpwa uzito wa chira chinachomgodza."
+    },
+    {
+      "id": "b028",
+      "type": "heading",
+      "en": "The Wedding Day",
+      "sw": "Siku ya Harusi",
+      "dg": "Siku ya Arusi"
+    },
+    {
+      "id": "b029",
+      "type": "paragraph",
+      "en": "The wedding day itself is a spectacle of emotion, music, and community participation. The entire village or neighbourhood is involved — not as spectators but as participants, each person playing a role in the drama of transition.",
+      "sw": "Siku ya harusi yenyewe ni tamasha la hisia, muziki, na ushiriki wa jamii. Kijiji kizima au mtaa unahusika — si kama watazamaji bali kama washiriki, kila mtu akicheza jukumu katika mchezo wa mpito.",
+      "dg": "Siku ya arusi yenyewe ni tamasha ra hisia, muziki, na ushiriki wa jamii. Mudzi wosi au mtaa unahusika — si dza atazamaji ela dza ashiriki, chila mutu achihenda jukumu kpwenye mchezo wa kugaluka."
+    },
+    {
+      "id": "b030",
+      "type": "paragraph",
+      "en": "Before the bride departs her family home, an elder offers *voya* — the ancestral blessing prayer. This is a solemn moment, connecting the marriage to the chain of ancestors who came before and whose approval is sought for the union. The prayer invokes protection, fertility, prosperity, and harmony — everything the couple will need for the life they are about to build together.",
+      "sw": "Kabla bibi arusi hajaondoka nyumba ya familia yake, mzee anatoa *voya* — dua ya baraka ya mababu. Huu ni wakati wa heshima, unaounganisha ndoa na mnyororo wa mababu waliotangulia na ambao kibali chao kinatafutwa kwa muungano huo. Dua inaitisha ulinzi, uzazi, ustawi, na amani — kila kitu ambacho wanandoa watahitaji kwa maisha wanayokaribia kujenga pamoja.",
+      "dg": "Kabla bibi arusi kadzangbwe kuuka nyumba ya avyazie, mzehe analavya *voya* — mavoyo ga baraka ga akareni. Uhu ni wakati wa hishima, unaounganisha ndowa na mnyororo wa akareni ariotangulia na ambao ridhaa yao inahendzwa kpwa muungano uhu. Mavoyo ganavoya urindzi, uvyazi, ustawi, na amani — chila chitu ambacho bwana arusi na bibi arusi andachihitaji kpwa maisha ambago anaandza kudzenga phamwenga."
+    },
+    {
+      "id": "b031",
+      "type": "paragraph",
+      "en": "The farewell is perhaps the most emotionally charged moment of any Digo wedding. As the bride prepares to leave, both families weep and sing simultaneously. The songs are songs of loss and joy tangled together — the bride's family mourning the daughter who is leaving, the groom's family celebrating the wife who is arriving. The tears are real. The singing is real. The two emotions exist side by side, not contradicting each other but completing each other. A marriage that begins without tears, the Digo seem to understand, is a marriage that has not fully reckoned with what it costs.",
+      "sw": "Kuagana labda ndio wakati wenye hisia zaidi wa harusi yoyote ya Kidigo. Bibi arusi anapojitayarisha kuondoka, familia zote mbili zinalia na kuimba kwa wakati mmoja. Nyimbo ni nyimbo za hasara na furaha zilizochanganyika — familia ya bibi arusi ikiombolezea binti anayeondoka, familia ya bwana arusi ikisherehekea mke anayekuja. Machozi ni ya kweli. Kuimba ni kwa kweli. Hisia hizo mbili ziko pamoja, si zikipingana bali zikikamilishana. Ndoa inayoanza bila machozi, Wadigo wanaonekana kuelewa, ni ndoa ambayo haijahesabu kikamilifu kinachogharimika.",
+      "dg": "Kulagana pengine ndio wakati wenye hisia zaidi wa arusi yoyosi ya Chidigo. Bibi arusi achidziandaa kuuka, nyumba zosi mbiri zinarira na kuimba kpwa wakati mmwenga. Mawira ni mawira ga hasara na raha garigotsanganywa — nyumba ya bibi arusi ichiombolezea mwana mchetu anayeuka, nyumba ya bwana arusi ichisherehekea mkpwaza anayekpwedza. Matsozi ni ga kpweli. Kuimba ni kpwa kpweli. Hisia hizo mbiri zi phamwenga, si kpwa kupingana ela kpwa kukamilishana. Ndowa inayoandza bila matsozi, Adigo anaonekana kumanya, ni ndowa ambayo taidzangbwe kumanya chira inachogharimu."
+    },
+    {
+      "id": "b032",
+      "type": "heading",
+      "en": "Ritual Acts and Blessings",
+      "sw": "Matendo ya Kitamaduni na Baraka",
+      "dg": "Mahendo ga Chimila na Baraka"
+    },
+    {
+      "id": "b033",
+      "type": "paragraph",
+      "en": "The wedding ceremony includes specific ritual acts that carry deep symbolic weight. The in-laws blow water onto the couple's chests as a blessing — a physical act of benediction that marks the couple with the family's approval and protection. The groom is told, explicitly and in the hearing of the community: \"The bride is not a ball for him to beat.\" This is not a mere formality. It is a public declaration of the community's expectation that the husband will treat his wife with respect and tenderness.",
+      "sw": "Sherehe ya harusi inajumuisha matendo maalum ya kitamaduni yanayobeba uzito mkubwa wa ishara. Wakwe wanapuliza maji kifuani mwa wanandoa kama baraka — tendo la kimwili la baraka linalowaashiria wanandoa kwa kibali na ulinzi wa familia. Bwana arusi anaambiwa, wazi wazi na mbele ya jamii: \"Bibi arusi si mpira wa yeye kupiga.\" Hii si utaratibu wa kawaida tu. Ni tamko la hadharani la matarajio ya jamii kwamba mume atamtendea mke wake kwa heshima na upole.",
+      "dg": "Sherehe ya arusi ina mahendo maalum ga chimila ganagotsukula uzito mkpwulu wa ishara. Akpwe anapuliza madzi vifuani mwa bwana arusi na bibi arusi dza baraka — chihendo cha chimwiri cha baraka chinachoaonyesa kukala nyumba inaaridhia na kuarinda. Bwana arusi anaambirwa, wazi wazi na mbere ya jamii: \"Bibi arusi si mpira wa iye kupiga.\" Ihi si utaratibu wa kawaida bahi. Ni tamko ra hadharani ra chira jamii inachotazamiya: kukala mlume andamtendera mkpwazaye kpwa hishima na upole."
+    },
+    {
+      "id": "b034",
+      "type": "paragraph",
+      "en": "The bride performs acts of service upon arriving at her new home — serving food, carrying water, grinding maize. These are not acts of submission. They are demonstrations of her readiness and willingness to contribute to the household she is joining, and they are witnessed by the community as proof that the marriage is properly established.",
+      "sw": "Bibi arusi anafanya matendo ya huduma anapofika nyumba yake mpya — kutoa chakula, kubeba maji, kusaga mahindi. Haya si matendo ya utiifu. Ni maonyesho ya utayari wake na nia yake ya kuchangia nyumba anayoijiunga, na yanashuhudiwa na jamii kama ushahidi kwamba ndoa imeanzishwa ipasavyo.",
+      "dg": "Bibi arusi anahenda mahendo ga huduma achifika kpwenye nyumbaye mphya — kuandaza chakurya, kutsukula madzi, kusaga pemba. Higa si mahendo ga utiifu. Ni maonyesho ga utayariwe na niaye ya kuchangiya nyumba anayoinjira, na ganaonwa ni jamii dza ushahidi kukala ndowa ikaandzishwa vinono."
+    },
+    {
+      "id": "b035",
+      "type": "paragraph",
+      "en": "A goat is slaughtered communally, and the community gathers for a feast of pilau, biriani, and palm wine. The shared meal is itself a ritual — an act of communion that binds the two families and their communities together through the shared experience of eating.",
+      "sw": "Mbuzi anachinjwa kwa pamoja, na jamii inakusanyika kwa karamu ya pilau, biriani, na tembo. Mlo wa pamoja wenyewe ni ibada — tendo la ushirika linalounganisha familia mbili na jamii zao pamoja kupitia uzoefu wa pamoja wa kula.",
+      "dg": "Mbuzi anachinjwa phamwenga, na jamii inakusanyika kpwa karamu ya pilau, biriani, na uchi. Chakurya cha phamwenga chenyewe ni ibada — chihendo cha ushirika chinachounganisha nyumba mbiri na jamii zao phamwenga kpwa kurya phamwenga."
+    },
+    {
+      "id": "b036",
+      "type": "heading",
+      "en": "Wedding Music",
+      "sw": "Muziki wa Harusi",
+      "dg": "Muziki wa Arusi"
+    },
+    {
+      "id": "b037",
+      "type": "paragraph",
+      "en": "Music is not background at a Digo wedding. It is the wedding's beating heart. *Sengenya*, the primary Digo ceremonial dance, takes its most elaborate form at weddings, where the *mserego* movement — performed only at weddings — transforms the dance into something unique to the occasion. *Chakacha*, the women's dance, fills the air with feminine celebration. *Mabumbumbu* — the wedding songs — carry the specific melodies and lyrics that belong to this ceremony and no other. And *ngoma* drumming provides the rhythmic foundation over which everything else is built.",
+      "sw": "Muziki si mandharinyuma katika harusi ya Kidigo. Ni moyo unaopiga wa harusi. *Sengenya*, ngoma kuu ya sherehe ya Kidigo, inachukua umbo lake la hali ya juu zaidi katika harusi, ambapo mwendo wa *mserego* — unaofanywa tu katika harusi — unageuza ngoma kuwa kitu cha kipekee kwa tukio hilo. *Chakacha*, ngoma ya wanawake, inajaza hewa kwa sherehe ya kike. *Mabumbumbu* — nyimbo za harusi — zinabeba nyimbo na maneno maalum yanayomilikiwa na sherehe hii na si nyingine. Na kupiga *ngoma* kunatoa msingi wa mdundo ambao kila kitu kingine kinajengwa juu yake.",
+      "dg": "Muziki si chitu cha nyuma bahi kpwenye arusi ya Chidigo. Ni moyo unaopiga wa arusi. *Sengenya*, ngoma kulu ya sherehe ya Chidigo, inatsukula umbore ra dzulu zaidi kpwenye arusi, ambapho mwendo wa *mserego* — unaohendwa bahi kpwenye arusi — unagaluza ngoma kukala chitu cha tafwauti kpwa tukio hiro. *Chakacha*, ngoma ya achetu, inadzaza hewa kpwa sherehe ya achetu. *Mabumbumbu* — mawira ga arusi — ganatsukula sauti na maneno maalum ga sherehe ihi bahi na si yanjina. Na kupiga *ngoma* kunapha msingi wa mdundo ambao chila chitu chanjina chinadzengbwa dzuluwe."
+    },
+    {
+      "id": "b038",
+      "type": "paragraph",
+      "en": "The music is not performed by professionals for a passive audience. It is participated in by the community, each person contributing their voice, their movement, their energy to the collective celebration. The wedding is not something you watch. It is something you do.",
+      "sw": "Muziki haufanywi na wataalamu kwa hadhira isiyoshiriki. Unashirikiwa na jamii, kila mtu akichangia sauti yake, mwendo wake, nguvu zake katika sherehe ya pamoja. Harusi si kitu unachotazama. Ni kitu unachofanya.",
+      "dg": "Muziki tauhendwa ni ataalamu kpwa atu anaolola bahi. Unahendwa ni jamii, chila mutu achichangiya sautiye, mwendowe, nguvuze kpwenye sherehe ya phamwenga. Arusi si chitu unacholola. Ni chitu unachohenda."
+    },
+    {
+      "id": "b039",
+      "type": "heading",
+      "en": "The Transfer",
+      "sw": "Uhamisho",
+      "dg": "Uhamisho"
+    },
+    {
+      "id": "b040",
+      "type": "paragraph",
+      "en": "At its heart, the Digo wedding ceremony enacts a transfer — of the bride from one family to another, from one household to another, from one phase of life to another. This transfer is not taken lightly. It is marked at every stage with prayer, song, tears, blessing, food, and the gathered presence of the community.",
+      "sw": "Moyoni mwake, sherehe ya harusi ya Kidigo inatekeleza uhamisho — wa bibi arusi kutoka familia moja hadi nyingine, kutoka nyumba moja hadi nyingine, kutoka awamu moja ya maisha hadi nyingine. Uhamisho huu hauchukuliwi kwa wepesi. Unaashiriwa katika kila hatua kwa dua, wimbo, machozi, baraka, chakula, na uwepo wa jamii iliyokusanyika.",
+      "dg": "Mwakpwe moyoni, sherehe ya arusi ya Chidigo inaonyesa uhamisho — wa bibi arusi kula nyumba mwenga hadi yanjina, kula kaya mwenga hadi yanjina, kula wakati mmwenga wa maisha hadi wanjina. Uhamisho uhu tauhalwa kpwa urahisi. Unaashiriwa kpwenye chila hatua kpwa mavoyo, mawira, matsozi, baraka, chakurya, na kukalapho kpwa jamii iriyokusanyika."
+    },
+    {
+      "id": "b041",
+      "type": "paragraph",
+      "en": "The bride does not simply move from one house to another. She crosses a threshold from one identity to another — from daughter to wife, from girl to woman, from one family's responsibility to another's. And the community crosses that threshold with her, ensuring that she does not make the journey alone.",
+      "sw": "Bibi arusi hahamii tu kutoka nyumba moja hadi nyingine. Anavuka kizingiti kutoka utambulisho mmoja hadi mwingine — kutoka binti hadi mke, kutoka msichana hadi mwanamke, kutoka jukumu la familia moja hadi la nyingine. Na jamii inavuka kizingiti hicho pamoja naye, ikihakikisha kwamba hafanyi safari peke yake.",
+      "dg": "Bibi arusi kahamira bahi kula nyumba mwenga hadi yanjina. Anatsupa chizingiti kula utambulisho mmwenga hadi wanjina — kula mwana mchetu hadi mkpwaza, kula mwari hadi mchetu, kula jukumu ra nyumba mwenga hadi ra yanjina. Na jamii inatsupa chizingiti hicho phamwenga naye, ichihakikisha kukala kahenda safari macheye."
+    },
+    {
+      "id": "b042",
+      "type": "heading",
+      "en": "Contemporary Changes",
+      "sw": "Mabadiliko ya Kisasa",
+      "dg": "Mabadiliko ga Vivi Sambi"
+    },
+    {
+      "id": "b043",
+      "type": "paragraph",
+      "en": "Modern Digo weddings are changing. The months-long bridal preparation has shortened. The bride price negotiations, while still important, may be conducted more quickly and with less ceremony than in the past. Some young couples choose civil or Islamic weddings without the full traditional ceremony. Urban weddings may feature DJ systems alongside the traditional ngoma drums.",
+      "sw": "Harusi za Wadigo za kisasa zinabadilika. Maandalizi ya bibi arusi ya miezi mingi yamefupishwa. Mazungumzo ya mahari, ingawa bado ni muhimu, yanaweza kufanywa haraka zaidi na kwa sherehe kidogo kuliko zamani. Wanandoa wachanga wengine wanachagua harusi za kiraia au za Kiislamu bila sherehe kamili ya jadi. Harusi za mjini zinaweza kuwa na mfumo wa DJ pamoja na ngoma za jadi.",
+      "dg": "Arusi za Adigo za vivi sambi zinagaluka. Maandalizi ga bibi arusi ga miezi minji gakafupishwa. Mazungumzo ga mahari, hata dzagbwe bado ni muhimu, ganaweza kuhendwa kpwa upesi zaidi na kpwa sherehe chache kuriko kare. Anjina kahi ya adide anaolana anatsambula arusi za serikali au za Chiislamu bila sherehe kamili ya chimila. Arusi za mudzini zinaweza kukala na mfumo wa DJ phamwenga na ngoma za chimila."
+    },
+    {
+      "id": "b044",
+      "type": "paragraph",
+      "en": "But the deep structure endures. Families still investigate. Negotiations still proceed through the established sequence of payments. The somo and kungwi, while their roles may be compressed, have not disappeared. The farewell songs still bring tears. The communal feast still brings joy. And the fundamental conviction that marriage is a family affair, a community event, and a spiritual undertaking — not merely a legal contract between two individuals — remains at the heart of Digo married life.",
+      "sw": "Lakini muundo wa kina unadumu. Familia bado zinachunguza. Mazungumzo bado yanaendelea kupitia mfuatano uliowekwa wa malipo. Somo na kungwi, ingawa majukumu yao yanaweza kubanwa, hawajapotea. Nyimbo za kuagana bado zinaleta machozi. Karamu ya pamoja bado inaleta furaha. Na imani ya msingi kwamba ndoa ni jambo la familia, tukio la jamii, na jitihada ya kiroho — si tu mkataba wa kisheria kati ya watu wawili — inabaki moyoni mwa maisha ya ndoa ya Wadigo.",
+      "dg": "Ela muundo wa ndani unadumu. Nyumba bado zinachunguza. Mazungumzo bado ganaenderera kpwa kulunga hatua za malipo zirizoikpwa. Somo na kungwi, hata dzagbwe majukumu gao ganaweza kuphunguzwa, bado anaphahikana. Mawira ga kulagana bado ganareha matsozi. Karamu ya phamwenga bado inareha raha. Na imani ya msingi kukala ndowa ni dzambo ra nyumba, tukio ra jamii, na jitihada ya chiroho — si mkataba wa chishariya bahi kahi ya atu airi — inasala kahi-kahi ya maisha ga ndowa ga Adigo."
+    }
+  ]
+}

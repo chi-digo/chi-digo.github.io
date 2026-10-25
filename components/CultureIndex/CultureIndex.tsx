@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslations } from '@/lib/i18n/context';
 import { useLocale } from '@/lib/i18n/context';
-import { domains, getDomain, type CultureDomain, type Topic } from '@/lib/culture/content';
+import { domains, getDomain, type CultureDomain, type Topic } from '@/lib/articles/manifest';
 import { fukoCards } from '@/lib/culture/fuko';
 import { trackNavClick } from '@/lib/analytics/track';
 import { localePath } from '@/lib/i18n/locale-path';

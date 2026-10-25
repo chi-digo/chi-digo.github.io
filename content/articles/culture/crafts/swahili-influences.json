@@ -1,0 +1,155 @@
+{
+  "id": "culture/crafts/swahili-influences",
+  "title": {
+    "en": "Swahili Architectural Influences",
+    "sw": "Ushawishi wa Ujenzi wa Kiswahili",
+    "dg": "Ushawishi wa Kudzenga kpwa Chiswahili"
+  },
+  "intro": {
+    "en": "To walk the Kenya coast from Shimba Hills to the shoreline is to move between two architectural worlds. Inland, the Digo homestead sits among its coconut palms — mud walls, makuti thatch, the round…",
+    "sw": "Kutembea pwani ya Kenya kutoka Milima ya Shimba hadi ufukoni ni kusogea kati ya ulimwengu mbili wa ujenzi. Bara, boma la Kidigo linakaa kati ya minazi yake — kuta za tope, makuti, kibanda cha mzee cha…",
+    "dg": "Kunyendeka pwani ya Kenya kula Miango ya Shimba hadi langbwani ni kutsupa kahi ya dunia mbiri za kudzenga. Bara, mudzi wa Chidigo unakala kahi ya minaziye — kuta za tope, makuti, chibanda cha…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Two Building Traditions",
+      "sw": "Mila Mbili za Ujenzi",
+      "dg": "Mila Mbiri za Kudzenga"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "To walk the Kenya coast from Shimba Hills to the shoreline is to move between two architectural worlds. Inland, the Digo homestead sits among its coconut palms — mud walls, makuti thatch, the round elder's hut speaking of a building tradition rooted in the agricultural village and the forest kaya. At the coast, the Swahili trading towns tell a different story — coral-rag walls, carved doors, lime-plastered facades, multi-storey townhouses built to impress arriving merchants and to signal the wealth and sophistication of their owners. These are two distinct traditions, shaped by different purposes and different materials. But they are not sealed off from each other. Over centuries of proximity and exchange, Digo architecture has absorbed elements of the Swahili coastal style while maintaining its own essential character.",
+      "sw": "Kutembea pwani ya Kenya kutoka Milima ya Shimba hadi ufukoni ni kusogea kati ya ulimwengu mbili wa ujenzi. Bara, boma la Kidigo linakaa kati ya minazi yake — kuta za tope, makuti, kibanda cha mzee cha pande zote. Pwani, miji ya biashara ya Kiswahili inasimulia hadithi tofauti — kuta za matumbawe, milango iliyochongwa, nyumba za ghorofa zilizojengwa kuvutia wafanyabiashara.",
+      "dg": "Kunyendeka pwani ya Kenya kula Miango ya Shimba hadi langbwani ni kutsupa kahi ya dunia mbiri za kudzenga. Bara, mudzi wa Chidigo unakala kahi ya minaziye — kuta za tope, makuti, chibanda cha mzehe cha mviringo — vichionyesa chimila cha kudzenga chiricho na misingi kpwa chidzidzi cha chirimo na kaya ya tsakani. Pwanini, midzi ya biashara ya Chiswahili inasimulira hadithi yanjina — kuta za masanoo, miryango iriyotsongbwa, kuta zirizopakwa chokaa, nyumba za gorofa zirizodzengbwa kuamweha achuuzi anaofika na kuonyesa utajiri na ustaarabu wa enye nyumba. Zizi ni mila mbiri tafwauti, zirizoumbwa ni madhumuni tafwauti na vitu tafwauti. Ela si kukala zikatengana kabisa. Kpwa karne nyinji za kukala phephi na kubadilishana, kudzenga kpwa Adigo kukahala seemu za mtindo wa pwani wa Chiswahili ela kuchisala na tabiyaye ya musingi."
+    },
+    {
+      "id": "b003",
+      "type": "heading",
+      "en": "Coral-Rag Construction",
+      "sw": "Ujenzi wa Matumbawe",
+      "dg": "Kudzenga kpwa Masanoo"
+    },
+    {
+      "id": "b004",
+      "type": "paragraph",
+      "en": "The most visible Swahili influence on Digo building is the use of coral stone. The Swahili coast sits on raised coral reef formations, and the towns of Mombasa, Lamu, Gede, and Zanzibar were built from this readily available material — coral blocks cut from the reef and assembled into walls of remarkable strength and durability. This is coral-rag construction: rough-cut coral pieces bonded with lime mortar to create structures that have, in some cases, stood for five hundred years or more.",
+      "sw": "Ushawishi unaoonekana zaidi wa Kiswahili kwenye ujenzi wa Wadigo ni matumizi ya mawe ya matumbawe. Miji ya Mombasa, Lamu, na Zanzibar ilijengwa kutoka nyenzo hii. Miongoni mwa Wadigo, ujenzi wa matumbawe haukufikia kiwango cha nyumba ya mji wa Kiswahili, lakini matumbawe yalitumika katika baadhi ya miundo ya pwani — kuta za mpaka, misingi, na wakati mwingine kuta za misikiti.",
+      "dg": "Ushawishi wa Chiswahili unaoonekana zaidi dzulu ya kudzenga kpwa Adigo ni kuhumira mawe ga masanoo. Pwani ya Chiswahili inakala dzulu ya miamba ya masanoo iriyoinuka, na midzi ya Mombasa, Lamu, Gede, na Zanzibar yadzengbwa kpwa vitu hivi vinavyophahikana kpwa urahisi — matofali ga masanoo garigokatwa kula mwambani na kuungwa kuhenda kuta za nguvu na za kudumu sana. Uhu ndio kudzenga kpwa masanoo: vipande vya masanoo virivyokatwa bila kulainishwa vichigbwiriwa na chokaa kuumba madzengo ambago, phatu phanjina, gakaima kpwa miaka magana matsano au zaidi."
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Among the Digo, coral construction never reached the scale or elaboration of the Swahili townhouse. Digo communities were agricultural, not mercantile; they had neither the concentrated wealth nor the social motivation to build multi-storey stone houses. But coral was used in some coastal Digo structures — boundary walls, foundations, and occasionally the walls of mosques or other communal buildings. These structures represent a selective adoption of Swahili building technology: taking the material and the basic technique while adapting them to the scale and purpose of village life rather than urban display.",
+      "sw": "Sanaa ya Milango Iliyochongwa",
+      "dg": "Kahi ya Adigo, kudzenga kpwa masanoo takuyafikira chiwango cha nyumba za mudzi mkpwulu wa Chiswahili. Jamii za Adigo kala ni za chirimo, si za biashara; kala taana utajiri wa kukusanyika wala sababu ya chijamii ya kudzenga nyumba za mawe za gorofa. Ela masanoo gahumirwa kpwa madzengo ganjina ga pwani — kuta za mpaka, misingi, na wakati wanjina kuta za misikiti au madzengo ganjina ga jamii. Madzengo iga ganaonyesa kuhala kpwa kutsambula ujuzi wa kudzenga wa Chiswahili: kuhala vitu na mbinu ya musingi na kuvigaluza kulingana na ukulu na madhumuni ga maisha ga chidzidzi badala ya maonyesho ga mudzi mkpwulu."
+    },
+    {
+      "id": "b006",
+      "type": "heading",
+      "en": "The Art of Carved Doors",
+      "sw": "Milango iliyochongwa ni kipengele kinachosherehekewa zaidi cha ujenzi wa Kiswahili. Mila hiyo ilifikia kilele chake katika karne ya kumi na tisa, wakati milango mikubwa ya Lamu na Zanzibar ikawa matamshi ya tamaa ya kisanaa ya ajabu. Muundo wa Kiarabu ulionyesha utambulisho wa Kiislamu. Motifu za Kihindi zilionyesha uhusiano wa kibiashara. Hati ya Kiqurani ilitangaza imani ya mmiliki.",
+      "dg": "Sanaa ya Miryango Iriyotsongbwa"
+    },
+    {
+      "id": "b007",
+      "type": "paragraph",
+      "en": "No element of Swahili architecture is more celebrated than the carved door. The tradition reached its peak in the nineteenth century, when the great doors of Lamu, Mombasa, and Zanzibar became statements of extraordinary artistic ambition. A single door could take a master carver months to complete, and its iconography was a language in itself. Arabic geometric patterns spoke of Islamic identity. Indian lotus and rosette motifs reflected the commercial connections to Gujarat and the subcontinent. Quranic calligraphy declared the owner's faith. Brass studs — sometimes hundreds of them — added a metallic gleam that announced wealth from a distance.",
+      "sw": "Plasta ya Chokaa",
+      "dg": "Miryango iriyotsongbwa ni chitu cha kudzenga kpwa Chiswahili chinachotogolwa kuriko vyosi. Chimila chino chafika dzulu kabisa karne ya kumi na tisa, wakati miryango mikulu ya Lamu, Mombasa, na Zanzibar yakala alama za sanaa ya ajabu. Fundi mkpwulu wa kutsonga kala anaweza kuhala miezi kumala mryango mmwenga, na michoroye kala ni luga yenye. Michoro ya chijiometri ya Chiarabu yaonyesa utambulisho wa Chiislamu. Michoro ya Chihindi ya maua ga lotus na rosette yaonyesa uhusiano wa biashara na Gujarat na Bara Hindi. Mwandiko wa Chikurani watangaza imani ya mwenye nyumba. Misumari ya shaba — wakati wanjina magana — yaenjereza mwangaza wa chuma uriotangaza utajiri kula kure."
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The messages encoded in these doors were legible to anyone versed in coastal culture. A door told you who lived behind it: their religion, their wealth, their trade connections, their cultural affiliations. The door was the face of the house, and in a society where the interior of the home was private, the door was the surface on which public identity was displayed.",
+      "sw": "Kuta za rangi nyepesi za pwani ya Kiswahili zinaundwa na plasta ya matumbawe-chokaa. Matumbawe yaliyosagwa yanachanganywa na chokaa kuumba plasta inayoweza kupakwa juu ya kuta za tope au matumbawe. Miongoni mwa Wadigo, plasta ya chokaa kawaida ilihifadhiwa kwa miundo muhimu zaidi — msikiti, nyumba ya mzee, au makao makuu ya familia tajiri.",
+      "dg": "Ujumbe uriofitswa kpwa miryango ihi kala unasomeka kpwa chila mutu ariyemanya chisomo cha pwani. Mryango kala unakuambira ni ani anakala nyumba iyo: diniye, utajiriwe, uhusianowe wa biashara, na uhusianowe wa chisomo. Mryango kala ni uso wa nyumba, na kpwa jamii ambamo ndani ya nyumba kala ni phatu pha faragha, mryango kala ni phatu ambapho utambulisho wa mwenye nyumba kpwa atu osi waonyeswa."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "This tradition extended throughout the coast, and Digo communities were not exempt from its influence. While Digo doors were generally simpler than the great carved portals of Lamu or Zanzibar, the principle of the door as a communicative surface found expression in coastal Digo homesteads. Weathered wooden doors with hand-forged iron hinges and simple carved frames are a characteristic feature of older Digo houses along the coast — not the elaborate masterworks of the Swahili towns, but evidence of the same underlying idea that a doorway is more than a functional opening. It is a threshold between public and private, a place where identity is declared.",
+      "sw": "Kuchukua Bila Kujisalimisha",
+      "dg": "Chimila chino chaenea pwani yosi, na jamii za Adigo nazo zaphaha ushawishiwe. Dzagbwe miryango ya Adigo kawaida kala ni rahisi kuriko miryango mikulu iriyotsongbwa ya Lamu au Zanzibar, kanuni ya mryango dza phatu pha kulavya ujumbe yaonekana kpwa midzi ya Adigo ya pwani. Miryango ya mbao iriyotsakala yenye bawaba za chuma zirizofulwa kpwa mkpwono na fremu rahisi zirizotsongbwa ni sifa ya nyumba za kare za Adigo kanda-kanda ya pwani — si kazi kulu za sanaa za midzi ya Chiswahili, ela ushahidi wa wazo rimwenga ra musingi kukala mryango ni zaidi ya phatu pha kuinjira. Ni mphaka kahi ya atu osi na faragha, phatu ambapho utambulisho unatangazwa."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "Lime Plaster and the Coastal Aesthetic",
+      "sw": "Jambo la kushangaza zaidi kuhusu jibu la Wadigo kwa ushawishi wa Kiswahili ni uchaguzi wake. Wadigo hawakuacha mila yao ya ujenzi kwa ajili ya muundo wa Kiswahili. Walichukua kilichokuwa na manufaa — matumbawe, plasta ya chokaa, mlango uliochongwa — na kuunganisha vipengele hivi katika mila ya ujenzi iliyobaki kuwa yao wenyewe kimsingi.",
+      "dg": "Plasta ya Chokaa"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "The pale, textured walls of the Swahili coast are created by a finishing technique that the Digo adopted for some of their own structures: coral-lime plaster. Ground coral is mixed with lime — itself produced by burning coral or seashells — to create a plaster that can be applied over mud or coral walls. When fresh, it is bright white. As it weathers, it develops a warm, mottled patina — ivory shading to grey, pocked and textured by rain and sun — that is one of the most evocative visual signatures of the East African coast.",
+      "sw": "Kuta za rangi nyepesi, zenye mwonekano wa kimwili wa pwani ya Kiswahili zinaundwa na mbinu ya kumalizia ambayo Wadigo waliichukua kwa baadhi ya miundo yao wenyewe: plasta ya matumbawe-chokaa. Matumbawe yaliyosagwa yanachanganywa na chokaa — yenyewe inazalishwa kwa kuchoma matumbawe au magamba ya bahari — kuunda plasta inayoweza kupakwa juu ya kuta za tope au matumbawe. Ikiwa mpya, ni nyeupe sana. Inapochakaa, inakuza mwonekano wa joto, wenye madoido — rangi ya meno ikielekea kijivu, imechomwa na kuendelezwa na mvua na jua — ambao ni mojawapo ya alama za kuona zinazovutia zaidi za pwani ya Afrika Mashariki.",
+      "dg": "Kuta za rangi ya chereru, zenye kuoneka dza za chimwiri, za pwani ya Chiswahili zinahendwa kpwa mbinu ya kumalizira ambayo Adigo aihala kpwa madzengo gao ganjina: plasta ya masanoo na chokaa. Masanoo garigosagwa ganatsanganywa na chokaa — ambayo nayo inahendwa kpwa kuocha masanoo au magamba ga bahari — kuhenda plasta inayoweza kupakwa dzulu ya kuta za tope au za masanoo. Ichikala mphya, ni nyereru sana. Ichichakaa, inaoneka ya dzoho na ya madoa — rangi ya meno ichielekea chijivu, ichikobolwa na kuchorwa ni mvula na dzuwa — na ni mwenga wa alama za kuona nono zaidi za pwani ya Afrika Mashariki."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "This aesthetic is more than decorative. Lime plaster protects mud walls from rain erosion, extending the life of a structure significantly. It also reflects sunlight, reducing heat absorption and keeping interiors cooler. Among the Digo, lime plaster was typically reserved for the most important structures — the mosque, the elder's house, or a prosperous family's main dwelling. Its use signalled both practical sophistication and cultural connection to the broader Swahili coastal world.",
+      "sw": "Uzuri huu ni zaidi ya mapambo. Plasta ya chokaa inalinda kuta za tope dhidi ya mmomonyoko wa mvua, ikiongeza maisha ya jengo kwa kiasi kikubwa. Pia inaakisi jua, ikipunguza ufyonzaji wa joto na kuweka ndani kuwa baridi zaidi. Miongoni mwa Wadigo, plasta ya chokaa kawaida ilihifadhiwa kwa miundo muhimu zaidi — msikiti, nyumba ya mzee, au makao makuu ya familia tajiri. Matumizi yake yaliashiria ustadi wa vitendo na uhusiano wa kitamaduni na ulimwengu mpana wa pwani ya Kiswahili.",
+      "dg": "Urembo uhu ni zaidi ya mapambo. Plasta ya chokaa inarinda kuta za tope zisibanangwe ni mvula, ichienjereza maisha ga dzengo kpwa chiasi chikulu. Piya inauyiza mwangaza wa dzuwa, ichiphunguza dzoho rinaroinjira na kuika ndani kukale mnyevu zaidi. Kahi ya Adigo, plasta ya chokaa kawaida yaikpwa kpwa madzengo ga muhimu zaidi — msikiti, nyumba ya mzehe, au nyumba kulu ya mbari tajiri. Kuhumirwa kpwa plasta hino kpwaonyesa ustadi wa kuhenda na uhusiano wa chisomo na dunia phana ya pwani ya Chiswahili."
+    },
+    {
+      "id": "b013",
+      "type": "heading",
+      "en": "The Arab-Influenced Building Tradition",
+      "sw": "Mila ya Ujenzi Iliyoathiriwa na Waarabu",
+      "dg": "Chimila cha Kudzenga Chirichohendwa ni Aarabu"
+    },
+    {
+      "id": "b014",
+      "type": "paragraph",
+      "en": "Behind the Swahili architectural style lies the long history of Arab engagement with the East African coast. Omani, Yemeni, and Persian traders and settlers brought building traditions from the Arabian Peninsula and the Gulf — the use of carved plasterwork, the enclosed courtyard house, the wind-catching tower, the emphasis on interior ornamentation rather than exterior display. These elements fused with African building practices and local materials to create the distinctive Swahili architectural vocabulary that, in turn, influenced communities like the Digo.",
+      "sw": "Nyuma ya mtindo wa ujenzi wa Kiswahili iko historia ndefu ya ushirikiano wa Waarabu na pwani ya Afrika Mashariki. Wafanyabiashara na wakaaji wa Kiomani, Kiyemeni, na Kiajemi walileta mila za ujenzi kutoka Bara Arabu na Ghuba — matumizi ya plasta iliyochongwa, nyumba ya ua iliyofungwa, mnara wa kunasa upepo, msisitizo wa mapambo ya ndani badala ya maonyesho ya nje. Vipengele hivi vilijiunga na desturi za ujenzi za Kiafrika na nyenzo za mahali hapo kuunda msamiati wa kipekee wa ujenzi wa Kiswahili ambao, kwa upande wake, uliwashawishi jamii kama Wadigo.",
+      "dg": "Nyuma ya mtindo wa kudzenga wa Chiswahili kuna historia ndefu ya Aarabu kuhusiana na pwani ya Afrika Mashariki. Achuuzi na atu a Chiomani, Chiyemeni, na Chiajemi ariokpwedza kusagala arehera mila za kudzenga kula Bara Arabu na Ghuba — plasta iriyotsongbwa, nyumba za mhala uriozungulukwa ni kuta, minara ya kuphaha phepho, na kutiya mapambo ndani badala ya kondze. Mila zino zatsanganyika na desturi za kudzenga za Chiafrika na vitu vya phapho kuhenda luga ya chipekee ya kudzenga kpwa Chiswahili, ambayo nayo yahenda jamii dza Adigo."
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "The Arab influence is visible not only in specific techniques but in spatial concepts. The Swahili house, with its distinction between public reception areas and private family quarters, reflects Arab domestic architecture's emphasis on the separation of public and private space. While the Digo homestead organizes space differently — around the open clearing of the mudzi rather than within the enclosed courtyard — the principle of spatial hierarchy, of some spaces being more public or more private than others, is a shared concept that connects Digo and Swahili domestic architecture at a conceptual level.",
+      "sw": "Ushawishi wa Kiarabu unaonekana si tu katika mbinu mahususi bali katika dhana za nafasi. Nyumba ya Kiswahili, yenye tofauti kati ya maeneo ya mapokezi ya umma na makazi ya faragha ya familia, inaonyesha msisitizo wa ujenzi wa nyumbani wa Kiarabu juu ya kutenganisha nafasi ya umma na ya faragha. Ingawa boma la Kidigo linapanga nafasi kwa njia tofauti — kuzunguka uwazi wa mudzi badala ya ndani ya ua uliofungwa — kanuni ya daraja la nafasi, kwamba nafasi fulani ni za umma zaidi au za faragha zaidi kuliko nyingine, ni dhana ya pamoja inayounganisha ujenzi wa nyumbani wa Kidigo na Kiswahili katika kiwango cha kidhana.",
+      "dg": "Ushawishi wa Chiarabu unaoneka si kpwa mbinu bahi ela piya kpwa vira nafasi zinavyoganywa. Nyumba ya Chiswahili, yenye tafwauti kahi ya phatu pha kuphokerera ajeni na phatu pha faragha pha mbari, inaonyesa vira Aarabu anavyoona ni muhimu kutenga nafasi ya atu osi na ya faragha. Hata kala mudzi wa Chidigo unapanga nafasi kpwa njira yanjina — kuzunguluka mhala wa mudzi badala ya ndani ya mhala uriozungulukwa ni kuta — dhana ya daraja za nafasi, kukala phatu phanjina ni pha atu osi zaidi au pha faragha zaidi kuriko phanjina, ni dhana inayounganisha nyumba za Chidigo na za Chiswahili."
+    },
+    {
+      "id": "b016",
+      "type": "heading",
+      "en": "Absorption Without Surrender",
+      "sw": "Kuchukua Bila Kujisalimisha",
+      "dg": "Kuhala Bila Kudzisalimisha"
+    },
+    {
+      "id": "b017",
+      "type": "paragraph",
+      "en": "What is most striking about the Digo response to Swahili architectural influence is its selectivity. The Digo did not abandon their building tradition in favour of the Swahili model. They did not build townhouses or multi-storey coral structures. They did not adopt the enclosed courtyard or the wind tower. They took what was useful — coral as a supplementary building material, lime plaster as a protective finish, the carved door as an element of visual identity — and integrated these elements into an architectural tradition that remained fundamentally their own.",
+      "sw": "Jambo la kushangaza zaidi kuhusu jibu la Wadigo kwa ushawishi wa ujenzi wa Kiswahili ni uchaguzi wake. Wadigo hawakuacha mila yao ya ujenzi kwa ajili ya muundo wa Kiswahili. Hawakujenga nyumba za mji au miundo ya matumbawe ya ghorofa nyingi. Hawakuchukua ua uliofungwa au mnara wa upepo. Walichukua kilichokuwa na manufaa — matumbawe kama nyenzo ya ziada ya ujenzi, plasta ya chokaa kama malizia ya kinga, mlango uliochongwa kama kipengele cha utambulisho wa kuona — na kuunganisha vipengele hivi katika mila ya ujenzi iliyobaki kuwa yao wenyewe kimsingi.",
+      "dg": "Dzambo ra kushangaza zaidi kuhusu jibu ra Adigo kpwa ushawishi wa kudzenga wa Chiswahili ni vira anavyotsambula vitu kpwa makini. Adigo taayaricha chimila chao cha kudzenga kpwa ajili ya muundo wa Chiswahili. Taayadzenga nyumba za mudzi mkpwulu au madzengo ga masanoo ga gorofa nyinji. Taayahala mhala uriozungulukwa ni kuta au minara ya phepho. Ahala vitu viriviokala na fwaida — masanoo dza chitu cha kuenjereza kudzenga, plasta ya chokaa dza chirindo cha kumalizira, mryango uriotsongbwa dza alama ya utambulisho — na kuviunganisha na chimila cha kudzenga chirichosala kukala chao enye kpwa musingi."
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "This pattern of selective absorption is characteristic of Digo culture more broadly. In language, in religion, in dress, and in building, the Digo have consistently demonstrated the ability to engage with the powerful cultural influences of the Swahili coast without being absorbed by them. Digo architecture is simpler than Swahili urban building, closer to the land, and more directly shaped by the needs of agricultural life. But it is not inferior or derivative. It is a parallel tradition that has borrowed freely while maintaining its own logic, its own aesthetic, and its own relationship to the environment.",
+      "sw": "Muundo huu wa kuchukua kwa uchaguzi ni sifa ya utamaduni wa Wadigo kwa upana zaidi. Katika lugha, dini, mavazi, na ujenzi, Wadigo wameonyesha kwa mfululizo uwezo wa kushirikiana na ushawishi mkubwa wa kitamaduni wa pwani ya Kiswahili bila kumezwa nao. Ujenzi wa Wadigo ni rahisi kuliko ujenzi wa mji wa Kiswahili, karibu zaidi na ardhi, na umeundwa moja kwa moja zaidi na mahitaji ya maisha ya kilimo. Lakini si duni au wa kunakili. Ni mila ya sambamba ambayo imekopa kwa uhuru huku ikidumisha mantiki yake yenyewe, uzuri wake yenyewe, na uhusiano wake na mazingira.",
+      "dg": "Muundo uhu wa kuhala kpwa kutsambula ni wa chisomo cha Adigo kpwa jumla. Kpwa luga, dini, nguwo, na kudzenga, Adigo aonyesa chila mara kukala anaweza kuhusiana na ushawishi mkpwulu wa chisomo wa pwani ya Chiswahili bila kumezwa nao. Kudzenga kpwa Adigo ni rahisi kuriko kudzenga kpwa mudzi mkpwulu wa Chiswahili, ni phephi zaidi na tsi, na kunalungana zaidi na mahitaji ga maisha ga chirimo. Ela si cha photsi wala cha kuiga. Ni chimila chinachokala kanda-kanda na cha Chiswahili, chirichokopa kpwa uhuru ela chichihifadhi mantikiye, urembowe, na uhusianowe na mazingira."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "Living Heritage",
+      "sw": "Urithi Hai",
+      "dg": "Urithi Urio Hai"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "Today, the Swahili architectural heritage of the coast is recognized as a cultural treasure. The old towns of Lamu and Mombasa are UNESCO-recognized heritage sites. Conservation efforts work to preserve carved doors, coral buildings, and the traditional building skills that created them. Among the Digo, the architectural heritage is less monumental but no less significant. The mud-and-makuti homestead with its lime-plastered walls and its carved wooden door is a modest structure, but it embodies the same history of exchange and adaptation that produced the great Swahili townhouses. Both are products of the coast — one urban, one rural; one grand, one humble; but both shaped by the same materials, the same climate, and the same centuries of cultural conversation across the Indian Ocean.",
+      "sw": "Leo, urithi wa ujenzi wa Kiswahili wa pwani unatambuliwa kama hazina ya kitamaduni. Miji ya kale ya Lamu na Mombasa ni maeneo ya urithi yanayotambuliwa na UNESCO. Juhudi za uhifadhi zinafanya kazi kuhifadhi milango iliyochongwa, majengo ya matumbawe, na ujuzi wa ujenzi wa kimila ulioyaumba. Miongoni mwa Wadigo, urithi wa ujenzi si wa kifahari lakini si wa umuhimu mdogo. Boma la tope-na-makuti lenye kuta zake za plasta ya chokaa na mlango wake wa mbao uliochongwa ni jengo la kawaida, lakini linajumuisha historia ile ile ya kubadilishana na kubadilika iliyozalisha nyumba kuu za mji wa Kiswahili. Vyote ni bidhaa za pwani — moja ya mji, moja ya kijiji; moja kubwa, moja ya kawaida; lakini vyote vimeundwa na nyenzo zile zile, hali ya hewa ile ile, na karne zile zile za mazungumzo ya kitamaduni kupitia Bahari ya Hindi.",
+      "dg": "Rero, urithi wa kudzenga wa Chiswahili wa pwani unamanyikana kukala hazina ya chisomo. Midzi ya kare ya Lamu na Mombasa ni phatu pha urithi phanaphomanyikana ni UNESCO. Juhudi za kuhifadhi zinahenda kazi kuhifadhi miryango iriyotsongbwa, madzengo ga masanoo, na ujuzi wa chimila wa kudzenga uriogahenda. Kahi ya Adigo, urithi wa kudzenga si wa chifahari ela si wa muhimu chidide. Mudzi wa tope na makuti wenye kuta za plasta ya chokaa na mryango wa mbao uriotsongbwa ni dzengo ra kawaida, ela rinatsukula historia ira ira ya kuhusiana na kugaluka iriyohenda nyumba kulu za mudzi mkpwulu wa Chiswahili. Vyosi viiri ni vya pwani — chimwenga cha mudzi mkpwulu, chimwenga cha chidzidzi; chimwenga chikulu, chimwenga cha kawaida; ela vyosi vyahendwa ni vitu vira vira, hali ya hewa ira ira, na karne zira zira za mazungumzo ga chisomo kutsupira Bahari ya Hindi."
+    }
+  ]
+}

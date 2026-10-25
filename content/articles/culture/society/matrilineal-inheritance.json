@@ -1,0 +1,162 @@
+{
+  "id": "culture/society/matrilineal-inheritance",
+  "title": {
+    "en": "Matrilineal Inheritance",
+    "sw": "Urithi wa Upande wa Mama",
+    "dg": "Urithi wa Uphande wa Nine"
+  },
+  "intro": {
+    "en": "The Digo inheritance system is built on a principle that confounds outsiders accustomed to single-track descent: a person inherits through both their mother and their father, but from different…",
+    "sw": "Mfumo wa urithi wa Wadigo umejengwa juu ya kanuni inayochanganya wageni: mtu anarithi kupitia mama na baba, lakini kutoka kwa aina tofauti za mali na chini ya sheria tofauti. *Mashamba ya mafuko* —…",
+    "dg": "Mfumo wa urithi wa Adigo ukadzengbwa dzulu ya kanuni isiyoeleweka ni ajeni: mutu anarithi kutsupira nine na ise, ela kula kpwa aina tafwauti za mali na kpwa shariya tafwauti. *Mashamba ga mafuko* —…"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "type": "heading",
+      "en": "Two Systems, One Family",
+      "sw": "Mifumo Miwili, Familia Moja",
+      "dg": "Mifumo Miiri, Mbari Mmwenga"
+    },
+    {
+      "id": "b002",
+      "type": "paragraph",
+      "en": "The Digo inheritance system is built on a principle that confounds outsiders accustomed to single-track descent: a person inherits through both their mother and their father, but from different categories of property and under different rules. This is not a contradiction — it is a dual system refined over centuries, in which the matrilineal fuko and the patrilineal mbari each govern distinct domains of wealth, obligation, and identity.",
+      "sw": "Mfumo wa urithi wa Wadigo umejengwa juu ya kanuni inayochanganya wageni: mtu anarithi kupitia mama na baba, lakini kutoka kwa aina tofauti za mali na chini ya sheria tofauti. *Mashamba ya mafuko* — mashamba ya ukoo wa mama — yanashikiliwa kwa pamoja na fuko na kupitishwa kwa watoto wa dada: kwa *awa*. *Mashamba ya mbari* — mashamba ya ukoo wa baba — yanaundwa mtu mmoja anapofyeka msitu na kupitishwa ndani ya mbari yake.",
+      "dg": "Mfumo wa urithi wa Adigo ukadzengbwa dzulu ya kanuni isiyoeleweka ni ajeni ariozoea urithi wa uphande mmwenga bahi: mutu anarithi kutsupira nine na ise, ela kula kpwa aina tafwauti za mali na kpwa shariya tafwauti. Uku si kupingana — ni mfumo wa uphande mbiri uriotengezwa kpwa karne nyinji, ambamo fuko ra uphande wa nine na mbari ya uphande wa ise chila chimwenga chinaimirira seemuye ya mali, wajibu, na utambulisho."
+    },
+    {
+      "id": "b003",
+      "type": "paragraph",
+      "en": "Understanding Digo inheritance requires understanding a fundamental distinction between two categories of land. *Mashamba ya mafuko* — the matrilineal clan farms — are held collectively by the fuko and passed to sisters' children: to the *awa*, the nieces and nephews through the maternal line. *Mashamba ya mbari* — the patrilineal lineage farms — are created when an individual man clears previously unworked forest and are passed within his mbari, his patrilineal family unit. The first type of land is ancient, collective, and tied to the fuko's identity. The second is recent, individual, and tied to a specific man's labour.",
+      "sw": "Konho na Dzumbe",
+      "dg": "Kuelewa urithi wa Adigo kunahitaji kuelewa tafwauti ya musingi kahi ya aina mbiri za tsi. *Mashamba ga mafuko* — minda ya ukoo wa nine — ganagbwirwa phamwenga ni fuko na kutsapizwa kpwa ana a ndugu achetu: kpwa *awa*, ana a ndugu kutsupira uphande wa nine. *Mashamba ga mbari* — minda ya ukoo wa ise — ganahendwa mlume mmwenga achifyeka tsaka ambaro taridzangbwerimwa, na ganatsapizwa ndani ya mbariye, mbari ya uphande wa ise. Aina ya kpwandza ya tsi ni ya kare, ya phamwenga, na inafungbwa na utambulisho wa fuko. Ya phiri ni ya sasa, ya mutu mmwenga, na inafungbwa na kazi ya mlume fulani."
+    },
+    {
+      "id": "b004",
+      "type": "heading",
+      "en": "Konho and Dzumbe — The Gendered Division of Land",
+      "sw": "*Konho* — ardhi ya mama — ilikuwa mali ambayo wanawake walikuwa na \"udhibiti kamili na uhuru.\" *Dzumbe* — ardhi ya baba — ilikuwa chini ya udhibiti wa mume wakati wa maisha yake. Lakini urithi wake ulifuata muundo usiotarajiwa: baada ya kifo cha mtu, dzumbe yake haikupitishwa kwa watoto wake mwenyewe bali kwa watoto wa dada zake.",
+      "dg": "Konho na Dzumbe — Kuganywa kpwa Tsi kpwa Alume na Achetu"
+    },
+    {
+      "id": "b005",
+      "type": "paragraph",
+      "en": "Within these broad categories, the Digo recognised a further distinction that placed significant economic power in women's hands. *Konho* — the mother's land — was property over which women held \"complete control and freedom.\" This was not nominal ownership. Women managed their konho, decided what to plant, controlled the produce, and passed the land to their children according to matrilineal custom.",
+      "sw": "Changamoto ya Kiislamu",
+      "dg": "Ndani ya aina zino kulu, Adigo amanya tafwauti yanjina iriyoika nguvu ya chiuchumi ya muhimu kpwa mikpwono ya achetu. *Konho* — tsi ya nine — yakala mali ambayo achetu akala nayo \"uwezo wosi na uhuru.\" Uku takuyakala umiliki wa dzina bahi. Achetu aimirira konho yao, aamua cha kuphanda, amiliki mavuno, na atsapiza tsi kpwa ana ao kulungana na desturi ya uphande wa nine."
+    },
+    {
+      "id": "b006",
+      "type": "paragraph",
+      "en": "*Dzumbe* — the father's land — was under the husband's control during his lifetime. But its inheritance followed a pattern that strikes outsiders as counterintuitive: upon a man's death, his dzumbe did not pass to his own children. It passed to his nieces and nephews — the children of his sisters — because in the matrilineal system, those were his closest kin within his own fuko. A man's own children belonged to their mother's fuko, not his. They would inherit from their own maternal line, not from their father.",
+      "sw": "Sheria ya Kiislamu ya urithi inapingana moja kwa moja na mfumo wa fuko. Chini ya desturi ya upande wa mama, watoto wa mtu hawakurithi kutoka kwake. Chini ya sheria ya Kiislamu, walikuwa warithi wake wakuu. Mgongano haukuzalisha ushindi safi kwa mfumo wowote — badala yake ulizalisha kuishi pamoja kwa mazungumzo ambako kunatofautiana kutoka familia hadi familia.",
+      "dg": "*Dzumbe* — tsi ya ise — yakala kpwa mkpwono wa mlume wakati wa maishage. Ela urithiwe walunga njira isiyotazamiwa ni ajeni: bada ya chifo cha mlume, dzumbeye taiyatsapizwa kpwa anae iye mwenye ela kpwa ana a nduguze achetu — awae — kpwa sababu kpwa mfumo wa uphande wa nine, aya ndio ariokala nduguze za phephi zaidi ndani ya fukore. Ana a mlume akala a fuko ra nine ao, si rakpwe. Akala andarithi kula uphande wa nine wao, si kula kpwa ise."
+    },
+    {
+      "id": "b007",
+      "type": "heading",
+      "en": "The Nineteenth-Century Baseline",
+      "sw": "Ubadilishaji wa Kimkakati wa Wanawake",
+      "dg": "Musingi wa Karne ya Kumi na Tisiya"
+    },
+    {
+      "id": "b008",
+      "type": "paragraph",
+      "en": "The clearest historical snapshot of this system comes from ethnographic records of the nineteenth century, which establish a principle that applied to both sexes: \"children of both sexes typically did not inherit from their father but instead from their mother, grandmother, maternal uncles (*mjomba*), or their fuko.\" This was not an anomaly or a marginal practice. It was the standard arrangement — the default that governed most property transfers in Digo society before the dual pressures of Islamisation and colonial law began to reshape the landscape.",
+      "sw": "Wanawake waliobadilika kuwa Waislamu walifanya hivyo kwa sababu za kimkakati — si kwa sababu Uislamu ulitoa zaidi, bali kwa sababu ulitoa kitu ambacho mfumo wa desturi unaopungua haukuweza tena kuhakikisha: haki za urithi zinazotekelezeka katika mahakama rasmi.",
+      "dg": "Picha ya wazi zaidi ya chihistoria ya mfumo uhu inakpwedza kula kpwa maandiko ga asomi ga karne ya kumi na tisiya, ganayoonyesa kanuni iriyohusu alume na achetu: \"ana a jinsia zosi mbiri kawaida taayarithi kula kpwa ise ao ela kula kpwa nine ao, wawa ao, aphu ao (*mjomba*), au fuko rao.\" Uku takuyakala dzambo ra ajabu au desturi ya atu achache. Wakala mpango wa kawaida — musingi uriokala unaimirira vira mali nyinji zirivyokala zinatsapizwa kpwa jamii ya Adigo kabla shinikizo mbiri za Chiislamu na shariya za chikoloni kuandza kugaluza mambo."
+    },
+    {
+      "id": "b009",
+      "type": "paragraph",
+      "en": "The system had an internal logic that rewarded kinship investment. A man who invested labour and resources in his sister's children — who served as a responsible mjomba — was investing in the people who would inherit his own property. His sister's children had a direct material interest in maintaining a relationship with their mjomba. The matrilineal inheritance system was not merely a rule about who gets the land. It was the economic engine that powered the mjomba-nephew relationship, arguably the most important kinship bond in traditional Digo society.",
+      "sw": "Kinachobaki",
+      "dg": "Mfumo uhu wakala na mantiki ya ndani iriyoriphira mlume kutiya nguvu kpwa ndugu. Mlume ariyeterya kpwa kazi na mali ana a nduguye mchetu — ariyekala aphu wa kuaminika — wakala anaterya atu ambao andarithi malize iye mwenye. Ana a nduguye mchetu akala na fwaida ya mali mwenga kpwa mwenga ya kuenderera kuhusiana na aphu wao. Mfumo wa urithi wa uphande wa nine takuyakala kanuni bahi ya ani anaphaha tsi. Wakala nguvu ya chiuchumi iriyoendesha uhusiano wa aphu na muwa, ambao unaweza kugombwa kukala ndicho chifungo cha ukoo cha muhimu zaidi kpwa jamii ya chimila ya Adigo."
+    },
+    {
+      "id": "b010",
+      "type": "heading",
+      "en": "The Islamic Challenge",
+      "sw": "Taratibu rasmi za urithi wa upande wa mama zimebadilishwa sana na sheria ya Kiislamu na ya kiraia katika mahakama za Kenya. Lakini maadili ya msingi hayajapotea. Mama bado wanapitisha mali kwa watoto wao kwa njia isiyo rasmi. Mjomba bado anachangia ustawi wa wajukuu zake.",
+      "dg": "Changamoto ya Chiislamu"
+    },
+    {
+      "id": "b011",
+      "type": "paragraph",
+      "en": "Islam arrived on the Digo coast through trading contacts and Sufi networks from the seventeenth century onward, and became the dominant faith by the twentieth century. With it came Sharia inheritance rules that are fundamentally patrilineal: a man's property passes primarily to his sons and daughters (with sons receiving double the daughters' share), his wife receives a fixed portion, and the matrilineal clan has no standing.",
+      "sw": "Uislamu ulifika pwani ya Wadigo kupitia mawasiliano ya biashara na mitandao ya Kisufi kuanzia karne ya kumi na saba na kuendelea, na ukawa imani kuu kufikia karne ya ishirini. Pamoja nayo zilikuja sheria za urithi za Sharia ambazo ni za upande wa baba kimsingi: mali ya mtu inapita hasa kwa wanawe na binti zake (wana wakipokea mara mbili ya sehemu ya binti), mke wake anapokea sehemu iliyowekwa, na ukoo wa mama hauna nafasi yoyote.",
+      "dg": "Chiislamu chafika pwani ya Adigo kutsupira biashara na mitandao ya Chisufi kuandza karne ya kumi na sabaa na kuenderera, na chikakala imani kulu kufikira karne ya mirongo miiri. Phamwenga na chicho zakpwedza shariya za urithi za Sharia ambazo kpwa musingi ni za uphande wa ise: mali ya mlume inaphiya hasa kpwa anae alume na achetu (alume achiphokera seemu mbiri za achetu), mchewe anaphokera seemu maalum, na ukoo wa nine takuna nafasi yoyosi."
+    },
+    {
+      "id": "b012",
+      "type": "paragraph",
+      "en": "This created a direct collision with the fuko system. Under matrilineal custom, a man's children inherited nothing from him — they inherited from their mother's side. Under Islamic law, they were his primary heirs. Under matrilineal custom, a man's sister's children were his natural heirs. Under Islamic law, they had no inheritance claim at all.",
+      "sw": "Hili liliunda mgongano wa moja kwa moja na mfumo wa fuko. Chini ya desturi ya upande wa mama, watoto wa mtu hawakurithi kutoka kwake — walirithi kutoka upande wa mama yao. Chini ya sheria ya Kiislamu, walikuwa warithi wake wakuu. Chini ya desturi ya upande wa mama, watoto wa dada ya mtu walikuwa warithi wake wa asili. Chini ya sheria ya Kiislamu, hawakuwa na dai la urithi kabisa.",
+      "dg": "Dzambo hiri rareha kugongana kpwa mwenga kpwa mwenga na mfumo wa fuko. Kpwa desturi ya uphande wa nine, ana a mlume taayarithi kula kpwakpwe — arithi kula uphande wa nine wao. Kpwa shariya ya Chiislamu, ndio arithie akulu. Kpwa desturi ya uphande wa nine, ana a nduguye mchetu ndio arithie a chienyeji. Kpwa shariya ya Chiislamu, taayakala na dai ra urithi kabisa."
+    },
+    {
+      "id": "b013",
+      "type": "paragraph",
+      "en": "The collision did not produce a clean victory for either system. Instead, it produced a negotiated coexistence that varies from family to family, from village to village, and from generation to generation. Some families follow Islamic inheritance strictly. Some follow matrilineal custom. Many operate in a pragmatic middle ground: Islamic law governs formal property divisions, particularly when the estate passes through the courts, while matrilineal expectations govern informal transfers, access to family land, and the distribution of movable wealth.",
+      "sw": "Mgongano haukuzalisha ushindi safi kwa mfumo wowote. Badala yake, ulizalisha kuishi pamoja kwa mazungumzo ambako kunatofautiana kutoka familia hadi familia, kutoka kijiji hadi kijiji, na kutoka kizazi hadi kizazi. Baadhi ya familia zinafuata urithi wa Kiislamu kwa ukali. Baadhi zinafuata desturi ya upande wa mama. Nyingi zinafanya kazi katika kiwango cha kati cha kiutendaji: sheria ya Kiislamu inasimamia ugawaji rasmi wa mali, hasa wakati mali inapita kupitia mahakama, wakati matarajio ya upande wa mama yanasimamia uhamisho usio rasmi, upatikanaji wa ardhi ya familia, na ugawaji wa mali inayohamishika.",
+      "dg": "Kugongana kuku takuyareha ushindi kpwa mfumo wowosi. Badalaye, kpwareha kusagala phamwenga kpwa mazungumzo, dzambo rinaroganyika kula mbari hadi mbari, kula chidzidzi hadi chidzidzi, na kula chizazi hadi chizazi. Mbari zanjina zinalunga urithi wa Chiislamu kpwa ukali. Zanjina zinalunga desturi ya uphande wa nine. Nyinji zinahenda kazi kahi-kahi kpwa kuhenda chinachofwaha: shariya ya Chiislamu inaimirira kuganya mali rasmi, hasa wakati mali inaphiya mahakamani, na matazamio ga uphande wa nine ganaimirira kutsapiza kusiko rasmi, kuphahikana kpwa tsi ya mbari, na kuganya mali inayotsamika."
+    },
+    {
+      "id": "b014",
+      "type": "heading",
+      "en": "Women's Strategic Conversions",
+      "sw": "Ubadilishaji wa Kimkakati wa Wanawake",
+      "dg": "Achetu Kugaluka Aislamu kpwa Makusudi"
+    },
+    {
+      "id": "b015",
+      "type": "paragraph",
+      "en": "One of the most revealing dynamics in the collision between matrilineal and Islamic inheritance was the strategic conversion of women to Islam. In the matrilineal system, women held significant property rights through konho land and their position within the fuko. But these rights were customary — they had no standing in colonial or post-colonial courts. Islamic law, while patrilineal, guaranteed women specific inheritance shares: a daughter received half of a son's share, a wife received one-eighth of her husband's estate (if there were children).",
+      "sw": "Mojawapo ya mienendo inayofunua zaidi katika mgongano kati ya urithi wa upande wa mama na Kiislamu ilikuwa ubadilishaji wa kimkakati wa wanawake kuwa Waislamu. Katika mfumo wa upande wa mama, wanawake walikuwa na haki muhimu za mali kupitia ardhi ya konho na nafasi yao ndani ya fuko. Lakini haki hizi zilikuwa za kimila — hazikuwa na nafasi katika mahakama za kikoloni au baada ya ukoloni. Sheria ya Kiislamu, ingawa ya upande wa baba, ilihakikishia wanawake sehemu mahususi za urithi: binti alipokea nusu ya sehemu ya mwana, mke alipokea moja ya nane ya mali ya mumewe (kama kulikuwa na watoto).",
+      "dg": "Dzambo mmwenga rinaroonyesa sana vira urithi wa uphande wa nine na wa Chiislamu vyagongana ni achetu kugaluka Aislamu kpwa makusudi. Kpwa mfumo wa uphande wa nine, achetu akala na haki za muhimu za mali kutsupira tsi ya konho na nafasi yao ndani ya fuko. Ela haki zino zakala za chimila — taziyakala na nafasi kpwa mahakama za chikoloni au za bada ya ukoloni. Shariya ya Chiislamu, hata kala ni ya uphande wa ise, yaahakikishira achetu seemu maalum za urithi: mwana mchetu ariphokera nusu ya seemu ya mwana mlume, mche ariphokera seemu mwenga kpwa nane ya mali ya mlumewe (ichikala kuna ana)."
+    },
+    {
+      "id": "b016",
+      "type": "paragraph",
+      "en": "For women whose matrilineal inheritance rights were being eroded by colonial courts that recognised only patrilineal claims, conversion to Islam could be a strategic act of self-protection. By converting, a woman gained access to a codified legal framework that, while less generous than the matrilineal system at its best, was more enforceable than customary claims in the formal courts. Women converted to Islam partly to \"secure their inheritance rights\" — not because Islam offered more, but because it offered something the eroding customary system could no longer guarantee.",
+      "sw": "Kwa wanawake ambao haki zao za urithi wa upande wa mama zilikuwa zikimomonyolewa na mahakama za kikoloni zilizotambua madai ya upande wa baba pekee, kubadilika kuwa Mwislamu kunaweza kuwa kitendo cha kimkakati cha kujilinda. Kwa kubadilika, mwanamke alipata ufikiaji wa mfumo wa kisheria uliowekwa ambao, ingawa si mkarimu kama mfumo wa upande wa mama katika hali yake bora, ulikuwa unatekelezeka zaidi kuliko madai ya kimila katika mahakama rasmi. Wanawake walibadilika kuwa Waislamu kwa sehemu ili \"kupata haki zao za urithi\" — si kwa sababu Uislamu ulitoa zaidi, bali kwa sababu ulitoa kitu ambacho mfumo wa kimila unaopungua haukuweza tena kuhakikisha.",
+      "dg": "Kpwa achetu ambao haki zao za urithi wa uphande wa nine zakala zinabanangwa ni mahakama za chikoloni zirizokala zinamanya madai ga uphande wa ise bahi, kugaluka kukala Mwislamu kpwakala dzambo ra makusudi ra kudzirinda. Kpwa kugaluka, mchetu waphaha mfumo wa chishariya uriokala ukaandikpwa ambao, hata kala taukala mkarimu dza mfumo wa uphande wa nine wakatiwe mnono, wakala unaweza kutekelezwa zaidi kuriko madai ga chimila kpwa mahakama rasmi. Achetu agaluka Aislamu kpwa seemu ili \"kuphaha haki zao za urithi\" — si kpwa sababu Chiislamu chaapha zaidi, ela kpwa sababu chaapha chitu ambacho mfumo wa chimila uriokala unabanangika taukala unaweza tsona kuchihakikisha."
+    },
+    {
+      "id": "b017",
+      "type": "heading",
+      "en": "The Chief Kadhi's Intervention",
+      "sw": "Kuingilia Kati kwa Kadhi Mkuu",
+      "dg": "Kuinjira Kahi kpwa Kadhi Mkpwulu"
+    },
+    {
+      "id": "b018",
+      "type": "paragraph",
+      "en": "The tension between the two inheritance systems was significant enough to require formal intervention. The Chief Kadhi — Kenya's highest Islamic judicial authority — intervened to establish inheritance rights for children of mixed-faith marriages, creating a hybrid framework that attempted to balance Islamic inheritance principles with the reality of a community in which matrilineal ties remained culturally binding even where they had lost legal force.",
+      "sw": "Mvutano kati ya mifumo miwili ya urithi ulikuwa mkubwa wa kutosha kuhitaji kuingilia kati rasmi. Kadhi Mkuu — mamlaka ya juu zaidi ya kimahakama ya Kiislamu ya Kenya — aliingilia kati kuanzisha haki za urithi kwa watoto wa ndoa za imani mchanganyiko, kuunda mfumo wa mseto uliojaribu kusawazisha kanuni za urithi wa Kiislamu na ukweli wa jamii ambayo vifungo vya upande wa mama viliendelea kuwa vya lazima kitamaduni hata pale vilipopoteza nguvu ya kisheria.",
+      "dg": "Kuvutana kahi ya mifumo miiri ya urithi kpwakala kukulu hata kukahitaji kuinjira kahi rasmi. Kadhi Mkpwulu — mamlaka ga dzulu zaidi ga mahakama za Chiislamu za Kenya — wainjira kahi ili kuika haki za urithi kpwa ana a ndowa za imani mbiri, achihenda mfumo wa kutsanganya uriojeza kusawazisha kanuni za urithi wa Chiislamu na ukpweli wa jamii ambamo vifungo vya uphande wa nine virienderera kukala vya lazima kpwa chisomo hata phatu viriphoangamiza nguvu ya chishariya."
+    },
+    {
+      "id": "b019",
+      "type": "heading",
+      "en": "What Persists",
+      "sw": "Kinachobaki",
+      "dg": "Chinachosala"
+    },
+    {
+      "id": "b020",
+      "type": "paragraph",
+      "en": "The formal mechanisms of matrilineal inheritance have largely been displaced by Islamic and civil law in Kenya's courts. A Digo inheritance dispute today will be adjudicated according to Sharia or the Law of Succession Act, not according to fuko custom. But the underlying values have not disappeared. Mothers still pass property informally to their children. Maternal uncles still contribute to their nephews' and nieces' welfare. The expectation that a person's deepest obligations run along the maternal line persists in daily life even where it no longer holds in law.",
+      "sw": "Taratibu rasmi za urithi wa upande wa mama zimebadilishwa kwa kiasi kikubwa na sheria ya Kiislamu na ya kiraia katika mahakama za Kenya. Mgogoro wa urithi wa Wadigo leo utaamuliwa kulingana na Sharia au Sheria ya Urithi, si kulingana na desturi ya fuko. Lakini maadili ya msingi hayajapotea. Mama bado wanapitisha mali kwa watoto wao kwa njia isiyo rasmi. Mjomba bado wanachangia ustawi wa wapwa wao. Matarajio kwamba wajibu wa ndani zaidi wa mtu yanafuata upande wa mama yanaendelea katika maisha ya kila siku hata pale hapoambapo hayashikilii tena kisheria.",
+      "dg": "Taratibu rasmi za urithi wa uphande wa nine zikahalwa phahaliphe kpwa chiasi chikulu ni shariya ya Chiislamu na ya chiraia kpwa mahakama za Kenya. Kondo ra urithi ra Adigo rero rindalunga Sharia au Shariya ya Urithi, si desturi ya fuko. Ela maadili ga musingi tagadzangbweangamika. Anina bado anaapha ana ao mali kpwa njira isiyo rasmi. Aphu bado anaaterya awa ao. Matazamio kukala wajibu wa ndani zaidi wa mutu unalunga uphande wa nine ganaenderera kpwa maisha ga chila siku hata phatu ambapho tagagbwirika tsona kpwa chishariya."
+    },
+    {
+      "id": "b021",
+      "type": "paragraph",
+      "en": "The dual inheritance system — mashamba ya mafuko alongside mashamba ya mbari, konho alongside dzumbe — may no longer function as a formal legal framework. But it remains embedded in the Digo understanding of what land means, who belongs to whom, and what obligations family imposes. The fuko's claim on property may have weakened. Its claim on identity has not.",
+      "sw": "Mfumo wa urithi wa pande mbili — mashamba ya mafuko pamoja na mashamba ya mbari, konho pamoja na dzumbe — huenda usifanye kazi tena kama mfumo rasmi wa kisheria. Lakini unabaki umeingizwa katika uelewa wa Wadigo wa ardhi inamaanisha nini, nani ni wa nani, na wajibu gani familia inaiwekea. Dai la fuko juu ya mali linaweza kuwa limedhoofika. Dai lake juu ya utambulisho halijadhoofika.",
+      "dg": "Mfumo wa urithi wa uphande mbiri — mashamba ga mafuko kanda-kanda na mashamba ga mbari, konho kanda-kanda na dzumbe — unaweza usihende kazi tsona dza mfumo rasmi wa chishariya. Ela uchere kukala ndani ya vira Adigo anavyoelewa maana ya tsi, ani ni wa ani, na wajibu uphi mbari inaouika. Dai ra fuko dzulu ya mali rinaweza kukala rikadhoofika. Daire dzulu ya utambulisho taridzangbwedhoofika."
+    }
+  ]
+}
