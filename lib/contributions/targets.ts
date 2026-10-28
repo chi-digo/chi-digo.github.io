@@ -87,6 +87,44 @@ export function loadWord(id: string): WordEntry | null {
   return data.entries.find((e) => e.id === id) ?? null;
 }
 
+/**
+ * Why a form can't be made the entry's headword, or null (spec 34 §18.1, owner sign-off 2026-10-28):
+ * a redirect stub, the same word in another case, a lost or added affix marker, no letter page, or a
+ * redirect stub with the new spelling pointing back at this entry (remove the stub first).
+ */
+export function headwordRefusal(entry: WordEntry, form: string): { error: string; stub?: string } | null {
+  if (entry.is_redirect) return { error: 'redirect_entry' };
+  const sk = sortKeyOf(form);
+  if (sk === entry.sort_key) return { error: 'case_only' };
+  if (form.startsWith('-') !== entry.headword.startsWith('-')) return { error: 'affix_marker' };
+  let file: string;
+  try {
+    file = entryFile(sk);
+  } catch {
+    return { error: 'no_letter' };
+  }
+  if (entry.id === TEST_TARGET) return null;
+  const data = JSON.parse(readFileSync(join(DICT, `${file}.json`), 'utf-8')) as { entries: WordEntry[] };
+  const stub = data.entries.find((e) => e.is_redirect && e.sort_key === sk
+    && sortKeyOf(String(e.redirect_target ?? '').replace(/[;\s]+$/, '')) === entry.sort_key);
+  return stub ? { error: 'redirect_stub', stub: stub.headword } : null;
+}
+
+/** What a headword change is checked against and restores: the entry as shipped and where it sits. */
+export function headwordBase(entry: WordEntry) {
+  if (entry.id === TEST_TARGET) {
+    return { headword: entry.headword, id: entry.id, homonym_index: entry.homonym_index, sort_key: entry.sort_key, file: TEST_TARGET, after: null };
+  }
+  const file = entryFile(entry.sort_key);
+  const data = JSON.parse(readFileSync(join(DICT, `${file}.json`), 'utf-8')) as { entries: WordEntry[] };
+  const at = data.entries.findIndex((e) => e.id === entry.id);
+  if (at < 0) return null;
+  return {
+    headword: entry.headword, id: entry.id, homonym_index: entry.homonym_index, sort_key: entry.sort_key,
+    file, after: at > 0 ? data.entries[at - 1].id : null,
+  };
+}
+
 /** Whether a headword (any case, leading - ignored) is already in the shipped dictionary. */
 export function headwordExists(headword: string): boolean {
   const sk = sortKeyOf(headword);
@@ -172,6 +210,7 @@ function resolveWordTarget(
     return { label, path: `senses.${n}.examples` };
   }
   if (type === 'spelling_variant') return { label, path: 'variants' };
+  if (type === 'headword_change') return { label, path: 'headword' };
   if (type === 'entry_flag') return { label, path: null };
   return null;
 }

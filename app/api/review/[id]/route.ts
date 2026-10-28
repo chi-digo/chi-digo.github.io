@@ -6,7 +6,7 @@ import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea, readsLanguage,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
+import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
@@ -26,6 +26,42 @@ async function minimumSensePath(row: { type: string; payload: Record<string, unk
   const [entry] = applyAllToEntries([raw], liveChanges);
   const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
   return `senses.${nextSenseId(entry, pending)}`;
+}
+
+/**
+ * Make an accepted, live community form the entry's headword (spec 34 §18). The server computes what the
+ * change is checked against and what its undo restores; the database copies the form and records it.
+ */
+async function makeHeadword(
+  caller: { id: string; role: string; db: SupabaseClient },
+  row: { id: string; type: string; status: string; live_status: string | null; target_id: string | null; is_test: boolean; final_payload: Record<string, unknown> | null },
+  note: string | null,
+) {
+  if (caller.role !== 'admin') return forbidden();
+  if (row.type !== 'spelling_variant' || row.status !== 'accepted' || row.live_status !== 'live' || !row.target_id) {
+    return badRequest('not_acceptable');
+  }
+  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+  if (!raw) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+  const liveChanges = await getAreaOverlay('word');
+  const [entry] = applyAllToEntries([raw], liveChanges);
+  const form = String(row.final_payload?.form ?? '');
+  if (!entry.variants.some((v) => (v as { c?: string }).c === row.id && v.form === form)) {
+    return NextResponse.json({ error: 'target_changed' }, { status: 409 });
+  }
+  // A community word still settling into the files (its overlay copy) can't be renamed yet.
+  const settling = liveChanges.some((c) => c.type === 'word_addition' && Object.values(raw.provenance ?? {}).some((l) => l.some((p) => p.c === c.contribution_id)));
+  if (settling) return NextResponse.json({ error: 'new_word_settling' }, { status: 409 });
+  const refusal = headwordRefusal(raw, form);
+  if (refusal) return NextResponse.json(refusal, { status: 422 });
+  const base = headwordBase(raw);
+  if (!base) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+  const result = await rpc<{ ok?: boolean; error?: string; id?: string; status?: string; live_status?: string }>(
+    caller.db, 'review_transition', { p_uid: caller.id, p_cid: row.id, p_action: 'make_headword', p_args: { base: { value: base }, note } },
+  );
+  if (result.error) return rpcError(result.error);
+  refreshOverlay('word');
+  return NextResponse.json({ id: result.id, status: result.status, live_status: result.live_status });
 }
 
 async function load(db: SupabaseClient, id: string) {
@@ -111,6 +147,13 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
     if (row.user_id === caller.id) return forbidden('self_review');
+
+    // A headword change: an admin reverts it or retries its fold-in unchanged; nothing else (spec 34 §18.1).
+    if (row.type === 'headword_change') {
+      if (caller.role !== 'admin') return forbidden();
+      if (!['revert', 'retry_fold'].includes(body.action) || body.final_payload) return badRequest('not_acceptable');
+    }
+    if (body.action === 'make_headword') return makeHeadword(caller, row, body.note ?? null);
 
     const args: Record<string, unknown> = { note: body.note ?? null };
     const area = overlayArea(row.target_type);

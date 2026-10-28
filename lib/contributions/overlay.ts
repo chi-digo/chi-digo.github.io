@@ -36,6 +36,7 @@ const PUBLIC_FIELDS: Partial<Record<ContributionType, string[]>> = {
   proverb_meaning: ['lang', 'text', 'kind', 'mode'],
   proverb_context: ['lang', 'text'],
   translation_fix: ['lang', 'proposed'],
+  headword_change: ['form', 'variant'],
 };
 const PRIVATE_FIELDS = ['reason', 'detail', 'other_names', 'reported'];
 
