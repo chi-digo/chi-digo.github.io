@@ -1,5 +1,5 @@
 import type { SearchIndexEntry, ReverseIndex } from "./types";
-import { loadLetterIndex, loadReverseIndex, loadVariants } from "./loader";
+import { loadLetterIndex, loadReverseIndex, loadVariants, wordOverlay } from "./loader";
 import { digoize } from "./fuzzy";
 import { stripPrefixes } from "./morphology";
 
@@ -147,6 +147,7 @@ async function searchVariants(q: string): Promise<SearchResult[]> {
   }
   // Label each result with the entry's headword as it reads now: a form made the headword, live, still
   // sits under the entry's old id (spec 34 §18.3).
+  if (!(await wordOverlay()).some((c) => c.type === "headword_change")) return out;
   return Promise.all(out.map(async (r) => {
     try {
       const row = (await loadLetterIndex(r.id.replace(/\.\d+$/, ""))).find((x) => x.id === r.id);

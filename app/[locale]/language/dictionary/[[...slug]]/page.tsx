@@ -45,17 +45,25 @@ const bare = (h: string) => h.replace(/[\d;]+$/, '').replace(/^-/, '').toLowerCa
  * The entry a word address shows: one whose headword it is, in any letter file; else one that used to
  * have that headword (spec 34 §18.5: the old address keeps showing the entry, as a former headword).
  */
-function findEntry(headword: string): { entry: DictionaryEntry; former: boolean } | null {
+let letterFiles: LetterFile[] | null = null;
+/** The letter files, read once per server process (every word page's metadata and body look here). */
+function allLetterFiles(): LetterFile[] {
+  if (letterFiles) return letterFiles;
   const dataDir = path.join(process.cwd(), 'public', 'data');
   const files: LetterFile[] = [];
   for (const file of fs.readdirSync(dataDir)) {
     if (!file.endsWith('.json') || file.endsWith('.idx.json')) continue;
     if (file === 'corpus-to-dict.json' || file === 'fuzzy-rules.json') continue;
-    if (file === 'index.json' || file === 'reverse-en.json') continue;
+    if (file === 'index.json' || file === 'reverse-en.json' || file === 'reverse-sw.json') continue;
 
     const data: LetterFile = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf-8'));
     if (data && Array.isArray(data.entries)) files.push(data);
   }
+  return (letterFiles = files);
+}
+
+function findEntry(headword: string): { entry: DictionaryEntry; former: boolean } | null {
+  const files = allLetterFiles();
   const key = bare(headword);
   for (const data of files) {
     const entry = data.entries.find((e) => bare(e.headword) === key);
@@ -193,17 +201,19 @@ export default async function Page({
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
     const found = findEntry(headword);
-    const entry = found && !found.former ? found.entry : null;
+    const entry = found?.entry;
     if (entry) {
       const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
+      // On an old address (a former headword), the term and its address are the entry's current ones.
+      const term = found.former ? entry.headword : headword;
       return (
         <>
           <JsonLd
             data={definedTermJsonLd({
-              term: headword,
+              term,
               definition: firstDef,
               pos: entry.pos_en,
-              path: `/language/dictionary/word/${encodeURIComponent(headword)}`,
+              path: `/language/dictionary/word/${encodeURIComponent(term)}`,
               locale: loc,
             })}
           />
@@ -211,7 +221,7 @@ export default async function Page({
             data={breadcrumbJsonLd([
               { name: 'Home', href: '/' },
               { name: 'Dictionary', href: '/language/dictionary' },
-              { name: headword, href: `/language/dictionary/word/${encodeURIComponent(headword)}` },
+              { name: term, href: `/language/dictionary/word/${encodeURIComponent(term)}` },
             ], loc)}
           />
           <DictionaryClient />

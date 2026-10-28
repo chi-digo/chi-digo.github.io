@@ -92,15 +92,9 @@ export function VariantsLine({ entry }: { entry: DictionaryEntry }) {
 
 /** "Headword form suggested by …": the community form that became the headword (spec 34 §18.2, owner 2026-10-28). */
 export function HeadwordCredit({ entry }: { entry: DictionaryEntry }) {
-  const c = useTranslations().contribute;
   const from = formerHeadwords(entry).find((v) => v.was?.form === entry.headword && v.was.c);
   if (!from?.was?.c) return null;
-  return (
-    <div className={styles.intro}>
-      <strong>{c.headword_form}:</strong> <em>{entry.headword}</em>
-      <CreditLine ids={[from.was.c]} />
-    </div>
-  );
+  return <CreditLine ids={[from.was.c]} headword />;
 }
 
 /** Whether an entry can take suggestions: provisional new words (flags only) and well-formed ids. */

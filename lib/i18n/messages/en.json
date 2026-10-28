@@ -919,8 +919,10 @@
     "review_waiting": "{n} waiting",
     "notif_accepted_notarget": "Your suggestion “{summary}” was accepted.",
     "notif_second_review_notarget": "“{summary}” needs a second reviewer.",
-    "headword_form": "Headword form",
-    "type_headword_change": "Headword change"
+    "type_headword_change": "Headword change",
+    "headword_credit_by": "Headword form suggested by {name}",
+    "headword_credit_by_region": "Headword form suggested by {name}, {region}",
+    "headword_credit_anon": "Headword form suggested by a Digo speaker"
   },
   "review": {
     "ui_alone_off": "Interface fixes need two reviewers. You can’t confirm one alone.",

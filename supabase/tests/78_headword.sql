@@ -83,9 +83,18 @@ begin
   -- 7. The new id is written back only within limits, then the entry's rows follow it at confirm.
   n := public.fold_mark(tok, nonce, array[hc], 'in_preview', 1, null, null, jsonb_build_object(hc::text, 'evil'));
   assert (select target_path from public.contributions where id = hc) is null, 'a new id unrelated to the form was stored';
+  -- Never an id another entry's rows already use.
+  perform pg_temp.submit(c3, 'example_sentence', 'dictionary', 'word', 'hwtestb', '{"sense_id":"1","dg":"Hwtestb yuko."}');
+  update public.contributions set fold_status = 'folding' where id = hc;
+  n := public.fold_mark(tok, nonce, array[hc], 'in_preview', 1, null, null, jsonb_build_object(hc::text, 'hwtestb'));
+  assert (select target_path from public.contributions where id = hc) is null, 'an id in use by another entry was stored';
   update public.contributions set fold_status = 'folding' where id = hc;
   n := public.fold_mark(tok, nonce, array[hc], 'in_preview', 1, null, null, jsonb_build_object(hc::text, 'hwtestb.2'));
   assert (select target_path from public.contributions where id = hc) = 'hwtestb.2', 'new id not written back';
+  update public.contributions set target_path = null where id = hc;
+  n := public.fold_mark(tok, null, array[hc], 'folded', null, 'sha0');
+  assert n = 0 and (select fold_status from public.contributions where id = hc) = 'in_preview', 'folded with no new id';
+  update public.contributions set target_path = 'hwtestb.2' where id = hc;
   n := public.fold_mark(tok, null, array[hc], 'folded', null, 'sha1');
   assert (select target_id from public.contributions where id = hc) = 'hwtestb.2', 'headword change did not follow';
   assert (select target_id from public.contributions where id = v) = 'hwtestb.2', 'the form did not follow the entry';

@@ -14,6 +14,7 @@ interface QueueItem {
   id: string;
   type: string;
   payload: Record<string, unknown>;
+  base?: { value?: { headword?: string } } | null;
   region: string | null;
   confidence: string | null;
   status: string;
@@ -68,13 +69,15 @@ function QueueList({ view }: { view: View }) {
               <li key={it.id}>
                 <TrackedLink href={`/review/${it.id}`} source="review_queue" className={styles.itemLink}>
                   <span className={styles.itemMain}>
-                    <strong>{msg(c, `type_${it.type}`)}</strong>: {payloadSummary(it.payload)}
+                    {it.type === 'headword_change'
+                      ? <strong>{r.headword_change_label.replace('{from}', it.base?.value?.headword ?? '').replace('{to}', payloadSummary(it.payload))}</strong>
+                      : <><strong>{msg(c, `type_${it.type}`)}</strong>: {payloadSummary(it.payload)}</>}
                   </span>
                   <span className={styles.flags}>
                     {it.region && <span>{msg(c, `region_${it.region}`)}</span>}
                     {it.confidence && <span>{msg(c, `confidence_${it.confidence}`)}</span>}
                     {it.agree_count > 0 && <span>{c.panel_agree_count.replace('{n}', String(it.agree_count))}</span>}
-                    <span>{it.contributor.is_you ? r.you : it.contributor.first_name ?? '—'}</span>
+                    {it.type !== 'headword_change' && <span>{it.contributor.is_you ? r.you : it.contributor.first_name ?? '—'}</span>}
                     {it.held && <span className={styles.flag}>{r.held}</span>}
                     {it.hidden_at && <span className={styles.flag}>{r.hidden}</span>}
                     {it.stale && <span className={styles.flag}>{r.stale}</span>}

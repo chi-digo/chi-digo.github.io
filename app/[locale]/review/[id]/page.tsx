@@ -351,11 +351,14 @@ function ReviewItem({ id }: { id: string }) {
         {item.note && <p className={styles.muted}>“{item.note}”</p>}
         {item.reply && <p className={styles.muted}><strong>{r.reply}:</strong> {item.reply}</p>}
         <dl className={styles.facts}>
-          <dt>{r.contributor}</dt>
-          <dd>
-            {detail.contributor.is_you ? r.you : detail.contributor.first_name ?? '—'} ·{' '}
-            {r.record.replace('{accepted}', String(detail.contributor.accepted)).replace('{submitted}', String(detail.contributor.submitted))}
-          </dd>
+          {/* A headword change has no contributor: an admin made it (spec 34 §18.1). */}
+          {item.type !== 'headword_change' && (<>
+            <dt>{r.contributor}</dt>
+            <dd>
+              {detail.contributor.is_you ? r.you : detail.contributor.first_name ?? '—'} ·{' '}
+              {r.record.replace('{accepted}', String(detail.contributor.accepted)).replace('{submitted}', String(detail.contributor.submitted))}
+            </dd>
+          </>)}
           {item.region && (<><dt>{r.region}</dt><dd>{msg(c, `region_${item.region}`)}</dd></>)}
           {item.village && (<><dt>{r.village}</dt><dd>{item.village}</dd></>)}
           {item.confidence && (<><dt>{r.confidence}</dt><dd>{msg(c, `confidence_${item.confidence}`)}</dd></>)}
@@ -443,24 +446,27 @@ function ReviewItem({ id }: { id: string }) {
               <Button variant="ghost" onClick={() => act('second_reject')} loading={busy === 'second_reject'}>{r.second_reject}</Button>
             </>
           )}
-          {item.status === 'accepted' && (item.live_status === 'conflict' || item.fold_status === 'failed') && (
+          {/* A conflicted headword change is undone and made again; only a failed fold-in is retried, by an admin. */}
+          {item.status === 'accepted' && (item.live_status === 'conflict' || item.fold_status === 'failed')
+            && (item.type !== 'headword_change' || (status?.role === 'admin' && item.live_status !== 'conflict')) && (
             <Button onClick={() => act('retry_fold', edited ? { final_payload: finalPayload } : {})} loading={busy === 'retry_fold'}>{r.retry}</Button>
           )}
           {item.status === 'accepted' && status?.role === 'admin' && item.live_status !== 'reverting' && (
             <Button variant="danger" onClick={() => act('revert')} loading={busy === 'revert'} disabled={!!detail.dependants?.length}>{r.revert}</Button>
           )}
-          {hw && !hwRefusal && !confirmHeadword && (
+          {hw && !hwRefusal && !confirmHeadword && !detail.contributor.is_you && (
             <Button variant="secondary" onClick={() => setConfirmHeadword(true)}>{r.make_headword}</Button>
           )}
         </div>
         {hw && hwRefusal && <p className={styles.muted}>{r.make_headword}: {hwRefusal}</p>}
         {hw && !hwRefusal && confirmHeadword && (
-          <div className={styles.warning}>
+          <div className={styles.confirm} role="group" aria-label={r.make_headword}>
             <p>{r.make_headword_confirm.replace('{form}', hw.form).replace('{old}', hw.old)}</p>
             {hw.page && <p>{r.make_headword_moves.replace('{page}', hw.page)}</p>}
             {hw.homonym && <p>{r.make_headword_homonym.replaceAll('{form}', hw.form)}</p>}
             <div className={styles.actions}>
-              <Button onClick={() => act('make_headword')} loading={busy === 'make_headword'}>{r.make_headword_go}</Button>
+              {/* Focus moves here when the step opens, so keyboard and screen-reader users land on the decision. */}
+              <Button onClick={() => act('make_headword')} loading={busy === 'make_headword'} autoFocus>{r.make_headword_go}</Button>
               <Button variant="ghost" onClick={() => setConfirmHeadword(false)}>{r.cancel}</Button>
             </div>
           </div>

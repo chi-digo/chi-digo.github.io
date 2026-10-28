@@ -289,6 +289,17 @@ function foldWord(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
     dirty.add(f);
     return reverting ? 'reverted' : 'applied';
   }
+  if (row.type === 'headword_change' && row.live_status === 'reverting') {
+    // A retried undo may find the files already moved back: the entry is under its old id, without this change.
+    const back = (change.base?.value as HeadwordBase | undefined)?.id ?? '';
+    let found: { f: string; entry: WordEntry };
+    try {
+      found = locate(row.target_id ?? '', row.id);
+    } catch {
+      found = locate(back, row.id);
+    }
+    return foldHeadword(row, change, found.f, found.entry);
+  }
   const { f, entry } = locate(row.target_id ?? '', row.id);
   if (row.type === 'headword_change') return foldHeadword(row, change, f, entry);
   const file = letterFile(f);
@@ -311,14 +322,21 @@ function foldHeadword(row: ClaimedRow, change: Change, f: string, entry: WordEnt
     const prev = unapplyWord(entry, change);
     const back = entryFile(prev.sort_key);
     removeEntry(f, entry);
-    const target = letterFile(back);
-    const after = base.after === null ? -1 : target.entries.findIndex((e) => e.id === base.after);
-    if (base.after !== null && after < 0) insertSorted(back, prev);
-    else {
-      target.entries.splice(after + 1, 0, prev);
-      target.count = target.entries.length;
-      dirty.add(back);
-    }
+    // Back in code-point order; among equal sort keys, right after the entry it followed (ties aren't in
+    // id order, so this is what gives back the same bytes). Words added since keep their places.
+    const list = letterFile(back).entries;
+    const lo = list.findIndex((e) => byCodePoint(e.sort_key, prev.sort_key) >= 0);
+    const hi = list.findIndex((e) => byCodePoint(e.sort_key, prev.sort_key) > 0);
+    const start = lo < 0 ? list.length : lo;
+    const end = hi < 0 ? list.length : hi;
+    const after = base.after === null ? -1 : list.findIndex((e) => e.id === base.after);
+    // It followed a smaller key (or nothing): it was first among its equals. It followed an equal key: after that one.
+    const at = after < 0 ? (base.after === null ? start : end)
+      : byCodePoint(list[after].sort_key, prev.sort_key) < 0 ? start
+      : after >= start && after < end ? after + 1 : end;
+    list.splice(Math.max(start, Math.min(at, end)), 0, prev);
+    letterFile(back).count = list.length;
+    dirty.add(back);
     return 'reverted';
   }
   if (hasC(entry, row.id)) {

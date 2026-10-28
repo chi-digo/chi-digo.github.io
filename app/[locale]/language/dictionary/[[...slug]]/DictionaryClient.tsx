@@ -14,7 +14,7 @@ import { track } from '@/lib/analytics/track';
 import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
-import { formerHeadwords, type WordEntry } from '@/lib/contributions/apply/words';
+import type { WordEntry } from '@/lib/contributions/apply/words';
 import { useWordForms, NewWordNote, VariantsLine, HeadwordCredit, ImproveLink, WordSuggest, canSuggest } from '@/components/Contribute/WordContribute';
 import { NewWordForm } from '@/components/Contribute/WordForms';
 import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
@@ -604,7 +604,6 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
                 entryType="word"
                 entryId={primary.headword}
                 entryLabel={primary.headword}
-                aliases={formerHeadwords(primary).map((v) => v.form)}
                 journey="dictionary"
                 size="sm"
               />

@@ -181,6 +181,42 @@ describe('fold-in for headword changes', () => {
     expect([...after.keys()].sort()).toEqual([...before.keys()].sort());
   });
 
+  it('undoes into sort order when a word was added in the gap, and a retried undo is a no-op', () => {
+    const b = letter('b');
+    const ids = b.entries.map((x) => x.id);
+    const e = b.entries[ids.indexOf('bahari')];
+    const common = { outcome: 'replace', region: null, confidence: null, edited: false, live_status: 'live', target_type: 'word' };
+    const v = '00000000-0000-4000-8000-000000000301';
+    const h = '00000000-0000-4000-8000-000000000302';
+    const w = '00000000-0000-4000-8000-000000000303';
+    const base = { value: { headword: e.headword, id: e.id, homonym_index: e.homonym_index, sort_key: e.sort_key, file: 'b', after: ids[ids.indexOf(e.id) - 1] } };
+    const promote = { ...common, id: h, type: 'headword_change', target_id: e.id, outcome: null, final_payload: { form: 'tsahagap', variant: v }, base };
+    const r1 = run([
+      { ...common, id: v, type: 'spelling_variant', target_id: e.id, final_payload: { form: 'tsahagap', kind: 'spelling' }, base: null },
+      promote,
+      // A new word that sorts into the gap the entry left.
+      { ...common, id: w, type: 'word_addition', target_id: null, final_payload: { headword: 'bahar', meaning_en: 'a gap word' }, base: null },
+    ], 'gap');
+    expect(r1.failed).toEqual([]);
+    const undo = { ...promote, target_id: 'tsahagap', live_status: 'reverting' };
+    const r2 = run([undo], 'gap-undo'); // check:dictionary (sort order) runs inside run()
+    expect(r2.failed).toEqual([]);
+    expect(r2.reverted).toEqual([h]);
+    const order = letter('b').entries.map((x) => x.id);
+    expect(order.indexOf('bahari')).toBe(order.indexOf('bahar') + 1);
+    // The undo shipped but wasn't confirmed: the next run finds the files already back.
+    const r3 = run([undo], 'gap-undo-again');
+    expect(r3.failed).toEqual([]);
+    expect(r3.reverted).toEqual([h]);
+    const r4 = run([
+      { ...common, id: w, type: 'word_addition', target_id: 'bahar', live_status: 'reverting', final_payload: { headword: 'bahar', meaning_en: 'a gap word' }, base: null },
+      { ...common, id: v, type: 'spelling_variant', target_id: e.id, live_status: 'reverting', final_payload: { form: 'tsahagap', kind: 'spelling' }, base: null },
+    ], 'gap-clean');
+    expect(r4.failed).toEqual([]);
+    const after = snapshot(dir);
+    for (const [f, text] of before) expect(after.get(f), f).toBe(text);
+  });
+
   it('refuses to undo when another entry has taken the old id', () => {
     const b = letter('b');
     const e = b.entries.find((x) => x.id === 'bahari')!;

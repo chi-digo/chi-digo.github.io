@@ -919,8 +919,10 @@
     "review_waiting": "{n} ganagodzera",
     "notif_accepted_notarget": "Pendekezoro “{summary}” rikakubaliwa.",
     "notif_second_review_notarget": "“{summary}” rinahitaji mkpwaguzi wa phiri.",
-    "headword_form": "Umbo ra neno",
-    "type_headword_change": "Badiliko ra umbo ra neno"
+    "type_headword_change": "Badiliko ra umbo ra neno",
+    "headword_credit_by": "Umbo ra neno rikapendekezwa ni {name}",
+    "headword_credit_by_region": "Umbo ra neno rikapendekezwa ni {name}, {region}",
+    "headword_credit_anon": "Umbo ra neno rikapendekezwa ni Mdigo"
   },
   "review": {
     "ui_alone_off": "",

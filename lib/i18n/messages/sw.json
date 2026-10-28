@@ -919,8 +919,10 @@
     "review_waiting": "{n} zinasubiri",
     "notif_accepted_notarget": "Pendekezo lako “{summary}” limekubaliwa.",
     "notif_second_review_notarget": "“{summary}” linahitaji mkaguzi wa pili.",
-    "headword_form": "Umbo la neno",
-    "type_headword_change": "Badiliko la umbo la neno"
+    "type_headword_change": "Badiliko la neno kuu",
+    "headword_credit_by": "Umbo kuu la neno limependekezwa na {name}",
+    "headword_credit_by_region": "Umbo kuu la neno limependekezwa na {name}, {region}",
+    "headword_credit_anon": "Umbo kuu la neno limependekezwa na Mdigo"
   },
   "review": {
     "ui_alone_off": "Marekebisho ya maandishi ya tovuti yanahitaji wakaguzi wawili. Huwezi kuthibitisha peke yako.",

@@ -7,7 +7,7 @@ import {
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
-import { applyAllToEntries, nextSenseId, sortKeyOf } from '@/lib/contributions/apply/words';
+import { applyAllToEntries, nextSenseId, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
@@ -29,6 +29,18 @@ async function minimumSensePath(row: { type: string; payload: Record<string, unk
 }
 
 /**
+ * Refusals that depend on the live changes: the form must still be on the entry, and a community word
+ * still settling into the files (its overlay copy) can't be renamed yet.
+ */
+async function headwordLiveRefusal(raw: WordEntry, variantId: string, form: string) {
+  const liveChanges = await getAreaOverlay('word');
+  const [entry] = applyAllToEntries([raw], liveChanges);
+  if (!entry.variants.some((v) => (v as { c?: string }).c === variantId && v.form === form)) return { error: 'target_changed' };
+  const settling = liveChanges.some((c) => c.type === 'word_addition' && Object.values(raw.provenance ?? {}).some((l) => l.some((p) => p.c === c.contribution_id)));
+  return settling ? { error: 'new_word_settling' } : null;
+}
+
+/**
  * Make an accepted, live community form the entry's headword (spec 34 §18). The server computes what the
  * change is checked against and what its undo restores; the database copies the form and records it.
  */
@@ -47,14 +59,9 @@ async function makeHeadword(
   // checks this again under a lock).
   if (await headwordBusy(caller.db, row)) return rpcError('headword_open');
   const liveChanges = await getAreaOverlay('word');
-  const [entry] = applyAllToEntries([raw], liveChanges);
   const form = String(row.final_payload?.form ?? '');
-  if (!entry.variants.some((v) => (v as { c?: string }).c === row.id && v.form === form)) {
-    return NextResponse.json({ error: 'target_changed' }, { status: 409 });
-  }
-  // A community word still settling into the files (its overlay copy) can't be renamed yet.
-  const settling = liveChanges.some((c) => c.type === 'word_addition' && Object.values(raw.provenance ?? {}).some((l) => l.some((p) => p.c === c.contribution_id)));
-  if (settling) return NextResponse.json({ error: 'new_word_settling' }, { status: 409 });
+  const live = await headwordLiveRefusal(raw, row.id, form);
+  if (live) return NextResponse.json(live, { status: 409 });
   const refusal = headwordRefusal(raw, form);
   if (refusal) return NextResponse.json(refusal, { status: 422 });
   const base = headwordBase(raw);
@@ -65,6 +72,18 @@ async function makeHeadword(
   if (result.error) return rpcError(result.error);
   refreshOverlay('word');
   return NextResponse.json({ id: result.id, status: result.status, live_status: result.live_status });
+}
+
+/**
+ * What must be undone first (spec 34 §18.1): the headword change made from this form, or a later
+ * headword change on the same entry.
+ */
+async function headwordDependants(db: SupabaseClient, row: { id: string; type: string; target_id: string | null; reviewed_at: string | null }) {
+  const q = db.from('contributions').select('id, type').eq('type', 'headword_change').eq('status', 'accepted');
+  const { data } = row.type === 'spelling_variant'
+    ? await q.eq('final_payload->>variant', row.id)
+    : await q.eq('target_id', row.target_id ?? '').neq('id', row.id).gt('reviewed_at', row.reviewed_at ?? '');
+  return data ?? [];
 }
 
 /** A headword change on the entry that hasn't shipped and settled, or one already made from this form. */
@@ -88,7 +107,12 @@ async function headwordOption(
   const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
   if (!raw) return null;
   const form = String(row.final_payload?.form ?? '');
-  const refusal = (await headwordBusy(db, row)) ? { error: 'headword_open' } : headwordRefusal(raw, form);
+  // Already the headword: nothing to offer (its undo is on the headword change).
+  const { data: made } = await db.from('contributions').select('id').eq('type', 'headword_change').eq('status', 'accepted')
+    .eq('final_payload->>variant', row.id).limit(1);
+  if (made?.length) return null;
+  const refusal = (await headwordBusy(db, row)) ? { error: 'headword_open' }
+    : headwordRefusal(raw, form) ?? (await headwordLiveRefusal(raw, row.id, form));
   let page: string | null = null;
   try {
     const to = entryFile(sortKeyOf(form));
@@ -153,7 +177,8 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
         dependants: row.status !== 'accepted' ? []
           : row.type === 'word_addition' ? await wordDependants(row)
-          : row.type === 'proverb_addition' ? await proverbDependants(row) : [],
+          : row.type === 'proverb_addition' ? await proverbDependants(row)
+          : row.type === 'spelling_variant' || row.type === 'headword_change' ? await headwordDependants(caller.db, row) : [],
         can_self_confirm: row.live_status === 'awaiting_second'
           ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
           : false,
