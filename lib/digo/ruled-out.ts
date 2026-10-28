@@ -35,7 +35,8 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\bHwambire\b/i, right: 'Huambire', ruling: 'round 5: tell us', only: UI },
   { wrong: /\bmuimiriri\b/i, right: 'muimirizi', ruling: 'round 5: admin', only: UI },
   // Owner 2026-10-28: search is endza, and "now" is hivi sambi (both Swahili-looking forms, Digo-only files).
-  { wrong: /\b(?:ina|ku)?tafuta\b/i, right: 'endza (inaendza, kuendza)', ruling: 'owner 2026-10-28: search', only: DG_ONLY },
+  { wrong: /\b(?:ina|ku)?tafuta\b/i, right: 'hendza (inahendza, kuhendza)', ruling: 'owner 2026-10-28: search', only: DG_ONLY },
+  { wrong: /\b(?:ina|ku)?endza\b/i, right: 'hendza (inahendza, kuhendza)', ruling: 'owner 2026-10-28: search is hendza, not endza', only: DG_ONLY },
   { wrong: /\bvivi sambi\b/i, right: 'hivi sambi', ruling: 'owner 2026-10-25/28: now', only: DG_ONLY },
   // "mkaguzi" is the Swahili word, so this is checked only where the file is all Digo.
   { wrong: /\bmkaguzi\b/i, right: 'mkpwaguzi (plural akaguzi)', ruling: 'owner 2026-10-28: reviewer', only: DG_ONLY },
