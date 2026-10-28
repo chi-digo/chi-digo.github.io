@@ -15,7 +15,11 @@ export async function GET() {
     ]);
     const get = (k: string) => settings?.find((s) => s.key === k)?.value ?? null;
     return NextResponse.json(
-      { publishing_paused: get('publishing_paused') === true, fold_requested_at: get('fold_requested_at'), fold_events: runs ?? [] },
+      {
+        publishing_paused: get('publishing_paused') === true, fold_requested_at: get('fold_requested_at'), fold_events: runs ?? [],
+        // Whether an admin may confirm an interface fix alone (spec 34 §17.12; off by default).
+        ui_self_confirm: get('ui_self_confirm') === true,
+      },
       { headers: { 'Cache-Control': 'no-store' } },
     );
   } catch (err) {
@@ -23,7 +27,7 @@ export async function GET() {
   }
 }
 
-const bodySchema = z.object({ publishing_paused: z.boolean().optional(), fold_now: z.literal(true).optional() });
+const bodySchema = z.object({ publishing_paused: z.boolean().optional(), fold_now: z.literal(true).optional(), ui_self_confirm: z.boolean().optional() });
 
 export async function POST(request: Request) {
   const caller = await getCaller();
@@ -40,6 +44,13 @@ export async function POST(request: Request) {
       if (r.error) return rpcError(r.error);
       refreshOverlay();
       Object.assign(out, r);
+    }
+    if (body.data.ui_self_confirm !== undefined) {
+      const { error } = await caller.db.from('app_settings')
+        .upsert({ key: 'ui_self_confirm', value: body.data.ui_self_confirm, updated_by: caller.id, updated_at: new Date().toISOString() });
+      if (error) return serverError(error, 'ui_self_confirm');
+      await caller.db.from('contribution_events').insert({ actor_id: caller.id, action: 'set_ui_self_confirm', details: { on: body.data.ui_self_confirm } });
+      out.ui_self_confirm = body.data.ui_self_confirm;
     }
     if (body.data.fold_now) {
       const { error } = await caller.db.from('app_settings')

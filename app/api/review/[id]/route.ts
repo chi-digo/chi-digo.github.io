@@ -9,7 +9,7 @@ import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
-import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, translationTextProblem } from '@/lib/contributions/review';
+import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
 import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
@@ -138,7 +138,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
       if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
       if (row.type === 'translation_fix') {
-        const problem = translationTextProblem(row.base?.value, finalPayload.proposed);
+        const problem = fixProblem(row, finalPayload);
         if (problem) return NextResponse.json({ error: problem }, { status: 422 });
       }
       // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
@@ -187,7 +187,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
           return NextResponse.json({ error: 'mature_required' }, { status: 422 });
         }
         if (row.type === 'translation_fix') {
-          const problem = translationTextProblem(row.base?.value, (final.data as Record<string, unknown>).proposed);
+          const problem = fixProblem(row, final.data as Record<string, unknown>);
           if (problem) return NextResponse.json({ error: problem }, { status: 422 });
         }
         if (row.type === 'proverb_context' && String((final.data as Record<string, unknown>).text ?? '').length > COMMENTARY_MAX) {

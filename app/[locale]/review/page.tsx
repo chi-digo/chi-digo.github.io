@@ -101,6 +101,7 @@ function PublishingSwitch() {
   const [lastFold, setLastFold] = useState<string | null>(null);
   const [folding, setFolding] = useState(false);
   const [foldAsked, setFoldAsked] = useState(false);
+  const [uiAlone, setUiAlone] = useState(false);
 
   const load = useCallback(() => {
     fetch('/api/admin/settings')
@@ -108,6 +109,7 @@ function PublishingSwitch() {
       .then((d) => {
         if (!d) return;
         setPaused(d.publishing_paused);
+        setUiAlone(d.ui_self_confirm === true);
         const last = (d.fold_events as { action: string; created_at: string }[]).find((e) => e.action !== 'fold_requested');
         setLastFold(last ? `${new Date(last.created_at).toLocaleString()} (${last.action.replace('fold_', '')})` : null);
       })
@@ -142,6 +144,17 @@ function PublishingSwitch() {
       setFoldAsked(true);
     }
   };
+  const toggleUiAlone = async () => {
+    const res = await fetch('/api/admin/settings', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ui_self_confirm: !uiAlone }),
+    });
+    if (res.ok) {
+      track('contribute', 'review', uiAlone ? 'ui_two_voices' : 'ui_self_confirm', {});
+      setUiAlone(!uiAlone);
+    }
+  };
   return (
     <>
       <div className={styles.banner} role="status">
@@ -153,6 +166,11 @@ function PublishingSwitch() {
       <div className={styles.banner}>
         <span>{foldAsked ? r.fold_requested : lastFold ? r.fold_last.replace('{when}', lastFold) : r.fold_never}</span>
         <Button size="sm" variant="secondary" onClick={foldNow} loading={folding} disabled={foldAsked}>{r.fold_now}</Button>
+      </div>
+      {/* Interface fixes need two voices; the owner may let an admin confirm one alone (spec 34 §17.12). */}
+      <div className={styles.banner}>
+        <span>{uiAlone ? r.ui_alone_on : r.ui_alone_off}</span>
+        <Button size="sm" variant="secondary" onClick={toggleUiAlone}>{uiAlone ? r.ui_alone_turn_off : r.ui_alone_turn_on}</Button>
       </div>
     </>
   );

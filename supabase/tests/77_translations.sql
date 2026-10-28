@@ -10,7 +10,7 @@ declare
   c2 uuid := '00000000-0000-4000-8000-0000000000c2';
   tok text := (select token from t_ttoken);
   r2 uuid := '00000000-0000-4000-8000-0000000000b2';
-  r jsonb; fx uuid; old uuid; sec uuid; pi uuid; claim jsonb; n int; before int;
+  r jsonb; fx uuid; old uuid; sec uuid; pi uuid; uf uuid; others uuid[]; claim jsonb; n int; before int;
 begin
   -- 1. A Digo fix needs a reviewer who reads Digo: the scope alone is not enough.
   insert into public.profile_review_scopes (user_id, scope) values (r1, 'translations');
@@ -64,6 +64,26 @@ begin
   assert r->>'error' = 'locked_fields', 'a reviewer moved an article fix to another block: ' || r::text;
   r := pg_temp.review(a1, pi, 'accept');
   assert r->>'status' = 'accepted', 'article fix accept: ' || r::text;
+
+  -- Interface strings: the key is locked, the admin can't confirm alone, and an accepted one folds.
+  uf := pg_temp.submit(c2, 'translation_fix', 'translations', 'ui', '/culture',
+    '{"lang":"sw","field":"ui","key":"nav.home","proposed":"Mwanzo","reason":"Better"}', '{"target_path":"nav.home","base":{"value":{"text":"Nyumbani"}}}');
+  r := pg_temp.review(a1, uf, 'accept', '{"final_payload":{"lang":"sw","field":"ui","key":"nav.culture","proposed":"Mwanzo","reason":"Better"}}');
+  assert r->>'error' = 'locked_fields', 'a reviewer changed the key: ' || r::text;
+  -- Without the API's flag the database still waits for a second voice.
+  r := pg_temp.review(a1, uf, 'accept');
+  assert r->>'live_status' = 'awaiting_second', 'interface fix not awaiting a second review: ' || r::text;
+  delete from public.profile_review_scopes where user_id in (r1, r2);
+  -- Inside this rolled-back test, no other admin may stand in as the second voice.
+  others := array(select id from public.profiles where role = 'admin' and id <> a1);
+  update public.profiles set role = 'member' where id = any(others);
+  assert not public.can_self_confirm(a1, uf), 'an admin could confirm an interface fix alone';
+  -- The owner's switch lets an admin confirm alone.
+  update public.app_settings set value = 'true' where key = 'ui_self_confirm';
+  assert public.can_self_confirm(a1, uf), 'the owner switch did not allow self-confirm';
+  update public.app_settings set value = 'false' where key = 'ui_self_confirm';
+  insert into public.profile_review_scopes (user_id, scope) values (r1, 'plants'), (r1, 'translations'), (r2, 'dictionary'), (r2, 'translations');
+  update public.profiles set role = 'admin' where id = any(others);
 
   -- 3. Accepted fixes are claimed by fold-in without their private reason.
   r := pg_temp.review(a1, fx, 'accept');

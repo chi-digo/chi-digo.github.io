@@ -3,6 +3,7 @@
 import {
   createContext,
   useContext,
+  useEffect,
   useState,
   useCallback,
   useMemo,
@@ -11,6 +12,7 @@ import {
 
 import type { Locale, Messages } from './config';
 import { defaultLocale, isLocale, STORAGE_KEY } from './config';
+import { usePathname } from 'next/navigation';
 import { localePath, pathnameWithoutLocale } from './locale-path';
 
 import en from './messages/en.json';
@@ -31,6 +33,31 @@ interface LocaleContextValue {
 
 const LocaleContext = createContext<LocaleContextValue | null>(null);
 
+/**
+ * The interface strings read on each page (spec 34 §17.12): "Fix a translation on this page" lists
+ * them. Recorded in the browser only, for Swahili and Digo, with the path they were read on.
+ */
+const readOn = new Map<string, Set<string>>();
+/** Strings read since the last page was filed: the page being drawn files them once it's on screen. */
+const pending = new Set<string>();
+/** The site's frame (menu, footer, breadcrumb) shows on every page, though it isn't redrawn on each. */
+const FRAME = ['nav', 'footer', 'breadcrumb', 'share'];
+function fileUnder(path: string) {
+  for (const key of pending) {
+    const paths = readOn.get(key) ?? new Set<string>();
+    paths.add(path);
+    readOn.set(key, paths);
+  }
+  pending.clear();
+}
+export function stringsReadOn(path: string): string[] {
+  fileUnder(path);
+  return [...readOn].filter(([k, paths]) => paths.has(path) || FRAME.includes(k.split('.')[0])).map(([k]) => k);
+}
+function noteRead(key: string) {
+  pending.add(key);
+}
+
 function createFallbackMessages(locale: Locale): Messages {
   if (locale === 'en') return allMessages.en;
 
@@ -46,6 +73,7 @@ function createFallbackMessages(locale: Locale): Messages {
     result[section] = new Proxy(targetSection, {
       get(obj, prop: string | symbol, receiver) {
         if (typeof prop === 'symbol') return Reflect.get(obj, prop, receiver);
+        if (typeof window !== 'undefined' && typeof fallbackSection[prop] === 'string') noteRead(`${String(section)}.${prop}`);
         const value = obj[prop];
         if (value !== undefined && value !== '') return value;
         return fallbackSection[prop];
@@ -62,6 +90,11 @@ interface LocaleProviderProps {
 }
 
 export function LocaleProvider({ children, initialLocale }: LocaleProviderProps) {
+  // Once a page is on screen, the strings its children read while drawing are filed under it (§17.12).
+  const routePath = usePathname();
+  useEffect(() => {
+    if (routePath) fileUnder(routePath);
+  }, [routePath]);
   const [locale, setLocaleState] = useState<Locale>(initialLocale ?? defaultLocale);
 
   const setLocale = useCallback((newLocale: Locale) => {
