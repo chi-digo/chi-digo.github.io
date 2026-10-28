@@ -137,13 +137,17 @@ async function searchVariants(q: string): Promise<SearchResult[]> {
     return [];
   }
   const out: SearchResult[] = [];
-  for (const [form, id] of Object.entries(map)) {
+  for (const [form, ids] of Object.entries(map)) {
     if (out.length >= MAX_RESULTS_PER_TIER) break;
-    if (!form.startsWith(q) || out.some((r) => r.id === id)) continue;
-    out.push({
-      id, headword: cleanHw(id.replace(/\.\d+$/, "")), pos: "", equivalent: form, equivalent_sw: "", equivalent_dg: "",
-      letter: id.charAt(0), language: "dg",
-    });
+    if (!form.startsWith(q)) continue;
+    // Every entry with the form: homonyms that share a spelling are all found.
+    for (const id of ids) {
+      if (out.some((r) => r.id === id)) continue;
+      out.push({
+        id, headword: cleanHw(id.replace(/\.\d+$/, "")), pos: "", equivalent: form, equivalent_sw: "", equivalent_dg: "",
+        letter: id.charAt(0), language: "dg",
+      });
+    }
   }
   // Label each result with the entry's headword as it reads now: a form made the headword, live, still
   // sits under the entry's old id (spec 34 §18.3).

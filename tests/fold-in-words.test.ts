@@ -76,7 +76,7 @@ describe('fold-in for words', () => {
     const reverseEn = JSON.parse(readFileSync(join(dir, 'public/data/reverse-en.json'), 'utf-8'));
     expect(reverseEn['a brand new test word']).toEqual([['m', 'mzzzz']]);
     const variants = JSON.parse(readFileSync(join(dir, 'public/data/variants.json'), 'utf-8'));
-    expect(variants['mtestforma']).toBe(e.id);
+    expect(variants['mtestforma']).toEqual([e.id]);
 
     // Applying again changes nothing.
     const again = run(rows, 'again');

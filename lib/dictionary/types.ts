@@ -102,7 +102,8 @@ export interface IndexMetadata {
 export type ReverseIndex = Record<string, ([string, string] | [string, string, string])[]>;
 
 /** Spelling or regional form -> entry id. */
-export type VariantsMap = Record<string, string>;
+/** Spelling and regional forms: form -> every entry that has it (former headwords first, spec 34 §18.3). */
+export type VariantsMap = Record<string, string[]>;
 
 export interface FuzzyRule {
   id: string;

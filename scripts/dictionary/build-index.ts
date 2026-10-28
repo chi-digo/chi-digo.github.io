@@ -124,15 +124,17 @@ function reverseIndex(field: 'equivalents_en' | 'equivalents_sw') {
   return out;
 }
 function variantsMap() {
-  const out: Record<string, string> = Object.create(null);
-  // Former headwords first: the old address of a renamed entry must find it, ahead of any entry that only
-  // lists the same spelling as another form (spec 34 §18.3). Then the first entry with a form keeps it.
+  const out: Record<string, string[]> = Object.create(null);
+  // Every entry with a form, so homonyms that share one are all found. Former headwords first: the old
+  // address of a renamed entry finds it ahead of an entry that only lists the spelling (spec 34 §18.3).
   for (const former of [true, false]) for (const L of letters) for (const e of files[L].entries) {
     if ((e as { is_redirect?: boolean }).is_redirect) continue;
     for (const v of ((e as { variants?: { form?: string; note?: string | null }[] }).variants ?? [])) {
       if ((v.note === 'former_headword') !== former) continue;
       const form = (v.form ?? '').toLowerCase().trim();
-      if (form && !Object.hasOwn(out, form)) out[form] = e.id;
+      if (!form) continue;
+      if (!Object.hasOwn(out, form)) out[form] = [];
+      if (!out[form].includes(e.id)) out[form].push(e.id);
     }
   }
   return out;
