@@ -160,8 +160,8 @@ describe('fold-in for headword changes', { timeout: 60_000 }, () => {
     expect(formerHeadwords(movedOne)[0]).toMatchObject({ form: '-baha', id_was: 'baha' });
     expect(letter('b').entries.some((e) => e.id === 'baha' || e.id === 'bahari')).toBe(false);
     const variants = JSON.parse(readFileSync(join(dir, 'public/data/variants.json'), 'utf-8'));
-    expect(variants['-baha']).toBe('tsahatest');
-    expect(variants['bahari']).toBe(r1.target_ids[id(5)]);
+    expect(variants['-baha']).toEqual(['tsahatest']);
+    expect(variants['bahari']).toEqual([r1.target_ids[id(5)]]);
 
     // A later revert of the example, addressed by the entry's old id, still finds it.
     const r2 = run([{ ...rows[1], live_status: 'reverting' }], 'revert-example');
