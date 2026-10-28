@@ -11,6 +11,7 @@ import {
 
 import type { Locale, Messages } from './config';
 import { defaultLocale, isLocale, STORAGE_KEY } from './config';
+import { usePathname } from 'next/navigation';
 import { localePath, pathnameWithoutLocale } from './locale-path';
 
 import en from './messages/en.json';
@@ -35,9 +36,19 @@ const LocaleContext = createContext<LocaleContextValue | null>(null);
  * The interface strings read on each page (spec 34 §17.12): "Fix a translation on this page" lists
  * them. Recorded in the browser only, for Swahili and Digo, with the path they were read on.
  */
-const readOn = new Map<string, string>();
+const readOn = new Map<string, Set<string>>();
+/** The page being drawn (set by LocaleProvider from the router, so a link click stamps the new page). */
+let drawing = '';
+/** The site's frame (menu, footer, breadcrumb) shows on every page, though it isn't redrawn on each. */
+const FRAME = ['nav', 'footer', 'breadcrumb', 'share'];
 export function stringsReadOn(path: string): string[] {
-  return [...readOn].filter(([, p]) => p === path).map(([k]) => k);
+  return [...readOn].filter(([k, paths]) => paths.has(path) || FRAME.includes(k.split('.')[0])).map(([k]) => k);
+}
+function noteRead(key: string) {
+  const path = drawing || window.location.pathname;
+  const paths = readOn.get(key) ?? new Set<string>();
+  paths.add(path);
+  readOn.set(key, paths);
 }
 
 function createFallbackMessages(locale: Locale): Messages {
@@ -55,7 +66,7 @@ function createFallbackMessages(locale: Locale): Messages {
     result[section] = new Proxy(targetSection, {
       get(obj, prop: string | symbol, receiver) {
         if (typeof prop === 'symbol') return Reflect.get(obj, prop, receiver);
-        if (typeof window !== 'undefined' && typeof fallbackSection[prop] === 'string') readOn.set(`${String(section)}.${prop}`, window.location.pathname);
+        if (typeof window !== 'undefined' && typeof fallbackSection[prop] === 'string') noteRead(`${String(section)}.${prop}`);
         const value = obj[prop];
         if (value !== undefined && value !== '') return value;
         return fallbackSection[prop];
@@ -72,6 +83,9 @@ interface LocaleProviderProps {
 }
 
 export function LocaleProvider({ children, initialLocale }: LocaleProviderProps) {
+  // The page about to be drawn: strings its children read are filed under it (spec 34 §17.12).
+  const routePath = usePathname();
+  if (typeof window !== 'undefined') drawing = routePath ?? '';
   const [locale, setLocaleState] = useState<Locale>(initialLocale ?? defaultLocale);
 
   const setLocale = useCallback((newLocale: Locale) => {

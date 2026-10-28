@@ -1,11 +1,10 @@
 'use client';
 
-import { useTranslations } from '@/lib/i18n/context';
+import { useLocale, useTranslations } from '@/lib/i18n/context';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { track } from '@/lib/analytics/track';
 import { FeedbackButton } from '@/components/Contribute/FeedbackButton';
 import { UiFixButton } from '@/components/Contribute/UiFixButton';
-import { useLocale } from '@/lib/i18n/context';
 import styles from './Footer.module.css';
 
 function VigangoMark() {

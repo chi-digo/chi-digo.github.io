@@ -324,7 +324,8 @@ function resolveUiTarget(targetId: string, payload: Record<string, unknown>, opt
   const text = uiText(mine, key);
   if (source === null || text === null) return null;
   return {
-    label: targetId, path: key, base: withHash({ text }), source,
+    // "My contributions" shows the string itself, not the page path.
+    label: source.slice(0, 120), path: key, base: withHash({ text }), source,
     ...(lang === 'dg' && { swahili: uiText(test ? TEST_MESSAGES.sw : messages('sw'), key) }),
     labelKey: key,
   };

@@ -35,7 +35,7 @@ function withText(messages: MessageTree, key: string, text: string): MessageTree
 }
 
 /** Problems with a proposed string against its English (spec 34 §17.12). */
-export function uiTextProblem(en: string, base: string, proposed: string): 'unchanged' | 'placeholders' | 'markers' | 'too_long_ui' | null {
+export function uiTextProblem(en: string, base: string, proposed: string): 'unchanged' | 'placeholders' | 'markers' | 'too_long_ui' | 'links' | null {
   const p = proposed.trim();
   if (p === base.trim() || (!base && p === en.trim())) return 'unchanged';
   const holes = (t: string) => [...t.matchAll(/\{([a-zA-Z_][a-zA-Z0-9_]*)\}/g)].map((m) => m[1]).sort().join(',');
@@ -43,6 +43,9 @@ export function uiTextProblem(en: string, base: string, proposed: string): 'unch
   const marks = (t: string) => (t.match(/\{dig:[^}]*\}/g) ?? []).length;
   if (marks(p) !== marks(en)) return 'markers';
   if (p.length > en.length * 3 + 40) return 'too_long_ui';
+  // No web addresses on every page unless the English has them.
+  const links = (t: string) => /https?:\/\/|www\.|\b[a-z0-9-]+\.(com|org|net|io|co|ke|tz|info|app|xyz|link|ly)\b/i.test(t);
+  if (links(p) && !links(en)) return 'links';
   return null;
 }
 

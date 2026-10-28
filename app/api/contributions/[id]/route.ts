@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { PAYLOADS, type ContributionType } from '@/lib/contributions/schemas';
 import { optSafeText } from '@/lib/contributions/text';
 import { getCaller, badRequest, forbidden, serverError, overlayArea } from '@/lib/contributions/server';
-import { translationTextProblem } from '@/lib/contributions/review';
+import { fixProblem } from '@/lib/contributions/review';
 import { resolveTarget } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 
@@ -50,7 +50,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
         });
         if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
         if (row.type === 'translation_fix') {
-          const problem = translationTextProblem(target.base?.value, (payload.data as { proposed?: string }).proposed);
+          const problem = fixProblem({ target_type: row.target_type, target_path: target.path, base: target.base ?? null }, payload.data as Record<string, unknown>);
           if (problem) return badRequest(problem);
         }
         update = {

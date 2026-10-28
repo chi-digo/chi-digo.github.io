@@ -34,6 +34,8 @@ describe('keys and rules', () => {
     expect(uiTextProblem('Home', 'Nyumbani', 'x'.repeat(60))).toBe('too_long_ui');
     expect(uiTextProblem('Home', '', 'Home')).toBe('unchanged');
     expect(uiTextProblem('Home', '', 'Mwanzo')).toBeNull();
+    expect(uiTextProblem('Home', 'Nyumbani', 'Tembelea scam.example.com')).toBe('links');
+    expect(uiTextProblem('Home', 'Nyumbani', 'Nenda www.example.org')).toBe('links');
   });
 });
 

@@ -690,6 +690,10 @@
     "error_placeholders": "Acha sehemu zilizo ndani ya mabano { } kama zilivyo kwenye Kiingereza.",
     "error_markers": "Acha maneno ya Kidigo yaliyowekewa alama kama yalivyo kwenye Kiingereza.",
     "error_too_long_ui": "Ni marefu mno kuliko Kiingereza. Yafupishe.",
+    "ui_fix_more": "Inaonyesha {shown} kati ya {n}. Tafuta ili kupunguza orodha.",
+    "ui_waiting": "Inahitaji mkaguzi wa pili anayesoma {language}: marekebisho ya maandishi ya tovuti hayathibitishwi na mtu mmoja.",
+    "ui_shown_english": "Kwa sasa yanaonyeshwa kwa Kiingereza",
+    "error_links": "Anwani za tovuti haziwezi kuongezwa kwenye maandishi ya tovuti.",
     "tf_fix": "Rekebisha",
     "tf_correct_en": "Sahihisha muktadha wa kitamaduni",
     "error_unchanged": "Maandishi ni yale yale. Yabadilishe kabla ya kutuma.",
@@ -916,6 +920,10 @@
     "notif_second_review_notarget": "“{summary}” linahitaji mkaguzi wa pili."
   },
   "review": {
+    "ui_alone_off": "Marekebisho ya maandishi ya tovuti yanahitaji wakaguzi wawili. Huwezi kuthibitisha peke yako.",
+    "ui_alone_on": "Unaweza kuthibitisha marekebisho ya maandishi ya tovuti peke yako (yanarekodiwa kama yamekaguliwa na mmoja).",
+    "ui_alone_turn_on": "Niruhusu kuthibitisha peke yangu",
+    "ui_alone_turn_off": "Hitaji wakaguzi wawili",
     "err_pii": "Ondoa taarifa binafsi (namba za simu, viungo, barua pepe) kabla ya kukubali.",
     "err_too_long": "Hadithi hii itafanya maelezo kuwa marefu mno. Ifupishe au uikatae.",
     "rv_complete": "Kamilisha methali mpya",

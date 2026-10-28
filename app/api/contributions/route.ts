@@ -67,7 +67,7 @@ export async function POST(request: Request) {
       || (input.target_type === 'proverb' && PROVERB_ID.test(id))
       || (input.target_type === 'article' && ARTICLE_ID.test(id))
       // An interface string: the page it was seen on (the key is in the payload).
-      || (input.target_type === 'ui' && /^\/[\w/%.~-]{0,299}$/.test(id));
+      || (input.target_type === 'ui' && /^\/[\w/%.~'-]{0,299}$/.test(id));
     if (!ok) return badRequest('invalid_target');
   }
   if (caller.isTest && input.type !== 'general_feedback' && input.target_id !== TEST_TARGET) {

@@ -690,6 +690,10 @@
     "error_placeholders": "Reka seemu za ndani ya mabano { } dza zivyo kpwenye Chingereza.",
     "error_markers": "Reka maneno ga Chidigo garigoikpwa alama dza gavyo kpwenye Chingereza.",
     "error_too_long_ui": "Ni marefu sana kuriko Chingereza. Gafupishe.",
+    "ui_fix_more": "Inaonyesa {shown} kahi ya {n}. Tafuta ili kupunguza orodha.",
+    "ui_waiting": "Inalonda mkaguzi wa phiri anayesoma {language}: marekebisho ga maandishi ga tovuti tagathibitishwa ni mutu mmwenga.",
+    "ui_shown_english": "Vivi sambi ganaonyeswa kpwa Chingereza",
+    "error_links": "Anwani za tovuti tazandikika kpwenye maandishi ga tovuti.",
     "tf_fix": "Rekebisha",
     "tf_correct_en": "Rekebisha madzo ga chisomo",
     "error_unchanged": "Maandishi ni higo higo. Gagaluze kabla ya kuhuma.",
@@ -916,6 +920,10 @@
     "notif_second_review_notarget": "“{summary}” rinahitaji mkaguzi wa phiri."
   },
   "review": {
+    "ui_alone_off": "",
+    "ui_alone_on": "",
+    "ui_alone_turn_on": "",
+    "ui_alone_turn_off": "",
     "err_pii": "Usa habari za mutu (namba za simu, viungo, barua pepe) kabla ya kukubali.",
     "err_too_long": "",
     "rv_complete": "Marigiza ndarira mphya",

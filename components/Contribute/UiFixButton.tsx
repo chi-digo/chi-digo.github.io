@@ -53,11 +53,14 @@ export function UiFixButton({ className }: { className?: string }) {
     if (!lang) return [];
     return keys
       .filter((k) => UI_KEY.test(k) && !UI_DENIED.includes(k.split('.')[0]))
+      // Text with {name} parts is shown as written: the parts must stay when it's corrected.
       .map((k) => ({ key: k, seen: value(lang, k) || value('en', k) }))
-      .filter((x) => x.seen && !x.seen.includes('{'))
-      .filter((x) => !query.trim() || x.seen.toLowerCase().includes(query.trim().toLowerCase()))
-      .slice(0, 60);
+      .filter((x) => x.seen)
+      .filter((x) => !query.trim() || x.seen.toLowerCase().includes(query.trim().toLowerCase()));
   }, [keys, query, lang]);
+  const shown = items.slice(0, 60);
+  // The same text in several places: say which part of the site each one is in.
+  const repeated = new Set(items.map((x) => x.seen).filter((t, i, all) => all.indexOf(t) !== i));
   if (!lang) return null;
 
   const chosen = draft.key;
@@ -95,13 +98,17 @@ export function UiFixButton({ className }: { className?: string }) {
       >
         {!chosen ? (
           <div>
-            <TextField label={c.ui_fix_search} value={query} onChange={(e) => setQuery(e.target.value)} autoFocus />
-            {items.length ? (
-              <ul className={styles.uiList}>
-                {items.map((x) => (
+            <TextField label={c.ui_fix_search} value={query} onChange={(e) => setQuery(e.target.value)} />
+            <p className={styles.legend} aria-live="polite">
+              {items.length > shown.length ? c.ui_fix_more.replace('{shown}', String(shown.length)).replace('{n}', String(items.length)) : ''}
+            </p>
+            {shown.length ? (
+              <ul className={styles.uiList} aria-label={c.ui_fix_intro}>
+                {shown.map((x) => (
                   <li key={x.key}>
                     <button type="button" className={styles.uiItem} onClick={() => setDraft({ key: x.key, text: x.seen, reason: '' })}>
                       {x.seen}
+                      {repeated.has(x.seen) && <span className={styles.uiWhere}>{x.key.split('.')[0].replace(/_/g, ' ')}</span>}
                     </button>
                   </li>
                 ))}

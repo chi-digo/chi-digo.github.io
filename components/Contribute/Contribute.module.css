@@ -342,8 +342,6 @@
   list-style: none;
   margin: var(--space-3) 0 0;
   padding: 0;
-  max-height: 50vh;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
@@ -362,4 +360,10 @@
 .uiItem:hover,
 .uiItem:focus-visible {
   border-color: var(--fg-link, #1f3a5f);
+}
+.uiWhere {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
 }

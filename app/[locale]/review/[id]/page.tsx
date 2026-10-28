@@ -187,6 +187,7 @@ function ReviewItem({ id }: { id: string }) {
         too_long: r.err_too_long,
         too_long_ui: c.error_too_long_ui,
         placeholders: c.error_placeholders,
+        links: c.error_links,
         markers: c.error_markers,
         unchanged: c.error_unchanged,
         markup: c.error_markup,
@@ -288,11 +289,21 @@ function ReviewItem({ id }: { id: string }) {
         {item.type === 'translation_fix' && (
           <>
             <p className={styles.muted}>
-              {item.target_type === 'article' && detail.current?.labelKey
-                ? `${msg(c, detail.current.labelKey)}${detail.current.block ? ` (${detail.current.block})` : ''}`
-                : msg(c, `tf_${base.field}`).replace('{term}', detail.current?.block ?? '').replace(/^: /, '')}
+              {item.target_type === 'ui'
+                ? <code>{String(base.key ?? '')}</code>
+                : item.target_type === 'article' && detail.current?.labelKey
+                  ? `${msg(c, detail.current.labelKey)}${detail.current.block ? ` (${detail.current.block})` : ''}`
+                  : msg(c, `tf_${base.field}`).replace('{term}', detail.current?.block ?? '').replace(/^: /, '')}
               {' · '}{msg(c, `lang_${base.lang}`)}
+              {/* Interface text: the page it was seen on, to check it in place. */}
+              {item.target_type === 'ui' && item.target_id && (
+                <>{' · '}<a href={`/${String(base.lang)}${item.target_id}`} target="_blank" rel="noopener noreferrer">{item.target_id}</a></>
+              )}
             </p>
+            {item.target_type === 'ui' && !currentText(item.base?.value) && <p className={styles.muted}>{c.ui_shown_english}</p>}
+            {item.target_type === 'ui' && item.live_status === 'awaiting_second' && !detail.can_self_confirm && (
+              <p className={styles.muted}>{c.ui_waiting.replace('{language}', msg(c, `lang_${base.lang}`))}</p>
+            )}
             {/* What changes, word by word, against the text the fix was made on. */}
             <WordDiff before={currentText(item.base?.value ?? detail.current?.value)} after={String(base.proposed ?? '')} />
             {base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}

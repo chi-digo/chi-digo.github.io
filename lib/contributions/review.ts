@@ -6,7 +6,8 @@ import { createHash } from 'crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { ruledOutIn } from '@/lib/digo/ruled-out';
 import { hasPII, stableStringify, sameMarkup } from './text';
-import { loadPlant, resolveTarget, headwordExists, loadWord, loadProverb, similarProverb } from './targets';
+import { uiTextProblem } from './apply/ui';
+import { loadPlant, resolveTarget, headwordExists, loadWord, loadProverb, similarProverb, uiEnglish } from './targets';
 import { getAreaOverlay } from './overlay';
 import { hasChange } from './apply/types';
 import { applyAllToPlant } from './apply/plants';
@@ -66,7 +67,7 @@ export function translationTextProblem(base: unknown, proposed: unknown): 'uncha
 export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
   if (!row.base || !row.target_id) return false;
   // A story appends its own paragraph, so it never goes stale; a meaning replaces text and can.
-  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary' || row.target_type === 'article'
+  const checked = row.target_type === 'plant' || row.target_type === 'word' || row.target_type === 'glossary' || row.target_type === 'article' || row.target_type === 'ui'
     || (row.target_type === 'proverb' && (row.type === 'proverb_meaning' || row.type === 'translation_fix'));
   if (!checked) return false;
   const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
@@ -183,4 +184,12 @@ export async function proverbDependants(row: { id: string; target_id: string | n
 /** Proverb texts are anecdote-shaped: personal details must be edited out before accept (spec 34 §16.9). */
 export function blocksOnPII(type: ContributionType): boolean {
   return type.startsWith('proverb_') || type === 'translation_fix';
+}
+
+/** The text rules for a translation fix: interface strings check placeholders, links and length against English (§17.12). */
+export function fixProblem(row: { target_type: string | null; target_path: string | null; base: { value: unknown } | null }, payload: Record<string, unknown>) {
+  if (row.target_type === 'ui') {
+    return uiTextProblem(uiEnglish(String(row.target_path ?? '')), String((row.base?.value as { text?: string } | null)?.text ?? ''), String(payload.proposed ?? ''));
+  }
+  return translationTextProblem(row.base?.value, payload.proposed);
 }

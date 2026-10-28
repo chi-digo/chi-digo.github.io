@@ -13,7 +13,7 @@ import { join } from 'path';
 import { applySourcePlant, unapplySourcePlant } from '../../lib/contributions/apply/plants-source';
 import { applyTranslation, unapplyTranslation } from '../../lib/contributions/apply/translations';
 import { applyArticle, unapplyArticle, type ArticleData } from '../../lib/contributions/apply/articles';
-import { applyUi, unapplyUi, uiKeyAllowed, type MessageTree } from '../../lib/contributions/apply/ui';
+import { applyUi, unapplyUi, uiKeyAllowed, uiText, uiTextProblem, type MessageTree } from '../../lib/contributions/apply/ui';
 import type { GlossaryTerm } from '../../lib/plants/types';
 import { ConflictError, type Change } from '../../lib/contributions/apply/types';
 import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
@@ -58,9 +58,15 @@ function foldUi(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
   const file = join(dataDir, 'lib/i18n/messages', `${lang}.json`);
   if (!uiFiles.has(file)) uiFiles.set(file, JSON.parse(readFileSync(file, 'utf-8')) as MessageTree);
   const reverting = row.live_status === 'reverting';
-  if (!reverting && lang === 'dg') {
-    const ruled = ruledOutIn(String(row.final_payload.proposed));
-    if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+  if (!reverting) {
+    if (lang === 'dg') {
+      const ruled = ruledOutIn(String(row.final_payload.proposed));
+      if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+    }
+    // The same rules as at submit and accept, against this checkout's English: one bad row fails alone.
+    const en = JSON.parse(readFileSync(join(dataDir, 'lib/i18n/messages/en.json'), 'utf-8')) as MessageTree;
+    const problem = uiTextProblem(uiText(en, key) ?? '', String((change.base?.value as { text?: string } | null)?.text ?? ''), String(row.final_payload.proposed));
+    if (problem && problem !== 'unchanged') throw new Error(`interface fix breaks a rule: ${problem}`);
   }
   const m = uiFiles.get(file)!;
   uiFiles.set(file, reverting ? unapplyUi(m, change) : applyUi(m, change));

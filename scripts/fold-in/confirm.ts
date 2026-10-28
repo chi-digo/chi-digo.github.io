@@ -54,7 +54,7 @@ for (const r of rows) {
   }
   if (r.target_type === 'ui') {
     // Interface strings (spec 34 §17.12): the deployed message file holds the fix, or no longer does.
-    const u = r as typeof r & { lang?: string; target_path?: string; proposed?: string };
+    const u = r as typeof r & { lang?: string; target_path?: string; proposed?: string; base?: string | null };
     const lang = String(u.lang ?? '');
     const key = String(u.target_path ?? '');
     if ((lang !== 'sw' && lang !== 'dg') || !/^[a-z_]+\.[a-z0-9_]+$/.test(key)) continue;
@@ -62,7 +62,9 @@ for (const r of rows) {
     const [section, name] = key.split('.');
     const value = Object.hasOwn(msgs, section) && Object.hasOwn(msgs[section], name) ? msgs[section][name] : undefined;
     const present = value === String(u.proposed ?? '');
-    if (r.live_status === 'reverting' ? !present : present) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
+    // A later change to the same key (neither the fix nor what it replaced) settles this one as folded.
+    const superseded = !present && typeof value === 'string' && value !== String(u.base ?? '');
+    if (r.live_status === 'reverting' ? !present : present || superseded) (r.live_status === 'reverting' ? reverted : folded).push(r.id);
     continue;
   }
   if (r.target_type === 'article') {
