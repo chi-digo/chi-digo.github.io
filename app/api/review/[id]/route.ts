@@ -6,7 +6,8 @@ import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea, readsLanguage,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
+import { resolveTarget, loadWord, testWord, uiEnglish } from '@/lib/contributions/targets';
+import { uiTextProblem } from '@/lib/contributions/apply/ui';
 import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, translationTextProblem } from '@/lib/contributions/review';
@@ -34,6 +35,14 @@ async function load(db: SupabaseClient, id: string) {
 }
 
 /** One item with everything a reviewer needs: current text, other suggestions, warnings (spec §8.2). */
+/** The text rules for a translation fix: interface strings check placeholders against English (§17.12). */
+function fixProblem(row: { target_type: string | null; target_path: string | null; base: { value: unknown } | null }, payload: Record<string, unknown>) {
+  if (row.target_type === 'ui') {
+    return uiTextProblem(uiEnglish(String(row.target_path ?? '')), String((row.base?.value as { text?: string } | null)?.text ?? ''), String(payload.proposed ?? ''));
+  }
+  return translationTextProblem(row.base?.value, payload.proposed);
+}
+
 export async function GET(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   if (!z.string().uuid().safeParse(id).success) return badRequest('invalid id');
@@ -138,7 +147,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
       if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
       if (row.type === 'translation_fix') {
-        const problem = translationTextProblem(row.base?.value, finalPayload.proposed);
+        const problem = fixProblem(row, finalPayload);
         if (problem) return NextResponse.json({ error: problem }, { status: 422 });
       }
       // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
@@ -187,7 +196,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
           return NextResponse.json({ error: 'mature_required' }, { status: 422 });
         }
         if (row.type === 'translation_fix') {
-          const problem = translationTextProblem(row.base?.value, (final.data as Record<string, unknown>).proposed);
+          const problem = fixProblem(row, final.data as Record<string, unknown>);
           if (problem) return NextResponse.json({ error: problem }, { status: 422 });
         }
         if (row.type === 'proverb_context' && String((final.data as Record<string, unknown>).text ?? '').length > COMMENTARY_MAX) {

@@ -142,7 +142,7 @@ export function lockedFieldsChanged(type: ContributionType, payload: Record<stri
     proverb_meaning: ['lang', 'kind', 'mode'],
     proverb_context: ['lang'],
     proverb_addition: ['usage_lang'],
-    translation_fix: ['lang', 'field', 'part', 'block'],
+    translation_fix: ['lang', 'field', 'part', 'block', 'key'],
   }[type as string] ?? [];
   return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
 }

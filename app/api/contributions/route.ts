@@ -7,6 +7,7 @@ import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { ARTICLE_ID } from '@/lib/articles/load';
 import { normaliseDigo } from '@/lib/contributions/text';
 import { translationTextProblem } from '@/lib/contributions/review';
+import { uiTextProblem } from '@/lib/contributions/apply/ui';
 import { TEST_TARGET } from '@/lib/contributions/schemas';
 
 /** Submit a contribution (spec 34 technical §4.1). Limits and visibility are applied in the database. */
@@ -64,7 +65,9 @@ export async function POST(request: Request) {
       || (input.target_type === 'plant' && /^[a-z0-9-]+$/.test(id))
       || (input.target_type === 'glossary' && /^[\p{L}' -]{1,60}$/u.test(id))
       || (input.target_type === 'proverb' && PROVERB_ID.test(id))
-      || (input.target_type === 'article' && ARTICLE_ID.test(id));
+      || (input.target_type === 'article' && ARTICLE_ID.test(id))
+      // An interface string: the page it was seen on (the key is in the payload).
+      || (input.target_type === 'ui' && /^\/[\w/%.~-]{0,299}$/.test(id));
     if (!ok) return badRequest('invalid_target');
   }
   if (caller.isTest && input.type !== 'general_feedback' && input.target_id !== TEST_TARGET) {
@@ -79,7 +82,10 @@ export async function POST(request: Request) {
     });
     if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
     if (input.type === 'translation_fix') {
-      const problem = translationTextProblem(target.base?.value, (payload.data as { proposed: string }).proposed);
+      const proposed = (payload.data as { proposed: string }).proposed;
+      const problem = input.target_type === 'ui'
+        ? uiTextProblem(String(target.source ?? ''), String((target.base?.value as { text?: string })?.text ?? ''), proposed)
+        : translationTextProblem(target.base?.value, proposed);
       if (problem) return badRequest(problem);
     }
 

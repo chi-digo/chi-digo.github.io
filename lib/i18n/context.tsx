@@ -31,6 +31,15 @@ interface LocaleContextValue {
 
 const LocaleContext = createContext<LocaleContextValue | null>(null);
 
+/**
+ * The interface strings read on each page (spec 34 §17.12): "Fix a translation on this page" lists
+ * them. Recorded in the browser only, for Swahili and Digo, with the path they were read on.
+ */
+const readOn = new Map<string, string>();
+export function stringsReadOn(path: string): string[] {
+  return [...readOn].filter(([, p]) => p === path).map(([k]) => k);
+}
+
 function createFallbackMessages(locale: Locale): Messages {
   if (locale === 'en') return allMessages.en;
 
@@ -46,6 +55,7 @@ function createFallbackMessages(locale: Locale): Messages {
     result[section] = new Proxy(targetSection, {
       get(obj, prop: string | symbol, receiver) {
         if (typeof prop === 'symbol') return Reflect.get(obj, prop, receiver);
+        if (typeof window !== 'undefined' && typeof fallbackSection[prop] === 'string') readOn.set(`${String(section)}.${prop}`, window.location.pathname);
         const value = obj[prop];
         if (value !== undefined && value !== '') return value;
         return fallbackSection[prop];

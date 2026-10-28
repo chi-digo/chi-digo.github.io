@@ -17,6 +17,7 @@ import { digoLetterFile } from '@/lib/dictionary/letters';
 import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType, type TranslationField } from './schemas';
 import { applyAllToGlossary, translationPath, translationSource, translationText } from './apply/translations';
 import { applyAllToArticle, articlePath, articleSource, articleText, type ArticleData } from './apply/articles';
+import { uiKeyAllowed, uiText, UI_TEST_KEY, type MessageTree } from './apply/ui';
 import { articleData } from '@/lib/articles/load';
 export { WORD_ID };
 
@@ -296,8 +297,42 @@ function resolveArticleTarget(targetId: string, payload: Record<string, unknown>
   };
 }
 
+const MESSAGES = join(process.cwd(), 'lib/i18n/messages');
+const messages = (lang: string) => JSON.parse(readFileSync(join(MESSAGES, `${lang}.json`), 'utf-8')) as MessageTree;
+const TEST_MESSAGES: Record<string, MessageTree> = {
+  en: { __test__: { label: 'Test label' } }, sw: { __test__: { label: 'Lebo ya majaribio' } }, dg: { __test__: { label: '' } },
+};
+
+/** The English of an interface string (the fixture's for the test key). */
+export function uiEnglish(key: string): string {
+  return uiText(key === UI_TEST_KEY ? TEST_MESSAGES.en : messages('en'), key) ?? '';
+}
+
+/**
+ * A fix on an interface string (spec 34 §17.12): an own section.key leaf in English and the language,
+ * outside the namespaces that stay with the team. The base is the language's value ('' shows English).
+ */
+function resolveUiTarget(targetId: string, payload: Record<string, unknown>, opts: { isTest: boolean }): Target | null {
+  const lang = payload.lang as string;
+  const key = String(payload.key ?? '');
+  if (payload.field !== 'ui' || (lang !== 'sw' && lang !== 'dg')) return null;
+  const test = key === UI_TEST_KEY;
+  if (test !== opts.isTest || (!test && !uiKeyAllowed(key))) return null;
+  const en = test ? TEST_MESSAGES.en : messages('en');
+  const mine = test ? TEST_MESSAGES[lang] : messages(lang);
+  const source = uiText(en, key);
+  const text = uiText(mine, key);
+  if (source === null || text === null) return null;
+  return {
+    label: targetId, path: key, base: withHash({ text }), source,
+    ...(lang === 'dg' && { swahili: uiText(test ? TEST_MESSAGES.sw : messages('sw'), key) }),
+    labelKey: key,
+  };
+}
+
 function resolveTranslationTarget(targetType: TargetType | undefined, targetId: string | undefined, payload: Record<string, unknown>, opts: { isTest: boolean; liveChanges?: Change[] }): Target | null {
   if (targetId && targetType === 'article') return resolveArticleTarget(targetId, payload, opts);
+  if (targetId && targetType === 'ui') return resolveUiTarget(targetId, payload, opts);
   if (!targetId || (targetType !== 'plant' && targetType !== 'glossary' && targetType !== 'proverb')) return null;
   const lang = payload.lang as 'en' | 'sw' | 'dg';
   const part = typeof payload.part === 'number' ? payload.part : undefined;
