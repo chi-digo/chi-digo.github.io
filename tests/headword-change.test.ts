@@ -125,7 +125,8 @@ beforeAll(() => {
 });
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
-describe('fold-in for headword changes', () => {
+// Each case runs fold-in and the index build several times as child processes: slow on CI runners.
+describe('fold-in for headword changes', { timeout: 60_000 }, () => {
   it('moves entries to their new letter file and id, then undoes to the exact bytes', () => {
     const b = letter('b');
     const ids = b.entries.map((e) => e.id);
