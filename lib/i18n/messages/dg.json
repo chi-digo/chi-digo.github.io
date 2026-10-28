@@ -44,10 +44,10 @@
   "dictionary": {
     "section_title": "Kamusi",
     "section_subtitle": "Maneno zaidi ya 5,200 na madzo ga Chidigo, Chiswahili, na Chingereza.",
-    "search_placeholder": "Tafuta neno...",
+    "search_placeholder": "Endza neno...",
     "featured_word": "Neno Mahususi",
     "no_results": "Tagaphahikana matokeo kpwa \"{query}\"",
-    "searching": "Inatafuta...",
+    "searching": "Inaendza...",
     "results_for": "Matokeo {count} kpwa \"{query}\"",
     "entry_not_found": "Neno hiri tariphahikana.",
     "equivalents_en": "Kpwa Chingereza",
@@ -57,12 +57,12 @@
     "see_also": "Lola",
     "browse_letters": "Hakiki kpwa arufu",
     "back_to_dictionary": "← Kamusi",
-    "try_different_word": "Jeza kutafuta kpwa neno ranjina."
+    "try_different_word": "Jeza kuendza kpwa neno ranjina."
   },
   "proverbs": {
     "other_forms": "Maumbo ganjina",
     "title": "Ndarira",
-    "search_placeholder": "Tafuta ndarira...",
+    "search_placeholder": "Endza ndarira...",
     "browse_by_theme": "Hakiki kpwa mada",
     "browse_by_letter": "Hakiki kpwa arufu",
     "proverb_of_the_day": "Ndarira ya rero",
@@ -80,17 +80,17 @@
     "mature_content": "Ndarira iyi ina maudhui ga avyere.",
     "contribute": "Unamanya lahaja au muktadha? Husaidye kuboresha ndarira iyi.",
     "see_all": "Lola zosi",
-    "searching": "Inatafuta...",
+    "searching": "Inaendza...",
     "results_for": "Matokeo {count} kpwa \"{query}\"",
     "back_to_proverbs": "← Ndarira",
     "literal_translation": "Maneno kpwa maneno",
     "idiomatic_translation": "Manage",
-    "try_different_search": "Jaribu dzina ranjina ra kutafuta.",
+    "try_different_search": "Jaribu dzina ranjina ra kuendza.",
     "swahili_translation": "Tafsiri ya Chiswahili"
   },
   "plants": {
     "title": "Mimea ya Pwani",
-    "search_placeholder": "Tafuta mimea...",
+    "search_placeholder": "Endza mimea...",
     "plant_of_the_day": "Mmea wa rero",
     "browse_by_theme": "Hakiki kpwa mada",
     "browse_by_letter": "Hakiki kpwa arufu",
@@ -99,8 +99,8 @@
     "discover_another": "Gundua wanjina",
     "no_results": "Taiphahikana mimea kpwa \"{query}\"",
     "results_for": "Matokeo {count} kpwa \"{query}\"",
-    "searching": "Inatafuta...",
-    "try_different_search": "Jaribu dzina ranjina ra kutafuta.",
+    "searching": "Inaendza...",
+    "try_different_search": "Jaribu dzina ranjina ra kuendza.",
     "about": "Kuhusu",
     "where": "Phatu inaphophahikana",
     "uses": "Matumizi",
@@ -411,7 +411,7 @@
     "title": "Ukurasa tauyaoneka",
     "description": "Njira uriyoilungiya taiendze phatu — ela kuna vinji vya kuchunguza.",
     "back_home": "Uya kaya",
-    "search": "Tafuta"
+    "search": "Endza"
   },
   "cta": {
     "section_eyebrow": "Gundua zaidi",
@@ -692,7 +692,7 @@
     "error_too_long_ui": "Ni marefu sana kuriko Chingereza. Gafupishe.",
     "ui_fix_more": "Inaonyesa {shown} kati ya {n}. Endza ili kuphunguza orodha.",
     "ui_waiting": "Inalonda mkpwaguzi wa phiri anayesoma {language}: marekebisho ga maandishi ga tovuti tagathibitishwa ni mutu mmwenga.",
-    "ui_shown_english": "Vivi sambi ganaonyeswa kpwa Chingereza",
+    "ui_shown_english": "Hivi sambi ganaonyeswa kpwa Chingereza",
     "error_links": "Anwani za tovuti tazandikika kpwenye maandishi ga tovuti.",
     "tf_fix": "Rekebisha",
     "tf_correct_en": "Rekebisha madzo ga chisomo",
