@@ -6,6 +6,7 @@ const valid: Record<string, unknown> = {
   definition_update: { sense_id: '1', lang: 'en', text: 'to climb (a tree)', mode: 'replace' },
   example_sentence: { sense_id: '1', dg: 'Anafyombera mnazi', en: 'He climbs the coconut palm' },
   spelling_variant: { form: 'kpwera', kind: 'dialect' },
+  headword_change: { form: 'mnadzi', variant: '00000000-0000-4000-8000-000000000001' },
   entry_flag: { reason: 'wrong_meaning' },
   proverb_addition: { digo: 'Haraka haraka taina baraka', meaning_en: 'Haste has no blessing' },
   proverb_variant: { form: 'Haraka taina baraka' },

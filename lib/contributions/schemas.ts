@@ -173,6 +173,8 @@ export const PAYLOADS = {
     reason: safeText(300),
   }),
   general_feedback: z.object({ text: safeText(2000) }),
+  // Internal: made by an admin from an accepted form, never submitted (spec 34 §18.1). Not in ENABLED_TYPES.
+  headword_change: z.object({ form: digoWord, variant: z.string().uuid() }),
 } as const;
 
 export type ContributionType = keyof typeof PAYLOADS;
@@ -195,6 +197,7 @@ export const TYPE_SCOPE: Record<ContributionType, Scope> = {
   plant_addition: 'plants',
   translation_fix: 'translations',
   general_feedback: 'feedback',
+  headword_change: 'dictionary',
 };
 
 /** Types that add something new, so they have no existing target. */
@@ -240,7 +243,7 @@ export type SubmitInput = z.input<typeof submitSchema>;
 
 export const REVIEW_ACTIONS = [
   'claim', 'release', 'accept', 'accept_variant', 'needs_info', 'decline', 'duplicate',
-  'second_confirm', 'second_reject', 'self_confirm', 'revert', 'retry_fold', 'resolve',
+  'second_confirm', 'second_reject', 'self_confirm', 'revert', 'retry_fold', 'resolve', 'make_headword',
 ] as const;
 export type ReviewAction = (typeof REVIEW_ACTIONS)[number];
 

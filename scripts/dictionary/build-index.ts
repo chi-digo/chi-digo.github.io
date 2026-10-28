@@ -91,6 +91,13 @@ for (const L of letters) {
   }
 }
 
+// A former headword's old id stays reserved, so undoing that headword change can always take it back (spec 34 §18.4).
+for (const L of letters) for (const e of files[L].entries) {
+  for (const v of ((e as { variants?: { note?: string | null; id_was?: string }[] }).variants ?? [])) {
+    if (v.note === 'former_headword' && v.id_was && seen.has(v.id_was)) fail(`${L}.json ${e.id}: former id ${v.id_was} is used by another entry (1)`);
+  }
+}
+
 // ---------- Derived files (invariant 6) ----------
 const stale: string[] = [];
 const writes: [string, string][] = [];
@@ -118,11 +125,13 @@ function reverseIndex(field: 'equivalents_en' | 'equivalents_sw') {
 }
 function variantsMap() {
   const out: Record<string, string> = Object.create(null);
-  for (const L of letters) for (const e of files[L].entries) {
+  // Former headwords first: the old address of a renamed entry must find it, ahead of any entry that only
+  // lists the same spelling as another form (spec 34 §18.3). Then the first entry with a form keeps it.
+  for (const former of [true, false]) for (const L of letters) for (const e of files[L].entries) {
     if ((e as { is_redirect?: boolean }).is_redirect) continue;
-    for (const v of ((e as { variants?: { form?: string }[] }).variants ?? [])) {
+    for (const v of ((e as { variants?: { form?: string; note?: string | null }[] }).variants ?? [])) {
+      if ((v.note === 'former_headword') !== former) continue;
       const form = (v.form ?? '').toLowerCase().trim();
-      // The first entry with a form keeps it (as the live overlay does).
       if (form && !Object.hasOwn(out, form)) out[form] = e.id;
     }
   }

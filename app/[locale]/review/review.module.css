@@ -115,6 +115,17 @@
   line-height: 1.55;
 }
 
+.confirm {
+  padding: var(--space-3);
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle, rgba(14, 26, 42, 0.12));
+  background: rgba(14, 26, 42, 0.04);
+}
+
+.confirm p {
+  margin: 0 0 var(--space-2);
+}
+
 .warning {
   margin: 0;
   padding: var(--space-2) var(--space-3);

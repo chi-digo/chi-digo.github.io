@@ -9,7 +9,7 @@ import type {
 } from "./types";
 import * as Sentry from "@sentry/nextjs";
 import { ensureFreshData, refetchFromNetwork } from "@/lib/pwa/data-version";
-import { applyAllToEntries, sortKeyOf, wordAdditionEntry, type WordEntry } from "@/lib/contributions/apply/words";
+import { applyAllToEntries, formerHeadwords, sortKeyOf, wordAdditionEntry, type WordEntry } from "@/lib/contributions/apply/words";
 import type { Change, ConflictError } from "@/lib/contributions/apply/types";
 import { digoLetterFile } from "./letters";
 
@@ -145,14 +145,56 @@ function cleanHeadword(raw: string): string {
 /** Headwords match without a leading "-", so /word/-ako and /word/ako both find the affix -ako. */
 const bare = (h: string) => h.replace(/^-/, "").toLowerCase();
 
+/** The entry's headword is this word (not just a former one). */
+export function isHeadwordOf(e: DictionaryEntry, headword: string): boolean {
+  return bare(cleanHeadword(e.headword)) === bare(headword);
+}
+
+/** Entries with this headword, then entries that used to have it (spec 34 §18.3: the old address still works). */
 export function entriesFor(data: LetterFile, headword: string): DictionaryEntry[] {
-  return data.entries.filter((e) => bare(cleanHeadword(e.headword)) === bare(headword));
+  const current = data.entries.filter((e) => isHeadwordOf(e, headword));
+  const former = data.entries.filter((e) => !isHeadwordOf(e, headword) && formerHeadwords(e).some((v) => bare(v.form) === bare(headword)));
+  return [...current, ...former];
+}
+
+/** Current-headword entries first, then former ones; no entry twice. */
+function mergeFound(headword: string, lists: DictionaryEntry[][]): DictionaryEntry[] {
+  const seen = new Set<string>();
+  const all = lists.flat().filter((e) => (seen.has(e.id) ? false : (seen.add(e.id), true)));
+  return [...all.filter((e) => isHeadwordOf(e, headword)), ...all.filter((e) => !isHeadwordOf(e, headword))];
+}
+
+/**
+ * Entries for a word that live in another letter file than the word's own: a headword made from a form
+ * (live, the entry is still under its old id) or a former headword after the entry moved (spec 34 §18.3).
+ * Only those resolve; an ordinary other form doesn't get a page.
+ */
+async function movedEntriesFor(headword: string, ownFile: string): Promise<DictionaryEntry[]> {
+  let map: VariantsMap;
+  try {
+    map = await loadVariants();
+  } catch {
+    return [];
+  }
+  const key = [headword.toLowerCase(), bare(headword)].find((k) => Object.hasOwn(map, k));
+  const id = key ? map[key] : null;
+  if (!id || id.startsWith("c:")) return [];
+  const file = digoLetterFile(id.replace(/\.\d+$/, ""));
+  if (file === ownFile) return [];
+  try {
+    const entry = (await letterData(file)).entries.find((e) => e.id === id);
+    return entry && entriesFor({ count: 1, entries: [entry] } as LetterFile, headword).length ? [entry] : [];
+  } catch {
+    return [];
+  }
 }
 
 export async function loadEntriesByHeadword(
   headword: string
 ): Promise<DictionaryEntry[]> {
-  const found = entriesFor(await loadLetterData(headword), headword);
+  const ownFile = digoLetterFile(headword);
+  const [own, moved] = await Promise.all([loadLetterData(headword), movedEntriesFor(headword, ownFile)]);
+  const found = mergeFound(headword, [entriesFor(own, headword), moved]);
   if (found.length) return found;
   // Not in this copy of the letter file: it may be an old cached copy (ISSUES DATA-1). Fetch it once
   // from the network before saying the word doesn't exist.
@@ -164,7 +206,7 @@ export async function loadEntriesByHeadword(
   cache.set(path, raw);
   const fresh = mergeLetter(file, raw, await wordOverlay());
   merged.set(file, Promise.resolve(fresh));
-  return entriesFor(fresh, headword);
+  return mergeFound(headword, [entriesFor(fresh, headword), moved]);
 }
 
 const mergedReverse = new Map<string, Promise<ReverseIndex>>();
@@ -209,9 +251,12 @@ export async function loadVariants(): Promise<VariantsMap> {
     mergedVariants = Promise.all([fetchJson<VariantsMap>("/data/variants.json"), wordOverlay()]).then(([map, changes]) => {
       const out: VariantsMap = Object.assign(Object.create(null), map);
       for (const c of changes) {
-        if (c.type !== "spelling_variant" || !c.target_id) continue;
+        if (!c.target_id || c.target_id === "__test__") continue;
         const form = String(c.final_payload.form ?? "").toLowerCase().trim();
-        if (form && !Object.hasOwn(out, form)) out[form] = c.target_id;
+        if (!form) continue;
+        // A form made the headword (still under the entry's old id) wins over any other form.
+        if (c.type === "headword_change") out[form] = c.target_id;
+        else if (c.type === "spelling_variant" && !Object.hasOwn(out, form)) out[form] = c.target_id;
       }
       return out;
     });

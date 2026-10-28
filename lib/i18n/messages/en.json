@@ -57,7 +57,8 @@
     "see_also": "See",
     "browse_letters": "Browse by letter",
     "back_to_dictionary": "← Dictionary",
-    "try_different_word": "Try searching for a different word."
+    "try_different_word": "Try searching for a different word.",
+    "now_listed_as": "Now listed as"
   },
   "proverbs": {
     "other_forms": "Other forms",
@@ -917,7 +918,11 @@
     "notif_open": "Open",
     "review_waiting": "{n} waiting",
     "notif_accepted_notarget": "Your suggestion “{summary}” was accepted.",
-    "notif_second_review_notarget": "“{summary}” needs a second reviewer."
+    "notif_second_review_notarget": "“{summary}” needs a second reviewer.",
+    "type_headword_change": "Headword change",
+    "headword_credit_by": "Headword form suggested by {name}",
+    "headword_credit_by_region": "Headword form suggested by {name}, {region}",
+    "headword_credit_anon": "Headword form suggested by a Digo speaker"
   },
   "review": {
     "ui_alone_off": "Interface fixes need two reviewers. You can’t confirm one alone.",
@@ -999,7 +1004,22 @@
     "fold_now": "Fold in now",
     "fold_requested": "Asked. The data files will be updated within 30 minutes, through a PR into preview.",
     "fold_last": "Last fold-in: {when}",
-    "fold_never": "No fold-in has run yet."
+    "fold_never": "No fold-in has run yet.",
+    "make_headword": "Make this the headword",
+    "make_headword_confirm": "{form} becomes the headword, and {old} becomes an other form.",
+    "make_headword_moves": "The entry moves to the {page} page.",
+    "make_headword_homonym": "{form} is already a headword: this entry becomes another {form}, numbered.",
+    "make_headword_go": "Yes, make it the headword",
+    "cancel": "Cancel",
+    "headword_change_label": "Headword: {from} → {to}",
+    "err_headword_open": "This entry already has a headword change that hasn’t shipped, or this form was already made the headword.",
+    "err_redirect_stub": "Remove the redirect entry {stub} first: it points at this word.",
+    "err_case_only": "Only capital letters differ. Change the headword by hand instead.",
+    "err_affix_marker": "The form must keep the affix hyphen (-) the headword has, or lack it as the headword does.",
+    "err_new_word_settling": "This new word is still being added to the dictionary files. Try again after its update ships.",
+    "err_redirect_entry": "A redirect entry can’t take a new headword.",
+    "err_no_letter": "The dictionary has no letter page for this form.",
+    "err_folding": "This change is being added to the site. Undo it after the update ships."
   },
   "admin": {
     "menu_admin": "Reviewers",

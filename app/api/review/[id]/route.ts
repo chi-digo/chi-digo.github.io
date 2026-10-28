@@ -6,8 +6,8 @@ import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea, readsLanguage,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget, loadWord, testWord } from '@/lib/contributions/targets';
-import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
+import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
+import { applyAllToEntries, nextSenseId, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
@@ -26,6 +26,101 @@ async function minimumSensePath(row: { type: string; payload: Record<string, unk
   const [entry] = applyAllToEntries([raw], liveChanges);
   const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
   return `senses.${nextSenseId(entry, pending)}`;
+}
+
+/**
+ * Refusals that depend on the live changes: the form must still be on the entry, and a community word
+ * still settling into the files (its overlay copy) can't be renamed yet.
+ */
+async function headwordLiveRefusal(raw: WordEntry, variantId: string, form: string) {
+  const liveChanges = await getAreaOverlay('word');
+  const [entry] = applyAllToEntries([raw], liveChanges);
+  if (!entry.variants.some((v) => (v as { c?: string }).c === variantId && v.form === form)) return { error: 'target_changed' };
+  const settling = liveChanges.some((c) => c.type === 'word_addition' && Object.values(raw.provenance ?? {}).some((l) => l.some((p) => p.c === c.contribution_id)));
+  return settling ? { error: 'new_word_settling' } : null;
+}
+
+/**
+ * Make an accepted, live community form the entry's headword (spec 34 §18). The server computes what the
+ * change is checked against and what its undo restores; the database copies the form and records it.
+ */
+async function makeHeadword(
+  caller: { id: string; role: string; db: SupabaseClient },
+  row: { id: string; type: string; status: string; live_status: string | null; target_id: string | null; is_test: boolean; final_payload: Record<string, unknown> | null },
+  note: string | null,
+) {
+  if (caller.role !== 'admin') return forbidden();
+  if (row.type !== 'spelling_variant' || row.status !== 'accepted' || row.live_status !== 'live' || !row.target_id) {
+    return badRequest('not_acceptable');
+  }
+  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+  if (!raw) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+  // Already made the headword, or another headword change on the entry hasn't shipped (the database
+  // checks this again under a lock).
+  if (await headwordBusy(caller.db, row)) return rpcError('headword_open');
+  const liveChanges = await getAreaOverlay('word');
+  const form = String(row.final_payload?.form ?? '');
+  const live = await headwordLiveRefusal(raw, row.id, form);
+  if (live) return NextResponse.json(live, { status: 409 });
+  const refusal = headwordRefusal(raw, form);
+  if (refusal) return NextResponse.json(refusal, { status: 422 });
+  const base = headwordBase(raw);
+  if (!base) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+  const result = await rpc<{ ok?: boolean; error?: string; id?: string; status?: string; live_status?: string }>(
+    caller.db, 'review_transition', { p_uid: caller.id, p_cid: row.id, p_action: 'make_headword', p_args: { base: { value: base }, note } },
+  );
+  if (result.error) return rpcError(result.error);
+  refreshOverlay('word');
+  return NextResponse.json({ id: result.id, status: result.status, live_status: result.live_status });
+}
+
+/**
+ * What must be undone first (spec 34 §18.1): the headword change made from this form, or a later
+ * headword change on the same entry.
+ */
+async function headwordDependants(db: SupabaseClient, row: { id: string; type: string; target_id: string | null; reviewed_at: string | null }) {
+  const q = db.from('contributions').select('id, type').eq('type', 'headword_change').eq('status', 'accepted');
+  const { data } = row.type === 'spelling_variant'
+    ? await q.eq('final_payload->>variant', row.id)
+    : await q.eq('target_id', row.target_id ?? '').neq('id', row.id).gt('reviewed_at', row.reviewed_at ?? '');
+  return data ?? [];
+}
+
+/** A headword change on the entry that hasn't shipped and settled, or one already made from this form. */
+async function headwordBusy(db: SupabaseClient, row: { id: string; target_id: string | null }) {
+  const { data } = await db.from('contributions').select('fold_status, live_status, final_payload')
+    .eq('type', 'headword_change').eq('status', 'accepted').eq('target_id', row.target_id ?? '');
+  const { data: same } = await db.from('contributions').select('id').eq('type', 'headword_change').eq('status', 'accepted')
+    .eq('final_payload->>variant', row.id).limit(1);
+  return (data ?? []).some((h) => h.fold_status !== 'folded' || h.live_status !== 'live') || !!same?.length;
+}
+
+/**
+ * For an admin looking at an accepted, live form: whether it can be made the headword, and what the
+ * confirmation should say (the old headword, a letter-page move, a homonym), or why not.
+ */
+async function headwordOption(
+  db: SupabaseClient,
+  row: { id: string; target_id: string | null; is_test: boolean; final_payload: Record<string, unknown> | null },
+) {
+  if (!row.target_id) return null;
+  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+  if (!raw) return null;
+  const form = String(row.final_payload?.form ?? '');
+  // Already the headword: nothing to offer (its undo is on the headword change).
+  const { data: made } = await db.from('contributions').select('id').eq('type', 'headword_change').eq('status', 'accepted')
+    .eq('final_payload->>variant', row.id).limit(1);
+  if (made?.length) return null;
+  const refusal = (await headwordBusy(db, row)) ? { error: 'headword_open' }
+    : headwordRefusal(raw, form) ?? (await headwordLiveRefusal(raw, row.id, form));
+  let page: string | null = null;
+  try {
+    const to = entryFile(sortKeyOf(form));
+    if (to !== entryFile(raw.sort_key)) page = to.replace(/_/g, "'").toUpperCase();
+  } catch {
+    /* refused above */
+  }
+  return { form, old: raw.headword, page, homonym: headwordExists(form), refusal };
 }
 
 async function load(db: SupabaseClient, id: string) {
@@ -54,7 +149,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
       row.target_id
         ? caller.db.from('contributions').select('id, type, payload, region, confidence, status, agree_count, created_at')
             .eq('target_type', row.target_type).eq('target_id', row.target_id).eq('scope', row.scope)
-            .eq('is_test', row.is_test).neq('id', id)
+            .eq('is_test', row.is_test).neq('id', id).neq('type', 'headword_change')
             .in('status', ['pending', 'needs_info', 'accepted']).order('created_at')
         : Promise.resolve({ data: [] }),
       caller.db.from('contribution_agreements').select('region, confidence, counted').eq('contribution_id', id),
@@ -82,12 +177,15 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
         // An admin alone may confirm their own accept when nobody else could (owner decision 2026-10-16).
         dependants: row.status !== 'accepted' ? []
           : row.type === 'word_addition' ? await wordDependants(row)
-          : row.type === 'proverb_addition' ? await proverbDependants(row) : [],
+          : row.type === 'proverb_addition' ? await proverbDependants(row)
+          : row.type === 'spelling_variant' || row.type === 'headword_change' ? await headwordDependants(caller.db, row) : [],
         can_self_confirm: row.live_status === 'awaiting_second'
           ? await rpc<boolean>(caller.db, 'can_self_confirm', { p_uid: caller.id, p_cid: id })
           : false,
         agreements: agreements ?? [],
         others: others ?? [],
+        headword: caller.role === 'admin' && row.type === 'spelling_variant' && row.status === 'accepted' && row.live_status === 'live'
+          ? await headwordOption(caller.db, row) : null,
       },
       { headers: { 'Cache-Control': 'no-store' } },
     );
@@ -111,6 +209,13 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
     if (row.user_id === caller.id) return forbidden('self_review');
+
+    // A headword change: an admin reverts it or retries its fold-in unchanged; nothing else (spec 34 §18.1).
+    if (row.type === 'headword_change') {
+      if (caller.role !== 'admin') return forbidden();
+      if (!['revert', 'retry_fold'].includes(body.action) || body.final_payload) return badRequest('not_acceptable');
+    }
+    if (body.action === 'make_headword') return makeHeadword(caller, row, body.note ?? null);
 
     const args: Record<string, unknown> = { note: body.note ?? null };
     const area = overlayArea(row.target_type);

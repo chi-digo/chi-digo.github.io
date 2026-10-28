@@ -319,6 +319,26 @@ async function main() {
     check('…accepted', r.status === 200 && r.json.live_status === 'live', r);
     words = await call(null, 'GET', '/api/overlay/word');
     check('new word and regional form are in the overlay', [newWord, variant].every((id) => words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === id)), words.json);
+
+    // "Make this the headword" (spec 34 §18): admin only, once, the form can't go while it's the headword.
+    r = await call(A, 'GET', `/api/review/${variant}`);
+    check('the admin is offered "make this the headword"', r.status === 200 && r.json.headword?.form === 'majaribiyo' && r.json.headword?.refusal === null, r.json?.headword);
+    r = await call(A, 'POST', `/api/review/${variant}`, { action: 'make_headword' });
+    check('…made the headword', r.status === 200 && r.json.live_status === 'live' && typeof r.json.id === 'string', r);
+    const headwordChange = r.json.id as string;
+    words = await call(null, 'GET', '/api/overlay/word');
+    check('…in the overlay, with only the form and the variant', words.json.changes.some((c: { contribution_id: string; type: string; final_payload: Record<string, unknown> }) =>
+      c.contribution_id === headwordChange && c.type === 'headword_change' && Object.keys(c.final_payload).sort().join() === 'form,variant'), words.json);
+    r = await call(A, 'POST', `/api/review/${variant}`, { action: 'make_headword' });
+    check('…not twice → 409', r.status === 409 && r.json.error === 'headword_open', r);
+    r = await call(A, 'POST', `/api/review/${variant}`, { action: 'revert' });
+    check('the form can’t be undone while it is the headword → 409', r.status === 409 && r.json.error === 'has_dependants', r);
+    r = await call(A, 'POST', `/api/review/${headwordChange}`, { action: 'accept' });
+    check('a headword change is never accepted → 400', r.status === 400 && r.json.error === 'not_acceptable', r);
+    r = await call(A, 'POST', `/api/review/${headwordChange}`, { action: 'revert' });
+    check('the admin undoes it', r.status === 200 && r.json.status === 'reverted', r);
+    words = await call(null, 'GET', '/api/overlay/word');
+    check('…and it left the overlay', !words.json.changes.some((c: { contribution_id: string }) => c.contribution_id === headwordChange), words.json);
     r = await call(A, 'POST', `/api/review/${flag}`, { action: 'resolve' });
     check('resolve needs a note → 400', r.status === 400, r);
 

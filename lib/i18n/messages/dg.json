@@ -57,7 +57,8 @@
     "see_also": "Lola",
     "browse_letters": "Hakiki kpwa arufu",
     "back_to_dictionary": "← Kamusi",
-    "try_different_word": "Jeza kuhendza kpwa neno ranjina."
+    "try_different_word": "Jeza kuhendza kpwa neno ranjina.",
+    "now_listed_as": "Hivi sambi rinaandikpwa dza"
   },
   "proverbs": {
     "other_forms": "Maumbo ganjina",
@@ -917,7 +918,11 @@
     "notif_open": "Vugula",
     "review_waiting": "{n} ganagodzera",
     "notif_accepted_notarget": "Pendekezoro “{summary}” rikakubaliwa.",
-    "notif_second_review_notarget": "“{summary}” rinahitaji mkpwaguzi wa phiri."
+    "notif_second_review_notarget": "“{summary}” rinahitaji mkpwaguzi wa phiri.",
+    "type_headword_change": "Badiliko ra umbo ra neno",
+    "headword_credit_by": "Umbo ra neno rikapendekezwa ni {name}",
+    "headword_credit_by_region": "Umbo ra neno rikapendekezwa ni {name}, {region}",
+    "headword_credit_anon": "Umbo ra neno rikapendekezwa ni Mdigo"
   },
   "review": {
     "ui_alone_off": "",
@@ -999,7 +1004,22 @@
     "fold_now": "",
     "fold_requested": "",
     "fold_last": "",
-    "fold_never": ""
+    "fold_never": "",
+    "make_headword": "",
+    "make_headword_confirm": "",
+    "make_headword_moves": "",
+    "make_headword_homonym": "",
+    "make_headword_go": "",
+    "cancel": "",
+    "headword_change_label": "",
+    "err_headword_open": "",
+    "err_redirect_stub": "",
+    "err_case_only": "",
+    "err_affix_marker": "",
+    "err_new_word_settling": "",
+    "err_redirect_entry": "",
+    "err_no_letter": "",
+    "err_folding": ""
   },
   "admin": {
     "menu_admin": "",

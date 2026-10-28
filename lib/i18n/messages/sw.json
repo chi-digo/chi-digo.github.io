@@ -57,7 +57,8 @@
     "see_also": "Angalia",
     "browse_letters": "Vinjari kwa herufi",
     "back_to_dictionary": "← Kamusi",
-    "try_different_word": "Jaribu kutafuta neno lingine."
+    "try_different_word": "Jaribu kutafuta neno lingine.",
+    "now_listed_as": "Sasa limeorodheshwa kama"
   },
   "proverbs": {
     "other_forms": "Maumbo mengine",
@@ -917,7 +918,11 @@
     "notif_open": "Fungua",
     "review_waiting": "{n} zinasubiri",
     "notif_accepted_notarget": "Pendekezo lako “{summary}” limekubaliwa.",
-    "notif_second_review_notarget": "“{summary}” linahitaji mkaguzi wa pili."
+    "notif_second_review_notarget": "“{summary}” linahitaji mkaguzi wa pili.",
+    "type_headword_change": "Badiliko la neno kuu",
+    "headword_credit_by": "Umbo kuu la neno limependekezwa na {name}",
+    "headword_credit_by_region": "Umbo kuu la neno limependekezwa na {name}, {region}",
+    "headword_credit_anon": "Umbo kuu la neno limependekezwa na Mdigo"
   },
   "review": {
     "ui_alone_off": "Marekebisho ya maandishi ya tovuti yanahitaji wakaguzi wawili. Huwezi kuthibitisha peke yako.",
@@ -999,7 +1004,22 @@
     "fold_now": "Ingiza sasa",
     "fold_requested": "Imeombwa. Faili za data zitasasishwa ndani ya dakika 30, kupitia PR kwenye preview.",
     "fold_last": "Uingizaji wa mwisho: {when}",
-    "fold_never": "Bado hakuna uingizaji uliofanyika."
+    "fold_never": "Bado hakuna uingizaji uliofanyika.",
+    "make_headword": "Fanya hili kuwa neno kuu",
+    "make_headword_confirm": "{form} litakuwa neno kuu, na {old} litakuwa umbo jingine.",
+    "make_headword_moves": "Neno litahamia ukurasa wa {page}.",
+    "make_headword_homonym": "{form} tayari ni neno kuu: neno hili litakuwa {form} jingine, lenye namba.",
+    "make_headword_go": "Ndiyo, lifanye neno kuu",
+    "cancel": "Ghairi",
+    "headword_change_label": "Neno kuu: {from} → {to}",
+    "err_headword_open": "Neno hili tayari lina badiliko la neno kuu ambalo halijatoka, au umbo hili tayari limefanywa neno kuu.",
+    "err_redirect_stub": "Ondoa kwanza neno la kuelekeza {stub}: linaelekeza kwenye neno hili.",
+    "err_case_only": "Herufi kubwa tu ndizo tofauti. Badilisha neno kuu kwa mkono badala yake.",
+    "err_affix_marker": "Umbo lazima lifuate kistari (-) cha kiambishi kama neno kuu.",
+    "err_new_word_settling": "Neno hili jipya bado linaongezwa kwenye faili za kamusi. Jaribu tena baada ya sasisho lake kutoka.",
+    "err_redirect_entry": "Neno la kuelekeza haliwezi kupewa neno kuu jipya.",
+    "err_no_letter": "Kamusi haina ukurasa wa herufi kwa umbo hili.",
+    "err_folding": "Badiliko hili linaongezwa kwenye tovuti. Lirudishe baada ya sasisho kutoka."
   },
   "admin": {
     "menu_admin": "Wakaguzi",
