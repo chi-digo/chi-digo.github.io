@@ -43,6 +43,9 @@ async function makeHeadword(
   }
   const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
   if (!raw) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+  // Already made the headword, or another headword change on the entry hasn't shipped (the database
+  // checks this again under a lock).
+  if (await headwordBusy(caller.db, row)) return rpcError('headword_open');
   const liveChanges = await getAreaOverlay('word');
   const [entry] = applyAllToEntries([raw], liveChanges);
   const form = String(row.final_payload?.form ?? '');
@@ -64,6 +67,15 @@ async function makeHeadword(
   return NextResponse.json({ id: result.id, status: result.status, live_status: result.live_status });
 }
 
+/** A headword change on the entry that hasn't shipped and settled, or one already made from this form. */
+async function headwordBusy(db: SupabaseClient, row: { id: string; target_id: string | null }) {
+  const { data } = await db.from('contributions').select('fold_status, live_status, final_payload')
+    .eq('type', 'headword_change').eq('status', 'accepted').eq('target_id', row.target_id ?? '');
+  const { data: same } = await db.from('contributions').select('id').eq('type', 'headword_change').eq('status', 'accepted')
+    .eq('final_payload->>variant', row.id).limit(1);
+  return (data ?? []).some((h) => h.fold_status !== 'folded' || h.live_status !== 'live') || !!same?.length;
+}
+
 /**
  * For an admin looking at an accepted, live form: whether it can be made the headword, and what the
  * confirmation should say (the old headword, a letter-page move, a homonym), or why not.
@@ -76,10 +88,7 @@ async function headwordOption(
   const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
   if (!raw) return null;
   const form = String(row.final_payload?.form ?? '');
-  const { data: open } = await db.from('contributions').select('id, target_id, fold_status, live_status, final_payload')
-    .eq('type', 'headword_change').eq('status', 'accepted').eq('target_id', row.target_id);
-  const busy = (open ?? []).some((h) => h.final_payload?.variant === row.id || h.fold_status !== 'folded' || h.live_status !== 'live');
-  const refusal = busy ? { error: 'headword_open' } : headwordRefusal(raw, form);
+  const refusal = (await headwordBusy(db, row)) ? { error: 'headword_open' } : headwordRefusal(raw, form);
   let page: string | null = null;
   try {
     const to = entryFile(sortKeyOf(form));
@@ -116,7 +125,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
       row.target_id
         ? caller.db.from('contributions').select('id, type, payload, region, confidence, status, agree_count, created_at')
             .eq('target_type', row.target_type).eq('target_id', row.target_id).eq('scope', row.scope)
-            .eq('is_test', row.is_test).neq('id', id)
+            .eq('is_test', row.is_test).neq('id', id).neq('type', 'headword_change')
             .in('status', ['pending', 'needs_info', 'accepted']).order('created_at')
         : Promise.resolve({ data: [] }),
       caller.db.from('contribution_agreements').select('region, confidence, counted').eq('contribution_id', id),
