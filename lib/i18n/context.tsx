@@ -3,6 +3,7 @@
 import {
   createContext,
   useContext,
+  useEffect,
   useState,
   useCallback,
   useMemo,
@@ -37,18 +38,24 @@ const LocaleContext = createContext<LocaleContextValue | null>(null);
  * them. Recorded in the browser only, for Swahili and Digo, with the path they were read on.
  */
 const readOn = new Map<string, Set<string>>();
-/** The page being drawn (set by LocaleProvider from the router, so a link click stamps the new page). */
-let drawing = '';
+/** Strings read since the last page was filed: the page being drawn files them once it's on screen. */
+const pending = new Set<string>();
 /** The site's frame (menu, footer, breadcrumb) shows on every page, though it isn't redrawn on each. */
 const FRAME = ['nav', 'footer', 'breadcrumb', 'share'];
+function fileUnder(path: string) {
+  for (const key of pending) {
+    const paths = readOn.get(key) ?? new Set<string>();
+    paths.add(path);
+    readOn.set(key, paths);
+  }
+  pending.clear();
+}
 export function stringsReadOn(path: string): string[] {
+  fileUnder(path);
   return [...readOn].filter(([k, paths]) => paths.has(path) || FRAME.includes(k.split('.')[0])).map(([k]) => k);
 }
 function noteRead(key: string) {
-  const path = drawing || window.location.pathname;
-  const paths = readOn.get(key) ?? new Set<string>();
-  paths.add(path);
-  readOn.set(key, paths);
+  pending.add(key);
 }
 
 function createFallbackMessages(locale: Locale): Messages {
@@ -83,9 +90,11 @@ interface LocaleProviderProps {
 }
 
 export function LocaleProvider({ children, initialLocale }: LocaleProviderProps) {
-  // The page about to be drawn: strings its children read are filed under it (spec 34 §17.12).
+  // Once a page is on screen, the strings its children read while drawing are filed under it (§17.12).
   const routePath = usePathname();
-  if (typeof window !== 'undefined') drawing = routePath ?? '';
+  useEffect(() => {
+    if (routePath) fileUnder(routePath);
+  }, [routePath]);
   const [locale, setLocaleState] = useState<Locale>(initialLocale ?? defaultLocale);
 
   const setLocale = useCallback((newLocale: Locale) => {
