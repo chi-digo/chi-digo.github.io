@@ -6,7 +6,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useFavourites } from '@/lib/favourites/context';
 import { Badge, EmptyState, Skeleton } from '@chi-digo/design-system';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
-import { loadLetterIndex } from '@/lib/dictionary/loader';
+import { loadLetterIndex, loadVariants } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
 import styles from './FavouritesList.module.css';
 import { loadProverbs } from '@/lib/proverbs/loader';
@@ -80,7 +80,13 @@ export function FavouritesList() {
         try {
           const index = await loadLetterIndex(letter);
           for (const id of ids) {
-            const entry = index.find((e) => e.id === id || e.hw === id);
+            let entry = index.find((e) => e.id === id || e.hw === id);
+            // Saved under a headword the entry has since given up (spec 34 §18.6): find it by its forms.
+            if (!entry) {
+              const forms = await loadVariants().catch(() => ({} as Record<string, string>));
+              const moved = Object.hasOwn(forms, id.toLowerCase()) ? forms[id.toLowerCase()] : null;
+              if (moved) entry = (await loadLetterIndex(moved.replace(/\.\d+$/, ''))).find((e) => e.id === moved);
+            }
             if (entry) {
               const gloss =
                 locale === 'dg' ? (entry.eq_dg || entry.eq) :

@@ -18,7 +18,7 @@ import type { GlossaryTerm } from '../../lib/plants/types';
 import { ConflictError, type Change } from '../../lib/contributions/apply/types';
 import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
 import { ruledOutIn } from '../../lib/digo/ruled-out';
-import { applyWord, unapplyWord, wordAdditionEntry, foldedId, sortKeyOf, type WordEntry } from '../../lib/contributions/apply/words';
+import { applyWord, unapplyWord, wordAdditionEntry, foldedId, sortKeyOf, reservedIds, FORMER_HEADWORD, type HeadwordBase, type WordEntry } from '../../lib/contributions/apply/words';
 import { digoLetterFile } from '../../lib/dictionary/letters';
 import { applyProverb, unapplyProverb, proverbAdditionEntry, type ProverbEntry } from '../../lib/contributions/apply/proverbs';
 
@@ -146,13 +146,57 @@ function letterFile(f: string) {
 }
 const byCodePoint = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
 const hasC = (e: WordEntry, c: string) => Object.values(e.provenance ?? {}).some((l) => l.some((x) => x.c === c));
+/** Every entry, for ids that must be unique across files (a headword change can move an entry between them). */
+const allEntries = () => letters.flatMap((f) => letterFile(f).entries);
+/** Ids no new entry may take: every id in use, and every former headword's old id (spec 34 §18.4). */
+const takenIds = (except?: WordEntry) => {
+  const all = allEntries();
+  return [...all.filter((e) => e !== except).map((e) => e.id), ...reservedIds(all)];
+};
+/** Insert an entry in code-point sort_key order, after any equal sort keys (no homonym is renumbered). */
+function insertSorted(f: string, entry: WordEntry) {
+  const file = letterFile(f);
+  let i = file.entries.length;
+  while (i > 0 && byCodePoint(file.entries[i - 1].sort_key, entry.sort_key) > 0) i--;
+  file.entries.splice(i, 0, entry);
+  file.count = file.entries.length;
+  dirty.add(f);
+}
+function removeEntry(f: string, entry: WordEntry) {
+  const file = letterFile(f);
+  file.entries.splice(file.entries.indexOf(entry), 1);
+  file.count = file.entries.length;
+  dirty.add(f);
+}
+/**
+ * The entry a word change is on: by its id, else (an id an entry has since given up) the entry that keeps it
+ * as a former headword, else the entry holding this change already (spec 34 §18.4).
+ */
+function locate(id: string, c: string): { f: string; entry: WordEntry } {
+  try {
+    const f = entryFile(id.replace(/\.\d+$/, ''));
+    const entry = letterFile(f).entries.find((e) => e.id === id);
+    if (entry) return { f, entry };
+  } catch {
+    /* not a letter file: look everywhere */
+  }
+  for (const f of letters) {
+    const entry = letterFile(f).entries.find((e) => (e.variants as { note?: string | null; id_was?: string }[]).some((v) => v.note === FORMER_HEADWORD && v.id_was === id));
+    if (entry) return { f, entry };
+  }
+  for (const f of letters) {
+    const entry = letterFile(f).entries.find((e) => hasC(e, c));
+    if (entry) return { f, entry };
+  }
+  throw new Error(`entry ${id} not found`);
+}
 /** The Digo text a word change adds, for the standards check. */
 function wordDigo(type: string, p: Record<string, unknown>): string[] {
   const s = (k: string) => (typeof p[k] === 'string' ? [p[k] as string] : []);
   if (type === 'word_addition') return [...s('headword'), ...s('definition_dg'), ...s('example_dg')];
   if (type === 'definition_update') return p.lang === 'dg' ? s('text') : [];
   if (type === 'example_sentence') return s('dg');
-  if (type === 'spelling_variant') return s('form');
+  if (type === 'spelling_variant' || type === 'headword_change') return s('form');
   return [];
 }
 
@@ -232,7 +276,7 @@ function foldWord(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
         results.target_ids[row.id] = file.entries[at].id;
         return 'applied';
       }
-      const id = foldedId(sk, file.entries.map((e) => e.id));
+      const id = foldedId(sk, takenIds());
       const entry = wordAdditionEntry(change, id);
       delete entry.provisional;
       // After every entry with the same or an earlier sort key, so an existing homonym is never renumbered.
@@ -245,19 +289,76 @@ function foldWord(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
     dirty.add(f);
     return reverting ? 'reverted' : 'applied';
   }
-  const id = row.target_id ?? '';
-  const f = entryFile(id.replace(/\.\d+$/, ''));
+  if (row.type === 'headword_change' && row.live_status === 'reverting') {
+    // A retried undo may find the files already moved back: the entry is under its old id, without this change.
+    const back = (change.base?.value as HeadwordBase | undefined)?.id ?? '';
+    let found: { f: string; entry: WordEntry };
+    try {
+      found = locate(row.target_id ?? '', row.id);
+    } catch {
+      found = locate(back, row.id);
+    }
+    return foldHeadword(row, change, found.f, found.entry);
+  }
+  const { f, entry } = locate(row.target_id ?? '', row.id);
+  if (row.type === 'headword_change') return foldHeadword(row, change, f, entry);
   const file = letterFile(f);
-  const at = file.entries.findIndex((e) => e.id === id);
-  if (at < 0) throw new Error(`entry ${id} not found`);
-  file.entries[at] = reverting ? unapplyWord(file.entries[at], change) : applyWord(file.entries[at], change);
+  const at = file.entries.indexOf(entry);
+  file.entries[at] = reverting ? unapplyWord(entry, change) : applyWord(entry, change);
   dirty.add(f);
   return reverting ? 'reverted' : 'applied';
 }
 
+/**
+ * Make a form the headword (spec 34 §18.4): the entry gets the new headword's id and moves to its letter
+ * file, after any equal sort keys. Undo puts it back under its old id, right after the entry it followed.
+ */
+function foldHeadword(row: ClaimedRow, change: Change, f: string, entry: WordEntry): 'applied' | 'reverted' {
+  if (row.live_status === 'reverting') {
+    if (!hasC(entry, row.id)) return 'reverted';
+    const base = change.base?.value as HeadwordBase | undefined;
+    if (!base) throw new Error('headword change has no base');
+    if (allEntries().some((e) => e !== entry && e.id === base.id)) throw new Error(`id ${base.id} is used by another entry; undo is blocked`);
+    const prev = unapplyWord(entry, change);
+    const back = entryFile(prev.sort_key);
+    removeEntry(f, entry);
+    // Back in code-point order; among equal sort keys, right after the entry it followed (ties aren't in
+    // id order, so this is what gives back the same bytes). Words added since keep their places.
+    const list = letterFile(back).entries;
+    const lo = list.findIndex((e) => byCodePoint(e.sort_key, prev.sort_key) >= 0);
+    const hi = list.findIndex((e) => byCodePoint(e.sort_key, prev.sort_key) > 0);
+    const start = lo < 0 ? list.length : lo;
+    const end = hi < 0 ? list.length : hi;
+    const after = base.after === null ? -1 : list.findIndex((e) => e.id === base.after);
+    // It followed a smaller key (or nothing): it was first among its equals. It followed an equal key: after that one.
+    const at = after < 0 ? (base.after === null ? start : end)
+      : byCodePoint(list[after].sort_key, prev.sort_key) < 0 ? start
+      : after >= start && after < end ? after + 1 : end;
+    list.splice(Math.max(start, Math.min(at, end)), 0, prev);
+    letterFile(back).count = list.length;
+    dirty.add(back);
+    return 'reverted';
+  }
+  if (hasC(entry, row.id)) {
+    results.target_ids[row.id] = entry.id;
+    return 'applied';
+  }
+  const sk = sortKeyOf(String(row.final_payload.form ?? ''));
+  const to = entryFile(sk);
+  const newId = foldedId(sk, takenIds(entry));
+  const next = applyWord(entry, change, { newId });
+  removeEntry(f, entry);
+  insertSorted(to, next);
+  results.target_ids[row.id] = newId;
+  return 'applied';
+}
+
 // Reverts run newest first: a later fix on the same text must be undone before the one it was made on.
+// Headword changes apply after every other change, so those land on the entry under its old id first.
+const applying = claimed.rows.filter((r) => r.live_status !== 'reverting');
 const ordered = [
-  ...claimed.rows.filter((r) => r.live_status !== 'reverting'),
+  ...applying.filter((r) => r.type !== 'headword_change'),
+  ...applying.filter((r) => r.type === 'headword_change'),
   ...claimed.rows.filter((r) => r.live_status === 'reverting').reverse(),
 ];
 for (const row of ordered) {
@@ -275,7 +376,7 @@ for (const row of ordered) {
     }
     continue;
   }
-  if (row.target_type === 'word' && ['word_addition', 'definition_update', 'example_sentence', 'spelling_variant'].includes(row.type)) {
+  if (row.target_type === 'word' && ['word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'headword_change'].includes(row.type)) {
     try {
       results[foldWord(row, change)].push(row.id);
     } catch (err) {

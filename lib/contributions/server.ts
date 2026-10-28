@@ -88,6 +88,8 @@ const STATUS: Record<string, number> = {
   limit_proverbs: 429,
   pii: 422,
   has_dependants: 409,
+  headword_open: 409,
+  folding: 409,
 };
 
 /** Map a `{error: code}` from a database function to an HTTP response. */

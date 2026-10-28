@@ -285,6 +285,30 @@ async function main() {
     await d.goto(`${BASE}${WORD}`);
     check('the variant line shows the form and region', (await visible(d, 'Other forms')) && (await visible(d, 'majaribiyo')) && (await visible(d, '(Tanga)')));
     await shot(d, '15-word-variant');
+    // "Make this the headword" (spec 34 §18): the admin's button, then both addresses show the entry.
+    const { data: formRow } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', 'spelling_variant')
+      .order('created_at', { ascending: false }).limit(1).single();
+    await a.goto(`${BASE}/review/${formRow!.id}`);
+    check('the admin sees "Make this the headword"', await visible(a, 'Make this the headword'));
+    await a.getByRole('button', { name: 'Make this the headword' }).click();
+    check('…with what will happen', await visible(a, 'majaribiyo becomes the headword, and __test__ becomes an other form.'));
+    await shot(a, '15b-make-headword');
+    await a.getByRole('button', { name: 'Yes, make it the headword' }).click();
+    check('…done', await visible(a, 'Saved.', 30000));
+    const { data: hcRow } = await admin.from('contributions').select('id').eq('type', 'headword_change').eq('target_id', '__test__')
+      .eq('status', 'accepted').limit(1).maybeSingle();
+    check('…as a headword change with no author', !!hcRow);
+    await d.goto(`${BASE}${WORD}`);
+    check('the old address shows the entry under its new headword', await visible(d, 'majaribiyo') && (await d.locator('h1').innerText()).includes('majaribiyo'));
+    check('…the old headword under other forms, and the form credited as the headword', (await visible(d, '__test__')) && (await visible(d, 'Headword form')));
+    await shot(d, '15c-old-address');
+    // (The new address of a test entry isn't checked: test forms never enter the public forms map.)
+    if (hcRow) {
+      const undone = await a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'revert' }),
+      })).status, hcRow.id);
+      check('the admin undoes it', undone === 200);
+    }
     await d.goto(`${BASE}/language/dictionary?q=zzzqqq`);
     check('an empty search offers to add the word', await visible(d, 'Add “zzzqqq” to the dictionary'));
     await d.getByRole('button', { name: 'Add “zzzqqq” to the dictionary' }).click();

@@ -18,7 +18,33 @@ export const SENSE_KEYS = ['sense_id', 'definition_en', 'definition_sw', 'defini
 
 export type WordEntry = DictionaryEntry & { provenance?: Provenance; provisional?: boolean };
 type CommunityExample = Omit<Example, 'source'> & { source: Example['source'] | 'community'; c?: string };
-type Variant = { form: string; dialect: string; note: string | null; c?: string };
+type Variant = {
+  form: string; dialect: string; note: string | null; c?: string;
+  /** On a former headword (spec 34 §18.2): the form that replaced it, where it sat, and the entry's old id. */
+  was?: Variant; was_after?: string | null; id_was?: string;
+};
+
+/** The note on the other form an old headword becomes when a community form is made the headword. */
+export const FORMER_HEADWORD = 'former_headword';
+
+/** What a headword change is checked against and what its undo restores (spec 34 §18.1). */
+export interface HeadwordBase {
+  headword: string; id: string; homonym_index: number | null; sort_key: string;
+  /** The letter file and the id of the entry just before it, so undo puts it back in exactly the same place. */
+  file: string; after: string | null;
+}
+
+/** The former headwords an entry keeps as other forms. */
+export function formerHeadwords(e: DictionaryEntry): Variant[] {
+  return (e.variants as Variant[]).filter((v) => v.note === FORMER_HEADWORD);
+}
+
+/** Ids an entry used to have: never given to another entry, so an undo can always take its id back. */
+export function reservedIds(entries: DictionaryEntry[]): string[] {
+  return entries.flatMap((e) => formerHeadwords(e).map((v) => v.id_was).filter((x): x is string => !!x));
+}
+
+const variantKey = (v: Variant) => v.c ?? v.form;
 
 /** sort_key by the §15.1 rule: lower case, no leading "-", ’ as '. */
 export function sortKeyOf(headword: string): string {
@@ -78,10 +104,40 @@ function withSense(e: WordEntry, n: number, fn: (s: Sense) => Sense): WordEntry 
   return { ...e, senses: e.senses.map((s) => (s.sense_id === n ? fn(s) : s)) };
 }
 
-/** Apply an accepted change to one entry. Throws ConflictError if the target moved on. */
-export function applyWord(entry: WordEntry, change: Change): WordEntry {
+/**
+ * Apply an accepted change to one entry. Throws ConflictError if the target moved on. A headword change
+ * takes the entry's new id at fold-in (`newId`); live, it changes the headword in place (spec 34 §18.2).
+ */
+export function applyWord(entry: WordEntry, change: Change, opts: { newId?: string } = {}): WordEntry {
   if (hasChange(entry.provenance, change.contribution_id)) return entry;
   const p = change.final_payload;
+
+  if (change.type === 'headword_change') {
+    const variants = entry.variants as Variant[];
+    const at = variants.findIndex((v) => v.c === p.variant && v.form === p.form);
+    const base = change.base?.value as HeadwordBase | undefined;
+    if (at < 0) throw new ConflictError(change.contribution_id, 'variants');
+    if (!base || !same(
+      { headword: entry.headword, id: entry.id, homonym_index: entry.homonym_index, sort_key: entry.sort_key },
+      { headword: base.headword, id: base.id, homonym_index: base.homonym_index, sort_key: base.sort_key },
+    )) throw new ConflictError(change.contribution_id, 'headword');
+    const form = variants[at];
+    // The old headword keeps its region if an earlier headword change recorded one.
+    const dialect = formerHeadwords(entry).find((v) => v.was?.form === entry.headword)?.was?.dialect ?? '';
+    const former: Variant = {
+      form: entry.headword, dialect, note: FORMER_HEADWORD, c: change.contribution_id,
+      was: form, was_after: at > 0 ? variantKey(variants[at - 1]) : null, id_was: entry.id,
+    };
+    const newId = opts.newId ?? entry.id;
+    const moved = newId === entry.id ? {} : {
+      id: newId, sort_key: sortKeyOf(String(p.form)), homonym_index: /\.(\d{1,3})$/.test(newId) ? Number(newId.split('.').pop()) : null,
+    };
+    return shaped({
+      ...entry, ...moved, headword: String(p.form),
+      variants: [...variants.filter((_, i) => i !== at), former] as unknown as DictionaryEntry['variants'],
+      provenance: withProvenance(entry.provenance, 'headword', change),
+    });
+  }
 
   if (change.type === 'definition_update') {
     const lang = p.lang as Locale;
@@ -133,6 +189,20 @@ export function unapplyWord(entry: WordEntry, change: Change): WordEntry {
   const p = change.final_payload;
   const c = change.contribution_id;
   const drop = (e: WordEntry) => shaped({ ...e, provenance: withoutProvenance(e.provenance, c) });
+
+  if (change.type === 'headword_change') {
+    const variants = entry.variants as Variant[];
+    const former = variants.find((v) => v.note === FORMER_HEADWORD && v.c === c);
+    const base = change.base?.value as HeadwordBase | undefined;
+    if (!former?.was || !base || entry.headword !== String(p.form)) throw new ConflictError(c, 'headword');
+    const rest = variants.filter((v) => v !== former);
+    const after = former.was_after == null ? -1 : rest.findIndex((v) => variantKey(v) === former.was_after);
+    const at = former.was_after == null ? 0 : after < 0 ? rest.length : after + 1;
+    return drop({
+      ...entry, headword: base.headword, id: base.id, homonym_index: base.homonym_index, sort_key: base.sort_key,
+      variants: [...rest.slice(0, at), former.was, ...rest.slice(at)] as unknown as DictionaryEntry['variants'],
+    });
+  }
 
   if (change.type === 'definition_update') {
     const lang = p.lang as Locale;
