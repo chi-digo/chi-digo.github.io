@@ -252,3 +252,42 @@ returns boolean language sql stable security definer set search_path = '' as $$
       and me.role = 'admin' and me.deleted_at is null and me.blocked_at is null
       and not private.has_other_second_reviewer(c));
 $$;
+
+create or replace function public.fold_claim(p_token text, p_mode text default 'claim')
+returns jsonb language plpgsql security definer set search_path = '' as $$
+declare
+  nonce uuid := gen_random_uuid();
+  rows jsonb;
+begin
+  if not private.fold_token_ok(p_token) then raise exception 'invalid token'; end if;
+
+  if p_mode = 'in_preview' then
+    select coalesce(jsonb_agg(jsonb_build_object('id', id, 'live_status', live_status, 'type', type,
+                                                 'target_type', target_type, 'target_id', target_id)), '[]'::jsonb)
+      into rows from public.contributions where fold_status = 'in_preview';
+    return jsonb_build_object('rows', rows);
+  end if;
+
+  with claimable as (
+    select c.id from public.contributions c
+    where private.fold_claimable(c)
+    order by c.reviewed_at
+    for update skip locked
+  ), claimed as (
+    update public.contributions c
+    set fold_prev = case when c.fold_status = 'folding' then c.fold_prev else c.fold_status end,
+        fold_status = 'folding', fold_claimed_at = now(), fold_nonce = nonce, fold_error = null
+    from claimable where c.id = claimable.id
+    -- Reasons are for reviewers: they never reach the Actions runner.
+    returning c.id, c.type, c.target_type, c.target_id, c.target_path, (c.final_payload - 'reason' - 'reported') as final_payload, c.outcome,
+              c.region, c.base, c.live_status, c.confidence, c.reviewed_at,
+              -- Completing a new proverb (themes, mature) is not an edit of what the contributor wrote.
+              (c.final_payload - 'themes' - 'mature') is distinct from (c.payload - 'themes' - 'mature') as edited
+  )
+  select coalesce(jsonb_agg(to_jsonb(claimed) order by reviewed_at), '[]'::jsonb) into rows from claimed;
+
+  insert into public.contribution_events (action, details)
+  values ('fold_claim', jsonb_build_object('nonce', nonce, 'count', jsonb_array_length(rows)));
+  return jsonb_build_object('nonce', nonce, 'rows', rows);
+end;
+$$;

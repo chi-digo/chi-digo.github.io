@@ -47,8 +47,8 @@ describe('fold-in apply', () => {
   it('sets aside conflicts and skips areas without an applier', () => {
     const dir = checkout();
     const stale = { ...name, id: '22222222-2222-4222-8222-222222222222', base: { value: { digo_headword: 'not this', name_status: 'missing' } } };
-    // Translations have no applier yet (phase 5); words and proverbs do.
-    const word = { ...name, id: '33333333-3333-4333-8333-333333333333', type: 'translation_fix', target_type: 'ui', target_id: 'nav.home', final_payload: { lang: 'dg', current: 'x', proposed: 'y' } };
+    // A type with no applier yet (new plants, phase 6) is skipped.
+    const word = { ...name, id: '33333333-3333-4333-8333-333333333333', type: 'plant_addition', target_type: 'plant', target_id: null, final_payload: { english: 'Wild yam' } };
     const r = run(dir, [stale, word, name]);
     expect(r.conflict.map((c: { id: string }) => c.id)).toEqual([stale.id]);
     expect(r.skipped).toEqual([word.id]);

@@ -13,6 +13,7 @@ import { join } from 'path';
 import { applySourcePlant, unapplySourcePlant } from '../../lib/contributions/apply/plants-source';
 import { applyTranslation, unapplyTranslation } from '../../lib/contributions/apply/translations';
 import { applyArticle, unapplyArticle, type ArticleData } from '../../lib/contributions/apply/articles';
+import { applyUi, unapplyUi, uiKeyAllowed, type MessageTree } from '../../lib/contributions/apply/ui';
 import type { GlossaryTerm } from '../../lib/plants/types';
 import { ConflictError, type Change } from '../../lib/contributions/apply/types';
 import { derivePlant, type SourcePlant } from '../../lib/plants/derive';
@@ -46,6 +47,25 @@ const plantsPath = join(dataDir, 'content/plants/plants.json');
 const glossaryPath = join(dataDir, 'content/plants/glossary.json');
 let glossary: (GlossaryTerm & { term: string })[] | null = null;
 let glossaryDirty = false;
+
+/** Interface message files changed by this run (spec 34 §17.12): sw and dg only, never en. */
+const uiFiles = new Map<string, MessageTree>();
+
+function foldUi(row: ClaimedRow, change: Change): 'applied' | 'reverted' {
+  const lang = String(row.final_payload.lang);
+  const key = String(row.target_path ?? '');
+  if ((lang !== 'sw' && lang !== 'dg') || !uiKeyAllowed(key)) throw new Error(`bad interface fix (${lang} ${key})`);
+  const file = join(dataDir, 'lib/i18n/messages', `${lang}.json`);
+  if (!uiFiles.has(file)) uiFiles.set(file, JSON.parse(readFileSync(file, 'utf-8')) as MessageTree);
+  const reverting = row.live_status === 'reverting';
+  if (!reverting && lang === 'dg') {
+    const ruled = ruledOutIn(String(row.final_payload.proposed));
+    if (ruled.length) throw new Error(`ruled-out Digo: ${ruled.map((r) => r.found).join(', ')}`);
+  }
+  const m = uiFiles.get(file)!;
+  uiFiles.set(file, reverting ? unapplyUi(m, change) : applyUi(m, change));
+  return reverting ? 'reverted' : 'applied';
+}
 
 /** Article files changed by this run (spec 34 §17.11), written once at the end in the standard format. */
 const articles = new Map<string, ArticleData>();
@@ -258,6 +278,15 @@ for (const row of ordered) {
     }
     continue;
   }
+  if (row.target_type === 'ui' && row.type === 'translation_fix') {
+    try {
+      results[foldUi(row, change)].push(row.id);
+    } catch (err) {
+      if (err instanceof ConflictError && row.live_status !== 'reverting') results.conflict.push({ id: row.id, error: err.message });
+      else results.failed.push({ id: row.id, error: String((err as Error).message ?? err).slice(0, 500) });
+    }
+    continue;
+  }
   if (row.target_type === 'article' && row.type === 'translation_fix') {
     try {
       results[foldArticle(row, change)].push(row.id);
@@ -313,6 +342,8 @@ if (!dryRun && plantsChanged) {
 if (!dryRun && glossaryDirty && glossary) writeFileSync(glossaryPath, JSON.stringify(glossary, null, 1));
 // Articles: 2-space JSON with a trailing newline (check:articles enforces it).
 if (!dryRun) for (const [file, data] of articles) writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
+// Interface messages keep their format and key order (2-space JSON, trailing newline).
+if (!dryRun) for (const [file, data] of uiFiles) writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
 if (!dryRun) {
   // Letter files are compact JSON with no trailing newline (build-index.ts then rebuilds the indexes).
   for (const f of dirty) writeFileSync(join(dictDir, `${f}.json`), JSON.stringify(letterFile(f)));

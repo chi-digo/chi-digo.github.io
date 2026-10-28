@@ -4,6 +4,8 @@ import { useTranslations } from '@/lib/i18n/context';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
 import { track } from '@/lib/analytics/track';
 import { FeedbackButton } from '@/components/Contribute/FeedbackButton';
+import { UiFixButton } from '@/components/Contribute/UiFixButton';
+import { useLocale } from '@/lib/i18n/context';
 import styles from './Footer.module.css';
 
 function VigangoMark() {
@@ -94,6 +96,8 @@ export function Footer() {
             <ul className={styles.columnList}>
               <li><TrackedLink href="/contact" source="footer" className={styles.columnLink}>{t.footer.contact_link}</TrackedLink></li>
               <li><FeedbackButton className={styles.columnLink} /></li>
+              {/* Swahili and Digo pages only (the button renders nothing in English). */}
+              <UiFixLi className={styles.columnLink} />
             </ul>
             <div className={styles.socialRow}>
               {SOCIAL_LINKS.map(({ platform, href, Icon }) => (
@@ -122,4 +126,9 @@ export function Footer() {
       </div>
     </footer>
   );
+}
+
+function UiFixLi({ className }: { className: string }) {
+  const { locale } = useLocale();
+  return locale === 'en' ? null : <li><UiFixButton className={className} /></li>;
 }

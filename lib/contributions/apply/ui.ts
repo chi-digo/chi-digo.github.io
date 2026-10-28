@@ -14,7 +14,8 @@ export const UI_DENIED = ['meta', 'auth', 'contribute', 'review', 'admin'];
 export const UI_TEST_KEY = '__test__.label';
 
 export function uiKeyAllowed(key: string): boolean {
-  return UI_KEY.test(key) && !UI_DENIED.includes(key.split('.')[0]);
+  const [section, name] = key.split('.');
+  return UI_KEY.test(key) && !UI_DENIED.includes(section) && ![section, name].some((p) => ['__proto__', 'prototype', 'constructor'].includes(p));
 }
 
 const own = (o: unknown, k: string): unknown =>
@@ -34,14 +35,14 @@ function withText(messages: MessageTree, key: string, text: string): MessageTree
 }
 
 /** Problems with a proposed string against its English (spec 34 §17.12). */
-export function uiTextProblem(en: string, base: string, proposed: string): 'unchanged' | 'placeholders' | 'markers' | 'too_long' | null {
+export function uiTextProblem(en: string, base: string, proposed: string): 'unchanged' | 'placeholders' | 'markers' | 'too_long_ui' | null {
   const p = proposed.trim();
   if (p === base.trim() || (!base && p === en.trim())) return 'unchanged';
   const holes = (t: string) => [...t.matchAll(/\{([a-zA-Z_][a-zA-Z0-9_]*)\}/g)].map((m) => m[1]).sort().join(',');
   if (holes(p) !== holes(en)) return 'placeholders';
   const marks = (t: string) => (t.match(/\{dig:[^}]*\}/g) ?? []).length;
   if (marks(p) !== marks(en)) return 'markers';
-  if (p.length > en.length * 3 + 40) return 'too_long';
+  if (p.length > en.length * 3 + 40) return 'too_long_ui';
   return null;
 }
 
