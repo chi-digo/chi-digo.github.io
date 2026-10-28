@@ -34,6 +34,8 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\bmachero\b/i, right: 'muhondo', ruling: 'round 5 (2026-10-15): tomorrow', only: UI },
   { wrong: /\bHwambire\b/i, right: 'Huambire', ruling: 'round 5: tell us', only: UI },
   { wrong: /\bmuimiriri\b/i, right: 'muimirizi', ruling: 'round 5: admin', only: UI },
+  // "mkaguzi" is the Swahili word, so this is checked only where the file is all Digo.
+  { wrong: /\bmkaguzi\b/i, right: 'mkpwaguzi (plural akaguzi)', ruling: 'owner 2026-10-28: reviewer', only: DG_ONLY },
   { wrong: /\bHandika \{word\}/, right: 'Andika (write)', ruling: 'round 5: handika means cover', only: UI },
   // kpwera stays in the dictionary (shown as the alternative to fyombera); prose uses fyombera.
   { wrong: /\b\w*kpwera\b/i, right: 'fyombera', ruling: 'round 4: climb', only: /public\/data\/plants\// },
