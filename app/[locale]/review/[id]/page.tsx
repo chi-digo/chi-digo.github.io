@@ -54,6 +54,8 @@ interface Detail {
   others: { id: string; type: string; payload: Record<string, unknown>; status: string }[];
   can_self_confirm: boolean;
   dependants?: { id: string; type: string }[];
+  /** An admin on an accepted, live form: making it the headword (spec 34 §18.6). */
+  headword?: { form: string; old: string; page: string | null; homonym: boolean; refusal: { error: string; stub?: string } | null } | null;
 }
 
 /** The text fields a reviewer may edit before accepting, per type. */
@@ -109,6 +111,7 @@ function ReviewItem({ id }: { id: string }) {
   // Completing a new proverb at accept (spec 34 §16.9): themes and the mature decision.
   const [themes, setThemes] = useState<string[]>([]);
   const [mature, setMature] = useState<'' | 'yes' | 'no'>('');
+  const [confirmHeadword, setConfirmHeadword] = useState(false);
 
   const load = useCallback(() => {
     fetch(`/api/review/${id}`)
@@ -160,6 +163,16 @@ function ReviewItem({ id }: { id: string }) {
       : item.type.startsWith('proverb_') && PROVERB_LABEL[k] ? msg(c, PROVERB_LABEL[k])
       : k === 'text' ? c.info_label : msg(c, FIELD_LABEL[k] ?? k);
 
+  const headwordErrors: Record<string, string> = {
+    headword_open: r.err_headword_open, case_only: r.err_case_only, affix_marker: r.err_affix_marker,
+    new_word_settling: r.err_new_word_settling, redirect_entry: r.err_redirect_entry, no_letter: r.err_no_letter, folding: r.err_folding,
+  };
+  const hw = detail.headword;
+  const hwRefusal = hw?.refusal
+    ? hw.refusal.error === 'redirect_stub' ? r.err_redirect_stub.replace('{stub}', hw.refusal.stub ?? '') : headwordErrors[hw.refusal.error] ?? c.error_generic
+    : null;
+  const hwBase = (item.base as { value?: { headword?: string } } | null)?.value;
+
   const act = async (action: string, extra: Record<string, unknown> = {}) => {
     setBusy(action);
     setMessage('');
@@ -192,13 +205,15 @@ function ReviewItem({ id }: { id: string }) {
         unchanged: c.error_unchanged,
         markup: c.error_markup,
         mature_required: r.rv_mature_required,
+        ...headwordErrors,
       };
-      setMessage(map[data.error] ?? c.error_generic);
+      setMessage(data.error === 'redirect_stub' ? r.err_redirect_stub.replace('{stub}', String(data.stub ?? '')) : map[data.error] ?? c.error_generic);
       return;
     }
     track('contribute', 'review', action, { type: item.type });
+    setConfirmHeadword(false);
     // This tab's plant pages must show the decision straight away.
-    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold'].includes(action)) {
+    if (['accept', 'accept_variant', 'second_confirm', 'self_confirm', 'revert', 'retry_fold', 'make_headword'].includes(action)) {
       refreshPlantOverlay();
       refreshWordOverlay();
       refreshProverbOverlay();
@@ -221,6 +236,9 @@ function ReviewItem({ id }: { id: string }) {
         {item.hidden_at && <span className={styles.flag}>{r.hidden}</span>}
         {item.live_status === 'awaiting_second' && <span className={styles.flag}>{r.awaiting_second}</span>}
         {item.live_status === 'conflict' && <span className={styles.flag}>{r.conflict}</span>}
+        {item.type === 'headword_change' && (
+          <span>{r.headword_change_label.replace('{from}', hwBase?.headword ?? '').replace('{to}', String(base.form ?? ''))}</span>
+        )}
         {item.page_path && /^\/(?!\/)/.test(item.page_path) && (
           <a href={item.page_path} target="_blank" rel="noopener noreferrer" className={styles.link}>{r.open_page}</a>
         )}
@@ -431,7 +449,22 @@ function ReviewItem({ id }: { id: string }) {
           {item.status === 'accepted' && status?.role === 'admin' && item.live_status !== 'reverting' && (
             <Button variant="danger" onClick={() => act('revert')} loading={busy === 'revert'} disabled={!!detail.dependants?.length}>{r.revert}</Button>
           )}
+          {hw && !hwRefusal && !confirmHeadword && (
+            <Button variant="secondary" onClick={() => setConfirmHeadword(true)}>{r.make_headword}</Button>
+          )}
         </div>
+        {hw && hwRefusal && <p className={styles.muted}>{r.make_headword}: {hwRefusal}</p>}
+        {hw && !hwRefusal && confirmHeadword && (
+          <div className={styles.warning}>
+            <p>{r.make_headword_confirm.replace('{form}', hw.form).replace('{old}', hw.old)}</p>
+            {hw.page && <p>{r.make_headword_moves.replace('{page}', hw.page)}</p>}
+            {hw.homonym && <p>{r.make_headword_homonym.replaceAll('{form}', hw.form)}</p>}
+            <div className={styles.actions}>
+              <Button onClick={() => act('make_headword')} loading={busy === 'make_headword'}>{r.make_headword_go}</Button>
+              <Button variant="ghost" onClick={() => setConfirmHeadword(false)}>{r.cancel}</Button>
+            </div>
+          </div>
+        )}
         {open && detail.others.length > 0 && (
           <div className={styles.actions}>
             <Select

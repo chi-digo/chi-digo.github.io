@@ -12,7 +12,8 @@ import {
   faqJsonLd,
   breadcrumbJsonLd,
 } from '@/lib/seo/jsonld';
-import type { LetterFile } from '@/lib/dictionary/types';
+import type { DictionaryEntry, LetterFile } from '@/lib/dictionary/types';
+import { formerHeadwords } from '@/lib/contributions/apply/words';
 
 function getAllHeadwords(): string[] {
   const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -37,22 +38,32 @@ function getAllHeadwords(): string[] {
   return [...new Set(headwords)];
 }
 
-function findEntry(headword: string) {
-  const dataDir = path.join(process.cwd(), 'public', 'data');
+/** Headwords match without digits glued on, case, or a leading "-" (as the client's lookup does). */
+const bare = (h: string) => h.replace(/[\d;]+$/, '').replace(/^-/, '').toLowerCase();
 
+/**
+ * The entry a word address shows: one whose headword it is, in any letter file; else one that used to
+ * have that headword (spec 34 §18.5: the old address keeps showing the entry, as a former headword).
+ */
+function findEntry(headword: string): { entry: DictionaryEntry; former: boolean } | null {
+  const dataDir = path.join(process.cwd(), 'public', 'data');
+  const files: LetterFile[] = [];
   for (const file of fs.readdirSync(dataDir)) {
     if (!file.endsWith('.json') || file.endsWith('.idx.json')) continue;
     if (file === 'corpus-to-dict.json' || file === 'fuzzy-rules.json') continue;
     if (file === 'index.json' || file === 'reverse-en.json') continue;
 
-    const raw = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-    const data: LetterFile = JSON.parse(raw);
-    if (data && Array.isArray(data.entries)) {
-      const entry = data.entries.find(
-        (e) => e.headword.replace(/[\d;]+$/, '') === headword,
-      );
-      if (entry) return entry;
-    }
+    const data: LetterFile = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf-8'));
+    if (data && Array.isArray(data.entries)) files.push(data);
+  }
+  const key = bare(headword);
+  for (const data of files) {
+    const entry = data.entries.find((e) => bare(e.headword) === key);
+    if (entry) return { entry, former: false };
+  }
+  for (const data of files) {
+    const entry = data.entries.find((e) => formerHeadwords(e).some((v) => bare(v.form) === key));
+    if (entry) return { entry, former: true };
   }
   return null;
 }
@@ -103,7 +114,21 @@ export async function generateMetadata({
 
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
-    const entry = findEntry(headword);
+    const found = findEntry(headword);
+    if (found?.former) {
+      // The old address of a renamed entry: it shows the entry, under its current headword, which is the
+      // one address search engines should index.
+      const { entry } = found;
+      const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
+      return buildMetadata({
+        title: `${entry.headword} — Chidigo Dictionary`,
+        description: `${entry.headword} (${entry.pos_en}): ${firstDef}. Trilingual Chidigo dictionary entry with definitions in Chidigo, Swahili, and English.`,
+        path: `/language/dictionary/word/${encodeURIComponent(entry.headword)}`,
+        locale: loc,
+        noindex: true,
+      });
+    }
+    const entry = found?.entry;
     if (entry) {
       const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
       return buildMetadata({
@@ -167,7 +192,8 @@ export default async function Page({
 
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
-    const entry = findEntry(headword);
+    const found = findEntry(headword);
+    const entry = found && !found.former ? found.entry : null;
     if (entry) {
       const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
       return (

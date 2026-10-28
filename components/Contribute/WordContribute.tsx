@@ -5,7 +5,7 @@ import { useTranslations } from '@/lib/i18n/context';
 import { msg, takeResumeIntent } from '@/lib/contributions/client';
 import { payloadSummary } from '@/lib/contributions/display';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
-import type { WordEntry } from '@/lib/contributions/apply/words';
+import { FORMER_HEADWORD, formerHeadwords, type WordEntry } from '@/lib/contributions/apply/words';
 import { refreshWordOverlay } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
 import { WORD_ID } from '@/lib/contributions/schemas';
@@ -73,6 +73,7 @@ export function NewWordNote({ entry }: { entry: DictionaryEntry }) {
 export function VariantsLine({ entry }: { entry: DictionaryEntry }) {
   const c = useTranslations().contribute;
   if (!entry.variants?.length) return null;
+  const credited = entry.variants.flatMap((v) => (v.c && v.note !== FORMER_HEADWORD ? [v.c] : []));
   return (
     <div className={styles.intro}>
       <strong>{c.variants_heading}:</strong>{' '}
@@ -83,7 +84,21 @@ export function VariantsLine({ entry }: { entry: DictionaryEntry }) {
           {v.dialect ? ` (${msg(c, `region_${v.dialect}`) === `region_${v.dialect}` ? v.dialect : msg(c, `region_${v.dialect}`)})` : ''}
         </span>
       ))}
-      {entry.variants.some((v) => v.c) && <CreditLine ids={entry.variants.flatMap((v) => (v.c ? [v.c] : []))} />}
+      {/* A former headword is credited to nobody: an admin moved it here (spec 34 §18.2). */}
+      {credited.length > 0 && <CreditLine ids={credited} />}
+    </div>
+  );
+}
+
+/** "Headword form suggested by …": the community form that became the headword (spec 34 §18.2, owner 2026-10-28). */
+export function HeadwordCredit({ entry }: { entry: DictionaryEntry }) {
+  const c = useTranslations().contribute;
+  const from = formerHeadwords(entry).find((v) => v.was?.form === entry.headword && v.was.c);
+  if (!from?.was?.c) return null;
+  return (
+    <div className={styles.intro}>
+      <strong>{c.headword_form}:</strong> <em>{entry.headword}</em>
+      <CreditLine ids={[from.was.c]} />
     </div>
   );
 }

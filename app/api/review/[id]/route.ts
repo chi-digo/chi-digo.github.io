@@ -6,8 +6,8 @@ import {
   getCaller, canReview, forbidden, badRequest, rpc, rpcError, serverError, refreshOverlay, overlayArea, readsLanguage,
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
-import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal } from '@/lib/contributions/targets';
-import { applyAllToEntries, nextSenseId } from '@/lib/contributions/apply/words';
+import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
+import { applyAllToEntries, nextSenseId, sortKeyOf } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import type { Change } from '@/lib/contributions/apply/types';
@@ -62,6 +62,32 @@ async function makeHeadword(
   if (result.error) return rpcError(result.error);
   refreshOverlay('word');
   return NextResponse.json({ id: result.id, status: result.status, live_status: result.live_status });
+}
+
+/**
+ * For an admin looking at an accepted, live form: whether it can be made the headword, and what the
+ * confirmation should say (the old headword, a letter-page move, a homonym), or why not.
+ */
+async function headwordOption(
+  db: SupabaseClient,
+  row: { id: string; target_id: string | null; is_test: boolean; final_payload: Record<string, unknown> | null },
+) {
+  if (!row.target_id) return null;
+  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
+  if (!raw) return null;
+  const form = String(row.final_payload?.form ?? '');
+  const { data: open } = await db.from('contributions').select('id, target_id, fold_status, live_status, final_payload')
+    .eq('type', 'headword_change').eq('status', 'accepted').eq('target_id', row.target_id);
+  const busy = (open ?? []).some((h) => h.final_payload?.variant === row.id || h.fold_status !== 'folded' || h.live_status !== 'live');
+  const refusal = busy ? { error: 'headword_open' } : headwordRefusal(raw, form);
+  let page: string | null = null;
+  try {
+    const to = entryFile(sortKeyOf(form));
+    if (to !== entryFile(raw.sort_key)) page = to.replace(/_/g, "'").toUpperCase();
+  } catch {
+    /* refused above */
+  }
+  return { form, old: raw.headword, page, homonym: headwordExists(form), refusal };
 }
 
 async function load(db: SupabaseClient, id: string) {
@@ -124,6 +150,8 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
           : false,
         agreements: agreements ?? [],
         others: others ?? [],
+        headword: caller.role === 'admin' && row.type === 'spelling_variant' && row.status === 'accepted' && row.live_status === 'live'
+          ? await headwordOption(caller.db, row) : null,
       },
       { headers: { 'Cache-Control': 'no-store' } },
     );

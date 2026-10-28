@@ -145,7 +145,16 @@ async function searchVariants(q: string): Promise<SearchResult[]> {
       letter: id.charAt(0), language: "dg",
     });
   }
-  return out;
+  // Label each result with the entry's headword as it reads now: a form made the headword, live, still
+  // sits under the entry's old id (spec 34 §18.3).
+  return Promise.all(out.map(async (r) => {
+    try {
+      const row = (await loadLetterIndex(r.id.replace(/\.\d+$/, ""))).find((x) => x.id === r.id);
+      return row ? { ...r, headword: cleanHw(row.hw) } : r;
+    } catch {
+      return r;
+    }
+  }));
 }
 
 async function searchReverse(

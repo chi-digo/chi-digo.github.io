@@ -20,7 +20,8 @@ const CreditsContext = createContext<Map<string, Credit>>(new Map());
 
 /** Every contribution id in a record's provenance. */
 export function provenanceIds(provenance: Provenance | undefined): string[] {
-  return [...new Set(Object.values(provenance ?? {}).flat().map((e) => e.c))];
+  // A headword change is an admin's decision, not a contribution: nobody to credit (spec 34 §18.2).
+  return [...new Set(Object.entries(provenance ?? {}).filter(([path]) => path !== 'headword').flatMap(([, list]) => list).map((e) => e.c))];
 }
 
 /**

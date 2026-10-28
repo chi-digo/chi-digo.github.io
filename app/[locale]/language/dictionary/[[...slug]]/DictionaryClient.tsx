@@ -6,7 +6,7 @@ import { localePath, pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
-import { loadEntriesByHeadword } from '@/lib/dictionary/loader';
+import { isHeadwordOf, loadEntriesByHeadword } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
@@ -14,8 +14,8 @@ import { track } from '@/lib/analytics/track';
 import { ShareMenu } from '@/components/ShareMenu/ShareMenu';
 import { useShareCard } from '@/hooks/useShareCard';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
-import type { WordEntry } from '@/lib/contributions/apply/words';
-import { useWordForms, NewWordNote, VariantsLine, ImproveLink, WordSuggest, canSuggest } from '@/components/Contribute/WordContribute';
+import { formerHeadwords, type WordEntry } from '@/lib/contributions/apply/words';
+import { useWordForms, NewWordNote, VariantsLine, HeadwordCredit, ImproveLink, WordSuggest, canSuggest } from '@/components/Contribute/WordContribute';
 import { NewWordForm } from '@/components/Contribute/WordForms';
 import { CreditsProvider, CreditLine, provenanceIds } from '@/components/Contribute/Credits';
 import { takeResumeIntent } from '@/lib/contributions/client';
@@ -359,6 +359,7 @@ function EntrySection({
         </div>
       )}
 
+      <HeadwordCredit entry={entry} />
       <VariantsLine entry={entry} />
 
       {entry.is_redirect && entry.redirect_target && (
@@ -558,8 +559,13 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
       });
   }, [headword, query]);
 
-  const mainEntries = entries.filter((e) => !e.is_redirect);
-  const redirectEntries = entries.filter((e) => e.is_redirect);
+  // An entry that used to have this headword (spec 34 §18.3): shown in full when nothing else has the
+  // headword now (the old address keeps showing it); otherwise listed under "Now listed as".
+  const current = entries.filter((e) => isHeadwordOf(e, headword));
+  const shown = current.length ? current : entries;
+  const renamed = current.length ? entries.filter((e) => !isHeadwordOf(e, headword)) : [];
+  const mainEntries = shown.filter((e) => !e.is_redirect);
+  const redirectEntries = shown.filter((e) => e.is_redirect);
   const isHomonym = mainEntries.length > 1;
   const primary = mainEntries[0] ?? entries[0];
 
@@ -598,6 +604,7 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
                 entryType="word"
                 entryId={primary.headword}
                 entryLabel={primary.headword}
+                aliases={formerHeadwords(primary).map((v) => v.form)}
                 journey="dictionary"
                 size="sm"
               />
@@ -629,6 +636,15 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
 
           {redirectEntries.map((entry) => (
             <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} contributions={contributions} />
+          ))}
+
+          {renamed.map((entry) => (
+            <p key={entry.id} className={styles.redirect}>
+              {t.dictionary.now_listed_as}:{' '}
+              <button type="button" className={styles.redirectLink} onClick={() => goToWord(nav, entry.headword)}>
+                {cleanHeadword(entry.headword)}
+              </button>
+            </p>
           ))}
         </article>
         </CreditsProvider>
