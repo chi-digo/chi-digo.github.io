@@ -38,6 +38,7 @@ export const RULED_OUT: Rule[] = [
   { wrong: /\b(?:ina|ku)?tafuta\b/i, right: 'hendza (inahendza, kuhendza)', ruling: 'owner 2026-10-28: search', only: DG_ONLY },
   { wrong: /\b(?:ina|ku)?endza\b/i, right: 'hendza (inahendza, kuhendza)', ruling: 'owner 2026-10-28: search is hendza, not endza', only: DG_ONLY },
   { wrong: /\bvivi sambi\b/i, right: 'hivi sambi', ruling: 'owner 2026-10-25/28: now', only: DG_ONLY },
+  { wrong: /\bReka\b/i, right: 'ika (keep)', ruling: 'owner 2026-10-28: keep is ika; UI file only, since reka "leave" is right elsewhere', only: /lib\/i18n\/messages\/dg\.json/ },
   // "mkaguzi" is the Swahili word, so this is checked only where the file is all Digo.
   { wrong: /\bmkaguzi\b/i, right: 'mkpwaguzi (plural akaguzi)', ruling: 'owner 2026-10-28: reviewer', only: DG_ONLY },
   { wrong: /\bHandika \{word\}/, right: 'Andika (write)', ruling: 'round 5: handika means cover', only: UI },
