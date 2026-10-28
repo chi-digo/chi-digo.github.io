@@ -369,6 +369,24 @@ async function main() {
     await d.waitForTimeout(3000);
     check('English articles have no fix switch', (await d.getByRole('button', { name: /Something wrong in this translation/ }).count()) === 0);
 
+    console.log('4g. fix a translation on this page (Swahili)');
+    await d.goto(`${BASE}/sw/history`);
+    await d.waitForTimeout(3000);
+    await d.getByRole('button', { name: 'Rekebisha tafsiri kwenye ukurasa huu' }).click();
+    await d.getByRole('textbox', { name: 'Tafuta maandishi kwenye ukurasa huu' }).waitFor({ timeout: 15000 });
+    await d.waitForTimeout(500);
+    const uiListed = await d.getByRole('dialog').locator('li button').count();
+    check('the footer link lists the page’s text', uiListed > 5, String(uiListed));
+    await d.getByRole('textbox', { name: 'Tafuta maandishi kwenye ukurasa huu' }).fill('Historia');
+    check('…search narrows it', await visible(d, 'Historia'));
+    await d.getByRole('dialog').locator('li button', { hasText: 'Historia' }).first().click();
+    check('…picking one shows its English', await visible(d, 'Kwa Kiingereza'));
+    await shot(d, '22-ui-fix');
+    await d.keyboard.press('Escape');
+    await d.goto(`${BASE}/history`);
+    await d.waitForTimeout(2000);
+    check('English pages have no such link', (await d.getByRole('button', { name: /Fix a translation on this page/ }).count()) === 0);
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });

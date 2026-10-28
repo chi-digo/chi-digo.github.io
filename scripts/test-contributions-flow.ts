@@ -446,6 +446,28 @@ async function main() {
     const artOv = await call(null, 'GET', '/api/overlay/article');
     check('test fixes never reach the article overlay', artOv.status === 200 && !artOv.json.changes.some((c: { contribution_id: string }) => c.contribution_id === tArt), artOv.json);
 
+    console.log('5g. interface strings (spec 34 §17.12)');
+    const T2 = await session(await createUser('translations2'));
+    users.push(T2.id);
+    const ui = (payload: Record<string, unknown>) => ({
+      type: 'translation_fix', target_type: 'ui', target_id: TEST, payload: { lang: 'sw', field: 'ui', key: '__test__.label', reason: 'Better wording', ...payload }, locale: 'sw', region: 'tanga', confidence: 'native',
+    });
+    r = await call(T2, 'POST', '/api/contributions', ui({ proposed: 'Lebo ya majaribio' }));
+    check('an unchanged string → 400', r.status === 400 && r.json.error === 'unchanged', r);
+    r = await call(T2, 'POST', '/api/contributions', ui({ proposed: 'Lebo {name}' }));
+    check('a placeholder English doesn’t have → 400', r.status === 400 && r.json.error === 'placeholders', r);
+    r = await call(T2, 'POST', '/api/contributions', ui({ key: 'nav.home_link', proposed: 'Mwanzo' }));
+    check('a test account can’t touch a real string → 404', r.status === 404, r);
+    r = await call(T2, 'POST', '/api/contributions', ui({ proposed: 'Lebo mpya ya majaribio' }));
+    const tUi = r.json.id as string;
+    check('an interface fix → 201', r.status === 201, r);
+    const { data: uiRow } = await admin.from('contributions').select('target_path, scope').eq('id', tUi).single();
+    check('…the key is the path, built on the server', uiRow?.target_path === '__test__.label' && uiRow?.scope === 'translations', uiRow);
+    r = await call(A, 'POST', `/api/review/${tUi}`, { action: 'accept' });
+    check('an interface fix always needs a second reviewer', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+    r = await call(A, 'GET', `/api/review/${tUi}`);
+    check('…and the admin can’t confirm it alone', r.status === 200 && r.json.can_self_confirm === false && r.json.current?.source === 'Test label', r.json?.can_self_confirm);
+
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });
     check('withdraw', r.status === 200 && r.json.status === 'withdrawn', r);
