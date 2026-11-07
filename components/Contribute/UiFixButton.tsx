@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { TextArea, TextField } from '@chi-digo/design-system';
+import { TextArea, TextField, VisuallyHidden } from '@chi-digo/design-system';
 import { stringsReadOn, useLocale, useTranslations } from '@/lib/i18n/context';
 import { takeResumeIntent, useContributionDraft } from '@/lib/contributions/client';
 import { UI_DENIED, UI_KEY } from '@/lib/contributions/apply/ui';
@@ -129,6 +129,7 @@ export function UiFixButton({ className }: { className?: string }) {
         payload={changed && reason ? { lang, field: 'ui', key: chosen, proposed, reason } : null}
         // Where it's said and how sure: only when the reader writes their own fix (not when agreeing).
         askSource={!chosen || !waiting.open.has(chosen) || differently}
+        hideSubmit={!!chosen && waiting.open.has(chosen) && !differently}
         onSubmitted={clear}
       >
         {!chosen ? (
@@ -152,8 +153,8 @@ export function UiFixButton({ className }: { className?: string }) {
                       setDraft({ key: x.key, text: x.seen, reason: '' });
                     }}>
                       {x.seen}
-                      {waiting.open.has(x.key) && <span className={styles.uiTag}>{c.ui_fix_under_review}</span>}
-                      {!waiting.open.has(x.key) && waiting.accepted.has(x.key) && <span className={styles.uiTag}>{c.ui_fix_accepted_tag}</span>}
+                      {waiting.open.has(x.key) && <span className={styles.uiTag}><VisuallyHidden>, </VisuallyHidden>{c.ui_fix_under_review}</span>}
+                      {!waiting.open.has(x.key) && waiting.accepted.has(x.key) && <span className={styles.uiTag}><VisuallyHidden>, </VisuallyHidden>{c.ui_fix_accepted_tag}</span>}
                       {repeated.has(x.seen) && <span className={styles.uiWhere}>{x.key.split('.')[0].replace(/_/g, ' ')}</span>}
                     </button>
                   </li>
@@ -196,6 +197,9 @@ export function UiFixButton({ className }: { className?: string }) {
                   setDraft({ text: String(s.public_payload.proposed ?? '') });
                 }}
               />
+            )}
+            {waiting.open.has(chosen) && !differently && (
+              <button type="button" className={styles.textBtn} onClick={() => setDifferently(true)}>{c.ui_fix_none_of_these}</button>
             )}
             {(!waiting.open.has(chosen) || differently) && (
               <>

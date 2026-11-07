@@ -118,7 +118,7 @@ export function SuggestionsPanel({
             <li key={s.id} className={styles.panelItem}>
               <div className={styles.panelContent}>{render(s)}</div>
               <p className={styles.panelMeta}>
-                {s.region ? c.panel_by.replace('{region}', msg(c, `region_${s.region}`)) : null}
+                {s.region ? c.panel_by.replace('{region}', msg(c, `region_${s.region}`)) : c.panel_by_none}
                 {s.confidence && <span> · {msg(c, `confidence_${s.confidence}`)}</span>}
                 {s.agree_count > 0 && <span> · {c.panel_agree_count.replace('{n}', String(s.agree_count))}</span>}
               </p>

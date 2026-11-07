@@ -931,7 +931,12 @@
     "ui_fix_only_waiting": "Only text with a fix under review",
     "ui_fix_under_review": "fix under review",
     "ui_fix_accepted_tag": "fix accepted",
-    "ui_fix_accepted_waiting": "Accepted: “{text}” shows on the site after the next update."
+    "ui_fix_accepted_waiting": "Accepted: “{text}” shows on the site after the next update.",
+    "panel_by_none": "A Digo speaker",
+    "ui_fix_none_of_these": "None of these: write my own",
+    "notif_batch_accepted_one": "1 of your suggestions was accepted.",
+    "notif_batch_declined_one": "1 of your suggestions wasn’t accepted.",
+    "notif_batch_none": "A reviewer went through your suggestions."
   },
   "review": {
     "ui_alone_off": "Interface fixes need two reviewers; other changes only when no one else could confirm.",
@@ -1068,7 +1073,11 @@
     "bulk_err_same_target": "Another selected fix changes the same text",
     "bulk_err_own_accept": "You accepted it, and confirming alone is off",
     "bulk_err_not_found": "Not found, or not a translation fix",
-    "bulk_checking": "Checking…"
+    "bulk_checking": "Checking…",
+    "bulk_paused": "Accepted; shows when publishing resumes",
+    "bulk_confirm_failed": "Accepted, but confirming alone failed: it waits for a second reviewer",
+    "bulk_select_first_50": "Select the first 50",
+    "bulk_max": "50 at most"
   },
   "admin": {
     "menu_admin": "Reviewers",

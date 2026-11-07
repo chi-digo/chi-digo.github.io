@@ -69,8 +69,9 @@ function NotificationsContent() {
     // One message for a bulk review: how many were accepted and how many weren't (spec 34 §19.1).
     if (n.kind === 'batch') {
       const d = n.details ?? {};
-      return [d.accepted ? c.notif_batch_accepted.replace('{n}', String(d.accepted)) : '', d.declined ? c.notif_batch_declined.replace('{n}', String(d.declined)) : '']
-        .filter(Boolean).join(' ');
+      const line = (n: number | undefined, one: string, many: string) => (!n ? '' : n === 1 ? one : many.replace('{n}', String(n)));
+      return [line(d.accepted, c.notif_batch_accepted_one, c.notif_batch_accepted), line(d.declined, c.notif_batch_declined_one, c.notif_batch_declined)]
+        .filter(Boolean).join(' ') || c.notif_batch_none;
     }
     const summary = n.contribution?.summary || msg(c, `type_${n.contribution?.type ?? 'general_feedback'}`);
     const target = n.contribution?.target_label ?? '';

@@ -12,7 +12,7 @@ import styles from './review.module.css';
 
 export type BulkAction = 'accept' | 'accept_confirm' | 'confirm' | 'decline';
 type Item = { label: string | null; lang: unknown; current: string | null; proposed: unknown; source: string | null; swahili: string | null; reason: unknown };
-type Result = { id: string; ok: boolean; would?: 'live' | 'awaiting_second'; status?: string; live_status?: string; error?: string; item?: Item };
+type Result = { id: string; ok: boolean; would?: 'live' | 'awaiting_second' | 'paused'; status?: string; live_status?: string; error?: string; confirm_failed?: string; item?: Item };
 
 /** What a skipped or failed item says, in the reviewer's language. */
 function useReasonText() {
@@ -23,7 +23,7 @@ function useReasonText() {
     ruled_out: r.err_ruled_out, pii: r.err_pii, target_changed: r.err_target_changed, conflict: r.err_conflict, forbidden: r.err_forbidden,
     self_review: r.bulk_err_self_review, rate_cap: r.err_rate, not_attempted: r.bulk_err_not_attempted, claimed: r.bulk_err_claimed,
     already_decided: r.bulk_err_already_decided, same_target_in_batch: r.bulk_err_same_target, own_accept: r.bulk_err_own_accept,
-    not_found: r.bulk_err_not_found, too_long_ui: c.error_too_long_ui, placeholders: c.error_placeholders, links: c.error_links,
+    not_found: r.bulk_err_not_found, server_error: c.error_generic, too_long_ui: c.error_too_long_ui, placeholders: c.error_placeholders, links: c.error_links,
     markers: c.error_markers, unchanged: c.error_unchanged, markup: c.error_markup,
   };
   return (code?: string) => (code && map[code]) || c.error_generic;
@@ -33,7 +33,9 @@ function useReasonText() {
  * The check-then-send sheet for bulk review (spec 34 §19.1): the server's dry run says what each selected fix
  * would do; the reviewer can drop any of them, then sends. Results stay on screen with what wasn't done.
  */
-export function BulkSheet({ action, ids, onClose, onDone }: { action: BulkAction; ids: string[]; onClose: () => void; onDone: () => void }) {
+export function BulkSheet({ action, ids: selected, onClose, onDone }: { action: BulkAction; ids: string[]; onClose: () => void; onDone: () => void }) {
+  // The selection as it was when the sheet opened: later re-renders of the queue don't change it.
+  const [ids] = useState(() => selected);
   const t = useTranslations();
   const r = t.review;
   const c = t.contribute;
@@ -68,21 +70,24 @@ export function BulkSheet({ action, ids, onClose, onDone }: { action: BulkAction
 
   const send = async () => {
     setBusy(true);
-    const res = await fetch('/api/review/bulk', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ action, ids: [...keep], ...(action === 'decline' && { reason, ...(note.trim() && { note: note.trim() }) }) }),
-    });
-    setBusy(false);
-    if (!res.ok) {
+    try {
+      const res = await fetch('/api/review/bulk', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action, ids: [...keep], ...(action === 'decline' && { reason, ...(note.trim() && { note: note.trim() }) }) }),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      const d = (await res.json()) as { results: Result[] };
+      track('contribute', 'review', `bulk_${action}`, { count: keep.size, ok: d.results.filter((x) => x.ok).length });
+      // Items the check skipped stay listed with their reason, next to what was done.
+      setDone([...d.results, ...skipped]);
+    } catch {
       setFailed(true);
+    } finally {
+      setBusy(false);
       onDone();
-      return;
     }
-    const d = (await res.json()) as { results: Result[] };
-    track('contribute', 'review', `bulk_${action}`, { count: keep.size, ok: d.results.filter((x) => x.ok).length });
-    setDone(d.results);
-    onDone();
   };
+  const labelOf = (id: string) => plan?.results.find((x) => x.id === id)?.item?.label ?? '';
 
   const ok = plan?.results.filter((x) => x.ok) ?? [];
   const skipped = plan?.results.filter((x) => !x.ok) ?? [];
@@ -90,12 +95,12 @@ export function BulkSheet({ action, ids, onClose, onDone }: { action: BulkAction
   const wait = ok.filter((x) => keep.has(x.id) && x.would === 'awaiting_second').length;
   const submitLabel = { accept: r.bulk_submit_accept, accept_confirm: r.bulk_submit_accept_confirm, confirm: r.bulk_submit_confirm, decline: r.bulk_submit_decline }[action];
   const fate = (x: Result) =>
-    action === 'decline' ? r.bulk_will_decline : action === 'accept_confirm' ? r.bulk_alone : x.would === 'awaiting_second' ? r.bulk_waits : r.bulk_go_live;
+    action === 'decline' ? r.bulk_will_decline : x.would === 'paused' ? r.bulk_paused : action === 'accept_confirm' ? r.bulk_alone : x.would === 'awaiting_second' ? r.bulk_waits : r.bulk_go_live;
 
   return (
     <BottomSheet open onClose={onClose} title={r.bulk_sheet_title.replace('{n}', String(ids.length))} size="full">
       <div className={styles.sheet}>
-        {failed && <p className={styles.error} role="alert">{c.error_generic}</p>}
+        {failed && !done && <p className={styles.error} role="alert">{c.error_generic}</p>}
         {!plan && !failed && <p className={styles.muted} role="status">{r.bulk_checking}</p>}
         {done ? (
           <section aria-labelledby="bulk-done">
@@ -104,10 +109,20 @@ export function BulkSheet({ action, ids, onClose, onDone }: { action: BulkAction
             </h3>
             <ul className={styles.items}>
               {done.map((x) => (
-                <li key={x.id} className={styles.bulkRow}>
+                <li key={x.id}>
+                  {/* Each result names its item, so the links differ (WCAG 2.4.4). */}
                   <TrackedLink href={`/review/${x.id}`} source="review_bulk" className={styles.link}>
-                    {x.ok ? (x.live_status === 'awaiting_second' ? r.bulk_waits : x.status === 'declined' ? r.bulk_declined : r.bulk_live) : reasonText(x.error)}
+                    {labelOf(x.id) || x.id.slice(0, 8)}
                   </TrackedLink>
+                  <span>
+                    {': '}
+                    {x.ok
+                      ? x.confirm_failed ? r.bulk_confirm_failed
+                        : x.live_status === 'awaiting_second' ? r.bulk_waits
+                        : x.live_status === 'paused' ? r.bulk_paused
+                        : x.status === 'declined' ? r.bulk_declined : r.bulk_live
+                      : reasonText(x.error)}
+                  </span>
                 </li>
               ))}
             </ul>

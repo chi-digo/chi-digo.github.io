@@ -95,7 +95,7 @@ function QueueList({ view, confirmAlone }: { view: View; confirmAlone: boolean }
 
   return (
     <div className={bulk && all.length ? styles.withBar : undefined}>
-      {bulk && all.length > 1 && <SelectBox ids={all.slice(0, 50)} selected={selected} onChange={pick} label={r.bulk_select_all} />}
+      {bulk && all.length > 1 && <SelectBox ids={all.slice(0, 50)} selected={selected} onChange={pick} label={all.length > 50 ? r.bulk_select_first_50 : r.bulk_select_all} />}
       {groups.map((g) => {
         const eligible = g.items.filter((it) => selectable(it, view)).map((it) => it.id);
         return (
@@ -111,6 +111,8 @@ function QueueList({ view, confirmAlone }: { view: View; confirmAlone: boolean }
           <ul className={styles.items}>
             {g.items.map((it) => (
               <li key={it.id} className={styles.bulkRow}>
+                {/* A row that can't be selected keeps the same gutter; its flags say why (yours, claimed). */}
+                {bulk && !selectable(it, view) && all.length > 0 && <span className={styles.rowGutter} aria-hidden="true" />}
                 {bulk && selectable(it, view) && (
                   <input
                     type="checkbox"
@@ -149,7 +151,7 @@ function QueueList({ view, confirmAlone }: { view: View; confirmAlone: boolean }
       })}
       {bulk && all.length > 0 && (
         <div className={styles.bulkBar} role="region" aria-label={r.bulk_bar}>
-          <span aria-live="polite">{r.bulk_selected.replace('{n}', String(ids.length))}</span>
+          <span aria-live="polite">{r.bulk_selected.replace('{n}', String(ids.length))}{ids.length >= 50 ? ` · ${r.bulk_max}` : ''}</span>
           {view === 'open' ? (
             <>
               <Button size="sm" disabled={!ids.length} onClick={() => setSheet('accept')}>{r.bulk_accept}</Button>

@@ -260,3 +260,8 @@
   padding: var(--space-3) 0;
   background: var(--bg-surface, #fff);
 }
+
+.rowGutter {
+  flex: none;
+  width: 20px;
+}

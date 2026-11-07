@@ -41,6 +41,8 @@ interface ContributionDialogProps {
   payload: Record<string, unknown> | null;
   /** Ask where it's said and how the contributor knows (names and content; not feedback). */
   askSource?: boolean;
+  /** No send button (e.g. while the reader is only agreeing with a fix already waiting, §19.2). */
+  hideSubmit?: boolean;
   /** Called after a successful submission (clear the type-specific draft, refresh panels). */
   onSubmitted?: () => void;
 }
@@ -67,7 +69,7 @@ export function ContributionDialog(props: ContributionDialogProps) {
 }
 
 function OpenDialog({
-  onClose, type, title, intro, target, draftKey, resume, children, payload, askSource = false, onSubmitted,
+  onClose, type, title, intro, target, draftKey, resume, children, payload, askSource = false, hideSubmit = false, onSubmitted,
 }: ContributionDialogProps) {
   const { user, loading: authLoading } = useAuth();
   const t = useTranslations();
@@ -300,7 +302,7 @@ function OpenDialog({
       <>
         {!online && <p className={styles.offlineNote} role="status">{c.offline}</p>}
         <Button variant="ghost" onClick={close}>{c.cancel}</Button>
-        <Button
+        {!hideSubmit && <Button
           variant="primary"
           onClick={() => send()}
           loading={sending}
@@ -308,7 +310,7 @@ function OpenDialog({
           aria-disabled={!payload || !online || authLoading}
         >
           {c.submit}
-        </Button>
+        </Button>}
       </>
     );
   }
