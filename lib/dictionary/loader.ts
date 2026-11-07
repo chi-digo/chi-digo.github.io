@@ -176,17 +176,18 @@ async function movedEntriesFor(headword: string, ownFile: string): Promise<Dicti
   } catch {
     return [];
   }
-  const key = [headword.toLowerCase(), bare(headword)].find((k) => Object.hasOwn(map, k));
-  const id = key ? map[key] : null;
-  if (!id || id.startsWith("c:")) return [];
-  const file = digoLetterFile(id.replace(/\.\d+$/, ""));
-  if (file === ownFile) return [];
-  try {
-    const entry = (await letterData(file)).entries.find((e) => e.id === id);
-    return entry && entriesFor({ count: 1, entries: [entry] } as LetterFile, headword).length ? [entry] : [];
-  } catch {
-    return [];
-  }
+  const ids = [...new Set([headword.toLowerCase(), bare(headword)].flatMap((k) => (Object.hasOwn(map, k) ? map[k] : [])))]
+    .filter((id) => !id.startsWith("c:") && digoLetterFile(id.replace(/\.\d+$/, "")) !== ownFile);
+  const found = await Promise.all(ids.map(async (id) => {
+    try {
+      const entry = (await letterData(digoLetterFile(id.replace(/\.\d+$/, "")))).entries.find((e) => e.id === id);
+      // Only a former headword, or a live new one, gets the address; an ordinary other form doesn't.
+      return entry && entriesFor({ count: 1, entries: [entry] } as LetterFile, headword).length ? [entry] : [];
+    } catch {
+      return [];
+    }
+  }));
+  return found.flat();
 }
 
 export async function loadEntriesByHeadword(
@@ -207,6 +208,22 @@ export async function loadEntriesByHeadword(
   const fresh = mergeLetter(file, raw, await wordOverlay());
   merged.set(file, Promise.resolve(fresh));
   return mergeFound(headword, [entriesFor(fresh, headword), moved]);
+}
+
+/**
+ * The entry a saved word (a favourite, stored by headword) means now (spec 34 §18.6). Its headword if
+ * an entry still has it; otherwise the entry that gave it up, so a renamed word is still the one saved.
+ */
+export async function savedWordEntry(headword: string): Promise<DictionaryEntry | null> {
+  const found = await loadEntriesByHeadword(headword);
+  return found.find((e) => isHeadwordOf(e, headword)) ?? found[0] ?? null;
+}
+
+/** Former headwords of an entry that no entry has as its headword now: a favourite saved under one is this entry's. */
+export async function ownFormerHeadwords(entry: DictionaryEntry): Promise<string[]> {
+  const forms = formerHeadwords(entry).map((v) => v.form);
+  const free = await Promise.all(forms.map(async (f) => !(await loadEntriesByHeadword(f).catch(() => [])).some((e) => isHeadwordOf(e, f))));
+  return forms.filter((_, i) => free[i]);
 }
 
 const mergedReverse = new Map<string, Promise<ReverseIndex>>();
@@ -248,15 +265,18 @@ export async function loadReverseIndex(
 /** Spelling and regional forms (form -> entry id), with live community forms. */
 export async function loadVariants(): Promise<VariantsMap> {
   if (!mergedVariants) {
-    mergedVariants = Promise.all([fetchJson<VariantsMap>("/data/variants.json"), wordOverlay()]).then(([map, changes]) => {
-      const out: VariantsMap = Object.assign(Object.create(null), map);
+    mergedVariants = Promise.all([fetchJson<Record<string, string | string[]>>("/data/variants.json"), wordOverlay()]).then(([map, changes]) => {
+      // An older cached copy maps each form to one id.
+      const out: VariantsMap = Object.create(null);
+      for (const [form, ids] of Object.entries(map)) out[form] = Array.isArray(ids) ? [...ids] : [ids];
       for (const c of changes) {
         if (!c.target_id || c.target_id === "__test__") continue;
         const form = String(c.final_payload.form ?? "").toLowerCase().trim();
         if (!form) continue;
-        // A form made the headword (still under the entry's old id) wins over any other form.
-        if (c.type === "headword_change") out[form] = c.target_id;
-        else if (c.type === "spelling_variant" && !Object.hasOwn(out, form)) out[form] = c.target_id;
+        const ids = Object.hasOwn(out, form) ? out[form].filter((id) => id !== c.target_id) : [];
+        // A form made the headword (still under the entry's old id) comes first; any other form after.
+        if (c.type === "headword_change") out[form] = [c.target_id, ...ids];
+        else if (c.type === "spelling_variant") out[form] = [...ids, c.target_id];
       }
       return out;
     });

@@ -16,6 +16,8 @@ interface AppFavouriteButtonProps {
   journey: Journey;
   size?: 'sm' | 'md' | 'lg';
   inverted?: boolean;
+  /** Other ids this same item was saved under: a word's former headwords no other word has (spec 34 §18.6). */
+  aliases?: string[];
 }
 
 export function AppFavouriteButton({
@@ -25,13 +27,16 @@ export function AppFavouriteButton({
   journey,
   size = 'md',
   inverted,
+  aliases,
 }: AppFavouriteButtonProps) {
   const { user } = useAuth();
   const { isFavourite, toggleFavourite } = useFavourites();
   const t = useTranslations();
   const [sheetOpen, setSheetOpen] = useState(false);
 
-  const filled = isFavourite(entryType, entryId);
+  // Saved under the current id or one the word gave up: filled, and removing it removes the saved one.
+  const savedAs = [entryId, ...(aliases ?? [])].find((id) => isFavourite(entryType, id));
+  const filled = !!savedAs;
 
   const handleToggle = useCallback(() => {
     if (!user) {
@@ -42,8 +47,8 @@ export function AppFavouriteButton({
 
     const action = filled ? 'favourite_remove' : 'favourite_add';
     track(journey, entryType, action, { entry_id: entryId, entry_label: entryLabel });
-    toggleFavourite(entryType, entryId, entryLabel);
-  }, [user, filled, journey, entryType, entryId, entryLabel, toggleFavourite]);
+    toggleFavourite(entryType, savedAs ?? entryId, entryLabel);
+  }, [user, filled, savedAs, journey, entryType, entryId, entryLabel, toggleFavourite]);
 
   return (
     <>

@@ -6,7 +6,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useFavourites } from '@/lib/favourites/context';
 import { Badge, EmptyState, Skeleton } from '@chi-digo/design-system';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
-import { loadLetterIndex, loadVariants } from '@/lib/dictionary/loader';
+import { savedWordEntry } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
 import styles from './FavouritesList.module.css';
 import { loadProverbs } from '@/lib/proverbs/loader';
@@ -18,18 +18,6 @@ interface ProverbIndex {
   literal_en: string;
   swahili: string;
   commentary_dg?: string;
-}
-
-const DIGO_PREFIXES = [
-  'gbw', 'kpw', 'ndz', "ng'", 'ch', 'dz', "m'", 'ng', 'ph', 'sh', 'ts',
-];
-
-function letterForWord(word: string): string {
-  const q = word.toLowerCase();
-  for (const prefix of DIGO_PREFIXES) {
-    if (q.startsWith(prefix)) return prefix;
-  }
-  return q[0];
 }
 
 function FavouritesSkeleton() {
@@ -58,6 +46,8 @@ export function FavouritesList() {
   const { locale } = useLocale();
   const { favourites, loading } = useFavourites();
   const [glosses, setGlosses] = useState<Record<string, string>>({});
+  /** Saved headword -> the word's headword now (the same unless it changed). */
+  const [headwords, setHeadwords] = useState<Record<string, string>>({});
 
   useEffect(() => {
     if (favourites.length === 0) return;
@@ -66,38 +56,21 @@ export function FavouritesList() {
     const proverbs = favourites.filter((f) => f.entry_type === 'proverb');
 
     const resolved: Record<string, string> = {};
+    const current: Record<string, string> = {};
 
-    const letterGroups = new Map<string, string[]>();
-    for (const w of words) {
-      const letter = letterForWord(w.entry_id);
-      const group = letterGroups.get(letter) || [];
-      group.push(w.entry_id);
-      letterGroups.set(letter, group);
-    }
-
-    const fetchWords = Array.from(letterGroups.entries()).map(
-      async ([letter, ids]) => {
-        try {
-          const index = await loadLetterIndex(letter);
-          for (const id of ids) {
-            let entry = index.find((e) => e.id === id || e.hw === id);
-            // Saved under a headword the entry has since given up (spec 34 §18.6): find it by its forms.
-            if (!entry) {
-              const forms = await loadVariants().catch(() => ({} as Record<string, string>));
-              const moved = Object.hasOwn(forms, id.toLowerCase()) ? forms[id.toLowerCase()] : null;
-              if (moved) entry = (await loadLetterIndex(moved.replace(/\.\d+$/, ''))).find((e) => e.id === moved);
-            }
-            if (entry) {
-              const gloss =
-                locale === 'dg' ? (entry.eq_dg || entry.eq) :
-                locale === 'sw' ? (entry.eq_sw || entry.eq) :
-                entry.eq;
-              resolved[`word:${id}`] = gloss;
-            }
-          }
-        } catch {}
-      },
-    );
+    // Each saved word as it reads now: a word whose headword changed is still the one saved (spec 34 §18.6).
+    const fetchWords = words.map(async (w) => {
+      try {
+        const entry = await savedWordEntry(w.entry_id);
+        if (!entry) return;
+        const gloss =
+          locale === 'dg' ? (entry.senses[0]?.definition_dg || entry.equivalents_en.join(', ')) :
+          locale === 'sw' ? (entry.equivalents_sw.join(', ') || entry.equivalents_en.join(', ')) :
+          entry.equivalents_en.join(', ');
+        resolved[`word:${w.entry_id}`] = gloss;
+        current[w.entry_id] = entry.headword.replace(/[\d;]+$/, '');
+      } catch {}
+    });
 
     const fetchProverbs = proverbs.length > 0
       // Through the loader, so a favourited community proverb (not folded in yet) still has its gloss.
@@ -120,6 +93,7 @@ export function FavouritesList() {
 
     Promise.all([...fetchWords, fetchProverbs]).then(() => {
       setGlosses(resolved);
+      setHeadwords(current);
     });
   }, [favourites, locale]);
 
@@ -138,7 +112,7 @@ export function FavouritesList() {
 
   const hrefForFav = (fav: typeof favourites[number]) =>
     fav.entry_type === 'word'
-      ? `/language/dictionary/word/${encodeURIComponent(fav.entry_id)}`
+      ? `/language/dictionary/word/${encodeURIComponent(headwords[fav.entry_id] ?? fav.entry_id)}`
       : `/language/proverbs/${encodeURIComponent(fav.entry_id)}`;
 
   const badgeLabel = (type: string) =>
@@ -159,7 +133,7 @@ export function FavouritesList() {
                 onClick={() => track('orientation', 'favourites', 'item_click', { entry_type: fav.entry_type, entry_id: fav.entry_id })}
               >
                 <div className={styles.itemTop}>
-                  <span className={styles.itemLabel}>{fav.entry_label}</span>
+                  <span className={styles.itemLabel}>{fav.entry_type === 'word' ? headwords[fav.entry_id] ?? fav.entry_label : fav.entry_label}</span>
                   <Badge>{badgeLabel(fav.entry_type)}</Badge>
                 </div>
                 {gloss && (
