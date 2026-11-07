@@ -1,7 +1,8 @@
 /**
- * Lookups after headword changes (spec 34 §18.3, §18.6), on small letter files served to the real loader:
- * homonyms that gave up the same headword are all found at the old address and in search, and a
- * favourite saved under a headword leads to the word that had it, also after the word was renamed.
+ * Lookups after headword changes, on small letter files served to the real loader (owner rulings
+ * 2026-11-07): an address is a spelling, so it shows only the words that have it now (every meaning);
+ * a spelling no word has now is not found, with the new spelling of a word that gave it up. Homonyms
+ * that share a form are all found by search.
  */
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { newEntry, newSense, FORMER_HEADWORD, type WordEntry } from '@/lib/contributions/apply/words';
@@ -20,7 +21,7 @@ const word = (id: string, headword: string, meaning: string, former?: string): W
 const idx = (es: WordEntry[]) => es.map((e) => ({ sk: e.sort_key, hw: e.headword, id: e.id, pos: '', eq: e.equivalents_en.join(', '), eq_sw: '', eq_dg: '' }));
 
 let files: Record<string, unknown>;
-function serve(letters: Record<string, WordEntry[]>, variants: Record<string, string[]>) {
+function serve(letters: Record<string, WordEntry[]>, variants: Record<string, string[] | string>) {
   files = { '/data/variants.json': variants, '/api/overlay/word': { changes: [] } };
   for (const [l, es] of Object.entries(letters)) {
     files[`/data/${l}.json`] = { letter: l, count: es.length, entries: es };
@@ -36,60 +37,62 @@ beforeEach(() => {
   });
 });
 
-describe('homonyms that gave up the same headword', () => {
+describe('two meanings of tahu, both renamed (no word is tahu now)', () => {
   beforeEach(() => serve(
     { d: [word('dafu', 'dafu', 'first meaning', 'tahu')], k: [word('kahu', 'kahu', 'second meaning', 'tahu')], t: [] },
     { tahu: ['dafu', 'kahu'] },
   ));
 
-  it('are both found at the old address, each under its own headword', async () => {
+  it('tahu is not found', async () => {
     const { loadEntriesByHeadword } = await import('@/lib/dictionary/loader');
-    const found = await loadEntriesByHeadword('tahu');
-    expect(found.map((e) => e.headword).sort()).toEqual(['dafu', 'kahu']);
+    expect(await loadEntriesByHeadword('tahu')).toEqual([]);
   });
 
-  it('are both found by searching the old spelling', async () => {
+  it('…with both new spellings for the hint', async () => {
+    const { renamedFrom } = await import('@/lib/dictionary/loader');
+    expect((await renamedFrom('tahu')).map((e) => e.headword).sort()).toEqual(['dafu', 'kahu']);
+  });
+
+  it('searching the old spelling finds both words', async () => {
     const { searchAll } = await import('@/lib/dictionary/search');
     const res = await searchAll('tahu');
     const all = Object.values(res).flat().map((r) => (r as { headword: string }).headword);
     expect(all).toEqual(expect.arrayContaining(['dafu', 'kahu']));
   });
-
-  it('count a favourite saved as "tahu" as theirs (no word has that headword now)', async () => {
-    const { ownFormerHeadwords, savedWordEntry } = await import('@/lib/dictionary/loader');
-    expect(await ownFormerHeadwords(word('dafu', 'dafu', 'first meaning', 'tahu'))).toEqual(['tahu']);
-    expect((await savedWordEntry('tahu'))?.headword).toBe('dafu');
-  });
 });
 
-describe('a word renamed while a homonym keeps the headword', () => {
+describe('another word has the spelling now', () => {
   beforeEach(() => serve(
-    { t: [word('tahu', 'tahu', 'kept meaning')], k: [word('kahu', 'kahu', 'renamed meaning', 'tahu')] },
+    { t: [word('tahu', 'tahu', 'the word that is tahu now')], k: [word('kahu', 'kahu', 'renamed meaning', 'tahu')] },
     { tahu: ['kahu'] },
   ));
 
-  it('a favourite saved as "tahu" stays on the word that still has it', async () => {
-    const { ownFormerHeadwords, savedWordEntry } = await import('@/lib/dictionary/loader');
-    expect((await savedWordEntry('tahu'))?.id).toBe('tahu');
-    expect(await ownFormerHeadwords(word('kahu', 'kahu', 'renamed meaning', 'tahu'))).toEqual([]);
-  });
-
-  it('the old address shows the word that kept it first, then the renamed one', async () => {
+  it('tahu shows only that word (a favourite of tahu opens it)', async () => {
     const { loadEntriesByHeadword } = await import('@/lib/dictionary/loader');
-    expect((await loadEntriesByHeadword('tahu')).map((e) => e.id)).toEqual(['tahu', 'kahu']);
+    expect((await loadEntriesByHeadword('tahu')).map((e) => e.id)).toEqual(['tahu']);
   });
 });
 
-describe('a favourite of a renamed word', () => {
-  it('leads to the word under its new headword', async () => {
-    serve({ m: [word('mnadzi', 'mnadzi', 'coconut palm', 'mnazi')] }, { mnazi: ['mnadzi'] });
-    const { savedWordEntry } = await import('@/lib/dictionary/loader');
-    expect((await savedWordEntry('mnazi'))?.headword).toBe('mnadzi');
+describe('two meanings that both have the spelling', () => {
+  it('are both shown', async () => {
+    serve({ k: [word('kala.1', 'kala', 'sit'), word('kala.2', 'kala', 'past marker')] }, {});
+    const { loadEntriesByHeadword } = await import('@/lib/dictionary/loader');
+    expect((await loadEntriesByHeadword('kala')).map((e) => e.id)).toEqual(['kala.1', 'kala.2']);
+  });
+});
+
+describe('a word renamed into another letter file', () => {
+  it('is found at its new spelling, and the old one gives the hint', async () => {
+    serve({ m: [], ts: [word('tsazi', 'tsazi', 'moved', 'mzazi')] }, { mzazi: ['tsazi'] });
+    const { loadEntriesByHeadword, renamedFrom } = await import('@/lib/dictionary/loader');
+    expect((await loadEntriesByHeadword('tsazi')).map((e) => e.id)).toEqual(['tsazi']);
+    expect(await loadEntriesByHeadword('mzazi')).toEqual([]);
+    expect((await renamedFrom('mzazi')).map((e) => e.headword)).toEqual(['tsazi']);
   });
 
   it('still reads an older cached forms file (one id per form)', async () => {
-    serve({ m: [], ts: [word('tsazi', 'tsazi', 'moved', 'mzazi')] }, { mzazi: 'tsazi' } as unknown as Record<string, string[]>);
-    const { savedWordEntry } = await import('@/lib/dictionary/loader');
-    expect((await savedWordEntry('mzazi'))?.headword).toBe('tsazi');
+    serve({ m: [], ts: [word('tsazi', 'tsazi', 'moved', 'mzazi')] }, { mzazi: 'tsazi' });
+    const { renamedFrom } = await import('@/lib/dictionary/loader');
+    expect((await renamedFrom('mzazi')).map((e) => e.headword)).toEqual(['tsazi']);
   });
 });

@@ -6,7 +6,7 @@ import { localePath, pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
-import { isHeadwordOf, loadEntriesByHeadword, ownFormerHeadwords } from '@/lib/dictionary/loader';
+import { loadEntriesByHeadword, renamedFrom } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
@@ -522,7 +522,7 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
   const { locale } = useLocale();
   // Results are kept with the headword they belong to, so a new headword reads
   // as loading (and the share sense resets) without setting state in the effect.
-  const [loaded, setLoaded] = useState<{ headword: string; entries: DictionaryEntry[] } | null>(null);
+  const [loaded, setLoaded] = useState<{ headword: string; entries: DictionaryEntry[]; renamed?: DictionaryEntry[] } | null>(null);
   const [shareChoice, setShareChoice] = useState({ headword, sense: 0 });
   const entries = loaded?.entries ?? [];
   const loading = loaded?.headword !== headword;
@@ -534,8 +534,10 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
   useEffect(() => {
     viewTracked.current = false;
     loadEntriesByHeadword(headword)
-      .then((found) => {
-        setLoaded({ headword, entries: found });
+      // No word has this spelling now: was it renamed? ("mnazi is now spelled mnadzi", owner 2026-11-07)
+      .then(async (found) => ({ found, renamed: found.length ? [] : await renamedFrom(headword).catch(() => []) }))
+      .then(({ found, renamed }) => {
+        setLoaded({ headword, entries: found, renamed });
         if (!viewTracked.current) {
           viewTracked.current = true;
           if (found.length > 0) {
@@ -559,27 +561,12 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
       });
   }, [headword, query]);
 
-  // An entry that used to have this headword (spec 34 §18.3): shown in full when nothing else has the
-  // headword now (the old address keeps showing it); otherwise listed under "Now listed as". Two renamed
-  // entries: the first is shown under its headword, the other listed.
-  const current = entries.filter((e) => isHeadwordOf(e, headword));
-  const shown = current.length ? current : entries.filter((e) => entries[0] && isHeadwordOf(e, entries[0].headword));
-  const renamed = entries.filter((e) => !shown.includes(e));
-  const mainEntries = shown.filter((e) => !e.is_redirect);
-  const redirectEntries = shown.filter((e) => e.is_redirect);
+  // An address is a spelling (owner 2026-11-07): only the words that have it now.
+  const renamed = loaded?.renamed ?? [];
+  const mainEntries = entries.filter((e) => !e.is_redirect);
+  const redirectEntries = entries.filter((e) => e.is_redirect);
   const isHomonym = mainEntries.length > 1;
-  const primary = mainEntries[0] ?? shown[0];
-
-  // A favourite saved under a headword this word gave up (and no other word has) is this word's.
-  const [aliases, setAliases] = useState<{ id: string; forms: string[] }>({ id: '', forms: [] });
-  useEffect(() => {
-    if (!primary) return;
-    let live = true;
-    ownFormerHeadwords(primary).then((forms) => live && setAliases({ id: primary.id, forms })).catch(() => {});
-    return () => {
-      live = false;
-    };
-  }, [primary]);
+  const primary = mainEntries[0] ?? entries[0];
 
   return (
     <>
@@ -590,8 +577,21 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
       {!loading && entries.length === 0 && (
         <div className={styles.emptyState}>
           <p className={styles.emptyTitle}>{t.dictionary.entry_not_found}</p>
-          <p className={styles.emptyBody}>{t.dictionary.try_different_word}</p>
-          <AddWordCta headword={headword} />
+          {renamed.length > 0 ? renamed.map((e) => {
+            const [before, after] = t.dictionary.now_spelled.replace('{old}', headword).split('{new}');
+            return (
+              <p key={e.id} className={styles.emptyBody}>
+                {before}
+                <button type="button" className={styles.redirectLink} onClick={() => goToWord(nav, e.headword)}>{cleanHeadword(e.headword)}</button>
+                {after}
+              </p>
+            );
+          }) : (
+            <>
+              <p className={styles.emptyBody}>{t.dictionary.try_different_word}</p>
+              <AddWordCta headword={headword} />
+            </>
+          )}
         </div>
       )}
 
@@ -616,7 +616,6 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
                 entryType="word"
                 entryId={primary.headword}
                 entryLabel={primary.headword}
-                aliases={aliases.id === primary.id ? aliases.forms : []}
                 journey="dictionary"
                 size="sm"
               />
@@ -648,15 +647,6 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
 
           {redirectEntries.map((entry) => (
             <EntrySection key={entry.id} entry={entry} isHomonym={false} nav={nav} contributions={contributions} />
-          ))}
-
-          {renamed.map((entry) => (
-            <p key={entry.id} className={styles.redirect}>
-              {t.dictionary.now_listed_as}:{' '}
-              <button type="button" className={styles.redirectLink} onClick={() => goToWord(nav, entry.headword)}>
-                {cleanHeadword(entry.headword)}
-              </button>
-            </p>
           ))}
         </article>
         </CreditsProvider>

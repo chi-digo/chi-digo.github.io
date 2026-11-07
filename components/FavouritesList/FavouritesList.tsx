@@ -6,7 +6,7 @@ import { useTranslations, useLocale } from '@/lib/i18n/context';
 import { useFavourites } from '@/lib/favourites/context';
 import { Badge, EmptyState, Skeleton } from '@chi-digo/design-system';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
-import { savedWordEntry } from '@/lib/dictionary/loader';
+import { loadEntriesByHeadword, renamedFrom } from '@/lib/dictionary/loader';
 import { track } from '@/lib/analytics/track';
 import styles from './FavouritesList.module.css';
 import { loadProverbs } from '@/lib/proverbs/loader';
@@ -46,8 +46,8 @@ export function FavouritesList() {
   const { locale } = useLocale();
   const { favourites, loading } = useFavourites();
   const [glosses, setGlosses] = useState<Record<string, string>>({});
-  /** Saved headword -> the word's headword now (the same unless it changed). */
-  const [headwords, setHeadwords] = useState<Record<string, string>>({});
+  /** Saved words no word has now -> the spellings they were renamed to (if any). */
+  const [gone, setGone] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     if (favourites.length === 0) return;
@@ -56,19 +56,22 @@ export function FavouritesList() {
     const proverbs = favourites.filter((f) => f.entry_type === 'proverb');
 
     const resolved: Record<string, string> = {};
-    const current: Record<string, string> = {};
+    const missing: Record<string, string[]> = {};
 
-    // Each saved word as it reads now: a word whose headword changed is still the one saved (spec 34 §18.6).
+    // A favourite is a spelling (owner 2026-11-07): the word that has it now, or "not found", with the
+    // new spelling when the word was renamed.
     const fetchWords = words.map(async (w) => {
       try {
-        const entry = await savedWordEntry(w.entry_id);
-        if (!entry) return;
+        const [entry] = await loadEntriesByHeadword(w.entry_id);
+        if (!entry) {
+          missing[w.entry_id] = (await renamedFrom(w.entry_id).catch(() => [])).map((e) => e.headword.replace(/[\d;]+$/, ''));
+          return;
+        }
         const gloss =
           locale === 'dg' ? (entry.senses[0]?.definition_dg || entry.equivalents_en.join(', ')) :
           locale === 'sw' ? (entry.equivalents_sw.join(', ') || entry.equivalents_en.join(', ')) :
           entry.equivalents_en.join(', ');
         resolved[`word:${w.entry_id}`] = gloss;
-        current[w.entry_id] = entry.headword.replace(/[\d;]+$/, '');
       } catch {}
     });
 
@@ -93,7 +96,7 @@ export function FavouritesList() {
 
     Promise.all([...fetchWords, fetchProverbs]).then(() => {
       setGlosses(resolved);
-      setHeadwords(current);
+      setGone(missing);
     });
   }, [favourites, locale]);
 
@@ -112,7 +115,7 @@ export function FavouritesList() {
 
   const hrefForFav = (fav: typeof favourites[number]) =>
     fav.entry_type === 'word'
-      ? `/language/dictionary/word/${encodeURIComponent(headwords[fav.entry_id] ?? fav.entry_id)}`
+      ? `/language/dictionary/word/${encodeURIComponent(fav.entry_id)}`
       : `/language/proverbs/${encodeURIComponent(fav.entry_id)}`;
 
   const badgeLabel = (type: string) =>
@@ -124,7 +127,10 @@ export function FavouritesList() {
     <div className={styles.container}>
       <ul className={styles.list}>
         {favourites.map((fav) => {
-          const gloss = glosses[`${fav.entry_type}:${fav.entry_id}`];
+          const missing = fav.entry_type === 'word' ? gone[fav.entry_id] : undefined;
+          const gloss = missing
+            ? [t.dictionary.entry_not_found, ...missing.map((n) => t.dictionary.now_spelled.replace('{old}', fav.entry_id).replace('{new}', n))].join(' ')
+            : glosses[`${fav.entry_type}:${fav.entry_id}`];
           return (
             <li key={fav.id} className={styles.item}>
               <Link
@@ -133,7 +139,7 @@ export function FavouritesList() {
                 onClick={() => track('orientation', 'favourites', 'item_click', { entry_type: fav.entry_type, entry_id: fav.entry_id })}
               >
                 <div className={styles.itemTop}>
-                  <span className={styles.itemLabel}>{fav.entry_type === 'word' ? headwords[fav.entry_id] ?? fav.entry_label : fav.entry_label}</span>
+                  <span className={styles.itemLabel}>{fav.entry_label}</span>
                   <Badge>{badgeLabel(fav.entry_type)}</Badge>
                 </div>
                 {gloss && (

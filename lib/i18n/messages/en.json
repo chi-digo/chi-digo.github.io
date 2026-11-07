@@ -58,7 +58,7 @@
     "browse_letters": "Browse by letter",
     "back_to_dictionary": "← Dictionary",
     "try_different_word": "Try searching for a different word.",
-    "now_listed_as": "Now listed as"
+    "now_spelled": "{old} is now spelled {new}."
   },
   "proverbs": {
     "other_forms": "Other forms",
