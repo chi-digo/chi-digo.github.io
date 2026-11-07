@@ -92,6 +92,12 @@ const STATUS: Record<string, number> = {
   folding: 409,
 };
 
+/** Whether a contribution is in the caller's world: test rows for test accounts, real rows otherwise. */
+export async function sameTestWorld(caller: Caller, id: string): Promise<boolean> {
+  const { data } = await caller.db.from('contributions').select('is_test').eq('id', id).maybeSingle();
+  return !!data && data.is_test === caller.isTest;
+}
+
 /** Map a `{error: code}` from a database function to an HTTP response. */
 export function rpcError(code: string) {
   return NextResponse.json({ error: code }, { status: STATUS[code] ?? 400 });

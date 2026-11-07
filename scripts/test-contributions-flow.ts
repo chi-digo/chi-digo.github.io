@@ -485,8 +485,74 @@ async function main() {
     check('…the key is the path, built on the server', uiRow?.target_path === '__test__.label' && uiRow?.scope === 'translations', uiRow);
     r = await call(A, 'POST', `/api/review/${tUi}`, { action: 'accept' });
     check('an interface fix always needs a second reviewer', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+    const settings = await call(A, 'GET', '/api/admin/settings');
+    const alone = settings.json?.ui_self_confirm === true;
     r = await call(A, 'GET', `/api/review/${tUi}`);
-    check('…and the admin can’t confirm it alone', r.status === 200 && r.json.can_self_confirm === false && r.json.current?.source === 'Test label', r.json?.can_self_confirm);
+    check(`…the admin can confirm it alone only with the owner's switch (now ${alone ? 'on' : 'off'})`, r.status === 200 && r.json.can_self_confirm === alone && r.json.current?.source === 'Test label', r.json?.can_self_confirm);
+
+    console.log('5h. bulk review and the interface panel (spec 34 §19)');
+    const T3 = await session(await createUser('translations3'));
+    users.push(T3.id);
+    const bulk = (s: typeof A | null, body: Record<string, unknown>) => call(s, 'POST', '/api/review/bulk', body);
+    r = await call(T3, 'POST', '/api/contributions', art({ lang: 'dg', field: 'block', block: 'b001', proposed: 'Aya mpya ya kujeza.' }));
+    const b1 = r.json.id as string;
+    r = await call(T3, 'POST', '/api/contributions', art({ lang: 'dg', field: 'block', block: 'b001', proposed: 'Aya ya phiri ya kujeza.' }));
+    const b2 = r.json.id as string;
+    r = await call(T3, 'POST', '/api/contributions', tf('glossary', { lang: 'dg', field: 'definition', proposed: 'Ni chichaka' }));
+    const b3 = r.json.id as string;
+    r = await call(T3, 'POST', '/api/contributions', ui({ proposed: 'Lebo nyingine ya majaribio' }));
+    const b4 = r.json.id as string;
+    check('four fixes to review in bulk', [b1, b2, b3, b4].every(Boolean), [b1, b2, b3, b4]);
+    r = await bulk(T3, { action: 'accept', ids: [b1] });
+    check('a member can’t review in bulk → 403', r.status === 403, r);
+    r = await bulk(A, { action: 'accept', ids: Array.from({ length: 51 }, () => b1) });
+    check('more than 50 → 400', r.status === 400, r);
+    r = await bulk(A, { action: 'accept', ids: [b1, b2, b3, b4], dry_run: true });
+    const dry = new Map((r.json.results ?? []).map((x: { id: string }) => [x.id, x]));
+    check('dry run: the first fix would go live, with what changes', (dry.get(b1) as { ok?: boolean; item?: { current?: string; proposed?: string } })?.ok === true
+      && (dry.get(b1) as { item?: { proposed?: string } }).item?.proposed === 'Aya mpya ya kujeza.', r.json);
+    check('…a second fix to the same text in the run is skipped', (dry.get(b2) as { error?: string })?.error === 'same_target_in_batch', dry.get(b2));
+    check('…ruled-out Digo is skipped', (dry.get(b3) as { error?: string })?.error === 'ruled_out', dry.get(b3));
+    check('…an interface key that already has an accepted fix is skipped', (dry.get(b4) as { error?: string })?.error === 'same_target_in_batch', dry.get(b4));
+    check('…with the accepts left this hour', typeof r.json.accepts_left === 'number', r.json.accepts_left);
+    r = await bulk(A, { action: 'accept', ids: [b1, b2, b3, b4] });
+    const real = new Map((r.json.results ?? []).map((x: { id: string }) => [x.id, x]));
+    check('bulk accept: one accepted, three skipped as in the dry run', (real.get(b1) as { ok?: boolean })?.ok === true
+      && [b2, b3, b4].every((id) => (real.get(id) as { ok?: boolean })?.ok === false), r.json);
+    // Declines with a preset reason, then one message for the contributor (a second account: daily limits).
+    const T4 = await session(await createUser('translations4'));
+    users.push(T4.id);
+    r = await call(T4, 'POST', '/api/contributions', tf('proverb', { lang: 'en', field: 'commentary', proposed: 'Used in bulk tests.' }));
+    const d1 = r.json.id as string;
+    r = await call(T4, 'POST', '/api/contributions', tf('proverb', { lang: 'en', field: 'commentary', proposed: 'Used in bulk tests, again.' }));
+    const d2 = r.json.id as string;
+    r = await bulk(A, { action: 'decline', ids: [d1, d2] });
+    check('a bulk decline needs a reason → 400', r.status === 400, r);
+    await admin.from('notifications').delete().eq('user_id', T4.id);
+    r = await bulk(A, { action: 'decline', ids: [d1, d2], reason: 'wrong_text', note: 'Test note.' });
+    check('bulk decline', r.status === 200 && r.json.results.every((x: { ok: boolean }) => x.ok), r.json);
+    const { data: notes } = await admin.from('notifications').select('kind, details, contribution_id').eq('user_id', T4.id);
+    check('…one message for the contributor, with the counts', notes?.length === 1 && notes[0].kind === 'batch' && notes[0].details?.declined === 2 && notes[0].details?.accepted === 0, notes);
+    const { data: declined } = await admin.from('contributions').select('review_note').eq('id', d1).single();
+    check('…the preset reason in the contributor’s language, then the note', declined?.review_note === 'Ilitumwa kwa maandishi yasiyo sahihi. Test note.', declined);
+    // Accept and confirm alone follows the owner's switch.
+    r = await call(T4, 'POST', '/api/contributions', art({ lang: 'sw', field: 'title', proposed: 'Kichwa kipya cha majaribio' }));
+    const c1 = r.json.id as string;
+    r = await bulk(A, { action: 'accept_confirm', ids: [c1] });
+    if (alone) check('accept and confirm alone: live in one step', r.status === 200 && r.json.results[0]?.live_status === 'live', r.json);
+    else check('accept and confirm alone is refused while the switch is off → 400', r.status === 400 && r.json.error === 'confirm_alone_off', r);
+    // The interface listing: no reasons, no page paths, and test fixes only for test accounts.
+    r = await call(null, 'GET', '/api/contributions/public/ui?lang=sw');
+    check('interface listing: open and accepted lists', r.status === 200 && Array.isArray(r.json.open) && Array.isArray(r.json.accepted), r.status);
+    check('…no test fixes, no reasons, no page paths', !JSON.stringify(r.json).includes('__test__') && !JSON.stringify(r.json).includes('Better wording') && !JSON.stringify(r.json).includes('target_id'), r.json);
+    r = await call(null, 'GET', '/api/contributions/public/ui?lang=sw&target_id=x');
+    check('…other parameters → 400 (cache can’t be bypassed)', r.status === 400, r.status);
+    r = await call(null, 'GET', '/api/contributions/public/ui?lang=sw&test=1');
+    check('…the test listing needs a test account → 403', r.status === 403, r.status);
+    r = await call(T2, 'GET', '/api/contributions/public/ui?lang=sw&test=1');
+    check('…a test account sees the open test fix, without its reason', r.status === 200 && r.json.open.some((f: { id: string }) => f.id === b4) && !JSON.stringify(r.json).includes('Better wording'), r.json);
+    r = await call(T2, 'POST', `/api/contributions/${b4}/agree`, {});
+    check('a test account agrees with it', r.status === 200 && r.json.agree_count >= 0, r);
 
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });

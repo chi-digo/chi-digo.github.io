@@ -49,7 +49,8 @@ export function publicPayload(type: ContributionType, payload: Record<string, un
 /** Folded changes stay in the overlay this long, for browsers holding older cached data files. */
 const FOLDED_GRACE_DAYS = 14;
 
-async function loadAreaOverlay(area: string): Promise<Change[]> {
+/** Accepted, live changes for an area, read now (no cache): a bulk run reads once and adds its own accepts. */
+export async function loadAreaOverlay(area: string): Promise<Change[]> {
   const db = createServiceClient();
   const since = new Date(Date.now() - FOLDED_GRACE_DAYS * 86_400_000).toISOString();
   const { data, error } = await db
