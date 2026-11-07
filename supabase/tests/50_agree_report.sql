@@ -24,9 +24,10 @@ begin
   r := public.agree_contribution(m2, (select id from public.contributions where user_id = '00000000-0000-4000-8000-0000000000e1' limit 1), null, null);
   assert r->>'error' = 'not_found', 'agreed with a non-public row';
 
-  -- Three reports hide it and tell the admins.
+  -- Three reports from accounts at least 7 days old hide it and tell the admins (m1 is new: not counted).
   perform public.report_contribution(m1, target, 'spam');
   perform public.report_contribution(m2, target, 'spam');
+  perform public.report_contribution('00000000-0000-4000-8000-0000000000b1', target, 'spam');
   r := public.report_contribution(a1, target, 'offensive');
   assert (r->>'hidden')::boolean, 'not hidden after 3 reports';
   assert (select hidden_at from public.contributions where id = target) is not null, 'hidden_at not set';

@@ -255,6 +255,18 @@ export const reviewSchema = z.object({
   merge_ids: z.array(z.string().uuid()).max(50).optional(),
 });
 
+/** Preset reasons for declining translation fixes in bulk, shown to each contributor in their language (§19.1). */
+export const DECLINE_REASONS = ['unchanged_meaning', 'ruled_out_form', 'wrong_text'] as const;
+
+/** Bulk review (spec 34 §19.1): translation fixes only, at most 50 at a time. */
+export const bulkReviewSchema = z.object({
+  action: z.enum(['accept', 'accept_confirm', 'confirm', 'decline']),
+  ids: z.array(z.string().uuid()).min(1).max(50),
+  reason: z.enum(DECLINE_REASONS).optional(),
+  note: optSafeText(1000),
+  dry_run: z.boolean().optional(),
+});
+
 /** Limits mirrored from the database functions, for messages and tests (spec §12). */
 export const LIMITS = { perDay: 30, perDayNew: 5, agreementsPerDay: 30, agreementsPerDayNew: 10, perTarget: 5, acceptedToApply: 5, wordsPerDay: 10 };
 

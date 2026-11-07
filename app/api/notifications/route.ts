@@ -13,7 +13,7 @@ export async function GET() {
   if (caller instanceof NextResponse) return caller;
   const { data, error } = await caller.db
     .from('notifications')
-    .select('id, kind, contribution_id, read_at, created_at')
+    .select('id, kind, contribution_id, details, read_at, created_at')
     .eq('user_id', caller.id)
     .order('created_at', { ascending: false })
     .limit(50);

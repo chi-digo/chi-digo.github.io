@@ -7,26 +7,13 @@ import {
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
-import { applyAllToEntries, nextSenseId, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
+import { applyAllToEntries, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
-import type { Change } from '@/lib/contributions/apply/types';
-import { warningsFor, needsSecondReview, variantRequired, targetChanged, type ReviewRow } from '@/lib/contributions/review';
+import { acceptArgs, minimumSensePath } from '@/lib/contributions/decide';
+import { warningsFor, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
 const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_path, target_label, payload, final_payload, note, region, village, confidence, recorded_for, credit_opt_in, locale, page_path, status, live_status, fold_status, fold_error, outcome, base, held, hidden_at, reply, review_note, agree_count, raw_agree_count, claimed_by, claimed_until, reviewer_id, is_test, created_at, reviewed_at';
-
-/**
- * For an add_sense: the lowest sense id it may take, past the shipped senses and the live new ones. The
- * database allocates the final id under a lock. '' for other changes; null if the entry is gone.
- */
-async function minimumSensePath(row: { type: string; payload: Record<string, unknown>; target_id: string | null; is_test: boolean }, liveChanges: Change[]) {
-  if (row.type !== 'definition_update' || row.payload.mode !== 'add_sense' || !row.target_id) return '';
-  const raw = row.target_id === TEST_TARGET ? (row.is_test ? testWord() : null) : loadWord(row.target_id);
-  if (!raw) return null;
-  const [entry] = applyAllToEntries([raw], liveChanges);
-  const pending = liveChanges.filter((c) => c.target_id === row.target_id && c.type === 'definition_update').map((c) => c.target_path);
-  return `senses.${nextSenseId(entry, pending)}`;
-}
 
 /**
  * Refusals that depend on the live changes: the form must still be on the entry, and a community word
@@ -58,7 +45,6 @@ async function makeHeadword(
   // Already made the headword, or another headword change on the entry hasn't shipped (the database
   // checks this again under a lock).
   if (await headwordBusy(caller.db, row)) return rpcError('headword_open');
-  const liveChanges = await getAreaOverlay('word');
   const form = String(row.final_payload?.form ?? '');
   const live = await headwordLiveRefusal(raw, row.id, form);
   if (live) return NextResponse.json(live, { status: 409 });
@@ -235,44 +221,10 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
     }
     if (body.action === 'accept' || body.action === 'accept_variant') {
-      const final = PAYLOADS[row.type as ContributionType].safeParse(body.final_payload ?? row.payload);
-      if (!final.success) return badRequest('invalid', final.error.issues);
-      const finalPayload = final.data as Record<string, unknown>;
-
-      const { ruled_out, pii } = warningsFor(row.type, finalPayload);
-      if (ruled_out.length) return NextResponse.json({ error: 'ruled_out', hits: ruled_out }, { status: 422 });
-      if (pii && blocksOnPII(row.type as ContributionType)) return NextResponse.json({ error: 'pii' }, { status: 422 });
-      if (row.type === 'translation_fix') {
-        const problem = fixProblem(row, finalPayload);
-        if (problem) return NextResponse.json({ error: problem }, { status: 422 });
-      }
-      // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
-      // the reviewer's own final payload must say so; the contributor's checkbox is only a hint.
-      if (row.type === 'proverb_addition' && typeof (body.final_payload as Record<string, unknown> | undefined)?.mature !== 'boolean') {
-        return NextResponse.json({ error: 'mature_required' }, { status: 422 });
-      }
-
-      const liveChanges = area ? await getAreaOverlay(area) : [];
-      if (targetChanged(row as unknown as ReviewRow, liveChanges)) {
-        return NextResponse.json({ error: 'target_changed' }, { status: 409 });
-      }
-      // A story may not push its commentary past the cap (it would only conflict at fold-in).
-      if (row.type === 'proverb_context') {
-        const now = resolveTarget(row.type, 'proverb', row.target_id ?? undefined, finalPayload, { isTest: row.is_test, liveChanges });
-        const cur = (now?.base?.value as { text?: string } | undefined)?.text ?? '';
-        if ((cur ? cur.length + 2 : 0) + String(finalPayload.text ?? '').length > COMMENTARY_MAX) {
-          return NextResponse.json({ error: 'too_long' }, { status: 422 });
-        }
-      }
-      if (body.action === 'accept' && (await variantRequired(caller.db, row as unknown as ReviewRow, liveChanges))) {
-        return NextResponse.json({ error: 'variant_required' }, { status: 422 });
-      }
-      args.final_payload = finalPayload;
-      args.needs_second = needsSecondReview(row as unknown as ReviewRow, finalPayload, liveChanges);
-      if (body.merge_ids) args.merge_ids = body.merge_ids;
-      const minimum = await minimumSensePath(row, liveChanges);
-      if (minimum === null) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
-      if (minimum) args.target_path = minimum;
+      const prepared = await acceptArgs(caller.db, row as never, { action: body.action, final_payload: body.final_payload, merge_ids: body.merge_ids },
+        area ? await getAreaOverlay(area) : []);
+      if ('error' in prepared) return NextResponse.json({ error: prepared.error, ...prepared.extra }, { status: prepared.status });
+      Object.assign(args, prepared.args);
     }
     if (body.action === 'duplicate') args.duplicate_of = body.duplicate_of ?? null;
     if (body.action === 'retry_fold') {

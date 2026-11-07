@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { REGIONS, CONFIDENCE } from '@/lib/contributions/schemas';
-import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
+import { getCaller, badRequest, forbidden, rpc, rpcError, serverError, sameTestWorld } from '@/lib/contributions/server';
 
 const bodySchema = z.object({ region: z.enum(REGIONS).optional(), confidence: z.enum(CONFIDENCE).optional() });
 
@@ -16,6 +16,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   if (!body.success) return badRequest('invalid', body.error.issues);
 
   try {
+    // Test accounts act only on test rows, and real accounts never on them (§19.2).
+    if (!(await sameTestWorld(caller, id))) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     const r = await rpc<{ agree_count?: number; error?: string }>(caller.db, 'agree_contribution', {
       p_uid: caller.id, p_cid: id, p_region: body.data.region ?? null, p_confidence: body.data.confidence ?? null,
     });

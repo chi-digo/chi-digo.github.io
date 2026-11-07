@@ -22,6 +22,8 @@ interface Notification {
     review_note: string | null;
     lang?: string | null;
   } | null;
+  /** A bulk review's counts (kind 'batch'). */
+  details?: { accepted?: number; declined?: number } | null;
 }
 
 /** Where a notification leads: your own suggestions, or the item to review. */
@@ -64,6 +66,13 @@ function NotificationsContent() {
   }, [refresh]);
 
   const sentence = (n: Notification) => {
+    // One message for a bulk review: how many were accepted and how many weren't (spec 34 §19.1).
+    if (n.kind === 'batch') {
+      const d = n.details ?? {};
+      const line = (n: number | undefined, one: string, many: string) => (!n ? '' : n === 1 ? one : many.replace('{n}', String(n)));
+      return [line(d.accepted, c.notif_batch_accepted_one, c.notif_batch_accepted), line(d.declined, c.notif_batch_declined_one, c.notif_batch_declined)]
+        .filter(Boolean).join(' ') || c.notif_batch_none;
+    }
     const summary = n.contribution?.summary || msg(c, `type_${n.contribution?.type ?? 'general_feedback'}`);
     const target = n.contribution?.target_label ?? '';
     // Sentences that name the item have a version without it, so no language is left with a dangling "for".
