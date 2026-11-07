@@ -127,7 +127,8 @@ export function UiFixButton({ className }: { className?: string }) {
         draftKey={draftKey}
         resume={{ form: 'ui_fix', target_id: pathname }}
         payload={changed && reason ? { lang, field: 'ui', key: chosen, proposed, reason } : null}
-        askSource
+        // Where it's said and how sure: only when the reader writes their own fix (not when agreeing).
+        askSource={!chosen || !waiting.open.has(chosen) || differently}
         onSubmitted={clear}
       >
         {!chosen ? (

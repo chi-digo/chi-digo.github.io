@@ -1067,7 +1067,8 @@
     "bulk_err_already_decided": "",
     "bulk_err_same_target": "",
     "bulk_err_own_accept": "",
-    "bulk_err_not_found": ""
+    "bulk_err_not_found": "",
+    "bulk_checking": ""
   },
   "admin": {
     "menu_admin": "",

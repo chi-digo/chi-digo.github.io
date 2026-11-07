@@ -96,7 +96,7 @@ export function BulkSheet({ action, ids, onClose, onDone }: { action: BulkAction
     <BottomSheet open onClose={onClose} title={r.bulk_sheet_title.replace('{n}', String(ids.length))} size="full">
       <div className={styles.sheet}>
         {failed && <p className={styles.error} role="alert">{c.error_generic}</p>}
-        {!plan && !failed && <p className={styles.muted}>{t.dictionary.searching}</p>}
+        {!plan && !failed && <p className={styles.muted} role="status">{r.bulk_checking}</p>}
         {done ? (
           <section aria-labelledby="bulk-done">
             <h3 id="bulk-done" ref={doneRef} tabIndex={-1} className={styles.boxTitle}>

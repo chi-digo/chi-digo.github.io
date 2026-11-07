@@ -426,6 +426,59 @@ async function main() {
     await d.waitForTimeout(2000);
     check('English pages have no such link', (await d.getByRole('button', { name: /Fix a translation on this page/ }).count()) === 0);
 
+    console.log('4h. bulk review and fixes under review (spec 34 §19)');
+    // Rows made directly (test accounts' daily limits are spent by now): two Digo paragraph fixes from D.
+    const fix = (proposed: string, extra: Record<string, unknown> = {}) => ({
+      user_id: D.id, type: 'translation_fix', scope: 'translations', target_type: 'article', target_id: '__test__', target_path: 'blocks.b001.dg',
+      payload: { lang: 'dg', field: 'block', block: 'b001', proposed, reason: 'UI bulk test' }, base: { value: { text: 'Aya ya majaribio.' } },
+      locale: 'dg', status: 'pending', held: false, is_test: true, credit_opt_in: false, ...extra,
+    });
+    const { data: made } = await admin.from('contributions').insert([fix('Aya ya bulk moja.'), { ...fix('Aya ya bulk mbiri.'), target_path: 'title.dg', payload: { lang: 'dg', field: 'title', proposed: 'Makala ya bulk', reason: 'UI bulk test' }, base: { value: { text: 'Makala ya majaribio' } } }]).select('id');
+    check('two fixes waiting for review', made?.length === 2, made);
+    await a.goto(`${BASE}/review`);
+    await a.getByRole('checkbox', { name: /Select: .*Aya ya bulk moja\./ }).check({ timeout: 20000 });
+    await a.getByRole('checkbox', { name: /Select: .*Makala ya bulk/ }).check();
+    check('the bar counts the selection', await visible(a, '2 selected'));
+    await a.getByRole('button', { name: 'Accept selected' }).click();
+    check('the review sheet shows each change, after the server check', await visible(a, 'Review 2 fixes', 20000)
+      && await a.getByRole('button', { name: /^Accept 2$/ }).waitFor({ timeout: 20000 }).then(() => true, () => false)
+      && await a.getByRole('dialog').getByText('Goes live now').first().isVisible().catch(() => false));
+    await shot(a, '23-bulk-sheet');
+    await a.getByRole('button', { name: /^Accept 2$/ }).click();
+    check('…then what was done', await visible(a, /2 done · 0 not done/, 30000));
+    await shot(a, '24-bulk-done');
+    await a.keyboard.press('Escape');
+    const { data: after } = await admin.from('contributions').select('status').in('id', (made ?? []).map((m) => m.id));
+    check('…both accepted', !!after?.every((x) => x.status === 'accepted'), after);
+
+    // A fix to interface text already waiting: the next reader sees it and agrees instead of repeating it.
+    await admin.from('contributions').insert({
+      user_id: D.id, type: 'translation_fix', scope: 'translations', target_type: 'ui', target_id: '__test__', target_path: '__test__.label',
+      payload: { lang: 'sw', field: 'ui', key: '__test__.label', proposed: 'Lebo inayosubiri', reason: 'UI panel test' }, base: { value: { text: 'Test label' } },
+      locale: 'sw', status: 'pending', held: false, is_test: true, credit_opt_in: false,
+    });
+    await c.goto(`${BASE}/sw/history`);
+    await c.evaluate(() => localStorage.setItem('contrib-test-ui', '1'));
+    await c.reload();
+    await c.waitForTimeout(3000);
+    await c.getByRole('button', { name: 'Rekebisha tafsiri kwenye ukurasa huu' }).click();
+    const tagged = c.getByRole('dialog').locator('li button', { hasText: 'rekebisho linakaguliwa' });
+    check('a string with a fix under review is tagged', await tagged.first().waitFor({ timeout: 15000 }).then(() => true, () => false));
+    await tagged.first().click();
+    check('…picking it shows the waiting fix first', await visible(c, 'Lebo inayosubiri'));
+    check('…and no form until the reader says it differently', (await c.getByRole('textbox', { name: 'Maandishi yaliyosahihishwa' }).count()) === 0);
+    const agreeWait = c.waitForResponse((r) => r.url().includes('/agree'), { timeout: 20000 }).catch(() => null);
+    await c.getByRole('button', { name: 'Nakubali' }).first().click();
+    const agreeRes = await agreeWait;
+    check('…the reader agrees with it', await c.getByRole('button', { name: 'Umekubali' }).first().waitFor({ timeout: 15000 }).then(() => true, () => false),
+      agreeRes ? `${agreeRes.status()} ${await agreeRes.text().catch(() => '')}` : 'no request');
+    await shot(c, '25-ui-waiting');
+    await c.getByRole('button', { name: 'Mimi nasema tofauti' }).first().click();
+    const differently = await c.getByRole('textbox', { name: 'Maandishi yaliyosahihishwa' }).inputValue().catch(() => '');
+    check('…or says it differently, starting from the waiting fix', differently === 'Lebo inayosubiri', differently);
+    await c.keyboard.press('Escape');
+    await c.evaluate(() => localStorage.removeItem('contrib-test-ui'));
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });

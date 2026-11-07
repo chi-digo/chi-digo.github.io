@@ -1067,7 +1067,8 @@
     "bulk_err_already_decided": "Already decided",
     "bulk_err_same_target": "Another selected fix changes the same text",
     "bulk_err_own_accept": "You accepted it, and confirming alone is off",
-    "bulk_err_not_found": "Not found, or not a translation fix"
+    "bulk_err_not_found": "Not found, or not a translation fix",
+    "bulk_checking": "Checking…"
   },
   "admin": {
     "menu_admin": "Reviewers",

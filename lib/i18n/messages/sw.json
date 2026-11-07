@@ -1067,7 +1067,8 @@
     "bulk_err_already_decided": "Limeshaamuliwa",
     "bulk_err_same_target": "Rekebisho jingine lililochaguliwa linabadilisha maandishi hayo hayo",
     "bulk_err_own_accept": "Ulilikubali wewe, na kuthibitisha peke yako kumezimwa",
-    "bulk_err_not_found": "Halipatikani, au si rekebisho la tafsiri"
+    "bulk_err_not_found": "Halipatikani, au si rekebisho la tafsiri",
+    "bulk_checking": "Inakagua…"
   },
   "admin": {
     "menu_admin": "Wakaguzi",

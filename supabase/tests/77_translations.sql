@@ -77,6 +77,8 @@ begin
   -- Inside this rolled-back test, no other admin may stand in as the second voice.
   others := array(select id from public.profiles where role = 'admin' and id <> a1);
   update public.profiles set role = 'member' where id = any(others);
+  -- (The owner's switch may be on in production: this rolled-back check sets it off first.)
+  update public.app_settings set value = 'false' where key = 'ui_self_confirm';
   assert not public.can_self_confirm(a1, uf), 'an admin could confirm an interface fix alone';
   -- The owner's switch lets an admin confirm alone.
   update public.app_settings set value = 'true' where key = 'ui_self_confirm';

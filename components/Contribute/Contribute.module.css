@@ -214,6 +214,8 @@
 }
 
 .panelContent {
+  /* The heading colour: readable inside the sheet on dark-theme pages too. */
+  color: var(--fg-heading);
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
