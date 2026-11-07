@@ -13,7 +13,6 @@ import {
   breadcrumbJsonLd,
 } from '@/lib/seo/jsonld';
 import type { DictionaryEntry, LetterFile } from '@/lib/dictionary/types';
-import { formerHeadwords } from '@/lib/contributions/apply/words';
 
 function getAllHeadwords(): string[] {
   const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -41,10 +40,6 @@ function getAllHeadwords(): string[] {
 /** Headwords match without digits glued on, case, or a leading "-" (as the client's lookup does). */
 const bare = (h: string) => h.replace(/[\d;]+$/, '').replace(/^-/, '').toLowerCase();
 
-/**
- * The entry a word address shows: one whose headword it is, in any letter file; else one that used to
- * have that headword (spec 34 §18.5: the old address keeps showing the entry, as a former headword).
- */
 let letterFiles: LetterFile[] | null = null;
 /** The letter files, read once per server process (every word page's metadata and body look here). */
 function allLetterFiles(): LetterFile[] {
@@ -62,16 +57,12 @@ function allLetterFiles(): LetterFile[] {
   return (letterFiles = files);
 }
 
-function findEntry(headword: string): { entry: DictionaryEntry; former: boolean } | null {
-  const files = allLetterFiles();
+/** The entry whose headword this is now, in any letter file (an address is a spelling: owner 2026-11-07). */
+function findEntry(headword: string): DictionaryEntry | null {
   const key = bare(headword);
-  for (const data of files) {
+  for (const data of allLetterFiles()) {
     const entry = data.entries.find((e) => bare(e.headword) === key);
-    if (entry) return { entry, former: false };
-  }
-  for (const data of files) {
-    const entry = data.entries.find((e) => formerHeadwords(e).some((v) => bare(v.form) === key));
-    if (entry) return { entry, former: true };
+    if (entry) return entry;
   }
   return null;
 }
@@ -122,21 +113,7 @@ export async function generateMetadata({
 
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
-    const found = findEntry(headword);
-    if (found?.former) {
-      // The old address of a renamed entry: it shows the entry, under its current headword, which is the
-      // one address search engines should index.
-      const { entry } = found;
-      const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
-      return buildMetadata({
-        title: `${entry.headword} — Chidigo Dictionary`,
-        description: `${entry.headword} (${entry.pos_en}): ${firstDef}. Trilingual Chidigo dictionary entry with definitions in Chidigo, Swahili, and English.`,
-        path: `/language/dictionary/word/${encodeURIComponent(entry.headword)}`,
-        locale: loc,
-        noindex: true,
-      });
-    }
-    const entry = found?.entry;
+    const entry = findEntry(headword);
     if (entry) {
       const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
       return buildMetadata({
@@ -200,12 +177,10 @@ export default async function Page({
 
   if (slug[0] === 'word' && slug[1]) {
     const headword = decodeURIComponent(slug[1]);
-    const found = findEntry(headword);
-    const entry = found?.entry;
+    const entry = findEntry(headword);
     if (entry) {
       const firstDef = entry.senses[0]?.definition_en || entry.equivalents_en.join(', ');
-      // On an old address (a former headword), the term and its address are the entry's current ones.
-      const term = found.former ? entry.headword : headword;
+      const term = headword;
       return (
         <>
           <JsonLd

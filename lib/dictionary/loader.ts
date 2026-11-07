@@ -150,52 +150,53 @@ export function isHeadwordOf(e: DictionaryEntry, headword: string): boolean {
   return bare(cleanHeadword(e.headword)) === bare(headword);
 }
 
-/** Entries with this headword, then entries that used to have it (spec 34 §18.3: the old address still works). */
+/** Entries whose headword is this word now (an address is a spelling: owner ruling 2026-11-07). */
 export function entriesFor(data: LetterFile, headword: string): DictionaryEntry[] {
-  const current = data.entries.filter((e) => isHeadwordOf(e, headword));
-  const former = data.entries.filter((e) => !isHeadwordOf(e, headword) && formerHeadwords(e).some((v) => bare(v.form) === bare(headword)));
-  return [...current, ...former];
+  return data.entries.filter((e) => isHeadwordOf(e, headword));
 }
 
-/** Current-headword entries first, then former ones; no entry twice. */
-function mergeFound(headword: string, lists: DictionaryEntry[][]): DictionaryEntry[] {
-  const seen = new Set<string>();
-  const all = lists.flat().filter((e) => (seen.has(e.id) ? false : (seen.add(e.id), true)));
-  return [...all.filter((e) => isHeadwordOf(e, headword)), ...all.filter((e) => !isHeadwordOf(e, headword))];
+/** Entries that gave this headword up (it is now one of their other forms). */
+function renamedIn(data: LetterFile, headword: string): DictionaryEntry[] {
+  return data.entries.filter((e) => !isHeadwordOf(e, headword) && formerHeadwords(e).some((v) => bare(v.form) === bare(headword)));
 }
+
+const dedupe = (list: DictionaryEntry[]) => {
+  const seen = new Set<string>();
+  return list.filter((e) => (seen.has(e.id) ? false : (seen.add(e.id), true)));
+};
 
 /**
- * Entries for a word that live in another letter file than the word's own: a headword made from a form
- * (live, the entry is still under its old id) or a former headword after the entry moved (spec 34 §18.3).
- * Only those resolve; an ordinary other form doesn't get a page.
+ * Entries in another letter file than the word's own that the forms map links to the word: a form made
+ * the headword while live (the entry still sits under its old id), or a word that gave the spelling up
+ * after it moved. Callers keep only what they need.
  */
-async function movedEntriesFor(headword: string, ownFile: string): Promise<DictionaryEntry[]> {
+async function elsewhere(headword: string, ownFile: string): Promise<LetterFile> {
   let map: VariantsMap;
   try {
     map = await loadVariants();
   } catch {
-    return [];
+    return { letter: "", count: 0, entries: [] };
   }
   const ids = [...new Set([headword.toLowerCase(), bare(headword)].flatMap((k) => (Object.hasOwn(map, k) ? map[k] : [])))]
     .filter((id) => !id.startsWith("c:") && digoLetterFile(id.replace(/\.\d+$/, "")) !== ownFile);
   const found = await Promise.all(ids.map(async (id) => {
     try {
-      const entry = (await letterData(digoLetterFile(id.replace(/\.\d+$/, "")))).entries.find((e) => e.id === id);
-      // Only a former headword, or a live new one, gets the address; an ordinary other form doesn't.
-      return entry && entriesFor({ count: 1, entries: [entry] } as LetterFile, headword).length ? [entry] : [];
+      return (await letterData(digoLetterFile(id.replace(/\.\d+$/, "")))).entries.filter((e) => e.id === id);
     } catch {
       return [];
     }
   }));
-  return found.flat();
+  const entries = found.flat();
+  return { letter: "", count: entries.length, entries };
 }
 
+/** The words whose headword is this spelling now, with every meaning (homonyms). */
 export async function loadEntriesByHeadword(
   headword: string
 ): Promise<DictionaryEntry[]> {
   const ownFile = digoLetterFile(headword);
-  const [own, moved] = await Promise.all([loadLetterData(headword), movedEntriesFor(headword, ownFile)]);
-  const found = mergeFound(headword, [entriesFor(own, headword), moved]);
+  const [own, other] = await Promise.all([loadLetterData(headword), elsewhere(headword, ownFile)]);
+  const found = dedupe([...entriesFor(own, headword), ...entriesFor(other, headword)]);
   if (found.length) return found;
   // Not in this copy of the letter file: it may be an old cached copy (ISSUES DATA-1). Fetch it once
   // from the network before saying the word doesn't exist.
@@ -207,23 +208,17 @@ export async function loadEntriesByHeadword(
   cache.set(path, raw);
   const fresh = mergeLetter(file, raw, await wordOverlay());
   merged.set(file, Promise.resolve(fresh));
-  return mergeFound(headword, [entriesFor(fresh, headword), moved]);
+  return dedupe([...entriesFor(fresh, headword), ...entriesFor(other, headword)]);
 }
 
 /**
- * The entry a saved word (a favourite, stored by headword) means now (spec 34 §18.6). Its headword if
- * an entry still has it; otherwise the entry that gave it up, so a renamed word is still the one saved.
+ * The words that gave this spelling up (renamed by a headword change), for "mnazi is now spelled mnadzi"
+ * when no word has the spelling now (owner ruling 2026-11-07).
  */
-export async function savedWordEntry(headword: string): Promise<DictionaryEntry | null> {
-  const found = await loadEntriesByHeadword(headword);
-  return found.find((e) => isHeadwordOf(e, headword)) ?? found[0] ?? null;
-}
-
-/** Former headwords of an entry that no entry has as its headword now: a favourite saved under one is this entry's. */
-export async function ownFormerHeadwords(entry: DictionaryEntry): Promise<string[]> {
-  const forms = formerHeadwords(entry).map((v) => v.form);
-  const free = await Promise.all(forms.map(async (f) => !(await loadEntriesByHeadword(f).catch(() => [])).some((e) => isHeadwordOf(e, f))));
-  return forms.filter((_, i) => free[i]);
+export async function renamedFrom(headword: string): Promise<DictionaryEntry[]> {
+  const ownFile = digoLetterFile(headword);
+  const [own, other] = await Promise.all([loadLetterData(headword).catch(() => ({ letter: "", count: 0, entries: [] }) as LetterFile), elsewhere(headword, ownFile)]);
+  return dedupe([...renamedIn(own, headword), ...renamedIn(other, headword)]);
 }
 
 const mergedReverse = new Map<string, Promise<ReverseIndex>>();

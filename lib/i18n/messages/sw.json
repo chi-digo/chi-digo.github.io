@@ -58,7 +58,7 @@
     "browse_letters": "Vinjari kwa herufi",
     "back_to_dictionary": "← Kamusi",
     "try_different_word": "Jaribu kutafuta neno lingine.",
-    "now_listed_as": "Sasa limeorodheshwa kama"
+    "now_spelled": "{old} sasa linaandikwa {new}."
   },
   "proverbs": {
     "other_forms": "Maumbo mengine",
