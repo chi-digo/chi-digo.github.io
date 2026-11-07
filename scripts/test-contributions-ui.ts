@@ -307,17 +307,16 @@ async function main() {
       .eq('status', 'accepted').limit(1).maybeSingle();
     check('…as a headword change with no author', !!hcRow);
     await d.goto(`${BASE}${WORD}`);
-    check('the old address shows the entry under its new headword', await visible(d, 'majaribiyo') && (await d.locator('h1').innerText()).includes('majaribiyo'));
-    check('…the old headword under other forms, and the form credited as the headword', (await visible(d, '__test__')) && (await visible(d, 'Headword form')));
+    // An address is a spelling (owner 2026-11-07): no word is __test__ now, so it is not found, with the new spelling.
+    check('the old spelling is not found', await visible(d, 'Entry not found.'));
+    check('…with "now spelled" and the new spelling', await visible(d, '__test__ is now spelled'));
+    check('…linking it', await d.getByRole('button', { name: 'majaribiyo' }).first().isVisible().catch(() => false));
     await shot(d, '15c-old-address');
-    check('…the heart still shows it as a favourite', await d.getByRole('button', { name: 'Favourites', pressed: true }).first().waitFor({ timeout: 15000 }).then(() => true, () => false));
     await d.goto(`${BASE}/profile`);
-    check('the favourites list shows the word under its new headword', await visible(d, 'majaribiyo'));
+    check('the favourite shows as not found, with the new spelling', await visible(d, 'Entry not found. __test__ is now spelled majaribiyo.'));
     await shot(d, '15d-favourites');
-    // (Opening it isn't checked here: a test entry's new address never resolves, as test forms stay out of the
-    // public forms map. The production gate opened a real word's new address.)
-    const favHref = await d.getByRole('link', { name: /majaribiyo/ }).first().getAttribute('href').catch(() => '');
-    check('…and links to that headword', /\/language\/dictionary\/word\/majaribiyo$/.test(favHref ?? ''), favHref);
+    const favHref = await d.getByRole('link', { name: /__test__/ }).first().getAttribute('href').catch(() => '');
+    check('…and still links its own spelling', /\/language\/dictionary\/word\/__test__$/.test(favHref ?? ''), favHref);
     // (The new address of a test entry isn't checked: test forms never enter the public forms map.)
     if (hcRow) {
       const undone = await a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {

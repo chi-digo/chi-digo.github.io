@@ -71,7 +71,7 @@ export interface Messages {
     sub_entries: string;
     synonyms: string;
     see_also: string;
-    now_listed_as: string;
+    now_spelled: string;
     browse_letters: string;
     back_to_dictionary: string;
     try_different_word: string;

@@ -58,7 +58,7 @@
     "browse_letters": "Hakiki kpwa arufu",
     "back_to_dictionary": "← Kamusi",
     "try_different_word": "Jeza kuhendza kpwa neno ranjina.",
-    "now_listed_as": "Hivi sambi rinaandikpwa dza"
+    "now_spelled": "{old} hivi sambi rinaandikpwa {new}."
   },
   "proverbs": {
     "other_forms": "Maumbo ganjina",
