@@ -3,6 +3,7 @@ import { bulkReviewSchema } from '@/lib/contributions/schemas';
 import { getCaller, canReview, badRequest, rpc, serverError, refreshOverlay, overlayArea, readsLanguage } from '@/lib/contributions/server';
 import { loadAreaOverlay } from '@/lib/contributions/overlay';
 import { acceptArgs } from '@/lib/contributions/decide';
+import { resolveTarget } from '@/lib/contributions/targets';
 import type { Change } from '@/lib/contributions/apply/types';
 import type { ReviewRow } from '@/lib/contributions/review';
 import en from '@/lib/i18n/messages/en.json';
@@ -16,11 +17,26 @@ const MESSAGES = { en, sw, dg } as const;
 
 type Row = ReviewRow & {
   id: string; user_id: string | null; type: string; scope: string; target_type: string | null; target_id: string | null;
-  target_path: string | null; payload: Record<string, unknown>; final_payload: Record<string, unknown> | null; region: string | null;
+  target_path: string | null; target_label: string | null; payload: Record<string, unknown>; final_payload: Record<string, unknown> | null; region: string | null;
   confidence: string | null; locale: 'en' | 'sw' | 'dg'; status: string; live_status: string | null; fold_status: string | null;
   base: { value: unknown } | null; claimed_by: string | null; claimed_until: string | null; reviewer_id: string | null; is_test: boolean;
 };
-type Result = { id: string; ok: boolean; would?: 'live' | 'awaiting_second'; status?: string; live_status?: string; error?: string };
+type Result = {
+  id: string; ok: boolean; would?: 'live' | 'awaiting_second'; status?: string; live_status?: string; error?: string;
+  /** For the review sheet (dry run): what is changed, from what, to what, and why. */
+  item?: { label: string | null; lang: unknown; current: string | null; proposed: unknown; source: string | null; swahili: string | null; reason: unknown };
+};
+
+/** What the review sheet shows for one fix: its label, the text now, the proposal, the English source. */
+function describe(row: Row, live: Change[]): Result['item'] {
+  const payload = row.final_payload ?? row.payload;
+  const t = resolveTarget(row.type as never, row.target_type ?? undefined, row.target_id ?? undefined, payload, { isTest: row.is_test, liveChanges: live });
+  const current = (t?.base?.value as { text?: string } | undefined)?.text ?? (row.base?.value as { text?: string } | undefined)?.text ?? null;
+  return {
+    label: t?.label ?? row.target_label, lang: payload.lang, current, proposed: payload.proposed,
+    source: t?.source ?? null, swahili: t?.swahili ?? null, reason: payload.reason,
+  };
+}
 
 /** Two fixes to the same text can't both go in one run: the later one is skipped (§19.1). Interface text by key. */
 const targetKey = (r: Row) =>
@@ -75,28 +91,30 @@ export async function POST(request: Request) {
 
     let stopped = false;
     for (const row of rows) {
-      const skip = (error: string) => results.push({ id: row.id, ok: false, error });
-      if (stopped) { skip('not_attempted'); continue; }
-      if (!canReview(caller, row.scope as never) || !readsLanguage(caller, row)) { skip('forbidden'); continue; }
-      if (row.user_id === caller.id) { skip('self_review'); continue; }
-      if (row.claimed_by && row.claimed_by !== caller.id && row.claimed_until && new Date(row.claimed_until) > new Date()) { skip('claimed'); continue; }
       const area = overlayArea(row.target_type);
+      const skip = async (error: string) => {
+        results.push({ id: row.id, ok: false, error, ...(body.dry_run && { item: describe(row, await overlayFor(area)) }) });
+      };
+      if (stopped) { await await skip('not_attempted'); continue; }
+      if (!canReview(caller, row.scope as never) || !readsLanguage(caller, row)) { await skip('forbidden'); continue; }
+      if (row.user_id === caller.id) { await skip('self_review'); continue; }
+      if (row.claimed_by && row.claimed_by !== caller.id && row.claimed_until && new Date(row.claimed_until) > new Date()) { await skip('claimed'); continue; }
 
       if (body.action === 'accept' || body.action === 'accept_confirm') {
-        if (!['pending', 'needs_info'].includes(row.status)) { skip('already_decided'); continue; }
-        if (seen.has(targetKey(row))) { skip('same_target_in_batch'); continue; }
-        if (acceptsLeft <= 0) { skip('rate_cap'); stopped = !body.dry_run; continue; }
+        if (!['pending', 'needs_info'].includes(row.status)) { await skip('already_decided'); continue; }
+        if (seen.has(targetKey(row))) { await skip('same_target_in_batch'); continue; }
+        if (acceptsLeft <= 0) { await skip('rate_cap'); stopped = !body.dry_run; continue; }
         const live = await overlayFor(area);
         const prepared = await acceptArgs(db, row, { action: 'accept' }, live);
-        if ('error' in prepared) { skip(prepared.error); continue; }
+        if ('error' in prepared) { await skip(prepared.error); continue; }
         seen.add(targetKey(row));
         const twoVoices = !!prepared.args.needs_second || row.target_type === 'ui';
         const would = twoVoices && !(body.action === 'accept_confirm') ? 'awaiting_second' : 'live';
         acceptsLeft--;
-        if (body.dry_run) { results.push({ id: row.id, ok: true, would }); continue; }
+        if (body.dry_run) { results.push({ id: row.id, ok: true, would, item: describe(row, live) }); continue; }
         let r = await rpc<{ error?: string; status?: string; live_status?: string }>(db, 'review_transition',
           { p_uid: caller.id, p_cid: row.id, p_action: 'accept', p_args: { ...prepared.args, note: null, quiet: true } });
-        if (r.error) { skip(r.error); if (r.error === 'rate_cap') stopped = true; continue; }
+        if (r.error) { await skip(r.error); if (r.error === 'rate_cap') stopped = true; continue; }
         decided.push(row.id);
         if (body.action === 'accept_confirm' && r.live_status === 'awaiting_second') {
           const c = await rpc<{ error?: string; status?: string; live_status?: string }>(db, 'admin_self_confirm', { p_uid: caller.id, p_cid: row.id });
@@ -116,32 +134,32 @@ export async function POST(request: Request) {
       }
 
       if (body.action === 'confirm') {
-        if (row.status !== 'accepted' || row.live_status !== 'awaiting_second') { skip('already_decided'); continue; }
+        if (row.status !== 'accepted' || row.live_status !== 'awaiting_second') { await skip('already_decided'); continue; }
         let action: 'self_confirm' | 'second_confirm' = 'second_confirm';
         if (row.reviewer_id === caller.id) {
           const alone = await rpc<boolean>(db, 'can_self_confirm', { p_uid: caller.id, p_cid: row.id });
-          if (!alone) { skip('own_accept'); continue; }
+          if (!alone) { await skip('own_accept'); continue; }
           action = 'self_confirm';
         }
-        if (body.dry_run) { results.push({ id: row.id, ok: true, would: 'live' }); continue; }
+        if (body.dry_run) { results.push({ id: row.id, ok: true, would: 'live', item: describe(row, await overlayFor(area)) }); continue; }
         const r = action === 'self_confirm'
           ? await rpc<{ error?: string; status?: string; live_status?: string }>(db, 'admin_self_confirm', { p_uid: caller.id, p_cid: row.id })
           : await rpc<{ error?: string; status?: string; live_status?: string }>(db, 'review_transition', { p_uid: caller.id, p_cid: row.id, p_action: 'second_confirm', p_args: {} });
-        if (r.error) { skip(r.error); continue; }
+        if (r.error) { await skip(r.error); continue; }
         if (area) touched.add(area);
         results.push({ id: row.id, ok: true, status: r.status, live_status: r.live_status });
         continue;
       }
 
       // Decline, with a preset reason in the contributor's language (owner decision 9).
-      if (!['pending', 'needs_info'].includes(row.status)) { skip('already_decided'); continue; }
-      if (body.dry_run) { results.push({ id: row.id, ok: true }); continue; }
+      if (!['pending', 'needs_info'].includes(row.status)) { await skip('already_decided'); continue; }
+      if (body.dry_run) { results.push({ id: row.id, ok: true, item: describe(row, await overlayFor(area)) }); continue; }
       const key = `decline_${body.reason}` as keyof typeof en.contribute;
       const preset = (MESSAGES[row.locale] ?? en).contribute[key] || en.contribute[key];
       const note = [preset, body.note?.trim()].filter(Boolean).join(' ');
       const r = await rpc<{ error?: string; status?: string }>(db, 'review_transition',
         { p_uid: caller.id, p_cid: row.id, p_action: 'decline', p_args: { note, quiet: true, bulk_reason: body.reason } });
-      if (r.error) { skip(r.error); if (r.error === 'rate_cap') stopped = true; continue; }
+      if (r.error) { await skip(r.error); if (r.error === 'rate_cap') stopped = true; continue; }
       decided.push(row.id);
       results.push({ id: row.id, ok: true, status: r.status });
     }

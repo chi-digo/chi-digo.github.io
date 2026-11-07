@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, EmptyState, Skeleton, Tabs } from '@chi-digo/design-system';
 import { AuthGuard } from '@/components/AuthGuard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
@@ -8,6 +8,7 @@ import { useTranslations } from '@/lib/i18n/context';
 import { msg, useContributorStatus } from '@/lib/contributions/client';
 import { payloadSummary } from '@/lib/contributions/display';
 import { track } from '@/lib/analytics/track';
+import { BulkSheet, type BulkAction } from './BulkReview';
 import styles from './review.module.css';
 
 interface QueueItem {
@@ -38,35 +39,87 @@ interface Group {
 
 type View = 'open' | 'attention' | 'live';
 
-function QueueList({ view }: { view: View }) {
+/** Translation fixes this reviewer could decide alone, in this tab (spec 34 §19.1). */
+function selectable(it: QueueItem, view: View) {
+  if (it.type !== 'translation_fix' || it.contributor.is_you || it.claimed_by_other) return false;
+  return view === 'open' ? ['pending', 'needs_info'].includes(it.status) : it.status === 'accepted' && it.live_status === 'awaiting_second';
+}
+
+/** A tri-state "select these" checkbox: all, some (mixed) or none of the given ids. */
+function SelectBox({ ids, selected, onChange, label }: { ids: string[]; selected: Set<string>; onChange: (ids: string[], on: boolean) => void; label: string }) {
+  const ref = useRef<HTMLInputElement>(null);
+  const n = ids.filter((id) => selected.has(id)).length;
+  useEffect(() => {
+    if (ref.current) ref.current.indeterminate = n > 0 && n < ids.length;
+  }, [n, ids.length]);
+  return (
+    <label className={styles.bulkCheck}>
+      <input ref={ref} type="checkbox" checked={n === ids.length && n > 0} onChange={(e) => onChange(ids, e.target.checked)} />
+      <span>{label}</span>
+    </label>
+  );
+}
+
+function QueueList({ view, confirmAlone }: { view: View; confirmAlone: boolean }) {
   const t = useTranslations();
   const r = t.review;
   const c = t.contribute;
   const [groups, setGroups] = useState<Group[] | null>(null);
   const [failed, setFailed] = useState(false);
+  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [sheet, setSheet] = useState<BulkAction | null>(null);
+  const [reload, setReload] = useState(0);
 
   useEffect(() => {
     fetch(`/api/review/queue?view=${view}`)
       .then((res) => (res.ok ? res.json() : Promise.reject()))
       .then((d) => setGroups(d.groups))
       .catch(() => setFailed(true));
-  }, [view]);
+  }, [view, reload]);
 
   if (failed) return <p className={styles.error}>{c.error_generic}</p>;
   if (!groups) return <Skeleton height="120px" />;
   if (!groups.length) return <EmptyState title={r.empty} />;
 
+  const bulk = view === 'open' || view === 'attention';
+  const all = groups.flatMap((g) => g.items.filter((it) => selectable(it, view)).map((it) => it.id));
+  const pick = (ids: string[], on: boolean) => setSelected((s) => {
+    const next = new Set(s);
+    for (const id of ids) {
+      if (on && next.size < 50) next.add(id);
+      if (!on) next.delete(id);
+    }
+    return next;
+  });
+  const ids = [...selected].filter((id) => all.includes(id));
+
   return (
-    <div>
-      {groups.map((g) => (
+    <div className={bulk && all.length ? styles.withBar : undefined}>
+      {bulk && all.length > 1 && <SelectBox ids={all.slice(0, 50)} selected={selected} onChange={pick} label={r.bulk_select_all} />}
+      {groups.map((g) => {
+        const eligible = g.items.filter((it) => selectable(it, view)).map((it) => it.id);
+        return (
         <section key={`${g.target_type}:${g.target_id ?? g.items[0].id}`} className={styles.group}>
           <h2 className={styles.groupTitle}>
             {g.target_label || g.target_id || msg(c, `type_${g.items[0].type}`)}
             {g.items.length > 1 && <span className={styles.muted}> · {r.suggestions_count.replace('{n}', String(g.items.length))}</span>}
           </h2>
+          {bulk && eligible.length > 1 && (
+            <SelectBox ids={eligible} selected={selected} onChange={pick}
+              label={r.bulk_select_group.replace('{n}', String(eligible.length)).replace('{m}', String(g.items.length))} />
+          )}
           <ul className={styles.items}>
             {g.items.map((it) => (
-              <li key={it.id}>
+              <li key={it.id} className={styles.bulkRow}>
+                {bulk && selectable(it, view) && (
+                  <input
+                    type="checkbox"
+                    className={styles.rowCheck}
+                    checked={selected.has(it.id)}
+                    onChange={(e) => pick([it.id], e.target.checked)}
+                    aria-label={r.bulk_select_item.replace('{item}', `${msg(c, `type_${it.type}`)}: ${payloadSummary(it.payload)}`)}
+                  />
+                )}
                 <TrackedLink href={`/review/${it.id}`} source="review_queue" className={styles.itemLink}>
                   <span className={styles.itemMain}>
                     {it.type === 'headword_change'
@@ -92,12 +145,38 @@ function QueueList({ view }: { view: View }) {
             ))}
           </ul>
         </section>
-      ))}
+        );
+      })}
+      {bulk && all.length > 0 && (
+        <div className={styles.bulkBar} role="region" aria-label={r.bulk_bar}>
+          <span aria-live="polite">{r.bulk_selected.replace('{n}', String(ids.length))}</span>
+          {view === 'open' ? (
+            <>
+              <Button size="sm" disabled={!ids.length} onClick={() => setSheet('accept')}>{r.bulk_accept}</Button>
+              {confirmAlone && <Button size="sm" variant="secondary" disabled={!ids.length} onClick={() => setSheet('accept_confirm')}>{r.bulk_accept_confirm}</Button>}
+              <Button size="sm" variant="ghost" disabled={!ids.length} onClick={() => setSheet('decline')}>{r.bulk_decline}</Button>
+            </>
+          ) : (
+            <Button size="sm" disabled={!ids.length} onClick={() => setSheet('confirm')}>{r.bulk_confirm}</Button>
+          )}
+        </div>
+      )}
+      {sheet && (
+        <BulkSheet
+          action={sheet}
+          ids={ids}
+          onClose={() => setSheet(null)}
+          onDone={() => {
+            setSelected(new Set());
+            setReload((n) => n + 1);
+          }}
+        />
+      )}
     </div>
   );
 }
 
-function PublishingSwitch() {
+function PublishingSwitch({ onConfirmAlone }: { onConfirmAlone: (on: boolean) => void }) {
   const r = useTranslations().review;
   const [paused, setPaused] = useState<boolean | null>(null);
   const [busy, setBusy] = useState(false);
@@ -113,11 +192,12 @@ function PublishingSwitch() {
         if (!d) return;
         setPaused(d.publishing_paused);
         setUiAlone(d.ui_self_confirm === true);
+        onConfirmAlone(d.ui_self_confirm === true);
         const last = (d.fold_events as { action: string; created_at: string }[]).find((e) => e.action !== 'fold_requested');
         setLastFold(last ? `${new Date(last.created_at).toLocaleString()} (${last.action.replace('fold_', '')})` : null);
       })
       .catch(() => {});
-  }, []);
+  }, [onConfirmAlone]);
   useEffect(load, [load]);
 
   if (paused === null) return null;
@@ -156,6 +236,7 @@ function PublishingSwitch() {
     if (res.ok) {
       track('contribute', 'review', uiAlone ? 'ui_two_voices' : 'ui_self_confirm', {});
       setUiAlone(!uiAlone);
+      onConfirmAlone(!uiAlone);
     }
   };
   return (
@@ -183,6 +264,7 @@ function ReviewQueue() {
   const t = useTranslations();
   const r = t.review;
   const { status } = useContributorStatus();
+  const [confirmAlone, setConfirmAlone] = useState(false);
   if (!status) return null;
   if (status.blocked || (status.role !== 'admin' && status.role !== 'reviewer')) {
     return <main className={styles.page}><div className={styles.content}><p>{r.err_forbidden}</p></div></main>;
@@ -194,12 +276,12 @@ function ReviewQueue() {
           <h1 className={styles.title}>{r.title}</h1>
           <p className={styles.muted}>{r.intro}</p>
         </header>
-        {status.role === 'admin' && <PublishingSwitch />}
+        {status.role === 'admin' && <PublishingSwitch onConfirmAlone={setConfirmAlone} />}
         <Tabs
           items={[
-            { id: 'open', label: r.tab_open, content: <QueueList view="open" /> },
-            { id: 'attention', label: r.tab_attention, content: <QueueList view="attention" /> },
-            { id: 'live', label: r.tab_live, content: <QueueList view="live" /> },
+            { id: 'open', label: r.tab_open, content: <QueueList view="open" confirmAlone={confirmAlone} /> },
+            { id: 'attention', label: r.tab_attention, content: <QueueList view="attention" confirmAlone={confirmAlone} /> },
+            { id: 'live', label: r.tab_live, content: <QueueList view="live" confirmAlone={confirmAlone} /> },
           ]}
         />
       </div>
