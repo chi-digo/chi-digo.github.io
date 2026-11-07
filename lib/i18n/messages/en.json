@@ -927,7 +927,11 @@
     "notif_batch_declined": "{n} of your suggestions weren’t accepted.",
     "decline_unchanged_meaning": "The meaning was already right.",
     "decline_ruled_out_form": "It uses a form we don’t use.",
-    "decline_wrong_text": "It was sent for the wrong text."
+    "decline_wrong_text": "It was sent for the wrong text.",
+    "ui_fix_only_waiting": "Only text with a fix under review",
+    "ui_fix_under_review": "fix under review",
+    "ui_fix_accepted_tag": "fix accepted",
+    "ui_fix_accepted_waiting": "Accepted: “{text}” shows on the site after the next update."
   },
   "review": {
     "ui_alone_off": "Interface fixes need two reviewers; other changes only when no one else could confirm.",

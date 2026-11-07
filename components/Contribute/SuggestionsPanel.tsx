@@ -30,6 +30,7 @@ export function SuggestionsPanel({
   refreshKey,
   render,
   onDifferently,
+  items: given,
 }: {
   targetType: TargetType;
   targetId: string;
@@ -38,6 +39,8 @@ export function SuggestionsPanel({
   /** How to show one suggestion's content for this kind of item. */
   render: (s: PublicSuggestion) => React.ReactNode;
   onDifferently?: (s: PublicSuggestion) => void;
+  /** Suggestions already fetched by the caller (interface fixes are found by key, not by page: §19.2). */
+  items?: PublicSuggestion[];
 }) {
   // While the sign-in state is still loading, a signed-in reader must not be asked to sign in.
   const { user, loading: authLoading } = useAuth();
@@ -51,8 +54,8 @@ export function SuggestionsPanel({
 
   useEffect(() => {
     let live = true;
-    fetch(`/api/contributions/public?target_type=${targetType}&target_id=${encodeURIComponent(targetId)}`)
-      .then((res) => (res.ok ? res.json() : []))
+    (given ? Promise.resolve(given) : fetch(`/api/contributions/public?target_type=${targetType}&target_id=${encodeURIComponent(targetId)}`)
+      .then((res) => (res.ok ? res.json() : [])))
       .then(async (list: PublicSuggestion[]) => {
         if (!live) return;
         setItems(list);
@@ -67,7 +70,7 @@ export function SuggestionsPanel({
     return () => {
       live = false;
     };
-  }, [targetType, targetId, user, refreshKey]);
+  }, [targetType, targetId, user, refreshKey, given]);
 
   if (!items.length) return null;
 

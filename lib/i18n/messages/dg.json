@@ -927,7 +927,11 @@
     "notif_batch_declined": "Mapendekezogo {n} tagakakubaliwa.",
     "decline_unchanged_meaning": "Maana yakala sawa tayari.",
     "decline_ruled_out_form": "Rinahumira neno ambaro taturihumira.",
-    "decline_wrong_text": "Rikahumwa kpwa maandishi gasigo sawa."
+    "decline_wrong_text": "Rikahumwa kpwa maandishi gasigo sawa.",
+    "ui_fix_only_waiting": "Maandishi gana rekebisho rinarokaguliwa tu",
+    "ui_fix_under_review": "rekebisho rinakaguliwa",
+    "ui_fix_accepted_tag": "rekebisho rikakubaliwa",
+    "ui_fix_accepted_waiting": "Rikakubaliwa: “{text}” rindaonekana kpwenye tovuti baada ya kusasisha kunakokuja."
   },
   "review": {
     "ui_alone_off": "",

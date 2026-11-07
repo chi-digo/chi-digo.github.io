@@ -927,7 +927,11 @@
     "notif_batch_declined": "Mapendekezo yako {n} hayakukubaliwa.",
     "decline_unchanged_meaning": "Maana ilikuwa sahihi tayari.",
     "decline_ruled_out_form": "Inatumia neno tusilotumia.",
-    "decline_wrong_text": "Ilitumwa kwa maandishi yasiyo sahihi."
+    "decline_wrong_text": "Ilitumwa kwa maandishi yasiyo sahihi.",
+    "ui_fix_only_waiting": "Maandishi yenye rekebisho linalokaguliwa tu",
+    "ui_fix_under_review": "rekebisho linakaguliwa",
+    "ui_fix_accepted_tag": "rekebisho limekubaliwa",
+    "ui_fix_accepted_waiting": "Limekubaliwa: “{text}” litaonekana kwenye tovuti baada ya sasisho lijalo."
   },
   "review": {
     "ui_alone_off": "Marekebisho ya kiolesura yanahitaji wakaguzi wawili; mengine pale tu hakuna mwingine wa kuthibitisha.",

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
+import { getCaller, badRequest, forbidden, rpc, rpcError, serverError, sameTestWorld } from '@/lib/contributions/server';
 
 const bodySchema = z.object({ reason: z.enum(['offensive', 'spam', 'personal_info', 'other']) });
 
@@ -15,6 +15,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   if (!body.success) return badRequest('invalid', body.error.issues);
 
   try {
+    // Test accounts act only on test rows, and real accounts never on them (§19.2).
+    if (!(await sameTestWorld(caller, id))) return NextResponse.json({ error: 'not_found' }, { status: 404 });
     const r = await rpc<{ reported?: boolean; hidden?: boolean; error?: string }>(caller.db, 'report_contribution', {
       p_uid: caller.id, p_cid: id, p_reason: body.data.reason,
     });
