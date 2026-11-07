@@ -922,7 +922,12 @@
     "type_headword_change": "Badiliko la neno kuu",
     "headword_credit_by": "Umbo kuu la neno limependekezwa na {name}",
     "headword_credit_by_region": "Umbo kuu la neno limependekezwa na {name}, {region}",
-    "headword_credit_anon": "Umbo kuu la neno limependekezwa na Mdigo"
+    "headword_credit_anon": "Umbo kuu la neno limependekezwa na Mdigo",
+    "notif_batch_accepted": "Mapendekezo yako {n} yamekubaliwa.",
+    "notif_batch_declined": "Mapendekezo yako {n} hayakukubaliwa.",
+    "decline_unchanged_meaning": "Maana ilikuwa sahihi tayari.",
+    "decline_ruled_out_form": "Inatumia neno tusilotumia.",
+    "decline_wrong_text": "Ilitumwa kwa maandishi yasiyo sahihi."
   },
   "review": {
     "ui_alone_off": "Marekebisho ya maandishi ya tovuti yanahitaji wakaguzi wawili. Huwezi kuthibitisha peke yako.",

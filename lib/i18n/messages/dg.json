@@ -922,7 +922,12 @@
     "type_headword_change": "Badiliko ra umbo ra neno",
     "headword_credit_by": "Umbo ra neno rikapendekezwa ni {name}",
     "headword_credit_by_region": "Umbo ra neno rikapendekezwa ni {name}, {region}",
-    "headword_credit_anon": "Umbo ra neno rikapendekezwa ni Mdigo"
+    "headword_credit_anon": "Umbo ra neno rikapendekezwa ni Mdigo",
+    "notif_batch_accepted": "Mapendekezogo {n} gakakubaliwa.",
+    "notif_batch_declined": "Mapendekezogo {n} tagakakubaliwa.",
+    "decline_unchanged_meaning": "Maana yakala sawa tayari.",
+    "decline_ruled_out_form": "Rinahumira neno ambaro taturihumira.",
+    "decline_wrong_text": "Rikahumwa kpwa maandishi gasigo sawa."
   },
   "review": {
     "ui_alone_off": "",
