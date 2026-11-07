@@ -6,7 +6,7 @@ import { localePath, pathnameWithoutLocale } from '@/lib/i18n/locale-path';
 import { useTranslations, useLocale } from '@/lib/i18n/context';
 import type { Locale } from '@/lib/i18n/config';
 import { useSearch } from '@/hooks/useSearch';
-import { isHeadwordOf, loadEntriesByHeadword } from '@/lib/dictionary/loader';
+import { isHeadwordOf, loadEntriesByHeadword, ownFormerHeadwords } from '@/lib/dictionary/loader';
 import { searchAll, type GroupedSearchResults, type SearchResult } from '@/lib/dictionary/search';
 import { POS_ABBREVIATIONS, DIGO_ALPHABET } from '@/lib/constants';
 import { AppFavouriteButton } from '@/components/FavouriteButton/FavouriteButton';
@@ -560,14 +560,26 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
   }, [headword, query]);
 
   // An entry that used to have this headword (spec 34 §18.3): shown in full when nothing else has the
-  // headword now (the old address keeps showing it); otherwise listed under "Now listed as".
+  // headword now (the old address keeps showing it); otherwise listed under "Now listed as". Two renamed
+  // entries: the first is shown under its headword, the other listed.
   const current = entries.filter((e) => isHeadwordOf(e, headword));
-  const shown = current.length ? current : entries;
-  const renamed = current.length ? entries.filter((e) => !isHeadwordOf(e, headword)) : [];
+  const shown = current.length ? current : entries.filter((e) => entries[0] && isHeadwordOf(e, entries[0].headword));
+  const renamed = entries.filter((e) => !shown.includes(e));
   const mainEntries = shown.filter((e) => !e.is_redirect);
   const redirectEntries = shown.filter((e) => e.is_redirect);
   const isHomonym = mainEntries.length > 1;
-  const primary = mainEntries[0] ?? entries[0];
+  const primary = mainEntries[0] ?? shown[0];
+
+  // A favourite saved under a headword this word gave up (and no other word has) is this word's.
+  const [aliases, setAliases] = useState<{ id: string; forms: string[] }>({ id: '', forms: [] });
+  useEffect(() => {
+    if (!primary) return;
+    let live = true;
+    ownFormerHeadwords(primary).then((forms) => live && setAliases({ id: primary.id, forms })).catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [primary]);
 
   return (
     <>
@@ -604,6 +616,7 @@ function WordView({ headword, nav, query, contributions = 'all' }: { headword: s
                 entryType="word"
                 entryId={primary.headword}
                 entryLabel={primary.headword}
+                aliases={aliases.id === primary.id ? aliases.forms : []}
                 journey="dictionary"
                 size="sm"
               />

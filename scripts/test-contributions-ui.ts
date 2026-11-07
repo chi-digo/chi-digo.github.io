@@ -288,6 +288,14 @@ async function main() {
     // "Make this the headword" (spec 34 §18): the admin's button, then both addresses show the entry.
     const { data: formRow } = await admin.from('contributions').select('id').eq('user_id', D.id).eq('type', 'spelling_variant')
       .order('created_at', { ascending: false }).limit(1).single();
+    // A favourite saved before the headword changes must still be this word's afterwards (spec 34 §18.6).
+    await d.goto(`${BASE}${WORD}`);
+    // Wait for the user's favourites to load before toggling (the heart is unpressed until they have).
+    await d.waitForResponse((r) => r.url().includes('/api/favourites'), { timeout: 20000 }).catch(() => {});
+    const saved = d.waitForResponse((r) => r.url().includes('/api/favourites') && r.request().method() === 'POST', { timeout: 20000 });
+    await d.getByRole('button', { name: 'Favourites' }).first().click();
+    check('the word is a favourite', (await saved.then((r) => r.ok(), () => false))
+      && await d.getByRole('button', { name: 'Favourites', pressed: true }).first().waitFor({ timeout: 15000 }).then(() => true, () => false));
     await a.goto(`${BASE}/review/${formRow!.id}`);
     check('the admin sees "Make this the headword"', await visible(a, 'Make this the headword'));
     await a.getByRole('button', { name: 'Make this the headword' }).click();
@@ -302,6 +310,14 @@ async function main() {
     check('the old address shows the entry under its new headword', await visible(d, 'majaribiyo') && (await d.locator('h1').innerText()).includes('majaribiyo'));
     check('…the old headword under other forms, and the form credited as the headword', (await visible(d, '__test__')) && (await visible(d, 'Headword form')));
     await shot(d, '15c-old-address');
+    check('…the heart still shows it as a favourite', await d.getByRole('button', { name: 'Favourites', pressed: true }).first().waitFor({ timeout: 15000 }).then(() => true, () => false));
+    await d.goto(`${BASE}/profile`);
+    check('the favourites list shows the word under its new headword', await visible(d, 'majaribiyo'));
+    await shot(d, '15d-favourites');
+    // (Opening it isn't checked here: a test entry's new address never resolves, as test forms stay out of the
+    // public forms map. The production gate opened a real word's new address.)
+    const favHref = await d.getByRole('link', { name: /majaribiyo/ }).first().getAttribute('href').catch(() => '');
+    check('…and links to that headword', /\/language\/dictionary\/word\/majaribiyo$/.test(favHref ?? ''), favHref);
     // (The new address of a test entry isn't checked: test forms never enter the public forms map.)
     if (hcRow) {
       const undone = await a.evaluate(async (id) => (await fetch(`/api/review/${id}`, {
