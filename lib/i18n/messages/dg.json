@@ -925,18 +925,18 @@
     "headword_credit_anon": "Umbo ra neno rikapendekezwa ni Mdigo",
     "notif_batch_accepted": "Mapendekezogo {n} gakakubaliwa.",
     "notif_batch_declined": "Mapendekezogo {n} tagakakubaliwa.",
-    "decline_unchanged_meaning": "Maana yakala sawa tayari.",
-    "decline_ruled_out_form": "Rinahumira neno ambaro taturihumira.",
+    "decline_unchanged_meaning": "Maana gasawa tayari.",
+    "decline_ruled_out_form": "Rinahumira neno ambaro tahurihumira.",
     "decline_wrong_text": "Rikahumwa kpwa maandishi gasigo sawa.",
-    "ui_fix_only_waiting": "Maandishi gana rekebisho rinarokaguliwa tu",
+    "ui_fix_only_waiting": "Maandishi gana rekebisho rinarokaguliwa",
     "ui_fix_under_review": "rekebisho rinakaguliwa",
     "ui_fix_accepted_tag": "rekebisho rikakubaliwa",
-    "ui_fix_accepted_waiting": "Rikakubaliwa: “{text}” rindaonekana kpwenye tovuti baada ya kusasisha kunakokuja.",
+    "ui_fix_accepted_waiting": "Rikakubaliwa: “{text}” rindaonekana kpwenye tovuti baada ya sasisho redzaro.",
     "panel_by_none": "Mdigo",
     "ui_fix_none_of_these": "Takuna kati ya higa: nindaandika rangu",
     "notif_batch_accepted_one": "Pendekezoro 1 rikakubaliwa.",
     "notif_batch_declined_one": "Pendekezoro 1 tarikakubaliwa.",
-    "notif_batch_none": "Mkpwaguzi akapitia mapendekezogo."
+    "notif_batch_none": "Mkpwaguzi akatsapira mapendekezogo."
   },
   "review": {
     "ui_alone_off": "",
