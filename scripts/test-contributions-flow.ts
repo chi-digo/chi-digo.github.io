@@ -554,6 +554,48 @@ async function main() {
     r = await call(T2, 'POST', `/api/contributions/${b4}/agree`, {});
     check('a test account agrees with it', r.status === 200 && r.json.agree_count >= 0, r);
 
+    console.log('5i. dictionary example and equivalents fixes (spec 34 §20)');
+    const T5 = await session(await createUser('dictfix'));
+    users.push(T5.id);
+    const key = (s: string) => {
+      let h = 0x811c9dc5;
+      for (const ch of s.normalize('NFC')) { h ^= ch.codePointAt(0)!; h = Math.imul(h, 0x01000193) >>> 0; }
+      return h.toString(16).padStart(8, '0');
+    };
+    const exFix = (over: Record<string, unknown>) => ({
+      type: 'example_fix', target_id: TEST, locale: 'sw', region: 'tanga', confidence: 'native',
+      payload: { sense_id: '1', index: 0, dg_key: key('Ni mfano wa majaribio.'), dg: 'Ni mfano wa majaribio.', en: 'It is a test example.', sw: 'Ni mfano wa jaribio.', reason: 'Better', ...over },
+    });
+    r = await call(T5, 'POST', '/api/contributions', exFix({}));
+    check('an example fix that changes nothing → 400', r.status === 400 && r.json.error === 'unchanged', r);
+    r = await call(T5, 'POST', '/api/contributions', exFix({ dg_key: '00000000' }));
+    check('an example that can’t be found → 404', r.status === 404, r);
+    r = await call(T5, 'POST', '/api/contributions', exFix({ sw: 'Huu ni mfano wa jaribio.' }));
+    const exSw = r.json.id as string;
+    check('a Swahili fix to an example → 201', r.status === 201, r);
+    const { data: exRow } = await admin.from('contributions').select('scope, target_path, payload').eq('id', exSw).single();
+    check('…for dictionary reviewers, main language Swahili, path built on the server', exRow?.scope === 'dictionary' && exRow?.payload?.lang === 'sw' && exRow?.target_path === 'senses.1.examples.0', exRow);
+    r = await call(T5, 'POST', '/api/contributions', { type: 'equivalents_fix', target_id: TEST, locale: 'sw', payload: { lang: 'sw', items: ['jaribio', 'Jaribio'], reason: 'x' } });
+    check('a list with a duplicate → 400', r.status === 400 && r.json.error === 'duplicate', r);
+    r = await call(T5, 'POST', '/api/contributions', { type: 'equivalents_fix', target_id: TEST, locale: 'sw', payload: { lang: 'sw', items: ['jaribio', 'majaribio, mtihani'], reason: 'Missing' } });
+    const eqSw = r.json.id as string;
+    check('a Swahili equivalents fix (an item with a comma) → 201', r.status === 201, r);
+    r = await call(A, 'POST', `/api/review/${exSw}`, { action: 'accept', final_payload: { ...exFix({ sw: 'x' }).payload, index: 1, lang: 'sw' } });
+    check('a reviewer can’t move the fix to another example → 400', r.status === 400 && r.json.error === 'locked_fields', r);
+    r = await call(A, 'POST', `/api/review/${exSw}`, { action: 'accept' });
+    check('a Swahili-only example fix goes live', r.status === 200 && r.json.live_status === 'live', r);
+    r = await call(A, 'POST', `/api/review/${eqSw}`, { action: 'accept' });
+    check('the Swahili equivalents fix goes live', r.status === 200 && r.json.live_status === 'live', r);
+    words = await call(null, 'GET', '/api/overlay/word');
+    const ovFix = words.json.changes.filter((c: { contribution_id: string }) => [exSw, eqSw].includes(c.contribution_id));
+    check('…both in the overlay, with the anchor and without the reason', ovFix.length === 2 && ovFix.some((c: { final_payload: Record<string, unknown> }) => c.final_payload.dg_key)
+      && !JSON.stringify(ovFix).includes('Better') && !JSON.stringify(ovFix).includes('Missing'), ovFix);
+    r = await call(T5, 'POST', '/api/contributions', exFix({ dg: 'Ni mfano wa majaribio mapya.', sw: 'Huu ni mfano wa jaribio.' }));
+    check('a fix that changes the Digo (from the live text) → 201', r.status === 201, r);
+    const exDg = r.json.id as string;
+    r = await call(A, 'POST', `/api/review/${exDg}`, { action: 'accept' });
+    check('…the Digo sentence needs two voices', r.status === 200 && r.json.live_status === 'awaiting_second', r);
+
     console.log('6. member actions, limits, privacy');
     r = await call(C, 'PATCH', `/api/contributions/${info}`, { action: 'withdraw' });
     check('withdraw', r.status === 200 && r.json.status === 'withdrawn', r);
