@@ -4,7 +4,8 @@ import type { Status } from './schemas';
 /** A one-line summary of what was suggested, from the payload's main field. */
 export function payloadSummary(payload: Record<string, unknown> | null | undefined): string {
   if (!payload) return '';
-  for (const key of ['name', 'headword', 'digo', 'form', 'proposed', 'text', 'description', 'detail', 'reason']) {
+  if (Array.isArray(payload.items)) return (payload.items as string[]).join(', ');
+  for (const key of ['name', 'headword', 'digo', 'form', 'proposed', 'dg', 'text', 'description', 'detail', 'reason']) {
     const v = payload[key];
     if (typeof v === 'string' && v.trim()) return v.trim();
   }

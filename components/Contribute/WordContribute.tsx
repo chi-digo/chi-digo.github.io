@@ -11,10 +11,11 @@ import { track } from '@/lib/analytics/track';
 import { WORD_ID } from '@/lib/contributions/schemas';
 import { SuggestionsPanel, type PublicSuggestion } from './SuggestionsPanel';
 import { CreditLine } from './Credits';
-import { DefinitionForm, ExampleForm, FlagForm, VariantForm } from './WordForms';
+import { DefinitionForm, ExampleForm, FlagForm, VariantForm, ExampleFixForm, EquivalentsForm } from './WordForms';
 import styles from './Contribute.module.css';
 
-type Form = { kind: 'definition'; sense: number } | { kind: 'example'; sense?: number } | { kind: 'variant' } | { kind: 'flag' };
+type Form = { kind: 'definition'; sense: number } | { kind: 'example'; sense?: number } | { kind: 'variant' } | { kind: 'flag' }
+  | { kind: 'example_fix'; sense: number; index: number } | { kind: 'equivalents'; lang: 'sw' | 'en' };
 
 /**
  * What the dictionary shows around one entry for contributions (spec 34 §15.3): the community note on a
@@ -25,6 +26,8 @@ type Form = { kind: 'definition'; sense: number } | { kind: 'example'; sense?: n
 export function useWordForms(entry: DictionaryEntry) {
   const [form, setForm] = useState<Form | null>(null);
   const [panelKey, setPanelKey] = useState(0);
+  // Fix mode (spec 34 §20.5): a "Fix" on each example and on the equivalents lines.
+  const [fixing, setFixing] = useState(false);
 
   // After signing in from a form, reopen it with its draft.
   useEffect(() => {
@@ -36,6 +39,8 @@ export function useWordForms(entry: DictionaryEntry) {
       if (intent.form === 'example_sentence') setForm({ kind: 'example' });
       if (intent.form === 'spelling_variant') setForm({ kind: 'variant' });
       if (intent.form === 'entry_flag') setForm({ kind: 'flag' });
+      if (intent.form === 'example_fix') setForm({ kind: 'example_fix', sense: Number(intent.extra?.sense ?? 1), index: Number(intent.extra?.index ?? 0) });
+      if (intent.form === 'equivalents_fix') setForm({ kind: 'equivalents', lang: intent.extra?.lang === 'en' ? 'en' : 'sw' });
     });
     return () => {
       live = false;
@@ -56,9 +61,11 @@ export function useWordForms(entry: DictionaryEntry) {
       {form.kind === 'example' && <ExampleForm open onClose={() => setForm(null)} entry={entry} senseId={form.sense} onSubmitted={submitted} />}
       {form.kind === 'variant' && <VariantForm open onClose={() => setForm(null)} entry={entry} onSubmitted={submitted} />}
       {form.kind === 'flag' && <FlagForm open onClose={() => setForm(null)} entry={entry} onSubmitted={submitted} />}
+      {form.kind === 'example_fix' && <ExampleFixForm open onClose={() => setForm(null)} entry={entry} senseId={form.sense} index={form.index} onSubmitted={submitted} />}
+      {form.kind === 'equivalents' && <EquivalentsForm open onClose={() => setForm(null)} entry={entry} lang={form.lang} onSubmitted={submitted} />}
     </>
   );
-  return { open, forms, panelKey };
+  return { open, forms, panelKey, fixing, setFixing };
 }
 
 /** The note on a word added by the community and not yet folded into the dictionary. */
@@ -118,11 +125,14 @@ export function WordSuggest({
   open,
   panelKey,
   contributions = 'all',
+  onFix,
 }: {
   entry: DictionaryEntry;
   open: (f: Form) => void;
   panelKey: number;
   contributions?: 'all' | 'flag_only';
+  /** Turn fix mode on (spec 34 §20.5). */
+  onFix?: () => void;
 }) {
   const c = useTranslations().contribute;
   const [menu, setMenu] = useState(false);
@@ -154,6 +164,7 @@ export function WordSuggest({
                   ['example', c.word_menu_example],
                   ['variant', c.word_menu_variant],
                   ['flag', c.word_menu_flag],
+                  ...(onFix ? [['fix', c.word_menu_fix] as const] : []),
                 ] as const
               ).map(([kind, label]) => (
                 <button
@@ -163,6 +174,10 @@ export function WordSuggest({
                   className={styles.chip}
                   onClick={() => {
                     setMenu(false);
+                    if (kind === 'fix') {
+                      onFix?.();
+                      return;
+                    }
                     open(kind === 'definition' ? { kind, sense: entry.senses[0]?.sense_id ?? 1 } : { kind });
                   }}
                 >

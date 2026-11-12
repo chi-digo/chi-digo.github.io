@@ -6,6 +6,8 @@ import { msg, useContributionDraft } from '@/lib/contributions/client';
 import type { DictionaryEntry } from '@/lib/dictionary/types';
 import type { Locale } from '@/lib/i18n/config';
 import { ContributionDialog } from './ContributionDialog';
+import { exampleKey } from '@/lib/contributions/apply/words';
+import styles from './Contribute.module.css';
 
 /** The dictionary forms (spec 34 §15.3), all built on ContributionDialog with drafts and resume. */
 
@@ -224,6 +226,97 @@ export function NewWordForm({ open, onClose, onSubmitted, headword = '' }: { ope
       {draft.example_dg.trim() && (
         <TextField label={c.newword_example_en} value={draft.example_en} onChange={(e) => setDraft({ example_en: e.target.value })} maxLength={400} />
       )}
+    </ContributionDialog>
+  );
+}
+
+/**
+ * "Fix this example" (spec 34 §20, owner 2026-11-12): the Digo sentence and its Swahili and English are
+ * fixed together, so they always say the same thing. Each is prefilled with what the dictionary says now.
+ */
+export function ExampleFixForm({ open, onClose, entry, onSubmitted, senseId, index }: EntryFormProps & { senseId: number; index: number }) {
+  const c = useTranslations().contribute;
+  const ex = entry.senses.find((s) => s.sense_id === senseId)?.examples[index];
+  const key = `example_fix:${entry.id}:${senseId}:${index}`;
+  const [draft, setDraft, clear] = useContributionDraft(key, { dg: ex?.dg ?? '', en: ex?.en ?? '', sw: ex?.sw ?? '', reason: '' });
+  if (!ex) return null;
+  const changed = (['dg', 'en', 'sw'] as const).some((k) => draft[k].trim() !== (ex[k] ?? '').trim());
+  const payload = changed && draft.dg.trim() && draft.reason.trim()
+    ? { sense_id: String(senseId), index, dg_key: exampleKey(ex.dg), dg: draft.dg.trim(), en: draft.en.trim(), sw: draft.sw.trim(), reason: draft.reason.trim() }
+    : null;
+  return (
+    <ContributionDialog
+      open={open}
+      onClose={onClose}
+      type="example_fix"
+      title={c.ex_fix_title}
+      intro={c.ex_fix_intro}
+      target={target(entry)}
+      draftKey={key}
+      resume={{ form: 'example_fix', target_id: entry.id, extra: { sense: String(senseId), index: String(index) } }}
+      payload={payload}
+      askSource
+      onSubmitted={() => {
+        clear();
+        onSubmitted?.();
+      }}
+    >
+      <TextArea label={c.ex_fix_dg} lang="dg" value={draft.dg} onChange={(e) => setDraft({ dg: e.target.value })} maxLength={400} rows={2} autoFocus />
+      <TextArea label={c.ex_fix_sw} lang="sw" value={draft.sw} onChange={(e) => setDraft({ sw: e.target.value })} maxLength={400} rows={2} />
+      <TextArea label={c.ex_fix_en} lang="en" value={draft.en} onChange={(e) => setDraft({ en: e.target.value })} maxLength={400} rows={2} />
+      <TextField label={c.tf_reason} value={draft.reason} onChange={(e) => setDraft({ reason: e.target.value })} maxLength={300} />
+    </ContributionDialog>
+  );
+}
+
+/** "Fix the Swahili (or English) equivalents": a list, one word or short phrase per field (spec 34 §20). */
+export function EquivalentsForm({ open, onClose, entry, onSubmitted, lang }: EntryFormProps & { lang: 'sw' | 'en' }) {
+  const c = useTranslations().contribute;
+  const current = (lang === 'en' ? entry.equivalents_en : entry.equivalents_sw) ?? [];
+  const key = `equivalents_fix:${entry.id}:${lang}`;
+  const [draft, setDraft, clear] = useContributionDraft(key, { items: current.length ? [...current] : [''], reason: '' });
+  const items = draft.items.map((x) => x.trim()).filter(Boolean);
+  const changed = JSON.stringify(items) !== JSON.stringify(current);
+  return (
+    <ContributionDialog
+      open={open}
+      onClose={onClose}
+      type="equivalents_fix"
+      title={lang === 'en' ? c.eq_fix_title_en : c.eq_fix_title_sw}
+      intro={c.eq_fix_intro}
+      target={target(entry)}
+      draftKey={key}
+      resume={{ form: 'equivalents_fix', target_id: entry.id, extra: { lang } }}
+      payload={changed && items.length && draft.reason.trim() ? { lang, items, reason: draft.reason.trim() } : null}
+      askSource
+      onSubmitted={() => {
+        clear();
+        onSubmitted?.();
+      }}
+    >
+      {draft.items.map((item, i) => (
+        <div key={i} style={{ display: 'flex', gap: 'var(--space-2)', alignItems: 'flex-end' }}>
+          <div style={{ flex: 1 }}>
+            <TextField
+              label={c.eq_fix_item.replace('{n}', String(i + 1))}
+              lang={lang}
+              value={item}
+              onChange={(e) => setDraft({ items: draft.items.map((x, j) => (j === i ? e.target.value : x)) })}
+              maxLength={200}
+            />
+          </div>
+          {draft.items.length > 1 && (
+            <button type="button" className={styles.textBtn} onClick={() => setDraft({ items: draft.items.filter((_, j) => j !== i) })}
+              aria-label={`${c.eq_fix_remove}: ${item || c.eq_fix_item.replace('{n}', String(i + 1))}`}>
+              {c.eq_fix_remove}
+            </button>
+          )}
+        </div>
+      ))}
+      {draft.items.length < Math.max(8, current.length) && (
+        <button type="button" className={styles.textBtn} onClick={() => setDraft({ items: [...draft.items, ''] })}>{c.eq_fix_add}</button>
+      )}
+      <TextField label={c.tf_reason} value={draft.reason} onChange={(e) => setDraft({ reason: e.target.value })} maxLength={300} />
     </ContributionDialog>
   );
 }
