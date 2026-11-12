@@ -173,6 +173,24 @@ export const PAYLOADS = {
     reason: safeText(300),
   }),
   general_feedback: z.object({ text: safeText(2000) }),
+  // A dictionary example fixed in all three languages at once (spec 34 §20): the example is named by its
+  // sense, place and a hash of its Digo sentence. `lang` is set by the server (the main language changed).
+  example_fix: z.object({
+    sense_id: senseId,
+    index: z.number().int().min(0).max(99),
+    dg_key: z.string().regex(/^[0-9a-f]{8}$/),
+    dg: wordText(400),
+    en: optWordText(400),
+    sw: optWordText(400),
+    lang: z.enum(['dg', 'sw', 'en']).optional(),
+    reason: safeText(300),
+  }),
+  // An entry's Swahili or English equivalents, as a list (spec 34 §20). Each item may hold a comma.
+  equivalents_fix: z.object({
+    lang: z.enum(['sw', 'en']),
+    items: z.array(z.string().trim().min(1).max(200).refine((s) => !UNSAFE_WORD.test(s), { message: 'Contains characters that are not allowed' })).min(1).max(20),
+    reason: safeText(300),
+  }),
   // Internal: made by an admin from an accepted form, never submitted (spec 34 §18.1). Not in ENABLED_TYPES.
   headword_change: z.object({ form: digoWord, variant: z.string().uuid() }),
 } as const;
@@ -198,6 +216,8 @@ export const TYPE_SCOPE: Record<ContributionType, Scope> = {
   translation_fix: 'translations',
   general_feedback: 'feedback',
   headword_change: 'dictionary',
+  example_fix: 'dictionary',
+  equivalents_fix: 'dictionary',
 };
 
 /** Types that add something new, so they have no existing target. */
@@ -209,6 +229,7 @@ export const ENABLED_TYPES: ContributionType[] = [
   'word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'entry_flag',
   'proverb_addition', 'proverb_variant', 'proverb_meaning', 'proverb_context',
   'translation_fix',
+  'example_fix', 'equivalents_fix',
 ];
 
 export const TARGET_TYPES = ['word', 'proverb', 'plant', 'article', 'glossary', 'ui', 'page'] as const;

@@ -33,7 +33,7 @@ export function digoText(type: ContributionType, payload: Record<string, unknown
   if (type === 'proverb_addition') return [p.digo, p.meaning_dg, p.usage_lang === 'dg' ? p.usage : undefined].filter((x): x is string => !!x);
   if (type === 'proverb_variant') return p.form ? [p.form] : [];
   if (type === 'proverb_context') return p.lang === 'dg' && p.text ? [p.text] : [];
-  if (type === 'example_sentence') return p.dg ? [p.dg] : [];
+  if (type === 'example_sentence' || type === 'example_fix') return p.dg ? [p.dg] : [];
   if (type === 'spelling_variant') return p.form ? [p.form] : [];
   if (type === 'plant_info' || type === 'translation_fix' || type === 'definition_update' || type === 'proverb_meaning') {
     const lang = p.lang;
@@ -71,9 +71,23 @@ export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
     || (row.target_type === 'proverb' && (row.type === 'proverb_meaning' || row.type === 'translation_fix'));
   if (!checked) return false;
   const now = resolveTarget(row.type, row.target_type ?? undefined, row.target_id, row.payload, { isTest: row.is_test, liveChanges });
-  if (!now?.base) return false;
+  // A fixed example or list that can no longer be found has changed (spec 34 §20.3).
+  if (!now?.base) return row.type === 'example_fix' || row.type === 'equivalents_fix';
   const hash = row.base.hash ?? createHash('sha256').update(stableStringify(row.base.value ?? null)).digest('hex');
   return now.base.hash !== hash;
+}
+
+/**
+ * The rules for an equivalents list (spec 34 §20.2): at least one item, no duplicates, at most
+ * max(8, the current length); only items that are new or changed must be 1–60 characters, so long
+ * legacy items can stay. Items may contain commas.
+ */
+export function equivalentsProblem(before: string[], after: string[]): 'unchanged' | 'too_many' | 'duplicate' | 'too_long' | null {
+  if (JSON.stringify(before) === JSON.stringify(after)) return 'unchanged';
+  if (after.length > Math.max(8, before.length)) return 'too_many';
+  if (new Set(after.map((x) => x.toLowerCase())).size !== after.length) return 'duplicate';
+  if (after.some((x) => !before.includes(x) && (x.length < 1 || x.length > 60))) return 'too_long';
+  return null;
 }
 
 /** Characters changed between the common prefix and suffix: a cheap upper bound on the edit size. */
@@ -108,6 +122,12 @@ export function needsSecondReview(row: ReviewRow, finalPayload: Record<string, u
     return base?.source === 'original' || changedChars(base?.text ?? '', String(finalPayload.text ?? '')) > 300;
   }
   if (row.type === 'proverb_context') return finalPayload.lang === 'dg';
+  // Dictionary examples and equivalents (spec 34 §20): any Digo or English change takes two voices.
+  if (row.type === 'example_fix') {
+    const base = row.base?.value as { dg?: string; en?: string | null } | null;
+    return String(finalPayload.dg ?? '') !== (base?.dg ?? '') || String(finalPayload.en ?? '') !== (base?.en ?? '');
+  }
+  if (row.type === 'equivalents_fix') return finalPayload.lang === 'en';
   // Translation fixes (spec 34 §17.8): big changes, any English change, and source-book proverb text.
   if (row.type === 'translation_fix') {
     const base = row.base?.value as { text?: string; source?: string | null } | null;
@@ -144,6 +164,8 @@ export function lockedFieldsChanged(type: ContributionType, payload: Record<stri
     proverb_context: ['lang'],
     proverb_addition: ['usage_lang'],
     translation_fix: ['lang', 'field', 'part', 'block', 'key'],
+    example_fix: ['sense_id', 'index', 'dg_key', 'lang'],
+    equivalents_fix: ['lang'],
   }[type as string] ?? [];
   return keys.some((k) => String(payload[k] ?? '') !== String(final[k] ?? ''));
 }

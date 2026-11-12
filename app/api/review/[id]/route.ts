@@ -7,7 +7,7 @@ import {
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
-import { applyAllToEntries, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
+import { applyAllToEntries, exampleKey, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import { acceptArgs, minimumSensePath } from '@/lib/contributions/decide';
@@ -214,6 +214,14 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     // A reviewer may correct the text, never what a dictionary change points at (spec 34 §15.3).
     if (body.final_payload && lockedFieldsChanged(row.type as ContributionType, row.payload, body.final_payload)) {
       return badRequest('locked_fields');
+    }
+    // An example that a live fix was made on can't be removed until the fix is undone (spec 34 §20.3).
+    if (body.action === 'revert' && row.type === 'example_sentence') {
+      const key = exampleKey(String((row.final_payload ?? row.payload).dg ?? ''));
+      const { data: fixes } = await caller.db.from('contributions').select('id, type, final_payload')
+        .eq('type', 'example_fix').eq('status', 'accepted').eq('target_id', row.target_id ?? '');
+      const deps = (fixes ?? []).filter((f) => (f.final_payload as Record<string, unknown> | null)?.dg_key === key).map((f) => ({ id: f.id, type: f.type }));
+      if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
     }
     // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
     if (body.action === 'revert' && (row.type === 'word_addition' || row.type === 'proverb_addition')) {

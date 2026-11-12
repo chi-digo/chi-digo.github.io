@@ -46,6 +46,31 @@ export function reservedIds(entries: DictionaryEntry[]): string[] {
 
 const variantKey = (v: Variant) => v.c ?? v.form;
 
+/**
+ * An example's anchor (spec 34 §20.3): examples have no ids, so a fix names the example by its place and a
+ * short hash of its Digo sentence (FNV-1a, 8 hex characters; it runs in the browser and on the server).
+ */
+export function exampleKey(dg: string): string {
+  let h = 0x811c9dc5;
+  for (const ch of dg.normalize('NFC')) {
+    h ^= ch.codePointAt(0)!;
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h.toString(16).padStart(8, '0');
+}
+
+/** The example a fix means: at its index if the sentence still matches, else the only one with that key. */
+export function findExample<T extends { dg: string }>(examples: T[], index: number, key: string): T | null {
+  if (examples[index] && exampleKey(examples[index].dg) === key) return examples[index];
+  const matches = examples.filter((x) => exampleKey(x.dg) === key);
+  return matches.length === 1 ? matches[0] : null;
+}
+
+/** An example as a fix sees it: absent translations as null, so undo can remove a key it added. */
+export function exampleBase(x: Example): { dg: string; en: string | null; sw: string | null } {
+  return { dg: x.dg, en: x.en ?? null, sw: x.sw ?? null };
+}
+
 /** sort_key by the §15.1 rule: lower case, no leading "-", ’ as '. */
 export function sortKeyOf(headword: string): string {
   return headword.normalize('NFC').toLowerCase().replace(/^-/, '').replace(/’/g, "'");
@@ -160,6 +185,29 @@ export function applyWord(entry: WordEntry, change: Change, opts: { newId?: stri
     return shaped({ ...next, provenance: withProvenance(entry.provenance, path, change) });
   }
 
+  // An example fixed in all three languages at once (spec 34 §20, owner 2026-11-12).
+  if (change.type === 'example_fix') {
+    const n = Number(p.sense_id);
+    const sense = entry.senses.find((x) => x.sense_id === n);
+    const ex = sense ? findExample(sense.examples, Number(p.index), String(p.dg_key)) : null;
+    if (!ex || !change.base || !same(exampleBase(ex), change.base.value)) throw new ConflictError(change.contribution_id, `senses.${n}.examples`);
+    const fixed = { ...ex, dg: String(p.dg) } as Example & Record<string, unknown>;
+    for (const lang of ['en', 'sw'] as const) {
+      const v = typeof p[lang] === 'string' ? String(p[lang]) : '';
+      if (v || lang in ex) fixed[lang] = v;
+    }
+    const next = withSense(entry, n, (x) => ({ ...x, examples: x.examples.map((e) => (e === ex ? fixed : e)) }));
+    return shaped({ ...next, provenance: withProvenance(entry.provenance, `senses.${n}.examples`, change) });
+  }
+
+  // An entry's Swahili or English equivalents, as a list (spec 34 §20).
+  if (change.type === 'equivalents_fix') {
+    const key = p.lang === 'en' ? 'equivalents_en' : 'equivalents_sw';
+    const base = (change.base?.value as { list?: string[] } | undefined)?.list;
+    if (!base || !same(entry[key], base)) throw new ConflictError(change.contribution_id, key);
+    return shaped({ ...entry, [key]: (p.items as string[]).map(String), provenance: withProvenance(entry.provenance, key, change) });
+  }
+
   if (change.type === 'example_sentence') {
     const n = Number(p.sense_id);
     if (!entry.senses.some((s) => s.sense_id === n)) throw new ConflictError(change.contribution_id, `senses.${n}.examples`);
@@ -230,6 +278,30 @@ export function unapplyWord(entry: WordEntry, change: Change): WordEntry {
   if (change.type === 'example_sentence') {
     const n = Number(p.sense_id);
     return drop(withSense(entry, n, (s) => ({ ...s, examples: s.examples.filter((x) => (x as CommunityExample).c !== c) })));
+  }
+
+  if (change.type === 'example_fix') {
+    const n = Number(p.sense_id);
+    const sense = entry.senses.find((x) => x.sense_id === n);
+    // The fixed example: the one that now reads exactly as the fix wrote it.
+    const now = { dg: String(p.dg), en: typeof p.en === 'string' ? String(p.en) : '', sw: typeof p.sw === 'string' ? String(p.sw) : '' };
+    const matches = (sense?.examples ?? []).filter((x) => x.dg === now.dg && (x.en ?? '') === now.en && (x.sw ?? '') === now.sw);
+    const base = change.base?.value as { dg: string; en: string | null; sw: string | null } | undefined;
+    if (matches.length !== 1 || !base) throw new ConflictError(c, `senses.${n}.examples`);
+    const ex = matches[0];
+    const back = { ...ex, dg: base.dg } as Example & Record<string, unknown>;
+    for (const lang of ['en', 'sw'] as const) {
+      if (base[lang] === null) delete back[lang];
+      else back[lang] = base[lang];
+    }
+    return drop(withSense(entry, n, (x) => ({ ...x, examples: x.examples.map((e) => (e === ex ? back : e)) })));
+  }
+
+  if (change.type === 'equivalents_fix') {
+    const key = p.lang === 'en' ? 'equivalents_en' : 'equivalents_sw';
+    const base = (change.base?.value as { list?: string[] } | undefined)?.list;
+    if (!base || !same(entry[key], p.items)) throw new ConflictError(c, key);
+    return drop({ ...entry, [key]: base });
   }
 
   if (change.type === 'spelling_variant') {

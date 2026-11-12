@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { PAYLOADS, TYPE_SCOPE, ENABLED_TYPES, submitSchema } from '@/lib/contributions/schemas';
 import { getCaller, badRequest, forbidden, rpc, rpcError, serverError } from '@/lib/contributions/server';
+import { equivalentsProblem } from '@/lib/contributions/review';
 import { resolveTarget, WORD_ID, similarHeadwords, PROVERB_ID, similarProverb } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { ARTICLE_ID } from '@/lib/articles/load';
@@ -81,6 +82,21 @@ export async function POST(request: Request) {
       liveChanges: area ? await getAreaOverlay(area) : [],
     });
     if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
+    // A dictionary example or list fix (spec 34 §20): something must change, and the server names the
+    // main language changed, which decides who reviews it.
+    if (input.type === 'example_fix') {
+      const p = payload.data as { dg: string; en?: string; sw?: string; lang?: string };
+      const base = target.base?.value as { dg: string; en: string | null; sw: string | null };
+      const changed = (['dg', 'sw', 'en'] as const).filter((k) => (p[k] ?? '') !== (base[k] ?? ''));
+      if (!changed.length) return badRequest('unchanged');
+      p.lang = changed[0];
+    }
+    if (input.type === 'equivalents_fix') {
+      const p = payload.data as { items: string[] };
+      const before = (target.base?.value as { list: string[] }).list;
+      const problem = equivalentsProblem(before, p.items);
+      if (problem) return badRequest(problem);
+    }
     if (input.type === 'translation_fix') {
       const proposed = (payload.data as { proposed: string }).proposed;
       const problem = input.target_type === 'ui'
