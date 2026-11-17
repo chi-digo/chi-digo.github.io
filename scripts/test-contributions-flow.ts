@@ -586,10 +586,17 @@ async function main() {
     check('a Swahili-only example fix goes live', r.status === 200 && r.json.live_status === 'live', r);
     r = await call(A, 'POST', `/api/review/${eqSw}`, { action: 'accept' });
     check('the Swahili equivalents fix goes live', r.status === 200 && r.json.live_status === 'live', r);
-    words = await call(null, 'GET', '/api/overlay/word');
-    const ovFix = words.json.changes.filter((c: { contribution_id: string }) => [exSw, eqSw].includes(c.contribution_id));
+    // Two accepts in a row: the second's cache refresh can land a moment later, so read until both show.
+    let ovFix: { type: string; final_payload: Record<string, unknown> }[] = [];
+    for (let i = 0; i < 10 && ovFix.length < 2; i++) {
+      words = await call(null, 'GET', '/api/overlay/word');
+      ovFix = words.json.changes.filter((c: { contribution_id: string }) => [exSw, eqSw].includes(c.contribution_id));
+      if (ovFix.length < 2) await new Promise((res) => setTimeout(res, 1000));
+    }
+    const fixText = JSON.stringify(ovFix);
     check('…both in the overlay, with the anchor and without the reason', ovFix.length === 2 && ovFix.some((c: { final_payload: Record<string, unknown> }) => c.final_payload.dg_key)
-      && !JSON.stringify(ovFix).includes('Better') && !JSON.stringify(ovFix).includes('Missing'), ovFix);
+      && !fixText.includes('"Better"') && !fixText.includes('"Missing"'),
+      { count: ovFix.length, types: ovFix.map((c: { type: string }) => c.type), better: fixText.includes('Better'), missing: fixText.includes('Missing') });
     r = await call(T5, 'POST', '/api/contributions', exFix({ dg: 'Ni mfano wa majaribio mapya.', sw: 'Huu ni mfano wa jaribio.' }));
     check('a fix that changes the Digo (from the live text) → 201', r.status === 201, r);
     const exDg = r.json.id as string;
