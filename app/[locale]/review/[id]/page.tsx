@@ -1,7 +1,7 @@
 'use client';
 
 import { Fragment, use, useCallback, useEffect, useState } from 'react';
-import { Button, RadioGroup, Select, Skeleton, TextArea, TextField } from '@chi-digo/design-system';
+import { Button, RadioGroup, Select, Skeleton, TextArea, TextField, VisuallyHidden } from '@chi-digo/design-system';
 import { PROVERB_THEMES } from '@/lib/proverbs/themes';
 import { AuthGuard } from '@/components/AuthGuard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
@@ -71,6 +71,7 @@ const EDITABLE: Record<string, string[]> = {
   proverb_meaning: ['text'],
   proverb_context: ['text'],
   translation_fix: ['proposed'],
+  example_fix: ['dg', 'sw', 'en'],
 };
 
 /** Proverb field labels (the word labels above are for the dictionary). */
@@ -92,6 +93,12 @@ function currentText(value: unknown): string {
   if (typeof value === 'string') return value;
   if (typeof value === 'object' && 'digo_headword' in (value as object)) return String((value as { digo_headword: string | null }).digo_headword ?? '');
   if (typeof value === 'object' && 'text' in (value as object)) return String((value as { text: string | null }).text ?? '');
+  // A dictionary example (spec 34 §20): Digo, then Swahili, then English, one per line.
+  if (typeof value === 'object' && 'dg' in (value as object)) {
+    const v = value as { dg: string; sw: string | null; en: string | null };
+    return [v.dg, v.sw ?? '—', v.en ?? '—'].join('\n');
+  }
+  if (typeof value === 'object' && 'list' in (value as object)) return ((value as { list: string[] }).list ?? []).join(', ');
   return JSON.stringify(value);
 }
 
@@ -327,6 +334,32 @@ function ReviewItem({ id }: { id: string }) {
             {base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}
           </>
         )}
+        {/* A dictionary example fixed in all three languages, each against what it said (spec 34 §20). */}
+        {item.type === 'example_fix' && (
+          <dl className={styles.facts}>
+            {(['dg', 'sw', 'en'] as const).map((k) => (
+              <Fragment key={k}>
+                <dt>{k === 'dg' ? c.ex_fix_dg : k === 'sw' ? c.ex_fix_sw : c.ex_fix_en}</dt>
+                <dd lang={k}><WordDiff before={String((item.base?.value as Record<string, string | null> | null)?.[k] ?? '')} after={String(base[k] ?? '')} /></dd>
+              </Fragment>
+            ))}
+          </dl>
+        )}
+        {/* A list: removed items struck through, new ones marked. */}
+        {item.type === 'equivalents_fix' && (() => {
+          const before = (item.base?.value as { list?: string[] } | null)?.list ?? [];
+          const after = (base.items as string[] | undefined) ?? [];
+          return (
+            <>
+              <p className={styles.muted}>{base.lang === 'en' ? c.eq_fix_title_en : c.eq_fix_title_sw}</p>
+              <ul className={styles.items} lang={String(base.lang)}>
+                {before.filter((x) => !after.includes(x)).map((x) => <li key={`-${x}`}><del><VisuallyHidden>{r.rv_removed}: </VisuallyHidden>{x}</del></li>)}
+                {after.map((x) => <li key={`+${x}`}>{before.includes(x) ? x : <ins><VisuallyHidden>{r.rv_added}: </VisuallyHidden>{x}</ins>}</li>)}
+              </ul>
+            </>
+          );
+        })()}
+        {(item.type === 'example_fix' || item.type === 'equivalents_fix') && base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}
         {item.type === 'proverb_variant' && base.note ? <p className={styles.muted}>{String(base.note)}</p> : null}
         {item.type === 'proverb_addition' && (
           <dl className={styles.facts}>
@@ -343,7 +376,7 @@ function ReviewItem({ id }: { id: string }) {
             : item.type === 'proverb_addition' ? String(base.digo)
             : item.type === 'proverb_variant' ? String(base.form)
             : item.type === 'entry_flag' ? String(base.detail ?? '')
-            : item.type === 'translation_fix' ? ''
+            : item.type === 'translation_fix' || item.type === 'example_fix' || item.type === 'equivalents_fix' ? ''
             : payloadSummary(item.payload)}
         </p>
         {item.type === 'definition_update' && base.reason ? <p className={styles.muted}>“{String(base.reason)}”</p> : null}

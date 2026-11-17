@@ -8,7 +8,7 @@ import { resolveTarget, loadWord, testWord } from './targets';
 import { applyAllToEntries, nextSenseId } from './apply/words';
 import { COMMENTARY_MAX } from './apply/proverbs';
 import type { Change } from './apply/types';
-import { warningsFor, needsSecondReview, variantRequired, targetChanged, blocksOnPII, fixProblem, type ReviewRow } from './review';
+import { warningsFor, needsSecondReview, variantRequired, targetChanged, blocksOnPII, fixProblem, equivalentsProblem, type ReviewRow } from './review';
 
 export interface Refusal { error: string; status: number; extra?: Record<string, unknown> }
 
@@ -42,6 +42,11 @@ export async function acceptArgs(
   if (row.type === 'translation_fix') {
     const problem = fixProblem(row, finalPayload);
     if (problem) return { error: problem, status: 422 };
+  }
+  // A reviewer's edit to a list follows the same rules as the reader's (spec 34 §20.2).
+  if (row.type === 'equivalents_fix') {
+    const problem = equivalentsProblem((row.base?.value as { list?: string[] } | null)?.list ?? [], (finalPayload.items as string[]) ?? []);
+    if (problem && problem !== 'unchanged') return { error: problem, status: 422 };
   }
   // A new proverb is published only once a reviewer has decided whether it is for adults (spec 34 §16.9):
   // the reviewer's own final payload must say so; the contributor's checkbox is only a hint.

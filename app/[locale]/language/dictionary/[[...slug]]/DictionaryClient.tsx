@@ -339,11 +339,26 @@ function EntrySection({
 }) {
   const t = useTranslations();
   const { locale } = useLocale();
-  const { open, forms, panelKey } = useWordForms(entry);
+  const { open, forms, panelKey, fixing, setFixing } = useWordForms(entry);
+  const fixable = !entry.is_redirect && !(entry as WordEntry).provisional && contributions === 'all' && canSuggest(entry);
+  // Fix mode on: focus the first "Fix this example" (or "Fix") and bring it into view; off: back to the menu.
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const wasFixing = useRef(false);
+  useEffect(() => {
+    const root = bodyRef.current;
+    if (!root) return;
+    if (fixing && !wasFixing.current) {
+      const first = root.querySelector<HTMLElement>('[data-example-fix], [data-equivalents-fix]');
+      first?.scrollIntoView({ block: 'center' });
+      first?.focus();
+    }
+    if (!fixing && wasFixing.current) root.querySelector<HTMLElement>('[data-word-suggest]')?.focus();
+    wasFixing.current = fixing;
+  }, [fixing]);
   const provenance = (entry as WordEntry).provenance;
 
   return (
-    <div className={styles.entryBody}>
+    <div className={styles.entryBody} ref={bodyRef}>
       <NewWordNote entry={entry} />
       {isHomonym && (
         <div className={styles.homonymLabel}>
@@ -404,6 +419,14 @@ function EntrySection({
                   <div key={i} className={styles.example}>
                     <p className={styles.exDg}>{ex.dg}</p>
                     {translation && <p className={styles.exEn}>{translation}</p>}
+                    {/* Fix mode: the Digo and both translations are fixed together (spec 34 §20). */}
+                    {fixing && fixable && (
+                      <button type="button" className={contrib.textBtn} data-example-fix=""
+                        aria-label={`${t.contribute.ex_fix_pencil}: ${ex.dg}`}
+                        onClick={() => open({ kind: 'example_fix', sense: sense.sense_id, index: i })}>
+                        {t.contribute.ex_fix_pencil}
+                      </button>
+                    )}
                   </div>
                 );
               })}
@@ -412,7 +435,9 @@ function EntrySection({
           {provenance?.[`senses.${sense.sense_id}.definition_${locale}`] && (
             <CreditLine ids={provenance[`senses.${sense.sense_id}.definition_${locale}`].map((e) => e.c)} />
           )}
-          {sense.examples.some((ex) => ex.c) && <CreditLine ids={sense.examples.flatMap((ex) => (ex.c ? [ex.c] : []))} />}
+          {(sense.examples.some((ex) => ex.c) || provenance?.[`senses.${sense.sense_id}.examples`]) && (
+            <CreditLine ids={[...new Set([...sense.examples.flatMap((ex) => (ex.c ? [ex.c] : [])), ...(provenance?.[`senses.${sense.sense_id}.examples`] ?? []).map((e) => e.c)])]} />
+          )}
           {!entry.is_redirect && !(entry as WordEntry).provisional && contributions === 'all' && canSuggest(entry) && (
             <ImproveLink onClick={() => open({ kind: 'definition', sense: sense.sense_id })} />
           )}
@@ -440,23 +465,37 @@ function EntrySection({
       ))}
 
       {(() => {
-        const showEn = locale !== 'en' && entry.equivalents_en.length > 0;
-        const showSw = locale !== 'sw' && entry.equivalents_sw.length > 0;
+        // In fix mode both lines show, even in their own language or empty, each with "Fix" (spec 34 §20.5).
+        const fixMode = fixing && fixable;
+        const showEn = fixMode || (locale !== 'en' && entry.equivalents_en.length > 0);
+        const showSw = fixMode || (locale !== 'sw' && entry.equivalents_sw.length > 0);
         if (!showEn && !showSw) return null;
+        const line = (lang: 'en' | 'sw') => {
+          const list = lang === 'en' ? entry.equivalents_en : entry.equivalents_sw;
+          const credit = provenance?.[`equivalents_${lang}`];
+          return (
+            <>
+              <p>
+                <span className={styles.equivLabel}>{lang === 'en' ? t.dictionary.equivalents_en : t.dictionary.equivalents_sw}:</span>{' '}
+                {list.join(', ') || '—'}
+                {fixMode && (
+                  <>
+                    {' '}
+                    <button type="button" className={contrib.textBtn} data-equivalents-fix="" onClick={() => open({ kind: 'equivalents', lang })}
+                      aria-label={lang === 'en' ? t.contribute.eq_fix_title_en : t.contribute.eq_fix_title_sw}>
+                      {t.contribute.eq_fix_pencil}
+                    </button>
+                  </>
+                )}
+              </p>
+              {credit && <CreditLine ids={credit.map((e) => e.c)} />}
+            </>
+          );
+        };
         return (
           <div className={styles.equivalents}>
-            {showEn && (
-              <p>
-                <span className={styles.equivLabel}>{t.dictionary.equivalents_en}:</span>{' '}
-                {entry.equivalents_en.join(', ')}
-              </p>
-            )}
-            {showSw && (
-              <p>
-                <span className={styles.equivLabel}>{t.dictionary.equivalents_sw}:</span>{' '}
-                {entry.equivalents_sw.join(', ')}
-              </p>
-            )}
+            {showEn && line('en')}
+            {showSw && line('sw')}
           </div>
         );
       })()}
@@ -481,7 +520,16 @@ function EntrySection({
         </div>
       )}
 
-      {!entry.is_redirect && canSuggest(entry) && <WordSuggest entry={entry} open={open} panelKey={panelKey} contributions={contributions} />}
+      {fixing && fixable && (
+        <button type="button" className={contrib.textBtn} onClick={() => setFixing(false)}>{t.contribute.tf_mode_off}</button>
+      )}
+      {!entry.is_redirect && canSuggest(entry) && (
+        <WordSuggest entry={entry} open={open} panelKey={panelKey} contributions={contributions}
+          onFix={fixable ? () => {
+            setFixing(true);
+            track('contribute', 'dictionary', 'fix_mode_on', { id: entry.id });
+          } : undefined} />
+      )}
       {forms}
     </div>
   );

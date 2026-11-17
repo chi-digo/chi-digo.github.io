@@ -195,7 +195,7 @@ function wordDigo(type: string, p: Record<string, unknown>): string[] {
   const s = (k: string) => (typeof p[k] === 'string' ? [p[k] as string] : []);
   if (type === 'word_addition') return [...s('headword'), ...s('definition_dg'), ...s('example_dg')];
   if (type === 'definition_update') return p.lang === 'dg' ? s('text') : [];
-  if (type === 'example_sentence') return s('dg');
+  if (type === 'example_sentence' || type === 'example_fix') return s('dg');
   if (type === 'spelling_variant' || type === 'headword_change') return s('form');
   return [];
 }
@@ -376,7 +376,7 @@ for (const row of ordered) {
     }
     continue;
   }
-  if (row.target_type === 'word' && ['word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'headword_change'].includes(row.type)) {
+  if (row.target_type === 'word' && ['word_addition', 'definition_update', 'example_sentence', 'spelling_variant', 'headword_change', 'example_fix', 'equivalents_fix'].includes(row.type)) {
     try {
       results[foldWord(row, change)].push(row.id);
     } catch (err) {

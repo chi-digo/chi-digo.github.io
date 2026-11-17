@@ -235,7 +235,8 @@ export async function loadReverseIndex(
   if (!mergedReverse.has(lang)) {
     const p = Promise.all([fetchJson<ReverseIndex>(`/data/reverse-${lang}.json`), wordOverlay()]).then(([idx, changes]) => {
       const adds = changes.filter((c) => c.type === "word_addition");
-      if (!adds.length) return idx;
+      const lists = changes.filter((c) => c.type === "equivalents_fix" && c.final_payload.lang === lang && c.target_id && !c.target_id.startsWith("c:") && c.target_id !== "__test__");
+      if (!adds.length && !lists.length) return idx;
       // No prototype: a term like "constructor" must be an ordinary key.
       const out: ReverseIndex = Object.assign(Object.create(null), idx);
       for (const c of adds) {
@@ -247,6 +248,20 @@ export async function loadReverseIndex(
           const list = Object.hasOwn(out, term) ? out[term] : [];
           if (list.some((x) => x[1].replace(/\.\d+$/, "") === e.sort_key)) continue;
           out[term] = [...list, [e.sort_key.charAt(0) || "x", e.id, hw]];
+        }
+      }
+      // A live equivalents fix (spec 34 §20.4): its old terms stop pointing at the entry, its new ones start.
+      for (const c of lists) {
+        const id = c.target_id;
+        for (const q of ((c.base?.value as { list?: string[] } | undefined)?.list ?? [])) {
+          const term = q.toLowerCase().trim();
+          if (Object.hasOwn(out, term)) out[term] = out[term].filter((x) => x[1] !== id);
+        }
+        for (const q of (c.final_payload.items as string[] | undefined) ?? []) {
+          const term = q.toLowerCase().trim();
+          if (!term) continue;
+          const list = Object.hasOwn(out, term) ? out[term] : [];
+          if (!list.some((x) => x[1] === id)) out[term] = [...list, [id.charAt(0) || "x", id]];
         }
       }
       return out;

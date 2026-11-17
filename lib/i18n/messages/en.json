@@ -936,7 +936,26 @@
     "ui_fix_none_of_these": "None of these: write my own",
     "notif_batch_accepted_one": "1 of your suggestions was accepted.",
     "notif_batch_declined_one": "1 of your suggestions wasn’t accepted.",
-    "notif_batch_none": "A reviewer went through your suggestions."
+    "notif_batch_none": "A reviewer went through your suggestions.",
+    "word_menu_fix": "Fix a translation",
+    "ex_fix_title": "Fix this example",
+    "ex_fix_intro": "Correct the Digo sentence and its translations together, so they say the same thing.",
+    "ex_fix_dg": "In Digo",
+    "ex_fix_sw": "In Swahili",
+    "ex_fix_en": "In English",
+    "ex_fix_pencil": "Fix this example",
+    "eq_fix_title_sw": "Fix the Swahili equivalents",
+    "eq_fix_title_en": "Fix the English equivalents",
+    "eq_fix_intro": "One word or short phrase in each field. Search uses these to find this word.",
+    "eq_fix_item": "Word or phrase {n}",
+    "eq_fix_add": "Add another",
+    "eq_fix_remove": "Remove",
+    "eq_fix_pencil": "Fix",
+    "type_example_fix": "Example fix",
+    "type_equivalents_fix": "Equivalents fix",
+    "error_too_many": "That's too many words. Keep it to the most common ones.",
+    "error_duplicate": "The same word appears twice.",
+    "error_too_long": "A new word or phrase can be at most 60 characters."
   },
   "review": {
     "ui_alone_off": "Interface fixes need two reviewers; other changes only when no one else could confirm.",
@@ -1077,7 +1096,9 @@
     "bulk_paused": "Accepted; shows when publishing resumes",
     "bulk_confirm_failed": "Accepted, but confirming alone failed: it waits for a second reviewer",
     "bulk_select_first_50": "Select the first 50",
-    "bulk_max": "50 at most"
+    "bulk_max": "50 at most",
+    "rv_removed": "removed",
+    "rv_added": "added"
   },
   "admin": {
     "menu_admin": "Reviewers",

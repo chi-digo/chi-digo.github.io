@@ -54,9 +54,20 @@ export async function getCaller(): Promise<Caller | NextResponse> {
  * Whether the caller may review this row's language: a Swahili or Digo translation fix goes only to
  * reviewers marked as reading it (admins read all). The database enforces the same rule.
  */
-export function readsLanguage(caller: Caller, row: { type: string; payload?: Record<string, unknown> | null }): boolean {
+export function readsLanguage(
+  caller: Caller,
+  row: { type: string; payload?: Record<string, unknown> | null; base?: { value: unknown } | null },
+  final?: Record<string, unknown> | null,
+): boolean {
   // Section corrections on Swahili and Digo pages are translations too (owner decision 3).
-  if ((row.type !== 'translation_fix' && row.type !== 'plant_info') || caller.role === 'admin') return true;
+  if (!['translation_fix', 'plant_info', 'example_fix', 'equivalents_fix'].includes(row.type) || caller.role === 'admin') return true;
+  // An example fix: every Digo or Swahili part it changes, including a reviewer's own edit (spec 34 §20).
+  if (row.type === 'example_fix') {
+    const p = final ?? row.payload ?? {};
+    const b = (row.base?.value ?? {}) as Record<string, string | null>;
+    const langs = (['dg', 'sw'] as const).filter((k) => String(p[k] ?? '') !== (b[k] ?? ''));
+    return langs.every((l) => caller.languages.includes(l));
+  }
   const lang = row.payload?.lang;
   return lang !== 'sw' && lang !== 'dg' ? true : caller.languages.includes(lang);
 }

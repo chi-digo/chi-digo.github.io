@@ -11,7 +11,7 @@ import type { Locale } from '@/lib/i18n/config';
 import { stableStringify, normaliseDigo } from './text';
 import { plantNameBase, plantInfoBase, applyAllToPlant } from './apply/plants';
 import type { Change } from './apply/types';
-import { applyAllToEntries, definitionBase, sortKeyOf, type WordEntry } from './apply/words';
+import { applyAllToEntries, definitionBase, exampleBase, findExample, sortKeyOf, type WordEntry } from './apply/words';
 import { applyAllToProverbs, contextField, meaningField, proverbFieldBase, type ProverbEntry } from './apply/proverbs';
 import { digoLetterFile } from '@/lib/dictionary/letters';
 import { TEST_TARGET, WORD_ID, type ContributionType, type TargetType, type TranslationField } from './schemas';
@@ -173,7 +173,8 @@ export function testWord(): WordEntry {
   return {
     id: TEST_TARGET, headword: TEST_TARGET, homonym_index: null, sort_key: TEST_TARGET, pos: 'dzina', pos_en: 'noun', noun_class: null,
     plural_prefix: null, plural_form: null, ipa: '', audio: [], equivalents_en: ['test'], equivalents_sw: ['jaribio'], variants: [],
-    senses: [{ sense_id: 1, definition_en: 'test', definition_sw: 'jaribio', definition_dg: 'majaribio', definition_dg_status: 'draft', examples: [],
+    senses: [{ sense_id: 1, definition_en: 'test', definition_sw: 'jaribio', definition_dg: 'majaribio', definition_dg_status: 'draft',
+      examples: [{ dg: 'Ni mfano wa majaribio.', en: 'It is a test example.', source: 'generated', sw: 'Ni mfano wa jaribio.' }],
       synonyms_dg: [], antonyms_dg: [], cross_refs: [], cultural_note: null, register: 'neutral', dialect_tags: [] }],
     etymology: { source: null, root: null, notes: '' } as WordEntry['etymology'], bible_refs: [], proverb_refs: [], sub_entries: [],
     editorial_state: 'draft', is_redirect: false, redirect_target: null,
@@ -211,6 +212,17 @@ function resolveWordTarget(
   }
   if (type === 'spelling_variant') return { label, path: 'variants' };
   if (type === 'headword_change') return { label, path: 'headword' };
+  // A fixed example: found by place and sentence hash, exactly as the applier finds it (spec 34 §20.3).
+  if (type === 'example_fix') {
+    const sense = entry.senses.find((s) => s.sense_id === n);
+    const ex = sense ? findExample(sense.examples, Number(payload.index), String(payload.dg_key ?? '')) : null;
+    if (!sense || !ex) return null;
+    return { label, path: `senses.${n}.examples.${sense.examples.indexOf(ex)}`, base: withHash(exampleBase(ex)), source: ex.dg };
+  }
+  if (type === 'equivalents_fix') {
+    const key = payload.lang === 'en' ? 'equivalents_en' : 'equivalents_sw';
+    return { label, path: key, base: withHash({ list: [...(entry[key] ?? [])] }), source: entry.senses[0]?.definition_en ?? null };
+  }
   if (type === 'entry_flag') return { label, path: null };
   return null;
 }
