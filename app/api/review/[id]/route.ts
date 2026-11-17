@@ -7,13 +7,28 @@ import {
 } from '@/lib/contributions/server';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 import { resolveTarget, loadWord, testWord, headwordBase, headwordRefusal, headwordExists, entryFile } from '@/lib/contributions/targets';
-import { applyAllToEntries, exampleKey, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
+import { applyAllToEntries, sortKeyOf, type WordEntry } from '@/lib/contributions/apply/words';
 import { COMMENTARY_MAX } from '@/lib/contributions/apply/proverbs';
 import { lockedFieldsChanged, wordDependants, proverbDependants, blocksOnPII, fixProblem } from '@/lib/contributions/review';
 import { acceptArgs, minimumSensePath } from '@/lib/contributions/decide';
 import { warningsFor, targetChanged, type ReviewRow } from '@/lib/contributions/review';
 
 const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_path, target_label, payload, final_payload, note, region, village, confidence, recorded_for, credit_opt_in, locale, page_path, status, live_status, fold_status, fold_error, outcome, base, held, hidden_at, reply, review_note, agree_count, raw_agree_count, claimed_by, claimed_until, reviewer_id, is_test, created_at, reviewed_at';
+
+/** Accepted example or list fixes made after this row on the same sense or list (spec 34 §20.3). */
+async function laterDictionaryFixes(
+  db: SupabaseClient,
+  row: { id: string; type: string; target_id: string | null; payload: Record<string, unknown>; final_payload?: Record<string, unknown> | null; created_at?: string },
+) {
+  const p = row.final_payload ?? row.payload;
+  const type = row.type === 'equivalents_fix' ? 'equivalents_fix' : 'example_fix';
+  const { data } = await db.from('contributions').select('id, type, final_payload, created_at')
+    .eq('type', type).eq('status', 'accepted').eq('target_id', row.target_id ?? '').neq('id', row.id).gt('created_at', row.created_at ?? '');
+  return (data ?? []).filter((f) => {
+    const q = (f.final_payload ?? {}) as Record<string, unknown>;
+    return type === 'equivalents_fix' ? q.lang === p.lang : String(q.sense_id) === String(p.sense_id);
+  }).map((f) => ({ id: f.id, type: f.type }));
+}
 
 /**
  * Refusals that depend on the live changes: the form must still be on the entry, and a community word
@@ -193,7 +208,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   try {
     const row = await load(caller.db, id);
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
-    if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
+    if (!canReview(caller, row.scope) || !readsLanguage(caller, row, body.final_payload)) return forbidden();
     if (row.user_id === caller.id) return forbidden('self_review');
 
     // A headword change: an admin reverts it or retries its fold-in unchanged; nothing else (spec 34 §18.1).
@@ -215,13 +230,11 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     if (body.final_payload && lockedFieldsChanged(row.type as ContributionType, row.payload, body.final_payload)) {
       return badRequest('locked_fields');
     }
-    // An example that a live fix was made on can't be removed until the fix is undone (spec 34 §20.3).
-    if (body.action === 'revert' && row.type === 'example_sentence') {
-      const key = exampleKey(String((row.final_payload ?? row.payload).dg ?? ''));
-      const { data: fixes } = await caller.db.from('contributions').select('id, type, final_payload')
-        .eq('type', 'example_fix').eq('status', 'accepted').eq('target_id', row.target_id ?? '');
-      const deps = (fixes ?? []).filter((f) => (f.final_payload as Record<string, unknown> | null)?.dg_key === key).map((f) => ({ id: f.id, type: f.type }));
-      if (deps.length) return NextResponse.json({ error: 'has_dependants', dependants: deps }, { status: 409 });
+    // Fixes on a dictionary example or list are undone newest first, and an example can't be removed while
+    // a later fix on its sense stands (spec 34 §20.3): a later fix was made on top of the earlier text.
+    if (body.action === 'revert' && ['example_sentence', 'example_fix', 'equivalents_fix'].includes(row.type)) {
+      const later = await laterDictionaryFixes(caller.db, row);
+      if (later.length) return NextResponse.json({ error: 'has_dependants', dependants: later }, { status: 409 });
     }
     // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
     if (body.action === 'revert' && (row.type === 'word_addition' || row.type === 'proverb_addition')) {

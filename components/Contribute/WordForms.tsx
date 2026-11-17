@@ -238,8 +238,12 @@ export function ExampleFixForm({ open, onClose, entry, onSubmitted, senseId, ind
   const c = useTranslations().contribute;
   const ex = entry.senses.find((s) => s.sense_id === senseId)?.examples[index];
   const key = `example_fix:${entry.id}:${senseId}:${index}`;
-  const [draft, setDraft, clear] = useContributionDraft(key, { dg: ex?.dg ?? '', en: ex?.en ?? '', sw: ex?.sw ?? '', reason: '' });
+  const [stored, setDraft, clear] = useContributionDraft(key, { dg: ex?.dg ?? '', en: ex?.en ?? '', sw: ex?.sw ?? '', reason: '', of: ex ? exampleKey(ex.dg) : '' });
   if (!ex) return null;
+  // A draft kept from before the example changed would undo someone else's fix: start again from now.
+  const fresh = stored.of === exampleKey(ex.dg);
+  const draft = fresh ? stored : { dg: ex.dg, en: ex.en ?? '', sw: ex.sw ?? '', reason: stored.reason, of: exampleKey(ex.dg) };
+  const update = (patch: Partial<typeof draft>) => setDraft(fresh ? patch : { ...draft, ...patch });
   const changed = (['dg', 'en', 'sw'] as const).some((k) => draft[k].trim() !== (ex[k] ?? '').trim());
   const payload = changed && draft.dg.trim() && draft.reason.trim()
     ? { sense_id: String(senseId), index, dg_key: exampleKey(ex.dg), dg: draft.dg.trim(), en: draft.en.trim(), sw: draft.sw.trim(), reason: draft.reason.trim() }
@@ -261,10 +265,10 @@ export function ExampleFixForm({ open, onClose, entry, onSubmitted, senseId, ind
         onSubmitted?.();
       }}
     >
-      <TextArea label={c.ex_fix_dg} lang="dg" value={draft.dg} onChange={(e) => setDraft({ dg: e.target.value })} maxLength={400} rows={2} autoFocus />
-      <TextArea label={c.ex_fix_sw} lang="sw" value={draft.sw} onChange={(e) => setDraft({ sw: e.target.value })} maxLength={400} rows={2} />
-      <TextArea label={c.ex_fix_en} lang="en" value={draft.en} onChange={(e) => setDraft({ en: e.target.value })} maxLength={400} rows={2} />
-      <TextField label={c.tf_reason} value={draft.reason} onChange={(e) => setDraft({ reason: e.target.value })} maxLength={300} />
+      <TextArea label={c.ex_fix_dg} lang="dg" value={draft.dg} onChange={(e) => update({ dg: e.target.value })} maxLength={400} rows={2} autoFocus />
+      <TextArea label={c.ex_fix_sw} lang="sw" value={draft.sw} onChange={(e) => update({ sw: e.target.value })} maxLength={400} rows={2} />
+      <TextArea label={c.ex_fix_en} lang="en" value={draft.en} onChange={(e) => update({ en: e.target.value })} maxLength={400} rows={2} />
+      <TextField label={c.tf_reason} value={draft.reason} onChange={(e) => update({ reason: e.target.value })} maxLength={300} />
     </ContributionDialog>
   );
 }
@@ -302,7 +306,8 @@ export function EquivalentsForm({ open, onClose, entry, onSubmitted, lang }: Ent
               lang={lang}
               value={item}
               onChange={(e) => setDraft({ items: draft.items.map((x, j) => (j === i ? e.target.value : x)) })}
-              maxLength={200}
+              // New words: at most 60 characters (spec 34 §20.2); an existing longer one may stay as it is.
+              maxLength={Math.max(60, current[i]?.length ?? 0)}
             />
           </div>
           {draft.items.length > 1 && (

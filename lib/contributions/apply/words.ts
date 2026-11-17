@@ -285,10 +285,13 @@ export function unapplyWord(entry: WordEntry, change: Change): WordEntry {
     const sense = entry.senses.find((x) => x.sense_id === n);
     // The fixed example: the one that now reads exactly as the fix wrote it.
     const now = { dg: String(p.dg), en: typeof p.en === 'string' ? String(p.en) : '', sw: typeof p.sw === 'string' ? String(p.sw) : '' };
-    const matches = (sense?.examples ?? []).filter((x) => x.dg === now.dg && (x.en ?? '') === now.en && (x.sw ?? '') === now.sw);
+    const reads = (x: Example) => x.dg === now.dg && (x.en ?? '') === now.en && (x.sw ?? '') === now.sw;
+    // At its place first (a fix may have made it read like a neighbour), else the only one that reads so.
+    const atPlace = sense ? findExample(sense.examples, Number(p.index), exampleKey(now.dg)) : null;
+    const matches = (sense?.examples ?? []).filter(reads);
+    const ex = atPlace && reads(atPlace) ? atPlace : matches.length === 1 ? matches[0] : null;
     const base = change.base?.value as { dg: string; en: string | null; sw: string | null } | undefined;
-    if (matches.length !== 1 || !base) throw new ConflictError(c, `senses.${n}.examples`);
-    const ex = matches[0];
+    if (!ex || !base) throw new ConflictError(c, `senses.${n}.examples`);
     const back = { ...ex, dg: base.dg } as Example & Record<string, unknown>;
     for (const lang of ['en', 'sw'] as const) {
       if (base[lang] === null) delete back[lang];

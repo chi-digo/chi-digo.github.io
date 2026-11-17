@@ -341,10 +341,24 @@ function EntrySection({
   const { locale } = useLocale();
   const { open, forms, panelKey, fixing, setFixing } = useWordForms(entry);
   const fixable = !entry.is_redirect && !(entry as WordEntry).provisional && contributions === 'all' && canSuggest(entry);
+  // Fix mode on: focus the first "Fix this example" (or "Fix") and bring it into view; off: back to the menu.
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const wasFixing = useRef(false);
+  useEffect(() => {
+    const root = bodyRef.current;
+    if (!root) return;
+    if (fixing && !wasFixing.current) {
+      const first = root.querySelector<HTMLElement>('[data-example-fix], [data-equivalents-fix]');
+      first?.scrollIntoView({ block: 'center' });
+      first?.focus();
+    }
+    if (!fixing && wasFixing.current) root.querySelector<HTMLElement>('[data-word-suggest]')?.focus();
+    wasFixing.current = fixing;
+  }, [fixing]);
   const provenance = (entry as WordEntry).provenance;
 
   return (
-    <div className={styles.entryBody}>
+    <div className={styles.entryBody} ref={bodyRef}>
       <NewWordNote entry={entry} />
       {isHomonym && (
         <div className={styles.homonymLabel}>
@@ -407,7 +421,9 @@ function EntrySection({
                     {translation && <p className={styles.exEn}>{translation}</p>}
                     {/* Fix mode: the Digo and both translations are fixed together (spec 34 §20). */}
                     {fixing && fixable && (
-                      <button type="button" className={contrib.textBtn} onClick={() => open({ kind: 'example_fix', sense: sense.sense_id, index: i })}>
+                      <button type="button" className={contrib.textBtn} data-example-fix=""
+                        aria-label={`${t.contribute.ex_fix_pencil}: ${ex.dg}`}
+                        onClick={() => open({ kind: 'example_fix', sense: sense.sense_id, index: i })}>
                         {t.contribute.ex_fix_pencil}
                       </button>
                     )}
@@ -465,7 +481,7 @@ function EntrySection({
                 {fixMode && (
                   <>
                     {' '}
-                    <button type="button" className={contrib.textBtn} onClick={() => open({ kind: 'equivalents', lang })}
+                    <button type="button" className={contrib.textBtn} data-equivalents-fix="" onClick={() => open({ kind: 'equivalents', lang })}
                       aria-label={lang === 'en' ? t.contribute.eq_fix_title_en : t.contribute.eq_fix_title_sw}>
                       {t.contribute.eq_fix_pencil}
                     </button>

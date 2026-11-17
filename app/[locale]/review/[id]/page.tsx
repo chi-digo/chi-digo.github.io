@@ -1,7 +1,7 @@
 'use client';
 
 import { Fragment, use, useCallback, useEffect, useState } from 'react';
-import { Button, RadioGroup, Select, Skeleton, TextArea, TextField } from '@chi-digo/design-system';
+import { Button, RadioGroup, Select, Skeleton, TextArea, TextField, VisuallyHidden } from '@chi-digo/design-system';
 import { PROVERB_THEMES } from '@/lib/proverbs/themes';
 import { AuthGuard } from '@/components/AuthGuard';
 import { TrackedLink } from '@/components/Analytics/TrackedLink';
@@ -350,10 +350,13 @@ function ReviewItem({ id }: { id: string }) {
           const before = (item.base?.value as { list?: string[] } | null)?.list ?? [];
           const after = (base.items as string[] | undefined) ?? [];
           return (
-            <ul className={styles.items} lang={String(base.lang)}>
-              {before.filter((x) => !after.includes(x)).map((x) => <li key={`-${x}`}><del>{x}</del></li>)}
-              {after.map((x) => <li key={`+${x}`}>{before.includes(x) ? x : <ins>{x}</ins>}</li>)}
-            </ul>
+            <>
+              <p className={styles.muted}>{base.lang === 'en' ? c.eq_fix_title_en : c.eq_fix_title_sw}</p>
+              <ul className={styles.items} lang={String(base.lang)}>
+                {before.filter((x) => !after.includes(x)).map((x) => <li key={`-${x}`}><del><VisuallyHidden>{r.rv_removed}: </VisuallyHidden>{x}</del></li>)}
+                {after.map((x) => <li key={`+${x}`}>{before.includes(x) ? x : <ins><VisuallyHidden>{r.rv_added}: </VisuallyHidden>{x}</ins>}</li>)}
+              </ul>
+            </>
           );
         })()}
         {(item.type === 'example_fix' || item.type === 'equivalents_fix') && base.reason ? <p className={styles.muted}><strong>{c.tf_reason}</strong> “{String(base.reason)}”</p> : null}

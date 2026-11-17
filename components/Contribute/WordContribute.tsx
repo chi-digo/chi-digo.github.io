@@ -153,7 +153,7 @@ export function WordSuggest({
         <button type="button" className={styles.textBtn} onClick={() => open({ kind: 'flag' })}>{c.word_menu_flag}</button>
       ) : (
         <>
-          <button type="button" className={styles.textBtn} aria-expanded={menu} onClick={() => setMenu((m) => !m)}>
+          <button type="button" className={styles.textBtn} aria-expanded={menu} data-word-suggest="" onClick={() => setMenu((m) => !m)}>
             {c.word_suggest}
           </button>
           {menu && (

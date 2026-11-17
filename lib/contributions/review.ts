@@ -78,6 +78,31 @@ export function targetChanged(row: ReviewRow, liveChanges: Change[]): boolean {
 }
 
 /**
+ * The server's own checks for a dictionary example or list fix (spec 34 §20), on submit and on a
+ * contributor's resubmit alike: something must change, the list rules hold, and for an example the main
+ * changed language is set here (never taken from the client), since it decides who may review it.
+ */
+export function dictionaryFixProblem(type: string, payload: Record<string, unknown>, base: unknown): string | null {
+  if (type === 'example_fix') {
+    const b = (base ?? {}) as Record<string, string | null>;
+    const changed = (['dg', 'sw', 'en'] as const).filter((k) => String(payload[k] ?? '') !== (b[k] ?? ''));
+    if (!changed.length) return 'unchanged';
+    payload.lang = changed[0];
+    return null;
+  }
+  if (type === 'equivalents_fix') {
+    return equivalentsProblem(((base ?? {}) as { list?: string[] }).list ?? [], (payload.items as string[]) ?? []);
+  }
+  return null;
+}
+
+/** The languages an example fix changes (Digo and Swahili are gated by the reviewer's languages). */
+export function exampleFixLanguages(payload: Record<string, unknown>, base: unknown): ('dg' | 'sw' | 'en')[] {
+  const b = (base ?? {}) as Record<string, string | null>;
+  return (['dg', 'sw', 'en'] as const).filter((k) => String(payload[k] ?? '') !== (b[k] ?? ''));
+}
+
+/**
  * The rules for an equivalents list (spec 34 §20.2): at least one item, no duplicates, at most
  * max(8, the current length); only items that are new or changed must be 1–60 characters, so long
  * legacy items can stay. Items may contain commas.

@@ -952,7 +952,10 @@
     "eq_fix_remove": "Usa",
     "eq_fix_pencil": "Rekebisha",
     "type_example_fix": "Rekebisho ra mfano",
-    "type_equivalents_fix": "Rekebisho ra maneno ganagolingana"
+    "type_equivalents_fix": "Rekebisho ra maneno ganagolingana",
+    "error_too_many": "Maneno ni manji muno. Rekeza garigo ganahumirwa zaidi.",
+    "error_duplicate": "Neno mwenga rikadzirudia.",
+    "error_too_long": "Neno au chifungu chiphya chisizidi arufu 60."
   },
   "review": {
     "ui_alone_off": "",
@@ -1093,7 +1096,9 @@
     "bulk_paused": "",
     "bulk_confirm_failed": "",
     "bulk_select_first_50": "",
-    "bulk_max": ""
+    "bulk_max": "",
+    "rv_removed": "",
+    "rv_added": ""
   },
   "admin": {
     "menu_admin": "",
