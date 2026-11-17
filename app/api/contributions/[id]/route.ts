@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { PAYLOADS, type ContributionType } from '@/lib/contributions/schemas';
 import { optSafeText } from '@/lib/contributions/text';
 import { getCaller, badRequest, forbidden, serverError, overlayArea } from '@/lib/contributions/server';
-import { fixProblem } from '@/lib/contributions/review';
+import { fixProblem, dictionaryFixProblem } from '@/lib/contributions/review';
 import { resolveTarget } from '@/lib/contributions/targets';
 import { getAreaOverlay } from '@/lib/contributions/overlay';
 
@@ -51,6 +51,11 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
         if (!target) return NextResponse.json({ error: 'target_not_found' }, { status: 404 });
         if (row.type === 'translation_fix') {
           const problem = fixProblem({ target_type: row.target_type, target_path: target.path, base: target.base ?? null }, payload.data as Record<string, unknown>);
+          if (problem) return badRequest(problem);
+        }
+        // The same checks as a first submit, and the main language set on the server (spec 34 §20).
+        if (row.type === 'example_fix' || row.type === 'equivalents_fix') {
+          const problem = dictionaryFixProblem(row.type, payload.data as Record<string, unknown>, target.base?.value);
           if (problem) return badRequest(problem);
         }
         update = {

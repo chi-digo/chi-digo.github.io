@@ -7,6 +7,8 @@ const valid: Record<string, unknown> = {
   example_sentence: { sense_id: '1', dg: 'Anafyombera mnazi', en: 'He climbs the coconut palm' },
   spelling_variant: { form: 'kpwera', kind: 'dialect' },
   headword_change: { form: 'mnadzi', variant: '00000000-0000-4000-8000-000000000001' },
+  example_fix: { sense_id: '1', index: 0, dg_key: '0a1b2c3d', dg: 'Ni mfano.', en: 'An example.', sw: 'Ni mfano.', reason: 'Better' },
+  equivalents_fix: { lang: 'sw', items: ['mama', 'mzazi, mlezi'], reason: 'Missing' },
   entry_flag: { reason: 'wrong_meaning' },
   proverb_addition: { digo: 'Haraka haraka taina baraka', meaning_en: 'Haste has no blessing' },
   proverb_variant: { form: 'Haraka taina baraka' },

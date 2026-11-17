@@ -15,6 +15,21 @@ import { warningsFor, targetChanged, type ReviewRow } from '@/lib/contributions/
 
 const COLUMNS = 'id, user_id, type, scope, target_type, target_id, target_path, target_label, payload, final_payload, note, region, village, confidence, recorded_for, credit_opt_in, locale, page_path, status, live_status, fold_status, fold_error, outcome, base, held, hidden_at, reply, review_note, agree_count, raw_agree_count, claimed_by, claimed_until, reviewer_id, is_test, created_at, reviewed_at';
 
+/** Accepted example or list fixes made after this row on the same sense or list (spec 34 §20.3). */
+async function laterDictionaryFixes(
+  db: SupabaseClient,
+  row: { id: string; type: string; target_id: string | null; payload: Record<string, unknown>; final_payload?: Record<string, unknown> | null; created_at?: string },
+) {
+  const p = row.final_payload ?? row.payload;
+  const type = row.type === 'equivalents_fix' ? 'equivalents_fix' : 'example_fix';
+  const { data } = await db.from('contributions').select('id, type, final_payload, created_at')
+    .eq('type', type).eq('status', 'accepted').eq('target_id', row.target_id ?? '').neq('id', row.id).gt('created_at', row.created_at ?? '');
+  return (data ?? []).filter((f) => {
+    const q = (f.final_payload ?? {}) as Record<string, unknown>;
+    return type === 'equivalents_fix' ? q.lang === p.lang : String(q.sense_id) === String(p.sense_id);
+  }).map((f) => ({ id: f.id, type: f.type }));
+}
+
 /**
  * Refusals that depend on the live changes: the form must still be on the entry, and a community word
  * still settling into the files (its overlay copy) can't be renamed yet.
@@ -193,7 +208,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   try {
     const row = await load(caller.db, id);
     if (!row || row.is_test !== caller.isTest) return NextResponse.json({ error: 'not_found' }, { status: 404 });
-    if (!canReview(caller, row.scope) || !readsLanguage(caller, row)) return forbidden();
+    if (!canReview(caller, row.scope) || !readsLanguage(caller, row, body.final_payload)) return forbidden();
     if (row.user_id === caller.id) return forbidden('self_review');
 
     // A headword change: an admin reverts it or retries its fold-in unchanged; nothing else (spec 34 §18.1).
@@ -214,6 +229,12 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     // A reviewer may correct the text, never what a dictionary change points at (spec 34 §15.3).
     if (body.final_payload && lockedFieldsChanged(row.type as ContributionType, row.payload, body.final_payload)) {
       return badRequest('locked_fields');
+    }
+    // Fixes on a dictionary example or list are undone newest first, and an example can't be removed while
+    // a later fix on its sense stands (spec 34 §20.3): a later fix was made on top of the earlier text.
+    if (body.action === 'revert' && ['example_sentence', 'example_fix', 'equivalents_fix'].includes(row.type)) {
+      const later = await laterDictionaryFixes(caller.db, row);
+      if (later.length) return NextResponse.json({ error: 'has_dependants', dependants: later }, { status: 409 });
     }
     // A new word that other changes build on can't be undone until they are (spec 34 §15.3).
     if (body.action === 'revert' && (row.type === 'word_addition' || row.type === 'proverb_addition')) {

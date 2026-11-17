@@ -479,6 +479,24 @@ async function main() {
     await c.keyboard.press('Escape');
     await c.evaluate(() => localStorage.removeItem('contrib-test-ui'));
 
+    console.log('4i. fixing a dictionary example and its equivalents (spec 34 §20)');
+    await d.goto(`${BASE}${WORD}`);
+    await d.getByRole('button', { name: 'Suggest an edit' }).click();
+    await d.getByRole('menuitem', { name: 'Fix a translation' }).click();
+    check('fix mode offers "Fix this example"', await d.getByRole('button', { name: 'Fix this example' }).first().waitFor({ timeout: 15000 }).then(() => true, () => false));
+    await d.getByRole('button', { name: 'Fix this example' }).first().click();
+    const dgNow = await d.getByRole('textbox', { name: 'In Digo', exact: true }).inputValue().catch(() => '');
+    const swNow = await d.getByRole('textbox', { name: 'In Swahili', exact: true }).inputValue().catch(() => '');
+    check('…one form with the Digo and both translations, as they are now', dgNow === 'Ni mfano wa majaribio.' && swNow.length > 0, [dgNow, swNow]);
+    await shot(d, '26-example-fix');
+    await d.keyboard.press('Escape');
+    await d.getByRole('button', { name: 'Fix the Swahili equivalents' }).click();
+    check('the Swahili equivalents open as a list, one field per word', await d.getByRole('textbox', { name: 'Word or phrase 1' }).waitFor({ timeout: 15000 }).then(() => true, () => false));
+    await d.getByRole('button', { name: 'Add another' }).click();
+    check('…with room to add one', await d.getByRole('textbox', { name: /Word or phrase 2/ }).isVisible().catch(() => false));
+    await shot(d, '27-equivalents-fix');
+    await d.keyboard.press('Escape');
+
     console.log('5. phone layout, offline, feedback');
     const p = await cCtx.newPage();
     await p.setViewportSize({ width: 390, height: 844 });
