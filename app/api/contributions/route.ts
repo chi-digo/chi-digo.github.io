@@ -87,6 +87,13 @@ export async function POST(request: Request) {
       const problem = dictionaryFixProblem(input.type, payload.data as Record<string, unknown>, target.base?.value);
       if (problem) return badRequest(problem);
     }
+    if (input.type === 'translation_fix') {
+      const proposed = (payload.data as { proposed: string }).proposed;
+      const problem = input.target_type === 'ui'
+        ? uiTextProblem(String(target.source ?? ''), String((target.base?.value as { text?: string })?.text ?? ''), proposed)
+        : translationTextProblem(target.base?.value, proposed);
+      if (problem) return badRequest(problem);
+    }
 
     // A plant name someone already suggested: ask "is it the same?" instead of filing a duplicate.
     if (input.type === 'plant_name' && !force_new) {
